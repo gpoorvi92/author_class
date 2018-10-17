@@ -1,0 +1,8 @@
+		public TextView chatTextView;
+		public ImageView chatImage;
+		public VoicePlayItem chatVoice;
+		public TextView chatLoaction;
+		public WebView chatWebview;
+	}
+
+}

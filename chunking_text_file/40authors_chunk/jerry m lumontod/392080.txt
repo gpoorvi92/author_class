@@ -1,0 +1,10 @@
+				break;
+			case 32:
+				mintResult = s1.mstrEntrySource.compareTo(s2.mstrEntrySource);
+				break;
+			case 33:
+				mintResult = s1.mstrMatchedVia.compareTo(s2.mstrMatchedVia);
+				break;
+			case 34:
+				mintResult = s1.mstrBatch.compareTo(s2.mstrBatch);
+				break;

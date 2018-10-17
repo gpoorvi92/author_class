@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 构造函数。
+	 * @param title
+	 * 	消息标题。
+	 * */
+	public Article(String title){
+		this(title,null);
+	}
+	/**

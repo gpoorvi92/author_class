@@ -1,0 +1,10 @@
+    private String last_name;
+    private String username;
+
+    public Integer id() {
+        return id;
+    }
+
+    public String firstName() {
+        return first_name;
+    }

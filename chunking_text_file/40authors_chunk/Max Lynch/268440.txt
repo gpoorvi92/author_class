@@ -1,0 +1,10 @@
+		Thread runner;
+		int speed = 100;
+		
+		int x = 120;
+		int y = 120;
+		
+		int incx = 5;
+		int incy = 5;
+		
+		int r;

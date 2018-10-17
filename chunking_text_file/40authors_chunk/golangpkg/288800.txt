@@ -1,0 +1,10 @@
+	}
+
+
+	public RequestUploadProcessingConfiguration getUploadProcessingConfiguration(UUID uuid) {
+		return configurationMap.getUnchecked(uuid);
+	}
+
+
+	@ManagedAttribute
+	public long getMaximumRatePerClientInKiloBytes() {

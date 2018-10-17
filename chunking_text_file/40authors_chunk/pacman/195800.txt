@@ -1,0 +1,10 @@
+		}
+
+		logger.info("[Environment prechecking] OK: " + key);
+		return true;
+	}
+
+	private static Map<String, Field> getFileds(Class<?> clazz) {
+
+		Field[] fields = clazz.getDeclaredFields();
+		Map<String, Field> map = new HashMap<String, Field>();

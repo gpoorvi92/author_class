@@ -1,0 +1,10 @@
+	 
+	public void setBackground(Color color) {
+		renderMediator.setBackground(color);
+	}
+	
+	public void setBackground(GradientPaint gp) {
+		renderMediator.setBackground(gp);
+	}
+	
+	public void setBackground(RadialGradientPaint rgp) {

@@ -1,0 +1,10 @@
+    
+    System.out.println("Escribe cualquier numero de 1 a 99");
+    
+    int num;
+    int contador = 0;
+      
+    Scanner teclado = new Scanner(System.in);
+    num = teclado.nextInt();
+    
+    do {

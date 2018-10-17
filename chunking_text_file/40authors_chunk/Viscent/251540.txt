@@ -1,0 +1,10 @@
+			thread = new XThread("message-" + i);
+			thread.start();
+		}
+		
+		Thread.sleep(50);
+
+	}
+
+	private static class XThread extends Thread {
+		private final String message;

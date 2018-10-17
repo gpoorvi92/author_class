@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private BitmapTextureAtlas mBitmapTextureAtlasBilinear;
+	private BitmapTextureAtlas mBitmapTextureAtlasRepeating;
+
+	private ITextureRegion mFaceTextureRegion;

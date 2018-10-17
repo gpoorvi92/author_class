@@ -1,0 +1,10 @@
+
+	/**
+	 * Creates a DevCatInfo with the <Profile, DevCat> parameter
+	 * @param profile the Profile
+	 * @param devCat the DevCat
+	 */
+	DefaultDevCatInfo( Profile profile, DevCat devCat )
+	{
+		this.profile = profile;
+		this.devCat = devCat;

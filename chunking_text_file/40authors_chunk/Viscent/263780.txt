@@ -1,0 +1,10 @@
+					    return ftpClient;
+				    }
+
+			    });
+
+			new Thread((FutureTask<FTPClient>) ftpClientPromise).start();
+		}
+
+		public void download(String file) {
+			try {

@@ -1,0 +1,10 @@
+            {
+                channel.write(response);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+    }
+    public abstract IResult CP_Login(Logic2Login1.CP_Login packet);
+    

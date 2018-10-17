@@ -1,0 +1,10 @@
+        tmpfile.deleteOnExit();
+        final FileOutputStream fos = new FileOutputStream(tmpfile);
+        EWAHCompressedBitmap ewahBitmap = EWAHCompressedBitmap.bitmapOf(0, 2, 55,
+                                64, 1 << 30);
+        System.out.println("Created the bitmap "+ewahBitmap);
+        ewahBitmap.serialize(new DataOutputStream(fos));
+        long totalcount = fos.getChannel().position();
+        System.out.println("Serialized total count = "+totalcount+" bytes");
+        fos.close();
+        RandomAccessFile memoryMappedFile = new RandomAccessFile(tmpfile, "r");

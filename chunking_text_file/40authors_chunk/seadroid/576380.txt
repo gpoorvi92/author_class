@@ -1,0 +1,10 @@
+            }
+            break;
+        case R.id.remove:
+            if (state == TaskState.FINISHED || state == TaskState.FAILED || state == TaskState.CANCELLED) {
+                txService.removeUploadTask(taskID);
+                needRefresh = true;
+            }
+            break;
+        case R.id.remove_all_finished:
+            if (state == TaskState.FINISHED) {

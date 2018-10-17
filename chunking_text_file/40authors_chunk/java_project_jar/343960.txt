@@ -1,0 +1,10 @@
+    {
+        this(suffix, IOCase.SENSITIVE);
+    }
+
+    public SuffixFileFilter(String suffix, IOCase caseSensitivity)
+    {
+        if(suffix == null)
+        {
+            throw new IllegalArgumentException("The suffix must not be null");
+        } else

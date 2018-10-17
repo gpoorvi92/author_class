@@ -1,0 +1,10 @@
+
+@Entity
+@Table(name="t_orderprice")
+public class OrderPrice {
+
+	private int ID;
+	private Order order;
+	private String type;
+	private int productID;
+	private double price;

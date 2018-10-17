@@ -1,0 +1,10 @@
+    String checkStartTime,
+    String checkStopTime)
+  {
+    this();
+    this.missionId = missionId;
+    this.userAppId = userAppId;
+    this.plotsStatus = plotsStatus;
+    this.checkStartTime = checkStartTime;
+    this.checkStopTime = checkStopTime;
+  }

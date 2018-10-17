@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.schedule.IStep#beforeExecute()
+	 */
+	@Override
+	public void beforeExecute(ExecuteContext context) {
+		
+		logger.info(String.format("step[%s] started!", name()));
+		context.timeOn();
+	}
+	
+	/* (non-Javadoc)

@@ -1,0 +1,10 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ * Simple TCP server based on NIO.
+ *
+ * Server use workers for process incoming client connections.
+ *
+ * Worker is thread, it waits on own selector {@link java.nio.channels.Selector}
+ *

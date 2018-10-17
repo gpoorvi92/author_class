@@ -1,0 +1,10 @@
+	}
+
+	public void setTime(Calendar c) {
+		mContainer.setTime(c);
+	}
+
+	private android.view.View.OnClickListener okButtonClickListener = new android.view.View.OnClickListener() {
+		public void onClick(View v) {
+			if (onDateSetListener != null)
+				onDateSetListener.onDateSet(DateSlider.this, getTime());

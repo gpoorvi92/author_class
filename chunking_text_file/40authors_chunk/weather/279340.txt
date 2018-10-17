@@ -1,0 +1,10 @@
+    public static WeatherDailyFragment newInstance(int sectionNumber) {
+        WeatherDailyFragment fragment = new WeatherDailyFragment();
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+
+    @Override

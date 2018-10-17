@@ -1,0 +1,10 @@
+		int count = 0;
+		for (Integer id : list) {
+			ids[count++] = id;
+		}
+		return ids;
+	}
+
+	@Override
+	public Bill[] queryBillStoreByStatusACreateDateTimeACustomerJsons(
+			String status, String startDate, String endDate, String customer) {

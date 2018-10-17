@@ -1,0 +1,4 @@
+		jbt_start.setEnabled(false);
+		jbt_stop.setEnabled(false);
+	}
+}

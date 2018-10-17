@@ -1,0 +1,10 @@
+    }
+    this.virusEngine.add(elem);
+  }
+
+  public List<VirusEngine> getVirusEngine() {
+    return this.virusEngine;
+  }
+
+  public VirusDetectionResultData setVirusEngine(List<VirusEngine> virusEngine) {
+    this.virusEngine = virusEngine;

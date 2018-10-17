@@ -1,0 +1,10 @@
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.QueryBuilder;
+import com.mongodb.WriteConcern;
+
+public class LoginTokenDAO extends AbstractDAO implements DAO {
+	private static final String COLLECTION_NAME = "token";
+	// ´´½¨Ë÷Òý
+	static {
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);

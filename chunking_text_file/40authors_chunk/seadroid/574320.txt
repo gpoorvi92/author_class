@@ -1,0 +1,10 @@
+    }
+
+    private String makeFragmentName(int index) {
+        return "android:switcher:" + R.id.pager + ":" + index;
+    }
+
+    /*
+     * Adapter for {@link ViewPager} to bind DownloadTaskFragment and UploadTaskFragment
+     */
+    class TransferTabsAdapter extends FragmentPagerAdapter {

@@ -1,0 +1,10 @@
+    private static final String BUNDLE_URL = "url";
+
+    public String mUrl;
+    public int mDuration;
+    public int mBytes;
+
+    public Segment() {
+    }
+
+    public Segment(String url) {

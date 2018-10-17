@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface MSRService15
+  extends MSRService14, JposServiceInstance

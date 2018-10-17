@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         textArea.append(words + "\n");
+      }
+      catch (SecurityException ex)
+      {
+         JOptionPane.showMessageDialog(this, "I am sorry, but I cannot do that.");
+         ex.printStackTrace();
+      }

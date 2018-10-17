@@ -1,0 +1,10 @@
+ * */
+public class WeChatDefaultReplyInfo extends Paging {
+	private static final long serialVersionUID = 1L;
+	private String id,content,accountId,accountName;
+	private Integer status;
+	private Date createTime;
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatDefaultReplyInfo(){

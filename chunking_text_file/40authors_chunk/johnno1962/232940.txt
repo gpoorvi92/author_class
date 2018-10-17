@@ -1,0 +1,10 @@
+
+/// class javax.swing.table.DefaultTableCellRenderer$UIResource ///
+
+package org.genie.javax_swing;
+
+public class DefaultTableCellRenderer_UIResourceProxy extends javax.swing.table.DefaultTableCellRenderer.UIResource {
+
+    long swiftObject;
+
+    /// public javax.swing.table.DefaultTableCellRenderer$UIResource()

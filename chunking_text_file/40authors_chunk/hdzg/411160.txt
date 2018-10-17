@@ -1,0 +1,10 @@
+				switch(status){
+				case 0://有钱进武馆时玩家确认进武馆
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					upgradeGeneralPower();//随机挑选一个将军升级武力
+					break;
+				case 1://无钱进武馆时玩家确认放弃
+				case 2://已经进武馆要出来
+				case 3://学习失败
+					recoverGame();
+					break;

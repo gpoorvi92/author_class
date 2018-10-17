@@ -1,0 +1,7 @@
+        while (head != null) {
+            head = head.next;
+            length++;
+        }
+        return length;
+    }
+}

@@ -1,0 +1,10 @@
+		// System.out.println("要炸了，快跑");
+		// }
+		// }, 2000);
+
+		// public void schedule(TimerTask task,long delay,long
+		// period):第一次是delay后启动，以后每次是period启动
+		// t.schedule(new TimerTask() {
+		// @Override
+		// public void run() {
+		// System.out.println("炸死你");

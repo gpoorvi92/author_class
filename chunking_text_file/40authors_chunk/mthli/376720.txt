@@ -1,0 +1,10 @@
+
+      // demonstrate mnemonics
+
+      JMenu helpMenu = new JMenu("Help");
+      helpMenu.setMnemonic('H');
+
+      JMenuItem indexItem = new JMenuItem("Index");
+      indexItem.setMnemonic('I');
+      helpMenu.add(indexItem);
+

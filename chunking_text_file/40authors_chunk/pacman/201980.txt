@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.jms.impl;
+
+import com.yeshj.pacman.jms.IMessageBuilder;
+import com.yeshj.pacman.jms.message.AudioTranscodingMessage;
+import com.yeshj.pacman.jms.message.BaseMessage;
+import com.yeshj.pacman.jms.message.FeedbackMessage;

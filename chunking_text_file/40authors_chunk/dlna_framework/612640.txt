@@ -1,0 +1,10 @@
+
+import org.cybergarage.util.*;
+import org.cybergarage.xml.*;
+
+import org.cybergarage.upnp.event.*;
+
+public class ServiceData extends NodeData
+{
+	public ServiceData() 
+	{

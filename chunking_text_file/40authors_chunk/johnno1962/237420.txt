@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.TableColumnModelListener.columnRemoved(javax.swing.event.TableColumnModelEvent)
+
+    public native void __columnRemoved( javax.swing.event.TableColumnModelEvent e );
+
+    public void columnRemoved( javax.swing.event.TableColumnModelEvent e ) {
+        __columnRemoved( e );
+    }
+
+    /// public abstract void javax.swing.event.TableColumnModelListener.columnMoved(javax.swing.event.TableColumnModelEvent)

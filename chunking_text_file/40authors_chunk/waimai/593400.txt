@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.common.enums.GoodsTypeStatus;
+import cn.abovesky.shopping.dao.GoodsTypeMapper;
+import cn.abovesky.shopping.domain.GoodsType;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IGoodsTypeService;
+import org.apache.ibatis.session.RowBounds;
+import org.springframework.beans.factory.annotation.Autowired;

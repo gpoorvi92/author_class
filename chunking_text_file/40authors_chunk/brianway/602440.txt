@@ -1,0 +1,10 @@
+public class Run7_synNotExtends {
+    public static void main(String[] args) {
+        Sub sub = new Sub();
+        MyThread a = new MyThread(sub);
+        a.setName("A");
+        a.start();
+        MyThread b = new MyThread(sub);
+        b.setName("B");
+        b.start();
+    }

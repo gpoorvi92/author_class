@@ -1,0 +1,10 @@
+
+	     // Set the encoding parameters if necessary.
+	     encodeParam = new JPEGEncodeParam();
+	     encodeParam.setQuality(0.5F);
+
+	     encodeParam.setHorizontalSubsampling(0, 1);
+	     encodeParam.setHorizontalSubsampling(1, 2);
+	     encodeParam.setHorizontalSubsampling(2, 2);
+	
+	     encodeParam.setVerticalSubsampling(0, 1);

@@ -1,0 +1,10 @@
+package book;
+
+import java.awt.*;
+import java.awt.font.*;
+import java.awt.geom.*;
+import java.awt.print.*;
+
+/**
+ * A banner that prints a text string on multiple pages.
+ */

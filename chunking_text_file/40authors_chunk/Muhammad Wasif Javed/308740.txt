@@ -1,0 +1,10 @@
+			File f = new File (filename);		//Getting the HTML File.
+			String s = f.getAbsolutePath();		//Getting the AbsolutePath of File.
+			s = "file:" + s;
+			URL url = new URL (s);			//Setting URL.
+			html = new JEditorPane (s);		//EditorPane to Display File Contents.
+			html.setEditable (false);		//Set EditorPane Disabled So User only View the File.
+			html.addHyperlinkListener (this);	//Adding the HyperLink Listener.
+			JViewport vp = getViewport();		//Creating ViewPort to View the File.
+			vp.add (html);				//Adding EditorPane to ViewPort.
+		}

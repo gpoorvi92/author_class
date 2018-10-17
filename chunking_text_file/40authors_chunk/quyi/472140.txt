@@ -1,0 +1,10 @@
+      public genMissionId() {
+        super("genMissionId");
+      }
+
+      public genMissionId_args getEmptyArgsInstance() {
+        return new genMissionId_args();
+      }
+
+      protected boolean isOneway() {
+        return false;

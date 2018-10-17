@@ -1,0 +1,10 @@
+      if (incoming.get(4)) {
+        struct.rss = iprot.readI32();
+        struct.setRssIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.vss = iprot.readI32();
+        struct.setVssIsSet(true);
+      }
+    }
+  }

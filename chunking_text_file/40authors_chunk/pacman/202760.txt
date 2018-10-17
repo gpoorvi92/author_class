@@ -1,0 +1,10 @@
+						"tid, media, audio_rate, audio_sampling, audio_duration, audio_codec, " +
+						"video_width, video_height, video_rate, video_duration, video_codec)" +
+						"VALUES(?, ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?)";
+		
+		public MiAddAction(DataSource ds) {
+			setDataSource(ds);
+			setSql(INS_SQL);
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.VARCHAR));
+			declareParameter(new SqlParameter(Types.INTEGER));

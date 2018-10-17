@@ -1,0 +1,10 @@
+
+    private final Queue<TcpServerHandler> handlers;
+
+    public TcpServerWorker(final Queue<TcpServerHandler> handlers) {
+        super("TcpServerWorker");
+        this.handlers = handlers;
+    }
+
+    @Override
+    public void run() {

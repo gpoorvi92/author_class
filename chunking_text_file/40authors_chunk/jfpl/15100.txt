@@ -1,0 +1,10 @@
+	public void appendChatItem(AbstractCommonData item) {
+		this.chatListAdapter.addItem(item);
+	}
+
+	public void appendChatList(List<AbstractCommonData> list) {
+		this.chatListAdapter.addList(list);
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {

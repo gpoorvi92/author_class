@@ -1,0 +1,10 @@
+				Future<Object> future = scheduler.submit(methodRequest);
+				returnValue = future;
+
+			} else {
+
+				// 若拦截到的方法调用不是异步方法，则直接转发
+				delegateMethod = delegate.getClass().getMethod(method.getName(),
+				    method.getParameterTypes());
+				returnValue = delegateMethod.invoke(delegate, args);
+			}

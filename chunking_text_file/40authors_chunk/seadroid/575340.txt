@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Show the message with the given resource id in a {@link Toast} for a long period of time
+     * <p>
+     * This method may be called from any thread
+     *
+     * @param activity
+     * @param resId
+     */

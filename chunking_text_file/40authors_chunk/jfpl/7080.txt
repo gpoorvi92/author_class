@@ -1,0 +1,10 @@
+
+	public void loginBtnClick(View v) {
+		final String username = usernameEt.getText().toString();
+		final String pwd = pwdEt.getText().toString();
+		if (StringUtil.isNull(username)) {
+			Toast.makeText(this, "用户名不可为空", Toast.LENGTH_LONG).show();
+		} else {
+
+			AbstractCommonData acd = ConstVariables.getCommPacket(username);
+			acd.putStringValue("username", username);

@@ -1,0 +1,10 @@
+ * 		用ArrayList存储自定义对象，并遍历。加入泛型。
+ */
+public class ArrayListDemo2 {
+	public static void main(String[] args) {
+		// 存储字符串并遍历
+		ArrayList<String> array = new ArrayList<String>();
+
+		// 添加集合
+		array.add("hello");
+		array.add("world");

@@ -1,0 +1,10 @@
+		coll.ensureIndex(new BasicDBObject("userName", 1), "idx_name", true);
+		coll.ensureIndex(new BasicDBObject("token", 1), "idx_token", false);
+	}
+
+	public String getCollectionName() {
+		return COLLECTION_NAME;
+	}
+
+	/**
+	 * ∏˘æ›¡Ó≈∆≤È—ØDBObject

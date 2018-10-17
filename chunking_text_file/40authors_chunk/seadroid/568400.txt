@@ -1,0 +1,10 @@
+
+    private Set<AutoUpdateInfo> infos = Sets.newHashSet();
+    private MonitorDBHelper db = MonitorDBHelper.getMonitorDBHelper();
+
+    public void onTransferServiceConnected(TransferService txService) {
+        this.txService = txService;
+        running = true;
+        thread = new Thread(this);
+        thread.start();
+    }

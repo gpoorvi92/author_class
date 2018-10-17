@@ -1,0 +1,10 @@
+ 				location_text.setEditable(true);
+			}
+			statement.close();
+			
+	 	}
+ 		}
+ 		catch (SQLException sqlex) 
+ 		{
+ 		}
+	}

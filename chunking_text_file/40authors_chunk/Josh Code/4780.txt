@@ -1,0 +1,10 @@
+    {
+      if (v == null) return false;
+      Vector3D dup = getDuplicate(v);
+      if (dup == null)
+          return false;
+      else
+          return true;
+    }
+
+    /** returns the duplicate of the specified vector

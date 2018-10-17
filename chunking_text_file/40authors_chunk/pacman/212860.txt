@@ -1,0 +1,10 @@
+	IMQSender getSender(QueueType qtype) throws MQException;
+	
+	/**
+	 * Gets the specified message queue receiver.
+	 * 
+	 * @Title: getReceiver
+	 * @param qtype
+	 * 
+	 * @return: IMQReceiver
+	 */

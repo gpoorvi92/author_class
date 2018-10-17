@@ -1,0 +1,10 @@
+		String tstrPostType,
+		String tstrEntrySource,
+		String tstrMatchedVia,
+		String tstrRefDocnum,
+		String tstrRefDoclineum) {
+		
+		mstrBatch=tstrBatch;
+		mstrEntryCode=tstrEntryCode;
+		mstrCompanyCode=tstrCompanyCode;
+		mstrCompanyDesc=tstrCompanyDesc;

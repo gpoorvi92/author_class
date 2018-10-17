@@ -1,0 +1,10 @@
+    {
+        long size1 = 0L;
+        if(file1.isDirectory())
+            size1 = !sumDirectoryContents || !file1.exists() ? 0L : FileUtils.sizeOfDirectory(file1);
+        else
+            size1 = file1.length();
+        long size2 = 0L;
+        if(file2.isDirectory())
+            size2 = !sumDirectoryContents || !file2.exists() ? 0L : FileUtils.sizeOfDirectory(file2);
+        else

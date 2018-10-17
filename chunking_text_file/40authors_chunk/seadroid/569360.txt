@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Avoid copy/move a folder into its subfolder E.g. situations like:
+     *
+     * srcDir: /
+     * srcFn: dirX
+     * dstDir: /dirX/dirY
+     *
+     */

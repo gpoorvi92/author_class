@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("staticCheckResult:");
+    if (this.staticCheckResult == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.staticCheckResult);
+    }
+    first = false;
+    if (!first) sb.append(", ");

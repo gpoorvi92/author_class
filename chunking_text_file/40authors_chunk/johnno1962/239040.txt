@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void java.awt.LayoutManager.removeLayoutComponent(java.awt.Component)
+
+    public native void __removeLayoutComponent( java.awt.Component comp );
+
+    public void removeLayoutComponent( java.awt.Component comp ) {
+        __removeLayoutComponent( comp );
+    }

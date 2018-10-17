@@ -1,0 +1,10 @@
+	private static final ThreadLocal<SimpleDateFormat> TS_SDF = new ThreadLocal<SimpleDateFormat>() {
+
+		@Override
+		protected SimpleDateFormat initialValue() {
+			return new SimpleDateFormat();
+		}
+
+	};
+
+	public static Date parse(String timeStamp, String format)

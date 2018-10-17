@@ -1,0 +1,10 @@
+   private Icon messageIcon = new ImageIcon("blue-ball.gif");
+   private Object messageObject = new Date();
+   private Component messageComponent = new SampleComponent();
+
+   public OptionDialogFrame()
+   {
+      JPanel gridPanel = new JPanel();
+      gridPanel.setLayout(new GridLayout(2, 3));
+
+      typePanel = new ButtonPanel("Type", "Message", "Confirm", "Option", "Input");

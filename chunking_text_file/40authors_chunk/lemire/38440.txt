@@ -1,0 +1,10 @@
+ * @author David McIntosh
+ * @since 0.4.0
+ */
+
+public final class BitCounter implements BitmapStorage {
+
+    /**
+     * Virtually add words directly to the bitmap
+     *
+     * @param newData the word

@@ -1,0 +1,10 @@
+public class WApplication extends Application {
+    private static DisplayMetrics mDisplayMetrics;
+    private static ContextWrapper mContext;
+    public static float mScreenDensity;
+
+    public Context getContext() {
+        return mContext;
+    }
+
+

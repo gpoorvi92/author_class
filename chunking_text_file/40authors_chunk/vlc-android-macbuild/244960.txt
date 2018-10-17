@@ -1,0 +1,10 @@
+            boolean useLogo) {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            ActionBar actionBar = activity.getActionBar();
+            if (actionBar != null) {
+                actionBar.setDisplayUseLogoEnabled(useLogo);
+            }
+        }
+    }
+
+    public static void setDisplayOptions(Activity activity, int options,

@@ -1,0 +1,10 @@
+   public void setFileName(String newValue)
+   {
+      String oldValue = nameField.getText();
+      nameField.setText(newValue);
+      firePropertyChange("fileName", oldValue, newValue);
+   }
+
+   /**
+    * Gets the fileName property.
+    * @return the name of the selected file

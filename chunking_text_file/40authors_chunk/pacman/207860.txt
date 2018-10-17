@@ -1,0 +1,10 @@
+ */
+public class InvalidMediaParameterException extends Exception {
+
+	/**
+	 * TODO
+	 * @fieldName: serialVersionUID
+	 * @fieldType: long
+	 */
+	private static final long serialVersionUID = 8085282891944555364L;
+

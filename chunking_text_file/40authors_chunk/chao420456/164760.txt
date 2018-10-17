@@ -1,0 +1,10 @@
+		// 定义一个索引
+		int key = 0;
+
+		for (String number : numbers) {
+			for (String color : colors) {
+				String value = color.concat(number);
+				hm.put(key, value);
+				array.add(key);
+				key++;
+			}

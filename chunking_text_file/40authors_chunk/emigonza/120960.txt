@@ -1,0 +1,10 @@
+package jpos;
+
+import jpos.events.*;
+
+public interface SmartCardRWControl18 extends BaseControl
+{
+  // Capabilities
+  public boolean getCapCardErrorDetection() throws JposException;
+  public int     getCapInterfaceMode() throws JposException;
+  public int     getCapIsoEmvMode() throws JposException;

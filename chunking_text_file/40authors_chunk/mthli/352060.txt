@@ -1,0 +1,10 @@
+
+public class ImageListDnDFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 600;
+   private static final int DEFAULT_HEIGHT = 500;
+
+   private ImageList list1;
+   private ImageList list2;
+
+   public ImageListDnDFrame()

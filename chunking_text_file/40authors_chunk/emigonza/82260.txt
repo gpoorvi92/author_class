@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface ToneIndicatorService15
+  extends ToneIndicatorService14, JposServiceInstance

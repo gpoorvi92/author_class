@@ -1,0 +1,10 @@
+		// 设置布局
+		f.setLayout(new FlowLayout());
+
+		// 创建标签对象
+		Label label = new Label("请输入你的qq号码，只能输入数字,不信你试试:");
+		// 创建文本框
+		TextField tf = new TextField(20);
+
+		// 添加到窗体
+		f.add(label);

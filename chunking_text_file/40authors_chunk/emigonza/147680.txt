@@ -1,0 +1,10 @@
+	/** @return the list of DevCatInfo for this profile */
+	public DevCatInfoList getDevCatInfoList() { return devCatInfoList; }
+
+	//-------------------------------------------------------------------------
+	// Public overridden methods
+	// 
+
+	/** @return a String representation of this Profile */
+	public String toString()
+	{

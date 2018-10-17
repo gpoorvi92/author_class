@@ -1,0 +1,10 @@
+		html.setCursor (waitCursor);
+		SwingUtilities.invokeLater (new PageLoader (u, c));
+
+	}
+
+	//Following Class Load Other Pages Included in Our HTML Help File.
+
+	class PageLoader implements Runnable {
+
+		//Constructor of Class.

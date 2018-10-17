@@ -1,0 +1,10 @@
+          struct.ue = new com.nercis.isscp.idl.UnavailableException();
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class modifyNodeManagerConfig_args implements org.apache.thrift.TBase<modifyNodeManagerConfig_args, modifyNodeManagerConfig_args._Fields>, java.io.Serializable, Cloneable, Comparable<modifyNodeManagerConfig_args>   {

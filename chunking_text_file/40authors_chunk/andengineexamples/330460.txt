@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 480;
+	private static final int CAMERA_HEIGHT = 320;
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;

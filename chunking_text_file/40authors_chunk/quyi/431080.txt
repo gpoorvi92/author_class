@@ -1,0 +1,10 @@
+  }
+
+  public void unsetSensitives() {
+    this.sensitives = null;
+  }
+
+  /** Returns true if field sensitives is set (has been assigned a value) and false otherwise */
+  public boolean isSetSensitives() {
+    return this.sensitives != null;
+  }

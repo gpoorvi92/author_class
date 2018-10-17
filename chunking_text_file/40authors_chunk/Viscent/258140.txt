@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch12.ms;
+
+/**
+ * 对原始任务分解算法策略的抽象。
+ * 
+ * @author Viscent Huang
+ *

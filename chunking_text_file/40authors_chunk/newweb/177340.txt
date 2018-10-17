@@ -1,0 +1,10 @@
+		MaterialBrand[] mbs = new MaterialBrand[list.size()];
+		int count = 0;
+		for (MaterialBrand materialBrand : list) {
+			mbs[count++] = materialBrand;
+		}
+		return mbs;
+	}
+
+	@Override
+	public MaterialBrand findMaterialBrandById(int ID) {

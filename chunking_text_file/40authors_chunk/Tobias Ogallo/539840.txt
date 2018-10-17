@@ -1,0 +1,10 @@
+		fontStyle.setBounds(110,60,100,20);
+		
+		okButton.setBounds(10,100,100,20);
+		cancelButton.setBounds(110,100,100,20);
+		
+		previewLabel.setBounds(50,130,100,30);
+		preview.setBorder(BorderFactory.createLineBorder(Color.black));
+		preview.setBounds(120,130,70,30);
+		
+		getContentPane().add(fontLabel);

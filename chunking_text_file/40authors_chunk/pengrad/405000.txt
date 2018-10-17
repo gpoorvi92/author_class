@@ -1,0 +1,10 @@
+
+    public String lastName() {
+        return last_name;
+    }
+
+    public Integer userId() {
+        return user_id;
+    }
+
+    @Override

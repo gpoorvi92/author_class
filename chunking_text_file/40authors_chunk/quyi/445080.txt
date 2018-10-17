@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.userApp != null) {
+        oprot.writeFieldBegin(USER_APP_FIELD_DESC);
+        struct.userApp.write(oprot);
+        oprot.writeFieldEnd();
+      }
+      if (struct.staticCheckResult != null) {
+        oprot.writeFieldBegin(STATIC_CHECK_RESULT_FIELD_DESC);
+        struct.staticCheckResult.write(oprot);
+        oprot.writeFieldEnd();

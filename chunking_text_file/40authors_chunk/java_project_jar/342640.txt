@@ -1,0 +1,5 @@
+
+    private static final long serialVersionUID = 0xf8660f93da39d554L;
+    private final byte magicNumbers[];
+    private final long byteOffset;
+}

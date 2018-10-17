@@ -1,0 +1,10 @@
+			return null;
+	}
+	transient private ArrayList listeners;
+	
+	
+	
+	public void addListener(ShapeModelListener listener) {
+            if(listeners == null) {
+                listeners = new ArrayList();
+            }

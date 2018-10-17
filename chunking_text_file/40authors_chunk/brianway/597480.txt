@@ -1,0 +1,10 @@
+ *
+ * @see ServiceSub,ServiceSub2
+ */
+public class Run10_synBlockMoreObjectOneLock {
+    public static void main(String[] args) {
+        //testSub();
+        //testSub2();
+        testBlock();
+    }
+

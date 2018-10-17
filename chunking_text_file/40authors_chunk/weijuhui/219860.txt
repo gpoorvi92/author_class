@@ -1,0 +1,10 @@
+/**
+ * This is a simple implementation of a TimeView which is implemented
+ * as a TextView. It is aware of whether or not it is the center view
+ * in the ScrollLayout so that it can alter its appearance to indicate
+ * that it is currently selected.
+ */
+public class TimeTextView extends TextView implements TimeView {
+    protected long endTime, startTime;
+    protected boolean isOutOfBounds = false;
+

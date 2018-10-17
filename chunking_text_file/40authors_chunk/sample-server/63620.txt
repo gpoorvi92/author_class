@@ -1,0 +1,10 @@
+        return ret;
+    }
+    public static boolean delete(BulletinEntity bulletinEntity)
+    {
+        ChatServerRpc.DeleteBulletinReq.Builder reqBuilder = ChatServerRpc.DeleteBulletinReq.newBuilder();
+        reqBuilder.addBulletinDto(bulletinEntity.toDTO());
+        ChatServerRpc.DeleteBulletinReq req = reqBuilder.build();
+        boolean ret = true;
+        try
+        {

@@ -1,0 +1,10 @@
+
+    /**
+     * Disconnect this connection
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if the service throws a exception while disconnecting
+     */
+    public void disconnect() throws JposException 
+    {
+    	if( service != null )
+    	{

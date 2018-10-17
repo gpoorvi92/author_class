@@ -1,0 +1,10 @@
+    private Integer id;
+    private String image;
+    private String url;
+    private String type;
+    private Date insertDate;
+    private Date updateDate;
+    private Integer position;
+    private Integer days;
+
+    public Date getInsertDate() {

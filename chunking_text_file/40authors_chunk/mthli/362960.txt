@@ -1,0 +1,10 @@
+ * XHTML web page. <br>
+ * Usage: java sax.SAXTest URL
+ * @version 1.00 2001-09-29
+ * @author Cay Horstmann
+ */
+public class SAXTest
+{
+   public static void main(String[] args) throws Exception
+   {
+      String url;

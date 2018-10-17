@@ -1,0 +1,10 @@
+				if (msg instanceof TextMessage) {
+					try {
+						
+						onTextMessage(((TextMessage) msg).getText());
+					} catch (JMSException e) {
+						
+						onTextMessage("Error occurs:" + e.getMessage());
+					}
+				}
+				condition.signal();

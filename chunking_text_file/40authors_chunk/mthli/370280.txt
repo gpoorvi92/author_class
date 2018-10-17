@@ -1,0 +1,10 @@
+      try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("employee.dat")))
+      {
+         // retrieve all records into a new array
+         
+         Employee[] newStaff = (Employee[]) in.readObject();
+
+         // raise secretary's salary
+         newStaff[1].raiseSalary(10);
+
+         // print the newly read employee records

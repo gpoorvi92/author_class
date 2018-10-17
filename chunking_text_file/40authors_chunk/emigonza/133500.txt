@@ -1,0 +1,10 @@
+//   Added the following constants (misnamed originally) :
+//     PCRW_SUE_NOCARD
+//     PCRW_SUE_REMAINING
+//     PCRW_SUE_INRW
+//   Removed the following constant which was included incorrectly:
+//     PCRW_RP_NORMAL_ASYNC
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;

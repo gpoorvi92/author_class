@@ -1,0 +1,10 @@
+                switch (mGestureType) {
+                    case All:
+                        enableParent = false;
+                        break;
+                    case Vertical:
+                        if (Math.abs(subY) > Math.abs(subX)) {
+                            enableParent = true;
+                        }
+                        break;
+                    case Horizon:

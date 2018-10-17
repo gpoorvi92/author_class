@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Repository;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import com.newweb.model.base.User;
+import com.newweb.service.base.UserService;
+
+@Repository
+public class SecurityInterceptor extends HandlerInterceptorAdapter {
+	
+	@Autowired

@@ -1,0 +1,10 @@
+		return leaseTime;
+	}
+
+	public void setLeaseTime(int val) 
+	{
+		leaseTime = val;
+	}
+
+	////////////////////////////////////////////////
+	//	HTTPServer 

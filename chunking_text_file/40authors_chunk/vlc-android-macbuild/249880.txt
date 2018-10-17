@@ -1,0 +1,10 @@
+        if (order < 0) {
+            DebugLog.e(TAG, "seek to invalid segment " + order);
+            return;
+        }
+
+        Segment segment = mPlayIndex.mSegmentList.get(order);
+        if (segment == null) {
+            DebugLog.e(TAG, "seek to null segment " + order);
+            return;
+        }

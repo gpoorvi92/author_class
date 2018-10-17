@@ -1,0 +1,10 @@
+	 */
+	public void visitFiscalPrinter( DevCat devCat ) {}
+
+	/**
+	 * Visits a HardTotals DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitHardTotals( DevCat devCat ) {}
+
+	/**

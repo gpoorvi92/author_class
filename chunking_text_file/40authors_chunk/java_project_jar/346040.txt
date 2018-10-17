@@ -1,0 +1,10 @@
+    {
+        InputStreamReader in = new InputStreamReader(input);
+        copy(((Reader) (in)), output);
+    }
+
+    public static void copy(InputStream input, Writer output, String encoding)
+        throws IOException
+    {
+        InputStreamReader in = new InputStreamReader(input, encoding);
+        copy(((Reader) (in)), output);

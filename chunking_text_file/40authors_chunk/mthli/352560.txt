@@ -1,0 +1,10 @@
+               {
+                  setTitlePosition(pos);
+               }
+            });
+      }
+
+      titleField = new JTextField();
+      titleField.getDocument().addDocumentListener(new DocumentListener()
+         {
+            public void changedUpdate(DocumentEvent evt)

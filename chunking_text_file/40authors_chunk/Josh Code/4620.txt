@@ -1,0 +1,10 @@
+    clearSubtrees();
+
+    rootV = v;
+    if (rootV != null)
+        numVectors = 1;
+    else
+        numVectors = 0;
+  }
+
+    /** clears the subtrees

@@ -1,0 +1,10 @@
+      if (!(this_present_riskLevel && that_present_riskLevel))
+        return false;
+      if (!this.riskLevel.equals(that.riskLevel))
+        return false;
+    }
+
+    boolean this_present_ruleNo = true && this.isSetRuleNo();
+    boolean that_present_ruleNo = true && that.isSetRuleNo();
+    if (this_present_ruleNo || that_present_ruleNo) {
+      if (!(this_present_ruleNo && that_present_ruleNo))

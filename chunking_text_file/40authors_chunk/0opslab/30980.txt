@@ -1,0 +1,10 @@
+            HOST_IP = HOST_IP.replaceAll("null", "");
+        } catch (Exception e) {
+            System.out.println("获取服务器IP出错");
+        }
+
+        try {
+            osmxb = (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
+
+            TotalMemorySize = osmxb.getTotalPhysicalMemorySize() / kb;
+        } catch (Exception e) {

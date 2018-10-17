@@ -1,0 +1,10 @@
+	 * List of the files to delete.
+	 */
+	private List<File> files = Lists.newArrayList();
+
+
+
+	@Override
+	public void run() {
+
+		// extract all the files to an immutable list

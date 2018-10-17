@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field methodName is set (has been assigned a value) and false otherwise */
+  public boolean isSetMethodName() {
+    return this.methodName != null;
+  }
+
+  public void setMethodNameIsSet(boolean value) {
+    if (!value) {
+      this.methodName = null;

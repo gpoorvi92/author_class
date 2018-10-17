@@ -1,0 +1,10 @@
+	public void setMenu(String menu) {
+		this.menu = menu;
+	}
+	/**
+	 * 获取微信请求类型。
+	 * @return 微信请求类型。
+	 */
+	public String getType() {
+		return type;
+	}

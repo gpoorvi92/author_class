@@ -1,0 +1,10 @@
+		}
+		searchMission(userAppIdList, 1, 2 * 60000, 45);
+
+	}
+
+	public static void searchMission(List<String> missionIdList1, int missionSize, long waitTime, int count) {
+		List<String> missionIdList = missionIdList1.subList(0, count);
+		for (int missionCount = 0; missionCount <= missionIdList.size() / missionSize; missionCount++) {
+			for (int missionIdCount = 0; missionIdCount < missionSize && missionCount * missionSize + missionIdCount < missionIdList.size(); missionIdCount++) {
+				String missionId = missionIdList.get(missionCount * missionSize + missionIdCount);

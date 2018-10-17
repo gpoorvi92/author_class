@@ -1,0 +1,10 @@
+        return 0;
+    }
+
+    public boolean isReadonly() {
+        return true;
+    }
+
+    public boolean isDrm() {
+        return false;
+    }

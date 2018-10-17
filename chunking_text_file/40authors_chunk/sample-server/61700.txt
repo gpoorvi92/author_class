@@ -1,0 +1,10 @@
+        }
+    };
+    public static final    TimeBaseTimerTask FiveMinutesTimer = new TimeBaseTimerTask(5, TimeUnit.MINUTES)
+    {
+        @Override
+        protected void doRun()
+        {
+            {
+                //获取当前在线信息
+                ChatServerRpc.GetOnlineInfoReq req = ChatServerRpc.GetOnlineInfoReq.newBuilder().build();

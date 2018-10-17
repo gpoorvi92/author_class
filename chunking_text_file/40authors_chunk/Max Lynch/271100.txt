@@ -1,0 +1,10 @@
+	}
+	
+	public ShapeLayerModel(char type, int x1, int y1, int x2, int y2, Color fillColor) {
+		this(type, x1, y1, x2, y2, fillColor, new BasicStroke(1f), true);
+	}
+	
+	public char getType() { return(type); }
+	
+	public int getX1() { return(x1); }
+	public int getY1() { return(y1); }

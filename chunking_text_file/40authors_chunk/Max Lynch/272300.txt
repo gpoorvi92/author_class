@@ -1,0 +1,10 @@
+				FileWriter fw = new FileWriter("Shii.txt");
+				PrintWriter pw = new PrintWriter(fw);
+			
+				e.printStackTrace(pw);
+			} catch(IOException ie) { System.out.println("Shitttt"); }
+		} */
+
+
+	}
+}

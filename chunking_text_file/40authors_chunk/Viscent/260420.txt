@@ -1,0 +1,10 @@
+	private String packageId;
+	private String msisdn;
+	
+
+	private Date operationTime;
+	private Date effectiveDate;
+	private Date dueDate;
+
+	private int operationType;
+	

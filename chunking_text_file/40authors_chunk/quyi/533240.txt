@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case OBJECT_NAME:
+      if (value == null) {
+        unsetObjectName();
+      } else {
+        setObjectName((String)value);
+      }
+      break;

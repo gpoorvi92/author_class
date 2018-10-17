@@ -1,0 +1,10 @@
+      this.dycRD = null;
+    }
+
+    /** Returns true if field dycRD is set (has been assigned a value) and false otherwise */
+    public boolean isSetDycRD() {
+      return this.dycRD != null;
+    }
+
+    public void setDycRDIsSet(boolean value) {
+      if (!value) {

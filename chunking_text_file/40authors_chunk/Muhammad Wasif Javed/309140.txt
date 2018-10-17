@@ -1,0 +1,9 @@
+
+			setVisible (false);
+			dispose();
+
+		}
+
+	}
+
+}	

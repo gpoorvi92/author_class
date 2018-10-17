@@ -1,0 +1,10 @@
+											GlobalVariables.loginUsername,
+											"to_user", "to_group", _acd
+													.getStringValue("arg1"),
+											_acd.getStringValue("arg2"),
+											new ChatImageService(ctx, chatList,
+													pb, iv, acd));
+
+								}
+							} else if ("3".equals(msgType)) {
+								String path = acd.getStringValue("audio_url");

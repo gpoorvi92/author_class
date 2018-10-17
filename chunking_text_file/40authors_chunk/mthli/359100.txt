@@ -1,0 +1,10 @@
+   public int getIndexOfChild(Object parent, Object child)
+   {
+      int n = getChildCount(parent);
+      for (int i = 0; i < n; i++)
+         if (getChild(parent, i).equals(child)) return i;
+      return -1;
+   }
+
+   public boolean isLeaf(Object node)
+   {

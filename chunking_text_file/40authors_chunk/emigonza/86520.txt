@@ -1,0 +1,10 @@
+    public static final int CAT_MEDIA_ELECTRONIC_MONEY       = 3;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "Daily Log" Property  & Argument Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CAT_DL_NONE                   = 0;  //None of them
+    public static final int CAT_DL_REPORTING              = 1;  //Only Reporting
+    public static final int CAT_DL_SETTLEMENT             = 2;  //Only Settlement

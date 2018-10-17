@@ -1,0 +1,10 @@
+        long dateTaken = cursor.getLong(INDEX_DATE_TAKEN);
+        if (dateTaken == 0) {
+            dateTaken = cursor.getLong(INDEX_DATE_MODIFIED) * 1000;
+        }
+        long miniThumbMagic = cursor.getLong(INDEX_MIMI_THUMB_MAGIC);
+        String title = cursor.getString(INDEX_TITLE);
+        String mimeType = cursor.getString(INDEX_MIME_TYPE);
+        if (title == null || title.length() == 0) {
+            title = dataPath;
+        }

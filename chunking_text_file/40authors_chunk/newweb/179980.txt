@@ -1,0 +1,10 @@
+	}
+	
+	@Override
+	public Bxg findBxgById(int id) {
+		Bxg bxg =  bxgDao.selectBxgById(id);
+		return bxg;
+	}
+
+	@Override
+	public boolean modify(Bxg bxg) {

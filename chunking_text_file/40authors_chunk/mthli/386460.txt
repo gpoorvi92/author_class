@@ -1,0 +1,10 @@
+package map;
+
+import java.util.*;
+
+/**
+ * This program demonstrates the use of a map with key type String and value type Employee.
+ * @version 1.11 2012-01-26
+ * @author Cay Horstmann
+ */
+public class MapTest

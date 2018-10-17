@@ -1,0 +1,10 @@
+     * The Running bit.
+     */
+    public boolean RunningBit;
+
+    /**
+     * The Running length.
+     */
+    public int RunningLength;
+
+}

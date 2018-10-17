@@ -1,0 +1,10 @@
+   private JComboBox<String> size;
+   private JCheckBox bold;
+   private JCheckBox italic;
+
+   @SuppressWarnings("unchecked")
+   public FontFrame(File file)
+   {
+      gridbag = new GridBagPane(file);
+      add(gridbag);
+

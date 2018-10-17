@@ -1,0 +1,10 @@
+		// populate request component container
+		requestComponentContainer.populate(mockHttpServletRequest, mockHttpServletResponse);
+
+		// clean cookie
+		mockHttpServletRequest.clearAttributes();
+		mockHttpServletRequest.setCookies(new Cookie[] {});
+		mockHttpServletResponse.reset();
+	}
+
+

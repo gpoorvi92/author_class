@@ -1,0 +1,10 @@
+	 * @throws WriteException
+	 * @throws IOException
+	 * @throws BiffException
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> userAppIdList = new ArrayList<String>();
+		String dfilePath = "E:\\批次病毒应用失败回收统计1.xls";
+		String sfilePath = "E:\\批次病毒应用失败下发统计1.xls";
+		userAppIdList = new ReadExcel().getColumnInfo(0, dfilePath, 0);

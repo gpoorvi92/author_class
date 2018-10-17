@@ -1,0 +1,10 @@
+		this.lhjPriceCuts = lhjPriceCuts;
+	}
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<BxgPriceCut> getBxgPriceCuts() {
+		return bxgPriceCuts;
+	}
+	public void setBxgPriceCuts(Set<BxgPriceCut> bxgPriceCuts) {
+		this.bxgPriceCuts = bxgPriceCuts;
+	}
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)

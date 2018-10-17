@@ -1,0 +1,10 @@
+      switch(fieldId) {
+        case 1: // OS_ARCH
+          return OS_ARCH;
+        case 2: // OS_NAME
+          return OS_NAME;
+        case 3: // OS_DESC
+          return OS_DESC;
+        case 4: // OS_VERSION
+          return OS_VERSION;
+        case 5: // JVM_NAME

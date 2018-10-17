@@ -1,0 +1,10 @@
+    if (isSetLineNum()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.lineNum, other.lineNum);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetColumnNum()).compareTo(other.isSetColumnNum());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

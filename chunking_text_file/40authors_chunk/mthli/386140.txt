@@ -1,0 +1,10 @@
+
+      // draw a rectangle
+
+      double leftX = 100;
+      double topY = 100;
+      double width = 200;
+      double height = 150;
+
+      Rectangle2D rect = new Rectangle2D.Double(leftX, topY, width, height);
+      g2.setPaint(Color.BLACK);

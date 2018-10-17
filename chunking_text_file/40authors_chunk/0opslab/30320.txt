@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testIsAlphaOrDigit() throws Exception {
+
+    }
+
+    @Test
+    public void testIsWordChar() throws Exception {
+

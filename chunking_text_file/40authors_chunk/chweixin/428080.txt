@@ -1,0 +1,10 @@
+	@Override
+	public WeChatMenuInfo getModel() {
+		return this.info;
+	}
+	/**
+	 * 加载列表数据。
+	 * @throws IOException 
+	 * */
+	public void datagrid() throws IOException{
+		List<WeChatMenuInfo> list = this.service.loadMenus(this.getModel().getAccountId(), null);

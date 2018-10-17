@@ -1,0 +1,10 @@
+	String str;
+	private boolean flag_exit = false;
+	public BroadCast(ServerThread serverThread){
+		this.serverThread = serverThread;
+	}
+	
+	@Override
+	public void run() {
+		boolean flag = true;
+		while(flag_exit){

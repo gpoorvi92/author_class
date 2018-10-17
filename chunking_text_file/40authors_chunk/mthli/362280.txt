@@ -1,0 +1,10 @@
+      {
+         String urlName;
+         if (args.length > 0) urlName = args[0];
+         else urlName = "http://horstmann.com";
+
+         URL url = new URL(urlName);
+         URLConnection connection = url.openConnection();
+
+         // set username, password if specified on command line
+

@@ -1,0 +1,10 @@
+      trayIcon = new TrayIcon(image, "Your Fortune", popup);
+
+      trayIcon.setImageAutoSize(true);
+      trayIcon.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent e)
+            {
+               trayIcon.displayMessage("How do I turn this off?",
+                     "Right-click on the fortune cookie and select Exit.",
+                     TrayIcon.MessageType.INFO);

@@ -1,0 +1,3 @@
+  // the JavaPOS controls 1.10.2 in order to fix implementation issues
+  // for early adopters.
+}

@@ -1,0 +1,10 @@
+        if (isLoading) {
+            return;
+        } else if (this.checkArgs()) {
+            isLoading = true;
+            doLoadNew();
+        }
+    }
+
+    public void loadMore() {
+        if (isLoading) {

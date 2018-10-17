@@ -1,0 +1,10 @@
+      action = anAction;
+   }
+
+   public String getActions()
+   {
+      return action;
+   }
+
+   public boolean equals(Object other)
+   {

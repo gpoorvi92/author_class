@@ -1,0 +1,10 @@
+
+    /**
+     * @param f call the function with the current information
+     */
+    public void callbackUpdate(final UpdateableBitmapFunction32 f) {
+        if (this.dead)
+            f.setZero(this.pos);
+        else if (this.isLiteral)
+            f.setLiteral(this.pos);
+        else if (this.value)

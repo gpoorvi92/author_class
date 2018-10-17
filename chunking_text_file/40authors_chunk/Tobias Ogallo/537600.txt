@@ -1,0 +1,10 @@
+					{
+							String temp = ("SELECT * FROM Route ORDER BY Route_No");
+					   int  Numrow = 0;
+					   ResultSet result = statement.executeQuery(temp);
+					   while (result.next()) {
+                         jTable.setValueAt(result.getString(1),Numrow,0);
+                         jTable.setValueAt(result.getString(2),Numrow,1);
+                         jTable.setValueAt(result.getString(3),Numrow,2);
+                         jTable.setValueAt(result.getString(4),Numrow,3);
+                         jTable.setValueAt(result.getString(5),Numrow,4);

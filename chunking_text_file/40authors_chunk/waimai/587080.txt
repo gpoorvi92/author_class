@@ -1,0 +1,10 @@
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by snow on 2014/5/2.
+ */
+@Controller
+@RequestMapping("/user/checkIn")

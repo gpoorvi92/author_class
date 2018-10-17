@@ -1,0 +1,10 @@
+
+    public void write(org.apache.thrift.protocol.TProtocol oprot, RunMonitor struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.monitorTime != null) {
+        oprot.writeFieldBegin(MONITOR_TIME_FIELD_DESC);
+        oprot.writeString(struct.monitorTime);
+        oprot.writeFieldEnd();
+      }

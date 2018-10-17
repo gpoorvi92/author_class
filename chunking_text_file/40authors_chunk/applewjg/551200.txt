@@ -1,0 +1,10 @@
+            fh += haystack.charAt(i);
+            fn += needle.charAt(i);
+        }
+        while (tail < sLen) {
+            if (fn == fh) {
+                int i = 0;
+                while (i < tLen && needle.charAt(i) == haystack.charAt(i + head)){
+                    ++i;
+                }
+                if (i == tLen) return head;

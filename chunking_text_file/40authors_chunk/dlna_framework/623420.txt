@@ -1,0 +1,10 @@
+	public final static String escapeXMLChars(String input)
+	{
+		return escapeXMLChars(input, true);
+	}
+	
+	////////////////////////////////////////////////
+	// unescapeXMLChars
+	////////////////////////////////////////////////
+
+	public final static String unescapeXMLChars(String input)

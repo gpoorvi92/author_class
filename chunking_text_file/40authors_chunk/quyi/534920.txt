@@ -1,0 +1,10 @@
+
+  }
+
+  private static class APICheckTupleSchemeFactory implements SchemeFactory {
+    public APICheckTupleScheme getScheme() {
+      return new APICheckTupleScheme();
+    }
+  }
+
+  private static class APICheckTupleScheme extends TupleScheme<APICheck> {

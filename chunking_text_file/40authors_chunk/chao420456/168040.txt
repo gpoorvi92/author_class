@@ -1,0 +1,10 @@
+						}else{
+							if(chat_re.contains("@serverexit")){
+								c_chatFrame.closeClient();
+							}else{
+								if(chat_re.contains("@single")){
+									c_chatFrame.setSingleFrame(chat_re);
+								}
+							}
+						}
+					}

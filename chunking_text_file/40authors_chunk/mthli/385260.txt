@@ -1,0 +1,10 @@
+
+      JFormattedTextField intField4 = new JFormattedTextField(NumberFormat.getIntegerInstance());
+      intField4.setValue(new Integer(100));
+      intField4.setInputVerifier(new InputVerifier()
+         {
+            public boolean verify(JComponent component)
+            {
+               JFormattedTextField field = (JFormattedTextField) component;
+               return field.isEditValid();
+            }

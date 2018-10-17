@@ -1,0 +1,10 @@
+     * @param isRequest Indicates whether the message is a request or a
+     * response.
+     * @return The method should return
+     * <code>true</code> if the custom tab is able to handle the specified
+     * message, and so will be displayed within the editor. Otherwise, the tab
+     * will be hidden while this message is displayed.
+     */
+    boolean isEnabled(byte[] content, boolean isRequest);
+
+    /**

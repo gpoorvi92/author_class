@@ -1,0 +1,10 @@
+        struct.obj = iprot.readString();
+        struct.setObjIsSet(true);
+      }
+      if (incoming.get(6)) {
+        struct.func = iprot.readString();
+        struct.setFuncIsSet(true);
+      }
+      if (incoming.get(7)) {
+        struct.ruleDescription = iprot.readString();
+        struct.setRuleDescriptionIsSet(true);

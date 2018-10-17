@@ -1,0 +1,8 @@
+				+ sendDataStr);
+		nameValuePairs.add(xml);
+		AbstractCommonData back_acd = DataConvertFactory
+				.getInstanceByJson(post(url, nameValuePairs));
+		return back_acd;
+	}
+
+}

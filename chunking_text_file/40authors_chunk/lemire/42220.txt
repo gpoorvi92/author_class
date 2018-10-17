@@ -1,0 +1,10 @@
+		System.out.println("bitmap 2: " + Bitmap2);
+		// or
+		BitSet orbitmap = Bitmap1.clone();
+		orbitmap.or(Bitmap2);
+		System.out.println("bitmap 1 OR bitmap 2: " + orbitmap);
+		// and
+		BitSet andbitmap = Bitmap1.clone();
+		andbitmap.and(Bitmap2);
+		System.out.println("bitmap 1 AND bitmap 2: " + andbitmap);
+		// xor

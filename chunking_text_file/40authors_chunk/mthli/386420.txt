@@ -1,0 +1,10 @@
+         printTypes(t.getActualTypeArguments(), "<", ", ", ">", false);
+      }
+      else if (type instanceof GenericArrayType)
+      {
+         GenericArrayType t = (GenericArrayType) type;
+         System.out.print("");
+         printType(t.getGenericComponentType(), isDefinition);
+         System.out.print("[]");
+      }
+   }

@@ -1,0 +1,10 @@
+ * @Class: MediaPackStepTest
+ * @author: zhangxinyu
+ * @date: 2015年1月6日 下午4:24:42
+ */
+public class MediaPackStepTest {
+
+	private List<String> files;
+	/**
+	 * TODO
+	 * @Title: setUp

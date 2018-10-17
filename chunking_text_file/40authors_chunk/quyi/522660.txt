@@ -1,0 +1,10 @@
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetPropertyValue()).compareTo(other.isSetPropertyValue());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetPropertyValue()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.propertyValue, other.propertyValue);
+        if (lastComparison != 0) {

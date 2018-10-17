@@ -1,0 +1,10 @@
+  static {
+    schemes.put(StandardScheme.class, new RunMonitorStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new RunMonitorTupleSchemeFactory());
+  }
+
+  public String monitorTime; // required
+  public String screenShotPath; // required
+  public String imageContent; // required
+  public String checkResult; // required
+

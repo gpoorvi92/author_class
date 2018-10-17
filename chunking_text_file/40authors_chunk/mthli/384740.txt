@@ -1,0 +1,10 @@
+ * preview.
+ */
+public class BookTestFrame extends JFrame
+{
+   private JTextField text;
+   private PageFormat pageFormat;
+   private PrintRequestAttributeSet attributes;
+
+   public BookTestFrame()
+   {

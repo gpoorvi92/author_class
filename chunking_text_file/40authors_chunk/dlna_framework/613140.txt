@@ -1,0 +1,10 @@
+	{
+		String osName = System.getProperty("os.name");
+		String osVer = System.getProperty("os.version");
+		return osName + "/"  + osVer + " " + NAME + "/" + VERSION;
+	}
+	
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	

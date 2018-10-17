@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case USER_APPS:
+      if (value == null) {
+        unsetUserApps();
+      } else {
+        setUserApps((List<UserApp>)value);
+      }
+      break;

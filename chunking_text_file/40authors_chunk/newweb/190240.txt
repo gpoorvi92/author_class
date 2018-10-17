@@ -1,0 +1,10 @@
+			fos = new FileOutputStream(f, append);
+			byte[] write = text.getBytes();
+			fos.write(write);
+			fos.close();
+			return true;
+		} catch (Exception e) {
+			JOptionPane.showConfirmDialog(null,"发生错误", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+			return false;
+		}

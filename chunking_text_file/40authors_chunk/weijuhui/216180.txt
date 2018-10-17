@@ -1,0 +1,10 @@
+package com.weparty.views;
+
+import java.util.Random;
+
+import com.googlecode.androidannotations.annotations.AfterTextChange;
+import com.googlecode.androidannotations.annotations.AfterViews;
+import com.googlecode.androidannotations.annotations.Click;
+import com.googlecode.androidannotations.annotations.EActivity;
+import com.googlecode.androidannotations.annotations.Extra;
+import com.googlecode.androidannotations.annotations.ViewById;

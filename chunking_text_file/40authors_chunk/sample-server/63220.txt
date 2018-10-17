@@ -1,0 +1,10 @@
+                    channel.close();//close the channel if a error happend
+                    throw new CorruptedFrameException("negative length: "
+                            + length + " close channel " + channel);
+                }
+
+                if (buffer.readableBytes() < length)
+                {
+                    buffer.resetReaderIndex();
+                    return null;
+                } else

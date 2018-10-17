@@ -1,0 +1,10 @@
+package tv.danmaku.android.util;
+
+import java.util.Collection;
+
+import android.text.TextUtils;
+
+public class CollectionHelper {
+    public final static <T> void Append(Collection<T> collection, T[] array) {
+        if (collection != null && array != null && array.length > 0) {
+            for (T element : array) {

@@ -1,0 +1,10 @@
+
+	@Autowired
+	StaticStateManager<StaticStatePersistedOnFileSystemEntity> staticStateManager;
+
+	@Autowired
+	FileUploaderHelper fileUploaderHelper;
+
+	@Autowired
+	Authorizer authorizer;
+

@@ -1,0 +1,10 @@
+		} else {
+			if(this.mTail.isEmpty() == false) {
+				/* First move the end of the tail to where the head currently is. */
+				final SnakeTailPart tailEnd = this.mTail.removeLast();
+				tailEnd.setCell(this.mHead);
+				this.mTail.addFirst(tailEnd);
+			}
+		}
+
+		/* The move the head into the direction of the snake. */

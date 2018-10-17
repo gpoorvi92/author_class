@@ -1,0 +1,10 @@
+    //public static final int PCRW_RP_NORMAL_ASYNC  = 0x0002;
+
+    public static final int PCRW_RP_RIGHT90       = 0x0101;
+    public static final int PCRW_RP_LEFT90        = 0x0102;
+    public static final int PCRW_RP_ROTATE180     = 0x0103;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // Status Update Event: "Status" Parameter Constants
+    /////////////////////////////////////////////////////////////////////

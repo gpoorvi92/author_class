@@ -1,0 +1,10 @@
+	public int getZzCount() {
+		return zzCount;
+	}
+	public void setZzCount(int zzCount) {
+		this.zzCount = zzCount;
+	}
+	public double getSgdLength() {
+		return sgdLength;
+	}
+	public void setSgdLength(double sgdLength) {

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof modifyEngineConfig_result)
+        return this.equals((modifyEngineConfig_result)that);
+      return false;
+    }

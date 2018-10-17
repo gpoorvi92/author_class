@@ -1,0 +1,10 @@
+                break;
+        }
+        return origMax - max;
+    }
+
+    /**
+     * Turn an iterator into a bitmap.
+     * 
+     * This can be used to effectively clone a bitmap in the following
+     * manner:

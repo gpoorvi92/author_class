@@ -1,0 +1,10 @@
+ * 把同步代码块的实现改进为了同步方法。
+ */
+public class StudentDemo {
+	public static void main(String[] args) {
+		// 创建一个学生资源
+		Student s = new Student();
+
+		// 创建线程对象
+		SetThread st = new SetThread(s);
+		GetThread gt = new GetThread(s);

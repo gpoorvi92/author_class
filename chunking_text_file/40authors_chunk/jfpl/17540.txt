@@ -1,0 +1,10 @@
+	private TextView titleTv;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState, int layoutId, String prefix) {
+		super.onCreate(savedInstanceState, layoutId, prefix);
+		Intent intent = getIntent();
+		this.busiType = intent.getStringExtra("busi_type");
+		this.busiSerial = intent.getStringExtra("busi_serial");
+		this.chatTitle = intent.getStringExtra("title");
+		this.chatIcon = (ImageView) findViewById(R.id.chat_icon_iv);

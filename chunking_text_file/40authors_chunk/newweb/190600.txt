@@ -1,0 +1,10 @@
+	public void setOrders(Set<Order> orders) {
+		this.orders = orders;
+	}
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="id")
+	public int getID() {
+		return ID;
+	}
+	public void setID(int iD) {

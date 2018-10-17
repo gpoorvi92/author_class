@@ -1,0 +1,10 @@
+        public View createTabContent(String tag) {
+            View v = new View(mContext);
+            v.setMinimumWidth(0);
+            v.setMinimumHeight(0);
+            return v;
+        }
+    }
+
+    public TabManager(FragmentActivity activity, TabHost tabHost,
+            int containerId) {

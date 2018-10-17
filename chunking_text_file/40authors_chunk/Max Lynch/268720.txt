@@ -1,0 +1,10 @@
+      }
+  
+
+class OptionList extends JList implements ListSelectionListener {
+	
+	OptionDisplay display;
+		
+	Object items[] = { "General", "Rendering", "Look and Feel" };
+	//OptionPanel itemPanels[];
+	

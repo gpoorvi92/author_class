@@ -1,0 +1,10 @@
+			ClassNotFoundException {
+		meetableMatrix = (int[][]) in.readObject();
+		Bitmap b = BitmapFactory.decodeResource(GameView.resources, R.drawable.buttons);
+		this.bmpDialogButton  = Bitmap.createBitmap(b, 0, 0, 60, 30);
+		b = null;
+		bmpDialogBack = BitmapFactory.decodeResource(GameView.resources, R.drawable.dialog_back);
+	}
+	//¹¹ÔìÆ÷
+	public MyMeetableDrawable(){}
+	public MyMeetableDrawable(

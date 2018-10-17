@@ -1,0 +1,10 @@
+		return false;
+	}
+
+	public Object getValueAt(int tintRow, int tintCol) {
+		if (tintRow < 0 || tintRow>=getRowCount())
+			return "";
+
+		AcctData row = (AcctData)moVector.elementAt(tintRow);
+
+		switch (tintCol) {

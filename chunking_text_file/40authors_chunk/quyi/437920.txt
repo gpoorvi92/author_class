@@ -1,0 +1,10 @@
+        setHardware((Hardware)value);
+      }
+      break;
+
+    case SOFTWARE:
+      if (value == null) {
+        unsetSoftware();
+      } else {
+        setSoftware((Software)value);
+      }

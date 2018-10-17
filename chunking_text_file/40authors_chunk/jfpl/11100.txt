@@ -1,0 +1,10 @@
+		}
+		voiceImage
+				.setImageResource(R.drawable.bottle_receiver_voice_node_playing003);
+		this.isPlay = false;
+	}
+
+	@Override
+	public void onCompletion(MediaPlayer mp) {
+		endPlay();
+

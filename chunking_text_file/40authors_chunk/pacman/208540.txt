@@ -1,0 +1,10 @@
+	
+	private native int nativeGetHeight();
+	
+	private native int nativeGetAudioBitrate();
+	
+	private native int nativeGetVideoBitrate();
+	
+	private native int nativeGetSamplingRate();
+	
+	private native long nativeGetAudioDuration();

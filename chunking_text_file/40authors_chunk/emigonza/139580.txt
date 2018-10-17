@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+
+        // Properties
+        makeProperty("CurrencyCode"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("DepositAmount"),
+        makeProperty("DepositCashList"),
+        makeProperty("DepositCodeList"),

@@ -1,0 +1,10 @@
+            }
+
+            try {
+                DefMediaSegmentPlayer itemPlayer = player.createItemPlayer();
+                itemPlayer.setSegment(0, 0, result.mSegmentList.get(0));
+
+                player.mSegmentPlayer = itemPlayer;
+                player.mPlayIndex = result;
+                player.mTotalDuration = result.getTotalDuration();
+                player.mSegmentPlayer.prepareAsync();

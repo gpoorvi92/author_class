@@ -1,0 +1,10 @@
+
+	private final static String MAXIMUM = "maximum";
+	
+	public void setMaximum(String value)
+	{
+		getAllowedValueRangeNode().setNode(MAXIMUM, value);
+	}
+
+	public String getMaximum()
+	{

@@ -1,0 +1,10 @@
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof FileOperate)
+      return this.equals((FileOperate)that);
+    return false;
+  }
+

@@ -1,0 +1,10 @@
+ * 
+ * <pre>
+ * public Entry getEntry(String name);
+ * 
+ * public void setEntry(Entry entry);
+ * </pre>
+ * 
+ * Try sticking to the interface <tt>java.util.Map.Entry</tt>.
+ * </p>
+ * 

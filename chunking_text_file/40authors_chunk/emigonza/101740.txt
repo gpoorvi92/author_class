@@ -1,0 +1,7 @@
+  public void    addDataListener(DataListener l);
+  public void    removeDataListener(DataListener l);
+  public void    addDirectIOListener(DirectIOListener l);
+  public void    removeDirectIOListener(DirectIOListener l);
+  public void    addStatusUpdateListener(StatusUpdateListener l);
+  public void    removeStatusUpdateListener(StatusUpdateListener l);
+}

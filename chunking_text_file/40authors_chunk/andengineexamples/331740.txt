@@ -1,0 +1,10 @@
+		this.mGrassBackground = new RepeatingSpriteBackground(CAMERA_WIDTH, CAMERA_HEIGHT, this.getTextureManager(), AssetBitmapTextureAtlasSource.create(this.getAssets(), "gfx/background_grass.png"), this.getVertexBufferObjectManager());
+		this.mBitmapTextureAtlas.load();
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		scene.setBackground(this.mGrassBackground);

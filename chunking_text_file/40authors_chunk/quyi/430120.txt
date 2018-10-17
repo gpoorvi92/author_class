@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(RESULT_FIELD_DESC);
+        oprot.writeString(struct.result);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+

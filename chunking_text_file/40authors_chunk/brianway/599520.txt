@@ -1,0 +1,10 @@
+            ReadData readData = new ReadData();
+
+            PipedInputStream inputStream = new PipedInputStream();
+            PipedOutputStream outputStream = new PipedOutputStream();
+
+            //inputStream.connect(outputStream);
+            outputStream.connect(inputStream);
+
+            ThreadRead threadRead = new ThreadRead(readData, inputStream);
+            threadRead.start();

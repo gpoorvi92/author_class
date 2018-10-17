@@ -1,0 +1,10 @@
+      g2.scale(scale, scale);
+      FontRenderContext context = g2.getFontRenderContext();
+      Font f = new Font("Serif", Font.PLAIN, 72);
+      TextLayout layout = new TextLayout(message, f, context);
+      AffineTransform transform = AffineTransform.getTranslateInstance(0, layout.getAscent());
+      Shape outline = layout.getOutline(transform);
+      g2.draw(outline);
+   }
+
+   /**

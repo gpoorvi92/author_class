@@ -1,0 +1,10 @@
+        String str = "";
+        if (!Charset.isSupported(fromCharsetName)) {
+            throw new UnsupportedCharsetException(fromCharsetName);
+        }
+        try (InputStream inputStream = new FileInputStream(file);
+             InputStreamReader reader = new InputStreamReader(inputStream, fromCharsetName)
+        ) {
+            char[] chs = new char[(int) file.length()];
+            reader.read(chs);
+            str = new String(chs).trim();

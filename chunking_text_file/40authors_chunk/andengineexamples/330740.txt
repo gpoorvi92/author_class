@@ -1,0 +1,10 @@
+	}
+
+	public final double getLatitude() {
+		return this.mLatitude;
+	}
+
+	public final double getLongitude() {
+		return this.mLongitude;
+	}
+	

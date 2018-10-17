@@ -1,0 +1,10 @@
+ * 
+ * 		public void store(OutputStream out,String comments)
+ * 		public void store(Writer writer,String comments)
+ */
+public class PropertiesDemo3 {
+	public static void main(String[] args) throws IOException {
+		// 创建集合对象
+		Properties prop = new Properties();
+		// public void load(Reader reader)
+		Reader r = new FileReader("prop.txt");

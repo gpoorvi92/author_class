@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected void onListItemClick(String prxName, ListView l, View v,
+			int position, long id) {
+		if (l.getId() == R.id.recently_list) {
+			AbstractCommonData acd = (AbstractCommonData) v.getTag();
+			String url = acd.getStringValue("url");
+			String title = acd.getStringValue("title");
+			String appId = acd.getStringValue("app_id");

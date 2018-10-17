@@ -1,0 +1,10 @@
+package com.googlecode.javaewah32;
+
+/*
+ * Copyright 2012, Google Inc.  
+ * Licensed under the Apache License, Version 2.0.
+ */
+
+import com.googlecode.javaewah.IntIterator;
+
+import static com.googlecode.javaewah32.EWAHCompressedBitmap32.WORD_IN_BITS;

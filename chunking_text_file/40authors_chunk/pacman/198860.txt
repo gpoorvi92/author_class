@@ -1,0 +1,10 @@
+		context.setAttribute(key, value);
+	}
+
+	/**
+	 * (non Javadoc) TODO
+	 * 
+	 * @Title: getAttribute
+	 * @param key
+	 * @return
+	 * @see com.yeshj.pacman.schedule.IWorker#getAttribute(java.lang.String)

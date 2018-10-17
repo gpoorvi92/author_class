@@ -1,0 +1,10 @@
+    @Override
+    public void add(CheckIn checkIn) throws ServiceException {
+        Date now = new Date();
+        if (checkInMapper.countTodayByUserId(checkIn.getUserId(), now) > 0) {
+            throw new ServiceException("一天一签到就好");
+        } else {
+            checkIn.setDate(now);
+            checkInMapper.insert(checkIn);
+
+            CreditLog creditLog = new CreditLog();

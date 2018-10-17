@@ -1,0 +1,10 @@
+	public final static String CALLBACK = "CALLBACK";
+	public final static String TIMEOUT = "TIMEOUT";
+	// Thanks for Brent Hills (10/20/04)
+	public final static String MYNAME = "MYNAME";
+
+	public static final String REQEST_LINE_DELIM = " ";
+	public static final String HEADER_LINE_DELIM = " :";
+	public static final String STATUS_LINE_DELIM = " ";
+
+	public static final int DEFAULT_PORT = 80;

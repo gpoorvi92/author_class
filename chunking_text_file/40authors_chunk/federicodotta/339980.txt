@@ -1,0 +1,10 @@
+     *
+     * @param text The text to be displayed.
+     */
+    void setText(byte[] text);
+
+    /**
+     * This method is used to retrieve the currently displayed text.
+     *
+     * @return The currently displayed text.
+     */

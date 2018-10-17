@@ -1,0 +1,10 @@
+    case CHECK_ENGINE_NUM:
+      if (value == null) {
+        unsetCheckEngineNum();
+      } else {
+        setCheckEngineNum((Integer)value);
+      }
+      break;
+
+    case POSITIVES:
+      if (value == null) {

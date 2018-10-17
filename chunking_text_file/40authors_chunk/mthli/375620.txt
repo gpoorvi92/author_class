@@ -1,0 +1,10 @@
+         });
+
+      // set up load button for loading URL
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               try
+               {

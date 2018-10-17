@@ -1,0 +1,10 @@
+	//base dir for all images, videoes and audioes.
+	public final static String CONTEXT_WEB_RESOURCES_TARGET_DIR = "context.web.resources.target";
+
+	public final static String CONTEXT_WEB_RESOURCES_TEMP_DIR = "context.web.resources.temp";
+	
+	//audio's codec.
+	public final static String CONTEXT_AUDIO_CODEC = "context.audio.codec";
+	
+	//media is audio only.
+	public final static String CONTEXT_AUDIONLY = "context.audio.only";

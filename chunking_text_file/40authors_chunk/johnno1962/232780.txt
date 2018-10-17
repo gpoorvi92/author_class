@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.TreeModelListener.treeNodesChanged(javax.swing.event.TreeModelEvent)
+
+    public native void __treeNodesChanged( javax.swing.event.TreeModelEvent e );
+
+    public void treeNodesChanged( javax.swing.event.TreeModelEvent e ) {
+        __treeNodesChanged( e );
+    }

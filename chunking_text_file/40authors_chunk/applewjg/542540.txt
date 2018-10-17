@@ -1,0 +1,10 @@
+        if(root == null) return res;
+        Stack<TreeNode> stk = new Stack<TreeNode>();
+        TreeNode cur = root;
+        while (stk.isEmpty() == false || cur != null) {
+            if (cur != null) {
+                stk.push(cur);
+                res.add(cur.val);
+                cur = cur.left;
+            } else {
+                cur = stk.pop();

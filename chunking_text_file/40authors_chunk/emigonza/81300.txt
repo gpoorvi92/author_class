@@ -1,0 +1,10 @@
+    /**
+     * Removes the specified Profile 
+     * @param profile the profile to remove
+     */
+    public void removeProfile( Profile profile ) { table.remove( profile.getName() ); }
+
+    /**
+     * Removes the Profile with the profileName specified 
+     * @param profileName the unique name of this profile
+     */

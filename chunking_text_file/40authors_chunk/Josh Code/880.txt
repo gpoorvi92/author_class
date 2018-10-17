@@ -1,0 +1,10 @@
+        try
+        {
+        for (ModelFileLoader mfl: loaders)
+        { 
+           if (mfl.matchesFormat(f))
+           { 
+               mfl.loadModel(m,f,progressListener);
+               return m;
+           }
+        }

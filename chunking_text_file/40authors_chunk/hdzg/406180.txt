@@ -1,0 +1,10 @@
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.view.MotionEvent;
+import android.view.View;
+
+public class GameOverAlert extends GameAlert{
+	String [] alertMessage={
+			"你没钱交过路税，已经沦为守城将领的阶下囚了，统一大业已经永久搁浅了，只好下次再来了！",

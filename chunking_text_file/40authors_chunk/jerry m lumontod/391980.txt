@@ -1,0 +1,10 @@
+			case 15:
+				mintResult = s1.mstrRemarks.compareTo(s2.mstrRemarks);			
+				break;
+			case 16:
+				mintResult = Date1GreaterThanDate2(s1.mstrDueDate,s2.mstrDueDate);
+				break;
+			case 17:
+				mintResult = Date1GreaterThanDate2(s1.mstrPayDate,s2.mstrPayDate);
+				break;
+			case 18:

@@ -1,0 +1,10 @@
+   */
+ private BufferedImage mainBuffer;
+ private byte[] mainPixelData;
+
+  /**
+   * the place all rendering is to be done on
+   */
+ private RenderingBuffer resultBuf;
+
+

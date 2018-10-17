@@ -1,0 +1,6 @@
+  public int     getServiceIndex() throws JposException;
+
+  // Methods
+  public void    adjustCashCounts(String cashCounts)
+                     throws JposException;
+}

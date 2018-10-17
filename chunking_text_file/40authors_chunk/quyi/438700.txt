@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 1:string cpuVendor cpu制造商
+ * 2:string cpuModel  cpu型号
+ * 3:i32 cpuCores  cpu核心数
+ * 4:i32 cpuMhz    cpu主频
+ * 5:i32 memSize  内存大小

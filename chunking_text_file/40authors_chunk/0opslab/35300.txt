@@ -1,0 +1,10 @@
+  protected abstract String RowStopTag();
+
+  protected final void renderCell(Object content,int firstOrLast) throws IOException{
+    m_out.write(this.CellStartTag((firstOrLast==FIRST_CELL_IN_ROW)));
+    if(content instanceof TableModel){
+      this.render((TableModel)content);
+    }
+    else{
+      m_out.write(content.toString());
+    }

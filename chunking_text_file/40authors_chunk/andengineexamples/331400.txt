@@ -1,0 +1,10 @@
+	// Constructors
+	// ===========================================================
+
+	public UpdatePaddleServerMessage() {
+
+	}
+
+	public UpdatePaddleServerMessage(final int pPaddleID, final float pX, final float pY) {
+		this.mPaddleID = pPaddleID;
+		this.mX = pX;

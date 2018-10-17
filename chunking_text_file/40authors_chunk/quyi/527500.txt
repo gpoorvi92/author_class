@@ -1,0 +1,10 @@
+            _elem31 = new com.nercis.isscp.idl.Sample();
+            _elem31.read(iprot);
+            struct.samples.add(_elem31);
+          }
+        }
+        struct.setSamplesIsSet(true);
+      }
+    }
+  }
+

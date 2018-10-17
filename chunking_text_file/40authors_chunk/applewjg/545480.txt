@@ -1,0 +1,10 @@
+            if (i + p[i] > mx) {
+                id = i; mx = i + p[i];
+            }
+            if (p[i] > maxLen) {
+                idx = i; maxLen = p[i];
+            }
+        }
+        idx = (idx - maxLen) / 2;
+        return s.substring(idx, idx + maxLen);
+    }

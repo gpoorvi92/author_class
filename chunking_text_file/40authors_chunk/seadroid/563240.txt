@@ -1,0 +1,10 @@
+    /**
+     * Extract the Seafile account from the documentId
+     *
+     * @param documentId our documentId, as created by createDocumentId()
+     * @return the corresponding Account
+     * @throws java.io.FileNotFoundException if the documentId is bogus or the account doesn't exist
+     */
+    public Account getAccountFromId(String documentId) throws FileNotFoundException {
+        String[] list = documentId.split(DOC_SEPERATOR, 2);
+        if (list.length > 0) {

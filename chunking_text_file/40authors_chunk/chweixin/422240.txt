@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Long total(PictureInfo info) {
+		String hql = "select count(*) from Picture p where 1 = 1 ";
+		Map<String, Object> parameters = new HashMap<>();
+		hql = this.addWhere(info, hql, parameters);
+		return this.count(hql, parameters);
+	}
+

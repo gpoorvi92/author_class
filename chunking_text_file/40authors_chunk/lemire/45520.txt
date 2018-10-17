@@ -1,0 +1,10 @@
+     *
+     * @param le element
+     * @return the result of the operation
+     */
+    T xor(T le);
+
+    /**
+     * Compute the composition
+     *
+     * @param le another element

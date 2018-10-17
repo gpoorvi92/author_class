@@ -1,0 +1,10 @@
+	@Click(R.id.title_back)
+	void back(){
+		EditNumberActivity.this.finish();
+	}
+
+	@Click(R.id.title_pos) 
+	void pos(){
+		Intent intent = new Intent(EditNumberActivity.this,
+				LaunchActivity.class);
+		intent.putExtra("value", number_dt.getText()

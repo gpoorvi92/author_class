@@ -1,0 +1,10 @@
+				holder.act_type_img = (ImageView) row
+						.findViewById(R.id.act_type_img);
+				/*
+				 * holder.act_type_explain = (TextView) row
+				 * .findViewById(R.id.act_type_explain);
+				 */
+				row.setTag(holder);
+			} else {
+				holder = (ViewHolder) row.getTag();
+			}

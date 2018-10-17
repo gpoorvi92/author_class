@@ -1,0 +1,10 @@
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("updateUserAppStatus", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        updateUserAppStatus_args args = new updateUserAppStatus_args();
+        args.setMissionId(missionId);
+        args.setUserAppId(userAppId);
+        args.setPlotsStatus(plotsStatus);
+        args.setFunctionStatus(functionStatus);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+

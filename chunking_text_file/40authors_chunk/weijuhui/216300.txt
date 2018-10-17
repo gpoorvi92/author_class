@@ -1,0 +1,10 @@
+			title_sub_bar.setBackgroundResource(SourceData.getTheme());
+			details_dt.setText(value);
+			initState(flag);
+		}
+	}
+
+	@Click(R.id.title_pos)
+	void pos() {
+		Intent intent = new Intent(EditActivity.this, LaunchActivity.class);
+		intent.putExtra("value", details_dt.getText().toString());

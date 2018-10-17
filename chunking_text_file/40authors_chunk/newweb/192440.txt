@@ -1,0 +1,10 @@
+
+	Integer[] queryDistinctCustomerByDateACustomer(String startDate,
+			String endDate, String customer);
+
+	Bill[] queryBillStoreByStatusACreateDateTimeACustomerJsons(String status,
+			String startDate, String endDate, String customer);
+
+	/**
+	 * 账单整合操作
+	 * @param ids

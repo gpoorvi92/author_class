@@ -1,0 +1,10 @@
+public class SelDataListCellRenderer extends JLabel implements ListCellRenderer {
+	
+	public static final int OFFSET = 16;
+	protected Color mclrTextSelectionColor = Color.white;
+	protected Color mclrTextNonSelectionColor = Color.black;
+	protected Color mclrTextNonselectableColor = Color.gray;
+	protected Color mclrBackSelectionColor = new Color(0, 0, 128);
+	protected Color mclrBackNonSelectionColor = Color.white;
+	protected Color mclrBorderSelectionColor = Color.yellow;
+

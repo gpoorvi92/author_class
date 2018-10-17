@@ -1,0 +1,10 @@
+public byte[] getEntry() 
+{ 
+	return entry; 
+} 
+
+public int getCode() 
+{ 
+	return code; 
+} 
+

@@ -1,0 +1,10 @@
+
+		txtMemberId = new JTextField ();
+		txtMemberId .setHorizontalAlignment (JTextField.RIGHT);
+		txtMemberId .setBounds (125, 15, 200, 25);
+		txtMemberName = new JTextField ();
+		txtMemberName.setEnabled (false);
+		txtMemberName.setBounds (125, 45, 200, 25);
+		txtMemberAddress = new JTextField ();
+		txtMemberAddress.setEnabled (false);
+		txtMemberAddress.setBounds (125, 75, 200, 25);

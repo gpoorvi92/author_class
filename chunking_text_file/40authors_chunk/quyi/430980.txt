@@ -1,0 +1,10 @@
+      this.apkMD5 = null;
+    }
+  }
+
+  public String getCheckDate() {
+    return this.checkDate;
+  }
+
+  public StaticCheckResultData setCheckDate(String checkDate) {
+    this.checkDate = checkDate;

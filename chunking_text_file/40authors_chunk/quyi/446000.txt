@@ -1,0 +1,10 @@
+
+    boolean this_present_screenShotPath = true && this.isSetScreenShotPath();
+    boolean that_present_screenShotPath = true && that.isSetScreenShotPath();
+    if (this_present_screenShotPath || that_present_screenShotPath) {
+      if (!(this_present_screenShotPath && that_present_screenShotPath))
+        return false;
+      if (!this.screenShotPath.equals(that.screenShotPath))
+        return false;
+    }
+

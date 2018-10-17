@@ -1,0 +1,10 @@
+
+	private Camera mCamera;
+
+	protected Scene mMainScene;
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFaceTextureRegion;
+
+	private Font mFont;
+

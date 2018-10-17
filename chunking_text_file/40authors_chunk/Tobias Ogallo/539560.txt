@@ -1,0 +1,10 @@
+        g.setColor(Color.black);
+        super.paint(g);
+      }
+    };
+    
+    
+		listPane.setEditable(false);
+		listPane.setFont(new Font("Serif", Font.BOLD, 12));
+		listPane.setForeground(Color.black);
+	

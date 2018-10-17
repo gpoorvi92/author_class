@@ -1,0 +1,10 @@
+ */
+public interface IMQFactory {
+	
+	/**
+	 * Gets the specified message queue sender.
+	 * 
+	 * @Title: getSender
+	 * @param: qtype
+	 * @return: IMQSender
+	 */

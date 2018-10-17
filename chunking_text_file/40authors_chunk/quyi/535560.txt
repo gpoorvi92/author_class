@@ -1,0 +1,10 @@
+
+  public HardwareResources() {
+  }
+
+  public HardwareResources(
+    String processName,
+    String threadName,
+    String checkTime,
+    DeviceType deviceType)
+  {

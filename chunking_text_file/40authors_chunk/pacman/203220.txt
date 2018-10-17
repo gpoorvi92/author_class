@@ -1,0 +1,10 @@
+		
+		FileOutputStream fos = new FileOutputStream(xmlFile);
+		XMLWriter writer = new XMLWriter(fos, format);
+		writer.write(doc);
+		writer.close();
+	}
+	
+	/**
+	 * @param root
+	 * @param info2

@@ -1,0 +1,10 @@
+    }
+}
+
+class Emplogee {
+    private static int nextId;
+
+    private int id;
+    private String name = "";
+    private double salary;
+

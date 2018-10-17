@@ -1,0 +1,10 @@
+
+        BeanUtil.setPropertyIgnoreCasePeaceful(bean, "operationname", value + "5");
+        assertEquals(value + "5", bean.getOperationName());
+
+        BeanUtil.setPropertyFilter(bean, "operation_Name", value + "4", new PropertyFilter() {
+            @Override
+            public String Properties(String pro) {
+                return StringUtil.remove(pro, "_").toLowerCase();
+            }
+        });

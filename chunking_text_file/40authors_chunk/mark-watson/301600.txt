@@ -1,0 +1,10 @@
+		for (String testWord : list) {
+			String word_pair = previous_word + " " + testWord;
+			int count_from_1_word = 0;
+			int count_from_word_pairs = 0;
+			if(wordCounts.containsKey(testWord)) {
+				count_from_1_word += wordCounts.get(testWord);
+				candidates.put(wordCounts.get(testWord), testWord);
+			}
+			if (wordPairCounts.containsKey(word_pair)) {
+				count_from_word_pairs += wordPairCounts.get(word_pair);

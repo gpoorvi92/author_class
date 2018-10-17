@@ -1,0 +1,10 @@
+      target = t;
+   }
+
+   public Object invoke(Object proxy, Method m, Object[] args) throws Throwable
+   {
+      // print implicit argument
+      System.out.print(target);
+      // print method name
+      System.out.print("." + m.getName() + "(");
+      // print explicit arguments

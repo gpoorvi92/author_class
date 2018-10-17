@@ -1,0 +1,10 @@
+
+	public static void showToast(Context ctx, String content) {
+		Toast.makeText(ctx, content, Toast.LENGTH_LONG).show();
+	}
+
+	public static void initVariables(AutoActivity act) {
+		try {
+			for (int i = 0; i < ConstVariables.INIT_APP.length; i++) {
+				Object[] args = new Object[5];
+				args[0] = ConstVariables.INIT_APP[i][0];

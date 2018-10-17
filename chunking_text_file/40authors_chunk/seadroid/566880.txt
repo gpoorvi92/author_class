@@ -1,0 +1,10 @@
+    public static class LifeCycleAdapter implements LifeCycleListener {
+        public void onActivityCreated(MonitoredActivity activity) {
+        }
+
+        public void onActivityDestroyed(MonitoredActivity activity) {
+        }
+
+        public void onActivityStarted(MonitoredActivity activity) {
+        }
+

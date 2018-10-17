@@ -1,0 +1,10 @@
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.am.jlfu.fileuploader.exception.AuthorizationException;
+import com.am.jlfu.fileuploader.web.UploadServletAction;
+
+
+
+@ContextConfiguration(locations = { "classpath:jlfu.test.xml" })
+@RunWith(SpringJUnit4ClassRunner.class)

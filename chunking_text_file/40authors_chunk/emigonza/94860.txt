@@ -1,0 +1,10 @@
+
+	/**
+	 * Visits a Scale DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitScale( DevCat devCat );
+
+	/**
+	 * Visits a ToneIndicator DevCat
+	 * @param devCat the DevCat

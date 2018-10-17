@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example5;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+
+/**
+ * P221
+ * 测试方法int getWaitQueueLength(Condition condition)
+ * 返回等待与此锁定相关的给定条件Condition的线程估计数

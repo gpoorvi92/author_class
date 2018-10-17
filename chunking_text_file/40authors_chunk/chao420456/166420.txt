@@ -1,0 +1,10 @@
+	}
+
+	//·´×ª
+	public static void reverse(int[] arr) {
+		for (int start=0,end=arr.length; start<=end; start++,end--) {
+			int temp = arr[start];
+			arr[start] = arr[end];
+			arr[end] = temp;
+		}
+	}

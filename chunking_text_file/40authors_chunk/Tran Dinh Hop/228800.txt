@@ -1,0 +1,10 @@
+	private static JLabel picture = null;
+	private String ImFileName;
+  	//private JFileChooser fc;
+	int width, height;
+	long fileSize=0;
+	
+	public OpenImage(String file){
+		
+		this.setLayout(new BorderLayout());
+		ImFileName = file;

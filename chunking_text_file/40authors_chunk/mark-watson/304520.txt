@@ -1,0 +1,10 @@
+        return ret;
+    }
+    private boolean winCheck(int i1, int i2, int i3,
+                             boolean player, TicTacToePosition pos) {
+        int b = 0;
+        if (player) b = TicTacToePosition.HUMAN;
+        else        b = TicTacToePosition.PROGRAM;
+        if (pos.board[i1] == b &&
+            pos.board[i2] == b &&
+            pos.board[i3] == b)         return true;

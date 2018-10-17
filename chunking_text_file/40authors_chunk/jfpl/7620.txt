@@ -1,0 +1,10 @@
+				Toast.makeText(LocationPickerActivity.this, "查询所在位置失败",
+						Toast.LENGTH_LONG).show();
+				return;
+			}
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();
+			AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+			item.putStringValue("location_jc", "【我的位置】");
+			item.putStringValue("location_wz", result.strAddr);
+			item.putIntValue("lat", mylocationPoint.getLatitudeE6());

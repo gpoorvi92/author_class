@@ -1,0 +1,10 @@
+    {
+        if(file == null)
+        {
+            throw new IllegalArgumentException("File is missing");
+        } else
+        {
+            this.file = file;
+            this.parent = parent;
+            name = file.getName();
+            return;

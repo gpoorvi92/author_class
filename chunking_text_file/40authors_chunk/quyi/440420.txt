@@ -1,0 +1,10 @@
+	public static SearchRecordInfoQueue getInstance() {
+		return searchRecordInfoQueueSingleton;
+	}
+
+	public synchronized ConcurrentLinkedQueue<SearchRecordInfo> getSearchRecordInfoQueue() {
+		return queue;
+	}
+
+	public synchronized boolean addToSingleRecordInfoQueue(SearchRecordInfo singleRecordInfo) {
+		return queue.add(singleRecordInfo);

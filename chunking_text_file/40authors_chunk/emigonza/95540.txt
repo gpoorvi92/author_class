@@ -1,0 +1,10 @@
+import java.util.*;
+import java.net.URL;
+
+import jpos.config.simple.AbstractRegPopulator;
+
+/**
+ * Simple implementation of the JposRegPopulator that loads and saves the entries
+ * in XML using the "jpos/res/jcl.dtd" DTD and the XML4J (Xerces) API
+ * <p>
+ * <b>NOTE</b>: this class must define a public no-argument ctor so that it may be created 

@@ -1,0 +1,10 @@
+ * This program demonstrates a custom class loader that decrypts class files.
+ * @version 1.23 2012-06-08
+ * @author Cay Horstmann
+ */
+public class ClassLoaderTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {

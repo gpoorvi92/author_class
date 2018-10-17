@@ -1,0 +1,10 @@
+        System.out.println("耗时：" + (endTime - beginTime) / 1000);
+    }
+
+}
+
+/*
+输出：
+begin task
+begin task
+长时间处理任务后从远程返回的值1 threadName=c

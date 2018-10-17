@@ -1,0 +1,10 @@
+               text.setFont(font);
+            }
+
+         });
+
+      Container contentPane = getContentPane();
+      contentPane.add(p, BorderLayout.SOUTH);
+      text = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+      text.setText("The quick brown fox jumps over the lazy dog");
+      text.setFont(fonts.get(0));

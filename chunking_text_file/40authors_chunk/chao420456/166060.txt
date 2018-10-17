@@ -1,0 +1,10 @@
+
+	}
+
+	public static int getIndex(int[] arr, int value) {
+		int minIndex = 0;
+		int maxIndex = arr.length - 1;
+		int middleIndex = (minIndex + maxIndex) / 2;
+
+		while (value != arr[middleIndex]) {
+			if (value > arr[middleIndex]) {

@@ -1,0 +1,10 @@
+		setContentView(mLayoutID);
+		WindowManager.LayoutParams lp = getWindow().getAttributes();
+		lp.width = lp.MATCH_PARENT;
+		lp.height = lp.WRAP_CONTENT;
+		getWindow().setAttributes(lp);
+		mTitleText = (TextView) this.findViewById(R.id.dateSliderTitleText);
+		mContainer = (SliderContainer) this
+				.findViewById(R.id.dateSliderContainer);
+
+		mContainer.setOnTimeChangeListener(onTimeChangeListener);

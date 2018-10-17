@@ -1,0 +1,10 @@
+	//private JButton jButton3;
+	private JButton jButton4;
+	
+	private JButton AddNew,Update,Remove,Search,Clear,Exit;
+	private static int rowCnt = 0;
+	private static int selectedRow;
+    private static JTextArea txtInfo=new JTextArea( 15, 40 );
+	private Connection dbconn;
+	private static String info;
+	

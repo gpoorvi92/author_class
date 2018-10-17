@@ -1,0 +1,10 @@
+		query.setString(1, orderid);
+		return (OrderSmall) query.uniqueResult();
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<OrderSmall> selectAllOrderSmalls() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from  t_order_smallGoods")
+				.addEntity(OrderSmall.class);
+		return query.list();

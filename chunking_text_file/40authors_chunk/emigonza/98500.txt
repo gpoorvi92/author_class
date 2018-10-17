@@ -1,0 +1,10 @@
+  public static final int EJ_S_RECEIPT = 0x00000001;
+  public static final int EJ_S_SLIP    = 0x00000002;
+  public static final int EJ_S_JOURNAL = 0x00000004;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "retrieveCurrentMarker" Method, "markerType" Parameter Constants
+  // "retrieveMarker" Method, "markerType" Parameter Constants
+  // "retrieveMarkerByDateTime" Method, "markerType" Parameter Constants
+  /////////////////////////////////////////////////////////////////////

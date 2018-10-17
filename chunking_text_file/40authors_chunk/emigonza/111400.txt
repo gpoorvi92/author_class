@@ -1,0 +1,10 @@
+public class MICRBeanInfo
+  extends SimpleBeanInfo
+{
+  public BeanDescriptor getBeanDescriptor()
+  {
+    return new BeanDescriptor(jpos.MICR.class);
+  }
+
+  public PropertyDescriptor makeProperty(String propertyName)
+    throws IntrospectionException

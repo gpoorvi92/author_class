@@ -1,0 +1,10 @@
+	List<Chromosome> chromosomes;
+	private float crossoverFraction;
+	private float mutationFraction;
+	private int[] rouletteWheel;
+	private int rouletteWheelSize;
+
+	public Genetic(int num_genes_per_chromosome, int num_chromosomes) {
+		this(num_genes_per_chromosome, num_chromosomes, 0.8f, 0.01f);
+	}
+

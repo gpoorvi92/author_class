@@ -1,0 +1,10 @@
+	 */
+	public double getCpuSys() {
+		return cpuSys;
+	}
+	/**
+	 * @param cpuSys the cpuSys to set
+	 */
+	public void setCpuSys(double cpuSys) {
+		this.cpuSys = cpuSys;
+	}

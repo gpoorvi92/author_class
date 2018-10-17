@@ -1,0 +1,10 @@
+package chap12;
+import javax.sound.midi.*;
+import java.io.*;
+import javax.swing.*;
+import java.awt.*;
+
+  // this one plays random music with it, but only because there is a listener.
+
+public class MiniMusicPlayer3 {
+

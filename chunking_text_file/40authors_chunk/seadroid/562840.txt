@@ -1,0 +1,10 @@
+        } else {
+            viewHolder = (Viewholder) convertView.getTag();
+        }
+        Account account = items.get(position);
+        viewHolder.title.setText(account.getServerHost());
+        viewHolder.subtitle.setText(account.getEmail());
+        if (getAvatarUrl(account) != null) {
+            options = new DisplayImageOptions.Builder()
+            .extraForDownloader(account)
+            .showStubImage(R.drawable.default_avatar)

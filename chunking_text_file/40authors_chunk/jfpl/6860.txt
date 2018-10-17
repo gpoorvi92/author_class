@@ -1,0 +1,10 @@
+	public String getLastVoicePath() {
+		return this.lastVoicePath;
+	}
+
+	public void cancelRecord() {
+		endRecord();
+		try {
+			File f = new File(this.lastVoicePath);
+			f.delete();
+		} catch (Exception ex) {

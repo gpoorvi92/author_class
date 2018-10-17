@@ -1,0 +1,10 @@
+        oprot.writeString(struct.userAppId);
+        oprot.writeFieldEnd();
+      }
+      if (struct.usedPermissions != null) {
+        if (struct.isSetUsedPermissions()) {
+          oprot.writeFieldBegin(USED_PERMISSIONS_FIELD_DESC);
+          {
+            oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.MAP, struct.usedPermissions.size()));
+            for (Map<String,APICheck> _iter139 : struct.usedPermissions)
+            {

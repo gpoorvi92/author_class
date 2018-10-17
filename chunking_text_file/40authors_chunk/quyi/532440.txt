@@ -1,0 +1,10 @@
+    if (other.isSetRiskLevel()) {
+      this.riskLevel = other.riskLevel;
+    }
+    if (other.isSetRuleNo()) {
+      this.ruleNo = other.ruleNo;
+    }
+    if (other.isSetCategory()) {
+      this.category = other.category;
+    }
+    if (other.isSetDescription()) {

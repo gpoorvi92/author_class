@@ -1,0 +1,10 @@
+			String ip = (String)Inet4Address.getLocalHost().getHostAddress();
+			jtf_hostIp.setText(ip);
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		jtf_hostIp.setColumns(10);
+		
+		JLabel lblNewLabel_2 = new JLabel("\u7AEF\u53E3\u53F7");
+		lblNewLabel_2.setFont(new Font("ËÎÌו", Font.PLAIN, 14));
+		lblNewLabel_2.setBounds(23, 118, 81, 34);

@@ -1,0 +1,10 @@
+               tabbedPane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
+            }
+         });
+      buttonPanel.add(scrollButton);
+      buttonGroup.add(scrollButton);
+      add(buttonPanel, BorderLayout.SOUTH);
+   }
+
+   /**
+    * Loads the tab with the given index.

@@ -1,0 +1,10 @@
+      MatchCounter counter = new MatchCounter(new File(directory), keyword);
+      FutureTask<Integer> task = new FutureTask<>(counter);
+      Thread t = new Thread(task);
+      t.start();
+      try
+      {
+         System.out.println(task.get() + " matching files.");
+      }
+      catch (ExecutionException e)
+      {

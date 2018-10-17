@@ -1,0 +1,10 @@
+public class LruCache<K, V> {
+
+    private final HashMap<K, V> mLruMap;
+    private final HashMap<K, Entry<K, V>> mWeakMap =
+            Maps.newHashMap();
+    private ReferenceQueue<V> mQueue = new ReferenceQueue<V>();
+
+    @SuppressWarnings("serial")
+    public LruCache(final int capacity) {
+        mLruMap = new LinkedHashMap<K, V>(16, 0.75f, true) {

@@ -1,0 +1,10 @@
+	private AutoActivity ctx;
+	private AbstractCommonData sendData;
+
+	public BindVehService(AutoActivity ctx, AbstractCommonData sendData) {
+		this.ctx = ctx;
+		this.sendData = sendData;
+	}
+
+	@Override
+	public AbstractCommonData doSuccess(AbstractCommonData acd) {

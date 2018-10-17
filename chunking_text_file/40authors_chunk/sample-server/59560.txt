@@ -1,0 +1,10 @@
+        return zoneEntityMap.get(zoneId);
+    }
+    public ZoneEntity getById(int id)
+    {
+        for (ZoneEntity each : zoneEntityMap.values())
+        {
+            if (each.getId() == id)
+            {
+                return each;
+            }

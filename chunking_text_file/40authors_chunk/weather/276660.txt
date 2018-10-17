@@ -1,0 +1,10 @@
+            Handler handler = new Handler(Looper.getMainLooper());
+            handler.postAtFrontOfQueue(mCallback);
+        }
+        return true;
+    }
+
+    @Override
+    public Priority getPriority() {
+        return Priority.IMMEDIATE;
+    }

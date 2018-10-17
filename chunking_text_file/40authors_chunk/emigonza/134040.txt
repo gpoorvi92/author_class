@@ -1,0 +1,10 @@
+    public static final int SCAN_SDT_AZTEC       = 206;  // Aztec
+    public static final int SCAN_SDT_UPDF417     = 207;  // Micro PDF 417
+
+    // Special cases
+    public static final int SCAN_SDT_OTHER       = 501;  // Start of Scanner-
+                                                         //   Specific bar code
+                                                         //   symbologies
+    public static final int SCAN_SDT_UNKNOWN     =   0;  // Cannot determine the
+                                                         //   barcode symbology.
+}

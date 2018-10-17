@@ -1,0 +1,10 @@
+                writer.println(outgoing.getText());
+                writer.flush();
+                
+            }
+            catch (Exception ex) {
+                ex.printStackTrace();
+            }
+            outgoing.setText("");
+            outgoing.requestFocus();
+        }

@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface ImageScannerService112
+  extends ImageScannerService111
+{

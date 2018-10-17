@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import android.util.Log;
+
+import java.util.Arrays;
+
+/**
+ * 日志工具类，直接已类名作为tag、日志中包含方法名
+ */
+public class LogUtil {

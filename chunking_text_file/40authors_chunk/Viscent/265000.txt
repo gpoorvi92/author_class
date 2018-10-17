@@ -1,0 +1,9 @@
+	public int genResponseDelay(String externalDevice) {
+		return respDelayRnd.nextInt(respDelayConf.get(externalDevice));
+	}
+
+	public int genInternalDelay() {
+		return internalDealyRnd.nextInt(respDelayConf.get("ESB"));
+	}
+
+}

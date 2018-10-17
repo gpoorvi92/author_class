@@ -1,0 +1,10 @@
+                {
+                    ChatServerRpc.UpdateSysNoticeResp resp = each.updateSysNotice(req);
+                    if (!resp.getSuccess())
+                    {
+                        ret = false;
+                    }
+                }
+            }
+            else
+            {

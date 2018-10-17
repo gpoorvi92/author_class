@@ -1,0 +1,10 @@
+		super();
+	}
+		
+
+	public DefaultTableModel LoadData(String tstrSQL) {
+		
+		i=2;
+		obj = new Object[i];
+		
+		try {

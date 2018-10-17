@@ -1,0 +1,10 @@
+    public boolean getCapAdditionalHeader() throws JposException;
+    public boolean getCapAdditionalTrailer() throws JposException;
+    public boolean getCapChangeDue() throws JposException;
+    public boolean getCapEmptyReceiptIsVoidable() throws JposException;
+    public boolean getCapFiscalReceiptStation() throws JposException;
+    public boolean getCapFiscalReceiptType() throws JposException;
+    public boolean getCapMultiContractor() throws JposException;
+    public boolean getCapOnlyVoidLastItem() throws JposException;
+    public boolean getCapPackageAdjustment() throws JposException;
+    public boolean getCapPostPreLine() throws JposException;

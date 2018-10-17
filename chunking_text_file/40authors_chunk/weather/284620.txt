@@ -1,0 +1,6 @@
+            return Response.error(new ParseError(e));
+        } catch (JSONException je) {
+            return Response.error(new ParseError(je));
+        }
+    }
+}

@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.TreeWillExpandListener ///
+
+package org.genie.javax_swing;
+
+public class TreeWillExpandListenerProxy implements javax.swing.event.TreeWillExpandListener {
+
+    long swiftObject;
+
+    TreeWillExpandListenerProxy( long swiftObject ) {

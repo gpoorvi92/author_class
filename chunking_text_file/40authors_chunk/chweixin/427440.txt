@@ -1,0 +1,10 @@
+		if(userId != null && !userId.trim().isEmpty()){ 
+			folderBuilder.append(userId).append(File.separatorChar);
+		}
+		folderBuilder.append(new SimpleDateFormat("yyyy-MM-dd").format(new Date())).append(File.separatorChar);
+		return folderBuilder.toString();
+	}
+	/**
+	 *  创建绝对路径。
+	 *  @param folder
+	 *  相对路径。

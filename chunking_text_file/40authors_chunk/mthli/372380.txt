@@ -1,0 +1,10 @@
+      add(panel);
+
+      JMenu fileMenu = new JMenu("File");
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(fileMenu);
+      setJMenuBar(menuBar);
+
+      JMenuItem openItem = fileMenu.add("Open");
+      openItem.addActionListener(EventHandler.create(ActionListener.class, this, "open"));
+      JMenuItem saveItem = fileMenu.add("Save");

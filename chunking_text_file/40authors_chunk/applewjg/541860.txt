@@ -1,0 +1,10 @@
+    public void recoverTree_2(TreeNode root) {
+        if (root == null) return;
+        TreeNode[] res = new TreeNode[3];// 0->pre, 1->first, 2->second
+        recoverRe2(root, res);
+        int tmp = res[1].val;
+        res[1].val = res[2].val;
+        res[2].val = tmp;
+    }
+    public void recoverRe2(TreeNode root, TreeNode[] res) {
+        if (root == null) return;

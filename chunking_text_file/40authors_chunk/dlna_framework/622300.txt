@@ -1,0 +1,10 @@
+
+	public String getSID() {
+		return SID;
+	}
+
+	public void setSID(String sid) {
+		SID = sid;
+	}
+
+	////////////////////////////////////////////////

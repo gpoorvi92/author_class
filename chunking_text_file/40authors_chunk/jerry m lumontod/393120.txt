@@ -1,0 +1,10 @@
+	
+		public void mouseClicked(MouseEvent e) {
+	
+			TableColumnModel colModel = mtblTable.getColumnModel();
+			int columnModelIndex = colModel.getColumnIndexAtX(e.getX());
+			int modelIndex = colModel.getColumn(columnModelIndex).getModelIndex();
+	
+			if (modelIndex < 0)
+				return;
+			if (mintSortCol==modelIndex)

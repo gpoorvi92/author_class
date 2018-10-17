@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface KeylockService111 extends KeylockService110
+{
+  // Capabilities

@@ -1,0 +1,10 @@
+            dp[0] = i;
+            for(int j=1;j<=len2;j++){
+                int upperLeft = upperLeftBak;
+                upperLeftBak = dp[j];
+                if(word1.charAt(i-1)==word2.charAt(j-1)) dp[j] = upperLeft;
+                else{
+                    dp[j] = Math.min(dp[j],Math.min(dp[j-1],upperLeft))+1;
+                }
+            }
+        }

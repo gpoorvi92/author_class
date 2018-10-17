@@ -1,0 +1,10 @@
+		@Override
+		public void run() {
+			if (mediaRecorder != null && volumeArr != null) {
+				int ratio = mediaRecorder.getMaxAmplitude() / BASE;
+				int db = 0;// 分贝
+				if (ratio > 1) {
+					db = (int) (20 * Math.log10(ratio));
+				}
+				setVolumeState(db / 4);
+				handler.postDelayed(showVoiceVolume, 300);

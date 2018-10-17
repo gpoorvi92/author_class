@@ -1,0 +1,10 @@
+    }
+
+    @RequestMapping("/update")
+    public ModelAndView update(News news) {
+        try {
+            newsService.update(news);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        if (news.getId() == 1) {

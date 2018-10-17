@@ -1,0 +1,10 @@
+    protected AbsMediaPlayer.OnCompletionListener mOnCompletionListener = null;
+    protected AbsMediaPlayer.OnErrorListener mOnErrorListener = null;
+    protected AbsMediaPlayer.OnInfoListener mOnInfoListener = null;
+    protected AbsMediaPlayer.OnPreparedListener mOnPreparedListener = null;
+    protected AbsMediaPlayer.OnVideoSizeChangedListener mOnVideoSizeChangedListener = null;
+    protected AbsMediaPlayer.OnSeekCompleteListener mOnSeekCompleteListener = null;
+
+    public interface OnBufferingUpdateListener {
+        public void onBufferingUpdate(AbsMediaPlayer mp, int percent);
+    }

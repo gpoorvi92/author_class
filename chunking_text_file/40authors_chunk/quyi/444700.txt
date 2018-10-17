@@ -1,0 +1,10 @@
+    boolean that_present_dynamicCheckResult = true && that.isSetDynamicCheckResult();
+    if (this_present_dynamicCheckResult || that_present_dynamicCheckResult) {
+      if (!(this_present_dynamicCheckResult && that_present_dynamicCheckResult))
+        return false;
+      if (!this.dynamicCheckResult.equals(that.dynamicCheckResult))
+        return false;
+    }
+
+    return true;
+  }

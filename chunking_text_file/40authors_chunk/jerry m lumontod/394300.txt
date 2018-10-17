@@ -1,0 +1,10 @@
+		}
+
+		return true; //temporary, we dont have business policies to apply yet...
+	}
+	public boolean SubDeptCodeIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode) {
+		boolean mbln=true;
+		
+		moSubDeptCodeIsValid.SubDeptCodeIsValid(tstrCompCode,tstrDeptCode,tstrSubDeptCode);
+		if (moSubDeptCodeIsValid.TheMessage().length()>0) {
+			mbln=false;

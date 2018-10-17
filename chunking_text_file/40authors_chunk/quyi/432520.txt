@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetFeaturesCharacters()) {
+        optionals.set(3);
+      }
+      if (struct.isSetApiCheck()) {
+        optionals.set(4);
+      }
+      if (struct.isSetReportPath()) {
+        optionals.set(5);
+      }

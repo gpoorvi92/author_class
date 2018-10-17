@@ -1,0 +1,10 @@
+        }
+    }
+
+    /**
+     * @return the tracerOutput object for the Tracer
+     * @since 1.2 (NY 2K meeting)
+     */
+    private TracerOutput getTracerOutput() 
+    { 
+        return ( isOn() ? onTracerOutput : offTracerOutput );

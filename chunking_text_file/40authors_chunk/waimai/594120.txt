@@ -1,0 +1,10 @@
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/goods/list");
+        vo.setMerchantId(getMerchant().getId());
+        List<Goods> goodsList = goodsService.search(vo);
+        modelAndView.addObject("goodsList", goodsList);
+        modelAndView.addObject("goodsStatus", GoodsStatus.values());
+        modelAndView.addObject("goodsType", goodsTypeService.findAll());
+        modelAndView.addObject("vo", vo);
+        return modelAndView;
+    }

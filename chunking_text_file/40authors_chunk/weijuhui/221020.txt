@@ -1,0 +1,10 @@
+import android.text.Html;
+import android.text.Spanned;
+import android.widget.Toast;
+
+import com.amap.api.maps.AMap;
+import com.amap.api.maps.model.LatLng;
+import com.amap.api.search.core.LatLonPoint;
+
+public class AMapUtil {
+	/**

@@ -1,0 +1,10 @@
+		mainPanel.setLayout(new GridLayout(2, 2));
+		
+		mainPanel.add(widthL);
+		mainPanel.add(widthT);
+		mainPanel.add(heightL);
+		mainPanel.add(heightT);
+		
+		buttonBox.createHorizontalStrut(100);
+		buttonBox.add(ok);
+		buttonBox.add(cancel);

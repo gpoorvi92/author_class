@@ -1,0 +1,10 @@
+      }
+   }
+
+   public MenuFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      JMenu fileMenu = new JMenu("File");
+      fileMenu.add(new TestAction("New"));
+

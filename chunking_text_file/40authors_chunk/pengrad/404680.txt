@@ -1,0 +1,10 @@
+                        System.out.println("New message: " + message.text() + " id: " + message.messageId() + " from " + chat);
+                    }
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

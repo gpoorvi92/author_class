@@ -1,0 +1,10 @@
+ Solution: 1. O(m+n)
+           2. O(log(m+n))
+*/
+
+public class Solution {
+    public double findMedianSortedArrays_1(int A[], int B[]) {
+        int m = A.length, n = B.length;
+        int total = n + m, m1=0, m2=0, i=0, j=0;
+        for (int k = 1; k <= total/2 + 1; ++k) {
+            int a = (i==m) ? Integer.MAX_VALUE : A[i];

@@ -1,0 +1,10 @@
+      slider.setPaintTicks(true);
+      slider.setMajorTickSpacing(20);
+      slider.setMinorTickSpacing(5);
+      addSlider(slider, "Ticks");
+
+      // add a slider that snaps to ticks
+
+      slider = new JSlider();
+      slider.setPaintTicks(true);
+      slider.setSnapToTicks(true);

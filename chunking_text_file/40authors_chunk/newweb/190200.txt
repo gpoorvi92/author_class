@@ -1,0 +1,10 @@
+	 * @param fileName
+	 * @param append : true为在文件后追加内容
+	 * @return
+	 */
+	public static boolean writeTextToTextFile(String text,String path, String fileName,boolean append) {
+		File f = new File(path);
+		if(!f.exists()){
+			f.mkdirs();
+		}
+		f = new File(path + File.separator + fileName);

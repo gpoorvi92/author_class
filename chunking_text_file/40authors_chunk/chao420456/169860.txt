@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		//定义数组
+		int[] arr = {12,86,79,43,50};
+
+		/*
+		for(int x=0; x<arr.length; x++) {
+			System.out.println(arr[x]);
+		}
+		*/
+

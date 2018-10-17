@@ -1,0 +1,10 @@
+	 * @return
+	 * @throws MQException
+	 */
+	boolean tryGetMessage() throws MQException;
+	
+	/**
+	 * trys to get the message inside queue or topic with timeout.
+	 * 
+	 * @param milliseconds
+	 * @return

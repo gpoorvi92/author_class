@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean update(OrderLhjWinProp prop) {
+		try {
+			sessionFactory.getCurrentSession().update(prop);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;

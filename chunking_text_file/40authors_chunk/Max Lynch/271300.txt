@@ -1,0 +1,10 @@
+			return fillColorGradient.getColor2();
+		else 
+			return fillColor;
+		}
+	public GradientPaint getGradientFill()
+	{
+		return fillColorGradient;
+	}
+	public RadialGradientPaint getRadialFill()
+	{

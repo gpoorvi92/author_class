@@ -1,0 +1,10 @@
+	 */
+	public Integer getType() {
+		return this.type;
+	}
+
+	/**
+	 * Private field isct Setter method.
+	 * @param isct 
+	 */
+	public void setType(Integer type) {

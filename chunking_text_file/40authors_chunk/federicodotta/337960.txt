@@ -1,0 +1,10 @@
+
+    /**
+     * This method is used to build a request with the specified payload placed
+     * into the insertion point. There is no requirement for extension-provided
+     * insertion points to adjust the Content-Length header in requests if the
+     * body length has changed, although Burp-provided insertion points will
+     * always do this and will return a request with a valid Content-Length
+     * header.
+     * <b>Note:</b>
+     * Scan checks should submit raw non-encoded payloads to insertion points,

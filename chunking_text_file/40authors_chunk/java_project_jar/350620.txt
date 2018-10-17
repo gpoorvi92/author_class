@@ -1,0 +1,10 @@
+            throw new IOException((new StringBuilder()).append("Marked position [").append(mark).append("] is no longer valid - passed the read limit [").append(readlimit).append("]").toString());
+        } else
+        {
+            position = mark;
+            eof = false;
+            return;
+        }
+    }
+
+    public long skip(long numberOfBytes)

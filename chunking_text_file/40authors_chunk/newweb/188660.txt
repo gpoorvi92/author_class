@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderBxgFdw;
+
+@SuppressWarnings("unchecked")
+@Component("orderBxgFdwDao")
+public class OrderBxgFdwDaoImp implements OrderBxgFdwDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired

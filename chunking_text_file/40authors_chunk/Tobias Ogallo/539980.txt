@@ -1,0 +1,10 @@
+public class Password extends JFrame{
+	private JPasswordField text1,text2,text3;
+	private JLabel label1,label2,label3;
+	private JButton button1,button2;
+	private JPanel panel1,panel2,panel3;
+		public Password(){
+		text1=new JPasswordField();
+		text2=new JPasswordField();
+		text3=new JPasswordField();
+		

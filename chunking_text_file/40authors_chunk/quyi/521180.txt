@@ -1,0 +1,10 @@
+    public com.nercis.isscp.idl.InvalidRequestException getIre() {
+      return this.ire;
+    }
+
+    public modifyTaskManagerConfig_result setIre(com.nercis.isscp.idl.InvalidRequestException ire) {
+      this.ire = ire;
+      return this;
+    }
+
+    public void unsetIre() {

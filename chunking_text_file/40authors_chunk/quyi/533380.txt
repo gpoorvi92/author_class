@@ -1,0 +1,10 @@
+      } else {
+        setLineNum((Integer)value);
+      }
+      break;
+
+    case COLUMN_NUM:
+      if (value == null) {
+        unsetColumnNum();
+      } else {
+        setColumnNum((Integer)value);

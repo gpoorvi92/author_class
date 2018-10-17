@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetVersioncode()).compareTo(other.isSetVersioncode());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetVersioncode()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.versioncode, other.versioncode);
+      if (lastComparison != 0) {
+        return lastComparison;

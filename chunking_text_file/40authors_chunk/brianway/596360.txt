@@ -1,0 +1,10 @@
+            System.out.println("沉睡中被停止！进入catch!" + this.isInterrupted());
+            e.printStackTrace();
+        }
+    }
+}
+
+public class Run11_sleepAndinterrupt01 {
+    public static void main(String[] args) {
+        try {
+            MyThread11 myThread11 = new MyThread11();

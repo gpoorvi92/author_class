@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.management.ServiceNotFoundException;
+import java.util.List;
+
+/**
+ * Created by snow on 2014/4/24.
+ */
+@Transactional(rollbackFor = Exception.class)

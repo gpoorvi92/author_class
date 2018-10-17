@@ -1,0 +1,10 @@
+							@Override
+							public void onClick(View v) {
+								String json = v.getTag().toString();
+								try {
+									JSONObject jobj = new JSONObject(json);
+									String tag = jobj.getString("tag");
+									String click = jobj.getString("click");
+									String js = "javascript:(" + click + ")('"
+											+ tag + "')";
+									Log.d(SystemUtil.LOG_MSG, js);

@@ -1,0 +1,10 @@
+		result = skill.calculateResult();
+		if(result == -1){//体力值不够了
+			status = 1;
+			showString = dialogMessage[status];
+		}
+		else{//如果体力值够
+			status = 0;
+			showString = dialogMessage[status];
+			showString = showString.replaceAll("xx", skill.strengthCost+"");//替换消耗体力的字符串
+			showString = showString.replaceFirst("yy", result+"");//替换掉预计收获金钱数的字符串

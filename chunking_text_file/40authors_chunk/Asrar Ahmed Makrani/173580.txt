@@ -1,0 +1,10 @@
+    
+    patron_status_text.setEditable(false);
+    
+    patron_loan_limit_text.setEditable(false);
+    //validation for loan
+    patron_loan_limit_text.addKeyListener(new KeyAdapter() {
+    public void keyTyped(KeyEvent e) {
+    	char c = e.getKeyChar();      
+      		if (!((Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE)))) {
+        	getToolkit().beep();

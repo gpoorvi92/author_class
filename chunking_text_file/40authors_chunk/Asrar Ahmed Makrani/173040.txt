@@ -1,0 +1,10 @@
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+
+public class patronSQL implements remark_Interface, General_Info_Interface, passwordInterface
+{
+	public Connection con;
+	public String a, b, c, d, g, l, h, i, j, k;
+

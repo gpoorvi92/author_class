@@ -1,0 +1,10 @@
+         putValue(Action.SHORT_DESCRIPTION, "Set panel color to " + name.toLowerCase());
+         putValue("color", c);
+      }
+
+      public void actionPerformed(ActionEvent event)
+      {
+         Color c = (Color) getValue("color");
+         buttonPanel.setBackground(c);
+      }
+   }

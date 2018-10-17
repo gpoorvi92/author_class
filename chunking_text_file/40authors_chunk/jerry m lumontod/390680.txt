@@ -1,0 +1,10 @@
+	private Object[] obj;
+		
+	private ResultSetMetaData meta;
+	private int colCount;	
+	private Statement st;
+	private ResultSet rs;	
+	private Connection conn;
+	
+
+	public DataLoader() {

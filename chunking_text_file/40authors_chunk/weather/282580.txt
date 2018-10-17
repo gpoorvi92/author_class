@@ -1,0 +1,10 @@
+        return 0;
+    }
+
+    @Override
+    public View getView(int position, View view, ViewGroup container) {
+        if (view == null) {
+            view = newView(inflater, position, container);
+            if (view == null) {
+                throw new IllegalStateException("newView result must not be null.");
+            }

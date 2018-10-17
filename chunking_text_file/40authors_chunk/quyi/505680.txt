@@ -1,0 +1,10 @@
+	String appPath;
+
+	public UserAppInfo(String appName, String size, String md5, String appPath) {
+		this.appName = appName;
+		this.size = size;
+		this.md5 = md5;
+		this.appPath = appPath;
+	}
+
+	@Override

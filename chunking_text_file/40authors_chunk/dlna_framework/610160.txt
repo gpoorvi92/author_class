@@ -1,0 +1,10 @@
+*	03/27/04
+*		- first revision.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp;
+
+import org.cybergarage.xml.Node;
+
+public class AllowedValueRange

@@ -1,0 +1,10 @@
+     * Sets the running length.
+     *
+     * @param number the new running length
+     */
+    public void setRunningLength(final long number) {
+        this.runningLength = number;
+    }
+
+    /**
+     * Size in uncompressed words.

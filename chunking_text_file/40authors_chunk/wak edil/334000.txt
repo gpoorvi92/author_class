@@ -1,0 +1,10 @@
+		Open frame = new Open();
+		frame.setTitle("Menu View");
+		frame.setSize(500,500);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setResizable(true);
+		frame.setLocationRelativeTo(null);
+		this.dispose();
+		}
+		if(e.getSource() ==jbtExit)

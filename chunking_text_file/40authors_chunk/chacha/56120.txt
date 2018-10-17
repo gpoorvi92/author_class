@@ -1,0 +1,10 @@
+			response.setResult(ResponseCode.SUCCESS);
+			if((Integer)request.getKey(AuthRequest.KEY_ACTION)==AuthRequest.NEEDTOKEN){
+				LoginToken token=new LoginToken(userName);
+				response.setToken(token.getToken());
+				//持久化令牌，用于后续sso令牌校验
+				loginTokenDAO.addToken(token);
+			}
+		}
+		return response;
+	}

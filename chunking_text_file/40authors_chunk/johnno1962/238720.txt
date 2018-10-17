@@ -1,0 +1,10 @@
+
+    boolean entered_paint_0;
+
+    public void paint( java.awt.Graphics arg0 ) {
+        if ( !entered_paint_0 ) {
+            entered_paint_0 = true;
+            __paint( arg0 );
+            entered_paint_0 = false;
+        }
+        else

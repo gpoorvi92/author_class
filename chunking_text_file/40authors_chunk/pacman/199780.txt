@@ -1,0 +1,10 @@
+		
+		DefaultWorkerPool pool = new DefaultWorkerPool();
+		
+		Future<?> result = pool.submit(r);
+		
+		assertFalse(flag);
+		result.get();
+		assertTrue(flag);
+	}
+

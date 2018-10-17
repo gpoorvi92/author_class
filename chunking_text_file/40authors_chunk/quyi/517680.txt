@@ -1,0 +1,10 @@
+                struct.setSuccessIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 1: // IRE
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+                struct.ire = new com.nercis.isscp.idl.InvalidRequestException();
+                struct.ire.read(iprot);
+                struct.setIreIsSet(true);

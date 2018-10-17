@@ -1,0 +1,10 @@
+	 */
+	BaseMessage buildFeedbackMessage(int cmdId, boolean success, String msg);
+	
+	/**
+	 * 
+	 * @param cmd
+	 * @return
+	 */
+	BaseMessage buildCommandMessage(String cmd);
+	

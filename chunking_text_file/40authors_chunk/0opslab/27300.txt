@@ -1,0 +1,10 @@
+        String path = TestUtil.path + "Test.properties";
+        System.out.println(PropertiesUtil.key("user.dir"));
+        System.out.println(PropertiesUtil.GetValueByKey(path, "test"));
+        System.out.println(PropertiesUtil.GetAllProperties(path));
+        PropertiesUtil.WriteProperties(path, "long", "212");
+        PropertiesUtil.WriteProperties(path, "test", "212");
+        PropertiesUtil.WriteProperties(path, "test2", "中文测试");
+        PropertiesUtil.WriteProperties(path, "test3", "中文测试1");
+        System.out.println(PropertiesUtil.GetAllProperties(path));
+    }

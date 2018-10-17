@@ -1,0 +1,10 @@
+    private String output;
+    private InputStream inputStream;
+    private int outputWidth = 100; // 默认输出图片宽
+    private int outputHeight = 100; // 默认输出图片高
+    private boolean proportion = true; // 是否等比缩放标记(默认为等比缩放)
+    public CompressImage() { // 初始化变量
+        input = "";
+        output = "";
+        outputWidth = 100;
+        outputHeight = 100;

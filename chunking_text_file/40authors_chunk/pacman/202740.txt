@@ -1,0 +1,10 @@
+ * @Class: MediainfoDAOImpl
+ * @author: zhangxinyu
+ * @date: 2015年1月9日 下午1:03:35
+ */
+public class MediainfoDAOImpl extends JdbcDaoSupport implements IMediainfoDAO {
+
+	class MiAddAction extends SqlUpdate {
+
+		private final static String INS_SQL = 
+				"INSERT INTO mediainfo (" +

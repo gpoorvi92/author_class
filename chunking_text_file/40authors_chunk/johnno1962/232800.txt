@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.TreeModelListener.treeNodesInserted(javax.swing.event.TreeModelEvent)
+
+    public native void __treeNodesInserted( javax.swing.event.TreeModelEvent e );
+
+    public void treeNodesInserted( javax.swing.event.TreeModelEvent e ) {
+        __treeNodesInserted( e );
+    }
+
+    /// public abstract void javax.swing.event.TreeModelListener.treeNodesRemoved(javax.swing.event.TreeModelEvent)

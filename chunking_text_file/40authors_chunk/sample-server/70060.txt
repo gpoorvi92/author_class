@@ -1,0 +1,10 @@
+                    req = ChatServerRpc.SynReq.newBuilder();
+                    map.put(zoneId, req);
+                }
+                req.addBulletinDto(each.toDTO());
+            }
+        }
+        for (ZoneEntity each : ZoneEntityManager.getInstance().getAllZoneEntiry())
+        {
+            ChatServerRpcClient client = RpcClientManager.getInstance().getChatServerRpcClientByZone(each);
+            ChatServerRpc.SynReq.Builder builder = map.get(each.getZoneId());

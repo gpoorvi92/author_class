@@ -1,0 +1,10 @@
+        return goodsList;
+    }
+
+    @Override
+    public void add(MultipartFile image, Goods goods) throws ServiceException {
+        if (!image.isEmpty()) {
+            String filename = UUID.randomUUID().toString() + PathUtils.fileSuffix(image.getOriginalFilename());
+            try {
+                FileUtils.upload(image.getInputStream(), "goodsImage/" + filename);
+            } catch (AuthException e) {

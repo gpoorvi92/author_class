@@ -1,0 +1,10 @@
+        return res;   
+    }
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        if (root == null) return res;
+        Stack<TreeNode> cur = new Stack<TreeNode>();
+        Stack<TreeNode> last = new Stack<TreeNode>();
+        boolean left2right = true;
+        last.push(root);
+        List<Integer> level = new ArrayList<Integer>();

@@ -1,0 +1,10 @@
+	 * TODO
+	 * @Title:FileController
+	 */
+	public FileController() {
+
+		FileHelper.ensureExists(resDir,   false);
+		FileHelper.ensureExists(audioDir, false);
+		FileHelper.ensureExists(videoDir, false);
+	}
+	

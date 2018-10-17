@@ -1,0 +1,10 @@
+ * This task searches files for a given keyword.
+ */
+class SearchTask implements Runnable
+{
+   private BlockingQueue<File> queue;
+   private String keyword;
+
+   /**
+    * Constructs a SearchTask.
+    * @param queue the queue from which to take files

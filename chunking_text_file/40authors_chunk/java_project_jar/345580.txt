@@ -1,0 +1,10 @@
+import org.apache.commons.io.FilenameUtils;
+
+// Referenced classes of package org.apache.commons.io.filefilter:
+//            AbstractFileFilter
+
+/**
+ * @deprecated Class WildcardFilter is deprecated
+ */
+
+public class WildcardFilter extends AbstractFileFilter

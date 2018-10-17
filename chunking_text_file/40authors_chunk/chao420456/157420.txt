@@ -1,0 +1,4 @@
+	public void stopBroadCase() {
+		flag_exit  = false;
+	}
+}

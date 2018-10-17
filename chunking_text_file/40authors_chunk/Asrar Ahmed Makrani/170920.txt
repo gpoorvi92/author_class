@@ -1,0 +1,10 @@
+		reg_date_text.setText(dd);
+        int inset = 250;
+        JToolBar toolBar = new JToolBar();
+        addButtons(toolBar);
+        
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        paintx = (screenSize.width);
+		painty = (screenSize.height);
+		
+        Container c = getContentPane();

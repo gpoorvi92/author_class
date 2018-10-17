@@ -1,0 +1,10 @@
+	 * 设置当前Pipe实例的下一个Pipe实例。
+	 * 
+	 * @param nextPipe
+	 *          下一个Pipe实例
+	 */
+	void setNextPipe(Pipe<?, ?> nextPipe);
+
+	/**
+	 * 初始化当前Pipe实例对外提供的服务。
+	 * 

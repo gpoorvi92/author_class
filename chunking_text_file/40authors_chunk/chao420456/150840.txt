@@ -1,0 +1,10 @@
+		lblNewLabel.setFont(new Font("ËÎÌו", Font.PLAIN, 14));
+		lblNewLabel.setBounds(23, 30, 81, 34);
+		getContentPane().add(lblNewLabel);
+		
+		jtf_username = new JTextField();
+		jtf_username.addKeyListener(this);
+		jtf_username.setBounds(114, 30, 143, 34);
+		getContentPane().add(jtf_username);
+		jtf_username.setColumns(10);
+		

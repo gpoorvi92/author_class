@@ -1,0 +1,10 @@
+	 * 该彩信中心允许的最大附件大小
+	 */
+	private final int maxAttachmentSizeInBytes;
+
+	public MMSCInfo(String deviceID, String url, int maxAttachmentSizeInBytes) {
+		this.deviceID = deviceID;
+		this.url = url;
+		this.maxAttachmentSizeInBytes = maxAttachmentSizeInBytes;
+	}
+

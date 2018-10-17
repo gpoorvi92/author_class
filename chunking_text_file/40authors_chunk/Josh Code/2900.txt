@@ -1,0 +1,10 @@
+            result.values[startX + 1][startY] = negative_sin_Theta;
+            result.values[startX + 1][startY + 1] = cos_Theta;
+        }
+        else
+        {
+            result.values[0][0] = cos_Theta;
+            result.values[0][2] = negative_sin_Theta;
+            result.values[2][0] = sin_Theta;
+            result.values[2][2] = cos_Theta;        
+        }

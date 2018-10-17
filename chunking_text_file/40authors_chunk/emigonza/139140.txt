@@ -1,0 +1,10 @@
+
+
+  //--------------------------------------------------------------------------
+  // EventCallbacks inner class
+  //--------------------------------------------------------------------------
+
+  protected class ImageScannerCallbacks
+    implements EventCallbacks
+  {
+    public BaseControl getEventSource()

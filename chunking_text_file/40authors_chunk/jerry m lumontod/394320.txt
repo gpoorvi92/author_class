@@ -1,0 +1,10 @@
+		}
+		return true; //temporary, we dont have business policies to apply yet...
+	}
+	public boolean ClassCodeIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode,String tstrClassCode) {
+		boolean mbln=true;
+		
+		moClassCodeIsValid.ClassCodeIsValid(tstrCompCode,tstrDeptCode,tstrSubDeptCode,tstrClassCode);
+		if (moClassCodeIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}

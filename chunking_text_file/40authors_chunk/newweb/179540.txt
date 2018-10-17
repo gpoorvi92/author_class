@@ -1,0 +1,10 @@
+		try {
+			OrderPrice op = ops.get(0);
+			if(ops.size() > 1){
+				for(int i = 1;i<ops.size();i++){
+					OrderPrice p = ops.get(i);
+					if(p.getOrder().getID().equals(op.getOrder().getID()) && p.getProductID()==op.getProductID()){
+						orderPriceDao.delete(p);
+					}
+				}
+			}

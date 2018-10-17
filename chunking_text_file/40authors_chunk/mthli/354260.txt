@@ -1,0 +1,10 @@
+      group = new ButtonGroup();
+
+      // make one radio button for each option
+      for (String option : options)
+      {
+         JRadioButton b = new JRadioButton(option);
+         b.setActionCommand(option);
+         add(b);
+         group.add(b);
+         b.setSelected(option == options[0]);

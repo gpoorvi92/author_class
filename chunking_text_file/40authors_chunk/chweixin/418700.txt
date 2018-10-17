@@ -1,0 +1,10 @@
+	public String leftmenu(){
+		return "leftmenu";
+	}
+	/**
+	 * 中间工作区域。
+	 * */
+	public String workspace(){
+		return "workspace";
+	}
+	/**

@@ -1,0 +1,10 @@
+    StringBuilder sb = new StringBuilder("Software(");
+    boolean first = true;
+
+    sb.append("osArch:");
+    if (this.osArch == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.osArch);
+    }
+    first = false;

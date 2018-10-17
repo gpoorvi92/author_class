@@ -1,0 +1,8 @@
+  public boolean getCapTransmitSentinels() throws JposException;
+
+  // Properties
+  public byte[]  getTrack4Data() throws JposException;
+  public boolean getTransmitSentinels() throws JposException;
+  public void    setTransmitSentinels(boolean transmitSentinels)
+  								 throws JposException;
+}

@@ -1,0 +1,10 @@
+    {
+        this(wildcards, null);
+    }
+
+    public WildcardFileFilter(List wildcards, IOCase caseSensitivity)
+    {
+        if(wildcards == null)
+        {
+            throw new IllegalArgumentException("The wildcard list must not be null");
+        } else

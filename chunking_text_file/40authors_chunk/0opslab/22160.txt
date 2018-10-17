@@ -1,0 +1,10 @@
+        int i; // 遍历str的
+        int j; // 遍历target的
+        char ch1; // str的
+        char ch2; // target的
+        int temp; // 记录相同字符,在某个矩阵位置值的增量,不是0就是1
+        if (n == 0) {
+            return m;
+        }
+        if (m == 0) {
+            return n;

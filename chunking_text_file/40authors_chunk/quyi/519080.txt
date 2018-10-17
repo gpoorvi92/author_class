@@ -1,0 +1,10 @@
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */
+    public com.nercis.isscp.idl.Result getSuccess() {
+      return this.success;
+    }
+
+    /**

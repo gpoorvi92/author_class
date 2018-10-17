@@ -1,0 +1,10 @@
+    private int threshold4(final int t, final int[] buf, final int bufUsed) {
+        if (t >= 128)
+            return threshold2buf(t, buf, bufUsed);
+        int b = 0;
+        for (int k = 0; k < bufUsed; ++k)
+            b += Integer.bitCount(buf[k]);
+
+        if (2 * b >= bufUsed * t)
+            return threshold3(t, buf, bufUsed);
+        else

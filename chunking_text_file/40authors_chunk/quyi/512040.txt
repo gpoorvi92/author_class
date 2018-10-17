@@ -1,0 +1,10 @@
+    public static class modifyTaskManagerConfig_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String propertyName;
+      private String propertyValue;
+      public modifyTaskManagerConfig_call(String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.propertyName = propertyName;
+        this.propertyValue = propertyValue;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {

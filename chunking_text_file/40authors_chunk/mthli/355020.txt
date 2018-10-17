@@ -1,0 +1,10 @@
+   
+   private static final int XPREFSIZE = 300;
+   private static final int YPREFSIZE = 300;
+
+   private static final int INSETS = 10;
+
+   private double[] values = { 1, 2, 3 };
+   private String title = "Title";
+   private Position titlePosition = Position.CENTER;
+   private boolean inverse;

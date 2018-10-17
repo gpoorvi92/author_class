@@ -1,0 +1,10 @@
+	{
+		this.cal = cal;
+	}
+
+	public Calendar getCalendar()
+	{
+		return cal;
+	}
+
+	////////////////////////////////////////////////

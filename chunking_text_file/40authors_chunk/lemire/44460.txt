@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Gets the number of literal words.
+     *
+     * @return the number of literal words
+     */
+    public int getNumberOfLiteralWords() {
+        return this.numberOfLiteralWords;
+    }

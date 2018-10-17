@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model.request;
+
+/**
+ * stas
+ * 8/4/15.
+ */
+public class ReplyKeyboardMarkup extends Keyboard {
+
+    private final KeyboardButton[][] keyboard;
+    private boolean resize_keyboard;

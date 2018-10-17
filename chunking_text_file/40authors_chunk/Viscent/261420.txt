@@ -1,0 +1,10 @@
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MMSDeliveryServlet extends HttpServlet {
+
+	private static final long serialVersionUID = 5886933373599895099L;
+
+	@Override
+	public void doPost(HttpServletRequest req, HttpServletResponse resp)

@@ -1,0 +1,10 @@
+      }
+   }
+}
+
+/**
+ * This class reads the flat file employee.dat and reports SAX parser events to act as if it was
+ * parsing an XML file.
+ */
+class EmployeeReader implements XMLReader
+{

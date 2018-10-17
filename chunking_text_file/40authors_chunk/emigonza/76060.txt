@@ -1,0 +1,10 @@
+                        byte[][] payload,
+                        int timeout)
+                     throws JposException;
+  public void    verifyMatch(int maxFARRequested,
+                             int maxFRRRequested,
+                             boolean FARPrecedence,
+                             byte[] sampleBIR,
+                             byte[] referenceBIR,
+                             byte[][] adaptedBIR,
+                             boolean[] result,

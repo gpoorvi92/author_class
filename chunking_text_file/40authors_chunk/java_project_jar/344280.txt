@@ -1,0 +1,10 @@
+            buffer.setLength(0);
+            display_offset += chars_read;
+        }
+
+    }
+
+    private static StringBuilder dump(StringBuilder _lbuffer, long value)
+    {
+        for(int j = 0; j < 8; j++)
+            _lbuffer.append(_hexcodes[(int)(value >> _shifts[j]) & 0xf]);

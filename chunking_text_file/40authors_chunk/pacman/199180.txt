@@ -1,0 +1,10 @@
+	@Transmit(key = "ausamr")
+	protected int audioSamplingRate;
+	
+	@Transmit(key = "audur")
+	protected int audioDuration;
+
+	@Transmit(key = "acodec")
+	protected String audioCodec;
+	
+	@Transmit(key = "media")

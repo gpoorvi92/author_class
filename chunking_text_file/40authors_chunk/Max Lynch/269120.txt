@@ -1,0 +1,10 @@
+	
+	Paint paint;
+	
+	Rectangle selectionRectangle;
+	
+	GraphicsFrame frame;
+	
+
+	FreeLineLayer freeShape;
+

@@ -1,0 +1,10 @@
+        }
+        for (int i = 1; i <= l1; ++i) {
+            dp[0] = dp[0] && (s1.charAt(i-1) == s3.charAt(i-1));
+            for (int j = 1; j <= l2; ++j) {
+                boolean before = dp[j]; dp[j] = false;
+                if (s1.charAt(i - 1) == s3.charAt(i+j-1)) dp[j] = before;
+                if (s2.charAt(j - 1) == s3.charAt(i+j-1)) dp[j] = dp[j] | dp[j-1];
+            }
+        }
+        return dp[l2];

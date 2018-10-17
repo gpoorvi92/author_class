@@ -1,0 +1,10 @@
+		OnItemLongClickListener {
+	@InjectionView(id = R.id.frame_title_text)
+	private TextView titleTv;
+	@InjectionView(id = R.id.chat_content)
+	private EditText chatEt;
+
+	@InjectionView(id = R.id.add_info, click = "addInfoClick")
+	private ImageView addInfoIv;
+	@InjectionView(id = R.id.send_chat, click = "sendChatClick")
+	private Button sendChatBtn;

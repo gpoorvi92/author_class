@@ -1,0 +1,10 @@
+					{
+						Node node = new Node();
+						String namePrefix = xpp.getPrefix();
+						String name = xpp.getName();
+						StringBuffer nodeName = new StringBuffer();
+						if (namePrefix != null && 0 < namePrefix.length()) {
+							nodeName.append(namePrefix);
+							nodeName.append(":");
+						}
+						if (name != null && 0 < name.length())

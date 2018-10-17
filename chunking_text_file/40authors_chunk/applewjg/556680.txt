@@ -1,0 +1,10 @@
+                sum += l2.val;
+                l2 = l2.next;
+            }
+            carry = sum/10;
+            sum = sum%10;
+            ListNode node = new ListNode(sum);
+            cur.next = node;
+            cur = cur.next;
+        }
+        return dummy.next;

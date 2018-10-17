@@ -1,0 +1,10 @@
+            //Dao.getInstance().saveOrUpdateAll(cdkeys);
+            //List<RpcDto.CdKeyDTO> cdKeyDTOs = RpcClientManager.getGameServerRpcClient().getAllCdKey(GameServerRpc.GetAllCdKeyReq.newBuilder().build()).getCdKeyDTOList();
+        }
+        return JsonHelper.toJson(listCdKey(zoneId));
+    }
+    private static final Random ran = new Random();
+    /**
+     * 生成CDK算法
+     * @return
+     */

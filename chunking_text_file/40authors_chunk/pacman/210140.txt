@@ -1,0 +1,10 @@
+
+		TaskMappingQuery query = new TaskMappingQuery();
+		query.setDataSource(getDataSource());
+		query.setSql("SELECT * FROM task WHERE lid=? ORDER BY modified LIMIT 100");
+		query.declareParameter(new SqlParameter(Types.INTEGER));
+		query.compile();
+		
+		return query.execute(lessonId);
+	}
+

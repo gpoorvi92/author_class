@@ -1,0 +1,10 @@
+                RetryPolicy retryPolicy = new DefaultRetryPolicy(30, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+                return retryPolicy;
+            }
+        };
+        RequestManager.getRequestQueue().add(request);
+        return request;
+    }
+
+    public static <T> Request startPostGsonRequest(String url, final RequestParams map, Class<T> clazz, final RequestListener listener) {
+        return startPostGsonRequest(url, map.coverToHashMap(), clazz, RequestManager.getRequestQueue(), listener);

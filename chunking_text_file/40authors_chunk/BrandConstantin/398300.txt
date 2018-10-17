@@ -1,0 +1,10 @@
+
+public class SeriaFibonacciConFor {
+  public static void main(String[] args) {   
+    
+    System.out.println("Escribe cualquier numero");
+    
+    int elemento;
+    int num1 = 0;
+    int num2 = 1;
+    int suma;

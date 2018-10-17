@@ -1,0 +1,10 @@
+
+	@Override
+	public void shutdown(long timeout, TimeUnit unit) {
+		for (AbstractTerminatableThread thread : workerThreads) {
+			thread.terminate();
+			try {
+				thread.join(TimeUnit.MILLISECONDS.convert(timeout, unit));
+			} catch (InterruptedException e) {
+			}
+		}

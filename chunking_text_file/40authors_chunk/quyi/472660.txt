@@ -1,0 +1,10 @@
+                        result.setIreIsSet(true);
+                        msg = result;
+            }
+            else             if (e instanceof com.nercis.isscp.idl.UnavailableException) {
+                        result.ue = (com.nercis.isscp.idl.UnavailableException) e;
+                        result.setUeIsSet(true);
+                        msg = result;
+            }
+             else 
+            {

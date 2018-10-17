@@ -1,0 +1,10 @@
+		pB.add(jbtBack);
+		pB.add(jbtExit);
+		cont.add(pB,BorderLayout.SOUTH);
+	
+		jbtChoc1.addActionListener(this);
+		jbtChoc2.addActionListener(this);
+		jbtChoc3.addActionListener(this);
+		jbtChoc4.addActionListener(this);
+		jbtChoc5.addActionListener(this);
+		jbtChoc6.addActionListener(this);

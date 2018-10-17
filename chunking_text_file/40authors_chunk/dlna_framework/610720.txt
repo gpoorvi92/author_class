@@ -1,0 +1,10 @@
+	public final static int findLastNotOf(String str, String chars)
+	{
+		return findOf(str, chars, (str.length()-1), 0, -1, false);
+	}
+	
+	public final static String trim(String trimStr, String trimChars)
+	{
+		int spIdx = findFirstNotOf(trimStr, trimChars);
+		if (spIdx < 0) {
+			String buf = trimStr;

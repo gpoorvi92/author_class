@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("merchant_system/index");
+        modelAndView.addObject("storeImage", merchantService.getImageById(this.getMerchant().getId()));
+        modelAndView.addObject("news", newsService.findById(1));
+        return modelAndView;
+    }
+
+    @RequestMapping("/changePwdView")
+    public String changePwdView() {
+        return "merchant_system/merchant/changePwd";
+    }

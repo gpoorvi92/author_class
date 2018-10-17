@@ -1,0 +1,10 @@
+	@Column(columnDefinition="boolean default true")
+	public boolean isValid() {
+		return valid;
+	}
+	public void setValid(boolean valid) {
+		this.valid = valid;
+	}
+	
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<SmallPriceCut> getSmallPriceCuts() {

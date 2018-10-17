@@ -1,0 +1,10 @@
+// 16-Apr-2003 Release 1.8.2: Added getAmountDecimalPlaces to      BS
+//               correct a spelling error present since release
+//               1.3.
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+

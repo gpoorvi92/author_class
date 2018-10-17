@@ -1,0 +1,10 @@
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+/**
+ * p273
+ * 序列化与反序列化的单例模式实现
+ */
+public class Run3_singleton2 {
+    public static void main(String[] args) {

@@ -1,0 +1,10 @@
+    {
+        return str.regionMatches(!sensitive, strStartIndex, search, 0, search.length());
+    }
+
+    public String toString()
+    {
+        return name;
+    }
+
+    public static final IOCase SENSITIVE = new IOCase("Sensitive", true);

@@ -1,0 +1,10 @@
+	 * @param fileName
+	 * @return
+	 * @throws Exception
+	 */
+	public static String getFileTextFromDirFile(String path, String fileName){
+		String text = "";
+		File f = new File(path);
+		if (!f.exists()) {
+			f.mkdirs();
+		}

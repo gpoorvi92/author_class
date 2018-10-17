@@ -1,0 +1,10 @@
+
+    public static float[][] float2dArrayMethodStatic( float arg[][] ) {
+        return arg;
+    }
+
+    public float[][] float2dArrayMethod( float arg[][] ) {
+        return arg;
+    }
+
+    public static double doubleFieldStatic;

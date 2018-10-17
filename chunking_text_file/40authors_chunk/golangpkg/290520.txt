@@ -1,0 +1,10 @@
+
+	/** The full path url of the uploaded file. */
+	private String absoluteFullPathOfUploadedFile;
+
+	/** The information related to the file upload. */
+	private FileStateJsonBase staticFileStateJson;
+
+
+
+	/**

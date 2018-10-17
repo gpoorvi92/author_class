@@ -1,0 +1,10 @@
+      this.virRD = virRD;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public updateAppStatus_args(updateAppStatus_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }

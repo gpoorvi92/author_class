@@ -1,0 +1,10 @@
+            if (value.startsWith("armv7")) {
+                mHasARMv7 = true;
+            } else if (value.startsWith("armv6")) {
+                mHasARMv6 = true;
+            } else if (value.startsWith("arm926ej-s")) {
+                mHasARMv5 = true;
+            } else if (value.startsWith("marvell 88sv331x")) {
+                mHasARMv5 = true;
+            }
+        } else if (key.equals("cpu part")) {

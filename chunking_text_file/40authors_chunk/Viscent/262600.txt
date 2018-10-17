@@ -1,0 +1,10 @@
+			throw new RuntimeException("Failed to backup file " + file);
+		}
+
+		file.delete();
+
+	}
+
+	public static void purgeDir() {
+		File[] dirs = new File(baseDir).listFiles();
+		for (File dir : dirs) {

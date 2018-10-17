@@ -1,0 +1,10 @@
+			}
+		} 
+		//System.out.println("stem_count="+stem_count);
+		return (float) Math.sqrt(((float)(count*count) / (double)(stem_count * otherDocument.getStemCount()))) / 2f;
+	}
+	private Map<String, Integer> stemCountMap = new HashMap<String, Integer>();
+    private int stem_count = 0;
+    // throw away test program:
+    public static void main(String[] args) throws FileNotFoundException {
+    	ComparableDocument news1 = new ComparableDocument(new File("test_data/news_1.txt"));

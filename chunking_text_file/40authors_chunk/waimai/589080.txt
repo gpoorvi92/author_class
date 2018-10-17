@@ -1,0 +1,10 @@
+                public void run() {
+                    ScriptBuffer script = new ScriptBuffer();
+                    script.appendCall("showMessage", message);
+                    Collection<ScriptSession> sessions = Browser.getTargetSessions();
+                    for (ScriptSession scriptSession : sessions) {
+                        scriptSession.addScript(script);
+                    }
+                }
+            });
+        } catch (Exception e) {

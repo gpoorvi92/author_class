@@ -1,0 +1,10 @@
+    public int getOrderByTime(int msec) {
+        int order = 0;
+
+        boolean found = false;
+        long endTime = 0;
+        for (Segment item : mSegmentList) {
+            endTime += item.mDuration;
+            if (msec < endTime) {
+                found = true;
+                break;

@@ -1,0 +1,10 @@
+	
+	public String getUrl() {
+		return urlName;
+	}
+
+	public void setUrl(String urlName) {
+		this.urlName = urlName;
+	}
+	
+	public int getBytesWritten() {

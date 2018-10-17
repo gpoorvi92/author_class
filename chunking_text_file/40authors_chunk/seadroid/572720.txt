@@ -1,0 +1,10 @@
+                                  "url=?",
+                                  new String[] {url},
+                                  null,  // don't group the rows
+                                  null,  // don't filter by row groups
+                                  null); // The sort order
+
+        if (!c.moveToFirst()) {
+            c.close();
+            return null;
+        }

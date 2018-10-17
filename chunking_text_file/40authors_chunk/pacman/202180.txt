@@ -1,0 +1,10 @@
+		message.setMsg(msg);
+		
+		return message;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMessageBuilder#buildCommandMessage()
+	 */
+	@Override
+	public BaseMessage buildCommandMessage(String msg) {

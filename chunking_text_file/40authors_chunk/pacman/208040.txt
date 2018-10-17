@@ -1,0 +1,10 @@
+		}
+		
+		return (T) obj;
+	}
+	
+	/**
+	 * 
+	 * @param message
+	 * @return
+	 * @throws JMSException

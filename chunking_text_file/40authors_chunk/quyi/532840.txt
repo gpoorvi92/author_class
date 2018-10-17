@@ -1,0 +1,10 @@
+  /** Returns true if field riskType is set (has been assigned a value) and false otherwise */
+  public boolean isSetRiskType() {
+    return this.riskType != null;
+  }
+
+  public void setRiskTypeIsSet(boolean value) {
+    if (!value) {
+      this.riskType = null;
+    }
+  }

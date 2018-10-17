@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private Camera mCamera;
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFaceTextureRegion;
+

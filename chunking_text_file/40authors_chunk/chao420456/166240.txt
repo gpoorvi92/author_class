@@ -1,0 +1,10 @@
+		super(name,age);
+	}
+
+	public void teach() {
+		System.out.println("基础班老师讲解JavaSE");
+	}
+}
+
+//练习1：就业班老师的代码
+

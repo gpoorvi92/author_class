@@ -1,0 +1,10 @@
+	{
+		Container container=getContentPane();
+		container.setLayout(new BorderLayout(2,1));
+		container.setBackground(Color.white);
+		
+		JPanel p1=new JPanel();
+		p1.setLayout(new GridLayout(2,1));
+	
+		jtaIntro2.setEditable(false);
+		jtaIntro2.setFont(new Font("Serif",Font.BOLD,17));

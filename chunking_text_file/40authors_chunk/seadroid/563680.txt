@@ -1,0 +1,10 @@
+    public String repoID;
+    public String path;
+    public String accountSignature;
+    File file;
+
+    public SeafCachedFile() {
+        id = -1;
+    }
+
+    @Override

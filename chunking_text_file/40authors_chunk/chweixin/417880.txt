@@ -1,0 +1,10 @@
+	 * */
+	public void setAccount(WeChatAccount account) {
+		this.account = account;
+	}
+	/**
+	 * 获取菜单ID。
+	 * @return 菜单ID。
+	 * */
+	public String getId() {
+		return id;

@@ -1,0 +1,10 @@
+					selectImageList.remove(path);
+					acd.putBooleanValue("is_checked", false);
+				}
+				if (selectImageList.size() > 0) {
+					sendImageBtn.setEnabled(true);
+				} else {
+					sendImageBtn.setEnabled(false);
+				}
+			}
+		});

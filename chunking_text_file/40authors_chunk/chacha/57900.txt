@@ -1,0 +1,10 @@
+public class LoginRequest extends Request implements JsonConvert{
+	private static String CMDLOGIN="auth";
+	private LoginBody body;
+	
+	
+	public LoginRequest() {
+		super.setOpt(CMDLOGIN);
+	}
+	
+	public LoginRequest(LoginBody body) {

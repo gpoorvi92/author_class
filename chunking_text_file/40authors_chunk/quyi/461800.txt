@@ -1,0 +1,10 @@
+
+    }
+
+    private static class searchAllEng_resultTupleSchemeFactory implements SchemeFactory {
+      public searchAllEng_resultTupleScheme getScheme() {
+        return new searchAllEng_resultTupleScheme();
+      }
+    }
+
+    private static class searchAllEng_resultTupleScheme extends TupleScheme<searchAllEng_result> {

@@ -1,0 +1,10 @@
+ */
+class ImageComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   private Image image;
+
+   public ImageComponent()
+   {

@@ -1,0 +1,10 @@
+		
+         //forth button
+        button = new JButton(new ImageIcon("delete.gif"));
+        button.setToolTipText("Delete");
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	String a = patron_text.getText();
+            	String b = name_text.getText();
+            	String c = passport_text.getText();
+            	String d = expiry_date_text.getText();

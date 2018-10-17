@@ -1,0 +1,10 @@
+    if (this.update == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.update);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("result:");
+    if (this.result == null) {
+      sb.append("null");

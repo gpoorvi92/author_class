@@ -1,0 +1,10 @@
+	String ttmenu = "<html>" + "<img src=\"file:menu.gif\">" + " Go to Menu Item Catalog " + "</html>";
+	String ttorder = "<html>" + "<img src=\"file:order.jpg\">" + " Go to Menu Order " + "</html>";
+	String ttabout = "<html>" + "<img src=\"file:about.jpg\">" + " About Us " + "</html>";
+	String ttexit = "<html>" + "<img src=\"file:exit.jpg\">" + " Exit program " + "</html>";
+	
+	private JButton jbmenu =new JButton(" Menu Item ");//menupic
+	private JButton jborder =new JButton("Order Menu");
+	
+	public mainmenu(){
+			

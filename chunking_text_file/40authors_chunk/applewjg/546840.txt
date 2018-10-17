@@ -1,0 +1,8 @@
+            if (sum < min) {
+                min = sum;
+                res = i;
+            }
+        }
+        return sum >= 0 ? (res + 1) % N : -1;
+    }
+}

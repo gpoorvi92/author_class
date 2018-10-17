@@ -1,0 +1,10 @@
+        MediaResourceItem item = new MediaResourceItem();
+        item.mFromTag = from;
+        item.mTypeTag = MediaResourceItem.TYPE_TAG__ANY;
+        item.mMrl = url;
+
+        mResourceList.add(item);
+    }
+
+    final public void addUrl_hls(String from, String url) {
+        MediaResourceItem item = new MediaResourceItem();

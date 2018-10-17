@@ -1,0 +1,10 @@
+							currNode.setValue(value);
+					}
+					break;
+				case org.xmlpull.v1.XmlPullParser.END_TAG:
+					{
+						currNode = currNode.getParentNode();
+					}
+					break;
+				}
+				eventType = xpp.next();

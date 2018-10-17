@@ -1,0 +1,10 @@
+	}
+	
+	/**
+	 * 用户名是否已存在
+	 * @param locale
+	 * @param model
+	 * @param modelMap
+	 * @param request
+	 * @param response
+	 * @return

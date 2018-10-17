@@ -1,0 +1,10 @@
+        imageRecommendMapper.insertSelective(imageRecommend);
+    }
+
+    @Override
+    public ImageRecommend findById(Integer id) {
+        return imageRecommendMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void update(MultipartFile image, ImageRecommend imageRecommend) throws ServiceException {

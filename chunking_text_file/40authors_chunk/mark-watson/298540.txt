@@ -1,0 +1,10 @@
+                        OutputCollector<Text, Text> output,
+                        Reporter reporter) throws IOException {
+            String line = value.toString();
+            System.err.println("NameFInder: map: key="+key+" line="+line);
+            int index = line.indexOf(" ");
+            if (index > -1) {
+                String doc2 = line.substring(0, index);
+                System.err.println("NameFInder: map: doc2="+doc2);
+                doc.set(doc2);
+                ScoredList [] names_scored_list = extractNames.getProperNames(line.substring(index));

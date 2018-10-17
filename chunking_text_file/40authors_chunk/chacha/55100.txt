@@ -1,0 +1,10 @@
+ *	@author: Fully
+ */
+public class AbstractDAO {
+    protected final LogPrn log = new LogPrn(getClass());
+    protected static String dbServerIP="127.0.0.1";
+    protected static int dbServerPort=27017;
+    protected static String dbName="chacha";
+    protected static String dbUserName="chacha";
+    protected static String dbPassword="cha123";
+    protected static String connectionDescriptor=null;

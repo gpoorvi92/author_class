@@ -1,0 +1,10 @@
+            f.setOne(this.pos);
+        else
+            f.setZero(this.pos);
+    }
+
+    @Override
+    public int compareTo(EWAHPointer32 other) {
+        return this.endrun - other.endrun;
+    }
+}

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public UserInfo update(UserInfo info) {
+		if(info != null){
+			boolean isAdded = false;
+			User data = (info.getId() == null || info.getId().trim().isEmpty()) ?  null :this.userDao.load(User.class, info.getId());
+			if(isAdded = (data == null)){
+				if(info.getId() == null || info.getId().trim().isEmpty()){
+					info.setId(UUID.randomUUID().toString());

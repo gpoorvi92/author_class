@@ -1,0 +1,10 @@
+        issuedMessage_args args = new issuedMessage_args();
+        args.setMissionId(missionId);
+        args.setUserApps(userApps);
+        args.setRules(rules);
+        args.setPlots(plots);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+
+      public com.nercis.isscp.idl.Result getResult() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException {

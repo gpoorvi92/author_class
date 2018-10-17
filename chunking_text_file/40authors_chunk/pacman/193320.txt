@@ -1,0 +1,10 @@
+
+	@Transmit(key = "vcodec")
+	protected String videoCodec;
+
+	@Transmit(key = "media")
+	protected String mediaFile;
+
+	@Transmit(key = "cid")
+	protected int classId;
+

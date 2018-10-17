@@ -1,0 +1,10 @@
+
+package com.jh;
+
+public interface SwiftHelloTest {
+
+    public interface TestListener {
+
+        public boolean booleanMethod( boolean arg );
+        public boolean[] booleanArrayMethod( boolean arg[] );
+        public boolean[][] boolean2dArrayMethod( boolean arg[][] );

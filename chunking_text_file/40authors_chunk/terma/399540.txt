@@ -1,0 +1,10 @@
+    private final TcpServer server;
+
+    public TcpProxy(final TcpProxyConfig config) {
+        TcpProxyConnectorFactory handlerFactory = new TcpProxyConnectorFactory(config);
+
+        final TcpServerConfig serverConfig =
+                new TcpServerConfig(config.getLocalPort(), handlerFactory, config.getWorkerCount());
+
+        server = new TcpServer(serverConfig);
+    }

@@ -1,0 +1,10 @@
+      ImageIcon icon = list.getModel().getElementAt(index);
+      return new ImageTransferable(icon.getImage());
+   }
+
+   protected void exportDone(JComponent source, Transferable data, int action)
+   {
+      if (action == MOVE)
+      {
+         ImageList list = (ImageList) source;
+         int index = list.getSelectedIndex();

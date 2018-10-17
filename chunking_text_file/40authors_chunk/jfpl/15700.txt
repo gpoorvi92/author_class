@@ -1,0 +1,10 @@
+	private GifView stIcon3;
+	@InjectionView(id = R.id.third_done_icon)
+	private ImageView sdIcon3;
+	@InjectionView(id = R.id.check_yzm, click = "showYzmClick")
+	private Button checYzmBtn;
+
+	private AlertDialog.Builder alertDialogBuilder;
+	private AlertDialog alertDialog;
+
+	@SuppressLint("HandlerLeak")

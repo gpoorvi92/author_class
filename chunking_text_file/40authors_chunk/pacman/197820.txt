@@ -1,0 +1,10 @@
+		factory = new ClassPathXmlApplicationContext("config.xml");
+		AppServer server = new AppServer();
+		server.initialize(factory);
+		
+		assertEquals(40, AppConfig.getInstance().getVideoWeight());
+		assertEquals("tcp://localhost:61616", AppConfig.getInstance().getJmsAddress());
+		
+		server.start();
+		
+		try {

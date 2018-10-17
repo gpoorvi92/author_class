@@ -1,0 +1,10 @@
+			output = new FileOutputStream(localFile);
+			client = HttpClients.createDefault();
+			getMethod = new HttpGet(url);
+			
+			response = client.execute(getMethod);
+			if (response != null) {
+				
+				if (response.getStatusLine().getStatusCode() == 200) {
+					
+					IOUtils.copy(response.getEntity().getContent(), output);

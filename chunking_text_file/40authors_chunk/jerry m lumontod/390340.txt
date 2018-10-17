@@ -1,0 +1,10 @@
+    
+    public void sortAllRowsBy(DefaultTableModel model, int colIndex, boolean ascending) {
+        Vector data = model.getDataVector();
+        Collections.sort(data, new ColumnSorter(colIndex, ascending));
+        //System.out.print("\nSorting fired");
+        model.fireTableStructureChanged();
+    }
+    
+    // This comparator is used to sort vectors of data
+    public class ColumnSorter implements Comparator {

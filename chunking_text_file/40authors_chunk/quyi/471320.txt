@@ -1,0 +1,10 @@
+      args.setPlotsStatus(plotsStatus);
+      args.setFunctionStatus(functionStatus);
+      sendBase("updateUserAppStatus", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_updateUserAppStatus() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      updateUserAppStatus_result result = new updateUserAppStatus_result();
+      receiveBase(result, "updateUserAppStatus");
+      if (result.isSetSuccess()) {

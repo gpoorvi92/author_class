@@ -1,0 +1,10 @@
+ * @Class: TranscodingStepTest
+ * @author: zhangxinyu
+ * @date: 2015年1月5日 下午1:09:29
+ */
+public class TranscodingStepTest {
+
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception

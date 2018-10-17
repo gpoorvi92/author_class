@@ -1,0 +1,10 @@
+		this.mDigitalOnScreenControl.getControlBase().setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
+		this.mDigitalOnScreenControl.getControlBase().setAlpha(0.5f);
+		this.mDigitalOnScreenControl.getControlBase().setScaleCenter(0, 128);
+		this.mDigitalOnScreenControl.getControlBase().setScale(1.25f);
+		this.mDigitalOnScreenControl.getControlKnob().setScale(1.25f);
+		this.mDigitalOnScreenControl.refreshControlKnobPosition();
+
+		scene.setChildScene(this.mDigitalOnScreenControl);
+
+		return scene;

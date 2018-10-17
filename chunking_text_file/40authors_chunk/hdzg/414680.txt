@@ -1,0 +1,10 @@
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
+/*
+ * 该类提供游戏中的数据
+ */
+public class GameData{
+	//各种MyDrawable对象在这里初始化
+	public static Resources resources;//resources的引用

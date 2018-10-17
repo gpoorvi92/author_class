@@ -1,0 +1,10 @@
+            return false;
+
+        String selection = AVATAR_COLUMN_SIGNATURE + "=?";
+
+        Cursor cursor = database.query(
+        AVATAR_TABLE_NAME,
+        hasAvatarProjection,
+        selection,
+        new String[]{account.getSignature()},
+        null,

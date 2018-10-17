@@ -1,0 +1,10 @@
+            listeners.add(listener);
+	}
+
+	public void removeListener(ShapeModelListener listener) {
+            if(listeners == null || listener == null) return;
+            if(listeners.contains(listener)) {
+                listeners.remove(listener);
+            }
+	}
+        

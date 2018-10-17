@@ -1,0 +1,10 @@
+					e1.printStackTrace();
+				}
+			}
+		});
+
+		mi1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				f.setTitle(mi1.getLabel());

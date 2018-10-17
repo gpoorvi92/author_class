@@ -1,0 +1,10 @@
+      byte[] inBytes = new byte[blockSize];
+      byte[] outBytes = new byte[outputSize];
+
+      int inLength = 0;
+      ;
+      boolean more = true;
+      while (more)
+      {
+         inLength = in.read(inBytes);
+         if (inLength == blockSize)

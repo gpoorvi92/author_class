@@ -1,0 +1,10 @@
+      this.filePath = other.filePath;
+    }
+    if (other.isSetOperateContent()) {
+      this.operateContent = other.operateContent;
+    }
+    if (other.isSetOperateTime()) {
+      this.operateTime = other.operateTime;
+    }
+    if (other.isSetOperateType()) {
+      this.operateType = other.operateType;

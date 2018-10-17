@@ -1,0 +1,10 @@
+		WeakReference<ManagedThreadLocal<?>> wrMtl;
+		ManagedThreadLocal<?> mtl;
+		while (null != (wrMtl = instances.poll())) {
+			mtl = wrMtl.get();
+			if (null != mtl) {
+				mtl.remove();
+			}
+		}
+	}
+

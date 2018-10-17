@@ -1,0 +1,10 @@
+ Solution: ...
+ */
+
+public class Solution {
+    public List<String> fullJustify(String[] words, int L) {
+        List<String> res = new ArrayList<String>();
+        int i = 0, N = words.length;
+        while (i < N) {
+            int length = words[i].length();
+            int j = i + 1;

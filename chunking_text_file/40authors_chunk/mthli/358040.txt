@@ -1,0 +1,10 @@
+    */
+   public void setSample()
+   {
+      String fontFace = face.getItemAt(face.getSelectedIndex());
+      int fontSize = Integer.parseInt(size.getItemAt(size.getSelectedIndex()));
+      JTextArea sample = (JTextArea) gridbag.get("sample");
+      int fontStyle = (bold.isSelected() ? Font.BOLD : 0)
+            + (italic.isSelected() ? Font.ITALIC : 0);
+
+      sample.setFont(new Font(fontFace, fontStyle, fontSize));

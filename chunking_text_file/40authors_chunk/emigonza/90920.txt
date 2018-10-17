@@ -1,0 +1,10 @@
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if the service throws a exception while
+     * disconnecting
+     */
+    public void connect() throws JposException
+    {
+        try 
+        {
+            Class[] parameterTypes = new Class[ 2 ];
+            parameterTypes[ 0 ] = Class.forName( "java.lang.String" );

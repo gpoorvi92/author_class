@@ -1,0 +1,10 @@
+    public long longMethod( long arg ) {
+        return arg;
+    }
+
+    public static long longArrayFieldStatic[];
+    public long longArrayField[];
+
+    public static long[] longArrayMethodStatic( long arg[] ) {
+        return arg;
+    }

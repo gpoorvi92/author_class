@@ -1,0 +1,10 @@
+
+   public PropertiesFrame()
+   {
+      // get position, size, title from properties
+
+      String userDir = System.getProperty("user.home");
+      File propertiesDir = new File(userDir, ".corejava");
+      if (!propertiesDir.exists()) propertiesDir.mkdir();
+      propertiesFile = new File(propertiesDir, "program.properties");
+

@@ -1,0 +1,10 @@
+	 * @Title: execute
+	 * @param context
+	 * @return
+	 * @throws Exception
+	 * @see com.yeshj.pacman.schedule.IStep#execute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override
+	public Object execute(ExecuteContext context) throws Exception {
+
+		String mediaFile = context.getAttribute(Constants.CONTEXT_MEDIA_FULLPATH);

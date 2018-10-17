@@ -1,0 +1,10 @@
+                   props.getPropertyString( JposProperties.
+                                            JPOS_TRACING_PROP_NAME );
+
+            if( tracingPropValue.
+                equalsIgnoreCase( JposProperties.
+                                  JPOS_TRACING_ON_PROP_VALUE ) ||
+                tracingPropValue.
+                equalsIgnoreCase( JposProperties.
+                				  JPOS_TRACING_TRUE_PROP_VALUE ) )
+                setOn( true );

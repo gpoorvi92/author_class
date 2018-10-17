@@ -1,0 +1,10 @@
+							this.mGrabbed = false;
+							this.setScale(1.0f);
+						}
+						break;
+				}
+				return true;
+			}
+		};
+
+		this.mScene.attachChild(sprite);

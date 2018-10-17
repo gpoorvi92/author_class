@@ -1,0 +1,10 @@
+ */
+public class Run14_joinLong {
+    public static void main(String[] args) {
+        try {
+            Run14_Thread thread = new Run14_Thread();
+            thread.start();
+            thread.join(2000);//只等2秒
+            //Thread.sleep(2000);
+            System.out.println("end timer=" + System.currentTimeMillis());
+        } catch (InterruptedException e) {

@@ -1,0 +1,10 @@
+
+    FrameProxy( java.lang.String title, java.awt.GraphicsConfiguration gc , long swiftObject ) {
+        super( title, gc );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Frame(java.lang.String) throws java.awt.HeadlessException
+
+    FrameProxy( java.lang.String title , long swiftObject ) {
+        super( title );

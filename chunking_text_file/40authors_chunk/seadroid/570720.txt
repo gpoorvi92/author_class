@@ -1,0 +1,10 @@
+                    if (state == TaskState.FAILED || state == TaskState.CANCELLED) {
+                        txService.retryDownloadTask(taskID);
+                    }
+                    break;
+                case R.id.remove:
+                    if (state == TaskState.FINISHED || state == TaskState.FAILED || state == TaskState.CANCELLED) {
+                        txService.removeDownloadTask(taskID);
+                    }
+                    break;
+                case R.id.remove_all_cancelled:

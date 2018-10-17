@@ -1,0 +1,10 @@
+     */
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        outState.putString("repoName", repoName);
+        outState.putString("repoID", repoID);
+        outState.putString("path", path);
+        outState.putInt("taskID", taskID);
+        outState.putInt("progress", progressBar.getProgress());
+
+        super.onSaveInstanceState(outState);

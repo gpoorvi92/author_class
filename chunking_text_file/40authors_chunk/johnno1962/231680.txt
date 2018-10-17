@@ -1,0 +1,10 @@
+    }
+
+    public long[][] long2dArrayMethod( long arg[][] ) {
+        return arg;
+    }
+
+    public static float floatFieldStatic;
+    public float floatField;
+
+    public static float floatMethodStatic( float arg ) {

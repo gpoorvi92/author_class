@@ -1,0 +1,10 @@
+
+    private Date insertDate;
+
+    private Date updateDate;
+
+    private Integer createUserId;
+
+    private Integer updateUserId;
+
+    private String content;

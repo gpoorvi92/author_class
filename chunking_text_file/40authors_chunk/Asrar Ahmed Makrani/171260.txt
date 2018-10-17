@@ -1,0 +1,10 @@
+		delete.setEnabled(false);
+		update.setEnabled(false);
+		
+		
+			}
+			
+		protected void addButtons(JToolBar toolBar) {
+        //first button
+        newForm.setToolTipText("New");
+        newForm.addActionListener(new ActionListener() {

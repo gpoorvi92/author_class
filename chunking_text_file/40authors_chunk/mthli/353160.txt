@@ -1,0 +1,10 @@
+   {
+      if (args[0].equals("-genkey"))
+      {
+         KeyPairGenerator pairgen = KeyPairGenerator.getInstance("RSA");
+         SecureRandom random = new SecureRandom();
+         pairgen.initialize(KEYSIZE, random);
+         KeyPair keyPair = pairgen.generateKeyPair();
+         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(args[1])))
+         {
+            out.writeObject(keyPair.getPublic());

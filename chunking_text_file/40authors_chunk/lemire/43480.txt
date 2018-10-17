@@ -1,0 +1,10 @@
+ */
+public class example
+{
+
+	/**
+	 * @param args
+	 *          arguments from the command line
+	 * @throws IOException
+	 *           if an IO error occurs
+	 */

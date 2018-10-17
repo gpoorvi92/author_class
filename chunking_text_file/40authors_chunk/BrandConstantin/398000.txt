@@ -1,0 +1,10 @@
+  public static void main(String[] args) {   
+    
+    Scanner teclado = new Scanner(System.in); 
+          
+    System.out.println("Escribe un numero:");
+    int num1 = teclado.nextInt();
+    
+    System.out.println("Escribe otro numero:");
+    int num2 = teclado.nextInt();
+    System.out.println("==================================================");

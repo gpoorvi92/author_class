@@ -1,0 +1,10 @@
+ */
+public class TreeMapTest {
+	public static void main(String[] args) {
+		// 键盘任意录入一个字符串
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入一个字符串：");
+		String s = sc.nextLine();
+
+		// 定义一个Map集合，键是Character，值是Integer，并且是TreeMap
+		TreeMap<Character, Integer> tm = new TreeMap<Character, Integer>();

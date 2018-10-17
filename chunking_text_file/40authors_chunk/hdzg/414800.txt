@@ -1,0 +1,10 @@
+				
+				for(int j=0; j<bktgCount; j++){//读入不可通过点 
+					notIn[j][0] = din.readByte();
+					notIn[j][1] = din.readByte();
+				}
+				
+				mapData[row][col]=new MyDrawable(
+						bitmaps[outBitmapInxex], 
+						((kyf==0)?false:true), //可遇否标志位
+						w, 

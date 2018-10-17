@@ -1,0 +1,10 @@
+		container.removeView(viewList.get(position));
+
+	}
+
+	@Override
+	public int getItemPosition(Object object) {
+
+		return super.getItemPosition(object);
+	}
+

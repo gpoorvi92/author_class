@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Flip the book by the given number of pages.
+    * @param by the number of pages to flip by. Negative values flip backwards.
+    */
+   public void flipPage(int by)
+   {
+      int newPage = currentPage + by;
+      if (0 <= newPage && newPage < book.getNumberOfPages())

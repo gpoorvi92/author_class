@@ -1,0 +1,10 @@
+		     ParameterBlock pb = (new ParameterBlock()).add(imageName);
+		     PlanarImage piSrc = JAI.create("fileload", pb);
+	          if (piSrc == null) {
+	             System.out.println("Error in loading image " + imageName);
+	          }
+	          return piSrc;
+     }
+
+     // Create the image encoder.
+     private void encodeImage(PlanarImage img, FileOutputStream out){

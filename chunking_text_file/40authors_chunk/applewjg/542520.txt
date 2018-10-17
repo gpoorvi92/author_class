@@ -1,0 +1,10 @@
+        while (stk.isEmpty() == false) {
+            TreeNode cur = stk.pop();
+            res.add(cur.val);
+            if (cur.right != null) stk.push(cur.right);
+            if (cur.left != null) stk.push(cur.left);
+        }
+        return res;
+    }
+    public List<Integer> preorderTraversal_4(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();

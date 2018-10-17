@@ -1,0 +1,10 @@
+            threadPolicyBuilder = threadPolicyBuilder.penaltyDropBox();
+            break;
+        case Log:
+            threadPolicyBuilder = threadPolicyBuilder.penaltyLog();
+            break;
+        case DeathOnNetwork:
+            if (BuildHelper.isApi11_HoneyCombOrLater())
+                threadPolicyBuilder = threadPolicyBuilder
+                        .penaltyDeathOnNetwork();
+            else

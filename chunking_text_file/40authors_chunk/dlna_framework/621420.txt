@@ -1,0 +1,10 @@
+	{
+		setVersion(HTTP.VERSION_11);
+		setContentType(HTML.CONTENT_TYPE);
+		setServer(HTTPServer.getName());
+		setContent("");
+	}
+
+	public HTTPResponse(HTTPResponse httpRes)
+	{
+		set(httpRes);

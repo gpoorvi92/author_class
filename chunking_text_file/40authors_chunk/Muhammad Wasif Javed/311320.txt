@@ -1,0 +1,10 @@
+		);
+
+		//Adding All the Controls in Panel.
+
+		pMember.setLayout (null);
+		pMember.add (lbMemberId);
+		pMember.add (lbMemberName);
+		pMember.add (lbMemberAddress);
+		pMember.add (lbEntryDate);
+		pMember.add (txtMemberId);

@@ -1,0 +1,10 @@
+public class TestToolbar extends JToolBar implements ActionListener {
+	ToolbarPanel tbp;
+	RenderSurface renderSurface;
+	GraphicsFrame frame;
+	JButton rectButton = new JButton(new ImageIcon("rect.gif"));
+	JButton circleButton = new JButton(new ImageIcon("circle.gif"));
+	JButton lineButton = new JButton(new ImageIcon("line.gif"));
+	JButton freeButton = new JButton("Free");
+	JButton swirlButton = new JButton("Swirl");	
+	public TestToolbar(GraphicsFrame frame)

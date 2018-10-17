@@ -1,0 +1,10 @@
+package com.newweb.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class DateUtil {
+
+	/**
+	 * 获取距当前日期上一个月的日期

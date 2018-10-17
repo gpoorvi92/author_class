@@ -1,0 +1,10 @@
+/******************************************************************
+*
+*	CyberUtil for Java
+*
+*	Copyright (C) Satoshi Konno 2002
+*
+*	File: Debug.java
+*
+*	Revision;
+*

@@ -1,0 +1,10 @@
+      localeCombo.setSelectedItem(Locale.getDefault().getDisplayName());
+      currentDate = new Date();
+      currentTime = new Date();
+      updateDisplay();
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               updateDisplay();

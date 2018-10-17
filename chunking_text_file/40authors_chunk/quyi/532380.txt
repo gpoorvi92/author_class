@@ -1,0 +1,10 @@
+    setColumnNumIsSet(true);
+    this.riskDescription = riskDescription;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public APICheck(APICheck other) {
+    __isset_bitfield = other.__isset_bitfield;
+    if (other.isSetApiName()) {

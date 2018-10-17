@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	private InetAddress[] binds = null;
+	private String multicastIPv4 = SSDP.ADDRESS;
+	private String multicastIPv6 = SSDP.getIPv6Address();
+	private int port = SSDP.PORT;
+
+	public SSDPSearchSocketList() 
+	{
+	}

@@ -1,0 +1,10 @@
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      oprot.writeString(struct.why);
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, InvalidRequestException struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      struct.why = iprot.readString();
+      struct.setWhyIsSet(true);
+    }

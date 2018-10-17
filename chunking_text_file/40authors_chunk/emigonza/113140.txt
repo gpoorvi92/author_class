@@ -1,0 +1,10 @@
+  public boolean getDataEventEnabled() throws JposException;
+  public void    setDataEventEnabled(boolean dataEventEnabled)
+                     throws JposException;
+  public boolean getFlagWhenIdle() throws JposException;
+  public void    setFlagWhenIdle(boolean flagWhenIdle) throws JposException;
+  public long    getMediumFreeSpace() throws JposException;
+  public String  getMediumID() throws JposException;
+  public boolean getMediumIsAvailable() throws JposException;
+  public long    getMediumSize() throws JposException;
+  public int     getOutputID() throws JposException;

@@ -1,0 +1,7 @@
+	 * @param orderNo
+	 * 排序号。
+	 * */
+	public void setOrderNo(Integer orderNo) {
+		this.orderNo = orderNo;
+	}
+}

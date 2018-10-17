@@ -1,0 +1,10 @@
+
+  public Rules setRuleId(String ruleId) {
+    this.ruleId = ruleId;
+    return this;
+  }
+
+  public void unsetRuleId() {
+    this.ruleId = null;
+  }
+

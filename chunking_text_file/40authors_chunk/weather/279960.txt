@@ -1,0 +1,10 @@
+    private final BlockingQueue<Request> mNetworkQueue;
+
+    /** The cache to read from. */
+    private final Cache mCache;
+
+    /** For posting responses. */
+    private final ResponseDelivery mDelivery;
+
+    /** Used for telling us to die. */
+    private volatile boolean mQuit = false;

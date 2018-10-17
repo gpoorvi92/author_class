@@ -1,0 +1,10 @@
+
+    public static final int CHK_MM_DOTS          = 1;
+    public static final int CHK_MM_TWIPS         = 2;
+    public static final int CHK_MM_ENGLISH       = 3;
+    public static final int CHK_MM_METRIC        = 4;
+
+    /////////////////////////////////////////////////////////////////////
+    // "clearImage" Method Constants:
+    /////////////////////////////////////////////////////////////////////
+

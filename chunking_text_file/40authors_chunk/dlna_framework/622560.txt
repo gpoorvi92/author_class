@@ -1,0 +1,10 @@
+	//	renew
+	////////////////////////////////////////////////
+	
+	public void renew()
+	{
+		setSubscriptionTime(System.currentTimeMillis());
+		setNotifyCount(0);
+	}
+
+}

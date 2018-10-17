@@ -1,0 +1,10 @@
+	@Override
+	protected void handleGridItem(GridView gv, View v, int position) {
+		ImageView iv = (ImageView) v.findViewById(R.id.image_preview);
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		String filePath = acd.getStringValue("image_path");
+		if (!acd.containsKey("is_checked")) {
+			acd.putBooleanValue("is_checked", false);
+		}
+		ImageLoader.getInstance().displayImage("file://" + filePath, iv);
+

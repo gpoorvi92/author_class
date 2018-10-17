@@ -1,0 +1,10 @@
+
+/**
+ * 微信公众账号管理Action。
+ * @author yangyong.
+ * @since 2014-04-01.
+ * */
+public class WeChatAccountAction extends BaseDataAction<WeChatAccountInfo> {
+	private WeChatAccountInfo info = new WeChatAccountInfo();
+	
+	@Override

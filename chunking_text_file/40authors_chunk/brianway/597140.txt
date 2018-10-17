@@ -1,0 +1,10 @@
+main begin t1 isAlive=false
+main end t1 isAlive=true
+run---begin
+Thread.currentThread().getName()=A
+Thread.currentThread().isAlive()=true
+this.getName()=Thread-0
+this.isAlive()=false
+run---end
+
+ */

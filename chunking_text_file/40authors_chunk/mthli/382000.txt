@@ -1,0 +1,10 @@
+         "STRING", "NODE", "NODESET", "NUMBER", "BOOLEAN" });
+      typeCombo.setSelectedItem("STRING");
+
+      JPanel panel = new JPanel();
+      panel.add(expression);
+      panel.add(typeCombo);
+      panel.add(evaluateButton);
+      docText = new JTextArea(10, 40);
+      result = new JTextField();
+      result.setBorder(new TitledBorder("Result"));

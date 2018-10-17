@@ -1,0 +1,10 @@
+public class About extends JDialog {
+	
+	AboutPanel aboutPanel = new AboutPanel();
+	
+	
+	public About()
+	{
+		super(new JFrame(), "About Graphics Frame", true);
+		setSize(500, 400);
+		getContentPane().setLayout(new BorderLayout());

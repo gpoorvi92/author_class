@@ -1,0 +1,10 @@
+package arrayList;
+
+import java.util.*;
+
+/*
+ * ArrayList是一个采用类型参数的泛型类，
+ * 为了指定数组列表保存的元素队形类型，
+ * 需要用一对尖括号将类名括起来加在后面
+ *
+ * ArrayList有很多实用的方法：

@@ -1,0 +1,10 @@
+     * @param name
+     * @return
+     */
+    public static String getResNameFromName(String name, Context mContext) {
+        String result = null;
+         int  id = mContext.getResources().getIdentifier(name, "string",
+                mContext.getPackageName());
+        if (id>0){
+            result = mContext.getResources().getString(id);
+        }

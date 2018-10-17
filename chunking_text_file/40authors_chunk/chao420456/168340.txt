@@ -1,0 +1,10 @@
+		System.out.println(line);
+
+		System.out.println("请输入一个int类型的值：");
+		line = br.readLine();
+		int number = Integer.parseInt(line);
+		System.out.println(number);
+
+		// 释放资源
+		// br.close();
+

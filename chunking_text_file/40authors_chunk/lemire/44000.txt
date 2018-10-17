@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void negateWord(int position) {
+        setWord(position, ~getWord(position));
+    }
+
+    @Override
+    public void andWord(int position, long mask) {
+        setWord(position, getWord(position) & mask);

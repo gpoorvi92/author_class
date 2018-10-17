@@ -1,0 +1,10 @@
+    return params;
+  }
+
+  @Override public ClientConnectionManager getConnectionManager() {
+    throw new UnsupportedOperationException();
+  }
+
+  @Override public HttpResponse execute(HttpUriRequest request) throws IOException {
+    return execute(null, request, (HttpContext) null);
+  }

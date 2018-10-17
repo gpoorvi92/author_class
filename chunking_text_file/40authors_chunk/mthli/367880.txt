@@ -1,0 +1,10 @@
+import java.util.*;
+
+/**
+ * A Win32RegKey object can be used to get and set values of a registry key in the Windows registry.
+ * @version 1.00 1997-07-01
+ * @author Cay Horstmann
+ */
+public class Win32RegKey
+{
+   public static final int HKEY_CLASSES_ROOT = 0x80000000;

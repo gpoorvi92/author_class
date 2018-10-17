@@ -1,0 +1,10 @@
+		keywordsFlow.setDuration(800l);
+		keywordsFlow.setOnItemClickListener(this);
+		feedKeywordsFlow(keywordsFlow, keywords);
+		keywordsFlow.go2Show(KeywordsFlow.ANIMATION_OUT);
+	}
+
+	private static void feedKeywordsFlow(KeywordsFlow keywordsFlow, String[] arr) {
+		Random random = new Random();
+		for (int i = 0; i < KeywordsFlow.MAX; i++) {
+			int ran = random.nextInt(arr.length);

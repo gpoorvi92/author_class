@@ -1,0 +1,10 @@
+			String codec,
+			int bitrate, 
+			int sample, 
+			int duration,
+			String media);
+	
+	/**
+	 * 
+	 * @param classId
+	 * @param lessonId

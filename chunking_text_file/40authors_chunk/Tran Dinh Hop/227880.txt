@@ -1,0 +1,10 @@
+					// add current pattern to dictionary as long as it is not full
+					if(codeCnt < codeMax){
+						dict.cInsert(cPattern);
+						codeCnt++;
+					}
+					// re-initialize control
+					lPattern = null;
+
+				}
+			}

@@ -1,0 +1,10 @@
+    /** Sets the filename's extension to one matching what this filefilter is for
+     */
+    public static String setFileNameExtension(String filename, String newExtension)
+    {
+        int index = filename.lastIndexOf('.');
+
+        if (index > 0)
+            filename = filename.substring(0, index);
+
+        filename = filename + "." + newExtension;

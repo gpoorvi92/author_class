@@ -1,0 +1,10 @@
+    public book_master_info() {    	
+	
+	
+	String url = "jdbc:odbc:lib";
+ 		
+ 		
+ 		try {
+ 			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+ 			connection = DriverManager.getConnection(url);
+ 		}

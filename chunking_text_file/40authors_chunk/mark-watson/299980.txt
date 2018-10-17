@@ -1,0 +1,10 @@
+                    //distanceToNode[w][h] = distanceToNode[w][h] + 1.0f;
+                    alReadyVisitedFlag[w][h] = true;
+                    predecessor[w][h] = head;
+                    queue.addToBackOfQueue(connected[i]);
+                    if (equals(connected[i], goalLoc)) {
+                        success = true;
+                        break outer; // we are done
+                    }
+                }
+            }

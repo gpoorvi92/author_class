@@ -1,0 +1,10 @@
+		
+		try {
+			response.getWriter().write(json);//将JSON数据写入response中
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+}

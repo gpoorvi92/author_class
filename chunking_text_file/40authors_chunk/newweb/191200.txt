@@ -1,0 +1,9 @@
+	@Column
+	public String getLastModifyDate() {
+		return lastModifyDate;
+	}
+	public void setLastModifyDate(String lastModifyDate) {
+		this.lastModifyDate = lastModifyDate;
+	}
+	
+}

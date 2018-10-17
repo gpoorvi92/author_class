@@ -1,0 +1,10 @@
+
+  public void unsetOsVersion() {
+    this.osVersion = null;
+  }
+
+  /** Returns true if field osVersion is set (has been assigned a value) and false otherwise */
+  public boolean isSetOsVersion() {
+    return this.osVersion != null;
+  }
+

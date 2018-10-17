@@ -1,0 +1,10 @@
+     * Lowercase letters
+     */
+    public static final String  REG_LOWER               = "\\p{Lower}";
+    /**
+     * Visible characters and spaces (i.e. anything except control characters, etc.)
+     */
+    public static final String  REG_PRINT               = "\\p{Print}";
+    /**
+     * Punctuation and symbols.
+     */

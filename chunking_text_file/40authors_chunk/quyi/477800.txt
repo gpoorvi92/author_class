@@ -1,0 +1,10 @@
+        return new submitMission_resultStandardScheme();
+      }
+    }
+
+    private static class submitMission_resultStandardScheme extends StandardScheme<submitMission_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, submitMission_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)

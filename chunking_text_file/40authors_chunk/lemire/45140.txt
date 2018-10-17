@@ -1,0 +1,10 @@
+        return new Iterator<Integer>() {
+            @Override
+            public boolean hasNext() {
+                return this.under.hasNext();
+            }
+
+            @Override
+            public Integer next() {
+                return this.under.next();
+            }

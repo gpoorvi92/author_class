@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               textReader.cancel(true);
+            }
+         });
+      pack();
+   }
+
+   private class ProgressData
+   {

@@ -1,0 +1,10 @@
+	@Override
+	public Result updateUserAppStatus(String missionId, String userAppId, Map<PlotsType, CheckResultStatus> plotsStatus,
+			Map<String, CheckResultStatus> functionStatus) throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+	/*	long finishedTime = System.currentTimeMillis();
+		if (plotsStatus.values().contains(CheckResultStatus.breaked) || plotsStatus.values().contains(CheckResultStatus.executed)
+				|| plotsStatus.values().contains(CheckResultStatus.timeout) || plotsStatus.values().contains(CheckResultStatus.failure)) {
+		//	if (missionId.contains（)) {
+				SingleRecordInfo singleRecordInfo = new SingleRecordInfo();
+				singleRecordInfo.setMissionId(missionId);

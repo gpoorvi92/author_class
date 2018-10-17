@@ -1,0 +1,10 @@
+    }
+
+    public String getPropertyValue() {
+      return this.propertyValue;
+    }
+
+    public modifyNodeManagerConfig_args setPropertyValue(String propertyValue) {
+      this.propertyValue = propertyValue;
+      return this;
+    }

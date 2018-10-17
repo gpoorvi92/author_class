@@ -1,0 +1,10 @@
+
+/// class javax.swing.table.DefaultTableCellRenderer ///
+
+package org.genie.javax_swing;
+
+public class DefaultTableCellRendererProxy extends javax.swing.table.DefaultTableCellRenderer {
+
+    long swiftObject;
+
+    /// public javax.swing.table.DefaultTableCellRenderer()

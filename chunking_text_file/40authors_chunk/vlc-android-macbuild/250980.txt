@@ -1,0 +1,10 @@
+     * 
+     * @param time
+     *            : Time in ms.
+     * @return the movie time (in ms), or -1 if there is no media.
+     */
+    public native long setTime(long time);
+
+    /**
+     * Gets the movie position.
+     * 

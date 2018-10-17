@@ -1,0 +1,4 @@
+                contentUri(id), dataPath, mimeType, dateTaken, title,
+                orientation);
+    }
+}

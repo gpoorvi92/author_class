@@ -1,0 +1,10 @@
+ * @author Owen Kaser
+ * @since 0.8.0
+ */
+public final class PriorityQ<T> {
+    final T[] a;
+    int lastIndex;
+    final Comparator<T> comp;
+
+    /**
+     * Construct a priority queue with a given capacity

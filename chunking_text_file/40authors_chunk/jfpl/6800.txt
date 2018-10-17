@@ -1,0 +1,10 @@
+			this.mediaRecorder.prepare();
+		} catch (IOException e) {
+			Log.e(SystemUtil.LOG_MSG, "prepare() failed");
+		}
+		this.mediaRecorder.start();
+		this.handler.postDelayed(showVoiceVolume, 300);
+	}
+
+	private void endRecord() {
+		try {

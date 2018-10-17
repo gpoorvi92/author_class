@@ -1,0 +1,10 @@
+
+    private static OkHttpClient client(Interceptor interceptor) {
+        OkHttpClient.Builder builder = new OkHttpClient.Builder();
+        if (interceptor != null) builder.addInterceptor(interceptor);
+        return builder.build();
+    }
+
+    private static Interceptor httpLoggingInterceptor() {
+        return new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY);
+    }

@@ -1,0 +1,10 @@
+		context.setAttribute("steps.result", p3 + re);		
+		
+		return "ok";
+	}
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: name
+	 * @return
+	 * @see com.yeshj.pacman.schedule.IStep#name()

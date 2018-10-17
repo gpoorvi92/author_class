@@ -1,0 +1,10 @@
+		rchild=null;
+	}
+	
+	public int getFreq(){
+		return freq;
+	}
+	
+	public int getValue(){
+		return value;
+	}

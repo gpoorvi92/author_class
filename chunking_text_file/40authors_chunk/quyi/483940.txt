@@ -1,0 +1,10 @@
+          optionals.set(0);
+        }
+        if (struct.isSetStcRD()) {
+          optionals.set(1);
+        }
+        if (struct.isSetDycRD()) {
+          optionals.set(2);
+        }
+        if (struct.isSetVirRD()) {
+          optionals.set(3);

@@ -1,0 +1,10 @@
+
+	private static Map<String, Integer> wordCounts = new HashMap<String, Integer>();
+	static {
+		// Use Peter Norvig's training file:
+		// http://www.norvig.com/spell-correct.html
+		try {
+			FileInputStream fstream = new FileInputStream("/tmp/big.txt");
+			DataInputStream in = new DataInputStream(fstream);
+			BufferedReader br = new BufferedReader(new InputStreamReader(in));
+			String line;

@@ -1,0 +1,10 @@
+         try (Scanner in = new Scanner(new FileInputStream(file)))
+         {
+            while (in.hasNextLine())         
+            {
+               String line = in.nextLine();
+               lineNumber++;
+               text.append(line);
+               text.append("\n");
+               ProgressData data = new ProgressData();
+               data.number = lineNumber;

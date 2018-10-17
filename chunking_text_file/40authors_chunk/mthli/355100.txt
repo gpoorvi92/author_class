@@ -1,0 +1,10 @@
+         try
+         {
+            Logger.getLogger("com.horstmann.corejava").setLevel(Level.ALL);
+            final int LOG_ROTATION_COUNT = 10;
+            Handler handler = new FileHandler("%h/LoggingImageViewer.log", 0, LOG_ROTATION_COUNT);
+            Logger.getLogger("com.horstmann.corejava").addHandler(handler);
+         }
+         catch (IOException e)
+         {
+            Logger.getLogger("com.horstmann.corejava").log(Level.SEVERE,

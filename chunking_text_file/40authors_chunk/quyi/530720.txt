@@ -1,0 +1,10 @@
+    if (this.apk_md5 == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.apk_md5);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("notify_callback_url:");
+    if (this.notify_callback_url == null) {
+      sb.append("null");

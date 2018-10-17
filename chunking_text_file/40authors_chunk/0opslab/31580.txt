@@ -1,0 +1,10 @@
+
+public class BeanUtilTest extends TestCase {
+
+    @Test
+    public void testHasProperties() {
+        BusinessLog bean = new BusinessLog();
+
+        //Bean类是否有operationName属性
+        assertEquals(true, BeanUtil.hasProperty(bean, "operationName"));
+

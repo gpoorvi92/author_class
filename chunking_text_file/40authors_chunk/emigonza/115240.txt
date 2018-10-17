@@ -1,0 +1,3 @@
+                        throws JposException;
+    public void    release() throws JposException;
+}

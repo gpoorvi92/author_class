@@ -1,0 +1,10 @@
+            AlphaComposite ac3;
+            Color color ;
+            int len = strs.length;
+            g.setColor(Color.WHITE);
+            g.fillRect(0,0,width,height);
+            for(int i=0;i<15;i++){
+                color = color(150, 250);
+                g.setColor(color);
+                g.drawOval(num(width), num(height), 5+num(10), 5+num(10));
+            }

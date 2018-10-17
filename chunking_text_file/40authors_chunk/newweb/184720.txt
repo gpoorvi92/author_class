@@ -1,0 +1,10 @@
+		this.sgdCount = sgdCount;
+	}
+	public double getGlassWidth() {
+		return glassWidth;
+	}
+	public void setGlassWidth(double glassWidth) {
+		this.glassWidth = glassWidth;
+	}
+	public double getGlassHeight() {
+		return glassHeight;

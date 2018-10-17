@@ -1,0 +1,10 @@
+  }
+
+  @Override public <T> T execute(HttpHost host, HttpRequest request,
+      ResponseHandler<? extends T> handler, HttpContext context) throws IOException {
+    HttpResponse response = execute(host, request, context);
+    try {
+      return handler.handleResponse(response);
+    } finally {
+      consumeContentQuietly(response);
+    }

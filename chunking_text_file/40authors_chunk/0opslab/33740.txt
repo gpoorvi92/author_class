@@ -1,0 +1,10 @@
+     * @return 纯0字符串
+     */
+    public final static String ZeroString(int length) {
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < length; i++) {
+            sb.append('0');
+        }
+        return sb.toString();
+    }
+

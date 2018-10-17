@@ -1,0 +1,10 @@
+        {
+            throw new RpcException(e);
+        }
+    }
+    @Override
+    public Rpc.RpcPacket read()
+    {
+        throw new UnsupportedOperationException("read");
+    }
+}

@@ -1,0 +1,10 @@
+	 */
+	public int getAudioSamplingRate() {
+		
+		if (gJNILoaded)
+			return nativeGetSamplingRate();
+		else
+			return -1;
+	}
+
+	/**

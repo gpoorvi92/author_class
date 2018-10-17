@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerIntruderPayloadGeneratorFactory()</code>
+ * to register a factory for custom Intruder payloads.
+ */
+public interface IIntruderPayloadGeneratorFactory
+{
+    /**
+     * This method is used by Burp to obtain the name of the payload generator.

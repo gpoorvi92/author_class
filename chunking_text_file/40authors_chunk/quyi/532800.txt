@@ -1,0 +1,10 @@
+
+  public void setStatementIsSet(boolean value) {
+    if (!value) {
+      this.statement = null;
+    }
+  }
+
+  public String getRiskType() {
+    return this.riskType;
+  }

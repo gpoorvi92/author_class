@@ -1,0 +1,10 @@
+            }
+        }
+    }
+
+    private int threshold2buf(final int t, final int[] buf,
+                              final int bufUsed) {
+        int result = 0;
+        final int[] counters = this.bufcounters;
+        System.arraycopy(zeroes64, 0, counters, 0, 64);
+        for (int k = 0; k < bufUsed; ++k) {

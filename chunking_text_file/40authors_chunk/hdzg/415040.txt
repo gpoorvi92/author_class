@@ -1,0 +1,10 @@
+	public boolean onTouch(View view, MotionEvent event) {
+		int x = (int)event.getX();
+		int y = (int)event.getY();
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				switch(status){
+				case 0://有钱进时玩家确认进
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					buildWarTank();//有几率为英雄建造战车

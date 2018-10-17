@@ -1,0 +1,10 @@
+         URL key = new URL(codeBase, "title");
+
+         try
+         {
+            FileContents contents = service.get(key);
+            InputStream in = contents.getInputStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+            title = reader.readLine();
+         }
+         catch (FileNotFoundException e)

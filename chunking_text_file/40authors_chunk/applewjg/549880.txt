@@ -1,0 +1,10 @@
+
+ Solution: Similar to 3Sum, 2Sum.
+ */
+
+ public class Solution {
+    public List<List<Integer>> fourSum(int[] num, int target) {
+        int N = num.length;
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        if (N < 4) return res;
+        Arrays.sort(num);

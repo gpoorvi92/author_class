@@ -1,0 +1,10 @@
+        g.drawString("Payment Number      "+new Payment().text1.getText(),80,230);
+        g.drawString("Name of Passenger   "+new Payment().combo2.getSelectedItem(),80,260);
+        
+        g.drawString("Amount Paid Kshs    "+new Payment().combo8.getSelectedItem(),80,290);
+        g.drawString("Pay on              "+new Payment().combo4.getSelectedItem(),80,320);
+        g.drawString("Date Paid           "+new Payment().p_date.getText(),620,350);
+        g.drawString("Received By         "+new Payment().combo3.getSelectedItem(),80,380);
+       
+        g.setColor(Color.red);
+        g.drawString("Welcome back....and..... Safe Journey",200,410);

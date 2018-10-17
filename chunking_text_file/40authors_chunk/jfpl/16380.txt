@@ -1,0 +1,10 @@
+import com.lianzt.util.StringUtil;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+public class VioActivity extends BaseChatEnterActivity {
+
+	@InjectionView(id = R.id.title_back_btn, click = "titleBackBtnClick")
+	private ImageButton titleBackBtn;
+	@InjectionView(id = R.id.frame_title)
+	private android.widget.TextView titleTv;
+	@InjectionView(id = R.id.wz_tip)

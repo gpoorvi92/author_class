@@ -1,0 +1,10 @@
+		prop.setProperty("it001", "javase");
+		prop.setProperty("it003", "android");
+		prop.setProperty("it002", "javaee");
+
+		// 获取数据
+		// // public String getProperty(String key)
+		// System.out.println(prop.getProperty("it001"));
+		// System.out.println(prop.getProperty("it007"));
+		// // public String getProperty(String key,String defaultValue)
+		// System.out.println(prop.getProperty("it007", "周星驰"));

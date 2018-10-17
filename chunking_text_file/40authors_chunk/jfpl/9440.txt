@@ -1,0 +1,10 @@
+
+		chatEt.setMaxWidth(SystemUtil.SCREEN_WIDTH
+				- SystemUtil.dip2px(this, 100));
+		chatEt.addTextChangedListener(new TextWatcher() {
+
+			@Override
+			public void onTextChanged(CharSequence s, int start, int before,
+					int count) {
+
+			}

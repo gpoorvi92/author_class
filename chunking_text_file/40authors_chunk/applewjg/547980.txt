@@ -1,0 +1,10 @@
+        ListNode rightdummy = new ListNode(-1);
+        ListNode lhead = leftdummy;
+        ListNode rhead = rightdummy;
+        
+        for(ListNode cur = head; cur != null; cur=cur.next){
+            if(cur.val < x){
+                lhead.next = cur;
+                lhead = lhead.next;
+            }else{
+                rhead.next = cur;

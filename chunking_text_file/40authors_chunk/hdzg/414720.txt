@@ -1,0 +1,10 @@
+
+	
+	public static void initMapImage(){
+		grassBitmap = BitmapFactory.decodeResource(resources, R.drawable.caodi);
+		xiaoHua1Bitmap = BitmapFactory.decodeResource(resources, R.drawable.hua1);
+		muZhuangBitmap = BitmapFactory.decodeResource(resources, R.drawable.muzhuang);
+		xiaoHua2Bitmap = BitmapFactory.decodeResource(resources, R.drawable.hua2);
+		roadBitmap = BitmapFactory.decodeResource(resources, R.drawable.gonglu);
+		jingBitmap = BitmapFactory.decodeResource(resources, R.drawable.jing);		
+		

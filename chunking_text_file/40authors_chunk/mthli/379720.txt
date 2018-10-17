@@ -1,0 +1,10 @@
+               return new Expression(oldInstance, InetAddress.class, "getByAddress",
+                     new Object[] { ((InetAddress) oldInstance).getAddress() });
+            }
+         });
+
+      out.setPersistenceDelegate(BitSet.class, new DefaultPersistenceDelegate()
+         {
+            protected void initialize(Class<?> type, Object oldInstance, Object newInstance,
+                  Encoder out)
+            {

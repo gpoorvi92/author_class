@@ -1,0 +1,10 @@
+    public reportNodeManagerConfig_args deepCopy() {
+      return new reportNodeManagerConfig_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.nodeId = null;
+    }
+
+    public String getNodeId() {

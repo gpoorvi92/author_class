@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void inactive(String[] ids) throws ServiceException {
+        if (IdStatusSplitUtils.isFormatSecret(ids, AdminStatus.PENDING.toString(), AdminStatus.ACTIVE.toString())) {
+            adminMapper.inactive(IdStatusSplitUtils.split2Id(ids));
+        } else {
+            throw new ServiceException("只能操作审核中和正常使用的用户");
+        }

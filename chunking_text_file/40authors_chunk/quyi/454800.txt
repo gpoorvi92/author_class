@@ -1,0 +1,10 @@
+        return false;
+      if (that instanceof operateEngine_args)
+        return this.equals((operateEngine_args)that);
+      return false;
+    }
+
+    public boolean equals(operateEngine_args that) {
+      if (that == null)
+        return false;
+

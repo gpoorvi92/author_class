@@ -1,0 +1,10 @@
+      } else {
+        setTargetPort((String)value);
+      }
+      break;
+
+    case PROTOCAL:
+      if (value == null) {
+        unsetProtocal();
+      } else {
+        setProtocal((String)value);

@@ -1,0 +1,10 @@
+    @Override
+    public String toString() {
+        return "running bit = " + getRunningBit() +
+               " running length = " + getRunningLength() +
+               " number of lit. words " + getNumberOfLiteralWords();
+    }
+
+    @Override
+    public BufferedRunningLengthWord clone() throws CloneNotSupportedException {
+        BufferedRunningLengthWord answer = (BufferedRunningLengthWord) super.clone();

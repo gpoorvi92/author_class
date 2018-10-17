@@ -1,0 +1,10 @@
+
+	}
+
+	@Override
+	public void run() {
+		while (true) {
+			if (!queue.isEmpty()) {
+				SingleRecordInfo singleRecordInfo = queue.poll();
+				if (singleRecordInfo.missionId.contains("Multi") || singleRecordInfo.missionId.contains("SingleTest")) {
+					new ExportExcel().exportToSingleExcel(filename, singleRecordInfo);

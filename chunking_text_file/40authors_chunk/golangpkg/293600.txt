@@ -1,0 +1,10 @@
+	public File getRootFolder() {
+		String realPath = defaultUploadFolder;
+		if (uploadFolderRelativePath) {
+			 realPath = webApplicationContext.getServletContext().getRealPath(defaultUploadFolder);
+		} 
+		File file = new File(realPath);
+		// create if non existent
+		if (!file.exists()) {
+			file.mkdirs();
+		}

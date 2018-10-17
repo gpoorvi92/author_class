@@ -1,0 +1,10 @@
+			new URL(urlStr);
+			return true;
+		}
+		catch (Exception e) {
+			return false;
+		}
+	} 
+
+	public static final String getHost(String urlStr)
+	{

@@ -1,0 +1,10 @@
+			acd.putObjectValue("ipacket",
+					HttpSendFactory.getChatPlatformSendMethod());
+			acd.putObjectValue("iservice", new IServiceLogic() {
+
+				@Override
+				public AbstractCommonData doSuccess(AbstractCommonData acd) {
+					GlobalVariables.loginUsername = username;
+					AbstractCommonData loginPara = DataConvertFactory
+							.getInstanceEmpty();
+					loginPara.putStringValue("username", username);

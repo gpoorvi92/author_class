@@ -1,0 +1,10 @@
+      }
+      if (struct.checkStartTime != null) {
+        oprot.writeFieldBegin(CHECK_START_TIME_FIELD_DESC);
+        oprot.writeString(struct.checkStartTime);
+        oprot.writeFieldEnd();
+      }
+      if (struct.checkStopTime != null) {
+        oprot.writeFieldBegin(CHECK_STOP_TIME_FIELD_DESC);
+        oprot.writeString(struct.checkStopTime);
+        oprot.writeFieldEnd();

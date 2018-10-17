@@ -1,0 +1,10 @@
+      case 121:
+        return SUBSCRIBED_FEEDS_READ;
+      case 122:
+        return SUBSCRIBED_FEEDS_WRITE;
+      case 123:
+        return SYSTEM_ALERT_WINDOW;
+      case 124:
+        return TRANSMIT_IR;
+      case 125:
+        return UNINSTALL_SHORTCUT;

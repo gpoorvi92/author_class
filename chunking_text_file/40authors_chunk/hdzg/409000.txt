@@ -1,0 +1,10 @@
+        }
+        public void setFlag(boolean flag) {//设置循环标记位
+        	this.flag = flag;
+        }
+		
+		public void run() {
+			Canvas c;
+            while (this.flag) {
+                c = null;
+                try {

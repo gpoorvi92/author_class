@@ -1,0 +1,10 @@
+                {
+                    if(!include)
+                        fbLength = 0;
+                    break;
+                }
+                i++;
+            } while(true);
+        }
+        return byteOrderMark;
+    }

@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.terminology;
+
+public class ClientThread {
+
+	public static void main(String[] args) {
+
+		ThreadA t = new ThreadA();

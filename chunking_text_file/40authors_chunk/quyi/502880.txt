@@ -1,0 +1,10 @@
+//			try {
+//				transport.open();
+//			} catch (TTransportException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//			//设置传输协议为TBinaryProtocol
+//			TProtocol protocol = new TBinaryProtocol(transport);
+//	        //调用服务的方法
+//			EngineOperate.Client client = new EngineOperate.Client(protocol);

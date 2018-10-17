@@ -1,0 +1,10 @@
+			
+		   jbtChoc4.setIcon(Food4Image);
+		   pA.add(jbtChoc4);
+		   jbtChoc4.setVerticalTextPosition(AbstractButton.BOTTOM);
+			jbtChoc4.setHorizontalTextPosition(AbstractButton.CENTER);
+			
+		   jbtChoc5.setIcon(Food5Image);
+		   pA.add(jbtChoc5);
+		   jbtChoc5.setVerticalTextPosition(AbstractButton.BOTTOM);
+			jbtChoc5.setHorizontalTextPosition(AbstractButton.CENTER);

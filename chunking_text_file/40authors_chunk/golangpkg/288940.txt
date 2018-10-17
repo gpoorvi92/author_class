@@ -1,0 +1,10 @@
+
+
+/**
+ * Contains the mapping of exception => ids
+ * 
+ * @author antoinem
+ * @see JavaFileUploaderException
+ * 
+ */
+@Component

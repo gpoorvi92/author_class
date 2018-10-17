@@ -1,0 +1,10 @@
+     */
+    private static class CustomTimeTextView extends TimeTextView {
+
+        public CustomTimeTextView(Context context, boolean isCenterView, int textSize) {
+            super(context, isCenterView, textSize);
+        }
+
+        /**
+         * Here we set up the text characteristics for the TextView, i.e. red colour,
+         * serif font and semi-transparent white background for the centerView... and shadow!!!

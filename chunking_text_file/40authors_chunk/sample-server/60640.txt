@@ -1,0 +1,10 @@
+    {
+        connect();
+        channel.write(newRpcPacket(msg));
+    }
+    public boolean isConnected()
+    {
+        return null != channel && channel.isConnected() && channel.isBound() && channel.isOpen();
+    }
+    public void shutdown()
+    {

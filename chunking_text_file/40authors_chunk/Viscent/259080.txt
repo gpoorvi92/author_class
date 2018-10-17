@@ -1,0 +1,10 @@
+	private final BlockingDeque<T>[] managedQueues;
+
+	public WorkStealingChannel(BlockingDeque<T>[] managedQueues) {
+		this.managedQueues = managedQueues;
+	}
+
+	@Override
+	public T take(BlockingDeque<T> preferredQueue) throws InterruptedException {
+
+		// 优先从指定的受管队列中取“产品”

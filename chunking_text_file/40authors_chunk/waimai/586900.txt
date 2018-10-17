@@ -1,0 +1,10 @@
+        modelAndView.addObject("merchantList", merchantList);
+        return modelAndView;
+    }
+
+    @RequestMapping("/type")
+    public ModelAndView getType(Integer merchantId) {
+        ModelAndView modelAndView = new ModelAndView("management/saleCount/type");
+        List<Goods> goodsList;
+        if (merchantId != null && merchantId != 0) {
+            goodsList = goodsService.findByMerchantId(merchantId);

@@ -1,0 +1,10 @@
+	 * Private field lid Getter method.
+	 * @return lid 
+	 */
+	public Integer getLid() {
+		return this.lid;
+	}
+
+	/**
+	 * Private field lid Setter method.
+	 * @param lid 

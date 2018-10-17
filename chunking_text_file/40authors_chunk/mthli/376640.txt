@@ -1,0 +1,10 @@
+               boolean saveOk = !readonlyItem.isSelected();
+               saveAction.setEnabled(saveOk);
+               saveAsAction.setEnabled(saveOk);
+            }
+         });
+
+      ButtonGroup group = new ButtonGroup();
+
+      JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+      insertItem.setSelected(true);

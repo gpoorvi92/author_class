@@ -1,0 +1,10 @@
+    System.out.println("------------------------------------------------------");
+    int a = 1;
+    while ( a <= numIntrod) {
+        
+        int espacio = 0;
+        while ( espacio < (numIntrod - a)){
+            espacio++;
+            System.out.print(" ");
+        }
+        

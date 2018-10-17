@@ -1,0 +1,10 @@
+                visited.add(it.next());
+            }
+            for(Iterator<String> it=cur.iterator();it.hasNext();) {
+                String str = it.next();
+                char[] word = str.toCharArray();
+                for (int j = 0; j < word.length; ++j) {
+                    char before = word[j];
+                    for (char ch = 'a'; ch <= 'z'; ++ch) {
+                        if (ch == before) continue;
+                        word[j] = ch;

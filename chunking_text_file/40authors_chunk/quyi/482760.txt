@@ -1,0 +1,10 @@
+    public boolean isSetVirRD() {
+      return this.virRD != null;
+    }
+
+    public void setVirRDIsSet(boolean value) {
+      if (!value) {
+        this.virRD = null;
+      }
+    }
+

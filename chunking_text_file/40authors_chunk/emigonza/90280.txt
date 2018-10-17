@@ -1,0 +1,10 @@
+    public boolean getCapDisplayText() throws JposException;
+    public boolean getCapPriceCalculating() throws JposException;
+    public int     getCapPowerReporting() throws JposException;
+    public boolean getCapTareWeight() throws JposException;
+    public boolean getCapZeroScale()  throws JposException;
+
+    // Properties
+    public boolean getAsyncMode() throws JposException;
+    public void    setAsyncMode(boolean asyncMode) throws JposException;
+    public boolean getAutoDisable() throws JposException;

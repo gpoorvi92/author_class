@@ -1,0 +1,10 @@
+    private final boolean isMultipart;
+    private String fileName;
+
+    public AbstractMultipartRequest(Object chatId, Object file) {
+        super(chatId);
+        if (file instanceof String) {
+            isMultipart = false;
+        } else if (file instanceof File) {
+            isMultipart = true;
+            fileName = ((File) file).getName();

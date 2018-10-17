@@ -1,0 +1,8 @@
+    public String getOriginalImage() {
+        return originalImage;
+    }
+
+    public void setOriginalImage(String originalImage) {
+        this.originalImage = originalImage;
+    }
+}

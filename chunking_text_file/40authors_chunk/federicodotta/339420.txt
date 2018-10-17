@@ -1,0 +1,10 @@
+
+    /**
+     * This method is used to determine whether the currently displayed message
+     * has been modified by the user. The hosting editor will always call
+     * <code>getMessage()</code> before calling this method, so any pending
+     * edits should be completed within
+     * <code>getMessage()</code>.
+     *
+     * @return The method should return
+     * <code>true</code> if the user has modified the current message since it

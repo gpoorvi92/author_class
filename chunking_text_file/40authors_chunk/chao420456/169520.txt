@@ -1,0 +1,10 @@
+							br.close();
+						} catch (IOException e1) {
+							e1.printStackTrace();
+						}
+					}
+				}
+			}
+		});
+
+		// 设置窗体可见

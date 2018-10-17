@@ -1,0 +1,10 @@
+    }
+
+    final public String getPseudoAccess() {
+        return mPseudoAccess;
+    }
+
+    final public String getPseduoDemux() {
+        return mPseudoDemux;
+    }
+

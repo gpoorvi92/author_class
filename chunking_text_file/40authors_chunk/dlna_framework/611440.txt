@@ -1,0 +1,10 @@
+/******************************************************************
+*
+*	CyberSOAP for Java
+*
+*	Copyright (C) Satoshi Konno 2002
+*
+*	File: SOAPResponse.java
+*
+*	Revision;
+*

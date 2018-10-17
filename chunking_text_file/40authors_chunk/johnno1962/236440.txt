@@ -1,0 +1,10 @@
+    public native int __hashCode();
+
+    boolean entered_hashCode_10;
+
+    public int hashCode() {
+        if ( !entered_hashCode_10 ) {
+            entered_hashCode_10 = true;
+            int __return = __hashCode( );
+            entered_hashCode_10 = false;
+            return __return;

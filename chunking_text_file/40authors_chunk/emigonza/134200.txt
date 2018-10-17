@@ -1,0 +1,7 @@
+    
+    //---------------------------------------------------------------------------
+    // Class variables
+    //
+    
+    private static Tracer tracer = TracerFactory.getInstance().createGlobalTracer();
+}

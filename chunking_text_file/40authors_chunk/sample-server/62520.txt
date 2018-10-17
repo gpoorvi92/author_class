@@ -1,0 +1,10 @@
+        stop = stop.replace('T', ' ');
+        NoticeEntity newNotice = DaoManager.getLocalDao().select(NoticeEntity.class, Integer.parseInt(noticeId));
+        JsonResponse result = new JsonResponse();
+        newNotice.setContent(content);
+        try
+        {
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+            newNotice.setStartTime(df.parse(start));
+            newNotice.setStopTime(df.parse(stop));
+            newNotice.setZoneId(zoneId);

@@ -1,0 +1,10 @@
+	}
+
+	public void eat() {
+		System.out.println("乒乓球运动员吃西红柿鸡蛋");
+	}
+
+	public void study() {
+		System.out.println("乒乓球运动员学如何发球和接球");
+	}
+}

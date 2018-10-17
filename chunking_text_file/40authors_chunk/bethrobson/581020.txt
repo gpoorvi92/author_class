@@ -1,0 +1,10 @@
+    JTextArea incoming;
+    JTextField outgoing;
+    BufferedReader reader;
+    PrintWriter writer;
+    Socket sock;
+    
+    public void go() {
+        JFrame frame = new JFrame("Ludicrously Simple Chat Client");
+        JPanel mainPanel = new JPanel();
+        incoming = new JTextArea(15, 50);

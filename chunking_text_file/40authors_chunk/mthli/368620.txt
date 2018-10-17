@@ -1,0 +1,10 @@
+   
+   /**
+    * Sets the hints and repaints.
+    * @param h the rendering hints
+    */
+   public void setRenderingHints(RenderingHints h)
+   {
+      hints = h;
+      repaint();
+   }

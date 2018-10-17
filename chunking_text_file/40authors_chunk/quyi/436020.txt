@@ -1,0 +1,10 @@
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof DynamicCheckResultData)
+      return this.equals((DynamicCheckResultData)that);
+    return false;
+  }
+
+  public boolean equals(DynamicCheckResultData that) {

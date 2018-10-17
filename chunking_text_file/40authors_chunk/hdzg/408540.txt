@@ -1,0 +1,10 @@
+			"xx将军在铁匠铺忙了大半天，什么也没捞着。"
+		};
+	int cost = 1500;//花费
+	int status=-1;//状态位，为0表示显示是否进去，为1表示显示不能进去,为2表示显示培训结果，3
+	int powerIncrement = 3;//每次最多增加3点
+	
+	public TieJangPuDrawable(){}
+	
+	public TieJangPuDrawable(Bitmap bmpSelf,Bitmap bmpDialogBack,Bitmap bmpDialogButton,boolean meetable,int width,int height,int col,int row,
+			int refCol,int refRow,int [][] noThrough,

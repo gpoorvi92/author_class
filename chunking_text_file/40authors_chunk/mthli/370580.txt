@@ -1,0 +1,10 @@
+
+   /**
+    * This listener pops up a modeless color chooser. The panel color is changed immediately when
+    * the user picks a new color.
+    */
+   private class ImmediateListener implements ActionListener
+   {
+      private JDialog dialog;
+      private JColorChooser chooser;
+

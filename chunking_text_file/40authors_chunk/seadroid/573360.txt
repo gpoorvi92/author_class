@@ -1,0 +1,10 @@
+            TextView subtitle = (TextView) view.findViewById(R.id.search_item_subtitle);
+            ImageView icon = (ImageView) view.findViewById(R.id.search_item_icon);
+            ImageView action = (ImageView) view.findViewById(R.id.search_item_action);
+            viewHolder = new Viewholder(path, title, subtitle, icon, action);
+            view.setTag(viewHolder);
+        } else {
+            viewHolder = (Viewholder) convertView.getTag();
+        }
+
+        viewHolder.icon.setImageResource(item.getIcon());

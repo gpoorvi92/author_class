@@ -1,0 +1,10 @@
+    {
+        try
+        {
+            flush();
+        }
+        catch(IOException ignored) { }
+        getStream().close();
+    }
+
+    public int getThreshold()

@@ -1,0 +1,10 @@
+	 *  @return 
+	 *  绝对路径。
+	 * */
+	private String createTargetStorePath(String folder){
+		if(folder == null || folder.trim().isEmpty()) return null;
+		String path = ServletActionContext.getServletContext().getRealPath(folder) + File.separator;
+		File destDir = new File(path);
+		if(!destDir.exists()){
+			destDir.mkdirs();
+			logger.info("创建图片库存储目录:" + path);

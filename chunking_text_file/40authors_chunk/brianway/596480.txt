@@ -1,0 +1,10 @@
+            }
+
+            System.out.println(getData1);
+            System.out.println(getData2);
+            System.out.println("end task");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

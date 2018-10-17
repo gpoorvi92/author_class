@@ -1,0 +1,10 @@
+    {
+        JsonResponse resultCode = new JsonResponse();
+        try
+        {
+            ZoneEntity entity = new ZoneEntity();
+            entity.setId(id);
+            entity.setZoneId(zoneId);
+            entity.setZoneName(zoneName);
+            entity.setServerGroupId(serverGroupId);
+            entity.setGameServerHost(gameServerHost);

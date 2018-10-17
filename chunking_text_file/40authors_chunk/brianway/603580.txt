@@ -1,0 +1,10 @@
+        Consumer c4 = new Consumer(myStack);
+        Consumer c5 = new Consumer(myStack);
+
+        P_Thread p_thread = new P_Thread(p);
+        p_thread.start();
+
+        C_Thread c_thread1 = new C_Thread(c1);
+        C_Thread c_thread2 = new C_Thread(c2);
+        C_Thread c_thread3 = new C_Thread(c3);
+        C_Thread c_thread4 = new C_Thread(c4);

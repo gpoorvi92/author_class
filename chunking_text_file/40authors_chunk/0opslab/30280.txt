@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testFindFirstDiff1() throws Exception {
+
+    }
+
+    @Test
+    public void testIsWhitespace() throws Exception {
+

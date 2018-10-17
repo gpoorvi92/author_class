@@ -1,0 +1,10 @@
+			 				year_text.setEditable(false);
+			 				pages_text.setEditable(false);
+			 				authorsArea.setEditable(false);
+			 				subjectArea.setEditable(false);
+			 				location_text.setEditable(false);	
+							}
+					
+							else
+			 				{
+			 				save.setEnabled(false);

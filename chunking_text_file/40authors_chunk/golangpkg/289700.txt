@@ -1,0 +1,10 @@
+
+
+
+	public Long getRateInKiloBytes() {
+		return rateInKiloBytes;
+	}
+
+
+	void setInstantRateInBytes(long instantRateInBytes) {
+		synchronized (instantRateInBytesLock) {

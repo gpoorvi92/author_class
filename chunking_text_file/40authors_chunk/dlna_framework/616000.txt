@@ -1,0 +1,10 @@
+		for (int i = 0; i<varSetNode.getNNodes(); i++){
+			Node propNode = varSetNode.getNode(i);
+			if (propNode == null)
+				continue;
+			Property prop = getProperty(propNode.getNode(0));
+			properties.add(prop);
+		}
+		return properties;
+	}
+	

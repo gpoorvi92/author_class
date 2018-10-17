@@ -1,0 +1,10 @@
+        }
+        return resultCode.toJson();
+    }
+    @ACL(limit = Limit.BULLETIN, type = RequestType.JSON)
+    @RequestMapping(value = "/add")
+    @ResponseBody
+    public String add(String linkId, int zoneId, String title, String content, String sortFlag) throws IOException
+    {
+        JsonResponse resultCode = new JsonResponse();
+        BulletinEntity bulletin = new BulletinEntity();

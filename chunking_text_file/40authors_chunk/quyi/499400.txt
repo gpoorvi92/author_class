@@ -1,0 +1,10 @@
+      if (struct.isSetOperateType()) {
+        optionals.set(5);
+      }
+      oprot.writeBitSet(optionals, 6);
+      if (struct.isSetPidName()) {
+        oprot.writeString(struct.pidName);
+      }
+      if (struct.isSetFileDescription()) {
+        oprot.writeString(struct.fileDescription);
+      }

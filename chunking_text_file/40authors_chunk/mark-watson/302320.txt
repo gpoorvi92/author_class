@@ -1,0 +1,10 @@
+
+	private static float parseFloat(String s) {
+		String orig = s;
+		float ret = -1f;
+		float scale = 1f;
+		try {
+			if (s.indexOf("million") > -1) scale = 1000000f;
+			if (s.indexOf("billion") > -1) scale = 1000000000f;
+			s = s.replaceAll("\\$", "");
+			int index = s.indexOf("%");

@@ -1,0 +1,10 @@
+				this.setRotation(0);
+				break;
+			case LEFT:
+				this.setRotation(90);
+				break;
+			case RIGHT:
+				this.setRotation(270);
+				break;
+		}
+	}

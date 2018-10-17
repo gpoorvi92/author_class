@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.MaterialBrand;
+import com.newweb.model.base.TypeForBrand;
+
+@Entity
+@Table(name="t_order_lhjwinprop")
+public class OrderLhjWinProp {
+
+	private int ID;
+	private Order order;

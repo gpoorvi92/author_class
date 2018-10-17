@@ -1,0 +1,10 @@
+        {
+            Vector3D vertex = Triangle.getVertex(triangles[i],vi);
+            out.println("   vertex" + ModelSaver.getSpacedVectorCoordinates(vertex));
+        }
+
+        out.println("}");
+    }
+    fout.close();
+  }
+ 

@@ -1,0 +1,10 @@
+    public void write(org.apache.thrift.protocol.TProtocol oprot) throws org.apache.thrift.TException {
+      schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("reportTaskManagerConfig_args(");
+      boolean first = true;
+
+      sb.append(")");

@@ -1,0 +1,10 @@
+    private String title;
+    private String address;
+
+    private String foursquare_id;
+    private String thumb_url;
+    private Integer thumb_width;
+    private Integer thumb_height;
+
+    public InlineQueryResultVenue(String id, float latitude, float longitude, String title, String address) {
+        super("venue", id);

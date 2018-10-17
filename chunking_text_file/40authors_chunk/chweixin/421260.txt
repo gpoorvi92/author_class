@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected WeChatAccountInfo changeModel(WeChatAccount data) {
+		if(data == null) return null;
+		WeChatAccountInfo info = new WeChatAccountInfo();
+		BeanUtils.copyProperties(data, info);
+		return info;
+	}
+

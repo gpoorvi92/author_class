@@ -1,0 +1,10 @@
+         {
+            public void valueChanged(ListSelectionEvent event)
+            {
+               int i = elementList.getSelectedIndex();
+               if (i < 0) return;
+               valueField.setValue(array[i]);
+            }
+         });
+
+      elementList.setModel(model);

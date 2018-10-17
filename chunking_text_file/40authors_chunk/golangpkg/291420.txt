@@ -1,0 +1,10 @@
+
+	}
+	
+	@Test
+	public void testNotBlocked() {
+		jlfuListenerPropagator.registerListener(new JLFUListenerAdapter() {
+			@Override
+			public void onClientBack(UUID clientId) {
+				try {
+					Thread.sleep(10000);

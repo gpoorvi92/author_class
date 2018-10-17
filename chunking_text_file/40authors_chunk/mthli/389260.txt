@@ -1,0 +1,10 @@
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+   private JPanel panel;
+
+   public ToolBarFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // add a panel for color change

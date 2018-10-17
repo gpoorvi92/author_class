@@ -1,0 +1,10 @@
+	 */
+	private class ViewPagerAdapter extends PagerAdapter {
+
+		public void destroyItem(View arg0, int arg1, Object arg2) {
+			((ViewPager) arg0).removeView(mViews.get(arg1));
+		}
+
+		public void finishUpdate(View arg0) {
+
+		}

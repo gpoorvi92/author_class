@@ -1,0 +1,10 @@
+  }
+
+  public void setUserAppsIsSet(boolean value) {
+    if (!value) {
+      this.userApps = null;
+    }
+  }
+
+  public int getRulesSize() {
+    return (this.rules == null) ? 0 : this.rules.size();

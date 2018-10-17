@@ -1,0 +1,10 @@
+    public static final int CAT_PAYMENT_BONUS_COMBINATION_2  =  32;
+    public static final int CAT_PAYMENT_BONUS_COMBINATION_3  =  33;
+    public static final int CAT_PAYMENT_BONUS_COMBINATION_4  =  34;
+    public static final int CAT_PAYMENT_REVOLVING            =  80;
+    public static final int CAT_PAYMENT_DEBIT                = 110;
+    public static final int CAT_PAYMENT_ELECTRONIC_MONEY     = 111;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // Transaction Type Constants

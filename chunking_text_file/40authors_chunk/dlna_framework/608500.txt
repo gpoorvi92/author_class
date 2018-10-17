@@ -1,0 +1,10 @@
+	
+	public static Debug debug = new Debug();
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+	private PrintStream out = System.out;
+	
+	
+	public Debug(){
+		
+	}
+	

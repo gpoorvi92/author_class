@@ -1,0 +1,10 @@
+    private static final long serialVersionUID = 1L;
+    public static final ByteOrderMark UTF_8 = new ByteOrderMark("UTF-8", new int[] {
+        239, 187, 191
+    });
+    public static final ByteOrderMark UTF_16BE = new ByteOrderMark("UTF-16BE", new int[] {
+        254, 255
+    });
+    public static final ByteOrderMark UTF_16LE = new ByteOrderMark("UTF-16LE", new int[] {
+        255, 254
+    });

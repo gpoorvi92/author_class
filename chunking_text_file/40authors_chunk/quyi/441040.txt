@@ -1,0 +1,10 @@
+
+  public void setPidNameIsSet(boolean value) {
+    if (!value) {
+      this.pidName = null;
+    }
+  }
+
+  public String getSourceAddress() {
+    return this.sourceAddress;
+  }

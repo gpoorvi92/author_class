@@ -1,0 +1,10 @@
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================
+
+	@Override
+	public EngineOptions onCreateEngineOptions() {
+		final Camera camera = new Camera(0, 0, Rotation3DExample.CAMERA_WIDTH, Rotation3DExample.CAMERA_HEIGHT);
+		camera.setZClippingPlanes(-100, 100);
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(Rotation3DExample.CAMERA_WIDTH, Rotation3DExample.CAMERA_HEIGHT), camera);
+	}

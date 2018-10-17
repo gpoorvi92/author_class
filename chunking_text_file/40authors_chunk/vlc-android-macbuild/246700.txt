@@ -1,0 +1,10 @@
+        if (mInstance == null) {
+            mInstance = new EventManager();
+        }
+        return mInstance;
+    }
+
+    public void addHandler(Handler handler) {
+        if (!mEventHandler.contains(handler))
+            mEventHandler.add(handler);
+    }

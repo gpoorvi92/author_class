@@ -1,0 +1,10 @@
+	}
+	
+
+	
+			
+	
+	
+	public void stateChanged(ChangeEvent e)
+	{
+		String value = width.getValue().toString();

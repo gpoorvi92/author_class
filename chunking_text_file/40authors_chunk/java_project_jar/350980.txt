@@ -1,0 +1,10 @@
+        throw new IllegalStateException(ioe);
+    }
+
+    protected boolean isValidLine(String line)
+    {
+        return true;
+    }
+
+    public String next()
+    {

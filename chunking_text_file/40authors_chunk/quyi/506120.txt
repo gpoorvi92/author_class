@@ -1,0 +1,10 @@
+ * 1111:success 成功状态码
+ * 9999:failure 失败状态码
+ * 400:badRequest 参数错误状态码
+ * 405:methodNotAllowed 请求方法错误状态码
+ * 408:requestTimeOut 请求超时状态码
+ */
+public enum Result implements org.apache.thrift.TEnum {
+  success(1111),
+  failure(9999),
+  badRequest(400),

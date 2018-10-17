@@ -1,0 +1,10 @@
+package tv.danmaku.android.util;
+
+import java.util.Collection;
+
+import android.text.TextUtils;
+
+public class Assure {
+    public static void checkTrue(boolean value) {
+        if (!value)
+            throw new IllegalArgumentException("AssureTrue");

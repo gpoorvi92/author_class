@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Nov 18, 2014
+ Problem:    Subsets
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/subsets/
+ Notes:
+ Given a set of distinct integers, S, return all possible subsets.
+ Note:
+ Elements in a subset must be in non-descending order.

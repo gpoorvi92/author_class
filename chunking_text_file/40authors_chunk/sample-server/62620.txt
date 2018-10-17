@@ -1,0 +1,10 @@
+            newNotice.setLevel(Integer.valueOf(noticeLevel));
+            newNotice.setType(Integer.valueOf(noticeType));
+            newNotice.setAddTime(new Date());
+            newNotice.setRemark("");
+            if (NoticeService.add(newNotice))
+            {
+                result.setMsg("success");
+            }
+            else
+            {

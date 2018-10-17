@@ -1,0 +1,10 @@
+            return input;
+        } catch (IOException ex) {
+            return null;
+        }
+    }
+
+    public Uri fullSizeImageUri() {
+        return mUri;
+    }
+

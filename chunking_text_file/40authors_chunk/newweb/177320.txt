@@ -1,0 +1,10 @@
+	@Autowired
+	private MaterialBrandDao materialBrandDao;
+	@Autowired
+	private BxgService bxgService;
+	@Autowired
+	private TypeForBrandService typeForBrandService;
+
+	@Override
+	public MaterialBrand[] queryMaterialBrandsByType(String type) {
+		List<MaterialBrand> list = materialBrandDao.selectMaterialBrandsByType(type);

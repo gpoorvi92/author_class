@@ -1,0 +1,10 @@
+        super(host, port);
+    }
+    
+    
+    public final GameServerRpc.GetAllCdKeyResp getAllCdKey(GameServerRpc.GetAllCdKeyReq req)
+    {
+        BaseRpcConnection rpcClient = null;
+        try
+        {
+            rpcClient = rpcClientPool.borrowRpcClient();

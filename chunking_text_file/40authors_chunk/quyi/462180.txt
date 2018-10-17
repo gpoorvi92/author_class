@@ -1,0 +1,10 @@
+      return this;
+    }
+
+    public void unsetEngineId() {
+      this.engineId = null;
+    }
+
+    /** Returns true if field engineId is set (has been assigned a value) and false otherwise */
+    public boolean isSetEngineId() {
+      return this.engineId != null;

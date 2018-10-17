@@ -1,0 +1,10 @@
+    public void    beginInsertion(int timeout) throws JposException;
+    public void    beginRemoval(int timeout) throws JposException;
+    public void    clearInput() throws JposException;
+    public void    endInsertion() throws JposException;
+    public void    endRemoval() throws JposException;
+
+    // Event listener methods
+    public void    addDataListener(DataListener l);
+    public void    removeDataListener(DataListener l);
+    public void    addDirectIOListener(DirectIOListener l);

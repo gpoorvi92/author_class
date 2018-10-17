@@ -1,0 +1,10 @@
+	 */
+	public static String getStringMessage(Message message) throws JMSException {
+		
+		String result = null;
+		if (message instanceof TextMessage) {
+			result = ((TextMessage)message).getText();
+		}
+		
+		return result;
+	}

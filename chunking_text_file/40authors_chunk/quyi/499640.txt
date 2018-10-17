@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * node 心跳数据结构
+ * 1:string nodeId 引擎标示符
+ * 2:double cpuUsedPerc  CPU使用量百分比
+ * 3:double freeMem 空余内存 百分比
+ * 4:double jvmFreeMem JVM剩余内存 百分比

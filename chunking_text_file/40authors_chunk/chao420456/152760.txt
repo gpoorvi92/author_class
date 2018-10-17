@@ -1,0 +1,10 @@
+		return serverFrame;
+	}
+
+	public void setServerFrame(ServerFrame serverFrame) {
+		this.serverFrame = serverFrame;
+	}
+
+	public Server(){}
+	
+	public void startServer() {

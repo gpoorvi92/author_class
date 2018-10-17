@@ -1,0 +1,10 @@
+               canvas.setAlpha(alphaSlider.getValue());
+            }
+         });
+      JPanel panel = new JPanel();
+      panel.add(ruleCombo);
+      panel.add(new JLabel("Alpha"));
+      panel.add(alphaSlider);
+      add(panel, BorderLayout.NORTH);
+
+      explanation = new JTextField();

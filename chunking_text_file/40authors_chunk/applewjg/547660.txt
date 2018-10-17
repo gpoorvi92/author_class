@@ -1,0 +1,10 @@
+            slow.next = fast;
+            fast = fastnext;
+            slow = slow.next.next;
+        }
+    }
+    public void reorderList_2(ListNode head) {
+        ListNode slow = head, fast = head;
+        if (head == null || head.next == null) return;
+        while (fast.next != null && fast.next.next != null) {
+            fast = fast.next.next;

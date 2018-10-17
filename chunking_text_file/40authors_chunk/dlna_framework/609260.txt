@@ -1,0 +1,10 @@
+		setSID(uuid);
+		setTimeout(timeout);
+	}
+
+	public void setUnsubscribeRequest(Service service)
+	{
+		setMethod(Subscription.UNSUBSCRIBE_METHOD);
+		setService(service);
+		setSID(service.getSID());
+	}

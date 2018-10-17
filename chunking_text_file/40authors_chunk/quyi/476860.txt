@@ -1,0 +1,10 @@
+              com.nercis.isscp.idl.UserApp _elem12;
+              _elem12 = new com.nercis.isscp.idl.UserApp();
+              _elem12.read(iprot);
+              struct.userApps.add(_elem12);
+            }
+          }
+          struct.setUserAppsIsSet(true);
+        }
+        if (incoming.get(1)) {
+          {

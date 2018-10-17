@@ -1,0 +1,10 @@
+      // add button to panel
+
+      JButton button = new JButton(name);
+      buttonPanel.add(button);
+
+      // set button action
+
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

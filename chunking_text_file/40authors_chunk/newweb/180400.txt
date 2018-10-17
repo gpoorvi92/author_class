@@ -1,0 +1,10 @@
+@Component("bxgPriceCutDao")
+public class BxgPriceCutDaoImp implements BxgPriceCutDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}

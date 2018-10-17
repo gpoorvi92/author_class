@@ -1,0 +1,10 @@
+            if (this.parent.next())
+                setupForCurrentRunningLengthWord();
+            else
+                return false;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean hasNext() {

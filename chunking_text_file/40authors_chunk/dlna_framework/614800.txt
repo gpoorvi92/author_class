@@ -1,0 +1,10 @@
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+
+		/*
+		try {
+			// Bind only using the port without the interface address. (2003/12/12)
+			InetSocketAddress bindInetAddr = new InetSocketAddress(bindPort);
+			ssdpUniSock = new DatagramSocket(null);

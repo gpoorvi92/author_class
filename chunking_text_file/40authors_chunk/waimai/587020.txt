@@ -1,0 +1,10 @@
+        } else {
+            throw new ServiceException("没有收藏该店铺");
+        }
+    }
+
+    @Override
+    public List<MerchantCollection> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<MerchantCollection> merchantCollectionList = merchantCollectionMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(merchantCollectionMapper.getTotalCount(vo));

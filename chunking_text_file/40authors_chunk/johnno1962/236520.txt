@@ -1,0 +1,10 @@
+    boolean entered_handleOpenApplication_0;
+
+    public void handleOpenApplication( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handleOpenApplication_0 ) {
+            entered_handleOpenApplication_0 = true;
+            __handleOpenApplication( arg0 );
+            entered_handleOpenApplication_0 = false;
+        }
+        else
+            super.handleOpenApplication( arg0 );

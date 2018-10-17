@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * @param i iterator we wish to iterate over
+     * @return the cardinality (number of set bits) corresponding to the
+     * iterator
+     */
+    public static int cardinality(final IteratingRLW i) {
+        int answer = 0;
+        while (true) {

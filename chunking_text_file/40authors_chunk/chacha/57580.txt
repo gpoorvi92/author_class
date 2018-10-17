@@ -1,0 +1,10 @@
+ * 
+ *	@author: Fully
+ *	Json½âÎöµÄÓ³Éä
+ */
+public class JsonPojoMapper {
+    private static ObjectMapper m = new ObjectMapper();
+    private static JsonFactory jf = new JsonFactory();
+
+    public static <T> Object fromJson(String jsonAsString, Class<T> pojoClass)
+    throws JsonMappingException, JsonParseException, IOException {

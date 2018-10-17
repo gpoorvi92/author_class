@@ -1,0 +1,10 @@
+		float size = Float.parseFloat(value);
+		
+		String dashOrSolid = style.getSelectedItem().toString();
+		
+		if(dashOrSolid == "Dashed")
+			stroke = new BasicStroke(size, getCap(), getJoin(), 10.0f, dash, 0.0f);
+		else if(dashOrSolid == "Solid")
+			stroke = new BasicStroke(size, getCap(), getJoin());
+		
+		drawPanel.repaint();

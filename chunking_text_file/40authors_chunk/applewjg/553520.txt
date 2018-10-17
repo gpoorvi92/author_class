@@ -1,0 +1,10 @@
+                }
+            } else {
+                map.put(x,1);
+            }
+        }
+        return res;
+    }
+    public String convert2Str(int x) {
+        String res = new String();
+        for (int i = 0; i < 10; ++i) {

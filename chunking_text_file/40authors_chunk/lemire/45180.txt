@@ -1,0 +1,10 @@
+    /**
+     * Generate a bitmap from an iterator.
+     * 
+     * 
+     *
+     * @param i iterator we wish to materialize
+     * @param c where we write
+     */
+    public static void materialize(final IteratingRLW i,
+                                   final BitmapStorage c) {

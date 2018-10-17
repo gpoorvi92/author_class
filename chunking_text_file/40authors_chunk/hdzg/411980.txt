@@ -1,0 +1,10 @@
+	@Override
+	public void drawDialog(Canvas canvas, Hero hero) {
+		String showString = null;//需要显示到对话框中的字符串
+		tempHero = hero;
+		//先画背景
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);
+		if(tempHero.getTotalMoney() <  cost){//体力值不够了
+			status = 1;
+		}
+		else{//如果体力值够

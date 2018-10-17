@@ -1,0 +1,10 @@
+                int width = stk.isEmpty() ? i : (i - stk.peek() - 1);
+                res = Math.max(res, width*height[idx]);
+            }
+        }
+        while (stk.isEmpty() == false) {
+            int idx = stk.pop();
+            int width = stk.isEmpty() ? height.length : (height.length - stk.peek() - 1);
+            res = Math.max(res, width*height[idx]);
+        }
+        return res;

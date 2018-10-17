@@ -1,0 +1,10 @@
+	GameView gameView;
+	int yeSpan = 9;//每页显示的个数
+	int selectI = 0;
+	int startY = 90;
+	int startX = 25;
+	
+	ArrayList<Skill> items = new ArrayList<Skill>();//需要列出的所有技能
+	
+	static Bitmap threeBitmap;//右上角的三个按钮
+	static Bitmap panel_back;//背景图

@@ -1,0 +1,10 @@
+	return ret2;
+    }
+
+    protected class IntQueue {
+	public IntQueue(int num) {
+	    queue = new int[num];
+	    head = tail = 0;
+	    len = num;
+	}
+	public IntQueue() {

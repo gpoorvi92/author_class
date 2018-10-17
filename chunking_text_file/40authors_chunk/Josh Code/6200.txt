@@ -1,0 +1,10 @@
+
+    public static void saveToVLA(Model m, File f) throws IOException
+    {
+      PrintStream out = new PrintStream(new FileOutputStream(f));
+      Triangle[] triangles = m.getTriangles();
+      int numTriangles = m.getNumberOfTriangles();
+
+        out.println("set intensity EXPLICIT");
+        out.println("set parametric NON_PARAMETRIC");
+        out.println("set filecontent LINES");

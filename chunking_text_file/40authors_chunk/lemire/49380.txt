@@ -1,0 +1,10 @@
+    ReverseIntIterator(ReverseEWAHIterator ewahIter, int sizeInBits) {
+        this.ewahIter = ewahIter;
+        this.sizeInBits = sizeInBits;
+        this.buffer = ewahIter.buffer();
+        this.runningLength = sizeInBits - 1;
+        this.hasNext = this.moveToPreviousRLW();
+    }
+
+    @Override
+    public boolean hasNext() {

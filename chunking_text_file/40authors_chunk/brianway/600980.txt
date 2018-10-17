@@ -1,0 +1,10 @@
+ */
+public class Run5_getWaitQueueLength {
+    public static void main(String[] args) throws InterruptedException {
+        final Service3 service = new Service3();
+        Runnable runnable = new Runnable() {
+            public void run() {
+                service.waitMethod();
+            }
+        };
+

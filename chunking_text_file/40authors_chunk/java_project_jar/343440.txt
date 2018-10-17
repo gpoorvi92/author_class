@@ -1,0 +1,10 @@
+        Tailer tailer = new Tailer(file, listener, delay, end);
+        Thread thread = new Thread(tailer);
+        thread.setDaemon(true);
+        thread.start();
+        return tailer;
+    }
+
+    public static Tailer create(File file, TailerListener listener, long delay)
+    {
+        return create(file, listener, delay, false);

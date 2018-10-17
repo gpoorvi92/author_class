@@ -1,0 +1,10 @@
+    @Override
+    public void orLastWord(int mask) {
+        orWord(this.actualSizeInWords - 1, mask);
+    }
+    
+    @Override
+    public void expand(int position, int length) {
+        resizeBuffer(length);
+        System.arraycopy(this.buffer, position, this.buffer, position + length, this.actualSizeInWords - position);
+        this.actualSizeInWords += length;

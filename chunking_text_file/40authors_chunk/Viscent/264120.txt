@@ -1,0 +1,10 @@
+		System.out.println("Generated " + result.size() + " prime:");
+		System.out.println(result);
+
+	}
+
+}
+
+class Range {
+	public final int lowerBound;
+	public final int upperBound;

@@ -1,0 +1,10 @@
+		try {
+			TTransport transport = new TSocket(engine_address, engine_port);
+			transport.open();
+			TProtocol protocol1 = new TBinaryProtocol(transport);
+			EngineOperate.Client client = new EngineOperate.Client(protocol1);
+			System.out.println(client.searchEng("null"));
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}

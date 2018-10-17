@@ -1,0 +1,10 @@
+ */
+public class BitmapFontExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 720;
+	private static final int CAMERA_HEIGHT = 480;
+
+	// ===========================================================

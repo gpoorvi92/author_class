@@ -1,0 +1,10 @@
+    this.jvmFreeMem = other.jvmFreeMem;
+    this.taskQueueLimit = other.taskQueueLimit;
+    this.taskQueueNume = other.taskQueueNume;
+  }
+
+  public NodeHeat deepCopy() {
+    return new NodeHeat(this);
+  }
+
+  @Override

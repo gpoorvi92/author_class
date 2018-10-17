@@ -1,0 +1,4 @@
+        clientCookie.setVersion(in.readInt());
+        clientCookie.setSecure(in.readBoolean());
+    }
+}

@@ -1,0 +1,10 @@
+        List<News> newsList = newsService.search(vo);
+        modelAndView.addObject("newsList", newsList);
+        modelAndView.addObject("newsType", NewsType.values());
+        modelAndView.addObject("newsSearchType", NewsSearchType.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/addView")
+    public ModelAndView addView() {
+        ModelAndView modelAndView = new ModelAndView("management/news/add");

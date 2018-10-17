@@ -1,0 +1,10 @@
+								sendChatLocation(ctx,
+										GlobalVariables.loginUsername,
+										"to_user", "to_group",
+										acd.getStringValue("chat_location"),
+										arr[2], arr[3],
+										new ChatLocationService(ctx, chatList,
+												pb, iv, acd));
+
+							}
+

@@ -1,0 +1,10 @@
+        if (dstData != null) {
+
+            String dstRepoId, dstRepoName, dstDir;
+            Account account;
+            dstRepoName = dstData.getStringExtra(SeafilePathChooserActivity.DATA_REPO_NAME);
+            dstRepoId = dstData.getStringExtra(SeafilePathChooserActivity.DATA_REPO_ID);
+            dstDir = dstData.getStringExtra(SeafilePathChooserActivity.DATA_DIR);
+            account = (Account)dstData.getParcelableExtra(SeafilePathChooserActivity.DATA_ACCOUNT);
+            addUploadTask(account, dstRepoName, dstRepoId, dstDir, localPath);
+            Log.d(DEBUG_TAG, "dstRepoName: " + dstRepoName);

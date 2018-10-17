@@ -1,0 +1,10 @@
+import com.lianzt.commondata.AbstractCommonData;
+
+public class GetBindVehService implements IServiceLogic {
+
+	private AutoActivity ctx;
+
+	public GetBindVehService(AutoActivity ctx) {
+		this.ctx = ctx;
+	}
+

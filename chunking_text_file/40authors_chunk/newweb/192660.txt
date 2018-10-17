@@ -1,0 +1,10 @@
+					Cookie nameCookie = new Cookie("loginName", name);
+					Cookie pswdCookie = new Cookie("loginPassword",MD5Util.getMD5(password));
+					nameCookie.setMaxAge(60 * 60 * 24 * 30);
+					pswdCookie.setMaxAge(60 * 60 * 24 * 7);
+					response.addCookie(nameCookie);
+					response.addCookie(pswdCookie);
+				}
+				userService.userLoginRecord(request, user);
+				return "customerLogin";
+			}else{

@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetRuleId()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.ruleId, other.ruleId);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRuleName()).compareTo(other.isSetRuleName());

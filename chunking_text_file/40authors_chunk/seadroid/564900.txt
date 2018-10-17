@@ -1,0 +1,9 @@
+        }
+
+        setDecodingOptions(thread, options);
+        Bitmap b = BitmapFactory.decodeFileDescriptor(fd, null, options);
+
+        removeDecodingOptions(thread);
+        return b;
+    }
+}

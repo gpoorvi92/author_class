@@ -1,0 +1,10 @@
+     * Performs a deep copy on <i>other</i>.
+     */
+    public issuedMessage_args(issuedMessage_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }
+      if (other.isSetUserApps()) {
+        List<com.nercis.isscp.idl.UserApp> __this__userApps = new ArrayList<com.nercis.isscp.idl.UserApp>(other.userApps.size());
+        for (com.nercis.isscp.idl.UserApp other_element : other.userApps) {
+          __this__userApps.add(new com.nercis.isscp.idl.UserApp(other_element));

@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.processName != null) {
+        oprot.writeFieldBegin(PROCESS_NAME_FIELD_DESC);
+        oprot.writeString(struct.processName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.threadName != null) {
+        oprot.writeFieldBegin(THREAD_NAME_FIELD_DESC);
+        oprot.writeString(struct.threadName);
+        oprot.writeFieldEnd();

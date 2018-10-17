@@ -1,0 +1,10 @@
+	private IMenuService menuService;
+	private String systemId;
+	private static Map<String,List<TreeNode>> mapNodesCache = Collections.synchronizedMap(new HashMap<String,List<TreeNode>>());
+	/**
+	 * 设置菜单服务。
+	 * @param menuService
+	 * 菜单服务。
+	 * */
+	public void setMenuService(IMenuService menuService) {
+		this.menuService = menuService;

@@ -1,0 +1,10 @@
+		
+	public static final String RESULTSTATUS = "ResultStatus";
+	public static final String UPNP_ERROR = "UPnPError";
+	public static final String ERROR_CODE = "errorCode";
+	public static final String ERROR_DESCRIPTION = "errorDescription";
+
+	//public static final String XMLNS = "SOAP-ENV";
+	public static final String XMLNS = "s";
+	public static final String METHODNS = "u";
+	public static final String DELIM = ":";

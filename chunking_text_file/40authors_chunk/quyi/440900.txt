@@ -1,0 +1,10 @@
+   * Performs a deep copy on <i>other</i>.
+   */
+  public NetworkPacket(NetworkPacket other) {
+    if (other.isSetPidName()) {
+      this.pidName = other.pidName;
+    }
+    if (other.isSetSourceAddress()) {
+      this.sourceAddress = other.sourceAddress;
+    }
+    if (other.isSetSourcePort()) {

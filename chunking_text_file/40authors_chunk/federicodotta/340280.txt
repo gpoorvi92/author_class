@@ -1,0 +1,10 @@
+     *
+     */
+    String getSeverity();
+
+    /**
+     * This method returns the issue confidence level.
+     *
+     * @return The issue confidence level. Expected values are "Certain", "Firm"
+     * or "Tentative".
+     */

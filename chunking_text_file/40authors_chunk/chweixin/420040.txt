@@ -1,0 +1,10 @@
+ * */
+public interface IWeChatMenuService {
+	/**
+	 * 加载菜单数据。
+	 * @param accountId
+	 *  所属微信公众号ID。
+	 *  @param ignoreId
+	 *   忽略其子节点。
+	 *  @return 
+	 *  菜单数据集合。

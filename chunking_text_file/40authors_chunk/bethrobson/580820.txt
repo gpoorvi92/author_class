@@ -1,0 +1,10 @@
+    
+      sequence.deleteTrack(track);
+      track = sequence.createTrack();
+
+        for (int i = 0; i < 16; i++) {
+          trackList = new int[16];
+ 
+          int key = instruments[i];   
+
+          for (int j = 0; j < 16; j++ ) {         

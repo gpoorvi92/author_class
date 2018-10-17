@@ -1,0 +1,10 @@
+        renderBuf = renderer;
+    }
+
+    public void addTriangle(Triangle t)
+    {
+        if (numTriangles == triangles.length)
+        {
+            Triangle []old = triangles;
+            triangles = new Triangle[numTriangles*2];
+            for (int i = 0; i < numTriangles; i++)

@@ -1,0 +1,10 @@
+    private static final org.apache.thrift.protocol.TField FUNCTION_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("functionStatus", org.apache.thrift.protocol.TType.MAP, (short)4);
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+    static {
+      schemes.put(StandardScheme.class, new updateUserAppStatus_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new updateUserAppStatus_argsTupleSchemeFactory());
+    }
+
+    public String missionId; // required
+    public String userAppId; // required

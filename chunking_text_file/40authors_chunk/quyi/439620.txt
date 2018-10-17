@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_cpuCores = true;
+    boolean that_present_cpuCores = true;
+    if (this_present_cpuCores || that_present_cpuCores) {
+      if (!(this_present_cpuCores && that_present_cpuCores))
+        return false;
+      if (this.cpuCores != that.cpuCores)
+        return false;

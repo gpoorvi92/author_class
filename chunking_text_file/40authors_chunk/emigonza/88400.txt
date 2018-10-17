@@ -1,0 +1,10 @@
+    public void    setCursorUpdate(boolean cursorUpdate) throws JposException;
+    public int     getDeviceBrightness() throws JposException;
+    public void    setDeviceBrightness(int deviceBrightness)
+                       throws JposException;
+    public int     getDeviceColumns() throws JposException;
+    public int     getDeviceDescriptors() throws JposException;
+    public int     getDeviceRows() throws JposException;
+    public int     getDeviceWindows() throws JposException;
+    public int     getInterCharacterWait() throws JposException;
+    public void    setInterCharacterWait(int interCharacterWait)

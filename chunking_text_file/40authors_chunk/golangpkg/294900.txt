@@ -1,0 +1,10 @@
+		log.error("Asynchronous request error (" + id + ")", asyncEvent.getThrowable());
+		clean();
+	}
+
+
+	@Override
+	public void onStartAsync(AsyncEvent asyncEvent)
+			throws IOException {
+		log.debug("Started: ({})", id);
+	}

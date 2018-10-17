@@ -1,0 +1,10 @@
+    }
+
+  }
+
+  public static class updateUserAppStatus_args implements org.apache.thrift.TBase<updateUserAppStatus_args, updateUserAppStatus_args._Fields>, java.io.Serializable, Cloneable, Comparable<updateUserAppStatus_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("updateUserAppStatus_args");
+
+    private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField USER_APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("userAppId", org.apache.thrift.protocol.TType.STRING, (short)2);
+    private static final org.apache.thrift.protocol.TField PLOTS_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("plotsStatus", org.apache.thrift.protocol.TType.MAP, (short)3);

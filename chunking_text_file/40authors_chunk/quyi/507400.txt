@@ -1,0 +1,10 @@
+
+  public void setMissionIdIsSet(boolean value) {
+    if (!value) {
+      this.missionId = null;
+    }
+  }
+
+  public String getUserAppId() {
+    return this.userAppId;
+  }

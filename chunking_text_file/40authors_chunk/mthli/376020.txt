@@ -1,0 +1,10 @@
+   public EnumCombo(Class<?> cl, String... labels)
+   {  
+      for (String label : labels)
+      {  
+         String name = label.toUpperCase().replace(' ', '_');
+         int value = 0;
+         try
+         {  
+            java.lang.reflect.Field f = cl.getField(name);
+            value = f.getInt(cl);

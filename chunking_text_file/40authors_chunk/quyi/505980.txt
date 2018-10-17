@@ -1,0 +1,10 @@
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Result updateUserAppInfo(String missionId, String userAppId, Map<PlotsType, CheckResultStatus> plotsStatus,
+			List<Map<String, APICheck>> usedPermissions, StaticCheckResultData stcRD, DynamicCheckResultData dycRD, VirusDetectionResultData virRD)
+			throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+		System.out.println(userAppId + plotsStatus.toString());

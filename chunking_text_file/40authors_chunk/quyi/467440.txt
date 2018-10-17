@@ -1,0 +1,10 @@
+        __this__ruleTypes.add(other_element);
+      }
+      this.ruleTypes = __this__ruleTypes;
+    }
+    if (other.isSetRiskLevel()) {
+      this.riskLevel = other.riskLevel;
+    }
+    if (other.isSetPak()) {
+      this.pak = other.pak;
+    }

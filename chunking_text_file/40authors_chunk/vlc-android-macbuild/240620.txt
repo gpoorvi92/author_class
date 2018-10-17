@@ -1,0 +1,10 @@
+            ft.detach(info.fragment);
+            ft.commit();
+        }
+
+        mTabs.put(tag, info);
+        mTabHost.addTab(tabSpec);
+    }
+
+    @Override
+    public void onTabChanged(String tabId) {

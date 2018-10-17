@@ -1,0 +1,10 @@
+	public void setLocalAddress(String addr)
+	{
+		localAddr = addr;
+	}
+
+	/**
+	 * 
+	 * @return {@link DatagramSocket} open for receieving packets
+	 * @since 1.8
+	 */

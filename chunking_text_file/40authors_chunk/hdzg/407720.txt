@@ -1,0 +1,10 @@
+	int status = 0;//0表示询问，1表示显示结果为守住，2表示被攻下
+	public WarAlert(GameView gameView, Bitmap bmpDialogBack,
+			Bitmap bmpDialogButton,CityDrawable enemy,CityDrawable self) {
+		super(gameView, bmpDialogBack, bmpDialogButton);
+		this.enemy = enemy;
+		this.self = self;
+	}
+
+	@Override
+	public void drawDialog(Canvas canvas) {

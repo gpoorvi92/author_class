@@ -1,0 +1,10 @@
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetApkMD5()) {
+        optionals.set(0);
+      }
+      if (struct.isSetCheckDate()) {
+        optionals.set(1);
+      }
+      if (struct.isSetSensitives()) {
+        optionals.set(2);

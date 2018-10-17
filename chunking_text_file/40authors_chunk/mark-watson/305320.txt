@@ -1,0 +1,10 @@
+        this.data2 = data2;
+    }
+
+    Color black = new Color(0, 0, 0);
+    float[] data1;
+    float[] data2;
+
+    public void paint(Graphics g) {
+        if (data1 == null || data2 == null) return;
+        int width = this.getWidth();

@@ -1,0 +1,10 @@
+ Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+ 1,2,3 -> 1,3,2
+ 3,2,1 -> 1,2,3
+ 1,1,5 -> 1,5,1
+
+ Solution: O(n)
+ Processes: Take A = {1,3,2} as an example:
+            1. Traverse from back to forth, find the turning point, that is A[i] = 3.
+            2. Sort from the turning point to the end (A[i] to A[end]), so {3,2} becomes {2,3}.
+            3. If i equals to 0, finish! Else, goto 4.

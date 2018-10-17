@@ -1,0 +1,10 @@
+                         "Your contribution are higly appreciated\n"+
+                         "Special thanks to\n"+
+                         "1) Erastus Gichuhi\n"+
+                         "2) Mike Mboya\n"+
+                         "3) Kamu King'ora\n"+
+                         "4) Kefa Mwangi\n"+
+                         "who were really there to give advice\n"+
+                         "and to do peer-to-peer testing for errors\n"+
+                         "BRAVOOOOOOOOOO TO ALL");
+about.setForeground(Color.blue);

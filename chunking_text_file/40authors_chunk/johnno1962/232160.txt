@@ -1,0 +1,10 @@
+
+    JWindowProxy( java.awt.Window owner, java.awt.GraphicsConfiguration gc , long swiftObject ) {
+        super( owner, gc );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JWindow(java.awt.Window)
+
+    JWindowProxy( java.awt.Window owner , long swiftObject ) {
+        super( owner );

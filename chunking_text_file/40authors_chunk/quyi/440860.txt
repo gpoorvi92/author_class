@@ -1,0 +1,10 @@
+    String protocal,
+    String dataHex,
+    String dataChar,
+    String dataLength,
+    String operateTime)
+  {
+    this();
+    this.pidName = pidName;
+    this.sourceAddress = sourceAddress;
+    this.sourcePort = sourcePort;

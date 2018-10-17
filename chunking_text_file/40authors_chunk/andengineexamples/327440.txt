@@ -1,0 +1,10 @@
+	public int getGroupCount() {
+		return EXAMPLEGROUPS.length;
+	}
+
+	@Override
+	public long getGroupId(final int pGroupPosition) {
+		return pGroupPosition;
+	}
+
+	@Override

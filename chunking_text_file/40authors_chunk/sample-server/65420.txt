@@ -1,0 +1,10 @@
+ * @since 2013-05-24
+ */
+public final class ProtocGen
+{
+    private static final Logger logger = LoggerFactory.getLogger(ProtocGen.class);
+    public static void main(String[] args) throws IOException
+    {
+        logger.info("Start Protoc Gen Fenrisulfr...");
+        CodeGeneratorRequest request = CodeGeneratorRequest.
+                parseFrom(System.in);

@@ -1,0 +1,10 @@
+		// 键盘录入你的出生年月日
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入你的出生日期：(yyyy-mm-dd)");
+		String s = sc.nextLine();
+
+		// 把这个字符串转换为一个日期
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd");
+		Date d = sdf.parse(s);
+
+		// 通过日期获取到一个毫秒值

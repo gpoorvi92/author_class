@@ -1,0 +1,10 @@
+     *
+     * @return A numeric identifier of the issue type.
+     */
+    int getIssueType();
+
+    /**
+     * This method returns the issue severity level.
+     *
+     * @return The issue severity level. Expected values are "High", "Medium",
+     * "Low", "Information" or "False positive".

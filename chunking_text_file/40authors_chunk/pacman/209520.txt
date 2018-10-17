@@ -1,0 +1,10 @@
+		return cpuUser;
+	}
+	/**
+	 * @param cpuUser the cpuUser to set
+	 */
+	public void setCpuUser(double cpuUser) {
+		this.cpuUser = cpuUser;
+	}
+	/**
+	 * @return the cpuSys

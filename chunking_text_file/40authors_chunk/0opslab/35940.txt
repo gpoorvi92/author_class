@@ -1,0 +1,10 @@
+            }
+            i++;
+        }
+        String baifen = "";
+        try {
+            baifen = ((Double.parseDouble(xiangsi + "") / Double.parseDouble((busi + xiangsi) + "")) + "");
+            baifen = baifen.substring(baifen.indexOf(".") + 1, baifen.indexOf(".") + 3);
+        } catch (Exception e) {
+            baifen = "0";
+        }

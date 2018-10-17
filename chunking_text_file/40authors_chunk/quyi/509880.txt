@@ -1,0 +1,10 @@
+    return (this.virusEngine == null) ? 0 : this.virusEngine.size();
+  }
+
+  public java.util.Iterator<VirusEngine> getVirusEngineIterator() {
+    return (this.virusEngine == null) ? null : this.virusEngine.iterator();
+  }
+
+  public void addToVirusEngine(VirusEngine elem) {
+    if (this.virusEngine == null) {
+      this.virusEngine = new ArrayList<VirusEngine>();

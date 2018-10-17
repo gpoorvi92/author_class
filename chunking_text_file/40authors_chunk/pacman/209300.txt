@@ -1,0 +1,10 @@
+	 * @return: void
+	 */
+	@Before
+	public void setUp() throws Exception {
+		
+		try {
+			factory = new ClassPathXmlApplicationContext("config.xml");
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw e;

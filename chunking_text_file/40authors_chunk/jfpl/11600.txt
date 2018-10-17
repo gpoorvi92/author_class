@@ -1,0 +1,10 @@
+			int position, long id) {
+		final AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		new AlertDialog.Builder(this).setItems(R.array.unbind_veh,
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						switch (which) {
+						case 0:
+							unbindVeh(acd.getStringValue("bind_name"));

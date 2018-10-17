@@ -1,0 +1,10 @@
+    private String cityid;//城市 ID
+    private String temp1;//?
+    private String temp2;//?
+    private String weather;//天气
+    private String img1;//? 天气图标编号
+    private String img2;//? 天气图标编号
+    private String ptime;//发布时间
+
+    public String getCity() {
+        return city;

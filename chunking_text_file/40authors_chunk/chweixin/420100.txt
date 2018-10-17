@@ -1,0 +1,10 @@
+	 * */
+	Menu buildMenu(String accountId);
+	/**
+	 * 创建公众号上的菜单。
+	 * @param accountId
+	 * 公众号ID。
+	 * @return
+	 * 创建成功返回true，否则false。
+	 * */
+	String createMenus(String accountId);

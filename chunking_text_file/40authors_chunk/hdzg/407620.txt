@@ -1,0 +1,10 @@
+	}
+
+	public void setStrengthCost(int strengthCost) {
+		this.strengthCost = strengthCost;
+	}
+
+	public int getTempProficiency() {
+		return tempProficiency;
+	}
+

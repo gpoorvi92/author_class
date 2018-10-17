@@ -1,0 +1,10 @@
+	 * 设置微信用户数据接口。
+	 * @param weChatUserDao
+	 * 	微信用户数据接口。
+	 * */
+	public void setWeChatUserDao(IWeChatUserDao weChatUserDao) {
+		this.weChatUserDao = weChatUserDao;
+	}
+
+	@Override
+	public synchronized WeChatContext get(String accountId, String userOpenId) {

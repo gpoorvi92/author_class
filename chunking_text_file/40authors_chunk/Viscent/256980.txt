@@ -1,0 +1,10 @@
+import io.github.viscent.mtpattern.ch4.gs.ConditionVarBlocker;
+import io.github.viscent.mtpattern.ch4.gs.GuardedAction;
+import io.github.viscent.mtpattern.ch4.gs.Predicate;
+import io.github.viscent.util.Debug;
+
+public class NestedMonitorLockoutExample {
+
+	public static void main(String[] args) {
+		final Helper helper = new Helper();
+		Debug.info("Before calling guaredMethod.");

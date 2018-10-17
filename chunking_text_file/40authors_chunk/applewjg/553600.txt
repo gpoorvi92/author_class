@@ -1,0 +1,10 @@
+                if(check(board[i][j],used)==false) return false;
+            }
+            Arrays.fill(used,false);
+            for(int j = 0; j<9;j++){
+                if(check(board[j][i],used)==false) return false;
+            }
+        }
+        
+        for(int r = 0; r<3;r++){
+            for(int c = 0; c<3;c++){

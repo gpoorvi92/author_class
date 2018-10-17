@@ -1,0 +1,10 @@
+    public boolean getCapValidationDevice() throws JposException;
+
+    // Properties
+    public boolean getAutoDisable() throws JposException;
+    public void    setAutoDisable(boolean autoDisable) throws JposException;
+    public String  getAccountNumber() throws JposException;
+    public String  getAmount() throws JposException;
+    public String  getBankNumber() throws JposException;
+    public int     getCheckType() throws JposException;
+    public int     getCountryCode() throws JposException;

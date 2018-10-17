@@ -1,0 +1,10 @@
+/*
+	举例：身体和心脏。
+
+	class Body {
+		private class Heart {
+			public void operator() {
+				System.out.println("心脏搭桥");
+			}
+		}
+

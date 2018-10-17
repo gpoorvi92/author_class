@@ -1,0 +1,10 @@
+  public AppDetectResult() {
+  }
+
+  public AppDetectResult(
+    String missionId,
+    String userAppId,
+    Map<PlotsType,CheckResultStatus> plotsStatus,
+    ByteBuffer detectResult)
+  {
+    this();

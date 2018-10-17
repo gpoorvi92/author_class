@@ -1,0 +1,10 @@
+		ThreadGroup tg1 = t1.getThreadGroup();
+		ThreadGroup tg2 = t2.getThreadGroup();
+
+		String t1Name = tg1.getName();
+		String t2Name = tg2.getName();
+
+		System.out.println(t1Name); // main
+		System.out.println(t2Name); // main
+
+		System.out.println(Thread.currentThread().getThreadGroup().getName()); // main

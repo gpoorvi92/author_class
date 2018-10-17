@@ -1,0 +1,10 @@
+    /**
+     * 写入Properties信息
+     *
+     * @param filePath 写入的属性文件
+     * @param pKey     属性名称
+     * @param pValue   属性值
+     */
+    public final static void WriteProperties(String filePath, String pKey, String pValue) throws IOException {
+        Properties props = new Properties();
+

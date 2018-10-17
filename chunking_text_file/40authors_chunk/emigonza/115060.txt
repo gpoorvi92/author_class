@@ -1,0 +1,10 @@
+import jpos.JposException;
+
+/**
+ * Interface defining a JposServiceConnection.  Used to connect, disconnect
+ * and access a JavaPOS service
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface JposServiceConnection 
+{

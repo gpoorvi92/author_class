@@ -1,0 +1,10 @@
+        return this.pointer < this.size;
+    }
+
+    /**
+     * Next running length word.
+     *
+     * @return the running length word
+     */
+    public RunningLengthWord32 next() {
+        this.rlw.position = this.pointer;

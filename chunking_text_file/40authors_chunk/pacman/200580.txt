@@ -1,0 +1,10 @@
+/********************************************************  
+ * Copyright © 2014 HuJiang.com. All rights reserved.
+ *
+ * @Title: MockStep3.java
+ * @Prject: libTask
+ * @Package: com.yeshj.pacman.task.mock
+ * @Description: packing and transcoding the classware of hujiang.com.
+ *                 http://class.hujiang.com
+ *
+ * @author: zhangxinyu  

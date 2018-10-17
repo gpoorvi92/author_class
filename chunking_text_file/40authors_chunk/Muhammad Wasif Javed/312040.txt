@@ -1,0 +1,10 @@
+
+		if (obj == btnFind) {		//If Find Button Pressed.
+
+			if (txtBookId.getText().equals ("")) {
+				JOptionPane.showMessageDialog (this, "Book's Id not Provided.");
+				txtBookId.requestFocus ();
+			}
+			else {
+				id = Integer.parseInt (txtBookId.getText ());	//Converting String to Numeric.
+				long bookNo;					//Use for Comparing the Book's Id.

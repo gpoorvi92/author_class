@@ -1,0 +1,10 @@
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'userAppId' was not present! Struct: " + toString());
+      }
+      if (status == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'status' was not present! Struct: " + toString());
+      }
+      // check for sub-struct validity
+      if (stcRD != null) {
+        stcRD.validate();
+      }
+      if (dycRD != null) {

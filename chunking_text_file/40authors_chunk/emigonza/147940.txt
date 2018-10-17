@@ -1,0 +1,8 @@
+                     throws JposException;
+
+  // Event listener methods
+  public void    addDirectIOListener(DirectIOListener l);
+  public void    removeDirectIOListener(DirectIOListener l);
+  public void    addStatusUpdateListener(StatusUpdateListener l);
+  public void    removeStatusUpdateListener(StatusUpdateListener l);
+}

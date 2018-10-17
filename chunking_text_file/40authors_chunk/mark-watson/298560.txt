@@ -1,0 +1,10 @@
+                for (ScoredList name_sc : names_scored_list) {
+                    for (String name : name_sc.strings) {
+                      Text human_name = new Text();
+                      human_name.set(name);
+                      output.collect(human_name, doc);
+                    }
+
+                }
+            }
+        }

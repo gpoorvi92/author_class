@@ -1,0 +1,10 @@
+import com.jufan.platform.util.ChatMessageUtil;
+import com.jufan.platform.util.ConstVariables;
+import com.jufan.platform.util.GlobalVariables;
+import com.jufan.platform.view.VoiceRecordDialog;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.exception.InstanceDataException;
+import com.lianzt.util.StringUtil;
+
+public class Chat2Activity extends AutoActivity implements OnItemClickListener,

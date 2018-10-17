@@ -1,0 +1,10 @@
+
+/**
+ * Created by qihigh on 12/12/13.
+ * Modified by ____.
+ */
+public class StringUtil {
+    private static String EMPTY = "";
+    private static final String ALGORITHM = "AES/ECB/NoPadding";
+
+    public static String join(String[] elements, String separator) {

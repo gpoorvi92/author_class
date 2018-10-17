@@ -1,0 +1,7 @@
+
+		public void columnMarginChanged(ChangeEvent e) {}
+		public void columnMoved(TableColumnModelEvent e) {}
+		public void columnSelectionChanged(ListSelectionEvent e) {}
+
+	}
+}

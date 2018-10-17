@@ -1,0 +1,10 @@
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, AppSendMessage struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      oprot.writeString(struct.missionId);
+      {
+        oprot.writeI32(struct.userApps.size());
+        for (UserApp _iter107 : struct.userApps)
+        {
+          _iter107.write(oprot);

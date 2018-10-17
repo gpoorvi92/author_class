@@ -1,0 +1,10 @@
+		return norms;
+	}
+	public void setNorms(String norms) {
+		this.norms = norms;
+	}
+	@ManyToOne
+	@JoinColumn(name="materialbrandid")
+	public MaterialBrand getMaterialBrand() {
+		return materialBrand;
+	}

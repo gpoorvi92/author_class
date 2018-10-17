@@ -1,0 +1,8 @@
+      System.out.println("Mapped File:");
+      start = System.currentTimeMillis();
+      crcValue = checksumMappedFile(filename);
+      end = System.currentTimeMillis();
+      System.out.println(Long.toHexString(crcValue));
+      System.out.println((end - start) + " milliseconds");
+   }
+}

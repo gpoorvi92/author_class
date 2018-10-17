@@ -1,0 +1,10 @@
+
+      public boolean hasNext() 
+      { 
+         if (modcount != modcountAtConstruction) 
+            throw new ConcurrentModificationException();
+         return offset < count;
+      }
+
+      public void remove() 
+      { 

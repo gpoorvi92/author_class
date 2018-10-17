@@ -1,0 +1,10 @@
+    private WebSocketServer()
+    {
+    }
+    public static WebSocketServer getInstance()
+    {
+        return instance;
+    }
+    public void init(String ip, int port)
+    {
+        bootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));

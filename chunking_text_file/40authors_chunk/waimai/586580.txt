@@ -1,0 +1,10 @@
+        BaseConditionVO vo = new BaseConditionVO();
+        vo.setMerchantId(4);
+        vo.setSaleCountDate(DateUtil.getSaleCountDate("1"));
+        System.out.println(saleRecordService.countNumber(vo, "4"));
+    }
+
+    @Test
+    public void testDate() throws Exception {
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.DAY_OF_YEAR, 1);

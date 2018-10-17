@@ -1,0 +1,10 @@
+        {
+            Vector3D v = panel.getViewPoint();
+            double dx = e.getX() - prevPoint.x, dy = e.getY() - prevPoint.y;
+            double vx = Vector3D.getX(v);
+            double vy = Vector3D.getY(v);
+            double vz = Vector3D.getZ(v);
+
+            if (e.isControlDown())
+            {
+                vx += sensetivity*dx;

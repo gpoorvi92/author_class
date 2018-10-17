@@ -1,0 +1,10 @@
+        __this__samples.add(new com.nercis.isscp.idl.Sample(other_element));
+      }
+      this.samples = __this__samples;
+    }
+  }
+
+  public MissionResults deepCopy() {
+    return new MissionResults(this);
+  }
+

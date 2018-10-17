@@ -1,0 +1,10 @@
+/**
+ * This program shows how to use JavaMail to send mail messages.
+ * @author Cay Horstmann
+ * @version 1.00 2012-06-04
+ */
+public class MailTest
+{
+   public static void main(String[] args) throws MessagingException, IOException
+   {
+      Properties props = new Properties();

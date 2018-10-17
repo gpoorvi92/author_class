@@ -1,0 +1,6 @@
+    	System.out.println("econ 1 - econ2: " + econ1.compareTo(econ2));
+    	System.out.println("econ 2 - econ2: " + econ2.compareTo(econ2));
+    }
+}
+
+

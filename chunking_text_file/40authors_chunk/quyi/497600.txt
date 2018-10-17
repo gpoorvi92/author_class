@@ -1,0 +1,10 @@
+        struct.engineName = iprot.readString();
+        struct.setEngineNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.engineIp = iprot.readString();
+        struct.setEngineIpIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.engineStatus = iprot.readString();
+        struct.setEngineStatusIsSet(true);

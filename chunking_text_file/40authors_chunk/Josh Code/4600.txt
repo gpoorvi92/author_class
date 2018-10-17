@@ -1,0 +1,10 @@
+   */
+  private Vector3DTree[] subtrees;
+
+  /** the vector this root node is associated with
+   */
+  private Vector3D rootV;
+  private int numVectors; 
+
+  public Vector3DTree(Vector3D v)
+  {

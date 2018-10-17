@@ -1,0 +1,10 @@
+        this(magicNumber, 0L);
+    }
+
+    public MagicNumberFileFilter(String magicNumber)
+    {
+        this(magicNumber, 0L);
+    }
+
+    public MagicNumberFileFilter(String magicNumber, long offset)
+    {

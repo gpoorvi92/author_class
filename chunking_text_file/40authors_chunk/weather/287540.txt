@@ -1,0 +1,10 @@
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mBgBitMap != null && !mBgBitMap.isRecycled()) {
+            mBgBitMap.recycle();
+        }
+        unbindDrawables(mSlidingPaneLayout);
+    }
+
+
+    @Override

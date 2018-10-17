@@ -1,0 +1,10 @@
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static class ThreadA2 extends Thread {
+        private ThreadB b;
+
+        public ThreadA2(ThreadB b) {
+            super();

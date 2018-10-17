@@ -1,0 +1,9 @@
+	/**
+	 * 设置消息类型。
+	 * @param msgType
+	 * 	消息类型。
+	 * */
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
+}

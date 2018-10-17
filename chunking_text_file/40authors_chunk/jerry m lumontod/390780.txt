@@ -1,0 +1,10 @@
+				obj[1] = strDesc;
+				model.addRow(obj);
+				
+			}
+			
+			//fireTableChanged(null); // notify everyone that we have a new table.
+			
+			
+			
+			

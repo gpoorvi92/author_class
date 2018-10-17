@@ -1,0 +1,10 @@
+        if (cs == null)
+            return null;
+
+        return cs.toString();
+    }
+
+    public static ActivityInfo getActivityInfo(PackageManager pkgManager,
+            ComponentName name) {
+        if (pkgManager == null)
+            return null;

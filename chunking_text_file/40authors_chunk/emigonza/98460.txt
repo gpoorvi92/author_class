@@ -1,0 +1,10 @@
+//   Added new StatusUpdateEvent constant:
+//       EJ_SUE_IDLE
+// 2008-Apr-21 JavaPOS Release 1.12.1                              BS
+//   Change value of EJ_SUE_IDLE to be the same value as used for
+//   printer idle SUEs (1001).
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+

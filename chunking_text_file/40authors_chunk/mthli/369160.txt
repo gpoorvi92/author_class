@@ -1,0 +1,10 @@
+      if (!SystemTray.isSupported())
+      {
+         System.err.println("System tray is not supported.");
+         return;
+      }
+
+      SystemTray tray = SystemTray.getSystemTray();
+      Image image = new ImageIcon(getClass().getResource("cookie.png")).getImage();
+
+      PopupMenu popup = new PopupMenu();

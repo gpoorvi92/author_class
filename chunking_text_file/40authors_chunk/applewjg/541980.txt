@@ -1,0 +1,10 @@
+                        if (first == null) first = pre;
+                        second = cur;
+                    }
+                    pre = cur;
+                    node.right = null;
+                    cur = cur.right;
+                } else {
+                    node.right = cur;
+                    cur = cur.left;
+                }

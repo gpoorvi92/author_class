@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Find the _Fields constant that matches fieldId, or null if its not found.
+     */
+    public static _Fields findByThriftId(int fieldId) {
+      switch(fieldId) {
+        case 1: // CHECK_TIME
+          return CHECK_TIME;
+        case 2: // MD5

@@ -1,0 +1,10 @@
+ */
+class BallRunnable implements Runnable
+{
+   private Ball ball;
+   private Component component;
+   public static final int STEPS = 1000;
+   public static final int DELAY = 5;
+
+   /**
+    * Constructs the runnable.

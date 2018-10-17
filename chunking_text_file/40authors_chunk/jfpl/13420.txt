@@ -1,0 +1,10 @@
+		acd.putStringValue("voice_id", voiceId);
+		ServiceController.addService(acd, ctx);
+	}
+
+	public static void sendChatLocation(AutoActivity ctx, String username,
+			String toUser, String toGroup, String title, String lat,
+			String lon, IServiceLogic iservice) {
+		AbstractCommonData acd = getChatCommonPacket(username, "1", toUser,
+				toGroup, iservice);
+		acd.putStringValue("location_title", title);

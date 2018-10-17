@@ -1,0 +1,10 @@
+	}	
+	
+	public String getImageName(){
+		return ImFileName;
+	}
+	
+	public long getImageSize(){
+		return fileSize;
+	}
+	

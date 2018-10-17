@@ -1,0 +1,10 @@
+
+    private String status;
+
+    private Integer saleCount;
+
+    private Date insertDate;
+
+    private Date updateDate;
+
+    private String identityCard;

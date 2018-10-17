@@ -1,0 +1,10 @@
+					String line = null;
+					while((line = reader.readLine()) != null) {
+						sb.append(line);
+					}
+					content.setData(sb.toString());
+					
+					result = true;
+				} else {
+					
+					logger.error("Fail to download[" + url + "], http status:" + response.getStatusLine().getStatusCode());

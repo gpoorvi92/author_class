@@ -1,0 +1,10 @@
+	 * 
+	 * @Title: setAttribute
+	 * @param key
+	 * @param value
+	 * @see com.yeshj.pacman.schedule.IWorker#setAttribute(java.lang.String,
+	 *      java.lang.Object)
+	 */
+	@Override
+	public <T> void setAttribute(String key, T value) {
+

@@ -1,0 +1,10 @@
+    private Location location;
+    private String query;
+    private String offset;
+
+    public String id() {
+        return id;
+    }
+
+    public User from() {
+        return from;

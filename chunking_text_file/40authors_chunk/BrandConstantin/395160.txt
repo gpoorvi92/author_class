@@ -1,0 +1,10 @@
+public class SumarHasta10MilConDoWhile {
+  public static void main(String[] args) {
+    
+    Scanner teclado = new Scanner(System.in);
+    
+    int suma = 0;
+    int numIntrod;
+    int totalNumeros = 0;
+    
+    do {

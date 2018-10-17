@@ -1,0 +1,10 @@
+
+    /// public abstract void java.awt.event.WindowListener.windowDeactivated(java.awt.event.WindowEvent)
+
+    public native void __windowDeactivated( java.awt.event.WindowEvent e );
+
+    public void windowDeactivated( java.awt.event.WindowEvent e ) {
+        __windowDeactivated( e );
+    }
+
+}

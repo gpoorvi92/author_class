@@ -1,0 +1,10 @@
+ */
+public class ObjectTreeModel implements TreeModel
+{
+   private Variable root;
+   private EventListenerList listenerList = new EventListenerList();
+
+   /**
+    * Constructs an empty tree.
+    */
+   public ObjectTreeModel()

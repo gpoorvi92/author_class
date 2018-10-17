@@ -1,0 +1,10 @@
+			item.putIntValue("lon", mylocationPoint.getLongitudeE6());
+			list.add(item);
+			myLocOverlay.setData(item);
+			showBubble(item, 0);
+			acd.putArrayValue("location_list", list);
+			fillData(acd, getWindow().getDecorView(), "");
+			sendAddress = new String[] { "我的位置", result.strAddr,
+					mylocationPoint.getLatitudeE6() + "",
+					mylocationPoint.getLongitudeE6() + "" };
+			sendBtn.setEnabled(true);

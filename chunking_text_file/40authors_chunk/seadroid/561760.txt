@@ -1,0 +1,10 @@
+        if (totalSize == -1) {
+            totalSize = values[0];
+            state = TaskState.TRANSFERRING;
+            return;
+        }
+        finished = values[0];
+        downloadStateListener.onFileDownloadProgress(taskID);
+    }
+
+    @Override

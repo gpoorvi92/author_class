@@ -1,0 +1,10 @@
+					
+					
+					catch (SQLException sqlex)
+					{
+						sqlex.printStackTrace();
+						testing.setText("a");
+					}
+				}
+				catch (SQLException sqlex)
+					{

@@ -1,0 +1,10 @@
+
+		return duplicateSubmissionCount;
+	}
+
+	public void init() {
+		alarmSendingThread.start();
+	}
+
+	public synchronized void shutdown() {
+		if (shutdownRequested) {

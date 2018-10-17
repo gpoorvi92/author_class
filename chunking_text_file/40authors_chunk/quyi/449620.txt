@@ -1,0 +1,10 @@
+    }
+
+    public Engine searchEng(String engineId) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_searchEng(engineId);
+      return recv_searchEng();
+    }
+
+    public void send_searchEng(String engineId) throws org.apache.thrift.TException
+    {

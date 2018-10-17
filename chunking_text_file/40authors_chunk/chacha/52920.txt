@@ -1,0 +1,10 @@
+	public boolean isDebugEnable() {
+		return prnLog.isDebugEnabled();
+	}
+
+	/**
+	 * 判断是否可以输出info级别调试信息
+	 * 
+	 * @return
+	 */
+	public boolean isInfoEnable() {

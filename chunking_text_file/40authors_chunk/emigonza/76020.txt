@@ -1,0 +1,10 @@
+  public void    processPrematchData(byte[] capturedBIR,
+                                     byte[] prematchDataBIR,
+                                     byte[][] processedBIR)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;

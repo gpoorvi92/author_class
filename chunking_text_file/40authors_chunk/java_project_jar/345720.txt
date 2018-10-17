@@ -1,0 +1,10 @@
+        if(file.isDirectory())
+            return false;
+        String arr$[] = wildcards;
+        int len$ = arr$.length;
+        for(int i$ = 0; i$ < len$; i$++)
+        {
+            String wildcard = arr$[i$];
+            if(FilenameUtils.wildcardMatch(file.getName(), wildcard))
+                return true;
+        }

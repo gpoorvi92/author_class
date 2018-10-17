@@ -1,0 +1,10 @@
+      }
+      oprot.writeBitSet(optionals, 11);
+      if (struct.isSetApp_id()) {
+        oprot.writeString(struct.app_id);
+      }
+      if (struct.isSetApp_name()) {
+        oprot.writeString(struct.app_name);
+      }
+      if (struct.isSetVersioncode()) {
+        oprot.writeString(struct.versioncode);

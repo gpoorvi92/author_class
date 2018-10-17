@@ -1,0 +1,10 @@
+			return true;
+		}
+
+		// All else
+		else {
+			view.loadUrl(url);
+		}
+		return true;
+	}
+

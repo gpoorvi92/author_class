@@ -1,0 +1,10 @@
+						.getValue()));
+
+		// assert session filled
+		Assert.assertEquals(identifier, mockHttpServletRequest.getSession().getAttribute(DefaultIdentifierProvider.cookieIdentifier));
+
+		// then clear identifier
+		staticStateIdentifierManager.clearIdentifier();
+
+		// copy cookies from response to request
+		mockHttpServletRequest.setCookies(mockHttpServletResponse.getCookies());

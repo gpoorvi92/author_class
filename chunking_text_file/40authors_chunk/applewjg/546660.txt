@@ -1,0 +1,10 @@
+        ArrayList<Interval> res = new ArrayList<Interval>();
+        int N = intervals.size();
+        if (N <= 1) return intervals;
+        Collections.sort(intervals, comp);
+        Interval last = intervals.get(0);
+        for (int i = 0; i < N; ++i) {
+            if (intervals.get(i).start > last.end) {
+                res.add(last);
+                last = intervals.get(i);
+            } else {

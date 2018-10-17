@@ -1,0 +1,10 @@
+import jpos.JposException;
+
+/**
+ * Defines an Exception class for JCL config related classes/interfaces and 
+ * implementing classes
+ * @since 2.0.0
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class JposConfigException extends JposException
+{

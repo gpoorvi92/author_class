@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+        return filetype;
+    }
+
+    /**
+     * Created on 2010-7-1
+     * <p>Discription:[getFileTypeByStream]</p>
+     *
+     * @param b

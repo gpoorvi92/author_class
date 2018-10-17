@@ -1,0 +1,10 @@
+        /**
+         * Specify the goal location
+         */
+        goalLoc.x = width - 1;
+        goalLoc.y = height - 1;
+        setValue(width - 1, height - 1, GOAL_LOC_VALUE);
+    }
+    synchronized public short getValue(int x, int y) { return maze[x+1][y+1]; }
+    synchronized public void setValue(int x, int y, short value) { maze[x+1][y+1] = value; }
+    public int getWidth() { return width; }

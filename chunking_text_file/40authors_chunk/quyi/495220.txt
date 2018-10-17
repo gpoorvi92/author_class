@@ -1,0 +1,9 @@
+      if (incoming.get(4)) {
+        struct.checkStopTime = iprot.readString();
+        struct.setCheckStopTimeIsSet(true);
+      }
+    }
+  }
+
+}
+

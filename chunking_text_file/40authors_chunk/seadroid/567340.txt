@@ -1,0 +1,10 @@
+    static SeafStarredFile fromJson(JSONObject obj) {
+        SeafStarredFile starredFile = new SeafStarredFile();
+        try {
+            starredFile.repoID = obj.getString("repo");
+            starredFile.mtime = obj.getLong("mtime");
+            starredFile.path = obj.getString("path");
+            starredFile.size = obj.getLong("size");
+            boolean type = obj.getBoolean("dir");
+            if (!type) {
+                starredFile.type = FileType.FILE;

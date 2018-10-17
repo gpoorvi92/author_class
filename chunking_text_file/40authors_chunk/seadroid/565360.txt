@@ -1,0 +1,10 @@
+import android.database.sqlite.SQLiteOpenHelper;
+
+import com.google.common.collect.Lists;
+import com.seafile.seadroid2.SeadroidApplication;
+import com.seafile.seadroid2.account.Account;
+
+public class AvatarDBHelper extends SQLiteOpenHelper {
+    private static final String DEBUG_TAG = "AvatarDBHelper";
+
+    public static final int DATABASE_VERSION = 1;

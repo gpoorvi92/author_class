@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch10.tss.example.memoryleak;
+
+import io.github.viscent.mtpattern.ch10.tss.ManagedThreadLocal;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+

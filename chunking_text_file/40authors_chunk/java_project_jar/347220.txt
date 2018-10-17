@@ -1,0 +1,10 @@
+        return skippedBytes;
+    }
+
+    public int available()
+        throws IOException
+    {
+        if(max >= 0L && pos >= max)
+            return 0;
+        else
+            return in.available();

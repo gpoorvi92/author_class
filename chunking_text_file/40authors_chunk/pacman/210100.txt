@@ -1,0 +1,10 @@
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.dao.ITaskDAO#findByPk(int)
+	 */
+	@Override
+	public TaskModel findByPk(int taskid) {
+		
+		TaskMappingQuery query = new TaskMappingQuery();
+		query.setDataSource(getDataSource());
+		query.setSql("SELECT * FROM task WHERE tid=?");
+		query.declareParameter(new SqlParameter(Types.INTEGER));

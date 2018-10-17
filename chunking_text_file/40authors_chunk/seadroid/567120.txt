@@ -1,0 +1,10 @@
+    public String getToken() {
+        return token;
+    }
+
+    public boolean isHttps() {
+        return server.startsWith("https");
+    }
+
+    @Override
+    public int hashCode() {

@@ -1,0 +1,10 @@
+		if (moGLCodeIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}
+		return mbln;
+	}
+	public boolean SLCodeIsValid(String tstrSLCode) {
+		boolean mbln=true;
+		
+		moSLCodeIsValid.SLCodeIsValid(tstrSLCode);
+		if (moSLCodeIsValid.TheMessage().length()>0) {

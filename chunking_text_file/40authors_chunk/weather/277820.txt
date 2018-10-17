@@ -1,0 +1,10 @@
+        paint.setColor(color);
+        canvas.drawRoundRect(rectF, roundPx, roundPx, paint);
+        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+        canvas.drawBitmap(bitmap, rect, rect, paint);
+        return result;
+    }
+
+    @Override
+    public Bitmap transform(Bitmap source) {
+        Bitmap roundBitMap = getRoundedRectBitmap(source,this.roundPixels);

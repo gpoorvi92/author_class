@@ -1,0 +1,10 @@
+    public static int GINGERBREAD = 9; // November 2010: Android 2.3
+    public static int GINGERBREAD_MR1 = 10; // February 2011: Android 2.3.3.
+    public static int HONEYCOMB = 11; // February 2011: Android 3.0.
+    public static int HONEYCOMB_MR1 = 12; // May 2011: Android 3.1.
+    public static int HONEYCOMB_MR2 = 13; // June 2011: Android 3.2.
+    public static int ICE_CREAM_SANDWICH = 14; // October 2011: Android 4.0.
+    public static int ICE_CREAM_SANDWICH_MR1 = 15; // Android 4.0.3.
+    public static int JELLY_BEAN = 16; // Android 4.1.
+    public static int ANDROID_UNKNOWN = 17; // Unknown
+

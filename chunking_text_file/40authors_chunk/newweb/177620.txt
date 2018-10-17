@@ -1,0 +1,10 @@
+		if(cbxg != 0){
+			sb.append("已同步更改" + cbxg +"个不锈钢为【可用】状态</br>");
+		}
+		if(ctfb != 0){
+			sb.append("已同步更改" + ctfb +"个材料品牌为【可用】状态</br>");
+			}
+		return sb.toString();
+	}
+
+}

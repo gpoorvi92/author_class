@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.base;
+
+import java.sql.*;
+
+public class ClassCodeIsValid {
+	private String mstrTheMessage="";
+	private String mstrSQL;
+		
+	public void ClassCodeIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode,String tstrClassCode) {

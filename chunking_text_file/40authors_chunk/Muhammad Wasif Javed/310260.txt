@@ -1,0 +1,10 @@
+
+	private void initColors () {
+
+		primary1 = super.getPrimary1();
+		primary2 = super.getPrimary2();
+		primary3 = super.getPrimary3();
+		secondary1 = super.getSecondary1();
+		secondary2 = super.getSecondary2();
+		secondary3 = super.getSecondary3();
+		black = super.getBlack();

@@ -1,0 +1,10 @@
+        new Jukebox8().go();
+    }
+    
+    public void go() {
+        getSongs();
+        System.out.println(songList);
+        Collections.sort(songList);
+        System.out.println(songList);
+        
+        TreeSet<Song> songSet = new TreeSet<Song>();

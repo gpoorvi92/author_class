@@ -1,0 +1,10 @@
+  /** Returns true if field memSize is set (has been assigned a value) and false otherwise */
+  public boolean isSetMemSize() {
+    return EncodingUtils.testBit(__isset_bitfield, __MEMSIZE_ISSET_ID);
+  }
+
+  public void setMemSizeIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __MEMSIZE_ISSET_ID, value);
+  }
+
+  public int getFsSize() {

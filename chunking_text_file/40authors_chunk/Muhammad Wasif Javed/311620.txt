@@ -1,0 +1,10 @@
+	//Constructor of Class.
+
+	public MetalThemeMenu (String name, MetalTheme[] themeArray) {
+
+		super (name);	//Setting the Theme Menu Name.
+
+		themes = themeArray;
+		ButtonGroup group = new ButtonGroup ();		//Creating the Themes Group.
+
+		for (int i = 0; i < themes.length; i++) {	//Creating the Themes Menu.

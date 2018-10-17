@@ -1,0 +1,6 @@
+            path.add(s.substring(start,i+1));
+            dfs(s, dp, i+1,path,res);
+            path.remove(path.size()-1);
+        }
+    }
+}

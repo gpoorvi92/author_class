@@ -1,0 +1,10 @@
+		Map<String, Object> map = null;
+		String className = null;
+
+		try {
+			if (message instanceof TextMessage) {
+
+				type = 1;
+				txt = ((TextMessage) message).getText();
+				logger.info(PREFIX + " Got text message![" + txt + "]");
+			} else if (message instanceof BytesMessage) {

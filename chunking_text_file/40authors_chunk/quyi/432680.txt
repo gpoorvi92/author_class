@@ -1,0 +1,10 @@
+      if (incoming.get(3)) {
+        {
+          org.apache.thrift.protocol.TList _list26 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, iprot.readI32());
+          struct.featuresCharacters = new ArrayList<String>(_list26.size);
+          for (int _i27 = 0; _i27 < _list26.size; ++_i27)
+          {
+            String _elem28;
+            _elem28 = iprot.readString();
+            struct.featuresCharacters.add(_elem28);
+          }

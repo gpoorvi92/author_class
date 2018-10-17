@@ -1,0 +1,10 @@
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __COLUMNNUM_ISSET_ID, value);
+  }
+
+  public String getRiskDescription() {
+    return this.riskDescription;
+  }
+
+  public APICheck setRiskDescription(String riskDescription) {
+    this.riskDescription = riskDescription;
+    return this;

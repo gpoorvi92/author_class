@@ -1,0 +1,10 @@
+package dataExchange;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A password chooser that is shown inside a dialog
+ */
+public class PasswordChooser extends JPanel

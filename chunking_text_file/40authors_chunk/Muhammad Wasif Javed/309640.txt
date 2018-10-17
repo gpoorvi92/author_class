@@ -1,0 +1,10 @@
+		pChange.add (txtPass);
+		pChange.add (txtNew);
+		pChange.add (btnOk);
+		pChange.add (btnCancel);
+
+		//Adding Panel to the Form.
+
+		getContentPane().add (pChange);
+
+		userName = user;	//Getting Username.

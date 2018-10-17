@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.sql.*;
+import java.util.*;
+
+public class ReturnBook extends JInternalFrame implements ActionListener, FocusListener {
+
+	private JPanel pBook = new JPanel ();
+	private JLabel lbBookId, lbBookName, lbBookAuthor, lbIssuedTo, lbBookCategory;

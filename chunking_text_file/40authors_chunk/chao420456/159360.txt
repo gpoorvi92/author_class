@@ -1,0 +1,10 @@
+ *		Object set(int index,E element):修改指定索引处的元素为给定的元素，并返回被修改的值
+ */
+public class ListDemo {
+	public static void main(String[] args) {
+		// 创建集合
+		// Collection c = new ArrayList();
+		List list = new ArrayList();
+
+		// 测试功能
+		list.add("hello");

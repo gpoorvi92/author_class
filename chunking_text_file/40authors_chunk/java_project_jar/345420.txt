@@ -1,0 +1,10 @@
+        handleIOException(e);
+        return false;
+    }
+
+    public void close()
+        throws IOException
+    {
+        try
+        {
+            in.close();

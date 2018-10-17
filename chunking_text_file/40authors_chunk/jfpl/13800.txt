@@ -1,0 +1,10 @@
+							iv.setVisibility(View.GONE);
+							sendChatText(ctx, GlobalVariables.loginUsername,
+									"appid", "togroup", text,
+									new ChatTextService(ctx, chatList, pb, iv,
+											acd));
+
+							break;
+						default:
+							break;
+						}

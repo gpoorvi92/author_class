@@ -1,0 +1,10 @@
+	  button1.addActionListener(new java.awt.event.ActionListener() {
+	  public void actionPerformed(java.awt.event.ActionEvent e) {
+	  
+      
+      if (name.getText() == null ||
+      name.getText().equals("")){   
+      JOptionPane.showMessageDialog(null,"Enter name","ERROR",
+      JOptionPane.DEFAULT_OPTION);
+      name.requestFocus();
+      return;}

@@ -1,0 +1,10 @@
+    {
+        throw new UnsupportedOperationException();
+    }
+    @Override
+    protected Object readInternal(Class clazz, HttpInputMessage inputMessage) throws IOException, HttpMessageNotReadableException
+    {
+        byte[] data = new byte[inputMessage.getBody().available()];
+        Object obj = JSON.parseObject(data, clazz);
+        return obj;
+    }

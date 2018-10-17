@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example4;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+
+/**
+ * P218
+ * 公平锁测试
+ * 打印结果呈有序状态

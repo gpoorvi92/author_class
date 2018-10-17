@@ -1,0 +1,10 @@
+	 * 上传附件文件名称。
+	 * */
+	public void setAttachmentFileName(String attachmentFileName) {
+		this.attachmentFileName = attachmentFileName;
+	}
+	/**
+	 * 设置上传附件临时存储目录。
+	 * @param tempFolder
+	 * 上传附件临时存储目录。
+	 * */

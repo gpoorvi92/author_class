@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface HardTotalsService112 extends HardTotalsService111
+{
+  // Nothing new added for release 1.12

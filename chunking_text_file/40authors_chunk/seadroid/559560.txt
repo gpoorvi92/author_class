@@ -1,0 +1,10 @@
+    public SslConfirmDialog() {
+    }
+
+    public SslConfirmDialog(Account account, Listener listener) {
+        this.listener = listener;
+        this.account = account;
+    }
+
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {

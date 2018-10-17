@@ -1,0 +1,10 @@
+        makeProperty("CapRealTimeData"),
+        makeProperty("CapSecurityFlapBackward"),
+        makeProperty("CapSecurityFlapForward"),
+        makeProperty("CapSpeedStepsBackward"),
+        makeProperty("CapSpeedStepsForward"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+
+        // Properties

@@ -1,0 +1,10 @@
+	public void writeEntity(File staticStateFile, T entity) {
+		write(entity, staticStateFile);
+	}
+	
+	private void write(T modelFromContext, File modelFile) {
+		XStream xStream = new XStream();
+		FileOutputStream fs = null;
+		try {
+			fs = new FileOutputStream(modelFile);
+			xStream.toXML(modelFromContext, fs);

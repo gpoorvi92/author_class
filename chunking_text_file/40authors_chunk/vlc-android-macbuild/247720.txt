@@ -1,0 +1,10 @@
+        mNeedMembuf = bundle.getBoolean(BUNDLE_NEED_MEMBUF);
+    }
+
+    public static final Parcelable.Creator<MediaResourceItem> CREATOR = new Parcelable.Creator<MediaResourceItem>() {
+        public MediaResourceItem createFromParcel(Parcel in) {
+            return new MediaResourceItem(in);
+        }
+
+        public MediaResourceItem[] newArray(int size) {
+            return new MediaResourceItem[size];

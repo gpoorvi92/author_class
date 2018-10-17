@@ -1,0 +1,10 @@
+			HTTPServer httpServer = new HTTPServer();
+			if((bindAddresses[i]==null) || (httpServer.open(bindAddresses[i], port) == false)) {
+				close();
+				clear();
+			}else{
+				add(httpServer);
+				j++;
+			}
+		}
+		return j;

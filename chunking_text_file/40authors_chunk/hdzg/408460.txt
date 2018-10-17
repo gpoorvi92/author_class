@@ -1,0 +1,10 @@
+				status = 4;//拜访成功，但是无技能可学了
+			}
+			else{//还有技能可学
+				int index = (int)(Math.random()*size);//随机选取个技能来学习
+				Skill skill = tempHero.father.skillToLearn.get(index);
+				this.skillName = skill.getName();
+				tempHero.heroSkill.put(skill.id, skill);
+				tempHero.father.skillToLearn.remove(skill);
+			}
+		}

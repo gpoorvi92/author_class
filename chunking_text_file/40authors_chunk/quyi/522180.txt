@@ -1,0 +1,10 @@
+      String propertyValue)
+    {
+      this();
+      this.nodeId = nodeId;
+      this.propertyName = propertyName;
+      this.propertyValue = propertyValue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.

@@ -1,0 +1,10 @@
+		double account = 0;
+		for (Order order : orders) {
+			account = CustomerMath.add(account, orderService.getOrderAccountByOrderID(order.getID()));
+		}
+		return account;
+	}
+
+	@Override
+	public boolean modify(Bill bill) {
+		bill.setLastModifyDate(DateUtil.getLocationCurrentDate());

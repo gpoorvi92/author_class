@@ -1,0 +1,10 @@
+    case OS_ARCH:
+      if (value == null) {
+        unsetOsArch();
+      } else {
+        setOsArch((String)value);
+      }
+      break;
+
+    case OS_NAME:
+      if (value == null) {

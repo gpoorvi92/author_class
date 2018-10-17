@@ -1,0 +1,10 @@
+		hi = hi << 8; 
+	
+		return hi + lo; 
+	} 
+
+	// returns string representation of a byte array
+	// used for debugging
+	public String bstr(byte[] ba)	{
+		StringBuffer sb = new StringBuffer();
+	

@@ -1,0 +1,10 @@
+        return "login";
+    }
+    /**
+     * 登录操作
+     * @param account
+     * @param passwd
+     * @return
+     */
+    @RequestMapping(value = LOGIN, method = RequestMethod.POST)
+    @ResponseBody

@@ -1,0 +1,10 @@
+
+    //--------------------------------------------------------------------------
+    // Instance variables
+    //
+
+    private JposServiceInstance service = null;
+    private JposEntry entry = null;
+    private String logicalName = null;
+    private String siFactoryClassName = null;
+    

@@ -1,0 +1,10 @@
+			if (!dir.exists() && !dir.mkdirs()) {
+				throw new IOException("No such directory:" + dir);
+			}
+
+			pwr = new PrintWriter(new BufferedWriter(new FileWriter(file, true),
+			    Config.WRITER_BUFFER_SIZE));
+
+			printWriterMap.put(fileKey, pwr);
+		}
+		StringBuffer strBuf = new StringBuffer(40);

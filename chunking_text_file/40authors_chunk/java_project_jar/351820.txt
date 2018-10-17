@@ -1,0 +1,10 @@
+        if(path == null)
+        {
+            throw new NullPointerException("The path must not be null");
+        } else
+        {
+            addTracker(path, marker, deleteStrategy);
+            return;
+        }
+    }
+

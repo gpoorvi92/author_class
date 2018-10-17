@@ -1,0 +1,10 @@
+   {
+      // find the node containing a user object
+      Enumeration<TreeNode> e = (Enumeration<TreeNode>) root.breadthFirstEnumeration();
+      while (e.hasMoreElements())
+      {
+         DefaultMutableTreeNode node = (DefaultMutableTreeNode) e.nextElement();
+         if (node.getUserObject().equals(obj)) return node;
+      }
+      return null;
+   }

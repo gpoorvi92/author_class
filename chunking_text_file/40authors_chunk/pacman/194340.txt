@@ -1,0 +1,10 @@
+import com.yeshj.pacman.jms.impl.DefaultMQFactory;
+
+/**
+ * @ClassName: JMSTest
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月19日 上午2:07:26
+ */
+public class JMSTest {
+

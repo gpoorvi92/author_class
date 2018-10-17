@@ -1,0 +1,10 @@
+ Would this affect the run-time complexity? How and why?
+ Write a function to determine if a given target is in the array.
+
+ Solution: Sequence search. O(n)
+           Since there are duplicates, it's hard to decide which branch to go if binary-search is deployed.
+ */
+public class Solution {
+    public boolean search_1(int[] A, int target) {
+        for (int i = 0; i < A.length; ++i) {
+            if (A[i] == target) return true;

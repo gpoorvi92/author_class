@@ -1,0 +1,10 @@
+        for(int i=0;i<10;i++){
+            System.out.println(RandomUtil.integer(0,10));
+        }
+        for(int i=0;i<10;i++){
+            System.out.println(RandomUtil.integer(20,30));
+        }
+
+        for(int i=0;i<10;i++){
+            System.out.println(RandomUtil.integer(100,110));
+        }

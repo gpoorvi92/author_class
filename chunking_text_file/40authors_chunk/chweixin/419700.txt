@@ -1,0 +1,10 @@
+	/**
+	 * 设置回复ID。
+	 * @param id
+	 * 回复ID。
+	 * */
+	public void setId(String id) {
+		this.id = id;
+	}
+	/**
+	 * 获取所属公众号。

@@ -1,0 +1,10 @@
+        if (prototype == null)
+        {
+            throw new NullPointerException("prototype");
+        }
+        this.prototype = prototype.getDefaultInstanceForType();
+        this.extensionRegistry = extensionRegistry;
+    }
+
+    @Override
+    protected Object decode(ChannelHandlerContext ctx, Channel channel,

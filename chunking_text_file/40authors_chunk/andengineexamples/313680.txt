@@ -1,0 +1,10 @@
+ * @since 11:54:51 - 03.04.2010
+ */
+public class LineExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	/* Initializing the Random generator produces a comparable result over different versions. */
+	private static final long RANDOM_SEED = 1234567890;
+

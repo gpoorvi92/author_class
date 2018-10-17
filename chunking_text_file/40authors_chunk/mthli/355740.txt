@@ -1,0 +1,10 @@
+{
+   private JTextField username;
+   private JPasswordField password;
+   private JButton okButton;
+   private boolean ok;
+   private JDialog dialog;
+
+   public PasswordChooser()
+   {
+      setLayout(new BorderLayout());

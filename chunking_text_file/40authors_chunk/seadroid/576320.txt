@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
+        TransferService txService = mActivity.getTransferService();
+
+        if (txService == null) {
+            return false;

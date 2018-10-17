@@ -1,0 +1,10 @@
+      case 8:
+        return inreceived;
+      case 9:
+        return insucceeded;
+      case 10:
+        return inrisked;
+      case 11:
+        return inriskerror;
+      case 12:
+        return inreported;

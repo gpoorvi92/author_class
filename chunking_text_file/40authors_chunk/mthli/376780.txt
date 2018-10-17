@@ -1,0 +1,9 @@
+
+      JPanel panel = new JPanel();
+      panel.setComponentPopupMenu(popup);
+      add(panel);
+
+      // the following line is a workaround for bug 4966109
+      panel.addMouseListener(new MouseAdapter() {});
+   }
+}

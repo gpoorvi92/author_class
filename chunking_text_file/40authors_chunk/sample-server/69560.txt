@@ -1,0 +1,5 @@
+            decodedData[i] = (byte) ((temp1 << 4) | temp2);
+        }
+        return decodedData;
+    }
+}

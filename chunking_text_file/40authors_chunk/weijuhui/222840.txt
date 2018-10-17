@@ -1,0 +1,10 @@
+			public void onScreenChange(int currentIndex) {
+				currentItem = currentIndex;
+			}
+		});
+	}
+
+	@Override
+	public void run() {
+		if (currentItem == imageIds.length - 1)
+			isBack = true;

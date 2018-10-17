@@ -1,0 +1,10 @@
+		if(30) {
+			System.out.println("world");
+		}
+		*/
+		
+		if(true) {
+			System.out.println("java");
+		}
+
+		if(x<y && x<z) {

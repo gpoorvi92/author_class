@@ -1,0 +1,10 @@
+				System.out.println("夏季");
+				break;
+			case 9:
+			case 10:
+			case 11:
+				System.out.println("秋季");
+				break;
+			default:
+				System.out.println("你输入的月份有误");
+		}

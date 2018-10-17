@@ -1,0 +1,10 @@
+		Debug.info("doProcess start");
+		try {
+			// 模拟一个比较耗时的操作
+			Thread.sleep(50);
+		} catch (InterruptedException e) {
+			;
+		}
+		return arg + "-" + i;
+	}
+

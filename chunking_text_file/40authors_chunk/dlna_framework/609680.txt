@@ -1,0 +1,10 @@
+{
+	////////////////////////////////////////////////
+	//	Constants
+	////////////////////////////////////////////////
+	
+	public final static String ELEM_NAME = "argument";
+
+	public final static String IN = "in";
+	public final static String OUT = "out";
+

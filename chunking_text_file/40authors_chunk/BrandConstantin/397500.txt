@@ -1,0 +1,10 @@
+        do {
+            System.out.println("Escribe la combinación: (formada por 4 cifras!)");
+            combinacion = tecla.nextInt();
+
+            if(combinacion == 1298){
+                encontrado = true;
+            } else {
+                System.err.println("Esta no es la combinación!");
+             } 
+            i--;

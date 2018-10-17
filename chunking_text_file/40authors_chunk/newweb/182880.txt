@@ -1,0 +1,10 @@
+		return operation;
+	}
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
+	@Column
+	public String getYtDirection() {
+		return ytDirection;
+	}
+	public void setYtDirection(String ytDirection) {

@@ -1,0 +1,10 @@
+    public modifyEngineConfig_result deepCopy() {
+      return new modifyEngineConfig_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;
+      this.ue = null;
+    }

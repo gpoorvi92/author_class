@@ -1,0 +1,10 @@
+        return new modifyNodeManagerConfig_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public modifyNodeManagerConfig_result getResult(I iface, modifyNodeManagerConfig_args args) throws org.apache.thrift.TException {
+        modifyNodeManagerConfig_result result = new modifyNodeManagerConfig_result();
+        try {

@@ -1,0 +1,10 @@
+      // get position, size, title from preferences
+
+      Preferences root = Preferences.userRoot();
+      final Preferences node = root.node("/com/horstmann/corejava");
+      int left = node.getInt("left", 0);
+      int top = node.getInt("top", 0);
+      int width = node.getInt("width", DEFAULT_WIDTH);
+      int height = node.getInt("height", DEFAULT_HEIGHT);
+      setBounds(left, top, width, height);
+

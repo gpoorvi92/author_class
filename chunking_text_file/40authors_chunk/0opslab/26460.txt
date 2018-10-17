@@ -1,0 +1,10 @@
+    EncodingParser parser;
+    Charset charset = null;
+    String csName = null;
+    InputStream limitedInputStream = new LimitedInputStream(in, length);
+    if (this.m_verbose) {
+      System.out
+          .println("  parsing for html-charset/xml-encoding attribute with codepage: US-ASCII");
+    }
+    try {
+      lexer = new EncodingLexer(new InputStreamReader(limitedInputStream, "US-ASCII"));

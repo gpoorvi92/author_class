@@ -1,0 +1,10 @@
+   @Override
+   public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv)
+   {
+      for (TypeElement t : annotations)
+      {
+         Map<String, Property> props = new LinkedHashMap<>();
+         String beanClassName = null;
+         for (Element e : roundEnv.getElementsAnnotatedWith(t))
+         {
+            String mname = e.getSimpleName().toString();

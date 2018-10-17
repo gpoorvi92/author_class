@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderPrice;
+import com.newweb.model.business.SmallPriceCut;
+import com.newweb.service.base.SmallService;
+import com.newweb.service.business.OrderPriceService;
+import com.newweb.service.business.SmallPriceCutService;
+
+@Component("smallService")
+public class SmallServiceImp implements SmallService {
+	
+	@Autowired

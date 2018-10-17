@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAdditionalLines"),
+        makeProperty("CapAmountAdjustment"),
+        makeProperty("CapAmountNotPaid"),
+        makeProperty("CapCheckTotal"),
+        makeProperty("CapCoverSensor"),
+        makeProperty("CapDoubleWidth"),
+        makeProperty("CapDuplicateReceipt"),
+        makeProperty("CapFixedOutput"),
+        makeProperty("CapHasVatTable"),

@@ -1,0 +1,10 @@
+        }
+        merchant.setUpdateDate(new Date());
+        merchantMapper.updateByPrimaryKeySelective(merchant);
+    }
+
+    @Override
+    public Merchant findByUsername(String username) {
+        return merchantMapper.findByUsername(username);
+    }
+

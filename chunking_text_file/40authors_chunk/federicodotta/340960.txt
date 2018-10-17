@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerMessageEditorTabFactory()</code> to
+ * register a factory for custom message editor tabs. This allows extensions to
+ * provide custom rendering or editing of HTTP messages, within Burp's own HTTP
+ * editor.
+ */
+public interface IMessageEditorTabFactory
+{

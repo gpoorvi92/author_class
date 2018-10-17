@@ -1,0 +1,10 @@
+            return this.packet;
+        }
+        public Channel getChannel()
+        {
+            return this.channel;
+        }
+    }
+    public final void startup()
+    {
+        init();

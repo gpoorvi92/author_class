@@ -1,0 +1,10 @@
+   * Additionally not only an EOF will limit the amount of bytes to read but also reaching 
+   * the limit of this instance.
+   * <p>
+   * 
+   * @see FilterInputStream#read(byte[], int, int)
+   */
+  @Override
+  public int read(final byte b[], final int off, final int len) throws IOException {
+
+    int result;

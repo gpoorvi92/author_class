@@ -1,0 +1,10 @@
+		sdxl.add("郭靖");
+		sdxl.add("杨过");
+
+		// 添加元素
+		hm.put("三国演义", sgyy);
+		hm.put("笑傲江湖", xajh);
+		hm.put("神雕侠侣", sdxl);
+
+		// 遍历集合
+		Set<String> hmSet = hm.keySet();

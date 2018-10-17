@@ -1,0 +1,10 @@
+   private DateFormat currentDateFormat;
+   private DateFormat currentTimeFormat;
+   private JComboBox<String> localeCombo = new JComboBox<>();
+   private JButton dateParseButton = new JButton("Parse date");
+   private JButton timeParseButton = new JButton("Parse time");
+   private JTextField dateText = new JTextField(30);
+   private JTextField timeText = new JTextField(30);
+   private JCheckBox lenientCheckbox = new JCheckBox("Parse lenient", true);
+   private EnumCombo dateStyleCombo = new EnumCombo(DateFormat.class, "Default",
+         "Full", "Long", "Medium", "Short");

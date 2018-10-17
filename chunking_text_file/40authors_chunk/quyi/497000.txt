@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("enginePlots:");
+    if (this.enginePlots == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.enginePlots);
+    }
+    first = false;

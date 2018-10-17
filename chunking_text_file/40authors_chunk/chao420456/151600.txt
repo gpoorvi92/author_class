@@ -1,0 +1,10 @@
+	}
+
+	//—ßœ∞
+	public abstract void study();
+}
+
+//¿œ ¶
+class Teacher extends Person {
+	public Teacher(){}
+

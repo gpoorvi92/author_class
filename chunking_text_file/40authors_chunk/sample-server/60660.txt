@@ -1,0 +1,10 @@
+        try
+        {
+            if (null != channel)
+                channel.close();
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        try
+        {

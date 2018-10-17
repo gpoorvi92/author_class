@@ -1,0 +1,10 @@
+		}
+		Small small = os.getSmall();
+		small.setBuycount(small.getBuycount()+1);//被购买次数加1
+		smallService.modify(small);
+		int result = orderSmallDao.insert(os);
+		if(result > 0)
+			return true;
+		return false;
+	}
+

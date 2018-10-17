@@ -1,0 +1,10 @@
+		// get id
+		UUID identifier = staticStateIdentifierManager.getIdentifier();
+		Assert.assertEquals(identifierOriginal, identifier);
+
+		// assert session is filled with id
+		Assert.assertEquals(identifier, mockHttpServletRequest.getSession().getAttribute(DefaultIdentifierProvider.cookieIdentifier));
+
+	}
+
+}

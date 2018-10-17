@@ -1,0 +1,10 @@
+            fb.close();
+          }
+        };
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, issuedMessage_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {

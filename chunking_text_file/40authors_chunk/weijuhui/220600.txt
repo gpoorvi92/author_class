@@ -1,0 +1,10 @@
+				action(Constant.TYPE_MINGJING);
+			}
+		});
+		
+		LaunchActButton wujieLab =  (LaunchActButton) view.findViewById(R.id.wujie_lab);
+		wujieLab.setOnHomeClick(new HomeClickListener() {
+			
+			@Override
+			public void onclick() {
+				action(Constant.TYPE_WUJIE);

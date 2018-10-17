@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * A reducer class that just emits the sum of the input values.
+     */
+    public static class Reduce extends MapReduceBase
+            implements Reducer<Text, Text, Text, Text> {
+
+        public void reduce(Text person_name, Iterator<Text> documents,
+                           OutputCollector<Text, Text> output,

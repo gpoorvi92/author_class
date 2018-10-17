@@ -1,0 +1,10 @@
+    String diaDos;
+    String nombreDiaUno = "";
+    String nombreDiaDos = "";
+    
+    do{
+        System.out.println("Introduce la primera hora:");
+        hora1 = teclado.nextInt();
+        System.out.println("Introdue el dia:");
+        diaUno = teclado.next();
+        

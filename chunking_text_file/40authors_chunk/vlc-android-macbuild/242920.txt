@@ -1,0 +1,10 @@
+
+        if (!mEnableHide)
+            return;
+
+        Activity activity = mWeakActivity.get();
+        if (activity == null)
+            return;
+
+        mHandler.removeCallbacks(mDelayedHide);
+

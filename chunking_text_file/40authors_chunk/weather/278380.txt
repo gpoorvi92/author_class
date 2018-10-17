@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void postResponse(Request<?> request, Response<?> response) {
+        postResponse(request, response, null);
+    }
+
+    @Override
+    public void postResponse(Request<?> request, Response<?> response, Runnable runnable) {
+        request.markDelivered();

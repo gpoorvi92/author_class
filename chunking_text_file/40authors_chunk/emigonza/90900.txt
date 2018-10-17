@@ -1,0 +1,10 @@
+    public JposServiceInstance getService() { return service; }
+
+    /** 
+     * @return the logicalName of the JposServiceInstance of this connection
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public String getLogicalName() { return logicalName; }
+
+    /**
+     * Connects this service by trying to create the JposServiceInstance

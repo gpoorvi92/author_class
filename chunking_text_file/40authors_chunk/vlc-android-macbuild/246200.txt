@@ -1,0 +1,10 @@
+            DebugLog.v(TAG,
+                    String.format("vlc duration changed %d", getDuration()));
+            if (mSeekWhenDurationChanged != 0) {
+                seekTo(mSeekWhenDurationChanged);
+            }
+            break;
+        }
+        case EventManager.MediaStateChanged: {
+            break;
+        }

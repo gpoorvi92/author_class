@@ -1,0 +1,10 @@
+     * @param message
+     */
+    public static void showLong(final Activity activity, final String message) {
+        if (activity == null)
+            return;
+        Toast.makeText(activity, message, Toast.LENGTH_LONG).show();
+    }
+    /**
+     * Show the message with the given resource id in a {@link Toast} for a short period of time
+     * <p>

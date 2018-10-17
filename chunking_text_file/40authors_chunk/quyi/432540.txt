@@ -1,0 +1,10 @@
+      if (struct.isSetCenterResultPath()) {
+        optionals.set(6);
+      }
+      oprot.writeBitSet(optionals, 7);
+      if (struct.isSetApkMD5()) {
+        oprot.writeString(struct.apkMD5);
+      }
+      if (struct.isSetCheckDate()) {
+        oprot.writeString(struct.checkDate);
+      }

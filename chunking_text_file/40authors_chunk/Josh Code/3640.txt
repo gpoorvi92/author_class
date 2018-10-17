@@ -1,0 +1,10 @@
+ * 
+ * 
+ */
+public class OBJModelFileLoader implements ModelFileLoader
+{
+    public boolean matchesFormat(File f)
+    {
+        String name = f.getName();
+        name = name.toLowerCase();
+

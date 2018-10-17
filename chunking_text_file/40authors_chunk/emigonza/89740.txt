@@ -1,0 +1,10 @@
+    {
+        this(errorCode, 0, description, origException);
+    }
+
+    public JposException(int errorCode, int errorCodeExtended,
+        String description, Exception origException)
+    {
+        super(description);
+        this.errorCode = errorCode;
+        this.errorCodeExtended = errorCodeExtended;

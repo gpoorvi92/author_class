@@ -1,0 +1,10 @@
+ * <tr>
+ * <td><em>META_CONTENT_TYPE</em></td>
+ * <td>
+ * <tt>"meta" "http-equiv" "=" '"Content-Type"' "content" "=" '"' IDENTIFIER "charset" "=" <b>&lt;EncName&gt;</b> '"'></tt>
+ * </td>
+ * <td>HTML</td>
+ * <td> <a
+ * href="http://www.w3.org/TR/1999/REC-html401-19991224/charset.html#h-5.2.2"
+ * target="_blank"> W3C HTML 4.01 Specification </a> Chapter 5.2.2 </td>
+ * </tr>

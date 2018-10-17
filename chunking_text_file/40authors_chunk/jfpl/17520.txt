@@ -1,0 +1,10 @@
+import com.cyss.android.lib.util.SystemUtil;
+import com.lianzt.util.StringUtil;
+
+public abstract class BaseChatEnterActivity extends AutoActivity {
+	protected String busiType;
+	protected String busiSerial;
+	protected String chatTitle;
+
+	private ImageView chatIcon;
+	private ImageView backIcon;

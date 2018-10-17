@@ -1,0 +1,10 @@
+		@Override
+		protected FaceRotateRunnablePoolItem onAllocatePoolItem() {
+			return new FaceRotateRunnablePoolItem();
+		}
+	};
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+

@@ -1,0 +1,10 @@
+  public String pak; // required
+  public String obj; // required
+  public String func; // required
+  public String ruleDescription; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    RULE_ID((short)1, "ruleId"),
+    RULE_NAME((short)2, "ruleName"),
+    RULE_TYPES((short)3, "ruleTypes"),

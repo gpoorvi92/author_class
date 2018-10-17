@@ -1,0 +1,10 @@
+import android.widget.TextView;
+
+import com.weparty.R;
+import com.weparty.widgets.DateSlider.SliderContainer.OnTimeChangeListener;
+
+/**
+ * A Dialog subclass that hosts a SliderContainer and a couple of buttons,
+ * displays the current time in the header, and notifies an observer when the
+ * user selectes a time.
+ */

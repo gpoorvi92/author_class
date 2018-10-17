@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // ENGINE_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.engineName = iprot.readString();
+              struct.setEngineNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

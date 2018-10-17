@@ -1,0 +1,10 @@
+
+    private static class heart_resultTupleSchemeFactory implements SchemeFactory {
+      public heart_resultTupleScheme getScheme() {
+        return new heart_resultTupleScheme();
+      }
+    }
+
+    private static class heart_resultTupleScheme extends TupleScheme<heart_result> {
+
+      @Override

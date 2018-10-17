@@ -1,0 +1,10 @@
+ 					if (ctr > 3)
+ 					{
+ 						JOptionPane.showMessageDialog(null, "Please, Contact the Administrator");
+ 						ctr = 0;
+ 						dispose();
+ 					}
+ 					passwordSQL passq = new passwordSQL(usname, uspasswd, checked);
+ 					checked = passq.check();
+ 					}
+ 					

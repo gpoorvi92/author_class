@@ -1,0 +1,10 @@
+
+	public static AbstractCommonData getAutoLoginParam(Context ctx) {
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(ctx);
+		String username = sp.getString("username", "");
+		String pwd = sp.getString("pwd", "");
+		long lastTime = sp.getLong("last_login_time", 0);
+		boolean isAutoLogin = sp.getBoolean("is_auto_login", false);
+		try {

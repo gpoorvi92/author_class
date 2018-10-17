@@ -1,0 +1,10 @@
+      case 76:
+        return MOUNT_FORMAT_FILESYSTEMS;
+      case 77:
+        return MOUNT_UNMOUNT_FILESYSTEMS;
+      case 78:
+        return NFC;
+      case 79:
+        return PERSISTENT_ACTIVITY;
+      case 80:
+        return PROCESS_OUTGOING_CALLS;

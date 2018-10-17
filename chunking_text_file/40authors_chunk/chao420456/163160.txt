@@ -1,0 +1,10 @@
+        //设置图标
+        jf.setIconImage(image);
+    }
+    
+    /**
+     * 设置窗体居中
+     * @param jf 
+     */
+    public static void setFrameCenter(JFrame jf){
+        /*

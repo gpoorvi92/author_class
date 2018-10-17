@@ -1,0 +1,10 @@
+    public void validate() throws org.apache.thrift.TException {
+      // check for required fields
+      if (nodeId == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'nodeId' was not present! Struct: " + toString());
+      }
+      if (propertyName == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'propertyName' was not present! Struct: " + toString());
+      }
+      if (propertyValue == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'propertyValue' was not present! Struct: " + toString());

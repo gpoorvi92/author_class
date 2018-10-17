@@ -1,0 +1,10 @@
+//   Added "MelodyType"constant:
+//     TONE_MT_NONE
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+public interface ToneIndicatorConst
+{
+    //###################################################################

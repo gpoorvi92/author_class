@@ -1,0 +1,10 @@
+import io.github.viscent.mtpattern.ch13.pipeline.AbstractPipe;
+import io.github.viscent.mtpattern.ch13.pipeline.Pipe;
+import io.github.viscent.mtpattern.ch13.pipeline.PipeException;
+import io.github.viscent.mtpattern.ch13.pipeline.SimplePipeline;
+
+public class ThreadPoolBasedPipeExample {
+
+	public static void main(String[] args) {
+		final ThreadPoolExecutor executorSerivce;
+		executorSerivce = new ThreadPoolExecutor(1, Runtime.getRuntime()

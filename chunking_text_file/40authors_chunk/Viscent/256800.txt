@@ -1,0 +1,10 @@
+	 * 执行任务的处理逻辑
+	 */
+	@Override
+	protected void doRun() throws Exception {
+		Runnable ft = workQueue.take();
+		try {
+			ft.run();
+		} finally {
+			terminationToken.reservations.decrementAndGet();
+		}

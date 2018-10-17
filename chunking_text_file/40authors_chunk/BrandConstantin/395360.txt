@@ -1,0 +1,10 @@
+      System.out.println("Escribe un numero");
+      int num;
+      num = teclado.nextInt();
+
+      if (num < 0){
+        negativos++;
+      } else {
+        positivos++;
+      }
+      contador++;

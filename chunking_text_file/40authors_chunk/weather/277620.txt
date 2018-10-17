@@ -1,0 +1,10 @@
+    }
+
+    protected Handler handler = new providerHandler(this);
+
+    private static class providerHandler extends Handler {
+
+        private final WeakReference<DataProvider> mProvider;
+
+        private providerHandler(DataProvider mProvider) {
+            this.mProvider = new WeakReference<DataProvider>(mProvider);

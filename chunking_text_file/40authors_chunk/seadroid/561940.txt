@@ -1,0 +1,10 @@
+    /**
+     * Constructor.
+     *
+     * @param id        the image id of the image
+     * @param cr        the content resolver
+     */
+    protected VideoObject(BaseImageList container, ContentResolver cr,
+            long id, int index, Uri uri, String dataPath,
+            String mimeType, long dateTaken, String title) {
+        super(container, cr, id, index, uri, dataPath,

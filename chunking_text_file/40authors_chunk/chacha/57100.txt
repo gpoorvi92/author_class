@@ -1,0 +1,10 @@
+		return JsonPojoMapper.toJson(this,true);
+	}
+
+	@Override
+	public void fromJson(String json) throws JsonMappingException,
+			JsonGenerationException, IOException {
+		AddAccountRequest r=(AddAccountRequest)JsonPojoMapper.fromJson(json, AddAccountRequest.class);
+		this.setOpt(r.getOpt());
+		this.setBody(r.getBody());
+		

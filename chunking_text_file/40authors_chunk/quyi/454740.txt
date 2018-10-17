@@ -1,0 +1,10 @@
+    public Object getFieldValue(_Fields field) {
+      switch (field) {
+      case ENGINE:
+        return getEngine();
+
+      case OPERATE:
+        return getOperate();
+
+      }
+      throw new IllegalStateException();

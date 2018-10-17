@@ -1,0 +1,10 @@
+	 * @return         令牌认证回应消息
+	 * @throws ChachaException
+	 */
+	public LoginResponse loginToken(TokenRequest request) throws ChachaException;
+	
+	/**
+	 * 令牌注销
+	 * @param request	令牌注销请求消息
+	 * @return			令牌注销回应消息
+	 * @throws ChachaException

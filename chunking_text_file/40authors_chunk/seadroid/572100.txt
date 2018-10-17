@@ -1,0 +1,10 @@
+
+        if (path == null)
+            return;
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        
+    }
+    
+    @Override
+    public void onResume() {

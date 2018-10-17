@@ -1,0 +1,10 @@
+
+    public boolean equals(Object o)
+    {
+        if (o instanceof Vector3D)
+        {
+            Vector3D v = (Vector3D)o;
+            return (v.x == x) && (v.y == y) && (v.z == z);
+        }
+        else
+            return false;

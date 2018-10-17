@@ -1,0 +1,10 @@
+    static JFrame f = new JFrame("My First Music Video");
+    static MyDrawPanel ml;
+
+    public static void main(String[] args) {
+           MiniMusicPlayer3 mini = new MiniMusicPlayer3();
+           mini.go();
+     }
+   
+ 
+     public  void setUpGui() {

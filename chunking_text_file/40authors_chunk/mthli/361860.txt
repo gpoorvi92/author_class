@@ -1,0 +1,10 @@
+      String publisher = select("Publishers:", publishers);
+      PreparedStatement stat;
+      if (!author.equals("Any") && !publisher.equals("Any"))
+      {
+         stat = conn.prepareStatement(authorPublisherQuery);
+         stat.setString(1, author);
+         stat.setString(2, publisher);
+      }
+      else if (!author.equals("Any") && publisher.equals("Any"))
+      {

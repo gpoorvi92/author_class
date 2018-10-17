@@ -1,0 +1,10 @@
+import com.yeshj.pacman.model.MediainfoModel;
+import com.yeshj.pacman.model.TaskModel;
+
+/**
+ * TODO
+ * @Class: MediainfoMappingQuery
+ * @author: zhangxinyu
+ * @date: 2015年1月9日 下午2:16:22
+ */
+public class MediainfoMappingQuery extends MappingSqlQuery<MediainfoModel>{

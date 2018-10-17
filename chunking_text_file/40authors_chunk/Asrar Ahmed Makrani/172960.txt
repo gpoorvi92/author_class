@@ -1,0 +1,10 @@
+    gbc.gridy = 1;
+    upper.add(rent_date, gbc);
+    
+    for (int i = 0; i<5; i++)
+    {
+    gbc.gridy = 2+i;
+    upper.add(rent_date_text[i], gbc);
+	}
+        
+    gbc.gridx = 3;

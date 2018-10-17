@@ -1,0 +1,10 @@
+			System.out.println(a / b); // ArithmeticException: / by zero
+		} catch (ArithmeticException e) {
+			System.out.println("除数不能为0");
+		}
+
+		int[] arr = { 1, 2, 3 };
+		try {
+			System.out.println(arr[3]); // ArrayIndexOutOfBoundsException: 3
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("索引越界异常");

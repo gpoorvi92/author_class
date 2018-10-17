@@ -1,0 +1,10 @@
+                nn.setLearningRate((float) learningRate);
+                learningRate *= 0.999995;
+                if (learningRate < 0.08f) learningRate = 0.08f;
+                if (weightJiggleFactor < 0.0002f) weightJiggleFactor = 0.02f;
+                error += nn.train();
+                //if (error > 0.25f) weightJiggleFactor = 0.5f;
+                //if (error > 0.31f) nn.randomizeWeights();
+                if (i>0 && i % 100 == 0) {
+                    error /= 100;
+                    //System.out.println("cycle " + i + " error is " + error + ", learningRate=" + learningRate + ", weightJiggleFactor=" + weightJiggleFactor);

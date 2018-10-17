@@ -1,0 +1,8 @@
+         addListenerMethod.invoke(c, proxy);
+      }
+      catch (ReflectiveOperationException e)
+      {
+      }
+      // ok not to add listener if exception is thrown
+   }
+}

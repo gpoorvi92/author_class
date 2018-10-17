@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean isEmpty() {
+        return items.isEmpty();
+    }
+
+    public void addEntry(Account entry) {
+        items.add(entry);
+        notifyDataSetChanged();
+    }

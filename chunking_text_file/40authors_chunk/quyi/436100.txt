@@ -1,0 +1,10 @@
+    boolean this_present_fileOperate = true && this.isSetFileOperate();
+    boolean that_present_fileOperate = true && that.isSetFileOperate();
+    if (this_present_fileOperate || that_present_fileOperate) {
+      if (!(this_present_fileOperate && that_present_fileOperate))
+        return false;
+      if (!this.fileOperate.equals(that.fileOperate))
+        return false;
+    }
+
+    boolean this_present_networkPacket = true && this.isSetNetworkPacket();

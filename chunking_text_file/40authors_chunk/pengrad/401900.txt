@@ -1,0 +1,10 @@
+
+    @Test
+    public void getChatMember() {
+        GetChatMemberResponse response = bot.execute(new GetChatMember(chatId, chatId));
+        System.out.println(response);
+        ChatMemberTest.check(response.chatMember());
+    }
+
+    @Test
+    public void getChatMembersCount() {

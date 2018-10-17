@@ -1,0 +1,10 @@
+     * @param time The time
+     * @param val The number of units to add to the time
+     * @return The resulting TimeObject
+     */
+    public abstract TimeObject add(long time, int val);
+    /**
+     * This method converts from a calendar to a TimeObject -- it does the actual
+     * work of turning a point time into the range and display string that componse
+     * a TimeObject.
+     *

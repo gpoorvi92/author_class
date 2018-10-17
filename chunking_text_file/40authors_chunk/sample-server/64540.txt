@@ -1,0 +1,10 @@
+                    chatServerRpcClientMap.put(chatServer, chatServerRpcClient);
+                    ChatClient chatClient = new ChatClient(subs[0], RpcHelper.getDefaultRpcPort(Integer.valueOf(subs[1])));
+                    chatClient.connect();
+                    chatClientMap.put(chatServer, chatClient);
+                } catch (Exception e)
+                {
+                    log.error("创建ChatServerRpcClient失败:{}", zoneEntity, e);
+                }
+            }
+        }

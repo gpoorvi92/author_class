@@ -1,0 +1,10 @@
+			if (wordPairCounts.containsKey(pair)) {
+				Integer count = wordPairCounts.get(pair);
+				wordPairCounts.put(pair, count + 1);
+			} else {
+				wordPairCounts.put(pair, 1);
+			}
+			last = word;
+		}
+		scanner.close();
+   	    for (String pair : wordPairCounts.keySet()) {

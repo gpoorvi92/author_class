@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example8;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+
+/**
+ * P229
+ * 测试方法boolean tryLock(long timeout,TimeUnit unit)
+ * 作用：如果锁定在给定等待时间内没有被另一个线程保持，且当前线程未被中断，则获取该锁定

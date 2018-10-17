@@ -1,0 +1,10 @@
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetOsDesc()).compareTo(other.isSetOsDesc());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetOsDesc()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.osDesc, other.osDesc);
+      if (lastComparison != 0) {

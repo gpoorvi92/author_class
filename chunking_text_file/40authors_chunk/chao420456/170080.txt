@@ -1,0 +1,8 @@
+		// 遍历新集合
+		Iterator it = newArrayList.iterator();
+		while (it.hasNext()) {
+			String s = (String) it.next();
+			System.out.println(s);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+    }
+    public RandomListNode copyRandomList_3(RandomListNode head) {/*StackOverflowError*/
+        if (head == null) return null;
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
+        return copy(head, map);
+    }
+    public RandomListNode copy(RandomListNode root, HashMap<RandomListNode, RandomListNode> map) {
+        if (root == null) return null;
+        if (map.containsKey(root) == true) {
+            return map.get(root);

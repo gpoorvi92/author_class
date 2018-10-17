@@ -1,0 +1,10 @@
+package ipower.wechat.service;
+
+import ipower.wechat.message.WeChatContext;
+import ipower.wechat.message.events.ClickEventMessage;
+import ipower.wechat.message.events.EventMessage;
+import ipower.wechat.message.events.LocationEventMessage;
+import ipower.wechat.message.events.ScanEventMessage;
+import ipower.wechat.message.events.SubscribeEventMessage;
+import ipower.wechat.message.resp.BaseRespMessage;
+/**

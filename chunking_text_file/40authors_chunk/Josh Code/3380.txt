@@ -1,0 +1,10 @@
+                if (scaleStr != null)
+                {
+                    try
+                    {
+                        StringTokenizer st = new StringTokenizer(scaleStr, " \t");
+                        double x = Double.parseDouble(st.nextToken());
+                        double y = Double.parseDouble(st.nextToken());
+                        double z = Double.parseDouble(st.nextToken());
+                        mv.scaleVectors(Vector3D.getFromCoordinates(x, y, z));
+                    }

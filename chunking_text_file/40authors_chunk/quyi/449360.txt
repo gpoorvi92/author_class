@@ -1,0 +1,10 @@
+    {
+      issuedMessage_result result = new issuedMessage_result();
+      receiveBase(result, "issuedMessage");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }
+      if (result.ire != null) {
+        throw result.ire;
+      }
+      if (result.ue != null) {

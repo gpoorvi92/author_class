@@ -1,0 +1,10 @@
+
+	public void mouseExited(MouseEvent e) {
+		
+	}
+
+	public void mouseDragged(MouseEvent e) {
+		int m_x = e.getX();
+		int m_y = e.getY();
+		
+		if(getSelected() == null && !freeDrawing)

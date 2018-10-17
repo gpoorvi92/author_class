@@ -1,0 +1,10 @@
+      Border titled = BorderFactory.createTitledBorder(etched, "Border types");
+      buttonPanel.setBorder(titled);
+
+      setLayout(new GridLayout(2, 1));
+      add(buttonPanel);
+      add(demoPanel);
+      pack();
+   }
+
+   public void addRadioButton(String buttonName, final Border b)

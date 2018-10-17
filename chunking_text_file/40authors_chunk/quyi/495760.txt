@@ -1,0 +1,10 @@
+  }
+
+  public Engine deepCopy() {
+    return new Engine(this);
+  }
+
+  @Override
+  public void clear() {
+    this.engineId = null;
+    this.engineName = null;

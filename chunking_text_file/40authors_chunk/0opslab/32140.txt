@@ -1,0 +1,10 @@
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#TableStopTag()
+   */
+  protected String TableStopTag() {
+    return "</TABLE>";
+  }
+  
+  public static void main(String[]args)throws Throwable{
+    TableModel model = new DefaultTableModel(new String[]{"One","Two","Three"},10);

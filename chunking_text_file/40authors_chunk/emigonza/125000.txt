@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("CardState"),
+        makeProperty("CharacterSet"),
+        makeProperty("CharacterSetList"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),

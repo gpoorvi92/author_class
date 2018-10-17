@@ -1,0 +1,10 @@
+              struct.setReportPathIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 7: // CENTER_RESULT_PATH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.centerResultPath = iprot.readString();
+              struct.setCenterResultPathIsSet(true);
+            } else { 

@@ -1,0 +1,10 @@
+        case 3: // AUTO_RUN_MONITOR
+          return AUTO_RUN_MONITOR;
+        case 4: // FILE_OPERATE
+          return FILE_OPERATE;
+        case 5: // NETWORK_PACKET
+          return NETWORK_PACKET;
+        case 6: // SYSTEM_RESOURCES
+          return SYSTEM_RESOURCES;
+        case 7: // HARDWARE_RESOURCES
+          return HARDWARE_RESOURCES;

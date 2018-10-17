@@ -1,0 +1,10 @@
+             case "6":
+                   dia2 = 6;
+                   nombreDiaDos = "sabado";
+                   break;
+             case "domingo":
+             case "7":
+                   dia2 = 7;
+                   nombreDiaDos = "domingo";
+                   break;
+        }

@@ -1,0 +1,10 @@
+  public boolean getCapUpdateStatistics() throws JposException;
+
+  // Properties
+  public int     getMaxLights() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+
+  // Methods
+  public void    compareFirmwareVersion(String firmwareFileName,

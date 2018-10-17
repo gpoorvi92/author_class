@@ -1,0 +1,10 @@
+     * ps:如果只需要输出非空属性，使用nonEmptyMapper
+     * 如果只需要输出和初始值不同的属性，使用
+     *
+     * @return
+     */
+    public static JsonUtil getInstance() {
+        return instance;
+    }
+
+    /**

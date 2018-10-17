@@ -1,0 +1,10 @@
+
+    public int getErrorResponse()
+    {
+        return errorResponse;
+    }
+
+    public void setErrorResponse(int errorResponse)
+    {
+        this.errorResponse = errorResponse;
+    }

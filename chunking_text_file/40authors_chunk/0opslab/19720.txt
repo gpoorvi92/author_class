@@ -1,0 +1,10 @@
+            if (valid.valid(files)) {
+                for (File file : files) {
+                    String name = inFile.getName();
+                    if (!"".equals(dir)) {
+                        name = dir + "/" + name;
+                    }
+                    zipFile(file, zos, name);
+                }
+            }
+        } else {

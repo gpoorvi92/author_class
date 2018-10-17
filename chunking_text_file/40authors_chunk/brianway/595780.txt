@@ -1,0 +1,10 @@
+        ThreadAdd addThread = new ThreadAdd("add1", add);
+        addThread.start();
+
+    }
+}
+
+/*
+输出：
+begin wait(),ThreadName=sub1
+begin wait(),ThreadName=sub2

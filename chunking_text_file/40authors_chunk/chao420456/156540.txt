@@ -1,0 +1,10 @@
+
+	// 基本字节流一次读写一个字节
+	public static void method1() throws IOException {
+		FileInputStream fis = new FileInputStream("d:\\哥有老婆.mp4");
+		FileOutputStream fos = new FileOutputStream("copy1.mp4");
+
+		int by = 0;
+		while ((by = fis.read()) != -1) {
+			fos.write(by);
+		}

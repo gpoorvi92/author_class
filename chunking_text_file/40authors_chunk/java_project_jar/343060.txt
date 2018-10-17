@@ -1,0 +1,9 @@
+        return append(x0, x1, x2);
+    }
+
+    public volatile Appendable append(CharSequence x0)
+        throws IOException
+    {
+        return append(x0);
+    }
+}

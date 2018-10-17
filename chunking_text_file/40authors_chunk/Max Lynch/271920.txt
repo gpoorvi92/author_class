@@ -1,0 +1,10 @@
+	public InnerWindow(Image img)
+	{
+		this.img = img;
+				
+		setBorder(new EtchedBorder(Color.darkGray, Color.lightGray));
+	}
+	
+	public void paintComponent(Graphics g)
+	{
+		Graphics2D g2 = (Graphics2D) g;

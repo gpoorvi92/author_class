@@ -1,0 +1,10 @@
+            viewHolder = new Viewholder(title, subtitle, icon, action);
+            view.setTag(viewHolder);
+        } else {
+            viewHolder = (Viewholder) convertView.getTag();
+        }
+
+        int iconID = item.getIcon();
+        viewHolder.icon.setImageResource(iconID);
+        viewHolder.title.setText(item.getTitle());
+        viewHolder.subtitle.setText(item.getSubtitle());

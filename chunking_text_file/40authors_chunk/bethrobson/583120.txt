@@ -1,0 +1,10 @@
+  
+      serviceList = new JComboBox(services);
+      frame.getContentPane().add(BorderLayout.NORTH, serviceList);
+
+      serviceList.addActionListener(new MyListListener());     
+
+      frame.setSize(500,500);
+      frame.setVisible(true);
+
+  }

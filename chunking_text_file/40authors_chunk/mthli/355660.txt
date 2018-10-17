@@ -1,0 +1,10 @@
+         });
+
+      JButton previousButton = new JButton("Previous");
+      buttonPanel.add(previousButton);
+      previousButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               canvas.flipPage(-1);
+            }

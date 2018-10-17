@@ -1,0 +1,10 @@
+
+	}
+
+	private static Map<String, Map<String, Integer>> createDefaultConf() {
+		Map<String, Map<String, Integer>> delayConf = new HashMap<String, Map<String, Integer>>();
+
+		Map<String, Integer> smsConf = new HashMap<String, Integer>();
+		smsConf.put("NIG", 150);
+		smsConf.put("ESB", 50);
+		delayConf.put("Sms", smsConf);

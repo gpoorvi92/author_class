@@ -1,0 +1,10 @@
+ How many possible unique paths are there?
+
+ Solution: 
+ 1. Use formula C(x,t) = t!/(x!*(t-x)!) (x should be large for calculation).
+ 2. Dynamic programming. UP(i,j) = UP(i-1,j) + UP(i,j-1).
+ */
+public class Solution {
+    public int uniquePaths_1(int m, int n) {
+        if (m == 1  || n == 1) return 1;
+        int t = (m-1)+(n-1);

@@ -1,0 +1,10 @@
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int JPOS_EEJ_EXISTING             = 1 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_MEDIUM_FULL          = 2 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_MULTIPLE_MARKER      = 3 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_UNINITIALIZED_MEDIUM = 4 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_CORRUPTED_MEDIUM     = 5 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_UNKNOWN_DATAFORMAT   = 6 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_NOT_ENOUGH_SPACE     = 7 + JposConst.JPOSERREXT;
+  public static final int JPOS_EEJ_MULTIPLE_MARKERS     = 8 + JposConst.JPOSERREXT;

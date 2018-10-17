@@ -1,0 +1,10 @@
+        Channel c = null;
+        int counter = 0;
+        while (true)
+        {
+            String cmd = reader.readLine().trim();
+            switch (cmd)
+            {
+                case "send":
+                    Fenrisulfr.RpcPacket.Builder ret = Fenrisulfr.RpcPacket.newBuilder();
+                    ret.setCounter(++counter).setFlag(0).setOpcode(LogicLoginOpcode.CP_Login).setTimestamp(System.currentTimeMillis()).setToken("empty_str");

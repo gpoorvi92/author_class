@@ -1,0 +1,10 @@
+  public boolean matchesFormat(String filename)
+  {
+      filename = filename.toLowerCase();
+
+      if (filename.endsWith(".stl")||filename.endsWith(".stla"))
+          return true;
+      else
+          return false;
+  }
+

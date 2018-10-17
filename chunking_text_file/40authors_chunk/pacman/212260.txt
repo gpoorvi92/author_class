@@ -1,0 +1,10 @@
+	 */
+	public void setPid(Integer pid) {
+		this.pid = pid;
+	}
+
+	/**
+	 * TODO:Insert Private field tid Getter method of Comment in here.
+	 * @return tid TODO:Insert method return of Comment in here.
+	 */
+	public Integer getTid() {

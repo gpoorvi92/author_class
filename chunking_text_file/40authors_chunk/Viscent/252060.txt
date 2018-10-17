@@ -1,0 +1,10 @@
+			// 若无待处理的任务，则试图强制终止线程
+			if (terminationToken.reservations.get() <= 0) {
+				super.interrupt();
+			}
+		}
+	}
+
+	public void terminate(boolean waitUtilThreadTerminated) {
+		terminate();
+		if (waitUtilThreadTerminated) {

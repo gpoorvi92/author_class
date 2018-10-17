@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch14.hsha.example;
+
+import io.github.viscent.mtpattern.ch5.tpt.example.AlarmType;
+import io.github.viscent.util.Debug;
+
+/**
+ * 告警功能入口类。

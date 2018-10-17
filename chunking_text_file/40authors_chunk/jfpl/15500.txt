@@ -1,0 +1,10 @@
+
+public class JFChatWebChromeClient extends WebChromeClient {
+	private Context ctx;
+
+	public JFChatWebChromeClient(Context ctx) {
+		this.ctx = ctx;
+	}
+
+	/**
+	 * Tell the client to display a javascript alert dialog.

@@ -1,0 +1,10 @@
+        try
+        {
+            beforeShutdown();
+            doShutdown();
+            log.info("{} server shutdown", this.getClass().getSimpleName());
+        } catch (Throwable t)
+        {
+            log.error("", t);
+        }
+    }

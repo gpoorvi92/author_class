@@ -1,0 +1,10 @@
+
+@Cache(usage=CacheConcurrencyStrategy.READ_WRITE)
+@Entity
+@Table(name="t_typeforbrand")
+public class TypeForBrand {
+
+	private int ID;
+	private String name;
+	private MaterialBrand materialBrand;
+	private boolean valid;

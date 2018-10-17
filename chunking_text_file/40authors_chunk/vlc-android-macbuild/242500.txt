@@ -1,0 +1,10 @@
+        item.mTypeTag = MediaResourceItem.TYPE_TAG__MP4;
+        item.mMrl = url;
+
+        mResourceList.add(item);
+    }
+
+    // for Parcelable
+    @Override
+    public int describeContents() {
+        return 0;

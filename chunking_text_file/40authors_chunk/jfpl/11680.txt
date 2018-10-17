@@ -1,0 +1,10 @@
+	public void unbindVeh(final String bindUser) {
+		AbstractCommonData sendData = SystemUtil.getCommonData("",
+				GlobalVariables.loginUsername);
+		sendData.putStringValue("jtgzfw_user", bindUser);
+		sendData.putStringValue("_url", ConstVariables.UNBIND_VEH_URL);
+		sendData.putObjectValue("ipacket",
+				HttpSendFactory.getChatPlatformSendMethod());
+		sendData.putObjectValue("iservice", new IServiceLogic() {
+
+			@Override

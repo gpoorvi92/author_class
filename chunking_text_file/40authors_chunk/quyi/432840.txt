@@ -1,0 +1,10 @@
+ * 5:i32 rss 实际耗用内存(Kb)
+ * 6:i32 vss 虚拟耗用内存(Kb)
+ */
+public class SystemResources implements org.apache.thrift.TBase<SystemResources, SystemResources._Fields>, java.io.Serializable, Cloneable, Comparable<SystemResources> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("SystemResources");
+
+  private static final org.apache.thrift.protocol.TField PROCESS_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("processName", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField THREAD_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("threadName", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField CHECK_TIME_FIELD_DESC = new org.apache.thrift.protocol.TField("checkTime", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField CPU_FIELD_DESC = new org.apache.thrift.protocol.TField("cpu", org.apache.thrift.protocol.TType.I32, (short)4);

@@ -1,0 +1,10 @@
+		super(name,age);
+	}
+
+	public void smoke() {
+		System.out.println("爱抽烟的学生");
+	}
+}
+
+//测试类
+class PersonDemo {

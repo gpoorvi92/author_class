@@ -1,0 +1,10 @@
+				@Override
+				public void onSuccess(String content) {
+					super.onSuccess(content);
+					try {
+						  SourceData.setUpdateResult(new UpdateResultBuild().build(content));
+					} catch (JSONException e) {
+						e.printStackTrace();
+					}
+				}
+				

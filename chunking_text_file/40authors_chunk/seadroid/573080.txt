@@ -1,0 +1,10 @@
+    }
+
+    public Socket createSocket(String host, int port) throws IOException {
+        SSLSocketFactory factory = context.getSocketFactory();
+        SSLSocket ss = (SSLSocket)factory.createSocket(host, port);
+
+        ss.setEnabledProtocols(allowedProtocols);
+        ss.setEnabledCipherSuites(allowedCiphers);
+
+        return ss;

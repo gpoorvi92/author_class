@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置菜单代码。
+	 * @param code
+	 * 菜单代码。
+	 * */
+	public void setCode(String code) {
+		this.code = code;
+	}
+	/**

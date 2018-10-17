@@ -1,0 +1,10 @@
+               executeQuery();
+            else if (input.equals("C"))
+               changePrices();
+            else 
+               done = true;
+         }
+      }
+      catch (SQLException e)
+      {
+         for (Throwable t : e)

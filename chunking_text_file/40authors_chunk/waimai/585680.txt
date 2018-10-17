@@ -1,0 +1,10 @@
+
+    private Integer areaId;
+
+    private Integer blockId;
+
+    private Integer layerId;
+
+    private Integer roomId;
+
+    private String block;

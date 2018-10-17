@@ -1,0 +1,10 @@
+        mVlcHandler.sendMessage(msg);
+    }
+
+    public boolean vslLoad(boolean forceReload) {
+        return mIndexResolver.loadIndex(forceReload);
+    }
+
+    public Bundle vslGetBundle() {
+        return mIndexResolver.getIndexBundle();
+    }

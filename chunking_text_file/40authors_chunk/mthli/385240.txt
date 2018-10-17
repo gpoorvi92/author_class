@@ -1,0 +1,10 @@
+            NumberFormat.getIntegerInstance())
+         {
+            protected DocumentFilter getDocumentFilter()
+            {
+               return filter;
+            }
+
+         });
+      intField3.setValue(new Integer(100));
+      addRow("Filtered Number", intField3);

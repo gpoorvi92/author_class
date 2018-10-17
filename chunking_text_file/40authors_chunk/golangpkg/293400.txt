@@ -1,0 +1,10 @@
+
+	}
+
+
+	@Override
+	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
+			throws IOException, ServletException {
+		requestComponentContainer.populate((HttpServletRequest) req,(HttpServletResponse) resp);
+		chain.doFilter(req, resp);
+		requestComponentContainer.clear();

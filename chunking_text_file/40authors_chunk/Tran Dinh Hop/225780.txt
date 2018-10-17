@@ -1,0 +1,10 @@
+	* @Edited by Tran Dinh Hop, 6 May 2004
+	* @Please visit http://www.freewebs.com/DigitZone for updated version
+*/
+
+import java.util.*; 
+import java.awt.*;
+import java.io.*;
+import javax.swing.*;
+
+public class LZWDecompress extends Thread

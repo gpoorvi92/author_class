@@ -1,0 +1,10 @@
+    private CityChangeAdapter mAdapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_city_change);
+        ButterKnife.inject(this);
+
+        initView();
+        initListener();

@@ -1,0 +1,10 @@
+		query.compile();
+		
+		return query.findObject(taskid);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.dao.ITaskDAO#findByLessonId(int)
+	 */
+	@Override
+	public List<TaskModel> findByLessonId(int lessonId) {

@@ -1,0 +1,10 @@
+ * @author antoinem
+ * 
+ */
+@Component
+public class CRCHelper {
+
+	private static final Logger log = LoggerFactory.getLogger(CRCHelper.class);
+
+
+

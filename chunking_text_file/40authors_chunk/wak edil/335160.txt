@@ -1,0 +1,10 @@
+				frame.setSize(450,400);
+				frame.setVisible(true);
+				frame.setLocationRelativeTo(null);
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				this.dispose();
+		}
+		if(e.getSource() ==jbtChoc4)
+		{
+				KekCoklatInfo frame = new KekCoklatInfo();
+				frame.setTitle("Kek Coklat Info");

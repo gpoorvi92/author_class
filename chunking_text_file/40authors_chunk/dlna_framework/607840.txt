@@ -1,0 +1,10 @@
+			}
+		}
+		catch (Exception e) {
+			throw new ParserException(e);
+		}
+		
+		return rootNode;
+	}
+
+	public Node parse(InputStream inStream) throws ParserException

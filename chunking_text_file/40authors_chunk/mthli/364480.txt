@@ -1,0 +1,10 @@
+
+   public XMLWriteFrame()
+   {
+      chooser = new JFileChooser();
+
+      // add component to frame
+
+      comp = new RectangleComponent();
+      add(comp);
+

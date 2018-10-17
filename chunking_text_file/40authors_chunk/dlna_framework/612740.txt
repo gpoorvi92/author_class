@@ -1,0 +1,10 @@
+    private String descriptionURL = "";
+
+    public String getDescriptionURL() {
+            return descriptionURL;
+    }
+
+    public void setDescriptionURL(String descriptionURL) {
+            this.descriptionURL = descriptionURL;
+    }
+	

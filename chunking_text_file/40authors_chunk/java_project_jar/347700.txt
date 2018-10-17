@@ -1,0 +1,10 @@
+
+    public boolean hasBOM()
+        throws IOException
+    {
+        return getBOM() != null;
+    }
+
+    public boolean hasBOM(ByteOrderMark bom)
+        throws IOException
+    {

@@ -1,0 +1,10 @@
+			arr[x] %= 10;
+		}	
+
+		for(int x=0; x<index; x++) {
+			System.out.print(arr[x]);
+		}
+		System.out.println();
+
+		//µÚÈý²½
+		int temp = arr[0];

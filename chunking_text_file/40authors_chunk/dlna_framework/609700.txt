@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	Member
+	////////////////////////////////////////////////
+
+	private Node argumentNode;
+	private Node serviceNode;
+
+	public Node getArgumentNode()
+	{
+		return argumentNode;

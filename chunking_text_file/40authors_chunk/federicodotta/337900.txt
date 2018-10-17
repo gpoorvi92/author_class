@@ -1,0 +1,10 @@
+     */
+    static final byte INS_USER_PROVIDED = 0x40;
+    /**
+     * Used to indicate where the insertion point is provided by an
+     * extension-registered
+     * <code>IScannerInsertionPointProvider</code>.
+     */
+    static final byte INS_EXTENSION_PROVIDED = 0x41;
+    /**
+     * Used to indicate where the payload is inserted at an unknown location

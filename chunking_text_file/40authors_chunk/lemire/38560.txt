@@ -1,0 +1,10 @@
+    @Override
+    public void addStreamOfNegatedLiteralWords(final Buffer buffer, int start, int number) {
+        for (int i = start; i < start + number; i++) {
+            addLiteralWord(~buffer.getWord(i));
+        }
+    }
+
+    @Override
+    public void clear() {
+        this.oneBits = 0;

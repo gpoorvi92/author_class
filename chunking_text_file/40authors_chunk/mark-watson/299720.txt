@@ -1,0 +1,10 @@
+ * This class stores stem count data for words in a document and provides
+ * an API to compare the similarity between this document and another.
+ * 
+ * @author Mark Watson
+ *
+ * <p/>
+ * Copyright 1998-2012 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is can be used under either of the following licenses:
+ * <p/>

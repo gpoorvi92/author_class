@@ -1,0 +1,10 @@
+    public static final String ABI_ARMv7a = "armeabi-v7a";
+    public static final String ABI_ARM = "armeabi";
+    public static final String ABI_X86 = "x86";
+
+    public static final int getSDKVersion() {
+        return Build.VERSION.SDK_INT;
+    }
+
+    public static final boolean isApi9_GingerBread() {
+        int sdk = getSDKVersion();

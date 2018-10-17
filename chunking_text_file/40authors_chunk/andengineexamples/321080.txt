@@ -1,0 +1,10 @@
+
+	private ITextureRegion mChromaticCircleTextureRegion;
+	private ITextureRegion mChromaticCircleColorKeyedTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================
+	// Getter & Setter

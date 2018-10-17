@@ -1,0 +1,10 @@
+                e.printStackTrace();
+            }
+        }
+    };
+
+    public Runnable runnableNotify = new Runnable() {
+        public void run() {
+
+            synchronized (lock) {
+                System.out.println("notify begin timer=" + System.currentTimeMillis());

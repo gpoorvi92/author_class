@@ -1,0 +1,10 @@
+*		- Error : the presence of a base url is not mandatory, the API code makes the assumption that control and event subscription urls are relative. 
+*		  If the baseUrl is not present, the request host and port should be extracted from the control/subscription url
+*		- Description: The method setRequestHost/setService should be changed as follows
+*	02/17/04
+*		- Rob van den Boomen <rob.van.den.boomen@philips.com>
+*		- Fixed to set a URLBase from the SSDP header when the URLBase of the description is null.
+*	02/18/04
+*		- Andre <andre@antiheld.net>
+*		- The xml nodes controlUrl and eventSubUrl can contain absolut urls, but these absolut urls may have 
+*		  different ports than the base url! (so seen on my SMC 7004ABR Barricade Router, where xml files are 

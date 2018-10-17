@@ -1,0 +1,10 @@
+     * needed.
+     *
+     * @param x the number of words to be discarded
+     */
+    @Override
+    public void discardFirstWords(int x) {
+        while (x > 0) {
+            if (this.iteratingBrlw.getRunningLength() > x) {
+                this.iteratingBrlw.discardFirstWords(x);
+                return;

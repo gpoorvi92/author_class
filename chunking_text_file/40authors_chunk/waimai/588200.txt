@@ -1,0 +1,10 @@
+        }
+        return map;
+    }
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        if (!StringUtils.isEmpty(vo.getUserId())) {
+            List<MerchantCollection> merchantCollectionList = merchantCollectionService.search(vo);
+            map.put("count", merchantCollectionList.size());

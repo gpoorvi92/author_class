@@ -1,0 +1,10 @@
+ * 		public String getProperty(String key)
+ * 		public String getProperty(String key,String defaultValue)
+ * 		public Set<String> stringPropertyNames()
+ */
+public class PropertiesDemo2 {
+	public static void main(String[] args) {
+		// 创建集合
+		Properties prop = new Properties();
+
+		// 添加数据

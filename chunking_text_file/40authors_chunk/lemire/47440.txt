@@ -1,0 +1,10 @@
+ * The class ReverseEWAHIterator represents a special type of efficient iterator
+ * iterating over (uncompressed) words of bits in reverse order.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class ReverseEWAHIterator {
+
+    /**
+     * Instantiates a new reverse EWAH iterator.
+     *

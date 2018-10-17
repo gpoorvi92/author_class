@@ -1,0 +1,10 @@
+package com.gs.ui;
+
+import java.awt.*;
+import java.awt.geom.*;
+
+import javax.swing.*;
+import javax.swing.border.*;
+
+import com.gs.paint.*;
+

@@ -1,0 +1,10 @@
+            throw new TimeoutException();
+        }
+
+        return mResult;
+    }
+
+    @Override
+    public boolean isCancelled() {
+        return mRequest != null && mRequest.isCanceled();
+    }

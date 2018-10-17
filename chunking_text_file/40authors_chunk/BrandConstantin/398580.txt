@@ -1,0 +1,10 @@
+        Scanner teclado = new Scanner(System.in);
+        
+        int  i;
+        int k;
+        int j;
+        
+        System.out.print("Introduce un número: ");
+        int size = teclado.nextInt();
+       System.out.print("===================================================================\n");
+       

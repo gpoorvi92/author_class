@@ -1,0 +1,10 @@
+				entity.setPasswd("dddddddd");
+				//entity.setCreated(new Date());
+				//entity.setModified(new Date());
+				mapperDao.add(entity);
+			}
+			long end=System.currentTimeMillis();
+			System.out.println("performanceMapperDaoTest costs="+(end-begin));
+		}
+	}
+}

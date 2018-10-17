@@ -1,0 +1,10 @@
+                {
+                    Object msg = e.getMessage();
+                    if (msg instanceof Rpc.RpcPacket)
+                    {
+                        put(new RpcPacketHandler.RpcPacketWrapper(ctx.getChannel(), (Rpc.RpcPacket) msg));
+                    }
+                    else
+                    {
+                        log.info("DefaultRpcServer unknown packet type:{} disconnect", msg.getClass().getSimpleName(), ctx.getChannel());
+                    }

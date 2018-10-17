@@ -1,0 +1,10 @@
+    this.software = null;
+  }
+
+  /** Returns true if field software is set (has been assigned a value) and false otherwise */
+  public boolean isSetSoftware() {
+    return this.software != null;
+  }
+
+  public void setSoftwareIsSet(boolean value) {
+    if (!value) {

@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetFormat();
+      } else {
+        setFormat((String)value);
+      }
+      break;
+
+    }
+  }
+

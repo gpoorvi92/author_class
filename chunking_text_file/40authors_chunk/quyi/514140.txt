@@ -1,0 +1,10 @@
+        break;
+
+      case UE:
+        if (value == null) {
+          unsetUe();
+        } else {
+          setUe((com.nercis.isscp.idl.UnavailableException)value);
+        }
+        break;
+

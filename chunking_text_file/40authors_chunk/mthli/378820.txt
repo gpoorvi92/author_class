@@ -1,0 +1,10 @@
+      }
+
+      @SuppressWarnings("unchecked")
+      public E next() 
+      { 
+         if (!hasNext()) throw new NoSuchElementException();
+         E r = (E) elements[(head + offset) % elements.length]; 
+         offset++;
+         return r;
+      }

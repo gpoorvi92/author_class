@@ -1,0 +1,10 @@
+import com.googlecode.javaewah.EWAHCompressedBitmap;
+import java.io.*;
+import java.nio.*;
+import java.nio.channels.FileChannel;
+
+
+public class MemoryMappingExample {
+    
+    public static void main(String[] args) throws IOException {
+        File tmpfile = File.createTempFile("javaewah", "bin");

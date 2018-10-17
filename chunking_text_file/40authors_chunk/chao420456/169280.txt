@@ -1,0 +1,10 @@
+		});
+
+		redButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseExited(MouseEvent e) {
+				f.setBackground(Color.WHITE);
+			}
+		});
+
+		// 设置窗体可见

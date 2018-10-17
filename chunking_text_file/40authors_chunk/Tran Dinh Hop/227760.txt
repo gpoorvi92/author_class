@@ -1,0 +1,10 @@
+		
+		// output last pattern if != null
+		if(lPattern != null)
+		{
+			outCode = dict.fetchCode(lPattern);
+			out.write(getHiByte(outCode));
+			out.write(getLoByte(outCode));
+		}
+		
+		// output last byte

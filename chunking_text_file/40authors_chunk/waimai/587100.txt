@@ -1,0 +1,10 @@
+public class UCheckInController extends BaseController {
+    @Autowired
+    private ICheckInService checkInService;
+
+    @RequestMapping("")
+    public @ResponseBody Map<String, Object> add(CheckIn checkIn) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        try {
+            checkInService.add(checkIn);
+            map.put(Constants.RESULT_CODE, "1");

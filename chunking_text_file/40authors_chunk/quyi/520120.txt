@@ -1,0 +1,10 @@
+    public modifyTaskManagerConfig_args() {
+    }
+
+    public modifyTaskManagerConfig_args(
+      String propertyName,
+      String propertyValue)
+    {
+      this();
+      this.propertyName = propertyName;
+      this.propertyValue = propertyValue;

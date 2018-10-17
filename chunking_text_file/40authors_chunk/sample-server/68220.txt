@@ -1,0 +1,10 @@
+    @Inject
+    private LogicLoginMoudleService logicLoginMoudleService;
+    
+    @Override
+    public void diapatch(Channel channel, Fenrisulfr.TransPacket packet)
+    {
+        try
+        {
+            int opcode = packet.getOpcode();
+            int moudle = DispatcherHelper.moudleType(opcode);

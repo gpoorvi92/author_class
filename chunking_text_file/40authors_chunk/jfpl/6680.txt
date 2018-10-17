@@ -1,0 +1,10 @@
+		super.dismiss();
+		if (this.state == 0) {
+			endRecord();
+		} else if (this.state == 1) {
+			cancelRecord();
+			this.lastVoicePath = "";
+		}
+	}
+
+	public void setCancelState(int flag) {

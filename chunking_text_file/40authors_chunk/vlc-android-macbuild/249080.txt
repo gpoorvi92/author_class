@@ -1,0 +1,10 @@
+
+    public static final String ACCESS_CNTV = "cntv";
+    public static final String ACCESS_CNTV_INDEX = "cntvindex";
+    public static final String ACCESS_CNTV_SEGMENT = "cntvsegment";
+
+    public static final String ACCESS_SOHU = "sohu";
+    public static final String ACCESS_SOHU_INDEX = "sohuindex";
+    public static final String ACCESS_SOHU_SEGMENT = "sohusegment";
+
+    public static final String ACCESS_LETV = "letv";

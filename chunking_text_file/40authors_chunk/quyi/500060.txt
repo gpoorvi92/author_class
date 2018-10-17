@@ -1,0 +1,10 @@
+  }
+
+  public void setNodeIdIsSet(boolean value) {
+    if (!value) {
+      this.nodeId = null;
+    }
+  }
+
+  public double getCpuUsedPerc() {
+    return this.cpuUsedPerc;

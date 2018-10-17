@@ -1,0 +1,9 @@
+     */
+    public int compareTo( Object other );
+
+    /**
+     * Indicates this object is "equal to" the other 
+     * @param other object to compare to
+     */
+    public boolean equals( Object other );
+}

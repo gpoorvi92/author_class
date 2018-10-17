@@ -1,0 +1,10 @@
+    * @param panel the Message Type or Confirm panel
+    * @return the selected XXX_MESSAGE or XXX_OPTION constant from the JOptionPane class
+    */
+   public int getType(ButtonPanel panel)
+   {
+      String s = panel.getSelection();
+      try
+      {
+         return JOptionPane.class.getField(s).getInt(null);
+      }

@@ -1,0 +1,10 @@
+ * @deprecated Class CopyUtils is deprecated
+ */
+
+public class CopyUtils
+{
+
+    public CopyUtils()
+    {
+    }
+

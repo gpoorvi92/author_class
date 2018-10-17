@@ -1,0 +1,10 @@
+	
+	class ProgressManagerAdvertiser {
+		
+		void advertise(UUID clientId, UUID fileId, FileProgressStatus newProgress) {
+			jlfuListenerPropagator.getPropagator().onFileUploadProgress(clientId, fileId, newProgress);
+		}
+	}
+
+	/**
+	 * Returns a calculated progress of a pending file upload.<br>

@@ -1,0 +1,10 @@
+package ipower.wechat.dao.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import ipower.wechat.dao.IWeChatMenuDao;
+import ipower.wechat.domain.WeChatMenu;
+/**
+ * 微信公众号菜单数据访问实现类。

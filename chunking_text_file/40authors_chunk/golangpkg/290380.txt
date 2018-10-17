@@ -1,0 +1,10 @@
+								
+								//add to map
+								fileToProgressInfo.put(fileId, newProgress);
+								
+								// and avertise
+								progressManagerAdvertiser.advertise(entry.getKey(), fileId, newProgress);
+								
+							}
+						}
+						

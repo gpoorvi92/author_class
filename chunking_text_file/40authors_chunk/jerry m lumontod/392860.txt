@@ -1,0 +1,10 @@
+	protected java.util.Date mdDate;
+	protected int mintColumnsCount = mobjColumns.length;
+	
+	protected int mintSortCol = 0;
+	protected boolean mblnSortAsc = true;
+	
+	protected int mintResult = 0;
+	protected String mstrSQL;
+	
+	public AcctTableData() {

@@ -1,0 +1,10 @@
+
+		//super(title, resizable, closable, maximizable, iconifiable)
+		super ("Create New User", false, true, false, true);
+		setSize (280, 175);
+
+		//Setting the Form's Labels.
+
+		lbUser = new JLabel ("Username:");
+		lbUser.setForeground (Color.black);
+		lbUser.setBounds (20, 20, 100, 25);

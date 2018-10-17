@@ -1,0 +1,10 @@
+
+	@Override
+	public BxgPriceCut selectBxgPriceCutByBxgIdAndCustomerID(int bxgID,
+			int customerID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxgpricecut where bxgid=? and customerid=?")
+				.addEntity(BxgPriceCut.class);
+		query.setInteger(0, bxgID);
+		query.setInteger(1, customerID);
+		return (BxgPriceCut) query.uniqueResult();
+	}

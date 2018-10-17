@@ -1,0 +1,10 @@
+    boolean entered_dragExit_5;
+
+    public void dragExit( java.awt.dnd.DragSourceEvent dse ) {
+        if ( !entered_dragExit_5 ) {
+            entered_dragExit_5 = true;
+            __dragExit( dse );
+            entered_dragExit_5 = false;
+        }
+        else
+            super.dragExit( dse );

@@ -1,0 +1,10 @@
+	}
+	
+	////////////////////////////////////////////////
+	//	FaultResponse
+	////////////////////////////////////////////////
+
+	public void setFaultResponse(int errCode, String errDescr)
+	{
+		setStatusCode(HTTPStatus.INTERNAL_SERVER_ERROR);
+		

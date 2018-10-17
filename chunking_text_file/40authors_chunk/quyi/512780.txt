@@ -1,0 +1,10 @@
+
+      public void start(I iface, reportTaskManagerConfig_args args, org.apache.thrift.async.AsyncMethodCallback<String> resultHandler) throws TException {
+        iface.reportTaskManagerConfig(resultHandler);
+      }
+    }
+
+    public static class reportNodeManagerConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, reportNodeManagerConfig_args, String> {
+      public reportNodeManagerConfig() {
+        super("reportNodeManagerConfig");
+      }

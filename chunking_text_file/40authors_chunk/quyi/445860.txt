@@ -1,0 +1,10 @@
+
+    case CHECK_RESULT:
+      if (value == null) {
+        unsetCheckResult();
+      } else {
+        setCheckResult((String)value);
+      }
+      break;
+
+    }

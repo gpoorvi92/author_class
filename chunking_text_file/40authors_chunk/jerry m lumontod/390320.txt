@@ -1,0 +1,10 @@
+    // and adjustments will be lost when the model data is sorted
+    table.setAutoCreateColumnsFromModel(false);
+    
+    
+    // Sort all the rows in descending order based on the
+    // values in the second column of the model
+    sortAllRowsBy(model, 1, false); */
+    
+    // Regardless of sort order (ascending or descending), null values always appear last.
+    // colIndex specifies a column in model.

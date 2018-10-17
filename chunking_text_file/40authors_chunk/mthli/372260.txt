@@ -1,0 +1,10 @@
+        System.out.println("End of method: salary = " + x.getSalary());
+    }
+
+    public static void swap(Employee x, Employee y) {
+        Employee temp = x;
+        x = y;
+        y = temp;
+        System.out.println("End of method: x = " + x.getName());
+        System.out.println("End of method: y = " + y.getName());
+    }

@@ -1,0 +1,10 @@
+                  return cg.getJavaClass().getBytes();
+               }
+               catch (Exception e)
+               {
+                  e.printStackTrace();
+                  return null;
+               }
+            }
+         });
+   }

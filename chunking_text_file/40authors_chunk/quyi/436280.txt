@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetFileOperate()).compareTo(other.isSetFileOperate());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFileOperate()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fileOperate, other.fileOperate);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

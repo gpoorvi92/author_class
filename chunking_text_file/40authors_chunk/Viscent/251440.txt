@@ -1,0 +1,10 @@
+			public V call() throws Exception {
+				V result;
+				result = doInBackground(params);
+				return result;
+			}
+
+		};
+
+		ft = new FutureTask<V>(callable) {
+

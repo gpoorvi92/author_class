@@ -1,0 +1,10 @@
+                ResourcesHelper.getDrawable(container.getContext(), drawableId));
+    }
+
+    public static void setImageDrawable(View container, int id,
+            Drawable drawable) {
+        if (container == null)
+            return;
+
+        setImageDrawable(container.findViewById(id), drawable);
+    }

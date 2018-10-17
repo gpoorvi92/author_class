@@ -1,0 +1,9 @@
+            return R.drawable.repo_readonly;
+        
+        return R.drawable.repo;
+    }
+
+    public boolean hasWritePermission() {
+        return permission.indexOf('w') != -1;
+    }
+}

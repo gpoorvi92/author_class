@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather.provider;
+
+import com.android.wpvolley.VolleyError;
+import com.android.wpvolley.toolbox.RequestListener;
+import com.qihigh.chinaweather.model.DailyWeather;
+import com.qihigh.chinaweather.model.json.DailyResponse;
+import com.qihigh.chinaweather.network.WeatherApi;
+import com.weico.core.provider.DataConsumer;
+import com.weico.core.provider.DataProvider;
+import com.weico.core.utils.LogUtil;

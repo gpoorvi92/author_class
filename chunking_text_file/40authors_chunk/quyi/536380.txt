@@ -1,0 +1,10 @@
+  }
+
+  private static class HardwareResourcesStandardScheme extends StandardScheme<HardwareResources> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, HardwareResources struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();

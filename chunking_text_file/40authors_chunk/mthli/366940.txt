@@ -1,0 +1,10 @@
+   public Counter(double[] values, int from, int to, Filter filter)
+   {
+      this.values = values;
+      this.from = from;
+      this.to = to;
+      this.filter = filter;
+   }
+
+   protected Integer compute()
+   {

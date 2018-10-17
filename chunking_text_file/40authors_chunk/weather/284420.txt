@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean onInterceptTouchEvent(MotionEvent event) {
+		// TODO Auto-generated method stub
+		float x = event.getX();
+		switch (event.getActionMasked()) {
+		case MotionEvent.ACTION_DOWN:
+			mTouchX = x;
+			break;
+		case MotionEvent.ACTION_MOVE:

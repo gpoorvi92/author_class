@@ -1,0 +1,10 @@
+            for (Map<String,com.nercis.isscp.idl.APICheck> _iter57 : struct.usedPermissions)
+            {
+              {
+                oprot.writeI32(_iter57.size());
+                for (Map.Entry<String, com.nercis.isscp.idl.APICheck> _iter58 : _iter57.entrySet())
+                {
+                  oprot.writeString(_iter58.getKey());
+                  _iter58.getValue().write(oprot);
+                }
+              }

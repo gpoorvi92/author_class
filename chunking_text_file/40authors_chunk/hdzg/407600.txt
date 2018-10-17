@@ -1,0 +1,10 @@
+	public int getProficiencyLevel() {
+		return proficiencyLevel;
+	}
+
+	public void setProficiencyLevel(int proficiencyLevel) {
+		this.proficiencyLevel = proficiencyLevel;
+	}
+
+	public int getStrengthCost() {
+		return strengthCost;

@@ -1,0 +1,10 @@
+        struct.setTaskQueueLimitIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.taskQueueNume = iprot.readI32();
+        struct.setTaskQueueNumeIsSet(true);
+      }
+    }
+  }
+
+}

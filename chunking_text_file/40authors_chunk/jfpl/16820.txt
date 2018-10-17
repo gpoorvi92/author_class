@@ -1,0 +1,10 @@
+
+	public static final String[] IMAGE_TYPE = new String[] { "png", "jpg",
+			"jpeg", "gif" };
+
+	public static final int SEND_IMAGE_FLAG = 9999;
+	public static final int SEND_LOCATION_FLAG = 9998;
+	public static final int DEFAULT_SYNC_TIME = 1 * 1000 * 3600;
+	public static final String BAIDU_API_KEY = "lGGTF2RpKuLqjHVuAs8CFB6G";
+
+	public static final String NODE_MD5_CHECK_KEY = "sys713.jtgzfw.com";

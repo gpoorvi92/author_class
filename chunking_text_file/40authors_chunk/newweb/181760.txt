@@ -1,0 +1,10 @@
+	public void setOrderPrices(Set<OrderPrice> orderPrices) {
+		this.orderPrices = orderPrices;
+	}
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderOther> getOrderOthers() {
+		return orderOthers;
+	}
+	public void setOrderOthers(Set<OrderOther> orderOthers) {
+		this.orderOthers = orderOthers;
+	}

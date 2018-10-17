@@ -1,0 +1,10 @@
+	public CellEntity(final int pCellX, final int pCellY, final int pWidth, final int pHeight, final ITextureRegion pTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager) {
+		super(pCellX * CELL_WIDTH, pCellY * CELL_HEIGHT, pWidth, pHeight, pTextureRegion, pVertexBufferObjectManager);
+
+		this.mCellX = pCellX;
+		this.mCellY = pCellY;
+	}
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================

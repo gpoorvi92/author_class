@@ -1,0 +1,10 @@
+}
+
+/*
+Sub的testMethod不加synchronized
+输出:
+threadName= A in sub 下一步 sleep begin time =1460457287103
+threadName= B in sub 下一步 sleep begin time =1460457287103
+threadName= A in sub 下一步 sleep end time =1460457289103
+threadName= B in sub 下一步 sleep end time =1460457289103
+threadName= A in main 下一步 sleep begin time =1460457289103

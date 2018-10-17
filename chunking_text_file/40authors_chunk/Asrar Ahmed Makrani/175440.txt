@@ -1,0 +1,10 @@
+				Statement statement = connection.createStatement();
+				
+				String query2 = "SELECT * FROM patronmaster " + 
+ 								"WHERE id = '" + 
+ 								patron_text.getText() +"'";
+					
+					ResultSet rs2 = statement.executeQuery(query2);
+					int cnt=0;
+					while(rs2.next())
+					{

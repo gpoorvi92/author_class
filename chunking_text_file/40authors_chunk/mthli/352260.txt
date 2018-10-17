@@ -1,0 +1,10 @@
+         if (flavors.contains(DataFlavor.javaFileListFlavor))
+         {
+            @SuppressWarnings("unchecked") List<File> fileList 
+               = (List<File>) transferable.getTransferData(DataFlavor.javaFileListFlavor);
+            for (File f : fileList)
+            {
+               try
+               {
+                  images.add(ImageIO.read(f));
+               }

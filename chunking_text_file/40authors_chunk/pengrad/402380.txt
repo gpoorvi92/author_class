@@ -1,0 +1,10 @@
+
+    @Override
+    public String toString() {
+        return "File{" +
+                "file_id='" + file_id + '\'' +
+                ", file_size=" + file_size +
+                ", file_path='" + file_path + '\'' +
+                '}';
+    }
+}

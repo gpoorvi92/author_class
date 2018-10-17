@@ -1,0 +1,10 @@
+
+   /**
+      Returns the value of the field that the user selected.
+      @return the static field value
+   */
+   public int getValue()
+   {  
+      return table.get(getSelectedItem());
+   }
+}

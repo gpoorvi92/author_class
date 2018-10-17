@@ -1,0 +1,9 @@
+			@Override
+			public String getInterfaceName() {
+				return "Location";
+			}
+
+		};
+	}
+
+}

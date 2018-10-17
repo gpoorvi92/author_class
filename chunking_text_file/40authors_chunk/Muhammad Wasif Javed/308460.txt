@@ -1,0 +1,10 @@
+		pLog.add (txtUser);
+		pLog.add (txtPass);
+		pLog.add (btnOk);
+		pLog.add (btnCancel);
+
+		//Adding Panel to the Form.
+
+		getContentPane().add (pLog);
+
+		//Opening the Database.

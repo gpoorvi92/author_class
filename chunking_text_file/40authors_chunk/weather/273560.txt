@@ -1,0 +1,10 @@
+        return BigDecimal.valueOf(number).setScale(1, RoundingMode.HALF_UP).toString();
+    }
+
+    /*
+     * 数字保留一位小数
+     */
+    public static String formatScore(String number) {
+        return formatScore(Double.valueOf(number));
+    }
+

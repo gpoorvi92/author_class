@@ -1,0 +1,10 @@
+
+		PageLoader (URL u, Cursor c) {
+
+			url = u;
+			cursor = c;
+
+		}
+
+		public void run () {
+	

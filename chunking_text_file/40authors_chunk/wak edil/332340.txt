@@ -1,0 +1,10 @@
+	private JLabel lblInfo=new JLabel("Ingredient: ");
+	private ImageIcon ABC=new ImageIcon("minuman/nescafe.jpeg");
+	private JButton jbtBack =new JButton("Back");
+
+    public NescafeInfo() 
+    {
+    	Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));
+		cont.setBackground(Color.white);
+		

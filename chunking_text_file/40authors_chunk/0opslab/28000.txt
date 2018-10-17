@@ -1,0 +1,6 @@
+    }
+
+    public void setWriteMethod(Method writeMethod) {
+        this.writeMethod = writeMethod;
+    }
+}

@@ -1,0 +1,10 @@
+        StackTraceElement[] sts = Thread.currentThread().getStackTrace();
+        
+        if (sts == null) {
+            return null;
+        }
+        
+        
+        for (StackTraceElement st:sts) {
+            if (st.isNativeMethod()) {
+                continue;

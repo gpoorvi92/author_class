@@ -1,0 +1,10 @@
+		boolean opened = false;
+		Exception cause = null;
+		for (int i = 1; i <= retryTimes && !opened; i++) {
+			try {
+				transport.open();				
+				opened = transport.isOpen();
+				break;
+			} catch (TTransportException e) {
+				cause = e;
+//				LOGGER.error("Open connect [" + ip + ":" + port + "] fail retry times : " + i);

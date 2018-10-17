@@ -1,0 +1,10 @@
+		lbBookName = new JLabel ("Book Name:");
+		lbBookName.setForeground (Color.black);
+		lbBookName.setBounds (15, 45, 100, 20);
+		lbBookAuthor = new JLabel ("Book Author:");
+		lbBookAuthor.setForeground (Color.black);
+		lbBookAuthor.setBounds (15, 75, 100, 20);
+		lbBookPrice = new JLabel ("Book Price:");
+		lbBookPrice.setForeground (Color.black);
+		lbBookPrice.setBounds (15, 105, 100, 20);
+		lbBookCategory = new JLabel ("Book Category:");

@@ -1,0 +1,10 @@
+        long last = 0L;
+        long position = 0L;
+        while(run && reader == null) 
+        {
+            try
+            {
+                reader = new RandomAccessFile(file, "r");
+            }
+            catch(FileNotFoundException e)
+            {

@@ -1,0 +1,10 @@
+     * @param start  the starting point in the array
+     * @param number the number of literal words to add
+     */
+    @Override
+    public void addStreamOfLiteralWords(final Buffer buffer, int start, int number) {
+        for (int i = start; i < start + number; i++) {
+            addLiteralWord(buffer.getWord(i));
+        }
+    }
+

@@ -1,0 +1,10 @@
+            {
+                response.setResult(JsonResponse.Result.FALSE);
+                response.setMsg("请选择操作大区");
+            }
+        } catch (Exception e)
+        {
+            response.setResult(JsonResponse.Result.FALSE);
+            response.setMsg("操作失败");
+        }
+        return response.toJson();

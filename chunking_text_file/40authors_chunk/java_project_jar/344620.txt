@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io.monitor:
+//            FileAlterationObserver
+
+public final class FileAlterationMonitor
+    implements Runnable
+{
+
+    public FileAlterationMonitor()
+    {

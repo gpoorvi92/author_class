@@ -1,0 +1,10 @@
+    }
+
+    public int getTrackCount()
+    {
+        return trackers.size();
+    }
+
+    public List getDeleteFailures()
+    {
+        return deleteFailures;

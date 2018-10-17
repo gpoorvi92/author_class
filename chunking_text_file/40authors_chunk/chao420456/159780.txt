@@ -1,0 +1,10 @@
+ 郭靖
+ 杨过  
+ */
+public class HashMapAndArrayListTest {
+	public static void main(String[] args) {
+		// 创建集合对象
+		HashMap<String, ArrayList<String>> hm = new HashMap<String, ArrayList<String>>();
+
+		// 创建元素
+		ArrayList<String> sgyy = new ArrayList<String>();

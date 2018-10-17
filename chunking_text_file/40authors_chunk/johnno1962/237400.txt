@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.TableColumnModelListener.columnAdded(javax.swing.event.TableColumnModelEvent)
+
+    public native void __columnAdded( javax.swing.event.TableColumnModelEvent e );
+
+    public void columnAdded( javax.swing.event.TableColumnModelEvent e ) {
+        __columnAdded( e );
+    }

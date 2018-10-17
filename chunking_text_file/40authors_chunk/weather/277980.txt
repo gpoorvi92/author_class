@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    protected void deliverResponse(T response) {
+        mListener.onResponse(response);
+    }
+
+    private int getShort(byte[] data) {
+        return (int) ((data[0] << 8) | data[1] & 0xFF);

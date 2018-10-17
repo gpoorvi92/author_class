@@ -1,0 +1,10 @@
+public class MsgUtil {
+	/**
+	 * 日志记录。
+	 */
+	protected static Logger logger = Logger.getLogger(MsgUtil.class);
+	/**
+	 * 将输入的XML流解析成Map集合。
+	 * @param inXml
+	 * 输入的XML流数据。
+	 * @return Map集合对象。

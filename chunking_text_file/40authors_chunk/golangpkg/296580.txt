@@ -1,0 +1,10 @@
+	public void testConfig()
+			throws IOException {
+		InitializationConfiguration config = uploadProcessor.getConfig(null);
+		Assert.assertNotNull(config.getInByte());
+	}
+
+
+	@Test
+	public void testIdSpecification() {
+		UUID randomUUID = UUID.randomUUID();

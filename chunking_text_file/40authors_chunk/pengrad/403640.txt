@@ -1,0 +1,10 @@
+        assertNotNull(message.forwardDate());
+        UserTest.checkUser(message.forwardFrom());
+    }
+
+    public static void checkTextMessage(Message message) {
+        checkMessage(message);
+        assertNotNull(message.text());
+    }
+
+    public static void checkPhotoMessage(Message message) {

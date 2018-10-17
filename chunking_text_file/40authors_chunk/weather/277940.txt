@@ -1,0 +1,10 @@
+
+        mGson = JsonUtil.getInstance();
+        mClass = clazz;
+        mListener = listener;
+    }
+
+    public GsonRequest(String url, Class<T> clazz, Response.Listener<T> listener,
+                       Response.ErrorListener errorListener) {
+        this(Method.GET, url, clazz, listener, errorListener);
+    }

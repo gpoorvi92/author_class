@@ -1,0 +1,7 @@
+        return when;
+    }
+
+    protected      long   sequenceNumber;
+    private static long   globalSequenceNumber = 0;
+    private        long   when;
+}

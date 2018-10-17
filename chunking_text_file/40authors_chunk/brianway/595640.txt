@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example12;
+
+/**
+ * Created by Brian on 2016/4/13.
+ */
+public class DealThread implements Runnable {
+    public String username;
+
+    public Object lock1 = new Object();
+    public Object lock2 = new Object();

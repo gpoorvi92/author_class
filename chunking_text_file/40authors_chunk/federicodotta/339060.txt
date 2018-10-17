@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerIntruderPayloadProcessor()</code> to
+ * register a custom Intruder payload processor.
+ */
+public interface IIntruderPayloadProcessor
+{
+    /**
+     * This method is used by Burp to obtain the name of the payload processor.

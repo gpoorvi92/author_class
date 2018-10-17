@@ -1,0 +1,10 @@
+			toWeekString(cal.get(Calendar.DAY_OF_WEEK)) +", " + 
+			toTimeString(cal.get(Calendar.DATE)) + " " +
+			toMonthString(cal.get(Calendar.MONTH)) + " " +
+			Integer.toString(cal.get(Calendar.YEAR)) + " " +
+			toTimeString(cal.get(Calendar.HOUR_OF_DAY)) + ":" +
+			toTimeString(cal.get(Calendar.MINUTE)) + ":" +
+			toTimeString(cal.get(Calendar.SECOND)) + " GMT";
+	}
+
+	////////////////////////////////////////////////

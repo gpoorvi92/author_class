@@ -1,0 +1,10 @@
+	/**
+	 * 用户密码认证
+	 * @param request  密码认证的请求消息
+	 * @return			认证响应消息
+	 * @throws ChachaException
+	 */
+	public LoginResponse loginPassword(LoginRequest request) throws ChachaException;
+	/**
+	 * 令牌认证
+	 * @param request  令牌认证请求

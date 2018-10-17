@@ -1,0 +1,10 @@
+            if (file.isFile()) {
+                FileListAdapter.Viewholder viewHolder = (FileListAdapter.Viewholder)v.getTag();
+                viewHolder.checkBox.setChecked(file.isSelected());
+            }
+            ((MultiFileChooserActivity) getActivity()).onFileChecked(file);
+        }
+    }
+
+    @Override
+    public void onPause () {

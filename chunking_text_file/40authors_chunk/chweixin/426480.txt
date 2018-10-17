@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, TextReqMessage req) {//文本输入
+		String order = req.getContent();
+		logger.info("根据文本输入的指令["+ order+"]查找对应的菜单进行处理！");
+		WeChatMenu menu =  this.weChatMenuDao.loadMenu(context.getAccountId(), order);
+		if(menu == null || menu.getUrl() == null || menu.getUrl().trim().isEmpty()){
+			logger.info("未找到指令["+order+"]对应的菜单或者菜单没有数据接口无法处理，返回默认回复。");
+			return this.buildDefaultReply(context, req);

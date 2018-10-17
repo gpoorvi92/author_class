@@ -1,0 +1,10 @@
+   public Component getCustomEditor()
+   {
+      return new DoubleArrayEditorPanel(this);
+   }
+
+   public boolean supportsCustomEditor()
+   {
+      return true;
+   }
+

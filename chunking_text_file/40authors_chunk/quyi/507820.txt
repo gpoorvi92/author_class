@@ -1,0 +1,10 @@
+        unsetFunctionStatus();
+      } else {
+        setFunctionStatus((Map<String,CheckResultStatus>)value);
+      }
+      break;
+
+    case DETECT_RESULT:
+      if (value == null) {
+        unsetDetectResult();
+      } else {

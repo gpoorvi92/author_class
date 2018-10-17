@@ -1,0 +1,10 @@
+    String engineId,
+    String engineName,
+    String engineIp,
+    String engineStatus,
+    String engineType,
+    NodeInfo nodeInfo,
+    List<String> engineRules,
+    List<String> enginePlots)
+  {
+    this();

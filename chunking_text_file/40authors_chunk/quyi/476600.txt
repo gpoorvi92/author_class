@@ -1,0 +1,10 @@
+                    struct.plots.add(_elem5);
+                  }
+                  iprot.readListEnd();
+                }
+                struct.setPlotsIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 4: // USE_RULE

@@ -1,0 +1,10 @@
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.shibboleth_welcome_layout);
+        mNextBtn = (Button) findViewById(R.id.shibboleth_next_btn);
+        mServerUrlEt = (EditText) findViewById(R.id.shibboleth_server_url_et);
+        mHttpPrefixCb = (CheckBox) findViewById(R.id.shibboleth_http_cb);
+

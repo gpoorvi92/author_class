@@ -1,0 +1,10 @@
+	 * Visits a Pinpad DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitPinpad( DevCat devCat );
+
+	/**
+	 * Visits a POSKeyboard DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitPOSKeyboard( DevCat devCat );

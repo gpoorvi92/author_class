@@ -1,0 +1,10 @@
+	private JLabel lblInfo=new JLabel("Ingredient: ");
+	private ImageIcon ABC=new ImageIcon("makanan/nasi goreng kampung.jpeg");
+	private JButton jbtBack =new JButton("Back");
+
+    public NasiGorengKampungInfo() 
+    {
+    	Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));
+		cont.setBackground(Color.white);
+		

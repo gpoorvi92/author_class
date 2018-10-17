@@ -1,0 +1,10 @@
+                }
+            }
+        } catch (MalformedURLException e) {
+            System.err.println("The filename makes no sense.");
+        } catch (IOException e) {
+            System.err.println("Problem reading from file");
+            e.printStackTrace();
+        }
+    }
+}

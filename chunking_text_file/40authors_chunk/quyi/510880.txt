@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(VIRUS_ENGINE_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.virusEngine.size()));
+          for (VirusEngine _iter3 : struct.virusEngine)
+          {
+            _iter3.write(oprot);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();

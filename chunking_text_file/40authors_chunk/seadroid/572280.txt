@@ -1,0 +1,10 @@
+import android.net.Uri;
+
+import com.seafile.seadroid2.SeadroidApplication;
+
+/**
+ * Helper class over which the AccountDBHelper can notify the DocumentProvider that the account
+ * list has changed.
+ *
+ */
+public class AccountNotifier {

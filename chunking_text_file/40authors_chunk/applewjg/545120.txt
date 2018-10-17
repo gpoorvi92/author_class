@@ -1,0 +1,10 @@
+        }
+    }
+    public void nextPermutation_2(int[] num) {
+        int last = num.length - 1;
+        int i = last;
+        while (i > 0 && num[i - 1] >= num [i]) --i;
+        for (int l = i, r = last; l < r; ++l, --r) {
+            num[l] = num[l] ^ num[r];
+            num[r] = num[l] ^ num[r];
+            num[l] = num[l] ^ num[r];

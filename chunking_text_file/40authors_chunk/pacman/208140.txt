@@ -1,0 +1,10 @@
+ * @ClassName: MediaInfo
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014-12-22 12:16:57
+ */
+public final class MediaInfo {
+
+	//private final static ILog logger = LogFactory.getLog(MediaInfo.class);
+	private static boolean gJNILoaded = false; 
+	static {

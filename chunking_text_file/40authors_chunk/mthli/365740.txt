@@ -1,0 +1,10 @@
+   }
+
+}
+
+/**
+ * This table model computes the cell entries each time they are requested. The table contents shows
+ * the growth of an investment for a number of years under different interest rates.
+ */
+class InvestmentTableModel extends AbstractTableModel
+{

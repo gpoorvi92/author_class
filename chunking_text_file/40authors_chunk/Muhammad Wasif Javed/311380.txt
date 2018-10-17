@@ -1,0 +1,10 @@
+		setVisible (true);
+
+	}
+
+	//Action Performed By the Form's Button.
+
+	public void actionPerformed (ActionEvent ae) {
+
+		Object obj = ae.getSource();
+

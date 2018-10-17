@@ -1,0 +1,10 @@
+        if (rememberChoice) {
+            ConcurrentAsyncTask.execute(new Runnable() {
+                @Override
+                public void run() {
+                    db.saveCertificate(account.server, cert);
+                }
+            });
+        }
+
+        Log.d(DEBUG_TAG, "saved cert for account " + account);

@@ -1,0 +1,10 @@
+package model;
+
+import java.util.*;
+
+/**
+ * A collection of vectors
+ */
+public class Vector3DTree
+{
+  /** the 8 directions

@@ -1,0 +1,10 @@
+    // ARMv6
+    public static final int CPU_PART_ARM926 = 0x926;
+    public static final int CPU_PART_ARM946 = 0x946;
+    public static final int CPU_PART_ARM1026 = 0xa26;
+    public static final int CPU_PART_ARM1136 = 0xb36;
+    public static final int CPU_PART_ARM1156 = 0xb56;
+    public static final int CPU_PART_ARM1176 = 0xb76;
+    public static final int CPU_PART_ARM11_MPCORE = 0xb02;
+
+    // ARMv7 Cortex-A

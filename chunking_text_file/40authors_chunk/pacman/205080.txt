@@ -1,0 +1,10 @@
+		try {
+			
+			sender = mqFactory.getSender(dest);
+			sender.sendObject(msg);
+		} finally {
+			
+			sender.Close();
+		}
+		
+	}

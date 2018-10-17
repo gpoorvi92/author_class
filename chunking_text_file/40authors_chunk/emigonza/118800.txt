@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// ImageScannerConst
+//
+//   ImageScanner constants for JavaPOS Applications.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 2007-Jan-04 JavaPOS Release 1.11                                BS
+//   New device category.

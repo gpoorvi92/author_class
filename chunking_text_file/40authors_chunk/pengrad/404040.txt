@@ -1,0 +1,10 @@
+            keyboardButtons[i] = new KeyboardButton[keyboard[i].length];
+            for (int j = 0; j < keyboard[i].length; j++) {
+                keyboardButtons[i][j] = new KeyboardButton(keyboard[i][j]);
+            }
+        }
+        this.keyboard = keyboardButtons;
+        this.resize_keyboard = resize_keyboard;
+        this.one_time_keyboard = one_time_keyboard;
+        this.selective = selective;
+    }

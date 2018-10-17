@@ -1,0 +1,10 @@
+        		}
+        	}else{
+        		if(userService.findUserByID((Integer) request.getSession().getAttribute("userID")) == null){
+        			request.getSession().setAttribute("userID", null);
+        			response.getWriter().write("noUserLogin");
+        			return false;
+        		}
+        		return true;
+        	}
+        }

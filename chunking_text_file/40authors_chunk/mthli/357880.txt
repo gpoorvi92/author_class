@@ -1,0 +1,10 @@
+package read;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * This program shows how to use an XML file to describe a gridbag layout
+ * @version 1.11 2012-06-03

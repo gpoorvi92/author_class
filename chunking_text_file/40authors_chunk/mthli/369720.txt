@@ -1,0 +1,10 @@
+         if (start)
+         {  
+            if (command.equals("-")) 
+            { 
+               display.append(command); 
+               start = false; 
+            }
+            else 
+               lastCommand = command;
+         }

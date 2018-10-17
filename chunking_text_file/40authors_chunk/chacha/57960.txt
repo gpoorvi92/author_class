@@ -1,0 +1,10 @@
+			JsonGenerationException, IOException {
+		LoginRequest lr=(LoginRequest)JsonPojoMapper.fromJson(json, LoginRequest.class);
+		this.setOpt(lr.getOpt());
+	}
+
+	public static void main(String[] args){
+		LoginRequest login=new LoginRequest();
+		LoginBody body=new LoginBody("chacha1","fdafdgwqtgsadfadf",LoginBody.ACTION_TOKEN);
+		login.setBody(body);
+		try{

@@ -1,0 +1,10 @@
+				"', Address ='" + h +
+				"', Tel ='" + i +
+				"', fax ='" + j +
+				"', email ='" + k +
+				"', group_type ='" + group_combo.getSelectedItem() +
+				"' WHERE id = '" + a + "'";
+														
+				
+				int result = statement.executeUpdate(query1);
+				

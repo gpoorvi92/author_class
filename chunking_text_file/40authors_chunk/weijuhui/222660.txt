@@ -1,0 +1,10 @@
+
+	private int[] imageIds = { R.drawable.recoms,R.drawable.food,
+			R.drawable.ktv,R.drawable.moive };
+
+	private ScrollLayout mScrollLayout;
+
+	private int currentItem;
+	private int duration = 4000; // 间隔秒数
+	private boolean isBack; // 是否回滚
+

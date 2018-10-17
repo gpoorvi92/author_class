@@ -1,0 +1,10 @@
+
+	/**
+	 * Fired when the upload of the file specified by the fileId has been cancelled for the client
+	 * specified by the clientId.
+	 * 
+	 * @param clientId
+	 * @param fileId
+	 */
+	void onFileUploadCancelled(UUID clientId, UUID fileId);
+

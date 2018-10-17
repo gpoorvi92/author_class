@@ -1,0 +1,7 @@
+
+    public static void notifyProvider() {
+        Context c = SeadroidApplication.getAppContext();
+        c.getContentResolver().notifyChange(NOTIFICATION_URI, null);
+    }
+
+}

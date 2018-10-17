@@ -1,0 +1,10 @@
+					int index = content.getPhysicalNumberOfCells();
+					HSSFCell cell = content.createCell(index);
+					cell.setCellValue(string);
+					cell.setCellStyle(style);
+				}
+				Double[] contentDoubles = {(Double)map.get("allAccount"),(Double)map.get("allRece"),(Double)map.get("allRealIn"),(Double)map.get("owe")};
+				for (Double dou : contentDoubles) {
+					CellStyle style = book.createCellStyle();
+					style.setAlignment(CellStyle.ALIGN_RIGHT);
+					int index = content.getPhysicalNumberOfCells();

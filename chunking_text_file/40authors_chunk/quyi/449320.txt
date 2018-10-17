@@ -1,0 +1,10 @@
+      super(iprot, oprot);
+    }
+
+    public com.nercis.isscp.idl.Result issuedMessage(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<String> rules, List<com.nercis.isscp.idl.PlotsType> plots) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_issuedMessage(missionId, userApps, rules, plots);
+      return recv_issuedMessage();
+    }
+
+    public void send_issuedMessage(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<String> rules, List<com.nercis.isscp.idl.PlotsType> plots) throws org.apache.thrift.TException

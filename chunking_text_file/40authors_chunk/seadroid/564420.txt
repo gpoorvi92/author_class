@@ -1,0 +1,10 @@
+    @Override
+    protected GetShareLinkTask prepareTask() {
+        GetShareLinkTask task = new GetShareLinkTask(repoID, path, isdir, conn);
+        return task;
+    }
+
+    public String getLink() {
+        if (getTask() != null) {
+            GetShareLinkTask task = (GetShareLinkTask)getTask();
+            return task.getResult();

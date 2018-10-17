@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.AncestorListener ///
+
+package org.genie.javax_swing;
+
+public class AncestorListenerProxy implements javax.swing.event.AncestorListener {
+
+    long swiftObject;
+
+    AncestorListenerProxy( long swiftObject ) {

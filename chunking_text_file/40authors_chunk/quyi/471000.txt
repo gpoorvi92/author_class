@@ -1,0 +1,10 @@
+      args.setUseRule(useRule);
+      sendBase("submitMission", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_submitMission() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      submitMission_result result = new submitMission_result();
+      receiveBase(result, "submitMission");
+      if (result.isSetSuccess()) {
+        return result.success;

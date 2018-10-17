@@ -1,0 +1,10 @@
+				mintResult = s1.mstrRefDocnum.compareTo(s2.mstrRefDocnum);
+				break;
+			case 19:
+				mintResult = s1.mstrRefDoclineum.compareTo(s2.mstrRefDoclineum);
+				break;
+			case 20:
+				mintResult = s1.mstrCompanyDesc.compareTo(s2.mstrCompanyDesc);
+				break;
+			case 21:
+				mintResult = s1.mstrDivisionDesc.compareTo(s2.mstrDivisionDesc);

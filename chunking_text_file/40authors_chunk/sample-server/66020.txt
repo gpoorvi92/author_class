@@ -1,0 +1,10 @@
+    public boolean haveLimit(Limit limit)
+    {
+        return haveLimit(limit.getMark());
+    }
+    public boolean haveLimit(long mark)
+    {
+        return (this.limits & mark) != 0;
+    }
+    public String getAccount()
+    {

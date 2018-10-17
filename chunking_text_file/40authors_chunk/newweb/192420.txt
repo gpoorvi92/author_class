@@ -1,0 +1,10 @@
+
+	boolean modify(Bill bill);
+
+	@SuppressWarnings("rawtypes")
+	List queryBillStoreByStatusACreateDateTimeACustomerJsons(String status,String startDate, String endDate,
+			String customer, int start, int limit);
+
+	String[] queryDistinctStatus();
+
+	Bill[] queryAllBills();

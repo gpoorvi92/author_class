@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetColumnNum()) {
+        optionals.set(12);
+      }
+      if (struct.isSetRiskDescription()) {
+        optionals.set(13);
+      }
+      oprot.writeBitSet(optionals, 14);
+      if (struct.isSetApiName()) {
+        oprot.writeString(struct.apiName);

@@ -1,0 +1,10 @@
+
+        private ReposFragment reposFragment = null;
+        private ActivitiesFragment activitieFragment = null;
+        private StarredFragment starredFragment = null;
+
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+            case 0:
+                if (reposFragment == null) {

@@ -1,0 +1,10 @@
+  public int     getSensorWidth() throws JposException;
+
+  // Methods
+  public void    beginEnrollCapture(byte[] referenceBIR,
+                                    byte[] payload)
+                     throws JposException;
+  public void    beginVerifyCapture()
+                     throws JposException;
+  public void    clearInput()  throws JposException;
+  public void    clearInputProperties()

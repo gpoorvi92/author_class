@@ -1,0 +1,10 @@
+        ActivityUtil.addActivity(this);
+        SmartBarUtils.hide(this);
+    }
+
+    protected void onDestroy() {
+        super.onDestroy();
+        ActivityUtil.removeActivity(this);
+    }
+
+    public void finishWithAnim(TransactionUtil.Transaction transaction) {

@@ -1,0 +1,10 @@
+        }
+        if (incoming.get(2)) {
+          struct.useRule = iprot.readString();
+          struct.setUseRuleIsSet(true);
+        }
+      }
+    }
+
+  }
+

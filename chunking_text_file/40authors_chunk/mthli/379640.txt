@@ -1,0 +1,10 @@
+      public int getY()
+      {
+         return y;
+      }
+
+   }
+
+   public static void main(String[] args) throws Exception
+   {
+      PersistenceDelegate delegate = new PersistenceDelegate()

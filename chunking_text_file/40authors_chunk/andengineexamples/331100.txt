@@ -1,0 +1,10 @@
+			case MENU_QUIT:
+				/* End Activity. */
+				this.finish();
+				return true;
+			default:
+				return false;
+		}
+	}
+
+	// ===========================================================

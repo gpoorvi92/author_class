@@ -1,0 +1,10 @@
+    protected void onCancelled() {
+        state = TaskState.CANCELLED;
+    }
+
+    @Override
+    public DownloadTaskInfo getTaskInfo() {
+        DownloadTaskInfo info = new DownloadTaskInfo(account, taskID, state, repoID,
+                repoName, path, localPath, totalSize, finished, err);
+        return info;
+    }

@@ -1,0 +1,10 @@
+				Assert.assertEquals(bs1, bs2);
+			}
+		}
+	}
+	
+
+	@Test
+	public void testClearRanges() throws IOException {
+		int N = 256;
+		for(int end = 1; end < N; ++end ) {

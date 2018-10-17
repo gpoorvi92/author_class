@@ -1,0 +1,10 @@
+            String key = getRandomString();
+            while (contain(key, zoneId))
+            {
+                key = getRandomString();
+            }
+            //Criterion crt = Restrictions.eq("cdKey", key);
+            //List<CDKeyEntity> cdkeyTemp = Dao.getInstance().selectList(CDKeyEntity.class, crt);
+            //if (null == cdkeyTemp || cdkeyTemp.size() == 0)
+            //{
+            CDKeyEntity cdKeyEntity = new CDKeyEntity();

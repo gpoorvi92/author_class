@@ -1,0 +1,10 @@
+      break;
+
+    case MD5:
+      if (value == null) {
+        unsetMD5();
+      } else {
+        setMD5((String)value);
+      }
+      break;
+

@@ -1,0 +1,10 @@
+public class Run4_waitHasParam2 {
+    static private Object lock = new Object();
+    static private Runnable runnable1 = new Runnable() {
+        public void run() {
+            try {
+                synchronized (lock) {
+                    System.out.println("wait begin timer=" + System.currentTimeMillis());
+                    lock.wait(5000);
+                    System.out.println("wait end timer=" + System.currentTimeMillis());
+                }

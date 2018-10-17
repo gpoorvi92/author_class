@@ -1,0 +1,10 @@
+		}
+		
+		ArgumentList argList = action.getArgumentList();
+		int nArgs = argList.size();
+		for (int n=0; n<nArgs; n++) {
+			Argument arg = argList.getArgument(n);
+			if (arg.isOutDirection() == false)
+				continue;
+			Node argNode = new Node();
+			argNode.setName(arg.getName());

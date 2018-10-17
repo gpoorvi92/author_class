@@ -1,0 +1,10 @@
+    if (isSetNodeId()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.nodeId, other.nodeId);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCpuUsedPerc()).compareTo(other.isSetCpuUsedPerc());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

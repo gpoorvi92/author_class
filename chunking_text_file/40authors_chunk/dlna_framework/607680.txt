@@ -1,0 +1,10 @@
+*	05/11/09
+*		- First revision for Android.
+*
+******************************************************************/
+
+package org.cybergarage.xml.parser;
+
+import java.io.*;
+
+import org.xmlpull.v1.*;

@@ -1,0 +1,10 @@
+				outBytes = dict.fetchEntry(code); 
+
+				//add (previous Entry U first byte of outBytes) to Dictionary
+				byte[] newEntry = new byte[previous.length+1];
+				System.arraycopy(previous, 0, newEntry, 0, previous.length);
+				newEntry[previous.length] = outBytes[0];
+
+				dict.dInsert(nextCode, newEntry); 
+
+				// Dictionary has the code, output its Entry 

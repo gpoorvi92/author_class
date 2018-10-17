@@ -1,0 +1,10 @@
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<com.nercis.isscp.idl.Result>() { 
+          public void onComplete(com.nercis.isscp.idl.Result o) {
+            modifyTaskManagerConfig_result result = new modifyTaskManagerConfig_result();
+            result.success = o;
+            try {
+              fcall.sendResponse(fb,result, org.apache.thrift.protocol.TMessageType.REPLY,seqid);
+              return;
+            } catch (Exception e) {
+              LOGGER.error("Exception writing to internal frame buffer", e);

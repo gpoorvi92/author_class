@@ -1,0 +1,10 @@
+    //#### Check Scanner Constants
+    //###################################################################
+
+    /////////////////////////////////////////////////////////////////////
+    // "CapColor" Capability Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CHK_CCL_MONO      = 0x00000001;
+    public static final int CHK_CCL_GRAYSCALE = 0x00000002;
+    public static final int CHK_CCL_16        = 0x00000004;

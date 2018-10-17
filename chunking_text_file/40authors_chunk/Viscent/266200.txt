@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch3.immutableobject.example;
+
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+public class VehicleTracker {
+

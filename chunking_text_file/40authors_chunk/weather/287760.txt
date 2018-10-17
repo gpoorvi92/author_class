@@ -1,0 +1,10 @@
+        return result;
+    }
+
+
+    /**
+     * 通过名称 查找对应的drawableid
+     *
+     * @param name
+     * @return
+     */

@@ -1,0 +1,10 @@
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.login, "");
+	}
+
+	public void registerBtnClick(View v) {
+		Intent intent = new Intent(this, RegisterActivity.class);
+		startActivity(intent);
+	}

@@ -1,0 +1,10 @@
+                        if (mOnInfoListener != null) {
+                            mOnInfoListener.onInfo(this,
+                                    MediaPlayer.MEDIA_INFO_BUFFERING_START, 0);
+                        }
+                    }
+
+                    if (percent >= 100.0f) {
+                        /*
+                         * if (mOnInfoListener != null) {
+                         * mOnInfoListener.onInfo(LibVlcMediaPlayer.this,

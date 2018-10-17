@@ -1,0 +1,10 @@
+ * Upload task manager
+ * <p/>
+ */
+public class UploadTaskManager extends TransferManager implements UploadStateListener {
+    private static final String DEBUG_TAG = "UploadTaskManager";
+
+    public static final String BROADCAST_FILE_UPLOAD_SUCCESS = "uploaded";
+    public static final String BROADCAST_FILE_UPLOAD_FAILED = "uploadFailed";
+    public static final String BROADCAST_FILE_UPLOAD_PROGRESS = "uploadProgress";
+    public static final String BROADCAST_FILE_UPLOAD_CANCELLED = "uploadCancelled";

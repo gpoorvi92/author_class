@@ -1,0 +1,10 @@
+		public synchronized String xGuarededMethod(final String message) {
+			GuardedAction<String> ga = new GuardedAction<String>(stateBeOK) {
+
+				@Override
+				public String call() throws Exception {
+					return message + "->received.";
+				}
+
+			};
+			String result = null;

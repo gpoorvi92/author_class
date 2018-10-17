@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取票据创建时间。
+	 * @return 票据创建时间。
+	 * */
+	public Date getCreateTime() {
+		return createTime;
+	}
+	/**
+	 * 设置票据创建时间。

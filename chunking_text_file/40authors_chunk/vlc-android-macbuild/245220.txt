@@ -1,0 +1,10 @@
+                    .findViewById(android.R.id.content)
+                    .setOnSystemUiVisibilityChangeListener(listener);
+        }
+    }
+
+    @TargetApi(16)
+    public static void requestFitSysWindow(View view) {
+        if (view == null)
+            return;
+

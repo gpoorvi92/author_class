@@ -1,0 +1,10 @@
+ * This frame contains the investment table.
+ */
+class InvestmentTableFrame extends JFrame
+{
+   public InvestmentTableFrame()
+   {
+      TableModel model = new InvestmentTableModel(30, 5, 10);
+      JTable table = new JTable(model);
+      add(new JScrollPane(table));
+      pack();

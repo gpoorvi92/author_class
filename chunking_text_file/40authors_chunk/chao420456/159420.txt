@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.Scanner;
+
+/*
+ * 统计一个字符串中大写字母字符，小写字母字符，数字字符出现的次数。(不考虑其他字符)
+ * 举例：Hello123World
+ * 结果：
+ * 		大写：2
+ * 		小写：8

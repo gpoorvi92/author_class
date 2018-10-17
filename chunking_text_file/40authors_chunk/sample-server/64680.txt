@@ -1,0 +1,10 @@
+            }
+        }
+        for (GameServerRpcClient each : gameServerRpcClientMap.values())
+        {
+            try
+            {
+                each.shutdown();
+            } catch (Exception e)
+            {
+                log.error("", e);

@@ -1,0 +1,10 @@
+		this.mMainScene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		final Sprite face = new Sprite(0, 0, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		face.registerEntityModifier(new MoveModifier(30, 0, CAMERA_WIDTH - face.getWidth(), 0, CAMERA_HEIGHT - face.getHeight()));
+		this.mMainScene.attachChild(face);
+
+		return this.mMainScene;
+	}
+
+	@Override

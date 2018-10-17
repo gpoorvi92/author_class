@@ -1,0 +1,10 @@
+                ArrayList<String> params = new ArrayList<String>();
+                CollectionHelper.Append(params, sDefaultParameters);
+
+                DebugLog.v(TAG, "libvlc arguments:");
+                for (String par : params) {
+                    DebugLog.v(TAG, "    " + par);
+                }
+
+                sInstance.initEx(params.toArray(new String[params.size()]));
+            }

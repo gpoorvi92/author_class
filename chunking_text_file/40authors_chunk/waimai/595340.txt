@@ -1,0 +1,8 @@
+        return goodsCollectionList;
+    }
+
+    @Override
+    public boolean isExist(GoodsCollection goodsCollection) {
+        return goodsCollectionMapper.countByUserIdAndGoodsId(goodsCollection) > 0 ? true : false;
+    }
+}

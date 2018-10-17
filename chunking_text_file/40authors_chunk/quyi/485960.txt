@@ -1,0 +1,10 @@
+    public boolean isSetStcRD() {
+      return this.stcRD != null;
+    }
+
+    public void setStcRDIsSet(boolean value) {
+      if (!value) {
+        this.stcRD = null;
+      }
+    }
+

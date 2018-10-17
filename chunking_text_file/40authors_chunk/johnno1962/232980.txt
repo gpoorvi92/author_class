@@ -1,0 +1,10 @@
+    boolean entered_getTableCellRendererComponent_0;
+
+    public java.awt.Component getTableCellRendererComponent( javax.swing.JTable table, java.lang.Object value, boolean isSelected, boolean hasFocus, int row, int column ) {
+        if ( !entered_getTableCellRendererComponent_0 ) {
+            entered_getTableCellRendererComponent_0 = true;
+            java.awt.Component __return = __getTableCellRendererComponent( table, value, isSelected, hasFocus, row, column );
+            entered_getTableCellRendererComponent_0 = false;
+            return __return;
+        }
+        else

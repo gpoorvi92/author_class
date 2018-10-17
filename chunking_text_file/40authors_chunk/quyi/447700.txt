@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_osName = true && this.isSetOsName();
+    boolean that_present_osName = true && that.isSetOsName();
+    if (this_present_osName || that_present_osName) {
+      if (!(this_present_osName && that_present_osName))
+        return false;
+      if (!this.osName.equals(that.osName))
+        return false;

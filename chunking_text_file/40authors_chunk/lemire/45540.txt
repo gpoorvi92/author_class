@@ -1,0 +1,4 @@
+     * @return the result of the operation
+     */
+    T compose(T le);
+}

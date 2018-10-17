@@ -1,0 +1,10 @@
+            }
+        } while(true);
+        int secondCount = in.read(buf, off, len);
+        return secondCount >= 0 ? firstCount + secondCount : firstCount;
+    }
+
+    public int read(byte buf[])
+        throws IOException
+    {
+        return read(buf, 0, buf.length);

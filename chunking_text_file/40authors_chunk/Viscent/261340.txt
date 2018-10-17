@@ -1,0 +1,10 @@
+	};
+
+	// 私有构造器
+	private ThreadSpecificSecureRandom() {
+		
+	}
+
+	public int nextInt(int upperBound) {
+		SecureRandom secureRnd = SECURE_RANDOM.get();
+		return secureRnd.nextInt(upperBound);

@@ -1,0 +1,6 @@
+                    new String[] { String.valueOf(item.id) });
+        } else
+            return database.delete(PHOTOCACHE_TABLE_NAME,  PHOTOCACHE_COLUMN_REPO_ID + "=? and " + PHOTOCACHE_COLUMN_PATH + "=?",
+                new String[] { item.repoID, item.path });
+    }
+}

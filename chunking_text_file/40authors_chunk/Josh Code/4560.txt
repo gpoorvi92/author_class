@@ -1,0 +1,10 @@
+    public int getNumberOfTriangles()
+    {
+       return numTriangles;
+    }
+
+    public Triangle[] getTriangles()
+    {
+       return triangles;
+    }
+}

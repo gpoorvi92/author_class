@@ -1,0 +1,10 @@
+    if (this.functionStatus == null) {
+      this.functionStatus = new HashMap<String,CheckResultStatus>();
+    }
+    this.functionStatus.put(key, val);
+  }
+
+  public Map<String,CheckResultStatus> getFunctionStatus() {
+    return this.functionStatus;
+  }
+

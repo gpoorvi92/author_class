@@ -1,0 +1,10 @@
+        currentLoc = startLoc;
+        goalLoc = maze.goalLoc;
+        searchPath[pathCount++] = currentLoc;
+    }
+
+    protected boolean equals(Location d1, Location d2) {
+        return d1.x == d2.x && d1.y == d2.y;
+    }
+
+    public Location [] getPath() {

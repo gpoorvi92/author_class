@@ -1,0 +1,10 @@
+
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+
+import com.newweb.model.base.MaterialBrand;
+
+/**
+ * 铝材表
+ * @author qianlong
+ *

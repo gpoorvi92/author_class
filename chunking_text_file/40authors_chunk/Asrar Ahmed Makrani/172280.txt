@@ -1,0 +1,10 @@
+ 			con = DriverManager.getConnection(url);
+ 		}
+ 		catch(ClassNotFoundException cnfex)  {
+ 			System.err.println("Failed to load driver");
+ 			cnfex.printStackTrace();
+ 			System.exit(1);
+ 		}
+ 		catch(SQLException sqlex){
+ 			System.err.println("unable to connect");
+ 			sqlex.printStackTrace();

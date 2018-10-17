@@ -1,0 +1,10 @@
+         out.print("            = new java.beans.PropertyDescriptor(\"");
+         out.print(e.getKey());
+         out.print("\", ");
+         out.print(beanClassName);
+         out.println(".class);");
+         String ed = e.getValue().editor().toString();
+         if (!ed.equals(""))
+         {
+            out.print("         ");
+            out.print(e.getKey());

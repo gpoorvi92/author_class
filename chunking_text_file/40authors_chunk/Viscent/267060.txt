@@ -1,0 +1,10 @@
+	}
+
+	public void setSenderAddress(String senderAddress) {
+		this.senderAddress = senderAddress;
+	}
+
+	public Recipient getRecipient() {
+		return recipient;
+	}
+

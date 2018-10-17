@@ -1,0 +1,10 @@
+    public void handle(final RpcPacketWrapper wrapper)
+    {
+        Rpc.RpcPacket rpcPacket = wrapper.packet;
+        String requestClassName = rpcPacket.getOpcode();
+        Invoker invoker = invokerMap.get(requestClassName);
+        if (null == invoker)
+        {
+            log.info("unknown request type:{}", requestClassName);
+        }
+        else

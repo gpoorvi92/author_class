@@ -1,0 +1,10 @@
+/********************************************************  
+ * Copyright © 2014 HuJiang.com. All rights reserved.
+ *
+ * @Title: MockModel.java
+ * @Prject: libMsgLayer
+ * @Package: com.yeshj.pacman.jms.test
+ * @Description: packing and transcoding the classware of hujiang.com.
+ *                 http://class.hujiang.com
+ *
+ * @author: zhangxinyu  

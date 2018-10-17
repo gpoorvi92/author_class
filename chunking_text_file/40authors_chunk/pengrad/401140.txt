@@ -1,0 +1,10 @@
+
+    private String video_url;
+    private String mime_type;
+    private String thumb_url;
+    private String title;
+
+    private String caption;
+    private Integer video_width;
+    private Integer video_height;
+    private Integer video_duration;

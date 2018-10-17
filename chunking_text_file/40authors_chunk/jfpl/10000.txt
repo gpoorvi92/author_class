@@ -1,0 +1,10 @@
+				sendFinishState.setVisibility(View.VISIBLE);
+				if ("0".equals(sendStateFlag)) {
+					sendFinishState.setImageResource(R.drawable.done_holo);
+				} else if ("1".equals(sendStateFlag)
+						|| "3".equals(sendStateFlag)) {
+					sendFinishState.setImageResource(R.drawable.holo_undone);
+				} else if ("2".equals(sendStateFlag)) {
+					// sendFinishState.setImageResource(R.drawable.holo_undone);
+					Log.d(SystemUtil.LOG_MSG, "init again list item");
+					sendState.setVisibility(View.VISIBLE);

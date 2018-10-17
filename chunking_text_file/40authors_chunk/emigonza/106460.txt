@@ -1,0 +1,10 @@
+
+  public static final int RFID_CWT_NONE                        = 0;
+  public static final int RFID_CWT_ID                          = 1;
+  public static final int RFID_CWT_USERDATA                    = 2;
+  public static final int RFID_CWT_ALL                         = 3;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "CapMultipleProtocols", "CurrentTagProtocol", and
+  // "ProtocolMask" Property Constants

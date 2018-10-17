@@ -1,0 +1,10 @@
+      state = new DefaultMutableTreeNode("Michigan");
+      country.add(state);
+      city = new DefaultMutableTreeNode("Ann Arbor");
+      state.add(city);
+      country = new DefaultMutableTreeNode("Germany");
+      root.add(country);
+      state = new DefaultMutableTreeNode("Schleswig-Holstein");
+      country.add(state);
+      city = new DefaultMutableTreeNode("Kiel");
+      state.add(city);

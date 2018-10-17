@@ -1,0 +1,10 @@
+    private int pageSize = 0;
+    private int totalCount = 0;
+    private String orderField;
+    private String orderDirection;
+    private String keywords;
+    private String status;
+    private String type;
+    private Date startDate;
+    private Date endDate;
+

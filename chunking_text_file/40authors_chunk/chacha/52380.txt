@@ -1,0 +1,10 @@
+import java.nio.CharBuffer;
+import java.nio.channels.SocketChannel;
+import java.nio.charset.Charset;
+
+/**
+ * 
+ *	@author: Fully
+ */
+public class ChannelHelper {
+	protected SocketChannel sc;

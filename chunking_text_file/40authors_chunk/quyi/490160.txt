@@ -1,0 +1,10 @@
+              _key88 = iprot.readString();
+              _val89 = com.nercis.isscp.idl.CheckResultStatus.findByValue(iprot.readI32());
+              struct.functionStatus.put(_key88, _val89);
+            }
+          }
+          struct.setFunctionStatusIsSet(true);
+        }
+      }
+    }
+

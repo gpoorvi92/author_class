@@ -1,0 +1,10 @@
+	 * 将请求事件消息解析成对象。
+	 * @param event
+	 *  事件消息基类。
+	 *  @param data
+	 *  请求消息。
+	 * */
+	private static void parseEventMessage(EventMessage event, Map<String, String> data){
+		if(event != null && data != null && data.size() > 0){
+			event.setToUserName(data.get("ToUserName"));
+			event.setFromUserName(data.get("FromUserName"));

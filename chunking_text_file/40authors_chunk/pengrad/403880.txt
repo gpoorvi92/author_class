@@ -1,0 +1,10 @@
+    private Location location;
+    private String inline_message_id;
+    private String query;
+
+    public String resultId() {
+        return result_id;
+    }
+
+    public User from() {
+        return from;

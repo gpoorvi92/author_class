@@ -1,0 +1,10 @@
+      final Properties props = new Properties();
+      props.load(Class.forName(superclassName).getResourceAsStream("action.properties"));
+      for (Map.Entry<Object, Object> e : props.entrySet())
+      {
+         String beanName = (String) e.getKey();
+         String eventCode = (String) e.getValue();
+         source.append(beanName + ".addActionListener(new java.awt.event.ActionListener() {");
+         source.append("public void actionPerformed(java.awt.event.ActionEvent event) {");
+         source.append(eventCode);
+         source.append("} } );");

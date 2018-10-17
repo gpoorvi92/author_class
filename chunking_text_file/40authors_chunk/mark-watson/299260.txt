@@ -1,0 +1,10 @@
+    Neural_2H_momentum nn = new Neural_2H_momentum(3, 3, 3, 3, 0.75f);
+    Plot1DPanel inputPanel = new Plot1DPanel(3,   0.0f, 1.0f, nn.inputs);
+    Plot1DPanel hidden1Panel = new Plot1DPanel(3, 0.0f, 1.0f, nn.hidden1);
+    Plot1DPanel hidden2Panel = new Plot1DPanel(3, 0.0f, 1.0f, nn.hidden2);
+    Plot1DPanel outputPanel = new Plot1DPanel(3,  0.0f, 1.0f, nn.outputs);
+    Plot2DPanel w1Panel = new Plot2DPanel(3, 3, nn.clampWeight(-100), nn.clampWeight(100), nn.W1);
+    Plot2DPanel w2Panel = new Plot2DPanel(3, 3, nn.clampWeight(-100), nn.clampWeight(100), nn.W2);
+    Plot2DPanel w3Panel = new Plot2DPanel(3, 3, nn.clampWeight(-100), nn.clampWeight(100), nn.W3);
+    JButton jButton1 = new JButton(); 
+    JLabel jLabel1 = new JLabel();

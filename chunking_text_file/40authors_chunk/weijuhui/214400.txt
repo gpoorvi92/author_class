@@ -1,0 +1,10 @@
+        }
+    }
+    
+    private static void clipLeft(final Canvas canvas,final Paint paint,int offset,int width,int height){
+        final Rect block = new Rect(offset,0,width,height);
+        canvas.drawRect(block, paint);
+        final RectF rectF = new RectF(0, 0, offset * 2 , height);
+        canvas.drawRoundRect(rectF, offset, offset, paint);
+    }
+    

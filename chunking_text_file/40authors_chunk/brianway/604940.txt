@@ -1,0 +1,10 @@
+ThreadName=Thread-5获得锁定
+ThreadName=Thread-2获得锁定
+ThreadName=Thread-4获得锁定
+ThreadName=Thread-9获得锁定
+ThreadName=Thread-3获得锁定
+ThreadName=Thread-1获得锁定
+ThreadName=Thread-7获得锁定
+ThreadName=Thread-8获得锁定
+
+----------------------------------

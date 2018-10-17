@@ -1,0 +1,10 @@
+		mapController.setZoom(17.2f);
+		int upGap = position == 0 ? 0 : 500;
+		showBubble(acd, upGap);
+	}
+
+	@Override
+	public void onReceiveLocation(BDLocation location) {
+		ld = new LocationData();
+		ld.latitude = location.getLatitude();
+		ld.longitude = location.getLongitude();

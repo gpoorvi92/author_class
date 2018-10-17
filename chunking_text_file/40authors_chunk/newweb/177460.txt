@@ -1,0 +1,10 @@
+			return true;
+		Set<Bxg> bxgs = mb.getBxgs();
+		for (Bxg bxg : bxgs) {
+			if(bxg.getOrderBxgs().size() > 0)
+				return true;
+		}
+		return false;
+	}
+
+	@Override

@@ -1,0 +1,10 @@
+
+    public String address() {
+        return address;
+    }
+
+    public String foursquareId() {
+        return foursquare_id;
+    }
+
+    @Override

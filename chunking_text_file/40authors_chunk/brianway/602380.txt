@@ -1,0 +1,10 @@
+i=6
+i=7
+i=8
+i=9
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.brianway.learning.java.multithread.meet.MyThread8.run(Run8_interrupted01.java:18)
+Thread.interrupted()，是否停止1？=false
+Thread.interrupted()，是否停止2？=false
+end

@@ -1,0 +1,10 @@
+    * Apply a filter and repaint.
+    * @param op the image operation to apply
+    */
+   private void filter(BufferedImageOp op)
+   {
+      if (image == null) return;
+      image = op.filter(image, null);
+      repaint();
+   }
+

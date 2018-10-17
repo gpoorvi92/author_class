@@ -1,0 +1,10 @@
+     * Hexadecimal digits
+     */
+    public static final String  REG_XDIGIT              = "\\p{XDigit}";
+    /**
+     * 空白行
+     */
+    public static final String  REG_SPACE_LINE          = "\\n\\s*\\r";
+    /**
+     * 首尾空白字符
+     */

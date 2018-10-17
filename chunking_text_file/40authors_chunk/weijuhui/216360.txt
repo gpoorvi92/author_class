@@ -1,0 +1,10 @@
+			String tmp = arr[ran];
+			keywordsFlow.feedKeyword(tmp);
+		}
+	}
+
+	private void initState(int flag) {
+		switch (flag) {
+		case Constant.ITEM_VALUE_TITLE:
+			title.setText("编辑标题");
+			initKeywordsFlow(buildTitleKeyword());

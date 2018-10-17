@@ -1,0 +1,10 @@
+package pair2;
+
+import java.util.*;
+
+/**
+ * @version 1.01 2012-01-26
+ * @author Cay Horstmann
+ */
+public class PairTest2
+{

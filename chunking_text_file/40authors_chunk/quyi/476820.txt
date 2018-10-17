@@ -1,0 +1,10 @@
+            }
+          }
+        }
+        if (struct.isSetUseRule()) {
+          oprot.writeString(struct.useRule);
+        }
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, submitMission_args struct) throws org.apache.thrift.TException {

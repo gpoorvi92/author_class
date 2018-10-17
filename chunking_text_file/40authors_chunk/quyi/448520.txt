@@ -1,0 +1,10 @@
+      if (struct.isSetOsName()) {
+        oprot.writeString(struct.osName);
+      }
+      if (struct.isSetOsDesc()) {
+        oprot.writeString(struct.osDesc);
+      }
+      if (struct.isSetOsVersion()) {
+        oprot.writeString(struct.osVersion);
+      }
+      if (struct.isSetJvmName()) {

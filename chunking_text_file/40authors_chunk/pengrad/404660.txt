@@ -1,0 +1,10 @@
+                for (int z = 0; z < updates.size(); z++) {
+                    j = updates.get(z).updateId() + 1;
+                    Message message = updates.get(z).message();
+                    //
+                    Chat chat = message.chat();
+                    User user = message.from();
+                    //String mes=message.text();
+
+                    // Base64.getEncoder().encodeToString(s.getBytes(StandardCharsets.UTF_8));
+                    if (message.text() != null) {

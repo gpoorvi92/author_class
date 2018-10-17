@@ -1,0 +1,10 @@
+	
+	@Autowired
+	private BillDao billDao;
+	@Autowired
+	private OrderService orderService;
+
+	@Override
+	public boolean save(Bill bill) {
+		bill.setCreateDate(DateUtil.getLocationCurrentDate());
+		bill.setCreateTime(DateUtil.getLocationCurrentTime());

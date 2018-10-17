@@ -1,0 +1,10 @@
+	 */
+	public boolean analyzeMedia(String mediaFile) {
+		
+		if (gJNILoaded) {
+			return nativeAnalyzeMedia(mediaFile);
+		}
+		return false;
+	}
+
+	/**

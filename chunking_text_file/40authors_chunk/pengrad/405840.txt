@@ -1,0 +1,10 @@
+        if (emoji != null ? !emoji.equals(sticker.emoji) : sticker.emoji != null) return false;
+        return file_size != null ? file_size.equals(sticker.file_size) : sticker.file_size == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return file_id != null ? file_id.hashCode() : 0;
+    }
+
+    @Override

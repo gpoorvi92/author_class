@@ -1,0 +1,10 @@
+        return nickname;
+    }
+
+    public void setNickname(String nickname) {
+        this.nickname = nickname == null ? null : nickname.trim();
+    }
+
+    /******************************* 非持久化属性 **************************************/
+    private String code;
+

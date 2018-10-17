@@ -1,0 +1,10 @@
+
+        try {
+            synchronized (status) {
+                status.mThumbRequesting = true;
+            }
+            if (isVideo) {
+                return Video.Thumbnails.getThumbnail(cr, origId, t.getId(),
+                        kind, null);
+            } else {
+                return Images.Thumbnails.getThumbnail(cr, origId, t.getId(),

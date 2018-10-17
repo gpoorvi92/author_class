@@ -1,0 +1,10 @@
+import java.io.*;
+import java.awt.*;
+import java.util.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public interface reportInterface{
+	
+	public JLabel item_id_label = new JLabel("Item ID");
+	public JLabel item_title_label = new JLabel("Item Title");

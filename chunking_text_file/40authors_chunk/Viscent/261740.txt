@@ -1,0 +1,7 @@
+
+		};
+		scheduler.submit(methodRequest);
+
+		requestSubmittedPerIterval.incrementAndGet();
+	}
+}

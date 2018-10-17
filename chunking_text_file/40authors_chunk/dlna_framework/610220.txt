@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public AllowedValueRange(Node node)
+	{
+		allowedValueRangeNode = node;
+	}
+
+	public AllowedValueRange(){
+		//TODO Test
+		allowedValueRangeNode = new Node(ELEM_NAME);

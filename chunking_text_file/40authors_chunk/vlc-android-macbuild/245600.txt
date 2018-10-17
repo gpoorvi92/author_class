@@ -1,0 +1,10 @@
+
+    // avcodec optimize
+    public static final String[] sAvcodecOptimize_SkipMost = new String[] {
+            ":avcodec-skiploopfilter=4", ":avcodec-skip-frame=1",
+            ":avcodec-skip-idct=1", };
+    public static final String[] sAvcodecOptimize_SkipLoopfilter_None = new String[] { ":avcodec-skiploopfilter=0" };
+    public static final String[] sAvcodecOptimize_SkipLoopfilter_NonRef = new String[] { ":avcodec-skiploopfilter=1" };
+    public static final String[] sAvcodecOptimize_SkipLoopfilter_BiDir = new String[] { ":avcodec-skiploopfilter=2" };
+    public static final String[] sAvcodecOptimize_SkipLoopfilter_NonKey = new String[] { ":avcodec-skiploopfilter=3" };
+    public static final String[] sAvcodecOptimize_SkipLoopfilter_All = new String[] { ":avcodec-skiploopfilter=4" };

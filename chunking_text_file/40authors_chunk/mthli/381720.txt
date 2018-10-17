@@ -1,0 +1,10 @@
+            Node propertyElement = children.item(i);
+            Element nameElement = (Element) propertyElement.getFirstChild();
+            String propertyName = ((Text) nameElement.getFirstChild()).getData();
+
+            Element valueElement = (Element) propertyElement.getLastChild();
+            Object value = parseValue(valueElement);
+            BeanInfo beanInfo = Introspector.getBeanInfo(cl);
+            PropertyDescriptor[] descriptors = beanInfo.getPropertyDescriptors();
+            boolean done = false;
+            for (int j = 0; !done && j < descriptors.length; j++)

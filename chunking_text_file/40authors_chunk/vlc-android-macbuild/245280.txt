@@ -1,0 +1,6 @@
+        if (0 != (visibility & View.SYSTEM_UI_FLAG_LAYOUT_STABLE))
+            sb.append("layout_stable|");
+
+        return sb.toString();
+    }
+}

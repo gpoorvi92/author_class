@@ -1,0 +1,10 @@
+ * @date   : 2012-7-18
+ * @desc   : 图片工具。从Android 2.2 版本的BitmapUtil中扣出来的，兼容到1.6版本
+ */
+public class BitmapScale {
+
+	public interface Option{
+		int NONE = 0x0;
+		int SCALE_UP = 0x1;
+		int RECYCLE_INPUT = 0x2;
+	}

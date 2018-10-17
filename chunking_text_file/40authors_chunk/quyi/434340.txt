@@ -1,0 +1,10 @@
+      oprot.writeFieldBegin(VSS_FIELD_DESC);
+      oprot.writeI32(struct.vss);
+      oprot.writeFieldEnd();
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class SystemResourcesTupleSchemeFactory implements SchemeFactory {

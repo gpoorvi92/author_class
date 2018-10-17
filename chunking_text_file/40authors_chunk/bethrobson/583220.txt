@@ -1,0 +1,10 @@
+        
+   }
+
+   class MyListListener implements ActionListener {
+      public void actionPerformed(ActionEvent ev) { 
+          // do things to get the selected service
+          Object selection =  serviceList.getSelectedItem();
+          loadService(selection);
+        }
+    }

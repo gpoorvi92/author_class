@@ -1,0 +1,10 @@
+
+		// 作为判断来说
+		// String s = "aaaaab";
+		// String regex = "a*b";
+		// boolean flag = s.matches(regex);
+		// System.out.println(flag);
+
+		// 需求：获取功能
+		// 获取由三个字符组成的单词
+		String s = "da jia hao,wo men dou hen ai java.";

@@ -1,0 +1,10 @@
+
+    //上传本地文件到远程目录
+    public boolean putFile(String fileName, String remoteFileName, boolean isDelete);
+
+    //上传本地文件到远程目录
+    public boolean putFile(File file, String remoteFileName, boolean isDelete);
+
+    //上传本地目录到远程
+    public boolean putDir(String fileName, String remoteDir);
+

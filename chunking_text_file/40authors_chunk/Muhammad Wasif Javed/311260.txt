@@ -1,0 +1,10 @@
+		}
+		cboYear = new JComboBox ();
+		for (int i = 2000; i <= 2010; i++) {
+			String years = "" + i;
+			cboYear.addItem (years);
+		}
+		cboMonth.setBounds (125, 105, 92, 25);
+		cboDate.setBounds (222, 105, 45, 25);
+		cboYear.setBounds (272, 105, 58, 25);
+

@@ -1,0 +1,10 @@
+
+    public Context getContext() {
+        return context;
+    }
+
+    /**
+     * 存储的数据
+     */
+    protected List<T> items = new ArrayList<T>();
+

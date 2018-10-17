@@ -1,0 +1,10 @@
+	}
+
+	private void endPlay() {
+		try {
+			mediaPlayer.reset();
+			mediaPlayer.stop();
+			mediaPlayer.release();
+			this.mediaPlayer = null;
+		} catch (Exception ex) {
+

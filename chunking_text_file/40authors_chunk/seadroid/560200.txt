@@ -1,0 +1,10 @@
+        fileNameText = (EditText) view.findViewById(R.id.new_file_name);
+
+        if (savedInstanceState != null) {
+            repoID = savedInstanceState.getString(STATE_REPO_ID);
+            path = savedInstanceState.getString(STATE_PATH);
+            isdir = savedInstanceState.getBoolean(STATE_ISDIR);
+            account = (Account)savedInstanceState.getParcelable(STATE_ACCOUNT);
+        }
+
+        fileNameText.setText(Utils.fileNameFromPath(path));

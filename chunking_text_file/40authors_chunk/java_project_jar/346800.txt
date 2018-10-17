@@ -1,0 +1,10 @@
+    {
+        if(n < 0L)
+            throw new IllegalArgumentException((new StringBuilder()).append("Number of characters to skip is less than zero: ").append(n).toString());
+        if(idx >= charSequence.length())
+        {
+            return -1L;
+        } else
+        {
+            int dest = (int)Math.min(charSequence.length(), (long)idx + n);
+            int count = dest - idx;

@@ -1,0 +1,10 @@
+                for (int _i1 = 0; _i1 < _list0.size; ++_i1)
+                {
+                  String _elem2;
+                  _elem2 = iprot.readString();
+                  struct.engineRules.add(_elem2);
+                }
+                iprot.readListEnd();
+              }
+              struct.setEngineRulesIsSet(true);
+            } else { 

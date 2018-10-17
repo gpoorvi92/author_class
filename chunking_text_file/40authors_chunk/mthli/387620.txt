@@ -1,0 +1,10 @@
+
+   /**
+    * Create a new random drawing.
+    */
+   public void newDrawing()
+   {
+      int n = 10 + generator.nextInt(20);
+      rects.clear();
+      colors.clear();
+      for (int i = 1; i <= n; i++)

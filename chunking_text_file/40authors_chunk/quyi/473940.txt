@@ -1,0 +1,10 @@
+        return false;
+      if (that instanceof genMissionId_args)
+        return this.equals((genMissionId_args)that);
+      return false;
+    }
+
+    public boolean equals(genMissionId_args that) {
+      if (that == null)
+        return false;
+

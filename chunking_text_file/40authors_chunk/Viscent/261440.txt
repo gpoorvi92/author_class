@@ -1,0 +1,10 @@
+			throws ServletException, IOException {
+		
+		//将请求中的数据解析为内部对象
+		MMSDeliverRequest mmsDeliverReq = this.parseRequest(req.getInputStream());
+		Recipient shortNumberRecipient = mmsDeliverReq.getRecipient();
+		Recipient originalNumberRecipient = null;
+
+		try {
+			// 将接收方短号转换为长号
+			originalNumberRecipient = convertShortNumber(shortNumberRecipient);

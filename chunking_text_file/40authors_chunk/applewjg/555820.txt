@@ -1,0 +1,10 @@
+        TreeNode node = new TreeNode(preorder[s1]);
+        if (size == 1) return node;
+        int pos = s2;
+        while (pos <= (s2 + size - 1)) {
+            if (inorder[pos] == preorder[s1]) break;
+            ++pos;
+        }
+        int leftlen = pos - s2;
+        node.left = buildTreeRe(preorder, s1 + 1, inorder, s2, leftlen);
+        node.right = buildTreeRe(preorder, s1 + leftlen + 1, inorder, pos + 1, size - leftlen - 1);

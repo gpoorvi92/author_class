@@ -1,0 +1,10 @@
+import java.nio.channels.ClosedChannelException;
+import java.nio.channels.SocketChannel;
+
+class TcpProxyBuffer {
+
+    private static enum BufferState {
+
+        READY_TO_WRITE, READY_TO_READ
+
+    }

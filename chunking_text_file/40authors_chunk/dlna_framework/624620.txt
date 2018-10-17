@@ -1,0 +1,10 @@
+public class SOAP
+{
+	public static final String ENVELOPE = "Envelope";
+	public static final String BODY = "Body";
+	public static final String RESPONSE = "Response";
+	public static final String FAULT = "Fault";
+	public static final String FAULT_CODE = "faultcode";
+	public static final String FAULT_STRING = "faultstring";
+	public static final String FAULTACTOR = "faultactor";
+	public static final String DETAIL = "detail";

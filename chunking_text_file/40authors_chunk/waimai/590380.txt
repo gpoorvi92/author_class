@@ -1,0 +1,10 @@
+import java.io.IOException;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
+/**
+ * Created by snow on 2014/5/16.
+ */
+@Transactional(rollbackFor = Exception.class)
+@Service(IImageRecommendService.SERVICE_NAME)

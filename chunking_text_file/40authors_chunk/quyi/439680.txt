@@ -1,0 +1,10 @@
+    boolean this_present_fsSize = true;
+    boolean that_present_fsSize = true;
+    if (this_present_fsSize || that_present_fsSize) {
+      if (!(this_present_fsSize && that_present_fsSize))
+        return false;
+      if (this.fsSize != that.fsSize)
+        return false;
+    }
+
+    return true;

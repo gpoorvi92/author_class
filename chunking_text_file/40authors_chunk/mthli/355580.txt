@@ -1,0 +1,10 @@
+    * @param pf the page format
+    * @param pages the number of pages in p
+    */
+   public PrintPreviewDialog(Printable p, PageFormat pf, int pages)
+   {
+      Book book = new Book();
+      book.append(p, pf, pages);
+      layoutUI(book);
+   }
+

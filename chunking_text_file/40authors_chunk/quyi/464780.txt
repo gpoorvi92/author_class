@@ -1,0 +1,10 @@
+    }
+
+    public ruleSync_result(
+      com.nercis.isscp.idl.Result success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {
+      this();
+      this.success = success;
+      this.ire = ire;

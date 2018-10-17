@@ -1,0 +1,10 @@
+	public void add(TaskModel task) {
+		
+		if (addAction == null)
+			addAction = new TaskAddAction(getDataSource());
+		
+		addAction.update(task.getTid(), task.getCid(), task.getLid(), task.getGuid(), task.getType(), task.getFile());
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.dao.ITaskDAO#delete(com.yeshj.pacman.model.TaskModel)

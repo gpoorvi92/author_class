@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	/**
+	 * 事件消息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_EVENT = "event";
+	/**
+	 * 文本消息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_TEXT = "text";
+	/**

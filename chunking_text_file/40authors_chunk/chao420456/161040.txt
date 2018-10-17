@@ -1,0 +1,10 @@
+		// System.out.println("containsKey:" + map.containsKey("森碟"));
+
+		// boolean isEmpty():判断集合是否为空
+		// System.out.println("isEmpty:" + map.isEmpty());
+
+		// int size():集合的长度
+		System.out.println("size:" + map.size());
+
+		System.out.println("map:" + map);
+	}

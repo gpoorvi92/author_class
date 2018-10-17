@@ -1,0 +1,10 @@
+    public String mVideoDecoder;
+    public String mAudioDecoder;
+    public String mVideoDecoderImpl;
+    public String mAudioDecoderImpl;
+
+    public MediaPlayerModuleChanged(Bundle args) {
+        mVideoDecoder = getVideoDecoder(args);
+        mAudioDecoder = getAudioDecoder(args);
+        mVideoDecoderImpl = getVideoDecoderImpl(args);
+        mAudioDecoderImpl = getAudioDecoderImpl(args);

@@ -1,0 +1,10 @@
+			mstrErrMsg = mstrErrMsg + "Must specify company code|";
+		}
+		if (tstrDivision.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "Must specify division code|";
+		}
+		if (tstrGL.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "Must specify GL account|";
+		}
+		if (tstrSL.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";

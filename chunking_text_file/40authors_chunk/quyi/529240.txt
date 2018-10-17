@@ -1,0 +1,10 @@
+
+  /** Returns true if field app_id is set (has been assigned a value) and false otherwise */
+  public boolean isSetApp_id() {
+    return this.app_id != null;
+  }
+
+  public void setApp_idIsSet(boolean value) {
+    if (!value) {
+      this.app_id = null;
+    }

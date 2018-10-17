@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.CPU_USED_PERC, new org.apache.thrift.meta_data.FieldMetaData("cpuUsedPerc", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.DOUBLE)));
+    tmpMap.put(_Fields.FREE_MEM, new org.apache.thrift.meta_data.FieldMetaData("freeMem", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.DOUBLE)));
+    tmpMap.put(_Fields.JVM_FREE_MEM, new org.apache.thrift.meta_data.FieldMetaData("jvmFreeMem", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.DOUBLE)));
+    tmpMap.put(_Fields.TASK_QUEUE_LIMIT, new org.apache.thrift.meta_data.FieldMetaData("taskQueueLimit", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.I32)));
+    tmpMap.put(_Fields.TASK_QUEUE_NUME, new org.apache.thrift.meta_data.FieldMetaData("taskQueueNume", org.apache.thrift.TFieldRequirementType.DEFAULT, 

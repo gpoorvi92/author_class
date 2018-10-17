@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean insert(Customer c) {
+		try {
+			sessionFactory.getCurrentSession().save(c);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

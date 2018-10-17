@@ -1,0 +1,10 @@
+         String urlString;
+         if (args.length > 0) urlString = args[0];
+         else urlString = "http://java.sun.com";
+
+         // open reader for URL
+         InputStreamReader in = new InputStreamReader(new URL(urlString).openStream());
+
+         // read contents into string builder
+         StringBuilder input = new StringBuilder();
+         int ch;

@@ -1,0 +1,10 @@
+	
+	
+	static Bitmap  grassBitmap;
+	static Bitmap xiaoHua1Bitmap;
+	static Bitmap muZhuangBitmap;
+	static Bitmap xiaoHua2Bitmap;
+	static Bitmap roadBitmap;
+	static Bitmap jingBitmap;	
+	static Bitmap[] bitmaps;	
+	public static MyDrawable [][] mapData;

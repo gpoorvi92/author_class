@@ -1,0 +1,10 @@
+		// calculate statistics
+		final long instantRateInBytes = entry.getValue().getAndResetBytesWritten();
+		requestUploadProcessingConfiguration.setInstantRateInBytes(instantRateInBytes);
+
+		// calculate what we can write per iteration
+		final long allowedCapacityPerIteration = allowedCapacityPerSecond / NUMBER_OF_TIMES_THE_BUCKET_IS_FILLED_PER_SECOND;
+
+		// set it to the rate conf element
+		entry.getValue().setDownloadAllowanceForIteration(allowedCapacityPerIteration);
+

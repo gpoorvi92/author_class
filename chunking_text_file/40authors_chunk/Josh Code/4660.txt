@@ -1,0 +1,10 @@
+      LinkedList<Vector3D> result=new LinkedList<Vector3D>();
+      if (rootV == null)
+          return result;
+
+      result.add(rootV);
+      for (int i = 0; i < subtrees.length; i++)
+      {
+          if (subtrees[i]!=null)
+            result.addAll(subtrees[i].asList());
+      }

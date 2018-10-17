@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.dnd.DragSourceAdapter.dragMouseMoved(java.awt.dnd.DragSourceDragEvent)
+
+    public native void __dragMouseMoved( java.awt.dnd.DragSourceDragEvent dsde );
+
+    boolean entered_dragMouseMoved_1;
+
+    public void dragMouseMoved( java.awt.dnd.DragSourceDragEvent dsde ) {
+        if ( !entered_dragMouseMoved_1 ) {

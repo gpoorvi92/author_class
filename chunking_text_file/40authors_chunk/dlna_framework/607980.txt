@@ -1,0 +1,10 @@
+	private File descriptionFile = null;
+	
+	public File getDescriptionFile() {
+		return descriptionFile;
+	}
+
+	public String getDescriptionURI() {
+		return descriptionURI;
+	}
+

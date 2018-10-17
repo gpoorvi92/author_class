@@ -1,0 +1,10 @@
+	
+	public XmlSocket(String urlStr) {
+		this.urlStr = urlStr;
+	}
+	
+	/**
+	 * 
+	 * 
+	 * @Title: connect
+	 * @return

@@ -1,0 +1,10 @@
+	private void setVolumeState(int _db) {
+		int db = _db > 3 ? 3 : _db;
+		for (int i = 0; i < db; i++) {
+			volumeArr[i].setVisibility(View.VISIBLE);
+		}
+		for (int i = db; i < 3; i++) {
+			volumeArr[i].setVisibility(View.GONE);
+		}
+	}
+

@@ -1,0 +1,10 @@
+      handler.endDocument();
+   }
+
+   public void setContentHandler(ContentHandler newValue)
+   {
+      handler = newValue;
+   }
+
+   public ContentHandler getContentHandler()
+   {

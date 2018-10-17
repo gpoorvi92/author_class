@@ -1,0 +1,10 @@
+package com.lz.game.rpc.core;
+import java.io.*;
+import java.net.InetSocketAddress;
+import java.net.Socket;
+import java.nio.ByteBuffer;
+/**
+ * User: Teaey
+ * Date: 13-7-13
+ */
+public class OioRpcConnection extends BaseRpcConnection

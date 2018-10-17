@@ -1,0 +1,10 @@
+      final List<ByteArrayJavaClass> classFileObjects = new ArrayList<>();
+
+      DiagnosticCollector<JavaFileObject> diagnostics = new DiagnosticCollector<>();
+
+      JavaFileManager fileManager = compiler.getStandardFileManager(diagnostics, null, null);
+      fileManager = new ForwardingJavaFileManager<JavaFileManager>(fileManager)
+         {
+            public JavaFileObject getJavaFileForOutput(Location location, final String className,
+                  Kind kind, FileObject sibling) throws IOException
+            {

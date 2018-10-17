@@ -1,0 +1,10 @@
+    this.autoRunMonitor = null;
+  }
+
+  /** Returns true if field autoRunMonitor is set (has been assigned a value) and false otherwise */
+  public boolean isSetAutoRunMonitor() {
+    return this.autoRunMonitor != null;
+  }
+
+  public void setAutoRunMonitorIsSet(boolean value) {
+    if (!value) {

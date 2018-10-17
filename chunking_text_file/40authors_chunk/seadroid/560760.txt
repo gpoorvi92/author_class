@@ -1,0 +1,10 @@
+    /**
+     *
+     * @param image
+     * @return true if the image was removed.
+     */
+    boolean removeImage(IImage image);
+
+    /**
+     * Removes the image at the ith position.
+     * @param i     the position

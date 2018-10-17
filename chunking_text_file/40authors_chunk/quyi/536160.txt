@@ -1,0 +1,10 @@
+    lastComparison = Boolean.valueOf(isSetThreadName()).compareTo(other.isSetThreadName());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetThreadName()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.threadName, other.threadName);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }

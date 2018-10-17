@@ -1,0 +1,10 @@
+		int x = 10;
+		int y = 20;
+		int z = 30;
+
+		if(x > y) {
+			System.out.println("hello");
+		}
+
+		//这里不是boolean类型
+		/*

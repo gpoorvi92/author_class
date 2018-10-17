@@ -1,0 +1,10 @@
+  }
+
+  public EventSetDescriptor makeEvent(String eventName)
+    throws IntrospectionException, ClassNotFoundException
+  {
+    String listener = "jpos.events." + eventName + "Listener";
+    return new EventSetDescriptor(jpos.FiscalPrinter.class,
+                                  eventName,
+                                  Class.forName(listener),
+                                  eventName + "Occurred");

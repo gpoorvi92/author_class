@@ -1,0 +1,10 @@
+          for (int _i63 = 0; _i63 < _list62.size; ++_i63)
+          {
+            String _elem64;
+            _elem64 = iprot.readString();
+            struct.sensitive.add(_elem64);
+          }
+        }
+        struct.setSensitiveIsSet(true);
+      }
+      if (incoming.get(2)) {

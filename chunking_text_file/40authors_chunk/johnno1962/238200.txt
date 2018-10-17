@@ -1,0 +1,10 @@
+    boolean entered_ancestorMoved_0;
+
+    public void ancestorMoved( java.awt.event.HierarchyEvent e ) {
+        if ( !entered_ancestorMoved_0 ) {
+            entered_ancestorMoved_0 = true;
+            __ancestorMoved( e );
+            entered_ancestorMoved_0 = false;
+        }
+        else
+            super.ancestorMoved( e );

@@ -1,0 +1,10 @@
+        private Method targetMethod;
+        private Method parseFromMethod;
+    }
+    private final Thread worker = new Thread(new Runnable()
+    {
+        @Override
+        public void run()
+        {
+            RpcPacketWrapper wrapper = null;
+            while (RUN)

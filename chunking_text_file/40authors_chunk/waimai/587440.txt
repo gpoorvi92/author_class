@@ -1,0 +1,10 @@
+    }
+    public void setOutputHeight(int outputHeight) {
+        this.outputHeight = outputHeight;
+    }
+    public void setWidthAndHeight(int width, int height) {
+        this.outputWidth = width;
+        this.outputHeight = height;
+    }
+
+    /*

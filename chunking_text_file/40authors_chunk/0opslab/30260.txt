@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testFindFirstEqual1() throws Exception {
+
+    }
+
+    @Test
+    public void testFindFirstDiff() throws Exception {
+

@@ -1,0 +1,10 @@
+	//连接超时时长
+	private int connectTimeout=30000;
+	//是否自动重连
+	private boolean autoConnectRetry=true;
+	
+	
+	public MongoConnection() {
+		super();
+	}
+

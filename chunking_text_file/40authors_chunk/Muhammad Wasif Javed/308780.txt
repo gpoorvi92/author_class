@@ -1,0 +1,10 @@
+			linkActivated (e.getURL());
+		}
+	}
+
+	//Function for Loading other HTML Pages in Your HTML Help.
+
+	protected void linkActivated (URL u) {
+
+		Cursor c = html.getCursor();
+		Cursor waitCursor = Cursor.getPredefinedCursor (Cursor.WAIT_CURSOR);

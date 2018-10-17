@@ -1,0 +1,10 @@
+
+    public void play() {
+
+      try {
+
+         // make (and open) a sequencer, make a sequence and track
+
+         Sequencer sequencer = MidiSystem.getSequencer();         
+         sequencer.open();
+        

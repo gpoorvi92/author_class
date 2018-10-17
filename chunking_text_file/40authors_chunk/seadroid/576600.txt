@@ -1,0 +1,10 @@
+                                                                repoName, repoID, path);
+    }
+
+    public int getTaskID() {
+        return taskID;
+    }
+
+    public void handleDownloadTaskInfo(DownloadTaskInfo info) {
+        if (cancelled) {
+            return;

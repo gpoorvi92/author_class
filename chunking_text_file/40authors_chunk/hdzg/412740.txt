@@ -1,0 +1,10 @@
+				out.close();				
+			}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	//加载游戏的方法
+	@SuppressWarnings("unchecked")

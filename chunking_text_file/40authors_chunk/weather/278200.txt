@@ -1,0 +1,10 @@
+    throw new IllegalArgumentException("Unexpected protocol: " + protocol);
+  }
+
+  /**
+   * Creates a URLStreamHandler as a {@link java.net.URL#setURLStreamHandlerFactory}.
+   *
+   * <p>This code configures OkHttp to handle all HTTP and HTTPS connections
+   * created with {@link java.net.URL#openConnection()}: <pre>   {@code
+   *
+   *   OkHttpClient okHttpClient = new OkHttpClient();

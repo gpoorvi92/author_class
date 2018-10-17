@@ -1,0 +1,10 @@
+    public static DefMediaListPlayer create(Context context,
+            PlayIndex.Resolver resolver) {
+        return new DefMediaListPlayer(context, resolver);
+    }
+
+    protected DefMediaListPlayer(Context context, PlayIndex.Resolver resolver) {
+        mIndexResolver = new LibVlcVideoSegmentListLoader(context, resolver);
+    }
+
+    private DefMediaSegmentPlayer createItemPlayer() {

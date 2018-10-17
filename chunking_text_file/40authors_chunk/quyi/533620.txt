@@ -1,0 +1,10 @@
+  public boolean equals(APICheck that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_apiName = true && this.isSetApiName();
+    boolean that_present_apiName = true && that.isSetApiName();
+    if (this_present_apiName || that_present_apiName) {
+      if (!(this_present_apiName && that_present_apiName))
+        return false;
+      if (!this.apiName.equals(that.apiName))

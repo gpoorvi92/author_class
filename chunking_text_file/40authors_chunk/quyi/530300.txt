@@ -1,0 +1,10 @@
+    if (this_present_requestPurviews || that_present_requestPurviews) {
+      if (!(this_present_requestPurviews && that_present_requestPurviews))
+        return false;
+      if (!this.requestPurviews.equals(that.requestPurviews))
+        return false;
+    }
+
+    boolean this_present_format = true && this.isSetFormat();
+    boolean that_present_format = true && that.isSetFormat();
+    if (this_present_format || that_present_format) {

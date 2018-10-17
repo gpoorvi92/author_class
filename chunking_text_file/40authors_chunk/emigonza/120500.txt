@@ -1,0 +1,10 @@
+
+  public static final int SC_CTRANS_PROTOCOL_T0 = 1;  // Asynchronous, Half Duplex, Character, Transmission Protocol Mode.
+  public static final int SC_CTRANS_PROTOCOL_T1 = 2;  // Asynchronous, Half Duplex, Block Transmission Protocol Mode.
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "InterfaceMode" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_MODE_TRANS = 1;  // Simple Transaction Command and Data Mode.

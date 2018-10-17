@@ -1,0 +1,10 @@
+		strokeColorRadial = null;
+		notifyListeners();
+	}
+	public void setGradientStroke(RadialGradientPaint g)
+	{
+		strokeColorGradient = null;
+		strokeColor = null;
+		strokeColorRadial = g;
+		notifyListeners();
+	}

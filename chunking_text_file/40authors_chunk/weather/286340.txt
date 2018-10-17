@@ -1,0 +1,7 @@
+        return sdf;
+    }
+
+    public static String Now() {
+        return date2str(new Date());
+    }
+}

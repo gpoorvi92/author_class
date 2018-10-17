@@ -1,0 +1,10 @@
+            while (true) {
+                WorkItem workItem = null;
+                synchronized (mQueue) {
+                    if (mDone) {
+                        break;
+                    }
+                    if (!mQueue.isEmpty()) {
+                        workItem = mQueue.remove(0);
+                    } else {
+                        try {

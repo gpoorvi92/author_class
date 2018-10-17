@@ -1,0 +1,10 @@
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		scene.attachChild(new Text(230, 30, this.mDroidFont, "Droid Font", vertexBufferObjectManager));

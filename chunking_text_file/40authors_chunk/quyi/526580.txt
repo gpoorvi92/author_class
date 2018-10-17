@@ -1,0 +1,10 @@
+        setMissionId((String)value);
+      }
+      break;
+
+    case ENGINES:
+      if (value == null) {
+        unsetEngines();
+      } else {
+        setEngines((List<Engine>)value);
+      }

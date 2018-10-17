@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.meet;
+
+/**
+ * Created by Brian on 2016/4/11.
+ */
+
+/**
+ * P38例子
+ * suspend与resume的缺点：独占
+ */

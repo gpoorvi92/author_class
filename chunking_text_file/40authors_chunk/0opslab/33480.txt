@@ -1,0 +1,10 @@
+   *
+   */
+  class ActionLoadFixture extends AbstractAction {
+    
+    /**
+     * @param name
+     */
+    public ActionLoadFixture(String name,String description,int mnemonic) {
+      super(name);
+      putValue(SHORT_DESCRIPTION, description);

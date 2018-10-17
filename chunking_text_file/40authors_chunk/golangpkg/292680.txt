@@ -1,0 +1,10 @@
+	 * Disables the processing of file uploads. Clients currently uploading Files will wait and automatically resume the uploads when {@link #enableFileUploader()} is called.
+	 * @see #enableFileUploader()
+	 */
+	@ManagedOperation
+	public void disableFileUploader() {
+		uploadServletAsyncProcessor.setEnabled(false);
+		jlfuListenerPropagator.getPropagator().onFileUploaderDisabled();
+	}
+	
+}

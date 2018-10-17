@@ -1,0 +1,10 @@
+			JTextArea fileInf = new JTextArea (
+						"  Size: "+fileSize+"KB - "+width+"x"+height+" - "+
+						dateFormat1.format(date)+" "+dateFormat2.format(date));
+			//fileInf.setBackground(Color.white);
+			//fileInf.setForeground(Color.blue);
+			fileInf.setFont (new Font("Arial", Font.PLAIN, 11));
+	
+			this.add(new JScrollPane(picture), BorderLayout.CENTER);
+			this.add(fileInf, BorderLayout.SOUTH);
+		}	

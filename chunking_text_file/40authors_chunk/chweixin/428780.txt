@@ -1,0 +1,10 @@
+	 * 获取地理位置纬度。
+	 * @return 地理位置纬度。
+	 * */
+	public String getLatitude() {
+		return latitude;
+	}
+	/**
+	 * 设置地理位置纬度。
+	 * @param latitude
+	 * 	地理位置纬度。

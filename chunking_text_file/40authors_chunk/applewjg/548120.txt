@@ -1,0 +1,10 @@
+ 4->5->6->7 -> NULL
+
+ Solution: 1. Iterative: Two 'while' loops.
+           2. Iterative: Queue. Use extra space.
+           3. Recursive: DFS. Defect: Use extra stack space for recursion.
+ */
+
+/**
+ * Definition for binary tree with next pointer.
+ * public class TreeLinkNode {

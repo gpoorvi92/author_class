@@ -1,0 +1,10 @@
+
+  public void setProtocalIsSet(boolean value) {
+    if (!value) {
+      this.protocal = null;
+    }
+  }
+
+  public String getDataHex() {
+    return this.dataHex;
+  }

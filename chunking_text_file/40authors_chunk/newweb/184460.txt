@@ -1,0 +1,10 @@
+	public double getZfLength() {
+		return zfLength;
+	}
+	public void setZfLength(double zfLength) {
+		this.zfLength = zfLength;
+	}
+	public int getZfCount() {
+		return zfCount;
+	}
+	public void setZfCount(int zfCount) {

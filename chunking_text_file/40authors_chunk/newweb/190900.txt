@@ -1,0 +1,10 @@
+		int limit = Integer.parseInt(request.getParameter("limit"));
+		String json = "";
+		List list = lhjPriceService.queryAllLhjPrices(start,limit);
+		int size = (Integer) list.get(0);
+		LhjPrice[] lhjPrices = (LhjPrice[]) list.get(1);
+		json = "{\"total\":\"" +size+"\",\"data\":[";	//json串头
+		for (LhjPrice lhjPrice : lhjPrices) {
+			String str = "{" +
+					"\"id\":\"" + lhjPrice.getID() +"\"" +
+					",\"price\":\"" + lhjPrice.getPrice() + "\"" +

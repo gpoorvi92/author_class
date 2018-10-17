@@ -1,0 +1,10 @@
+	@Override
+	public boolean onJsPrompt(WebView view, String url, String message,
+			String defaultValue, JsPromptResult result) {
+
+		return true;
+	}
+
+	@Override
+	public void onProgressChanged(WebView view, int newProgress) {
+

@@ -1,0 +1,10 @@
+    }
+
+    public void addObserver(FileAlterationObserver observer)
+    {
+        if(observer != null)
+            observers.add(observer);
+    }
+
+    public void removeObserver(FileAlterationObserver observer)
+    {

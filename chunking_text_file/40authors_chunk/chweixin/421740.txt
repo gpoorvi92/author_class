@@ -1,0 +1,10 @@
+package ipower.wechat.message;
+
+import java.io.Serializable;
+
+/**
+ * 视频信息。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */
+public class Video implements Serializable {

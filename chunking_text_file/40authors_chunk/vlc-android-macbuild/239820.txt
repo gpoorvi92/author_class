@@ -1,0 +1,10 @@
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        Bundle bundle = new Bundle();
+
+        bundle.putString(BUNDLE_PLAY_TAG, mPlayTag);
+        bundle.putParcelableArrayList(BUNDLE_SEGMENT_LIST, mSegmentList);

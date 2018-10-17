@@ -1,0 +1,10 @@
+        makeProperty("PowerState"),
+        makeProperty("SCPresentSensor"),
+        makeProperty("SCSlot"),
+        makeProperty("TransactionInProgress"),
+        makeProperty("TransmissionProtocol")
+      };
+
+      return properties;
+    }
+    catch(Exception e)

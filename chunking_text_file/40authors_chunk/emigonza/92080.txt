@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    firstTag()
+                     throws JposException;
+  public void    lockTag(byte[] tagID,
+                         int timeout,
+                         byte[] password)
+                     throws JposException;
+  public void    nextTag()
+                     throws JposException;
+  public void    previousTag()

@@ -1,0 +1,10 @@
+		Intent intent = getCustomIntent(VioDetailActivity.class);
+		intent.putExtra("bind_user", bindUsername);
+		intent.putExtra("wfdz", acd.getStringValue("wfdz"));
+		intent.putExtra("json", DataConvertFactory.praseNormJson(acd));
+		startActivity(intent);
+	}
+
+	@Override
+	protected void handleListItem(View v, int position) {
+		final AbstractCommonData acd = (AbstractCommonData) v.getTag();

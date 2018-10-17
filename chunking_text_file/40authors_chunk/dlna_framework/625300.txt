@@ -1,0 +1,10 @@
+	
+	
+	public boolean open(int port){
+		InetAddress[] binds=this.binds ;
+		String[] bindAddresses;
+		if(binds!=null){			
+			bindAddresses = new String[binds.length];
+			for (int i = 0; i < binds.length; i++) {
+				bindAddresses[i] = binds[i].getHostAddress();
+			}

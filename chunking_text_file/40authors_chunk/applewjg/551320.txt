@@ -1,0 +1,10 @@
+        return cloneGraphRe(node, map);
+    }
+    public UndirectedGraphNode cloneGraphRe(UndirectedGraphNode node, HashMap<UndirectedGraphNode, UndirectedGraphNode> map) {
+        if (node == null) return null;
+        if (map.containsKey(node) == true) {
+            return map.get(node);
+        }
+        UndirectedGraphNode newnode = new UndirectedGraphNode(node.label);
+        map.put(node, newnode);
+        for (UndirectedGraphNode cur : node.neighbors) {

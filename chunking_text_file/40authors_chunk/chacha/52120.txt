@@ -1,0 +1,10 @@
+	private final String DBNAME="chacha";
+	
+	DB db;
+	Mongo m;
+	
+	@Before
+	public void setUP(){
+		try {
+			m=new Mongo(SERVERIP,PORT);
+			db=m.getDB(DBNAME);

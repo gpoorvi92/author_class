@@ -1,0 +1,10 @@
+public class Item
+{
+   private String description;
+   private int partNumber;
+
+   /**
+    * Constructs an item.
+    * @param aDescription the item's description
+    * @param aPartNumber the item's part number
+    */

@@ -1,0 +1,10 @@
+    public void onBackPressed() {
+        finishWithAnim(TransactionUtil.Transaction.POP_OUT);
+    }
+
+    /**
+     * Method to configure the {@see SlidingPaneLayout}
+     */
+    private void slidingPaneConfiguration() {
+        mSlidingPaneLayout.setSliderFadeColor(Color.argb(0, 0, 0, 0));
+        mSlidingPaneLayout.setCoveredFadeColor(Color.argb(100, 0, 0, 0));

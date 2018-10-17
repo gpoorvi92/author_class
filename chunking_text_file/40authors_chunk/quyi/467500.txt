@@ -1,0 +1,10 @@
+    this.riskLevel = null;
+    this.pak = null;
+    this.obj = null;
+    this.func = null;
+    this.ruleDescription = null;
+  }
+
+  public String getRuleId() {
+    return this.ruleId;
+  }

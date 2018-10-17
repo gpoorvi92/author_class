@@ -1,0 +1,10 @@
+public class TestSaleCount {
+    @Autowired
+    private ISaleCountService saleCountService;
+
+    @Test
+    public void testDate() throws Exception {
+//        SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd");
+//        for (int i = 6; i >= 0; i--) {
+//            Calendar calendar = Calendar.getInstance();
+//            calendar.add(Calendar.DAY_OF_YEAR, -i);

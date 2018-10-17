@@ -1,0 +1,10 @@
+      printTypes(cl.getTypeParameters(), "<", ", ", ">", true);
+      Type sc = cl.getGenericSuperclass();
+      if (sc != null)
+      {
+         System.out.print(" extends ");
+         printType(sc, false);
+      }
+      printTypes(cl.getGenericInterfaces(), " implements ", ", ", "", false);
+      System.out.println();
+   }

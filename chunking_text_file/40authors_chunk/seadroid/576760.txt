@@ -1,0 +1,10 @@
+        txService.cancelDownloadTask(taskID);
+    }
+
+    private void updateProgress(long fileSize, long finished) {
+        progressBar.setIndeterminate(false);
+        int percent;
+        if (fileSize == 0) {
+            percent = 100;
+        } else {
+            percent = (int)(finished * 100 / fileSize);

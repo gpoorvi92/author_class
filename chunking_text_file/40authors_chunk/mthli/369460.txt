@@ -1,0 +1,10 @@
+         InputStream err = ((HttpURLConnection) connection).getErrorStream();
+         if (err == null) throw e;
+         Scanner in = new Scanner(err);
+         response.append(in.nextLine());
+         response.append("\n");
+      }
+
+      return response.toString();
+   }
+}

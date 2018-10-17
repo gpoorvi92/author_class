@@ -1,0 +1,10 @@
+		}
+		editor.commit();
+	}
+
+	private void sendNotify(Context context, AbstractCommonData backAcd,
+			String title, String content) {
+		NotificationManager notifyManager = (NotificationManager) context
+				.getSystemService(Context.NOTIFICATION_SERVICE);
+		int icon = R.drawable.ic_launcher;
+		CharSequence tickerText = context.getString(R.string.app_name);

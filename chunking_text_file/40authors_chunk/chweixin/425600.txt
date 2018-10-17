@@ -1,0 +1,10 @@
+import ipower.wechat.domain.User;
+import ipower.wechat.modal.UserInfo;
+import ipower.wechat.service.IUserService;
+
+/**
+ * 用户服务类。
+ * @author yangyong.
+ * @since 2014-04-04.
+ * */
+public class UserServiceImpl extends DataServiceImpl<User, UserInfo> implements IUserService {

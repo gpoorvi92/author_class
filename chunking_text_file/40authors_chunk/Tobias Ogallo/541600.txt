@@ -1,0 +1,10 @@
+		});
+		button2.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+			 dispose();
+			}
+		});	
+		
+	}
+	public static void main(String []args){
+		JFrame.setDefaultLookAndFeelDecorated(true);

@@ -1,0 +1,10 @@
+    }
+
+    public void setLastModified(long lastModified)
+    {
+        this.lastModified = lastModified;
+    }
+
+    public long getLength()
+    {
+        return length;

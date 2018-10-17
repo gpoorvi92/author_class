@@ -1,0 +1,10 @@
+				    .nextInt(999999);
+				DecimalFormat df = new DecimalFormat("000000");
+				String txtVerCode = df.format(verificationCode);
+				
+				//发送验证码短信
+				sendSms(msisdn, txtVerCode);
+			}
+
+		};
+

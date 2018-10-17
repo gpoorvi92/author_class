@@ -1,0 +1,10 @@
+ * <code>IMessageEditorController</code> object for each tab instance they
+ * generate, which the tab can invoke if it requires further information about
+ * the current message.
+ */
+public interface IMessageEditorController
+{
+    /**
+     * This method is used to retrieve the HTTP service for the current message.
+     *
+     * @return The HTTP service for the current message.

@@ -1,0 +1,10 @@
+package tabbedPane;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * This frame shows a tabbed pane and radio buttons to switch between wrapped and scrolling tab
+ * layout.

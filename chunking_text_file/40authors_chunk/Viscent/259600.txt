@@ -1,0 +1,10 @@
+					delegate.process(input);
+				} catch (InterruptedException e) {
+					;
+				} finally {
+					remainingReservations = terminationToken.reservations
+					    .decrementAndGet();
+				}
+
+				if (terminationToken.isToShutdown() && 0 == remainingReservations) {
+					stageProcessDoneLatch.countDown();

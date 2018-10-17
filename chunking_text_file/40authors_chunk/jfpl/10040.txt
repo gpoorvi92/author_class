@@ -1,0 +1,10 @@
+		}
+
+		if ("0".equals(type)) {
+			chatLayout.setGravity(Gravity.LEFT);
+			chatBgLayout.setBackgroundDrawable(getResources().getDrawable(
+					R.drawable.chat_from_bg_normal));
+			sendState.setVisibility(View.GONE);
+			if ("1".equals(msgType)) { // 文本
+				String chatMsg = acd.getStringValue("chat_msg");
+				chatMsg = ChatMessageUtil.convertToClientMessage(chatMsg);

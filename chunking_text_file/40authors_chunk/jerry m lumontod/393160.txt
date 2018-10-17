@@ -1,0 +1,10 @@
+			mtblTable.getTableHeader().repaint();
+			Collections.sort(moVector, new AcctSorter(modelIndex, mblnSortAsc));
+			mtblTable.tableChanged(new TableModelEvent(AcctTableData.this));
+			mtblTable.repaint();
+	
+		}
+	
+	}
+	
+	public class ColumnMovementListener implements TableColumnModelListener {

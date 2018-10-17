@@ -1,0 +1,10 @@
+				result = result && file.delete();
+			}
+			result = result && dir.delete();
+			return result;
+		}
+
+		private String getSectionName() {
+			String sectionName;
+
+			if (sectionNames.isEmpty()) {

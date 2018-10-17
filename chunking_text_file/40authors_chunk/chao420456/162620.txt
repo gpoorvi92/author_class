@@ -1,0 +1,10 @@
+
+//具备跳高功能的狗
+class JumpDog extends Dog implements Sport {
+	public JumpDog(){}
+
+	public JumpDog(String name,int age) {
+		super(name,age);
+	}
+
+	public void jump() {

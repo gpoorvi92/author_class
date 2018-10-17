@@ -1,0 +1,10 @@
+	private static class DispatchInvocationHandler implements InvocationHandler {
+		private final Object delegate;
+		private final ExecutorService scheduler;
+
+		public DispatchInvocationHandler(Object delegate,
+		    ExecutorService executorService) {
+			this.delegate = delegate;
+			this.scheduler = executorService;
+		}
+

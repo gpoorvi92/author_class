@@ -1,0 +1,10 @@
+        ThreadB b = new ThreadB(service2);
+        b.setName("B");
+        b.start();
+    }
+
+}
+
+
+/*
+输出：

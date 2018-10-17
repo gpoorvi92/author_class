@@ -1,0 +1,10 @@
+	          return piSrc;
+     }
+
+     // Create the image encoder.
+     private void encodeImage(PlanarImage img, FileOutputStream out){
+   		  encoder = ImageCodec.createImageEncoder("JPEG", out, encodeParam);
+             try {
+                 encoder.encode(img);
+                 out.flush();
+                 out.close();

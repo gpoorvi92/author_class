@@ -1,0 +1,10 @@
+            md5Text.setText(not_available);
+            serialNumberText.setText(not_available);
+            notBeforeText.setText(not_available);
+            notAfterText.setText(not_available);
+        }
+
+        builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Log.d(DEBUG_TAG, "listener.onAccepted is called");

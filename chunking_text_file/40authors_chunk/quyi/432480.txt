@@ -1,0 +1,10 @@
+  private static class StaticCheckResultDataTupleSchemeFactory implements SchemeFactory {
+    public StaticCheckResultDataTupleScheme getScheme() {
+      return new StaticCheckResultDataTupleScheme();
+    }
+  }
+
+  private static class StaticCheckResultDataTupleScheme extends TupleScheme<StaticCheckResultData> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, StaticCheckResultData struct) throws org.apache.thrift.TException {

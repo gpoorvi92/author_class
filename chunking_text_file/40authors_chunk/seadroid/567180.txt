@@ -1,0 +1,10 @@
+    
+    public String getName() {
+        return email.substring(0, email.indexOf("@")) + "@" + getServerHost();
+    }
+
+    public String getDisplayName() {
+        String server = Utils.stripSlashes(getServerHost());
+        return Utils.assembleUserName(email, server);
+    }
+

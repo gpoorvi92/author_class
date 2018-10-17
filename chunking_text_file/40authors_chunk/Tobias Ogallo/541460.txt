@@ -1,0 +1,10 @@
+pan2=new JPanel();
+pan2.add(view);
+pan2.add(exit);
+pan=new JPanel(new GridLayout(2,2));
+pan.setPreferredSize(new Dimension(450,300));
+
+pan.add(me);pan .add( new JScrollPane(about));
+
+pan.add(pan2);
+

@@ -1,0 +1,10 @@
+	 * */
+	public void setPicUrl(String picUrl) {
+		this.PicUrl = picUrl;
+	}
+	/**
+	 * 获取图文消息跳转链接。
+	 * @return 图文消息跳转链接。
+	 * */
+	public String getUrl() {
+		return Url;

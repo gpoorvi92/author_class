@@ -1,0 +1,10 @@
+
+    public static void setImageDrawable(View imageView, Drawable drawable) {
+        ((ImageView) imageView).setImageDrawable(drawable);
+    }
+
+    public static void setImageDrawable(ImageView imageView, Drawable drawable) {
+        imageView.setImageDrawable(drawable);
+    }
+
+    /*--------------------------------------

@@ -1,0 +1,10 @@
+public class Author extends JFrame{
+	private JLabel me;
+	private JButton view,exit;
+	private JTextArea about;
+	private JPanel pan,pan2;
+	private JScrollPane jScrollPane;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+public Author(){
+	super("The Man Behind it All");
+me=new JLabel(new ImageIcon("aut.jpg"));

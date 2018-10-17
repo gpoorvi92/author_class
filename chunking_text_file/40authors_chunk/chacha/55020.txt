@@ -1,0 +1,10 @@
+	public static int getTokenLifeTime() {
+		return tokenLifeTime;
+	}
+
+	public static void setTokenLifeTime(int tokenLifeTime) {
+		Config.tokenLifeTime = tokenLifeTime;
+	}
+	
+	
+}

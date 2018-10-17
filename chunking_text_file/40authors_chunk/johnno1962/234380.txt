@@ -1,0 +1,10 @@
+    public void mouseExited( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseExited_3 ) {
+            entered_mouseExited_3 = true;
+            __mouseExited( e );
+            entered_mouseExited_3 = false;
+        }
+        else
+            super.mouseExited( e );
+    }
+

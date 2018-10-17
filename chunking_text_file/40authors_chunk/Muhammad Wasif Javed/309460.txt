@@ -1,0 +1,10 @@
+		table = new JTable (rowRec, colsName) {
+			public boolean isCellEditable (int iRows, int iCols) {
+				return false;	//Disable All Columns of Table.
+			}
+		};
+
+		table.setRowHeight (20);	//Set Rows Height.
+
+		return table;
+

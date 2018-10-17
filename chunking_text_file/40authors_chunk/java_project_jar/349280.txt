@@ -1,0 +1,10 @@
+        exception;
+        IOUtils.closeQuietly(fis);
+        throw exception;
+    }
+
+    private ByteArrayOutputStream memoryOutputStream;
+    private OutputStream currentOutputStream;
+    private File outputFile;
+    private final String prefix;
+    private final String suffix;

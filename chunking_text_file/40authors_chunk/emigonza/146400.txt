@@ -1,0 +1,10 @@
+  extends BaseService, JposServiceInstance
+{
+  // Capabilities
+  public boolean getCapAim() throws JposException;
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapDecodeData() throws JposException;
+  public boolean getCapHostTriggered() throws JposException;
+  public boolean getCapIlluminate() throws JposException;
+  public boolean getCapImageData() throws JposException;
+  public boolean getCapImageQuality() throws JposException;

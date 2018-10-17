@@ -1,0 +1,10 @@
+               data.line = line;
+               publish(data);
+               Thread.sleep(1); // to test cancellation; no need to do this in your programs
+            }
+         }
+         return text;
+      }
+
+      // The following methods execute in the event dispatch thread.
+

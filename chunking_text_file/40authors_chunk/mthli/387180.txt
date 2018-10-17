@@ -1,0 +1,10 @@
+            {
+               return map.getLength();
+            }
+
+            public int getColumnCount()
+            {
+               return 2;
+            }
+
+            public Object getValueAt(int r, int c)

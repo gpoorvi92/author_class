@@ -1,0 +1,10 @@
+	 * @Title: setMessageListener
+	 * @param dest
+	 * @return: void
+	 */
+	void setMessageListener(IMQListener listener, QueueType dest) throws MQException;
+	
+	/**
+	 * 
+	 * 
+	 * @Title: createBuilder

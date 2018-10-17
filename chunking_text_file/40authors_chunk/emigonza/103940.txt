@@ -1,0 +1,10 @@
+    // "ImageFormat" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CHK_IF_NATIVE = 1;
+    public static final int CHK_IF_TIFF   = 2;
+    public static final int CHK_IF_BMP    = 3;
+    public static final int CHK_IF_JPEG   = 4;
+    public static final int CHK_IF_GIF    = 5;
+
+    /////////////////////////////////////////////////////////////////////

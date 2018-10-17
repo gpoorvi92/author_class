@@ -1,0 +1,10 @@
+
+	@Test
+	public void testGetRemainingTime() {
+		UUID clientId = UUID.randomUUID();
+		
+		FileProgressStatus progress = new FileProgressStatus();
+		progress.setTotalFileSize(1000);
+		progress.setBytesUploaded(0);
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 100l), CoreMatchers.is(10l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 300l), CoreMatchers.is(5l));

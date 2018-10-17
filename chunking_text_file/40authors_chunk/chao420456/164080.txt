@@ -1,0 +1,10 @@
+/*
+	方法重写：子类中出现了和父类中一模一样的方法声明，也被称为方法覆盖，方法复写
+*/
+//手机
+/*
+class Phone {
+	public void call(String name) {
+		System.out.println("给"+name+"打电话");
+	}
+}

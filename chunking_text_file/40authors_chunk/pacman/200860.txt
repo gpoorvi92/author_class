@@ -1,0 +1,10 @@
+        	public void run() {
+        		BufferedReader reader = new BufferedReader(new InputStreamReader(es));
+        		String line = null;
+        		try {
+					while((line = reader.readLine()) != null) {
+						errput.add(line);
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				}

@@ -1,0 +1,10 @@
+    // Standard properties name and values
+    //
+
+    //Property names
+
+    /** Required property indicating the BUS used for this JposEntry */
+    public static final String DEVICE_BUS_PROP_NAME = "deviceBus";
+
+    //Property values
+

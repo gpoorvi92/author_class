@@ -1,0 +1,7 @@
+		Outer.Inner oi = new Outer.Inner();
+		oi.show();
+		oi.show2();
+
+		//Outer.Inner.show2();
+	}
+}

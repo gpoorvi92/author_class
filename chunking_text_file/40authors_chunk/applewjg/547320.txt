@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 29, 2015
+ Problem:    Text Justification
+ Difficulty: Hard
+ Source:     https://oj.leetcode.com/problems/text-justification/
+ Notes:
+ Given an array of words and a length L, format the text such that each line has exactly L 
+ characters and is fully (left and right) justified.
+ You should pack your words in a greedy approach; that is, pack as many words as you can in each line. 

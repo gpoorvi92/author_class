@@ -1,0 +1,10 @@
+        }
+
+        return 0;
+    }
+
+    public static int v(String tag, String msg, Throwable tr) {
+        if (ENABLE_VERBOSE) {
+            return Log.v(tag, msg, tr);
+        }
+

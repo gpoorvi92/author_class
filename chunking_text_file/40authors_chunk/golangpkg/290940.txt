@@ -1,0 +1,10 @@
+			throws InterruptedException, ExecutionException, TimeoutException {
+
+		// get entity
+		staticStateManager.getEntity();
+
+		// assert directory is there
+		File uuidFileParent = staticStatedDirectoryManager.getUUIDFileParent();
+		Assert.assertTrue(uuidFileParent.exists());
+
+		// clear

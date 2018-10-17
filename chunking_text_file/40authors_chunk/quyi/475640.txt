@@ -1,0 +1,10 @@
+      this.plots = plots;
+      this.useRule = useRule;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public submitMission_args(submitMission_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;

@@ -1,0 +1,10 @@
+ * TODO
+ * @Class: FFmpegHelper
+ * @author: zhangxinyu
+ * @date: 2015年1月5日 上午11:02:06
+ */
+public final class ExternalTool {
+
+	private final static String FFMPEG_TOOL = "/usr/bin/trans.sh";//AppConfig.getInstance().getExtool_ffmpeg(); 
+	
+	//private final static String FFMPEG_TOOL = AppConfig.getInstance().getExtool_ffmpeg();

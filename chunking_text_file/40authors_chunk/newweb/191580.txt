@@ -1,0 +1,10 @@
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping(value="getLhjMaterialBrands.ajax")
+	@ResponseBody
+	public String getLhjMaterialBrands(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");
+		String json = "{\"data\":[";	//json串头
+		MaterialBrand[] mbs = materialBrandService.queryMaterialBrandsByType("lhj");

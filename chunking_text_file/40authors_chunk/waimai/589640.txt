@@ -1,0 +1,10 @@
+        return storeName;
+    }
+
+    public void setStoreName(String storeName) {
+        this.storeName = storeName == null ? null : storeName.trim();
+    }
+
+    public String getDescription() {
+        return description;
+    }

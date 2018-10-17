@@ -1,0 +1,10 @@
+		{ 
+			return false; 
+		} 
+		else 
+		{ 
+			HashNode current = data[hashCode]; 
+			boolean found = current.hasEntry(ba); 
+
+			while(current.getNext() != null && found == false) 
+			{ 

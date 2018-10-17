@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean isPlaying() {
+        return mLibVLC.isPlaying();
+    }
+
+    @Override
+    public void start() throws IllegalStateException {
+        if (mHasReadMedia) {

@@ -1,0 +1,10 @@
+    {
+        if (renderer == null)
+        {
+            System.err.println(
+                "modelViewPanel unable to paint "
+                +"because renderer is null.");
+            return;
+        }
+        Image img = renderer.getImage();
+

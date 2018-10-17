@@ -1,0 +1,10 @@
+                    log.error("未知ZoneId:{}", bulletinEntity.getZoneId());
+                    ret = false;
+                }
+                else
+                {
+                    ChatServerRpc.AddBulletinResp resp = client.addBulletin(req);
+                    if (!resp.getSuccess())
+                    {
+                        ret = false;
+                    }

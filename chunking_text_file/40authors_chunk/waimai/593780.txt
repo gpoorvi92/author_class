@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public Integer getCreditByUserId(Integer userId) {
+        return userMapper.getCreditByUserId(userId);
+    }
+
+    @Override
+    public User findById(Integer userId) {

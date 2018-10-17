@@ -1,0 +1,10 @@
+ * </tr>
+ * <tr>
+ * <td>FE FF ## ##</td>
+ * <td>UTF-16, big-endian</td>
+ * </tr>
+ * <tr>
+ * <td>FF FE ## ##</td>
+ * <td>UTF-16, little-endian</td>
+ * </tr>
+ * <tr>

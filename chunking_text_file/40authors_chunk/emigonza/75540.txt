@@ -1,0 +1,10 @@
+    public void    setAdditionalTrailer(String additionalTrailer)
+                       throws JposException;
+    public String  getChangeDue() throws JposException;
+    public void    setChangeDue(String changeDue) throws JposException;
+    public int     getContractorId() throws JposException;
+    public void    setContractorId(int contractorId) throws JposException;
+    public int     getDateType() throws JposException;
+    public void    setDateType(int dateType) throws JposException;
+    public int     getFiscalReceiptStation() throws JposException;
+    public void    setFiscalReceiptStation(int fiscalReceiptStation)

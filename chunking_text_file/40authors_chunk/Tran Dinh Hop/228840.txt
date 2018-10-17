@@ -1,0 +1,10 @@
+			
+			// add the image to a Picture panel 
+			picture = new JLabel();
+			picture.setHorizontalAlignment(SwingConstants.CENTER);
+			Icon icon = new IconJAI(image);
+			picture.setIcon(icon);
+			
+			int w = icon.getIconWidth();
+			int h = icon.getIconHeight();
+			picture.setPreferredSize(new Dimension(w, h));

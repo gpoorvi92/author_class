@@ -1,0 +1,10 @@
+      if (!(this_present_hardwareResources && that_present_hardwareResources))
+        return false;
+      if (!this.hardwareResources.equals(that.hardwareResources))
+        return false;
+    }
+
+    boolean this_present_checkEndDate = true && this.isSetCheckEndDate();
+    boolean that_present_checkEndDate = true && that.isSetCheckEndDate();
+    if (this_present_checkEndDate || that_present_checkEndDate) {
+      if (!(this_present_checkEndDate && that_present_checkEndDate))

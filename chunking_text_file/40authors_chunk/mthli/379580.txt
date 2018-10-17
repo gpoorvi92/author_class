@@ -1,0 +1,10 @@
+package persistenceDelegate;
+
+import java.awt.geom.*;
+import java.beans.*;
+import java.net.*;
+import java.util.*;
+
+/**
+ * This program demonstrates various persistence delegates.
+ * @version 1.01 2007-10-03

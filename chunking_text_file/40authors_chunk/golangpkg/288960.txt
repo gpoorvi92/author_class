@@ -1,0 +1,10 @@
+public class ExceptionCodeMappingHelper {
+
+	@Autowired
+	private FileUploaderHelper fileUploaderHelper;
+
+	private static final Logger log = LoggerFactory.getLogger(FileUploaderHelper.class);
+
+
+
+	public enum ExceptionCodeMapping {

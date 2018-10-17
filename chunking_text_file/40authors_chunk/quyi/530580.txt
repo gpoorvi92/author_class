@@ -1,0 +1,10 @@
+      }
+    }
+    return 0;
+  }
+
+  @Override
+public _Fields fieldForId(int fieldId) {
+    return _Fields.findByThriftId(fieldId);
+  }
+

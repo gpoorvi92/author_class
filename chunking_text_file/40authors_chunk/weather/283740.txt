@@ -1,0 +1,7 @@
+            }
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return result.toString();
+    }
+}

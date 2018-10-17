@@ -1,0 +1,10 @@
+package com.opslab.util.bean;
+
+import com.opslab.util.valid;
+
+import java.beans.BeanInfo;
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;

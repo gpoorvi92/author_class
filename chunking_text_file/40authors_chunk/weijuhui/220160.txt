@@ -1,0 +1,10 @@
+
+    
+    public void setVals(TimeObject to) {
+        text = to.text.toString();
+        setText();
+        this.startTime = to.startTime;
+        this.endTime = to.endTime;
+    }
+
+    

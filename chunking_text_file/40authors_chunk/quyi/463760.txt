@@ -1,0 +1,10 @@
+      }
+    }
+
+  }
+
+  public static class ruleSync_args implements org.apache.thrift.TBase<ruleSync_args, ruleSync_args._Fields>, java.io.Serializable, Cloneable, Comparable<ruleSync_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("ruleSync_args");
+
+    private static final org.apache.thrift.protocol.TField RULES_FIELD_DESC = new org.apache.thrift.protocol.TField("rules", org.apache.thrift.protocol.TType.LIST, (short)1);
+

@@ -1,0 +1,10 @@
+ * 
+ * FileOutputStream的构造方法：
+ * 		FileOutputStream(File file)
+ * 		FileOutputStream(String name)
+ * 
+ * 字节输出流操作步骤：
+ * 		A:创建字节输出流对象
+ * 		B:调用写数据功能写数据
+ * 		C:释放资源
+ * 

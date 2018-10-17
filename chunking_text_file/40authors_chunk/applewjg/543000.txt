@@ -1,0 +1,10 @@
+        for (int i = 0; i < n+2; ++i) pool[i] = new node();
+        for (int i = 0; i < n; ++i) {
+            int idx =(int)(Long.valueOf(num[i] - minVal)* Long.valueOf(n + 1) / Long.valueOf(maxVal + 1 - minVal));
+            if (pool[idx].low == -1) {
+                pool[idx].low = pool[idx].high = num[i];
+            } else {
+                pool[idx].low = Math.min(pool[idx].low, num[i]);
+                pool[idx].high = Math.max(pool[idx].high, num[i]);
+            }
+        }

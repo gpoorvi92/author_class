@@ -1,0 +1,10 @@
+      if (incoming.get(6)) {
+        struct.riskType = iprot.readString();
+        struct.setRiskTypeIsSet(true);
+      }
+      if (incoming.get(7)) {
+        struct.riskLevel = iprot.readString();
+        struct.setRiskLevelIsSet(true);
+      }
+      if (incoming.get(8)) {
+        struct.ruleNo = iprot.readString();

@@ -1,0 +1,10 @@
+
+	/**
+	 * 获取分页查询结果，第一项为结果总数，第二个为实体数组
+	 */
+	Order[] queryOrderByAcceptStatus(String string);
+	
+	List queryOrderByAcceptStatus(String string,int start, int limit);
+
+	BigInteger getUnprocessedOrderCount();
+

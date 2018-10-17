@@ -1,0 +1,10 @@
+		// System.out.println(new String(bys, 0, len));
+		//
+		// // 用循环改，就应该知道判断结束的条件
+		// len = fis.read(bys);
+		// len = fis.read(bys);
+		// System.out.println(len);
+		// System.out.println(len);
+
+		// byte[] bys = new byte[5];
+		byte[] bys = new byte[1024 * 1024]; // 这里的数据一般是1024或者其整数倍

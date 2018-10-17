@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example7;
+
+/**
+ * Created by Brian on 2016/4/12.
+ */
+
+/**
+ * P71
+ * 同步不具继承性
+ */

@@ -1,0 +1,10 @@
+      b.add("Doug");
+      b.add("Frances");
+      b.add("Gloria");
+
+      // merge the words from b into a
+
+      ListIterator<String> aIter = a.listIterator();
+      Iterator<String> bIter = b.iterator();
+
+      while (bIter.hasNext())

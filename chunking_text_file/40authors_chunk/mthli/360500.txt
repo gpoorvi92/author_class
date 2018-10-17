@@ -1,0 +1,10 @@
+package textFormat;
+
+import javax.swing.text.*;
+
+/**
+ * A filter that restricts input to digits and a '-' sign.
+ */
+public class IntFilter extends DocumentFilter
+{
+   public void insertString(FilterBypass fb, int offset, String string, AttributeSet attr)

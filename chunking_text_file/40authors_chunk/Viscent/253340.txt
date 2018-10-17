@@ -1,0 +1,10 @@
+		this(lock, true);
+	}
+
+	private ConditionVarBlocker(Lock lock, boolean allowAccess2Lock) {
+		this.lock = lock;
+		this.allowAccess2Lock = allowAccess2Lock;
+		this.condition = lock.newCondition();
+	}
+
+	public ConditionVarBlocker() {

@@ -1,0 +1,10 @@
+public class FileEntry
+    implements Serializable
+{
+
+    public FileEntry(File file)
+    {
+        this((FileEntry)null, file);
+    }
+
+    public FileEntry(FileEntry parent, File file)

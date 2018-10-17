@@ -1,0 +1,10 @@
+    public ExtensionFileComparator()
+    {
+        caseSensitivity = IOCase.SENSITIVE;
+    }
+
+    public ExtensionFileComparator(IOCase caseSensitivity)
+    {
+        this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+    }
+

@@ -1,0 +1,10 @@
+    }
+    if (other.isSetMethodName()) {
+      this.methodName = other.methodName;
+    }
+    if (other.isSetStatement()) {
+      this.statement = other.statement;
+    }
+    if (other.isSetRiskType()) {
+      this.riskType = other.riskType;
+    }

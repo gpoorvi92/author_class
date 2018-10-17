@@ -1,0 +1,10 @@
+        modelAndView.addObject("newsType", NewsType.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/add")
+    public ModelAndView add(News news) {
+        try {
+            newsService.add(news);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());

@@ -1,0 +1,10 @@
+
+  public AppSendMessage deepCopy() {
+    return new AppSendMessage(this);
+  }
+
+  @Override
+  public void clear() {
+    this.missionId = null;
+    this.userApps = null;
+    this.rules = null;

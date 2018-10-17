@@ -1,0 +1,10 @@
+
+
+
+
+public class StrokeFramePanel extends JPanel {
+	RenderSurface renderSurface;
+
+
+
+	public StrokeFramePanel(RenderSurface renderSurface)

@@ -1,0 +1,10 @@
+      addRow("Date (default):", dateField);
+
+      DateFormat format = DateFormat.getDateInstance(DateFormat.SHORT);
+      format.setLenient(false);
+      JFormattedTextField dateField2 = new JFormattedTextField(format);
+      dateField2.setValue(new Date());
+      addRow("Date (short, not lenient):", dateField2);
+
+      try
+      {

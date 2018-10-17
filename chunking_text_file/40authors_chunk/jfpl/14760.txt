@@ -1,0 +1,10 @@
+			addInfoIv.setVisibility(View.GONE);
+			sendChatLayout.setVisibility(View.VISIBLE);
+		} else {
+			addInfoIv.setVisibility(View.VISIBLE);
+			sendChatLayout.setVisibility(View.GONE);
+		}
+	}
+
+	public void exitBtnClick(View v) {
+		finish();

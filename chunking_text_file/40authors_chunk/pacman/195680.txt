@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * makes sure the external tool working.
+	 * 
+	 * @param cmd
+	 * @param args
+	 * @return
+	 */
+	private static boolean ensureToolExists(String cmd, boolean ignoreResult) {

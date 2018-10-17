@@ -1,0 +1,10 @@
+
+            @Override
+            public void onPanelClosed(View view) {
+                if (mHasBackGround == true && mEnableBgBitMap) {
+                    mSliderBackGround.setBackgroundDrawable(null);
+                    mHasBackGround = false;
+                }
+                mIsTransparent = false;
+            }
+        });

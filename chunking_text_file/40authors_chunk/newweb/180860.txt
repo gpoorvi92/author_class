@@ -1,0 +1,10 @@
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public OrderLhjWeight selectOrderLhjWeightByOrderIDAndMaterialBrandID(
+			String orderid, int materialBrandID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order_lhjweight where orderID=? and materialbrandid=?")
+				.addEntity(OrderLhjWeight.class);
+		query.setString(0, orderid);
+		query.setInteger(1, materialBrandID);

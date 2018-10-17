@@ -1,0 +1,10 @@
+                comparator = (Comparator)i$.next();
+
+            this.delegates = (Comparator[])(Comparator[])list.toArray(new Comparator[list.size()]);
+        }
+    }
+
+    public int compare(File file1, File file2)
+    {
+        int result = 0;
+        Comparator arr$[] = delegates;

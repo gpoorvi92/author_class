@@ -1,0 +1,10 @@
+		authorizer.getAuthorization(null, null, null, null);
+	}
+
+
+	@Test(expected = AuthorizationException.class)
+	public void testException()
+			throws AuthorizationException {
+		new Authorizer() {
+
+			@Override

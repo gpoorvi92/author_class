@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean modify(OrderBxg ob) {
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("bxg",ob.getBxg().getID(),
+				ob.getOrder().getID());
+		double price = bxgService.findBxgByIdBindCut(ob.getBxg().getID(), 
+				ob.getOrder().getCustomer().getID(), null).getLsprice();
+		op.setPrice(price);
+		if(!orderPriceService.modify(op)){

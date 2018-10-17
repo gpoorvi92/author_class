@@ -1,0 +1,10 @@
+    public native void __keyReleased( java.awt.event.KeyEvent e );
+
+    boolean entered_keyReleased_2;
+
+    public void keyReleased( java.awt.event.KeyEvent e ) {
+        if ( !entered_keyReleased_2 ) {
+            entered_keyReleased_2 = true;
+            __keyReleased( e );
+            entered_keyReleased_2 = false;
+        }

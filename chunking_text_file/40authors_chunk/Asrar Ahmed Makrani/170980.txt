@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent e) {
+							patron_text.setText("P-");
+			            	name_text.setText("");
+			 				passport_text.setText("");
+			 				expiry_date_text.setText(String.valueOf(formatter.format(dt)));
+			 				reg_by_text.setText(usersName.getText());
+			 				reg_date_text.setText(dd);
+			 				textArea.setText("");
+			 				tel_text.setText("");
+			 				fax_text.setText("");

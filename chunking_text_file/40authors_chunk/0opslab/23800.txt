@@ -1,0 +1,10 @@
+     * @return fileType
+     * @author:[shixing_11@sina.com]
+     */
+    public final static String getFileTypeByStream(byte[] b) {
+        String                             filetypeHex   = String.valueOf(getFileHexString(b));
+        Iterator<Map.Entry<String,String>> entryiterator = FILE_TYPE_MAP.entrySet().iterator();
+        while (entryiterator.hasNext()) {
+            Map.Entry<String,String> entry = entryiterator.next();
+            String fileTypeHexValue = entry.getValue();
+            if (filetypeHex.toUpperCase().startsWith(fileTypeHexValue)) {

@@ -1,0 +1,10 @@
+   */
+  public V getKey() {
+    return this.m_key;
+  }
+
+  /**
+   * Maybe null!
+   * 
+   * @see java.util.Map.Entry#getValue()
+   */

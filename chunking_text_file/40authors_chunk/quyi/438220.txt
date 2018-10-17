@@ -1,0 +1,10 @@
+    // check for sub-struct validity
+    if (hardware != null) {
+      hardware.validate();
+    }
+    if (software != null) {
+      software.validate();
+    }
+  }
+
+  private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {

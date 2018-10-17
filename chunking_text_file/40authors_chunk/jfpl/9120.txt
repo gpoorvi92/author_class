@@ -1,0 +1,10 @@
+	}
+
+	public void showVioPicClick(View v) {
+		Intent intent = new Intent(this, ShowImageActivity.class);
+		intent.putExtra("xh", acd.getStringValue("xh"));
+		startActivity(intent);
+	}
+
+	public void titleBackBtnClick(View v) {
+		finish();

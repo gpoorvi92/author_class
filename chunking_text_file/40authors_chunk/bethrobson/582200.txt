@@ -1,0 +1,10 @@
+       frame.getContentPane().add(BorderLayout.CENTER, drawPanel);
+       frame.getContentPane().add(BorderLayout.EAST, labelButton);
+       frame.getContentPane().add(BorderLayout.WEST, label);
+
+       frame.setSize(420,300);
+       frame.setVisible(true);
+    }
+    
+     class LabelButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent event) {

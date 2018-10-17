@@ -1,0 +1,10 @@
+          return ENGINE_IP;
+        case 4: // ENGINE_STATUS
+          return ENGINE_STATUS;
+        case 5: // ENGINE_TYPE
+          return ENGINE_TYPE;
+        case 6: // NODE_INFO
+          return NODE_INFO;
+        case 7: // ENGINE_RULES
+          return ENGINE_RULES;
+        case 8: // ENGINE_PLOTS

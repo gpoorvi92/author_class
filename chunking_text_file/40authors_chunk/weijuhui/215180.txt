@@ -1,0 +1,10 @@
+            }
+        } catch (IOException e) {
+            if(responseHandler != null) {
+                responseHandler.sendFinishMessage();
+                if(this.isBinaryRequest) {
+                    responseHandler.sendFailureMessage(e, (byte[]) null);
+                } else {
+                    responseHandler.sendFailureMessage(e, (String) null);
+                }
+            }

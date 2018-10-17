@@ -1,0 +1,10 @@
+/**
+ * @ClassName: IWorker
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月23日 下午3:04:56
+ */
+public interface IWorker extends Runnable{
+
+	/**
+	 * Getter and setter the duration of executed.

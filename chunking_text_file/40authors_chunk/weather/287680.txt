@@ -1,0 +1,10 @@
+        if(TextUtils.isEmpty(aString)) {
+            return "";
+        }
+
+        String packageName = context.getPackageName();
+        int resId = context.getResources()
+                .getIdentifier(aString, "string", packageName);
+        if (resId == 0) {
+            return aString;
+        } else {

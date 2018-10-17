@@ -1,0 +1,10 @@
+		Log.i(SystemUtil.LOG_MSG, "login service success");
+		GlobalVariables.loginUsername = username;
+		AbstractCommonData loginPara = DataConvertFactory.getInstanceEmpty();
+		loginPara.putStringValue("username", username);
+		loginPara.putStringValue("pwd", pwd);
+		loginPara.putLongValue("last_login_time", new Date().getTime());
+		loginPara.putBooleanValue("is_auto_login", true);
+		GlobalVariables.setAutoLoginParam(ctx, loginPara);
+		Intent intent = new Intent(ctx, MainActivity.class);
+		ctx.startActivity(intent);

@@ -1,0 +1,5 @@
+				.addEntity(OrderLhjWeight.class);
+		return query.list();
+	}
+
+}

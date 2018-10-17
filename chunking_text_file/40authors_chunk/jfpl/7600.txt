@@ -1,0 +1,10 @@
+				lat + upGap, lon), 8);
+		this.sendAddress = new String[] { jc, wz, lat + "", lon + "" };
+	}
+
+	class LocationSearchListener implements MKSearchListener {
+
+		@Override
+		public void onGetAddrResult(MKAddrInfo result, int iError) {
+			// 返回地址信息搜索结果
+			if (iError != 0) {

@@ -1,0 +1,10 @@
+
+	public float getFitness() {
+		return fitness;
+	}
+
+	public void setFitness(float value) {
+		fitness = value;
+	}
+
+	public boolean equals(Chromosome c) {

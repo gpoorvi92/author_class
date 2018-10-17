@@ -1,0 +1,10 @@
+        {
+            throw new RpcException("Could not return the resource to the pool", e);
+        }
+    }
+    public void destroy()
+    {
+        try
+        {
+            super.close();
+        } catch (Exception e)

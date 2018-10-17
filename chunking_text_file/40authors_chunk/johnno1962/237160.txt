@@ -1,0 +1,10 @@
+        __windowDeiconified( e );
+    }
+
+    /// public abstract void java.awt.event.WindowListener.windowActivated(java.awt.event.WindowEvent)
+
+    public native void __windowActivated( java.awt.event.WindowEvent e );
+
+    public void windowActivated( java.awt.event.WindowEvent e ) {
+        __windowActivated( e );
+    }

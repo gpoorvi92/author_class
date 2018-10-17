@@ -1,0 +1,6 @@
+
+    public void componentHidden( java.awt.event.ComponentEvent e ) {
+        __componentHidden( e );
+    }
+
+}

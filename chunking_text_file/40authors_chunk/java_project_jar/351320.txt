@@ -1,0 +1,10 @@
+        {
+            IOUtils.closeQuietly(writer);
+            IOUtils.closeQuietly(stream);
+            if(!fileExistedAlready)
+                FileUtils.deleteQuietly(file);
+            throw ex;
+        }
+        catch(RuntimeException ex)
+        {
+            IOUtils.closeQuietly(writer);

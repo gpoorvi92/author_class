@@ -1,0 +1,10 @@
+
+    public static boolean supportABI(String requestAbi) {
+        String abi = get_CPU_ABI();
+        if (!TextUtils.isEmpty(abi) && abi.equalsIgnoreCase(requestAbi))
+            return true;
+
+        String abi2 = get_CPU_ABI2();
+        if (!TextUtils.isEmpty(abi2) && abi.equalsIgnoreCase(requestAbi))
+            return true;
+

@@ -1,0 +1,8 @@
+            }
+            if (tail == sLen - 1) return -1;
+            fh -= haystack.charAt(head++);
+            fh += haystack.charAt(++tail);
+        }
+        return -1;
+    }
+}

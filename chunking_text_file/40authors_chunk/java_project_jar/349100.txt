@@ -1,0 +1,10 @@
+// Referenced classes of package org.apache.commons.io.output:
+//            ThresholdingOutputStream, ByteArrayOutputStream
+
+public class DeferredFileOutputStream extends ThresholdingOutputStream
+{
+
+    public DeferredFileOutputStream(int threshold, File outputFile)
+    {
+        this(threshold, outputFile, null, null, null);
+    }

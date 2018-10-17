@@ -1,0 +1,10 @@
+public class MotionSensorBeanInfo
+  extends SimpleBeanInfo
+{
+  public BeanDescriptor getBeanDescriptor()
+  {
+    return new BeanDescriptor(jpos.MotionSensor.class);
+  }
+
+  public PropertyDescriptor makeProperty(String propertyName)
+    throws IntrospectionException

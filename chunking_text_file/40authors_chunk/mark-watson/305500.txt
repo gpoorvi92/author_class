@@ -1,0 +1,10 @@
+        test_recall(nn2, test1);
+        test_recall(nn2, test2);
+        test_recall(nn2, test3);
+    }
+
+    public static void test_recall(Neural_2H nn, float[] inputs) {
+        float[] results = nn.recall(inputs);
+        System.out.print("Test case: ");
+        for (int i = 0; i < inputs.length; i++) System.out.print(pp(inputs[i]) + " ");
+        System.out.print(" results: ");

@@ -1,0 +1,10 @@
+					ChatMessageUtil.sendChatLocation(ctx,
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, "toGroup", type + "",
+							args[2], args[3], new ChatLocationService(ctx,
+									chatList, holder.sendState,
+									holder.sendFinishState, acd));
+
+				}
+				holder.chatLoaction
+						.setText(acd.getStringValue("chat_location"));

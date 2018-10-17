@@ -1,0 +1,10 @@
+
+		add(jPanel1);
+	}
+
+
+
+	public static int getSelectedRow() {
+		jTable.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+
+		javax.swing.ListSelectionModel rowSel = jTable.getSelectionModel();

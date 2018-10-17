@@ -1,0 +1,10 @@
+    @Override
+    public int getVideoWidth() {
+        return mMediaPlayer.getVideoWidth();
+    }
+
+    @Override
+    public boolean isPlaying() {
+        try {
+            return mMediaPlayer.isPlaying();
+        } catch (IllegalStateException e) {

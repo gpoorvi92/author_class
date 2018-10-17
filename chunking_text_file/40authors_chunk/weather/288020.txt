@@ -1,0 +1,4 @@
+        this.imagePathDirectory = imagePathDirectory;
+    }
+
+}

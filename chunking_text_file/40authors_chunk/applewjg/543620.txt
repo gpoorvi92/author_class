@@ -1,0 +1,5 @@
+        if (existRe(board, i, j-1, word, cur+1,visited)) return true;
+        visited[i][j] = false;
+        return false;
+    }
+}

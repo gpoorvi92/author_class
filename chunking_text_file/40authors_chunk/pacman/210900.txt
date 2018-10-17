@@ -1,0 +1,10 @@
+	 */
+	public void setErr(String err) {
+		this.err = err;
+	}
+
+	/**
+	 * @return the file
+	 */
+	public String getFile() {
+		return file;

@@ -1,0 +1,10 @@
+public class FutureTest
+{
+   public static void main(String[] args)
+   {
+      Scanner in = new Scanner(System.in);
+      System.out.print("Enter base directory (e.g. /usr/local/jdk5.0/src): ");
+      String directory = in.nextLine();
+      System.out.print("Enter keyword (e.g. volatile): ");
+      String keyword = in.nextLine();
+

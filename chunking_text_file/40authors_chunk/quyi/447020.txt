@@ -1,0 +1,10 @@
+   */
+  public Software(Software other) {
+    if (other.isSetOsArch()) {
+      this.osArch = other.osArch;
+    }
+    if (other.isSetOsName()) {
+      this.osName = other.osName;
+    }
+    if (other.isSetOsDesc()) {
+      this.osDesc = other.osDesc;

@@ -1,0 +1,10 @@
+package cn.itcast_06;
+
+import java.util.Hashtable;
+
+/*
+ * 面试题：
+ * 1:HashMap和Hashtable的区别?
+ * A:HashMap是线程不安全的，效率高。允许使用 null 值和 null 键。
+ * B:Hashtable是线程安全的，效率低。不允许使用 null 值和 null 键。
+ * 

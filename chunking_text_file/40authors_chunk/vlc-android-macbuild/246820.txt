@@ -1,0 +1,10 @@
+
+        thumb = sGlobalMemCache.get(key);
+        if (thumb != null) {
+            if (ENABLE_VERBOSE)
+                DebugLog.vfmt("ImageLruCache", "get %d global", key);
+            Drawable mutateThumb = thumb.mutate();
+            mImageMemCache.put(key, mutateThumb);
+            return mutateThumb;
+        }
+

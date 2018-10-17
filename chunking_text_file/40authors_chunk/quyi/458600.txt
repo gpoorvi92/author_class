@@ -1,0 +1,10 @@
+     */
+    public searchMission_args(searchMission_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }
+    }
+
+    public searchMission_args deepCopy() {
+      return new searchMission_args(this);
+    }

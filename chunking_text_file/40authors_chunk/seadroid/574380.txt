@@ -1,0 +1,10 @@
+            default:
+                return new Fragment();
+            }
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+            case 0:
+                return getString(R.string.transfer_tabs_downloads);

@@ -1,0 +1,10 @@
+    this.checkTime = checkTime;
+    return this;
+  }
+
+  public void unsetCheckTime() {
+    this.checkTime = null;
+  }
+
+  /** Returns true if field checkTime is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckTime() {

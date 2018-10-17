@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String Title,Description,PicUrl,Url;
+	/**
+	 * 构造函数。
+	 * */
+	public Article(){
+		
+	}
+	/**
+	 * 构造函数。

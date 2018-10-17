@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetEngineRules()) {
+        {
+          oprot.writeI32(struct.engineRules.size());
+          for (String _iter8 : struct.engineRules)
+          {
+            oprot.writeString(_iter8);
+          }
+        }
+      }

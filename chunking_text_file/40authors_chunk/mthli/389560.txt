@@ -1,0 +1,10 @@
+                              .addComponent(italic).addComponent(bold)).addPreferredGap(
+                        LayoutStyle.ComponentPlacement.RELATED).addComponent(pane)
+                        .addContainerGap()));
+
+      layout.linkSize(SwingConstants.HORIZONTAL, new java.awt.Component[] { face, size });
+
+      layout.setVerticalGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(
+                  layout.createSequentialGroup().addContainerGap().addGroup(
+                        layout.createParallelGroup(GroupLayout.Alignment.LEADING).addComponent(

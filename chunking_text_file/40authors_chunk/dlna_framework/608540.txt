@@ -1,0 +1,10 @@
+	public static Debug getDebug(){
+		return Debug.debug;
+	}
+	
+	public static final void on() {
+		enabled = true;
+	}
+	public static final void off() {
+		enabled = false;
+	}

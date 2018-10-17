@@ -1,0 +1,10 @@
+		pMember.add (txtMemberName);
+		pMember.add (txtMemberAddress);
+		pMember.add (cboMonth);
+		pMember.add (cboDate);
+		pMember.add (cboYear);
+		pMember.add (btnOk);
+		pMember.add (btnCancel);
+
+		//Adding Panel to Form.
+

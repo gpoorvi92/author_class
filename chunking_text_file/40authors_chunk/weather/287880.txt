@@ -1,0 +1,10 @@
+package com.weico.album.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 图片路径集合实例
+ *
+ * @author huangjianfeng
+ */

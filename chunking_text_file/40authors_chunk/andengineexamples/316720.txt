@@ -1,0 +1,10 @@
+		pProgressListener.onProgressChanged(0);
+		Thread.sleep(1000);
+		pProgressListener.onProgressChanged(20);
+		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
+		Thread.sleep(1000);
+		this.mBitmapTextureAtlas = new BitmapTextureAtlas(this.getTextureManager(), 32, 32, TextureOptions.BILINEAR);
+		pProgressListener.onProgressChanged(40);
+		Thread.sleep(1000);
+		this.mFaceTextureRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(AsyncGameActivityExample.this.mBitmapTextureAtlas, AsyncGameActivityExample.this, "face_box.png", 0, 0);
+		pProgressListener.onProgressChanged(60);

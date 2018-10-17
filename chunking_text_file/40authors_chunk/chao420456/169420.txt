@@ -1,0 +1,10 @@
+			}
+		});
+
+		// 对bu添加事件
+		bu.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// 获取文本框的值，赋值给文本域
+				String tf_str = tf.getText();
+				// 清空数据

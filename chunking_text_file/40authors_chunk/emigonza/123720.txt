@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface POSPowerService19
+  extends POSPowerService18

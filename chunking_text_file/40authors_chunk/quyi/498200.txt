@@ -1,0 +1,10 @@
+
+  public String getFileDescription() {
+    return this.fileDescription;
+  }
+
+  public FileOperate setFileDescription(String fileDescription) {
+    this.fileDescription = fileDescription;
+    return this;
+  }
+

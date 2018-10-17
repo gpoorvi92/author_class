@@ -1,0 +1,10 @@
+              a) dp[i][j] records the number of consecutive '1' on the left and up of the element matrix[i][j].
+              b) For each element(i,j), calculate the area of rectangle including the element itself.
+           2. calculate 'Largest Rectangle in Histogram' for each row.
+           3. Time : O(n ^ 2), Space : O(n).
+ */
+
+public class Solution {
+    public int maximalRectangle_1(char[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length == 0) return 0;
+        int M = matrix.length, N = matrix[0].length;

@@ -1,0 +1,10 @@
+                    mSliderBackGround.setBackgroundDrawable(new BitmapDrawable(ActivityUtil.getSliderBackBitmap()));
+                    mHasBackGround = true;
+                }
+            }
+
+            @Override
+            public void onPanelOpened(View view) {
+                //KeyBoardUtil.hideSoftKeyboardNotAlways(SwipeActivity.this);
+                SwipeActivity.this.finishWithAnim(TransactionUtil.Transaction.NONE);
+            }

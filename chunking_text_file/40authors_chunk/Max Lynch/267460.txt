@@ -1,0 +1,10 @@
+		public void actionPerformed(ActionEvent e)
+		{
+			if(e.getSource() == rectButton)
+				frame.addShape(new ShapeLayerModel('r'));
+			 else if(e.getSource() == circleButton)			
+				frame.addShape(new ShapeLayerModel('o'));
+			 else if(e.getSource() == lineButton)			
+				frame.addShape(new ShapeLayerModel('l'));
+			 else if(e.getSource() == freeButton)
+				frame.addShape(new ShapeLayerModel('f'));

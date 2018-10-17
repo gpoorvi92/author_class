@@ -1,0 +1,10 @@
+
+	/**
+	 * 初始化该类对外暴露的服务。
+	 */
+	public void init() {
+		workerThread.start();
+	}
+
+	/**
+	 * 停止该类对外暴露的服务。

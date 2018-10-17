@@ -1,0 +1,10 @@
+    private boolean started;
+
+    public SeafileMonitor(CachedFileChangedListener listener) {
+        this.listener = listener;
+    }
+
+    public boolean isStarted() {
+        return started;
+    }
+

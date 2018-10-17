@@ -1,0 +1,10 @@
+		
+		return scanEventMessage;
+	}
+	/**
+	 * 上报地理位置事件消息解析成对象。
+	 * @param data
+	 * 	消息数据。
+	 * @return
+	 *  事件消息对象。
+	 * */

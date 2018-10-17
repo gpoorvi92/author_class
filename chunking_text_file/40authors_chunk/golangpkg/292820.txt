@@ -1,0 +1,10 @@
+
+	private void processRemainingTimeTest(long fileSize, long start, long rate, long expectedSeconds) {
+		FileProgressStatus progress = new FileProgressStatus();
+		progress.setTotalFileSize(fileSize);
+		progress.setBytesUploaded(start);
+		long calculateRemainingTime = remainingTimeEstimator.calculateRemainingTime(progress, rate);
+		Assert.assertThat(calculateRemainingTime, CoreMatchers.is(expectedSeconds));
+	}
+	
+	

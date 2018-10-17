@@ -1,0 +1,10 @@
+            while (i++ < elemento){
+                suma = num1 + num2;
+                System.out.print(num2 + " ");
+                num1 = num2;
+                num2 = suma;
+            }
+        }
+    }
+  }
+}

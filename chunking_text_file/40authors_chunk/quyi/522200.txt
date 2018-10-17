@@ -1,0 +1,10 @@
+     */
+    public modifyNodeManagerConfig_args(modifyNodeManagerConfig_args other) {
+      if (other.isSetNodeId()) {
+        this.nodeId = other.nodeId;
+      }
+      if (other.isSetPropertyName()) {
+        this.propertyName = other.propertyName;
+      }
+      if (other.isSetPropertyValue()) {
+        this.propertyValue = other.propertyValue;

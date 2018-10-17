@@ -1,0 +1,10 @@
+			 				fax_text.setEditable(true);
+			 				email_text.setEditable(true);
+            }
+        });
+
+        toolBar.add(button);
+        //second button
+        button = new JButton(new ImageIcon("save.gif"));
+        button.setToolTipText("Save");
+        button.addActionListener(new ActionListener() {

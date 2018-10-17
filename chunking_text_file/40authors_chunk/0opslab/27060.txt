@@ -1,0 +1,10 @@
+        return geestFileEncoding(file, new nsDetector(languageHint));
+    }
+
+    /**
+     * 获取文件的编码
+     *
+     * @param path 文件路径
+     * @return 文件编码，eg：UTF-8,GBK,GB2312形式，若无，则返回null
+     * @throws FileNotFoundException
+     * @throws IOException

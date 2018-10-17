@@ -1,0 +1,10 @@
+      } else {
+        sb.append(this.propertyName);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("propertyValue:");
+      if (this.propertyValue == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.propertyValue);

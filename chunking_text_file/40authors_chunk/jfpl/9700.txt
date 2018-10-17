@@ -1,0 +1,10 @@
+			pressRecordBtn.setVisibility(View.GONE);
+			chatEt.setVisibility(View.VISIBLE);
+		}
+		isInputType = !isInputType;
+		setAddPanelState(false);
+	}
+
+	public boolean pressRecordTouch(View v, MotionEvent event) {
+		if (v.getId() == R.id.press_voice_btn) {
+			if (event.getAction() == MotionEvent.ACTION_UP) {

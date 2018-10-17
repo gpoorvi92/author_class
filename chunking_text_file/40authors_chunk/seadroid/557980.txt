@@ -1,0 +1,10 @@
+        mListener = listener;
+        mTitle = title;
+    }
+
+    public void addCustomAction(int id, Drawable icon, String description) {
+        customActions.add(new CustomAction(id, icon, description));
+    }
+
+    private void onAppSelected(int index) {
+        dismiss();

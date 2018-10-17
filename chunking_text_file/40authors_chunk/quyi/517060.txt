@@ -1,0 +1,10 @@
+    }
+
+    public String getSuccess() {
+      return this.success;
+    }
+
+    public reportNodeManagerConfig_result setSuccess(String success) {
+      this.success = success;
+      return this;
+    }

@@ -1,0 +1,10 @@
+    /**
+     * 加载表情
+     */
+    private void loadExpression(Context context) {
+        Resources resources = context.getResources();
+
+        String[] expressionName = resources.getStringArray(R.array.expression_name);
+        for (int i = 0; i < expressionName.length; i++) {
+            String name = expressionName[i];
+            expressionNameList1.add(name.trim());

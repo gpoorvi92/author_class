@@ -1,0 +1,10 @@
+     * @param pos position where a literal was removed
+     */
+    public void clearLiteral(final int pos) {
+        if (this.litwlist.get(pos)) {
+            // litwlist.unset(pos);
+            this.litwlist.set(pos, false);
+            this.litWeight--;
+        }
+    }
+

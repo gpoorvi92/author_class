@@ -1,0 +1,10 @@
+
+		Field field = gFields.get(key);
+		
+		if (field != null) {
+			field.setAccessible(true);
+			String str = (String) field.get(config);
+			FileHelper.ensureExists(str, false);
+		} else {
+			logger.error("[Environment prechecking] ERROR: AppConfig doesn't contain [" + key + "]");
+			return false;

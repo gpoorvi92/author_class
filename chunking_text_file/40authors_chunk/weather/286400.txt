@@ -1,0 +1,10 @@
+     * @param context sd卡的context
+     * @return
+     */
+    public static String getStorageDirectory(Context context){
+        String fileString = "";
+        if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
+            fileString =   Environment.getExternalStorageDirectory() + "/WeicoLove/";
+        }
+        else{
+            fileString =  getCacheDirectory(context)+"/WeicoLove/";

@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.jobPriority);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("taskInfo:");
+    if (this.taskInfo == null) {
+      sb.append("null");
+    } else {

@@ -1,0 +1,10 @@
+			QueryAccountResponseBody responseBody=new QueryAccountResponseBody(acctArray);
+			r.setBody(responseBody);
+			r.setResult(ResponseCode.SUCCESS);
+		}catch(Exception e){
+			r.setResult(ResponseCode.ERROR_ACCOUNT_QUERY);
+			log.error("query:",e);
+		}
+		return r;
+	}
+

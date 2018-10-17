@@ -1,0 +1,9 @@
+public interface JposServiceInstance 
+{
+    /**
+     * Indicate the ServiceInstance that its connection has been dropped
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if any error occurs
+     */
+    public void deleteInstance() throws JposException;
+}

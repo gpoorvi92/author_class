@@ -1,0 +1,10 @@
+ */
+public interface PongConstants {
+	// ===========================================================
+	// Final Fields
+	// ===========================================================
+
+	public static final int FPS = 30;
+
+	public static final int GAME_WIDTH = 720;
+	public static final int GAME_WIDTH_HALF = GAME_WIDTH / 2;

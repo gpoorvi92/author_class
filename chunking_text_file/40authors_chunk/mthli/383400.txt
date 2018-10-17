@@ -1,0 +1,10 @@
+      add(loadButton, new GBC(0, 2, 2, 1));
+      loadButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               runClass(nameField.getText(), keyField.getText());
+            }
+         });
+      pack();
+   }

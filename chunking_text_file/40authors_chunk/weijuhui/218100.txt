@@ -1,0 +1,10 @@
+        // retry-this, since it may happens as part of a Wi-Fi to 3G failover
+        exceptionWhitelist.add(UnknownHostException.class);
+        // retry-this, since it may happens as part of a Wi-Fi to 3G failover
+        exceptionWhitelist.add(SocketException.class);
+
+        // never retry timeouts
+        exceptionBlacklist.add(InterruptedIOException.class);
+        // never retry SSL handshake failures
+        exceptionBlacklist.add(SSLException.class);
+    }

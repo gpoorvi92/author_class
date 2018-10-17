@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// ItemDispenserConst
+//
+//   ItemDispenser constants for JavaPOS Applications.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 2008-Jan-14 JavaPOS Release 1.12                                BS
+//   New device category.

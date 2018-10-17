@@ -1,0 +1,10 @@
+        saveToVLA(m, f);
+    }
+
+    public String getDescription()
+    {
+        return "(*.vla) Vector Line Array - no faces";
+    }
+
+    /** returns the extension commonly used by the file format
+ */

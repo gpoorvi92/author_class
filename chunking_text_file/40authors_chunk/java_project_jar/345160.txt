@@ -1,0 +1,10 @@
+    }
+
+    public void write(char chr[])
+        throws IOException
+    {
+        out.write(chr);
+    }
+
+    public void write(char chr[], int st, int end)
+        throws IOException

@@ -1,0 +1,10 @@
+		final Text textStroke = new Text(100, 200, this.mStrokeFont, "Text with fill and stroke.", vertexBufferObjectManager);
+		final Text textStrokeOnly = new Text(100, 300, this.mStrokeOnlyFont, "Text with stroke only.", vertexBufferObjectManager);
+
+		scene.attachChild(textNormal);
+		scene.attachChild(textStroke);
+		scene.attachChild(textStrokeOnly);
+
+		return scene;
+	}
+

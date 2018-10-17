@@ -1,0 +1,10 @@
+        return "video";
+    }
+
+    @Override
+    public String getDefaultFileName() {
+        return ContentTypes.VIDEO_FILE_NAME;
+    }
+
+    @Override
+    public String getContentType() {

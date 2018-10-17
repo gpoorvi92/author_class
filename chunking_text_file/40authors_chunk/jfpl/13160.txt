@@ -1,0 +1,10 @@
+	public void refreshRecently() {
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		List<AbstractCommonData> list = query("get_chat_recently_list");
+		for (AbstractCommonData item : list) {
+			String title = item.getStringValue("title");
+			String content = item.getStringValue("content");
+			String icon = item.getStringValue("icon");
+			item.putStringValue("recently_app", title);
+			item.putStringValue("recently_desc", content);
+		}

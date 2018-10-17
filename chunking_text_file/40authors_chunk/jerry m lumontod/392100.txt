@@ -1,0 +1,10 @@
+			case 35:
+				mintResult = s1.mstrEntryCode.compareTo(s2.mstrEntryCode);
+				break;
+		}
+
+		
+		if (!mblnSortAsc)
+			mintResult = -mintResult;
+		return mintResult;
+	}

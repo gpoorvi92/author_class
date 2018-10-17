@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			
+			logger.error("Fail to download[" + url + "]", e);
+			result = false;
+		} finally {
+			
+			if (reader != null) {
+				try {
+					reader.close();
+				} catch (IOException e) {

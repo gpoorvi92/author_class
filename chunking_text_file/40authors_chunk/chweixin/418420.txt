@@ -1,0 +1,10 @@
+	protected List<WeChatDefaultReply> find(WeChatDefaultReplyInfo info) {
+		return this.weChatDefaultReplyDao.findReplies(info);
+	}
+
+	@Override
+	protected WeChatDefaultReplyInfo changeModel(WeChatDefaultReply data) {
+		if(data == null) return null;
+		WeChatDefaultReplyInfo info = new WeChatDefaultReplyInfo();
+		BeanUtils.copyProperties(data, info);
+		if(data.getAccount() != null){

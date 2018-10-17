@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.gallery;
+
+import java.lang.ref.ReferenceQueue;
+import java.lang.ref.WeakReference;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import com.google.common.collect.Maps;
+

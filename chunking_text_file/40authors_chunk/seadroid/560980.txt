@@ -1,0 +1,10 @@
+    static final String[] IMAGE_PROJECTION = new String[] {
+            Media._ID,
+            Media.DATA,
+            Media.DATE_TAKEN,
+            Media.MINI_THUMB_MAGIC,
+            Media.ORIENTATION,
+            Media.TITLE,
+            Media.MIME_TYPE,
+            Media.DATE_MODIFIED};
+

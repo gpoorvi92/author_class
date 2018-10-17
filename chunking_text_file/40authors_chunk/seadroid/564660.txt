@@ -1,0 +1,10 @@
+
+    /**
+     * Get thread status and create one if specified.
+     */
+    private synchronized ThreadStatus getOrCreateThreadStatus(Thread t) {
+        ThreadStatus status = mThreadStatus.get(t);
+        if (status == null) {
+            status = new ThreadStatus();
+            mThreadStatus.put(t, status);
+        }

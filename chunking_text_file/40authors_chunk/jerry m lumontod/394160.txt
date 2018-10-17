@@ -1,0 +1,9 @@
+			mstrErrMsg = mstrErrMsg + "Must specify amount|";
+		}
+	}
+	
+	public String TheMessage() {
+		return mstrErrMsg;
+	}
+}
+

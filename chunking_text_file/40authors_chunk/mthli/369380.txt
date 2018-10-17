@@ -1,0 +1,10 @@
+      }
+      String url = props.remove("url").toString();
+      String result = doPost(url, props);
+      System.out.println(result);
+   }   
+   
+   public static String doPost(String urlString, Map<Object, Object> nameValuePairs)
+         throws IOException
+   {
+      URL url = new URL(urlString);

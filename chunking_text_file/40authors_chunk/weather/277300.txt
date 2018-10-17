@@ -1,0 +1,10 @@
+                putRequest.addHeader(HEADER_CONTENT_TYPE, request.getBodyContentType());
+                setEntityIfNonEmptyBody(putRequest, request);
+                return putRequest;
+            }
+            default:
+                throw new IllegalStateException("Unknown request method.");
+        }
+    }
+
+    private static void setEntityIfNonEmptyBody(HttpEntityEnclosingRequestBase httpRequest,

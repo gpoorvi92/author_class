@@ -1,0 +1,10 @@
+                chars_read = 16;
+            dump(buffer, display_offset).append(' ');
+            for(int k = 0; k < 16; k++)
+            {
+                if(k < chars_read)
+                    dump(buffer, data[k + j]);
+                else
+                    buffer.append("  ");
+                buffer.append(' ');
+            }

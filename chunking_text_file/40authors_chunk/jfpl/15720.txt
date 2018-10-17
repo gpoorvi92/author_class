@@ -1,0 +1,10 @@
+	private Handler handler = new Handler() {
+		@Override
+		public void handleMessage(Message msg) {
+			try {
+				switch (msg.what) {
+				case 1:
+					sdIcon1.setVisibility(View.VISIBLE);
+					stIcon1.setVisibility(View.GONE);
+					break;
+				case 2:

@@ -1,0 +1,10 @@
+
+ Solution: Recursion. Return the last element of the flattened sub-tree.
+ */
+
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;

@@ -1,0 +1,10 @@
+// KeylockBeanInfo.java - Bean information for the JavaPOS Keylock
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

@@ -1,0 +1,10 @@
+package cn.itcast_06;
+
+/*
+ * 面试题：
+ * final,finally和finalize的区别?
+ * final:修饰类，修饰成员变量，修饰成员方法
+ * 		修饰类,类不能被继承	
+ * 		修饰成员变量，变量是常量
+ * 		修饰成员方法，方法不能被重写
+ * finally:被finally控制的代码永远会执行，用于释放资源。

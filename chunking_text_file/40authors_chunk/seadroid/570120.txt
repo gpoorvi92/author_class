@@ -1,0 +1,10 @@
+            BitmapManager.instance().decodeFileDescriptor(
+                    input.getFileDescriptor(), options);
+            return options;
+        } finally {
+            Util.closeSilently(input);
+        }
+    }
+
+    public String getMimeType() {
+        BitmapFactory.Options options = snifBitmapOptions();

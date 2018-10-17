@@ -1,0 +1,10 @@
+
+public static void main(String[] args) {
+Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Introduce un numro que sea grande");
+    int numIntrod = teclado.nextInt();  
+
+    System.out.println("Introduce un divisor que sea mas pequeño que el " + 
+                 " anterior");
+    int divisor = teclado.nextInt(); 

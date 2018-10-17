@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // OPERATE_TYPE
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.operateType = iprot.readString();
+              struct.setOperateTypeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

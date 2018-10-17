@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import java.util.Date;
+import ipower.model.Paging;
+
+public class WeChatAccessTokenInfo extends Paging {
+	private static final long serialVersionUID = 1L;
+	private String id,accessToken,accountId,accountName;
+	private Date createTime,failureTime;
+	/**

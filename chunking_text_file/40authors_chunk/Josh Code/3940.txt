@@ -1,0 +1,10 @@
+                  KeyEvent.VK_MINUS, ActionEvent.CTRL_MASK));
+        view.add(zoomIn);
+        view.add(zoomOut);
+
+        fileOpen = new JMenuItem("Open");
+        fileM.add(fileOpen);
+        fileM.add(exportMenu);
+        fileM.add(saveDisplay);
+        add(fileM);
+        add(view);

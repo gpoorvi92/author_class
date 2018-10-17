@@ -1,0 +1,10 @@
+	public String getNT()
+	{
+		return getHeaderValue(HTTP.NT);
+	}
+	
+	public boolean hasNT()
+	{
+		String nt = getNT();
+		return (nt != null && 0 < nt.length()) ? true : false;
+	}

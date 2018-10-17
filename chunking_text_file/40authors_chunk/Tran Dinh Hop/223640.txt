@@ -1,0 +1,10 @@
+		while (q.sizeQ()>1){
+			one=q.removeFirst();
+			two=q.removeFirst();
+			int f1=one.getFreq();
+			int f2=two.getFreq();
+			if (f1>f2){
+				HuffmanNode t=new HuffmanNode(null,(f1+f2),0,two,one,null);			
+				one.up=t;
+				two.up=t;
+				q.insertM(t);	

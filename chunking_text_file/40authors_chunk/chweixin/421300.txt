@@ -1,0 +1,10 @@
+			if(isAdded = (data == null)){
+				if(info.getId() == null || info.getId().trim().isEmpty()){
+					info.setId(UUID.randomUUID().toString());
+				}
+				data = new WeChatAccount();
+			}
+			BeanUtils.copyProperties(info, data);
+			if(isAdded) this.weChatAccountDao.save(data);
+		}
+		return info;

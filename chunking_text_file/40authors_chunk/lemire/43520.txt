@@ -1,0 +1,10 @@
+		System.out.println("memory usage: " + orbitmap.sizeInBytes() + " bytes");
+		// and
+		EWAHCompressedBitmap andbitmap = ewahBitmap1.and(ewahBitmap2);
+		System.out.println("bitmap 1 AND bitmap 2: " + andbitmap);
+		System.out.println("memory usage: " + andbitmap.sizeInBytes() + " bytes");
+		// xor
+		EWAHCompressedBitmap xorbitmap = ewahBitmap1.xor(ewahBitmap2);
+		System.out.println("bitmap 1 XOR bitmap 2:" + xorbitmap);
+		System.out.println("memory usage: " + xorbitmap.sizeInBytes() + " bytes");
+		// fast aggregation over many bitmaps

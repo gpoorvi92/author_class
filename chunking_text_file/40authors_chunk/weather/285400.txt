@@ -1,0 +1,10 @@
+	}
+
+	public int getFileSize() {
+		return fileSize;
+	}
+
+	private void setFileSize(int fileSize) {
+		this.fileSize = fileSize;
+	}
+}

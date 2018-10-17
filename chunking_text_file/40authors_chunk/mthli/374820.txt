@@ -1,0 +1,10 @@
+    */
+   public void updateDisplay()
+   {
+      Locale currentLocale = locales[localeCombo.getSelectedIndex()];
+      currentNumberFormat = null;
+      if (numberRadioButton.isSelected()) currentNumberFormat = NumberFormat
+            .getNumberInstance(currentLocale);
+      else if (currencyRadioButton.isSelected()) currentNumberFormat = NumberFormat
+            .getCurrencyInstance(currentLocale);
+      else if (percentRadioButton.isSelected()) currentNumberFormat = NumberFormat

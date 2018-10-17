@@ -1,0 +1,10 @@
+		}
+		return increment;
+	}
+	//计算并返回粮草的衰减数
+	public static int getFoodDecreaseEach(Hero hero){
+		int level = hero.level;
+		return FOOD_DECREASE_EACH+level;
+	}
+	//计算并返回技能的收益值，如该获得多少麦子等等
+	public static int getSkillEearning(int proficiency,int basicEarning){

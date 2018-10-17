@@ -1,0 +1,10 @@
+    @Override
+    public boolean isBufferingEnd() {
+        return mIsMediaSwitchEnd;
+    }
+
+    @Override
+    public ModuleInfo getModuleInfo() {
+        return ModuleInfo.getAndroidListModuleInfo();
+    }
+

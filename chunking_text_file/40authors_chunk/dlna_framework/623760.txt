@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public ControlResponse()
+	{
+		setServer(UPnP.getServerName());
+	}
+
+	public ControlResponse(SOAPResponse soapRes)
+	{
+		super(soapRes);

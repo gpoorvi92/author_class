@@ -1,0 +1,10 @@
+				frame.setSize(950,400);
+				frame.setVisible(true);
+				frame.setLocationRelativeTo(null);
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				this.dispose();
+		}
+		if(e.getSource() ==jbtChoc5)
+		{
+				NescafeInfo frame = new NescafeInfo();
+				frame.setTitle("Nescafe Info");

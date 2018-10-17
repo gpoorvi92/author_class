@@ -1,0 +1,10 @@
+
+    private boolean isActiviyBeingChecked(Activity activity) {
+        if (!mCheckedActivities.containsKey(activity)) {
+            return false;
+        }
+        long ts = mCheckedActivities.get(activity);
+        return ts + 2000 > System.currentTimeMillis();
+    }
+
+    @Override

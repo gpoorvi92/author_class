@@ -1,0 +1,10 @@
+			data[i] = (byte) read;
+			i++;
+			read = in.read();
+		}
+		String s = new String(data, 0, i);
+		in.close();
+		System.out.println(s);
+		
+		
+//		随即打乱订单客户

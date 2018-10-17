@@ -1,0 +1,10 @@
+      return this.success;
+    }
+
+    public searchApp_result setSuccess(com.nercis.isscp.idl.Sample success) {
+      this.success = success;
+      return this;
+    }
+
+    public void unsetSuccess() {
+      this.success = null;

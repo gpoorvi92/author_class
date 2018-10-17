@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 数据类型转换。
+	 * @param data
+	 * 	数据实体对象。
+	 * @return 结果数据。
+	 * */
+	protected abstract T changeModel(K data);
+	/**
+	 * 统计查询数据。

@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void sendVoice() throws IOException {
+        byte[] array = Files.readAllBytes(new File(audioFile).toPath());
+        SendVoice request = new SendVoice(chatId, array);
+        SendResponse sendResponse = bot.execute(request);
+        Message message = sendResponse.message();
+        MessageTest.checkVoiceMessage(message);
+    }

@@ -1,0 +1,10 @@
+
+class Employee {
+    private static int nextId = 1;
+
+
+    private String name;
+    private double salary;
+    private int id;
+
+    public Employee(String n, double s) {

@@ -1,0 +1,10 @@
+    {
+        int count;
+        for(int remaining = length; remaining > 0; remaining -= count)
+        {
+            int location = offset + (length - remaining);
+            count = read(data, location, remaining);
+            if(-1 == count)
+                throw new EOFException();
+        }
+

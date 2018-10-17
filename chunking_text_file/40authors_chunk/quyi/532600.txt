@@ -1,0 +1,10 @@
+  /** Returns true if field apiPackageName is set (has been assigned a value) and false otherwise */
+  public boolean isSetApiPackageName() {
+    return this.apiPackageName != null;
+  }
+
+  public void setApiPackageNameIsSet(boolean value) {
+    if (!value) {
+      this.apiPackageName = null;
+    }
+  }

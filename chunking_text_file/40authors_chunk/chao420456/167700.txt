@@ -1,0 +1,10 @@
+	// }
+	// return true;
+	// }
+
+	// public static boolean isDuiCheng(String s) {
+	// boolean flag = true;
+	// // 把字符串转成数组
+	// char[] chs = s.toCharArray();
+	// // 把数组的元素反转
+	// for (int start = 0, end = chs.length - 1; start <= end; start++, end--) {

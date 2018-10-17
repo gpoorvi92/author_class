@@ -1,0 +1,10 @@
+      printTable(1, 10, 10, sqrt);
+   }
+
+   /**
+    * Returns the square of a number
+    * @param x a number
+    * @return x squared
+    */
+   public static double square(double x)
+   {

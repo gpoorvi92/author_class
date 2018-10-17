@@ -1,0 +1,10 @@
+        mErrorText.setText(msg);
+        mErrorText.setVisibility(View.VISIBLE);
+    }
+
+    private void showLoading(boolean show) {
+        mErrorText.setVisibility(View.GONE);
+        if (show) {
+            mProgressContainer.startAnimation(AnimationUtils.loadAnimation(
+                    mActivity, android.R.anim.fade_in));
+            mListContainer.startAnimation(AnimationUtils.loadAnimation(

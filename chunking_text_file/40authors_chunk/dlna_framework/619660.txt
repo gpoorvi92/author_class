@@ -1,0 +1,10 @@
+	 * @return the destination port for multicast packet
+	 * @since 1.8
+	 */
+	public int getMulticastPort(){
+		return ssdpMultiGroup.getPort();
+	}
+	
+	/**
+	 * 
+	 * @return the source port for multicast packet

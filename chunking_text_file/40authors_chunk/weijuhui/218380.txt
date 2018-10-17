@@ -1,0 +1,10 @@
+		}
+		
+	}
+	
+	RequestParams buildRequestParams() throws Exception{
+		RequestParams params = new RequestParams();
+		params.put("version",getVersionName());
+		return params; 
+	}
+	

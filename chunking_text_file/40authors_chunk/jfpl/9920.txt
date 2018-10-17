@@ -1,0 +1,10 @@
+		} else if ("4".equals(msgType)) { // 位置
+			Intent intent = new Intent(this, ShowLocationActivity.class);
+			String[] arr = (String[]) acd.getObjectValue("tag");
+			intent.putExtra("tag", arr);
+			startActivity(intent);
+		}
+	}
+
+	@Override
+	protected int getListItemLayout(AbstractCommonData acd, View v) {

@@ -1,0 +1,10 @@
+                    String fieldName = propDesc.getName();
+                    if (!"class".equals(fieldName)) {
+                        Object type = propDesc.getPropertyType();
+                        Method readMethod = propDesc.getReadMethod();
+                        Method writeMethod = propDesc.getWriteMethod();
+                        boolean isDeclared = isDeclaredField(className, fieldName);
+                        simpleProperties.put(fieldName, new BeanStruct(fieldName, type, readMethod, writeMethod, isDeclared));
+                        simplePropertiesIgnore.put(fieldName.toLowerCase(), new BeanStruct(fieldName, type, readMethod, writeMethod, isDeclared));
+                    }
+                }

@@ -1,0 +1,10 @@
+					|| f.getName().indexOf(".") > 0 || i > 2) {
+				return null;
+			}
+
+			String imagePath = "";
+			int length = 0;
+			for (File file : imageList) {
+				if (file.isDirectory()) {
+					AbstractCommonData _acd = getImagePickerList(file, j);
+					if (_acd != null) {

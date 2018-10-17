@@ -1,0 +1,10 @@
+	StaticStateManager<StaticStatePersistedOnFileSystemEntity> staticStateManager;
+
+	@Autowired
+	StaticStateIdentifierManager staticStateIdentifierManager;
+
+	@Autowired
+	RequestComponentContainer requestComponentContainer;
+
+	private boolean assertt = false;
+

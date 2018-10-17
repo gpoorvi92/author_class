@@ -1,0 +1,10 @@
+      }
+   }
+}
+
+/**
+ * This runnable modifies a combo box by randomly adding and removing numbers. In order to ensure
+ * that the combo box is not corrupted, the editing operations are forwarded to the event dispatch
+ * thread.
+ */
+class GoodWorkerRunnable implements Runnable

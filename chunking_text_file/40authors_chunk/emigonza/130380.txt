@@ -1,0 +1,10 @@
+    public static final int SCAL_SUE_NOT_READY         = 15;
+    public static final int SCAL_SUE_WEIGHT_UNDER_ZERO = 16;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "ResultCodeExtended" Property Constants for Scale
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_ESCAL_OVERWEIGHT  = 1 + JposConst.JPOSERREXT; // ReadWeight
+    public static final int JPOS_ESCAL_UNDER_ZERO  = 2 + JposConst.JPOSERREXT; // ReadWeight

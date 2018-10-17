@@ -1,0 +1,10 @@
+	public String getOpenId() {
+		return this.openId;
+	}
+	/**
+	 * 获取最新按钮键值。
+	 * @return 最新按钮键值。
+	 * */
+	public String getLastMenuKey() {
+		return lastMenuKey;
+	}

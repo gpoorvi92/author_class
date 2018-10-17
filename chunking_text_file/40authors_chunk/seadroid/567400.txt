@@ -1,0 +1,10 @@
+
+    @Override
+    public String getTitle() {
+        return path.substring(path.lastIndexOf('/') + 1);
+    }
+
+    @Override
+    public String getSubtitle() {
+        String timestamp = Utils.translateCommitTime(mtime * 1000);
+        if (isDir())

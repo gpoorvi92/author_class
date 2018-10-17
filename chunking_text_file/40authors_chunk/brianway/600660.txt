@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.supplement.example2;
+
+/**
+ * Created by Brian on 2016/4/17.
+ */
+
+/**
+ * 取消System.out.println的注释能看到更多细节
+ */
+public class MyThread extends Thread {

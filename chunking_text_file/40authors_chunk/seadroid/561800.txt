@@ -1,0 +1,10 @@
+
+                        @Override
+                        public boolean isCancelled() {
+                            return DownloadTask.this.isCancelled();
+                        }
+                    }
+            );
+        } catch (SeafException e) {
+            err = e;
+            return null;

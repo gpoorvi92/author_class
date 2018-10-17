@@ -1,0 +1,10 @@
+    public void windowLostFocus( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowLostFocus_8 ) {
+            entered_windowLostFocus_8 = true;
+            __windowLostFocus( e );
+            entered_windowLostFocus_8 = false;
+        }
+        else
+            super.windowLostFocus( e );
+    }
+

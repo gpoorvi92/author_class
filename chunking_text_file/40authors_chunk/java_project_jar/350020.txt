@@ -1,0 +1,10 @@
+            return file;
+        }
+
+        public int getDepth()
+        {
+            return depth;
+        }
+
+        private static final long serialVersionUID = 0x12b2b63ef9f577f0L;
+        private final File file;

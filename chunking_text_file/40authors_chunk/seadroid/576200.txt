@@ -1,0 +1,10 @@
+
+        return txService.getAllUploadTaskInfos();
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.upload_tasks_fragment, container, false);
+    }
+

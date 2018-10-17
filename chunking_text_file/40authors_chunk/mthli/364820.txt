@@ -1,0 +1,10 @@
+    * @param beanName the name of the bean to which the listener should be added
+    * @param eventName the name of the listener type, such as "action" or "change"
+    * @param scriptCode the script code to be executed
+    * @param engine the engine that executes the code
+    * @param bindings the bindings for the execution
+    * @throws IntrospectionException 
+    */
+   private static void addListener(String beanName, String eventName, final String scriptCode,
+      final ScriptEngine engine) throws ReflectiveOperationException, IntrospectionException
+   {

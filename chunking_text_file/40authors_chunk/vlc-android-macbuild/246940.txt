@@ -1,0 +1,10 @@
+        return sdk >= FROYO && sdk <= GINGERBREAD_MR1;
+    }
+
+    public static final boolean isApi9_GingerBreadOrLater() {
+        int sdk = getSDKVersion();
+        return sdk >= FROYO;
+    }
+
+    public static final boolean isApi11_HoneyComb() {
+        int sdk = getSDKVersion();

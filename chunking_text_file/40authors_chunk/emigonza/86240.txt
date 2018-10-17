@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface SmartCardRWService111 extends SmartCardRWService110
+{
+  // Nothing new added for release 1.11

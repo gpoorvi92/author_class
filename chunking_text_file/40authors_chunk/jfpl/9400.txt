@@ -1,0 +1,10 @@
+	private RelativeLayout mainLayout;
+
+	@InjectionView(id = R.id.chat_list)
+	private android.widget.ListView chatList;
+
+	private VoiceRecordDialog vrDialog;
+
+	private boolean isAddVisible = false;
+	private boolean isInputType = true;
+	private int addPanelHeight = (int) (SystemUtil.SCREEN_HEIGHT * 0.504f);

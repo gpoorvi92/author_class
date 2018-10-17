@@ -1,0 +1,9 @@
+            maxVal = Math.max(maxVal, prices[i]);
+        }
+        int res = l2r[n-1];
+        for (int i = 0; i < n - 1; ++i) {
+            res = Math.max(res, l2r[i] + r2l[i+1]);
+        }
+        return res;
+    }
+}

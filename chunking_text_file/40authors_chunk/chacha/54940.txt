@@ -1,0 +1,10 @@
+		return connectionsPerHost;
+	}
+
+	public static void setConnectionsPerHost(int connectionsPerHost) {
+		Config.connectionsPerHost = connectionsPerHost;
+	}
+
+	public static int getThreadsAllowedToBlockForConnectionMultiplier() {
+		return threadsAllowedToBlockForConnectionMultiplier;
+	}

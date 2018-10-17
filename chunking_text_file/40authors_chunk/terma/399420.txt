@@ -1,0 +1,10 @@
+        } catch (NumberFormatException exception) {
+            throw new IllegalArgumentException(
+                    "Invalid integer " + key + " = " + value, exception);
+        }
+    }
+
+    private static String findProperty(Properties properties, String key) {
+        final String value = properties.getProperty(key);
+        if (value == null) throw new IllegalArgumentException("Please specify " + key);
+        return value;

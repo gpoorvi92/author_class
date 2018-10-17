@@ -1,0 +1,10 @@
+
+		// assert session is empty
+		Assert.assertNull(mockHttpServletRequest.getSession().getAttribute(DefaultIdentifierProvider.cookieIdentifier));
+
+		// assert cookie is either empty or maxage below 0
+		Assert.assertNull(DefaultIdentifierProvider.getCookie(mockHttpServletRequest.getCookies(), DefaultIdentifierProvider.cookieIdentifier));
+	}
+
+
+	@Test

@@ -1,0 +1,10 @@
+		this.filename = filename;
+
+	}
+
+	@Override
+	public void run() {
+		while (true) {
+			if (!queue.isEmpty()) {
+				SearchRecordInfo searchRecordInfo = queue.poll();
+				new ExportExcel().exportToSearchExcel(filename,

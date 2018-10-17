@@ -1,0 +1,10 @@
+    }
+
+    public void setGoodsId(Integer goodsId) {
+        this.goodsId = goodsId;
+    }
+
+    public Integer getMerchantId() {
+        return merchantId;
+    }
+

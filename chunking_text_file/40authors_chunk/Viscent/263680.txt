@@ -1,0 +1,10 @@
+import org.apache.commons.net.ftp.FTPClientConfig;
+import org.apache.commons.net.ftp.FTPReply;
+
+/*
+ * 实现FTP文件下载。
+ * 模式角色：SerialThreadConfiment.Serializer
+ */
+public class MessageFileDownloader {
+
+	// 模式角色：SerialThreadConfiment.WorkerThread

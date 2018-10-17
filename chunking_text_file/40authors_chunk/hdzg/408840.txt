@@ -1,0 +1,10 @@
+	public LoadingView(HDZGActivity activity, int type) {//构造器 
+		super(activity);
+		this.activity = activity;//activity的引用
+        getHolder().addCallback(this);
+        this.drawThread = new DrawThread(getHolder(), this);//初始化刷帧线程
+        this.type = type;//进度条结束去哪个界面
+        initBitmap();//初始化图片资源
+	}
+	
+	public void initBitmap(){//初始化图片资源的方法

@@ -1,0 +1,10 @@
+				input = TestClientForNercis.class.getResourceAsStream("client.properties");
+			}
+			properties.load(input);
+		} catch (IOException e) {
+			throw new RuntimeException("Load config file failed", e);
+		}
+		queue_name = properties.getProperty("activeMq.messagequeue.name", "waitingCheckQueue");
+		queue_url = properties.getProperty("activeMq.queue.url", "tcp://localhost:61616");
+		engine_address = properties.getProperty("engine.address", "localhost");
+		engine_port = Integer.valueOf(properties.getProperty("engine.port", "7911"));

@@ -1,0 +1,10 @@
+	 * @return 最后一次活动时间。
+	 * */
+	public Date getLastActiveTime() {
+		return lastActiveTime;
+	}
+	/**
+	 * 设置最后一次活动时间。
+	 * @param lastActiveTime
+	 * 最后一次活动时间。
+	 * */

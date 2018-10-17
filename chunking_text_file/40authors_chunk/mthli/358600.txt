@@ -1,0 +1,10 @@
+ */
+public class TextTransferFrame extends JFrame
+{
+   private JTextArea textArea;
+   private static final int TEXT_ROWS = 20;
+   private static final int TEXT_COLUMNS = 60;
+
+   public TextTransferFrame()
+   {
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);

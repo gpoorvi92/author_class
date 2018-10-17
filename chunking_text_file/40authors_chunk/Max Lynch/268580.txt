@@ -1,0 +1,10 @@
+				} catch(InterruptedException e) {}
+			}
+			
+		}
+		
+		public void mouseMoved(MouseEvent e)
+		{
+			mousexy = e.getPoint();
+			System.out.println(mousexy);
+		}

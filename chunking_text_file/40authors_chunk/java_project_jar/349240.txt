@@ -1,0 +1,10 @@
+        super.close();
+        closed = true;
+    }
+
+    public void writeTo(OutputStream out)
+        throws IOException
+    {
+        FileInputStream fis;
+        if(!closed)
+            throw new IOException("Stream not closed");

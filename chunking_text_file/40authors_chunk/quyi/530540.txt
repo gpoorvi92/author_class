@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRequestPurviews()).compareTo(other.isSetRequestPurviews());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetRequestPurviews()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.requestPurviews, other.requestPurviews);
+      if (lastComparison != 0) {
+        return lastComparison;

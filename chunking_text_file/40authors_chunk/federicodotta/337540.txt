@@ -1,0 +1,10 @@
+    /**
+     * This method is used to display an HTTP message in the editor.
+     *
+     * @param message The HTTP message to be displayed.
+     * @param isRequest Flags whether the message is an HTTP request or
+     * response.
+     */
+    void setMessage(byte[] message, boolean isRequest);
+
+    /**

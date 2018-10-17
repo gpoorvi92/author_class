@@ -1,0 +1,10 @@
+        if (this.b[pos]) {
+            this.b[pos] = false;
+            --this.hammingWeight;
+        } else {
+            clearLiteral(pos);
+        }
+    }
+
+    /**
+     * @param pos position were a 11...1 word was added

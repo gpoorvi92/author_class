@@ -1,0 +1,10 @@
+		jlt_disUsers = new JList();
+		jlt_disUsers.setVisibleRowCount(4);
+		scrollPane_1.setViewportView(jlt_disUsers);
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+

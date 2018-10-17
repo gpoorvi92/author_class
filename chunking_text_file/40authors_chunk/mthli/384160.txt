@@ -1,0 +1,10 @@
+      loadTab(0);
+
+      JPanel buttonPanel = new JPanel();
+      ButtonGroup buttonGroup = new ButtonGroup();
+      JRadioButton wrapButton = new JRadioButton("Wrap tabs");
+      wrapButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               tabbedPane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);

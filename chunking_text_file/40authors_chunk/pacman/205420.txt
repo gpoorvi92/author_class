@@ -1,0 +1,10 @@
+	 * 
+	 * @return
+	 */
+	String getDestName();
+	
+	/**
+	 * Determines sending to queue or topic.
+	 * 
+	 * @return Yes or no
+	 */

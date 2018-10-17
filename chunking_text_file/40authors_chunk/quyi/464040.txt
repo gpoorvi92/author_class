@@ -1,0 +1,10 @@
+      return this;
+    }
+
+    public void unsetRules() {
+      this.rules = null;
+    }
+
+    /** Returns true if field rules is set (has been assigned a value) and false otherwise */
+    public boolean isSetRules() {
+      return this.rules != null;

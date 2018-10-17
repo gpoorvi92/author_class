@@ -1,0 +1,8 @@
+		assertTrue(FileHelper.exists("e:/ttt/image/event/201412/02152036689a723_w500.jpg"));
+		assertTrue(FileHelper.exists("e:/ttt/image/event/201404/10555_w500.jpg"));
+		assertTrue(FileHelper.exists("e:/ttt/image/event/201412/291513219925f06.jpg"));
+		assertTrue(FileHelper.exists("e:/ttt/image/event/201412/1714235198267a7_w500.jpg"));
+		assertTrue(FileHelper.exists("e:/ttt/image/event/201411/071721024409f7d.jpg"));
+	}
+
+}

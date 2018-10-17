@@ -1,0 +1,10 @@
+		
+		return result;
+	}
+	
+	@RequestMapping(value="/video/upload.go", 
+			        method = RequestMethod.POST, 
+			        produces="application/json")
+	@ResponseBody
+	public JsonResult uploadVideo(@RequestParam("file") MultipartFile video,
+			HttpServletRequest request) {

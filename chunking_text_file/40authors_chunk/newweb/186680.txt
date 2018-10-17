@@ -1,0 +1,10 @@
+		int count = 0;
+		for (Object c : cList) {
+			TypeForBrand type = (TypeForBrand) c;
+			types[count++] = type;
+		}
+		List returnList = new ArrayList();
+		returnList.add(size);//第一个对象保存结果总数
+		returnList.add(types);//第二个对象保存实体数组
+		return returnList;
+	}

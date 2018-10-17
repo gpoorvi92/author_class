@@ -1,0 +1,10 @@
+
+	private Container createContentPanel() {
+		JPanel jp = new JPanel();
+		jp.setBorder(BorderFactory.createTitledBorder("ÁÄÌìÏûÏ¢"));
+		jp.setLayout(new BorderLayout());
+		jta_disMess = new JTextArea();
+		jta_disMess.setEditable(false);
+		jp.add(BorderLayout.CENTER, new JScrollPane(jta_disMess));
+		jp.add(BorderLayout.SOUTH, createInput());
+		return jp;

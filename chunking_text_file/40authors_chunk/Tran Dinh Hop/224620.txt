@@ -1,0 +1,10 @@
+package Viewer;
+
+/**
+ *************************************************************************************
+ * File: JAIImageReader.java         Edited Date: 18/06/2004		  Version: 1.01	 *
+ *-----------------------------------------------------------------------------------*
+ * @(#)JAIImageReader.java	15.2 03/05/20
+ *
+ * Copyright (c) 2003 Sun Microsystems, Inc.
+ * All Rights Reserved.

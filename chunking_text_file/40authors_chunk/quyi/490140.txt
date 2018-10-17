@@ -1,0 +1,10 @@
+        struct.setPlotsStatusIsSet(true);
+        BitSet incoming = iprot.readBitSet(1);
+        if (incoming.get(0)) {
+          {
+            org.apache.thrift.protocol.TMap _map86 = new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.I32, iprot.readI32());
+            struct.functionStatus = new HashMap<String,com.nercis.isscp.idl.CheckResultStatus>(2*_map86.size);
+            for (int _i87 = 0; _i87 < _map86.size; ++_i87)
+            {
+              String _key88;
+              com.nercis.isscp.idl.CheckResultStatus _val89;

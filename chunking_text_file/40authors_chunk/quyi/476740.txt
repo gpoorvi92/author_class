@@ -1,0 +1,10 @@
+    }
+
+    private static class submitMission_argsTupleSchemeFactory implements SchemeFactory {
+      public submitMission_argsTupleScheme getScheme() {
+        return new submitMission_argsTupleScheme();
+      }
+    }
+
+    private static class submitMission_argsTupleScheme extends TupleScheme<submitMission_args> {
+

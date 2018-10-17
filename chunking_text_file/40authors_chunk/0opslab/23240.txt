@@ -1,0 +1,10 @@
+     * 读取Properties的全部信息
+     *
+     * @param filePath 读取的属性文件
+     * @return 返回所有的属性 key:value<>key:value
+     */
+    public final static String GetAllProperties(String filePath) throws IOException {
+        Properties pps = new Properties();
+        String     str = "";
+        try (InputStream in = new BufferedInputStream(new FileInputStream(filePath))) {
+            pps.load(in);

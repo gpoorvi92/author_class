@@ -1,0 +1,10 @@
+public class BiometricsBeanInfo
+  extends SimpleBeanInfo
+{
+  public BeanDescriptor getBeanDescriptor()
+  {
+    return new BeanDescriptor(jpos.Biometrics.class);
+  }
+
+  public PropertyDescriptor makeProperty(String propertyName)
+    throws IntrospectionException

@@ -1,0 +1,10 @@
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
+     * 传入一个文件(File)对象，检查文件编码
+     *

@@ -1,0 +1,10 @@
+		//查询帐号密码
+		Account a=dao.getAccountByName("chacha_one");
+		String newPass=a.getPasswd();
+		assertTrue(newPass.equals("aaaaaaaa"));
+		//删除帐号
+		dao.deleteAccount("chacha_one");
+		a=dao.getAccountByName("chacha_one");
+		assertNull(a);
+	}
+	

@@ -1,0 +1,10 @@
+  // "CapIsoEmvMode" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_CMODE_ISO = 1;  // APDU messaging format conforms to the ISO standard.
+  public static final int SC_CMODE_EMV = 2;  // APDU messaging format conforms to the EMV standard.
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "CapTransmissionProtocol" Property Constants
+  /////////////////////////////////////////////////////////////////////

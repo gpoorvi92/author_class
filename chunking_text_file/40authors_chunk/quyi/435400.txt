@@ -1,0 +1,10 @@
+      this.autoRunMonitor = null;
+    }
+  }
+
+  public int getFileOperateSize() {
+    return (this.fileOperate == null) ? 0 : this.fileOperate.size();
+  }
+
+  public java.util.Iterator<FileOperate> getFileOperateIterator() {
+    return (this.fileOperate == null) ? null : this.fileOperate.iterator();

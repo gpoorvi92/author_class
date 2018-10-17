@@ -1,0 +1,10 @@
+   {
+      root = theRoot;
+      path = thePath;
+   }
+
+   /**
+    * Enumerates all names of registry entries under the path that this object describes.
+    * @return an enumeration listing all entry names
+    */
+   public Enumeration<String> names()

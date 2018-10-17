@@ -1,0 +1,10 @@
+         if (services.length == 0) System.out.println("No printer for flavor " + flavor);
+         else
+         {
+            System.out.println("Specify a file of flavor " + flavor
+                  + "\nand optionally the number of the desired printer.");
+            for (int i = 0; i < services.length; i++)
+               System.out.println((i + 1) + ": " + services[i].getName());
+         }
+         System.exit(0);
+      }

@@ -1,0 +1,10 @@
+     * @see com.nercis.isscp.idl.AppStatus
+     */
+    public com.nercis.isscp.idl.AppStatus status; // required
+    public List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions; // required
+    public com.nercis.isscp.idl.StaticCheckResultData stcRD; // required
+    public com.nercis.isscp.idl.DynamicCheckResultData dycRD; // required
+    public com.nercis.isscp.idl.virus.VirusDetectionResultData virRD; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {

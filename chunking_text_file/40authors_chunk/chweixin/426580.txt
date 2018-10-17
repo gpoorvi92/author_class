@@ -1,0 +1,10 @@
+ * @author yangyong.
+ * @since 2014-04-02.
+ * */
+public class WeChatMenuDaoImpl  extends BaseDaoImpl<WeChatMenu> implements IWeChatMenuDao {
+
+	@Override
+	public List<WeChatMenu> findMenus(String accountId) {
+		String hql = "from WeChatMenu w  where w.parent = null ";
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		if(accountId != null && !accountId.trim().isEmpty()){

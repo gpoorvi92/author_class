@@ -1,0 +1,10 @@
+    {
+        return compare((File)x0, (File)x1);
+    }
+
+    public static final Comparator PATH_COMPARATOR;
+    public static final Comparator PATH_REVERSE;
+    public static final Comparator PATH_INSENSITIVE_COMPARATOR;
+    public static final Comparator PATH_INSENSITIVE_REVERSE;
+    public static final Comparator PATH_SYSTEM_COMPARATOR;
+    public static final Comparator PATH_SYSTEM_REVERSE;

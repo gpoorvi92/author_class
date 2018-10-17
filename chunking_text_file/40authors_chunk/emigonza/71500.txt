@@ -1,0 +1,10 @@
+
+	/** @return a String representation of this PropType */
+	public abstract String toString();
+
+	/** @return a Java class that defines this type */
+	public abstract Class getJavaTypeClass();
+
+	/**
+	 * @return true if the object passed is of this PropType
+	 * @param obj the Java Object

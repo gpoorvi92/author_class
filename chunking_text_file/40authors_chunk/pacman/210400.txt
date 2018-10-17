@@ -1,0 +1,10 @@
+	 */
+	public static int safeParseInt(String str) {
+		
+		return safeParseInt(str, 0);
+	}
+	
+	/**
+	 * 
+	 * 
+	 * @Title: safeParseInt

@@ -1,0 +1,10 @@
+      }
+      if (struct.ruleNo != null) {
+        oprot.writeFieldBegin(RULE_NO_FIELD_DESC);
+        oprot.writeString(struct.ruleNo);
+        oprot.writeFieldEnd();
+      }
+      if (struct.category != null) {
+        oprot.writeFieldBegin(CATEGORY_FIELD_DESC);
+        oprot.writeString(struct.category);
+        oprot.writeFieldEnd();

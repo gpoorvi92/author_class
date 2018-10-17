@@ -1,0 +1,10 @@
+			}
+		}
+		
+		return result;
+	}
+	
+	public static String getExtName(String fileName) {
+		
+		String ext = "";
+		

@@ -1,0 +1,10 @@
+  public static final int BELT_RIC_BACKWARD            = 1;
+  public static final int BELT_RIC_FORWARD             = 2;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "StatusUpdateEvent" Event: "Data" Parameter Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int BELT_SUE_AUTO_STOP                           = 11;
+  public static final int BELT_SUE_EMERGENCY_STOP                      = 12;

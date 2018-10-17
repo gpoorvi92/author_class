@@ -1,0 +1,10 @@
+        int b;
+        beforeRead(1);
+        b = in.read();
+        afterRead(b == -1 ? -1 : 1);
+        return b;
+        IOException e;
+        e;
+        handleIOException(e);
+        return -1;
+    }

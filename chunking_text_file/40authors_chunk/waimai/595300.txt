@@ -1,0 +1,10 @@
+        } else {
+            goodsCollectionMapper.insert(goodsCollection);
+            goodsMapper.addCollectionCount(goodsCollection.getGoodsId());
+        }
+    }
+
+    @Override
+    public void cancel(GoodsCollection goodsCollection) throws ServiceException {
+        if (goodsCollectionMapper.cancel(goodsCollection) > 0) {
+            goodsMapper.subCollectionCount(goodsCollection.getGoodsId());

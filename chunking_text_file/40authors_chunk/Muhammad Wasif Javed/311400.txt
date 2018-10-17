@@ -1,0 +1,10 @@
+		if (obj == btnOk) {		//If OK Button Pressed.
+
+			//Validating to Check All Required Information Provided or Not.
+
+			if (txtMemberId.getText().equals ("")) {
+				JOptionPane.showMessageDialog (this, "Member's Id not Provided.");
+				txtMemberId.requestFocus ();
+			}
+			else if (txtMemberName.getText().equals ("")) {
+				JOptionPane.showMessageDialog (this, "Member's Name not Provided.");

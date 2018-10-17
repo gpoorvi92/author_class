@@ -1,0 +1,10 @@
+    HARDWARE_RESOURCES((short)7, "hardwareResources"),
+    CHECK_END_DATE((short)8, "checkEndDate");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {
+      for (_Fields field : EnumSet.allOf(_Fields.class)) {
+        byName.put(field.getFieldName(), field);
+      }
+    }

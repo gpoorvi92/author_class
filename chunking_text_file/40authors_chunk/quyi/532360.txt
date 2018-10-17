@@ -1,0 +1,10 @@
+    this.methodName = methodName;
+    this.statement = statement;
+    this.riskType = riskType;
+    this.riskLevel = riskLevel;
+    this.ruleNo = ruleNo;
+    this.category = category;
+    this.description = description;
+    this.lineNum = lineNum;
+    setLineNumIsSet(true);
+    this.columnNum = columnNum;

@@ -1,0 +1,10 @@
+    /**
+     * @return a Vector of sorted Comparable objects
+     * <b>NOTE:</b>implements a simple Insertion Sort algorithm
+     *         Sorts n element in place in O(n^2) worst-case time
+     * @param elements a Vector with the initial Comparable objects
+     */
+    public static Vector insertionSort( Vector comparables )
+    {
+        Comparable min = min( comparables );
+

@@ -1,0 +1,10 @@
+
+
+/**
+ * @ClassName: AccountController
+ * @Description: login/authorization & authentication
+ * @author: Dellinger
+ * @date: 2014年12月16日 上午12:32:57
+ */
+@Controller
+public class AccountController extends BaseController{

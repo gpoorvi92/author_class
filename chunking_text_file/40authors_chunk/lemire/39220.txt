@@ -1,0 +1,10 @@
+public interface IteratingRLW {
+    /**
+     * @return whether there is more
+     */
+    boolean next();
+
+    /**
+     * @param index where the literal word is
+     * @return the literal word at the given index.
+     */

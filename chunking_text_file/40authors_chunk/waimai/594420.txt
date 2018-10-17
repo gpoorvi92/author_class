@@ -1,0 +1,10 @@
+        return updateDate;
+    }
+
+    public void setUpdateDate(Date updateDate) {
+        this.updateDate = updateDate;
+    }
+
+    public String getStatus() {
+        return status;
+    }

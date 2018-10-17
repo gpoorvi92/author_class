@@ -1,0 +1,10 @@
+
+			try {
+				result.addAll(subResults.next().get());
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				Throwable cause = e.getCause();
+				if (SubTaskFailureException.class.isInstance(cause)) {
+					@SuppressWarnings("rawtypes")
+					RetryInfo retryInfo = ((SubTaskFailureException) cause).retryInfo;

@@ -1,0 +1,10 @@
+            return true;
+        }
+    }
+
+    protected Merchant getMerchant() {
+        return request.getSession().getAttribute(Constants.LOGIN_MERCHANT) != null ? (Merchant) request.getSession().getAttribute(Constants.LOGIN_MERCHANT) : null;
+    }
+
+    protected Admin getAdmin() {
+        return request.getSession().getAttribute(Constants.LOGIN_ADMIN) != null ? (Admin) request.getSession().getAttribute(Constants.LOGIN_ADMIN) : null;

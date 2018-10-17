@@ -1,0 +1,10 @@
+	public boolean delete(Supplier supplier) {
+		try {
+			sessionFactory.getCurrentSession().delete(supplier);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+}

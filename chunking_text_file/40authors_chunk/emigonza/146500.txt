@@ -1,0 +1,10 @@
+  public void    clearInputProperties()
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    startSession()

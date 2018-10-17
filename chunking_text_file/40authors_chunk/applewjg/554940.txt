@@ -1,0 +1,10 @@
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public void flatten(TreeNode root) {
+        flatten_3(root);
+    }
+    public void flatten_1(TreeNode root) {
+        if (root == null) return;
+        flatten_1(root.left);

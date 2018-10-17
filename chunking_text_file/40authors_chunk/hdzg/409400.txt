@@ -1,0 +1,10 @@
+		case 2://向右
+			if(mapMatrixForMeetable[row-1][col] != null){//上边检测到了可遇物
+				return mapMatrixForMeetable[row-1][col];
+			}
+			else if(mapMatrixForMeetable[row+1][col] != null){//下边检测到了可遇物
+				return mapMatrixForMeetable[row+1][col];
+			}
+			break;
+		case 3://向上
+			if(mapMatrixForMeetable[row][col-1] != null){//左边检测到了可遇物

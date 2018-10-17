@@ -1,0 +1,10 @@
+
+    public String emoji() {
+        return emoji;
+    }
+
+    public Integer fileSize() {
+        return file_size;
+    }
+
+    @Override

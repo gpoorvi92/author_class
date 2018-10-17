@@ -1,0 +1,10 @@
+		Debug.info("Before calling active object");
+		try {
+			ft = sao.process("Something", 1);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		//模拟其它操作的时间消耗
+		Thread.sleep(40);
+		

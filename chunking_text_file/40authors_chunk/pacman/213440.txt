@@ -1,0 +1,10 @@
+	 * @return
+	 * @throws Exception
+	 * @see com.yeshj.pacman.schedule.IStep#execute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override
+	public Object execute(ExecuteContext context) throws Exception {
+		
+		Thread.sleep(2000);
+		int p2 = context.getAttribute("p2", 0);
+		int re = context.getAttribute("steps.result", 0);

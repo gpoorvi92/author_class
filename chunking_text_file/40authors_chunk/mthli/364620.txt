@@ -1,0 +1,9 @@
+      {
+         comp.writeDocument(writer);
+      }
+      finally
+      {
+         writer.close(); // Not autocloseable
+      }
+   }
+}

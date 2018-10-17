@@ -1,0 +1,10 @@
+            private final static String TAG = "LocationRunnable ===> ";
+            @Override
+            public void run() {
+               getLocationData(ImageLocation.this);
+            }
+        }
+        new Thread(new LocationRunnable()).start();
+    }
+
+    public void getLocationData(ImageLocation location){

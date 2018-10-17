@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Bxg selectBxgById(int id) {
+		return (Bxg) sessionFactory.getCurrentSession().get(Bxg.class, id);
+	}
+
+	@Override
+	public boolean update(Bxg bxg) {
+		try {

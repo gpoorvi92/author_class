@@ -1,0 +1,10 @@
+package com.server;
+
+
+
+public class Server {
+	
+	private ServerFrame serverFrame;
+	private ServerThread serverThread;
+	
+	public ServerFrame getServerFrame() {

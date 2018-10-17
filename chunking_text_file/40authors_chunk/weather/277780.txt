@@ -1,0 +1,10 @@
+        this.roundPixels = roundPixels;
+    }
+
+    public Bitmap getRoundedRectBitmap(Bitmap bitmap, int pixels) {
+        int color;
+        Paint paint;
+        Rect rect;
+        RectF rectF;
+        Bitmap result;
+        Canvas canvas;

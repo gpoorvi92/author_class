@@ -1,0 +1,10 @@
+	* ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	*
+ 	* --------------------------------- CONTACT --------------------------------- 
+	* This project was written in a burning hurry, so it is not a model of efficient
+	* nor even good code.
+	* Please send comments, bug reports, improvements to: hoptrandinh@yahoo.com  
+	*
+	* Author:  Robby at http://www.cise.ufl.edu/~sahni/cop3530
+	* his/her email is robbyp@grove.ufl.edu
+	*

@@ -1,0 +1,10 @@
+
+        return networkInfo.isConnectedOrConnecting();
+    }
+
+    public static boolean isActiveNetworkMetered(Context context) {
+        ConnectivityManager manager = getConnectivityManager(context);
+        if (manager == null)
+            return false;
+
+        ConnectivityManagerCompat compat = new ConnectivityManagerCompat();

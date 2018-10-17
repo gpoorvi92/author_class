@@ -1,0 +1,10 @@
+    {
+        finished = false;
+        if(reader == null)
+            throw new IllegalArgumentException("Reader must not be null");
+        if(reader instanceof BufferedReader)
+            bufferedReader = (BufferedReader)reader;
+        else
+            bufferedReader = new BufferedReader(reader);
+    }
+

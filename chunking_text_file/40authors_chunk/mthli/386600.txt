@@ -1,0 +1,10 @@
+   {
+      book = b;
+      currentPage = 0;
+   }
+
+   public void paintComponent(Graphics g)
+   {
+      Graphics2D g2 = (Graphics2D) g;
+      PageFormat pageFormat = book.getPageFormat(currentPage);
+

@@ -1,0 +1,8 @@
+
+	@Override
+	public void doChatError(AbstractCommonData acd) {
+		ctx.update("update_chat_state", "1", itemData.getStringValue("id"));
+
+	}
+
+}

@@ -1,0 +1,10 @@
+    public genMissionId_args() {
+    }
+
+    public genMissionId_args(
+      String submitId)
+    {
+      this();
+      this.submitId = submitId;
+    }
+

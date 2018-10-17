@@ -1,0 +1,10 @@
+            viewHolder = (Viewholder) convertView.getTag();
+            title = viewHolder.title;
+            subtitle = viewHolder.subtitle;
+            icon = viewHolder.icon;
+            checkBox = viewHolder.checkBox;
+        }
+
+        checkBox.setTag(item);
+
+        checkBox.setChecked(item.isSelected());

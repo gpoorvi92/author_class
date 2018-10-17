@@ -1,0 +1,10 @@
+    {
+        this(reader, Charset.forName(charsetName), bufferSize);
+    }
+
+    public ReaderInputStream(Reader reader, String charsetName)
+    {
+        this(reader, charsetName, 1024);
+    }
+
+    public ReaderInputStream(Reader reader)

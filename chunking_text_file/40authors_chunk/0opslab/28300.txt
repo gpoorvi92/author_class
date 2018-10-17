@@ -1,0 +1,10 @@
+
+    public static Charset getInstance() {
+        if (instance == null) {
+            instance = new UnknownCharset();
+        }
+        return instance;
+    }
+
+    /*
+     * (non-Javadoc)

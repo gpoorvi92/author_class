@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 
+     */
+    public Charset detectCodepage(InputStream in, int length) throws IOException {
+        return delegate.detectCodepage(in, length);
+    }
+
+    /**

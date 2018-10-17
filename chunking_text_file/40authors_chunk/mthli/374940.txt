@@ -1,0 +1,10 @@
+
+      // use a label to display the images
+      label = new JLabel();
+      add(label);
+
+      // set up the file chooser
+      chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("."));
+
+      // set up the menu bar

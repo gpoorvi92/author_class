@@ -1,0 +1,10 @@
+		appendChatItem(item);
+	}
+
+	private void initHistoryMsg() {
+		List<AbstractCommonData> list = query("get_chat_message_by_one",
+
+		this.id, GlobalVariables.loginUsername, GlobalVariables.loginUsername);
+		for (AbstractCommonData acd : list) {
+			acd.putStringValue("load_data_type", "1");
+			String content = acd.getStringValue("content");

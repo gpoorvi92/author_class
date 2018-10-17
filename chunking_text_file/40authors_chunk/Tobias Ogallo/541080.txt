@@ -1,0 +1,10 @@
+	private JButton print,cancel;
+	private JPanel panel;		
+	public Booking_report()
+	{ 
+		
+		super("Booking Report");
+		
+		content=getContentPane();
+		content.setBackground(skyblue);
+		listsTabs=new JTabbedPane();

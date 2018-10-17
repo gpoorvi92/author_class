@@ -1,0 +1,10 @@
+        return task;
+    }
+
+    @Override
+    protected void disableInput() {
+        super.disableInput();
+        fileNameText.setEnabled(false);
+    }
+
+    @Override

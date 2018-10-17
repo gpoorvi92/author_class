@@ -1,0 +1,10 @@
+
+    }
+}
+
+/*
+输出：
+t1 begin sleep
+max = 2147483647
+t2 begin while
+t2 now is 100000000

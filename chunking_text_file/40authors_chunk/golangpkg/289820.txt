@@ -1,0 +1,10 @@
+	public long getDownloadAllowanceForIteration() {
+		synchronized (downloadAllowanceForIterationLock) {
+			return downloadAllowanceForIteration;
+		}
+	}
+
+
+	void setDownloadAllowanceForIteration(long downloadAllowanceForIteration) {
+		synchronized (downloadAllowanceForIterationLock) {
+			this.downloadAllowanceForIteration = downloadAllowanceForIteration;

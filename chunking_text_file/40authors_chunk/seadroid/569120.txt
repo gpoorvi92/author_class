@@ -1,0 +1,10 @@
+
+    @Override
+    public int hashCode() {
+        if (hashCode == 0) {
+            hashCode = Objects.hashCode(account, repoID, repoName, parentDir, localPath);
+        }
+
+        return hashCode;
+    }
+}

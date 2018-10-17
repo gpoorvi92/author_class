@@ -1,0 +1,10 @@
+/*
+ * Realiza un programa que pida 10 números por teclado y que los almacene en un array. A continuación se debe
+mostrar el contenido de ese array junto al índice (0 – 9). Seguidamente el programa debe colocar en las últimas
+posiciones los números que terminen en 7 dejando el resto en las primeras posiciones.
+ * 
+ * 
+ *@Costy 
+ */
+ 
+import java.util.Scanner;

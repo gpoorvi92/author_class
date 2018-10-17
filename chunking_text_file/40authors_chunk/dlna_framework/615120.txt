@@ -1,0 +1,10 @@
+import org.cybergarage.http.*;
+import org.cybergarage.xml.*;
+import org.cybergarage.soap.*;
+
+import org.cybergarage.upnp.*;
+
+public class QueryRequest extends ControlRequest
+{
+	////////////////////////////////////////////////
+	//	Constructor

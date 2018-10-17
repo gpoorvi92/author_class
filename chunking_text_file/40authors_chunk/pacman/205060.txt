@@ -1,0 +1,10 @@
+	 * @Title: sendMessage
+	 * @param msg
+	 * @param dest
+	 * @throws MQException 
+	 * @see com.yeshj.pacman.jms.IMessageManager#sendMessage(com.yeshj.pacman.jms.message.BaseMessage, com.yeshj.pacman.jms.QueueType)
+	 */
+	@Override
+	public <T extends BaseMessage> void sendMessage(T msg, QueueType dest) throws MQException {
+
+		IMQSender sender = null;

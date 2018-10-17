@@ -1,0 +1,9 @@
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+	
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+}

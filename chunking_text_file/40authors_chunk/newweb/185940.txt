@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderBxg;
+
+@Component("orderBxgDao")
+public class OrderBxgDaoImp implements OrderBxgDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {

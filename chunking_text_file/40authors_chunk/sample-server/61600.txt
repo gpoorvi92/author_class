@@ -1,0 +1,10 @@
+    }
+    @RequestMapping(value = LOGOUT)
+    protected String handle(RedirectAttributes ra, Map<String, Object> attr, HttpSession session) throws ServletException, IOException
+    {
+        CenterContext cc = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, session);
+        if (null != cc)
+        {
+            AttributeManager.setAttribute(AttributeManager.SESSION_ATTR_CTX, session, null);
+            //attr.put(CenterContext.SESSION_ATTR_CTX, null);
+            log.info("登出 userId={} userName={}", cc.getUser().getId(), cc.getUser().getUsername());

@@ -1,0 +1,10 @@
+package com.jufan.platform.view;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.ui.R;
+

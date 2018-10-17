@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class XueTangDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={
+			"前方是一个学堂，是否让将军们在此学习一番？预计消耗金钱1500。",
+			"大军来到一个学堂，不过你的金钱太少了，看门人不让你进去。",
+			"xx将军通过在学堂学习一番，智力提高了yy点。",
+			"xx将军在学堂闷了一天，什么也没学会。"
+		};
+	int cost = 1500;//花费

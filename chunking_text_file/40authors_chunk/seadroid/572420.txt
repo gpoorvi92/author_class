@@ -1,0 +1,10 @@
+            } else {
+                // return taskID of old task
+                return oldTask.getTaskID();
+            }
+        }
+        allTaskList.add(task);
+        ConcurrentAsyncTask.execute(task);
+        return task.getTaskID();
+    }
+

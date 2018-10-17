@@ -1,0 +1,10 @@
+                        String temp = new String(word);
+                        if (dict.contains(temp) == false) continue;
+                        if (found == true && end.compareTo(temp) != 0) continue;
+                        if (end.compareTo(temp) == 0) {
+                            found = true;
+                            (graph.get(end)).add(str);
+                            continue;
+                        }
+                        if (visited.contains(temp) == false) {
+                            queue.add(temp);

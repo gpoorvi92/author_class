@@ -1,0 +1,10 @@
+
+        dest.writeBundle(bundle);
+    }
+
+    private PlayIndex(Parcel in) {
+        Bundle bundle = in.readBundle(PlayIndex.class.getClassLoader());
+
+        mPlayTag = bundle.getString(BUNDLE_PLAY_TAG);
+        mSegmentList = bundle.getParcelableArrayList(BUNDLE_SEGMENT_LIST);
+    }

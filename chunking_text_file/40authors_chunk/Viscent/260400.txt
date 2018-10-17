@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch13.pipeline.example;
+
+import java.util.Date;
+
+public class Record {
+	private int id;
+	private String productId;

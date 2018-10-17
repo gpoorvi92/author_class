@@ -1,0 +1,10 @@
+	 * 实体对象。
+	 * */
+	@Override
+	public WeChatUser load(Class<WeChatUser> c, Serializable id){
+		if(id == null) return null;
+		if(id instanceof WeChatUserInfo){
+			WeChatUserInfo info = (WeChatUserInfo)id;
+			return this.loadUser(info.getAccountId(), info.getOpenId());
+		}
+		return null;

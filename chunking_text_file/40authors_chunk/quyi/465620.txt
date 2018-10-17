@@ -1,0 +1,10 @@
+    private static class ruleSync_resultTupleScheme extends TupleScheme<ruleSync_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, ruleSync_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();
+        if (struct.isSetSuccess()) {
+          optionals.set(0);
+        }
+        if (struct.isSetIre()) {

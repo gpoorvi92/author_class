@@ -1,0 +1,10 @@
+      return getCheckDate();
+
+    case SENSITIVES:
+      return getSensitives();
+
+    case FEATURES_CHARACTERS:
+      return getFeaturesCharacters();
+
+    case API_CHECK:
+      return getApiCheck();

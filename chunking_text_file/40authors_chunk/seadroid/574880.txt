@@ -1,0 +1,10 @@
+        //mActivity.supportInvalidateOptionsMenu();
+    }
+
+    private void showError(String msg) {
+        mProgressContainer.setVisibility(View.GONE);
+        mListContainer.setVisibility(View.GONE);
+
+        adapter.clear();
+        adapter.notifyChanged();
+

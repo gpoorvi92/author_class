@@ -1,0 +1,10 @@
+        if (!mEnableHide)
+            return;
+
+        // do not need activity here, but check if activity is alive
+        Activity activity = mWeakActivity.get();
+        if (activity == null)
+            return;
+
+        mHandler.removeCallbacks(mDelayedHide);
+        mHandler.postDelayed(mDelayedHide, 500);

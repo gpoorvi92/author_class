@@ -1,0 +1,10 @@
+ *
+ * @author Nicolas Gramlich
+ * @since 11:54:51 - 03.04.2010
+ */
+public class UnloadResourcesExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 720;

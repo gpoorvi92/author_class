@@ -1,0 +1,10 @@
+
+    @Override
+    public Admin findById(Integer id) {
+        return adminMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void update(Admin admin) throws ServiceException {
+        admin.setUpdateDate(new Date());
+        if (adminMapper.updateByPrimaryKeySelective(admin) < 1) {

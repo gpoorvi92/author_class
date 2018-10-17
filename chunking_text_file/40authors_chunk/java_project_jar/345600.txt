@@ -1,0 +1,10 @@
+    implements Serializable
+{
+
+    public WildcardFilter(String wildcard)
+    {
+        if(wildcard == null)
+        {
+            throw new IllegalArgumentException("The wildcard must not be null");
+        } else
+        {

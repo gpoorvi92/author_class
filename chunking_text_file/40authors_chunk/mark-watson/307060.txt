@@ -1,0 +1,10 @@
+	    }
+	}
+	public int removeFromQueue() {
+	    int ret = queue[head];
+	    if (head >= (len - 1)) {
+		head = 0;
+	    } else {
+		head++;
+	    }
+	    return ret;

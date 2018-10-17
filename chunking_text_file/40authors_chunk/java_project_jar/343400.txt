@@ -1,0 +1,10 @@
+        this(file, listener, 1000L);
+    }
+
+    public Tailer(File file, TailerListener listener, long delay)
+    {
+        this(file, listener, 1000L, false);
+    }
+
+    public Tailer(File file, TailerListener listener, long delay, boolean end)
+    {

@@ -1,0 +1,10 @@
+    public void e(Object str) {
+    	if (isDebug) {
+    		error(str);
+    	}
+    }
+
+    public void e(Exception ex) {
+    	if (isDebug) {
+    		error(ex);
+    	}

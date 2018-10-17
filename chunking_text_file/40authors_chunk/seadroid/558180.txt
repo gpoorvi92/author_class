@@ -1,0 +1,10 @@
+                this.icon = icon;
+                this.desc = desc;
+            }
+        }
+
+    }
+
+    public static class CustomAction {
+        public final int id;
+        public final Drawable icon;

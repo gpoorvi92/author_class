@@ -1,0 +1,10 @@
+            String target = request.getRequestURI();
+            String index = request.getContextPath() + IndexController.INDEX;
+            String login = request.getContextPath() + IndexController.LOGIN;
+            if (!target.equals(index) && !(target.equals(login)))
+            {
+                request.getRequestDispatcher("/").forward(request, response);
+                log.info("没有登录踢回登录界面 sessionId={}", session.getId());
+                return false;
+            }
+        }

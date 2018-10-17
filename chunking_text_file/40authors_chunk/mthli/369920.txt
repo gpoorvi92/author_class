@@ -1,0 +1,10 @@
+ * 1. private   -- 仅对本类可见
+ * 2. public    -- 对所有类可见
+ * 3. protected -- 对本包和所有子类可见
+ * 4. 没有修饰符的情况下。默认对本包可见
+ */
+public class Manager extends Employee {
+    private double bonus;
+
+    /* 
+     * 下面这段代码块使用了super来调用其父类（超类）的构造器，

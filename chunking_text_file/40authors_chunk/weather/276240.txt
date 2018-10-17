@@ -1,0 +1,10 @@
+
+  public HttpsURLConnectionImpl(HttpURLConnectionImpl delegate) {
+    super(delegate);
+    this.delegate = delegate;
+  }
+
+  @Override protected Handshake handshake() {
+    if (delegate.httpEngine == null) {
+      throw new IllegalStateException("Connection has not yet been established");
+    }

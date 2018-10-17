@@ -1,0 +1,10 @@
+            output.collect(new Text(person), new Text(doc_list.toString()));
+        }
+    }
+
+
+    /**
+     * The main driver for name finder map/reduce program.
+     * <p/>
+     * NOTE: copied with modifications from Hadoppjava example programs
+     * <p/>

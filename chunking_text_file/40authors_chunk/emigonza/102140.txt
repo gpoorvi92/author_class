@@ -1,0 +1,10 @@
+	 * @author E. Michael Maximilien  (maxim@us.ibm.com)
+	 */
+	public interface MICR extends DevCat {}
+
+	/**
+	 * Defines the DevCat for MSR
+	 * @since 1.3 (SF 2K meeting)
+	 * @author E. Michael Maximilien (maxim@us.ibm.com)
+	 */
+	public interface MSR extends DevCat {}

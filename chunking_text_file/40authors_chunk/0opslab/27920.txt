@@ -1,0 +1,10 @@
+        this.fieldName = fieldName;
+        this.fieldType = fieldType;
+        this.readMethod = readMethod;
+        this.writeMethod = writeMethod;
+    }
+
+    public boolean isDeclared() {
+        return isDeclared;
+    }
+

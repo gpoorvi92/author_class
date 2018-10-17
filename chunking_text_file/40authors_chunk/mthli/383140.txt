@@ -1,0 +1,10 @@
+package permissions;
+
+import java.security.*;
+import java.util.*;
+
+/**
+ * A permission that checks for bad words.
+ */
+public class WordCheckPermission extends Permission
+{

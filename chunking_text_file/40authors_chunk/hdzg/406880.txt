@@ -1,0 +1,10 @@
+        this.drawThread = new DrawThread(getHolder(), this);//初始化刷帧线程
+        initBitmap();
+	}
+	
+	public void initBitmap(){
+		paint = new Paint(); 
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		paint.setAntiAlias(true);//抗锯齿
+		soundBackground = BitmapFactory.decodeResource(getResources(), R.drawable.sound_back );
+		panel_back = BitmapFactory.decodeResource(getResources(), R.drawable.panel_back);

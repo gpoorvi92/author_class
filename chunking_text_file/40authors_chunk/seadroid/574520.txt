@@ -1,0 +1,10 @@
+            return;
+        }
+
+        List<SelectableFile> oldData = mData;
+        mData = data;
+
+        if (isStarted())
+            super.deliverResult(data);
+
+        if (oldData != null && oldData != data)

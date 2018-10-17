@@ -1,0 +1,10 @@
+
+package jpos.services;
+
+import jpos.*;
+
+public interface RemoteOrderDisplayService19
+  extends RemoteOrderDisplayService18
+{
+  // Capabilities
+  public boolean getCapCompareFirmwareVersion() throws JposException;

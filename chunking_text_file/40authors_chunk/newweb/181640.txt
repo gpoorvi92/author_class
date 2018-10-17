@@ -1,0 +1,10 @@
+	@Column
+	public double getCount() {
+		return count;
+	}
+	public void setCount(double count) {
+		this.count = count;
+	}
+	@Column
+	public String getOperation() {
+		return operation;

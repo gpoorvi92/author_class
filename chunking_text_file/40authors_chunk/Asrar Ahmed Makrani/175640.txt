@@ -1,0 +1,10 @@
+        gbc.gridy = 0;
+        gbc.gridx = 2;
+        text.add(tel_text, gbc);
+        gbc.gridy = 1;
+        text.add(fax_text, gbc);
+        gbc.gridy = 2;
+        text.add(email_text, gbc);
+        
+        pic.setSize(50,50);
+        pane1.add(scroll, BorderLayout.CENTER);

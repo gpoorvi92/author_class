@@ -1,0 +1,10 @@
+        b.start();
+    }
+
+}
+
+
+/*
+在ThreadB的run方法while里加上synchronized ("any"){}
+
+输出：

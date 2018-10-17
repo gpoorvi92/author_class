@@ -1,0 +1,10 @@
+            if (!BulletinService.delete(bulletin))
+            {
+                resultCode.setMsg("删除失败");
+                resultCode.setResult(JsonResponse.Result.FALSE);
+            }
+        }
+        return resultCode.toJson();
+    }
+    @ACL(limit = Limit.BULLETIN, type = RequestType.JSON)
+    @RequestMapping(value = "/modify")

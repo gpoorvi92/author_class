@@ -1,0 +1,10 @@
+    int numTriangles = m.getNumberOfTriangles();
+    Triangle []triangles = m.getTriangles();
+
+    out.println("#VRML V2.0 utf8");
+    // loop through triangles
+    for (int i = 0; i < numTriangles; i++)
+    {
+        out.println("Triangle {");
+
+        for (int vi = 0; vi < 3; vi++)

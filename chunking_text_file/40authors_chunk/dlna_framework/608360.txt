@@ -1,0 +1,10 @@
+	 * @since 1.8
+	 */
+	public String getMulticastIPv6Address(){
+		return this.ssdpMulticastIPv6;
+	}
+	
+	
+
+	////////////////////////////////////////////////
+	// SSDPPacket

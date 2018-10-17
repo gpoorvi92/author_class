@@ -1,0 +1,10 @@
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getCityid() {
+        return cityid;
+    }
+

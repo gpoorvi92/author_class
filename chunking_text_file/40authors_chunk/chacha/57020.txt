@@ -1,0 +1,10 @@
+import org.chacha.client.command.JsonConvert;
+import org.chacha.client.command.Request;
+import org.chacha.util.JsonPojoMapper;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+/**
+ * 增加帐号请求命令
+ *	@author: Fully

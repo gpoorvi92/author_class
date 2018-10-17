@@ -1,0 +1,10 @@
+
+	@Before
+	public void before() {
+		jlfuListenerPropagator.unregisterAllListeners();
+		
+		testCounter = 0;
+		listener = new JLFUListenerAdapter() {
+
+			@Override
+			public void onNewClient(UUID clientId) {

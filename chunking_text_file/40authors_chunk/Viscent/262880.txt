@@ -1,0 +1,4 @@
+		this.subTask = subTask;
+		this.redoCommand = redoCommand;
+	}
+}

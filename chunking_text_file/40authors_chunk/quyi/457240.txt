@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class searchApp_argsTupleScheme extends TupleScheme<searchApp_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, searchApp_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.missionId);
+        oprot.writeString(struct.userAppId);

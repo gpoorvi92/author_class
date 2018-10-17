@@ -1,0 +1,10 @@
+//			}
+//		}
+		
+		
+		//mysqldump  -u root -p newwebdb > C:\Users\Administrator\Desktop\sql.sql
+		InputStream in = Runtime.getRuntime().exec("mysqldump").getInputStream();
+		byte[] data = new byte[100000];
+		int i = 0;
+		int read = in.read();
+		while(read != -1){

@@ -1,0 +1,10 @@
+  /** Returns true if field sourceAddress is set (has been assigned a value) and false otherwise */
+  public boolean isSetSourceAddress() {
+    return this.sourceAddress != null;
+  }
+
+  public void setSourceAddressIsSet(boolean value) {
+    if (!value) {
+      this.sourceAddress = null;
+    }
+  }

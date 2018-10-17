@@ -1,0 +1,10 @@
+      if (!value) {
+        this.userApps = null;
+      }
+    }
+
+    public int getPlotsSize() {
+      return (this.plots == null) ? 0 : this.plots.size();
+    }
+
+    public java.util.Iterator<com.nercis.isscp.idl.PlotsType> getPlotsIterator() {

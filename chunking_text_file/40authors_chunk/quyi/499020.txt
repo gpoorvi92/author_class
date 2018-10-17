@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.operateContent);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("operateTime:");
+    if (this.operateTime == null) {
+      sb.append("null");
+    } else {

@@ -1,0 +1,10 @@
+        this(url, 0);
+    }
+
+    public Segment(String url, int duration) {
+        this(url, duration, 0);
+    }
+
+    public Segment(String url, int duration, int bytes) {
+        mUrl = url;
+        mDuration = duration;

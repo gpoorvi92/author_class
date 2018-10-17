@@ -1,0 +1,10 @@
+            }
+        }
+	}
+
+	class DrawThread extends Thread{//刷帧线程
+		private int sleepSpan = ConstantUtil.MENU_VIEW_SLEEP_SPAN;//睡眠的毫秒数 
+		private SurfaceHolder surfaceHolder;
+		private HelpView helpView;
+		private boolean flag = false;
+		

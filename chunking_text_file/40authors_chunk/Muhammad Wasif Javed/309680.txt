@@ -1,0 +1,10 @@
+
+	}
+
+	public void actionPerformed (ActionEvent ae) {
+
+		Object obj = ae.getSource();
+
+		if (obj == btnOk) {		//If OK Button Pressed.
+
+			String oldPass = new String (txtPass.getPassword());

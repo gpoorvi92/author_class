@@ -1,0 +1,10 @@
+      this.apkMD5 = other.apkMD5;
+    }
+    if (other.isSetSensitive()) {
+      List<String> __this__sensitive = new ArrayList<String>(other.sensitive);
+      this.sensitive = __this__sensitive;
+    }
+    if (other.isSetAutoRunMonitor()) {
+      List<RunMonitor> __this__autoRunMonitor = new ArrayList<RunMonitor>(other.autoRunMonitor.size());
+      for (RunMonitor other_element : other.autoRunMonitor) {
+        __this__autoRunMonitor.add(new RunMonitor(other_element));

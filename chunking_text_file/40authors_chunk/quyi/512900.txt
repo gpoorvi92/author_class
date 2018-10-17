@@ -1,0 +1,10 @@
+        return false;
+      }
+
+      public void start(I iface, reportNodeManagerConfig_args args, org.apache.thrift.async.AsyncMethodCallback<String> resultHandler) throws TException {
+        iface.reportNodeManagerConfig(args.nodeId,resultHandler);
+      }
+    }
+
+    public static class modifyEngineConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, modifyEngineConfig_args, com.nercis.isscp.idl.Result> {
+      public modifyEngineConfig() {

@@ -1,0 +1,10 @@
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetJvmVersion()).compareTo(other.isSetJvmVersion());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetJvmVersion()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.jvmVersion, other.jvmVersion);
+      if (lastComparison != 0) {

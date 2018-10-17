@@ -1,0 +1,10 @@
+     * querried and added dynamically
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public JposEntryRegistry getEntryRegistry();
+
+    /**
+     * @return the JposProperties object containing access to all Jpos properties
+     * @since 1.2 (NY 2K meeting)
+     */
+    public JposProperties getProperties();

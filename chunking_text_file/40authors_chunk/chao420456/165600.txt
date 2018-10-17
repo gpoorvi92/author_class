@@ -1,0 +1,10 @@
+		用if语句实现。
+*/
+import java.util.Scanner;
+
+class IfTest {
+	public static void main(String[] args) {
+		//创建键盘录入对象
+		Scanner sc = new Scanner(System.in);
+
+		//键盘录入数据

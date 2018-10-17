@@ -1,0 +1,10 @@
+ * 
+ * @author Nicolas Gramlich
+ * @since 17:13:44 - 09.07.2010
+ */
+public abstract class CellEntity extends Sprite implements SnakeConstants, ICellEntity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	// ===========================================================

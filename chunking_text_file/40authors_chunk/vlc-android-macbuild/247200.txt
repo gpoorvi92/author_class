@@ -1,0 +1,10 @@
+
+            properties = new Properties();
+            properties.load(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        StreamHelper.closeStream(inputStream);
+        return properties;
+    }

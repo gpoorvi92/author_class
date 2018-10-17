@@ -1,0 +1,10 @@
+	  engine.addLink(2,7);
+	  engine.addLink(7,9);
+          System.out.println("Before calculating path");
+          path = engine.findPath(0, 9);
+          System.out.println("After calculating path:");
+          for (int i=0; i<path.length; i++) {
+            System.out.println("  node # " + path[i]);
+          }
+          this.engine = engine;
+    try {

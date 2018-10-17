@@ -1,0 +1,10 @@
+    public static String date2str(Date date, String format) {
+        if (null == date) {
+            return null;
+        }
+        return new SimpleDateFormat(format).format(date);
+    }
+
+    /**
+     * 两个日期是否间隔了weekCount个星期
+     *

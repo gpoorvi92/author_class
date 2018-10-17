@@ -1,0 +1,10 @@
+    /// public java.awt.Frame() throws java.awt.HeadlessException
+
+    FrameProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.Window.paint(java.awt.Graphics)
+
+    public native void __paint( java.awt.Graphics arg0 );

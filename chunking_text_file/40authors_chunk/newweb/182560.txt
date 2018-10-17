@@ -1,0 +1,10 @@
+//		OrderService os = (OrderService) ctx.getBean("orderService");
+//		CustomerService cs = (CustomerService) ctx.getBean("customerService");
+//		Order[] orders = os.queryAllOrders();
+//		for (Order order : orders) {
+//			int i = new Random().nextInt(109);
+//			while(cs.findCustomerByID(i) == null){
+//				i = new Random().nextInt(109);
+//			}
+//			order.setCustomer(cs.findCustomerByID(i));
+//			os.modifyOrder(order);

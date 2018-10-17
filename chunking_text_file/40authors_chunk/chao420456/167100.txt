@@ -1,0 +1,10 @@
+
+		System.out.println(obj);
+	}
+
+	private static void write() throws IOException {
+		// ObjectOutputStream(OutputStream out)
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(
+				"oos.txt"));
+		Person p = new Person("¡÷«‡œº", 28);
+		oos.writeObject(p);

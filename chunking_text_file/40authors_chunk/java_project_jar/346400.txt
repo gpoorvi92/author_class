@@ -1,0 +1,10 @@
+        mark = -1L;
+    }
+
+    public synchronized void mark(int readlimit)
+    {
+        if(!markSupported)
+        {
+            throw new UnsupportedOperationException("Mark not supported");
+        } else
+        {

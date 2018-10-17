@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 创建窗体对象
+		Frame f = new Frame();
+		// 设置窗体属性
+		f.setTitle("按钮事件");
+		f.setBounds(500, 250, 400, 300);
+		// 设置布局
+		f.setLayout(new FlowLayout());
+
+		// 创建按钮对象

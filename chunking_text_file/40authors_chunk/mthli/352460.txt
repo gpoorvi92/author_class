@@ -1,0 +1,10 @@
+      panel.add(inverse);
+      ButtonGroup group = new ButtonGroup();
+      group.add(normal);
+      group.add(inverse);
+      normal.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               setInverse(false);
+            }

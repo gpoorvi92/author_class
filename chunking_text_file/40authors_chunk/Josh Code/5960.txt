@@ -1,0 +1,10 @@
+        return true;
+    }
+
+    public static void saveToAsciiPLY(Model m,File f) throws IOException 
+    {
+      FileOutputStream fout = new FileOutputStream(f);
+      PrintStream out = new PrintStream(fout);
+        printAsciiPLYHeader(m,out);
+        printAsciiVertices(m,out);
+        printTriangleFaces(m, out);

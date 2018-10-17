@@ -1,0 +1,10 @@
+  // "CapInterfaceMode", "InterfaceMode" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_CMODE_TRANS = 1;  // Simple Transaction Command and Data Mode.
+  public static final int SC_CMODE_BLOCK = 2;  // Block Data Mode.
+  public static final int SC_CMODE_APDU  = 4;  // Same as Block Data Mode except APDU Standard Commands are used.
+  public static final int SC_CMODE_XML   = 8;  // XML Block Data Mode.
+
+
+  /////////////////////////////////////////////////////////////////////

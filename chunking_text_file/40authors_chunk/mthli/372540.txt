@@ -1,0 +1,10 @@
+            InputStream in = contents.getInputStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+            String line;
+            while ((line = reader.readLine()) != null)
+            {
+               panel.append(line);
+               panel.append("\n");
+            }
+         }
+      }

@@ -1,0 +1,10 @@
+                         txtInfo.append( sqlex.toString() );
+             }	
+
+	
+		
+
+		jButton4.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+				setVisible(false);
+				

@@ -1,0 +1,10 @@
+   public void addListener(Component c, EventSetDescriptor eventSet)
+   {
+      // make proxy object for this listener type and route all calls to the handler
+      Object proxy = Proxy.newProxyInstance(null, new Class[] { eventSet.getListenerType() },
+            handler);
+
+      // add the proxy as a listener to the component
+      Method addListenerMethod = eventSet.getAddListenerMethod();
+      try
+      {

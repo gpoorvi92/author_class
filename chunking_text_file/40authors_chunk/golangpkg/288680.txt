@@ -1,0 +1,10 @@
+	@Value("jlfu{jlfu.ratelimiter.maximumRatePerClientInKiloBytes:10240}")
+	private volatile long maximumRatePerClientInKiloBytes;
+
+
+	// 10mb/s
+	@Value("jlfu{jlfu.ratelimiter.maximumOverAllRateInKiloBytes:10240}")
+	private volatile long maximumOverAllRateInKiloBytes;
+
+
+

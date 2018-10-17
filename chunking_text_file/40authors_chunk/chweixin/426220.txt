@@ -1,0 +1,10 @@
+import ipower.wechat.message.req.VoiceReqMessage;
+import ipower.wechat.message.resp.BaseRespMessage;
+import ipower.wechat.message.resp.RespMesssageHelper;
+import ipower.wechat.message.resp.TextRespMessage;
+import ipower.wechat.service.IWeChatMessageEventHandlers;
+import ipower.wechat.service.IWeChatMessageFactory;
+import ipower.wechat.service.IWeChatMessageHandlers;
+
+/**
+ * 默认微信消息处理。

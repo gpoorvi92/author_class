@@ -1,0 +1,10 @@
+
+	// 模式角色：GuardedSuspension.Blocker
+	private final Blocker blocker = new ConditionVarBlocker();
+
+	// 心跳定时器
+	private final Timer heartbeatTimer = new Timer(true);
+
+	// 省略其它代码
+	
+	/**

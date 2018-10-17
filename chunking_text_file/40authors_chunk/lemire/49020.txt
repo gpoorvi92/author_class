@@ -1,0 +1,10 @@
+        return ans;
+    }
+
+    /**
+     * Check whether the heap is empty.
+     *
+     * @return true if empty
+     */
+    public boolean isEmpty() {
+        return this.lastIndex == 0;

@@ -1,0 +1,10 @@
+	 * 
+	 * @param qtype
+	 * @return
+	 */
+	void onTextMessage(String msg);
+	
+	/**
+	 * Stream message arrived event.
+	 * 
+	 * @param buffer

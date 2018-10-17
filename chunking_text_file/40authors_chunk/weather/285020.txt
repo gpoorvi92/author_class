@@ -1,0 +1,10 @@
+package com.weico.core.data;
+
+import java.lang.reflect.Type;
+
+import android.app.Fragment;
+
+
+import com.weico.core.utils.FileUtil;
+import com.weico.core.utils.JsonUtil;
+

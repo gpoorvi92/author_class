@@ -1,0 +1,10 @@
+         System.out.println(e.next().getName());
+      
+      String url = "rmi://localhost/central_warehouse";      
+      Warehouse centralWarehouse = (Warehouse) namingContext.lookup(url);
+      
+      Scanner in = new Scanner(System.in);
+      System.out.print("Enter keywords: ");
+      List<String> keywords = Arrays.asList(in.nextLine().split("\\s+"));
+      Product prod = centralWarehouse.getProduct(keywords);
+      

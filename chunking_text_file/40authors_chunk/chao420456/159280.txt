@@ -1,0 +1,10 @@
+	public static void main(String[] args) throws ParseException {
+		// Date -- String
+		Date d = new Date();
+		// public SimpleDateFormat()
+		// SimpleDateFormat sdf = new SimpleDateFormat();
+		// SimpleDateFormat(String pattern)
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+		// public final String format(Date date)

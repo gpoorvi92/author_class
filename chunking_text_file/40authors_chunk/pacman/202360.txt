@@ -1,0 +1,9 @@
+	/**
+	 * Server crash event.
+	 * 
+	 * @Title: onAppSvrCrash
+	 * @param source
+	 * @return: void
+	 */
+	void onAppSvrCrash(Object source);
+}

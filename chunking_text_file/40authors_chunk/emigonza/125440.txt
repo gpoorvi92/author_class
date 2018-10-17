@@ -1,0 +1,10 @@
+    public static final int PWR_SUE_UPS_LOW                = 13;
+    public static final int PWR_SUE_UPS_CRITICAL           = 14;
+    public static final int PWR_SUE_FAN_STOPPED            = 15;
+    public static final int PWR_SUE_FAN_RUNNING            = 16;
+    public static final int PWR_SUE_TEMPERATURE_HIGH       = 17;
+    public static final int PWR_SUE_TEMPERATURE_OK         = 18;
+    public static final int PWR_SUE_SHUTDOWN               = 19;
+    public static final int PWR_SUE_BAT_LOW                = 20;
+    public static final int PWR_SUE_BAT_CRITICAL           = 21;
+    public static final int PWR_SUE_BAT_CAPACITY_REMAINING = 22;

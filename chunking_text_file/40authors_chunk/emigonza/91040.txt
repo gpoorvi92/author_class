@@ -1,0 +1,10 @@
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if the service throws a exception while disconnecting
+     */
+    protected void finalize() throws JposException { disconnect(); }
+
+    //---------------------------------------------------------------------------
+    // Class variables
+    //
+
+    private static Hashtable siFactoryTable = new Hashtable();

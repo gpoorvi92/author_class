@@ -1,0 +1,10 @@
+		pBook.add (lbBookCategory);
+		pBook.add (txtBookId);
+		pBook.add (txtBookName);
+		pBook.add (txtBookAuthor);
+		pBook.add (txtBookPrice);
+		pBook.add (txtBookCategory);
+		pBook.add (btnFind);
+		pBook.add (btnCancel);
+
+		//Adding Panel to Form.

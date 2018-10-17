@@ -1,0 +1,10 @@
+ */
+public class exportJMenu extends JMenu implements ActionListener
+{ 
+ private JFileChooser chooser;
+ private JMenuItem exportWireFrame;
+ private JMenuItem exportVertices;
+ private JMenuItem exportModel;
+ private modelViewer mv;
+
+    public exportJMenu(modelViewer mv)

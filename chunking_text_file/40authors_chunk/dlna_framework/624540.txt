@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	Timeout
+	////////////////////////////////////////////////
+
+	public void setTimeout(long value)
+	{
+		setHeader(HTTP.TIMEOUT, Subscription.toTimeoutHeaderString(value));
+	}
+
+	public long getTimeout()

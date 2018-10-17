@@ -1,0 +1,10 @@
+
+         // pick the element at the random location
+         result[i] = numbers[r];
+
+         // move the last element into the random location
+         numbers[r] = numbers[n - 1];
+         n--;
+      }
+
+      // print the sorted array

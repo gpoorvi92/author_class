@@ -1,0 +1,10 @@
+package tv.danmaku.media;
+
+import org.videolan.vlc.events.MediaPlayerModuleChanged;
+
+import android.os.Bundle;
+import android.text.TextUtils;
+
+public class ModuleInfo {
+    public String mVideoDecoder;
+    public String mVideoDecoderImpl;

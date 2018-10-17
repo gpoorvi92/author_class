@@ -1,0 +1,10 @@
+                       throws JposException;
+    public int     getMaximumX() throws JposException;
+    public int     getMaximumY() throws JposException;
+    public java.awt.Point[]
+                   getPointArray() throws JposException;
+    public byte[]  getRawData() throws JposException;
+    public boolean getRealTimeDataEnabled() throws JposException;
+    public void    setRealTimeDataEnabled(boolean realTimeDataEnabled)
+                       throws JposException;
+

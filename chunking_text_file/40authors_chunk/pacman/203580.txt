@@ -1,0 +1,10 @@
+import com.yeshj.pacman.log.ILog;
+import com.yeshj.pacman.log.LogFactory;
+
+/**
+ * TODO
+ * 
+ * @Class: MessagePoller
+ * @author: zhangxinyu
+ * @date: 2015年1月13日 上午10:52:04
+ */

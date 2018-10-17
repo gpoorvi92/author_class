@@ -1,0 +1,10 @@
+      if (struct.isSetRuleDescription()) {
+        optionals.set(7);
+      }
+      oprot.writeBitSet(optionals, 8);
+      if (struct.isSetRuleId()) {
+        oprot.writeString(struct.ruleId);
+      }
+      if (struct.isSetRuleName()) {
+        oprot.writeString(struct.ruleName);
+      }

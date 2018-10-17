@@ -1,0 +1,10 @@
+			int videoHeight,
+			int duration,
+			String media);
+	
+	/**
+	 * 
+	 * @param cmdId
+	 * @param success
+	 * @param msg
+	 * @return

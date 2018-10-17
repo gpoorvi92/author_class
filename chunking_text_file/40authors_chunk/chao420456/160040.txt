@@ -1,0 +1,10 @@
+ * 
+ * 3:看程序写结果：
+ * 		String作为参数传递，StringBuffer作为参数传递
+ * 
+ * 		String是一种特殊的引用类型，在作为参数传递的时候，可以当作基本类型来看。因为它传递的也是常量值。
+ * 		
+ */
+public class StringBufferDemo {
+	public static void main(String[] args) {
+		String s1 = "hello";

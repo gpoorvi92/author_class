@@ -1,0 +1,10 @@
+ * 
+ * This will only store vertex edges or line segments and not facial or surface information. 
+ * That is why this should only be used for exporting wireframe but not loading models.
+ */
+public class VLAModelFileSaver implements ModelFileSaver
+{
+    public boolean matchesFormat(String filename)
+    {
+        filename = filename.toLowerCase();
+

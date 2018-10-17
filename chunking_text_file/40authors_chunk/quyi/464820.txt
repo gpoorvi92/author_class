@@ -1,0 +1,10 @@
+      if (other.isSetIre()) {
+        this.ire = new com.nercis.isscp.idl.InvalidRequestException(other.ire);
+      }
+      if (other.isSetUe()) {
+        this.ue = new com.nercis.isscp.idl.UnavailableException(other.ue);
+      }
+    }
+
+    public ruleSync_result deepCopy() {
+      return new ruleSync_result(this);

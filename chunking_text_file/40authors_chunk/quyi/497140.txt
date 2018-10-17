@@ -1,0 +1,10 @@
+            }
+            break;
+          case 3: // ENGINE_IP
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.engineIp = iprot.readString();
+              struct.setEngineIpIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

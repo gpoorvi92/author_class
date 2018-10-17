@@ -1,0 +1,10 @@
+        try
+        {
+            beforeWrite(1);
+            out.append(c);
+            afterWrite(1);
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }

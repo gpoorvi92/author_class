@@ -1,0 +1,10 @@
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================
+
+	@Override
+	public Example getChild(final int pGroupPosition, final int pChildPosition) {
+		return EXAMPLEGROUPS[pGroupPosition].mExamples[pChildPosition];
+	}
+
+	@Override
+	public long getChildId(final int pGroupPosition, final int pChildPosition) {

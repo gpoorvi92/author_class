@@ -1,0 +1,10 @@
+
+  public boolean equals(VirusDetectionResultData that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_checkTime = true && this.isSetCheckTime();
+    boolean that_present_checkTime = true && that.isSetCheckTime();
+    if (this_present_checkTime || that_present_checkTime) {
+      if (!(this_present_checkTime && that_present_checkTime))
+        return false;

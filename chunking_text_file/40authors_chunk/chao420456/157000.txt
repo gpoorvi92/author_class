@@ -1,0 +1,10 @@
+            if(flag == JOptionPane.OK_OPTION){
+            	server.stopServer();
+            	jbt_start.setEnabled(true);
+            	jbt_stop.setEnabled(false);
+            }
+		}
+		if(arg0.getSource() == jbt_exit){
+			if(jbt_stop.isEnabled()){
+				jbt_stop.doClick();
+			}

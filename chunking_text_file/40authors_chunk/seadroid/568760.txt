@@ -1,0 +1,10 @@
+
+    @Override
+    protected void runTask() {
+        try {
+            // clear cached files
+            Utils.clearCache(filesDir);
+
+            // clear cached repo data
+            Utils.clearCache(cacheDir);
+

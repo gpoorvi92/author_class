@@ -1,0 +1,10 @@
+      }
+   }
+}
+
+/**
+ * A component with a painted surface
+ */
+
+class SampleComponent extends JComponent
+{

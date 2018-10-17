@@ -1,0 +1,10 @@
+            strings.remove(min_index);
+            scores.remove(min_index);
+            return ret;
+        } else {
+            return true; // yes, the 'text/ item was added
+        }
+    }
+
+    /**
+     * Sort a scored list in highest value first order

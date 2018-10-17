@@ -1,0 +1,10 @@
+package ipower.wechat.message.events;
+
+import java.util.Map;
+/**
+ * 事件消息解析帮助类。
+ * @author yangyong.
+ * @since 2014-02-26.
+ * */
+public final class EventMessageHelper {
+	/**

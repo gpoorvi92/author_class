@@ -1,0 +1,10 @@
+      if (struct.isSetStatement()) {
+        optionals.set(5);
+      }
+      if (struct.isSetRiskType()) {
+        optionals.set(6);
+      }
+      if (struct.isSetRiskLevel()) {
+        optionals.set(7);
+      }
+      if (struct.isSetRuleNo()) {

@@ -1,0 +1,10 @@
+    sb.append(this.memSize);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("fsSize:");
+    sb.append(this.fsSize);
+    first = false;
+    sb.append(")");
+    return sb.toString();
+  }
+

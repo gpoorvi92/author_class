@@ -1,0 +1,10 @@
+		fileProgressStatus.setUploadRate(rateLimiterConfigurationManager.getUploadState(fileId));
+		
+		//calculate estimated remaining time
+		fileProgressStatus.setEstimatedRemainingTimeInSeconds(remainingTimeEstimator.getRemainingTime(fileId, fileProgressStatus, fileProgressStatus.getUploadRate()));
+		
+		//log file progress status
+		log.debug("Calculated progress for file "+fileId+": "+fileProgressStatus);
+		
+		return fileProgressStatus;
+	}

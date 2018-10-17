@@ -1,0 +1,10 @@
+
+		//process first byte which is atomic by definition
+		code = getCode(in); 
+		outBytes = dict.fetchEntry(code); 
+		previous = outBytes; 
+
+		// output corresponding data
+		out.write(outBytes[0]);
+
+		// fetch next code

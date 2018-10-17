@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		this.setContentView(R.layout.dialog_select_people);
+		listView = (ListView) this.findViewById(R.id.lv_select_people);
+		// listView.setAdapter(new ArrayAdapter<String>(mContext,
+		// R.layout.item_text, R.id.tv_item_name, getData()));
+		listView.setAdapter(new ArrayAdapter<String>(mContext,

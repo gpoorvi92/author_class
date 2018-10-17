@@ -1,0 +1,10 @@
+				WeChatAccount account = this.weChatAccountDao.load(WeChatAccount.class, info.getAccountId());
+				if(account != null)data.setAccount(account);
+			}
+			if(data.getAccount() != null){
+				info.setAccountName(data.getAccount().getName());
+			}
+			if(isAdded && data.getAccount() != null){
+				this.weChatUserDao.save(data);
+			}
+		}

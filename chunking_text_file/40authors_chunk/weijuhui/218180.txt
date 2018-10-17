@@ -1,0 +1,10 @@
+            String requestType = currentReq.getMethod();
+            retry = !requestType.equals("POST");
+        }
+
+        if(retry) {
+            SystemClock.sleep(RETRY_SLEEP_TIME_MILLIS);
+        } else {
+            exception.printStackTrace();
+        }
+

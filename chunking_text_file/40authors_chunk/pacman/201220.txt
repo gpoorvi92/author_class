@@ -1,0 +1,10 @@
+public class DefaultMQReceiver implements IMQReceiver {
+	
+	private Connection			mConnection;
+	private Session 			mSession;
+	private MessageConsumer		mConsumer;
+	private Destination			mDestination;
+	
+	private boolean			mIsQueue;
+	private MQEventSource		mSource;
+	

@@ -1,0 +1,10 @@
+ 		if (rs == JOptionPane.YES_OPTION)
+ 		{
+	 		String query3 = "delete * from Item "+
+	 		" WHERE item_id = '" + a + "'";
+	 		int result = statement.executeUpdate(query3);
+	 		String query2 = "delete * from video_detail "+
+	 		" WHERE item_id = '" + a + "'";
+	 		int result2 = statement.executeUpdate(query2);	 		
+			if (result == 1 && result2 == 1)
+			{

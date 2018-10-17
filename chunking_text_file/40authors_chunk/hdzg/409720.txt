@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class ZhanXianGuanDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={//对话框显示文字
+			"前方是一个小酒馆，要不要进去坐坐？有可能结识一些英雄豪杰哟，预计花费15000。",
+			"前方是一个小酒馆，不过最近手头紧，就别想着煮酒论英雄了吧。",
+			"你在酒馆中遇到了xx将军，你们谈的很投机，他决定跟随你打天下。",
+			"你在酒馆喝得酩酊大醉，谁也没见着。",
+			"你已成大业，天下能臣良将尽数都归了你，酒馆里也碰不到更厉害的人才了。"
+		};

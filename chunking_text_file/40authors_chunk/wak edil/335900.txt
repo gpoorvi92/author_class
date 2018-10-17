@@ -1,0 +1,10 @@
+			this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		NasiGorengKampungInfo frame = new NasiGorengKampungInfo();
+		frame.setTitle("Nasi Goreng Kampung Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

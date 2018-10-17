@@ -1,0 +1,10 @@
+      JPanel p = new JPanel();
+      addRadioButton(p, numberRadioButton, rbGroup, listener);
+      addRadioButton(p, currencyRadioButton, rbGroup, listener);
+      addRadioButton(p, percentRadioButton, rbGroup, listener);
+
+      add(new JLabel("Locale:"), new GBC(0, 0).setAnchor(GBC.EAST));
+      add(p, new GBC(1, 1));
+      add(parseButton, new GBC(0, 2).setInsets(2));
+      add(localeCombo, new GBC(1, 0).setAnchor(GBC.WEST));
+      add(numberText, new GBC(1, 2).setFill(GBC.HORIZONTAL));

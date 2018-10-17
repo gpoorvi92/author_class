@@ -1,0 +1,10 @@
+    public native void __windowGainedFocus( java.awt.event.WindowEvent e );
+
+    boolean entered_windowGainedFocus_7;
+
+    public void windowGainedFocus( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowGainedFocus_7 ) {
+            entered_windowGainedFocus_7 = true;
+            __windowGainedFocus( e );
+            entered_windowGainedFocus_7 = false;
+        }

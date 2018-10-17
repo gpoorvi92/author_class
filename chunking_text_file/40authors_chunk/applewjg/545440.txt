@@ -1,0 +1,10 @@
+        }
+        idx = (idx - maxLen - 1) / 2;
+        return s.substring(idx, idx + maxLen);
+    }
+    public String longestPalindrome_5(String s) {
+        int n = s.length();
+        int idx = 0, maxLen = 0;
+        int mx = 0, id = 0;
+        int[] p = new int[2*n+1];
+        Arrays.fill(p,0);

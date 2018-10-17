@@ -1,0 +1,10 @@
+                    GameServerRpcClient gameServerRpcClient = new GameServerRpcClient(subs[0], RpcHelper.getDefaultRpcPort(Integer.valueOf(subs[1])));
+                    gameServerRpcClientMap.put(gameServer, gameServerRpcClient);
+                } catch (Exception e)
+                {
+                    log.error("创建GameServerRpcClient失败:{}", zoneEntity, e);
+                }
+            }
+        }
+        else
+        {

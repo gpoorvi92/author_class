@@ -1,0 +1,10 @@
+
+    private static void printTriangleFaces(Model m, PrintStream out) throws IOException
+    {
+      int numTriangles = m.getNumberOfTriangles();
+
+        // loop through triangles
+        for (int ti = 0; ti < numTriangles; ti++)
+        {
+            int offset = ti*3;
+            out.print("3 "+(offset)+" "+(offset+1)+" "+(offset+2)+'\n');

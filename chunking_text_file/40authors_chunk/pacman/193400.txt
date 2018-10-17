@@ -1,0 +1,10 @@
+	/**
+	 * @return the audioCodec
+	 */
+	public String getAudioCodec() {
+		return audioCodec;
+	}
+	
+	/**
+	 * @return the audioDuration
+	 */

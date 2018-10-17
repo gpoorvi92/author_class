@@ -1,0 +1,10 @@
+ * @date: 2015年1月4日 下午11:49:26
+ */
+public class Wrapper<T> {
+	
+	private T data;
+	
+	private boolean empty;
+	
+	/**
+	 * @return the data

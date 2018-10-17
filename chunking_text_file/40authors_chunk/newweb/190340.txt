@@ -1,0 +1,10 @@
+	
+	/**
+	 * 进行日期的减法计算
+	 * @param startDate
+	 * @param endDate
+	 * @return
+	 */
+	public static int DateSub(String startDate,String endDate){
+		Date sd = getDate(startDate);
+		Date ed = getDate(endDate);

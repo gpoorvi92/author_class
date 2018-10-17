@@ -1,0 +1,10 @@
+			sql2 = "create table factbook (name varchar(60), location varchar(150), export bigint, import bigint, debt bigint, aid bigint, unemployment_percent int, inflation_percent int)";
+			System.out.println(sql2);
+			s.execute(sql2);
+            System.out.println("Created table factbook");
+            
+		    docBuilderFactory = DocumentBuilderFactory
+					.newInstance();
+			docBuilder = docBuilderFactory.newDocumentBuilder();
+			doc = docBuilder.parse(new File(
+					"test_data/xml/FactBook.xml"));

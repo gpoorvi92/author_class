@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof modifyNodeManagerConfig_result)
+        return this.equals((modifyNodeManagerConfig_result)that);
+      return false;
+    }

@@ -1,0 +1,10 @@
+
+    @Override
+    public void clear() {
+      this.missionId = null;
+    }
+
+    public String getMissionId() {
+      return this.missionId;
+    }
+

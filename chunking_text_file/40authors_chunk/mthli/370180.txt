@@ -1,0 +1,10 @@
+
+   public boolean logout()
+   {
+      return true;
+   }
+
+   public boolean abort()
+   {
+      return true;
+   }

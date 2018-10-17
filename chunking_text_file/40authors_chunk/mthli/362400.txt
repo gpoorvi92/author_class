@@ -1,0 +1,10 @@
+    */
+   public static String base64Encode(String s)
+   {
+      ByteArrayOutputStream bOut = new ByteArrayOutputStream();
+      Base64OutputStream out = new Base64OutputStream(bOut);
+      try
+      {
+         out.write(s.getBytes());
+         out.flush();
+      }

@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    4Sum
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/4sum/
+ Notes:
+ Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? 
+ Find all unique triplets in the array which gives the sum of zero.
+ Note:

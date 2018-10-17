@@ -1,0 +1,10 @@
+package com.am.jlfu.staticstate;
+
+
+import java.util.UUID;
+
+import javax.servlet.http.Cookie;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;

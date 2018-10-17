@@ -1,0 +1,10 @@
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.title = title;
+        this.address = address;
+    }
+
+    public InlineQueryResultVenue foursquareId(String foursquareId) {
+        this.foursquare_id = foursquareId;
+        return this;
+    }

@@ -1,0 +1,10 @@
+
+	
+	public ModifyAccountRequest() {
+		super.setOpt(CMD);
+	}
+
+
+	public AccountBody getBody() {
+		return body;
+	}

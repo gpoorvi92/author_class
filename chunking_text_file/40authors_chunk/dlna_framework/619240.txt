@@ -1,0 +1,10 @@
+{
+	private HTTPServer httpServer;
+	private Socket sock;
+	
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public HTTPServerThread(HTTPServer httpServer, Socket sock)
+	{

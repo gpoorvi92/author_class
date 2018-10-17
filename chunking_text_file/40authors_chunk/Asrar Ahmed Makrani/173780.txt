@@ -1,0 +1,10 @@
+								acc_no_text[j].setText(bname[j]);
+								rent_date_text[j].setText(df2.format(rdate[j]));
+								due_date_text[j].setText(df2.format(ddate[j]));
+	
+								j = j+1;
+								patron_no_text.setEditable(false);
+								
+								testing.setText("a");
+							}
+							catch(SQLException sqlex)

@@ -1,0 +1,10 @@
+            public String Properties(String pro) {
+                //忽略属性字段中"_" 并安装小写比较
+                return StringUtil.remove(pro, "_").toLowerCase();
+            }
+        }));
+
+    }
+
+
+    @Test

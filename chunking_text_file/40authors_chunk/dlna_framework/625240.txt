@@ -1,0 +1,10 @@
+			SSDPSearchResponseSocket sock = getSSDPSearchResponseSocket(n);
+			sock.setControlPoint(ctrlPoint);
+		}
+	}
+
+	////////////////////////////////////////////////
+	//	get
+	////////////////////////////////////////////////
+	
+	public SSDPSearchResponseSocket getSSDPSearchResponseSocket(int n)

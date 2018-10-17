@@ -1,0 +1,10 @@
+            {
+               runTest(robot);                        
+            };
+         }.start();
+      }
+      catch (AWTException e)
+      {
+         e.printStackTrace();
+      }     
+   }

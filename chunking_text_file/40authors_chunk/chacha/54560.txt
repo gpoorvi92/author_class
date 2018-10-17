@@ -1,0 +1,10 @@
+				entity.set_id(super.generateID());
+				DBObject o=entity.toDbObject();
+				acctList.add(o);
+			}
+			coll.insert(acctList,WriteConcern.SAFE);
+		}catch(Exception e){
+			log.error("addBatch:",e);
+			return false;
+		}
+		return true;

@@ -1,0 +1,7 @@
+    public static void showLong(final Activity activity, final int resId) {
+        if (activity == null)
+            return;
+
+        showLong(activity, activity.getString(resId));
+    }
+}

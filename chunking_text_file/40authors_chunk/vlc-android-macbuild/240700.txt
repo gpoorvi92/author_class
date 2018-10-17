@@ -1,0 +1,10 @@
+/*****************************************************************************
+ * AbsMediaPlayer.java
+ * http://blog.moenyan.net/?p=18
+ * 
+ * Modified:
+ *  - 2012-03-13 --bbcallen <bbcallen@gmail.com>
+ *      remove unused methods and fields
+ *****************************************************************************
+ * Copyright © 2011-2012 tewilove <tewilove@gmail.com>
+ *

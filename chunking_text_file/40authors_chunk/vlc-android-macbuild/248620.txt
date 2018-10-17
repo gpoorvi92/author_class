@@ -1,0 +1,10 @@
+        String hardware = optCpuRawInfoItem("hardware").trim()
+                .replace(' ', '_');
+        String implementer = optCpuRawInfoItem("cpu implementer");
+        String architecture = optCpuRawInfoItem("cpu architecture");
+        String variant = optCpuRawInfoItem("cpu variant");
+        String part = optCpuRawInfoItem("cpu part");
+        String revision = optCpuRawInfoItem("cpu revision");
+        String featureList = optCpuRawInfoItem("features").replace(' ', '_');
+
+        StringBuilder sb = new StringBuilder();

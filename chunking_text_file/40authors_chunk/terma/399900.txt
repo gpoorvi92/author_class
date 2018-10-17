@@ -1,0 +1,10 @@
+
+    @Test
+    public void shouldFailWhenCantFindLocalPort() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Please specify test1.localPort");
+        properties.remove("test1.localPort");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+

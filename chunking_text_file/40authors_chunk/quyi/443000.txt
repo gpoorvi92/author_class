@@ -1,0 +1,10 @@
+        struct.setTargetAddressIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.targetPort = iprot.readString();
+        struct.setTargetPortIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.protocal = iprot.readString();
+        struct.setProtocalIsSet(true);
+      }

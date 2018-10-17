@@ -1,0 +1,10 @@
+              struct.ruleNo = iprot.readString();
+              struct.setRuleNoIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 10: // CATEGORY
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.category = iprot.readString();
+              struct.setCategoryIsSet(true);

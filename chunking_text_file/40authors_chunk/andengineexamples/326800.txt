@@ -1,0 +1,10 @@
+		rectangleGroup.registerEntityModifier(new LoopEntityModifier(new ParallelEntityModifier(
+				new SequenceEntityModifier(
+						new ScaleModifier(10, 1, 0.5f),
+						new ScaleModifier(10, 0.5f, 1)
+				),
+				new RotationModifier(20, 0, 360))
+		));
+
+		rectangleGroup.attachChild(rect1);
+		rectangleGroup.attachChild(rect2);

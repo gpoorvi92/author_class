@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.meet;
+
+/**
+ * Created by brian on 2016/4/11.
+ */
+
+/**
+ * P20~21
+ * sleep()方法测试
+ * run---同步执行

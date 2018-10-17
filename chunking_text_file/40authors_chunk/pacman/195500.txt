@@ -1,0 +1,10 @@
+		
+		assertTrue(FileHelper.exists(destFile));
+		assertFalse(FileHelper.exists(testFile));
+	}
+	
+	@Test
+	public void testMoveDir() throws Exception {
+		
+		FileHelper.moveDir(srcDir, destDir);
+		String actualDir = FileHelper.combinePath(destDir, "/src/");

@@ -1,0 +1,6 @@
+
+    protected int errorCode;
+    protected int errorCodeExtended;
+    protected int errorLocus;
+    protected int errorResponse;
+}

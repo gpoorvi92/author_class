@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class HardwareStandardSchemeFactory implements SchemeFactory {
+    public HardwareStandardScheme getScheme() {
+      return new HardwareStandardScheme();
+    }
+  }
+
+  private static class HardwareStandardScheme extends StandardScheme<Hardware> {

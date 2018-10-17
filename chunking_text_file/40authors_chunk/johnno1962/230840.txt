@@ -1,0 +1,10 @@
+
+    /// public java.lang.String java.lang.Object.toString()
+
+    public native java.lang.String __toString();
+
+    boolean entered_toString_9;
+
+    public java.lang.String toString() {
+        if ( !entered_toString_9 ) {
+            entered_toString_9 = true;

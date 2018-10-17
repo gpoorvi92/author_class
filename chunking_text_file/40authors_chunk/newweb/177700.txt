@@ -1,0 +1,10 @@
+	 * @param request
+	 * @param response
+	 * @return
+	 * @throws UnsupportedEncodingException 
+	 */
+	@RequestMapping(value="systemLogin.action")
+	public String systemLogin(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response) throws UnsupportedEncodingException{
+		int sessionUserID = (Integer) request.getSession().getAttribute("userID");
+		

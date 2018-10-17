@@ -1,0 +1,10 @@
+    if (this.hardwareResources == null) {
+      this.hardwareResources = new ArrayList<HardwareResources>();
+    }
+    this.hardwareResources.add(elem);
+  }
+
+  public List<HardwareResources> getHardwareResources() {
+    return this.hardwareResources;
+  }
+

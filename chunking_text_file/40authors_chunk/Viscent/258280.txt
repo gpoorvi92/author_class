@@ -1,0 +1,10 @@
+
+		Object[] arrSlaves = slaves.toArray();
+		int i = -1;
+		final int slaveCount = arrSlaves.length;
+		Future<V> subTaskResultPromise;
+
+		while (null != (subTask = taskDivideStrategy.nextChunk())) {
+			i = (i + 1) % slaveCount;
+			subTaskResultPromise = ((WorkerThreadSlave<T, V>) arrSlaves[i])
+			    .submit(subTask);

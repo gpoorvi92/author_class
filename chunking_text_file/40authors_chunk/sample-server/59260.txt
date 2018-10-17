@@ -1,0 +1,10 @@
+        {
+            log.info("添加ContentParam key={} limit={}", each.getKey(), each.getValue());
+        }
+    }
+    public static Integer getInt(String key)
+    {
+        String value = getString(key);
+        if (null == value)
+        {
+            return null;

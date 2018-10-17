@@ -1,0 +1,10 @@
+        dest.writeBundle(bundle);
+    }
+
+    private MediaResourceItem(Parcel in) {
+        Bundle bundle = in.readBundle(MediaResourceItem.class.getClassLoader());
+
+        mFromTag = bundle.getString(BUNDLE_FROM_TAG);
+        mTypeTag = bundle.getString(BUNDLE_TYPE_TAG);
+        mMrl = bundle.getString(BUNDLE_MRL);
+        mIsIndexMrl = bundle.getBoolean(BUNDLE_IS_INDEX_MRL);

@@ -1,0 +1,10 @@
+        inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        inflater.inflate(R.layout.clearable_edit_text, this, true);
+        edit_text = (AutoCompleteTextView) findViewById(R.id.clearable_edit);
+        btn_clear = (Button) findViewById(R.id.clearable_button_clear);
+        btn_clear.setVisibility(RelativeLayout.INVISIBLE);
+        clearText();
+        showHideClearButton();
+    }
+
+    void clearText() {

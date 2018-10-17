@@ -1,0 +1,10 @@
+        private ThreadB b;
+
+        public ThreadA(ThreadB b) {
+            super();
+            this.b = b;
+        }
+
+        @Override
+        public void run() {
+            try {

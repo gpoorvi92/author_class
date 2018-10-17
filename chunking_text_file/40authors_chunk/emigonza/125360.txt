@@ -1,0 +1,10 @@
+package jpos;
+
+public interface POSPowerConst
+{
+    /////////////////////////////////////////////////////////////////////
+    // "CapUPSChargeState" Capability and "UPSChargeState" Property
+    //    Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PWR_UPS_FULL      = 0x00000001;

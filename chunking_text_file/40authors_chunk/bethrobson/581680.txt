@@ -1,0 +1,10 @@
+    
+        frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+        frame.setSize(500,600);
+        frame.setVisible(true);        
+    } // close go
+
+
+   public class NextCardListener implements ActionListener {
+       public void actionPerformed(ActionEvent ev) {
+          if (isShowAnswer) {

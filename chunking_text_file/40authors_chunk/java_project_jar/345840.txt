@@ -1,0 +1,10 @@
+    {
+        return compare((File)x0, (File)x1);
+    }
+
+    public static final Comparator NAME_COMPARATOR;
+    public static final Comparator NAME_REVERSE;
+    public static final Comparator NAME_INSENSITIVE_COMPARATOR;
+    public static final Comparator NAME_INSENSITIVE_REVERSE;
+    public static final Comparator NAME_SYSTEM_COMPARATOR;
+    public static final Comparator NAME_SYSTEM_REVERSE;

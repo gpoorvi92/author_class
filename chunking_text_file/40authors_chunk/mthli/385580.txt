@@ -1,0 +1,10 @@
+         for (Component comp : ((Container) c).getComponents())
+            add(comp);
+      }
+   }
+
+   /**
+    * Add a listener to the given event set
+    * @param c a component
+    * @param eventSet a descriptor of a listener interface
+    */

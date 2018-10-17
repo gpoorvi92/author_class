@@ -1,0 +1,10 @@
+        }
+
+        return 0;
+    }
+
+    public static int w(String tag, String msg, Throwable tr) {
+        if (ENABLE_WARN) {
+            return Log.w(tag, msg, tr);
+        }
+

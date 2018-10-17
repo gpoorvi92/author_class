@@ -1,0 +1,10 @@
+      public queryApp_args getEmptyArgsInstance() {
+        return new queryApp_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.AppCheckResult> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<com.nercis.isscp.idl.AppCheckResult>() { 
+          public void onComplete(com.nercis.isscp.idl.AppCheckResult o) {
+            queryApp_result result = new queryApp_result();
+            result.success = o;

@@ -1,0 +1,10 @@
+     * @param <T>
+     * @return
+     */
+    public static <T> Request startPostGsonRequest(final String url, final Map<String, String> map, Class<T> clazz, RequestQueue queue, final RequestListener listener) {
+        final String finalUrl = url;
+        FakeX509TrustManager.allowAllSSL();
+        GsonRequest<T> request = new GsonRequest<T>(Request.Method.POST, finalUrl, clazz, new Response.Listener<T>() {
+            @Override
+            public void onResponse(final T response) {
+                listener.onResponse(response);

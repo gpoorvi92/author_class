@@ -1,0 +1,10 @@
+		for(int i=0;i<10000;i++){
+			BasicDBObject bo=new BasicDBObject().append("i",i);
+			coll.insert(bo);
+		}
+		end=System.currentTimeMillis();
+		System.out.println("singleinsert cost="+(end-begin));
+		
+	}
+	
+	@Test 

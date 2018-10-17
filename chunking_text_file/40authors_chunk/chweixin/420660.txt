@@ -1,0 +1,10 @@
+	 * 设置微信ID。
+	 * @param openId
+	 * 微信ID。
+	 * */
+	public void setOpenId(String openId) {
+		this.openId = openId;
+	}
+	/**
+	 *  获取用户ID。
+	 *  @return 用户ID。

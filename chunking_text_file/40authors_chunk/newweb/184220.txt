@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean update(LhjPriceCut cut) {
+		try {
+			sessionFactory.getCurrentSession().update(cut);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

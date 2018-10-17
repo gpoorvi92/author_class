@@ -1,0 +1,10 @@
+
+    public java.awt.Dimension preferredLayoutSize( java.awt.Container parent ) {
+        return __preferredLayoutSize( parent );
+    }
+
+    /// public abstract java.awt.Dimension java.awt.LayoutManager.minimumLayoutSize(java.awt.Container)
+
+    public native java.awt.Dimension __minimumLayoutSize( java.awt.Container parent );
+
+    public java.awt.Dimension minimumLayoutSize( java.awt.Container parent ) {

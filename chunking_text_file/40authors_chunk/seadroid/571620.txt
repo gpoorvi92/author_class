@@ -1,0 +1,10 @@
+    protected List<TransferTask> allTaskList = new CopyOnWriteArrayList();
+    /**
+     * contains currently transferring tasks
+     */
+    protected List<TransferTask> transferringList = new CopyOnWriteArrayList();
+    /**
+     * contains waiting tasks
+     */
+    protected List<TransferTask> waitingList = new CopyOnWriteArrayList();
+

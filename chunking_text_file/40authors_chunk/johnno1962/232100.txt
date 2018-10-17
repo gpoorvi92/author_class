@@ -1,0 +1,10 @@
+
+    /// public boolean javax.swing.table.DefaultTableModel.isCellEditable(int,int)
+
+    public native boolean __isCellEditable( int row, int column );
+
+    boolean entered_isCellEditable_0;
+
+    public boolean isCellEditable( int row, int column ) {
+        if ( !entered_isCellEditable_0 ) {
+            entered_isCellEditable_0 = true;

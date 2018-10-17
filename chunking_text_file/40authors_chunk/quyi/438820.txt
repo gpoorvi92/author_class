@@ -1,0 +1,10 @@
+          return CPU_MODEL;
+        case 3: // CPU_CORES
+          return CPU_CORES;
+        case 4: // CPU_MHZ
+          return CPU_MHZ;
+        case 5: // MEM_SIZE
+          return MEM_SIZE;
+        case 6: // FS_SIZE
+          return FS_SIZE;
+        default:

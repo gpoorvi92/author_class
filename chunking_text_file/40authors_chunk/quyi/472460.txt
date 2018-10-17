@@ -1,0 +1,10 @@
+      public updateUserAppStatus_args getEmptyArgsInstance() {
+        return new updateUserAppStatus_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public updateUserAppStatus_result getResult(I iface, updateUserAppStatus_args args) throws org.apache.thrift.TException {
+        updateUserAppStatus_result result = new updateUserAppStatus_result();

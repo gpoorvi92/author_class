@@ -1,0 +1,10 @@
+        when = System.currentTimeMillis();
+    }
+
+    public synchronized final void updateSequenceNumber()
+    {
+        sequenceNumber = incrSequenceNumber();
+    }
+
+    public static final synchronized long incrSequenceNumber()
+    {

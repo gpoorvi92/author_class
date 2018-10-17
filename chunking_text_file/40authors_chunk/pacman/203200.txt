@@ -1,0 +1,10 @@
+	}
+	
+	private void convertToXml(Document doc, String xmlFile) throws IOException {
+		
+		File target = new File(xmlFile);
+		if (!target.exists()) {
+			target.createNewFile();
+		}
+		OutputFormat format = OutputFormat.createPrettyPrint();
+		format.setEncoding("utf-8");

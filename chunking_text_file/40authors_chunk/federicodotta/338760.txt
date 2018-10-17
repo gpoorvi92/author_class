@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used to hold details about an HTTP request parameter.
+ */
+public interface IParameter
+{
+    /**
+     * Used to indicate a parameter within the URL query string.
+     */
+    static final byte PARAM_URL = 0;

@@ -1,0 +1,10 @@
+	public int getAudioDuration() {
+		return audioDuration;
+	}
+
+	/**
+	 * @param audioDuration the audioDuration to set
+	 */
+	public void setAudioDuration(int audioDuration) {
+		this.audioDuration = audioDuration;
+	}

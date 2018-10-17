@@ -1,0 +1,10 @@
+    }
+
+    public String getTemp2() {
+        return temp2;
+    }
+
+    public void setTemp2(String temp2) {
+        this.temp2 = temp2;
+    }
+

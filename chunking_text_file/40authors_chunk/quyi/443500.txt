@@ -1,0 +1,10 @@
+      this.why = other.why;
+    }
+  }
+
+  public UnavailableException deepCopy() {
+    return new UnavailableException(this);
+  }
+
+  @Override
+  public void clear() {

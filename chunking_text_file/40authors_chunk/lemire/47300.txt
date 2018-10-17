@@ -1,0 +1,10 @@
+    }
+
+    private boolean hasNextRLW() {
+        return this.ewahIter.hasNext();
+    }
+
+    private RunningLengthWord nextRLW() {
+        return this.ewahIter.next();
+    }
+

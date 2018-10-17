@@ -1,0 +1,10 @@
+		generateFilesFromDB();
+
+		FTPClientUtil ftpClientUtil = null;
+		try {
+			// 获取初始化完毕的FTP客户端实例
+			ftpClientUtil = ftpClientUtilPromise.get();
+		} catch (InterruptedException e) {
+			;
+		} catch (ExecutionException e) {
+			throw new RuntimeException(e);

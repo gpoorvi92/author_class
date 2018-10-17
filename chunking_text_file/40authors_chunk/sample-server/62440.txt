@@ -1,0 +1,10 @@
+        if (null == noticeId)
+        {
+            result.setMsg("failed");
+        }
+        else
+        {
+            int id = Integer.valueOf(noticeId);
+            NoticeEntity notice = DaoManager.getLocalDao().select(NoticeEntity.class, id);
+            if (null == notice)
+            {

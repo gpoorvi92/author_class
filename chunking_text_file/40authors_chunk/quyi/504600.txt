@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_plots = true && this.isSetPlots();
+    boolean that_present_plots = true && that.isSetPlots();
+    if (this_present_plots || that_present_plots) {
+      if (!(this_present_plots && that_present_plots))
+        return false;
+      if (!this.plots.equals(that.plots))
+        return false;

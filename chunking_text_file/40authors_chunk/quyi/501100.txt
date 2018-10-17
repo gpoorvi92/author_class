@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.nodeId != null) {
+        oprot.writeFieldBegin(NODE_ID_FIELD_DESC);
+        oprot.writeString(struct.nodeId);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(CPU_USED_PERC_FIELD_DESC);
+      oprot.writeDouble(struct.cpuUsedPerc);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(FREE_MEM_FIELD_DESC);

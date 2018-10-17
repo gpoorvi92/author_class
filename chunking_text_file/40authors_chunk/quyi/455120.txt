@@ -1,0 +1,10 @@
+            case 2: // OPERATE
+              if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+                struct.operate = EngineOperation.findByValue(iprot.readI32());
+                struct.setOperateIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            default:
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

@@ -1,0 +1,10 @@
+	
+	
+	private GUIStudio()
+	{ 
+
+	}
+	
+	public static synchronized GUIStudio instance()
+	{
+		if(_instance == null)

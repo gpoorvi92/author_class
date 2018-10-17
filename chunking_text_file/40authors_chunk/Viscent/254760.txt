@@ -1,0 +1,10 @@
+			ftp.disconnect();
+			throw new RuntimeException("Failed to change working directory.reply:"
+			    + reply);
+		} else {
+
+			System.out.println(ftp.getReplyString());
+		}
+
+		ftp.setFileType(FTP.ASCII_FILE_TYPE);
+

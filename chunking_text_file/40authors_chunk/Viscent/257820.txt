@@ -1,0 +1,10 @@
+	public final AtomicInteger reservations = new AtomicInteger(0);
+
+	/*
+	 * 在多个可停止线程实例共享一个TerminationToken实例的情况下，该队列用于
+	 * 记录那些共享TerminationToken实例的可停止线程，以便尽可能减少锁的使用 的情况下，实现这些线程的停止。
+	 */
+	private final Queue<WeakReference<Terminatable>> coordinatedThreads;
+
+	public TerminationToken() {
+		coordinatedThreads = new ConcurrentLinkedQueue<WeakReference<Terminatable>>();

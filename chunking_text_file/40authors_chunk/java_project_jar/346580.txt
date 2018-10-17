@@ -1,0 +1,10 @@
+            position = size;
+        }
+        return returnLength;
+    }
+
+    protected int processChar()
+    {
+        return 0;
+    }
+

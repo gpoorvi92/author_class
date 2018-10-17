@@ -1,0 +1,7 @@
+		return linkid;
+	}
+	public void setLinkid(int linkid) {
+		this.linkid = linkid;
+	}
+	
+}

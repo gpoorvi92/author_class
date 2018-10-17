@@ -1,0 +1,10 @@
+		item.putIntValue("lat", lat);
+		item.putIntValue("lon", lon);
+		nearbyOverlay.addPositionItem(item);
+		mapView.getOverlays().add(nearbyOverlay);
+		showBubble(item, 500);
+
+		locationClient = new LocationClient(getApplicationContext());
+		locationClient.registerLocationListener(this);
+		LocationClientOption option = new LocationClientOption();
+		option.setOpenGps(true);

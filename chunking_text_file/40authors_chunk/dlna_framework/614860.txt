@@ -1,0 +1,10 @@
+			InetSocketAddress bindSock = new InetSocketAddress(bindPort);
+			ssdpUniSock = new DatagramSocket(null);
+			ssdpUniSock.setReuseAddress(true);
+			ssdpUniSock.bind(bindSock);
+		}
+		catch (Exception e) {
+			//Debug.warning(e);
+			return false;
+		}
+		

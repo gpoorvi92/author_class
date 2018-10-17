@@ -1,0 +1,10 @@
+	private WeChatMenuInfo info = new WeChatMenuInfo();
+	/**
+	 * 设置微信公众号菜单服务接口。
+	 * @param weChatMenuService
+	 * 微信公众号菜单服务接口。
+	 * */
+	public void setService(IWeChatMenuService service) {
+		this.service = service;
+	}
+	

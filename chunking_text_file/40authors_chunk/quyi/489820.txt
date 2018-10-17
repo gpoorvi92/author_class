@@ -1,0 +1,10 @@
+                struct.userAppId = iprot.readString();
+                struct.setUserAppIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 3: // PLOTS_STATUS
+              if (schemeField.type == org.apache.thrift.protocol.TType.MAP) {
+                {
+                  org.apache.thrift.protocol.TMap _map70 = iprot.readMapBegin();

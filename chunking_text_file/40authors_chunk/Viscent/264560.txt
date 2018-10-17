@@ -1,0 +1,10 @@
+		Connection cnn = null;
+
+		// 省略其它代码
+
+		return cnn;
+	}
+
+	private void doSomething(Connection conn) {
+		// 省略其它代码
+	}

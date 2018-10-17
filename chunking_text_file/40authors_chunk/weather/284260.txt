@@ -1,0 +1,10 @@
+    }
+
+    public LocationTimeGroup(ExifInterface exifInterface) {
+        sFormatter.setTimeZone(TimeZone.getTimeZone("UTC"));
+        mBeginDate = getDateByExifInterface(exifInterface);
+        this.mLocation = getLocationByExifInterFace(exifInterface);
+    }
+
+    public void insertImageEntity(ImageEntity entity){
+        listImageEntity.add(entity);

@@ -1,0 +1,10 @@
+    }
+  }
+
+  public EventSetDescriptor makeEvent(String eventName)
+    throws IntrospectionException, ClassNotFoundException
+  {
+    String listener = "jpos.events." + eventName + "Listener";
+    return new EventSetDescriptor(jpos.LineDisplay.class,
+                                  eventName,
+                                  Class.forName(listener),

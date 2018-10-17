@@ -1,0 +1,10 @@
+/**
+ * LibVlcException: exceptions thrown by the native LibVLC interface
+ */
+package org.videolan.vlc;
+
+/**
+ * @author jpeg
+ *
+ */
+public class LibVlcException extends Exception {

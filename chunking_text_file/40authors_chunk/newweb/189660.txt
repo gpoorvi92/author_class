@@ -1,0 +1,10 @@
+		return place;
+	}
+	public void setPlace(String place) {
+		this.place = place;
+	}
+	
+	@Column
+	public String getContact() {
+		return contact;
+	}

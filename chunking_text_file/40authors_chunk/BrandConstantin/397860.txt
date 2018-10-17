@@ -1,0 +1,10 @@
+        altura++;
+        espacio--;
+        hueco += 2;
+    }
+    
+    for(i = 1; i < altura * 2; i++){
+        System.out.print(caracter);
+    }
+  }
+}

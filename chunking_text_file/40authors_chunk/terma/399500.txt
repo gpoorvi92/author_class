@@ -1,0 +1,10 @@
+
+/**
+ * TCP proxy.
+ *
+ * After starting it listening local port and send all incoming
+ * traffic on it from client to remote host and from remote host to client.
+ * Doesn't have any timeout. If client or remote server closes connection it will
+ * close opposite connection.
+ *
+ * Multi-thread and asynchronous TCP proxy server based on NIO.

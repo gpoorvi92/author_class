@@ -1,0 +1,10 @@
+	/**
+	 * 查找对象集合。
+	 * @param hql
+	 * 	HQL语句。
+	 * @param parameters
+	 * 	参数集合。
+	 * @param page
+	 * 	页码。
+	 * @param rows
+	 * 	页数据量

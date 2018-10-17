@@ -1,0 +1,7 @@
+			//jsp.setViewportView(new JButton("Compression failed:\n"+e));
+			e.printStackTrace();
+		}
+	}
+
+}//~ End Class LZWCompress 
+

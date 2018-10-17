@@ -1,0 +1,10 @@
+	 */
+	void setViewer( PropInfoViewer viewer ) { this.viewer = viewer; }
+
+	/**
+	 * Sets the description of this PropInfo (this can be HTML formated) 
+	 * @param s the String
+	 */
+	void setDescription( String s ) { description = s; } 
+
+	/**

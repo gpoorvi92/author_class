@@ -1,0 +1,10 @@
+    public DynamicCheckResultDataStandardScheme getScheme() {
+      return new DynamicCheckResultDataStandardScheme();
+    }
+  }
+
+  private static class DynamicCheckResultDataStandardScheme extends StandardScheme<DynamicCheckResultData> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, DynamicCheckResultData struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();

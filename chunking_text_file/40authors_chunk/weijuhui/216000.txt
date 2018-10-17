@@ -1,0 +1,10 @@
+	private static Bitmap extractThumbnail(Bitmap source, int targetWidth,int targetHeight, int options) {
+		if (source == null) {
+			return null;
+		}
+		float scale;
+		if (source.getWidth() < source.getHeight()) {
+			scale = targetWidth / (float) source.getWidth();
+		} else {
+			scale = targetHeight / (float) source.getHeight();
+		}

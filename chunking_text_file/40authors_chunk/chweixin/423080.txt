@@ -1,0 +1,10 @@
+	 * 票据创建时间。
+	 * */
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+	/**
+	 * 获取票据失效时间。
+	 * @return 票据失效时间。
+	 * */
+	public Date getFailureTime() {

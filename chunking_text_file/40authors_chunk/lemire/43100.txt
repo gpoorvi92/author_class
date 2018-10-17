@@ -1,0 +1,10 @@
+            e.set(i);
+        for (int i = 4 * 32; i < 5 * 32; ++i)
+            e.set(i);
+
+        IntIteratorOverIteratingRLW32 ii = new IntIteratorOverIteratingRLW32(e.getIteratingRLW());
+        assertTrue(ii.hasNext());
+        int ctr = 0;
+        while (ii.hasNext()) {
+            ++ctr;
+            ii.next();

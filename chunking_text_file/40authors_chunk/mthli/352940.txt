@@ -1,0 +1,4 @@
+      text.append(suffix);
+      label.setText(text.toString());
+   }
+}

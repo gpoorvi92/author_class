@@ -1,0 +1,10 @@
+     * @param activity
+     * @param resultReceiver 非常有用的参数，键盘隐藏完成回调，可知道隐藏完成时机。
+     */
+    public static void hideSoftKeyboardNotAlways(Activity activity, IBinder windowToken, ResultReceiver resultReceiver) {
+        ((InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(
+                windowToken, InputMethodManager.HIDE_NOT_ALWAYS, resultReceiver);
+    }
+    /**
+     * 隐藏软键盘，类型InputMethodManager.HIDE_NOT_ALWAYS,弹出软键盘，类型InputMethodManager.
+     * SHOW_IMPLICIT

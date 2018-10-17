@@ -1,0 +1,10 @@
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public SubscriptionRequest(){
+		setContentLength(0);
+	}
+
+	public SubscriptionRequest(HTTPRequest httpReq){

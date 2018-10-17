@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String openId,userId,userSign,userName,accountId,accountName;
+	private Date createTime,lastTime;
+	private Integer status; 
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatUserInfo(){
+		this.setCreateTime(new Date());
+	}

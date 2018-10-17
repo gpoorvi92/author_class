@@ -1,0 +1,7 @@
+
+    @RequestMapping("/addDownloadCount")
+    public String addDownloadCount() {
+        appService.addDownloadCount();
+        return null;
+    }
+}

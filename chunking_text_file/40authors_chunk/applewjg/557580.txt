@@ -1,0 +1,10 @@
+        int res = 0;
+        while (node != null) {
+            if (node.left == null) {
+                res = node.val;
+                node = node.right;
+                return res;
+            }
+            TreeNode pre = node.left;
+            while (pre.right != null && pre.right != node) 
+                pre = pre.right;

@@ -1,0 +1,10 @@
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void show() {
+		System.out.println(name+"---"+eid+"---"+salary);

@@ -1,0 +1,10 @@
+    public static final int SCAL_WU_KILOGRAM     = 2;
+    public static final int SCAL_WU_OUNCE        = 3;
+    public static final int SCAL_WU_POUND        = 4;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "StatusNotify" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int SCAL_SN_DISABLED = 1;

@@ -1,0 +1,10 @@
+
+import com.am.jlfu.fileuploader.limiter.RateLimiterConfigurationManager;
+import com.am.jlfu.staticstate.JavaLargeFileUploaderService;
+import com.am.jlfu.staticstate.entities.FileProgressStatus;
+import com.am.jlfu.staticstate.entities.StaticFileState;
+import com.am.jlfu.staticstate.entities.StaticStatePersistedOnFileSystemEntity;
+
+/**
+ * Component to calculate the information related to a file currently uploading.
+ * @author antoinem

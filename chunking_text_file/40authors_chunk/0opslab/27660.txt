@@ -1,0 +1,10 @@
+        REPLYCODE.put(450, "未执行请求的文件操作。文件不可用（例如，文件繁忙）。");
+        REPLYCODE.put(451, "请求的操作异常终止：正在处理本地错误。");
+        REPLYCODE.put(452, "未执行请求的操作。系统存储空间不够。");
+        REPLYCODE.put(501, "在参数中有语法错误。");
+        REPLYCODE.put(502, "未执行命令。");
+        REPLYCODE.put(503, "错误的命令序列。");
+        REPLYCODE.put(504, "未执行该参数的命令。");
+        REPLYCODE.put(530, "未登录。");
+        REPLYCODE.put(532, "存储文件需要帐户。");
+        REPLYCODE.put(550, "未执行请求的操作。文件不可用（例如，未找到文件，没有访问权限）。");

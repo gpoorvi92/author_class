@@ -1,0 +1,10 @@
+/**
+ * Defines an interface that aggregates information for a JavaPOS device category
+ * @since 1.3 (SF 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface DevCatInfo
+{
+	//-------------------------------------------------------------------------
+	// Public methods
+	//

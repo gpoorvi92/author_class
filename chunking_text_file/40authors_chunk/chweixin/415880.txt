@@ -1,0 +1,10 @@
+	public static JSONObject httpsRequest(X509TrustManager mgr, String requestUrl, String requestMethod, String data){
+		JSONObject jsonObject = null;
+		try {
+			logger.info("url:\r\n"+ requestUrl);
+			logger.info("method:\r\n" + requestMethod);
+			logger.info("data:\r\n"+ data);
+			
+			String result = ipower.utils.HttpUtil.sendRequest(mgr, requestUrl, requestMethod, data);
+			 
+			logger.info("callback:\r\n" + result);

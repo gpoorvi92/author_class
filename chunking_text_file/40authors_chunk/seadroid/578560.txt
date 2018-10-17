@@ -1,0 +1,10 @@
+    }
+
+    public String getMimeType() {
+        return mMimeType;
+    }
+
+    public String getTitle() {
+        return mTitle;
+    }
+

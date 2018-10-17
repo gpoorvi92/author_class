@@ -1,0 +1,8 @@
+	 * Removes the identifier.
+	 * 
+	 * @param request
+	 * @param response
+	 */
+	void clearIdentifier(HttpServletRequest request, HttpServletResponse response);
+
+}

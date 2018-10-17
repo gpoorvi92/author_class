@@ -1,0 +1,10 @@
+        return new modifyTaskManagerConfig_argsTupleScheme();
+      }
+    }
+
+    private static class modifyTaskManagerConfig_argsTupleScheme extends TupleScheme<modifyTaskManagerConfig_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, modifyTaskManagerConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.propertyName);

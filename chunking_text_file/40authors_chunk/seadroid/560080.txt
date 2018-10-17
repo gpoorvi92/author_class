@@ -1,0 +1,10 @@
+    DataManager dataManager;
+
+    public RenameTask(String repoID, String path,
+                      String newName, boolean isdir, DataManager dataManager) {
+        this.repoID = repoID;
+        this.path = path;
+        this.newName = newName;
+        this.isdir = isdir;
+        this.dataManager = dataManager;
+    }

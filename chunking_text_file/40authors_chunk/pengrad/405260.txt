@@ -1,0 +1,10 @@
+    public SendAudio title(String title) {
+        return add("title", title);
+    }
+
+    @Override
+    protected String getFileParamName() {
+        return "audio";
+    }
+
+    @Override

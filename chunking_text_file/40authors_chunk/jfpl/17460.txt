@@ -1,0 +1,10 @@
+			int num = cursor.getInt(0);
+			if (flag) {
+				num++;
+			}
+			con.execSQL(SystemUtil.SQL_MAP.get("update_chat_recently"),
+					new Object[] { title, new Date().getTime(), content, url,
+							num, appId });
+		} else {
+			int num = flag ? 1 : 0;
+			con.execSQL(SystemUtil.SQL_MAP.get("add_chat_recently"),

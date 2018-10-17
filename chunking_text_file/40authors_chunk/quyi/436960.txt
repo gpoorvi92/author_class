@@ -1,0 +1,10 @@
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.autoRunMonitor.size()));
+          for (RunMonitor _iter51 : struct.autoRunMonitor)
+          {
+            _iter51.write(oprot);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }

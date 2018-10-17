@@ -1,0 +1,10 @@
+
+
+
+ class MyDrawPanel extends JPanel implements ControllerEventListener {
+      
+      // only if we got an event do we want to paint
+      boolean msg = false;
+
+      public void controlChange(ShortMessage event) {
+         msg = true;       

@@ -1,0 +1,10 @@
+import java.text.DateFormat;
+import java.text.DecimalFormat;
+import java.text.FieldPosition;
+import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
+
+public class RecordWriter {
+
+	private static final RecordWriter INSTANCE = new RecordWriter();

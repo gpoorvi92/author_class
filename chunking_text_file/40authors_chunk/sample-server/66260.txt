@@ -1,0 +1,10 @@
+            {
+                log.error("put rpc request to queue timeout {}", diapatcherWrapper.getPacket());
+            }
+        } catch (InterruptedException e)
+        {
+            log.error("", e);
+        }
+    }
+    private class NettyRpcServerPipelineFactory implements ChannelPipelineFactory
+    {

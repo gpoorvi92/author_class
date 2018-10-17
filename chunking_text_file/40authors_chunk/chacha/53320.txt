@@ -1,0 +1,10 @@
+	 * @throws IOException
+	 */
+	public static String handle(String requestJson) throws JsonMappingException, JsonParseException, IOException{
+		Request request=(Request) JsonPojoMapper.fromJson(requestJson, Request.class);
+		String opt=request.getOpt();
+		if(opt.equalsIgnoreCase(AuthRequest.CMD_AUTH)){
+			return handleLoginPass(requestJson);
+		}else if(opt.equalsIgnoreCase(AuthRequest.CMD_TOKEN)){
+			return (requestJson);
+		}else if(opt.equalsIgnoreCase(AuthRequest.CMD_LOGOUT)){

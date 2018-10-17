@@ -1,0 +1,10 @@
+				acd.putStringValue("image_dir", fname);
+				acd.putStringValue("image_path", imagePath);
+				acd.putStringValue("image_parent_dir", imageDir);
+				return acd;
+			} else {
+				return null;
+			}
+		}
+		return null;
+	}

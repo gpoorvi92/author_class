@@ -1,0 +1,10 @@
+		return textReqMessage;
+	}
+	/**
+	 * 解析图片消息。
+	 * @param data
+	 * 	消息数据。
+	 * @return
+	 * 	图片消息对象。
+	 * */
+	public static ImageReqMessage parseImageReqMessage(Map<String, String> data){

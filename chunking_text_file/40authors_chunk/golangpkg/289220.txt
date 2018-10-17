@@ -1,0 +1,10 @@
+	@Autowired
+	RateLimiterConfigurationManager rateLimiterConfigurationManager;
+
+	@Autowired
+	RemainingTimeEstimator remainingTimeEstimator;
+
+	
+	/**
+	 * Retrieves the progress of the specified file for the specified client.<br>
+	 * 

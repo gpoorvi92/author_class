@@ -1,0 +1,10 @@
+
+    public static byte byteFieldStatic;
+    public byte byteField;
+
+    public static byte byteMethodStatic( byte arg ) {
+        return arg;
+    }
+
+    public byte byteMethod( byte arg ) {
+        return arg;

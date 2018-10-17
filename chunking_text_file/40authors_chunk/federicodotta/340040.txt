@@ -1,0 +1,10 @@
+    /**
+     * This method can be used to retrieve the bounds of the user's selection
+     * into the displayed text, if applicable.
+     *
+     * @return An int[2] array containing the start and end offsets of the
+     * user's selection within the displayed text. If the user has not made any
+     * selection in the current message, both offsets indicate the position of
+     * the caret within the editor.
+     */
+    int[] getSelectionBounds();

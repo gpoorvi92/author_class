@@ -1,0 +1,10 @@
+    public int getVideoHeight() {
+        if (mSegmentPlayer == null)
+            return 0;
+        return mSegmentPlayer.getVideoHeight();
+    }
+
+    @Override
+    public int getVideoWidth() {
+        if (mSegmentPlayer == null)
+            return 0;

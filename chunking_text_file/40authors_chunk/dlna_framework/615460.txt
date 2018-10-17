@@ -1,0 +1,10 @@
+	}
+
+	public String getValue()
+	{
+		return value;
+	}
+
+	public boolean hasName()
+	{
+		if (name == null ||  name.length() <= 0)

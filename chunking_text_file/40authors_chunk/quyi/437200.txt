@@ -1,0 +1,10 @@
+          oprot.writeI32(struct.autoRunMonitor.size());
+          for (RunMonitor _iter57 : struct.autoRunMonitor)
+          {
+            _iter57.write(oprot);
+          }
+        }
+      }
+      if (struct.isSetFileOperate()) {
+        {
+          oprot.writeI32(struct.fileOperate.size());

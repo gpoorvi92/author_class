@@ -1,0 +1,10 @@
+	public void eat(){
+		System.out.println("π∑≥‘»‚");
+	}
+
+	public void sport(){
+		System.out.println("π∑≈‹≤Ω");
+	}
+
+	public void lookDoor() {
+		System.out.println("ø¥√≈");

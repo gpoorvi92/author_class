@@ -1,0 +1,10 @@
+}
+
+/**
+ * This task enumerates all files in a directory and its subdirectories.
+ */
+class FileEnumerationTask implements Runnable
+{
+   public static File DUMMY = new File("");
+   private BlockingQueue<File> queue;
+   private File startingDirectory;

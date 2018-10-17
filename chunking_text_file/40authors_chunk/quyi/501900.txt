@@ -1,0 +1,10 @@
+      case 51:
+        return EXPAND_STATUS_BAR;
+      case 52:
+        return FACTORY_TEST;
+      case 53:
+        return FLASHLIGHT;
+      case 54:
+        return FORCE_BACK;
+      case 55:
+        return GET_ACCOUNTS;

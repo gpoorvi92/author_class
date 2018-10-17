@@ -1,0 +1,10 @@
+
+        if (id != null ? !id.equals(that.id) : that.id != null) return false;
+        if (from != null ? !from.equals(that.from) : that.from != null) return false;
+        if (location != null ? !location.equals(that.location) : that.location != null) return false;
+        if (query != null ? !query.equals(that.query) : that.query != null) return false;
+        return offset != null ? offset.equals(that.offset) : that.offset == null;
+
+    }
+
+    @Override

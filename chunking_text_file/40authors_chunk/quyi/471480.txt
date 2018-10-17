@@ -1,0 +1,10 @@
+        this.submitId = submitId;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("genMissionId", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        genMissionId_args args = new genMissionId_args();
+        args.setSubmitId(submitId);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }

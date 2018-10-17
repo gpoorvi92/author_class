@@ -1,0 +1,10 @@
+
+    @Override
+    public void down(String[] idsAndStatuses) throws ServiceException {
+        if (IdStatusSplitUtils.isFormatSecret(idsAndStatuses, GoodsStatus.ACTIVE.toString())) {
+            goodsMapper.down(IdStatusSplitUtils.split2Id(idsAndStatuses));
+        } else {
+            throw new ServiceException("只能下架上架的菜品");
+        }
+    }
+

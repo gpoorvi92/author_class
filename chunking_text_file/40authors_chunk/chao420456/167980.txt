@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+		
+	}
+
+	public void run() {
+		while(flag_exit){
+			try {
+				chat_re = dis.readUTF();
+			} catch (IOException e) {

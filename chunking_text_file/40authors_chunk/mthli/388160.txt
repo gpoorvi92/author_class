@@ -1,0 +1,6 @@
+               wordList.setLayoutOrientation(orientation);
+               listPanel.revalidate();
+            }
+         });
+   }
+}

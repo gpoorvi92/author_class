@@ -1,0 +1,10 @@
+      s1 = new Date().getTime();
+      for (i = 0; i <= ntry; i++)
+         if (!s.empty()) s.pop();
+      s2 = new Date().getTime();
+      System.out.println((s2 - s1) + " milliseconds");
+
+      // pop an empty stack ntry times and catch the resulting exception
+      System.out.println("Catching EmptyStackException");
+      s1 = new Date().getTime();
+      for (i = 0; i <= ntry; i++)

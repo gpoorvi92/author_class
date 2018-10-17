@@ -1,0 +1,9 @@
+    /**
+     * @see Comparable#compareTo(Object)
+     */
+    public int compareTo(final Object o) {
+        String other = o.getClass().getName();
+        String mine = this.getClass().getName();
+        return mine.compareTo(other);
+    }
+}

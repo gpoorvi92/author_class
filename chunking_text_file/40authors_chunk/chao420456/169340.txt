@@ -1,0 +1,10 @@
+import java.awt.event.WindowEvent;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+/*
+ * 通过观察图，我们分析知道应该有如下的几个组件：
+ * 窗体，文本框，按钮，文本域

@@ -1,0 +1,10 @@
+    }
+    public String getPermutation_1(int n, int k) {
+        char[] num = new char[n];
+        for (int i = 0; i < n; ++i) num[i] = (char) (i + '1');
+        System.out.println(String.valueOf(num));
+        while (--k != 0) {
+            nextPermutation(num);
+        }
+        return String.valueOf(num);
+    }

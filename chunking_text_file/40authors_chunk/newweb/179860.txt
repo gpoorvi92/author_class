@@ -1,0 +1,10 @@
+import com.newweb.model.business.BxgPriceCut;
+import com.newweb.model.business.OrderPrice;
+import com.newweb.service.base.BxgService;
+import com.newweb.service.business.BxgPriceCutService;
+import com.newweb.service.business.OrderPriceService;
+
+@Component("bxgService")
+public class BxgServiceImp implements BxgService {
+	
+	@Autowired

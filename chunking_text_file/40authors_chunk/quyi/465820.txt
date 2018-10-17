@@ -1,0 +1,10 @@
+			}
+		}
+
+		if (!opened) {
+			throw new TTransportException("Remote host unreachable.", cause);
+		}
+		TProtocol protocol = new TBinaryProtocol(transport);
+		return protocol;
+	}
+

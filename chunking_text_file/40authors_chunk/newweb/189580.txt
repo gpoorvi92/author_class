@@ -1,0 +1,10 @@
+	public Set<Bxg> getBxgs() {
+		return bxgs;
+	}
+	public void setBxgs(Set<Bxg> bxgs) {
+		this.bxgs = bxgs;
+	}
+	@OneToMany(mappedBy = "supplier", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<Small> getSmalls() {
+		return smalls;
+	}

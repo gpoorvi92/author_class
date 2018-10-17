@@ -1,0 +1,10 @@
+        {
+            String account = ctx == null ? "未登录用户" : ctx.getUser().getAccount();
+            String username = ctx == null ? "未登录用户" : ctx.getUser().getUsername();
+            String operation = handlerMethod.getMethod().getDeclaringClass().getName() + "." + handlerMethod.getMethod().getName();
+            log.info("[ {} ]进行[ {} ]操作", account, operation);
+            OperateLogEntity operateLogEntity = new OperateLogEntity();
+            operateLogEntity.setAccount(account);
+            operateLogEntity.setUsername(username);
+            operateLogEntity.setOperation(operation);
+            DaoManager.getLocalDao().saveOrUpdate(operateLogEntity);

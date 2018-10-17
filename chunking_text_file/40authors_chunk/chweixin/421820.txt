@@ -1,0 +1,10 @@
+		this.mediaId = mediaId;
+	}
+	/**
+	 * 获取视频描述。
+	 * @return 视频描述。
+	 * */
+	public String getDescription() {
+		return description;
+	}
+	/**

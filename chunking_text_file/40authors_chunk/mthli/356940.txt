@@ -1,0 +1,10 @@
+               FutureTask<Integer> task = new FutureTask<>(counter);
+               results.add(task);
+               Thread t = new Thread(task);
+               t.start();
+            }
+            else
+            {
+               if (search(file)) count++;
+            }
+

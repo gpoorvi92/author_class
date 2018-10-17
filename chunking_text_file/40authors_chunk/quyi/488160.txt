@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int compareTo(updateUserAppInfo_result other) {
+      if (!getClass().equals(other.getClass())) {
+        return getClass().getName().compareTo(other.getClass().getName());
+      }
+
+      int lastComparison = 0;
+

@@ -1,0 +1,10 @@
+    this.m_verbose = verbose;
+  }
+
+  /*
+   * (non-Javadoc)
+   * 
+   * @see cpdetector.io.ICodepageDetector#detectCodepage(java.io.InputStream)
+   */
+  public Charset detectCodepage(final InputStream in, final int length) throws IOException {
+    EncodingLexer lexer;

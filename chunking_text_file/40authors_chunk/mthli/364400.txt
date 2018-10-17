@@ -1,0 +1,10 @@
+      @return a pair with the min and max value, or null if a is 
+      null or empty
+   */
+   public static <T extends Comparable> Pair<T> minmax(T[] a) 
+   {
+      if (a == null || a.length == 0) return null;
+      T min = a[0];
+      T max = a[0];
+      for (int i = 1; i < a.length; i++)
+      {

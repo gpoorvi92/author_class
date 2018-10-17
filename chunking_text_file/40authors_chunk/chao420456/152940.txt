@@ -1,0 +1,8 @@
+/*
+ * class Properties extends Hashtable<K,V> { private Hashtable<K,V> ht;
+ * 
+ * public Properties() { ht = new Hashtable<K,V>(); }
+ * 
+ * public Object setProperty(String key,String value) { return
+ * ht.put(key,value); } }
+ */

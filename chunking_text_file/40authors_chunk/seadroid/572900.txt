@@ -1,0 +1,10 @@
+package com.seafile.seadroid2;
+
+import android.os.Build;
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;

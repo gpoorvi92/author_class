@@ -1,0 +1,10 @@
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderBxgFdw> getBxgFdws() {
+		return bxgFdws;
+	}
+	public void setBxgFdws(Set<OrderBxgFdw> bxgFdws) {
+		this.bxgFdws = bxgFdws;
+	}
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderLhjWeight> getOrderLhjWeights() {
+		return orderLhjWeights;

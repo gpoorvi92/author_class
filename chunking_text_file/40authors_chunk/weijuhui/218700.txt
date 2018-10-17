@@ -1,0 +1,10 @@
+
+				SendMessageToWX.Req req = new SendMessageToWX.Req();
+				req.transaction = buildTransaction("webpage");
+				req.message = msg;
+				req.scene = SendMessageToWX.Req.WXSceneTimeline;
+				boolean result = api.sendReq(req);
+			}
+
+		} catch (Exception e) {
+

@@ -1,0 +1,10 @@
+
+	/**
+	 * 留给子类实现。用于实现同步任务执行结束后所需执行的操作。 默认实现什么也不做。
+	 * 
+	 * @param result
+	 *          同步任务的处理结果
+	 */
+	protected void onPostExecute(V result) {
+		// 什么也不做
+	}

@@ -1,0 +1,10 @@
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+
+public class ImageIOTest {
+
+    public static BufferedImage zoomInImage(BufferedImage  originalImage, Integer times){
+        int width = originalImage.getWidth()*times;
+        int height = originalImage.getHeight()*times;
+        BufferedImage newImage = new BufferedImage(width,height,originalImage.getType());

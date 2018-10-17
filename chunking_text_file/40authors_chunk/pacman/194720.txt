@@ -1,0 +1,10 @@
+		assertEquals("lolita", mm.getName());
+		assertNotEquals(1000.0d, mm.getSalary());
+		
+		sender.Close();
+		receiver.Close();
+	}
+	
+	@Test
+	public void testTopicReceiver() throws MQException {
+

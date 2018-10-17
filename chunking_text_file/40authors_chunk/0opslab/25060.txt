@@ -1,0 +1,10 @@
+ * FTP工具类
+ */
+public class FTPFactory {
+    private static String CONFIG_FILE;
+
+    static {
+        URL path = FTPFactory.class.getProtectionDomain().getCodeSource().getLocation();
+        CONFIG_FILE = path.getPath() + "ftp.properties";
+    }
+

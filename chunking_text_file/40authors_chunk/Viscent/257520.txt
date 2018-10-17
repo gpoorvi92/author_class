@@ -1,0 +1,10 @@
+		    final Object[] args) throws Throwable {
+
+			Object returnValue = null;
+			final Object delegate = this.delegate;
+			final Method delegateMethod;
+
+			// 如果拦截到的被调用方法是异步方法，则将其转发到相应的doXXX方法
+			if (Future.class.isAssignableFrom(method.getReturnType())) {
+				delegateMethod = delegate.getClass().getMethod(
+				    makeDelegateMethodName(method, args), method.getParameterTypes());

@@ -1,0 +1,10 @@
+		String summary = training_data.toSummaryString();
+		int number_samples = training_data.numInstances();
+		int number_attributes_per_sample = training_data.numAttributes();
+        System.out.println("Number of attributes in model = " + number_attributes_per_sample);
+        System.out.println("Number of samples = " + number_samples);
+        System.out.println("Summary: " + summary);
+        System.out.println();
+        
+        // a classifier for decision trees:
+        J48 j48 = new J48();

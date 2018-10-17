@@ -1,0 +1,10 @@
+	public void setExtraInfo(String extraInfo) {
+		this.extraInfo = extraInfo;
+	}
+
+	@Override
+	public String toString() {
+		return "AlarmInfo [type=" + type + ",id=" + id + ", extraInfo=["
+		    + extraInfo + "]]";
+	}
+

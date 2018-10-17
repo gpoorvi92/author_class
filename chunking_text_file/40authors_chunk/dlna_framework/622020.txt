@@ -1,0 +1,10 @@
+	
+		try {	
+			ByteArrayOutputStream bout = new ByteArrayOutputStream();
+		
+			int readCnt = fin.read(readBuf);
+			while (0 < readCnt) {
+				bout.write(readBuf, 0, readCnt);
+				readCnt = fin.read(readBuf);
+			}
+			

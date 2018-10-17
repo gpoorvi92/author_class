@@ -1,0 +1,8 @@
+
+    public native void __menuKeyTyped( javax.swing.event.MenuKeyEvent e );
+
+    public void menuKeyTyped( javax.swing.event.MenuKeyEvent e ) {
+        __menuKeyTyped( e );
+    }
+
+}

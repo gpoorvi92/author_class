@@ -1,0 +1,10 @@
+
+    /**
+    *
+    */
+   @Test
+   public void testMat() throws Exception {
+       System.out.println("testMat ");
+       EWAHCompressedBitmap b = EWAHCompressedBitmap.bitmapOf(0,3);
+       EWAHCompressedBitmap n = IteratorUtil.materialize(b.getIteratingRLW());
+       assertTrue(n.sizeInBits() == 64);

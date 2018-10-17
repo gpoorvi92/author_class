@@ -1,0 +1,10 @@
+		// InputStream is = System.in; // BufferedInputStream,多态
+		// // System.out.println(is);
+		//
+		// // 需求：我想一次读取一行数据,但是现在我们是可以实现的，它的原理和BufferedReader是一样的,只不过稍微麻烦了
+		// // 如何改进呢?
+		// // 我是这样想的，我能不能直接使用readLine()呢?
+		// // 如果能，我就能够直接一次读取一行,而readLine()方法是BufferedReader的
+		// // 所以，我们要创建BufferedReader的对象
+		// // 而这个时候，直接把is作为构造参数传递，报错，为什么呢?
+		// // 因为BufferedReader是字符缓冲流，它只能对字符输入流进行缓冲

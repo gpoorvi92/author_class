@@ -1,0 +1,10 @@
+    boolean entered_mousePressed_0;
+
+    public void mousePressed( java.awt.event.MouseEvent e ) {
+        if ( !entered_mousePressed_0 ) {
+            entered_mousePressed_0 = true;
+            __mousePressed( e );
+            entered_mousePressed_0 = false;
+        }
+        else
+            super.mousePressed( e );

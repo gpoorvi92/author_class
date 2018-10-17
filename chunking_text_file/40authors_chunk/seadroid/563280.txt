@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * extract the repoId from the given documentId
+     *
+     * @param documentId our documentId, as created by createDocumentId()
+     * @return the repoId, might be empty string (if documentId isn't containing one)
+     */
+    public static String getRepoIdFromId(String documentId) {
+        String[] list = documentId.split(DOC_SEPERATOR, 3);

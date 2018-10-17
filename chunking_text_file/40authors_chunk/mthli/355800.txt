@@ -1,0 +1,10 @@
+            }
+         });
+
+      JButton cancelButton = new JButton("Cancel");
+      cancelButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               dialog.setVisible(false);
+            }

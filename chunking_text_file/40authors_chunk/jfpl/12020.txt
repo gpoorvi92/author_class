@@ -1,0 +1,10 @@
+	public void addMenuItem(String name, String tag, final View.OnClickListener click) {
+		height += itemHeight;
+
+		TextView tv = new TextView(ctx);
+		tv.setText(name);
+		tv.setLayoutParams(new LinearLayout.LayoutParams(
+				LinearLayout.LayoutParams.FILL_PARENT, itemHeight));
+		tv.setTextSize(15.0f);
+		tv.setTextColor(Color.WHITE);
+		tv.setBackgroundDrawable(ctx.getResources().getDrawable(

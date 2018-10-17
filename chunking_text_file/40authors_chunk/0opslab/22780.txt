@@ -1,0 +1,10 @@
+protected EncodingParser(TokenStream lexer, int k) {
+  super(lexer,k);
+  tokenNames = _tokenNames;
+}
+
+public EncodingParser(TokenStream lexer) {
+  this(lexer,1);
+}
+
+public EncodingParser(ParserSharedInputState state) {

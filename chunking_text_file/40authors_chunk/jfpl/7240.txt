@@ -1,0 +1,10 @@
+
+	private BMapManager mapManager = null;
+	private MKSearch mkSearch = null;
+	@InjectionView(id = R.id.bmapsView)
+	private MapView mapView;
+	@InjectionView(id = R.id.location_send_btn, click = "locationSendBtnClick")
+	private android.widget.Button sendBtn;
+	@InjectionView(id = R.id.location_loading)
+	private LinearLayout loadingLayout;
+	@InjectionView(id = R.id.location_list)

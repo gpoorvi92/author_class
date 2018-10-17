@@ -1,0 +1,10 @@
+                move.next = ins.next;
+                ins.next = move;
+            }
+            ins = cur;
+            cur = cur.next;
+        }
+        return dummy.next;
+    }
+    public int GetLength(ListNode head) {
+        int length = 0;

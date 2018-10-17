@@ -1,0 +1,10 @@
+ * A program to test properties. The program remembers the frame position, size, and title.
+ * @version 1.00 2007-04-29
+ * @author Cay Horstmann
+ */
+public class PropertiesTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {

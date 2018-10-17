@@ -1,0 +1,10 @@
+    public final String getVideoDecoderInline() {
+        if (TextUtils.isEmpty(mVideoDecoder))
+            return "N/A";
+
+        StringBuilder sb = new StringBuilder(mVideoDecoder);
+        sb.append(": ");
+        if (TextUtils.isEmpty(mVideoDecoderImpl)) {
+            sb.append("SW");
+        } else {
+            sb.append(mVideoDecoderImpl);

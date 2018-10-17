@@ -1,0 +1,10 @@
+        return new genMissionId_resultTupleScheme();
+      }
+    }
+
+    private static class genMissionId_resultTupleScheme extends TupleScheme<genMissionId_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, genMissionId_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();

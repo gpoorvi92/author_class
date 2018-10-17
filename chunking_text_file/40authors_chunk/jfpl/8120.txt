@@ -1,0 +1,8 @@
+		String sendXml = DataConvertFactory.praseBase64String(sendData);
+		Log.i(SystemUtil.LOG_MSG, "sendData==>" + sendData);
+		BasicNameValuePair xml = new BasicNameValuePair("xml", sendXml);
+		nameValuePairs.add(xml);
+		return DataConvertFactory.getInstanceByJson(post(url, nameValuePairs));
+	}
+
+}

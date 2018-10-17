@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void negative_push_back(Buffer32 buffer, int start, int number) {
+        for(int i = 0; i < number; ++i) {
+            push_back(~buffer.getWord(start + i));
+        }
+    }
+

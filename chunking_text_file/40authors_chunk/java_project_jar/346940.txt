@@ -1,0 +1,10 @@
+    {
+        return name;
+    }
+
+    public boolean isCaseSensitive()
+    {
+        return sensitive;
+    }
+
+    public int checkCompareTo(String str1, String str2)

@@ -1,0 +1,10 @@
+    /* 仅当视频时间改变后,才通过下面的取值判断缓冲状态是否需要结束 */
+    public abstract boolean isBufferingEnd();
+
+    public abstract ModuleInfo getModuleInfo();
+
+    public void setOnBufferingUpdateListener(
+            AbsMediaPlayer.OnBufferingUpdateListener listener) {
+        mOnBufferingUpdateListener = listener;
+    }
+

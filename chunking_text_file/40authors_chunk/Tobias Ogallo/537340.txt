@@ -1,0 +1,10 @@
+		}
+
+		jScrollPane = new JScrollPane(jTable);
+
+		jPanel1 = new JPanel(new java.awt.BorderLayout());
+
+		jPanel1.add(jScrollPane, java.awt.BorderLayout.CENTER);
+
+		jButton1 = new JButton("ADD ENTRY",new ImageIcon("Icon/i16x16/contents.png"));
+		jButton2 = new JButton("UPDATE",new ImageIcon("Icon/i16x16/reset.png"));

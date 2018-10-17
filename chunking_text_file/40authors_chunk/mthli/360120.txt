@@ -1,0 +1,10 @@
+      Locale currentLocale = locales[localeCombo.getSelectedIndex()];
+      int dateStyle = dateStyleCombo.getValue();
+      currentDateFormat = DateFormat.getDateInstance(dateStyle, currentLocale);
+      String d = currentDateFormat.format(currentDate);
+      dateText.setText(d);
+      int timeStyle = timeStyleCombo.getValue();
+      currentTimeFormat = DateFormat.getTimeInstance(timeStyle, currentLocale);
+      String t = currentTimeFormat.format(currentTime);
+      timeText.setText(t);
+   }

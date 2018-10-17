@@ -1,0 +1,10 @@
+    public void write(org.apache.thrift.protocol.TProtocol oprot, Hardware struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.cpuVendor != null) {
+        oprot.writeFieldBegin(CPU_VENDOR_FIELD_DESC);
+        oprot.writeString(struct.cpuVendor);
+        oprot.writeFieldEnd();
+      }
+      if (struct.cpuModel != null) {

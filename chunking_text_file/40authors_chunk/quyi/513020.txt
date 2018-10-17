@@ -1,0 +1,10 @@
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, modifyEngineConfig_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.modifyEngineConfig(args.propertyName, args.propertyValue,resultHandler);
+      }
+    }
+

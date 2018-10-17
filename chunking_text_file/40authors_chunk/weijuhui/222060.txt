@@ -1,0 +1,10 @@
+import android.os.Bundle;
+import android.support.v4.view.ViewPager;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.ImageButton;
+import com.weparty.R.id;
+import com.weparty.R.layout;
+
+public final class GuideActivity_
+    extends GuideActivity

@@ -1,0 +1,10 @@
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.dao.ITaskDAO#update(com.yeshj.pacman.model.TaskModel, java.util.Map)
+	 */
+	@Override
+	public void update(int taskid, Map<String, Object> map) {
+		
+		ArrayList<Object> params = new ArrayList<Object>();
+		
+		if (map == null || map.size() < 1)
+			return;

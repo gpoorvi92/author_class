@@ -1,0 +1,10 @@
+Subtract类使用while而不是if的话
+while(ValueObject.list.size() == 0){
+//if(ValueObject.list.size() == 0){
+
+输出：
+begin wait(),ThreadName=sub1
+begin wait(),ThreadName=sub2
+end wait(),  ThreadName=sub2
+list size = 0
+end wait(),  ThreadName=sub1

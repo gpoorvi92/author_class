@@ -1,0 +1,10 @@
+
+	public Direction getDirection() {
+		return this.mDirection;
+	}
+
+	public void setDirection(final Direction pDirection) {
+		if(this.mLastMoveDirection != Direction.opposite(pDirection)) {
+			this.mDirection = pDirection;
+			this.mHead.setRotation(pDirection);
+		}

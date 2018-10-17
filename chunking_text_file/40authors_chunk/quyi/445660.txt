@@ -1,0 +1,10 @@
+    }
+  }
+
+  public String getScreenShotPath() {
+    return this.screenShotPath;
+  }
+
+  public RunMonitor setScreenShotPath(String screenShotPath) {
+    this.screenShotPath = screenShotPath;
+    return this;

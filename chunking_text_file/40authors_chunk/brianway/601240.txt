@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example8;
+
+/**
+ * Created by Brian on 2016/4/12.
+ */
+
+/**
+ * P76
+ * 同步代码块解决同步方法的弊端
+ * TODO 但输出并不是两个c,两个d，原因？

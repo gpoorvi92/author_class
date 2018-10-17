@@ -1,0 +1,10 @@
+        this.addTime = new Date(dto.getAddTime());
+    }
+    public String getCdKey()
+    {
+        return cdKey;
+    }
+    public void setCdKey(String cdKey)
+    {
+        this.cdKey = cdKey;
+    }

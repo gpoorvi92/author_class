@@ -1,0 +1,6 @@
+		txtDate.setText ("");
+		txtMemberId.requestFocus ();
+
+	}
+
+}	

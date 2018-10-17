@@ -1,0 +1,10 @@
+    public String toString()
+    {
+        StringBuilder builder = new StringBuilder(super.toString());
+        builder.append("(");
+        builder.append(new String(magicNumbers));
+        builder.append(",");
+        builder.append(byteOffset);
+        builder.append(")");
+        return builder.toString();
+    }

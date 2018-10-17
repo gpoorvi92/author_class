@@ -1,0 +1,10 @@
+public interface FiscalPrinterControl17 extends FiscalPrinterControl16
+{
+	// The AmountDecimalPlaces property was incorrectly spelled
+	// AmountDecimalPlace since version 1.3.  In version 1.7.2 and later,
+	// the correct spelling is supported. The old version is left for
+	// Application and Device Service compatibility. The implementations
+	// of getAmountDecimalPlaces and getAmountDecimalPlace should be
+	// identical.
+
+	// Properties

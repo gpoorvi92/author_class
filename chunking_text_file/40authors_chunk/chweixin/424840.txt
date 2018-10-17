@@ -1,0 +1,8 @@
+	 * 上下文。
+	 * @param req
+	 *  语音请求。
+	 *  @return
+	 *  回复消息。
+	 * */
+	BaseRespMessage handler(WeChatContext context, VoiceReqMessage req);
+}

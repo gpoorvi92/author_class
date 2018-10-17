@@ -1,0 +1,10 @@
+			// e.printStackTrace();
+			System.out.println("写入数据失败");
+		}
+
+		try {
+			fos.close();
+		} catch (IOException e) {
+			// e.printStackTrace();
+			System.out.println("释放资源失败");
+		}

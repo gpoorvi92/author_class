@@ -1,0 +1,10 @@
+  private static class RunMonitorStandardSchemeFactory implements SchemeFactory {
+    public RunMonitorStandardScheme getScheme() {
+      return new RunMonitorStandardScheme();
+    }
+  }
+
+  private static class RunMonitorStandardScheme extends StandardScheme<RunMonitor> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, RunMonitor struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;

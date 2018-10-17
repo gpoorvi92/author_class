@@ -1,0 +1,10 @@
+                // ignore close exception
+            }
+            try {
+                bos.close();
+            } catch (IOException ex) {
+                // ignore close exception
+            }
+        }
+
+        ContentValues values = new ContentValues();

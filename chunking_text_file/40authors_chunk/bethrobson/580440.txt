@@ -1,0 +1,10 @@
+
+         ShortMessage b = new ShortMessage();
+         b.setMessage(128, 1, note, 100);
+         MidiEvent noteOff = new MidiEvent(b, 16); 
+         track.add(noteOff);
+         player.setSequence(seq); 
+         player.start();
+         // new
+	     Thread.sleep(5000);
+	     player.close();

@@ -1,0 +1,10 @@
+		
+		Customer[] cs = customerService.queryCustomerByName(name);
+		
+		if(cs != null){
+			if(cs.length == 1){
+				User u = userService.findUserByLinkID(cs[0].getID());
+				if(u != null){
+					return "linkNameIsUsed";	//此关联名已被注册
+				}
+				return "linkNameValid";		//关联名可用

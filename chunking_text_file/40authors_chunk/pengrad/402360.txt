@@ -1,0 +1,10 @@
+
+        if (file_id != null ? !file_id.equals(file.file_id) : file.file_id != null) return false;
+        if (file_size != null ? !file_size.equals(file.file_size) : file.file_size != null) return false;
+        return file_path != null ? file_path.equals(file.file_path) : file.file_path == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return file_id != null ? file_id.hashCode() : 0;
+    }

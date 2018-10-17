@@ -1,0 +1,10 @@
+import javax.servlet.ServletContextAttributeEvent;
+import javax.servlet.ServletContextAttributeListener;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+/**
+ * UserEntity: Teaey
+ * Date: 13-7-6
+ */
+public class ServerLifecycleListener implements ServletContextAttributeListener, ServletContextListener
+{

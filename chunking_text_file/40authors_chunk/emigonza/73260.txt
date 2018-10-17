@@ -1,0 +1,10 @@
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface SmartCardRWService18
+  extends BaseService, JposServiceInstance
+{
+  // Capabilities
+  public boolean getCapCardErrorDetection() throws JposException;

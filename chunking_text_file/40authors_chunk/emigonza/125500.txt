@@ -1,0 +1,10 @@
+// MotionSensorBeanInfo.java - Bean information for the JavaPOS MotionSensor
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

@@ -1,0 +1,10 @@
+    this.obj = null;
+  }
+
+  /** Returns true if field obj is set (has been assigned a value) and false otherwise */
+  public boolean isSetObj() {
+    return this.obj != null;
+  }
+
+  public void setObjIsSet(boolean value) {
+    if (!value) {

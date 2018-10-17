@@ -1,0 +1,10 @@
+	public boolean open(String bindAddr, int bindPort)
+	{
+		close();
+		
+		try {
+			// Changed to bind the specified address and port for Android v1.6 (2009/10/07)
+			InetSocketAddress bindInetAddr = new InetSocketAddress(InetAddress.getByName(bindAddr), bindPort);
+			ssdpUniSock = new DatagramSocket(bindInetAddr);
+
+		}

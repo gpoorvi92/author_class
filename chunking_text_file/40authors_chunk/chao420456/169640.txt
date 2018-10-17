@@ -1,0 +1,10 @@
+		//super();
+		//super(name);
+		//this();
+		System.out.println("world");
+	}
+}
+
+class ExtendsDemo4 {
+	public static void main(String[] args) {
+		//创建子类对象

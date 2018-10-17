@@ -1,0 +1,10 @@
+
+    public String getLogyype() {
+        return logyype;
+    }
+
+    public void setLogyype(String logyype) {
+        this.logyype = logyype;
+    }
+
+    public String getOperationname() {

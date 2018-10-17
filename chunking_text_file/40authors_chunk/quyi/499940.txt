@@ -1,0 +1,10 @@
+    this.freeMem = freeMem;
+    setFreeMemIsSet(true);
+    this.jvmFreeMem = jvmFreeMem;
+    setJvmFreeMemIsSet(true);
+    this.taskQueueLimit = taskQueueLimit;
+    setTaskQueueLimitIsSet(true);
+    this.taskQueueNume = taskQueueNume;
+    setTaskQueueNumeIsSet(true);
+  }
+

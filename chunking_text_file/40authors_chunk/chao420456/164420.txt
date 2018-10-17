@@ -1,0 +1,10 @@
+ * Thread(ThreadGroup group, Runnable target, String name):设置线程组名称
+ * 
+ * public final int getMaxPriority():返回此线程组最高优先级
+ */
+public class ThreadGroupRunnableDemo {
+	public static void main(String[] args) {
+		// method1();
+
+		method2();
+	}

@@ -1,0 +1,10 @@
+				public void run() {
+					fileDeleter.deleteFile(toDelete);
+				}
+			}));
+		}
+		fileDeleter.run();
+		ListenableFuture<List<Object>> allAsList = Futures.allAsList(futures);
+		fileDeleter.run();
+		Futures.get(allAsList, 2, TimeUnit.SECONDS, Exception.class);
+		fileDeleter.run();

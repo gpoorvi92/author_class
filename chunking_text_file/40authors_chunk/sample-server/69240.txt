@@ -1,0 +1,10 @@
+    {
+        ServerContext.init(ServerType.GATEWAY);
+        if (!name.startsWith(ServerContext.getServerType().toString().toLowerCase()))
+            throw new IllegalArgumentException(name);
+        ServerMonitor.monitor(GatewayBeanFactory.getInstance(BridgeJoint.class));
+    }
+    @Override
+    public void doStart() throws Exception
+    {
+        bootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));

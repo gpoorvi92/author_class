@@ -1,0 +1,10 @@
+    case ENGINE_NAME:
+      if (value == null) {
+        unsetEngineName();
+      } else {
+        setEngineName((String)value);
+      }
+      break;
+
+    case ENGINE_IP:
+      if (value == null) {

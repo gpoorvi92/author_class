@@ -1,0 +1,10 @@
+				
+		JPanel p2=new JPanel();
+		p2.setLayout(new GridLayout (1,4));
+		p2.add(new JLabel ());
+		p2.add(jbBack);
+		p2.add(jbExit);
+		p2.add(new JLabel ());
+		p2.setBackground(Color.white);
+		
+		jbBack.setToolTipText(ttback);

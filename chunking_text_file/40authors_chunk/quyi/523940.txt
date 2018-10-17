@@ -1,0 +1,10 @@
+    }
+
+    private static class modifyNodeManagerConfig_resultStandardScheme extends StandardScheme<modifyNodeManagerConfig_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, modifyNodeManagerConfig_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();

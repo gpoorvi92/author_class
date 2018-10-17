@@ -1,0 +1,10 @@
+    public String getAuthToken() throws AuthFailureError {
+        final AccountManager accountManager = AccountManager.get(mContext);
+        AccountManagerFuture<Bundle> future = accountManager.getAuthToken(mAccount,
+                mAuthTokenType, mNotifyAuthFailure, null, null);
+        Bundle result;
+        try {
+            result = future.getResult();
+        } catch (Exception e) {
+            throw new AuthFailureError("Error while retrieving auth token", e);
+        }

@@ -1,0 +1,10 @@
+package com.googlecode.javaewah.symmetric;
+
+import com.googlecode.javaewah.BitmapStorage;
+
+import java.util.Arrays;
+
+/**
+ * A threshold Boolean function returns true if the number of true values exceed
+ * a threshold. It is a symmetric Boolean function.
+ * 

@@ -1,0 +1,10 @@
+
+    /**
+     * Return true if there is currently a running media player.
+     */
+    public native boolean hasMediaPlayer();
+
+    /**
+     * Returns true if any media is playing
+     */
+    public native boolean isPlaying();

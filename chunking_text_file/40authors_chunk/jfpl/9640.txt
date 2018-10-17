@@ -1,0 +1,10 @@
+			((InputMethodManager) getSystemService(INPUT_METHOD_SERVICE))
+					.hideSoftInputFromWindow(chatEt.getWindowToken(),
+							InputMethodManager.HIDE_NOT_ALWAYS);
+			setAddPanelState(true);
+			voiceBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.voice_record_button));
+			pressRecordBtn.setVisibility(View.GONE);
+			chatEt.setVisibility(View.VISIBLE);
+		} else {
+			setAddPanelState(false);

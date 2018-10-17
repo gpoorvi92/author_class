@@ -1,0 +1,10 @@
+package com.server;
+
+import java.io.IOException;
+
+
+
+public class BroadCast extends Thread {
+
+	ClientThread clientThread;
+	ServerThread serverThread;

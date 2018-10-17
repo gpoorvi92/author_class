@@ -1,0 +1,10 @@
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+				new Up_date_Pass (jTable.getValueAt(getSelectedRow(),0).toString(),
+								 jTable.getValueAt(getSelectedRow(), 1).toString(),
+								 jTable.getValueAt(getSelectedRow(), 2).toString(),
+								 jTable.getValueAt(getSelectedRow(), 3).toString(),
+								 jTable.getValueAt(getSelectedRow(), 4).toString(),
+								 jTable.getValueAt(getSelectedRow(), 5).toString(),								
+								 jTable.getValueAt(getSelectedRow(), 6).toString()).setVisible(true);
+			}
+		});

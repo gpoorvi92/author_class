@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.TreeSet;
+
+/*
+ * A:创建一个HashMap集合
+ * B:创建一个ArrayList集合

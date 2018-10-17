@@ -1,0 +1,10 @@
+	 * @param missionSize
+	 *            一个批次的应用数量
+	 * @param beginNumber
+	 *            样本在excel表里开始的位置
+	 * @throws JMSException
+	 */
+	public static String autoissueMessages(String filePath, int missionSize, int beginNumber) throws JMSException {
+		ConnectionFactory connectionFactory;
+		Connection connection = null;
+		Session session = null;

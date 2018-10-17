@@ -1,0 +1,10 @@
+    /** loops through the bottom part of a triangle
+     */
+    private void renderTriangleBottom(Point p1, Point p2, double slope)
+    { 
+       
+    }
+
+    /**
+     */
+    public void setRenderDestination(RenderingBuffer resultBuf)

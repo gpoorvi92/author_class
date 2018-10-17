@@ -1,0 +1,10 @@
+            out.print("Descriptor.setPropertyEditorClass(");
+            out.print(ed);
+            out.println(".class);");
+         }
+      }
+      out.println("         return new java.beans.PropertyDescriptor[]");
+      out.print("         {");
+      boolean first = true;
+      for (String p : props.keySet())
+      {

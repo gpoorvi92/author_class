@@ -1,0 +1,10 @@
+    public void multiplyBy(matrix mat) throws IncompatibleArgumentsException
+    {
+      if (mat.m!=n)
+          throw new IncompatibleArgumentsException(
+              "Matrix multiplication can't be calculated "
+              +"because of invalid dimensions.");
+        
+        matrix result= multiply(this,mat);
+
+        init(result); // copy all information from result into this

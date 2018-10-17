@@ -1,0 +1,10 @@
+    }
+
+    /*--------------------------------------
+     * getter
+     */
+    private LoaderManager getLoaderManager() {
+        Fragment fragment = mWeakFragment.get();
+        if (fragment == null)
+            return null;
+

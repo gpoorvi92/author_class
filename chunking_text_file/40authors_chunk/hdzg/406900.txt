@@ -1,0 +1,10 @@
+		open = BitmapFactory.decodeResource(getResources(), R.drawable.open);
+		close = BitmapFactory.decodeResource(getResources(), R.drawable.close);
+		Bitmap menu_item = BitmapFactory.decodeResource(getResources(), R.drawable.buttons);
+		buttonBackGround = Bitmap.createBitmap(menu_item, 0, 0, 60, 30);
+	}
+
+	public void onDraw(Canvas canvas){
+		canvas.drawColor(Color.WHITE);
+
+		canvas.drawBitmap(panel_back, 0, 0, paint);

@@ -1,0 +1,10 @@
+
+
+    public InlineQueryResultDocument(String id, String documentUrl, String title, String mimeType) {
+        super("document", id);
+        this.document_url = documentUrl;
+        this.title = title;
+        this.mime_type = mimeType;
+    }
+
+    public InlineQueryResultDocument caption(String caption) {

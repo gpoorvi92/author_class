@@ -1,0 +1,10 @@
+			MissionResults missionResults = client.searchMission(missionId);
+			long finishTime=System.currentTimeMillis();
+			if (missionResults != null && missionResults.getMissionId() != null) {
+				isSearchSuccess = true;
+			}
+			String result="失败";
+			if(isSearchSuccess){
+				result="成功";
+			}
+			SearchRecordInfo searchRecordInfo=new SearchRecordInfo();

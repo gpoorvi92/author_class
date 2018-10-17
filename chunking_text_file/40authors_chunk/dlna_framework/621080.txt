@@ -1,0 +1,10 @@
+			if (addrStr.charAt(0) == '[')
+				addrStr = addrStr.substring(1, addrStr.length());
+			if (addrStr.charAt(addrStr.length()-1) == ']')
+				addrStr = addrStr.substring(0, addrStr.length()-1);
+		}
+		InetSocketAddress isockaddr = new InetSocketAddress(addrStr, 0);
+		return isockaddr.getAddress();
+	}
+	
+	////////////////////////////////////////////////

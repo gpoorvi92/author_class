@@ -1,0 +1,10 @@
+        if (c!=null)
+          paint(c.getGraphics());
+    }
+
+    public void paint(Graphics g)
+    {
+        if (g == null) return;
+        if (progress < 0 && msg == null)
+            return;
+

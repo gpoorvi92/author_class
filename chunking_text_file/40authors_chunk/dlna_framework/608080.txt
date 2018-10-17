@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private HTTPServerList httpServerList = null;		
+
+	public HTTPServerList getHTTPServerList() {
+		if(this.httpServerList==null){
+			this.httpServerList = new HTTPServerList(this.httpBinds,this.httpPort);
+		}
+		return this.httpServerList;
+	}

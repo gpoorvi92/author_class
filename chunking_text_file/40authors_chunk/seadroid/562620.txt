@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.ui.adapter;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.util.Log;

@@ -1,0 +1,10 @@
+    }
+
+    public void setLocalDir(String localDir) {
+        this.localDir = localDir;
+    }
+
+    public String getRemoteEncoding() {
+        return remoteEncoding;
+    }
+

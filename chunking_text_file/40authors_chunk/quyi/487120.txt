@@ -1,0 +1,10 @@
+          oprot.writeString(struct.missionId);
+          oprot.writeFieldEnd();
+        }
+        if (struct.userAppId != null) {
+          oprot.writeFieldBegin(USER_APP_ID_FIELD_DESC);
+          oprot.writeString(struct.userAppId);
+          oprot.writeFieldEnd();
+        }
+        if (struct.plotsStatus != null) {
+          oprot.writeFieldBegin(PLOTS_STATUS_FIELD_DESC);

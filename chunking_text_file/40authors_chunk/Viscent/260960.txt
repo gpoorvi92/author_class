@@ -1,0 +1,10 @@
+				} catch (Exception e) {
+					SubTaskFailureException stfe = newSubTaskFailureException(task, e);
+					throw stfe;
+				}
+
+				return result;
+			}
+
+		});
+		taskQueue.put(ft);

@@ -1,0 +1,10 @@
+    for (int i = 0; i < headers.size(); i++) {
+      String name = headers.name(i);
+      String value = headers.value(i);
+      httpResponse.addHeader(name, value);
+      if ("Content-Type".equalsIgnoreCase(name)) {
+        entity.setContentType(value);
+      } else if ("Content-Encoding".equalsIgnoreCase(name)) {
+        entity.setContentEncoding(value);
+      }
+    }

@@ -1,0 +1,10 @@
+      @param ipadx the internal padding in x-direction
+      @param ipady the internal padding in y-direction
+      @return this object for further modification
+   */
+   public GBC setIpad(int ipadx, int ipady) 
+   { 
+      this.ipadx = ipadx; 
+      this.ipady = ipady; 
+      return this;
+   }

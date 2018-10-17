@@ -1,0 +1,10 @@
+		}
+
+	}
+
+	//Action Performed by the Theme Menu.
+
+	public void actionPerformed (ActionEvent e) {
+
+	String numStr = e.getActionCommand ();					//Getting the Action Command.
+	MetalTheme selectedTheme = themes [ Integer.parseInt (numStr) ];	//Converting the String into Integer.

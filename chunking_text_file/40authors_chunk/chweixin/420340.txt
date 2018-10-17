@@ -1,0 +1,10 @@
+	 * @throws DocumentException 
+	 */
+	@SuppressWarnings("unchecked")
+	protected final static Map<String, String> parseXml(InputStream inXml) throws DocumentException{
+		if(inXml == null) return null;
+		//读取输入流。
+		SAXReader reader = new SAXReader();
+		Document document = reader.read(inXml);
+		//得到xml根元素。
+		Element root = document.getRootElement();

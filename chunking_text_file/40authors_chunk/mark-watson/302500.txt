@@ -1,0 +1,10 @@
+    public TripleStoreSesameManager() throws RepositoryException {
+        MemoryStore ms = new MemoryStore();
+        ForwardChainingRDFSInferencer fci = new ForwardChainingRDFSInferencer(ms);
+        myRepository = new SailRepository(fci);
+        myRepository.initialize();
+        System.out.println(myRepository);
+        con = myRepository.getConnection();
+    }
+    
+    /**

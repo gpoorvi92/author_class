@@ -1,0 +1,10 @@
+{
+
+    public NullInputStream(long size)
+    {
+        this(size, true, false);
+    }
+
+    public NullInputStream(long size, boolean markSupported, boolean throwEofException)
+    {
+        mark = -1L;

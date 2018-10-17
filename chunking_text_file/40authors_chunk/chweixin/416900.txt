@@ -1,0 +1,10 @@
+		hql = this.addWhere(info, hql, parameters);
+		if(info.getSort() != null && !info.getSort().trim().isEmpty()){
+			hql += " order by u." + info.getSort() + " " + info.getOrder();
+		}
+		return this.find(hql, parameters, info.getPage(), info.getRows());
+	}
+
+	@Override
+	public Long total(UserInfo info) {
+		String hql = "select count(*) from User u where 1=1 ";

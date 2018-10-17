@@ -1,0 +1,10 @@
+		return true;
+	}
+
+	boolean leaveGroup(String mcastAddr, int mcastPort, String bindAddr)
+	 {
+		try {	 	
+			InetSocketAddress mcastGroup = new InetSocketAddress(InetAddress.getByName(mcastAddr), mcastPort);
+			NetworkInterface mcastIf = NetworkInterface.getByInetAddress(InetAddress.getByName(bindAddr));
+			ssdpUniSock.leaveGroup(mcastGroup, mcastIf);
+		 }

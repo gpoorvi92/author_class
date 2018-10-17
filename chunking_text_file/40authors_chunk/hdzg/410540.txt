@@ -1,0 +1,10 @@
+		Iterator<Integer> ii = keySet.iterator();
+		
+		while(ii.hasNext()){
+			Skill s = (Skill)skills.get((Integer)ii.next());
+			if(s.getSkillType() == 1){
+				items.add(s);
+			}
+		}
+	}
+	public void onDraw(Canvas canvas){//绘制的方法 

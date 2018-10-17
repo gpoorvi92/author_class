@@ -1,0 +1,10 @@
+			return BasicStroke.JOIN_ROUND;
+		else 
+			return BasicStroke.JOIN_MITER;
+	}
+
+	
+	
+	
+	class DrawPanel extends JPanel {
+		Graphics2D g2;

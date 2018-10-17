@@ -1,0 +1,10 @@
+            if (extras_.containsKey("flag")) {
+                try {
+                    flag = ((Integer) extras_.get("flag"));
+                } catch (ClassCastException e) {
+                    Log.e("EditNumberActivity_", "Could not cast extra to expected type, the field is left to its default value", e);
+                }
+            }
+        }
+    }
+

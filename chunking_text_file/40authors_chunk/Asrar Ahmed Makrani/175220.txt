@@ -1,0 +1,10 @@
+    public JLabel book_no = new JLabel("Item No");
+    public JLabel book_title = new JLabel("Title");
+    public JLabel book_type = new JLabel("Type");
+    public JLabel book_category = new JLabel("Category");
+    public JLabel author = new JLabel("Author");
+    public JLabel publisher = new JLabel("Publisher");
+    public JLabel subject = new JLabel("Subject");
+    public JLabel location = new JLabel("Location");
+    public JLabel book_info = new JLabel("Item Info");
+    public JTextField patron_no_text = new JTextField(20);

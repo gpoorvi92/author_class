@@ -1,0 +1,10 @@
+            entered_windowStateChanged_9 = false;
+        }
+        else
+            super.windowStateChanged( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+
+    public native boolean __equals( java.lang.Object arg0 );
+

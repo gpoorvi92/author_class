@@ -1,0 +1,10 @@
+    private DataManager dataManager;
+    private Account account;
+
+    private static final String STATE_REPO_ID = "rename_task.repo_name";
+    private static final String STATE_PATH = "rename_task.repo_id";
+    private static final String STATE_ISDIR = "rename_task.account";
+    private static final String STATE_ACCOUNT = "rename_task.account";
+
+    public void init(String repoID, String path, boolean isdir, Account account) {
+        this.repoID = repoID;

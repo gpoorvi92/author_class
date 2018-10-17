@@ -1,0 +1,10 @@
+
+// 用于原始的libvlc封装
+public class LibVlcMediaPlayer extends AbsMediaPlayer implements
+        Handler.Callback {
+
+    public static final String TAG = LibVlcMediaPlayer.class.getSimpleName();
+
+    // audiotrack/opensles
+    public static final String[] sAout_AudioTrack_Native = new String[] { ":aout=android_audiotrack" };
+    public static final String[] sAout_AudioTrack_Java = new String[] { ":aout=audiotrack_java" };

@@ -1,0 +1,8 @@
+
+		SmokeTeacher st2 = new SmokeTeacher("´«ÖÇ¼±ÏÈ·æ",30);
+		System.out.println(st2.getName()+"---"+st2.getAge());
+		st2.sleep();
+		st2.study();
+		st2.smoke();
+	}
+}

@@ -1,0 +1,10 @@
+            {
+                ChatServerRpc.UpdateBulletinResp resp = RpcClientManager.getInstance().getChatServerRpcClientByZoneId(bulletin.getZoneId()).updateBulletin(req);
+                if (!resp.getSuccess())
+                {
+                    ret = false;
+                }
+            }
+            if (ret)
+            {
+                DaoManager.getLocalDao().saveOrUpdate(bulletin);

@@ -1,0 +1,10 @@
+        String[] lines = result.split("\\n");
+        for (String line : lines) {
+            int index = line.indexOf(":");
+            if (index > -1) {
+                String relation = line.substring(0, index).trim();
+                String[] entities = line.substring(index + 1).trim().split(",");
+                for (int i = 0, size = entities.length; i < size; i++) {
+                    entities[i] = entities[i].trim();
+                }
+                ret.put(relation, Arrays.asList(entities));

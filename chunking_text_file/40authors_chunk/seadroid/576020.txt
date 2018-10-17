@@ -1,0 +1,10 @@
+    private boolean isdir;
+
+    private DataManager dataManager;
+    private Account account;
+
+    public void init(String repoID, String path, boolean isdir, Account account) {
+        this.repoID = repoID;
+        this.path = path;
+        this.isdir = isdir;
+        this.account = account;

@@ -1,0 +1,5 @@
+        BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inSampleSize = 3;
+        return MediaStore.Images.Thumbnails.getThumbnail(context.getContentResolver(), this.id, MediaStore.Images.Thumbnails.MINI_KIND, options);
+    }
+}

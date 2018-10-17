@@ -1,0 +1,10 @@
+            + Pragma.BILI_HTTP_UA_BILIDROID };
+
+    private LibVLC mLibVLC;
+    private String[] mVlcPlayerOptions;
+
+    private SurfaceHolder mSurfaceHolder;
+
+    private LibVlcVideoSegmentListLoader mIndexResolver;
+    private String mRawVideoMrl;
+    private String mVideoMrl;

@@ -1,0 +1,10 @@
+     * @throws LibVlcException
+     */
+    public static LibVLC getInstance(Context context,
+            LibVlcLibraryLoader libLoader) throws LibVlcException {
+        synchronized (LibVLC.class) {
+            if (sInstance == null) {
+                /* First call */
+                loadLib(context, libLoader);
+                sInstance = new LibVLC();
+

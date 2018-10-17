@@ -1,0 +1,10 @@
+			if (need2RemoveSection) {
+				// 删除最老的存储子目录
+				String oldestSectionName = sectionNames.removeFirst();
+				this.removeSection(oldestSectionName);
+			}
+
+			return fileName;
+		}
+
+		public void decrementSectionFileCount(String sectionName) {

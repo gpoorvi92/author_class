@@ -1,0 +1,10 @@
+		}else if(score>=0 && score<60) {
+			System.out.println("不及格");
+		}else {
+			System.out.println("输入的成绩有误");
+		}
+		*/
+
+		//我们也可以先判断成绩是否有误
+		if(score<0 || score>100) {
+			System.out.println("输入的成绩有误");

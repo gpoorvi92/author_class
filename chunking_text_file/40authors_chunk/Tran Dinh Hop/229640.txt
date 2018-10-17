@@ -1,0 +1,10 @@
+	
+		mbtStudent = new JButton("Contact...");
+		mbtStudent.setFont (new Font("Arial", Font.BOLD, 14) );
+		mbtStudent.setMnemonic('C');
+	   mbtStudent.setToolTipText("Click here for getting my e-mail");
+	   mbtStudent.addActionListener(this);
+	
+		tfInput =  new JTextField (11);
+				
+		JPanel memMonitor = new JPanel();

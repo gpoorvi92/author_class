@@ -1,0 +1,10 @@
+	//	deliveryURL
+	////////////////////////////////////////////////
+
+	private String ifAddr = "";
+	
+	public void setInterfaceAddress(String addr)
+	{
+		ifAddr = addr;
+	}
+	

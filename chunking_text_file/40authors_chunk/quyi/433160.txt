@@ -1,0 +1,10 @@
+    this.cpu = other.cpu;
+    this.rss = other.rss;
+    this.vss = other.vss;
+  }
+
+  public SystemResources deepCopy() {
+    return new SystemResources(this);
+  }
+
+  @Override

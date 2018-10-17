@@ -1,0 +1,10 @@
+	public void fromJson(String json) throws JsonMappingException,
+			JsonGenerationException, IOException {
+		QueryAccountResponse r=(QueryAccountResponse)JsonPojoMapper.fromJson(json, QueryAccountResponse.class);
+		this.result=r.getResult();
+		this.setBody(r.getBody());
+	}
+	public static void main(String[] args){
+		LinkedList<AccountEntity> acctArray=new LinkedList<AccountEntity>();
+		for(int i=0;i<3;i++){
+			AccountEntity entity=new AccountEntity("hejing"+i,"ddddddd","");

@@ -1,0 +1,10 @@
+      {
+         Color c = colors.get(i);
+         Rectangle2D r = rects.get(i);
+         Element rectElement = doc.createElementNS(namespace, "rect");
+         rectElement.setAttribute("x", "" + r.getX());
+         rectElement.setAttribute("y", "" + r.getY());
+         rectElement.setAttribute("width", "" + r.getWidth());
+         rectElement.setAttribute("height", "" + r.getHeight());
+         rectElement.setAttribute("fill", colorToString(c));
+         svgElement.appendChild(rectElement);

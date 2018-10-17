@@ -1,0 +1,10 @@
+        StringBuilder sb = new StringBuilder();
+        for (Object o : elements) {
+            if (sb.length() > 0) {
+                if (separator != null) {
+                    sb.append(separator);
+                }
+            }
+            sb.append(o);
+        }
+        return sb.toString();

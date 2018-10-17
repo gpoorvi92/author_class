@@ -1,0 +1,10 @@
+		//&:Âß¼­Óë	ÓĞfalseÔòfalse
+		System.out.println(a>b & a>c); //false & false = false
+		System.out.println(a>b & a<c); //false & true = false
+		System.out.println(a<b & a>c); //true & false = false
+		System.out.println(a<b & a<c); //true & true = true
+		System.out.println("--------");
+
+		//&&:
+		System.out.println(a>b && a>c); //false && false = false
+		System.out.println(a>b && a<c); //false && true = false

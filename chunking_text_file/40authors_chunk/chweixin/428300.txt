@@ -1,0 +1,10 @@
+package ipower.wechat.message.req;
+
+import ipower.wechat.message.BaseMessage;
+/**
+ * 请求消息基类(普通用户->公众帐号)。
+ * @author yangyong.
+ * @since 2014-02-21.
+ * */
+public abstract class BaseReqMessage extends BaseMessage {
+	private static final long serialVersionUID = 1L;

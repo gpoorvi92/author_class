@@ -1,0 +1,10 @@
+			}
+		};
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(CAMERA_WIDTH, CAMERA_HEIGHT), this.mSmoothCamera);
+	}
+
+	@Override
+	public void onCreateResources() {
+		try {
+			this.mTexture = new ETC1Texture(this.getTextureManager(), TextureOptions.BILINEAR) {

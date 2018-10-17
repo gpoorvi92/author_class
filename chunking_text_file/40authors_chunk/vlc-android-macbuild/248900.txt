@@ -1,0 +1,10 @@
+
+        String[] moduleComponents = mrlComponents[0].split("/");
+        if (mrlComponents == null || mrlComponents.length < 1)
+            return mrl;
+
+        mrl.mScheme = moduleComponents[0];
+        if (TextUtils.isEmpty(mrl.mScheme)
+                || TextUtils.isEmpty(mrl.mSchemeSpecificPart))
+            return mrl;
+        mrl.mUrl = String.format("%s:%s", mrl.mScheme, mrl.mSchemeSpecificPart);

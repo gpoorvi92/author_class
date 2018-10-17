@@ -1,0 +1,10 @@
+			HTTPServer server = getHTTPServer(n);
+			server.addRequestListener(listener);
+		}
+	}		
+	
+	public HTTPServer getHTTPServer(int n)
+	{
+		return (HTTPServer)get(n);
+	}
+

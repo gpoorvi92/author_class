@@ -1,0 +1,10 @@
+
+        try {
+            ActivityInfo activityInfo = pkgManager.getActivityInfo(name, 0);
+            if (activityInfo == null)
+                return null;
+
+            return activityInfo;
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }

@@ -1,0 +1,10 @@
+	/** @return the unique instance of this class (create if necessary) */
+	public static PropType getInstance()
+	{
+		if( instance == null )
+			instance = new BooleanPropType();
+
+		return instance;
+	}
+
+	//-------------------------------------------------------------------------

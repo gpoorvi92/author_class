@@ -1,0 +1,10 @@
+  public int     getSCPresentSensor() throws JposException;
+  public int     getSCSlot() throws JposException;
+  public void    setSCSlot(int scSlot) throws JposException;
+  public boolean getTransactionInProgress() throws JposException;
+  public int     getTransmissionProtocol() throws JposException;
+
+  // Methods
+  public void    beginInsertion(int timeout) throws JposException;
+  public void    beginRemoval(int timeout) throws JposException;
+  public void    clearInput()  throws JposException;

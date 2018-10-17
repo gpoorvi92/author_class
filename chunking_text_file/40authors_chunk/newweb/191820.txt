@@ -1,0 +1,10 @@
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public User selectUserByName(String name) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_user where userName=?")
+				.addEntity(User.class);
+		return (User) query.setString(0, name).uniqueResult();

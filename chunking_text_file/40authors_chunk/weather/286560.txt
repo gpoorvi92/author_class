@@ -1,0 +1,6 @@
+            hash = digest.digest();
+        } catch (NoSuchAlgorithmException e) {
+        }
+        return hash;
+    }
+}

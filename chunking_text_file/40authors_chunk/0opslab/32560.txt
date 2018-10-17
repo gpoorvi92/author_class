@@ -1,0 +1,10 @@
+    this.m_value = value;
+  }
+
+  /**
+   * @see Object#equals(Object)
+   */
+  @SuppressWarnings("unchecked")
+  @Override
+  public boolean equals(final Object obj) {
+    if (this == obj) {

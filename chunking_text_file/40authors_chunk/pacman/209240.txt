@@ -1,0 +1,10 @@
+ * @date: 2014年12月30日 下午3:19:59
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;

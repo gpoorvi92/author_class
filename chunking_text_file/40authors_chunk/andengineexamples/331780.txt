@@ -1,0 +1,10 @@
+		player.registerEntityModifier(new LoopEntityModifier(new PathModifier(30, path, null, new IPathModifierListener() {
+			@Override
+			public void onPathStarted(final PathModifier pPathModifier, final IEntity pEntity) {
+
+			}
+
+			@Override
+			public void onPathWaypointStarted(final PathModifier pPathModifier, final IEntity pEntity, final int pWaypointIndex) {
+				switch(pWaypointIndex) {
+					case 0:

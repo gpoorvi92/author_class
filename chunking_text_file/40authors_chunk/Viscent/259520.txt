@@ -1,0 +1,10 @@
+
+/**
+ * 基于线程池的Pipe实现类。
+ * 
+ * @author Viscent Huang
+ *
+ * @param <IN>
+ *          输入类型
+ * @param <OUT>
+ *          输出类型

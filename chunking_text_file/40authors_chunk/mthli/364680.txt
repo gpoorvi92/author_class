@@ -1,0 +1,10 @@
+            public void run()
+            {
+               try
+               {
+                  ScriptEngineManager manager = new ScriptEngineManager();
+                  String language;
+                  if (args.length == 0) 
+                  {
+                     System.out.println("Available factories: ");
+                     for (ScriptEngineFactory factory : manager.getEngineFactories())

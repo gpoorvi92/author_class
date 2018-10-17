@@ -1,0 +1,10 @@
+    /**
+     * generates randomly N distinct integers from 0 to Max using a bitmap.
+     *
+     * @param N   Number of integers to generate
+     * @param Max Maximum value of the integers
+     * @return array containing random integers
+     */
+    int[] generateUniformBitmap(int N, int Max) {
+        if (N > Max)
+            throw new RuntimeException("not possible");

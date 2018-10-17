@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface ToneIndicatorService14 extends ToneIndicatorService13
+{
+  // Nothing new added for release 1.4

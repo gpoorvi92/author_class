@@ -1,0 +1,10 @@
+				if (noreMoreUploadsForThisClient) {
+					clientToFilesMap.remove(clientId);
+					clientsAndRequestsProcessingOperation.remove(clientId);
+				}
+			}
+		}
+
+	}
+
+

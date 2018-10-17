@@ -1,0 +1,5 @@
+    // "ResultCodeExtended" Property Constants for Cash Changer
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_ECHAN_OVERDISPENSE = 1 + JposConst.JPOSERREXT;
+}

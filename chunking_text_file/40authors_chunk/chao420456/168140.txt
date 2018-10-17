@@ -1,0 +1,10 @@
+ * 
+ * 字节输入流读取数据有两种方式:
+ * A:一次读取一个字节
+ * B:一次读取一个字节数组
+ * 
+ * 一次读取一个字节：public int read()
+ */
+public class FileInputStreamDemo {
+	public static void main(String[] args) throws IOException {
+		// 创建字节输入流对象

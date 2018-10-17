@@ -1,0 +1,10 @@
+								String tstrGL,
+								String tstrSL,
+								String tstrDept,
+								String tstrSubDept,
+								String tstrClass,
+								String tstrSubClass,
+								String tstrRef,
+								String tstrRemarks,
+								String tstrAmount) {
+	

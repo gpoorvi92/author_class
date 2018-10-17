@@ -1,0 +1,10 @@
+		if (tstrSQL.length()<1) {
+			return;
+		}
+
+		//Thread runner = new Thread() {
+
+		//	public void run() {
+
+				try {
+

@@ -1,0 +1,10 @@
+//****** dung de thu ************
+	public static void main(String[] args){
+	
+		JFrame frame=new JFrame();
+		OpenImage objTestDesk = new OpenImage(args[0]);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//frame.setTitle(getImageName());
+		frame.getContentPane().add(objTestDesk);
+		frame.pack();
+		frame.setSize(250,350);

@@ -1,0 +1,10 @@
+      if (!this.threadName.equals(that.threadName))
+        return false;
+    }
+
+    boolean this_present_checkTime = true && this.isSetCheckTime();
+    boolean that_present_checkTime = true && that.isSetCheckTime();
+    if (this_present_checkTime || that_present_checkTime) {
+      if (!(this_present_checkTime && that_present_checkTime))
+        return false;
+      if (!this.checkTime.equals(that.checkTime))

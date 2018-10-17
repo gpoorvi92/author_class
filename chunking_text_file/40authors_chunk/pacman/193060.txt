@@ -1,0 +1,10 @@
+
+	@RequestMapping(value="login.go", method=RequestMethod.POST)
+	private ModelAndView login(String user, String pass) {
+
+		if ("dellinger".equalsIgnoreCase(user)
+				&& "pwd123".equals(pass))
+		{
+			getSession().setAttribute(SESSION_KEY_AUTH, "1");
+			return new ModelAndView("account/home");
+		}

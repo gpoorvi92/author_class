@@ -1,0 +1,10 @@
+        if (str != null) {
+            // 用旧的字符编码解码字符串。解码可能会出现异常。
+            byte[] bs = str.getBytes(oldCharset);
+            // 用新的字符编码生成字符串
+            return new String(bs, newCharset);
+        }
+        return null;
+    }
+
+    /**

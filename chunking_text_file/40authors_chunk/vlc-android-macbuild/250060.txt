@@ -1,0 +1,10 @@
+            return;
+
+        mSegmentPlayer.setScreenOnWhilePlaying(screenOn);
+    }
+
+    @Override
+    public void enableLog(boolean enable) {
+        // not support
+    }
+

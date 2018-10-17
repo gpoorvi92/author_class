@@ -1,0 +1,10 @@
+		if (StringUtils.isEmpty(url)) {
+			throw new InvalidParameterException("url");
+		}
+		
+		XmlSocket socket = new XmlSocket(url);
+		Document doc = null;
+		try {
+			doc = socket.connect();
+		} catch (Exception ex) {
+			throw new DocumentException("lesson xml url unavailable:" + url);

@@ -1,0 +1,10 @@
+
+    @RequestMapping("/list")
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/order/list");
+        vo.setMerchantId(getMerchant().getId());
+        List<OrderDetail> orderList = orderService.search(vo);
+        modelAndView.addObject("orderList", orderList);
+        modelAndView.addObject("orderStatus", OrderStatus.values());
+        modelAndView.addObject("vo", vo);
+        modelAndView.addObject("todayNumber", saleRecordService.countNumber(vo, "4"));

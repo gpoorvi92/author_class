@@ -1,0 +1,10 @@
+            struct.plotsStatus.put(_key61, _val62);
+          }
+        }
+        struct.setPlotsStatusIsSet(true);
+        BitSet incoming = iprot.readBitSet(4);
+        if (incoming.get(0)) {
+          {
+            org.apache.thrift.protocol.TList _list63 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.MAP, iprot.readI32());
+            struct.usedPermissions = new ArrayList<Map<String,com.nercis.isscp.idl.APICheck>>(_list63.size);
+            for (int _i64 = 0; _i64 < _list63.size; ++_i64)

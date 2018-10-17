@@ -1,0 +1,10 @@
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetApp_id()).compareTo(other.isSetApp_id());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetApp_id()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.app_id, other.app_id);
+      if (lastComparison != 0) {
+        return lastComparison;

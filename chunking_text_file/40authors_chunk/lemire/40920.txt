@@ -1,0 +1,10 @@
+                --this.hammingWeight;
+            }
+        }
+    }
+
+    /**
+     * @param pos position where a literal was removed
+     */
+    public void clearLiteral(final int pos) {
+        if (this.litwlist.get(pos)) {

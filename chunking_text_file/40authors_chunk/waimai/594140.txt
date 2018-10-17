@@ -1,0 +1,10 @@
+
+    @RequestMapping("/add")
+    public ModelAndView add(@RequestParam(value = "imageFile") MultipartFile image, Goods goods) {
+        try {
+            goods.setMerchantId(getMerchant().getId());
+            goodsService.add(image, goods);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("发布菜品成功", "goods_list");

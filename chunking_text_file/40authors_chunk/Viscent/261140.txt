@@ -1,0 +1,10 @@
+			    return t;
+		    }
+
+	    }, new ThreadPoolExecutor.DiscardPolicy());
+
+	public static void main(String[] args) {
+		SmsVerficationCodeSender client = new SmsVerficationCodeSender();
+
+		client.sendVerificationSms("18912345678");
+		client.sendVerificationSms("18712345679");

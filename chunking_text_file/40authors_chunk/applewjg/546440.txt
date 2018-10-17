@@ -1,0 +1,10 @@
+    }
+    public int largestRectangleArea(int[] height) {
+        int res = 0;
+        Stack<Integer> stk = new Stack<Integer>();
+        int i = 0;
+        while (i < height.length) {
+            if (stk.isEmpty() == true || (height[i] >= height[stk.peek()])) {
+                stk.push(i++);
+            } else {
+                int idx = stk.pop();

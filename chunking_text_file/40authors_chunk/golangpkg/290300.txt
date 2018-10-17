@@ -1,0 +1,10 @@
+	
+	@Autowired
+	private ProgressCalculator progressCalculator;
+
+	/** Internal map. */
+	Map<UUID, FileProgressStatus> fileToProgressInfo = Maps.newHashMap();
+	
+	/** Simple advertiser. */
+	ProgressManagerAdvertiser progressManagerAdvertiser = new ProgressManagerAdvertiser();
+	

@@ -1,0 +1,10 @@
+    void andLastWord(int mask);
+
+    /**
+     * Replaces the last word position in the buffer
+     * with its bitwise-or with the given mask.
+     * @param mask
+     */
+    void orLastWord(int mask);
+
+    /**

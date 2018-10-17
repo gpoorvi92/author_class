@@ -1,0 +1,10 @@
+		return thumbMediaId;
+	}
+	/**
+	 * 设置视频消息缩略图的媒体id。
+	 * @param thumbMediaId
+	 * 	视频消息缩略图的媒体id。
+	 * */
+	public void setThumbMediaId(String thumbMediaId) {
+		this.thumbMediaId = thumbMediaId;
+	}

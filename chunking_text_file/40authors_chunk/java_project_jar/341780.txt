@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io.comparator:
+//            AbstractFileComparator
+
+public class CompositeFileComparator extends AbstractFileComparator
+    implements Serializable
+{
+
+    public transient CompositeFileComparator(Comparator delegates[])
+    {

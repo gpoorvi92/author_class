@@ -1,0 +1,10 @@
+			info.setAccountName(data.getAccount().getName());
+		}
+		return info;
+	}
+
+	@Override
+	protected Long total(WeChatUserInfo info) {
+		return this.weChatUserDao.total(info);
+	}
+

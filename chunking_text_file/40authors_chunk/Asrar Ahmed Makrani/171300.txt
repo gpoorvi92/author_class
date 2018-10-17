@@ -1,0 +1,10 @@
+            	authorsArea.setText("");
+            	subjectArea.setText("");	
+            	
+            	book_no_text.setEditable(true);
+            	book_title_text.setEditable(true);
+ 				isbn_text.setEditable(true);
+ 				class_text.setEditable(true);
+ 				publisher_text.setEditable(true);
+ 				year_text.setEditable(true);
+ 				pages_text.setEditable(true);

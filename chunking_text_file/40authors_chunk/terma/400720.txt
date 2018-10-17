@@ -1,0 +1,10 @@
+                LOGGER.log(Level.SEVERE, "Can't init server connection!", exception);
+        }
+    }
+
+    @Override
+    public void process(SelectionKey key) {
+        if (key.isValid() && key.isAcceptable()) {
+            try {
+                final ServerSocketChannel server = (ServerSocketChannel) key.channel();
+

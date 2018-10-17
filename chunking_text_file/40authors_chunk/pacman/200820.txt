@@ -1,0 +1,10 @@
+        final InputStream is = process.getInputStream();
+        final InputStream es = process.getErrorStream();
+        
+        new Thread() {
+        	
+        	public void run() {
+        		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+        		String line = null;
+        		try {
+					while((line = reader.readLine()) != null) {

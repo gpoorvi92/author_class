@@ -1,0 +1,10 @@
+    void addCollectionCount(Integer id);
+
+    void subCollectionCount(Integer id);
+
+    void subRemarkCount(Integer id);
+
+    List<Goods> findAll();
+
+    int getTotalCount(BaseConditionVO vo);
+}

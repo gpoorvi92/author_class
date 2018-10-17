@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 5/3/16.
+ */
+public class MessageEntity {
+
+    public enum Type {
+        mention, hashtag, bot_command, url, email, bold, italic, code, pre, text_link, text_mention;

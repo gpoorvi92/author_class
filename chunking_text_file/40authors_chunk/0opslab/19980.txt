@@ -1,0 +1,10 @@
+        }
+
+    }
+    @Test
+    public void testProtectedMetod()  {
+        System.out.println("=============获取自定义的Protected类型的方法==========");
+        String[] methods = ClassUtil.getProtectedMethod("com.opslab.util.bean.BeanUtil", false);
+        for (String m : methods) {
+            System.out.println(m);
+        }

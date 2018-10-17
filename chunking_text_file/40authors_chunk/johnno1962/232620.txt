@@ -1,0 +1,10 @@
+    }
+
+    /// public void javax.swing.event.InternalFrameAdapter.internalFrameDeactivated(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameDeactivated( javax.swing.event.InternalFrameEvent e );
+
+    boolean entered_internalFrameDeactivated_6;
+
+    public void internalFrameDeactivated( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameDeactivated_6 ) {

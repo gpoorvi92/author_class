@@ -1,0 +1,10 @@
+        }
+        this.usedPermissions = __this__usedPermissions;
+      }
+      if (other.isSetStcRD()) {
+        this.stcRD = new com.nercis.isscp.idl.StaticCheckResultData(other.stcRD);
+      }
+      if (other.isSetDycRD()) {
+        this.dycRD = new com.nercis.isscp.idl.DynamicCheckResultData(other.dycRD);
+      }
+      if (other.isSetVirRD()) {

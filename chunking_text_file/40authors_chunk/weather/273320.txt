@@ -1,0 +1,10 @@
+
+    /**
+     * 切割字符串到某个字符串为止
+     *
+     * @param string
+     * @param substring
+     * @return
+     */
+    public static String cutToIndexOf(String string, String substring) {
+        int i = string.indexOf(substring);

@@ -1,0 +1,10 @@
+					R.drawable.webviewtab_refresh_normal));
+		} else {
+			refreshBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.webviewtab_refresh_disable));
+		}
+	}
+
+	public void setGoBackState(boolean flag) {
+		this.goBackState = flag;
+		if (flag) {

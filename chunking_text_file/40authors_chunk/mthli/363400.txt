@@ -1,0 +1,10 @@
+         flavors[0] = new DataFlavor(mimeType);
+         flavors[1] = DataFlavor.stringFlavor;
+         return flavors;
+      }
+      catch (ClassNotFoundException e)
+      {
+         return new DataFlavor[0];
+      }
+   }
+

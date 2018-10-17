@@ -1,0 +1,10 @@
+		if (!PushMessageReceiver.hasBind(this)) {
+			Log.d(SystemUtil.LOG_MSG, "has no bind");
+			PushManager.startWork(getApplicationContext(),
+					PushConstants.LOGIN_TYPE_API_KEY,
+					ConstVariables.BAIDU_API_KEY);
+			PushManager.enableLbs(getApplicationContext());
+
+		} else {
+			Log.d(SystemUtil.LOG_MSG, "has bind");
+		}

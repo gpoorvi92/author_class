@@ -1,0 +1,10 @@
+				return mapMatrixForMeetable[row][col-1];
+			}
+			else if(mapMatrixForMeetable[row][col+1] != null){//右边检测到了可遇物
+				return mapMatrixForMeetable[row][col+1];
+			}
+			break;
+		}
+		return null;
+	}
+}

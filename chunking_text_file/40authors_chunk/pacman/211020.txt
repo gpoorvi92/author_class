@@ -1,0 +1,10 @@
+	 * The object's string representation method.
+	 * @return TaskModel string representation
+	 */
+	@Override
+	public String toString() {
+		String content = "";
+		content += "[ tid = " + this.tid;
+		content += ", cid = " + this.cid;
+		content += ", lid = " + this.lid;
+		content += ", file = " + this.file;

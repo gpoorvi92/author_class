@@ -1,0 +1,10 @@
+                     }
+                  }
+                  else text = Arrays.toString((Object[]) value);
+               }
+               else text = value.toString();
+               valueLabel.setText(text);
+            }
+         });
+   }
+}

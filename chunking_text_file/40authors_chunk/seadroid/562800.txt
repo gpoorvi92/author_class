@@ -1,0 +1,10 @@
+    public long getItemId(int position) {
+        return position;
+    }
+
+    public void clear() {
+        items.clear();
+    }
+
+    private Viewholder viewHolder;
+    

@@ -1,0 +1,10 @@
+		String value = prop.getProperty("count");
+		// 把字符串转成int类型的值
+		int count = Integer.parseInt(value);
+
+		if (count >= 5) {
+			System.out.println("亲，游戏试玩已结束，请找班长付费。卡号是:10086");
+		} else {
+			GuessNumberGame.start();
+			count++;
+			// 修改集合

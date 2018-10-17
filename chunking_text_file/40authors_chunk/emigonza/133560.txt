@@ -1,0 +1,10 @@
+    public static final int PCRW_CS_ANSI          = 999;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "CardState" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_STATE_NOCARD     = 1;
+    public static final int PCRW_STATE_REMAINING  = 2;
+    public static final int PCRW_STATE_INRW       = 3;

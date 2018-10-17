@@ -1,0 +1,10 @@
+
+	/**
+	 * Specifies the amount of bytes that can be uploaded for an iteration of the refill process
+	 * of {@link RateLimiter}
+	 * */
+	private long downloadAllowanceForIteration;
+	private Object downloadAllowanceForIterationLock = new Object();
+
+
+

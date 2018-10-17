@@ -1,0 +1,10 @@
+		double minutes = Math.floor(divisor_for_minutes / 60);
+
+		double divisor_for_seconds = divisor_for_minutes % 60;
+		double seconds = Math.ceil(divisor_for_seconds);
+
+		String returned = "";
+		boolean displaySeconds = true;
+		if (hours > 0) {
+			returned += ((int)hours) + "h";
+			displaySeconds = false;

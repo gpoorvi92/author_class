@@ -1,0 +1,10 @@
+    {
+      EventSetDescriptor[] events =
+      {
+        makeEvent("Data"),
+        makeEvent("DirectIO"),
+        makeEvent("StatusUpdate")
+      };
+
+      return events;
+    }

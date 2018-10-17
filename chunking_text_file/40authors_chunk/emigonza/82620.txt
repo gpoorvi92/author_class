@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapContinuousRead"),
+        makeProperty("CapDisableTag"),
+        makeProperty("CapLockTag"),
+        makeProperty("CapMultipleProtocols"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapReadTimer"),
+        makeProperty("CapRealTimeData"),
+        makeProperty("CapStatisticsReporting"),

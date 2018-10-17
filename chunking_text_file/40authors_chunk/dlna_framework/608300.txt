@@ -1,0 +1,10 @@
+	
+	/**
+	 * 
+	 * @param ip The IPv4 address used as destination address for Multicast comunication
+	 * @since 1.8
+	 */
+	public void setMulticastIPv4Address(String ip){
+		this.ssdpMulticastIPv4=ip;
+	}
+

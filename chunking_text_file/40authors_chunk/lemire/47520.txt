@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Checks for previous.
+     *
+     * @return true, if successful
+     */
+    public boolean hasPrevious() {
+        return !this.positions.isEmpty();
+    }

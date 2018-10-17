@@ -1,0 +1,10 @@
+
+        SslFailureReason reason = SSLTrustManager.instance().getFailureReason(account);
+        X509Certificate cert = null;
+        try {
+            cert = SSLTrustManager.instance().getCertificateInfo(account);
+        } catch (CertificateParsingException e) {
+            e.printStackTrace();
+        }
+        String msg = "";
+        if (reason == SslFailureReason.CERT_NOT_TRUSTED) {

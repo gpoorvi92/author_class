@@ -1,0 +1,7 @@
+     * 清空表情数据
+     */
+    public void clearData() {
+        expressionNameList1.clear();
+        lstOfTxtEmotions1.clear();
+    }
+}

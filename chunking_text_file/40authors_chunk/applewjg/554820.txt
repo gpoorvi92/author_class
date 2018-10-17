@@ -1,0 +1,10 @@
+            char[] tmp = strs[i].toCharArray();
+            Arrays.sort(tmp);
+            String s = String.valueOf(tmp);
+            if(group.containsKey(s)) 
+                (group.get(s)).add(strs[i]);    
+            else {
+                ArrayList<String> t = new ArrayList<String>();
+                t.add(strs[i]);
+                group.put(s,t); 
+            }

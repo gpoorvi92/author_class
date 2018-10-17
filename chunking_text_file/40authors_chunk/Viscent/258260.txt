@@ -1,0 +1,10 @@
+ */
+public class RoundRobinSubTaskDispatchStrategy<T, V> implements
+    SubTaskDispatchStrategy<T, V> {
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public Iterator<Future<V>> dispatch(Set<? extends SlaveSpec<T, V>> slaves,
+	    TaskDivideStrategy<T> taskDivideStrategy) throws InterruptedException {
+		final List<Future<V>> subResults = new LinkedList<Future<V>>();
+		T subTask;

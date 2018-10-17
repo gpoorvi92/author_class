@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        return true;
+    }
+
+    protected void handleDirectoryStart(File file, int i, Collection collection)
+        throws IOException
+    {
+    }
+

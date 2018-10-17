@@ -1,0 +1,10 @@
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Venue venue = (Venue) o;
+
+        if (location != null ? !location.equals(venue.location) : venue.location != null) return false;
+        if (title != null ? !title.equals(venue.title) : venue.title != null) return false;
+        if (address != null ? !address.equals(venue.address) : venue.address != null) return false;
+        return foursquare_id != null ? foursquare_id.equals(venue.foursquare_id) : venue.foursquare_id == null;

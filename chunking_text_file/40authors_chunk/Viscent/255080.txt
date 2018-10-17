@@ -1,0 +1,10 @@
+		    .availableProcessors() * 2, 60, TimeUnit.MINUTES,
+		    new SynchronousQueue<Runnable>(),
+		    new ThreadPoolExecutor.CallerRunsPolicy());
+
+		final SimplePipeline<String, String> pipeline = new SimplePipeline<String, String>();
+		Pipe<String, String> pipe = new AbstractPipe<String, String>() {
+
+			@Override
+			protected String doProcess(String input) throws PipeException {
+				String result = input + "->[pipe1," + Thread.currentThread().getName()

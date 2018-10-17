@@ -1,0 +1,10 @@
+     */
+    public boolean equals(Object obj) {
+        return delegate.equals(obj);
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see java.lang.Object#hashCode()
+     */

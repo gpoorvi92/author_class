@@ -1,0 +1,10 @@
+
+	@SuppressLint("HandlerLeak")
+	private Handler handler = new Handler();
+
+	private Runnable runThread = new Runnable() {
+
+		@Override
+		public void run() {
+			if (PushMessageReceiver.hasBind(LogoActivity.this)) {
+				AbstractCommonData loginPara = GlobalVariables

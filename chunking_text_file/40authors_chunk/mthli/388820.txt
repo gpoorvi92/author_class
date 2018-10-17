@@ -1,0 +1,10 @@
+      chooser.setCurrentDirectory(new File("."));
+
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+      add(new JScrollPane(textArea));
+
+      statusLine = new JLabel(" ");
+      add(statusLine, BorderLayout.SOUTH);
+
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);

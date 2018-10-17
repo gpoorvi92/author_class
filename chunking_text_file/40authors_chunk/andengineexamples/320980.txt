@@ -1,0 +1,7 @@
+		BitmapTextureAtlasTextureRegionFactory.createTiledFromAsset(this.mBitmapTextureAtlas, this, this.mToggleBox ? "face_box_tiled.png" : "face_circle_tiled.png", 0, 0, 2, 1);
+	}
+
+	// ===========================================================
+	// Inner and Anonymous Classes
+	// ===========================================================
+}

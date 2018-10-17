@@ -1,0 +1,10 @@
+	}
+
+
+	public class ColumnListener extends MouseAdapter {
+	
+		protected JTable mtblTable;
+	
+		public ColumnListener(JTable ttblTable) {
+			mtblTable = ttblTable;
+		}

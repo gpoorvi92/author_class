@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void com.apple.eawt.UserSessionListener.userSessionDeactivated(com.apple.eawt.AppEvent$UserSessionEvent)
+
+    public native void __userSessionDeactivated( com.apple.eawt.AppEvent.UserSessionEvent arg0 );
+
+    public void userSessionDeactivated( com.apple.eawt.AppEvent.UserSessionEvent arg0 ) {
+        __userSessionDeactivated( arg0 );
+    }

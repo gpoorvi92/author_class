@@ -1,0 +1,10 @@
+public class UploadProcessingOperationManagerTest {
+
+	@Autowired
+	UploadProcessingOperationManager uploadProcessingOperationManager;
+
+	@Autowired
+	ClientToFilesMap clientToFilesMap;
+
+
+	@Before

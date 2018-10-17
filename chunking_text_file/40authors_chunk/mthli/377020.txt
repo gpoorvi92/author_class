@@ -1,0 +1,10 @@
+
+   // this step is necessary to make the removeMode property transient
+   static
+   {
+      try
+      {
+         BeanInfo info = Introspector.getBeanInfo(DamageReport.class);
+         for (PropertyDescriptor desc : info.getPropertyDescriptors())
+            if (desc.getName().equals("removeMode")) desc.setValue("transient", Boolean.TRUE);
+      }

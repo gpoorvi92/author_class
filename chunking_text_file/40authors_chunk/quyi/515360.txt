@@ -1,0 +1,10 @@
+    }
+
+    public reportTaskManagerConfig_result() {
+    }
+
+    public reportTaskManagerConfig_result(
+      String success,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {
+      this();

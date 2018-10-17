@@ -1,0 +1,10 @@
+			return format(size / 1048576f) + "MB";
+		}
+		else if (size < 1099511627776l) {
+			return format(size / 1073741824f) + "GB";
+		}
+		else if (size < 1125899906842624l) {
+			return format(size / 1099511627776f) + "TB";
+		}
+		return null;
+	}

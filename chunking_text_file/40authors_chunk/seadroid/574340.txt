@@ -1,0 +1,10 @@
+        public TransferTabsAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        private DownloadTaskFragment downloadsFragment = null;
+        private UploadTaskFragment uploadsFragment = null;
+
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {

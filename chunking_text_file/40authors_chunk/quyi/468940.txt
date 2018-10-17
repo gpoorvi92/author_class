@@ -1,0 +1,10 @@
+            break;
+          case 8: // RULE_DESCRIPTION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.ruleDescription = iprot.readString();
+              struct.setRuleDescriptionIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          default:

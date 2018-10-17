@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * Stas Parshin
+ * 16 October 2015
+ */
+public class File {
+
+    private String file_id;
+    private Integer file_size;

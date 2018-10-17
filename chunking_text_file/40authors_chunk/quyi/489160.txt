@@ -1,0 +1,10 @@
+      }
+    }
+
+    public int getFunctionStatusSize() {
+      return (this.functionStatus == null) ? 0 : this.functionStatus.size();
+    }
+
+    public void putToFunctionStatus(String key, com.nercis.isscp.idl.CheckResultStatus val) {
+      if (this.functionStatus == null) {
+        this.functionStatus = new HashMap<String,com.nercis.isscp.idl.CheckResultStatus>();

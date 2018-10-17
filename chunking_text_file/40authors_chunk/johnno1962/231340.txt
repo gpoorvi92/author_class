@@ -1,0 +1,10 @@
+    public static boolean boolean2dArrayFieldStatic[][];
+    public boolean boolean2dArrayField[][];
+
+    public static boolean[][] boolean2dArrayMethodStatic( boolean arg[][] ) {
+        return arg;
+    }
+
+    public boolean[][] boolean2dArrayMethod( boolean arg[][] ) {
+        return arg;
+    }

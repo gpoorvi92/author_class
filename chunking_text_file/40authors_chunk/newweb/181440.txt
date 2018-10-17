@@ -1,0 +1,10 @@
+	@JoinColumn(name="bxgID")
+	public Bxg getBxg() {
+		return bxg;
+	}
+	public void setBxg(Bxg bxg) {
+		this.bxg = bxg;
+	}
+	
+	@Column
+	public double getCount() {

@@ -1,0 +1,10 @@
+     * Forces this dispatcher to quit immediately.  If any requests are still in
+     * the queue, they are not guaranteed to be processed.
+     */
+    public void quit() {
+        mQuit = true;
+        interrupt();
+    }
+
+    @Override
+    public void run() {

@@ -1,0 +1,10 @@
+
+	/**
+	 * Retrieves the entity from cache using a client identifier.
+	 * 
+	 * @param clientIdentifier
+	 * @return
+	 */
+	public T getEntityIfPresent(UUID clientIdentifier) {
+		return staticStateManager.cache.getIfPresent(clientIdentifier);
+	}

@@ -1,0 +1,10 @@
+
+@EActivity(R.layout.act_guide)
+public class GuideActivity extends Activity {
+
+	@ViewById(R.id.guide_activity_viewpager)
+	ViewPager mPager;
+
+	@ViewById(R.id.guide_activity_btn)
+	ImageButton mButton;
+

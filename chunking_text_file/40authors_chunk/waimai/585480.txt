@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public String checkStoreName(String storeName) {
+        if (merchantMapper.countByStoreName(storeName) > 0 || storeName.contains("外卖联盟")) {
+            return "false";
+        } else {
+            return "true";
+        }

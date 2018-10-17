@@ -1,0 +1,10 @@
+    public int hashCode() {
+        return delegate.hashCode();
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see java.lang.Object#toString()
+     */
+    public String toString() {

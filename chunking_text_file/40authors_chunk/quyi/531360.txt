@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetUrl()) {
+        oprot.writeString(struct.url);
+      }
+      if (struct.isSetApp_size()) {
+        oprot.writeI32(struct.app_size);
+      }
+      if (struct.isSetMinsdkversion()) {
+        oprot.writeString(struct.minsdkversion);
+      }

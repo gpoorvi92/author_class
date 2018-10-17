@@ -1,0 +1,10 @@
+
+	/** Operation for clients and requests. */
+	final ConcurrentMap<UUID, UploadProcessingOperation> clientsAndRequestsProcessingOperation = Maps.newConcurrentMap();
+
+	/** Operation for master. */
+	final UploadProcessingOperation masterProcessingOperation = new UploadProcessingOperation();
+
+	
+	public Map<UUID, UploadProcessingOperation> getClientsAndRequestsProcessingOperation() {
+		return clientsAndRequestsProcessingOperation;

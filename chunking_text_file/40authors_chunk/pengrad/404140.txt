@@ -1,0 +1,10 @@
+
+    public Integer height() {
+        return height;
+    }
+
+    public Integer fileSize() {
+        return file_size;
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+		String name = request.getParameter("userName");
+		String password = request.getParameter("password");
+		String loginKeeping = request.getParameter("loginKeeping");	//cookie
+		
+		User user = userService.findUserByName(name);
+		if(user == null || !user.isValid()){	//如果用户不存在
+			return "userIsNotExist";
+		}
+		
+		if(user.getType().equals("system")){

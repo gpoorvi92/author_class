@@ -1,0 +1,10 @@
+				txtMemberName.requestFocus ();
+			}
+			else if (txtMemberAddress.getText().equals ("")) {
+				JOptionPane.showMessageDialog (this, "Member's Address not Provided.");
+				txtMemberAddress.requestFocus ();
+			}
+			else {	//If All Information Provided then.
+				String entryDate = cboMonth.getSelectedItem () + ", " + cboDate.getSelectedItem () + ", " + 
+					cboYear.getSelectedItem ();
+

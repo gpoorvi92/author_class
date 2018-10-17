@@ -1,0 +1,10 @@
+
+	public void setBody(AccountNameBody body) {
+		this.body = body;
+	}
+
+
+	@Override
+	public String toJson() throws JsonMappingException,
+			JsonGenerationException, IOException {
+		return JsonPojoMapper.toJson(this,true);

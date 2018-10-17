@@ -1,0 +1,10 @@
+        bundle.putParcelableArrayList(BUNDLE_VOD_LIST, mVodList);
+
+        dest.writeBundle(bundle);
+    }
+
+    private VodIndex(Parcel in) {
+        Bundle bundle = in.readBundle(VodIndex.class.getClassLoader());
+
+        mVodTag = bundle.getString(BUNDLE_VOD_TAG);
+        mVodList = bundle.getParcelableArrayList(BUNDLE_VOD_LIST);

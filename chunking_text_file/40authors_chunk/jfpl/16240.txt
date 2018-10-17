@@ -1,0 +1,10 @@
+		// wv.stopLoading();
+		// wv.pauseTimers();
+		wv.clearCache(true);
+		// wv.clearView();
+		// wv.clearFormData();
+		// wv.clearHistory();
+		// wv.clearMatches();
+		// wv.destroy();
+	}
+}

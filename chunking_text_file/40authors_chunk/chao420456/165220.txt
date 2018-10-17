@@ -1,0 +1,10 @@
+		sgyy.put("吕布", "貂蝉");
+
+		// 创建元素
+		HashMap<String, String> sdxl = new HashMap<String, String>();
+		sdxl.put("郭靖", "黄蓉");
+		sdxl.put("杨过", "小龙女");
+
+		// 创建元素
+		HashMap<String, String> xajh = new HashMap<String, String>();
+		xajh.put("令狐冲", "任盈盈");

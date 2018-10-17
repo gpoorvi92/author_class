@@ -1,0 +1,10 @@
+			// 返回联想词信息搜索结果
+		}
+
+		@Override
+		public void onGetShareUrlResult(MKShareUrlResult result, int type,
+				int error) {
+			// 在此处理短串请求返回结果.
+		}
+
+		@Override

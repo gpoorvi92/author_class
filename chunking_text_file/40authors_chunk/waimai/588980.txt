@@ -1,0 +1,10 @@
+public interface GoodsMapper extends BaseMapper<Goods, Integer> {
+    // 查询
+    List<Goods> findPageBreakByCondition(BaseConditionVO vo, RowBounds rb);
+
+    void deleteByIds(Integer[] ids);
+
+    void up(Integer[] ids);
+    void down(Integer[] ids);
+    Goods findNameAndNumberById(Integer id);
+

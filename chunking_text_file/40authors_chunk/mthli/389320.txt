@@ -1,0 +1,10 @@
+      // populate tool bar
+
+      JToolBar bar = new JToolBar();
+      bar.add(blueAction);
+      bar.add(yellowAction);
+      bar.add(redAction);
+      bar.addSeparator();
+      bar.add(exitAction);
+      add(bar, BorderLayout.NORTH);
+

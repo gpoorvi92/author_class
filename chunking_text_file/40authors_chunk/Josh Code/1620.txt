@@ -1,0 +1,10 @@
+
+package fileIO;
+
+import java.io.*;
+
+/** Little Endian Data Input Stream is used mainly for compatability with software written in other languages such as c++.
+ * This class is not safe for multithreaded access.
+ */
+public class LEDataInputStream
+{

@@ -1,0 +1,10 @@
+    public void setZoneName(String zoneName)
+    {
+        this.zoneName = zoneName;
+    }
+    public static OnlineInfoEntity fromDTO(RpcDto.OnlineInfoDTO dto)
+    {
+        OnlineInfoEntity ret = new OnlineInfoEntity();
+        ret.zoneId = dto.getZoneId();
+        ret.num = dto.getNum();
+        ret.zoneName = dto.getZoneName();

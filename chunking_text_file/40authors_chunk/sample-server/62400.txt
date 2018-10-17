@@ -1,0 +1,10 @@
+@Controller
+@RequestMapping(value = "/notice")
+public class NoticeController
+{
+    private static final Logger log = LoggerFactory.getLogger(NoticeController.class);
+    @ACL(limit = Limit.NOTICE)
+    @RequestMapping(value = "/")
+    public void notice(Map<String, Object> map)
+    {
+        List<NoticeEntity> list = DaoManager.getLocalDao().selectList(NoticeEntity.class);

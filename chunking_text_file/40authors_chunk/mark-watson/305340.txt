@@ -1,0 +1,10 @@
+        int height = this.getHeight();
+        System.out.println("height=" + height);
+        float min = 99999999.9f;
+        float max = -min;
+        int maxindex = 0;
+        float maxval = 0.0f;
+        for (int i = 0; i < data1.length; i++) { // assume length of data1 and data2 are the same
+            if (min > data1[i]) min = data1[i];
+            if (max < data1[i]) max = data1[i];
+            if (min > data2[i]) min = data2[i];

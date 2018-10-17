@@ -1,0 +1,10 @@
+		String err,
+		boolean free) {
+		
+		super();
+		this.tid = tid;
+		this.cid = cid;
+		this.lid = lid;
+		this.file = file;
+		this.begin = begin;
+		this.end = end;

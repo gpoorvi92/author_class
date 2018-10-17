@@ -1,0 +1,10 @@
+		return query.setString(0, type).list();
+	}
+
+	@Override
+	public MaterialBrand selectMaterialBrandById(int iD) {
+		return (MaterialBrand) sessionFactory.getCurrentSession().get(MaterialBrand.class, iD);
+	}
+
+	@Override
+	public TypeForBrand selectTypeForBrandById(int iD) {

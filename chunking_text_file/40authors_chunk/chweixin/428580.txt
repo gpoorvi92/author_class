@@ -1,0 +1,10 @@
+		this.createTime = new Date();
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(this.createTime);
+		cal.add(Calendar.SECOND, 7200);
+		this.failureTime = cal.getTime();
+	}
+	/**
+	 * 获取票据ID。
+	 * @return 票据ID。
+	 * */

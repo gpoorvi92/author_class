@@ -1,0 +1,10 @@
+        bulletin.setLinkId(Integer.valueOf(linkId));
+        bulletin.setSortFlag(Integer.valueOf(sortFlag));
+        bulletin.setTitle(title);
+        bulletin.setContent(content);
+        bulletin.setModifyTime(new Date());
+        if (BulletinService.add(bulletin))
+        {
+            resultCode.setMsg("success");
+        }
+        else

@@ -1,0 +1,10 @@
+   }
+
+   public ErrorHandler getErrorHandler()
+   {
+      return null;
+   }
+
+   public void setDTDHandler(DTDHandler handler)
+   {
+   }

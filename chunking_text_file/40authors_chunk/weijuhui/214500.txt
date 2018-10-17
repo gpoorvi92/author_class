@@ -1,0 +1,10 @@
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import com.weparty.R.layout;
+
+public final class MainActivity_
+    extends MainActivity
+{
+
+

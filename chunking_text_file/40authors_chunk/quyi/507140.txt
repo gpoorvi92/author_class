@@ -1,0 +1,10 @@
+      return _fieldName;
+    }
+  }
+
+  // isset id assignments
+  private _Fields optionals[] = {_Fields.USED_PERMISSIONS,_Fields.FUNCTION_STATUS};
+  public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;
+  static {
+    Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> tmpMap = new EnumMap<_Fields, org.apache.thrift.meta_data.FieldMetaData>(_Fields.class);
+    tmpMap.put(_Fields.MISSION_ID, new org.apache.thrift.meta_data.FieldMetaData("missionId", org.apache.thrift.TFieldRequirementType.REQUIRED, 

@@ -1,0 +1,10 @@
+public class WeChatDefaultReply implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private WeChatAccount account;
+	private String id,content;
+	private Integer status;
+	private Date createTime;
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatDefaultReply(){

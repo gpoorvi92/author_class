@@ -1,0 +1,10 @@
+
+			@Override
+			public void onClickedPopup(int arg0) {
+				popupOverlay.hidePop();
+			}
+		});
+		// mapView.getOverlays().add(popupOverlay);
+
+		locationClient = new LocationClient(getApplicationContext());
+		locationClient.registerLocationListener(this);

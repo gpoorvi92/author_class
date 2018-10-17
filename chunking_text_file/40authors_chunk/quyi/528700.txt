@@ -1,0 +1,10 @@
+ * 5:i32 app_size 应用APK文件大小
+ * 6:string minsdkversion 应用适用的最低操作系统版本
+ * 7:string apk_md5 APK文件的MD5校验值
+ * 8:string notify_callback_url 提供安全评测测试完成后，通知接口。
+ * 9:string app_description 提供应用描述（敏感信息过滤检测等）
+ * 10:list<permission.Permissions> requestPurviews 每个应用提交得权限(需要检测)
+ * 11:string format 可选，指定响应格式。默认xml,目前支持格式为xml,json
+ */
+public class UserApp implements org.apache.thrift.TBase<UserApp, UserApp._Fields>, java.io.Serializable, Cloneable, Comparable<UserApp> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("UserApp");

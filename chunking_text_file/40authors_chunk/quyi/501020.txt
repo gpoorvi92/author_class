@@ -1,0 +1,10 @@
+            }
+            break;
+          case 4: // JVM_FREE_MEM
+            if (schemeField.type == org.apache.thrift.protocol.TType.DOUBLE) {
+              struct.jvmFreeMem = iprot.readDouble();
+              struct.setJvmFreeMemIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

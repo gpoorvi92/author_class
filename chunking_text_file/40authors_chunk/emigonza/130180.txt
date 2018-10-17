@@ -1,0 +1,10 @@
+    public void    saveVideoRegion(int units, int row, int column,
+                       int height, int width, int bufferId)
+                       throws JposException;
+    public void    selectChararacterSet(int units, int characterSet)
+                       throws JposException;
+    public void    setCursor(int units, int row, int column)
+                       throws JposException;
+    public void    transactionDisplay(int units, int function)
+                       throws JposException;
+    public void    updateVideoRegionAttribute(int units, int function, int row,

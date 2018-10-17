@@ -1,0 +1,10 @@
+   private class InsertAction implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {
+         String input = event.getActionCommand();
+         start = false;
+         display.append(input);
+      }
+   }
+

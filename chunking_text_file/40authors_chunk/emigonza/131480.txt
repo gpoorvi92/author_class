@@ -1,0 +1,4 @@
+  // Methods
+  public void    clearInputProperties()
+                     throws JposException;
+}

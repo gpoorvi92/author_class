@@ -1,0 +1,10 @@
+{
+   public static final int TEXTAREA_ROWS = 8;
+   public static final int TEXTAREA_COLUMNS = 20;
+
+   public TextComponentFrame()
+   {
+      final JTextField textField = new JTextField();
+      final JPasswordField passwordField = new JPasswordField();
+
+      JPanel northPanel = new JPanel();

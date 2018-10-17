@@ -1,0 +1,10 @@
+    }
+
+    public static class issuedMessage<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, issuedMessage_args, com.nercis.isscp.idl.Result> {
+      public issuedMessage() {
+        super("issuedMessage");
+      }
+
+      public issuedMessage_args getEmptyArgsInstance() {
+        return new issuedMessage_args();
+      }

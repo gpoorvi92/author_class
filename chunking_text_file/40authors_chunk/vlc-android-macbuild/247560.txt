@@ -1,0 +1,10 @@
+    private static final String BUNDLE_TYPE_TAG = "type_tag";
+    private static final String BUNDLE_MRL = "mrl";
+    private static final String BUNDLE_IS_INDEX_MRL = "is_index_mrl";
+    private static final String BUNDLE_NEED_MEMBUF = "need_membuf";
+
+    public static final String TYPE_TAG__ANY = "any"; // try HW
+    public static final String TYPE_TAG__HLS = "hls"; // SW only
+    public static final String TYPE_TAG__MP4 = "mp4"; // try HW
+    public static final String TYPE_TAG__FLV = "flv"; // try HW
+

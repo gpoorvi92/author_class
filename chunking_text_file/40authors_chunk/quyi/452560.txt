@@ -1,0 +1,10 @@
+      schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("issuedMessage_args(");
+      boolean first = true;
+
+      sb.append("missionId:");
+      if (this.missionId == null) {

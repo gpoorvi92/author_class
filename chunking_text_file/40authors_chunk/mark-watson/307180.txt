@@ -1,0 +1,10 @@
+package search.maze;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+
+/**
+ * 2D Maze Search: Performs a depth first search in a maze
+ *
+ * <p/>

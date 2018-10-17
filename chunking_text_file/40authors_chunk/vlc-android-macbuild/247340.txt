@@ -1,0 +1,10 @@
+    public static void setStrictMode_Predefined() {
+        if (!BuildHelper.isApi9_GingerBreadOrLater())
+            return;
+
+        /*--------------------------------------
+         * Thread Policy
+         */
+        ThreadPolicy.Builder threadPolicyBuilder = new ThreadPolicy.Builder();
+        if (THREAD__DETECT_CUSTOM_SLOW_CALLS)
+            if (BuildHelper.isApi11_HoneyCombOrLater())

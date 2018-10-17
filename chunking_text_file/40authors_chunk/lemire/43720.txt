@@ -1,0 +1,10 @@
+            else
+                return false;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return this.hasNext;
+    }

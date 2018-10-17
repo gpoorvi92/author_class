@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.reportPath);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("centerResultPath:");
+    if (this.centerResultPath == null) {
+      sb.append("null");
+    } else {

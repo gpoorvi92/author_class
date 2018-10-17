@@ -1,0 +1,10 @@
+      }
+      if (struct.nodeInfo != null) {
+        oprot.writeFieldBegin(NODE_INFO_FIELD_DESC);
+        struct.nodeInfo.write(oprot);
+        oprot.writeFieldEnd();
+      }
+      if (struct.engineRules != null) {
+        oprot.writeFieldBegin(ENGINE_RULES_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, struct.engineRules.size()));

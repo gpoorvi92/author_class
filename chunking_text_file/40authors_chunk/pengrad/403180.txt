@@ -1,0 +1,10 @@
+
+    //Private and Channel
+    private String username;
+
+    //Channel and Group
+    private String title;
+
+    public Long id() {
+        return id;
+    }

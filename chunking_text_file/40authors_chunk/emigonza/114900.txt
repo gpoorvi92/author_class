@@ -1,0 +1,10 @@
+
+    public static final int PPAD_MSG_ENTERPIN               = 1;
+    public static final int PPAD_MSG_PLEASEWAIT             = 2;
+    public static final int PPAD_MSG_ENTERVALIDPIN          = 3;
+    public static final int PPAD_MSG_RETRIESEXCEEDED        = 4;
+    public static final int PPAD_MSG_APPROVED               = 5;
+    public static final int PPAD_MSG_DECLINED               = 6;
+    public static final int PPAD_MSG_CANCELED               = 7;
+    public static final int PPAD_MSG_AMOUNTOK               = 8;
+    public static final int PPAD_MSG_NOTREADY               = 9;

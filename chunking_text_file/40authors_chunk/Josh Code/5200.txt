@@ -1,0 +1,10 @@
+    public void setRenderingMode(int dm)
+    {
+        displaymode = dm;
+        render();
+    }
+
+    public void scaleVectors(Vector3D v)
+    {
+        m.scaleVectors(v);
+        render();

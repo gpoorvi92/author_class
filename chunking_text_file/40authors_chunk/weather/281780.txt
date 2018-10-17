@@ -1,0 +1,5 @@
+            mCurrentSize -= buf.length;
+        }
+    }
+
+}

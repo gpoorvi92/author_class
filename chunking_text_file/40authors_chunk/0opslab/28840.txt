@@ -1,0 +1,10 @@
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getOperation() {
+        return operation;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;

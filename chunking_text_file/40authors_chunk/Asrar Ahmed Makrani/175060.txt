@@ -1,0 +1,10 @@
+ 				location_text.setEditable(true);
+           }
+        });
+
+        toolBar.add(newBut);
+        
+        //second button
+       
+        save.setToolTipText("Save");
+        save.addActionListener(new ActionListener() {

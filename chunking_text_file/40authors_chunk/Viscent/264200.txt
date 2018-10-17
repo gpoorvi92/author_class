@@ -1,0 +1,10 @@
+	    final Object... params) {
+
+		final int numOfSlaves = slaves.size();
+		final int originalTaskScale = (Integer) params[0];
+		final int subTaskScale = originalTaskScale / numOfSlaves;
+		final int subTasksCount = (0 == (originalTaskScale % numOfSlaves)) ? numOfSlaves
+		    : numOfSlaves + 1;
+
+		TaskDivideStrategy<Range> tds = new TaskDivideStrategy<Range>() {
+			private int i = 1;

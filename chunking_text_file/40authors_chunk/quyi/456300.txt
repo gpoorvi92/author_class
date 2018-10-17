@@ -1,0 +1,10 @@
+
+    private static class operateEngine_resultTupleScheme extends TupleScheme<operateEngine_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, operateEngine_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();
+        if (struct.isSetSuccess()) {
+          optionals.set(0);
+        }

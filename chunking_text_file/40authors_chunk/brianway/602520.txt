@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example11;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P169
+ * 多生产与一消费
+ * notifyAll()代替notify()，将一直运行下去

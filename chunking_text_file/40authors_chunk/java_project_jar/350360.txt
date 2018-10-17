@@ -1,0 +1,9 @@
+
+    protected void handleEnd(Collection collection)
+        throws IOException
+    {
+    }
+
+    private final FileFilter filter;
+    private final int depthLimit;
+}

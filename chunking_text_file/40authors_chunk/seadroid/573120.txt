@@ -1,0 +1,10 @@
+
+    protected String[] getCipherList() {
+        // only allow ciphers which are still considered secure.
+        // based on:
+        // https://briansmith.org/browser-ciphersuites-01.html
+        String[] preferredCiphers;
+
+        // Android up to 2.2 use other names
+        if (Build.VERSION.SDK_INT <= 8) {
+            preferredCiphers = new String[] {

@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private ControlPoint controlPoint = null;
+	
+	public void setControlPoint(ControlPoint ctrlp)
+	{
+		this.controlPoint = ctrlp;
+	}
+
+	public ControlPoint getControlPoint()

@@ -1,0 +1,10 @@
+    int contador7=9;
+    int [] auxiliar=new int [10];
+    
+    System.out.println("Escribe 10 numeros:");
+    System.out.println("============================================================================");
+    
+    //Se guardan los numeros en un array
+    for (i = 0; i < numero.length; i++) {
+      System.out.print((i + 1) + " numero:");
+      numero[i] = Integer.parseInt(num.nextLine());

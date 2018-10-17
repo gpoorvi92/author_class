@@ -1,0 +1,10 @@
+import ipower.wechat.service.IUserAuthenticationService;
+/**
+ * 登录Action。
+ * @author yangyong.
+ * @since 2014-03-15.
+ * */
+public class LoginAction extends BaseAction implements SessionAware {
+	private Map<String, Object> session;
+	private IUserAuthenticationService userAuthentication;
+	private String account,password;

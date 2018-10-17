@@ -1,0 +1,10 @@
+   /**
+    * Open a file and load the images.
+    */
+   public void openFile()
+   {
+      JFileChooser chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("."));
+      String[] extensions = ImageIO.getReaderFileSuffixes();
+      chooser.setFileFilter(new FileNameExtensionFilter("Image files", extensions));
+      int r = chooser.showOpenDialog(this);

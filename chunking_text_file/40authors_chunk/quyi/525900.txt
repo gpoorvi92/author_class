@@ -1,0 +1,9 @@
+		// 设置传输协议为TBinaryProtocol
+		TProtocol protocol = new TBinaryProtocol(transport);
+		// 调用服务的方法
+		TSOperate.Client client=new TSOperate.Client(protocol);
+		Map<PlotsType, CheckResultStatus>plotsStatus=new HashMap<PlotsType, CheckResultStatus>();
+		plotsStatus.put(PlotsType.staticType, CheckResultStatus.executed);
+		client.updateUserAppStatus("SingleTest", "SingleTest1", plotsStatus, null);
+	}
+}

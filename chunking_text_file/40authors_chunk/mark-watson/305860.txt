@@ -1,0 +1,10 @@
+  }
+  private Map<String,TreeSet<IdCount>> index =
+    new Hashtable<String, TreeSet<IdCount>>();
+}
+
+class TestDocument {
+  int id;
+  String text;
+  static int count = 0;
+  TestDocument(String text) {

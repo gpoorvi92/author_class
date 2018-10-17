@@ -1,0 +1,10 @@
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
+/**
+ * User: Teaey
+ * Date: 13-6-16
+ */
+@Singleton
+public class BridgeJoint implements IDispatcher<Fenrisulfr.TransPacket>
+{

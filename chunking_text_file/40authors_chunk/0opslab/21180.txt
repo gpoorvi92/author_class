@@ -1,0 +1,10 @@
+     * 随机指定长度的字符串
+     * @param len
+     * @return
+     */
+    private static String randomStr(int len){
+        StringBuffer sb     = new StringBuffer();
+        Random random = new Random();
+        for (int i = 0; i < len; i++) {
+            sb.append(CHAR.charAt(random.nextInt(CHAR.length())));
+        }

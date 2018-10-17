@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public News findById(Integer id) {
+        return newsMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void update(News news) throws ServiceException {
+        news.setUpdateDate(new Date());

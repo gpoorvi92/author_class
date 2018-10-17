@@ -1,0 +1,10 @@
+		String bigName = name.toUpperCase();
+		try {
+			String lineStr = reader.readLine();
+			while (lineStr != null && 0 < lineStr.length()) {
+				HTTPHeader header = new HTTPHeader(lineStr);
+				if (header.hasName() == false) {
+					 lineStr = reader.readLine();
+					continue;
+				}
+				String bigLineHeaderName = header.getName().toUpperCase();

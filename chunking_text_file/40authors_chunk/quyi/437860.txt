@@ -1,0 +1,10 @@
+  public Software getSoftware() {
+    return this.software;
+  }
+
+  public NodeInfo setSoftware(Software software) {
+    this.software = software;
+    return this;
+  }
+
+  public void unsetSoftware() {

@@ -1,0 +1,6 @@
+        EditText dirNameText = (EditText)getContentView().findViewById(R.id.new_dir_name);
+        String dirName = dirNameText.getText().toString().trim();
+        NewDirTask task = new NewDirTask(repoID, parentDir, dirName, getDataManager());
+        return task;
+    }
+}

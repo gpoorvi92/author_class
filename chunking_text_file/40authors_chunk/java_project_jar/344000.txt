@@ -1,0 +1,10 @@
+    {
+        this(suffixes, IOCase.SENSITIVE);
+    }
+
+    public SuffixFileFilter(String suffixes[], IOCase caseSensitivity)
+    {
+        if(suffixes == null)
+        {
+            throw new IllegalArgumentException("The array of suffixes must not be null");
+        } else

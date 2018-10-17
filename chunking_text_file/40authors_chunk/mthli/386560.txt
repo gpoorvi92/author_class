@@ -1,0 +1,10 @@
+package book;
+
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.print.*;
+import javax.swing.*;
+
+/**
+ * The canvas for displaying the print preview.
+ */

@@ -1,0 +1,10 @@
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		SystemInfo info = server.touch();
+		assertTrue(info.getCpuIdle() > 0);
+		assertTrue(info.getMemFree() > 0);
+		assertTrue(server.isWorking());

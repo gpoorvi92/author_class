@@ -1,0 +1,10 @@
+        Graphics g1 = inputPanel.getGraphics();
+        Graphics g2 = hidden1Panel.getGraphics();
+        Graphics g3 = hidden2Panel.getGraphics();
+        Graphics g4 = outputPanel.getGraphics();
+        Graphics g5 = w1Panel.getGraphics();
+        Graphics g6 = w2Panel.getGraphics();
+        Graphics g7 = w3Panel.getGraphics();
+  training_loop:
+        for (int i = 0; i < 25000; i++) {
+            if (i == 5000 || i == 8000 || i == 10000 | i == 12000)  nn.TRAINING_RATE *= 0.75f;

@@ -1,0 +1,10 @@
+    private Account account;
+
+    CopyMoveContext ctx;
+
+    public void init(Account account, CopyMoveContext ctx) {
+        this.account = account;
+        this.ctx = ctx;
+    }
+
+    private DataManager getDataManager() {

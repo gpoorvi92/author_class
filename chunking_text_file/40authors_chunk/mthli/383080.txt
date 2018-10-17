@@ -1,0 +1,10 @@
+      image = new ImageIcon("blue-ball.gif").getImage();
+   }
+
+   public void paintComponent(Graphics g)
+   {
+      if (image == null) return;
+
+      int imageWidth = image.getWidth(this);
+      int imageHeight = image.getHeight(this);
+

@@ -1,0 +1,10 @@
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode mergeKLists_1(List<ListNode> lists) {
+        Comparator<ListNode> comp =  new Comparator<ListNode>(){  
+            public int compare(ListNode a,  ListNode b) {  
+                if(b.val > a.val) {  
+                    return -1;  
+                }else if(b.val < a.val){  

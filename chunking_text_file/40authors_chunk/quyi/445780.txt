@@ -1,0 +1,10 @@
+  public void unsetCheckResult() {
+    this.checkResult = null;
+  }
+
+  /** Returns true if field checkResult is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckResult() {
+    return this.checkResult != null;
+  }
+
+  public void setCheckResultIsSet(boolean value) {

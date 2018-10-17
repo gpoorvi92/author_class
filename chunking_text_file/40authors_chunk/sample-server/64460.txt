@@ -1,0 +1,10 @@
+        {
+            chatServerRpcClient.shutdown();
+        }
+        ChatClient chatClient = chatClientMap.remove(zoneEntity.getChatServerHost());
+        if (null != chatClient)
+        {
+            chatClient.shutdown();
+        }
+    }
+    public void connectRpcServer(ZoneEntity zoneEntity)

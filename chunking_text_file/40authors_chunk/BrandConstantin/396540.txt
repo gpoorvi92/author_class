@@ -1,0 +1,10 @@
+        
+        for (int numero1 = 1; numero1 <= a; numero1++) {
+            System.out.print(numero1);
+        }
+        
+        for (int numero = a - 1; numero > 0; numero--) {
+            System.out.print(numero);
+        }
+        
+        System.out.println();

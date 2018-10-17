@@ -1,0 +1,10 @@
+ *
+ * 注意，在Object类中，clone被声明为protected，
+ * 因此无法直接调用anObject.clone()（参阅《Core Java Volumn I》第五章内容）。
+ * 子类只能调用受保护的clone方法克隆它自己。
+ * 为此，必须重新定义clone方法，并将它声明为public，
+ * 这样才能让所有方法克隆对象
+ */
+public class CloneTest {
+    public static void main(String[] args) {
+        try {

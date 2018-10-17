@@ -1,0 +1,10 @@
+						input = tf.getText();
+						if(!input.equals("java")) {
+								String message1 = "\nYour number entered is incorrect\n"+
+														"Please try again!";
+				         	JOptionPane.showMessageDialog(this, message1, "PIN information",
+				                        JOptionPane.INFORMATION_MESSAGE);
+						}
+					} else {
+						System.exit(1);
+					}

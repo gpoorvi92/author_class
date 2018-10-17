@@ -1,0 +1,10 @@
+import java.util.*;
+
+// Referenced classes of package org.apache.commons.io:
+//            FileDeleteStrategy
+
+public class FileCleaningTracker
+{
+    private static final class Tracker extends PhantomReference
+    {
+

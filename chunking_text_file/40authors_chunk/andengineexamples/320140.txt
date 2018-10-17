@@ -1,0 +1,10 @@
+ * @author Nicolas Gramlich
+ * @since 15:51:47 - 13.06.2010
+ */
+public class MusicExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 720;
+	private static final int CAMERA_HEIGHT = 480;

@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(VERSIONCODE_FIELD_DESC);
+        oprot.writeString(struct.versioncode);
+        oprot.writeFieldEnd();
+      }
+      if (struct.url != null) {
+        oprot.writeFieldBegin(URL_FIELD_DESC);
+        oprot.writeString(struct.url);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(APP_SIZE_FIELD_DESC);

@@ -1,0 +1,10 @@
+                break;
+            flushOutput();
+        } while(true);
+        if(!coderResult.isUnderflow())
+        {
+            throw new IOException("Unexpected coder result");
+        } else
+        {
+            decoderIn.compact();
+            return;

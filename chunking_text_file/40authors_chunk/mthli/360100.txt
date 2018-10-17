@@ -1,0 +1,10 @@
+            }
+         });
+      pack();
+   }
+
+   /**
+    * Updates the display and formats the date according to the user settings.
+    */
+   public void updateDisplay()
+   {

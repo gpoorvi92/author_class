@@ -1,0 +1,10 @@
+	/**
+	 *  Protected Constructor
+	 *  @param   name    (Display) Name of the Pair
+	 */
+	protected NamePair (String name)
+	{
+		m_name = name;
+		if (m_name == null)
+			m_name = "";
+	}   //  NamePair

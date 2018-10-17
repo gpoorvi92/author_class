@@ -1,0 +1,10 @@
+              break;
+          ln = ln.trim();
+          if (ln.equals(""))
+              continue;
+          if (ln.startsWith("facet"))
+              loadSTLFacet(br, m,progressListener);
+      }
+      // loop through facets
+
+  }

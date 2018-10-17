@@ -1,0 +1,10 @@
+        case 2: // CPU_USED_PERC
+          return CPU_USED_PERC;
+        case 3: // FREE_MEM
+          return FREE_MEM;
+        case 4: // JVM_FREE_MEM
+          return JVM_FREE_MEM;
+        case 5: // TASK_QUEUE_LIMIT
+          return TASK_QUEUE_LIMIT;
+        case 6: // TASK_QUEUE_NUME
+          return TASK_QUEUE_NUME;

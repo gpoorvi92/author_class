@@ -1,0 +1,4 @@
+ */
+public interface IClassFileFilter extends FileFilter {
+  public boolean accept(Class c);
+}

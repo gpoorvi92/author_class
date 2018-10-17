@@ -1,0 +1,10 @@
+        oprot.writeString(struct.riskLevel);
+      }
+      if (struct.isSetRuleNo()) {
+        oprot.writeString(struct.ruleNo);
+      }
+      if (struct.isSetCategory()) {
+        oprot.writeString(struct.category);
+      }
+      if (struct.isSetDescription()) {
+        oprot.writeString(struct.description);

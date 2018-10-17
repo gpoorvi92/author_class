@@ -1,0 +1,10 @@
+    if (this_present_pidName || that_present_pidName) {
+      if (!(this_present_pidName && that_present_pidName))
+        return false;
+      if (!this.pidName.equals(that.pidName))
+        return false;
+    }
+
+    boolean this_present_sourceAddress = true && this.isSetSourceAddress();
+    boolean that_present_sourceAddress = true && that.isSetSourceAddress();
+    if (this_present_sourceAddress || that_present_sourceAddress) {

@@ -1,0 +1,10 @@
+      newItem.addActionListener(EventHandler.create(ActionListener.class, comp, "newDrawing"));
+      
+      JMenuItem saveItem = new JMenuItem("Save with DOM/XSLT");
+      menu.add(saveItem);
+      saveItem.addActionListener(EventHandler.create(ActionListener.class, this, "saveDocument"));
+
+      JMenuItem saveStAXItem = new JMenuItem("Save with StAX");
+      menu.add(saveStAXItem);
+      saveStAXItem.addActionListener(EventHandler.create(ActionListener.class, this, "saveStAX"));
+      

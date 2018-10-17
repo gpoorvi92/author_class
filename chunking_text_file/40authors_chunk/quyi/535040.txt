@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetApiPackageName()) {
+        oprot.writeString(struct.apiPackageName);
+      }
+      if (struct.isSetPackageName()) {
+        oprot.writeString(struct.packageName);
+      }
+      if (struct.isSetObjectName()) {
+        oprot.writeString(struct.objectName);
+      }

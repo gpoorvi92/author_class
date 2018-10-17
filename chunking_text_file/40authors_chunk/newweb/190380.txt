@@ -1,0 +1,10 @@
+	@SuppressWarnings("deprecation")
+	public static Date getDate(String date){
+		int year = Integer.parseInt(date.split("-")[0]);
+		int month = Integer.parseInt(date.split("-")[1]);
+		int day = Integer.parseInt(date.split("-")[2]);
+		return new Date(year, month, day);
+	}
+	
+	/**
+	 * 返回当前日期的yyyy-MM-dd的日期字符串格式

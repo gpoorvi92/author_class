@@ -1,0 +1,10 @@
+				switch(status){
+				case 0://玩家需要观战，切到哪里去
+					gameView.setStatus(4);//显示战争动画
+					gameView.battleField.setCity(self.getCityName());
+					gameView.battleField.startAnimation();//启动战争动画
+					status = calculateWinOrLose(enemy,self);
+					if(status == 2){//被攻下了
+						gameView.hero.getCityList().remove(self);
+						self.setBackToInit();
+						self.setCountry(enemy.getCountry());

@@ -1,0 +1,10 @@
+	    setLocation((screen.width-1270)/2,((screen.height-740)/2));
+	    setResizable(false);
+		
+	  listPane = new JTextArea() {
+      Image image = imageIcon.getImage();
+
+      
+      {
+        setOpaque(false);
+      } 

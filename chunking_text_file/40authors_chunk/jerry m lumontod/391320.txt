@@ -1,0 +1,10 @@
+
+	/** The Name        */
+	private String  m_name;
+
+	/**
+	 *  Returns display value
+	 *  @return name
+	 */
+	public String getName()
+	{

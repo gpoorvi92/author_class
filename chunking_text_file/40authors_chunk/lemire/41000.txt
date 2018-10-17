@@ -1,0 +1,8 @@
+     * Writes out the answer.
+     *
+     * @param out      output buffer
+     * @param runBegin beginning of the run
+     * @param runEnd   end of the run
+     */
+    public abstract void dispatch(BitmapStorage out, int runBegin, int runEnd);
+}

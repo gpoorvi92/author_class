@@ -1,0 +1,10 @@
+			final Text text = new TickerText(this.mRandom.nextInt(30), this.mRandom.nextFloat() * (CAMERA_HEIGHT - 20), this.mFont, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ", new TickerTextOptions(5 + 5 * this.mRandom.nextFloat()), vertexBufferObjectManager);
+			text.setColor(this.mRandom.nextFloat(), this.mRandom.nextFloat(), this.mRandom.nextFloat());
+			scene.attachChild(text);
+		}
+
+		return scene;
+	}
+
+	// ===========================================================
+	// Methods

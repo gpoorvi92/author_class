@@ -1,0 +1,10 @@
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.view.MotionEvent;
+
+public class SelectGeneral {
+	GameView gameView;
+	int yeSpan = 9;//每页显示的个数
+	

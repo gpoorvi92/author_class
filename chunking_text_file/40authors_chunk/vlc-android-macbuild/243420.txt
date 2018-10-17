@@ -1,0 +1,10 @@
+
+        if (mSelectedPlayIndex == null) {
+            mSelectedPlayIndex = selectPlayIndex_First();
+            selectedBitrate = mSelectedPlayIndex.getBitrate();
+            DebugLog.vfmt(TAG,
+                    "selectPlayIndex_HighestBitrate: choose first %s %d",
+                    mSelectedPlayIndex.mPlayTag, (int) selectedBitrate);
+        }
+
+        return mSelectedPlayIndex;

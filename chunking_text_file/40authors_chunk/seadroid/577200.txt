@@ -1,0 +1,10 @@
+    private TextView mHeadTextView;
+    private Animation mShakeAnim;
+
+    private Toast mToast;
+
+    SettingsManager settingsMgr;
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);

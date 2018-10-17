@@ -1,0 +1,10 @@
+      case 141:
+        return WRITE_SMS;
+      case 142:
+        return WRITE_SOCIAL_STREAM;
+      case 143:
+        return WRITE_SYNC_SETTINGS;
+      case 144:
+        return WRITE_USER_DICTIONARY;
+      default:
+        return null;

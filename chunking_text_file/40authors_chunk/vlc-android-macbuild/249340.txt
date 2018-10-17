@@ -1,0 +1,10 @@
+        } catch (ResolveException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return false;
+    }
+
+    public Context getContext() {

@@ -1,0 +1,10 @@
+						break;
+				}
+			}
+
+			@Override
+			public void onPathWaypointFinished(final PathModifier pPathModifier, final IEntity pEntity, final int pWaypointIndex) {
+
+			}
+
+			@Override

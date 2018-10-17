@@ -1,0 +1,10 @@
+        return Indycheckfailure;
+      case 7:
+        return Indycheckbreak;
+      case 8:
+        return Invicheck;
+      case 9:
+        return Invichecktimeout;
+      case 10:
+        return Invicheckfailure;
+      case 11:

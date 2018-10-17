@@ -1,0 +1,10 @@
+		}
+	}
+	@Override
+	public synchronized  UserIdentity authen(String account, String password) throws Exception {
+		if(account == null || account.trim().isEmpty() || password == null || password.trim().isEmpty()) throw new Exception("账号或密码为空！");
+		 User user = this.userDao.loadUser(account);
+		 if(user == null) throw new Exception("账号不存在！");
+		 String pwd = this.createPassword(password);
+		 if(!user.getPassword().equalsIgnoreCase(pwd)){
+			 throw new Exception("密码不正确！");

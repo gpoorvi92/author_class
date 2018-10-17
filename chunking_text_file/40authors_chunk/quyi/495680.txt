@@ -1,0 +1,10 @@
+    this.engineId = engineId;
+    this.engineName = engineName;
+    this.engineIp = engineIp;
+    this.engineStatus = engineStatus;
+    this.engineType = engineType;
+    this.nodeInfo = nodeInfo;
+    this.engineRules = engineRules;
+    this.enginePlots = enginePlots;
+  }
+

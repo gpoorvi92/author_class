@@ -1,0 +1,6 @@
+            }
+            ((ViewGroup) view).removeAllViews();
+        }
+    }
+
+}

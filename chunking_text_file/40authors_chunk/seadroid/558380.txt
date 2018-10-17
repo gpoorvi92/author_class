@@ -1,0 +1,10 @@
+    }
+
+    public Date getNotBefore() {
+        return certificate.getNotBefore();
+    }
+
+    public Date getNotAfter() {
+        return certificate.getNotAfter();
+    }
+

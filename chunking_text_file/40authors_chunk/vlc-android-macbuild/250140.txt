@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void onCompletion(MediaPlayer mp) {
+        DebugLog.v(TAG, "onCompletion");
+        try {
+            if (mPlayIndex != null && mSegmentPlayer != null) {
+                int count = mPlayIndex.mSegmentList.size();
+                int nextOrder = mSegmentPlayer.getOrder() + 1;

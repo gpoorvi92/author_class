@@ -1,0 +1,10 @@
+	@Autowired
+	StaticStateIdentifierManager staticStateIdentifierManager;
+
+	@Autowired
+	RequestComponentContainer requestComponentContainer;
+
+
+
+	@Before
+	public void init() {

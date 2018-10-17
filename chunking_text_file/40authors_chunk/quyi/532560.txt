@@ -1,0 +1,10 @@
+
+  public void setApiNameIsSet(boolean value) {
+    if (!value) {
+      this.apiName = null;
+    }
+  }
+
+  public String getApiPackageName() {
+    return this.apiPackageName;
+  }

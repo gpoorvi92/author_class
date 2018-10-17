@@ -1,0 +1,8 @@
+
+
+	public void setStaticFileStateJson(FileStateJsonBase staticFileStateJson) {
+		this.staticFileStateJson = staticFileStateJson;
+	}
+
+
+}

@@ -1,0 +1,10 @@
+		}
+		
+//		log.e("SSDPNotifySocket run over!!!");
+	}
+	
+	public void start(){
+		StringBuffer name = new StringBuffer("Cyber.SSDPNotifySocket/");
+		String localAddr = this.getLocalAddress();
+		// localAddr is null on Android m3-rc37a (01/30/08)
+		if (localAddr != null && 0 < localAddr.length()) {

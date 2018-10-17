@@ -1,0 +1,10 @@
+				byte[] outBytes = new byte[previous.length+1];
+				System.arraycopy(previous, 0, outBytes, 0, previous.length);
+				outBytes[previous.length] = previous[0];
+
+
+
+				for(int i=0; i<outBytes.length; i++) 
+					out.write(outBytes[i]); 
+
+				// insert new Entry for dictionary 

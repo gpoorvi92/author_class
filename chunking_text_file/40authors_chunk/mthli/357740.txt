@@ -1,0 +1,10 @@
+               AffineTransformOp op = new AffineTransformOp(transform,
+                     AffineTransformOp.TYPE_BICUBIC);
+               filter(op);
+            }
+         });
+      editMenu.add(rotateItem);
+
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(fileMenu);
+      menuBar.add(editMenu);

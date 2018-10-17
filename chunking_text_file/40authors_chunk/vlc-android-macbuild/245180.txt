@@ -1,0 +1,10 @@
+    public static void showNavigation(Activity activity) {
+        if (activity == null)
+            return;
+        if (!BuildHelper.isApi11_HoneyCombOrLater())
+            return;
+
+        int visibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
+
+        setSystemUiVisibility(activity, visibility);

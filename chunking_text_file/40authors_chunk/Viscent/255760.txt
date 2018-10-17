@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch3.immutableobject.example;
+
+public class Location {
+
+	private double x;
+	private double y;
+

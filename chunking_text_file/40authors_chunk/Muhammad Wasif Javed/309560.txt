@@ -1,0 +1,10 @@
+		lbUser = new JLabel ("Username:");
+		lbUser.setForeground (Color.black);
+		lbUser.setBounds (20, 20, 115, 25);
+	        lbPass = new JLabel ("Old Password:");
+		lbPass.setForeground (Color.black);
+        	lbPass.setBounds (20, 55, 115, 25);
+	        lbNew = new JLabel ("New Password:");
+		lbNew.setForeground (Color.black);
+	        lbNew.setBounds (20, 90, 115, 25);
+

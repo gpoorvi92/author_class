@@ -1,0 +1,10 @@
+		String mt = mi.getMediaTypeKey();
+		String acodec = mi.getAudioFormat();
+		String vcodec = mi.getVideoFormat();
+		int abr = mi.getAudioBitrate();
+		int vbr = mi.getVideoBitrate();
+		
+		assertEquals("mpeg audio", mt);
+		assertNotEquals("", acodec);
+		assertNotEquals("", vcodec);
+		assertTrue(mi.getAudioBitrate() > 0);

@@ -1,0 +1,10 @@
+		} else {
+			cmd.add("-aac");
+		}
+		
+		if ("avc".equalsIgnoreCase(vcodec) && bitrate_v < 600) {
+			cmd.add("-vcopy")
+			   .add("-g4x3");
+		} else {
+			cmd.add("-x264")
+			   .add("-q5")

@@ -1,0 +1,10 @@
+
+  /** loads from a stereolithic file
+   * http://orion.math.iastate.edu/burkardt/data/stl/stl.html
+   */
+    public static Model loadFromSTL(Model m, File f, loadProgressListener progressListener) throws IOException
+  {
+      BufferedReader br = new BufferedReader(new FileReader(f));
+
+      loadFromSTL(br, m,progressListener);
+

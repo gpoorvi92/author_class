@@ -1,0 +1,10 @@
+    {
+       this.resultBuf = resultBuf;
+    }
+
+    /** sets the texture image
+     */
+    public void setImage(Image img)
+    {
+        mainBuffer = new BufferedImage(img.getWidth(null),img.getHeight(null)
+            ,BufferedImage.TYPE_3BYTE_BGR);

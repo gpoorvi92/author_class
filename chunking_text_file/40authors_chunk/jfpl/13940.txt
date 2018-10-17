@@ -1,0 +1,10 @@
+		BDLocationListener, CustomOverlayInterface {
+
+	private BMapManager mapManager = null;
+
+	@InjectionView(id = R.id.bmapsView)
+	private MapView mapView;
+
+	private CustomMyLocationOverlay myLocOverlay;
+
+	private LocationNearbyOverlay nearbyOverlay;

@@ -1,0 +1,10 @@
+import java.util.List;
+
+/**
+ * Use WordNet
+ *
+ * <p/>
+ * Copyright 2004-2012 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is can be used under either of the following licenses:
+ * <p/>

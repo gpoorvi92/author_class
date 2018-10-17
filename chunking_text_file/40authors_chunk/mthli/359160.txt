@@ -1,0 +1,4 @@
+      for (TreeModelListener l : listenerList.getListeners(TreeModelListener.class))
+         l.treeStructureChanged(event);
+   }
+}

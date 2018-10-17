@@ -1,0 +1,10 @@
+        this.masterIterator = iterator;
+        if (this.masterIterator.hasNext()) {
+            iteratingBrlw = new IteratingBufferedRunningLengthWord(this.masterIterator.next());
+        }
+    }
+
+    /**
+     * Discard first words, iterating to the next running length word if
+     * needed.
+     *

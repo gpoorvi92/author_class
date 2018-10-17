@@ -1,0 +1,10 @@
+            }
+        } catch (Exception ex) { ex.printStackTrace(); }
+    }
+    
+    public void tellEveryone(String message) {
+        Iterator it = clientOutputStreams.iterator();
+        while (it.hasNext()) {
+            try {
+                PrintWriter writer = (PrintWriter) it.next();
+                writer.println(message);

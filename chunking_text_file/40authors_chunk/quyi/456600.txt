@@ -1,0 +1,10 @@
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchApp_args(searchApp_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }
+      if (other.isSetUserAppId()) {
+        this.userAppId = other.userAppId;

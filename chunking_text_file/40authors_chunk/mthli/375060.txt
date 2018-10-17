@@ -1,0 +1,10 @@
+{
+   public String valueToString(Object value) throws ParseException
+   {
+      if (!(value instanceof byte[])) throw new ParseException("Not a byte[]", 0);
+      byte[] a = (byte[]) value;
+      if (a.length != 4) throw new ParseException("Length != 4", 0);
+      StringBuilder builder = new StringBuilder();
+      for (int i = 0; i < 4; i++)
+      {
+         int b = a[i];

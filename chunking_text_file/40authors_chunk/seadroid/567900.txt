@@ -1,0 +1,10 @@
+            public void onServiceConnected(ComponentName className, IBinder service) {
+                TransferBinder binder = (TransferBinder) service;
+                mTxService = binder.getService();
+                for (String path : localPath) {
+                    mTxService.addUploadTask(account, repoID, repoName, targetDir,
+                            path, false, false);
+                    Log.d(DEBUG_TAG, path + " uploaded");
+                }
+                ToastUtils.show(ShareToSeafileActivity.this, R.string.upload_started);
+                finish();

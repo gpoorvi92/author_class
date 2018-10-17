@@ -1,0 +1,10 @@
+import com.newweb.service.base.TypeForBrandService;
+
+@Component("typeForBrandService")
+public class TypeForBrandServiceImp implements TypeForBrandService {
+	@Autowired
+	private TypeForBrandDao typeForBrandDao;
+
+	@Override
+	public TypeForBrand[] queryTypeForBrandByMaterialBrand(String brandID) {
+		List<TypeForBrand> list = typeForBrandDao.selectTypeForBrandByMaterialBrand(brandID);

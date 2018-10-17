@@ -1,0 +1,10 @@
+import com.cyss.android.lib.annotation.InjectionView;
+import com.cyss.android.lib.view.ZoomableImageView;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+public class ShowImageActivity extends AutoActivity {
+	@InjectionView(id = R.id.zoom_img)
+	private ZoomableImageView zoomImageView;
+
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.show_image, "");

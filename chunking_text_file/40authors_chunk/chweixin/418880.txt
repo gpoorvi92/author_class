@@ -1,0 +1,10 @@
+			try {
+				ModuleSystemCollection collection = this.parse(this.menuFilePath);
+				if(collection != null){
+					system = collection.item(systemId);
+					if(system != null) mapSystemCache.put(systemId, system);
+				}
+			} catch (SAXException | IOException | ParserConfigurationException e) {
+				logger.error(e);
+				e.printStackTrace();
+			}

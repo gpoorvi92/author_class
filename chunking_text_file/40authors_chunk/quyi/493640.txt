@@ -1,0 +1,10 @@
+  public String checkStartTime; // required
+  public String checkStopTime; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    MISSION_ID((short)1, "missionId"),
+    USER_APP_ID((short)2, "userAppId"),
+    PLOTS_STATUS((short)3, "plotsStatus"),
+    CHECK_START_TIME((short)4, "checkStartTime"),
+    CHECK_STOP_TIME((short)5, "checkStopTime");

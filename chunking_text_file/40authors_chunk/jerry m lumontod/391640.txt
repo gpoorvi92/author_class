@@ -1,0 +1,10 @@
+
+    private void removeKeyAndContainerListenerRecursively(Component c) {
+		c.removeKeyListener(this);
+		if(c instanceof Container){
+			Container cont = (Container)c;
+			cont.removeContainerListener(this);
+			Component[] children = cont.getComponents();
+			for(int i = 0; i < children.length; i++){
+				removeKeyAndContainerListenerRecursively(children[i]);
+			}

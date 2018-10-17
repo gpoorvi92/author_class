@@ -1,0 +1,10 @@
+    
+    if (num1 == num2){
+      System.err.println("Escribe 2 numeros distinctos por favor!"); 
+    } else if(num1 > num2){
+        System.err.println("El primer numero tiene que ser mas pequeños que el segundo"); 
+    }else{
+        for (int i = num1; i <= num2; i += 7){
+          System.out.println(i + " ");
+        }
+      }

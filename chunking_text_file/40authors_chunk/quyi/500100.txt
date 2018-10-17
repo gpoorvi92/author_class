@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field cpuUsedPerc is set (has been assigned a value) and false otherwise */
+  public boolean isSetCpuUsedPerc() {
+    return EncodingUtils.testBit(__isset_bitfield, __CPUUSEDPERC_ISSET_ID);
+  }
+
+  public void setCpuUsedPercIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __CPUUSEDPERC_ISSET_ID, value);
+  }

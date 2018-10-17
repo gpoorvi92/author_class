@@ -1,0 +1,10 @@
+               out.println(Vector3D.getSpacedVectorCoordinates(v));
+            }
+            out.println(); 
+             // just leave an empty line to help group the vertices
+        }
+
+        out.close();
+    }
+
+

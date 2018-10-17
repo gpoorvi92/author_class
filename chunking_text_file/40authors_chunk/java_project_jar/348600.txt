@@ -1,0 +1,10 @@
+    implements Serializable
+{
+
+    public transient ByteOrderMark(String charsetName, int bytes[])
+    {
+        if(charsetName == null || charsetName.length() == 0)
+            throw new IllegalArgumentException("No charsetName specified");
+        if(bytes == null || bytes.length == 0)
+        {
+            throw new IllegalArgumentException("No bytes specified");

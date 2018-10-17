@@ -1,0 +1,10 @@
+			gameView.hero.hbdt.flag=false;
+			gameView.hero.hbdt.interrupt();
+			
+			try{
+				Thread.sleep(200);
+			}
+			catch(Exception e){
+				e.printStackTrace();
+			}
+			if(gameView.activity.loadingView.process<90)

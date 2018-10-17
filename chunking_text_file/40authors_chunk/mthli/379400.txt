@@ -1,0 +1,10 @@
+    * @param p a point
+    * @return the first square that contains p
+    */
+   public Rectangle2D find(Point2D p)
+   {
+      for (Rectangle2D r : squares)
+      {
+         if (r.contains(p)) return r;
+      }
+      return null;

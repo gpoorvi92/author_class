@@ -1,0 +1,10 @@
+	//方法：释放技能，该消耗的消耗，扫尾工作
+	public abstract void useSkill(int skillEarning);
+		
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;

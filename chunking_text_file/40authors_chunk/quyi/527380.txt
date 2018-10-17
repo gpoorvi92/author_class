@@ -1,0 +1,10 @@
+      oprot.writeBitSet(optionals, 4);
+      if (struct.isSetMissionId()) {
+        oprot.writeString(struct.missionId);
+      }
+      if (struct.isSetEngines()) {
+        {
+          oprot.writeI32(struct.engines.size());
+          for (Engine _iter24 : struct.engines)
+          {
+            _iter24.write(oprot);

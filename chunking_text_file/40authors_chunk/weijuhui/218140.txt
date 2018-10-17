@@ -1,0 +1,10 @@
+        Boolean b = (Boolean) context.getAttribute(ExecutionContext.HTTP_REQ_SENT);
+        boolean sent = (b != null && b.booleanValue());
+
+        if(executionCount > maxRetries) {
+            // Do not retry if over max retry count
+            retry = false;
+        } else if (isInList(exceptionBlacklist, exception)) {
+            // immediately cancel retry if the error is blacklisted
+            retry = false;
+        } else if (isInList(exceptionWhitelist, exception)) {

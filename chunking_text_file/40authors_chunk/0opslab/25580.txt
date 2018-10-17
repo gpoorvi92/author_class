@@ -1,0 +1,10 @@
+    public boolean downLoad(String fileName);
+
+    //下载远程目录
+    public boolean downLoadDir(String directory);
+
+    //删除远程文件
+    public boolean deleteFile(String fileName);
+
+    //删除远程目录
+    public boolean deleteDir(String directory);

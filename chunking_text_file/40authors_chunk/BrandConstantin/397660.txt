@@ -1,0 +1,4 @@
+    System.out.println("Hay " + positivos + " numeros poisitivos y " +
+         negativos + " numeros negativos");
+  }
+}

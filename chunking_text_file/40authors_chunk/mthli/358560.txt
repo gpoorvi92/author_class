@@ -1,0 +1,6 @@
+      JSplitPane outerPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, innerPane,
+            planetDescription);
+
+      add(outerPane, BorderLayout.CENTER);
+   }
+}

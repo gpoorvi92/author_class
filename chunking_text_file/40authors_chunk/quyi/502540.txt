@@ -1,0 +1,10 @@
+			connection.start();
+			session = connection.createSession(Boolean.TRUE, Session.AUTO_ACKNOWLEDGE);
+			destination = session.createQueue(queue_name);
+			producer = session.createProducer(destination);
+			producer.setDeliveryMode(DeliveryMode.PERSISTENT);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+

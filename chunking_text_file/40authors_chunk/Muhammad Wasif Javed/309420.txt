@@ -1,0 +1,10 @@
+
+		//Adding All the Controls in Panel.
+
+		pMember.add (scroller);
+
+		//Adding Panel to the Form.
+
+		getContentPane().add (pMember);
+
+		setVisible (true);

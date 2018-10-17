@@ -1,0 +1,10 @@
+				}
+ 				
+	}
+	
+	public void delete()
+	{
+		try
+ 		{
+ 		Statement statement = con.createStatement();
+ 		int rs = JOptionPane.showConfirmDialog(null, "WARNING!! Record once deleted cannot be retrieved!! Continue with delete?", "CONFIRM", JOptionPane.YES_NO_OPTION);

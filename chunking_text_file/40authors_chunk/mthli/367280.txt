@@ -1,0 +1,10 @@
+      int year = 0;
+
+      String input;
+
+      // update account balance while user isn't ready to retire
+      do
+      {
+         // add this year's payment and interest
+         balance += payment;
+         double interest = balance * interestRate / 100;

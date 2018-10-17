@@ -1,0 +1,10 @@
+		initTitle(view);
+		return view;
+	}
+	
+	private void initTitle(View view) {
+		
+		TextView title = (TextView) view.findViewById(R.id.title_center);
+		title.setText("微聚会");
+		
+		/*Button left_btn  = (Button) view.findViewById(R.id.title_back);

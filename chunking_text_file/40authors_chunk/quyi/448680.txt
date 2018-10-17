@@ -1,0 +1,10 @@
+		// System.out.println(getColumnInfo(0,
+		// "E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\信工所应用样本列表.xls", 0));
+		// System.out.println(getRowInfo(1,
+		// "E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\信工所应用样本列表.xls", 0));
+		// System.out.println(getUserAppInfo(1,
+		// "E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\信工所应用样本列表.xls", 0));
+		// System.out.println(getColumnSize(1,"E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\信工所应用样本列表.xls",
+		// 0));
+		new Thread(new SingleRecordInfoConsumer("E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\单个应用下发统计.xls")).start();
+		System.out.println("开启线程写文件");

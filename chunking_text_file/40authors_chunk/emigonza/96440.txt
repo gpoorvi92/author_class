@@ -1,0 +1,10 @@
+    private static Tracer instance = null;
+
+    //--------------------------------------------------------------------------
+    // Private static inner classes
+    //
+
+    /**
+     * Inner class for a default TracerOutput.  Just prints out info to 
+     * System.err
+     * @since 1.2 (NY 2K meeting)

@@ -1,0 +1,10 @@
+		initParams(intent);
+		// refresh data
+
+		// NotificationManager 进入此activity
+
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();

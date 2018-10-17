@@ -1,0 +1,10 @@
+  		});
+    	
+    	patron_text.setText("P-");
+    	patron_text.addFocusListener(new MyActionListener()
+		{
+		public void focusLost(FocusEvent e)
+			{
+								
+			try
+			{

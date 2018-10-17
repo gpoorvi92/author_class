@@ -1,0 +1,10 @@
+        return remarkCount;
+    }
+
+    public void setRemarkCount(Integer remarkCount) {
+        this.remarkCount = remarkCount;
+    }
+
+    /********************非持久化属性***********************/
+    private String originalImage;
+

@@ -1,0 +1,10 @@
+        this.ewahIter = ewahIter;
+        this.buffer = ewahIter.buffer();
+        this.hasNext = this.moveToNext();
+    }
+
+    public boolean moveToNext() {
+        while (!runningHasNext() && !literalHasNext()) {
+            if (!this.ewahIter.hasNext()) {
+                return false;
+            }

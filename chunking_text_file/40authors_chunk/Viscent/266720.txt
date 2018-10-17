@@ -1,0 +1,10 @@
+ * Master-Slave模式Master参与者的可复用实现。
+ * 
+ * @author Viscent Huang
+ *
+ * @param <T>
+ *          子任务对象类型
+ * @param <V>
+ *          子任务的处理结果类型
+ * @param <R>
+ *          原始任务处理结果类型

@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        Log.d(DEBUG_TAG, "onDestroy is called");
+        if (mTxService != null) {
+            unbindService(mConnection);
+            mTxService = null;
+        }

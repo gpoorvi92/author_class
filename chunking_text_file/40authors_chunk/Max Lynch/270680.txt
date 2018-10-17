@@ -1,0 +1,10 @@
+		join.addActionListener(this);
+		style.addActionListener(this);
+		
+		choicePanel.add(widthL);
+		choicePanel.add(width);
+		choicePanel.add(capL);
+		choicePanel.add(cap);
+		choicePanel.add(joinL);
+		choicePanel.add(join);
+		choicePanel.add(styleL);

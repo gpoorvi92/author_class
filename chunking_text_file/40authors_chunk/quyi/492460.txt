@@ -1,0 +1,10 @@
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public heart_result(heart_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;
+      }
+      if (other.isSetIre()) {
+        this.ire = new com.nercis.isscp.idl.InvalidRequestException(other.ire);
+      }

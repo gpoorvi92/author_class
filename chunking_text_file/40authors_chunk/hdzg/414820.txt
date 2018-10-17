@@ -1,0 +1,10 @@
+						h, 
+						col, 
+						row, 
+						pCol, 
+						pRow, 
+						notIn
+				);
+			}
+			din.close();//¹Ø±ÕÁ÷
+			in.close();

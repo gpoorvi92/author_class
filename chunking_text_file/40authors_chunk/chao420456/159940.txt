@@ -1,0 +1,10 @@
+		v.add(s3);
+		v.add(s4);
+		// 通过集合的到Enumeration
+		Enumeration<InputStream> en = v.elements();
+
+		// 创建合并流对象
+		SequenceInputStream sis = new SequenceInputStream(en);
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream("Copy.java"));
+

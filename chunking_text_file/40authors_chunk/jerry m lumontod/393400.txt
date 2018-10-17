@@ -1,0 +1,10 @@
+		this.bottom = bottom;
+		this.left = left;
+		this.right = right;
+		this.topType = topType;
+		this.rightType = rightType;
+		this.bottomType = bottomType;
+		this.leftType = leftType;
+	}
+
+}

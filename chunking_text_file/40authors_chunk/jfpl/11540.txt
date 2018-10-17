@@ -1,0 +1,10 @@
+		String[] hpzlList = getResources()
+				.getStringArray(R.array.bind_veh_hpzl);
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_spinner_item, hpzlList);
+		hpzlSpinner.setAdapter(adapter);
+		refreshBindVeh();
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {

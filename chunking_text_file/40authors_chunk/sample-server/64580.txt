@@ -1,0 +1,10 @@
+    }
+    public List<ChatServerRpcClient> listChatServer()
+    {
+        List<ChatServerRpcClient> ret = new ArrayList<>();
+        ret.addAll(chatServerRpcClientMap.values());
+        return ret;
+    }
+    public List<ChatClient> listChatClient()
+    {
+        List<ChatClient> ret = new ArrayList<>();

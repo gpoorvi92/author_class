@@ -1,0 +1,10 @@
+		/* Create three lines that will form an arrow pointing to the eye. */
+		final Line arrowLineMain = new Line(0, 0, 0, 0, 3, this.getVertexBufferObjectManager());
+		final Line arrowLineWingLeft = new Line(0, 0, 0, 0, 3, this.getVertexBufferObjectManager());
+		final Line arrowLineWingRight = new Line(0, 0, 0, 0, 3, this.getVertexBufferObjectManager());
+
+		arrowLineMain.setColor(1, 0, 1);
+		arrowLineWingLeft.setColor(1, 0, 1);
+		arrowLineWingRight.setColor(1, 0, 1);
+
+		scene.attachChild(arrowLineMain);

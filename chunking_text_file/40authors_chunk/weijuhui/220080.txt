@@ -1,0 +1,10 @@
+     * @param bottomTextSize	text size of the bottom TextView in dps
+     * @param lineHeight	LineHeight of the top TextView
+     */
+    public TimeLayoutView(Context context, boolean isCenterView, int topTextSize, int bottomTextSize, float lineHeight) {
+        super(context);
+        setupView(context, isCenterView, topTextSize, bottomTextSize, lineHeight);
+    }
+
+    /**
+     * Setting up the top TextView and bottom TextVew

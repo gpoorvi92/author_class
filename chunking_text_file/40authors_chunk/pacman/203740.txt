@@ -1,0 +1,10 @@
+
+				type = 2;
+				BytesMessage bm = (BytesMessage) message;
+				ByteBuffer bb = ByteBuffer.allocate((int) bm.getBodyLength());
+				buf = bb.array();
+				bm.readBytes(buf);
+				logger.info(PREFIX + " Got stream message![" + bm.getJMSMessageID() + "]");
+			} else if (message instanceof MapMessage) {
+
+				className = message.getStringProperty("mq.clazz");

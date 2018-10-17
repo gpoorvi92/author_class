@@ -1,0 +1,10 @@
+	  // Define a test network before calling the super class 'init':
+	  engine.addNode("0", 20, 40);
+	  engine.addNode("1", 60, 60);
+	  engine.addNode("2", 100, 40);
+	  engine.addNode("3", 50, 110);
+	  engine.addNode("4", 140, 80);
+	  engine.addNode("5", 160, 150);
+	  engine.addNode("6", 200, 80);
+	  engine.addNode("7", 160, 40);
+	  engine.addNode("8", 240, 120);

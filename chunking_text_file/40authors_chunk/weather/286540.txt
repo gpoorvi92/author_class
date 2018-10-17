@@ -1,0 +1,10 @@
+            return bi.toString(RADIX) + ".gif";
+        }
+        return bi.toString(RADIX) + ".jpg";
+    }
+
+    private static byte[] getMD5(byte[] data) {
+        byte[] hash = null;
+        try {
+            MessageDigest digest = MessageDigest.getInstance(HASH_ALGORITHM);
+            digest.update(data);

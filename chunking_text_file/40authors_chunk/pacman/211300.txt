@@ -1,0 +1,10 @@
+	 */
+	public int getMediaType() {
+		return mediaType;
+	}
+	/**
+	 * @param mediaType the mediaType to set
+	 */
+	public void setMediaType(int mediaType) {
+		this.mediaType = mediaType;
+	}

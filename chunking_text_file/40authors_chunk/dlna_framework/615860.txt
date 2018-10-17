@@ -1,0 +1,10 @@
+		String host = sub.getDeliveryHost();
+		String path = sub.getDeliveryPath();
+		int port = sub.getDeliveryPort();
+		
+		setMethod(HTTP.NOTIFY);
+		setURI(path);
+		setHost(host, port);
+		setNT(NT.EVENT);
+		setNTS(NTS.PROPCHANGE);
+		setSID(sid);

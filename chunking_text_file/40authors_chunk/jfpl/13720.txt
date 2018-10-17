@@ -1,0 +1,10 @@
+							ClipboardManager cmb = (ClipboardManager) ctx
+									.getSystemService(Context.CLIPBOARD_SERVICE);
+							cmb.setText(text);
+							Toast.makeText(ctx, "复制成功", Toast.LENGTH_LONG)
+									.show();
+							break;
+						case 0:
+							String id = acd.getStringValue("id");
+							ctx.update("delete_chat_msg", id);
+							if (chatList.getAdapter().getClass() == AutoActivity.BaseListAdapter.class) {

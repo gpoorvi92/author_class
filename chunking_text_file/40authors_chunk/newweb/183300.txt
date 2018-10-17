@@ -1,0 +1,10 @@
+	
+	@OneToMany(mappedBy = "bxg", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<BxgPriceCut> getBxgPriceCuts() {
+		return bxgPriceCuts;
+	}
+	public void setBxgPriceCuts(Set<BxgPriceCut> bxgPriceCuts) {
+		this.bxgPriceCuts = bxgPriceCuts;
+	}
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)

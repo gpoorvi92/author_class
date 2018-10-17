@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public void print()
+	{
+		Debug.message(toString());
+		if (hasContent() == true)
+			return;
+		Node rootElem = getRootNode();
+		if (rootElem == null)
+			return;

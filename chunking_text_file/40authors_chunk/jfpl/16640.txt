@@ -1,0 +1,10 @@
+import com.jufan.platform.ui.WebContentActivity;
+import com.lianzt.util.StringUtil;
+
+public class PluginManager {
+
+	private WebContentActivity ctx;
+
+	public PluginManager(WebContentActivity ctx) {
+		this.ctx = ctx;
+	}

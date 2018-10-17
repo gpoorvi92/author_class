@@ -1,0 +1,10 @@
+	{
+		fillColorGradient = null;
+		fillColor = null;
+		fillColorRadial = g;
+		notifyListeners();
+	}
+		
+	public void setStroke(Stroke stroke, float size)
+	{
+		//this.size = size;

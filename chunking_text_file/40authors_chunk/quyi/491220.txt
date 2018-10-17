@@ -1,0 +1,10 @@
+    private static class updateUserAppStatus_resultTupleSchemeFactory implements SchemeFactory {
+      public updateUserAppStatus_resultTupleScheme getScheme() {
+        return new updateUserAppStatus_resultTupleScheme();
+      }
+    }
+
+    private static class updateUserAppStatus_resultTupleScheme extends TupleScheme<updateUserAppStatus_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, updateUserAppStatus_result struct) throws org.apache.thrift.TException {

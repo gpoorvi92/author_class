@@ -1,0 +1,10 @@
+		
+		SystemMonitorStep monitor = new SystemMonitorStep();
+		ExecuteContext context = new ExecuteContext();
+		SystemInfo info = (SystemInfo) monitor.execute(context);
+		assertNotNull(info);
+		
+		System.out.println("user:" + info.getCpuUser() + " sys:" + info.getCpuSys() +
+				" nice:" + info.getCpuNice() + " idle:" + info.getCpuIdle());
+		System.out.println("total:" + info.getMemTotal() + " used:" + info.getMemUsed() +
+				" free:" + info.getMemFree());

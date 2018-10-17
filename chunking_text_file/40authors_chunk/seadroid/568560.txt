@@ -1,0 +1,10 @@
+    private boolean removeAutoUpdateInfo(Account account, String repoID, String repoName, String parentDir, String localPath) {
+        final AutoUpdateInfo info = new AutoUpdateInfo(account, repoID, repoName, parentDir, localPath);
+        boolean exist = false;
+
+        synchronized (infos) {
+            exist = infos.remove(info);
+        }
+
+        if (exist) {
+            ConcurrentAsyncTask.execute(new Runnable() {

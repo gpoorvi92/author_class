@@ -1,0 +1,10 @@
+	 * 图片消息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_IMAGE = "image";
+	/**
+	 * 语音消息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_VOICE = "voice";
+	/**
+	 * 视频消息请求。
+	 * */

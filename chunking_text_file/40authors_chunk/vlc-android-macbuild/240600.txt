@@ -1,0 +1,10 @@
+        TabInfo info = new TabInfo(tag, clss, args);
+
+        // Check to see if we already have a fragment for this tab, probably
+        // from a previously saved state. If so, deactivate it, because our
+        // initial state is that a tab isn't shown.
+        info.fragment = mActivity.getSupportFragmentManager()
+                .findFragmentByTag(tag);
+        if (info.fragment != null && !info.fragment.isDetached()) {
+            FragmentTransaction ft = mActivity.getSupportFragmentManager()
+                    .beginTransaction();

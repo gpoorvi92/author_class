@@ -1,0 +1,10 @@
+
+import org.cybergarage.xml.*;
+
+public class XmlPullParser extends org.cybergarage.xml.Parser
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public XmlPullParser()

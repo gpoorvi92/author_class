@@ -1,0 +1,10 @@
+ * User: Teaey
+ * Date: 13-7-14
+ */
+public class DefaultRpcServer extends BaseRpcServer
+{
+    public DefaultRpcServer(int port)
+    {
+        super(port);
+    }
+    private ServerBootstrap bootstrap;

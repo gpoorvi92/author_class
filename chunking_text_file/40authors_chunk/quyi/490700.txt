@@ -1,0 +1,10 @@
+        return getIre();
+
+      case UE:
+        return getUe();
+
+      }
+      throw new IllegalStateException();
+    }
+
+    /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */

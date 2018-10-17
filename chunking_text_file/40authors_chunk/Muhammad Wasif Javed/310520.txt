@@ -1,0 +1,10 @@
+
+		//super (Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("Delete Book", false, true, false, true);
+		setSize (325, 250);
+
+		//Setting the Form's Labels.
+
+		lbBookId = new JLabel ("Book Id:");
+		lbBookId.setForeground (Color.black);
+		lbBookId.setBounds (15, 15, 100, 20);

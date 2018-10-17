@@ -1,0 +1,5 @@
+  // Methods
+  public void    printMemoryBitmap(int station, byte[] data, int type,
+                                   int width, int alignment)
+                     throws JposException;
+}

@@ -1,0 +1,10 @@
+                                          int after) {
+                old = mServerUrlEt.getText().toString();
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                // Don't allow the user to edit the "https://" or "http://" part of the serverText
+                String url = mServerUrlEt.getText().toString();
+                boolean isHttps = mHttpPrefixCb.isChecked();
+                String prefix = isHttps ? SHIBBOLETH_HTTPS_PREFIX : SHIBBOLETH_HTTP_PREFIX;

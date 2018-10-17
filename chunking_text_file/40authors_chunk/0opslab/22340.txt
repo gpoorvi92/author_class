@@ -1,0 +1,10 @@
+                return "ISO-8859-1";
+            }
+        }catch(UnsupportedEncodingException e) {
+            System.out.println("111111111");
+            e.printStackTrace();
+        }
+        String encode = "GB2312";
+
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {

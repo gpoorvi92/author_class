@@ -1,0 +1,10 @@
+
+		return "Stock Quotes at "+mdFrm.format(mdDate);
+	}
+
+	public int retrieveData(String tstrSQL) {
+
+		if (tstrSQL.length()<1) {
+			return -1;
+		}
+		

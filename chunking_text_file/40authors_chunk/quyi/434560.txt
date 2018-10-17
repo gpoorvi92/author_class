@@ -1,0 +1,10 @@
+import com.nercis.isscp.util.SearchRecordInfoQueue;
+
+public class SearchEngine implements Runnable {
+	private String engine_address;
+	private int engine_port;
+	private String nodeId;
+	private String number;
+
+	public SearchEngine(String engineAddress, int enginePort, String nodeId,String number) {
+		this.engine_address = engineAddress;

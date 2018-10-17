@@ -1,0 +1,10 @@
+//			plots.add(com.nercis.isscp.idl.PlotsType.staticType);
+//			List<UserApp> userApps = new ArrayList<UserApp>();
+//			for (int i = 0; i < userAppInfos.size(); i++) {
+//				UserAppInfo userAppInfo = userAppInfos.get(i);
+//				UserApp userApp = new UserApp();
+//				userApp.setUserAppId("MultiTest" + missionId + (count + i));
+//				userApp.setAppName(userAppInfo.getAppName());
+//				userApp.setCategory("123");
+//				userApp.setStoreName("1234");
+//				userApp.setCreateTime("123");

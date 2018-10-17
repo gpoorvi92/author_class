@@ -1,0 +1,10 @@
+ 			try
+ 				{
+ 					String uname, pass;
+ 					Statement s = con.createStatement();
+ 					String sqlsel = "SELECT * FROM User WHERE userid = '" + usname + "'";
+ 					
+ 					ResultSet rs = s.executeQuery(sqlsel);
+ 					try
+ 					{
+ 						rs.next();

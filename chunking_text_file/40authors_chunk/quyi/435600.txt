@@ -1,0 +1,10 @@
+
+  public DynamicCheckResultData setSystemResources(List<SystemResources> systemResources) {
+    this.systemResources = systemResources;
+    return this;
+  }
+
+  public void unsetSystemResources() {
+    this.systemResources = null;
+  }
+

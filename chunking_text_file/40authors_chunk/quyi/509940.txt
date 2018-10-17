@@ -1,0 +1,10 @@
+  }
+
+  public void setVirusEngineIsSet(boolean value) {
+    if (!value) {
+      this.virusEngine = null;
+    }
+  }
+
+  public String getDescription() {
+    return this.description;

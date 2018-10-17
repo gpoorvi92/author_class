@@ -1,0 +1,10 @@
+            float x = geneToFloat(i);
+            sum += chromosomes.get(i).getFitness();
+            if (true) { // (i < (numChromosomes / 2)) {  // show best half of chromosomes
+                System.out.print("Fitness for chromosome ");
+                System.out.print(i);
+                System.out.print(" is ");
+                System.out.println(chromosomes.get(i).getFitness() + ", occurs at x=" + x);
+            }
+        }
+        sum /= (float)numChromosomes;

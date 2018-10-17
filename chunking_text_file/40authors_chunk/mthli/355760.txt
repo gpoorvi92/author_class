@@ -1,0 +1,10 @@
+
+      // construct a panel with user name and password fields
+
+      JPanel panel = new JPanel();
+      panel.setLayout(new GridLayout(2, 2));
+      panel.add(new JLabel("User name:"));
+      panel.add(username = new JTextField(""));
+      panel.add(new JLabel("Password:"));
+      panel.add(password = new JPasswordField(""));
+      add(panel, BorderLayout.CENTER);

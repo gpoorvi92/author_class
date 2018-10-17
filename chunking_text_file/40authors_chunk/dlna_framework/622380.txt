@@ -1,0 +1,10 @@
+			deliveryPath = url.getPath();
+			deliveryPort = url.getPort();
+		}
+		catch (Exception e) {}
+	}
+
+	private String deliveryHost = "";
+	private String deliveryPath = "";
+	private int deliveryPort = 0;
+

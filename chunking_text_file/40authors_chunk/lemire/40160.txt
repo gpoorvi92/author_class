@@ -1,0 +1,5 @@
+     *  
+     * @param size         the size in bits
+     */
+    void setSizeInBitsWithinLastWord(final int size);
+}

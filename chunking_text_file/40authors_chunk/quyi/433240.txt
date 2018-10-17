@@ -1,0 +1,10 @@
+  public void setProcessNameIsSet(boolean value) {
+    if (!value) {
+      this.processName = null;
+    }
+  }
+
+  public String getThreadName() {
+    return this.threadName;
+  }
+

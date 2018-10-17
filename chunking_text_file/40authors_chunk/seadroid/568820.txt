@@ -1,0 +1,10 @@
+
+public class ClearCacheTaskDialog extends TaskDialog {
+    private String filesDir;
+    private String cacheDir;
+    private String tempDir;
+    private String thumbDir;
+    private Account account;
+    SettingsManager settingsMgr;
+
+    public void init(Account account, String filesDir, String cacheDir, String tempDir, String thumbDir) {

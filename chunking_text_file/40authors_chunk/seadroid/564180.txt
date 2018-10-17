@@ -1,0 +1,10 @@
+    public final long fileSize, finished;
+
+    /**
+     * Constructor of DownloadTaskInfo
+     * 
+     * @param account Current login Account instance
+     * @param taskID TransferTask id
+     * @param state TransferTask state, value is one of <strong>INIT, TRANSFERRING, FINISHED, CANCELLED, FAILED</strong> of {@link TaskState}
+     * @param repoID Repository id
+     * @param repoName Repository name

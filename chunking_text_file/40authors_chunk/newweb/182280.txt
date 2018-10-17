@@ -1,0 +1,10 @@
+		List<Bill> billList = billDao.selectBillByStatusACreateDateACustomerLikeCondition(status,startDate,endDate,customer);
+		int count = 0;
+		Bill[]	os = new Bill[billList.size()];
+		for (Bill bill : billList) {
+			os[count++] = bill;
+		}
+		return os;
+	}
+
+	@Override

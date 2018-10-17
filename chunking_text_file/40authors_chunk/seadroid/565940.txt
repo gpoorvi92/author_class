@@ -1,0 +1,10 @@
+             null,   // don't filter by row groups
+             null    // The sort order
+        );
+
+        c.moveToFirst();
+        while (!c.isAfterLast()) {
+            Account account = cursorToAccount(c);
+            accounts.add(account);
+            c.moveToNext();
+        }

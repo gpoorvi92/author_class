@@ -1,0 +1,10 @@
+			cursor.close();
+		}
+		
+		BasicDBObject query=new BasicDBObject();
+		query.put("i",71);
+		cursor=coll.find(query);
+		try{
+			while(cursor.hasNext()){
+				System.out.println(cursor.next());
+			}

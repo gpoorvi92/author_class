@@ -1,0 +1,10 @@
+@Transactional(rollbackFor = Exception.class)
+@Service(ISaleCountService.SERVICE_NAME)
+public class SaleCountServiceImpl implements ISaleCountService {
+    @Autowired
+    private SaleCountMapper saleCountMapper;
+
+    public Map<String, Object> saleCount(BaseConditionVO vo) {
+        Map<String, Object> map = this.getSaleCountMap(vo.getStatus());
+        vo.setSaleCountDate(DateUtil.getSaleCountDate(vo.getStatus()));
+        List<SaleCount> saleCountList = saleCountMapper.saleCount(vo);

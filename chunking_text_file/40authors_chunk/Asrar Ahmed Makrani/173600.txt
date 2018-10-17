@@ -1,0 +1,10 @@
+        	e.consume();
+      		}
+    		}
+  		});
+   
+    patron_expiry_date_text.setEditable(false);
+    
+    testing.setText("a");
+    
+    //testing.setVisible(true);

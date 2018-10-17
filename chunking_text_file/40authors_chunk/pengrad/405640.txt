@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+import java.util.Arrays;
+
+/**
+ * stas
+ * 8/5/15.
+ */
+public class UserProfilePhotos {
+

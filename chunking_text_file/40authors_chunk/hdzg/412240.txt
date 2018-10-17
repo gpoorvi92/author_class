@@ -1,0 +1,10 @@
+	}
+	public int getIntelligence() {
+		return intelligence;
+	}
+	public void setIntelligence(int intelligence) {
+		this.intelligence = intelligence;
+	}
+	public int getPower() {
+		return power;
+	}

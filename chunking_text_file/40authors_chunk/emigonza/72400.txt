@@ -1,0 +1,10 @@
+public class HardTotalsBeanInfo
+  extends SimpleBeanInfo
+{
+  public BeanDescriptor getBeanDescriptor()
+  {
+    return new BeanDescriptor(jpos.HardTotals.class);
+  }
+
+  public PropertyDescriptor makeProperty(String propertyName)
+    throws IntrospectionException

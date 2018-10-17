@@ -1,0 +1,10 @@
+            return null;
+        else
+            return subtrees[subtreeIndex].getDuplicate(v);    
+    }
+
+    /** returns -1 if the specified vector = rootV
+     */
+    private int getSubtreeIndexForVector(Vector3D v)
+    {
+        int comparisonValue = compareVectors(rootV, v);

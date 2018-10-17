@@ -1,0 +1,10 @@
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+class SizedFrame extends JFrame
+{
+   public SizedFrame()
+   {

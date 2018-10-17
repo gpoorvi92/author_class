@@ -1,0 +1,10 @@
+     *
+     */
+    public int removeCachedPhoto(SeafCachedPhoto cp) {
+        // unused method
+        // check if the file deletion succeeds
+        return dbHelper.removePhotoCacheItem(cp);
+    }
+
+    public void onPhotoUploadSuccess(final String repoName, final String repoID, final String path) {
+        ConcurrentAsyncTask.execute(new Runnable() {

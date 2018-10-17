@@ -1,0 +1,4 @@
+		// 设置窗体可见
+		f.setVisible(true);
+	}
+}

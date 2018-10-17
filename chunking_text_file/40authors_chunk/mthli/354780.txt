@@ -1,0 +1,10 @@
+      }
+   }
+
+   /**
+    * Sets the title property.
+    * @param t the new chart title.
+    */
+   @Property
+   public void setTitle(String t)
+   {

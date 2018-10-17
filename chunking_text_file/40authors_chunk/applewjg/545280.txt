@@ -1,0 +1,10 @@
+ Solution: 1. Time O(n^2), Space O(n^2)
+           2. Time O(n^2), Space O(n)
+           3. Time O(n^2), Space O(1) (actually much more efficient than 1 & 2)
+           4. Time O(n), Space O(n) (Manacher's Algorithm)
+           5. Time O(n), Smaller Space than solution 4. (Manacher's Algorithm)
+ */
+
+public class Solution {
+    public String longestPalindrome_1(String s) {
+        int n = s.length();

@@ -1,0 +1,10 @@
+
+		@Override
+		protected void doRun() throws Exception {
+			queue.put(String.valueOf(i++));
+			consumer.terminationToken.reservations.incrementAndGet();
+		}
+
+	};
+
+	private class Consumer extends AbstractTerminatableThread {

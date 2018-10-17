@@ -1,0 +1,9 @@
+    	public JTextField day_overdue_text = new JTextField(10);
+    	public JTextField amount_fine_text = new JTextField(10);
+    	public JTextField amount_collected_text = new JTextField(10);
+    	
+    	public JTextField yeah = new JTextField("a");
+    	
+    	public ImageIcon icon = new ImageIcon("");
+	
+}

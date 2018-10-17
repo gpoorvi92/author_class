@@ -1,0 +1,10 @@
+    }
+
+    public searchAllEng_result deepCopy() {
+      return new searchAllEng_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;

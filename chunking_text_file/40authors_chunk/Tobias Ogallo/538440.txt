@@ -1,0 +1,10 @@
+		cboCat.addItem("Supervisor");
+		cboCat.addItem("Booking Clerk");
+		
+		Login=new JButton ("Login",new ImageIcon("Icon/i16x16/ok.png"));
+		Cancel=new JButton("Cancel",new ImageIcon("Icon/i16x16/exit.png"));
+		
+		t1=new JLabel("Enter your username and password");
+		t1.setFont(new Font("sansserif", Font.BOLD, 10));
+		username.setForeground(Color.blue);
+		password.setForeground(Color.blue);

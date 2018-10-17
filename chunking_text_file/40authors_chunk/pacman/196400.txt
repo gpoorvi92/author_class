@@ -1,0 +1,10 @@
+			
+			throw new MQException("Fail to listen to topic!", e);
+		}
+	}
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: closeTopicListener
+	 * @throws MQException
+	 * @see com.yeshj.pacman.jms.IMQFactory#closeTopicListener()

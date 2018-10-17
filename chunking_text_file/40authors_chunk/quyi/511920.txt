@@ -1,0 +1,10 @@
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("reportNodeManagerConfig", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        reportNodeManagerConfig_args args = new reportNodeManagerConfig_args();
+        args.setNodeId(nodeId);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+
+      public String getResult() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException {
+        if (getState() != org.apache.thrift.async.TAsyncMethodCall.State.RESPONSE_READ) {

@@ -1,0 +1,10 @@
+{
+	public NodeList() 
+	{
+	}
+	
+	public Node getNode(int n)
+	{
+		return (Node)get(n);
+	}
+

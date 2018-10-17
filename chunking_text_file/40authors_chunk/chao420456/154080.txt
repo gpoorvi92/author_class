@@ -1,0 +1,10 @@
+//乒乓球运动员类
+class PingPangPlayer extends Player implements SpeakEnglish {
+	public PingPangPlayer() {}
+
+	public PingPangPlayer(String name,int age) {
+		super(name,age);
+	}
+
+	public void speak() {
+		System.out.println("乒乓球运动员学说英语");

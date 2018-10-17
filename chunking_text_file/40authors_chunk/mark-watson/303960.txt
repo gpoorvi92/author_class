@@ -1,0 +1,10 @@
+            return ret;  // we are done!
+        }
+        int [] new_nodes = connected_nodes(path, num_path);
+        if (new_nodes != null) {
+            for (int j=0; j<new_nodes.length; j++) {
+                path[num_path] = new_nodes[j];
+                int [] test = findPathHelper(path, num_path + 1, goal_node);
+                if (test != null) {
+                    if (test[test.length - 1] == goal_node) {
+                        return test;

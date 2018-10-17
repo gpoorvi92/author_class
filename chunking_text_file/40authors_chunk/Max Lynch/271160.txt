@@ -1,0 +1,10 @@
+            notifyListeners();
+	}
+	
+	int getWidth() {
+            int w = Math.abs(x1-x2);
+            if(mouse3or4)
+            	w = Math.abs(x4-x3);
+       
+            if(w != 0) return w;
+            return 1;

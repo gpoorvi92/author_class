@@ -1,0 +1,10 @@
+
+  /////////////////////////////////////////////////////////////////////
+  // "writeData" Method, "action" Parameter Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_STORE_DATA     = 21;
+  public static final int SC_STORE_PROGRAM  = 22;
+  public static final int SC_EXECUTE_DATA   = 23;
+  public static final int SC_XML_BLOCK_DATA = 24;
+  public static final int SC_SECURITY_FUSE  = 25;

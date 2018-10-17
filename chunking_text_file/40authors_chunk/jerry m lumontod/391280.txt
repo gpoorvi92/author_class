@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.utils.src.gui;
+
+import java.io.Serializable;
+import java.util.Comparator;
+
+
+
+public abstract class NamePair implements Comparator, Serializable, Comparable
+{

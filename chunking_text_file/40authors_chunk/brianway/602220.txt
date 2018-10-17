@@ -1,0 +1,10 @@
+        System.out.println("A计划时间为：" + runDate);
+
+        Calendar calendar2 = Calendar.getInstance();
+        calendar2.add(Calendar.SECOND, 5);
+        Date runDate2 = calendar2.getTime();
+        System.out.println("B计划时间为：" + runDate2);
+
+        TaskA task1 = new TaskA();
+        TaskB task2 = new TaskB();
+        Timer timer = new Timer();

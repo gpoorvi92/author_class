@@ -1,0 +1,10 @@
+      fontList.setCellRenderer(new FontCellRenderer());
+      JScrollPane scrollPane = new JScrollPane(fontList);
+
+      JPanel p = new JPanel();
+      p.add(scrollPane);
+      fontList.addListSelectionListener(new ListSelectionListener()
+         {
+            public void valueChanged(ListSelectionEvent evt)
+            {
+               Font font = fontList.getSelectedValue();

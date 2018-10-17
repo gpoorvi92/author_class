@@ -1,0 +1,10 @@
+ Note:
+ Bonus points if you could solve it both recursively and iteratively.
+
+ Solution: 1. Recursive solution
+ */
+
+/**
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;

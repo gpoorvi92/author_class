@@ -1,0 +1,10 @@
+		}
+	}
+	/**
+	 * 初始化账号密码。
+	 * @throws IOException 
+	 * */
+	public void init() throws IOException{
+		try{
+			this.userAuthentication.init("admin", "123");
+			this.writeJson("初始化账号［admin］完成！");

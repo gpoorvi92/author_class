@@ -1,0 +1,10 @@
+ 						JOptionPane.showMessageDialog(null, "insert");	
+ 				int result = statement.executeUpdate(query);
+ 				
+ 				
+ 				
+ 				String query2 = "INSERT INTO video_detail (item_id, type, category" + 
+ 							") VALUES ('" +
+ 					a +"','" +
+ 					type_combo.getSelectedItem() +"','" +
+ 					category_combo.getSelectedItem() +"')";

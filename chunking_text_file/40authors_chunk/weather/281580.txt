@@ -1,0 +1,10 @@
+ * permanently allocated pool of buffers in order to gain heap performance improvements; that is
+ * what this class does.
+ * <p>
+ * A good candidate user for this class is something like an I/O system that uses large temporary
+ * <code>byte[]</code> buffers to copy data around. In these use cases, often the consumer wants
+ * the buffer to be a certain minimum size to ensure good performance (e.g. when copying data chunks
+ * off of a stream), but doesn't mind if the buffer is larger than the minimum. Taking this into
+ * account and also to maximize the odds of being able to reuse a recycled buffer, this class is
+ * free to return buffers larger than the requested size. The caller needs to be able to gracefully
+ * deal with getting buffers any size over the minimum.

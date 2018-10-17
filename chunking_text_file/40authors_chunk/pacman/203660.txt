@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public void run() {
+
+		if (gMsgManager == null) {
+			
+			//logger.warn(PREFIX + " Empty manager, ignored!");
+			return;
+		}
+		Message msg = null;

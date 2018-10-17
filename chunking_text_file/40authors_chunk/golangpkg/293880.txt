@@ -1,0 +1,10 @@
+			Assert.assertThat(assertt, CoreMatchers.is(false));
+		}
+	}
+
+	
+	@Test
+	public void testStreamExpectedToBeClosed() throws ExecutionException {
+		UUID randomUUID = UUID.randomUUID();
+		rateLimiterConfigurationManager.configurationMap.put(randomUUID, new RequestUploadProcessingConfiguration());
+		Assert.assertThat(rateLimiterConfigurationManager.configurationMap.get(randomUUID).isPaused(), CoreMatchers.is(false));

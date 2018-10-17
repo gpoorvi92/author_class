@@ -1,0 +1,10 @@
+        struct.setScreenShotPathIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.imageContent = iprot.readString();
+        struct.setImageContentIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.checkResult = iprot.readString();
+        struct.setCheckResultIsSet(true);
+      }

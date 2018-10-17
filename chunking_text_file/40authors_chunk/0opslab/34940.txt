@@ -1,0 +1,10 @@
+     * 全角对应于ASCII表的可见字符从！开始，偏移值为65281
+     */
+    static final char SBC_CHAR_START = 65281; // 全角！
+
+    /**
+     * 全角对应于ASCII表的可见字符到～结束，偏移值为65374
+     */
+    static final char SBC_CHAR_END = 65374; // 全角～
+
+    /**

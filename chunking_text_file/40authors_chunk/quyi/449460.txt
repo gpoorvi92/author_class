@@ -1,0 +1,10 @@
+
+    public void send_searchApp(String missionId, String userAppId) throws org.apache.thrift.TException
+    {
+      searchApp_args args = new searchApp_args();
+      args.setMissionId(missionId);
+      args.setUserAppId(userAppId);
+      sendBase("searchApp", args);
+    }
+
+    public com.nercis.isscp.idl.Sample recv_searchApp() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException

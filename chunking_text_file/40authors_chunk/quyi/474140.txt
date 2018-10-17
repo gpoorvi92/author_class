@@ -1,0 +1,10 @@
+    private static class genMissionId_argsStandardSchemeFactory implements SchemeFactory {
+      public genMissionId_argsStandardScheme getScheme() {
+        return new genMissionId_argsStandardScheme();
+      }
+    }
+
+    private static class genMissionId_argsStandardScheme extends StandardScheme<genMissionId_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, genMissionId_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;

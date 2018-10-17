@@ -1,0 +1,4 @@
+        String s = new String("中文".getBytes("UTF-8"), "UTF-8");
+        System.out.println(s);
+    }
+}

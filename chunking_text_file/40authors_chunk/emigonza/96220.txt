@@ -1,0 +1,10 @@
+     */
+    private Tracer() {}
+
+    //--------------------------------------------------------------------------
+    // Public class methods
+    //
+
+    /**
+     * @return the sole instance of this class (creating it if necessary)
+     * @since 1.2 (NY 2K meeting)

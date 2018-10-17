@@ -1,0 +1,10 @@
+      salary = s;
+      GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+      hireDay = calendar.getTime();
+   }
+
+   public String getName()
+   {  
+      return name;
+   }
+

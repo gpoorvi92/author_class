@@ -1,0 +1,10 @@
+     * The buffer is not fully cleared and any new set operations should
+     * overwrite stale data
+     */
+    void clear();
+
+    /**
+     * Reduces the internal buffer to its minimal allowable size.
+     * This can free memory.
+     */
+    void trim();

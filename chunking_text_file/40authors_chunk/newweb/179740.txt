@@ -1,0 +1,10 @@
+	public List selectAllSmalls(int start, int limit) {
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_small order by valid DESC,buycount desc,type desc,CONVERT(name USING GBK)")
+				.addEntity(Small.class);
+		int size = query.list().size();
+		query.setFirstResult(start);
+		query.setMaxResults(limit);
+		list.add(0, size);
+		list.add(1, query.list());
+		return list;

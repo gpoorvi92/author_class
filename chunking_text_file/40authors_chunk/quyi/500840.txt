@@ -1,0 +1,10 @@
+      sb.append(this.nodeId);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("cpuUsedPerc:");
+    sb.append(this.cpuUsedPerc);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("freeMem:");
+    sb.append(this.freeMem);

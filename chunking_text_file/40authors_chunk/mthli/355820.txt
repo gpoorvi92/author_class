@@ -1,0 +1,10 @@
+         });
+
+      // add buttons to southern border
+
+      JPanel buttonPanel = new JPanel();
+      buttonPanel.add(okButton);
+      buttonPanel.add(cancelButton);
+      add(buttonPanel, BorderLayout.SOUTH);
+   }
+

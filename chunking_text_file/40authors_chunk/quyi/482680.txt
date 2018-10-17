@@ -1,0 +1,10 @@
+    }
+
+    public com.nercis.isscp.idl.DynamicCheckResultData getDycRD() {
+      return this.dycRD;
+    }
+
+    public updateAppStatus_args setDycRD(com.nercis.isscp.idl.DynamicCheckResultData dycRD) {
+      this.dycRD = dycRD;
+      return this;
+    }

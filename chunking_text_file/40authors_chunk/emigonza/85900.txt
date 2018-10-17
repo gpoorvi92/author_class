@@ -1,0 +1,10 @@
+  public void    writeTagID(byte[] sourceID,
+                            byte[] destID,
+                            int timeout,
+                            byte[] password)
+                     throws JposException;
+
+  // Event listener methods
+  public void    addDataListener(DataListener l);
+  public void    removeDataListener(DataListener l);
+  public void    addDirectIOListener(DirectIOListener l);

@@ -1,0 +1,10 @@
+    public synchronized void reset()
+        throws IOException
+    {
+        try
+        {
+            in.reset();
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);

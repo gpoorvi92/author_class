@@ -1,0 +1,10 @@
+	}
+
+	public Node getFaultDetailNode()
+	{
+		Node faultNode = getFaultNode();
+		if (faultNode == null)
+			return null;
+		return faultNode.getNodeEndsWith(SOAP.DETAIL);
+	}
+

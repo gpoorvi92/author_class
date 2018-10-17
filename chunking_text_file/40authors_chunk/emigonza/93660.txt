@@ -1,0 +1,10 @@
+    public boolean getCapAdditionalSecurityInformation() throws JposException;
+    public boolean getCapAuthorizeCompletion() throws JposException;
+    public boolean getCapAuthorizePreSales() throws JposException;
+    public boolean getCapAuthorizeRefund() throws JposException;
+    public boolean getCapAuthorizeVoid() throws JposException;
+    public boolean getCapAuthorizeVoidPreSales() throws JposException;
+    public boolean getCapCenterResultCode() throws JposException;
+    public boolean getCapCheckCard() throws JposException;
+    public int     getCapDailyLog() throws JposException;
+    public boolean getCapInstallments() throws JposException;

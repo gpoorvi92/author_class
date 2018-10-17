@@ -1,0 +1,10 @@
+    }
+
+    public File getFile()
+    {
+        return outputFile;
+    }
+
+    public void close()
+        throws IOException
+    {

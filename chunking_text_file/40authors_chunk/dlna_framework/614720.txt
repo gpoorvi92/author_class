@@ -1,0 +1,10 @@
+	public DatagramSocket getUDPSocket(){
+		return ssdpUniSock;
+	}	
+	
+	public String getLocalAddress()
+	{
+		if (0 < localAddr.length())
+			return localAddr;
+		return ssdpUniSock.getLocalAddress().getHostAddress();
+	}

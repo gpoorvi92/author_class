@@ -1,0 +1,10 @@
+            com.nercis.isscp.idl.UserApp _elem49;
+            _elem49 = new com.nercis.isscp.idl.UserApp();
+            _elem49.read(iprot);
+            struct.userApps.add(_elem49);
+          }
+        }
+        struct.setUserAppsIsSet(true);
+        BitSet incoming = iprot.readBitSet(2);
+        if (incoming.get(0)) {
+          {

@@ -1,0 +1,10 @@
+              JCheckBox jc = (JCheckBox) checkboxList.get(j + (16*i));
+              if ( jc.isSelected()) {
+                 trackList[j] = key;
+              } else {
+                 trackList[j] = 0;
+              }                    
+           } // close inner loop
+         
+           makeTracks(trackList);
+           track.add(makeEvent(176,1,127,0,16));  

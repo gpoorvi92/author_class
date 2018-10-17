@@ -1,0 +1,10 @@
+            float error = nn.train();
+            if (i > 0 && i % 500 == 0) {
+                //
+                // If the error is too large, slightly randomize weights:
+                if (error > 0.75)  {
+                    nn.randomizeWeights();
+                    nn.TRAINING_RATE = 0.75f;
+                } else if (error > 0.3)  {
+                    nn.slightlyRandomizeWeights();
+                }

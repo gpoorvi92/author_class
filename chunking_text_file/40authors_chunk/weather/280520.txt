@@ -1,0 +1,10 @@
+
+/**
+ * An interface for a cache keyed by a String with a byte array as data.
+ */
+public interface Cache {
+    /**
+     * Retrieves an entry from the cache.
+     * @param key Cache key
+     * @return An {@link com.android.wpvolley.Cache.Entry} or null in the event of a cache miss
+     */

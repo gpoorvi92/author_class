@@ -1,0 +1,10 @@
+    private Message edited_message;
+    private InlineQuery inline_query;
+    private ChosenInlineResult chosen_inline_result;
+    private CallbackQuery callback_query;
+
+    public Integer updateId() {
+        return update_id;
+    }
+
+    public Message message() {

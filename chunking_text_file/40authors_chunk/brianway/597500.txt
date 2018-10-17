@@ -1,0 +1,10 @@
+    /**
+     * 验证同步sychronized(class)代码块的作用
+     */
+    public static void testBlock() {
+        final ServiceSub service1 = new ServiceSub();
+        final ServiceSub service2 = new ServiceSub();
+
+        Thread a = new Thread() {
+            @Override
+            public void run() {

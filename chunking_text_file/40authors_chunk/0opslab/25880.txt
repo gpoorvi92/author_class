@@ -1,0 +1,10 @@
+
+    /**
+     * 将JavaBean进行解析并存在在static变量中
+     *
+     * @param obj
+     */
+    public static void add(Object obj) throws IntrospectionException, ClassNotFoundException {
+        add(obj.getClass());
+    }
+

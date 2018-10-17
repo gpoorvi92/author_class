@@ -1,0 +1,10 @@
+  }
+
+  public void unsetDynamicCheckResult() {
+    this.dynamicCheckResult = null;
+  }
+
+  /** Returns true if field dynamicCheckResult is set (has been assigned a value) and false otherwise */
+  public boolean isSetDynamicCheckResult() {
+    return this.dynamicCheckResult != null;
+  }

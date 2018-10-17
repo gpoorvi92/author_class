@@ -1,0 +1,6 @@
+    //    private static final BridgeJoint bridgeJoint = new BridgeJoint();
+    //    public static BridgeJoint getInstance()
+    //    {
+    //        return bridgeJoint;
+    //    }
+}

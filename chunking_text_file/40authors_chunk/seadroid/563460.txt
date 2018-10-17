@@ -1,0 +1,10 @@
+        try {
+            dataManager.createNewDir(repoID, parentDir, dirName);
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+}
+
+public class NewDirDialog extends TaskDialog {
+

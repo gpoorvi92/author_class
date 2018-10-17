@@ -1,0 +1,10 @@
+
+      public reportEngineConfig_result getResult(I iface, reportEngineConfig_args args) throws org.apache.thrift.TException {
+        reportEngineConfig_result result = new reportEngineConfig_result();
+        try {
+          result.success = iface.reportEngineConfig();
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }

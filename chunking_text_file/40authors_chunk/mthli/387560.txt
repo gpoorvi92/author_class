@@ -1,0 +1,10 @@
+/**
+ * A component that shows a set of colored rectangles
+ */
+public class RectangleComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   private java.util.List<Rectangle2D> rects;
+   private java.util.List<Color> colors;

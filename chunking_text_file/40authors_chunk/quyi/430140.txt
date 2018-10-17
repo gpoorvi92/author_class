@@ -1,0 +1,10 @@
+  private static class VirusEngineTupleSchemeFactory implements SchemeFactory {
+    public VirusEngineTupleScheme getScheme() {
+      return new VirusEngineTupleScheme();
+    }
+  }
+
+  private static class VirusEngineTupleScheme extends TupleScheme<VirusEngine> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, VirusEngine struct) throws org.apache.thrift.TException {

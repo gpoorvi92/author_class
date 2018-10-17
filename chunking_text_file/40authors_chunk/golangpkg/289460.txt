@@ -1,0 +1,10 @@
+	private File[] files = new File[number];
+
+
+
+	@Before
+	public void writeFiles()
+			throws IOException {
+		for (int i = 0; i < number; i++) {
+			if (i % 2 == 0) {
+				File file = new File(staticStateRootFolderProvider.getRootFolder(), i + "testdir");

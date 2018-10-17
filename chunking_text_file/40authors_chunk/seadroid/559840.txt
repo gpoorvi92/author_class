@@ -1,0 +1,10 @@
+
+    }
+
+    public CustomClearableEditText(Context context) {
+        super(context);
+        // TODO Auto-generated constructor stub
+        initViews();
+    }
+
+    void initViews() {

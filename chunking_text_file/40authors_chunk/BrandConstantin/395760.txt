@@ -1,0 +1,7 @@
+        for (numero = a - 1; numero > 0; numero--) {
+            System.out.print(numero);
+        }
+        System.out.println();
+    }
+  }
+}

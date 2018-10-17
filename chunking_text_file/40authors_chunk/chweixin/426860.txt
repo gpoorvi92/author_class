@@ -1,0 +1,10 @@
+		return size;
+	}
+	/**
+	 * 设置图片大小(K).
+	 * @param size
+	 * 图片大小(K).
+	 * */
+	public void setSize(Long size) {
+		this.size = size;
+	}

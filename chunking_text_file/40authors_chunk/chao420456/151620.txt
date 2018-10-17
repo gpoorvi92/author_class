@@ -1,0 +1,10 @@
+	public Teacher(String name,int age) {
+		super(name,age);
+	}
+
+	public void study() {
+		System.out.println("老师要学习如何把知识讲明白");
+	}
+}
+
+//部分抽烟老师

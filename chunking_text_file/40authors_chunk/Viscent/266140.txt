@@ -1,0 +1,10 @@
+	public String operationName;
+	public String srcDevice="ESB";
+	public String dstDevice;
+	public String traceId;
+	public String selfIPAddress="192.168.1.102";
+	public String calling="13612345678";
+	public String callee="136712345670";
+	@Override
+  public String toString() {
+	  return "LogEntry [timeStamp=" + timeStamp + ", interfaceType="

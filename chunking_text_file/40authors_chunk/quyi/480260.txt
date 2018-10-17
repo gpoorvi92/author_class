@@ -1,0 +1,10 @@
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public queryMission_args(queryMission_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }
+    }
+

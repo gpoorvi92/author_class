@@ -1,0 +1,10 @@
+      } else {
+        setDeviceType((DeviceType)value);
+      }
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {

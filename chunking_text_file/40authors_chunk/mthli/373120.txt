@@ -1,0 +1,10 @@
+      }
+      catch (IOException e)
+      {  
+         e.printStackTrace();
+      }
+   }
+}
+
+/**
+   This class handles the client input for one server socket connection. 

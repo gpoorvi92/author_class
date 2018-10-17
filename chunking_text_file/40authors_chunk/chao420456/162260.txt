@@ -1,0 +1,10 @@
+ *  第二个相邻：a=1,b=2
+ *  第三个相邻：a=2,b=3
+ *  第四个相邻：a=3,b=5
+ *  ...
+ *  每次下一个相邻的a是以前的b，b是以前的a+b
+ */
+public class DiGuiTest {
+	public static void main(String[] args) {
+		// 用数组做
+		int[] arr = new int[20];

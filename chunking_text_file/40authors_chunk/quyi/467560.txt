@@ -1,0 +1,10 @@
+
+  public String getRuleName() {
+    return this.ruleName;
+  }
+
+  public Rules setRuleName(String ruleName) {
+    this.ruleName = ruleName;
+    return this;
+  }
+

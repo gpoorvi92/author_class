@@ -1,0 +1,10 @@
+	// }
+
+	@Override
+	public void run() {
+		while (true) {
+			try {
+				// ¼ÓËø
+				lock.lock();
+
+				if (tickets > 0) {

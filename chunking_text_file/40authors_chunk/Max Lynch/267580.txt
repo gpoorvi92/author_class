@@ -1,0 +1,10 @@
+		{
+			_instance = new GUIStudio();
+		}
+		return _instance;
+	}
+	
+	
+	public GraphicsFrame getGraphicsFrame()
+	{
+		return MAIN_FRAME;

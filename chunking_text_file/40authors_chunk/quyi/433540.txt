@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetCpu();
+      } else {
+        setCpu((Integer)value);
+      }
+      break;
+
+    case RSS:
+      if (value == null) {
+        unsetRss();

@@ -1,0 +1,10 @@
+   /**
+    * Sets the indexed values property.
+    * @param i the index of the value to set
+    * @param value the new value for that index
+    */
+   @Property(editor = "DoubleArrayEditor")
+   public void setValues(int i, double value)
+   {
+      if (0 <= i && i < values.length) values[i] = value;
+   }

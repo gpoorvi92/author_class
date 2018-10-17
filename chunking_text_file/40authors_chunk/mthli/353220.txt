@@ -1,0 +1,10 @@
+            cipher.init(Cipher.WRAP_MODE, publicKey);
+            byte[] wrappedKey = cipher.wrap(key);
+            out.writeInt(wrappedKey.length);
+            out.write(wrappedKey);
+         
+            cipher = Cipher.getInstance("AES");
+            cipher.init(Cipher.ENCRYPT_MODE, key);
+            Util.crypt(in, out, cipher);            
+         }         
+      }

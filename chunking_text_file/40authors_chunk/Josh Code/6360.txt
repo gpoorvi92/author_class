@@ -1,0 +1,10 @@
+        if (progress-progressAtLastPaint>0.01 || msg!=null)
+           repaint();
+    }
+
+    public void loadComplete()
+    {
+        completed = true;
+        progress = 1.0;
+        repaint();
+    }

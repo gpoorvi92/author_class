@@ -1,0 +1,10 @@
+    this.filePath = filePath;
+    return this;
+  }
+
+  public void unsetFilePath() {
+    this.filePath = null;
+  }
+
+  /** Returns true if field filePath is set (has been assigned a value) and false otherwise */
+  public boolean isSetFilePath() {

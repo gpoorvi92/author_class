@@ -1,0 +1,10 @@
+		this.type = type;
+		this.status = status;
+		this.err = err;
+		this.guid = guid;
+		this.free = free;
+	}
+
+	/**
+	 * Private field tid Getter method.
+	 * @return tid 

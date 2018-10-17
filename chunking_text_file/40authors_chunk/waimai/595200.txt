@@ -1,0 +1,10 @@
+
+    @RequestMapping("/add")
+    public ModelAndView add(Admin admin) {
+        try {
+            adminService.add(admin);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("添加成功", "admin_list");
+    }

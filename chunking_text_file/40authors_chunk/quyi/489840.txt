@@ -1,0 +1,10 @@
+                  struct.plotsStatus = new HashMap<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>(2*_map70.size);
+                  for (int _i71 = 0; _i71 < _map70.size; ++_i71)
+                  {
+                    com.nercis.isscp.idl.PlotsType _key72;
+                    com.nercis.isscp.idl.CheckResultStatus _val73;
+                    _key72 = com.nercis.isscp.idl.PlotsType.findByValue(iprot.readI32());
+                    _val73 = com.nercis.isscp.idl.CheckResultStatus.findByValue(iprot.readI32());
+                    struct.plotsStatus.put(_key72, _val73);
+                  }
+                  iprot.readMapEnd();

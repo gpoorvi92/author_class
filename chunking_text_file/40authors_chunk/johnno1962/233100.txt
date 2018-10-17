@@ -1,0 +1,10 @@
+
+    public void dragExit( java.awt.dnd.DropTargetEvent dte ) {
+        __dragExit( dte );
+    }
+
+    /// public abstract void java.awt.dnd.DropTargetListener.drop(java.awt.dnd.DropTargetDropEvent)
+
+    public native void __drop( java.awt.dnd.DropTargetDropEvent dtde );
+
+    public void drop( java.awt.dnd.DropTargetDropEvent dtde ) {

@@ -1,0 +1,10 @@
+*	11/19/02
+*		- first revision.
+*	05/26/04
+*		- Jan Newmarch <jan.newmarch@infotech.monash.edu.au> (05/26/04)
+*		- Fixed getValue() to compare using String::equals() instead of String::startWidth().
+*	
+******************************************************************/
+
+package org.cybergarage.http;
+

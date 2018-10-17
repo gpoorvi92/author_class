@@ -1,0 +1,10 @@
+      return lastComparison;
+    }
+    if (isSetFeaturesCharacters()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.featuresCharacters, other.featuresCharacters);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetApiCheck()).compareTo(other.isSetApiCheck());
+    if (lastComparison != 0) {

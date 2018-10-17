@@ -1,0 +1,10 @@
+		}
+	}
+
+	@Override
+	public void didReceiveData(DownloaderWorker downloaderWorker, byte[] data, int byteRead) {
+		try {
+			this.outputStream.write(data, 0, byteRead);
+			this.setBytesWritten(this.getBytesWritten() + byteRead);
+			this.calculateKBPerSecond();
+			this.setPercentComplete();

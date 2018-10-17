@@ -1,0 +1,10 @@
+	public String getOperation() {
+		return operation;
+	}
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
+	@Column
+	public int getFdwCount() {
+		return fdwCount;
+	}

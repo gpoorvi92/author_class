@@ -1,0 +1,10 @@
+    /** Property value for deviceBus for RS232 */
+    public static final String RS232_DEVICE_BUS = "RS232";
+
+    /** Property value for deviceBus for standard Parallel ports */
+    public static final String PARALLEL_DEVICE_BUS = "Parallel";
+
+    /** Property value for deviceBus for USB */
+    public static final String USB_DEVICE_BUS = "USB";
+
+    /** Property value for deviceBus for RS485 (or SIO) */

@@ -1,0 +1,10 @@
+	}
+
+	class ActTypeAdapter extends BaseAdapter {
+
+		private int mLayoutId;
+		private ActType[] array;
+		private Activity mContext;
+
+		public ActTypeAdapter(Activity context, ActType[] arrays) {
+			mLayoutId = R.layout.ite_act_type;

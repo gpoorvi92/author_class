@@ -1,0 +1,10 @@
+
+import java.lang.reflect.Type;
+import java.util.Date;
+
+/**
+ */
+public class JsonUtil {
+
+    private static JsonUtil instance;
+    private Gson gson;

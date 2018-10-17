@@ -1,0 +1,7 @@
+this.getName()=Thread-0
+CountOperate---end
+run---begin
+Thread.currentThread().getName()=A
+this.getName()=Thread-0
+run---end
+ */

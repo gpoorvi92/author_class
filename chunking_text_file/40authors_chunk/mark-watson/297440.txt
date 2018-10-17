@@ -1,0 +1,10 @@
+package search.graph;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GraphBreadthFirstSearch extends JFrame {
+  JPanel jPanel1 = new JPanel();
+
+  public GraphBreadthFirstSearch() {
+    BreadthFirstSearch engine = new BreadthFirstSearch();

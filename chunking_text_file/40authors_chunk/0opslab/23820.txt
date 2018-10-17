@@ -1,0 +1,10 @@
+                return entry.getKey();
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Created on 2010-7-1
+     * <p>Discription:[getFileHexString]</p>
+     *

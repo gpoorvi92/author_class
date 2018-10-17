@@ -1,0 +1,10 @@
+					{
+						ex.printStackTrace();
+						pic.setIcon(userPic);
+					}
+					
+					String query1 = "SELECT * FROM patronmaster " + 
+ 								"WHERE id = '" + 
+ 								patron_text.getText() +"'";
+					
+					ResultSet rs1 = statement.executeQuery(query1);

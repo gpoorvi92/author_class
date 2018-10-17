@@ -1,0 +1,10 @@
+			getSocket().close();
+		}
+		catch (Exception e) {
+			//Debug.warning(e);
+			return false;
+		}
+		return true;
+	}
+	
+	////////////////////////////////////////////////

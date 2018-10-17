@@ -1,0 +1,10 @@
+          case 3: // FILE_PATH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.filePath = iprot.readString();
+              struct.setFilePathIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // OPERATE_CONTENT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {

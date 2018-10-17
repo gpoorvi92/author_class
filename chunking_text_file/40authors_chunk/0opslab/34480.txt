@@ -1,0 +1,10 @@
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ *
+ */
+public interface ITableRenderer {
+  /**
+   * Render in any way: write to a stream, a file, display as widget... 
+   *
+   */
+  public void render(TableModel model)throws Exception;
+}

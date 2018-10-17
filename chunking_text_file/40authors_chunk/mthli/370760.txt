@@ -1,0 +1,10 @@
+      String pattern = ((SimpleDateFormat) DateFormat.getDateInstance()).toPattern();
+      betterDateSpinner.setEditor(new JSpinner.DateEditor(betterDateSpinner, pattern));
+      addRow("Better Date", betterDateSpinner);
+      
+      JSpinner timeSpinner = new JSpinner(new SpinnerDateModel());
+      pattern = ((SimpleDateFormat) DateFormat.getTimeInstance(DateFormat.SHORT)).toPattern();
+      timeSpinner.setEditor(new JSpinner.DateEditor(timeSpinner, pattern));
+      addRow("Time", timeSpinner);
+
+      JSpinner permSpinner = new JSpinner(new PermutationSpinnerModel("meat"));

@@ -1,0 +1,10 @@
+
+	private final Pipe<IN, OUT> delegate;
+
+	public WorkerThreadPipeDecorator(Pipe<IN, OUT> delegate, int workerCount) {
+		this(new SynchronousQueue<IN>(), delegate, workerCount);
+	}
+
+	public WorkerThreadPipeDecorator(BlockingQueue<IN> workQueue,
+	    Pipe<IN, OUT> delegate, int workerCount) {
+		if (workerCount <= 0) {

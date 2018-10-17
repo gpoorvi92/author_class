@@ -1,0 +1,10 @@
+    public void release() {
+        if (mSegmentPlayer == null)
+            return;
+        mSegmentPlayer.release();
+    }
+
+    @Override
+    public void reset() {
+        if (mSegmentPlayer == null)
+            return;

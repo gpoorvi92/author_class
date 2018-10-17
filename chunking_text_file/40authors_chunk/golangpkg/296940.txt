@@ -1,0 +1,10 @@
+	/**
+	 * Fired when the upload of the file specified by the fileId is finished for the client
+	 * specified by the clientId.
+	 * 
+	 * @param clientId
+	 * @param fileId
+	 */
+	void onFileUploadEnd(UUID clientId, UUID fileId);
+
+

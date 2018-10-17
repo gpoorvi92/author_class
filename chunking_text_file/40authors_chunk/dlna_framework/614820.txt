@@ -1,0 +1,10 @@
+			ssdpUniSock.setReuseAddress(true);
+			ssdpUniSock.bind(bindInetAddr);
+			return true;
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+		*/
+		

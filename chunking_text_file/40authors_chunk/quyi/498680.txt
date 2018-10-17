@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_fileDescription = true && this.isSetFileDescription();
+    boolean that_present_fileDescription = true && that.isSetFileDescription();
+    if (this_present_fileDescription || that_present_fileDescription) {
+      if (!(this_present_fileDescription && that_present_fileDescription))
+        return false;
+      if (!this.fileDescription.equals(that.fileDescription))
+        return false;

@@ -1,0 +1,8 @@
+                lock.notify();
+                System.out.println("notify end timer=" + System.currentTimeMillis());
+                isFirstRunNotify = true;
+            }
+
+        }
+    };
+}

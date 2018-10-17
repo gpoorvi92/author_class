@@ -1,0 +1,10 @@
+   public void setValues(double[] newValue)
+   {
+      if (bean == null) return;
+      double[] oldValue = bean.getValues();
+      bean.setValues(newValue);
+      firePropertyChange("values", oldValue, newValue);
+   }
+
+   /**
+    * Sets the color of the chart

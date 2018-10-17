@@ -1,0 +1,10 @@
+ */
+public class RenderQualityTestFrame extends JFrame
+{
+   private RenderQualityComponent canvas;
+   private JPanel buttonBox;
+   private RenderingHints hints;
+   private int r;
+
+   public RenderQualityTestFrame()
+   {

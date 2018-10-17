@@ -1,0 +1,10 @@
+		}
+		else {
+			for (ExceptionCodeMapping exceptionsCodeMapping : ExceptionCodeMapping.values()) {
+				if (exceptionsCodeMapping.clazz != null && exceptionsCodeMapping.clazz.isInstance(e)) {
+					return exceptionsCodeMapping;
+				}
+			}
+		}
+		return ExceptionCodeMapping.unkownError;
+	}

@@ -1,0 +1,10 @@
+    public String getLogicalName();
+
+    /**
+     * Tries to make the connection with the associated JposService
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if any errors occurs with trying to make this connection
+     */
+    public void connect() throws JposException;
+
+    /**

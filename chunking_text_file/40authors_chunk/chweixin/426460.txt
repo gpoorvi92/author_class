@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, LinkReqMessage req) {
+		return this.buildDefaultReply(context, req);
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, LocationReqMessage req) {
+		return this.buildDefaultReply(context, req);

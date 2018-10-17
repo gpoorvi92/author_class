@@ -1,0 +1,10 @@
+	}
+	
+	public void setNext(DLNode n){
+		next=n;
+	}
+	
+	public void setPrev(DLNode n){
+		prev=n;
+	}
+	

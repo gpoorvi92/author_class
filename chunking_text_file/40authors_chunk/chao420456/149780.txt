@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeMap;
+
+/*
+ * HashMap<Student,String>
+ */
+public class TreeMapDemo2 {

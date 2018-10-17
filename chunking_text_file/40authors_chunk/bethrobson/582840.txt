@@ -1,0 +1,10 @@
+package chap18;
+import java.rmi.*;
+import java.util.*;
+import java.rmi.server.*;
+
+
+public class ServiceServerImpl extends UnicastRemoteObject implements ServiceServer  {
+
+    HashMap<String, Service> serviceList;
+  

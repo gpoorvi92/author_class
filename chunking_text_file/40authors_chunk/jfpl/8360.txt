@@ -1,0 +1,10 @@
+
+	private PopupOverlay popupOverlay;
+
+	private CustomOverlayInterface locationPicker;
+
+	public LocationNearbyOverlay(Drawable defaultMarker, MapView mapView,
+			PopupOverlay popupOverlay, CustomOverlayInterface locationPicker) {
+		super(defaultMarker, mapView);
+		this.mapView = mapView;
+		this.popupOverlay = popupOverlay;

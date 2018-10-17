@@ -1,0 +1,10 @@
+            oprot.writeI32(_iter109.getValue());
+          }
+        }
+      }
+      if (struct.isSetJobPriority()) {
+        oprot.writeI32(struct.jobPriority.getValue());
+      }
+      if (struct.isSetTaskInfo()) {
+        {
+          oprot.writeI32(struct.taskInfo.size());

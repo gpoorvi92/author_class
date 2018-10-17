@@ -1,0 +1,10 @@
+
+    public String mimeType() {
+        return mime_type;
+    }
+
+    public Integer fileSize() {
+        return file_size;
+    }
+
+    @Override

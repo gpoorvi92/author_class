@@ -1,0 +1,10 @@
+	public void setOrderSmalls(Set<OrderSmall> orderSmalls) {
+		this.orderSmalls = orderSmalls;
+	}
+	
+	@Id
+	@Column(name="id")
+	public String getID() {
+		return ID;
+	}
+	public void setID(String iD) {

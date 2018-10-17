@@ -1,0 +1,10 @@
+
+	@Override
+	public short getFlag() {
+		return ClientMessageFlags.FLAG_MESSAGE_CLIENT_CONNECTION_ESTABLISH;
+	}
+
+	@Override
+	protected void onReadTransmissionData(final DataInputStream pDataInputStream) throws IOException {
+		this.mProtocolVersion = pDataInputStream.readShort();
+	}

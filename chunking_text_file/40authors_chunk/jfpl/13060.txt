@@ -1,0 +1,10 @@
+		}
+		String icon = acd.getStringValue("icon");
+		if (!StringUtil.isNull(icon)) {
+			ImageView iv = (ImageView) v.findViewById(R.id.recently_icon);
+			iv.setImageBitmap(ImageLoader.getInstance().loadImageSync(icon));
+		}
+		String desc = acd.getStringValue("recently_desc");
+		acd.putStringValue("recently_desc",
+				ChatMessageUtil.convertToClientMessage(desc));
+	}

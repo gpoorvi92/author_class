@@ -1,0 +1,6 @@
+    public void send(WebSocketFrame msg)
+    {
+        channelGroup.write(msg);
+        log.info("WebSocketServer broadcast msg {} : {}", channelGroup.size(), msg);
+    }
+}

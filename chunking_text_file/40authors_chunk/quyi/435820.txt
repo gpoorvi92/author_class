@@ -1,0 +1,10 @@
+    case FILE_OPERATE:
+      if (value == null) {
+        unsetFileOperate();
+      } else {
+        setFileOperate((List<FileOperate>)value);
+      }
+      break;
+
+    case NETWORK_PACKET:
+      if (value == null) {

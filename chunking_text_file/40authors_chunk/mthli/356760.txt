@@ -1,0 +1,10 @@
+         g2.setPaint(Color.BLACK);
+         g2.draw(rect);
+
+         // draw the centered label below the bar
+         Rectangle2D labelBounds = labelFont.getStringBounds(names[i], context);
+
+         double labelWidth = labelBounds.getWidth();
+         x = x1 + (barWidth - labelWidth) / 2;
+         g2.drawString(names[i], (float) x, (float) y);
+      }

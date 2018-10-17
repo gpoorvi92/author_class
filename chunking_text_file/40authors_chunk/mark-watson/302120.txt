@@ -1,0 +1,10 @@
+			// open a database connection:
+			Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+			Connection conn = DriverManager.getConnection("jdbc:derby:test_database;create=true");
+			System.out.println("conn: " + conn);
+			Statement s = conn.createStatement();
+			
+			// US STATES
+			try { s.execute("drop table usstates"); } catch (Exception ignore) { }
+			String sql2 = "create table usstates (name varchar(20), abbreviation char(2), industry varchar(200), agriculture varchar(200), population bigint)";
+			System.out.println(sql2);

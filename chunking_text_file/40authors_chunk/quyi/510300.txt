@@ -1,0 +1,10 @@
+
+    boolean this_present_virusEngine = true && this.isSetVirusEngine();
+    boolean that_present_virusEngine = true && that.isSetVirusEngine();
+    if (this_present_virusEngine || that_present_virusEngine) {
+      if (!(this_present_virusEngine && that_present_virusEngine))
+        return false;
+      if (!this.virusEngine.equals(that.virusEngine))
+        return false;
+    }
+

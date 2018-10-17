@@ -1,0 +1,10 @@
+package unsynch;
+
+/**
+ * A runnable that transfers money from an account to other accounts in a bank.
+ * @version 1.30 2004-08-01
+ * @author Cay Horstmann
+ */
+public class TransferRunnable implements Runnable
+{
+   private Bank bank;

@@ -1,0 +1,10 @@
+package tv.danmaku.android;
+
+import java.lang.reflect.Field;
+
+import android.os.Build;
+import android.text.TextUtils;
+
+public class BuildHelper {
+
+    public static int FROYO = 8; // June 2010: Android 2.2

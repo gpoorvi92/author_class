@@ -1,0 +1,10 @@
+				   root = ServletActionContext.getServletContext().getRealPath(folder) + File.separator;
+		File dir = new File(root);
+		if(!dir.exists()){
+			dir.mkdirs();
+			logger.info("创建目录：" + root);
+		}
+		logger.info("上传文件名:" + this.attachmentFileName);
+		logger.info("上传文件类型:" + this.attachmentContentType);
+		File srcFile = this.attachment;
+		if(srcFile  != null){

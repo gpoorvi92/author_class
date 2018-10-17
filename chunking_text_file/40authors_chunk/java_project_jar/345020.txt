@@ -1,0 +1,10 @@
+            throw new IOException((new StringBuilder()).append("Could not write to lockDir: ").append(lockDir.getAbsolutePath()).toString());
+        else
+            return;
+    }
+
+    private void createLock()
+        throws IOException
+    {
+        synchronized(org/apache/commons/io/output/LockableFileWriter)
+        {

@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class BihunGorengInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Bihun mentah yang dicelur \nCili dan kicap \nDaging atau Ayam \nSayur-sayuran \nGaram & Gula secukup rasa  ");

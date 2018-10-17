@@ -1,0 +1,10 @@
+    public static InputFileBytes photo(byte[] bytes) {
+        return new InputFileBytes(PHOTO_MIME_TYPE, bytes, PHOTO_FILE_NAME);
+    }
+
+    public static InputFileBytes audio(byte[] bytes) {
+        return new InputFileBytes(AUDIO_MIME_TYPE, bytes, AUDIO_FILE_NAME);
+    }
+
+    public static InputFileBytes video(byte[] bytes) {
+        return new InputFileBytes(VIDEO_MIME_TYPE, bytes, VIDEO_FILE_NAME);

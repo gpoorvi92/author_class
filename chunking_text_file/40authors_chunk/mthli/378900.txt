@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class EchoServer
+{
+   public static void main(String[] args) throws IOException
+   {
+      // establish server socket
+      try (ServerSocket s = new ServerSocket(8189))
+      {
+         // wait for client connection

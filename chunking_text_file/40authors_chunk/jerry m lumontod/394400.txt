@@ -1,0 +1,10 @@
+
+	public boolean AmountIsValid(String tstrAmount) {
+		boolean mbln=true;
+		double mdbl;
+		mdbl=0;
+		
+		if (tstrAmount.length()<1) {
+			mbln=false;
+			return mbln;
+		}

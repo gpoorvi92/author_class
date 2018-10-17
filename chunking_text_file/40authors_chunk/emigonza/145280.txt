@@ -1,0 +1,10 @@
+        makeProperty("CapRepayDeposit"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapJamSensor"),
+        makeProperty("CapRealTimeData"),
+
+        // Properties
+        makeProperty("AsyncMode"),

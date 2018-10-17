@@ -1,0 +1,10 @@
+	public Connection getConnection() {
+		return connection;
+	}
+	
+    protected DBObject idQuery(String id) {
+        return QueryBuilder.start("_id").is(id).get();
+    }
+    
+    protected String generateID(){
+    	return new ObjectId().toStringBabble();

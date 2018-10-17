@@ -1,0 +1,10 @@
+	public void setST(String value)
+	{
+		setHeader(HTTP.ST, value);
+	}
+
+	public String getST()
+	{
+		return getHeaderValue(HTTP.ST);
+	}
+

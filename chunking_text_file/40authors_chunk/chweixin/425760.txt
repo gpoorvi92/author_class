@@ -1,0 +1,10 @@
+		 }
+		 UserIdentity  identity = new UserIdentity();
+		 identity.setId(user.getId());
+		 identity.setName(user.getName());
+		return identity;
+	}
+	@Override
+	public void init(String account, String password) throws Exception {
+		User user = this.userDao.loadUser(account);
+		if(user != null) throw new Exception("账号已经存在不能被再次初始化！");

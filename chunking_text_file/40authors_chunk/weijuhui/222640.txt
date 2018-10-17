@@ -1,0 +1,10 @@
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class FragRecommend extends Fragment implements Runnable,
+		OnTouchListener {
+
+	public FragRecommend() {
+	}
+
+	ImageButton nearby_ib, onsale_ib,launch_ib;

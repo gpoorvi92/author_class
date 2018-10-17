@@ -1,0 +1,10 @@
+      Transformer t = TransformerFactory.newInstance().newTransformer();
+      t.setOutputProperty(OutputKeys.DOCTYPE_SYSTEM,
+            "http://www.w3.org/TR/2000/CR-SVG-20000802/DTD/svg-20000802.dtd");
+      t.setOutputProperty(OutputKeys.DOCTYPE_PUBLIC, "-//W3C//DTD SVG 20000802//EN");
+      t.setOutputProperty(OutputKeys.INDENT, "yes");
+      t.setOutputProperty(OutputKeys.METHOD, "xml");
+      t.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+      t.transform(new DOMSource(doc), new StreamResult(Files.newOutputStream(file.toPath())));
+   }
+   

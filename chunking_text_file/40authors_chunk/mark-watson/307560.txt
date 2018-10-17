@@ -1,0 +1,10 @@
+        weights = new float[numInputs][numInputs];
+        inputCells = new float[numInputs];
+        tempStorage = new float[numInputs];
+    }
+
+    public void addTrainingData(float[] data) {
+        trainingData.addElement(data);
+    }
+
+    public void train() {

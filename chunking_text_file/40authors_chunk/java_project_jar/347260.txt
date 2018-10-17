@@ -1,0 +1,10 @@
+        if(propagateClose)
+            in.close();
+    }
+
+    public synchronized void reset()
+        throws IOException
+    {
+        in.reset();
+        pos = mark;
+    }

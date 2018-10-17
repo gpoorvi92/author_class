@@ -1,0 +1,8 @@
+		
+		assertTrue(info.getCpuIdle() > 1.0d);
+		
+		assertTrue(info.getMemTotal() > 0);
+		assertTrue(info.getMemFree() > 0);
+
+	}
+}

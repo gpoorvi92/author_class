@@ -1,0 +1,10 @@
+				break;
+			case 12:
+				mintResult = Date1GreaterThanDate2(s1.mstrPostDate,s2.mstrPostDate);
+				break;
+			case 13:
+				mintResult = s1.mstrFiscalCode.compareTo(s2.mstrFiscalCode);
+				break;						
+			case 14:
+				mintResult = s1.mstrReference.compareTo(s2.mstrReference);
+				break;			

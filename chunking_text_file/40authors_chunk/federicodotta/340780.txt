@@ -1,0 +1,10 @@
+     *
+     * @param message The new request message.
+     */
+    void setRequest(byte[] message);
+
+    /**
+     * This method is used to retrieve the response message.
+     *
+     * @return The response message.
+     */

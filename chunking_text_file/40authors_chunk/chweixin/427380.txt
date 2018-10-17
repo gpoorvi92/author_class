@@ -1,0 +1,10 @@
+					 logger.error("图片移动到图片库失败！");
+				 }
+				 logger.info("移动图片完成！");
+			}else if(!isAdded) {
+					data.setCreateTime(new Date());
+					data.setName(info.getName());
+					BeanUtils.copyProperties(data, info);
+			}
+			if(info.getUrl() != null && !info.getUrl().trim().isEmpty()){
+				info.setUrl(info.getUrl() + info.getPath());

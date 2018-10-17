@@ -1,0 +1,10 @@
+
+    case STATEMENT:
+      return getStatement();
+
+    case RISK_TYPE:
+      return getRiskType();
+
+    case RISK_LEVEL:
+      return getRiskLevel();
+

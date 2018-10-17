@@ -1,0 +1,10 @@
+					rowRec[i][2] = 	records[i][2];
+					rowRec[i][3] = 	records[i][3];
+					rowRec[i][4] = 	records[i][4];
+				}
+			}
+		}
+		catch (Exception sqlEx) { }
+
+	}
+

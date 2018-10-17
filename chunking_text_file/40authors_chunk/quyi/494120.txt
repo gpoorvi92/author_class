@@ -1,0 +1,10 @@
+  public String getCheckStartTime() {
+    return this.checkStartTime;
+  }
+
+  public Sample setCheckStartTime(String checkStartTime) {
+    this.checkStartTime = checkStartTime;
+    return this;
+  }
+
+  public void unsetCheckStartTime() {

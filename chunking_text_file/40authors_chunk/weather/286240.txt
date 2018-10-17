@@ -1,0 +1,10 @@
+     * @return
+     */
+    public static String dateStringSmart(Date date,Context context) {
+        String string = "";
+        Date currentDate = new Date();
+        if (date != null) {
+            long createTime = date.getTime();
+            long currentTime = currentDate.getTime();
+//            long currentTime = System.currentTimeMillis();
+            long time = currentTime - createTime;

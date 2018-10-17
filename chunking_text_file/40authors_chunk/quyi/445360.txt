@@ -1,0 +1,10 @@
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    MONITOR_TIME((short)1, "monitorTime"),
+    SCREEN_SHOT_PATH((short)2, "screenShotPath"),
+    IMAGE_CONTENT((short)3, "imageContent"),
+    CHECK_RESULT((short)4, "checkResult");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {

@@ -1,0 +1,10 @@
+        scaleAxis = new JMenuItem("Scale Each axis");
+
+        flipAxis.add(flipX);
+        flipAxis.add(flipY);
+        flipAxis.add(flipZ);
+
+        countTriangles = new JMenuItem("Triangle Count");
+        add(scaleModel);
+        add(scaleAxis);
+        add(flipAxis);

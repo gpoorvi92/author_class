@@ -1,0 +1,10 @@
+        return this.equals((searchMission_args)that);
+      return false;
+    }
+
+    public boolean equals(searchMission_args that) {
+      if (that == null)
+        return false;
+
+      boolean this_present_missionId = true && this.isSetMissionId();
+      boolean that_present_missionId = true && that.isSetMissionId();

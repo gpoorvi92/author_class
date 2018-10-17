@@ -1,0 +1,10 @@
+	private JTextField txtBookId, txtBookName, txtBookAuthor, txtIssuedTo, txtBookCategory;
+	private JButton btnReturn, btnCancel;
+
+	private Statement st;		//Statement for Getting the Required Table.
+	private ResultSet rs;		//For Getting the Records From Table.
+	private long id = 0;		//To Hold the BookId.
+
+	//Constructor of Class.
+
+	public ReturnBook (Connection con) {

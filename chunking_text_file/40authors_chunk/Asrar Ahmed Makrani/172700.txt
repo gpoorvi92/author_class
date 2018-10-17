@@ -1,0 +1,10 @@
+            	Video_title_text.setEditable(true);
+ 				authorsArea.setEditable(true);
+ 				subjectArea.setEditable(true);
+ 				location_text.setEditable(true);
+				}
+				statement.close();
+				}
+				catch (SQLException sqlex) 
+				{
+											 			

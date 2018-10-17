@@ -1,0 +1,10 @@
+  }
+
+  /**
+   * @see OutputStream#write(int)
+   */
+  @Override
+  public void write(int b) throws IOException {
+    for (OutputStream delegate : this.m_delegates) {
+      delegate.write(b);
+    }

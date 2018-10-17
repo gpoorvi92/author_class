@@ -1,0 +1,10 @@
+ * iterating over (uncompressed) words of bits.
+ *
+ * @author Daniel Lemire
+ * @since 0.5.0
+ */
+public final class EWAHIterator32 implements Cloneable {
+
+    /**
+     * Instantiates a new eWAH iterator.
+     *

@@ -1,0 +1,10 @@
+			verbose(str);
+		}
+    }
+	
+	public void warn(Object str) {
+	    if (logLevel <= Log.WARN) {
+            String name = getFunctionName();
+            String ls=(name==null?str.toString():(name+" - "+str));
+            Log.w(tag, ls);
+	    }

@@ -1,0 +1,10 @@
+		// remove the file information in entity
+		T entity = getEntityIfPresent(clientId);
+		entity.getFileStates().remove(fileId);
+		
+		// and save
+		updateEntity(clientId, entity);
+	}
+	
+	/**
+	 * Clear everything including cache, session, files for this client.

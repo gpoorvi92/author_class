@@ -1,0 +1,10 @@
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "StatusUpdateEvent" "Status" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int EJ_SUE_MEDIUM_NEAR_FULL =    1;
+  public static final int EJ_SUE_MEDIUM_FULL      =    2;
+  public static final int EJ_SUE_MEDIUM_REMOVED   =    3;
+  public static final int EJ_SUE_MEDIUM_INSERTED  =    4;

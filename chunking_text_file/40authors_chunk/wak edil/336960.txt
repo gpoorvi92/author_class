@@ -1,0 +1,10 @@
+		mainmenu frame = new mainmenu();
+		frame.setTitle("MAIN ");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(500,500);
+		frame.setVisible(true);
+		frame.setResizable(true);
+		frame.setLocationRelativeTo(null);
+		this.dispose();
+	 	}
+	 	

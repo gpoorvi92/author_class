@@ -1,0 +1,9 @@
+    public boolean isCurrentlyValid() {
+        try {
+            certificate.checkValidity();
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+	@Override
+	public CharSequence getPageTitle(int position) {
+
+		return titleList.get(position);
+	}
+
+	@Override
+	public Object instantiateItem(ViewGroup container, int position) {
+		View v = viewList.get(position);
+		container.addView(v);

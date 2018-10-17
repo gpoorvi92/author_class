@@ -1,0 +1,10 @@
+        if (DEBUG) VolleyLog.v("start new dispatcher");
+        Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
+
+        // Make a blocking call to initialize the cache.
+        mCache.initialize();
+
+        while (true) {
+            try {
+                // Get a request from the cache triage queue, blocking until
+                // at least one is available.

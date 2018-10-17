@@ -1,0 +1,10 @@
+	 * @param info
+	 * 	查询条件。
+	 * @return 统计结果。
+	 * */
+	protected abstract Long total(T info);
+	/**
+	 * 数据更新。
+	 * @param info
+	 * 	更新实体。
+	 * @return 更新后的结果。

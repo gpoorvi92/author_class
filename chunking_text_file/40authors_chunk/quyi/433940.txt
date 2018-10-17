@@ -1,0 +1,10 @@
+    if (isSetRss()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.rss, other.rss);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetVss()).compareTo(other.isSetVss());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

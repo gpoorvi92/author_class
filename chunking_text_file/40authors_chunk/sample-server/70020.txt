@@ -1,0 +1,10 @@
+            {
+                Integer zoneId = each.getZoneId();
+                ChatServerRpc.SynReq.Builder req = map.get(zoneId);
+                if (null == req)
+                {
+                    req = ChatServerRpc.SynReq.newBuilder();
+                    map.put(zoneId, req);
+                }
+                req.addSysNoticeDto(each.toDTO());
+            }

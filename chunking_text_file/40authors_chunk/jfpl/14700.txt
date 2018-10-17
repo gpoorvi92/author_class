@@ -1,0 +1,10 @@
+			acd.putStringValue("load_data_type", "1");
+			String content = acd.getStringValue("content");
+			if ("1".equals(acd.getStringValue("msg_type"))) {
+				acd.putStringValue("chat_msg", content);
+			} else if ("2".equals(acd.getStringValue("msg_type"))) {
+				acd.putStringValue("image_path", content);
+			} else if ("3".equals(acd.getStringValue("msg_type"))) {
+				acd.putStringValue("audio_url", content);
+			} else if ("4".equals(acd.getStringValue("msg_type"))) {
+				acd.putStringValue("chat_location", content);

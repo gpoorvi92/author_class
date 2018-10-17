@@ -1,0 +1,10 @@
+	
+	private final GraphicsFrame MAIN_FRAME = new GraphicsFrame(FRAME);	
+	
+	
+	private final RenderMediator renderMediator = MAIN_FRAME.getRenderMediator();
+	
+
+	
+	
+	

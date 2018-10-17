@@ -1,0 +1,10 @@
+      setLayout(new GridBagLayout());
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               updateDisplay();
+            }
+         };
+

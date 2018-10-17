@@ -1,0 +1,10 @@
+           2. combinatorial mathematics.
+ */
+ public class Solution {
+    public void nextPermutation(char[] num) {
+        int last = num.length - 1;
+        int i = last;
+        while (i > 0 && num[i - 1] >= num [i]) --i;
+        for (int l = i, r = last; l < r; ++l, --r) {
+            num[l] = (char) (num[l] ^ num[r]);
+            num[r] = (char) (num[l] ^ num[r]);

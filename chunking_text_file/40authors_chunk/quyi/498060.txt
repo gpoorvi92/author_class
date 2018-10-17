@@ -1,0 +1,10 @@
+    this();
+    this.pidName = pidName;
+    this.fileDescription = fileDescription;
+    this.filePath = filePath;
+    this.operateContent = operateContent;
+    this.operateTime = operateTime;
+    this.operateType = operateType;
+  }
+
+  /**

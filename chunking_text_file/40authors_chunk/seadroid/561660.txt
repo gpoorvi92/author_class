@@ -1,0 +1,10 @@
+
+    public class Viewholder {
+        TextView title, subtitle;
+        ImageView icon;
+        CheckBox checkBox;
+
+        public Viewholder(TextView title, TextView subtitle, ImageView icon, CheckBox checkBox) {
+            super();
+            this.icon = icon;
+            this.checkBox = checkBox;

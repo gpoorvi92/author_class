@@ -1,0 +1,9 @@
+                Calendar calendar = Calendar.getInstance();
+                calendar.add(Calendar.MONTH, -i);
+                map.put(dateFormat.format(calendar.getTime()), 0);
+            }
+        }
+        return map;
+    }
+
+}

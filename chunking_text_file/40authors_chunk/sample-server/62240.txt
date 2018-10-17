@@ -1,0 +1,10 @@
+        StandardDao.getInstance().insert(player);
+        Player playerLoad = StandardDao.getInstance().select(Player.class, player.getId());
+        System.out.println(player.equals(playerLoad));
+    }
+    @Test
+    public void delete()
+    {
+        StandardDao.getInstance().deleteById(Player.class, 3);
+    }
+    @Test

@@ -1,0 +1,10 @@
+public abstract class ProxyReader extends FilterReader
+{
+
+    public ProxyReader(Reader proxy)
+    {
+        super(proxy);
+    }
+
+    public int read()
+        throws IOException

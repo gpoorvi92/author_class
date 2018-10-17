@@ -1,0 +1,10 @@
+
+    private Integer number;
+
+    private Float totalPrice;
+
+    private Integer goodsId;
+
+    private Integer merchantId;
+
+    private Goods goods;

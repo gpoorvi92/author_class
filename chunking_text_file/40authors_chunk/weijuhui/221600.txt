@@ -1,0 +1,10 @@
+package com.weparty.http;
+
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.protocol.HttpContext;
+
+import android.content.Context;
+import android.os.Message;
+
+public abstract class SyncHttpClient extends AsyncHttpClient {

@@ -1,0 +1,10 @@
+			
+			int class_id = context.getAttribute(Constants.CONTEXT_CLASS_ID);
+			int lesson_id = context.getAttribute(Constants.CONTEXT_LESSON_ID);
+			String targetDir = AppConfig.getInstance().getRawTargetDir() + "/" + class_id + "/" + lesson_id + "/";
+			FileHelper.ensureExists(targetDir, false);
+			String rawFileName = StringHelper.getFileBareName(packfile);
+			FileHelper.copyFile(packfile, targetDir + rawFileName);
+		}
+		
+		

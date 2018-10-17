@@ -1,0 +1,10 @@
+        return new modifyNodeManagerConfig_argsTupleScheme();
+      }
+    }
+
+    private static class modifyNodeManagerConfig_argsTupleScheme extends TupleScheme<modifyNodeManagerConfig_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, modifyNodeManagerConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.nodeId);

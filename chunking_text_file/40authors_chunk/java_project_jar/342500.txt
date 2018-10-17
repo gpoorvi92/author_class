@@ -1,0 +1,10 @@
+            byteOffset = offset;
+            return;
+        }
+    }
+
+    public MagicNumberFileFilter(byte magicNumber[], long offset)
+    {
+        if(magicNumber == null)
+            throw new IllegalArgumentException("The magic number cannot be null");
+        if(magicNumber.length == 0)

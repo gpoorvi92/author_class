@@ -1,0 +1,10 @@
+    private void doHide() {
+        if (!mShouldHide)
+            return;
+
+        if (!mEnableHide)
+            return;
+
+        Activity activity = mWeakActivity.get();
+        if (activity == null)
+            return;

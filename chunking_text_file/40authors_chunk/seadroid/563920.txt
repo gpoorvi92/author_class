@@ -1,0 +1,10 @@
+            mWebview.startAnimation(AnimationUtils.loadAnimation(
+                    this, android.R.anim.fade_out));
+
+            mloadingAnimation.setVisibility(View.VISIBLE);
+            mWebview.setVisibility(View.INVISIBLE);
+        }
+    }
+
+    class CustomWebviewClient extends WebViewClient {
+        @Override

@@ -1,0 +1,10 @@
+    /  \
+   2 -> 3 -> NULL
+  / \    \
+ 4-> 5 -> 7 -> NULL
+
+ Solution: 1. iterative way with CONSTANT extra space.
+           2. iterative way + queue. Contributed by SUN Mian(孙冕).
+           3. recursive solution.
+ */
+

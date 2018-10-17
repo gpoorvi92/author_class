@@ -1,0 +1,10 @@
+					//System.out.println("Connection open");
+					Statement st;
+					ResultSet rs;
+					st=conn.createStatement();
+					rs=st.executeQuery(mstrSQL);
+
+					moVector.removeAllElements();
+
+					while (rs.next()) {
+

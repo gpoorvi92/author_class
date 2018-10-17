@@ -1,0 +1,4 @@
+	public void setFlag_exit(boolean b) {
+		flag_exit = b;
+	}
+}

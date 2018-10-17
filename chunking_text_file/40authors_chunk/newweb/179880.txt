@@ -1,0 +1,10 @@
+	private BxgDao bxgDao;
+	@Autowired
+	private BxgPriceCutService bxgPriceCutService;
+	@Autowired
+	private OrderPriceService orderPriceService;
+
+	@Override
+	public Bxg[] queryAllBxgs() {
+		List<Bxg> list = bxgDao.selectAllBxgs();
+		Bxg[] bxgs = new Bxg[list.size()];

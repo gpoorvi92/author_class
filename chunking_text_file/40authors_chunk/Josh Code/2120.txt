@@ -1,0 +1,10 @@
+      result.y = v1.z * v2.x - v1.x * v2.z;
+      result.z = v1.x * v2.y - v1.y * v2.x;
+  }
+
+  /** 
+   * Returns a vector v1 scaled in each component by the corresponding components in v2
+   * (v1.x*v2.x,v1.y*v2.y,v1.z*v2.z) ie. result.x+result.y+result.z = dot(v1,v2)
+   * stores the result in the result parameter to save some processing time
+   * by not allocating a new Vector3D object
+   */

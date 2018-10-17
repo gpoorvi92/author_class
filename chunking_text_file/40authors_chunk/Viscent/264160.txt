@@ -1,0 +1,10 @@
+	@Override
+	public String toString() {
+		return "Range [" + lowerBound + ", " + upperBound + "]";
+	}
+
+}
+
+/*
+ * 质数生成器服务。 模式角色：Master-Slave.Master
+ */

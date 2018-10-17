@@ -1,0 +1,10 @@
+ * @since 2014-04-14.
+ */
+public class RemoteCallbackData implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private String type,content;
+	private List<Article> articles;
+	
+	/**
+	 * 构造函数。
+	 */

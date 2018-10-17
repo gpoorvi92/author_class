@@ -1,0 +1,10 @@
+  }
+
+  @Override public <T> T execute(HttpUriRequest request, ResponseHandler<? extends T> handler,
+      HttpContext context) throws IOException {
+    return execute(null, request, handler, context);
+  }
+
+  @Override public <T> T execute(HttpHost host, HttpRequest request,
+      ResponseHandler<? extends T> handler) throws IOException {
+    return execute(host, request, handler, null);

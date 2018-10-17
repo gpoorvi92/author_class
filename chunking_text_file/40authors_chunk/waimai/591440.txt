@@ -1,0 +1,10 @@
+@RequestMapping("/manage/order")
+public class AOrderController extends ComOrderController {
+    @Autowired
+    private IOrderService orderService;
+    @Autowired
+    private ISaleRecordService saleRecordService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/order/list");

@@ -1,0 +1,10 @@
+			fw.write(chs, 0, len);
+		}
+
+		fw.close();
+		fr.close();
+	}
+
+	// 基本字符流一次一个字符
+	private static void method1(String srcString, String destString)
+			throws IOException {

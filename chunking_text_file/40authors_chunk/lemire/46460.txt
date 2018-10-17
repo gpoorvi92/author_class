@@ -1,0 +1,10 @@
+	}
+
+    /**
+     * Returns the resulting buffer size in words given the number of words to add.
+     * @param number the number of words to add
+     */
+    private int newSizeInWords(int number) {
+        int size = this.actualSizeInWords + number;
+        if (size >= this.buffer.length) {
+            if (size < 32768)

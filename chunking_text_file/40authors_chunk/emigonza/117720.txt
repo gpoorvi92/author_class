@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface CashDrawerService14 extends CashDrawerService13
+{
+  // Nothing new added for release 1.4

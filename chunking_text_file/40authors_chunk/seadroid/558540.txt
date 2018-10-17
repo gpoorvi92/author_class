@@ -1,0 +1,10 @@
+                    for (File file : listOfFiles) {
+                        // Check if the extension is one of the supported file types
+                        for (String ext : IMAGE_EXTENTION) {
+                            if (file.getName().endsWith("." + ext))
+                                return true;
+                        }
+                    }
+                }
+                return false;
+            } catch (SecurityException e) {

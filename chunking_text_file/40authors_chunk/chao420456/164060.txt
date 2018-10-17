@@ -1,0 +1,9 @@
+		int by = 0;
+		while ((by = fis.read()) != -1) {
+			fos.write(by);
+		}
+
+		fos.close();
+		fis.close();
+	}
+}

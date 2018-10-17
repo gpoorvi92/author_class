@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.ui.dialog;
+
+import java.util.List;
+
+import android.app.Dialog;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.support.v4.app.DialogFragment;

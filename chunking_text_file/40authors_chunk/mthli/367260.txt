@@ -1,0 +1,10 @@
+   {
+      Scanner in = new Scanner(System.in);
+
+      System.out.print("How much money will you contribute every year? ");
+      double payment = in.nextDouble();
+
+      System.out.print("Interest rate in %: ");
+      double interestRate = in.nextDouble();
+
+      double balance = 0;

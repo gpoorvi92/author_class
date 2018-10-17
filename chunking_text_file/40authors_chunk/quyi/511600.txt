@@ -1,0 +1,10 @@
+      if (result.ire != null) {
+        throw result.ire;
+      }
+      if (result.ue != null) {
+        throw result.ue;
+      }
+      throw new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.MISSING_RESULT, "modifyEngineConfig failed: unknown result");
+    }
+
+    public com.nercis.isscp.idl.Result modifyTaskManagerConfig(String propertyName, String propertyValue) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException

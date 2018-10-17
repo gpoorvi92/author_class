@@ -1,0 +1,10 @@
+
+    case CPU_USED_PERC:
+      return Double.valueOf(getCpuUsedPerc());
+
+    case FREE_MEM:
+      return Double.valueOf(getFreeMem());
+
+    case JVM_FREE_MEM:
+      return Double.valueOf(getJvmFreeMem());
+

@@ -1,0 +1,10 @@
+        options.inJustDecodeBounds = false;
+        // return BitmapFactory.decodeResource(res, resId, options);
+        Bitmap bmp = BitmapFactory.decodeFile(filePath, options);
+        return ThumbnailUtils.extractThumbnail(bmp, reqWidth, reqHeight);
+    }
+
+    public static Bitmap calculateThumbnail(String filePath, int size) {
+        return calculateThumbnail(filePath, size, size);
+    }
+}

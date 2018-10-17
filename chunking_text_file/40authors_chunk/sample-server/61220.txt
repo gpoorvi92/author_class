@@ -1,0 +1,10 @@
+                public void exceptionCaught(ChannelHandlerContext ctx, ExceptionEvent e) throws Exception
+                {
+                    log.info("NettyRpcConnection caught exception disconnect:{}", channel, e.getCause());
+                    disconnect();
+                }
+            });
+            return p;
+        }
+    }
+    @Override

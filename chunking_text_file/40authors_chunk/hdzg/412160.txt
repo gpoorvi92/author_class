@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 2114236481246768478L;
+	
+	public General(){}
+	
+	private String name;//将领名称
+	private int rank;//将领职位
+	int loyalty;//将领忠诚度

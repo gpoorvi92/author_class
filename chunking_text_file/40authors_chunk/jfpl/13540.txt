@@ -1,0 +1,10 @@
+							if ("0".equals(type) || "1".equals(type)) {
+								String msgType = acd.getStringValue("msg_type");
+								String mediaPath = null;
+								if ("2".equals(msgType)) {
+									mediaPath = acd
+											.getStringValue("image_path");
+								} else if ("3".equals(msgType)) {
+									mediaPath = acd.getStringValue("audio_url");
+								}
+								if (!StringUtil.isNull(mediaPath)) {

@@ -1,0 +1,10 @@
+	{
+		Foods frame = new Foods();
+		frame.setTitle("Foods");
+		frame.setSize(950,400);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+}

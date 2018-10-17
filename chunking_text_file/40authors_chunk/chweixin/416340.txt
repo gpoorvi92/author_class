@@ -1,0 +1,10 @@
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */
+public class PictureAction extends BaseDataAction<PictureInfo> {
+	private PictureInfo info = new PictureInfo();
+	
+	@Override
+	public PictureInfo getModel() {
+		return this.info;
+	}

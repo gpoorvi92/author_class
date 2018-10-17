@@ -1,0 +1,10 @@
+	private final AlarmSendingThread alarmSendingThread;
+
+	//私有构造器
+	private AlarmMgr() {
+		alarmSendingThread = new AlarmSendingThread();
+
+	}
+
+	//返回类AlarmMgr的唯一实例
+	public static AlarmMgr getInstance() {

@@ -1,0 +1,9 @@
+	public final static boolean isXMLFileName(String name)
+	{
+		if (StringUtil.hasData(name) == false)
+			return false;
+		String lowerName = name.toLowerCase();
+		return lowerName.endsWith("xml");
+	}
+}
+

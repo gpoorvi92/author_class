@@ -1,0 +1,10 @@
+			map.put(fileId, newArrayList);
+			
+		}
+		
+		//add the instant upload rate
+		newArrayList.unshift(uploadRate);
+		
+		//calculate the average upload rate
+		Long averageUploadRate = getAverageUploadRate(newArrayList);
+		

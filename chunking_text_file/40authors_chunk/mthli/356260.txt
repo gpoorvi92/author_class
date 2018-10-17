@@ -1,0 +1,10 @@
+               {
+                  textField.setText("No exception");
+                  super.fireActionPerformed(event);
+               }
+               catch (Exception e)
+               {
+                  textField.setText(e.toString());
+               }
+            }
+         };

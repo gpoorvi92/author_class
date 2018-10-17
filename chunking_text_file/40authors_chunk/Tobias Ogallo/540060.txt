@@ -1,0 +1,10 @@
+                    String temp = "UPDATE user SET " +
+                  
+                    //"  Sname      ='" + txtSname.getText()      +
+					//"',Fname      ='" + txtFname.getText()      +
+                    //"',Lname      ='" + txtLname.getText()      +
+					//"',Gender     ='" + cbogender.getSelectedItem()+
+					//"',DOB        ='" + dobs.getText()          +
+					//"',Designation='" + txtDesignation.getText()+
+					//"',Telephone  ='" + txttelephone.getText()  +
+					//"',E_Mail     ='" + txtemail.getText()      +

@@ -1,0 +1,10 @@
+//				logger.info("MEM:" + info.getMemTotal() + " " + info.getMemUsage() + " " + info.getMemFree());
+			}
+		}
+
+		return info;
+	}
+
+	/**
+	 * (non Javadoc) TODO
+	 * 

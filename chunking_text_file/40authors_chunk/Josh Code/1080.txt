@@ -1,0 +1,10 @@
+    }
+
+    public Model getModel()
+    {
+        return display.getModel();
+    }
+
+    public void scaleVectors(Vector3D v)
+    {
+        display.scaleVectors(v);

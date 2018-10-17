@@ -1,0 +1,10 @@
+			oout.writeObject(gameView.skillToLearn);//将要学习的技能
+			oout.writeObject(gameView.allCityDrawable);//存放所有敌方的城池
+			oout.writeObject(gameView.freeGeneral);//自由的将领,即不属于我方和敌方的
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+		finally{
+			try{
+				oout.close();

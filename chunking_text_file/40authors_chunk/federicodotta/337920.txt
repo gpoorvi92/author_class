@@ -1,0 +1,10 @@
+     * within the request.
+     */
+    static final byte INS_UNKNOWN = 0x7f;
+
+    /**
+     * This method returns the name of the insertion point.
+     *
+     * @return The name of the insertion point (for example, a description of a
+     * particular request parameter).
+     */

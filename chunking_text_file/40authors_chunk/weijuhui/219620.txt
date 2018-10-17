@@ -1,0 +1,10 @@
+        // get the first millisecond of that 15 minute block
+        c.set(year, month, day, hour, minute, 0);
+        c.set(Calendar.MILLISECOND, 0);
+        long startTime = c.getTimeInMillis();
+        return new TimeObject(String.format(formatString, c,c), startTime, endTime);
+    }
+
+    private static Calendar add(long time, int val, int field) {
+        Calendar c = Calendar.getInstance();
+        c.setTimeInMillis(time);

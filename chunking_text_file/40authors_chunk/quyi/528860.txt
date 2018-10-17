@@ -1,0 +1,10 @@
+        case 7: // APK_MD5
+          return APK_MD5;
+        case 8: // NOTIFY_CALLBACK_URL
+          return NOTIFY_CALLBACK_URL;
+        case 9: // APP_DESCRIPTION
+          return APP_DESCRIPTION;
+        case 10: // REQUEST_PURVIEWS
+          return REQUEST_PURVIEWS;
+        case 11: // FORMAT
+          return FORMAT;

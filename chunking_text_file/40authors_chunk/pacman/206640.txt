@@ -1,0 +1,10 @@
+	@Override
+	protected MediainfoModel mapRow(ResultSet rs, int row)
+			throws SQLException {
+
+		MediainfoModel result = new MediainfoModel();
+		result.setTid(rs.getInt("tid"));
+		result.setMedia(rs.getString("media"));
+
+		result.setAudio_rate(rs.getInt("audio_rate"));
+		result.setAudio_sampling(rs.getInt("audio_sampling"));

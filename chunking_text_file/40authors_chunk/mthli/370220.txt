@@ -1,0 +1,10 @@
+package objectStream;
+
+import java.io.*;
+
+/**
+ * @version 1.10 17 Aug 1998
+ * @author Cay Horstmann
+ */
+class ObjectStreamTest
+{

@@ -1,0 +1,7 @@
+    protected boolean runningBit;
+
+    /**
+     * The Running length.
+     */
+    protected long runningLength;
+}

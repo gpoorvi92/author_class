@@ -1,0 +1,10 @@
+		//
+
+		/** @return the next PropValue in the iterator */
+		public PropValue next() { return (PropValue)iterator.next(); }
+
+		/** @return true if there is a next PropValue in the iterator */
+		public boolean hasNext() { return iterator.hasNext(); }
+
+		//---------------------------------------------------------------------
+		// Instance variables

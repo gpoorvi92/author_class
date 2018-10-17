@@ -1,0 +1,10 @@
+ */
+
+public class Solution {
+    public int atoi(String str) {
+        if (str == null) return 0;
+        int i = 0;
+        boolean sign = true;
+        str = str.trim();
+        int n = str.length();
+        if (i < n && (str.charAt(0) == '+' || str.charAt(0) == '-')) {

@@ -1,0 +1,10 @@
+    {
+        if (m == null)
+        {
+            System.out.println("modelViewPanel can't set to null model");
+            return;
+        }
+        this.m = m;
+        renderer.setModel(m);
+        render();
+    }

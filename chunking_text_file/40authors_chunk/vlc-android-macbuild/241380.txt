@@ -1,0 +1,10 @@
+        setText(container.findViewById(id), text);
+    }
+
+    public static void setText(View container, int id, CharSequence text) {
+        if (container == null)
+            return;
+
+        setText(container.findViewById(id), text);
+    }
+

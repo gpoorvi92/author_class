@@ -1,0 +1,10 @@
+ * @date: 2014年12月30日 上午11:43:09
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.utils;
+
+import org.apache.commons.lang3.StringUtils;
+
+/**
+ * TODO
+ * @Class: NumericHelper

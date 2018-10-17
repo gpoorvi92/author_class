@@ -1,0 +1,10 @@
+	 * @Title: delete
+	 * @param mi
+	 * @see com.yeshj.pacman.dao.IMediainfoDAO#delete(com.yeshj.pacman.model.MediainfoModel)
+	 */
+	@Override
+	public void delete(MediainfoModel mi) {
+		
+		String sql = "DELETE FROM mediainfo WHERE tid=" + mi.getTid();
+		getJdbcTemplate().execute(sql);
+	}

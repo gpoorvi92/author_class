@@ -1,0 +1,10 @@
+
+    MouseMotionAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.MouseMotionAdapter.mouseMoved(java.awt.event.MouseEvent)
+
+    public native void __mouseMoved( java.awt.event.MouseEvent e );
+

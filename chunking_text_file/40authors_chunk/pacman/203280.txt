@@ -1,0 +1,10 @@
+			List<Element> subeles = null;
+			if (eles != null && eles.size() > 0) {
+				
+				for(Element item : eles) {
+	                subeles = item.elements("ele"); //双层ele处理...只有一个上层ele节点，阿辉
+					if (subeles != null && subeles.size() > 0) {
+						eles = subeles;
+						break;
+					}					
+				}

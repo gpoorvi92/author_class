@@ -1,0 +1,10 @@
+            Log.e(TAG, "unable to save exif data with new orientation "
+                    + fullSizeImageUri(), ex);
+        }
+    }
+
+    /**
+     * Save the rotated image by updating the Exif "Orientation" tag.
+     * @param degrees
+     */
+    public boolean rotateImageBy(int degrees) {

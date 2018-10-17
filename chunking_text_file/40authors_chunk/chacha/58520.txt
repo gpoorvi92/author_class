@@ -1,0 +1,10 @@
+	@Override
+	public DBCollection getCollection(String name) {
+		return db.getCollection(name);
+	}
+
+	@Override
+	public void connect() {
+		try{
+			Mongo mongo;
+			if(connectionDescriptor!=null){

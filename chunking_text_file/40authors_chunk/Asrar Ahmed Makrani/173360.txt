@@ -1,0 +1,10 @@
+			 				reg_date_text.setEditable(true);
+			 				textArea.setEditable(true);
+			 				tel_text.setEditable(true);
+			 				fax_text.setEditable(true);
+			 				email_text.setEditable(true);
+				}
+				statement.close();
+				}
+				catch (SQLException sqlex) 
+				{

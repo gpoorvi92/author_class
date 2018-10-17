@@ -1,0 +1,10 @@
+import com.android.wpvolley.Request;
+import com.android.wpvolley.Response;
+
+import android.os.Handler;
+import android.os.Looper;
+
+/**
+ * A synthetic request used for clearing the cache.
+ */
+public class ClearCacheRequest extends Request<Object> {

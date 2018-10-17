@@ -1,0 +1,10 @@
+        //添加日期类型转化的特殊处理
+        builder.registerTypeAdapter(Date.class, new DateSerializer());
+        builder.serializeNulls();
+        gson = builder.create();
+    }
+
+
+    /**
+     * 得到jsonUtil中使用的内置gson，推荐在外边使用的gson的时候，优先选用系统内部的gson
+     * 1. 添加了布尔类型转换的特殊处理

@@ -1,0 +1,10 @@
+		private：为了数据的安全性
+		static：为了让数据访问更方便
+
+*/
+/*
+class Outer {
+	private class Inner {
+		public void show() {
+			System.out.println("show");
+		}

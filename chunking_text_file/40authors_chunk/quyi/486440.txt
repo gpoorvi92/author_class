@@ -1,0 +1,10 @@
+      if (this_present_virRD || that_present_virRD) {
+        if (!(this_present_virRD && that_present_virRD))
+          return false;
+        if (!this.virRD.equals(that.virRD))
+          return false;
+      }
+
+      return true;
+    }
+

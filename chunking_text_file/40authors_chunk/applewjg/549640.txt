@@ -1,0 +1,10 @@
+                    TreeNode temp = cur.left;
+                    while (temp != cur) {
+                        stk.push(temp.val);
+                        temp = temp.right;
+                    }
+                    while (stk.isEmpty() == false) res.add(stk.pop());
+                    node.right = null;
+                    cur = cur.right;
+                }
+            }

@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example14;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P183
+ * join(long)设定等待的时间
+ * join(long)和sleep(long)运行效果并无区别，但对同步的处理不同。

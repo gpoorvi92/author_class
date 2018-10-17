@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/*
+ * boolean addAll(Collection c)
+ * boolean removeAll(Collection c):删除一个，就是删除，返回true
+ * boolean containsAll(Collection c):全部包含，才是包含。
+ * boolean retainAll(Collection c)

@@ -1,0 +1,8 @@
+    };
+
+    public static interface Resolver {
+        public abstract VodIndex resolve(Context context, boolean forceReload,
+                int maxTry) throws IOException, HttpException, SAXException,
+                ResolveException, JSONException;
+    }
+}

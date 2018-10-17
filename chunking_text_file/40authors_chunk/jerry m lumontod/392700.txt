@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.base;
+
+import java.sql.*;
+
+public class SubClassIsValid {
+	private String mstrTheMessage="";
+	private String mstrSQL;
+		
+	public void SubClassIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode,String tstrClassCode,String tstrSubClassCode) {

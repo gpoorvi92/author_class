@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			final AlarmMgr alarmMgr = AlarmMgr.getInstance();
+
+			// 告警被重复发送至告警模块的次数
+			int duplicateSubmissionCount;
+			String alarmId = "00000010000020";
+			final String alarmExtraInfo = "operation=GetDBConnection;detail=Failed to get DB connection:"
+			    + e.getMessage();
+
+			duplicateSubmissionCount = alarmMgr.sendAlarm(AlarmType.FAULT, alarmId,

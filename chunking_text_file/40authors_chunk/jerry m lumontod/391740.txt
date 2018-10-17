@@ -1,0 +1,10 @@
+package com.jml.eisapp.acctg.ledger.src.gui.guibase;
+
+import com.jml.eisapp.acctg.ledger.src.process.processbase.*;
+import java.util.*;
+import java.text.*;
+
+class GenJournalTableSorter implements Comparator {
+	
+	protected int     mintSortCol;
+	protected boolean mblnSortAsc;

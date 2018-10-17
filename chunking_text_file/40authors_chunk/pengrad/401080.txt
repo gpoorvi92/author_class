@@ -1,0 +1,10 @@
+    }
+
+    public InlineQueryResultMpeg4Gif title(String title) {
+        this.title = title;
+        return this;
+    }
+
+    public InlineQueryResultMpeg4Gif caption(String caption) {
+        this.caption = caption;
+        return this;

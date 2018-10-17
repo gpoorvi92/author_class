@@ -1,0 +1,10 @@
+
+
+	@Override
+	public User findUserByName(String name) {
+		User user =  userDao.selectUserByName(name);
+		return user;
+	}
+
+	@Override
+	public User findUserByID(int id) {

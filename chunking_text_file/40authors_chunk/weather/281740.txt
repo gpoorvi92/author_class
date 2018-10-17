@@ -1,0 +1,10 @@
+        if (buf == null || buf.length > mSizeLimit) {
+            return;
+        }
+        mBuffersByLastUse.add(buf);
+        int pos = Collections.binarySearch(mBuffersBySize, buf, BUF_COMPARATOR);
+        if (pos < 0) {
+            pos = -pos - 1;
+        }
+        mBuffersBySize.add(pos, buf);
+        mCurrentSize += buf.length;

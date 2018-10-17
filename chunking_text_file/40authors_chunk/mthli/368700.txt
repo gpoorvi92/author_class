@@ -1,0 +1,10 @@
+      ExecutorService pool = Executors.newCachedThreadPool();
+
+      MatchCounter counter = new MatchCounter(new File(directory), keyword, pool);
+      Future<Integer> result = pool.submit(counter);
+
+      try
+      {
+         System.out.println(result.get() + " matching files.");
+      }
+      catch (ExecutionException e)

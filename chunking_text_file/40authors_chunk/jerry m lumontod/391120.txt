@@ -1,0 +1,10 @@
+
+
+public class Selection implements ListSelectionListener {
+
+	JLabel debugger;
+
+	ListSelectionModel model;
+	TableModel tm;
+
+	public Selection(JLabel target, ListSelectionModel lsm,TableModel ttm) {		

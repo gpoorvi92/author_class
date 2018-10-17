@@ -1,0 +1,10 @@
+      public heart_call(NodeHeat nodeHeat, long timestamp, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.nodeHeat = nodeHeat;
+        this.timestamp = timestamp;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("heart", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        heart_args args = new heart_args();
+        args.setNodeHeat(nodeHeat);

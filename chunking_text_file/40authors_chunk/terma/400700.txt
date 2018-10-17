@@ -1,0 +1,10 @@
+
+    @Override
+    public void register(final Selector selector) {
+        try {
+            final ServerSocketChannel server = ServerSocketChannel.open();
+            server.socket().bind(new InetSocketAddress(config.getPort()), ACCEPT_BUFFER_SIZE);
+            server.configureBlocking(false);
+            server.register(selector, SelectionKey.OP_ACCEPT, this);
+        } catch (final IOException exception) {
+            if (LOGGER.isLoggable(Level.SEVERE))

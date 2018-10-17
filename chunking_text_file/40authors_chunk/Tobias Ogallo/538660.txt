@@ -1,0 +1,10 @@
+           if (pass.getText() == null ||
+           pass.getText().equals("")){   
+           JOptionPane.showMessageDialog(null,"Enter password","tobiluoch",
+           JOptionPane.DEFAULT_OPTION);
+           pass.requestFocus();
+           return;}
+           
+           login();
+			}	
+			else if(e.getSource()==Cancel){System.exit(0);}	

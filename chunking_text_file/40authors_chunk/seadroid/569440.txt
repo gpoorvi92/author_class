@@ -1,0 +1,10 @@
+
+    public void addTaskToQue(Account account, String repoID, String repoName, String dir, String filePath, boolean isUpdate, boolean isCopyToLocal) {
+        // create a new one to avoid IllegalStateException
+        UploadTask task = new UploadTask(++notificationID, account, repoID, repoName, dir, filePath, isUpdate, isCopyToLocal, this);
+        addTaskToQue(task);
+    }
+
+    public void cancelAllCameraUploadTasks() {
+        List<UploadTaskInfo> uploadTaskInfos = (List<UploadTaskInfo>) getAllTaskInfoList();
+        for (UploadTaskInfo uploadTaskInfo : uploadTaskInfos) {

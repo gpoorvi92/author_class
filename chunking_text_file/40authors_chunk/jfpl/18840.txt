@@ -1,0 +1,10 @@
+	@Override
+	public int getViewTypeCount() {
+		return 7;
+	}
+
+	@Override
+	public int getItemViewType(int position) {
+		AbstractCommonData acd = dataSource.get(position);
+		int type = Integer.parseInt(acd.getStringValue("msg_type"));
+		return type;

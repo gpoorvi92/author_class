@@ -1,0 +1,10 @@
+          oprot.writeFieldBegin(MISSION_ID_FIELD_DESC);
+          oprot.writeString(struct.missionId);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+
+    }
+

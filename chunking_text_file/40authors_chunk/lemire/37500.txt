@@ -1,0 +1,10 @@
+     */
+    public int[] generateUniform(int N, int Max) {
+        if (N * 2 > Max) {
+            return negate(generateUniform(Max - N, Max), Max);
+        }
+        if (2048 * N > Max)
+            return generateUniformBitmap(N, Max);
+        return generateUniformHash(N, Max);
+    }
+

@@ -1,0 +1,10 @@
+		// bw.newLine();
+		// bw.flush();
+
+		// bw.close();
+
+		// 标准输出流
+		// PrintStream ps = System.out;
+		// ps.print(100);
+		// ps.print(true);
+		// ps.println(100);

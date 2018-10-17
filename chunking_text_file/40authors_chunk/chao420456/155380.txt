@@ -1,0 +1,10 @@
+ *		public static int parseInt(String s,int radix)
+ */
+public class IntegerDemo {
+	public static void main(String[] args) {
+		// public static String toString(int i,int radix):
+		// 通过简单的测试，我们知道了进制的范围是2-36
+		System.out.println(Integer.toString(100, 2));
+		System.out.println(Integer.toString(100, 8));
+		System.out.println(Integer.toString(100, 16));
+		System.out.println(Integer.toString(100, 1));

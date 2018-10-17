@@ -1,0 +1,10 @@
+        properties.clear();
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test
+    public void shouldSuccessParseProxyNameWithDot() {
+        properties.clear();
+        properties.setProperty("test1.com.localPort", "1");
+        properties.setProperty("test1.com.remotePort", "1");

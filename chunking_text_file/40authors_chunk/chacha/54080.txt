@@ -1,0 +1,10 @@
+			long end=System.currentTimeMillis();
+			System.out.println("performanceTest costs="+(end-begin));
+			
+		}
+		long begin=System.currentTimeMillis();
+		Account acct=dao.getAccountByName("chacha500000");
+		long end=System.currentTimeMillis();
+		System.out.println("getAccountByName costs="+(end-begin));
+	}
+	

@@ -1,0 +1,10 @@
+		logger.info("============App Server Starting...=========");
+		AppServer server = new AppServer();
+		gFactory = new ClassPathXmlApplicationContext("appserver.xml");
+		try {
+
+			if (Environment.precheck()) {
+				
+				server.initialize(gFactory);
+				Runtime.getRuntime().addShutdownHook(server.createShutdownHook());
+				

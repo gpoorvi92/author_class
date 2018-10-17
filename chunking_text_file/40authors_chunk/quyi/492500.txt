@@ -1,0 +1,10 @@
+    public void clear() {
+      this.success = null;
+      this.ire = null;
+      this.ue = null;
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */

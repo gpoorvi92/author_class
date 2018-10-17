@@ -1,0 +1,10 @@
+			return true;
+		return value.equals("\"" + ALL_DEVICE + "\"");
+	}
+	
+	public final static boolean isRootDevice(String value)
+	{
+		if (value == null)
+			return false;
+		if (value.equals(ROOT_DEVICE) == true)
+			return true;

@@ -1,0 +1,5 @@
+         for (Employee e : newStaff)
+            System.out.println(e);
+      }
+   }
+}

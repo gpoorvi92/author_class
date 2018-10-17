@@ -1,0 +1,9 @@
+	/** @return the list of required properties for this DevCat */
+	public PropInfoList getRequiredProps();
+
+	/** @return the list of optional properties for this DevCat */
+	public PropInfoList getOptionalProps();
+
+	/** @return the String representation of this DevCat */
+	public String toString();
+}

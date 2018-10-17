@@ -1,0 +1,10 @@
+        mSlidingPaneLayout.setParallaxDistance(this.getWindowManager().getDefaultDisplay().getWidth()/3);
+    }
+
+    @Override
+    public void finish() {
+        //KeyBoardUtil.hideSoftKeyboardNotAlways(SwipeActivity.this);
+        finishWithAnim(TransactionUtil.Transaction.POP_OUT);
+    }
+
+    private void unbindDrawables(View view)

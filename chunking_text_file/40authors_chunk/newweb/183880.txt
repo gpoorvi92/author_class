@@ -1,0 +1,10 @@
+		returnList.add(cs);//第二个对象保存实体数组
+		return returnList;
+	}
+
+	@Override
+	public boolean save(Customer c) {
+		return customerDao.insert(c);
+	}
+
+	@Override

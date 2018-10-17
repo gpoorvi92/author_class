@@ -1,0 +1,10 @@
+ */
+import java.util.List;
+
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerScannerInsertionPointProvider()</code>
+ * to register a factory for custom Scanner insertion points.
+ */
+public interface IScannerInsertionPointProvider
+{

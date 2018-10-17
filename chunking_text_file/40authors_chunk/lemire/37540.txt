@@ -1,0 +1,10 @@
+        int[] ans = new int[N];
+        BitSet bs = new BitSet(Max);
+        int cardinality = 0;
+        while (cardinality < N) {
+            int v = this.rand.nextInt(Max);
+            if (!bs.get(v)) {
+                bs.set(v);
+                cardinality++;
+            }
+        }

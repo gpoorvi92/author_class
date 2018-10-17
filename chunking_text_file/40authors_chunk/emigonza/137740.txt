@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapFanAlarm"),
+        makeProperty("CapHeatAlarm"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapQuickCharge"),
+        makeProperty("CapShutdownPOS"),
+        makeProperty("CapUPSChargeState"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapBatteryCapacityRemaining"),

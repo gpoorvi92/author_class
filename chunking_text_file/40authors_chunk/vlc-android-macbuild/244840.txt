@@ -1,0 +1,10 @@
+    }
+
+    public void putInto(Bundle args) {
+        putSegmentMrl(args, mOrder, mSegmentMrl);
+        putSegmentUrl(args, mOrder, mSegmentUrl);
+        putDuration(args, mOrder, mDuration);
+        putBytes(args, mOrder, mBytes);
+    }
+
+    public static void putSegmentMrl(Bundle args, int order, String segmentMrl) {

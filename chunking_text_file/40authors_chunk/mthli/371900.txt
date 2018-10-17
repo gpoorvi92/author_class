@@ -1,0 +1,10 @@
+            System.out.println("Match");
+            int g = matcher.groupCount();
+            if (g > 0)
+            {
+               for (int i = 0; i < input.length(); i++)
+               {
+                  // Print any empty groups
+                  for (int j = 1; j <= g; j++)
+                     if (i == matcher.start(j) && i == matcher.end(j)) 
+                        System.out.print("()");        

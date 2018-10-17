@@ -1,0 +1,10 @@
+      schemes.put(StandardScheme.class, new modifyTaskManagerConfig_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new modifyTaskManagerConfig_argsTupleSchemeFactory());
+    }
+
+    public String propertyName; // required
+    public String propertyValue; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      PROPERTY_NAME((short)1, "propertyName"),

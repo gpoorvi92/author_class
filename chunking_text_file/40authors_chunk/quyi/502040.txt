@@ -1,0 +1,10 @@
+      case 86:
+        return READ_HISTORY_BOOKMARKS;
+      case 87:
+        return READ_INPUT_STATE;
+      case 88:
+        return READ_LOGS;
+      case 89:
+        return READ_PHONE_STATE;
+      case 90:
+        return READ_PROFILE;

@@ -1,0 +1,10 @@
+		scene.setBackground(new Background(0, 0, 0));
+
+		/* Create the rectangles. */
+		final Rectangle rect1 = this.makeColoredRectangle(-180, -180, 1, 0, 0);
+		final Rectangle rect2 = this.makeColoredRectangle(0, -180, 0, 1, 0);
+		final Rectangle rect3 = this.makeColoredRectangle(0, 0, 0, 0, 1);
+		final Rectangle rect4 = this.makeColoredRectangle(-180, 0, 1, 1, 0);
+
+		final Entity rectangleGroup = new Entity(CAMERA_WIDTH / 2, CAMERA_HEIGHT / 2);
+

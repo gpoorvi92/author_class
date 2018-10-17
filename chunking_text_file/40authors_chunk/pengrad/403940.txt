@@ -1,0 +1,10 @@
+
+        if (result_id != null ? !result_id.equals(that.result_id) : that.result_id != null) return false;
+        if (from != null ? !from.equals(that.from) : that.from != null) return false;
+        if (location != null ? !location.equals(that.location) : that.location != null) return false;
+        if (inline_message_id != null ? !inline_message_id.equals(that.inline_message_id) : that.inline_message_id != null)
+            return false;
+        return query != null ? query.equals(that.query) : that.query == null;
+
+    }
+

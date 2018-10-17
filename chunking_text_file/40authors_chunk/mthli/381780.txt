@@ -1,0 +1,10 @@
+    */
+   private Object parseValue(Element e)
+   {
+      Element child = (Element) e.getFirstChild();
+      if (child.getTagName().equals("bean")) return parseBean(child);
+      String text = ((Text) child.getFirstChild()).getData();
+      if (child.getTagName().equals("int")) return new Integer(text);
+      else if (child.getTagName().equals("boolean")) return new Boolean(text);
+      else if (child.getTagName().equals("string")) return text;
+      else return null;

@@ -1,0 +1,10 @@
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * A frame with an image component
+ */
+class ImageFrame extends JFrame

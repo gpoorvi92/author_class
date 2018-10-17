@@ -1,0 +1,10 @@
+	/**
+	 * Returns a {@link CRCResult} computed with {@link CRC32} from the stream specified as
+	 * parameter.
+	 * 
+	 * @param inputStream
+	 * @return {@link CRCResult}
+	 * @throws IOException
+	 */
+	public CRCResult getBufferedCrc(InputStream inputStream)
+			throws IOException {

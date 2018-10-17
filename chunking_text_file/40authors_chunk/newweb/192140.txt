@@ -1,0 +1,10 @@
+	public Small[] querySmallsByType(String type) {
+		List<Small> list = null;
+		if(type.equals("全部")){
+			list = smallDao.selectAllSmalls();
+		}else{
+			list = smallDao.selectSmallsByType(type);
+		}
+		Small[] smalls = new Small[list.size()];
+		int count = 0;
+		for (Small small : list) {

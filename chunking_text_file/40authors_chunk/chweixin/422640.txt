@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置当前账号状态。
+	 * @param status
+	 * 	当前账号状态。
+	 * 0-停用，1-启用。
+	 * */
+	public void setStatus(Integer status) {
+		this.status = status;
+	}

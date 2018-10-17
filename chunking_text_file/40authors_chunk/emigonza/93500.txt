@@ -1,0 +1,10 @@
+                
+                JPopupMenu popupMenu = (JPopupMenu)o[0]; 
+                
+                PopupListener popupListener = (PopupListener)o[1]; 
+
+                int x = evt.getX(), y = evt.getY(); 
+                                         
+                boolean go = true; 
+                                         
+                if ( popupListener != null ) 

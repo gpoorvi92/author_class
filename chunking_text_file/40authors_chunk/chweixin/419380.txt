@@ -1,0 +1,10 @@
+	 * @return 菜单代码。
+	 */
+	public String getMenu() {
+		return menu;
+	}
+	/**
+	 * 设置菜单代码。
+	 * @param menu
+	 * 菜单代码。
+	 */

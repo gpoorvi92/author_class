@@ -1,0 +1,10 @@
+	 */
+	public void setGuid(String guid) {
+		this.guid = guid;
+	}
+
+	/**
+	 * @return the audioCodec
+	 */
+	public String getAudioCodec() {
+		return audioCodec;

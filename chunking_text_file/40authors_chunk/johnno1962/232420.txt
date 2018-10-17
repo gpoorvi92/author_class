@@ -1,0 +1,10 @@
+
+    InternalFrameAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void javax.swing.event.InternalFrameAdapter.internalFrameOpened(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameOpened( javax.swing.event.InternalFrameEvent e );
+

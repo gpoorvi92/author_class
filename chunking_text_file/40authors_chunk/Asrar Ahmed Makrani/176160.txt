@@ -1,0 +1,10 @@
+{
+	private Container c;
+	public String uname,pass,usname;
+	public int ctr = 0;
+	public CheckBoxHandler handler = new CheckBoxHandler();
+	public boolean rem;
+	
+	public password() 
+    {
+        

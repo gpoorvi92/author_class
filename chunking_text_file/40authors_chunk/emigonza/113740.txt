@@ -1,0 +1,10 @@
+// CoinDispenserBeanInfo.java - Bean information for the JavaPOS CoinDispenser
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

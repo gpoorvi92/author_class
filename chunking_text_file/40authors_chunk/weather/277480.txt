@@ -1,0 +1,10 @@
+    protected void cancelRequest() {
+        if (mQueue != null && mRequestFilter != null)
+            mQueue.cancelAll(mRequestFilter);
+    }
+
+    /**
+     * request请求的tag标签，用于取消request请求的标识。
+     *
+     * @return
+     */

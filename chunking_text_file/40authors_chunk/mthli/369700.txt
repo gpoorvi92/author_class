@@ -1,0 +1,10 @@
+   /**
+      This action executes the command that the button
+      action string denotes.
+   */
+   private class CommandAction implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {  
+         String command = event.getActionCommand();
+

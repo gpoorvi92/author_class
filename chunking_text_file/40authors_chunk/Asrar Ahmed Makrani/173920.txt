@@ -1,0 +1,10 @@
+        tab.add(patron_status_text, gbc);
+        gbc.gridx = 5;
+        tab.add(patron_loan_limit_text, gbc);
+        gbc.gridx = 7;
+        tab.add(patron_expiry_date_text, gbc);
+        
+        setBackground(Color.blue);
+        add(testing);
+        add(tab); 
+       

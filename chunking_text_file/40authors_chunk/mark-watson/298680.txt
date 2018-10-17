@@ -1,0 +1,10 @@
+                } else {
+                    other_args.add(args[i]);
+                }
+            } catch (Exception ex) {
+                System.err.println("ERROR: " + ex);
+            }
+        }
+        FileInputFormat.setInputPaths(conf, other_args.get(0));
+        FileOutputFormat.setOutputPath(conf, new Path(other_args.get(1)));
+        JobClient.runJob(conf);

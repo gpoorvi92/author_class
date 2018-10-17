@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int next() {
+        final int answer;
+        if (runningHasNext()) {
+            answer = this.position++;
+        } else {
+            final int t = this.word & -this.word;
+            answer = this.literalPosition + Integer.bitCount(t - 1);

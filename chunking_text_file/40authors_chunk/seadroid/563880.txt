@@ -1,0 +1,10 @@
+        }
+
+        mWebview.loadUrl(url);
+
+        showPageLoading(true);
+    }
+
+
+    private void showPageLoading(boolean pageLoading) {
+

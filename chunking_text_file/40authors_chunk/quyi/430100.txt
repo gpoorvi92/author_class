@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(VERSION_FIELD_DESC);
+        oprot.writeString(struct.version);
+        oprot.writeFieldEnd();
+      }
+      if (struct.update != null) {
+        oprot.writeFieldBegin(UPDATE_FIELD_DESC);
+        oprot.writeString(struct.update);
+        oprot.writeFieldEnd();
+      }
+      if (struct.result != null) {

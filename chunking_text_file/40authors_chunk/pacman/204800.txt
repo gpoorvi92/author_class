@@ -1,0 +1,10 @@
+	 * @return
+	 * @return: IMessageBuilder
+	 */
+	IMessageBuilder createBuilder();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	IMQFactory createFactory();

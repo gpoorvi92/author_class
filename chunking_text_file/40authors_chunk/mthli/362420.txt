@@ -1,0 +1,10 @@
+      catch (IOException e)
+      {
+      }
+      return bOut.toString();
+   }
+}
+
+/**
+ * This stream filter converts a stream of bytes to their Base64 encoding.
+ * 

@@ -1,0 +1,10 @@
+            {
+              Map<String,com.nercis.isscp.idl.APICheck> _elem65;
+              {
+                org.apache.thrift.protocol.TMap _map66 = new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+                _elem65 = new HashMap<String,com.nercis.isscp.idl.APICheck>(2*_map66.size);
+                for (int _i67 = 0; _i67 < _map66.size; ++_i67)
+                {
+                  String _key68;
+                  com.nercis.isscp.idl.APICheck _val69;
+                  _key68 = iprot.readString();

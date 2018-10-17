@@ -1,0 +1,10 @@
+	/** @return an iterator over all populators in this composite */
+	public Iterator getPopulators();
+
+	/** 
+	 * @return the populator with unique ID passed
+	 * @param uniqueId the populator unique ID
+	 * @see jpos.config.JposRegPopulator#getUniqueId()
+	 */
+	public JposRegPopulator getPopulator( String uniqueId );
+

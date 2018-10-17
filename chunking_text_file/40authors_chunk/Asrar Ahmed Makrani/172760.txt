@@ -1,0 +1,10 @@
+				JOptionPane.showMessageDialog(null, "del Succesful");
+				Video_no_text.setText("VD-");
+            	Video_title_text.setText("");
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");	
+            	
+            	Video_no_text.setEditable(true);
+            	Video_title_text.setEditable(true);
+ 				authorsArea.setEditable(true);

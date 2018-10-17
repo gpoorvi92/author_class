@@ -1,0 +1,10 @@
+	//String tax=jtfTax.getText();
+	//String total=jtfTotal.getText();
+	
+	private JTextArea jtaheader=new JTextArea("\n-------------------------------------------------------------"+
+											  "\n\tWak Lue Bistro"+
+											  "\n\t Lt L3-18A(P),Level 3,"+
+											  "\n\tMines shopping Fair,"+
+											  "\n\tJalan Dulang,"+
+											  "\n\tMines Resort City"+
+											  "\n\t43300 Seri Kembangan,"+

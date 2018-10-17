@@ -1,0 +1,10 @@
+      return getUpdate();
+
+    case RESULT:
+      return getResult();
+
+    }
+    throw new IllegalStateException();
+  }
+
+  /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */

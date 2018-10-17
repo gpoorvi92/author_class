@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.MaterialBrand;
+
+@Entity
+@Table(name="t_order_lhjweight")
+public class OrderLhjWeight {
+	
+	private int ID;
+	private Order order;
+	private MaterialBrand materialBrand;

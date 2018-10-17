@@ -1,0 +1,10 @@
+	 * @throws MQException
+	 */
+	boolean tryGetMessage(int milliseconds) throws MQException;
+
+	/**
+	 * Gets the message inside queue or topic immediately.
+	 * 
+	 * @return
+	 * @throws MQException
+	 */

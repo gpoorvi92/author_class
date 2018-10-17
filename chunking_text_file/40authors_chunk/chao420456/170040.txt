@@ -1,0 +1,10 @@
+		array.add("java");
+		array.add("javaee");
+		array.add("java");
+		array.add("java");
+		array.add("java");
+		array.add("android");
+
+		// 创建新集合
+		ArrayList newArrayList = new ArrayList();
+

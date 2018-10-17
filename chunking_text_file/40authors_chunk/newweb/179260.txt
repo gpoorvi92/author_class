@@ -1,0 +1,10 @@
+	}
+	
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<OrderPrice> selectOrderPriceByCondition(String type,
+			int materialBrandID, String orderID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_orderprice where type=? and productID=? and orderid=?")
+				.addEntity(OrderPrice.class);
+		query.setString(0, type);
+		query.setInteger(1, materialBrandID);

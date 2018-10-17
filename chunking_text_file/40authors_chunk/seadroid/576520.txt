@@ -1,0 +1,10 @@
+/**
+ * Check and download the latest version of a file and open it
+ */
+public class FetchFileDialog extends DialogFragment {
+    private String repoName;
+    private String repoID;
+    private String path;
+
+    private ImageView fileIcon;
+    private TextView fileNameText, fileSizeText;

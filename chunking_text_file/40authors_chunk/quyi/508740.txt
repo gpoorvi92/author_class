@@ -1,0 +1,10 @@
+              {
+                oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRUCT, _iter139.size()));
+                for (Map.Entry<String, APICheck> _iter140 : _iter139.entrySet())
+                {
+                  oprot.writeString(_iter140.getKey());
+                  _iter140.getValue().write(oprot);
+                }
+                oprot.writeMapEnd();
+              }
+            }

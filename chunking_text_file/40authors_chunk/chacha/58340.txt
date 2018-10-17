@@ -1,0 +1,10 @@
+					sk.cancel();
+					ch.close();
+					continue;
+				}
+				if(count<=0)
+					continue;
+			}catch(IOException e1){
+				log.error("dispatch exception "+ch.getSocketChannel().socket().getRemoteSocketAddress(),e1);
+				sk.cancel();
+				ch.close();

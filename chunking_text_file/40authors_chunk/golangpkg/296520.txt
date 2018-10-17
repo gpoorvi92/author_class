@@ -1,0 +1,10 @@
+		return getByteArrayFromInputStream(inputStream, start, length);
+	}
+
+
+	@Test
+	public void testCancelFileUpload()
+			throws ServletException, IOException, InterruptedException, ExecutionException, TimeoutException {
+
+		// begin a file upload process
+		UUID fileId = uploadProcessor.prepareUpload(fileSize, fileName, "lala");

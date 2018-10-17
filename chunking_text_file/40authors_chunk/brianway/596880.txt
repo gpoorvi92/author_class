@@ -1,0 +1,10 @@
+消费者 消费者1 WAITING了☆
+生产者 生产者1 RUNNABLE了
+生产者 生产者1 WAITING了★
+生产者 生产者2 WAITING了★
+消费者 消费者2 RUNNABLE了
+消费者 消费者2 WAITING了☆
+消费者 消费者1 WAITING了☆
+main RUNNABLE
+Monitor Ctrl-Break RUNNABLE
+生产者1 WAITING

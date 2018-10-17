@@ -1,0 +1,10 @@
+package neuralnetworks;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class GUITest_2H_momentum extends JFrame {
+    static float[] in1 = {0.1f, 0.1f, 0.9f};
+    static float[] in2 = {0.1f, 0.9f, 0.1f};

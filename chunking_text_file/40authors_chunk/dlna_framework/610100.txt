@@ -1,0 +1,10 @@
+
+	private Object userData = null; 
+	
+	public void setUserData(Object data) 
+	{
+		userData = data;
+	}
+
+	public Object getUserData() 
+	{

@@ -1,0 +1,10 @@
+     * @param other object to compare to
+     */
+    public boolean equals( Object other ) { return object.toString().equals( other.toString() ); }
+
+    /** @return the Object of this Comparable element */
+    public Object getObject() { return object; }
+
+    //-------------------------------------------------------------------------
+    // Public overridden methods
+    //

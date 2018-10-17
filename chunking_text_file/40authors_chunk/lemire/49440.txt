@@ -1,0 +1,10 @@
+                return false;
+            }
+            setRLW(this.ewahIter.previous());
+        }
+        return true;
+    }
+
+    private void setRLW(RunningLengthWord rlw) {
+        this.wordLength = rlw.getNumberOfLiteralWords();
+        this.wordPosition = this.ewahIter.position();

@@ -1,0 +1,10 @@
+		
+		fontSelector.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent e)
+			{
+				preview.setFont(new Font(String.valueOf(fontSelector.getSelectedItem()),fontStyle.getSelectedIndex(),14));
+			}
+		});
+		fontStyle.addActionListener(new ActionListener()
+		{

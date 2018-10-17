@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	//	minimum
+	////////////////////////////////////////////////
+
+	private final static String MINIMUM = "minimum";
+	
+	public void setMinimum(String value)
+	{
+		getAllowedValueRangeNode().setNode(MINIMUM, value);

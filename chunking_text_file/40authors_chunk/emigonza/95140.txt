@@ -1,0 +1,10 @@
+// ElectronicJournalBeanInfo.java - Bean information for the JavaPOS ElectronicJournal
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

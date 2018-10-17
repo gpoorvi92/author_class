@@ -1,0 +1,10 @@
+    if (this.obj == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.obj);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("func:");
+    if (this.func == null) {
+      sb.append("null");

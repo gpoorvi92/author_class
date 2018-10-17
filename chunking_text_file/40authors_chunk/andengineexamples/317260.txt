@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected float getBenchmarkStartOffset() {
+		return 2;
+	}
+
+	@Override
+	protected float getBenchmarkDuration() {
+		return 10;

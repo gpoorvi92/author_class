@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置上级菜单ID。
+	 * @param pid
+	 * 上级菜单ID。
+	 * */
+	public void setPid(String pid) {
+		this.pid = pid;
+	}
+	/**

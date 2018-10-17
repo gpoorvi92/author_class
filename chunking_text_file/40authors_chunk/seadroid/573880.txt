@@ -1,0 +1,10 @@
+        this.isCopyToLocal = isCopyToLocal;
+        this.uploadStateListener = uploadStateListener;
+
+        this.totalSize = new File(filePath).length();
+        this.finished = 0;
+
+        this.dataManager = new DataManager(account);
+    }
+
+    public UploadTaskInfo getTaskInfo() {

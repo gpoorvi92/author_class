@@ -1,0 +1,10 @@
+ * 图片实例
+ *
+ * @author huangjianfeng
+ */
+public class ImageEntity implements Serializable {
+    private static final String[] PROJECTION = new String[]{"_id", MediaStore.MediaColumns.DATA};
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1501566001919425929L;

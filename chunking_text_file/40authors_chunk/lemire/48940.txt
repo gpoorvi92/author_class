@@ -1,0 +1,10 @@
+            int r = l + 1;
+            int smallest = i;
+
+            if (r <= this.lastIndex) { // then l also okay
+                if (compare(this.a[l], ai) < 0) { // l beats i
+                    smallest = l;
+                    if (compare(this.a[r], this.a[smallest]) < 0)
+                        smallest = r;
+                } else if (compare(this.a[r], ai) < 0)
+                    smallest = r;

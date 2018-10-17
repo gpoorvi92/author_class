@@ -1,0 +1,10 @@
+
+    private final static Logger LOGGER = Logger.getAnonymousLogger();
+
+    private final TcpProxyBuffer clientBuffer = new TcpProxyBuffer();
+    private final TcpProxyBuffer serverBuffer = new TcpProxyBuffer();
+    private final SocketChannel clientChannel;
+
+    private Selector selector;
+    private SocketChannel serverChannel;
+    private TcpProxyConfig config;

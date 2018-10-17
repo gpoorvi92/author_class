@@ -1,0 +1,10 @@
+
+    boolean this_present_operateContent = true && this.isSetOperateContent();
+    boolean that_present_operateContent = true && that.isSetOperateContent();
+    if (this_present_operateContent || that_present_operateContent) {
+      if (!(this_present_operateContent && that_present_operateContent))
+        return false;
+      if (!this.operateContent.equals(that.operateContent))
+        return false;
+    }
+

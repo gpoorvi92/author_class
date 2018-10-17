@@ -1,0 +1,10 @@
+        }
+        return return_value;
+    }
+
+    /**
+     * 判断字符串str是否符合正则表达式reg
+     *
+     * @param str 需要处理的字符串
+     * @param reg 正则
+     * @return 是否匹配

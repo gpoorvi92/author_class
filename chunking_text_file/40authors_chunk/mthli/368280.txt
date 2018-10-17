@@ -1,0 +1,10 @@
+      panel = new JPanel();
+      // prepare color dialog
+
+      colorChooser = new JColorChooser();
+      colorDialog = JColorChooser.createDialog(null, "Planet Color", false, colorChooser,
+         EventHandler.create(ActionListener.class, this, "stopCellEditing"),
+         EventHandler.create(ActionListener.class, this, "cancelCellEditing"));
+   }
+
+   public Component getTableCellEditorComponent(JTable table, Object value, boolean isSelected,

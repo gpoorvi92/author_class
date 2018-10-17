@@ -1,0 +1,10 @@
+        return file_id != null ? file_id.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "file_id='" + file_id + '\'' +
+                ", thumb=" + thumb +
+                ", file_name='" + file_name + '\'' +
+                ", mime_type='" + mime_type + '\'' +

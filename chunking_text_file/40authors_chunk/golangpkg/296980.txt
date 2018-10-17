@@ -1,0 +1,10 @@
+	/**
+	 * Fired when all the uploads of the files specified by the fileIds have been prepared for the
+	 * client
+	 * specified by the clientId.
+	 * 
+	 * @param clientId
+	 * @param fileIds
+	 */
+	void onAllFileUploadsPrepared(UUID identifier, Collection<UUID> fileIds);
+

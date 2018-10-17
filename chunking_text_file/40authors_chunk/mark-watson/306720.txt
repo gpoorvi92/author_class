@@ -1,0 +1,10 @@
+ */public class PowerLoomUtils {
+
+    public PowerLoomUtils() {
+        System.out.print("Initializing...");
+        PLI.initialize();
+        System.out.println("    done.");
+    }
+    public int load(String fpath) {
+        try {
+            PLI.load(fpath, null);

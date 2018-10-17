@@ -1,0 +1,10 @@
+	 * */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * 设置用户姓名。
+	 * @param name
+	 * 用户姓名。
+	 * */
+	public void setName(String name) {

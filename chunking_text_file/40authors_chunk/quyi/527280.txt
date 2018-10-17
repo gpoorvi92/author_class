@@ -1,0 +1,10 @@
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.missionProgress != null) {
+        oprot.writeFieldBegin(MISSION_PROGRESS_FIELD_DESC);
+        oprot.writeString(struct.missionProgress);
+        oprot.writeFieldEnd();
+      }
+      if (struct.samples != null) {
+        oprot.writeFieldBegin(SAMPLES_FIELD_DESC);

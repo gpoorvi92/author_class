@@ -1,0 +1,10 @@
+/**
+*  Realiza un programa que pinte por pantalla un rombo hecho con  asteriscos. el programa
+* debe pedir la altura. Se debe comparar que la altura sea un numero impar mayor o igual a 3, en 
+* caso contrario se debe mostrar un mensaje de error.
+* 
+* 
+**/
+import java.util.Scanner;
+public class Rombo {
+    public static void main( String [] args ) {

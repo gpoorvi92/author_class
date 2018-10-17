@@ -1,0 +1,10 @@
+            y2 = height - 5 - 0.95f * height * ((data2[i + 1] - min) / (max - min));
+            //System.out.println("data["+i+"]="+data[i]+", y1="+y1+", y2="+y2);
+            g.drawLine(i + 20, (int) y1, i + 21, (int) y2);
+        }
+        float yzero = height - 5 - 0.95f * height * ((0.0f - min) / (max - min));
+        g.setColor(black);
+        g.drawLine(20, (int) yzero, data2.length + 19, (int) yzero);
+        g.drawLine(width / 2, height / 2 - 118, width / 2, height / 2 + 118);
+        g.drawString("Sigmoid", width / 2 + 100, height / 4 - 10);
+        g.drawString("SigmoidP", width / 2 +60, 3 * height / 4 + 10);

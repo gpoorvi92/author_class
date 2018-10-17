@@ -1,0 +1,10 @@
+      public int number;
+      public String line;
+   }
+
+   private class TextReader extends SwingWorker<StringBuilder, ProgressData>
+   {
+      private File file;
+      private StringBuilder text = new StringBuilder();
+
+      public TextReader(File file)

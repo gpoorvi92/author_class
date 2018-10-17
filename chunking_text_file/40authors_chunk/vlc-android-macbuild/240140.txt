@@ -1,0 +1,10 @@
+            throw new IllegalArgumentException("AssureNotEmptyString");
+    }
+
+    public static <E> void checkNotEmptyCollection(Collection<E> collection) {
+        if (collection == null || collection.isEmpty())
+            throw new IllegalArgumentException("AssureNotEmptyCollection");
+    }
+
+    public static <E> void checkNotEmptyArray(E[] collection) {
+        if (collection == null || collection.length <= 0)

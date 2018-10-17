@@ -1,0 +1,10 @@
+				ps.setString(2, msisdns[rnd.nextInt(msisdns.length)]);
+				ps.setString(3, operationTimes[rnd2.nextInt(operationTimes.length)]);
+				ps.addBatch();
+
+			}
+
+			ps.executeBatch();
+		} finally {
+
+			dbConn.close();

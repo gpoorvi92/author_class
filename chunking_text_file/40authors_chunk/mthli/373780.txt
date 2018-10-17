@@ -1,0 +1,10 @@
+package print;
+
+import java.awt.*;
+import java.awt.font.*;
+import java.awt.geom.*;
+import java.awt.print.*;
+import javax.swing.*;
+
+/**
+ * This component generates a 2D graphics image for screen display and printing.

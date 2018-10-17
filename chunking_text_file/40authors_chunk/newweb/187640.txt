@@ -1,0 +1,10 @@
+	}
+	
+	@Column
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	@Column(columnDefinition="int default 0 ")

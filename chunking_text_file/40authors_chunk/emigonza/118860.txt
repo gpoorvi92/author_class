@@ -1,0 +1,10 @@
+  // "ImageMode" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int IMG_ALL                      = 0xFF;
+  public static final int IMG_DECODE_ONLY              = 0x01;
+  public static final int IMG_STILL_ONLY               = 0x02;
+  public static final int IMG_STILL_DECODE             = 0x03;
+  public static final int IMG_VIDEO_DECODE             = 0x05;
+  public static final int IMG_VIDEO_STILL              = 0x06;
+

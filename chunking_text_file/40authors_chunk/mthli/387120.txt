@@ -1,0 +1,10 @@
+   {
+   }
+
+}
+
+/**
+ * This class renders an XML node.
+ */
+class DOMTreeCellRenderer extends DefaultTreeCellRenderer
+{

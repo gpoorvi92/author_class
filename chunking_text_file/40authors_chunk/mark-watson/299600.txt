@@ -1,0 +1,10 @@
+		DatabaseMetaData md = conn.getMetaData();
+		
+		// Discovery all table names in this database:
+		List<String> tableNames = new ArrayList<String>(5);
+		ResultSet table_rs = md.getTables(null, null, "%", new String[]{"TABLE"});
+		while (table_rs.next()) {
+			System.out.println("Table: " + table_rs.getString(3));
+			tableNames.add(table_rs.getString(3));
+		}
+		

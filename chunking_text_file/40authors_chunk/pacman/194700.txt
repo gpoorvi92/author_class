@@ -1,0 +1,10 @@
+		
+		sender.sendObject(model);
+		
+		assertTrue(receiver.tryGetMessage());
+		
+		assertNotNull(verifyObj);
+		assertTrue(verifyObj instanceof MockModel);
+		
+		MockModel mm = (MockModel)verifyObj;
+		assertEquals(123, mm.getId());

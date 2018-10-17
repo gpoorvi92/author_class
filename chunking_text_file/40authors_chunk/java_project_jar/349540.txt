@@ -1,0 +1,10 @@
+    public WildcardFileFilter(String wildcards[])
+    {
+        this(wildcards, null);
+    }
+
+    public WildcardFileFilter(String wildcards[], IOCase caseSensitivity)
+    {
+        if(wildcards == null)
+        {
+            throw new IllegalArgumentException("The wildcard array must not be null");

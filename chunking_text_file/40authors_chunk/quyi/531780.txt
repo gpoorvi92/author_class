@@ -1,0 +1,10 @@
+		for (int i = 0; i < userAppIdList.size(); i++) {
+			String userAppId = userAppIdList.get(i);
+			List<String> suserAppIdList = new ReadExcel().getColumnInfo(0, sfilePath, 0);
+			int row = suserAppIdList.indexOf(userAppId) + 1;
+			Workbook wb=null;
+			try {
+				 wb = Workbook.getWorkbook(new File(sfilePath)); // 从文件流中获取Excel工作区对象（WorkBook）
+				Sheet sheet = wb.getSheet(0); // 从工作区中取得页（Sheet）
+				List<String> rowinfoList = new ReadExcel().getRowInfo(sheet, row);
+				WritableFont NormalFont = new WritableFont(WritableFont.ARIAL, 10);

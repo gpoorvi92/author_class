@@ -1,0 +1,10 @@
+
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.nodeId != null) {
+          oprot.writeFieldBegin(NODE_ID_FIELD_DESC);
+          oprot.writeString(struct.nodeId);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }

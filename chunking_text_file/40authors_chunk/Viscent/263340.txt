@@ -1,0 +1,10 @@
+			result.put(key, new MMSCInfo(m.get(key)));
+		}
+		return result;
+	}
+
+	public Map<String, MMSCInfo> getRouteMap() {
+		//做防御性拷贝
+		return Collections.unmodifiableMap(deepCopy(routeMap));
+	}
+

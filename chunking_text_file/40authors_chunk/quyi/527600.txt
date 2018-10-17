@@ -1,0 +1,10 @@
+	}
+
+	public void setMissionId(String missionId) {
+		this.missionId = missionId;
+	}
+
+	public String getAppName() {
+		return appName;
+	}
+

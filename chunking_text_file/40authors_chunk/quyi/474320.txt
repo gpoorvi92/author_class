@@ -1,0 +1,10 @@
+    public com.nercis.isscp.idl.InvalidRequestException ire; // required
+    public com.nercis.isscp.idl.UnavailableException ue; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      SUCCESS((short)0, "success"),
+      IRE((short)1, "ire"),
+      UE((short)2, "ue");
+
+      private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();

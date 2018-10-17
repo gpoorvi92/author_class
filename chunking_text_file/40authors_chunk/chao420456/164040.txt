@@ -1,0 +1,10 @@
+
+		fos.close();
+		fis.close();
+	}
+
+	// 基本字节流一次读写一个字节
+	public static void method1(File srcFile, File destFile) throws IOException {
+		FileInputStream fis = new FileInputStream(srcFile);
+		FileOutputStream fos = new FileOutputStream(destFile);
+

@@ -1,0 +1,10 @@
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, reportTaskManagerConfig_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        BitSet incoming = iprot.readBitSet(2);
+        if (incoming.get(0)) {
+          struct.success = iprot.readString();
+          struct.setSuccessIsSet(true);
+        }

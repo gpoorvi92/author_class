@@ -1,0 +1,10 @@
+		 * share[2] = new Share(R.drawable.ico_share_album,"通信录朋友"); share[3] =
+		 * new Share(R.drawable.ico_share_qweibo,"腾讯微博"); share[4] = new
+		 * Share(R.drawable.ico_share_qzone,"腾讯空间"); share[5] = new
+		 * Share(R.drawable.ico_share_weixin,"新浪微博");
+		 
+		return share;
+	}*/
+
+	class ShareAdapter extends BaseAdapter {
+

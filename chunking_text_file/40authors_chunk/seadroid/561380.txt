@@ -1,0 +1,10 @@
+        // This has to be called before setContentView and you must use the
+        // class in android.support.v4.view and NOT android.view
+        requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+
+        setContentView(R.layout.settings_activity_layout);
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.settings_fragment_container, new SettingsPreferenceFragment());
+        fragmentTransaction.commit();
+        

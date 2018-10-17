@@ -1,0 +1,10 @@
+      boolean that_present_nodeHeat = true && that.isSetNodeHeat();
+      if (this_present_nodeHeat || that_present_nodeHeat) {
+        if (!(this_present_nodeHeat && that_present_nodeHeat))
+          return false;
+        if (!this.nodeHeat.equals(that.nodeHeat))
+          return false;
+      }
+
+      boolean this_present_timestamp = true;
+      boolean that_present_timestamp = true;

@@ -1,0 +1,10 @@
+        ClassUtil.setter(log, "operationName", "setter-method-test", String.class);
+        System.out.println(log);
+
+    }
+
+    /**
+     * 测试从jar包中获取到类名字
+     */
+    @Test
+    public void testGetClassByJar(){

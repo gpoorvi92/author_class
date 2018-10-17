@@ -1,0 +1,10 @@
+import org.andengine.util.modifier.IModifier.DeepCopyNotSupportedException;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.LightingColorFilter;
+import android.graphics.PorterDuff.Mode;
+import android.graphics.PorterDuffXfermode;
+

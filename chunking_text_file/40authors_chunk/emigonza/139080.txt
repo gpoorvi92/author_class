@@ -1,0 +1,10 @@
+  // Store the reference to the Device Service
+  protected void setDeviceService(BaseService service, int nServiceVersion)
+    throws JposException
+  {
+    // Special case: service == null to free references
+    if(service == null)
+    {
+
+      service113 = null;
+    }

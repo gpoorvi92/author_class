@@ -1,0 +1,10 @@
+	@Override
+	public boolean equals(Object obj) {
+		OrderLhjWeight weight = (OrderLhjWeight) obj;
+		if(materialBrand.getID() == weight.getMaterialBrand().getID())
+			return true;
+		return false;
+	}
+	
+	
+	

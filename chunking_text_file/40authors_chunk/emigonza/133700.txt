@@ -1,0 +1,10 @@
+    public static final int JPOS_EPCRW_PRINTER =  6 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_RELEASE =  7 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_DISPLAY =  8 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_NOCARD  =  9 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_START   = 10 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_END     = 11 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_PARITY  = 12 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_ENCODE  = 13 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_LRC     = 14 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_VERIFY  = 15 + JposConst.JPOSERREXT;

@@ -1,0 +1,10 @@
+	int enemySoldierIndex;//敌方士兵真序列
+	int heroGeneralStartX = 220;//我方将领起始x坐标
+	int heroGeneralStartY = 360;//我方将领起始y坐标
+	int enemyGeneralStartX = 20;//敌方将领起始x坐标
+	int enemyGeneralStartY = 20;//敌方将领起始y坐标
+	int heroSoldierStartX = 160;//我方士兵起始x坐标
+	int heroSoldierStartY = 180;//我方士兵起始y坐标
+	int enemySoldierStartX = 130;//敌方士兵起始x坐标
+	int enemySoldierStartY = 110;//敌方士兵起始y坐标
+	int soldierSpanX = 40;

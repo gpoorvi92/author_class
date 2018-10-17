@@ -1,0 +1,10 @@
+ * 响应回复消息处理帮助类。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */
+public final class RespMesssageHelper extends MsgUtil {
+	/**
+	 * 响应回复消息对象转换成xml。
+	 * @param message
+	 *  响应回复消息对象。
+	 * @return xml。

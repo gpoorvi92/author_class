@@ -1,0 +1,10 @@
+                        word[i] = ch;
+                        String temp = new String(word);
+                        if (end.compareTo(temp) == 0) return depth + 1;
+                        if (dict.contains(temp) == true && visited.contains(temp) == false) {
+                            queue.offer(temp);
+                            visited.add(temp);
+                        }
+                    }
+                    word[i] = before;
+                }

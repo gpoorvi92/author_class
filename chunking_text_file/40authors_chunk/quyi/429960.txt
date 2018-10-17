@@ -1,0 +1,10 @@
+    public VirusEngineStandardScheme getScheme() {
+      return new VirusEngineStandardScheme();
+    }
+  }
+
+  private static class VirusEngineStandardScheme extends StandardScheme<VirusEngine> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, VirusEngine struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();

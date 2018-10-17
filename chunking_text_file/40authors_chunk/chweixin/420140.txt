@@ -1,0 +1,7 @@
+	 * @param accountId
+	 * 公众号ID。
+	 * @return
+	 * 查询反馈。
+	 * */
+	String queryMenus(String accountId);
+}

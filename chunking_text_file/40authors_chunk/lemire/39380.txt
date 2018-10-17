@@ -1,0 +1,10 @@
+     * @return the number of literal words
+     */
+    public int getNumberOfLiteralWords() {
+        return getNumberOfLiteralWords(this.buffer, this.position);
+    }
+
+    static int getNumberOfLiteralWords(final Buffer buffer, final int position) {
+        return (int) (buffer.getWord(position) >>> (1 + RUNNING_LENGTH_BITS));
+    }
+

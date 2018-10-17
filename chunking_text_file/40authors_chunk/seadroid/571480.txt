@@ -1,0 +1,10 @@
+        try {
+            HashMap<String, String> hash = Maps.newHashMap();
+            while (c.moveToNext()) {
+                hash.put(c.getString(1), c.getString(0));
+            }
+            return hash;
+        } finally {
+            c.close();
+        }
+    }

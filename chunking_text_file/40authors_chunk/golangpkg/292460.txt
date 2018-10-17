@@ -1,0 +1,10 @@
+		staticStateManager.cache.put(uuid, entity);
+		writeEntity(new File(staticStateDirectoryManager.getUUIDFileParent(uuid), StaticStateManager.FILENAME), entity);
+	}
+
+	/**
+	 * Persists modifications onto filesystem only.
+	 * 
+	 * @param uuid the uuid of the client, identifying the file
+	 * @param entity the entity to write into that file
+	 */

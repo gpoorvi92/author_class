@@ -1,0 +1,10 @@
+		logger.info("公众号["+ accountId+"," +defaultReply.getAccount().getName()+ "]设置的默认回复信息：\r\n" + content);
+		BaseRespMessage  resp = RespMesssageHelper.respXmlToObject(content);
+		if(resp == null){
+				logger.info("解析成回复对象失败，将以文本形式发送！");
+				resp = new TextRespMessage();
+				((TextRespMessage)resp).setContent(content);
+		}
+		return resp;
+	}
+	/**

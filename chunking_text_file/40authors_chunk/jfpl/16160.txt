@@ -1,0 +1,10 @@
+				} else {
+					address = url.substring(4, parmIndex);
+
+					// If body, then set sms body
+					Uri uri = Uri.parse(url);
+					String query = uri.getQuery();
+					if (query != null) {
+						if (query.startsWith("body=")) {
+							intent.putExtra("sms_body", query.substring(5));
+						}

@@ -1,0 +1,10 @@
+		
+		if(isEmpty())
+		  throw new Exception("Queue is empty");
+	
+		HuffmanNode o=head.getNext().getElement();
+		DLNode sec=head.getNext().getNext();
+		head.setNext(sec);
+		sec.setPrev(head);
+		size--;
+		return o;

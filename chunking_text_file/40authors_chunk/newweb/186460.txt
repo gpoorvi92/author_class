@@ -1,0 +1,10 @@
+import com.newweb.service.base.BxgService;
+import com.newweb.service.business.OrderBxgFdwService;
+
+@Component("orderBxgFdwService")
+public class OrderBxgFdwServiceImp implements OrderBxgFdwService {
+	
+	@Autowired
+	private OrderBxgFdwDao orderBxgFdwDao;
+	@Autowired
+	private BxgService bxgService;

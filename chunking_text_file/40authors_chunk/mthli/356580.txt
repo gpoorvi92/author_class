@@ -1,0 +1,10 @@
+               add(new ChartComponent(values, names, getParameter("title")));
+            }
+         });
+   }
+}
+
+/**
+ * A component that draws a bar chart.
+ */
+class ChartComponent extends JComponent

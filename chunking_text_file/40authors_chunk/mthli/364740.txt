@@ -1,0 +1,10 @@
+                  final Properties events = new Properties();
+                  in = frame.getClass().getResourceAsStream(language + ".properties");
+                  events.load(in);
+
+                  for (final Object e : events.keySet())
+                  {
+                     String[] s = ((String) e).split("\\.");
+                     addListener(s[0], s[1], (String) events.get(e), engine);
+                  }
+                  frame.setTitle("ScriptTest");

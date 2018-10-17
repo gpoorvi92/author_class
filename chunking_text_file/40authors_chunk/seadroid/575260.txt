@@ -1,0 +1,10 @@
+    /**
+     * Show the given message in a {@link Toast} for a short period of time
+     * <p>
+     * This method may be called from any thread
+     *
+     * @param activity
+     * @param message
+     */
+    public static void show(final Activity activity, final String message) {
+        if (activity == null)

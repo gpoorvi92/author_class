@@ -1,0 +1,6 @@
+            System.out.println("Has introducido un numero negativo, el programa finaliza aquii!!! ");
+        }
+    }
+    System.out.println("La media es " + (media = (suma - num) / (contador -1)));
+  }
+}

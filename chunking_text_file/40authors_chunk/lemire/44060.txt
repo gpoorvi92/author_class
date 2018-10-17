@@ -1,0 +1,10 @@
+            setWord(position + length + i, getWord(position + i));
+        }
+        this.actualSizeInWords += length;
+    }
+
+    @Override
+    public void collapse(int position, int length) {
+        for(int i = 0; i < this.actualSizeInWords - position - length; ++i) {
+            setWord(position + i, getWord(position + length + i));
+        }

@@ -1,0 +1,10 @@
+            System.out.println(t.getMessage());
+      }
+   }
+
+   /**
+    * Executes the selected query.
+    */
+   private static void executeQuery() throws SQLException
+   {
+      String author = select("Authors:", authors);

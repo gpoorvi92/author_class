@@ -1,0 +1,10 @@
+			String media) {
+
+		VideoTranscodingMessage message = new VideoTranscodingMessage();
+		message.setCommandId(taskId);
+		message.setClassId(classId);
+		message.setLessonId(lessonId);
+		message.setAudioBitRate(audioBitrate);
+		message.setAudioSamplingRate(audioSample);
+		message.setVideoBitRate(videoBitrate);
+		message.setVideoWidth(videoWidth);

@@ -1,0 +1,10 @@
+class MyGenetic extends Genetic {
+    MyGenetic(int num_g, int num_c, float crossover_fraction,
+              float mutation_fraction) {
+        super(num_g, num_c, crossover_fraction, mutation_fraction);
+    }
+    private float fitness(float x) {
+        return (float)(Math.sin(x) * Math.sin(0.4f * x) * Math.sin(3.0f * x));
+    }
+    float geneToFloat(int chromosomeIndex) {
+        int base = 1;

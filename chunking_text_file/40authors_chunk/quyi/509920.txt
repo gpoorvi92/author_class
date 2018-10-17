@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetVirusEngine() {
+    this.virusEngine = null;
+  }
+
+  /** Returns true if field virusEngine is set (has been assigned a value) and false otherwise */
+  public boolean isSetVirusEngine() {
+    return this.virusEngine != null;

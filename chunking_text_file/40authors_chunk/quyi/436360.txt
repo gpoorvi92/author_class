@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetCheckEndDate()).compareTo(other.isSetCheckEndDate());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCheckEndDate()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.checkEndDate, other.checkEndDate);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

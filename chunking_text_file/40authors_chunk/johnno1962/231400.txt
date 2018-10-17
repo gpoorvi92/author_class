@@ -1,0 +1,10 @@
+        return arg;
+    }
+
+    public static byte byte2dArrayFieldStatic[][];
+    public byte byte2dArrayField[][];
+
+    public static byte[][] byte2dArrayMethodStatic( byte arg[][] ) {
+        return arg;
+    }
+

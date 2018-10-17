@@ -1,0 +1,10 @@
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(MissionResults.class, metaDataMap);
+  }
+
+  public MissionResults() {
+  }
+
+  public MissionResults(
+    String missionId,
+    List<Engine> engines,

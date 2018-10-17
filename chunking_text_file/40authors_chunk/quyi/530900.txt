@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // APP_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.app_name = iprot.readString();
+              struct.setApp_nameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

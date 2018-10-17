@@ -1,0 +1,10 @@
+			req.printLogs(logger);
+
+			reqCount = requestCounter.get(req.getInterfaceName());
+			if (null == reqCount) {
+				reqCount = new AtomicLong(0);
+				requestCounter.put(req.getInterfaceName(), reqCount);
+			}
+
+			reqCount.incrementAndGet();
+

@@ -1,0 +1,10 @@
+		Node node = getFaultStringNode();
+		if (node == null)
+			return "";
+		return node.getValue();
+	}
+	
+	public String getFaultActor()
+	{
+		Node node = getFaultActorNode();
+		if (node == null)

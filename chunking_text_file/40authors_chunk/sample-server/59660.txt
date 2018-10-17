@@ -1,0 +1,10 @@
+        return msg;
+    }
+    public static byte[] toByteArray(Object msg)
+    {
+        byte[] body = null;
+        if (msg instanceof MessageLite)
+        {
+            body = ((MessageLite) msg).toByteArray();
+        }
+        else if (msg instanceof MessageLite.Builder)

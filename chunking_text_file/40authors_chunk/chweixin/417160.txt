@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private AccessToken token;
+	private String toUser,msgType;
+	/**
+	 * 获取调用接口凭证。
+	 * @return 调用接口凭证。
+	 * */
+	public AccessToken getToken() {
+		return token;
+	}

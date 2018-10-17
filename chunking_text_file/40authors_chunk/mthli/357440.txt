@@ -1,0 +1,10 @@
+
+      TableColumnModel columnModel = table.getColumnModel();
+      TableColumn moonColumn = columnModel.getColumn(PlanetTableModel.MOONS_COLUMN);
+      moonColumn.setCellEditor(new DefaultCellEditor(moonCombo));
+      moonColumn.setHeaderRenderer(table.getDefaultRenderer(ImageIcon.class));
+      moonColumn.setHeaderValue(new ImageIcon(getClass().getResource("Moons.gif")));
+
+      // show table
+
+      table.setRowHeight(100);

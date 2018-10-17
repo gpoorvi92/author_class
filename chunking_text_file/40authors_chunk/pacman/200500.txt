@@ -1,0 +1,10 @@
+		
+		context.setAttribute(Constants.CONTEXT_MEDIA_PATH, mediaTarget);
+		List<String> newList = new ArrayList<String>();
+		
+		String target = null, pubfile = null;
+		if (resList != null) {
+			for(String res : resList) {
+
+				logger.info("=========>" + res);
+				if (WebHelper.isWebResource(res)) {

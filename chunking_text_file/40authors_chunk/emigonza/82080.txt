@@ -1,0 +1,10 @@
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapConcurrentPageMode() throws JposException;
+  public boolean getCapRecPageMode() throws JposException;
+  public boolean getCapSlpPageMode() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+
+  // Properties
+  public String  getPageModeArea() throws JposException;
+  public int     getPageModeDescriptor() throws JposException;
+  public int     getPageModeHorizontalPosition() throws JposException;

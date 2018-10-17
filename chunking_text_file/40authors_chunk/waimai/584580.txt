@@ -1,0 +1,10 @@
+            loginLog.setUserId(loginUser.getId());
+            loginLog.setStatus(LoginStatus.SUCCESS.toString());
+        }
+        loginLogService.add(loginLog);
+        return map;
+    }
+
+    @RequestMapping("/update")
+    public @ResponseBody Map<String, Object> update(User user) {
+        Map<String, Object> map = new HashMap<String, Object>();

@@ -1,0 +1,10 @@
+
+
+
+	private UploadProcessingConfiguration masterProcessingConfiguration = new UploadProcessingConfiguration();
+
+	// ///////////////
+	// Configuration//
+	// ///////////////
+
+	// 10mb/s

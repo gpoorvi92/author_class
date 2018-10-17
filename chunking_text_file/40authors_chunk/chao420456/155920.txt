@@ -1,0 +1,10 @@
+		dsj.put("焦宁波", 30);
+		dsj.put("张瑜", 22);
+		// 把数据添加到集合
+		xaxq.put("大数据班", dsj);
+
+		// 遍历xaxq
+		Set<String> xaxqSet = xaxq.keySet();
+		for (String xaxqKey : xaxqSet) {
+			System.out.println(xaxqKey);
+			HashMap<String, Integer> xaxqValue = xaxq.get(xaxqKey);

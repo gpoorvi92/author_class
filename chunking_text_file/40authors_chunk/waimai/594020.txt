@@ -1,0 +1,10 @@
+    }
+
+    @RequestMapping("/showList")
+    public ModelAndView showListByJson(String ids) {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/goodsType/select");
+        List<GoodsType> goodsTypeList = goodsTypeService.findAll();
+        modelAndView.addObject("goodsTypeList", goodsTypeList);
+        modelAndView.addObject("ids", ids);
+        return modelAndView;
+    }

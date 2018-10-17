@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.AncestorListener.ancestorAdded(javax.swing.event.AncestorEvent)
+
+    public native void __ancestorAdded( javax.swing.event.AncestorEvent event );
+
+    public void ancestorAdded( javax.swing.event.AncestorEvent event ) {
+        __ancestorAdded( event );
+    }

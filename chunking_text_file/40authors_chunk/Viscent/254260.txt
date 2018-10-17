@@ -1,0 +1,10 @@
+				entry.timeStamp = timeStamp;
+				entry.recordType = "response";
+				entry.operationName = "getLocationRsp";
+				entry.srcDevice = "NIG";
+				entry.dstDevice = "ESB";
+				traceId = traceId + 3;
+				entry.traceId = "0021" + traceIdFormatter.format(traceId);
+				logger.printLog(entry);
+
+				timeStamp += internalDelay;

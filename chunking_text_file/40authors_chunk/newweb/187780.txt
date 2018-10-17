@@ -1,0 +1,10 @@
+	 * 将汉字转换为全拼
+	 * 
+	 * @param src
+	 * @return String
+	 */
+	public static String getPinYin(String src) {
+		char[] t1 = null;
+		t1 = src.toCharArray();
+		// System.out.println(t1.length);
+		String[] t2 = new String[t1.length];

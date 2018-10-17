@@ -1,0 +1,10 @@
+    
+    public class SendButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            try {
+                writer.println(outgoing.getText());
+                writer.flush();
+                
+            }
+            catch (Exception ex) {
+                ex.printStackTrace();

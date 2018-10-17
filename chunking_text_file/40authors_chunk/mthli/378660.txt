@@ -1,0 +1,10 @@
+      q.add("Fifi");
+      q.remove();
+      for (String s : q) System.out.println(s);
+   }
+}
+
+/** 
+    A first-in, first-out bounded collection. 
+*/ 
+class CircularArrayQueue<E> extends AbstractQueue<E>

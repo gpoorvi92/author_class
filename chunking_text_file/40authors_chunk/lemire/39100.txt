@@ -1,0 +1,10 @@
+    @Test
+    public void testXor() {
+        System.out.println("testXor ");
+        Iterator<EWAHCompressedBitmap32[]> i = getCollections(2, 3);
+        while (i.hasNext()) {
+            EWAHCompressedBitmap32[] x = i.next();
+            EWAHCompressedBitmap32 tanswer = x[0].xor(x[1]);
+            EWAHCompressedBitmap32 x1 = IteratorUtil32
+                    .materialize(IteratorAggregation32.bufferedxor(
+                            x[0].getIteratingRLW(),

@@ -1,0 +1,10 @@
+    public String getType() {
+        return "".equals(type) ? null : type;
+    }
+    public void setType(String type) {
+        this.type = type;
+    }
+    public String getStatus() {
+        return "".equals(status)? null : status;
+    }
+    public void setStatus(String status) {

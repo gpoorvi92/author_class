@@ -1,0 +1,10 @@
+	private float recordVoiceY = 0;
+	private String title;
+	private String id;
+	private String serial;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.chat, "");
+
+		this.vrDialog = new VoiceRecordDialog(this);

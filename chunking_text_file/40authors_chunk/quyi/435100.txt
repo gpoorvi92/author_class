@@ -1,0 +1,10 @@
+      }
+      this.autoRunMonitor = __this__autoRunMonitor;
+    }
+    if (other.isSetFileOperate()) {
+      List<FileOperate> __this__fileOperate = new ArrayList<FileOperate>(other.fileOperate.size());
+      for (FileOperate other_element : other.fileOperate) {
+        __this__fileOperate.add(new FileOperate(other_element));
+      }
+      this.fileOperate = __this__fileOperate;
+    }

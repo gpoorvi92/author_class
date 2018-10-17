@@ -1,0 +1,10 @@
+
+		if (domNodeType == org.w3c.dom.Node.TEXT_NODE) {
+			// Change to use Node::addValue() instead of the setValue(). (2008/02/07)
+			//parentNode.setValue(domNodeValue);
+			parentNode.addValue(domNodeValue);
+			return parentNode;
+		}
+
+		if (domNodeType != org.w3c.dom.Node.ELEMENT_NODE)
+			return parentNode;

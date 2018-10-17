@@ -1,0 +1,10 @@
+			}
+			else if(x>200 && x<260 && y>252 && y<282){//战斗音乐
+				activity.isBattleSound = !activity.isBattleSound;
+			}
+			else if(x>200 && x<260 && y>310 && y<340){//环境音效
+				activity.isEnvironmentSound = !activity.isEnvironmentSound; 
+			}
+			else if(x>130 && x<190 && y>430 && y<470){//确定按钮
+				activity.myHandler.sendEmptyMessage(type);
+			}

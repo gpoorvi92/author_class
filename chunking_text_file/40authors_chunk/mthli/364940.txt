@@ -1,0 +1,10 @@
+    */
+   public static void main(String[] args)
+   {
+      try
+      {
+         if (args.length == 0) 
+            System.out.println("USAGE: java bytecodeAnnotations.EntryLogger classname");
+         else
+         {
+            JavaClass jc = Repository.lookupClass(args[0]);

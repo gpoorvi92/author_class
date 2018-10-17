@@ -1,0 +1,10 @@
+                res.add(it);
+            } else if (it.start > newInterval.end) {
+                res.add(newInterval);
+                res.add(it);
+                inserted = true;
+            } else {
+                newInterval.start = Math.min(newInterval.start, it.start);
+                newInterval.end = Math.max(newInterval.end, it.end);
+            }
+        }

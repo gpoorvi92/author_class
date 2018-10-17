@@ -1,0 +1,10 @@
+		// System.out.println(len);
+		// // System.out.println(new String(bys));
+		// System.out.println(new String(bys, 0, len));
+		//
+		// // 第二次读取
+		// len = fis.read(bys);
+		// System.out.println(len);
+		// // System.out.println(new String(bys));
+		// System.out.println(new String(bys, 0, len));
+		//

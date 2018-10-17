@@ -1,0 +1,10 @@
+
+    protected void initSearch() {
+        if (searchPath == null) {
+            searchPath = new Location[1000];
+            for (int i=0; i<1000; i++) {
+                searchPath[i] = new Location();
+            }
+        }
+        pathCount = 0;
+        startLoc = maze.startLoc;

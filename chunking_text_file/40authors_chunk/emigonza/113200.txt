@@ -1,0 +1,10 @@
+  public void    compareFirmwareVersion(String firmwareFileName, int[] result)
+                     throws JposException;
+  public void    eraseMedium()
+                     throws JposException;
+  public void    initializeMedium(String mediumID)
+                     throws JposException;
+  public void    printContent(String fromMarker,
+                              String toMarker)
+                     throws JposException;
+  public void    printContentFile(String fileName)

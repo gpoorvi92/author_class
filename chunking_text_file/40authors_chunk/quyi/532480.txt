@@ -1,0 +1,10 @@
+    return new APICheck(this);
+  }
+
+  @Override
+  public void clear() {
+    this.apiName = null;
+    this.apiPackageName = null;
+    this.packageName = null;
+    this.objectName = null;
+    this.methodName = null;

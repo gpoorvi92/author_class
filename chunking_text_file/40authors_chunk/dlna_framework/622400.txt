@@ -1,0 +1,10 @@
+	public String getDeliveryHost() {
+		return deliveryHost;
+	}
+
+	public String getDeliveryPath() {
+		return deliveryPath;
+	}
+
+	public int getDeliveryPort() {
+		return deliveryPort;

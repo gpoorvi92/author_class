@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    endDeposit(int success)
+                     throws JposException;
+  public void    fixDeposit()
+                     throws JposException;
+  public void    pauseDeposit(int control)
+                     throws JposException;
+  public void    readCashCounts(String[] cashCounts,
+                                boolean[] discrepancy)
+                     throws JposException;

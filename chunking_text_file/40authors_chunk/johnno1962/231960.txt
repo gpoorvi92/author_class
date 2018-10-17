@@ -1,0 +1,10 @@
+
+    public native void __componentShown( java.awt.event.ComponentEvent e );
+
+    public void componentShown( java.awt.event.ComponentEvent e ) {
+        __componentShown( e );
+    }
+
+    /// public abstract void java.awt.event.ComponentListener.componentHidden(java.awt.event.ComponentEvent)
+
+    public native void __componentHidden( java.awt.event.ComponentEvent e );

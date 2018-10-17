@@ -1,0 +1,10 @@
+  public double cpuUsedPerc; // required
+  public double freeMem; // required
+  public double jvmFreeMem; // required
+  public int taskQueueLimit; // required
+  public int taskQueueNume; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    NODE_ID((short)1, "nodeId"),
+    CPU_USED_PERC((short)2, "cpuUsedPerc"),

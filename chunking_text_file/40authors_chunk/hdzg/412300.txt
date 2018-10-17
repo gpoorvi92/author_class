@@ -1,0 +1,10 @@
+	}
+	public void setAgility(int agility) {
+		this.agility = agility;
+	}
+	
+	public CityDrawable getCityDrawable(){//设置将领所在地城池
+		return cityDrawable;
+	}
+
+	public String getRank() {

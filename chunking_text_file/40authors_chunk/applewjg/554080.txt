@@ -1,0 +1,10 @@
+        }
+        return false;
+    }
+    public boolean search(int[] A, int target) {
+        int left = 0, right = A.length - 1;
+        while (left <= right) {
+            int mid = (left + right) /2;
+            if (A[mid] == target) return true;
+            if (A[left] < A[mid]) {
+                if (A[left] <= target && target < A[mid]) right = mid - 1;

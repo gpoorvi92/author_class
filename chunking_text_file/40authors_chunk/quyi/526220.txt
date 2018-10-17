@@ -1,0 +1,10 @@
+    String missionProgress,
+    List<com.nercis.isscp.idl.Sample> samples)
+  {
+    this();
+    this.missionId = missionId;
+    this.engines = engines;
+    this.missionProgress = missionProgress;
+    this.samples = samples;
+  }
+

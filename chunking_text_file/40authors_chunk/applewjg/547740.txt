@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Jan 2, 2015
+ Problem:    Merge Two Sorted Lists
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/merge-two-sorted-lists/
+ Notes:
+ Merge two sorted linked lists and return it as a new list. 
+ The new list should be made by splicing together the nodes of the first two lists.
+

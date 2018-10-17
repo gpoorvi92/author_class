@@ -1,0 +1,10 @@
+		}
+		body=new AccountBody(acctArray);
+		request=new AddAccountRequest(body);
+		try {
+			System.out.println(request.toJson());
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		//json转换为pojo
+		AddAccountRequest r=new AddAccountRequest();

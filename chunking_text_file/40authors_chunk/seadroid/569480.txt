@@ -1,0 +1,10 @@
+        if (task == null || !task.canRetry())
+            return;
+        addTaskToQue(task.getAccount(), task.getRepoID(), task.getRepoName(), task.getDir(), task.getPath(), task.isUpdate(), task.isCopyToLocal());
+    }
+
+    // -------------------------- listener method --------------------//
+    @Override
+    public void onFileUploadProgress(int taskID) {
+        Intent localIntent = new Intent(BROADCAST_ACTION).putExtra("type",
+                BROADCAST_FILE_UPLOAD_PROGRESS).putExtra("taskID", taskID);

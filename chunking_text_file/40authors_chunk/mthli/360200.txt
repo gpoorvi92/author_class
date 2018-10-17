@@ -1,0 +1,10 @@
+
+      // now harry and the clone are different
+      System.out.println(harry);
+      System.out.println(harry2);
+   }
+}
+
+/**
+   A class whose clone method uses serialization.
+*/

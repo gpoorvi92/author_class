@@ -1,0 +1,10 @@
+            }
+            catch (Exception e)
+            {
+                e.printStackTrace();
+               JOptionPane.showMessageDialog(mv,"Unable to save the display image.");
+            }   
+        }
+    }
+
+  public void keyPressed(KeyEvent e)

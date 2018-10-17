@@ -1,0 +1,10 @@
+                struct.setUserAppsIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 3: // RULES
+              if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+                {
+                  org.apache.thrift.protocol.TList _list35 = iprot.readListBegin();
+                  struct.rules = new ArrayList<String>(_list35.size);

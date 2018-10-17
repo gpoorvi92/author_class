@@ -1,0 +1,10 @@
+    @Override
+    public void writeTo(final OutputStream outstream) throws IOException {
+        outstream.write(out.toByteArray());
+    }
+
+    @Override
+    public Header getContentEncoding() {
+        return null;
+    }
+

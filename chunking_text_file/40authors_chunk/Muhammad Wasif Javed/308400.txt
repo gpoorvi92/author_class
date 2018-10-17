@@ -1,0 +1,10 @@
+
+		//Setting the Form's Labels.
+
+		lbUser = new JLabel ("Username:");
+		lbUser.setForeground (Color.black);
+		lbUser.setBounds (20, 15, 75, 25);
+	        lbPass = new JLabel ("Password:");
+		lbPass.setForeground (Color.black);
+        	lbPass.setBounds (20, 50, 75, 25);
+

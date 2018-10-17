@@ -1,0 +1,10 @@
+    boolean entered_dragDropEnd_0;
+
+    public void dragDropEnd( java.awt.dnd.DragSourceDropEvent dsde ) {
+        if ( !entered_dragDropEnd_0 ) {
+            entered_dragDropEnd_0 = true;
+            __dragDropEnd( dsde );
+            entered_dragDropEnd_0 = false;
+        }
+        else
+            super.dragDropEnd( dsde );

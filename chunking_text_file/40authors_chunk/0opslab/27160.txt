@@ -1,0 +1,10 @@
+                BufferedInputStream imp = new BufferedInputStream(new FileInputStream(file));
+        ) {
+            while ((len = imp.read(buf, 0, buf.length)) != -1) {
+                // Check if the stream is only ascii.
+                if (isAscii) {
+                    isAscii = det.isAscii(buf, len);
+                }
+
+                // DoIt if non-ascii and not done yet.
+                if (!isAscii && !done) {

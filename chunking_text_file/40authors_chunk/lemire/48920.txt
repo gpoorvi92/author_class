@@ -1,0 +1,10 @@
+     * Signals that the element on top of the heap has been updated
+     */
+    public void percolateDown() {
+        percolateDown(1);
+    }
+
+    private void percolateDown(int i) {
+        T ai = this.a[i];
+        while (true) {
+            int l = 2 * i;

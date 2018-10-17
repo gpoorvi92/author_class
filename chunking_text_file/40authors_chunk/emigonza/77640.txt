@@ -1,0 +1,10 @@
+									 UNKNOWN_DEVICE_BUS 
+								   };
+								   
+	//-------------------------------------------------------------------------
+	// Property types allowed
+	//
+
+	/** The default JposEntry property type */
+	public static final Class DEFAULT_PROP_TYPE = String.class;
+

@@ -1,0 +1,10 @@
+	
+	public static final String XMLNS_URL = "http://schemas.xmlsoap.org/soap/envelope/";
+	public static final String ENCSTYLE_URL = "http://schemas.xmlsoap.org/soap/encoding/";
+	
+	public static final String CONTENT_TYPE = "text/xml; charset=\"utf-8\"";
+	public static final String VERSION_HEADER = "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
+
+	////////////////////////////////////////////////
+	//	createEnvelopeBodyNode
+	////////////////////////////////////////////////

@@ -1,0 +1,10 @@
+	public void before() {
+		uploadProcessingOperationManager.clientsAndRequestsProcessingOperation.clear();
+		clientToFilesMap.clear();
+	}
+
+
+	@Test
+	public void test() {
+
+		UUID clientId = UUID.randomUUID();

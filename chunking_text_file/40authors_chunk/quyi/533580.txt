@@ -1,0 +1,10 @@
+      return isSetDescription();
+    case LINE_NUM:
+      return isSetLineNum();
+    case COLUMN_NUM:
+      return isSetColumnNum();
+    case RISK_DESCRIPTION:
+      return isSetRiskDescription();
+    }
+    throw new IllegalStateException();
+  }

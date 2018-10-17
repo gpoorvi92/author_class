@@ -1,0 +1,10 @@
+			this.getModel().setUrl(this.host());
+		}
+		super.update();
+	}
+
+	@Override
+	protected String deletePrimaryString() {
+		return this.getModel().getId();
+	}
+}

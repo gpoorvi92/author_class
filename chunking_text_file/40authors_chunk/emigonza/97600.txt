@@ -1,0 +1,10 @@
+    public int     getPrompt() throws JposException;
+    public void    setPrompt(int propmpt) throws JposException;
+    public String  getPromptLanguage() throws JposException;
+    public void    setPromptLanguage(String promptLanguage) throws JposException;
+    public String  getTerminalID() throws JposException;
+    public void    setTerminalID(String terminalID) throws JposException;
+    public byte[]  getTrack1Data() throws JposException;
+    public void    setTrack1Data(byte[] track1Data) throws JposException;
+    public byte[]  getTrack2Data() throws JposException;
+    public void    setTrack2Data(byte[] track2Data) throws JposException;

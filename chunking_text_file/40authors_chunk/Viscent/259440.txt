@@ -1,0 +1,10 @@
+				if (null != bos) {
+					bos.close();
+				}
+			} catch (IOException e) {
+				;
+			}
+		}
+
+		return file;
+	}

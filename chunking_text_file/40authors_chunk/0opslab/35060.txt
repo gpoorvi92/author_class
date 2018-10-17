@@ -1,0 +1,10 @@
+        }
+        StringBuilder buf = new StringBuilder(src.length());
+        char[] ca = src.toCharArray();
+        for (int i = 0; i < src.length(); i++) {
+            if (ca[i] >= SBC_CHAR_START && ca[i] <= SBC_CHAR_END) {
+                // 如果位于全角！到全角～区间内
+                buf.append((char) (ca[i] - CONVERT_STEP));
+            } else if (ca[i] == SBC_SPACE) {
+                // 如果是全角空格
+                buf.append(DBC_SPACE);

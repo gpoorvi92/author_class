@@ -1,0 +1,10 @@
+					try {
+						task = workQueue.take();
+					} catch (InterruptedException e) {
+						break;
+					}
+					System.out.println(doProcess(task));
+
+				}
+			}
+

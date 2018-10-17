@@ -1,0 +1,10 @@
+//            System.out.println(dateFormat.format(calendar.getTime()));
+//        }
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM");
+        calendar.add(Calendar.MONTH, -11);
+        System.out.println(dateFormat.format(calendar.getTime()));
+    }
+
+    @Test
+    public void testSaleCount() throws Exception {

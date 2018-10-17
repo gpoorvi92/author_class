@@ -1,0 +1,10 @@
+      this.description = other.description;
+    }
+    this.lineNum = other.lineNum;
+    this.columnNum = other.columnNum;
+    if (other.isSetRiskDescription()) {
+      this.riskDescription = other.riskDescription;
+    }
+  }
+
+  public APICheck deepCopy() {

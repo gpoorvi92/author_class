@@ -1,0 +1,10 @@
+        String jarPath = TestUtil.path +"/lib/cpdetector.jar";
+        List<String> resourceNames = ClassUtil.getResourceNameByJar(jarPath);
+        System.out.println(resourceNames);
+    }
+
+
+
+    /**
+     * 获取jar包中的自定类型的资源
+     */

@@ -1,0 +1,10 @@
+        // \\p{Cn} 的意思为 Unicode 中未被定义字符的编码，\\P{Cn} 就表示 Unicode中已经被定义字符的编码
+        String  reg     = "\\p{InCJK Unified Ideographs}&&\\P{Cn}";
+        Pattern pattern = Pattern.compile(reg);
+        return pattern.matcher(str.trim()).find();
+    }
+
+
+    // 完整的判断中文汉字和符号
+    public final static boolean isChinese(String strName) {
+        char[] ch = strName.toCharArray();

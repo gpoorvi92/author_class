@@ -1,0 +1,10 @@
+
+                }
+                );
+            }
+        }
+        {
+            final TextView view = ((TextView) findViewById(id.details_dt));
+            if (view!= null) {
+                view.addTextChangedListener(new TextWatcher() {
+

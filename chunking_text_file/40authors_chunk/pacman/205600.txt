@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月2日 上午2:03:40
+ */
+public class IdGenerator {
+
+	private final static AtomicInteger seed = new AtomicInteger();
+	
+	public static int nextInt() {
+		

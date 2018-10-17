@@ -1,0 +1,10 @@
+
+    public void searchApp(String missionId, String userAppId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void searchMission(String missionId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void searchAllEng(org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void searchEng(String engineId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void ruleSync(List<com.nercis.isscp.idl.rules.Rules> rules, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;

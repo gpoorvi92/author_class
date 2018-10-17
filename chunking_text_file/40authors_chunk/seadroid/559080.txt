@@ -1,0 +1,10 @@
+        public void onServiceConnected(ComponentName className, IBinder binder) {
+            TransferService.TransferBinder transferBinder = (TransferService.TransferBinder) binder;
+            mTransferService = transferBinder.getService();
+            updateMgr.onTransferServiceConnected(mTransferService);
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName className) {
+            mTransferService = null;
+        }

@@ -1,0 +1,10 @@
+         }
+         catch (UnsupportedFlavorException exception)
+         {
+            JOptionPane.showMessageDialog(this, exception);
+         }
+         catch (IOException exception)
+         {
+            JOptionPane.showMessageDialog(this, exception);
+         }
+      }

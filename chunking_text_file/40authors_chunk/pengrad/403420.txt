@@ -1,0 +1,10 @@
+
+        if (file_id != null ? !file_id.equals(video.file_id) : video.file_id != null) return false;
+        if (width != null ? !width.equals(video.width) : video.width != null) return false;
+        if (height != null ? !height.equals(video.height) : video.height != null) return false;
+        if (duration != null ? !duration.equals(video.duration) : video.duration != null) return false;
+        if (thumb != null ? !thumb.equals(video.thumb) : video.thumb != null) return false;
+        if (mime_type != null ? !mime_type.equals(video.mime_type) : video.mime_type != null) return false;
+        return file_size != null ? file_size.equals(video.file_size) : video.file_size == null;
+    }
+

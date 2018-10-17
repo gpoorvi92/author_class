@@ -1,0 +1,10 @@
+		try {
+			sessionFactory.getCurrentSession().update(ob);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override

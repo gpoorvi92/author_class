@@ -1,0 +1,10 @@
+	 * @return
+	 * 回复内容。
+	 * */
+	public String getContent() {
+		return content;
+	}
+	/**
+	 * 设置回复内容。
+	 * @param content
+	 * 回复内容。

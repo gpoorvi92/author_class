@@ -1,0 +1,10 @@
+
+ Solution: DFS.
+ */
+public class Solution {
+    public boolean exist(char[][] board, String word) {
+        int m = board.length;
+        if (m == 0) return false;
+        int n = board[0].length;
+        if (n == 0) return false;
+        if (word.length() == 0) return true;

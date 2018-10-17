@@ -1,0 +1,10 @@
+    static float[] test1 = {FALSE, TRUE};
+    static float[] test2 = {TRUE, FALSE};
+    static float[] test3 = {TRUE, TRUE};
+
+    public static void main(String[] args) {
+        Neural_1H nn = new Neural_1H(2, 3, 1);
+        nn.addTrainingExample(in1, out1);
+        nn.addTrainingExample(in3, out3);
+        nn.addTrainingExample(in2, out2);
+        nn.addTrainingExample(in4, out4);

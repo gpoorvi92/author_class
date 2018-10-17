@@ -1,0 +1,10 @@
+	 * 获取视频消息媒体ID。
+	 * 	可以调用多媒体文件下载接口拉取数据。
+	 * @return 视频消息媒体ID。
+	 * */
+	public String getMediaId() {
+		return mediaId;
+	}
+	/**
+	 * 设置视频消息媒体ID。
+	 * @param mediaId

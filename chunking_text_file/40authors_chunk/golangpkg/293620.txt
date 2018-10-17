@@ -1,0 +1,10 @@
+		// if existent but a file, runtime exception
+		else {
+			if (file.isFile()) {
+				throw new RuntimeException(file.getAbsolutePath() +
+						" is a file. The default root folder provider uses this path to store the files. Consider using a specific root folder provider or delete this file.");
+			}
+		}
+		return file;
+	}
+	

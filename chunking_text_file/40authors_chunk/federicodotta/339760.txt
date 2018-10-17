@@ -1,0 +1,10 @@
+ */
+import java.util.List;
+import javax.swing.JMenuItem;
+
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerContextMenuFactory()</code> to register
+ * a factory for custom context menu items.
+ */
+public interface IContextMenuFactory

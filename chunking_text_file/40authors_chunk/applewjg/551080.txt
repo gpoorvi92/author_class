@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 17, 2014
+ Problem:    Implement strStr()
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/implement-strstr/
+ Notes:
+ Implement strStr().
+ Returns a pointer to the first occurrence of needle in haystack, or null if needle is not part of haystack.
+

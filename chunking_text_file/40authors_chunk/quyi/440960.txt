@@ -1,0 +1,10 @@
+    if (other.isSetOperateTime()) {
+      this.operateTime = other.operateTime;
+    }
+  }
+
+  public NetworkPacket deepCopy() {
+    return new NetworkPacket(this);
+  }
+
+  @Override

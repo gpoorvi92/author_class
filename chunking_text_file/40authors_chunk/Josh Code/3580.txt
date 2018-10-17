@@ -1,0 +1,10 @@
+            out.println(" facet normal "
+                + ModelSaver.getSpacedVectorCoordinates(normal));
+            out.println("outer loop");
+            for (int vi = 0; vi < 3; vi++)
+            {
+                Vector3D vertex = Triangle.getVertex(triangles[i],vi);
+                out.println("   vertex" + ModelSaver.getSpacedVectorCoordinates(vertex));
+            }
+            out.println("  endloop");
+            out.println(" endfacet");

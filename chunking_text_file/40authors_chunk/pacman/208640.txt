@@ -1,0 +1,10 @@
+import org.apache.http.protocol.HTTP;
+import org.springframework.util.StringUtils;
+
+import com.yeshj.pacman.log.ILog;
+import com.yeshj.pacman.log.LogFactory;
+
+/**
+ * @ClassName: WebHelper
+ * @Description: TODO
+ * @author: Dellinger

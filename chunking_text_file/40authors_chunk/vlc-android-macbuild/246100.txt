@@ -1,0 +1,10 @@
+        // TODO:implement
+    }
+
+    @Override
+    public void setScreenOnWhilePlaying(boolean screenOn) {
+        if (mSurfaceHolder != null) {
+            mSurfaceHolder.setKeepScreenOn(screenOn);
+        }
+    }
+

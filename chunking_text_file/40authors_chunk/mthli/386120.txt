@@ -1,0 +1,10 @@
+ * A component that displays filled rectangles and ellipses
+ */
+class FillComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 400;
+
+   public void paintComponent(Graphics g)
+   {
+      Graphics2D g2 = (Graphics2D) g;

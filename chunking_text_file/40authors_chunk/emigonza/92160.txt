@@ -1,0 +1,8 @@
+                              byte[] password)
+                     throws JposException;
+  public void    writeTagID(byte[] sourceID,
+                            byte[] destID,
+                            int timeout,
+                            byte[] password)
+                     throws JposException;
+}

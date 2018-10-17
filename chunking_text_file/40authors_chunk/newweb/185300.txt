@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public boolean update(OrderSmall os) {
+		try {
+			sessionFactory.getCurrentSession().update(os);
+		} catch (Exception e) {
+			return false;

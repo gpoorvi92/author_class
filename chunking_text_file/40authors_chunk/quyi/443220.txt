@@ -1,0 +1,6 @@
+		List<UserAppInfo> appInfoList = new ReadExcel().getUserAppInfoList(filePath, 0).subList(count*missionSize, (count+1)*missionSize);
+        long time= PerformanceTestClient.issueMultiMessages(session, producer, missionId, missionSize, count, appInfoList);
+		System.out.println("missionId:"+missionId+",time:"+time);
+	}
+
+}

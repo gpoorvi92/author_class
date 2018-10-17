@@ -1,0 +1,10 @@
+
+    private Goods goods;
+
+    private Merchant merchant;
+
+    public Merchant getMerchant() {
+        return merchant;
+    }
+
+    public void setMerchant(Merchant merchant) {

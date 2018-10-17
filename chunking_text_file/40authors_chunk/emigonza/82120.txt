@@ -1,0 +1,10 @@
+  // Methods
+  public void    clearPrintArea()
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName, int[] result)
+                     throws JposException;
+  public void    pageModePrint(int control)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+}

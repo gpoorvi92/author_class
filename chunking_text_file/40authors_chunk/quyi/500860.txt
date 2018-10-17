@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("jvmFreeMem:");
+    sb.append(this.jvmFreeMem);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("taskQueueLimit:");
+    sb.append(this.taskQueueLimit);
+    first = false;
+    if (!first) sb.append(", ");

@@ -1,0 +1,8 @@
+
+		Thread t1 = new Thread(st);
+		Thread t2 = new Thread(gt);
+		t1.start();
+		t2.start();
+
+	}
+}

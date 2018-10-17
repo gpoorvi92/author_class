@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetUpdate()) {
+        oprot.writeString(struct.update);
+      }
+      if (struct.isSetResult()) {
+        oprot.writeString(struct.result);
+      }
+    }
+
+    @Override

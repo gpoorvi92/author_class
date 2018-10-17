@@ -1,0 +1,10 @@
+               return m.invoke(param);
+            }
+         };
+
+      Object listener = Proxy.newProxyInstance(null,
+            new Class[] { java.awt.event.ActionListener.class }, handler);
+      Method adder = source.getClass().getMethod("addActionListener", ActionListener.class);
+      adder.invoke(source, listener);
+   }
+}

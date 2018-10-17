@@ -1,0 +1,10 @@
+    private LibVlcVideoSegmentListLoader mIndexResolver;
+
+    private PlayIndex mPlayIndex;
+    private long mTotalDuration;
+
+    private SurfaceHolder mSurfaceHolder;
+
+    boolean mListPlayerPrepared;
+    boolean mIsMediaSwitchEnd;
+

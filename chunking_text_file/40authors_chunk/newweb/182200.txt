@@ -1,0 +1,10 @@
+		return returnList;
+	}
+
+	@Override
+	public String[] queryDistinctStatus() {
+		List<String> list = billDao.selectDistinctStatus();
+		String[] s = new String[list.size()];
+		int count = 0;
+		for (String string : list) {
+			s[count++] = string;

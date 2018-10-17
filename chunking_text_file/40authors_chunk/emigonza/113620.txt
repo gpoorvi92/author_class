@@ -1,0 +1,10 @@
+
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();
+    }
+  }

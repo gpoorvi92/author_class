@@ -1,0 +1,10 @@
+            }
+            infos.add(info);
+        }
+
+        db.saveAutoUpdateInfo(info);
+
+        if (!Utils.isNetworkOn() || txService == null) {
+            return;
+        }
+

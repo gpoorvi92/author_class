@@ -1,0 +1,10 @@
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class NetworkPacketTupleSchemeFactory implements SchemeFactory {
+    public NetworkPacketTupleScheme getScheme() {
+      return new NetworkPacketTupleScheme();

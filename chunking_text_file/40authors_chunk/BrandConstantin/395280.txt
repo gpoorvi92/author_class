@@ -1,0 +1,10 @@
+    int i;
+    int b;
+    
+    for (i = 2; i <= 100; i++){
+        
+        primo = true;
+        for (b = 2; b < i; b++){
+            if ((i % b) == 0){
+                primo = false;
+            }   

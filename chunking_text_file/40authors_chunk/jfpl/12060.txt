@@ -1,0 +1,10 @@
+		});
+		itemMap.put(name, tv);
+	}
+	
+	public int getMenuCount() {
+		return itemMap.size();
+	}
+
+	public void removeMenuItem(String name) {
+		if (itemMap.containsKey(name)) {

@@ -1,0 +1,10 @@
+	 * @return true if and only if the trasmission succeced<br>
+	 * 	Because it rely on UDP doesn't mean that it's also recieved
+	 */
+	public boolean post(SSDPNotifyRequest req)
+	{
+		String ssdpAddr = SSDP.ADDRESS;
+		if (useIPv6Address == true)
+			ssdpAddr = SSDP.getIPv6Address();
+		req.setHost(ssdpAddr, SSDP.PORT);
+		return post((HTTPRequest)req);

@@ -1,0 +1,10 @@
+			node.setChildren(new ArrayList<TreeNode>());
+			for(int i = 0; i < m.getModules().size(); i++){
+				TreeNode n = this.createTreeNode(m.getModules().item(i));
+				if(n != null) node.getChildren().add(n);
+			}
+		}
+		
+		return node;
+	}
+}

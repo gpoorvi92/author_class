@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_checkEngineNum = true;
+    boolean that_present_checkEngineNum = true;
+    if (this_present_checkEngineNum || that_present_checkEngineNum) {
+      if (!(this_present_checkEngineNum && that_present_checkEngineNum))
+        return false;
+      if (this.checkEngineNum != that.checkEngineNum)
+        return false;

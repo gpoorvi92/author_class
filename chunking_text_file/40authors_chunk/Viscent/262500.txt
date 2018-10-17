@@ -1,0 +1,10 @@
+				pwr.flush();
+				i = 0;
+				// Thread.yield();
+			}
+
+		}
+
+		if (i > 0) {
+			pwr.flush();
+		}

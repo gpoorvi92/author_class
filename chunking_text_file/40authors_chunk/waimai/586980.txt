@@ -1,0 +1,10 @@
+public class MerchantCollectionServiceImpl implements IMerchantCollectionService {
+    @Autowired
+    private MerchantCollectionMapper merchantCollectionMapper;
+    @Autowired
+    private MerchantMapper merchantMapper;
+
+    @Override
+    public void add(MerchantCollection merchantCollection) throws ServiceException {
+        if (merchantCollectionMapper.countByUserIdAndMerchantId(merchantCollection) > 0) {
+            throw new ServiceException("收藏一次就好");

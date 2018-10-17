@@ -1,0 +1,10 @@
+	//
+
+	/** @return the name of this property */
+	public String getName();
+
+	/** @return the type of this property */
+	public PropType getType();
+
+	/** @return the default value for this property */
+	public PropValue getDefaultValue();

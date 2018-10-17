@@ -1,0 +1,10 @@
+      labelTable.put(0, new JLabel("A"));
+      labelTable.put(20, new JLabel("B"));
+      labelTable.put(40, new JLabel("C"));
+      labelTable.put(60, new JLabel("D"));
+      labelTable.put(80, new JLabel("E"));
+      labelTable.put(100, new JLabel("F"));
+
+      slider.setLabelTable(labelTable);
+      addSlider(slider, "Custom labels");
+

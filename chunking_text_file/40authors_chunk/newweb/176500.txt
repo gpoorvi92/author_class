@@ -1,0 +1,10 @@
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public List selectAllTyepForBrands(int start, int limit) {
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_typeforbrand")
+				.addEntity(TypeForBrand.class);
+		int size = query.list().size();
+		query.setFirstResult(start);

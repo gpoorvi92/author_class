@@ -1,0 +1,10 @@
+    return this.centerResultPath;
+  }
+
+  public StaticCheckResultData setCenterResultPath(String centerResultPath) {
+    this.centerResultPath = centerResultPath;
+    return this;
+  }
+
+  public void unsetCenterResultPath() {
+    this.centerResultPath = null;

@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping("/merchant/goods")
+public class GoodsController extends ComGoodsController {
+    @Autowired
+    private IGoodsService goodsService;
+    @Autowired
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/list")

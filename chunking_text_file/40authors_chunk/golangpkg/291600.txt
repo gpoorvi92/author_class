@@ -1,0 +1,6 @@
+		return requestThreadLocal.get().getSession();
+
+	}
+
+
+}

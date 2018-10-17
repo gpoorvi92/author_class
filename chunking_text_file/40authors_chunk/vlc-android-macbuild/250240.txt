@@ -1,0 +1,10 @@
+            mOnErrorListener.onError(this, 1, 1);
+        }
+    }
+
+    @Override
+    public boolean onError(MediaPlayer mp, int what, int extra) {
+        DebugLog.v(TAG, "onError");
+        if (mOnErrorListener != null) {
+            return mOnErrorListener.onError(this, what, extra);
+        }

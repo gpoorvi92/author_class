@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public String toJson() throws JsonMappingException,
+			JsonGenerationException, IOException {
+		return JsonPojoMapper.toJson(this,true);
+	}
+
+	@Override
+	public void fromJson(String json) throws JsonMappingException,

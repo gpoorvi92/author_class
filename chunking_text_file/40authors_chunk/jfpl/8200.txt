@@ -1,0 +1,10 @@
+		this.ctx = ctx;
+		this.chatList = chatList;
+	}
+
+	protected void doChatSuccess(AbstractCommonData acd) {
+
+	}
+
+	protected void doChatError(AbstractCommonData acd) {
+

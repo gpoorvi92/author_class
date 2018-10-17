@@ -1,0 +1,10 @@
+	public java.lang.Thread getThreadObject() {
+		return mThreadObject;
+	}
+
+	public void start() 
+	{
+		java.lang.Thread threadObject = getThreadObject();
+		if (threadObject == null) {
+			threadObject = new java.lang.Thread(this,"Cyber.ThreadCore");
+			setThreadObject(threadObject);

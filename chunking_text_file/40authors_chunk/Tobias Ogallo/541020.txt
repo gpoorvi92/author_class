@@ -1,0 +1,8 @@
+			}
+			pg.dispose();
+		}
+		if (pjob != null)
+			pjob.end();
+	}
+	
+}

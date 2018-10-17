@@ -1,0 +1,10 @@
+ 		}
+ 		usname = usnames;
+ 		uspasswd = uspasswds;
+ 		checked = checkeds;
+ 		
+ 		check();
+ 		
+ 	}		
+ 			public boolean check()
+ 			{ 

@@ -1,0 +1,10 @@
+	public void study() {
+		System.out.println("好好学习,天天向上");
+	}
+}
+
+class ArgsDemo2 {
+	public static void main(String[] args) {
+		PersonDemo pd = new PersonDemo();
+		Person p = new Student();
+		pd.method(p);

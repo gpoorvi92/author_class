@@ -1,0 +1,10 @@
+package model;
+
+/**
+ A 3D vector.  Depending on detail of the model, there may be as much as a 
+ * million vectors in RAM at a time so it is important to keep each instance as small as possible.
+ * To save space used internally by method pointers, 
+ * most methods related to vector have been defined in the vectorMath class.  Since static methods and overriding
+*/
+public class Vector3D
+{

@@ -1,0 +1,10 @@
+			if (s.indexOf("billion") > -1) scale = 1000000000;
+			s = s.replaceAll("\\$", "");
+			int index = s.indexOf("%");
+			if (index > -1)
+				s = s.substring(0, index);
+			index = s.indexOf(" ");
+			if (index > -1)
+				s = s.substring(0, index);
+			s = s.replaceAll(",", "");
+			ret = Integer.parseInt(s);

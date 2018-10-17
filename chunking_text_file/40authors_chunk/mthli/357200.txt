@@ -1,0 +1,10 @@
+            crc.update(c);
+         }
+         return crc.getValue();
+      }
+   }
+
+   public static void main(String[] args) throws IOException
+   {
+      System.out.println("Input Stream:");
+      long start = System.currentTimeMillis();

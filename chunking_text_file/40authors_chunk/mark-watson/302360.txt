@@ -1,0 +1,10 @@
+		}
+		return ret * scale;
+	}
+
+	private static long parseLong(String s) {
+		String orig = s;
+		long ret = -1;
+		long scale = 1;
+		try {
+			if (s.indexOf("million") > -1) scale = 1000000;

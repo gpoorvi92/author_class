@@ -1,0 +1,10 @@
+				lPattern = new byte[1];
+				lPattern[0] = (byte) currentByte;
+
+				currentByte = in.read();
+			}else{
+				// get current pattern by augmenting previous pattern
+				cPattern = new byte[lPattern.length+1];
+				System.arraycopy(lPattern, 0, cPattern, 0, lPattern.length);
+				cPattern[lPattern.length] = (byte) currentByte;
+								

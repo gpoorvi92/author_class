@@ -1,0 +1,10 @@
+		txtDate = new JTextField ();
+		txtDate.setEnabled (false);
+		txtDate.setBounds (125, 105, 200, 25);
+
+		//Setting the Form's Buttons.
+
+		btnFind = new JButton ("Find Member");
+		btnFind.setBounds (30, 145, 125, 25);
+		btnFind.addActionListener (this);
+		btnCancel = new JButton ("Cancel");

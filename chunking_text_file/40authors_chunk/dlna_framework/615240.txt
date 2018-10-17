@@ -1,0 +1,10 @@
+		setEnvelopeNode(SOAP.createEnvelopeBodyNode());
+		Node envNode = getEnvelopeNode();
+		Node bodyNode = getBodyNode();
+		Node qeuryNode = createContentNode(stateVar);
+		bodyNode.addNode(qeuryNode);
+		setContent(envNode);
+
+		setSOAPAction(Control.QUERY_SOAPACTION);
+	}
+

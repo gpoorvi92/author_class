@@ -1,0 +1,10 @@
+    /**
+     * This method returns the name of the issue type.
+     *
+     * @return The name of the issue type (e.g. "SQL injection").
+     */
+    String getIssueName();
+
+    /**
+     * This method returns a numeric identifier of the issue type. See the Burp
+     * Scanner help documentation for a listing of all the issue types.

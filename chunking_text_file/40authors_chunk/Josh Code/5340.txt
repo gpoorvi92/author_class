@@ -1,0 +1,10 @@
+    public void render()
+    {
+        if (renderer == null)
+        {
+            System.err.println(
+                "modelViewPanel unable to render because renderer is null.");
+            return;
+        }
+        switch (displaymode)
+        { 

@@ -1,0 +1,10 @@
+  	Video_no_text.addFocusListener(new MyActionListener()
+		{
+			public void focusLost(FocusEvent e)
+			{
+			try
+			{
+				Statement statement = connection.createStatement();
+					String query1 = "SELECT * FROM Item " + 
+ 								"WHERE item_id = '" + 
+ 								Video_no_text.getText() +"'";

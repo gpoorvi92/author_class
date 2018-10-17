@@ -1,0 +1,10 @@
+		});
+		
+		LaunchActButton yexingLab =  (LaunchActButton) view.findViewById(R.id.yexing_lab);
+		yexingLab.setOnHomeClick(new HomeClickListener() {
+			
+			@Override
+			public void onclick() {
+				action(Constant.TYPE_YEXING);
+			}
+		});

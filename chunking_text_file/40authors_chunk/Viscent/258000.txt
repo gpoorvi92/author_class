@@ -1,0 +1,10 @@
+	public AbstractParallelPipe(BlockingQueue<IN> queue,
+	    ExecutorService executorService) {
+		super();
+		this.executorService = executorService;
+	}
+
+	/**
+	 * 留给子类实现。用于根据指定的输入元素input构造一组子任务。
+	 * 
+	 * @param input

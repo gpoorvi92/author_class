@@ -1,0 +1,10 @@
+     */
+    public static String getTypeForName(String name) {
+        int lastDot = name.lastIndexOf('.');
+        if (lastDot >= 0) {
+            String extension = name.substring(lastDot + 1).toLowerCase();
+            String mime = MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension);
+            if (mime != null) {
+                return mime;
+            }
+        }

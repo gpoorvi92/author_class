@@ -1,0 +1,10 @@
+		BufferedWriter bw = new BufferedWriter(new FileWriter(destString));
+
+		int ch = 0;
+		while ((ch = br.read()) != -1) {
+			bw.write(ch);
+		}
+
+		bw.close();
+		br.close();
+	}

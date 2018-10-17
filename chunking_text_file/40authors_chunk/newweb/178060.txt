@@ -1,0 +1,10 @@
+	}
+	public void setGlassWidth(double glassWidth) {
+		this.glassWidth = glassWidth;
+	}
+	public double getGlassHeight() {
+		return glassHeight;
+	}
+	public void setGlassHeight(double glassHeight) {
+		this.glassHeight = glassHeight;
+	}

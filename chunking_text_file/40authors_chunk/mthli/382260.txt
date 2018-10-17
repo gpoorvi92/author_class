@@ -1,0 +1,10 @@
+        name = n;
+        salary = s;
+        id = 0;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getSalary() {

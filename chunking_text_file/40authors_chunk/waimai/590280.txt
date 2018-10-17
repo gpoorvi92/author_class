@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("management/goodsType/edit");
+        modelAndView.addObject("goodsType", goodsTypeService.findById(id));
+        return modelAndView;
+    }
+
+    @RequestMapping("/update")
+    public ModelAndView update(GoodsType goodsType) {
+        try {
+            goodsTypeService.update(goodsType);
+        } catch (ServiceException e) {

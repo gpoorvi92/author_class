@@ -1,0 +1,10 @@
+		setResizable (false);						//Make it UnResizeable.
+
+		//Closing Code of Main Window.
+
+		addWindowListener (new WindowAdapter () {		//Attaching the WindowListener to Program.
+			public void windowClosing (WindowEvent we) {	//Overriding the windowClosing Function.
+				setVisible (false);			//Hide the Form.
+				dispose();            			//Free the System Resources.
+				System.exit (0);        		//Close the Application.
+			}

@@ -1,0 +1,10 @@
+      {
+        makeEvent("Data"),
+        makeEvent("DirectIO"),
+        makeEvent("Error"),
+        makeEvent("OutputComplete"),
+        makeEvent("StatusUpdate")
+      };
+
+      return events;
+    }

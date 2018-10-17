@@ -1,0 +1,10 @@
+		/*
+		 * 对原始任务进行分解，并将分解得来的子任务派发给Slave参与者实例。 这里使用了Strategy（策略）模式：原始任务分解和子任务派发
+		 * 这两个具体的计算是通过调用需要的算法策略（对象）实现的。
+		 */
+		Iterator<Future<V>> subResults = dispatchStrategy.dispatch(slaves,
+		    taskDivideStrategy);
+
+		// 等待Slave实例处理结束
+		for (SlaveSpec<T, V> slave : slaves) {
+			slave.shutdown();

@@ -1,0 +1,10 @@
+			verifyMap = map;
+		}
+
+		@Override
+		public void onObjectMessage(Object obj) {
+			verifyObj = obj;
+		}
+		
+		/** (non Javadoc)
+		 * TODO

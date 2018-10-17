@@ -1,0 +1,10 @@
+      break;
+
+    case CHECK_END_DATE:
+      if (value == null) {
+        unsetCheckEndDate();
+      } else {
+        setCheckEndDate((String)value);
+      }
+      break;
+

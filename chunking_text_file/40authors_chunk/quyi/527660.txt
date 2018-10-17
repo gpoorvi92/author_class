@@ -1,0 +1,10 @@
+	public long getStartedTime() {
+		return startedTime;
+	}
+
+	public void setStartedTime(long startedTime) {
+		this.startedTime = startedTime;
+	}
+
+	public long getFinishedTime() {
+		return finishedTime;

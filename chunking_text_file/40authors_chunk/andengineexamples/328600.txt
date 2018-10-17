@@ -1,0 +1,10 @@
+							new DelayModifier(0.5f),
+							new ParallelEntityModifier(
+									new ScaleModifier(3, 0.5f, 5),
+									new RotationByModifier(3, 90)
+							),
+							new ParallelEntityModifier(
+									new ScaleModifier(3, 5, 1),
+									new RotationModifier(3, 180, 0)
+							)
+					)

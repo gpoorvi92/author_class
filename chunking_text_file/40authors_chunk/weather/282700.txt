@@ -1,0 +1,10 @@
+        }
+        getItems().remove(index);
+    }
+
+    /**
+     * 根据内容删除数据
+     *
+     * @param item
+     */
+    public void remove(T item) {

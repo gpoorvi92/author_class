@@ -1,0 +1,10 @@
+	}
+
+	public void setPackageId(String packageId) {
+		this.packageId = packageId;
+	}
+
+	public String getMsisdn() {
+		return msisdn;
+	}
+

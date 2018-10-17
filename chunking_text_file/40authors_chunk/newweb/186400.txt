@@ -1,0 +1,10 @@
+
+	OrderOther[] queryOrderOthersByOrderId(String id);
+
+	double getOrderAccountByOrderID(String id);
+
+	Order[] queryDoneOrderByCreateDateACustomerLikeCondition(String startDate,
+			String endDate, String customer);
+
+	Order[] queryProcessedOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer);

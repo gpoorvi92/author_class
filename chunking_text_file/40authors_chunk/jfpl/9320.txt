@@ -1,0 +1,10 @@
+import com.jufan.platform.service.ChatTextService;
+import com.jufan.platform.service.ChatUploadService;
+import com.jufan.platform.util.ChatMessageUtil;
+import com.jufan.platform.util.ConstVariables;
+import com.jufan.platform.util.GlobalVariables;
+import com.jufan.platform.util.ImageUtil;
+import com.jufan.platform.view.VoicePlayItem;
+import com.jufan.platform.view.VoiceRecordDialog;
+import com.jufan.platform.webview.JFChatWebChromeClient;
+import com.jufan.platform.webview.JFChatWebViewClient;

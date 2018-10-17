@@ -1,0 +1,10 @@
+     * @param missionId
+     * @param userAppId
+     */
+    public com.nercis.isscp.idl.AppCheckResult queryApp(String missionId, String userAppId) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+
+    /**
+     * 导出指定批次结果集
+     * 1:missionId 批次编号
+     * 
+     * 

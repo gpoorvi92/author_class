@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface MSRControl13 extends MSRControl12
+{
+    // Capabilities

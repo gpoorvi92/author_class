@@ -1,0 +1,10 @@
+      /* only greater comparisons result in a 1 bit in the subtree index
+       */
+      int result=0;
+
+        // loop through bits of the result
+      for (int i = 0; i < 3; i++)
+      {
+          result = result << 1;
+          result = result | (comparison & 1);
+          // use a 1 bit only for "greater" comparisons

@@ -1,0 +1,10 @@
+	 * @param bottom - like 'top' but for bottom side
+	 * @param left - like 'top' but for left side
+	 * @param topType - either ANCHOR_ABS, ANCHOR_REL or ANCHOR_NONE
+	 * to indicate whether the 'top' parameter is an absolute value (in pixels) or
+	 * a fractional value (in 1/1000 ths) of the height of this component's parent,
+	 * denoting where the anchor will be applied (if at all).
+	 * @param rightType - like 'topType' but for right side
+	 * @param bottomType - like 'topType' but for bottom side
+	 * @param leftType - like 'topType' but for left side
+	 */

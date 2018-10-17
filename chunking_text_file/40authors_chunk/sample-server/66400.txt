@@ -1,0 +1,8 @@
+    protected void doShutdown() throws Exception
+    {
+        if (null != bootstrap)
+        {
+            bootstrap.releaseExternalResources();
+        }
+    }
+}

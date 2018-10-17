@@ -1,0 +1,10 @@
+			{
+				gameView.activity.loadingView.process = 90;
+			}
+			
+			gameView.hero = (Hero) oin.readObject();//读取英雄对象		
+			
+			gameView.startRow = oin.readInt();//屏幕在大地图中的行数
+			gameView.startCol = oin.readInt();//屏幕在大地图中的列数
+			gameView.skillToLearn = (ArrayList<Skill>) oin.readObject();//将要学习的技能
+			gameView.allCityDrawable = (ArrayList<CityDrawable>) oin.readObject();//存放所有敌方的城池

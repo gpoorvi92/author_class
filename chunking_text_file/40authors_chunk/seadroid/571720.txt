@@ -1,0 +1,10 @@
+            waitingList.add(task);
+            doNext();
+        }
+    }
+
+    public void doNext() {
+        if (!waitingList.isEmpty()
+                && transferringList.size() < TRANSFER_MAX_COUNT) {
+            Log.d(DEBUG_TAG, "do next!");
+

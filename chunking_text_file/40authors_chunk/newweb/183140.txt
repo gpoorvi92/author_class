@@ -1,0 +1,10 @@
+		return fourLinkPartZZCount;
+	}
+	public void setFourLinkPartZZCount(int fourLinkPartZZCount) {
+		this.fourLinkPartZZCount = fourLinkPartZZCount;
+	}
+	
+	@Column
+	public String getGlassType() {
+		return glassType;
+	}

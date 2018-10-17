@@ -1,0 +1,10 @@
+     */
+    public JposEntry getJposEntry( String logicalName );
+
+    /**
+     * Add an JposEntry for the service with logical name specified
+     * @param logicalName the logicalName of the service
+	 * @param entry the JposEntry to add
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void addJposEntry( String logicalName, JposEntry entry );

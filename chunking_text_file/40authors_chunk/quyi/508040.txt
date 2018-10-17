@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_functionStatus = true && this.isSetFunctionStatus();
+    boolean that_present_functionStatus = true && that.isSetFunctionStatus();
+    if (this_present_functionStatus || that_present_functionStatus) {
+      if (!(this_present_functionStatus && that_present_functionStatus))
+        return false;
+      if (!this.functionStatus.equals(that.functionStatus))
+        return false;

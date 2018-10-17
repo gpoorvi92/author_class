@@ -1,0 +1,10 @@
+  public static final int EVRW_LS_FULL                 = 3;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "accessLog" Method: "Type" Parameter Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int EVRW_AL_REPORTING            = 1;
+  public static final int EVRW_AL_SETTLEMENT           = 2;
+

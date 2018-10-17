@@ -1,0 +1,10 @@
+
+		// and create a new list
+		List<File> successfullyDeletedFiles = Lists.newArrayList();
+
+		// delete them
+		for (File file : copyOf) {
+			if (delete(file)) {
+				successfullyDeletedFiles.add(file);
+				log.debug(file + " successfully deleted.");
+			}

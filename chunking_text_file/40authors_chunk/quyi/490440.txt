@@ -1,0 +1,10 @@
+        this.ue = new com.nercis.isscp.idl.UnavailableException(other.ue);
+      }
+    }
+
+    public updateUserAppStatus_result deepCopy() {
+      return new updateUserAppStatus_result(this);
+    }
+
+    @Override
+    public void clear() {

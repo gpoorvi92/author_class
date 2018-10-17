@@ -1,0 +1,10 @@
+import android.widget.Button;
+import android.widget.TextView;
+
+public class FileFooterFragment extends Fragment {
+
+    private TextView statusView;
+    private Button cancelButton;
+    private Button confirmButton;
+
+    @Override

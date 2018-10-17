@@ -1,0 +1,10 @@
+    bar.add(menu);
+    this.setJMenuBar(bar);
+
+  }
+  /* (non-Javadoc)
+   * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
+   */
+  public void actionPerformed(ActionEvent e) {
+    System.out.println(this.getClass().getName() + ".actionPerformed()");
+  }

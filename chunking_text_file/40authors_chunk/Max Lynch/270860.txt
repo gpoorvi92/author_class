@@ -1,0 +1,10 @@
+	
+	
+	
+	public int getJoin()
+	{
+		if(join.getSelectedItem().toString() == "Join Bevel")
+			return BasicStroke.JOIN_BEVEL;	
+		else if(join.getSelectedItem().toString() == "Join Miter")
+			return BasicStroke.JOIN_MITER;
+		else if(join.getSelectedItem().toString() == "Join Round")

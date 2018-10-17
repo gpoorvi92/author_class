@@ -1,0 +1,10 @@
+                  String text = textField.getText();
+                  addClass(Class.forName(text)); // clear text field to indicate success
+                  textField.setText("");
+               }
+               catch (ClassNotFoundException e)
+               {
+                  JOptionPane.showMessageDialog(null, "Class not found");
+               }
+            }
+         };

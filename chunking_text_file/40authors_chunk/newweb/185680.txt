@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_customer order by py")
+				.addEntity(Customer.class);
+		int size = query.list().size();
+		query.setFirstResult(start);
+		query.setMaxResults(limit);
+		list.add(0, size);
+		list.add(1, query.list());
+		return list;
+	}
+

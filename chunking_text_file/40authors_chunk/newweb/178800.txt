@@ -1,0 +1,10 @@
+			if(small.getOrderSmalls().size() > 0)
+				return true;
+		}
+		Set<MaterialBrand> materialBrands = supplier.getMaterialBrands();
+		for (MaterialBrand materialBrand : materialBrands) {
+			if(materialBrand.getOrderLhjs().size() > 0)
+				return true;
+		}
+		return false;
+	}

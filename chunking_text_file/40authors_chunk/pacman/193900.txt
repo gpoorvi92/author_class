@@ -1,0 +1,10 @@
+	}
+	
+	//Gets the return result.
+	public ExecuteResult getResult() {
+		
+		return executeResult;
+	}
+	
+	//attributes
+	private Map<String, Object> storage;

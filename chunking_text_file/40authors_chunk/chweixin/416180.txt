@@ -1,0 +1,10 @@
+	 * 删除对象。
+	 * @param data
+	 * 	对象。
+	 * */
+	@Override
+	public void delete(T data) {
+		if(data != null){
+			this.getCurrentSession().delete(data);
+		}
+	}

@@ -1,0 +1,10 @@
+ * It contains the shared file information ({@link FileStateJsonBase}) and the url of the file.
+ * @author antoinem
+ *
+ */
+public class StaticFileState
+		implements Serializable {
+
+
+	/** generated id */
+	private static final long serialVersionUID = 2196169291933051657L;

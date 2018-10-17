@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean update(OrderLhjWeight lhjWeight) {
+		try {
+			sessionFactory.getCurrentSession().update(lhjWeight);

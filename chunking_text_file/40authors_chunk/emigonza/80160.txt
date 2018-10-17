@@ -1,0 +1,10 @@
+            }
+        }
+        else
+            manager = new jpos.loader.simple.
+                          SimpleServiceManager( jposProperties );
+
+        manager.getEntryRegistry().load();
+        
+		tracer.println( "manager.getEntryRegistry().load() OK" );
+    }

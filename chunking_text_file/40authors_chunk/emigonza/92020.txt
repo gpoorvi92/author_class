@@ -1,0 +1,10 @@
+  public byte[]  getCurrentTagID() throws JposException;
+  public int     getCurrentTagProtocol() throws JposException;
+  public byte[]  getCurrentTagUserData() throws JposException;
+  public int     getDataCount() throws JposException;
+  public boolean getDataEventEnabled() throws JposException;
+  public void    setDataEventEnabled(boolean dataEventEnabled)
+                     throws JposException;
+  public int     getOutputID() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;

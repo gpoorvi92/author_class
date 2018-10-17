@@ -1,0 +1,10 @@
+		this.passwd = passwd;
+	}
+
+
+	public CountDownLatch getCount() {
+		return count;
+	}
+
+
+	public void setCount(CountDownLatch count) {

@@ -1,0 +1,10 @@
+		this.locationPicker = locationPicker;
+	}
+
+	@Override
+	public boolean onTap(int index) {
+		AbstractCommonData acd = positionList.get(index);
+		locationPicker.showBubble(acd, 500);
+		return true;
+	}
+

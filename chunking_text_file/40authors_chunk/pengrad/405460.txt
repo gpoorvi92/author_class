@@ -1,0 +1,10 @@
+    public String url() {
+        return url;
+    }
+
+    public User user() {
+        return user;
+    }
+
+    @Override
+    public boolean equals(Object o) {

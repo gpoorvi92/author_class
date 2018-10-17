@@ -1,0 +1,10 @@
+            }
+        }
+
+        if (result == null)
+            result = selectPlayIndex_First();
+
+        return result;
+    }
+
+    // for Parcelable

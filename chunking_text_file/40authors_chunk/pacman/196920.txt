@@ -1,0 +1,10 @@
+	public static boolean isWindow() {
+		
+		return "\\".equals(FILE_SEPARATOR);
+	}
+	
+	/**
+	 * Checks the specified dir or file exists or not.
+	 * 
+	 * @param dir
+	 * @return

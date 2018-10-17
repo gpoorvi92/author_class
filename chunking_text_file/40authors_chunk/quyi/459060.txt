@@ -1,0 +1,10 @@
+    private static class searchMission_argsTupleSchemeFactory implements SchemeFactory {
+      public searchMission_argsTupleScheme getScheme() {
+        return new searchMission_argsTupleScheme();
+      }
+    }
+
+    private static class searchMission_argsTupleScheme extends TupleScheme<searchMission_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, searchMission_args struct) throws org.apache.thrift.TException {

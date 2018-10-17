@@ -1,0 +1,10 @@
+		User user = userService.findUserByID(sessionUserID);
+		if(!user.getType().equals("system")){	//若当前用户不是系统管理员身份
+			return "page/index.jsp?warnMsg=" + URLEncoder.encode(URLEncoder.encode("非法访问：访问权限不够！","UTF-8"),"UTF-8");
+		}
+		
+		return "page/system/systemIndex.jsp";
+	}
+	
+	@RequestMapping(value="cmsDo.action")
+	public String systemManagerDo(Locale locale, Model model, ModelMap modelMap,

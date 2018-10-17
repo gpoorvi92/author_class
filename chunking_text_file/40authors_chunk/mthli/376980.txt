@@ -1,0 +1,10 @@
+   {
+      // this step is necessary to save Point2D.Double objects
+      encoder.setPersistenceDelegate(Point2D.Double.class, new DefaultPersistenceDelegate(
+            new String[] { "x", "y" }));
+
+      // this step is necessary because the array list of points is not
+      // (and should not be) exposed as a property
+      encoder.setPersistenceDelegate(DamageReport.class, new DefaultPersistenceDelegate()
+         {
+            protected void initialize(Class<?> type, Object oldInstance, Object newInstance,

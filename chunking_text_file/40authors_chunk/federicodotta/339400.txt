@@ -1,0 +1,10 @@
+     * response.
+     */
+    void setMessage(byte[] content, boolean isRequest);
+
+    /**
+     * This method returns the currently displayed message.
+     *
+     * @return The currently displayed message.
+     */
+    byte[] getMessage();

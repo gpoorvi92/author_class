@@ -1,0 +1,10 @@
+	 * TODO:Insert Private field pid Getter method of Comment in here.
+	 * @return pid TODO:Insert method return of Comment in here.
+	 */
+	public Integer getPid() {
+		return this.pid;
+	}
+
+	/**
+	 * TODO:Insert Private field pid Setter method of Comment in here.
+	 * @param pid TODO:Insert method parameter pid of Comment in here.

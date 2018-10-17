@@ -1,0 +1,7 @@
+        //utf8
+        assertEquals(utf8, WebUtil.escape(unescape, CharsetUtil.UTF_8));
+        assertEquals(unescape, WebUtil.unescape(utf8, CharsetUtil.UTF_8));
+    }
+
+
+}

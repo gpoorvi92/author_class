@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface ScannerService15
+  extends ScannerService14, JposServiceInstance

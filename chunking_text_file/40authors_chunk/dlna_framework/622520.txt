@@ -1,0 +1,10 @@
+
+	private long notifyCount = 0;
+
+	public long getNotifyCount() {
+		return notifyCount;
+	}
+
+	public void setNotifyCount(int cnt) {
+		notifyCount = cnt;
+	}

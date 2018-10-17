@@ -1,0 +1,10 @@
+    }
+
+    public static int getActivitOrientation(Activity activity) {
+        return getActivitOrientation(activity, activity.getComponentName());
+    }
+
+    public static List<ResolveInfo> queryIntentActivities(Context context,
+            Intent intent, int flags) {
+
+        PackageManager manager = context.getPackageManager();

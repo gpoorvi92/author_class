@@ -1,0 +1,10 @@
+          unsetTimestamp();
+        } else {
+          setTimestamp((Long)value);
+        }
+        break;
+
+      }
+    }
+
+    public Object getFieldValue(_Fields field) {

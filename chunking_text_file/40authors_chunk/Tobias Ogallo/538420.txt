@@ -1,0 +1,10 @@
+		
+		super ("System Login");
+		 //MainMenu mainmenu=new MainMenu();
+		username=new JLabel("Username");
+		password=new JLabel("Password");               
+		user=new JTextField(10);
+		pass=new JPasswordField(10);
+		cat=new JLabel("Login As");
+		cboCat=new JComboBox();
+		cboCat.addItem("Manager");

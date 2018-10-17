@@ -1,0 +1,10 @@
+            timer.schedule(this, getTimeIntervalInMillis(), getTimeIntervalInMillis());
+        }
+    }
+    public void shutdown()
+    {
+        try
+        {
+            if (null != timer)
+                timer.cancel();
+        } catch (Exception e)

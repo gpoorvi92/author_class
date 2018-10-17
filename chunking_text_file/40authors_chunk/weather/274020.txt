@@ -1,0 +1,10 @@
+		
+		if (this.lastTimeReceivedData == 0){
+			this.lastTimeReceivedData = currentTime;
+			return;
+		} else if ( timeDifference < 1000) {
+			return;
+		}
+		
+		double timeDifferenceInSeconds = timeDifference / 1000; // millisecond conversion to seconds
+		double bytesWrittenDifference = this.bytesWritten - this.previousBytesWritten;

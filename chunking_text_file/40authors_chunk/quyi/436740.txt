@@ -1,0 +1,10 @@
+                  _elem40 = new FileOperate();
+                  _elem40.read(iprot);
+                  struct.fileOperate.add(_elem40);
+                }
+                iprot.readListEnd();
+              }
+              struct.setFileOperateIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

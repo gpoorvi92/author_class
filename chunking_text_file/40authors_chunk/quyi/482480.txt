@@ -1,0 +1,10 @@
+
+    public void setUserAppIdIsSet(boolean value) {
+      if (!value) {
+        this.userAppId = null;
+      }
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.AppStatus

@@ -1,0 +1,10 @@
+/**
+ * P246
+ * schedule(TimerTask task, Date time)测试，多个TimerTask任务及延时
+ * 队列的方式，一个一个被顺序执行，前面一个耗时长则后面的任务被延后
+ */
+public class Run1_timer5 {
+    public static void main(String[] args) {
+        System.out.println("当前时间为：" + new Date());
+        Calendar calendar = Calendar.getInstance();
+        Date runDate = calendar.getTime();

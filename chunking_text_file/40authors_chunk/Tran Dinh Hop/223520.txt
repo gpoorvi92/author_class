@@ -1,0 +1,10 @@
+		
+	private File outputFile ;
+	private FileOutputStream outf;
+	
+	public HuffmanDecoder(File inFile, File outFile){
+		inputFile = inFile;
+		outputFile = outFile; 
+		decode();
+	}
+

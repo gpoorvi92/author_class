@@ -1,0 +1,10 @@
+
+		final ActType[] actType = buildActList();
+
+		commonlist.setAdapter(new ActTypeAdapter(this, actType));
+
+		// commonlist.setDividerHeight(0);
+
+		commonlist.setSelector(R.drawable.type_list_selector);
+
+		commonlist.setOnItemClickListener(new OnItemClickListener() {

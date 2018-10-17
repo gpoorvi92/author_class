@@ -1,0 +1,10 @@
+    if (this.osDesc == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.osDesc);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("osVersion:");
+    if (this.osVersion == null) {
+      sb.append("null");

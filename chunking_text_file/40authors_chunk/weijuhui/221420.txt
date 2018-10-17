@@ -1,0 +1,10 @@
+        writeFirstBoundaryIfNeeds();
+        try {
+            type = "Content-Type: "+type+"\r\n";
+            out.write(("Content-Disposition: form-data; name=\""+ key+"\"; filename=\"" + fileName + "\"\r\n").getBytes());
+            out.write(type.getBytes());
+            out.write("Content-Transfer-Encoding: binary\r\n\r\n".getBytes());
+
+            final byte[] tmp = new byte[4096];
+            int l = 0;
+            while ((l = fin.read(tmp)) != -1) {

@@ -1,0 +1,10 @@
+        if (goodsTypeMapper.countByName(goodsType.getName()) < 1) {
+            if (goodsTypeMapper.updateByPrimaryKeySelective(goodsType) < 1) {
+                throw new ServiceException("修改失败");
+            }
+        } else {
+            throw new ServiceException("该类别已存在");
+        }
+    }
+
+    @Override

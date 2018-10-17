@@ -1,0 +1,10 @@
+
+    protected void processBytes(byte abyte0[], int i, int j)
+    {
+    }
+
+    private int doEndOfFile()
+        throws EOFException
+    {
+        eof = true;
+        if(throwEofException)

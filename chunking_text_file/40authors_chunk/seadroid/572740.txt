@@ -1,0 +1,10 @@
+
+        X509Certificate cert = cursorToCert(c);
+
+        c.close();
+        return cert;
+    }
+
+    private X509Certificate cursorToCert(Cursor cursor) {
+        X509Certificate cert = null;
+        String text = cursor.getString(0);

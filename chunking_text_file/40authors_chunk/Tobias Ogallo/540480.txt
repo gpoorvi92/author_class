@@ -1,0 +1,10 @@
+                String dataSourceName = "RVB.mdb";
+                String dbURL = "jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ=";
+                dbURL += dataSourceName + ";DriverID=22;READONLY=true)";
+                return DriverManager.getConnection(dbURL,"","");
+               
+      }
+
+      
+      catch ( ClassNotFoundException cnfex )           
+

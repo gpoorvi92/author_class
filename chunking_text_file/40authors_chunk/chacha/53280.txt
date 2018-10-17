@@ -1,0 +1,10 @@
+	
+	/**
+	 * Œﬁ–ßµƒ¡Ó≈∆
+	 * @return
+	 * @throws JsonMappingException
+	 * @throws JsonGenerationException
+	 * @throws IOException
+	 */
+	private static String handleInvalidCommand() throws JsonMappingException, JsonGenerationException, IOException{
+		Response response=new Response();

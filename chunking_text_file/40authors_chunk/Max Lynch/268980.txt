@@ -1,0 +1,10 @@
+	
+	public void setBackground(RadialGradientPaint rgp) {
+		renderSurface.setBackground(rgp);
+	}
+	
+	public void moveShapeToFront() {
+		renderSurface.moveShapeToFront();
+	}
+	
+	public void moveShapeToBack() {

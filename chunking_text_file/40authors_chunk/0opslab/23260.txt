@@ -1,0 +1,10 @@
+            Enumeration en = pps.propertyNames();
+            while (en.hasMoreElements()) {
+                String strKey = (String) en.nextElement();
+                String strValue = pps.getProperty(strKey);
+                str += strKey + ":" + strValue + "<>";
+            }
+        }
+        return str.substring(0, str.lastIndexOf("<>"));
+    }
+

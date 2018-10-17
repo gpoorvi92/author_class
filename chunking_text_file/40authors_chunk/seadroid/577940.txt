@@ -1,0 +1,10 @@
+
+        if (Utils.isViewableImage(item.getTitle())) {
+            DisplayImageOptions options = new DisplayImageOptions.Builder()
+                    .extraForDownloader(mActivity.getDataManager().getAccount())
+                    .delayBeforeLoading(500)
+                    .resetViewBeforeLoading(true)
+                    .showImageOnLoading(R.drawable.file_image)
+                    .showImageForEmptyUri(R.drawable.file_image)
+                    .showImageOnFail(R.drawable.file_image)
+                    .cacheInMemory(true)

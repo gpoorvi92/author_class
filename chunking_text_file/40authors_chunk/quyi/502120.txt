@@ -1,0 +1,10 @@
+      case 106:
+        return SET_ACTIVITY_WATCHER;
+      case 107:
+        return SET_ALARM;
+      case 108:
+        return SET_ALWAYS_FINISH;
+      case 109:
+        return SET_ANIMATION_SCALE;
+      case 110:
+        return SET_DEBUG_APP;

@@ -1,0 +1,10 @@
+		// os.write("world\r\n".getBytes());
+		// os.write("java\r\n".getBytes());
+
+		// 写数据的时候，每次不能写一个字符串，比较麻烦，所以我们考虑改进
+		// BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
+		// System.out));
+		// bw.write("hello");
+		// bw.newLine();
+		// bw.flush();
+		// bw.write("world");

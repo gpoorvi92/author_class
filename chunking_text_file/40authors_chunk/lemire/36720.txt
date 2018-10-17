@@ -1,0 +1,10 @@
+    @Override
+    public void orWord(int position, int mask) {
+        this.buffer[position] |= mask;
+    }
+    
+    @Override
+    public void andLastWord(int mask) {
+        andWord(this.actualSizeInWords - 1, mask);
+    }
+    

@@ -1,0 +1,10 @@
+            DebugLog.v(TAG, "play");
+            if (mCompleted) {
+                restart();
+            } else {
+                if (!mLibVLC.isPlaying()) {
+                    DebugLog.v(TAG, "start:play");
+                    mLibVLC.play();
+                }
+            }
+        } else {

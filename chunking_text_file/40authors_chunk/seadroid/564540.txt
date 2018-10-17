@@ -1,0 +1,10 @@
+            // This is handled by SSLTrustManager and CertsManager
+            req.trustAllHosts();
+            HttpsURLConnection sconn = (HttpsURLConnection)conn;
+            sconn.setSSLSocketFactory(SSLTrustManager.instance().getSSLSocketFactory((Account)extra));
+        }
+
+        return new FlushedInputStream(new BufferedInputStream(
+                req.stream()));
+    }
+}

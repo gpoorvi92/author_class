@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/*
+ * 去除集合中自定义对象的重复值(对象的成员变量值都相同)
+ * Student:name,age
+ * 通过简单的分析，我们知道，应该是在判断哪里出现了问题。
+ * 所以，我们应该来看看是如何进行判断的。

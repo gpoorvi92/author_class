@@ -1,0 +1,6 @@
+	 * 创建时间。
+	 * */
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+}

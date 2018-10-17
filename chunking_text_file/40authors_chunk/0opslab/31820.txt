@@ -1,0 +1,10 @@
+        Log2 bean4 = new Log2();
+        BeanUtil.copyPropertiesIgnoreCase(bean1, bean4);
+        System.out.println(bean4);
+        BeanUtil.copyPropertiesIgnoreCasePeaceful(bean1, bean4);
+        System.out.println(bean4);
+        Log bean5 = new Log();
+        BeanUtil.copyPropertyPeaceful(bean1, bean5, new String[]{"operationName"});
+        System.out.println(bean4);
+    }
+

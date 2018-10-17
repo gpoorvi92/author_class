@@ -1,0 +1,10 @@
+      catch (IOException ex)
+      {
+         fileText.append(ex + "\n");
+      }
+      catch (SecurityException ex)
+      {
+         fileText.append("I am sorry, but I cannot do that.\n");
+         fileText.append(ex + "\n");
+         ex.printStackTrace();
+      }

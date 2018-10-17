@@ -1,0 +1,10 @@
+
+    private static final String TABLE_NAME = "Certs";
+
+    private static final String COLUMN_URL = "url";
+    private static final String COLUMN_CERT = "cert";
+
+    private static final String CREATE_TABLE_SQL = "CREATE TABLE " + TABLE_NAME + " ("
+            + COLUMN_URL + " VARCHAR(255) PRIMARY KEY, " + COLUMN_CERT + " TEXT " + ")";
+
+    private static CertsDBHelper dbHelper = null;

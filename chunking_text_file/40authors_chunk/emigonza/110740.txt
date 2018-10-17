@@ -1,0 +1,10 @@
+    public boolean getCapDisplay() throws JposException;
+    public boolean getCapRealTimeData() throws JposException;
+    public boolean getCapUserTerminated() throws JposException;
+
+    // Properties
+    public boolean getAutoDisable() throws JposException;
+    public void    setAutoDisable(boolean autoDisable) throws JposException;
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled)

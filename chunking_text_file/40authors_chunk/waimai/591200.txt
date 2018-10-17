@@ -1,0 +1,10 @@
+    public String changePwdView() {
+        return "management/admin/changePwd";
+    }
+
+    @RequestMapping("/changePwd")
+    public ModelAndView changePwd(String oldPassword, String newPassword) {
+        try {
+            adminService.changePwd(this.getAdmin().getId(), oldPassword, newPassword);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());

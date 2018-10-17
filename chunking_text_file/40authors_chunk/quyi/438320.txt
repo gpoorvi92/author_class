@@ -1,0 +1,10 @@
+            }
+            break;
+          case 2: // SOFTWARE
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+              struct.software = new Software();
+              struct.software.read(iprot);
+              struct.setSoftwareIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

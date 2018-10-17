@@ -1,0 +1,10 @@
+         return category;
+     }
+     
+     public void setQuestion(String q) {
+        question = q;
+     }
+
+     public String getQuestion() {
+        return question;
+     }

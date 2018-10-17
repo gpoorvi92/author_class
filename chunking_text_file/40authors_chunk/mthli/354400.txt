@@ -1,0 +1,10 @@
+      sizeButton.addActionListener(listener);
+      sizeField.addActionListener(listener);
+
+      listener = EventHandler.create(ActionListener.class, this, "changeValue"); 
+      valueButton.addActionListener(listener);
+      valueField.addActionListener(listener);
+
+      elementList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+
+      elementList.addListSelectionListener(new ListSelectionListener()

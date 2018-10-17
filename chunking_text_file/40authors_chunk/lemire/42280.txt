@@ -1,0 +1,7 @@
+
+		if (!rmap.equals(Bitmap1))
+			throw new RuntimeException("Will not happen");
+
+		
+	}
+}

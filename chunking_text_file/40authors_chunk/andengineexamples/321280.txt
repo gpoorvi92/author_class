@@ -1,0 +1,10 @@
+	// Constants
+	// ===========================================================
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private final SnakeHead mHead;
+	private final LinkedList<SnakeTailPart> mTail = new LinkedList<SnakeTailPart>();
+

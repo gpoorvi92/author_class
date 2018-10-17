@@ -1,0 +1,10 @@
+        handler.sendMessage(msg);
+    }
+
+    @Override
+    public void onResponse(T response) {
+        this.response = response;
+        Message msg = handler.obtainMessage(REQUEST_SUCCESS);
+        handler.sendMessage(msg);
+    }
+

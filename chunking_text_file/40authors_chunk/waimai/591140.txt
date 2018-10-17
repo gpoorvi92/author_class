@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.management;
+
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IAdminService;
+import cn.abovesky.shopping.service.INewsService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;

@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 根据Key读取Value
+     *
+     * @param filePath 属性文件
+     * @param key      需要读取的属性
+     */
+    public final static String GetValueByKey(String filePath, String key) {
+        Properties pps = new Properties();

@@ -1,0 +1,10 @@
+	Map<String, Object> verifyMap 	= null;
+	Object 				verifyObj	= null;
+	Lock 				locker		= new ReentrantLock();
+	Condition			condition	= locker.newCondition();
+	boolean				block		= true;
+	
+	class MockListener implements IMQListener {
+
+		@Override
+		public void onTextMessage(String msg) {

@@ -1,0 +1,10 @@
+	}
+
+	public static void closeConnection() {
+		try {
+			statement.close();
+			con.close();
+		} catch (SQLException sqlex) {
+			System.out.println("Error in closing connection. Terminating program.");
+			System.exit(1);
+		}	

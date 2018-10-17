@@ -1,0 +1,10 @@
+			return null;
+		Node actionNode = argumentLinstNode.getParentNode();
+		if (actionNode == null)
+			return null;
+		if (Action.isActionNode(actionNode) == false)
+			return null;
+		return actionNode;
+	}
+	
+	public Action getAction()

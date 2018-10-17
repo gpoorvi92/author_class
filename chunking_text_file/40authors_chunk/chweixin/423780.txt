@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public WeChatAccessToken loadAccessToken(String accountId) {
+		final String hql = "from WeChatAccessToken w where w.account.id = :accountId  order by w.failureTime desc,w.createTime desc";
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		parameters.put("accountId", accountId);
+		List<WeChatAccessToken> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;
+		return list.get(0);

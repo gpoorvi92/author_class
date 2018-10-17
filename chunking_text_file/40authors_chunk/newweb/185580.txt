@@ -1,0 +1,10 @@
+import com.newweb.dao.base.CustomerDao;
+import com.newweb.model.base.Customer;
+
+@SuppressWarnings("unchecked")
+@Component("customerDao")
+public class CustomerDaoImp implements CustomerDao {
+
+	
+	private SessionFactory sessionFactory;
+	

@@ -1,0 +1,10 @@
+    this.engineIp = null;
+    this.engineStatus = null;
+    this.engineType = null;
+    this.nodeInfo = null;
+    this.engineRules = null;
+    this.enginePlots = null;
+  }
+
+  public String getEngineId() {
+    return this.engineId;

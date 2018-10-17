@@ -1,0 +1,10 @@
+
+   /**
+    * Constructs a button panel.
+    * @param title the title shown in the border
+    * @param options an array of radio button labels
+    */
+   public ButtonPanel(String title, String... options)
+   {
+      setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), title));
+      setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));

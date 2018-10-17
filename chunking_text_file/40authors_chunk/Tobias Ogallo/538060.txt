@@ -1,0 +1,10 @@
+             JOptionPane.DEFAULT_OPTION);
+             e.consume();
+           }
+         }
+       });
+      txtusername.addKeyListener(new KeyAdapter() {
+         public void keyTyped(KeyEvent e) {
+           char c = e.getKeyChar();
+           if (!(Character.isLetter(c) ||
+              (c == KeyEvent.VK_BACK_SPACE) ||

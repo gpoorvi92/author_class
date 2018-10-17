@@ -1,0 +1,10 @@
+
+		private int exceptionIdentifier;
+		private Class<? extends Exception> clazz;
+
+
+
+		private ExceptionCodeMapping(int exceptionIdentifier) {
+			this.exceptionIdentifier = exceptionIdentifier;
+		}
+

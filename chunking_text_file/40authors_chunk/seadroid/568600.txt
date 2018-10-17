@@ -1,0 +1,10 @@
+     * Periodically checks the upload tasks and schedule them to run
+     **/
+    private void scheduleUpdateTasks() {
+        int size = infos.size();
+        if (!Utils.isNetworkOn()) {
+            Log.d(DEBUG_TAG, "network is not available, " + size + " in queue");
+            return;
+        }
+
+        if (txService == null) {

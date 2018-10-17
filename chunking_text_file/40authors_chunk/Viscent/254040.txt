@@ -1,0 +1,10 @@
+	}
+
+	public void dispatch() {
+		while (true) {
+			Runnable methodRequest;
+			try {
+				methodRequest = activationQueue.take();
+
+				// 防止个别任务执行失败导致线程终止的代码在run方法中
+				methodRequest.run();

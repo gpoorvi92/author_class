@@ -1,0 +1,10 @@
+
+	protected void init() {
+		slaves = createSlaves();
+		dispatchStrategy = newSubTaskDispatchStrategy();
+		for (SlaveSpec<T, V> slave : slaves) {
+			slave.init();
+		}
+	}
+
+	/**

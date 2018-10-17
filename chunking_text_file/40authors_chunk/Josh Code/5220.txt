@@ -1,0 +1,10 @@
+    }
+
+    private void addListeners()
+    {
+        ModelViewerMouseListener ml = new ModelViewerMouseListener(this);
+        addMouseListener(ml);
+        addMouseMotionListener(ml);
+    }
+
+    public void setModel(Model m)

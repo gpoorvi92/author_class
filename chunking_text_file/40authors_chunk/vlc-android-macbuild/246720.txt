@@ -1,0 +1,10 @@
+
+    public void removeHandler(Handler handler) {
+        mEventHandler.remove(handler);
+    }
+
+    /** This method is called by a native thread **/
+    public void callback(int event, Bundle args) {
+        for (Handler handler : mEventHandler) {
+            Message msg = handler.obtainMessage(LibVlcMessages.VLC_EVENT, args);
+            msg.arg1 = event;

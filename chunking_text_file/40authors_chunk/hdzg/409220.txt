@@ -1,0 +1,10 @@
+		        SoundView.this.getHolder().unlockCanvasAndPost(c);			
+			}
+		}.start();
+	}
+
+	public void surfaceDestroyed(SurfaceHolder holder) {
+		// TODO Auto-generated method stub
+		
+	}
+

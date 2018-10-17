@@ -1,0 +1,10 @@
+	{
+		return HTTPHeader.getValue(getData(), HTTP.LOCATION);
+	}
+
+	public String getMAN()
+	{
+		return HTTPHeader.getValue(getData(), HTTP.MAN);
+	}
+
+	public String getST()

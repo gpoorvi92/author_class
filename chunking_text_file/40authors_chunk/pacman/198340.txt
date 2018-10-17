@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.schedule.IStep#execute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override
+	public Object execute(ExecuteContext context) throws Exception {
+		
+		List<String> packFiles = new ArrayList<String>();
+		String tempDir = context.getAttribute(Constants.CONTEXT_TEMP_DIR);
+		String mediaFile = FileHelper.combinePath(tempDir, "index.dat");
+		String xmlFile = FileHelper.combinePath(tempDir, "index.xml");
+		String resDir = context.getAttribute(Constants.CONTEXT_WEB_RESOURCES_TEMP_DIR);

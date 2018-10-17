@@ -1,0 +1,10 @@
+            res += Math.min(maxLeft[i], maxRight[i]) - A[i];
+        }
+        return res;
+    }
+    public int trap(int[] A) {
+        int n = A.length, res = 0;
+        if (n <= 2) return 0;
+        int maxLeft = A[0];
+        int maxRight = A[n - 1];
+        int left = 0, right = n - 1;

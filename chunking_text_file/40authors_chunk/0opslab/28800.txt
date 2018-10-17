@@ -1,0 +1,10 @@
+    public String getRemoteFile() {
+        return remoteFile;
+    }
+
+    public void setRemoteFile(String remoteFile) {
+        this.remoteFile = remoteFile;
+    }
+
+    public String getReplyCodeDesc() {
+        return ReplyCodeDesc;

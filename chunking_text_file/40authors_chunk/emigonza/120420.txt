@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// SmartCardRWConst
+//
+//   Smart Card constants for JavaPOS Applications.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 03-Jun-2003 JavaPOS Release 1.8                                BS
+/////////////////////////////////////////////////////////////////////

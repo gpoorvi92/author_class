@@ -1,0 +1,10 @@
+              struct.setCheckStartTimeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // CHECK_STOP_TIME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.checkStopTime = iprot.readString();
+              struct.setCheckStopTimeIsSet(true);
+            } else { 

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public User selectUserByID(int id) {
+		return (User) sessionFactory.getCurrentSession().get(User.class, id);
+	}
+
+	@Override
+	public List<User> selectUserByLinkID(int id) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_user where linkid=?")

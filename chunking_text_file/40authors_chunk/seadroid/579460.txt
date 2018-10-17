@@ -1,0 +1,7 @@
+    public static String getFileNameFromPath(String path) {
+        int lastSlash = path.lastIndexOf('/');
+        return path.substring(lastSlash + 1);
+    }
+
+
+}

@@ -1,0 +1,10 @@
+	
+	//audio file's bitrate.
+	public final static String CONTEXT_AUDIO_BITRATE = "context.audio.bitrate";
+	
+	//video's codec.
+	public final static String CONTEXT_VIDEO_CODEC = "context.video.codec";
+	
+	//video file's bitrate.
+	public final static String CONTEXT_VIDEO_BITRATE = "context.video.bitrate";
+	

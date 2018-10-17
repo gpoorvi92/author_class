@@ -1,0 +1,10 @@
+         valueField.setValue(array[0]);
+         elementList.setSelectedIndex(0);
+      }
+      else valueField.setValue(0.0);
+   }
+}
+
+/**
+ * The list model for the element list in the editor.
+ */

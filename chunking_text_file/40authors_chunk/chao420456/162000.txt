@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.util.HashMap;
+import java.util.Set;
+
+/*
+ * HashMap<Student,String>
+ * 键：Student	学生对象 (林青霞,28)
+ * 		name,age
+ * 值：String		学号 	eg:it001

@@ -1,0 +1,10 @@
+    }
+
+    private static class updateAppStatus_resultTupleSchemeFactory implements SchemeFactory {
+      public updateAppStatus_resultTupleScheme getScheme() {
+        return new updateAppStatus_resultTupleScheme();
+      }
+    }
+
+    private static class updateAppStatus_resultTupleScheme extends TupleScheme<updateAppStatus_result> {
+

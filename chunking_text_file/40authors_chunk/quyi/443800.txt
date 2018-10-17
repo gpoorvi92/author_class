@@ -1,0 +1,10 @@
+
+  public void validate() throws org.apache.thrift.TException {
+    // check for required fields
+    if (why == null) {
+      throw new org.apache.thrift.protocol.TProtocolException("Required field 'why' was not present! Struct: " + toString());
+    }
+    // check for sub-struct validity
+  }
+
+  private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {

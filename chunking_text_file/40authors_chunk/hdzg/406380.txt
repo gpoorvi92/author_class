@@ -1,0 +1,10 @@
+			Bitmap bmpSelf,int col,int row,int width,int height,
+			int refCol,int refRow,int [][] noThrough,boolean meetable,int [][] meetableMatrix,
+			Bitmap bmpDialogBack,Bitmap bmpDialogButton
+			){
+		super(bmpSelf,meetable,width,height,col,row,refCol,refRow,noThrough);
+		this.meetableMatrix = meetableMatrix;
+		this.bmpDialogBack = bmpDialogBack;
+		this.bmpDialogButton = bmpDialogButton;
+	}
+	//在游戏屏幕上绘制对话框的方法

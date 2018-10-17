@@ -1,0 +1,10 @@
+    boolean this_present_ruleName = true && this.isSetRuleName();
+    boolean that_present_ruleName = true && that.isSetRuleName();
+    if (this_present_ruleName || that_present_ruleName) {
+      if (!(this_present_ruleName && that_present_ruleName))
+        return false;
+      if (!this.ruleName.equals(that.ruleName))
+        return false;
+    }
+
+    boolean this_present_ruleTypes = true && this.isSetRuleTypes();

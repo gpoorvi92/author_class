@@ -1,0 +1,10 @@
+		try {
+			st = con.createStatement ();	//Creating Statement Object.
+		}
+		catch (SQLException sqlex) {			//If Problem then Show the User a Message.
+ 			JOptionPane.showMessageDialog (null, "A Problem Occurs While Loading Form.");
+ 			dispose ();				//Closing the Form.
+	 	}
+
+		getRecords ("" + cboCategory.getSelectedItem ());	//Getting Records.
+

@@ -1,0 +1,10 @@
+    switch (field) {
+    case OS_ARCH:
+      return getOsArch();
+
+    case OS_NAME:
+      return getOsName();
+
+    case OS_DESC:
+      return getOsDesc();
+

@@ -1,0 +1,10 @@
+		{ 
+			current = current.getNext(); 
+			//System.out.println("Additional Hash Node: "+current); 
+		} 
+		return current.getCode(); 
+	} 
+
+	public byte[] fetchEntry(int code) 
+	{ 
+		int hashCode = code % hashSize; 

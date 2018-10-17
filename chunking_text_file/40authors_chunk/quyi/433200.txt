@@ -1,0 +1,10 @@
+  }
+
+  public String getProcessName() {
+    return this.processName;
+  }
+
+  public SystemResources setProcessName(String processName) {
+    this.processName = processName;
+    return this;
+  }

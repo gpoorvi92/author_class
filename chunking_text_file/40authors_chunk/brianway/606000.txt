@@ -1,0 +1,10 @@
+        t1.start();
+        Thread1 t2 = new Thread1();
+        t2.setName("thread t2");
+        t2.start();
+
+    }
+}
+
+/*
+输出：

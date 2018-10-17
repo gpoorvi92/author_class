@@ -1,0 +1,10 @@
+	@Test
+	public void testMultipleStepsWorker() throws InterruptedException, ExecutionException {
+		
+		IWorkerPool pool = new DefaultWorkerPool();
+		IWorker worker = (IWorker) factory.getBean("complex");
+		worker.setAttribute("p1", 1);
+		worker.setAttribute("p2", 2);
+		worker.setAttribute("p3", 3);
+		Future<?> result = pool.submit(worker);
+		

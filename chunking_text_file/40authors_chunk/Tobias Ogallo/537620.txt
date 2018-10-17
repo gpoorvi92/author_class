@@ -1,0 +1,10 @@
+                         jTable.setValueAt(result.getString(6),Numrow,5);
+                         Numrow++;
+					   }	
+					   		
+				}	
+			}
+			catch ( SQLException sqlex ) {
+              sqlex.printStackTrace();
+             }	
+	}

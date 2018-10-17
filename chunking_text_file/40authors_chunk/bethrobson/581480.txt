@@ -1,0 +1,10 @@
+         repaint();         
+      }
+
+     public Dimension getPreferredSize() {
+        return new Dimension(300,300);
+     }
+
+      public void paintComponent(Graphics g) {
+       if (msg) {
+            

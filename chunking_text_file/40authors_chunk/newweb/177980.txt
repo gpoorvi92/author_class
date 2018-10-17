@@ -1,0 +1,10 @@
+		this.sxfCount = sxfCount;
+	}
+	public double getSkLength() {
+		return skLength;
+	}
+	public void setSkLength(double skLength) {
+		this.skLength = skLength;
+	}
+	public int getSkCount() {
+		return skCount;

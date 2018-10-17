@@ -1,0 +1,10 @@
+		context.setScriptMd5("test");
+		context.setScriptName("test");
+		context.setScriptPath("test");
+		context.setPriority(com.softsec.tase.common.rpc.domain.job.JobPriority.HIGH);
+		// context.setTaskId(11111111111L);
+		context.setProgramId(1);
+		context.setJobExecutionMode(JobExecutionMode.EXCLUSIVE);
+		context.setJobReturnMode(JobReturnMode.PASSIVE);
+		context.setTimeout(120000L);
+		try {

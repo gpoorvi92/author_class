@@ -1,0 +1,10 @@
+//   Added the following constants:
+//     PWR_SOURCE_NA
+//     PWR_SOURCE_AC
+//     PWR_SOURCE_BATTERY
+//     PWR_SOURCE_BACKUP
+//     PWR_REASON_REQUEST
+//     PWR_REASON_ALLOW
+//     PWR_REASON_DENY
+//     PWR_SUE_BAT_LOW
+//     PWR_SUE_BAT_CRITICAL

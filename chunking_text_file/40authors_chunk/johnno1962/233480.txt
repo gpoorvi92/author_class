@@ -1,0 +1,10 @@
+
+        public float floatMethod( float arg );
+        public float[] floatArrayMethod( float arg[] );
+        public float[][] float2dArrayMethod( float arg[][] );
+
+        public double doubleMethod( double arg );
+        public double[] doubleArrayMethod( double arg[] );
+        public double[][] double2dArrayMethod( double arg[][] );
+
+        public String StringMethod( String arg );

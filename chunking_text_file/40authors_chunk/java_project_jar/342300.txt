@@ -1,0 +1,10 @@
+    public void setFileFilters(List fileFilters)
+    {
+        this.fileFilters.clear();
+        this.fileFilters.addAll(fileFilters);
+    }
+
+    public boolean accept(File file)
+    {
+        if(fileFilters.size() == 0)
+            return false;

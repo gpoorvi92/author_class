@@ -1,0 +1,10 @@
+			for(int start = 0; start< end; ++start) {
+				BitSet bs1 = new BitSet(N);
+				bs1.set(0, N);
+				for(int k = start; k < end; ++k) {
+					bs1.clear(k);
+				}
+				BitSet bs2 = new BitSet(N);
+				bs2.set(0, N);
+				bs2.clear(start, end);
+				Assert.assertEquals(bs1, bs2);

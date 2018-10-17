@@ -1,0 +1,10 @@
+            ++ctr;
+            ii.next();
+        }
+        assertEquals(3 * 64 - 1, ctr);
+    }
+
+    @Test
+    public void testEmpty() {
+        System.out.println("testing int iteration over empty bitmap");
+        EWAHCompressedBitmap e = new EWAHCompressedBitmap();

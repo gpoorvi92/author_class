@@ -1,0 +1,10 @@
+      setBorder(BorderFactory.createEtchedBorder());
+
+      chooser.addPropertyChangeListener(new PropertyChangeListener()
+         {
+            public void propertyChange(PropertyChangeEvent event)
+            {
+               if (event.getPropertyName() == JFileChooser.SELECTED_FILE_CHANGED_PROPERTY)
+               {
+                  // the user has selected a new file
+                  File f = (File) event.getNewValue();

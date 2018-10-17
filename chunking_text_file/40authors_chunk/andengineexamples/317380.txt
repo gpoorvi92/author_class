@@ -1,0 +1,10 @@
+//
+//			pScene.attachChild(face);
+//		}
+//	}
+
+	private void drawUsingSpriteBatch(final Scene pScene) {
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		final SpriteGroup spriteGroup = new SpriteGroup(this.mBitmapTextureAtlas, AttachDetachBenchmark.SPRITE_COUNT, vertexBufferObjectManager);
+		spriteGroup.setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
+

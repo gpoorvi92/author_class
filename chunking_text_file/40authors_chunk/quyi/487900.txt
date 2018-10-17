@@ -1,0 +1,10 @@
+      return this.ue;
+    }
+
+    public updateUserAppInfo_result setUe(com.nercis.isscp.idl.UnavailableException ue) {
+      this.ue = ue;
+      return this;
+    }
+
+    public void unsetUe() {
+      this.ue = null;

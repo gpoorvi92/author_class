@@ -1,0 +1,10 @@
+	}
+
+	public int getTailLength() {
+		return this.mTail.size();
+	}
+
+	public SnakeHead getHead() {
+		return this.mHead;
+	}
+

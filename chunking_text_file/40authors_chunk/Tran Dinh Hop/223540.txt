@@ -1,0 +1,10 @@
+	public void decode(){
+		freq=new int[256];
+		for(int i=0;i<256;i++){
+			freq[i]=0;
+		}
+		
+	
+  //  File inputFile = new File(JOptionPane.showInputDialog("Enter the input File name"));
+	
+	try

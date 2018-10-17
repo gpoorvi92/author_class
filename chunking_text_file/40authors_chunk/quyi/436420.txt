@@ -1,0 +1,10 @@
+
+    sb.append("apkMD5:");
+    if (this.apkMD5 == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.apkMD5);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("sensitive:");

@@ -1,0 +1,10 @@
+        bundle.putParcelable(BUNDLE_VOD_INDEX, mVodIndex);
+
+        dest.writeBundle(bundle);
+    }
+
+    private MediaResource(Parcel in) {
+        Bundle bundle = in.readBundle(MediaResource.class.getClassLoader());
+
+        mHighQualGroup = bundle.getParcelable(BUNDLE_HIGH_QUAL_GROUP);
+        mLowQualGroup = bundle.getParcelable(BUNDLE_LOW_QUAL_GROUP);

@@ -1,0 +1,10 @@
+        struct.setPidNameIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.fileDescription = iprot.readString();
+        struct.setFileDescriptionIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.filePath = iprot.readString();
+        struct.setFilePathIsSet(true);
+      }

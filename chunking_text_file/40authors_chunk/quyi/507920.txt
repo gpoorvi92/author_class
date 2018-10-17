@@ -1,0 +1,10 @@
+    case USER_APP_ID:
+      return isSetUserAppId();
+    case USED_PERMISSIONS:
+      return isSetUsedPermissions();
+    case PLOTS_STATUS:
+      return isSetPlotsStatus();
+    case FUNCTION_STATUS:
+      return isSetFunctionStatus();
+    case DETECT_RESULT:
+      return isSetDetectResult();

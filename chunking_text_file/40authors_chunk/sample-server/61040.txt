@@ -1,0 +1,10 @@
+public class LogicPipelineFactory implements ChannelPipelineFactory
+{
+    private static final Logger           log              = LoggerFactory.getLogger(LogicPipelineFactory.class);
+    private final        Message          defaultInstance  = Fenrisulfr.TransPacket.getDefaultInstance();
+    private final        ExecutionHandler executionHandler = new ExecutionHandler(new MemoryAwareThreadPoolExecutor(8, 1048576, 1048576));
+    private final        LogicHandler     handler          = new LogicHandler();
+    @Override
+    public ChannelPipeline getPipeline() throws Exception
+    {
+        ChannelPipeline p = Channels.pipeline();

@@ -1,0 +1,10 @@
+  }
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof UnavailableException)
+      return this.equals((UnavailableException)that);
+    return false;
+  }

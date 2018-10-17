@@ -1,0 +1,10 @@
+            { new RenderingMode("White Vertices",WHITE_VERTICES),
+                 new RenderingMode("Wire",WIRE_FRAME),
+              new RenderingMode("Solid Surfaces",TEXTURE_MAPPED)
+            };
+        }
+    }
+
+    public modelViewPanel(int width,int height)
+    {
+        this(new RenderingBuffer(width,height));

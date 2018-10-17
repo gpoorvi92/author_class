@@ -1,0 +1,10 @@
+package wyf.ytl.data;
+
+import java.io.Serializable;
+
+import wyf.ytl.entity.Hero;
+import wyf.ytl.entity.MyDrawable;
+import wyf.ytl.entity.MyMeetableDrawable;
+
+import android.content.res.Resources;
+

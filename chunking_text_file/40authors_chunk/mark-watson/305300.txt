@@ -1,0 +1,10 @@
+ */
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GraphPanel extends java.awt.Canvas { // JPanel {
+
+    public GraphPanel(float[] data1, float[] data2) {
+        super();
+        this.data1 = data1;

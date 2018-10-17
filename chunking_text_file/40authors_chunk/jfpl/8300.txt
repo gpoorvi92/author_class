@@ -1,0 +1,10 @@
+package com.jufan.platform.view;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.view.LayoutInflater;

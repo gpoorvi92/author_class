@@ -1,0 +1,10 @@
+        struct.setThreadNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.checkTime = iprot.readString();
+        struct.setCheckTimeIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.cpu = iprot.readI32();
+        struct.setCpuIsSet(true);
+      }

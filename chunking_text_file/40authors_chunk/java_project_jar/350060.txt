@@ -1,0 +1,10 @@
+            this.file = file;
+            this.depth = depth;
+        }
+    }
+
+
+    protected DirectoryWalker()
+    {
+        this(null, -1);
+    }

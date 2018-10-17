@@ -1,0 +1,10 @@
+            c.close();
+            return null;
+        }
+
+        SeafCachedPhoto item = new SeafCachedPhoto();
+        item.id = c.getInt(0);
+        item.repoName = c.getString(1);
+        item.repoID = c.getString(2);
+        item.path = c.getString(3);
+        item.accountSignature = c.getString(4);

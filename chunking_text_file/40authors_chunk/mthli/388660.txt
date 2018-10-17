@@ -1,0 +1,10 @@
+      StringBuilder builder = new StringBuilder();
+      for (int i = 3; i < lines.size(); i++)
+      {
+         builder.append(lines.get(i));
+         builder.append("\n");
+      }
+      
+      Console console = System.console();
+      String password = new String(console.readPassword("Password: "));
+      

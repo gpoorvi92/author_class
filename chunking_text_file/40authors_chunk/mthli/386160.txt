@@ -1,0 +1,10 @@
+      g2.draw(rect);
+      g2.setPaint(Color.RED);
+      g2.fill(rect); // Note that the right and bottom edge are not painted over
+      
+      // draw the enclosed ellipse
+
+      Ellipse2D ellipse = new Ellipse2D.Double();
+      ellipse.setFrame(rect);
+      g2.setPaint(new Color(0, 128, 128)); // a dull blue-green
+      g2.fill(ellipse);

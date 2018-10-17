@@ -1,0 +1,10 @@
+    private Integer total_count;
+    private PhotoSize[][] photos;
+
+    public Integer totalCount() {
+        return total_count;
+    }
+
+    public PhotoSize[][] photos() {
+        return photos;
+    }

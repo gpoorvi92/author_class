@@ -1,0 +1,10 @@
+    {
+        return 0;
+    }
+
+    @Override
+    public String getSeverity()
+    {
+        return severity;
+    }
+

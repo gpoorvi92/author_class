@@ -1,0 +1,10 @@
+*/
+class ThreadedEchoHandler implements Runnable
+{ 
+   private Socket incoming;
+
+   /**
+      Constructs a handler.
+      @param i the incoming socket
+   */
+   public ThreadedEchoHandler(Socket i)

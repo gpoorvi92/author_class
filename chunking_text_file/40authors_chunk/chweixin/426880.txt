@@ -1,0 +1,10 @@
+	/**
+	 * 获取图片上传时间。
+	 * @return 图片上传时间。
+	 * */
+	public Date getCreateTime() {
+		return createTime;
+	}
+	/**
+	 * 设置图片上传时间。
+	 * @param createTime

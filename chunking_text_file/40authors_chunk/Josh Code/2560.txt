@@ -1,0 +1,10 @@
+    {
+       super("Export");
+       this.mv = mv;
+        chooser = new JFileChooser();
+        ModelViewerJMenuBar.gotoInitialDirectory(chooser);
+        exportWireFrame = new JMenuItem("Wire Frame");
+        exportVertices = new JMenuItem("Vertices");
+        exportModel = new JMenuItem("Model");
+
+        add(exportVertices);

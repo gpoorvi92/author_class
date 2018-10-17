@@ -1,0 +1,10 @@
+    this.userApp = userApp;
+    return this;
+  }
+
+  public void unsetUserApp() {
+    this.userApp = null;
+  }
+
+  /** Returns true if field userApp is set (has been assigned a value) and false otherwise */
+  public boolean isSetUserApp() {

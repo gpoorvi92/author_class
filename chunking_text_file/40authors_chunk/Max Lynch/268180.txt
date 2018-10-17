@@ -1,0 +1,10 @@
+		return (menuMan); 
+	}
+	
+	public RenderMediator getRenderMediator() {
+		return (renderMediator); 
+	}
+
+	public JFrame getFrame() {
+		return (FRAME); 
+	}

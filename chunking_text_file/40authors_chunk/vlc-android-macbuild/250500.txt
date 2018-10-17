@@ -1,0 +1,10 @@
+    /* Load library before object instantiation */
+    private static void loadLib(Context context, LibVlcLibraryLoader libLoader)
+            throws LibVlcException {
+        synchronized (LibVLC.class) {
+            if (!mLibIomxLoaded) {
+                try {
+                    libLoader.loadVlcLibIomx(context);
+                } catch (Throwable t) {
+                    DebugLog.w(TAG, "Unable to load the iomx library: " + t);
+                    System.exit(1);

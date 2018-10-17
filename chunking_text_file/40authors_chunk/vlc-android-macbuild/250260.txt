@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    @Override
+    public boolean onInfo(MediaPlayer mp, int what, int extra) {
+        if (mOnInfoListener != null) {
+            return mOnInfoListener.onInfo(this, what, extra);
+        }
+        return true;
+    }

@@ -1,0 +1,4 @@
+    abstract protected String getDefaultFileName();
+
+    abstract protected String getFileParamName();
+}

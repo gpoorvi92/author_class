@@ -1,0 +1,10 @@
+
+   public Object getPreviousValue()
+   {
+      int[] codePoints = toCodePointArray(word);
+      for (int i = codePoints.length - 1; i > 0; i--)
+      {
+         if (codePoints[i - 1] > codePoints[i])
+         {
+            int j = codePoints.length - 1;
+            while (codePoints[i - 1] < codePoints[j])

@@ -1,0 +1,10 @@
+ * @param <OUT>
+ *          输出类型
+ * 
+ * @param <V>
+ *          并行子任务的处理结果类型
+ */
+public abstract class AbstractParallelPipe<IN, OUT, V> extends
+    AbstractPipe<IN, OUT> {
+	private final ExecutorService executorService;
+

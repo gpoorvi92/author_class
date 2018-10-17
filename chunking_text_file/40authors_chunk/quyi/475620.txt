@@ -1,0 +1,10 @@
+
+    public submitMission_args(
+      String missionId,
+      List<com.nercis.isscp.idl.UserApp> userApps,
+      List<com.nercis.isscp.idl.PlotsType> plots,
+      String useRule)
+    {
+      this();
+      this.missionId = missionId;
+      this.userApps = userApps;

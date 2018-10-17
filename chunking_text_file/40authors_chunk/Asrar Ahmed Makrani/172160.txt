@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+
+public interface book_master_info_Interface
+{
+	public JPanel text = new JPanel(); 
+    public String campus_list[] = {"Damansara", "KL"};
+    public String type_list[] = {"Reference", "Lendable"};
+    public String category_list[] = {"OOP", "DCCN", "IM", "BIT"};
+    public JTextField book_no_text = new JTextField(20);

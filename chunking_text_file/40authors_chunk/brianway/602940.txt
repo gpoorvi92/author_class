@@ -1,0 +1,10 @@
+public class Run8_synchronized01 {
+    public static void main(String[] args) {
+        TaskA taskA = new TaskA();
+        MyThreadA thread1 = new MyThreadA(taskA);
+        thread1.setName("a");
+        thread1.start();
+
+        MyThreadA thread2 = new MyThreadA(taskA);
+        thread2.setName("b");
+        thread2.start();

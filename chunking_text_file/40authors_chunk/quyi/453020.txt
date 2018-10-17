@@ -1,0 +1,10 @@
+          }
+        }
+        BitSet optionals = new BitSet();
+        if (struct.isSetRules()) {
+          optionals.set(0);
+        }
+        if (struct.isSetPlots()) {
+          optionals.set(1);
+        }
+        oprot.writeBitSet(optionals, 2);

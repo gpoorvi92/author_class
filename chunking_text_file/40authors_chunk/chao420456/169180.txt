@@ -1,0 +1,10 @@
+		final Frame f = new Frame("更改背景色");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);
+		// 设置布局
+		f.setLayout(new FlowLayout());
+
+		// 创建按钮
+		Button redButton = new Button("红色");
+		Button greenButton = new Button("绿色");
+		Button blueButton = new Button("蓝色");

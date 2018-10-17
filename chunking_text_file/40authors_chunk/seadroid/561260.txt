@@ -1,0 +1,10 @@
+    InputStream fullSizeImageData();
+    Uri fullSizeImageUri();
+
+    /** Get the path of the (full size) image data. */
+    String getDataPath();
+
+    // Get the title of the image
+    String getTitle();
+
+    // Get metadata of the image

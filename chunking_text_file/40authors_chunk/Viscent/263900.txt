@@ -1,0 +1,10 @@
+		@Override
+		protected void doRun() throws Exception {
+			String file = workQueue.take();
+
+			OutputStream os = null;
+			try {
+				os = new BufferedOutputStream(new FileOutputStream(outputDir + file));
+				ftpClientPromise.get().retrieveFile(file, os);
+			} finally {
+				if (null != os) {

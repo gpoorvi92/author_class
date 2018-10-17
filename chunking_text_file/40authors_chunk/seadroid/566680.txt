@@ -1,0 +1,10 @@
+
+    private FileListAdapter mFileListAdapter;
+    private String mPath;
+
+    public static FileListFragment newInstance(String path) {
+        FileListFragment fragment = new FileListFragment();
+        Bundle args = new Bundle();
+        args.putString(MultiFileChooserActivity.PATH, path);
+        fragment.setArguments(args);
+

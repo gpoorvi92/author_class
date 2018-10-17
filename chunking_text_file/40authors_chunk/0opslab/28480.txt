@@ -1,0 +1,10 @@
+
+        //用UTF-8数字新建字符串
+        System.out.println(new String(uft8_bytes));
+        //用户GBK数字新建字符串
+        System.out.println(new String(gbk_bytes, CharsetUtil.GBK));
+
+
+    }
+
+    @Test

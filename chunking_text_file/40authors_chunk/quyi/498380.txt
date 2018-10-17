@@ -1,0 +1,10 @@
+
+  public void setOperateTimeIsSet(boolean value) {
+    if (!value) {
+      this.operateTime = null;
+    }
+  }
+
+  public String getOperateType() {
+    return this.operateType;
+  }

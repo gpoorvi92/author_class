@@ -1,0 +1,10 @@
+		Intent intent = getIntent();
+		String filePath = intent.getStringExtra("image_path");
+		File f = new File(filePath);
+		if (f.exists() && f.isFile()) {
+			zoomImageView.setBitmap(ImageLoader.getInstance().loadImageSync(
+					"file://" + filePath));
+		} else if (filePath.startsWith("http://")) {
+			zoomImageView.setBitmap(ImageLoader.getInstance().loadImageSync(
+					filePath));
+		} else {

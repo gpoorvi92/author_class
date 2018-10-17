@@ -1,0 +1,10 @@
+			case 5:
+				mintResult = s1.mstrSubDeptCode.compareTo(s2.mstrSubDeptCode);
+				break;
+			case 6:
+				mintResult = s1.mstrClassCode.compareTo(s2.mstrClassCode);
+				break;
+			case 7:
+				mintResult = s1.mstrSubClassCode.compareTo(s2.mstrSubClassCode);
+				break;
+			case 8:

@@ -1,0 +1,10 @@
+			
+			if (st.hasMoreTokens() == false)
+				return;
+			String codeStr = st.nextToken();
+			int code = 0;
+			try {
+				code = Integer.parseInt(codeStr);
+			}
+			catch (Exception e1) {}
+			setStatusCode(code);

@@ -1,0 +1,10 @@
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        Log.d(DEBUG_TAG, "UploadTasksFragment Attached");
+        mActivity = (BrowserActivity)activity;
+    }
+
+    @Override
+    public void onDetach() {

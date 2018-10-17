@@ -1,0 +1,10 @@
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+
+    }
+
+    private static class genMissionId_resultTupleSchemeFactory implements SchemeFactory {
+      public genMissionId_resultTupleScheme getScheme() {

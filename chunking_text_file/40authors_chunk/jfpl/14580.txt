@@ -1,0 +1,10 @@
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.chat, "");
+
+		this.vrDialog = new VoiceRecordDialog(this);
+
+		chatEt.setMaxWidth(SystemUtil.SCREEN_WIDTH
+				- SystemUtil.dip2px(this, 100));
+		chatEt.addTextChangedListener(new TextWatcher() {

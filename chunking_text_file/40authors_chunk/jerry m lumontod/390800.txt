@@ -1,0 +1,10 @@
+		} catch(Exception e) {
+			System.out.println("Could not initialize the database.");
+			e.printStackTrace();
+		}
+		
+		
+
+		try {
+			if (st != null) { st.close(); }
+			if (conn != null) { conn.close(); }

@@ -1,0 +1,10 @@
+	} 
+
+	// calculates the second byte of a 16-bit word
+	private static int getLoByte(int num){ 
+		return( num & 255 ); 
+	} 
+	
+	private void worker() throws IOException{
+			//current pattern is set to last pattern + new byte
+			if(lPattern == null){

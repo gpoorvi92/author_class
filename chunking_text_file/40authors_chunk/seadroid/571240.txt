@@ -1,0 +1,10 @@
+
+    public long getTotalSize() {
+        return totalSize;
+    }
+
+    public long getFinished() {
+        return finished;
+    }
+
+    public String getPath() {

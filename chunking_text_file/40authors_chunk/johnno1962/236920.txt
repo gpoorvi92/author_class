@@ -1,0 +1,6 @@
+
+    public void menuDragMouseReleased( javax.swing.event.MenuDragMouseEvent e ) {
+        __menuDragMouseReleased( e );
+    }
+
+}

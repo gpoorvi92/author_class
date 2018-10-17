@@ -1,0 +1,10 @@
+  }
+
+  public VirusEngine setEngineName(String engineName) {
+    this.engineName = engineName;
+    return this;
+  }
+
+  public void unsetEngineName() {
+    this.engineName = null;
+  }

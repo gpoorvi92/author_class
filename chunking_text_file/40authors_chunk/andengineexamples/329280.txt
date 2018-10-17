@@ -1,0 +1,10 @@
+						PVRGZTextureExample.this.mZoomState = ZoomState.IN;
+					} else {
+						PVRGZTextureExample.this.mZoomState = ZoomState.OUT;
+					}
+				} else {
+					PVRGZTextureExample.this.mZoomState = ZoomState.NONE;
+				}
+				return true;
+			}
+		});

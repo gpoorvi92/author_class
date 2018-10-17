@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetCpuUsedPerc()) {
+        oprot.writeDouble(struct.cpuUsedPerc);
+      }
+      if (struct.isSetFreeMem()) {
+        oprot.writeDouble(struct.freeMem);
+      }
+      if (struct.isSetJvmFreeMem()) {
+        oprot.writeDouble(struct.jvmFreeMem);
+      }

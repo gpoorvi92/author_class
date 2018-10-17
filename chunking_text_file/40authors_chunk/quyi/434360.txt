@@ -1,0 +1,10 @@
+    public SystemResourcesTupleScheme getScheme() {
+      return new SystemResourcesTupleScheme();
+    }
+  }
+
+  private static class SystemResourcesTupleScheme extends TupleScheme<SystemResources> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, SystemResources struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;

@@ -1,0 +1,5 @@
+	
+	private native long nativeGetVideoDuration();
+
+	private native void nativeRelease();
+}

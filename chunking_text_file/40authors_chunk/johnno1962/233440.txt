@@ -1,0 +1,10 @@
+
+        public byte byteMethod( byte arg );
+        public byte[] byteArrayMethod( byte arg[] );
+        public byte[][] byte2dArrayMethod( byte arg[][] );
+
+        public char charMethod( char arg );
+        public char[] charArrayMethod( char arg[] );
+        public char[][] char2dArrayMethod( char arg[][] );
+
+        public short shortMethod( short arg );

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.InternalFrameListener.internalFrameOpened(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameOpened( javax.swing.event.InternalFrameEvent e );
+
+    public void internalFrameOpened( javax.swing.event.InternalFrameEvent e ) {
+        __internalFrameOpened( e );
+    }

@@ -1,0 +1,10 @@
+    public boolean getCapPaymentDetail() throws JposException;
+	  public int     getCapPowerReporting() throws JposException;
+    public boolean getCapTaxOthers() throws JposException;
+    public boolean getCapTransactionNumber() throws JposException;
+    public boolean getCapTrainingMode() throws JposException;
+
+    // Properties
+    public String  getAccountNumber() throws JposException;
+    public String  getAdditionalSecurityInformation() throws JposException;
+    public void    setAdditionalSecurityInformation(String securityInfo)

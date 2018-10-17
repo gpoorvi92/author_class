@@ -1,0 +1,10 @@
+						log.debug("inactivity detected for client " + key);
+						jlfuListenerPropagator.getPropagator().onClientInactivity(key, clientEvictionTimeInSeconds);
+						return;
+					}
+				}
+				log.debug("natural removal for client " + key);
+
+			}
+		}
+	}

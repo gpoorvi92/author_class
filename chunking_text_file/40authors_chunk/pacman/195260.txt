@@ -1,0 +1,10 @@
+	}
+
+	@Test
+	public void testNormal() throws Exception {
+
+		ExecuteContext context = new ExecuteContext();
+		context.setAttribute(Constants.CONTEXT_TEMP_DIR, "e:/temp/packtemp");
+		context.setAttribute(Constants.CONTEXT_RESOURCE_DIR, "e:/temp/resource");
+		context.setAttribute(Constants.CONTEXT_HJPACK, "e:/temp/123456789.hjp");
+		MediaPackStep step = new MediaPackStep();

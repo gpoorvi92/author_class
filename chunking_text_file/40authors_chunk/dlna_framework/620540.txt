@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	open/close
+	////////////////////////////////////////////////
+
+	public void close()
+	{
+		int nServers = size();
+		for (int n=0; n<nServers; n++) {
+			HTTPServer server = getHTTPServer(n);
+			server.close();

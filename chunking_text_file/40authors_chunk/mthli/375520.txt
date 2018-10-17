@@ -1,0 +1,10 @@
+ * This frame contains an editor pane, a text field and button to enter a URL and load a document,
+ * and a Back button to return to a previously loaded document.
+ */
+public class EditorPaneFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 600;
+   private static final int DEFAULT_HEIGHT = 400;
+
+   public EditorPaneFrame()
+   {

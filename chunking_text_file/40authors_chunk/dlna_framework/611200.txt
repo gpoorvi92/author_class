@@ -1,0 +1,10 @@
+		return (Thread.currentThread() == getThreadObject()) ? true : false;
+	}
+	
+	public void stop() 
+	{
+		java.lang.Thread threadObject = getThreadObject();
+		if (threadObject != null) { 
+			//threadObject.destroy();
+			//threadObject.stop();
+			

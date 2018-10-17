@@ -1,0 +1,10 @@
+						if (Object.class != clazz.getSuperclass()) {
+							fields = ArrayUtils.addAll(fields, clazz.getSuperclass().getDeclaredFields());
+						}
+						Object obj = clazz.newInstance();
+
+						for (Field field : fields) {
+
+							Transmit transmit = field
+									.getAnnotation(Transmit.class);
+							if (transmit != null) {

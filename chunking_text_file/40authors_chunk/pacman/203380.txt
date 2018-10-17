@@ -1,0 +1,10 @@
+							if (!info.getAllFiles().contains(file)) {
+								info.addFile(file);
+							}
+							urlNode.setText(trimToBareName(file));	
+						}
+					}
+				}
+			}
+		} //end of for
+	}

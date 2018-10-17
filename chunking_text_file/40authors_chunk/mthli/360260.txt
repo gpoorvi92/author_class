@@ -1,0 +1,10 @@
+      catch (Exception e)
+      {  
+         return null;
+      }
+   }
+}
+
+/**
+   The familiar Employee class, redefined to extend the
+   SerialCloneable class. 

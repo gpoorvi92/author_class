@@ -1,0 +1,10 @@
+            if (this.delegate != null)
+			this.delegate.didProgressDownload(this);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@Override
+	public void didFinishDownload(DownloaderWorker downloaderWorker) {

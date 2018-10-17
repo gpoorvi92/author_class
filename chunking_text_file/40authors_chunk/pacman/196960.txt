@@ -1,0 +1,10 @@
+	 * Makes sure the dir exists, otherwise create it and its parent dir.
+	 * 
+	 * @param dir
+	 * @return
+	 */
+	public static boolean ensureExists(String dir, boolean isFile) {
+		
+		if (StringHelper.isEmpty(dir)) {
+			return false;
+		}

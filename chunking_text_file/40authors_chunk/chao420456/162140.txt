@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// int数组
+		int[] arr = { 1, 2, 3, 4, 5 };
+		// 增强for
+		for (int x : arr) {
+			System.out.println(x);
+		}
+		System.out.println("-----------------");
+
+		String[] strArray = { "hello", "world", "java" };

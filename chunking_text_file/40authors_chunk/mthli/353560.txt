@@ -1,0 +1,10 @@
+/**
+ * This frame displays the class tree, a text field, and an "Add" button to add more classes 
+ * into the tree.
+ */
+public class ClassTreeFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   private DefaultMutableTreeNode root;

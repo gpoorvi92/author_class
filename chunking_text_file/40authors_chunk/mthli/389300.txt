@@ -1,0 +1,10 @@
+
+      Action exitAction = new AbstractAction("Exit", new ImageIcon("exit.gif"))
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               System.exit(0);
+            }
+         };
+      exitAction.putValue(Action.SHORT_DESCRIPTION, "Exit");
+

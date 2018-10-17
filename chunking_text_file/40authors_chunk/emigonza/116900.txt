@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapPrematchData"),
+        makeProperty("CapRawSensorData"),
+        makeProperty("CapRealTimeData"),
+        makeProperty("CapSensorColor"),
+        makeProperty("CapSensorOrientation"),
+        makeProperty("CapSensorType"),
+        makeProperty("CapStatisticsReporting"),

@@ -1,0 +1,10 @@
+        File cacheFile = new File(getCacheFolder());
+        try {
+            long size1 = FileUtil.getFileSize(cacheFile, null);
+            return FileUtil.FormetFileSize(size1);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "0";
+        }
+    }
+

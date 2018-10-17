@@ -1,0 +1,10 @@
+      if (this.rules == null) {
+        this.rules = new ArrayList<String>();
+      }
+      this.rules.add(elem);
+    }
+
+    public List<String> getRules() {
+      return this.rules;
+    }
+

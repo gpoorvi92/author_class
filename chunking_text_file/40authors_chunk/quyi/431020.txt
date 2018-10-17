@@ -1,0 +1,10 @@
+  }
+
+  public void setCheckDateIsSet(boolean value) {
+    if (!value) {
+      this.checkDate = null;
+    }
+  }
+
+  public int getSensitivesSize() {
+    return (this.sensitives == null) ? 0 : this.sensitives.size();

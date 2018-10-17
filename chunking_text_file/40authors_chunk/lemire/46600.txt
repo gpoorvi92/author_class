@@ -1,0 +1,10 @@
+    ClearIntIterator32(EWAHIterator32 ewahIter, int sizeInBits) {
+        this.ewahIter = ewahIter;
+        this.sizeInBits = sizeInBits;
+        this.buffer = ewahIter.buffer();
+        this.hasNext = this.moveToNext();
+    }
+
+    public boolean moveToNext() {
+        while (!runningHasNext() && !literalHasNext()) {
+            if (!this.ewahIter.hasNext()) {

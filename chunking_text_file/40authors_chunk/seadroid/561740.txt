@@ -1,0 +1,10 @@
+        super(taskID, account, repoName, repoID, path);
+        this.downloadStateListener = downloadStateListener;
+    }
+
+    /**
+     * When downloading a file, we don't know the file size in advance, so
+     * we make use of the first progress update to return the file size.
+     */
+    @Override
+    protected void onProgressUpdate(Long... values) {

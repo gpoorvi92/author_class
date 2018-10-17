@@ -1,0 +1,10 @@
+ * The ChunkIteratorImpl is the 64 bit implementation of the ChunkIterator
+ * interface, which efficiently returns the chunks of ones and zeros represented by an
+ * EWAHIterator.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class ChunkIteratorImpl implements ChunkIterator {
+
+    private final EWAHIterator ewahIter;
+    private final int sizeInBits;

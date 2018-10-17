@@ -1,0 +1,10 @@
+        return user_id != null ? user_id.equals(contact.user_id) : contact.user_id == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return phone_number != null ? phone_number.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {

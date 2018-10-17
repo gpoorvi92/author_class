@@ -1,0 +1,10 @@
+            }
+            if (result.equals("kill"))
+            {
+                dotComsList.remove(dotComToTest);
+                break;
+            }
+        }
+        System.out.println(result);
+    }
+    

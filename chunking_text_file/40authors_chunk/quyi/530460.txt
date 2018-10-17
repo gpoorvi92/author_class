@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetMinsdkversion()).compareTo(other.isSetMinsdkversion());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetMinsdkversion()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.minsdkversion, other.minsdkversion);
+      if (lastComparison != 0) {
+        return lastComparison;

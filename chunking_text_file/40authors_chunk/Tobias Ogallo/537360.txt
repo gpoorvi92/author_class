@@ -1,0 +1,10 @@
+		jButton3 = new JButton("REFRESH",new ImageIcon("Icon/i16x16/reload.png"));
+		jButton4 = new JButton("CLOSE",new ImageIcon("Icon/i16x16/exit.png"));
+        
+		jPanel2 = new JPanel(new FlowLayout());
+        		try
+
+         {
+	
+                Statement s = Connect.getConnection().createStatement();
+      }

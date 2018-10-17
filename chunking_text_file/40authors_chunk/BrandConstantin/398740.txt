@@ -1,0 +1,10 @@
+        System.out.println("TABLA MULTIPLICAR");
+        System.out.println("============================================");
+        
+        int i = 1;
+        int resultado;
+        
+        System.out.println("Escribe el numero que quieres multiplicar");
+        int num = tecla.nextInt();
+        System.out.println("============================================");
+        

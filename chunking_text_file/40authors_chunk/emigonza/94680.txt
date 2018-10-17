@@ -1,0 +1,10 @@
+
+	/**
+	 * Visits a CoinDispenser DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitCoinDispenser( DevCat devCat );
+
+	/**
+	 * Visits a FiscalPrinter DevCat
+	 * @param devCat the DevCat

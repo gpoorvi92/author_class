@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetProtocal()).compareTo(other.isSetProtocal());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetProtocal()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.protocal, other.protocal);

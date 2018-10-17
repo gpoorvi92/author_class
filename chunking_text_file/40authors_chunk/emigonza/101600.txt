@@ -1,0 +1,10 @@
+//   New device category.
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface CoinAcceptorControl111 extends BaseControl
+{

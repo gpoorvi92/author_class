@@ -1,0 +1,10 @@
+    @Autowired
+    private IRemarkService remarkService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/remark/list");
+        List<Remark> remarkList = remarkService.search(vo);
+        modelAndView.addObject("remarkList", remarkList);
+        modelAndView.addObject("vo", vo);
+        return modelAndView;

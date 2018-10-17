@@ -1,0 +1,10 @@
+      }
+      if (struct.func != null) {
+        oprot.writeFieldBegin(FUNC_FIELD_DESC);
+        oprot.writeString(struct.func);
+        oprot.writeFieldEnd();
+      }
+      if (struct.ruleDescription != null) {
+        oprot.writeFieldBegin(RULE_DESCRIPTION_FIELD_DESC);
+        oprot.writeString(struct.ruleDescription);
+        oprot.writeFieldEnd();

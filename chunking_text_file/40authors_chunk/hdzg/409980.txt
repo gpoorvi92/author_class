@@ -1,0 +1,10 @@
+import wyf.ytl.view.GameView;
+import wyf.ytl.view.PlainAlert;
+import wyf.ytl.view.WarAlert;
+
+public class HeroBackDataThread extends Thread{
+
+	Hero hero;//英雄的引用
+	public boolean flag;//线程是否执行标志位
+	int sleepSpan = 1000000;//休眠时间
+	int foodCount = 0;//执行5循环才修改粮草

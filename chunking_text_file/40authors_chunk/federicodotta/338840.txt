@@ -1,0 +1,10 @@
+     * interface.
+     */
+    byte getType();
+
+    /**
+     * This method is used to retrieve the parameter name.
+     *
+     * @return The parameter name.
+     */
+    String getName();

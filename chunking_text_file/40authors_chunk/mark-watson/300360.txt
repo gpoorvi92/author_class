@@ -1,0 +1,10 @@
+			// 8/11/2008: don't overwrite the "best" chromosome from current generation:
+			int c1 = 1 + (int) ((rouletteWheelSize - 1) * Math.random() * 0.9999f);
+			int c2 = 1 + (int) ((rouletteWheelSize - 1) * Math.random() * 0.9999f);
+			c1 = rouletteWheel[c1];
+			c2 = rouletteWheel[c2];
+			if (c1 != c2) {
+				int locus = 1 + (int) ((numGenesPerChromosome - 2) * Math
+						.random());
+				for (int g = 0; g < numGenesPerChromosome; g++) {
+					if (g < locus) {

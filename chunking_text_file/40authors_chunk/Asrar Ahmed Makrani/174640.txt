@@ -1,0 +1,10 @@
+            	publisher_text.setText("");
+            	place_text.setText("");
+            	year_text.setText("");
+            	pages_text.setText("");
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");
+ 				}
+ 			}
+ 			else

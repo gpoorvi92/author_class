@@ -1,0 +1,10 @@
+
+    public void doLoadNew() {
+
+    }
+
+    protected void loadFinished(Object arrayList, int msgType) {
+        Message msg = handler.obtainMessage();
+        msg.what = msgType;
+        msg.obj = arrayList;
+        handler.sendMessage(msg);

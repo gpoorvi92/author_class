@@ -1,0 +1,10 @@
+
+    // If there's a response, get the handshake from there so that caching
+    // works. Otherwise get the handshake from the connection because we might
+    // have not connected yet.
+    return delegate.httpEngine.hasResponse()
+        ? delegate.httpEngine.getResponse().handshake()
+        : delegate.handshake;
+  }
+
+  @Override public void setHostnameVerifier(HostnameVerifier hostnameVerifier) {

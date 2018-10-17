@@ -1,0 +1,10 @@
+            if (deficit == 1) {
+                orLiterals(out, runBegin, runLength);
+                return;
+            }
+            this.bufferUsed = this.getNumberOfLiterals();
+            if (this.bufferUsed == deficit) {
+                andLiterals(out, runBegin, runLength);
+            } else {
+                generalLiterals(deficit, out, runBegin, runLength);
+            }

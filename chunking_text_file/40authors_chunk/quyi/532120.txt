@@ -1,0 +1,10 @@
+        case 6: // STATEMENT
+          return STATEMENT;
+        case 7: // RISK_TYPE
+          return RISK_TYPE;
+        case 8: // RISK_LEVEL
+          return RISK_LEVEL;
+        case 9: // RULE_NO
+          return RULE_NO;
+        case 10: // CATEGORY
+          return CATEGORY;

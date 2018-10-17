@@ -1,0 +1,10 @@
+    public long getSize()
+    {
+        return size;
+    }
+
+    public int available()
+    {
+        long avail = size - position;
+        if(avail <= 0L)
+            return 0;

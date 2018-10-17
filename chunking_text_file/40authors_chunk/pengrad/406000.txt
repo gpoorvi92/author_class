@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 8/4/15.
+ */
+public class Update {
+
+    private Integer update_id;
+    private Message message;

@@ -1,0 +1,10 @@
+            if (res == num[i]) ++cnt;
+            else --cnt;
+        }
+        return res;
+    }
+    public int majorityElement_2(int[] num) {
+        int n = num.length;
+        if (n == 0) return 0;
+        if (n == 1) return num[0];
+        int res = 0;

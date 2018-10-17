@@ -1,0 +1,10 @@
+            {
+               if (descriptors[j].getName().equals(propertyName))
+               {
+                  descriptors[j].getWriteMethod().invoke(obj, value);
+                  done = true;
+               }
+            }
+         }
+         return obj;
+      }

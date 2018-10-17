@@ -1,0 +1,10 @@
+    public @ResponseBody String checkStoreName(String storeName, String oldStoreName) {
+        try {
+            storeName = new String(storeName.getBytes("iso-8859-1"), "utf-8");
+            oldStoreName = new String(oldStoreName.getBytes("iso-8859-1"), "utf-8");
+            if (oldStoreName.equals(storeName)) {
+                return "true";
+            } else {
+                return merchantService.checkStoreName(storeName);
+            }
+        } catch (UnsupportedEncodingException e) {

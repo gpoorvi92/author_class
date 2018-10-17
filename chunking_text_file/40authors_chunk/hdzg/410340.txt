@@ -1,0 +1,10 @@
+		paint.setTypeface(Typeface.create((Typeface)null,Typeface.ITALIC));//设置字体
+		paint.setTextSize(18);							//设置字号
+		canvas.drawText("确定",							//绘制确定按钮
+				DIALOG_BTN_START_X+DIALOG_BTN_WORD_LEFT,
+				DIALOG_BTN_START_Y+DIALOG_WORD_SIZE+DIALOG_BTN_WORD_UP,
+				paint
+				);		
+	}
+	//方法：实现View.OnTouchListener接口的方法
+	public boolean onTouch(View view, MotionEvent event) {

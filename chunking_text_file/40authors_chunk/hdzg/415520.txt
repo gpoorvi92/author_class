@@ -1,0 +1,10 @@
+import static wyf.ytl.tool.ConstantUtil.*;
+
+public class TianXiaView {
+	GameView gameView;
+	int yeSpan = 11;//主页显示城池的个数
+	int currentI = 0;//当前绘制的屏幕最上边的元素下标
+	int selectI = 0;
+	
+	int startY = 120;
+	int startX = 17;

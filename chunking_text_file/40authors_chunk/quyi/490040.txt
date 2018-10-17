@@ -1,0 +1,10 @@
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, updateUserAppStatus_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.missionId);
+        oprot.writeString(struct.userAppId);
+        {
+          oprot.writeI32(struct.plotsStatus.size());
+          for (Map.Entry<com.nercis.isscp.idl.PlotsType, com.nercis.isscp.idl.CheckResultStatus> _iter80 : struct.plotsStatus.entrySet())
+          {

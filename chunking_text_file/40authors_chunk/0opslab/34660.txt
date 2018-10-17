@@ -1,0 +1,10 @@
+     *
+     * @param chinese 汉字串
+     * @return 汉语拼音
+     */
+    public final static String getFullSpell(String chinese) {
+        StringBuffer            pybf          = new StringBuffer();
+        char[]                  arr           = chinese.toCharArray();
+        HanyuPinyinOutputFormat defaultFormat = new HanyuPinyinOutputFormat();
+        defaultFormat.setCaseType(HanyuPinyinCaseType.LOWERCASE);
+        defaultFormat.setToneType(HanyuPinyinToneType.WITHOUT_TONE);

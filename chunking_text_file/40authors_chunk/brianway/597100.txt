@@ -1,0 +1,10 @@
+
+public class Run5_isAlive02 {
+    public static void main(String[] args) {
+        CountOperate2 c = new CountOperate2();
+        Thread t1 = new Thread(c);
+        System.out.println("main begin t1 isAlive=" + t1.isAlive());
+        t1.setName("A");
+        t1.start();
+        System.out.println("main end t1 isAlive=" + t1.isAlive());
+    }

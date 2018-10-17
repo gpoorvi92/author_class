@@ -1,0 +1,10 @@
+import com.newweb.service.business.OrderPriceService;
+import com.newweb.service.business.OrderService;
+import com.newweb.service.business.OrderSmallService;
+import com.newweb.util.FileUtil;
+
+@Component("orderSmallService")
+public class OrderSmallServiceImp implements OrderSmallService {
+	
+	@Autowired
+	private OrderSmallDao orderSmallDao;

@@ -1,0 +1,10 @@
+import android.graphics.PorterDuff.Mode;
+
+/**
+ * @author : 桥下一粒砂 chenyoca@gmail.com
+ * date    : 2012-11-8
+ * 图片切角工具
+ */
+public class BitmapFillet {
+
+	public static final int ALL = 347120;

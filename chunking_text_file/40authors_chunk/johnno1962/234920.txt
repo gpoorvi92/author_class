@@ -1,0 +1,10 @@
+
+/// class java.awt.Dialog ///
+
+package org.genie.java_awt;
+
+public class DialogProxy extends java.awt.Dialog {
+
+    long swiftObject;
+
+    /// public java.awt.Dialog(java.awt.Window,java.lang.String)

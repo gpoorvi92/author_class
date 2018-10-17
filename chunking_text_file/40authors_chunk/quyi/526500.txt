@@ -1,0 +1,10 @@
+    return (this.samples == null) ? null : this.samples.iterator();
+  }
+
+  public void addToSamples(com.nercis.isscp.idl.Sample elem) {
+    if (this.samples == null) {
+      this.samples = new ArrayList<com.nercis.isscp.idl.Sample>();
+    }
+    this.samples.add(elem);
+  }
+

@@ -1,0 +1,10 @@
+	}
+	
+	//public HuffmanNode removeLast() throws Exception
+	//{
+	//	if(isEmpty())	
+	//	  throw new Exception("Queue is empty");
+	//	DLNode d=tail.getPrev();
+	//	HuffmanNode o=tail.getPrev().getElement();
+	//	tail.setPrev(d.getPrev());
+	//	d.getPrev().setNext(tail);

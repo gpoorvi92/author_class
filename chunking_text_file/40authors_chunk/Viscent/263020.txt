@@ -1,0 +1,10 @@
+
+			}
+
+		}, 5 * 60 * 1000);
+	}
+
+	static class RequestSenderThread extends AbstractTerminatableThread {
+
+		private final int requestsPerInterval;
+		private final RequestPersistence persistence;

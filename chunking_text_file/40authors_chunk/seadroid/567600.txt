@@ -1,0 +1,10 @@
+        return file.length();
+    }
+
+    public String getAbsolutePath() {
+        return file.getAbsolutePath();
+    }
+
+    public File getFile() {
+        return file;
+    }

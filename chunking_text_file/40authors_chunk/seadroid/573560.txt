@@ -1,0 +1,10 @@
+                            break;
+                        case OPEN_AS_IMAGE:
+                            intent.setDataAndType((Uri.fromFile(file)), "image/*");
+                            startActivity(intent);
+                            break;
+                        case OPEN_AS_OTHER:
+                            intent.setDataAndType((Uri.fromFile(file)), "*/*");
+                            startActivity(intent);
+                        default:
+                            break;

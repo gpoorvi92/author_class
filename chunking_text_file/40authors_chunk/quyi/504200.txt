@@ -1,0 +1,10 @@
+  public JobPriority getJobPriority() {
+    return this.jobPriority;
+  }
+
+  /**
+   * 
+   * @see JobPriority
+   */
+  public AppSendMessage setJobPriority(JobPriority jobPriority) {
+    this.jobPriority = jobPriority;

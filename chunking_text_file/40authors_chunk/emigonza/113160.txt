@@ -1,0 +1,10 @@
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public int     getStation() throws JposException;
+  public void    setStation(int station) throws JposException;
+  public boolean getStorageEnabled() throws JposException;
+  public void    setStorageEnabled(boolean enabled) throws JposException;
+  public boolean getSuspended() throws JposException;
+  public boolean getWaterMark() throws JposException;
+  public void    setWaterMark(boolean waterMark) throws JposException;

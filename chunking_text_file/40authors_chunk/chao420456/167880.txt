@@ -1,0 +1,10 @@
+	public int getThreadID() {
+		return threadID;
+	}
+	public void setThreadID(int threadID) {
+		this.threadID = threadID;
+	}
+	public Client(){
+		c_singleFrames = new HashMap<String, Client_singleFrame>();
+		username_online = new ArrayList<String>();
+		clientuserid = new ArrayList<Integer>();

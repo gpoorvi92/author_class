@@ -1,0 +1,10 @@
+package com.jufan.platform.adapter;
+
+import java.util.Date;
+import java.util.List;
+
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.service.ChatLocationService;
+import com.jufan.platform.service.ChatTextService;
+import com.jufan.platform.service.ChatUploadService;

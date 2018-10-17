@@ -1,0 +1,10 @@
+				// 下标增加
+				i++;
+				// 读取下一个字节的数据
+				n = fis.read();
+			}
+			// 解析数据
+			text = new String(data, 0, i);
+			fis.close();
+		} catch (Exception e) {
+			JOptionPane.showConfirmDialog(null,"获取指定路径文件内容失败", "系统消息",

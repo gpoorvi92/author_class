@@ -1,0 +1,10 @@
+               if (progressDialog.isCanceled())
+               {                  
+                  activity.cancel(true);
+                  startButton.setEnabled(true);                  
+               }
+               else if (activity.isDone())
+               {
+                  progressDialog.close();
+                  startButton.setEnabled(true);                  
+               }

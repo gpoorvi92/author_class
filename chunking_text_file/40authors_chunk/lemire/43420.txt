@@ -1,0 +1,10 @@
+        return this.runningBit && this.runningLength < this.position;
+    }
+
+    private boolean literalHasNext() {
+        while (this.word == 0 && this.wordLength > 0) {
+            this.word = Integer.reverse(this.buffer.getWord(this.wordPosition + this.wordLength--));
+            this.literalPosition = this.position;
+            this.position -= WORD_IN_BITS;
+        }
+        return this.word != 0;

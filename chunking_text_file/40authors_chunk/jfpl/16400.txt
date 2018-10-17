@@ -1,0 +1,10 @@
+	private android.widget.TextView wztipTv;
+
+	private String bindUsername;
+	private String hphm;
+	private AbstractCommonData vioAcd;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.vio, "");
+		Intent intent = getIntent();

@@ -1,0 +1,10 @@
+    @Test
+    public void sendPhoto() {
+        SendPhoto request = new SendPhoto(chatId, new File(imagefile)).caption("caption");
+        SendResponse sendResponse = bot.execute(request);
+        Message message = sendResponse.message();
+        MessageTest.checkPhotoMessage(message);
+    }
+
+    @Test
+    public void sendSticker() {

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.DocumentListener.insertUpdate(javax.swing.event.DocumentEvent)
+
+    public native void __insertUpdate( javax.swing.event.DocumentEvent e );
+
+    public void insertUpdate( javax.swing.event.DocumentEvent e ) {
+        __insertUpdate( e );
+    }

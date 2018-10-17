@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.jms.test;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;

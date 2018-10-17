@@ -1,0 +1,10 @@
+ * 
+ * @author Viscent Huang
+ *
+ * @param <P> “产品”类型
+ */
+public class SemaphoreBasedChannel<P> implements Channel<P> {
+	private final BlockingQueue<P> queue;
+	private final Semaphore semaphore;
+
+	/**

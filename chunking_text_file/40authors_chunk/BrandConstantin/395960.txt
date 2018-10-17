@@ -1,0 +1,10 @@
+                    break;
+             case "viernes":
+              case "5":
+                    dia1 = 5;
+                    nombreDiaUno = "viernes";
+                    break;
+             case "sabado":
+              case "6":
+                    dia1 = 6;
+                    nombreDiaUno = "sabado";

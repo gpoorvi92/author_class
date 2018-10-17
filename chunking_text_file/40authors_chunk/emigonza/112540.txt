@@ -1,0 +1,10 @@
+  public int     getRemainingImagesEstimate() throws JposException;
+
+  // Methods
+  public void    beginInsertion(int timeout) throws JposException;
+  public void    beginRemoval(int timeout) throws JposException;
+  public void    clearImage(int by) throws JposException;
+  public void    clearInput() throws JposException;
+  public void    defineCropArea(int cropAreaID, int x, int y, int cx, int cy)
+                   throws JposException;
+  public void    endInsertion() throws JposException;

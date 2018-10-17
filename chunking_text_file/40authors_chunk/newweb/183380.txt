@@ -1,0 +1,10 @@
+		return lsprice;
+	}
+	public void setLsprice(double lsprice) {
+		this.lsprice = lsprice;
+	}
+	@Column(columnDefinition="int default 0")
+	public double getPfprice() {
+		return pfprice;
+	}
+	public void setPfprice(double pfprice) {

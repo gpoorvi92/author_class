@@ -1,0 +1,10 @@
+
+    public abstract void prepareAsync() throws IllegalStateException;
+
+    public abstract void release();
+
+    public abstract void reset();
+
+    public abstract void seekTo(int msec) throws IllegalStateException;
+
+    public abstract void setDataSource(String path) throws IOException,

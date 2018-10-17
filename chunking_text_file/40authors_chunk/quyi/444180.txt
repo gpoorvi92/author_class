@@ -1,0 +1,10 @@
+        case 3: // DYNAMIC_CHECK_RESULT
+          return DYNAMIC_CHECK_RESULT;
+        default:
+          return null;
+      }
+    }
+
+    /**
+     * Find the _Fields constant that matches fieldId, throwing an exception
+     * if it is not found.

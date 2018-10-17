@@ -1,0 +1,10 @@
+	 */
+	public interface OnDateSetListener {
+		/**
+		 * this method is called when a date was selected by the user
+		 * 
+		 * @param view
+		 *            the caller of the method
+		 * 
+		 */
+		public void onDateSet(DateSlider view, Calendar selectedDate);

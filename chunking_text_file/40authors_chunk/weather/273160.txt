@@ -1,0 +1,10 @@
+  }
+
+  @Override public void trackConditionalCacheHit() {
+    // This method is optional.
+  }
+
+  @Override public void trackResponse(CacheStrategy cacheStrategy) {
+    // This method is optional.
+  }
+

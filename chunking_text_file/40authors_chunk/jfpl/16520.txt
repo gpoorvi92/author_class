@@ -1,0 +1,10 @@
+				startActivity(intent);
+			}
+		});
+		ImageView imgV = (ImageView) v.findViewById(R.id.temp_img1);
+		imgV.setImageBitmap(ImageLoader.getInstance()
+				.loadImageSync(
+						"assets://clpp/car_" + vioAcd.getStringValue("pp_pic")
+								+ ".jpg"));
+	}
+

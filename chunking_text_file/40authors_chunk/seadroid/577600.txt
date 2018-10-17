@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void onCreate(SQLiteDatabase db) {
+        createPhotoCacheTable(db);
+    }
+
+    private void createPhotoCacheTable(SQLiteDatabase db) {
+        db.execSQL(SQL_CREATE_PHOTOCACHE_TABLE);
+        db.execSQL("CREATE INDEX photo_repoid_index ON " + PHOTOCACHE_TABLE_NAME

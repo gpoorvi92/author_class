@@ -1,0 +1,10 @@
+import com.newweb.model.business.Order;
+import com.newweb.model.business.SmallPriceCut;
+
+@Cache(usage=CacheConcurrencyStrategy.READ_WRITE)
+@Entity
+@Table(name="t_customer")
+public class Customer {
+
+	private int ID;
+	private String name;

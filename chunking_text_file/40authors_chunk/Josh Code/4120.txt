@@ -1,0 +1,10 @@
+        int response = chooser.showOpenDialog(mv);
+        if (response == JFileChooser.APPROVE_OPTION)
+        {
+            File f = chooser.getSelectedFile();
+            try
+            {
+                Model m = fileIO.ModelLoader.load(f, progressP);
+                if (m != null)
+                    mv.setModel(m);
+                else

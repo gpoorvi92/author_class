@@ -1,0 +1,10 @@
+    {
+        return threshold;
+    }
+
+    public long getByteCount()
+    {
+        return written;
+    }
+
+    public boolean isThresholdExceeded()

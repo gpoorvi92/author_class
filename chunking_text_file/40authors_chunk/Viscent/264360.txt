@@ -1,0 +1,10 @@
+	private static class PrimeGenerator extends
+	    WorkerThreadSlave<Range, Set<BigInteger>> {
+
+		public PrimeGenerator(BlockingQueue<Runnable> taskQueue) {
+			super(taskQueue);
+		}
+
+		@Override
+		protected Set<BigInteger> doProcess(Range range) throws Exception {
+

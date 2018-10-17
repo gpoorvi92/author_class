@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetJobPriority() {
+    this.jobPriority = null;
+  }
+
+  /** Returns true if field jobPriority is set (has been assigned a value) and false otherwise */
+  public boolean isSetJobPriority() {
+    return this.jobPriority != null;

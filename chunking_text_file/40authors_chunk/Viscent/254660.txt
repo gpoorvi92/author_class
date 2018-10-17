@@ -1,0 +1,10 @@
+
+	public static Future<FTPClientUtil> newInstance(final String ftpServer,
+	    final String userName, final String password) {
+
+		Callable<FTPClientUtil> callable = new Callable<FTPClientUtil>() {
+
+			@Override
+			public FTPClientUtil call() throws Exception {
+				FTPClientUtil self = new FTPClientUtil();
+				self.init(ftpServer, userName, password);

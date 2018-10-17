@@ -1,0 +1,10 @@
+		Helper helper = new Helper("Java Thread AnyWhere");
+		helper.run();
+	}
+
+	static class Helper implements Runnable {
+		private final String message;
+
+		public Helper(String message) {
+			this.message = message;
+		}

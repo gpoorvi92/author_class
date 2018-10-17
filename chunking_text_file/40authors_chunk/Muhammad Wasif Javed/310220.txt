@@ -1,0 +1,10 @@
+	private String name = "Custom Theme";
+	private ColorUIResource primary1;
+	private ColorUIResource primary2;
+	private ColorUIResource primary3;
+	private ColorUIResource secondary1;
+	private ColorUIResource secondary2;
+	private ColorUIResource secondary3;
+	private ColorUIResource black;
+	private ColorUIResource white;
+

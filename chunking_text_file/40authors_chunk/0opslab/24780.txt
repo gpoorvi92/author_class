@@ -1,0 +1,10 @@
+            this.auth = Boolean.parseBoolean(properties.getProperty("mail.smtp.auth"));
+            this.sender_username = properties.getProperty("mail.sender.username");
+            this.sender_password = properties.getProperty("mail.sender.password");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        session = Session.getInstance(properties);
+        session.setDebug(debug);//开启后有调试信息
+        message = new MimeMessage(session);
+    }

@@ -1,0 +1,10 @@
+		this.tokenLifeTime=obj.get("tokenLifeTime")==null?-1:(Long)obj.get("tokenLifeTime");
+		
+	}
+	
+	public static void main(String[] args){
+		LoginToken token=new LoginToken("chacha");
+		System.out.println(token.getToken());
+		
+		token=new LoginToken("chacha",3600*1000*2);
+		System.out.println(token.getToken());

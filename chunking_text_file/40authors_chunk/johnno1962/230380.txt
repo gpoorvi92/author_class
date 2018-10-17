@@ -1,0 +1,10 @@
+
+/// class java.awt.FileDialog ///
+
+package org.genie.java_awt;
+
+public class FileDialogProxy extends java.awt.FileDialog {
+
+    long swiftObject;
+
+    /// public java.awt.FileDialog(java.awt.Dialog,java.lang.String)

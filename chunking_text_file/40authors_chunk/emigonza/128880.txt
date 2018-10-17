@@ -1,0 +1,10 @@
+  public int     getLogStatus() throws JposException;
+  public long    getSettledAmount() throws JposException;
+
+  // Methods
+  public void    cashDeposit(int sequenceNumber, long amount, int timeout)
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName, int[] result)
+                     throws JposException;
+  public void    lockTerminal()
+                     throws JposException;

@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义动态检测 系统资源占用记录
+ * 1:string processName 进程名称
+ * 2:string threadName 线程名称
+ * 3:string checkTime 检测记录的时间
+ * 4:i32 cpu Cpu占百分比

@@ -1,0 +1,10 @@
+            int bitset = buf[k];
+            while (bitset != 0) {
+                int t2 = bitset & -bitset;
+                counters[Integer.bitCount(t2 - 1)]++;
+                bitset ^= t2;
+            }
+        }
+        for (int pos = 0; pos < 64; ++pos) {
+            if (counters[pos] >= t)
+                result |= (1L << pos);

@@ -1,0 +1,10 @@
+                {
+                    return;
+                }
+                else if (result instanceof GameResult)
+                {
+                    MessageLite lite = (MessageLite) result.getResult();
+                    response = Fenrisulfr.TransPacket.newBuilder(packet).setContent(lite.toByteString()).build();
+                }
+                else if (result instanceof ErrorResult)
+                {

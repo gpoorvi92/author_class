@@ -1,0 +1,10 @@
+									Toast.makeText(EntityModifierExample.this, "Loop: '" + (pLoop + 1) + "' of '" + pLoopCount + "' finished.", Toast.LENGTH_SHORT).show();
+								}
+							});
+						}
+					},
+					new SequenceEntityModifier(
+//							new RotationModifier(1, 0, 90),
+							new AlphaModifier(2, 1, 0),
+							new AlphaModifier(1, 0, 1),
+							new ScaleModifier(2, 1, 0.5f),

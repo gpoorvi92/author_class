@@ -1,0 +1,10 @@
+ For example, given:
+ S: "barfoothefoobarman"
+ L: ["foo", "bar"]
+ You should return the indices: [0,9].
+ (order does not matter).
+
+ Solution: 1. Brute + HashMap.
+           2. Sliding Window + HashMap. from Sun Mian.
+*/
+public class Solution {

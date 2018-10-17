@@ -1,0 +1,10 @@
+     * @param cityId
+     * @param listener
+     * @return
+     */
+    public static Request getWeeklyWeather(String cityId, RequestListener<WeeklyResponse> listener) {
+        String url = API_URL.WEEKLY + cityId;
+        return startGsonRequest(url, null, WeeklyResponse.class, listener);
+    }
+
+

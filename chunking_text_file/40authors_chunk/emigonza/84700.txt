@@ -1,0 +1,10 @@
+    public boolean getCapPitch() throws JposException;
+    public boolean getCapVolume() throws JposException;
+
+    // Properties
+    public boolean getAsyncMode() throws JposException;
+    public void    setAsyncMode(boolean asyncMode) throws JposException;
+    public int     getInterToneWait() throws JposException;
+    public void    setInterToneWait(int interToneWait) throws JposException;
+    public int     getOutputID() throws JposException;
+    public int     getTone1Duration() throws JposException;

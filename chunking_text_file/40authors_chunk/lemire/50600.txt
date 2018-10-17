@@ -1,0 +1,10 @@
+        if ((this.isLiteral)
+                || (this.iterator.getNumberOfLiteralWords() == 0)) {
+            // no choice, must load next runs
+            this.iterator.discardFirstWords(this.iterator.size());
+            if (this.iterator.getRunningLength() > 0) {
+                this.endrun += this.iterator
+                        .getRunningLength();
+                this.isLiteral = false;
+                this.value = this.iterator.getRunningBit();
+            } else if (this.iterator.getNumberOfLiteralWords() > 0) {

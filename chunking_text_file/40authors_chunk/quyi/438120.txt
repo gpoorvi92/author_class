@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSoftware()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.software, other.software);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;

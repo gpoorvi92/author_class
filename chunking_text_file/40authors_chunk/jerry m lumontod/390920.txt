@@ -1,0 +1,10 @@
+		mborBorders = new Border[20];
+		for (int k=0; k<mborBorders.length; k++)
+			mborBorders[k] = new EmptyBorder(0, OFFSET*k, 0, 0);
+		setOpaque(false);
+	}
+
+	public Component getListCellRendererComponent(JList list,Object obj, int row, boolean sel, boolean hasFocus) {
+		if (obj == null)
+			return this;
+		setText(obj.toString());

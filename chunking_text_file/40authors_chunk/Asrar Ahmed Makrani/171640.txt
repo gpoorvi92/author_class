@@ -1,0 +1,10 @@
+					
+					ResultSet rs1 = statement.executeQuery(query1);
+					try
+					{
+						rs1.next();
+								            	
+			            	Video_title_text.setText(rs1.getString(2));
+			 				authorsArea.setText(rs1.getString(5));
+			 				subjectArea.setText(rs1.getString(7));
+			 				location_text.setText(rs1.getString(4));

@@ -1,0 +1,10 @@
+        Log.d(DEBUG_TAG, "All the cookies in a string:" + cookies);
+
+        String[] allCookies = cookies.split(";");
+
+        for (String cookie : allCookies) {
+            if (cookie.contains(key)) {
+                String[] pair = cookie.split("=");
+                CookieValue = pair[1];
+            }
+        }

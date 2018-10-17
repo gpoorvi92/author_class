@@ -1,0 +1,10 @@
+
+    private final int maxRetries;
+
+    public RetryHandler(int maxRetries) {
+        this.maxRetries = maxRetries;
+    }
+
+    public boolean retryRequest(IOException exception, int executionCount, HttpContext context) {
+        boolean retry = true;
+

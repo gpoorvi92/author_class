@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerMenuItem()</code> to register a custom
+ * context menu item.
+ *
+ * @deprecated Use
+ * <code>IContextMenuFactory</code> instead.
+ */
+@Deprecated

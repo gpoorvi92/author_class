@@ -1,0 +1,10 @@
+/**
+ * This frame has two buttons to fill a combo box from a separate thread. The "Good" button uses the
+ * event queue, the "Bad" button modifies the combo box directly.
+ */
+class SwingThreadFrame extends JFrame
+{
+   public SwingThreadFrame()
+   {
+      final JComboBox<Integer> combo = new JComboBox<>();
+      combo.insertItemAt(Integer.MAX_VALUE, 0);

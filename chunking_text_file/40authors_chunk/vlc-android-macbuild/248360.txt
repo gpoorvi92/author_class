@@ -1,0 +1,10 @@
+            e.printStackTrace();
+            return null;
+        }
+
+        InputStreamReader reader = new InputStreamReader(inputStream);
+        BufferedReader buffReader = new BufferedReader(reader);
+
+        try {
+            inputStream = new FileInputStream("/proc/cpuinfo");
+        } catch (FileNotFoundException e) {

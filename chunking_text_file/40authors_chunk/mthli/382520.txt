@@ -1,0 +1,10 @@
+      final Collator collator = Collator.getInstance(loc);
+      final Comparator<Locale> comp = new Comparator<Locale>()
+         {
+            public int compare(Locale a, Locale b)
+            {
+               return collator.compare(a.getDisplayName(loc), b.getDisplayName(loc));
+            }
+         };
+      Arrays.sort(locales, comp);
+      setModel(new ComboBoxModel<Locale>()

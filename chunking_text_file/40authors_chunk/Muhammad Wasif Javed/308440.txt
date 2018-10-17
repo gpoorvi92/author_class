@@ -1,0 +1,10 @@
+		btnOk.setBounds (20, 90, 100, 25);
+		btnOk.addActionListener (this);
+		btnCancel = new JButton ("Cancel");
+		btnCancel.setBounds (150, 90, 100, 25);
+		btnCancel.addActionListener (this);
+
+		//Adding All the Controls in Panel.
+
+		pLog.add (lbUser);
+		pLog.add (lbPass);

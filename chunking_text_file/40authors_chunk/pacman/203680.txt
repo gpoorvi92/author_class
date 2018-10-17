@@ -1,0 +1,10 @@
+		try {
+
+			msg = gMsgManager.receiveMessage(QueueType.QUEUE_FEEDBACK);
+			if (msg == null) {
+				
+				//logger.warn(PREFIX + " No message feedback, ignored!");
+				return;
+			}
+			
+			fireMessageEvent(msg);

@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Saves the drawing in SVG format, using DOM/XSLT
+    */
+   public void saveDocument() throws TransformerException, IOException
+   {
+      if (chooser.showSaveDialog(this) != JFileChooser.APPROVE_OPTION) return;
+      File file = chooser.getSelectedFile();
+      Document doc = comp.buildDocument();

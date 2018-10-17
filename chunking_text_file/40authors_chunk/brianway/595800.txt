@@ -1,0 +1,10 @@
+end wait(),  ThreadName=sub2
+list size = 0
+end wait(),  ThreadName=sub1
+Exception in thread "sub1" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.remove(ArrayList.java:492)
+	at com.brianway.learning.java.multithread.communication.example6.Subtract.subtract(Subtract.java:22)
+	at com.brianway.learning.java.multithread.communication.example6.ThreadSubtract.run(ThreadSubtract.java:16)
+
+----------------------------

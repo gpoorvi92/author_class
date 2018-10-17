@@ -1,0 +1,10 @@
+        }
+    }
+
+    private long threshold2buf(final int t, final long[] buf, final int bufUsed) {
+        long result = 0L;
+        final int[] counters = this.bufCounters;
+        System.arraycopy(zeroes64, 0, counters, 0, 64);
+        for (int k = 0; k < bufUsed; ++k) {
+            long bitset = buf[k];
+            while (bitset != 0) {

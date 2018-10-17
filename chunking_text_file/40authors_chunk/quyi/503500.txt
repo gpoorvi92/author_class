@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 下发任务队列任务信息
+ * 
+ */
+public class AppSendMessage implements org.apache.thrift.TBase<AppSendMessage, AppSendMessage._Fields>, java.io.Serializable, Cloneable, Comparable<AppSendMessage> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("AppSendMessage");

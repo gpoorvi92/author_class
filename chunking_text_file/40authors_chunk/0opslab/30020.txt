@@ -1,0 +1,10 @@
+
+    public String guessEncoding(File f) throws MalformedURLException, IOException {
+        Charset charset = detector.detectCodepage(f.toURL());
+
+        if (charset == null)
+            return null;
+
+        return charset.name();
+    }
+

@@ -1,0 +1,10 @@
+        // Properties
+        makeProperty("AsyncMode"),
+        makeProperty("InterToneWait"),
+        makeProperty("OutputID"),
+        makeProperty("Tone1Duration"),
+        makeProperty("Tone1Pitch"),
+        makeProperty("Tone1Volume"),
+        makeProperty("Tone2Duration"),
+        makeProperty("Tone2Pitch"),
+        makeProperty("Tone2Volume"),

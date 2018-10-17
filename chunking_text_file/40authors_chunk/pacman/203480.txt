@@ -1,0 +1,7 @@
+			
+			result = StringHelper.removeFileExtName(url);
+		}
+		
+		return result;
+	}
+}

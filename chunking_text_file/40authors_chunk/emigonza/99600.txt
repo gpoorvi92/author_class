@@ -1,0 +1,10 @@
+                                  Class.forName(listener),
+                                  eventName + "Occurred");
+  }
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {
+    try
+    {
+      EventSetDescriptor[] events =
+      {

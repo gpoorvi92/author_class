@@ -1,0 +1,10 @@
+		ServletRequestAttributes attrs = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+		return attrs.getRequest();
+	}
+
+	/**
+	 * Gets HttpSession.
+	 * 
+	 * @Title: getSession
+	 * @return
+	 * @return: HttpSession

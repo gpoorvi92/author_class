@@ -1,0 +1,10 @@
+            int index = strings.indexOf(text);
+            try { score = ((Integer)scores.get(index)).intValue() + 1; } catch (Exception ignore) { ignore.printStackTrace(); }
+            scores.set(index, new Integer(score));
+        } else {
+            strings.add(text);
+            scores.add(new Integer(score));
+        }
+        return removeOne(text);
+    }
+

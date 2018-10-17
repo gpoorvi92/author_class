@@ -1,0 +1,10 @@
+public class NetWorkUtils {
+    private static ConnectivityManager cConnectivityManager;
+
+    /**
+     * 判断网络是否可以
+     */
+    public static boolean isNetworkAvailable(NetworkInfo networkInfo) {
+        return networkInfo != null && networkInfo.isAvailable() && networkInfo.isConnected();
+    }
+

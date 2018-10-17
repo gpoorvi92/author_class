@@ -1,0 +1,8 @@
+
+    public native void __changedUpdate( javax.swing.event.DocumentEvent e );
+
+    public void changedUpdate( javax.swing.event.DocumentEvent e ) {
+        __changedUpdate( e );
+    }
+
+}

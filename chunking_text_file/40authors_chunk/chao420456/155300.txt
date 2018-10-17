@@ -1,0 +1,10 @@
+ */
+public class PropertiesTest2 {
+	public static void main(String[] args) throws IOException {
+		// 创建集合对象
+		Properties prop = new Properties();
+		Reader r = new FileReader("playCount.txt");
+		prop.load(r);
+		r.close();
+
+		// 获取数据

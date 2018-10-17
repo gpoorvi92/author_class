@@ -1,0 +1,10 @@
+                while (find.get(str) != null && find.get(str) >= need.get(str)) {
+                    String subStart = S.substring(start, start + n);
+                    find.put(subStart, find.get(subStart) - 1);
+                    start += n;
+                    --count;
+                }
+                find.put(str, (find.get(str) == null ? 0 : find.get(str)) + 1);
+                ++count;
+                if (count != m) continue;
+                list.add(start);

@@ -1,0 +1,10 @@
+		actType[2] = new ActType(Constant.TYPE_WINE,R.drawable.icon_wine, "喝一杯");
+		actType[3] = new ActType(Constant.TYPE_KTV,R.drawable.icon_ktv, "去唱K");
+		actType[4] = new ActType(Constant.TYPE_PERFORM,R.drawable.icon_meeting, "看演出");
+		actType[5] = new ActType(Constant.TYPE_MOVIE,R.drawable.icon_movie, "看电影");
+		actType[6] = new ActType(Constant.TYPE_SPHERE,R.drawable.icon_sphere, "去运动");
+		return actType;
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {

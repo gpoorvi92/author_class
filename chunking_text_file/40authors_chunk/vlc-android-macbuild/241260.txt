@@ -1,0 +1,10 @@
+
+    /*--------------------------------------
+     * View OnTouchListener
+     */
+    public static void setOnTouchListener(View container, int id,
+            View.OnTouchListener listener) {
+        if (container == null)
+            return;
+
+        container.findViewById(id).setOnTouchListener(listener);

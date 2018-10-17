@@ -1,0 +1,10 @@
+	public List<String> online_usernames;
+	public List<Integer> online_usernameids;
+	public ServerFrame(Server server) {
+		this.server = server;
+		online_usernames = new ArrayList<String>();
+		online_usernameids = new ArrayList<Integer>();
+		try {
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();

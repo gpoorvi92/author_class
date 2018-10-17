@@ -1,0 +1,10 @@
+   public int getSourceActions(JComponent source)
+   {
+      return COPY_OR_MOVE;
+   }
+
+   protected Transferable createTransferable(JComponent source)
+   {
+      ImageList list = (ImageList) source;
+      int index = list.getSelectedIndex();
+      if (index < 0) return null;

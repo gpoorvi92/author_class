@@ -1,0 +1,10 @@
+package com.lz.game.rpc.core;
+import com.google.protobuf.MessageLite;
+import com.lz.game.rpc.ChatServerRpcClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.atomic.AtomicInteger;
+/**
+ * User: Teaey
+ * Date: 13-7-14

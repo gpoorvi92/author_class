@@ -1,0 +1,10 @@
+ */
+public class SocketSender implements Sender{
+	private static Random r=new Random();
+	private static int BUFFERSIZE=4096;
+	private InetSocketAddress[] hosts; //服务器地址集合，支持集群
+	
+	
+	public SocketSender(InetSocketAddress[] hosts) {
+		super();
+		this.hosts = hosts;

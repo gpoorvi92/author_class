@@ -1,0 +1,10 @@
+  public String getEngineStatus() {
+    return this.engineStatus;
+  }
+
+  public Engine setEngineStatus(String engineStatus) {
+    this.engineStatus = engineStatus;
+    return this;
+  }
+
+  public void unsetEngineStatus() {

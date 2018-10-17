@@ -1,0 +1,10 @@
+/**
+ * Upload task
+ *
+ */
+public class UploadTask extends TransferTask {
+    public static final String DEBUG_TAG = "UploadTask";
+
+    private String dir;   // parent dir
+    private boolean isUpdate;  // true if update an existing file
+    private boolean isCopyToLocal; // false to turn off copy operation

@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field category is set (has been assigned a value) and false otherwise */
+  public boolean isSetCategory() {
+    return this.category != null;
+  }
+
+  public void setCategoryIsSet(boolean value) {
+    if (!value) {
+      this.category = null;

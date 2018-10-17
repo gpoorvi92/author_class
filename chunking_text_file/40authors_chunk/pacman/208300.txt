@@ -1,0 +1,10 @@
+	public String getAudioFormat() {
+		
+		if (gJNILoaded) {
+			if (null == audioFormat || audioFormat.trim().length() < 1) {
+				audioFormat = nativeGetAudioCodec();
+			}
+			return audioFormat;
+		} else {
+			
+			return "UNKNOWN";

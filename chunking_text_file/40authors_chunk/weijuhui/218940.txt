@@ -1,0 +1,10 @@
+		}
+
+		public boolean isViewFromObject(View arg0, Object arg1) {
+			return arg0 == arg1;
+		}
+
+		public void restoreState(Parcelable arg0, ClassLoader arg1) {
+
+		}
+

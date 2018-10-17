@@ -1,0 +1,10 @@
+
+      String frameClassName = args.length == 0 ? "buttons2.ButtonFrame" : args[0]; 
+      JavaFileObject source = buildSource(frameClassName);
+      JavaCompiler.CompilationTask task = compiler.getTask(null, fileManager, diagnostics, null,
+            null, Arrays.asList(source));
+      Boolean result = task.call();
+
+      for (Diagnostic<? extends JavaFileObject> d : diagnostics.getDiagnostics())
+         System.out.println(d.getKind() + ": " + d.getMessage(null));
+      fileManager.close();

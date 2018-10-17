@@ -1,0 +1,10 @@
+              struct.setPlotsIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // JOB_PRIORITY
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.jobPriority = JobPriority.findByValue(iprot.readI32());
+              struct.setJobPriorityIsSet(true);
+            } else { 

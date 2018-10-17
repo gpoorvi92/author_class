@@ -1,0 +1,10 @@
+    public ReplyKeyboardMarkup oneTimeKeyboard(boolean oneTimeKeyboard) {
+        this.one_time_keyboard = oneTimeKeyboard;
+        return this;
+    }
+
+    public ReplyKeyboardMarkup selective(boolean selective) {
+        this.selective = selective;
+        return this;
+    }
+}

@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("versioncode:");
+    if (this.versioncode == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.versioncode);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("url:");

@@ -1,0 +1,10 @@
+	public static MMSCRouter getInstance() {
+		
+		return instance;
+	}
+
+	/**
+	 * 根据手机号码前缀获取对应的彩信中心信息
+	 * 
+	 * @param msisdnPrefix
+	 *          手机号码前缀

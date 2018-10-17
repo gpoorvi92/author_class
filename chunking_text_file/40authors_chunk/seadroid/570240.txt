@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.R;
+import com.seafile.seadroid2.SeadroidApplication;
+import com.seafile.seadroid2.ui.activity.BrowserActivity;
+import com.seafile.seadroid2.ui.activity.MarkdownActivity;
+import com.seafile.seadroid2.ui.dialog.OpenAsDialog;
+
+import java.io.File;
+
+/**
+ * Activity Utils

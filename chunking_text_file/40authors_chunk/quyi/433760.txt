@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_cpu = true;
+    boolean that_present_cpu = true;
+    if (this_present_cpu || that_present_cpu) {
+      if (!(this_present_cpu && that_present_cpu))
+        return false;
+      if (this.cpu != that.cpu)
+        return false;

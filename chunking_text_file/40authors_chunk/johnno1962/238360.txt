@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.MenuKeyListener ///
+
+package org.genie.javax_swing;
+
+public class MenuKeyListenerProxy implements javax.swing.event.MenuKeyListener {
+
+    long swiftObject;
+
+    MenuKeyListenerProxy( long swiftObject ) {

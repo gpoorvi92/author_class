@@ -1,0 +1,10 @@
+        adminService.resetPwd(ids);
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/addView")
+    public ModelAndView addView() {
+        ModelAndView modelAndView = new ModelAndView("management/admin/add");
+        modelAndView.addObject("gender", Gender.values());
+        return modelAndView;
+    }

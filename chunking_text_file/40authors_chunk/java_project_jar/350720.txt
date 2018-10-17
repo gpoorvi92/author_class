@@ -1,0 +1,3 @@
+    private final boolean throwEofException;
+    private final boolean markSupported;
+}

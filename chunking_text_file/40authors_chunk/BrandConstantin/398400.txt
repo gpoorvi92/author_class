@@ -1,0 +1,10 @@
+    int totalNumeros = 0;
+    int sumaImpares = 0;
+    int numImpar = 0;
+    int mayorPar = 0;
+
+    do {
+        numIntrod = teclado.nextInt();
+
+        if (numIntrod >= 0){
+            totalNumeros++;

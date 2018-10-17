@@ -1,0 +1,10 @@
+		OrderPrice op = new OrderPrice();
+		op.setOrder(os.getOrder());
+		op.setProductID(os.getSmall().getID());
+		op.setType("small");
+		double price = smallService.findSmallByIdBindCut(os.getSmall().getID(), 
+				os.getOrder().getCustomer().getID(), null).getLsprice();
+		op.setPrice(price);
+		if(!orderPriceService.save(op)){
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据保存异常\t" + new Date());

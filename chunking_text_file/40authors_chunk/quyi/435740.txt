@@ -1,0 +1,10 @@
+    this.checkEndDate = null;
+  }
+
+  /** Returns true if field checkEndDate is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckEndDate() {
+    return this.checkEndDate != null;
+  }
+
+  public void setCheckEndDateIsSet(boolean value) {
+    if (!value) {

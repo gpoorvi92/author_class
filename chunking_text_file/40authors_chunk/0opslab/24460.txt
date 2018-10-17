@@ -1,0 +1,10 @@
+   * 
+   * @param in
+   *          the input stream to limit.
+   * 
+   * @param limit
+   *          the amount of bytes that may be read from the given input stream.
+   */
+  public LimitedInputStream(final InputStream in, final int limit) {
+    super(in);
+    this.m_amountOfBytesReadable = limit;

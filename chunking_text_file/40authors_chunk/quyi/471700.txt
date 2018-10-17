@@ -1,0 +1,10 @@
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("queryMission", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        queryMission_args args = new queryMission_args();
+        args.setMissionId(missionId);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+
+      public List<com.nercis.isscp.idl.AppCheckResult> getResult() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException {

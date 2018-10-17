@@ -1,0 +1,10 @@
+        viewHolder.subtitle.setText(dirent.getSubtitle());
+        viewHolder.icon.setImageResource(dirent.getIcon());
+
+        int alpha;
+        int titleColor;
+
+        if (dirent.isDir()) {
+            alpha = 255;
+            titleColor = Color.BLACK;
+        } else {

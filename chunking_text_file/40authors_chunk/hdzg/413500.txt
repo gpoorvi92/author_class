@@ -1,0 +1,10 @@
+	public void startAnimation(){
+		new BattleThread().start();
+	}
+	//线程，负责换帧
+	class BattleThread extends Thread{
+		boolean flag=true;
+		int sleepSpan = 300;
+		int counter = 0;//20次就结束
+		public void run(){
+			while(flag){

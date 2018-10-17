@@ -1,0 +1,10 @@
+      for (Map.Entry<String, CheckResultStatus> other_element : other.functionStatus.entrySet()) {
+
+        String other_element_key = other_element.getKey();
+        CheckResultStatus other_element_value = other_element.getValue();
+
+        String __this__functionStatus_copy_key = other_element_key;
+
+        CheckResultStatus __this__functionStatus_copy_value = other_element_value;
+
+        __this__functionStatus.put(__this__functionStatus_copy_key, __this__functionStatus_copy_value);

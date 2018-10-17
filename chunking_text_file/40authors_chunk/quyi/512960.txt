@@ -1,0 +1,10 @@
+          }
+          public void onError(Exception e) {
+            byte msgType = org.apache.thrift.protocol.TMessageType.REPLY;
+            org.apache.thrift.TBase msg;
+            modifyEngineConfig_result result = new modifyEngineConfig_result();
+            if (e instanceof com.nercis.isscp.idl.InvalidRequestException) {
+                        result.ire = (com.nercis.isscp.idl.InvalidRequestException) e;
+                        result.setIreIsSet(true);
+                        msg = result;
+            }

@@ -1,0 +1,10 @@
+    // get URIs of matching documents:
+    List<String> doc_uris = lm.searchIndexForURIs("test, index");
+    System.out.println("Matched document URIs: " + doc_uris);
+    // get URIs and document text for matching documents:
+    List<String[]> doc_uris_with_text = lm.searchIndexForURIsAndDocText("test, index");
+    for (String[] uri_and_text : doc_uris_with_text) {
+      System.out.println("Matched document URI:  " + uri_and_text[0]);
+      System.out.println("        document text: " + uri_and_text[1]);
+    }
+    

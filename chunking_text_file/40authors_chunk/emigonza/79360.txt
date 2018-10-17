@@ -1,0 +1,10 @@
+  public void    adjustItemCount(int itemCount,
+                                 int slotNumber)
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)
+                     throws JposException;
+  public void    dispenseItem(int[] numItem,
+                              int slotNumber)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)

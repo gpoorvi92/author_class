@@ -1,0 +1,10 @@
+        String[] noFilters = new String[] {"userLogin.action","logout.action","login.action",
+        		"indexPage","Register","isUserExist.ajax","isLinkNameExist.ajax",
+        		"indexGetShowDone.action","indexGetShowProcessed.action","indexGetShowUnprocessed.action",
+        		"nearOrder"}; 
+        boolean beFilter = true; 
+        for (String s : noFilters) {  
+            if (url.indexOf(s) != -1) {  
+                beFilter = false;  
+                break;  
+            }  

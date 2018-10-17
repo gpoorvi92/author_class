@@ -1,0 +1,10 @@
+		// 对字符数组进行排序
+		Arrays.sort(chs);
+
+		// 把字符数组转换字符串
+		String s = String.valueOf(chs);
+
+		// 把字符串写入文本文件
+		BufferedWriter bw = new BufferedWriter(new FileWriter("ss.txt"));
+		bw.write(s);
+		bw.newLine();

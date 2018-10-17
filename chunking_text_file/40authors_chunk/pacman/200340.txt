@@ -1,0 +1,10 @@
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testLessonParser() throws Exception {
+		
+		String clazzpath = this.getClass().getResource("/").toString();
+		LessonInfo info = new LessonInfoParser().parseAndSave(clazzpath + "/lesson.xml", "e:/lesson.xml");
+		
+		assertNotNull(info);

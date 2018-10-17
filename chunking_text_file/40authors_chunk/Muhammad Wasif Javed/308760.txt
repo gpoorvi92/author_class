@@ -1,0 +1,10 @@
+		catch (MalformedURLException e) { }
+		catch (IOException e) {	}
+
+	}
+
+	//Function Perform By the HyperLinks of HTML Help File.
+
+	public void hyperlinkUpdate (HyperlinkEvent e) {
+	
+		if (e.getEventType() == HyperlinkEvent.EventType.ACTIVATED) {

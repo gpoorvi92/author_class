@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.ledger.src.process;
+
+public class CheckForMustEntries {
+	private String mstrErrMsg="";
+	public void CheckForMustEntries(String tstrDate,
+								String tstrDateTo,
+								String tstrDocCode,
+								String tstrComp,
+								String tstrDivision,

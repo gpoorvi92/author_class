@@ -1,0 +1,10 @@
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+
+public class CreateSampleDatabases {
+
+	public static void main(String argv[]) {
+		try {
+

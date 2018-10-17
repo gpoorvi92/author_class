@@ -1,0 +1,10 @@
+	}
+
+	public void setEid(String eid) {
+		this.eid = eid;
+	}
+
+	public String getEid() {
+		return eid;
+	}
+

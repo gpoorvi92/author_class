@@ -1,0 +1,10 @@
+    private Message message;
+    private String inline_message_id;
+    private String data;
+
+    public String id() {
+        return id;
+    }
+
+    public User from() {
+        return from;

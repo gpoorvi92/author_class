@@ -1,0 +1,10 @@
+	}
+	public void setGlassHeight(double glassHeight) {
+		this.glassHeight = glassHeight;
+	}
+	public int getGlassCount() {
+		return glassCount;
+	}
+	public void setGlassCount(int glassCount) {
+		this.glassCount = glassCount;
+	}

@@ -1,0 +1,10 @@
+	public boolean isChildSelectable(final int pGroupPosition, final int pChildPosition) {
+		return true;
+	}
+
+	@Override
+	public boolean hasStableIds() {
+		return true;
+	}
+
+	// ===========================================================

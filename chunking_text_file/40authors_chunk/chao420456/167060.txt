@@ -1,0 +1,10 @@
+ * 		为了让对象在文件中持久存储，或者在网络中传输。
+ * 
+ * 序列化流：ObjectOutputStream	
+ * 		public final void writeObject(Object obj)
+ * 反序列化流：ObjectInputStream	(把流数据的对象还原)
+ * 		public final Object readObject()
+ */
+public class ObjectStreamDemo {
+	public static void main(String[] args) throws IOException,
+			ClassNotFoundException {

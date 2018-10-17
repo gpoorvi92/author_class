@@ -1,0 +1,10 @@
+    }
+
+    private static class genMissionId_argsTupleSchemeFactory implements SchemeFactory {
+      public genMissionId_argsTupleScheme getScheme() {
+        return new genMissionId_argsTupleScheme();
+      }
+    }
+
+    private static class genMissionId_argsTupleScheme extends TupleScheme<genMissionId_args> {
+

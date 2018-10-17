@@ -1,0 +1,10 @@
+     *                     4 : Traditional Chinese; 5 : Korean; 6 : Dont know (default)
+     * @return 返回文件的编码
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
+    public static String guestFileEncoding(String path, int languageHint) throws FileNotFoundException, IOException {
+        return guestFileEncoding(new File(path), languageHint);
+    }
+
+    /**

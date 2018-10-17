@@ -1,0 +1,10 @@
+	/**
+	 * 设置最新按钮键值。
+	 * @param lastMenuKey
+	 * 最新按钮键值。
+	 * */
+	public void setLastMenuKey(String lastMenuKey) {
+		this.lastMenuKey = lastMenuKey;
+	}
+	/**
+	 * 获取最后一次活动时间。

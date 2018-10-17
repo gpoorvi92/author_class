@@ -1,0 +1,10 @@
+            newNotice.setEveryInterval(Integer.valueOf(interval));
+            newNotice.setRound(Integer.valueOf(roundTime));
+            newNotice.setLevel(Integer.valueOf(noticeLevel));
+            newNotice.setType(Integer.valueOf(noticeType));
+            newNotice.setModifyTime(new Date());
+            if (NoticeService.update(newNotice))
+            {
+                result.setMsg("success");
+            }
+            else

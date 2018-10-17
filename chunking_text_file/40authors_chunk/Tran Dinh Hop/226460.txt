@@ -1,0 +1,10 @@
+	     // Set the encoding parameters if necessary.
+	     encodeParam = new BMPEncodeParam();
+	
+	     encodeImage(srcImage, fosImage);
+	     dstImage = loadImage(outFileName);
+	}
+		
+
+     // Load the source image.
+     private PlanarImage loadImage(String imageName) {

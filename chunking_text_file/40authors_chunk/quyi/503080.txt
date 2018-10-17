@@ -1,0 +1,10 @@
+		ReadExcel readExcel = new ReadExcel();
+		// ExportExcel exportExcel = new ExportExcel();
+		String fileName = "D:\\信工所应用样本列表.xls";
+		// String fileName1 = "E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\单个应用统计.xls";
+		int rowsize = readExcel.getRowSize(0, fileName, 0);
+
+		File file = new File(fileName); // 创建文件对象
+		if (!file.exists()) {
+			return;
+		}

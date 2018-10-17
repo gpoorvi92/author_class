@@ -1,0 +1,10 @@
+import jpos.JposException;
+
+/**
+ * Defines an Exception class for JCL loader related classes/interfaces and 
+ * implementing classes
+ * @since 2.0.0
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class JposLoaderException extends JposException
+{

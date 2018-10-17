@@ -1,0 +1,10 @@
+    public static final int PWR_UPS_WARNING   = 0x00000002;
+    public static final int PWR_UPS_LOW       = 0x00000004;
+    public static final int PWR_UPS_CRITICAL  = 0x00000008;
+
+    /////////////////////////////////////////////////////////////////////
+    // "PowerSource" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PWR_SOURCE_NA       = 1;
+    public static final int PWR_SOURCE_AC       = 2;

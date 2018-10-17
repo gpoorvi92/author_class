@@ -1,0 +1,10 @@
+
+			FTPClientConfig config = new FTPClientConfig();
+			ftpClient.configure(config);
+
+			int reply;
+			ftpClient.connect(ftpServer);
+
+			System.out.print(ftpClient.getReplyString());
+
+			reply = ftpClient.getReplyCode();

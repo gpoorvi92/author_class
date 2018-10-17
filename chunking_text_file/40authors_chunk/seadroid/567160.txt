@@ -1,0 +1,10 @@
+        Account a = (Account)obj;
+        if (a.server == null || a.email == null)
+            return false;
+
+        return a.server.equals(this.server) && a.email.equals(this.email);
+    }
+
+    public String getSignature() {
+        return email.substring(0, 4) + " " + hashCode();
+    }

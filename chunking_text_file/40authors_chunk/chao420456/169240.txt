@@ -1,0 +1,10 @@
+		// @Override
+		// public void actionPerformed(ActionEvent e) {
+		// // public void setBackground(Color c)
+		// f.setBackground(Color.RED);
+		// }
+		// });
+
+		// µã»÷ÊÂ¼þ
+		// redButton.addMouseListener(new MouseAdapter() {
+		// @Override

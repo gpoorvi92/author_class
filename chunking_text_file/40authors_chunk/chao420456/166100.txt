@@ -1,0 +1,10 @@
+			// 重写计算中间索引值
+			middleIndex = (minIndex + maxIndex) / 2;
+		}
+
+		return middleIndex;
+	}
+
+	// 普通查找
+	// public static int getIndex(int[] arr, int value) {
+	// int index = -1;

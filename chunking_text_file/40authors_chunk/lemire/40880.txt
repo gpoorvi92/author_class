@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * @param newsize the number of inputs
+     */
+    public final void resize(final int newsize) {
+        this.rw = java.util.Arrays.copyOf(this.rw, newsize);
+        this.litwlist.resize(newsize);
+        this.b = java.util.Arrays.copyOf(this.b, newsize);
+    }

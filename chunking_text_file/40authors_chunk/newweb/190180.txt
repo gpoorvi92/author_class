@@ -1,0 +1,10 @@
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return text;
+	}
+
+	/**
+	 * 将制定的字符串写入指定路径下的指定文件中
+	 * 如果路径及文件不存在，将自动创建
+	 * @param text
+	 * @param path

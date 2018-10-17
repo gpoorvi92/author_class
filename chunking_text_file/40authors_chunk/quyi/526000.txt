@@ -1,0 +1,10 @@
+public class MissionResults implements org.apache.thrift.TBase<MissionResults, MissionResults._Fields>, java.io.Serializable, Cloneable, Comparable<MissionResults> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("MissionResults");
+
+  private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField ENGINES_FIELD_DESC = new org.apache.thrift.protocol.TField("engines", org.apache.thrift.protocol.TType.LIST, (short)2);
+  private static final org.apache.thrift.protocol.TField MISSION_PROGRESS_FIELD_DESC = new org.apache.thrift.protocol.TField("missionProgress", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField SAMPLES_FIELD_DESC = new org.apache.thrift.protocol.TField("samples", org.apache.thrift.protocol.TType.LIST, (short)4);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {

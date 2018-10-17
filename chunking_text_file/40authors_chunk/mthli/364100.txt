@@ -1,0 +1,10 @@
+      catch (Exception e)
+      {
+         return -1;
+      }
+   }
+
+   /**
+    * The action listener for the Show button shows a Confirm, Input, Message, or Option dialog
+    * depending on the Type panel selection.
+    */

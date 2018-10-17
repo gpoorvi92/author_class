@@ -1,0 +1,10 @@
+public class Employee_Search extends JFrame{
+	private JPanel panel1,panel2;
+	private JLabel label1;
+	private JTextField text1;
+	private JButton button1,button2;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+	public Employee_Search (){
+		super("Searching Record");
+		label1=new JLabel("ENTER EMPLOYEE_NO" );
+		text1=new JTextField(10);

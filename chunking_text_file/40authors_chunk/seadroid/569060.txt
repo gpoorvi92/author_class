@@ -1,0 +1,10 @@
+    final String localPath;
+
+    public AutoUpdateInfo(Account account, String repoID, String repoName, String parentDir,
+            String localPath) {
+
+        this.account = account;
+        this.repoID = repoID;
+        this.repoName = repoName;
+        this.parentDir = parentDir;
+        this.localPath = localPath;

@@ -1,0 +1,10 @@
+     * This will be displayed as an option within the Intruder UI when the user
+     * selects to use an extension-provided payload processor.
+     *
+     * @return The name of the payload processor.
+     */
+    String getProcessorName();
+
+    /**
+     * This method is invoked by Burp each time the processor should be applied
+     * to an Intruder payload.

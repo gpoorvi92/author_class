@@ -1,0 +1,10 @@
+				
+				 catch ( SQLException sqlex ) {
+                        sqlex.printStackTrace();
+             }	
+			}
+		});
+		
+	}
+	public static void main(String[]args){
+		JFrame.setDefaultLookAndFeelDecorated(true);

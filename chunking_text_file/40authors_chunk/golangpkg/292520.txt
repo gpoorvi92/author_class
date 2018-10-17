@@ -1,0 +1,10 @@
+		}
+		catch (FileNotFoundException e) {
+			log.error("cannot write to model file for " + modelFromContext.getClass().getSimpleName() + ": " + e.getMessage(), e);
+		}
+		finally {
+			IOUtils.closeQuietly(fs);
+		}
+	}
+
+	

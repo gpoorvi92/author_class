@@ -1,0 +1,10 @@
+
+
+	public UploadProcessingConfiguration getMasterProcessingConfiguration() {
+		return masterProcessingConfiguration;
+	}
+
+
+	public void setClientEvictionTimeInSeconds(int clientEvictionTimeInSeconds) {
+		this.clientEvictionTimeInSeconds = clientEvictionTimeInSeconds;
+	}

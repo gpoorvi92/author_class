@@ -1,0 +1,10 @@
+                          LoadedCallback imageLoadedRunnable,
+                          int tag) {
+        if (mDecodeThread == null) {
+            start();
+        }
+        synchronized (mQueue) {
+            WorkItem w = new WorkItem(image, imageLoadedRunnable, tag);
+            mQueue.add(w);
+            mQueue.notifyAll();
+        }

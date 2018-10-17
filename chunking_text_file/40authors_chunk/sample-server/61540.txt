@@ -1,0 +1,10 @@
+    public String login(@RequestParam(required = true) String account, @RequestParam(required = true) String passwd, Locale locale, HttpServletRequest request)
+    {
+        JsonResponse resultCode = new JsonResponse();
+        if (null == account || null == passwd || account.isEmpty() || passwd.isEmpty())
+        {
+            resultCode.setResult(JsonResponse.Result.FALSE);
+            resultCode.setMsg(SpringContextUtil.getMessage("login.accountorpassword.empty", "帐号或密码不能为空", locale));
+        }
+        else
+        {

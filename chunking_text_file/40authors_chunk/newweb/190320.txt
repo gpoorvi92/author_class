@@ -1,0 +1,10 @@
+		String monthS = month+"";
+		String dateS = date + "";
+		if(month <=9){
+			monthS = "0" + month;
+		}
+		if(date <= 9){
+			dateS = "0" + date;
+		}
+		return year+"-" + monthS + "-" + dateS;
+	}

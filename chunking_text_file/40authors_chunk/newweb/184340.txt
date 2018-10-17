@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean delete(OrderLhjWinProp olwp) {
+		try {
+			sessionFactory.getCurrentSession().delete(olwp);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;

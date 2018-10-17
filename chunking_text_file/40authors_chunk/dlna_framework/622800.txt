@@ -1,0 +1,10 @@
+	                if (st != null) {
+	                    sb.append("[ "+st.getFileName()+":"+st.getLineNumber()+" ]\r\n");
+	                }
+	            }
+	        }
+
+	        Log.e(tag, sb.toString());
+	    }
+	}
+	

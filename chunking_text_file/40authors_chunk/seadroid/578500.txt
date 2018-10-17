@@ -1,0 +1,10 @@
+        if (b != null && rotateAsNeeded) {
+            b = Util.rotate(b, getDegreesRotated());
+        }
+
+        return b;
+    }
+
+    public InputStream fullSizeImageData() {
+        try {
+            InputStream input = mContentResolver.openInputStream(mUri);

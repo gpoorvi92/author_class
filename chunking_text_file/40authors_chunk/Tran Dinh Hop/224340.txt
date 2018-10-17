@@ -1,0 +1,10 @@
+			data[hashCode] = newNode; 
+		} 
+		else 
+		{ 
+			HashNode current = data[hashCode]; 
+			while(current.next != null) 
+			{ 
+				current = current.getNext(); 
+			} 
+

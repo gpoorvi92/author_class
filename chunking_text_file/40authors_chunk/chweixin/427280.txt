@@ -1,0 +1,10 @@
+
+	@Override
+	protected Long total(PictureInfo info) {
+		return this.pictureDao.total(info);
+	}
+
+	@Override
+	public PictureInfo update(PictureInfo info) {
+		if(info != null){
+			boolean isAdded = false;

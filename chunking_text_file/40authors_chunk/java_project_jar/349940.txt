@@ -1,0 +1,10 @@
+        }
+    }
+
+    private void flushOutput()
+        throws IOException
+    {
+        if(decoderOut.position() > 0)
+        {
+            writer.write(decoderOut.array(), 0, decoderOut.position());
+            decoderOut.rewind();

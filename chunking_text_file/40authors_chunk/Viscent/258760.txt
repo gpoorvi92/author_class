@@ -1,0 +1,10 @@
+	}
+
+	public void doGenerate(int overallTPS, int duration/* minutes */,
+	    Map<String, Map<String, Integer>> respDelayConf) {
+
+		int count = 0;
+		RequestFactory rf;
+		SimulatedRequest req;
+		int factoryIndex = 0;
+		Random rnd = new Random();

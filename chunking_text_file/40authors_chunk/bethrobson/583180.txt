@@ -1,0 +1,10 @@
+
+      try {
+         
+         obj = Naming.lookup("rmi://127.0.0.1/ServiceServer");
+         
+      }
+     catch(Exception ex) {
+       ex.printStackTrace();
+     }
+     server = (ServiceServer) obj;

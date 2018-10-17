@@ -1,0 +1,10 @@
+		if (isShowBindFlag && bindVehList.size() > 0
+				&& keyCode == KeyEvent.KEYCODE_BACK) {
+			changeLayout(bindVehList.size());
+			return false;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+
+	@Override
+	protected void onListItemClick(String prxName, ListView l, View v,

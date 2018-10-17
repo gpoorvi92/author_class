@@ -1,0 +1,10 @@
+ * @param <P>
+ *          “产品”类型
+ */
+public interface Channel<P> {
+	/**
+	 * 从通道中取出一个“产品”。
+	 * 
+	 * @return “产品”
+	 * @throws InterruptedException
+	 */

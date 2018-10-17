@@ -1,0 +1,10 @@
+    this.engineStatus = null;
+  }
+
+  /** Returns true if field engineStatus is set (has been assigned a value) and false otherwise */
+  public boolean isSetEngineStatus() {
+    return this.engineStatus != null;
+  }
+
+  public void setEngineStatusIsSet(boolean value) {
+    if (!value) {

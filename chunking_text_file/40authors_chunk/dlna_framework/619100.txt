@@ -1,0 +1,10 @@
+		return node;
+	}
+
+	public org.cybergarage.xml.Node parse(org.cybergarage.xml.Node parentNode, org.w3c.dom.Node domNode)
+	{
+		return parse(parentNode, domNode, 0);
+	}
+
+	/* (non-Javadoc)
+	 * @see org.cybergarage.xml.Parser#parse(java.io.InputStream)

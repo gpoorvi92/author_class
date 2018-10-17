@@ -1,0 +1,10 @@
+        // Properties
+        makeProperty("FreeData"),
+        makeProperty("NumberOfFiles"),
+        makeProperty("TotalsSize"),
+        makeProperty("TransactionInProgress"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;

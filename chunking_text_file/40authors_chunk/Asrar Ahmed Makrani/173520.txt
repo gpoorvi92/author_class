@@ -1,0 +1,10 @@
+
+public JTextField bookid = new JTextField(5);
+public int i = 0;
+public int maincnt;
+
+    public book_loan_master() { 
+
+    
+    	String url = "jdbc:odbc:lib";
+ 		

@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetDeviceType()) {
+        oprot.writeI32(struct.deviceType.getValue());
+      }
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, HardwareResources struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(4);

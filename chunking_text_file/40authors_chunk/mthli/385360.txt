@@ -1,0 +1,10 @@
+      {
+         ex.printStackTrace();
+      }
+
+      JFormattedTextField ipField = new JFormattedTextField(new IPAddressFormatter());
+      ipField.setValue(new byte[] { (byte) 130, 65, 86, 66 });
+      addRow("IP Address:", ipField);
+      pack();
+   }
+

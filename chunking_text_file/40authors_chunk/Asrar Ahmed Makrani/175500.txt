@@ -1,0 +1,10 @@
+					try
+					{
+						rs1.next();
+								            	
+			            	int confirm = JOptionPane.showConfirmDialog(null, "This record Exists, would you like to update it?", "CONFIRM", JOptionPane.YES_NO_OPTION);
+			            	if(confirm == JOptionPane.NO_OPTION)
+			 				{
+			            	patron_text.setEditable(false);
+			            	name_text.setEditable(false);
+			 				passport_text.setEditable(false);

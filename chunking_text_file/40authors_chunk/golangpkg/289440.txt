@@ -1,0 +1,10 @@
+public class FileDeleterTest {
+
+	@Autowired
+	FileDeleter fileDeleter;
+
+	@Autowired
+	StaticStateRootFolderProvider staticStateRootFolderProvider;
+
+	private int number = 100;
+	private ExecutorService exec = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(20));

@@ -1,0 +1,10 @@
+import com.weparty.widgets.DateSlider.TimeObject;
+
+/**
+ * This interface represents the views that will be placed in the ScrollLayout.
+ * Each TimeView represents a visible element in the ScrollLayout, and is
+ * displayed as a single point in time (e.g. January), but actually represents a
+ * range of times (e.g. 1/1-1/31). The TimeView stores the range as well as
+ * a string describing how to display itself.
+ */
+public interface TimeView {

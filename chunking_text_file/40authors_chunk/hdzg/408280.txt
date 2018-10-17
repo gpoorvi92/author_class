@@ -1,0 +1,10 @@
+				meetableMatrix, bmpDialogBack, bmpDialogButton);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	@Override
+	public void drawDialog(Canvas canvas, Hero hero) {
+		String showString = null;//需要显示到对话框中的字符串
+		tempHero = hero;
+		//先画背景

@@ -1,0 +1,10 @@
+	@Column
+	public String getShType() {
+		return shType;
+	}
+	public void setShType(String shType) {
+		this.shType = shType;
+	}
+	
+	@Column
+	public double getNmHeight() {

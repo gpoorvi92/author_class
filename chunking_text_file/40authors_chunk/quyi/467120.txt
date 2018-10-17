@@ -1,0 +1,10 @@
+  }
+
+  public String ruleId; // required
+  public String ruleName; // required
+  public List<Activity> ruleTypes; // required
+  /**
+   * 
+   * @see Risk
+   */
+  public Risk riskLevel; // required

@@ -1,0 +1,10 @@
+ Given 1->2->3->4->5->NULL and k = 2,
+ return 4->5->1->2->3->NULL.
+
+ Solution: Notice that k can be larger than the list size (k % list_size).
+           This solution traverses the list twice at most.
+*/
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {

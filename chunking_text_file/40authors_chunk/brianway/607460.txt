@@ -1,0 +1,10 @@
+    private SimpleDateFormat sdf;
+    private String dateString;
+
+    public Thread1(SimpleDateFormat sdf, String dateString) {
+        this.sdf = sdf;
+        this.dateString = dateString;
+    }
+
+    @Override
+    public void run() {

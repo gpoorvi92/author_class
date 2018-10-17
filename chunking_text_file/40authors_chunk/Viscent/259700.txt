@@ -1,0 +1,10 @@
+	 */
+	private static class TerminationToken extends
+	    io.github.viscent.mtpattern.ch5.tpt.TerminationToken {
+		private final static ConcurrentMap<ExecutorService, TerminationToken> 
+					INSTANCES_MAP 
+					= new ConcurrentHashMap<ExecutorService, TerminationToken>();
+
+		// 私有构造器
+		private TerminationToken() {
+

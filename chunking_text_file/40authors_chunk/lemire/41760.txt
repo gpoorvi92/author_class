@@ -1,0 +1,8 @@
+                .threshold(2, ewah1, ewah2, ewah3);
+        ewahmajth.setSizeInBitsWithinLastWord(maxSizeInBits(ewah1, ewah2, ewah3));
+        EWAHCompressedBitmap32 ewahtruemaj = EWAHCompressedBitmap32.or(
+                ewah1.and(ewah2), ewah1.and(ewah3), ewah2.and(ewah3));
+        Assert.assertTrue(ewahmajth.equals(ewahtruemaj));
+    }
+
+}

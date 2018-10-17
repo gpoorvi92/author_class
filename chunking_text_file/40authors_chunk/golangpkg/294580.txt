@@ -1,0 +1,10 @@
+	/**
+	 * Maximum time that a streaming request can take.<br>
+	 */
+	private long taskTimeOut = DateUtils.MILLIS_PER_HOUR;
+
+
+	@Override
+	public void handleRequest(final HttpServletRequest request, final HttpServletResponse response)
+			throws ServletException, IOException {
+

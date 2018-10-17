@@ -1,0 +1,10 @@
+				return true;
+			}
+		}catch (Exception e) {
+			stop();
+			close();
+			clear();
+			return false;
+		}
+		return false;
+	}

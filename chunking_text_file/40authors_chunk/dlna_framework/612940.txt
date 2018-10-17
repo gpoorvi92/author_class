@@ -1,0 +1,10 @@
+	private int code;
+	private String description;
+	
+	public UPnPStatus()
+	{
+		setCode(0);
+		setDescription("");	
+	}
+	
+	public UPnPStatus(int code, String desc)

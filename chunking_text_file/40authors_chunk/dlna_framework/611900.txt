@@ -1,0 +1,10 @@
+public class SSDPSearchResponseSocket extends HTTPUSocket implements Runnable
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+	
+	public SSDPSearchResponseSocket()
+	{
+		setControlPoint(null);

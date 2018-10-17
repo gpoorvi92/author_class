@@ -1,0 +1,10 @@
+			throw new RuntimeException("整合失败：新Bill创建失败！");
+		}
+		for (String id : ids) {
+			Order[] orders = queryOrdersByBillId(id);
+			for (Order order : orders) {
+				order.setBill(newBill);
+				if(!orderService.modifyOrder(order)){
+					throw new RuntimeException("整合失败：订单的Bill对象搬家失败");
+				}
+			}

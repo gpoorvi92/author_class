@@ -1,0 +1,10 @@
+	Bitmap open;
+	Bitmap close;
+	Bitmap buttonBackGround;
+	Paint paint;
+	int type;
+	public SoundManageView(HDZGActivity activity, int type) {
+		super(activity);
+		this.activity = activity;
+		this.type = type;
+        getHolder().addCallback(this);

@@ -1,0 +1,10 @@
+
+
+    /////////////////////////////////////////////////////////////////////
+    // CapTrackToRead and TrackToWrite Property constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_TRACK1   = 0x0001;
+    public static final int PCRW_TRACK2   = 0x0002;
+    public static final int PCRW_TRACK3   = 0x0004;
+    public static final int PCRW_TRACK4   = 0x0008;

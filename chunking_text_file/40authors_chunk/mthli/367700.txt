@@ -1,0 +1,4 @@
+   {
+      return c == PLANET_COLUMN || c == MOONS_COLUMN || c == GASEOUS_COLUMN || c == COLOR_COLUMN;
+   }
+}

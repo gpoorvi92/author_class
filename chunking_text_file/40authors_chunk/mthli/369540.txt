@@ -1,0 +1,10 @@
+
+      display = new JTextArea(10, 20);
+
+      add(new JScrollPane(display), BorderLayout.NORTH);
+      
+      ActionListener insert = new InsertAction();
+      ActionListener command = new CommandAction();
+
+      // add the buttons in a 4 x 4 grid
+

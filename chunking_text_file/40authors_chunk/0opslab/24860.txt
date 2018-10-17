@@ -1,0 +1,10 @@
+            transport = session.getTransport("smtp");
+            // smtp验证，就是你用来发邮件的邮箱用户名密码
+            transport.connect(mailHost, port, sender_username, sender_password);
+            // 发送
+            transport.sendMessage(message, message.getAllRecipients());
+            //System.out.println("send success!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (transport != null) {

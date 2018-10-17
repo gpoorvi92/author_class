@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order where doneStatus='notDone' and acceptStatus='Unprocessed' and createDate between ? and ? and customerID like ? order by createDate DESC,createTime DESC")
+				.addEntity(Order.class);
+		query.setString(0, startDate);
+		query.setString(1, endDate);
+		query.setString(2, customer);
+		return query.list();
+	}
+
+	@Override
+	public void flush() {

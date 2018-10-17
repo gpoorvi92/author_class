@@ -1,0 +1,10 @@
+                data1[i] = sigmoid(x);
+                data2[i] = sigmoidP(x);
+            }
+            jbInit();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    protected float sigmoid(float x) {

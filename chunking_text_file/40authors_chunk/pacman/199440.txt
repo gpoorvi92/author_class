@@ -1,0 +1,10 @@
+
+	/* (non-Javadoc)
+	 * @see org.springframework.jdbc.object.MappingSqlQuery#mapRow(java.sql.ResultSet, int)
+	 */
+	@Override
+	protected TaskModel mapRow(ResultSet rs, int row) throws SQLException {
+
+		TaskModel result = new TaskModel();
+		result.setTid(rs.getInt("tid"));
+		result.setCid(rs.getInt("cid"));

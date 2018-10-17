@@ -1,0 +1,10 @@
+        BaseResponse response = bot.execute(new GetChatMembersCount(chatId));
+        System.out.println(response);
+    }
+
+    @Test
+    public void sendAudio() {
+        SendAudio request = new SendAudio(chatId, new File(audioFile));
+        SendResponse sendResponse = bot.execute(request);
+        Message message = sendResponse.message();
+        MessageTest.checkAudioMessage(message);

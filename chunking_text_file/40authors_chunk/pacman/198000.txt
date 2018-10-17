@@ -1,0 +1,8 @@
+		assertNotNull(worker);
+		for (IStep step : worker.getSteps()) {
+
+			assertNotNull(step);
+		}
+	}
+
+}

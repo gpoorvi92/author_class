@@ -1,0 +1,8 @@
+	}
+
+	public void setSeed(long seed) {
+		SecureRandom secureRnd = SECURE_RANDOM.get();
+		secureRnd.setSeed(seed);
+	}
+
+}

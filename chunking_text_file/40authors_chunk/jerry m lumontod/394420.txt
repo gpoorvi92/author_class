@@ -1,0 +1,10 @@
+		
+		try {
+			mdbl = Double.parseDouble(tstrAmount);
+		}catch (Exception e) {
+			mbln=false;	
+		}
+
+		
+		return mbln;
+	}

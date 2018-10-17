@@ -1,0 +1,10 @@
+
+		unkownError (0),
+		requestIsNotMultipart (1),
+		NoFileToUploadInTheRequest (2),
+		InvalidCRC (3, InvalidCrcException.class),
+		MissingParameterException (4, MissingParameterException.class),
+		AuthorizationException (12, AuthorizationException.class),
+		FileCorruptedException (14, FileCorruptedException.class),
+		FileStillProcessingException (15, FileStillProcessingException.class),
+		UploadIsCurrentlyDisabled (16, UploadIsCurrentlyDisabled.class);

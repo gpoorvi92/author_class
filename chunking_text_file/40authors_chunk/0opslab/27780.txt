@@ -1,0 +1,3 @@
+        return RegUtil.isMatche(password,SEC_PASSWORD);
+    }
+}

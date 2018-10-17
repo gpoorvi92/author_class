@@ -1,0 +1,10 @@
+	public void testNoIdInSession() {
+
+		// assert session is empty
+		Assert.assertNull(mockHttpServletRequest.getSession().getAttribute(DefaultIdentifierProvider.cookieIdentifier));
+
+		// assert cookie is empty
+		Assert.assertNull(DefaultIdentifierProvider.getCookie(mockHttpServletRequest.getCookies(), DefaultIdentifierProvider.cookieIdentifier));
+
+		// set cookie
+		UUID identifierOriginal = staticStateIdentifierManager.getIdentifier();

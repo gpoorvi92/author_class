@@ -1,0 +1,10 @@
+		DBObject query=builder.put("userName").is(acct.getUserName()).get();
+		coll.setWriteConcern(WriteConcern.SAFE);
+		coll.update(query, acct.toDbObject());
+	}
+
+	/**
+	 * 获取多个账号
+	 * @param nameArray
+	 * @return
+	 */

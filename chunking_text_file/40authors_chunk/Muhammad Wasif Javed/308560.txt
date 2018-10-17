@@ -1,0 +1,10 @@
+
+	 			try {	//SELECT Query to Retrieved the Record.
+ 					String query = "SELECT * FROM Users WHERE Username = '" + txtUser.getText() + "'";
+
+ 					Statement st = con.createStatement ();		//Creating Statement Object.
+		 			ResultSet rs = st.executeQuery (query);		//Executing the Query.
+					rs.next();					//Moving Towards the Record.
+ 					user = rs.getString ("Username");		//Storing UserName.
+ 					pass = rs.getString ("Password");		//Storing Password.
+

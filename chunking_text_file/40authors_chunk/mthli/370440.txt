@@ -1,0 +1,10 @@
+package colorChooser;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * A panel with buttons to pop up three types of color choosers
+ */

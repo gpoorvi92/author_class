@@ -1,0 +1,10 @@
+		dispose ();		//Unloading the Window & Release the Memory Resources.
+
+	}
+
+	//Main Function of Program to Execute the Program.
+
+	public static void main (String args[]) {
+		
+		new Splash ();
+

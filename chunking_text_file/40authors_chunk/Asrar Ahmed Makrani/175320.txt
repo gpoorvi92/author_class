@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.*;
+
+public class General_Info extends JPanel implements General_Info_Interface, remark_Interface{
+    public Connection connection;
+     	public Icon userPic = new ImageIcon("default.gif");
+	 public JLabel pic = new JLabel();
+    

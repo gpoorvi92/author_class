@@ -1,0 +1,10 @@
+		this.classID = classID;
+	}
+	/**
+	 * @return the lessonID
+	 */
+	public int getLessonID() {
+		return lessonID;
+	}
+	/**
+	 * @param lessonID the lessonID to set

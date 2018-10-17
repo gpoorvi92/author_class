@@ -1,0 +1,10 @@
+
+		final float centerX = (CAMERA_WIDTH - this.mILove8BitTextureRegion.getWidth()) / 2;
+		final float centerY = (CAMERA_HEIGHT - this.mILove8BitTextureRegion.getHeight()) / 2;
+
+		final Sprite iLove8Bit = new Sprite(centerX, centerY, this.mILove8BitTextureRegion, this.getVertexBufferObjectManager());
+		scene.attachChild(iLove8Bit);
+
+		scene.registerTouchArea(iLove8Bit);
+		scene.setOnAreaTouchListener(new IOnAreaTouchListener() {
+			@Override

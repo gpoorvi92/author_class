@@ -1,0 +1,10 @@
+	
+	/**
+	 * time-off when step done.
+	 * 
+	 * @return
+	 */
+	public long timeOff() {
+		
+		lastExecuteTime = System.nanoTime() - executeTimer.get();
+		

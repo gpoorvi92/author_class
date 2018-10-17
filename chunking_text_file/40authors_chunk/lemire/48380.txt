@@ -1,0 +1,10 @@
+
+    /**
+     *
+     */
+    @Test
+    public void testOr() {
+        for (int N = 1; N < 10; ++N) {
+            System.out.println("testOr N = " + N);
+            Iterator<EWAHCompressedBitmap[]> i = getCollections(N,
+                    3);

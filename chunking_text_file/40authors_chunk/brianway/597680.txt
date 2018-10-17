@@ -1,0 +1,10 @@
+ */
+public class Run2_sleep {
+    public static void main(String[] args) {
+        Thread t1 = new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                System.out.println(Thread.currentThread().getName() + " begin sleep");
+                try {
+                    Thread.sleep(2000);

@@ -1,0 +1,10 @@
+
+package jpos.events;
+
+public class StatusUpdateEvent extends JposEvent
+{
+    public StatusUpdateEvent(Object source, int status)
+    {
+        super(source);
+
+        this.status = status;

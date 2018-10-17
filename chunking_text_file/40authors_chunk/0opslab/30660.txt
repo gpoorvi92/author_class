@@ -1,0 +1,10 @@
+        return m_delegate.hashCode();
+    }
+
+    /**
+     * 
+     */
+    public void mark(int readlimit) {
+        m_delegate.mark(readlimit);
+    }
+

@@ -1,0 +1,10 @@
+package dataExchange;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a menu whose File->Connect action shows a password dialog.
+ */
+public class DataExchangeFrame extends JFrame

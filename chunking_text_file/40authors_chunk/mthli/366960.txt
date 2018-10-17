@@ -1,0 +1,10 @@
+      if (to - from < THRESHOLD)
+      {
+         int count = 0;
+         for (int i = from; i < to; i++)
+         {
+            if (filter.accept(values[i])) count++;
+         }
+         return count;
+      }
+      else

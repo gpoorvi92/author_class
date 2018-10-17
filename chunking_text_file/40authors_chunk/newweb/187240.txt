@@ -1,0 +1,10 @@
+	private UserService userService;
+	
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response,
+			Object arg2) throws Exception {
+        response.setCharacterEncoding("UTF-8");  
+        response.setContentType("text/html;charset=UTF-8"); 
+        String url = request.getRequestURI();
+        String root = request.getContextPath();
+        url = url.replaceAll(root, "");

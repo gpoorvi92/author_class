@@ -1,0 +1,10 @@
+                dataManager.move(ctx.srcRepoId, ctx.srcDir, ctx.srcFn, ctx.dstRepoId, ctx.dstDir, ctx.isdir);
+            }
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+}
+
+public class CopyMoveDialog extends TaskDialog {
+    private DataManager dataManager;

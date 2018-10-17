@@ -1,0 +1,10 @@
+	private String pname;
+	private String pvalue;
+
+	/**
+	 * Default Constructor
+	 */
+	public TaskParamModel() {
+		super();
+	}
+

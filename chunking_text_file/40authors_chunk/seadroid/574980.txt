@@ -1,0 +1,10 @@
+    @Override
+    public void onListItemClick(final ListView l, final View v, final int position, final long id) {
+
+        final SeafStarredFile starredFile = (SeafStarredFile)adapter.getItem(position);
+        mActivity.onStarredFileSelected(starredFile);
+    }
+
+    private class LoadStarredFilesTask extends AsyncTask<Void, Void, List<SeafStarredFile> > {
+
+        SeafException err = null;

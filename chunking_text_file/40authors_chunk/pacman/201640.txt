@@ -1,0 +1,10 @@
+				
+				map 	= new HashMap<String, Object>();
+				MapMessage mm = ((MapMessage)message);
+				
+				@SuppressWarnings("rawtypes")
+				Enumeration en = mm.getMapNames();
+				while(en.hasMoreElements()) {
+					
+					String key = (String) en.nextElement();
+					map.put(key, mm.getObject(key));

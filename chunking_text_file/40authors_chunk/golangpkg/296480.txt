@@ -1,0 +1,10 @@
+		inputStream.skip(start);
+
+		// read file
+		byte[] b = new byte[Math.min((int) (length - start), inputStream.available())];
+		inputStream.read(b, 0, b.length);
+		inputStream.close();
+		testFileSplitResult.stream = new ByteArrayInputStream(b);
+
+		// get crc
+		CRC32 crc32 = new CRC32();

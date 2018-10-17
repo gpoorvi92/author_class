@@ -1,0 +1,10 @@
+        return new searchEng_resultTupleScheme();
+      }
+    }
+
+    private static class searchEng_resultTupleScheme extends TupleScheme<searchEng_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, searchEng_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();

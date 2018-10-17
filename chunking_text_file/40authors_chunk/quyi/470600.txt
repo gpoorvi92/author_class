@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class TSOperate {
+
+  /**
+   * 定义测评系统操作的服务，并指定服务名称
+   */
+  public interface Iface {

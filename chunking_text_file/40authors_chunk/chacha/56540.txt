@@ -1,0 +1,10 @@
+		QueryBuilder Query = QueryBuilder.start();
+		DBObject db = Query.put("userName").is(userName).get();
+		DBObject object = coll.findOne(db);
+		return object;
+	}
+
+	/**
+	 * 根据令牌获取LoginToken实体
+	 * @param token
+	 * @return

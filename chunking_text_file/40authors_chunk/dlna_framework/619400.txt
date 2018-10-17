@@ -1,0 +1,10 @@
+		this(serachTarget, SSDP.DEFAULT_MSEARCH_MX);
+	}
+	
+	public SSDPSearchRequest()
+	{
+		this(ST.ROOT_DEVICE);
+	}
+
+	////////////////////////////////////////////////
+	//	HOST

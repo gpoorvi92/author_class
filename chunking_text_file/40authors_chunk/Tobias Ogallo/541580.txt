@@ -1,0 +1,10 @@
+		getContentPane().add( panel2);
+		
+		pack();
+		setSize(300,100);
+		setVisible(true);
+		setLocation((screen.width - 500)/2,((screen.height-350)/2));
+		button1.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+		     
+			}

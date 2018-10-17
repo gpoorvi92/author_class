@@ -1,0 +1,10 @@
+*	01/31/03
+*		- first revision.
+*	05/21/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Description: inserted a check at the beginning of the setService method
+*		- Problem : If the EventSubURL does not start with a '/', the device could refuse event subscription
+*		- Error : it is not an error, but adding the '/' when missing allows the integration with the Intel devices
+*	09/02/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Problem : NullpointerException thrown for devices whose description use absolute urls

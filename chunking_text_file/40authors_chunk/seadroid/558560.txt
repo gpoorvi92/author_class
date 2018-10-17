@@ -1,0 +1,10 @@
+                Log.v("debug", "Access Denied");
+                return false;
+            }
+        }
+    };
+
+    private static List<File> getPhotosAbsolutePathList(String path) {
+
+        List<File> list = Lists.newArrayList();
+

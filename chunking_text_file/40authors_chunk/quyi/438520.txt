@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 定义调度优先级
+ * HIGHER
+ * HIGH
+ * MEDIUM
+ * LOW
+ * LOWER

@@ -1,0 +1,10 @@
+			if (current == null) {
+				msg.append("Extension at index " + i + " is null!\n");
+			} else if (current.indexOf('.') != -1) {
+				msg.append("Extension \"" + current + "\" contains a dot!\n");
+			}
+		}
+		if (msg.length() > 0) {
+			throw new IllegalArgumentException(msg.toString());
+		}
+	}

@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather.ui.adapter;
+
+import android.content.Context;
+import android.util.Pair;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Filter;
+import android.widget.Filterable;
+import android.widget.TextView;

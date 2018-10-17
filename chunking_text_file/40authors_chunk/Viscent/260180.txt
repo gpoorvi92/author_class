@@ -1,0 +1,10 @@
+			AtomicInteger fileCount = sectionFileCountMap.get(sectionName);
+			if (null != fileCount) {
+				fileCount.decrementAndGet();
+			}
+		}
+
+		private boolean removeSection(String sectionName) {
+			boolean result = true;
+			File dir = new File(storageBaseDir + "/" + sectionName);
+			for (File file : dir.listFiles()) {

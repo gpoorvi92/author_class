@@ -1,0 +1,10 @@
+
+    public void setItems(List<SearchedFile> data) {
+        this.items = data;
+    }
+
+    @Override
+    public int getCount() {
+        return items.size();
+    }
+

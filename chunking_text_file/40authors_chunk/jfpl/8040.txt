@@ -1,0 +1,4 @@
+		iv.setImageBitmap(bm);
+		return bm;
+	}
+}

@@ -1,0 +1,10 @@
+		this.parent = parent;
+	}
+	/**
+	 * 获取URL
+	 * 类型为View时为URL跳转地址，类型为Click时不为空则为业务接口地址。
+	 * */
+	public String getUrl() {
+		return url;
+	}
+	/**

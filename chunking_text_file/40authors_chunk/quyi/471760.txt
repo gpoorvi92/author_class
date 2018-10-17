@@ -1,0 +1,10 @@
+      private List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions;
+      private com.nercis.isscp.idl.StaticCheckResultData stcRD;
+      private com.nercis.isscp.idl.DynamicCheckResultData dycRD;
+      private com.nercis.isscp.idl.virus.VirusDetectionResultData virRD;
+      public updateAppStatus_call(String missionId, String userAppId, com.nercis.isscp.idl.AppStatus status, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.missionId = missionId;
+        this.userAppId = userAppId;
+        this.status = status;
+        this.usedPermissions = usedPermissions;

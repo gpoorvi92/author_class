@@ -1,0 +1,10 @@
+    private static class searchApp_resultTupleSchemeFactory implements SchemeFactory {
+      public searchApp_resultTupleScheme getScheme() {
+        return new searchApp_resultTupleScheme();
+      }
+    }
+
+    private static class searchApp_resultTupleScheme extends TupleScheme<searchApp_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, searchApp_result struct) throws org.apache.thrift.TException {

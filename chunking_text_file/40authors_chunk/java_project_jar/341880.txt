@@ -1,0 +1,10 @@
+            i$++;
+        } while(true);
+        return result;
+    }
+
+    public String toString()
+    {
+        StringBuilder builder = new StringBuilder();
+        builder.append(super.toString());
+        builder.append('{');

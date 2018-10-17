@@ -1,0 +1,10 @@
+ * 该类中封装了一个地图图元的信息，每个MyDrawable类是在地图上占有一个格子，
+ * 该类中包含图片引用，图片宽高，图片位置（row，col），定位点坐标，不可通过矩阵
+ * 以及是否可遇的标志位
+ */
+public class MyDrawable implements Externalizable{
+	private static final long serialVersionUID = 919144009679011682L;	
+	public Bitmap bmpSelf;//自己图片的引用
+	public int width;//图元的宽度
+	public int height;//图元的高度
+	public int col;//在大地图中所在的列

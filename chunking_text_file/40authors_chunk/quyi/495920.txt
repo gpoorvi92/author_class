@@ -1,0 +1,10 @@
+  public boolean isSetEngineIp() {
+    return this.engineIp != null;
+  }
+
+  public void setEngineIpIsSet(boolean value) {
+    if (!value) {
+      this.engineIp = null;
+    }
+  }
+

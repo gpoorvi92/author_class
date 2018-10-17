@@ -1,0 +1,10 @@
+        System.out.println("复制前:" + bean2);
+        BeanUtil.copyProperties(bean1, bean2, new PropertyFilter() {
+            @Override
+            public String Properties(String pro) {
+                return StringUtil.remove(pro, "_").toLowerCase().replaceAll("yy", "ty");
+            }
+        });
+        BeanUtil.copyPropertiesPeaceful(bean1, bean2, new PropertyFilter() {
+            @Override
+            public String Properties(String pro) {

@@ -1,0 +1,10 @@
+    public String getTitle() {
+        return path.substring(path.lastIndexOf('/') + 1);
+    }
+
+    @Override
+    public String getSubtitle() {
+        return Utils.readableFileSize(file.length());
+    }
+
+    @Override

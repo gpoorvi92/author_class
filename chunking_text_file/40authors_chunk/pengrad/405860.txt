@@ -1,0 +1,10 @@
+    public String toString() {
+        return "Sticker{" +
+                "file_id='" + file_id + '\'' +
+                ", width=" + width +
+                ", height=" + height +
+                ", thumb=" + thumb +
+                ", emoji='" + emoji + '\'' +
+                ", file_size=" + file_size +
+                '}';
+    }

@@ -1,0 +1,10 @@
+
+	private void assertState(StaticFileState state, boolean absolutePathOfUploadedFileFilled, Boolean fileComplete, String originalFileName,
+			Long fileSize,
+			Long completion) {
+		Assert.assertNotNull(state);
+		Assert.assertNotNull(state.getStaticFileStateJson());
+		if (absolutePathOfUploadedFileFilled) {
+			Assert.assertNotNull(state.getAbsoluteFullPathOfUploadedFile());
+		}
+		else {

@@ -1,0 +1,10 @@
+	 * @param model
+	 * @param modelMap
+	 * @param request
+	 * @param response
+	 * @return
+	 * @throws IOException 
+	 */
+	@RequestMapping(value="userManager.action")
+	public String userManager(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response) throws IOException{

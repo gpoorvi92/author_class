@@ -1,0 +1,10 @@
+                  for (int _i25 = 0; _i25 < _list24.size; ++_i25)
+                  {
+                    Map<String,com.nercis.isscp.idl.APICheck> _elem26;
+                    {
+                      org.apache.thrift.protocol.TMap _map27 = iprot.readMapBegin();
+                      _elem26 = new HashMap<String,com.nercis.isscp.idl.APICheck>(2*_map27.size);
+                      for (int _i28 = 0; _i28 < _map27.size; ++_i28)
+                      {
+                        String _key29;
+                        com.nercis.isscp.idl.APICheck _val30;

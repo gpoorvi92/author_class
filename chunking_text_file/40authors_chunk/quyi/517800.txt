@@ -1,0 +1,10 @@
+      public reportNodeManagerConfig_resultTupleScheme getScheme() {
+        return new reportNodeManagerConfig_resultTupleScheme();
+      }
+    }
+
+    private static class reportNodeManagerConfig_resultTupleScheme extends TupleScheme<reportNodeManagerConfig_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, reportNodeManagerConfig_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;

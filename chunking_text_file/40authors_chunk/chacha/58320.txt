@@ -1,0 +1,10 @@
+			SelectionKey sk=(SelectionKey)i.next();
+			i.remove();
+			SocketChannel sc=(SocketChannel)sk.channel();
+			if(!sk.isValid()||sc.socket().isClosed())
+				continue;
+			ChannelHelper ch=ChannelHelper.getInstance((SocketChannel)sk.channel(),false);
+			try{
+				int count=ch.read();
+				//客户端主动中断连接，关闭channel
+				if(count<0){

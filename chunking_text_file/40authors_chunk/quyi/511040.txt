@@ -1,0 +1,10 @@
+    public void read(org.apache.thrift.protocol.TProtocol prot, VirusDetectionResultData struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(6);
+      if (incoming.get(0)) {
+        struct.checkTime = iprot.readString();
+        struct.setCheckTimeIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.MD5 = iprot.readString();
+        struct.setMD5IsSet(true);

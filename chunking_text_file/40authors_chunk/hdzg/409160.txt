@@ -1,0 +1,10 @@
+				activity.isStartSound = true;
+				activity.isBackSound = true;
+				activity.isEnvironmentSound = true;
+				activity.isBattleSound = true;
+				activity.myHandler.sendEmptyMessage(7);
+			}
+			else if(x>300 && x<320 && y>440 && y<460){//µã»÷·ñ°´Å¥
+				activity.isStartSound = false;
+				activity.isBackSound = false;
+				activity.isEnvironmentSound = false;

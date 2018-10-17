@@ -1,0 +1,10 @@
+        addTask(account, cachedFile, localFile);
+    }
+
+    public void addTask(Account account, SeafCachedFile cachedFile, File localFile) {
+        AutoUpdateInfo info = new AutoUpdateInfo(account, cachedFile.repoID, cachedFile.repoName,
+                Utils.getParentPath(cachedFile.path), localFile.getPath());
+
+        synchronized (infos) {
+            if (infos.contains(info)) {
+                return;

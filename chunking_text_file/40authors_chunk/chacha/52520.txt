@@ -1,0 +1,10 @@
+			}
+		}
+		wcb.flip();
+		ByteBuffer wbb=utf8.encode(wcb);
+		return write(wbb);
+	}
+	private int write(ByteBuffer wbb) throws IOException {
+		return sc.write(wbb);
+	}
+}

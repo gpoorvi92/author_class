@@ -1,0 +1,10 @@
+	 * Removes the PropInfo to this list
+	 * @param propInfo the propInfo to remove
+	 */
+	public void remove( PropInfo propInfo );
+
+	/** Removes all PropInfo in this list */
+	public void removeAll();
+
+	/**
+	 * @return true if the PropInfo is already in the list

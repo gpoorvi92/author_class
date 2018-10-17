@@ -1,0 +1,10 @@
+        Arrays.fill(visited, false);
+        permuteRe(num, res, path,visited);
+        return res;
+    }
+    void permuteRe(int[] num, List<List<Integer>> res, List<Integer> path, boolean[] visited) {
+        if(path.size() == num.length) {
+            ArrayList<Integer> tmp = new ArrayList<Integer>(path);
+            res.add(tmp);
+            return;
+        }

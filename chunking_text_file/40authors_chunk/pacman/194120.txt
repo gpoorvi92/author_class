@@ -1,0 +1,10 @@
+	 * @return: T
+	 */
+	@SuppressWarnings("unchecked")
+	public <T> T getAttribute(String key, T defaultValue) {
+		
+		T t = defaultValue;
+		
+		if (storage != null && storage.containsKey(key)) {
+			
+			t = (T) storage.get(key);

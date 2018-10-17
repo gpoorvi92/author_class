@@ -1,0 +1,10 @@
+	public void shutdown() {
+		
+		//生产者线程停止后再停止消费者线程
+		producer.terminate(true);
+		consumer.terminate();
+	}
+
+	public void init() {
+		producer.start();
+		consumer.start();

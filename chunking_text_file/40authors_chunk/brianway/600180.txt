@@ -1,0 +1,10 @@
+        Thread0[] threads = new Thread0[10];
+        for (int i = 0; i < 10; i++) {
+            threads[i] = new Thread0(sdf, dateStringArray[i]);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            threads[i].start();
+        }
+    }
+}

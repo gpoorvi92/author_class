@@ -1,0 +1,10 @@
+		this.checkResult=checkResult;
+
+	}
+
+	public String getCheckResult() {
+		return checkResult;
+	}
+
+	public void setCheckResult(String checkResult) {
+		this.checkResult = checkResult;

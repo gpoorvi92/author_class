@@ -1,0 +1,10 @@
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
+
+public class FileWriterWithEncoding extends Writer
+{
+
+    public FileWriterWithEncoding(String filename, String encoding)
+        throws IOException
+    {
+        this(new File(filename), encoding, false);

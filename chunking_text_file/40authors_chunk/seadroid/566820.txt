@@ -1,0 +1,6 @@
+
+    @Override
+    public void onLoaderReset(Loader<List<SelectableFile>> loader) {
+        mFileListAdapter.clear();
+    }
+}

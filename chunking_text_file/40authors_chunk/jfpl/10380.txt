@@ -1,0 +1,10 @@
+		if (resultCode == ConstVariables.SEND_IMAGE_FLAG) {
+			ArrayList<String> imageList = intent
+					.getStringArrayListExtra("image_list");
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();
+			for (String imagePath : imageList) {
+				AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+				item.putStringValue("type", "1");
+				item.putStringValue("msg_type", "2");
+				item.putStringValue("image_path", imagePath);

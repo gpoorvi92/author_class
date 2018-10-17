@@ -1,0 +1,10 @@
+   */
+  public static CheckResultStatus findByValue(int value) { 
+    switch (value) {
+      case 0:
+        return received;
+      case 1:
+        return nonexec;
+      case 2:
+        return executing;
+      case 3:

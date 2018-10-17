@@ -1,0 +1,10 @@
+         System.out.println("Enter class name (e.g. java.util.Date): ");
+         name = in.next();
+      }
+
+      try
+      {
+         // print class name and superclass name (if != Object)
+         Class cl = Class.forName(name);
+         Class supercl = cl.getSuperclass();
+         String modifiers = Modifier.toString(cl.getModifiers());

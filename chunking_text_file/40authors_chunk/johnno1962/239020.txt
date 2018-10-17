@@ -1,0 +1,10 @@
+
+/// interface java.awt.LayoutManager ///
+
+package org.genie.java_awt;
+
+public class LayoutManagerProxy implements java.awt.LayoutManager {
+
+    long swiftObject;
+
+    LayoutManagerProxy( long swiftObject ) {

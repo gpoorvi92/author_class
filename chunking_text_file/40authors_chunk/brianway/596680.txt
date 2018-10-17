@@ -1,0 +1,10 @@
+        Thread threadA = new Thread(runnable);
+        threadA.setName("A");
+        threadA.start();
+        Thread.sleep(500);
+        Thread threadB = new Thread(runnable);
+        threadB.setName("B");
+        threadB.start();
+        threadB.interrupt();
+        System.out.println("main end");
+

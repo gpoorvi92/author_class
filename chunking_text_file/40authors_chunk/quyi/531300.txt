@@ -1,0 +1,10 @@
+      if (struct.isSetApp_size()) {
+        optionals.set(4);
+      }
+      if (struct.isSetMinsdkversion()) {
+        optionals.set(5);
+      }
+      if (struct.isSetApk_md5()) {
+        optionals.set(6);
+      }
+      if (struct.isSetNotify_callback_url()) {

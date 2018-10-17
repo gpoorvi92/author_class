@@ -1,0 +1,10 @@
+	public static Spanned stringToSpan(String src) {
+		return src == null ? null : Html.fromHtml(src.replace("\n", "<br />"));
+	}
+
+	public static String colorFont(String src, String color) {
+		StringBuffer strBuf = new StringBuffer();
+
+		strBuf.append("<font color=").append(color).append(">").append(src)
+				.append("</font>");
+		return strBuf.toString();

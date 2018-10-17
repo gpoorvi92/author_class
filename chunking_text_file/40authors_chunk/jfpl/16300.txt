@@ -1,0 +1,10 @@
+		super.onCreate(savedInstanceState, R.layout.wfxw_detail, "");
+		Intent intent = getIntent();
+		String wfxw = intent.getStringExtra("wfxw");
+		this.setTitle(wfxw);
+		String detail = intent.getStringExtra("detail");
+		try {
+			AbstractCommonData acd = DataConvertFactory.getInstanceByJson(detail);
+			acd.putStringValue("wfxw", wfxw);
+			fillData(acd);
+		} catch (InstanceDataException e) {

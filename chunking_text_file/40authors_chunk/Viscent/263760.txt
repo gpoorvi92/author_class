@@ -1,0 +1,10 @@
+		    final String userName, final String password) {
+			this.workQueue = new ArrayBlockingQueue<String>(100);
+			this.outputDir = outputDir + '/';
+
+			this.ftpClientPromise = new FutureTask<FTPClient>(
+			    new Callable<FTPClient>() {
+
+				    @Override
+				    public FTPClient call() throws Exception {
+					    FTPClient ftpClient = initFTPClient(ftpServer, userName, password);

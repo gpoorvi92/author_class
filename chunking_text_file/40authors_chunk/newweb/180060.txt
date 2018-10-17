@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean remove(Bxg bxg) {
+		return bxgDao.delete(bxg);
+	}
+
+	@Override
+	public Bxg findBxgByCondition(String name, double thickness,String norms,int brandID) {
+		return bxgDao.selectBxgByCondition(name,thickness,norms,brandID);

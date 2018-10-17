@@ -1,0 +1,10 @@
+		//printCat(c);
+		//printCat(c2);
+		//printCat(c3);
+		printAnimal(c);
+		printAnimal(c2);
+		printAnimal(c3);
+		System.out.println("-----------");
+
+		//我后来养了一只猪，请问我要写成一样的代码，该如何实现呢?
+		//A:先创建猪类继承自动物类

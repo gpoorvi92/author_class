@@ -1,0 +1,10 @@
+        return timeIntervalInMillis;
+    }
+    public Date getLastStart()
+    {
+        return lastStart;
+    }
+    public Date getLastStop()
+    {
+        return lastStop;
+    }

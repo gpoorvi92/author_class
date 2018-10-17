@@ -1,0 +1,10 @@
+
+	// 基本字符流一次一个字符数组
+	private static void method2(String srcString, String destString)
+			throws IOException {
+		FileReader fr = new FileReader(srcString);
+		FileWriter fw = new FileWriter(destString);
+
+		char[] chs = new char[1024];
+		int len = 0;
+		while ((len = fr.read(chs)) != -1) {

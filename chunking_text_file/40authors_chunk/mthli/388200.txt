@@ -1,0 +1,10 @@
+ * 1. 使用add方法可以将元素添加到数组列表中
+ * 2. 使用size方法可以获取数组列表中包含的实际元素项目
+ * 3. ...（可参见《Core Java Volumn I》183页
+ */
+public class ArrayListTest {
+    public static void main(String[] args) {
+        ArrayList<Employee> staff = new ArrayList<>();
+
+        staff.add(new Employee("Carl Cracker", 75000, 1987, 12, 15));
+        staff.add(new Employee("Harry Hacker", 50000, 1989, 10, 1));

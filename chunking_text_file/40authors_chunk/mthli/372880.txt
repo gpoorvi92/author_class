@@ -1,0 +1,5 @@
+
+      JTree tree = new JTree(root);
+      add(new JScrollPane(tree));
+   }
+}

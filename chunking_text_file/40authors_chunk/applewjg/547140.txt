@@ -1,0 +1,10 @@
+                    if (k == 1) dp[1][i][j] = (s1.charAt(i) == s2.charAt(j));
+                    for (int p = 1; p < k && !dp[k][i][j]; ++p) {
+                        if (dp[p][i][j] && dp[k-p][i+p][j+p] || dp[p][i][j+k-p] && dp[k-p][i+p][j])
+                            dp[k][i][j] = true;
+                    }
+                }
+            }
+        }
+        return dp[N][0][0];
+    }

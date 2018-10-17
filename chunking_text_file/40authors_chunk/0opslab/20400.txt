@@ -1,0 +1,8 @@
+        int height = originalImage.getHeight()/heightRatio;
+        BufferedImage newImage = new BufferedImage(width,height,originalImage.getType());
+        Graphics g = newImage.getGraphics();
+        g.drawImage(originalImage,0,0,width,height,null);
+        g.dispose();
+        return newImage;
+    }
+}

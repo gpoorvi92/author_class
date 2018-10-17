@@ -1,0 +1,10 @@
+/**
+ * Defines a property type
+ * @since 1.3 (SF 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface PropType
+{
+	/** @return a String representation of this PropType */
+	public String toString();
+

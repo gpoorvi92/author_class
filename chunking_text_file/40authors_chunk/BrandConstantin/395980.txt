@@ -1,0 +1,10 @@
+                    break;
+              case "domingo":
+              case "7":
+                    dia1 = 7;
+                    nombreDiaUno = "domingo";
+                    break;
+        }
+        
+        System.out.println("Introduce la segunda hora:");
+        hora2 = teclado.nextInt();

@@ -1,0 +1,10 @@
+package ipower.wechat.dao.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import ipower.wechat.dao.IWeChatDefaultReplyDao;
+import ipower.wechat.domain.WeChatDefaultReply;
+import ipower.wechat.modal.WeChatDefaultReplyInfo;
+

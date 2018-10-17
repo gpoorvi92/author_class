@@ -1,0 +1,10 @@
+		public final int id;
+
+		public Task(String message, int id) {
+			this.message = message;
+			this.id = id;
+		}
+	}
+
+	private static class SomeService extends AbstractSerializer<Task, String> {
+

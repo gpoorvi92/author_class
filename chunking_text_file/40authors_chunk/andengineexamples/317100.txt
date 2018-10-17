@@ -1,0 +1,10 @@
+				.setNegativeButton("No", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(final DialogInterface pDialog, final int pWhich) {
+						DigitalOnScreenControlExample.this.mDigitalOnScreenControl.setAllowDiagonal(false);
+					}
+				})
+				.create();
+		}
+		return super.onCreateDialog(pID);
+	}

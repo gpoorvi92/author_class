@@ -1,0 +1,10 @@
+            }
+        }
+        
+        if (primo){
+            System.out.println(i + "");
+        }
+    }
+    System.out.println();
+  }
+}

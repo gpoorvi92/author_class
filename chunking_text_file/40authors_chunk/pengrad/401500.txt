@@ -1,0 +1,10 @@
+    private String title;
+
+    private String thumb_url;
+    private Integer thumb_width;
+    private Integer thumb_height;
+
+    public InlineQueryResultLocation(String id, float latitude, float longitude, String title) {
+        super("location", id);
+        this.latitude = latitude;
+        this.longitude = longitude;

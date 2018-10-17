@@ -1,0 +1,10 @@
+
+	/** 
+	 * 1-arg ctor 
+	 * @param msg the exception's message
+	 */
+	public ProfileException( String msg ) { super( msg ); }
+
+	/** 
+	 * 2 args ctor 
+	 * @param msg the exception's message

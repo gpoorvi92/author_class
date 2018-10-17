@@ -1,0 +1,10 @@
+
+      lastComparison = Boolean.valueOf(isSetRules()).compareTo(other.isSetRules());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetRules()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.rules, other.rules);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }

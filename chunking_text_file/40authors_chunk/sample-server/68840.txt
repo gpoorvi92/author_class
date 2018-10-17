@@ -1,0 +1,10 @@
+            ChatServerRpc.AddSysNoticeReq.Builder reqBuilder = ChatServerRpc.AddSysNoticeReq.newBuilder();
+            reqBuilder.addSysNoticeDto(sysNotice.toDTO());
+            ChatServerRpc.AddSysNoticeReq req = reqBuilder.build();
+            if (sysNotice.getZoneId() == 0)
+            {
+                for (ChatServerRpcClient each : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.AddSysNoticeResp resp = each.addSysNotice(req);
+                    if (!resp.getSuccess())
+                    {

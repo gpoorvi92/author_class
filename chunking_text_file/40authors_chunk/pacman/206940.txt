@@ -1,0 +1,10 @@
+import com.yeshj.pacman.utils.FileHelper;
+
+/**
+ * @ClassName: WebResourceStepTest
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月5日 上午1:54:14
+ */
+public class ResourceStepTest {
+

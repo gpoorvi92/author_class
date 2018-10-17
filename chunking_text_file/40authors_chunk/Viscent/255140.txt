@@ -1,0 +1,10 @@
+				return result;
+			}
+		};
+
+		pipeline.addAsThreadPoolBasedPipe(pipe, executorSerivce);
+
+		pipe = new AbstractPipe<String, String>() {
+
+			@Override
+			protected String doProcess(String input) throws PipeException {

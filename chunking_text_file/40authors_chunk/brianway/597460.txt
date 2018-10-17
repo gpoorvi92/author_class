@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example10;
+
+/**
+ * Created by brian on 2016/4/13.
+ */
+
+/**
+ * P101
+ * 验证同步synchronized(class)代码块的作用
+ * 顺便验证了下static方法是不能复写的

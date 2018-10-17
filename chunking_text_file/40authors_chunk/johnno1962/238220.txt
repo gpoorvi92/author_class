@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.HierarchyBoundsAdapter.ancestorResized(java.awt.event.HierarchyEvent)
+
+    public native void __ancestorResized( java.awt.event.HierarchyEvent e );
+
+    boolean entered_ancestorResized_1;
+
+    public void ancestorResized( java.awt.event.HierarchyEvent e ) {
+        if ( !entered_ancestorResized_1 ) {

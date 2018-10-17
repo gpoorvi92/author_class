@@ -1,0 +1,10 @@
+      if (struct.isSetApk_md5()) {
+        oprot.writeString(struct.apk_md5);
+      }
+      if (struct.isSetNotify_callback_url()) {
+        oprot.writeString(struct.notify_callback_url);
+      }
+      if (struct.isSetApp_description()) {
+        oprot.writeString(struct.app_description);
+      }
+      if (struct.isSetRequestPurviews()) {

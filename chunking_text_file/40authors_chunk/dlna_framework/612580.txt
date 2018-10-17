@@ -1,0 +1,8 @@
+		int reqPort = HTTP.getPort(postURL);
+		
+		setHost(reqHost, reqPort);
+		setRequestHost(reqHost);
+		setRequestPort(reqPort);
+	}
+	
+}

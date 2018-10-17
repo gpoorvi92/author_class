@@ -1,0 +1,10 @@
+      chooser.setCurrentDirectory(new File("."));
+
+      // accept all files ending with .xml
+      chooser.setFileFilter(new javax.swing.filechooser.FileFilter()
+         {
+            public boolean accept(File f)
+            {
+               return f.getName().toLowerCase().endsWith(".xml") || f.isDirectory();
+            }
+

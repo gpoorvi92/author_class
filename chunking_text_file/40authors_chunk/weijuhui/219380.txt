@@ -1,0 +1,10 @@
+ * Calendar object and a format string and produce the appropriate TimeObject.
+ */
+class Util {
+    public static Calendar addYears(long time, int years) {
+        return add(time, years, Calendar.YEAR);
+    }
+
+    public static Calendar addMonths(long time, int months) {
+        return add(time, months, Calendar.MONTH);
+    }

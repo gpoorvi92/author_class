@@ -1,0 +1,10 @@
+     * Creates a new response delivery interface.
+     * @param handler {@link Handler} to post responses on
+     */
+    public ExecutorDelivery(final Handler handler) {
+        // Make an Executor that just wraps the handler.
+        mResponsePoster = new Executor() {
+            @Override
+            public void execute(Runnable command) {
+                handler.post(command);
+            }

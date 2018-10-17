@@ -1,0 +1,10 @@
+     * @return An indication of the percentage completed for the scan queue
+     * item.
+     */
+    byte getPercentageComplete();
+
+    /**
+     * This method returns the number of requests that have been made for the
+     * scan queue item.
+     *
+     * @return The number of requests that have been made for the scan queue

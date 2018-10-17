@@ -1,0 +1,10 @@
+      boolean that_present_operate = true && that.isSetOperate();
+      if (this_present_operate || that_present_operate) {
+        if (!(this_present_operate && that_present_operate))
+          return false;
+        if (!this.operate.equals(that.operate))
+          return false;
+      }
+
+      return true;
+    }

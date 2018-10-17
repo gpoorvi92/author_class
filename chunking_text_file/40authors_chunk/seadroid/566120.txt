@@ -1,0 +1,10 @@
+import java.util.concurrent.ConcurrentMap;
+
+/**
+ * Implementation of AppLock
+ */
+public class DefaultAppLock extends AbstractAppLock {
+    public static final String DEBUG_TAG = "DefaultAppLock";
+
+    private Application currentApp; //Keep a reference to the app that invoked the locker
+    private SettingsManager settingsMgr;

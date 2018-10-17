@@ -1,0 +1,10 @@
+
+   /**
+    * Constructs the bank.
+    * @param n the number of accounts
+    * @param initialBalance the initial balance for each account
+    */
+   public Bank(int n, double initialBalance)
+   {
+      accounts = new double[n];
+      for (int i = 0; i < accounts.length; i++)

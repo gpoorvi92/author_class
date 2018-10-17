@@ -1,0 +1,10 @@
+            try {
+                List<SeafStarredFile> starredFiles = dataManager.getStarredFiles();
+                return starredFiles;
+            } catch (SeafException e) {
+                err = e;
+                return null;
+            }
+
+        }
+

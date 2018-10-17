@@ -1,0 +1,10 @@
+    {
+        final Class<T> clazz;
+        final String   keyName;
+        AttributeKey(Class<T> clazz, String keyName)
+        {
+            this.clazz = clazz;
+            this.keyName = keyName;
+        }
+        public Class<T> getClazz()
+        {

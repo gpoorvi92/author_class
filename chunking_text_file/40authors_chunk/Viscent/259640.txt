@@ -1,0 +1,10 @@
+
+	@Override
+	public void shutdown(long timeout, TimeUnit unit) {
+		terminationToken.setIsToShutdown();
+
+		if (terminationToken.reservations.get() > 0) {
+			try {
+				if (stageProcessDoneLatch.getCount() > 0) {
+					stageProcessDoneLatch.await(timeout, unit);
+				}

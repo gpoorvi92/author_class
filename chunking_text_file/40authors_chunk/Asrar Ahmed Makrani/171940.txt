@@ -1,0 +1,8 @@
+	public String strings[] = { "1. Metal", "2. Motif", "3. Windows" };
+	public UIManager.LookAndFeelInfo looks[] = UIManager.getInstalledLookAndFeels();
+	public ButtonGroup group = new ButtonGroup();
+	public JRadioButtonMenuItem radio[] = new JRadioButtonMenuItem[ strings.length ];
+	public char mne[] ={ '1', '2', '3' };
+	public java.util.Date currentDate = new java.util.Date();
+	public SimpleDateFormat formatter = new SimpleDateFormat ("MMMM dd yyyy", Locale.getDefault());
+}

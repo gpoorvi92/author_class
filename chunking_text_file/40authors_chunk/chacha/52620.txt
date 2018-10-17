@@ -1,0 +1,10 @@
+	protected final LogPrn log = new LogPrn(getClass());
+	private AccountDAO acctDAO;
+	
+	
+	public AccountManageContextImpl() {
+		super();
+		acctDAO=new AccountDAO();
+	}
+
+

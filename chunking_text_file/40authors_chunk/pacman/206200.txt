@@ -1,0 +1,10 @@
+			String  acodec,
+			int 	bitrate_v,
+			int 	bitrate_a,
+			int 	sampling,
+			String 	videoSrc,
+			String	outputFile) throws InvalidMediaParameterException {
+		
+//		if (StringUtils.isEmpty(acodec)) {
+//			throw new InvalidMediaParameterException("Empty audio codec.");
+//		}

@@ -1,0 +1,10 @@
+    public void shouldFailWhenCantFindRemoteHost() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Please specify test1.remoteHost");
+        properties.remove("test1.remoteHost");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test
+    public void shouldFailWhenCantParseToIntLocalPort() {

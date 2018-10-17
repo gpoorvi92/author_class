@@ -1,0 +1,10 @@
+ * @version 1.33 2007-06-12
+ * @author Cay Horstmann
+ */
+public class ExceptTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()

@@ -1,0 +1,10 @@
+         });
+      setSelectedItem(selected);
+   }
+
+   public ListCellRenderer<Locale> getRenderer()
+   {
+      if (renderer == null)
+      {
+         @SuppressWarnings("unchecked") final ListCellRenderer<Object> originalRenderer 
+            = (ListCellRenderer<Object>) super.getRenderer();

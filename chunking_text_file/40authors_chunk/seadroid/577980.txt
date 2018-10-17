@@ -1,0 +1,10 @@
+        } else {
+            ImageLoader.getInstance().displayImage("drawable://" + item.getIcon(), viewHolder.icon, WidgetUtils.iconOptions);
+        }
+
+        return view;
+    }
+
+    private class Viewholder {
+        TextView title, subtitle;
+        ImageView icon, action;

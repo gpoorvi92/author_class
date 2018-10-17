@@ -1,0 +1,10 @@
+		ewahBitmap.serialize(new DataOutputStream(bos));
+		ByteBuffer bb = ByteBuffer.wrap(bos.toByteArray());
+		EWAHCompressedBitmap32 mapped = new EWAHCompressedBitmap32(bb);
+		Assert.assertEquals(mapped, ewahBitmap);
+		EWAHCompressedBitmap32 newmapped;
+		newmapped = mapped.clone();
+		Assert.assertEquals(newmapped, ewahBitmap);		
+	}
+	
+	@Test

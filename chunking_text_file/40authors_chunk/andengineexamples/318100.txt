@@ -1,0 +1,10 @@
+		this.updateText();
+	}
+
+	private void updateText() {
+		final String string = this.mEditText.getText().toString();
+		this.mText.setText(string);
+		
+		final float left = (this.mText.getWidth() * 0.5f) - (this.mText.getLineWidthMaximum() * 0.5f);
+		this.mLeft.setPosition(left, 0, left, TextBreakExample.CAMERA_HEIGHT);
+

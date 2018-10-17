@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import java.io.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
+
+/**
+ * 压缩文档相关的工具类

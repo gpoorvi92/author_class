@@ -1,0 +1,10 @@
+     * @param fromCharsetName 源文件的编码
+     * @param toCharsetName   要转换的编码
+     * @param filter          文件名过滤器
+     */
+    public static void convert(String fileName, String fromCharsetName, String toCharsetName, FilenameFilter filter) {
+        convert(new File(fileName), fromCharsetName, toCharsetName, filter);
+    }
+
+    /**
+     * 把指定文件或目录转换成指定的编码

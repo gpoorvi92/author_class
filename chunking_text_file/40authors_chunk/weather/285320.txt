@@ -1,0 +1,10 @@
+	public void setUrlName(String urlName){
+		this.urlName = urlName;
+	}
+	
+	public void run() {
+		try {
+			this.initializeDownload();
+			
+			this.delegate.didStartDownload(this);
+			

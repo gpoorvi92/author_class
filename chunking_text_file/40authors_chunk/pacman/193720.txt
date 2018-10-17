@@ -1,0 +1,10 @@
+ * @Class: MockStep1
+ * @author: zhangxinyu
+ * @date: 2014年12月25日 下午3:36:20
+ */
+public class MockStep1 extends StepBase {
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: execute
+	 * @param context

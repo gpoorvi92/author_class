@@ -1,0 +1,10 @@
+	 * 获取菜单类型。
+	 * @return 
+	 * 	菜单类型。
+	 * 1-Click，2-View
+	 * */
+	public Integer getType() {
+		return type;
+	}
+	/**
+	 * 设置菜单类型。

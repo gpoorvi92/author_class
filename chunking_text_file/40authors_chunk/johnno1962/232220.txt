@@ -1,0 +1,10 @@
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.Window.paint(java.awt.Graphics)
+
+    public native void __paint( java.awt.Graphics arg0 );
+
+    boolean entered_paint_0;
+

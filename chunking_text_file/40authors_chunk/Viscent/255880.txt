@@ -1,0 +1,10 @@
+
+	public AbstractSerializer(BlockingQueue<Runnable> workQueue,
+	    TaskProcessor<T, V> taskProcessor) {
+		workerThread = new TerminatableWorkerThread<T, V>(workQueue, taskProcessor);
+	}
+
+	/**
+	 * 留给子类实现。用于根据指定参数生成相应的任务实例。
+	 * 
+	 * @param params

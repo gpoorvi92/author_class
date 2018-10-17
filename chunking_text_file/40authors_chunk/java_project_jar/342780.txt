@@ -1,0 +1,10 @@
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+        return this;
+    }
+
+    public void write(int idx)
+        throws IOException

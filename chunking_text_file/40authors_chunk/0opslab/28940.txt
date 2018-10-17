@@ -1,0 +1,10 @@
+     */
+    public static String escape(String str, String encoding) throws UnsupportedEncodingException {
+        if (StringUtil.isEmpty(str)) {
+            return "";
+        }
+        char[] chars =ConvertUtil.bytesToChars(ConvertUtil.encodeBytes(str.getBytes(encoding), '%'));
+        return new String(chars);
+    }
+
+    /**

@@ -1,0 +1,10 @@
+          struct.sensitives = new ArrayList<String>(_list23.size);
+          for (int _i24 = 0; _i24 < _list23.size; ++_i24)
+          {
+            String _elem25;
+            _elem25 = iprot.readString();
+            struct.sensitives.add(_elem25);
+          }
+        }
+        struct.setSensitivesIsSet(true);
+      }

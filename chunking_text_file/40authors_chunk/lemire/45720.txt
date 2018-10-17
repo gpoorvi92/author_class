@@ -1,0 +1,10 @@
+     * in the array of words (embedded in the rlw attribute).
+     */
+    private int pointer;
+
+    /**
+     * The current running length word.
+     */
+    protected RunningLengthWord32 rlw;
+
+}

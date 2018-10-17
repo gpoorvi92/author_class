@@ -1,0 +1,10 @@
+import org.apache.http.protocol.HttpContext;
+
+class AsyncHttpRequest implements Runnable {
+    private final AbstractHttpClient client;
+    private final HttpContext context;
+    private final HttpUriRequest request;
+    private final AsyncHttpResponseHandler responseHandler;
+    private boolean isBinaryRequest;
+    private int executionCount;
+

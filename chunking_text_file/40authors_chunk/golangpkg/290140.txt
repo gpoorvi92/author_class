@@ -1,0 +1,10 @@
+
+	@Override
+	public void onFileUploadResumed(UUID clientId, UUID fileId) {
+
+	}
+
+
+	@Override
+	public void onAllFileUploadsPrepared(UUID identifier, Collection<UUID> fileIds) {
+

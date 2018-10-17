@@ -1,0 +1,10 @@
+
+    @Override
+    public int getDuration() {
+        if (mPlayIndex == null)
+            return 0;
+
+        return (int) mTotalDuration;
+    }
+
+    @Override

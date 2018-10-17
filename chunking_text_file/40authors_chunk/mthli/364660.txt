@@ -1,0 +1,10 @@
+/**
+ * @version 1.01 2012-01-28
+ * @author Cay Horstmann
+ */
+public class ScriptTest
+{
+   public static void main(final String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {

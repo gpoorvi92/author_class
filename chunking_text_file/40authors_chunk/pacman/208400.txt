@@ -1,0 +1,10 @@
+	public int getVideoBitrate() {
+		
+		if (gJNILoaded)
+			return nativeGetVideoBitrate();
+		else
+			return -1;
+	}
+
+	/**
+	 * @return the audioSamplingRate

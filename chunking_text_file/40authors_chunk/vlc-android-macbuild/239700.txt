@@ -1,0 +1,10 @@
+        for (Segment seg : mSegmentList) {
+            totalSize += seg.mBytes;
+            totalDuration += seg.mDuration;
+        }
+
+        if (totalDuration <= 0 || totalSize <= 0)
+            return mPseudoBitrate;
+
+        return totalSize * 8 / (totalDuration / 1000);
+    }

@@ -1,0 +1,10 @@
+    * @return the image
+    */
+   public BufferedImage makeMandelbrot(int width, int height)
+   {
+      BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+      WritableRaster raster = image.getRaster();
+      ColorModel model = image.getColorModel();
+
+      Color fractalColor = Color.red;
+      int argb = fractalColor.getRGB();

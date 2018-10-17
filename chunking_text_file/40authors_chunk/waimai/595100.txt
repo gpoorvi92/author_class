@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("management/admin/edit");
+        Admin admin = adminService.findById(id);
+        admin.setPassword(null);
+        modelAndView.addObject("admin", admin);
+        modelAndView.addObject("gender", Gender.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/update")
+    public ModelAndView update(Admin admin) {

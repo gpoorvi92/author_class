@@ -1,0 +1,10 @@
+package text;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with sample text components.
+ */
+public class TextComponentFrame extends JFrame

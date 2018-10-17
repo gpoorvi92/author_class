@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.merchant;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.domain.Goods;
+import cn.abovesky.shopping.domain.SaleCount;
+import cn.abovesky.shopping.service.IGoodsService;
+import cn.abovesky.shopping.service.ISaleCountService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;

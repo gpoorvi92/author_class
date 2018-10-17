@@ -1,0 +1,10 @@
+	}
+}
+
+//¿∫«ÚΩÃ¡∑
+class BasketBallCoach extends Coach {
+	public BasketBallCoach() {}
+
+	public BasketBallCoach(String name,int age) {
+		super(name,age);
+	}

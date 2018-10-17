@@ -1,0 +1,10 @@
+			Map<String,Object> map = new HashMap<String, Object>();
+			map.put("count", ob.getCount());
+			map.put("bxg", bxgService.findBxgByIdBindCut(ob.getBxg().getID(),order.getCustomer().getID(),orderID));
+			map.put("operation", ob.getOperation());
+			oblist.add(map);
+		}
+		return oblist;
+	}
+
+	@Override

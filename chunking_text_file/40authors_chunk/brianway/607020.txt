@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example1;
+
+/**
+ * Created by brian on 2016/4/15.
+ */
+
+/**
+ * P204
+ * 使用Condition实现等待通知，展示错误用法
+ * IllegalMonitorStateException，监视器出错

@@ -1,0 +1,10 @@
+    this.text = text;
+    id = count++;
+  }
+  public String toString() {
+    int len = text.length();
+    if (len > 25) len = 25;
+    return "[Document id: " + id + ": " + text.substring(0,len) + "...]";
+  }
+}
+

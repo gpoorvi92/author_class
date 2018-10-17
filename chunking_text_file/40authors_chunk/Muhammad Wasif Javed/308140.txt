@@ -1,0 +1,10 @@
+					String q = "DELETE FROM IssuedBooks WHERE BookId = " + id + "";
+					txtClear ();				//Clearing the TextFields.
+					ResultSet rs = st.executeQuery (q);	//Executing the Query.
+				}
+				catch (SQLException sqlex) {
+					JOptionPane.showMessageDialog (this, "Book has been Returned.");
+				}
+			}
+
+		}		

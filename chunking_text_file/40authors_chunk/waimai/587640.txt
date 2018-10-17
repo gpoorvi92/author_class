@@ -1,0 +1,10 @@
+            ex.printStackTrace();
+        }
+        return true;
+    }
+
+    public boolean compressPic(String input, String output, int width, int height, boolean gp) {
+        // 输入图路径
+        this.input = input;
+        // 输出图路径
+        this.output = output;

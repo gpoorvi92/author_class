@@ -1,0 +1,10 @@
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		new Thread(new SingleRecordInfoConsumer("D:\\批量下发统计.xls")).start();
+		//autoissueMessages("C:\\Users\\Administrator\\Desktop\\20160817信工所\\带毒-100\\带毒100.xls", 5, 5*60000, 100, 0);
+		autoissueMessages("C:\\Users\\Administrator\\Desktop\\20160817信工所\\无毒\\正常表格.xls", 10, 5*60000, 100, 0);
+
+	}

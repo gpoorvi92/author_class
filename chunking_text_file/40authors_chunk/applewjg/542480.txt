@@ -1,0 +1,10 @@
+        res.addAll(right);
+        return res;
+    }
+    public void preorderTraversalRe(TreeNode root, List<Integer> res) {
+        if (root == null) return;
+        res.add(root.val);
+        preorderTraversalRe(root.left, res);
+        preorderTraversalRe(root.right, res);
+    }
+    public List<Integer> preorderTraversal_2(TreeNode root) {

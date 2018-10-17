@@ -1,0 +1,10 @@
+    public static final String RS485_DEVICE_BUS = "RS485";
+
+    /** Property value for deviceBus for HID (or Human Inferface Device) */
+    public static final String HID_DEVICE_BUS = "HID";
+
+    /** Property value for deviceBus for proprietary buses */
+    public static final String PROPRIETARY_DEVICE_BUS = "Proprietary";
+
+    /** Property value for deviceBus for other "Unknown" buses */
+    public static final String UNKNOWN_DEVICE_BUS = "Unknown";

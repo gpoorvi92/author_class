@@ -1,0 +1,10 @@
+
+  }
+
+  private static class SoftwareTupleSchemeFactory implements SchemeFactory {
+    public SoftwareTupleScheme getScheme() {
+      return new SoftwareTupleScheme();
+    }
+  }
+
+  private static class SoftwareTupleScheme extends TupleScheme<Software> {

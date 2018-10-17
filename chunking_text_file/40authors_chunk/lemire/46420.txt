@@ -1,0 +1,10 @@
+            other.clear();
+            other.removeLastWord();
+            other.push_back(this, 0, this.sizeInWords());
+
+            this.buffer = tmp;
+            this.actualSizeInWords = tmp2;
+        }
+    }
+
+    /**

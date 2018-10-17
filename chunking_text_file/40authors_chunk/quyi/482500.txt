@@ -1,0 +1,10 @@
+     */
+    public com.nercis.isscp.idl.AppStatus getStatus() {
+      return this.status;
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.AppStatus
+     */
+    public updateAppStatus_args setStatus(com.nercis.isscp.idl.AppStatus status) {

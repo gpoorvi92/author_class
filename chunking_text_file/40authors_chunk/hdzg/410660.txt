@@ -1,0 +1,10 @@
+			}
+			else if(x>274 && x<304&& y>15 && y<45){//点击了关闭按钮
+				gameView.setStatus(0);
+			}
+			if(x>130 && x<190 && y>430 && y<460){//使用按钮
+				if(items.size() == 0){
+					return true;
+				}
+				Skill skill = items.get(selectI);
+				

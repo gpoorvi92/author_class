@@ -1,0 +1,10 @@
+        struct.nodeId = iprot.readString();
+        struct.setNodeIdIsSet(true);
+      }
+    }
+
+  }
+
+  public static class reportNodeManagerConfig_result implements org.apache.thrift.TBase<reportNodeManagerConfig_result, reportNodeManagerConfig_result._Fields>, java.io.Serializable, Cloneable, Comparable<reportNodeManagerConfig_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("reportNodeManagerConfig_result");
+

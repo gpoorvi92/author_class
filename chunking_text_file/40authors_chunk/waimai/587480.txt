@@ -1,0 +1,10 @@
+        try {
+            //获得源文件
+            file = new File(input);
+            if (!file.exists()) {
+                return false;
+            }
+            Image img = ImageIO.read(file);
+            // 判断图片格式是否正确
+            if (img.getWidth(null) == -1) {
+                return false;

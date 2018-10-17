@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("requestPurviews:");
+    if (this.requestPurviews == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.requestPurviews);
+    }
+    first = false;

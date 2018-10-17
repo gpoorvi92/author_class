@@ -1,0 +1,10 @@
+		return "Chocolate";
+
+	}
+
+	private final ColorUIResource primary1 = new ColorUIResource (87, 87, 47);
+	private final ColorUIResource primary2 = new ColorUIResource (145, 100, 70);
+	private final ColorUIResource primary3 = new ColorUIResource (135, 90, 60);
+	private final ColorUIResource secondary1 = new ColorUIResource (111, 111, 111);
+	private final ColorUIResource secondary2 = new ColorUIResource (159, 159, 159);
+	private final ColorUIResource secondary3 = new ColorUIResource (200, 160, 100);

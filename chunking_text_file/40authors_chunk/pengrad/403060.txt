@@ -1,0 +1,10 @@
+
+    public InlineQueryResultArticle(String id, String title, InputMessageContent inputMessageContent) {
+        super("article", id);
+        this.title = title;
+        inputMessageContent(inputMessageContent);
+    }
+
+    public InlineQueryResultArticle url(String url) {
+        this.url = url;
+        return this;

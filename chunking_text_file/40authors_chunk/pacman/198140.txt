@@ -1,0 +1,10 @@
+ * 
+ * @Class: BaseCommand
+ * @author: zhangxinyu
+ * @date: 2014年12月18日 下午6:20:15
+ */
+public abstract class BaseMessage {
+
+	@Transmit(key = "id")
+	private int commandId;
+	@Transmit(key = "free")

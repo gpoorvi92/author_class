@@ -1,0 +1,10 @@
+		getContentPane().add(scrollPane);
+		
+		jta_disMess = new JTextArea();
+		scrollPane.setViewportView(jta_disMess);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(258, 65, 157, 191);
+		scrollPane_1.setBorder(BorderFactory.createTitledBorder("在线用户"));
+		getContentPane().add(scrollPane_1);
+		

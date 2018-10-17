@@ -1,0 +1,7 @@
+		return downloadWorker;
+	}
+
+	public void setDownloadWorker(DownloaderWorker downloadWorker) {
+		this.downloadWorker = downloadWorker;
+	}
+}

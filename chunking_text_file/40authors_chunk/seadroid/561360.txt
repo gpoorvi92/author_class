@@ -1,0 +1,10 @@
+import com.actionbarsherlock.view.Window;
+import com.seafile.seadroid2.R;
+import com.seafile.seadroid2.ui.fragment.SettingsPreferenceFragment;
+
+public class SettingsActivity extends SherlockFragmentActivity {
+    private static final String DEBUG_TAG = "SettingsActivity";
+
+    public void onCreate(Bundle savedInstanceState) {
+        Log.d(DEBUG_TAG, "SettingsActivity.onCreate is called");
+        super.onCreate(savedInstanceState);

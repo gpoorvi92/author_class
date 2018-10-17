@@ -1,0 +1,10 @@
+	}
+
+	public static void autoSearchMission(String filePath) {
+		List<String> userAppIdList = new ArrayList<String>();
+		Set<String> userAppIdSet = new HashSet<String>();
+		userAppIdSet = new ReadExcel().getColumnInfoSet(1, filePath, 0);
+		Iterator<String> iterator = userAppIdSet.iterator();
+		while (iterator.hasNext()) {
+			String userAppId = iterator.next();
+			userAppIdList.add(userAppId);

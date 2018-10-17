@@ -1,0 +1,10 @@
+        return (account.getSignature() == tt.account.getSignature() || (account.getSignature() != null && account.getSignature().equals(tt.account.getSignature())))
+                && (repoID == tt.repoID || (repoID != null && repoID.equals(tt.repoID)))
+                && (path == tt.path || (path != null && path.equals(tt.path)));
+    }
+
+    @Override
+    public String toString() {
+        return "email " + account.getEmail() + " server " + account.getServer() + " taskID " + taskID + " repoID " + repoID +
+                " repoName " + repoName + " path " + path;
+    }

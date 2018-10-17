@@ -1,0 +1,10 @@
+ */
+import java.awt.Component;
+
+/**
+ * This interface is used to provide extensions with an instance of Burp's HTTP
+ * message editor, for the extension to use in its own UI. Extensions should
+ * call
+ * <code>IBurpExtenderCallbacks.createMessageEditor()</code> to obtain an
+ * instance of this interface.
+ */

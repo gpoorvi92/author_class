@@ -1,0 +1,10 @@
+
+		uploadProcessingOperationManager.startOperation(clientId, fileId2);
+
+		Assert.assertThat(uploadProcessingOperationManager.clientsAndRequestsProcessingOperation.containsKey(clientId), CoreMatchers.is(true));
+		Assert.assertThat(clientToFilesMap.get(clientId).contains(fileId), CoreMatchers.is(true));
+		Assert.assertThat(clientToFilesMap.get(clientId).contains(fileId2), CoreMatchers.is(true));
+
+		uploadProcessingOperationManager.stopOperation(clientId, fileId2);
+
+		Assert.assertThat(uploadProcessingOperationManager.clientsAndRequestsProcessingOperation.containsKey(clientId), CoreMatchers.is(true));

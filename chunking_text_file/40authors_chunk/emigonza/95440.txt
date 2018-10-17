@@ -1,0 +1,10 @@
+
+public interface MSRService110
+  extends MSRService19
+{
+  // Capabilities
+  public int     getCapWritableTracks()
+                     throws JposException;
+
+  // Properties
+  public int     getEncodingMaxLength()

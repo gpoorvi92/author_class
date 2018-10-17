@@ -1,0 +1,10 @@
+                        s = str_tok.sval;
+                        break;
+                    case StreamTokenizer.TT_NUMBER:
+                        s = "" + (int) str_tok.nval; // .toString(); // we will ignore this
+
+                        break;
+                    default :
+                        s = String.valueOf((char) str_tok.ttype);
+                }
+                if (s.length() < 1)

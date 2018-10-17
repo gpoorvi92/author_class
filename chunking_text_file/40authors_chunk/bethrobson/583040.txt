@@ -1,0 +1,10 @@
+           String dayOfWeek = (new SimpleDateFormat("EEEE")).format(date);
+           outputLabel.setText(dayOfWeek);
+           
+               
+      }
+    }
+       
+}
+         
+       

@@ -1,0 +1,10 @@
+
+package jpos.events;
+
+public class DataEvent extends JposEvent
+{
+    public DataEvent(Object source, int status)
+    {
+        super(source);
+
+        this.status = status;

@@ -1,0 +1,10 @@
+        this.getContentPane().add(jLabel3, null);
+        this.getContentPane().add(jLabel4, null);
+        this.getContentPane().add(jLabel5, null);
+        this.getContentPane().setBackground(Color.white);
+    }
+
+    void do_run_button(MouseEvent e) throws InterruptedException {
+        Graphics g1 = inputPanel.getGraphics();
+        Graphics g2 = hiddenPanel.getGraphics();
+        Graphics g3 = outputPanel.getGraphics();

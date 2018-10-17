@@ -1,0 +1,10 @@
+        return changeCharset(str, US_ASCII);
+    }
+
+    /**
+     * 将字符编码转换成ISO-8859-1码
+     */
+    public final static String toISO_8859_1(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, ISO_8859_1);
+    }
+

@@ -1,0 +1,10 @@
+}
+
+class OptionDisplay extends JPanel {
+	
+	GeneralPanel generalPanel;
+	
+	OptionDialog dialog;
+	public OptionDisplay(OptionDialog dialog)
+	{	
+		this.dialog = dialog;

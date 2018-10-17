@@ -1,0 +1,7 @@
+		if (gJNILoaded) {
+			
+			return decode(src, dest) == 0;
+		}
+		return false;
+	}
+}

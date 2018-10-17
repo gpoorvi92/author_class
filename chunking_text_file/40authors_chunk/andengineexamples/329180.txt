@@ -1,0 +1,10 @@
+			public void onUpdate(final float pSecondsElapsed) {
+				switch (PVRGZTextureExample.this.mZoomState) {
+					case IN:
+						this.setZoomFactor(this.getZoomFactor() + 0.1f * pSecondsElapsed);
+						break;
+					case OUT:
+						this.setZoomFactor(this.getZoomFactor() - 0.1f * pSecondsElapsed);
+						break;
+				}
+				super.onUpdate(pSecondsElapsed);

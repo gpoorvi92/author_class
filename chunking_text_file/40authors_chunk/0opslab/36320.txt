@@ -1,0 +1,10 @@
+   * @param delegate
+   *          another stream that will receive any write that is done on this
+   *          instance.
+   */
+  public void addOutputStream(final OutputStream delegate) {
+    this.m_delegates.add(delegate);
+  }
+
+  /**
+   * Removes the given output stream from the list of delegates multiplexed to.

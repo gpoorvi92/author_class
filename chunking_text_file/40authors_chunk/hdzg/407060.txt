@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+	
+	public void surfaceChanged(SurfaceHolder holder, int format, int width,
+			int height) {
+        this.drawThread.setFlag(true);
+        this.drawThread.start();
+	}
+

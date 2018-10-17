@@ -1,0 +1,10 @@
+     * Sets this tracer ON or OFF
+     * @param b the boolean parameter
+     * @since 1.2 (NY 2K meeting)
+     */
+    public void setOn( boolean b ) { tracerOn = b; }
+
+    /**
+     * @return true if the tracer is ON (i.e. enabled)
+     * @since 1.2 (NY 2K meeting)
+     */

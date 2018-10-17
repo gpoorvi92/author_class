@@ -1,0 +1,10 @@
+import com.qihigh.chinaweather.UIManager;
+import com.qihigh.chinaweather.model.WeeklyItemWeather;
+import com.qihigh.chinaweather.model.WeeklyWeather;
+import com.qihigh.chinaweather.provider.CityChangeWatcher;
+import com.qihigh.chinaweather.provider.WeeklyProvider;
+import com.qihigh.chinaweather.ui.adapter.WeeklyAdapter;
+import com.weico.core.provider.DataConsumer;
+import com.weico.core.provider.DataProvider;
+
+import java.util.ArrayList;

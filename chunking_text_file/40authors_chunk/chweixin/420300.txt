@@ -1,0 +1,10 @@
+import com.thoughtworks.xstream.core.util.QuickWriter;
+import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
+import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
+import com.thoughtworks.xstream.io.xml.XppDriver;
+
+/**
+ * 消息工具类。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */

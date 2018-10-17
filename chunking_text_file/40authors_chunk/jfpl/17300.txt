@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onUnbind(Context context, int errorCode, String requestId) {
+		if (errorCode == 0) {
+			setBind(context, false, null);
+		}
+	}
+
+	public static boolean hasBind(Context context) {

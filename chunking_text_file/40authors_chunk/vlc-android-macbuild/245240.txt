@@ -1,0 +1,10 @@
+        if (BuildHelper.isApi16_JellyBeanOrLater()) {
+            view.requestFitSystemWindows();
+        }
+    }
+
+    public static String getVisibilityVerbose(int visibility) {
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.valueOf(visibility));
+        sb.append(':');
+

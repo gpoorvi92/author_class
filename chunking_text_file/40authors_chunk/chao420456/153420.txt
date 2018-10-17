@@ -1,0 +1,10 @@
+ * public void seek(long pos):设置到此文件开头测量到的文件指针偏移量，在该位置发生下一个读取或写入操作。
+ */
+public class RandomAccessFileDemo {
+	public static void main(String[] args) throws IOException {
+		write();
+		read();
+	}
+
+	private static void read() throws IOException {
+		// 创建对象

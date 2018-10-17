@@ -1,0 +1,10 @@
+         catch (IOException e)
+         {
+            JOptionPane.showMessageDialog(null, e);
+         }
+      }
+   }
+
+   public void save()
+   {
+      if (chooser.showSaveDialog(null) == JFileChooser.APPROVE_OPTION)

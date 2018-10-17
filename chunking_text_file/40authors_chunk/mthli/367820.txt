@@ -1,0 +1,10 @@
+      /**
+       * Constructs a color action.
+       * @param name the name to show on the button
+       * @param icon the icon to display on the button
+       * @param c the background color
+       */
+      public ColorAction(String name, Icon icon, Color c)
+      {
+         putValue(Action.NAME, name);
+         putValue(Action.SMALL_ICON, icon);

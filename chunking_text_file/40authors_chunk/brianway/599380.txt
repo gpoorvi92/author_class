@@ -1,0 +1,10 @@
+                synchronized (b) {
+                    System.out.println("A begin timer=" + System.currentTimeMillis() + " threadName=" + Thread.currentThread().getName());
+                    Thread.sleep(3000);
+                    System.out.println("A end   timer=" + System.currentTimeMillis() + " threadName=" + Thread.currentThread().getName());
+                }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }

@@ -1,0 +1,10 @@
+    @Override
+    public int hashCode() {
+        return result_id != null ? result_id.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "ChosenInlineResult{" +
+                "result_id='" + result_id + '\'' +
+                ", from=" + from +

@@ -1,0 +1,10 @@
+     * @return
+     */
+    public static boolean isWiFiUsed(Context context) {
+        NetworkInfo netInfo = getNetworInfoInstance(context);
+        boolean cIsNetWorkAvailable = isNetworkAvailable(netInfo);
+        return cIsNetWorkAvailable ? ConnectivityManager.TYPE_WIFI == netInfo.getType() : false;
+    }
+
+
+    /**

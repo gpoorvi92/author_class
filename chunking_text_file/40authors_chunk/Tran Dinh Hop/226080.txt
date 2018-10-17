@@ -1,0 +1,10 @@
+		for(int i=0; i<ba.length; i++){
+			 sb.append("["+ba[i]+"]");
+		}
+		
+		return sb.toString();
+	}
+
+	public void run()
+	{
+		try

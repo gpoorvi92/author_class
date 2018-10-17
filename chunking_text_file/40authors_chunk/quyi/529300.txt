@@ -1,0 +1,10 @@
+  public void setApp_nameIsSet(boolean value) {
+    if (!value) {
+      this.app_name = null;
+    }
+  }
+
+  public String getVersioncode() {
+    return this.versioncode;
+  }
+

@@ -1,0 +1,10 @@
+package tv.danmaku.media;
+
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+import tv.danmaku.media.resource.VodIndex;
+
+public class MediaResource implements Parcelable {
+    private static final String BUNDLE_HIGH_QUAL_GROUP = "high_qual_group";
+    private static final String BUNDLE_LOW_QUAL_GROUP = "low_qual_group";

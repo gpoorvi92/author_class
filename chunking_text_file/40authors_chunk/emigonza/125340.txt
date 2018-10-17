@@ -1,0 +1,10 @@
+//     PWR_SUE_BAT_CAPACITY_REMAINING
+//     PWR_SUE_RESTART
+//     PWR_SUE_STANDBY
+//     PWR_SUE_USER_STANDBY
+//     PWR_SUE_SUSPEND
+//     PWR_SUE_USER_SUSPEND
+//     PWR_SUE_PWR_SOURCE
+//
+/////////////////////////////////////////////////////////////////////
+

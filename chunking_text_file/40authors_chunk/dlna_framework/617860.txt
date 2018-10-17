@@ -1,0 +1,10 @@
+	public SOAPRequest()
+	{
+		setContentType(SOAP.CONTENT_TYPE);
+		setMethod(HTTP.POST);
+	}
+
+	public SOAPRequest(HTTPRequest httpReq)
+	{
+		set(httpReq);
+	}

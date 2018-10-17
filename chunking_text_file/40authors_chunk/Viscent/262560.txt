@@ -1,0 +1,10 @@
+			file = new File(baseDir + '/' + recordDay + "/subspsync-gw-"
+			    + FILE_INDEX_FORMATTER.format(targetFileIndex) + ".dat");
+			printWriterMap.remove(fileKey);
+		}
+		return file;
+	}
+
+	public static void backupFile(final File file) {
+		String recordDay = file.getParentFile().getName();
+		File destFile = new File(baseDir + "/backup/" + recordDay);

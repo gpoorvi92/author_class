@@ -1,0 +1,10 @@
+	 * update.
+	 * 
+	 * @param task
+	 * @param map
+	 */
+	void update(int pk, Map<String, Object> map);
+	
+	/**
+	 * finds the model by primary key.
+	 * 

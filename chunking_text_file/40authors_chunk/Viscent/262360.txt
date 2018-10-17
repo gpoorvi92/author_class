@@ -1,0 +1,10 @@
+
+	//私有构造器
+	private RecordWriter() {
+		baseDir = System.getProperty("user.home") + "/tmp/subspsync/";
+
+	}
+
+	public static RecordWriter getInstance() {
+		return INSTANCE;
+	}

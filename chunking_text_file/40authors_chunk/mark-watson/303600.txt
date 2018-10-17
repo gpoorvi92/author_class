@@ -1,0 +1,10 @@
+                    String o = strings.get(i);
+                    strings.set(i, strings.get(j));
+                    strings.set(j, o);
+                }
+            }
+        }
+    }
+
+    /**
+     * Determing the number of values in a scored list

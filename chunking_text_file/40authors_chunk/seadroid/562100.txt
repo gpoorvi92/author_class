@@ -1,0 +1,6 @@
+
+    @Override
+    public String toString() {
+        return new StringBuilder("VideoObject").append(mId).toString();
+    }
+}

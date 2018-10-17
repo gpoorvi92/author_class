@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField PID_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("pidName", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField SOURCE_ADDRESS_FIELD_DESC = new org.apache.thrift.protocol.TField("sourceAddress", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField SOURCE_PORT_FIELD_DESC = new org.apache.thrift.protocol.TField("sourcePort", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField TARGET_ADDRESS_FIELD_DESC = new org.apache.thrift.protocol.TField("targetAddress", org.apache.thrift.protocol.TType.STRING, (short)4);
+  private static final org.apache.thrift.protocol.TField TARGET_PORT_FIELD_DESC = new org.apache.thrift.protocol.TField("targetPort", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField PROTOCAL_FIELD_DESC = new org.apache.thrift.protocol.TField("protocal", org.apache.thrift.protocol.TType.STRING, (short)6);
+  private static final org.apache.thrift.protocol.TField DATA_HEX_FIELD_DESC = new org.apache.thrift.protocol.TField("dataHex", org.apache.thrift.protocol.TType.STRING, (short)7);
+  private static final org.apache.thrift.protocol.TField DATA_CHAR_FIELD_DESC = new org.apache.thrift.protocol.TField("dataChar", org.apache.thrift.protocol.TType.STRING, (short)8);
+  private static final org.apache.thrift.protocol.TField DATA_LENGTH_FIELD_DESC = new org.apache.thrift.protocol.TField("dataLength", org.apache.thrift.protocol.TType.STRING, (short)9);
+  private static final org.apache.thrift.protocol.TField OPERATE_TIME_FIELD_DESC = new org.apache.thrift.protocol.TField("operateTime", org.apache.thrift.protocol.TType.STRING, (short)10);

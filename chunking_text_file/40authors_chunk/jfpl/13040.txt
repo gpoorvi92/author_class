@@ -1,0 +1,10 @@
+			startActivity(intent);
+		}
+	}
+
+	@Override
+	protected void handleListItem(View v, int position) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		String uncheckNum = acd.getStringValue("nocheck_num");
+		if ("0".equals(uncheckNum)) {
+			v.findViewById(R.id.nocheck_num).setVisibility(View.GONE);

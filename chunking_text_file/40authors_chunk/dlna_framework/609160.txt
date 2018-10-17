@@ -1,0 +1,10 @@
+		String eventSubURL = service.getEventSubURL();
+		
+		// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (05/21/03)
+		setURI(eventSubURL, true);
+
+		String urlBaseStr = "";
+		Device dev = service.getDevice();
+		if (dev != null)
+			urlBaseStr = dev.getURLBase();
+		

@@ -1,0 +1,10 @@
+		String extraInfo = alarmInfo.getExtraInfo();
+
+		if (terminationToken.isToShutdown()) {
+			// 记录告警信息
+			System.err.println("rejected alarm:" + id + "," + extraInfo);
+			return -1;
+		}
+
+		int duplicateSubmissionCount = 0;
+		try {

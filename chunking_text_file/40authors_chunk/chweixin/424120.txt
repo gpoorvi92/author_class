@@ -1,0 +1,10 @@
+		//
+		subscribeEventMessage.setEventKey(data.get("EventKey"));
+		subscribeEventMessage.setTicket(data.get("Ticket"));
+		
+		return subscribeEventMessage;
+	}
+	/**
+	 * 用户已关注时的事件推送消息解析成已关注对象。
+	 * @param data
+	 * 	事件消息数据。

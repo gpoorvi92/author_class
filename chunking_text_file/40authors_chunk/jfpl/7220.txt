@@ -1,0 +1,10 @@
+import com.cyss.android.lib.annotation.InjectionView;
+import com.jufan.platform.util.ConstVariables;
+import com.jufan.platform.view.CustomMyLocationOverlay;
+import com.jufan.platform.view.CustomOverlayInterface;
+import com.jufan.platform.view.LocationNearbyOverlay;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+
+public class LocationPickerActivity extends AutoActivity implements
+		BDLocationListener, CustomOverlayInterface {

@@ -1,0 +1,10 @@
+        int width = bi.getWidth();
+        int height = bi.getHeight();
+        int minx = bi.getMinX();
+        int miny = bi.getMinY();
+        String[][] list = new String[width][height];
+        for (int i = minx; i < width; i++) {
+            for (int j = miny; j < height; j++) {
+                int pixel = bi.getRGB(i, j);
+                rgb[0] = (pixel & 0xff0000) >> 16;
+                rgb[1] = (pixel & 0xff00) >> 8;

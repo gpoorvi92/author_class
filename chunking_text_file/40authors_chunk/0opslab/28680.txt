@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testcountSubStrReg() {
+        String str1 = "192是本地址";
+        assertEquals(1, RegUtil.countSubStrReg(str1, "\\d{3}"));
+    }
+
+    @Test
+    public void testisEmail() {

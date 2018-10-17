@@ -1,0 +1,10 @@
+      selectionMenu.add(cellsItem);
+
+      JMenu tableMenu = new JMenu("Edit");
+      menuBar.add(tableMenu);
+
+      JMenuItem hideColumnsItem = new JMenuItem("Hide Columns");
+      hideColumnsItem.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent event)
+         {

@@ -1,0 +1,10 @@
+        ImageCaptcha.CHAR = CHAR;
+    }
+
+    public static int getWidth() {
+        return width;
+    }
+
+    public static void setWidth(int width) {
+        ImageCaptcha.width = width;
+    }

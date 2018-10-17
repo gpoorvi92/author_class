@@ -1,0 +1,10 @@
+
+	private static final float AUTOWRAP_WIDTH = 720 - 50 - 50;
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private EditText mEditText;
+
+	private Font mFont;

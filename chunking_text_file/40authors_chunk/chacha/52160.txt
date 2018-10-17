@@ -1,0 +1,10 @@
+	@Test
+	public void insertTest(){
+		System.out.println("insertTest");
+		DBCollection coll=db.getCollection("test");
+		BasicDBObject doc=new BasicDBObject();
+		doc.put("name", "MongoDB");
+		doc.put("type", "database");
+		doc.put("count", 1);
+		BasicDBObject info=new BasicDBObject();
+		info.put("x",200);

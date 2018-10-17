@@ -1,0 +1,10 @@
+        LocalBroadcastManager.getInstance(SeadroidApplication.getAppContext()).sendBroadcast(localIntent);
+    }
+
+    @Override
+    public void onFileDownloadFailed(int taskID) {
+        remove(taskID);
+        doNext();
+        Intent localIntent = new Intent(BROADCAST_ACTION).putExtra("type",
+                BROADCAST_FILE_DOWNLOAD_FAILED).putExtra("taskID", taskID);
+        LocalBroadcastManager.getInstance(SeadroidApplication.getAppContext()).sendBroadcast(localIntent);

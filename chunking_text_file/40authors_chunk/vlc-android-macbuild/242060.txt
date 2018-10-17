@@ -1,0 +1,10 @@
+    public void onPrepared(MediaPlayer mp) {
+        if (mOnPreparedListener != null) {
+            mOnPreparedListener.onPrepared(this);
+        }
+    }
+
+    @Override
+    public void onSeekComplete(MediaPlayer mp) {
+        if (mOnSeekCompleteListener != null) {
+            mOnSeekCompleteListener.onSeekComplete(this);

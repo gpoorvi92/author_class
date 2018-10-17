@@ -1,0 +1,10 @@
+     *
+     * @param attack An
+     * <code>IIntruderAttack</code> object that can be queried to obtain details
+     * about the attack in which the payload generator will be used.
+     * @return A new instance of
+     * <code>IIntruderPayloadGenerator</code> that will be used to generate
+     * payloads for the attack.
+     */
+    IIntruderPayloadGenerator createNewInstance(IIntruderAttack attack);
+}

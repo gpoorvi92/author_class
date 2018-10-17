@@ -1,0 +1,10 @@
+
+/// interface com.apple.eawt.AppForegroundListener ///
+
+package org.genie.com_apple;
+
+public class AppForegroundListenerProxy implements com.apple.eawt.AppForegroundListener {
+
+    long swiftObject;
+
+    AppForegroundListenerProxy( long swiftObject ) {

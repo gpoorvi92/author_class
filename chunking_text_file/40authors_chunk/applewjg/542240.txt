@@ -1,0 +1,10 @@
+            if (cur != null) {
+                stk.push(cur);
+                cur = cur.left;
+            } else {
+                cur = stk.pop();
+                res.add(cur.val);
+                cur = cur.right;
+            }
+        }
+        return res;

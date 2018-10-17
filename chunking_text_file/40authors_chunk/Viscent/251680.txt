@@ -1,0 +1,10 @@
+												= new LinkedBlockingDeque[consumerCount];
+
+		// 该通道实例对应了多个队列实例managedQueues
+		channel = new WorkStealingChannel<String>(managedQueues);
+
+		Consumer[] consumers = new Consumer[consumerCount];
+		for (int i = 0; i < consumerCount; i++) {
+			managedQueues[i] = new LinkedBlockingDeque<String>();
+			consumers[i] = new Consumer(token, managedQueues[i]);
+

@@ -1,0 +1,10 @@
+			if (mcastAddr instanceof Inet6Address && addr instanceof Inet6Address)
+				return addr.getHostAddress();
+			if (mcastAddr instanceof Inet4Address && addr instanceof Inet4Address)
+				return addr.getHostAddress();
+		}
+		return "";
+	}
+
+	/**
+	 * 

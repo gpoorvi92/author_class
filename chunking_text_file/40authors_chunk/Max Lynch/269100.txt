@@ -1,0 +1,10 @@
+	public ShapeLayer selected;
+	
+	int s_x1, s_y1, s_x2, s_y2, s_w, s_h;
+	
+	Point down, current;
+	
+	int addTime = 0;
+	
+	boolean added = false;
+	boolean freeDrawing = false;

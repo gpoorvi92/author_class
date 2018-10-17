@@ -1,0 +1,10 @@
+      case 31:
+        return CALL_PHONE;
+      case 32:
+        return CALL_PRIVILEGED;
+      case 33:
+        return CAMERA;
+      case 34:
+        return CAPTURE_AUDIO_OUTPUT;
+      case 35:
+        return CAPTURE_SECURE_VIDEO_OUTPUT;

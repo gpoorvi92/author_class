@@ -1,0 +1,10 @@
+    public String getCdName()
+    {
+        return cdName;
+    }
+    public Date getDateLimit()
+    {
+        return dateLimit;
+    }
+    public int getGiftId()
+    {

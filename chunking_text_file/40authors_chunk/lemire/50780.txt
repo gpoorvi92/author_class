@@ -1,0 +1,10 @@
+                                        final int number);
+
+    /**
+     * For experts: You want to add many zeroes or ones? This is the method
+     * you use.
+     *
+     * @param v      zeros or ones
+     * @param number how many to words add
+     */
+    void addStreamOfEmptyWords(final boolean v, final int number);

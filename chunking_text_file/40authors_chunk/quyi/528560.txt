@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(WHY_FIELD_DESC);
+        oprot.writeString(struct.why);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+

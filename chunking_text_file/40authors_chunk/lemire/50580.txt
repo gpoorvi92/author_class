@@ -1,0 +1,10 @@
+        if (this.isLiteral)
+            return this.endrun
+                    - this.iterator.getNumberOfLiteralWords();
+        return (this.endrun - this.iterator.getRunningLength());
+    }
+
+    /**
+     * Process the next run
+     */
+    public void parseNextRun() {

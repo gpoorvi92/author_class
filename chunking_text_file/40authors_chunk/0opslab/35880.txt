@@ -1,0 +1,10 @@
+                }
+                j++;
+            }
+            i++;
+        }
+
+        list1 = getPX(image1);
+        list2 = getPX(image2);
+        i = 0;
+        j = 0;

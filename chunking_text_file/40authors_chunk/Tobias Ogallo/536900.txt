@@ -1,0 +1,10 @@
+	private JButton jButton2;
+	
+	
+	private JButton jButton4;
+	private SimpleDateFormat sdf = new SimpleDateFormat ("dd-MM-yyyy");
+	private static int rowCnt = 0;
+	private static int selectedRow;
+    private static JTextArea txtInfo=new JTextArea( 15, 40 );
+	private Connection dbconn;
+	private static String info;

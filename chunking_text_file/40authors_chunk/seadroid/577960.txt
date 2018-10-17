@@ -1,0 +1,10 @@
+                    .cacheOnDisk(true)
+                    .considerExifParams(true)
+                    .build();
+
+            ImageLoadingListener animateFirstListener = new AnimateFirstDisplayListener();
+            String url = mActivity.getDataManager().getThumbnailLink(((SeafStarredFile) item).getRepoID(), ((SeafStarredFile) item).getPath(), WidgetUtils.getThumbnailWidth());
+            if (url == null) {
+                ImageLoader.getInstance().displayImage("drawable://" + item.getIcon(), viewHolder.icon, WidgetUtils.iconOptions);
+            } else
+                ImageLoader.getInstance().displayImage(url, viewHolder.icon, options, animateFirstListener);

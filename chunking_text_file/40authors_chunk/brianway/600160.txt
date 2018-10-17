@@ -1,0 +1,10 @@
+ * SimpleDateFormat类非线程安全
+ * 有时正常运行，有时报异常
+ */
+public class Run3_formatError {
+    public static void main(String[] args) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        String[] dateStringArray = new String[] {
+                "2000-01-01", "2000-01-02", "2000-01-03", "2000-01-04", "2000-01-05",
+                "2000-01-06", "2000-01-07", "2000-01-08", "2000-01-09", "2000-01-10"
+        };

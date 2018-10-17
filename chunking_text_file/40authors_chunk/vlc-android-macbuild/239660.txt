@@ -1,0 +1,10 @@
+    }
+
+    public Segment getSingleSegment() {
+        if (mSegmentList.size() == 1)
+            return mSegmentList.get(0);
+
+        return null;
+    }
+
+    public String getSingleSegmentUrl() {

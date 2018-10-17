@@ -1,0 +1,8 @@
+    do{
+      num = num / 10;
+      ultimoDigito++;
+    } while (num > 0);
+    
+    System.out.println("El numero tiene " + ultimoDigito + " digitos");
+  }
+}

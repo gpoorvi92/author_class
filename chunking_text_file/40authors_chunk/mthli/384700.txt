@@ -1,0 +1,9 @@
+                  if (icon.getIconWidth() > getWidth()) icon = new ImageIcon(icon.getImage()
+                        .getScaledInstance(getWidth(), -1, Image.SCALE_DEFAULT));
+
+                  setIcon(icon);
+               }
+            }
+         });
+   }
+}

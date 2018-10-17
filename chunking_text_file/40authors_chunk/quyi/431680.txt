@@ -1,0 +1,10 @@
+        return false;
+      if (!this.featuresCharacters.equals(that.featuresCharacters))
+        return false;
+    }
+
+    boolean this_present_apiCheck = true && this.isSetApiCheck();
+    boolean that_present_apiCheck = true && that.isSetApiCheck();
+    if (this_present_apiCheck || that_present_apiCheck) {
+      if (!(this_present_apiCheck && that_present_apiCheck))
+        return false;

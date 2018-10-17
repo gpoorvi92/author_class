@@ -1,0 +1,10 @@
+		
+		List<String> files = FileHelper.getAllFileInDir(mediaPath, true);
+		String target = null;
+		for(String file : files) {
+			if (file.endsWith(".xml")) {
+				target = FileHelper.combinePath(targetDir, 
+						StringHelper.getFileBareName(file).replace(".xml", "_") +  identity + ".xml");
+			} else {
+				target = FileHelper.combinePath(targetDir, StringHelper.getFileBareName(file));
+			}

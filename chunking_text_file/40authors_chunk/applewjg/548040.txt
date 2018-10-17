@@ -1,0 +1,10 @@
+                ListNode node = cur.next;
+                cur.next = cur.next.next;
+                node.next = ins.next;
+                ins.next = node;
+                ins = ins.next;
+            }
+        }
+        return dummy.next;
+    }
+}

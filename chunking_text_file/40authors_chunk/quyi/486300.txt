@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof updateUserAppInfo_args)
+        return this.equals((updateUserAppInfo_args)that);
+      return false;
+    }
+

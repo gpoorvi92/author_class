@@ -1,0 +1,10 @@
+
+		outFileName = "C:\\CoDecImage\\DesImages\\"+fileName+".png";
+	     FileOutputStream fosImage = createOutputStream(outFileName);
+	
+	     // Create the source op image.
+	     srcImage = loadImage(inFile);
+	     ParameterBlock pb = new ParameterBlock();
+	     pb.addSource(srcImage);
+
+

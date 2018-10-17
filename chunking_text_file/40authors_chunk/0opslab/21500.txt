@@ -1,0 +1,10 @@
+        if (src != null && src.length() > 0) {
+            Matcher m = numericPattern.matcher(src);
+            if (m.find()) {
+                return_value = true;
+            }
+        }
+        return return_value;
+    }
+
+    /**

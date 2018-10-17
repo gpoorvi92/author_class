@@ -1,0 +1,10 @@
+      }
+      if (struct.dynamicCheckResult != null) {
+        oprot.writeFieldBegin(DYNAMIC_CHECK_RESULT_FIELD_DESC);
+        struct.dynamicCheckResult.write(oprot);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+

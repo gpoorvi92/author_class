@@ -1,0 +1,10 @@
+import java.util.Random;
+
+/**
+ * 本章实战案例运行时所需的数据库记录生成器。 
+ * 数据库的初始化可以使用数据库脚本DBScript.sql手工执行，也可以在执行本程序时在命令行中添加参数“init”。
+ * 
+ * @author Viscent Huang
+ *
+ */
+public class RecordGenerator {

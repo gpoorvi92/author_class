@@ -1,0 +1,10 @@
+         {
+            ball.move(comp.getBounds());
+            comp.paint(comp.getGraphics());
+            Thread.sleep(DELAY);
+         }
+      }
+      catch (InterruptedException e)
+      {
+      }
+   }

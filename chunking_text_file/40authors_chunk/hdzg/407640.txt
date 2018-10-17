@@ -1,0 +1,10 @@
+	public void setTempProficiency(int tempProficiency) {
+		this.tempProficiency = tempProficiency;
+	}
+
+	public int getSkillType() {
+		return skillType;
+	}
+
+	public void setSkillType(int skillType) {
+		this.skillType = skillType;

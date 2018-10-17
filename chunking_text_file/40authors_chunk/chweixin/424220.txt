@@ -1,0 +1,8 @@
+		//
+		parseEventMessage(clickEventMessage, data);
+		//
+		clickEventMessage.setEventKey(data.get("EventKey"));
+		
+		return clickEventMessage;
+	}
+}

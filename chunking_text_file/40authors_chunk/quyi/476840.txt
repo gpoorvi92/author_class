@@ -1,0 +1,10 @@
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+        BitSet incoming = iprot.readBitSet(3);
+        if (incoming.get(0)) {
+          {
+            org.apache.thrift.protocol.TList _list10 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+            struct.userApps = new ArrayList<com.nercis.isscp.idl.UserApp>(_list10.size);
+            for (int _i11 = 0; _i11 < _list10.size; ++_i11)
+            {

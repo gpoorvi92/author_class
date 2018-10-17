@@ -1,0 +1,10 @@
+//			paint.setColor(Color.LTGRAY);
+            drawBitmap = bitmap;
+            if (i == mCurrentPage) {
+                drawBitmap = BitmapFactory.decodeResource(getResources(), com.weico.core.R.drawable.emotion_key_page1);
+            }
+//			canvas.drawCircle(x, y, getHeight()/6, paint);
+            canvas.drawBitmap(drawBitmap, x, y, paint);
+            x += iconWidth + space;
+
+        }

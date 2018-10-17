@@ -1,0 +1,10 @@
+      catch ( Exception excp )
+
+      {
+            excp.printStackTrace();
+       	}       
+      reloaded();
+		
+  
+		jButton1.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent e) {

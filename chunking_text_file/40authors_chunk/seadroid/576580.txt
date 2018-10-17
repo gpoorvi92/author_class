@@ -1,0 +1,10 @@
+        this.path = path;
+
+        this.mListener = listener;
+    }
+
+    // Get the lastest version of the file
+    private void startDownloadFile() {
+        BrowserActivity mActivity = getBrowserActivity();
+
+        taskID = mActivity.getTransferService().addDownloadTask(mActivity.getAccount(),

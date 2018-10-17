@@ -1,0 +1,10 @@
+        }
+    }
+
+    /**
+     * Writes out the answer.
+     *
+     * @param out      output buffer
+     * @param runBegin beginning of the run
+     * @param runend   end of the run
+     */

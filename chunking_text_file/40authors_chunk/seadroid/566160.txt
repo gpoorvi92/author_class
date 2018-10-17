@@ -1,0 +1,10 @@
+        this.settingsMgr = SettingsManager.instance();
+    }
+
+    public void enable() {
+        if (android.os.Build.VERSION.SDK_INT < 14)
+            return;
+
+        currentApp.registerActivityLifecycleCallbacks(this);
+    }
+

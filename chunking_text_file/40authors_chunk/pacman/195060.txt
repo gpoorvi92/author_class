@@ -1,0 +1,10 @@
+ * @date: 2014年12月20日 上午9:11:51
+ */
+public class SysMonitorTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}

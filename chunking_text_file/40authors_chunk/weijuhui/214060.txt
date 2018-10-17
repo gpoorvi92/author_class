@@ -1,0 +1,10 @@
+     */
+    public void onSuccess(int statusCode, JSONObject response) {
+        onSuccess(response);
+    }
+
+
+    /**
+     * Fired when a request returns successfully and contains a json array
+     * at the base of the response string. Override to handle in your
+     * own code.

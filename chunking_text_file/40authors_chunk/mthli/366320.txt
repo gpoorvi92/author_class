@@ -1,0 +1,10 @@
+ * @version 1.01 2004-06-04
+ * @author Cay Horstmann
+ */
+public class HrefMatch
+{
+   public static void main(String[] args)
+   {
+      try
+      {
+         // get URL string from command line or use default

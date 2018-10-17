@@ -1,0 +1,10 @@
+ */
+
+public class LoadingView extends SurfaceView implements SurfaceHolder.Callback {
+	int startX = ConstantUtil.LOADING_VIEW_START_X;//进度条的x坐标
+	int startY = ConstantUtil.LOADING_VIEW_START_Y;//进度条的y坐标
+	
+	int k = 0;//当前"加载中"后面的点的个数
+	public int process = 0;//0到100表示当前进度 
+
+	HDZGActivity activity;//activity的引用

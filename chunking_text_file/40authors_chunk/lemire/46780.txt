@@ -1,0 +1,10 @@
+     *          located.
+     */
+    RunningLengthWord32(final Buffer32 buffer, final int p) {
+        this.buffer = buffer;
+        this.position = p;
+    }
+
+    /**
+     * Gets the number of literal words.
+     *

@@ -1,0 +1,4 @@
+        return strUsage + SPACE_USAGE_SEPERATOR + strTotal;
+    }
+
+}

@@ -1,0 +1,10 @@
+	 *          客户端代码调用该方法时所传递的参数列表
+	 * @return 可借以获取任务处理结果的Promise（参见第6章，Promise模式）实例。
+	 * @throws InterruptedException
+	 */
+	protected Future<V> service(Object... params) throws InterruptedException {
+		T task = makeTask(params);
+		Future<V> resultPromise = workerThread.submit(task);
+
+		return resultPromise;
+	}

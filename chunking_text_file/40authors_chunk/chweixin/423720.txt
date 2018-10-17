@@ -1,0 +1,10 @@
+			hql += " and (w.account.name like :accountName or w.account.account like :accountName) ";
+			parameters.put("accountName", "%"+ info.getAccountName()+"%");
+		}
+		if(info.getAccessToken() != null && !info.getAccessToken().trim().isEmpty()){
+			hql +=" and (w.accessToken like :accessToken) ";
+			parameters.put("accessToken", "%"+ info.getAccessToken()+"%");
+		}
+		return hql;
+	}
+	

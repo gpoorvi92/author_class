@@ -1,0 +1,10 @@
+		if (g.getId() == R.id.app_grid) {
+			String url = acd.getStringValue("url");
+			Log.d(SystemUtil.LOG_MSG, url);
+			Intent intent = null;
+			if (url.startsWith("http://") || url.startsWith("file://")) {
+				intent = new Intent(this, WebContentActivity.class);
+				intent.putExtra("title", acd.getStringValue("title"));
+				intent.putExtra("app_id", acd.getStringValue("app_id"));
+				intent.putExtra("url", url);
+			} else if (url.startsWith("intent://")) {

@@ -1,0 +1,10 @@
+	}
+
+	public static String makeHtmlNewLine() {
+		return "<br />";
+	}
+
+	public static String makeHtmlSpace(int number) {
+		final String space = "&nbsp;";
+		StringBuilder result = new StringBuilder();
+		for (int i = 0; i < number; i++) {

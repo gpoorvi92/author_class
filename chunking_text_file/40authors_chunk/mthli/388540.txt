@@ -1,0 +1,10 @@
+            if (j > 0) System.out.print(", ");
+            System.out.print(paramTypes[j].getName());
+         }
+         System.out.println(");");
+      }
+   }
+
+   /**
+    * Prints all fields of a class
+    * @param cl a class

@@ -1,0 +1,10 @@
+        String[] field = ClassUtil.getProtectedField("model.BusinessLog");
+        for(String f:field){
+            System.out.println(f);
+        }
+    }
+
+    @Test
+    public void testPrivateField()  {
+        System.out.println("=============获取类中自定义的private类型的属性==============");
+        String[] field = ClassUtil.getPrivateField("model.BusinessLog");

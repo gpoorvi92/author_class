@@ -1,0 +1,10 @@
+    int suma;
+    
+    Scanner teclado = new Scanner(System.in);
+    elemento = teclado.nextInt();
+    
+    while (i < elemento) {  
+        if (elemento == 1){
+            System.out.print("0");  
+        } else {
+            System.out.print(num1 + " ");

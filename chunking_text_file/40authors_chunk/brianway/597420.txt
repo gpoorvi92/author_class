@@ -1,0 +1,10 @@
+输出：
+begin = 1460340883191
+run threadName=main begin
+run threadName=main end
+end = 1460340885192
+
+-----------------------
+//myThread6.run();
+myThread6.start();
+输出：

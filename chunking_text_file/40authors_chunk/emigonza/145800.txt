@@ -1,0 +1,10 @@
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static void main( String[] args )
+    {
+        System.out.println( "JavaPOS jpos.config/loader (JCL) version " + 
+							JCL_VERSION_STRING );
+    }
+
+    /**
+     * @return a String of the version number of the JCL

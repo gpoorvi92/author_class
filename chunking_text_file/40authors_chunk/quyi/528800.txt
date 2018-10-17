@@ -1,0 +1,10 @@
+    NOTIFY_CALLBACK_URL((short)8, "notify_callback_url"),
+    APP_DESCRIPTION((short)9, "app_description"),
+    REQUEST_PURVIEWS((short)10, "requestPurviews"),
+    FORMAT((short)11, "format");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {
+      for (_Fields field : EnumSet.allOf(_Fields.class)) {
+        byName.put(field.getFieldName(), field);

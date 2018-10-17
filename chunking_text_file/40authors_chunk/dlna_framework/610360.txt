@@ -1,0 +1,9 @@
+	{
+		getAllowedValueRangeNode().setNode(STEP, value);
+	}
+
+	public String getStep()
+	{
+		return getAllowedValueRangeNode().getNodeValue(STEP);
+	}
+}

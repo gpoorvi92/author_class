@@ -1,0 +1,10 @@
+				int lid = 0;
+				try {
+					lid = Integer.parseInt(id);
+				} catch (Exception e) {
+					out.write("failed服务器返回:铝材id无法识别，操作失败");
+					return null;
+				}
+				LhjPrice lhjp = lhjPriceService.findLhjPriceByID(lid);
+				if(lhjp == null){
+					out.write("failed更新失败,查找铝材价格对象失败");

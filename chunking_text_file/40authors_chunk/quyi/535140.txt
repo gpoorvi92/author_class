@@ -1,0 +1,10 @@
+      if (incoming.get(1)) {
+        struct.apiPackageName = iprot.readString();
+        struct.setApiPackageNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.packageName = iprot.readString();
+        struct.setPackageNameIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.objectName = iprot.readString();

@@ -1,0 +1,10 @@
+	public String getFaultCode()
+	{
+		Node node = getFaultCodeNode();
+		if (node == null)
+			return "";
+		return node.getValue();
+	}
+	
+	public String getFaultString()
+	{

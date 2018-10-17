@@ -1,0 +1,10 @@
+package checkBox;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a sample text label and check boxes for selecting font attributes.
+ */
+public class CheckBoxFrame extends JFrame

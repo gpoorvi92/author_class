@@ -1,0 +1,10 @@
+    }
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetPidName()).compareTo(other.isSetPidName());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetPidName()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.pidName, other.pidName);

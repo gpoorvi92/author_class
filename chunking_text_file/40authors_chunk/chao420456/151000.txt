@@ -1,0 +1,10 @@
+					if(!hostPort.equals("")){
+						String login_mess = client.login(username, hostIp, hostPort);
+						if(login_mess.equals("true")){
+							this.setVisible(false);
+							client.showChatFrame(username);
+						}else{
+							JOptionPane.showMessageDialog(this, login_mess);
+						}
+					}else{
+						JOptionPane.showMessageDialog(this, "服务器连接端口号不能为空！");

@@ -1,0 +1,10 @@
+
+    case SOURCE_PORT:
+      if (value == null) {
+        unsetSourcePort();
+      } else {
+        setSourcePort((String)value);
+      }
+      break;
+
+    case TARGET_ADDRESS:

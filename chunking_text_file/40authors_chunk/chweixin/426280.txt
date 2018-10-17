@@ -1,0 +1,10 @@
+		this.orderMessageHandlers = orderMessageHandlers;
+	}
+	/**
+	 * 设置微信默认回复数据接口。
+	 * @param weChatDefaultReplyDao
+	 */
+	public void setWeChatDefaultReplyDao(IWeChatDefaultReplyDao weChatDefaultReplyDao) {
+		this.weChatDefaultReplyDao = weChatDefaultReplyDao;
+	}
+	/**

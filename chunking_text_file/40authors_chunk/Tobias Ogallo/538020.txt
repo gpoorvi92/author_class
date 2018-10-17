@@ -1,0 +1,10 @@
+		combo1.addItem("Manager");
+		combo1.addItem("Booking Clerk");
+ 		combo1.addItem("Supervisor");
+		panel2=new JPanel();
+		panel2.add(panel1);
+		getContentPane().add(panel2);
+		setSize(350,195);
+		setVisible(true);
+	    setLocation((screen.width - 500)/2,((screen.height-350)/2));
+	    setResizable(false);

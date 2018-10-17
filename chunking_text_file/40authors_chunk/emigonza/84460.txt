@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface CheckScannerControl17 extends BaseControl
+{
+  // Capabilities
+  public boolean getCapAutoGenerateFileID() throws JposException;

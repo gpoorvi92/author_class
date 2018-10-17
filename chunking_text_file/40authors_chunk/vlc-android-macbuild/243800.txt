@@ -1,0 +1,10 @@
+            String msg = String.format(fmt, args);
+            return Log.i(tag, msg);
+        }
+
+        return 0;
+    }
+
+    public static int w(String tag, String msg) {
+        if (ENABLE_WARN) {
+            return Log.w(tag, msg);

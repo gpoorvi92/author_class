@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String id,name,account,password;
+	/**
+	 * 获取用户ID。
+	 * @return 用户ID。
+	 * */
+	public String getId() {
+		return id;
+	}
+	/**

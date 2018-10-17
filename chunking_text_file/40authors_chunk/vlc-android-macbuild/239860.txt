@@ -1,0 +1,10 @@
+
+    public static final Parcelable.Creator<PlayIndex> CREATOR = new Parcelable.Creator<PlayIndex>() {
+        public PlayIndex createFromParcel(Parcel in) {
+            return new PlayIndex(in);
+        }
+
+        public PlayIndex[] newArray(int size) {
+            return new PlayIndex[size];
+        }
+    };

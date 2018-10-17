@@ -1,0 +1,8 @@
+
+    public native void __intervalRemoved( javax.swing.event.ListDataEvent e );
+
+    public void intervalRemoved( javax.swing.event.ListDataEvent e ) {
+        __intervalRemoved( e );
+    }
+
+}

@@ -1,0 +1,10 @@
+	}
+	public void setLhjPrices(Set<LhjPrice> lhjPrices) {
+		this.lhjPrices = lhjPrices;
+	}
+	@OneToMany(mappedBy = "materialBrand", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<OrderLhjWeight> getOrderLhjs() {
+		return orderLhjs;
+	}
+	public void setOrderLhjs(Set<OrderLhjWeight> orderLhjs) {
+		this.orderLhjs = orderLhjs;

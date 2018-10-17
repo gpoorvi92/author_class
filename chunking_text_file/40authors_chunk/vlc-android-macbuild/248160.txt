@@ -1,0 +1,10 @@
+    public static final int CPU_PART_CORTEX_A5 = 0xc05;
+    public static final int CPU_PART_CORTEX_A7 = 0xc07;
+    public static final int CPU_PART_CORTEX_A8 = 0xc08;
+    public static final int CPU_PART_CORTEX_A9 = 0xc09;
+    public static final int CPU_PART_CORTEX_A15 = 0xc0f;
+
+    public static final int CPU_PART_CORTEX_R4 = 0xc14;
+    public static final int CPU_PART_CORTEX_R5 = 0xc15;
+
+    public static final int CPU_PART_CORTEX_M3 = 0xc23;

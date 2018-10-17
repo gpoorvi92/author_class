@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private final static String MIME_TYPE = "mimeType";
+	
+	public void setMimeType(String value)
+	{
+		getIconNode().setNode(MIME_TYPE, value);
+	}
+
+	public String getMimeType()

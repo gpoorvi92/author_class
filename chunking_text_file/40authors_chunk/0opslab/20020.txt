@@ -1,0 +1,10 @@
+        for (String m : methods) {
+            System.out.println(m);
+        }
+        System.out.println("=============获取自定义的和继承的public类型的方法==========");
+        methods = ClassUtil.getPublicMethod("com.opslab.util.bean.BeanUtil", true);
+        for (String m : methods) {
+            System.out.println(m);
+        }
+    }
+

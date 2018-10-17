@@ -1,0 +1,10 @@
+	 * */
+	public WeChatMenu getParent() {
+		return parent;
+	}
+	/**
+	 * 设置上级菜单。
+	 * @param parent
+	 * 上级菜单。
+	 * */
+	public void setParent(WeChatMenu parent) {

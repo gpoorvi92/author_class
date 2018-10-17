@@ -1,0 +1,10 @@
+
+	public boolean isOutOfBounds() {
+		return isOutOfBounds;
+	}
+
+	public void setOutOfBounds(boolean outOfBounds) {
+		if (outOfBounds && !isOutOfBounds) {
+			topView.setTextColor(0x44666666);
+            bottomView.setTextColor(0x44666666);
+		}

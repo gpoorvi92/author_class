@@ -1,0 +1,10 @@
+      JFormattedTextField intField = new JFormattedTextField(NumberFormat.getIntegerInstance());
+      intField.setValue(new Integer(100));
+      addRow("Number:", intField);
+
+      JFormattedTextField intField2 = new JFormattedTextField(NumberFormat.getIntegerInstance());
+      intField2.setValue(new Integer(100));
+      intField2.setFocusLostBehavior(JFormattedTextField.COMMIT);
+      addRow("Number (Commit behavior):", intField2);
+
+      JFormattedTextField intField3 = new JFormattedTextField(new InternationalFormatter(

@@ -1,0 +1,10 @@
+	public String getSOAPAction()
+	{
+		return getStringHeaderValue(SOAPACTION);
+	}
+
+	public boolean isSOAPAction(String value)
+	{
+		String headerValue = getHeaderValue(SOAPACTION);
+		if (headerValue == null)
+			return false;

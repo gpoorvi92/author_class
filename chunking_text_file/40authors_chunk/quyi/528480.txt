@@ -1,0 +1,10 @@
+      return new InvalidRequestExceptionStandardScheme();
+    }
+  }
+
+  private static class InvalidRequestExceptionStandardScheme extends StandardScheme<InvalidRequestException> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, InvalidRequestException struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)

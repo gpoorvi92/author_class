@@ -1,0 +1,10 @@
+package debugger;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * @version 1.22 2007-05-14
+ * @author Cay Horstmann
+ */

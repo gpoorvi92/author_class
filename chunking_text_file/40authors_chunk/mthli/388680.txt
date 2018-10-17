@@ -1,0 +1,10 @@
+      Session mailSession = Session.getDefaultInstance(props);
+      // mailSession.setDebug(true);
+      MimeMessage message = new MimeMessage(mailSession);
+      message.setFrom(new InternetAddress(from));
+      message.addRecipient(RecipientType.TO, new InternetAddress(to));
+      message.setSubject(subject);
+      message.setText(builder.toString());
+      Transport tr = mailSession.getTransport();
+      try
+      {

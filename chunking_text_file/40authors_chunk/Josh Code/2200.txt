@@ -1,0 +1,10 @@
+          /* don't make the virtual machine recalculate the subscript expression each time
+           */
+          result.x += v.x;
+          result.y += v.y;
+          result.z += v.z;
+      }
+
+      double d = 1.0 / vectors.length;
+        result.x *= d;
+        result.y *= d;

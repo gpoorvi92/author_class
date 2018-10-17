@@ -1,0 +1,10 @@
+    public String  getAdditionalSecurityInformation() throws JposException;
+    public long    getAmount() throws JposException;
+    public void    setAmount(long amount) throws JposException;
+    public String  getAvailableLanguagesList() throws JposException;
+    public String  getAvailablePromptsList() throws JposException;
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled)
+                       throws JposException;
+    public String  getEncryptedPIN() throws JposException;

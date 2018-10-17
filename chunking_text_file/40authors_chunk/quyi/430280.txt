@@ -1,0 +1,10 @@
+package com.nercis.isscp.util;
+
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+public class SearchRecordInfoConsumer implements Runnable {
+	ConcurrentLinkedQueue<SearchRecordInfo> queue = SearchRecordInfoQueue
+			.getInstance().getSearchRecordInfoQueue();
+	String filename = "";
+
+	public SearchRecordInfoConsumer(String filename) {

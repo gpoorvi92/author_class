@@ -1,0 +1,10 @@
+  public void unsetSourcePort() {
+    this.sourcePort = null;
+  }
+
+  /** Returns true if field sourcePort is set (has been assigned a value) and false otherwise */
+  public boolean isSetSourcePort() {
+    return this.sourcePort != null;
+  }
+
+  public void setSourcePortIsSet(boolean value) {

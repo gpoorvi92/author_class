@@ -1,0 +1,10 @@
+    @Override
+    public void doStart() throws Exception
+    {
+        bootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));
+        bootstrap.setOption("keepAlive", true);
+        bootstrap.setOption("tcpNoDelay", true);
+        bootstrap.setOption("reuseAddress", false);
+        bootstrap.setPipelineFactory(new LogicPipelineFactory());
+        bootstrap.bind(new InetSocketAddress(ip, port));
+    }

@@ -1,0 +1,10 @@
+    if (this.sensitive == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.sensitive);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("autoRunMonitor:");
+    if (this.autoRunMonitor == null) {
+      sb.append("null");

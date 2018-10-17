@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 29, 2015
+ Problem:    Convert Sorted Array to Binary Search Tree
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ Notes:
+ Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+ Solution: Recursion. 1. preorder

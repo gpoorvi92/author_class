@@ -1,0 +1,10 @@
+public class WeatherApi {
+
+    private static final int TIME_OUT_TIME = 20000;
+    private static Request weeklyWeather;
+
+
+    public static class API_URL {
+        public static String DAILY = "http://www.weather.com.cn/data/cityinfo/";//每日
+        public static String WEEKLY = "http://wthrcdn.etouch.cn/weather_mini?citykey=";//星期
+        public static String CURRENTLY = "http://www.weather.com.cn/data/sk/";//实时

@@ -1,0 +1,10 @@
+ * @version 1.02 2007-05-31
+ * @author Cay Horstmann
+ */
+public class LoggingImageViewer
+{
+   public static void main(String[] args)
+   {
+      if (System.getProperty("java.util.logging.config.class") == null
+            && System.getProperty("java.util.logging.config.file") == null)
+      {

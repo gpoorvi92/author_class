@@ -1,0 +1,10 @@
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("你再点试试");
+			}
+		});
+
+		// 窗体关闭事件
+		f.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {

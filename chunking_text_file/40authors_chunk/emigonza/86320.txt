@@ -1,0 +1,10 @@
+// 2006-Feb-10 JavaPOS Release 1.10                                BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface RemoteOrderDisplayService110
+  extends RemoteOrderDisplayService19

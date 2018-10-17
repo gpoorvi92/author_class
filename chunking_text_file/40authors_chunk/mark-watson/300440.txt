@@ -1,0 +1,10 @@
+
+	// Override the following function in sub-classes:
+	abstract public void calcFitness();
+}
+
+class Chromosome {
+	BitSet chromosome;
+	float fitness = -999;
+
+	private Chromosome() { }

@@ -1,0 +1,10 @@
+        this(delegate, false, new ByteOrderMark[] {
+            ByteOrderMark.UTF_8
+        });
+    }
+
+    public BOMInputStream(InputStream delegate, boolean include)
+    {
+        this(delegate, include, new ByteOrderMark[] {
+            ByteOrderMark.UTF_8
+        });

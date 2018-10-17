@@ -1,0 +1,10 @@
+
+	public UPnPStatus getUPnPError()
+	{
+		int code = 0;
+		String desc = "";
+		code = getUPnPErrorCode();
+		desc = getUPnPErrorDescription();
+		upnpErr.setCode(code);
+		upnpErr.setDescription(desc);
+		return upnpErr;

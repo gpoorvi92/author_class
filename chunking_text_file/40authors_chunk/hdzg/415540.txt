@@ -1,0 +1,10 @@
+	
+	String[][] items1;//城池列表 
+	
+	static Bitmap menuTitle;//表格的标题背景
+	static Bitmap threeBitmap;//右上角的三个按钮
+	static Bitmap panel_back;//背景图
+	static Bitmap selectBackground;//选中后的背景
+	static Bitmap buttonBackGround;//按钮背景
+	static Bitmap upBitmap;//向上的小箭头
+	static Bitmap downBitmap;//向下的小箭头

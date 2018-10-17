@@ -1,0 +1,10 @@
+
+    IntIteratorImpl32(EWAHIterator32 ewahIter) {
+        this.ewahIter = ewahIter;
+        this.buffer = ewahIter.buffer();
+        this.hasnext = this.moveToNext();
+    }
+
+    public boolean moveToNext() {
+        while (!runningHasNext() && !literalHasNext()) {
+            if (!this.ewahIter.hasNext()) {

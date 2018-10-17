@@ -1,0 +1,10 @@
+    public double getSalary() {
+        return salary;
+    }
+
+    public void raiseSalary(double byPercent) {
+        double raise = salary * byPercent / 100;
+        salary += raise;
+    }
+
+    /* 在这里实现了需要提供的compareTo方法 */

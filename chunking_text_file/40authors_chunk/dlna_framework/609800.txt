@@ -1,0 +1,10 @@
+		argumentNode = new Node(ELEM_NAME);
+		serviceNode = null;
+	}
+	
+	public Argument(Node servNode){
+		argumentNode = new Node(ELEM_NAME);
+		serviceNode = servNode;		
+	}
+	
+	public Argument(Node servNode, Node argNode)

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int getCurrentPosition() {
+        if (mSegment == null)
+            return -1;
+
+        int currentPosition = mStartTime + super.getCurrentPosition();
+        return currentPosition;
+    }

@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField JVM_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("jvmName", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField JVM_VERSION_FIELD_DESC = new org.apache.thrift.protocol.TField("jvmVersion", org.apache.thrift.protocol.TType.STRING, (short)6);
+  private static final org.apache.thrift.protocol.TField JVM_MAX_MEM_FIELD_DESC = new org.apache.thrift.protocol.TField("jvmMaxMem", org.apache.thrift.protocol.TType.STRING, (short)7);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new SoftwareStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new SoftwareTupleSchemeFactory());
+  }
+

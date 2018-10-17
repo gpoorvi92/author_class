@@ -1,0 +1,10 @@
+			}
+		}
+		this.chatListAdapter = new ChatListAdapter(this, list, this.id,
+				chatList);
+		chatList.setAdapter(this.chatListAdapter);
+		chatList.setSelection(chatList.getCount() - 1);
+	}
+
+	public void setSendState(boolean flag) {
+		if (flag) {

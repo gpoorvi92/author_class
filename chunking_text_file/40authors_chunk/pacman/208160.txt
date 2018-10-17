@@ -1,0 +1,10 @@
+		//logger.info("==========>" + System.getProperty("java.library.path"));
+		try {
+			if ("\\".equals(System.getProperties().getProperty("file.separator"))) {
+				
+				System.loadLibrary("libMediaInfo");
+			} else {
+				
+				System.loadLibrary("zen");
+				System.loadLibrary("media");
+				System.loadLibrary("MediaInfo");

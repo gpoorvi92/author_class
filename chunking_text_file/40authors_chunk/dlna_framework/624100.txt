@@ -1,0 +1,10 @@
+package org.cybergarage.http;
+
+import java.util.Calendar;
+import java.util.TimeZone;
+
+public class Date
+{
+	private Calendar cal;
+
+	public Date(Calendar cal)

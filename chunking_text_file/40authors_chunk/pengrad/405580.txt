@@ -1,0 +1,10 @@
+ */
+public class EditMessageText extends BaseRequest<EditMessageText, BaseResponse> {
+
+    public EditMessageText(Object chatId, int messageId, String text) {
+        super(SendResponse.class);
+        add("chat_id", chatId).add("message_id", messageId).add("text", text);
+    }
+
+    public EditMessageText(String inlineMessageId, String text) {
+        super(BaseResponse.class);

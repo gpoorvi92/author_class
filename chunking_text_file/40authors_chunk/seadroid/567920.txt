@@ -1,0 +1,10 @@
+            }
+
+            @Override
+            public void onServiceDisconnected(ComponentName arg0) {
+                mTxService = null;
+            }
+        };
+        bindService(bIntent, mConnection, Context.BIND_AUTO_CREATE);
+        Log.d(DEBUG_TAG, "try bind TransferService");
+    }

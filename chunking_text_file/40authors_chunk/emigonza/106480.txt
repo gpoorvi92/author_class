@@ -1,0 +1,10 @@
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int RFID_PR_EPC0                         = 0x00000001;
+  public static final int RFID_PR_0PLUS                        = 0x00000002;
+  public static final int RFID_PR_EPC1                         = 0x00000004;
+  public static final int RFID_PR_EPC1G2                       = 0x00000008;
+  public static final int RFID_PR_EPC2                         = 0x00000010;
+  public static final int RFID_PR_ISO14443A                    = 0x00001000;
+  public static final int RFID_PR_ISO14443B                    = 0x00002000;
+  public static final int RFID_PR_ISO15693                     = 0x00003000;

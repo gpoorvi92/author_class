@@ -1,0 +1,10 @@
+     * 而在更改器方法前面加上前缀set
+     */
+    public String getName() {
+        return name;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+

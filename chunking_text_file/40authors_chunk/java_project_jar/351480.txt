@@ -1,0 +1,10 @@
+import org.apache.commons.io.FileUtils;
+
+// Referenced classes of package org.apache.commons.io.comparator:
+//            AbstractFileComparator, ReverseComparator
+
+public class SizeFileComparator extends AbstractFileComparator
+    implements Serializable
+{
+
+    public SizeFileComparator()

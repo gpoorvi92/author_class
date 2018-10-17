@@ -1,0 +1,10 @@
+	private int		m_multiplier = 1;
+
+	public void setSortAsc (boolean ascending) {
+		if (ascending)
+			m_multiplier = 1;
+		else
+			m_multiplier = -1;
+	}
+
+	public int compare(Object o1, Object o2) {

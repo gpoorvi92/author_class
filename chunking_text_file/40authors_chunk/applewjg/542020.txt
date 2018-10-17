@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    Swap Nodes in Pairs
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/swap-nodes-in-pairs/
+ Notes:
+ Given a linked list, swap every two adjacent nodes and return its head.
+ For example,
+ Given 1->2->3->4, you should return the list as 2->1->4->3.

@@ -1,0 +1,10 @@
+		if(targetServletBean == null || targetServletBean.trim().isEmpty()){
+			logger.error(err = "未配置参数：targetServletBean");
+			throw new ServletException(err);
+		}
+		logger.info("装载[servlet:" + targetServletBean + "]");
+		this.proxy = this.loadServletBean(targetServletBean);
+		if(this.proxy == null){
+			logger.error(err = "装载[servlet:" + targetServletBean + "]失败，未在Spring配置中找到对象！");
+			throw new ServletException(err);
+		}

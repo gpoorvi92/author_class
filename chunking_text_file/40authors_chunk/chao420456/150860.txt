@@ -1,0 +1,10 @@
+		JLabel lblNewLabel_1 = new JLabel("\u670D\u52A1\u5668\u5730\u5740");
+		lblNewLabel_1.setFont(new Font("ËÎÌו", Font.PLAIN, 14));
+		lblNewLabel_1.setBounds(23, 74, 81, 34);
+		getContentPane().add(lblNewLabel_1);
+		
+		jtf_hostIp = new JTextField();
+		jtf_hostIp.setBounds(114, 74, 143, 34);
+		jtf_hostIp.addKeyListener(this);
+		getContentPane().add(jtf_hostIp);
+		try {

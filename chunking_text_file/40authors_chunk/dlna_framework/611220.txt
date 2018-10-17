@@ -1,0 +1,10 @@
+			// Thanks for Kazuyuki Shudo (08/23/07)
+			threadObject.interrupt();
+			
+			setThreadObject(null);
+		}
+	}
+	
+	public void restart()
+	{
+		stop();

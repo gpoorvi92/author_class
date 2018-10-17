@@ -1,0 +1,10 @@
+
+   /**
+    * Sets the cap style.
+    * @param c the cap style
+    */
+   public void setCap(int c)
+   {
+      cap = c;
+      repaint();
+   }

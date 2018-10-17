@@ -1,0 +1,10 @@
+import java.util.concurrent.locks.ReentrantLock;
+
+public class ConditionVarBlocker implements Blocker {
+	private final Lock lock;
+
+	private final Condition condition;
+
+	private final boolean allowAccess2Lock;
+
+	public ConditionVarBlocker(Lock lock) {

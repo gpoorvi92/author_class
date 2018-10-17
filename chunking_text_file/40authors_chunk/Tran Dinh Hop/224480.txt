@@ -1,0 +1,10 @@
+		if(!hasEntry(ba)) 
+		System.err.print("Dictionary could not fetch code"); 
+
+		//get hashCode for ba 
+		int hashCode = getHashCode(ba); 
+
+		//System.out.println("hashCode = "+hashCode); 
+		HashNode current = data[hashCode]; 
+		//System.out.println("Initial Hash Node: "+current); 
+		while(!current.hasEntry(ba)) 

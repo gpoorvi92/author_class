@@ -1,0 +1,10 @@
+    }
+
+    private void createAvatarTable(SQLiteDatabase db) {
+        db.execSQL(SQL_CREATE_AVATAR_TABLE);
+        db.execSQL("CREATE INDEX account_signature_index ON " + AVATAR_TABLE_NAME
+                + " (" + AVATAR_COLUMN_SIGNATURE + ");");
+        db.execSQL("CREATE INDEX avatar_url_index ON " + AVATAR_TABLE_NAME
+                + " (" + AVATAR_COLUMN_URL + ");");
+    }
+

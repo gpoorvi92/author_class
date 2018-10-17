@@ -1,0 +1,10 @@
+				this.vrDialog.dismiss();
+				if (this.vrDialog.getCancelState() == 0) {
+					String path = this.vrDialog.getLastVoicePath();
+					if (!StringUtil.isNull(path)) {
+						AbstractCommonData item = DataConvertFactory
+								.getInstanceEmpty();
+						item.putStringValue("type", "1");
+						item.putStringValue("msg_type", "3");
+						item.putStringValue("audio_url", path);
+						item.putStringValue("load_data_type", "0");

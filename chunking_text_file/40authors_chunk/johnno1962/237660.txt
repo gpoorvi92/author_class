@@ -1,0 +1,10 @@
+    /// public void java.awt.event.WindowAdapter.windowDeiconified(java.awt.event.WindowEvent)
+
+    public native void __windowDeiconified( java.awt.event.WindowEvent e );
+
+    boolean entered_windowDeiconified_4;
+
+    public void windowDeiconified( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowDeiconified_4 ) {
+            entered_windowDeiconified_4 = true;
+            __windowDeiconified( e );

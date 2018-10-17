@@ -1,0 +1,10 @@
+        bootstrap.setPipelineFactory(new WebSocketServerPipelineFactory(new ChatWebSocketServerHandler(this)));
+        bootstrap.bind(new InetSocketAddress(ip, port));
+    }
+    public void init(int port)
+    {
+        bootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));
+        bootstrap.setPipelineFactory(new WebSocketServerPipelineFactory(new ChatWebSocketServerHandler(this)));
+        bootstrap.bind(new InetSocketAddress(port));
+    }
+    private ServerBootstrap bootstrap;

@@ -1,0 +1,10 @@
+                .println("testing int iteration, 2 consec clean runs starting with zeros");
+        EWAHCompressedBitmap e = new EWAHCompressedBitmap();
+        for (int i = 64; i < 128; ++i)
+            e.set(i);
+        IntIteratorOverIteratingRLW ii = new IntIteratorOverIteratingRLW(
+                e.getIteratingRLW());
+        assertTrue(ii.hasNext());
+        int ctr = 0;
+        while (ii.hasNext()) {
+            ++ctr;

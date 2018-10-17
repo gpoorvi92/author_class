@@ -1,0 +1,7 @@
+    while (numero > 0) {
+        reves = (reves * 10) + (numero % 10);
+        numero = numero / 10;
+    } 
+    System.out.println("Numero: " + reves);
+  }
+}

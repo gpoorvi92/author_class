@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("checkStopTime:");
+    if (this.checkStopTime == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.checkStopTime);
+    }
+    first = false;
+    sb.append(")");
+    return sb.toString();

@@ -1,0 +1,5 @@
+		sdf.setTimeZone(stz);
+		String tempTs = sdf.format(calendar.getTime());
+		return tempTs;
+	}
+}

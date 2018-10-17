@@ -1,0 +1,10 @@
+            String name = getFunctionName();
+            String ls=(name==null?str.toString():(name+" - "+str));
+            Log.e(tag, ls);
+        }
+	}
+	
+	public void error(Exception ex) {
+	    if (logLevel <= Log.ERROR) {
+	        StringBuffer sb = new StringBuffer();
+	        String name = getFunctionName();

@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * call this method to handle upload request, like file upload or camera upload.
+     *
+     * Note: use isCopyToLocal to mark automatic camera upload if true, or file upload if false.
+     * @param account
+     * @param repoID
+     * @param repoName
+     * @param dir

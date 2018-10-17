@@ -1,0 +1,10 @@
+            return 1;
+        } catch (Exception ex) {
+            System.out.println("Error asserting proposition '" + proposition + "' is: " + ex);
+            return 0;
+        }   
+    }
+    public int createRelation(String relation, int arity) {
+        try {
+            PLI.sCreateRelation(relation, arity, workingModule, null);
+            return 1;

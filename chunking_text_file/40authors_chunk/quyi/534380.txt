@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.category);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("description:");
+    if (this.description == null) {
+      sb.append("null");
+    } else {

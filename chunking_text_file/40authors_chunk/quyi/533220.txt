@@ -1,0 +1,10 @@
+      } else {
+        setApiPackageName((String)value);
+      }
+      break;
+
+    case PACKAGE_NAME:
+      if (value == null) {
+        unsetPackageName();
+      } else {
+        setPackageName((String)value);

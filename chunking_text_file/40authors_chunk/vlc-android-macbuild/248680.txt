@@ -1,0 +1,10 @@
+        return CPU_PART_CORTEX_A5 == mCpuPart;
+    }
+
+    public boolean isCortexA7() {
+        return CPU_PART_CORTEX_A7 == mCpuPart;
+    }
+
+    public boolean isCortexA8() {
+        return CPU_PART_CORTEX_A8 == mCpuPart;
+    }

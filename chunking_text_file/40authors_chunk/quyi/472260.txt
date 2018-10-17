@@ -1,0 +1,10 @@
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public queryApp_result getResult(I iface, queryApp_args args) throws org.apache.thrift.TException {
+        queryApp_result result = new queryApp_result();
+        try {
+          result.success = iface.queryApp(args.missionId, args.userAppId);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;

@@ -1,0 +1,10 @@
+ *
+ * Note: this version uses word pairs (greatly increasing memory and processing requirements)
+ *
+ */
+public class SpellingSuggestionsWordPairs {
+
+	public SpellingSuggestionsWordPairs() throws FileNotFoundException {
+		Pattern p = Pattern.compile("[,.()'\";:\\s]+");
+		Scanner scanner = new Scanner(new File("/tmp/small.txt"));
+		scanner.useDelimiter(p);

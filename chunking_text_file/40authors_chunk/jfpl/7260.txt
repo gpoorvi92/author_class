@@ -1,0 +1,10 @@
+	private ListView locationList;
+
+	private CustomMyLocationOverlay myLocOverlay;
+
+	private LocationNearbyOverlay nearbyOverlay;
+
+	private LocationClient locationClient;
+
+	private LocationData ld;
+

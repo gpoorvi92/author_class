@@ -1,0 +1,10 @@
+         setTitle(title);
+      }
+      catch (UnavailableServiceException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+      catch (MalformedURLException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }

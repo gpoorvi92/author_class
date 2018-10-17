@@ -1,0 +1,10 @@
+             * Use the alpha-beta cutoff test to abort search if we
+             * found a move that proves that the previous move in the
+             * move chain was dubious
+             */
+            if (beta >= alpha) {
+                break;
+            }
+        }
+        Vector v3 = new Vector();
+        v3.addElement(new Float(beta));

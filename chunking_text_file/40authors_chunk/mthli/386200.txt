@@ -1,0 +1,10 @@
+package genericReflection;
+
+import java.lang.reflect.*;
+import java.util.*;
+
+/**
+ * @version 1.10 2007-05-15
+ * @author Cay Horstmann
+ */
+public class GenericReflectionTest

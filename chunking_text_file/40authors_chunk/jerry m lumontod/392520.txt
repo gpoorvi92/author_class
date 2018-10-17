@@ -1,0 +1,10 @@
+				mintResult = s1.mstrCode.compareTo(s2.mstrCode);
+				break;
+			case 1:    // Desc
+				mintResult = s1.mstrDesc.compareTo(s2.mstrDesc);
+				break;
+		}		
+
+		if (!mblnSortAsc)
+			mintResult = -mintResult;
+

@@ -1,0 +1,10 @@
+		RandomAccessFile raf = new RandomAccessFile("raf.txt", "rw");
+
+		// ¶ÁÊý¾Ý
+		System.out.println(raf.getFilePointer());
+		System.out.println(raf.readInt());
+		System.out.println(raf.getFilePointer());
+		System.out.println(raf.readChar());
+		System.out.println(raf.getFilePointer());
+		System.out.println(raf.readUTF());
+		System.out.println(raf.getFilePointer());

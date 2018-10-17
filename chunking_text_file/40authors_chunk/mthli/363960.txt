@@ -1,0 +1,10 @@
+      messageTypePanel = new ButtonPanel("Message Type", "ERROR_MESSAGE", "INFORMATION_MESSAGE",
+            "WARNING_MESSAGE", "QUESTION_MESSAGE", "PLAIN_MESSAGE");
+      messagePanel = new ButtonPanel("Message", "String", "Icon", "Component", "Other", "Object[]");
+      optionTypePanel = new ButtonPanel("Confirm", "DEFAULT_OPTION", "YES_NO_OPTION",
+            "YES_NO_CANCEL_OPTION", "OK_CANCEL_OPTION");
+      optionsPanel = new ButtonPanel("Option", "String[]", "Icon[]", "Object[]");
+      inputPanel = new ButtonPanel("Input", "Text field", "Combo box");
+
+      gridPanel.add(typePanel);
+      gridPanel.add(messageTypePanel);

@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+		System.out.println(jobId);
+	}
+
+	@Test
+	public void testSubmitJob002() {
+		List<JobOperationRequirement> jobOpList = new ArrayList<JobOperationRequirement>();
+		JobOperationRequirement taskOp2 = new JobOperationRequirement();
+		taskOp2.setJobLifecycle(JobLifecycle.ANALYSIS);

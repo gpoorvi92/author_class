@@ -1,0 +1,7 @@
+        }
+        pathSumRe(root.left, sum - root.val, res, path);
+        pathSumRe(root.right, sum - root.val, res, path);
+        path.remove(path.size()-1);
+    }
+}
+

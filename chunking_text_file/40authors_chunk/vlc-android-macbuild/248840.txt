@@ -1,0 +1,10 @@
+package tv.danmaku.media.resource;
+
+import tv.danmaku.android.util.DebugLog;
+import android.text.TextUtils;
+
+public class Mrl {
+    private static final String TAG = Mrl.class.getSimpleName();
+
+    private String mRawMrl; // "http/youku/mp4://location"
+    private String mScheme; // "http", required

@@ -1,0 +1,10 @@
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }
+    }
+
+    public static class searchApp<I extends Iface> extends org.apache.thrift.ProcessFunction<I, searchApp_args> {

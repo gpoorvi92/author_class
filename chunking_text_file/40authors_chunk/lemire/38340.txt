@@ -1,0 +1,10 @@
+public class MemoryMapTest
+{
+
+	@Test
+	public void basicTest() throws IOException, CloneNotSupportedException {
+		EWAHCompressedBitmap32 ewahBitmap = EWAHCompressedBitmap32.bitmapOf(0, 2, 55,
+				64, 1 << 30);
+		EWAHCompressedBitmap32 newewahBitmap = ewahBitmap.clone();
+		Assert.assertEquals(newewahBitmap, ewahBitmap);		
+		ByteArrayOutputStream bos = new ByteArrayOutputStream();

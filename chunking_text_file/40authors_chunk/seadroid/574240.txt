@@ -1,0 +1,10 @@
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getSupportMenuInflater();
+        inflater.inflate(R.menu.transfer_list_menu, menu);
+        overFlowMenu = menu;
+        return true;
+    }
+    
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        // MenuItem cancel = menu.findItem(R.id.cancel_transfer_tasks);

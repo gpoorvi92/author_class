@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.text.*;
+import java.util.*;
+
+public interface mainInterface
+{
+	public static Splash splash3 = new Splash("Starting App...");
+	public Thread th = new Thread(splash3);
+	public ImageIcon splPic = new ImageIcon("splash.jpg");

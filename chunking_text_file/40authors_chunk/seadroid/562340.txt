@@ -1,0 +1,10 @@
+    public SeafDirent getItem(int position) {
+        return dirents.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    public void clearDirents() {

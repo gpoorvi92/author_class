@@ -1,0 +1,10 @@
+      if (incoming.get(0)) {
+        struct.processName = iprot.readString();
+        struct.setProcessNameIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.threadName = iprot.readString();
+        struct.setThreadNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.checkTime = iprot.readString();

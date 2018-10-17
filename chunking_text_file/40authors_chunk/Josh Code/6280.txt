@@ -1,0 +1,10 @@
+package UI;
+
+import fileIO.*;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+/** Something to help the user see the progress while loading large files
+ */
+public class progressPainter implements loadProgressListener,ComponentListener

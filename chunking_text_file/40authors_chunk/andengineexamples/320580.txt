@@ -1,0 +1,10 @@
+
+		this.mScene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		this.mScene.setTouchAreaBindingOnActionDownEnabled(true);
+
+		return this.mScene;
+	}
+
+	// ===========================================================
+	// Methods

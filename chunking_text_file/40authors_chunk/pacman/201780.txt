@@ -1,0 +1,10 @@
+ * @date: 2014年12月17日 下午2:46:57
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms;
+
+import java.util.Map;
+
+
+/**
+ * JMS Sender interface.

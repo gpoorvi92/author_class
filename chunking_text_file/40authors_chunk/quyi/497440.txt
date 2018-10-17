@@ -1,0 +1,10 @@
+  }
+
+  private static class EngineTupleScheme extends TupleScheme<Engine> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, Engine struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetEngineId()) {
+        optionals.set(0);

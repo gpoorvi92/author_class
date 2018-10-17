@@ -1,0 +1,10 @@
+			
+			if (isChunkedResponse == true) {
+				out.write(HTTP.CRLF.getBytes());
+				out.write("0".getBytes());
+				out.write(HTTP.CRLF.getBytes());
+			}
+			
+			out.flush();
+		}
+		catch (Exception e) {

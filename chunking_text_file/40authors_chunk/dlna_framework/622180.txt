@@ -1,0 +1,10 @@
+	
+	public AllowedValue getAllowedValue(int n)
+	{
+		return (AllowedValue)get(n);
+	}
+
+	public boolean isAllowed(String v){
+		for (Iterator i = this.iterator(); i.hasNext();) {
+			AllowedValue av = (AllowedValue) i.next();
+			if(av.getValue().equals(v))

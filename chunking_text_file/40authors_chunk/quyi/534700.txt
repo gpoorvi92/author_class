@@ -1,0 +1,10 @@
+            }
+            break;
+          case 12: // LINE_NUM
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.lineNum = iprot.readI32();
+              struct.setLineNumIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

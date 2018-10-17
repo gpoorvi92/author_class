@@ -1,0 +1,10 @@
+            }
+            break;
+          case 8: // DATA_CHAR
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.dataChar = iprot.readString();
+              struct.setDataCharIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

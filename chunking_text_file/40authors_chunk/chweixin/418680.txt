@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 顶部Banner头。
+	 * */
+	public String top(){
+		return "top";
+	}
+	/**
+	 * 左边菜单。
+	 * */

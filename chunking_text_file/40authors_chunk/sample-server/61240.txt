@@ -1,0 +1,10 @@
+    public void connect()
+    {
+        if (!isConnected())
+        {
+            try
+            {
+                bootstrap = new ClientBootstrap(new NioClientSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));
+                bootstrap.setPipelineFactory(new NettyRpcClientPipelineFactory());
+                bootstrap.setOption("keepAlive", true);
+                bootstrap.setOption("tcpNoDelay", true);

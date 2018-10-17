@@ -1,0 +1,10 @@
+class SerialTransferable implements Transferable
+{
+   private Serializable obj;
+
+   /**
+    * Constructs the selection.
+    * @param o any serializable object
+    */
+   SerialTransferable(Serializable o)
+   {

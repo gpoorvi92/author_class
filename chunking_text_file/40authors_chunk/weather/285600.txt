@@ -1,0 +1,10 @@
+                final ArrayList<Pair<String, String>> newValues = new ArrayList<Pair<String, String>>();
+
+                for (int i = 0; i < count; i++) {
+                    //将列表的值 每一项和 输入的值进行对比，看看是否要保留
+                    final Pair<String, String> value = values.get(i);
+                    final String valueText = value.first;
+
+                    // First match against the whole, non-splitted value
+                    if (valueText.startsWith(prefixString)) {
+                        newValues.add(value);

@@ -1,0 +1,10 @@
+            intent_.setFlags(flags);
+            return this;
+        }
+
+        public void start() {
+            context_.startActivity(intent_);
+        }
+
+        public void startForResult(int requestCode) {
+            if (context_ instanceof Activity) {

@@ -1,0 +1,10 @@
+				}
+				cachedPwr = new PrintWriter(new FileWriter(LOG_FILE_BASE_DIR
+				    + retrieveLogFileName(newTimeStamp)), true);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	private String retrieveLogFileName(long timeStamp) {

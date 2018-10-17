@@ -1,0 +1,10 @@
+         else if (index1 >= 1)
+             ln = ln.substring(0, index1);
+
+         return ln.trim();
+    }
+
+}
+
+
+

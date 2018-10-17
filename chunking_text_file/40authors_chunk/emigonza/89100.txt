@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface FiscalPrinterService15
+  extends FiscalPrinterService14, JposServiceInstance

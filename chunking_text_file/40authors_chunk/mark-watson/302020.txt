@@ -1,0 +1,10 @@
+    return ret;
+  }
+  
+  static public String getCacheContent(String cache_uri) throws IOException {
+    URL url = new URL(cache_uri);
+    URLConnection uc = url.openConnection();
+    return new Scanner(uc.getInputStream()). useDelimiter("\\Z").next();
+  }
+  
+  /**

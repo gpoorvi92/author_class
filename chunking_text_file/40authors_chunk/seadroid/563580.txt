@@ -1,0 +1,10 @@
+    protected void onValidateUserInput() throws Exception {
+        String dirName = dirNameText.getText().toString().trim();
+
+        if (dirName.length() == 0) {
+            String err = getActivity().getResources().getString(R.string.dir_name_empty);
+            throw new Exception(err);
+        }
+    }
+
+    @Override

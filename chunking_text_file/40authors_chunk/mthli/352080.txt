@@ -1,0 +1,10 @@
+   {     
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      list1 = new ImageList(Paths.get(getClass().getPackage().getName(), "images1"));
+      list2 = new ImageList(Paths.get(getClass().getPackage().getName(), "images2"));
+      
+      setLayout(new GridLayout(2, 1));
+      add(new JScrollPane(list1));
+      add(new JScrollPane(list2));
+   }

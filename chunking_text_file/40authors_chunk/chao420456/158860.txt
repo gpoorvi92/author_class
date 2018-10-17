@@ -1,0 +1,10 @@
+		mb.add(m);
+
+		// 添加到窗体
+		f.setMenuBar(mb);
+
+		// 注册事件
+		f.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);

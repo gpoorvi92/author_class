@@ -1,0 +1,10 @@
+      switch (field) {
+      case SUCCESS:
+        if (value == null) {
+          unsetSuccess();
+        } else {
+          setSuccess((com.nercis.isscp.idl.Result)value);
+        }
+        break;
+
+      case IRE:

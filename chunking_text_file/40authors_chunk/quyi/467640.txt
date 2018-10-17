@@ -1,0 +1,10 @@
+  public List<Activity> getRuleTypes() {
+    return this.ruleTypes;
+  }
+
+  public Rules setRuleTypes(List<Activity> ruleTypes) {
+    this.ruleTypes = ruleTypes;
+    return this;
+  }
+
+  public void unsetRuleTypes() {

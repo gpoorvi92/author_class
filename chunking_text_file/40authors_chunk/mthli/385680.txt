@@ -1,0 +1,10 @@
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // construct tree
+
+      TreeNode root = makeSampleTree();
+      model = new DefaultTreeModel(root);
+      tree = new JTree(model);
+      tree.setEditable(true);
+
+      // add scroll pane with tree

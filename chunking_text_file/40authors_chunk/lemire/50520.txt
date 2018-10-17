@@ -1,0 +1,10 @@
+    public EWAHPointer32(final int previousEndRun,
+                         final IteratingBufferedRunningLengthWord32 rw, final int pos) {
+        this.pos = pos;
+        this.iterator = rw;
+        if (this.iterator.getRunningLength() > 0) {
+            this.endrun = previousEndRun
+                    + this.iterator.getRunningLength();
+            this.isLiteral = false;
+            this.value = this.iterator.getRunningBit();
+        } else if (this.iterator.getNumberOfLiteralWords() > 0) {

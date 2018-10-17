@@ -1,0 +1,10 @@
+     * @return	config.properties
+     */
+    public String reportEngineConfig() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+
+    /**
+     * report config.properties in taskmanager
+     * @return	config.properties
+     */
+    public String reportTaskManagerConfig() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+

@@ -1,0 +1,10 @@
+    /**
+     * 将字符编码转换成UTF-8码
+     */
+    public static String toUTF_8(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, UTF_8);
+    }
+
+    /**
+     * 将字符编码转换成UTF-16BE码
+     */

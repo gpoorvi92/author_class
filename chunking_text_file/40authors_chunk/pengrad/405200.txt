@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.request;
+
+import java.io.File;
+
+/**
+ * stas
+ * 5/2/16.
+ */
+public class SendAudio extends AbstractMultipartRequest<SendAudio> {
+

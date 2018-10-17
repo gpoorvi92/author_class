@@ -1,0 +1,10 @@
+    }
+
+    public File getFile()
+    {
+        return file;
+    }
+
+    public String getName()
+    {
+        return name;

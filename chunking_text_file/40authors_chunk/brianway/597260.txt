@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example2;
+
+/**
+ * Created by Brian on 2016/4/13.
+ */
+
+/**
+ * P137
+ * 没有“对象监视器”，调用wait()方法出现运行时异常
+ */

@@ -1,0 +1,10 @@
+    }
+
+    public WriterOutputStream(Writer writer, String charsetName, int bufferSize, boolean writeImmediately)
+    {
+        this(writer, Charset.forName(charsetName), bufferSize, writeImmediately);
+    }
+
+    public WriterOutputStream(Writer writer, String charsetName)
+    {
+        this(writer, charsetName, 1024, false);

@@ -1,0 +1,10 @@
+
+	private final static String DIRECTION = "direction";
+	
+	public void setDirection(String value)
+	{
+		getArgumentNode().setNode(DIRECTION, value);
+	}
+
+	public String getDirection()
+	{

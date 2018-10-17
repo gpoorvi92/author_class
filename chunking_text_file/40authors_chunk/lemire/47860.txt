@@ -1,0 +1,10 @@
+    @Override
+    public BufferedIterator clone() throws CloneNotSupportedException {
+        BufferedIterator answer = (BufferedIterator) super.clone();
+        answer.iteratingBrlw = this.iteratingBrlw.clone();
+        answer.masterIterator = this.masterIterator.clone();
+        return answer;
+    }
+
+    private IteratingBufferedRunningLengthWord iteratingBrlw;
+    private CloneableIterator<EWAHIterator> masterIterator;

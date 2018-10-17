@@ -1,0 +1,10 @@
+        }
+        assertEquals(32, ctr);
+    }
+
+    @Test
+    public void testConsecCleanStartOnes() {
+        System.out
+                .println("testing int iteration, 2 consec clean runs starting with ones");
+        EWAHCompressedBitmap32 e = new EWAHCompressedBitmap32();
+        for (int i = 0; i < 2 * 32; ++i)

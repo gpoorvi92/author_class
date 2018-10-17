@@ -1,0 +1,10 @@
+      } else {
+        setOperateContent((String)value);
+      }
+      break;
+
+    case OPERATE_TIME:
+      if (value == null) {
+        unsetOperateTime();
+      } else {
+        setOperateTime((String)value);

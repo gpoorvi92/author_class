@@ -1,0 +1,10 @@
+    public static Map<String,Map<String,BeanStruct>> BEAN_SIMPLE_PROPERTIESIGNORE = new Hashtable<>();
+
+
+    static {
+        //可以实现实现明确的JavaBean的配置
+    }
+
+    public static boolean isDeclaredField(String className, String pro) throws ClassNotFoundException {
+        Class   classz = Class.forName(className);
+        Field[] fields = classz.getFields();

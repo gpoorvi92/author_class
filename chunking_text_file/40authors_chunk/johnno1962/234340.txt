@@ -1,0 +1,10 @@
+    public native void __mouseClicked( java.awt.event.MouseEvent e );
+
+    boolean entered_mouseClicked_2;
+
+    public void mouseClicked( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseClicked_2 ) {
+            entered_mouseClicked_2 = true;
+            __mouseClicked( e );
+            entered_mouseClicked_2 = false;
+        }

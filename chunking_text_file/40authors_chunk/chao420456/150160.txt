@@ -1,0 +1,10 @@
+			n = 20;
+			System.out.println(10 / 0);
+			n = 30;
+		} catch (ArithmeticException e) {
+			n = 40;
+			return n;
+		} finally {
+			n = 50;
+			return n;
+		}

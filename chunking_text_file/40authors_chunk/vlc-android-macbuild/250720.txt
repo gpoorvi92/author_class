@@ -1,0 +1,10 @@
+        DebugLog.v(TAG, "Initializing LibVLC");
+        if (!mIsInitialized) {
+            nativeInitEx(Pragma.DEBUG, params);
+            setEventManager(EventManager.getIntance());
+            mIsInitialized = true;
+        }
+    }
+
+    /**
+     * Destroy this libVLC instance

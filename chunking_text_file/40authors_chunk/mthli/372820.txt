@@ -1,0 +1,10 @@
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   public SimpleTreeFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // set up tree model data
+
+      DefaultMutableTreeNode root = new DefaultMutableTreeNode("World");

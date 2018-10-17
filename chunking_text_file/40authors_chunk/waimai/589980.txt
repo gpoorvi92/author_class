@@ -1,0 +1,10 @@
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status == null ? null : status.trim();
+    }
+
+    public String getAddress() {
+        return address;
+    }

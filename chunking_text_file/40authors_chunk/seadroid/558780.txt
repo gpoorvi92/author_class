@@ -1,0 +1,10 @@
+            @Override
+            protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
+                return size() > capacity;
+            }
+        };
+    }
+
+    private static class Entry<K, V> extends WeakReference<V> {
+        K mKey;
+

@@ -1,0 +1,10 @@
+    }
+    if (isSetUsedPermissions()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.usedPermissions, other.usedPermissions);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetPlotsStatus()).compareTo(other.isSetPlotsStatus());
+    if (lastComparison != 0) {
+      return lastComparison;

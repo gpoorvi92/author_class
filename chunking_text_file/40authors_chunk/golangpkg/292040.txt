@@ -1,0 +1,10 @@
+			requestsBeingProcessed += entry.getValue().isProcessing() ? 1 : 0;
+		}
+		log.trace("refilling the upload allowance of the " + requestsBeingProcessed + " uploads being processed");
+
+		// if we have entries
+		if (requestsBeingProcessed > 0) {
+
+			// calculate maximum limitation
+			// and assign it
+			uploadProcessingOperationManager.getMasterProcessingOperation().setDownloadAllowanceForIteration(

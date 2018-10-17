@@ -1,0 +1,10 @@
+                  }
+               }
+               catch (PrinterException e)
+               {
+                  JOptionPane.showMessageDialog(BookTestFrame.this, e);
+               }
+            }
+         });
+
+      JButton pageSetupButton = new JButton("Page setup");

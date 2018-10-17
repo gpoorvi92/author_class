@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       May 14, 2013
+ Problem:    Triangle
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/triangle/
+ Notes:
+ Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below.
+ For example, given the following triangle
+ [

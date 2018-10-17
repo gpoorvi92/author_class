@@ -1,0 +1,10 @@
+    void addSaleCount(@Param("id") Integer id, @Param("saleCount") Integer saleCount);
+
+    void addNumber(@Param("id") Integer id, @Param("number") Integer number);
+
+    void addRemarkCount(Integer id);
+
+    List<Goods> findByMerchantId(Integer merchantId);
+
+    Goods getDetailById(Integer id);
+

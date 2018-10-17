@@ -1,0 +1,10 @@
+			return null;
+		return bodyNode.getNode(0);
+	}
+
+	public String getActionName()
+	{
+		Node node = getActionNode();
+		if (node == null)
+			return "";
+		String name = node.getName();

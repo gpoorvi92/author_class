@@ -1,0 +1,10 @@
+            onTaskFailed(info.err);
+            break;
+        case FINISHED:
+            onTaskFinished();
+            break;
+        }
+    }
+
+    private TaskDialog.TaskDialogListener getPasswordDialogListener() {
+        return new TaskDialog.TaskDialogListener() {

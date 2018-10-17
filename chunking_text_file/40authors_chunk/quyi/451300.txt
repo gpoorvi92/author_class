@@ -1,0 +1,10 @@
+        };
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, searchAllEng_args args, org.apache.thrift.async.AsyncMethodCallback<List<Engine>> resultHandler) throws TException {
+        iface.searchAllEng(resultHandler);
+      }

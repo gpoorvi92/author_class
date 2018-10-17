@@ -1,0 +1,10 @@
+	@Test
+	public void testClearFile()
+			throws IOException, InterruptedException, ExecutionException, TimeoutException {
+		String randomValue = "a";
+		UUID fileId = UUID.randomUUID();
+
+		// get entity
+		StaticStatePersistedOnFileSystemEntity entity = staticStateManager.getEntity();
+		StaticFileState value = new StaticFileState();
+		FileStateJsonBase staticFileStateJson = new FileStateJsonBase();

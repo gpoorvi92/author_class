@@ -1,0 +1,10 @@
+
+	public SelectDialog(Context context, List<String> dataList) {
+		super(context);
+		this.mContext = context;
+		this.dataList = dataList;
+	}
+
+	public SelectDialog(Context context, int theme) {
+		super(context, theme);
+		this.mContext = context;

@@ -1,0 +1,10 @@
+                    if (slope == -0.0) slope = 0.0;
+                } else if (points[i].y == points[j].y) {
+                    sp += 1; continue;
+                }
+                int tmp = 2;
+                if (m.containsKey(slope)) {
+                    tmp = m.get(slope) + 1;
+                }
+                m.put(slope, tmp);
+                ss = Math.max(ss, tmp);

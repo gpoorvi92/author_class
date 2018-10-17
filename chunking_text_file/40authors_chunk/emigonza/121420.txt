@@ -1,0 +1,10 @@
+  public static final int CACC_STATUS_DEPOSIT_START    = 1;
+  public static final int CACC_STATUS_DEPOSIT_END      = 2;
+  public static final int CACC_STATUS_DEPOSIT_COUNT    = 4;
+  public static final int CACC_STATUS_DEPOSIT_JAM      = 5;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "EndDeposit" Method Constants
+  /////////////////////////////////////////////////////////////////////
+

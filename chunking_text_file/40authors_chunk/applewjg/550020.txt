@@ -1,0 +1,10 @@
+    }
+    public List<List<Integer>> subsets_1(int[] S) {
+        Arrays.sort(S);
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        List<Integer> path = new ArrayList<Integer>();
+        subsetsRe(S, 0, path, res);
+        return res;
+    }
+    void subsetsRe(int[] S, int start, List<Integer> path, List<List<Integer>> res) {
+        List<Integer> sub = new ArrayList<Integer>(path);

@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置二维码的ticket,可用来换取二维码图片。
+	 * @param ticket
+	 * 	二维码的ticket。
+	 * */
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
+	}
+}

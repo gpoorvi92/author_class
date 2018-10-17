@@ -1,0 +1,10 @@
+		for (int i=0; i < wordL; ++i) {
+			possible.add(word.substring(0, i) + word.substring(i+1));
+		}
+		// reverse order of 2 characters:
+		for (int i=0; i < wordLm1; ++i) {
+			possible.add(word.substring(0, i) + word.substring(i+1, i+2) +
+					     word.substring(i, i+1) + word.substring(i+2));
+		}
+		// replace a character in each location in the word:
+		for (int i=0; i < wordL; ++i) {

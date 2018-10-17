@@ -1,0 +1,10 @@
+
+    public void setNumber(Integer number) {
+        this.number = number;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {

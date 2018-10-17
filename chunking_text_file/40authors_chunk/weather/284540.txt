@@ -1,0 +1,10 @@
+ * A request for retrieving a {@link JSONObject} response body at a given URL, allowing for an
+ * optional {@link JSONObject} to be passed in as part of the request body.
+ */
+public class JsonObjectRequest extends JsonRequest<JSONObject> {
+
+    /**
+     * Creates a new request.
+     * @param method the HTTP method to use
+     * @param url URL to fetch the JSON from
+     * @param jsonRequest A {@link JSONObject} to post with the request. Null is allowed and

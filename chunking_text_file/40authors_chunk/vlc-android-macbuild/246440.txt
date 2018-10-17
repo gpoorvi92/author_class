@@ -1,0 +1,10 @@
+    /*---------------------------------
+     * call from native
+     */
+    public void setSurfaceSize(int width, int height) {
+        DebugLog.vfmt(TAG, "native setSurfaceSize %d, %d", width, height);
+        mVideoWidth = width;
+        mVideoHeight = height;
+
+        Message msg = mVlcHandler
+                .obtainMessage(LibVlcMessages.VLC_VIDEO_SIZE_CHANGED);

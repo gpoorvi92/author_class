@@ -1,0 +1,10 @@
+		
+    	JPanel p2 = new JPanel();
+    	p2.setLayout(new GridLayout(3,1,10,10));
+    	//p2.add(new JLabel (""));
+    	p2.add(new JLabel("Number Table : "+numtable));
+    	//p2.add(new JLabel (""));
+    	//p2.add(new JLabel (""));
+    	p2.add(new JLabel ("Number Person Per Table : "+numperson));
+    	//p2.add(new JLabel (""));
+    	//p2.add(new JLabel (""));

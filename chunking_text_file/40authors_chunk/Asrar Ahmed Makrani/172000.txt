@@ -1,0 +1,10 @@
+	
+	public JLabel print_label = new JLabel("Print Layout");
+	
+	
+	public JTextField item_id_text = new JTextField(5);
+	public JTextField item_title_text = new JTextField(20);
+	public JTextField item_type_text = new JTextField(10);
+	
+	public JTextField location_text = new JTextField(20);
+	public JTextField author_text = new JTextField(10);

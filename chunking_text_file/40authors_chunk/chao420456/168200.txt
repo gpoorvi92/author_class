@@ -1,0 +1,10 @@
+		// 重点来了
+		// 就是如何判断循环什么时候结束
+		// by = fis.read();
+		// System.out.println(by);
+		// by = fis.read();
+		// System.out.println(by);
+		// 通过测试我们发现，这个判断条件值是-1
+
+		// int by = fis.read();
+		// while (by != -1) {

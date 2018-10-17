@@ -1,0 +1,10 @@
+		file.createNewFile();
+		Assert.assertTrue(file.exists());
+
+		// clear it
+		staticStateManager.clearFile(fileId);
+
+		// reget it
+		StaticFileState staticFileState = staticStateManager.getEntity().getFileStates().get(fileId);
+		Assert.assertNull(staticFileState);
+

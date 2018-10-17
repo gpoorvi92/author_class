@@ -1,0 +1,10 @@
+    public native void __internalFrameClosed( javax.swing.event.InternalFrameEvent e );
+
+    boolean entered_internalFrameClosed_2;
+
+    public void internalFrameClosed( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameClosed_2 ) {
+            entered_internalFrameClosed_2 = true;
+            __internalFrameClosed( e );
+            entered_internalFrameClosed_2 = false;
+        }

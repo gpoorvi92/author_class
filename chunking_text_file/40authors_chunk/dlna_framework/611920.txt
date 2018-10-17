@@ -1,0 +1,10 @@
+	}
+	
+	public SSDPSearchResponseSocket(String bindAddr, int port)
+	{
+		super(bindAddr, port);
+		setControlPoint(null);
+	}
+
+	////////////////////////////////////////////////
+	//	ControlPoint	

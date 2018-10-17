@@ -1,0 +1,10 @@
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.QueryBuilder;
+import com.mongodb.WriteConcern;
+
+public class AccountDAO extends AbstractDAO implements DAO{
+	private static final String COLLECTION_ACCOUNT="account";
+	
+	static{
+		//创建索引，无就创建，有就忽略

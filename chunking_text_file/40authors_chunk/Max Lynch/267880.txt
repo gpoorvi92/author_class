@@ -1,0 +1,10 @@
+/* GraphicsFrame.java : You could refer to this class as the backbone 
+ * of the GraphicsStudio.  Its got all the things a little 
+ * boy could ever dream of.  And then some. */
+
+
+
+package com.gs.ui;
+
+
+import javax.swing.*;

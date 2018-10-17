@@ -1,0 +1,10 @@
+      if (!this.deviceType.equals(that.deviceType))
+        return false;
+    }
+
+    return true;
+  }
+
+  @Override
+  public int hashCode() {
+    return 0;

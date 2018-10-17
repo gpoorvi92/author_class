@@ -1,0 +1,10 @@
+		}
+		logger.info("模拟菜单点击事件处理...");
+		context.setLastMenuKey(menu.getCode());
+		ClickEventMessage clickEventMessage = new ClickEventMessage();
+		clickEventMessage.setEvent(WeChatContext.EVENT_MESSAGE_TYPE_CLICK);
+		clickEventMessage.setEventKey(context.getLastMenuKey());
+		clickEventMessage.setFromUserName(req.getFromUserName());
+		clickEventMessage.setToUserName(req.getToUserName());
+		clickEventMessage.setCreateTime(req.getCreateTime());
+		return this.orderMessageHandlers.messageHandler(context, clickEventMessage);

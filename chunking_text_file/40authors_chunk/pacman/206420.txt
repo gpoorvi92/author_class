@@ -1,0 +1,10 @@
+		}
+		
+		return file.substring(0, file.indexOf('.'));
+	}
+	
+	/**
+	 * Gets bare file name.
+	 * 
+	 * @param url
+	 * @return

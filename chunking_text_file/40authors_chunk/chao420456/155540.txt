@@ -1,0 +1,10 @@
+	//¾²Ì¬´úÂë¿é
+	static {
+		System.out.println("AAAAA"); 
+	}
+
+	/*
+	public Code() {
+	}
+
+	public Code(String s) {

@@ -1,0 +1,10 @@
+//@Entity
+//@Table(name = "gm_cdkey")
+public class CDKeyEntity implements ToDtoable<RpcDto.CdKeyDTO>
+{             //extends Persistance
+    //@Column(name = "gift_id")
+    private int    giftId;
+    //@Column(name = "name")
+    private String cdName;
+    //@Column(name = "legeal_count")
+    private int    legealCount;

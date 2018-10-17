@@ -1,0 +1,10 @@
+                str[k++] = hexDigits[byte0 >>> 4 & 0xf];// 取字节中高 4 位的数字转换,// >>>
+                // 为逻辑右移，将符号位一起右移
+                str[k++] = hexDigits[byte0 & 0xf];// 取字节中低 4 位的数字转换
+
+            }
+            s = new String(str);// 换后的结果转换为字符串
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }

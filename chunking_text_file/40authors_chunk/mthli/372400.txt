@@ -1,0 +1,10 @@
+      saveItem.addActionListener(EventHandler.create(ActionListener.class, this, "save"));
+      
+      pack();
+   }
+
+   /**
+    * Gets the title from the persistent store or asks the user for the title if there is no prior
+    * entry.
+    */
+   public void setTitle()

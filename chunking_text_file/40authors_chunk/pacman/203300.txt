@@ -1,0 +1,10 @@
+			}
+			
+			if (eles != null) {
+				for(Element subnode: eles) {
+					
+					attribute = subnode.attribute("url");
+					if (attribute != null) {
+						//String file = StringHelper.getFileBareName(attribute.getValue());
+						String file = attribute.getValue();
+						if (!!StringHelper.isEmpty(file)) {

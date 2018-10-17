@@ -1,0 +1,10 @@
+import java.util.Collections;
+import java.util.Map;
+
+/**
+ * Data and headers returned from {@link Network#performRequest(Request)}.
+ */
+public class NetworkResponse {
+    /**
+     * Creates a new network response.
+     * @param statusCode the HTTP status code

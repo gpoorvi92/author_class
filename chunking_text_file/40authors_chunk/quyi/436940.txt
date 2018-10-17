@@ -1,0 +1,10 @@
+          for (String _iter50 : struct.sensitive)
+          {
+            oprot.writeString(_iter50);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.autoRunMonitor != null) {
+        oprot.writeFieldBegin(AUTO_RUN_MONITOR_FIELD_DESC);

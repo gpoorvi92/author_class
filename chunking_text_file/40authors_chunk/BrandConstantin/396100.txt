@@ -1,0 +1,10 @@
+            verdadero = false;
+        }
+        
+        if (((hora1 < 0) || (hora1 > 23)) || ((hora2 < 0) || (hora2 > 23))){
+            System.out.println("Introduce una hora correcto (0-23)");        
+            verdadero = false;
+        }
+    } while (!verdadero);
+    
+    System.out.println("Entre " + hora1 + " primera hora del dia " + nombreDiaUno + " y la seguna " + 

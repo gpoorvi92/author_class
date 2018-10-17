@@ -1,0 +1,10 @@
+     * @param toCharsetName 要转换的编码
+     * @param content       文件内容
+     */
+    public static void saveFile2Charset(File file, String toCharsetName, String content) {
+        if (!Charset.isSupported(toCharsetName)) {
+            throw new UnsupportedCharsetException(toCharsetName);
+        }
+        try (
+                OutputStream outputStream = new FileOutputStream(file);
+                OutputStreamWriter outWrite = new OutputStreamWriter(outputStream, toCharsetName)

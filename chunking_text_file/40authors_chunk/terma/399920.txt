@@ -1,0 +1,10 @@
+    @Test
+    public void shouldFailWhenCantFindRemotePort() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Please specify test1.remotePort");
+        properties.remove("test1.remotePort");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test

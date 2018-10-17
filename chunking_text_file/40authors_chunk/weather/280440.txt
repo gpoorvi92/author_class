@@ -1,0 +1,10 @@
+    }
+
+    public AuthFailureError(String message, Exception reason) {
+        super(message, reason);
+    }
+
+    public Intent getResolutionIntent() {
+        return mResolutionIntent;
+    }
+

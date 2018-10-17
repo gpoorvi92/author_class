@@ -1,0 +1,10 @@
+			this.addRectangleWithTension(scene, tension, MathUtils.random(0, DURATION * 2f));
+		}
+
+		return scene;
+	}
+
+	private void addRectangleWithTension(final Scene pScene, final float pTension, float pDelay) {
+		final Rectangle rectangle = new Rectangle(-SIZE, -SIZE, SIZE, SIZE, this.getVertexBufferObjectManager());
+		rectangle.setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE);
+		if(pTension < 0) {

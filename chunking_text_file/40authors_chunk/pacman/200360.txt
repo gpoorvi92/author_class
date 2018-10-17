@@ -1,0 +1,10 @@
+		assertEquals(140118, info.getClassID());
+		assertEquals(253772, info.getLessonID());
+		assertEquals("100010040.mp3", info.getMedia());
+		assertEquals(3, info.getMediaType());
+		assertEquals("LessonName", info.getLessonName());
+		assertTrue(info.getAllFiles().size() > 0);
+		assertTrue(FileHelper.exists("e:/lesson.xml"));
+	}
+
+	@Test

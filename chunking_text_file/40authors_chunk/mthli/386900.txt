@@ -1,0 +1,10 @@
+      JFileChooser chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("dom"));
+
+      chooser.setFileFilter(new javax.swing.filechooser.FileFilter()
+         {
+            public boolean accept(File f)
+            {
+               return f.isDirectory() || f.getName().toLowerCase().endsWith(".xml");
+            }
+

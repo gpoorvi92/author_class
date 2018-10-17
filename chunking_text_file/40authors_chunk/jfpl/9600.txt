@@ -1,0 +1,10 @@
+		} else {
+			addInfoIv.setVisibility(View.VISIBLE);
+			sendChatLayout.setVisibility(View.GONE);
+		}
+	}
+
+	public void sendChatClick(View v) {
+		AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+		item.putStringValue("type", "1");
+		item.putStringValue("msg_type", "1");

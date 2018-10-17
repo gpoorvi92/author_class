@@ -1,0 +1,10 @@
+            thresholdReached();
+        }
+    }
+
+    protected void resetByteCount()
+    {
+        thresholdExceeded = false;
+        written = 0L;
+    }
+

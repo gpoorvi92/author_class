@@ -1,0 +1,9 @@
+    public static Model loadFromWaveFrontOBJ(Model m, File f, loadProgressListener progressListener) throws IOException
+    {
+        // check if this is binary or ascii
+
+        // if ascii
+        return PLYModelFileLoader.loadFromAsciiPolygonFile(m, f,progressListener);
+    }
+
+}

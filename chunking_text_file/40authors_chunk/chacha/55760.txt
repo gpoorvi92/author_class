@@ -1,0 +1,10 @@
+public class AuthRequest extends Request{
+	public static String CMD_AUTH="auth" ; //密码认证命令，命令号
+	public static String CMD_TOKEN="token";//令牌认证命令号
+	public static String CMD_LOGOUT="logout";//令牌注销命令号
+	
+	public static String KEY_USERNAME="name";	//用户名key
+	public static String KEY_PASSWD="passwd";	//密码key
+	public static String KEY_ACTION="action";	//认证回应行为
+	public static int NEEDTOKEN=0;	//回应消息返回令牌
+	public static int NOTOKEN=1;	//回应消息不需要令牌

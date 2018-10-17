@@ -1,0 +1,10 @@
+            return arg;
+        }
+
+        public short shortMethod( short arg ) {
+            return arg;
+        }
+
+        public short[] shortArrayMethod( short arg[] ) {
+            return arg;
+        }

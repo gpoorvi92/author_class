@@ -1,0 +1,6 @@
+	
+	public String TheMessage() {
+		return mstrTheMessage;	
+	}	
+}
+

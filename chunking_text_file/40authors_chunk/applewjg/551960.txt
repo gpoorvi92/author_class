@@ -1,0 +1,10 @@
+ [1,1,2], [1,2,1], and [2,1,1].
+
+ Solution: dfs...
+ */
+ public class Solution {
+    public List<List<Integer>> permuteUnique_1(int[] num) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        List<Integer> path = new ArrayList<Integer>();
+        Arrays.sort(num);
+        boolean[] visited = new boolean[num.length];

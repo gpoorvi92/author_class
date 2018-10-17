@@ -1,0 +1,10 @@
+      add(canvas, BorderLayout.CENTER);
+
+      buttonPanel = new JPanel();
+      buttonPanel.setLayout(new GridLayout(3, 3));
+      add(buttonPanel, BorderLayout.NORTH);
+
+      ButtonGroup group1 = new ButtonGroup();
+      makeCapButton("Butt Cap", BasicStroke.CAP_BUTT, group1);
+      makeCapButton("Round Cap", BasicStroke.CAP_ROUND, group1);
+      makeCapButton("Square Cap", BasicStroke.CAP_SQUARE, group1);

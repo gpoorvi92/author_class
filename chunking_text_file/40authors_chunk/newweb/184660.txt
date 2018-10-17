@@ -1,0 +1,10 @@
+		this.skLength = skLength;
+	}
+	public int getSkCount() {
+		return skCount;
+	}
+	public void setSkCount(int skCount) {
+		this.skCount = skCount;
+	}
+	public double getZzLength() {
+		return zzLength;

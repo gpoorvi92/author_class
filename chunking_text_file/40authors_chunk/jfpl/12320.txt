@@ -1,0 +1,10 @@
+		setResult(ConstVariables.SEND_IMAGE_FLAG, i);
+		finish();
+	}
+
+	@Override
+	protected void onGridItemClick(String prxName, android.widget.GridView g,
+			View v, int position, long id) {
+		setCheckBoxEvent(v, (AbstractCommonData) v.getTag());
+	}
+

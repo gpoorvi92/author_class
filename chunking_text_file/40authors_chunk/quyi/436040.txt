@@ -1,0 +1,10 @@
+    if (that == null)
+      return false;
+
+    boolean this_present_apkMD5 = true && this.isSetApkMD5();
+    boolean that_present_apkMD5 = true && that.isSetApkMD5();
+    if (this_present_apkMD5 || that_present_apkMD5) {
+      if (!(this_present_apkMD5 && that_present_apkMD5))
+        return false;
+      if (!this.apkMD5.equals(that.apkMD5))
+        return false;

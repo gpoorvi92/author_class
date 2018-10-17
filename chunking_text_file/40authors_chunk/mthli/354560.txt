@@ -1,0 +1,10 @@
+   {
+      return "[" + i + "] " + array[i];
+   }
+
+   /**
+    * Sets a new array to be displayed in the list.
+    * @param a the new array
+    */
+   public void setArray(double[] a)
+   {

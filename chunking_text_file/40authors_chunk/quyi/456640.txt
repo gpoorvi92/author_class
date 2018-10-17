@@ -1,0 +1,10 @@
+      this.userAppId = null;
+    }
+
+    public String getMissionId() {
+      return this.missionId;
+    }
+
+    public searchApp_args setMissionId(String missionId) {
+      this.missionId = missionId;
+      return this;

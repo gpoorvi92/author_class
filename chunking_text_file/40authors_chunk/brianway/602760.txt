@@ -1,0 +1,10 @@
+            MyThread18_1 myThread18_1 = new MyThread18_1();
+            myThread18_1.setPriority(10);
+            //myThread18_1.setPriority(1);
+            myThread18_1.start();
+            MyThread18_2 myThread18_2 = new MyThread18_2();
+            //myThread18_2.setPriority(10);
+            myThread18_2.setPriority(1);
+            myThread18_2.start();
+        }
+    }

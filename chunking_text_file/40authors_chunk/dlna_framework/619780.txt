@@ -1,0 +1,10 @@
+			return false;
+		}
+		
+		return true;		
+	}
+	
+	public boolean open(String addr, int port, String bindAddr)
+	{
+		try {
+			return open(addr,port,InetAddress.getByName(bindAddr));

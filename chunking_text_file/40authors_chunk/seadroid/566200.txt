@@ -1,0 +1,10 @@
+        Log.d(DEBUG_TAG, "onActivityPaused");
+
+        if (activity.getClass() == UnlockGesturePasswordActivity.class)
+            return;
+
+        if (!isActiviyBeingChecked(activity)) {
+            settingsMgr.saveGestureLockTimeStamp();
+
+        }
+    }

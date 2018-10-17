@@ -1,0 +1,10 @@
+		canvas.drawText("是", 5, 460, paint); 
+		canvas.drawText("否", 300, 460, paint);
+	}
+	
+	@Override
+	public boolean onTouchEvent(MotionEvent event) {
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			int x = (int) event.getX();
+			int y = (int) event.getY();
+			if(x>3 && x<20 && y>440 && y<460){//点击是按钮

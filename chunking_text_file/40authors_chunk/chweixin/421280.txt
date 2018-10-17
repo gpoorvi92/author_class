@@ -1,0 +1,10 @@
+	@Override
+	protected Long total(WeChatAccountInfo info) {
+		return this.weChatAccountDao.total(info);
+	}
+
+	@Override
+	public WeChatAccountInfo update(WeChatAccountInfo info) {
+		if(info != null){
+			boolean isAdded = false;
+			WeChatAccount data = (info.getId() == null || info.getId().trim().isEmpty()) ?  null : this.weChatAccountDao.load(WeChatAccount.class, info.getId());

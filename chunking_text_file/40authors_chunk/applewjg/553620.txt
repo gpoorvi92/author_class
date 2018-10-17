@@ -1,0 +1,10 @@
+            Arrays.fill(used,false);
+                for(int i = r*3;i<r*3+3;i++){
+                    for(int j = c*3;j<c*3+3;j++){
+                        if(check(board[i][j],used)==false) return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }

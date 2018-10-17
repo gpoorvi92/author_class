@@ -1,0 +1,10 @@
+    /** The default backoff multiplier */
+    public static final float DEFAULT_BACKOFF_MULT = 1f;
+
+    /**
+     * Constructs a new retry policy using the default timeouts.
+     */
+    public DefaultRetryPolicy() {
+        this(DEFAULT_TIMEOUT_MS, DEFAULT_MAX_RETRIES, DEFAULT_BACKOFF_MULT);
+    }
+

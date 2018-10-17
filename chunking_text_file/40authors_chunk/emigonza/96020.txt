@@ -1,0 +1,10 @@
+    public int     getEnforcedShutdownDelayTime() throws JposException;
+    public void    setEnforcedShutdownDelayTime(int delay)
+                       throws JposException;
+    public int     getPowerFailDelayTime() throws JposException;
+    public int     getPowerNotify() throws JposException;
+    public void    setPowerNotify(int powerNotify) throws JposException;
+    public int     getPowerState() throws JposException;
+    public boolean getQuickChargeMode() throws JposException;
+    public int     getQuickChargeTime() throws JposException;
+    public int     getUPSChargeState() throws JposException;

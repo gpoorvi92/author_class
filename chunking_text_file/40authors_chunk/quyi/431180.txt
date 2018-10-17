@@ -1,0 +1,10 @@
+  public void setFeaturesCharactersIsSet(boolean value) {
+    if (!value) {
+      this.featuresCharacters = null;
+    }
+  }
+
+  public int getApiCheckSize() {
+    return (this.apiCheck == null) ? 0 : this.apiCheck.size();
+  }
+

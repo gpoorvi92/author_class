@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.domain;
+
+import cn.abovesky.shopping.base.BaseDomain;
+
+public class OrderDetail extends BaseDomain {
+    private Integer id;
+
+    private Integer goodsId;
+
+    private Integer merchantId;

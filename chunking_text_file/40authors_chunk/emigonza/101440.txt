@@ -1,0 +1,10 @@
+    public int     getCapBlink() throws JposException;
+    public boolean getCapBrightness() throws JposException;
+    public int     getCapCharacterSet() throws JposException;
+    public boolean getCapDescriptors() throws JposException;
+    public boolean getCapHMarquee() throws JposException;
+    public boolean getCapICharWait() throws JposException;
+    public boolean getCapVMarquee() throws JposException;
+
+    // Properties
+    public int     getCharacterSet() throws JposException;

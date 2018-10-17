@@ -1,0 +1,10 @@
+      }
+      if (isSetPlots()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.plots, other.plots);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetUseRule()).compareTo(other.isSetUseRule());
+      if (lastComparison != 0) {
+        return lastComparison;

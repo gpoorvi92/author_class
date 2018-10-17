@@ -1,0 +1,10 @@
+
+	public void changeLayout(int flag) {
+		switch (flag) {
+		case 0:
+			addBindVeh.setVisibility(View.GONE);
+			bindLayout.setVisibility(View.VISIBLE);
+			vioLayout.setVisibility(View.GONE);
+			isShowBindFlag = true;
+			break;
+

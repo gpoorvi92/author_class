@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class modifyTaskManagerConfig_resultStandardSchemeFactory implements SchemeFactory {
+      public modifyTaskManagerConfig_resultStandardScheme getScheme() {
+        return new modifyTaskManagerConfig_resultStandardScheme();
+      }
+    }
+
+    private static class modifyTaskManagerConfig_resultStandardScheme extends StandardScheme<modifyTaskManagerConfig_result> {

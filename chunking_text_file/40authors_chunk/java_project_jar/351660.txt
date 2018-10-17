@@ -1,0 +1,10 @@
+        public String getPath()
+        {
+            return path;
+        }
+
+        public boolean delete()
+        {
+            return deleteStrategy.deleteQuietly(new File(path));
+        }
+

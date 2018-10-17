@@ -1,0 +1,10 @@
+        File f = new File(filename);
+        if (!f.exists()) {
+            throw new FileNotFoundException(filename);
+        }
+
+        FileChannel channel = null;
+        FileInputStream fs = null;
+        try {
+            fs = new FileInputStream(f);
+            channel = fs.getChannel();

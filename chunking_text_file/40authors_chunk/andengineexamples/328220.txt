@@ -1,0 +1,10 @@
+	public void onCreateResources() {
+		this.mFont = FontFactory.create(this.getFontManager(), this.getTextureManager(), 256, 256, TextureOptions.BILINEAR, Typeface.create(Typeface.DEFAULT, Typeface.BOLD), 48);
+		this.mFont.load();
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		final FPSCounter fpsCounter = new FPSCounter();
+		this.mEngine.registerUpdateHandler(fpsCounter);
+

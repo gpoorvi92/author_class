@@ -1,0 +1,10 @@
+                this.wait();
+            }
+            returnValue = list.get(0) + "  " + Thread.currentThread().getName();
+            list.remove(0);
+            this.notify();
+            System.out.println("pop = " + list.size() + "  Mystack的pop方法中 线程" + Thread.currentThread().getName());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return returnValue;

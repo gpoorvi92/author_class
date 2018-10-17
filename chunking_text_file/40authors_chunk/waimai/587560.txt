@@ -1,0 +1,10 @@
+        }
+        return true;
+    }
+
+    // 图片处理
+    public boolean compressPicWithInputStream() {
+        try {
+            Image img = ImageIO.read(inputStream);
+            // 判断图片格式是否正确
+            if (img.getWidth(null) == -1) {

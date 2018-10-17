@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import java.io.Serializable;
+import java.util.List;
+/**
+ * 微信菜单信息。
+ * @author yangyong.
+ * @since 2014-04-02.
+ * */
+public class WeChatMenuInfo implements Serializable{

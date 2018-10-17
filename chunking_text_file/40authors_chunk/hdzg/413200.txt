@@ -1,0 +1,10 @@
+				switch(status){
+				case 0://有钱进村庄时点确定进入村庄
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					recruitTroops();//招募军队
+					break;
+				case 1://无钱招兵时玩家点确认放弃
+				case 2://招兵 成功
+				case 3://招兵失败
+					recoverGame();
+					break;

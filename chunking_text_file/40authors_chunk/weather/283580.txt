@@ -1,0 +1,10 @@
+        networkResponse = response;
+    }
+
+    public VolleyError(String exceptionMessage) {
+       super(exceptionMessage);
+       networkResponse = null;
+    }
+
+    public VolleyError(String exceptionMessage, Throwable reason) {
+        super(exceptionMessage, reason);

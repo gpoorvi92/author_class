@@ -1,0 +1,10 @@
+					
+//					SingleRecordInfo singleRecordInfo1 = new SingleRecordInfo();
+//					singleRecordInfo1.setAppName(userAppInfo.getAppName());
+//					singleRecordInfo1.setAppSize(userAppInfo.getSize());
+//					singleRecordInfo1.setMd5(userAppInfo.getMd5());
+//					singleRecordInfo1.setStartedTime(time);
+//					singleRecordInfo1.setMissionId(realMissionId);
+//					singleRecordInfo1.setPlotsType(PlotsType.virusType);
+//					singleRecordInfo1.setUserAppId("MultiTest" + missionSize + (missionId * missionSize + i));
+//					SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo1);

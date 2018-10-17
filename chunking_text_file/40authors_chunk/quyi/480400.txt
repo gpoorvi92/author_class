@@ -1,0 +1,10 @@
+
+      switch (field) {
+      case MISSION_ID:
+        return isSetMissionId();
+      }
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {

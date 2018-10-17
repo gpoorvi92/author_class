@@ -1,0 +1,9 @@
+  }
+
+  private static void consumeContentQuietly(HttpResponse response) {
+    try {
+      response.getEntity().consumeContent();
+    } catch (Throwable ignored) {
+    }
+  }
+}

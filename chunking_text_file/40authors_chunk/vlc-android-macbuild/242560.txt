@@ -1,0 +1,8 @@
+            return new MediaResourceGroup(in);
+        }
+
+        public MediaResourceGroup[] newArray(int size) {
+            return new MediaResourceGroup[size];
+        }
+    };
+}

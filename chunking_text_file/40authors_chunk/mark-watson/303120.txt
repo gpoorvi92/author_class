@@ -1,0 +1,10 @@
+
+
+    Neural_1H nn = new Neural_1H(3, 3, 3);
+    Plot1DPanel inputPanel = new Plot1DPanel(3, 0f, 1.0f, nn.inputs);
+    Plot1DPanel hiddenPanel = new Plot1DPanel(3, 0f, 1.0f, nn.hidden);
+    Plot1DPanel outputPanel = new Plot1DPanel(3, 0f, 1.0f, nn.outputs);
+    Plot2DPanel w1Panel = new Plot2DPanel(3, 3, -1.0f, 1.0f, nn.W1);
+    Plot2DPanel w2Panel = new Plot2DPanel(3, 3, -4.0f, 4.0f, nn.W2);
+    JButton jButton1 = new JButton();
+    JLabel jLabel1 = new JLabel();

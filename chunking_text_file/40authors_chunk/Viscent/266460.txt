@@ -1,0 +1,10 @@
+			key = AlarmType.RESUME.toString() + ':' + alarm.getId() + '@'
+			    + alarm.getExtraInfo();
+			submittedAlarmRegistry.remove(key);
+		}
+
+	}
+
+	public int sendAlarm(final AlarmInfo alarmInfo) {
+		AlarmType type = alarmInfo.type;
+		String id = alarmInfo.getId();

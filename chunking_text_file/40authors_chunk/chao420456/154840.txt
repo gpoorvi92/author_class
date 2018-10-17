@@ -1,0 +1,10 @@
+	}
+}
+
+class StudentDemo {
+	public void method(Student s) {
+		s.study();
+	}
+}
+
+class ArgsDemo2 {

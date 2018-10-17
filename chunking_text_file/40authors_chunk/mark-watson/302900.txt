@@ -1,0 +1,10 @@
+                ret.add(words.get(i) + "^");
+            if (ss == null)
+                ret.add("NN");
+            else
+                ret.add(ss[0]);
+        }
+        /**
+         * Apply transformational rules
+         **/
+        for (int i = 0; i < words.size(); i++) {

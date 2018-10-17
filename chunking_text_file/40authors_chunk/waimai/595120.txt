@@ -1,0 +1,10 @@
+        try {
+            adminService.update(admin);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("修改成功", "admin_list");
+    }
+
+    @RequestMapping("/active")
+    public ModelAndView active(String[] ids) {

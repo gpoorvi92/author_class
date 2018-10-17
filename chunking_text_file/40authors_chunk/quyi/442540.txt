@@ -1,0 +1,10 @@
+            }
+            break;
+          case 3: // SOURCE_PORT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.sourcePort = iprot.readString();
+              struct.setSourcePortIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

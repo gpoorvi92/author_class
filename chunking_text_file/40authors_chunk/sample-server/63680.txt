@@ -1,0 +1,10 @@
+            {
+                DaoManager.getLocalDao().delete(bulletinEntity);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        return ret;
+    }
+    public static boolean modify(BulletinEntity bulletin)

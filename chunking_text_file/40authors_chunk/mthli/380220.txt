@@ -1,0 +1,10 @@
+
+   /**
+    * Adds a slider to the slider panel and hooks up the listener
+    * @param s the slider
+    * @param description the slider description
+    */
+   public void addSlider(JSlider s, String description)
+   {
+      s.addChangeListener(listener);
+      JPanel panel = new JPanel();      

@@ -1,0 +1,10 @@
+    schemes.put(StandardScheme.class, new AppSendMessageStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new AppSendMessageTupleSchemeFactory());
+  }
+
+  public String missionId; // required
+  public List<UserApp> userApps; // required
+  public List<String> rules; // required
+  public List<PlotsType> plots; // required
+  /**
+   * 

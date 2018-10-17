@@ -1,0 +1,10 @@
+    return this.staticCheckResult;
+  }
+
+  public AppCheckResult setStaticCheckResult(StaticCheckResultData staticCheckResult) {
+    this.staticCheckResult = staticCheckResult;
+    return this;
+  }
+
+  public void unsetStaticCheckResult() {
+    this.staticCheckResult = null;

@@ -1,0 +1,10 @@
+		
+		generalPanel = new GeneralPanel(dialog);
+		
+		setLayout(new BorderLayout());
+		setBackground(Color.cyan);
+		
+		
+	}
+	
+	public void setOptionPanel(int p)

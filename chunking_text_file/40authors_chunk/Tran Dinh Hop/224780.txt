@@ -1,0 +1,10 @@
+			
+			// Cache the number of elements in each band of the colormap.
+			int mapSize = icm.getMapSize();
+			
+			// Allocate an array for the lookup table data.
+			byte[][] lutData = new byte[3][mapSize];
+			
+			// Load the lookup table data from the IndexColorModel.
+			icm.getReds(lutData[0]);
+			icm.getGreens(lutData[1]);

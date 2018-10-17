@@ -1,0 +1,10 @@
+				"', journal_no = '" + d +
+				"', publisher = '" + h +
+				"', pages = '" + i +
+				"' WHERE item_id = '" + a + "'";
+														
+				int result2 = statement.executeUpdate(query2);
+				
+				if (result == 1 && result2 == 1)
+				{
+				JOptionPane.showMessageDialog(null, "Update Succesfull");

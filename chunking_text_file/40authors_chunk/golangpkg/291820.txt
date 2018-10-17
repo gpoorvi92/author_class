@@ -1,0 +1,10 @@
+	@Autowired
+	ProgressManager progressManager;
+	
+	@Autowired
+	JLFUListenerPropagator jlfuListenerPropagator;
+	
+	Mock<ProgressCalculator> progressCalculator = new MockObject<ProgressCalculator>(ProgressCalculator.class, new Object());
+	Mock<ProgressManagerAdvertiser> progressManagerAdvertiser = new MockObject<ProgressManagerAdvertiser>(ProgressManagerAdvertiser.class, new Object());
+	
+	private UUID clientId = UUID.randomUUID();

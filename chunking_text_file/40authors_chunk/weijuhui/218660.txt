@@ -1,0 +1,10 @@
+		//requestWeb();
+
+	}
+
+	void requestWeb() {
+
+		try {
+
+			WXRequest request = SourceData.getWxRequest();
+			if (request != null) {

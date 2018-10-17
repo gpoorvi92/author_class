@@ -1,0 +1,10 @@
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof modifyTaskManagerConfig_result)
+        return this.equals((modifyTaskManagerConfig_result)that);
+      return false;
+    }
+
+    public boolean equals(modifyTaskManagerConfig_result that) {
+      if (that == null)

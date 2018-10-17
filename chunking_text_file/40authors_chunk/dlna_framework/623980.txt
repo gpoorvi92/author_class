@@ -1,0 +1,10 @@
+	{
+		Node errorCodeNode = getUPnPErrorCodeNode();
+		if (errorCodeNode == null)
+			return -1;
+		String errorCodeStr = errorCodeNode.getValue();
+		try {
+			return Integer.parseInt(errorCodeStr);
+		}
+		catch (Exception e) {
+			return -1;

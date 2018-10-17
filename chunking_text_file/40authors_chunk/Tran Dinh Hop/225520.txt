@@ -1,0 +1,10 @@
+	protected String fileName="";
+  	protected JFileChooser fc;
+	
+
+	// _action = OPEN or SAVE; _fileType = IMAGE, ZIP, HUFFMAN, RLE, LZW
+	public FileChooser (String _fileType, String _action){	
+		
+		if (fc == null){ 
+	     	fc = new JFileChooser();
+	          fc.setAcceptAllFileFilterUsed(false);

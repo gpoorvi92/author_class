@@ -1,0 +1,10 @@
+
+    case APP_SIZE:
+      if (value == null) {
+        unsetApp_size();
+      } else {
+        setApp_size((Integer)value);
+      }
+      break;
+
+    case MINSDKVERSION:

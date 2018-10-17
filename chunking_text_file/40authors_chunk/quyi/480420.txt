@@ -1,0 +1,10 @@
+      if (that == null)
+        return false;
+      if (that instanceof queryMission_args)
+        return this.equals((queryMission_args)that);
+      return false;
+    }
+
+    public boolean equals(queryMission_args that) {
+      if (that == null)
+        return false;

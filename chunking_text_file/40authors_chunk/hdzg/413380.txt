@@ -1,0 +1,10 @@
+	int soldierSpany = 40;
+	int soldierNumber = 4;
+	String city;//画出对方的来处
+	
+	public BattleField(GameView gameView){
+		this.gameView = gameView;
+		startAnimation();
+	}
+	//方法：初始化图片
+	public static void initBitmap(Resources r){

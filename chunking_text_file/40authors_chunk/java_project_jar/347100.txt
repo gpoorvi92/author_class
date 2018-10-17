@@ -1,0 +1,10 @@
+public class BoundedInputStream extends InputStream
+{
+
+    public BoundedInputStream(InputStream in, long size)
+    {
+        pos = 0L;
+        mark = -1L;
+        propagateClose = true;
+        max = size;
+        this.in = in;

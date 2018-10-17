@@ -1,0 +1,10 @@
+    public issuedMessage_args setRules(List<String> rules) {
+      this.rules = rules;
+      return this;
+    }
+
+    public void unsetRules() {
+      this.rules = null;
+    }
+
+    /** Returns true if field rules is set (has been assigned a value) and false otherwise */

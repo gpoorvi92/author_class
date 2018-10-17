@@ -1,0 +1,10 @@
+public class PrintPreviewDialog extends JDialog
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   private PrintPreviewCanvas canvas;
+
+   /**
+    * Constructs a print preview dialog.
+    * @param p a Printable

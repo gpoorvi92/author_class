@@ -1,0 +1,10 @@
+		// fos.write(57);
+		// fos.write(55);
+		// fos.write(97);
+
+		// public void write(byte[] b):一次写一个字节数组的数据
+		// byte[] bys = {97,98,99,100,101};
+		// fos.write(bys);
+		// 曾经我们讲解过，可以通过String得到byte[]
+		// byte[] bys = "abcde".getBytes();
+		// fos.write(bys);

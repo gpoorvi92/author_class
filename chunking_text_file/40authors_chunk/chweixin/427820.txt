@@ -1,0 +1,10 @@
+	public void setOpenId(String openId) {
+		this.openId = openId;
+	}
+	/**
+	 *  获取用户ID。
+	 *  @return 用户ID。
+	 * */
+	public String getUserId() {
+		return userId;
+	}

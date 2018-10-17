@@ -1,0 +1,10 @@
+
+        if (ENABLE_VERBOSE)
+            DebugLog.vfmt(TAG, "reset %d", id);
+
+        LoaderCallbacks<D> callbacks = getLoaderCallbacks();
+        mBusyLoaders.add(loader.getId());
+        if (callbacks == null)
+            return;
+
+        callbacks.onLoaderReset(loader);

@@ -1,0 +1,10 @@
+package chap18;
+import javax.swing.*;
+import java.awt.event.*;
+import java.io.*;
+
+public class DiceService implements Service {
+
+    JLabel label;
+    JComboBox numOfDice;
+

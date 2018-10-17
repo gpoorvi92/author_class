@@ -1,0 +1,10 @@
+
+public class ThreadPoolDeadLockAvoidance {
+	private final ThreadPoolExecutor threadPool = new ThreadPoolExecutor(
+			1,
+			//最大线程池大小为1（有限数值）：
+			1,
+	    60, TimeUnit.SECONDS,
+	    //工作队列为SynchronousQueue：
+	    new SynchronousQueue<Runnable>(),
+	    //线程池饱和处理策略为CallerRunsPolicy：

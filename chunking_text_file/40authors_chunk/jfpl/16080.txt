@@ -1,0 +1,10 @@
+			}
+			return true;
+		}
+
+		// If displaying map (geo:0,0?q=address)
+		else if (url.startsWith("geo:")) {
+			try {
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+				intent.setData(Uri.parse(url));
+				webActivity.startActivity(intent);

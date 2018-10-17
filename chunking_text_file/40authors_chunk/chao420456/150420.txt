@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 封装指定目录
+		File srcFolder = new File("d:\\demo");
+		// 递归方法
+		deleteFolder(srcFolder);
+	}
+
+	public static void deleteFolder(File srcFolder) {
+		// 获取指定目录下的所有文件或者文件夹的File数组
+		File[] fileArray = srcFolder.listFiles();

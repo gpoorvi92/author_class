@@ -1,0 +1,10 @@
+
+class MyThread17_1 extends Thread {
+    @Override
+    public void run() {
+        System.out.println("MyThread17_1 run priority=" + this.getPriority());
+        MyThread17_2 myThread17_2 = new MyThread17_2();
+        myThread17_2.start();
+
+    }
+}

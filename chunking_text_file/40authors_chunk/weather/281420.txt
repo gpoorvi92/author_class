@@ -1,0 +1,10 @@
+    /**
+     * 图片id
+     */
+    public long headerId;
+
+    /**
+     * 图片id
+     */
+    public int id;
+    /**

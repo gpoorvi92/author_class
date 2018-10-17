@@ -1,0 +1,10 @@
+	public Set<WeChatMenu> getChildren() {
+		return children;
+	}
+	/**
+	 * 设置子菜单集合。
+	 * @param children
+	 * 	子菜单集合。
+	 * */
+	public void setChildren(Set<WeChatMenu> children) {
+		this.children = children;

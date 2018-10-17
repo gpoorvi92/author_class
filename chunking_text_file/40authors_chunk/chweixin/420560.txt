@@ -1,0 +1,10 @@
+	/**
+	 * 构造函数。
+	 * @param accountId
+	 * 微信公众号ID。
+	 * @param openId
+	 * 微信关注用户ID。
+	 * */
+	public WeChatUserInfo(String accountId,String openId){
+		this();
+		this.setAccountId(accountId);

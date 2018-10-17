@@ -1,0 +1,10 @@
+import com.nercis.isscp.idl.rules.Rules;
+import com.nercis.isscp.ts.TSOperate;
+import com.softsec.tase.common.rpc.service.notify.StatusNotifyService;
+
+/**
+ * @author luantingyuan
+ * 
+ */
+public class Client {
+	public static final String address = "localhost";

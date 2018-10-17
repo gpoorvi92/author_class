@@ -1,0 +1,10 @@
+                scroller.setMinTime(c.getTimeInMillis());
+            }
+        }
+    }
+    
+    /**
+     * sets the maximum date that the scroller can scroll
+     * 
+     * @param c the maximum date (inclusive)
+     */

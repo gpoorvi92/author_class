@@ -1,0 +1,10 @@
+
+      addButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               strings.add(newWord.getText());
+               updateDisplay();
+            }
+         });
+

@@ -1,0 +1,10 @@
+			sessionFactory.getCurrentSession().update(mb);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public MaterialBrand selectMaterialBrandByName(String name) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_materialbrand where name=?")

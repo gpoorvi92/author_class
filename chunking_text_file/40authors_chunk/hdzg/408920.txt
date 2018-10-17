@@ -1,0 +1,10 @@
+		else if(k == 2){
+			canvas.drawText("加载中..", startX+(loading2.getWidth()/2)-20, startY+loading2.getHeight()+20, paint);
+		}
+		else if(k == 3){
+			canvas.drawText("加载中...", startX+(loading1.getWidth()/2)-20, startY+loading1.getHeight()+20, paint);
+		}
+
+		k = (k+1)%4;//k循环自加
+	}
+	

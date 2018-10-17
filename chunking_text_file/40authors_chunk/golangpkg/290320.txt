@@ -1,0 +1,10 @@
+	@Scheduled(fixedRate = 1000)
+	public void calculateProgress() {
+
+		synchronized (fileToProgressInfo) {
+		
+			//for all clients
+			for (Entry<UUID, Set<UUID>> entry : clientToFilesMap.entrySet()) {
+				
+				//for all pending upload
+				Set<UUID> originSet = entry.getValue();

@@ -1,0 +1,10 @@
+	IMQReceiver getReceiver(QueueType qtype) throws MQException;
+	
+	/**
+	 * Sets the specified topic subscriber.
+	 * 
+	 * @Title: setTopicListener
+	 * @param listener
+	 * @throws MQException
+	 * @return: void
+	 */

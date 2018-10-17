@@ -1,0 +1,10 @@
+   private double[] a = new double[10];
+
+   public ExceptTestPanel()
+   {
+      super(BoxLayout.Y_AXIS);
+      group = new ButtonGroup();
+
+      // add radio buttons for code snippets
+
+      addRadioButton("Integer divide by zero", new ActionListener()

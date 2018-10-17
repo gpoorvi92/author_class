@@ -1,0 +1,10 @@
+    {
+        this(file, append, null);
+    }
+
+    public LockableFileWriter(File file, boolean append, String lockDir)
+        throws IOException
+    {
+        this(file, null, append, lockDir);
+    }
+

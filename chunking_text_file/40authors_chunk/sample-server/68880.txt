@@ -1,0 +1,10 @@
+                }
+            }
+            if (ret)
+            {
+                DaoManager.getLocalDao().saveOrUpdate(sysNotice);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }

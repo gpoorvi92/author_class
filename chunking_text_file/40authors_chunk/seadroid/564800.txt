@@ -1,0 +1,10 @@
+
+    public Bitmap getThumbnail(ContentResolver cr, long origId, int kind,
+            BitmapFactory.Options options, boolean isVideo) {
+        Thread t = Thread.currentThread();
+        ThreadStatus status = getOrCreateThreadStatus(t);
+
+        if (!canThreadDecoding(t)) {
+            Log.d(TAG, "Thread " + t + " is not allowed to decode.");
+            return null;
+        }

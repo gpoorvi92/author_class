@@ -1,0 +1,10 @@
+    protected HttpServletRequest request;
+
+    @InitBinder
+    protected void initBinder(HttpServletRequest request, ServletRequestDataBinder binder) throws Exception {
+        binder.registerCustomEditor(int.class, new IntegerEditor());
+        binder.registerCustomEditor(Integer.class, new IntegerEditor());
+        binder.registerCustomEditor(Long.class, new LongEditor());
+        binder.registerCustomEditor(Float.class, new FloatEditor());
+        binder.registerCustomEditor(Date.class, new DateEditor());
+    }

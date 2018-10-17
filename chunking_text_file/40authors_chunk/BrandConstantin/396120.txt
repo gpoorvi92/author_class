@@ -1,0 +1,4 @@
+       " hora " + hora2 + " del dia " + nombreDiaDos + " hay un total de ");
+    System.out.print(((dia2 * 24) + hora2) - ((dia1 * 24) + hora1) + " horas");
+  }
+}

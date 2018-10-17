@@ -1,0 +1,10 @@
+       if (rootV == null)
+       { // root not initialized?  Initialize it. 
+           rootV = v;
+           numVectors++;
+           return true;
+       }
+       int subtreeIndex = getSubtreeIndexForVector(v);
+       if (subtreeIndex < 0)
+           return false; // don't add a duplicate vector to this tree
+

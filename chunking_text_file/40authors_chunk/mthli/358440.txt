@@ -1,0 +1,4 @@
+   }
+   
+   public Dimension getPreferredSize() { return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT); }
+}

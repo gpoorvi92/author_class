@@ -1,0 +1,10 @@
+
+		int c = 30;
+		result = sum(a, b, c);
+		System.out.println(result);
+
+		int d = 40;
+		result = sum(a, b, c, d);
+		System.out.println(result);
+
+		// 需求：我要计算出求和功能，参数是2-100个，目前我也不知道多少个?调用的时候我就知道了，请你提供功能?

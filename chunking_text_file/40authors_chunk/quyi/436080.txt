@@ -1,0 +1,10 @@
+
+    boolean this_present_autoRunMonitor = true && this.isSetAutoRunMonitor();
+    boolean that_present_autoRunMonitor = true && that.isSetAutoRunMonitor();
+    if (this_present_autoRunMonitor || that_present_autoRunMonitor) {
+      if (!(this_present_autoRunMonitor && that_present_autoRunMonitor))
+        return false;
+      if (!this.autoRunMonitor.equals(that.autoRunMonitor))
+        return false;
+    }
+

@@ -1,0 +1,10 @@
+
+ Solution: Dynamic Programming. Space O(N).
+ */
+public class Solution {
+    public int minPathSum(int[][] grid) {
+        if (grid.length == 0) return Integer.MIN_VALUE;
+        int M = grid.length, N = grid[0].length;
+        int[] dp = new int[N];
+        dp[0] = grid[0][0];
+        for (int i = 1; i < N; ++i)

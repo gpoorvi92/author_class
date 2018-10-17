@@ -1,0 +1,10 @@
+	// Public methods
+	//
+
+	/** @return a String representation of this PropType */
+	public String toString() { return "FloatPropType"; }
+
+	/** @return a Java class that defines this type */
+	public Class getJavaTypeClass() { return ( new Float( 1.0 ) ).getClass(); }
+
+	/**

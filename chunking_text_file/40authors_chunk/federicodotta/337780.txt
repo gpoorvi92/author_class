@@ -1,0 +1,10 @@
+    static final byte INS_PARAM_XML = 0x03;
+    /**
+     * Used to indicate where the payload is inserted into the value of a tag
+     * attribute within an XML structure.
+     */
+    static final byte INS_PARAM_XML_ATTR = 0x04;
+    /**
+     * Used to indicate where the payload is inserted into the value of a
+     * parameter attribute within a multi-part message body (such as the name of
+     * an uploaded file).

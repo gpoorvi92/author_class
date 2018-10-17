@@ -1,0 +1,10 @@
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public genMissionId_args(genMissionId_args other) {
+      if (other.isSetSubmitId()) {
+        this.submitId = other.submitId;
+      }
+    }
+
+    public genMissionId_args deepCopy() {

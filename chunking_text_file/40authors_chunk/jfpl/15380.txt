@@ -1,0 +1,10 @@
+		ws.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);
+		appView.setWebChromeClient(new TWebChromeClient(appView));
+		appView.setWebViewClient(new TWebViewClient(appView));
+
+		appView.loadUrl("http://www.jtgzfw.com/jtgzfw/_pc/wx/jgcs_list.do?type_id=JC02");
+	}
+
+	class TWebViewClient extends WebViewClient {
+
+		private WebView webView;

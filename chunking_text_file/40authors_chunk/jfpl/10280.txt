@@ -1,0 +1,10 @@
+					update("add_chat_message", msgId, "1", "4",
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, args[0] + "\n"
+									+ args[1], new Date(), this.id, "2",
+							args[2], args[3]);
+					acd.putStringValue("send_state", "2");
+					ChatMessageUtil.sendChatLocation(this,
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, "toGroup", msgType,
+							args[2], args[3], new ChatLocationService(this,

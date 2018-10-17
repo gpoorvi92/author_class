@@ -1,0 +1,10 @@
+     */
+    private final static long DAY = 86400000l;
+
+    private static Map<String, SimpleDateFormat> formatMap = new HashMap<String, SimpleDateFormat>();
+    private static Calendar createAtCalendar = Calendar.getInstance();
+    private static Calendar currentCalendar = Calendar.getInstance();
+    /**
+     * 时间显示转换
+     *
+     * @param date

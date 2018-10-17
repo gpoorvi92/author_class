@@ -1,0 +1,10 @@
+
+        if (!this.parent.getRunningBit()) {
+            this.position = this.runningLength;
+        }
+        this.wordPosition = 0;
+        this.wordLength = this.parent.getNumberOfLiteralWords();
+    }
+
+    private boolean runningHasNext() {
+        return this.position < this.runningLength;

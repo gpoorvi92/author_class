@@ -1,0 +1,10 @@
+               while (rs.next())
+                  publishers.add(rs.getString(1));
+            }
+         }
+         boolean done = false;
+         while (!done)
+         {
+            System.out.print("Q)uery C)hange prices E)xit: ");
+            String input = in.next().toUpperCase();
+            if (input.equals("Q"))

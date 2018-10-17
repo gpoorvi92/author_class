@@ -1,0 +1,10 @@
+    return this.app_description;
+  }
+
+  public UserApp setApp_description(String app_description) {
+    this.app_description = app_description;
+    return this;
+  }
+
+  public void unsetApp_description() {
+    this.app_description = null;

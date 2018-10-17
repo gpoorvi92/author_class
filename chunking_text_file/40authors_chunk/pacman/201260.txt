@@ -1,0 +1,10 @@
+			throws JMSException {
+
+		mConnection		= connection;
+		mIsQueue		= isQueue;
+		mSource			= new MQEventSource();
+		
+		mSession		= mConnection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+		
+		if (mIsQueue)
+			mDestination 	= mSession.createQueue(destName);

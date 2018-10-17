@@ -1,0 +1,4 @@
+    public int compareTo(Employee other) {
+        return Double.compare(salary, other.salary);
+    }
+}

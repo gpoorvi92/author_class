@@ -1,0 +1,10 @@
+    }
+
+    public void setRenderingMode(int dm)
+    {
+        display.setRenderingMode(dm);
+    }
+
+    public int countTriangles()
+    {
+        return display.countTriangles();

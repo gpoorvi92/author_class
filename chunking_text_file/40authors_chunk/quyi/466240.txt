@@ -1,0 +1,10 @@
+	public SearchAllEngineThread(String engineAddress, int enginePort, String number) {
+		this.engine_address = engineAddress;
+		this.engine_port = enginePort;
+		this.number = number;
+	}
+
+	@Override
+	public void run() {
+		// TODO 记录查询开始时间
+		boolean isSearchSuccess = false;

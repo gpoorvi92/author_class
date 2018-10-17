@@ -1,0 +1,10 @@
+        RpcClient client = new RpcClient("192.168.1.210", 10000, new IDispatcher()
+        {
+            @Override
+            public void diapatch(Channel channel, Object pkt)
+            {
+                System.out.println("收到消息：");
+                System.out.println(pkt.toString());
+            }
+        }, "", 0);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

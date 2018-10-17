@@ -1,0 +1,10 @@
+    } else {
+      sb.append(this.osVersion);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("jvmName:");
+    if (this.jvmName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.jvmName);

@@ -1,0 +1,10 @@
+    /**
+     * Constructs the version code of the application.
+     *
+     * @return the versions string of the application
+     */
+    public static String getVersionCode() {
+        // Get a version string for the app.
+        return String.valueOf(BuildConfig.VERSION_CODE);
+    }
+

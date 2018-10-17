@@ -1,0 +1,7 @@
+			status = 2;
+			g.setDefend(g.getDefend()+increment);//增加英雄属性
+			dialogMessage[2] = dialogMessage[2].replaceFirst("xx", g.getName());//替换对话框的文字
+			dialogMessage[2] = dialogMessage[2].replaceFirst("yy", increment+"");//替换对话框的文字			
+		}
+	}
+}

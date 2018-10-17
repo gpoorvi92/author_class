@@ -1,0 +1,10 @@
+
+         dialog = new JDialog((Frame) null, false /* not modal */);
+         dialog.add(chooser);
+         dialog.pack();
+      }
+
+      public void actionPerformed(ActionEvent event)
+      {
+         chooser.setColor(getBackground());
+         dialog.setVisible(true);

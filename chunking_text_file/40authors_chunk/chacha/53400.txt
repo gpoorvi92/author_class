@@ -1,0 +1,10 @@
+	/**
+	 * ¡Ó≈∆»œ÷§
+	 * @param requestJson
+	 * @return
+	 * @throws JsonMappingException
+	 * @throws JsonGenerationException
+	 * @throws IOException
+	 */
+	@SuppressWarnings({ "finally", "unused" })
+	private static String handleLoginToken(String requestJson) throws JsonMappingException, JsonGenerationException, IOException{

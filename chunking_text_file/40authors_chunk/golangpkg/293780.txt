@@ -1,0 +1,10 @@
+
+	@Test
+	public void testEvictionNotificationTrue()
+			throws InterruptedException {
+		testAssert(true);
+	}
+
+
+	@Test
+	public void testEvictionNotificationFalse()

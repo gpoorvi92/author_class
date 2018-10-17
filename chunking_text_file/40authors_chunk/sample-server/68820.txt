@@ -1,0 +1,10 @@
+ * Date: 13-7-16
+ */
+public class NoticeService
+{
+    private static final Logger log = LoggerFactory.getLogger(NoticeService.class);
+    public static boolean add(NoticeEntity sysNotice)
+    {
+        boolean ret = true;
+        try
+        {

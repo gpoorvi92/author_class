@@ -1,0 +1,10 @@
+  static {
+    Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> tmpMap = new EnumMap<_Fields, org.apache.thrift.meta_data.FieldMetaData>(_Fields.class);
+    tmpMap.put(_Fields.RULE_ID, new org.apache.thrift.meta_data.FieldMetaData("ruleId", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.RULE_NAME, new org.apache.thrift.meta_data.FieldMetaData("ruleName", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.RULE_TYPES, new org.apache.thrift.meta_data.FieldMetaData("ruleTypes", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, Activity.class))));
+    tmpMap.put(_Fields.RISK_LEVEL, new org.apache.thrift.meta_data.FieldMetaData("riskLevel", org.apache.thrift.TFieldRequirementType.DEFAULT, 

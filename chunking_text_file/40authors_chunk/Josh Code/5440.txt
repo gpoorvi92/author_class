@@ -1,0 +1,10 @@
+
+    public void setViewPoint(Vector3D newViewPoint)
+    {
+        renderer.setViewPoint(newViewPoint);
+        render();
+    }
+
+  /**
+   Renders just the outlines of the triangles
+   */

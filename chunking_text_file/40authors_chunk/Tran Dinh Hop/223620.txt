@@ -1,0 +1,10 @@
+			int r =table.pop();
+		//	System.out.println("Size of table "+r+" "+j);			
+			if (r>0){
+				HuffmanNode t=new HuffmanNode("dipu",r,j,null,null,null);
+				q.insertM(t);				
+			}
+		}
+	
+	//****** create tree ******//
+	

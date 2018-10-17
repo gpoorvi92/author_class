@@ -1,0 +1,10 @@
+		this.hosts = hosts;
+		this.sender = new SocketSender(this.hosts);
+	}
+
+	public SocketServiceImpl(InetSocketAddress host) {
+		this(new InetSocketAddress[]{host});
+	}
+
+	public LoginResponse loginPassword(LoginRequest request)
+			throws ChachaException {

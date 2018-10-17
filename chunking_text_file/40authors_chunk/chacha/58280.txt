@@ -1,0 +1,10 @@
+	
+	public NioDispatcher() throws IOException {
+		sel=Selector.open();
+	}
+
+	@Override
+	public void run() {
+		while(true){
+			try{
+				dispatch();

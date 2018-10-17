@@ -1,0 +1,10 @@
+
+    }
+
+    public void cancelUploadTaskInQue(int taskID) {
+        uploadTaskManager.cancel(taskID);
+        uploadTaskManager.doNext();
+    }
+
+    public void cancelAllUploadTasks() {
+        uploadTaskManager.cancelAll();

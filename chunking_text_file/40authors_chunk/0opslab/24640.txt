@@ -1,0 +1,10 @@
+    if (this.m_amountOfBytesReadable == 0) {
+      result = 0; // EOF
+    } else {
+      if (this.m_amountOfBytesReadable < howManyBytes) {
+        bytesToSkip = this.m_amountOfBytesReadable;
+      }
+      result = super.skip(howManyBytes);
+      this.m_amountOfBytesReadable -= result;
+    }
+    return result;

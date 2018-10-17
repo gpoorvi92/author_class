@@ -1,0 +1,10 @@
+            
+            if( TOP == type ){
+            	clipTop(canvas,paint,roundPx,width,height);
+            }else if( LEFT == type ){
+            	 clipLeft(canvas,paint,roundPx,width,height);
+            }else if( RIGHT == type ){
+            	clipRight(canvas,paint,roundPx,width,height);
+            }else if( BOTTOM == type ){
+            	clipBottom(canvas,paint,roundPx,width,height);
+            }else{

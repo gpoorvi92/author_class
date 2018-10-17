@@ -1,0 +1,10 @@
+          unsetNodeId();
+        } else {
+          setNodeId((String)value);
+        }
+        break;
+
+      case PROPERTY_NAME:
+        if (value == null) {
+          unsetPropertyName();
+        } else {

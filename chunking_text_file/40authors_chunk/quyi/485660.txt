@@ -1,0 +1,10 @@
+      return new updateUserAppInfo_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.missionId = null;
+      this.userAppId = null;
+      this.plotsStatus = null;
+      this.usedPermissions = null;
+      this.stcRD = null;

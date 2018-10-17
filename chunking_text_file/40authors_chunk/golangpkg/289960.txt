@@ -1,0 +1,10 @@
+
+
+
+	/**
+	 * Default constructor.
+	 */
+	public StaticStatePersistedOnFileSystemEntity() {
+		super();
+	}
+

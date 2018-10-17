@@ -1,0 +1,10 @@
+	public static ImageIcon ICON_UP = new ImageIcon("ArrUp.gif");
+	public static ImageIcon ICON_DOWN = new ImageIcon("ArrDown.gif");
+	public static ImageIcon ICON_BLANK = new ImageIcon("blank.gif");
+
+	SimpleDateFormat frm = new SimpleDateFormat("MM/dd/yyyy");
+
+		
+
+	public String mstrBatch;
+	public String mstrEntryCode;

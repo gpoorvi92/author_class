@@ -1,0 +1,10 @@
+                     System.out.println(updateCount + " rows updated");
+                  }
+               }
+               catch (SQLException ex)
+               {
+                  for (Throwable e : ex)
+                     e.printStackTrace();
+               }
+            }
+         }

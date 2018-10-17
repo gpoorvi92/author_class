@@ -1,0 +1,10 @@
+        long s2 = b[2] & 0xff;
+        long s3 = b[3] & 0xff;
+        long s4 = b[4] & 0xff;// 最低位
+        long s5 = b[5] & 0xff;
+        long s6 = b[6] & 0xff;
+        long s7 = b[7] & 0xff; // s0不变
+        s1 <<= 8;
+        s2 <<= 16;
+        s3 <<= 24;
+        s4 <<= 8 * 4;

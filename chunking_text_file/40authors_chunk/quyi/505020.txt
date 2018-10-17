@@ -1,0 +1,10 @@
+  private static class AppSendMessageStandardScheme extends StandardScheme<AppSendMessage> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, AppSendMessage struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();
+        if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+          break;

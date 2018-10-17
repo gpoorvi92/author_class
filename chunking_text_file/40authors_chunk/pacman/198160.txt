@@ -1,0 +1,10 @@
+	private boolean free;	
+	/**
+	 * @return the commandType
+	 */
+	public int getCommandType() {
+		return commandType;
+	}
+
+	/**
+	 * @param commandType the commandType to set

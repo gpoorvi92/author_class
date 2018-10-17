@@ -1,0 +1,10 @@
+package com.googlecode.javaewah32.symmetric;
+
+import com.googlecode.javaewah.datastructure.BitSet;
+import com.googlecode.javaewah32.BitmapStorage32;
+
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ * This is a Java specification for an "updatable" Boolean function meant to run

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected void handleListItem(View v, int position) {
+		TextView tv = (TextView) v.findViewById(R.id.location_jc);
+		tv.getPaint().setFakeBoldText(true);
+	}
+
+	@Override
+	protected void onListItemClick(String prxName, ListView l, View v,

@@ -1,0 +1,10 @@
+ *
+ * try {
+ *   JSONObject response = future.get();
+ *   // do something with response
+ * } catch (InterruptedException e) {
+ *   // handle the error
+ * } catch (ExecutionException e) {
+ *   // handle the error
+ * }
+ * </pre>

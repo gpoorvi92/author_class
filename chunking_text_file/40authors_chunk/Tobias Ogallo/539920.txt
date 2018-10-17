@@ -1,0 +1,10 @@
+		int fontSZ = Integer.parseInt(String.valueOf(fontSize.getSelectedItem()));
+		int fontST = fontStyle.getSelectedIndex();
+		
+		selectedFont = new Font(fontSS,fontST,fontSZ);
+		
+		return selectedFont;
+		
+	}
+	public static void main(String[]args){
+		new LoginScreen().setVisible(true);

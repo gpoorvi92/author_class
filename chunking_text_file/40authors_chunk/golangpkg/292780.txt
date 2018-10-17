@@ -1,0 +1,10 @@
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.is(5l));
+		Assert.assertThat(remainingTimeEstimator.getRemainingTime(clientId, progress, 200l), CoreMatchers.not(5l));
+	}

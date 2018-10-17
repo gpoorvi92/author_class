@@ -1,0 +1,10 @@
+      setJMenuBar(menuBar);
+   }
+
+   /**
+    * Open a file and load the image.
+    */
+   public void openFile()
+   {
+      JFileChooser chooser = new JFileChooser(".");
+      chooser.setCurrentDirectory(new File(getClass().getPackage().getName()));

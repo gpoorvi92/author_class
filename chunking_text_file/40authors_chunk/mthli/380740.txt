@@ -1,0 +1,10 @@
+{
+   private JPanel buttonPanel;
+   private ButtonGroup group;
+   private JLabel label;
+   private static final int DEFAULT_SIZE = 36;
+
+   public RadioButtonFrame()
+   {      
+      // add the sample text label
+

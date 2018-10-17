@@ -1,0 +1,10 @@
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    verify(int maxFARRequested,
+                        int maxFRRRequested,
+                        boolean FARPrecedence,
+                        byte[] referenceBIR,
+                        byte[][] adaptedBIR,
+                        boolean[] result,
+                        int[] FARAchieved,
+                        int[] FRRAchieved,

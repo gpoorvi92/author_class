@@ -1,0 +1,10 @@
+              struct.setMissionIdIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // ENGINES
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list16 = iprot.readListBegin();
+                struct.engines = new ArrayList<Engine>(_list16.size);

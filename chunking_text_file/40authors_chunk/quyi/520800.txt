@@ -1,0 +1,10 @@
+        oprot.writeString(struct.propertyValue);
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, modifyTaskManagerConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.propertyName = iprot.readString();
+        struct.setPropertyNameIsSet(true);
+        struct.propertyValue = iprot.readString();
+        struct.setPropertyValueIsSet(true);

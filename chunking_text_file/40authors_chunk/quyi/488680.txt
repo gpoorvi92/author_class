@@ -1,0 +1,10 @@
+    public Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus; // required
+    public Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      MISSION_ID((short)1, "missionId"),
+      USER_APP_ID((short)2, "userAppId"),
+      PLOTS_STATUS((short)3, "plotsStatus"),
+      FUNCTION_STATUS((short)4, "functionStatus");
+

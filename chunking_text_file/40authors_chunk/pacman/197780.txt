@@ -1,0 +1,10 @@
+	}
+
+	@Test(expected = AppInitException.class)
+	public void testErrorConfig() throws AppInitException {
+		
+		factory = new ClassPathXmlApplicationContext("empty_config.xml");
+		AppServer server = new AppServer();
+		server.initialize(factory);
+	}
+

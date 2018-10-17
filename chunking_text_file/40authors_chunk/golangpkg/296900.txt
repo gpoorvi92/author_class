@@ -1,0 +1,10 @@
+
+	/**
+	 * Fired when a client is identified with its cookie and the corresponding state is restored.
+	 * <i>Note that this event is sent by the {@link DefaultIdentifierProvider}.</i>
+	 * 
+	 * @param clientId
+	 */
+	void onClientBack(UUID clientId);
+
+

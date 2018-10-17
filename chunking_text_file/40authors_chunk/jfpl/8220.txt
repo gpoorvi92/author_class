@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public AbstractCommonData doSuccess(AbstractCommonData acd) {
+		String msgZt = acd.getStringValue("message_zt");
+		if ("1".equals(msgZt)) {
+			progressBar.setVisibility(View.GONE);
+			imageView.setVisibility(View.VISIBLE);
+			imageView.setImageResource(R.drawable.done_holo);
+			itemData.putStringValue("send_state", "0");

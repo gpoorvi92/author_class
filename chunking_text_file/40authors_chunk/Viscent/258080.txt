@@ -1,0 +1,10 @@
+	@Override
+	protected OUT doProcess(final IN input) throws PipeException {
+		OUT out = null;
+		try {
+			out = combineResults(invokeParallel(buildTasks(input)));
+		} catch (Exception e) {
+			throw new PipeException(this, input, "Task failed", e);
+		}
+		return out;
+	}

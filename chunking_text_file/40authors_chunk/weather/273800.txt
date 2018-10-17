@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Returns the Account being used by this authenticator.
+     */
+    public Account getAccount() {
+        return mAccount;
+    }
+
+    @Override

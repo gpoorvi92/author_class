@@ -1,0 +1,10 @@
+	                               	 JposEntry.SI_FACTORY_CLASS_PROP_NAME,
+                                     JposEntry.LOGICAL_NAME_PROP_NAME,
+                                     JposEntry.SERVICE_CLASS_PROP_NAME,
+                                     JposEntry.VENDOR_NAME_PROP_NAME,
+                                     JposEntry.VENDOR_URL_PROP_NAME,
+                                     JposEntry.DEVICE_CATEGORY_PROP_NAME,
+                                     JposEntry.JPOS_VERSION_PROP_NAME,
+                                     JposEntry.PRODUCT_NAME_PROP_NAME,
+                                     JposEntry.PRODUCT_DESCRIPTION_PROP_NAME,
+                                     JposEntry.PRODUCT_URL_PROP_NAME 

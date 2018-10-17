@@ -1,0 +1,10 @@
+
+    public DirentsAdapter() {
+        dirents = Lists.newArrayList();
+    }
+
+    @Override
+    public int getCount() {
+        return dirents.size();
+    }
+

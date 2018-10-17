@@ -1,0 +1,10 @@
+		super.paintComponent(g);
+		
+		Graphics2D g2 = (Graphics2D) g;
+		
+		if(paint != null)
+		{
+			g2.setPaint(paint);
+			g2.fill(new Rectangle2D.Double(0, 0, getSize().width, getSize().height));
+		}
+		

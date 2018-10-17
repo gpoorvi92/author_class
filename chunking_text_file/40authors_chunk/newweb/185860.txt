@@ -1,0 +1,10 @@
+	@Override
+	public OrderOther selectOrderOtherById(int id) {
+		return (OrderOther) sessionFactory.getCurrentSession().get(OrderOther.class, id);
+	}
+
+	@Override
+	public boolean update(OrderOther other) {
+		try {
+			sessionFactory.getCurrentSession().update(other);
+		} catch (Exception e) {

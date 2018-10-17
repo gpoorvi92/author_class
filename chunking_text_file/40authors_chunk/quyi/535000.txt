@@ -1,0 +1,10 @@
+        optionals.set(8);
+      }
+      if (struct.isSetCategory()) {
+        optionals.set(9);
+      }
+      if (struct.isSetDescription()) {
+        optionals.set(10);
+      }
+      if (struct.isSetLineNum()) {
+        optionals.set(11);

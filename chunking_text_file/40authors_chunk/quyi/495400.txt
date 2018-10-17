@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField ENGINE_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("engineStatus", org.apache.thrift.protocol.TType.STRING, (short)4);
+  private static final org.apache.thrift.protocol.TField ENGINE_TYPE_FIELD_DESC = new org.apache.thrift.protocol.TField("engineType", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField NODE_INFO_FIELD_DESC = new org.apache.thrift.protocol.TField("nodeInfo", org.apache.thrift.protocol.TType.STRUCT, (short)6);
+  private static final org.apache.thrift.protocol.TField ENGINE_RULES_FIELD_DESC = new org.apache.thrift.protocol.TField("engineRules", org.apache.thrift.protocol.TType.LIST, (short)7);
+  private static final org.apache.thrift.protocol.TField ENGINE_PLOTS_FIELD_DESC = new org.apache.thrift.protocol.TField("enginePlots", org.apache.thrift.protocol.TType.LIST, (short)8);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new EngineStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new EngineTupleSchemeFactory());

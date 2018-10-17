@@ -1,0 +1,10 @@
+        }
+    }
+
+    /** saves the display
+     */
+    private void saveDisplayImage()
+    {
+        chooser.resetChoosableFileFilters();
+        chooser.setFileFilter(imageFilter);
+        int response = chooser.showSaveDialog(mv);

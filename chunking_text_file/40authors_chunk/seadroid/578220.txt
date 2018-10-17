@@ -1,0 +1,10 @@
+            @Override
+            public void run() {
+                addCachedPhoto(repoName, repoID, path);
+            }
+        });
+    }
+
+    /**
+     * send request to server to check if one particular folder {@link CameraUploadService#CAMERA_UPLOAD_REMOTE_DIR} exist
+     *

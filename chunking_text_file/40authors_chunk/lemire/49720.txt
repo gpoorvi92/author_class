@@ -1,0 +1,10 @@
+     */
+    private int pointer;
+
+    /**
+     * The current running length word.
+     */
+    final RunningLengthWord rlw;
+
+    /**
+     * The size in words.

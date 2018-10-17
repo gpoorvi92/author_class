@@ -1,0 +1,8 @@
+        return Objects.toStringHelper(this)
+                .add("signature", signature)
+                .add("url", url)
+                .add("mtime", mtime)
+                /*.add("is_default", is_default)*/
+                .toString();
+    }
+}

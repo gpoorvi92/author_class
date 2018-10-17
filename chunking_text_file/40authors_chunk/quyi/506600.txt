@@ -1,0 +1,10 @@
+	 *            EXCEL文件名称
+	 * @param listTitle
+	 *            EXCEL文件第一行列标题集合
+	 * @param listContent
+	 *            EXCEL文件正文数据集合
+	 * @return
+	 * @throws InterruptedException
+	 */
+	public void exportToSingleExcel(String fileName,
+			SingleRecordInfo singleRecordInfo) {

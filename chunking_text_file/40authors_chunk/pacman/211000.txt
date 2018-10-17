@@ -1,0 +1,10 @@
+		hash += (this.file != null ? this.file.hashCode() : 0);
+		hash += (this.begin != null ? this.begin.hashCode() : 0);
+		hash += (this.end != null ? this.end.hashCode() : 0);
+		hash += (this.type != null ? this.type.hashCode() : 0);
+		hash += (this.status != null ? this.status.hashCode() : 0);
+		hash += (this.err != null ? this.err.hashCode() : 0);
+		return hash;
+	}
+
+	/**

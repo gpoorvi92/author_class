@@ -1,0 +1,10 @@
+
+ Some of the rooms are guarded by demons, so the knight loses health (negative integers) upon entering these rooms; other rooms are either empty (0's) or contain magic orbs that increase the knight's health (positive integers).
+
+ In order to reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.
+
+
+ Write a function to determine the knight's minimum initial health so that he is able to rescue the princess.
+
+ For example, given the dungeon below, the initial health of the knight must be at least 7 if he follows the optimal path RIGHT-> RIGHT -> DOWN -> DOWN.
+

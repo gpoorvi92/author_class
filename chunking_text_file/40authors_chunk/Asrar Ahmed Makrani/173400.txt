@@ -1,0 +1,10 @@
+ 		int rs = JOptionPane.showConfirmDialog(null, "WARNING!! Record once deleted cannot be retrieved!! Continue with delete?", "CONFIRM", JOptionPane.YES_NO_OPTION);
+ 		if (rs == JOptionPane.YES_OPTION)
+ 		{
+	 		String query3 = "delete * from patronmaster "+
+	 		" WHERE id = '" + a + "'";
+	 		int result = statement.executeUpdate(query3);
+	 			 		
+			if (result == 1)
+			{
+				JOptionPane.showMessageDialog(null, "del Succesful");

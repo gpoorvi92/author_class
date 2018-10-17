@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("management/admin/list");
+        List<Admin> adminList = adminService.search(vo);
+        modelAndView.addObject("adminList", adminList);
+        modelAndView.addObject("gender", Gender.values());
+        modelAndView.addObject("adminStatus", AdminStatus.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/edit/{admin_id}")
+    public ModelAndView editView(@PathVariable("admin_id") Integer id) {

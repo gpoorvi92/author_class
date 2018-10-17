@@ -1,0 +1,10 @@
+
+    boolean this_present_userApp = true && this.isSetUserApp();
+    boolean that_present_userApp = true && that.isSetUserApp();
+    if (this_present_userApp || that_present_userApp) {
+      if (!(this_present_userApp && that_present_userApp))
+        return false;
+      if (!this.userApp.equals(that.userApp))
+        return false;
+    }
+

@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // THREAD_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.threadName = iprot.readString();
+              struct.setThreadNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

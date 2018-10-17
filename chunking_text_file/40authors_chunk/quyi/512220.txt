@@ -1,0 +1,10 @@
+        super("reportEngineConfig");
+      }
+
+      public reportEngineConfig_args getEmptyArgsInstance() {
+        return new reportEngineConfig_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }

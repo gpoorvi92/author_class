@@ -1,0 +1,10 @@
+
+		File file = null;
+
+		// 处理当前文件中的最后一组记录
+		if (recordCount < Config.RECORD_SAVE_CHUNK_SIZE) {
+			pwr.close();
+			file = new File(baseDir + '/' + recordDay + "/subspsync-gw-"
+			    + FILE_INDEX_FORMATTER.format(targetFileIndex) + ".dat");
+			printWriterMap.remove(fileKey);
+		}

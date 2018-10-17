@@ -1,0 +1,10 @@
+   }
+}
+
+class BuggyButtonPanel extends JPanel
+{
+   public BuggyButtonPanel()
+   {
+      ActionListener listener = new ButtonListener();
+
+      JButton yellowButton = new JButton("Yellow");

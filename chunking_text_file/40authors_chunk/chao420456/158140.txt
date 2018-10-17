@@ -1,0 +1,10 @@
+/*
+	&&和&的区别? 前者有短路效果，只要左边是false，右边不执行。而后者，全部执行。
+	||和|的区别? 前者有短路效果，只要左边是true，右边不执行。而后者，全部执行。
+*/
+class OperatorDemo2 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		int c = 30;
+

@@ -1,0 +1,10 @@
+      } else {
+        setTaskQueueLimit((Integer)value);
+      }
+      break;
+
+    case TASK_QUEUE_NUME:
+      if (value == null) {
+        unsetTaskQueueNume();
+      } else {
+        setTaskQueueNume((Integer)value);

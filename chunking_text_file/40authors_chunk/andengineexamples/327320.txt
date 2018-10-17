@@ -1,0 +1,10 @@
+
+	public ExpandableExampleLauncherListAdapter(final Context pContext) {
+		this.mContext = pContext;
+	}
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+
+	// ===========================================================

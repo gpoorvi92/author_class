@@ -1,0 +1,10 @@
+		}
+	}
+	
+	private boolean SecurityController(HttpServletRequest request, HttpServletResponse response,String url) throws IOException{
+		int sessionUserID = -1;
+		try {
+			sessionUserID = (Integer) request.getSession().getAttribute("userID");
+		} catch (Exception e) {}
+		
+		//需要管理员权限才能访问的请求

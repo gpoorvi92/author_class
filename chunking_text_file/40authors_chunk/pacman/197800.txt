@@ -1,0 +1,10 @@
+	@Test(expected = AppInitException.class)
+	public void testNotFoundConfig() throws AppInitException {
+
+		AppServer server = new AppServer();
+		server.initialize(null);
+	}
+	
+	@Test
+	public void testNormal() throws AppInitException {
+		

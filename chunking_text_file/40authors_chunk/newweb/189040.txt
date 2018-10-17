@@ -1,0 +1,10 @@
+		query.setString(0, startDate);
+		query.setString(1, endDate);
+		query.setString(2, customer);
+		return query.list();
+	}
+
+	@Override
+	public List<Order> selectProcessedOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order where doneStatus='notDone' and acceptStatus='processed' and createDate between ? and ? and customerID like ? order by createDate DESC,createTime DESC")

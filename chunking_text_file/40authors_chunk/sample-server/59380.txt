@@ -1,0 +1,10 @@
+        this.user = user;
+    }
+    public boolean isAuth()
+    {
+        return null == user;
+    }
+    public ZoneEntity getTargetZone()
+    {
+        return targetZone;
+    }

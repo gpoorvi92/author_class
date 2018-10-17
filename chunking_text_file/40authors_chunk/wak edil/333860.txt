@@ -1,0 +1,10 @@
+	private ImageIcon Food3Image=new ImageIcon("minuman/tehtarik.jpeg");
+	private ImageIcon Food4Image=new ImageIcon("minuman/milo.jpeg");
+	private ImageIcon Food5Image=new ImageIcon("minuman/nescafe.jpeg");
+	private ImageIcon Food6Image=new ImageIcon("minuman/horlick.jpeg");
+
+
+	public Drinks()
+	{
+		Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));;

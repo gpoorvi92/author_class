@@ -1,0 +1,10 @@
+		String cwId 	= request.getParameter("cid"); // courseware id.
+		
+		saveFile(image, result, resDir, libId, cwId, false);
+		
+		return result;
+	}
+
+	@RequestMapping(value="/audio/upload.go", 
+			        method = RequestMethod.POST, 
+			        produces="application/json")

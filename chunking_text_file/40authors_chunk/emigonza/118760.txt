@@ -1,0 +1,5 @@
+
+		/** @return true if there is a next PropValue in the iterator */
+		public boolean hasNext();
+	}
+}

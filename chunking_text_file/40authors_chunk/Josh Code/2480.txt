@@ -1,0 +1,10 @@
+            }
+            else
+            {
+                vx += sensetivity*dx;
+                vy += sensetivity*dy;
+            }
+            panel.setViewPoint(Vector3D.getFromCoordinates(vx,vy,vz));
+        }
+        prevPoint = new Point(e.getX(),e.getY());
+

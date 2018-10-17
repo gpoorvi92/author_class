@@ -1,0 +1,10 @@
+    * @param r the rule (as an AlphaComposite constant)
+    */
+   public void setRule(int r)
+   {
+      rule = r;
+      repaint();
+   }
+
+   /**
+    * Sets the alpha of the source.

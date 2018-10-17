@@ -1,0 +1,10 @@
+        makeProperty("DepositCounts"),
+        makeProperty("DepositStatus"),
+        makeProperty("FullStatus"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("RealTimeDataEnabled"),
+
+      };
+
+      return properties;

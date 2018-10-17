@@ -1,0 +1,10 @@
+      }
+      throw new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.MISSING_RESULT, "updateAppStatus failed: unknown result");
+    }
+
+    public com.nercis.isscp.idl.Result updateUserAppInfo(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_updateUserAppInfo(missionId, userAppId, plotsStatus, usedPermissions, stcRD, dycRD, virRD);
+      return recv_updateUserAppInfo();
+    }
+

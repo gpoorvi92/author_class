@@ -1,0 +1,10 @@
+        super( owner, title, modal, gc );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JDialog(java.awt.Frame,java.lang.String,boolean)
+
+    JDialogProxy( java.awt.Frame owner, java.lang.String title, boolean modal , long swiftObject ) {
+        super( owner, title, modal );
+        this.swiftObject = swiftObject;
+    }

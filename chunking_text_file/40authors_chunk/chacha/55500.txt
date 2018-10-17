@@ -1,0 +1,10 @@
+	
+	/**
+	 * ÎÄ¼ş¼ÓÃÜ
+	 * @param filename
+	 * @param algorithm
+	 */
+	public static void digestFile(String filename,String algorithm){
+		byte[] b=new byte[1024*4];
+		int len=0;
+		FileOutputStream fos = null;

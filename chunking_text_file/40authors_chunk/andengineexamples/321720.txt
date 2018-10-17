@@ -1,0 +1,10 @@
+
+	private Font mDroidFont;
+	private Font mPlokFont;
+	private Font mNeverwinterNightsFont;
+	private Font mUnrealTournamenFont;
+	private Font mKingdomOfHeartsFont;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================

@@ -1,0 +1,10 @@
+        makeProperty("DeviceStatus"),
+        makeProperty("ExitCashList"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {

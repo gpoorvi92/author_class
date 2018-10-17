@@ -1,0 +1,10 @@
+    /**
+     * 运行在UI线程，标示请求成功
+     * @param response
+     */
+    public abstract void UIResponse(T response);
+
+    /**
+     * 运行在UI线程，标示请求失败
+     * @param error
+     */

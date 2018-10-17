@@ -1,0 +1,10 @@
+		}
+		return -1;
+	}
+	
+	public int transRegularVideo(String srcFile, String destFile) {
+		
+		if (gJNILoaded) {
+			
+			return nativeTransRegularVideo(srcFile, destFile);
+		}

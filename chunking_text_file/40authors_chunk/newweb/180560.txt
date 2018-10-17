@@ -1,0 +1,10 @@
+
+@Controller
+public class RegisterController {
+
+	@Autowired
+	private UserService userService;
+	@Autowired
+	private CustomerService customerService;
+	
+

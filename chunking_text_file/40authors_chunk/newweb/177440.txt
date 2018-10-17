@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean remove(MaterialBrand mb) {
+		return materialBrandDao.delete(mb);
+	}
+
+	@Override
+	public boolean isUsed(int id) {
+		MaterialBrand mb = materialBrandDao.selectMaterialBrandById(id);
+		if(mb.getOrderLhjs().size() > 0)

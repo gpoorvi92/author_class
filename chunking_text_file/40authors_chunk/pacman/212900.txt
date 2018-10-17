@@ -1,0 +1,10 @@
+	void setTopicListener(QueueType qtype, IMQListener listener) throws MQException;
+	
+	/**
+	 * Closes the topic listener's connection.
+	 * 
+	 * @Title: closeTopicListener
+	 * @throws MQException
+	 * @return: void
+	 */
+	void closeTopicListener() throws MQException;

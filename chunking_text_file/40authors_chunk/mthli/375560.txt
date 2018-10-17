@@ -1,0 +1,10 @@
+         {
+            public void hyperlinkUpdate(HyperlinkEvent event)
+            {
+               if (event.getEventType() == HyperlinkEvent.EventType.ACTIVATED)
+               {
+                  try
+                  {
+                     // remember URL for back button
+                     urlStack.push(event.getURL().toString());
+                     // show URL in text field

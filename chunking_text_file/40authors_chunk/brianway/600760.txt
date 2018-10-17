@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example6;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+
+/**
+ * P222
+ * 测试方法boolean hasQueueThread(Thread thread)
+ * 查询指定的线程是否正在等待获取此锁定

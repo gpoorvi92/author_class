@@ -1,0 +1,10 @@
+package sizedFrame;
+
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * @version 1.32 2007-04-14
+ * @author Cay Horstmann
+ */
+public class SizedFrameTest

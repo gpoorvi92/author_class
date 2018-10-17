@@ -1,0 +1,10 @@
+
+            Segment segment = mSegmentList.get(i);
+            startTime += segment.mDuration;
+        }
+
+        return startTime;
+    }
+
+    // for Parcelable
+    @Override

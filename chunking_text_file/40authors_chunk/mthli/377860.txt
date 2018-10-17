@@ -1,0 +1,10 @@
+      splashFrame.add(splashPanel);
+      splashFrame.setBounds(splash.getBounds());
+      splashFrame.setVisible(true);
+            
+      new SwingWorker<Void, Integer>()
+      {
+         protected Void doInBackground() throws Exception
+         {
+            try
+            {

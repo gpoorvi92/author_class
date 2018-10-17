@@ -1,0 +1,10 @@
+    protected void afterWrite(int i)
+        throws IOException
+    {
+    }
+
+    protected void handleIOException(IOException e)
+        throws IOException
+    {
+        throw e;
+    }

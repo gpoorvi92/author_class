@@ -1,0 +1,10 @@
+   /**
+    * Constructs a crypto class loader.
+    * @param k the decryption key
+    */
+   public CryptoClassLoader(int k)
+   {
+      key = k;
+   }
+
+   protected Class<?> findClass(String name) throws ClassNotFoundException

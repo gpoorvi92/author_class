@@ -1,0 +1,10 @@
+ 				
+ 				try
+ 				{
+ 				Statement statement = con.createStatement();
+				String query1 = "UPDATE Item SET " +
+				"title = '" + b +
+				"', type = '" + type_combo.getSelectedItem() +
+				"', location = '" + l +
+				"', author = '" + j +
+				"', year = '" + g +

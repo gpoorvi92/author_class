@@ -1,0 +1,10 @@
+                org.apache.thrift.protocol.TMap _map80 = iprot.readMapBegin();
+                struct.plotsStatus = new HashMap<PlotsType,CheckResultStatus>(2*_map80.size);
+                for (int _i81 = 0; _i81 < _map80.size; ++_i81)
+                {
+                  PlotsType _key82;
+                  CheckResultStatus _val83;
+                  _key82 = PlotsType.findByValue(iprot.readI32());
+                  _val83 = CheckResultStatus.findByValue(iprot.readI32());
+                  struct.plotsStatus.put(_key82, _val83);
+                }

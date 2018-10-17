@@ -1,0 +1,10 @@
+				Debug.info("waiting...");
+				condition.await();
+			}
+			result = guardedAction.call();
+			return result;
+		} finally {
+			lock.unlock();
+		}
+	}
+

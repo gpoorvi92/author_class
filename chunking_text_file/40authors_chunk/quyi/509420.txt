@@ -1,0 +1,10 @@
+          return MD5;
+        case 3: // CHECK_ENGINE_NUM
+          return CHECK_ENGINE_NUM;
+        case 4: // POSITIVES
+          return POSITIVES;
+        case 5: // VIRUS_ENGINE
+          return VIRUS_ENGINE;
+        case 6: // DESCRIPTION
+          return DESCRIPTION;
+        default:

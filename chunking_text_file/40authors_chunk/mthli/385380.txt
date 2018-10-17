@@ -1,0 +1,10 @@
+   /**
+    * Adds a row to the main panel.
+    * @param labelText the label of the field
+    * @param field the sample field
+    */
+   public void addRow(String labelText, final JFormattedTextField field)
+   {
+      mainPanel.add(new JLabel(labelText));
+      mainPanel.add(field);
+      final JLabel valueLabel = new JLabel();

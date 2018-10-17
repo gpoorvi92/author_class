@@ -1,0 +1,10 @@
+        // Current directory File instance
+        final File pathDir = new File(path);
+        if (!pathDir.isDirectory()) {
+            return null;
+        }
+        // List folders in this directory with the directory filter
+        final File[] dirs = pathDir.listFiles(PHOTO_DIR_FILTER);
+        if (dirs != null) {
+            // Add each folder to the File list for the list adapter
+            for (File dir : dirs) {

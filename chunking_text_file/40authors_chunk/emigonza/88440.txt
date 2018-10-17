@@ -1,0 +1,10 @@
+                       throws JposException;
+    public int     getRows() throws JposException;
+
+    // Methods
+    public void    clearDescriptors() throws JposException;
+    public void    clearText() throws JposException;
+    public void    createWindow(int viewportRow, int viewportColumn,
+                       int viewportHeight, int viewportWidth, int windowHeight,
+                       int windowWidth) throws JposException;
+    public void    destroyWindow() throws JposException;

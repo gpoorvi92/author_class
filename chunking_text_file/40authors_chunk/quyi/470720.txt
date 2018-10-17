@@ -1,0 +1,10 @@
+     *  * 4:usedPermissions 已用的权限
+     *  * 5:stcRD 静态检测结果
+     *  * 6:dycRD 动态检测结果
+     *  * 7:
+     * 
+     * @param missionId
+     * @param userAppId
+     * @param status
+     * @param usedPermissions
+     * @param stcRD

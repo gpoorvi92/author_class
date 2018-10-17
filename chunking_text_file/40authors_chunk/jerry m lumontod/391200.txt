@@ -1,0 +1,10 @@
+
+			//just insert the value here, it will override everything... =)
+			debugger.setText(tm.getValueAt(model.getMinSelectionIndex(),1).toString());
+			//end, just insert the value here, it will override everything... =)
+
+		}
+
+	}
+
+	// This method returns an array of selected indices. It's guaranteed to

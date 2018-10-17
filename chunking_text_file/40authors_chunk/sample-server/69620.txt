@@ -1,0 +1,10 @@
+    @Inject
+    private GatewayAllMoudleService gatewayAllMoudleService;
+    
+    @Override
+    public void diapatch(Channel channel, Fenrisulfr.RpcPacket packet)
+    {
+        try
+        {
+            int opcode = packet.getOpcode();
+            int moudle = DispatcherHelper.moudleType(opcode);

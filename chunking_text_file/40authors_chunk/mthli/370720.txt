@@ -1,0 +1,10 @@
+      JSpinner boundedSpinner = new JSpinner(new SpinnerNumberModel(5, 0, 10, 0.5));
+      addRow("Bounded", boundedSpinner);
+
+      String[] fonts = GraphicsEnvironment.getLocalGraphicsEnvironment()
+            .getAvailableFontFamilyNames();
+
+      JSpinner listSpinner = new JSpinner(new SpinnerListModel(fonts));
+      addRow("List", listSpinner);
+
+      JSpinner reverseListSpinner = new JSpinner(new SpinnerListModel(fonts)

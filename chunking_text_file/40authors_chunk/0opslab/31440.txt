@@ -1,0 +1,10 @@
+   * specified by the given URL, an IOException is thrown.
+   * </p>
+   * 
+   * @exception IOException
+   *              thrown to indicate that it is was not possible to open the
+   *              document specified by the given URL.
+   * @return null, if the codepage of the document specified by the given URL
+   *         was not detected or a Reader that reads the document in the
+   *         detected codepage.
+   * 

@@ -1,0 +1,10 @@
+
+   public ProgressMonitorFrame()
+   {
+      // this text area holds the activity output
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+
+      // set up a button panel
+      JPanel panel = new JPanel();
+      startButton = new JButton("Start");
+      panel.add(startButton);

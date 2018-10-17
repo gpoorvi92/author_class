@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.base;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+import java.sql.*;
+
+
+public class SelDataList extends DefaultComboBoxModel {

@@ -1,0 +1,10 @@
+  public boolean getCapValidationDevice() throws JposException;
+
+  // Properties
+  public boolean getAutoDisable() throws JposException;
+  public void    setAutoDisable(boolean autoDisable) throws JposException;
+  public int     getColor() throws JposException;
+  public void    setColor(int nColor) throws JposException;
+  public boolean getConcurrentMICR() throws JposException;
+  public void    setConcurrentMICR(boolean bConcurrentMICR) throws JposException;
+  public int     getCropAreaCount() throws JposException;

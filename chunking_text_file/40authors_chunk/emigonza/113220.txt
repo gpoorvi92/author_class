@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    queryContent(String fileName,
+                              String fromMarker,
+                              String toMarker)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    resumePrintContent()
+                     throws JposException;
+  public void    resumeQueryContent()

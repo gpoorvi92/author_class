@@ -1,0 +1,10 @@
+package tableCellRender;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.table.*;
+
+/**
+ * This frame contains a table of planet data.
+ */
+public class TableCellRenderFrame extends JFrame

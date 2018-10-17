@@ -1,0 +1,10 @@
+        struct.missionProgress = iprot.readString();
+        struct.setMissionProgressIsSet(true);
+      }
+      if (incoming.get(3)) {
+        {
+          org.apache.thrift.protocol.TList _list29 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.samples = new ArrayList<com.nercis.isscp.idl.Sample>(_list29.size);
+          for (int _i30 = 0; _i30 < _list29.size; ++_i30)
+          {
+            com.nercis.isscp.idl.Sample _elem31;

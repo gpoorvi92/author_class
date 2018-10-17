@@ -1,0 +1,10 @@
+ 					type_combo.getSelectedItem() +"','" +
+ 					category_combo.getSelectedItem() +"','" +
+ 					d +"','" +
+ 					h +"','" +
+ 					i +"')";
+ 				
+ 				int result2 = statement.executeUpdate(query2);
+ 				
+ 				if (result == 1 && result2 == 1)
+ 				

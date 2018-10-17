@@ -1,0 +1,10 @@
+    		
+    	JPanel p3 = new JPanel();
+    	p3.setLayout(new FlowLayout());
+		p3.setBackground(Color.YELLOW);
+		p3.add(btnPrint);
+		myCont.add(p3,BorderLayout.SOUTH);
+    	
+    	btnPrint.addActionListener(this);
+    }
+

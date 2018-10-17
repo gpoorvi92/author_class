@@ -1,0 +1,10 @@
+        super("Journal", 
+              true, //resizable
+              true, //closable
+              true, //maximizable
+              true);//iconifiable
+              
+        int inset = 250;
+        addButtons(toolBarVideo);
+        
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();

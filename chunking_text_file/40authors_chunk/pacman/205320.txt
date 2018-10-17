@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @Class: IMQReceiver
+ * @author: zhangxinyu
+ * @date: 2014年12月17日 下午2:50:11
+ */
+public interface IMQReceiver {
+
+	/**
+	 * trys to get the message inside queue or topic.
+	 * 

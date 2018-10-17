@@ -1,0 +1,10 @@
+            public void run() {
+                in2.method1();
+            }
+        }, "T3");
+
+        t1.start();
+        t2.start();
+        t3.start();
+
+    }

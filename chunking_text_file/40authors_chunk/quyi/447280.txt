@@ -1,0 +1,10 @@
+  public void setOsVersionIsSet(boolean value) {
+    if (!value) {
+      this.osVersion = null;
+    }
+  }
+
+  public String getJvmName() {
+    return this.jvmName;
+  }
+

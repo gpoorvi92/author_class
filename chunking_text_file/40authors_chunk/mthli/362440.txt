@@ -1,0 +1,10 @@
+ * Base64 encoding encodes 3 bytes into 4 characters. |11111122|22223333|33444444| Each set of 6
+ * bits is encoded according to the toBase64 map. If the number of input bytes is not a multiple of
+ * 3, then the last group of 4 characters is padded with one or two = signs. Each output line is at
+ * most 76 characters.
+ */
+class Base64OutputStream extends FilterOutputStream
+{
+   private static char[] toBase64 = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
+         'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd',
+         'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',

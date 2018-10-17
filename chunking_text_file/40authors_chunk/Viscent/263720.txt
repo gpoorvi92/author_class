@@ -1,0 +1,10 @@
+		workerThread.start();
+	}
+
+	public void shutdown() {
+		workerThread.terminate();
+	}
+
+	public void downloadFile(String file) {
+		workerThread.download(file);
+	}

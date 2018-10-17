@@ -1,0 +1,10 @@
+			return parseXml(inputStream);
+		}catch(IOException | DocumentException e){
+			logger.error("解析微信服务器请求发生异常：", e);
+			throw e;			
+		}finally{
+			//释放资源。
+			if(inputStream != null){
+				inputStream.close();
+				inputStream = null;
+			}

@@ -1,0 +1,10 @@
+      boolean this_present_submitId = true && this.isSetSubmitId();
+      boolean that_present_submitId = true && that.isSetSubmitId();
+      if (this_present_submitId || that_present_submitId) {
+        if (!(this_present_submitId && that_present_submitId))
+          return false;
+        if (!this.submitId.equals(that.submitId))
+          return false;
+      }
+
+      return true;

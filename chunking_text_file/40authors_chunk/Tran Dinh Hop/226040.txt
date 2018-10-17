@@ -1,0 +1,10 @@
+		int hi = in.read(); 
+
+		if(hi < 0)
+			hi += 256;
+
+		int lo = in.read(); 
+		
+		if(lo < 0)
+			lo += 256;
+

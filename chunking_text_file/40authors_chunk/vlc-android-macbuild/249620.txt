@@ -1,0 +1,10 @@
+        return mSegmentPlayer.getVideoWidth();
+    }
+
+    @Override
+    public boolean isPlaying() {
+        try {
+            return mSegmentPlayer.isPlaying();
+        } catch (IllegalStateException e) {
+            e.printStackTrace();
+            return false;

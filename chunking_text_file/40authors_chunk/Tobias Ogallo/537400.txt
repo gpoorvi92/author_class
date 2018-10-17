@@ -1,0 +1,10 @@
+		jPanel2.add(jButton4);
+        setSize(800,400);
+        load_jTable();
+         
+		jButton1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			new AddNew().setVisible(true);
+			}
+		});
+		

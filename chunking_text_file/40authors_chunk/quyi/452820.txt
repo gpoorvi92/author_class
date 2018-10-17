@@ -1,0 +1,10 @@
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 4: // PLOTS
+              if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+                {
+                  org.apache.thrift.protocol.TList _list38 = iprot.readListBegin();
+                  struct.plots = new ArrayList<com.nercis.isscp.idl.PlotsType>(_list38.size);
+                  for (int _i39 = 0; _i39 < _list38.size; ++_i39)
+                  {

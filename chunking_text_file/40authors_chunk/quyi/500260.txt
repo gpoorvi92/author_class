@@ -1,0 +1,10 @@
+  public int getTaskQueueNume() {
+    return this.taskQueueNume;
+  }
+
+  public NodeHeat setTaskQueueNume(int taskQueueNume) {
+    this.taskQueueNume = taskQueueNume;
+    setTaskQueueNumeIsSet(true);
+    return this;
+  }
+

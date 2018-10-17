@@ -1,0 +1,10 @@
+public class CalculatorPanel extends JPanel
+{  
+   private JTextArea display;
+   private JPanel panel;
+   private double result;
+   private String lastCommand;
+   private boolean start;
+
+   /**
+      Lays out the panel.

@@ -1,0 +1,10 @@
+{
+    /**
+     * This method is invoked when an HTTP message is being processed by the
+     * Proxy.
+     *
+     * @param messageIsRequest Indicates whether the HTTP message is a request
+     * or a response.
+     * @param message An
+     * <code>IInterceptedProxyMessage</code> object that extensions can use to
+     * query and update details of the message, and control whether the message

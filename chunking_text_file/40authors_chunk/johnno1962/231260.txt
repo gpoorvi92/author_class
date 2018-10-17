@@ -1,0 +1,6 @@
+
+    public void swipedUp( com.apple.eawt.event.SwipeEvent arg0 ) {
+        __swipedUp( arg0 );
+    }
+
+}

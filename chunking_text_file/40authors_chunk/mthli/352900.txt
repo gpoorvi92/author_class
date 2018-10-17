@@ -1,0 +1,10 @@
+               setSubject(wordList.getSelectedValue());
+            }
+         });
+
+      Container contentPane = getContentPane();
+      contentPane.add(p, BorderLayout.NORTH);
+      label = new JLabel(prefix + suffix);
+      contentPane.add(label, BorderLayout.CENTER);
+      setSubject("fox");
+      pack();

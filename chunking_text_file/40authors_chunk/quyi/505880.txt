@@ -1,0 +1,10 @@
+import com.nercis.isscp.idl.CheckResultStatus;
+import com.nercis.isscp.idl.DynamicCheckResultData;
+import com.nercis.isscp.idl.InvalidRequestException;
+import com.nercis.isscp.idl.PlotsType;
+import com.nercis.isscp.idl.Result;
+import com.nercis.isscp.idl.StaticCheckResultData;
+import com.nercis.isscp.idl.UnavailableException;
+import com.nercis.isscp.idl.UserApp;
+import com.nercis.isscp.idl.virus.VirusDetectionResultData;
+import com.nercis.isscp.ts.NodeHeat;

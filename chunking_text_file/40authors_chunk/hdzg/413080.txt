@@ -1,0 +1,10 @@
+		};
+	int cost = 15000;//花费
+	int status=-1;//状态位，为0表示显示是否招兵，为1表示无钱招兵,为2表示显示招兵成功，为3表示招兵失败
+	int maxNumber = 8000;//每次最多招募8000
+	float failOdd = 0.3f;//有三分之一的概率招不上兵
+	
+	public VillageDrawable(){}
+	
+	public VillageDrawable(Bitmap bmpSelf,Bitmap bmpDialogBack,Bitmap bmpDialogButton,boolean meetable,int width,int height,int col,int row,
+			int refCol,int refRow,int [][] noThrough,

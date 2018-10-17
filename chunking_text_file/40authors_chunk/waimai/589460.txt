@@ -1,0 +1,10 @@
+public class UImageRecommendController extends BaseController {
+    @Autowired
+    private IImageRecommendService imageRecommendService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list() {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<ImageRecommend> imageRecommends = imageRecommendService.findAll();
+        map.put("count", imageRecommends.size());
+        map.put("imageRecommends", imageRecommends);

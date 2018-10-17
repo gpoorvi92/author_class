@@ -1,0 +1,10 @@
+    public ruleSync_args(
+      List<com.nercis.isscp.idl.rules.Rules> rules)
+    {
+      this();
+      this.rules = rules;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */

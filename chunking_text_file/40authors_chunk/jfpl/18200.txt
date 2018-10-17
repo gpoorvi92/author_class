@@ -1,0 +1,10 @@
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.web_content, "");
+		Intent intent = getIntent();
+		String title = intent.getStringExtra("title");
+		String url = intent.getStringExtra("url");
+		String appId = intent.getStringExtra("app_id");
+		if (!StringUtil.isNull(appId)) {
+			super.setChatBusiType(appId);
+		}
+		if (!StringUtil.isNull(title)) {

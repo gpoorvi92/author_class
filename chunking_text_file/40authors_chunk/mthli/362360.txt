@@ -1,0 +1,10 @@
+         System.out.println("----------");
+
+         Scanner in = new Scanner(connection.getInputStream());
+
+         // print first ten lines of contents
+
+         for (int n = 1; in.hasNextLine() && n <= 10; n++)
+            System.out.println(in.nextLine());
+         if (in.hasNextLine()) System.out.println(". . .");
+      }

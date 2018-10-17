@@ -1,0 +1,10 @@
+          sequencer.start();
+          sequencer.setTempoInBPM(120);
+      } catch (Exception ex) {ex.printStackTrace();}
+  } // close go
+
+
+   public MidiEvent makeEvent(int comd, int chan, int one, int two, int tick) {
+          MidiEvent event = null;
+          try {
+            ShortMessage a = new ShortMessage();

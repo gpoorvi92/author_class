@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch14.hsha.example;
+
+import io.github.viscent.mtpattern.ch5.tpt.example.AlarmType;
+
+import java.sql.Connection;
+
+import org.apache.log4j.Logger;

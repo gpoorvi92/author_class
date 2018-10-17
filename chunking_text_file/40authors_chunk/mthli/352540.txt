@@ -1,0 +1,10 @@
+
+      panel = new JPanel();
+      for (int i = 0; i < position.length; i++)
+      {
+         final ChartBean.Position pos = ChartBean.Position.values()[i];
+         panel.add(position[i]);
+         group.add(position[i]);
+         position[i].addActionListener(new ActionListener()
+            {
+               public void actionPerformed(ActionEvent event)

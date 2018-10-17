@@ -1,0 +1,10 @@
+            }
+
+            return false;
+        }
+
+        public void addRecentDownloadedFile(String filePath) {
+            recentDownloadedFiles.put(filePath, Utils.now());
+        }
+
+        public void removeRecentDownloadedFile(String filePath) {

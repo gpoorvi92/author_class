@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 利用Buffer实现文件的读取拷贝
+     *
+     * @param source
+     * @param target
+     */

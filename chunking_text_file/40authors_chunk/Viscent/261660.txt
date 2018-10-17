@@ -1,0 +1,10 @@
+				if (logger.isInfoEnabled()) {
+
+					logger.info("task count:" + requestSubmittedPerIterval
+					    + ",Queue size:" + scheduler.getQueue().size()
+					    + ",taskTimeConsumedPerInterval:"
+					    + taskTimeConsumedPerInterval.get() + " ms");
+				}
+
+				taskTimeConsumedPerInterval.set(0);
+				requestSubmittedPerIterval.set(0);

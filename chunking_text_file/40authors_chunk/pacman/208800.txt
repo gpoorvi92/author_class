@@ -1,0 +1,10 @@
+					output.flush();
+					output.close();
+				} catch (IOException e) {
+					
+					logger.error("Fail to close output.", e);
+				}
+			}
+			
+			if (client != null) {
+				try {

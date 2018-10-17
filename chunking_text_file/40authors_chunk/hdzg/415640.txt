@@ -1,0 +1,10 @@
+			items1[t][0] = gameView.hero.cityList.get(i).getCityName();//城池名称
+			items1[t][1] = COUNTRY_NAME[gameView.hero.cityList.get(i).getCountry()];//归属国
+			items1[t][2] = gameView.hero.cityList.get(i).getGuardGeneral().get(0).getName();//一个将领名
+			items1[t][3] = gameView.hero.cityList.get(i).getArmy()+"人";//兵力
+		}
+	}
+	public void onDraw(Canvas canvas){//绘制的方法 
+		canvas.drawBitmap(panel_back, 0, 0, paint);  
+		canvas.drawBitmap(threeBitmap, 212, 15, paint);
+		canvas.drawBitmap(logo, 15, 16, paint);//绘制logo

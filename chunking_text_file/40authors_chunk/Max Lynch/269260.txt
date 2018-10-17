@@ -1,0 +1,10 @@
+	    
+    	if(!freeDrawing)
+    		add(temp);
+    	else 
+    		add(freeShape); 
+    	System.out.println("Shape Added");
+    
+    	repaint();
+	}
+	

@@ -1,0 +1,10 @@
+    public static final int PWR_REASON_ALLOW   = 2;
+    public static final int PWR_REASON_DENY    = 3;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // Status Update Event: "Status" Parameter Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PWR_SUE_UPS_FULL               = 11;
+    public static final int PWR_SUE_UPS_WARNING            = 12;

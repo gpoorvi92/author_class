@@ -1,0 +1,10 @@
+public class BillAcceptorBeanInfo
+  extends SimpleBeanInfo
+{
+  public BeanDescriptor getBeanDescriptor()
+  {
+    return new BeanDescriptor(jpos.BillAcceptor.class);
+  }
+
+  public PropertyDescriptor makeProperty(String propertyName)
+    throws IntrospectionException

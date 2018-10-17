@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int hashCode() {
+        return mUri.hashCode();
+    }
+
+    public Bitmap fullSizeBitmap(int minSideLength, int maxNumberOfPixels) {
+        return fullSizeBitmap(minSideLength, maxNumberOfPixels,
+                IImage.ROTATE_AS_NEEDED, IImage.NO_NATIVE);

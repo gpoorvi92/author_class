@@ -1,0 +1,10 @@
+            {
+               if (image != null) g.drawImage(image, 0, 0, null);
+            }
+         });
+
+      JMenu fileMenu = new JMenu("File");
+      JMenuItem openItem = new JMenuItem("Open");
+      openItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

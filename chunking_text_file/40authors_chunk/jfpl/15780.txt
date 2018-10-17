@@ -1,0 +1,10 @@
+	};
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.register2, "");
+		stIcon1.setGifImage(R.drawable.small_loading3);
+		stIcon2.setGifImage(R.drawable.small_loading3);
+		stIcon3.setGifImage(R.drawable.small_loading3);
+		EditText et = new EditText(this);
+		et.setText("456234");

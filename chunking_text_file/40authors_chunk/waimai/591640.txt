@@ -1,0 +1,10 @@
+
+    public Float getAvgGrade() {
+        return avgGrade;
+    }
+
+    public void setAvgGrade(Float avgGrade) {
+        this.avgGrade = avgGrade;
+    }
+
+    public Float getSpeed() {

@@ -1,0 +1,10 @@
+
+    private final class Reaper extends Thread
+    {
+
+        public void run()
+        {
+            while(!exitWhenFinished || trackers.size() > 0) 
+                try
+                {
+                    Tracker tracker = (Tracker)q.remove();

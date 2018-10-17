@@ -1,0 +1,10 @@
+			@Override
+			protected String doProcess(String input) throws PipeException {
+				String result = input + "->[pipe2," + Thread.currentThread().getName()
+				    + "]";
+				System.out.println(result);
+				try {
+					Thread.sleep(new Random().nextInt(100));
+				} catch (InterruptedException e) {
+					;
+				}

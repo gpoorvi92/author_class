@@ -1,0 +1,10 @@
+		}
+		return cs;
+	}
+
+	@Override
+	public Customer[] queryAllCustomers() {
+		List<Customer> list = customerDao.selectAllCustomers();
+		Customer[] cs = new Customer[list.size()];
+		int count = 0;
+		for (Customer c : list) {

@@ -1,0 +1,10 @@
+	private String contact;
+	private String level;
+	private String py;
+	private Set<Order> orders;
+	private Set<Bill> bills;
+	private Set<BxgPriceCut> bxgPriceCuts;
+	private Set<LhjPriceCut> lhjPriceCuts;
+	private Set<SmallPriceCut> smallPriceCuts;
+	private boolean valid;
+	

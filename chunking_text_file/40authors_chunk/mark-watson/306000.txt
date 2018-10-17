@@ -1,0 +1,10 @@
+    public abstract float positionEvaluation(Position p, boolean player);
+    public abstract void printPosition(Position p);
+    public abstract Position [] possibleMoves(Position p, boolean player);
+    public abstract Position makeMove(Position p, boolean player, Move move);
+    public abstract boolean reachedMaxDepth(Position p, int depth);
+    public abstract Move createMove();
+
+    /*
+     * Search utility methods:
+     */

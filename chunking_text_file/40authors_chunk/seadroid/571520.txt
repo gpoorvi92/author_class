@@ -1,0 +1,10 @@
+        return clause;
+    }
+
+    protected String[] whereClauseArgs() {
+        return Iterables.toArray(ImageManager.getAllBucketIds(), String.class);
+    }
+
+    @Override
+    protected Cursor createCursor() {
+        Cursor c = Images.Media.query(

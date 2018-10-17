@@ -1,0 +1,10 @@
+
+    public boolean equals(updateUserAppStatus_args that) {
+      if (that == null)
+        return false;
+
+      boolean this_present_missionId = true && this.isSetMissionId();
+      boolean that_present_missionId = true && that.isSetMissionId();
+      if (this_present_missionId || that_present_missionId) {
+        if (!(this_present_missionId && that_present_missionId))
+          return false;

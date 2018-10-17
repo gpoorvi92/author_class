@@ -1,0 +1,10 @@
+			this.mContext = context;
+		}
+
+		@Override
+		public int getCount() {
+			return array.length;
+		}
+
+		@Override
+		public Object getItem(int index) {

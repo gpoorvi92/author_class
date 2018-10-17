@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 12, 2014
+ Problem:    Remove Duplicates from Sorted List II
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+ Notes:
+ Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+ For example,
+ Given 1->2->3->3->4->4->5, return 1->2->5.

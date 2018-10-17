@@ -1,0 +1,10 @@
+package tv.danmaku.android.util;
+
+import java.lang.ref.WeakReference;
+
+import android.app.Activity;
+import android.content.Intent;
+
+public class WeakActivity<T_Activity extends Activity> {
+    private WeakReference<T_Activity> mWeakReference;
+    

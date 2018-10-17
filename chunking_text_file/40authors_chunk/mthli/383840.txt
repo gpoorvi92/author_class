@@ -1,0 +1,10 @@
+            int[] selected = table.getSelectedColumns();
+            TableColumnModel columnModel = table.getColumnModel();
+
+            // remove columns from view, starting at the last
+            // index so that column numbers aren't affected
+
+            for (int i = selected.length - 1; i >= 0; i--)
+            {
+               TableColumn column = columnModel.getColumn(selected[i]);
+               table.removeColumn(column);

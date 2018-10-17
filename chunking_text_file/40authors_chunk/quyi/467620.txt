@@ -1,0 +1,10 @@
+    return (this.ruleTypes == null) ? null : this.ruleTypes.iterator();
+  }
+
+  public void addToRuleTypes(Activity elem) {
+    if (this.ruleTypes == null) {
+      this.ruleTypes = new ArrayList<Activity>();
+    }
+    this.ruleTypes.add(elem);
+  }
+

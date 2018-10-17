@@ -1,0 +1,10 @@
+      {
+         try
+         {
+            s.pop();
+         }
+         catch (EmptyStackException e)
+         {
+         }
+      }
+      s2 = new Date().getTime();

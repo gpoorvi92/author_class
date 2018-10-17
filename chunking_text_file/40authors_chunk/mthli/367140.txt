@@ -1,0 +1,10 @@
+    * Draws 1/2" crop marks in the corners of the page.
+    * @param g2 the graphics context
+    * @param pf the page format
+    */
+   public void drawCropMarks(Graphics2D g2, PageFormat pf)
+   {
+      final double C = 36; // crop mark length = 1/2 inch
+      double w = pf.getImageableWidth();
+      double h = pf.getImageableHeight();
+      g2.draw(new Line2D.Double(0, 0, 0, C));

@@ -1,0 +1,10 @@
+
+   /**
+    * Constructs the model.
+    * @param w the word to permute
+    */
+   public PermutationSpinnerModel(String w)
+   {
+      word = w;
+   }
+

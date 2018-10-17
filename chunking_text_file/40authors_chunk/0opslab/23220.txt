@@ -1,0 +1,10 @@
+        try (InputStream in = new BufferedInputStream(new FileInputStream(filePath))) {
+            pps.load(in);
+            return pps.getProperty(key);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    /**

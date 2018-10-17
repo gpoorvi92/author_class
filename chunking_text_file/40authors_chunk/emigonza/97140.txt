@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface CoinDispenserService113 extends CoinDispenserService112
+{
+  // Nothing new added for release 1.13
+}

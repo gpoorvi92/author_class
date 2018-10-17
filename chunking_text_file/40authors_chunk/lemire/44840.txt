@@ -1,0 +1,10 @@
+
+    /**
+     * Gets the running bit.
+     *
+     * @return the running bit
+     */
+    public boolean getRunningBit() {
+        return this.RunningBit;
+    }
+

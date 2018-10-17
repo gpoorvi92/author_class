@@ -1,0 +1,10 @@
+	
+	@Override
+	public void datagrid() throws IOException{
+		DataGrid<PictureInfo> grid = this.service.datagrid(this.getModel());
+		if(grid != null && grid.getRows() != null && grid.getRows().size() > 0){
+			String host = this.host();
+			for(int i = 0; i < grid.getRows().size(); i++){
+				grid.getRows().get(i).setUrl(host + grid.getRows().get(i).getPath());
+			}
+		}

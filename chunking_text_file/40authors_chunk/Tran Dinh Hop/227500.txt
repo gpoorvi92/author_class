@@ -1,0 +1,10 @@
+                 }
+
+             return out;
+         }
+
+	public String getOutFileName(){
+		return (outFileName);
+	}
+	
+}

@@ -1,0 +1,10 @@
+
+  private static class RunMonitorTupleSchemeFactory implements SchemeFactory {
+    public RunMonitorTupleScheme getScheme() {
+      return new RunMonitorTupleScheme();
+    }
+  }
+
+  private static class RunMonitorTupleScheme extends TupleScheme<RunMonitor> {
+
+    @Override

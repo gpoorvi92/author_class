@@ -1,0 +1,8 @@
+    public byte[]  getTrack2DiscretionaryData() throws JposException;
+    public byte[]  getTrack3Data() throws JposException;
+    public int     getTracksToRead() throws JposException;
+    public void    setTracksToRead(int tracksToRead) throws JposException;
+
+    // Methods
+    public void    clearInput() throws JposException;
+}

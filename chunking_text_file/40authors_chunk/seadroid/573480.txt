@@ -1,0 +1,10 @@
+
+import com.seafile.seadroid2.R;
+import com.seafile.seadroid2.ui.SeafileStyleDialogBuilder;
+
+public class OpenAsDialog extends DialogFragment {
+    
+    private static final int OPEN_AS_TEXT = 0;
+    private static final int OPEN_AS_AUDIO = 1;
+    private static final int OPEN_AS_VIDEO = 2;
+    private static final int OPEN_AS_IMAGE = 3;

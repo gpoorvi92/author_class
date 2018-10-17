@@ -1,0 +1,10 @@
+      case 13:
+        return inreportederror;
+      case 14:
+        return inverified;
+      case 15:
+        return inrecheck;
+      case 16:
+        return inwaitsign;
+      case 17:
+        return insign;

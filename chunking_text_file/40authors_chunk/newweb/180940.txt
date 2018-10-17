@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<OrderLhjWeight> selectAllOrderLhjWeights() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order_lhjweight")

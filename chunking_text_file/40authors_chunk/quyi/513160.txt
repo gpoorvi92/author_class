@@ -1,0 +1,10 @@
+    }
+
+    public static class modifyNodeManagerConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, modifyNodeManagerConfig_args, com.nercis.isscp.idl.Result> {
+      public modifyNodeManagerConfig() {
+        super("modifyNodeManagerConfig");
+      }
+
+      public modifyNodeManagerConfig_args getEmptyArgsInstance() {
+        return new modifyNodeManagerConfig_args();
+      }

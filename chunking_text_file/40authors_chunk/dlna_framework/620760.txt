@@ -1,0 +1,10 @@
+
+public class SSDPPacket 
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public SSDPPacket(byte[] buf, int length)
+	{
+		dgmPacket = new DatagramPacket(buf, length);

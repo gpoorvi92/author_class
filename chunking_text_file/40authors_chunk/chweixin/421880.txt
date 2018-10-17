@@ -1,0 +1,10 @@
+	 * 将请求消息解析成对象。
+	 * @param req
+	 *  消息基类。
+	 *  @param data
+	 *  请求消息。
+	 * */
+	private static void parseReqMessage(BaseReqMessage req, Map<String, String> data){
+		if(req != null && data != null && data.size() > 0){
+			req.setMsgId(Long.parseLong(data.get("MsgId")));
+			req.setMsgType(data.get("MsgType"));

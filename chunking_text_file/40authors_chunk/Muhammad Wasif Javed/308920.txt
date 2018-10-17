@@ -1,0 +1,10 @@
+	private JLabel lbUser, lbPass;
+	private JTextField txtUser;
+	private JPasswordField txtPass;
+	private JButton btnOk, btnCancel;
+
+	private Statement st;			//Statement for Getting the Required Table.
+
+	//Constructor of Class.
+
+	public NewUser (Connection con) {

@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case OPERATE_TYPE:
+      if (value == null) {
+        unsetOperateType();
+      } else {
+        setOperateType((String)value);
+      }
+      break;

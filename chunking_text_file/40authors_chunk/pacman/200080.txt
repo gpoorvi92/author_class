@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月28日 下午9:46:56
+ */
+public class LogImpl implements ILog {
+
+	private Log logger = null;
+	
+	protected LogImpl(Log log) {
+		

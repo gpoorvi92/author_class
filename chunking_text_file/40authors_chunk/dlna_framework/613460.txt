@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private Thread httpServerThread = null;
+		
+	public void run()
+	{
+		if (isOpened() == false)
+			return;
+			
+		Thread thisThread = Thread.currentThread();

@@ -1,0 +1,10 @@
+	@ManyToOne
+	@JoinColumn(name="lhjpriceid")
+	public LhjPrice getLhjPrice() {
+		return lhjPrice;
+	}
+	public void setLhjPrice(LhjPrice lhjPrice) {
+		this.lhjPrice = lhjPrice;
+	}
+	@Column
+	public double getPrice() {

@@ -1,0 +1,10 @@
+		LineNumberReader lnr = new LineNumberReader(sr);
+		Font typeface = new Font("Monospaced", Font.PLAIN, 12);
+		Properties p = new Properties();
+		PrintJob pjob = getToolkit().getPrintJob(this, "Print report", p);
+
+		if (pjob != null) {
+			Graphics pg = pjob.getGraphics();
+			if (pg != null) {
+				FontMetrics fm = pg.getFontMetrics(typeface);
+				int margin = 20;

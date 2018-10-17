@@ -1,0 +1,10 @@
+	public Bxg getFdwFgType() {
+		return fdwFgType;
+	}
+	public void setFdwFgType(Bxg fdwFgType) {
+		this.fdwFgType = fdwFgType;
+	}
+	
+	@Column
+	public int getFdwFgCount() {
+		return fdwFgCount;

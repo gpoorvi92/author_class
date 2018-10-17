@@ -1,0 +1,10 @@
+import org.cybergarage.upnp.*;
+
+public class Advertiser extends ThreadCore
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public Advertiser(Device dev)
+	{

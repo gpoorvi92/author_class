@@ -1,0 +1,10 @@
+ * 复制图片(4种)
+ * A:基本字节流一次读写一个字节
+ * B:基本字节流一次读写一个字节数组
+ * C:高效字节流一次读写一个字节
+ * D:高效字节流一次读写一个字节数组
+ */
+public class CopyBmpDemo {
+	public static void main(String[] args) throws IOException {
+		File srcFile = new File("c:\\林青霞.bmp");
+		File destFile = new File("d:\\mn.bmp");

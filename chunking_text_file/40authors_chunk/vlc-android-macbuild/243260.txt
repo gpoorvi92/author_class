@@ -1,0 +1,10 @@
+
+    public Segment getFirstSegment() {
+        PlayIndex playIndex = getFirstPlayIndex();
+        if (playIndex != null)
+            return playIndex.getFirstSegment();
+
+        return null;
+    }
+
+    public String getFirstSegmentUrl() {

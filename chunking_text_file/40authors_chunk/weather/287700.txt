@@ -1,0 +1,10 @@
+            return context.getString(resId);
+        }
+    }
+
+
+
+    /**
+     * 通过名称 查找对应的colorid
+     *
+     * @param name

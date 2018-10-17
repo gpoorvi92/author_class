@@ -1,0 +1,10 @@
+	}
+	
+	@Column
+	public double getFdwHeight() {
+		return fdwHeight;
+	}
+	public void setFdwHeight(double fdwHeight) {
+		this.fdwHeight = fdwHeight;
+	}
+	

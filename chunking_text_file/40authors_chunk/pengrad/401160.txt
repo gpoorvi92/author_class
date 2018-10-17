@@ -1,0 +1,10 @@
+    private String description;
+
+    public InlineQueryResultVideo(String id, String videoUrl, String mimeType, String messageText, String thumbUrl, String title) {
+        this(id, videoUrl, mimeType, new InputTextMessageContent(messageText), thumbUrl, title);
+    }
+
+    public InlineQueryResultVideo(String id, String videoUrl, String mimeType, InputMessageContent inputMessageContent, String thumbUrl, String title) {
+        super("video", id);
+        this.video_url = videoUrl;
+        this.mime_type = mimeType;

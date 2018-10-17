@@ -1,0 +1,10 @@
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View result = inflater.inflate(R.layout.fragment_weather_daily, container, false);
+        ButterKnife.inject(this, result);
+        return result;
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        String beijingId = "101010100";

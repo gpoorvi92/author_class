@@ -1,0 +1,10 @@
+    private static class updateUserAppStatus_resultStandardSchemeFactory implements SchemeFactory {
+      public updateUserAppStatus_resultStandardScheme getScheme() {
+        return new updateUserAppStatus_resultStandardScheme();
+      }
+    }
+
+    private static class updateUserAppStatus_resultStandardScheme extends StandardScheme<updateUserAppStatus_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, updateUserAppStatus_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;

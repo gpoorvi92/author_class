@@ -1,0 +1,10 @@
+            throw new NullPointerException("req");
+        }
+        int counter = 0 ;
+        Rpc.RpcPacket.Builder builder = Rpc.RpcPacket.newBuilder();
+        builder.setCounter(counter);
+        builder.setOpcode(req.getClass().getSimpleName());
+        builder.setContent(req.toByteString());
+        return builder.build();
+    }
+    public void write(MessageLite msg)

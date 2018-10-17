@@ -1,0 +1,10 @@
+		
+		if (bitrate_v < 1) {
+			throw new InvalidMediaParameterException("Invalid video bitrate.[" + bitrate_v + "]");
+		}
+		
+		if (bitrate_a < 1) {
+			throw new InvalidMediaParameterException("Invalid audio bitrate.[" + bitrate_a + "]");
+		}
+		
+//		if (sampling < 11025) {

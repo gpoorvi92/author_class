@@ -1,0 +1,10 @@
+	String userAppId;
+	String missionId;
+	String appName;
+	String md5;
+	String appSize;
+	long startedTime = 0;
+	long finishedTime = 0;
+	PlotsType plotsType;
+	String appCheckResult;
+

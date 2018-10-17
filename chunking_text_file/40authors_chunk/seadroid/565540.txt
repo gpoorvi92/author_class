@@ -1,0 +1,10 @@
+        null,   // don't group the rows
+        null,   // don't filter by row groups
+        null    // The sort order
+        );
+
+        List<Avatar> avatars = new ArrayList<Avatar>();
+
+        if (!cursor.moveToFirst())
+            return avatars;
+

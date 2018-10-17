@@ -1,0 +1,10 @@
+	 */
+	@Before
+	public void setUp() throws Exception {
+		factory = new ClassPathXmlApplicationContext("schedules.xml");
+	}
+
+	/**
+	 * TODO
+	 * @Title: tearDown
+	 * @throws java.lang.Exception

@@ -1,0 +1,10 @@
+              So we can find the maximum difference between two succesive non-empty drawers.
+ */
+public class Solution {
+    public int maximumGap_1(int[] num) {
+        Arrays.sort(num);
+        int res = 0;
+        for (int i = 1; i < num.length; ++i) {
+            res = Math.max(res, num[i] - num[i - 1]);
+        }
+        return res;

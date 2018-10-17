@@ -1,0 +1,10 @@
+    /**
+     * This method is used to determine the offsets of the payload value within
+     * the request, when it is placed into the insertion point. Scan checks may
+     * invoke this method when reporting issues, so as to highlight the relevant
+     * part of the request within the UI.
+     *
+     * @param payload The payload that should be placed into the insertion
+     * point.
+     * @return An int[2] array containing the start and end offsets of the
+     * payload within the request, or null if this is not applicable (for

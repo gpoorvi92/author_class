@@ -1,0 +1,10 @@
+    public static int getActivitOrientation(Context context, ComponentName name) {
+        PackageManager pkgManager = context.getPackageManager();
+        if (pkgManager == null)
+            return ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
+
+        ActivityInfo activityInfo = getActivityInfo(pkgManager, name);
+        if (activityInfo == null)
+            return ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED;
+
+        return activityInfo.screenOrientation;

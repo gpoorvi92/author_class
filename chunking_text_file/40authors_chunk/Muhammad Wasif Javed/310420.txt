@@ -1,0 +1,10 @@
+
+	//Function Holds the Resource of RGB (Red, Green, Blue).
+
+	private ColorUIResource parseColor (String s) {
+
+		int red = 0;
+		int green = 0;
+		int blue = 0;
+
+		try {

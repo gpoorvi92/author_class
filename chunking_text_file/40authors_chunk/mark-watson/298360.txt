@@ -1,0 +1,10 @@
+      Location [] ret = new Location[maxDepth];
+      for (int i=0; i<maxDepth; i++) {
+        ret[i] = searchPath[i];
+      }
+      return ret;
+    }
+    protected Location [] getPossibleMoves(Location loc) {
+        Location tempMoves [] = new Location[4];
+        tempMoves[0] = tempMoves[1] = tempMoves[2] = tempMoves[3] = null;
+        int x = loc.x;

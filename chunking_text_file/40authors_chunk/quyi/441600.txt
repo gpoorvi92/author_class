@@ -1,0 +1,10 @@
+
+    case DATA_CHAR:
+      if (value == null) {
+        unsetDataChar();
+      } else {
+        setDataChar((String)value);
+      }
+      break;
+
+    case DATA_LENGTH:

@@ -1,0 +1,10 @@
+  {
+    return new PropertyDescriptor(propertyName, jpos.ImageScanner.class);
+  }
+
+  public PropertyDescriptor[] getPropertyDescriptors()
+  {
+    try
+    {
+      PropertyDescriptor[] properties =
+      {

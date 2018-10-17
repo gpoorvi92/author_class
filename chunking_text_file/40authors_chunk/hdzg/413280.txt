@@ -1,0 +1,6 @@
+			}
+			tempHero.setArmyWithMe(tempHero.getArmyWithMe()+result);
+			dialogMessage[2] = dialogMessage[2].replaceFirst("xx", result+"");
+		}
+	}	
+}

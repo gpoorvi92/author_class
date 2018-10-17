@@ -1,0 +1,10 @@
+package org.andengine.examples.game.snake.entity;
+
+import org.andengine.entity.sprite.Sprite;
+import org.andengine.examples.game.snake.util.constants.SnakeConstants;
+import org.andengine.opengl.texture.region.ITextureRegion;
+import org.andengine.opengl.vbo.VertexBufferObjectManager;
+
+/**
+ * (c) 2010 Nicolas Gramlich 
+ * (c) 2011 Zynga Inc.

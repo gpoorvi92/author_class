@@ -1,0 +1,10 @@
+            throw new Exception(err);
+        }
+    }
+
+    @Override
+    protected void disableInput() {
+        super.disableInput();
+        passwordText.setEnabled(false);
+    }
+

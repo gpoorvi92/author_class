@@ -1,0 +1,10 @@
+package com.newweb.service.business;
+
+import java.util.List;
+
+import com.newweb.model.business.Bill;
+import com.newweb.model.business.Order;
+
+
+
+public interface BillService {

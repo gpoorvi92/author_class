@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.io.File;
+import java.io.IOException;
+
+/*
+ * 创建功能：
+ * A:创建文件,如果文件不存在，就创建。存在，就不创建。
+ * 		public boolean createNewFile() throws IOException
+ * 		

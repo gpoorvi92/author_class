@@ -1,0 +1,10 @@
+						AbstractCommonData item = DataConvertFactory
+								.getInstanceEmpty();
+						item.putStringValue("type", "1");
+						item.putStringValue("msg_type", "3");
+						item.putStringValue("audio_url", path);
+						item.putStringValue("load_data_type", "0");
+						appendChatItem(item);
+						chatListToBottom();
+					}
+				}

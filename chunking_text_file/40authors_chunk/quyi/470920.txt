@@ -1,0 +1,10 @@
+    {
+      send_genMissionId(submitId);
+      return recv_genMissionId();
+    }
+
+    public void send_genMissionId(String submitId) throws org.apache.thrift.TException
+    {
+      genMissionId_args args = new genMissionId_args();
+      args.setSubmitId(submitId);
+      sendBase("genMissionId", args);

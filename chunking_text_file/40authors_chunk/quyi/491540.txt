@@ -1,0 +1,10 @@
+     * Performs a deep copy on <i>other</i>.
+     */
+    public heart_args(heart_args other) {
+      __isset_bitfield = other.__isset_bitfield;
+      if (other.isSetNodeHeat()) {
+        this.nodeHeat = new NodeHeat(other.nodeHeat);
+      }
+      this.timestamp = other.timestamp;
+    }
+

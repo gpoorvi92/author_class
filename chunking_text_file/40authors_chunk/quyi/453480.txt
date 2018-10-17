@@ -1,0 +1,10 @@
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */
+    public issuedMessage_result setSuccess(com.nercis.isscp.idl.Result success) {
+      this.success = success;
+      return this;
+    }
+
+    public void unsetSuccess() {

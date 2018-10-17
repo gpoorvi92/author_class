@@ -1,0 +1,10 @@
+      }
+      if (struct.riskType != null) {
+        oprot.writeFieldBegin(RISK_TYPE_FIELD_DESC);
+        oprot.writeString(struct.riskType);
+        oprot.writeFieldEnd();
+      }
+      if (struct.riskLevel != null) {
+        oprot.writeFieldBegin(RISK_LEVEL_FIELD_DESC);
+        oprot.writeString(struct.riskLevel);
+        oprot.writeFieldEnd();

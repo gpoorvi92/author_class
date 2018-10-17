@@ -1,0 +1,10 @@
+    return this.category;
+  }
+
+  public APICheck setCategory(String category) {
+    this.category = category;
+    return this;
+  }
+
+  public void unsetCategory() {
+    this.category = null;

@@ -1,0 +1,10 @@
+	private static Logger logger = Logger.getLogger(WeChatAccessTokenServiceImpl.class);
+	private IWeChatAccessTokenDao weChatAccessTokenDao;
+	private IWeChatAccountDao weChatAccountDao;
+	private String tokenUrl;
+	
+	public void setWeChatAccessTokenDao(IWeChatAccessTokenDao weChatAccessTokenDao) {
+		this.weChatAccessTokenDao = weChatAccessTokenDao;
+	}
+
+	public void setWeChatAccountDao(IWeChatAccountDao weChatAccountDao) {

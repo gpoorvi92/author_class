@@ -1,0 +1,10 @@
+
+		try {
+			if (!dirCreateMap.containsKey(dirName)) {
+				ftp.makeDirectory(dirName);
+				dirCreateMap.put(dirName, null);
+			}
+
+			try {
+				isOK = ftp.storeFile(fileName, dataIn);
+			} catch (IOException e) {

@@ -1,0 +1,10 @@
+    public double doubleField;
+
+    public static double doubleMethodStatic( double arg ) {
+        return arg;
+    }
+
+    public double doubleMethod( double arg ) {
+        return arg;
+    }
+

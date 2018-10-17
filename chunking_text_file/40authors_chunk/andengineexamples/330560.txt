@@ -1,0 +1,10 @@
+				this.mPaint.setColorFilter(new LightingColorFilter(Color.RED, Color.TRANSPARENT));
+				pCanvas.drawBitmap(zynga, 0, 0, this.mPaint);
+			}
+			
+			@Override
+			public BaseBitmapTextureAtlasSourceDecorator deepCopy() {
+				throw new DeepCopyNotSupportedException();
+			}
+		};
+

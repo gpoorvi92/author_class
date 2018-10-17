@@ -1,0 +1,10 @@
+			switch (old[i]) {
+			case '&': entity="&amp;"; break;				
+			case '<': entity="&lt;"; break;
+			case '>': entity="&gt;"; break;
+			case '\'': if (quote) { entity="&apos;"; break; } 
+			case '"': if (quote) { entity="&quot;"; break; }
+			}
+			if (entity != null) {
+				out.append(old,selstart,i-selstart);
+				out.append(entity);

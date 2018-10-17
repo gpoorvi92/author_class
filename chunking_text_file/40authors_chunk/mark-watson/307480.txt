@@ -1,0 +1,10 @@
+      
+      System.out.println("\n\nSample using kb: namespace defined in knowledgebooks.nt:\n");
+      sparql_query = "PREFIX kb:  <http://knowlegebooks.com/ontology/#> SELECT ?subject ?object WHERE { ?subject kb:containsState ?object . }";
+      ts.doSparqlQuery(sparql_query, this); // <http:://knowledgebooks.com/ontology/#
+      
+  }
+
+    public void processResult(List<String> data) {
+       System.out.print("next result: "); 
+       for (String s : data) System.out.print("|"+s+"|" + "\t  ");

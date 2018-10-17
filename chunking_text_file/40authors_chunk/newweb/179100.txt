@@ -1,0 +1,10 @@
+	@Column(columnDefinition="int default 0")
+	public int getLoginCount() {
+		return loginCount;
+	}
+	public void setLoginCount(int loginCount) {
+		this.loginCount = loginCount;
+	}
+	@Column
+	public String getLastLoginTime() {
+		return lastLoginTime;

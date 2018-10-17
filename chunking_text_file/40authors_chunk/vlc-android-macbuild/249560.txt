@@ -1,0 +1,10 @@
+        if (mSegmentPlayer == null)
+            return 0;
+
+        try {
+            return mSegmentPlayer.getCurrentPosition();
+        } catch (IllegalStateException e) {
+            e.printStackTrace();
+            return 0;
+        }
+    }

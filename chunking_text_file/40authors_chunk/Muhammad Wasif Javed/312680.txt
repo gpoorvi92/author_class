@@ -1,0 +1,10 @@
+
+	private JPanel pBook = new JPanel ();
+
+	private JLabel lbCategory;
+	private JComboBox cboCategory;
+	private String category[] = {"Computers", "Science", "History", "General"};	//ComboBox Items.
+
+	private JScrollPane scroller;
+	private JTable table;	//Table for Displaying Records.
+	private Statement st;	//Statement for Getting the Required Table.

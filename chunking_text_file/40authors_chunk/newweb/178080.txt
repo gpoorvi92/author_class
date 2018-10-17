@@ -1,0 +1,10 @@
+	public int getGlassCount() {
+		return glassCount;
+	}
+	public void setGlassCount(int glassCount) {
+		this.glassCount = glassCount;
+	}
+	public double getGlassYtWidth() {
+		return glassYtWidth;
+	}
+	public void setGlassYtWidth(double glassYtWidth) {

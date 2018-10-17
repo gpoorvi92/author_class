@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_jvmFreeMem = true;
+    boolean that_present_jvmFreeMem = true;
+    if (this_present_jvmFreeMem || that_present_jvmFreeMem) {
+      if (!(this_present_jvmFreeMem && that_present_jvmFreeMem))
+        return false;
+      if (this.jvmFreeMem != that.jvmFreeMem)
+        return false;

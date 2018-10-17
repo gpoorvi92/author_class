@@ -1,0 +1,10 @@
+				jbt.setFont (new Font("Arial", Font.BOLD, 15));
+				jbt.setLabel(status+"%");			
+				//jsp.setViewportView(new JButton(status+"%"));			
+			}			
+	}
+
+	public void run(){
+		try{
+			compress();
+		}catch(Exception e){

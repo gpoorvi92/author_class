@@ -1,0 +1,10 @@
+		//Setting Panel's Layout.
+
+		pNew.setLayout (null);
+
+		//Adding All the Controls in Panel.
+
+		pNew.add (lbUser);
+		pNew.add (lbPass);
+		pNew.add (txtUser);
+		pNew.add (txtPass);

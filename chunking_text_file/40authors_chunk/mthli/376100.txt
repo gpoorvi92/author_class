@@ -1,0 +1,10 @@
+ * constructed when the file is loaded and set as the content pane of the frame when the loading is
+ * complete. That avoids flicker during loading.
+ */
+public class TextFrame extends JFrame
+{
+   public static final int TEXT_ROWS = 10;
+   public static final int TEXT_COLUMNS = 40;
+
+   private JMenuItem openItem;
+   private JMenuItem exitItem;

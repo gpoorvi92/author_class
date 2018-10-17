@@ -1,0 +1,10 @@
+package plaf;
+
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a button panel for changing look and feel
+ */
+public class PlafFrame extends JFrame
+{

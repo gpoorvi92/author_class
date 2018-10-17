@@ -1,0 +1,10 @@
+//
+//////////////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface CATService14 extends BaseService
+{
+    // Capabilities

@@ -1,0 +1,10 @@
+                  struct.ruleTypes.add(_elem2);
+                }
+                iprot.readListEnd();
+              }
+              struct.setRuleTypesIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // RISK_LEVEL

@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * @param userName 用户名
+	 * @param tokenLifeTime 有效期，单位毫秒
+	 */
+	public LoginToken(String userName,long tokenLifeTime){
+		super();
+		this.userName=userName;
+		long now=System.currentTimeMillis();
+		String src=userName+(r.nextLong()+now);

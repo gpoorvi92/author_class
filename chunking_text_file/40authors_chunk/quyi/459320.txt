@@ -1,0 +1,10 @@
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchMission_result(searchMission_result other) {
+      if (other.isSetSuccess()) {
+        this.success = new MissionResults(other.success);
+      }

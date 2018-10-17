@@ -1,0 +1,10 @@
+		Button bu = new Button("点我啊");
+		// bu.setSize(20, 10);
+
+		// 把按钮添加到窗体
+		f.add(bu);
+
+		// 注册事件
+
+		// 注册按钮点击事件
+		bu.addActionListener(new ActionListener() {

@@ -1,0 +1,10 @@
+public interface JLFUListener {
+
+	/**
+	 * Fired when a new client has been attributed a new id.<br>
+	 * <i>Note that this event is sent by the {@link DefaultIdentifierProvider}.</i>
+	 * 
+	 * @param clientId
+	 */
+	void onNewClient(UUID clientId);
+

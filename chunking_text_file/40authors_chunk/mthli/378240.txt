@@ -1,0 +1,10 @@
+         for (int i = 1; i < images.length; i++)
+         {
+            IIOImage iioImage = new IIOImage(images[i], null, null);
+            if (writer.canInsertImage(i)) writer.writeInsert(i, iioImage, null);
+         }
+      }
+      catch (IOException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }

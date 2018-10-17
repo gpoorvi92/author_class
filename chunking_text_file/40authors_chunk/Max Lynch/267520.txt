@@ -1,0 +1,10 @@
+import com.gs.paint.*;
+
+public class GUIStudio {
+	
+	private static GUIStudio _instance = null;
+	
+	
+	
+	public final static JFrame FRAME = new JFrame();
+	

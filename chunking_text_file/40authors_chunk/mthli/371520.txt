@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class PrintServiceTest
+{
+   public static void main(String[] args)
+   {
+      DocFlavor flavor = DocFlavor.URL.GIF;
+      PrintService[] services = PrintServiceLookup.lookupPrintServices(flavor, null);
+      if (args.length == 0)
+      {

@@ -1,0 +1,10 @@
+
+        if (mData != null) {
+            onReleaseResources(mData);
+            mData = null;
+        }
+    }
+
+    @Override
+    public void onCanceled(List<SelectableFile> data) {
+        super.onCanceled(data);

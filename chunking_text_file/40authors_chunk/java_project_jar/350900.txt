@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io:
+//            IOUtils
+
+public class LineIterator
+    implements Iterator
+{
+
+    public LineIterator(Reader reader)
+        throws IllegalArgumentException

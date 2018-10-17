@@ -1,0 +1,6 @@
+	 *          任务
+	 * @return 任务处理结果
+	 * @throws Exception
+	 */
+	V doProcess(T task) throws Exception;
+}

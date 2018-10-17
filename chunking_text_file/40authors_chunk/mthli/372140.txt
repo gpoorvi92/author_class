@@ -1,0 +1,10 @@
+    public static void main(String[] args) {
+        /* 
+         * 第一个测试，
+         * 调用的tripleValue方法不能够修改原先的数值
+         */
+        System.out.println("Testing tripleValue:");
+        double percent = 10;
+        System.out.println("Before: percent = " + percent);
+        tripleValue(percent);
+        System.out.println("After: percent = " + percent);

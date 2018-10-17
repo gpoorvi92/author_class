@@ -1,0 +1,10 @@
+            } catch (JSONException e) {
+                throw new ServiceException("上传图片失败");
+            } catch (IOException e) {
+                throw new ServiceException("上传图片失败");
+            }
+            imageRecommend.setImage(filename);
+        }
+        Date now = new Date();
+        imageRecommend.setUpdateDate(now);
+        imageRecommend.setInsertDate(now);

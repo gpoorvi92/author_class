@@ -1,0 +1,10 @@
+            prices);
+
+      String codebase = "http://localhost:8080/";
+
+      ActivationDesc desc = new ActivationDesc(id, "WarehouseImpl", codebase, param);
+
+      Warehouse centralWarehouse = (Warehouse) Activatable.register(desc);
+
+      System.out.println("Binding activable implementation to registry...");
+      Context namingContext = new InitialContext();

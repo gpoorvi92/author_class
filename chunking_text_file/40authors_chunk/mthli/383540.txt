@@ -1,0 +1,9 @@
+   private byte[] loadClassBytes(String name) throws IOException
+   {
+      String cname = name.replace('.', '/') + ".caesar";
+      byte[] bytes = Files.readAllBytes(Paths.get(cname));
+      for (int i = 0; i < bytes.length; i++)
+         bytes[i] = (byte) (bytes[i] - key);
+      return bytes;
+   }
+}

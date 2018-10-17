@@ -1,0 +1,10 @@
+ * @author Daniel Lemire
+ */
+public class ThresholdFuncBitmapTest {
+    @Test
+    public void basictest() {
+        System.out.println("Testing ThresholdFuncBitmap");
+        EWAHCompressedBitmap ewah1 = EWAHCompressedBitmap.bitmapOf(1,
+                53, 110, 1000, 1201, 50000);
+        EWAHCompressedBitmap ewah2 = EWAHCompressedBitmap.bitmapOf(1,
+                100, 1000, 1100, 1200, 31416, 50001);

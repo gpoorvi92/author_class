@@ -1,0 +1,10 @@
+}
+
+class MyDrawPanel extends JPanel {
+    
+      public void paintComponent(Graphics g) {
+         
+         g.fillRect(0,0,this.getWidth(), this.getHeight());
+
+         // make random colors to fill with
+         int red = (int) (Math.random() * 255);

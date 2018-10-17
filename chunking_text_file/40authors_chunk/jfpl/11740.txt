@@ -1,0 +1,10 @@
+		clsbdh = clsbdh.toUpperCase();
+		bindClsbdhEt.setText(clsbdh);
+		String hpzl = hpzlSpinner.getSelectedItemPosition() == 0 ? "02" : "01";
+		String syr = syrEt.getText().toString();
+		String sfzmhm = sfzmhmEt.getText().toString();
+		sfzmhm = sfzmhm.toUpperCase();
+		sfzmhmEt.setText(sfzmhm);
+		AbstractCommonData sendData = SystemUtil.getCommonData("",
+				GlobalVariables.loginUsername);
+		sendData.putStringValue("_url", ConstVariables.BIND_VEH_URL);

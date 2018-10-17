@@ -1,0 +1,10 @@
+     * 获得图片大小
+     * 传入参数 String path ：图片路径
+     */
+    public long getPicSize(String path) {
+        file = new File(path);
+        return file.length();
+    }
+
+    // 图片处理
+    public boolean compressPic() {

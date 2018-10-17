@@ -1,0 +1,10 @@
+        return false;
+      if (!this.ruleNo.equals(that.ruleNo))
+        return false;
+    }
+
+    boolean this_present_category = true && this.isSetCategory();
+    boolean that_present_category = true && that.isSetCategory();
+    if (this_present_category || that_present_category) {
+      if (!(this_present_category && that_present_category))
+        return false;

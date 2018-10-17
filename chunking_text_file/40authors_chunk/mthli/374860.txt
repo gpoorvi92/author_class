@@ -1,0 +1,10 @@
+import java.awt.EventQueue;
+import java.awt.event.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * A program for viewing images.
+ * @version 1.22 2007-05-21
+ * @author Cay Horstmann
+ */

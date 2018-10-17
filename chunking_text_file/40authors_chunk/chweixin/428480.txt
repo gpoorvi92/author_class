@@ -1,0 +1,10 @@
+	 * @param timestamp
+	 *  时间戳
+	 * @param nonce
+	 * 	随机数。
+	 * @return 验证通过返回true,否则返回false。
+	 * */
+	public synchronized static boolean checkSignature(String signature,String token,String timestamp,String nonce){
+		//将token,timestamp,nonce三个参数进行字典排序。
+		String[] source = new String[]{token,timestamp,nonce};
+		Arrays.sort(source);

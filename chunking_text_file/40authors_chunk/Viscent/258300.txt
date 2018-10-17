@@ -1,0 +1,7 @@
+			subResults.add(subTaskResultPromise);
+		}
+
+		return subResults.iterator();
+	}
+
+}

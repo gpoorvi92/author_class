@@ -1,0 +1,10 @@
+        makeProperty("TotalizerType"),
+        makeProperty("AmountDecimalPlaces")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();
+    }

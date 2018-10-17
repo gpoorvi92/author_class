@@ -1,0 +1,10 @@
+      sendBase("modifyEngineConfig", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_modifyEngineConfig() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      modifyEngineConfig_result result = new modifyEngineConfig_result();
+      receiveBase(result, "modifyEngineConfig");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }

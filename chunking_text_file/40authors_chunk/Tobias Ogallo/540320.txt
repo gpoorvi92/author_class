@@ -1,0 +1,10 @@
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+				setVisible(false);
+				
+			}
+		}); 
+         
+         
+		jPanel1.add(jPanel2, java.awt.BorderLayout.SOUTH);
+		//jPanel1.setPreferredSize(new java.awt.Dimension(750, 300));
+        jPanel1.setBackground(new java.awt.Color(200, 200, 200));

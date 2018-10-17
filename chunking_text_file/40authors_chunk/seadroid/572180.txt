@@ -1,0 +1,10 @@
+        PackageManager pm = getPackageManager();
+
+        // First try to find an activity who can handle markdown edit
+        Intent editAsMarkDown = new Intent(Intent.ACTION_EDIT);
+
+        Uri uri = Uri.fromFile(new File(path));
+        String mime = "text/markdown";
+        editAsMarkDown.setDataAndType(uri, mime);
+
+        if (pm.queryIntentActivities(editAsMarkDown, 0).size() > 0) {

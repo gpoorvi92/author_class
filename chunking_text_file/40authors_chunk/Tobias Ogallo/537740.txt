@@ -1,0 +1,10 @@
+		cancel=new JButton("CANCEL",new ImageIcon("Icon/i16x16/exit.png"));
+		panel=new JPanel();
+		panel.add(print);
+		panel.add(cancel);
+		reportingPanel=new JPanel();
+		reportingPanel.setLayout(new BorderLayout());
+		reportingPanel.setBorder(BorderFactory.createEtchedBorder());
+		reportingPanel.add(new JLabel("Receipt for Payment"),BorderLayout.NORTH);
+		reportingPanel.add(panel,BorderLayout.SOUTH);
+		reportPanel=new JPanel();

@@ -1,0 +1,10 @@
+        unsetRiskLevel();
+      } else {
+        setRiskLevel((Risk)value);
+      }
+      break;
+
+    case PAK:
+      if (value == null) {
+        unsetPak();
+      } else {

@@ -1,0 +1,10 @@
+      case PROPERTY_NAME:
+        return getPropertyName();
+
+      case PROPERTY_VALUE:
+        return getPropertyValue();
+
+      }
+      throw new IllegalStateException();
+    }
+

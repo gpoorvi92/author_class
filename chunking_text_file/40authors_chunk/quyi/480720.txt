@@ -1,0 +1,10 @@
+
+    }
+
+    private static class queryMission_argsTupleSchemeFactory implements SchemeFactory {
+      public queryMission_argsTupleScheme getScheme() {
+        return new queryMission_argsTupleScheme();
+      }
+    }
+
+    private static class queryMission_argsTupleScheme extends TupleScheme<queryMission_args> {

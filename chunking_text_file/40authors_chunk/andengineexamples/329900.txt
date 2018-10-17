@@ -1,0 +1,10 @@
+	// Getter & Setter
+	// ===========================================================
+
+	public short getProtocolVersion() {
+		return this.mProtocolVersion;
+	}
+
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================

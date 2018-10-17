@@ -1,0 +1,10 @@
+    int getNumInsertionPoints();
+
+    /**
+     * This method allows the scan queue item to be canceled.
+     */
+    void cancel();
+
+    /**
+     * This method returns details of the issues generated for the scan queue
+     * item. <b>Note:</b> different items within the scan queue may contain

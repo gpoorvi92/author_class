@@ -1,0 +1,10 @@
+public class SieteFinal {
+    public static void main(String[] args) {
+    
+    Scanner num = new Scanner(System.in);
+    
+    int[] numero = new int[10];
+    String verde = "\033[32m";
+    String naranja = "\033[33m";
+    int i;
+    int contador=0;

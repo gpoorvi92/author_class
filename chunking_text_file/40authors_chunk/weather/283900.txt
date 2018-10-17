@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import java.security.NoSuchAlgorithmException;
+import java.util.UUID;
+
+/**
+ * Created by zhoukai on 13-12-24.
+ */
+public class DeviceUtil {
+

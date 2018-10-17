@@ -1,0 +1,10 @@
+    case ENGINE_IP:
+      return isSetEngineIp();
+    case ENGINE_STATUS:
+      return isSetEngineStatus();
+    case ENGINE_TYPE:
+      return isSetEngineType();
+    case NODE_INFO:
+      return isSetNodeInfo();
+    case ENGINE_RULES:
+      return isSetEngineRules();

@@ -1,0 +1,10 @@
+
+/**
+ * Description
+ * 封装Email相关的操作
+ */
+public final class EmailUtil {
+    private static String CONFIG_FILE;
+
+    static {
+        URL path = EmailUtil.class.getProtectionDomain().getCodeSource().getLocation();

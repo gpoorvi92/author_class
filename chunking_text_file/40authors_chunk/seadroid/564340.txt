@@ -1,0 +1,10 @@
+            link = conn.getShareLink(repoID, path, isdir);
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+
+    public String getResult() {
+        return link;
+    }
+}

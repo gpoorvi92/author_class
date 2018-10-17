@@ -1,0 +1,10 @@
+
+  public FileOperate setPidName(String pidName) {
+    this.pidName = pidName;
+    return this;
+  }
+
+  public void unsetPidName() {
+    this.pidName = null;
+  }
+

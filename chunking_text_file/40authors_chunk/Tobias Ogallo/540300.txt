@@ -1,0 +1,10 @@
+				
+			}
+			catch ( SQLException sqlex ) {
+                         txtInfo.append( sqlex.toString() );
+             }	
+
+	
+		
+
+		jButton4.addActionListener(new java.awt.event.ActionListener() {

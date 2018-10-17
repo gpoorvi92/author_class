@@ -1,0 +1,10 @@
+     */
+    public static Drawable getThemeDrawableFromId(Context appContext,Context packageContext,int resid) {
+          int id = getResidFromIdentifier(appContext,packageContext,resid,"drawable");
+          return packageContext.getResources().getDrawable(id);
+    }
+
+    /**
+     *
+     * @param appContext
+     * @param packageContext

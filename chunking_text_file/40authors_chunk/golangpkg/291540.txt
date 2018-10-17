@@ -1,0 +1,10 @@
+
+
+	private ThreadLocal<HttpServletResponse> responseThreadLocal = new ThreadLocal<HttpServletResponse>();
+	private ThreadLocal<HttpServletRequest> requestThreadLocal = new ThreadLocal<HttpServletRequest>();
+
+
+
+	public void populate(HttpServletRequest request, HttpServletResponse response) {
+		responseThreadLocal.set(response);
+		requestThreadLocal.set(request);

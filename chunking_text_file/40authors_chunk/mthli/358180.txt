@@ -1,0 +1,10 @@
+
+   /**
+    * Reads an array of employees from a scanner
+    * @param in the scanner
+    * @return the array of employees
+    */
+   private static Employee[] readData(Scanner in)
+   {
+      // retrieve the array size
+      int n = in.nextInt();

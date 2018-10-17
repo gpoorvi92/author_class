@@ -1,0 +1,10 @@
+     * 01 -> greater
+     * 10 -> less
+   */
+  private static int compareVectors(Vector3D v1, Vector3D v2)
+  { 
+      int result=0;
+      result = oneDimensionalComparison(v1.z, v2.z);
+      result |= oneDimensionalComparison(v1.y, v2.y) << 2;
+      result |= oneDimensionalComparison(v1.x, v2.x) << 4;
+      return result;

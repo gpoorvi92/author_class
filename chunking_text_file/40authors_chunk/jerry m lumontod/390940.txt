@@ -1,0 +1,10 @@
+		return this;
+	}
+    
+	public void paint(Graphics g) {
+		Icon icon = getIcon();
+		Border b = getBorder();
+
+		g.setColor(mclrBackNonSelectionColor);
+		g.fillRect(0, 0, getWidth(), getHeight());
+

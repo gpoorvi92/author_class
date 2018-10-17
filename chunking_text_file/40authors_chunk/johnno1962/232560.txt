@@ -1,0 +1,10 @@
+    /// public void javax.swing.event.InternalFrameAdapter.internalFrameDeiconified(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameDeiconified( javax.swing.event.InternalFrameEvent e );
+
+    boolean entered_internalFrameDeiconified_4;
+
+    public void internalFrameDeiconified( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameDeiconified_4 ) {
+            entered_internalFrameDeiconified_4 = true;
+            __internalFrameDeiconified( e );

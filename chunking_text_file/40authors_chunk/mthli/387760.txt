@@ -1,0 +1,10 @@
+      writer.writeStartDocument();
+      writer.writeDTD("<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 20000802//EN\" " 
+            + "\"http://www.w3.org/TR/2000/CR-SVG-20000802/DTD/svg-20000802.dtd\">");
+      writer.writeStartElement("svg");
+      writer.writeDefaultNamespace("http://www.w3.org/2000/svg");
+      writer.writeAttribute("width", "" + getWidth());
+      writer.writeAttribute("height", "" + getHeight());
+      for (int i = 0; i < rects.size(); i++)
+      {
+         Color c = colors.get(i);

@@ -1,0 +1,10 @@
+
+	public void method() {
+		//一个方法
+		/*
+		new Inter() {
+			public void show() {
+				System.out.println("show");
+			}
+		}.show();
+		*/

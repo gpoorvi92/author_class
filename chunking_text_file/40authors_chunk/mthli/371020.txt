@@ -1,0 +1,10 @@
+    private double salary;
+    private Date hireDay;
+
+    /* 
+     * 下面这段代码块是一个构造器，
+     * 顾名思义，构造器是用来构造一个新的对象实例的，
+     * 需要注意的是：
+     *     构造器的名字应该与所属类的名字相同
+     */
+    public Employee(String n, double s, int year, int month, int day) {

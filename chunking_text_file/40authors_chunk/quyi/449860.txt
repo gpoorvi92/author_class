@@ -1,0 +1,10 @@
+      checkReady();
+      operateEngine_call method_call = new operateEngine_call(engine, operate, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class operateEngine_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private Engine engine;
+      private EngineOperation operate;
+      public operateEngine_call(Engine engine, EngineOperation operate, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {

@@ -1,0 +1,10 @@
+package permissions;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * This class demonstrates the custom WordCheckPermission.
+ * @version 1.03 2007-10-06
+ * @author Cay Horstmann

@@ -1,0 +1,10 @@
+				if (callOcsOk) {
+					map.put("err", fm.getMsg());
+				} else {
+					map.put("err", "CALLBACK FAIL, " + fm.getMsg());
+				}
+				logger.warn("callback url:" + url + " ret:" + callOcsOk);
+				map.put("modified", DateHelper.getCurrentTime());
+				
+				taskDAO.update(fm.getCommandId(), map);
+			} catch (Exception e) {

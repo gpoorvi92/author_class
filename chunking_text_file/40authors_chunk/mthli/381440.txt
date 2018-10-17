@@ -1,0 +1,10 @@
+    * positions
+    */
+   public GridBagPane(File file)
+   {
+      setLayout(new GridBagLayout());
+      constraints = new GridBagConstraints();
+
+      try
+      {
+         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

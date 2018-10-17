@@ -1,0 +1,10 @@
+
+	public DateSlider(Context context, int layoutID, OnDateSetListener l,
+			Calendar initialTime) {
+		this(context, layoutID, l, initialTime, null, null, 1);
+	}
+
+	public DateSlider(Context context, int layoutID, OnDateSetListener l,
+			Calendar initialTime, int minInterval) {
+		this(context, layoutID, l, initialTime, null, null, minInterval);
+	}

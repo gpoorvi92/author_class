@@ -1,0 +1,10 @@
+      if(e.getSource()==(Object)mbtStudent){
+				tfInput.setFont (new Font("Arial Narrow", Font.PLAIN, 11) );
+				tfInput.setText("hoptrandinh@yahoo.com");
+		}
+	}
+
+	public  void displayMessage(String msg){
+		msgBoard.append("\n"+msg);
+	}
+

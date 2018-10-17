@@ -1,0 +1,10 @@
+      searchMission_result result = new searchMission_result();
+      receiveBase(result, "searchMission");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }
+      if (result.ire != null) {
+        throw result.ire;
+      }
+      if (result.ue != null) {
+        throw result.ue;

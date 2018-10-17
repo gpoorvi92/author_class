@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * @return The IPv4 address used for Multicast comunication
+	 */
+	public String getMulticastIPv4Address(){
+		return this.ssdpMulticastIPv4;
+	}
+	
+	/**
+	 * 

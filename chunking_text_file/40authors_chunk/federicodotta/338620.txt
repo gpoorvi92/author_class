@@ -1,0 +1,10 @@
+{
+    /**
+     * This method is used to obtain the HTTP headers contained in the response.
+     *
+     * @return The HTTP headers contained in the response.
+     */
+    List<String> getHeaders();
+
+    /**
+     * This method is used to obtain the offset within the response where the

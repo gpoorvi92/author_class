@@ -1,0 +1,10 @@
+ * @param <IN>
+ *          输入类型
+ * @param <OUT>
+ *          输出类型
+ */
+public interface Pipeline<IN, OUT> extends Pipe<IN, OUT> {
+
+	/**
+	 * 往该Pipeline实例中添加一个Pipe实例。
+	 * 

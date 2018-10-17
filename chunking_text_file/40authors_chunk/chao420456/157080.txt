@@ -1,0 +1,10 @@
+			jta_disMess.append(message.substring(0, local) + "\n");
+			jta_disMess.setCaretPosition(jta_disMess.getText().length());
+		}
+		if(message.contains("@exit")){
+			jta_disMess.setText("");
+		}
+	}
+
+	public void setStartAndStopUnable() {
+		JOptionPane.showMessageDialog(this, "不能同时开启两个服务器");

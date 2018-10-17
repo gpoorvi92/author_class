@@ -1,0 +1,10 @@
+	}
+
+	public Socket accept()
+	{
+		if (serverSock == null)
+			return null;
+		try {
+			
+			
+			Socket sock = serverSock.accept();

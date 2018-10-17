@@ -1,0 +1,10 @@
+		String publishFile = context.getAttribute(Constants.CONTEXT_HJPACK);
+		
+		if (!FileHelper.exists(resDir)) {
+			
+			throw new FileNotFoundException(resDir);
+		}
+		
+		if (!FileHelper.exists(mediaFile)) {
+			
+			throw new FileNotFoundException(mediaFile);

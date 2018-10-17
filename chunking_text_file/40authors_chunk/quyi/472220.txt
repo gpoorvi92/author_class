@@ -1,0 +1,10 @@
+        try {
+          result.success = iface.submitMission(args.missionId, args.userApps, args.plots, args.useRule);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }
+    }

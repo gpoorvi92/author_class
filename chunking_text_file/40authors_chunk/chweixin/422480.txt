@@ -1,0 +1,10 @@
+	 * @return 接入令牌。
+	 * */
+	public String getToken() {
+		return token;
+	}
+	/**
+	 * 设置接入令牌。
+	 * @param token
+	 * 	接入令牌。
+	 * */

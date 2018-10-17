@@ -1,0 +1,5 @@
+
+    public void setSelection(int offset, int offset1) {
+        edit_text.setSelection(offset, offset1);
+    }
+}

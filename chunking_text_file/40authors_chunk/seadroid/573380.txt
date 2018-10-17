@@ -1,0 +1,10 @@
+        viewHolder.path.setText(filePath(item));
+        viewHolder.title.setText(item.getTitle());
+        viewHolder.subtitle.setText(item.getSubtitle());
+
+        return view;
+    }
+
+    private String filePath(SearchedFile searchedFile) {
+        String parentPath = Utils.getParentPath(searchedFile.getPath());
+        SeafRepo seafRepo = mActivity.getDataManager().getCachedRepoByID(searchedFile.getRepoID());

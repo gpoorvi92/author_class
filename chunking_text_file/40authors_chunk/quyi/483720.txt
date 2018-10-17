@@ -1,0 +1,10 @@
+                struct.setStcRDIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 6: // DYC_RD
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+                struct.dycRD = new com.nercis.isscp.idl.DynamicCheckResultData();
+                struct.dycRD.read(iprot);
+                struct.setDycRDIsSet(true);

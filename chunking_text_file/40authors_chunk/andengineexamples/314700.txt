@@ -1,0 +1,10 @@
+		text.registerEntityModifier(
+			new SequenceEntityModifier(
+				new ParallelEntityModifier(
+					new AlphaModifier(10, 0.0f, 1.0f),
+					new ScaleModifier(10, 0.5f, 1.0f)
+				),
+				new RotationModifier(5, 0, 360)
+			)
+		);
+		text.setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);

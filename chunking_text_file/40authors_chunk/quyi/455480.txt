@@ -1,0 +1,10 @@
+      this.ire = ire;
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public operateEngine_result(operateEngine_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;

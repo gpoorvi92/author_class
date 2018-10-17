@@ -1,0 +1,10 @@
+    {
+        if(file == null)
+            throw new NullPointerException("File is missing");
+        if(encoding == null)
+            throw new NullPointerException("Encoding is missing");
+        boolean fileExistedAlready = file.exists();
+        java.io.OutputStream stream = null;
+        Writer writer = null;
+        try
+        {

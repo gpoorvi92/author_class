@@ -1,0 +1,10 @@
+	public static boolean archiveFiles(
+			List<String> 	files, 
+			String 			target,
+			String			ignoreExtNames,
+			boolean			trimExtName
+			) throws Exception {
+		
+		boolean result = true;
+		ZipArchiveOutputStream zip = null;
+		try {

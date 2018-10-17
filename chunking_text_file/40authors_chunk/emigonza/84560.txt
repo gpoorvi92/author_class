@@ -1,0 +1,10 @@
+  public int     getMaxCropAreas() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public int     getQuality() throws JposException;
+  public void    setQuality(int nQuality) throws JposException;
+  public String  getQualityList() throws JposException;
+  public int     getRemainingImagesEstimate() throws JposException;
+
+  // Methods

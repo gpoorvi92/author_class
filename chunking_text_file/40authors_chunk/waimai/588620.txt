@@ -1,0 +1,10 @@
+        try {
+            orderDetails = mapper.readValue(detail, new TypeReference<List<OrderDetail>>() {});
+        } catch (IOException e) {
+            map.put(Constants.RESULT_CODE, "0");
+            map.put(Constants.ERROR_MESSAGE, "格式有误");
+            return map;
+        }
+        try {
+            orderService.add(orderDetails, order);
+            map.put(Constants.RESULT_CODE, "1");

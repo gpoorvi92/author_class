@@ -1,0 +1,10 @@
+				timeStamp += internalDelay;
+				entry.timeStamp = timeStamp;
+				entry.recordType = "response";
+				entry.operationName = "sendSmsRsp";
+				entry.srcDevice = "ESB";
+				entry.dstDevice = "OSG";
+				logger.printLog(entry);
+
+				timeStamp += internalDelay;
+				entry.timeStamp = timeStamp;

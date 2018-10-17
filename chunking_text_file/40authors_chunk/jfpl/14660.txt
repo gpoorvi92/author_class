@@ -1,0 +1,10 @@
+		initHistoryMsg();
+		// for (int i = 0; i < 3; i++) {
+		// String html = "test.html";
+		// if (i == 1) {
+		// html = "test1.html";
+		// }
+		// AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+		// item.putStringValue("type", "0");
+		// item.putStringValue("msg_type", "6");
+		// item.putStringValue("url", "file:///android_asset/www/" + html);

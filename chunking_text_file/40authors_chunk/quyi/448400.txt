@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.jvmName != null) {
+        oprot.writeFieldBegin(JVM_NAME_FIELD_DESC);
+        oprot.writeString(struct.jvmName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.jvmVersion != null) {
+        oprot.writeFieldBegin(JVM_VERSION_FIELD_DESC);
+        oprot.writeString(struct.jvmVersion);

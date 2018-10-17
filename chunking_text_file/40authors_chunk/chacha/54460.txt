@@ -1,0 +1,10 @@
+		if(object!=null){
+			Account acct=new Account();
+			acct.fromDbObject(object);
+			return acct;
+		}else
+			return null;
+	}
+	/**
+	 * 通过用户名查询帐号
+	 * @param userName

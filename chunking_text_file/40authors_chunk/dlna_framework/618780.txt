@@ -1,0 +1,10 @@
+			if (isOnlyHeader == true) {
+				out.flush();
+				return true;
+			}
+			
+			boolean isChunkedResponse = httpRes.isChunked();
+			
+			if (0 < contentOffset)
+				in.skip(contentOffset);
+			

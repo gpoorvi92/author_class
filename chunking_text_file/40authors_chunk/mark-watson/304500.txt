@@ -1,0 +1,10 @@
+        TicTacToePosition pos = (TicTacToePosition)p;
+        if (winCheck(0,1,2, player, pos)) ret = true;
+        else if (winCheck(3,4,5, player, pos)) ret = true;
+        else if (winCheck(6,7,8, player, pos)) ret = true;
+        else if (winCheck(2,5,8, player, pos)) ret = true;
+        else if (winCheck(0,4,8, player, pos)) ret = true;
+        else if (winCheck(2,4,6, player, pos)) ret = true;
+        else if (winCheck(0,3,6, player, pos)) ret = true;
+        else if (winCheck(1,4,7, player, pos)) ret = true;
+        if (GameSearch.DEBUG) System.out.println("     ret="+ret);

@@ -1,0 +1,10 @@
+                Arrays.fill(tmp, ' ');
+                s.append(tmp);
+                s.append(words[k]);
+                extra--;
+            }
+            char[] tmp = new char[L - s.length()];
+            Arrays.fill(tmp, ' ');
+            s.append(tmp);
+            res.add(s.toString());
+            i = j;

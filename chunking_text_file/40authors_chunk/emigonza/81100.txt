@@ -1,0 +1,10 @@
+	 * @param origException the original exception causing this one
+	 */
+	public ProfileException( String msg, Exception e ) { this( msg ); origException = e; }
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the original exception causing this one */
+	public Exception getOrigException() { return origException; }

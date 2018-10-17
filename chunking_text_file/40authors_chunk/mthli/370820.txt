@@ -1,0 +1,6 @@
+               valueLabel.setText(value.toString());
+            }
+         });
+   }
+}
+

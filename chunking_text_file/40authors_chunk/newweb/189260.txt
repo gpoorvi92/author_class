@@ -1,0 +1,10 @@
+				.addEntity(MaterialBrand.class);
+		query.setString(0, name);
+		return (MaterialBrand) query.uniqueResult();
+	}
+
+	@Override
+	public boolean insert(MaterialBrand mb) {
+		try {
+			sessionFactory.getCurrentSession().save(mb);
+		} catch (Exception e) {

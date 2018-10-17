@@ -1,0 +1,10 @@
+          org.apache.thrift.protocol.TList _list69 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.rules = new ArrayList<com.nercis.isscp.idl.rules.Rules>(_list69.size);
+          for (int _i70 = 0; _i70 < _list69.size; ++_i70)
+          {
+            com.nercis.isscp.idl.rules.Rules _elem71;
+            _elem71 = new com.nercis.isscp.idl.rules.Rules();
+            _elem71.read(iprot);
+            struct.rules.add(_elem71);
+          }
+        }

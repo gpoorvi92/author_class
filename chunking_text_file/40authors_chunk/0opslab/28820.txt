@@ -1,0 +1,10 @@
+    }
+
+    public void setReplyCodeDesc(String replyCodeDesc) {
+        ReplyCodeDesc = replyCodeDesc;
+    }
+
+    public String getCreateTime() {
+        return createTime;
+    }
+

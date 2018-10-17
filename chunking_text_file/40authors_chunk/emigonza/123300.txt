@@ -1,0 +1,10 @@
+    public boolean getCapErrorDetection() throws JposException;
+    public boolean getCapSingleFile() throws JposException;
+    public boolean getCapTransactions() throws JposException;
+
+    // Properties
+    public int     getFreeData() throws JposException;
+    public int     getNumberOfFiles() throws JposException;
+    public int     getTotalsSize() throws JposException;
+    public boolean getTransactionInProgress() throws JposException;
+

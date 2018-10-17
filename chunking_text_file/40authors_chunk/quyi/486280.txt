@@ -1,0 +1,10 @@
+        return isSetUsedPermissions();
+      case STC_RD:
+        return isSetStcRD();
+      case DYC_RD:
+        return isSetDycRD();
+      case VIR_RD:
+        return isSetVirRD();
+      }
+      throw new IllegalStateException();
+    }

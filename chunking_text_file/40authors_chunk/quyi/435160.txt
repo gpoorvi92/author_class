@@ -1,0 +1,10 @@
+    }
+    if (other.isSetCheckEndDate()) {
+      this.checkEndDate = other.checkEndDate;
+    }
+  }
+
+  public DynamicCheckResultData deepCopy() {
+    return new DynamicCheckResultData(this);
+  }
+

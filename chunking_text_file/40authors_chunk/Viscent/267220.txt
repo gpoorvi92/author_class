@@ -1,0 +1,10 @@
+	    throws ParseException {
+		final SimpleDateFormat sdf = TS_SDF.get();
+		sdf.applyPattern(format);
+		Date date = sdf.parse(timeStamp);
+		return date;
+	}
+
+	public static void main(String[] args) throws ParseException {
+		Date date = ThreadSpecificDateFormat.parse("20150501123040",
+		    "yyyyMMddHHmmss");

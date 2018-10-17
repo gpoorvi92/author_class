@@ -1,0 +1,10 @@
+                ret.set(i, "VBG");
+        }
+        return ret;
+    }
+
+    /**
+     * Simple main test program
+     * 
+     * @param args string to tokenize and tag
+     */

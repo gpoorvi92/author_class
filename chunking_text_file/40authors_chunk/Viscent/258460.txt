@@ -1,0 +1,10 @@
+		ClientThread thread;
+		BusinessService bs = new BusinessService();
+		for (int i = 0; i < Integer.valueOf(args[0]); i++) {
+			thread = new ClientThread("test", bs);
+			thread.start();
+			thread.join();
+		}
+
+	}
+

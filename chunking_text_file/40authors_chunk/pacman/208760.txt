@@ -1,0 +1,10 @@
+					
+				} else {
+					
+					logger.error("Fail to download[" + url + "], http status:" + response.getStatusLine().getStatusCode());
+				}
+				
+				response.close();
+			} else {
+				
+				logger.error("Fail to download[" + url + "], response is null.");

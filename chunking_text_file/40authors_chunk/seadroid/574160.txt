@@ -1,0 +1,10 @@
+
+        TabPageIndicator indicator = (TabPageIndicator) findViewById(R.id.indicator);
+        indicator.setViewPager(pager);
+        indicator.setOnPageChangeListener(new OnPageChangeListener() {
+            @Override
+            public void onPageSelected(final int position) {
+                Log.d(DEBUG_TAG, "current tab index " + position);
+                currentPosition = position;
+                supportInvalidateOptionsMenu();
+                pager.setCurrentItem(position);

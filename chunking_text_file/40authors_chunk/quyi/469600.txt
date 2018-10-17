@@ -1,0 +1,10 @@
+		//searchEngine(20, 1000);
+		//searchEngine(50, 1000);
+		///searchEngine(100, 1000);
+		//new Thread(new SearchRecordInfoConsumer("D:\\6月6日测试文档\\测试查询全部引擎.xls")).start();
+		//searchAllEngine(100,5000);
+		//searchAllEngine(200,5000);
+		//searchAllEngine(500,5000);
+		
+	}
+

@@ -1,0 +1,10 @@
+		for (MaterialBrand mb : mbs) {
+			String str = "{" +
+					"\"name\":\"" + mb.getName() +"\"" +
+					",\"id\":\"" + mb.getID() + "\"" +
+					",\"py\":\"" + mb.getPy() + "\"" +
+					"},";
+			json += str;
+		}
+		json = json.substring(0, json.length()-1);	//去掉多余的逗号
+		json += "]}";	//json串尾

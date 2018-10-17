@@ -1,0 +1,10 @@
+
+package jpos.events;
+
+public class OutputCompleteEvent extends JposEvent
+{
+    public OutputCompleteEvent(Object source, int outputID)
+    {
+        super(source);
+
+        this.outputID = outputID;

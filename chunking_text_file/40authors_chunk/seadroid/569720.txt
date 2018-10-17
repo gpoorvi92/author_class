@@ -1,0 +1,10 @@
+    @Override
+    protected void onDialogCreated(Dialog dialog) {
+        setTitle(repoName);
+        // setTitle(String.format(getString(R.string.provide_password), repoName));
+        // dialog.setTitle(String.format(getString(R.string.provide_password), repoName));
+    }
+
+    @Override
+    protected void onSaveDialogContentState(Bundle outState) {
+        outState.putString(STATE_TASK_REPO_NAME, repoName);

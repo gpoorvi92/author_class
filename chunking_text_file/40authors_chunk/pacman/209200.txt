@@ -1,0 +1,8 @@
+	public void testDownload() {
+		
+		String url = "http://f1.ct.7.hjfile.cn/ppt/201501a/x150115202849405ebd02e3b65b8f4c43/board-14.jpg"; 
+		WebHelper.download(url, "d:\\board-14.jpg");
+		
+		Assert.isTrue(FileHelper.exists("d:\\board-14.jpg"));
+	}
+}

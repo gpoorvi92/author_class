@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////
+
+package jpos.events;
+
+public abstract class JposEvent extends java.util.EventObject
+{
+    public JposEvent(Object source)
+    {
+        super(source);
+        updateSequenceNumber();

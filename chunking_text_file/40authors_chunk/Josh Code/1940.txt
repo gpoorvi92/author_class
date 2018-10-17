@@ -1,0 +1,10 @@
+    /** reads a little endian form of the 4 byte IEEE 754
+     */
+    public float readFloat() throws IOException
+    {
+        int bits = readInt();
+
+        float result = Float.intBitsToFloat(bits);
+        return result;
+    }
+

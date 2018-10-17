@@ -1,0 +1,10 @@
+        int len$ = arr$.length;
+        for(int i$ = 0; i$ < len$; i$++)
+        {
+            String wildcard = arr$[i$];
+            if(FilenameUtils.wildcardMatch(name, wildcard, caseSensitivity))
+                return true;
+        }
+
+        return false;
+    }

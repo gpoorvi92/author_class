@@ -1,0 +1,10 @@
+
+    public java.lang.String toString() {
+        if ( !entered_toString_8 ) {
+            entered_toString_8 = true;
+            java.lang.String __return = __toString( );
+            entered_toString_8 = false;
+            return __return;
+        }
+        else
+            return super.toString( );

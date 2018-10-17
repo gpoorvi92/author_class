@@ -1,0 +1,10 @@
+	/**
+	 * 获取图片ID。
+	 * @return 图片ID。
+	 * */
+	public String getId() {
+		return id;
+	}
+	/**
+	 * 设置图片ID。
+	 * @param id

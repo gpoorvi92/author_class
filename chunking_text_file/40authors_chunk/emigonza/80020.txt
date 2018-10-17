@@ -1,0 +1,10 @@
+     * Static initializer.
+     * Creates the manager by getting the property 
+     * JPOS_SERVICE_MANAGER_CLASS_PROP_NAME.  If this property is not defined 
+     * then defaults to the SimpleServiceManager 
+     * NOTE: since the JposServiceManager interface was moved to the 
+     * jpos.loader package then we define 2 property to specify the custom
+     * serviceManager one with the previous jpos.config prefix and the other 
+     * with the correct jpos.loader prefix
+     * @see jpos.util.JposProperties#JPOS_SERVICE_MANAGER_CLASS_PROP_NAME
+     * @see jpos.util.JposProperties#JPOS_SERVICE_MANAGER_CLASS_PROP_NAME2

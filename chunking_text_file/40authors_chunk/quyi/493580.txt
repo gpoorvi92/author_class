@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义样本的数据结构
+ * 1:missionId 任务批号
+ * 2:userAppId 用户应用ID
+ * 3:plotsStatus 检测策略（动|静|病毒） (已定义的数据结构)
+ * 4:checkStartTime 检测开始时间

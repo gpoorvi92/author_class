@@ -1,0 +1,10 @@
+	{
+		if(e.getValueIsAdjusting() == false)
+		{
+			String str = (String)getSelectedValue();	
+			if(str == items[0])
+			{
+				display.setOptionPanel(GENERAL_OPTION);
+			} else if(str == items[1])
+			{
+				System.out.println("Your Rendering Fine Today!");

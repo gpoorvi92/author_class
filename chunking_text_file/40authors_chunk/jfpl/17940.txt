@@ -1,0 +1,10 @@
+		if (!head.containsKey("message_type")) {
+			head.putStringValue("message_type", "0");
+		}
+		head.putStringValue("client_time", DateUtil.detaledFormat(new Date()));
+		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
+		String sendDataStr = DataConvertFactory.praseNormJson(sendData);
+		String sendMd5 = SSLConnection.Md5(sendDataStr
+				+ ConstVariables.NODE_MD5_CHECK_KEY);
+		Log.i(SystemUtil.LOG_MSG, sendMd5 + sendDataStr);
+		BasicNameValuePair xml = new BasicNameValuePair("json", sendMd5

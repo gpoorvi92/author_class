@@ -1,0 +1,10 @@
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMessageBuilder#buildFeedbackMessage()
+	 */
+	@Override
+	public BaseMessage buildFeedbackMessage(int cmdId, boolean success, String msg) {
+
+		FeedbackMessage message = new FeedbackMessage();
+		
+		message.setCommandId(cmdId);
+		message.setSuccess(success);

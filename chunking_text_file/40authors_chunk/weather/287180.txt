@@ -1,0 +1,10 @@
+    }
+
+
+    private Response(T result, Cache.Entry cacheEntry) {
+        this.result = result;
+        this.cacheEntry = cacheEntry;
+        this.error = null;
+    }
+
+    private Response(VolleyError error) {

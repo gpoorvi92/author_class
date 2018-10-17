@@ -1,0 +1,10 @@
+package com.jufan.platform.webview;
+
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.ui.R;
+import com.jufan.platform.ui.WebContentActivity;
+
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.util.Log;

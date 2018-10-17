@@ -1,0 +1,9 @@
+			synchronized (downloadAllowanceForIterationLock) {
+				bytesWritten += bytesConsumed;
+				downloadAllowanceForIteration -= bytesConsumed;
+			}
+		}
+	}
+
+
+}

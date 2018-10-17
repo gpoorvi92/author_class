@@ -1,0 +1,10 @@
+		// System.out.println(tp2.getPriority());
+		// System.out.println(tp3.getPriority());
+
+		// 设置线程优先级
+		// IllegalArgumentException
+		// tp1.setPriority(1000);
+
+		tp1.setPriority(10);
+		tp2.setPriority(1);
+

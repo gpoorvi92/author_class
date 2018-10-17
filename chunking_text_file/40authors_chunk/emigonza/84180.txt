@@ -1,0 +1,10 @@
+    public void addProfile( Profile profile );
+
+    /**
+     * Add an Profile for the service with logical name specified
+     * @param profileName the unique name of this profile
+     * @param profile the profile
+     */
+    public void addProfile( String profileName, Profile profile );
+
+    /**

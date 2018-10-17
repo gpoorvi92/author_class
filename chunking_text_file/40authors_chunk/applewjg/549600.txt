@@ -1,0 +1,10 @@
+        return res;
+    }
+    public List<Integer> postorderTraversal_3(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        if (root == null) return res;
+        Stack<Integer> stk = new Stack<Integer>();
+        TreeNode dummy = new TreeNode(-1);
+        dummy.left = root;
+        TreeNode cur = dummy;
+        while (cur != null) {

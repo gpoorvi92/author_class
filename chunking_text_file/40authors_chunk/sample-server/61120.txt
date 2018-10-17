@@ -1,0 +1,10 @@
+        super(host, port, timeout);
+    }
+    private ClientBootstrap bootstrap;
+    private Channel         channel;
+    private CountDownLatch countDownLatch = new CountDownLatch(1);
+    private          Rpc.RpcPacket response;
+    private volatile int           responseId;
+    private class NettyRpcClientPipelineFactory implements ChannelPipelineFactory
+    {
+        @Override

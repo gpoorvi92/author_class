@@ -1,0 +1,10 @@
+public class LhjPriceController {
+
+	@Autowired
+	private LhjPriceService lhjPriceService;
+	@Autowired
+	private MaterialBrandService materialBrandService;
+	
+	@RequestMapping(value="lhjPriceManager.ajax")
+	@ResponseBody
+	public String lhjPriceManager(HttpServletRequest request, HttpServletResponse response) throws IOException{

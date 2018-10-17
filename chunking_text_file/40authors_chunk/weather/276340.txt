@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import android.app.Activity;
+import android.content.Intent;
+
+import com.weico.core.R;
+
+
+/**
+ * Created by zhoukai on 13-12-23.

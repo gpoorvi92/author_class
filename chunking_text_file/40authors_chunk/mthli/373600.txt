@@ -1,0 +1,10 @@
+         String s = t.nextToken();
+         handler.characters(s.toCharArray(), 0, s.length());
+         handler.endElement("", "name", "name");
+
+         handler.startElement("", "salary", "salary", atts);
+         s = t.nextToken();
+         handler.characters(s.toCharArray(), 0, s.length());
+         handler.endElement("", "salary", "salary");
+
+         atts.addAttribute("", "year", "year", "CDATA", t.nextToken());

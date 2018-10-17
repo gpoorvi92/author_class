@@ -1,0 +1,10 @@
+      if (struct.isSetMethodName()) {
+        oprot.writeString(struct.methodName);
+      }
+      if (struct.isSetStatement()) {
+        oprot.writeString(struct.statement);
+      }
+      if (struct.isSetRiskType()) {
+        oprot.writeString(struct.riskType);
+      }
+      if (struct.isSetRiskLevel()) {

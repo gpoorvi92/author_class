@@ -1,0 +1,10 @@
+            if (obj.getString("type").equals("grepo")) {
+                repo.isGroupRepo = true;
+            } else
+                repo.isGroupRepo = false;
+            return repo;
+        } catch (JSONException e) {
+            return null;
+        }
+    }
+

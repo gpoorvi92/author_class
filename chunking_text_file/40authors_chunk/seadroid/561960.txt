@@ -1,0 +1,10 @@
+                mimeType, dateTaken, title);
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == null || !(other instanceof VideoObject)) return false;
+        return fullSizeImageUri().equals(
+                ((VideoObject) other).fullSizeImageUri());
+    }
+

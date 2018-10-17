@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import ipower.wechat.message.Article;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+/**
+ * 远程业务调用回复消息。
+ * @author yangyong.

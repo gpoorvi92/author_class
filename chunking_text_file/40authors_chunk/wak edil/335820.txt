@@ -1,0 +1,10 @@
+		jbtBack.setToolTipText("Go back to Foods menu");
+		
+		JPanel p1=new JPanel();
+		p1.setLayout(new GridLayout(3,1,5,5));
+		p1.setBackground(Color.white);
+		p1.add(lblInfo);
+		p1.add(jtaInfo);
+		jtaInfo.setEditable(false);
+		//JScrollPane scpInfo=new JScrollPane(jtaInfo);
+		p1.add(jtaInfo);

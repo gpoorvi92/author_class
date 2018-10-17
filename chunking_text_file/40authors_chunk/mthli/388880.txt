@@ -1,0 +1,10 @@
+                  cancelItem.setEnabled(true);
+               }
+            }
+         });
+
+      cancelItem = new JMenuItem("Cancel");
+      menu.add(cancelItem);
+      cancelItem.setEnabled(false);
+      cancelItem.addActionListener(new ActionListener()
+         {

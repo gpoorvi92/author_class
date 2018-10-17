@@ -1,0 +1,10 @@
+ */
+public abstract class AbstractMaster<T, V, R> {
+	protected volatile Set<? extends SlaveSpec<T, V>> slaves;
+
+	// 子任务派发算法策略
+	private volatile SubTaskDispatchStrategy<T, V> dispatchStrategy;
+
+	public AbstractMaster() {
+
+	}

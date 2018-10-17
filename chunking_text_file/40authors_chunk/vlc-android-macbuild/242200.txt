@@ -1,0 +1,10 @@
+            module.mAudioDecoder = "android";
+            module.mAudioDecoderImpl = "HW";
+
+            sAndroidModuleInfo = module;
+        }
+
+        return sAndroidModuleInfo;
+    }
+
+    public static ModuleInfo getAndroidListModuleInfo() {

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        Bundle bundle = new Bundle();
+
+        bundle.putParcelableArrayList(BUNDLE_RES_LIST, mResourceList);
+
+        dest.writeBundle(bundle);
+    }

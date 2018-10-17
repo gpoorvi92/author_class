@@ -1,0 +1,10 @@
+            }
+        }
+        );
+        flipZ.addActionListener(
+            new ActionListener()
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+                mv.scaleVectors(Vector3D.getFromCoordinates(1, 1, -1));
+            }

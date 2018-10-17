@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置菜单排序号。
+	 * @param orderNo
+	 * 菜单排序号。
+	 * */
+	public void setOrderNo(Integer orderNo) {
+		this.orderNo = orderNo;
+	}
+	/**

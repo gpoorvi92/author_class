@@ -1,0 +1,10 @@
+	 * @param type
+	 * 	菜单类型。
+	 * 1-Click，2-View
+	 * */
+	public void setType(Integer type) {
+		this.type = type;
+	}
+	/**
+	 *  获取上级菜单。
+	 *  @return 上级菜单。

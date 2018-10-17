@@ -1,0 +1,10 @@
+			CacheListHandler.addCache(entity);
+		}
+		if(entity != null && !CacheListHandler.isConcurrent(key)){
+			logger.info("初次加入上下文缓存。");
+			CacheListHandler.addCache(entity);
+		}
+		
+		return context;
+	}
+

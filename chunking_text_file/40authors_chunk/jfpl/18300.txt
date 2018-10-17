@@ -1,0 +1,10 @@
+			backBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.webviewtab_back_normal));
+		} else {
+			backBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.webviewtab_back_disable));
+		}
+	}
+
+	public void refreshClick(View v) {
+		String url = webViewClient.getRefreshUrl();

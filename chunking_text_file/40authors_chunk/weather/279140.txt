@@ -1,0 +1,10 @@
+        return entry;
+    }
+
+    /**
+     * Parse date in RFC1123 format, and return its value as epoch
+     */
+    public static long parseDateAsEpoch(String dateStr) {
+        try {
+            // Parse date in RFC1123 format if this header contains one
+            return DateUtils.parseDate(dateStr).getTime();

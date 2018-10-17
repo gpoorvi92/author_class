@@ -1,0 +1,10 @@
+            String severity,
+            String confidence,
+            String issueDetail,
+            String remediationDetail    		
+    		)
+    {
+        this.httpService = httpService;
+        this.url = url;
+        this.httpMessages = httpMessages;
+        this.name = name;

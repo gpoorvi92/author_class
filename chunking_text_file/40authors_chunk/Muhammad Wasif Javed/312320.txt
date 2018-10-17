@@ -1,0 +1,10 @@
+				if (! ((Character.isDigit (c)) || (c == KeyEvent.VK_BACK_SPACE))) {
+					getToolkit().beep ();
+					ke.consume ();
+				}
+			}
+		}
+		);
+
+		//Adding All the Controls in Panel.
+

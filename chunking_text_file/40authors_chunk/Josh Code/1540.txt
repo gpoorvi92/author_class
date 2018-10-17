@@ -1,0 +1,10 @@
+    /**
+     */
+    public void saveToWaveFrontOBJ(Model m,File f) throws IOException 
+    {
+      FileOutputStream fout = new FileOutputStream(f);
+      PrintStream out = new PrintStream(fout);
+      int numTriangles = m.getNumberOfTriangles();
+      Triangle[] triangles = m.getTriangles();
+
+        // output vectors

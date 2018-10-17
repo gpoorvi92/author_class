@@ -1,0 +1,10 @@
+//@SessionAttributes(value = {AttributeManager.SESSION_ATTR_CTX}, types = {CenterContext.class})
+public class IndexController
+{
+    private static final Logger log    = LoggerFactory.getLogger(IndexController.class);
+    public static final  String INDEX  = "/";
+    public static final  String LOGIN  = "/login";
+    public static final  String LOGOUT = "/logout";
+    @RequestMapping(value = INDEX)
+    public String index()
+    {

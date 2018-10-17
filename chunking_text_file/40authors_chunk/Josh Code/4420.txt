@@ -1,0 +1,10 @@
+
+       for (int i = 0; i < numTriangles; i++)
+       {
+          int offset = i * 3;
+          for (int vi = 0; vi < 3;vi++ )
+          {
+            Vector3D v = Triangle.getVertex(triangles[i], vi); 
+            if (!vt.add(v))
+            {
+               v = vt.getDuplicate(v);

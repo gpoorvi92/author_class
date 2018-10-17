@@ -1,0 +1,9 @@
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+
+  // Methods
+  public void    compareFirmwareVersion(String firmwareFileName, int[] result)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+}

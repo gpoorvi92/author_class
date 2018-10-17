@@ -1,0 +1,10 @@
+package persistentFrame;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.beans.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * This program demonstrates the use of an XML encoder and decoder to save and restore a frame.

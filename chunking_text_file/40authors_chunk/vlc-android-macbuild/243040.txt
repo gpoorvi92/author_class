@@ -1,0 +1,10 @@
+    private Runnable mDelayedHide = new Runnable() {
+        @Override
+        public void run() {
+            doHide();
+        }
+    };
+
+    private Runnable mReadyToHide = new Runnable() {
+        @Override
+        public void run() {

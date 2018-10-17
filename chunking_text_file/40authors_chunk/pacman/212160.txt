@@ -1,0 +1,10 @@
+ * @version v1.0.0.1 2015-01-08 04:32:12
+ */
+public class TaskParamModel implements Serializable {
+
+	/*
+	 * Private Fields
+	 */
+	private static final long serialVersionUID = -1177954821L;
+	private Integer pid;
+	private Integer tid;

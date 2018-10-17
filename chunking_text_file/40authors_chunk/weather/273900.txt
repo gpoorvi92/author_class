@@ -1,0 +1,10 @@
+	 * Properties
+	 */
+	private String urlName;
+	private String localLocation;
+
+
+    public FileDownloaderDelegate getDelegate() {
+        return delegate;
+    }
+

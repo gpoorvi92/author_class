@@ -1,0 +1,10 @@
+	 *          参数列表
+	 * @return 任务实例。用于提交给WorkerThread。
+	 */
+	protected abstract T makeTask(Object... params);
+
+	/**
+	 * 该类对外暴露的服务方法。 该类的子需要定义一个命名含义比该方法更为具体的方法（如downloadFile）。
+	 * 含义具体的服务方法（如downloadFile）可直接调用该方法。
+	 * 
+	 * @param params

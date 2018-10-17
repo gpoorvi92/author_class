@@ -1,0 +1,10 @@
+          return false;
+        if (!this.propertyName.equals(that.propertyName))
+          return false;
+      }
+
+      boolean this_present_propertyValue = true && this.isSetPropertyValue();
+      boolean that_present_propertyValue = true && that.isSetPropertyValue();
+      if (this_present_propertyValue || that_present_propertyValue) {
+        if (!(this_present_propertyValue && that_present_propertyValue))
+          return false;

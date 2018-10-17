@@ -1,0 +1,10 @@
+        edit_text.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                // TODO Auto-generated method stub
+                if (s.length() > 0)
+                    btn_clear.setVisibility(RelativeLayout.VISIBLE);
+                else
+                    btn_clear.setVisibility(RelativeLayout.INVISIBLE);
+            }

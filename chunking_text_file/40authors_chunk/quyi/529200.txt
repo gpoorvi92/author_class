@@ -1,0 +1,10 @@
+    this.minsdkversion = null;
+    this.apk_md5 = null;
+    this.notify_callback_url = null;
+    this.app_description = null;
+    this.requestPurviews = null;
+    this.format = null;
+  }
+
+  public String getApp_id() {
+    return this.app_id;

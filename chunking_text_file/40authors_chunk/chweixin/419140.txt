@@ -1,0 +1,10 @@
+	/**
+	 * 获取用户ID。
+	 * @return
+	 * 用户ID(身份验证后获得)。
+	 * */
+	public String getUserId() {
+		return userId;
+	}
+	/**
+	 * 设置用户ID。

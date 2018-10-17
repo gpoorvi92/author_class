@@ -1,0 +1,7 @@
+		for (Integer key : ts) {
+			String value = hm.get(key);
+			System.out.print(value + " ");
+		}
+		System.out.println();
+	}
+}

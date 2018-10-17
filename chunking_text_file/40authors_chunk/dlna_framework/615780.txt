@@ -1,0 +1,10 @@
+		setHeader(HTTP.NTS, value);
+	}
+
+	////////////////////////////////////////////////
+	//	SID
+	////////////////////////////////////////////////
+
+	public void setSID(String id)
+	{
+		setHeader(HTTP.SID, Subscription.toSIDHeaderString(id));

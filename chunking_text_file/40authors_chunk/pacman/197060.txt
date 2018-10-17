@@ -1,0 +1,10 @@
+	 * @param src
+	 * @param dest
+	 * @return
+	 */
+	public static boolean copyFile(String src, String dest) {
+		
+		try {
+			
+			FileUtils.copyFile(new File(src), new File(dest));
+			return true;

@@ -1,0 +1,10 @@
+    this.targetAddress = targetAddress;
+    this.targetPort = targetPort;
+    this.protocal = protocal;
+    this.dataHex = dataHex;
+    this.dataChar = dataChar;
+    this.dataLength = dataLength;
+    this.operateTime = operateTime;
+  }
+
+  /**

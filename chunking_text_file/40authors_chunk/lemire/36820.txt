@@ -1,0 +1,10 @@
+
+           int tmp2 = this.actualSizeInWords;
+           this.actualSizeInWords = ((IntArray) other).actualSizeInWords;
+           ((IntArray) other).actualSizeInWords = tmp2;
+       } else {
+           int[] tmp = new int[other.sizeInWords()];
+           for(int i = 0; i < other.sizeInWords(); ++i) {
+               tmp[i] = other.getWord(i);
+           }
+           int tmp2 = other.sizeInWords();

@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.KeyAdapter.keyPressed(java.awt.event.KeyEvent)
+
+    public native void __keyPressed( java.awt.event.KeyEvent e );
+
+    boolean entered_keyPressed_1;
+
+    public void keyPressed( java.awt.event.KeyEvent e ) {
+        if ( !entered_keyPressed_1 ) {

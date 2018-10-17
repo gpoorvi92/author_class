@@ -1,0 +1,10 @@
+    return false;
+  }
+
+  public boolean equals(UserApp that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_app_id = true && this.isSetApp_id();
+    boolean that_present_app_id = true && that.isSetApp_id();
+    if (this_present_app_id || that_present_app_id) {

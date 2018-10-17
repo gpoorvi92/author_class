@@ -1,0 +1,10 @@
+                                  eventName + "Occurred");
+  }
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {
+    try
+    {
+      EventSetDescriptor[] events =
+      {
+        makeEvent("Data"),

@@ -1,0 +1,10 @@
+	public Future<V> submit(final T task) throws InterruptedException {
+
+		FutureTask<V> ft = new FutureTask<V>(new Callable<V>() {
+
+			@Override
+			public V call() throws Exception {
+				V result;
+
+				try {
+					result = doProcess(task);

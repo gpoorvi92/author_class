@@ -1,0 +1,10 @@
+package wyf.ytl.tool;
+
+import wyf.ytl.entity.CityDrawable;
+import wyf.ytl.entity.General;
+import wyf.ytl.entity.Hero;
+
+/*
+ * 该类提供一系列的静态方法，主要是一些公式的计算，如果伐木所得，攻城输赢计算
+ * 体力增加等等
+ */

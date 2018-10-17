@@ -1,0 +1,10 @@
+        struct.userAppId = iprot.readString();
+        struct.setUserAppIdIsSet(true);
+      }
+    }
+
+  }
+
+  public static class queryApp_result implements org.apache.thrift.TBase<queryApp_result, queryApp_result._Fields>, java.io.Serializable, Cloneable, Comparable<queryApp_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("queryApp_result");
+

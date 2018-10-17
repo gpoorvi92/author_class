@@ -1,0 +1,10 @@
+	public Stroke getStroke() { return stroke; }
+	public boolean getFill() { return fill; }
+	
+	public void setColor(Color color) {
+            fillColor = color;
+            fillColorGradient = null;
+            fillColorRadial = null;
+            notifyListeners();
+	}
+	public void setStrokeColor(Color color)

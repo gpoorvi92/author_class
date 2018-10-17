@@ -1,0 +1,10 @@
+		return detailNode.getNodeEndsWith(SOAP.UPNP_ERROR);
+	}
+
+	private Node getUPnPErrorCodeNode()
+	{
+		Node errorNode = getUPnPErrorNode();
+		if (errorNode == null)
+			return null;
+		return errorNode.getNodeEndsWith(SOAP.ERROR_CODE);
+	}

@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.ComponentAdapter.componentMoved(java.awt.event.ComponentEvent)
+
+    public native void __componentMoved( java.awt.event.ComponentEvent e );
+
+    boolean entered_componentMoved_1;
+
+    public void componentMoved( java.awt.event.ComponentEvent e ) {
+        if ( !entered_componentMoved_1 ) {

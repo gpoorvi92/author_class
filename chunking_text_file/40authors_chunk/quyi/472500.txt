@@ -1,0 +1,10 @@
+
+    public static class heart<I extends Iface> extends org.apache.thrift.ProcessFunction<I, heart_args> {
+      public heart() {
+        super("heart");
+      }
+
+      public heart_args getEmptyArgsInstance() {
+        return new heart_args();
+      }
+

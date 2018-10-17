@@ -1,0 +1,10 @@
+      redField.getDocument().addDocumentListener(listener);
+
+      panel.add(new JLabel("Green:"));
+      greenField = new JTextField("255", 3);
+      panel.add(greenField);
+      greenField.getDocument().addDocumentListener(listener);
+
+      panel.add(new JLabel("Blue:"));
+      blueField = new JTextField("255", 3);
+      panel.add(blueField);

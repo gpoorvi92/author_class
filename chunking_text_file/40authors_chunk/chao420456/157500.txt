@@ -1,0 +1,10 @@
+		v.addElement("world");
+		v.addElement("java");
+
+		// public Object elementAt(int index)
+		// System.out.println(v.elementAt(0));
+		// System.out.println(v.elementAt(1));
+		// System.out.println(v.elementAt(2));
+		// ∆’Õ®for
+		// for (int x = 0; x < v.size(); x++) {
+		// String s = (String) v.elementAt(x);

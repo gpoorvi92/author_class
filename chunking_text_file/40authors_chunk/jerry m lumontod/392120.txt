@@ -1,0 +1,10 @@
+	
+	public boolean equals(Object obj) {
+		
+		if (obj instanceof GenJournalTableSorter) {
+			GenJournalTableSorter compObj = (GenJournalTableSorter)obj;
+			return (compObj.mintSortCol==mintSortCol) && (compObj.mblnSortAsc==mblnSortAsc);
+		}
+		return false;
+	}
+	

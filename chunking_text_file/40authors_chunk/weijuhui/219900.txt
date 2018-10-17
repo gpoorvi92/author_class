@@ -1,0 +1,10 @@
+
+    /**
+     * this method should be overwritten by inheriting classes to define its own look and feel
+     * @param isCenterView true if the element is in the center of the scrollLayout
+     * @param textSize textSize in dps
+     */
+    protected void setupView(boolean isCenterView, int textSize) {
+        setGravity(Gravity.CENTER);
+        setTextSize(TypedValue.COMPLEX_UNIT_DIP, textSize);
+        if (isCenterView) {

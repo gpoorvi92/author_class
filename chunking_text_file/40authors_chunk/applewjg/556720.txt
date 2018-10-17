@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 06, 2014
+ Problem:    Find Peak Element
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/find-peak-element/
+ Notes:
+ A peak element is an element that is greater than its neighbors.
+ Given an input array where num[i] ≠ num[i+1], find a peak element and return its index.
+ You may imagine that num[-1] = num[n] = -∞.

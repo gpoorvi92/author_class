@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean modify(OrderLhjWeight lhjWeight) {
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("lhj",lhjWeight.getMaterialBrand().getID(),
+				lhjWeight.getOrder().getID());
+		double price = lhjPriceService.findLhjPriceByMaterialBrandIDBindCut(lhjWeight.getMaterialBrand().getID(), 
+				lhjWeight.getOrder().getCustomer().getID(),null).getPrice();
+		op.setPrice(price);
+		if(!orderPriceService.modify(op)){

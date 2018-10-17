@@ -1,0 +1,10 @@
+import ipower.wechat.domain.WeChatDefaultReply;
+import ipower.wechat.modal.WeChatDefaultReplyInfo;
+import ipower.wechat.service.IWeChatDefaultReplyService;
+
+/**
+ * 默认回复服务实现。
+ * @author yangyong.
+ * @since 2014-04-09.
+ * */
+public class WeChatDefaultReplyServiceImpl extends DataServiceImpl<WeChatDefaultReply,WeChatDefaultReplyInfo> implements IWeChatDefaultReplyService {

@@ -1,0 +1,10 @@
+
+        if (mIsReadyToHide) {
+            mHandler.removeCallbacks(mDelayedHide);
+            SystemUIHelper.hideNavigation(activity);
+        } else {
+            mHandler.removeCallbacks(mDelayedHide);
+            mHandler.postDelayed(mDelayedHide, 1000);
+        }
+    }
+

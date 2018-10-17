@@ -1,0 +1,10 @@
+    @Override
+    public boolean isEmpty() {
+        return dirents.isEmpty();
+    }
+
+    public void add(SeafDirent entry) {
+        dirents.add(entry);
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+			boolean isChunkedResponse = httpRes.isChunked();
+			
+			if (isChunkedResponse == true) {
+				// Thanks for Lee Peik Feng <pflee@users.sourceforge.net> (07/07/05)
+				String chunSizeBuf = Long.toHexString(contentLength);
+				out.write(chunSizeBuf.getBytes());
+				out.write(HTTP.CRLF.getBytes());
+			}
+			
+			out.write(content, (int)contentOffset, (int)contentLength);

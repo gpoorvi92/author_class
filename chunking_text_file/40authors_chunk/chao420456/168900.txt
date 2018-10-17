@@ -1,0 +1,10 @@
+		// // return flag && flag2;
+		//
+		// return new File(dir, name).isFile() && name.endsWith(".jpg");
+		// }
+		// });
+		//
+		// for (String str : strArray) {
+		// System.out.println(str);
+		// }
+

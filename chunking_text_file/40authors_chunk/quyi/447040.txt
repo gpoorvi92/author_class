@@ -1,0 +1,10 @@
+    }
+    if (other.isSetOsVersion()) {
+      this.osVersion = other.osVersion;
+    }
+    if (other.isSetJvmName()) {
+      this.jvmName = other.jvmName;
+    }
+    if (other.isSetJvmVersion()) {
+      this.jvmVersion = other.jvmVersion;
+    }

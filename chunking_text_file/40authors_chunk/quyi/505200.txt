@@ -1,0 +1,10 @@
+                  String _key101;
+                  String _val102;
+                  _key101 = iprot.readString();
+                  _val102 = iprot.readString();
+                  struct.taskInfo.put(_key101, _val102);
+                }
+                iprot.readMapEnd();
+              }
+              struct.setTaskInfoIsSet(true);
+            } else { 

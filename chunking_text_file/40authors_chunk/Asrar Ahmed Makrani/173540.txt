@@ -1,0 +1,10 @@
+ 		
+ 		try {
+ 			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+ 			connection = DriverManager.getConnection(url);
+ 		}
+ 		catch(ClassNotFoundException cnfex)  {
+ 			System.err.println("Failed to load driver");
+ 			cnfex.printStackTrace();
+ 			System.exit(1);
+ 		}

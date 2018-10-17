@@ -1,0 +1,10 @@
+
+            protected void done()
+            {
+               try
+               {
+                  Document doc = get();
+                  JTree tree = new JTree(new DOMTreeModel(doc));
+                  tree.setCellRenderer(new DOMTreeCellRenderer());
+
+                  setContentPane(new JScrollPane(tree));

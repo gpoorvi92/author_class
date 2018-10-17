@@ -1,0 +1,10 @@
+	protected void notifyThreadTermination(Terminatable thread) {
+		WeakReference<Terminatable> wrThread;
+		Terminatable otherThread;
+		while (null != (wrThread = coordinatedThreads.poll())) {
+			otherThread = wrThread.get();
+			if (null != otherThread && otherThread != thread) {
+				otherThread.terminate();
+			}
+		}
+	}

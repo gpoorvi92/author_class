@@ -1,0 +1,10 @@
+    public void    clearVideo(int units, int attribute) throws JposException;
+    public void    clearVideoRegion(int units, int row, int column, int height,
+                       int width, int attribute) throws JposException;
+    public void    controlClock(int units, int function, int clockId, int hour,
+                       int min, int sec, int row, int column, int attribute,
+                       int mode) throws JposException;
+    public void    controlCursor(int units, int function) throws JposException;
+    public void    copyVideoRegion(int units, int row, int column, int height,
+                       int width, int targetRow, int targetColumn)
+                       throws JposException;

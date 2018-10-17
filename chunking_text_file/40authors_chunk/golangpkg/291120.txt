@@ -1,0 +1,10 @@
+package com.am.jlfu.staticstate.entities;
+
+import com.am.jlfu.fileuploader.json.ProgressJson;
+import com.am.jlfu.fileuploader.utils.UnitConverter;
+
+/**
+ * Entity providing progress information about a file.
+ * 
+ * @author antoinem
+ *

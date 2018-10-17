@@ -1,0 +1,10 @@
+            if (file.exists()) {
+                watchedFiles.put(file.getPath(), cached);
+            }
+        }
+        Log.d(DEBUG_TAG, "watching files, # total watched " + watchedFiles.size());
+    }
+
+    public void watchDownloadedFile(String repoID, String repoName, String pathInRepo,
+            String localpath) {
+        recentDownloadedFiles.addRecentDownloadedFile(localpath);

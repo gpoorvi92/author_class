@@ -1,0 +1,10 @@
+
+		}
+	}
+
+
+	private void processEntry(Entry<UUID, UploadProcessingOperation> entry) {
+
+		// default per request is set to the maximum, so basically maximum by client
+		long allowedCapacityPerSecond = uploadProcessingConfigurationManager.getMaximumRatePerClientInKiloBytes() * 1024;
+

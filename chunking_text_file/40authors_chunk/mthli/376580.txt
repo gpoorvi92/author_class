@@ -1,0 +1,10 @@
+      // demonstrate accelerators
+
+      JMenuItem openItem = fileMenu.add(new TestAction("Open"));
+      openItem.setAccelerator(KeyStroke.getKeyStroke("ctrl O"));
+
+      fileMenu.addSeparator();
+
+      saveAction = new TestAction("Save");
+      JMenuItem saveItem = fileMenu.add(saveAction);
+      saveItem.setAccelerator(KeyStroke.getKeyStroke("ctrl S"));

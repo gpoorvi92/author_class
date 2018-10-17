@@ -1,0 +1,10 @@
+	 * AMap对象判断是否为null
+	 */
+	public static boolean checkReady(Context context, AMap aMap) {
+		if (aMap == null) {
+			Toast.makeText(context,"SupportMapFragment初始化失败",0).show();
+			return false;
+		}
+		return true;
+	}
+

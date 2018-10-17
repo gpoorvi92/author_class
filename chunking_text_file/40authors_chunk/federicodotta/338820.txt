@@ -1,0 +1,10 @@
+    static final byte PARAM_MULTIPART_ATTR = 5;
+    /**
+     * Used to indicate an item of data within a JSON structure.
+     */
+    static final byte PARAM_JSON = 6;
+
+    /**
+     * This method is used to retrieve the parameter type.
+     *
+     * @return The parameter type. The available types are defined within this

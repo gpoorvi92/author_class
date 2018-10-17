@@ -1,0 +1,10 @@
+
+	//OverRidding the FocusListener Class Function.
+
+	public void focusGained (FocusEvent fe) { }
+
+	public void focusLost (FocusEvent fe) {
+
+		if (txtBookId.getText().equals ("")) {	//If TextField is Empty.
+		}
+		else {

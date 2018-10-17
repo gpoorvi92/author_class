@@ -1,0 +1,10 @@
+package wordnet;
+
+// see http://lyle.smu.edu/~tspell/jaws/index.html for Jaws source code
+
+import edu.smu.tspell.wordnet.Synset;
+import edu.smu.tspell.wordnet.WordNetDatabase;
+import edu.smu.tspell.wordnet.WordSense;
+import edu.smu.tspell.wordnet.impl.file.PropertyNames;
+
+import java.util.Arrays;

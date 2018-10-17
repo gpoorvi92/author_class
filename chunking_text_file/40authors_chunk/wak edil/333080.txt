@@ -1,0 +1,10 @@
+		this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		HorlickInfo frame = new HorlickInfo();
+		frame.setTitle("Horlick Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

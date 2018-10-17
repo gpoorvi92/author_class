@@ -1,0 +1,10 @@
+				String path = ServletActionContext.getServletContext().getRealPath(info.getPath()),
+						  destFolder = this.createTargetStoreFolder(info.getCreateUserId(), this.imageFolder),
+						  destPath = this.createTargetStorePath(destFolder);
+				File srcFile = new File(path);
+				if(!srcFile.exists()){
+					logger.error("未找到上传图片文件:" + path);
+					return info;
+				}
+				logger.info("找到上传图片文件:" + path);
+				 info.setExt(IOUtil.getExtension(path));

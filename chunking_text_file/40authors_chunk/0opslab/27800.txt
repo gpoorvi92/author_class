@@ -1,0 +1,10 @@
+package com.opslab.util.encrypt;
+
+import junit.framework.TestCase;
+import org.junit.Test;
+
+public class Base64Test extends TestCase {
+    String text = "There can be miracles when you believe";
+
+    String base64 = "VGhlcmUgY2FuIGJlIG1pcmFjbGVzIHdoZW4geW91IGJlbGlldmU=";
+

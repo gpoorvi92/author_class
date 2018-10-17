@@ -1,0 +1,10 @@
+    public boolean reachedMaxDepth(Position p, int depth) {
+        boolean ret = false;
+        if (wonPosition(p, false)) ret = true;
+        else if (wonPosition(p, true))  ret = true;
+        else if (drawnPosition(p))      ret = true;
+        if (GameSearch.DEBUG) {
+            System.out.println("reachedMaxDepth: pos=" + p.toString() + ", depth="+depth
+                               +", ret=" + ret);
+        }
+        return ret;

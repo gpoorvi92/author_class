@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class LuBanDrawable extends MyMeetableDrawable implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8903533275568026021L;
+	String [] dialogMessage={//对话框显示文字
+			"前方是鲁班的住所，是否前去拜访？预计消耗金钱3500。",
+			"前方是鲁班的住所，不过你没钱准备礼品，下次再来拜访吧。",

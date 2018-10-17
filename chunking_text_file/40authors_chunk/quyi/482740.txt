@@ -1,0 +1,10 @@
+    public updateAppStatus_args setVirRD(com.nercis.isscp.idl.virus.VirusDetectionResultData virRD) {
+      this.virRD = virRD;
+      return this;
+    }
+
+    public void unsetVirRD() {
+      this.virRD = null;
+    }
+
+    /** Returns true if field virRD is set (has been assigned a value) and false otherwise */

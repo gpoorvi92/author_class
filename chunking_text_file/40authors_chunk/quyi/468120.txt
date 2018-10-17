@@ -1,0 +1,10 @@
+
+    case FUNC:
+      return getFunc();
+
+    case RULE_DESCRIPTION:
+      return getRuleDescription();
+
+    }
+    throw new IllegalStateException();
+  }

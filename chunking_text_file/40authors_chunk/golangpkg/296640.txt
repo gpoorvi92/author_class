@@ -1,0 +1,10 @@
+
+		// without buffer
+		CRC32 crc32 = new CRC32();
+		crc32.update(IOUtils.toByteArray(file.getInputStream()));
+		String hexString = Long.toHexString(crc32.getValue());
+
+		Assert.assertThat(withMethod.getCrcAsString(), is(hexString));
+		Assert.assertThat(withMethod.getTotalRead(), is(content.length));
+
+	}

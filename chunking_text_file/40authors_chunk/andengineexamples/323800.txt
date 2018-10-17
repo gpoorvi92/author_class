@@ -1,0 +1,10 @@
+			this.mBitmapTextureAtlas.load();
+		} catch (TextureAtlasBuilderException e) {
+			Debug.e(e);
+		}
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+

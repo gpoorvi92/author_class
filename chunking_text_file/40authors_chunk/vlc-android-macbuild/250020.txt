@@ -1,0 +1,10 @@
+        }
+
+        public void surfaceDestroyed(SurfaceHolder holder) {
+            if (mSegmentPlayer != null) {
+                mSegmentPlayer.release();
+            }
+        }
+    };
+
+    @Override

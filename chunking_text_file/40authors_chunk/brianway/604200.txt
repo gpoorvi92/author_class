@@ -1,0 +1,10 @@
+                } finally {
+                    lock.unlock();
+                }
+            }
+        };
+
+        Thread[] aArray = new Thread[5];
+        Thread[] bArray = new Thread[5];
+        Thread[] cArray = new Thread[5];
+

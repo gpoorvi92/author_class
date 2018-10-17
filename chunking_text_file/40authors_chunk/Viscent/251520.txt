@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch10.tss.example;
+
+public class ThreadPrivateMember {
+
+	public static void main(String[] args) throws InterruptedException {
+		XThread thread;
+		for (int i = 0; i < 3; i++) {

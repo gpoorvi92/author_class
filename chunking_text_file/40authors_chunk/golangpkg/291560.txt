@@ -1,0 +1,10 @@
+	}
+
+
+	public void clear() {
+		responseThreadLocal.remove();
+	}
+
+
+	public HttpServletResponse getResponse() {
+		return responseThreadLocal.get();

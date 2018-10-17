@@ -1,0 +1,10 @@
+ * 1. LGPL v3<br/>
+ * 2. Apache 2
+ * <p/>
+ */
+public class DepthFirstSearch extends AbstractGraphSearch {
+
+    /** findPath - abstract method in super class */
+    public int [] findPath(int start_node, int goal_node) { // return an array of node indices
+        System.out.println("Entered DepthFirstSearch.findPath(" +
+                           start_node + ", " + goal_node + ")");

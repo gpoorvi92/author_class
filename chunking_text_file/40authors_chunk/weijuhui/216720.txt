@@ -1,0 +1,10 @@
+	
+	private void updateVersion(){
+		
+		UpdateResult result = SourceData.getUpdateResult();
+		
+		if(result != null && result.isUpdate()){
+			
+			Output.showInfoDialog(this,"出新版本"+ 
+					SourceData.getUpdateResult().getVersion() + "啦,赶快体验吧",
+					"注意注意","我要体验","先等会吧",

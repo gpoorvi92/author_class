@@ -1,0 +1,10 @@
+    {
+      return (BaseControl)ImageScanner.this;
+    }
+
+    public void fireDataEvent(DataEvent e)
+    {
+    }
+
+    public void fireDirectIOEvent(DirectIOEvent e)
+    {

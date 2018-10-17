@@ -1,0 +1,10 @@
+		entity.put("userName", userName);
+		entity.put("token", token);
+		entity.put("tokenLifeTime", tokenLifeTime);
+		return entity;
+	}
+	
+	public void fromDbObject (DBObject obj){
+		this._id=(String)obj.get("_id");
+		this.userName=(String)obj.get("userName");
+		this.token=(String)obj.get("token");

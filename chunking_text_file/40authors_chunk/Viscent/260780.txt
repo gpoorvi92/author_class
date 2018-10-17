@@ -1,0 +1,10 @@
+public final class MMSCInfo {
+	/**
+	 * 设备编号
+	 */
+	private final String deviceID;
+	/**
+	 * 彩信中心URL
+	 */
+	private final String url;
+	/**

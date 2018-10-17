@@ -1,0 +1,10 @@
+          {
+              String filename = f.getAbsolutePath();
+              if (mfsff!=null)
+                filename = mfsff.setFileNameExtension(filename);
+              else
+              {
+                  javax.swing.filechooser.FileFilter ff = chooser.getFileFilter();
+                  if (ff instanceof ModelFileSaverFileFilter)
+                  {
+                     filename = ((ModelFileSaverFileFilter)ff).setFileNameExtension(filename);

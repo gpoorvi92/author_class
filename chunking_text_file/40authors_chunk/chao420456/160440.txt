@@ -1,0 +1,10 @@
+		//System.out.println(getName()+"---"+getEid()+"---"+getSalary()+"---"+bonus);
+
+		super.show();
+		System.out.println("经理额外的奖金是："+bonus);
+	}
+}
+
+class EmployeeDemo {
+	public static void main(String[] args) {
+		//程序员

@@ -1,0 +1,8 @@
+      String name = tokens[0];
+      double salary = Double.parseDouble(tokens[1]);
+      int year = Integer.parseInt(tokens[2]);
+      int month = Integer.parseInt(tokens[3]);
+      int day = Integer.parseInt(tokens[4]);
+      return new Employee(name, salary, year, month, day);
+   }   
+}

@@ -1,0 +1,10 @@
+		// 初始化告警模块
+		AlarmMgr.getInstance().init();
+	}
+
+	public static void main(String[] args) {
+		SampleAlarmClient alarmClient = new SampleAlarmClient();
+		Connection dbConn = null;
+		try {
+			dbConn = alarmClient.retrieveDBConnection();
+

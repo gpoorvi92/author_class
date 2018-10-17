@@ -1,0 +1,10 @@
+    public static void sendMessageAuto(final String merchantId, final String message) {
+        try {
+            Browser.withAllSessionsFiltered(new ScriptSessionFilter() {
+                public boolean match(ScriptSession session) {
+                    if (session.getAttribute("merchantId") == null)
+                        return false;
+                    else
+                        return (session.getAttribute("merchantId")).equals(merchantId);
+                }
+            }, new Runnable() {

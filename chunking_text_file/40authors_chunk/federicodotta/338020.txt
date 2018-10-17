@@ -1,0 +1,10 @@
+     * example, where the insertion point places a payload into a serialized
+     * data structure, the raw payload may not literally appear anywhere within
+     * the resulting request).
+     */
+    int[] getPayloadOffsets(byte[] payload);
+
+    /**
+     * This method returns the type of the insertion point.
+     *
+     * @return The type of the insertion point. Available types are defined in

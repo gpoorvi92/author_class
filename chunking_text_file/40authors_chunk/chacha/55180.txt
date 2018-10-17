@@ -1,0 +1,10 @@
+	        connection.connect();
+		} catch (Exception e) {
+			throw new ExceptionInInitializerError("mongodb argument init error!");
+		}
+	}
+
+	public AbstractDAO() {
+		super();
+	}
+

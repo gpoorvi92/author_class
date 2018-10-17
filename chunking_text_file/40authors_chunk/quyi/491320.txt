@@ -1,0 +1,10 @@
+        }
+      }
+    }
+
+  }
+
+  public static class heart_args implements org.apache.thrift.TBase<heart_args, heart_args._Fields>, java.io.Serializable, Cloneable, Comparable<heart_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("heart_args");
+
+    private static final org.apache.thrift.protocol.TField NODE_HEAT_FIELD_DESC = new org.apache.thrift.protocol.TField("nodeHeat", org.apache.thrift.protocol.TType.STRUCT, (short)1);

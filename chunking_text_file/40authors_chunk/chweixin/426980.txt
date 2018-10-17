@@ -1,0 +1,10 @@
+package ipower.wechat.message;
+
+import java.io.Serializable;
+
+/**
+ * 音乐信息。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */
+public class Music implements Serializable {

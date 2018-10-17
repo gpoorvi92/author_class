@@ -1,0 +1,10 @@
+      case SUCCESS:
+        return isSetSuccess();
+      case IRE:
+        return isSetIre();
+      case UE:
+        return isSetUe();
+      }
+      throw new IllegalStateException();
+    }
+

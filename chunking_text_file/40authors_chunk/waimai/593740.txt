@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public User findByUsername(String username) {
+        return userMapper.findByUsername(username);
+    }
+
+    @Override
+    public void update(User user) {
+        userMapper.updateByPrimaryKeySelective(user);

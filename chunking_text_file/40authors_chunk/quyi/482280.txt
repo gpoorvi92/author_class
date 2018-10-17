@@ -1,0 +1,10 @@
+      com.nercis.isscp.idl.DynamicCheckResultData dycRD,
+      com.nercis.isscp.idl.virus.VirusDetectionResultData virRD)
+    {
+      this();
+      this.missionId = missionId;
+      this.userAppId = userAppId;
+      this.status = status;
+      this.usedPermissions = usedPermissions;
+      this.stcRD = stcRD;
+      this.dycRD = dycRD;

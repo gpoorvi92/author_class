@@ -1,0 +1,10 @@
+	// ControlResponse
+	////////////////////////////////////////////////
+
+	private ControlResponse ctrlRes = null;
+
+	public ControlResponse getControlResponse() 
+	{
+		return ctrlRes;
+	}
+

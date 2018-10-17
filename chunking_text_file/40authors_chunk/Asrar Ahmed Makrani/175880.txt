@@ -1,0 +1,10 @@
+    			bsql.loan();
+    		}
+    	}
+        });
+        toolBar.add(button);
+        
+         //forth button
+        button = new JButton(new ImageIcon("clear.gif"));
+        button.setToolTipText("Clear");
+        button.addActionListener(new ActionListener() {

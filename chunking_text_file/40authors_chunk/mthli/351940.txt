@@ -1,0 +1,10 @@
+{
+   private JComboBox<String> faceCombo;
+   private JLabel label;
+   private static final int DEFAULT_SIZE = 24;
+
+   public ComboBoxFrame()
+   {
+      // add the sample text label
+
+      label = new JLabel("The quick brown fox jumps over the lazy dog.");

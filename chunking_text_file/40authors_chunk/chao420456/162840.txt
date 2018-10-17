@@ -1,0 +1,10 @@
+								users.put((int) clientThread.getId(), "@login@");
+								messages.add(clientThread.getId() + "@clientThread");
+							}
+						}
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+		}
+	}

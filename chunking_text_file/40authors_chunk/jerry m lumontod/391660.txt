@@ -1,0 +1,10 @@
+		}
+	}
+
+	//ContainerListener interface
+	public void componentAdded(ContainerEvent e) {
+		addKeyAndContainerListenerRecursively(e.getChild());
+	}
+
+
+	public void componentRemoved(ContainerEvent e) {

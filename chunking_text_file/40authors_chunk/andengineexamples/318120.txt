@@ -1,0 +1,10 @@
+		final float right = (this.mText.getWidth() * 0.5f) + (this.mText.getLineWidthMaximum() * 0.5f);
+		this.mRight.setPosition(right, 0, right, TextBreakExample.CAMERA_HEIGHT);
+	}
+
+	@Override
+	public void beforeTextChanged(final CharSequence pCharSequence, final int pStart, final int pCount, final int pAfter) {
+		/* Nothing. */
+	}
+
+	@Override

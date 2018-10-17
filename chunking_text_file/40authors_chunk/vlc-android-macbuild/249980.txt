@@ -1,0 +1,10 @@
+        mMetaListUrl = uri;
+    }
+
+    @Override
+    public void setDisplay(SurfaceHolder holder) {
+        mSurfaceHolder = holder;
+
+        if (holder != null)
+            holder.addCallback(mSurfaceCallback);
+

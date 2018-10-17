@@ -1,0 +1,10 @@
+		buttonBackGround = Bitmap.createBitmap(menu_item, 0, 0, 60, 30);
+		upBitmap = Bitmap.createBitmap(menu_item, 210, 15, 15, 15);
+		downBitmap = Bitmap.createBitmap(menu_item, 210, 0, 15, 15);
+		menu_item = null;//释放掉大图 
+		panel_back = BitmapFactory.decodeResource(r, R.drawable.panel_back);
+		logo = BitmapFactory.decodeResource(r, R.drawable.logo);
+		selectBackground = BitmapFactory.decodeResource(r, R.drawable.select_back);
+		menuTitle = BitmapFactory.decodeResource(r, R.drawable.menu_title);//标题背景
+	}
+	public void initData(){//初始化数据

@@ -1,0 +1,10 @@
+    public void addTaskToQue(Account account, String repoName, String repoID, String path) {
+        // create a new one to avoid IllegalStateException
+        DownloadTask downloadTask = new DownloadTask(++notificationID, account, repoName, repoID, path, this);
+        addTaskToQue(downloadTask);
+    }
+
+    public int getDownloadingFileCountByPath(String repoID, String dir) {
+        List<DownloadTaskInfo> downloadTaskInfos = getTaskInfoListByPath(repoID, dir);
+        int count = 0;
+        for (DownloadTaskInfo downloadTaskInfo : downloadTaskInfos) {

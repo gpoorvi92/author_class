@@ -1,0 +1,10 @@
+  public int     getPowerState() throws JposException;
+  public boolean getRealTimeDataEnabled() throws JposException;
+  public void    setRealTimeDataEnabled(boolean bEnabled) throws JposException;
+
+  // Methods
+  public void    adjustCashCounts(String cashCounts)
+                     throws JposException;
+  public void    beginDeposit()
+                     throws JposException;
+  public void    clearInput()  throws JposException;

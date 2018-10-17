@@ -1,0 +1,10 @@
+		Student s1 = new Student("林青霞", 28);
+		Student s2 = new Student("风清扬", 31);
+		Student s3 = new Student("王重阳", 200);
+		Student s4 = new Student("林青霞", 28);
+		Student s5 = new Student("风清扬", 20);
+		Student s6 = new Student("王阳", 100);
+
+		// 添加元素
+		hm.put(s1, "it001");
+		hm.put(s2, "it002");

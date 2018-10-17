@@ -1,0 +1,10 @@
+                localPath.add(getSharedFilePath((Uri)extraStream));
+            }
+        }
+        
+        if (localPath == null || localPath.size() == 0) {
+            ToastUtils.show(this, R.string.not_supported_share);
+            finish();
+            return;
+        }
+

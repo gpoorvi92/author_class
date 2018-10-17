@@ -1,0 +1,10 @@
+
+    public static void showRepo(Context context, String repoID, String repoName, String path, String dirID) {
+        Intent intent = new Intent(context, BrowserActivity.class);
+        intent.putExtra("repoID", repoID);
+        intent.putExtra("repoName", repoName);
+        intent.putExtra("path", path);
+        intent.putExtra("dirID", dirID);
+        context.startActivity(intent);
+    }
+

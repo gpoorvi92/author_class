@@ -1,0 +1,10 @@
+     */
+    public boolean hasNoData() {
+        return this.dead;
+    }
+
+    /**
+     * @param f call the function with the current information
+     */
+    public void callbackUpdate(final UpdateableBitmapFunction f) {
+        if (this.dead)

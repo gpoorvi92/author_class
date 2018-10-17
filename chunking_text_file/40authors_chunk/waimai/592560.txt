@@ -1,0 +1,10 @@
+        Iterator<String> iterator = Arrays.asList(idsAndStatuses).iterator();
+        while (iterator.hasNext()) {
+            String status = iterator.next().split("_")[1];
+            if (!compareValue1.equals(status) && !compareValue2.equals(status)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

@@ -1,0 +1,10 @@
+public enum EngineOperation implements org.apache.thrift.TEnum {
+  shutdown(1),
+  restart(2),
+  startup(3),
+  sleep(4);
+
+  private final int value;
+
+  private EngineOperation(int value) {
+    this.value = value;

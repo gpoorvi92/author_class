@@ -1,0 +1,10 @@
+          com.nercis.isscp.idl.CheckResultStatus __this__functionStatus_copy_value = other_element_value;
+
+          __this__functionStatus.put(__this__functionStatus_copy_key, __this__functionStatus_copy_value);
+        }
+        this.functionStatus = __this__functionStatus;
+      }
+    }
+
+    public updateUserAppStatus_args deepCopy() {
+      return new updateUserAppStatus_args(this);

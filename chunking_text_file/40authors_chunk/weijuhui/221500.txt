@@ -1,0 +1,10 @@
+    @Override
+    public Header getContentType() {
+        return new BasicHeader("Content-Type", "multipart/form-data; boundary=" + boundary);
+    }
+
+    @Override
+    public boolean isChunked() {
+        return false;
+    }
+

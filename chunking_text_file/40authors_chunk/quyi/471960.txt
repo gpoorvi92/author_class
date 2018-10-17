@@ -1,0 +1,10 @@
+      private Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus;
+      public updateUserAppStatus_call(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.missionId = missionId;
+        this.userAppId = userAppId;
+        this.plotsStatus = plotsStatus;
+        this.functionStatus = functionStatus;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {

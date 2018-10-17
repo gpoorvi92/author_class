@@ -1,0 +1,10 @@
+      this.requestPurviews = __this__requestPurviews;
+    }
+    if (other.isSetFormat()) {
+      this.format = other.format;
+    }
+  }
+
+  @Override
+public UserApp deepCopy() {
+    return new UserApp(this);

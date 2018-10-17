@@ -1,0 +1,10 @@
+      if (that instanceof heart_args)
+        return this.equals((heart_args)that);
+      return false;
+    }
+
+    public boolean equals(heart_args that) {
+      if (that == null)
+        return false;
+
+      boolean this_present_nodeHeat = true && this.isSetNodeHeat();

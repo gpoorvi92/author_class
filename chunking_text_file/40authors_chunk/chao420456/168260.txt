@@ -1,0 +1,10 @@
+package cn.itcast_07;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/*
+ * 标准输入输出流：
+ * System:
+ * 		public static final InputStream in:标准输入流	键盘输入

@@ -1,0 +1,10 @@
+
+		// method1(srcFile, destFile);
+		// method2(srcFile, destFile);
+		// method3(srcFile, destFile);
+		method4(srcFile, destFile);
+	}
+
+	// 高效字节流一次读写一个字节数组
+	public static void method4(File srcFile, File destFile) throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(

@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(CHECK_TIME_FIELD_DESC);
+        oprot.writeString(struct.checkTime);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(CPU_FIELD_DESC);
+      oprot.writeI32(struct.cpu);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(RSS_FIELD_DESC);
+      oprot.writeI32(struct.rss);
+      oprot.writeFieldEnd();

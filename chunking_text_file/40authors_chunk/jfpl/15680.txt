@@ -1,0 +1,10 @@
+
+	@InjectionView(id = R.id.first_step_icon)
+	private GifView stIcon1;
+	@InjectionView(id = R.id.first_done_icon)
+	private ImageView sdIcon1;
+	@InjectionView(id = R.id.second_step_icon)
+	private GifView stIcon2;
+	@InjectionView(id = R.id.second_done_icon)
+	private ImageView sdIcon2;
+	@InjectionView(id = R.id.third_step_icon)

@@ -1,0 +1,10 @@
+        
+        passwod.setBounds( 20,40,80,20 );
+        passwod.setForeground(Color.black);
+        c.add( passwod ); 
+        
+        usersName.setBounds( 100,15,170,20 );
+        c.add( usersName );
+        
+        userPassword.setBounds( 100,40,170,20 );
+        c.add( userPassword );

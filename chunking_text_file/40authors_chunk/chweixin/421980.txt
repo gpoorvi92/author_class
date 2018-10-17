@@ -1,0 +1,10 @@
+	/**
+	 * 解析语音消息。
+	 * @param data
+	 * 	消息数据。
+	 * @return 语音消息对象。
+	 * */
+	public static VoiceReqMessage parseVoiceReqMessage(Map<String, String> data){
+		VoiceReqMessage voiceReqMessage = new VoiceReqMessage();
+		//
+		parseReqMessage(voiceReqMessage,data);

@@ -1,0 +1,10 @@
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof RunMonitor)
+      return this.equals((RunMonitor)that);
+    return false;
+  }
+
+  public boolean equals(RunMonitor that) {
+    if (that == null)

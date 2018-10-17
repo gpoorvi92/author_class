@@ -1,0 +1,10 @@
+    {
+        return written > (long)threshold;
+    }
+
+    protected void checkThreshold(int count)
+        throws IOException
+    {
+        if(!thresholdExceeded && written + (long)count > (long)threshold)
+        {
+            thresholdExceeded = true;

@@ -1,0 +1,10 @@
+  {
+      prevPoint = new Point(e.getX(),e.getY());
+  }
+
+  public void mouseReleased(MouseEvent e)
+  {}
+
+    public void mouseDragged(MouseEvent e)
+    {
+        if (prevPoint != null)

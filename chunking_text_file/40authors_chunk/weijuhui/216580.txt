@@ -1,0 +1,10 @@
+ * <li><b>date : </b>		2013-8-29 上午2:58:05		</li>
+ * </ul>
+ */
+@EActivity(R.layout.act_main)
+public class MainActivity extends Activity {
+
+	/** IWXAPI 是第三方app和微信通信的openapi接口 */
+	 IWXAPI api;
+	 
+	 private boolean flag = true;

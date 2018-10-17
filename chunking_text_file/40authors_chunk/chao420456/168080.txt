@@ -1,0 +1,10 @@
+	}
+	public void exitChat() {
+		try {
+			dos.writeUTF(username + "@exit" + getThreadID() + "@exit");
+			flag_exit = false;
+			System.exit(0);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}

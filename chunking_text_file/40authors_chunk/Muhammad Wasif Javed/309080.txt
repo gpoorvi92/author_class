@@ -1,0 +1,10 @@
+			}
+			else if (password.equals ("")) {
+				txtPass.requestFocus();
+				JOptionPane.showMessageDialog (this, "Password not Provided.");
+			}
+			else {
+				try {	//INSERT Query to Add Book Record in Table.
+					String q = "INSERT INTO Users (Username, Password) " + 
+						"VALUES ('" + txtUser.getText() + "', '" + password + "')";
+

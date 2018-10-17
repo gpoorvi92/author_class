@@ -1,0 +1,10 @@
+
+    public static boolean gifCaptcha(String randomStr,int width,int height,String file){
+        char[] rands = randomStr.toCharArray();
+        int len = rands.length;
+        try(OutputStream out = new FileOutputStream(file))
+        {
+            // gif编码类，这个利用了洋人写的编码类，所有类都在附件中
+            GifEncoder gifEncoder = new GifEncoder();
+            //生成字符
+            gifEncoder.start(out);

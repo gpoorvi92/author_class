@@ -1,0 +1,10 @@
+				chatMsg = ChatMessageUtil.convertToClientMessage(chatMsg);
+				acd.putStringValue("chat_msg", chatMsg);
+
+			} else if ("3".equals(msgType)) { // 语音
+				String audioUrl = acd.getStringValue("audio_url");
+				VoicePlayItem vpi = (VoicePlayItem) v
+						.findViewById(R.id.voice_play_msg);
+				vpi.setPlaySource(audioUrl);
+				vpi.setBindEventView(v);
+				if ("0".equals(acd.getStringValue("load_data_type"))

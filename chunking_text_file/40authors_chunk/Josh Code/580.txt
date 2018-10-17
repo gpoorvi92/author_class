@@ -1,0 +1,10 @@
+        }
+        return result;
+    }
+
+    /** sorts using either bubble sort or quick sort depending on how out of order the list is
+     */
+   public void sort(Triangle []triangles)
+   {
+    int numOutofOrder = countOutOfOrder(triangles);
+

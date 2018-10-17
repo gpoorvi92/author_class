@@ -1,0 +1,10 @@
+      }
+
+    }
+
+    private static class updateAppStatus_argsTupleSchemeFactory implements SchemeFactory {
+      public updateAppStatus_argsTupleScheme getScheme() {
+        return new updateAppStatus_argsTupleScheme();
+      }
+    }
+

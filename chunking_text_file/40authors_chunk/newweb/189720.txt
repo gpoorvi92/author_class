@@ -1,0 +1,10 @@
+import com.newweb.dao.base.SupplierDao;
+import com.newweb.model.base.Supplier;
+
+@Component("supplierDao")
+public class SupplierDaoImp implements SupplierDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired

@@ -1,0 +1,10 @@
+    }
+
+    public boolean hasArmv5() {
+        return mHasARMv5;
+    }
+
+    public boolean supportNeon() {
+        return mFeatureSet.contains("neon");
+    }
+

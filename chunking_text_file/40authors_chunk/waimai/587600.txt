@@ -1,0 +1,10 @@
+                    newWidth = (int) (((double) img.getWidth(null)) / rate);
+                    newHeight = (int) (((double) img.getHeight(null)) / rate);
+                } else {
+                    newWidth = outputWidth; // 输出的图片宽度
+                    newHeight = outputHeight; // 输出的图片高度
+                }
+                BufferedImage tag = new BufferedImage((int) newWidth, (int) newHeight, BufferedImage.TYPE_INT_RGB);
+
+			 	/*
+				 * Image.SCALE_SMOOTH 的缩略算法 生成缩略图片的平滑度的

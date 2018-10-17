@@ -1,0 +1,10 @@
+	}
+
+	public int getNextX() {
+		return Direction.addToX(this.mDirection, this.mHead.getCellX());
+	}
+
+	public int getNextY() {
+		return Direction.addToY(this.mDirection, this.mHead.getCellY());
+	}
+

@@ -1,0 +1,10 @@
+		//fill atomic entries for hashtable: codes[0-255]
+		for(int i=0; i<=255 ;i++) 
+		{ 
+			byte[] temp = {(byte) i}; 
+			HashNode tempNode = new HashNode(i, temp); 
+			data[i] = tempNode; 
+		} 
+	} 
+
+	/* Compression Dictionary Insert */

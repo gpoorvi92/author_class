@@ -1,0 +1,10 @@
+      modifyEngineConfig_call method_call = new modifyEngineConfig_call(propertyName, propertyValue, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class modifyEngineConfig_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String propertyName;
+      private String propertyValue;
+      public modifyEngineConfig_call(String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);

@@ -1,0 +1,10 @@
+
+      handler.startDocument();
+      handler.startElement("", rootElement, rootElement, atts);
+      String line;
+      while ((line = in.readLine()) != null)
+      {
+         handler.startElement("", "employee", "employee", atts);
+         StringTokenizer t = new StringTokenizer(line, "|");
+
+         handler.startElement("", "name", "name", atts);

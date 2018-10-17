@@ -1,0 +1,10 @@
+      }
+
+      try
+      {
+         return checkLogin(nameCall.getName(), passCall.getPassword());
+      }
+      catch (IOException ex)
+      {
+         LoginException ex2 = new LoginException();
+         ex2.initCause(ex);

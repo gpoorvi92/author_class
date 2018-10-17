@@ -1,0 +1,10 @@
+		}else{
+			new GuideActivity_.IntentBuilder_(WelcomeActivity.this).start();
+			finish();
+			LocalStore.setInit(WelcomeActivity.this);
+		}
+		
+		
+	}
+	
+	void intentBuilder(){

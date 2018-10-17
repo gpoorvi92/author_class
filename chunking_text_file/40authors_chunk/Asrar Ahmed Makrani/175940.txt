@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+
+public interface journal_master_info_Interface
+{
+	public JPanel text = new JPanel(); 
+    public String type_list[] = {"Reference", "Lendable"};
+    public String category_list[] = {"INTERNET", "PROGRAMMING", "GAMES", "3D ANIMATIONS", "ENTERTAINMENT"};
+    public JTextField journal_no_text = new JTextField(20);
+    public JTextField journal_title_text = new JTextField(20);

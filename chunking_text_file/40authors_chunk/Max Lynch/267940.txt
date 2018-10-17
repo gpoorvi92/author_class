@@ -1,0 +1,10 @@
+	
+	private final MenuMan menuMan = new MenuMan(this);
+	
+	private final RenderMediator renderMediator = new RenderMediator(this);
+	
+	private final StatusBar statusBar = new StatusBar(this);
+	
+	private final JFrame FRAME;
+	
+	

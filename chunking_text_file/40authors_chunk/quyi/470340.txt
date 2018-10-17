@@ -1,0 +1,10 @@
+
+	public static void searchApp(List<String> userAppIdList1, int missionSize, long waitTime, int count) {
+		List<String> userAppIdList = new ArrayList<String>();
+		userAppIdList = userAppIdList1.subList(0, count);
+		String missionId = "SingleTest";
+		for (int appCount = 0; appCount <= userAppIdList.size() / missionSize; appCount++) {
+			for (int userAppCount = 0; userAppCount < missionSize && appCount * missionSize + userAppCount < userAppIdList.size(); userAppCount++) {
+				String userAppId = userAppIdList.get(appCount * missionSize + userAppCount);
+				String number = missionSize + "#" + appCount + "@" + userAppCount;
+				SearchAppThread searchAppThread = new SearchAppThread(engine_address, engine_port, missionId, userAppId, number, missionSize);

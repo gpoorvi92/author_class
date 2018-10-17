@@ -1,0 +1,10 @@
+    }
+
+    private int num;
+    private float min, max;
+    private float temp;
+    private float[] values = null;
+    private Color[] colors;
+
+    //public void plot(float [] values) {
+    //}

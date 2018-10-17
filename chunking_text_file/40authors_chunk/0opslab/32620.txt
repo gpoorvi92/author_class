@@ -1,0 +1,10 @@
+    } else if (!this.m_value.equals(other.m_value)) {
+      return false;
+    }
+    return true;
+  }
+
+  /**
+   * Maybe null!
+   * 
+   * @see java.util.Map.Entry#getKey()

@@ -1,0 +1,10 @@
+    public boolean isLoading;
+
+    protected abstract int getLoadCount();
+
+    protected WeakReference<DataConsumer> consumer;
+
+    public DataConsumer getConsumer() {
+        if (consumer == null) {
+            return null;
+        }

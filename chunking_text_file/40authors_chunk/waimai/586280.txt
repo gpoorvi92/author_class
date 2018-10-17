@@ -1,0 +1,10 @@
+        modelAndView.addObject("totalCount", newsService.getTotalCount());
+        modelAndView.addObject("apkUrl", appService.getNewestUrl());
+        return modelAndView;
+    }
+
+    @RequestMapping("/news/{pageNum}")
+    public @ResponseBody Map<String, Object> news(@PathVariable("pageNum") Integer pageNum) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        BaseConditionVO vo = new BaseConditionVO();
+        vo.setPageNum(pageNum + 1);

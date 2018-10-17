@@ -1,0 +1,10 @@
+    
+    /**
+     * 修改窗体图标
+     * @param jf 
+     */
+    public static void setFrameIcon(JFrame jf,String imagePath){
+        //获取工具类
+        Toolkit took = Toolkit.getDefaultToolkit();
+        //根据路径获取图片
+        Image image = took.getImage(imagePath);

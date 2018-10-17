@@ -1,0 +1,10 @@
+	 * @return 可借以获取任务处理结果的Promise（参见第6章，Promise模式）实例。
+	 */
+	protected Future<V> dispatch(final Object... params) {
+		FutureTask<V> ft = null;
+
+		// 进行异步层初步处理
+		onPreExecute(params);
+
+		Callable<V> callable = new Callable<V>() {
+			@Override

@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+/*
+ * 复制文本文件(9种，而我们选择字符流，就用5种方式实现)

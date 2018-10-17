@@ -1,0 +1,10 @@
+			    + originalFileName);
+		}
+
+		BufferedOutputStream bos = null;
+		BufferedInputStream bis = new BufferedInputStream(in);
+		byte[] buf = new byte[2048];
+		int len = -1;
+		try {
+			bos = new BufferedOutputStream(new FileOutputStream(file));
+			while ((len = bis.read(buf)) > 0) {

@@ -1,0 +1,10 @@
+		System.out.println("sample:" + mi.getAudioSamplingRate());
+		assertTrue(mi.getAudioBitrate() > 0);
+		assertEquals(44100, mi.getAudioSamplingRate());
+	}
+
+	@Test
+	public void testMp4() {
+		
+		MediaInfo mi = new MediaInfo();
+		mi.analyzeMedia("E:\\video\\2.mp4");

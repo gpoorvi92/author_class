@@ -1,0 +1,10 @@
+												
+					}
+				}
+				totalBytes++;	
+			}
+			s=s.substring(0,(s.length()-8));
+			s=s.substring(0,(s.length()-8+arr));
+			int counter;		
+			while (s.length()>0){
+				if(s.length()>16)counter=16;

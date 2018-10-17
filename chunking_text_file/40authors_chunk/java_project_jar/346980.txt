@@ -1,0 +1,10 @@
+            throw new NullPointerException("The strings must not be null");
+        else
+            return sensitive ? str1.equals(str2) : str1.equalsIgnoreCase(str2);
+    }
+
+    public boolean checkStartsWith(String str, String start)
+    {
+        return str.regionMatches(!sensitive, 0, start, 0, start.length());
+    }
+

@@ -1,0 +1,10 @@
+public class ConvertUtilTest {
+
+    @Test
+    public void testencodeBytes() throws UnsupportedEncodingException {
+        String str = "中文";
+        System.out.println(new String(ConvertUtil.encodeBytes(str.getBytes(CharsetUtil.GBK), ' ')));
+        System.out.println(new String(ConvertUtil.encodeBytes(str.getBytes(CharsetUtil.UTF_8), ' ')));
+    }
+
+    @Test

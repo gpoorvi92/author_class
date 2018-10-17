@@ -1,0 +1,10 @@
+    public final GameServerRpc.SearchPlayerResp searchPlayer(GameServerRpc.SearchPlayerReq req)
+    {
+        BaseRpcConnection rpcClient = null;
+        try
+        {
+            rpcClient = rpcClientPool.borrowRpcClient();
+            Rpc.RpcPacket resp = rpcClient.sendWaitBack(newRpcPacket(req));
+            GameServerRpc.SearchPlayerResp ret = GameServerRpc.SearchPlayerResp.parseFrom(resp.getContent());
+            rpcClientPool.returnRpcClient(rpcClient);
+            return ret;

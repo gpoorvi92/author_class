@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testisNumeric() {
+        assertEquals(true, RegUtil.isNumeric("123"));
+        assertEquals(false, RegUtil.isNumeric("123 "));
+        assertEquals(false, RegUtil.isNumeric("1a23"));
+    }
+
+    @Test

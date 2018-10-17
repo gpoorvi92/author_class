@@ -1,0 +1,10 @@
+   {
+      mainPanel.add(new JLabel(labelText));
+      mainPanel.add(spinner);
+      final JLabel valueLabel = new JLabel();
+      mainPanel.add(valueLabel);
+      okButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               Object value = spinner.getValue();

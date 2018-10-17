@@ -1,0 +1,10 @@
+             // show the answer because they've seen the question
+             display.setText(currentCard.getAnswer());
+             nextButton.setText("Next Card");
+             isShowAnswer = false;
+          } else {
+              // show the next question
+             if (cardIterator.hasNext()) {
+                
+                showNextCard();
+                

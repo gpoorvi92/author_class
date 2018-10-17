@@ -1,0 +1,10 @@
+
+        @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+            Log.d(DEBUG_TAG, "onReceivedSslError " + error.getCertificate().toString());
+
+            // Ignore SSL certificate validate
+            handler.proceed();
+        }
+
+        @Override

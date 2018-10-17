@@ -1,0 +1,10 @@
+		ByteArrayInputStream stream;
+		String crc;
+	}
+
+
+
+	public static TestFileSplitResult getByteArrayFromInputStream(InputStream inputStream, long start, long length)
+			throws IOException {
+		TestFileSplitResult testFileSplitResult = new TestFileSplitResult();
+

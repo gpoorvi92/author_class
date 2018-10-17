@@ -1,0 +1,10 @@
+
+    public static class updateUserAppInfo<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, updateUserAppInfo_args, com.nercis.isscp.idl.Result> {
+      public updateUserAppInfo() {
+        super("updateUserAppInfo");
+      }
+
+      public updateUserAppInfo_args getEmptyArgsInstance() {
+        return new updateUserAppInfo_args();
+      }
+

@@ -1,0 +1,10 @@
+	{
+		localAddr = addr;
+	}
+	
+	public String getLocalAddress()
+	{
+		return localAddr;
+	}
+
+	

@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface CheckScannerControl18 extends CheckScannerControl17
+{
+  // Capabilities
+  public boolean getCapStatisticsReporting() throws JposException;

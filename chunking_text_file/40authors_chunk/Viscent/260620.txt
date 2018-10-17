@@ -1,0 +1,9 @@
+	@Override
+  public String toString() {
+	  return "Record [id=" + id + ", productId=" + productId + ", packageId="
+	      + packageId + ", msisdn=" + msisdn + ", operationTime=" + operationTime
+	      + ", effectiveDate=" + effectiveDate + ", dueDate=" + dueDate
+	      + ", operationType=" + operationType + "]";
+  }
+
+}

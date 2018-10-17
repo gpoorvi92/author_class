@@ -1,0 +1,10 @@
+                result.setMsg("failed");
+            }
+            if (NoticeService.delete(notice))
+            {
+                result.setMsg("success");
+            }
+            else
+            {
+                result.setMsg("failed");
+            }

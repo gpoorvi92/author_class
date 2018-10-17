@@ -1,0 +1,10 @@
+    this.systemResources = systemResources;
+    this.hardwareResources = hardwareResources;
+    this.checkEndDate = checkEndDate;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public DynamicCheckResultData(DynamicCheckResultData other) {
+    if (other.isSetApkMD5()) {

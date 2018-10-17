@@ -1,0 +1,10 @@
+	public int lengthOftask(){
+		return mycount;
+	}
+	
+	public String getSummary(){
+		return summary;
+	}
+}
+
+

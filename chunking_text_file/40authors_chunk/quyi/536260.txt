@@ -1,0 +1,10 @@
+    sb.append("processName:");
+    if (this.processName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.processName);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("threadName:");
+    if (this.threadName == null) {

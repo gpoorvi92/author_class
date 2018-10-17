@@ -1,0 +1,10 @@
+        }
+        if (struct.useRule != null) {
+          oprot.writeFieldBegin(USE_RULE_FIELD_DESC);
+          oprot.writeString(struct.useRule);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+

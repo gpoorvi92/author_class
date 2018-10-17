@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * @param pos position were a 11...1 word was added
+     */
+    public final void setOne(final int pos) {
+        if (!this.b[pos]) {
+            clearLiteral(pos);
+            this.b[pos] = true;
+            ++this.hammingWeight;

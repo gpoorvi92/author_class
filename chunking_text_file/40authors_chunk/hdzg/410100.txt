@@ -1,0 +1,10 @@
+					if(research.makeProgress()){//如果科研项目全部完工
+						completedResearch = research;//记录下需要删除的项目
+						if(research.researchProject == 0){//战车研究成功
+							hero.warTank += research.getResearchNumber();
+						}
+						else {//箭垛研究成功
+							hero.warTower += research.getResearchNumber();
+						}
+						GameView gv = hero.father;
+						String alertMessage = research.getName()+"为你建造的"+

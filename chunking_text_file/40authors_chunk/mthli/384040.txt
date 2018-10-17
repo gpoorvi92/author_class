@@ -1,0 +1,10 @@
+ */
+public class TabbedPaneFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   private JTabbedPane tabbedPane;
+
+   public TabbedPaneFrame()
+   {

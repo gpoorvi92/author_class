@@ -1,0 +1,10 @@
+    public static final int SCAN_SDT_JAN8        = 103;  // = EAN 8
+    public static final int SCAN_SDT_EAN8        = 103;  // = JAN 8
+    public static final int SCAN_SDT_JAN13       = 104;  // = EAN 13
+    public static final int SCAN_SDT_EAN13       = 104;  // = JAN 13
+    public static final int SCAN_SDT_TF          = 105;  // (Discrete 2 of 5)
+                                                         //   Digits
+    public static final int SCAN_SDT_ITF         = 106;  // (Interleaved 2 of 5)
+                                                         //   Digits
+    public static final int SCAN_SDT_Codabar     = 107;  // Digits, -, $, :, /, .,
+                                                         //   +; 4 start/stop

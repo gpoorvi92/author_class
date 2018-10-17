@@ -1,0 +1,10 @@
+
+public final class FileUtil
+{
+	public final static byte[] load(String fileName)
+	{
+		try {	
+			FileInputStream fin=new FileInputStream(fileName);
+			return load(fin);
+		}
+		catch (Exception e) {

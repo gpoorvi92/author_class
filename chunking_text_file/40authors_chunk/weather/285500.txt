@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void bindView(Pair<String, String> item, int position, View view) {
+        ((TextView) view).setText(cityPinyinMap.get(item.first));
+    }
+
+    /**
+     * {@inheritDoc}
+     */

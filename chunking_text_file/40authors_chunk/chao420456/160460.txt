@@ -1,0 +1,10 @@
+		Programmer p = new Programmer();
+		p.setName("谢家进");
+		p.setEid("10010");
+		p.setSalary(7700);
+		p.show();
+		p.work();
+		//另外三种不写了。
+		System.out.println("---------------------");
+
+		//经理的测试

@@ -1,0 +1,9 @@
+				mx = Integer.parseInt(mxStr);  
+			} catch (Exception e) {  
+				Debug.warning (e);  
+			} 
+		}  
+		return mx; 
+	}
+}
+

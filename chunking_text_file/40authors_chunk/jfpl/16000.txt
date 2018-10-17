@@ -1,0 +1,10 @@
+		if (view.canGoBack()) {
+			webActivity.setGoBackState(true);
+		} else {
+			webActivity.setGoBackState(false);
+		}
+		refreshUrl = url;
+		webViewLoadComplete(view);
+		webActivity.setPageLoadFinish(true);
+	}
+

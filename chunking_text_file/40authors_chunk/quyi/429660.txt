@@ -1,0 +1,10 @@
+    boolean that_present_update = true && that.isSetUpdate();
+    if (this_present_update || that_present_update) {
+      if (!(this_present_update && that_present_update))
+        return false;
+      if (!this.update.equals(that.update))
+        return false;
+    }
+
+    boolean this_present_result = true && this.isSetResult();
+    boolean that_present_result = true && that.isSetResult();

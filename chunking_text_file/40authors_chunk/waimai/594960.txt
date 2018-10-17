@@ -1,0 +1,10 @@
+            return ajaxDoneSuccessAndClose("修改成功", "");
+        } else {
+            return ajaxDoneSuccessAndClose("修改成功", "news_list");
+        }
+    }
+
+    @RequestMapping("/delete")
+    public ModelAndView delete(Integer[] ids) {
+        try {
+            newsService.delete(ids);

@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * 
+	 * @param terminationToken
+	 *          线程间共享的线程终止标志实例
+	 */
+	public AbstractTerminatableThread(TerminationToken terminationToken) {
+		super();
+		this.setDaemon(true);

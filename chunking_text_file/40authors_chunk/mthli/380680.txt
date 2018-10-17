@@ -1,0 +1,10 @@
+      add(toField, new GBC(1, 2).setFill(GBC.HORIZONTAL));
+      add(mailButton, new GBC(2, 2).setAnchor(GBC.WEST).setInsets(2));
+      add(new JLabel("Subject:"), new GBC(0, 3).setAnchor(GBC.EAST).setInsets(5, 2, 5, 2));
+      add(subjectField, new GBC(1, 3).setFill(GBC.HORIZONTAL));
+
+      pack();
+   }
+
+   private static String percentEncode(String s)
+   {

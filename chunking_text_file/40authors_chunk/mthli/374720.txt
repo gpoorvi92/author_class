@@ -1,0 +1,10 @@
+      localeCombo.setSelectedItem(Locale.getDefault().getDisplayName());
+      currentNumber = 123456.78;
+      updateDisplay();
+
+      localeCombo.addActionListener(listener);
+
+      parseButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

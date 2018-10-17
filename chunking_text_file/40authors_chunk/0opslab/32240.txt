@@ -1,0 +1,10 @@
+
+    @Test
+    @Ignore
+    public void testList(){
+        File file = new File(path + "TimeCount.txt");
+        List<String> lines = FileUtil.lines(file);
+        Map<String,Integer> group = new HashMap<String,Integer>();
+        String key ="";
+        for(String line:lines) {
+            line = line.replaceAll("^\\t","").replaceAll("\\t",":");

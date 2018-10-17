@@ -1,0 +1,10 @@
+
+     private ImageEncoder encoder = null;
+     private JPEGEncodeParam encodeParam = null;
+	private static PlanarImage srcImage, dstImage;
+	String outFileName;
+		
+     // Create some Quantization tables.
+         private static int[] qtable1 = {
+             1,1,1,1,1,1,1,1,
+             1,1,1,1,1,1,1,1,

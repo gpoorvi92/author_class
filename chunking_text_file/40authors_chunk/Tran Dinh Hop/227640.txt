@@ -1,0 +1,10 @@
+public class LZWCompress extends Thread { 
+
+	private final int codeMax; 
+	private JButton jbt;
+	//private JScrollPane jsp;
+	//private JTextArea log;
+	private File inFile;
+	private File outFile;
+	private FileInputStream in; 
+	private FileOutputStream out; 

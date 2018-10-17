@@ -1,0 +1,10 @@
+   * 
+   * @see DeviceType
+   */
+  public DeviceType getDeviceType() {
+    return this.deviceType;
+  }
+
+  /**
+   * 
+   * @see DeviceType

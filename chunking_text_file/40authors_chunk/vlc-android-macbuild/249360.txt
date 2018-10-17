@@ -1,0 +1,10 @@
+        return mWeakContext.get();
+    }
+
+    public void setIndexBundle(Bundle indexBundle, PlayIndex playIndex) {
+        synchronized (mIndexLock) {
+            mIndexBundle = indexBundle;
+            mPlayIndex = playIndex;
+        }
+    }
+

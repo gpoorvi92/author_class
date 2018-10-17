@@ -1,0 +1,10 @@
+	@Override
+	public boolean modify(LhjPrice lhjp) {
+		return lhjPriceDao.update(lhjp);
+	}
+
+	@Override
+	public boolean save(LhjPrice lhjp) {
+		return lhjPriceDao.insert(lhjp);
+	}
+

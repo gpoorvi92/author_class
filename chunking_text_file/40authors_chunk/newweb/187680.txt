@@ -1,0 +1,10 @@
+	public void setPfprice(double pfprice) {
+		this.pfprice = pfprice;
+	}
+	@ManyToOne
+	@JoinColumn(name="supplierID")
+	public Supplier getSupplier() {
+		return supplier;
+	}
+	public void setSupplier(Supplier supplier) {
+		this.supplier = supplier;

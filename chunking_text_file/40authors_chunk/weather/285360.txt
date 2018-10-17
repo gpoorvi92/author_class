@@ -1,0 +1,10 @@
+			}
+		}
+	}
+	
+	private void initializeDownload() throws Exception {
+		URL url = new URL(this.urlName);
+		URLConnection urlConnnection = url.openConnection();
+		this.setFileSize(urlConnnection.getContentLength());
+		this.inputStream = urlConnnection.getInputStream();
+	}

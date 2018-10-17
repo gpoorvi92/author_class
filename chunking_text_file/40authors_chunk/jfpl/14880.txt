@@ -1,0 +1,10 @@
+		setAddPanelState(false);
+	}
+
+	public boolean pressRecordTouch(View v, MotionEvent event) {
+		if (v.getId() == R.id.press_voice_btn) {
+			if (event.getAction() == MotionEvent.ACTION_UP) {
+				this.vrDialog.dismiss();
+				if (this.vrDialog.getCancelState() == 0) {
+					String path = this.vrDialog.getLastVoicePath();
+					if (!StringUtil.isNull(path)) {

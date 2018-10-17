@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/*
+ * DateFormat:是针对日期进行格式化和解析的抽象类。
+ * 所以，我们学习其子类并使用。
+ * SimpleDateForamt：

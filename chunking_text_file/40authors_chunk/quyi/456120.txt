@@ -1,0 +1,10 @@
+      } catch (org.apache.thrift.TException te) {
+        throw new java.io.IOException(te);
+      }
+    }
+
+    private static class operateEngine_resultStandardSchemeFactory implements SchemeFactory {
+      public operateEngine_resultStandardScheme getScheme() {
+        return new operateEngine_resultStandardScheme();
+      }
+    }

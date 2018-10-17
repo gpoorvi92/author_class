@@ -1,0 +1,10 @@
+        checkMessage(message);
+        assertNotNull(message.caption());
+        PhotoSizeTest.checkPhotos(message.photo());
+    }
+
+    public static void checkAudioMessage(Message message) {
+        checkMessage(message);
+        AudioTest.checkAudio(message.audio());
+    }
+

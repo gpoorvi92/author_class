@@ -1,0 +1,10 @@
+    public static final String  REG_CNTRL               = "\\p{Cntrl}";
+    /**
+     * Digits
+     */
+    public static final String  REG_DIGITS              = "\\p{Digit}";
+    /**
+     * SVisible characters (i.e. anything except spaces, control characters, etc.)
+     */
+    public static final String  REG_GRAPH               = "\\p{Graph}";
+    /**

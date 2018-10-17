@@ -1,0 +1,9 @@
+				server.start();
+			}
+		} catch (AppInitException e) {
+			
+			logger.error("============App Server Stopped=========", e);
+			return ; //exit app directly.
+		}
+	}
+}

@@ -1,0 +1,10 @@
+ */
+public class TimerDemo2 {
+	public static void main(String[] args) throws ParseException {
+		// 创建定义器
+		Timer t = new Timer();
+
+		// 启动任务
+		// t.schedule(new TimerTask() {
+		// @Override
+		// public void run() {

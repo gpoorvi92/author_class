@@ -1,0 +1,10 @@
+	public OrderBxg findOrderBxgByBxgIdInOrderID(int bxgID, String orderid) {
+		return orderBxgDao.selectOrderBxgByBxgIdInOrderID(bxgID,orderid);
+	}
+
+	@Override
+	public boolean remove(OrderBxg ob) {
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("bxg",ob.getBxg().getID(),
+				ob.getOrder().getID());
+		if(!orderPriceService.remove(op)){
+			StringBuilder sb = new StringBuilder();

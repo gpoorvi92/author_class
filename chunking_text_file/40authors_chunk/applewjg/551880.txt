@@ -1,0 +1,10 @@
+    public String fractionToDecimal(int numerator, int denominator) {
+        if (numerator == 0) return new String("0");
+        boolean flag = (numerator < 0)^(denominator < 0);
+        long Numerator = Math.abs((long)numerator);
+        long Denominator = Math.abs((long)denominator);
+        StringBuffer res = new StringBuffer();
+        if (flag == true) res.append('-');
+        res.append(String.valueOf((Numerator / Denominator)));
+        Numerator = Numerator % Denominator;
+        if (Numerator == 0) return res.toString();

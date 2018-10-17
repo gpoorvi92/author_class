@@ -1,0 +1,6 @@
+	public void setMaterialBrand(MaterialBrand materialBrand) {
+		this.materialBrand = materialBrand;
+	}
+	
+	
+}

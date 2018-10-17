@@ -1,0 +1,10 @@
+{
+    /**
+     * This method is used by Burp to obtain the name of the session handling
+     * action. This will be displayed as an option within the session handling
+     * rule editor when the user selects to execute an extension-provided
+     * action.
+     *
+     * @return The name of the action.
+     */
+    String getActionName();

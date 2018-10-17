@@ -1,0 +1,10 @@
+							int id = (int)serverThread.clients.get(i).getId();
+							if(serverThread.users.get(id).equals(userInfo[0])){
+								serverThread.users.remove(id);
+								serverThread.users.put(id, userInfo[0] + "_" + id);
+								break;
+							}
+						}
+						serverThread.users.put(Integer.parseInt(userInfo[1]), userInfo[0] + "_" + userInfo[1]);
+					}else{
+						serverThread.users.put(userID, userInfo[0]);

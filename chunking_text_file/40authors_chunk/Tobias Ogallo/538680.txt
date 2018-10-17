@@ -1,0 +1,10 @@
+		}
+	};
+	public void LoginValidity(){
+		if (cboCat.getSelectedItem().equals("Manager")){
+			new MainMenu().loginvalidity();
+		}
+		else if (cboCat.getSelectedItem().equals("Supervisor")){
+			new MainMenu().loginvalidity2();
+		}
+		else{

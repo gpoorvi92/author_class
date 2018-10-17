@@ -1,0 +1,10 @@
+    case RULE_DESCRIPTION:
+      if (value == null) {
+        unsetRuleDescription();
+      } else {
+        setRuleDescription((String)value);
+      }
+      break;
+
+    }
+  }

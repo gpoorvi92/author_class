@@ -1,0 +1,10 @@
+		importedFilesCleaner.clean();
+
+		// call file deleter
+		fileDeleter.run();
+
+		// assume old is deleted
+		Assert.assertFalse(oldDir.exists());
+
+		// assume new os still there
+		Assert.assertTrue(recentDir.exists());

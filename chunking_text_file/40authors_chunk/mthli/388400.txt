@@ -1,0 +1,10 @@
+         if (modifiers.length() > 0) System.out.print(modifiers + " ");
+         System.out.print("class " + name);
+         if (supercl != null && supercl != Object.class) System.out.print(" extends "
+               + supercl.getName());
+
+         System.out.print("\n{\n");
+         printConstructors(cl);
+         System.out.println();
+         printMethods(cl);
+         System.out.println();

@@ -1,0 +1,10 @@
+
+			Bitmap iconBitmap = ResourceReader.readAsBitmap(mContext, resId);
+
+			holder.act_type_img.setImageBitmap(BitmapFillet.fillet(
+					BitmapFillet.ALL, iconBitmap, 5));
+
+			holder.act_type_explain.setText(explain);
+
+			return row;
+		}

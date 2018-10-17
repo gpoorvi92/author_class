@@ -1,0 +1,10 @@
+public class QueryAccountRequest extends Request implements JsonConvert{
+	private static final String CMD="query";
+	private AccountNameBody body;
+	
+	
+	public QueryAccountRequest() {
+		super.setOpt(CMD);
+	}
+
+	

@@ -1,0 +1,10 @@
+        int newDegrees = (getDegreesRotated() + degrees) % 360;
+        setExifRotation(newDegrees);
+        setDegreesRotated(newDegrees);
+
+        return true;
+    }
+
+    private static final String[] THUMB_PROJECTION = new String[] {
+        BaseColumns._ID,
+    };

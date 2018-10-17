@@ -1,0 +1,10 @@
+		case 16: return row.mdDueDate;
+		case 17: return row.mdPayDate;
+		case 18: return row.mdblRefDocnum;
+		case 19: return row.mdblRefDoclineum;
+		case 20: return row.mstrCompanyDesc; 
+		case 21: return row.mstrDivisionDesc;
+		case 22: return row.mstrGLDesc;
+		case 23: return row.mstrSLDesc;
+		case 24: return row.mstrDeptDesc;
+		case 25: return row.mstrSubDeptDesc;

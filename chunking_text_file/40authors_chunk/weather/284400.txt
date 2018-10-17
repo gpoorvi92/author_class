@@ -1,0 +1,10 @@
+	private static final int minSwipeDistance = 30;
+	private float mTouchX;
+
+    public CustomeViewPager(Context context) {
+        super(context);
+    }
+	public CustomeViewPager(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+	}

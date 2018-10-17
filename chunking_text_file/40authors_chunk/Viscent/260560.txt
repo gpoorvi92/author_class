@@ -1,0 +1,10 @@
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Record other = (Record) obj;
+		if (id != other.id)
+			return false;
+		return true;

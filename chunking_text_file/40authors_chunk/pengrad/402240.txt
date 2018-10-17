@@ -1,0 +1,10 @@
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Location location = (Location) o;
+
+        if (longitude != null ? !longitude.equals(location.longitude) : location.longitude != null) return false;
+        return latitude != null ? latitude.equals(location.latitude) : location.latitude == null;
+    }
+

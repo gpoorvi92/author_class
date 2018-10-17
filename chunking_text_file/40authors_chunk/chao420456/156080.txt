@@ -1,0 +1,10 @@
+
+		// public BigDecimal subtract(BigDecimal subtrahend)
+		BigDecimal bd3 = new BigDecimal("1.0");
+		BigDecimal bd4 = new BigDecimal("0.32");
+		System.out.println("subtract:" + bd3.subtract(bd4));
+
+		// public BigDecimal multiply(BigDecimal multiplicand)
+		BigDecimal bd5 = new BigDecimal("1.015");
+		BigDecimal bd6 = new BigDecimal("100");
+		System.out.println("subtract:" + bd5.multiply(bd6));

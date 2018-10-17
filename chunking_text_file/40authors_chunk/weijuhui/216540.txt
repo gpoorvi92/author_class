@@ -1,0 +1,10 @@
+import com.weparty.domain.UpdateResult;
+import com.weparty.fragment.FragScence;
+import com.weparty.utils.APKDownloader;
+import com.weparty.utils.Output;
+
+import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;

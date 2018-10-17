@@ -1,0 +1,10 @@
+                retry = false;
+            } 
+            catch (InterruptedException e) {//不断地循环，直到刷帧线程结束
+            }
+        }
+	}
+	class DrawThread extends Thread{//刷帧线程
+		private int sleepSpan = 300;//睡眠的毫秒数 
+		private SurfaceHolder surfaceHolder;
+		private SoundManageView soundManageView;

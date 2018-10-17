@@ -1,0 +1,10 @@
+     * change indicator after viewpager selected
+     *
+     * @param nPageIndex
+     */
+    public void setCurrentPage(int nPageIndex) {
+        if (mCurrentPage != nPageIndex) {
+            mCurrentPage = nPageIndex;
+            this.invalidate();
+        }
+    }

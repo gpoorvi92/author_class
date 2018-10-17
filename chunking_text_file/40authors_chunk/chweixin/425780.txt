@@ -1,0 +1,8 @@
+		user = new User();
+		user.setId(UUID.randomUUID().toString());
+		user.setName(account);
+		user.setAccount(account);
+		user.setPassword(this.createPassword(password));
+		this.userDao.save(user);
+	}
+}

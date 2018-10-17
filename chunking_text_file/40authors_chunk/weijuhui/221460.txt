@@ -1,0 +1,10 @@
+            } catch (final IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public void addPart(final String key, final File value, final boolean isLast) {
+        try {
+            addPart(key, value.getName(), new FileInputStream(value), isLast);
+        } catch (final FileNotFoundException e) {

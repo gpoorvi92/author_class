@@ -1,0 +1,10 @@
+ */
+import java.awt.Component;
+
+/**
+ * Extensions that register an
+ * <code>IMessageEditorTabFactory</code> must return instances of this
+ * interface, which Burp will use to create custom tabs within its HTTP message
+ * editors.
+ */
+public interface IMessageEditorTab

@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetTargetPort()) {
+        optionals.set(4);
+      }
+      if (struct.isSetProtocal()) {
+        optionals.set(5);
+      }
+      if (struct.isSetDataHex()) {
+        optionals.set(6);
+      }

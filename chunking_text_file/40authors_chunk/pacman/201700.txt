@@ -1,0 +1,10 @@
+				try {
+					
+					Class<?> clazz = Class.forName(className);
+					Field[] fields = clazz.getDeclaredFields();
+					Object obj = clazz.newInstance();
+					
+					for(Field field : fields) {
+						
+						Transmit transmit = field.getAnnotation(Transmit.class);
+						if (transmit != null) {

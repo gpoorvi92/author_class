@@ -1,0 +1,10 @@
+	 * @param propInfo the propInfo
+	 */
+	public boolean contains( PropInfo propInfo );
+
+	/** @return an PropInfoList.Iterator object for this list */
+	public PropInfoList.Iterator iterator();
+
+	//-------------------------------------------------------------------------
+	// Inner interfaces
+	//

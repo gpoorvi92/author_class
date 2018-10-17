@@ -1,0 +1,10 @@
+			    alarmExtraInfo);
+			if (duplicateSubmissionCount < ALARM_MSG_SUPRESS_THRESHOLD) {
+				logger.error("Alarm[" + alarmId + "] raised,extraInfo:"
+				    + alarmExtraInfo);
+			} else {
+				if (duplicateSubmissionCount == ALARM_MSG_SUPRESS_THRESHOLD) {
+					logger.error("Alarm[" + alarmId + "] was raised more than "
+					    + ALARM_MSG_SUPRESS_THRESHOLD
+					    + " times, it will no longer be logged.");
+				}

@@ -1,0 +1,10 @@
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		scene.attachChild(new Sprite(160 - 24, 106 - 24, this.mPNGTextureRegion, vertexBufferObjectManager));
+		scene.attachChild(new Sprite(160 - 24, 213 - 24, this.mJPGTextureRegion, vertexBufferObjectManager));
+		scene.attachChild(new Sprite(320 - 24, 106 - 24, this.mGIFTextureRegion, vertexBufferObjectManager));
+		scene.attachChild(new Sprite(320 - 24, 213 - 24, this.mBMPTextureRegion, vertexBufferObjectManager));
+
+		return scene;
+	}
+
+	// ===========================================================

@@ -1,0 +1,10 @@
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#RowStopTag()
+   */
+  protected String RowStopTag() {
+    return "</TR>";
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#TableStartTag()
+   */
+  protected String TableStartTag() {
+    return "<TABLE>";

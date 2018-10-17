@@ -1,0 +1,10 @@
+ * 
+ * Tecplot software available at:
+ * http://www.tecplot.com/
+ * 
+ */
+public class TECModelFileSaver implements ModelFileSaver
+{
+    public boolean matchesFormat(String filename)
+    {
+        filename = filename.toLowerCase();

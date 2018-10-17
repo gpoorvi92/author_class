@@ -1,0 +1,10 @@
+        if(max >= 0L && pos == max)
+        {
+            return -1;
+        } else
+        {
+            int result = in.read();
+            pos++;
+            return result;
+        }
+    }

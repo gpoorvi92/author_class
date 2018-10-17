@@ -1,0 +1,10 @@
+						setGene(i, g, getGene(c1, g));
+					} else {
+						setGene(i, g, getGene(c2, g));
+					}
+				}
+			}
+		}
+	}
+
+	public void doMutations() {

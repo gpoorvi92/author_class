@@ -1,0 +1,10 @@
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+      }
+    }
+
+  }
+
+  public static class queryMission_result implements org.apache.thrift.TBase<queryMission_result, queryMission_result._Fields>, java.io.Serializable, Cloneable, Comparable<queryMission_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("queryMission_result");
+

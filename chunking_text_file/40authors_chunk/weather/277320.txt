@@ -1,0 +1,10 @@
+            Request<?> request) throws AuthFailureError {
+        byte[] body = request.getBody();
+        if (body != null) {
+            HttpEntity entity = new ByteArrayEntity(body);
+            httpRequest.setEntity(entity);
+        }
+    }
+
+    /**
+     * Called before the request is executed using the underlying HttpClient.

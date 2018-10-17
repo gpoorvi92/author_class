@@ -1,0 +1,10 @@
+      File[] files = directory.listFiles();
+      for (File file : files)
+      {
+         if (file.isDirectory()) enumerate(file);
+         else queue.put(file);
+      }
+   }
+}
+
+/**

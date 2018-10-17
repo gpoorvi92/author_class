@@ -1,0 +1,10 @@
+			this.registerUpdateHandler(this.mPhysicsHandler);
+			this.mPhysicsHandler.setVelocity(MovingBallExample.DEMO_VELOCITY, MovingBallExample.DEMO_VELOCITY);
+		}
+
+		@Override
+		protected void onManagedUpdate(final float pSecondsElapsed) {
+			if(this.mX < 0) {
+				this.mPhysicsHandler.setVelocityX(MovingBallExample.DEMO_VELOCITY);
+			} else if(this.mX + this.getWidth() > MovingBallExample.CAMERA_WIDTH) {
+				this.mPhysicsHandler.setVelocityX(-MovingBallExample.DEMO_VELOCITY);

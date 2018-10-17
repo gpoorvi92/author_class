@@ -1,0 +1,10 @@
+	 * 输出菜单树。
+	 * @throws IOException 
+	 * */
+	public void tree() throws IOException{
+		List<TreeNode> treeNodeList = null;
+		if(this.menuService != null && (this.systemId != null && !this.systemId.trim().isEmpty())){
+			treeNodeList = mapNodesCache.get(this.systemId);
+			if(treeNodeList == null || treeNodeList.size() == 0){
+				treeNodeList = new ArrayList<>();
+				ModuleSystem ms = this.menuService.loadModuleSystem(this.systemId);

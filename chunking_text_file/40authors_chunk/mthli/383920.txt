@@ -1,0 +1,10 @@
+            Integer[] newCells = new Integer[model.getColumnCount()];
+            for (int i = 0; i < newCells.length; i++)
+               newCells[i] = (i + 1) * (model.getRowCount() + 1);
+            model.addRow(newCells);
+         }
+      });
+      tableMenu.add(addRowItem);
+
+      JMenuItem removeRowsItem = new JMenuItem("Remove Rows");
+      removeRowsItem.addActionListener(new ActionListener()

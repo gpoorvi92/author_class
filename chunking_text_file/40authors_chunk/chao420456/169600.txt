@@ -1,0 +1,10 @@
+	/*
+	public Fu() {
+		System.out.println("Fu()");
+	}
+	*/
+
+	public Fu(String name) {
+		System.out.println("hello");
+	}
+}

@@ -1,0 +1,10 @@
+	}
+	public void setAccount(double account) {
+		this.account = account;
+	}
+	@Column
+	public double getReceivableMoney() {
+		return receivableMoney;
+	}
+	public void setReceivableMoney(double receivableMoney) {
+		this.receivableMoney = receivableMoney;

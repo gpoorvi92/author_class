@@ -1,0 +1,10 @@
+    this.missionId = null;
+    this.userAppId = null;
+    this.plotsStatus = null;
+    this.checkStartTime = null;
+    this.checkStopTime = null;
+  }
+
+  public String getMissionId() {
+    return this.missionId;
+  }

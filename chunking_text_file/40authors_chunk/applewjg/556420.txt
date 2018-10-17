@@ -1,0 +1,10 @@
+        permuteRe(num, res, path,free);
+        return res;
+    }
+    void permuteRe(int[] num, List<List<Integer>> res, List<Integer> path, boolean[] free) {
+        if(path.size() == num.length) {
+            ArrayList<Integer> tmp = new ArrayList<Integer>(path);
+            res.add(tmp);
+            return;
+        }
+        for (int i = 0; i < num.length; ++i) {

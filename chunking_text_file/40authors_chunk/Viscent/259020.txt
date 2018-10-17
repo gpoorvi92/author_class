@@ -1,0 +1,10 @@
+
+	/*
+	 * CPU<40%
+	 * 
+	 * public static int RECORD_SAVE_CHUNK_SIZE=100;
+	 * 
+	 * public static int RECORD_JOIN_SIZE=300;
+	 */
+
+}

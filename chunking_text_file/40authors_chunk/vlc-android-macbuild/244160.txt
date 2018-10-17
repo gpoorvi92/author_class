@@ -1,0 +1,10 @@
+            }
+            resultText = text.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                buffReader.close();
+                reader.close();
+            } catch (Exception e) {
+

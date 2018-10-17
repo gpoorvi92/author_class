@@ -1,0 +1,10 @@
+			if(userNames.contains("@userlist")){
+				String[] dis = userNames.split("@userlist");
+				String [] disUsernames = new String[dis.length / 2];
+				int j = 0;
+				for(int i = 0; i < dis.length; i++){
+					disUsernames[j++] = dis[i++];
+				}
+				jlt_disUsers.removeAll();
+				jlt_disUsers.setListData(disUsernames);
+			}

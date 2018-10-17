@@ -1,0 +1,10 @@
+	// ÔìËø
+	// private ReentrantLock lock = new ReentrantLock();
+	private Lock lock = new ReentrantLock();
+
+	// @Override
+	// public void run() {
+	// while (true) {
+	// synchronized (obj) {
+	// if (tickets > 0) {
+	// try {

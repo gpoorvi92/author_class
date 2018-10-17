@@ -1,0 +1,10 @@
+      return new JTree(root);
+   }
+
+   public static JList<String> list()
+   {
+      String[] words = { "quick", "brown", "hungry", "wild", "silent", "huge", "private",
+            "abstract", "static", "final" };
+
+      DefaultListModel<String> model = new DefaultListModel<>();
+      for (String word : words)

@@ -1,0 +1,10 @@
+		@Override
+		public void run() {
+			if (isPlay) {
+				if (flag == 0) {
+					voiceImage
+							.setImageResource(R.drawable.bottle_receiver_voice_node_playing001);
+				} else if (flag == 1) {
+					voiceImage
+							.setImageResource(R.drawable.bottle_receiver_voice_node_playing002);
+				} else if (flag == 2) {

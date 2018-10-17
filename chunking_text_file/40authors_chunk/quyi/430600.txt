@@ -1,0 +1,10 @@
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    APK_MD5((short)1, "apkMD5"),
+    CHECK_DATE((short)2, "checkDate"),
+    SENSITIVES((short)3, "sensitives"),
+    FEATURES_CHARACTERS((short)4, "featuresCharacters"),
+    API_CHECK((short)5, "apiCheck"),
+    REPORT_PATH((short)6, "reportPath"),
+    CENTER_RESULT_PATH((short)7, "centerResultPath");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();

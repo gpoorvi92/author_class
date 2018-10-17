@@ -1,0 +1,10 @@
+    }
+
+    synchronized void removeDecodingOptions(Thread t) {
+        ThreadStatus status = mThreadStatus.get(t);
+        status.mOptions = null;
+    }
+
+    /**
+     * The following three methods are used to keep track of which thread
+     * is being disabled for bitmap decoding.

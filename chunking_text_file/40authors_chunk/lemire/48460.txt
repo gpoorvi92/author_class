@@ -1,0 +1,10 @@
+                    assertTrue(container.equals(tanswer));
+                    EWAHCompressedBitmap x1 = IteratorUtil
+                            .materialize(IteratorAggregation
+                                    .bufferedor(IteratorUtil
+                                            .toIterators(x)));
+                    assertTrue(x1.equals(tanswer));
+                }
+                System.gc();
+            }
+        }

@@ -1,0 +1,10 @@
+public class Solution {
+    public ListNode iter;
+    public TreeNode sortedListToBST_1(ListNode head) {
+        iter = head;
+        int len = 0;
+        while (head != null) {
+            ++len;
+            head = head.next;
+        }
+        return sortedListToBSTRe1(len);

@@ -1,0 +1,10 @@
+  }
+
+  public void setFuncIsSet(boolean value) {
+    if (!value) {
+      this.func = null;
+    }
+  }
+
+  public String getRuleDescription() {
+    return this.ruleDescription;

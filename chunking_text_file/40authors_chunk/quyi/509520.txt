@@ -1,0 +1,10 @@
+  private static final int __POSITIVES_ISSET_ID = 1;
+  private byte __isset_bitfield = 0;
+  public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;
+  static {
+    Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> tmpMap = new EnumMap<_Fields, org.apache.thrift.meta_data.FieldMetaData>(_Fields.class);
+    tmpMap.put(_Fields.CHECK_TIME, new org.apache.thrift.meta_data.FieldMetaData("checkTime", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.MD5, new org.apache.thrift.meta_data.FieldMetaData("MD5", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.CHECK_ENGINE_NUM, new org.apache.thrift.meta_data.FieldMetaData("checkEngineNum", org.apache.thrift.TFieldRequirementType.DEFAULT, 

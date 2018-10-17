@@ -1,0 +1,10 @@
+		for (IStep step : steps) {
+
+			if (!signalStop.get()) {
+
+				step.beforeExecute(context);
+				Object obj = null;
+				try {
+
+					obj = step.execute(context);
+					context.setResult(cmdId, obj, null);

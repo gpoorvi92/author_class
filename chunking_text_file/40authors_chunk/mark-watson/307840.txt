@@ -1,0 +1,10 @@
+        System.out.print("Test case: ");
+        for (int i = 0; i < inputs.length; i++) System.out.print(pp(inputs[i]) + " ");
+        System.out.print(" results: ");
+        for (int i = 0; i < results.length; i++) System.out.print(pp(results[i]) + " ");
+        System.out.println();
+    }
+
+    public static String pp(float x) {
+        String s = new String("" + x + "00");
+        int index = s.indexOf(".");

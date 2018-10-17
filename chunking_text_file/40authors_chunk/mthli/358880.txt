@@ -1,0 +1,10 @@
+      {
+         FileInputStream in = new FileInputStream(propertiesFile);
+         settings.load(in);
+      }
+      catch (IOException ex)
+      {
+         ex.printStackTrace();
+      }
+
+      int left = Integer.parseInt(settings.getProperty("left"));

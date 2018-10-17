@@ -1,0 +1,10 @@
+		}
+		return bxgs;
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public List queryAllBxgs(int start, int limit) {
+		List list = bxgDao.selectAllBxgs(start,limit);
+		int size =(Integer) list.get(0);
+		List sList = (List) list.get(1);

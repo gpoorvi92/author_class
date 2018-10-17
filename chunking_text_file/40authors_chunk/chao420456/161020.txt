@@ -1,0 +1,10 @@
+
+		// void clear():移除所有映射关系
+		// map.clear();
+
+		// V remove(Object key):根据键移除键值对元素，返回的是键对应的值
+		// System.out.println("remove:" + map.remove("汪峰"));
+		// System.out.println("remove:" + map.remove("汪峰2"));
+
+		// boolean containsKey(Object key):判断Map集合中是否包含指定的键
+		// System.out.println("containsKey:" + map.containsKey("田亮"));

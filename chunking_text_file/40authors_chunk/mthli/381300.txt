@@ -1,0 +1,10 @@
+      return this;
+   }
+
+   /**
+      Sets the insets of this cell.
+      @param distance the spacing to use in all directions
+      @return this object for further modification
+   */
+   public GBC setInsets(int distance) 
+   { 

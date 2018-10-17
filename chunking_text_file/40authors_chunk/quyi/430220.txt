@@ -1,0 +1,10 @@
+    public void read(org.apache.thrift.protocol.TProtocol prot, VirusEngine struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(4);
+      if (incoming.get(0)) {
+        struct.engineName = iprot.readString();
+        struct.setEngineNameIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.version = iprot.readString();
+        struct.setVersionIsSet(true);

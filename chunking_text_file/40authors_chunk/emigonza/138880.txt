@@ -1,0 +1,10 @@
+  public String  getCardType() throws JposException;
+  public String  getCardTypeList() throws JposException;
+  public int     getDataEncryptionAlgorithm() throws JposException;
+  public void    setDataEncryptionAlgorithm(int encryptAlgorithm) throws JposException;
+  public boolean getDeviceAuthenticated() throws JposException;
+  public int     getDeviceAuthenticationProtocol() throws JposException;
+  public byte[]  getTrack1EncryptedData() throws JposException;
+  public int     getTrack1EncryptedDataLength() throws JposException;
+  public byte[]  getTrack2EncryptedData() throws JposException;
+  public int     getTrack2EncryptedDataLength() throws JposException;

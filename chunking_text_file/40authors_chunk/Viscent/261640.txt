@@ -1,0 +1,10 @@
+
+		scheduler
+		    .setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+
+		// 启动队列监控定时任务
+		Timer monitorTimer = new Timer(true);
+		monitorTimer.scheduleAtFixedRate(new TimerTask() {
+
+			@Override
+			public void run() {

@@ -1,0 +1,10 @@
+	public static LocationEventMessage parseLocationEventMessage(Map<String, String> data){
+		LocationEventMessage locationEventMessage = new LocationEventMessage();
+		//
+		parseEventMessage(locationEventMessage, data);
+		//
+		locationEventMessage.setLatitude(data.get("Latitude"));
+		locationEventMessage.setLongitude(data.get("Longitude"));
+		locationEventMessage.setPrecision(data.get("Precision"));
+		
+		return locationEventMessage;

@@ -1,0 +1,10 @@
+
+    boolean this_present_apk_md5 = true && this.isSetApk_md5();
+    boolean that_present_apk_md5 = true && that.isSetApk_md5();
+    if (this_present_apk_md5 || that_present_apk_md5) {
+      if (!(this_present_apk_md5 && that_present_apk_md5))
+        return false;
+      if (!this.apk_md5.equals(that.apk_md5))
+        return false;
+    }
+

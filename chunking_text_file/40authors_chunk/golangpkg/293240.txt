@@ -1,0 +1,10 @@
+	private Map<UUID, LimitingList<Long>> map = Maps.newConcurrentMap();
+
+	public Long getRemainingTime(UUID fileId, FileProgressStatus progress, Long uploadRate) {
+		LimitingList<Long> newArrayList;
+		
+		//if we dont have an array for this file yet
+		if ((newArrayList = map.get(fileId)) == null) {
+			
+			//create it and set it
+			newArrayList = new LimitingList<Long>(averageUploadRateOnTheLastX);

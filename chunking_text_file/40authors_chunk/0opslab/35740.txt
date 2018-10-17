@@ -1,0 +1,10 @@
+ */
+public final class ImageCompare {
+    private static Logger logger = Logger.getLogger(ImageCompare.class);
+
+    /**
+     * 改变成二进制码
+     *
+     * @param file
+     * @return
+     */

@@ -1,0 +1,10 @@
+		}else {
+			System.out.println("较大的值是："+secondNumber);
+		}
+		System.out.println("-----------------------------");
+
+		//方式2：把结果保存下来
+		/*
+		变量的生命周期问题,作用域问题
+		if(firstNumber > secondNumber) {
+			int max = firstNumber;

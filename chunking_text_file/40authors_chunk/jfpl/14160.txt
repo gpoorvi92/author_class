@@ -1,0 +1,10 @@
+			mapManager.start();
+		}
+		locationClient.start();
+		super.onResume();
+	}
+
+	@Override
+	public void showBubble(AbstractCommonData data, int upGap) {
+		LayoutInflater inflater = (LayoutInflater) mapView.getContext()
+				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

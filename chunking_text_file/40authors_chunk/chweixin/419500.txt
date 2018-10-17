@@ -1,0 +1,10 @@
+public class PictureInfo extends Picture implements IPaging {
+	private static final long serialVersionUID = 1L;
+	
+	private Integer rows,page;
+	private String sort,order,url;
+	/**
+	 * 构造函数。
+	 * */
+	public PictureInfo(){
+		super();

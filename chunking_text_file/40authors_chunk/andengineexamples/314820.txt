@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	public UpdateScoreServerMessage() {
+
+	}
+
+	public UpdateScoreServerMessage(final int pPaddleID, final int pScore) {
+		this.mPaddleID = pPaddleID;
+		this.mScore = pScore;
+	}

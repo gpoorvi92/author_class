@@ -1,0 +1,10 @@
+
+  public void setScreenShotPathIsSet(boolean value) {
+    if (!value) {
+      this.screenShotPath = null;
+    }
+  }
+
+  public String getImageContent() {
+    return this.imageContent;
+  }

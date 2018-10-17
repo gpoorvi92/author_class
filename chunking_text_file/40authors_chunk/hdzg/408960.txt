@@ -1,0 +1,10 @@
+        drawThread.setFlag(false);
+        while (retry) {
+            try {
+                drawThread.join();
+                retry = false;
+            } 
+            catch (InterruptedException e) {//不断地循环，直到刷帧线程结束
+            }
+        }
+	}

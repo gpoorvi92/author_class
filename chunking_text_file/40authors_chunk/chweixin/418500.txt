@@ -1,0 +1,10 @@
+			if(data.getAccount() != null){
+				info.setAccountName(data.getAccount().getName());
+			}
+		}
+		return info;
+	}
+
+	@Override
+	public void delete(String[] ids) {
+		if(ids == null || ids.length == 0) return;

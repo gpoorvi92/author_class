@@ -1,0 +1,10 @@
+		if(!screenRollThread.isAlive()){//还没启动就启动
+			screenRollThread.start();
+		}
+	}
+
+	public void surfaceDestroyed(SurfaceHolder holder) {
+		drawThread.setFlag(false);
+	}
+	
+	//后台的重绘线程

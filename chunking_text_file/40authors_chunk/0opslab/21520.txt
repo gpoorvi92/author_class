@@ -1,0 +1,10 @@
+     * 判断是否纯字母组合
+     *
+     * @param src 源字符串
+     * @return 是否纯字母组合的标志
+     */
+    public final static boolean isABC(String src) {
+        boolean return_value = false;
+        if (src != null && src.length() > 0) {
+            Matcher m = abcPattern.matcher(src);
+            if (m.find()) {

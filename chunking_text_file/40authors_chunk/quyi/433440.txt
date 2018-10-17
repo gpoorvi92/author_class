@@ -1,0 +1,10 @@
+  public int getVss() {
+    return this.vss;
+  }
+
+  public SystemResources setVss(int vss) {
+    this.vss = vss;
+    setVssIsSet(true);
+    return this;
+  }
+

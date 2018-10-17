@@ -1,0 +1,10 @@
+	//media's duration.
+	public final static String CONTEXT_DURATION = "context.video.duration";
+	
+	//audio's sampling rate.
+	public final static String CONTEXT_SAMPLING = "context.sampling";
+	
+	//video's width
+	public final static String CONTEXT_WIDTH = "context.vedio.width";
+	
+	//video's height

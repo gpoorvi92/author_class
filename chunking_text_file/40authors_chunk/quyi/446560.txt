@@ -1,0 +1,10 @@
+        oprot.writeString(struct.screenShotPath);
+      }
+      if (struct.isSetImageContent()) {
+        oprot.writeString(struct.imageContent);
+      }
+      if (struct.isSetCheckResult()) {
+        oprot.writeString(struct.checkResult);
+      }
+    }
+

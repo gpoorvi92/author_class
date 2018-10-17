@@ -1,0 +1,10 @@
+    boolean this_present_operateTime = true && this.isSetOperateTime();
+    boolean that_present_operateTime = true && that.isSetOperateTime();
+    if (this_present_operateTime || that_present_operateTime) {
+      if (!(this_present_operateTime && that_present_operateTime))
+        return false;
+      if (!this.operateTime.equals(that.operateTime))
+        return false;
+    }
+
+    boolean this_present_operateType = true && this.isSetOperateType();

@@ -1,0 +1,10 @@
+		return createUserId;
+	}
+	/**
+	 * 设置上传用户ID。
+	 * @param createUserId
+	 * 上传用户ID。
+	 * */
+	public void setCreateUserId(String createUserId) {
+		this.createUserId = createUserId;
+	}

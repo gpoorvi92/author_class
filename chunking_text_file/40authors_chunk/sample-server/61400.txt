@@ -1,0 +1,10 @@
+        {
+            throw new RpcException(e);
+        }
+    }
+    @Override
+    public Rpc.RpcPacket read()
+    {
+        countDownLatch = new CountDownLatch(1);
+        return response;
+    }

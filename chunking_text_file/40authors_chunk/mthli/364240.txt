@@ -1,0 +1,10 @@
+ * page format.
+ */
+public class PrintTestFrame extends JFrame
+{
+   private PrintComponent canvas;
+   private PrintRequestAttributeSet attributes;
+
+   public PrintTestFrame()
+   {
+      canvas = new PrintComponent();

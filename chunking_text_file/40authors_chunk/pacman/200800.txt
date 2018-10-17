@@ -1,0 +1,10 @@
+    						 Object... args) 
+    		throws Exception {
+
+    	boolean result = false;
+   	
+    	String cmdline = String.format(cmdFormat, args);
+        Process process = Runtime.getRuntime().exec(cmdline);
+        /*
+    	final List<String> output = new ArrayList<String>();
+    	final List<String> errput = new ArrayList<String>();        

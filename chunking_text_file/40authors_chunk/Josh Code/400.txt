@@ -1,0 +1,10 @@
+
+  /** viewpoint and view direction needed to be known for comparing 
+   * polygons in sorting algorithms
+  */
+ private RenderingBuffer buffer;
+
+    public void setRenderingBuffer(RenderingBuffer buffer)
+    {
+        this.buffer = buffer;
+    }

@@ -1,0 +1,10 @@
+		this.audioDuration = audioDuration;
+	}
+
+	/**
+	 * @param audioSamplingRate the audioSamplingRate to set
+	 */
+	public void setAudioSamplingRate(int audioSamplingRate) {
+		this.audioSamplingRate = audioSamplingRate;
+	}
+

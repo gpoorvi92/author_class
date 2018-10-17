@@ -1,0 +1,10 @@
+        List<Merchant> merchantList = merchantService.findPageBreakByCondition(vo);
+        modelAndView.addObject("merchantList", merchantList);
+        modelAndView.addObject("merchantStatus", MerchantStatus.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/edit/{item_id}")
+    public ModelAndView list(@PathVariable("item_id") Integer merchantId) {
+        ModelAndView modelAndView = new ModelAndView("management/merchant/info");
+        Merchant merchant = merchantService.findById(merchantId);

@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置地理位置经度。
+	 * @param longitude
+	 * 	地理位置经度。
+	 * */
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
+	}
+	/**

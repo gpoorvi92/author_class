@@ -1,0 +1,10 @@
+
+      // create Ok and Cancel buttons that terminate the dialog
+
+      okButton = new JButton("Ok");
+      okButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               ok = true;
+               dialog.setVisible(false);

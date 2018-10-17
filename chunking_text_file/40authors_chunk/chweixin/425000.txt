@@ -1,0 +1,10 @@
+	@SuppressWarnings("unchecked")
+	protected static <T extends BaseRespMessage> T respXmlToObject(Class<T> clazz, String xml) throws InstantiationException, IllegalAccessException{
+		if(clazz == null || xml == null || xml.trim().isEmpty()) return null;
+		xstream.alias("xml", clazz);
+		if(clazz == ArticleRespMessage.class){
+			xstream.alias("item", new Article().getClass());
+		}
+		T t = clazz.newInstance();
+		Object obj = xstream.fromXML(xml, t);
+		if(obj == null) return null;

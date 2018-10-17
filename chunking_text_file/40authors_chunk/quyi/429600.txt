@@ -1,0 +1,10 @@
+    if (that == null)
+      return false;
+    if (that instanceof VirusEngine)
+      return this.equals((VirusEngine)that);
+    return false;
+  }
+
+  public boolean equals(VirusEngine that) {
+    if (that == null)
+      return false;

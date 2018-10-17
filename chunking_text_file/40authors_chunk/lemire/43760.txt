@@ -1,0 +1,10 @@
+        }
+        this.hasNext = this.moveToNext();
+        return answer;
+    }
+
+    private void setupForCurrentRunningLengthWord() {
+        this.runningLength = WORD_IN_BITS * (int) this.parent.getRunningLength() + this.position;
+
+        if (!this.parent.getRunningBit()) {
+            this.position = this.runningLength;

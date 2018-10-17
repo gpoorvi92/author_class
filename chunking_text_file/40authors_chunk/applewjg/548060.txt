@@ -1,0 +1,10 @@
+/*
+ Author:     King, higuige@gmail.com
+ Date:       Oct 7, 2014
+ Problem:    Populating Next Right Pointers in Each Node
+ Difficulty: Easy
+ Source:     http://leetcode.com/onlinejudge#question_116
+ Notes:
+ Given a binary tree
+ struct TreeLinkNode {
+    TreeLinkNode *left;

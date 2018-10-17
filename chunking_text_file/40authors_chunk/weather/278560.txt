@@ -1,0 +1,10 @@
+
+/**
+ * A variation of {@link java.io.ByteArrayOutputStream} that uses a pool of byte[] buffers instead
+ * of always allocating them fresh, saving on heap churn.
+ */
+public class PoolingByteArrayOutputStream extends ByteArrayOutputStream {
+    /**
+     * If the {@link #PoolingByteArrayOutputStream(ByteArrayPool)} constructor is called, this is
+     * the default size to which the underlying byte array is initialized.
+     */

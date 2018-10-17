@@ -1,0 +1,10 @@
+         Rectangle2D r = rects.get(i);
+         writer.writeEmptyElement("rect");
+         writer.writeAttribute("x", "" + r.getX());
+         writer.writeAttribute("y", "" + r.getY());
+         writer.writeAttribute("width", "" + r.getWidth());
+         writer.writeAttribute("height", "" + r.getHeight());
+         writer.writeAttribute("fill", colorToString(c));         
+      }
+      writer.writeEndDocument(); // closes svg element
+   }  

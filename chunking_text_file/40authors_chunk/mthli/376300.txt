@@ -1,0 +1,10 @@
+package imageTransfer;
+
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.awt.event.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.swing.*;
+
+/**

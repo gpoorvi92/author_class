@@ -1,0 +1,10 @@
+    private static final String STATE_TASK_REPO_ID = "new_file_task.repo_id";
+    private static final String STATE_TASK_PARENT_DIR = "new_file_task.parent_dir";
+    private static final String STATE_ACCOUNT = "new_file_task.account.account";
+
+    private EditText fileNameText;
+    private String repoID;
+    private String parentDir;
+
+    private DataManager dataManager;
+    private Account account;

@@ -1,0 +1,10 @@
+            returnLength = numberOfBytes - (position - size);
+            position = size;
+        }
+        return returnLength;
+    }
+
+    protected int processByte()
+    {
+        return 0;
+    }

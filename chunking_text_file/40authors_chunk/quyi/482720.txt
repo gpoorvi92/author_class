@@ -1,0 +1,10 @@
+    public void setDycRDIsSet(boolean value) {
+      if (!value) {
+        this.dycRD = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.virus.VirusDetectionResultData getVirRD() {
+      return this.virRD;
+    }
+

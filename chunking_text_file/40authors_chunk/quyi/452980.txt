@@ -1,0 +1,10 @@
+
+    }
+
+    private static class issuedMessage_argsTupleSchemeFactory implements SchemeFactory {
+      public issuedMessage_argsTupleScheme getScheme() {
+        return new issuedMessage_argsTupleScheme();
+      }
+    }
+
+    private static class issuedMessage_argsTupleScheme extends TupleScheme<issuedMessage_args> {

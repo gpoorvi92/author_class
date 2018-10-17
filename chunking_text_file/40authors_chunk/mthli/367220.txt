@@ -1,0 +1,10 @@
+      g2.setPaint(Color.black);
+      g2.translate(pf.getImageableX(), pf.getImageableY());
+      FontRenderContext context = g2.getFontRenderContext();
+      Font f = g2.getFont();
+      TextLayout layout = new TextLayout(title, f, context);
+      float ascent = layout.getAscent();
+      g2.drawString(title, 0, ascent);
+      return Printable.PAGE_EXISTS;
+   }
+}

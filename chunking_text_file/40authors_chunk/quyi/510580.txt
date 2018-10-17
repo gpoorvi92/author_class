@@ -1,0 +1,10 @@
+    if (this.virusEngine == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.virusEngine);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("description:");
+    if (this.description == null) {
+      sb.append("null");

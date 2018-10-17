@@ -1,0 +1,10 @@
+	@Autowired
+	private MaterialBrandService materialBrandService;
+	
+	/**
+	 * ajax请求
+	 * 返回铝合金品牌的json串
+	 * @param locale
+	 * @param model
+	 * @param modelMap
+	 * @param request

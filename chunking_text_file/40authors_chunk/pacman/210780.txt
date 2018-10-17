@@ -1,0 +1,10 @@
+
+	/**
+	 * Private field end Getter method.
+	 * @return end 
+	 */
+	public Timestamp getEnd() {
+		return this.end;
+	}
+
+	/**

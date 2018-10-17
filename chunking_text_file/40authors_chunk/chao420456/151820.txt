@@ -1,0 +1,10 @@
+ * 
+ * 		同步代码块的对象可以是哪些呢?
+ * 			可以是任意的对象
+ */
+public class MovieTicketDemo {
+	public static void main(String[] args) {
+		// 创建一个票资源
+		MovieTicket mt = new MovieTicket();
+
+		// 创建三个线程

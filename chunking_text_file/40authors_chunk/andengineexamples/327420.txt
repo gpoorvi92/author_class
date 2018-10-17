@@ -1,0 +1,10 @@
+		((TextView)groupView.findViewById(R.id.tv_listrow_examplegroup_name)).setText(this.getGroup(pGroupPosition).mNameResourceID);
+		return groupView;
+	}
+
+	@Override
+	public ExampleGroup getGroup(final int pGroupPosition) {
+		return EXAMPLEGROUPS[pGroupPosition];
+	}
+
+	@Override

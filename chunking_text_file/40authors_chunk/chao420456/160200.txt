@@ -1,0 +1,10 @@
+	带包的编译和运行：
+		手动式：
+			A:编译带包的类文件
+			B:自己手动创建包
+			C:把编译生成的class文件放到包里面去
+			D:运行即可，注意要带包名
+				java cn.itcast.HelloWorld
+		自动式：
+			A:编译的时候带一个参数 -d
+				javac -d . HelloWorld.java

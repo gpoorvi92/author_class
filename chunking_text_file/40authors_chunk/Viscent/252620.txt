@@ -1,0 +1,10 @@
+	 * 使用volatile修饰保证内存可见性。
+	 */
+	private static volatile Queue<WeakReference<ManagedThreadLocal<?>>> instances = new ConcurrentLinkedQueue<WeakReference<ManagedThreadLocal<?>>>();
+
+	private volatile ThreadLocal<T> threadLocal;
+
+	private ManagedThreadLocal(final InitialValueProvider<T> ivp) {
+
+		this.threadLocal = new ThreadLocal<T>() {
+

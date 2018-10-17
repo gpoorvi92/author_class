@@ -1,0 +1,10 @@
+	 * */
+	@Override
+	public abstract T update(T info);
+	/**
+	 * 删除数据。
+	 * @param ids
+	 * 	主键值数组。
+	 * */
+	@Override
+	public abstract void delete(String[] ids);

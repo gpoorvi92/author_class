@@ -1,0 +1,10 @@
+    int espacio = alturaIntrod - 1;
+    int hueco = 0;
+
+    System.out.println("------------------------------------------------------");
+
+    while(altura < alturaIntrod){
+        for(i = 1; i <= espacio; i++){
+            System.out.print(" ");
+        }
+        

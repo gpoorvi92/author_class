@@ -1,0 +1,10 @@
+        }
+        return X;
+    }
+
+    /**
+     * Turn an iterator into a bitmap.
+     *
+     * @param i   iterator we wish to materialize
+     * @param c   where we write
+     * @param max maximum number of words we wish to materialize

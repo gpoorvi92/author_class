@@ -1,0 +1,10 @@
+	public int getSize();
+
+	/** @return true if the registry is empty or not */
+	public boolean isEmpty();
+
+    /**
+     * @return true if there is an Profile with the specified logical name
+     * @param profileName the unique name of this profile
+     */
+    public boolean hasProfile( String profileName );

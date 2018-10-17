@@ -1,0 +1,10 @@
+     * registered, then other listeners may already have modified the
+     * interception action before it reaches the current listener. This method
+     * can be used to determine whether this has occurred.
+     *
+     * @return The currently defined interception action. Possible values are
+     * defined within this interface.
+     */
+    int getInterceptAction();
+
+    /**

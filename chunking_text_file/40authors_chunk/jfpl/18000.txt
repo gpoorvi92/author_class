@@ -1,0 +1,10 @@
+import com.lianzt.commondata.DataConvertFactory;
+
+public class WfxwSearchService extends AbstractService {
+
+	private String wfxw;
+	private FrameAlertDialog fad;
+
+	public WfxwSearchService(AutoActivity autoActivity, String wfxw,
+			FrameAlertDialog fad) {
+		super(autoActivity);

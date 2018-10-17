@@ -1,0 +1,10 @@
+	public OrderSmall selectOrderSmallById(int iD) {
+		return (OrderSmall) sessionFactory.getCurrentSession().get(OrderSmall.class, iD);
+	}
+
+	@Override
+	public boolean delete(OrderSmall os) {
+		try {
+			sessionFactory.getCurrentSession().delete(os);
+		} catch (Exception e) {
+			return false;

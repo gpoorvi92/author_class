@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.meet;
+
+/**
+ * Created by brian on 2016/4/11.
+ */
+
+/**
+ * P19 小例子
+ * isAlive()方法测试
+ */

@@ -1,0 +1,10 @@
+        sb.append(this.userApps);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("rules:");
+      if (this.rules == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.rules);
+      }

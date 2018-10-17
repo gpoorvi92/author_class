@@ -1,0 +1,10 @@
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("Engine(");
+    boolean first = true;
+
+    sb.append("engineId:");
+    if (this.engineId == null) {
+      sb.append("null");

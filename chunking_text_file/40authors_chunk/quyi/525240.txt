@@ -1,0 +1,10 @@
+	}
+
+	@Test
+	public void testSubmitResult001() {
+		AndroidStaticSimpleResults appstaticresults = new AndroidStaticSimpleResults();
+		appstaticresults.setApkName("test");
+		appstaticresults.setApkDescription("test");
+		appstaticresults.setDetectDate(100L);
+		appstaticresults.setMD5_Apk("test");
+		ByteBuffer content = ByteBuffer.wrap(getBytes(appstaticresults));

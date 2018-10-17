@@ -1,0 +1,10 @@
+ * C:装牌
+ * D:洗牌
+ * E:发牌
+ * F:看牌
+ */
+public class PokerDemo {
+	public static void main(String[] args) {
+		// 创建一个HashMap集合
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+

@@ -1,0 +1,10 @@
+		c.add("hello");
+		c.add("world");
+		c.add("java");
+
+		// void clear():清空集合的所有元素
+		// c.clear();
+
+		// boolean remove(Object obj):从集合中移除一个元素
+		// System.out.println("remove:" + c.remove("world"));
+		// System.out.println("remove:" + c.remove("javaee"));

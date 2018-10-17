@@ -1,0 +1,10 @@
+             try {
+              ExifInterface exifInterface = new ExifInterface(entity.getPath());
+             } catch (IOException e) {
+                e.printStackTrace();
+             }
+         }
+    }
+
+
+

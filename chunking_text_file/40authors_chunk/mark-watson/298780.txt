@@ -1,0 +1,10 @@
+	} catch (Exception e) {
+	    System.out.println("Error in getNodeName: " + e);
+	}
+	return "no name"; // error condition
+    }
+
+    public int getNodeX(int index) {
+	try {
+	    return node_x[index];
+	} catch (Exception e) {

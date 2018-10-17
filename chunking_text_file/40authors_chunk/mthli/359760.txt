@@ -1,0 +1,10 @@
+         {
+            System.out.println(entry.getName());
+            
+            Scanner in = new Scanner(zin);
+            while (in.hasNextLine())
+               System.out.println("   " + in.nextLine());
+            // DO NOT CLOSE in            
+            zin.closeEntry();
+         }
+      }

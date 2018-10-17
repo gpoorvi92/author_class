@@ -1,0 +1,10 @@
+ 				{
+ 					
+ 					Statement statement = con.createStatement();
+ 					
+ 					
+ 			
+ 				String query = "INSERT INTO Item (item_id, title, type, author, subject_area, location, avail, permission" + 
+ 						") VALUES ('" +
+ 					a +"','" +
+ 					b +"','" +

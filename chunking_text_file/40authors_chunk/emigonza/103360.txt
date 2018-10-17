@@ -1,0 +1,10 @@
+    // Methods
+    public void    beginCapture(String formName) throws JposException;
+    public void    clearInput() throws JposException;
+    public void    endCapture() throws JposException;
+
+    // Event listener methods
+    public void    addDataListener(DataListener l);
+    public void    removeDataListener(DataListener l);
+    public void    addDirectIOListener(DirectIOListener l);
+    public void    removeDirectIOListener(DirectIOListener l);

@@ -1,0 +1,10 @@
+
+  public void unsetProcessName() {
+    this.processName = null;
+  }
+
+  /** Returns true if field processName is set (has been assigned a value) and false otherwise */
+  public boolean isSetProcessName() {
+    return this.processName != null;
+  }
+

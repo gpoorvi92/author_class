@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String toString() {
+        return "Update{" +
+                "update_id=" + update_id +
+                ", message=" + message +
+                ", edited_message=" + edited_message +
+                ", inline_query=" + inline_query +
+                ", chosen_inline_result=" + chosen_inline_result +

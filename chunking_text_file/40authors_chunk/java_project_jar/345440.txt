@@ -1,0 +1,10 @@
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }
+
+    public synchronized void mark(int idx)
+        throws IOException
+    {

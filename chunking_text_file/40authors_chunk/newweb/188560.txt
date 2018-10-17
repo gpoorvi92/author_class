@@ -1,0 +1,10 @@
+	@JoinColumn(name="smallID")
+	public Small getSmall() {
+		return small;
+	}
+	public void setSmall(Small small) {
+		this.small = small;
+	}
+	
+	@Column
+	public double getCount() {

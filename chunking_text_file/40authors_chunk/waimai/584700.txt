@@ -1,0 +1,10 @@
+
+    private String ip;
+
+    private String status;
+
+    private String userType;
+
+    private Integer userId;
+
+    public Integer getId() {

@@ -1,0 +1,10 @@
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      frame.setTitle("PersistentFrameTest");
+      frame.setSize(400, 200);
+
+      JButton loadButton = new JButton("Load");
+      frame.add(loadButton);
+      loadButton.addActionListener(EventHandler.create(ActionListener.class, this, "load"));
+
+      JButton saveButton = new JButton("Save");
+      frame.add(saveButton);

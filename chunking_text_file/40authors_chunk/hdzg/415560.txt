@@ -1,0 +1,10 @@
+	static Bitmap addBitmap;//小加号
+	static Bitmap cutBitmap;//小减号
+	static Bitmap logo;
+	
+	Paint paint;
+	
+	public TianXiaView(GameView gameView) {//构造器
+		this.gameView = gameView;
+		paint = new Paint();
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色

@@ -1,0 +1,10 @@
+        oprot.writeString(struct.jvmName);
+      }
+      if (struct.isSetJvmVersion()) {
+        oprot.writeString(struct.jvmVersion);
+      }
+      if (struct.isSetJvmMaxMem()) {
+        oprot.writeString(struct.jvmMaxMem);
+      }
+    }
+

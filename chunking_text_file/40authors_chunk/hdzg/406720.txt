@@ -1,0 +1,10 @@
+	public int row;//在大地图中所在的行
+	public int refCol;//定位参考点在本MyDrawable中所占的列，以左下角为原点
+	public int refRow;//定位参考点在本MyDrawable中所占的行，以左下角为原点
+	public int [][] noThrough;//不可通过矩阵
+	public boolean meetable;//是否可以遇到
+	
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeInt(width);//图元的宽度
+		out.writeInt(height);//图元的高度
+		out.writeInt(col);//在大地图中所在的列

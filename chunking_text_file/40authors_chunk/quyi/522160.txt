@@ -1,0 +1,10 @@
+      metaDataMap = Collections.unmodifiableMap(tmpMap);
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(modifyNodeManagerConfig_args.class, metaDataMap);
+    }
+
+    public modifyNodeManagerConfig_args() {
+    }
+
+    public modifyNodeManagerConfig_args(
+      String nodeId,
+      String propertyName,

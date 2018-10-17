@@ -1,0 +1,10 @@
+      g.setFont(font);
+      g.drawString(text, 0, fm.getAscent());
+   }
+
+   public Dimension getPreferredSize()
+   {
+      String text = font.getFamily();
+      Graphics g = getGraphics();
+      FontMetrics fm = g.getFontMetrics(font);
+      return new Dimension(fm.stringWidth(text), fm.getHeight());

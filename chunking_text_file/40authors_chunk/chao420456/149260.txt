@@ -1,0 +1,10 @@
+		/*
+		System.out.println("*");
+		System.out.println("*");
+		System.out.println("*");
+		System.out.println("*");
+		System.out.println("*");
+		*/
+
+		//Êä³öÓï¾ä
+		/*

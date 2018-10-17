@@ -1,0 +1,10 @@
+		Bxg[] bs = new Bxg[sList.size()];
+		int count = 0;
+		for (Object b : sList) {
+			Bxg bg = (Bxg) b;
+			bs[count++] = bg;
+		}
+		List returnList = new ArrayList();
+		returnList.add(size);//第一个对象保存结果总数
+		returnList.add(bs);//第二个对象保存实体数组
+		return returnList;

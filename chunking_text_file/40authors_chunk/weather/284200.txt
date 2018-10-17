@@ -1,0 +1,10 @@
+package com.weico.album.model;
+
+import android.media.ExifInterface;
+import android.util.Log;
+
+import com.weico.album.ImageAnalysisTool;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;

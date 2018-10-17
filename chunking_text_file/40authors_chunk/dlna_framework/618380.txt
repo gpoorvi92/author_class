@@ -1,0 +1,10 @@
+*	12/12/02
+*		- first revision.
+*	03/11/04
+*		- Added the following methods about chunk size.
+*		  setChunkSize(), getChunkSize().
+*	08/26/04
+*		- Added a isOnlyHeader to post().
+*	03/02/05
+*		- Changed post() to suppot chunked stream.
+*	06/10/05

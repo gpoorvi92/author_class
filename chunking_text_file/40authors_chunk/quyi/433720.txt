@@ -1,0 +1,10 @@
+        return false;
+      if (!this.processName.equals(that.processName))
+        return false;
+    }
+
+    boolean this_present_threadName = true && this.isSetThreadName();
+    boolean that_present_threadName = true && that.isSetThreadName();
+    if (this_present_threadName || that_present_threadName) {
+      if (!(this_present_threadName && that_present_threadName))
+        return false;

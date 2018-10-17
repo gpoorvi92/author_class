@@ -1,0 +1,10 @@
+          {
+            HardwareResources _elem79;
+            _elem79 = new HardwareResources();
+            _elem79.read(iprot);
+            struct.hardwareResources.add(_elem79);
+          }
+        }
+        struct.setHardwareResourcesIsSet(true);
+      }
+      if (incoming.get(7)) {

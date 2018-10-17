@@ -1,0 +1,10 @@
+        
+		c.add(toolBarVideo, BorderLayout.NORTH);
+		c.add(gen, BorderLayout.CENTER);
+		
+		
+			}
+			
+		protected void addButtons(JToolBar toolBarVideo) {
+
+        //first button

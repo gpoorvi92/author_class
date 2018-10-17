@@ -1,0 +1,10 @@
+    /** Reads a little endian version of the 8 byte IEEE 754 type
+     * This method has been timed and executes an average of only 90% to 120% 
+     * the time of its big endian counterpart.
+     */
+    public double readDouble()throws IOException
+  {
+    //  return dis.readDouble();
+        
+     byte[] data = new byte[8];
+     double result;

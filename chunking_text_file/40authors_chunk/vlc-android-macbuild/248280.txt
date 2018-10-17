@@ -1,0 +1,10 @@
+        FileInputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream("/proc/cpuinfo");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        String text = StreamHelper.readStreamLineByLine(inputStream);
+        StreamHelper.closeStream(inputStream);

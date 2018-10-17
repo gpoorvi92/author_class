@@ -1,0 +1,10 @@
+			EngineOperate.Client client = new EngineOperate.Client(protocol1);
+			System.out.println(client.searchMission("test"));
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void searchMissionTest002() {

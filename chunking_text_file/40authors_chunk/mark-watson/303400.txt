@@ -1,0 +1,10 @@
+ * This software is not public domain. It can be legally
+ * used under either of the following licenses:
+ * <p/>
+ * 1. KnowledgeBooks.com Non Commercial Royality Free License<br/>
+ * 2. KnowledgeBooks.com Commercial Use License
+ * <p/>
+ * see www.knowledgebooks.com for details
+ */
+public class ScoredList {
+    public List<String> strings = new ArrayList<String>();

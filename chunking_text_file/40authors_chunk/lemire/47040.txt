@@ -1,0 +1,10 @@
+
+    private static final int LITERAL_BITS = 32 - 1 - RUNNING_LENGTH_BITS;
+
+    /**
+     * largest number of literal words in a run.
+     */
+    public static final int LARGEST_LITERAL_COUNT = (1 << LITERAL_BITS) - 1;
+
+    /**
+     * largest number of clean words in a run

@@ -1,0 +1,10 @@
+
+			PreparedStatement ps = dbConn
+			    .prepareStatement("Insert into subscriptions(productId,packageId,msisdn,operationTime,operationType,effectiveDate,dueDate) "
+			        + "values(?,'pkg0000001',?,?,0,'2014-09-01 00:00:00','2014-12-01 23:59:59')");
+			DecimalFormat df = new DecimalFormat("0000");
+
+			Random rnd = new Random();
+			Random rnd1 = new Random();
+			Random rnd2 = new Random();
+

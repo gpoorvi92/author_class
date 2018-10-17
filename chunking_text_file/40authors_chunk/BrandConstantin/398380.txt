@@ -1,0 +1,10 @@
+public class MediaImparesYmayorParDoWhile {
+  public static void main(String[] args) {   
+      
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Introduce numeros (el programa finaliza con un numero " + 
+        " con un numero negativo )");
+    System.out.println("------------------------------------------------------------");
+    
+    int numIntrod;

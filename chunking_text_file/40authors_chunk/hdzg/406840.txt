@@ -1,0 +1,10 @@
+import android.view.MotionEvent;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+public class SoundManageView extends SurfaceView implements SurfaceHolder.Callback {
+	private DrawThread drawThread;//Ë¢Ö¡µÄÏß³Ì
+	
+	HDZGActivity activity;
+	Bitmap soundBackground;
+	Bitmap panel_back;

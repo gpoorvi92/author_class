@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public modifyTaskManagerConfig_result(modifyTaskManagerConfig_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;
+      }
+      if (other.isSetIre()) {

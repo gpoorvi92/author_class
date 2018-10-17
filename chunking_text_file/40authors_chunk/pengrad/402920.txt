@@ -1,0 +1,10 @@
+            return gson.fromJson(response.body().string(), request.getResponseType());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private Request createRequest(BaseRequest request) {
+        return new Request.Builder()
+                .url(baseUrl + request.getMethod())
+                .post(createRequestBody(request))

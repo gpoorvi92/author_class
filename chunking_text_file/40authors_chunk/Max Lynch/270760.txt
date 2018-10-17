@@ -1,0 +1,10 @@
+		
+		if(renderSurface.getSelected() != null)
+			renderSurface.getSelected().getModel().setStroke(stroke, size);
+		renderSurface.repaint();
+		
+	}
+	
+	public void actionPerformed(ActionEvent e)
+	{
+		String in = width.getValue().toString();

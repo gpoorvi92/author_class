@@ -1,0 +1,10 @@
+                    e.printStackTrace();
+                }
+            }
+        };
+
+        Thread newThread = new Thread(group, runnable);
+        newThread.setName("z");
+        newThread.start();//线程启动然后才归到组A
+
+        ThreadGroup[] listGroup = new ThreadGroup[Thread.currentThread().getThreadGroup().activeGroupCount()];

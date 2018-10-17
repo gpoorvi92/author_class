@@ -1,0 +1,10 @@
+public class DelAccountRequest extends Request implements JsonConvert{
+	private static final String CMD="del";
+	private AccountNameBody body;
+	
+	
+	public DelAccountRequest(AccountNameBody body) {
+		super.setOpt(CMD);
+		this.body = body;
+	}
+

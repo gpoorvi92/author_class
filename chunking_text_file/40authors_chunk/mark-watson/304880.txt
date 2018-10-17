@@ -1,0 +1,10 @@
+
+    public static void main(String[] args) {
+        Graph untitled11 = new Graph();
+    }
+
+    private void jbInit() throws Exception {
+        jPanel1 = new GraphPanel(data1, data2);
+        jPanel1.setBackground(Color.white);
+        this.setDefaultCloseOperation(3);
+        this.getContentPane().add(jPanel1, BorderLayout.CENTER);

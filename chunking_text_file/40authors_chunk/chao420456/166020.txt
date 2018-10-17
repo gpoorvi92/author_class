@@ -1,0 +1,10 @@
+package cn.itcast_03;
+
+/*
+ * 查找元素：
+ * 		基本查找  数组元素无序
+ *		二分查找  数组元素有序(折半查找)
+ */
+public class ArrayDemo {
+	public static void main(String[] args) {
+		// int[] arr = { 24, 69, 80, 57, 13 };

@@ -1,0 +1,10 @@
+			try {
+				f.createNewFile();
+			} catch (IOException e) {
+				JOptionPane.showConfirmDialog(null,"创建文件失败，请检查是否有文件写入权限或磁盘是否有可用空间", "系统消息",
+						JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+			}
+		}
+		try {
+			FileInputStream fis = new FileInputStream(f);
+			// 读取数据，并将读取到的数据存储到数组中

@@ -1,0 +1,10 @@
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		super.onActivityResult(requestCode, resultCode, data);
+		if(data != null){
+			Intent i = new Intent(ActivityType.this, BuildActActivity.class);
+			 i.putExtra("type",data.getStringExtra("value"));
+			 startActivity(i);
+		}
+	}

@@ -1,0 +1,10 @@
+  /** Returns true if field dataHex is set (has been assigned a value) and false otherwise */
+  public boolean isSetDataHex() {
+    return this.dataHex != null;
+  }
+
+  public void setDataHexIsSet(boolean value) {
+    if (!value) {
+      this.dataHex = null;
+    }
+  }

@@ -1,0 +1,10 @@
+		if ("0".equals(direction)) {
+			holder.chatLayout.setGravity(Gravity.LEFT);
+			holder.chatBgLayout.setBackgroundDrawable(ctx.getResources()
+					.getDrawable(R.drawable.chat_from_bg_normal));
+			holder.sendState.setVisibility(View.GONE);
+			if (type == 1 && holder.chatTextView != null) { // 文本
+				String chatMsg = acd.getStringValue("chat_msg");
+				chatMsg = ChatMessageUtil.convertToClientMessage(chatMsg);
+				holder.chatTextView.setText(chatMsg);
+			} else if (type == 2 && holder.chatImage != null) { // 图片

@@ -1,0 +1,10 @@
+
+  public NetworkPacket setSourceAddress(String sourceAddress) {
+    this.sourceAddress = sourceAddress;
+    return this;
+  }
+
+  public void unsetSourceAddress() {
+    this.sourceAddress = null;
+  }
+

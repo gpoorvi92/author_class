@@ -1,0 +1,10 @@
+package com.weparty.widgets.DateSlider.labeler;
+
+import java.util.Calendar;
+
+import com.weparty.widgets.DateSlider.TimeObject;
+
+/**
+ * A bunch of static helpers for manipulating dates and times. There are two
+ * types of methods -- add*() methods that add a number of units to a time
+ * and return the result as a Calendar, and get*() objects that take a

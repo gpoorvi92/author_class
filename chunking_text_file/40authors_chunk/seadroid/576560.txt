@@ -1,0 +1,10 @@
+        void onFailure(SeafException e);
+    }
+
+    private BrowserActivity getBrowserActivity() {
+        return (BrowserActivity)getActivity();
+    }
+
+    public void init(String repoName, String repoID, String path, FetchFileListener listener) {
+        this.repoName = repoName;
+        this.repoID = repoID;

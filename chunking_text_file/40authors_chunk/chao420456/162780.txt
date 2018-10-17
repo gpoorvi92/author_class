@@ -1,0 +1,10 @@
+			System.exit(0);
+		}
+		broadcast = new BroadCast(this);
+		broadcast.setFlag_exit(true);
+		broadcast.start();
+	}
+	
+	@Override
+	public void run() {
+		Socket socket;

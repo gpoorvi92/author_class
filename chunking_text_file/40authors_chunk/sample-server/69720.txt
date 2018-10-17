@@ -1,0 +1,10 @@
+    public void diapatch(Channel channel, Fenrisulfr.RpcPacket packet)
+    {
+        int opcode = packet.getOpcode();
+        try
+        {
+            IResult result = null;
+            switch (opcode)
+            {
+                case GatewayAllOpcode.CP_Heartbeat:
+                    result = CP_Heartbeat(Gateway1All1.CP_Heartbeat.parseFrom(packet.getContent()));

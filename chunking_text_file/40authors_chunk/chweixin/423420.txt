@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置菜单名称。
+	 * @param name
+	 * 菜单名称。
+	 * */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**

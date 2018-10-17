@@ -1,0 +1,10 @@
+  	  	JScrollPane scrollPane = new JScrollPane(msgBoard,
+                             JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+                             JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+		this.add(mbtStudent);
+		this.add(tfInput);
+	  	this.add(scrollPane); 
+		this.add(memMonitor); 
+	}
+	
+	public  void actionPerformed(ActionEvent e){

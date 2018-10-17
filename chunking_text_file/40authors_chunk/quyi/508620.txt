@@ -1,0 +1,10 @@
+          case 5: // FUNCTION_STATUS
+            if (schemeField.type == org.apache.thrift.protocol.TType.MAP) {
+              {
+                org.apache.thrift.protocol.TMap _map135 = iprot.readMapBegin();
+                struct.functionStatus = new HashMap<String,CheckResultStatus>(2*_map135.size);
+                for (int _i136 = 0; _i136 < _map135.size; ++_i136)
+                {
+                  String _key137;
+                  CheckResultStatus _val138;
+                  _key137 = iprot.readString();

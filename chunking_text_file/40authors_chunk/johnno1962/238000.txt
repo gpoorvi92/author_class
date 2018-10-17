@@ -1,0 +1,10 @@
+    boolean entered_mouseMoved_0;
+
+    public void mouseMoved( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseMoved_0 ) {
+            entered_mouseMoved_0 = true;
+            __mouseMoved( e );
+            entered_mouseMoved_0 = false;
+        }
+        else
+            super.mouseMoved( e );

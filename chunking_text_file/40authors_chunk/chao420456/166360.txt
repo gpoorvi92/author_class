@@ -1,0 +1,10 @@
+		String strArray = {"","星期一","星期二","星期三","星期四","星期五","星期六","星期日"};
+
+		//查表法
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入查表法数字(1-7)：");
+		int index = sc.nextInt();
+		System.out.println("你要查找的星期为：" +strArray[index]);
+	}
+
+	//遍历

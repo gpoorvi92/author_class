@@ -1,0 +1,10 @@
+   		  encoder = ImageCodec.createImageEncoder("PNM", out, encodeParam);
+             try {
+                 encoder.encode(img);
+                 out.flush();
+                 out.close();
+             } catch (IOException e) {
+                 System.out.println("IOException at encoding " + e);
+             }
+     }
+

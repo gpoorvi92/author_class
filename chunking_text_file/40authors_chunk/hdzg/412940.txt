@@ -1,0 +1,10 @@
+				if(gameView.activity.isBackSound){
+					gameView.mMediaPlayer.start();
+		    	}				
+			}
+			
+			gameView.activity.loadingView.process = 101;
+			gameView.activity.myHandler.sendEmptyMessage(100);
+			
+		}
+		catch(Exception e){

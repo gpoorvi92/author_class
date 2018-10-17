@@ -1,0 +1,10 @@
+        } else if (SHA_384.equals(alg)) {  
+            newPass = DigestUtils.sha384Hex(password);  
+        } else if (SHA_512.equals(alg)) {  
+            newPass = DigestUtils.sha512Hex(password);  
+        } else {  
+            newPass = DigestUtils.shaHex(password);  
+        }  
+        return newPass;  
+    }  
+

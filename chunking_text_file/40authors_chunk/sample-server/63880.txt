@@ -1,0 +1,5 @@
+    protected abstract void beforeStartup() throws Exception;
+    protected abstract void doStartup() throws Exception;
+    protected abstract void beforeShutdown() throws Exception;
+    protected abstract void doShutdown() throws Exception;
+}

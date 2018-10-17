@@ -1,0 +1,10 @@
+			propagateTo.add(propagant);
+		}
+	}
+
+
+	/**
+	 * Unregister a propagant from {@link #propagateTo}.
+	 * 
+	 * @param propagant
+	 */

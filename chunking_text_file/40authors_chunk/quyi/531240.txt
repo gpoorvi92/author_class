@@ -1,0 +1,10 @@
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class UserAppTupleSchemeFactory implements SchemeFactory {
+    @Override
+	public UserAppTupleScheme getScheme() {
+      return new UserAppTupleScheme();
+    }

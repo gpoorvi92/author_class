@@ -1,0 +1,10 @@
+	private LayoutParams getWH(){
+		DisplayMetrics dm = new DisplayMetrics();
+		getWindowManager().getDefaultDisplay().getMetrics(dm);
+		int screenWidth = dm.widthPixels;
+		int screenHeigh = dm.heightPixels;
+		LayoutParams params = new LayoutParams(screenWidth/2, screenHeigh/3);
+		return params;
+	}
+	
+	private void buildContent() {

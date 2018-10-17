@@ -1,0 +1,10 @@
+
+		if (pool != null)
+			pool.callback(context);
+	}
+
+	/**
+	 * (non Javadoc) TODO
+	 * 
+	 * @Title: getExecutedDuration
+	 * @return

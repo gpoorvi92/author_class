@@ -1,0 +1,10 @@
+      table.setDragEnabled(true);
+      list.setDragEnabled(true);
+      fileChooser.setDragEnabled(true);
+      colorChooser.setDragEnabled(true);
+      textField.setDragEnabled(true);
+
+      add(tabbedPane, BorderLayout.NORTH);
+      add(scrollPane, BorderLayout.CENTER);
+      add(textField, BorderLayout.SOUTH);
+      pack();

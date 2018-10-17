@@ -1,0 +1,9 @@
+			SearchRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(searchRecordInfo);
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		// TODO 记录查询结束时间及状
+	}
+
+}

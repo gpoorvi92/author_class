@@ -1,0 +1,8 @@
+	public static void main(String[] args) {
+		Code c = new Code();
+		//c.show();
+
+		//Code c2 = new Code("hello");
+		System.out.println("CCCCC");
+	}
+}

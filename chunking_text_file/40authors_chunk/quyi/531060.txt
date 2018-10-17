@@ -1,0 +1,10 @@
+              struct.setRequestPurviewsIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 11: // FORMAT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.format = iprot.readString();
+              struct.setFormatIsSet(true);
+            } else { 

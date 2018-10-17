@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Gets a set of "preferred" format names of all image writers. The preferred format name is the
+    * first format name that a writer specifies.
+    * @return the format name set
+    */
+   public static Set<String> getWriterFormats()
+   {
+      Set<String> writerFormats = new TreeSet<>();

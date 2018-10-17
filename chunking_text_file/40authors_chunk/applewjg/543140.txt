@@ -1,0 +1,10 @@
+        while (i < N) {
+            if (stk.empty() || dp[i] >= dp[stk.peek()]) {
+                stk.push(i++);
+                continue;
+            }
+            int idx = stk.pop();
+            int width = stk.empty()?i:(i-stk.peek()-1);
+            res = Math.max(res, width*dp[idx]);
+        }
+        return res;

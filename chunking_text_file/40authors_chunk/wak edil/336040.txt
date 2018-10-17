@@ -1,0 +1,10 @@
+      
+      while (true) 
+      {
+        
+
+        // Receive items from client
+        tableNo=isFromClient.readInt();
+        item=isFromClient.readUTF();
+        
+        jta.append("\nTable no "+tableNo+" requested: ");

@@ -1,0 +1,10 @@
+        makeProperty("CapStatusUpdate"),
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("MaximumWeight"),
+        makeProperty("WeightUnit"),
+        makeProperty("AsyncMode"),
+        makeProperty("AutoDisable"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),

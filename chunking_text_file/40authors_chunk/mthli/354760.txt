@@ -1,0 +1,10 @@
+         {
+            y1 += (int) (maxValue * scale);
+            height = -height;
+         }
+
+         g2.setPaint(inverse ? Color.white : color);
+         Rectangle2D bar = new Rectangle2D.Double(x1, y1, barWidth - 2, height);
+         g2.fill(bar);
+         g2.setPaint(Color.black);
+         g2.draw(bar);

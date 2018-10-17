@@ -1,0 +1,10 @@
+*	10/10/03
+*		- first revision.
+*	
+******************************************************************/
+
+package org.cybergarage.http;
+
+import java.net.Socket;
+
+public class HTTPServerThread extends Thread

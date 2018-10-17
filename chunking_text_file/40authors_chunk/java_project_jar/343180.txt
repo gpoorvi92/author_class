@@ -1,0 +1,10 @@
+        n = in.read(bts, off, len);
+        afterRead(n);
+        return n;
+        IOException e;
+        e;
+        handleIOException(e);
+        return -1;
+    }
+
+    public long skip(long ln)

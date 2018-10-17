@@ -1,0 +1,10 @@
+			if (other.extraInfo != null)
+				return false;
+		} else if (!extraInfo.equals(other.extraInfo))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		if (type != other.type)

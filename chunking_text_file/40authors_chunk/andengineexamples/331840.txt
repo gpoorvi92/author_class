@@ -1,0 +1,10 @@
+			public void onPathFinished(final PathModifier pPathModifier, final IEntity pEntity) {
+
+			}
+		})));
+		scene.attachChild(player);
+
+		return scene;
+	}
+
+	// ===========================================================

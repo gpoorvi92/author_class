@@ -1,0 +1,10 @@
+    public IImage getImageAt(int i) {
+        return i == 0 ? mSingleImage : null;
+    }
+
+    public boolean removeImage(IImage image) {
+        return false;
+    }
+
+    public boolean removeImageAt(int index) {
+        return false;

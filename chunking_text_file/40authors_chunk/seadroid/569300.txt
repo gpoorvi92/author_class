@@ -1,0 +1,10 @@
+
+    public String srcRepoId;
+    public String srcRepoName;
+    public String srcDir;
+    public String srcFn;
+    public boolean isdir;
+
+    public String dstRepoId;
+    public String dstDir;
+

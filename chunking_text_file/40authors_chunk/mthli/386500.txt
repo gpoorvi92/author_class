@@ -1,0 +1,10 @@
+
+      System.out.println(staff);
+
+      // remove an entry
+
+      staff.remove("567-24-2546");
+
+      // replace an entry
+
+      staff.put("456-62-5527", new Employee("Francesca Miller"));

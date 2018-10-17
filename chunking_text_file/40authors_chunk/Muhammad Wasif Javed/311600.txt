@@ -1,0 +1,10 @@
+import javax.swing.plaf.metal.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class MetalThemeMenu extends JMenu implements ActionListener {
+
+	MetalTheme[] themes;	//Program's Themes Array.
+

@@ -1,0 +1,10 @@
+         {
+            protected Expression instantiate(Object oldInstance, Encoder out)
+            {
+               Employee e = (Employee) oldInstance;
+               GregorianCalendar c = new GregorianCalendar();
+               c.setTime(e.getHireDay());
+               return new Expression(oldInstance, Employee.class, "new", new Object[] {
+                     e.getName(), e.getSalary(), c.get(Calendar.YEAR), c.get(Calendar.MONTH),
+                     c.get(Calendar.DATE) });
+            }

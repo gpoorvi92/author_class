@@ -1,0 +1,10 @@
+public class FontFrame extends JFrame
+{
+   public static final int TEXT_ROWS = 10;
+   public static final int TEXT_COLUMNS = 20;
+
+   private JComboBox<String> face;
+   private JComboBox<Integer> size;
+   private JCheckBox bold;
+   private JCheckBox italic;
+   private JScrollPane pane;

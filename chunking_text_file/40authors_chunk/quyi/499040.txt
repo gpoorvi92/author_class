@@ -1,0 +1,10 @@
+      sb.append(this.operateTime);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("operateType:");
+    if (this.operateType == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.operateType);
+    }

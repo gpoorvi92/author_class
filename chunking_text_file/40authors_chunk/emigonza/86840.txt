@@ -1,0 +1,10 @@
+        return ++globalSequenceNumber;
+    }
+
+    public final long getSequenceNumber()
+    {
+      return sequenceNumber;
+    }
+
+    public long getWhen()
+    {

@@ -1,0 +1,10 @@
+     * @param entries an enumeration of JposEntry objects
+     * @since 1.2 (NY 2K meeting)
+     * @throws java.lang.Exception if any error occurs while saving
+     */
+    public void save( Enumeration entries ) throws Exception;
+
+    /**
+     * Tell the populator to save the current entries in the file specified 
+     * @param entries an enumeration of JposEntry objects
+     * @param fileName the file name to save entries

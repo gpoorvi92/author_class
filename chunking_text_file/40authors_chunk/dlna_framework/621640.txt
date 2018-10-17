@@ -1,0 +1,10 @@
+import org.cybergarage.net.*;
+
+import org.cybergarage.upnp.*;
+import org.cybergarage.util.CommonLog;
+import org.cybergarage.util.LogFactory;
+
+import android.util.Log;
+
+public class SSDPNotifySocketList extends Vector 
+{

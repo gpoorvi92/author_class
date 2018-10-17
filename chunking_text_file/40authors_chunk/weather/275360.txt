@@ -1,0 +1,10 @@
+        if (encoding != null) {
+          builder.header(encoding.getName(), encoding.getValue());
+        }
+      }
+    }
+    builder.method(method, body);
+
+    return builder.build();
+  }
+

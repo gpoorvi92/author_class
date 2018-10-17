@@ -1,0 +1,10 @@
+			canvas.drawBitmap(open, 200, 252, paint); 
+		}
+		if(activity.isEnvironmentSound){
+			canvas.drawBitmap(close, 200, 310, paint);
+		}
+		else{
+			canvas.drawBitmap(open, 200, 310, paint);
+		}
+		
+		canvas.drawBitmap(buttonBackGround, 130, 430, paint);

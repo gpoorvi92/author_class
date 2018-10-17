@@ -1,0 +1,10 @@
+	
+	public static final void setChunkSize(int size)
+	{
+		chunkSize = size;
+	}
+	
+	public static final int getChunkSize()
+	{
+		return chunkSize;
+	}

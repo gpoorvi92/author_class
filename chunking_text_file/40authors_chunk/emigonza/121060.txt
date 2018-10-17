@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    writeData(int action, int count, String data)
+                     throws JposException;
+
+  // Event listener methods
+  public void    addDataListener(DataListener l);
+  public void    removeDataListener(DataListener l);
+  public void    addDirectIOListener(DirectIOListener l);
+  public void    removeDirectIOListener(DirectIOListener l);
+  public void    addErrorListener(ErrorListener l);

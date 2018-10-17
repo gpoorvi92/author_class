@@ -1,0 +1,10 @@
+                    invoker.parseFromMethod = parseFromMethod;
+                } catch (Exception e)
+                {
+                    throw new RpcException(e);
+                }
+                invoker.targetMethod = each;
+                invokerMap.put(each.getName(), invoker);
+            }
+        }
+    }

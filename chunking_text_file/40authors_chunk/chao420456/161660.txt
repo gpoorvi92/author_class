@@ -1,0 +1,10 @@
+
+		// 把字符串转成字符数组
+		char[] chs = s.toCharArray();
+
+		// 遍历字符串，得到每一个字符
+		for (char ch : chs) {
+			// 拿这个字符作为键到map里面找值
+			Integer i = tm.get(ch);
+			// 返回null
+			if (i == null) {

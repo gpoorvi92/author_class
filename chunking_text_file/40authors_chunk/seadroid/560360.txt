@@ -1,0 +1,10 @@
+    // the worker thread and a done flag so we know when to exit
+    private boolean mDone;
+    private Thread mDecodeThread;
+    private ContentResolver mCr;
+
+    public interface LoadedCallback {
+        void run(Bitmap result);
+    }
+
+    public void getBitmap(IImage image,

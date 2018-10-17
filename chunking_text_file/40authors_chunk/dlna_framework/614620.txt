@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private DatagramSocket ssdpUniSock = null;
+	//private MulticastSocket ssdpUniSock = null;
+
+	public DatagramSocket getDatagramSocket()
+	{
+		return ssdpUniSock;
+	}
+		

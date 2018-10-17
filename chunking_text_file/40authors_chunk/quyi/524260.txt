@@ -1,0 +1,10 @@
+ */
+public enum Risk implements org.apache.thrift.TEnum {
+  NA_NUM(0),
+  A_NUM(1),
+  B_NUM(2),
+  J_NUM(3),
+  MIN_NUM(4),
+  MAX_NUM(5);
+
+  private final int value;

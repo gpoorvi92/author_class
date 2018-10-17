@@ -1,0 +1,10 @@
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public List<String> selectDistinctType() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select distinct type from t_small where valid=true");
+		return query.list();
+	}

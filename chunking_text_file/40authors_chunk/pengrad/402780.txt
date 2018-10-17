@@ -1,0 +1,10 @@
+        return responseClass;
+    }
+
+    public boolean isMultipart() {
+        return false;
+    }
+
+    public String getFileName() {
+        return ContentTypes.GENERAL_FILE_NAME;
+    }

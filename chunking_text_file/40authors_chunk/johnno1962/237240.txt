@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.PopupMenuListener.popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent)
+
+    public native void __popupMenuWillBecomeInvisible( javax.swing.event.PopupMenuEvent e );
+
+    public void popupMenuWillBecomeInvisible( javax.swing.event.PopupMenuEvent e ) {
+        __popupMenuWillBecomeInvisible( e );
+    }
+
+    /// public abstract void javax.swing.event.PopupMenuListener.popupMenuCanceled(javax.swing.event.PopupMenuEvent)

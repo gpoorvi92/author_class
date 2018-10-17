@@ -1,0 +1,10 @@
+		p2.add(jbexit);	
+		p2.setBorder(new TitledBorder("SelecTion Button"));
+		Border lineborder = new LineBorder(Color.GREEN,2);
+		cont.add(p2,BorderLayout.SOUTH);	
+		
+		jbmenu.addActionListener(this);
+		jborder.addActionListener(this);
+		jbabout.addActionListener(this);
+		jbexit.addActionListener(this);
+	}

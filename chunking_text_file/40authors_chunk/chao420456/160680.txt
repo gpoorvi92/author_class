@@ -1,0 +1,10 @@
+package cn.itcast_03;
+
+import java.io.File;
+
+/*
+ * 递归输出目录下指定后缀名结尾的文件绝对路径 .java
+ * D:\itcast\20150306
+ * 
+ * 分析：
+ * 		A:封装指定目录

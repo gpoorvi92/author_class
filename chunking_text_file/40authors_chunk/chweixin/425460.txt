@@ -1,0 +1,10 @@
+	 * 	地理位置信息。
+	 * */
+	public void setLabel(String label) {
+		this.label = label;
+	}
+	/**
+	 * 获取地理位置纬度。
+	 * @return 地理位置纬度。
+	 * */
+	public String getLocation_X() {

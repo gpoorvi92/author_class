@@ -1,0 +1,10 @@
+        // loop until we get a low enough error:
+        try_again: for (int iter = 0; iter < 500; iter++) {
+            nn.randomizeWeights();
+            System.out.println("\nStarting with a new random set of weights (iter="+iter+")");
+            float weightJiggleFactor = 0.15f;
+            double learningRate = 0.4; // 0.15;
+            float error = 0;
+            for (long i = 0; i < 2000000; i++) {
+                nn.jiggleWeights(weightJiggleFactor);
+                weightJiggleFactor *= 0.9999;

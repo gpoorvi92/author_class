@@ -1,0 +1,10 @@
+  public void    adjustItemCount(int direction,
+                                 int count)
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)
+                     throws JposException;
+  public void    moveBackward(int speed)
+                     throws JposException;
+  public void    moveForward(int speed)
+                     throws JposException;

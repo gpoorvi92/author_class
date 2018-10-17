@@ -1,0 +1,10 @@
+            try {
+                channel.close();
+            } catch (IOException exception) {
+                if (LOGGER.isLoggable(Level.WARNING))
+                    LOGGER.log(Level.WARNING, "Could not close channel properly.", exception);
+            }
+        }
+    }
+
+    @Override

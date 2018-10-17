@@ -1,0 +1,10 @@
+	/**
+	 * @param exception the exception to set
+	 */
+	public void setException(Exception exception) {
+		
+		this.exception = exception;
+	}
+
+	/**
+	 * @return the commandId

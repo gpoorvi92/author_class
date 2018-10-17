@@ -1,0 +1,10 @@
+    protected TransferTask getTask(int taskID) {
+        for (TransferTask task : allTaskList) {
+            if (task.getTaskID() == taskID) {
+                return task;
+            }
+        }
+        return null;
+    }
+
+    public TransferTaskInfo getTaskInfo(int taskID) {

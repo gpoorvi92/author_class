@@ -1,0 +1,10 @@
+                }
+                return request.getTag().equals(getRequestFilterTag());
+            }
+        };
+    }
+
+    public void changeConsumer(DataConsumer consumer1) {
+        this.consumer = new WeakReference<DataConsumer>(consumer1);
+    }
+

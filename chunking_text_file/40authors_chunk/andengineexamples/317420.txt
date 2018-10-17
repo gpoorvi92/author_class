@@ -1,0 +1,10 @@
+				spriteGroup.attachChild(child);
+			}
+		}));
+
+		pScene.attachChild(spriteGroup);
+	}
+
+	// ===========================================================
+	// Inner and Anonymous Classes
+	// ===========================================================

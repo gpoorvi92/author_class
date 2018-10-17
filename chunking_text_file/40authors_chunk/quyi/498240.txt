@@ -1,0 +1,10 @@
+    if (!value) {
+      this.fileDescription = null;
+    }
+  }
+
+  public String getFilePath() {
+    return this.filePath;
+  }
+
+  public FileOperate setFilePath(String filePath) {

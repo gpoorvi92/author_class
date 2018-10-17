@@ -1,0 +1,10 @@
+        // debug printout:
+        //if (!name.equals("#text")) {
+        //  String text = data.getTextContent();
+        //  System.out.println(name + ": " + text);
+        //}
+      }
+      if (return_cache && new_item.get("cache_uri")!=null) {
+        new_item.put("cache_content", getCacheContent(new_item.get("cache_uri")));
+      }
+    }

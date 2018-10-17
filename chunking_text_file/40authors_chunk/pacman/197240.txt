@@ -1,0 +1,10 @@
+		return new File(path1, path2).getPath();
+	}
+	
+	/**
+	 * 
+	 * 
+	 * @Title: sizeOf
+	 * @param fileOrPath
+	 * @param isFile
+	 * @return

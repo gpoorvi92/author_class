@@ -1,0 +1,10 @@
+	public Intent getCustomIntent(Class clazz) {
+		Intent intent = new Intent(this, clazz);
+		intent.putExtra("busi_type", busiType);
+		intent.putExtra("busi_serial", busiSerial);
+		intent.putExtra("title", chatTitle);
+		return intent;
+	}
+
+	public void setTitle(String title) {
+		if (this.titleTv != null) {

@@ -1,0 +1,10 @@
+        mOnInfoListener = listener;
+    }
+
+    public void setOnPreparedListener(AbsMediaPlayer.OnPreparedListener listener) {
+        mOnPreparedListener = listener;
+    }
+
+    public void setOnVideoSizeChangedListener(
+            AbsMediaPlayer.OnVideoSizeChangedListener listener) {
+        mOnVideoSizeChangedListener = listener;

@@ -1,0 +1,10 @@
+	
+	private void beginDownload() throws Exception {
+		byte[] data = new byte[size];
+		int byteRead;
+		while ( (byteRead = this.inputStream.read(data)) != -1) {
+			//System.out.println("Bytes read: " + new Integer(byteRead).toString());
+			this.delegate.didReceiveData(this, data, byteRead);
+			this.testCount++;
+		}
+		System.out.println("Total count: " + new Integer(this.testCount).toString());

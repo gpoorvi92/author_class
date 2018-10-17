@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 1:string ruleId 规则编号
+ * 2:string ruleName 规则名称
+ * 3:Activity ruleType 规则行为类型
+ * 4:Risk riskLevel 风险级别
+ * 5:string pak 命名空间

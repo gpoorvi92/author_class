@@ -1,0 +1,10 @@
+
+    }
+
+    private static class queryApp_resultTupleSchemeFactory implements SchemeFactory {
+      public queryApp_resultTupleScheme getScheme() {
+        return new queryApp_resultTupleScheme();
+      }
+    }
+
+    private static class queryApp_resultTupleScheme extends TupleScheme<queryApp_result> {

@@ -1,0 +1,10 @@
+        }
+
+        mDone = false;
+        Thread t = new Thread(new WorkerThread());
+        t.setName("image-loader");
+        mDecodeThread = t;
+        t.start();
+    }
+
+    public void stop() {

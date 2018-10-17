@@ -1,0 +1,10 @@
+                uploadStateListener.onFileUploaded(taskID);
+            }
+            else {
+                uploadStateListener.onFileUploadFailed(taskID);
+            }
+        }
+    }
+
+    @Override
+    protected void onCancelled() {

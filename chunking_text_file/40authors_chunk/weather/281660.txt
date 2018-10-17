@@ -1,0 +1,10 @@
+        public int compare(byte[] lhs, byte[] rhs) {
+            return lhs.length - rhs.length;
+        }
+    };
+
+    /**
+     * @param sizeLimit the maximum size of the pool, in bytes
+     */
+    public ByteArrayPool(int sizeLimit) {
+        mSizeLimit = sizeLimit;

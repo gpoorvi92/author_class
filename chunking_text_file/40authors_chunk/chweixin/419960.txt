@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取多条图文消息信息，默认第一个item为大图；
+	 * 注意：如果图文数超过10个，则将会无响应。
+	 * @return 多条图文消息信息。
+	 * */
+	public List<Article> getArticles() {
+		return Articles;
+	}
+	/**

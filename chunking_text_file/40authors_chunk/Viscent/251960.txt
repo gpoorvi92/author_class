@@ -1,0 +1,10 @@
+	/**
+	 * 留给子类实现。用于执行线程停止所需的操作。
+	 */
+	protected void doTerminiate() {
+		// 什么也不做
+	}
+
+	@Override
+	public void run() {
+		Exception ex = null;

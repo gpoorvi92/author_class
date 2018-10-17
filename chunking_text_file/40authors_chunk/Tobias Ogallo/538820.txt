@@ -1,0 +1,10 @@
+		reportingPanel.add(panel,BorderLayout.SOUTH);
+		reportPanel=new JPanel();
+		reportPanel.setLayout(new GridLayout(1,1));
+		reportPanel.setBorder(BorderFactory.createMatteBorder(4,4,4,4,Color.blue));
+		reportPanel.setBackground(Color.white);
+		
+		reportingPanel.add(new JScrollPane(reportPanel),BorderLayout.CENTER);
+		listsTabs.add(reportingPanel);
+	    setLocation((screen.width-1270)/2,((screen.height-740)/2));
+		setResizable(false);

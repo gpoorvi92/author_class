@@ -1,0 +1,10 @@
+		assertTrue(receiver.tryGetMessage());
+		assertTrue("This is a test!".equals(verifyTxt));
+		
+		assertFalse(receiver.tryGetMessage());
+		sender.Close();
+		receiver.Close();
+	}
+
+	@Test
+	public void testTransformStream() throws MQException {

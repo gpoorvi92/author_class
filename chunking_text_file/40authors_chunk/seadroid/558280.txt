@@ -1,0 +1,10 @@
+    X509Certificate certificate;
+
+    public CertificateInfo(X509Certificate certificate) {
+        this.certificate = certificate;
+    }
+
+    // general info
+
+    public String getSubjectName() {
+        return certificate.getSubjectX500Principal().getName(X500Principal.RFC1779);

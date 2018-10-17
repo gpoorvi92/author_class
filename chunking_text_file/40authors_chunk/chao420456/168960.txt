@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+/*
+ * IO流中的编码解码问题：要想在IO流中对数据进行编码问题，必须使用转换流。

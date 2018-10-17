@@ -1,0 +1,10 @@
+
+     
+      catch ( Exception excp )
+
+      {
+            excp.printStackTrace();	
+	  }     
+		jPanel2.add(jButton1);
+		jPanel2.add(jButton2);
+		jPanel2.add(jButton3);

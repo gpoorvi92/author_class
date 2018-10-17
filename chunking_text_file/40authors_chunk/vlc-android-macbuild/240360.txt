@@ -1,0 +1,10 @@
+        if (activityInfo == null)
+            return null;
+
+        CharSequence cs = activityInfo.loadLabel(pkgManager);
+        if (cs == null)
+            return null;
+
+        return cs.toString();
+    }
+

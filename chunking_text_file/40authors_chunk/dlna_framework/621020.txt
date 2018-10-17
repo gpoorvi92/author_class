@@ -1,0 +1,10 @@
+	{
+		return HTTPHeader.getValue(getData(), HTTP.NTS);
+	}
+
+	public String getServer()
+	{
+		return HTTPHeader.getValue(getData(), HTTP.SERVER);
+	}
+
+	public String getUSN()

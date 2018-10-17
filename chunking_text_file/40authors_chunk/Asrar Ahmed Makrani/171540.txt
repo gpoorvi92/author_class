@@ -1,0 +1,9 @@
+    public JLabel reg_date = new JLabel("Registration Date");
+    public String group_str[] = {"   Student   ","   Lecturer   "};
+    public String status_str[] = {" Active ", "Disabled"};
+    public String salute_str[] = {"   Mr   ", "   Mrs   "};
+    public JComboBox group_combo = new JComboBox(group_str);
+    public JComboBox status_combo = new JComboBox(status_str);
+    public JComboBox salute_combo = new JComboBox(salute_str);
+    public JPanel main_panel = new JPanel();
+}

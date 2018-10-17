@@ -1,0 +1,10 @@
+         atts.addAttribute("", "month", "month", "CDATA", t.nextToken());
+         atts.addAttribute("", "day", "day", "CDATA", t.nextToken());
+         handler.startElement("", "hiredate", "hiredate", atts);
+         handler.endElement("", "hiredate", "hiredate");
+         atts.clear();
+
+         handler.endElement("", "employee", "employee");
+      }
+
+      handler.endElement("", rootElement, rootElement);

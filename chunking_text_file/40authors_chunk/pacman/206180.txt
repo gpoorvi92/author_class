@@ -1,0 +1,10 @@
+		}
+		
+		cmd.add(audioSrc)
+		   .add(outputFile);
+		
+		return cmd.toString();
+	}
+	
+	public static String buildVideoCommand(
+			String	vcodec,

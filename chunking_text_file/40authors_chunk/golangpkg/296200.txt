@@ -1,0 +1,10 @@
+		}
+		return parameterValue;
+	}
+
+
+	public void writeExceptionToResponse(final JavaFileUploaderException e, ServletResponse servletResponse)
+			throws IOException {
+		writeToResponse(new SimpleJsonObject(Integer.valueOf(e.getExceptionCodeMapping().getExceptionIdentifier()).toString()), servletResponse);
+	}
+

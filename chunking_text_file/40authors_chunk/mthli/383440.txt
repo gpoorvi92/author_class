@@ -1,0 +1,10 @@
+         ClassLoader loader = new CryptoClassLoader(Integer.parseInt(key));
+         Class<?> c = loader.loadClass(name);
+         Method m = c.getMethod("main", String[].class);
+         m.invoke(null, (Object) new String[] {});
+      }
+      catch (Throwable e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+   }

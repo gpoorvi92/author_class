@@ -1,0 +1,10 @@
+			// normalize text representation
+			doc.getDocumentElement().normalize();
+			System.out.println("Root element of XML document:  "
+					+ doc.getDocumentElement().getNodeName());
+			NodeList listOfCountrys = doc.getElementsByTagName("country");
+			int totalCountrys = listOfCountrys.getLength();
+			System.out.println("Total no of countries : " + totalCountrys);
+
+			for (int countryIndex = 0; countryIndex < totalCountrys; countryIndex++) {
+				Node firstCountryNode = listOfCountrys.item(countryIndex);

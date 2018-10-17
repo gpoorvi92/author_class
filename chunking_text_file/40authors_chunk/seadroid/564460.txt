@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.avatar;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+
+import javax.net.ssl.HttpsURLConnection;
+
+import android.content.Context;

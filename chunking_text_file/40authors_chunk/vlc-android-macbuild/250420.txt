@@ -1,0 +1,10 @@
+
+import android.content.Context;
+import android.view.Surface;
+
+public class LibVLC {
+    private static final String TAG = "VLC/LibVLC";
+
+    private static final String[] sDefaultParameters = new String[] { "-I",
+            "dummy", "--no-osd", "--no-plugins-cache", "--no-drop-late-frames",
+            "--no-video-title-show", "--no-stats", "--avcodec-fast",

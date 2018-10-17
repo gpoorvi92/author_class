@@ -1,0 +1,10 @@
+		catch (Exception e) {};
+	}
+	
+	public int getWidth()
+	{
+		try {
+			return Integer.parseInt(getIconNode().getNodeValue(WIDTH));
+		}
+		catch (Exception e) {};
+		return 0;

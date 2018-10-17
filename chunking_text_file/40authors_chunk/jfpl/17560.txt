@@ -1,0 +1,10 @@
+		this.backIcon = (ImageView) findViewById(R.id.title_back_btn);
+		this.titleTv = (TextView) findViewById(R.id.frame_title_text);
+		if (this.chatIcon != null) {
+			this.chatIcon.setOnClickListener(new View.OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					chatIconClick(v);
+				}
+			});

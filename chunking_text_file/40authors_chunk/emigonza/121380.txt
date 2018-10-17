@@ -1,0 +1,10 @@
+
+  /////////////////////////////////////////////////////////////////////
+  // "FullStatus" Property Constants
+  // "StatusUpdateEvent" Event Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int CACC_STATUS_OK               = 0;
+
+  public static final int CACC_STATUS_FULL             = 21; // FullStatus, StatusUpdateEvent
+  public static final int CACC_STATUS_NEARFULL         = 22; // FullStatus, StatusUpdateEvent

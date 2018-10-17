@@ -1,0 +1,10 @@
+	public void unregisterListener(JLFUListener propagant) {
+		synchronized (propagateTo) {
+			propagateTo.remove(propagant);
+		}
+	}
+
+
+	/**
+	 * Unregister all the listeners.
+	 */

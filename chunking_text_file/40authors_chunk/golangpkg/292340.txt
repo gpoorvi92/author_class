@@ -1,0 +1,10 @@
+import com.am.jlfu.notifier.JLFUListenerPropagator;
+import com.am.jlfu.staticstate.entities.FileProgressStatus;
+import com.am.jlfu.staticstate.entities.StaticStatePersistedOnFileSystemEntity;
+import com.thoughtworks.xstream.XStream;
+
+/**
+ * Provides methods related to the management of information of the files for services outside the scope of a request.<br>
+ * 
+ * @author antoinem
+ * @see StaticStateManager

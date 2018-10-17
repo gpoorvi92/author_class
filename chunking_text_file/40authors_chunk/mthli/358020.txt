@@ -1,0 +1,10 @@
+      size.addActionListener(listener);
+      bold.addActionListener(listener);
+      italic.addActionListener(listener);
+
+      setSample();
+      pack();
+   }
+
+   /**
+    * This method sets the text sample to the selected font.

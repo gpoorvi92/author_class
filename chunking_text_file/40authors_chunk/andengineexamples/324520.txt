@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga Inc.
+ * 
+ * @author Nicolas Gramlich
+ * @since 12:23:20 - 21.05.2011
+ */
+public class ConnectionPongServerMessage extends ServerMessage implements ServerMessageFlags {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

@@ -1,0 +1,6 @@
+	 * @param msg the msg to set
+	 */
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+}

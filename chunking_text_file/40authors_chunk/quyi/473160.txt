@@ -1,0 +1,10 @@
+            }
+            else             if (e instanceof com.nercis.isscp.idl.UnavailableException) {
+                        result.ue = (com.nercis.isscp.idl.UnavailableException) e;
+                        result.setUeIsSet(true);
+                        msg = result;
+            }
+             else 
+            {
+              msgType = org.apache.thrift.protocol.TMessageType.EXCEPTION;
+              msg = (org.apache.thrift.TBase)new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.INTERNAL_ERROR, e.getMessage());

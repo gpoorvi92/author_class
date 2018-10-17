@@ -1,0 +1,10 @@
+	public void init() {
+		// 省略其它代码
+
+		// 告警连接线程
+		Thread connectingThread = new Thread(new ConnectingTask());
+
+		connectingThread.start();
+
+		heartbeatTimer.schedule(new HeartbeatTask(), 60000, 2000);
+	}

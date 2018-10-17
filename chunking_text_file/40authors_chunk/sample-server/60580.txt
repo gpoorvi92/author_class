@@ -1,0 +1,10 @@
+                } finally
+                {
+                    times--;
+                }
+            }
+            if (isConnected())
+            {
+                ChatServerRpc.AuthReq.Builder req = ChatServerRpc.AuthReq.newBuilder();
+                req.setTimestamp(start);
+                req.setSign(channel.toString());

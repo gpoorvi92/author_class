@@ -1,0 +1,10 @@
+/**
+ * 默认回复数据访问实现。
+ * @author yangyong.
+ * @since 2014-04-09.
+ * */
+public class WeChatDefaultReplyDaoImpl extends BaseDaoImpl<WeChatDefaultReply> implements IWeChatDefaultReplyDao {
+	/**
+	 * 添加查询条件。
+	 * @param info
+	 * 查询条件。

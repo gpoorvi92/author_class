@@ -1,0 +1,8 @@
+            if (null != bootstrap)
+                bootstrap.releaseExternalResources();
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+    }
+}

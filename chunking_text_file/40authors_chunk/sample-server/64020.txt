@@ -1,0 +1,10 @@
+        {
+            UserEntity userEntity = ctx.getUser();
+            for (Limit each : acl.limit())
+            {
+                if (!userEntity.haveLimit(each))
+                {
+                    log.info("[{}]没有[{}]权限", ctx.getUser().getAccount(), each);
+                    limitLack = each;
+                    toBeHandle = false;
+                    break;

@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        return super.available();
+        IOException e;
+        e;
+        handleIOException(e);
+        return 0;
+    }
+
+    public void close()

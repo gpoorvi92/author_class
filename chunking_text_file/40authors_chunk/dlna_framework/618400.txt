@@ -1,0 +1,10 @@
+*		- Changed post() to add a Date headedr to the HTTPResponse before the posting.
+*	07/07/05
+*		- Lee Peik Feng <pflee@users.sourceforge.net>
+*		- Fixed post() to output the chunk size as a hex string.
+*	
+******************************************************************/
+
+package org.cybergarage.http;
+
+import java.io.InputStream;

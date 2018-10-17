@@ -1,0 +1,10 @@
+ * via reflection when its defined in the jpos.properties as 
+ * the jpos.config.regPopulatorClass
+ * </p>
+ * @see jpos.util.JposProperties#JPOS_REG_POPULATOR_CLASS_PROP_NAME
+ * @since 1.2 (NY 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class SimpleXmlRegPopulator extends AbstractRegPopulator 
+									implements XmlRegPopulator
+{

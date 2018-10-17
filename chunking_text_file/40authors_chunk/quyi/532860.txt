@@ -1,0 +1,10 @@
+
+  public String getRiskLevel() {
+    return this.riskLevel;
+  }
+
+  public APICheck setRiskLevel(String riskLevel) {
+    this.riskLevel = riskLevel;
+    return this;
+  }
+

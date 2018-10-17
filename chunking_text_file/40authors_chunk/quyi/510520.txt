@@ -1,0 +1,10 @@
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("VirusDetectionResultData(");
+    boolean first = true;
+
+    sb.append("checkTime:");
+    if (this.checkTime == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.checkTime);

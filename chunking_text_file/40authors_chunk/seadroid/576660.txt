@@ -1,0 +1,10 @@
+            @Override
+            public void onTaskSuccess() {
+                startDownloadFile();
+            }
+
+            @Override
+            public void onTaskCancelled() {
+                getDialog().dismiss();
+            }
+        };

@@ -1,0 +1,10 @@
+    public boolean onContextItemSelected(android.view.MenuItem item) {
+        if (getUserVisibleHint()) {
+            AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+
+            if (txService == null) {
+                return false;
+            }
+
+            ListView listView = mTransferTaskListView;
+            DownloadTaskInfo taskInfo = (DownloadTaskInfo) listView.getItemAtPosition(info.position);

@@ -1,0 +1,10 @@
+	}
+
+	// 使Master子类对外保留一个含义具体的方法名
+	public Set<BigInteger> generatePrime(int upperBound) throws Exception {
+		return this.service(upperBound);
+	}
+
+	/*
+	 * 质数生成器。 模式角色：Master-Slave.Slave
+	 */

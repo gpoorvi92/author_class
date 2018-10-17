@@ -1,0 +1,10 @@
+					// break wc;
+				} else {
+					System.out.println("登录失败,回到选择界面");
+				}
+				break;
+			case "2":
+				System.out.println("-----------注册界面------------");
+				// 键盘录入用户名和密码
+				System.out.println("请输入用户名：");
+				String newUsername = sc.nextLine();

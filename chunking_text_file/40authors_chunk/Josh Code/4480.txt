@@ -1,0 +1,10 @@
+        Triangle[] newArray = new Triangle[numTriangles];
+        for (int i = 0; i < numTriangles; i++)
+            newArray[i] = triangles[i];
+
+        triangles = newArray;
+    }
+
+    /** dots all vectors with the specified vector
+     */
+    public void scaleVectors(Vector3D v)

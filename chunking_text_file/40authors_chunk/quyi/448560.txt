@@ -1,0 +1,10 @@
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, Software struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(7);
+      if (incoming.get(0)) {
+        struct.osArch = iprot.readString();
+        struct.setOsArchIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.osName = iprot.readString();

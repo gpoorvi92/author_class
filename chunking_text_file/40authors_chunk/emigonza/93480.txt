@@ -1,0 +1,10 @@
+                
+                if ( !evt.isPopupTrigger() ) 
+                    return; 
+                
+                Component mouseEvtComp = evt.getComponent(); 
+                
+                Object o[] = (Object [])dictionary.get( mouseEvtComp ); 
+                
+                if ( o == null ) 
+                    return; 

@@ -1,0 +1,10 @@
+        return (buffer.getWord(position) & 1) != 0;
+    }
+
+    /**
+     * Gets the running length.
+     *
+     * @return the running length
+     */
+    public int getRunningLength() {
+        return getRunningLength(this.buffer, this.position);

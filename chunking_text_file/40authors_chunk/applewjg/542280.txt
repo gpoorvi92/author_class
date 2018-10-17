@@ -1,0 +1,10 @@
+                while (node.right != null && node.right != cur)
+                    node  = node.right;
+                if (node.right == null) {
+                    node.right = cur;
+                    cur = cur.left;
+                } else {
+                    res.add(cur.val);
+                    node.right = null;
+                    cur = cur.right;
+                }

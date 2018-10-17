@@ -1,0 +1,10 @@
+    private boolean mIsReadyToHide;
+
+    public SystemUINavHider_HoneyComb(Activity activity) {
+        super(activity);
+        mWeakActivity = new WeakReference<Activity>(activity);
+    }
+
+    @Override
+    public void setEnableHide(boolean enableHide) {
+        mEnableHide = enableHide;

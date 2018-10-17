@@ -1,0 +1,10 @@
+  public static void main(String[] args) {   
+    
+    Scanner teclado = new Scanner(System.in);
+      
+    System.out.println("Escribe un numero:");
+    int num = teclado.nextInt();
+    
+    boolean primo = true;
+    
+        if (num % 2 == 0){

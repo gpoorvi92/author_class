@@ -1,0 +1,10 @@
+
+	/**
+	 * @return the isAudioOnly
+	 */
+	public boolean isAudioOnly() {
+		
+		String vformat = getVideoFormat();
+		return null == vformat || "UNKNOWN".equalsIgnoreCase(vformat) || vformat.length() < 1;
+	}
+	

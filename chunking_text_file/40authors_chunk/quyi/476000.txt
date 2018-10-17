@@ -1,0 +1,10 @@
+          unsetUserApps();
+        } else {
+          setUserApps((List<com.nercis.isscp.idl.UserApp>)value);
+        }
+        break;
+
+      case PLOTS:
+        if (value == null) {
+          unsetPlots();
+        } else {

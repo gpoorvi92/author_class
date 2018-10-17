@@ -1,0 +1,10 @@
+import android.database.sqlite.SQLiteDatabase;
+import android.preference.PreferenceManager;
+import android.util.Log;
+import android.widget.Toast;
+
+public class PushMessageReceiver extends FrontiaPushMessageReceiver {
+
+	@Override
+	public void onBind(Context context, int errorCode, String appid,
+			String userId, String channelId, String requestId) {

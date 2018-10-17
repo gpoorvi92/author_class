@@ -1,0 +1,10 @@
+		"NEWLINE",
+		"SPACE",
+		"DIGIT",
+		"LETTER"
+	};
+	
+	private static final long[] mk_tokenSet_0() {
+		long[] data = { 2L, 0L};
+		return data;
+	}

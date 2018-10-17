@@ -1,0 +1,10 @@
+	 * */
+	public void setMsgType(String msgType) {
+		this.MsgType = msgType;
+	}
+	/**
+	 * 获取消息创建时间。
+	 * @return 消息创建时间。
+	 * */
+	public int getCreateTime() {
+		return CreateTime;

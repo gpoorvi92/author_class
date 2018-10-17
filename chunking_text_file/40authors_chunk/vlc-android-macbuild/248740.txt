@@ -1,0 +1,10 @@
+        return CPU_PART_QUALCOMM_S3 == mCpuPart;
+    }
+
+    public boolean isSnapdragon_S4() {
+        if (mCpuImplementer != CPU_IMPL_QUALCOMM)
+            return false;
+
+        return CPU_PART_QUALCOMM_S4 == mCpuPart;
+    }
+

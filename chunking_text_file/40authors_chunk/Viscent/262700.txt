@@ -1,0 +1,10 @@
+			String msg = helper.hello("helper");
+			System.out.println(msg);
+		}
+
+	}
+
+	private static class Helper {
+
+		public String hello(String msg) {
+			return "Hi," + msg;

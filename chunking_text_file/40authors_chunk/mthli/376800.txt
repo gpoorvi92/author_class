@@ -1,0 +1,10 @@
+package damageReporter;
+
+import java.awt.*;
+import java.awt.geom.*;
+import java.beans.*;
+import java.util.*;
+
+/**
+ * This class describes a vehicle damage report that will be saved and loaded with the long-term
+ * persistence mechanism.

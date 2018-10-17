@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_enginePlots = true && this.isSetEnginePlots();
+    boolean that_present_enginePlots = true && that.isSetEnginePlots();
+    if (this_present_enginePlots || that_present_enginePlots) {
+      if (!(this_present_enginePlots && that_present_enginePlots))
+        return false;
+      if (!this.enginePlots.equals(that.enginePlots))
+        return false;
+    }

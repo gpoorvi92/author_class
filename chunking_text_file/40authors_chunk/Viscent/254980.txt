@@ -1,0 +1,10 @@
+			int sequence = (Integer) params[1];
+			Debug.info("doInBackground:" + message);
+			return "message " + sequence + ":" + message;
+		}
+
+		@Override
+		protected void onPreExecute(Object... params) {
+			String message = (String) params[0];
+			int sequence = (Integer) params[1];
+			Debug.info("onPreExecute:[" + sequence + "]" + message);

@@ -1,0 +1,10 @@
+      BitSet optionals = new BitSet();
+      if (struct.isSetProcessName()) {
+        optionals.set(0);
+      }
+      if (struct.isSetThreadName()) {
+        optionals.set(1);
+      }
+      if (struct.isSetCheckTime()) {
+        optionals.set(2);
+      }

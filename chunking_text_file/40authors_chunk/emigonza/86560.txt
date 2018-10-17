@@ -1,0 +1,10 @@
+
+
+    /////////////////////////////////////////////////////////////////////
+    // ResultCodeExtended Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_ECAT_CENTERERROR            =  01;
+    public static final int JPOS_ECAT_COMMANDERROR           =  90;
+    public static final int JPOS_ECAT_RESET                  =  91;
+    public static final int JPOS_ECAT_COMMUNICATIONERROR     =  92;

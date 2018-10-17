@@ -1,0 +1,3 @@
+      super.replace(fb, offset, length, string, attr);
+   }
+}

@@ -1,0 +1,10 @@
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMessageBuilder#buildVideoTaskMessage()
+	 */
+	@Override
+	public BaseMessage buildVideoTaskMessage(
+			int taskId,
+			int classId,
+			int lessonId,

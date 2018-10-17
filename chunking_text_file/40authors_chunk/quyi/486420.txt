@@ -1,0 +1,10 @@
+      boolean that_present_dycRD = true && that.isSetDycRD();
+      if (this_present_dycRD || that_present_dycRD) {
+        if (!(this_present_dycRD && that_present_dycRD))
+          return false;
+        if (!this.dycRD.equals(that.dycRD))
+          return false;
+      }
+
+      boolean this_present_virRD = true && this.isSetVirRD();
+      boolean that_present_virRD = true && that.isSetVirRD();

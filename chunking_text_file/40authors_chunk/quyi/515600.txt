@@ -1,0 +1,10 @@
+        throw new IllegalArgumentException();
+      }
+
+      switch (field) {
+      case SUCCESS:
+        return isSetSuccess();
+      case UE:
+        return isSetUe();
+      }
+      throw new IllegalStateException();

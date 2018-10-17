@@ -1,0 +1,10 @@
+ * @version 1.01 2007-10-03
+ * @author Cay Horstmann
+ */
+public class PersistentFrameTest
+{
+   private static JFileChooser chooser;
+   private JFrame frame;
+
+   public static void main(String[] args)
+   {

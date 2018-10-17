@@ -1,0 +1,10 @@
+{
+
+    public NullReader(long size)
+    {
+        this(size, true, false);
+    }
+
+    public NullReader(long size, boolean markSupported, boolean throwEofException)
+    {
+        mark = -1L;

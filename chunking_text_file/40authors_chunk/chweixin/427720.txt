@@ -1,0 +1,10 @@
+package ipower.wechat.domain;
+
+import java.io.Serializable;
+import java.util.Date;
+/**
+ * 微信用户信息。
+ * @author yangyong.
+ * 
+ * */
+public class WeChatUser implements Serializable {

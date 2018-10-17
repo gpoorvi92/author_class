@@ -1,0 +1,10 @@
+		super.onCreate(savedInstanceState);
+
+	}
+	
+	private void initSetListener(View view){
+		
+		LaunchActButton taotieLAB =  (LaunchActButton) view.findViewById(R.id.taotie_lab);
+		taotieLAB.setOnHomeClick(new HomeClickListener() {
+			
+			@Override

@@ -1,0 +1,10 @@
+	}
+	public void setFdwFgCount(int fdwFgCount) {
+		this.fdwFgCount = fdwFgCount;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name="ygbxgid")
+	public Bxg getFdwYgType() {
+		return fdwYgType;
+	}

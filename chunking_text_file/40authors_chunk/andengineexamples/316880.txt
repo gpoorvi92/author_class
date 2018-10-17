@@ -1,0 +1,10 @@
+ * @since 00:06:23 - 11.07.2010
+ */
+public class DigitalOnScreenControlExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 480;
+	private static final int CAMERA_HEIGHT = 320;
+	private static final int DIALOG_ALLOWDIAGONAL_ID = 0;

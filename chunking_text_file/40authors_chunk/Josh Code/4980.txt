@@ -1,0 +1,10 @@
+ private static LinkedList<ModelFileSaver> mfSavers = getModelFileSavers();
+ private Model m;
+
+    private static LinkedList<ModelFileSaver>  getModelFileSavers()
+    {
+      LinkedList<ModelFileSaver> savers = new LinkedList<ModelFileSaver>();
+
+        savers.add(new OBJModelFileSaver());
+        savers.add(new STLModelFileSaver());
+        savers.add(new VRMLModelFileSaver());

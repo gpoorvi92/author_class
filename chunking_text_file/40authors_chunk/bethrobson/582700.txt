@@ -1,0 +1,10 @@
+    private void setUpGame() {
+        DotCom one = new DotCom();
+        one.setName("Pets.com");
+        DotCom two = new DotCom();
+        two.setName("eToys.com");
+        DotCom three = new DotCom();
+        three.setName("Go2.com");
+        dotComsList.add(one);
+        dotComsList.add(two);
+        dotComsList.add(three);

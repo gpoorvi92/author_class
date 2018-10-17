@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.util.Utils;
+
+/**
+ * load, cache, update avatars
+ *
+ */
+public class AvatarManager {
+    private static final String DEBUG_TAG = "AvatarManager";
+
+    private final AvatarDBHelper dbHelper = AvatarDBHelper.getAvatarDbHelper();

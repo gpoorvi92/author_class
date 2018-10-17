@@ -1,0 +1,10 @@
+	 * @param dest
+	 * @return
+	 */
+	public static boolean moveFile(String src, String dest) {
+		
+		try {
+			
+			FileUtils.moveFile(new File(src), new File(dest));
+			return true;
+		} catch (IOException e) {

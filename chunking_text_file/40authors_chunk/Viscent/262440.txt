@@ -1,0 +1,10 @@
+		int i = 0;
+		for (Record record : records) {
+			i++;
+
+			pwr.print(String.valueOf(record.getId()));
+			pwr.print(FIELD_SEPARATOR);
+			pwr.print(record.getMsisdn());
+			pwr.print(FIELD_SEPARATOR);
+			pwr.print(record.getProductId());
+			pwr.print(FIELD_SEPARATOR);

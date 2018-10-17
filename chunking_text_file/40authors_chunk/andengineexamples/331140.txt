@@ -1,0 +1,10 @@
+		final IMenuItem quitMenuItem = new ColorMenuItemDecorator(new TextMenuItem(MENU_QUIT, this.mFont, "QUIT", this.getVertexBufferObjectManager()), new Color(1,0,0), new Color(0,0,0));
+		quitMenuItem.setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
+		menuScene.addMenuItem(quitMenuItem);
+
+		menuScene.buildAnimations();
+
+		menuScene.setBackgroundEnabled(false);
+
+		menuScene.setOnMenuItemClickListener(this);
+		return menuScene;

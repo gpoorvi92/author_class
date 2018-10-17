@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetFunc() {
+    this.func = null;
+  }
+
+  /** Returns true if field func is set (has been assigned a value) and false otherwise */
+  public boolean isSetFunc() {
+    return this.func != null;

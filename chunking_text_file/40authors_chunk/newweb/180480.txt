@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean update(BxgPriceCut cut) {
+		try {
+			sessionFactory.getCurrentSession().update(cut);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

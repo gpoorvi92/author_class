@@ -1,0 +1,10 @@
+            //右进左出
+            case PUSH_IN:
+                activity.overridePendingTransition(R.anim.right_in, R.anim.left_out);
+                break;
+            //左进右出
+            case POP_OUT:
+                activity.overridePendingTransition(R.anim.left_in, R.anim.right_out);
+                break;
+            //由下向上
+            case PRESENT_UP:

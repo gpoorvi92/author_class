@@ -1,0 +1,10 @@
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    /************************** 非持久化属性 ***************************/
+    private String originalImage;
+
+    public String getOriginalImage() {
+        return originalImage;
+    }

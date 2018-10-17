@@ -1,0 +1,10 @@
+     */
+    public EWAHIterator(final Buffer buffer) {
+        this.rlw = new RunningLengthWord(buffer, 0);
+        this.size = buffer.sizeInWords();
+        this.pointer = 0;
+    }
+
+    private EWAHIterator(int pointer, RunningLengthWord rlw, int size){
+    	this.pointer = pointer;
+    	this.rlw = rlw;

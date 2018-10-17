@@ -1,0 +1,10 @@
+      try
+      {
+         conn = getConnection();
+         in = new Scanner(System.in);
+         authors.add("Any");
+         publishers.add("Any");
+         try (Statement stat = conn.createStatement())
+         {
+            // Fill the authors array list
+            String query = "SELECT Name FROM Authors";

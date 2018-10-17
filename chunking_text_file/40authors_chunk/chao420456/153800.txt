@@ -1,0 +1,10 @@
+				// p -- p2
+				int num = p1.getAge() - p2.getAge();
+				int num2 = num == 0 ? p1.getName().compareTo(p2.getName())
+						: num;
+				return num2;
+			}
+		});
+
+		// 创建人对象
+		Person p1 = new Person("tangseng", 30);

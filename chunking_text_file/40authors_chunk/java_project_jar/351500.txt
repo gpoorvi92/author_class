@@ -1,0 +1,10 @@
+    {
+        sumDirectoryContents = false;
+    }
+
+    public SizeFileComparator(boolean sumDirectoryContents)
+    {
+        this.sumDirectoryContents = sumDirectoryContents;
+    }
+
+    public int compare(File file1, File file2)

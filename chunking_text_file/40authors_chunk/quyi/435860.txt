@@ -1,0 +1,10 @@
+        setSystemResources((List<SystemResources>)value);
+      }
+      break;
+
+    case HARDWARE_RESOURCES:
+      if (value == null) {
+        unsetHardwareResources();
+      } else {
+        setHardwareResources((List<HardwareResources>)value);
+      }

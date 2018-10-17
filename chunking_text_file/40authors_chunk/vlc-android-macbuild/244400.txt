@@ -1,0 +1,10 @@
+            while (mRequestQueue.size() > mQueueSize) {
+                mRequestQueue.removeFirst();
+            }
+        }
+
+        launchHeadLoader();
+    }
+
+    private void launchHeadLoader() {
+        if (mRequestQueue.isEmpty())

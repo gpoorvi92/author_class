@@ -1,0 +1,10 @@
+	
+	public boolean open(Inet6Address bindAddr){
+		useIPv6Address = true;
+		return open(SSDP.getIPv6Address(), SSDP.PORT, bindAddr);
+	}
+	
+	public boolean open(String bind,String multicast){		
+		if ((HostInterface.isIPv6Address(bind) ) && (HostInterface.isIPv6Address(multicast))){
+			useIPv6Address = true;
+		}else if(HostInterface.isIPv4Address(bind) && (HostInterface.isIPv4Address(multicast))){

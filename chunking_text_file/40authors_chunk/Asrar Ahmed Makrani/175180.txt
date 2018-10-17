@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+
+public interface ReturnMain_Interface
+{
+    public JPanel rtn_ent = new JPanel(); 
+    public JPanel pat_info = new JPanel();
+    public JPanel bk_info = new JPanel();
+    public JPanel pan = new JPanel();
+    public JPanel pan2 = new JPanel();

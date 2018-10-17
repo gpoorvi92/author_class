@@ -1,0 +1,10 @@
+		// force file deleter to run
+		fileDeleter.run();
+
+		// assert file deleted
+		Assert.assertFalse(file.exists());
+	}
+
+
+	@Test
+	public void testGetEntityFromFile() {

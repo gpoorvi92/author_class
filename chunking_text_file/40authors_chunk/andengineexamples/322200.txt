@@ -1,0 +1,10 @@
+package org.andengine.examples;
+
+import org.andengine.entity.scene.menu.MenuScene;
+import org.andengine.entity.scene.menu.animator.SlideMenuAnimator;
+import org.andengine.entity.scene.menu.item.IMenuItem;
+import org.andengine.entity.scene.menu.item.SpriteMenuItem;
+import org.andengine.opengl.texture.TextureOptions;
+import org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlas;
+import org.andengine.opengl.texture.atlas.bitmap.BitmapTextureAtlasTextureRegionFactory;
+import org.andengine.opengl.texture.region.ITextureRegion;

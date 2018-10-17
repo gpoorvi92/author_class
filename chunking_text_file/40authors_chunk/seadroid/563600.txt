@@ -1,0 +1,10 @@
+    protected void onSaveDialogContentState(Bundle outState) {
+        outState.putString(STATE_TASK_PARENT_DIR, parentDir);
+        outState.putString(STATE_TASK_REPO_ID, repoID);
+        outState.putParcelable(STATE_ACCOUNT, account);
+    }
+
+    @Override
+    protected void disableInput() {
+        super.disableInput();
+        dirNameText.setEnabled(false);

@@ -1,0 +1,10 @@
+  static {
+    schemes.put(StandardScheme.class, new HardwareResourcesStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new HardwareResourcesTupleSchemeFactory());
+  }
+
+  public String processName; // required
+  public String threadName; // required
+  public String checkTime; // required
+  /**
+   * 

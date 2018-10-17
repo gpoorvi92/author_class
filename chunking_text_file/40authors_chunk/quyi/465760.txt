@@ -1,0 +1,10 @@
+import com.softsec.tase.common.rpc.service.task.TaskClientService;
+
+/**
+ * PRC 工具类
+ * 
+ * @author zhangyong & yanwei
+ * 
+ */
+public class TaskClientRpcUtils {
+

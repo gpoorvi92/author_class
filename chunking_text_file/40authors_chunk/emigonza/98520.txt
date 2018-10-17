@@ -1,0 +1,10 @@
+
+  public static final int EJ_MT_SESSION_BEG = 1;
+  public static final int EJ_MT_SESSION_END = 2;
+  public static final int EJ_MT_DOCUMENT    = 3;
+  public static final int EJ_MT_HEAD        = 4;
+  public static final int EJ_MT_TAIL        = 5;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "ErrorEvent" "ErrorCodeExtended" Property Constants

@@ -1,0 +1,10 @@
+					return null;
+				}
+				LhjPrice lhjp = new LhjPrice();
+				lhjp.setMaterialBrand(mb);
+				lhjp.setPrice(price);
+				if(!lhjPriceService.save(lhjp)){
+					out.write("failed服务器返回:保存失败,请尝试重试");
+					return null;
+				}
+			}

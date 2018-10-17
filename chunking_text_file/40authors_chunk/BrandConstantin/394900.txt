@@ -1,0 +1,6 @@
+    
+    for (int a = 0; a < 101; a += 5) {
+      System.out.print(" " + a);
+    }
+  }
+}

@@ -1,0 +1,10 @@
+	@ResponseBody	
+	public JsonResult uploadAudio(@RequestParam("file") MultipartFile audio,
+            						HttpServletRequest request) {
+		
+		JsonResult result = new JsonResult();
+		
+		String libId 	= request.getParameter("lid"); // library id.
+		String cwId 	= request.getParameter("cid"); // courseware id.
+		
+		saveFile(audio, result, audioDir, libId, cwId, false);

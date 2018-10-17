@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("featuresCharacters:");
+    if (this.featuresCharacters == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.featuresCharacters);
+    }
+    first = false;
+    if (!first) sb.append(", ");

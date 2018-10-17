@@ -1,0 +1,10 @@
+        JMenu fileMenu = new JMenu("File");
+        
+        JMenuItem loadMenuItem = new JMenuItem("Load card set");
+            
+        loadMenuItem.addActionListener(new OpenMenuListener());
+            
+        fileMenu.add(loadMenuItem);
+        
+        menuBar.add(fileMenu);
+        frame.setJMenuBar(menuBar);

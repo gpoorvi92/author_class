@@ -1,0 +1,10 @@
+      northPanel.setLayout(new GridLayout(2, 2));
+      northPanel.add(new JLabel("User name: ", SwingConstants.RIGHT));
+      northPanel.add(textField);
+      northPanel.add(new JLabel("Password: ", SwingConstants.RIGHT));
+      northPanel.add(passwordField);
+
+      add(northPanel, BorderLayout.NORTH);
+
+      final JTextArea textArea = new JTextArea(TEXTAREA_ROWS, TEXTAREA_COLUMNS);
+      JScrollPane scrollPane = new JScrollPane(textArea);

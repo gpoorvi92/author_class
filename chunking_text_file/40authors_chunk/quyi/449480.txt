@@ -1,0 +1,10 @@
+    {
+      searchApp_result result = new searchApp_result();
+      receiveBase(result, "searchApp");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }
+      if (result.ire != null) {
+        throw result.ire;
+      }
+      if (result.ue != null) {

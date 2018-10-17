@@ -1,0 +1,10 @@
+import com.umeng.analytics.MobclickAgent;
+import com.weico.core.utils.ActivityUtil;
+import com.weico.core.utils.TransactionUtil;
+import com.weico.core.vender.SmartBarUtils;
+
+/**
+ * Created by hufeng on 13-7-1.
+ */
+public abstract class BaseActivity extends FragmentActivity implements BasicInitMethod {
+    @Override

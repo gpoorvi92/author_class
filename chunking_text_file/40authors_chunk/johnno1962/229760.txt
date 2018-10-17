@@ -1,0 +1,10 @@
+
+    ContainerAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.ContainerAdapter.componentAdded(java.awt.event.ContainerEvent)
+
+    public native void __componentAdded( java.awt.event.ContainerEvent e );
+

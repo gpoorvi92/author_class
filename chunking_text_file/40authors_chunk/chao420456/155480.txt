@@ -1,0 +1,10 @@
+		//System.out.println(x);
+		//... 1000行,x在这1000行代码中没有被使用
+		int y = 100;
+		System.out.println(y);
+	}
+}
+*/
+
+//构造代码块
+/*

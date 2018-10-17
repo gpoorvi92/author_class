@@ -1,0 +1,10 @@
+      case 18:
+        return inaway;
+      case 19:
+        return inbad;
+      case 20:
+        return insignerr;
+      default:
+        return null;
+    }
+  }

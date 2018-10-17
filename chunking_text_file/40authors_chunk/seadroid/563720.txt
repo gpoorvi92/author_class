@@ -1,0 +1,10 @@
+    public int getIcon() {
+        return Utils.getFileIcon(file.getName());
+    }
+
+    public long getSize() {
+        return file.length();
+    }
+
+    public long getLastModified() {
+        return file.lastModified();

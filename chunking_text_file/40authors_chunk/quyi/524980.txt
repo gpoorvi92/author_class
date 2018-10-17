@@ -1,0 +1,10 @@
+	@Test
+	public void testSubmitJob001() throws TimeoutException, TException {
+		List<JobOperationRequirement> jobOpList = new ArrayList<JobOperationRequirement>();
+		JobOperationRequirement taskOp2 = new JobOperationRequirement();
+		taskOp2.setJobLifecycle(JobLifecycle.ANALYSIS);
+		taskOp2.setJobPhase(JobPhase.PROCESS);
+		taskOp2.setJobExecutionMode(JobExecutionMode.EXCLUSIVE);
+		taskOp2.setJobReturnMode(JobReturnMode.PASSIVE);
+		taskOp2.setTimeout(180000);
+		jobOpList.add(taskOp2);

@@ -1,0 +1,10 @@
+	MetalLookAndFeel.setCurrentTheme (selectedTheme);			//Getting the Selected theme.
+
+	try {		//Setting the Program's Look.
+		UIManager.setLookAndFeel ("javax.swing.plaf.metal.MetalLookAndFeel");
+	}
+	catch (Exception ex) { }
+
+	}
+
+}

@@ -1,0 +1,10 @@
+	 * @param view
+	 * @param url
+	 * @param message
+	 * @param result
+	 */
+	@Override
+	public boolean onJsConfirm(WebView view, String url, String message,
+			final JsResult result) {
+		AlertDialog.Builder dlg = new AlertDialog.Builder(this.webActivity);
+		dlg.setMessage(message);

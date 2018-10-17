@@ -1,0 +1,10 @@
+      {
+         LoginException e2 = new LoginException("Unsupported callback");
+         e2.initCause(e);
+         throw e2;
+      }
+      catch (IOException e)
+      {
+         LoginException e2 = new LoginException("I/O exception in callback");
+         e2.initCause(e);
+         throw e2;

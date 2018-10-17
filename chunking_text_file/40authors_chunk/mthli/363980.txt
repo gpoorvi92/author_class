@@ -1,0 +1,10 @@
+      gridPanel.add(messagePanel);
+      gridPanel.add(optionTypePanel);
+      gridPanel.add(optionsPanel);
+      gridPanel.add(inputPanel);
+
+      // add a panel with a Show button
+
+      JPanel showPanel = new JPanel();
+      JButton showButton = new JButton("Show");
+      showButton.addActionListener(new ShowAction());

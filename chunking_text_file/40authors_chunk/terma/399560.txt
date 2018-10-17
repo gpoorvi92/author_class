@@ -1,0 +1,10 @@
+
+    /**
+     * Start server.
+     * This method run servers worked then return control.
+     * This method isn't blocking.
+     *
+     * If you call this method when server is started, it throw exception.
+     *
+     * See {@link com.github.terma.javaniotcpserver.TcpServer#start()}
+     */

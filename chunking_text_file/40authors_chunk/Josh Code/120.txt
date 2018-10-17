@@ -1,0 +1,10 @@
+    public static void saveToXYZ(Model m, File f) throws IOException
+    {
+        PrintStream out = new PrintStream(new FileOutputStream(f));
+        Triangle[] triangles = m.getTriangles();
+        int numTriangles = m.getNumberOfTriangles();
+
+        out.println();
+        out.println("# generated with Josh Greig's opensource PolyMapper");
+        out.println("# available at:");
+        out.println("# http://www.planet-source-code.com");

@@ -1,0 +1,8 @@
+        struct.software.read(iprot);
+        struct.setSoftwareIsSet(true);
+      }
+    }
+  }
+
+}
+

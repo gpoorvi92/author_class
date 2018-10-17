@@ -1,0 +1,10 @@
+                    // test to see if this set of initial random weights is
+                    // producing poor results - if so, bail and start with a new set
+                    // of weights:
+                    if (i > 30000 & error > 0.38f) continue try_again;
+                    if (i > 90000 & error > 0.28f) continue try_again;
+                    if (i >150000 & error > 0.21f) continue try_again;
+                    if (i >350000 & error > 0.18f) continue try_again;
+                    // if the error is low enough, simply stop training now:
+                    if (error < 0.1)  break try_again;
+                    error = 0;

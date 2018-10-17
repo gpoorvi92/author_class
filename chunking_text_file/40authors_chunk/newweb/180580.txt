@@ -1,0 +1,10 @@
+	@RequestMapping(value = "getRegisterPage.action", method = RequestMethod.GET)
+	public String home(Locale locale, Model model) {
+		return "page/register/register.jsp";
+	}
+	
+	/**
+	 * 用户注册的业务处理
+	 * @param locale
+	 * @param model
+	 * @param modelMap

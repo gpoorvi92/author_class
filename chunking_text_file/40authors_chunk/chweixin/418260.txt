@@ -1,0 +1,10 @@
+			}else {
+				logger.info("该用户未身份验证过，找不到用户信息！");
+			}
+		}
+		//检测缓存过期状态。
+		if(entity.getTimeoutStamp() - System.currentTimeMillis() < CONST_CACHE_ValidityTime){
+			logger.info("上下文缓存快过期，重新延时。");
+			//更新缓存
+			entity.setEntity(context);
+			entity.setValidityTime(CONST_CACHE_ValidityTime);

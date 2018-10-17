@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetEngineType() {
+    this.engineType = null;
+  }
+
+  /** Returns true if field engineType is set (has been assigned a value) and false otherwise */
+  public boolean isSetEngineType() {
+    return this.engineType != null;

@@ -1,0 +1,10 @@
+		返回值类型：void
+		参数列表：int[] arr
+	*/
+	/*
+	public static void printArray(int[] arr) {
+		for(int x=0; x<arr.length; x++) {
+			System.out.println(arr[x]);
+		}
+	}
+	*/

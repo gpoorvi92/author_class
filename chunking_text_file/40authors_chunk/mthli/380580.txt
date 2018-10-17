@@ -1,0 +1,10 @@
+               try
+               {
+                  Desktop.getDesktop().browse(new URI(browseField.getText()));
+               }
+               catch (URISyntaxException ex)
+               {
+                  ex.printStackTrace();
+               }
+               catch (IOException ex)
+               {

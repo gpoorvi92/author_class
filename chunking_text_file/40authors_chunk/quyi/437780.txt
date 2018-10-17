@@ -1,0 +1,10 @@
+    }
+    if (other.isSetSoftware()) {
+      this.software = new Software(other.software);
+    }
+  }
+
+  public NodeInfo deepCopy() {
+    return new NodeInfo(this);
+  }
+

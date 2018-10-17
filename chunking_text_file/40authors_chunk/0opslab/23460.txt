@@ -1,0 +1,10 @@
+ * </p>
+ * 
+ * <p>
+ * Documentation may be found in the class {@link ParsingDetector}. It is valid for this class.
+ * </p>
+ * 
+ * @version 1.1
+ * @deprecated This class should not be used in new code. It has been replaced by {@link ParsingDetector}.
+ *             Future versions may drop this class.
+ * @see ParsingDetector

@@ -1,0 +1,10 @@
+      }
+      if (isSetUseRule()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.useRule, other.useRule);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      return 0;
+    }
+

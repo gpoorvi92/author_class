@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetFilePath()).compareTo(other.isSetFilePath());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFilePath()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.filePath, other.filePath);

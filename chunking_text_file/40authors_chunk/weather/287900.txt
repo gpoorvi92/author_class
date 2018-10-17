@@ -1,0 +1,10 @@
+public class ImageEntities {
+    /**
+     *
+     */
+    private static final long serialVersionUID = -6650441391543497980L;
+    private List<ImageEntity> listImageEntity = new ArrayList<ImageEntity>();
+    private String imagePathDirectory;
+    private String title;
+    private int count;
+

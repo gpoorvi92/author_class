@@ -1,0 +1,10 @@
+			}
+			case EOF:
+			{
+				charset=null;
+				break;
+			}
+			default:
+			{
+				throw new NoViableAltException(LT(1), getFilename());
+			}

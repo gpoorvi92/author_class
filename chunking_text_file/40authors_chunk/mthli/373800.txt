@@ -1,0 +1,10 @@
+ */
+public class PrintComponent extends JComponent implements Printable
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   public void paintComponent(Graphics g)
+   {
+      Graphics2D g2 = (Graphics2D) g;
+      drawPage(g2);

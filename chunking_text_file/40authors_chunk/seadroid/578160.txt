@@ -1,0 +1,10 @@
+     * add a photo cache to local database
+     *
+     * @param repoName
+     * @param repoID
+     * @param path
+     */
+    public void addCachedPhoto(String repoName, String repoID, String path) {
+        SeafCachedPhoto item = new SeafCachedPhoto();
+        item.repoName = repoName;
+        item.repoID = repoID;

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public String toString() {
+		return "SingleRecordInfo [userAppId=" + userAppId + ", missionId=" + missionId + ", appName=" + appName + ", md5=" + md5 + ", appSize="
+				+ appSize + ", startedTime=" + startedTime + ", finishedTime=" + finishedTime + ", plotsType=" + plotsType + ", appCheckResult="
+				+ appCheckResult + "]";
+	}
+
+}

@@ -1,0 +1,10 @@
+  public boolean getCapCashDeposit() throws JposException;
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapLockTerminal() throws JposException;
+  public boolean getCapLogStatus() throws JposException;
+  public boolean getCapUnlockTerminal() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+
+  // Properties
+  public long    getBalance() throws JposException;
+  public int     getLogStatus() throws JposException;

@@ -1,0 +1,10 @@
+
+    public Object getFieldValue(_Fields field) {
+      switch (field) {
+      case RULES:
+        return getRules();
+
+      }
+      throw new IllegalStateException();
+    }
+

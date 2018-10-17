@@ -1,0 +1,10 @@
+    private static final String DEBUG_TAG = "Avatar";
+    
+    private String signature; // Account Signature
+    private String url;
+    private long mtime;
+    // private boolean is_default;
+
+    static Avatar fromJson(JSONObject obj) {
+        Avatar avatar = new Avatar();
+        try {

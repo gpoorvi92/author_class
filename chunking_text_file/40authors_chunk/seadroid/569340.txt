@@ -1,0 +1,10 @@
+        this.dstRepoId = dstRepoId;
+        this.dstDir = dstDir;
+    }
+
+    public boolean isCopy() {
+        return op == OP.COPY;
+    }
+
+    public boolean isMove() {
+        return op == OP.MOVE;

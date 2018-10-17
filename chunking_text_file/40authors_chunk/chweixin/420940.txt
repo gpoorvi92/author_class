@@ -1,0 +1,10 @@
+	 * 设置上传附加文件类型。
+	 * @param attachmentContentType
+	 * 上传附加文件类型。
+	 * */
+	public void setAttachmentContentType(String attachmentContentType) {
+		this.attachmentContentType = attachmentContentType;
+	}
+	/**
+	 * 设置上传附件文件名称。
+	 * @param attachmentFileName

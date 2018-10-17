@@ -1,0 +1,10 @@
+ * P255
+ * schedule(TimerTask task, long delay, long period)方法
+ * long类型
+ * 不延时的情况下，若执行任务未被延时，第一次执行是任务开始+delay，下次执行任务的开始时间是上一次任务的开始时间加上period
+ */
+public class Run4_schedule4 {
+    static public class MyTask extends TimerTask {
+        @Override
+        public void run() {
+            try {

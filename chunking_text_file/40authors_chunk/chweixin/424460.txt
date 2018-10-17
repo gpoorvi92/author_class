@@ -1,0 +1,10 @@
+			hql += " order by w." + info.getSort() + " " + info.getOrder();
+		}
+		return this.find(hql, parameters, info.getPage(), info.getRows());
+	}
+
+	@Override
+	public Long total(WeChatUserInfo info) {
+		String hql = "select count(*) from WeChatUser w where 1 = 1 ";
+		Map<String, Object> parameters = new HashMap<>();
+		hql = this.addWhere(info, hql, parameters);

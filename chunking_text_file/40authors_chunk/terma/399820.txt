@@ -1,0 +1,10 @@
+public class StaticTcpProxyConfigParserTest {
+
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
+
+    private Properties properties = new Properties();
+
+    @Before
+    public void before() {
+        properties.setProperty("test1.localPort", "1");

@@ -1,0 +1,10 @@
+    * @param keyword the keyword to look for
+    */
+   public MatchCounter(File directory, String keyword)
+   {
+      this.directory = directory;
+      this.keyword = keyword;
+   }
+
+   public Integer call()
+   {

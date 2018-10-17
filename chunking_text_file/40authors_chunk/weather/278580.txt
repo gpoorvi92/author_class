@@ -1,0 +1,10 @@
+    private static final int DEFAULT_SIZE = 256;
+
+    private final ByteArrayPool mPool;
+
+    /**
+     * Constructs a new PoolingByteArrayOutputStream with a default size. If more bytes are written
+     * to this instance, the underlying byte array will expand.
+     */
+    public PoolingByteArrayOutputStream(ByteArrayPool pool) {
+        this(pool, DEFAULT_SIZE);

@@ -1,0 +1,10 @@
+		int sum = 0;
+		for(int x=1; x<=100; x++) {
+			sum+=x;
+		}
+		System.out.println("1-100Ö®ºÍÊÇ£º"+sum);
+		*/
+
+		//while
+		/*
+		int sum = 0;

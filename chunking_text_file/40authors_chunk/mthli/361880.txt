@@ -1,0 +1,10 @@
+          stat = conn.prepareStatement(authorQuery);
+          stat.setString(1, author);
+      }
+      else if (author.equals("Any") && !publisher.equals("Any"))
+      {
+          stat = conn.prepareStatement(publisherQuery);
+          stat.setString(1, publisher);
+      }
+      else
+         stat = conn.prepareStatement(allQuery);

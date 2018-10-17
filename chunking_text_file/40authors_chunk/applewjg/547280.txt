@@ -1,0 +1,10 @@
+    public String getPermutation_2(int n, int k) {
+        StringBuffer sb = new StringBuffer();
+        StringBuffer res = new StringBuffer();
+        int total = 1;
+        for (int i = 1; i <= n; ++i) {
+            total = total * i;
+            sb.append(i);
+        }
+        k--;
+        while(n != 0) {

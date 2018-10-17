@@ -1,0 +1,9 @@
+            	patron_group_type_text.setText("");
+            	patron_status_text.setText("");
+            	patron_loan_limit_text.setText("");
+            	patron_expiry_date_text.setText("");
+				 }
+        });
+        toolBar.add(button);
+    }
+ 		}

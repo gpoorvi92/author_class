@@ -1,0 +1,10 @@
+				TerminationToken existingToken = INSTANCES_MAP.putIfAbsent(
+				    executorSerivce, token);
+				if (null != existingToken) {
+					token = existingToken;
+				}
+			}
+			return token;
+		}
+	}
+

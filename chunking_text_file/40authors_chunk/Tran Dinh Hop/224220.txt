@@ -1,0 +1,10 @@
+	//datamembers
+	private final int hashSize = 65535;
+	private int nextCode = 256;
+	private HashNode[] data;
+
+	public Dictionary() 
+	{
+		//create chained array 
+		data = new HashNode[hashSize]; 
+

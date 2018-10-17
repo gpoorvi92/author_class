@@ -1,0 +1,10 @@
+    }
+    public GameServerRpcClient getGameServerRpcClientByZoneId(int zoneId)
+    {
+        ZoneEntity zoneEntity = ZoneEntityManager.getInstance().getZoneEntiryByZoneId(zoneId);
+        return gameServerRpcClientMap.get(zoneEntity.getGameServerHost());
+    }
+    public ChatServerRpcClient getChatServerRpcClientByZoneId(int zoneId)
+    {
+        ZoneEntity zoneEntity = ZoneEntityManager.getInstance().getZoneEntiryByZoneId(zoneId);
+        return chatServerRpcClientMap.get(zoneEntity.getChatServerHost());

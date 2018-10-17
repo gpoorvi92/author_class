@@ -1,0 +1,5 @@
+    @Override
+    public List<SendAddress> findById(Integer userId) {
+        return sendAddressMapper.findById(userId);
+    }
+}

@@ -1,0 +1,10 @@
+						//System.out.println(antonym);
+						for (String opposite : antonym.getSynset().getWordForms()) {
+							System.out.println("             antonym (of " + wordForm+"): " + opposite);
+						}
+					}
+				}
+			}
+			System.out.println("\n");
+		}
+	}

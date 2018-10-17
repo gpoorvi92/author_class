@@ -1,0 +1,8 @@
+	}
+	
+	public void registerForChange(ColorFramePanelGradient gradientPanel)
+	{
+		this.gradientPanel = gradientPanel;
+	}
+}
+		

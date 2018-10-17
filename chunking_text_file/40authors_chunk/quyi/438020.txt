@@ -1,0 +1,10 @@
+
+  public boolean equals(NodeInfo that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_hardware = true && this.isSetHardware();
+    boolean that_present_hardware = true && that.isSetHardware();
+    if (this_present_hardware || that_present_hardware) {
+      if (!(this_present_hardware && that_present_hardware))
+        return false;

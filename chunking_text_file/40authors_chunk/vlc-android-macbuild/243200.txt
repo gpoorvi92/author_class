@@ -1,0 +1,10 @@
+    public static final String VOD_TAG__LOCAL = "local";
+
+    public String mVodTag;
+    public ArrayList<PlayIndex> mVodList = new ArrayList<PlayIndex>();
+
+    private PlayIndex mSelectedPlayIndex;
+
+    public VodIndex(String vodTag) {
+    }
+

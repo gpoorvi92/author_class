@@ -1,0 +1,10 @@
+		public void run() {
+			Canvas c;
+            while (this.flag) {
+                c = null;
+                try {
+                	// 锁定整个画布，在内存要求比较高的情况下，建议参数不要为null
+                    c = this.surfaceHolder.lockCanvas(null);
+                    synchronized (this.surfaceHolder) {
+                    	helpView.onDraw(c);
+                    }

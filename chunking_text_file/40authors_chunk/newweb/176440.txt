@@ -1,0 +1,10 @@
+import com.newweb.dao.base.TypeForBrandDao;
+import com.newweb.model.base.TypeForBrand;
+
+@Component("typeForBrandDao")
+public class TypeForBrandDaoImp implements TypeForBrandDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired

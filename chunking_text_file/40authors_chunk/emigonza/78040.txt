@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface BiometricsService111 extends BiometricsService110
+{
+  // Specification changes marked as version 1.11 were incorporated into

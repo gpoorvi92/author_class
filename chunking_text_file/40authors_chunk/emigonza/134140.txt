@@ -1,0 +1,10 @@
+
+    /**
+     * Class method that facilitate usage of Tracer.println() method
+     * @param obj the Object to print -- obj.toString()
+     */
+    public static void println( Object obj ) { tracer.println( obj.toString() ); }
+
+    /**
+     * Class print method that facilitate usage Tracer.print() method
+     * @param obj the Object to print -- obj.toString()

@@ -1,0 +1,10 @@
+						txtPass.setText ("");
+						txtUser.requestFocus ();
+					}
+				}
+				catch (SQLException sqlex) { }
+			}
+
+		}		
+
+		if (obj == btnCancel) {		//If Cancel Button Pressed Unload the From.

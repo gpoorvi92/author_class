@@ -1,0 +1,10 @@
+		prnLog.error(message, t);
+	}
+
+	/**
+	 * 输出FATAL级别的调试信息
+	 * 
+	 * @param message
+	 *            调试信息
+	 */
+	public void fatal(Object message) {

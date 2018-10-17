@@ -1,0 +1,9 @@
+			prop.setProperty("count", String.valueOf(count));
+
+			// 把集合的数据写到文本文件
+			Writer w = new FileWriter("playCount.txt");
+			prop.store(w, null);
+			w.close();
+		}
+	}
+}

@@ -1,0 +1,10 @@
+import org.slf4j.LoggerFactory;
+
+
+
+public abstract class UploadServletAsyncListenerAdapter
+		implements AsyncListener {
+
+	private static final Logger log = LoggerFactory.getLogger(UploadServletAsyncListenerAdapter.class);
+
+	private UUID id;

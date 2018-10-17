@@ -1,0 +1,10 @@
+ */
+public class Chart extends JApplet
+{
+   public void init()
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               String v = getParameter("values");

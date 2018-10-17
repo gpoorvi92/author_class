@@ -1,0 +1,10 @@
+       question.requestFocus();
+    }
+
+    private void saveFile(File file) {
+         
+       try {
+          BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+          Iterator cardIterator = cardList.iterator();
+          while (cardIterator.hasNext()) {
+             QuizCard card = (QuizCard) cardIterator.next();

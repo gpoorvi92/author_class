@@ -1,0 +1,10 @@
+		OutputStream out = null;
+		ObjectOutputStream  oout = null;
+		try{
+			out = gameView.getContext().openFileOutput("game.ytl", 0);
+			oout = new ObjectOutputStream(out);
+		
+			
+			oout.writeObject(gameView.hero);//保存英雄对象			
+			oout.writeInt(gameView.startRow);//屏幕在大地图中的行数
+			oout.writeInt(gameView.startCol);//屏幕在大地图中的列数

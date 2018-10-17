@@ -1,0 +1,9 @@
+                          int blinkOffCycle,
+                          int color,
+                          int alarm)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;
+}

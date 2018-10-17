@@ -1,0 +1,10 @@
+		ThreadPriority tp2 = new ThreadPriority();
+		ThreadPriority tp3 = new ThreadPriority();
+
+		// 通过setName()方法
+		tp1.setName("东方不败");
+		tp2.setName("岳不群");
+		tp3.setName("林平之");
+
+		// 获取默认优先级
+		// System.out.println(tp1.getPriority());

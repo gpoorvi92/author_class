@@ -1,0 +1,10 @@
+          result.ue = ue;
+        }
+        return result;
+      }
+    }
+
+    public static class reportNodeManagerConfig<I extends Iface> extends org.apache.thrift.ProcessFunction<I, reportNodeManagerConfig_args> {
+      public reportNodeManagerConfig() {
+        super("reportNodeManagerConfig");
+      }

@@ -1,0 +1,10 @@
+
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+
+/**
+ * Created by qihigh on 7/15/14.
+ * Modified by ____.
+ */
+public class WeeklyItemView extends RelativeLayout {
+    @InjectView(R.id.weekly_title)

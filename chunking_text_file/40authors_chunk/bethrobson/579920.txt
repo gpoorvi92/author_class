@@ -1,0 +1,10 @@
+        try {
+            sock = new Socket("127.0.0.1", 5000);
+            writer = new PrintWriter(sock.getOutputStream());
+            System.out.println("networking established");
+        }
+        catch(IOException ex)
+        {
+            ex.printStackTrace();
+        }
+    }

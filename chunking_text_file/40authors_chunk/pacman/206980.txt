@@ -1,0 +1,10 @@
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testPics() throws Exception {
+		
+		List<String> list = new ArrayList<String>();
+		list.add("http://f1.ct.hjfile.cn/image/event/201412/02152036689a723_w500.jpg");
+		list.add("http://f1.ct.hjfile.cn/image/event/201404/10555_w500.jpg");

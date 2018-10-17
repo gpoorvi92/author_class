@@ -1,0 +1,10 @@
+	
+	public boolean CompCodeIsValid(String tstrCompCode) {
+		boolean mbln=true;
+		moCompCodeIsValid.CompCodeIsValid(tstrCompCode);
+		if (moCompCodeIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}
+		return mbln;		
+	}
+	public boolean DivisionCodeIsValid(String tstrDivisionCode) {

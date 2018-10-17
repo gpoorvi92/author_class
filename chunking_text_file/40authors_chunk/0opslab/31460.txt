@@ -1,0 +1,10 @@
+   */
+  public Reader open(URL url) throws IOException;
+
+  /**
+   * <p>
+   * Low-level method that detects the codepage (charset) of the document
+   * specified by the given URL.
+   * </p>
+   * 
+   * @exception IOException

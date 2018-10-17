@@ -1,0 +1,10 @@
+		} else if(type == RADIAL_CONTROLS)
+		{
+			showRadialDialog();
+		} else {
+			showLinearDialog();
+		}
+		
+		xSlider.addChangeListener(this);
+		ySlider.addChangeListener(this);
+		wSlider.addChangeListener(this);

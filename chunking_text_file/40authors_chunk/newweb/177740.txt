@@ -1,0 +1,10 @@
+			HttpServletRequest request, HttpServletResponse response){
+		return "page/system/cms.jsp";
+	}
+	
+	@RequestMapping(value="businessSystemDo.action")
+	public String businessSystemDo(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response){
+		
+		return "page/system/businessSystem.jsp";
+	}

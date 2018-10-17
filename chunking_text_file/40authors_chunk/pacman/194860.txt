@@ -1,0 +1,2 @@
+	public StepExecuteException(String msg, Exception innerException) { super(msg, innerException); }
+}

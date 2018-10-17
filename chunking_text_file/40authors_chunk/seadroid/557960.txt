@@ -1,0 +1,10 @@
+
+    private List<CustomAction> customActions = Lists.newArrayList();
+
+    public interface OnItemSelectedListener {
+        void onAppSelected(ResolveInfo appInfo);
+        void onCustomActionSelected(CustomAction action);
+    }
+
+    public void init(String title, List<ResolveInfo> appInfos, OnItemSelectedListener listener) {
+        mAppInfos = appInfos;

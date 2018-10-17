@@ -1,0 +1,10 @@
+                rgb[2] = (pixel & 0xff);
+                list[i][j] = rgb[0] + "," + rgb[1] + "," + rgb[2];
+
+            }
+        }
+        return list;
+
+    }
+
+    /**

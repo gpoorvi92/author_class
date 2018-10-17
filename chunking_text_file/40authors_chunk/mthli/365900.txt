@@ -1,0 +1,10 @@
+            {
+               JFrame frame = new SwingThreadFrame();
+               frame.setTitle("SwingThreadTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+

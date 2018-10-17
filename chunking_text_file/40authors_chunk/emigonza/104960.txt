@@ -1,0 +1,9 @@
+    }
+
+    public int getStatus()
+    {
+        return status;
+    }
+
+    protected int status;
+}

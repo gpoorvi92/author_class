@@ -1,0 +1,10 @@
+
+		// parse the requestuest
+		FileItemIterator iter = upload.getItemIterator(request);
+		FileItemStream item = iter.next();
+
+		// throw exception if item is null
+		if (item == null) {
+			throw new JavaFileUploaderException(ExceptionCodeMapping.NoFileToUploadInTheRequest);
+		}
+

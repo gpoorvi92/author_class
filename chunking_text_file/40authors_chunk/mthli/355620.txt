@@ -1,0 +1,10 @@
+    * Lays out the UI of the dialog.
+    * @param book the book to be previewed
+    */
+   public void layoutUI(Book book)
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      canvas = new PrintPreviewCanvas(book);
+      add(canvas, BorderLayout.CENTER);
+

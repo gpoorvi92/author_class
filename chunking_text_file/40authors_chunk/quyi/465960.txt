@@ -1,0 +1,10 @@
+			Workbook wb=null;
+			try {
+				 wb = Workbook.getWorkbook(new File(sfilePath)); // 从文件流中获取Excel工作区对象（WorkBook）
+				Sheet sheet = wb.getSheet(0); // 从工作区中取得页（Sheet）
+				List<String> rowinfoList = new ReadExcel().getRowInfo(sheet, row);
+				WritableFont NormalFont = new WritableFont(WritableFont.ARIAL, 10);
+				WritableFont BoldFont = new WritableFont(WritableFont.ARIAL, 10, WritableFont.BOLD);
+				WritableCellFormat wcf_left = new WritableCellFormat(NormalFont);
+				wcf_left.setBorder(Border.NONE, BorderLineStyle.THIN);
+				wcf_left.setVerticalAlignment(VerticalAlignment.CENTRE); // 文字垂直对齐

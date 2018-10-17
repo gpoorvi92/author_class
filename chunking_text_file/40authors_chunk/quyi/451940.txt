@@ -1,0 +1,10 @@
+    }
+
+    public int getUserAppsSize() {
+      return (this.userApps == null) ? 0 : this.userApps.size();
+    }
+
+    public java.util.Iterator<com.nercis.isscp.idl.UserApp> getUserAppsIterator() {
+      return (this.userApps == null) ? null : this.userApps.iterator();
+    }
+

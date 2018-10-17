@@ -1,0 +1,10 @@
+			destFolder.mkdir();
+		}
+
+		// 获取数据源目录下的所有文件的File数组
+		File[] fileArray = srcFolder.listFiles();
+
+		// 遍历File数组,得到每一个File对象
+		for (File file : fileArray) {
+			// System.out.println(file); // d:\java\ForDemo.java
+			String name = file.getName(); // ForDemo.java

@@ -1,0 +1,10 @@
+    /**
+     * Simple date format
+     */
+    public static final String SIMPLE_DATE_FORMAT = "EEE MMM dd HH:mm:ss z yyyy";//"EEE MMM dd HH:mm:ss z yyyy"
+    /**
+     * Simple date format
+     */
+    public static final String DATE_FORMAT_DEFAULT_ZONE = "yy-MM-dd HH:mm";
+    /**
+     * default date format

@@ -1,0 +1,10 @@
+		System.out.println("请输入一个int类型的值：");
+		line = br.readLine();
+		number = Integer.parseInt(line);
+		System.out.println(number);
+		System.out.println("-------------------------");
+
+		// Scanner sc = new Scanner(System.in);
+		// // ...
+		// sc.close();
+	}

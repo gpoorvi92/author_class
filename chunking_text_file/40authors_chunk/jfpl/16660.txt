@@ -1,0 +1,10 @@
+
+	public void exec(String json) {
+
+	}
+
+	public boolean setChatBusiType(String tag) {
+		ctx.setChatBusiType(tag);
+		return true;
+	}
+

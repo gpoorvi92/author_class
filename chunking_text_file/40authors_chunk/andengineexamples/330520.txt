@@ -1,0 +1,10 @@
+
+	@Override
+	public void onCreateResources() {
+		this.mBitmapTextureAtlas = new BitmapTextureAtlas(this.getTextureManager(), 190, 190, TextureOptions.BILINEAR);
+		
+		final IBitmapTextureAtlasSource baseTextureSource = new EmptyBitmapTextureAtlasSource(190, 190);
+		final IBitmapTextureAtlasSource decoratedTextureAtlasSource = new BaseBitmapTextureAtlasSourceDecorator(baseTextureSource) {
+			@Override
+			protected void onDecorateBitmap(Canvas pCanvas) throws Exception {
+				this.mPaint.setColorFilter(new LightingColorFilter(Color.argb(128, 128, 128, 255), Color.TRANSPARENT));

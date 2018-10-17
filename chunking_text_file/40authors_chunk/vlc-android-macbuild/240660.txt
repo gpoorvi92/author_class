@@ -1,0 +1,10 @@
+                if (newTab.fragment == null) {
+                    newTab.fragment = Fragment.instantiate(mActivity,
+                            newTab.clss.getName(), newTab.args);
+                    ft.add(mContainerId, newTab.fragment, newTab.tag);
+                } else {
+                    ft.attach(newTab.fragment);
+                }
+            }
+
+            mLastTab = newTab;

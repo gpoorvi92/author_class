@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.cpuMhz, other.cpuMhz);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetMemSize()).compareTo(other.isSetMemSize());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetMemSize()) {

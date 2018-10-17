@@ -1,0 +1,10 @@
+    if (isSetCpuUsedPerc()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.cpuUsedPerc, other.cpuUsedPerc);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetFreeMem()).compareTo(other.isSetFreeMem());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

@@ -1,0 +1,10 @@
+	 */
+	public void visitPOSPrinter( DevCat devCat ) {}
+
+	/**
+	 * Visits a RemoteOrderDisplay DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitRemoteOrderDisplay( DevCat devCat ) {}
+
+	/**

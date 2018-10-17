@@ -1,0 +1,10 @@
+
+	/**
+	 * TODO:Insert Private field pname Getter method of Comment in here.
+	 * @return pname TODO:Insert method return of Comment in here.
+	 */
+	public String getPname() {
+		return this.pname;
+	}
+
+	/**

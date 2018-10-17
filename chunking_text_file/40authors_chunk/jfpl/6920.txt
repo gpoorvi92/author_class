@@ -1,0 +1,10 @@
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(ctx);
+		Editor editor = sp.edit();
+		editor.putString(key, value);
+		editor.commit();
+	}
+
+	public static String getValue(Context ctx, String key) {
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(ctx);

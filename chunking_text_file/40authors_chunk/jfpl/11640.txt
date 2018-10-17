@@ -1,0 +1,10 @@
+	protected void handleListItem(View v, int position) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		ImageView clpp1 = (ImageView) v.findViewById(R.id.clpp_icon);
+		TextView hphmTv = (TextView) v.findViewById(R.id.bind_veh_hphm);
+		TextView hpzlTv = (TextView) v.findViewById(R.id.bind_veh_hpzl);
+		String vio = acd.getStringValue("last_vio");
+		hphmTv.setText("豫A" + acd.getStringValue("hphm"));
+		hpzlTv.setText(GlobalVariables.getHpzlDesc(acd.getStringValue("hpzl")));
+		String clpp1Str = acd.getStringValue("clpp1");
+		clpp1.setImageBitmap(ImageLoader.getInstance().loadImageSync(

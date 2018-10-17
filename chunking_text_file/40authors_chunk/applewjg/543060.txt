@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 29, 2015
+ Problem:    Maximal Rectangle
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/maximal-rectangle/
+ Notes:
+ Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing all ones and return its area.
+
+ Solution: 1. dp. 

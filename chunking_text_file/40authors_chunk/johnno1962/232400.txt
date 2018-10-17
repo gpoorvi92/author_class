@@ -1,0 +1,10 @@
+
+/// class javax.swing.event.InternalFrameAdapter ///
+
+package org.genie.javax_swing;
+
+public class InternalFrameAdapterProxy extends javax.swing.event.InternalFrameAdapter {
+
+    long swiftObject;
+
+    /// public javax.swing.event.InternalFrameAdapter()

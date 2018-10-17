@@ -1,0 +1,10 @@
+    {
+        throw new UnsupportedOperationException("Operation not supported: readLine()");
+    }
+
+    public long readLong()
+        throws IOException, EOFException
+    {
+        return EndianUtils.readSwappedLong(in);
+    }
+

@@ -1,0 +1,10 @@
+public class UserDaoImpl implements UserDao {
+
+    private static File file = new File("user.txt");
+
+    static {
+        try {
+            file.createNewFile();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }

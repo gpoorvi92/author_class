@@ -1,0 +1,10 @@
+    String checkResult)
+  {
+    this();
+    this.monitorTime = monitorTime;
+    this.screenShotPath = screenShotPath;
+    this.imageContent = imageContent;
+    this.checkResult = checkResult;
+  }
+
+  /**

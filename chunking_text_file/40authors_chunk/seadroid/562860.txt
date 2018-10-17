@@ -1,0 +1,10 @@
+            // .delayBeforeLoading(1000)
+            .showImageOnLoading(R.drawable.default_avatar)
+            .showImageForEmptyUri(R.drawable.default_avatar)
+            .showImageOnFail(R.drawable.default_avatar)
+            .resetViewBeforeLoading()
+            .cacheInMemory(true)
+            .cacheOnDisk(true)
+            .considerExifParams(true)
+            .displayer(new RoundedBitmapDisplayer(50))
+            .build();

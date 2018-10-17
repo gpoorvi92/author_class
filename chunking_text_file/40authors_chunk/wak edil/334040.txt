@@ -1,0 +1,10 @@
+				frame.setSize(950,400);
+				frame.setVisible(true);
+				frame.setLocationRelativeTo(null);
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				this.dispose();
+		}
+		if(e.getSource() ==jbtChoc2)
+		{
+				BandungInfo frame = new BandungInfo();
+				frame.setTitle("Bandung Info");

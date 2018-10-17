@@ -1,0 +1,10 @@
+				mqFactory.closeTopicListener();
+				mqFactory.setTopicListener(dest, listener);
+			} else {
+				
+				if (MessagePoller.getMessageManager() == null)
+					MessagePoller.setMessageManager(this);
+				MessagePoller.addListener(listener);
+			}
+		}
+	}

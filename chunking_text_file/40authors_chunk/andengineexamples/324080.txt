@@ -1,0 +1,10 @@
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0, 0, 0));
+
+		for(int i = 0; i < COUNT; i++) {
+			final float tension = MathUtils.random(-0.5f, 0.5f);

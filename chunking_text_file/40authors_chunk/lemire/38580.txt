@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * As you act on this class, it records the number of set (true) bits.
+     *
+     * @return number of set bits
+     */
+    public int getCount() {
+        return this.oneBits;
+    }

@@ -1,0 +1,10 @@
+        // prefer the center square:
+        float base = 1.0f;
+        if (pos.board[4] == TicTacToePosition.HUMAN &&
+            player) {
+            base += 0.4f;
+        }
+        if (pos.board[4] == TicTacToePosition.PROGRAM &&
+            !player) {
+            base -= 0.4f;
+        }

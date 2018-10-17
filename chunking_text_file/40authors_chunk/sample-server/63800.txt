@@ -1,0 +1,10 @@
+{
+    protected static final Logger log  = LoggerFactory.getLogger(BaseRpcServer.class);
+    protected              String host = "0.0.0.0";
+    protected int port;
+    public BaseRpcServer(int port)
+    {
+        this.port = port;
+    }
+    public BaseRpcServer(String host, int port)
+    {

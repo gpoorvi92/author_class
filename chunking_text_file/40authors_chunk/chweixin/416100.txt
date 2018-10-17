@@ -1,0 +1,10 @@
+	@Override
+	public T load(Class<T> c, Serializable id) {
+		if(c != null && id != null){
+			return (T)this.getCurrentSession().get(c, id);
+		}
+		return null;
+	}
+	/**
+	 * 保存新增对象。
+	 * @param data

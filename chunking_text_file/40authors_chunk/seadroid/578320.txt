@@ -1,0 +1,8 @@
+            if (seafDirent.name.equals(CameraUploadService.CAMERA_UPLOAD_REMOTE_DIR)) {
+                return;
+            }
+        }
+
+       mDataManager.createNewDir(repoID, parentDir, dirName);
+    }
+}

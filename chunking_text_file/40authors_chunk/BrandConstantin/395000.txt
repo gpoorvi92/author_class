@@ -1,0 +1,10 @@
+
+public class BaseExponentePotenciaConDoWhile {
+     public static void main(String[] args) {   
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Escribe el base (numero entero positivo)");
+    int base = teclado.nextInt();
+    
+    System.out.println("Escribe la exponente (numero entero positivo)");
+    int exponente = teclado.nextInt();

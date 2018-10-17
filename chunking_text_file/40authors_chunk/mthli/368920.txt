@@ -1,0 +1,10 @@
+package chart;
+
+import java.awt.*;
+import java.awt.font.*;
+import java.awt.geom.*;
+import java.beans.*;
+
+/**
+ * A custom editor for an array of floating-point numbers.
+ * @version 1.21 2007-10-03

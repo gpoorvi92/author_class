@@ -1,0 +1,10 @@
+            database.insert(AVATAR_TABLE_NAME, null, values);
+        }
+    }
+    
+    // avoid duplicate inserting request
+    private boolean isRowDuplicate(Avatar avatar) {
+
+        long count = DatabaseUtils.queryNumEntries(
+                database,
+                AVATAR_TABLE_NAME,

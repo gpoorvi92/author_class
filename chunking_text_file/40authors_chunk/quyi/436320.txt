@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetSystemResources()).compareTo(other.isSetSystemResources());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSystemResources()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.systemResources, other.systemResources);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

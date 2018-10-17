@@ -1,0 +1,10 @@
+    {
+  		Container myCont = getContentPane();
+		myCont.setLayout(new BorderLayout());
+		
+		// PANEL 1 - UP
+		JPanel p1 = new JPanel();
+		p1.setLayout(new FlowLayout());
+		p1.add(jtaheader,BorderLayout.CENTER);
+		jtaheader.setEditable(false);
+		myCont.add(p1,BorderLayout.NORTH);

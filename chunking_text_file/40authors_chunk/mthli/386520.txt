@@ -1,0 +1,10 @@
+
+      // look up a value
+
+      System.out.println(staff.get("157-62-7935"));
+
+      // iterate through all entries
+
+      for (Map.Entry<String, Employee> entry : staff.entrySet())
+      {
+         String key = entry.getKey();

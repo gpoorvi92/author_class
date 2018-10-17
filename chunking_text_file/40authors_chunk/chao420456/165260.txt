@@ -1,0 +1,7 @@
+			for (String key : set) {
+				String value = hm.get(key);
+				System.out.println(key + "---" + value);
+			}
+		}
+	}
+}

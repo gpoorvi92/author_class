@@ -1,0 +1,10 @@
+            return arg;
+        }
+
+        public byte[] byteArrayMethod( byte arg[] ) {
+            return arg;
+        }
+
+        public byte[][] byte2dArrayMethod( byte arg[][] ) {
+            return arg;
+        }

@@ -1,0 +1,10 @@
+      if (struct.isSetEngineType()) {
+        optionals.set(4);
+      }
+      if (struct.isSetNodeInfo()) {
+        optionals.set(5);
+      }
+      if (struct.isSetEngineRules()) {
+        optionals.set(6);
+      }
+      if (struct.isSetEnginePlots()) {

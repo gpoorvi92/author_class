@@ -1,0 +1,10 @@
+	public void setTempFolder(String tempFolder) {
+		this.tempFolder = tempFolder;
+	}
+	
+	@Override
+	public synchronized String execute() throws IOException{
+		Map<String, Object> result = new HashMap<>();
+		StringBuilder folderBuilder = new StringBuilder(File.separator);
+		if(this.tempFolder == null  || this.tempFolder.trim().isEmpty()){
+			this.tempFolder = "temp" + File.separator; 

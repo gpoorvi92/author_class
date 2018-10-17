@@ -1,0 +1,10 @@
+          }
+          triangles[j + 1] = value;
+      }
+    }
+
+    private void quickSort(Triangle[] triangles)
+    {
+        Arrays.sort(triangles,this);
+    }
+

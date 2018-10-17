@@ -1,0 +1,10 @@
+            String word = ret.get(i);
+            //  rule 1: DT, {VBD | VBP} --> DT, NN
+            if (i > 0 && ret.get(i - 1).equals("DT")) {
+                if (word.equals("VBD")
+                        || word.equals("VBP")
+                        || word.equals("VB")) {
+                    ret.set(i, "NN");
+                }
+            }
+            // rule 2: convert a noun to a number (CD) if "." appears in the word

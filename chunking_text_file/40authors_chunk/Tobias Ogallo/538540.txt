@@ -1,0 +1,10 @@
+		
+		setSize(370,250);
+		setVisible(true);
+		
+		setResizable(false);
+		setLocation((screen.width - 500)/2,((screen.height-350)/2));	
+
+	}
+	
+	public void login()

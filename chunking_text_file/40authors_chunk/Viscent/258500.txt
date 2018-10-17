@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void run() {
+		Context.INSTANCE.setTransactionId(SEQ.getAndIncrement());
+		bs.service(message);
+	}
+
+}
+

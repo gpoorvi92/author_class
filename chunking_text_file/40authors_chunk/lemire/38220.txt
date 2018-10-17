@@ -1,0 +1,10 @@
+        if (v && (number > 0))
+            throw nonEmptyException;
+    }
+
+    /**
+     * throws a NonEmptyException exception when number is greater than 0
+     */
+    @Override
+    public void addStreamOfNegatedLiteralWords(Buffer buffer, int start,
+                                               int number) {

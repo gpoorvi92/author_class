@@ -1,0 +1,10 @@
+      }
+      else
+      {
+         button.setIcon(normalIcon);
+         button.setText("Normal");
+      }
+   }
+
+   private ImageIcon inverseIcon = new ImageIcon(getClass().getResource(
+         "ChartBean_INVERSE_16x16.gif"));

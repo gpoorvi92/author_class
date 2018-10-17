@@ -1,0 +1,10 @@
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        Bundle bundle = new Bundle();
+
+        bundle.putParcelable(BUNDLE_HIGH_QUAL_GROUP, mHighQualGroup);
+        bundle.putParcelable(BUNDLE_LOW_QUAL_GROUP, mLowQualGroup);
+

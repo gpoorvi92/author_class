@@ -1,0 +1,10 @@
+    * Loads the contents of a file into the text area.
+    * @param filename the file name
+    */
+   public void loadFile(String filename)
+   {
+      fileText.setText("");
+      try 
+      {
+         fileText.append(new String(Files.readAllBytes(Paths.get(filename))));            
+      }

@@ -1,0 +1,10 @@
+  }
+
+  public int getEnginesSize() {
+    return (this.engines == null) ? 0 : this.engines.size();
+  }
+
+  public java.util.Iterator<Engine> getEnginesIterator() {
+    return (this.engines == null) ? null : this.engines.iterator();
+  }
+

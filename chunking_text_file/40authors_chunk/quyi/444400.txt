@@ -1,0 +1,10 @@
+    return this.userApp != null;
+  }
+
+  public void setUserAppIsSet(boolean value) {
+    if (!value) {
+      this.userApp = null;
+    }
+  }
+
+  public StaticCheckResultData getStaticCheckResult() {

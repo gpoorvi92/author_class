@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean save(OrderPrice op) {
+		return orderPriceDao.insert(op);
+	}
+
+	@Override
+	public boolean modify(OrderPrice op) {
+		return orderPriceDao.update(op);
+	}

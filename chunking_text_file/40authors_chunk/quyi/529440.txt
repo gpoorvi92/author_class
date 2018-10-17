@@ -1,0 +1,10 @@
+    return EncodingUtils.testBit(__isset_bitfield, __APP_SIZE_ISSET_ID);
+  }
+
+  public void setApp_sizeIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __APP_SIZE_ISSET_ID, value);
+  }
+
+  public String getMinsdkversion() {
+    return this.minsdkversion;
+  }

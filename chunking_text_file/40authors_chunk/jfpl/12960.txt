@@ -1,0 +1,10 @@
+		case 2:
+			recentTv.setTextColor(black);
+			appTv.setTextColor(black);
+			settingTv.setTextColor(green);
+			break;
+
+		default:
+			break;
+		}
+	}

@@ -1,0 +1,10 @@
+		bos.close();
+		bis.close();
+	}
+
+	// 高效字节流一次读写一个字节
+	public static void method3(File srcFile, File destFile) throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				srcFile));
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream(destFile));

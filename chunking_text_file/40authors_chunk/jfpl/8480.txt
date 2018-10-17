@@ -1,0 +1,10 @@
+
+	private Handler handler = new Handler() {
+		@Override
+		public void handleMessage(Message msg) {
+			super.handleMessage(msg);
+			if (msg.what == 100) {
+				View v = (View) msg.obj;
+				setContentView(v);
+			}
+		}

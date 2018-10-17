@@ -1,0 +1,10 @@
+    private static final void put(RpcPacketHandler.RpcPacketWrapper diapatcherWrapper)
+    {
+        if (rpcRequestQueue.size() >= QUEUE_SIZE_WARN_THRESHOLD)
+        {
+            log.warn("size of rpc request queue is big than {}", QUEUE_SIZE_WARN_THRESHOLD);
+        }
+        try
+        {
+            boolean success = rpcRequestQueue.offer(diapatcherWrapper, 1000L, TimeUnit.MILLISECONDS);
+            if (!success)

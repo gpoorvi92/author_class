@@ -1,0 +1,10 @@
+    public List<com.nercis.isscp.idl.PlotsType> getPlots() {
+      return this.plots;
+    }
+
+    public submitMission_args setPlots(List<com.nercis.isscp.idl.PlotsType> plots) {
+      this.plots = plots;
+      return this;
+    }
+
+    public void unsetPlots() {

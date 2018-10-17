@@ -1,0 +1,10 @@
+			}
+		}
+		return null;
+	}
+
+
+	public static void setCookie(HttpServletResponse response, UUID uuid) {
+		Cookie cookie = new Cookie(cookieIdentifier, uuid.toString());
+		cookie.setMaxAge((int) TimeUnit.DAYS.toSeconds(31));
+		response.addCookie(cookie);

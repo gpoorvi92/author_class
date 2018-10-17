@@ -1,0 +1,10 @@
+public class GameFormula{
+	public static final int BASIC_STRENGTH_INCREMENT = 18;//英雄的体力基础增加值
+	public static final int EXTRA_STRENGTH_INCREMENT = 2;//英雄的体力额外增加值，和等级有关
+	public static final int FOOD_DECREASE_EACH = 8;//每个人消耗的粮食
+	//计算并返回英雄应该增加的体力
+	public static int getHeroStrengthIncrement(Hero hero){//根据英雄的现状计算体力该增加多少
+		int level = hero.level;
+		int increment = BASIC_STRENGTH_INCREMENT+level*EXTRA_STRENGTH_INCREMENT;
+		if(hero.strength+increment >hero.maxStrength){
+			increment = hero.maxStrength-hero.strength;

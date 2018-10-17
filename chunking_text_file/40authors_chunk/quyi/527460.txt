@@ -1,0 +1,10 @@
+          {
+            Engine _elem28;
+            _elem28 = new Engine();
+            _elem28.read(iprot);
+            struct.engines.add(_elem28);
+          }
+        }
+        struct.setEnginesIsSet(true);
+      }
+      if (incoming.get(2)) {

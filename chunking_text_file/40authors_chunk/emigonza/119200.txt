@@ -1,0 +1,10 @@
+        // Properties
+        makeProperty("AutoDisable"),
+        makeProperty("Color"),
+        makeProperty("ConcurrentMICR"),
+        makeProperty("CropAreaCount"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("DocumentHeight"),
+        makeProperty("DocumentWidth"),
+        makeProperty("FileID"),

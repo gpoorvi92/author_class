@@ -1,0 +1,10 @@
+    boolean isTextModified();
+
+    /**
+     * This method is used to obtain the currently selected text.
+     *
+     * @return The currently selected text, or
+     * <code>null</code> if the user has not made any selection.
+     */
+    byte[] getSelectedText();
+

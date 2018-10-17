@@ -1,0 +1,8 @@
+			count++;
+		}
+
+		System.out.println("Total request count:" + count);
+		System.out.println(requestCounter);
+	}
+
+}

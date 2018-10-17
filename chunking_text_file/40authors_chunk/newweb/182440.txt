@@ -1,0 +1,10 @@
+//			OrderPrice op = new OrderPrice();
+//			op.setOrder(ob.getOrder());
+//			op.setProductID(ob.getBxg().getID());
+//			op.setType("bxg");
+//			double price = BxgService.findBxgByIdBindCut(ob.getBxg().getID(), 
+//					ob.getOrder().getCustomer().getID(), ob.getOrder().getID()).getLsprice();
+//			op.setPrice(price);
+//			if(orderPriceService.save(op)){
+//				System.out.println(ob.getID());
+//			}

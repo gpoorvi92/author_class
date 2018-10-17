@@ -1,0 +1,10 @@
+  public VirusEngine setUpdate(String update) {
+    this.update = update;
+    return this;
+  }
+
+  public void unsetUpdate() {
+    this.update = null;
+  }
+
+  /** Returns true if field update is set (has been assigned a value) and false otherwise */

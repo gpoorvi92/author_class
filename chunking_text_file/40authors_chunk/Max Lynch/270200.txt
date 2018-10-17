@@ -1,0 +1,10 @@
+  public Color getBoundaryColor(){
+    return color2;
+  }
+
+  /**
+   * @return gradient bounds
+   */
+  public Rectangle2D getBounds(){
+    return (Rectangle2D)gradientBounds.clone();
+  }

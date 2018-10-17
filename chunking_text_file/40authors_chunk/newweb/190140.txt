@@ -1,0 +1,10 @@
+			FileInputStream fis = new FileInputStream(f);
+			// 读取数据，并将读取到的数据存储到数组中
+			byte[] data = new byte[(int) f.length() +50]; // 数据存储的数组
+			int i = 0; // 当前下标
+			// 读取流中的第一个字节数据
+			int n = fis.read();
+			// 依次读取后续的数据
+			while (n != -1) { // 未到达流的末尾
+				// 将有效数据存储到数组中
+				data[i] = (byte) n;

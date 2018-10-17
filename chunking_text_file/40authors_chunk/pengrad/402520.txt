@@ -1,0 +1,10 @@
+        } else if (file instanceof byte[]) {
+            isMultipart = true;
+        } else {
+            throw new IllegalArgumentException("Sending data should be String, File or byte[]");
+        }
+        add(getFileParamName(), file);
+    }
+
+    public T fileName(String fileName) {
+        this.fileName = fileName;

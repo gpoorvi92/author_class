@@ -1,0 +1,10 @@
+		Person p8 = new Person("xijinping", 26);
+
+		// Ìí¼ÓÔªËØ
+		ts.add(p1);
+		ts.add(p2);
+		ts.add(p3);
+		ts.add(p4);
+		ts.add(p5);
+		ts.add(p6);
+		ts.add(p7);

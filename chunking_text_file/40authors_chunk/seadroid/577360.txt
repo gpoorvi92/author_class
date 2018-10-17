@@ -1,0 +1,10 @@
+                        mHeadTextView.startAnimation(mShakeAnim);
+                    }
+
+                } else {
+                    ToastUtils.show(UnlockGesturePasswordActivity.this, getResources().getString(R.string.lockscreen_access_pattern_failure_not_long_enough));
+                }
+
+                if (mFailedPatternAttemptsSinceLastTimeout >= LockPatternUtils.FAILED_ATTEMPTS_BEFORE_TIMEOUT) {
+                    mHandler.postDelayed(attemptLockout, 2000);
+                } else {

@@ -1,0 +1,10 @@
+		Dog d = new Dog();
+		Dog d2 = new Dog();
+		Dog d3 = new Dog();
+
+		//printDog(d);
+		//printDog(d2);
+		//printDog(d3);
+		printAnimal(d);
+		printAnimal(d2);
+		printAnimal(d3);

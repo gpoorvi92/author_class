@@ -1,0 +1,10 @@
+	HEART_SIX(Color.HEART, Value.SIX),
+	HEART_SEVEN(Color.HEART, Value.SEVEN),
+	HEART_EIGHT(Color.HEART, Value.EIGHT),
+	HEART_NINE(Color.HEART, Value.NINE),
+	HEART_TEN(Color.HEART, Value.TEN),
+	HEART_JACK(Color.HEART, Value.JACK),
+	HEART_QUEEN(Color.HEART, Value.QUEEN),
+	HEART_KING(Color.HEART, Value.KING),
+	
+	SPADE_ACE(Color.SPADE, Value.ACE),

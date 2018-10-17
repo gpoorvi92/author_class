@@ -1,0 +1,10 @@
+     * responses that were shown or selected by the user when the context menu
+     * was invoked.
+     *
+     * <b>Note:</b> For performance reasons, the objects returned from this
+     * method are tied to the originating context of the messages within the
+     * Burp UI. For example, if a context menu is invoked on the Proxy intercept
+     * panel, then the
+     * <code>IHttpRequestResponse</code> returned by this method will reflect
+     * the current contents of the interception panel, and this will change when
+     * the current message has been forwarded or dropped. If your extension

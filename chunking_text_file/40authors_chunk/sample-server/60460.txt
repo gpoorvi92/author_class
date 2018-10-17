@@ -1,0 +1,10 @@
+        {
+            ChannelPipeline p = Channels.pipeline();
+            p.addLast("protobufDecoder", new ProtocolBuffersDecoder(Rpc.RpcPacket.getDefaultInstance()));
+            p.addLast("protobufEncoder", new ProtocolBuffersEncoder());
+            p.addLast("handler", internalHandler);
+            return p;
+        }
+        private final class InternalHandler extends SimpleChannelHandler
+        {
+            @Override

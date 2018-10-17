@@ -1,0 +1,3 @@
+    public void    rotatePrint(int rotation) throws JposException;
+    public void    validateData(String data) throws JposException;
+}

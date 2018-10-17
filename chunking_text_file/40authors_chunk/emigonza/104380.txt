@@ -1,0 +1,10 @@
+
+    // Properties
+    public int     getCartridgeNotify() throws JposException;
+    public void    setCartridgeNotify(int notify) throws JposException;
+    public int     getJrnCartridgeState() throws JposException;
+    public int     getJrnCurrentCartridge() throws JposException;
+    public void    setJrnCurrentCartridge(int cartridge) throws JposException;
+    public int     getRecCartridgeState() throws JposException;
+    public int     getRecCurrentCartridge() throws JposException;
+    public void    setRecCurrentCartridge(int cartridge) throws JposException;

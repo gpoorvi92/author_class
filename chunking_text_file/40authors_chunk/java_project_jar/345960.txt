@@ -1,0 +1,10 @@
+        copy(((InputStream) (in)), output);
+    }
+
+    public static void copy(byte input[], Writer output, String encoding)
+        throws IOException
+    {
+        ByteArrayInputStream in = new ByteArrayInputStream(input);
+        copy(((InputStream) (in)), output, encoding);
+    }
+

@@ -1,0 +1,10 @@
+            String encryptPwd = MD5Encrypt.encrypt(passwd);
+            UserEntity user = DaoManager.getLocalDao().selectUser4Login(account, encryptPwd);
+            if (null == user)
+            {
+                resultCode.setResult(JsonResponse.Result.FALSE);
+                resultCode.setMsg(SpringContextUtil.getMessage("login.accountorpassword.error", "帐号或密码错误", locale));
+            }
+            else
+            {
+                AttributeManager.setAttribute(AttributeManager.SESSION_ATTR_CTX, request.getSession(), CenterContext.newContext(user));

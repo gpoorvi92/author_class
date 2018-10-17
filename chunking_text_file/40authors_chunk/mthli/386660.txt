@@ -1,0 +1,10 @@
+      g2.translate((float) xoff, (float) yoff);
+      g2.scale((float) scale, (float) scale);
+
+      // draw page outline (ignoring margins)
+      Rectangle2D page = new Rectangle2D.Double(0, 0, px, py);
+      g2.setPaint(Color.white);
+      g2.fill(page);
+      g2.setPaint(Color.black);
+      g2.draw(page);
+

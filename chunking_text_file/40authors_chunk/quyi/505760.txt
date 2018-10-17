@@ -1,0 +1,7 @@
+	}
+
+	public void setAppPath(String appPath) {
+		this.appPath = appPath;
+	}
+
+}

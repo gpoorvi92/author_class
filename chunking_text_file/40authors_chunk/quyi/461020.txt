@@ -1,0 +1,10 @@
+
+    public void addToSuccess(Engine elem) {
+      if (this.success == null) {
+        this.success = new ArrayList<Engine>();
+      }
+      this.success.add(elem);
+    }
+
+    public List<Engine> getSuccess() {
+      return this.success;

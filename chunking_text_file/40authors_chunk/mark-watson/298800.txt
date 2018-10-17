@@ -1,0 +1,10 @@
+	    System.out.println("Error in getNodePosition: " + e);
+	}
+	return 0;  // error condition
+    }
+
+
+    public int getNodeY(int index) {
+	try {
+	    return node_y[index];
+	} catch (Exception e) {

@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+
+        SeafileStyleDialogBuilder builder = new SeafileStyleDialogBuilder(getActivity());
+        builder.setTitle(mTitle);
+        builder.setSingleChoiceItems(new AppsListAdapter(), 0, new ListView.OnItemClickListener() {
+            @Override

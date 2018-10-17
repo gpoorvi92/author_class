@@ -1,0 +1,10 @@
+		this.dataSource = dataSource;
+		this.busiType = busiType;
+		this.chatList = chatList;
+	}
+
+	public void addItem(AbstractCommonData item) {
+		this.dataSource.add(item);
+		this.notifyDataSetChanged();
+	}
+

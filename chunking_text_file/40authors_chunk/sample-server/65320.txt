@@ -1,0 +1,10 @@
+            return clazz;
+        }
+        public String getKeyName()
+        {
+            return keyName;
+        }
+    }
+    public static final AttributeKey<CenterContext> SESSION_ATTR_CTX = new AttributeKey(CenterContext.class, "_CTX_");
+    //    public static final AttributeKey<CenterContext> SESSION_TARGET_ZONE = new AttributeKey(CenterContext.class, "_TARGET_ZONE_");
+    //    public static final String                      SESSION_ATTR_CTX         = "_CTX_";

@@ -1,0 +1,10 @@
+        return false;
+      if (!this.plotsStatus.equals(that.plotsStatus))
+        return false;
+    }
+
+    boolean this_present_checkStartTime = true && this.isSetCheckStartTime();
+    boolean that_present_checkStartTime = true && that.isSetCheckStartTime();
+    if (this_present_checkStartTime || that_present_checkStartTime) {
+      if (!(this_present_checkStartTime && that_present_checkStartTime))
+        return false;

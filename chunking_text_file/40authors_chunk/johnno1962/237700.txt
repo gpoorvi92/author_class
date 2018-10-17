@@ -1,0 +1,10 @@
+    boolean entered_windowActivated_5;
+
+    public void windowActivated( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowActivated_5 ) {
+            entered_windowActivated_5 = true;
+            __windowActivated( e );
+            entered_windowActivated_5 = false;
+        }
+        else
+            super.windowActivated( e );

@@ -1,0 +1,10 @@
+    /**
+     * 重新设定图像的长高宽
+     * @param originalImage 图像数据
+     * @param width 宽
+     * @param height 高
+     * @return
+     */
+    public static BufferedImage imageResize(BufferedImage originalImage, Integer width,Integer height){
+        if(width <= 0){
+            width =1;

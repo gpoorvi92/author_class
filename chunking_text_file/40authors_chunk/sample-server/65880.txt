@@ -1,0 +1,10 @@
+        this.addTime = addTime;
+    }
+    public int getLeftCount()
+    {
+        return leftCount;
+    }
+    public void setLeftCount(int leftCount)
+    {
+        this.leftCount = leftCount;
+    }

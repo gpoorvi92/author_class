@@ -1,0 +1,10 @@
+		return scene;
+	}
+
+	// ===========================================================
+	// Methods
+	// ===========================================================
+
+	private void toggle() {
+		this.mBitmapTextureAtlas.clearTextureAtlasSources();
+		this.mToggleBox = !this.mToggleBox;

@@ -1,0 +1,10 @@
+            } catch (IOException e) {
+            }
+        }
+        return appCacheDir;
+    }
+
+    public static String generate(String imageUri) {
+        byte[] md5 = getMD5(imageUri.getBytes());
+        BigInteger bi = new BigInteger(md5).abs();
+        if (imageUri.endsWith(".gif")||imageUri.endsWith(".GIF")) {

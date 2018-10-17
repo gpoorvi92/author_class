@@ -1,0 +1,10 @@
+        makeProperty("Track1Data"),
+        makeProperty("Track2Data"),
+        makeProperty("Track3Data"),
+        makeProperty("TransactionType"),
+        makeProperty("Track4Data"),
+
+      };
+
+      return properties;
+    }

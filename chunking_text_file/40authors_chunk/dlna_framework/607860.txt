@@ -1,0 +1,10 @@
+	{
+		Node rootNode = null;
+		
+		try {
+			XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+			factory.setNamespaceAware(true);
+			org.xmlpull.v1.XmlPullParser xpp = factory.newPullParser();
+			rootNode = parse(xpp, inStream);
+		}
+		catch (Exception e) {

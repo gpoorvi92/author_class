@@ -1,0 +1,10 @@
+  public byte[] getDetectResult() {
+    setDetectResult(org.apache.thrift.TBaseHelper.rightSize(detectResult));
+    return detectResult == null ? null : detectResult.array();
+  }
+
+  public ByteBuffer bufferForDetectResult() {
+    return detectResult;
+  }
+
+  public AppDetectResult setDetectResult(byte[] detectResult) {

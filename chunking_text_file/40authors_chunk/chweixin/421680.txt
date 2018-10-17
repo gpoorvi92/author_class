@@ -1,0 +1,10 @@
+		BeanUtils.copyProperties(info, data);
+		if(info.getAccountId() != null && (data.getAccount() == null || !data.getAccount().getId().equalsIgnoreCase(info.getAccountId()))){
+			WeChatAccount account = this.weChatAccountDao.load(WeChatAccount.class, info.getAccountId());
+			if(account != null) data.setAccount(account);
+		}
+		if(data.getAccount() != null){
+			info.setAccountName(data.getAccount().getName());
+		}
+		if(isAdded)this.weChatAccessTokenDao.save(data);
+		return info;

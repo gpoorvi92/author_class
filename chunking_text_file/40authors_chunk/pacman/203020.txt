@@ -1,0 +1,10 @@
+	 * @Title: findByPk
+	 * @param taskid
+	 * @return
+	 * @see com.yeshj.pacman.dao.IMediainfoDAO#findByPk(int)
+	 */
+	@Override
+	public MediainfoModel findByPk(int taskid) {
+
+		MediainfoMappingQuery query = new MediainfoMappingQuery();
+		query.setDataSource(getDataSource());

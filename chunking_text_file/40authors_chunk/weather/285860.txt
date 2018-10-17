@@ -1,0 +1,10 @@
+            } catch (InterruptedException e) {
+                // We may have been interrupted because it was time to quit.
+                if (mQuit) {
+                    return;
+                }
+                continue;
+            }
+
+            try {
+                request.addMarker("network-queue-take");

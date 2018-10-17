@@ -1,0 +1,10 @@
+        downloadTaskManager.addTaskToQue(account, repoName, repoID, path);
+    }
+
+    public List<DownloadTaskInfo> getAllDownloadTaskInfos() {
+        return (List<DownloadTaskInfo>) downloadTaskManager.getAllTaskInfoList();
+    }
+
+    public int getDownloadingFileCountByPath(String repoID, String dir) {
+        return downloadTaskManager.getDownloadingFileCountByPath(repoID, dir);
+    }

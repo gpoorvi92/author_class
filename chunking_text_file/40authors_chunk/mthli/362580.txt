@@ -1,0 +1,10 @@
+package proxy;
+
+import java.lang.reflect.*;
+import java.util.*;
+
+/**
+ * This program demonstrates the use of proxies.
+ * @version 1.00 2000-04-13
+ * @author Cay Horstmann
+ */

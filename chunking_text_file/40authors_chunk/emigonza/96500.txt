@@ -1,0 +1,7 @@
+        /**
+         * Prints a string appended without a new line to the tracer output
+         * @param s the String to print
+         */
+        public void print( String s ) { System.err.print( s ); }
+    }
+}

@@ -1,0 +1,10 @@
+
+		// 释放资源
+		raf.close();
+	}
+
+	private static void write() throws IOException {
+		// 创建对象
+		RandomAccessFile raf = new RandomAccessFile("raf.txt", "rw");
+
+		// 写数据

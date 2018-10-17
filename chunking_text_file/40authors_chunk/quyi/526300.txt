@@ -1,0 +1,10 @@
+  @Override
+  public void clear() {
+    this.missionId = null;
+    this.engines = null;
+    this.missionProgress = null;
+    this.samples = null;
+  }
+
+  public String getMissionId() {
+    return this.missionId;

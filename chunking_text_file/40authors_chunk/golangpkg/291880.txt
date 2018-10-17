@@ -1,0 +1,10 @@
+	@Test
+	public void testWithProgress() throws FileNotFoundException {
+		assertReturnedIsCorrect(15f, true);
+		assertReturnedIsCorrect(30f, true);
+		assertReturnedIsCorrect(30f, false);
+	}
+
+	private void assertReturnedIsCorrect(float returnedValue, boolean shallBePropagated)
+			throws FileNotFoundException {
+		

@@ -1,0 +1,10 @@
+                mTouchX = X;
+                enableParent = false;
+                break;
+            case MotionEvent.ACTION_MOVE:
+                Log.d("BaseViewPager","onInterceptTouchEvent action:ACTION_MOVE");
+                subX = X - mTouchX;
+                subY = Y - mTouchY;
+                float dY = Math.abs(subY);
+                float dX = Math.abs(subX);
+                Log.d("onInterceptTouchEventYY",subX+"");

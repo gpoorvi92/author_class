@@ -1,0 +1,10 @@
+        List<? extends TransferTaskInfo> transferTaskInfos = getAllTaskInfoList();
+        for (TransferTaskInfo transferTaskInfo : transferTaskInfos) {
+            cancel(transferTaskInfo.taskID);
+        }
+    }
+
+    public List<? extends TransferTaskInfo> getAllTaskInfoList() {
+        ArrayList<TransferTaskInfo> infos = Lists.newArrayList();
+        for (TransferTask task : allTaskList) {
+            infos.add(task.getTaskInfo());

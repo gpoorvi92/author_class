@@ -1,0 +1,10 @@
+                }
+            }
+
+            if (mLibVlcLoaded)
+                return;
+
+            try {
+                DebugLog.d(TAG, "loading vlcjni");
+                libLoader.loadLibVlc(context);
+                DebugLog.d(TAG, "vlcjni loaded: ");

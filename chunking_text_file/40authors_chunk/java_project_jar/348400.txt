@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        if(writer == null)
+        {
+            encoding = defaultEncoding;
+            writer = new OutputStreamWriter(out, encoding);
+            writer.write(xmlPrologWriter.toString());
+        }
+        writer.close();
+    }

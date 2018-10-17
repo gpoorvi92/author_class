@@ -1,0 +1,10 @@
+import java.io.Serializable;
+
+/**
+ * Defines constants for standard properties names and values used to create
+ * JposEntries...
+ * @since 1.3 (Berlin 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface JposEntryConst extends RS232Const, Serializable
+{

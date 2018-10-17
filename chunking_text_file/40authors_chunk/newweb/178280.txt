@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public Bill selectBillById(String billid) {
+		return (Bill) sessionFactory.getCurrentSession().get(Bill.class, billid);
+	}
+
+	@Override

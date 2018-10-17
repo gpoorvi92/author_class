@@ -1,0 +1,4 @@
+    private final CharSequence charSequence;
+    private int idx;
+    private int mark;
+}

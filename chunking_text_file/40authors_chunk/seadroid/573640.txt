@@ -1,0 +1,10 @@
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        emptyView.setText(getString(R.string.no_upload_tasks));
+
+    }
+
+    @Override
+    protected List<? extends TransferTaskInfo> getTransferTaskInfos() {

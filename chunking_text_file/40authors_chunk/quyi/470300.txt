@@ -1,0 +1,10 @@
+		if (wb != null) {
+			wb.close();
+		}
+	}
+
+	public static void autoSearchApp(String filePath) {
+		List<String> userAppIdList = new ArrayList<String>();
+		Set<String> userAppIdSet = new HashSet<String>();
+		userAppIdSet = new ReadExcel().getColumnInfoSet(0, filePath, 0);
+		Iterator<String> iterator = userAppIdSet.iterator();

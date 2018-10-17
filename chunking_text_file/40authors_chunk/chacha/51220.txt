@@ -1,0 +1,10 @@
+				CharBuffer cb=charset.decode(buffer);
+				buffer.clear();//清空缓存
+				response=cb.toString();
+			}
+		}catch(IOException e){
+			throw new ChachaException(e);
+		}finally{
+			if(channel!=null)
+				try{
+					channel.close();

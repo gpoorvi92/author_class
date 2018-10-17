@@ -1,0 +1,10 @@
+	public Dog(){}
+
+	public Dog(String name,int age) {
+		super(name,age);
+	}
+
+	public void eat() {
+		System.out.println("π∑≥‘»‚");
+	}
+}

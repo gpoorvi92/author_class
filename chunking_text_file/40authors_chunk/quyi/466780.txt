@@ -1,0 +1,10 @@
+		Destination destination;
+		MessageProducer producer = null;
+		connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_USER, ActiveMQConnection.DEFAULT_PASSWORD, queue_url);
+		try {
+			connection = connectionFactory.createConnection();
+			connection.start();
+			session = connection.createSession(Boolean.TRUE, Session.AUTO_ACKNOWLEDGE);
+			destination = session.createQueue(queue_name);
+			producer = session.createProducer(destination);
+			producer.setDeliveryMode(DeliveryMode.PERSISTENT);

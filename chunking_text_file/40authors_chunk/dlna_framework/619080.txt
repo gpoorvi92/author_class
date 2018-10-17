@@ -1,0 +1,10 @@
+		org.w3c.dom.Node child = domNode.getFirstChild();
+		if(child==null){ 
+			node.setValue(""); 
+			return node; 
+		}
+		do{
+			parse(node, child, rank+1);
+			child = child.getNextSibling();
+		}while (child != null);		
+		

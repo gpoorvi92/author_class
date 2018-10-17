@@ -1,0 +1,10 @@
+	 * <pre>
+	 * 	当page与rows同时为null时，则查询全部数据。
+	 * </pre>
+	 * @return 结果数据集合。
+	 * */
+	@SuppressWarnings("unchecked") 
+	protected List<T> find(String hql, Map<String, Object> parameters,Integer page, Integer rows) {
+		if(hql == null || hql.isEmpty()) return null;
+		Query query = this.getCurrentSession().createQuery(hql);
+		if(query != null){

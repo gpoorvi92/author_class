@@ -1,0 +1,10 @@
+  public boolean getCapPrintContentFile() throws JposException;
+  public boolean getCapRetrieveCurrentMarker() throws JposException;
+  public boolean getCapRetrieveMarker() throws JposException;
+  public boolean getCapRetrieveMarkerByDateTime() throws JposException;
+  public boolean getCapRetrieveMarkersDateTime() throws JposException;
+  public int     getCapStation() throws JposException;
+  public boolean getCapStatisticsReporting() throws JposException;
+  public boolean getCapStorageEnabled() throws JposException;
+  public boolean getCapSuspendPrintContent() throws JposException;
+  public boolean getCapSuspendQueryContent() throws JposException;

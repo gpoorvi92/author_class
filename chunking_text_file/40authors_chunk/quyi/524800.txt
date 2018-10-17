@@ -1,0 +1,10 @@
+	}
+
+	@Test
+	public void searchMissionTest001() {
+		try {
+			TTransport transport = new TSocket(engine_address, engine_port);
+			transport.open();
+			// 设置传输协议为TBinaryProtocol
+			TProtocol protocol1 = new TBinaryProtocol(transport);
+			// 调用服务的方法

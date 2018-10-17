@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mBgBitMap != null && !mBgBitMap.isRecycled()) {
+            mBgBitMap.recycle();
+        }
+    }
+

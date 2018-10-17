@@ -1,0 +1,10 @@
+
+        return root;
+    }
+
+    public TextView getStatusView() {
+        return statusView;
+    }
+
+    public Button getConfirmButton() {
+        return confirmButton;

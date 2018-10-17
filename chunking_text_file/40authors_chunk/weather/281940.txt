@@ -1,0 +1,10 @@
+     * 弹出软键盘，类型InputMethodManager.SHOW_IMPLICIT
+     *
+     * @param activity
+     * @param view
+     * @param resultReceiver 非常有用的参数，键盘显示完成回调，可知道显示完成时机。
+     */
+    public static void showSoftKeyboard(Activity activity, View view, ResultReceiver resultReceiver) {
+        view.setFocusable(true);
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();

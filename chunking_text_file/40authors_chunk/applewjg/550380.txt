@@ -1,0 +1,7 @@
+            }
+            cur = queue;
+            ++depth;
+        }
+        return 0;
+    }
+}

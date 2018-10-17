@@ -1,0 +1,10 @@
+    if (isSetFunctionStatus()) {
+      if (!first) sb.append(", ");
+      sb.append("functionStatus:");
+      if (this.functionStatus == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.functionStatus);
+      }
+      first = false;
+    }

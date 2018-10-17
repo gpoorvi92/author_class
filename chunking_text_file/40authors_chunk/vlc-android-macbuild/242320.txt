@@ -1,0 +1,10 @@
+package tv.danmaku.media;
+
+import java.util.ArrayList;
+
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class MediaResourceGroup implements Parcelable {
+    private static final String BUNDLE_RES_LIST = "res_list";

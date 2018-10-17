@@ -1,0 +1,10 @@
+                        kind, null);
+            }
+        } finally {
+            synchronized (status) {
+                status.mThumbRequesting = false;
+                status.notifyAll();
+            }
+        }
+    }
+

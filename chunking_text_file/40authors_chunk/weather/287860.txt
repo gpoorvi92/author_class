@@ -1,0 +1,10 @@
+     * 获取资源文件id
+     */
+    public static int getResidFromIdentifier(Context appContext,Context packageContext, int resid, String type) {
+        String name = appContext.getResources().getResourceName(resid);
+        name = name.substring(name.lastIndexOf("/") + 1);
+        int id = packageContext.getResources().getIdentifier(name, type, packageContext.getPackageName());
+        return id;
+    }
+
+}

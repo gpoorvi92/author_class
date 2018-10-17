@@ -1,0 +1,10 @@
+  }
+
+  public void setJobPriorityIsSet(boolean value) {
+    if (!value) {
+      this.jobPriority = null;
+    }
+  }
+
+  public int getTaskInfoSize() {
+    return (this.taskInfo == null) ? 0 : this.taskInfo.size();

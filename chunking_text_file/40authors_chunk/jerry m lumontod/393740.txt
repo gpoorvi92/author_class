@@ -1,0 +1,10 @@
+		mstrDivisionCode=tstrDivisionCode;
+		mstrDivisionDesc=tstrDivisionDesc;
+		mstrGLCode=tstrGLCode;
+		mstrGLDesc=tstrGLDesc;
+		mstrSLCode=tstrSLCode;
+		mstrSLDesc=tstrSLDesc;
+		mstrDeptCode=tstrDeptCode;
+		mstrDeptDesc=tstrDeptDesc;
+		mstrSubDeptCode=tstrSubDeptCode;
+		mstrSubDeptDesc=tstrSubDeptDesc;

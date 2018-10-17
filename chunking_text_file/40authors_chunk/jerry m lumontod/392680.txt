@@ -1,0 +1,9 @@
+		
+	}
+	public static void main(String[] args) {
+		
+		MsgBox MsgBoxInst = new MsgBox();
+		MsgBoxInst.ShowMsg("test");
+		
+	}
+}

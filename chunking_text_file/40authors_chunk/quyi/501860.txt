@@ -1,0 +1,10 @@
+      case 41:
+        return CHANGE_WIFI_STATE;
+      case 42:
+        return CLEAR_APP_CACHE;
+      case 43:
+        return CLEAR_APP_USER_DATA;
+      case 44:
+        return CONTROL_LOCATION_UPDATES;
+      case 45:
+        return DELETE_CACHE_FILES;

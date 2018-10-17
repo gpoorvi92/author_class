@@ -1,0 +1,10 @@
+		LinearLayout chatBgLayout = (LinearLayout) v
+				.findViewById(R.id.chat_bg_layout);
+		ProgressBar sendState = (ProgressBar) v.findViewById(R.id.send_state);
+		ImageView sendFinishState = (ImageView) v
+				.findViewById(R.id.send_finish_state);
+		String sendStateFlag = acd.getStringValue("send_state");
+		if (sendFinishState != null && sendState != null) {
+			if (sendStateFlag != null) { // send_state 0:发送成功 1:发送失败 2:正在发送
+				// 3:上传成功并未发送
+				sendState.setVisibility(View.GONE);

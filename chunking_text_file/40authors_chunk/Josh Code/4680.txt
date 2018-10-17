@@ -1,0 +1,10 @@
+      return result;
+    }
+
+    /** removes all vectors including the root vector
+     */
+    public synchronized void clear()
+    {
+       numVectors = 0;
+       rootV = null;
+       clearSubtrees();

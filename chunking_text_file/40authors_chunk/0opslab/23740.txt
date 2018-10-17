@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Created on 2010-7-1
+     * <p>Discription:[getFileByFile,获取文件类型,包括图片,若格式不是已配置的,则返回null]</p>
+     *
+     * @param file
+     * @return fileType
+     * @author:[shixing_11@sina.com]
+     */

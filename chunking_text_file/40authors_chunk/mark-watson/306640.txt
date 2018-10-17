@@ -1,0 +1,10 @@
+      sparql_query = "PREFIX kb: <http://knowledgebooks.com/ontology#> SELECT DISTINCT ?subject ?a_predicate ?an_object WHERE { ?subject kb:containsOrganization ?object FILTER regex(?object, \"University\") . ?subject ?a_predicate ?an_object . } ORDER BY ?a_predicate  ?an_object LIMIT 12 OFFSET 5";
+      ts.doSparqlQuery(sparql_query, this); // <http:://knowledgebooks.com/ontology/#
+      
+
+      
+  }
+
+    public void processResult(List<String> data) {
+       System.out.print("next result: "); 
+       for (String s : data) System.out.print("|"+s+"|" + "\t  ");

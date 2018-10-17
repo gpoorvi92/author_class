@@ -1,0 +1,10 @@
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						switch (which) {
+						case 0:
+							String id = acd.getStringValue("id");
+							String type = acd.getStringValue("type");
+
+							ctx.update("delete_chat_msg", id);

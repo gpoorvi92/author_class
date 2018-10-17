@@ -1,0 +1,10 @@
+  }
+
+  public int getEngineRulesSize() {
+    return (this.engineRules == null) ? 0 : this.engineRules.size();
+  }
+
+  public java.util.Iterator<String> getEngineRulesIterator() {
+    return (this.engineRules == null) ? null : this.engineRules.iterator();
+  }
+

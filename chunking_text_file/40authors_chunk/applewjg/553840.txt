@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    Count and Say
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/count-and-say/
+ Notes:
+ The count-and-say sequence is the sequence of integers beginning as follows:
+ 1, 11, 21, 1211, 111221, ...
+

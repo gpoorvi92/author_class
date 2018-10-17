@@ -1,0 +1,10 @@
+				throw new RuntimeException("Failed to upload " + file, e);
+			}
+			if (isOK) {
+				ftp.storeFile(fileName + ".c", checkFileInputStream);
+
+			} else {
+
+				throw new RuntimeException("Failed to upload " + file + ",reply:" + ","
+				    + ftp.getReplyString());
+			}

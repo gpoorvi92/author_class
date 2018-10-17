@@ -1,0 +1,10 @@
+    /**
+     * The position in array.
+     */
+    int position;
+
+    /**
+     * number of bits dedicated to marking of the running length of clean
+     * words
+     */
+    public static final int RUNNING_LENGTH_BITS = 32;

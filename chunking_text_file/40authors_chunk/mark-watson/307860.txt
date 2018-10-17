@@ -1,0 +1,5 @@
+        if (index > -1) s = s.substring(0, index + 3);
+        if (s.startsWith("-") == false) s = " " + s;
+        return s;
+    }
+}

@@ -1,0 +1,10 @@
+            this.repos.add(repo);
+        }
+        notifyDataSetChanged();
+    }
+
+    public boolean areAllReposSelectable() {
+        return false;
+    }
+
+    @Override

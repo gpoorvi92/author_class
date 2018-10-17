@@ -1,0 +1,10 @@
+	 */
+	@SuppressWarnings("unchecked")
+	public static <T> T getObjectMessage(MapMessage map) throws Exception {
+		
+
+		String className = map.getStringProperty("mq.clazz");
+		Class<?> clazz = Class.forName(className);
+		Field[] fields = clazz.getDeclaredFields();
+		if (Object.class != clazz.getSuperclass()) {
+			fields = ArrayUtils.addAll(fields, clazz.getSuperclass().getDeclaredFields());

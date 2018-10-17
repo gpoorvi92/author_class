@@ -1,0 +1,10 @@
+            // 向右移8位
+            temp = temp >> 8;
+        }
+        return b;
+    }
+
+    /**
+     * 字节的转换与短整型
+     */
+    public final static short byteToShort(byte[] b) {

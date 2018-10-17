@@ -1,0 +1,10 @@
+                                .bufferedand(IteratorUtil
+                                        .toIterators(x)));
+                x1.setSizeInBits(maxSizeInBits(x), false);
+                x1.setSizeInBitsWithinLastWord(maxSizeInBits(x));
+                assertTrue(x1.equals(tanswer));
+            }
+            System.gc();
+        }
+
+    }

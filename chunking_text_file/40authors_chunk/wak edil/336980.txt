@@ -1,0 +1,10 @@
+	 	if (e.getSource() == jmiExit)
+		 	{
+		 	
+					int exit=JOptionPane.showConfirmDialog(null,"Confirm Exit?","EXIT",JOptionPane.YES_NO_OPTION);
+		 	
+		 		if(exit==0)
+		 		{
+		 			System.exit(0);
+		 		}
+		 		else

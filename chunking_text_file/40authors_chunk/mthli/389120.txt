@@ -1,0 +1,10 @@
+   private String porterDuff1;
+   private String porterDuff2;
+
+   /**
+    * Constructs a Porter-Duff rule.
+    * @param n the rule name
+    * @param pd1 the first row of the Porter-Duff square
+    * @param pd2 the second row of the Porter-Duff square
+    */
+   public Rule(String n, String pd1, String pd2)

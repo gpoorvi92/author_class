@@ -1,0 +1,10 @@
+ Solution: 1. Traverse the Sudoku only once.
+           2. Bit manipulation. Use only one bit to represent a number. Space: sizeof(int) * (1+9+9).
+ */
+public class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        boolean[] used = new boolean[9];
+        
+        for(int i=0;i<9;i++){
+            Arrays.fill(used,false);
+            for(int j = 0; j<9;j++){

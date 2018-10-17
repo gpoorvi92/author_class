@@ -1,0 +1,10 @@
+	JButton cancelButton = new JButton("Cancel");
+	
+	JLabel previewLabel = new JLabel("Preview:");
+	JLabel preview = new JLabel("   AaBbCc");
+	
+	Font selectedFont;
+	
+	public fontSelector()
+	{
+		this.setSize(300,200);

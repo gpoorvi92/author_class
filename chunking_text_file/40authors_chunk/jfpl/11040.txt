@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onClick(View v) {
+		if (isPlay) {
+			endPlay();
+		} else {
+			this.mediaPlayer = new MediaPlayer();
+			this.mediaPlayer.setOnCompletionListener(this);
+			this.mediaPlayer.setOnPreparedListener(this);

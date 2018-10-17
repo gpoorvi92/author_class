@@ -1,0 +1,10 @@
+
+    @Test
+    public void testLong(){
+        System.out.println(Arrays.toString(ConvertUtil.longToByte(1L)));
+
+        System.out.println(ConvertUtil.byteToBinary(ConvertUtil.longToByte(1L)[0]));
+
+        System.out.println(Arrays.toString(ConvertUtil.longToByte(10L)));
+
+        System.out.println(ConvertUtil.byteToBinary(ConvertUtil.longToByte(10L)[0]));

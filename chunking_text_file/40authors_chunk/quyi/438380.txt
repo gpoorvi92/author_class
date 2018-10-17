@@ -1,0 +1,10 @@
+      }
+      if (struct.software != null) {
+        oprot.writeFieldBegin(SOFTWARE_FIELD_DESC);
+        struct.software.write(oprot);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+

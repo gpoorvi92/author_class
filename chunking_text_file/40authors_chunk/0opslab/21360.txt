@@ -1,0 +1,10 @@
+    public static final String  REG_PUNCT               = "\\p{Punct}";
+    /**
+     * All whitespace characters, including line breaks
+     */
+    public static final String  REG_SPACE               = "\\p{Space}";
+    /**
+     * Uppercase letters
+     */
+    public static final String  REG_UPPER               = "\\p{Upper}";
+    /**

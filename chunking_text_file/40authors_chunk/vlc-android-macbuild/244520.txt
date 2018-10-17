@@ -1,0 +1,10 @@
+                mBusyLoaders.add(id);
+                loaderManager.restartLoader(id, args, this);
+                return true;
+
+            }
+        }
+
+        return false;
+    }
+

@@ -1,0 +1,10 @@
+	public void recoverGame(){
+		tempHero.father.setOnTouchListener(tempHero.father);//返还监听器
+		tempHero.father.setCurrentDrawable(null);//置空记录引用的变量
+		tempHero.father.setStatus(0);//重新设置GameView为待命状态
+		tempHero.father.gvt.setChanging(true);//骰子转起来
+		status = -1;
+	}
+	//方法：招募军队
+	public void recruitTroops(){
+		if(Math.random()<failOdd){//有一定概率招不上兵

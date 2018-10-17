@@ -1,0 +1,10 @@
+        oprot.writeString(struct.checkEndDate);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class DynamicCheckResultDataTupleSchemeFactory implements SchemeFactory {

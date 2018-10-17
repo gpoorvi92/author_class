@@ -1,0 +1,10 @@
+
+			if (!FTPReply.isPositiveCompletion(reply)) {
+				ftpClient.disconnect();
+				throw new RuntimeException("FTP server refused connection.");
+			}
+
+			boolean isOK = ftpClient.login(userName, password);
+			if (isOK) {
+				System.out.println(ftpClient.getReplyString());
+

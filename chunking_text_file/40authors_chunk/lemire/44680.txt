@@ -1,0 +1,10 @@
+    protected int literalWordOffset = 0;
+
+    /**
+     * The Number of literal words.
+     */
+    protected int numberOfLiteralWords;
+
+    /**
+     * The Running bit.
+     */

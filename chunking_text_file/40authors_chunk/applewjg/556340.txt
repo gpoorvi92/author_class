@@ -1,0 +1,10 @@
+        		++i;
+        	}
+        	++i;
+        	while (j < v2len && version2.charAt(j) != '.') {
+        		b = b * 10 + version2.charAt(j) - '0';
+        		++j;
+        	}
+        	++j;
+        	if (a > b) return 1;
+        	if (a < b) return -1;

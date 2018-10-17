@@ -1,0 +1,10 @@
+    }
+
+    public searchAllEng_result(
+      List<Engine> success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {
+      this();
+      this.success = success;
+      this.ire = ire;

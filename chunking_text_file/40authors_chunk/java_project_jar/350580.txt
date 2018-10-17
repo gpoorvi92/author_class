@@ -1,0 +1,10 @@
+        position += length;
+        int returnLength = length;
+        if(position > size)
+        {
+            returnLength = length - (int)(position - size);
+            position = size;
+        }
+        processBytes(bytes, offset, returnLength);
+        return returnLength;
+    }

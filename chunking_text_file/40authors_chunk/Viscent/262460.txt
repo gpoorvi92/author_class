@@ -1,0 +1,10 @@
+
+			pwr.print(record.getPackageId());
+			pwr.print(FIELD_SEPARATOR);
+			pwr.print(String.valueOf(record.getOperationType()));
+			pwr.print(FIELD_SEPARATOR);
+
+			strBuf.delete(0, 40);
+			pwr.print(sdf.format(record.getOperationTime(), strBuf, FIELD_POS));
+			pwr.print(FIELD_SEPARATOR);
+

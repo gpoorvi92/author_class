@@ -1,0 +1,10 @@
+ * start---异步执行
+ * 所以输出顺序有所不同
+ */
+class MyThread6 extends Thread {
+    @Override
+    public void run() {
+        try {
+            System.out.println("run threadName=" + this.currentThread().getName() + " begin");
+            Thread.sleep(2000);
+            System.out.println("run threadName=" + this.currentThread().getName() + " end");

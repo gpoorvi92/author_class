@@ -1,0 +1,10 @@
+package cn.itcast_03;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/*
+ *泛型高级：
+ *泛型通配符<?>
+ *		任意类型，如果没有明确，那么就是Object以及任意的Java类了
+ *? extends E

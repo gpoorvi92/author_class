@@ -1,0 +1,10 @@
+	class DrawThread extends Thread{//刷帧线程
+		private int sleepSpan = ConstantUtil.GAME_VIEW_SLEEP_SPAN;//睡眠的毫秒数 
+		private SurfaceHolder surfaceHolder;
+		private boolean flag = true;
+        public DrawThread(SurfaceHolder surfaceHolder) {//构造器
+            this.surfaceHolder = surfaceHolder;
+        }
+        
+        public void setFlag(boolean flag) {//设置循环标记位
+        	this.flag = flag;

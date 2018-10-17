@@ -1,0 +1,10 @@
+	@Override
+	public void fromJson(String json) throws JsonMappingException,
+			JsonGenerationException, IOException {
+		LoginResponse r=(LoginResponse)JsonPojoMapper.fromJson(json, LoginResponse.class);
+		this.result=r.getResult();
+		this.token=r.getToken();
+	}
+	
+	public static void main(String[] args){
+		//pojo to json

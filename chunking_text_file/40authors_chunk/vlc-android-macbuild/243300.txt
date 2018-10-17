@@ -1,0 +1,10 @@
+        }
+
+        return null;
+    }
+
+    public Segment getSingleSegment() {
+        PlayIndex playIndex = getSinglePlayIndex();
+        if (playIndex != null)
+            return playIndex.getSingleSegment();
+

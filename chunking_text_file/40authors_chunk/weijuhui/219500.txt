@@ -1,0 +1,10 @@
+        int month = c.get(Calendar.MONTH);
+        int day = c.get(Calendar.DAY_OF_MONTH);
+        // set calendar to first millisecond of the day
+        c.set(year, month, day, 0, 0, 0);
+        c.set(Calendar.MILLISECOND, 0);
+        long startTime = c.getTimeInMillis();
+        // set calendar to last millisecond of the day
+        c.set(year, month, day, 23, 59, 59);
+        c.set(Calendar.MILLISECOND, 999);
+        long endTime = c.getTimeInMillis();

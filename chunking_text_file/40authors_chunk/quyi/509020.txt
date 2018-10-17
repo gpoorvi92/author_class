@@ -1,0 +1,10 @@
+          {
+            Map<String,APICheck> _elem153;
+            {
+              org.apache.thrift.protocol.TMap _map154 = new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+              _elem153 = new HashMap<String,APICheck>(2*_map154.size);
+              for (int _i155 = 0; _i155 < _map154.size; ++_i155)
+              {
+                String _key156;
+                APICheck _val157;
+                _key156 = iprot.readString();

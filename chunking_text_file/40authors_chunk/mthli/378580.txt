@@ -1,0 +1,10 @@
+      {
+         try
+         {
+            File file = chooser.getSelectedFile();
+            XMLEncoder encoder = new XMLEncoder(new FileOutputStream(file));
+            encoder.writeObject(frame);
+            encoder.close();
+         }
+         catch (IOException e)
+         {

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Supplier selectSupplierById(int ID) {
+		return (Supplier) sessionFactory.getCurrentSession().get(Supplier.class, ID);
+	}
+
+	@Override
+	public boolean update(Supplier supplier) {
+		try {

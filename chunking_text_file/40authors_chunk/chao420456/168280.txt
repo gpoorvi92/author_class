@@ -1,0 +1,10 @@
+ * 		public static final PrintStream out:标准输出流	控制台输出
+ * 
+ * 键盘录入数据：
+ * 		A:main接受键盘录入数据
+ * 		B:IO流实现键盘录入数据
+ * 		C:Scanner实现键盘录入数据
+ */
+public class SystemInDemo {
+	public static void main(String[] args) throws IOException {
+		// // 键盘录入

@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+		//json to pojo
+		TokenRequest r=new TokenRequest();
+		try {
+			r.fromJson(json);
+			System.out.println(r.getBody().getTicket());
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();

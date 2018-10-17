@@ -1,0 +1,10 @@
+        this.dataManager = dataManager;
+    }
+
+    @Override
+    protected void runTask() {
+        try {
+            if (ctx.isCopy()) {
+                dataManager.copy(ctx.srcRepoId, ctx.srcDir, ctx.srcFn, ctx.dstRepoId, ctx.dstDir, ctx.isdir);
+            }
+            else {

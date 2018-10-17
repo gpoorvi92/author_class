@@ -1,0 +1,10 @@
+
+        public Intent get() {
+            return intent_;
+        }
+
+        public GuideActivity_.IntentBuilder_ flags(int flags) {
+            intent_.setFlags(flags);
+            return this;
+        }
+

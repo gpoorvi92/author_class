@@ -1,0 +1,10 @@
+
+		this.mNeverwinterNightsFont = FontFactory.createFromAsset(this.getFontManager(), neverwinterNightsFontTexture, this.getAssets(), "NeverwinterNights.ttf", FONT_SIZE, true, Color.BLACK);
+		this.mNeverwinterNightsFont.load();
+
+		this.mPlokFont = FontFactory.createFromAsset(this.getFontManager(), plokFontTexture, this.getAssets(), "Plok.ttf", FONT_SIZE, true, Color.BLACK);
+		this.mPlokFont.load();
+
+		this.mUnrealTournamenFont = FontFactory.createFromAsset(this.getFontManager(), unrealTournamentFontTexture, this.getAssets(), "UnrealTournament.ttf", FONT_SIZE, true, Color.BLACK);
+		this.mUnrealTournamenFont.load();
+	}

@@ -1,0 +1,10 @@
+        this.name = name;
+        this.sensitive = sensitive;
+    }
+
+    private Object readResolve()
+    {
+        return forName(name);
+    }
+
+    public String getName()

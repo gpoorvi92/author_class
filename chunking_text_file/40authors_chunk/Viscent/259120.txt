@@ -1,0 +1,10 @@
+		while (null == product) {
+			queueIndex = (queueIndex + 1) % managedQueues.length;
+			targetQueue = managedQueues[queueIndex];
+			// 试图从其它受管队列的队尾“窃取”“产品”
+			product = targetQueue.pollLast();
+			if (preferredQueue == targetQueue) {
+				break;
+			}
+		}
+

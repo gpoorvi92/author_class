@@ -1,0 +1,10 @@
+				long start = System.currentTimeMillis();
+				try {
+					delegate.store(request);
+				} finally {
+					taskTimeConsumedPerInterval.addAndGet(System.currentTimeMillis()
+					    - start);
+				}
+
+				return Boolean.TRUE;
+			}

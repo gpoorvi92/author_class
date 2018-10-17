@@ -1,0 +1,10 @@
+		Node varNameNode = new Node(varName);
+		varNameNode.setValue(value);
+		propNode.addNode(varNameNode);
+		
+		return propSetNode;
+	}
+	
+	private Node getVariableNode()
+	{
+		Node rootNode = getEnvelopeNode();

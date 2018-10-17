@@ -1,0 +1,10 @@
+        state = TaskState.CANCELLED;
+        super.cancel(true);
+    }
+
+    @Override
+    protected void onPreExecute() {
+        state = TaskState.TRANSFERRING;
+    }
+
+    @Override

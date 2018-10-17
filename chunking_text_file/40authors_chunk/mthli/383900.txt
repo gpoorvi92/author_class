@@ -1,0 +1,10 @@
+      tableMenu.add(showColumnsItem);
+
+      JMenuItem addRowItem = new JMenuItem("Add Row");
+      addRowItem.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent event)
+         {
+            // add a new row to the multiplication table in
+            // the model
+

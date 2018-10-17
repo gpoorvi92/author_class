@@ -1,0 +1,10 @@
+            String text = (String) clipboard.getData(flavor);
+            textArea.replaceSelection(text);
+         }
+         catch (UnsupportedFlavorException e)
+         {
+            JOptionPane.showMessageDialog(this, e);
+         }
+         catch (IOException e)
+         {
+            JOptionPane.showMessageDialog(this, e);

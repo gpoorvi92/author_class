@@ -1,0 +1,10 @@
+
+public class CameraUploadDBHelper extends SQLiteOpenHelper {
+    private static final String DEBUG_TAG = "CameraUploadDBHelper";
+
+    // If you change the database schema, you must increment the database
+    // version.
+    public static final int DATABASE_VERSION = 1;
+    public static final String DATABASE_NAME = "photo.db";
+
+    // PhotoCache table

@@ -1,0 +1,10 @@
+        byte b[] = new byte[1];
+        return read(b) != -1 ? b[0] & 0xff : -1;
+    }
+
+    public void close()
+        throws IOException
+    {
+        reader.close();
+    }
+

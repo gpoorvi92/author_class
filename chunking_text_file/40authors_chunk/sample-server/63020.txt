@@ -1,0 +1,10 @@
+    {
+        //syn data 2 chat server
+        RpcClientManager.getInstance();
+        SynService.syn();
+    }
+    /**
+     * 初始化定时器
+     */
+    private void initTimer()
+    {

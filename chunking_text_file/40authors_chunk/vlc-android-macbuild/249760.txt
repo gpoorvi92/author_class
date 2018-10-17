@@ -1,0 +1,10 @@
+                    player.mOnErrorListener.onError(player, 1, 1);
+                }
+                return;
+            }
+
+            if (result.mSegmentList == null || result.mSegmentList.isEmpty()) {
+                if (player.mOnErrorListener != null) {
+                    player.mOnErrorListener.onError(player, 1, 1);
+                }
+                return;

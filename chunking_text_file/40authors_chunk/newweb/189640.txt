@@ -1,0 +1,10 @@
+	@Column
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	@Column
+	public String getPlace() {

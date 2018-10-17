@@ -1,0 +1,10 @@
+        SeafCachedPhoto cp = dbHelper.getPhotoCacheItem(repoID, path);
+        return cp;
+    }
+
+    /**
+     * get cached photo from local database
+     *
+     * @param repoName
+     * @param repoID
+     * @param dir

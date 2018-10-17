@@ -1,0 +1,10 @@
+    /** Saves the model to the specified file
+     */
+    public void saveModel(Model m, File f) throws IOException
+    {
+        saveToVRML(m, f);
+    }
+
+    public String getDescription()
+    {
+        return "(*.wrl) Virtual Reality Modeling Language files";

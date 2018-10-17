@@ -1,0 +1,10 @@
+						singleRecordInfo.getUserAppId(), wcf_left));
+				sheet.addCell(new Label(1, row,
+						singleRecordInfo.getMissionId(), wcf_left));
+				sheet.addCell(new jxl.write.Number(6, row, singleRecordInfo
+						.getFinishedTime(), wcf_left));
+				sheet.addCell(new Label(7, row, singleRecordInfo.getPlotsType()
+						.name(), wcf_left));
+				sheet.addCell(new Label(8, row, singleRecordInfo
+						.getAppCheckResult(), wcf_left));
+

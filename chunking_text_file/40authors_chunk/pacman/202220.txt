@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public BaseMessage buildHeartbeatMessage() {
+
+		FeedbackMessage message = new FeedbackMessage();
+		message.setCommandId(IdGenerator.nextInt());
+		
+		return message;
+	}
+

@@ -1,0 +1,10 @@
+	private IMQFactory mgr;
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+		
+		Map<QueueType, String> map = new HashMap<QueueType, String>();
+		map.put(QueueType.QUEUE_AUDIO, "test_q");
+		map.put(QueueType.TOPIC_COMMAND, "test_t");

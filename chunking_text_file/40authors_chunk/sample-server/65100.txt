@@ -1,0 +1,10 @@
+        ret.setStopTime(stopTime.getTime());
+        ret.setStartTime(startTime.getTime());
+        ret.setEveryInterval(everyInterval);
+        ret.setRemark(remark);
+        ret.setRound(round);
+        ret.setZoneId(zoneId);
+        ret.setLevel(level);
+        ret.setType(type);
+        return ret.build();
+    }

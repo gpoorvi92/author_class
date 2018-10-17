@@ -1,0 +1,10 @@
+/**
+ * 数据操作实现类.
+ * @author 杨勇.
+ * @since 2013-11-27.
+ * */
+public class BaseDaoImpl<T> implements IBaseDao<T> {
+	private SessionFactory sessionFactory;
+	/**
+	 * 设置SessionFactory。
+	 * @param sessionFactory

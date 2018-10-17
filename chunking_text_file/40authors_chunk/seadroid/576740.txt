@@ -1,0 +1,10 @@
+    private void cancelTask() {
+        if (taskID < 0) {
+            return;
+        }
+
+        TransferService txService = getBrowserActivity().getTransferService();
+        if (txService == null) {
+            return;
+        }
+

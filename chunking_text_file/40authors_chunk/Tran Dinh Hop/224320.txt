@@ -1,0 +1,10 @@
+	{ 
+		// Calculate hashCode from given code
+		int hashCode = code % hashSize; 
+
+		// Create new hashNode	
+		HashNode newNode = new HashNode(code, entry); 
+		
+		// Find spot for it
+		if(null == data[hashCode]) 
+		{ 

@@ -1,0 +1,10 @@
+		}
+		throw new IllegalStateException("Access to the lock disallowed.");
+	}
+
+	public <V> V callWithGuard(GuardedAction<V> guardedAction) throws Exception {
+		lock.lockInterruptibly();
+		V result;
+		try {
+			final Predicate guard = guardedAction.guard;
+			while (!guard.evaluate()) {

@@ -1,0 +1,10 @@
+package tv.danmaku.android.support;
+
+import tv.danmaku.android.BuildHelper;
+import android.annotation.TargetApi;
+import android.os.StrictMode;
+import android.os.StrictMode.ThreadPolicy;
+import android.os.StrictMode.VmPolicy;
+
+public class StrictModeHelper {
+    /*--------------------------------------

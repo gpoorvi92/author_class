@@ -1,0 +1,10 @@
+        else
+            super.windowClosed( e );
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowIconified(java.awt.event.WindowEvent)
+
+    public native void __windowIconified( java.awt.event.WindowEvent e );
+
+    boolean entered_windowIconified_3;
+

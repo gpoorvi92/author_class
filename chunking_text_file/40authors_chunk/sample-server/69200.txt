@@ -1,0 +1,10 @@
+
+import java.net.InetSocketAddress;
+import java.util.concurrent.Executors;
+/**
+ * User: Teaey
+ * Date: 13-6-14
+ */
+public class Gatewayserver extends BaseServer
+{
+    static

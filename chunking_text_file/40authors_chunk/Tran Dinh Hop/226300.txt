@@ -1,0 +1,7 @@
+	}
+	
+	public int recSize(){
+		return size;
+	}
+	
+}

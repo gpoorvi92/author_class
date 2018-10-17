@@ -1,0 +1,10 @@
+
+    public void show() {
+        // do nothing
+    }
+
+    public void hide() {
+        // do nothing
+    }
+
+    public void forceHideImmediately() {

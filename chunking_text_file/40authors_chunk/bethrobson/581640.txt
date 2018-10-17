@@ -1,0 +1,10 @@
+              ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        qScroller.setHorizontalScrollBarPolicy(
+              ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+      
+        nextButton = new JButton("Show Question");
+        
+        mainPanel.add(qScroller);
+        mainPanel.add(nextButton);
+        nextButton.addActionListener(new NextCardListener());
+        JMenuBar menuBar = new JMenuBar();

@@ -1,0 +1,10 @@
+        optionals.set(2);
+      }
+      if (struct.isSetTaskInfo()) {
+        optionals.set(3);
+      }
+      oprot.writeBitSet(optionals, 4);
+      if (struct.isSetRules()) {
+        {
+          oprot.writeI32(struct.rules.size());
+          for (String _iter108 : struct.rules)

@@ -1,0 +1,10 @@
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.gestureBegan(com.apple.eawt.event.GesturePhaseEvent)
+
+    public native void __gestureBegan( com.apple.eawt.event.GesturePhaseEvent arg0 );
+
+    boolean entered_gestureBegan_1;
+
+    public void gestureBegan( com.apple.eawt.event.GesturePhaseEvent arg0 ) {
+        if ( !entered_gestureBegan_1 ) {

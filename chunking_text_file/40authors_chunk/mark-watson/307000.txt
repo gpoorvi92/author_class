@@ -1,0 +1,10 @@
+	ret[count++] = goal_node;
+	for (int i=0; i<numNodes; i++) {
+	    ret[count] = predecessor[ret[count - 1]];
+	    count++;
+	    if (ret[count - 1] == start_node)  break;  // back to starting node
+	}
+	int [] ret2 = new int[count];
+	for (int i=0; i<count; i++) {
+	    ret2[i] = ret[count - 1 - i];
+	}

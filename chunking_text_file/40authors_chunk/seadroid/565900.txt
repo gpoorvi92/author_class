@@ -1,0 +1,10 @@
+        Account account = cursorToAccount(c);
+        c.close();
+        return account;
+    }
+
+    public List<Account> getAccountList() {
+        List<Account> accounts = Lists.newArrayList();
+
+        String[] projection = {
+                AccountDBHelper.ACCOUNT_COLUMN_SERVER,

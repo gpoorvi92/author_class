@@ -1,0 +1,10 @@
+        mProvider = new DailyProvider(this, beijingId);
+        mProvider.loadNew();
+
+        CityChangeWatcher.getInstance().addObserver(new Observer() {
+            @Override
+            public void update(Observable observable, Object data) {
+                String cityCode = (String) data;
+                mProvider.setCityCode(cityCode);
+                mProvider.loadNew();
+            }

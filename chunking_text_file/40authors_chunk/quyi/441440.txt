@@ -1,0 +1,10 @@
+    return this.operateTime;
+  }
+
+  public NetworkPacket setOperateTime(String operateTime) {
+    this.operateTime = operateTime;
+    return this;
+  }
+
+  public void unsetOperateTime() {
+    this.operateTime = null;

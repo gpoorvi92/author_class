@@ -1,0 +1,10 @@
+			throws InterruptedException {
+		testAssert(false);
+	}
+
+
+	private void testAssert(boolean lala) throws InterruptedException {
+		jlfuListenerPropagator.registerListener(new JLFUListenerAdapter() {
+
+			@Override
+			public void onClientInactivity(UUID clientId, int inactivityDuration) {

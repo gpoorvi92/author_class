@@ -1,0 +1,10 @@
+        {
+            //log.info("{}", handler.getClass().getSimpleName());
+            return true;
+        }
+        //判断是否有ctx
+        HttpSession session = request.getSession();
+        CenterContext ctx = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, session);
+        if (null == ctx)
+        {
+            //String s1 = request.getRequestURL().toString();

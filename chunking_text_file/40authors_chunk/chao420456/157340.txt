@@ -1,0 +1,10 @@
+                            	for(int j = 0; j < serverThread.clients.size(); j++){
+                            		if(id_thread == serverThread.clients.get(j).getId()){
+                            			serverThread.clients.get(j).dos.writeUTF(str);
+                            			i = serverThread.clients.size();
+                            			break;
+                            		}
+                            	}
+                            }
+                        }
+                        catch(IOException E){}

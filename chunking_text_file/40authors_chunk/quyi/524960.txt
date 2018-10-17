@@ -1,0 +1,10 @@
+			transport.open();
+			TProtocol protocol1 = new TBinaryProtocol(transport);
+			StatusNotifyService.Client client = new StatusNotifyService.Client(protocol1);
+			System.out.println(client.appStatusNotify(0, 1000L, JobPhase.ON_STATIC, AppStatus.ISSUED, null, null, null));
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+

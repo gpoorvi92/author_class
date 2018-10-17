@@ -1,0 +1,10 @@
+    }
+
+    public void write(org.apache.thrift.protocol.TProtocol oprot, UnavailableException struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.why != null) {
+        oprot.writeFieldBegin(WHY_FIELD_DESC);
+        oprot.writeString(struct.why);
+        oprot.writeFieldEnd();

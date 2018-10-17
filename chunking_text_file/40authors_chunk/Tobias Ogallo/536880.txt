@@ -1,0 +1,10 @@
+import java.sql.*;  
+
+public class PASS extends JPanel {
+	Dimension screen 		= Toolkit.getDefaultToolkit().getScreenSize();
+    JFrame JFParentFrame;
+	private static JTable jTable;
+	private JScrollPane jScrollPane;
+	private JPanel jPanel1;
+	private JPanel jPanel2;
+	private JButton jButton1,Reload;

@@ -1,0 +1,10 @@
+
+               // store removed columns for "show columns" command
+
+               removedColumns.add(column);
+            }
+         }
+      });
+      tableMenu.add(hideColumnsItem);
+
+      JMenuItem showColumnsItem = new JMenuItem("Show Columns");

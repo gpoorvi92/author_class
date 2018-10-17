@@ -1,0 +1,10 @@
+//
+//	@Override
+//	public void onGameCreated() {
+//		this.enableOrientationSensor(this);
+//	}
+//
+//	@Override
+//	public void onOrientationChanged(final OrientationData pOrientationData) {
+//		final float roll = pOrientationData.getRoll();
+//		Debug.d("Roll: " + pOrientationData.getRoll());

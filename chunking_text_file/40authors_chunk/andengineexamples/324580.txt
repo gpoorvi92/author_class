@@ -1,0 +1,10 @@
+	// Getter & Setter
+	// ===========================================================
+	
+	public long getTimestamp() {
+		return this.mTimestamp;
+	}
+	
+	public void setTimestamp(long pTimestamp) {
+		this.mTimestamp = pTimestamp;
+	}

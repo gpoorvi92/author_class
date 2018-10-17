@@ -1,0 +1,10 @@
+
+					System.out.println(name);
+					System.out.println("  location: " + location);
+					System.out.println("  population: " + population);
+					System.out.println("  exports: " + exports);
+					System.out.println("  imports: " + imports);
+					System.out.println("  debt: " + debt);
+					System.out.println("  aid: " + aid);
+					System.out.println("  unemployment: " + unemployment);
+					System.out.println("  inflation: " + inflation);

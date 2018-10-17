@@ -1,0 +1,10 @@
+import com.yeshj.pacman.jms.IMQReceiver;
+import com.yeshj.pacman.jms.MQException;
+import com.yeshj.pacman.jms.message.BaseMessage;
+
+/**
+ * @ClassName: DefaultMQReceiver
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月18日 下午11:08:23
+ */

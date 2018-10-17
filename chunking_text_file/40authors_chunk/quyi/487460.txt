@@ -1,0 +1,10 @@
+        if (incoming.get(1)) {
+          struct.stcRD = new com.nercis.isscp.idl.StaticCheckResultData();
+          struct.stcRD.read(iprot);
+          struct.setStcRDIsSet(true);
+        }
+        if (incoming.get(2)) {
+          struct.dycRD = new com.nercis.isscp.idl.DynamicCheckResultData();
+          struct.dycRD.read(iprot);
+          struct.setDycRDIsSet(true);
+        }

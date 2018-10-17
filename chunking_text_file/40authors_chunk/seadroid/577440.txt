@@ -1,0 +1,10 @@
+
+                }
+
+                @Override
+                public void onFinish() {
+                    mLockPatternView.setEnabled(true);
+                    mFailedPatternAttemptsSinceLastTimeout = 0;
+                }
+            }.start();
+        }

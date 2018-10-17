@@ -1,0 +1,10 @@
+      break;
+
+    case USED_PERMISSIONS:
+      if (value == null) {
+        unsetUsedPermissions();
+      } else {
+        setUsedPermissions((List<Map<String,APICheck>>)value);
+      }
+      break;
+

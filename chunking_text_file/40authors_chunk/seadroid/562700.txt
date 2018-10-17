@@ -1,0 +1,10 @@
+    public AccountAdapter(Context context) {
+        this.context = context;
+        items = Lists.newArrayList();
+        avatars = Lists.newArrayList();
+    }
+
+    @Override
+    public int getCount() {
+        return items.size();
+    }

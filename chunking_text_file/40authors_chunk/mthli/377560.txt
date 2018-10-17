@@ -1,0 +1,10 @@
+    * Writes the source file for the BeanInfo class.
+    * @param beanClassName the name of the bean class
+    * @param props a map of property names and their annotations
+    */
+   private void writeBeanInfoFile(String beanClassName, Map<String, Property> props)
+      throws IOException
+   {
+      JavaFileObject sourceFile = processingEnv.getFiler().createSourceFile(
+         beanClassName + "BeanInfo");
+      PrintWriter out = new PrintWriter(sourceFile.openWriter());

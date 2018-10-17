@@ -1,0 +1,9 @@
+      ts.doSparqlQuery(sparql_query, this);
+  }
+
+    public void processResult(List<String> data) {
+       System.out.print("next result: "); 
+       for (String s : data) System.out.print("|"+s+"|" + "\t  ");
+       System.out.println(" . ");
+    }
+}

@@ -1,0 +1,10 @@
+    public void write(org.apache.thrift.protocol.TProtocol oprot, VirusEngine struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.engineName != null) {
+        oprot.writeFieldBegin(ENGINE_NAME_FIELD_DESC);
+        oprot.writeString(struct.engineName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.version != null) {

@@ -1,0 +1,10 @@
+        {
+            this.wildcards = (String[])wildcards.toArray(new String[wildcards.size()]);
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public boolean accept(File dir, String name)
+    {
+        String arr$[] = wildcards;

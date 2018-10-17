@@ -1,0 +1,7 @@
+
+    @Override
+    public void onCancel(DialogInterface dialog) {
+        Log.d(DEBUG_TAG, "listener.onRejected is called");
+        listener.onRejected();
+    }
+}

@@ -1,0 +1,10 @@
+		this.gameView = gameView;
+		paint = new Paint();
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		paint.setAntiAlias(true);//抗锯齿
+		initData();//初始化数据
+	}
+	
+	public static void initBitmap(Resources r){//初始化图片资源   
+		Bitmap menu_item = BitmapFactory.decodeResource(r, R.drawable.buttons); 
+		threeBitmap = Bitmap.createBitmap(menu_item, 60, 0, 90, 30);

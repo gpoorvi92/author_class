@@ -1,0 +1,10 @@
+  public void    deauthenticateDevice(byte[] response)
+                     throws JposException;
+  public void    retrieveCardProperty(String name,
+                                      String[] value)
+                     throws JposException;
+  public void    retrieveDeviceAuthenticationData(byte[] challenge)
+                     throws JposException;
+  public void    updateKey(String key,
+                           String keyName)
+                     throws JposException;

@@ -1,0 +1,10 @@
+				selstart=i+1;
+				entity=null;											 
+			}
+		}
+		if (selstart == 0)
+			return input;
+		out.append(old,selstart,oldsize-selstart);
+		return out.toString();	
+	}
+

@@ -1,0 +1,10 @@
+        reader.close();
+        reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\37-int-teaey\\Desktop\\test_16.txt")));
+        line = null;
+        while ((line = reader.readLine()) != null)
+        {
+            listLogin.add(Integer.valueOf(line));
+        }
+        reader.close();
+        int size = 0;
+        for (Integer each : listCreate)

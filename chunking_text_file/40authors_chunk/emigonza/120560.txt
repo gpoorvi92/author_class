@@ -1,0 +1,10 @@
+
+  /////////////////////////////////////////////////////////////////////
+  // "readData" Method, "action" Parameter Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_READ_DATA             = 11;
+  public static final int SC_READ_PROGRAM          = 12;
+  public static final int SC_EXECUTE_AND_READ_DATA = 13;
+  public static final int SC_XML_READ_BLOCK_DATA   = 14;
+

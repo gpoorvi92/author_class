@@ -1,0 +1,10 @@
+   @version 1.21 2012-06-04
+*/
+public class ThreadedEchoServer
+{  
+   public static void main(String[] args )
+   {  
+      try
+      {  
+         int i = 1;
+         ServerSocket s = new ServerSocket(8189);

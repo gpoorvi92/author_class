@@ -1,0 +1,10 @@
+                struct.setStatusIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 4: // USED_PERMISSIONS
+              if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+                {
+                  org.apache.thrift.protocol.TList _list24 = iprot.readListBegin();
+                  struct.usedPermissions = new ArrayList<Map<String,com.nercis.isscp.idl.APICheck>>(_list24.size);

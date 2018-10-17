@@ -1,0 +1,10 @@
+
+        return view;
+    }
+
+    @Override
+    protected void onDialogCreated(Dialog dialog) {
+        int strId;
+        if (ctx.isdir) {
+            strId = ctx.isCopy() ? R.string.copy_folder_ing : R.string.move_folder_ing;
+        } else {

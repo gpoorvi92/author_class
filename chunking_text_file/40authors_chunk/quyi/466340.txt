@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 定义应用状态
+ * insave 刚刚接收到样本
+ * inequs 待一致性检测
+ * inequserr 一致性检测出错
+ * inbupt 待北邮检测
+ * inbupterr 待北邮检测出错

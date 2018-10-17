@@ -1,0 +1,10 @@
+			File.separator + "record.txt", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return orderLhjWeightDao.update(lhjWeight);
+	}
+
+	@Override
+	public OrderLhjWeight[] queryOrderLhjWeightsByOrderID(String orderid) {
+		Set<OrderLhjWeight> set = orderService.findOrderById(orderid).getOrderLhjWeights();
+		OrderLhjWeight[] ws = new OrderLhjWeight[set.size()];

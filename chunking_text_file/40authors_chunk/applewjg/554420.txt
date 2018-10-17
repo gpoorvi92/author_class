@@ -1,0 +1,9 @@
+        }
+        if (path.length() != 0) path = path + " ";
+        for (int i = start; i < s.length(); ++i) {
+            String word = s.substring(start, i + 1);
+            if (dict.contains(word) == false) continue;
+            wordBreakRe(s, dict, path + word, i + 1, res);
+        }
+    }
+}

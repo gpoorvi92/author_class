@@ -1,0 +1,6 @@
+
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info("TcpProxy started");
+    }
+
+}

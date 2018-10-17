@@ -1,0 +1,10 @@
+    private synchronized void monitorFilesForAccount(Account account) {
+        if (observers.containsKey(account)) {
+            return;
+        }
+        SeafileObserver fileObserver = new SeafileObserver(account, listener);
+        addObserver(fileObserver);
+        observers.put(account, fileObserver);
+    }
+
+    public synchronized void stopMonitorFilesForAccount(Account account) {

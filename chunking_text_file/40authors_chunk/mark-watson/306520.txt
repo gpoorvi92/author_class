@@ -1,0 +1,6 @@
+        hidden2Panel.paint(g3);
+        outputPanel.paint(g4);
+        jButton1.setEnabled(true);
+        //nn.save("/tmp/neural_2h_save");
+    }
+}

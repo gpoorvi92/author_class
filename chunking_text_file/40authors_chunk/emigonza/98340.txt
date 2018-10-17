@@ -1,0 +1,10 @@
+
+    /**
+     * @return the JposRegPopulator object used to populate the registry
+     * @since 1.2 (NY 2K meeting)
+     */
+    public JposRegPopulator getRegPopulator();
+
+    /**
+     * @return the ProfileRegistry currently loaded
+     * @since 1.3 (SF 2K meeting)

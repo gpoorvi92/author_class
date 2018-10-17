@@ -1,0 +1,10 @@
+        TransferTask task = getTask(taskID);
+        if (task != null) {
+            return task.getTaskInfo();
+        }
+
+        return null;
+    }
+
+    private boolean hasInQue(TransferTask transferTask) {
+        if (waitingList.contains(transferTask)) {

@@ -1,0 +1,10 @@
+			控制条件语句;
+		}
+
+		for(初始化语句;判断条件语句;控制条件语句) {
+			 循环体语句;
+		}
+	由此可见while循环和for循环是可以等价转换的。
+*/
+class WhileDemo {
+	public static void main(String[] args) {

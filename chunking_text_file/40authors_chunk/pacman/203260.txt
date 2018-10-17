@@ -1,0 +1,10 @@
+			attribute = node.attribute("backgroundUrl");
+			if (attribute != null) {
+				String file = StringHelper.getFileBareName(attribute.getValue());
+				if (!StringHelper.isEmpty(file) && !info.getAllFiles().contains(file)) {
+					info.addFile(file);
+				}
+				attribute.setValue(trimToBareName(file));
+			}
+			
+			List<Element> eles = node.elements("ele");

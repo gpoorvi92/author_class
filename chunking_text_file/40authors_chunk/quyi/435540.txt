@@ -1,0 +1,10 @@
+
+  /** Returns true if field networkPacket is set (has been assigned a value) and false otherwise */
+  public boolean isSetNetworkPacket() {
+    return this.networkPacket != null;
+  }
+
+  public void setNetworkPacketIsSet(boolean value) {
+    if (!value) {
+      this.networkPacket = null;
+    }

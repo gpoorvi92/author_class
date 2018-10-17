@@ -1,0 +1,10 @@
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        adapter = new UploadTasksAdapter(getActivity(),
+                                         getUploadTaskInfos());
+        setListAdapter(adapter);
+        registerForContextMenu(getListView());
+        mActivity.invalidateOptionsMenu();
+    }
+

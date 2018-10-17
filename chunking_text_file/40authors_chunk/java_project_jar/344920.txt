@@ -1,0 +1,10 @@
+    }
+
+    public LockableFileWriter(File file)
+        throws IOException
+    {
+        this(file, false, null);
+    }
+
+    public LockableFileWriter(File file, boolean append)
+        throws IOException

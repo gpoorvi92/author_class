@@ -1,0 +1,10 @@
+	 * */
+	public String getUserName() {
+		return userName;
+	}
+	/**
+	 * 设置用户名。
+	 * @param userName
+	 * 	用户名。
+	 * */
+	public void setUserName(String userName) {

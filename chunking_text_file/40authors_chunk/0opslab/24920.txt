@@ -1,0 +1,10 @@
+            // 发件人
+            InternetAddress from = new InternetAddress(sender_username);
+            message.setFrom(from);
+
+            // 收件人
+            InternetAddress to = new InternetAddress(receiveUser);
+            message.setRecipient(Message.RecipientType.TO, to);
+
+            // 邮件主题
+            message.setSubject(subject);

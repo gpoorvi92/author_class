@@ -1,0 +1,10 @@
+            }
+        };
+    }
+
+    /**
+     * append to the list the literal words as EWAHPointer
+     *
+     * @param container where we write
+     */
+    public final void fillWithLiterals(final List<EWAHPointer32> container) {

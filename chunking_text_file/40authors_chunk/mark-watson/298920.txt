@@ -1,0 +1,10 @@
+    protected int [] node_x = new int[MAX];
+    protected int [] node_y = new int[MAX];
+    // for links between nodes:
+    protected int [] link_1 = new int[MAX];
+    protected int [] link_2 = new int[MAX];
+    protected int [] lengths = new int[MAX];
+
+    protected int numNodes = 0;
+    protected int numLinks = 0;
+

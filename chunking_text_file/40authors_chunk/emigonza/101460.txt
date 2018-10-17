@@ -1,0 +1,10 @@
+    public void    setCharacterSet(int characterSet) throws JposException;
+    public String  getCharacterSetList() throws JposException;
+    public int     getColumns() throws JposException;
+    public int     getCurrentWindow() throws JposException;
+    public void    setCurrentWindow(int currentWindow) throws JposException;
+    public int     getCursorColumn() throws JposException;
+    public void    setCursorColumn(int cursorColumn) throws JposException;
+    public int     getCursorRow() throws JposException;
+    public void    setCursorRow(int cursorRow) throws JposException;
+    public boolean getCursorUpdate() throws JposException;

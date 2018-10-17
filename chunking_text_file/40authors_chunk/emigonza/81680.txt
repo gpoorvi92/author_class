@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// LineDisplayControl14
+//
+//   Interface definining all new capabilities, properties and
+//   methods that are specific to Line Display for release 1.4.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 98-11-02 JavaPOS Release 1.4                                   BS

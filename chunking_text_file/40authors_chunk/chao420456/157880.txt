@@ -1,0 +1,10 @@
+	public void show() {
+		System.out.println(name+"---"+age);
+	}
+
+	public void catchMouse() {
+		System.out.println("√®◊Ω¿œ Û");
+	}
+}
+//π∑¿‡
+class Dog {

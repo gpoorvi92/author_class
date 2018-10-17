@@ -1,0 +1,10 @@
+        }
+    }
+}
+
+public class RenameFileDialog extends TaskDialog {
+    private EditText fileNameText;
+    private String repoID;
+    private String path;
+    private boolean isdir;
+

@@ -1,0 +1,10 @@
+    public ruleSync_args(ruleSync_args other) {
+      if (other.isSetRules()) {
+        List<com.nercis.isscp.idl.rules.Rules> __this__rules = new ArrayList<com.nercis.isscp.idl.rules.Rules>(other.rules.size());
+        for (com.nercis.isscp.idl.rules.Rules other_element : other.rules) {
+          __this__rules.add(new com.nercis.isscp.idl.rules.Rules(other_element));
+        }
+        this.rules = __this__rules;
+      }
+    }
+

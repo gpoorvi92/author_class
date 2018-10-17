@@ -1,0 +1,10 @@
+		for (Customer c : list) {
+			cs[count++] = c;
+		}
+		return cs;
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public List queryAllCustomers(int start, int limit) {
+		List list = customerDao.selectAllCustomers(start,limit);

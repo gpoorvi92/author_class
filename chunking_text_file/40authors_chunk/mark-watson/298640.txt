@@ -1,0 +1,10 @@
+     * Invoke this method to submit the map/reduce job.
+     *
+     * @throws IOException When there is communication problems with the
+     *                     job tracker.
+     */
+    public int run(String[] args) throws Exception {
+        JobConf conf = new JobConf(getConf(), NameFinder.class);
+        conf.setJobName("namefinder");
+        conf.setOutputKeyClass(Text.class);
+        conf.setOutputValueClass(Text.class);

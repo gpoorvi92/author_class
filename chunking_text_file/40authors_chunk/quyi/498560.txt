@@ -1,0 +1,10 @@
+      return getFileDescription();
+
+    case FILE_PATH:
+      return getFilePath();
+
+    case OPERATE_CONTENT:
+      return getOperateContent();
+
+    case OPERATE_TIME:
+      return getOperateTime();

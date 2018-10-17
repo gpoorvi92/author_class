@@ -1,0 +1,10 @@
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void appStatusNotifyTest002() {
+		try {
+			TTransport transport = new TSocket(engine_address, engine_notify_port);

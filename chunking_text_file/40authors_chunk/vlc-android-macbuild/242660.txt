@@ -1,0 +1,10 @@
+        return compat.isActiveNetworkMetered(manager);
+    }
+
+    public static String getActiveNetworkName(Context context) {
+        try {
+            NetworkInfo info = getActivieNetworkInfo(context);
+            String typeName = info.getTypeName().toLowerCase();
+            if (typeName.equals("wifi")) {
+                return typeName;
+            } else {

@@ -1,0 +1,10 @@
+        MediaPlayer.OnBufferingUpdateListener,
+        MediaPlayer.OnCompletionListener, MediaPlayer.OnErrorListener,
+        MediaPlayer.OnInfoListener, MediaPlayer.OnPreparedListener,
+        MediaPlayer.OnSeekCompleteListener,
+        MediaPlayer.OnVideoSizeChangedListener {
+
+    public static final String TAG = DefMediaListPlayer.class.getName();
+
+    private String mMetaListUrl;
+    private DefMediaSegmentPlayer mSegmentPlayer;

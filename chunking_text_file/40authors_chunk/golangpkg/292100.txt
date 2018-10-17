@@ -1,0 +1,10 @@
+		// extract the configuration element
+		final RequestUploadProcessingConfiguration requestUploadProcessingConfiguration =
+				uploadProcessingConfigurationManager.getUploadProcessingConfiguration(entry.getKey());
+
+		// calculate from the rate in the configuration
+		Long rateInKiloBytes = requestUploadProcessingConfiguration.getRateInKiloBytes();
+		if (rateInKiloBytes != null) {
+			allowedCapacityPerSecond = (int) (rateInKiloBytes * 1024);
+		}
+

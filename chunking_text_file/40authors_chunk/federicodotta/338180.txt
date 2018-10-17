@@ -1,0 +1,10 @@
+     * This method is used by Burp to determine whether the payload generator is
+     * able to provide any further payloads.
+     *
+     * @return Extensions should return
+     * <code>false</code> when all the available payloads have been used up,
+     * otherwise
+     * <code>true</code>.
+     */
+    boolean hasMorePayloads();
+

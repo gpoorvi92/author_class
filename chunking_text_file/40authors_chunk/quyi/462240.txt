@@ -1,0 +1,10 @@
+
+    public Object getFieldValue(_Fields field) {
+      switch (field) {
+      case ENGINE_ID:
+        return getEngineId();
+
+      }
+      throw new IllegalStateException();
+    }
+

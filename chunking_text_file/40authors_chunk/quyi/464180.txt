@@ -1,0 +1,10 @@
+          return false;
+        if (!this.rules.equals(that.rules))
+          return false;
+      }
+
+      return true;
+    }
+
+    @Override
+    public int hashCode() {

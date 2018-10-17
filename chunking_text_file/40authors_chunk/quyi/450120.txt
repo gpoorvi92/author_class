@@ -1,0 +1,10 @@
+    public void searchEng(String engineId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      searchEng_call method_call = new searchEng_call(engineId, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class searchEng_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String engineId;
+      public searchEng_call(String engineId, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {

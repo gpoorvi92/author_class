@@ -1,0 +1,10 @@
+          {
+            oprot.writeI32(struct.success.size());
+            for (com.nercis.isscp.idl.AppCheckResult _iter20 : struct.success)
+            {
+              _iter20.write(oprot);
+            }
+          }
+        }
+        if (struct.isSetIre()) {
+          struct.ire.write(oprot);

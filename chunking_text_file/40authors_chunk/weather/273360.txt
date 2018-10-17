@@ -1,0 +1,10 @@
+     * @param substring
+     * @return
+     */
+    public static String cutFromIndexOf(String string, String substring) {
+        int i = string.indexOf(substring);
+        if (i != -1) {
+            string = string.substring(i);
+        }
+        return string;
+    }

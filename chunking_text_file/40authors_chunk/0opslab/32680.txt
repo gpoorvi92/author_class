@@ -1,0 +1,10 @@
+    int result = 1;
+    result = prime * result + ((this.m_key == null) ? 0 : this.m_key.hashCode());
+    result = prime * result + ((this.m_value == null) ? 0 : this.m_value.hashCode());
+    return result;
+  }
+
+  /**
+   * Sets a new value instance overwriting the old value which is returned.
+   * <p>
+   * 

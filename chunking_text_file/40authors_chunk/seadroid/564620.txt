@@ -1,0 +1,10 @@
+            String s;
+            if (mState == State.CANCEL) {
+                s = "Cancel";
+            } else if (mState == State.ALLOW) {
+                s = "Allow";
+            } else {
+                s = "?";
+            }
+            s = "thread state = " + s + ", options = " + mOptions;
+            return s;

@@ -1,0 +1,10 @@
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("AppSendMessage(");
+    boolean first = true;
+
+    sb.append("missionId:");
+    if (this.missionId == null) {
+      sb.append("null");
+    } else {

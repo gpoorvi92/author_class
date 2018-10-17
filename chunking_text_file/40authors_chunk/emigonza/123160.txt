@@ -1,0 +1,10 @@
+        this.errorCode = errorCode;
+        this.errorCodeExtended = errorCodeExtended;
+        this.errorLocus = errorLocus;
+        this.errorResponse = errorResponse;
+    }
+
+    public int getErrorCode()
+    {
+        return errorCode;
+    }

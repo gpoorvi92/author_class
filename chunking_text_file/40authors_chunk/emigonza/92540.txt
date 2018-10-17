@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapPositiveSubtotalAdjustment"),
+
+        // Properties
+        makeProperty("AmountDecimalPlace"),
+        makeProperty("AsyncMode"),
+        makeProperty("CheckTotal"),
+        makeProperty("CountryCode"),
+        makeProperty("CoverOpen"),
+        makeProperty("DayOpened"),

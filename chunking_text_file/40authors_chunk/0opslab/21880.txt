@@ -1,0 +1,10 @@
+                FileChannel in = inStream.getChannel();
+                FileChannel out = outStream.getChannel()
+        ) {
+            ByteBuffer buffer = ByteBuffer.allocate(4096);
+            while (in.read(buffer) != -1) {
+                buffer.flip();
+                out.write(buffer);
+                buffer.clear();
+            }
+        } catch (IOException e) {

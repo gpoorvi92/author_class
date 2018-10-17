@@ -1,0 +1,10 @@
+
+        if (mServerUrlEt.hasFocus()) {
+            // Change the cursor position since we changed the text
+            if (isHttps) {
+                int offset = oldOffset + 1;
+                mServerUrlEt.setSelection(offset, offset);
+            } else {
+                int offset = Math.max(0, oldOffset - 1);
+                mServerUrlEt.setSelection(offset, offset);
+            }

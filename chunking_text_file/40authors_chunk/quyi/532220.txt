@@ -1,0 +1,10 @@
+    }
+
+    public String getFieldName() {
+      return _fieldName;
+    }
+  }
+
+  // isset id assignments
+  private static final int __LINENUM_ISSET_ID = 0;
+  private static final int __COLUMNNUM_ISSET_ID = 1;

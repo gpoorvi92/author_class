@@ -1,0 +1,10 @@
+package fileIO;
+
+import model.*;
+import java.io.*;
+
+/**
+ * Loads a specific file format
+ */
+public class STLModelFileSaver implements ModelFileSaver
+{

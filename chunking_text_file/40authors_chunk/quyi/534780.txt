@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.apiName != null) {
+        oprot.writeFieldBegin(API_NAME_FIELD_DESC);
+        oprot.writeString(struct.apiName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.apiPackageName != null) {
+        oprot.writeFieldBegin(API_PACKAGE_NAME_FIELD_DESC);
+        oprot.writeString(struct.apiPackageName);
+        oprot.writeFieldEnd();

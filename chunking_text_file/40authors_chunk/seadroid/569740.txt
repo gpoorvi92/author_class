@@ -1,0 +1,10 @@
+        outState.putString(STATE_TASK_REPO_ID, repoID);
+        outState.putParcelable(STATE_ACCOUNT, account);
+    }
+
+    @Override
+    protected void onValidateUserInput() throws Exception {
+        String password = passwordText.getText().toString().trim();
+
+        if (password.length() == 0) {
+            String err = getActivity().getResources().getString(R.string.password_empty);

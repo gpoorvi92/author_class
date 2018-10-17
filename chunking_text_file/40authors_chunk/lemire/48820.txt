@@ -1,0 +1,10 @@
+     *
+     * @param maxSize capacity
+     * @param c       comparator
+     */
+    @SuppressWarnings("unchecked")
+    public PriorityQ(final int maxSize, final Comparator<T> c) {
+        this.a = (T[]) new Object[maxSize + 1];
+        this.lastIndex = 0;
+        this.comp = c;
+    }

@@ -1,0 +1,10 @@
+ * A bean for picking file names.
+ * @version 1.31 2012-06-10
+ * @author Cay Horstmann
+ */
+public class FilePickerBean extends JPanel
+{
+   private static final int XPREFSIZE = 200;
+   private static final int YPREFSIZE = 20;
+
+   private JButton dialogButton;

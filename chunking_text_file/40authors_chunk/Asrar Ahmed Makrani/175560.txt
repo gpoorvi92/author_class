@@ -1,0 +1,10 @@
+			 				fax_text.setText(rs1.getString(11));
+			 				email_text.setText(rs1.getString(12));
+			 				status_combo.setSelectedItem(rs1.getString(4));
+			 				salute_combo.setSelectedItem(rs1.getString(5));
+			 				group_combo.setSelectedItem(rs1.getString(13));
+			            
+			 				statement.close(); 
+			 			
+					}
+					

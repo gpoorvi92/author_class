@@ -1,0 +1,10 @@
+    {
+        ChatServerRpc.UpdateBulletinReq.Builder reqBuilder = ChatServerRpc.UpdateBulletinReq.newBuilder();
+        reqBuilder.addBulletinDTO(bulletin.toDTO());
+        ChatServerRpc.UpdateBulletinReq req = reqBuilder.build();
+        boolean ret = true;
+        try
+        {
+
+            if (bulletin.getZoneId() == 0)
+            {

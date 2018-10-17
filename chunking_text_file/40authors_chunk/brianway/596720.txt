@@ -1,0 +1,10 @@
+	at com.brianway.learning.java.multithread.lock.example8.Run8_lockInterruptibly2$1.run(Run8_lockInterruptibly2.java:17)
+	at java.lang.Thread.run(Thread.java:745)
+main end
+lock end   A
+
+-----------------------------
+
+lock begin A
+main end
+java.lang.InterruptedException

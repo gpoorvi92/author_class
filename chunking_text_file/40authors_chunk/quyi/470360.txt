@@ -1,0 +1,10 @@
+				searchAppThread.run();
+			}
+			try {
+				Thread.sleep(waitTime);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}

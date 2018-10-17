@@ -1,0 +1,10 @@
+
+			if (row == null) {
+				LayoutInflater inflater = mContext.getLayoutInflater();
+				row = inflater.inflate(mLayoutId, null);
+
+				holder = new ViewHolder();
+				holder.act_type_img = (ImageView) row
+						.findViewById(R.id.act_type_img);
+				holder.act_type_explain = (TextView) row
+						.findViewById(R.id.act_type_explain);

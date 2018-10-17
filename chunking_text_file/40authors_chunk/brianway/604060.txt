@@ -1,0 +1,10 @@
+ * P234
+ * Condition实现顺序打印
+ * 这里nextPrintWho的volatile关键词去掉也没什么影响
+ */
+public class Run10_condition {
+    volatile private static int nextPrintWho = 1;
+    private static ReentrantLock lock = new ReentrantLock();
+    final private static Condition conditionA = lock.newCondition();
+    final private static Condition conditionB = lock.newCondition();
+    final private static Condition conditionC = lock.newCondition();

@@ -1,0 +1,10 @@
+	//int num  = 10;
+	//static int num2 = 20;
+
+	public static class Inner {
+		public void show() {
+			System.out.println("show");
+			//System.out.println(num);
+			//System.out.println(num2);
+		}
+

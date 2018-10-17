@@ -1,0 +1,10 @@
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		setContentView(R.layout.act_act_type);
+
+		TextView title = (TextView) findViewById(R.id.title_center);
+		title.setText("选择聚会");
+
+		findViewById(R.id.title_back).setOnClickListener(new OnClickListener() {
+			@Override

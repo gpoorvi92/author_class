@@ -1,0 +1,9 @@
+
+      titleField.setText(bean.getTitle());
+
+      for (int i = 0; i < position.length; i++)
+         position[i].setSelected(i == bean.getTitlePosition().ordinal());
+
+      colorEditor.setValue(bean.getGraphColor());
+   }
+}

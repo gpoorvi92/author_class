@@ -1,0 +1,10 @@
+                            try {
+                                mNetworkQueue.put(request);
+                            } catch (InterruptedException e) {
+                                // Not much we can do about this.
+                            }
+                        }
+                    });
+                }
+
+            } catch (InterruptedException e) {

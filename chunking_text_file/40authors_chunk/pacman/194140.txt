@@ -1,0 +1,10 @@
+		}
+		
+		return t;
+	}
+	
+	/**
+	 * Gets the last executed duration.
+	 * 
+	 * @return duration
+	 */

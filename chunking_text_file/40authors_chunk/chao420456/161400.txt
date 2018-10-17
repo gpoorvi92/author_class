@@ -1,0 +1,10 @@
+ * 		B:一个方法中的可变参数只能出现在形式参数的最后。
+ */
+public class ArgsDemo {
+	public static void main(String[] args) {
+//		System.out.println(sum());
+
+		int a = 10;
+		int b = 20;
+		int result = sum(a, b);
+		System.out.println(result);

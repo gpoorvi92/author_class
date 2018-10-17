@@ -1,0 +1,10 @@
+    boolean that_present_checkResult = true && that.isSetCheckResult();
+    if (this_present_checkResult || that_present_checkResult) {
+      if (!(this_present_checkResult && that_present_checkResult))
+        return false;
+      if (!this.checkResult.equals(that.checkResult))
+        return false;
+    }
+
+    return true;
+  }

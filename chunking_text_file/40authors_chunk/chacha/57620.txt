@@ -1,0 +1,10 @@
+        StringWriter sw = new StringWriter();
+        JsonGenerator jg = jf.createJsonGenerator(sw);
+        if (prettyPrint) {
+            jg.useDefaultPrettyPrinter();
+        }
+        m.writeValue(jg, pojo);
+        return sw.toString();
+    }
+
+    public static void toJson(Object pojo, FileWriter fw, boolean prettyPrint)

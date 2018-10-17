@@ -1,0 +1,10 @@
+
+  }
+
+  private static class FileOperateTupleSchemeFactory implements SchemeFactory {
+    public FileOperateTupleScheme getScheme() {
+      return new FileOperateTupleScheme();
+    }
+  }
+
+  private static class FileOperateTupleScheme extends TupleScheme<FileOperate> {

@@ -1,0 +1,10 @@
+/**
+ * Created by zhoukai on 13-7-10.
+ */
+public abstract class DataProvider {
+    public static final int LOAD_CACHE_FINISHED = 10000;
+    public static final int LOAD_NEW_FINISHED = 10001;
+    public static final int LOAD_MORE_FINISHED = 10002;
+    public static final int LOAD_NEW_FAIL = 10003;
+    public static final int LOAD_MORE_FAIL = 10004;
+    public static final int LOAD_CACHE_FAIL = 10005;

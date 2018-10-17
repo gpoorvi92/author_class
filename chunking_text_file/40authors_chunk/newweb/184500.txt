@@ -1,0 +1,10 @@
+	}
+	public void setGbCount(int gbCount) {
+		this.gbCount = gbCount;
+	}
+	public double getSxhLength() {
+		return sxhLength;
+	}
+	public void setSxhLength(double sxhLength) {
+		this.sxhLength = sxhLength;
+	}

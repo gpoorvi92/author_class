@@ -1,0 +1,10 @@
+@Transactional(rollbackFor = Exception.class)
+@Service(IUserService.SERVICE_NAME)
+public class UserServiceImpl implements IUserService {
+    @Autowired
+    private UserMapper userMapper;
+
+    @Override
+    public void add(User user) throws ServiceException {
+        if (this.countByUsername(user.getUsername()) < 1) {
+            user.setStatus(UserStatus.ACTIVE.toString());

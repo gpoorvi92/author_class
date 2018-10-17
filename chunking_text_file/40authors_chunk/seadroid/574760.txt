@@ -1,0 +1,10 @@
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        View root = inflater.inflate(R.layout.starred_fragment, container, false);
+        mStarredList = (ListView) root.findViewById(android.R.id.list);
+        mNoStarredView = (TextView) root.findViewById(android.R.id.empty);
+        mListContainer =  root.findViewById(R.id.listContainer);
+        mErrorText = (TextView)root.findViewById(R.id.error_message);
+        mProgressContainer = root.findViewById(R.id.progressContainer);

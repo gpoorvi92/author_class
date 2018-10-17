@@ -1,0 +1,10 @@
+        merchant.setAddress("西华大学侧门");
+        merchant.setPhone("18202877930");
+        merchant.setDescription("台式快餐");
+        merchantService.insertMerchant(merchant);
+    }
+
+    @Test
+    public void testFloat2Integer() throws Exception {
+        System.out.println(new BigDecimal("45.5").setScale(0, BigDecimal.ROUND_HALF_UP).toString());
+    }

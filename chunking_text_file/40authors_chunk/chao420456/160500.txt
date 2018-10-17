@@ -1,0 +1,5 @@
+		Employee e = new Manager("°×Ò»í®","10000",500,10000);
+		e.show();
+		e.work();
+	}
+}

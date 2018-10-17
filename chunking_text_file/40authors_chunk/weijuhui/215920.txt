@@ -1,0 +1,10 @@
+
+	/**
+	 * 指定长度宽度进行缩放
+	 * @param source
+	 * @param targetWidth
+	 * @param targetHeight
+	 * @return
+	 */
+	public static Bitmap extract(Bitmap source, int targetWidth, int targetHeight) {
+		return extractThumbnail(source, targetWidth, targetHeight, Option.NONE);

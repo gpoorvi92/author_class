@@ -1,0 +1,10 @@
+	private BitmapTextureAtlas mOnScreenControlTexture;
+	private ITextureRegion mOnScreenControlBaseTextureRegion;
+	private ITextureRegion mOnScreenControlKnobTextureRegion;
+
+	private DigitalOnScreenControl mDigitalOnScreenControl;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+

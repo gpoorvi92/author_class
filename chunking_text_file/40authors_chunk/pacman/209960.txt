@@ -1,0 +1,10 @@
+			compile();			
+		}
+	}
+	
+	class TaskSaveAction extends SqlUpdate {
+		
+		public TaskSaveAction(DataSource ds) {
+			setDataSource(ds);
+			setSql("UPDATE task SET cid=?, lid=?, guid=?, type=?, file=?, begin=?, end=?, status=?, err=?, modified=now() WHERE tid=?");
+			declareParameter(new SqlParameter(Types.INTEGER));

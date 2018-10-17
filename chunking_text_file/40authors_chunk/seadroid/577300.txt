@@ -1,0 +1,10 @@
+        public void onPatternStart() {
+            mLockPatternView.removeCallbacks(mClearPatternRunnable);
+            patternInProgress();
+        }
+
+        public void onPatternCleared() {
+            mLockPatternView.removeCallbacks(mClearPatternRunnable);
+        }
+
+        public void onPatternDetected(List<LockPatternView.Cell> pattern) {

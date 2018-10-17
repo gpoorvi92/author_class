@@ -1,0 +1,10 @@
+            entered_mouseDragged_6 = true;
+            __mouseDragged( e );
+            entered_mouseDragged_6 = false;
+        }
+        else
+            super.mouseDragged( e );
+    }
+
+    /// public void java.awt.event.MouseAdapter.mouseWheelMoved(java.awt.event.MouseWheelEvent)
+

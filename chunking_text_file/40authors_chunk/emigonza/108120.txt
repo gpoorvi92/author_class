@@ -1,0 +1,10 @@
+      {
+        makeEvent("DirectIO"),
+        makeEvent("Error"),
+        makeEvent("OutputComplete"),
+        makeEvent("StatusUpdate")
+      };
+
+      return events;
+    }
+    catch(Exception e)

@@ -1,0 +1,10 @@
+		ModifyAccountRequest modifyRequest=new ModifyAccountRequest(body);
+		try{
+			Response r=service.modifyAccount(modifyRequest);
+			assertTrue(r.getResult()==Response.SUCCESS);
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+		//查询帐号是否修改成功
+		queryBody=new AccountNameBody(userNames);
+		qRequest=new QueryAccountRequest(queryBody);

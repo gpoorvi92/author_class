@@ -1,0 +1,10 @@
+						&& acd.getStringValue("send_state") == null) {
+					update("add_chat_message", msgId, "1", "3",
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, audioUrl, new Date(),
+							this.id, "2", "", "");
+					acd.putStringValue("send_state", "2");
+					ChatMessageUtil.uploadFile(this, audioUrl,
+							new ChatUploadService(this, chatList, sendState,
+
+							sendFinishState, acd));

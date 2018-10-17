@@ -1,0 +1,10 @@
+	protected void onWriteTransmissionData(final DataOutputStream pDataOutputStream) throws IOException {
+		pDataOutputStream.writeInt(this.mPaddleID);
+		pDataOutputStream.writeFloat(this.mX);
+		pDataOutputStream.writeFloat(this.mY);
+	}
+
+	// ===========================================================
+	// Methods
+	// ===========================================================
+

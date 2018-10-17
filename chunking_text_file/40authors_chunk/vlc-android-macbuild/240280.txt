@@ -1,0 +1,10 @@
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        ApplicationInfo appInfo = pkgInfo.applicationInfo;
+        if (appInfo == null)
+            return null;
+
+        CharSequence cs = appInfo.loadLabel(pkgManager);

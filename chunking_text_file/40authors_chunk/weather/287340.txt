@@ -1,0 +1,10 @@
+    public void initResourceAndColor() {
+
+    }
+
+    @Override
+    public View findViewById(int id) {
+        if (mIsAttached) {
+            return mSlidingPaneLayout.findViewById(id);
+        } else {
+            return super.findViewById(id);

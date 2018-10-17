@@ -1,0 +1,10 @@
+
+	boolean save(Bill bill);
+
+	boolean remove(Bill bill);
+
+	Order[] queryOrdersByBillId(String billid);
+
+	Bill findBillById(String billid);
+
+	double getBillAccountByBillID(String billid);

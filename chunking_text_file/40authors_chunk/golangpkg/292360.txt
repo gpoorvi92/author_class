@@ -1,0 +1,10 @@
+ */
+@Component
+@ManagedResource(objectName = "JavaLargeFileUploader:name=operationManager")
+public class JavaLargeFileUploaderService<T extends StaticStatePersistedOnFileSystemEntity> {
+
+	@Autowired
+	FileDeleter fileDeleter;
+
+	@Autowired
+	StaticStateManager<T> staticStateManager;

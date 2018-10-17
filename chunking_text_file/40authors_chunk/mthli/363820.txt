@@ -1,0 +1,10 @@
+   public String[] getExtensions()
+   {
+      return extensions;
+   }
+
+   /**
+    * Sets the extensions property.
+    * @param newValue the new default extensions
+    */
+   public void setExtensions(String[] newValue)

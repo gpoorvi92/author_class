@@ -1,0 +1,10 @@
+//   New device category.
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface BeltControl113 extends BeltControl112
+{

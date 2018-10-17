@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class HorlickInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Ais batu \nAir gula dan susu \n3Sudu besar pati Horlick \nKacau hingga sebati ");

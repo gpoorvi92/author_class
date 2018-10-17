@@ -1,0 +1,10 @@
+         DefaultFormatter formatter = new DefaultFormatter();
+         formatter.setOverwriteMode(false);
+         JFormattedTextField urlField = new JFormattedTextField(formatter);
+         urlField.setValue(new URL("http://java.sun.com"));
+         addRow("URL:", urlField);
+      }
+      catch (MalformedURLException ex)
+      {
+         ex.printStackTrace();
+      }

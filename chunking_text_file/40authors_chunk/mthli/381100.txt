@@ -1,0 +1,7 @@
+      Ball b = new Ball();
+      comp.add(b);
+      Runnable r = new BallRunnable(b, comp);
+      Thread t = new Thread(r);
+      t.start();
+   }
+}

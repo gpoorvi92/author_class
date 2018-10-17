@@ -1,0 +1,10 @@
+		String[] types = new String[list.size()];
+		int count = 0;
+		for (String string : list) {
+			types[count++] = string;
+		}
+		return types;
+	}
+
+
+	@Override

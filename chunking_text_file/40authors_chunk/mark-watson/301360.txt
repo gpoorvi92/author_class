@@ -1,0 +1,10 @@
+    }
+
+    public void paint(Graphics g) {
+	super.paint(g);
+	if (engine != null && path != null) {
+            int numNodes = engine.getNumNodes();
+            int numLinks = engine.getNumLinks();
+            for (int i=0; i<numLinks; i++) {
+               int l1 = engine.getLink1(i);
+               int l2 = engine.getLink2(i);

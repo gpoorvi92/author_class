@@ -1,0 +1,10 @@
+    private CreditLogMapper creditLogMapper;
+
+    @Override
+    public List<CreditLog> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<CreditLog> creditLogList = creditLogMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(creditLogMapper.getTotalCount(vo));
+        return creditLogList;
+    }
+}

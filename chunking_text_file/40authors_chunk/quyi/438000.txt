@@ -1,0 +1,10 @@
+  }
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof NodeInfo)
+      return this.equals((NodeInfo)that);
+    return false;
+  }

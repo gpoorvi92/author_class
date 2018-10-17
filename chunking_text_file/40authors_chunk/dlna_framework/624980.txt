@@ -1,0 +1,10 @@
+		getIconNode().setNode(HEIGHT, value);
+	}
+
+	public void setHeight(int value)
+	{
+		try {
+			setHeight(Integer.toString(value));
+		}
+		catch (Exception e) {};
+	}

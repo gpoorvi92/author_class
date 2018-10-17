@@ -1,0 +1,10 @@
+		this.stroke = stroke;
+		this.size = size;
+	}
+	
+	public void setFill(boolean fill)
+	{
+		this.fill = fill;
+	}
+	
+	public void setImage(Image i)

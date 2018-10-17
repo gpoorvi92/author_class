@@ -1,0 +1,10 @@
+     * how many literal words have we read so far?
+     */
+    public int literalWordOffset = 0;
+
+    /**
+     * The Number of literal words.
+     */
+    protected int NumberOfLiteralWords;
+
+    /**

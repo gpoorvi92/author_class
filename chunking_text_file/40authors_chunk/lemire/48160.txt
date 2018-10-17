@@ -1,0 +1,10 @@
+            fillClustered(array, offset, length / 2, Min, Min + cut);
+            fillUniform(array, offset + length / 2, length - length
+                    / 2, Min + cut, Max);
+        } else {
+            fillClustered(array, offset, length / 2, Min, Min + cut);
+            fillClustered(array, offset + length / 2, length
+                    - length / 2, Min + cut, Max);
+        }
+    }
+

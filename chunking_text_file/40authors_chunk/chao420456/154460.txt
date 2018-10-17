@@ -1,0 +1,10 @@
+	public static String JTATTOO_LUNA = "com.jtattoo.plaf.luna.LunaLookAndFeel";
+	// 很喜欢
+	public static String JTATTOO_MCWIN = "com.jtattoo.plaf.mcwin.McWinLookAndFeel";
+	public static String JTATTOO_MINT = "com.jtattoo.plaf.mint.MintLookAndFeel";
+	// 有个性
+	public static String JTATTOO_NOIRE = "com.jtattoo.plaf.noire.NoireLookAndFeel";
+	public static String JTATTOO_SMART = "com.jtattoo.plaf.smart.SmartLookAndFeel";
+	// liquidlnf.jar包资源
+	// 很喜欢
+	public static String LIQUIDINF = "com.birosoft.liquid.LiquidLookAndFeel";

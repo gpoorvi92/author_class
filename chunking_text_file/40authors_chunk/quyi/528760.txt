@@ -1,0 +1,10 @@
+  public String app_name; // required
+  public String versioncode; // required
+  public String url; // required
+  public int app_size; // required
+  public String minsdkversion; // required
+  public String apk_md5; // required
+  public String notify_callback_url; // required
+  public String app_description; // required
+  public List<com.nercis.isscp.idl.permission.Permissions> requestPurviews; // required
+  public String format; // required

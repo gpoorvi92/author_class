@@ -1,0 +1,10 @@
+		message.setObject(appSendMessage);
+		long time = System.currentTimeMillis();
+		producer.send(message);
+		// TODO record app being sent
+
+		session.commit();
+		// connection.close();
+		 
+//		 TTransport transport = new TSocket("192.168.2.91", 7911);
+//			try {

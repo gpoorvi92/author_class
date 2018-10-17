@@ -1,0 +1,10 @@
+    public static double doubleArrayFieldStatic[];
+    public double doubleArrayField[];
+
+    public static double[] doubleArrayMethodStatic( double arg[] ) {
+        return arg;
+    }
+
+    public double[] doubleArrayMethod( double arg[] ) {
+        return arg;
+    }

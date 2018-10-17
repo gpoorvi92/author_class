@@ -1,0 +1,10 @@
+    public boolean getCapDiscrepancy() throws JposException;
+    public boolean getCapEmptySensor() throws JposException;
+    public boolean getCapFullSensor() throws JposException;
+    public boolean getCapNearEmptySensor() throws JposException;
+    public boolean getCapNearFullSensor() throws JposException;
+
+    // Properties
+    public boolean getAsyncMode() throws JposException;
+    public void    setAsyncMode(boolean asyncMode) throws JposException;
+    public int     getAsyncResultCode() throws JposException;

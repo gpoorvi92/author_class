@@ -1,0 +1,10 @@
+
+/**
+ * TODO
+ * @Class: FileHelperTest
+ * @author: zhangxinyu
+ * @date: 2015年1月7日 下午3:30:13
+ */
+public class FileHelperTest {
+
+	private final String tempDir = FileHelper.isWindow() ? 

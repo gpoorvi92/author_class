@@ -1,0 +1,10 @@
+        return mUri.getPath();
+    }
+
+    private InputStream getInputStream() {
+        try {
+            if (mUri.getScheme().equals("file")) {
+                return new java.io.FileInputStream(mUri.getPath());
+            } else {
+                return mContentResolver.openInputStream(mUri);
+            }

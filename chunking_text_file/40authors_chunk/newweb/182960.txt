@@ -1,0 +1,10 @@
+	public MaterialBrand getMaterialBrand() {
+		return materialBrand;
+	}
+	public void setMaterialBrand(MaterialBrand materialBrand) {
+		this.materialBrand = materialBrand;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name="lhjTypeForBrandID")
+	public TypeForBrand getTypeForBrand() {

@@ -1,0 +1,10 @@
+            stream = new FileOutputStream(file, append);
+            if(encoding instanceof Charset)
+                writer = new OutputStreamWriter(stream, (Charset)encoding);
+            else
+            if(encoding instanceof CharsetEncoder)
+                writer = new OutputStreamWriter(stream, (CharsetEncoder)encoding);
+            else
+                writer = new OutputStreamWriter(stream, (String)encoding);
+        }
+        catch(IOException ex)

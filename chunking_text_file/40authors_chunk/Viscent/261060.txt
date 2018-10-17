@@ -1,0 +1,10 @@
+	@Override
+	public void init() {
+		start();
+	}
+
+	@Override
+	public void shutdown() {
+		terminate(true);
+	}
+}

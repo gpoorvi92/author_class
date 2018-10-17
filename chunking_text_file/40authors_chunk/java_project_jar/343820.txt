@@ -1,0 +1,10 @@
+                off += c;
+                len -= c;
+                read += c;
+                encoderOut.compact();
+            } while(true);
+            if(!endOfInput && (lastCoderResult == null || lastCoderResult.isUnderflow()))
+            {
+                encoderIn.compact();
+                int position = encoderIn.position();
+                int c = reader.read(encoderIn.array(), position, encoderIn.remaining());

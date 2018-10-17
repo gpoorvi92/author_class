@@ -1,0 +1,10 @@
+	 */
+	public int getCommandId() {
+		return commandId;
+	}
+	
+	/**
+	 * @param commandId the commandId to set
+	 */
+	public void setCommandId(int commandId) {
+		this.commandId = commandId;

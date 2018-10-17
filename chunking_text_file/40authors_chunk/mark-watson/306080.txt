@@ -1,0 +1,10 @@
+                best = new Vector();
+                best.addElement(moves[i]);
+                Enumeration enum2 = v2.elements();
+                enum2.nextElement(); // skip previous value
+                while (enum2.hasMoreElements()) {
+                    Object o = enum2.nextElement();
+                    if (o != null) best.addElement(o);
+                }
+            }
+            /**

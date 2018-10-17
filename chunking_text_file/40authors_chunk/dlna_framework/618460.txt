@@ -1,0 +1,10 @@
+		setOutputStream(socket.getOutputStream());
+	}
+	
+	public void finalize()
+	{
+		close();
+	}
+	
+	////////////////////////////////////////////////
+	//	Socket

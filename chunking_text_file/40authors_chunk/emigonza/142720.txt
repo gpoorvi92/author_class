@@ -1,0 +1,10 @@
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+
+  // Properties
+  public boolean getAsyncMode() throws JposException;
+  public void    setAsyncMode(boolean asyncMode) throws JposException;
+  public int     getAsyncResultCode() throws JposException;
+  public int     getAsyncResultCodeExtended() throws JposException;
+  public String  getCurrencyCashList() throws JposException;
+  public String  getCurrencyCode() throws JposException;

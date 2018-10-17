@@ -1,0 +1,10 @@
+
+  /** Returns true if field osDesc is set (has been assigned a value) and false otherwise */
+  public boolean isSetOsDesc() {
+    return this.osDesc != null;
+  }
+
+  public void setOsDescIsSet(boolean value) {
+    if (!value) {
+      this.osDesc = null;
+    }

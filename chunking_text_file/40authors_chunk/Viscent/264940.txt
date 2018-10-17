@@ -1,0 +1,10 @@
+	private long nowTimestamp = startTimestamp;
+	protected final DecimalFormat traceIdFormatter = new DecimalFormat("0000000");
+
+	private final int maxRequestPerTimeslice;
+	/**
+	 * 单位时间（10s）内产生的请求数
+	 */
+	private int requestGeneratedInTimeSlice = 0;
+
+	public AbstractRequestFactory(Map<String, Integer> respDelayConf,

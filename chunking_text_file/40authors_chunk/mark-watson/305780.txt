@@ -1,0 +1,10 @@
+    final Map<Integer,Integer> ordered_results = new Hashtable<Integer,Integer>(0);
+    StringTokenizer st = new StringTokenizer(search_terms.toLowerCase(), " .,;:!");
+    while (st.hasMoreTokens()) {
+      String word = st.nextToken();
+      Iterator<IdCount> word_counts = index.get(word).iterator();
+      while (word_counts.hasNext()) {
+        IdCount ts = word_counts.next();
+        Integer id = ts.id;
+        if (ordered_results.containsKey(id)) {
+          ordered_results.put(id, ordered_results.get(id) + ts.count);

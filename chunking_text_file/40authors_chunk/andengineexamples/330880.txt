@@ -1,0 +1,10 @@
+ * (c) 2010 Nicolas Gramlich
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich
+ * @since 01:30:15 - 02.04.2010
+ */
+public class TextMenuExample extends SimpleBaseGameActivity implements IOnMenuItemClickListener {
+	// ===========================================================
+	// Constants
+	// ===========================================================

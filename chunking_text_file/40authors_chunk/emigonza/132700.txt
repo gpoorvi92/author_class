@@ -1,0 +1,10 @@
+  // "CapColor" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int LGT_COLOR_PRIMARY                    = 0x00000001;
+  public static final int LGT_COLOR_CUSTOM1                    = 0x00010000;
+  public static final int LGT_COLOR_CUSTOM2                    = 0x00020000;
+  public static final int LGT_COLOR_CUSTOM3                    = 0x00040000;
+  public static final int LGT_COLOR_CUSTOM4                    = 0x00080000;
+  public static final int LGT_COLOR_CUSTOM5                    = 0x00100000;
+}

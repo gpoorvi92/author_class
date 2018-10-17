@@ -1,0 +1,10 @@
+      }
+    }
+
+    public Object getFieldValue(_Fields field) {
+      switch (field) {
+      case MISSION_ID:
+        return getMissionId();
+
+      }
+      throw new IllegalStateException();

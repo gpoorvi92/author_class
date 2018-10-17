@@ -1,0 +1,10 @@
+package progressBar;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.util.List;
+import javax.swing.*;
+
+/**
+ * A frame that contains a button to launch a simulated activity, a progress bar, and a text area
+ * for the activity output.

@@ -1,0 +1,10 @@
+
+    public void handleQuit( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handleQuit( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handleReOpenApplication(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleReOpenApplication( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handleReOpenApplication( com.apple.eawt.ApplicationEvent arg0 ) {

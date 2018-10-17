@@ -1,0 +1,10 @@
+        int i = 0, j = 0;
+        while (i < sLen) {
+            for (j = 0; j < tLen && (i+j) < sLen && haystack.charAt(i+j) == needle.charAt(j); ++j);
+            if (j == tLen) return i;
+            ++i;
+        }
+        return (int)-1;
+    }
+    void getNext(String T, int[] next){
+        int i=0, j=-1;

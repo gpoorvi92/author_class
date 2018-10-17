@@ -1,0 +1,10 @@
+    @Override
+    public void negateWord(int position) {
+        this.buffer[position] = ~this.buffer[position];
+    }
+    
+    @Override
+    public void andWord(int position, int mask) {
+        this.buffer[position] &= mask;
+    }
+    

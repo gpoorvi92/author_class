@@ -1,0 +1,7 @@
+
+    int numInputs;
+    Vector trainingData = new Vector();
+    float[][] weights;
+    float[] tempStorage;
+    float[] inputCells;
+}

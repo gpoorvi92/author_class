@@ -1,0 +1,10 @@
+    /** 
+     * 加密密码算法，默认的加密算法是SHA-256  
+     *  
+     * @param password 
+     *            未加密的密码 
+     * @return String 加密后的密码,64位字符串
+     */  
+    public static String digestPassword(String password) {  
+        try {  
+            if (password != null && !"".equals(password)) {  

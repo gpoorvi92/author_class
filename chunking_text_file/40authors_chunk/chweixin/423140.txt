@@ -1,0 +1,10 @@
+package ipower.wechat.action;
+
+import java.io.IOException;
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import ipower.action.BaseAction;
+import ipower.model.Json;
+import ipower.model.UserIdentity;

@@ -1,0 +1,10 @@
+{
+   /**
+    * Processes all ActionListenerFor annotations in the given object.
+    * @param obj an object whose methods may have ActionListenerFor annotations
+    */
+   public static void processAnnotations(Object obj)
+   {
+      try
+      {
+         Class<?> cl = obj.getClass();

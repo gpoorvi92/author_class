@@ -1,0 +1,10 @@
+	public static int count2 = 0;
+
+	public static void main(String[] args) {
+		// 封装指定目录
+		File srcFolder = new File("D:\\itcast\\20150306");
+		// 递归实现
+		getAllJavaFilePath(srcFolder);
+		System.out.println("共学习了" + count1 + "个java文件");
+		System.out.println("共学习了" + count2 + "个avi文件");
+	}

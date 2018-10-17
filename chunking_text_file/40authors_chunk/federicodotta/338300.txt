@@ -1,0 +1,10 @@
+    /**
+     * Used to indicate multi-part content.
+     */
+    static final byte CONTENT_TYPE_MULTIPART = 2;
+    /**
+     * Used to indicate XML content.
+     */
+    static final byte CONTENT_TYPE_XML = 3;
+    /**
+     * Used to indicate JSON content.

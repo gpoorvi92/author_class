@@ -1,0 +1,10 @@
+        return _AcceptedIssuers;
+    }
+
+    public static void allowAllSSL() {
+        HttpsURLConnection.setDefaultHostnameVerifier(new HostnameVerifier() {
+
+            @Override
+            public boolean verify(String arg0, SSLSession arg1) {
+                // TODO Auto-generated method stub
+                return true;

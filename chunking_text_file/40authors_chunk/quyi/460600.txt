@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class searchAllEng_argsStandardSchemeFactory implements SchemeFactory {
+      public searchAllEng_argsStandardScheme getScheme() {
+        return new searchAllEng_argsStandardScheme();
+      }
+    }
+
+    private static class searchAllEng_argsStandardScheme extends StandardScheme<searchAllEng_args> {

@@ -1,0 +1,10 @@
+	 */
+	public void setCommandType(int commandType) {
+		this.commandType = commandType;
+	}
+
+	@Transmit(key = "type")
+	private int commandType;
+	
+	/**
+	 * @return the commandId

@@ -1,0 +1,10 @@
+		 * System.out.println("world" + x); } } }.start();
+		 */
+
+		/*
+		 * new Thread(new Runnable() {
+		 * 
+		 * @Override public void run() { for (int x = 0; x < 100; x++) {
+		 * System.out.println("javase" + x); } } }).start();
+		 * 
+		 * new Thread(new Runnable() {

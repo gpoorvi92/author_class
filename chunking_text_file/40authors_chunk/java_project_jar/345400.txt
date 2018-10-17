@@ -1,0 +1,10 @@
+        handleIOException(e);
+        return 0L;
+    }
+
+    public boolean ready()
+        throws IOException
+    {
+        return in.ready();
+        IOException e;
+        e;

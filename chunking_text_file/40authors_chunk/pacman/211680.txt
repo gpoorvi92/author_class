@@ -1,0 +1,10 @@
+		
+		if (!FileHelper.exists(mediaFile)) {
+
+			throw new FileNotFoundException(mediaFile);
+		}
+		
+		String command = ExternalTool.buildFlvSlicerCommand(mediaFile);
+		
+		logger.info("===>CMD:" + command);
+		List<String> output = new ArrayList<String>();

@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io.filefilter:
+//            AbstractFileFilter
+
+public class MagicNumberFileFilter extends AbstractFileFilter
+    implements Serializable
+{
+
+    public MagicNumberFileFilter(byte magicNumber[])
+    {

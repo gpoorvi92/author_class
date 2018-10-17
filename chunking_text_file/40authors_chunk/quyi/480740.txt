@@ -1,0 +1,10 @@
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, queryMission_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.missionId);
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, queryMission_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;

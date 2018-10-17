@@ -1,0 +1,10 @@
+    case SYSTEM_RESOURCES:
+      return getSystemResources();
+
+    case HARDWARE_RESOURCES:
+      return getHardwareResources();
+
+    case CHECK_END_DATE:
+      return getCheckEndDate();
+
+    }

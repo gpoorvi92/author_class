@@ -1,0 +1,10 @@
+    public static final int BB_UID_20 = 0x00080000;
+    public static final int BB_UID_21 = 0x00100000;
+    public static final int BB_UID_22 = 0x00200000;
+    public static final int BB_UID_23 = 0x00400000;
+    public static final int BB_UID_24 = 0x00800000;
+    public static final int BB_UID_25 = 0x01000000;
+    public static final int BB_UID_26 = 0x02000000;
+    public static final int BB_UID_27 = 0x04000000;
+    public static final int BB_UID_28 = 0x08000000;
+    public static final int BB_UID_29 = 0x10000000;

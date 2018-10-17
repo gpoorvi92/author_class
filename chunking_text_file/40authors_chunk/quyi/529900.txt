@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case APP_DESCRIPTION:
+      if (value == null) {
+        unsetApp_description();
+      } else {
+        setApp_description((String)value);
+      }
+      break;

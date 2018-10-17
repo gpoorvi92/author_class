@@ -1,0 +1,10 @@
+	public P take() throws InterruptedException {
+		return queue.take();
+	}
+
+	@Override
+	public void put(P product) throws InterruptedException {
+		semaphore.acquire();
+		try {
+			queue.put(product);
+		} finally {

@@ -1,0 +1,10 @@
+                if (!this.next()) {
+                    break;
+                }
+            }
+        }
+    }
+
+    @Override
+    public void discardRunningWords() {
+        this.iteratingBrlw.discardRunningWords();

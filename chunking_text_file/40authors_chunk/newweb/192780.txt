@@ -1,0 +1,10 @@
+	 * ajax请求
+	 * 获取当前登录用户对应的用户名
+	 * @param locale
+	 * @param model
+	 * @param modelMap
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping(value = "isUserLogin.ajax")

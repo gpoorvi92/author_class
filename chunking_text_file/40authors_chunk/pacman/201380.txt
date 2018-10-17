@@ -1,0 +1,10 @@
+		mSource.addListener(listener);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQReceiver#getDestName()
+	 */
+	@Override
+	public String getDestName() {
+	
+		try {

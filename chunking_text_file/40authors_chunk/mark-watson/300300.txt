@@ -1,0 +1,10 @@
+		}
+	}
+	
+	public void sort() {
+		Collections.sort(chromosomes, new ChromosomeComparator());
+	}
+
+	public boolean getGene(int chromosome, int gene) {
+		return chromosomes.get(chromosome).getBit(gene);
+	}

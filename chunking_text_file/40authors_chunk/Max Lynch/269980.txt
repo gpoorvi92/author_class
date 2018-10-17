@@ -1,0 +1,10 @@
+		hSlider.addChangeListener(this);
+		
+	}
+	
+	public void showLinearDialog()
+	{
+		 removeAll();
+
+		 setLayout(new GridLayout(2, 2));
+		 add(xLabel);

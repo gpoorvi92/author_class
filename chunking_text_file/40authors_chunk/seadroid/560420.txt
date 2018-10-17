@@ -1,0 +1,10 @@
+            }
+        }
+    }
+
+    // The caller should hold mQueue lock.
+    private int findItem(IImage image) {
+        for (int i = 0; i < mQueue.size(); i++) {
+            if (mQueue.get(i).mImage == image) {
+                return i;
+            }

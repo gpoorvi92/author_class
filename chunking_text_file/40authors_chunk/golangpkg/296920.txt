@@ -1,0 +1,10 @@
+	/**
+	 * Fired when the uploads of a client have been inactive for duration specified.<br>
+	 * Default to {@link RateLimiterConfigurationManager#clientEvictionTimeInSeconds}
+	 * 
+	 * @param clientId
+	 * @param inactivityDuration
+	 */
+	void onClientInactivity(UUID clientId, int inactivityDuration);
+
+

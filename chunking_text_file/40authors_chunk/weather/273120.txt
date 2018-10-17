@@ -1,0 +1,10 @@
+  @Override public CacheRequest put(Response response) throws IOException {
+    URI uri = response.request().uri();
+    HttpURLConnection connection = JavaApiConverter.createJavaUrlConnection(response);
+    return delegate.put(uri, connection);
+  }
+
+  @Override public void remove(Request request) throws IOException {
+    // This method is treated as optional and there is no obvious way of implementing it with
+    // ResponseCache. Removing items from the cache due to modifications made from this client is
+    // not essential given that modifications could be made from any other client. We have to assume

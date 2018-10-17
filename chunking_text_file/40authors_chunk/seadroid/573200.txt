@@ -1,0 +1,10 @@
+        SSLSocketFactory factory = context.getSocketFactory();
+        String[] availableCiphers = factory.getSupportedCipherSuites();
+        ArrayList<String> available = new ArrayList<String>(Arrays.asList(availableCiphers));
+
+        List<String> result = new ArrayList<String>();
+        for(int i = 0; i < preferredCiphers.length; i++)
+        {
+            if(available.contains(preferredCiphers[i]))
+                result.add(preferredCiphers[i]);
+        }

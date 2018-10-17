@@ -1,0 +1,10 @@
+        // either from the application or the contentProvider.
+        if (dbHelper != null)
+            return dbHelper;
+        dbHelper = new AccountDBHelper(context);
+        dbHelper.database = dbHelper.getWritableDatabase();
+        return dbHelper;
+    }
+
+    private AccountDBHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);

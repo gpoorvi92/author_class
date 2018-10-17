@@ -1,0 +1,10 @@
+            break;
+          case 6: // JVM_VERSION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.jvmVersion = iprot.readString();
+              struct.setJvmVersionIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 7: // JVM_MAX_MEM

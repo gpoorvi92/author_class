@@ -1,0 +1,10 @@
+	public Client_singleFrame(Client client, String title) {
+		this.client = client;
+		init(title);
+	}
+
+	private void init(String title) {
+		try {
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		} catch (ClassNotFoundException e1) {
+			e1.printStackTrace();

@@ -1,0 +1,10 @@
+        public Object getItem(int position) {
+            if (position < customActions.size()) {
+                return customActions.get(position);
+            }
+            return mAppInfos.get(position - customActions.size());
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            View view = convertView;

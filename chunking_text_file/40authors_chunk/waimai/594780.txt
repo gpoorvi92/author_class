@@ -1,0 +1,10 @@
+            }
+        } else if ("2".equals(status)) {
+            for (int i = 29; i >= 0; i--) {
+                Calendar calendar = Calendar.getInstance();
+                calendar.add(Calendar.DAY_OF_YEAR, -i);
+                map.put(dateFormat.format(calendar.getTime()), 0);
+            }
+        } else if ("3".equals(status)) {
+            dateFormat = new SimpleDateFormat("yyyy-MM");
+            for (int i = 11; i >= 0; i--) {

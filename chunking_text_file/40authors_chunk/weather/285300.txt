@@ -1,0 +1,10 @@
+	private DownloadWorkerDelegate delegate;
+	private String urlName;
+	private InputStream inputStream;
+	private int testCount;
+	private int fileSize;
+	
+	public DownloaderWorker(DownloadWorkerDelegate delegate) {
+		this.delegate = delegate;
+	}
+	

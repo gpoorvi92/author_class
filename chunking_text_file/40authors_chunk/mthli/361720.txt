@@ -1,0 +1,10 @@
+         + " AND Publishers.Name = ?";
+
+   private static final String authorQuery = "SELECT Books.Price, Books.Title FROM Books, BooksAuthors, Authors"
+         + " WHERE Authors.Author_Id = BooksAuthors.Author_Id AND BooksAuthors.ISBN = Books.ISBN"
+         + " AND Authors.Name = ?";
+
+   private static final String publisherQuery = "SELECT Books.Price, Books.Title FROM Books, Publishers"
+         + " WHERE Books.Publisher_Id = Publishers.Publisher_Id AND Publishers.Name = ?";
+
+

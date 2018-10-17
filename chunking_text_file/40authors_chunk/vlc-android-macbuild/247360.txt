@@ -1,0 +1,10 @@
+                threadPolicyBuilder = threadPolicyBuilder
+                        .detectCustomSlowCalls();
+
+        if (THREAD__DETECT_DISK_READS)
+            threadPolicyBuilder = threadPolicyBuilder.detectDiskReads();
+
+        if (THREAD__DETECT_DISK_WRITES)
+            threadPolicyBuilder = threadPolicyBuilder.detectDiskWrites();
+
+        if (THREAD__DETECT_NETWORK)

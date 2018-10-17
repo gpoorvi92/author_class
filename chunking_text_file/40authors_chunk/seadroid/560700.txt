@@ -1,0 +1,10 @@
+    HashMap<String, String> getBucketIds();
+
+    /**
+     * Returns the count of image objects.
+     *
+     * @return       the number of images
+     */
+    int getCount();
+
+    /**

@@ -1,0 +1,10 @@
+    boolean entered_hashCode_8;
+
+    public int hashCode() {
+        if ( !entered_hashCode_8 ) {
+            entered_hashCode_8 = true;
+            int __return = __hashCode( );
+            entered_hashCode_8 = false;
+            return __return;
+        }
+        else

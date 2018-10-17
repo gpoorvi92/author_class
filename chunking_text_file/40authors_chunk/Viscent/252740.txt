@@ -1,0 +1,9 @@
+	public static class InitialValueProvider<T> {
+		protected T initialValue(){
+			
+			//默认值为null
+			return null;
+		}
+	}
+
+}

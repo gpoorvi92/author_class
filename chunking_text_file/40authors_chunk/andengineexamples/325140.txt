@@ -1,0 +1,10 @@
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		this.mScene = new Scene();
+		this.mScene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		this.mScene.setOnSceneTouchListener(new IOnSceneTouchListener() {
+			@Override
+			public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+				if(pSceneTouchEvent.isActionDown()) {

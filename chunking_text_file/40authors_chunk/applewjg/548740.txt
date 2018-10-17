@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@gmail.com
+ Date:       Oct 7, 2014
+ Problem:    Populating Next Right Pointers in Each Node II
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+ Notes:
+ Follow up for problem "Populating Next Right Pointers in Each Node".
+ What if the given tree could be any binary tree? Would your previous solution still work?
+ Note:

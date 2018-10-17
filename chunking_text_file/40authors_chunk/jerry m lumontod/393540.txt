@@ -1,0 +1,10 @@
+
+
+package com.jml.eisapp.acctg.ledger.src.gui.guibase;
+
+import com.jml.eisapp.acctg.base.*;
+import javax.swing.*;
+import java.util.*;
+import java.text.*;
+public class GenJournalData {
+

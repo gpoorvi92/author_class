@@ -1,0 +1,10 @@
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
+
+/**
+ * Active Object模式的Proxy参与者的可复用实现。
+ * 模式角色：ActiveObject.Proxy
+ * @author Viscent Huang
+ */
+public abstract class ActiveObjectProxy {
+

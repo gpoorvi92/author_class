@@ -1,0 +1,10 @@
+    @Override
+    public List<Goods> findByMerchantId(Integer merchantId) {
+        return goodsMapper.findByMerchantId(merchantId);
+    }
+
+    @Override
+    public Goods getDetailById(Integer goodsId) {
+        return goodsMapper.getDetailById(goodsId);
+    }
+

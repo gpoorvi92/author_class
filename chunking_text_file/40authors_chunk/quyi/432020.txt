@@ -1,0 +1,10 @@
+    sb.append("apiCheck:");
+    if (this.apiCheck == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.apiCheck);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("reportPath:");
+    if (this.reportPath == null) {

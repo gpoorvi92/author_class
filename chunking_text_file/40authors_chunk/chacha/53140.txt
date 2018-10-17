@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * 输出ERROR级别的调试信息
+	 * 
+	 * @param message
+	 */
+	public void error(Object message) {
+		prnLog.error(message);
+	}

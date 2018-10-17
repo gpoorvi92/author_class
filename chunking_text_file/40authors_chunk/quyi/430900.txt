@@ -1,0 +1,10 @@
+    if (other.isSetCenterResultPath()) {
+      this.centerResultPath = other.centerResultPath;
+    }
+  }
+
+  public StaticCheckResultData deepCopy() {
+    return new StaticCheckResultData(this);
+  }
+
+  @Override

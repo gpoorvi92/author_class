@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置上传附加文件。
+	 * @param attachment
+	 * 上传附加文件。
+	 * */
+	public void setAttachment(File attachment) {
+		this.attachment = attachment;
+	}
+	/**

@@ -1,0 +1,10 @@
+    }
+  }
+
+  public String getStatement() {
+    return this.statement;
+  }
+
+  public APICheck setStatement(String statement) {
+    this.statement = statement;
+    return this;

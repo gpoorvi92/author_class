@@ -1,0 +1,9 @@
+            return head == (tail + 1);
+        }
+        public Location peekAtFrontOfQueue() {
+            return queue[head];
+        }       
+        private Location [] queue;
+        private int tail, head, len;
+    }
+}

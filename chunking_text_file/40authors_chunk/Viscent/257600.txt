@@ -1,0 +1,10 @@
+
+			return returnValue;
+		}
+	}
+
+	/**
+	 * 生成一个实现指定接口的Active Object proxy实例。
+	 *  对interf所定义的异步方法的调用会被转发到servant的相应doXXX方法。
+	 * 
+	 * @param interf

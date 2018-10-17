@@ -1,0 +1,10 @@
+	}
+
+	static class Helper implements Runnable {
+		private final String message;
+
+		public Helper(String message) {
+			this.message = message;
+		}
+
+		private void doSomething(String message) {

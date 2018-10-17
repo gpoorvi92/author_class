@@ -1,0 +1,10 @@
+        oprot.writeString(struct.propertyName);
+        oprot.writeString(struct.propertyValue);
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, modifyNodeManagerConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.nodeId = iprot.readString();
+        struct.setNodeIdIsSet(true);
+        struct.propertyName = iprot.readString();

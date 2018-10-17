@@ -1,0 +1,10 @@
+    }
+
+    private static class searchEng_argsStandardScheme extends StandardScheme<searchEng_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, searchEng_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();

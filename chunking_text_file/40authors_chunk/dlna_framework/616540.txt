@@ -1,0 +1,10 @@
+	{
+		try {
+			URL baseURL = new URL(baseURLStr);
+			String url = 
+				baseURL.getProtocol() + "://" +
+				baseURL.getHost() + ":" +
+				baseURL.getPort() +
+				toRelativeURL(relURlStr);
+			return url;
+		}

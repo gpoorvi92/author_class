@@ -1,0 +1,10 @@
+ */
+public class WidgetUtils {
+
+    public static void showFile(final FragmentActivity activity, File file) {
+
+        String name = file.getName();
+        String suffix = name.substring(name.lastIndexOf('.') + 1).toLowerCase();
+
+        if (suffix.length() == 0) {
+            ToastUtils.show(activity, R.string.unknown_file_type);

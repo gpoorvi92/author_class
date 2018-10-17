@@ -1,0 +1,10 @@
+    ims.add(doc2);
+    TestDocument doc3 = new TestDocument("Please test the index code before tomorrow.");
+    ims.add(doc3);
+    ims.debug();
+    List<Integer> search_results = ims.search("test index", 2);
+    System.out.println("\nSearch results (doc IDs): " + search_results);
+  }
+  public void add(TestDocument document) {
+    Map<String,Integer> wcount = new Hashtable<String,Integer>();
+    StringTokenizer st = new StringTokenizer(document.text.toLowerCase(), " .,;:!");

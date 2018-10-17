@@ -1,0 +1,10 @@
+        Graphics g = mainBuffer.getGraphics();
+         g.drawImage(img, 0, 0, null);
+         mainPixelData = (byte[])((DataBufferByte)mainBuffer.getRaster().getDataBuffer())
+             .getData();
+    }
+
+    public Image getImage()
+    { 
+       return mainBuffer;
+    }

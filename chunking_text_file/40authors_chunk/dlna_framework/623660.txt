@@ -1,0 +1,10 @@
+		 */ 
+		int mx = 0;  
+		int maxAgeIdx = cacheCont.indexOf("max-age");  
+		if (maxAgeIdx >= 0) {  
+			int endIdx = cacheCont.indexOf(',',maxAgeIdx);  
+			if (endIdx < 0)  
+				endIdx = cacheCont.length();  
+			try {  
+				maxAgeIdx = cacheCont.indexOf("=",maxAgeIdx); 
+				String mxStr = cacheCont.substring(maxAgeIdx+1,endIdx).trim();  

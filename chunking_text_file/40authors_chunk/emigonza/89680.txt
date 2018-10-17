@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+public class JposException extends java.lang.Exception
+{
+    public JposException(int errorCode)
+    {
+        this(errorCode, 0, "" + errorCode, null);
+    }

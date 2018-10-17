@@ -1,0 +1,10 @@
+    {
+        for (int i = 0; i < numTriangles; i++)
+            triangles[i].verticesUpdated();
+    }
+
+    public Image getImage()
+    {
+        return renderBuf.getImage();
+    }
+

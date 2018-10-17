@@ -1,0 +1,10 @@
+			if(value.equals("number")){
+				value = "";
+			}
+			number_dt.setText(value);
+			TextView title = (TextView) findViewById(R.id.title_center);
+			title.setText("编辑手机号");
+			title_phone_title.setBackgroundResource(SourceData.getTheme());
+		}
+	}
+		

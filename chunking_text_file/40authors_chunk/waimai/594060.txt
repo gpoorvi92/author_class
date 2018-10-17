@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.merchant;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.common.enums.GoodsStatus;
+import cn.abovesky.shopping.domain.Goods;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IGoodsService;
+import cn.abovesky.shopping.service.IGoodsTypeService;
+import cn.abovesky.shopping.web.common.ComGoodsController;
+import org.springframework.beans.factory.annotation.Autowired;

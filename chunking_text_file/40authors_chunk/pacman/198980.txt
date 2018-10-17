@@ -1,0 +1,10 @@
+
+		this.steps.clear();
+		this.steps.addAll(steps);
+	}
+
+	/**
+	 * @return the type
+	 */
+	@Override
+	public WorkerType getType() {

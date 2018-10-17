@@ -1,0 +1,10 @@
+
+	@Override
+	public OrderSmall findOrderSmallById(int ID) {
+		return orderSmallDao.selectOrderSmallById(ID);
+	}
+
+	@Override
+	public boolean remove(OrderSmall os) {
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("small",os.getSmall().getID(),
+				os.getOrder().getID());

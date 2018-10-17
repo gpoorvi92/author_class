@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public OrderSmall selectOrderSmallBySmallIdInOrderId(int smallId,
+			String orderid) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from  t_order_smallGoods where smallID=? and orderID=? ")
+				.addEntity(OrderSmall.class);
+		query.setInteger(0, smallId);

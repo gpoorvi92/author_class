@@ -1,0 +1,10 @@
+    this.detectResult = null;
+  }
+
+  /** Returns true if field detectResult is set (has been assigned a value) and false otherwise */
+  public boolean isSetDetectResult() {
+    return this.detectResult != null;
+  }
+
+  public void setDetectResultIsSet(boolean value) {
+    if (!value) {

@@ -1,0 +1,10 @@
+      break;
+
+    case JVM_NAME:
+      if (value == null) {
+        unsetJvmName();
+      } else {
+        setJvmName((String)value);
+      }
+      break;
+

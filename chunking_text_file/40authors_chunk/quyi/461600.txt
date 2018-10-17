@@ -1,0 +1,10 @@
+      } catch (org.apache.thrift.TException te) {
+        throw new java.io.IOException(te);
+      }
+    }
+
+    private static class searchAllEng_resultStandardSchemeFactory implements SchemeFactory {
+      public searchAllEng_resultStandardScheme getScheme() {
+        return new searchAllEng_resultStandardScheme();
+      }
+    }

@@ -1,0 +1,10 @@
+	public JTabbedPane listsTabs;
+	public JTextArea listPane;
+	public JPanel reportPanel;
+	public JPanel statusPanel;
+	public JComboBox graphTypesCombo;
+	public Color skyblue=new Color(150,190,255);
+	public 	final ImageIcon imageIcon = new ImageIcon("Icon/header/cool.png");
+	private static Connection dbcon = null;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+    Statement stmt = null;

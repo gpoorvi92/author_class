@@ -1,0 +1,10 @@
+
+	@Override
+	public void onReceiveLocation(BDLocation location) {
+		ld = new LocationData();
+		ld.latitude = location.getLatitude();
+		ld.longitude = location.getLongitude();
+		ld.direction = location.getDerect();
+		myLocOverlay.setData(ld);
+		mapView.refresh();
+	}

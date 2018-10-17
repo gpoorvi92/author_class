@@ -1,0 +1,10 @@
+
+        return null;
+    }
+
+    protected LibVlcMediaPlayer(Context context, PlayIndex.Resolver resolver) {
+        mVlcHandler = new WeakHandler(this);
+        mWeakContext = new WeakReference<Context>(context);
+
+        mIndexResolver = new LibVlcVideoSegmentListLoader(context, resolver);
+    }

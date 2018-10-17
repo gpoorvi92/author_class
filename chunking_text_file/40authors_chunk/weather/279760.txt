@@ -1,0 +1,10 @@
+
+import java.util.Arrays;
+
+/**
+ * Created by qihigh on 7/4/14.
+ * Modified by ____.
+ */
+public class WeeklyProvider extends DataProvider {
+    private String cityId;
+

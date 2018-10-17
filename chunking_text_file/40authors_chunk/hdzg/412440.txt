@@ -1,0 +1,10 @@
+import android.view.MotionEvent;
+import android.view.View;
+
+public class RiceDrawable extends MyMeetableDrawable implements Serializable{
+	String dialogMessage[] = {//对话框的提示信息，第一个是可以狩猎，第二个是不可以狩猎显示的
+			"此处稻香扑鼻，一片丰收的气象。是否收水稻？预计消耗体力xx，收获yy石粮食。",
+			"此处是个好稻田，怎奈人困马乏，体力不足，只好改日再来！"
+		};
+		int result;//记录英雄可以获得的收益
+		Hero tempHero;//临时记录英雄

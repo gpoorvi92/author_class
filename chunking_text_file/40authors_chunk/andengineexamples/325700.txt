@@ -1,0 +1,10 @@
+/**
+ * (c) 2010 Nicolas Gramlich
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich
+ * @since 19:58:39 - 19.07.2010
+ */
+public class AutoParallaxBackgroundExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants

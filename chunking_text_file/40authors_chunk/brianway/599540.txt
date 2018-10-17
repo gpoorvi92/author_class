@@ -1,0 +1,10 @@
+
+            Thread.sleep(2000);
+
+            ThreadWrite threadWrite = new ThreadWrite(writeData, outputStream);
+            threadWrite.start();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();

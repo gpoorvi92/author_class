@@ -1,0 +1,10 @@
+	 * @return 彩信中心信息
+	 */
+	public MMSCInfo getMMSC(String msisdnPrefix) {
+		return routeMap.get(msisdnPrefix);
+
+	}
+
+	/**
+	 * 将当前MMSCRouter的实例更新为指定的新实例
+	 * 

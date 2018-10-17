@@ -1,0 +1,10 @@
+			this.beginDownload();
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				this.inputStream.close();
+				this.delegate.didFinishDownload(this);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();

@@ -1,0 +1,10 @@
+    }
+  }
+
+  public FileOperate deepCopy() {
+    return new FileOperate(this);
+  }
+
+  @Override
+  public void clear() {
+    this.pidName = null;

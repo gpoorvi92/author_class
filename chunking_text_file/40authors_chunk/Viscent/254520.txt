@@ -1,0 +1,10 @@
+	    .newInstance(new ManagedThreadLocal.InitialValueProvider<Integer>() {
+	    	
+	    	@Override
+		    protected Integer initialValue() {
+			    System.out.println(Thread.currentThread().getName());
+			    return Integer.valueOf((int) Thread.currentThread().getId());
+		    }
+
+	    });
+

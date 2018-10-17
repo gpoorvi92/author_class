@@ -1,0 +1,10 @@
+
+    protected ModelAndView ajaxDoneSuccessAndClose(String message, String navTabId) {
+        return ajaxDone(200, message, "", navTabId, "", "closeCurrent", "");
+    }
+
+    private boolean isWindowSeparator() {
+        Properties properties = System.getProperties();
+        if ("/".equals(properties.get("file.separator"))) {
+            return false;
+        } else {

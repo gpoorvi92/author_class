@@ -1,0 +1,10 @@
+               return collator.compare(l1.getDisplayName(), l2.getDisplayName());               
+            }
+         });
+      for (Locale loc : locales)
+         localeCombo.addItem(loc.getDisplayName());      
+      localeCombo.setSelectedItem(Locale.getDefault().getDisplayName());
+      
+      strings.add("America");
+      strings.add("able");
+      strings.add("Zulu");

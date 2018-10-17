@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public QueryRequest()
+	{
+	}
+
+	public QueryRequest(HTTPRequest httpReq)
+	{
+		set(httpReq);
+	}

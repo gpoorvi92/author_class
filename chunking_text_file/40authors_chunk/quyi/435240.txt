@@ -1,0 +1,10 @@
+  public void setApkMD5IsSet(boolean value) {
+    if (!value) {
+      this.apkMD5 = null;
+    }
+  }
+
+  public int getSensitiveSize() {
+    return (this.sensitive == null) ? 0 : this.sensitive.size();
+  }
+

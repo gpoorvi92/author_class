@@ -1,0 +1,10 @@
+	}
+	
+		
+	public void setBackground(Color color) {
+		renderSurface.setBackground(color);
+	}
+	
+	public void setBackground(GradientPaint gp) {
+		renderSurface.setBackground(gp);
+	}

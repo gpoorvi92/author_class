@@ -1,0 +1,10 @@
+				}
+				BitSet bs2 = new BitSet(N);
+				bs2.flip(start, end);
+				Assert.assertEquals(bs2.cardinality(), end-start);
+				Assert.assertEquals(bs1, bs2);
+			}
+		}
+	}
+
+	@Test

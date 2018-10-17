@@ -1,0 +1,10 @@
+
+	/**
+	 * @param root
+	 */
+	private void parseGeneralInfo(Element root, LessonInfo info) {
+		
+		
+		Element lessonEle = root.element("lessonInfo");
+	
+		String item = lessonEle.element("classID").getTextTrim();

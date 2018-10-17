@@ -1,0 +1,10 @@
+		op.setProductID(w.getMaterialBrand().getID());
+		op.setType("lhj");
+		double price = lhjPriceService.findLhjPriceByMaterialBrandIDBindCut(w.getMaterialBrand().getID(), 
+				w.getOrder().getCustomer().getID(),null).getPrice();
+		op.setPrice(price);
+		if(!orderPriceService.save(op)){
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据保存异常\t" + new Date());
+			sb.append("\n目标表：t_orderprice\n");
+			sb.append("orderID:"+ w.getOrder().getID()+"\n");

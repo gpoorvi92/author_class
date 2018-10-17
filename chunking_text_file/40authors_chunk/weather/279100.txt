@@ -1,0 +1,10 @@
+
+        serverEtag = headers.get("ETag");
+
+        // Cache-Control takes precedence over an Expires header, even if both exist and Expires
+        // is more restrictive.
+        if (hasCacheControl) {
+            softExpire = now + maxAge * 1000;
+        } else if (serverDate > 0 && serverExpires >= serverDate) {
+            // Default semantic for Expire header in HTTP specification is softExpire.
+            softExpire = now + (serverExpires - serverDate);

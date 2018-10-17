@@ -1,0 +1,10 @@
+			JsonGenerationException, IOException {
+		DelAccountRequest r=(DelAccountRequest)JsonPojoMapper.fromJson(json, DelAccountRequest.class);
+		this.setOpt(r.getOpt());
+		this.setBody(r.getBody());
+	}
+
+	public static void main(String[] args){
+		String[] nameArray=new String[]{"aaa","bbb","ccc"};
+		AccountNameBody body=new AccountNameBody(nameArray);
+		DelAccountRequest request=new DelAccountRequest(body);

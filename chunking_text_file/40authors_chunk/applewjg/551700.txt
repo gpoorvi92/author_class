@@ -1,0 +1,10 @@
+        if (m == k) {
+            ArrayList<Integer> p = new ArrayList<Integer>(path);
+            res.add(p);
+            return;
+        }
+        for (int i = start; i <= n-(k-m)+1; ++i) {
+            path.add(i);
+            combineRe(n,k,i+1, path, res);
+            path.remove(path.size() - 1);
+        }

@@ -1,0 +1,10 @@
+								if ("1".equals(sendState)) {
+									uploadFile(ctx, path,
+											new ChatUploadService(ctx,
+													chatList, pb, iv, acd));
+
+								} else if ("2".equals(sendState)) {
+									AbstractCommonData _acd = ctx.queryForData(
+											"get_one_chat_msg",
+											acd.getStringValue("id"));
+									sendChatVoice(ctx,

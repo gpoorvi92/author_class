@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * This method draws on the splash screen.
+    */
+   private static void init1()
+   {
+      splash = SplashScreen.getSplashScreen();
+      if (splash == null)
+      {

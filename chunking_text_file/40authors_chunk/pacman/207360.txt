@@ -1,0 +1,3 @@
+	 */
+	List<TaskModel> findByLessonId(int lessonId);
+}

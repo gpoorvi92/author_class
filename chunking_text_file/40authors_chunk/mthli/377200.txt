@@ -1,0 +1,10 @@
+               else
+               {
+                  progressDialog.setProgress(activity.getProgress());                  
+               }
+            }
+         });
+      pack();
+   }
+
+   class SimulatedActivity extends SwingWorker<Void, Integer>

@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.management;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.common.enums.Areas;
+import cn.abovesky.shopping.common.enums.Gender;
+import cn.abovesky.shopping.common.enums.Schools;
+import cn.abovesky.shopping.common.enums.UserStatus;
+import cn.abovesky.shopping.domain.User;
+import cn.abovesky.shopping.exception.ServiceException;

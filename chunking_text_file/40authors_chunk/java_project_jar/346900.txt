@@ -1,0 +1,10 @@
+        if(INSENSITIVE.name.equals(name))
+            return INSENSITIVE;
+        if(SYSTEM.name.equals(name))
+            return SYSTEM;
+        else
+            throw new IllegalArgumentException((new StringBuilder()).append("Invalid IOCase name: ").append(name).toString());
+    }
+
+    private IOCase(String name, boolean sensitive)
+    {

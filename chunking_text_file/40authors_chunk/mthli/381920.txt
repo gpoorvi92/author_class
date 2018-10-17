@@ -1,0 +1,10 @@
+   public XPathFrame()
+   {
+      JMenu fileMenu = new JMenu("File");
+      JMenuItem openItem = new JMenuItem("Open");
+      openItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               openFile();
+            }

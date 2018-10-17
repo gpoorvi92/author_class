@@ -1,0 +1,10 @@
+		}
+
+		bw.close();
+		br.close();
+	}
+
+	// 高效字符流一次一个字符
+	private static void method3(String srcString, String destString)
+			throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(srcString));

@@ -1,0 +1,10 @@
+import java.util.List;
+
+/**
+ * Wrapper class for an embedded Lucene index to support.
+ * 
+ * <p/>
+ * Copyright 2002-2012 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is can be used under either of the following licenses:
+ * <p/>

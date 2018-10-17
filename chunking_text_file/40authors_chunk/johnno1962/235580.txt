@@ -1,0 +1,10 @@
+
+    boolean entered_toString_5;
+
+    public java.lang.String toString() {
+        if ( !entered_toString_5 ) {
+            entered_toString_5 = true;
+            java.lang.String __return = __toString( );
+            entered_toString_5 = false;
+            return __return;
+        }

@@ -1,0 +1,10 @@
+     */
+    public BufferedRunningLengthWord(final long a) {
+        this.numberOfLiteralWords = (int) (a >>> (1 + RunningLengthWord.RUNNING_LENGTH_BITS));
+        this.runningBit = (a & 1) != 0;
+        this.runningLength = (int) ((a >>> 1) & RunningLengthWord.LARGEST_RUNNING_LENGTH_COUNT);
+    }
+
+    /**
+     * Instantiates a new buffered running length word.
+     *

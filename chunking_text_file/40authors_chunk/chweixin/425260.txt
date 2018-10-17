@@ -1,0 +1,10 @@
+/**
+ * 微信公众账号数据访问实现类。
+ * @author yangyong.
+ * @since 2014-03-31.
+ * */
+public class WeChatAccountDaoImpl extends BaseDaoImpl<WeChatAccount> implements IWeChatAccountDao {
+	
+	@Override
+	public WeChatAccount loadAccount(String openId) {
+		if(openId == null || openId.trim().isEmpty()) return null;

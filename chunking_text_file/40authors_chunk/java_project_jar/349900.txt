@@ -1,0 +1,10 @@
+
+    private void processInput(boolean endOfInput)
+        throws IOException
+    {
+        decoderIn.flip();
+        CoderResult coderResult;
+        do
+        {
+            coderResult = decoder.decode(decoderIn, decoderOut, endOfInput);
+            if(!coderResult.isOverflow())

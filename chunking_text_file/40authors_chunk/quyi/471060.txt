@@ -1,0 +1,10 @@
+      args.setUserAppId(userAppId);
+      sendBase("queryApp", args);
+    }
+
+    public com.nercis.isscp.idl.AppCheckResult recv_queryApp() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      queryApp_result result = new queryApp_result();
+      receiveBase(result, "queryApp");
+      if (result.isSetSuccess()) {
+        return result.success;

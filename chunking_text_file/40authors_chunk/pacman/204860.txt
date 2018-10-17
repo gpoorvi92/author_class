@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.jms;
+
+import java.util.Map;
+
+import javax.jms.MessageListener;
+

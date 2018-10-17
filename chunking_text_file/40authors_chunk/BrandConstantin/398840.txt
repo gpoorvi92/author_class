@@ -1,0 +1,4 @@
+    System.out.println("Desde 1 hasta numero introducido hay " + cuenta);
+    System.out.println("Los cuales suman " + suma);
+  }
+}

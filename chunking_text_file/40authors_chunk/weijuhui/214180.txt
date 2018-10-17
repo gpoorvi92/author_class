@@ -1,0 +1,10 @@
+            onSuccess(statusCode, (JSONArray)jsonResponse);
+        } else {
+            onFailure(new JSONException("Unexpected type " + jsonResponse.getClass().getName()), (JSONObject)null);
+        }
+    }
+
+    protected Object parseResponse(String responseBody) throws JSONException {
+        Object result = null;
+        //trim the string to prevent start with blank, and test if the string is valid JSON, because the parser don't do this :(. If Json is not valid this will return null
+		responseBody = responseBody.trim();

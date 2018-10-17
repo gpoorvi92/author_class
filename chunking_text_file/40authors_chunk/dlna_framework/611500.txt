@@ -1,0 +1,10 @@
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public SOAPResponse()
+	{
+		setRootNode(SOAP.createEnvelopeBodyNode());
+		setContentType(XML.CONTENT_TYPE);
+	}
+
+	public SOAPResponse(HTTPResponse httpRes)

@@ -1,0 +1,10 @@
+	/**
+	 * 获取事件KEY值，是一个32位无符号整数，即创建二维码时的二维码scene_id。
+	 * @return 事件KEY值。
+	 * */
+	public Integer getEventKey() {
+		return eventKey;
+	}
+	/**
+	 * 设置事件KEY值，是一个32位无符号整数，即创建二维码时的二维码scene_id。
+	 * @param eventKey

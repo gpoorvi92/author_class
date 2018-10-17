@@ -1,0 +1,10 @@
+
+        if (response==JFileChooser.APPROVE_OPTION)
+        {
+            
+            try
+            {
+              BufferedImage img = mv.getDisplayImage();
+              File f = chooser.getSelectedFile();
+              String formatStr=ModelFileSaverFileFilter.getFileNameExtension(f.getAbsolutePath());
+

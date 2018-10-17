@@ -1,0 +1,10 @@
+
+/**
+ * This is a container class for ScrollLayouts. It coordinates the scrolling
+ * between them, so that if one is scrolled, the others are scrolled to
+ * keep a consistent display of the time. It also notifies an optional
+ * observer anytime the time is changed.
+ */
+public class SliderContainer extends LinearLayout {
+    private Calendar mTime = null;
+    private OnTimeChangeListener mOnTimeChangeListener;

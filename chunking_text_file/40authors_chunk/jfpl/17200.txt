@@ -1,0 +1,10 @@
+				notifyContent = backAcd.getStringValue("content");
+				recentlyTitle = notifyTitle;
+				recentlyContent = notifyContent;
+				recentlyAppId = backAcd.getStringValue("busi_type");
+				recentlyUrl = backAcd.getStringValue("url");
+			}
+
+			if (SystemUtil.TOP_ACTIVITY != null
+					&& "chatactivity".equals(SystemUtil.TOP_ACTIVITY.getClass()
+							.getSimpleName().toLowerCase())

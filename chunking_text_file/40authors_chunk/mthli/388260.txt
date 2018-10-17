@@ -1,0 +1,10 @@
+   public static void main(String[] args)
+   {
+      int i = 0;
+      int ntry = 10000000;
+      Stack<String> s = new Stack<>();
+      long s1;
+      long s2;
+
+      // test a stack for emptiness ntry times
+      System.out.println("Testing for empty stack");

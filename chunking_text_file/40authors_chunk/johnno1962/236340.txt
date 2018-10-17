@@ -1,0 +1,10 @@
+    public native void __swipedUp( com.apple.eawt.event.SwipeEvent arg0 );
+
+    boolean entered_swipedUp_7;
+
+    public void swipedUp( com.apple.eawt.event.SwipeEvent arg0 ) {
+        if ( !entered_swipedUp_7 ) {
+            entered_swipedUp_7 = true;
+            __swipedUp( arg0 );
+            entered_swipedUp_7 = false;
+        }

@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 5/3/16.
+ */
+public class Venue {
+
+    private Location location;
+    private String title;

@@ -1,0 +1,10 @@
+   public DesktopAppFrame()
+   {
+      setLayout(new GridBagLayout());
+      final JFileChooser chooser = new JFileChooser();
+      JButton fileChooserButton = new JButton("...");
+      final JTextField fileField = new JTextField(20);
+      fileField.setEditable(false);
+      JButton openButton = new JButton("Open");
+      JButton editButton = new JButton("Edit");
+      JButton printButton = new JButton("Print");

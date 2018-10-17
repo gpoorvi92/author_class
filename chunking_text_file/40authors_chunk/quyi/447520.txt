@@ -1,0 +1,10 @@
+    case JVM_VERSION:
+      if (value == null) {
+        unsetJvmVersion();
+      } else {
+        setJvmVersion((String)value);
+      }
+      break;
+
+    case JVM_MAX_MEM:
+      if (value == null) {

@@ -1,0 +1,10 @@
+        container.findViewById(id).setBackgroundColor(color);
+    }
+
+    @SuppressWarnings("deprecation")
+    public static void setBackgroundDrawable(View container, int id,
+            Drawable drawable) {
+        if (container == null)
+            return;
+
+        container.findViewById(id).setBackgroundDrawable(drawable);

@@ -1,0 +1,10 @@
+
+    GestureAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.rotate(com.apple.eawt.event.RotationEvent)
+
+    public native void __rotate( com.apple.eawt.event.RotationEvent arg0 );
+

@@ -1,0 +1,10 @@
+
+
+public class Output {
+	
+	public static void toast(Context c,String msg){
+		Toast.makeText(c,msg,0).show();
+	}
+	
+	public static void toast(Context c,int resId){
+		Toast.makeText(c,c.getString(resId),0).show();

@@ -1,0 +1,10 @@
+                    }
+                    data[k] = null;
+                }
+                this.sparsity += 3;
+                return ewah;
+            }
+
+            @Override
+            public void remove() {
+                // unimplemented

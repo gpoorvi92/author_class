@@ -1,0 +1,10 @@
+		choicePanel.setLayout(new GridLayout(4, 2));
+		
+		stroke = new BasicStroke(1f, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL);
+		
+		
+		setLayout(new BorderLayout());
+		
+		width.setModel(new SpinnerNumberModel(0.5, 0.25, 100, .25));
+		width.addChangeListener(this);
+		

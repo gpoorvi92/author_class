@@ -1,0 +1,10 @@
+      java.util.List<Font> fonts = new ArrayList<>();
+      final int SIZE = 24;
+      fonts.add(new Font("Serif", Font.PLAIN, SIZE));
+      fonts.add(new Font("SansSerif", Font.PLAIN, SIZE));
+      fonts.add(new Font("Monospaced", Font.PLAIN, SIZE));
+      fonts.add(new Font("Dialog", Font.PLAIN, SIZE));
+      fonts.add(new Font("DialogInput", Font.PLAIN, SIZE));
+      fontList = new JList<Font>(fonts.toArray(new Font[]{}));
+      fontList.setVisibleRowCount(4);
+      fontList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);

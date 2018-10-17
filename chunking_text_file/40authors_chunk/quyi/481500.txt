@@ -1,0 +1,10 @@
+      }
+      lastComparison = Boolean.valueOf(isSetUe()).compareTo(other.isSetUe());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetUe()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.ue, other.ue);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }

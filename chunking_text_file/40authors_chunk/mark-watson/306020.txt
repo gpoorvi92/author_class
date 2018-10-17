@@ -1,0 +1,10 @@
+
+    protected Vector alphaBeta(int depth, Position p, boolean player) {
+        Vector v = alphaBetaHelper(depth, p, player, 1000000.0f, -1000000.0f);
+        //System.out.println("^^ v(0): " + v.elementAt(0) + ", v(1): " + v.elementAt(1));
+        return v;
+    }
+
+    protected Vector alphaBetaHelper(int depth, Position p,
+                                     boolean player, float alpha, float beta) {
+        if (GameSearch.DEBUG) System.out.println("alphaBetaHelper("+depth+","+p+","+alpha+","+beta+")");

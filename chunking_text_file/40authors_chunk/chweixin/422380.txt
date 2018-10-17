@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取公众号名称。
+	 * @return 公众号名称。
+	 * */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * 设置公众号名称。

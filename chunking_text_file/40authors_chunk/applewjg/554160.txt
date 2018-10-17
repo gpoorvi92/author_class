@@ -1,0 +1,10 @@
+ Solution: Just like what we do when multiplying integers.
+ */
+public class Solution {
+    public String multiply(String num1, String num2) {
+        int l1 = num1.length(), l2 = num2.length();
+        if (l1 == 0 || l2 == 0) return new String("");
+        if (num1.charAt(0) == '0' || num2.charAt(0) == '0') return new String("0");
+        StringBuffer sb = new StringBuffer();
+        int[] res = new int[l1+l2];
+        for (int i = 0; i < l1; ++i) {

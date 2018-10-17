@@ -1,0 +1,10 @@
+    public FileCleaningTracker()
+    {
+        q = new ReferenceQueue();
+        exitWhenFinished = false;
+    }
+
+    public void track(File file, Object marker)
+    {
+        track(file, marker, (FileDeleteStrategy)null);
+    }

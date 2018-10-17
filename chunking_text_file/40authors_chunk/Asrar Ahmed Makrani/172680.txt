@@ -1,0 +1,10 @@
+				if (result == 1 && result2 == 1)
+				{
+				JOptionPane.showMessageDialog(null, "Update Succesfull");
+				Video_no_text.setText("VD-");
+            	Video_title_text.setText("");
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");	
+            	
+            	Video_no_text.setEditable(true);

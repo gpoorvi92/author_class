@@ -1,0 +1,10 @@
+	{
+		device = dev;
+	}
+	
+	public Device getDevice()
+	{
+		return device;
+	}
+
+	////////////////////////////////////////////////

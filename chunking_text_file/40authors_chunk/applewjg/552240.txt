@@ -1,0 +1,10 @@
+        for(int i = 0; i < s.length(); ++i) {
+            if (s.charAt(i) == '(') {
+                stk.push(count);
+                count = 0;
+            } else if (stk.empty() == false) {
+                count += (1 + stk.pop());
+                res = Math.max(res, count);
+            } else {
+                count = 0;
+            }

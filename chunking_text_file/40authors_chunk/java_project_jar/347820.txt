@@ -1,0 +1,10 @@
+    {
+        getBOM();
+        return fbIndex >= fbLength ? -1 : firstBytes[fbIndex++];
+    }
+
+    private ByteOrderMark find()
+    {
+        for(Iterator i$ = boms.iterator(); i$.hasNext();)
+        {
+            ByteOrderMark bom = (ByteOrderMark)i$.next();

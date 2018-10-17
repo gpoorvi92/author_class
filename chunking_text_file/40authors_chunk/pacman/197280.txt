@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * 
+	 * @Title: getAllFileInDir
+	 * @param dir
+	 * @param recursive
+	 * @return
+	 * @return: List<String>
+	 */
+	public static List<String> getAllFileInDir(String dir, boolean recursive) {

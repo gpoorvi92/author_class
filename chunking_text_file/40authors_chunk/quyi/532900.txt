@@ -1,0 +1,10 @@
+    if (!value) {
+      this.riskLevel = null;
+    }
+  }
+
+  public String getRuleNo() {
+    return this.ruleNo;
+  }
+
+  public APICheck setRuleNo(String ruleNo) {

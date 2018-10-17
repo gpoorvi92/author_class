@@ -1,0 +1,10 @@
+    public HttpClientStack(HttpClient client) {
+        mClient = client;
+    }
+
+    private static void addHeaders(HttpUriRequest httpRequest, Map<String, String> headers) {
+        for (String key : headers.keySet()) {
+            httpRequest.setHeader(key, headers.get(key));
+        }
+    }
+

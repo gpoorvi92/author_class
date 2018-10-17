@@ -1,0 +1,10 @@
+        if (h.isEmpty())
+            return;
+        mainloop:
+        while (true) { // goes until no more active inputs
+            final int a = h.peek().endOfRun();
+            // I suppose we have a run of length a - lasta here.
+            f.dispatch(out, lasta, a);
+            lasta = a;
+
+            while (h.peek().endOfRun() == a) {

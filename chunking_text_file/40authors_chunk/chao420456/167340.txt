@@ -1,0 +1,10 @@
+		Person p6 = new Person("蓝采和", 22);
+		Person p7 = new Person("何仙姑", 22);
+		Person p8 = new Person("铁拐李", 18);
+
+		// 把元素添加到集合
+		hs.add(p1);
+		// hs.add(p1);
+		hs.add(p2);
+		hs.add(p3);
+		hs.add(p4);

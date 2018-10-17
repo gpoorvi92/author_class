@@ -1,0 +1,10 @@
+            }
+        }
+
+        public synchronized void method2() {
+            String threadName = Thread.currentThread().getName();
+
+            System.out.println(threadName + " 进入InnerClass1类中的method2方法");
+            for (int j = 1; j <= 10; j++) {
+                System.out.println("j=" + j);
+                try {

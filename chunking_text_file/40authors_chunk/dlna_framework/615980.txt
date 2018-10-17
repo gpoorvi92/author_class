@@ -1,0 +1,10 @@
+			variableName = variableName.substring(index + 1);
+		prop.setName(variableName);
+		prop.setValue(varNode.getValue());
+		return prop;
+	}
+
+	// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (09/08/03)
+	public PropertyList getPropertyList() {
+		PropertyList properties = new PropertyList();
+		Node varSetNode = getEnvelopeNode();

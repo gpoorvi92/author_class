@@ -1,0 +1,10 @@
+	public void setFdwCount(int fdwCount) {
+		this.fdwCount = fdwCount;
+	}
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="id")
+	public int getID() {
+		return ID;
+	}
+	public void setID(int iD) {

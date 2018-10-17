@@ -1,0 +1,10 @@
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+@SuppressLint("DefaultLocale")
+public class MyVioActivity extends BaseChatEnterActivity {
+
+	@InjectionView(id = R.id.add_bind_veh, click = "addBindVehClick")
+	private ImageView addBindVeh;
+	@InjectionView(id = R.id.bind_layout)
+	private LinearLayout bindLayout;
+	@InjectionView(id = R.id.vio_layout)

@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_lineNum = true;
+    boolean that_present_lineNum = true;
+    if (this_present_lineNum || that_present_lineNum) {
+      if (!(this_present_lineNum && that_present_lineNum))
+        return false;
+      if (this.lineNum != that.lineNum)
+        return false;

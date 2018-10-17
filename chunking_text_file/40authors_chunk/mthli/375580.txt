@@ -1,0 +1,10 @@
+                     url.setText(event.getURL().toString());
+                     editorPane.setPage(event.getURL());
+                  }
+                  catch (IOException e)
+                  {
+                     editorPane.setText("Exception: " + e);
+                  }
+               }
+            }
+         });

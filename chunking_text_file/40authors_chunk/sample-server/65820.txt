@@ -1,0 +1,10 @@
+        this.legealCount = legealCount;
+    }
+    public RpcDto.CdKeyDTO toDTO()
+    {
+        RpcDto.CdKeyDTO.Builder ret = RpcDto.CdKeyDTO.newBuilder();
+        ret.setLeftCount(leftCount);
+        ret.setZoneId(zoneId);
+        ret.setAddTime(addTime.getTime());
+        ret.setCdKey(cdKey);
+        ret.setCdName(cdName);

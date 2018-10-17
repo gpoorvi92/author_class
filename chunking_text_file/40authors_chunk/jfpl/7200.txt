@@ -1,0 +1,10 @@
+import com.baidu.mapapi.search.MKPoiInfo;
+import com.baidu.mapapi.search.MKPoiResult;
+import com.baidu.mapapi.search.MKSearch;
+import com.baidu.mapapi.search.MKSearchListener;
+import com.baidu.mapapi.search.MKShareUrlResult;
+import com.baidu.mapapi.search.MKSuggestionResult;
+import com.baidu.mapapi.search.MKTransitRouteResult;
+import com.baidu.mapapi.search.MKWalkingRouteResult;
+import com.baidu.platform.comapi.basestruct.GeoPoint;
+import com.cyss.android.lib.AutoActivity;

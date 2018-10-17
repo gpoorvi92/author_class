@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("dataHex:");
+    if (this.dataHex == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.dataHex);
+    }
+    first = false;
+    if (!first) sb.append(", ");

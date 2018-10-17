@@ -1,0 +1,10 @@
+package cn.itcast_03;
+
+import java.io.File;
+import java.io.FilenameFilter;
+
+/*
+ * 需求：请把d盘目录下所有的.jpg结尾的文件名称给输出出来
+ * A方案思路:
+ *		先获取所有的文件或者文件夹的File数组，在遍历的时候，依次判断，如果满足条件，就输出。
+ * B方案思路：

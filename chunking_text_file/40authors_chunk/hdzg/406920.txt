@@ -1,0 +1,10 @@
+		canvas.drawBitmap(soundBackground, 40, 121, paint);
+		paint.setTextSize(23);//设置文字大小
+		canvas.drawText("音效设置", 110, 40, paint);
+		
+		if(activity.isBackSound){
+			canvas.drawBitmap(close, 200, 140, paint);
+		}
+		else{
+			canvas.drawBitmap(open, 200, 140, paint);
+		}

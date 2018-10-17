@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.schedule.IStep#execute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override
+	public Object execute(ExecuteContext context) throws Exception {
+
+		boolean audionly = context.getAttribute(Constants.CONTEXT_AUDIONLY, true);
+		
+		if (audionly) {
+			decodeAudio(context);
+		} else {

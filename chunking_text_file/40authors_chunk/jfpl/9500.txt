@@ -1,0 +1,10 @@
+		para.height = addPanelHeight;
+		addMsgPanel.setLayoutParams(para);
+
+		initHistoryMsg();
+
+		AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+		item.putStringValue("type", "0");
+		item.putStringValue("msg_type", "6");
+		item.putStringValue("url", "file:///android_asset/www/test.html");
+		item.putStringValue("load_data_type", "0");

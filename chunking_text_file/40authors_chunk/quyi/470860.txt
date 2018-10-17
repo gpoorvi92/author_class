@@ -1,0 +1,10 @@
+
+    public void updateUserAppInfo(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void updateUserAppStatus(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void heart(NodeHeat nodeHeat, long timestamp, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+  }
+
+  public static class Client extends org.apache.thrift.TServiceClient implements Iface {

@@ -1,0 +1,10 @@
+    public abstract String getCacheFolder();
+
+    /**
+     * 通过key获取对应的缓存数据
+     * @param keyName
+     * @param type    返回数据种类
+     */
+    public <T> T getDataByKey(String keyName, Type type) {
+        return getDataByKey(getIdString(), keyName, type);
+    }

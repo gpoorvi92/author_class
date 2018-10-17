@@ -1,0 +1,10 @@
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.exception.InstanceDataException;
+import com.lianzt.util.StringUtil;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+@SuppressLint("SetJavaScriptEnabled")
+public class ChatActivity extends AutoActivity {
+	@InjectionView(id = R.id.frame_title_text)
+	private TextView titleTv;

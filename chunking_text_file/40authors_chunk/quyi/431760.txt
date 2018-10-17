@@ -1,0 +1,10 @@
+  @Override
+  public int compareTo(StaticCheckResultData other) {
+    if (!getClass().equals(other.getClass())) {
+      return getClass().getName().compareTo(other.getClass().getName());
+    }
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetApkMD5()).compareTo(other.isSetApkMD5());
+    if (lastComparison != 0) {

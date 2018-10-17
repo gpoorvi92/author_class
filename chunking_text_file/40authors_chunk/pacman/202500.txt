@@ -1,0 +1,10 @@
+	public void onMessage(Message arg0) {
+		
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQListener#onTextMessage(java.lang.String)
+	 */
+	@Override
+	public void onTextMessage(String msg) {
+		// TODO Auto-generated method stub

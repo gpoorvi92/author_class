@@ -1,0 +1,10 @@
+ * @version 1.02 2007-06-12
+ * @author Cay Horstmann
+ */
+public class PreferencesTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()

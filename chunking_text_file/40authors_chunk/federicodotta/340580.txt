@@ -1,0 +1,10 @@
+    {
+        return issueDetail;
+    }
+
+    @Override
+    public String getRemediationDetail()
+    {
+        return remediationDetail;
+    }
+

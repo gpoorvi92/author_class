@@ -1,0 +1,10 @@
+public boolean hasCode(int c) 
+{ 
+	return(c == code); 
+} 
+
+public boolean hasEntry(byte[] b) 
+{ 
+	return Arrays.equals(b, entry);	
+} 
+

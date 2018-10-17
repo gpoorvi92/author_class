@@ -1,0 +1,10 @@
+            } catch (Exception e) {
+              LOGGER.error("Exception writing to internal frame buffer", e);
+            }
+            fb.close();
+          }
+          public void onError(Exception e) {
+            byte msgType = org.apache.thrift.protocol.TMessageType.REPLY;
+            org.apache.thrift.TBase msg;
+            modifyNodeManagerConfig_result result = new modifyNodeManagerConfig_result();
+            if (e instanceof com.nercis.isscp.idl.InvalidRequestException) {

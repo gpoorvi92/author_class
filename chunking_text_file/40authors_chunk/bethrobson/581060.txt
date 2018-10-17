@@ -1,0 +1,10 @@
+        mainPanel.add(outgoing);
+        mainPanel.add(sendButton);
+        frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+        setUpNetworking();
+        
+        Thread readerThread = new Thread(new IncomingReader());
+        readerThread.start();
+        
+        frame.setSize(650, 500);
+        frame.setVisible(true);

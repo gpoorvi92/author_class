@@ -1,0 +1,7 @@
+	}
+
+	public void setData(AbstractCommonData data) {
+		this.data = data;
+	}
+
+}

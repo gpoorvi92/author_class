@@ -1,0 +1,10 @@
+		System.out.println("请输入第一个数据：");
+		int firstNumber = sc.nextInt();
+		System.out.println("请输入第二个数据：");
+		int secondNumber = sc.nextInt();
+
+		//用if语句实现
+
+		//方式1：直接把结果输出
+		if(firstNumber > secondNumber) {
+			System.out.println("较大的值是："+firstNumber);

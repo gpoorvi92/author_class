@@ -1,0 +1,10 @@
+    
+    tab.setLayout(new GridBagLayout());
+		GridBagConstraints gbc = new GridBagConstraints();
+		
+        gbc.gridy = 0;
+        gbc.gridx = 0;
+        tab.add(patron_no, gbc);
+        //dump.setVisible(true);
+        testing.setVisible(false);
+  		patron_no_text.addFocusListener(new MyActionListener()

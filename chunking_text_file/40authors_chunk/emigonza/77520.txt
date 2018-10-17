@@ -1,0 +1,10 @@
+	public static final String VENDOR_NAME_DEFAULT_PROP_VALUE = 
+								 "Unknown Vendor Name";
+	
+	public static final String VENDOR_URL_DEFAULT_PROP_VALUE = 
+								 "http://www.UnknownVerdorURL.com";
+	
+	public static final String PRODUCT_NAME_DEFAULT_PROP_VALUE = 
+								 "Unknown Product Name";
+	
+	public static final String PRODUCT_URL_DEFAULT_PROP_VALUE = 

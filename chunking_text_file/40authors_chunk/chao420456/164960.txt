@@ -1,0 +1,10 @@
+		// System.out.println(index);
+
+		// public static <T> T max(Collection<?> coll):最大值
+		// Integer max = Collections.max(array);
+		// System.out.println(max);
+
+		// public static void reverse(List<?> list):反转
+		// Collections.reverse(array);
+		// System.out.println("array:" + array);
+

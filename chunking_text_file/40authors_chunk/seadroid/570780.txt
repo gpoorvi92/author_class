@@ -1,0 +1,9 @@
+     * cancel all download tasks
+     */
+    public void cancelAllDownloadTasks() {
+        if (txService != null) {
+            txService.cancellAllDownloadTasks();
+        }
+    }
+
+}

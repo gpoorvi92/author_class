@@ -1,0 +1,10 @@
+	 * */
+	@Override
+	public void setToUserName(String toUserName) {
+		super.setToUserName(toUserName);
+	}
+	/**
+	 * 获取开发者微信号。
+	 * @return 开发者微信号。
+	 * */
+	@Override

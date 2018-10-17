@@ -1,0 +1,10 @@
+                int[][] data = new int[N][];
+                int Max = (1 << (nbr + this.sparsity));
+                for (int k = 0; k < N; ++k)
+                    data[k] = cdg.generateClustered(
+                            1 << nbr, Max);
+                EWAHCompressedBitmap[] ewah = new EWAHCompressedBitmap[N];
+                for (int k = 0; k < N; ++k) {
+                    ewah[k] = new EWAHCompressedBitmap();
+                    for (int x = 0; x < data[k].length; ++x) {
+                        ewah[k].set(data[k][x]);

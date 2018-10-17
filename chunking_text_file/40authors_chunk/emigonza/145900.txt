@@ -1,0 +1,4 @@
+{
+  // Capabilities
+  public boolean getCapStatusMultiDrawerDetect() throws JposException;
+}

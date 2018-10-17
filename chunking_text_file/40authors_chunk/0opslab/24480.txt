@@ -1,0 +1,10 @@
+  }
+
+  /**
+   * @see FilterInputStream#available()
+   */
+  @Override
+  public int available() throws IOException {
+    int result;
+    
+    if (this.m_amountOfBytesReadable == 0) {

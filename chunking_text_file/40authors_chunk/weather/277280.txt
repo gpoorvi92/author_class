@@ -1,0 +1,10 @@
+            case Method.DELETE:
+                return new HttpDelete(request.getUrl());
+            case Method.POST: {
+                HttpPost postRequest = new HttpPost(request.getUrl());
+                postRequest.addHeader(HEADER_CONTENT_TYPE, request.getBodyContentType());
+                setEntityIfNonEmptyBody(postRequest, request);
+                return postRequest;
+            }
+            case Method.PUT: {
+                HttpPut putRequest = new HttpPut(request.getUrl());

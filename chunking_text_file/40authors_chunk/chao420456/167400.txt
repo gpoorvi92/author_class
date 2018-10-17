@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class MovieTicket implements Runnable {
+
+	private int tickets = 100;
+	private Object obj = new Object();
+

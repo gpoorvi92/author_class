@@ -1,0 +1,10 @@
+
+      openButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent e)
+            {
+               try
+               {
+                  Desktop.getDesktop().open(chooser.getSelectedFile());
+               }
+               catch (IOException ex)

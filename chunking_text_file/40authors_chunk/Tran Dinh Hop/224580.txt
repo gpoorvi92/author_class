@@ -1,0 +1,10 @@
+		{ 
+			if(data[i] != null) 
+			{ 
+				sb.append("("+i+") "+data[i]+"\n"); 
+			} 
+		} 
+		return sb.toString(); 
+	} 
+ 
+}//~ End class Dictionary 

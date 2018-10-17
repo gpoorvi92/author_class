@@ -1,0 +1,10 @@
+
+    public TcpProxyConnector(SocketChannel clientChannel, TcpProxyConfig config) {
+        this.clientChannel = clientChannel;
+        this.config = config;
+    }
+
+    public void readFromClient() throws IOException {
+        serverBuffer.writeFrom(clientChannel);
+        if (serverBuffer.isReadyToRead()) register();
+    }

@@ -1,0 +1,10 @@
+    return this.checkTime != null;
+  }
+
+  public void setCheckTimeIsSet(boolean value) {
+    if (!value) {
+      this.checkTime = null;
+    }
+  }
+
+  /**

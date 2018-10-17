@@ -1,0 +1,10 @@
+	 * Sets the type of this property 
+	 * @param type the PropType
+	 */
+	void setType( PropType type ) { this.type = type; }
+
+	/**
+	 * Sets the default value for this property
+	 * @param propValue the PropValue
+	 */
+	void setDefaultValue( PropValue value ) { defaultValue = value; }

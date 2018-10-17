@@ -1,0 +1,10 @@
+		return content;
+	}
+	/**
+	 * 设置回复内容。
+	 * @param content
+	 * 回复内容。
+	 * */
+	public void setContent(String content) {
+		this.content = content;
+	}

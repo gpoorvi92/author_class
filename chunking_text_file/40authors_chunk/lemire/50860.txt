@@ -1,0 +1,10 @@
+package com.googlecode.javaewah.symmetric;
+
+import com.googlecode.javaewah.IteratingBufferedRunningLengthWord;
+
+/**
+ * Wrapper around an IteratingBufferedRunningLengthWord used by the
+ * RunningBitmapMerge class.
+ *
+ * @author Daniel Lemire
+ * @since 0.8.0

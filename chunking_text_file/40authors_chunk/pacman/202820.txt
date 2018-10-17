@@ -1,0 +1,10 @@
+				"    audio_codec=?," + 
+				"    video_width=?," + 
+				" 	 video_height=?," + 
+				" 	 video_rate=?," + 
+				" 	 video_duration=?," + 
+				" 	 video_codec=?" + 
+				"WHERE tid=?";
+		
+		public MiSaveAction(DataSource ds) {
+			setDataSource(ds);

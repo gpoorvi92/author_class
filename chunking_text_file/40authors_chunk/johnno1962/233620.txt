@@ -1,0 +1,10 @@
+            return arg;
+        }
+
+        public int[][] int2dArrayMethod( int arg[][] ) {
+            return arg;
+        }
+
+        public long longMethod( long arg ) {
+            return arg;
+        }

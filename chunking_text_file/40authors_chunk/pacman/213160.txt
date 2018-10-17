@@ -1,0 +1,10 @@
+	@RequestMapping(value="/file/upload.go", 
+			        method = RequestMethod.POST, 
+			        produces="application/json")
+	@ResponseBody
+	public JsonResult uploadFile(@RequestParam("file") MultipartFile image,
+			                       HttpServletRequest request) {
+		
+		JsonResult result = new JsonResult();
+		
+		String libId 	= request.getParameter("lid"); // library id.

@@ -1,0 +1,10 @@
+
+    /** used to separate serverName, RepoId and Path. */
+    private static final String DOC_SEPERATOR = "::::";
+
+    Context context;
+
+    public DocumentIdParser(Context context) {
+        this.context = context;
+    }
+

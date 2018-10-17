@@ -1,0 +1,10 @@
+    String listener = "jpos.events." + eventName + "Listener";
+    return new EventSetDescriptor(jpos.HardTotals.class,
+                                  eventName,
+                                  Class.forName(listener),
+                                  eventName + "Occurred");
+  }
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {
+    try

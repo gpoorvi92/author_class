@@ -1,0 +1,10 @@
+	private Set<OrderBxg> orderBxgs;
+	private Set<OrderLhjWeight> orderLhjWeights;
+	private Set<OrderBxgFdw> bxgFdws;
+	private Set<OrderOther> orderOthers;
+	private Set<OrderPrice> orderPrices;
+	
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderPrice> getOrderPrices() {
+		return orderPrices;
+	}

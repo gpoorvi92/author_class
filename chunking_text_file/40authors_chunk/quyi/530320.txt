@@ -1,0 +1,10 @@
+      if (!(this_present_format && that_present_format))
+        return false;
+      if (!this.format.equals(that.format))
+        return false;
+    }
+
+    return true;
+  }
+
+  @Override

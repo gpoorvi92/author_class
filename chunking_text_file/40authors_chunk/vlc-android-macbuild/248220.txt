@@ -1,0 +1,10 @@
+            put(CPU_PART_PXA910, "PXA910");
+
+            put(CPU_PART_ARM1136, "ARM1136");
+
+            put(CPU_PART_CORTEX_A5, "Cortex-A5");
+            put(CPU_PART_CORTEX_A7, "Cortex-A7");
+            put(CPU_PART_CORTEX_A8, "Cortex-A8");
+            put(CPU_PART_CORTEX_A9, "Cortex-A9");
+            put(CPU_PART_CORTEX_A15, "Cortex-A15");
+

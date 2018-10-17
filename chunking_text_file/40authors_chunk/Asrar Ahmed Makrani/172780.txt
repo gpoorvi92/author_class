@@ -1,0 +1,10 @@
+ 				subjectArea.setEditable(true);
+ 				location_text.setEditable(true);
+			}
+			statement.close();
+			
+	 	}
+ 		}
+ 		catch (SQLException sqlex) 
+ 		{
+ 		}

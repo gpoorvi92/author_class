@@ -1,0 +1,10 @@
+      localin = in;
+    }
+    if (FileUtil.isAllASCII(localin)) {
+      ret = Charset.forName("US-ASCII");
+    }
+    return ret;
+
+  }
+
+}

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onGameCreated() {
+		this.showDialog(DIALOG_ALLOWDIAGONAL_ID);
+	}
+
+	@Override
+	protected Dialog onCreateDialog(final int pID) {
+		switch(pID) {

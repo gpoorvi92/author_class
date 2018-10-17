@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    /**
+     * 画随机码图
+     * @param fontcolor 随机字体颜色
+     * @param strs 字符数组
+     * @param flag 透明度使用

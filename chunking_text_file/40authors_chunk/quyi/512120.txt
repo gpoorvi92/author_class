@@ -1,0 +1,10 @@
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.nodeId = nodeId;
+        this.propertyName = propertyName;
+        this.propertyValue = propertyValue;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("modifyNodeManagerConfig", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        modifyNodeManagerConfig_args args = new modifyNodeManagerConfig_args();
+        args.setNodeId(nodeId);

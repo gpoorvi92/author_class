@@ -1,0 +1,10 @@
+package chart;
+
+import java.awt.event.*;
+import java.beans.*;
+import javax.swing.*;
+
+/**
+ * The panel for setting the inverse property. It contains a button to toggle between normal and
+ * inverse coloring.
+ * @version 1.30 2007-10-03

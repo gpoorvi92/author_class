@@ -1,0 +1,10 @@
+		defineProDialog.show();
+	}
+	
+	public static void showProgressDialog(Context c,int id) {
+		if (defineProDialog == null) {
+			  defineProDialog = new ProgressDialog(c,id);
+		}
+		defineProDialog.show();
+	}
+	

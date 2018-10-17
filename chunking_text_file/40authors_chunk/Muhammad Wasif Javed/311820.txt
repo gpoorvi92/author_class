@@ -1,0 +1,10 @@
+	private JTextField txtBookId, txtBookName, txtBookAuthor, txtBookPrice, txtBookCategory, txtRec;
+	private JButton btnFind, btnCancel;
+
+	private Statement st;			//Statement for Getting the Required Table.
+	private long id = 0;			//To Hold the BookId.
+
+	//Constructor of Class.
+
+	public SearchBook (Connection con) {
+

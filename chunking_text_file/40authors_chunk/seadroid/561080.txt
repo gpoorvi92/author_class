@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.util;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.ThumbnailUtils;
+
+public class BitmapUtil {
+    private BitmapUtil() {}
+
+    /**

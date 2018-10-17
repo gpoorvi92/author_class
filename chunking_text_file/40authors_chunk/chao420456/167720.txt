@@ -1,0 +1,10 @@
+	// if (chs[start] != chs[end]) {
+	// flag = false;
+	// break;
+	// }
+	// }
+	// return flag;
+	// }
+
+	// ·½Ê½2
+	public static boolean isDuiCheng(String s) {

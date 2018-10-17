@@ -1,0 +1,10 @@
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class searchAllEng_args implements org.apache.thrift.TBase<searchAllEng_args, searchAllEng_args._Fields>, java.io.Serializable, Cloneable, Comparable<searchAllEng_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("searchAllEng_args");
+

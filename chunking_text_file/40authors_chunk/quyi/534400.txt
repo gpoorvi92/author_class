@@ -1,0 +1,10 @@
+      sb.append(this.description);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("lineNum:");
+    sb.append(this.lineNum);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("columnNum:");
+    sb.append(this.columnNum);

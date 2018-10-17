@@ -1,0 +1,10 @@
+        makeProperty("DataEventEnabled"),
+        makeProperty("DecodeData"),
+        makeProperty("ScanData"),
+        makeProperty("ScanDataLabel"),
+        makeProperty("ScanDataType"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;

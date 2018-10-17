@@ -1,0 +1,10 @@
+     */
+    public static Iterator<Integer> toSetBitsIterator(final IteratingRLW32 i) {
+        return new Iterator<Integer>() {
+            @Override
+            public boolean hasNext() {
+                return this.under.hasNext();
+            }
+
+            @Override
+            public Integer next() {

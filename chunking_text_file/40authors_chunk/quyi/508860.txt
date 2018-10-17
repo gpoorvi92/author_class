@@ -1,0 +1,10 @@
+  private static class AppDetectResultTupleScheme extends TupleScheme<AppDetectResult> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, AppDetectResult struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      oprot.writeString(struct.missionId);
+      oprot.writeString(struct.userAppId);
+      {
+        oprot.writeI32(struct.plotsStatus.size());
+        for (Map.Entry<PlotsType, CheckResultStatus> _iter143 : struct.plotsStatus.entrySet())

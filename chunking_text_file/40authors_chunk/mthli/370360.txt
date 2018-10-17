@@ -1,0 +1,10 @@
+      group = new ButtonGroup();
+
+      addRadioButton("Lowered bevel", BorderFactory.createLoweredBevelBorder());
+      addRadioButton("Raised bevel", BorderFactory.createRaisedBevelBorder());
+      addRadioButton("Etched", BorderFactory.createEtchedBorder());
+      addRadioButton("Line", BorderFactory.createLineBorder(Color.BLUE));
+      addRadioButton("Matte", BorderFactory.createMatteBorder(10, 10, 10, 10, Color.BLUE));
+      addRadioButton("Empty", BorderFactory.createEmptyBorder());
+
+      Border etched = BorderFactory.createEtchedBorder();

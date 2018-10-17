@@ -1,0 +1,10 @@
+
+    /**
+     * If the boolean value is true and number is greater than 0, then it
+     * throws a NonEmptyException exception, otherwise, nothing happens.
+     *
+     * @see com.googlecode.javaewah.BitmapStorage#addStreamOfEmptyWords(boolean,
+     * long)
+     */
+    @Override
+    public void addStreamOfEmptyWords(boolean v, long number) {

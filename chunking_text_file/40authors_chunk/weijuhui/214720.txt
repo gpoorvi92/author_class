@@ -1,0 +1,10 @@
+    public void onCreate(Bundle savedInstanceState) {
+        init_(savedInstanceState);
+        super.onCreate(savedInstanceState);
+        setContentView(layout.act_edit_content);
+    }
+
+    private void init_(Bundle savedInstanceState) {
+        injectExtras_();
+    }
+

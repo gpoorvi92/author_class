@@ -1,0 +1,10 @@
+	@Override
+	public boolean save(OrderLhjWinProp orderLhjWinProp) {
+		int result = orderLhjWinPropDao.insert(orderLhjWinProp);
+		if(result > 0){
+			return true;
+		}
+		return false;
+	}
+
+

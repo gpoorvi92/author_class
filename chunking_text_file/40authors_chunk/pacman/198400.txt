@@ -1,0 +1,10 @@
+			packFiles.add(xmlFile);
+		}
+
+		FileHelper.ensureExists(publishFile, true);
+		
+		packFiles.addAll(FileHelper.getAllFileInDir(resDir, true));
+		
+		FileHelper.archiveFiles(
+				packFiles, 
+				publishFile, 

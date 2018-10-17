@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetFormat()).compareTo(other.isSetFormat());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFormat()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.format, other.format);
+      if (lastComparison != 0) {
+        return lastComparison;

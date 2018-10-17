@@ -1,0 +1,9 @@
+     */
+    public final static boolean isEmail(String email) {
+        if (email == null || email.length() < 1 || email.length() > 256) {
+            return false;
+        }
+        Pattern pattern = Pattern.compile(REG_EMAIL);
+        return pattern.matcher(email).matches();
+    }
+}

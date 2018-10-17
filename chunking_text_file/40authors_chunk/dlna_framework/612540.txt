@@ -1,0 +1,10 @@
+		}
+
+		// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (05/21/03)
+		setURI(ctrlURL, true);
+
+		// Thanks for Giordano Sassaroli <sassarol@cefriel.it> and Suzan Foster (09/02/03)
+		// Thanks for Andre <andre@antiheld.net> (02/18/04)
+		String postURL = "";
+		if (HTTP.isAbsoluteURL(ctrlURL) == true)
+			postURL = ctrlURL;

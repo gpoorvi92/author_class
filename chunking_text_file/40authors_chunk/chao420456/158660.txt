@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+/*
+ * 需求：我有一个集合，里面有三个元素"hello","world","java",请写程序实现如下操作
+ * 	         判断这个集合中有没有元素为world的，如果有，就添加一个元素Android。
+ * 

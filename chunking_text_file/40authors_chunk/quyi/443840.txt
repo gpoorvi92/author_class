@@ -1,0 +1,10 @@
+    } catch (org.apache.thrift.TException te) {
+      throw new java.io.IOException(te);
+    }
+  }
+
+  private static class UnavailableExceptionStandardSchemeFactory implements SchemeFactory {
+    public UnavailableExceptionStandardScheme getScheme() {
+      return new UnavailableExceptionStandardScheme();
+    }
+  }

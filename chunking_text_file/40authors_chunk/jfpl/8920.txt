@@ -1,0 +1,10 @@
+						imageDataSource.add(_acd);
+					}
+				} else if (file.isFile()) {
+					boolean flag = false;
+					for (String type : ConstVariables.IMAGE_TYPE) {
+						if (file.getName().toLowerCase().endsWith(type)) {
+							flag = true;
+							break;
+						}
+					}

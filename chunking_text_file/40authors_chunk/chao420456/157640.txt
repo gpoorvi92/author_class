@@ -1,0 +1,10 @@
+		// 创建新集合
+		ArrayList newArrayList = new ArrayList();
+
+		// 遍历旧集合，获取到旧集合中的每一个元素
+		for (int x = 0; x < array.size(); x++) {
+			Student s = (Student) array.get(x);
+			// 那旧集合的每一个元素到新集合中去找，看有没有
+			if (!newArrayList.contains(s)) {
+				// 木有：就添加
+				newArrayList.add(s);

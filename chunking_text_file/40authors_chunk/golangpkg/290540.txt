@@ -1,0 +1,10 @@
+	 * Default constructor.
+	 */
+	public StaticFileState() {
+		super();
+	}
+
+
+	public String getAbsoluteFullPathOfUploadedFile() {
+		return absoluteFullPathOfUploadedFile;
+	}

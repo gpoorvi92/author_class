@@ -1,0 +1,10 @@
+    if (!value) {
+      this.apk_md5 = null;
+    }
+  }
+
+  public String getNotify_callback_url() {
+    return this.notify_callback_url;
+  }
+
+  public UserApp setNotify_callback_url(String notify_callback_url) {

@@ -1,0 +1,10 @@
+    
+    /** 
+     * @return any suffix that is to be used with this TracerOutput
+     * <p>An existing suffix gets appended to every message</p>
+     */
+    public String getPrefix();
+    
+    /**
+     * Closes the TracerOutput.  If it is a file then closes the file
+     * Any errors are not propagated up and rather printed to the System.errr

@@ -1,0 +1,10 @@
+	 * Visits a CheckScanner DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitCheckScanner( DevCat devCat );
+
+	/**
+	 * Visits a CAT DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitCAT( DevCat devCat );

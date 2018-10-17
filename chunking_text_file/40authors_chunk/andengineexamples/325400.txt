@@ -1,0 +1,10 @@
+
+		/* Calculate the coordinates for the face, so its centered on the camera. */
+		final float centerX = (CAMERA_WIDTH - this.mFaceTextureRegion.getWidth()) / 2;
+		final float centerY = (CAMERA_HEIGHT - this.mFaceTextureRegion.getHeight()) / 2;
+
+		this.mFaceToRemove = new Sprite(centerX, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		scene.attachChild(this.mFaceToRemove);
+
+		scene.setOnSceneTouchListener(this);
+

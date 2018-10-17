@@ -1,0 +1,10 @@
+		getContentPane().add(aboutPanel, BorderLayout.CENTER);
+		show();
+		setResizable(false);
+		
+	}
+	
+	
+	
+	
+	class AboutPanel extends JPanel implements Runnable, MouseMotionListener {

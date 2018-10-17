@@ -1,0 +1,10 @@
+
+               DefaultMutableTreeNode newNode = new DefaultMutableTreeNode("New");
+
+               int selectedIndex = parent.getIndex(selectedNode);
+               model.insertNodeInto(newNode, parent, selectedIndex + 1);
+
+               // now display new node
+
+               TreeNode[] nodes = model.getPathToRoot(newNode);
+               TreePath path = new TreePath(nodes);

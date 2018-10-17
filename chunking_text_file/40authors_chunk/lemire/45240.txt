@@ -1,0 +1,10 @@
+            if (i.getRunningBit())
+                answer += i.getRunningLength() * EWAHCompressedBitmap.WORD_IN_BITS;
+            int lw = i.getNumberOfLiteralWords();
+            for (int k = 0; k < lw ; ++k)
+                answer += Long.bitCount(i.getLiteralWordAt(k));
+            if (!i.next())
+                break;
+        }
+        return answer;
+    }

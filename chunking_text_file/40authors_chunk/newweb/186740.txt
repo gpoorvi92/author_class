@@ -1,0 +1,8 @@
+		return type.getOrderLhjWinProps().size();
+	}
+
+	@Override
+	public boolean remove(TypeForBrand type) {
+		return typeForBrandDao.delete(type);
+	}
+}

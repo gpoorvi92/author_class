@@ -1,0 +1,10 @@
+		
+		try {      // for error handling
+			switch ( LA(1)) {
+			case META_CONTENT_TYPE:
+			{
+				{
+				token1 = LT(1);
+				match(META_CONTENT_TYPE);
+				}
+				charset=token1.getText();

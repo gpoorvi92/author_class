@@ -1,0 +1,10 @@
+    public static DefMediaPlayer create(Context context) {
+        return new DefMediaPlayer();
+    }
+
+    protected DefMediaPlayer() {
+        mMediaPlayer = new MediaPlayer();
+        mMediaPlayer.setOnBufferingUpdateListener(this);
+        mMediaPlayer.setOnCompletionListener(this);
+        mMediaPlayer.setOnErrorListener(this);
+        mMediaPlayer.setOnInfoListener(this);

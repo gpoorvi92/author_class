@@ -1,0 +1,10 @@
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("reportNodeManagerConfig_args(");
+      boolean first = true;
+
+      sb.append("nodeId:");
+      if (this.nodeId == null) {
+        sb.append("null");
+      } else {

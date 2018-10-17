@@ -1,0 +1,10 @@
+    if (that == null)
+      return false;
+    if (that instanceof AppCheckResult)
+      return this.equals((AppCheckResult)that);
+    return false;
+  }
+
+  public boolean equals(AppCheckResult that) {
+    if (that == null)
+      return false;

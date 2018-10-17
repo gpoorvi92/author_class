@@ -1,0 +1,10 @@
+        {
+            if (inputStream != null)
+                inputStream.close();
+        } catch (Exception e)
+        {
+            //ignore
+        }
+        try
+        {
+            if (outputStream != null)

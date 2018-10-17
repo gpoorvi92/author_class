@@ -1,0 +1,10 @@
+	 * @return 微信请求数据。
+	 */
+	public String getData() {
+		return data;
+	}
+	/**
+	 * 设置微信请求数据。
+	 * @param data
+	 * 微信请求数据。
+	 */

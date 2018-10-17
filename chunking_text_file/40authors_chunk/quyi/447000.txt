@@ -1,0 +1,10 @@
+    this.osName = osName;
+    this.osDesc = osDesc;
+    this.osVersion = osVersion;
+    this.jvmName = jvmName;
+    this.jvmVersion = jvmVersion;
+    this.jvmMaxMem = jvmMaxMem;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.

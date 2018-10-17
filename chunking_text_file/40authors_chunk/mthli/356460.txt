@@ -1,0 +1,10 @@
+   }
+}
+
+/**
+ * A frame to display a captured image
+ */
+class ImageFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 450;
+   private static final int DEFAULT_HEIGHT = 350;

@@ -1,0 +1,10 @@
+		try {
+			return Integer.parseInt(getValue(data, name));
+		}
+		catch (Exception e) {
+			return 0;
+		}
+	}
+
+	public final static int getIntegerValue(byte[] data, String name)
+	{

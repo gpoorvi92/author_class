@@ -1,0 +1,10 @@
+			server.close();
+		}
+	}
+
+	public void setDisUsers(String userNames) {
+		if(userNames.equals("@userlist")){
+			jlt_disUsers.removeAll();
+			String[] user_null = new String[]{};
+			jlt_disUsers.setListData(user_null);
+		}else{

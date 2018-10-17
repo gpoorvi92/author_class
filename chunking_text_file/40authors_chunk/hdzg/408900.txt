@@ -1,0 +1,10 @@
+		canvas.drawBitmap(loading2, r1, r2, paint);//绘制取出的上面剑的一部分
+		
+		canvas.drawText("战国英雄传", startX+(loading2.getWidth()/2)-20, startY, paint);
+		//绘制加载中字样
+		if(k == 0){
+			canvas.drawText("加载中", startX+(loading2.getWidth()/2)-20, startY+loading2.getHeight()+20, paint);
+		}
+		else if(k == 1){
+			canvas.drawText("加载中.", startX+(loading2.getWidth()/2)-20, startY+loading2.getHeight()+20, paint);
+		}

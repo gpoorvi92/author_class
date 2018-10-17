@@ -1,0 +1,10 @@
+
+	}
+
+	public void setPageLoadFinish(boolean flag) {
+		this.pageLoadFinish = flag;
+		if (rDia.getMenuCount() > 0) {
+			triggerView.setVisibility(View.VISIBLE);
+		}
+	}
+

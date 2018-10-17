@@ -1,0 +1,10 @@
+    /**
+     * Sets the OnTimeChangeListener, which will be notified anytime the time is
+     * set or changed.
+     *
+     * @param l
+     */
+    public void setOnTimeChangeListener(OnTimeChangeListener l) {
+        mOnTimeChangeListener = l;
+    }
+

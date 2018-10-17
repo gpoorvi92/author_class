@@ -1,0 +1,10 @@
+package com.opslab.util.algorithmImpl;
+
+import info.monitorenter.cpdetector.io.*;
+
+/**
+ * Created by Poseidon on 2015/4/5.
+ */
+public class cpDetector {
+    public static CodepageDetectorProxy codepageDetector = CodepageDetectorProxy.getInstance();
+

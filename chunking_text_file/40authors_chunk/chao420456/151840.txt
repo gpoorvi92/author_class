@@ -1,0 +1,9 @@
+		Thread t1 = new Thread(mt, "´°¿Ú1");
+		Thread t2 = new Thread(mt, "´°¿Ú2");
+		Thread t3 = new Thread(mt, "´°¿Ú3");
+
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+}

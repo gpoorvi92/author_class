@@ -1,0 +1,10 @@
+*	01/29/03
+*		- first revision.
+*	05/22/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Problem : the setName method does not set the name of the property
+*		- Error : the method contains a bug:
+*	06/18/03
+*		- Fixed a bug when a null value is received to the name and the value of property.
+*	
+******************************************************************/

@@ -1,0 +1,10 @@
+            if (context_ instanceof Activity) {
+                ((Activity) context_).startActivityForResult(intent_, requestCode);
+            } else {
+                context_.startActivity(intent_);
+            }
+        }
+
+        public EditNumberActivity_.IntentBuilder_ value(String value) {
+            intent_.putExtra("value", value);
+            return this;

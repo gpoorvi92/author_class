@@ -1,0 +1,10 @@
+         while ((ch = in.read()) != -1)
+            input.append((char) ch);
+
+         // search for all occurrences of pattern
+         String patternString = "<a\\s+href\\s*=\\s*(\"[^\"]*\"|[^\\s>]*)\\s*>";
+         Pattern pattern = Pattern.compile(patternString, Pattern.CASE_INSENSITIVE);
+         Matcher matcher = pattern.matcher(input);
+
+         while (matcher.find())
+         {

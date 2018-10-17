@@ -1,0 +1,10 @@
+		return getAllowedValueRangeNode().getNodeValue(MAXIMUM);
+	}
+
+	////////////////////////////////////////////////
+	//	width
+	////////////////////////////////////////////////
+
+	private final static String STEP = "step";
+	
+	public void setStep(String value)

@@ -1,0 +1,10 @@
+		System.out.println("Starting Graphics Studio v0.1...");
+			//Create the opening splash window, window is shown within SplashWindow class
+			//set Look and Feel, if look and feel is motif, you really dont want
+			//That dumb ass shit, so we make it the normal java l+f
+			if(UIManager.getSystemLookAndFeelClassName().equals("com.sun.java.swing.plaf.motif.MotifLookAndFeel"))
+				UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+			else
+				UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+				
+			//UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());

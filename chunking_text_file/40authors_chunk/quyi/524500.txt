@@ -1,0 +1,10 @@
+	private static int engine_notify_port = 0;
+	private static String taskmanager_address = null;
+	private static int taskmanager_submit_port = 0;
+	private static int taskmanager_result_port = 0;
+	private static String static_nodemanager_address = null;
+	private static String virus_nodemanager_address = null;
+	private static int nodemanager_submit_port = 0;
+	private static int nodemanager_result_port = 0;
+
+	@BeforeClass

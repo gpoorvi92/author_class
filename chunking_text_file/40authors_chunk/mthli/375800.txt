@@ -1,0 +1,10 @@
+      // use the server.policy file in the current directory
+      props.put("java.security.policy", new File("server.policy").getCanonicalPath());
+      ActivationGroupDesc group = new ActivationGroupDesc(props, null);
+      ActivationGroupID id = ActivationGroup.getSystem().registerGroup(group);
+
+      Map<String, Double> prices = new HashMap<>();
+      prices.put("Blackwell Toaster", 24.95);
+      prices.put("ZapXpress Microwave Oven", 49.95);
+
+      MarshalledObject<Map<String, Double>> param = new MarshalledObject<Map<String, Double>>(

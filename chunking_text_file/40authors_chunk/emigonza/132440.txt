@@ -1,0 +1,5 @@
+    public void    addDirectIOListener(DirectIOListener l);
+    public void    removeDirectIOListener(DirectIOListener l);
+    public void    addErrorListener(ErrorListener l);
+    public void    removeErrorListener(ErrorListener l);
+}

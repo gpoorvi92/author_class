@@ -1,0 +1,10 @@
+        String url = getIntent().getStringExtra(ShibbolethActivity.SHIBBOLETH_SERVER_URL);
+        openAuthorizePage(url);
+    }
+
+    private void openAuthorizePage(String url) {
+        Log.d(DEBUG_TAG, "server url is " + url);
+
+        if (!Utils.isNetworkOn()) {
+            ToastUtils.show(this, getString(R.string.network_down));
+            return;

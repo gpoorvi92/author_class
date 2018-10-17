@@ -1,0 +1,10 @@
+                    @Override
+                    public void onClick(View view) {
+                        EditNumberActivity_.this.pos();
+                    }
+
+                }
+                );
+            }
+        }
+        afterViews();

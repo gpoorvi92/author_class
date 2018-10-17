@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.utils.src.gui;
+
+import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+import javax.swing.event.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+//must implement mouselistener and actionlistener 

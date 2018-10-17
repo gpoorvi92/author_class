@@ -1,0 +1,10 @@
+     private JPEGEncodeParam encodeParam = null;
+	private static PlanarImage srcImage, dstImage;
+	String outFileName;
+		
+     public GIFEncoder(String inFile) {
+		// Lay ra ten file de ghep vao phan mo rong jpg
+		File f = new File(inFile);
+		int pos = f.getName().indexOf(".");
+		String fileName =(f.getName().substring (0,pos));
+

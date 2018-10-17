@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.request;
+
+import com.pengrad.telegrambot.response.BaseResponse;
+
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * stas

@@ -1,0 +1,10 @@
+        public void onPageFinished(WebView webView, String url) {
+            Log.d(DEBUG_TAG, "onPageFinished " + url);
+            showPageLoading(false);
+
+            String cookie = getCookie(url, SEAHUB_SHIB_COOKIE_NAME);
+            if (cookie == null)
+                return;
+
+            Account account = parseAccount(url, cookie);
+            saveAccount(account);

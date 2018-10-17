@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Supplier querySupplierByName(String name) {
+		return supplierDao.selectSupplierByName(name);
+	}
+
+	@Override
+	public boolean save(Supplier supplier) {
+		return supplierDao.insert(supplier);

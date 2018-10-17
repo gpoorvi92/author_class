@@ -1,0 +1,10 @@
+    // TODO Auto-generated constructor stub
+  }
+
+  public static ICodepageDetector getInstance() {
+    if (instance == null) {
+      instance = new ASCIIDetector();
+    }
+    return instance;
+  }
+

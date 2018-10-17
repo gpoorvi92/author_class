@@ -1,0 +1,10 @@
+            }
+
+        });
+
+        SSLContext context = null;
+        if (trustManagers == null) {
+            trustManagers = new TrustManager[] { new FakeX509TrustManager() };
+        }
+
+        try {

@@ -1,0 +1,10 @@
+
+  /** Returns true if field nodeInfo is set (has been assigned a value) and false otherwise */
+  public boolean isSetNodeInfo() {
+    return this.nodeInfo != null;
+  }
+
+  public void setNodeInfoIsSet(boolean value) {
+    if (!value) {
+      this.nodeInfo = null;
+    }

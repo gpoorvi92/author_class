@@ -1,0 +1,10 @@
+        if (incoming.get(0)) {
+          {
+            org.apache.thrift.protocol.TList _list21 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+            struct.success = new ArrayList<com.nercis.isscp.idl.AppCheckResult>(_list21.size);
+            for (int _i22 = 0; _i22 < _list21.size; ++_i22)
+            {
+              com.nercis.isscp.idl.AppCheckResult _elem23;
+              _elem23 = new com.nercis.isscp.idl.AppCheckResult();
+              _elem23.read(iprot);
+              struct.success.add(_elem23);

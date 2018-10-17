@@ -1,0 +1,10 @@
+     * Session类代表JavaMail中的一个邮件会话。
+     */
+    private Session session;
+
+
+    private Transport transport;
+    private String  mailHost        = "";
+    private int     port            = 25;
+    private boolean auth            = false;
+    private String  sender_username = "";

@@ -1,0 +1,10 @@
+	
+	 static long issueMultiMessages(Session session, MessageProducer producer, String missionId, int missionSize, int count,
+			List<UserAppInfo> userAppInfos) throws JMSException {
+		ObjectMessage message = session.createObjectMessage();
+		AppSendMessage appSendMessage = new AppSendMessage();
+		appSendMessage.setMissionId(missionId);
+		appSendMessage.setJobPriority(JobPriority.MEDIUM);
+		List<PlotsType> plots = new ArrayList<PlotsType>();
+    	//plots.add(PlotsType.staticType);
+		plots.add(PlotsType.virusType);

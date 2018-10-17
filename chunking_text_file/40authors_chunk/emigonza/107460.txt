@@ -1,0 +1,10 @@
+     */
+    public void removeJposEntry( String logicalName );
+
+    /**
+     * Modify the JposEntry with logicalName with the new entry indicated
+     * @param logicalName the JposEntry's logical name
+     * @param newEntry the new JposEntry
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void modifyJposEntry( String logicalName, JposEntry newEntry );

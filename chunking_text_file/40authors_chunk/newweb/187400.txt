@@ -1,0 +1,10 @@
+		return true;
+	}
+	
+	private boolean cookieLogin(HttpServletRequest request, HttpServletResponse response){
+		Cookie[] cs = request.getCookies();
+		String name = "";
+		String password = "";
+		if(cs != null){
+			for (Cookie c : cs) {
+				if(c.getName().equals("loginName")){

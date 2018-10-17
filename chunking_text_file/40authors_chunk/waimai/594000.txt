@@ -1,0 +1,10 @@
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/add")
+    public ModelAndView add(GoodsType goodsType) {
+        try {
+            goodsTypeService.add(goodsType);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("", "");

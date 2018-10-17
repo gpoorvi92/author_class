@@ -1,0 +1,10 @@
+    public static void flush() { tracer.flush(); }
+
+    /**
+     * Sets this tracer ON or OFF
+     * @param b the boolean parameter
+     */
+    public static void setOn( boolean b ) { tracer.setOn( b ); }
+
+    /** @return true if the tracer is ON (i.e. enabled) */
+    public static boolean isOn() { return tracer.isOn(); }

@@ -1,0 +1,10 @@
+            entered_internalFrameDeactivated_6 = true;
+            __internalFrameDeactivated( e );
+            entered_internalFrameDeactivated_6 = false;
+        }
+        else
+            super.internalFrameDeactivated( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

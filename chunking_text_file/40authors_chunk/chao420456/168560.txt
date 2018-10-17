@@ -1,0 +1,5 @@
+				System.out.println("你输入的数据有误");
+				break;
+		}
+	}
+}

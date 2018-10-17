@@ -1,0 +1,10 @@
+ * Convenience functions for working over iterators
+ */
+public final class IteratorUtil {
+
+    /** Private constructor to prevent instantiation */
+    private IteratorUtil() {}
+
+    /**
+     * @param i iterator we wish to iterate over
+     * @return an iterator over the set bits corresponding to the iterator

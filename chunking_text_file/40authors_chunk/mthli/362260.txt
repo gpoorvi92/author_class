@@ -1,0 +1,10 @@
+ * Supply the URL and an optional username and password (for HTTP basic authentication) on the
+ * command line.
+ * @version 1.11 2007-06-26
+ * @author Cay Horstmann
+ */
+public class URLConnectionTest
+{
+   public static void main(String[] args)
+   {
+      try

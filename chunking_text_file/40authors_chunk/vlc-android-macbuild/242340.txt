@@ -1,0 +1,10 @@
+
+    private static final int RES_FLAGS__ANY = 0x0;
+    private static final int RES_FLAGS__NORMAL_URL = 0x1;
+
+    private ArrayList<MediaResourceItem> mResourceList;
+
+    public MediaResourceGroup() {
+        mResourceList = new ArrayList<MediaResourceItem>();
+    }
+

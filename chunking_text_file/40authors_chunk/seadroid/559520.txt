@@ -1,0 +1,10 @@
+public class SslConfirmDialog extends DialogFragment {
+    public interface Listener {
+        void onAccepted(boolean rememberChoice);
+        void onRejected();
+    }
+
+    public static final String FRAGMENT_TAG = "SslConfirmDialog";
+    public static final String DEBUG_TAG = "SslConfirmDialog";
+
+    private Account account;

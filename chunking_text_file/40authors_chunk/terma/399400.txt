@@ -1,0 +1,10 @@
+
+            tcpProxyConfigs.add(new StaticTcpProxyConfig(localPort, remoteHost, remotePort));
+        }
+        return tcpProxyConfigs;
+    }
+
+    private static int findIntegerProperty(Properties properties, String key) {
+        final String value = findProperty(properties, key);
+        try {
+            return Integer.parseInt(value);

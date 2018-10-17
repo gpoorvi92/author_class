@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.dao.MerchantCollectionMapper;
+import cn.abovesky.shopping.dao.MerchantMapper;
+import cn.abovesky.shopping.domain.MerchantCollection;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IMerchantCollectionService;
+import org.apache.ibatis.session.RowBounds;
+import org.springframework.beans.factory.annotation.Autowired;

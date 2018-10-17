@@ -1,0 +1,10 @@
+        System.out.println("Introdue el segundo dia:");
+        diaDos = teclado.next();
+        
+        switch (diaDos){
+            case "lunes":
+            case "1":
+                   dia2 = 1;
+                    nombreDiaDos = "lunes";
+                   break;
+             case "martes":

@@ -1,0 +1,10 @@
+package bounceThread;
+
+import java.awt.geom.*;
+
+/**
+   A ball that moves and bounces off the edges of a 
+   rectangle
+ * @version 1.33 2007-05-17
+ * @author Cay Horstmann
+*/

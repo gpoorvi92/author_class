@@ -1,0 +1,10 @@
+import com.weparty.http.WePartyRestClient;
+import com.weparty.http.impl.UpdateResultBuild;
+import com.weparty.utils.LocalStore;
+
+import android.app.Activity;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+
+
+@EActivity(R.layout.act_welcome)

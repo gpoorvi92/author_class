@@ -1,0 +1,10 @@
+
+@Component("orderOtherService")
+public class OrderOtherServiceImp implements OrderOtherService {
+	
+	@Autowired
+	private OrderOtherDao orderOtherDao;
+
+	@Override
+	public boolean save(OrderOther other) {
+		return orderOtherDao.insert(other);

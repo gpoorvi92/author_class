@@ -1,0 +1,10 @@
+      if (incoming.get(1)) {
+        struct.sourceAddress = iprot.readString();
+        struct.setSourceAddressIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.sourcePort = iprot.readString();
+        struct.setSourcePortIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.targetAddress = iprot.readString();

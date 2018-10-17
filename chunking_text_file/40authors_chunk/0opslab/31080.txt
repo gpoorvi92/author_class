@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Sets HTTP proxy settings.
+     */
+    public final static void setHttpProxy(String host, String port, String username, String password) {
+        System.getProperties().put(HTTP_PROXY_HOST, host);
+        System.getProperties().put(HTTP_PROXY_PORT, port);
+        System.getProperties().put(HTTP_PROXY_USER, username);
+        System.getProperties().put(HTTP_PROXY_PASSWORD, password);

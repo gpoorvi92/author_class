@@ -1,0 +1,10 @@
+            for (String ext : IMAGE_EXTENTION) {
+                if (file.getName().endsWith("." + ext)
+                        && !fileName.startsWith(HIDDEN_PREFIX))
+                    return true;
+            }
+            return false;
+        }
+    };
+
+    private static final String IMAGE_EXTENTION[] = { 

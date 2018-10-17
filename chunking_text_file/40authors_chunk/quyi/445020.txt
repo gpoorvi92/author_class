@@ -1,0 +1,10 @@
+              struct.staticCheckResult = new StaticCheckResultData();
+              struct.staticCheckResult.read(iprot);
+              struct.setStaticCheckResultIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // DYNAMIC_CHECK_RESULT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+              struct.dynamicCheckResult = new DynamicCheckResultData();

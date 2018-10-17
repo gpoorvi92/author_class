@@ -1,0 +1,10 @@
+	}
+	@OneToMany(mappedBy = "materialBrand", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<Lhj> getLhjs() {
+		return lhjs;
+	}
+	public void setLhjs(Set<Lhj> lhjs) {
+		this.lhjs = lhjs;
+	}
+	@OneToMany(mappedBy = "materialBrand", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<Bxg> getBxgs() {

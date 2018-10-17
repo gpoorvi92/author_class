@@ -1,0 +1,10 @@
+    public updateUserAppInfo_args setStcRD(com.nercis.isscp.idl.StaticCheckResultData stcRD) {
+      this.stcRD = stcRD;
+      return this;
+    }
+
+    public void unsetStcRD() {
+      this.stcRD = null;
+    }
+
+    /** Returns true if field stcRD is set (has been assigned a value) and false otherwise */

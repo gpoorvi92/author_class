@@ -1,0 +1,10 @@
+        oprot.writeI32(struct.cpu);
+      }
+      if (struct.isSetRss()) {
+        oprot.writeI32(struct.rss);
+      }
+      if (struct.isSetVss()) {
+        oprot.writeI32(struct.vss);
+      }
+    }
+

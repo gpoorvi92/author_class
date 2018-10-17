@@ -1,0 +1,10 @@
+     */
+    public static boolean compareDates(String date) {
+        DateFormat df = new SimpleDateFormat(DATE_FORMAT);
+        try {
+            return df.parse(date).after(new Date());
+        } catch (ParseException e) {
+            System.err.println("格式不正确");
+            return false;
+        }
+    }

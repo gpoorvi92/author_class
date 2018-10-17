@@ -1,0 +1,10 @@
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetEngineName()) {
+        optionals.set(0);
+      }
+      if (struct.isSetVersion()) {
+        optionals.set(1);
+      }
+      if (struct.isSetUpdate()) {
+        optionals.set(2);

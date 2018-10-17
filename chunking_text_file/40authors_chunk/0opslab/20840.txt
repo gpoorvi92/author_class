@@ -1,0 +1,10 @@
+            User user = (User) obj;
+            if (user.getUserId().equals(this.userId) && user.getUserName().equals(this.userName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public String getUserId() {
+        return userId;

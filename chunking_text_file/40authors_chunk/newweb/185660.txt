@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_customer where valid=true and py like ?")
+				.addEntity(Customer.class);
+		return query.setString(0, py).list();
+	}
+
+
+	@SuppressWarnings("rawtypes")
+	@Override
+	public List selectAllCustomers(int start, int limit) {
+		List list = new ArrayList();

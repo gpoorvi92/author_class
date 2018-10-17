@@ -1,0 +1,10 @@
+
+/**
+ * Created by zhoukai on 3/19/14.
+ */
+public class FilePathUtil {
+    private static final String HASH_ALGORITHM = "MD5";
+    private static final int RADIX = 10 + 26; // 10 digits + 26 letters
+
+    /**
+     * SD卡存储路径

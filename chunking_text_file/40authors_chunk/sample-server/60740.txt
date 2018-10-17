@@ -1,0 +1,10 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
+/**
+ * User: Teaey
+ * Date: 13-8-27
+ */
+@Controller
+@RequestMapping("cdkey")
+public class CdKeyController

@@ -1,0 +1,10 @@
+     * Performs any potentially long-running actions needed to initialize the cache;
+     * will be called from a worker thread.
+     */
+    public void initialize();
+
+    /**
+     * Invalidates an entry in the cache.
+     * @param key Cache key
+     * @param fullExpire True to fully expire the entry, false to soft expire
+     */

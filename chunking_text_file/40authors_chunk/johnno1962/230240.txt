@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.MouseInputListener ///
+
+package org.genie.javax_swing;
+
+public class MouseInputListenerProxy implements javax.swing.event.MouseInputListener {
+
+    long swiftObject;
+
+    MouseInputListenerProxy( long swiftObject ) {

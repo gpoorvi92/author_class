@@ -1,0 +1,10 @@
+ * ***** END LICENSE BLOCK ***** * 
+ *  
+ * If you modify or optimize the code in a useful way please let me know.
+ * Achim.Westermann@gmx.de
+ */
+package info.monitorenter.cpdetector.util.collections.ui;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;

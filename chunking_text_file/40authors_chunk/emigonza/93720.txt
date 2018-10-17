@@ -1,0 +1,10 @@
+		public void    setPowerNotify(int powerNotify) throws JposException;
+		public int     getPowerState() throws JposException;
+    public int     getSequenceNumber() throws JposException;
+    public String  getSlipNumber() throws JposException;
+    public boolean getTrainingMode() throws JposException;
+    public void    setTrainingMode(boolean trainingMode) throws JposException;
+    public String  getTransactionNumber() throws JposException;
+    public String  getTransactionType() throws JposException;
+
+    // Methods

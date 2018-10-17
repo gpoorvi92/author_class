@@ -1,0 +1,10 @@
+    /**
+     * NetworkInfo实例
+     *
+     * @param context
+     * @return
+     */
+    private static NetworkInfo getNetworInfoInstance(Context context) {
+        if (cConnectivityManager == null) {
+            cConnectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        }

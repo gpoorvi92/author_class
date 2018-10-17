@@ -1,0 +1,10 @@
+        Log.v(DEBUG_TAG, fao.toString() + " finished checking event!");
+    }
+
+    /**
+     * When user downloads a file, the outdated file is replaced, so the onFileChange signal would
+     * be triggered, which we should not treat it as a modification. This class provides a workaroud
+     * for this.
+     */
+    private static class RecentDownloadedFilesWorkAround {
+        private final Map<String, Long> recentDownloadedFiles = Maps.newConcurrentMap();

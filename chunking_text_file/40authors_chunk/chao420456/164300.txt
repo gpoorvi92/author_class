@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
+/*
+ * 字符流 = 字节流 +编码表
+ * OutputStreamWriter:把字节流转换成字符流。
+ * OutputStreamWriter(OutputStream out):默认字符集

@@ -1,0 +1,10 @@
+	 * */
+	public void setToUserName(String toUserName) {
+		this.ToUserName = toUserName;
+	}
+	/**
+	 * 获取发送方帐号。
+	 * @return 发送方帐号。
+	 * */
+	public String getFromUserName() {
+		return FromUserName;

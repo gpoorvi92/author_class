@@ -1,0 +1,10 @@
+package ipower.wechat.message.events;
+/**
+ * 用户已关注时的事件推送消息。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */
+public class ScanEventMessage extends EventMessage {
+	private static final long serialVersionUID = 1L;
+	private Integer eventKey;
+	private String ticket;

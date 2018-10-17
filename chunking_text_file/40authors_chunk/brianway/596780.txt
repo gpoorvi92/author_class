@@ -1,0 +1,10 @@
+ */
+public class Run8_allWait {
+    public static void main(String[] args) throws InterruptedException {
+        String lock = new String("");
+        Producer producer = new Producer(lock);
+        Consumer consumer = new Consumer(lock);
+        ThreadP[] pThread = new ThreadP[2];
+        ThreadC[] cThread = new ThreadC[2];
+        for (int i = 0; i < 2; i++) {
+            pThread[i] = new ThreadP(producer);

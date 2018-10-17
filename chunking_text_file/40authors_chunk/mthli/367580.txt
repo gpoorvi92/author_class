@@ -1,0 +1,10 @@
+public class PlanetTableModel extends AbstractTableModel
+{
+   public static final int PLANET_COLUMN = 0;
+   public static final int MOONS_COLUMN = 2;
+   public static final int GASEOUS_COLUMN = 3;
+   public static final int COLOR_COLUMN = 4;
+
+   private Object[][] cells = {
+         { "Mercury", 2440.0, 0, false, Color.YELLOW, 
+            new ImageIcon(getClass().getResource("Mercury.gif")) },

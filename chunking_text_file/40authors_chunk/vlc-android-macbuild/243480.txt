@@ -1,0 +1,10 @@
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        Bundle bundle = new Bundle();
+
+        bundle.putString(BUNDLE_VOD_TAG, mVodTag);

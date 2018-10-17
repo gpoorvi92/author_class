@@ -1,0 +1,10 @@
+        {
+          oprot.writeI32(_iter143.getKey().getValue());
+          oprot.writeI32(_iter143.getValue().getValue());
+        }
+      }
+      oprot.writeBinary(struct.detectResult);
+      BitSet optionals = new BitSet();
+      if (struct.isSetUsedPermissions()) {
+        optionals.set(0);
+      }

@@ -1,0 +1,10 @@
+        else
+            super.internalFrameClosed( e );
+    }
+
+    /// public void javax.swing.event.InternalFrameAdapter.internalFrameIconified(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameIconified( javax.swing.event.InternalFrameEvent e );
+
+    boolean entered_internalFrameIconified_3;
+

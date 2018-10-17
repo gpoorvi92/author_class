@@ -1,0 +1,10 @@
+            instance = new UnicodeDetector();
+        }
+        return instance;
+    }
+
+    /*
+     * (non-Javadoc) It is assumed that the inputstream is at the start of the file or String (in order to read the
+     * BOM).
+     * 
+     * @see cpdetector.io.ICodepageDetector#detectCodepage(java.io.InputStream, int)

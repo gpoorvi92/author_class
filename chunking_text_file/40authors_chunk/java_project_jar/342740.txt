@@ -1,0 +1,10 @@
+            afterWrite(end - start);
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+        return this;
+    }
+
+    public Writer append(CharSequence csq)

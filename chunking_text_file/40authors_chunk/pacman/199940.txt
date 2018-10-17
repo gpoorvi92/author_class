@@ -1,0 +1,10 @@
+
+/**
+ * TODO
+ * @Class: BaseController
+ * @author: zhangxinyu
+ * @date: 2015年1月8日 上午11:47:36
+ */
+public abstract class BaseController {
+	
+	protected final static String SESSION_KEY_AUTH = "secure.auth";

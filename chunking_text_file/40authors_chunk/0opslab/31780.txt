@@ -1,0 +1,10 @@
+
+    @Test
+    public void testCopyProperty() throws InvocationTargetException, IllegalAccessException {
+
+        BusinessLog bean1 = new BusinessLog();
+        bean1.setOperationName("operationName test");
+        bean1.setOperation_type("operationName type");
+
+        Log bean2 = new Log();
+

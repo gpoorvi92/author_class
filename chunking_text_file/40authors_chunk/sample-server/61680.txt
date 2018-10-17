@@ -1,0 +1,10 @@
+ * Date: 13-7-16
+ */
+public abstract class TimeBaseTimerTask extends TimerTask
+{
+    public static final    TimeBaseTimerTask TwoMinutesTimer  = new TimeBaseTimerTask(2, TimeUnit.MINUTES)
+    {
+        @Override
+        protected void doRun()
+        {
+            SynService.syn();

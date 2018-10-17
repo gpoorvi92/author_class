@@ -1,0 +1,10 @@
+        this(file, null);
+    }
+
+    public XmlStreamWriter(File file, String defaultEncoding)
+        throws FileNotFoundException
+    {
+        this(((OutputStream) (new FileOutputStream(file))), defaultEncoding);
+    }
+
+    public String getEncoding()

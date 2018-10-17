@@ -1,0 +1,10 @@
+		final MemoryMonitor memMon = new MemoryMonitor();
+		memMonitor.add(memMon);
+		memMon.surf.start();
+		
+		msgBoard = new JTextArea();
+		msgBoard = new JTextArea ("-- MONITORING --", 16, 13);
+		msgBoard.setFont (new Font("Arial", Font.PLAIN, 11) );
+		msgBoard.setEditable(false);
+		msgBoard.setBackground(Color.black);
+		msgBoard.setForeground(Color.white);

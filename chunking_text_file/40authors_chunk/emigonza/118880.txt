@@ -1,0 +1,10 @@
+
+/////////////////////////////////////////////////////////////////////
+// "ImageQuality" Property Constants
+/////////////////////////////////////////////////////////////////////
+
+  public static final int IMG_QUAL_LOW                 = 0x01;
+  public static final int IMG_QUAL_MED                 = 0x02;
+  public static final int IMG_QUAL_HIGH                = 0x03;
+
+

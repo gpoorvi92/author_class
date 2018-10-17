@@ -1,0 +1,10 @@
+	 * 获取图片链接。
+	 * @return 图片链接。
+	 * */
+	public String getPicUrl() {
+		return PicUrl;
+	}
+	/**
+	 * 设置图片链接。
+	 * @param picUrl
+	 * 	图片链接。

@@ -1,0 +1,10 @@
+	     // Set the encoding parameters if necessary.
+	     encodeParam = new PNGEncodeParam.Palette();
+		encodeParam.setBitDepth(4);
+	     encodeImage(srcImage, fosImage);
+	     dstImage = loadImage(outFileName);
+	}
+		
+
+     // Load the source image.
+     private PlanarImage loadImage(String imageName) {

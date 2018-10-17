@@ -1,0 +1,10 @@
+	public SearchRecordInfo() {
+
+	}
+
+	public SearchRecordInfo(String number, long startedTime, long finishedTime,
+			int count,String checkResult) {
+		this.number = number;
+		this.startedTime = startedTime;
+		this.finishedTime = finishedTime;
+		this.count = count;

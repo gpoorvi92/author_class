@@ -1,0 +1,10 @@
+        {
+            return JsonHelper.toJson(listCdKey(zoneEntity.getZoneId()));
+        }
+    }
+    final List<CDKeyEntity> listCdKey(Integer zoneId)
+    {
+        List<CDKeyEntity> list = new ArrayList<>();
+        List<RpcDto.CdKeyDTO> cdKeyDTOs = RpcClientManager.getInstance().getGameServerRpcClientByZoneId(zoneId).getAllCdKey(GameServerRpc.GetAllCdKeyReq.newBuilder().build()).getCdKeyDTOList();
+        for (RpcDto.CdKeyDTO each : cdKeyDTOs)
+        {

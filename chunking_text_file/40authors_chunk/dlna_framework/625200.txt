@@ -1,0 +1,10 @@
+	 * 
+	 * @param binds The host to bind.Use <tt>null</tt> for the default behavior
+	 */
+	public SSDPSearchResponseSocketList(InetAddress[] binds) {
+		this.binds = binds;
+	}
+
+	
+	
+	////////////////////////////////////////////////

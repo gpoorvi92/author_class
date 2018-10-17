@@ -1,0 +1,10 @@
+public class DocumentServiceImp implements DocumentService {
+
+	@Override
+	public String exportReportToExcel(List<Map<String, Object>> records,String path) {
+		String fileName = path +"report.xls";
+		try {
+			HSSFWorkbook book = new HSSFWorkbook();
+			FileOutputStream fileOut = new FileOutputStream(fileName);
+			
+			HSSFSheet sheet = book.createSheet("新世纪报表");

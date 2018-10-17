@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch12.ms.example;
+
+import io.github.viscent.mtpattern.ch12.ms.RetryInfo;
+import io.github.viscent.mtpattern.ch12.ms.SubTaskFailureException;
+import io.github.viscent.util.Debug;
+
+import java.math.BigInteger;

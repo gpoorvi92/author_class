@@ -1,0 +1,10 @@
+	public long getLastExecuteDuration() {
+		
+		return lastExecuteTime;
+	}
+	
+	/**
+	 * Sets the last executed duration.
+	 * 
+	 * @Title: setLastExecuteDuration
+	 * @param duration

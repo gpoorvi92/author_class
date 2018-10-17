@@ -1,0 +1,10 @@
+			return nativeTransRegularAudio(srcFile, destFile);
+		}
+		return -1;
+	}
+	
+	public int transSpecAudio(String srcFile, String destFile) {
+		
+		if (gJNILoaded) {
+			
+			return nativeTransSpecAudio(srcFile, destFile);

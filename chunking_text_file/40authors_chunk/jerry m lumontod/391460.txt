@@ -1,0 +1,10 @@
+
+package com.jml.eisapp.acctg.base;
+
+import java.sql.*;
+
+public class SubDeptCodeIsValid {
+	private String mstrTheMessage="";
+	private String mstrSQL;
+		
+	public void SubDeptCodeIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode) {

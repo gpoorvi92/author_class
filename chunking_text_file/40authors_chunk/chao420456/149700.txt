@@ -1,0 +1,10 @@
+	 */
+	public static String getRiQi(Date d) {
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		// String s = sdf.format(d);
+		// return s;
+		return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(d);
+	}
+
+	/**
+	 * 这是获取年月日的方法 格式：1997-06-01

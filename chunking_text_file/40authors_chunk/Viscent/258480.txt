@@ -1,0 +1,10 @@
+}
+
+class ClientThread extends Thread {
+	private final String message;
+	private final BusinessService bs;
+	private static final AtomicInteger SEQ = new AtomicInteger(0);
+
+	public ClientThread(String message, BusinessService bs) {
+		this.message = message;
+		this.bs = bs;

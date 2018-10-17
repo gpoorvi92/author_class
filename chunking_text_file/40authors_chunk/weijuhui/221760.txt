@@ -1,0 +1,10 @@
+		 * reached
+		 */
+		return result;
+	}
+
+	public String get(String url) {
+		this.get(url, null, responseHandler);
+		return result;
+	}
+

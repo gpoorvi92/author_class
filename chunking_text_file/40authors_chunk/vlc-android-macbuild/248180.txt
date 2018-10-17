@@ -1,0 +1,10 @@
+
+    // Qualcomm CPU part: (Maybe)
+    public static final int CPU_PART_QUALCOMM_S1_S2 = 0x00f;
+    public static final int CPU_PART_QUALCOMM_S3 = 0x02d;
+    public static final int CPU_PART_QUALCOMM_S4 = 0x04d;
+
+    // CPU architecture
+    public static final String CPU_ARCHITECTURE_7 = "7";
+    public static final String CPU_ARCHITECTURE_6TEJ = "6TEJ";
+    public static final String CPU_ARCHITECTURE_5TE = "5TE";

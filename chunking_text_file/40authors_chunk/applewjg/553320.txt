@@ -1,0 +1,10 @@
+        while (left <= right) {
+            if (maxLeft <= maxRight) {
+                res += Math.max(0, maxLeft - A[left]);
+                maxLeft = Math.max(maxLeft, A[left]);
+                ++left;
+            } else {
+                res += Math.max(0, maxRight - A[right]);
+                maxRight = Math.max(maxRight, A[right]);
+                --right;
+            }

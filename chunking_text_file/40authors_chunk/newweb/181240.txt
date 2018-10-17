@@ -1,0 +1,10 @@
+	
+	@Column(nullable=false)
+	public int getProductID() {
+		return productID;
+	}
+	public void setProductID(int productID) {
+		this.productID = productID;
+	}
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)

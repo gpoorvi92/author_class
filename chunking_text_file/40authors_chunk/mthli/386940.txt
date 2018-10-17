@@ -1,0 +1,10 @@
+         {
+            protected Document doInBackground() throws Exception
+            {
+               if (builder == null)
+               {
+                  DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+                  builder = factory.newDocumentBuilder();
+               }
+               return builder.parse(file);
+            }

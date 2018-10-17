@@ -1,0 +1,10 @@
+package cn.teaey.fenrisulfr.tools.protogen;
+import static com.google.protobuf.Plugin.*;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.*;
+/**
+ * @author Teaey
+ * @email masfay@163.com

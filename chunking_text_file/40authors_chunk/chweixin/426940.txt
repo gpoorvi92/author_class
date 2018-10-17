@@ -1,0 +1,10 @@
+	/**
+	 * 获取上传用户名称。
+	 * @return 上传用户名称。
+	 * */
+	public String getCreateUserName() {
+		return createUserName;
+	}
+	/**
+	 * 设置上传用户名称。
+	 * @param createUserName

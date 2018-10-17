@@ -1,0 +1,10 @@
+    }
+
+    @TargetApi(9)
+    public static void setStrictMode_DetectAll_PenaltyDeatch() {
+        if (BuildHelper.isApi9_GingerBreadOrLater()) {
+            StrictMode.setThreadPolicy(new ThreadPolicy.Builder().detectAll()
+                    .penaltyDeath().build());
+            StrictMode.setVmPolicy(new VmPolicy.Builder().detectAll()
+                    .penaltyDeath().build());
+        }

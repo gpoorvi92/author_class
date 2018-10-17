@@ -1,0 +1,10 @@
+ * Date: 13-6-14
+ */
+public class GatewayInboundHandler extends SimpleChannelHandler
+{
+    private static final Logger                  log                     = LoggerFactory.getLogger(GatewayInboundHandler.class);
+    private static       GatewayServerDispatcher gatewayServerDispatcher = GatewayBeanFactory.getInstance(GatewayServerDispatcher.class);
+    private static       BridgeJoint             bridgeJoint             = GatewayBeanFactory.getInstance(BridgeJoint.class);
+    //private              NettyClient             toLogic                 = new NettyClient("127.0.0.1", 8889, GatewayBeanFactory.getInstance(BridgeJoint.class), Fenrisulfr.TransPacket.getDefaultInstance());
+    @Override
+    public void channelConnected(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception

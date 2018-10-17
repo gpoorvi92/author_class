@@ -1,0 +1,10 @@
+package com.googlecode.javaewah32;
+
+import static com.googlecode.javaewah32.EWAHCompressedBitmap32.maxSizeInBits;
+import static org.junit.Assert.assertTrue;
+
+import java.util.Iterator;
+
+import org.junit.Test;
+
+import com.googlecode.javaewah.synth.ClusteredDataGenerator;

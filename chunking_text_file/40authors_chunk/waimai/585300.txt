@@ -1,0 +1,10 @@
+                throw new ServiceException("上传图片失败");
+            } catch (JSONException e) {
+                throw new ServiceException("上传图片失败");
+            } catch (IOException e) {
+                throw new ServiceException("上传图片失败");
+            }
+            merchant.setImage(newImageFileName);
+        }
+        if (merchant.getStoreName().contains("外卖联盟")) {
+            throw new ServiceException("店铺名已存在");

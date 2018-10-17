@@ -1,0 +1,10 @@
+				listener.onTextMessage(txt);
+				break;
+			case 2:
+				listener.onStreamMessage(buf);
+				break;
+			case 3:
+				listener.onMapMessage(map);
+				break;
+			case 4:
+				

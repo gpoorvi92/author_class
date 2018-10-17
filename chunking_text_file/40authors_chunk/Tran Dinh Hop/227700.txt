@@ -1,0 +1,10 @@
+		this.in = new FileInputStream(in);
+		this.out = new FileOutputStream(out);
+		fileSize = this.in.available();
+			
+	}
+
+	public void compress() throws IOException { 
+
+		// first byte processed 
+		// must be primitive code 

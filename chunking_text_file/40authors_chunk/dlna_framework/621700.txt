@@ -1,0 +1,10 @@
+	//	Methods
+	////////////////////////////////////////////////
+	
+	public SSDPNotifySocket getSSDPNotifySocket(int n)
+	{
+		return (SSDPNotifySocket)get(n);
+	}
+
+	////////////////////////////////////////////////
+	//	ControlPoint

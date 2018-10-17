@@ -1,0 +1,10 @@
+		int month = sc.nextInt();
+
+		/*
+		switch(month) {
+			case 1:
+				System.out.println("¶¬¼¾");
+				break;
+			case 2:
+				System.out.println("¶¬¼¾");
+				break;

@@ -1,0 +1,10 @@
+        this.missionId = null;
+      }
+    }
+
+    public String getUserAppId() {
+      return this.userAppId;
+    }
+
+    public updateUserAppStatus_args setUserAppId(String userAppId) {
+      this.userAppId = userAppId;

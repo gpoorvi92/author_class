@@ -1,0 +1,10 @@
+
+		// <errorCode>error code</errorCode>
+		Node errorCodeNode = new Node(SOAP.ERROR_CODE);
+		errorCodeNode.setValue(errCode);
+		upnpErrorNode.addNode(errorCodeNode);
+
+		// <errorDescription>error string</errorDescription>
+		Node errorDesctiprionNode = new Node(SOAP.ERROR_DESCRIPTION);
+		errorDesctiprionNode.setValue(errDescr);
+		upnpErrorNode.addNode(errorDesctiprionNode);

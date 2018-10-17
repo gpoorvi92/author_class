@@ -1,0 +1,10 @@
+	at com.brianway.learning.java.multithread.lock.example9.Service1.testMethod(Service1.java:17)
+	at com.brianway.learning.java.multithread.lock.example9.Thread1.run(Thread1.java:15)
+catch
+
+-----------------------
+
+wait begin
+catch
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)

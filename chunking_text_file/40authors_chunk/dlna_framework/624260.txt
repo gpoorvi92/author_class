@@ -1,0 +1,10 @@
+	public final static String toMonthString(int value)
+	{
+		value -= Calendar.JANUARY;
+		if (0 <= value && value < 12)
+			return MONTH_STRING[value];
+		return "";
+	}
+	
+	private final static String WEEK_STRING[] = {
+		"Sun",

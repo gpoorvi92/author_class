@@ -1,0 +1,10 @@
+        makeProperty("CapUnlockTerminal"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateKey"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapVoucher"),
+        makeProperty("CapWriteValue"),
+
+        // Properties
+        makeProperty("AccountNumber"),
+        makeProperty("AdditionalSecurityInformation"),

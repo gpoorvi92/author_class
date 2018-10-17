@@ -1,0 +1,10 @@
+      }
+
+      boolean this_present_stcRD = true && this.isSetStcRD();
+      boolean that_present_stcRD = true && that.isSetStcRD();
+      if (this_present_stcRD || that_present_stcRD) {
+        if (!(this_present_stcRD && that_present_stcRD))
+          return false;
+        if (!this.stcRD.equals(that.stcRD))
+          return false;
+      }

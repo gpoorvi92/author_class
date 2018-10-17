@@ -1,0 +1,10 @@
+package ipower.wechat.action;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+import ipower.action.BaseAction;
+import ipower.configuration.ModuleSystem;
+import ipower.wechat.service.IMenuService;
+/**

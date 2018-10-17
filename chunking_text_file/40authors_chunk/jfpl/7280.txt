@@ -1,0 +1,10 @@
+	private GeoPoint mylocationPoint;
+
+	private PopupOverlay popupOverlay;
+
+	private int nearByIndex = 0;
+
+	private boolean isFirstLocation = true;
+
+	private String[] sendAddress = new String[4];
+

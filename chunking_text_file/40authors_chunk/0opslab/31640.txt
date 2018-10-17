@@ -1,0 +1,10 @@
+    public void testGetProperties() throws InvocationTargetException, IllegalAccessException {
+        String      value = "Test BeanUtil getProperties Method";
+        BusinessLog bean  = new BusinessLog();
+        bean.setOperationName(value);
+
+        assertEquals(value, BeanUtil.getProperty(bean, "operationName"));
+
+        //获取属性(忽略大小写):
+        assertEquals(value, BeanUtil.getPropertyIgnoreCase(bean, "operationname"));
+

@@ -1,0 +1,10 @@
+        goods.setInsertDate(now);
+        goods.setUpdateDate(now);
+        goods.setRemarkCount(0);
+        goods.setSaleCount(0);
+        goods.getName().replace('_', '-');
+        goods.setCollectionCount(0);
+        goodsMapper.insert(goods);
+    }
+
+    @Override

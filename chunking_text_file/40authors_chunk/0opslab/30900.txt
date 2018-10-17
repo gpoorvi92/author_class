@@ -1,0 +1,10 @@
+    /**
+     * 当前用户
+     */
+    public static String CURRENT_USER      = PropertiesUtil.key("user.name");
+    /**
+     * 当前用户的家目录
+     */
+    public static String CURRENT_USER_HOME = PropertiesUtil.key("user.home");
+    /**
+     * 当用用户的工作目录

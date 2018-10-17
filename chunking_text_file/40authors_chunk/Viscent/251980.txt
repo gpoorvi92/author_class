@@ -1,0 +1,10 @@
+		try {
+			for (;;) {
+
+				// 在执行线程的处理逻辑前先判断线程停止的标志。
+				if (terminationToken.isToShutdown()
+				    && terminationToken.reservations.get() <= 0) {
+					break;
+				}
+				doRun();
+			}

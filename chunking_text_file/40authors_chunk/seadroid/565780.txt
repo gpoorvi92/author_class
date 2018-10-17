@@ -1,0 +1,10 @@
+            "CREATE TABLE " + ACCOUNT_TABLE_NAME + " ("
+                    + ACCOUNT_COLUMN_SERVER + " TEXT NOT NULL, "
+                    + ACCOUNT_COLUMN_EMAIL + " TEXT NOT NULL, "
+                    + ACCOUNT_COLUMN_TOKEN + " TEXT NOT NULL);";
+
+    private static AccountDBHelper dbHelper = null;
+    private SQLiteDatabase database = null;
+
+    public static synchronized AccountDBHelper getDatabaseHelper(Context context) {
+        // Note: the given context will be used for the singleton instance. it can come

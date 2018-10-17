@@ -1,0 +1,10 @@
+
+		if (StringUtils.isNumeric(str)) {
+			
+			return Integer.parseInt(str);
+		} else {
+			
+			return defaultValue;
+		}
+	}
+

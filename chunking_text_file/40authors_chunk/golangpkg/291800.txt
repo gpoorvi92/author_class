@@ -1,0 +1,10 @@
+import com.am.jlfu.staticstate.entities.FileProgressStatus;
+import com.google.common.collect.Sets;
+
+@ContextConfiguration(locations = { "classpath:jlfu.test.xml" })
+@RunWith(SpringJUnit4ClassRunner.class)
+public class ProgressManagerTest {
+
+	@Autowired
+	ClientToFilesMap clientToFilesMap;
+	

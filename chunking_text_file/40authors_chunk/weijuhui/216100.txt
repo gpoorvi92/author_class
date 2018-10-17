@@ -1,0 +1,10 @@
+				scaler.setScale(scale, scale);
+			} else {
+				scaler = null;
+			}
+		} else {
+			float scale = targetWidth / bitmapWidthF;
+			if (scale < .9F || scale > 1F) {
+				scaler.setScale(scale, scale);
+			} else {
+				scaler = null;

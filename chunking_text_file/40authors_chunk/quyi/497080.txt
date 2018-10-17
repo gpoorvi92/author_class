@@ -1,0 +1,10 @@
+      return new EngineStandardScheme();
+    }
+  }
+
+  private static class EngineStandardScheme extends StandardScheme<Engine> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, Engine struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)

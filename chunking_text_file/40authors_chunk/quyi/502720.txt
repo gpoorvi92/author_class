@@ -1,0 +1,10 @@
+		}
+
+		List<UserAppInfo> appInfoList = new ReadExcel().getUserAppInfoList(filePath, sheetNum);
+		appInfoList = appInfoList.subList(0, issueAppSize);
+		for (int missionId = 0; missionId <= appInfoList.size() / missionSize; missionId++) {
+			String realMissionId = "Multi" + String.valueOf(missionSize) + "@" + String.valueOf(missionId);
+			System.out.println(realMissionId);
+			List<UserAppInfo> userAppInfos = new ArrayList<UserAppInfo>();
+			if ((missionId + 1) * missionSize < appInfoList.size()) {
+				userAppInfos = appInfoList.subList(missionId * missionSize, (missionId + 1) * missionSize);

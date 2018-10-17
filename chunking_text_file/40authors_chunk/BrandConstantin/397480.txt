@@ -1,0 +1,10 @@
+    public static void main(String[] args){
+        Scanner tecla = new Scanner(System.in);
+        
+        System.out.println("ACCESO CAJA FUERTE (la combinación esta formada por cifras de 1 a 9)");
+        System.out.println("============================================");
+        
+        int combinacion;
+        int i = 4;
+        boolean encontrado = false;
+        

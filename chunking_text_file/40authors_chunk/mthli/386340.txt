@@ -1,0 +1,10 @@
+      if (types.length > 0) System.out.print(pre);
+      for (int i = 0; i < types.length; i++)
+      {
+         if (i > 0) System.out.print(sep);
+         printType(types[i], isDefinition);
+      }
+      if (types.length > 0) System.out.print(suf);
+   }
+
+   public static void printType(Type type, boolean isDefinition)

@@ -1,0 +1,10 @@
+    setTaskQueueNumeIsSet(false);
+    this.taskQueueNume = 0;
+  }
+
+  public String getNodeId() {
+    return this.nodeId;
+  }
+
+  public NodeHeat setNodeId(String nodeId) {
+    this.nodeId = nodeId;

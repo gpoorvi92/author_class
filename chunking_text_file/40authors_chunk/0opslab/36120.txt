@@ -1,0 +1,8 @@
+        System.out.println(SysUtil.OS_ARCH);
+        System.out.println(SysUtil.SUN_DESKTOP);
+        System.out.println(SysUtil.usedMemory());
+        System.out.println(SysUtil.JVMtotalMem());
+        System.out.println(SysUtil.JVMfreeMem());
+        System.out.println(SysUtil.JVMmaxMem());
+    }
+}

@@ -1,0 +1,10 @@
+		// public File[] listFiles(FilenameFilter filter)
+		File[] fileArray = folder.listFiles(new FilenameFilter() {
+			@Override
+			public boolean accept(File dir, String name) {
+				return new File(dir, name).isFile() && name.endsWith(".jpg");
+			}
+		});
+
+		for (File file : fileArray) {
+			System.out.println(file.getName());

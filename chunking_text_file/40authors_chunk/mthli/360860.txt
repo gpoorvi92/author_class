@@ -1,0 +1,10 @@
+   private Collator currentCollator;
+   private Locale[] locales;
+   private JComboBox<String> localeCombo = new JComboBox<>();
+   private JTextField newWord = new JTextField(20);
+   private JTextArea sortedWords = new JTextArea(20, 20);
+   private JButton addButton = new JButton("Add");
+   private EnumCombo strengthCombo = new EnumCombo(Collator.class, "Primary",
+         "Secondary", "Tertiary", "Identical");
+   private EnumCombo decompositionCombo = new EnumCombo(Collator.class, 
+         "Canonical Decomposition", "Full Decomposition", "No Decomposition");

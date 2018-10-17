@@ -1,0 +1,10 @@
+    public static String simpleEncoding(String str) {
+        try{
+            byte[] bs = str.getBytes(SysUtil.JVM_ENCODING);
+            if(str.equals(new String(bs,CharsetUtil.UTF_8))){
+                return CharsetUtil.UTF_8;
+            }
+            if(str.equals(new String(bs,CharsetUtil.GBK))){
+                return CharsetUtil.GBK;
+            }
+            if(str.equals(new String(bs,"ISO-8859-1"))){

@@ -1,0 +1,10 @@
+			return false;
+		return true;
+	}
+	
+	////////////////////////////////////////////////
+	//	static methods
+	////////////////////////////////////////////////
+	
+	public final static String getValue(LineNumberReader reader, String name)
+	{

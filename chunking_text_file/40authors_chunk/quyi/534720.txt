@@ -1,0 +1,10 @@
+          case 13: // COLUMN_NUM
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.columnNum = iprot.readI32();
+              struct.setColumnNumIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 14: // RISK_DESCRIPTION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {

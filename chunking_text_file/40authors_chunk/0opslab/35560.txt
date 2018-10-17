@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 判断map是否有效
+     * @param map
+     * @return
+     */
+    public final static boolean valid(Map map) {
+        return !(map == null || map.isEmpty());
+    }

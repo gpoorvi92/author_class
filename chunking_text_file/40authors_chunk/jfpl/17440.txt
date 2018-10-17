@@ -1,0 +1,10 @@
+	}
+
+	private void addRecently(SQLiteDatabase con, String title, String content,
+			String appId, String url, boolean flag) {
+
+		Cursor cursor = con.rawQuery(
+				SystemUtil.SQL_MAP.get("get_one_chat_recently"),
+				new String[] { appId });
+
+		if (cursor.moveToNext()) {

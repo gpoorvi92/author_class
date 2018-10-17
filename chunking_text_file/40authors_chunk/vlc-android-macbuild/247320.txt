@@ -1,0 +1,10 @@
+    private enum VmPenalty {
+        Death, DropBox, Log
+    };
+
+    private static VmPenalty sVmPenalty = VmPenalty.Log;
+
+    /*--------------------------------------
+     * Methods
+     */
+    @TargetApi(16)

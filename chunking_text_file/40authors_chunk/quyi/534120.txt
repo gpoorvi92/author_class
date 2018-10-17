@@ -1,0 +1,10 @@
+    if (isSetDescription()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.description, other.description);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetLineNum()).compareTo(other.isSetLineNum());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

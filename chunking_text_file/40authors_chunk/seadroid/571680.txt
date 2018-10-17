@@ -1,0 +1,10 @@
+            // Log.d(DEBUG_TAG, "in  Que  " + taskID + " " + repoName + path + "in waiting list");
+            return true;
+        }
+
+        if (transferringList.contains(transferTask)) {
+            // Log.d(DEBUG_TAG, "in  Que  " + taskID + " " + repoName + path + " in downloading list");
+            return true;
+        }
+        return false;
+    }

@@ -1,0 +1,10 @@
+                                + " runCount = " + addNumber + " " + showChar);
+                        lock.notifyAll();
+                        addNumber++;
+                        printCount++;
+                        if (printCount == 3) {
+                            break;
+                        }
+                    } else {
+                        //System.out.println("ThreadName="+ Thread.currentThread().getName()+" will await");
+                        lock.wait();

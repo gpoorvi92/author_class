@@ -1,0 +1,10 @@
+
+  public NetworkPacket setDataHex(String dataHex) {
+    this.dataHex = dataHex;
+    return this;
+  }
+
+  public void unsetDataHex() {
+    this.dataHex = null;
+  }
+

@@ -1,0 +1,10 @@
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("EventTypes"),
+        makeProperty("POSKeyData"),
+        makeProperty("POSKeyEventType"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;

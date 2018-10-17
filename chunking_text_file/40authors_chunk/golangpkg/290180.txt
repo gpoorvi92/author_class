@@ -1,0 +1,10 @@
+	public void onFileUploaderDisabled() {
+		
+	}
+
+
+	@Override
+	public void onFileUploaderEnabled() {
+		
+	}
+

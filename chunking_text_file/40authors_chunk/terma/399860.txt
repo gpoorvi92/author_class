@@ -1,0 +1,10 @@
+        List<TcpProxyConfig> instances = TcpProxyConfigParser.parse(properties);
+        Collections.sort(instances, new Comparator<TcpProxyConfig>() {
+            @Override
+            public int compare(TcpProxyConfig o1, TcpProxyConfig o2) {
+                return o2.getRemoteHost().compareTo(o1.getRemoteHost());
+            }
+        });
+
+        Assert.assertEquals(2, instances.size());
+

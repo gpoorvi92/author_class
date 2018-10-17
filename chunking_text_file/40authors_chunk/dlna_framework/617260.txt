@@ -1,0 +1,10 @@
+			return;
+		}
+
+		try {
+			StringTokenizer st = new StringTokenizer(lineStr, HTTP.STATUS_LINE_DELIM);
+		
+			if (st.hasMoreTokens() == false)
+				return;
+			String ver = st.nextToken();
+			setVersion(ver.trim());

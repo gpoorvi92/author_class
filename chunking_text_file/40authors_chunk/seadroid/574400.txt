@@ -1,0 +1,10 @@
+            case 1:
+                return getString(R.string.transfer_tabs_uploads);
+
+            default:
+                return null;
+            }
+        }
+
+        @Override
+        public int getCount() {

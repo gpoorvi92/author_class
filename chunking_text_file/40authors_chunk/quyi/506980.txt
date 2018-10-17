@@ -1,0 +1,10 @@
+    schemes.put(StandardScheme.class, new AppDetectResultStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new AppDetectResultTupleSchemeFactory());
+  }
+
+  public String missionId; // required
+  public String userAppId; // required
+  public List<Map<String,APICheck>> usedPermissions; // optional
+  public Map<PlotsType,CheckResultStatus> plotsStatus; // required
+  public Map<String,CheckResultStatus> functionStatus; // optional
+  public ByteBuffer detectResult; // required

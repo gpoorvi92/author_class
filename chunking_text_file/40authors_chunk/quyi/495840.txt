@@ -1,0 +1,10 @@
+  }
+
+  public String getEngineName() {
+    return this.engineName;
+  }
+
+  public Engine setEngineName(String engineName) {
+    this.engineName = engineName;
+    return this;
+  }

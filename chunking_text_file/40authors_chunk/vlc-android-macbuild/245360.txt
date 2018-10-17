@@ -1,0 +1,10 @@
+            return false;
+
+        for (String elem : array) {
+            if (TextUtils.isEmpty(elem))
+                return true;
+        }
+
+        return false;
+    }
+

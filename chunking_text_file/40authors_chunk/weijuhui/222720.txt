@@ -1,0 +1,10 @@
+		left_btn.setBackgroundResource(R.drawable.icon_title);
+		left_btn.setVisibility(View.VISIBLE);*/
+		 
+		view.findViewById(R.id.title_back).setVisibility(View.INVISIBLE);
+		view.findViewById(R.id.title_pos).setVisibility(View.INVISIBLE);
+		
+	}
+
+	@Override
+	public void onResume() {

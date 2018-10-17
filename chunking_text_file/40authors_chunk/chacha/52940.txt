@@ -1,0 +1,10 @@
+		return prnLog.isInfoEnabled();
+	}
+
+	/**
+	 * 判断是否可以输出warn级别调试信息
+	 * 
+	 * @return
+	 */
+	public boolean isWarnEnable() {
+		return prnLog.isWarnEnabled();

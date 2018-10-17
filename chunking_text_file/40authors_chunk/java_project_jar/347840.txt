@@ -1,0 +1,10 @@
+            if(matches(bom))
+                return bom;
+        }
+
+        return null;
+    }
+
+    private boolean matches(ByteOrderMark bom)
+    {
+        if(bom.length() != fbLength)

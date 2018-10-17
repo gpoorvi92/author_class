@@ -1,0 +1,10 @@
+		"xx将军通过在马场训练一番，敏捷提高了yy点。",
+		"xx将军在马场瞎跑了一天，什么也没学会。"
+	};
+	int cost = 1500;//花费
+	int status=-1;//状态位，为0表示显示是否进去，为1表示显示不能进去,为2表示显示培训结果
+	int agilityIncrement = 3;//每次最多增加3点
+	
+	public MaChangDrawable(){}
+	
+	public MaChangDrawable(Bitmap bmpSelf,Bitmap bmpDialogBack,Bitmap bmpDialogButton,boolean meetable,int width,int height,int col,int row,

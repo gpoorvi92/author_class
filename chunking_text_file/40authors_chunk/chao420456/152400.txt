@@ -1,0 +1,10 @@
+
+		//我很喜欢狗，又养了一只狗
+		Dog d2 = new Dog();
+		d2.eat();
+		d2.sport();
+
+		//我特别喜欢狗，又养了一只狗
+		Dog d3 = new Dog();
+		d3.eat();
+		d3.sport();

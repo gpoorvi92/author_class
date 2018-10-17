@@ -1,0 +1,10 @@
+        } else {
+          setRules((List<String>)value);
+        }
+        break;
+
+      case PLOTS:
+        if (value == null) {
+          unsetPlots();
+        } else {
+          setPlots((List<com.nercis.isscp.idl.PlotsType>)value);

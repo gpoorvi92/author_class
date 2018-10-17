@@ -1,0 +1,10 @@
+               {
+                  val+=m1.values[t][j]*m2.values[i][t];             
+               }
+               result.values[i][j] = val;
+            }
+        return result;
+    }
+
+
+    /** returns a size by size identity matrix

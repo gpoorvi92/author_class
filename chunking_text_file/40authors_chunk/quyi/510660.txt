@@ -1,0 +1,10 @@
+
+  private static class VirusDetectionResultDataStandardSchemeFactory implements SchemeFactory {
+    public VirusDetectionResultDataStandardScheme getScheme() {
+      return new VirusDetectionResultDataStandardScheme();
+    }
+  }
+
+  private static class VirusDetectionResultDataStandardScheme extends StandardScheme<VirusDetectionResultData> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, VirusDetectionResultData struct) throws org.apache.thrift.TException {

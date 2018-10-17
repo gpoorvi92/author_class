@@ -1,0 +1,10 @@
+    }
+
+    public boolean cancel(final IImage image) {
+        synchronized (mQueue) {
+            int index = findItem(image);
+            if (index >= 0) {
+                mQueue.remove(index);
+                return true;
+            } else {
+                return false;

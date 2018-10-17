@@ -1,0 +1,8 @@
+     * @return A list of custom menu items (which may include sub-menus,
+     * checkbox menu items, etc.) that should be displayed. Extensions may
+     * return
+     * <code>null</code> from this method, to indicate that no menu items are
+     * required.
+     */
+    List<JMenuItem> createMenuItems(IContextMenuInvocation invocation);
+}

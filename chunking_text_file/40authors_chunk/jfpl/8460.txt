@@ -1,0 +1,10 @@
+import android.os.Handler;
+import android.os.Message;
+import android.util.Xml;
+import android.view.LayoutInflater;
+import android.view.View;
+
+import com.cyss.android.lib.AutoActivity;
+import com.lianzt.util.SSLConnection;
+
+public class RemoteActivity extends AutoActivity {

@@ -1,0 +1,10 @@
+    //   "by" Parameter
+    public static final int CHK_CLR_ALL             = 1;
+    public static final int CHK_CLR_BY_FILEID       = 2;
+    public static final int CHK_CLR_BY_FILEINDEX    = 3;
+    public static final int CHK_CLR_BY_IMAGETAGDATA = 4;
+
+    /////////////////////////////////////////////////////////////////////
+    // "defineCropArea" Method Constants:
+    /////////////////////////////////////////////////////////////////////
+

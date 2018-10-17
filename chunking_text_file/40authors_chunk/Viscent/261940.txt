@@ -1,0 +1,10 @@
+
+	public void disconnect() {
+		// 省略其它代码
+		Debug.info("disconnected from alarm server.");
+		connectedToServer = false;
+	}
+
+	protected void onConnected() {
+		try {
+			blocker.signalAfter(new Callable<Boolean>() {

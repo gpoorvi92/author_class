@@ -1,0 +1,10 @@
+    protected String path;
+    protected long totalSize, finished;
+    protected TaskState state;
+    protected SeafException err;
+
+    public TransferTask(int taskID, Account account, String repoName, String repoID, String path) {
+        this.account = account;
+        this.repoName = repoName;
+        this.repoID = repoID;
+        this.path = path;

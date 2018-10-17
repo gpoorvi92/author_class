@@ -1,0 +1,10 @@
+            	patron_status_text.setText("");
+            	patron_loan_limit_text.setText("");
+            	patron_expiry_date_text.setText("");
+            	
+            	for (int z = 0; z<5; z++)
+			    {
+			    acc_no_text[z].setText("");
+			    book_title_text1[z].setText("");
+			    rent_date_text[z].setText("");
+			    due_date_text[z].setText("");

@@ -1,0 +1,10 @@
+		public View getView(int position, View convertView, ViewGroup parent) {
+			View row = convertView;
+
+			ViewHolder holder;
+
+			if (row == null) {
+				LayoutInflater inflater = mContext.getLayoutInflater();
+				row = inflater.inflate(mLayoutId, null);
+
+				holder = new ViewHolder();

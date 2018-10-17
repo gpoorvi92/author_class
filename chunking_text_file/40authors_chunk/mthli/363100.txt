@@ -1,0 +1,10 @@
+      this.backup = backup;
+   }
+
+   public void add(String keyword, Product product)
+   {
+      product.setLocation(this);      
+      products.put(keyword, product);
+   }
+   
+   public double getPrice(String description) throws RemoteException

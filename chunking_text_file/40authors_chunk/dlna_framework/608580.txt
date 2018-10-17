@@ -1,0 +1,10 @@
+			Debug.debug.getOut().println("CyberGarage message : ");
+			Debug.debug.getOut().println(m1);
+			Debug.debug.getOut().println(m2);
+	}
+	public static final void warning(String s) {
+		//Debug.debug.getOut().println("CyberGarage warning : " + s);
+		log.e("CyberGarage warning : " + s);
+	}
+	public static final void warning(String m, Exception e) {
+		if(e.getMessage()==null){

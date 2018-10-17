@@ -1,0 +1,10 @@
+		login();
+
+	}
+
+	public void paint(Graphics graphics){
+		graphics.drawImage(image, 0, 0, null);
+	}
+
+	public void login(){
+			JPasswordField tf = new JPasswordField(10);

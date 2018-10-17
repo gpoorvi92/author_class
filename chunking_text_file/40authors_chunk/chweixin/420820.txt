@@ -1,0 +1,10 @@
+		this.createTime = createTime;
+	}
+	/**
+	 * 获取最近一次交互时间。
+	 * @return 最近一次交互时间。
+	 * */
+	public Date getLastTime() {
+		return lastTime;
+	}
+	/**

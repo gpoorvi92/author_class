@@ -1,0 +1,10 @@
+
+		// 创建并添加元素
+		map.put("文章", "马伊俐");
+		map.put("谢霆锋", "张柏芝");
+		map.put("田亮", "叶一茜");
+		map.put("汪峰", "章子怡");
+
+		// 遍历
+		// 获取所有的键值对对象的Set集合。
+		Set<Map.Entry<String, String>> set = map.entrySet();

@@ -1,0 +1,10 @@
+        case LibVlcMessages.VLC_EVENT:
+            // process later
+            break;
+        default:
+            return false;
+        }
+
+        switch (msg.arg1) {
+        case EventManager.MediaPlayerLengthChanged:
+        case EventManager.MediaDurationChanged: {

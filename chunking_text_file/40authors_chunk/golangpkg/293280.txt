@@ -1,0 +1,10 @@
+		//return null if average upload rate is 0
+		if (averageUploadRate == 0) {
+			return null;
+		}
+		
+		//calculate from average
+		return calculateRemainingTime(progress, averageUploadRate);
+	}
+	
+	private Long getAverageUploadRate(LimitingList<Long> newArrayList) {

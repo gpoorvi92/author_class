@@ -1,0 +1,10 @@
+								}
+								else {
+									exceptionCodeMappingHelper.processException(exception, response);
+								}
+							}
+							else {
+								exceptionCodeMappingHelper.processException(exception, response);
+							}
+
+							asyncContext.complete();

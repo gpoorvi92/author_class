@@ -1,0 +1,10 @@
+
+
+public class ClassUtilTest {
+
+    @Test
+    public void testField() throws  InvocationTargetException, IllegalAccessException {
+        System.out.println("=============所有字段===============");
+        String[] fields = ClassUtil.getField("model.BusinessLog",true);
+        for (String f : fields) {
+            System.out.println(f);

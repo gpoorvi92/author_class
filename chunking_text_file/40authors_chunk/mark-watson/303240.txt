@@ -1,0 +1,10 @@
+        jLabel5.setText("hidden to output weights");
+        jLabel5.setBounds(new Rectangle(220, 180, 190, 19));
+        this.getContentPane().add(inputPanel, null);
+        this.getContentPane().add(hiddenPanel, null);
+        this.getContentPane().add(outputPanel, null);
+        this.getContentPane().add(w1Panel, null);
+        this.getContentPane().add(w2Panel, null);
+        this.getContentPane().add(jButton1, null);
+        this.getContentPane().add(jLabel1, null);
+        this.getContentPane().add(jLabel2, null);

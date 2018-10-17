@@ -1,0 +1,10 @@
+      return sum;
+   }
+
+   /**
+    * Gets the number of accounts in the bank.
+    * @return the number of accounts
+    */
+   public int size()
+   {
+      return accounts.length;

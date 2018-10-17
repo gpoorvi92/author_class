@@ -1,0 +1,10 @@
+      return new SystemResourcesStandardScheme();
+    }
+  }
+
+  private static class SystemResourcesStandardScheme extends StandardScheme<SystemResources> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, SystemResources struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)

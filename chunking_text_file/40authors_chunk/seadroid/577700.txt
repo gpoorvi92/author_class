@@ -1,0 +1,10 @@
+        c.close();
+        return item;
+    }
+
+    public void savePhotoCacheItem(SeafCachedPhoto item) {
+
+        // Create a new map of values, where column names are the keys
+        ContentValues values = new ContentValues();
+        values.put(PHOTOCACHE_COLUMN_REPO_NAME, item.repoName);
+        values.put(PHOTOCACHE_COLUMN_REPO_ID, item.repoID);

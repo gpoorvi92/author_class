@@ -1,0 +1,10 @@
+			// }
+			// });
+		} else if (position == 2) {
+			TextView logoutTv = (TextView) v.findViewById(R.id.more_logout);
+			TextView piInfoTv = (TextView) v.findViewById(R.id.more_profile);
+			logoutTv.setOnClickListener(new View.OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					AbstractCommonData loginPara = GlobalVariables

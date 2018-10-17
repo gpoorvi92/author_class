@@ -1,0 +1,10 @@
+    @Autowired
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/edit/{goods_id}")
+    public ModelAndView editView(@PathVariable("goods_id") Integer goodsId) {
+        ModelAndView modelAndView = new ModelAndView("common/goods/edit");
+        Goods goods = goodsService.findById(goodsId);
+        modelAndView.addObject("goods", goods);
+        modelAndView.addObject("goodsType", goodsTypeService.findAll());
+        return modelAndView;

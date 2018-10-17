@@ -1,0 +1,10 @@
+                            intent.setDataAndType((Uri.fromFile(file)), "text/*");
+                            startActivity(intent);
+                            break;
+                        case OPEN_AS_AUDIO:
+                            intent.setDataAndType((Uri.fromFile(file)), "audio/*");
+                            startActivity(intent);
+                            break;
+                        case OPEN_AS_VIDEO:
+                            intent.setDataAndType((Uri.fromFile(file)), "video/*");
+                            startActivity(intent);

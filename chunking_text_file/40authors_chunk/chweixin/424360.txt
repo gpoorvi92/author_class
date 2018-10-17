@@ -1,0 +1,10 @@
+
+/**
+ * 微信关注用户数据实现类。
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */
+public class WeChatUserDaoImpl extends BaseDaoImpl<WeChatUser> implements IWeChatUserDao {
+	/**
+	 * 添加查询条件。
+	 * @param info

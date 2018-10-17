@@ -1,0 +1,10 @@
+        if (fileName != null && !fileName.isEmpty()) {
+            return fileName;
+        } else {
+            return getDefaultFileName();
+        }
+    }
+
+    @Override
+    abstract public String getContentType();
+

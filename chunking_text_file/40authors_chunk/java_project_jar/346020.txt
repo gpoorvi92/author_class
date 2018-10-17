@@ -1,0 +1,10 @@
+        {
+            output.write(buffer, 0, n);
+            count += n;
+        }
+
+        return count;
+    }
+
+    public static void copy(InputStream input, Writer output)
+        throws IOException

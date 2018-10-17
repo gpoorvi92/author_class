@@ -1,0 +1,10 @@
+    }
+
+    private float adjustInput(float x) {
+        if (x < 0.0f) return -1.0f;
+        return 1.0f;
+    }
+
+    private float truncate(float x) {
+        //return Math.round(x);
+        int i = (int) x;

@@ -1,0 +1,10 @@
+		//Setting the Form's TextFields.
+
+		txtMemberId = new JTextField ();
+		txtMemberId.setHorizontalAlignment (JTextField.RIGHT);
+		txtMemberId.addFocusListener (this);
+		txtMemberId.setBounds (125, 15, 205, 25);
+		txtMemberName = new JTextField ();
+		txtMemberName.setBounds (125, 45, 205, 25);
+		txtMemberAddress = new JTextField ();
+		txtMemberAddress.setBounds (125, 75, 205, 25);

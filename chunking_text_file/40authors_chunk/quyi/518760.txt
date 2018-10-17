@@ -1,0 +1,10 @@
+      public void write(org.apache.thrift.protocol.TProtocol prot, modifyEngineConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.propertyName);
+        oprot.writeString(struct.propertyValue);
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, modifyEngineConfig_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.propertyName = iprot.readString();

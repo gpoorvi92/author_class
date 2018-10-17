@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("fileDescription:");
+    if (this.fileDescription == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.fileDescription);
+    }
+    first = false;
+    if (!first) sb.append(", ");

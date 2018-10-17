@@ -1,0 +1,10 @@
+                response.getOutputStream().write(resultCode.toJsonBytes());
+                response.getOutputStream().flush();
+                response.getOutputStream().close();
+            }
+            else
+            {
+                log.warn("unknown RequestType:{}", acl.type());
+            }
+        }
+        else

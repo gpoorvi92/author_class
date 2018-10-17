@@ -1,0 +1,10 @@
+            {
+               System.exit(0);
+            }
+         });
+      fileMenu.add(exitItem);
+
+      JMenu editMenu = new JMenu("Edit");
+      JMenuItem blurItem = new JMenuItem("Blur");
+      blurItem.addActionListener(new ActionListener()
+         {

@@ -1,0 +1,10 @@
+
+	/**
+	 * @param file
+	 * @return true if the file has been deleted, false otherwise.
+	 */
+	private boolean delete(File file) {
+
+		try {
+			// if file exists
+			if (file.exists()) {

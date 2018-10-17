@@ -1,0 +1,10 @@
+	public static void main(String[] args) throws IOException {
+		// 创建字节输入流对象
+		FileInputStream fis = new FileInputStream("a.txt");
+
+		// 读取数据
+		// public int read(byte[] b)
+		// byte[] bys = new byte[5];
+
+		// // 第一次读取
+		// int len = fis.read(bys);

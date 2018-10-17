@@ -1,0 +1,10 @@
+            switch (item.getItemId()) {
+                case R.id.cancel:
+                    if (state == TaskState.INIT || state == TaskState.TRANSFERRING) {
+                        txService.cancelUploadTaskInQue(taskID);
+                    }
+                    break;
+                case R.id.retry:
+                    if (state == TaskState.FAILED || state == TaskState.CANCELLED) {
+                        txService.retryUploadTask(taskID);
+                    }

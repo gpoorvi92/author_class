@@ -1,0 +1,10 @@
+                    Object msg = e.getMessage();
+                    if (msg instanceof Rpc.RpcPacket)
+                    {
+                        response = (Rpc.RpcPacket) msg;
+                        if (response.getCounter() == responseId)
+                        {
+                            countDownLatch.countDown();
+                        }
+                        else
+                        {

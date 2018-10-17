@@ -1,0 +1,10 @@
+   *   URL.setURLStreamHandlerFactory(new OkUrlFactory(okHttpClient));
+   * }</pre>
+   */
+  @Override public URLStreamHandler createURLStreamHandler(final String protocol) {
+    if (!protocol.equals("http") && !protocol.equals("https")) return null;
+
+    return new URLStreamHandler() {
+      @Override protected URLConnection openConnection(URL url) {
+        return open(url);
+      }

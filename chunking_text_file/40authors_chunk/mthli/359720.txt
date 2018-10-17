@@ -1,0 +1,10 @@
+ * @version 1.4 2012-06-01
+ * @author Cay Horstmann
+ */
+public class ZipTest
+{
+   public static void main(String[] args) throws IOException
+   {
+      String zipname = args[0];
+      showContents(zipname);
+      System.out.println("---");

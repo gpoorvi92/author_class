@@ -1,0 +1,10 @@
+
+    public String getBOMCharsetName()
+        throws IOException
+    {
+        getBOM();
+        return byteOrderMark != null ? byteOrderMark.getCharsetName() : null;
+    }
+
+    private int readFirstBytes()
+        throws IOException

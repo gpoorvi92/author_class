@@ -1,0 +1,10 @@
+						}
+					});
+		}
+		
+	}
+	
+	private void apkDownload(){
+		Output.toast(this,"开始下载");
+		APKDownloader downloader = new APKDownloader(this);
+		downloader.setAppDownLoadUrl(SourceData.DOWNLOAD + SourceData.getUpdateResult().getAkpUrl());

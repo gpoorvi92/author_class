@@ -1,0 +1,10 @@
+		Long totalValue = 0l;
+		List<Long> list = newArrayList.getList();
+		for (Long value : list) {
+			totalValue += value;
+		}
+		return totalValue / list.size();
+	}
+
+	long calculateRemainingTime(FileProgressStatus progress, Long uploadRate) {
+		long calculatedTimeRemaining = (progress.getTotalFileSize() - progress.getBytesUploaded()) / uploadRate;

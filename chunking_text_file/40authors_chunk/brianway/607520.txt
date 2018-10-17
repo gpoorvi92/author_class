@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.singleton.example3;
+
+/**
+ * Created by Brian on 2016/4/16.
+ */
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;

@@ -1,0 +1,10 @@
+		if (tstrDate.toString().trim().length()<1)	{
+			mstrErrMsg = "Must specify date of entry|";
+		}
+		if (tstrDateTo.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}		
+		if (tstrDocCode.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "Must specify Document number|";
+		}
+		if (tstrComp.toString().trim().length()<1)	{

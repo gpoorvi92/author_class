@@ -1,0 +1,10 @@
+            d = (DungeonGame) ois.readObject();
+            ois.close();
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        System.out.println(d.getX() + d.getY() + d.getZ());
+    }
+}

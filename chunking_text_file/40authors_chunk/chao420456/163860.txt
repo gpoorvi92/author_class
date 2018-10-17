@@ -1,0 +1,10 @@
+		// bw.close();
+		// br.close();
+
+		// ÓÃPrintWriter¸Ä½ø°æ
+		BufferedReader br = new BufferedReader(new FileReader(
+				"MyBufferedReader.java"));
+		PrintWriter pw = new PrintWriter(new FileWriter("Copy.java"), true);
+
+		String line = null;
+		while ((line = br.readLine()) != null) {

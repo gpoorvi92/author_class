@@ -1,0 +1,10 @@
+			title.setText("编辑文本");
+			break;
+		}
+	}
+
+	private String[] buildTitleKeyword() {
+		return new String[] { "老友", "同事", "哥们", "闺蜜", "社团", "寝室", "同学", "组织",
+				"叙旧", "聚会", "Party", "组会", "聊天", "侃大山", "放松", "看球", "组团", "通宵",
+				"刷夜" };
+	}

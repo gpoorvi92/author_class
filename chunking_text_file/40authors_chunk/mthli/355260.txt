@@ -1,0 +1,10 @@
+      {
+         logger.entering("ImageViewerFrame.FileOpenListener", "actionPerformed", event);
+
+         // set up file chooser
+         JFileChooser chooser = new JFileChooser();
+         chooser.setCurrentDirectory(new File("."));
+
+         // accept all files ending with .gif
+         chooser.setFileFilter(new javax.swing.filechooser.FileFilter()
+            {

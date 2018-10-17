@@ -1,0 +1,10 @@
+		}	 
+	} 
+
+	public boolean hasEntry(byte[] ba) 
+	{ 
+
+		//get hashCode for ba
+		int hashCode = getHashCode(ba); 
+
+		if(data[hashCode] == null) 

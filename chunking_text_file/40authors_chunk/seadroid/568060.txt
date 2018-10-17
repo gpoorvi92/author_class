@@ -1,0 +1,10 @@
+        downloadTaskManager = new DownloadTaskManager();
+        uploadTaskManager = new UploadTaskManager();
+    }
+
+    @Override
+    public void onDestroy() {
+        Log.d(DEBUG_TAG, "onDestroy");
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+
+	/** @return the name of this property (MUST be unique per profile) */
+	public String getName() { return name; }
+
+	/** @return the type of this property */
+	public PropType getType() { return type; }
+
+	/** @return the default value for this property */
+	public PropValue getDefaultValue() { return defaultValue; }
+

@@ -1,0 +1,5 @@
+        EWAHCompressedBitmap ewah = new EWAHCompressedBitmap();
+        materialize(i, ewah);
+        return ewah;
+    }
+}

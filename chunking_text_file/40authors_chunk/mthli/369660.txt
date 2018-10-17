@@ -1,0 +1,10 @@
+   {  
+      JButton button = new JButton(label);
+      button.addActionListener(listener);
+      panel.add(button);
+   }
+
+   /**
+      This action inserts the button action string to the
+      end of the display text.
+   */

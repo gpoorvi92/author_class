@@ -1,0 +1,10 @@
+	 * warning.
+	 * 
+	 * @param msg
+	 */
+	void warn(String msg);
+	
+	/**
+	 * warning.
+	 * 
+	 * @param msg

@@ -1,0 +1,10 @@
+      if (!this.versioncode.equals(that.versioncode))
+        return false;
+    }
+
+    boolean this_present_url = true && this.isSetUrl();
+    boolean that_present_url = true && that.isSetUrl();
+    if (this_present_url || that_present_url) {
+      if (!(this_present_url && that_present_url))
+        return false;
+      if (!this.url.equals(that.url))

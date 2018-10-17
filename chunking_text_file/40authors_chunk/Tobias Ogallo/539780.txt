@@ -1,0 +1,10 @@
+	
+	String fontSizeString[] = {"10","12","14","16","18","20","22","24","28"};
+	JComboBox fontSize = new JComboBox(fontSizeString);
+	JLabel sizeLabel = new JLabel("Select Size");
+	
+	String fontStyleString[] = {"Normal","Bold","Italic","Bold Italic"};
+	JComboBox fontStyle = new JComboBox(fontStyleString);
+	JLabel styleLabel = new JLabel("Select Style");
+	
+	JButton okButton = new JButton("OK");

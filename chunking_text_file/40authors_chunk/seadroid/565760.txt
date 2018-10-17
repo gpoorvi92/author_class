@@ -1,0 +1,10 @@
+    private static final String DATABASE_NAME = "account.db";
+
+    private static final String ACCOUNT_TABLE_NAME = "Account";
+
+    // Account
+    private static final String ACCOUNT_COLUMN_SERVER = "server";
+    private static final String ACCOUNT_COLUMN_EMAIL = "email";
+    private static final String ACCOUNT_COLUMN_TOKEN = "token";
+
+    private static final String SQL_CREATE_ACCOUNT_TABLE =

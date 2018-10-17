@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/*
+ * 数据输入输出流：把基本类型的数据写到文件，还可以从文件读取

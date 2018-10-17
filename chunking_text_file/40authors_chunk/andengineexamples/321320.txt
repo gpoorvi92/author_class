@@ -1,0 +1,10 @@
+		super(0, 0);
+		this.mTailPartTextureRegion = pTailPartTextureRegion;
+		this.mHead = new SnakeHead(pCellX, pCellY, pHeadTextureRegion, pVertexBufferObjectManager);
+		this.attachChild(this.mHead);
+		this.setDirection(pInitialDirection);
+	}
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================

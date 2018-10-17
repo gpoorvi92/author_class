@@ -1,0 +1,10 @@
+//the Name of the HTML File with its Extension.
+
+public class LibraryHelp extends JInternalFrame {
+
+	//Constructor of Class.
+
+	public LibraryHelp (String title, String filename) {
+
+		//super(Title, Resizable, Closable, Maximizable, Iconifiable)
+		super (title, true, true, true, true);

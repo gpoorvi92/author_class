@@ -1,0 +1,10 @@
+	 * @return
+	 */
+	public Account getAccountByName(String userName){
+		DBObject entity=queryUserName(userName);
+		if(entity!=null){
+			Account acct=new Account();
+			acct.fromDbObject(entity);
+			return acct;
+		}else
+			return null;

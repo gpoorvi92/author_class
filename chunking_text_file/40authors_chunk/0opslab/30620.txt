@@ -1,0 +1,10 @@
+     */
+    public void close() throws IOException {
+        m_delegate.close();
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see java.lang.Object#equals(java.lang.Object)
+     */

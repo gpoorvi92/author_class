@@ -1,0 +1,10 @@
+			myLocOverlay.setData(myLocData);
+		}
+		if (isFirstLocation) {
+			MapController mapController = mapView.getController();
+			mylocationPoint = new GeoPoint(lat, lon);
+			mapController.animateTo(mylocationPoint);
+			mapController.setZoom(16.0f);
+			mkSearch.reverseGeocode(mylocationPoint);
+			isFirstLocation = !isFirstLocation;
+		}

@@ -1,0 +1,10 @@
+			dateCell.setCellStyle(dateStyle);
+			sheet.createRow(sheet.getLastRowNum() + 1);
+			
+			for(int i = 0;i<records.size();i++){
+				Map<String,Object> map = records.get(i);
+				HSSFRow content = sheet.createRow(sheet.getLastRowNum()+1);
+				String[] contentStrings = {(String)map.get("customer"),(String)map.get("contact")};
+				for (String string : contentStrings) {
+					CellStyle style = book.createCellStyle();
+					style.setAlignment(CellStyle.ALIGN_CENTER);

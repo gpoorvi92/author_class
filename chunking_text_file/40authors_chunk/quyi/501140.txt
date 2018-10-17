@@ -1,0 +1,10 @@
+      oprot.writeFieldEnd();
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class NodeHeatTupleSchemeFactory implements SchemeFactory {
+    public NodeHeatTupleScheme getScheme() {
+      return new NodeHeatTupleScheme();

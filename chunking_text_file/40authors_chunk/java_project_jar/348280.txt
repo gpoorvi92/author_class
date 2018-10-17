@@ -1,0 +1,8 @@
+    private final File file;
+    private String name;
+    private boolean exists;
+    private boolean directory;
+    private long lastModified;
+    private long length;
+
+}

@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch13.pipeline;
+
+/**
+ * 对各个处理阶段的计算环境进行抽象，主要用于异常处理。
+ * 
+ * @author Viscent Huang
+ *

@@ -1,0 +1,10 @@
+  {
+    this();
+    this.why = why;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public UnavailableException(UnavailableException other) {
+    if (other.isSetWhy()) {

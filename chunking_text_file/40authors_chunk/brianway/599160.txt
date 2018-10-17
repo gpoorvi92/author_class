@@ -1,0 +1,10 @@
+添加了1元素
+添加了2元素
+添加了3元素
+添加了4元素
+java.lang.InterruptedException
+	at com.brianway.learning.java.multithread.communication.example1.ThreadB.run(ThreadB.java:22)
+添加了5元素
+达到size了，线程b要退出了
+添加了6元素
+添加了7元素

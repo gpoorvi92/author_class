@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAutoGenerateFileID"),
+        makeProperty("CapAutoGenerateImageTagData"),
+        makeProperty("CapAutoSize"),
+        makeProperty("CapColor"),
+        makeProperty("CapConcurrentMICR"),
+        makeProperty("CapDefineCropArea"),
+        makeProperty("CapImageFormat"),
+        makeProperty("CapImageTagData"),
+        makeProperty("CapMICRDevice"),

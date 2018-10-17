@@ -1,0 +1,6 @@
+
+    /**
+     * Invalidates the provided auth token.
+     */
+    public void invalidateAuthToken(String authToken);
+}

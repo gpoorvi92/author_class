@@ -1,0 +1,10 @@
+import android.provider.MediaStore.Images.ImageColumns;
+import android.util.Log;
+
+import java.io.IOException;
+
+/**
+ * The class for normal images in gallery.
+ */
+public class Image extends BaseImage implements IImage {
+    private static final String TAG = "BaseImage";

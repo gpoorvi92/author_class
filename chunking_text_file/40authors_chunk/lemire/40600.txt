@@ -1,0 +1,10 @@
+        }
+        return (this.word != 0 || this.wordMask != 0 || !hasNextRLW()) && this.position < this.sizeInBits;
+    }
+
+    private boolean hasNextRLW() {
+        return this.ewahIter.hasNext();
+    }
+
+    private RunningLengthWord32 nextRLW() {
+        return this.ewahIter.next();

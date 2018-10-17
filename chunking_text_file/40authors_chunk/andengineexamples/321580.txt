@@ -1,0 +1,10 @@
+	@Override
+	public short getFlag() {
+		return FLAG_MESSAGE_SERVER_CONNECTION_ESTABLISHED;
+	}
+
+	@Override
+	protected void onReadTransmissionData(final DataInputStream pDataInputStream) throws IOException {
+		/* Nothing to read. */
+	}
+

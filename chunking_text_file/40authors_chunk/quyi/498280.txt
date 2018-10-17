@@ -1,0 +1,10 @@
+    return this.filePath != null;
+  }
+
+  public void setFilePathIsSet(boolean value) {
+    if (!value) {
+      this.filePath = null;
+    }
+  }
+
+  public String getOperateContent() {

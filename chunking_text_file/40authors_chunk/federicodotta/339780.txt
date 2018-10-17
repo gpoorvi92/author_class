@@ -1,0 +1,10 @@
+{
+    /**
+     * This method will be called by Burp when the user invokes a context menu
+     * anywhere within Burp. The factory can then provide any custom context
+     * menu items that should be displayed in the context menu, based on the
+     * details of the menu invocation.
+     *
+     * @param invocation An object that implements the
+     * <code>IMessageEditorTabFactory</code> interface, which the extension can
+     * query to obtain details of the context menu invocation.

@@ -1,0 +1,10 @@
+       }
+       e = ((unsignedByte(data[7])&0x007f) << 4) | (((unsignedByte(data[6])&0x00f0)>> 4));
+       e = e - 1023;
+
+       result = (1 + fraction) * powersOfTwo[e+1023];
+
+       if (unsignedByte(data[7]) > 0x79)
+          result = -result;
+
+      // convert the bytes into the result

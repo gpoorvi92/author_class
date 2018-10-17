@@ -1,0 +1,10 @@
+     */
+    public final static String toGBK(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, GBK);
+    }
+
+    /**
+     * 字符串编码转换的实现方法
+     *
+     * @param str        待转换编码的字符串
+     * @param newCharset 目标编码

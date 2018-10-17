@@ -1,0 +1,10 @@
+ * 		void clear():清空集合的所有元素
+ * 		boolean remove(Object obj):从集合中移除一个元素
+ * 		boolean removeAll(Collection c):从集合中移除多个元素
+ * D:判断功能
+ * 		boolean contains(Object obj):判断集合中是否包含指定的元素
+ * 		boolean containsAll(Collection c):判断集合中是否包含指定的多个元素
+ * 		boolean isEmpty():判断集合是否为空
+ * E:交集元素
+ * 		boolean retainAll(Collection c)
+ * F:转数组

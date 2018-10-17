@@ -1,0 +1,10 @@
+	}
+	
+	int getHeight() {
+            int h = Math.abs(y1-y2);
+            if(mouse3or4)
+            	h = Math.abs(y4-y3);
+            	
+         
+            if(h != 0) return h;
+            return 1;

@@ -1,0 +1,10 @@
+                    break;
+                case 270:
+                    orientation = ExifInterface.ORIENTATION_ROTATE_270;
+                    break;
+            }
+
+            replaceExifTag(ExifInterface.TAG_ORIENTATION,
+                    Integer.toString(orientation));
+            saveExifData();
+        } catch (Exception ex) {

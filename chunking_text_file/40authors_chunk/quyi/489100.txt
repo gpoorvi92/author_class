@@ -1,0 +1,10 @@
+    }
+
+    public void putToPlotsStatus(com.nercis.isscp.idl.PlotsType key, com.nercis.isscp.idl.CheckResultStatus val) {
+      if (this.plotsStatus == null) {
+        this.plotsStatus = new HashMap<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>();
+      }
+      this.plotsStatus.put(key, val);
+    }
+
+    public Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> getPlotsStatus() {

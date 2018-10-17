@@ -1,0 +1,10 @@
+     */
+    String getStatedMimeType();
+
+    /**
+     * This method is used to obtain the MIME type of the response, as inferred
+     * from the contents of the HTTP message body.
+     *
+     * @return A textual label for the inferred MIME type, or an empty String if
+     * this is not known or recognized. The possible labels are the same as
+     * those used in the main Burp UI.

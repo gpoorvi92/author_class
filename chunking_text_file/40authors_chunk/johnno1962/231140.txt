@@ -1,0 +1,10 @@
+        __internalFrameDeiconified( e );
+    }
+
+    /// public abstract void javax.swing.event.InternalFrameListener.internalFrameActivated(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameActivated( javax.swing.event.InternalFrameEvent e );
+
+    public void internalFrameActivated( javax.swing.event.InternalFrameEvent e ) {
+        __internalFrameActivated( e );
+    }

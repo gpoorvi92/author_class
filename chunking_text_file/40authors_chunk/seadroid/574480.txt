@@ -1,0 +1,10 @@
+
+    private List<SelectableFile> mData;
+    private String mPath;
+    private List<File> mSelectedFiles;
+
+    public FileLoader(Context context, String path, List<File> selectedFiles) {
+        super(context);
+        this.mPath = path;
+        mSelectedFiles = Lists.newArrayList(selectedFiles);
+    }

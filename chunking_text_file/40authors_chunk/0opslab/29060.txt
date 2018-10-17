@@ -1,0 +1,10 @@
+        }
+        String html = content;
+        html = html.replaceAll("&apos;", "'");
+        html = html.replaceAll("&quot;", "\"");
+        html = html.replaceAll("&nbsp;", " ");// 替换跳格
+        html = html.replaceAll("&lt;", "<");
+        html = html.replaceAll("&gt;", ">");
+        return html;
+    }
+

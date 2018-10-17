@@ -1,0 +1,10 @@
+    {
+        return !isThresholdExceeded();
+    }
+
+    public byte[] getData()
+    {
+        if(memoryOutputStream != null)
+            return memoryOutputStream.toByteArray();
+        else
+            return null;

@@ -1,0 +1,10 @@
+					if (urlNode != null) {
+						
+						String file = urlNode.getTextTrim();//StringHelper.getFileBareName(urlNode.getTextTrim());
+						if (!StringHelper.isEmpty(file)) {
+							if (file.indexOf("pic_title_") < 0 //排除掉pic_title_xzt.png pic_title_tkt.png ... 阿辉
+								&& file.indexOf(".ashx") < 0) {
+								
+								if (!StringHelper.isEmpty(file) && !info.getAllFiles().contains(file)) {
+									info.addFile(file);
+								}

@@ -1,0 +1,10 @@
+    public String getCookie(String url, String key) {
+        String CookieValue = "";
+
+        CookieManager.getInstance().setAcceptCookie(true);
+        CookieManager cookieManager = CookieManager.getInstance();
+
+        String cookies = cookieManager.getCookie(url);
+        if (cookies == null)
+            return null;
+

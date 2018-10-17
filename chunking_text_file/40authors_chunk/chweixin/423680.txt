@@ -1,0 +1,10 @@
+/**
+ * 公众号全局唯一票据数据访问实现。
+ * @author yangyong.
+ * @since 2014-04-03.
+ * */
+public class WeChatAccessTokenDaoImpl  extends BaseDaoImpl<WeChatAccessToken> implements IWeChatAccessTokenDao {
+
+	/**
+	 * 添加查询条件。
+	 * @param info

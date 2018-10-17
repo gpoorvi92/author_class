@@ -1,0 +1,10 @@
+public abstract class Skill implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5878577464788782434L;
+	int id;//技能id，惟一标识一个技能
+	String name;//技能的名字 
+	int proficiencyLevel;//技能熟练度
+	int strengthCost;//每次释放消耗的体力
+	int basicEarning;//收入的单位，用于计算英雄的总收入

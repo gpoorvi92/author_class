@@ -1,0 +1,10 @@
+        saveToXYZ(m, f);
+    }
+
+    public String getDescription()
+    {
+        return "(*.xyz) Table files";
+    }
+
+    /** returns the extension commonly used by the file format
+     */

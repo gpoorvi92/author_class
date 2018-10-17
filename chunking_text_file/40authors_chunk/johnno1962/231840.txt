@@ -1,0 +1,10 @@
+        return arg;
+    }
+
+    public static String StringArrayFieldStatic[];
+    public String StringArrayField[];
+
+    public static String[] StringArrayMethodStatic( String arg[] ) {
+        return arg;
+    }
+

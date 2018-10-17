@@ -1,0 +1,10 @@
+    /// public void java.awt.dnd.DragSourceAdapter.dropActionChanged(java.awt.dnd.DragSourceDragEvent)
+
+    public native void __dropActionChanged( java.awt.dnd.DragSourceDragEvent dsde );
+
+    boolean entered_dropActionChanged_4;
+
+    public void dropActionChanged( java.awt.dnd.DragSourceDragEvent dsde ) {
+        if ( !entered_dropActionChanged_4 ) {
+            entered_dropActionChanged_4 = true;
+            __dropActionChanged( dsde );

@@ -1,0 +1,10 @@
+ */
+public abstract class BaseRpcClient
+{
+    protected static final Logger log             = LoggerFactory.getLogger(ChatServerRpcClient.class);
+    private static final   int    DEFAULT_TIMEOUT = 5000;
+    protected RpcConnectionPool rpcClientPool;
+    public BaseRpcClient(String host, int port)
+    {
+        rpcClientPool = new RpcConnectionPool(host, port, DEFAULT_TIMEOUT);
+    }

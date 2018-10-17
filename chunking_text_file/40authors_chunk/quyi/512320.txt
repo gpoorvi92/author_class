@@ -1,0 +1,10 @@
+
+      public reportNodeManagerConfig_args getEmptyArgsInstance() {
+        return new reportNodeManagerConfig_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public reportNodeManagerConfig_result getResult(I iface, reportNodeManagerConfig_args args) throws org.apache.thrift.TException {

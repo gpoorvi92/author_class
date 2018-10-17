@@ -1,0 +1,10 @@
+        int random = (int) (Math.random() * adviceList.length);
+        return adviceList[random];
+    }
+    
+    public static void main(String[] args)
+    {
+        DailyAdviceServer server = new DailyAdviceServer();
+        server.go();
+    }
+

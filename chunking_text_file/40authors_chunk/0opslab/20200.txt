@@ -1,0 +1,10 @@
+        System.out.println(ClassUtil.getSuperClass("model.Log"));
+    }
+
+    @Test
+    public void testGetSuperClassChian()  {
+        String[] superClassChian = ClassUtil.getSuperClassChian("model.BusinessLog");
+        System.out.println(Arrays.toString(superClassChian));
+        System.out.println(Arrays.toString(ClassUtil.getSuperClassChian("model.Log")));
+    }
+

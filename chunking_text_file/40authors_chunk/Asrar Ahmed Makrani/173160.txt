@@ -1,0 +1,10 @@
+ 					l +"','" +
+ 					h +"','" +
+ 					i +"','" +
+ 					j +"','" +
+ 					k +"','" +
+ 					group_combo.getSelectedItem() +"')";
+		
+ 						JOptionPane.showMessageDialog(null, "insert");	
+ 				int result = statement.executeUpdate(query);
+ 				 				

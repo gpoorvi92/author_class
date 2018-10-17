@@ -1,0 +1,10 @@
+ * 下一个Pipe实例的输入。
+ * @author Viscent Huang
+ *
+ * @param <IN>
+ *          输入类型
+ * @param <OUT>
+ *          输出类型
+ */
+public abstract class AbstractPipe<IN, OUT> implements Pipe<IN, OUT> {
+	protected volatile Pipe<?, ?> nextPipe = null;

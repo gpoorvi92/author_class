@@ -1,0 +1,10 @@
+
+  public List<APICheck> getApiCheck() {
+    return this.apiCheck;
+  }
+
+  public StaticCheckResultData setApiCheck(List<APICheck> apiCheck) {
+    this.apiCheck = apiCheck;
+    return this;
+  }
+

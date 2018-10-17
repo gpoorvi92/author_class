@@ -1,0 +1,10 @@
+// LightsBeanInfo.java - Bean information for the JavaPOS Lights
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

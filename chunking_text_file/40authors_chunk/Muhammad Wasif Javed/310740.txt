@@ -1,0 +1,10 @@
+				//Show a Confirmation Dialog to Delete the Record.
+			    	int reply = JOptionPane.showConfirmDialog (this, 
+				"Are you really want to Delete\nthe " + txtBookName.getText () + " Record?",
+				"LibrarySystem - Delete Book", JOptionPane.YES_NO_OPTION, JOptionPane.PLAIN_MESSAGE);
+
+				//Check the User Selection.
+				if (reply == JOptionPane.YES_OPTION) {		//If User's Choice Yes then.
+
+					try {	//DELETE Query to Delete Record From Table.
+						String q = "DELETE FROM Books WHERE BookId = " + id + "";

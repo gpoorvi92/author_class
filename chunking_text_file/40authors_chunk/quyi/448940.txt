@@ -1,0 +1,10 @@
+
+	}
+
+	// get UserAppInfo by List
+	public UserAppInfo getUserAppInfo(Sheet sheet, int row, String fileName, int sheetNum) {
+		List<String> rowinfoList = getRowInfo(sheet, row);
+		if (rowinfoList.size() < 4) {
+			return null;
+		}
+		UserAppInfo userAppInfo = new UserAppInfo(rowinfoList.get(0), rowinfoList.get(1), rowinfoList.get(2), rowinfoList.get(3));

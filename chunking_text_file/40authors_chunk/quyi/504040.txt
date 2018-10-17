@@ -1,0 +1,10 @@
+  }
+
+  public java.util.Iterator<String> getRulesIterator() {
+    return (this.rules == null) ? null : this.rules.iterator();
+  }
+
+  public void addToRules(String elem) {
+    if (this.rules == null) {
+      this.rules = new ArrayList<String>();
+    }

@@ -1,0 +1,10 @@
+      return new operateEngine_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;
+      this.ue = null;
+    }
+

@@ -1,0 +1,10 @@
+    public Date getHireDay() {
+        return hireDay;
+    }
+
+    /* 
+     * 如果愿意的话，可以使用下面这段代码来书写raiseSalary：
+     *     public void raiseSalary(double byPercent) {
+     *         double raise = this.salary * byPercent / 100;
+     *         this.salary += raise;
+     *    }

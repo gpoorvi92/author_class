@@ -1,0 +1,10 @@
+    public DownloadTaskFragment getDownloadTaskFragment() {
+        return (DownloadTaskFragment)getFragment(0);
+    }
+
+    public UploadTaskFragment getUploadTaskFragment() {
+        return (UploadTaskFragment)getFragment(1);
+    }
+
+    public Fragment getFragment(int index) {
+        return getSupportFragmentManager().findFragmentByTag(makeFragmentName(index));

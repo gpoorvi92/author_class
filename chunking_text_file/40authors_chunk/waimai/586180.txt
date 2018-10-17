@@ -1,0 +1,5 @@
+        } catch (UnsupportedEncodingException e) {
+            return "false";
+        }
+    }
+}

@@ -1,0 +1,6 @@
+			pubDir = String.format("res/%s/%s/%s", libId, cwId, file.getOriginalFilename());
+		
+		result.setSuccess(1);
+		result.setMsg(pubDir);
+	}
+}

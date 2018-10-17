@@ -1,0 +1,10 @@
+			setAddPanelState(false);
+			return false;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+		setIntent(intent);

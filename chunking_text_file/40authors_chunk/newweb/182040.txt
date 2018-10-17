@@ -1,0 +1,10 @@
+import com.newweb.dao.business.BillDao;
+import com.newweb.model.business.Bill;
+import com.newweb.model.business.Order;
+import com.newweb.service.business.BillService;
+import com.newweb.service.business.OrderService;
+import com.newweb.util.CustomerMath;
+import com.newweb.util.DateUtil;
+
+@Component("billService")
+public class BillServiceImp implements BillService {

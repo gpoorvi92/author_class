@@ -1,0 +1,10 @@
+	public LoginContextImpl() {
+		super();
+		accoutDAO = new AccountDAO();
+		loginTokenDAO=new LoginTokenDAO();
+		response=new AuthResponse();
+	}
+
+	/**
+	 * √‹¬Î»œ÷§
+	 * 

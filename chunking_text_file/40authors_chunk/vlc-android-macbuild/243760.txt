@@ -1,0 +1,10 @@
+    }
+
+    public static int i(String tag, String msg) {
+        if (ENABLE_INFO) {
+            return Log.i(tag, msg);
+        }
+
+        return 0;
+    }
+

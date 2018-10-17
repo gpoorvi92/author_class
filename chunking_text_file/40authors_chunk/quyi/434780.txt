@@ -1,0 +1,10 @@
+    schemes.put(TupleScheme.class, new DynamicCheckResultDataTupleSchemeFactory());
+  }
+
+  public String apkMD5; // required
+  public List<String> sensitive; // required
+  public List<RunMonitor> autoRunMonitor; // required
+  public List<FileOperate> fileOperate; // required
+  public List<NetworkPacket> networkPacket; // required
+  public List<SystemResources> systemResources; // required
+  public List<HardwareResources> hardwareResources; // required

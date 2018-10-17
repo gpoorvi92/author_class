@@ -1,0 +1,10 @@
+
+    @Test
+    public void testKey() throws Exception {
+        System.out.println(System.getProperties());
+        System.out.println(PropertiesUtil.key("user.name"));
+        System.out.println(PropertiesUtil.key("file.encoding"));
+    }
+
+    @Test
+    public void testPro() throws Exception {

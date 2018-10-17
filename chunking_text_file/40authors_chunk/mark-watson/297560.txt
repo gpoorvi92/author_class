@@ -1,0 +1,10 @@
+    protected void paintNode(Graphics g, String name, int x, int y) {
+	int len = name.length() * 10 + 6;
+	int x1 = x - (len / 2);
+	int x2 = x + (len / 2);
+	int y1 = y - 10;
+	int y2 = y + 10;
+	g.setColor(Color.cyan);
+	g.fill3DRect(x1, y1, len, 20, true);
+	g.setColor(Color.black);
+	g.drawString(name, x1 + 4, y2 - 6);

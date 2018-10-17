@@ -1,0 +1,10 @@
+            ProgressMonitor monitor = new ProgressMonitor() {
+                @Override
+                public void onProgressNotify(long uploaded) {
+                    publishProgress(uploaded);
+                }
+
+                @Override
+                public boolean isCancelled() {
+                    return UploadTask.this.isCancelled();
+                }

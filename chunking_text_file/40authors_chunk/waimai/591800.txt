@@ -1,0 +1,10 @@
+    @Autowired
+    private ISaleRecordService saleRecordService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(Integer size) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Goods> goods = saleRecordService.getGoodsRecommend(size);
+        map.put("count", goods.size());
+        map.put("goods", goods);
+        return map;

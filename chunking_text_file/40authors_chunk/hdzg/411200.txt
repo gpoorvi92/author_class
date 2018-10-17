@@ -1,0 +1,10 @@
+	public void recoverGame(){
+		tempHero.father.setOnTouchListener(tempHero.father);//返还监听器
+		tempHero.father.setCurrentDrawable(null);//置空记录引用的变量
+		tempHero.father.setStatus(0);//重新设置GameView为待命状态
+		tempHero.father.gvt.setChanging(true);//骰子转起来
+		status = -1;//状态复位
+	}
+	//方法：随机增加将军的武力
+	public void upgradeGeneralPower(){
+		int size = tempHero.generalList.size();

@@ -1,0 +1,10 @@
+public class SplashWindow extends JWindow {
+	static final int WIDTH = 400;
+	static final int HEIGHT = 300;
+	
+	Image gsImage;
+	
+	public SplashWindow()
+	{
+		int s_w = Toolkit.getDefaultToolkit().getScreenSize().width;
+		int s_h = Toolkit.getDefaultToolkit().getScreenSize().height;

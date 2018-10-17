@@ -1,0 +1,10 @@
+      if (s.equals("String[]")) return new String[] { "Yellow", "Blue", "Red" };
+      else if (s.equals("Icon[]")) return new Icon[] { new ImageIcon("yellow-ball.gif"),
+            new ImageIcon("blue-ball.gif"), new ImageIcon("red-ball.gif") };
+      else if (s.equals("Object[]")) return new Object[] { messageString, messageIcon,
+            messageComponent, messageObject };
+      else return null;
+   }
+
+   /**
+    * Gets the selected message or option type

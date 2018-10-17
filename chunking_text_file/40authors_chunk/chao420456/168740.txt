@@ -1,0 +1,10 @@
+		// String s2 = reverse(s);
+		// System.out.println(s2);
+
+		// 测试方式2
+		// String s3 = reverse(s);
+		// System.out.println(s3);
+
+		// 测试方式3
+		String s4 = reverse(s);
+		System.out.println(s4);

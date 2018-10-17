@@ -1,0 +1,10 @@
+     * 比较俩个图片的相似度
+     *
+     * @param image1
+     * @param image2
+     * @return
+     */
+    public static float compareImage(File image1, File image2) {
+        String[][] list1 = getPX(image1);
+        String[][] list2 = getPX(image2);
+        int xiangsi = 0;

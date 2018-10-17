@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * stas
+ * 8/5/15.
+ */
+public class Chat {
+

@@ -1,0 +1,10 @@
+            }
+        }
+
+        return resultText;
+    }
+    
+    public static void closeStream(InputStream inputStream) {
+        if (inputStream == null)
+            return;
+

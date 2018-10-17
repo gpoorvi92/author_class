@@ -1,0 +1,10 @@
+		// tg.stop();
+
+		// System.out.println(tg.isDaemon());
+
+		// t1.start();
+		// t2.start();
+
+		// for (int x = 0; x < 5; x++) {
+		// System.out.println("王健林" + x);
+		// }

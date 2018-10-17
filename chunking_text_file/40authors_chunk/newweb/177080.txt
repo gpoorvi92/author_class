@@ -1,0 +1,10 @@
+	private LhjPriceService lhjPriceService;
+
+	@Override
+	public OrderLhjWeight findOrderLhjWeightByOrderIDAndMaterialBrandID(
+			String orderid, int materialBrandID) {
+		return orderLhjWeightDao.selectOrderLhjWeightByOrderIDAndMaterialBrandID(orderid,materialBrandID);
+	}
+
+	@Override
+	public boolean remove(OrderLhjWeight lhjWeight) {

@@ -1,0 +1,10 @@
+   private static final int DEFAULT_HEIGHT = 200;
+
+   public BuggyButtonFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // add panel to frame
+
+      BuggyButtonPanel panel = new BuggyButtonPanel();
+      add(panel);

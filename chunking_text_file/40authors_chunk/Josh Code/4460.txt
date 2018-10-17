@@ -1,0 +1,10 @@
+    }
+
+
+    /** eliminates unused Triangle references in the triangles array
+     */
+    public void tightenTriangleArray()
+    {
+        if (triangles.length == numTriangles)
+            return;
+

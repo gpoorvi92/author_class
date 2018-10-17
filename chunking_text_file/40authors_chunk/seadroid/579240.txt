@@ -1,0 +1,10 @@
+public class ConcurrentAsyncTask {
+    public static <T> void execute(AsyncTask<T, ?, ?> task, T...args) {
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.HONEYCOMB_MR1) {
+            task.execute(args);
+        } else {
+            task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, args);
+        }
+    }
+
+    public static void execute(Runnable runnable) {

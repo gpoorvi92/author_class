@@ -1,0 +1,10 @@
+      return handler;
+   }
+
+   // the following methods are just do-nothing implementations
+   public void parse(String systemId) throws IOException, SAXException
+   {
+   }
+
+   public void setErrorHandler(ErrorHandler handler)
+   {

@@ -1,0 +1,10 @@
+import com.newweb.model.business.LhjPriceCut;
+import com.newweb.model.business.OrderPrice;
+import com.newweb.service.base.LhjPriceService;
+import com.newweb.service.business.LhjPriceCutService;
+import com.newweb.service.business.OrderPriceService;
+
+@Component("lhjPriceService")
+public class LhjPriceServiceImp implements LhjPriceService {
+	
+	@Autowired

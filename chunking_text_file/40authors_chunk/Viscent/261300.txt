@@ -1,0 +1,10 @@
+	public static final ThreadSpecificSecureRandom INSTANCE = new ThreadSpecificSecureRandom();
+
+	/*
+	SECURE_RANDOM相当于模式角色：ThreadSpecificStorage.TSObjectProxy。
+	SecureRandom相当于模式角色：ThreadSpecificStorage.TSObject。
+	*/
+	private static final ThreadLocal<SecureRandom> SECURE_RANDOM = new ThreadLocal<SecureRandom>() {
+
+		@Override
+		protected SecureRandom initialValue() {

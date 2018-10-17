@@ -1,0 +1,10 @@
+
+        public boolean[] booleanArrayMethod( boolean arg[] ) {
+            return arg;
+        }
+
+        public boolean[][] boolean2dArrayMethod( boolean arg[][] ) {
+            return arg;
+        }
+
+        public byte byteMethod( byte arg ) {

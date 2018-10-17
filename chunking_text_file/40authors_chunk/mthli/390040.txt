@@ -1,0 +1,10 @@
+
+   public CompositeTestFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      canvas = new CompositeComponent();
+      add(canvas, BorderLayout.CENTER);
+
+      ruleCombo = new JComboBox<>(new Rule[] { new Rule("CLEAR", "  ", "  "),
+            new Rule("SRC", " S", " S"), new Rule("DST", "  ", "DD"),

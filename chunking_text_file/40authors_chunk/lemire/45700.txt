@@ -1,0 +1,10 @@
+        return this.rlw;
+    }
+
+    /**
+     * The positions of running length words (embedded in the rlw attribute).
+     */
+    private Stack<Integer> positions;
+
+    /**
+     * The pointer representing the location of the current running length word

@@ -1,0 +1,10 @@
+	public void speak() {
+		System.out.println("乒乓球教练学说英语");
+	}
+
+	public void eat() {
+		System.out.println("乒乓球教练吃白菜豆腐");
+	}
+
+	public void teach() {
+		System.out.println("乒乓球教练教如何发球和接球");

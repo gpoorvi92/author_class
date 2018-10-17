@@ -1,0 +1,10 @@
+
+		context = getApplicationContext();
+		
+		findViewById(R.id.launch_pos_btn).setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ShareDialog.this,LaunchActivity.class);
+				setResult(Constant.ITEM_VALUE_SHARE, intent);
+				finish();

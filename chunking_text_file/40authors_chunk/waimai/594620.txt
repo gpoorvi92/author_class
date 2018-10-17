@@ -1,0 +1,10 @@
+    }
+
+    @RequestMapping(value = "/delete")
+    public ModelAndView delete(String[] ids) {
+        goodsService.delete(ids);
+        return ajaxDoneSuccess("删除成功");
+    }
+
+    @RequestMapping("/up")
+    public ModelAndView up(String[] ids) {

@@ -1,0 +1,10 @@
+   */
+  private static final long serialVersionUID = 3760841259903824181L;
+
+  private static ICodepageDetector instance;
+
+  /**
+   * Singleton constructor
+   */
+  private ASCIIDetector() {
+    super();

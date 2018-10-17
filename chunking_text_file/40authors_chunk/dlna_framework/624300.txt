@@ -1,0 +1,10 @@
+		value -= Calendar.SUNDAY;
+		if (0 <= value && value < 7)
+			return WEEK_STRING[value];
+		return "";
+	}
+
+	public final static String toTimeString(int value)
+	{
+		String str  = "";
+		if (value < 10)

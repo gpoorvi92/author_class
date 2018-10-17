@@ -1,0 +1,10 @@
+        this.rand = new Random();
+    }
+
+    /**
+     * @param seed random seed
+     */
+    public UniformDataGenerator(final int seed) {
+        this.rand = new Random(seed);
+    }
+

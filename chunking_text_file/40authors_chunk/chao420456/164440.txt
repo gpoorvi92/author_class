@@ -1,0 +1,10 @@
+
+	// 设置线程所属的线程组
+	private static void method2() {
+		// public ThreadGroup(String name)
+		ThreadGroup tg = new ThreadGroup("王子二人组");
+		// tg.setDaemon(true);
+
+		ThreadGroupRunnable tgr = new ThreadGroupRunnable();
+		Thread t1 = new Thread(tg, tgr, "王亚聪");
+		Thread t2 = new Thread(tg, tgr, "王思聪");

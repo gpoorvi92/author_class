@@ -1,0 +1,7 @@
+
+    public synchronized void clear() {
+        mLruMap.clear();
+        mWeakMap.clear();
+        mQueue = new ReferenceQueue<V>();
+    }
+}

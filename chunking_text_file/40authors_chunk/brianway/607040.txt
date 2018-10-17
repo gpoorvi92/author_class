@@ -1,0 +1,10 @@
+ */
+public class Run1_UseConditionWaitNotifyError {
+    public static void main(String[] args) {
+        ServiceA service = new ServiceA();
+        ThreadA a = new ThreadA(service);
+        a.start();
+    }
+}
+
+

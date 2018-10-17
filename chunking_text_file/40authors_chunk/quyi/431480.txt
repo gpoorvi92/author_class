@@ -1,0 +1,10 @@
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case APK_MD5:
+      return getApkMD5();
+
+    case CHECK_DATE:

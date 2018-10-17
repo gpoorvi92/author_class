@@ -1,0 +1,10 @@
+        // Properties
+        makeProperty("AutoDisable"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("MaximumX"),
+        makeProperty("MaximumY"),
+        makeProperty("PointArray"),
+        makeProperty("RawData"),
+        makeProperty("RealTimeDataEnabled"),
+        makeProperty("PowerNotify"),

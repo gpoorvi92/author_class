@@ -1,0 +1,10 @@
+/**
+ * Default implementation of the Comparable interface
+ * <b>NOTE:</b> uses the Object's toString() method as the mean of comparison
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ * @version 1.2.0 (JDK 1.1.x)
+ */
+public class DefaultComparableElement extends Object implements Comparable
+{
+    //-------------------------------------------------------------------------
+    // Ctor

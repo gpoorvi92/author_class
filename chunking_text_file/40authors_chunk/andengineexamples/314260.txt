@@ -1,0 +1,10 @@
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		scene.registerUpdateHandler(this.mFaceRotateRunnablePoolUpdateHandler);
+
+		/* Calculate the coordinates for the face, so its centered on the camera. */
+		final float centerX = (CAMERA_WIDTH - this.mFaceTextureRegion.getWidth()) / 2;
+		final float centerY = (CAMERA_HEIGHT - this.mFaceTextureRegion.getHeight()) / 2;
+
+		this.mFaces[0] = new Sprite(centerX - 50, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());

@@ -1,0 +1,10 @@
+		staticStateManager.clear();
+
+		// force file deleter to delete stuff
+		fileDeleter.run();
+
+		// assert directory is deleted
+		Assert.assertFalse(uuidFileParent.exists());
+	}
+
+

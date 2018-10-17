@@ -1,0 +1,10 @@
+            while ((halfHeight / inSampleSize) > reqHeight
+                   && (halfWidth / inSampleSize) > reqWidth) {
+                inSampleSize *= 2;
+            }
+        }
+
+        return inSampleSize;
+    }
+
+    public static Bitmap calculateThumbnail(String filePath, int reqWidth, int reqHeight) {

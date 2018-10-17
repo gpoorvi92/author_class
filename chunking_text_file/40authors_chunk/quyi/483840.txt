@@ -1,0 +1,10 @@
+                oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRUCT, _iter31.size()));
+                for (Map.Entry<String, com.nercis.isscp.idl.APICheck> _iter32 : _iter31.entrySet())
+                {
+                  oprot.writeString(_iter32.getKey());
+                  _iter32.getValue().write(oprot);
+                }
+                oprot.writeMapEnd();
+              }
+            }
+            oprot.writeListEnd();

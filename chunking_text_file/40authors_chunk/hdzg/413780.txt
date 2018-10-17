@@ -1,0 +1,10 @@
+		
+		canvas.drawBitmap(buttonBackGround, 130, 400, paint);
+		canvas.drawText("确定", 142, 421, paint);
+
+		if(currentI != 0){//绘制小的向上箭头
+			canvas.drawBitmap(upBitmap, 150, 55, paint);
+		}
+		if(items.length>yeSpan && (currentI+yeSpan) < items.length){//绘制小的向下箭头
+			canvas.drawBitmap(downBitmap, 150, 444, paint);
+		}

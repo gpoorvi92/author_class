@@ -1,0 +1,10 @@
+      oprot.writeFieldBegin(MEM_SIZE_FIELD_DESC);
+      oprot.writeI32(struct.memSize);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(FS_SIZE_FIELD_DESC);
+      oprot.writeI32(struct.fsSize);
+      oprot.writeFieldEnd();
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+

@@ -1,0 +1,10 @@
+            + PHOTOCACHE_COLUMN_ID + " INTEGER PRIMARY KEY, "
+            + PHOTOCACHE_COLUMN_PATH + " TEXT NOT NULL, "
+            + PHOTOCACHE_COLUMN_REPO_NAME + " TEXT NOT NULL, "
+            + PHOTOCACHE_COLUMN_REPO_ID + " TEXT NOT NULL, "
+            + PHOTOCACHE_COLUMN_ACCOUNT + " TEXT NOT NULL);";
+
+    private static final String[] projection = {
+            PHOTOCACHE_COLUMN_ID,
+            PHOTOCACHE_COLUMN_REPO_NAME,
+            PHOTOCACHE_COLUMN_REPO_ID,

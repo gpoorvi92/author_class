@@ -1,0 +1,10 @@
+	@Override
+	public boolean modify(OrderBxgFdw fdw) {
+		return orderBxgFdwDao.update(fdw);
+	}
+
+
+	@Override
+	public boolean remove(OrderBxgFdw fdw) {
+		return orderBxgFdwDao.delete(fdw);
+	}

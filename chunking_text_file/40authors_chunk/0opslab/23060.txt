@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import com.opslab.util.valid;
+import junit.framework.TestCase;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class validTest extends TestCase {
+

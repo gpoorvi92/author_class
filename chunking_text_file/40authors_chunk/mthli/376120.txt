@@ -1,0 +1,10 @@
+   private JTextArea textArea;
+   private JFileChooser chooser;
+
+   public TextFrame()
+   {
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+      add(new JScrollPane(textArea));
+
+      chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("."));

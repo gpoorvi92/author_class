@@ -1,0 +1,10 @@
+    public int     getBumpBarDataCount() throws JposException;
+    public int     getCurrentUnitID() throws JposException;
+    public void    setCurrentUnitID(int currentUnitID) throws JposException;
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled) throws JposException;
+    public String  getErrorString() throws JposException;
+    public int     getErrorUnits() throws JposException;
+    public String  getEventString() throws JposException;
+    public int     getEventUnitID() throws JposException;

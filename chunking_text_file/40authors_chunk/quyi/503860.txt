@@ -1,0 +1,10 @@
+      this.plots = __this__plots;
+    }
+    if (other.isSetJobPriority()) {
+      this.jobPriority = other.jobPriority;
+    }
+    if (other.isSetTaskInfo()) {
+      Map<String,String> __this__taskInfo = new HashMap<String,String>(other.taskInfo);
+      this.taskInfo = __this__taskInfo;
+    }
+  }

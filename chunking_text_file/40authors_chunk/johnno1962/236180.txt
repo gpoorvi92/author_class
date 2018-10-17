@@ -1,0 +1,10 @@
+    public native void __gestureEnded( com.apple.eawt.event.GesturePhaseEvent arg0 );
+
+    boolean entered_gestureEnded_2;
+
+    public void gestureEnded( com.apple.eawt.event.GesturePhaseEvent arg0 ) {
+        if ( !entered_gestureEnded_2 ) {
+            entered_gestureEnded_2 = true;
+            __gestureEnded( arg0 );
+            entered_gestureEnded_2 = false;
+        }

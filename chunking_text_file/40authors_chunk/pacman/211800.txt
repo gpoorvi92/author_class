@@ -1,0 +1,10 @@
+ * @date: 2014年12月24日 上午1:07:27
+ */
+public class ExecuteResult {
+
+	private Object result;
+	private Exception exception = null;
+	private int commandId;
+		
+	/**
+	 * @return the result

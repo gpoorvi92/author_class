@@ -1,0 +1,10 @@
+      addSlider(slider, "Inverted");
+
+      // add a slider with numeric labels
+
+      slider = new JSlider();
+      slider.setPaintTicks(true);
+      slider.setPaintLabels(true);
+      slider.setMajorTickSpacing(20);
+      slider.setMinorTickSpacing(5);
+      addSlider(slider, "Labels");

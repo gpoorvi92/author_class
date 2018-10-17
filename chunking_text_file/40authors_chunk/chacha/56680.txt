@@ -1,0 +1,10 @@
+	
+	/**
+	 * ∏˘æ›¡Ó≈∆…æ≥˝¡Ó≈∆
+	 * @param token
+	 */
+	public void deleteToken(String token){
+		DBObject entity=this.queryTokenByToken(token);
+		if(entity!=null){
+			DBCollection coll=connection.getCollection(COLLECTION_NAME);
+			coll.remove(entity,WriteConcern.NONE);

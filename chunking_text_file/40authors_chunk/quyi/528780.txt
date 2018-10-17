@@ -1,0 +1,10 @@
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    APP_ID((short)1, "app_id"),
+    APP_NAME((short)2, "app_name"),
+    VERSIONCODE((short)3, "versioncode"),
+    URL((short)4, "url"),
+    APP_SIZE((short)5, "app_size"),
+    MINSDKVERSION((short)6, "minsdkversion"),
+    APK_MD5((short)7, "apk_md5"),

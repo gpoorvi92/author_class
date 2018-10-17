@@ -1,0 +1,10 @@
+    @RequestMapping("getall")
+    @ResponseBody
+    public String getall(HttpSession session) throws IOException
+    {
+        ZoneEntity zoneEntity = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, session).getTargetZone();
+        if (null == zoneEntity)
+        {
+            return JsonHelper.toJson(new ArrayList<>());
+        }
+        else

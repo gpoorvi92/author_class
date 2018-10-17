@@ -1,0 +1,10 @@
+        res.append('.');
+        HashMap<Long, Integer> map = new HashMap<Long, Integer>();
+        for (int i = res.length(); Numerator != 0; ++i) {
+            if (map.get(Numerator) != null) break;
+            map.put(Numerator, i);
+            Numerator *= 10;
+            res.append(String.valueOf((Numerator / Denominator)));
+            Numerator %= Denominator;
+        }
+        

@@ -1,0 +1,10 @@
+        sb.append(revision);
+        sb.append('.');
+        sb.append(featureList);
+        sb.append('.');
+        sb.append(mProcess == null ? "" : mProcess);
+
+        return sb.toString();
+    }
+
+    public boolean isCortexA5() {

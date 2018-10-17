@@ -1,0 +1,10 @@
+                          int[][] candidateRanking,
+                          int timeout)
+                     throws JposException;
+  public void    identifyMatch(int maxFARRequested,
+                               int maxFRRRequested,
+                               boolean FARPrecedence,
+                               byte[] sampleBIR,
+                               byte[][] referenceBIRPopulation,
+                               int[][] candidateRanking)
+                     throws JposException;

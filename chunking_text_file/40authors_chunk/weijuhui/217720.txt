@@ -1,0 +1,10 @@
+			public void onClick(View v) {
+				ActivityType.this.finish();
+			}
+		});
+
+		findViewById(R.id.title_pos).setVisibility(View.INVISIBLE);
+		GridView gridView = (GridView) findViewById(R.id.act_type);
+		gridView.setSelector(new ColorDrawable(Color.TRANSPARENT));
+		gridView.setAdapter(new ActTypeAdapter(this, buildType()));
+		gridView.setOnItemClickListener(new OnItemClickListener() {

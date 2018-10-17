@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_centerResultPath = true && this.isSetCenterResultPath();
+    boolean that_present_centerResultPath = true && that.isSetCenterResultPath();
+    if (this_present_centerResultPath || that_present_centerResultPath) {
+      if (!(this_present_centerResultPath && that_present_centerResultPath))
+        return false;
+      if (!this.centerResultPath.equals(that.centerResultPath))
+        return false;

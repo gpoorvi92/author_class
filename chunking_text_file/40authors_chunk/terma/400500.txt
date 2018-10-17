@@ -1,0 +1,10 @@
+     * @throws UnsupportedOperationException - if you try to start already started connector
+     */
+    public void start() {
+        if (workers != null) throw new UnsupportedOperationException("Please shutdown connector!");
+
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info("Starting " + name + " with " + config.getWorkerCount() + " workers");
+
+        handlers = new ConcurrentLinkedQueue<TcpServerHandler>();
+        handlers.add(new TcpServerAcceptor(config, handlers));

@@ -1,0 +1,10 @@
+    @Test
+    public void testMetod() throws  InvocationTargetException, IllegalAccessException {
+        System.out.println("============所有方法================");
+        String[] methods = ClassUtil.getMethod("com.opslab.util.StringUtil", false);
+        for (String m : methods) {
+            System.out.println(m);
+        }
+        System.out.println("=========自定义的方法和继承来的方法===========");
+        methods = ClassUtil.getMethod("com.opslab.util.StringUtil", true);
+        for (String m : methods) {

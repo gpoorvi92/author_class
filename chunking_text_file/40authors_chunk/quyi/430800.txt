@@ -1,0 +1,10 @@
+  public StaticCheckResultData() {
+  }
+
+  public StaticCheckResultData(
+    String apkMD5,
+    String checkDate,
+    List<String> sensitives,
+    List<String> featuresCharacters,
+    List<APICheck> apiCheck,
+    String reportPath,

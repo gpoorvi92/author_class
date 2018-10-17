@@ -1,0 +1,10 @@
+
+    private static class searchAllEng_resultStandardScheme extends StandardScheme<searchAllEng_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, searchAllEng_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 

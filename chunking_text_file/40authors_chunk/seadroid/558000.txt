@@ -1,0 +1,10 @@
+        if (index < customActions.size()) {
+            CustomAction action = customActions.get(index);
+            if (mListener != null) {
+                mListener.onCustomActionSelected(action);
+            }
+        } else {
+            ResolveInfo info = mAppInfos.get(index - customActions.size());
+            if (mListener != null) {
+                mListener.onAppSelected(info);
+            }

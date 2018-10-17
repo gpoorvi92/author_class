@@ -1,0 +1,10 @@
+    }
+
+    private static class searchApp_argsStandardSchemeFactory implements SchemeFactory {
+      public searchApp_argsStandardScheme getScheme() {
+        return new searchApp_argsStandardScheme();
+      }
+    }
+
+    private static class searchApp_argsStandardScheme extends StandardScheme<searchApp_args> {
+

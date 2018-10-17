@@ -1,0 +1,10 @@
+		this.userId = userId;
+	}
+	/**
+	 * 获取登录帐号。
+	 * @return 登录帐号。
+	 * */
+	public String getUserSign() {
+		return userSign;
+	}
+	/**

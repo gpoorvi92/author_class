@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public modifyTaskManagerConfig_args(modifyTaskManagerConfig_args other) {
+      if (other.isSetPropertyName()) {
+        this.propertyName = other.propertyName;
+      }
+      if (other.isSetPropertyValue()) {

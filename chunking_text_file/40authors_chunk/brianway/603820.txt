@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example14;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P180
+ * join示例,阻塞当前线程z，使join所属的线程对象x正常执行run()方法,执行完在继续当前线程z后面的代码
+ */

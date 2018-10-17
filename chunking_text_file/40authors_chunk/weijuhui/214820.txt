@@ -1,0 +1,10 @@
+
+                    @Override
+                    public void afterTextChanged(Editable s) {
+                        EditActivity_.this.detailsChange(s);
+                    }
+
+                    @Override
+                    public void onTextChanged(CharSequence s, int start, int before, int count) {
+                    }
+

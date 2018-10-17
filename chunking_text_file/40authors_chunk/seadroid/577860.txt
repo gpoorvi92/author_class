@@ -1,0 +1,10 @@
+    public void add(SeafItem entry) {
+        items.add(entry);
+    }
+
+    public void notifyChanged() {
+        notifyDataSetChanged();
+    }
+
+    @Override
+    public SeafItem getItem(int position) {

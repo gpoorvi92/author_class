@@ -1,0 +1,10 @@
+        super( 0, description );
+    }
+
+	/**
+	 * Creates a JposLoaderException with the description passed and 
+	 * the original exception that caused this one
+	 * @param description the description String
+	 * @param origException the exception that originally caused this one
+	 */
+    public JposLoaderException( String description, Exception origException )

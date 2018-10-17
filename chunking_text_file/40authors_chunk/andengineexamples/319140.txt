@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga Inc.
+ * 
+ * @author Nicolas Gramlich
+ * @since 18:47:08 - 19.03.2010
+ */
+public class PhysicsRevoluteJointExample extends BasePhysicsJointExample {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

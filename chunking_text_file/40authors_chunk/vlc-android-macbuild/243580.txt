@@ -1,0 +1,10 @@
+    public static String TAG = DefMediaSegmentPlayer.class.getName();
+    private int mOrder = -1;
+    private Segment mSegment;
+    private int mStartTime;
+
+    final public int getOrder() {
+        return mOrder;
+    }
+
+    final public int getStartTime() {

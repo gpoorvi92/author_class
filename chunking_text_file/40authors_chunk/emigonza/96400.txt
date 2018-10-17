@@ -1,0 +1,10 @@
+    }
+
+    //--------------------------------------------------------------------------
+    // Private instance variables
+    //
+
+    private boolean tracerOn = false;
+
+    private TracerOutput onTracerOutput = new DefaultTracerOutput();
+    private TracerOutput offTracerOutput =  

@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapBold"),
+        makeProperty("CapCardEntranceSensor"),
+        makeProperty("CapCharacterSet"),
+        makeProperty("CapCleanCard"),
+        makeProperty("CapClearPrint"),
+        makeProperty("CapDhigh"),
+        makeProperty("CapDwide"),
+        makeProperty("CapDwideDhigh"),
+        makeProperty("CapItalic"),

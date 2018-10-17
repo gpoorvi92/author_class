@@ -1,0 +1,10 @@
+	
+	private InetAddress[] httpBinds = null;
+	
+	public void setHTTPBindAddress(InetAddress[] inets){
+		this.httpBinds=inets;
+	}
+	
+	public InetAddress[] getHTTPBindAddress(){
+		return this.httpBinds;
+	}

@@ -1,0 +1,10 @@
+      pack();
+   }
+
+   /**
+    * Adds a radio button to a container.
+    * @param p the container into which to place the button
+    * @param b the button
+    * @param g the button group
+    * @param listener the button listener
+    */

@@ -1,0 +1,10 @@
+        });
+    }
+
+    @Override
+    public void didFinishedLoadingData(DataProvider provider, Object objects, LoadingType type) {
+        DailyWeather dailyWeather = ((List<DailyWeather>) objects).get(0);
+        mCity.setText(dailyWeather.getCity());
+        mTime.setText(dailyWeather.getPtime());
+        mTemperature.setText(dailyWeather.getTemp1() + "~" + dailyWeather.getTemp2());
+        mWeather.setText(dailyWeather.getWeather());

@@ -1,0 +1,10 @@
+    }
+
+    public InlineQueryResultArticle hideUrl(Boolean hideUrl) {
+        this.hide_url = hideUrl;
+        return this;
+    }
+
+    public InlineQueryResultArticle description(String description) {
+        this.description = description;
+        return this;

@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface SignatureCaptureService14 extends SignatureCaptureService13
+{
+  // Nothing new added for release 1.4

@@ -1,0 +1,10 @@
+	public void run() {
+		String ftpServer = taskParameters.get("server");
+		String ftpUserName = taskParameters.get("userName");
+		String password = taskParameters.get("password");
+		
+		//先开始初始化FTP客户端实例
+		Future<FTPClientUtil> ftpClientUtilPromise = FTPClientUtil.newInstance(
+		    ftpServer, ftpUserName, password);
+
+		//查询数据库生成本地文件

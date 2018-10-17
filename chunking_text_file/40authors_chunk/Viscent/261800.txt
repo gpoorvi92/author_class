@@ -1,0 +1,10 @@
+
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.Callable;
+
+/**
+ * 负责连接告警服务器，并发送告警信息至告警服务器
+ *
+ */
+public class AlarmAgent {

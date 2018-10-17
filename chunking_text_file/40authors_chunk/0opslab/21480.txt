@@ -1,0 +1,10 @@
+    private static      Pattern abcPattern              = Pattern.compile("^[a-z|A-Z]+$");
+
+    /**
+     * 判断是否数字表示
+     *
+     * @param src 源字符串
+     * @return 是否数字的标志
+     */
+    public final static boolean isNumeric(String src) {
+        boolean return_value = false;

@@ -1,0 +1,10 @@
+        for (ImageEntity entity :images){
+            try {
+                ExifInterface exifInterface = new ExifInterface(entity.getPath());
+                if (curHeaderId == 0){
+                    LocationTimeGroup  timeGroup = new LocationTimeGroup(exifInterface);
+                    hasEntity = false;
+                    curTimeGroup = timeGroup;
+                    entity.headerId = entity.getDateTake();
+                    curHeaderId = entity.getDateTake();
+                }

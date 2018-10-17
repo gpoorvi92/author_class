@@ -1,0 +1,10 @@
+      ts.loadRDF("rdf_files/news.nt");
+      System.out.println("\n\nSample querying for subjects (news article URLs) and objects (names of matching countires) with predicate equal to containsCountry:\n");
+      String sparql_query = "SELECT ?subject ?object WHERE { ?subject <http:://knowledgebooks.com/ontology/#containsCountry> ?object . }";
+      //String sparql_query = "PREFIX kb:  <http://knowlegebooks.com/ontology#> SELECT ?subject ?object WHERE { ?subject kb:containsCountry ?object . }";
+      //String sparql_query = "SELECT ?subject ?object ?predicate { ?subject ?object ?predicate . }";
+      ts.doSparqlQuery(sparql_query, this);
+      
+      System.out.println("\n\nSample using inferencing: query on containsPlace using definition in rdfs.nt:\n");
+      sparql_query = "SELECT ?subject ?object WHERE { ?subject <http:://knowledgebooks.com/ontology/#containsPlace> ?object . }";
+      ts.doSparqlQuery(sparql_query, this);

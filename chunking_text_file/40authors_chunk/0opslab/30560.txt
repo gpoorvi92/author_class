@@ -1,0 +1,10 @@
+/**
+ * Prints m_out every character read. Use as a proxy. Only needed for debugging the ANTLR Parser (ParsingDetector).
+ * Therefore the chronological order is preserved: sun's StreamDecoder.CharsetDS (nio) replaces InputStream.read() by
+ * buffer operations that fetch complete arrays. This is avoided by allowing to fetch only one char per method call.
+ * 
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ * 
+ */
+public class InputStreamDebug extends InputStream {
+    private InputStream m_delegate;

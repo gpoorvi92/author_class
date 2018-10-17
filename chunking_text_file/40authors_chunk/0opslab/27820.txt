@@ -1,0 +1,10 @@
+    @Test
+    public void testBase64() {
+        assertEquals(base64, Base64.encodeToString(text));
+        assertEquals("VA==", Base64.encodeToString("T"));
+        assertEquals("T", Base64.decodeToString("VA=="));
+        assertEquals("T", Base64.decodeToString("VA="));
+        assertEquals("T", Base64.decodeToString("VA"));
+    }
+
+    @Test

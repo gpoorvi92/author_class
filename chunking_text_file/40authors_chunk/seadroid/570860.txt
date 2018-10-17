@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return repos.isEmpty();
+    }
+
+    public void add(SeafRepo repo) {
+        repos.add(repo);
+    }

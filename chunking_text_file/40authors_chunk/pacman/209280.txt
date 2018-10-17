@@ -1,0 +1,10 @@
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 下午3:19:59
+ */
+public class MessageManagerTest {
+
+	BeanFactory factory;
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception

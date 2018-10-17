@@ -1,0 +1,10 @@
+
+public abstract class AbsMediaPlayer {
+
+    public static final String TAG = AbsMediaPlayer.class.getName();
+
+    public static final int MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK = MediaPlayer.MEDIA_ERROR_NOT_VALID_FOR_PROGRESSIVE_PLAYBACK;
+    public static final int MEDIA_ERROR_SERVER_DIED = MediaPlayer.MEDIA_ERROR_SERVER_DIED;
+    public static final int MEDIA_ERROR_UNKNOWN = MediaPlayer.MEDIA_ERROR_UNKNOWN;
+
+    protected AbsMediaPlayer.OnBufferingUpdateListener mOnBufferingUpdateListener = null;

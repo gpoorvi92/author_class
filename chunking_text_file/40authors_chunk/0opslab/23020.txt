@@ -1,0 +1,10 @@
+
+
+    @Test
+    public void testArr(){
+        byte[] bytes = new byte[]{1,2,3};
+        System.out.println(bytes);
+        char[] chars = new char[]{'a','b','中','文'};
+        System.out.println(chars);
+        int[] ints = new int[]{1,2,34,};
+        System.out.println(ints);

@@ -1,0 +1,10 @@
+ */
+public enum Activity implements org.apache.thrift.TEnum {
+  PrivacySteal(0),
+  RemoteControl(1),
+  RatesLoss(2),
+  MaliceSpread(3),
+  SystemDamage(4),
+  TouchEvent(5);
+
+  private final int value;

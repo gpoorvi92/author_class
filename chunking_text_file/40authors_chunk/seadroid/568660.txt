@@ -1,0 +1,10 @@
+
+        while (running) {
+            scheduleUpdateTasks();
+            if (!running) {
+                break;
+            }
+            try {
+                Thread.sleep(CHECK_INTERVAL_MILLI);
+            } catch (final InterruptedException ignored) {
+                break;

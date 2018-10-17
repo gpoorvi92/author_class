@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.notify_callback_url != null) {
+        oprot.writeFieldBegin(NOTIFY_CALLBACK_URL_FIELD_DESC);
+        oprot.writeString(struct.notify_callback_url);
+        oprot.writeFieldEnd();
+      }
+      if (struct.app_description != null) {
+        oprot.writeFieldBegin(APP_DESCRIPTION_FIELD_DESC);
+        oprot.writeString(struct.app_description);

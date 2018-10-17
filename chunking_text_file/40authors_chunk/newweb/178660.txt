@@ -1,0 +1,10 @@
+public class SupplierServiceImp implements SupplierService {
+	
+	@Autowired
+	private SupplierDao supplierDao;
+	@Autowired
+	private BxgService bxgService;
+	@Autowired
+	private SmallService smallService;
+	@Autowired
+	private MaterialBrandService materialBrandService;

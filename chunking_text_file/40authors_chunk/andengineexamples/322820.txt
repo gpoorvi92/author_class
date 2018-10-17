@@ -1,0 +1,10 @@
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(CAMERA_WIDTH, CAMERA_HEIGHT), camera);
+	}
+
+	@Override
+	public void onCreateResources() {
+		this.mBitmapFont = new BitmapFont(this.getTextureManager(), this.getAssets(), "font/BitmapFont.fnt");
+		this.mBitmapFont.load();
+	}
+

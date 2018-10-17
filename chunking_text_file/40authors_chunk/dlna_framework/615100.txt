@@ -1,0 +1,10 @@
+*	01/29/03
+*		- first revision.
+*	09/02/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Error : redundant code, the setRequest method in QueryRequest invokes setURI even if after a couple of rows setRequestHost is invoked
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.control;
+

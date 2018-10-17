@@ -1,0 +1,10 @@
+		Matrix matrix = new Matrix();
+		matrix.setScale(scale, scale);
+		Bitmap thumbnail = transform(matrix, source, targetWidth, targetHeight,Option.SCALE_UP | options);
+		return thumbnail;
+	}
+
+	private static Bitmap transform(Matrix scaler, Bitmap source,
+			int targetWidth, int targetHeight, int options) {
+		boolean scaleUp = (options & Option.SCALE_UP) != 0;
+		boolean recycle = (options & Option.RECYCLE_INPUT) != 0;

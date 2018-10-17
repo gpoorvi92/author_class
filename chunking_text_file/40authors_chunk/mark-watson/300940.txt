@@ -1,0 +1,10 @@
+		plu.assertProposition(
+				"(and (company c2)" +
+				"     (company-name c2 \"IBM\"))");
+		plu.assertProposition(
+				"(and (company c3)" +
+				"     (company-name c3 \"Apple\"))");
+		List answers = plu.doQuery("all ?x (company ?x)");
+		System.out.println(answers);
+		answers = plu.doQuery(
+				"all (?x ?name)" +

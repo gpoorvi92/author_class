@@ -1,0 +1,10 @@
+    // Capabilities
+    public int     getCapPowerReporting() throws JposException;
+    public boolean getCapSelectCharacterSet() throws JposException;
+    public boolean getCapTone() throws JposException;
+    public boolean getCapTouch() throws JposException;
+    public boolean getCapTransaction() throws JposException;
+
+    // Properties
+    public boolean getAsyncMode() throws JposException;
+    public void    setAsyncMode(boolean asyncMode) throws JposException;

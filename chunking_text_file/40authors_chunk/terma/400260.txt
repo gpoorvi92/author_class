@@ -1,0 +1,10 @@
+            serverChannel.configureBlocking(false);
+
+            register();
+        } catch (final IOException exception) {
+            destroy();
+
+            if (LOGGER.isLoggable(Level.WARNING))
+                LOGGER.log(Level.WARNING, "Could not connect to "
+                        + config.getRemoteHost() + ":" + config.getRemotePort(), exception);
+        }

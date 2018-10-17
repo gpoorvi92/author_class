@@ -1,0 +1,10 @@
+     * 
+     */
+    public Charset detectCodepage(final URL url) throws IOException {
+        return delegate.detectCodepage(url);
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see java.lang.Object#equals(java.lang.Object)

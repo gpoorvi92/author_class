@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(APP_ID_FIELD_DESC);
+        oprot.writeString(struct.app_id);
+        oprot.writeFieldEnd();
+      }
+      if (struct.app_name != null) {
+        oprot.writeFieldBegin(APP_NAME_FIELD_DESC);
+        oprot.writeString(struct.app_name);
+        oprot.writeFieldEnd();
+      }
+      if (struct.versioncode != null) {

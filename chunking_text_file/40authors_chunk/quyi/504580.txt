@@ -1,0 +1,10 @@
+      if (!this.userApps.equals(that.userApps))
+        return false;
+    }
+
+    boolean this_present_rules = true && this.isSetRules();
+    boolean that_present_rules = true && that.isSetRules();
+    if (this_present_rules || that_present_rules) {
+      if (!(this_present_rules && that_present_rules))
+        return false;
+      if (!this.rules.equals(that.rules))

@@ -1,0 +1,10 @@
+      outline = layout.getOutline(transform);
+      clipShape.append(outline, false);
+
+      g2.draw(clipShape);
+      g2.clip(clipShape);
+
+      final int NLINES = 50;
+      Point2D p = new Point2D.Double(0, 0);
+      for (int i = 0; i < NLINES; i++)
+      {

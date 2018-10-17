@@ -1,0 +1,10 @@
+      processMap.put("reportTaskManagerConfig", new reportTaskManagerConfig());
+      processMap.put("reportNodeManagerConfig", new reportNodeManagerConfig());
+      processMap.put("modifyEngineConfig", new modifyEngineConfig());
+      processMap.put("modifyTaskManagerConfig", new modifyTaskManagerConfig());
+      processMap.put("modifyNodeManagerConfig", new modifyNodeManagerConfig());
+      return processMap;
+    }
+
+    public static class reportEngineConfig<I extends Iface> extends org.apache.thrift.ProcessFunction<I, reportEngineConfig_args> {
+      public reportEngineConfig() {

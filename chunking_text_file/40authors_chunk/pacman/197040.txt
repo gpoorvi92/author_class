@@ -1,0 +1,10 @@
+			return true;
+		} catch (IOException e) {
+
+			return false;
+		}
+	}
+	
+	/**
+	 * Copies the specified file to target file.
+	 * 

@@ -1,0 +1,10 @@
+import java.nio.channels.Selector;
+import java.util.Queue;
+import java.util.Set;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+class TcpServerWorker extends Thread {
+
+    private final static long SELECTOR_TIMEOUT = 100L;
+    private final static Logger LOGGER = Logger.getAnonymousLogger();

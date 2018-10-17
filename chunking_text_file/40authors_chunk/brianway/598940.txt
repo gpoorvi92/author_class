@@ -1,0 +1,10 @@
+                }
+            };
+            thread1.setName("a");
+            thread1.start();
+            Thread.sleep(1000);
+
+            Thread thread2 = new Thread() {
+                @Override
+                public void run() {
+                    System.out.println("thread2启动了，但进不了printString()方法！只打印一个begin");

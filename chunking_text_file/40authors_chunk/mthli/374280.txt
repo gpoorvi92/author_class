@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class EntryLoggingAgent
+{
+   public static void premain(final String arg, Instrumentation instr)
+   {
+      instr.addTransformer(new ClassFileTransformer()
+         {
+            public byte[] transform(ClassLoader loader, String className, Class<?> cl,
+                  ProtectionDomain pd, byte[] data)

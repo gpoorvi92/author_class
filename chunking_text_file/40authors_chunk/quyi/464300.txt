@@ -1,0 +1,10 @@
+    }
+
+    public void validate() throws org.apache.thrift.TException {
+      // check for required fields
+      if (rules == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'rules' was not present! Struct: " + toString());
+      }
+      // check for sub-struct validity
+    }
+

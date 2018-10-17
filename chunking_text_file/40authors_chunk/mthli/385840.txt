@@ -1,0 +1,10 @@
+               DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) tree
+                     .getLastSelectedPathComponent();
+
+               if (selectedNode == null) return;
+
+               DefaultMutableTreeNode newNode = new DefaultMutableTreeNode("New");
+               model.insertNodeInto(newNode, selectedNode, selectedNode.getChildCount());
+
+               // now display new node
+

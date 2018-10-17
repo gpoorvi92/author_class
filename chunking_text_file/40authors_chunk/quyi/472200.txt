@@ -1,0 +1,10 @@
+      public submitMission_args getEmptyArgsInstance() {
+        return new submitMission_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public submitMission_result getResult(I iface, submitMission_args args) throws org.apache.thrift.TException {
+        submitMission_result result = new submitMission_result();

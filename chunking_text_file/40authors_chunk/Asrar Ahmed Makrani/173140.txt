@@ -1,0 +1,10 @@
+ 			
+ 				String query = "INSERT INTO patronmaster (id, name, ic, status, salute, expiry_date, registered_by, Reg_date, Address, Tel, fax, email, group_type" + 
+ 						") VALUES ('" +
+ 					a +"','" +
+ 					b +"','" +
+ 					c +"','" +
+ 					status_combo.getSelectedItem() +"','" +
+ 					salute_combo.getSelectedItem() +"','" +
+ 					d +"','" +
+ 					usersName.getText() +"','" +

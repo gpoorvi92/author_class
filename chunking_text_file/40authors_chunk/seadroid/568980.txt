@@ -1,0 +1,10 @@
+                    public void onClick(DialogInterface dialog, int which) {
+                        switch (which) {
+                        case 0:
+                            Intent intent = new Intent(ctx, MultiFileChooserActivity.class);
+                            getActivity().startActivityForResult(intent, BrowserActivity.PICK_FILES_REQUEST);
+                            break;
+                        case 1:
+                            // photos
+                            intent = new Intent(ctx, MultipleImageSelectionActivity.class);
+                            getActivity().startActivityForResult(intent, BrowserActivity.PICK_PHOTOS_VIDEOS_REQUEST);

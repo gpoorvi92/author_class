@@ -1,0 +1,10 @@
+   private void makeJoinButton(String label, final int style, ButtonGroup group)
+   {
+      // select first button in group
+      boolean selected = group.getButtonCount() == 0;
+      JRadioButton button = new JRadioButton(label, selected);
+      buttonPanel.add(button);
+      group.add(button);
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

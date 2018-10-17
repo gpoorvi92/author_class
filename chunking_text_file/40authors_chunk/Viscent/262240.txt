@@ -1,0 +1,5 @@
+	 * @param pipe
+	 *          Pipe实例
+	 */
+	void addPipe(Pipe<?, ?> pipe);
+}

@@ -1,0 +1,10 @@
+	public void process(IN input) throws InterruptedException {
+
+		try {
+
+			OUT out = doProcess(input);
+			if (null != nextPipe) {
+				if (null != out) {
+					((Pipe<OUT, ?>) nextPipe).process(out);
+				}
+			}

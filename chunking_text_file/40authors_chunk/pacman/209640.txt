@@ -1,0 +1,10 @@
+		return memUsed;
+	}
+	/**
+	 * @param memUsed the memUsed to set
+	 */
+	public void setMemUsed(long memUsed) {
+		this.memUsed = memUsed;
+	}
+	/**
+	 * @return the memFree

@@ -1,0 +1,10 @@
+        makeProperty("RealTimeDataEnabled"),
+        makeProperty("ServiceCount"),
+        makeProperty("ServiceIndex")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();

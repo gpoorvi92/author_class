@@ -1,0 +1,10 @@
+        CodeGeneratorResponse.Builder responseBuilder = CodeGeneratorResponse.newBuilder();
+        try
+        {
+            //CodeGeneratorResponse.File.Builder fb = CodeGeneratorResponse.File.newBuilder();
+            responseBuilder = new CodeGenerator.DefaultCodeGenerator().generate(request);
+        } catch (Exception e)
+        {
+            StringWriter sw = new StringWriter();
+            PrintWriter pw = new PrintWriter(sw);
+            e.printStackTrace(pw);

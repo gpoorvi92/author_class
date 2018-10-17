@@ -1,0 +1,10 @@
+ */
+public class ThreadPoolPipeDecorator<IN, OUT> implements Pipe<IN, OUT> {
+	private final Pipe<IN, OUT> delegate;
+	private final ExecutorService executorSerivce;
+	
+	//线程池停止标志。
+	private final TerminationToken terminationToken;
+	private final CountDownLatch stageProcessDoneLatch = new CountDownLatch(1);
+
+	public ThreadPoolPipeDecorator(Pipe<IN, OUT> delegate,

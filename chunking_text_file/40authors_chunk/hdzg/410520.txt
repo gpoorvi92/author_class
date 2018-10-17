@@ -1,0 +1,10 @@
+		logo = BitmapFactory.decodeResource(r, R.drawable.logo);
+		selectBackground = BitmapFactory.decodeResource(r, R.drawable.select_back);
+		menuTitle = BitmapFactory.decodeResource(r, R.drawable.menu_title);
+	}
+	
+	public void initData(){//初始化数据
+		//初始化技能
+		skills = gameView.hero.getHeroSkill();
+		items.clear();
+		Set<Integer> keySet = skills.keySet();

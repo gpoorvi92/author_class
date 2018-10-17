@@ -1,0 +1,10 @@
+		int month = sc.nextInt();
+		
+		/*
+		if(month<1 || month>12) {
+			System.out.println("月份输入有误");
+		}else if(month == 1) {
+			System.out.println("冬季");
+		}else if(month == 2) {
+			System.out.println("冬季");
+		}else if(month == 3) {

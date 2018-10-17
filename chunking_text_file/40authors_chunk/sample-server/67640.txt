@@ -1,0 +1,10 @@
+    
+    public abstract ChatServerRpc.GetRegisterInfoResp GetRegisterInfoReq(ChatServerRpc.GetRegisterInfoReq req);
+    
+    
+    
+    public abstract ChatServerRpc.GetActiveUserResp GetActiveUserReq(ChatServerRpc.GetActiveUserReq req);
+    
+    
+    
+    public abstract ChatServerRpc.UpdateSysNoticeResp UpdateSysNoticeReq(ChatServerRpc.UpdateSysNoticeReq req);

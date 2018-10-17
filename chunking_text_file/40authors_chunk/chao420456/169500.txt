@@ -1,0 +1,10 @@
+					br = new BufferedReader(new FileReader("bw.txt"));
+					String line = null;
+					while ((line = br.readLine()) != null) {
+						ta.append(line + "\n");
+					}
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				} finally {
+					if (br != null) {
+						try {

@@ -1,0 +1,10 @@
+      return getVersioncode();
+
+    case URL:
+      return getUrl();
+
+    case APP_SIZE:
+      return Integer.valueOf(getApp_size());
+
+    case MINSDKVERSION:
+      return getMinsdkversion();

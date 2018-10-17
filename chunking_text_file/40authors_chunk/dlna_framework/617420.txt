@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * @param binds The IP address that we will used for bindind the service 
+	 */
+	public SSDPSearchSocketList(InetAddress[] binds) {
+		this.binds = binds;
+	}	
+
+	/**
+	 * 

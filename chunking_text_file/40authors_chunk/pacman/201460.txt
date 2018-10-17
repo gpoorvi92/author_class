@@ -1,0 +1,10 @@
+			}
+			
+			if (mConnection != null) {
+				mConnection.close();
+			}
+		} catch (JMSException e) {
+			
+			throw new MQException("Fail to close receiver!", e);
+		}
+	}

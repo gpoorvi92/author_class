@@ -1,0 +1,10 @@
+                    }
+
+                    mLastBufferingPercent = percent;
+                }
+            }
+            break;
+        }
+        case EventManager.MediaPlayerBufferingTotal: {
+            if (mOnBufferingUpdateListener != null) {
+                if (msg.obj != null) {

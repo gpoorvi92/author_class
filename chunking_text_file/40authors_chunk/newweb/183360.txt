@@ -1,0 +1,10 @@
+	}
+	@Column
+	public double getThickness() {
+		return thickness;
+	}
+	public void setThickness(double thickness) {
+		this.thickness = thickness;
+	}
+	@Column(columnDefinition="int default 0 ")
+	public double getLsprice() {

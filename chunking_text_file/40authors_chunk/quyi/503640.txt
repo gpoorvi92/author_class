@@ -1,0 +1,10 @@
+          return JOB_PRIORITY;
+        case 6: // TASK_INFO
+          return TASK_INFO;
+        default:
+          return null;
+      }
+    }
+
+    /**
+     * Find the _Fields constant that matches fieldId, throwing an exception

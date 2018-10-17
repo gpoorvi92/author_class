@@ -1,0 +1,10 @@
+                bootstrap.setOption("soTimeout", timeout);
+                bootstrap.setPipelineFactory(new NettyRpcClientPipelineFactory());
+                ChannelFuture cf = bootstrap.connect(new InetSocketAddress(host, port));
+                cf.awaitUninterruptibly(timeout);
+                if (cf.isDone() && cf.isSuccess())
+                {
+                    channel = cf.getChannel();
+                }
+                else
+                {

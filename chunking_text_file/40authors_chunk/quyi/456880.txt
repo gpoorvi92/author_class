@@ -1,0 +1,10 @@
+
+      boolean this_present_userAppId = true && this.isSetUserAppId();
+      boolean that_present_userAppId = true && that.isSetUserAppId();
+      if (this_present_userAppId || that_present_userAppId) {
+        if (!(this_present_userAppId && that_present_userAppId))
+          return false;
+        if (!this.userAppId.equals(that.userAppId))
+          return false;
+      }
+

@@ -1,0 +1,8 @@
+                    while (l < r && num[l] == num[l-1]) ++l;  // avoid duplicates
+                    while (l < r && num[r] == num[r+1]) --r;  // avoid duplicates
+                }
+            }
+        }
+        return res;
+    }
+}

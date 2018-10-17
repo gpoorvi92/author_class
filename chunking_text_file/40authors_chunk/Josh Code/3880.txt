@@ -1,0 +1,10 @@
+ private JMenuItem zoomIn;
+ private JMenuItem zoomOut;
+ private JMenu exportMenu;
+ private JMenuItem saveDisplay; 
+ private JFileChooser chooser;
+    private progressPainter progressP;
+
+    public ModelViewerJMenuBar(modelViewer mv)
+    {
+        chooser = new JFileChooser();

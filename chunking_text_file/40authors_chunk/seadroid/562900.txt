@@ -1,0 +1,10 @@
+        }
+        for (Avatar avatar : avatars) {
+            if (avatar.getSignature().equals(account.getSignature())) {
+                return avatar.getUrl();
+            }
+        }
+
+        return null;
+    }
+

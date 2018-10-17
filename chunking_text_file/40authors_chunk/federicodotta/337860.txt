@@ -1,0 +1,10 @@
+     */
+    static final byte INS_PARAM_NAME_URL = 0x22;
+    /**
+     * Used to indicate where the payload is inserted into the name of an added
+     * body parameter.
+     */
+    static final byte INS_PARAM_NAME_BODY = 0x23;
+    /**
+     * Used to indicate where the payload is inserted into the body of the HTTP
+     * request.

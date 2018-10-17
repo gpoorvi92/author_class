@@ -1,0 +1,5 @@
+{
+    // Properties
+    public byte[]  getTrack4Data() throws JposException;
+    public void    setTrack4Data(byte[] track4Data) throws JposException;
+}

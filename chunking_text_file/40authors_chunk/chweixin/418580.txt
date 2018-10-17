@@ -1,0 +1,10 @@
+	 * @param menuService
+	 * 菜单服务。
+	 * */
+	public void setMenuService(IMenuService menuService) {
+		this.menuService = menuService;
+	}
+	/**
+	 * 设置系统ID。
+	 * @param systemId
+	 *  系统ID。

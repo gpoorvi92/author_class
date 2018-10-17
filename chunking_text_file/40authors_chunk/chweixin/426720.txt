@@ -1,0 +1,10 @@
+	 * 图片ID。
+	 * */
+	public void setId(String id) {
+		this.id = id;
+	}
+	/**
+	 * 获取图片名称。
+	 * @return 图片名称。
+	 * */
+	public String getName() {

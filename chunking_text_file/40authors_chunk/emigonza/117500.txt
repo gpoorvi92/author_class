@@ -1,0 +1,10 @@
+/**
+ * Defines an interface for outputing tracing info
+ * @author E. Michael Maximilien
+ * @since 2.1.0
+ */
+public interface TracerOutput
+{
+    //-------------------------------------------------------------------------
+    // Public methods
+    //

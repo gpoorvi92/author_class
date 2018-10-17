@@ -1,0 +1,10 @@
+    public boolean isSetTimestamp() {
+      return EncodingUtils.testBit(__isset_bitfield, __TIMESTAMP_ISSET_ID);
+    }
+
+    public void setTimestampIsSet(boolean value) {
+      __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __TIMESTAMP_ISSET_ID, value);
+    }
+
+    public void setFieldValue(_Fields field, Object value) {
+      switch (field) {

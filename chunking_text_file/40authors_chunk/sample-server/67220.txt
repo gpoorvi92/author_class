@@ -1,0 +1,5 @@
+            sb.append(params[i]);
+        }
+        return encrypt(sb.toString());
+    }
+}

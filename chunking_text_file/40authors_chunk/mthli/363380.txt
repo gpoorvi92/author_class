@@ -1,0 +1,10 @@
+      obj = o;
+   }
+
+   public DataFlavor[] getTransferDataFlavors()
+   {
+      DataFlavor[] flavors = new DataFlavor[2];
+      Class<?> type = obj.getClass();
+      String mimeType = "application/x-java-serialized-object;class=" + type.getName();
+      try
+      {

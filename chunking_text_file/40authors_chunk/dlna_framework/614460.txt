@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	// QueryListener
+	////////////////////////////////////////////////
+
+	private QueryListener queryListener = null;
+
+	public QueryListener getQueryListener() {
+		return queryListener;
+	}

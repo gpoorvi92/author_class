@@ -1,0 +1,10 @@
+ 		catch(SQLException sqlex){
+ 			System.err.println("unable to connect");
+ 			sqlex.printStackTrace();
+ 		}
+ 		
+
+    
+    patron_name_text.setEditable(false);
+    
+    patron_group_type_text.setEditable(false);

@@ -1,0 +1,10 @@
+         balance += interest;
+
+         year++;
+
+         // print current balance
+         System.out.printf("After year %d, your balance is %,.2f%n", year, balance);
+
+         // ask if ready to retire and get input
+         System.out.print("Ready to retire? (Y/N) ");
+         input = in.next();

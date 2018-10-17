@@ -1,0 +1,4 @@
+	public void setLastTime(Date lastTime) {
+		this.lastTime = lastTime;
+	}
+}

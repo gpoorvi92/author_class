@@ -1,0 +1,10 @@
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.annotation.InjectionView;
+import com.cyss.android.lib.service.IServiceLogic;
+import com.cyss.android.lib.service.ServiceController;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.http.HttpSendFactory;
+import com.jufan.platform.receiver.PushMessageReceiver;
+import com.jufan.platform.service.LoginService;
+import com.jufan.platform.util.ChatMessageUtil;
+import com.jufan.platform.util.ConstVariables;

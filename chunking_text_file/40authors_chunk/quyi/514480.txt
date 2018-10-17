@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class reportEngineConfig_resultStandardScheme extends StandardScheme<reportEngineConfig_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, reportEngineConfig_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {

@@ -1,0 +1,10 @@
+     *
+     * @return ArrayList<Account>
+     */
+    public ArrayList<Account> getAccountsWithoutAvatars() {
+        List<Account> accounts = accountMgr.getAccountList();
+
+        if (accounts == null) return null;
+
+        ArrayList<Account> accountsWithoutAvatar = Lists.newArrayList();
+

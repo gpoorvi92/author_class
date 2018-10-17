@@ -1,0 +1,10 @@
+     */
+    static final byte CONTEXT_SCANNER_RESULTS = 7;
+    /**
+     * Used to indicate that the context menu is being invoked in the Intruder
+     * payload positions editor.
+     */
+    static final byte CONTEXT_INTRUDER_PAYLOAD_POSITIONS = 8;
+    /**
+     * Used to indicate that the context menu is being invoked in an Intruder
+     * attack results.

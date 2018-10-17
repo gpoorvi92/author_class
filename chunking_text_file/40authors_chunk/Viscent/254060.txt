@@ -1,0 +1,10 @@
+			} catch (InterruptedException e) {
+				// 处理该异常
+			}
+
+		}
+	}
+
+	public static void main(String[] args) {
+
+		CustomScheduler scheduler = new CustomScheduler();

@@ -1,0 +1,10 @@
+					fis.close();
+			}catch(Exception ignored){
+				
+			}
+		}
+	}
+	
+	/**
+	 * √‹¬Îº”√‹À„∑®
+	 */

@@ -1,0 +1,10 @@
+			
+		   jbtChoc6.setIcon(Food6Image);
+		   pA.add(jbtChoc6);
+		   jbtChoc6.setVerticalTextPosition(AbstractButton.BOTTOM);
+			jbtChoc6.setHorizontalTextPosition(AbstractButton.CENTER);
+         
+         cont.add(pA,BorderLayout.CENTER);
+         
+        JPanel pB=new JPanel(new FlowLayout(FlowLayout.CENTER));
+        pB.setBackground(Color.white);

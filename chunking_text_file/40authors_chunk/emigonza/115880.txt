@@ -1,0 +1,10 @@
+    public void    setWrite3Data(String data) throws JposException;
+    public String  getWrite4Data() throws JposException;
+    public void    setWrite4Data(String data) throws JposException;
+    public String  getWrite5Data() throws JposException;
+    public void    setWrite5Data(String data) throws JposException;
+    public String  getWrite6Data() throws JposException;
+    public void    setWrite6Data(String data) throws JposException;
+
+    // Methods
+    public void    beginInsertion(int timeout) throws JposException;

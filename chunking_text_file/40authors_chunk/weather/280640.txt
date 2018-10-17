@@ -1,0 +1,10 @@
+        public long softTtl;
+
+        /** Immutable response headers as received from server; must be non-null. */
+        public Map<String, String> responseHeaders = Collections.emptyMap();
+
+        /** True if the entry is expired. */
+        public boolean isExpired() {
+            return this.ttl < System.currentTimeMillis();
+        }
+

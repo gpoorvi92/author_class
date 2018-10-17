@@ -1,0 +1,8 @@
+                Room room = new Room();
+                room.setName((i % 6 == 0 ? 6 : i % 6) + (j < 10 ? "0" : "") + j);
+                room.setLayerId(i);
+                roomMapper.insert(room);
+            }
+        }
+    }
+}

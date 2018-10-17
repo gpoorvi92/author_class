@@ -1,0 +1,10 @@
+	/**
+	 * 通过用户名查询帐号
+	 * @param userName
+	 * @return
+	 */
+	public Account getAccountByname(String userName){
+		DBCollection coll=connection.getCollection(COLLECTION_NAME);
+		QueryBuilder queryBuilder=QueryBuilder.start();
+		DBObject query=queryBuilder.put("userName").is(userName).get();
+		DBObject entity=coll.findOne(query);

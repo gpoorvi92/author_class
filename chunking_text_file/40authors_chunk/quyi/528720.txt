@@ -1,0 +1,10 @@
+
+  private static final org.apache.thrift.protocol.TField APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("app_id", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField APP_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("app_name", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField VERSIONCODE_FIELD_DESC = new org.apache.thrift.protocol.TField("versioncode", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField URL_FIELD_DESC = new org.apache.thrift.protocol.TField("url", org.apache.thrift.protocol.TType.STRING, (short)4);
+  private static final org.apache.thrift.protocol.TField APP_SIZE_FIELD_DESC = new org.apache.thrift.protocol.TField("app_size", org.apache.thrift.protocol.TType.I32, (short)5);
+  private static final org.apache.thrift.protocol.TField MINSDKVERSION_FIELD_DESC = new org.apache.thrift.protocol.TField("minsdkversion", org.apache.thrift.protocol.TType.STRING, (short)6);
+  private static final org.apache.thrift.protocol.TField APK_MD5_FIELD_DESC = new org.apache.thrift.protocol.TField("apk_md5", org.apache.thrift.protocol.TType.STRING, (short)7);
+  private static final org.apache.thrift.protocol.TField NOTIFY_CALLBACK_URL_FIELD_DESC = new org.apache.thrift.protocol.TField("notify_callback_url", org.apache.thrift.protocol.TType.STRING, (short)8);
+  private static final org.apache.thrift.protocol.TField APP_DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("app_description", org.apache.thrift.protocol.TType.STRING, (short)9);

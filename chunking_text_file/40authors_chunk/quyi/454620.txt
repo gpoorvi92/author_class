@@ -1,0 +1,10 @@
+
+    public void setEngineIsSet(boolean value) {
+      if (!value) {
+        this.engine = null;
+      }
+    }
+
+    /**
+     * 
+     * @see EngineOperation

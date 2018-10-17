@@ -1,0 +1,10 @@
+
+		org.cybergarage.xml.Node node = new org.cybergarage.xml.Node();
+		node.setName(domNodeName);
+		node.setValue(domNodeValue);
+
+		if (parentNode != null)
+			parentNode.addNode(node);
+
+		NamedNodeMap attrMap = domNode.getAttributes(); 
+		if (attrMap != null) {

@@ -1,0 +1,10 @@
+        return map;
+    }
+
+    @RequestMapping("/detail")
+    public @ResponseBody Map<String, Object> detail(Integer merchantId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        if (merchantId == null || merchantId == 0) {
+            map.put("merchant", null);
+            return map;
+        } else {

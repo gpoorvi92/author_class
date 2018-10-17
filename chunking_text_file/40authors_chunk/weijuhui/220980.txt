@@ -1,0 +1,3 @@
+    public boolean isOutOfBounds();
+    public void setOutOfBounds(boolean outOfBounds);
+}

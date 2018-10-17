@@ -1,0 +1,10 @@
+	public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+		if(pSceneTouchEvent.isActionDown()) {
+			this.mTargetFaceIndex = (this.mTargetFaceIndex + 1) % FACE_COUNT;
+
+			final FaceRotateRunnablePoolItem faceRotateRunnablePoolItem = this.mFaceRotateRunnablePoolUpdateHandler.obtainPoolItem();
+			faceRotateRunnablePoolItem.setTargetFace(this.mFaces[this.mTargetFaceIndex]);
+			this.mFaceRotateRunnablePoolUpdateHandler.postPoolItem(faceRotateRunnablePoolItem);
+		}
+		return true;
+	}

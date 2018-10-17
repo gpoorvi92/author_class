@@ -1,0 +1,10 @@
+			if (message instanceof TextMessage) {
+				
+				type 	= 1;
+				txt 	= ((TextMessage)message).getText();
+			} else if (message instanceof BytesMessage) {
+				
+				type  		= 2;
+				BytesMessage bm = (BytesMessage)message; 
+				ByteBuffer bb	= ByteBuffer.allocate((int)bm.getBodyLength());
+				buf = bb.array();

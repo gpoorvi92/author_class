@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("merchant_system/saleCount/list");
+        vo.setMerchantId(getMerchant().getId());
+        Map<String, Object> saleCountMap = saleCountService.saleCount(vo);
+        List<Goods> goodsList = goodsService.findByMerchantId(getMerchant().getId());
+        if (!"2".equals(vo.getKeywords())) {
+            List<SaleCount> topTenList = saleCountService.findTopTen(vo);
+            modelAndView.addObject("topTenList", topTenList);
+        }
+        modelAndView.addObject("saleCountMap", saleCountMap);
+        modelAndView.addObject("goodsList", goodsList);

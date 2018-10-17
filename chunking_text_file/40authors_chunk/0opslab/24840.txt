@@ -1,0 +1,10 @@
+            // 邮件主题
+            message.setSubject(subject);
+
+            String content = sendHtml.toString();
+            // 邮件内容,也可以使纯文本"text/plain"
+            message.setContent(content, "text/html;charset=UTF-8");
+
+            // 保存邮件
+            message.saveChanges();
+

@@ -1,0 +1,10 @@
+		return this.mTimestamp;
+	}
+
+	public void setTimestamp(final long pTimestamp) {
+		this.mTimestamp = pTimestamp;
+	}
+
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================

@@ -1,0 +1,10 @@
+  public String getCheckTime() {
+    return this.checkTime;
+  }
+
+  public SystemResources setCheckTime(String checkTime) {
+    this.checkTime = checkTime;
+    return this;
+  }
+
+  public void unsetCheckTime() {

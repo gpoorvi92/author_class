@@ -1,0 +1,10 @@
+	private static final String SAMPLE_MOD_FILENAME = "lepeltheme.mod";
+
+	// ===========================================================
+	// Fields
+	// ===========================================================
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mILove8BitTextureRegion;
+
+	private final ModPlayer mModPlayer = ModPlayer.getInstance();

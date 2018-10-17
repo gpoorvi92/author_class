@@ -1,0 +1,10 @@
+        return goods;
+    }
+
+    public void setGoods(Goods goods) {
+        this.goods = goods;
+    }
+
+    public Merchant getMerchant() {
+        return merchant;
+    }

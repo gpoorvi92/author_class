@@ -1,0 +1,10 @@
+/* Graphics Studio v1.0 By Max Lynch 
+ * 
+ * A graphics application with similar features
+ * as a professional vector graphics application.
+ */
+
+
+
+package com.gs.main;
+

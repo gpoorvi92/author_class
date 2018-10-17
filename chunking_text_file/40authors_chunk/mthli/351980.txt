@@ -1,0 +1,10 @@
+      faceCombo.addItem("DialogInput");
+
+      // the combo box listener changes the label font to the selected face name
+
+      faceCombo.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               label.setFont(new Font(faceCombo.getItemAt(faceCombo.getSelectedIndex()), Font.PLAIN,
+                     DEFAULT_SIZE));

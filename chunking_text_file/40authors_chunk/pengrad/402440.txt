@@ -1,0 +1,10 @@
+        this.fileApi = fileApi;
+    }
+
+    public String getFullFilePath(File file) {
+        return fileApi.getFullFilePath(file.filePath());
+    }
+
+    @Override
+    public <T extends BaseRequest, R extends BaseResponse> R execute(BaseRequest<T, R> request) {
+        return api.send(request);

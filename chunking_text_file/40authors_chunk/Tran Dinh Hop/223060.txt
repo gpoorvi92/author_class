@@ -1,0 +1,10 @@
+		// Create the source op image 1.
+		encodeImage(srcImage, fosImage);
+	     dstImage = loadImage(outFileName);
+	
+	}
+
+	// Load the source image.
+	private PlanarImage loadImage(String imageName) {
+		ParameterBlock pb = (new ParameterBlock()).add(imageName);
+		PlanarImage src = JAI.create("fileload", imageName);

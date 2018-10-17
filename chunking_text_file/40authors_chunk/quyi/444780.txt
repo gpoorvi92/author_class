@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetDynamicCheckResult()).compareTo(other.isSetDynamicCheckResult());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetDynamicCheckResult()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.dynamicCheckResult, other.dynamicCheckResult);

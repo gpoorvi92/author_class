@@ -1,0 +1,10 @@
+        unsetNetworkPacket();
+      } else {
+        setNetworkPacket((List<NetworkPacket>)value);
+      }
+      break;
+
+    case SYSTEM_RESOURCES:
+      if (value == null) {
+        unsetSystemResources();
+      } else {

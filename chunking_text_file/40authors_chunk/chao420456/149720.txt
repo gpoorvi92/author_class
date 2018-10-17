@@ -1,0 +1,10 @@
+	 * 
+	 * @param d
+	 * @return
+	 */
+	public static String getNYR(Date d) {
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		// String s = sdf.format(d);
+		// return s;
+		return new SimpleDateFormat("yyyy-MM-dd").format(d);
+	}

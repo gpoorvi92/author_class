@@ -1,0 +1,10 @@
+      blueField.getDocument().addDocumentListener(listener);
+      
+      add(panel);
+      pack();
+   }
+
+   /**
+    * Set the background color to the values stored in the text fields.
+    */
+   public void setColor()

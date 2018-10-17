@@ -1,0 +1,10 @@
+            if(depthLimit < 0 || childDepth <= depthLimit)
+            {
+                checkIfCancelled(directory, depth, results);
+                File childFiles[] = filter != null ? directory.listFiles(filter) : directory.listFiles();
+                childFiles = filterDirectoryContents(directory, depth, childFiles);
+                if(childFiles == null)
+                {
+                    handleRestricted(directory, childDepth, results);
+                } else
+                {

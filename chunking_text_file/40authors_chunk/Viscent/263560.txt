@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch13.pipeline;
+
+public class PipeException extends Exception {
+	private static final long serialVersionUID = -2944728968269016114L;
+	/**
+	 * 抛出异常的Pipe实例。
+	 */

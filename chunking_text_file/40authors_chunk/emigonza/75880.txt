@@ -1,0 +1,10 @@
+{
+  // Capabilities
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public int     getCapPowerReporting() throws JposException;
+  public boolean getCapPrematchData() throws JposException;
+  public boolean getCapRawSensorData() throws JposException;
+  public boolean getCapRealTimeData() throws JposException;
+  public int     getCapSensorColor() throws JposException;
+  public int     getCapSensorOrientation() throws JposException;
+  public int     getCapSensorType() throws JposException;

@@ -1,0 +1,10 @@
+	/**
+	 * generated id
+	 */
+	private static final long serialVersionUID = -8710522591230352636L;
+
+	protected Float progress;
+	protected Long uploadRate;
+	protected Long estimatedRemainingTimeInSeconds;
+
+

@@ -1,0 +1,10 @@
+ * @date: 2014年12月24日 下午5:16:34
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms.message;
+
+import com.yeshj.pacman.annotation.Transmit;
+
+/**
+ * TODO
+ * @Class: VideoTranscodingMessage

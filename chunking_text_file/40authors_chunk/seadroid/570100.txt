@@ -1,0 +1,10 @@
+        return fullSizeBitmap(THUMBNAIL_TARGET_SIZE, THUMBNAIL_MAX_NUM_PIXELS,
+                rotateAsNeeded);
+    }
+
+    private BitmapFactory.Options snifBitmapOptions() {
+        ParcelFileDescriptor input = getPFD();
+        if (input == null) return null;
+        try {
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;

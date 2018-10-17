@@ -1,0 +1,10 @@
+ * @date: 2015年1月9日 下午1:00:17
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.dao;
+
+import java.util.List;
+import java.util.Map;
+
+import com.yeshj.pacman.model.MediainfoModel;
+import com.yeshj.pacman.model.TaskModel;

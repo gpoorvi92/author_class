@@ -1,0 +1,10 @@
+	 * Sets the vendorName
+	 * @param s the String vendor name
+	 */
+	void setVendorName( String s ) { vendorName = s; }
+
+	/**
+	 * Sets the URL for this vendor
+	 * @param url the URL
+	 */
+	void setVendorUrl( URL url ) { vendorUrl = url; }

@@ -1,0 +1,10 @@
+        return nextLine();
+    }
+
+    public String nextLine()
+    {
+        if(!hasNext())
+        {
+            throw new NoSuchElementException("No more lines");
+        } else
+        {

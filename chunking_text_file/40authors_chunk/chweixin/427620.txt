@@ -1,0 +1,10 @@
+		try{
+			logger.info("获取微信签名：" + signature);
+			logger.info("获取微信时间戳：" + timestamp);
+			logger.info("获取微信随机数：" + nonce);
+			logger.info("获取微信随机字符串：" + echostr);
+			String result = this.coreService.checkSignature(signature, timestamp, nonce, echostr);
+			logger.info("验证结果：" +  result );
+			out.print(result);
+		}catch(Exception e){
+			out.print(echostr);

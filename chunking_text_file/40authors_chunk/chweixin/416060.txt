@@ -1,0 +1,10 @@
+	 * 	Hibernate Session 对象。
+	 * */
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+	/**
+	 * 获取当前会话。
+	 * @return 当前会话。
+	 * */
+	protected Session getCurrentSession(){

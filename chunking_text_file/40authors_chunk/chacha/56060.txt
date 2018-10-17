@@ -1,0 +1,10 @@
+/**
+ * 认证业务实现类
+ * 
+ * @author Fully
+ * 
+ */
+public class LoginContextImpl implements LoginContext {
+	private AccountDAO accoutDAO;
+    private LoginTokenDAO loginTokenDAO;
+    private AuthResponse response;

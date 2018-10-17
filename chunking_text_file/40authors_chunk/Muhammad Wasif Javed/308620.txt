@@ -1,0 +1,10 @@
+					}
+				}
+			}
+
+		}
+		else if (obj == btnCancel) {		//If Cancel Button Pressed Unload the From.
+
+			setVisible (false);
+			dispose();
+			System.exit (0);

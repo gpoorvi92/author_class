@@ -1,0 +1,10 @@
+					uploadProcessingConfigurationManager.getMaximumOverAllRateInKiloBytes() * 1024 / NUMBER_OF_TIMES_THE_BUCKET_IS_FILLED_PER_SECOND);
+
+			// for all pending operation
+			for (Entry<UUID, UploadProcessingOperation> entry : uploadProcessingOperationManager.getClientsAndRequestsProcessingOperation()
+					.entrySet()) {
+
+				// process
+				processEntry(entry);
+
+			}

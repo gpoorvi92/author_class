@@ -1,0 +1,10 @@
+*	03/27/04
+*		- first revision.
+*	02/28/05
+*		- Changed to use AllowedValue instead of String as the member.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp;
+
+import java.util.Iterator;

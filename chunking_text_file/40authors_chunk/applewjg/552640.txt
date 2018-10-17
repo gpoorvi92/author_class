@@ -1,0 +1,10 @@
+            cur = cur.next;
+        }
+        return dummy.next;
+    }
+    public RandomListNode copyRandomList_2(RandomListNode head) {
+        if (head == null) return null;
+        RandomListNode cur = head;
+        while (cur != null) {
+            RandomListNode newnode = new RandomListNode(cur.label);
+            newnode.next = cur.next;

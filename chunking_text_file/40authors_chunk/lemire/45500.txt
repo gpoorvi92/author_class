@@ -1,0 +1,10 @@
+    /**
+     * Should report the storage requirement
+     *
+     * @return How many bytes
+     * @since 0.6.2
+     */
+    int sizeInBytes();
+
+    /**
+     * Compute the bitwise logical Xor

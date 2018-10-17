@@ -1,0 +1,10 @@
+
+    @Override
+    public synchronized void write(byte[] buffer, int offset, int len) {
+        expand(len);
+        super.write(buffer, offset, len);
+    }
+
+    @Override
+    public synchronized void write(int oneByte) {
+        expand(1);

@@ -1,0 +1,10 @@
+    static {
+      schemes.put(StandardScheme.class, new updateUserAppStatus_resultStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new updateUserAppStatus_resultTupleSchemeFactory());
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */
+    public com.nercis.isscp.idl.Result success; // required

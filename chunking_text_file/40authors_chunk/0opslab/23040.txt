@@ -1,0 +1,7 @@
+        User[] users = new User[]{new User("11","aa"),new User("22","bb")};
+        System.out.println(users);
+    }
+
+
+
+}

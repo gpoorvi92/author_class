@@ -1,0 +1,10 @@
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.status, other.status);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetUsedPermissions()).compareTo(other.isSetUsedPermissions());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetUsedPermissions()) {

@@ -1,0 +1,10 @@
+        }
+    }
+
+    private final WeakHashMap<Thread, ThreadStatus> mThreadStatus =
+            new WeakHashMap<Thread, ThreadStatus>();
+
+    private static BitmapManager sManager = null;
+
+    private BitmapManager() {
+    }

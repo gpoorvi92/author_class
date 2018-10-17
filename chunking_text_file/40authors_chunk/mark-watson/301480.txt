@@ -1,0 +1,10 @@
+		String last = "ahjhjhdsgh";
+		while (scanner.hasNext()) {
+			String word = scanner.next();
+			if (wordCounts.containsKey(word)) {
+				Integer count = wordCounts.get(word);
+				wordCounts.put(word, count + 1);
+			} else {
+				wordCounts.put(word, 1);
+			}
+			String pair = last + " " + word;

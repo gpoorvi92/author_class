@@ -1,0 +1,10 @@
+        exportVertices.addActionListener(this);
+        exportModel.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent ae)
+    {
+        Object source = ae.getSource();
+        ModelFileSaverFileFilter mfsff = null;
+        chooser.resetChoosableFileFilters();
+

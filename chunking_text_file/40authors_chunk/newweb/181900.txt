@@ -1,0 +1,10 @@
+	}
+	
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderLhjWinProp> getOrderLhjWinProps() {
+		return orderLhjWinProps;
+	}
+	public void setOrderLhjWinProps(Set<OrderLhjWinProp> orderLhjWinProps) {
+		this.orderLhjWinProps = orderLhjWinProps;
+	}
+	

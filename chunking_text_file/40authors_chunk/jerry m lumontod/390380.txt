@@ -1,0 +1,10 @@
+            Vector v1 = (Vector)a;
+            Vector v2 = (Vector)b;
+            Object o1 = v1.get(colIndex);
+            Object o2 = v2.get(colIndex);
+    
+            // Treat empty strains like nulls
+            if (o1 instanceof String && ((String)o1).length() == 0) {
+                o1 = null;
+            }
+            if (o2 instanceof String && ((String)o2).length() == 0) {

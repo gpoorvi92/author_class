@@ -1,0 +1,10 @@
+                        .setDisplayMode(LockPatternView.DisplayMode.Wrong);
+                if (pattern.size() >= LockPatternUtils.MIN_PATTERN_REGISTER_FAIL) {
+                    mFailedPatternAttemptsSinceLastTimeout++;
+                    int retry = LockPatternUtils.FAILED_ATTEMPTS_BEFORE_TIMEOUT
+                            - mFailedPatternAttemptsSinceLastTimeout;
+                    if (retry >= 0) {
+                        if (retry == 0)
+                        ToastUtils.show(UnlockGesturePasswordActivity.this, getResources().getString(R.string.lockscreen_access_pattern_failure));
+                        mHeadTextView.setText(getResources().getQuantityString(R.plurals.lockscreen_access_pattern_failure_left_try_times, retry, retry));
+                        mHeadTextView.setTextColor(Color.RED);

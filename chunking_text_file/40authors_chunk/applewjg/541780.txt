@@ -1,0 +1,10 @@
+ A solution using O(n) space is pretty straight forward. Could you devise a constant space solution?
+
+ Solution: 1. recursive solution. O(n) space. get inorder list first.
+           2. recursive solution. O(n) space. with only auxiliary two pointers.
+           3. Use a stack. Iteration.
+           4. Morris inorder traversal. O(1) space. with only auxiliary two pointers.
+*/
+
+/**
+ * Definition for binary tree

@@ -1,0 +1,10 @@
+        if ( !entered_toString_11 ) {
+            entered_toString_11 = true;
+            java.lang.String __return = __toString( );
+            entered_toString_11 = false;
+            return __return;
+        }
+        else
+            return super.toString( );
+    }
+

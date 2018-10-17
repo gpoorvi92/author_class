@@ -1,0 +1,7 @@
+	//方法：绘制自己
+	public void drawSelf(Canvas canvas,int screenRow, int screenCol,int offsetX,int offsetY){
+		int x = (screenCol-refCol)*TILE_SIZE;//求出自己所拥有的块数中左上角块的x坐标
+		int y = screenRow*TILE_SIZE+(refRow+1)*TILE_SIZE-height;//求出自己所拥有的块数中左上角块的y坐标
+		canvas.drawBitmap(bmpSelf, x-offsetX, y-offsetY, null);//根据自己的左上角的xy坐标画出自己
+	}
+}

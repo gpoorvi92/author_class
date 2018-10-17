@@ -1,0 +1,10 @@
+         });
+      addRow("Verified Number:", intField4);
+
+      JFormattedTextField currencyField = new JFormattedTextField(NumberFormat
+            .getCurrencyInstance());
+      currencyField.setValue(new Double(10));
+      addRow("Currency:", currencyField);
+
+      JFormattedTextField dateField = new JFormattedTextField(DateFormat.getDateInstance());
+      dateField.setValue(new Date());

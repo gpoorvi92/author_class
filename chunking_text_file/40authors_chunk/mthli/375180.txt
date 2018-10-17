@@ -1,0 +1,10 @@
+      shape2 = new Rectangle2D.Double(150, 150, 150, 100);
+   }
+
+   public void paintComponent(Graphics g)
+   {
+      Graphics2D g2 = (Graphics2D) g;
+
+      BufferedImage image = new BufferedImage(getWidth(), getHeight(), BufferedImage.TYPE_INT_ARGB);
+      Graphics2D gImage = image.createGraphics();
+      gImage.setPaint(Color.red);

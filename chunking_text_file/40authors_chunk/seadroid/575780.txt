@@ -1,0 +1,10 @@
+    @Override
+    public void onFileChange(File file) {
+        String path = file.getPath();
+
+        if (recentDownloadedFiles.isRecentDownloadedFiles(path)) {
+            Log.d(DEBUG_TAG, "ignore change signal for recent downloaded file " + path);
+            return;
+        }
+        else {
+            recentDownloadedFiles.removeRecentDownloadedFile(path);

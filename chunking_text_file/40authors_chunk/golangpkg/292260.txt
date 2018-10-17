@@ -1,0 +1,10 @@
+	 * @return the estimated remaining time in seconds.
+	 */
+	public Long getEstimatedRemainingTimeInSeconds() {
+		return estimatedRemainingTimeInSeconds;
+	}
+
+
+	
+	public void setEstimatedRemainingTimeInSeconds(Long estimatedRemainingTimeInSeconds) {
+		this.estimatedRemainingTimeInSeconds = estimatedRemainingTimeInSeconds;

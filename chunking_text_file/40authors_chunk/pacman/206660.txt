@@ -1,0 +1,10 @@
+		result.setAudio_duration(rs.getInt("audio_duration"));
+		result.setAudio_codec(rs.getString("audio_codec"));
+		
+		result.setVideo_width(rs.getInt("video_width"));
+		result.setVideo_height(rs.getInt("video_height"));
+		result.setVideo_rate(rs.getInt("video_rate"));
+		result.setVideo_duration(rs.getInt("video_duration"));
+		result.setVideo_codec(rs.getString("video_codec"));
+		
+		return result;

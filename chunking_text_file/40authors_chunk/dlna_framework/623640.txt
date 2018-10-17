@@ -1,0 +1,10 @@
+	}
+	
+	////////////////////////////////////////////////
+	//	LeaseTime
+	////////////////////////////////////////////////
+
+	public final static int getLeaseTime(String cacheCont){
+		/*
+		 * Search for max-age keyword instead of equals sign Found value of
+		 * max-age ends at next comma or end of string

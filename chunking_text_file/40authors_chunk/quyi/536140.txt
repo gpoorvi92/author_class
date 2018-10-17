@@ -1,0 +1,10 @@
+    lastComparison = Boolean.valueOf(isSetProcessName()).compareTo(other.isSetProcessName());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetProcessName()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.processName, other.processName);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }

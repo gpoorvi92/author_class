@@ -1,0 +1,10 @@
+    private UploadStateListener uploadStateListener;
+
+    private DataManager dataManager;
+
+    public UploadTask(int taskID, Account account, String repoID, String repoName,
+                      String dir, String filePath, boolean isUpdate, boolean isCopyToLocal,
+                      UploadStateListener uploadStateListener) {
+        super(taskID, account, repoName, repoID, filePath);
+        this.dir = dir;
+        this.isUpdate = isUpdate;

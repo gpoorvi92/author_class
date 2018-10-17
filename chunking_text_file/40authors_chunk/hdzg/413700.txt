@@ -1,0 +1,10 @@
+		totalGeneral = gameView.hero.getTotalGeneral();//得到英雄所拥有的所有将领
+		
+		items = new String[totalGeneral.size()][3];
+		for(int i=0; i<totalGeneral.size(); i++){
+			items[i][0] = totalGeneral.get(i).getName();//名称
+			items[i][1] = totalGeneral.get(i).getRank();//职位
+			items[i][2] = totalGeneral.get(i).getStrength()+"";//体力
+		}
+	}
+	

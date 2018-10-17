@@ -1,0 +1,10 @@
+    @Override
+    public void update(MultipartFile image, Merchant merchant) throws ServiceException {
+        if (!image.isEmpty()) {
+            if (!StringUtils.isEmpty(merchant.getImage())) {
+                FileUtils.delete("wmlm", "merchantImage/" + merchant.getImage());
+            }
+            String newImageFileName = UUID.randomUUID().toString() + PathUtils.fileSuffix(image.getOriginalFilename());
+            try {
+                FileUtils.upload(image.getInputStream(), "merchantImage/" + newImageFileName);
+            } catch (AuthException e) {

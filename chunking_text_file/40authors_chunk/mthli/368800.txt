@@ -1,0 +1,10 @@
+      {
+         File[] files = directory.listFiles();
+         List<Future<Integer>> results = new ArrayList<>();
+
+         for (File file : files)
+            if (file.isDirectory())
+            {
+               MatchCounter counter = new MatchCounter(file, keyword, pool);
+               Future<Integer> result = pool.submit(counter);
+               results.add(result);

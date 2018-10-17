@@ -1,0 +1,10 @@
+package treeEdit;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.tree.*;
+
+/**
+ * A frame with a tree and buttons to edit the tree.
+ */

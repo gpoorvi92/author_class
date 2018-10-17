@@ -1,0 +1,10 @@
+            byte[] data = bos.toByteArray();
+            text = Base64.encodeToString(data, Base64.DEFAULT);
+        } catch (IOException e) {
+            return;
+        } finally {
+            try {
+                if (out != null) {
+                    out.close();
+                }
+            } catch (IOException ex) {

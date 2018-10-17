@@ -1,0 +1,10 @@
+    int exponente = teclado.nextInt();
+    
+    int potencia = 1;
+    int y;
+    
+    for(y = 1; y <= exponente; y++){
+        potencia *= base;
+        System.out.println(base + " ^ " + y + " = " + potencia);   
+    }
+  } 

@@ -1,0 +1,10 @@
+               catch (IOException ex)
+               {
+                  // couldn't read image--skip
+               }
+            }
+         }
+         else if (flavors.contains(DataFlavor.imageFlavor))
+         {
+            images.add((Image) transferable.getTransferData(DataFlavor.imageFlavor));
+         }

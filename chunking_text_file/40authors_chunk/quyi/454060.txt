@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class issuedMessage_resultStandardScheme extends StandardScheme<issuedMessage_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, issuedMessage_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {

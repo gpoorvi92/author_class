@@ -1,0 +1,10 @@
+                Log.d(DEBUG_TAG, "failed to stop file monitor");
+            }
+        }
+
+        if (mTransferService != null) {
+            unbindService(mTransferConnection);
+            mTransferService = null;
+        }
+
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(transferReceiver);

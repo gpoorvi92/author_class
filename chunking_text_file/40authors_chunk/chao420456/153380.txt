@@ -1,0 +1,7 @@
+		//Cat c = new Cat();
+
+		//∂‡Ã¨
+		Animal a = new Cat();
+		a.eat();
+	}
+}

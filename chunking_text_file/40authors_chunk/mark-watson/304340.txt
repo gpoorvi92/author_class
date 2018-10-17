@@ -1,0 +1,10 @@
+    static float[] out2 = {0.1f, 0.1f, 0.9f};
+    static float[] out3 = {0.1f, 0.9f, 0.1f};
+
+    static float[] test1 = {0.1f, 0.1f, 0.9f};
+    static float[] test2 = {0.1f, 0.9f, 0.1f};
+    static float[] test3 = {0.9f, 0.1f, 0.1f};
+
+    public static void main(String[] args) {
+        Neural_1H nn = new Neural_1H(3, 3, 3);
+        nn.addTrainingExample(in1, out1);

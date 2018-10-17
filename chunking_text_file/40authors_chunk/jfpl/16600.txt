@@ -1,0 +1,9 @@
+		});
+		ServiceController.addService(acd, this);
+	}
+
+	public void titleBackBtnClick(View v) {
+		this.finish();
+	}
+
+}

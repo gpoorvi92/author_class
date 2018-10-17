@@ -1,0 +1,10 @@
+		value.setStaticFileStateJson(staticFileStateJson);
+		entity.getFileStates().put(fileId, value);
+
+		// populate it
+		value.setAbsoluteFullPathOfUploadedFile(randomValue);
+		staticFileStateJson.setOriginalFileName(randomValue);
+		staticFileStateJson.setOriginalFileSizeInBytes(123000l);
+
+		// create a file
+		File file = new File(staticStatedDirectoryManager.getUUIDFileParent(), fileId.toString());

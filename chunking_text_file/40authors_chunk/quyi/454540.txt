@@ -1,0 +1,10 @@
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public operateEngine_args(operateEngine_args other) {
+      if (other.isSetEngine()) {
+        this.engine = new Engine(other.engine);
+      }
+      if (other.isSetOperate()) {
+        this.operate = other.operate;

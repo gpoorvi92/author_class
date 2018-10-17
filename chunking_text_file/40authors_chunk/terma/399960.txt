@@ -1,0 +1,10 @@
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Invalid integer test1.localPort = X");
+        properties.setProperty("test1.localPort", "X");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test
+    public void shouldFailWhenCantParseToIntRemotePort() {
+        expectedException.expect(IllegalArgumentException.class);

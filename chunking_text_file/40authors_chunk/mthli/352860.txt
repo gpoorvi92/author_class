@@ -1,0 +1,10 @@
+public class LongListFrame extends JFrame
+{
+   private JList<String> wordList;
+   private JLabel label;
+   private String prefix = "The quick brown ";
+   private String suffix = " jumps over the lazy dog.";
+
+   public LongListFrame()
+   {
+      wordList = new JList<String>(new WordListModel(3));

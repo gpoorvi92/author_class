@@ -1,0 +1,10 @@
+			throw e;
+		} finally {
+			
+			if (zip != null) {
+				try {
+					zip.finish();
+					zip.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}

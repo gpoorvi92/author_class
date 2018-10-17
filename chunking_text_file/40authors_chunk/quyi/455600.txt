@@ -1,0 +1,10 @@
+    }
+
+    public com.nercis.isscp.idl.InvalidRequestException getIre() {
+      return this.ire;
+    }
+
+    public operateEngine_result setIre(com.nercis.isscp.idl.InvalidRequestException ire) {
+      this.ire = ire;
+      return this;
+    }

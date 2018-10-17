@@ -1,0 +1,10 @@
+            sequencer.stop();
+        }
+    } // close inner class
+
+    public class MyUpTempoListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
+	      float tempoFactor = sequencer.getTempoFactor(); 
+            sequencer.setTempoFactor((float)(tempoFactor * 1.03));
+        }
+     } // close inner class

@@ -1,0 +1,10 @@
+     * 获取汉字串拼音首字母，英文字符不变
+     *
+     * @param chinese 汉字串
+     * @return 汉语拼音首字母
+     */
+    public final static String getFirstSpell(String chinese) {
+        StringBuffer            pybf          = new StringBuffer();
+        char[]                  arr           = chinese.toCharArray();
+        HanyuPinyinOutputFormat defaultFormat = new HanyuPinyinOutputFormat();
+        defaultFormat.setCaseType(HanyuPinyinCaseType.LOWERCASE);

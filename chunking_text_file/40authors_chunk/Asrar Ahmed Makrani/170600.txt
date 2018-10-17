@@ -1,0 +1,10 @@
+        
+        newButton.setToolTipText("New");
+        newButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	Video_no_text.setText("VD-");
+            	Video_title_text.setText("");
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");	
+            	

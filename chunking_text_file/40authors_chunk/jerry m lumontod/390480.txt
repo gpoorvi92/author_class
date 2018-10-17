@@ -1,0 +1,10 @@
+public final class MSort implements Comparator, Serializable {
+
+	public MSort (int new_index, Object new_data) {
+		index = new_index;
+		data = new_data;
+	}
+
+
+	public int 		index;
+	public Object 	data;

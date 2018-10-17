@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.meet;
+
+/**
+ * Created by brian on 2016/4/11.
+ */
+
+/**
+ * P25
+ * 判断线程是否停止状态
+ * 测试当前线程是否已经中断

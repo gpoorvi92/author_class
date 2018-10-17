@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Gathers all named components in a container.
+    * @param c the component
+    * @param namedComponents
+    */
+   private static void getComponentBindings(Component c, ScriptEngine engine)
+   {
+      String name = c.getName();

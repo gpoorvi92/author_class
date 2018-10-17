@@ -1,0 +1,10 @@
+      this.checkDate = other.checkDate;
+    }
+    if (other.isSetSensitives()) {
+      List<String> __this__sensitives = new ArrayList<String>(other.sensitives);
+      this.sensitives = __this__sensitives;
+    }
+    if (other.isSetFeaturesCharacters()) {
+      List<String> __this__featuresCharacters = new ArrayList<String>(other.featuresCharacters);
+      this.featuresCharacters = __this__featuresCharacters;
+    }

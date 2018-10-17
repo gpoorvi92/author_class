@@ -1,0 +1,10 @@
+    case APK_MD5:
+      return isSetApk_md5();
+    case NOTIFY_CALLBACK_URL:
+      return isSetNotify_callback_url();
+    case APP_DESCRIPTION:
+      return isSetApp_description();
+    case REQUEST_PURVIEWS:
+      return isSetRequestPurviews();
+    case FORMAT:
+      return isSetFormat();

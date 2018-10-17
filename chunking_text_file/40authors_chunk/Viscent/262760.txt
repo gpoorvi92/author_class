@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch8.activeobject.example;
+
+import io.github.viscent.util.Debug;
+
+public class SampleActiveObjectImpl {
+
+	public String doProcess(String arg, int i) {

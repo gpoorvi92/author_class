@@ -1,0 +1,10 @@
+	int tempProficiency;//临时熟练度，到一定程度会增加技能熟练度
+	int proficiencyToUpgrade;//技能熟练度升级需要的临时熟练度
+	int skillType;//技能类型，包括0:生活技能、1:战斗技能、2:普通技能
+	Hero hero;//所属英雄的引用
+	
+	public Skill(){}
+	
+	public Skill(int id,String name,int basicEarning,int skillType,Hero hero){
+		this.id = id;
+		this.name = name;

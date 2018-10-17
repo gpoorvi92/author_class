@@ -1,0 +1,10 @@
+        this.createUser = createUser;
+    }
+
+    public Admin getUpdateUser() {
+        return updateUser;
+    }
+
+    public void setUpdateUser(Admin updateUser) {
+        this.updateUser = updateUser;
+    }

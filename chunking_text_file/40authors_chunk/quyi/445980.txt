@@ -1,0 +1,10 @@
+      return false;
+
+    boolean this_present_monitorTime = true && this.isSetMonitorTime();
+    boolean that_present_monitorTime = true && that.isSetMonitorTime();
+    if (this_present_monitorTime || that_present_monitorTime) {
+      if (!(this_present_monitorTime && that_present_monitorTime))
+        return false;
+      if (!this.monitorTime.equals(that.monitorTime))
+        return false;
+    }

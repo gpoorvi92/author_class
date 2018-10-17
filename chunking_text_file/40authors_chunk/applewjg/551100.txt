@@ -1,0 +1,10 @@
+ Solution: 1. Check in the haystack one by one. If not equal to needle, reset the pointer.(TLE)
+           2. Classice KMP solution.
+           3. Simplified RK Soluiton. Thanks for [wenyuanhust, wenyuanhust@gmail.com]
+ */
+
+public class Solution {
+    public int strStr_1(String haystack, String needle) {
+        int sLen = haystack.length(), tLen = needle.length();
+        if(tLen == 0) return 0;
+        if (haystack==null || needle==null || sLen==0) return -1;

@@ -1,0 +1,10 @@
+		canvas.drawBitmap(heroGeneral[heroGeneralIndex], heroGeneralStartX, heroGeneralStartY, null);//我方英雄
+		canvas.drawBitmap(enemyGeneral[enemyGeneralIndex], enemyGeneralStartX, enemyGeneralStartY, null);//敌方英雄
+		for(int i=0;i<soldierNumber;i++){//我方士兵
+			canvas.drawBitmap(heroSoldier[heroSoldierIndex], heroSoldierStartX-i*soldierSpanX, heroSoldierStartY+i*soldierSpanX, null);
+		}
+		for(int i=0;i<soldierNumber;i++){//我方士兵
+			canvas.drawBitmap(enemySoldier[enemySoldierIndex], enemySoldierStartX-i*soldierSpanX, enemySoldierStartY+i*soldierSpanX, null);
+		}
+		//画城市边框
+		canvas.drawBitmap(bmpCityBorder, borderX, borderY, null);

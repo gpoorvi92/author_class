@@ -1,0 +1,10 @@
+		 add(xSlider);
+		 add(yLabel);
+		 add(ySlider);
+		
+	}
+	
+	public void showRadialDialog()
+	{
+		 removeAll();
+

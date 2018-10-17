@@ -1,0 +1,10 @@
+ * */
+public interface IWeChatAccountDao extends IBaseDao<WeChatAccount> {
+	/**
+	 * 加载全部可用的公众账号。
+	 * @return 可用的公众账号。
+	 * */
+	List<WeChatAccount> loadAllAccounts();
+	/**
+	 * 查询数据。
+	 * @param info

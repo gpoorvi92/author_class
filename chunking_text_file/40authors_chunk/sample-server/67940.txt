@@ -1,0 +1,10 @@
+                    byte[] compress = CompressHelper.zlibCompress(origin);
+                    content = ByteString.copyFrom(compress);
+                    flag |= COMPRESSED;
+                } catch (IOException e)
+                {
+                    log.warn("compress failed packet opcode={} size={}", trans.getOpcode(), content.size());
+                }
+            }
+            ret.setContent(content);
+        }

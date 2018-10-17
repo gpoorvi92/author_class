@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Size in uncompressed words of the current running length word.
+     *
+     * @return the size
+     */
+    @Override
+    public int size() {
+        return this.iteratingBrlw.size();

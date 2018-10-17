@@ -1,0 +1,10 @@
+	private String version = "";
+	private int statusCode = 0;
+	private String reasonPhrase = "";
+
+	public void setVersion(String value)
+	{
+		version = value;
+	}
+	
+	public void setStatusCode(int value)

@@ -1,0 +1,10 @@
+/**
+ * Defines an interface for creating Profile objects
+ * @since 1.3 (SF 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface ProfileFactory
+{
+	/**
+	 * @return a Profile object created parsing the XML file provided
+	 * @param xmlProfileFile the XML profile file

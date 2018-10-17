@@ -1,0 +1,10 @@
+	
+	////////////////////////////////////////////////
+	//	CALLBACK
+	////////////////////////////////////////////////
+
+	private final static String CALLBACK_START_WITH  = "<";
+	private final static String CALLBACK_END_WITH  = ">";
+	
+	public void setCallback(String value)
+	{

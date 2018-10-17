@@ -1,0 +1,10 @@
+            }
+        }
+    }
+    
+    /**
+     * sets the minute interval of the scroll layouts.
+     * @param minInterval
+     */
+    public void setMinuteInterval(int minInterval) {
+    	this.minuteInterval = minInterval;

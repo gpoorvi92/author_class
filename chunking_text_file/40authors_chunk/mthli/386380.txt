@@ -1,0 +1,10 @@
+         if (isDefinition)
+            printTypes(t.getBounds(), " extends ", " & ", "", false);
+      }
+      else if (type instanceof WildcardType)
+      {
+         WildcardType t = (WildcardType) type;
+         System.out.print("?");
+         printTypes(t.getUpperBounds(), " extends ", " & ", "", false);
+         printTypes(t.getLowerBounds(), " super ", " & ", "", false);
+      }

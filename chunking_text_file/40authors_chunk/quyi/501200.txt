@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetTaskQueueLimit()) {
+        optionals.set(4);
+      }
+      if (struct.isSetTaskQueueNume()) {
+        optionals.set(5);
+      }
+      oprot.writeBitSet(optionals, 6);
+      if (struct.isSetNodeId()) {
+        oprot.writeString(struct.nodeId);

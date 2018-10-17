@@ -1,0 +1,10 @@
+      return lastComparison;
+    }
+    if (isSetCenterResultPath()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.centerResultPath, other.centerResultPath);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;
+  }

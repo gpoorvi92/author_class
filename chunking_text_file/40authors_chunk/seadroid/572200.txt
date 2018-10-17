@@ -1,0 +1,10 @@
+            // Some activity can edit markdown
+            startActivity(editAsMarkDown);
+        } else {
+            // No activity to handle markdown, take it as text
+            Intent editAsText = new Intent(Intent.ACTION_EDIT);
+            mime = "text/plain";
+            editAsText.setDataAndType(uri, mime);
+
+            try {
+                startActivity(editAsText);

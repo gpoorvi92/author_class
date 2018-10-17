@@ -1,0 +1,10 @@
+		// Thanks for Ralf G. R. Bergs <Ralf@Ber.gs>, Inma Marin Lopez <inma@dif.um.es>.
+		String conStr = "";
+		conStr += SOAP.VERSION_HEADER;
+		conStr += "\n";
+		conStr += node.toString(); 
+		setContent(conStr);
+	}
+
+	////////////////////////////////////////////////
+	//	print

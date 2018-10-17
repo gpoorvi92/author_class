@@ -1,0 +1,10 @@
+	 * */
+	public Date getCreateTime() {
+		return createTime;
+	}
+	/**
+	 * 设置首次关注时间。
+	 * @param createTime
+	 * 首次关注时间。
+	 * */
+	public void setCreateTime(Date createTime) {

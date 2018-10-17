@@ -1,0 +1,10 @@
+	CLUB_SIX(Color.CLUB, Value.SIX),
+	CLUB_SEVEN(Color.CLUB, Value.SEVEN),
+	CLUB_EIGHT(Color.CLUB, Value.EIGHT),
+	CLUB_NINE(Color.CLUB, Value.NINE),
+	CLUB_TEN(Color.CLUB, Value.TEN),
+	CLUB_JACK(Color.CLUB, Value.JACK),
+	CLUB_QUEEN(Color.CLUB, Value.QUEEN),
+	CLUB_KING(Color.CLUB, Value.KING),
+	
+	DIAMOND_ACE(Color.DIAMOND, Value.ACE),

@@ -1,0 +1,10 @@
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatAccount(){
+		this.setCreateTime(new Date());
+	}
+	/**
+	 * 获取公众号ID。
+	 * @return 公众号ID。
+	 * */

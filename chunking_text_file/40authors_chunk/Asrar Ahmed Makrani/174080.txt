@@ -1,0 +1,10 @@
+        	getToolkit().beep();
+        	e.consume();
+      		}
+    		}
+  		});
+	
+	
+	pages_text.addKeyListener(new KeyAdapter() {
+    public void keyTyped(KeyEvent e) {
+    	char c = e.getKeyChar();      

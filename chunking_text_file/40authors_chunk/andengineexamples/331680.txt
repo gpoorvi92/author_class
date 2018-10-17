@@ -1,0 +1,10 @@
+	private RepeatingSpriteBackground mGrassBackground;
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private TiledTextureRegion mPlayerTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================

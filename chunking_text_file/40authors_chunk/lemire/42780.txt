@@ -1,0 +1,10 @@
+     * This can be used to effectively clone a bitmap in the following
+     * manner:
+     * 
+     *  <code>
+     *  EWAHCompressedBitmap32 n = IteratorUtil32.materialize(bitmap.getIteratingRLW()));
+     *  n.setSizeInBitsWithinLastWord(bitmap.sizeInBits());
+     *  </code>
+     *
+     * @param i iterator we wish to materialize
+     * @return materialized version of the iterator

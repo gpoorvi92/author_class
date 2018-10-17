@@ -1,0 +1,10 @@
+
+/**
+ * An {@link com.android.wpvolley.toolbox.HttpStack HttpStack} implementation which uses OkHttp as its transport.
+ */
+public class OkHttpStack extends HurlStack {
+    private final OkUrlFactory client;
+
+    public OkHttpStack() {
+        this(new OkHttpClient());
+    }

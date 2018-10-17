@@ -1,0 +1,10 @@
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public int insert(OrderBxg ob) {
+		int result = (Integer) sessionFactory.getCurrentSession().save(ob);
+		return result;
+	}
+
+	@Override

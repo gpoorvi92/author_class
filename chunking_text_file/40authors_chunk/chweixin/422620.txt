@@ -1,0 +1,10 @@
+	public void setBusinessURL(String businessURL) {
+		this.businessURL = businessURL;
+	}
+	/**
+	 * 获取当前账号状态。
+	 * @return 当前账号状态。
+	 * 0-停用，1-启用。
+	 * */
+	public Integer getStatus() {
+		return status;

@@ -1,0 +1,10 @@
+  private JTextArea jta = new JTextArea();
+  DataOutputStream toServer;
+  DataInputStream fromServer;
+  
+  public static void main(String[] args) 
+  {
+    new Counter();
+  }
+  
+  public Counter() 

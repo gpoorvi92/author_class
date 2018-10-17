@@ -1,0 +1,10 @@
+     * Removes the specified Profile 
+     * @param profile the profile to remove
+     */
+    public void removeProfile( Profile profile );
+
+    /**
+     * Removes the Profile with the profileName specified 
+     * @param profileName the unique name of this profile
+     */
+    public void removeProfile( String profileName );

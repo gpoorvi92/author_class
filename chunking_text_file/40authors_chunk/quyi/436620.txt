@@ -1,0 +1,10 @@
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();
+        if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+          break;
+        }
+        switch (schemeField.id) {
+          case 1: // APK_MD5
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.apkMD5 = iprot.readString();

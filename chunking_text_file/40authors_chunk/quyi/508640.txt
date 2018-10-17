@@ -1,0 +1,10 @@
+                  _val138 = CheckResultStatus.findByValue(iprot.readI32());
+                  struct.functionStatus.put(_key137, _val138);
+                }
+                iprot.readMapEnd();
+              }
+              struct.setFunctionStatusIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

@@ -1,0 +1,10 @@
+ * insignerr 签名失败
+ */
+public enum AppStatus implements org.apache.thrift.TEnum {
+  insaved(0),
+  inequs(1),
+  inequserror(2),
+  inbupt(3),
+  inbupterr(4),
+  insensitive(5),
+  insensitiveerr(6),

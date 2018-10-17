@@ -1,0 +1,10 @@
+
+               add(panel, "North");
+
+               fileText = new JTextArea();
+               add(new JScrollPane(fileText), "Center");
+            }
+         });
+   }
+
+   /**

@@ -1,0 +1,10 @@
+   /**
+    * Gets the value of this rule in the AlphaComposite class.
+    * @return the AlphaComposite constant value, or -1 if there is no matching constant
+    */
+   public int getValue()
+   {
+      try
+      {
+         return (Integer) AlphaComposite.class.getField(name).get(null);
+      }

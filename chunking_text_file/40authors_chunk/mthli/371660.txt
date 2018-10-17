@@ -1,0 +1,10 @@
+               if (!in.hasNextLine()) return;
+
+               String line = in.nextLine();
+               if (line.equalsIgnoreCase("EXIT")) return;
+               if (line.trim().endsWith(";")) // remove trailing semicolon
+               {
+                  line = line.trim();
+                  line = line.substring(0, line.length() - 1);
+               }
+               try

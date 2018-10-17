@@ -1,0 +1,10 @@
+		boolean mbln=true;
+		moDivisionCodeIsValid.DivisionCodeIsValid(tstrDivisionCode);
+		if (moDivisionCodeIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}
+		return mbln;
+	}
+	public boolean GLCodeIsValid(String tstrCompCode,String tstrGLCode) {
+		boolean mbln=true;
+		moGLCodeIsValid.GLCodeIsValid(tstrCompCode,tstrGLCode);

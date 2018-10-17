@@ -1,0 +1,10 @@
+    } catch (org.apache.thrift.TException te) {
+      throw new java.io.IOException(te);
+    }
+  }
+
+  private static class NodeInfoStandardSchemeFactory implements SchemeFactory {
+    public NodeInfoStandardScheme getScheme() {
+      return new NodeInfoStandardScheme();
+    }
+  }

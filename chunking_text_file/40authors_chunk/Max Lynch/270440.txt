@@ -1,0 +1,10 @@
+		JInternalFrame f = new JInternalFrame(title, false, false, false, false);
+		f.setBounds(x, y, w, h);
+		f.getContentPane().setLayout(new BorderLayout());
+		f.getContentPane().add(component, BorderLayout.CENTER);
+		f.show();
+
+		return f;
+	}
+	
+	

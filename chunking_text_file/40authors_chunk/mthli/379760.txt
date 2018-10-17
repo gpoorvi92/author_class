@@ -1,0 +1,8 @@
+      out.writeObject(InetAddress.getLocalHost());
+      BitSet bs = new BitSet();
+      bs.set(1, 4);
+      bs.clear(2, 3);
+      out.writeObject(bs);
+      out.close();
+   }
+}

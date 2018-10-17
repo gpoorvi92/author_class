@@ -1,0 +1,10 @@
+      case 11:
+        return BATTERY_STATS;
+      case 12:
+        return BIND_ACCESSIBILITY_SERVICE;
+      case 13:
+        return BIND_APPWIDGET;
+      case 14:
+        return BIND_DEVICE_ADMIN;
+      case 15:
+        return BIND_INPUT_METHOD;

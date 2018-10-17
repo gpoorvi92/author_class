@@ -1,0 +1,10 @@
+	
+	
+	
+	public void addShape(ShapeLayerModel model)
+	{
+		renderMediator.addShape(model);
+	}
+	
+	public void addImageShape(Image img, ShapeLayerModel model)
+	{

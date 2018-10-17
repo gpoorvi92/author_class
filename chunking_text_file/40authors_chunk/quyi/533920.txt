@@ -1,0 +1,10 @@
+    if (isSetApiName()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.apiName, other.apiName);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetApiPackageName()).compareTo(other.isSetApiPackageName());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

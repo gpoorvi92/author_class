@@ -1,0 +1,10 @@
+        if (ENABLE_VERBOSE)
+            DebugLog.wfmt(
+                    TAG,
+                    "queueLoader x%x, %s-%d",
+                    request.hashCode(),
+                    new String(request.mArgs
+                            .getString(LoaderBundle._BUNDLE_NAME)),
+                    request.mArgs.getInt(LoaderBundle._BUNDLE_ID));
+
+        mRequestQueue.addFirst(request);

@@ -1,0 +1,10 @@
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("SystemResources(");
+    boolean first = true;
+
+    sb.append("processName:");
+    if (this.processName == null) {
+      sb.append("null");
+    } else {

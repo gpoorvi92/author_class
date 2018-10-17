@@ -1,0 +1,10 @@
+
+    /**
+     * 短整型与字节的转换
+     */
+    public final static byte[] shortToByte(short number) {
+        int temp = number;
+        byte[] b = new byte[2];
+        for (int i = 0; i < b.length; i++) {
+            // 将最低位保存在最低位
+            b[i] = new Integer(temp & 0xff).byteValue();

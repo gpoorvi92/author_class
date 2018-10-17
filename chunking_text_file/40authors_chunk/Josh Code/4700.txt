@@ -1,0 +1,10 @@
+    }
+
+    /** @return true iff the vector was added
+     * @return false when the vector is not added.  A vector is not added when a duplicate already exists in the tree
+     */
+    public synchronized boolean add(Vector3D v)
+   {
+       if (v==null) // adding a null vector? That can't be done.
+           return false;
+

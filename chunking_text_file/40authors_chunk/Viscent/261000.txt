@@ -1,0 +1,10 @@
+				result = doProcess(subTask);
+				return result;
+			}
+
+		});
+
+		return new SubTaskFailureException(retryInfo, cause);
+	}
+
+	/**

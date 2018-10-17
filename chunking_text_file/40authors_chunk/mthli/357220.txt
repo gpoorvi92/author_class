@@ -1,0 +1,10 @@
+      Path filename = Paths.get(args[0]);
+      long crcValue = checksumInputStream(filename);
+      long end = System.currentTimeMillis();
+      System.out.println(Long.toHexString(crcValue));
+      System.out.println((end - start) + " milliseconds");
+
+      System.out.println("Buffered Input Stream:");
+      start = System.currentTimeMillis();
+      crcValue = checksumBufferedInputStream(filename);
+      end = System.currentTimeMillis();

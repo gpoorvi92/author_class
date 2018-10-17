@@ -1,0 +1,10 @@
+		allList.addAll(query1.list());
+		list.add(1,allList);
+		return list;
+	}
+
+	@Override
+	public List<Order> selectDoneOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order where doneStatus='done' and createDate between ? and ? and customerID like ? order by billID, createDate DESC,createTime DESC")
+				.addEntity(Order.class);

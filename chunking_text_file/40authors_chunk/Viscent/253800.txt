@@ -1,0 +1,10 @@
+		// Pipe间的关联关系在init方法中建立
+		pipes.add(pipe);
+	}
+
+	public <INPUT, OUTPUT> void addAsWorkerThreadBasedPipe(
+	    Pipe<INPUT, OUTPUT> delegate, int workerCount) {
+		addPipe(new WorkerThreadPipeDecorator<INPUT, OUTPUT>(delegate, workerCount));
+	}
+
+	public <INPUT, OUTPUT> void addAsThreadPoolBasedPipe(

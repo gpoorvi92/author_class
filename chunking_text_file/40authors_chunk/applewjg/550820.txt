@@ -1,0 +1,10 @@
+        for (int i = 0; i < 32; ++i) {
+            int one = 0;
+            for (int num : A) {
+                if (((num >> i) & 1) == 1) ++one;
+            }
+            res = res | ((one % 3)<<i);
+        }
+        return res;
+    }
+    public int singleNumber_2(int[] A) {

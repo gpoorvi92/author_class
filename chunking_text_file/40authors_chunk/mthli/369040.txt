@@ -1,0 +1,10 @@
+      double x = box.x;
+      if (w < box.width) x += (box.width - w) / 2;
+      double ascent = -stringBounds.getY();
+      double y = box.y + (box.height - stringBounds.getHeight()) / 2 + ascent;
+      g2.drawString(s.toString(), (float) x, (float) y);
+   }
+
+   public String getJavaInitializationString()
+   {
+      double[] values = (double[]) getValue();

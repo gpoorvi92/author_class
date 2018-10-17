@@ -1,0 +1,10 @@
+      openItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               chooser.setCurrentDirectory(new File("."));
+   
+               // show file chooser dialog
+               int result = chooser.showOpenDialog(ImageViewerFrame.this);
+   
+               // if image file accepted, set it as icon of the label

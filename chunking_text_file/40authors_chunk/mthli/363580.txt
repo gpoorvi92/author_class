@@ -1,0 +1,10 @@
+        /* toString的逆方法是valueOf */
+        Size size = Enum.valueOf(Size.class, input);
+        System.out.println("size=" + size);
+        System.out.println("abbreviation=" + size.getAbbreviation());
+        if (size == Size.EXTRA_LARGE)
+            System.out.println("Good job--you paid attention to the _.");      
+    }
+}
+
+/* 

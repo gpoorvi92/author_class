@@ -1,0 +1,10 @@
+
+    boolean this_present_ruleId = true && this.isSetRuleId();
+    boolean that_present_ruleId = true && that.isSetRuleId();
+    if (this_present_ruleId || that_present_ruleId) {
+      if (!(this_present_ruleId && that_present_ruleId))
+        return false;
+      if (!this.ruleId.equals(that.ruleId))
+        return false;
+    }
+

@@ -1,0 +1,10 @@
+                struct.nodeId = iprot.readString();
+                struct.setNodeIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 2: // PROPERTY_NAME
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.propertyName = iprot.readString();
+                struct.setPropertyNameIsSet(true);

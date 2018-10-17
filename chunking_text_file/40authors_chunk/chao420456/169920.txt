@@ -1,0 +1,10 @@
+
+	//效果不好看
+	public static void printArray(int[] arr) {
+		System.out.print("[");
+		for(int x=0; x<arr.length; x++) {
+			if(x == arr.length - 1) {
+				System.out.print(arr[x]);
+			} else {
+				System.out.print(arr[x]+", ");
+			}

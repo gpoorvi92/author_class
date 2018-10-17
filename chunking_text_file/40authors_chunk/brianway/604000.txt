@@ -1,0 +1,10 @@
+        t1.start();
+        Thread.sleep(2000);
+        Thread t2 = new Thread(runnable2);
+        t2.start();
+    }
+}
+
+
+/*
+输出：

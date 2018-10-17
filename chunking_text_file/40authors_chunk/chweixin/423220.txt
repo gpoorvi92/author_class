@@ -1,0 +1,10 @@
+	 * 	用户账号。
+	 * */
+	public void setAccount(String account) {
+		this.account = account;
+	}
+	/**
+	 * 设置用户密码。
+	 * @param password
+	 * 	用户密码。
+	 * */

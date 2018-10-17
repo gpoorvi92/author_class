@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case URL:
+      if (value == null) {
+        unsetUrl();
+      } else {
+        setUrl((String)value);
+      }
+      break;

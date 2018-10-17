@@ -1,0 +1,10 @@
+	private android.widget.ImageView pageCursor;
+	@InjectionView(id = R.id.title_recently, click = "pageTabClick")
+	private TextView recentTv;
+	@InjectionView(id = R.id.title_app, click = "pageTabClick")
+	private TextView appTv;
+	@InjectionView(id = R.id.title_more, click = "pageTabClick")
+	private TextView settingTv;
+
+	private View recentlyPage, appPage, settingPage;
+	private int pageBarWidth = 0;

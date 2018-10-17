@@ -1,0 +1,10 @@
+      catch (Exception ex) // the reflection methods can throw various exceptions
+      {
+         ex.printStackTrace();
+         return null;
+      }
+   }
+
+   /**
+    * Parses a value element.
+    * @param e a value element

@@ -1,0 +1,10 @@
+	public JLabel journal_title = new JLabel("journal Title");
+	public JLabel journal_type = new JLabel("journal Type");
+	public JLabel journal_cat = new JLabel("journal Category");
+	public JLabel issue_number = new JLabel("Journal Issue Number");
+	public JLabel class_no = new JLabel("Classification No");
+	public JLabel publisher = new JLabel("Publisher");
+	public JLabel place = new JLabel("Place Published");
+	public JLabel yer = new JLabel("Year");
+	public JLabel pages = new JLabel("Pages");
+}

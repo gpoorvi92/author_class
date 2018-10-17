@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public ActionResponse()
+	{
+		setHeader(HTTP.EXT, "");
+	}
+
+	public ActionResponse(SOAPResponse soapRes)
+	{
+		super(soapRes);

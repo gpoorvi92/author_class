@@ -1,0 +1,10 @@
+            "--avcodec-threads=0", "--http-hosts-reject-range",
+            "v.youku.com,f.youku.com", "--ts-seek-percent" };
+
+    private static boolean mLibIomxLoaded = false;
+
+    private static boolean mLibVlcLoaded = false;
+    private static LibVLC sInstance;
+
+    /** libVLC instance C pointer */
+    private long mLibVlcInstance = 0; // Read-only, reserved for JNI

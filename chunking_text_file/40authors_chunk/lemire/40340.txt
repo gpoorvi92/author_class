@@ -1,0 +1,10 @@
+        this.pointer += this.rlw.getNumberOfLiteralWords() + 1;
+        return this.rlw;
+    }
+
+    @Override
+    public EWAHIterator32 clone() throws CloneNotSupportedException {
+        return new EWAHIterator32(pointer,rlw.clone(),size);
+    }
+
+    /**

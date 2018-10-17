@@ -1,0 +1,10 @@
+            }
+        }
+    }
+    protected class LocationQueue {
+        public LocationQueue(int num) {
+            queue = new Location[num];
+            head = tail = 0;
+            len = num;
+        }
+        public LocationQueue() {

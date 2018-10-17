@@ -1,0 +1,10 @@
+		mContainer.setMinuteInterval(minuteInterval);
+		mContainer.setTime(mInitialTime);
+		if (minTime != null)
+			mContainer.setMinTime(minTime);
+		if (maxTime != null)
+			mContainer.setMaxTime(maxTime);
+
+		Button okButton = (Button) findViewById(R.id.dateSliderOkButton);
+		okButton.setOnClickListener(okButtonClickListener);
+

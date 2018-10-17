@@ -1,0 +1,10 @@
+	
+	Stroke stroke;
+
+	
+	public StrokeControls(RenderSurface renderSurface)
+	{
+		
+		
+		this.renderSurface = renderSurface;
+		

@@ -1,0 +1,10 @@
+              
+        int inset = 250;
+        addButtons(toolBar);
+        
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        
+        Container c = getContentPane();
+        setSize(800, 500);
+ 		setLocation(0, 0);
+ 		setResizable(false);

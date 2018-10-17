@@ -1,0 +1,10 @@
+    {
+        String gameServer = zoneEntity.getGameServerHost() == null ? null : zoneEntity.getGameServerHost().trim();
+        String chatServer = zoneEntity.getChatServerHost() == null ? null : zoneEntity.getChatServerHost().trim();
+        if (gameServer != null)
+        {
+            if (!gameServerRpcClientMap.containsKey(gameServer))
+            {
+                try
+                {
+                    String[] subs = gameServer.split(":");

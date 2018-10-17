@@ -1,0 +1,10 @@
+	 */
+	public void visitMotionSensor( DevCat devCat );
+
+	/**
+	 * Visits a MSR DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitMSR( DevCat devCat );
+
+	/**

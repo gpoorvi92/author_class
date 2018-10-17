@@ -1,0 +1,10 @@
+							break;
+						}
+					}
+				}).show();
+	}
+
+	public static void showChatClickTextDialog(final AutoActivity ctx,
+			final ListView chatList, final ProgressBar pb, final ImageView iv,
+
+			final AbstractCommonData acd) {

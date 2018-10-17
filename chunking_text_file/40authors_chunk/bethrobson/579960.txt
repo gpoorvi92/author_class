@@ -1,0 +1,10 @@
+            }
+            outgoing.setText("");
+            outgoing.requestFocus();
+        }
+    }
+    
+    public static void main(String[] args) {
+        new SimpleChatClientA().go();
+    }
+}

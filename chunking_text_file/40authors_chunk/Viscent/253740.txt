@@ -1,0 +1,10 @@
+		}));
+
+	}
+
+	public SimplePipeline(final ExecutorService helperExecutor) {
+		super();
+		this.helperExecutor = helperExecutor;
+	}
+
+	@Override

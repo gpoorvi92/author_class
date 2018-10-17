@@ -1,0 +1,10 @@
+            this.packet = packet;
+        }
+        private final Channel       channel;
+        private final Rpc.RpcPacket packet;
+        @Override
+        public void run()
+        {
+        }
+        public Rpc.RpcPacket getPacket()
+        {

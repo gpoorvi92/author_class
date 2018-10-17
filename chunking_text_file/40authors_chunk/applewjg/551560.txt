@@ -1,0 +1,10 @@
+ and [3,4,-1,1] return 2.
+ Your algorithm should run in O(n) time and uses constant space.
+
+ Solution: Although we can only use constant space, we can still exchange elements within input A!
+           Swap elements in A and try to make all the elements in A satisfy: A[i] == i + 1.
+           Pick out the first one that does not satisfy A[i] == i + 1.
+ */
+public class Solution {
+    public int firstMissingPositive_1(int[] A) {
+        for(int i=0;i<A.length;i++)

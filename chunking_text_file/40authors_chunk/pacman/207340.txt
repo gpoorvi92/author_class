@@ -1,0 +1,10 @@
+	 * @param taskid
+	 * @return
+	 */
+	TaskModel findByPk(int taskid);
+	
+	/**
+	 * finds models by lesson id.
+	 * 
+	 * @param lessonId
+	 * @return

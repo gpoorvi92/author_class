@@ -1,0 +1,10 @@
+    if (other.isSetMissionId()) {
+      this.missionId = other.missionId;
+    }
+    if (other.isSetUserAppId()) {
+      this.userAppId = other.userAppId;
+    }
+    if (other.isSetUsedPermissions()) {
+      List<Map<String,APICheck>> __this__usedPermissions = new ArrayList<Map<String,APICheck>>(other.usedPermissions.size());
+      for (Map<String,APICheck> other_element : other.usedPermissions) {
+        __this__usedPermissions.add(other_element);

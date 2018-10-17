@@ -1,0 +1,10 @@
+                while ((len = is.read()) != -1) {
+                    zos.write(len);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**

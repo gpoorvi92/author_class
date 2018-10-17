@@ -1,0 +1,10 @@
+      matrix yRotation = get3By3RotationMatrix(1,rotationComponents.y);
+      matrix zRotation = get3By3RotationMatrix(2,rotationComponents.z);
+      matrix result = getIdentity(3);
+
+      try
+      {
+          result.multiplyBy(xRotation);
+          result.multiplyBy(yRotation);
+          result.multiplyBy(zRotation);
+      }

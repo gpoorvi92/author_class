@@ -1,0 +1,10 @@
+//   Added new ScanDataType constants.
+// 2007-Jan-04 JavaPOS Release 1.11                                BS
+//   Added new ScanDataType constants:
+//       SCAN_SDT_DATAMATRIX
+//       SCAN_SDT_QRCODE
+//       SCAN_SDT_UQRCODE
+//       SCAN_SDT_AZTEC
+//       SCAN_SDT_UPDF417
+// 2008-Jan-14 JavaPOS Release 1.12                                BS
+//   Added new ScanDataType constants:

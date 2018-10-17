@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, ScanEventMessage event) {
+		return this.buildDefaultReply(context, event);
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, LocationEventMessage event) {
+		return this.buildDefaultReply(context, event);

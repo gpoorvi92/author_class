@@ -1,0 +1,7 @@
+                }
+            }
+        }
+
+        return HTTP.DEFAULT_CONTENT_CHARSET;
+    }
+}

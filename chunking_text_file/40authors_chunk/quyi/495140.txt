@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetCheckStartTime()) {
+        oprot.writeString(struct.checkStartTime);
+      }
+      if (struct.isSetCheckStopTime()) {
+        oprot.writeString(struct.checkStopTime);
+      }
+    }
+
+    @Override

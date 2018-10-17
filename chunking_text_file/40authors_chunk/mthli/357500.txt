@@ -1,0 +1,10 @@
+
+/**
+ * This frame has a menu to load an image and to specify various transformations, and a component to
+ * show the resulting image.
+ */
+public class ImageProcessingFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 400;
+

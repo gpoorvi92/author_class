@@ -1,0 +1,10 @@
+    private String severity;
+    private String confidence;
+    private String issueDetail;
+    private String remediationDetail;
+
+    public CustomScanIssue(
+            IHttpService httpService,
+            URL url, 
+            IHttpRequestResponse[] httpMessages, 
+            String name,

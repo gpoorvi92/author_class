@@ -1,0 +1,10 @@
+        return userMapper.selectByPrimaryKey(userId);
+    }
+
+    @Override
+    public List<User> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<User> userList = userMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(userMapper.getTotalCount(vo));
+        return userList;
+    }

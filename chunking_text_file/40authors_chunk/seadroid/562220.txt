@@ -1,0 +1,10 @@
+    }
+
+    public X509Certificate getCertificate(Account account) {
+        X509Certificate cert = cachedCerts.get(account);
+        if (cert != null) {
+            return cert;
+        }
+
+        cert = db.getCertificate(account.server);
+        if (cert != null) {

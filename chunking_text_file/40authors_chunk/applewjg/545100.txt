@@ -1,0 +1,10 @@
+                int tmp = num[j];
+                num[j] = num[i-1];
+                num[i-1] = tmp;
+                for (int l = i, r = last; l < r; ++l, --r) {
+                    int t = num[l];
+                    num[l] = num[r];
+                    num[r] = t;
+                }
+                return;
+            }

@@ -1,0 +1,10 @@
+		
+		assertTrue(FileHelper.exists(destFile));
+		assertTrue(FileHelper.exists(testFile));
+	}
+
+	@Test
+	public void testMoveFile() throws IOException {
+		
+		String destFile = FileHelper.combinePath(destDir, "ddd.cp");
+		FileHelper.moveFile(testFile, destFile);

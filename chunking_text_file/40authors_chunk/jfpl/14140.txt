@@ -1,0 +1,10 @@
+			mapManager.stop();
+		}
+		locationClient.stop();
+		super.onPause();
+	}
+
+	@Override
+	protected void onResume() {
+		mapView.onResume();
+		if (mapView != null) {

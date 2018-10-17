@@ -1,0 +1,10 @@
+      try {
+ 
+         Sequencer player = MidiSystem.getSequencer();         
+         player.open();
+        
+         Sequence seq = new Sequence(Sequence.PPQ, 4);         
+         Track track = seq.createTrack();  
+          
+         MidiEvent event = null;
+

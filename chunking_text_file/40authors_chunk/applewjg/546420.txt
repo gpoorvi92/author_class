@@ -1,0 +1,10 @@
+            if ((i < height.length - 1) && (height[i] <= height[i+1])) {
+                continue;
+            }
+            int minheight = height[i];
+            for (int j = i; j >= 0; --j) {
+                minheight = Math.min(minheight, height[j]);
+                res = Math.max(res, (i-j+1)*minheight);
+            }
+        }
+        return res;

@@ -1,0 +1,10 @@
+            List<String> bindingNames = result.getBindingNames();
+            int size = result.getBindingNames().size();
+            //System.out.println("Size of result data = " + size);
+            while (result.hasNext()) {
+                BindingSet bindingSet = result.next();
+                int size2 = bindingSet.size();
+                //System.out.println("size2 = " + size2);
+                List<String> temp = new ArrayList<String>(size2);
+                for (int i = 0; i < size2; i++) {
+                    String val = bindingSet.getValue(bindingNames.get(i)).stringValue();

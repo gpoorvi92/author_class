@@ -1,0 +1,7 @@
+        } catch (ServiceException e) {
+            map.put(Constants.RESULT_CODE, "0");
+            map.put(Constants.ERROR_MESSAGE, e.getMessage());
+        }
+        return map;
+    }
+}

@@ -1,0 +1,10 @@
+            encoding = "ASCII";
+            found = true;
+        }
+
+        if (!found) {
+            String prob[] = det.getProbableCharsets();
+            if (prob.length > 0) {
+                // 在没有发现情况下，则取第一个可能的编码
+                encoding = prob[0];
+            } else {

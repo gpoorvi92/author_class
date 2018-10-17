@@ -1,0 +1,10 @@
+    public Buffer32 buffer() {
+        return this.rlw.buffer;
+    }
+
+    /**
+     * Position of the literal words represented by this running length
+     * word.
+     *
+     * @return the int
+     */

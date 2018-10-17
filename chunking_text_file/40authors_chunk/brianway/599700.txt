@@ -1,0 +1,10 @@
+//myThread.setUncaughtExceptionHandler(new ObjectUncaughtExceptionHandler());
+//类
+MyThread.setDefaultUncaughtExceptionHandler(new StateUncaughtExceptionHandler());
+输出：
+java.lang.NumberFormatException: For input string: "a"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.brianway.learning.java.multithread.supplement.example6.MyThread.run(MyThread.java:18)
+java.lang.NumberFormatException: For input string: "a"

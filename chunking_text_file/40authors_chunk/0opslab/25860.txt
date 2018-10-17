@@ -1,0 +1,10 @@
+        if (valid.valid(fields)) {
+            for (Field f : fields) {
+                if (f.getName().equals(pro)) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+

@@ -1,0 +1,10 @@
+		}
+	}
+	/**
+	 * 根据LoginToken实体删除令牌
+	 * @param loginToken
+	 */
+	public void deleteToken(LoginToken loginToken){
+		if(loginToken!=null){
+			DBCollection coll=connection.getCollection(COLLECTION_NAME);
+			coll.remove(loginToken.toDbObject(),WriteConcern.NONE);

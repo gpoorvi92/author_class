@@ -1,0 +1,10 @@
+      try
+      {
+         String typeName = (String) typeCombo.getSelectedItem();
+         QName returnType = (QName) XPathConstants.class.getField(typeName).get(null);
+         Object evalResult = path.evaluate(expression.getText(), doc, returnType);
+         if (typeName.equals("NODESET"))
+         {
+            NodeList list = (NodeList) evalResult;
+            StringBuilder builder = new StringBuilder();
+            builder.append("{");

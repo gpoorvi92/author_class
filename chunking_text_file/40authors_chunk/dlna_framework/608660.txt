@@ -1,0 +1,10 @@
+*	01/14/03
+*		- first revision.
+*	03/16/04
+*		- Thanks for Darrell Young
+*		- Fixed to set v1.1 to the HTTP version.;
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.ssdp;
+

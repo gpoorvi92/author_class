@@ -1,0 +1,10 @@
+               JFrame frame = new PlanetTableFrame();
+               frame.setTitle("TableTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**

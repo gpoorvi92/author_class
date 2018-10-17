@@ -1,0 +1,10 @@
+		return null;
+	}
+	
+	private synchronized ModuleDefine findDefine(ModuleDefineCollection collection, String moduleId){
+		if(collection != null && collection.size() > 0 && moduleId != null && !moduleId.trim().isEmpty()){
+			for(int i = 0; i < collection.size(); i++){
+				ModuleDefine m = collection.item(i);
+				if(m != null && m.getModuleID().equalsIgnoreCase(moduleId)){
+					return m;
+				}else if(m.getModules() != null && m.getModules().size() > 0){

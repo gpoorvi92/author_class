@@ -1,0 +1,10 @@
+
+    case APK_MD5:
+      return getApk_md5();
+
+    case NOTIFY_CALLBACK_URL:
+      return getNotify_callback_url();
+
+    case APP_DESCRIPTION:
+      return getApp_description();
+

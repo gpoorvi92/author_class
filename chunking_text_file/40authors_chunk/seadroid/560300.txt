@@ -1,0 +1,9 @@
+
+    @Override
+    protected void onSaveDialogContentState(Bundle outState) {
+        outState.putString(STATE_REPO_ID, repoID);
+        outState.putString(STATE_PATH, path);
+        outState.putBoolean(STATE_ISDIR, isdir);
+        outState.putParcelable(STATE_ACCOUNT, account);
+    }
+}

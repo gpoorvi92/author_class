@@ -1,0 +1,10 @@
+				case 0://有钱进时玩家确认进
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					buildArrowTower();//有几率为英雄建造箭垛
+					break;
+				case 1://无钱进时玩家确认放弃拜访
+				case 2://拜访成功
+				case 3://拜访失败
+				case 4://拜访成功，但是建造失败，原因是之前的还正在建造
+					recoverGame();
+					break;

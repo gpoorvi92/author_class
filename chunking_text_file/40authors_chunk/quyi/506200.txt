@@ -1,0 +1,8 @@
+        return methodNotAllowed;
+      case 408:
+        return requestTimeOut;
+      default:
+        return null;
+    }
+  }
+}

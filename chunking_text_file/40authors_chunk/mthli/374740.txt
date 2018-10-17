@@ -1,0 +1,10 @@
+               String s = numberText.getText().trim();
+               try
+               {
+                  Number n = currentNumberFormat.parse(s);
+                  if (n != null)
+                  {
+                     currentNumber = n.doubleValue();
+                     updateDisplay();
+                  }
+                  else

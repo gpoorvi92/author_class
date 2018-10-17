@@ -1,0 +1,10 @@
+    }
+
+    private void addExtraLoader(int id) {
+        mLoaderPool.add(id);
+    }
+
+    private void addExtraLoaderRange(int begin, int end) {
+        for (int i = begin; i < end; ++i)
+            addExtraLoader(i);
+

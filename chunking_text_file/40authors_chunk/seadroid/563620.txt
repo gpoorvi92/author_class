@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    protected void enableInput() {
+        super.enableInput();
+        dirNameText.setEnabled(true);
+    }
+
+    @Override
+    protected NewDirTask prepareTask() {

@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Sets the indexed values property.
+    * @param v the values to display in the chart.
+    */
+   public void setValues(double[] v)
+   {
+      values = v;
+   }

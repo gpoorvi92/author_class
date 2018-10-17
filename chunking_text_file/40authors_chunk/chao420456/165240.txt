@@ -1,0 +1,10 @@
+		xajh.put("林平之", "岳灵珊");
+
+		// 把元素添加到集合
+		array.add(sgyy);
+		array.add(sdxl);
+		array.add(xajh);
+
+		// 遍历集合
+		for (HashMap<String, String> hm : array) {
+			Set<String> set = hm.keySet();

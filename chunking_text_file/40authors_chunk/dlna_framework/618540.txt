@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private InputStream sockIn = null;
+	private OutputStream sockOut = null;
+
+	private void setInputStream(InputStream in)
+	{
+		sockIn = in;
+	}
+	

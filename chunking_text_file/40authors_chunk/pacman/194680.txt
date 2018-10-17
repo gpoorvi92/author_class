@@ -1,0 +1,10 @@
+		MockModel model = new MockModel();
+		model.setId(123);
+		model.setName("lolita");
+		model.setSalary(1000.0d);
+		
+		IMQSender sender = mgr.getSender(QueueType.QUEUE_AUDIO);
+		assertNotNull(sender);
+		IMQReceiver receiver = mgr.getReceiver(QueueType.QUEUE_AUDIO);
+		assertNotNull(receiver);
+		receiver.addListener(new MockListener());

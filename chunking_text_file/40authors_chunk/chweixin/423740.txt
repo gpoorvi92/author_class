@@ -1,0 +1,10 @@
+	@Override
+	public List<WeChatAccessToken> findAccessTokens(WeChatAccessTokenInfo info) {
+		String hql = "from WeChatAccessToken w where 1 = 1 ";
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		hql = this.addWhere(info, hql, parameters);
+		if(info.getSort() != null && !info.getSort().trim().isEmpty()){
+			if(info.getSort().equalsIgnoreCase("accountName")){
+				info.setSort("account.name");
+			}
+			hql += " order by w." + info.getSort() + " " + info.getOrder();

@@ -1,0 +1,10 @@
+	   	JLabel jlbl = new JLabel("Menu View",restpic,SwingConstants.CENTER);
+    	jlbl.setForeground(Color.red);
+    	jlbl.setHorizontalTextPosition(SwingConstants.CENTER);
+    	jlbl.setVerticalTextPosition(SwingConstants.NORTH);
+    	jlbl.setIconTextGap(5);
+			
+		JPanel p1=new JPanel();
+		p1.setLayout(new FlowLayout());
+		p1.setBackground(Color.white);
+		p1.add(jlbl, BorderLayout.NORTH);

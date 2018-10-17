@@ -1,0 +1,10 @@
+// 2008-Jan-14 JavaPOS Release 1.12                                BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface ElectronicJournalControl112 extends ElectronicJournalControl111
+{

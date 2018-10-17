@@ -1,0 +1,10 @@
+    }
+    if (other.isSetPlotsStatus()) {
+      Map<PlotsType,CheckResultStatus> __this__plotsStatus = new HashMap<PlotsType,CheckResultStatus>(other.plotsStatus.size());
+      for (Map.Entry<PlotsType, CheckResultStatus> other_element : other.plotsStatus.entrySet()) {
+
+        PlotsType other_element_key = other_element.getKey();
+        CheckResultStatus other_element_value = other_element.getValue();
+
+        PlotsType __this__plotsStatus_copy_key = other_element_key;
+

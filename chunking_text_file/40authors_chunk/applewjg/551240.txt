@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 13, 2015
+ Problem:    Clone Graph
+ Difficulty: Medium
+ Source:     http://oj.leetcode.com/problems/clone-graph/
+ Notes:
+ Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
+ 
+ OJ's undirected graph serialization:

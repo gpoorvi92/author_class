@@ -1,0 +1,10 @@
+
+    private boolean selected;
+    private File file;
+
+    public SelectableFile(String path) {
+        selected = false;
+        file = new File(path);
+    }
+
+    public SelectableFile(File file, boolean isSelected) {

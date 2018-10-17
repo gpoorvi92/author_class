@@ -1,0 +1,10 @@
+
+    private static class reportEngineConfig_argsTupleSchemeFactory implements SchemeFactory {
+      public reportEngineConfig_argsTupleScheme getScheme() {
+        return new reportEngineConfig_argsTupleScheme();
+      }
+    }
+
+    private static class reportEngineConfig_argsTupleScheme extends TupleScheme<reportEngineConfig_args> {
+
+      @Override

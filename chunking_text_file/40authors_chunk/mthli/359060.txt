@@ -1,0 +1,10 @@
+   public int getChildCount(Object parent)
+   {
+      return ((Variable) parent).getFields().size();
+   }
+
+   public Object getChild(Object parent, int index)
+   {
+      ArrayList<Field> fields = ((Variable) parent).getFields();
+      Field f = (Field) fields.get(index);
+      Object parentValue = ((Variable) parent).getValue();

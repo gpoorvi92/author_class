@@ -1,0 +1,10 @@
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Voice voice = (Voice) o;
+
+        if (file_id != null ? !file_id.equals(voice.file_id) : voice.file_id != null) return false;
+        if (duration != null ? !duration.equals(voice.duration) : voice.duration != null) return false;
+        if (mime_type != null ? !mime_type.equals(voice.mime_type) : voice.mime_type != null) return false;
+        return file_size != null ? file_size.equals(voice.file_size) : voice.file_size == null;

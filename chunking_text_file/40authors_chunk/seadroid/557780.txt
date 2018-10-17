@@ -1,0 +1,10 @@
+    //  of the AccountInfo instance
+    // to assign value to it, explicitly call its setter method.
+    private String server;
+
+    public AccountInfo() {}
+
+    public static  AccountInfo fromJson(JSONObject accountInfo) throws JSONException {
+        AccountInfo info = new AccountInfo();
+        info.usage = accountInfo.getLong("usage");
+        info.total = accountInfo.getLong("total");

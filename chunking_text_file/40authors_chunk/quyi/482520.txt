@@ -1,0 +1,10 @@
+      this.status = status;
+      return this;
+    }
+
+    public void unsetStatus() {
+      this.status = null;
+    }
+
+    /** Returns true if field status is set (has been assigned a value) and false otherwise */
+    public boolean isSetStatus() {

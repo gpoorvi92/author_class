@@ -1,0 +1,10 @@
+    public void    findByIndex(int index, String[] fileName)
+                       throws JposException;
+    public void    read(int hTotalsFile, byte[] data, int offset,
+                       int count) throws JposException;
+    public void    recalculateValidationData(int hTotalsFile)
+                       throws JposException;
+    public void    releaseFile(int hTotalsFile) throws JposException;
+    public void    rename(int hTotalsFile, String fileName)
+                       throws JposException;
+    public void    rollback() throws JposException;

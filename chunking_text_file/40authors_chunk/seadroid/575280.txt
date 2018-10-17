@@ -1,0 +1,10 @@
+            return;
+        Toast.makeText(activity, message, Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * Show the given message in a {@link Toast} for a long period of time
+     * <p>
+     * This method may be called from any thread
+     *
+     * @param activity

@@ -1,0 +1,10 @@
+ * Long array wrapper.
+ * Users should not be concerned by this class.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class LongArray implements Buffer, Cloneable {
+
+    /**
+     * Creates a buffer with default size
+     */

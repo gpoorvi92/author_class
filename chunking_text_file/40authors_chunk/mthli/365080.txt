@@ -1,0 +1,10 @@
+
+      int getLoggerIndex = cpg.addMethodref("java.util.logging.Logger", "getLogger",
+            "(Ljava/lang/String;)Ljava/util/logging/Logger;");
+      int enteringIndex = cpg.addMethodref("java.util.logging.Logger", "entering",
+            "(Ljava/lang/String;Ljava/lang/String;)V");
+
+      InstructionList il = mg.getInstructionList();
+      InstructionList patch = new InstructionList();
+      patch.append(new PUSH(cpg, loggerName));
+      patch.append(new INVOKESTATIC(getLoggerIndex));

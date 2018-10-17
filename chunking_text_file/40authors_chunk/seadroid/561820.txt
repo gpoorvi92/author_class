@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    protected void onPostExecute(File file) {
+        if (downloadStateListener != null) {
+            if (file != null) {
+                state = TaskState.FINISHED;
+                localPath = file.getPath();
+                downloadStateListener.onFileDownloaded(taskID);

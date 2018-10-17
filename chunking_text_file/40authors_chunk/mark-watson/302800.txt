@@ -1,0 +1,10 @@
+            } else {
+                Scanner scanner =
+                        new Scanner(ins);
+                scanner.useDelimiter
+                        (System.getProperty("line.separator"));
+                while (scanner.hasNext()) {
+                    parseLine(scanner.next());
+                }
+                scanner.close();
+            }

@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testIsLowercaseAlpha() throws Exception {
+
+    }
+
+    @Test
+    public void testIsUppercaseAlpha() throws Exception {
+

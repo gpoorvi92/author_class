@@ -1,0 +1,10 @@
+    public View newDropDownView(LayoutInflater inflater, int position, ViewGroup container) {
+        return newView(inflater, position, container);
+    }
+
+    /**
+     * Bind the data for the specified {@code position} to the drop-down view.
+     */
+    public void bindDropDownView(T item, int position, View view) {
+        bindView(item, position, view);
+    }

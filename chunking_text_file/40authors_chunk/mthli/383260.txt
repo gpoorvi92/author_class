@@ -1,0 +1,10 @@
+         }
+         else return false;
+      }
+      else return false;
+   }
+
+   /**
+    * Gets the bad words that this permission rule describes.
+    * @return a set of the bad words
+    */

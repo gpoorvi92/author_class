@@ -1,0 +1,10 @@
+      return true;
+    }
+    if (obj == null) {
+      return false;
+    }
+    if (this.getClass() != obj.getClass()) {
+      return false;
+    }
+    final Entry<V,K> other = (Entry<V,K>) obj;
+    if (this.m_key == null) {

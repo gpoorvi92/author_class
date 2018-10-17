@@ -1,0 +1,10 @@
+
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		final ScreenCapture screenCapture = new ScreenCapture();
+		scene.attachChild(screenCapture);

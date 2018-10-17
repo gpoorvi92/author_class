@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 25, 2014
+ Problem:    Permutations II
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/permutations-ii/
+ Notes:
+ Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+ For example,
+ [1,1,2] have the following unique permutations:

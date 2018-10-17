@@ -1,0 +1,10 @@
+        forwardMessageId = Integer.parseInt(properties.getProperty("FORWARD_MESSAGE"));
+        stickerId = properties.getProperty("STICKER_FILE_ID");
+    }
+
+    @Test
+    public void getMe() {
+        bot.execute(new GetMe());
+    }
+
+    @Test

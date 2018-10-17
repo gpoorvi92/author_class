@@ -1,0 +1,10 @@
+/*
+	老师案例
+		具体事物：基础班老师，就业班老师
+		共性：姓名，年龄，讲课。
+*/
+abstract class Teacher {
+	private String name;
+	private int age;
+
+	public Teacher(){}

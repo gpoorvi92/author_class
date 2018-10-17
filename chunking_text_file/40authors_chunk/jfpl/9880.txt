@@ -1,0 +1,10 @@
+	protected void onListItemClick(String prxName, ListView l, View v,
+			int position, long id) {
+		final ProgressBar sendState = (ProgressBar) v
+				.findViewById(R.id.send_state);
+		final ImageView sendFinishState = (ImageView) v
+				.findViewById(R.id.send_finish_state);
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		String msgType = acd.getStringValue("msg_type");
+		String type = acd.getStringValue("type");
+		if ("1".equals(msgType) && "1".equals(type)) {

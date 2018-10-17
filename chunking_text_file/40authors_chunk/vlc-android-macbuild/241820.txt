@@ -1,0 +1,10 @@
+    @Override
+    public void prepareAsync() throws IllegalStateException {
+        mMediaPlayer.prepareAsync();
+    }
+
+    @Override
+    public void release() {
+        mMediaPlayer.release();
+    }
+

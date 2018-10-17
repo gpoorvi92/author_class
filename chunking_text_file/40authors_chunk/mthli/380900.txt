@@ -1,0 +1,10 @@
+               frame.setTitle("BounceThread");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * A runnable that animates a bouncing ball.

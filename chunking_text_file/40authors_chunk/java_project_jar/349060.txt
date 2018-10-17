@@ -1,0 +1,7 @@
+        buffer.append(")");
+        return buffer.toString();
+    }
+
+    private final String prefixes[];
+    private final IOCase caseSensitivity;
+}

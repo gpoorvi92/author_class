@@ -1,0 +1,10 @@
+		 * cell.getRow(); } catch (IOException e) { // TODO Auto-generated catch
+		 * block e.printStackTrace(); }
+		 */
+		 new Thread(new SingleRecordInfoConsumer("D:\\批量下发统计.xls")).start();
+		//autoIssueSingleMessage();
+		//autoissueMessages("C:\\Users\\Administrator\\Desktop\\不正常\\有毒表格.xls", 10, 15*60000, 100, 0);
+		autoissueMessages("C:\\Users\\Administrator\\Desktop\\20160817信工所\\正常4.xls", 4, 15*60000, 4, 0);
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 20, 13*5*60000, 13, 6);
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 50, 19*5*60000, 19, 7);
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 100, 450*60000, 400, 8);

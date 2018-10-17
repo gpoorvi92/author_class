@@ -1,0 +1,10 @@
+            ListNode tmp = dummy;
+            while (tmp.next != null && tmp.next.val <= cur.val) tmp = tmp.next;
+            ListNode next = cur.next;
+            cur.next = tmp.next;
+            tmp.next = cur;
+            cur = next;
+        }
+        return dummy.next;
+    }
+}

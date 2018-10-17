@@ -1,0 +1,10 @@
+    case PROCESS_NAME:
+      return getProcessName();
+
+    case THREAD_NAME:
+      return getThreadName();
+
+    case CHECK_TIME:
+      return getCheckTime();
+
+    case DEVICE_TYPE:

@@ -1,0 +1,10 @@
+	@Deprecated
+	public ConnectionPongServerMessage() {
+
+	}
+
+	public ConnectionPongServerMessage(final long pTimestamp) {
+		this.mTimestamp = pTimestamp;
+	}
+
+	// ===========================================================

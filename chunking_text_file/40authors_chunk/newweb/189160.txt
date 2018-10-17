@@ -1,0 +1,10 @@
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public List<MaterialBrand> selectMaterialBrandsByType(String type) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_materialbrand where valid = true and type=?")
+				.addEntity(MaterialBrand.class);

@@ -1,0 +1,10 @@
+		private final BlockingQueue<String> workQueue = new ArrayBlockingQueue<String>(
+		    100);
+
+		// 用于处理队列workQueue中的任务的工作者线程
+		private final Thread workerThread = new Thread() {
+
+			@Override
+			public void run() {
+				String task = null;
+				while (true) {

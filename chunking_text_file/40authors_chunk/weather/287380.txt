@@ -1,0 +1,10 @@
+        mSliderBackGround = (FrameLayout) mSlidingPaneLayout.findViewById(R.id.container_fragment_list);
+        slidingPaneConfiguration();
+        mDraggable = true;
+        mIsTransparent = false;
+        mHasBackGround = false;
+        mSlidingPaneLayout.setPanelSlideListener(new SlidingPaneLayout.PanelSlideListener() {
+            @Override
+            public void onPanelSlide(View view, float v) {
+                int alpha = (int) (255 * 0.8 * (1 - v));
+                if (mHasBackGround == false && mEnableBgBitMap) {

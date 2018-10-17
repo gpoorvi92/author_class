@@ -1,0 +1,10 @@
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("plots:");
+      if (this.plots == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.plots);
+      }
+      first = false;

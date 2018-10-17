@@ -1,0 +1,10 @@
+
+    /// public javax.swing.JDialog(java.awt.Window,java.lang.String)
+
+    JDialogProxy( java.awt.Window owner, java.lang.String title , long swiftObject ) {
+        super( owner, title );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JDialog(java.awt.Window,java.awt.Dialog$ModalityType)
+

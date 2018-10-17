@@ -1,0 +1,10 @@
+
+
+/**
+ * Abstract class that is persisted on the filesystem and contains information about the files being
+ * uploaded.<br>
+ * You can of course extend it if you want to persist other stuff on the filesystem. If you do so,
+ * you will have to call {@link StaticStateManager#init(Class)} with the type of the class you
+ * defined extending this one.
+ * 
+ * @author antoinem

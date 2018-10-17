@@ -1,0 +1,10 @@
+            fb.close();
+          }
+        };
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, searchEng_args args, org.apache.thrift.async.AsyncMethodCallback<Engine> resultHandler) throws TException {

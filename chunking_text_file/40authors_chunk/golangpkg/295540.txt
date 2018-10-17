@@ -1,0 +1,10 @@
+
+
+	public Long getOriginalFileSizeInBytes() {
+		return originalFileSizeInBytes;
+	}
+
+
+	public void setOriginalFileSizeInBytes(Long originalFileSizeInBytes) {
+		this.originalFileSizeInBytes = originalFileSizeInBytes;
+	}

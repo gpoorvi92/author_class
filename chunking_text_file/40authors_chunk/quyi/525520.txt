@@ -1,0 +1,10 @@
+		Context context = new Context();
+		context.setJobPhase(JobPhase.ON_STATIC);
+		// FIXME test data here
+		context.setBundleType(BundleType.ZIP);
+		context.setEnvVariables("env=jar");
+		context.setExecutableMd5("test");
+		context.setExecutableName("test");
+		context.setExecutablePath("text");
+		// context.setProgramId(1100000301L);
+		context.setProgramName("test");

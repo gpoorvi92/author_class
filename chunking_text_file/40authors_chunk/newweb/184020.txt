@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.Customer;
+import com.newweb.model.base.Small;
+
+@Entity
+@Table(name="t_smallpricecut")
+public class SmallPriceCut {
+	private int ID;
+	private Customer customer;
+	private Small small;

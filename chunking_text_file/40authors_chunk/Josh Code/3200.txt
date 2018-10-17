@@ -1,0 +1,10 @@
+public class ModelJMenu extends JMenu
+{ 
+ private modelViewer mv;
+ private JMenuItem scaleModel;
+ private JMenu flipAxis;
+ private JMenuItem flipX;
+ private JMenuItem flipY;
+ private JMenuItem flipZ;
+ private JMenuItem scaleAxis;
+ private JMenuItem countTriangles;

@@ -1,0 +1,10 @@
+
+		// String[] strArray = folder.list(new FilenameFilter() {
+		// @Override
+		// public boolean accept(File dir, String name) {
+		// // return false;
+		// // return true;
+		// // System.out.println(dir + "---" + name);
+		// // File file = new File(dir, name);
+		// // boolean flag = file.isFile();
+		// // boolean flag2 = name.endsWith(".jpg");

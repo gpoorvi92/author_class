@@ -1,0 +1,10 @@
+	 * 设置登录帐号。
+	 * @param userSign
+	 * 登录帐号。
+	 * */
+	public void setUserSign(String userSign) {
+		this.userSign = userSign;
+	}
+	/**
+	 * 获取用户名。
+	 * @return userName

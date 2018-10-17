@@ -1,0 +1,7 @@
+  		ImmutableBitSet mapped = new ImmutableBitSet(bb.asLongBuffer());
+  		System.out.println("Mapped the bitmap " + mapped);
+  		memoryMappedFile.close();
+  		if (!mapped.equals(Bitmap))
+  			throw new RuntimeException("Will not happen");
+    }
+}

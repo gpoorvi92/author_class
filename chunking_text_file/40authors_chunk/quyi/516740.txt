@@ -1,0 +1,10 @@
+
+    }
+
+    private static class reportNodeManagerConfig_argsTupleSchemeFactory implements SchemeFactory {
+      public reportNodeManagerConfig_argsTupleScheme getScheme() {
+        return new reportNodeManagerConfig_argsTupleScheme();
+      }
+    }
+
+    private static class reportNodeManagerConfig_argsTupleScheme extends TupleScheme<reportNodeManagerConfig_args> {

@@ -1,0 +1,6 @@
+		t.setAge(25);
+		System.out.println(t.getName()+"---"+t.getAge());
+		t.eat();
+		t.sleep();
+	}
+}

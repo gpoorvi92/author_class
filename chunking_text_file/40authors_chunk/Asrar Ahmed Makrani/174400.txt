@@ -1,0 +1,10 @@
+    gbc.gridy = 5;
+    text.add(pages_text, gbc);
+    
+    add(text);
+    setBackground(Color.blue);
+    
+	    
+    
+    }
+    

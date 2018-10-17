@@ -1,0 +1,10 @@
+    }
+
+  }
+
+  public static class reportTaskManagerConfig_result implements org.apache.thrift.TBase<reportTaskManagerConfig_result, reportTaskManagerConfig_result._Fields>, java.io.Serializable, Cloneable, Comparable<reportTaskManagerConfig_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("reportTaskManagerConfig_result");
+
+    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.STRING, (short)0);
+    private static final org.apache.thrift.protocol.TField UE_FIELD_DESC = new org.apache.thrift.protocol.TField("ue", org.apache.thrift.protocol.TType.STRUCT, (short)1);
+

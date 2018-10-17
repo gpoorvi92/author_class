@@ -1,0 +1,10 @@
+
+    private String description;
+
+    private Integer number;
+
+    private Integer userId;
+
+    public Integer getId() {
+        return id;
+    }

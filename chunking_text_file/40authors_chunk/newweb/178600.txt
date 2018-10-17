@@ -1,0 +1,7 @@
+	}
+
+	@Override
+	public boolean modify(User user) {
+		return userDao.update(user);
+	}
+}

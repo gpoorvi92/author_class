@@ -1,0 +1,10 @@
+     * overwrite stale data
+     */
+    void clear();
+
+    /**
+     * Reduces the internal buffer to its minimal allowable size.
+     * This can free memory.
+     */
+    void trim();
+

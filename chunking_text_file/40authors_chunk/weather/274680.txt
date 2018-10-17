@@ -1,0 +1,10 @@
+    public static <T> Request startGsonRequest(String url, RequestParams params, Class<T> clazz, final RequestListener<T> listener) {
+        if (null != params && params.size() > 0) {
+            url += "?" + params.convert2url();
+        }
+        FakeX509TrustManager.allowAllSSL();
+        GsonRequest<T> request = new GsonRequest<T>(url, clazz, new Response.Listener<T>() {
+            @Override
+            public void onResponse(T response) {
+
+                listener.onResponse(response);

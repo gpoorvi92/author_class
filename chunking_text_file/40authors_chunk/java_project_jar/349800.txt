@@ -1,0 +1,10 @@
+    }
+
+    public WriterOutputStream(Writer writer)
+    {
+        this(writer, Charset.defaultCharset(), 1024, false);
+    }
+
+    public void write(byte b[], int off, int len)
+        throws IOException
+    {

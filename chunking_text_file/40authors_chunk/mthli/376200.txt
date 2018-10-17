@@ -1,0 +1,10 @@
+      fileMenu.add(exitItem);
+      pack();
+   }
+
+   /**
+    * Prompts the user to select a file, loads the file into a text area, and sets it as the content
+    * pane of the frame.
+    */
+   public void openFile() throws IOException
+   {

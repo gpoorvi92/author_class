@@ -1,0 +1,10 @@
+			}
+		});	
+            Reload.addActionListener (new ActionListener(){
+            	public void actionPerformed(ActionEvent e){
+            		setVisible(false);
+            		reloaded();
+            		setVisible(true);
+            	}
+            });
+	   jButton2.addActionListener(new java.awt.event.ActionListener() {

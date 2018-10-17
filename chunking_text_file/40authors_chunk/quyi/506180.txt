@@ -1,0 +1,10 @@
+   */
+  public static Result findByValue(int value) { 
+    switch (value) {
+      case 1111:
+        return success;
+      case 9999:
+        return failure;
+      case 400:
+        return badRequest;
+      case 405:

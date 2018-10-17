@@ -1,0 +1,10 @@
+	/**
+	 * Release all informations of the previous analyzing.
+	 */
+	public void release() {
+		
+		if (gJNILoaded)
+			nativeRelease();
+	}
+	
+	//////////////////////JNI METHODS///////////////////////////////////

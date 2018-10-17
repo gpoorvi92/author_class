@@ -1,0 +1,10 @@
+    }
+
+    protected boolean handleIsCancelled(File file, int depth, Collection results)
+        throws IOException
+    {
+        return false;
+    }
+
+    protected void handleCancelled(File startDirectory, Collection results, CancelException cancel)
+        throws IOException

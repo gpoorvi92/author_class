@@ -1,0 +1,10 @@
+
+		public Future<String> doSomething(String message, int id)
+		    throws InterruptedException {
+			Future<String> result = null;
+
+			result = service(message, id);
+
+			return result;
+		}
+

@@ -1,0 +1,10 @@
+ 						
+ 						uname = rs.getString("userid");
+ 						pass = rs.getString("password");
+ 						 						
+ 						if( usname.equals(uname ) && uspasswd.equals(pass))
+ 						{
+ 							checked = true;
+ 							
+ 						}
+ 						else

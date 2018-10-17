@@ -1,0 +1,10 @@
+    }
+
+    /** returns true iff successful
+     */
+    public static boolean saveTo(Model m,File f) throws IOException
+    {
+       if (m==null || f==null)
+            return false;
+
+       for (ModelFileSaver mfs: mfSavers)

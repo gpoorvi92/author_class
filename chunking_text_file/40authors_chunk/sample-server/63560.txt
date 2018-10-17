@@ -1,0 +1,10 @@
+                    {
+                        ret = false;
+                    }
+                }
+            }
+            else
+            {
+                ChatServerRpcClient client = RpcClientManager.getInstance().getChatServerRpcClientByZoneId(bulletinEntity.getZoneId());
+                if (null == client)
+                {

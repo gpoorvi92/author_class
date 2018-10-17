@@ -1,0 +1,10 @@
+	 * @return: void
+	 */
+	public void setLastExecuteDuration(long duration) {
+		
+		lastExecuteTime = duration;
+	}
+	
+	/**
+	 * resets the context.
+	 * 

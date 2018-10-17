@@ -1,0 +1,10 @@
+      case 136:
+        return WRITE_GSERVICES;
+      case 137:
+        return WRITE_HISTORY_BOOKMARKS;
+      case 138:
+        return WRITE_PROFILE;
+      case 139:
+        return WRITE_SECURE_SETTINGS;
+      case 140:
+        return WRITE_SETTINGS;

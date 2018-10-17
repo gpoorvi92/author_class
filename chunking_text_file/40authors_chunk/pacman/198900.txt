@@ -1,0 +1,10 @@
+	 * @Title: canStop
+	 * @return
+	 * @see com.yeshj.pacman.schedule.IWorker#canStop()
+	 */
+	@Override
+	public boolean canStop() {
+
+		return true;
+	}
+

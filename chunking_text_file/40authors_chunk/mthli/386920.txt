@@ -1,0 +1,10 @@
+            public String getDescription()
+            {
+               return "XML files";
+            }
+         });
+      int r = chooser.showOpenDialog(this);
+      if (r != JFileChooser.APPROVE_OPTION) return;
+      final File file = chooser.getSelectedFile();
+
+      new SwingWorker<Document, Void>()

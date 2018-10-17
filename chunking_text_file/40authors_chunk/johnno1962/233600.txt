@@ -1,0 +1,10 @@
+
+        public short[][] short2dArrayMethod( short arg[][] ) {
+            return arg;
+        }
+
+        public int intMethod( int arg ) {
+            return arg;
+        }
+
+        public int[] intArrayMethod( int arg[] ) {

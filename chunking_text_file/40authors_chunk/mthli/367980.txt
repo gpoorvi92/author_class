@@ -1,0 +1,10 @@
+   {
+      return new Win32RegKeyNameEnumeration(root, path);
+   }
+
+   static
+   {
+      System.loadLibrary("Win32RegKey");
+   }
+}
+

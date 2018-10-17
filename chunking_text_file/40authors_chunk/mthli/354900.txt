@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Sets the inverse property.
+    * @param b true if the display is inverted (white bars on colored background)
+    */
+   @Property(editor = "InverseEditor")
+   public void setInverse(boolean b)
+   {
+      inverse = b;

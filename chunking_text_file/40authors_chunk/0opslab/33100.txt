@@ -1,0 +1,10 @@
+ * definition has been found that is contained here. The system just does not support that codepage.
+ * </p>
+ * <p>
+ * These instances are obtained by the static singleton retrieval call {@link #forName(String)}
+ * which allows unique instances for a detected string.
+ * </p>
+ * 
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ */
+public class UnsupportedCharset

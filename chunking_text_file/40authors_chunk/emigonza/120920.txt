@@ -1,0 +1,10 @@
+// 2005-Jan-16 JavaPOS Release 1.9                                 BS
+//   Issues reported that draft specification methods and properties
+//   were still present in the 1.8 code releases.
+//   Removed:
+//     getCapFreeMemory
+//     getCapMultipleFiles
+//     getCapSCTypes
+//     getFreeMemory
+//     getMemorySegments
+//     getSCType

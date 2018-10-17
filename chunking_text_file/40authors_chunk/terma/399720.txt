@@ -1,0 +1,10 @@
+     */
+    @Override public String getRemoteHost() {
+        return remoteHost;
+    }
+
+    /**
+     * @return - count of worker (thread) which TCP proxy will use for processing
+     *         incoming client connection, should more 0
+     */
+    @Override public int getWorkerCount() {

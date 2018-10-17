@@ -1,0 +1,9 @@
+    
+    do{
+        suma += i;
+        i++;
+    }while(i < num + 100);
+    
+    System.out.println("La suma de los 100 numeros es: " + suma);
+  }
+}

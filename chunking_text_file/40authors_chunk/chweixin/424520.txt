@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public WeChatUser loadUser(String accountId, String openId) {
+		final String hql = "from WeChatUser w where w.openId = :openId and w.account.id = :accountId order by lastTime desc";
+		Map<String, Object> parameters = new HashMap<>();
+		parameters.put("accountId", accountId);
+		parameters.put("openId", openId);
+		List<WeChatUser> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;

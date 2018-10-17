@@ -1,0 +1,10 @@
+    private final static char[] MULTIPART_CHARS = "-_1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+
+    private String boundary = null;
+
+    ByteArrayOutputStream out = new ByteArrayOutputStream();
+    boolean isSetLast = false;
+    boolean isSetFirst = false;
+
+    public SimpleMultipartEntity() {
+        final StringBuffer buf = new StringBuffer();

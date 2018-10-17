@@ -1,0 +1,10 @@
+
+    public static final String[] sAvcodecOptimize_SkipNone = new String[] {};
+
+    // membuf
+    public static final String[] sMembuf_Enable = new String[] { ":membuf-enable=1" };
+
+    // audio stretch
+    public static final String[] sAudioStretch_Enable = new String[] { ":audio-time-stretch" };
+
+    public static final String[] sHttpUserAgent_BiliDroid = new String[] { ":http-user-agent="

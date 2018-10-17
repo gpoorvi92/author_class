@@ -1,0 +1,10 @@
+package chart;
+
+import java.awt.*;
+import java.beans.*;
+import javax.swing.*;
+
+/**
+ * The property editor for the inverse property of the ChartBean. The inverse property toggles
+ * between colored graph bars and colored background.
+ * @version 1.30 2007-10-03

@@ -1,0 +1,10 @@
+     * Get the start time of this TimeView
+     * @return
+     */
+    public long getStartTime();
+    /**
+     * Get the end time of this TimeView
+     * @return
+     */
+    public long getEndTime();
+    

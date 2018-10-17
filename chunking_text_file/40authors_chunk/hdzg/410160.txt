@@ -1,0 +1,10 @@
+						CityDrawable city2 = alHero.get(index2);
+						GameView gv = hero.father;
+						WarAlert wa= new WarAlert(gv, GameView.dialogBack, GameView.dialogButton, city, city2);
+						gv.setCurrentGameAlert(wa);					
+					}					
+				}
+				warCount = 0;
+			}
+			//检查英雄身上的钱/粮/兵是不是太多了
+			boolean tempFlag = false;

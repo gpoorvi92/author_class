@@ -1,0 +1,10 @@
+        return this;
+    }
+
+    public Writer append(CharSequence csq, int start, int end)
+        throws IOException
+    {
+        try
+        {
+            beforeWrite(end - start);
+            out.append(csq, start, end);

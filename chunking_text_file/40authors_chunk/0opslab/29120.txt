@@ -1,0 +1,10 @@
+
+
+public class CharsetUtilTest {
+    @Test
+    public void testCpDetector() throws UnsupportedEncodingException {
+        String str = "中文的字符串,编码结果会应项目的编译和JVM的运行环境有所影响";
+
+        System.out.println(StringUtil.cpDetector(str));
+        System.out.println(StringUtil.cpDetector(CharsetUtil.toGBK(str)));
+    }

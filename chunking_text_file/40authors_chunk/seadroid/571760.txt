@@ -1,0 +1,10 @@
+            task.cancel();
+
+        }
+
+        remove(taskID);
+    }
+
+    protected void remove(int taskID) {
+
+        TransferTask toCancel = getTask(taskID);

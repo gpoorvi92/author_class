@@ -1,0 +1,10 @@
+	//	isIconNode
+	////////////////////////////////////////////////
+
+	public static boolean isIconNode(Node node)
+	{
+		return Icon.ELEM_NAME.equals(node.getName());
+	}
+
+	////////////////////////////////////////////////
+	//	mimeType

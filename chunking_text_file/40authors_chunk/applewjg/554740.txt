@@ -1,0 +1,10 @@
+    }
+    
+    public List<List<Integer>> levelOrder_2(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        if (root == null) return res;
+        levelOrderRe(root, 0, res);
+        return res;
+    }
+    public void levelOrderRe(TreeNode root, int level, List<List<Integer>> res) {
+        if(root == null) return;

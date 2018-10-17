@@ -1,0 +1,10 @@
+							field.setAccessible(true);
+							field.set(obj, map.get(transmit.key()));
+						}
+					}
+					listener.onObjectMessage(obj);
+				} catch (Exception e) {
+					
+					throw new MQException("Fail to cast map to object!", e);
+				}
+				break;

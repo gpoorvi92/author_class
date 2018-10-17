@@ -1,0 +1,10 @@
+	Paint paint;
+	public HelpView(HDZGActivity activity, int type) {
+		super(activity);
+		this.activity = activity;
+		this.type = type;
+		getHolder().addCallback(this);
+        this.drawThread = new DrawThread(getHolder(), this);
+        initBitmap();
+	}
+	

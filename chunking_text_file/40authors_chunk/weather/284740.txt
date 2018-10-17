@@ -1,0 +1,10 @@
+//                sslContext.init(null, null, null);
+//            } catch (GeneralSecurityException e) {
+//                throw new AssertionError(); // The system has no TLS. Just give up.
+//            }
+//            client.setSslSocketFactory(sslContext.getSocketFactory());
+//            URL.setURLStreamHandlerFactory(client);
+//        }
+//
+//        Network network = new BasicNetwork(stack);
+//

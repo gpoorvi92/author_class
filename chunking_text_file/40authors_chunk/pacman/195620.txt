@@ -1,0 +1,10 @@
+	/**
+	 * Environment prechecking.
+	 * 
+	 * @return
+	 */
+	public static boolean precheck() {
+
+		boolean result = false;
+
+		logger.info(PREFIX + " ... start");

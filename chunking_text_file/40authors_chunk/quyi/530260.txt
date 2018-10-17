@@ -1,0 +1,10 @@
+    boolean this_present_notify_callback_url = true && this.isSetNotify_callback_url();
+    boolean that_present_notify_callback_url = true && that.isSetNotify_callback_url();
+    if (this_present_notify_callback_url || that_present_notify_callback_url) {
+      if (!(this_present_notify_callback_url && that_present_notify_callback_url))
+        return false;
+      if (!this.notify_callback_url.equals(that.notify_callback_url))
+        return false;
+    }
+
+    boolean this_present_app_description = true && this.isSetApp_description();

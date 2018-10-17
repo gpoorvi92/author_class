@@ -1,0 +1,10 @@
+	
+	book_master.setFont (new Font ("Impact", Font.PLAIN, 16));
+	book_no_text.setText("BK-");
+			
+	book_no_text.addFocusListener(new MyActionListener()
+		{
+			public void focusLost(FocusEvent e)
+			{
+			try
+			{

@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	private SSDPPacket ssdpPacket = null;
+	
+	public SSDPPacket getSSDPPacket() {
+		return ssdpPacket;
+	}
+
+	public void setSSDPPacket(SSDPPacket packet) {
+		ssdpPacket = packet;

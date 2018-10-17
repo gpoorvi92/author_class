@@ -1,0 +1,10 @@
+import org.apache.commons.io.IOCase;
+
+// Referenced classes of package org.apache.commons.io.comparator:
+//            AbstractFileComparator, ReverseComparator
+
+public class NameFileComparator extends AbstractFileComparator
+    implements Serializable
+{
+
+    public NameFileComparator()

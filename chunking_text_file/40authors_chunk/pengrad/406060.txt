@@ -1,0 +1,10 @@
+
+    public ChosenInlineResult chosenInlineResult() {
+        return chosen_inline_result;
+    }
+
+    public CallbackQuery callbackQuery() {
+        return callback_query;
+    }
+
+    @Override

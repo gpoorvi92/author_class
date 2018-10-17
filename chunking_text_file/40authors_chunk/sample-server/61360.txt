@@ -1,0 +1,10 @@
+        channel.write(packet);
+    }
+    @Override
+    public Rpc.RpcPacket sendWaitBack(Rpc.RpcPacket packet)
+    {
+        connect();
+        responseId = packet.getCounter();
+        channel.write(packet);
+        try
+        {

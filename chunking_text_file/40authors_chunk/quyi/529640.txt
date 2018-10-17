@@ -1,0 +1,10 @@
+    }
+  }
+
+  public int getRequestPurviewsSize() {
+    return (this.requestPurviews == null) ? 0 : this.requestPurviews.size();
+  }
+
+  public java.util.Iterator<com.nercis.isscp.idl.permission.Permissions> getRequestPurviewsIterator() {
+    return (this.requestPurviews == null) ? null : this.requestPurviews.iterator();
+  }

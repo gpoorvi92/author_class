@@ -1,0 +1,10 @@
+        WeatherApi.getDailyWeather(cityId, new RequestListener<DailyResponse>() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                LogUtil.e(error);
+                loadFinished(error.toString(), LOAD_NEW_FAIL);
+            }
+
+            @Override
+            public void onResponse(DailyResponse response) {
+                LogUtil.d(response.weather.getCity());

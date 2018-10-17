@@ -1,0 +1,10 @@
+     */
+    private void clearSubtrees()
+    {
+        subtrees = new Vector3DTree[8];
+        for (int i = 0; i < subtrees.length; i++)
+            subtrees[i] = null;
+    }
+
+    public synchronized LinkedList<Vector3D> asList()
+    {

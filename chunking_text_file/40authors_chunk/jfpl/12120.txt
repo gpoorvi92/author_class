@@ -1,0 +1,10 @@
+
+public class ChatUploadService extends ChatBaseService {
+
+	public ChatUploadService(AutoActivity ctx, ListView chatList,
+			ProgressBar progressBar, ImageView imageView, AbstractCommonData acd) {
+		super(ctx, chatList, progressBar, imageView, acd);
+	}
+
+	@Override
+	public void doChatSuccess(AbstractCommonData acd) {

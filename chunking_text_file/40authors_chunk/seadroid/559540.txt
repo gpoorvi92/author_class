@@ -1,0 +1,10 @@
+    private Listener listener;
+    private TextView messageText;
+    private TextView commonNameText;
+    // private TextView altSubjNamesText;
+    private TextView sha1Text;
+    private TextView md5Text;
+    private TextView serialNumberText;
+    private TextView notBeforeText;
+    private TextView notAfterText;
+

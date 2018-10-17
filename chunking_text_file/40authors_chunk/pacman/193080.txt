@@ -1,0 +1,10 @@
+		else
+		{
+			ModelMap map = new ModelMap();
+			map.addAttribute("msg", "Invalid user or password!");
+			return new ModelAndView("account/login", map);
+		}
+	}
+	
+	@RequestMapping(value="login.go", method=RequestMethod.GET)
+	private ModelAndView login() {

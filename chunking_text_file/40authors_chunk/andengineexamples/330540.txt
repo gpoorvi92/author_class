@@ -1,0 +1,10 @@
+				final Bitmap balloon = BitmapFactory.decodeStream(CanvasTextureCompositingExample.this.getAssets().open("gfx/texturecompositing/balloon.png"));
+				pCanvas.drawBitmap(balloon, 0, 0, this.mPaint);
+				this.mPaint.setColorFilter(null);
+
+				this.mPaint.setXfermode(new PorterDuffXfermode(Mode.SRC_ATOP));
+				final Bitmap alphamask = BitmapFactory.decodeStream(CanvasTextureCompositingExample.this.getAssets().open("gfx/texturecompositing/alphamask.png"));
+				pCanvas.drawBitmap(alphamask, 0, 0, this.mPaint);
+				this.mPaint.setXfermode(null);
+
+				final Bitmap zynga = BitmapFactory.decodeStream(CanvasTextureCompositingExample.this.getAssets().open("gfx/texturecompositing/zynga.png"));

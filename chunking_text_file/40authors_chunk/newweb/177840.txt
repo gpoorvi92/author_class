@@ -1,0 +1,10 @@
+	private double glassYtHeight;
+	private int glassYtCount;
+	private double gbLength;//盖板
+	private int gbCount;
+	private double zfLength;//中封
+	private int zfCount;
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {

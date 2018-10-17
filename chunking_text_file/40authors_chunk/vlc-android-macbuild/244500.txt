@@ -1,0 +1,10 @@
+
+                mBusyLoaders.add(id);
+                loaderManager.initLoader(id, args, this);
+                return true;
+
+            } else if (!mBusyLoaders.contains(id)) {
+
+                if (ENABLE_VERBOSE)
+                    DebugLog.vfmt(TAG, "restartLoader %d", id);
+

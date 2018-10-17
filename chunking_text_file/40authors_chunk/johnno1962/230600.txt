@@ -1,0 +1,10 @@
+            entered_mouseReleased_1 = true;
+            __mouseReleased( e );
+            entered_mouseReleased_1 = false;
+        }
+        else
+            super.mouseReleased( e );
+    }
+
+    /// public void java.awt.event.MouseAdapter.mouseClicked(java.awt.event.MouseEvent)
+

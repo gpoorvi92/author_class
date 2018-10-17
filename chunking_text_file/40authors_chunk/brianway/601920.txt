@@ -1,0 +1,10 @@
+/**
+ * P250
+ * Timer类的cancel()方法
+ * 全部任务被清除，且进程被销毁
+ */
+public class Run3_cancel2 {
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("当前时间为：" + new Date());
+        Calendar calendar = Calendar.getInstance();
+        Date runDate = calendar.getTime();

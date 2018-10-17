@@ -1,0 +1,10 @@
+        Enumeration enum2 = best.elements();
+        while (enum2.hasMoreElements()) {
+            v3.addElement(enum2.nextElement());
+        }
+        return v3;
+    }
+    public void playGame(Position startingPosition, boolean humanPlayFirst) {
+        if (humanPlayFirst == false) {
+            Vector v = alphaBeta(0, startingPosition, PROGRAM);
+            startingPosition = (Position)v.elementAt(1);

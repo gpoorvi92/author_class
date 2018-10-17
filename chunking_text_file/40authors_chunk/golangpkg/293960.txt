@@ -1,0 +1,10 @@
+/**
+ * Propagates the methods called on {@link #proxiedElement} to all objects in {@link #propagateTo}.<br>
+ * <strong>{@link #getProxiedClass()} has to be overridden by any subclass.</strong><br>
+ * Note that in order to not block the caller, the invocation is processed in a separate thread.
+ * 
+ * @param <T>
+ * @author antoinem
+ */
+public abstract class GenericPropagator<T> {
+

@@ -1,0 +1,10 @@
+	 * @param mgr
+	 * 	SSL证书。
+	 * @param requestUrl
+	 * 	请求地址。
+	 * @param requestMethod
+	 * 	请求方式(GET,POST)。
+	 * @param data
+	 *  提交数据。
+	 *  @return 反馈结果(通过JSONObject.get(key)的方式获取json对象的属性值)。
+	 * */

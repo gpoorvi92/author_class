@@ -1,0 +1,10 @@
+package bytecodeAnnotations;
+
+import java.io.*;
+import org.apache.bcel.*;
+import org.apache.bcel.classfile.*;
+import org.apache.bcel.generic.*;
+
+/**
+ * Adds "entering" logs to all methods of a class that have the LogEntry annotation.
+ * @version 1.10 2007-10-27

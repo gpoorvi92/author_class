@@ -1,0 +1,10 @@
+
+/// class javax.swing.JWindow ///
+
+package org.genie.javax_swing;
+
+public class JWindowProxy extends javax.swing.JWindow {
+
+    long swiftObject;
+
+    /// public javax.swing.JWindow(java.awt.Window,java.awt.GraphicsConfiguration)

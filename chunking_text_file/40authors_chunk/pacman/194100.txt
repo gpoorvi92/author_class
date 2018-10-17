@@ -1,0 +1,10 @@
+		return getAttribute(key, null);
+	}
+	
+	/**
+	 * Gets the attribute
+	 * 
+	 * @Title: getAttribute
+	 * @param key
+	 * @param defaultValue
+	 * @return

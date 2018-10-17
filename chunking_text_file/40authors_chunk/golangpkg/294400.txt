@@ -1,0 +1,10 @@
+
+		byte[] b = new byte[UploadServletAsyncProcessor.SIZE_OF_THE_BUFFER_IN_BYTES];
+		int read;
+		int totalRead = 0;
+		CRC32 crc32 = new CRC32();
+		while ((read = inputStream.read(b)) != -1) {
+			crc32.update(b, 0, read);
+			totalRead += read;
+		}
+		inputStream.close();

@@ -1,0 +1,10 @@
+    /** Returns cosine of the angle separating v from unit vector uv.
+     * @param uv must be of magnitude 1 or this will not work properly.
+     */
+    public static double getCosSeparationWithUnitVector(Vector3D v, Vector3D uv)
+    {
+        double result =
+            dotProduct(v, uv)/magnitude(v);
+           ;
+        return result;
+    }

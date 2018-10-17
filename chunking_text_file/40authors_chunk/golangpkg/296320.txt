@@ -1,0 +1,10 @@
+
+
+@ContextConfiguration(locations = { "classpath:jlfu.test.xml" })
+@RunWith(SpringJUnit4ClassRunner.class)
+public class UploadProcessorTest {
+
+	private static final Logger log = LoggerFactory.getLogger(UploadProcessorTest.class);
+
+	@Autowired
+	CRCHelper crcHelper;

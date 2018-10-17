@@ -1,0 +1,10 @@
+        mSegmentPlayer.reset();
+    }
+
+    @Override
+    public void seekTo(int msec) throws IllegalStateException {
+        DebugLog.e(TAG, "seek to " + msec);
+        if (mPlayIndex == null)
+            return;
+
+        int order = mPlayIndex.getOrderByTime(msec);

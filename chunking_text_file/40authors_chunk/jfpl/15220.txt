@@ -1,0 +1,10 @@
+	@Override
+	public boolean onItemLongClick(AdapterView<?> arg0, View v, int position,
+			long arg3) {
+		AbstractCommonData acd = (AbstractCommonData) this.chatListAdapter
+				.getItem(position);
+		final ProgressBar sendState = (ProgressBar) v
+				.findViewById(R.id.send_state);
+		final ImageView sendFinishState = (ImageView) v
+				.findViewById(R.id.send_finish_state);
+		int type = this.chatListAdapter.getItemViewType(position);

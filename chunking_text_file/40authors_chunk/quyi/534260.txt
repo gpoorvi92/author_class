@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("packageName:");
+    if (this.packageName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.packageName);
+    }
+    first = false;
+    if (!first) sb.append(", ");

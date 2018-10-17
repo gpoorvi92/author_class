@@ -1,0 +1,10 @@
+    return new VirusDetectionResultData(this);
+  }
+
+  @Override
+  public void clear() {
+    this.checkTime = null;
+    this.MD5 = null;
+    setCheckEngineNumIsSet(false);
+    this.checkEngineNum = 0;
+    setPositivesIsSet(false);

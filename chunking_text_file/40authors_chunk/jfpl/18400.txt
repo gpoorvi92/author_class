@@ -1,0 +1,10 @@
+				&& goBackState) {
+			webView.goBack();
+			return false;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+
+	private void destroyWebView(WebView wv) {
+		try {
+			// wv.stopLoading();

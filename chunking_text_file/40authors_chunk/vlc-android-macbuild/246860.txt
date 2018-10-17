@@ -1,0 +1,8 @@
+        if (ENABLE_VERBOSE) {
+            DebugLog.vfmt("ImageLruCache", "put %d", key);
+        }
+
+        mImageMemCache.put(key, thumb);
+        sGlobalMemCache.put(key, thumb.mutate());
+    }
+}

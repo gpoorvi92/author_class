@@ -1,0 +1,10 @@
+public class WorkStealingExample {
+	private final WorkStealingEnabledChannel<String> channel;
+	private final TerminationToken token = new TerminationToken();
+
+	public WorkStealingExample() {
+		int nCPU = Runtime.getRuntime().availableProcessors();
+		int consumerCount = nCPU / 2 + 1;
+
+		@SuppressWarnings("unchecked")
+		BlockingDeque<String>[] managedQueues 

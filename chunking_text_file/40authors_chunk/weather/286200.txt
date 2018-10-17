@@ -1,0 +1,10 @@
+        return fromDate.before(toDate);
+    }
+
+
+    /**
+     * 一分钟换算的毫秒数
+     */
+    private final static long MINUTE = 60000l;
+    /**
+     * 一天换算的毫秒数

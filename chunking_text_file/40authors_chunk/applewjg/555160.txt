@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Jan 2, 2015
+ Problem:    Sort List
+ Difficulty: Medium
+ Source:     http://oj.leetcode.com/problems/sort-list/
+ Notes:
+ Sort a linked list in O(nlogn) time using constant space complexity.
+
+ Solution: merge sort.

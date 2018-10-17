@@ -1,0 +1,10 @@
+		String pname, 
+		String pvalue) {
+		super();
+		this.pid = pid;
+		this.tid = tid;
+		this.pname = pname;
+		this.pvalue = pvalue;
+	}
+
+	/**

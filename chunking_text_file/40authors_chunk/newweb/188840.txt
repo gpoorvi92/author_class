@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public Order selectOrderById(String iD) {
+		return (Order) sessionFactory.getCurrentSession().get(Order.class, iD);
+	}

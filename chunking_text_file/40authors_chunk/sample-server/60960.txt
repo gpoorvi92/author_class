@@ -1,0 +1,10 @@
+    final String getRandomString()
+    { //length表示生成字符串的长度               abcdefghjklmnpqrstuvwxyz
+        String base = "ABCDEFGHJKLMNPQRSTUVWXYZ123456789";
+        StringBuffer sb = new StringBuffer();
+        for (int i = 1; i <= CDKLENTH; i++)
+        {
+            int number = ran.nextInt(base.length());
+            sb.append(base.charAt(number));
+            if ((i) % SPLITKEYLEN == 0 && i != CDKLENTH)
+            {

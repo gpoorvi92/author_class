@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void java.awt.event.MouseListener.mousePressed(java.awt.event.MouseEvent)
+
+    public native void __mousePressed( java.awt.event.MouseEvent e );
+
+    public void mousePressed( java.awt.event.MouseEvent e ) {
+        __mousePressed( e );
+    }

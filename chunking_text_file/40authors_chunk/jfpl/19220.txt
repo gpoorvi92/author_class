@@ -1,0 +1,10 @@
+							new ChatUploadService(ctx, chatList,
+									holder.sendState, holder.sendFinishState,
+									acd));
+				}
+				String imageUrl = "file://" + imagePath;
+				Bitmap bm = ImageLoader.getInstance().loadImageSync(imageUrl,
+						ImageUtil.getChatImageSize(imagePath));
+				holder.chatImage.setImageBitmap(bm);
+				holder.chatImage.setPadding(5, 3, 22, 3);
+				holder.chatImage.setLayoutParams(new LinearLayout.LayoutParams(

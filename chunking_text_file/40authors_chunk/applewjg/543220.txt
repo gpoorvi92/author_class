@@ -1,0 +1,10 @@
+                    left = j + 1;
+                }
+            }
+            for (int j = N - 1; j >= 0; --j) {
+                if (matrix[i][j] == '1') {
+                    R[j] = Math.min(R[j], right);
+                    res = Math.max(res, (R[j]-L[j])*H[j]);
+                } else {
+                    right = j;
+                }

@@ -1,0 +1,10 @@
+            public String getDescription()
+            {
+               return "XML files";
+            }
+         });
+
+      // set up menus
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);
+      JMenu menu = new JMenu("File");

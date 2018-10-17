@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Test
+    public void testPublicField()  {
+        System.out.println("=============获取类中的全部public属性包括继承的==========");
+        String[] fields = ClassUtil.getPublicField("model.BusinessLog", true);
+        for(String f:fields){
+            System.out.println(f);
+        }

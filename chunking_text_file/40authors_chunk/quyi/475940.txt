@@ -1,0 +1,10 @@
+      return this;
+    }
+
+    public void unsetUseRule() {
+      this.useRule = null;
+    }
+
+    /** Returns true if field useRule is set (has been assigned a value) and false otherwise */
+    public boolean isSetUseRule() {
+      return this.useRule != null;

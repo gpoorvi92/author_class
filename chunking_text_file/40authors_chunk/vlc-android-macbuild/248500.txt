@@ -1,0 +1,10 @@
+            value = value.toLowerCase();
+            int pos = value.toLowerCase().indexOf('x');
+            if (-1 == pos) {
+                mCpuPart = Integer.parseInt(value);
+            } else {
+                mCpuPart = Integer.parseInt(value.substring(pos + 1), 16);
+            }
+        } else if (key.equals("cpu implementer")) {
+            value = value.toLowerCase();
+            int pos = value.toLowerCase().indexOf('x');

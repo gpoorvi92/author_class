@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 1:string checkTime 检测日期
+ * 2:string MD5 Md5值
+ * 3:i32 checkEngineNum 检测引擎数量
+ * 4:i32 positives 命中数
+ * 5:list<VirusEngine> virusEngine 病毒引擎检测结果

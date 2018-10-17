@@ -1,0 +1,10 @@
+				setSendState(!StringUtil.isNull(content));
+			}
+		});
+		setListType(false);
+		// 初始化参数
+		Intent intent = getIntent();
+		initParams(intent);
+
+		RelativeLayout.LayoutParams para = (LayoutParams) addMsgPanel
+				.getLayoutParams();

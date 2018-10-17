@@ -1,0 +1,10 @@
+      return (this.rules == null) ? 0 : this.rules.size();
+    }
+
+    public java.util.Iterator<com.nercis.isscp.idl.rules.Rules> getRulesIterator() {
+      return (this.rules == null) ? null : this.rules.iterator();
+    }
+
+    public void addToRules(com.nercis.isscp.idl.rules.Rules elem) {
+      if (this.rules == null) {
+        this.rules = new ArrayList<com.nercis.isscp.idl.rules.Rules>();

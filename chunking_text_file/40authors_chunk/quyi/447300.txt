@@ -1,0 +1,10 @@
+  public Software setJvmName(String jvmName) {
+    this.jvmName = jvmName;
+    return this;
+  }
+
+  public void unsetJvmName() {
+    this.jvmName = null;
+  }
+
+  /** Returns true if field jvmName is set (has been assigned a value) and false otherwise */

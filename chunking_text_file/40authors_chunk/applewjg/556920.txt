@@ -1,0 +1,8 @@
+                else --r;
+                if (Math.abs(threesum - target) < Math.abs(res - target))
+                    res = threesum;
+            }
+        }
+        return res;
+    }
+}

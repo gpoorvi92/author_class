@@ -1,0 +1,10 @@
+	{
+	}
+
+	////////////////////////////////////////////////
+	//	parse
+	////////////////////////////////////////////////
+
+	public Node parse(org.xmlpull.v1.XmlPullParser xpp, InputStream inStream) throws ParserException
+	{
+		Node rootNode = null;

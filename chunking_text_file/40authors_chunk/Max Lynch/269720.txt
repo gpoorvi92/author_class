@@ -1,0 +1,10 @@
+		Color old = g.getColor();
+		
+		swirl = new GeneralPath();
+        
+        AffineTransform af = new AffineTransform();
+
+        
+        float x1 = model.getLocX()-getX()+model.getWidth()/2;
+        float y1 = model.getLocY()-getY()+model.getHeight()/2;
+        float heighty = model.getHeight()-model.getLocY()-getY();

@@ -1,0 +1,7 @@
+
+		// 输出结果
+		System.out.println("大写：" + bigCount);
+		System.out.println("小写：" + smallCount);
+		System.out.println("数字：" + numberCount);
+	}
+}

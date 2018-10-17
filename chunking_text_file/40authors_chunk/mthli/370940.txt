@@ -1,0 +1,6 @@
+   {
+      g.drawString("Not a Hello, World program", MESSAGE_X, MESSAGE_Y);
+   }
+   
+   public Dimension getPreferredSize() { return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT); }
+}

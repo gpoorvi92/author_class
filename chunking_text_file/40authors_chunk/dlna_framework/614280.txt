@@ -1,0 +1,10 @@
+			Thread.yield();
+
+			// Thanks for Kazuyuki Shudo (08/23/07)
+			SSDPPacket packet = null;
+			try {
+				packet = receive();
+			}
+			catch (IOException e) { 
+				break;
+			}

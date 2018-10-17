@@ -1,0 +1,10 @@
+    public String toString() {
+      StringBuilder sb = new StringBuilder("updateAppStatus_result(");
+      boolean first = true;
+
+      sb.append("success:");
+      if (this.success == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.success);
+      }

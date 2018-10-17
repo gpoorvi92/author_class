@@ -1,0 +1,10 @@
+        }
+        this.wordPosition = 0;
+        this.wordLength = this.parent.getNumberOfLiteralWords();
+    }
+
+    private boolean runningHasNext() {
+        return this.position < this.runningLength;
+    }
+
+    private boolean literalHasNext() {

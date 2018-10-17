@@ -1,0 +1,10 @@
+		//初始化需要显示的城池信息
+		int t = gameView.allCityDrawable.size();
+		for(int i = 0; i<gameView.allCityDrawable.size(); i++){
+			items1[i][0] = gameView.allCityDrawable.get(i).getCityName();//城池名称
+			items1[i][1] = COUNTRY_NAME[gameView.allCityDrawable.get(i).getCountry()];//归属国
+			items1[i][2] = gameView.allCityDrawable.get(i).getGuardGeneral().get(0).getName();//一个将领名
+			items1[i][3] = gameView.allCityDrawable.get(i).getArmy()+"人";//兵力
+		}
+		
+		for(int i = 0; i<gameView.hero.cityList.size(); i++,t++){

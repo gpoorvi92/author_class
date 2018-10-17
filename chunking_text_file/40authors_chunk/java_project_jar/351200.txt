@@ -1,0 +1,10 @@
+    }
+
+    public FileWriterWithEncoding(File file, String encoding)
+        throws IOException
+    {
+        this(file, encoding, false);
+    }
+
+    public FileWriterWithEncoding(File file, String encoding, boolean append)
+        throws IOException

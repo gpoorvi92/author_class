@@ -1,0 +1,10 @@
+package cn.itcast_05;
+
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+
+/*
+ * "dabcdababcabcea",获取字符串中每一个字母出现的次数要求结果:a(5)b(4)c(3)d(2)e(1)
+ * 
+ * 作业：自己断点一次

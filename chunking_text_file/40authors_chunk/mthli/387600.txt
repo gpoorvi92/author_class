@@ -1,0 +1,10 @@
+      factory.setNamespaceAware(true);
+      try
+      {
+         builder = factory.newDocumentBuilder();
+      }
+      catch (ParserConfigurationException e)
+      {
+         e.printStackTrace();
+      }
+   }

@@ -1,0 +1,10 @@
+        }
+    }
+
+    private SurfaceHolder.Callback mSurfaceCallback = new Callback() {
+        public void surfaceChanged(SurfaceHolder holder, int format, int width,
+                int height) {
+            mLibVLC.attachSurface(holder.getSurface(), LibVlcMediaPlayer.this,
+                    width, height);
+        }
+

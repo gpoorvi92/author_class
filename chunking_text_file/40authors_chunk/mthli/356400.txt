@@ -1,0 +1,10 @@
+
+   /**
+    * Runs a sample test procedure
+    * @param robot the robot attached to the screen device
+    */
+   public static void runTest(Robot robot)
+   {
+      // simulate a space bar press
+      robot.keyPress(' ');
+      robot.keyRelease(' ');

@@ -1,0 +1,10 @@
+     * needs to store details of the message for which the context menu has been
+     * invoked, then you should query those details from the
+     * <code>IHttpRequestResponse</code> at the time of invocation, or you
+     * should use
+     * <code>IBurpExtenderCallbacks.saveBuffersToTempFiles()</code> to create a
+     * persistent read-only copy of the
+     * <code>IHttpRequestResponse</code>.
+     *
+     * @return An array of <code>IHttpRequestResponse</code> objects
+     * representing the items that were shown or selected by the user when the

@@ -1,0 +1,10 @@
+			try {
+				((InputMethodManager) getSystemService(INPUT_METHOD_SERVICE))
+						.hideSoftInputFromWindow(chatEt.getWindowToken(),
+								InputMethodManager.HIDE_NOT_ALWAYS);
+			} catch (Exception e) {
+				// 无EditText焦点
+			}
+		} else {
+			voiceBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.voice_record_button));

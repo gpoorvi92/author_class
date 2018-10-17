@@ -1,0 +1,10 @@
+      case 46:
+        return DELETE_PACKAGES;
+      case 47:
+        return DEVICE_POWER;
+      case 48:
+        return DIAGNOSTIC;
+      case 49:
+        return DISABLE_KEYGUARD;
+      case 50:
+        return DUMP;

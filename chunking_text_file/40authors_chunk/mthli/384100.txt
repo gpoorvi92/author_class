@@ -1,0 +1,10 @@
+      plutoPanel.add(new JLabel("Pluto", icon, SwingConstants.LEADING));
+      JToggleButton plutoCheckBox = new JCheckBox();
+      plutoCheckBox.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent e)
+         {
+            tabbedPane.remove(plutoIndex);            
+         }  
+      });
+      plutoPanel.add(plutoCheckBox);      

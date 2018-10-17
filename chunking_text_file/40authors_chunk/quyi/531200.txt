@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.requestPurviews != null) {
+        oprot.writeFieldBegin(REQUEST_PURVIEWS_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.I32, struct.requestPurviews.size()));
+          for (com.nercis.isscp.idl.permission.Permissions _iter3 : struct.requestPurviews)
+          {
+            oprot.writeI32(_iter3.getValue());
+          }

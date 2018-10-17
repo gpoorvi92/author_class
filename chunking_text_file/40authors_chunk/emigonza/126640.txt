@@ -1,0 +1,10 @@
+    public int     getAsyncResultCodeExtended() throws JposException;
+    public String  getCurrencyCashList() throws JposException;
+    public String  getCurrencyCode() throws JposException;
+    public void    setCurrencyCode(String currencyCode) throws JposException;
+    public String  getCurrencyCodeList() throws JposException;
+    public int     getCurrentExit() throws JposException;
+    public void    setCurrentExit(int currentExit) throws JposException;
+    public int     getDeviceExits() throws JposException;
+    public int     getDeviceStatus() throws JposException;
+    public String  getExitCashList() throws JposException;

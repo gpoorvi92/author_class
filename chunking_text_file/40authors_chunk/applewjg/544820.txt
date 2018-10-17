@@ -1,0 +1,10 @@
+                            if (graph.containsKey(temp) == false) {
+                                ArrayList<String> l = new ArrayList<String>();
+                                l.add(str);
+                                graph.put(temp,l);
+                            } else {
+                                (graph.get(temp)).add(str);
+                            }
+                        }
+                    }
+                    word[j] = before;

@@ -1,0 +1,10 @@
+		Hashtable<String, String> hm = new Hashtable<String, String>();
+
+		hm.put("007", "周星驰");
+		// hm.put(null, "成龙"); // NullPointerException
+		// hm.put(null, "周润发");
+		// hm.put("9527", null); // NullPointerException
+
+		System.out.println(hm);
+	}
+}

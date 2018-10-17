@@ -1,0 +1,10 @@
+package chart;
+public class ChartBeanBeanInfo extends java.beans.SimpleBeanInfo
+{
+   public java.beans.PropertyDescriptor[] getPropertyDescriptors()
+   {
+      try
+      {
+         java.beans.PropertyDescriptor titleDescriptor
+            = new java.beans.PropertyDescriptor("title", chart.ChartBean.class);
+         java.beans.PropertyDescriptor valuesDescriptor

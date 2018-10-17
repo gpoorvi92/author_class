@@ -1,0 +1,10 @@
+
+    @Override
+    public int getWord(int position) {
+        return this.buffer.get(position);
+    }
+
+    @Override
+    public int getLastWord() {
+        return getWord(this.actualSizeInWords - 1);
+    }

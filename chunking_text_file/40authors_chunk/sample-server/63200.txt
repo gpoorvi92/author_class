@@ -1,0 +1,10 @@
+                return null;
+            }
+
+            buf[i] = buffer.readByte();
+            if (buf[i] >= 0)
+            {
+                int length = CodedInputStream.newInstance(buf, 0, i + 1)
+                        .readRawVarint32();
+                if (length < 0)
+                {

@@ -1,0 +1,10 @@
+	{
+		int nSockets = size();
+		for (int n=0; n<nSockets; n++) {
+			SSDPSearchResponseSocket sock = getSSDPSearchResponseSocket(n);
+			sock.stop();
+		}
+	}
+
+	////////////////////////////////////////////////
+	//	Methods

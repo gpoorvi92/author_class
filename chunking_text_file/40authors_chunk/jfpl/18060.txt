@@ -1,0 +1,10 @@
+			}
+		} else {
+			fad.showDialog();
+			fad.setMessage("该违法代码无对应信息");
+		}
+		return acd;
+	}
+
+	@Override
+	public AbstractCommonData doError(AbstractCommonData acd) {

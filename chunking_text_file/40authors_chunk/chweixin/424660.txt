@@ -1,0 +1,10 @@
+	/**
+	 * 加载目标Servlet对象。
+	 * @param targetServletBean
+	 * 	在Spring中配置的Bean对象。
+	 * */
+	protected synchronized Servlet loadServletBean(String targetServletBean){
+		ServletContext servletContext = this.getServletContext();
+		WebApplicationContext wac = WebApplicationContextUtils.getRequiredWebApplicationContext(servletContext);
+		return (Servlet)wac.getBean(targetServletBean);
+	}

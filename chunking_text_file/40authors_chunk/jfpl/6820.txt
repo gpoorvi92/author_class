@@ -1,0 +1,10 @@
+			if (this.mediaRecorder != null) {
+				this.mediaRecorder.stop();
+				this.mediaRecorder.release();
+				this.mediaRecorder = null;
+			}
+		} catch (Exception ex) {
+			SystemUtil.printException(ex, "w");
+		}
+	}
+

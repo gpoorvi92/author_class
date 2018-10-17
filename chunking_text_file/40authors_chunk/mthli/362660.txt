@@ -1,0 +1,10 @@
+class TraceHandler implements InvocationHandler
+{
+   private Object target;
+
+   /**
+    * Constructs a TraceHandler
+    * @param t the implicit parameter of the method call
+    */
+   public TraceHandler(Object t)
+   {

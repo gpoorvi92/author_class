@@ -1,0 +1,10 @@
+		}
+
+		bos.close();
+		bis.close();
+	}
+
+	// 高效字节流一次读写一个字节数组
+	public static void method4() throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				"d:\\哥有老婆.mp4"));

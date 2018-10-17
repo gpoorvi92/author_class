@@ -1,0 +1,10 @@
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: setTopicListener
+	 * @param queue type
+	 * @param listener
+	 * @throws MQException
+	 * @see com.yeshj.pacman.jms.IMQFactory#setTopicListener(com.yeshj.pacman.jms.IMQListener)
+	 */
+	@Override

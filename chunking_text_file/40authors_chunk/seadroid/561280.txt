@@ -1,0 +1,10 @@
+    long getDateTaken();
+
+    String getMimeType();
+
+    int getWidth();
+
+    int getHeight();
+
+    // Get property of the image
+    boolean isReadonly();

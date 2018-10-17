@@ -1,0 +1,10 @@
+			if(info.getSort().equalsIgnoreCase("accountName")){
+				info.setSort("account.name");
+			}
+			hql += " order by w." + info.getSort() + " " + info.getOrder();
+		}
+		return this.find(hql, parameters, info.getPage(), info.getRows());
+	}
+
+	@Override
+	public Long total(WeChatDefaultReplyInfo info) {

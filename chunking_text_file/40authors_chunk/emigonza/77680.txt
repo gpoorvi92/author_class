@@ -1,0 +1,10 @@
+                                    Long.class, 
+                                    Short.class 
+                                  };
+	
+	/** Array of all the property types allowed for a JposEntry property */
+	public static final String[] PROP_TYPES_SHORT_NAMES = 
+								   { 
+								   	 "String", 
+								   	 "Boolean", 
+								   	 "Byte", 

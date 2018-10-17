@@ -1,0 +1,10 @@
+      }
+      if (struct.dataLength != null) {
+        oprot.writeFieldBegin(DATA_LENGTH_FIELD_DESC);
+        oprot.writeString(struct.dataLength);
+        oprot.writeFieldEnd();
+      }
+      if (struct.operateTime != null) {
+        oprot.writeFieldBegin(OPERATE_TIME_FIELD_DESC);
+        oprot.writeString(struct.operateTime);
+        oprot.writeFieldEnd();

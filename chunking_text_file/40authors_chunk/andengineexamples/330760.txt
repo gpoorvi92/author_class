@@ -1,0 +1,10 @@
+	public double getDistanceToUser() {
+		return this.mDistanceToUser;
+	}
+
+	public void setDistanceToUser(final double pDistanceToUser) {
+		this.mDistanceToUser = pDistanceToUser;
+	}
+	
+	public double getBearingToUser() {
+		return this.mBearingToUser;

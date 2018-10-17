@@ -1,0 +1,10 @@
+	private BeanFactory factory;
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception
+	 * @return: void
+	 */
+	@Before
+	public void setUp() throws Exception {
+		factory = new ClassPathXmlApplicationContext("schedules.xml");

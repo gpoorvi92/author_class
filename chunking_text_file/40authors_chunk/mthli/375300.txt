@@ -1,0 +1,10 @@
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+class BuggyButtonFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 300;

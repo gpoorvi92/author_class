@@ -1,0 +1,10 @@
+        mLibVLC.stop();
+
+        EventManager.getIntance().removeHandler(mVlcHandler);
+    }
+
+    @Override
+    public void reset() {
+        DebugLog.v(TAG, "reset");
+        mLibVLC.stop();
+        mPrepared = false;

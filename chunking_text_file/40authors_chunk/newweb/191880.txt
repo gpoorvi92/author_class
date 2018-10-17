@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@SuppressWarnings("rawtypes")
+	@Override
+	public List selectAllUsers(int start, int limit) {
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_user")
+				.addEntity(User.class);

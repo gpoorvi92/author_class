@@ -1,0 +1,10 @@
+            return path;
+        }
+        return ProviderUtil.PATH_SEPERATOR;
+    }
+
+    /**
+     * create a documentId based on an account, a repoId and a file path.
+     *
+     * @param a the account object. must not be null.
+     * @param repoId the repoId. May be null.

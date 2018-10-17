@@ -1,0 +1,10 @@
+	 */
+	public void visitCashChanger( DevCat devCat ) {}
+
+	/**
+	 * Visits a CashDrawer DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitCashDrawer( DevCat devCat ) {}
+
+	/**

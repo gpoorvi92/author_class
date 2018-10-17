@@ -1,0 +1,10 @@
+    }
+}
+
+/*
+addCount不加synchronized
+输出：
+count=200
+count=200
+count=300
+count=400

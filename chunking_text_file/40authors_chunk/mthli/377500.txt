@@ -1,0 +1,10 @@
+            String[] prefixes = { "get", "set", "is" };
+            boolean found = false;
+            for (int i = 0; !found && i < prefixes.length; i++)
+               if (mname.startsWith(prefixes[i]))
+               {
+                  found = true;
+                  int start = prefixes[i].length();
+                  String name = Introspector.decapitalize(mname.substring(start));
+                  props.put(name, e.getAnnotation(Property.class));
+               }

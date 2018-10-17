@@ -1,0 +1,10 @@
+            if (sysNotice.getZoneId() == 0)
+            {
+                for (ChatServerRpcClient each : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.DeleteSysNoticeResp resp = each.deleteSysNotice(req);
+                    if (!resp.getSuccess())
+                    {
+                        ret = false;
+                    }
+                }

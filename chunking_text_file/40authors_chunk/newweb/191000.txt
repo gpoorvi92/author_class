@@ -1,0 +1,10 @@
+	private String ID;
+	private Customer customer;
+	private String createDate;
+	private String createTime;
+	
+	private String status;
+	private double account;
+	private double receivableMoney;
+	private double realIncomeMoney;
+	private String lastModifyDate;

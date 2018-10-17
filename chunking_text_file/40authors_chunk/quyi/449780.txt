@@ -1,0 +1,10 @@
+      issuedMessage_call method_call = new issuedMessage_call(missionId, userApps, rules, plots, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class issuedMessage_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;
+      private List<com.nercis.isscp.idl.UserApp> userApps;
+      private List<String> rules;
+      private List<com.nercis.isscp.idl.PlotsType> plots;

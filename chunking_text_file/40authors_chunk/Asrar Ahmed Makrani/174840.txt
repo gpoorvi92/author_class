@@ -1,0 +1,10 @@
+            	journal_title_text.setText("");
+            	issue_number_text.setText("");
+            	class_text.setText("");
+            	publisher_text.setText("");
+            	place_text.setText("");
+            	year_text.setText("");
+            	pages_text.setText("");
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");	

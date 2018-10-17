@@ -1,0 +1,10 @@
+
+/**
+ * P255
+ * schedule(TimerTask task, Date firstTime, long period) 方法
+ * Date类型
+ * 在延时的情况下，若执行任务被延时，下次执行任务的开始时间是上一次任务的开始时间作为参考点
+ */
+public class Run4_schedule5 {
+    static public class MyTask extends TimerTask {
+        @Override

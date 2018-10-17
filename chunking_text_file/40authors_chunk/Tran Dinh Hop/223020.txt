@@ -1,0 +1,10 @@
+	private ImageEncoder encoder = null;
+	private TIFFEncodeParam encodeParam = null;
+	private static PlanarImage srcImage, dstImage;
+	String outFileName;
+
+	public TIFEncoder(String inFile) {
+
+		// Lay ra ten file de ghep vao phan mo rong jpg
+		File f = new File(inFile);
+		int pos = f.getName().indexOf(".");

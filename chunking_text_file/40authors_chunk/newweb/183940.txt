@@ -1,0 +1,10 @@
+public class SmallPriceCutServiceImp implements SmallPriceCutService {
+	
+	@Autowired
+	private SmallPriceCutDao smallPriceCutDao;
+
+	@Override
+	public SmallPriceCut findSmallPriceCutBySmallIDAndCustomerID(int smallID,
+			int customerID) {
+		return smallPriceCutDao.selectSmallPriceCutBySmallIDAndCustomerID(smallID,customerID);
+	}

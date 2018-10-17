@@ -1,0 +1,10 @@
+    public FileWriterWithEncoding(File file, Charset encoding, boolean append)
+        throws IOException
+    {
+        out = initWriter(file, encoding, append);
+    }
+
+    public FileWriterWithEncoding(File file, CharsetEncoder encoding)
+        throws IOException
+    {
+        this(file, encoding, false);

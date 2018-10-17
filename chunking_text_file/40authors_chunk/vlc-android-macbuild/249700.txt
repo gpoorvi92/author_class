@@ -1,0 +1,10 @@
+    private static class AsyncLoader extends AsyncTask<String, Void, PlayIndex> {
+        private WeakReference<DefMediaListPlayer> mWeakPlayer;
+
+        public AsyncLoader(DefMediaListPlayer player) {
+            mWeakPlayer = new WeakReference<DefMediaListPlayer>(player);
+        }
+
+        @Override
+        protected PlayIndex doInBackground(String... params) {
+            if (params.length <= 0)

@@ -1,0 +1,10 @@
+ * User: Teaey
+ * Date: 13-7-14
+ */
+public abstract class RpcPacketHandler
+{
+    protected static final Logger               log        = LoggerFactory.getLogger(RpcPacketHandler.class);
+    private volatile       boolean              RUN        = true;
+    private static final   Map<String, Invoker> invokerMap = new HashMap<>();
+    private class Invoker
+    {

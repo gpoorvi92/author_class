@@ -1,0 +1,10 @@
+		// getSystemService(Context.INPUT_METHOD_SERVICE);
+		// imm.toggleSoftInput(0, InputMethodManager.HIDE_NOT_ALWAYS);
+		if (flag) {
+			addMsgPanel.setVisibility(View.VISIBLE);
+			RelativeLayout.LayoutParams para = (RelativeLayout.LayoutParams) mainLayout
+					.getLayoutParams();
+			para.height = SystemUtil.SCREEN_HEIGHT - addPanelHeight;
+			mainLayout.setLayoutParams(para);
+			isAddVisible = true;
+		} else {

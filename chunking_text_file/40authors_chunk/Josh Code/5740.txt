@@ -1,0 +1,10 @@
+ double x,y,z;
+
+    public static Vector3D getFromCoordinates(double x, double y, double z)
+    {
+        Vector3D result = new Vector3D();
+        result.x = x;
+        result.y = y;
+        result.z = z;
+        return result;
+    }

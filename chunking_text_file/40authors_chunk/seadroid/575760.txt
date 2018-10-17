@@ -1,0 +1,10 @@
+    @Override
+    public void onDirectoryCreate(File directory) {
+        Log.v(DEBUG_TAG, directory.getPath() + " was created!");
+    }
+
+    @Override
+    public void onDirectoryDelete(File directory) {
+        Log.v(DEBUG_TAG, directory.getPath() + " was deleted!");
+    }
+

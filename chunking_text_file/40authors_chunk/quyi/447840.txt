@@ -1,0 +1,10 @@
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetOsArch()).compareTo(other.isSetOsArch());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetOsArch()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.osArch, other.osArch);
+      if (lastComparison != 0) {

@@ -1,0 +1,10 @@
+        flatten_1(root.right);
+        if (root.left == null) return;
+        TreeNode node = root.left;
+        while (node.right != null) node = node.right;
+        node.right = root.right;
+        root.right = root.left;
+        root.left = null;
+    }
+    public void flatten_2(TreeNode root) {
+        if (root == null) return;

@@ -1,0 +1,10 @@
+  public String getObj() {
+    return this.obj;
+  }
+
+  public Rules setObj(String obj) {
+    this.obj = obj;
+    return this;
+  }
+
+  public void unsetObj() {

@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(2)) {
+        {
+          org.apache.thrift.protocol.TMap _map86 = new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.I32, org.apache.thrift.protocol.TType.I32, iprot.readI32());
+          struct.plotsStatus = new HashMap<PlotsType,CheckResultStatus>(2*_map86.size);
+          for (int _i87 = 0; _i87 < _map86.size; ++_i87)
+          {
+            PlotsType _key88;
+            CheckResultStatus _val89;
+            _key88 = PlotsType.findByValue(iprot.readI32());

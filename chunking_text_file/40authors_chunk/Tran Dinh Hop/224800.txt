@@ -1,0 +1,10 @@
+			icm.getBlues(lutData[2]);
+			
+			// Create the lookup table object.
+			LookupTableJAI lut = new LookupTableJAI(lutData);
+			
+			// Replace the original image with the 3-band RGB image.
+			image = JAI.create("lookup", image, lut);
+		}
+		
+		return image;

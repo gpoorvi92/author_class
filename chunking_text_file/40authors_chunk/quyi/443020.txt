@@ -1,0 +1,10 @@
+      if (incoming.get(6)) {
+        struct.dataHex = iprot.readString();
+        struct.setDataHexIsSet(true);
+      }
+      if (incoming.get(7)) {
+        struct.dataChar = iprot.readString();
+        struct.setDataCharIsSet(true);
+      }
+      if (incoming.get(8)) {
+        struct.dataLength = iprot.readString();

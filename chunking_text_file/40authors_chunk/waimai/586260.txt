@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("index");
+        modelAndView.addObject("totalCount", newsService.getTotalCount());
+        modelAndView.addObject("apkUrl", appService.getNewestUrl());
+        return modelAndView;
+    }
+
+    @RequestMapping("/manageLogin")
+    public ModelAndView manageLogin() {
+        ModelAndView modelAndView = new ModelAndView("index");
+        modelAndView.addObject("flag", "admin");

@@ -1,0 +1,10 @@
+            ChannelBuffer buffer) throws Exception
+    {
+        buffer.markReaderIndex();
+        ChannelBuffer body = null;
+        final byte[] buf = new byte[5];
+        for (int i = 0; i < buf.length; i++)
+        {
+            if (!buffer.readable())
+            {
+                buffer.resetReaderIndex();

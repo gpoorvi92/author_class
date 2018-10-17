@@ -1,0 +1,10 @@
+    if (!value) {
+      this.missionProgress = null;
+    }
+  }
+
+  public int getSamplesSize() {
+    return (this.samples == null) ? 0 : this.samples.size();
+  }
+
+  public java.util.Iterator<com.nercis.isscp.idl.Sample> getSamplesIterator() {

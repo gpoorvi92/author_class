@@ -1,0 +1,10 @@
+
+/**
+ * TODO
+ * @Class: LessonInfo
+ * @author: zhangxinyu
+ * @date: 2014年12月24日 下午6:11:37
+ */
+public class LessonInfo {
+	
+	private int classID;

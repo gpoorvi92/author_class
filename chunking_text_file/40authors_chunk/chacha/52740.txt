@@ -1,0 +1,10 @@
+		try{
+			AccountNameBody body=delReq.getBody();
+			String[] nameArray=body.getNameArray();
+			for(String name:nameArray){
+				acctDAO.deleteAccount(name);
+			}
+			r.setResult(ResponseCode.SUCCESS);
+		}catch(Exception e){
+			r.setResult(ResponseCode.ERROR_ACCOUNT_DEL);
+			log.error("delete:",e);

@@ -1,0 +1,10 @@
+      this.imageContent = other.imageContent;
+    }
+    if (other.isSetCheckResult()) {
+      this.checkResult = other.checkResult;
+    }
+  }
+
+  public RunMonitor deepCopy() {
+    return new RunMonitor(this);
+  }

@@ -1,0 +1,8 @@
+		System.out.println("-----------------");
+
+		for (int x = 0; x < array.size(); x++) {
+			String s = array.get(x);
+			System.out.println(s);
+		}
+	}
+}

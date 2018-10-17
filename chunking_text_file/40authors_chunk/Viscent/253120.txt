@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+ */
+
+package io.github.viscent.mtpattern.ch12.ms.example.testdatagen;
+
+import java.util.Map;
+
+public class SmsRequestFactory extends AbstractRequestFactory {
+
+	public SmsRequestFactory(Map<String, Integer> respDelayConf,

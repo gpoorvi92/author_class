@@ -1,0 +1,10 @@
+      case 1:
+        return A_NUM;
+      case 2:
+        return B_NUM;
+      case 3:
+        return J_NUM;
+      case 4:
+        return MIN_NUM;
+      case 5:
+        return MAX_NUM;

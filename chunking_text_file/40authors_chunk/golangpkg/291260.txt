@@ -1,0 +1,6 @@
+	 */
+	@Deprecated
+	public Float getPercentageCompleted() {
+		return getProgress();
+	}
+}

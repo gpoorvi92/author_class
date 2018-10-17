@@ -1,0 +1,10 @@
+    }
+
+    public static class modifyEngineConfig<I extends Iface> extends org.apache.thrift.ProcessFunction<I, modifyEngineConfig_args> {
+      public modifyEngineConfig() {
+        super("modifyEngineConfig");
+      }
+
+      public modifyEngineConfig_args getEmptyArgsInstance() {
+        return new modifyEngineConfig_args();
+      }

@@ -1,0 +1,10 @@
+		UUID identifier = staticStateIdentifierManager.getIdentifier();
+
+		// copy cookies from response to request
+		mockHttpServletRequest.setCookies(mockHttpServletResponse.getCookies());
+
+		Assert.assertNotNull(identifier);
+
+		// assert cookie filled
+		Assert.assertEquals(identifier,
+				UUID.fromString(DefaultIdentifierProvider.getCookie(mockHttpServletRequest.getCookies(), DefaultIdentifierProvider.cookieIdentifier)

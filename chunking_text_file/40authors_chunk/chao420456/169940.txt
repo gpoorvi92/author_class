@@ -1,0 +1,10 @@
+		}
+		System.out.println("]");
+	}
+
+	/*
+		写功能实现：
+			返回值类型：void
+			参数列表：int[]
+	*/
+	public static void reverse(int[] arr) {

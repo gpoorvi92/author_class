@@ -1,0 +1,10 @@
+					 i = new Intent(ActivityType.this, TypeListActivity.class);
+					 startActivityForResult(i,0);
+				}
+				
+				
+			}
+
+		});
+	}
+	

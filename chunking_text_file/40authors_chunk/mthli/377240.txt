@@ -1,0 +1,10 @@
+      {
+         current = 0;
+         target = t;
+      }
+
+      protected Void doInBackground() throws Exception
+      {
+         try
+         {
+            while (current < target)

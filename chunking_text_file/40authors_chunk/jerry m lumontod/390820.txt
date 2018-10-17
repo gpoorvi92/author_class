@@ -1,0 +1,10 @@
+		} catch(Exception e) {
+			System.out.println("Could not close the current connection.");
+			e.printStackTrace();
+		}
+	
+		return model;
+			
+	}
+	
+}

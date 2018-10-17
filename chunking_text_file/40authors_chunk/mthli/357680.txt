@@ -1,0 +1,10 @@
+            {
+               float[] elements = { 0.0f, -1.0f, 0.0f, -1.0f, 4.f, -1.0f, 0.0f, -1.0f, 0.0f };
+               convolve(elements);
+            }
+         });
+      editMenu.add(edgeDetectItem);
+
+      JMenuItem negativeItem = new JMenuItem("Negative");
+      negativeItem.addActionListener(new ActionListener()
+         {

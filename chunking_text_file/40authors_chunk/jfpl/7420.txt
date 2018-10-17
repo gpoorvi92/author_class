@@ -1,0 +1,10 @@
+			int position, long id) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		MapController mapController = mapView.getController();
+		int lat = acd.getIntValue("lat");
+		int lon = acd.getIntValue("lon");
+		GeoPoint point = new GeoPoint(lat, lon);
+		// 用给定的经纬度构造一个GeoPoint，单位是微度 (度 * 1E6)
+		mapController.animateTo(point);// 设置地图中心点
+		mapController.setZoom(17.2f);
+		mapController.animateTo(point);// 设置地图中心点

@@ -1,0 +1,10 @@
+        DebugLog.d(TAG, "Closing the java audio output");
+        mAout.release();
+    }
+
+    /**
+     * Read a media.
+     */
+    public void readMediaEx(String mrl, String[] options) {
+        DebugLog.v(TAG, "Reading " + mrl);
+

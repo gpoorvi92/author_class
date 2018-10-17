@@ -1,0 +1,10 @@
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testNormal() throws Exception {
+		
+		FileHelper.ensureExists("e:\\out\\class_audio_mp3\\0\\", false);
+		String xml = FileHelper.combinePath(this.getClass().getResource("/").toString(), "log4j.xml").replace("file:\\", "");

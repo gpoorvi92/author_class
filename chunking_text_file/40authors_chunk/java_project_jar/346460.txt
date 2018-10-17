@@ -1,0 +1,10 @@
+        {
+            position++;
+            return processChar();
+        }
+    }
+
+    public int read(char chars[])
+        throws IOException
+    {
+        return read(chars, 0, chars.length);

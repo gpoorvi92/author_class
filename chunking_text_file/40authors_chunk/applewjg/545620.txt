@@ -1,0 +1,10 @@
+                if(node.right!=null) q.offer(node.right);
+            } else {
+                res.add(level);
+                level = new ArrayList<Integer>();
+                if(q.isEmpty()==true) break;
+                q.offer(null);
+            }
+        }
+        Collections.reverse(res);
+        return res;

@@ -1,0 +1,10 @@
+	
+	@Transmit(key = "total")
+	private long memTotal;
+	
+	@Transmit(key = "used")
+	private long memUsed;
+	
+	@Transmit(key = "free")
+	private long memFree;
+	

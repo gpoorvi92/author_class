@@ -1,0 +1,10 @@
+	//	Timeout
+	////////////////////////////////////////////////
+	
+	public final static String toTimeoutHeaderString(long time)
+	{
+		if (time == Subscription.INFINITE_VALUE)
+			return Subscription.INFINITE_STRING;
+		return Subscription.TIMEOUT_HEADER + Long.toString(time);
+	}
+	

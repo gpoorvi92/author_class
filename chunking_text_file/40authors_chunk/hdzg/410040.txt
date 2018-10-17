@@ -1,0 +1,10 @@
+				for(CityDrawable city:cityList){
+					city.food -= (int)(city.food*0.15f);
+					if(city.food <= MIN_FOOD){//如果城中粮草小于某个值就报警
+						if(ignoredCity == city){//如果之前已经警报过了，那就城池分崩离析吧
+							GameView gv = hero.father;
+							city.setBackToInit();//恢复城市的信息到默认
+							
+							String alertMessage = "由于你没有及时输送粮草，"+city.getCityName()+"由于粮草危机已经" +
+									"不攻自破，将领和老百姓已经归顺了"+COUNTRY_NAME[city.getCountry()]+"，不再属于你了。";
+							PlainAlert pa = new PlainAlert(gv, alertMessage, GameView.dialogBack, GameView.dialogButton);

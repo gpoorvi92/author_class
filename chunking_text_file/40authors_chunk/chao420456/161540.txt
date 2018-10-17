@@ -1,0 +1,10 @@
+		System.out.println(3 & 4); //0
+		System.out.println(3 | 4); //7
+		System.out.println(3 ^ 4); //7
+		System.out.println(~3); //
+	}
+}
+
+/*
+	A:计算出3，4的二进制
+		3的二进制：00000000 00000000 00000000 00000011

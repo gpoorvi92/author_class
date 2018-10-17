@@ -1,0 +1,10 @@
+		// 定义规则
+		String regex = "\\b[a-z]{3}\\b";
+
+		Pattern p = Pattern.compile(regex);
+		Matcher m = p.matcher(s);
+
+		// public boolean find():问是否有匹配的
+		// boolean b = m.find();
+		// System.out.println(b);
+		// 我们得拿出来

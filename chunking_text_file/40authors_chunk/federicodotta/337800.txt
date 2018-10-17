@@ -1,0 +1,10 @@
+     */
+    static final byte INS_PARAM_MULTIPART_ATTR = 0x05;
+    /**
+     * Used to indicate where the payload is inserted into the value of an item
+     * of data within a JSON structure.
+     */
+    static final byte INS_PARAM_JSON = 0x06;
+    /**
+     * Used to indicate where the payload is inserted into the value of an AMF
+     * parameter.

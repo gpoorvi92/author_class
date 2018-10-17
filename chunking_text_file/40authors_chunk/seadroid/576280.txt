@@ -1,0 +1,10 @@
+
+        switch (taskInfo.state) {
+        case INIT:
+            itemCancel.setVisible(true);
+            break;
+        case TRANSFERRING:
+            itemCancel.setVisible(true);
+            break;
+        case CANCELLED:
+            itemRetry.setVisible(true);

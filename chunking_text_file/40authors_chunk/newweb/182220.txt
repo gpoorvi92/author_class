@@ -1,0 +1,10 @@
+		}
+		return s;
+	}
+
+	@Override
+	public Bill[] queryAllBills() {
+		List<Bill> list = billDao.selectAllBills();
+		Bill[] bs = new Bill[list.size()];
+		int count = 0;
+		for (Bill b : list) {

@@ -1,0 +1,10 @@
+		Border lineborder = new LineBorder(Color.GREEN,2);
+		cont.add(p2,BorderLayout.SOUTH);	
+		
+		jbtFoods.addActionListener(this);
+		jbtDrinks.addActionListener(this);
+		jbtDesert.addActionListener(this);
+		jbtExit.addActionListener(this);
+	}
+	
+	

@@ -1,0 +1,7 @@
+    }
+
+    public void setOnSeekCompleteListener(
+            AbsMediaPlayer.OnSeekCompleteListener listener) {
+        mOnSeekCompleteListener = listener;
+    }
+}

@@ -1,0 +1,10 @@
+    public JTextField book_category_text = new JTextField(20);
+    public JTextField author_text = new JTextField(20);
+    public JTextField publisher_text = new JTextField(20);
+    public JTextField subject_text = new JTextField(20);
+    public JTextField location_text = new JTextField(20);
+    
+    public JLabel book_rtn_entry = new JLabel("Item Return Entry");
+    	public JLabel book_ac_no = new JLabel("Item Acc No.");
+    	public JLabel rent_date = new JLabel("Rent Date");
+    	public JLabel rent_due_date = new JLabel("Rent Due Date");

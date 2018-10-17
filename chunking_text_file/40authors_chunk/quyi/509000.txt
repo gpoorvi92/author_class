@@ -1,0 +1,10 @@
+      }
+      struct.setPlotsStatusIsSet(true);
+      struct.detectResult = iprot.readBinary();
+      struct.setDetectResultIsSet(true);
+      BitSet incoming = iprot.readBitSet(2);
+      if (incoming.get(0)) {
+        {
+          org.apache.thrift.protocol.TList _list151 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.MAP, iprot.readI32());
+          struct.usedPermissions = new ArrayList<Map<String,APICheck>>(_list151.size);
+          for (int _i152 = 0; _i152 < _list151.size; ++_i152)

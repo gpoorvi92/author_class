@@ -1,0 +1,10 @@
+        Consumer[] consumers = new Consumer[cNum];
+        C_Thread[] c_threads = new C_Thread[cNum];
+
+        for (int i = 0; i < cNum; i++) {
+            consumers[i] = new Consumer(myStack);
+        }
+
+        for (int i = 0; i < cNum; i++) {
+            c_threads[i] = new C_Thread(consumers[i]);
+        }

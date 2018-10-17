@@ -1,0 +1,10 @@
+			canvas.drawText("取消", 
+					DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WORD_LEFT, 
+					DIALOG_BTN_START_Y+DIALOG_WORD_SIZE+DIALOG_BTN_WORD_UP,
+					paint
+					);
+		}		
+	}
+	//方法：返还监听器，回复游戏状态
+	public void recoverGame(){
+		tempHero.father.setOnTouchListener(tempHero.father);//返还监听器

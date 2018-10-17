@@ -1,0 +1,10 @@
+		}
+		);
+
+		//Setting the Logon Form Position on User's Screen.
+
+		setLocation (d.width / 2 - getWidth() / 2, d.height / 2 - getHeight() / 2);
+
+		//Setting the Layout of Panel.
+
+		pLog.setLayout (null);

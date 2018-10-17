@@ -1,0 +1,10 @@
+	private LhjPriceDao lhjPriceDao;
+	@Autowired
+	private LhjPriceCutService lhjPriceCutService;
+	@Autowired
+	private OrderPriceService orderPriceService;
+
+	@Override
+	public LhjPrice findLhjPriceByMaterialBrandIDBindCut(int materialBrandID,int customerID,String orderID) {
+		LhjPrice price = lhjPriceDao.selectLhjPriceByMaterialBrandID(materialBrandID);
+		LhjPrice returnPrice = (LhjPrice) price.clone();

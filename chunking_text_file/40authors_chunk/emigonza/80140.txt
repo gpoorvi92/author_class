@@ -1,0 +1,10 @@
+            {
+                tracer.println( "Error creating instance of specified " +
+                                "jpos.config.serviceManagerClass class: " + 
+                                customManagerClassName );
+                                
+				tracer.println( "Using default manager class: " +
+								"jpos.loader.simple.SimpleServiceManager" );                                
+
+                manager = new jpos.loader.simple.
+                              SimpleServiceManager( jposProperties ); 

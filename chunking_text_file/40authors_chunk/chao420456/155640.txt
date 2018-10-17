@@ -1,0 +1,10 @@
+ */
+public class CopyTxtDemo {
+	public static void main(String[] args) throws IOException {
+		String srcString = "c:\\a.txt";
+		String destString = "d:\\b.txt";
+
+		method1(srcString, destString);
+		// method2(srcString, destString);
+		// method3(srcString, destString);
+		// method4(srcString, destString);

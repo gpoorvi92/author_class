@@ -1,0 +1,10 @@
+      if (!value) {
+        this.ire = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.UnavailableException getUe() {
+      return this.ue;
+    }
+
+    public ruleSync_result setUe(com.nercis.isscp.idl.UnavailableException ue) {

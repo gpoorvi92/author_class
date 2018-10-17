@@ -1,0 +1,10 @@
+    return result;
+  }
+
+  /**
+   * Reads up to <code>len</code> bytes of data from this input stream into an
+   * array of bytes. This method blocks until some input is available.
+   * <p>
+   * This method simply performs <code>in.read(b, off, len)</code> and returns
+   * the result. 
+   * <p>

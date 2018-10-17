@@ -1,0 +1,10 @@
+			}
+			gJNILoaded = true;
+		} catch (UnsatisfiedLinkError e) {
+			
+			gJNILoaded = false;
+e.printStackTrace();
+		}
+	}
+	
+	//Video codec

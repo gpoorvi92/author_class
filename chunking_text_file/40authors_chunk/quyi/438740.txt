@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField FS_SIZE_FIELD_DESC = new org.apache.thrift.protocol.TField("fsSize", org.apache.thrift.protocol.TType.I32, (short)6);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new HardwareStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new HardwareTupleSchemeFactory());
+  }
+
+  public String cpuVendor; // required
+  public String cpuModel; // required

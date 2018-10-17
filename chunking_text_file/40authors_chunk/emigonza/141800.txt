@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAlarm"),
+        makeProperty("CapBlink"),
+        makeProperty("CapColor"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+

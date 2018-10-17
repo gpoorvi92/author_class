@@ -1,0 +1,10 @@
+         Sequence seq = new Sequence(Sequence.PPQ, 4);
+         Track track = seq.createTrack();     
+
+         // now make two midi events (containing a midi message)
+         MidiEvent event = null;
+         
+         // first make the message
+         // then stick the message into a midi event 
+         // and add the event to the track
+

@@ -1,0 +1,10 @@
+    private String file_path;
+
+    public String fileId() {
+        return file_id;
+    }
+
+    public Integer fileSize() {
+        return file_size;
+    }
+

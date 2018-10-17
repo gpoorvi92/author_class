@@ -1,0 +1,10 @@
+    public void setScreenOnWhilePlaying(boolean screenOn) {
+        mMediaPlayer.setScreenOnWhilePlaying(screenOn);
+    }
+
+    @Override
+    public void enableLog(boolean enable) {
+        // not support
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+			act.refreshRecently();
+		} else if (position == 1) {
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			List<AbstractCommonData> appList = act.query("get_app_list");
+			acd.putArrayValue("app_grid", appList);
+			act.fillData(acd, viewList.get(position), "");
+			// View zscgs = v.findViewById(R.id.app_zscgs);
+			// View bxlp = v.findViewById(R.id.app_bxlp);
+			// zscgs.setOnClickListener(new View.OnClickListener() {
+			//

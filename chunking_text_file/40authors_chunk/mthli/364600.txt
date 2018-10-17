@@ -1,0 +1,10 @@
+   /**
+    * Saves the drawing in SVG format, using StAX
+    */
+   public void saveStAX() throws IOException, XMLStreamException
+   {
+      if (chooser.showSaveDialog(this) != JFileChooser.APPROVE_OPTION) return;
+      File file = chooser.getSelectedFile();
+      XMLOutputFactory factory = XMLOutputFactory.newInstance();
+      XMLStreamWriter writer = factory.createXMLStreamWriter(Files.newOutputStream(file.toPath()));
+      try

@@ -1,0 +1,10 @@
+public class ArrayListDemo {
+	public static void main(String[] args) {
+		// 存储字符串并遍历
+		ArrayList array = new ArrayList();
+
+		array.add("hello");
+		array.add("world");
+		array.add("java");
+		// array.add(new Integer(100));
+		// array.add(100); // 自动装箱

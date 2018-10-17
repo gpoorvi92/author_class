@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        try
+        {
+            int len = 0;
+            if(csq != null)
+                len = csq.length();
+            beforeWrite(len);
+            out.append(csq);
+            afterWrite(len);

@@ -1,0 +1,10 @@
+		return accountName;
+	}
+	/**
+	 * 设置公众号名称。
+	 * @param accountName
+	 * 公众号名称。
+	 * */
+	public void setAccountName(String accountName) {
+		this.accountName = accountName;
+	}

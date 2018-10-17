@@ -1,0 +1,10 @@
+            }
+        }
+    };
+
+    @Override
+    public void setAudioStreamType(int streamMusic) {
+        mMediaPlayer.setAudioStreamType(streamMusic);
+    }
+
+    @Override

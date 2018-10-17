@@ -1,0 +1,10 @@
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+  public boolean getCapVideoData() throws JposException;
+
+
+  // Properties
+  public boolean getAimMode() throws JposException;
+  public void    setAimMode(boolean aimMode) throws JposException;
+  public boolean getAutoDisable() throws JposException;
+  public void    setAutoDisable(boolean autoDisable) throws JposException;

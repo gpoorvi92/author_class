@@ -1,0 +1,10 @@
+          return false;
+        if (!this.engineId.equals(that.engineId))
+          return false;
+      }
+
+      return true;
+    }
+
+    @Override
+    public int hashCode() {

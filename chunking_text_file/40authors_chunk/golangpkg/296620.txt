@@ -1,0 +1,10 @@
+		Assert.assertThat(staticStateIdentifierManager.getIdentifier(), is(randomUUID));
+	}
+
+
+	@Test
+	public void testCrcBuffered()
+			throws IOException {
+
+		// with method
+		CRCResult withMethod = crcHelper.getBufferedCrc(file.getInputStream());

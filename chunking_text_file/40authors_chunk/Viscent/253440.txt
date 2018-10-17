@@ -1,0 +1,10 @@
+	}
+
+	public void broadcastAfter(Callable<Boolean> stateOperation) throws Exception {
+		lock.lockInterruptibly();
+		try {
+			if (stateOperation.call()) {
+				condition.signalAll();
+			}
+		} finally {
+			lock.unlock();

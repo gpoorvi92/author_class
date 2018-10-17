@@ -1,0 +1,10 @@
+	//用于保存AsyncRequestPersistence的唯一实例
+	private static class InstanceHolder {
+		final static RequestPersistence INSTANCE = new AsyncRequestPersistence();
+	}
+	
+	//私有构造器
+	private AsyncRequestPersistence() {
+		logger = Logger.getLogger(AsyncRequestPersistence.class);
+		scheduler = new ThreadPoolExecutor(1, 3, 60 * ONE_MINUTE_IN_SECONDS,
+		    TimeUnit.SECONDS,

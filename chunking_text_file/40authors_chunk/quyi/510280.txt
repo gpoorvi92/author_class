@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_positives = true;
+    boolean that_present_positives = true;
+    if (this_present_positives || that_present_positives) {
+      if (!(this_present_positives && that_present_positives))
+        return false;
+      if (this.positives != that.positives)
+        return false;
+    }

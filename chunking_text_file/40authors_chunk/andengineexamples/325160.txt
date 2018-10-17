@@ -1,0 +1,10 @@
+					LoadTextureExample.this.loadNewTexture();
+				}
+
+				return true;
+			}
+		});
+
+		return this.mScene;
+	}
+

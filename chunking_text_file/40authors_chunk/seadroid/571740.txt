@@ -1,0 +1,10 @@
+            TransferTask task = waitingList.remove(0);
+            transferringList.add(task);
+
+            ConcurrentAsyncTask.execute(task);
+        }
+    }
+
+    protected void cancel(int taskID) {
+        TransferTask task = getTask(taskID);
+        if (task != null) {

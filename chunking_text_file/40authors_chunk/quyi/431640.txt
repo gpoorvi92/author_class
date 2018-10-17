@@ -1,0 +1,10 @@
+    if (this_present_checkDate || that_present_checkDate) {
+      if (!(this_present_checkDate && that_present_checkDate))
+        return false;
+      if (!this.checkDate.equals(that.checkDate))
+        return false;
+    }
+
+    boolean this_present_sensitives = true && this.isSetSensitives();
+    boolean that_present_sensitives = true && that.isSetSensitives();
+    if (this_present_sensitives || that_present_sensitives) {

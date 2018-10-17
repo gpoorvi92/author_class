@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void run() {
+        try {
+            synchronized (lock) {
+                //System.out.println("ThreadName="+ Thread.currentThread().getName()+" get the lock");
+                while (true) {
+                    if (addNumber % 3 == showNumPosition) {
+                        System.out.println("ThreadName=" + Thread.currentThread().getName()

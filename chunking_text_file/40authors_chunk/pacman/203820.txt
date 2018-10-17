@@ -1,0 +1,10 @@
+					break;
+				case 3:
+					listener.onMapMessage(map);
+					break;
+				case 4:
+					
+					try {
+
+						Class<?> clazz = Class.forName(className);
+						Field[] fields = clazz.getDeclaredFields();

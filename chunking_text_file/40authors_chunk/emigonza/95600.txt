@@ -1,0 +1,10 @@
+
+    /**
+     * 1-arg constructor that takes the unique ID
+	 * @param s the unique ID string
+     * @since 1.3 (Washington DC 2001)
+     */
+    public SimpleXmlRegPopulator( String s ) { super( s ); }
+
+    //-------------------------------------------------------------------------
+    // Public methods

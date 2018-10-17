@@ -1,0 +1,10 @@
+		cap = new JComboBox(caps);
+		join = new JComboBox(joins);
+		style = new JComboBox(styles);
+		
+		ok = new JButton("Ok");
+		cancel = new JButton("Cancel");
+		
+		ok.addActionListener(this);
+		cancel.addActionListener(this);
+		cap.addActionListener(this);

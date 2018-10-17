@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.Bxg;
+import com.newweb.model.base.Customer;
+
+@Entity
+@Table(name="t_bxgpricecut")
+public class BxgPriceCut {
+	private int ID;
+	private Customer customer;
+	private Bxg bxg;

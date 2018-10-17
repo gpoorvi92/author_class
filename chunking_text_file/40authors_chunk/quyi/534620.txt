@@ -1,0 +1,10 @@
+            }
+            break;
+          case 7: // RISK_TYPE
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.riskType = iprot.readString();
+              struct.setRiskTypeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

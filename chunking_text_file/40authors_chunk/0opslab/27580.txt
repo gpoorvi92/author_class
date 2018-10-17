@@ -1,0 +1,10 @@
+package com.opslab.util.ftp;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * FTP相关的一些配置
+ */
+public class FTPConstant {
+    /**

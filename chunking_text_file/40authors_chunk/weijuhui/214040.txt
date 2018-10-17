@@ -1,0 +1,10 @@
+     * @param response the parsed json array found in the server response (if any)
+     */
+    public void onSuccess(JSONArray response) {}
+
+    /**
+     * Fired when a request returns successfully and contains a json object
+     * at the base of the response string. Override to handle in your
+     * own code.
+     * @param statusCode the status code of the response
+     * @param response the parsed json object found in the server response (if any)

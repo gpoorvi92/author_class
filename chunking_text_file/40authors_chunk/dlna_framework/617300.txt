@@ -1,0 +1,10 @@
+			
+			String reason = "";
+			while (st.hasMoreTokens() == true) {
+				if (0 <= reason.length())
+					reason += " ";
+				reason += st.nextToken();
+			}
+			setReasonPhrase(reason.trim());
+		}
+		catch (Exception e) {

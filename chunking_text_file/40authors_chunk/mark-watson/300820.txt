@@ -1,0 +1,10 @@
+                }
+                if (++count >= maxR) break;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return words;
+    }
+
+    static private String stripControlCharacters(String s) {

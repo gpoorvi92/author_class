@@ -1,0 +1,10 @@
+package ipower.wechat.message.customer;
+
+import ipower.wechat.message.AccessToken;
+import java.io.Serializable;
+/**
+ * 客户消息基础抽象类。
+ * @author yangyong.
+ * @since 2014-02-24.
+ * */
+public abstract class BaseCustomerMessage implements Serializable {

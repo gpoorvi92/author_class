@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.positives, other.positives);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetVirusEngine()).compareTo(other.isSetVirusEngine());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetVirusEngine()) {

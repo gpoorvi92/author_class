@@ -1,0 +1,10 @@
+	@Override
+	public Order[] queryOrdersByBillId(String billid) {
+		Bill bill = billDao.selectBillById(billid);
+		Set<Order> osSet = bill.getOrder();
+		Order[]	os = new Order[osSet.size()];
+		int count = 0;
+		for (Order order : osSet) {
+			os[count++] = order;
+		}
+		return os;

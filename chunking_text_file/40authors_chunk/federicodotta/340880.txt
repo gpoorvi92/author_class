@@ -1,0 +1,10 @@
+    void setHighlight(String color);
+
+    /**
+     * This method is used to retrieve the HTTP service for this request /
+     * response.
+     *
+     * @return An
+     * <code>IHttpService</code> object containing details of the HTTP service.
+     */
+    IHttpService getHttpService();

@@ -1,0 +1,10 @@
+package com.weparty.views;
+
+import com.googlecode.androidannotations.annotations.AfterViews;
+import com.googlecode.androidannotations.annotations.EActivity;
+import com.tencent.mm.sdk.openapi.IWXAPI;
+import com.tencent.mm.sdk.openapi.WXAPIFactory;
+import com.umeng.analytics.MobclickAgent;
+import com.weparty.R;
+import com.weparty.WePartyApplication;
+import com.weparty.domain.SourceData;

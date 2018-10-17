@@ -1,0 +1,10 @@
+        String hexStr = "E4 B8 AD E6 96 87";
+        System.out.println(ConvertUtil.hexStringtoBinarg(hexStr));
+        System.out.println(Arrays.toString(ConvertUtil.hexStringToByte(hexStr)));
+        for(byte b:ConvertUtil.hexStringToByte(hexStr)){
+            System.out.print(ConvertUtil.byteToBinary(b)+" ");
+        }
+        System.out.print("\n" + ConvertUtil.byteToLong(ConvertUtil.hexStringToByte(hexStr)) + " ");
+        System.out.print("\n" + ConvertUtil.bytesToInt(ConvertUtil.hexStringToByte(hexStr)) + " ");
+        System.out.print("\n" + ConvertUtil.byteToShort(ConvertUtil.hexStringToByte(hexStr)) + " ");
+    }

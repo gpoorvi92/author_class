@@ -1,0 +1,10 @@
+    protected void setText() {
+        String[] splitTime = text.split(" ");
+        topView.setText(splitTime[0]);
+        bottomView.setText(splitTime[1]);
+    }
+
+    
+    public String getTimeText() {
+        return text;
+    }

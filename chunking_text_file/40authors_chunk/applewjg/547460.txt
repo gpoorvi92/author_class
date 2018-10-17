@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 25, 2015
+ Problem:    Valid Number
+ Difficulty: Hard
+ Source:     https://oj.leetcode.com/problems/valid-number/
+ Notes:
+ Validate if a given string is numeric.
+ Some examples:
+ "0" => true

@@ -1,0 +1,10 @@
+
+		pBook.setLayout (null);
+
+		String records[][] = new String [500][5];		//String Type Array use to Load Records From Table.
+
+		try {	//Opening the Required Table.
+			//Query use to Retrieve the Records.
+			String q = "SELECT IssuedBooks.BookId, IssuedBooks.BookName, IssuedBooks.BookAuthor, " + 
+				"IssuedBooks.Category, Members.MemberName FROM IssuedBooks " + 
+				"INNER JOIN Members ON IssuedBooks.MemberId = Members.MemberId ORDER BY BookId";

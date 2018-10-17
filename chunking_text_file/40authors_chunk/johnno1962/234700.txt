@@ -1,0 +1,10 @@
+
+    public native void __maximizeFrame( javax.swing.JInternalFrame f );
+
+    public void maximizeFrame( javax.swing.JInternalFrame f ) {
+        __maximizeFrame( f );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.minimizeFrame(javax.swing.JInternalFrame)
+
+    public native void __minimizeFrame( javax.swing.JInternalFrame f );

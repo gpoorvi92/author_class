@@ -1,0 +1,10 @@
+        }
+        else
+        {
+            Criterion criterion = Restrictions.eq("zoneId", zoneEntity.getZoneId());
+            List<BulletinEntity> list = DaoManager.getLocalDao().selectList(BulletinEntity.class, criterion);
+            map.put("data", list);
+            Collection<ZoneEntity> zoneEntityList = ZoneEntityManager.getInstance().getAllZoneEntiry();
+            map.put("zones", zoneEntityList);
+        }
+    }

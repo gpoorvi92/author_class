@@ -1,0 +1,10 @@
+    public void writeLastBoundaryIfNeeds() {
+        if(isSetLast){
+            return;
+        }
+
+        try {
+            out.write(("\r\n--" + boundary + "--\r\n").getBytes());
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }

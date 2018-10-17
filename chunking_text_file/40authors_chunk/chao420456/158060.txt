@@ -1,0 +1,10 @@
+ * B:创建文件夹，如果文件夹不存在，就创建。存在，就不创建。
+ * 	 public boolean mkdir() 单级文件夹
+ *   public boolean mkdirs() 多级文件夹
+ *   
+ * 到底创建的是文件还是文件夹，取决于你使用的方法。不取决于后缀名。
+ * 骑白马的不一定是班长，可能是组长。
+ */
+public class FileDemo {
+	public static void main(String[] args) throws IOException {
+		// 创建File文件

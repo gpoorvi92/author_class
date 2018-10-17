@@ -1,0 +1,10 @@
+			String ssdpAddr = SSDP.ADDRESS;
+			if (HostInterface.isIPv6Address(bindAddr) == true)
+				ssdpAddr = SSDP.getIPv6Address();
+			//sock.joinGroup(ssdpAddr, SSDP.PORT, bindAddr);
+			if (sock.post(ssdpAddr, SSDP.PORT, req) == false)
+				ret = false;
+			//sock.leaveGroup(ssdpAddr, SSDP.PORT, bindAddr);
+		}
+		return ret;
+	}

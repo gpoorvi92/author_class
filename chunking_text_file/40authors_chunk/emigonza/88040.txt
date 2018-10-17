@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface ToneIndicatorService13 extends ToneIndicatorService12
+{
+    // Capabilities

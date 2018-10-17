@@ -1,0 +1,10 @@
+
+            Segment segment = segmentPlayer.getSegment();
+            if (segment == null || segment.mDuration <= 0)
+                return;
+
+            int bufferedTime = segment.mDuration * percent / 100;
+            int totalPercent = (segmentPlayer.getStartTime() + bufferedTime)
+                    * 100 / totalDuration;
+
+            mOnBufferingUpdateListener.onBufferingUpdate(this, totalPercent);

@@ -1,0 +1,9 @@
+    
+    while ( i <= expo){
+        potencia *= base;
+        i++;
+    }
+   
+    System.out.println(base + " ^ " + expo + " = " + potencia);
+  }
+}

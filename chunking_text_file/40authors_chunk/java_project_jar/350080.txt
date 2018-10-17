@@ -1,0 +1,10 @@
+
+    protected DirectoryWalker(FileFilter filter, int depthLimit)
+    {
+        this.filter = filter;
+        this.depthLimit = depthLimit;
+    }
+
+    protected DirectoryWalker(IOFileFilter directoryFilter, IOFileFilter fileFilter, int depthLimit)
+    {
+        if(directoryFilter == null && fileFilter == null)

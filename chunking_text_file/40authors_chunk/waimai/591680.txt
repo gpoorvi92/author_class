@@ -1,0 +1,10 @@
+
+    public void setQuality(Float quality) {
+        this.quality = quality;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {

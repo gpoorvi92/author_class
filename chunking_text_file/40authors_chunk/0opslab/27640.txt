@@ -1,0 +1,10 @@
+        REPLYCODE.put(225, "数据连接打开，没有进行中的传输。");
+        REPLYCODE.put(226, "关闭数据连接。请求的文件操作已成功（例如，传输文件或放弃文件）。");
+        REPLYCODE.put(227, "进入被动模式 (h1,h2,h3,h4,p1,p2)。");
+        REPLYCODE.put(230, "用户已登录，继续进行。");
+        REPLYCODE.put(250, "请求的文件操作正确，已完成。");
+        REPLYCODE.put(257, "已创建“PATHNAME”。");
+        REPLYCODE.put(332, "需要登录帐户。");
+        REPLYCODE.put(350, "请求的文件操作正在等待进一步的信息。");
+        REPLYCODE.put(425, "无法打开数据连接。");
+        REPLYCODE.put(426, "Connection closed; transfer aborted.");

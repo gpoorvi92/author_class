@@ -1,0 +1,10 @@
+    * @param keyword the keyword to look for
+    */
+   public SearchTask(BlockingQueue<File> queue, String keyword)
+   {
+      this.queue = queue;
+      this.keyword = keyword;
+   }
+
+   public void run()
+   {

@@ -1,0 +1,10 @@
+		public Consumer(TerminationToken token, BlockingDeque<String> workQueue) {
+			super(token);
+			this.workQueue = workQueue;
+		}
+
+		@Override
+		protected void doRun() throws Exception {
+
+			/*
+			 * WorkStealingEnabledChannel接口的take(BlockingDequepreferedQueue)方法

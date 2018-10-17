@@ -1,0 +1,10 @@
+
+	public void stopServer() {
+		try {
+			if(this.isAlive()){
+				serverSocket.close();
+				setFlag_exit(false);
+			}
+		} catch (Throwable e) {}
+	}
+

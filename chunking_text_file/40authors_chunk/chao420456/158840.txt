@@ -1,0 +1,10 @@
+
+		// 创建菜单栏
+		MenuBar mb = new MenuBar();
+		// 创建菜单
+		Menu m = new Menu("文件");
+		// 创建菜单项
+		MenuItem mi = new MenuItem("退出系统");
+
+		// 菜单本身组合
+		m.add(mi);

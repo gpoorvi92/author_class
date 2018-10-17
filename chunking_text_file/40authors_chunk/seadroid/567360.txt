@@ -1,0 +1,10 @@
+            } else
+                starredFile.type = FileType.DIR;
+            return starredFile;
+        } catch (JSONException e) {
+            Log.d(DEBUG_TAG, e.getMessage());
+            return null;
+        }
+    }
+
+    public boolean isDir() {

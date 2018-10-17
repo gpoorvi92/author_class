@@ -1,0 +1,10 @@
+     * @since 0.1 (Philly 99 meeting)
+     * @see jpos.loader.simple.SimpleServiceManager
+     */
+    static
+    {
+        JposProperties jposProperties = new DefaultProperties();
+        jposProperties.loadJposProperties();
+
+        boolean customManagerDefined = false;
+        String customManagerClassName = "";

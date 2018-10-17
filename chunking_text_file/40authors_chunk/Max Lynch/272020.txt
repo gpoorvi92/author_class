@@ -1,0 +1,10 @@
+		g2.draw(new Rectangle2D.Double(40, 233, 300, 50));
+		g2.setPaint(new GradientPaint(0, 0, new Color(0, 40, 100), 400, 300, new Color(0, 40, 100, 130)));
+		g2.setFont(new Font("Times Roman", Font.BOLD, 24));
+		g2.drawString("Graphics Studio v0.1", 50, 260);
+		g2.setFont(new Font("Times Roman", Font.BOLD, 16));
+		g2.drawString("Developed By: Max Lynch", 100, 275);
+
+		
+		
+	}

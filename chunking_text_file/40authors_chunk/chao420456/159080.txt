@@ -1,0 +1,8 @@
+			System.out.println("ÏÄ¼¾");
+		}else if(month>=9 && month<=11) {
+			System.out.println("Çï¼¾");
+		}else {
+			System.out.println("¶¬¼¾");
+		}
+	}
+}

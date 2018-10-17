@@ -1,0 +1,10 @@
+        private final List<Marker> mMarkers = new ArrayList<Marker>();
+        private boolean mFinished = false;
+
+        /** Adds a marker to this log with the specified name. */
+        public synchronized void add(String name, long threadId) {
+            if (mFinished) {
+                throw new IllegalStateException("Marker added to finished log");
+            }
+
+            mMarkers.add(new Marker(name, threadId, SystemClock.elapsedRealtime()));

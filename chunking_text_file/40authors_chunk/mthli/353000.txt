@@ -1,0 +1,10 @@
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               fileNameField = new JTextField(20);
+               JPanel panel = new JPanel();
+               panel.add(new JLabel("File name:"));
+               panel.add(fileNameField);
+               JButton openButton = new JButton("Open");

@@ -1,0 +1,10 @@
+            }
+         });
+
+      // demonstrate check box and radio button menus
+
+      readonlyItem = new JCheckBoxMenuItem("Read-only");
+      readonlyItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

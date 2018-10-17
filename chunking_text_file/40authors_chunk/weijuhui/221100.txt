@@ -1,0 +1,10 @@
+			result.append(space);
+		}
+		return result.toString();
+	}
+
+	public static String getFriendlyLength(int lenMeter) {
+		if (lenMeter > 10000) // 10 km
+		{
+			int dis = lenMeter / 1000;
+			return dis + ChString.Kilometer;

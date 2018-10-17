@@ -1,0 +1,10 @@
+                e.printStackTrace();
+            }
+        }
+        return images;
+    }
+
+
+
+    public static void analysisImage(ArrayList<ImageEntity> images){
+         for (ImageEntity entity :images){

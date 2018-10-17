@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field operateTime is set (has been assigned a value) and false otherwise */
+  public boolean isSetOperateTime() {
+    return this.operateTime != null;
+  }
+
+  public void setOperateTimeIsSet(boolean value) {
+    if (!value) {
+      this.operateTime = null;

@@ -1,0 +1,10 @@
+
+    private Integer mpeg4_width;
+    private Integer mpeg4_height;
+    private String title;
+    private String caption;
+
+    public InlineQueryResultMpeg4Gif(String id, String mpeg4Url, String thumbUrl) {
+        super("mpeg4_gif", id);
+        this.mpeg4_url = mpeg4Url;
+        this.thumb_url = thumbUrl;

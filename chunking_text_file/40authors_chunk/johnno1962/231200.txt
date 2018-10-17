@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void com.apple.eawt.event.SwipeListener.swipedDown(com.apple.eawt.event.SwipeEvent)
+
+    public native void __swipedDown( com.apple.eawt.event.SwipeEvent arg0 );
+
+    public void swipedDown( com.apple.eawt.event.SwipeEvent arg0 ) {
+        __swipedDown( arg0 );
+    }

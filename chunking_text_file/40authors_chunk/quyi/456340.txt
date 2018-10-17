@@ -1,0 +1,10 @@
+        if (struct.isSetIre()) {
+          struct.ire.write(oprot);
+        }
+        if (struct.isSetUe()) {
+          struct.ue.write(oprot);
+        }
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, operateEngine_result struct) throws org.apache.thrift.TException {

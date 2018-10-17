@@ -1,0 +1,10 @@
+	private WebView appView;
+
+	@SuppressLint("SetJavaScriptEnabled")
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.web_test);
+		WebSettings ws = appView.getSettings();
+		ws.setJavaScriptEnabled(true);
+		ws.setJavaScriptCanOpenWindowsAutomatically(true);

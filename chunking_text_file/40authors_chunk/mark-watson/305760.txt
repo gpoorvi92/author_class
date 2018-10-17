@@ -1,0 +1,10 @@
+    }
+  }
+
+  public List<Integer> search(String search_terms) {
+    return search(search_terms, 10);
+  }
+  
+  public List<Integer> search(String search_terms, int max_terms) {
+    List<Integer> ret = new ArrayList<Integer>(10);
+    // temporary tree set to keep ordered search results:

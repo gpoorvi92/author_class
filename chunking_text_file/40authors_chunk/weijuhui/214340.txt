@@ -1,0 +1,10 @@
+        	final int width = bitmap.getWidth();
+        	final int height = bitmap.getHeight();
+        	
+            Bitmap paintingBoard = Bitmap.createBitmap(width,height, Config.ARGB_8888);
+            Canvas canvas = new Canvas(paintingBoard);
+            canvas.drawARGB(Color.TRANSPARENT, Color.TRANSPARENT, Color.TRANSPARENT, Color.TRANSPARENT);
+            
+            final Paint paint = new Paint();
+            paint.setAntiAlias(true);
+            paint.setColor(Color.BLACK);   

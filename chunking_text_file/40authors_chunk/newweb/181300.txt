@@ -1,0 +1,10 @@
+	public void setType(String type) {
+		this.type = type;
+	}
+	@Column(nullable=false)
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}

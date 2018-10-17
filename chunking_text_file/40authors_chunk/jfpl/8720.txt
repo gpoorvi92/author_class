@@ -1,0 +1,10 @@
+
+@SuppressLint("DefaultLocale")
+public class ImagePickerActivity extends AutoActivity {
+
+	private List<AbstractCommonData> imageDataSource;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.image_picker, "");
+		handler.sendEmptyMessage(SHOW_LOADING);

@@ -1,0 +1,10 @@
+		return this.weChatUserDao.findUsers(info);
+	}
+
+	@Override
+	protected WeChatUserInfo changeModel(WeChatUser data) {
+		if(data == null) return null;
+		WeChatUserInfo info = new WeChatUserInfo();
+		BeanUtils.copyProperties(data, info);
+		if(data.getAccount() != null){
+			info.setAccountId(data.getAccount().getId());

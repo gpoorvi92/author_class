@@ -1,0 +1,10 @@
+package fileChooser;
+
+import java.awt.*;
+import java.beans.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * A file chooser accessory that previews images.
+ */

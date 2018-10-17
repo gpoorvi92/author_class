@@ -1,0 +1,10 @@
+	}
+
+	class MiSaveAction extends SqlUpdate {
+		
+		private final static String UPD_SQL = 
+				"UPDATE mediainfo " + 
+				"SET media=?," + 
+				"    audio_rate=?," + 
+				"    audio_sampling=?," + 
+				"    audio_duration=?," + 

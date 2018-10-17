@@ -1,0 +1,10 @@
+        CheckResultStatus __this__plotsStatus_copy_value = other_element_value;
+
+        __this__plotsStatus.put(__this__plotsStatus_copy_key, __this__plotsStatus_copy_value);
+      }
+      this.plotsStatus = __this__plotsStatus;
+    }
+    if (other.isSetCheckStartTime()) {
+      this.checkStartTime = other.checkStartTime;
+    }
+    if (other.isSetCheckStopTime()) {

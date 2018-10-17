@@ -1,0 +1,10 @@
+
+        IntIteratorOverIteratingRLW ii = new IntIteratorOverIteratingRLW(
+                e.getIteratingRLW());
+        assertFalse(ii.hasNext());
+    }
+
+    @Test
+    public void testRandomish() {
+        EWAHCompressedBitmap e = new EWAHCompressedBitmap();
+

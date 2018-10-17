@@ -1,0 +1,10 @@
+		System.out.println(Integer.toString(100, 100));
+		System.out.println(Integer.toString(100, 50));
+		System.out.println(Integer.toString(100, 25));
+		System.out.println(Integer.toString(100, 37));
+		System.out.println(Integer.toString(100, 32));
+		System.out.println(Integer.toString(100, 35));
+		System.out.println(Integer.toString(100, 36));
+		System.out.println(Integer.toString(100, 7));
+		System.out.println("----------------------");
+

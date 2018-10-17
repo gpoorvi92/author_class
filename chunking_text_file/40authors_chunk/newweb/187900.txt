@@ -1,0 +1,10 @@
+	/**
+	 * 将字符串转换成ASCII码
+	 * 
+	 * @param cnStr
+	 * @return String
+	 */
+	public static String getCnASCII(String cnStr) {
+		StringBuffer strBuf = new StringBuffer();
+		// 将字符串转换成字节序列
+		byte[] bGBK = cnStr.getBytes();

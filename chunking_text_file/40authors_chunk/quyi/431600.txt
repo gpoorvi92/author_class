@@ -1,0 +1,10 @@
+    if (that instanceof StaticCheckResultData)
+      return this.equals((StaticCheckResultData)that);
+    return false;
+  }
+
+  public boolean equals(StaticCheckResultData that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_apkMD5 = true && this.isSetApkMD5();

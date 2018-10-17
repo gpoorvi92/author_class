@@ -1,0 +1,10 @@
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               try
+               {
+                  PrinterJob job = PrinterJob.getPrinterJob();
+                  job.setPageable(makeBook());
+                  if (job.printDialog(attributes))
+                  {
+                     job.print(attributes);

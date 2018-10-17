@@ -1,0 +1,10 @@
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handlePreferences(com.apple.eawt.ApplicationEvent)
+
+    public native void __handlePreferences( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handlePreferences( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handlePreferences( arg0 );
+    }
+
+}

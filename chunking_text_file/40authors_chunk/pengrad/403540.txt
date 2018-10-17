@@ -1,0 +1,10 @@
+    public SendVideo height(int height) {
+        return add("height", height);
+    }
+
+    public SendVideo caption(String caption) {
+        return add("caption", caption);
+    }
+
+    @Override
+    protected String getFileParamName() {

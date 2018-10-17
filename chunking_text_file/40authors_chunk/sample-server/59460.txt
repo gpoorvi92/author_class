@@ -1,0 +1,10 @@
+     * value: zoneEntity
+     */
+    private final        Map<Integer, ZoneEntity> zoneEntityMap = new ConcurrentHashMap<>();
+    private ZoneEntityManager()
+    {
+        List<ZoneEntity> list = DaoManager.getLocalDao().selectList(ZoneEntity.class);
+        for (ZoneEntity each : list)
+        {
+            zoneEntityMap.put(each.getZoneId(), each);
+            RpcClientManager.getInstance().connectRpcServer(each);

@@ -1,0 +1,10 @@
+      out.println("{");
+      out.println("   public java.beans.PropertyDescriptor[] getPropertyDescriptors()");
+      out.println("   {");
+      out.println("      try");
+      out.println("      {");
+      for (Map.Entry<String, Property> e : props.entrySet())
+      {
+         out.print("         java.beans.PropertyDescriptor ");
+         out.print(e.getKey());
+         out.println("Descriptor");

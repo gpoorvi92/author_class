@@ -1,0 +1,10 @@
+     * The freed words at the end of the buffer are properly cleaned.
+     * @param position the position of the buffer where to add words
+     * @param length   the number of words to add
+     */
+    void collapse(int position, int length);
+
+    /**
+     * Creates and returns a copy of the buffer
+     */
+    Buffer clone() throws CloneNotSupportedException;

@@ -1,0 +1,10 @@
+      catch (InterruptedException e)
+      {
+      }
+   }
+
+}
+
+/**
+ * The frame with panel and buttons.
+ */

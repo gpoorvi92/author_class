@@ -1,0 +1,10 @@
+    public heart_args deepCopy() {
+      return new heart_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.nodeHeat = null;
+      setTimestampIsSet(false);
+      this.timestamp = 0;
+    }

@@ -1,0 +1,10 @@
+           return new String(resultBytes);
+    }
+
+    /** reads a line up to and including the next '\n' but will omit the '\n' from the result
+     */
+    public String readLine() throws IOException
+    {
+      String result = "";
+      int c = is.read();
+      int index = 0;

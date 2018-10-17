@@ -1,0 +1,10 @@
+         if (maxValue < getValues(i)) maxValue = getValues(i);
+      }
+      if (maxValue == minValue) return;
+
+      Rectangle2D bounds = getBounds();
+      double clientWidth = bounds.getWidth();
+      double clientHeight = bounds.getHeight();
+      double barWidth = (clientWidth - 2 * INSETS) / values.length;
+
+      g2.setPaint(inverse ? color : Color.white);

@@ -1,0 +1,10 @@
+				
+				int result = statement.executeUpdate(query1);
+				
+				String query2 = "UPDATE video_detail SET " +
+				"type ='" + type_combo.getSelectedItem() +
+				"', category ='" + category_combo.getSelectedItem() +
+				"' WHERE item_id = '" + a + "'";
+														
+				int result2 = statement.executeUpdate(query2);
+				

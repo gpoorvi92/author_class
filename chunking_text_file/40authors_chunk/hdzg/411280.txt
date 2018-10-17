@@ -1,0 +1,10 @@
+public class FoodAlert extends GameAlert{
+	 CityDrawable city;//记录是哪个城池粮草危机
+	 String alertMessage = "刚才xx城守将派人来报,说粮草已经不多了,是否划拨粮草?";
+	
+	
+	//构造器
+	public FoodAlert(GameView gameView,CityDrawable city,Bitmap bmpDialogBack,Bitmap bmpDialogButton){
+		super(gameView,bmpDialogBack, bmpDialogButton);
+		this.city = city;
+	}

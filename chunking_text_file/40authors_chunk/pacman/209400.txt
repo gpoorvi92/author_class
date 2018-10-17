@@ -1,0 +1,10 @@
+ * @date: 2014年12月19日 下午12:54:49
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.schedule;
+
+import com.yeshj.pacman.annotation.Transmit;
+
+/**
+ * Defines the system info model.
+ * 

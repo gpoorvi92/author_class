@@ -1,0 +1,10 @@
+				root = parse(root, rootList.item(0));
+*/
+		}
+		catch (Exception e) {
+			throw new ParserException(e);
+		}
+		
+		return root;
+	}
+

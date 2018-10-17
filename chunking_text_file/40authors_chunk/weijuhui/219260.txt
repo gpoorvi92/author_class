@@ -1,0 +1,10 @@
+
+	@Override
+	public Bundle onSaveInstanceState() {
+		Bundle savedInstanceState = super.onSaveInstanceState();
+		if (savedInstanceState == null)
+			savedInstanceState = new Bundle();
+		savedInstanceState.putSerializable("time", getTime());
+		return savedInstanceState;
+	}
+

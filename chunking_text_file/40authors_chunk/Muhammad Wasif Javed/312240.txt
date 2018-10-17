@@ -1,0 +1,10 @@
+		lbMemberName = new JLabel ("Member Name:");
+		lbMemberName.setForeground (Color.black);
+		lbMemberName.setBounds (15, 45, 100, 20);
+		lbMemberAddress = new JLabel ("Member Address:");
+		lbMemberAddress.setForeground (Color.black);
+		lbMemberAddress.setBounds (15, 75, 110, 20);
+		lbDate = new JLabel ("Member Since:");
+		lbDate.setForeground (Color.black);
+		lbDate.setBounds (15, 105, 100, 20);
+

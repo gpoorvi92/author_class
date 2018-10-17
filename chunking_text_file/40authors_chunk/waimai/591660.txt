@@ -1,0 +1,10 @@
+        return speed;
+    }
+
+    public void setSpeed(Float speed) {
+        this.speed = speed;
+    }
+
+    public Float getQuality() {
+        return quality;
+    }

@@ -1,0 +1,10 @@
+
+		Iterator it = array.iterator();
+		while (it.hasNext()) {
+			String s = (String) it.next();
+			System.out.println(s);
+			// Object obj = it.next();
+			// // if (obj instanceof String) {
+			// // String s = (String) obj;
+			// // System.out.println(s);
+			// // } else if (obj instanceof Integer) {

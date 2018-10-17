@@ -1,0 +1,10 @@
+      }
+      if (maxValue == minValue) return;
+
+      int panelWidth = getWidth();
+      int panelHeight = getHeight();
+
+      Font titleFont = new Font("SansSerif", Font.BOLD, 20);
+      Font labelFont = new Font("SansSerif", Font.PLAIN, 10);
+
+      // compute the extent of the title

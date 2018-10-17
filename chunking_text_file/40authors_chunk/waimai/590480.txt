@@ -1,0 +1,10 @@
+        if (!image.isEmpty()) {
+            if (!StringUtils.isEmpty(imageRecommend.getOriginalImage())) {
+                FileUtils.delete("wmlm", "imageRecommend/" + imageRecommend.getOriginalImage());
+            }
+            String filename = UUID.randomUUID().toString() + PathUtils.fileSuffix(image.getOriginalFilename());
+            try {
+                FileUtils.upload(image.getInputStream(), "imageRecommend/" + filename);
+            } catch (AuthException e) {
+                throw new ServiceException("上传图片失败");
+            } catch (JSONException e) {

@@ -1,0 +1,10 @@
+            entered_swipedRight_6 = true;
+            __swipedRight( arg0 );
+            entered_swipedRight_6 = false;
+        }
+        else
+            super.swipedRight( arg0 );
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.swipedUp(com.apple.eawt.event.SwipeEvent)
+

@@ -1,0 +1,10 @@
+
+	private void txtClear () {
+
+		txtBookId.setText ("");
+		txtBookName.setText ("");
+		txtBookAuthor.setText ("");
+		txtBookPrice.setText ("");
+		txtBookCategory.setText ("");
+		txtBookId.requestFocus ();
+

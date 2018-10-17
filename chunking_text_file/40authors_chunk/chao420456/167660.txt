@@ -1,0 +1,10 @@
+
+		// 方式1测试
+		// boolean b = isDuiCheng(s);
+		// System.out.println(b);
+
+		// 方式2测试
+		boolean b2 = isDuiCheng(s);
+		System.out.println(b2);
+
+	}

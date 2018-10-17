@@ -1,0 +1,10 @@
+                System.out.println("notify begin timer=" + System.currentTimeMillis());
+                lock.notify();
+                System.out.println("notify end timer=" + System.currentTimeMillis());
+            }
+
+        }
+    };
+
+    public static void main(String[] args) throws InterruptedException {
+        Thread t1 = new Thread(runnable1);

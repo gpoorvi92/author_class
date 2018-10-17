@@ -1,0 +1,10 @@
+        next[0]=-1;
+        int n = next.length;
+        while(i < n - 1){
+            while(j>-1&&T.charAt(j)!=T.charAt(i)) j = next[j];
+            ++i; ++j;
+            if(i < n - 1 && j < n - 1 && T.charAt(j)==T.charAt(i)) next[i]=next[j];
+            else next[i]=j;
+        }
+    }
+    public int strStr_2(String haystack, String needle) {

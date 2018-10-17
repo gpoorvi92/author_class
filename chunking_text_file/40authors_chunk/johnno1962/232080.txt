@@ -1,0 +1,10 @@
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.table.DefaultTableModel(int,int)
+
+    DefaultTableModelProxy( int rowCount, int columnCount , long swiftObject ) {
+        super( rowCount, columnCount );
+        this.swiftObject = swiftObject;
+    }

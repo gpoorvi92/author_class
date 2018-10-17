@@ -1,0 +1,10 @@
+		
+		int w, h;
+	
+		public DrawPanel()
+		{
+			super();
+
+	
+		}
+	

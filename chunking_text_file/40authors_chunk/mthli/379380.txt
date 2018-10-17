@@ -1,0 +1,10 @@
+   {
+      Graphics2D g2 = (Graphics2D) g;
+
+      // draw all squares
+      for (Rectangle2D r : squares)
+         g2.draw(r);
+   }
+
+   /**
+    * Finds the first square containing a point.

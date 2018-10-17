@@ -1,0 +1,10 @@
+ */
+public final class EWAHPointer implements Comparable<EWAHPointer> {
+    private int endrun;
+    private final int pos;
+    private boolean isLiteral;
+    private boolean value;
+    private boolean dead = false;
+    /**
+     * Underlying iterator
+     */

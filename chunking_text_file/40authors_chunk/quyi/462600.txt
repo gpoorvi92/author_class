@@ -1,0 +1,10 @@
+        return new searchEng_argsTupleScheme();
+      }
+    }
+
+    private static class searchEng_argsTupleScheme extends TupleScheme<searchEng_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, searchEng_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.engineId);

@@ -1,0 +1,10 @@
+      if (plotsStatus == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'plotsStatus' was not present! Struct: " + toString());
+      }
+      // check for sub-struct validity
+      if (stcRD != null) {
+        stcRD.validate();
+      }
+      if (dycRD != null) {
+        dycRD.validate();
+      }

@@ -1,0 +1,10 @@
+public class LhjPrice implements Cloneable{
+	private int ID;
+	private MaterialBrand materialBrand;
+	private double price;
+	private Set<LhjPriceCut> lhjPriceCuts;
+	
+	@OneToMany(mappedBy = "lhjPrice", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<LhjPriceCut> getLhjPriceCuts() {
+		return lhjPriceCuts;
+	}

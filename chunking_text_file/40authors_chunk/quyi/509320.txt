@@ -1,0 +1,10 @@
+ * 6:string description 描述
+ */
+public class VirusDetectionResultData implements org.apache.thrift.TBase<VirusDetectionResultData, VirusDetectionResultData._Fields>, java.io.Serializable, Cloneable, Comparable<VirusDetectionResultData> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("VirusDetectionResultData");
+
+  private static final org.apache.thrift.protocol.TField CHECK_TIME_FIELD_DESC = new org.apache.thrift.protocol.TField("checkTime", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField MD5_FIELD_DESC = new org.apache.thrift.protocol.TField("MD5", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField CHECK_ENGINE_NUM_FIELD_DESC = new org.apache.thrift.protocol.TField("checkEngineNum", org.apache.thrift.protocol.TType.I32, (short)3);
+  private static final org.apache.thrift.protocol.TField POSITIVES_FIELD_DESC = new org.apache.thrift.protocol.TField("positives", org.apache.thrift.protocol.TType.I32, (short)4);
+  private static final org.apache.thrift.protocol.TField VIRUS_ENGINE_FIELD_DESC = new org.apache.thrift.protocol.TField("virusEngine", org.apache.thrift.protocol.TType.LIST, (short)5);

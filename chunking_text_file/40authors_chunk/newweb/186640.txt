@@ -1,0 +1,10 @@
+		TypeForBrand[] tfbs = new TypeForBrand[list.size()];
+		int count = 0;
+		for (TypeForBrand tfb : list) {
+			tfbs[count++] = tfb;
+		}
+		return tfbs;
+	}
+
+	@Override
+	public boolean modify(TypeForBrand typeForBrand) {

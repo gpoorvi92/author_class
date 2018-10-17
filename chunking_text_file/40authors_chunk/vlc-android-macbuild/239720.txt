@@ -1,0 +1,10 @@
+
+    public long getTotalDuration() {
+        long totalDuration = 0;
+        for (Segment seg : mSegmentList) {
+            totalDuration += seg.mDuration;
+        }
+
+        return totalDuration;
+    }
+

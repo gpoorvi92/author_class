@@ -1,0 +1,9 @@
+    throws JsonMappingException, JsonGenerationException, IOException {
+        JsonGenerator jg = jf.createJsonGenerator(fw);
+        if (prettyPrint) {
+            jg.useDefaultPrettyPrinter();
+        }
+        m.writeValue(jg, pojo);
+    }
+
+}

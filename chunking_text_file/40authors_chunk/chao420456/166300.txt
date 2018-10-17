@@ -1,0 +1,10 @@
+		t.teach();
+		System.out.println("----------------------------");
+
+		Teacher t2 = new BasicTeacher("林青霞",28);
+		System.out.println(t2.getName()+"---"+t2.getAge());
+		t2.teach();
+		System.out.println("----------------------------");
+
+		//练习2：就业班老师测试，多态测试
+	}

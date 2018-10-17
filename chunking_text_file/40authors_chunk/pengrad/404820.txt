@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 1/12/16.
+ */
+public class InlineQuery {
+
+    private String id;
+    private User from;

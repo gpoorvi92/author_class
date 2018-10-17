@@ -1,0 +1,10 @@
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+   private Action saveAction;
+   private Action saveAsAction;
+   private JCheckBoxMenuItem readonlyItem;
+   private JPopupMenu popup;
+
+   /**
+    * A sample action that prints the action name to System.out
+    */

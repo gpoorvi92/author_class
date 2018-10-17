@@ -1,0 +1,10 @@
+            ClassGen cg = new ClassGen(jc);
+            EntryLogger el = new EntryLogger(cg);
+            el.convert();
+            String f = Repository.lookupClassFile(cg.getClassName()).getPath();
+            System.out.println("Dumping " + f);
+            cg.getJavaClass().dump(f);
+         }
+      }
+      catch (Exception e)
+      {

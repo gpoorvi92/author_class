@@ -1,0 +1,10 @@
+    boolean that_present_operateType = true && that.isSetOperateType();
+    if (this_present_operateType || that_present_operateType) {
+      if (!(this_present_operateType && that_present_operateType))
+        return false;
+      if (!this.operateType.equals(that.operateType))
+        return false;
+    }
+
+    return true;
+  }

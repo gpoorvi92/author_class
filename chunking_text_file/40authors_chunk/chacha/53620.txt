@@ -1,0 +1,10 @@
+		LoginResponse response=new LoginResponse();
+		response.setResult(0);
+		response.setToken("f706c0e77064d8c127ea45397d72778942685880218da7e8e005137104b65df8");
+		String json="";
+		try{
+			json=response.toJson();
+			System.out.println(json);
+		}catch(Exception e){
+			e.printStackTrace();
+		}

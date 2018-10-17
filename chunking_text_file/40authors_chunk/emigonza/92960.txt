@@ -1,0 +1,10 @@
+     * @since 1.3 (SF 2K meeting)
+     * @throws java.lang.Exception if any error occurs while saving
+     */
+    public void save( Enumeration entries, String fileName ) throws Exception;
+
+    /**
+     * Tell the populator to load the entries 
+     * @since 1.2 (NY 2K meeting)
+     */
+    public void load();

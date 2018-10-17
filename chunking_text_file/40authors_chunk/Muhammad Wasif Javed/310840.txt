@@ -1,0 +1,10 @@
+					found = true;
+					txtBookId.setText ("" + id);
+					txtBookName.setText ("" + rs.getString ("BookName"));
+					txtBookAuthor.setText ("" + rs.getString ("BookAuthor"));
+					txtBookPrice.setText ("" + rs.getLong ("BookPrice"));
+					txtBookCategory.setText ("" + rs.getString ("Category"));
+				}
+				else {
+					found = false;
+				}

@@ -1,0 +1,10 @@
+        if (!this.propertyValue.equals(that.propertyValue))
+          return false;
+      }
+
+      return true;
+    }
+
+    @Override
+    public int hashCode() {
+      return 0;

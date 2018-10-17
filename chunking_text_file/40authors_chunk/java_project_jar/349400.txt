@@ -1,0 +1,10 @@
+    }
+
+    public volatile int compare(Object x0, Object x1)
+    {
+        return compare((File)x0, (File)x1);
+    }
+
+    public static final Comparator EXTENSION_COMPARATOR;
+    public static final Comparator EXTENSION_REVERSE;
+    public static final Comparator EXTENSION_INSENSITIVE_COMPARATOR;

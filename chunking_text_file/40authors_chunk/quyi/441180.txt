@@ -1,0 +1,10 @@
+    return this.targetAddress != null;
+  }
+
+  public void setTargetAddressIsSet(boolean value) {
+    if (!value) {
+      this.targetAddress = null;
+    }
+  }
+
+  public String getTargetPort() {

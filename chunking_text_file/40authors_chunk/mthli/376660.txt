@@ -1,0 +1,10 @@
+      JRadioButtonMenuItem overtypeItem = new JRadioButtonMenuItem("Overtype");
+
+      group.add(insertItem);
+      group.add(overtypeItem);
+
+      // demonstrate icons
+
+      Action cutAction = new TestAction("Cut");
+      cutAction.putValue(Action.SMALL_ICON, new ImageIcon("cut.gif"));
+      Action copyAction = new TestAction("Copy");

@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetApp_id();
+      } else {
+        setApp_id((String)value);
+      }
+      break;
+
+    case APP_NAME:
+      if (value == null) {
+        unsetApp_name();

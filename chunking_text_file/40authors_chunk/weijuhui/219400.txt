@@ -1,0 +1,10 @@
+
+    public static Calendar addWeeks(long time, int days) {
+        return add(time, days, Calendar.WEEK_OF_YEAR);
+    }
+
+    public static Calendar addDays(long time, int days) {
+        return add(time, days, Calendar.DAY_OF_MONTH);
+    }
+
+    public static Calendar addHours(long time, int hours) {

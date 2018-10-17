@@ -1,0 +1,10 @@
+            msg =getActivity().getString(R.string.ssl_confirm, host);
+        } else {
+            msg = getActivity().getString(R.string.ssl_confirm_cert_changed, host);
+        }
+        messageText.setText(msg);
+
+        if (cert != null) {
+            CertificateInfo certInfo = new CertificateInfo(cert);
+            commonNameText.setText(certInfo.getSubjectName());
+            // String[] subjAltNames = certInfo.getSubjectAltNames();

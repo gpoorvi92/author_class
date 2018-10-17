@@ -1,0 +1,10 @@
+
+  public void unsetCpuVendor() {
+    this.cpuVendor = null;
+  }
+
+  /** Returns true if field cpuVendor is set (has been assigned a value) and false otherwise */
+  public boolean isSetCpuVendor() {
+    return this.cpuVendor != null;
+  }
+

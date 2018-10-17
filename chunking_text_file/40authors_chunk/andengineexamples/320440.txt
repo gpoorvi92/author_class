@@ -1,0 +1,10 @@
+	// Fields
+	// ===========================================================
+
+	private Camera mCamera;
+	private BitmapTextureAtlas mCardDeckTexture;
+
+	private Scene mScene;
+
+	private HashMap<Card, ITextureRegion> mCardTotextureRegionMap;
+

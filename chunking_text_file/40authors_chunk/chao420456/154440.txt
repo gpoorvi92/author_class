@@ -1,0 +1,10 @@
+	// JIattoo jar包资源
+	public static String JTATTOO_ACRYL = "com.jtattoo.plaf.acryl.AcrylLookAndFeel";
+	public static String JTATTOO_AERO = "com.jtattoo.plaf.aero.AeroLookAndFeel";
+	// 还可以
+	public static String JTATTOO_ALUMINUM = "com.jtattoo.plaf.aluminium.AluminiumLookAndFeel";
+	// 很喜欢
+	public static String JTATTOO_BERNSTEIN = "com.jtattoo.plaf.bernstein.BernsteinLookAndFeel";
+	public static String JTATTOO_FAST = "com.jtattoo.plaf.fast.FastLookAndFeel";
+	// 有个性
+	public static String JTATTOO_HIFI = "com.jtattoo.plaf.hifi.HiFiLookAndFeel";

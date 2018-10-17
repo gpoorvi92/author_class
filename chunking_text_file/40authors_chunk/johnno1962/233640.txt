@@ -1,0 +1,10 @@
+
+        public long[] longArrayMethod( long arg[] ) {
+            return arg;
+        }
+
+        public long[][] long2dArrayMethod( long arg[][] ) {
+            return arg;
+        }
+
+        public float floatMethod( float arg ) {

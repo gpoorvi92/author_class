@@ -1,0 +1,6 @@
+	@Override
+	public AbstractCommonData doError(AbstractCommonData acd) {
+		return null;
+	}
+
+}

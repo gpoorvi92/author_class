@@ -1,0 +1,10 @@
+
+//        Picasso.with(getActivity()).load(WeatherApi.API_URL.ICON + dailyWeather.getImg1()).into(mImg1);
+//        Picasso.with(getActivity()).load(WeatherApi.API_URL.ICON + dailyWeather.getImg2()).into(mImg2);
+        mImg1.setImageDrawable(getResources().getDrawable(R.drawable.cw1));
+        mImg2.setImageDrawable(getResources().getDrawable(R.drawable.cw2));
+    }
+
+    @OnClick(R.id.weather_pager_setting)
+    public void changeCity(){
+        startActivity(new Intent(getActivity(),CityChangeActivity.class));

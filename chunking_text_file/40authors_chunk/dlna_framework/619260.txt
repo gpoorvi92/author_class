@@ -1,0 +1,10 @@
+        super("Cyber.HTTPServerThread");
+		this.httpServer = httpServer;
+		this.sock = sock;
+	}
+
+	////////////////////////////////////////////////
+	//	run	
+	////////////////////////////////////////////////
+
+	public void run()

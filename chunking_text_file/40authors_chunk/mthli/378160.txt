@@ -1,0 +1,10 @@
+         reader.setInput(imageIn);
+         int count = reader.getNumImages(true);
+         images = new BufferedImage[count];
+         for (int i = 0; i < count; i++)
+         {
+            images[i] = reader.read(i);
+            box.add(new JLabel(new ImageIcon(images[i])));
+         }
+      }
+      catch (IOException e)

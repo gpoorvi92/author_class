@@ -1,0 +1,10 @@
+	// Methods
+	// ===========================================================
+
+	private void initJoints(final Scene pScene) {
+		final float centerX = CAMERA_WIDTH / 2;
+		final float centerY = CAMERA_HEIGHT / 2;
+
+		final float spriteWidth = this.mBoxFaceTextureRegion.getWidth();
+		final float spriteHeight = this.mBoxFaceTextureRegion.getHeight();
+

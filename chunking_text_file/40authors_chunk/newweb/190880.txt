@@ -1,0 +1,10 @@
+		}
+		return null;
+	}
+	
+	@SuppressWarnings("rawtypes")
+	@RequestMapping(value="getLhjPricesJsonData.ajax")
+	@ResponseBody
+	public String getLhjPricesJsonData(HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");
+		int start = Integer.parseInt(request.getParameter("start"));

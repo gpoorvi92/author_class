@@ -1,0 +1,10 @@
+					
+        gbc.gridy = 1;
+        tab.add(patron_name, gbc);
+        gbc.gridy = 2;
+        tab.add(patron_group_type, gbc);
+        gbc.gridx = 2;
+        tab.add(patron_status, gbc);
+        gbc.gridx = 4;
+        tab.add(patron_loan_limit, gbc);
+        gbc.gridx = 6;

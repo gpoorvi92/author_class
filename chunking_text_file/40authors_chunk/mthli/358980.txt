@@ -1,0 +1,10 @@
+package treeModel;
+
+import java.lang.reflect.*;
+import java.util.*;
+import javax.swing.event.*;
+import javax.swing.tree.*;
+
+/**
+ * This tree model describes the tree structure of a Java object. Children are the objects that are
+ * stored in instance variables.

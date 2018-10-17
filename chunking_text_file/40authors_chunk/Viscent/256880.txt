@@ -1,0 +1,10 @@
+public class SampleClientOfReusableActiveObject {
+
+	public static void main(String[] args) throws InterruptedException,
+	    ExecutionException {
+
+		SampleActiveObject sao = ActiveObjectProxy.newInstance(
+		    SampleActiveObject.class, new SampleActiveObjectImpl(),
+		    Executors.newCachedThreadPool());
+		Future<String> ft = null;
+		

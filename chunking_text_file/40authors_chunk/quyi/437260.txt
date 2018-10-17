@@ -1,0 +1,10 @@
+            _iter60.write(oprot);
+          }
+        }
+      }
+      if (struct.isSetHardwareResources()) {
+        {
+          oprot.writeI32(struct.hardwareResources.size());
+          for (HardwareResources _iter61 : struct.hardwareResources)
+          {
+            _iter61.write(oprot);

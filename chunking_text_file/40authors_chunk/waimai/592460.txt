@@ -1,0 +1,10 @@
+        return modelAndView;
+    }
+
+    @RequestMapping("/update")
+    public ModelAndView update(@RequestParam("imageFile") MultipartFile image, ImageRecommend imageRecommend) {
+        try {
+            imageRecommendService.update(image, imageRecommend);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }

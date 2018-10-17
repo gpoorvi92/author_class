@@ -1,0 +1,10 @@
+        this.delegate = new ParsingDetector(verbose);
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see cpdetector.io.AbstractCodepageDetector#compareTo(java.lang.Object)
+     */
+    public int compareTo(Object o) {
+        return delegate.compareTo(o);

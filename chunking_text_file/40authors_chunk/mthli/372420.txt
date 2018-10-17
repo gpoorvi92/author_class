@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         String title = null;
+
+         BasicService basic = (BasicService) ServiceManager.lookup("javax.jnlp.BasicService");
+         URL codeBase = basic.getCodeBase();
+
+         PersistenceService service = (PersistenceService) ServiceManager
+               .lookup("javax.jnlp.PersistenceService");

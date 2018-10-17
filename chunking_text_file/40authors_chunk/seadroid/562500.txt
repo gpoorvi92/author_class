@@ -1,0 +1,10 @@
+package com.seafile.seadroid2;
+
+import java.io.File;
+
+import android.app.Application;
+import android.content.Context;
+
+import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.core.ImageLoader;

@@ -1,0 +1,10 @@
+		return orderSmallDao.selectOrderSmallBySmallIdInOrderId(smallId,orderid);
+	}
+
+	@Override
+	public OrderSmall[] queryAllOrderSmalls() {
+		List<OrderSmall> list = orderSmallDao.selectAllOrderSmalls();
+		OrderSmall[] oss = new OrderSmall[list.size()];
+		int count = 0;
+		for (OrderSmall os : list) {
+			oss[count++] = os;

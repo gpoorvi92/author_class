@@ -1,0 +1,10 @@
+
+    @Override
+    public String toString() {
+        return "Chat{" +
+                "id=" + id +
+                ", type=" + type +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", username='" + username + '\'' +
+                ", title='" + title + '\'' +

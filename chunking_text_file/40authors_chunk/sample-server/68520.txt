@@ -1,0 +1,10 @@
+package com.lz.center.entity;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+/**
+ * User: Teaey
+ * Date: 13-9-13
+ */
+@Entity
+@Table(name = "gm_zone")

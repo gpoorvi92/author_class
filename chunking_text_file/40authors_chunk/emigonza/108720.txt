@@ -1,0 +1,10 @@
+{
+  // Capabilities
+  public boolean getCapAutoContrast() throws JposException;
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapContrast() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+
+  // Properties
+  public int     getContrast() throws JposException;
+  public void    setContrast(int contrast) throws JposException;

@@ -1,0 +1,10 @@
+    public static class modifyTaskManagerConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, modifyTaskManagerConfig_args, com.nercis.isscp.idl.Result> {
+      public modifyTaskManagerConfig() {
+        super("modifyTaskManagerConfig");
+      }
+
+      public modifyTaskManagerConfig_args getEmptyArgsInstance() {
+        return new modifyTaskManagerConfig_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.Result> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {

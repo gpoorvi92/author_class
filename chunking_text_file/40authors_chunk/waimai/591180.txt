@@ -1,0 +1,10 @@
+    private IAdminService adminService;
+
+    @RequestMapping("/index")
+    public ModelAndView index() {
+        ModelAndView modelAndView = new ModelAndView("management/index");
+        modelAndView.addObject("news", newsService.findById(1));
+        return modelAndView;
+    }
+
+    @RequestMapping("/changePwdView")

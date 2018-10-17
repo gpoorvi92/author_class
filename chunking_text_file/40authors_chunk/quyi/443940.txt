@@ -1,0 +1,10 @@
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class UnavailableExceptionTupleSchemeFactory implements SchemeFactory {
+    public UnavailableExceptionTupleScheme getScheme() {
+      return new UnavailableExceptionTupleScheme();

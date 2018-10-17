@@ -1,0 +1,10 @@
+				minIndex = middleIndex + 1;
+			} else if (value < arr[middleIndex]) {
+				maxIndex = middleIndex - 1;
+			}
+
+			// ¼ÓÒ»¸öÅÐ¶Ï
+			if (maxIndex < minIndex) {
+				return -1;
+			}
+

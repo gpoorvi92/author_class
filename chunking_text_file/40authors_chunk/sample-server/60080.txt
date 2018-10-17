@@ -1,0 +1,10 @@
+    public final Rpc.RpcPacket newRpcPacket(MessageLite req)
+    {
+        if (null == req)
+        {
+            throw new NullPointerException("req");
+        }
+        int counter = newCounter();
+        Rpc.RpcPacket.Builder builder = Rpc.RpcPacket.newBuilder();
+        builder.setCounter(counter);
+        builder.setOpcode(req.getClass().getSimpleName());

@@ -1,0 +1,10 @@
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * WritableWorkbook workbook; try { workbook =
+		 * Workbook.createWorkbook(new File("E:\\病毒应用信息.xls")); WritableSheet
+		 * sheet = workbook.createSheet("Sheet1", 0); Cell cell0 =
+		 * sheet.findLabelCell("0012f02ebe3642c1ca5a82f7e737559c"); Cell cell =
+		 * sheet.findCell("0012f02ebe3642c1ca5a82f7e737559c"); int row =

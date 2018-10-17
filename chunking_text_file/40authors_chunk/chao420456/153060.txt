@@ -1,0 +1,10 @@
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
+        return flag;
+    }

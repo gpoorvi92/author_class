@@ -1,0 +1,10 @@
+        while (queue.isEmpty() == false) {
+            UndirectedGraphNode cur = queue.poll();
+            for (UndirectedGraphNode neighbor : cur.neighbors) {
+                if (map.containsKey(neighbor) == false) {
+                    UndirectedGraphNode newnode = new UndirectedGraphNode(neighbor.label);
+                    map.put(neighbor, newnode);
+                    queue.offer(neighbor);
+                }
+                map.get(cur).neighbors.add(map.get(neighbor));
+            }

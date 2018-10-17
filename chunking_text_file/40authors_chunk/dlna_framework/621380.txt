@@ -1,0 +1,10 @@
+*	11/18/02
+*		- first revision.
+*	10/22/03
+*		- Changed to initialize a content length header.
+*	10/22/04
+*		- Added isSuccessful().
+*	
+******************************************************************/
+
+package org.cybergarage.http;

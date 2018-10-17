@@ -1,0 +1,10 @@
+    // Ctor
+    //
+
+    /** Make ctor private to prevent construction */
+    private Sorter() {}
+
+    //-------------------------------------------------------------------------
+    // Class methods
+    //
+

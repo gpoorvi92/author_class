@@ -1,0 +1,10 @@
+         * the package folder for class files and looping through ones 
+         * that implement ModelFileFilter.
+        */
+
+        mloaders.add(new STLModelFileLoader());
+        mloaders.add(new PLYModelFileLoader());
+        mloaders.add(new OBJModelFileLoader());
+        mloaders.add(new VRMLModelFileLoader());
+        return mloaders;
+    }

@@ -1,0 +1,10 @@
+		LoginResponse r=new LoginResponse();
+		try {
+			String res=request.toJson();
+			String response=sender.syncRequest(res);
+			r.fromJson(response);
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonGenerationException e) {
+			// TODO Auto-generated catch block

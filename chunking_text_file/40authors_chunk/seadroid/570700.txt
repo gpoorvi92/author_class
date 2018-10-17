@@ -1,0 +1,10 @@
+            TaskState state = taskInfo.state;
+            int taskID = taskInfo.taskID;
+
+            switch (item.getItemId()) {
+                case R.id.cancel:
+                    if (state == TaskState.INIT || state == TaskState.TRANSFERRING) {
+                        txService.cancelDownloadTaskInQue(taskID);
+                    }
+                    break;
+                case R.id.retry:

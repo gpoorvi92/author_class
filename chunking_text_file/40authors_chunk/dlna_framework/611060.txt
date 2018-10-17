@@ -1,0 +1,5 @@
+		SOAPResponse soapRes = postMessage(getRequestHost(), getRequestPort());
+		return new ActionResponse(soapRes);
+	}
+}
+

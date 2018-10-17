@@ -1,0 +1,10 @@
+				newList.add(target);
+			}
+		}
+		
+		context.setAttribute(Constants.CONTEXT_WEB_RESOURCES, newList);
+		
+		return null;
+	}
+
+	/* (non-Javadoc)

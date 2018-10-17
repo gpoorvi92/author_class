@@ -1,0 +1,10 @@
+
+/// class javax.swing.event.MouseInputAdapter ///
+
+package org.genie.javax_swing;
+
+public class MouseInputAdapterProxy extends javax.swing.event.MouseInputAdapter {
+
+    long swiftObject;
+
+    /// public javax.swing.event.MouseInputAdapter()

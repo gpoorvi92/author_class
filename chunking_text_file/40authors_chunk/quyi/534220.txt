@@ -1,0 +1,10 @@
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("APICheck(");
+    boolean first = true;
+
+    sb.append("apiName:");
+    if (this.apiName == null) {
+      sb.append("null");
+    } else {

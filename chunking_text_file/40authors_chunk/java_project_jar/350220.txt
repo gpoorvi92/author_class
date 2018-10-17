@@ -1,0 +1,10 @@
+                            checkIfCancelled(childFile, childDepth, results);
+                            handleFile(childFile, childDepth, results);
+                            checkIfCancelled(childFile, childDepth, results);
+                        }
+                    }
+
+                }
+            }
+            handleDirectoryEnd(directory, depth, results);
+        }

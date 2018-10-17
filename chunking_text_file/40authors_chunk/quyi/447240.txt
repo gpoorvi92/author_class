@@ -1,0 +1,10 @@
+  }
+
+  public String getOsVersion() {
+    return this.osVersion;
+  }
+
+  public Software setOsVersion(String osVersion) {
+    this.osVersion = osVersion;
+    return this;
+  }

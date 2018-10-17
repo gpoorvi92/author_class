@@ -1,0 +1,10 @@
+	public AnimatedCellEntity(final int pCellX, final int pCellY, final int pWidth, final int pHeight, final TiledTextureRegion pTiledTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager) {
+		super(pCellX * CELL_WIDTH, pCellY * CELL_HEIGHT, pWidth, pHeight, pTiledTextureRegion, pVertexBufferObjectManager);
+		this.mCellX = pCellX;
+		this.mCellY = pCellY;
+	}
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+

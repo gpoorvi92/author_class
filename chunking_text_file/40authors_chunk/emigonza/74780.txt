@@ -1,0 +1,10 @@
+
+  // Properties
+  public boolean getAsyncMode() throws JposException;
+  public void    setAsyncMode(boolean asyncMode) throws JposException;
+  public int     getAsyncResultCode() throws JposException;
+  public int     getAsyncResultCodeExtended() throws JposException;
+  public String  getCurrencyCashList() throws JposException;
+  public String  getCurrencyCode() throws JposException;
+  public void    setCurrencyCode(String currencyCode) throws JposException;
+  public String  getCurrencyCodeList() throws JposException;

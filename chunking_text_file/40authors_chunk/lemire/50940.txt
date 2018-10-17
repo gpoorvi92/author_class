@@ -1,0 +1,10 @@
+        } else {
+            this.endrun = previousEndRun;
+            this.dead = true;
+        }
+    }
+
+    /**
+     * @return the end of the current run
+     */
+    public int endOfRun() {

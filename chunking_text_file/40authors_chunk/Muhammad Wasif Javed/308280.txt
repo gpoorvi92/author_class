@@ -1,0 +1,7 @@
+		txtBookCategory.setText ("");
+		txtIssuedTo.setText ("");
+		txtBookId.requestFocus ();
+
+	}
+
+}	

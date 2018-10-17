@@ -1,0 +1,10 @@
+		int requestsPerInterval = targetTPS / numRequestThreads;
+		final AtomicInteger counter = new AtomicInteger(0);
+
+		final Set<AbstractTerminatableThread> requestThreads = new HashSet<AbstractTerminatableThread>();
+
+		AbstractTerminatableThread requestThread;
+		for (int i = 0; i < numRequestThreads; i++) {
+			requestThread = new RequestSenderThread(requestsPerInterval, counter);
+			requestThreads.add(requestThread);
+			requestThread.start();

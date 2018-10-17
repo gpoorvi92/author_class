@@ -1,0 +1,10 @@
+			String newPass = new String (txtNew.getPassword());
+
+			if (oldPass.equals ("")) {
+				JOptionPane.showMessageDialog (this, "Old Password not Provided.");
+				txtPass.requestFocus ();
+			}
+			else if (newPass.equals ("")) {
+				JOptionPane.showMessageDialog (this, "New Password not Provided.");
+				txtNew.requestFocus ();
+			}

@@ -1,0 +1,10 @@
+        {
+            this.host = host;
+            this.port = port;
+            this.timeout = timeout;
+        }
+        @Override
+        public BaseRpcConnection makeObject() throws Exception
+        {
+            BaseRpcConnection rpcClient = new NettyRpcConnection(host, port, timeout);
+            //            BaseRpcConnection rpcClient = new OioRpcConnection(host, port, timeout);

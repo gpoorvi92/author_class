@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface BumpBarService111 extends BumpBarService110
+{
+  // Nothing new added for release 1.11

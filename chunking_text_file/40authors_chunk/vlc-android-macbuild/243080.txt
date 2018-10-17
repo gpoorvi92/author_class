@@ -1,0 +1,10 @@
+        if (BuildHelper.isApi14_IceCreamSandwichOrLater()) {
+            Activity activity = mWeakActivity.get();
+            if (activity == null)
+                return;
+
+            mOnSystemUiVisibilityChangeListener = listener;
+            SystemUIHelper.setOnSystemUiVisibilityChangeListener(activity,
+                    mPrivateListener);
+        }
+    }

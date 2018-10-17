@@ -1,0 +1,10 @@
+	 */
+	void setVersion( String s ) { version = s; }
+
+	/**
+	 * @return a String description of this profile
+	 * @param s the String
+	 */
+	void setDescription( String s ) { description = s; }
+
+	/**

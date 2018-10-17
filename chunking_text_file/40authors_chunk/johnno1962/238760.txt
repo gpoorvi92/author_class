@@ -1,0 +1,10 @@
+
+/// interface java.awt.event.MouseListener ///
+
+package org.genie.java_awt;
+
+public class MouseListenerProxy implements java.awt.event.MouseListener {
+
+    long swiftObject;
+
+    MouseListenerProxy( long swiftObject ) {

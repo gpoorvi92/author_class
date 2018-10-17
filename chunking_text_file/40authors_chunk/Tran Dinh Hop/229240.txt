@@ -1,0 +1,10 @@
+		return size;
+	}
+	
+	//public HuffmanNode first()throws Exception
+	//{
+	//	if(isEmpty())
+	//	  throw new Exception("Stack is empty");
+	//	return head.getNext().getElement();
+	//}
+	//

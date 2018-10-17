@@ -1,0 +1,10 @@
+	{
+		System.out.println ("OPTION");
+		switch(p)
+		{
+			case GENERAL_OPTION:    removeAll();
+									repaint();
+									add(generalPanel, BorderLayout.CENTER);
+									generalPanel.repaint();
+									repaint();
+									dialog.repaint();

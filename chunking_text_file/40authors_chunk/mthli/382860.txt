@@ -1,0 +1,10 @@
+                  try
+                  {
+                     OutputStream out = new FileOutputStream(chooser.getSelectedFile());
+                     node.exportSubtree(out);
+                     out.close();
+                  }
+                  catch (Exception e)
+                  {
+                     e.printStackTrace();
+                  }

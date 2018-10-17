@@ -1,0 +1,10 @@
+
+public class HelpView extends SurfaceView implements SurfaceHolder.Callback{
+
+
+	HDZGActivity activity;
+	private DrawThread drawThread;//刷帧的线程
+	
+	Bitmap help1;
+	Bitmap buttonBackGround;//按钮背景
+	int type;

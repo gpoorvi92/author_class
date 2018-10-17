@@ -1,0 +1,10 @@
+	private static GraphicsFrame _instance = null;
+	
+	
+	//private final MenuToolbar menuToolbar = new MenuToolbar(this);
+	
+	private final RenderSurface renderSurface = new RenderSurface(this);
+	
+	private final GraphicsToolbar toolbar = new GraphicsToolbar(this);
+
+	private final FrameDesktop frameDesktop = new FrameDesktop(this);

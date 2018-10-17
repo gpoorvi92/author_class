@@ -1,0 +1,10 @@
+        this.timeIntervalInMillis = timeUnit.toMillis(timeInterval);
+    }
+    private long timeIntervalInMillis;
+    private Date lastStart = new Date();
+    private Date lastStop  = new Date();
+    public void startup()
+    {
+        if (START.compareAndSet(false, true))
+        {
+            timer = new Timer(this.getClass().getSimpleName() + "-Timer", true);

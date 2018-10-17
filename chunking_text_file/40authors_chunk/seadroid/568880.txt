@@ -1,0 +1,10 @@
+    @Override
+    protected void onDialogCreated(Dialog dialog) {
+        setTitle(getString(R.string.settings_clear_cache_title));
+    }
+
+    @Override
+    protected ClearCacheTask prepareTask() {
+        ClearCacheTask task = new ClearCacheTask(account, filesDir, cacheDir, tempDir, thumbDir, getSettingsManager());
+        return task;
+    }

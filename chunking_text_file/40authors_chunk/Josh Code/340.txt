@@ -1,0 +1,10 @@
+                out.println(Vector3D.getSpacedVectorCoordinates(v));
+            }
+        }
+        // loop through triangles
+        for (int i = 0; i < numTriangles; i++)
+        {
+            int offset = i * 3;
+            out.println(offset+" "+(offset+1)+" "+(offset+2));
+        }
+    }

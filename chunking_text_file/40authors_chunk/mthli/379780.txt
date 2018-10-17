@@ -1,0 +1,10 @@
+package inheritance;
+
+public class ManagerTest {
+    public static void main(String[] args) {
+        /* 构造一个对象 */
+        Manager boss = new Manager("Carl Cracker", 80000, 1987, 12, 15);
+        boss.setBonus(5000);
+
+        Employee[] staff = new Employee[3];
+

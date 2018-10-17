@@ -1,0 +1,9 @@
+    public void testByte2InputStream() throws Exception {
+        String str ="中文";
+        InputStream in = StreamUtil.byte2InputStream(str.getBytes(CharsetUtil.UTF_8));
+        String result = StreamUtil.streamToString(in);
+        assertEquals(result,str);
+    }
+
+
+}

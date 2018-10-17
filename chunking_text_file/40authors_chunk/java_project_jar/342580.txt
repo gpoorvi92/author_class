@@ -1,0 +1,10 @@
+        boolean flag1;
+        try
+        {
+            flag1 = Arrays.equals(magicNumbers, fileBytes);
+        }
+        catch(IOException ioe)
+        {
+            IOUtils.closeQuietly(randomAccessFile);
+            break MISSING_BLOCK_LABEL_108;
+        }

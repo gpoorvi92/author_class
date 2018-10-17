@@ -1,0 +1,10 @@
+	private static final String TIME_STAMP_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
+	private static final SimpleDateFormat SDF_LONG;
+	private final Logger logger = new Logger();
+
+	static {
+		SimpleTimeZone stz = new SimpleTimeZone(0, "UTC");
+		SDF_LONG = new SimpleDateFormat(TIME_STAMP_FORMAT);
+		SDF_LONG.setTimeZone(stz);
+	}
+

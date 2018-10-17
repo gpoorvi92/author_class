@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.MenuListener.menuDeselected(javax.swing.event.MenuEvent)
+
+    public native void __menuDeselected( javax.swing.event.MenuEvent e );
+
+    public void menuDeselected( javax.swing.event.MenuEvent e ) {
+        __menuDeselected( e );
+    }
+
+    /// public abstract void javax.swing.event.MenuListener.menuCanceled(javax.swing.event.MenuEvent)

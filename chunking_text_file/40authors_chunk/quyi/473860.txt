@@ -1,0 +1,10 @@
+    }
+
+    public void setFieldValue(_Fields field, Object value) {
+      switch (field) {
+      case SUBMIT_ID:
+        if (value == null) {
+          unsetSubmitId();
+        } else {
+          setSubmitId((String)value);
+        }

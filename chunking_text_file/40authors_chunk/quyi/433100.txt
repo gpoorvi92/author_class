@@ -1,0 +1,10 @@
+    int cpu,
+    int rss,
+    int vss)
+  {
+    this();
+    this.processName = processName;
+    this.threadName = threadName;
+    this.checkTime = checkTime;
+    this.cpu = cpu;
+    setCpuIsSet(true);

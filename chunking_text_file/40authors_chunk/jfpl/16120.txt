@@ -1,0 +1,10 @@
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+				intent.setData(Uri.parse(url));
+				webActivity.startActivity(intent);
+			} catch (android.content.ActivityNotFoundException e) {
+				System.out.println("Error sending email " + url + ": "
+						+ e.toString());
+			}
+			return true;
+		}
+

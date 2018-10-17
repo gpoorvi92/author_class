@@ -1,0 +1,10 @@
+
+    lastComparison = Boolean.valueOf(isSetApkMD5()).compareTo(other.isSetApkMD5());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetApkMD5()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.apkMD5, other.apkMD5);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

@@ -1,0 +1,10 @@
+			status = 0;
+		}
+		showString = dialogMessage[status];
+		drawString(canvas, showString);
+		//画按钮确定按钮
+		canvas.drawBitmap(bmpDialogButton, DIALOG_BTN_START_X, DIALOG_BTN_START_Y, null);		
+		Paint paint = new Paint();
+		paint.setARGB(255, 42, 48, 103);
+		paint.setAntiAlias(true);
+		paint.setTypeface(Typeface.create((Typeface)null,Typeface.ITALIC));

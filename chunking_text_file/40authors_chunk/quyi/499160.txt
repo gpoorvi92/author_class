@@ -1,0 +1,10 @@
+            }
+            break;
+          case 2: // FILE_DESCRIPTION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.fileDescription = iprot.readString();
+              struct.setFileDescriptionIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

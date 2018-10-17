@@ -1,0 +1,10 @@
+      int currentIndex = elementList.getSelectedIndex();
+      if (0 <= currentIndex && currentIndex < array.length)
+      {
+         model.setValue(currentIndex, v);
+         elementList.setSelectedIndex(currentIndex);
+      }
+      editor.firePropertyChange();
+   }
+
+   /**

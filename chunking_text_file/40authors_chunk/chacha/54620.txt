@@ -1,0 +1,10 @@
+			coll.remove(entity, WriteConcern.SAFE);
+		}
+	}
+	/**
+	 * 根据用户名更改帐号数据
+	 * @param acct
+	 */
+	public void updateAccount(Account acct){
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		QueryBuilder builder=QueryBuilder.start();

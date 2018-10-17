@@ -1,0 +1,10 @@
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case RULE_ID:
+      return getRuleId();
+
+    case RULE_NAME:
+      return getRuleName();
+
+    case RULE_TYPES:

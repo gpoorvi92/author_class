@@ -1,0 +1,10 @@
+        List list = new ArrayList<>();
+        list.add("test1");
+        list.add("test2");
+        list.add("test3");
+        System.out.println(list);
+
+
+        Map<String,String> map = new HashMap<>();
+        map.put("1", "test1");
+        map.put("2", "test2");

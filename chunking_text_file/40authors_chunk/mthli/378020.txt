@@ -1,0 +1,10 @@
+
+   private BufferedImage[] images;
+
+   public ImageIOFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      JMenu fileMenu = new JMenu("File");
+      JMenuItem openItem = new JMenuItem("Open");
+      openItem.addActionListener(new ActionListener()

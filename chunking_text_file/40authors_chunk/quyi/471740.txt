@@ -1,0 +1,10 @@
+      checkReady();
+      updateAppStatus_call method_call = new updateAppStatus_call(missionId, userAppId, status, usedPermissions, stcRD, dycRD, virRD, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class updateAppStatus_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;
+      private String userAppId;
+      private com.nercis.isscp.idl.AppStatus status;

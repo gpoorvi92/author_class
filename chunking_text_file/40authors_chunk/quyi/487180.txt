@@ -1,0 +1,10 @@
+                {
+                  oprot.writeString(_iter55.getKey());
+                  _iter55.getValue().write(oprot);
+                }
+                oprot.writeMapEnd();
+              }
+            }
+            oprot.writeListEnd();
+          }
+          oprot.writeFieldEnd();

@@ -1,0 +1,10 @@
+        dt = cal.getTime();
+        
+        System.out.println(dt);
+        
+        reg_by_text.setEnabled(false);
+        reg_date_text.setEnabled(false);
+        expiry_date_text.setEnabled(false);
+        expiry_date_text.setText(String.valueOf(formatter.format(dt)));
+        reg_by_text.setText(usersName.getText());
+		dd = formatter.format(currentDate);

@@ -1,0 +1,10 @@
+	}
+
+	public static void printCat(Cat c) {
+		c.eat();
+		//...
+		c.sport();
+	}
+
+	public static void printPig(Pig p) {
+		p.eat();

@@ -1,0 +1,10 @@
+ * @see TcpServerConfig
+ * @see TcpServerHandler
+ * @see TcpServerHandlerFactory
+ */
+public class TcpServer {
+
+    private final static Logger LOGGER = Logger.getAnonymousLogger();
+
+    private final TcpServerConfig config;
+    private final String name;

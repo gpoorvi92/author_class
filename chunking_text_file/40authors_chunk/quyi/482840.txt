@@ -1,0 +1,10 @@
+          setUsedPermissions((List<Map<String,com.nercis.isscp.idl.APICheck>>)value);
+        }
+        break;
+
+      case STC_RD:
+        if (value == null) {
+          unsetStcRD();
+        } else {
+          setStcRD((com.nercis.isscp.idl.StaticCheckResultData)value);
+        }

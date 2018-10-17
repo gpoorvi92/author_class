@@ -1,0 +1,10 @@
+	@Override
+	public void drawDialog(Canvas canvas) {//对父类抽象方法drawDialog的实现
+		//先画背景
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);		
+		drawString(canvas, alertMessage);
+		//画按钮确定按钮
+		canvas.drawBitmap(bmpDialogButton, DIALOG_BTN_START_X, DIALOG_BTN_START_Y, null);		
+		Paint paint = new Paint();						//创建画笔对象
+		paint.setARGB(255, 42, 48, 103);				//设置画笔颜色
+		paint.setAntiAlias(true);						//设置抗锯齿

@@ -1,0 +1,10 @@
+	protected abstract Set<? extends SlaveSpec<T, V>> createSlaves();
+
+	/**
+	 * 留给子类实现。用于合并子任务的处理结果。
+	 * 
+	 * @param subResults
+	 *          各个子任务处理结果
+	 * @return 原始任务的处理结果
+	 */
+	protected abstract R combineResults(Iterator<Future<V>> subResults);

@@ -1,0 +1,10 @@
+
+      add(new JScrollPane(textArea), BorderLayout.CENTER);
+      add(panel, BorderLayout.SOUTH);
+
+      // set up the button action
+
+      startButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

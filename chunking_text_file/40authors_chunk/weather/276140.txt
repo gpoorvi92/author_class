@@ -1,0 +1,10 @@
+//        list.add("http/1.1");
+       //  client.setSslSocketFactory();
+        //  client.setTransports(list);
+    }
+
+    public OkUrlFactory getClient() {
+        return   client;
+    }
+
+    @Override

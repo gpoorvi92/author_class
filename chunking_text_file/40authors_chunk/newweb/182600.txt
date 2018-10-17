@@ -1,0 +1,10 @@
+//		os2.setSmall(s2);
+//		set.add(os1);
+//		System.out.println(set.add(os2));
+//		Object[] o = set.toArray();
+//		for(Iterator<OrderSmall> it = set.iterator();it.hasNext();){
+//			System.out.println(it.next().getSmall().getID());
+//		}
+		
+	}
+

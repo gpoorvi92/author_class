@@ -1,0 +1,5 @@
+			ServiceController.addService(acd, this);
+		}
+
+	}
+}

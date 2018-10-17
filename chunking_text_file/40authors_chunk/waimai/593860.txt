@@ -1,0 +1,9 @@
+    public void resetPwd(String[] ids) {
+        for (Integer id : IdStatusSplitUtils.split2Id(ids)) {
+            User user = new User();
+            user.setId(id);
+            user.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
+            userMapper.updateByPrimaryKeySelective(user);
+        }
+    }
+}

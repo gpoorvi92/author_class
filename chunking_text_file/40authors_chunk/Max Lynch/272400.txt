@@ -1,0 +1,10 @@
+       		g.setPaint(model.getGradientStroke());
+       	else if(model.getRadialStroke() != null)
+       		g.setPaint(model.getRadialStroke());
+       	else
+       	    g.setColor(model.getStrokeColor());
+       	    
+       	g.draw(new Rectangle2D.Double(model.getLocX()-getX(),model.getLocY()-getY(),model.getWidth(),model.getHeight()));   
+    	
+    	g.setColor(old);
+    }

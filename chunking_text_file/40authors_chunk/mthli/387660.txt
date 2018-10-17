@@ -1,0 +1,10 @@
+      }
+      repaint();
+   }
+
+   public void paintComponent(Graphics g)
+   {
+      if (rects.size() == 0) newDrawing();
+      Graphics2D g2 = (Graphics2D) g;
+
+      // draw all rectangles

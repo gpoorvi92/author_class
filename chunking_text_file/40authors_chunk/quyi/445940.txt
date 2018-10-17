@@ -1,0 +1,10 @@
+      return isSetScreenShotPath();
+    case IMAGE_CONTENT:
+      return isSetImageContent();
+    case CHECK_RESULT:
+      return isSetCheckResult();
+    }
+    throw new IllegalStateException();
+  }
+
+  @Override

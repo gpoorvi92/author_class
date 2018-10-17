@@ -1,0 +1,10 @@
+          unsetUe();
+        } else {
+          setUe((com.nercis.isscp.idl.UnavailableException)value);
+        }
+        break;
+
+      }
+    }
+
+    public Object getFieldValue(_Fields field) {

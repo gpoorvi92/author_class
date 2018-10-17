@@ -1,0 +1,10 @@
+    }
+
+    public PlayIndex selectPlayIndex_LowestBitrate() {
+        long highestBitrate = Long.MAX_VALUE;
+        PlayIndex result = null;
+
+        for (PlayIndex playIndex : mVodList) {
+            long bitrate = playIndex.getBitrate();
+            if (bitrate < highestBitrate) {
+                result = playIndex;

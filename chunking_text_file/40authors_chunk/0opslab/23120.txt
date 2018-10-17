@@ -1,0 +1,10 @@
+        assertEquals(true, valid.valid(map, map1));
+    }
+
+    public void testIsDate(){
+        assertEquals(true,valid.isDate("2016-03-16 00:07:02",
+                "yyyy-MM-dd HH:mm:ss"));
+    }
+
+    public void testSwith(){
+        System.out.println(valid.valid(new Object()));

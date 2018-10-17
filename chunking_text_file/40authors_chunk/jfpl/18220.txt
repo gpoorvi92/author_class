@@ -1,0 +1,10 @@
+			titleTv.setText(title);
+			super.setChatTitle(title);
+		}
+		if (StringUtil.isNull(url)) {
+			url = "file:///android_asset/www/index.html";
+		}
+		WebSettings ws = webView.getSettings();
+		ws.setJavaScriptEnabled(true);
+		ws.setJavaScriptCanOpenWindowsAutomatically(true);
+		ws.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);

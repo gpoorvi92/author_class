@@ -1,0 +1,10 @@
+        // output the faces
+      for (int t = 0; t < numTriangles; t++)
+      {
+          int offset = t * 3;
+          out.println("f "+(offset)+" "+(offset+1)+" "+(offset+2));  
+          // link the face to the indexed vertices
+      }
+      out.close();
+    }
+

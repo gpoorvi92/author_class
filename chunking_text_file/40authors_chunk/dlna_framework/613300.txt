@@ -1,0 +1,10 @@
+	public boolean open(String addr, int port)
+	{
+		if (serverSock != null)
+			return true;
+		try {
+			bindAddr = InetAddress.getByName(addr);
+			bindPort = port;
+			serverSock = new ServerSocket(bindPort, 0, bindAddr);
+		}
+		catch (IOException e) {

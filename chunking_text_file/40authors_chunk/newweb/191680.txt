@@ -1,0 +1,10 @@
+
+	@Override
+	public SmallPriceCut selectSmallPriceCutBySmallIDAndCustomerID(int smallID,
+			int customerID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_smallpricecut where smallid=? and customerid=?")
+				.addEntity(SmallPriceCut.class);
+		query.setInteger(0, smallID);
+		query.setInteger(1, customerID);
+		return (SmallPriceCut) query.uniqueResult();
+	}

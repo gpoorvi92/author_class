@@ -1,0 +1,10 @@
+                Random random = new Random();
+                random.nextInt();
+                addResult += i;
+            }
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("★★★★★ thread1 use time = " + (endTime - beginTime));
+    }
+}
+

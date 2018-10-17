@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    protected Cursor createCursor() {
+        Cursor c = Media.query(
+                mContentResolver, mBaseUri, IMAGE_PROJECTION,
+                whereClause(), whereClauseArgs(), sortOrder());
+        return c;
+    }
+

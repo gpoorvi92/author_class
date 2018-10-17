@@ -1,0 +1,10 @@
+            need[T.charAt(i)]++;
+
+        int count = 0, resStart = -1, resEnd = N;
+        for (int start = 0, end = 0; end < N; ++end)
+        {
+            if (need[S.charAt(end)] == 0)
+                continue;
+            if (find[S.charAt(end)] < need[S.charAt(end)])
+                count++;
+            find[S.charAt(end)]++;

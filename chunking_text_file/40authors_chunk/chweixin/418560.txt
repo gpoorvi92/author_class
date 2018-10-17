@@ -1,0 +1,10 @@
+ * 默认页面Action.
+ * @author 杨勇.
+ * @since 2013-11-27.
+ * */
+public class IndexAction extends BaseAction {
+	private static Map<String,String> cache = Collections.synchronizedMap(new HashMap<String,String>());
+	private IMenuService menuService;
+	private String systemId,systemName;
+	/**
+	 * 设置菜单服务。

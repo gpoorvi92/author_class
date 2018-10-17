@@ -1,0 +1,10 @@
+    /** Returns a successful response containing the parsed result. */
+    public static <T> Response<T> success(T result, Cache.Entry cacheEntry) {
+        return new Response<T>(result, cacheEntry);
+    }
+
+    /**
+     * Returns a failed response containing the given error code and an optional
+     * localized message displayed to the user.
+     */
+    public static <T> Response<T> error(VolleyError error) {

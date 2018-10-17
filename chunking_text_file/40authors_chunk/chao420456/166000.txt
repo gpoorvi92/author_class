@@ -1,0 +1,8 @@
+	// DiGuiDemo();
+	// }
+
+	public static void main(String[] args) {
+		DiGuiDemo dgd = new DiGuiDemo();
+		dgd.show();
+	}
+}

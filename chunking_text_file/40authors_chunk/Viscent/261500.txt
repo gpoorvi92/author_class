@@ -1,0 +1,7 @@
+			throws SQLException {
+		Recipient recipent = null;
+		//省略其它代码
+		return recipent;
+	}
+
+}

@@ -1,0 +1,10 @@
+	RenderSurface renderSurface;
+	GraphicsFrame frame;
+	
+	GradientControls gradientControls;
+	
+	JInternalFrame colorPicker, strokeDialog, gradientExtras;
+	
+
+	public FrameDesktop(GraphicsFrame frame)
+	{

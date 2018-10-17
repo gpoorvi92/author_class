@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/*
+ * 我们如何在定义集合的时候，去明确集合的元素类型呢?
+ * 这个时候，从JDK5以后，就提供了一个新的技术：泛型
+ * 泛型：把明确数据类型的工作推迟到了创建对象或者调用方法的时候去做的。
+ * 格式：

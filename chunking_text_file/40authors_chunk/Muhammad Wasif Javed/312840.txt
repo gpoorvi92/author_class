@@ -1,0 +1,10 @@
+
+	//Function use to Getting Records.
+
+	private void getRecords (String cat) {
+
+		String records[][] = new String [500][5];		//String Type Array use to Load Records From Table.
+
+		try {	//SELECT Query to Retrieve Records From Table.
+		 	String q = "SELECT * FROM Books WHERE Category = '" + cat + "' ORDER By BookId";
+

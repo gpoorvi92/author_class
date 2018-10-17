@@ -1,0 +1,10 @@
+    setDetectResult(detectResult == null ? (ByteBuffer)null : ByteBuffer.wrap(detectResult));
+    return this;
+  }
+
+  public AppDetectResult setDetectResult(ByteBuffer detectResult) {
+    this.detectResult = detectResult;
+    return this;
+  }
+
+  public void unsetDetectResult() {

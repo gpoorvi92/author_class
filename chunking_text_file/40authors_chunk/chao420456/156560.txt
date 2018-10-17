@@ -1,0 +1,10 @@
+
+		fos.close();
+		fis.close();
+	}
+
+	// 基本字节流一次读写一个字节数组
+	public static void method2() throws IOException {
+		FileInputStream fis = new FileInputStream("d:\\哥有老婆.mp4");
+		FileOutputStream fos = new FileOutputStream("copy2.mp4");
+

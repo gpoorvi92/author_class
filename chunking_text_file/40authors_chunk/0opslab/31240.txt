@@ -1,0 +1,10 @@
+     * @方法功能 byte 转为 InputStream
+     */
+    public final static InputStream byte2InputStream(byte[] b) throws Exception {
+        InputStream is = new ByteArrayInputStream(b);
+        return is;
+    }
+
+    /**
+     * 将流另存为文件
+     */

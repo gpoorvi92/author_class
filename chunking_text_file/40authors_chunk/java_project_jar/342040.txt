@@ -1,0 +1,10 @@
+    }
+
+    public void readFully(byte data[])
+        throws IOException, EOFException
+    {
+        readFully(data, 0, data.length);
+    }
+
+    public void readFully(byte data[], int offset, int length)
+        throws IOException, EOFException

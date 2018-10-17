@@ -1,0 +1,10 @@
+
+    /** Returns true if field stcRD is set (has been assigned a value) and false otherwise */
+    public boolean isSetStcRD() {
+      return this.stcRD != null;
+    }
+
+    public void setStcRDIsSet(boolean value) {
+      if (!value) {
+        this.stcRD = null;
+      }

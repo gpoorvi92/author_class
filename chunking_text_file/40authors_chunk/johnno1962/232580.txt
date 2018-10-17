@@ -1,0 +1,10 @@
+            entered_internalFrameDeiconified_4 = false;
+        }
+        else
+            super.internalFrameDeiconified( e );
+    }
+
+    /// public void javax.swing.event.InternalFrameAdapter.internalFrameActivated(javax.swing.event.InternalFrameEvent)
+
+    public native void __internalFrameActivated( javax.swing.event.InternalFrameEvent e );
+

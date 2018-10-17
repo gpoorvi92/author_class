@@ -1,0 +1,10 @@
+
+    public static int intArrayFieldStatic[];
+    public int intArrayField[];
+
+    public static int[] intArrayMethodStatic( int arg[] ) {
+        return arg;
+    }
+
+    public int[] intArrayMethod( int arg[] ) {
+        return arg;

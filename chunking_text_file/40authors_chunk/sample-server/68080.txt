@@ -1,0 +1,7 @@
+        String host = webHost.contains(":") ? webHost.split(":")[0] : webHost;
+        String url = "ws://" + host + ":" + ContextParamHolder.getString(ContextParamHolder.WEB_SOCKET_PORT_KEY) + "?session=" + session;
+        resultCode.setUrl(url);
+        log.info("RealtimeInitAction url:{}", url);
+        return resultCode.toJson();
+    }
+}

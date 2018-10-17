@@ -1,0 +1,10 @@
+{
+ private double progress=0;
+ private double progressAtLastPaint=-1;
+ private String msg;
+ private int width, height;
+ private JComponent c;
+ private boolean completed;
+
+    public progressPainter(JComponent c)
+    {

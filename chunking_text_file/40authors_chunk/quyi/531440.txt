@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(1)) {
+        struct.app_name = iprot.readString();
+        struct.setApp_nameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.versioncode = iprot.readString();
+        struct.setVersioncodeIsSet(true);
+      }
+      if (incoming.get(3)) {

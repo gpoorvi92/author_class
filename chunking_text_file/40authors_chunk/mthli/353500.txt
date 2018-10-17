@@ -1,0 +1,10 @@
+         dy = -dy;
+      }
+      if (y + YSIZE >= bounds.getMaxY())
+      {
+         y = bounds.getMaxY() - YSIZE;
+         dy = -dy; 
+      }
+   }
+
+   /**

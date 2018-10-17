@@ -1,0 +1,10 @@
+    }
+    @ACL(limit = Limit.CHAT,type = RequestType.JSON)
+    @RequestMapping(value = "/init")
+    @ResponseBody
+    public String init(HttpServletRequest req)
+    {
+        JsonResponse resultCode = new JsonResponse();
+        CenterContext cc = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, req.getSession());
+        String session = RealtimeSession.create(cc.getUser().getUsername());
+        String webHost = req.getHeader(HttpHeaders.Names.HOST);

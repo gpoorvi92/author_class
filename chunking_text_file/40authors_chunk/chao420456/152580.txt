@@ -1,0 +1,10 @@
+		//...
+		p.sport();
+	}
+	*/
+
+	public static void printAnimal(Animal a) {  //Animal a = new Dog(); a = new Cat(); a = new Pig();
+		a.eat();
+		//...
+		//a.lookDoor();
+		a.sport();

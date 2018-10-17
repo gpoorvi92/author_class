@@ -1,0 +1,10 @@
+
+    public FileListAdapter(Activity activity) {
+        this.mActivity = activity;
+        mFiles = Lists.newArrayList();
+    }
+
+    @Override
+    public int getCount() {
+        return mFiles.size();
+    }

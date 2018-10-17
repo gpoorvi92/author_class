@@ -1,0 +1,9 @@
+      {
+         String s = strings.get(i);
+         if (i > 0 && currentCollator.compare(s, strings.get(i - 1)) == 0) sortedWords
+               .append("= ");
+         sortedWords.append(s + "\n");
+      }
+      pack();
+   }
+}

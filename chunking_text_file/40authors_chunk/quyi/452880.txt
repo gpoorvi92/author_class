@@ -1,0 +1,10 @@
+      }
+
+      public void write(org.apache.thrift.protocol.TProtocol oprot, issuedMessage_args struct) throws org.apache.thrift.TException {
+        struct.validate();
+
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.missionId != null) {
+          oprot.writeFieldBegin(MISSION_ID_FIELD_DESC);
+          oprot.writeString(struct.missionId);
+          oprot.writeFieldEnd();

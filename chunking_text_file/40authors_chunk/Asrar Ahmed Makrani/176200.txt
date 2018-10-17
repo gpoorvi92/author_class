@@ -1,0 +1,10 @@
+ 		int paintx = (screenSize.width);
+		int painty = (screenSize.height);
+		setBounds( (paintx - 300)/2 , ((painty-50) - 150)/2,
+						 300,150);
+				
+		c.setLayout( null );
+		
+	    user.setBounds( 20,15,80,20 );
+        user.setForeground(Color.black);
+        c.add( user );

@@ -1,0 +1,10 @@
+        // get response from Open Calais server:		
+		String result = new Scanner(
+		           connection.getInputStream()).
+		           useDelimiter("\\Z").next();
+		result = result.replaceAll("&lt;", "<").replaceAll("&gt;", ">");
+		System.out.println(result);
+        int index1 = result.indexOf("terms of service.-->");
+        index1 = result.indexOf("<!--", index1);
+        int index2 = result.indexOf("-->", index1);
+        result = result.substring(index1 + 4, index2 - 1 + 1);

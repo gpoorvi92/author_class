@@ -1,0 +1,10 @@
+		paint = new Paint();//创建画笔
+		paint.setAntiAlias(true);
+		paint.setTextSize(ConstantUtil.LOADING_VIEW_WORD_SIZE);//设置画笔绘制字体的大小
+		paint.setColor(Color.WHITE);//设置画笔的颜色
+		loading1 = BitmapFactory.decodeResource(getResources(), R.drawable.loading1);//初始化下面的剑
+		loading2 = BitmapFactory.decodeResource(getResources(), R.drawable.loading2);//初始化上面的剑
+
+	}
+	
+	public void onDraw(Canvas canvas){//自己写的绘制方法

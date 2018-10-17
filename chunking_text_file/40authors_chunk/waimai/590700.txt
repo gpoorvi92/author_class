@@ -1,0 +1,10 @@
+    public Goods findById(Integer goodsId) {
+        return goodsMapper.selectByPrimaryKey(goodsId);
+    }
+
+    @Override
+    public void update(MultipartFile image, Goods goods) throws ServiceException {
+        if (!image.isEmpty()) {
+            if (!StringUtils.isEmpty(goods.getOriginalImage())) {
+                FileUtils.delete("wmlm", "goodsImage/" + goods.getOriginalImage());
+            }

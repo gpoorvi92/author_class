@@ -1,0 +1,10 @@
+        System.out.println("Introduce numeros:");
+        numIntrod = teclado.nextInt();  
+        
+        suma += numIntrod;
+        totalNumeros++;
+
+    } while (suma <= 10000);
+    
+    System.out.println("La media de los numeros es " + (suma / totalNumeros));
+    System.out.println("El total acumulado siendo " + suma);

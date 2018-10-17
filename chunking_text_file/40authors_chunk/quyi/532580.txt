@@ -1,0 +1,10 @@
+
+  public APICheck setApiPackageName(String apiPackageName) {
+    this.apiPackageName = apiPackageName;
+    return this;
+  }
+
+  public void unsetApiPackageName() {
+    this.apiPackageName = null;
+  }
+

@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.SOURCE_PORT, new org.apache.thrift.meta_data.FieldMetaData("sourcePort", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.TARGET_ADDRESS, new org.apache.thrift.meta_data.FieldMetaData("targetAddress", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.TARGET_PORT, new org.apache.thrift.meta_data.FieldMetaData("targetPort", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.PROTOCAL, new org.apache.thrift.meta_data.FieldMetaData("protocal", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.DATA_HEX, new org.apache.thrift.meta_data.FieldMetaData("dataHex", org.apache.thrift.TFieldRequirementType.DEFAULT, 

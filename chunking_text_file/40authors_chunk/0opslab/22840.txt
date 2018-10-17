@@ -1,0 +1,10 @@
+				break;
+			}
+			case XML_ENCODING_DECL:
+			{
+				{
+				token2 = LT(1);
+				match(XML_ENCODING_DECL);
+				}
+				charset=token2.getText();
+				break;

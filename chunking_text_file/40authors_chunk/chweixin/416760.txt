@@ -1,0 +1,10 @@
+		return status;
+	}
+	/**
+	 * 设置回复状态。
+	 * @param status
+	 * 回复状态(1-启用,0-停用)。
+	 * */
+	public void setStatus(Integer status) {
+		this.status = status;
+	}

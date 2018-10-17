@@ -1,0 +1,10 @@
+  static {
+    schemes.put(StandardScheme.class, new APICheckStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new APICheckTupleSchemeFactory());
+  }
+
+  public String apiName; // required
+  public String apiPackageName; // required
+  public String packageName; // required
+  public String objectName; // required
+  public String methodName; // required

@@ -1,0 +1,10 @@
+    public HashMap<String, String> getBucketIds() {
+        Uri uri = mBaseUri.buildUpon()
+                .appendQueryParameter("distinct", "true").build();
+        Cursor c = Images.Media.query(
+                mContentResolver, uri,
+                new String[] {
+                    Media.BUCKET_DISPLAY_NAME,
+                    Media.BUCKET_ID
+                },
+                whereClause(), whereClauseArgs(), sortOrder());

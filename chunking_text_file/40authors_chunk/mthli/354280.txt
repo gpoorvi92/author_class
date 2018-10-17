@@ -1,0 +1,10 @@
+      }
+   }
+
+   /**
+    * Gets the currently selected option.
+    * @return the label of the currently selected radio button.
+    */
+   public String getSelection()
+   {
+      return group.getSelection().getActionCommand();

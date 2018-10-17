@@ -1,0 +1,10 @@
+      add(new JScrollPane(label), BorderLayout.CENTER);
+      JPanel panel = new JPanel();
+
+      JButton copyButton = new JButton("Copy");
+      panel.add(copyButton);
+      copyButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               copy();

@@ -1,0 +1,10 @@
+
+/**
+ * 微信普通消息处理。
+ * @author yangyong.
+ * @since 2014-04-11.
+ * */
+public interface IWeChatMessageHandlers {
+	/**
+	 * 消息处理。
+	 * @param context

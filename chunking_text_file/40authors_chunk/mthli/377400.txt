@@ -1,0 +1,10 @@
+   }
+
+   private boolean escapesToInfinity(double a, double b)
+   {
+      double x = 0.0;
+      double y = 0.0;
+      int iterations = 0;
+      while (x <= 2 && y <= 2 && iterations < MAX_ITERATIONS)
+      {
+         double xnew = x * x - y * y + a;

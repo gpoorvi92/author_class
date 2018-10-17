@@ -1,0 +1,10 @@
+ * <li>Anonymous classes.</li>
+ * </ul>
+ * </p>
+ * <p>
+ * Almost all implementations were plainforward and not hiding any complexity.
+ * One could not downcast them to get more methods, and they were replaceable. <br>
+ * That's it! Finally i decided to hardcode it here... .
+ * </p>
+ * <p>
+ * But don't you start writing methods like:

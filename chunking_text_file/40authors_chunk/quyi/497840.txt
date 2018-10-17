@@ -1,0 +1,10 @@
+  public String fileDescription; // required
+  public String filePath; // required
+  public String operateContent; // required
+  public String operateTime; // required
+  public String operateType; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    PID_NAME((short)1, "pidName"),
+    FILE_DESCRIPTION((short)2, "fileDescription"),

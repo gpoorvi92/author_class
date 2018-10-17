@@ -1,0 +1,10 @@
+
+        public IntentBuilder_(Context context) {
+            context_ = context;
+            intent_ = new Intent(context, WelcomeActivity_.class);
+        }
+
+        public Intent get() {
+            return intent_;
+        }
+

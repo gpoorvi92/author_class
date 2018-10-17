@@ -1,0 +1,10 @@
+	@Autowired
+	private UserService userService;
+	@Autowired
+	private CustomerService customerService;
+	
+	@SuppressWarnings("rawtypes")
+	@RequestMapping(value="getUsersJsonData.ajax")
+	@ResponseBody
+	public String getUsersJsonData(HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");

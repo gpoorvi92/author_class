@@ -1,0 +1,10 @@
+        this.buffer.put(position, word);
+    }
+
+    @Override
+    public void setLastWord(long word) {
+        setWord(this.actualSizeInWords - 1, word);
+    }
+
+    @Override
+    public void push_back(long word) {

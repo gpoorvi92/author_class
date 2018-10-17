@@ -1,0 +1,10 @@
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.osArch != null) {
+        oprot.writeFieldBegin(OS_ARCH_FIELD_DESC);
+        oprot.writeString(struct.osArch);
+        oprot.writeFieldEnd();
+      }
+      if (struct.osName != null) {
+        oprot.writeFieldBegin(OS_NAME_FIELD_DESC);
+        oprot.writeString(struct.osName);

@@ -1,0 +1,10 @@
+		
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost/eis?user=root&password=");
+			//conn = DriverManager.getConnection(url);
+
+			
+			st = conn.createStatement();
+
+			// Execute the query and store the result set and its metadata
+			rs = st.executeQuery(tstrSQL);

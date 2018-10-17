@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAddMarker"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapErasableMedium"),
+        makeProperty("CapInitializeMedium"),
+        makeProperty("CapMediumIsAvailable"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapPrintContent"),
+        makeProperty("CapPrintContentFile"),
+        makeProperty("CapRetrieveCurrentMarker"),

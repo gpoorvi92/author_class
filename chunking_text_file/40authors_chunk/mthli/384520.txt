@@ -1,0 +1,10 @@
+      try
+      {
+         boolean done = false;
+         while (!done)
+         {
+            File file = queue.take();
+            if (file == FileEnumerationTask.DUMMY)
+            {
+               queue.put(file);
+               done = true;

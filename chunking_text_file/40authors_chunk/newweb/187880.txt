@@ -1,0 +1,10 @@
+					format);
+			if (pinyinArray != null) {
+				convert += pinyinArray[0].charAt(0);
+			} else {
+				convert += word;
+			}
+		}
+		return convert;
+	}
+

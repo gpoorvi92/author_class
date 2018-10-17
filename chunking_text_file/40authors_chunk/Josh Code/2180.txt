@@ -1,0 +1,10 @@
+    if (vectors.length == 0)
+       return null;
+      
+    Vector3D result = Vector3D.getFromCoordinates(0, 0, 0);
+    int len = vectors.length;
+     // local int variables are quicker accessed than properties of classes
+
+      for (int i = 0; i < len; i++)
+      { 
+          Vector3D v = vectors[i]; 

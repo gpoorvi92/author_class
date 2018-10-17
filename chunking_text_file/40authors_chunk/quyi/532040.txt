@@ -1,0 +1,10 @@
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    API_NAME((short)1, "apiName"),
+    API_PACKAGE_NAME((short)2, "apiPackageName"),
+    PACKAGE_NAME((short)3, "packageName"),
+    OBJECT_NAME((short)4, "objectName"),
+    METHOD_NAME((short)5, "methodName"),
+    STATEMENT((short)6, "statement"),
+    RISK_TYPE((short)7, "riskType"),
+    RISK_LEVEL((short)8, "riskLevel"),

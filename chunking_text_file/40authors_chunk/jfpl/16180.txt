@@ -1,0 +1,10 @@
+					}
+				}
+				intent.setData(Uri.parse("sms:" + address));
+				intent.putExtra("address", address);
+				intent.setType("vnd.android-dir/mms-sms");
+				webActivity.startActivity(intent);
+			} catch (android.content.ActivityNotFoundException e) {
+				System.out.println("Error sending sms " + url + ":"
+						+ e.toString());
+			}

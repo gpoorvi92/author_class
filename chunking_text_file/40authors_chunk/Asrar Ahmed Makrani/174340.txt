@@ -1,0 +1,10 @@
+    gbc.gridx = 1;
+    text.add(book_no_text, gbc);
+    gbc.gridy = 2;
+    text.add(book_title_text, gbc);
+    gbc.gridy = 3;
+    text.add(type_combo, gbc);
+    gbc.gridy = 4;
+    text.add(category_combo, gbc);
+    
+    gbc.gridy = 1;

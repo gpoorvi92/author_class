@@ -1,0 +1,10 @@
+				.addEntity(Supplier.class);
+		query.setString(0, name);
+		return (Supplier) query.list();
+	}
+
+	@Override
+	public boolean insert(Supplier supplier) {
+		try {
+			sessionFactory.getCurrentSession().save(supplier);
+		} catch (Exception e) {

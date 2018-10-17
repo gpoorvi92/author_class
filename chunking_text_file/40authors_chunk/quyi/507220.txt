@@ -1,0 +1,10 @@
+    this.missionId = missionId;
+    this.userAppId = userAppId;
+    this.plotsStatus = plotsStatus;
+    this.detectResult = detectResult;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public AppDetectResult(AppDetectResult other) {

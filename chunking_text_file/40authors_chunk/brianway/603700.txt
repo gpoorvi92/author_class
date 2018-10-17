@@ -1,0 +1,10 @@
+ */
+public class Run15_join_sleep_2 {
+    public static void main(String[] args) {
+        try {
+            ThreadB b = new ThreadB();
+            ThreadA2 a = new ThreadA2(b);
+            a.start();
+            Thread.sleep(1000);
+            ThreadC c = new ThreadC(b);
+            c.start();

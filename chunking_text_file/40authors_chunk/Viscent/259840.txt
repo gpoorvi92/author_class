@@ -1,0 +1,10 @@
+	    new ThreadPoolExecutor.CallerRunsPolicy());
+
+	public static void main(String[] args) {
+		ThreadPoolDeadLockAvoidance me = new ThreadPoolDeadLockAvoidance();
+		me.test("<This will NOT deadlock>");
+	}
+
+	public void test(final String message) {
+		Runnable taskA = new Runnable() {
+

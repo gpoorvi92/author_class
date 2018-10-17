@@ -1,0 +1,10 @@
+        return buffer;
+    }
+
+    /**
+     * the traditional io way
+     *
+     * @param filename
+     * @return
+     * @throws IOException
+     */

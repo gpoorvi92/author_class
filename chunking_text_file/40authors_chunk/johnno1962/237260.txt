@@ -1,0 +1,8 @@
+
+    public native void __popupMenuCanceled( javax.swing.event.PopupMenuEvent e );
+
+    public void popupMenuCanceled( javax.swing.event.PopupMenuEvent e ) {
+        __popupMenuCanceled( e );
+    }
+
+}

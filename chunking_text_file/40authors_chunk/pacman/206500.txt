@@ -1,0 +1,10 @@
+	/**
+	 * TODO
+	 * @Title: isEmpty
+	 * @param pFileName
+	 * @return
+	 * @return: boolean
+	 */
+	public static boolean isEmpty(String str) {
+		
+		return StringUtils.isBlank(str);

@@ -1,0 +1,10 @@
+/**
+* Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.
+* Pero pidiendo el caracter por teclado
+* @author costy
+ */
+import java.util.Scanner;
+
+public class PiramideHuecaConFor {
+
+public static void main(String[] args) {

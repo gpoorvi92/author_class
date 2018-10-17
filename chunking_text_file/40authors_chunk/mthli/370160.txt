@@ -1,0 +1,10 @@
+               String role = inputs[2];
+               Set<Principal> principals = subject.getPrincipals();
+               principals.add(new SimplePrincipal("username", username));
+               principals.add(new SimplePrincipal("role", role));
+               return true;
+            }
+         }
+         return false;
+      }
+   }

@@ -1,0 +1,10 @@
+            str = str.substring(0, str.length() - 4);
+            str = str + "万";
+            return str;
+        }
+        return str;
+    }
+
+    /**
+     * Html-encode the string.
+     *

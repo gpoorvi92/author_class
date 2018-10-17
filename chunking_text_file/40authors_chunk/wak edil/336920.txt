@@ -1,0 +1,10 @@
+		JMenu helpMenu= new JMenu("Help");
+		helpMenu.setMnemonic('H');
+		jmb.add(helpMenu);
+		helpMenu.add(jmiAbout=new JMenuItem("About Us"));
+		
+		container.add(jmb,BorderLayout.NORTH);
+		
+		jbBack.addActionListener(this);
+		jbExit.addActionListener(this);
+		jmiExit.addActionListener(this);

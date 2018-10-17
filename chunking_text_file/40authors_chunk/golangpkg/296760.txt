@@ -1,0 +1,10 @@
+		UUID fileId = UUID.randomUUID();
+		UUID fileId2 = UUID.randomUUID();
+
+		Assert.assertThat(uploadProcessingOperationManager.clientsAndRequestsProcessingOperation.isEmpty(), CoreMatchers.is(true));
+		Assert.assertThat(clientToFilesMap.isEmpty(), CoreMatchers.is(true));
+
+		uploadProcessingOperationManager.startOperation(clientId, fileId);
+
+		Assert.assertThat(uploadProcessingOperationManager.clientsAndRequestsProcessingOperation.containsKey(clientId), CoreMatchers.is(true));
+		Assert.assertThat(clientToFilesMap.get(clientId).contains(fileId), CoreMatchers.is(true));

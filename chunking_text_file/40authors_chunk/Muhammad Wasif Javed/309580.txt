@@ -1,0 +1,10 @@
+		//Setting the Form's TextField & PasswordField.
+
+		txtUser = new JTextField ();
+		txtUser.setEnabled (false);
+		txtUser.setBounds (120, 20, 150, 25);
+		txtUser.setText (user);
+		txtPass = new JPasswordField ();
+		txtPass.setBounds (120, 55, 150, 25);
+		txtNew = new JPasswordField ();
+		txtNew.setBounds (120, 90, 150, 25);

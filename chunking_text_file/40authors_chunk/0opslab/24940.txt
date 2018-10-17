@@ -1,0 +1,10 @@
+
+            // 向multipart对象中添加邮件的各个部分内容，包括文本内容和附件
+            Multipart multipart = new MimeMultipart();
+
+            // 添加邮件正文
+            BodyPart contentPart = new MimeBodyPart();
+            contentPart.setContent(sendHtml, "text/html;charset=UTF-8");
+            multipart.addBodyPart(contentPart);
+
+            // 添加附件的内容

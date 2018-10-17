@@ -1,0 +1,10 @@
+        }
+        return ajaxDoneSuccessAndClose("添加成功", "imageRecommend_list");
+    }
+
+    @RequestMapping("/edit/{item_id}")
+    public ModelAndView editView(@PathVariable("item_id") Integer id) {
+        ModelAndView modelAndView = new ModelAndView("management/imageRecommend/edit");
+        ImageRecommend imageRecommend = imageRecommendService.findById(id);
+        modelAndView.addObject("imageRecommend", imageRecommend);
+        modelAndView.addObject("imageRecommendType", ImageRecommendType.values());

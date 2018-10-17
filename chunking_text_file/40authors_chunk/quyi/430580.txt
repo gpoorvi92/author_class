@@ -1,0 +1,10 @@
+
+  public String apkMD5; // required
+  public String checkDate; // required
+  public List<String> sensitives; // required
+  public List<String> featuresCharacters; // required
+  public List<APICheck> apiCheck; // required
+  public String reportPath; // required
+  public String centerResultPath; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */

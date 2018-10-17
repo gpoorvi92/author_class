@@ -1,0 +1,10 @@
+         {
+            title = JOptionPane.showInputDialog("Please supply a frame title:");
+            if (title == null) return;
+
+            service.create(key, 100);
+            FileContents contents = service.get(key);
+            OutputStream out = contents.getOutputStream(true);
+            PrintStream printOut = new PrintStream(out);
+            printOut.print(title);
+         }

@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetApp_size()).compareTo(other.isSetApp_size());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetApp_size()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.app_size, other.app_size);
+      if (lastComparison != 0) {
+        return lastComparison;

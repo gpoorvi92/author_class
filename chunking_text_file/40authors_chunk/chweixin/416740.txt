@@ -1,0 +1,10 @@
+	 * */
+	public void setContent(String content) {
+		this.content = content;
+	}
+	/**
+	 * 获取回复状态。
+	 * @return
+	 * 回复状态(1-启用,0-停用)。
+	 * */
+	public Integer getStatus() {

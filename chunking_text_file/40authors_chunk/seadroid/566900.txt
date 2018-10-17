@@ -1,0 +1,10 @@
+        public void onActivityStopped(MonitoredActivity activity) {
+        }
+    }
+
+    public void addLifeCycleListener(LifeCycleListener listener) {
+        if (mListeners.contains(listener)) return;
+        mListeners.add(listener);
+    }
+
+    public void removeLifeCycleListener(LifeCycleListener listener) {

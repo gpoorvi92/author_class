@@ -1,0 +1,10 @@
+  }
+
+  public void setEngineTypeIsSet(boolean value) {
+    if (!value) {
+      this.engineType = null;
+    }
+  }
+
+  public NodeInfo getNodeInfo() {
+    return this.nodeInfo;

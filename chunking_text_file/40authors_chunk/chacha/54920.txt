@@ -1,0 +1,10 @@
+
+	public static String getConnectionDescriptor() {
+		return connectionDescriptor;
+	}
+
+	public static void setConnectionDescriptor(String connectionDescriptor) {
+		Config.connectionDescriptor = connectionDescriptor;
+	}
+
+	public static int getConnectionsPerHost() {

@@ -1,0 +1,10 @@
+
+		mScrollLayout.setOnTouchListener(this);
+		mScrollLayout.postDelayed(this, duration);
+
+		/**
+		 * 监听滑动到第几页
+		 */
+		mScrollLayout.setOnScreenChangeListener(new OnScreenChangeListener() {
+
+			@Override

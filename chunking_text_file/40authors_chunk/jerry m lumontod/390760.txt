@@ -1,0 +1,10 @@
+			//should alias the field names into ccode and cdesc respectively 
+			
+			model.addColumn("Code");
+			model.addColumn("Description");
+					
+			while (rs.next()) {
+				
+				strCode=rs.getString("ccode");
+				strDesc=rs.getString("cdesc");
+				obj[0] = strCode;

@@ -1,0 +1,4 @@
+    public void    removeOutputCompleteListener(OutputCompleteListener l);
+    public void    addStatusUpdateListener(StatusUpdateListener l);
+    public void    removeStatusUpdateListener(StatusUpdateListener l);
+}

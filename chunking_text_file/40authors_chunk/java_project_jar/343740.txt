@@ -1,0 +1,10 @@
+        encoderIn = CharBuffer.allocate(bufferSize);
+        encoderIn.flip();
+    }
+
+    public ReaderInputStream(Reader reader, Charset charset)
+    {
+        this(reader, charset, 1024);
+    }
+
+    public ReaderInputStream(Reader reader, String charsetName, int bufferSize)

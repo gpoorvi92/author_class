@@ -1,0 +1,10 @@
+				ByteBuffer contentBuf = ByteBuffer.allocate((int) file.length());
+				FileInputStream fin = new FileInputStream(file);
+				try {
+					fin.getChannel().read(contentBuf);
+				} finally {
+					fin.close();
+				}
+
+				attachment.setContentType("image/png");
+				attachment.setContent(contentBuf.array());

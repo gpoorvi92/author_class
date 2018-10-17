@@ -1,0 +1,10 @@
+	public String getFromUserName() {
+		return super.getFromUserName();
+	}
+	/**
+	 * 设置开发者微信号。
+	 * @param fromUserName
+	 *  开发者微信号。
+	 * */
+	@Override
+	public void setFromUserName(String fromUserName) {

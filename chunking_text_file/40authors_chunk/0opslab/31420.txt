@@ -1,0 +1,10 @@
+  /**
+   * <p>
+   * High level method to open documents in the correct codepage.
+   * Implementations of this method should delegate to the low-level method
+   * {@link #detectCodepage(URL)}.
+   * </p>
+   * <p>
+   * Detect the codepage of the document pointed to by the URL argument. If the
+   * codepage could not be detected, null has to be returned. If the given URL
+   * does not point to a document or it is not possible to open the document

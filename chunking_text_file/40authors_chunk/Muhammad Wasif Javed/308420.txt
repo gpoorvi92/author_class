@@ -1,0 +1,10 @@
+		//Setting the Form's TextField & PasswordField.
+
+		txtUser = new JTextField ();
+		txtUser.setBounds (100, 15, 150, 25);
+		txtPass = new JPasswordField ();
+		txtPass.setBounds (100, 50, 150, 25);
+
+		//Setting the Form's Buttons.
+
+		btnOk = new JButton ("OK");

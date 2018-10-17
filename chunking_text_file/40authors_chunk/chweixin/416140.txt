@@ -1,0 +1,10 @@
+	 * 更新对象。
+	 * @param data
+	 * 	对象。
+	 * */
+	@Override
+	public void update(T data) {
+		if(data != null){
+			this.getCurrentSession().update(data);
+		}
+	}

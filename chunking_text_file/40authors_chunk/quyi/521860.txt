@@ -1,0 +1,10 @@
+
+    }
+
+    private static class modifyTaskManagerConfig_resultTupleSchemeFactory implements SchemeFactory {
+      public modifyTaskManagerConfig_resultTupleScheme getScheme() {
+        return new modifyTaskManagerConfig_resultTupleScheme();
+      }
+    }
+
+    private static class modifyTaskManagerConfig_resultTupleScheme extends TupleScheme<modifyTaskManagerConfig_result> {

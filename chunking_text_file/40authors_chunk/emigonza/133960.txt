@@ -1,0 +1,10 @@
+    public static final int SCAN_SDT_UPCA_S      = 111;  // UPC-A with
+                                                         //   supplemental barcode
+    public static final int SCAN_SDT_UPCE_S      = 112;  // UPC-E with
+                                                         //   supplemental barcode
+    public static final int SCAN_SDT_UPCD1       = 113;  // UPC-D1
+    public static final int SCAN_SDT_UPCD2       = 114;  // UPC-D2
+    public static final int SCAN_SDT_UPCD3       = 115;  // UPC-D3
+    public static final int SCAN_SDT_UPCD4       = 116;  // UPC-D4
+    public static final int SCAN_SDT_UPCD5       = 117;  // UPC-D5
+    public static final int SCAN_SDT_EAN8_S      = 118;  // EAN 8 with

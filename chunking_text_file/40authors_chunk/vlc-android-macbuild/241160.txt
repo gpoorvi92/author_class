@@ -1,0 +1,10 @@
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class ViewHelper {
+
+    // View BackgroundColor
+    public static void setBackgroundColor(View container, int id, int color) {
+        if (container == null)
+            return;
+

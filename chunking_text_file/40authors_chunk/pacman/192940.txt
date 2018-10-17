@@ -1,0 +1,10 @@
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testEncode() {
+		MediaEncrypt encrypt = new MediaEncrypt();
+		encrypt.encodeMedia("e:/1.zip", "e:/1.data");

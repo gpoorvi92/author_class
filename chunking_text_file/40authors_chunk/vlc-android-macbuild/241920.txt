@@ -1,0 +1,10 @@
+        public void surfaceChanged(SurfaceHolder holder, int format, int width,
+                int height) {
+        }
+
+        public void surfaceCreated(SurfaceHolder holder) {
+        }
+
+        public void surfaceDestroyed(SurfaceHolder holder) {
+            if (mMediaPlayer != null) {
+                mMediaPlayer.release();

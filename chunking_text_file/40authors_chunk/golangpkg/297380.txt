@@ -1,0 +1,10 @@
+		// old one
+		File oldDir = new File(rootFolder, "oldDir");
+		oldDir.mkdir();
+		oldDir.setLastModified(new DateTime().minusMonths(3).getMillis());
+
+		// recent one
+		File recentDir = new File(rootFolder, "recentDir");
+		recentDir.mkdir();
+
+		// process

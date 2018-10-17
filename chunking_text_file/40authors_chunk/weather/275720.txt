@@ -1,0 +1,10 @@
+        d("Changing log tag to %s", tag);
+        TAG = tag;
+
+        // Reinitialize the DEBUG "constant"
+        DEBUG = Log.isLoggable(TAG, Log.VERBOSE);
+    }
+
+    public static void v(String format, Object... args) {
+        if (DEBUG) {
+            Log.v(TAG, buildMessage(format, args));

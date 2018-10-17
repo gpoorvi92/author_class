@@ -1,0 +1,10 @@
+  public int     getVideoCount() throws JposException;
+  public void    setVideoCount(int videoCount) throws JposException;
+  public int     getVideoRate() throws JposException;
+  public void    setVideoRate(int videoRate) throws JposException;
+
+  // Methods
+  public void    clearInput()
+                     throws JposException;
+  public void    clearInputProperties()
+                     throws JposException;

@@ -1,0 +1,10 @@
+	}
+	
+	public boolean hasSID()
+	{
+		String sid = getSID();
+		return (sid != null && 0 < sid.length()) ? true : false;
+	}
+
+	////////////////////////////////////////////////
+	//	Timeout

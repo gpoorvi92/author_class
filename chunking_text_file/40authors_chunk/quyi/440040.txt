@@ -1,0 +1,10 @@
+        switch (schemeField.id) {
+          case 1: // CPU_VENDOR
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.cpuVendor = iprot.readString();
+              struct.setCpuVendorIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // CPU_MODEL

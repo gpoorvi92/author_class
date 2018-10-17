@@ -1,0 +1,10 @@
+                                	clientThread.closeClienthread(clientThread);
+                                }
+                            }
+                            catch(IOException E){}
+                    		break;
+                    	}
+                    }
+                }
+			}
+			if(str.contains("@serverexit")){

@@ -1,0 +1,10 @@
+   */
+  public CharsetDecoder newDecoder() {
+    throw new UnsupportedOperationException(
+        "This is no real Charset but a flag you should test for!");
+  }
+
+  /**
+   * @see Charset#newEncoder()
+   */
+  public CharsetEncoder newEncoder() {

@@ -1,0 +1,10 @@
+public class BorderFrame extends JFrame
+{
+   private JPanel demoPanel;
+   private JPanel buttonPanel;
+   private ButtonGroup group;
+
+   public BorderFrame()
+   {
+      demoPanel = new JPanel();
+      buttonPanel = new JPanel();

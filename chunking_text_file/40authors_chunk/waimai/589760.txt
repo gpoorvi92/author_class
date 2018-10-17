@@ -1,0 +1,10 @@
+        this.updateDate = updateDate;
+    }
+
+    public String getIdentityCard() {
+        return identityCard;
+    }
+
+    public void setIdentityCard(String identityCard) {
+        this.identityCard = identityCard == null ? null : identityCard.trim();
+    }

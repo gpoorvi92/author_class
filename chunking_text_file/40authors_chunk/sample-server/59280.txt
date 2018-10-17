@@ -1,0 +1,10 @@
+        }
+        else
+        {
+            return Integer.valueOf(getString(key));
+        }
+    }
+    public static String getString(String key)
+    {
+        return contextParamMap.get(key);
+    }

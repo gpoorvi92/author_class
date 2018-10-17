@@ -1,0 +1,10 @@
+public class VectorDemo {
+	public static void main(String[] args) {
+		// 创建集合对象
+		// Collection c = new Vector();
+		// List list = new Vector();
+
+		Vector v = new Vector();
+
+		// public void addElement(Object obj)
+		v.addElement("hello");

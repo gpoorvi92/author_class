@@ -1,0 +1,10 @@
+ * set bit.
+ *
+ * @author Daniel Lemire and Veronika Zenz
+ * @since 0.5.0
+ */
+public class NonEmptyVirtualStorage32 implements BitmapStorage32 {
+    private static final NonEmptyException nonEmptyException = new NonEmptyException();
+
+    /**
+     * If the word to be added is non-zero, a NonEmptyException exception is

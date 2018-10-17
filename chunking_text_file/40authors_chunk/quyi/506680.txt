@@ -1,0 +1,10 @@
+				sheet.addCell(new Label(3, row, singleRecordInfo.getMd5(),
+						wcf_left));
+				sheet.addCell(new Label(4, row, singleRecordInfo.getAppSize(),
+						wcf_left));
+				sheet.addCell(new jxl.write.Number(5, row, singleRecordInfo
+						.getStartedTime(), wcf_left));
+				sheet.addCell(new Label(7, row, singleRecordInfo.getPlotsType()
+						.name(), wcf_left));
+			} else {
+				int row = sheet.getRows();

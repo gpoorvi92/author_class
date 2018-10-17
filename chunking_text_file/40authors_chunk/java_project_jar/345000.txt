@@ -1,0 +1,10 @@
+        createLock();
+        out = initWriter(file, encoding, append);
+    }
+
+    private void testLockDir(File lockDir)
+        throws IOException
+    {
+        if(!lockDir.exists())
+            throw new IOException((new StringBuilder()).append("Could not find lockDir: ").append(lockDir.getAbsolutePath()).toString());
+        if(!lockDir.canWrite())

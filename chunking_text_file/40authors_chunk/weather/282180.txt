@@ -1,0 +1,10 @@
+        }
+        return gson.fromJson(jsonString, type);
+    }
+
+    public String jsonStringFromRawFile(Context context, int fileId) {
+        return FileUtil.readString(context.getResources().openRawResource(fileId), "UTF-8");
+    }
+
+    public <T> T jsonObjectFromRawFile(Context context, int fileId, Class<T> clazz) {
+        try {

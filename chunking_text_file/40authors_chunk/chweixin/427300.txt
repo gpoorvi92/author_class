@@ -1,0 +1,10 @@
+			Picture data = (info.getId() == null || info.getId().trim().isEmpty()) ? null : this.pictureDao.load(Picture.class, info.getId());
+			if(isAdded = (data == null)){
+				if(info.getId() == null || info.getId().trim().isEmpty()){
+					info.setId(UUID.randomUUID().toString());
+				}
+				data = new Picture();
+			}
+			if(info.getPath() != null && !info.getPath().trim().isEmpty() && 
+					(data.getPath() == null || data.getPath().trim().isEmpty() || !data.getPath().equalsIgnoreCase(info.getPath()))){
+				logger.info("准备移动上传图片文件...");

@@ -1,0 +1,10 @@
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQReceiver#Close()
+	 */
+	@Override
+	public void Close() throws MQException {
+		
+		try {
+			
+			if (mSession != null) {
+				mSession.close();

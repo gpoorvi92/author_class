@@ -1,0 +1,10 @@
+     * @throws MalformedQueryException 
+     * @throws QueryEvaluationException
+     */
+    public String doSparqlQuery(String sparql_query, ISparqlProcessResults handler) throws RepositoryException, MalformedQueryException, QueryEvaluationException {
+        StringBuffer sb = new StringBuffer();
+        TupleQuery tupleQuery = con.prepareTupleQuery(QueryLanguage.SPARQL, sparql_query);
+        TupleQueryResult result = tupleQuery.evaluate();
+        try {
+            //.... // do something with the result
+            //System.out.println("\n\n\n* * * result: " + result.getBindingNames());

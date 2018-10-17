@@ -1,0 +1,10 @@
+
+
+	public void setProgress(Float progress) {
+		this.progress = progress;
+	}
+
+	/**
+	 * @return current file upload rate in byte per second.
+	 */
+	public Long getUploadRate() {

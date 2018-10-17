@@ -1,0 +1,10 @@
+
+import org.cybergarage.upnp.*;
+import org.cybergarage.http.*;
+import org.cybergarage.soap.*;
+import org.cybergarage.xml.*;
+
+public class ActionResponse extends ControlResponse
+{
+	////////////////////////////////////////////////
+	//	Constructor

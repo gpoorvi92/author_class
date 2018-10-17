@@ -1,0 +1,10 @@
+     */
+    static final byte PARAM_XML = 3;
+    /**
+     * Used to indicate the value of a tag attribute within an XML structure.
+     */
+    static final byte PARAM_XML_ATTR = 4;
+    /**
+     * Used to indicate the value of a parameter attribute within a multi-part
+     * message body (such as the name of an uploaded file).
+     */

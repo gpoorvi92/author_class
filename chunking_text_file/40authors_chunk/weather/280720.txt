@@ -1,0 +1,10 @@
+ */
+public class ImageAnalysisTool {
+    private static final double EARTH_RADIUS = 6378137;
+    public static List<LocationTimeGroup> getLocationImageGroup(ArrayList<ImageEntity> images){
+        boolean hasEntity = false;
+        List<LocationTimeGroup> groups = new ArrayList<LocationTimeGroup>();
+        LocationTimeGroup  curTimeGroup = null;
+        for (ImageEntity entity :images){
+            try {
+                ExifInterface exifInterface = new ExifInterface(entity.getPath());

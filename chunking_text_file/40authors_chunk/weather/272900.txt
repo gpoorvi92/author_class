@@ -1,0 +1,10 @@
+import butterknife.InjectView;
+
+/**
+ * Created by qihigh on 7/15/14.
+ * Modified by ____.
+ */
+public class CityChangeActivity extends BaseActivity {
+
+    @InjectView(R.id.dialog_input)
+    AutoCompleteTextView mInput;

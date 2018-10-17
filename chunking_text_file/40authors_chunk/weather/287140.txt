@@ -1,0 +1,10 @@
+        return new Response<T>(error);
+    }
+
+    /** Parsed response, or null in the case of error. */
+    public final T result;
+
+    /** Cache metadata for this response, or null in the case of error. */
+    public final Cache.Entry cacheEntry;
+
+    /** Detailed error information if <code>errorCode != OK</code>. */

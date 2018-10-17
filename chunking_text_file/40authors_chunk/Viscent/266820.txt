@@ -1,0 +1,10 @@
+		}
+
+		// 合并子任务的处理结果
+		R result = combineResults(subResults);
+		return result;
+	}
+
+	/**
+	 * 留给子类实现。用于创建原始任务分解算法策略。
+	 * 

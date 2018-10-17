@@ -1,0 +1,6 @@
+    protected HttpURLConnection createConnection(URL url) throws IOException {
+//        return new OkUrlFactory(client).open(url);
+        OkUrlFactory client = new OkUrlFactory(new OkHttpClient());
+        return client.open(url);
+    }
+}

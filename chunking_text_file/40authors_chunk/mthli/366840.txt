@@ -1,0 +1,6 @@
+      WordCheckPermission p = new WordCheckPermission(text, "insert");
+      SecurityManager manager = System.getSecurityManager();
+      if (manager != null) manager.checkPermission(p);
+      super.append(text);
+   }
+}

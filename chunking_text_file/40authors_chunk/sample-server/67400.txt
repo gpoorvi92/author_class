@@ -1,0 +1,10 @@
+ */
+@Entity
+@Table(name = "gm_bulletin")
+public class BulletinEntity extends Persistance implements ToDtoable<RpcDto.BulletinDTO>
+{
+    @Column(name = "sort_flag")
+    private Integer sortFlag = Integer.valueOf(0);
+    @Column(name = "link_id")
+    private Integer linkId   = Integer.valueOf(0);
+    @Column(name = "title")

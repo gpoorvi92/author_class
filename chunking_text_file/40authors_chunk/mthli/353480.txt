@@ -1,0 +1,10 @@
+         dx = -dx;
+      }
+      if (x + XSIZE >= bounds.getMaxX())
+      {
+         x = bounds.getMaxX() - XSIZE; 
+         dx = -dx; 
+      }
+      if (y < bounds.getMinY())
+      {
+         y = bounds.getMinY(); 

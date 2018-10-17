@@ -1,0 +1,10 @@
+		} catch (InstantiationException e) {
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			e.printStackTrace();
+		} catch (UnsupportedLookAndFeelException e) {
+			e.printStackTrace();
+		}
+		setTitle("\u670D\u52A1\u5668");
+		setIconImage(Toolkit.getDefaultToolkit().getImage("Images/socket.jpg"));
+		setSize(449, 301);

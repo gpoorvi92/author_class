@@ -1,0 +1,10 @@
+ Solution: Traverse from the boarder to the inside and mark all the 'O's that are not surrounded by 'X' as 'V' (visited).
+           1. BFS (queue).
+ */
+public class Solution {
+    public void solve(char[][] board) {
+        if (board.length == 0 || board[0].length == 0) return;
+        int M = board.length, N = board[0].length;
+        for (int i = 0; i < M; ++i) {
+            for (int j = 0; j < N; ++j) {
+                if (i == 0 || j == 0 || i == M - 1 || j == N -1) {

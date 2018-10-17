@@ -1,0 +1,10 @@
+	 * @return The port used for binding the SSDP service. 
+	 * 		The port will be used as source port for all SSDP messages 
+	 */
+	public int getSSDPPort(){
+		return this.ssdpPort;
+	}
+	
+	
+	/**
+	 * 

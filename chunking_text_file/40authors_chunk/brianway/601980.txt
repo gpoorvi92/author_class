@@ -1,0 +1,8 @@
+A run timer=Fri Apr 15 23:49:33 CST 2016
+B run timer=Fri Apr 15 23:49:33 CST 2016
+B run timer=Fri Apr 15 23:49:35 CST 2016
+A run timer=Fri Apr 15 23:49:35 CST 2016
+A run timer=Fri Apr 15 23:49:37 CST 2016
+B run timer=Fri Apr 15 23:49:37 CST 2016
+
+ */

@@ -1,0 +1,10 @@
+
+    public static Model load(File f, loadProgressListener progressListener) throws IOException
+    {
+        try
+        {
+            progressListener.loadStatusUpdate(0,"Loading "+f.getName());
+            Model m= load(new Model(), f,progressListener);
+            progressListener.loadComplete();
+            return m;
+        }

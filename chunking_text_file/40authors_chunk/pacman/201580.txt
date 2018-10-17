@@ -1,0 +1,10 @@
+	
+	public void fireMessageEvent(Message message) throws MQException {
+		
+		int type 	= 0;
+		String txt 	= null;
+		byte[] buf	= null;
+		Map<String, Object> map = null;
+		String className = null;
+		
+		try {

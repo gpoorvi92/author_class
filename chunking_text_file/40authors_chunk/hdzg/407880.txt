@@ -1,0 +1,10 @@
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是取消键
+				status = calculateWinOrLose(enemy,self);
+				if(status == 2){//被攻下了
+					gameView.hero.getCityList().remove(self);
+				}
+			}			
+		}
+		return true;
+	}
+	//计算输赢

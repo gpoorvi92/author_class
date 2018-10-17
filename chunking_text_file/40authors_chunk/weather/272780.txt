@@ -1,0 +1,10 @@
+            wait(0);
+        } else if (timeoutMs > 0) {
+            wait(timeoutMs);
+        }
+
+        if (mException != null) {
+            throw new ExecutionException(mException);
+        }
+
+        if (!mResultReceived) {

@@ -1,0 +1,10 @@
+
+	private Node allowedValueRangeNode;
+
+	public Node getAllowedValueRangeNode()
+	{
+		return allowedValueRangeNode;
+	}
+	
+	////////////////////////////////////////////////
+	//	Constructor

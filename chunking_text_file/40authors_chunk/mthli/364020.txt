@@ -1,0 +1,10 @@
+    */
+   public Object getMessage()
+   {
+      String s = messagePanel.getSelection();
+      if (s.equals("String")) return messageString;
+      else if (s.equals("Icon")) return messageIcon;
+      else if (s.equals("Component")) return messageComponent;
+      else if (s.equals("Object[]")) return new Object[] { messageString, messageIcon,
+            messageComponent, messageObject };
+      else if (s.equals("Other")) return messageObject;

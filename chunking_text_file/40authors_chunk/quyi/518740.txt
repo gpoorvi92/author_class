@@ -1,0 +1,10 @@
+
+    private static class modifyEngineConfig_argsTupleSchemeFactory implements SchemeFactory {
+      public modifyEngineConfig_argsTupleScheme getScheme() {
+        return new modifyEngineConfig_argsTupleScheme();
+      }
+    }
+
+    private static class modifyEngineConfig_argsTupleScheme extends TupleScheme<modifyEngineConfig_args> {
+
+      @Override

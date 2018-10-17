@@ -1,0 +1,10 @@
+	public final Pipe<?, ?> sourcePipe;
+	
+	/**
+	 * 抛出异常的Pipe实例在抛出异常时所处理的输入元素。
+	 */
+	public final Object input;
+
+	public PipeException(Pipe<?, ?> sourcePipe, Object input, String message) {
+		super(message);
+		this.sourcePipe = sourcePipe;

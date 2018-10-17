@@ -1,0 +1,10 @@
+	public TaskModel(
+		Integer tid, 
+		Integer cid, 
+		Integer lid,
+		String guid,
+		String  file,
+		Timestamp begin, 
+		Timestamp end, 
+		Integer type, 
+		Integer status, 

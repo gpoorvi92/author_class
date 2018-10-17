@@ -1,0 +1,10 @@
+      return link_2[index];
+    }
+
+    public void addLink(int node1, int node2) {
+	link_1[numLinks] = node1;
+	link_2[numLinks] = node2;
+	int dist_squared =
+	    (node_x[node1] - node_x[node2]) * (node_x[node1] - node_x[node2]) +
+	    (node_y[node1] - node_y[node2]) * (node_y[node1] - node_y[node2]);
+	lengths[numLinks] = (int)Math.sqrt(dist_squared);

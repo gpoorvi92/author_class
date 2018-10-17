@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean insert(Bxg b) {
+		try {
+			sessionFactory.getCurrentSession().save(b);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

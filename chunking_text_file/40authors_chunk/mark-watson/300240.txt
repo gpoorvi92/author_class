@@ -1,0 +1,10 @@
+	public Genetic(int num_genes_per_chromosome, int num_chromosomes,
+			float crossover_fraction, float mutation_fraction) {
+		numGenesPerChromosome = num_genes_per_chromosome;
+		numChromosomes = num_chromosomes;
+		crossoverFraction = crossover_fraction;
+		mutationFraction = mutation_fraction;
+		chromosomes = new ArrayList<Chromosome>(num_chromosomes);
+		for (int i = 0; i < num_chromosomes; i++) {
+			chromosomes.add(new Chromosome(numGenesPerChromosome));
+			for (int j = 0; j < num_genes_per_chromosome; j++) {

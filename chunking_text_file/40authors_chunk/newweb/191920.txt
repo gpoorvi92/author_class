@@ -1,0 +1,8 @@
+		try {
+			sessionFactory.getCurrentSession().update(user);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+}

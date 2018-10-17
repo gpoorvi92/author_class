@@ -1,0 +1,10 @@
+		return bytesWritten;
+	}
+
+	private void setBytesWritten(int bytesWritten) {
+		this.bytesWritten = bytesWritten;
+	}
+
+	public String getKbPerSecond() {
+		return kbPerSecond;
+	}

@@ -1,0 +1,10 @@
+	 * 
+	 * @param clientId
+	 * @param fileId
+	 * @return
+	 * @throws FileNotFoundException
+	 */
+	public FileProgressStatus getProgress(UUID clientId, UUID fileId) throws FileNotFoundException {
+		// get the file
+		StaticStatePersistedOnFileSystemEntity model = javaLargeFileUploaderService.getEntityIfPresent(clientId);
+		//if cannot find the model, return null

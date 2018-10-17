@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping("/manage/merchant")
+public class AMerchantController extends BaseController {
+    @Autowired
+    private IMerchantService merchantService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(@ModelAttribute("vo") BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/merchant/list");

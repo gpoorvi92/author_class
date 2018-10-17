@@ -1,0 +1,10 @@
+package com.jufan.platform.view;
+
+import com.jufan.platform.ui.R;
+
+import android.content.Context;
+import android.media.MediaPlayer;
+import android.os.Handler;
+import android.util.AttributeSet;
+import android.view.Gravity;
+import android.view.LayoutInflater;

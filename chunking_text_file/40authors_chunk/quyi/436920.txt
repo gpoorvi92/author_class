@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.apkMD5 != null) {
+        oprot.writeFieldBegin(APK_MD5_FIELD_DESC);
+        oprot.writeString(struct.apkMD5);
+        oprot.writeFieldEnd();
+      }
+      if (struct.sensitive != null) {
+        oprot.writeFieldBegin(SENSITIVE_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, struct.sensitive.size()));

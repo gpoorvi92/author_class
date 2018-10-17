@@ -1,0 +1,10 @@
+        toolBarVideo.add(updateButton);      
+       
+        deleteButton.setToolTipText("Delete");
+        deleteButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            JOptionPane.showMessageDialog(null, "once");	
+            String a = Video_no_text.getText();
+            	String b =  Video_title_text.getText();
+            	String j = authorsArea.getText();
+            	String k = subjectArea.getText();

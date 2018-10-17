@@ -1,0 +1,10 @@
+        setPak((String)value);
+      }
+      break;
+
+    case OBJ:
+      if (value == null) {
+        unsetObj();
+      } else {
+        setObj((String)value);
+      }

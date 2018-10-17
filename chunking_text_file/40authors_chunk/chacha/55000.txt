@@ -1,0 +1,10 @@
+	}
+
+	public static int getServerPort() {
+		return serverPort;
+	}
+
+	public static void setServerPort(int serverPort) {
+		Config.serverPort = serverPort;
+	}
+

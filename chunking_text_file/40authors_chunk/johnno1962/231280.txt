@@ -1,0 +1,10 @@
+
+package org.genie;
+
+public class SwiftTest {
+
+    public SwiftTest() {
+    }
+
+    public static boolean booleanFieldStatic;
+    public boolean booleanField;

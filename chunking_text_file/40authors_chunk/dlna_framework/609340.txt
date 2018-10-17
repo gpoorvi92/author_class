@@ -1,0 +1,10 @@
+		setStringHeader(HTTP.CALLBACK, value, CALLBACK_START_WITH, CALLBACK_END_WITH);
+	}
+	
+	public String getCallback()
+	{
+		return getStringHeaderValue(HTTP.CALLBACK, CALLBACK_START_WITH, CALLBACK_END_WITH);
+	}
+	
+	public boolean hasCallback()
+	{

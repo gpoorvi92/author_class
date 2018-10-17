@@ -1,0 +1,10 @@
+        }
+        return res;
+    }
+    public int maxSubArray_2(int[] A) {
+        if (A.length == 0) return 0;
+        int dp = A[0], res = A[0];
+        for (int i = 1; i < A.length; ++i) {
+            dp = Math.max(A[i], dp + A[i]);
+            res = Math.max(res, dp);
+        }

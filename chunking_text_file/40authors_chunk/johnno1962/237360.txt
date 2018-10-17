@@ -1,0 +1,6 @@
+
+    public void windowExitedFullScreen( com.apple.eawt.AppEvent.FullScreenEvent arg0 ) {
+        __windowExitedFullScreen( arg0 );
+    }
+
+}

@@ -1,0 +1,10 @@
+		panel1.add(label3);panel1.add(text3);
+		
+		panel2=new JPanel();
+		panel2.add(button1);
+		panel2.add(button2);
+		
+		panel3=new JPanel();
+		panel3.add(panel1);panel3.add(panel2);
+		setSize(350,150);
+		setResizable(false);

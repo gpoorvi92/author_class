@@ -1,0 +1,10 @@
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case PID_NAME:
+      return getPidName();
+
+    case FILE_DESCRIPTION:

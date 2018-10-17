@@ -1,0 +1,10 @@
+	
+	public boolean onTouchEvent(MotionEvent event) {
+		if(event.getAction() == MotionEvent.ACTION_DOWN){//屏幕被按下
+			int x = (int) event.getX();
+			int y = (int) event.getY();
+			if(x>240 && x<300 && y>350 && y<380){//点击确定
+				this.activity.myHandler.sendEmptyMessage(type);
+			}
+		}
+		return super.onTouchEvent(event);

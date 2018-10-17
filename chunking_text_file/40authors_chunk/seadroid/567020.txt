@@ -1,0 +1,10 @@
+    private static final String DEBUG_TAG = "Account";
+
+    // The full URL of the server, like 'http://gonggeng.org/seahub/' or 'http://gonggeng.org/'
+    public String server;
+
+    public String email;
+    public String token;
+    public String passwd;
+
+    public Account() {

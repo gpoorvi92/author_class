@@ -1,0 +1,10 @@
+			//throw new ParserException(e);
+		}
+
+		HTTPRequest httpReq = new HTTPRequest();
+		httpReq.setMethod(HTTP.GET);
+		httpReq.setURI(uri);
+		HTTPResponse httpRes = httpReq.post(host, port);
+		if (httpRes.isSuccessful() == false)
+			throw new ParserException("HTTP comunication failed: no answer from peer." +
+					"Unable to retrive resoure -> "+locationURL.toString());

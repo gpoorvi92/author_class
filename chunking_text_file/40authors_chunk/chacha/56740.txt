@@ -1,0 +1,10 @@
+		DBCollection coll=connection.getCollection(COLLECTION_NAME);
+		QueryBuilder queryBuilder = QueryBuilder.start();
+		DBObject query=queryBuilder.put("_id").greaterThan(lastId).get();
+		DBObject orderBy=new BasicDBObject("_id",1);//∏˘æ›_id…˝–Ú≈≈¡–
+		DBCursor cursor=coll.find(query).sort(orderBy).limit(pageNum);
+		LinkedList<LoginToken> result=new LinkedList<LoginToken>();
+		while(cursor.hasNext()){
+			DBObject obj=cursor.next();
+			LoginToken token=new LoginToken();
+			token.fromDbObject(obj);

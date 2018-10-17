@@ -1,0 +1,10 @@
+    @Override public HttpParams copy() {
+      throw new UnsupportedOperationException();
+    }
+
+    @Override public boolean removeParameter(String name) {
+      throw new UnsupportedOperationException();
+    }
+  };
+
+  private final OkHttpClient client;

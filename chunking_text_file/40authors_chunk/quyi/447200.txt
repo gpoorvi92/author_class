@@ -1,0 +1,10 @@
+  }
+
+  public Software setOsDesc(String osDesc) {
+    this.osDesc = osDesc;
+    return this;
+  }
+
+  public void unsetOsDesc() {
+    this.osDesc = null;
+  }

@@ -1,0 +1,10 @@
+	public static void loadingGameStatus(GameView gameView){	
+		InputStream in = null;
+		ObjectInputStream oin = null;
+		try{
+			in = gameView.getContext().openFileInput("game.ytl");
+			oin = new ObjectInputStream(in);
+		
+			gameView.hero.ht.flag=false;
+			gameView.hero.ht.isGameOn=false;
+			gameView.hero.ht.interrupt();

@@ -1,0 +1,10 @@
+                    JOptionPane.showMessageDialog(mv,
+                        "Unable to load the selected file. "
+                        + " The format may not be supported.");
+            }
+            catch (IOException ioe)
+            {
+                ioe.printStackTrace();
+                JOptionPane.showMessageDialog(mv,
+                    "Unable to load the selected file.");
+            }

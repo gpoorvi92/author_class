@@ -1,0 +1,10 @@
+        item.mFromTag = from;
+        item.mTypeTag = MediaResourceItem.TYPE_TAG__FLV;
+        item.mMrl = indexMrl;
+        item.mIsIndexMrl = true;
+        item.mNeedMembuf = true;
+
+        mResourceList.add(item);
+    }
+
+    final public void addUrl_any(String from, String url) {

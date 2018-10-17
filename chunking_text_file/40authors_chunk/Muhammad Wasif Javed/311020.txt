@@ -1,0 +1,10 @@
+				rec++;
+			}
+
+			total = rec;
+
+			if (total == 0) {
+				JOptionPane.showMessageDialog (null, "Table is Empty");
+				return;
+			}
+			else {

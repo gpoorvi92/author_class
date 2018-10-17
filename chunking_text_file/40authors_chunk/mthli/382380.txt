@@ -1,0 +1,10 @@
+                double interest = oldBalance * interestRate[j];
+                balances[i][j] = oldBalance + interest;
+            }
+        }
+
+        for (int j = 0; j < interestRate.length; j++) {
+            System.out.printf("%9.0f%%", 100 * interestRate[j]);
+        }
+
+        System.out.println();

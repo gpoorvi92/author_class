@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.*;
+
+public class video_master_info extends JPanel implements video_Interface, video_master_info_Interface, video_tab_Interface{
+     public Connection connection;
+     public int confirm;
+    
+    public video_master_info() {    	

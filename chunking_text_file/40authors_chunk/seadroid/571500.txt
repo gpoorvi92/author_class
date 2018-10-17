@@ -1,0 +1,10 @@
+
+    protected String whereClause() {
+        int count = ImageManager.getAllBucketIds().size();
+        List<String> chars = Lists.newArrayList();
+        for (int i = 0; i < count; i++) {
+            chars.add("?");
+        }
+
+        String clause = Media.BUCKET_ID + " in " + "(" + Joiner.on(", ").join(chars) + ")";
+

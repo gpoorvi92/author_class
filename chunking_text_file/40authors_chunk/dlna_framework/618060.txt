@@ -1,0 +1,10 @@
+		setRootNode(node);
+	}
+	
+	public Node getEnvelopeNode()
+	{
+		return getRootNode();
+	}
+		
+	public Node getBodyNode()
+	{

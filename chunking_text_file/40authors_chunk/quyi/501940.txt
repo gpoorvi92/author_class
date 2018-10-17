@@ -1,0 +1,10 @@
+      case 61:
+        return INJECT_EVENTS;
+      case 62:
+        return INSTALL_LOCATION_PROVIDER;
+      case 63:
+        return INSTALL_PACKAGES;
+      case 64:
+        return INSTALL_SHORTCUT;
+      case 65:
+        return INTERNAL_SYSTEM_WINDOW;

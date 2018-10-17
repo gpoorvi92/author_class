@@ -1,0 +1,10 @@
+           // add filters for all the formats supporting faces
+            LinkedList<ModelFileSaverFileFilter> modelFileFilters = 
+                ModelSaver.getCompleteModelFileSaverFileFilters();
+
+            boolean firstSet=false;
+            for (ModelFileSaverFileFilter m: modelFileFilters)
+            {
+                if (firstSet)
+                {
+                   chooser.addChoosableFileFilter(m);                

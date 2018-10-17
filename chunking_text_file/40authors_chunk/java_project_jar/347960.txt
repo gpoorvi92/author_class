@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        fbIndex = markFbIndex;
+        if(markedAtStart)
+            firstBytes = null;
+        in.reset();
+    }
+
+    public long skip(long n)
+        throws IOException

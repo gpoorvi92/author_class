@@ -1,0 +1,10 @@
+
+	public static String getDbServerIP() {
+		return dbServerIP;
+	}
+
+	public static void setDbServerIP(String dbServerIP) {
+		Config.dbServerIP = dbServerIP;
+	}
+
+	public static int getDbServerPort() {

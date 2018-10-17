@@ -1,0 +1,10 @@
+		if(activity.isStartSound){
+			canvas.drawBitmap(close, 200, 193, paint);
+		}
+		else{
+			canvas.drawBitmap(open, 200, 193, paint);
+		}
+		if(activity.isBattleSound){
+			canvas.drawBitmap(close, 200,252, paint);
+		}
+		else{

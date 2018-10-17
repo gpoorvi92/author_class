@@ -1,0 +1,10 @@
+            answer = this.literalPosition - Integer.bitCount(t - 1);
+            this.word ^= t;
+        } else {
+            answer = this.position--;
+        }
+        this.hasNext = this.moveToPreviousRLW();
+        return answer;
+    }
+
+    private boolean moveToPreviousRLW() {

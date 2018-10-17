@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean hasNext() {
+        return this.hasNext;
+    }
+
+    @Override
+    public boolean nextBit() {
+        return this.nextBit;
+    }

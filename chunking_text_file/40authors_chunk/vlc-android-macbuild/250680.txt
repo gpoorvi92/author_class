@@ -1,0 +1,10 @@
+     */
+    public void finalize() {
+        if (mLibVlcInstance != 0) {
+            DebugLog.d(TAG, "LibVLC is was destroyed yet before finalize()");
+            destroy();
+        }
+    }
+
+    /**
+     * Give to LibVLC the surface to draw the video.

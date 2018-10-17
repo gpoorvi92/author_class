@@ -1,0 +1,10 @@
+    if (isSetVss()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.vss, other.vss);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;
+  }
+
+  public _Fields fieldForId(int fieldId) {

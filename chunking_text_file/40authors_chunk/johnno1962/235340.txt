@@ -1,0 +1,10 @@
+
+    public void dropActionChanged( java.awt.dnd.DragSourceDragEvent dsde ) {
+        __dropActionChanged( dsde );
+    }
+
+    /// public abstract void java.awt.dnd.DragSourceListener.dragExit(java.awt.dnd.DragSourceEvent)
+
+    public native void __dragExit( java.awt.dnd.DragSourceEvent dse );
+
+    public void dragExit( java.awt.dnd.DragSourceEvent dse ) {

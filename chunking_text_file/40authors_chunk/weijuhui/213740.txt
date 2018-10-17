@@ -1,0 +1,10 @@
+     */
+    public Labeler(int viewWidthDP, int viewHeightDP) {
+        this.viewWidthDP = viewWidthDP;
+        this.viewHeightDP = viewHeightDP;
+    }
+
+    /**
+     * Converts from a time to a TimeObject according to the rules of this labeler.
+     *
+     * @param time The time to display

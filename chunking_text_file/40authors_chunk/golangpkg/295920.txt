@@ -1,0 +1,10 @@
+			}
+		}
+		// if we have an exception
+		catch (Exception e) {
+			log.error(file + " deletion exception: " + e.getMessage());
+			// the file has not been deleted
+			return false;
+		}
+
+	}

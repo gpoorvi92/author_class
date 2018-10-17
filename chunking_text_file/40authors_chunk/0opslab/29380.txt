@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testName() throws Exception {
+
+        System.out.println(RandomUtil.integer(30,10));
+        System.out.println(RandomUtil.integer(0,10));
+        System.out.println(RandomUtil.number(10));
+        System.out.println(RandomUtil.number(10));
+        System.out.println(RandomUtil.String(10));

@@ -1,0 +1,10 @@
+                  struct.userApps.add(_elem92);
+                }
+                iprot.readListEnd();
+              }
+              struct.setUserAppsIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // RULES

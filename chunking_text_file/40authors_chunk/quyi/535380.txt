@@ -1,0 +1,10 @@
+   * @see DeviceType
+   */
+  public DeviceType deviceType; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    PROCESS_NAME((short)1, "processName"),
+    THREAD_NAME((short)2, "threadName"),
+    CHECK_TIME((short)3, "checkTime"),
+    /**

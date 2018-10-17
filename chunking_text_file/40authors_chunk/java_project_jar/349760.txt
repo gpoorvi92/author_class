@@ -1,0 +1,10 @@
+        decoder.onMalformedInput(CodingErrorAction.REPLACE);
+        decoder.onUnmappableCharacter(CodingErrorAction.REPLACE);
+        decoder.replaceWith("?");
+        this.writeImmediately = writeImmediately;
+        decoderOut = CharBuffer.allocate(bufferSize);
+    }
+
+    public WriterOutputStream(Writer writer, Charset charset)
+    {
+        this(writer, charset, 1024, false);

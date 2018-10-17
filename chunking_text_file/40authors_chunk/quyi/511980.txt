@@ -1,0 +1,10 @@
+        this.propertyName = propertyName;
+        this.propertyValue = propertyValue;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("modifyEngineConfig", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        modifyEngineConfig_args args = new modifyEngineConfig_args();
+        args.setPropertyName(propertyName);
+        args.setPropertyValue(propertyValue);
+        args.write(prot);

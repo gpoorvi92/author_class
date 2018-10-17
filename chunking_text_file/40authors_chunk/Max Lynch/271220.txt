@@ -1,0 +1,10 @@
+	float getStrokeWidth()
+	{
+		return size;
+	}
+	
+	void setStrokeWidth(float size)
+	{
+		this.size = size;
+	}
+	

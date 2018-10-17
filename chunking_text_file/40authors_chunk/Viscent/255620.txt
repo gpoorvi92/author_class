@@ -1,0 +1,6 @@
+		PrintWriter pwr = resp.getWriter();
+		pwr.write(TL_COUNTER.get().getAndIncrement());
+		pwr.close();
+
+	}
+}

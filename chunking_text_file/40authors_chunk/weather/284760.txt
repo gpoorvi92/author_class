@@ -1,0 +1,10 @@
+//        RequestQueue queue = new RequestQueue(new DiskBasedCache(cacheDir), network);
+//        queue.start();
+//
+//        return queue;
+        File cacheDir = new File(context.getCacheDir(), DEFAULT_CACHE_DIR);
+
+        String userAgent = "volley/0";
+        try {
+            String packageName = context.getPackageName();
+            PackageInfo info = context.getPackageManager().getPackageInfo(packageName, 0);

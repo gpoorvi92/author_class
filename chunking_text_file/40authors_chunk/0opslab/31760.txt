@@ -1,0 +1,10 @@
+        assertEquals(value + "4", bean.getOperationName());
+
+        BeanUtil.setPropertyFilterPeaceful(bean, "operation_Name", value + "6", new PropertyFilter() {
+            @Override
+            public String Properties(String pro) {
+                return StringUtil.remove(pro, "_").toLowerCase();
+            }
+        });
+        assertEquals(value + "6", bean.getOperationName());
+    }

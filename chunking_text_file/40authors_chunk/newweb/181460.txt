@@ -1,0 +1,10 @@
+		return count;
+	}
+	public void setCount(double count) {
+		this.count = count;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		OrderBxg o = (OrderBxg) obj;
+		if(bxg.getID() == o.getBxg().getID())

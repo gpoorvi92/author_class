@@ -1,0 +1,10 @@
+					upgradeGeneralAgility();//随机挑选一个将军升级智力
+					break;
+				case 1://无钱进学堂时玩家点确认放弃
+				case 2://已经进了学堂
+				case 3://学习失败
+					recoverGame();
+					break;
+				}				
+			}
+			else if(x>DIALOG_BTN_START_X+DIALOG_BTN_SPAN && x<DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WIDTH

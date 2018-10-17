@@ -1,0 +1,10 @@
+    @Column(name = "every_interval")
+    private int    everyInterval;
+    @Column(name = "type")
+    private int    type;
+    @Override
+    public RpcDto.SysNoticeDTO toDTO()
+    {
+        RpcDto.SysNoticeDTO.Builder ret = RpcDto.SysNoticeDTO.newBuilder();
+        ret.setId(id);
+        ret.setContent(content);

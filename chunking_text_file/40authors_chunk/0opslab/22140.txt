@@ -1,0 +1,10 @@
+        int temp = Math.max(newStrA.length(), newStrB.length());
+        int temp2 = longestCommonSubstring(newStrA, newStrB).length();
+        return temp2 * 1.0 / temp;
+    }
+
+    //第二种实现方式
+    private static int compare(String str, String target) {
+        int d[][]; // 矩阵
+        int n = str.length();
+        int m = target.length();

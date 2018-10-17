@@ -1,0 +1,10 @@
+			logger.error("公众号全局唯一票据时未传入公众号ID！");
+			return null;
+		}
+		WeChatAccessToken token = this.weChatAccessTokenDao.loadAccessToken(accountId);
+		if(token == null || !token.isEffective())
+			return this.refreshAccessToken(accountId);
+		return token.getAccessToken();
+	}
+	
+	@Override

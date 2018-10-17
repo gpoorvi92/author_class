@@ -1,0 +1,10 @@
+    @Override
+    public IntArray clone() {
+        IntArray clone = null;
+        try {
+            clone = (IntArray) super.clone();
+            clone.buffer = this.buffer.clone();
+            clone.actualSizeInWords = this.actualSizeInWords;
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace(); // cannot happen
+        }

@@ -1,0 +1,10 @@
+		   .add("-ar", "44100");*/
+		
+		if ("aac".equalsIgnoreCase(acodec) || "mpeg audio".equalsIgnoreCase(acodec)) {
+			if (sampling == 44100 || sampling == 22050 || sampling == 11025) {
+				cmd.add("-acopy");
+			} else {
+				cmd.add("-m44");
+			}
+		} else {
+			cmd.add("-aac");

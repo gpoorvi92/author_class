@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface ScannerService111 extends ScannerService110
+{
+  // Nothing new added for release 1.11

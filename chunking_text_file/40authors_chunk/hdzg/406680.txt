@@ -1,0 +1,10 @@
+package wyf.ytl.entity;							//声明包语句
+import static wyf.ytl.tool.ConstantUtil.TILE_SIZE;
+
+import java.io.Externalizable;						//引入相关类
+import java.io.IOException;							//引入相关类
+import java.io.ObjectInput;							//引入相关类
+import java.io.ObjectOutput;						//引入相关类
+import android.graphics.Bitmap;						//引入相关类
+import android.graphics.Canvas;						//引入相关类
+/*

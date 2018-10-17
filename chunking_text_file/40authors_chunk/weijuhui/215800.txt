@@ -1,0 +1,10 @@
+									  DialogInterface.OnClickListener posOnClickListener,
+									  DialogInterface.OnClickListener negaOnClickListener) {
+		
+		newDialog(context, message, titleStr, positiveStr, 
+					negaStr,posOnClickListener,negaOnClickListener);
+		
+	}
+	
+	public static void newDialog(Context context, String message,
+								String titleStr, String positiveStr,String negaStr,

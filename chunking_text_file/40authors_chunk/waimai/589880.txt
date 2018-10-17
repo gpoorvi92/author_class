@@ -1,0 +1,10 @@
+
+    private Date updateDate;
+
+    private String email;
+
+    private String identityCard;
+
+    private String realName;
+
+    private String image;

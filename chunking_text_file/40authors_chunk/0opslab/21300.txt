@@ -1,0 +1,10 @@
+     * ASCII characters
+     */
+    public static final String  REG_ASCII               = "\\p{ASCII}";
+    /**
+     * Space and tab
+     */
+    public static final String  REG_BLANK               = "\\p{Blank}";
+    /**
+     * Control characters
+     */

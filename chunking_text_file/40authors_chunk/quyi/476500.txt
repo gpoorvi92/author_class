@@ -1,0 +1,10 @@
+    }
+
+    private static class submitMission_argsStandardScheme extends StandardScheme<submitMission_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, submitMission_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();

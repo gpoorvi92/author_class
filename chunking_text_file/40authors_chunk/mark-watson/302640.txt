@@ -1,0 +1,10 @@
+                    //System.out.println("val = " + val);
+                    temp.add(val);
+                }
+                handler.processResult(temp);
+            }
+        } finally {
+            result.close();
+        }
+        return sb.toString();
+    }

@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 定义检测结果状态
+ * 1:received 已接收
+ * 2:nonexec 未执行检测
+ * 3:executing 执行检测中
+ * 4:executed 执行检测完成
+ * 5:Timeout 检测超时

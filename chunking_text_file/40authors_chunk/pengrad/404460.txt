@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * Stas Parshin
+ * 07 May 2016
+ */
+public class CallbackQuery {
+
+    private String id;
+    private User from;

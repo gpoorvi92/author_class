@@ -1,0 +1,10 @@
+    }
+
+    public String missionId; // required
+    public List<com.nercis.isscp.idl.UserApp> userApps; // required
+    public List<String> rules; // required
+    public List<com.nercis.isscp.idl.PlotsType> plots; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      MISSION_ID((short)1, "missionId"),

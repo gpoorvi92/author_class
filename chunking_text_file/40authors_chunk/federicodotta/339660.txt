@@ -1,0 +1,10 @@
+     * item.
+     */
+    int getNumRequests();
+
+    /**
+     * This method returns the number of network errors that have occurred for
+     * the scan queue item.
+     *
+     * @return The number of network errors that have occurred for the scan
+     * queue item.

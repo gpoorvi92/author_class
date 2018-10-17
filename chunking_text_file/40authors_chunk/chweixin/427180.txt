@@ -1,0 +1,10 @@
+import org.apache.log4j.Logger;
+import org.apache.struts2.ServletActionContext;
+import org.springframework.beans.BeanUtils;
+
+import ipower.utils.IOUtil;
+import ipower.utils.MD5Util;
+import ipower.wechat.dao.IPictureDao;
+import ipower.wechat.domain.Picture;
+import ipower.wechat.modal.PictureInfo;
+import ipower.wechat.service.IPictureService;

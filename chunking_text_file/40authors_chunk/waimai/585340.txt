@@ -1,0 +1,10 @@
+    @Override
+    public List<Merchant> findPageBreakByCondition(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<Merchant> merchantList = merchantMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(merchantMapper.getTotalCount(vo));
+        return merchantList;
+    }
+
+    @Override
+    public Integer getCollectionCountById(Integer id) {

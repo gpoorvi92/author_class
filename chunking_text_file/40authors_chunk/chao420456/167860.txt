@@ -1,0 +1,10 @@
+	public void setC_chatFrame(Client_chatFrame c_chatFrame) {
+		this.c_chatFrame = c_chatFrame;
+	}
+	public Client_enterFrame getC_enterFrame() {
+		return c_enterFrame;
+	}
+	public void setC_enterFrame(Client_enterFrame c_enterFrame) {
+		this.c_enterFrame = c_enterFrame;
+	}
+	

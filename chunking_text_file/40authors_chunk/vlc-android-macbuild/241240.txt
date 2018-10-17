@@ -1,0 +1,10 @@
+    /*--------------------------------------
+     * View OnClickListener
+     */
+    public static void setOnClickListener(View container, int id,
+            OnClickListener listener) {
+        if (container == null)
+            return;
+
+        container.findViewById(id).setOnClickListener(listener);
+    }

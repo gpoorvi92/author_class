@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 27, 2014
+ Problem:    Gray Code
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/gray-code/
+ Notes:
+ The gray code is a binary numeral system where two successive values differ in only one bit.
+ Given a non-negative integer n representing the total number of bits in the code, print the 
+ sequence of gray code. A gray code sequence must begin with 0.

@@ -1,0 +1,10 @@
+
+            if ((numIntrod % 2) != 0){
+                numImpar++;
+                sumaImpares += numIntrod;
+            } else {
+                if (numIntrod > mayorPar){
+                    mayorPar = numIntrod;
+                }
+              }
+        } else {

@@ -1,0 +1,10 @@
+      case 111:
+        return SET_ORIENTATION;
+      case 112:
+        return SET_POINTER_SPEED;
+      case 113:
+        return SET_PREFERRED_APPLICATIONS;
+      case 114:
+        return SET_PROCESS_LIMIT;
+      case 115:
+        return SET_TIME;

@@ -1,0 +1,10 @@
+public class ServletProxy extends GenericServlet {
+	private static final long serialVersionUID = 1L;
+	private static Logger logger = Logger.getLogger(ServletProxy.class);
+	private Servlet proxy;
+	
+	@Override
+	public void init() throws ServletException{
+		String err = null;
+		logger.info("初始化Servlet代理类...");
+		String targetServletBean = this.getInitParameter("targetServletBean");

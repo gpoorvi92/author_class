@@ -1,0 +1,10 @@
+          return RISK_LEVEL;
+        case 5: // PAK
+          return PAK;
+        case 6: // OBJ
+          return OBJ;
+        case 7: // FUNC
+          return FUNC;
+        case 8: // RULE_DESCRIPTION
+          return RULE_DESCRIPTION;
+        default:

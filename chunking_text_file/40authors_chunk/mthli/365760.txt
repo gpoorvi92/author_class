@@ -1,0 +1,10 @@
+   private static double INITIAL_BALANCE = 100000.0;
+   
+   private int years;
+   private int minRate;
+   private int maxRate;
+
+   /**
+    * Constructs an investment table model.
+    * @param y the number of years
+    * @param r1 the lowest interest rate to tabulate

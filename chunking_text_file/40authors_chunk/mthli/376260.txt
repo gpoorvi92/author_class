@@ -1,0 +1,10 @@
+                     String line = in.nextLine();
+                     textArea.append(line);
+                     textArea.append("\n");
+                  }
+               }
+               return null;
+            }
+         };
+      worker.execute();
+   }

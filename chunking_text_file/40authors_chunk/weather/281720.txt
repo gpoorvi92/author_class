@@ -1,0 +1,10 @@
+        return new byte[len];
+    }
+
+    /**
+     * Returns a buffer to the pool, throwing away old buffers if the pool would exceed its allotted
+     * size.
+     *
+     * @param buf the buffer to return to the pool.
+     */
+    public synchronized void returnBuf(byte[] buf) {

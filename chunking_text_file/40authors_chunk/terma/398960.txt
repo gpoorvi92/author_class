@@ -1,0 +1,10 @@
+                selector.select(SELECTOR_TIMEOUT);
+
+                final Set<SelectionKey> keys = selector.selectedKeys();
+                for (final SelectionKey key : keys) {
+                    final TcpServerHandler handler = (TcpServerHandler) key.attachment();
+                    handler.process(key);
+                }
+                keys.clear();
+            }
+        } catch (final IOException exception) {

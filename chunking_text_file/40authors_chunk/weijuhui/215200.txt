@@ -1,0 +1,10 @@
+        }
+    }
+
+    private void makeRequest() throws IOException {
+        if(!Thread.currentThread().isInterrupted()) {
+        	try {
+        		HttpResponse response = client.execute(request, context);
+        		if(!Thread.currentThread().isInterrupted()) {
+        			if(responseHandler != null) {
+        				responseHandler.sendResponseMessage(response);

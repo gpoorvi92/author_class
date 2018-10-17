@@ -1,0 +1,10 @@
+	// Ctor(s)
+	//
+
+	/**
+	 * 2-arg ctor taking Object value
+	 * @param obj the Object value
+	 * @param propType the PropType
+	 */
+	DefaultPropValue( Object obj, PropType propType ) 
+	{ 

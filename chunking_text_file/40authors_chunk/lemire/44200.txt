@@ -1,0 +1,10 @@
+    private int wordLength;
+    private int literalPosition;
+    private boolean hasNext;
+
+    /**
+     * @param p iterator we wish to iterate over
+     */
+    public IntIteratorOverIteratingRLW32(final IteratingRLW32 p) {
+        this.parent = p;
+        this.position = 0;

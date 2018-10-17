@@ -1,0 +1,10 @@
+				if(emptyCity != null){//删掉因粮草危机而造成的空城
+					hero.cityList.remove(emptyCity);
+					hero.father.allCityDrawable.add(emptyCity);
+					emptyCity = null;
+				}				
+				foodCount = 0;
+			}
+			//科研制造
+			if(hero.researchList.size() != 0){
+				for(Research research:hero.researchList){

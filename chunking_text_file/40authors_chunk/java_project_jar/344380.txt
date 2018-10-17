@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io.filefilter:
+//            AbstractFileFilter, IOFileFilter, ConditionalFileFilter
+
+public class OrFileFilter extends AbstractFileFilter
+    implements ConditionalFileFilter, Serializable
+{
+
+    public OrFileFilter()
+    {

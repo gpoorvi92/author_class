@@ -1,0 +1,10 @@
+		// // 封装目的地
+		// BufferedWriter bw = new BufferedWriter(new FileWriter("Copy.java"));
+		// // 读写数据
+		// String line = null;
+		// while ((line = br.readLine()) != null) {
+		// bw.write(line);
+		// bw.newLine();
+		// bw.flush();
+		// }
+		// // 释放资源

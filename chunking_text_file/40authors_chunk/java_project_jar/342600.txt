@@ -1,0 +1,10 @@
+        finally
+        {
+            IOUtils.closeQuietly(randomAccessFile);
+            throw exception;
+        }
+        IOUtils.closeQuietly(randomAccessFile);
+        return flag1;
+        return false;
+    }
+

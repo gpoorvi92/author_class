@@ -1,0 +1,8 @@
+		super();
+	}
+
+	public static ConnectionImpl getConnection() {
+		return connection;
+	}
+	
+}

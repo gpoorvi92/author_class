@@ -1,0 +1,10 @@
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetOperate()).compareTo(other.isSetOperate());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetOperate()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.operate, other.operate);

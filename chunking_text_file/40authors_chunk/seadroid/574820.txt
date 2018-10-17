@@ -1,0 +1,10 @@
+        super.onStop();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        refreshView();
+    }
+
+    @Override

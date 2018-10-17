@@ -1,0 +1,10 @@
+
+	@Override
+	public void onComplete(AsyncEvent asyncEvent)
+			throws IOException {
+		log.debug("Done: ({})", id);
+		clean();
+	}
+
+
+	@Override

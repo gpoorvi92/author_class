@@ -1,0 +1,10 @@
+   }
+
+   /**
+      Constructs a GBC with given gridx, gridy, gridwidth, gridheight
+      and all other grid bag constraint values set to the default.
+      @param gridx the gridx position
+      @param gridy the gridy position
+      @param gridwidth the cell span in x-direction
+      @param gridheight the cell span in y-direction
+   */

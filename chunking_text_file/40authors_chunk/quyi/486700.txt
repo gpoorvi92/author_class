@@ -1,0 +1,10 @@
+      if (this.plotsStatus == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.plotsStatus);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("usedPermissions:");
+      if (this.usedPermissions == null) {
+        sb.append("null");

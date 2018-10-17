@@ -1,0 +1,6 @@
+      text.setLineWrap(true);
+      text.setWrapStyleWord(true);
+      contentPane.add(text, BorderLayout.CENTER);
+      pack();
+   }
+}

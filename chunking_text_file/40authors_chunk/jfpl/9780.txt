@@ -1,0 +1,10 @@
+		startActivityForResult(intent, 0);
+	}
+
+	public void imageBtnClick(View v) {
+		Intent intent = new Intent(this, ImagePickerActivity.class);
+		startActivityForResult(intent, 0);
+	}
+
+	private void setAddPanelState(boolean flag) {
+		// InputMethodManager imm = (InputMethodManager)

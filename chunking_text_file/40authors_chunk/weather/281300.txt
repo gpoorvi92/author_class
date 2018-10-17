@@ -1,0 +1,10 @@
+        super.finish();
+        TransactionUtil.doAnimationWith(this, transaction);
+    }
+
+    public void onBackPressed() {
+        finish();
+    }
+
+//    @Override
+//    public Resources.Theme getTheme() {

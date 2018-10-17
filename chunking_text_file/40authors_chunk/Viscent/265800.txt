@@ -1,0 +1,10 @@
+
+	public static void main(String[] args) throws Exception {
+		Connection dbConn = getConnection();
+		
+		if (args.length > 0 && "init".equals(args[0])) {
+			Statement st = dbConn.createStatement();
+			st.execute("CREATE TABLE SUBSCRIPTIONSA" + "( ID INTEGER PRIMARY KEY, "
+			    + "PRODUCTID VARCHAR(20)," + "PACKAGEID VARCHAR(20), "
+			    + "MSISDN VARCHAR(13), " + "OPERATIONTIME TIMESTAMP,"
+			    + "EFFECTIVEDATE TIMESTAMP, " + "DUEDATE TIMESTAMP, "

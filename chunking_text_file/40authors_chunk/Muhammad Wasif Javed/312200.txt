@@ -1,0 +1,10 @@
+	private JTextField txtMemberId, txtMemberName, txtMemberAddress, txtDate;
+	private JButton btnDel, btnCancel;
+
+	private Statement st;		//Statement for Getting the Required Table.
+	private ResultSet rs;		//For Getting the Records From Table.
+	private long id = 0;		//To Hold the MemberId.
+
+	//Constructor of Class.
+
+	public DeleteMember (Connection con) {

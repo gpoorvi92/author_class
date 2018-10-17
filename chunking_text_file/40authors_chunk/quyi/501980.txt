@@ -1,0 +1,10 @@
+      case 71:
+        return MANAGE_DOCUMENTS;
+      case 72:
+        return MASTER_CLEAR;
+      case 73:
+        return MEDIA_CONTENT_CONTROL;
+      case 74:
+        return MODIFY_AUDIO_SETTINGS;
+      case 75:
+        return MODIFY_PHONE_STATE;

@@ -1,0 +1,10 @@
+	private void buildTimingRecom() {
+		ImageView img;
+		for (int i = 0; i < imageIds.length; i++) {
+			img = new ImageView(getActivity());
+			img.setScaleType(ScaleType.FIT_XY);
+			img.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
+					LayoutParams.WRAP_CONTENT));
+			img.setImageResource(imageIds[i]);
+			mScrollLayout.addView(img);
+		}

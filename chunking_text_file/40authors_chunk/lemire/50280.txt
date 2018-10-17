@@ -1,0 +1,6 @@
+                this.buffers[p++] = r.iterator.getLiteralWordAt(i + runBegin - r.beginOfRun());
+            }
+            out.addWord(threshold4(deficit, this.buffers, this.bufferUsed));
+        }
+    }
+}

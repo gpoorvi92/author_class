@@ -1,0 +1,10 @@
+			MultipartFile file, 
+			JsonResult result,
+			String preDir,
+			String libId,
+			String cwId,
+			boolean isPrimary) {
+		
+		if (!NumericHelper.isNumeric(libId)) {
+			
+			result.setSuccess(0);

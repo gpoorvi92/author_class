@@ -1,0 +1,10 @@
+    static {
+      schemes.put(StandardScheme.class, new updateUserAppInfo_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new updateUserAppInfo_argsTupleSchemeFactory());
+    }
+
+    public String missionId; // required
+    public String userAppId; // required
+    public Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus; // required
+    public List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions; // required
+    public com.nercis.isscp.idl.StaticCheckResultData stcRD; // required

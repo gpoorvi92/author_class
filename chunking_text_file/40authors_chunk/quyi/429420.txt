@@ -1,0 +1,10 @@
+    this.result = null;
+  }
+
+  /** Returns true if field result is set (has been assigned a value) and false otherwise */
+  public boolean isSetResult() {
+    return this.result != null;
+  }
+
+  public void setResultIsSet(boolean value) {
+    if (!value) {

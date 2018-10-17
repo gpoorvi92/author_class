@@ -1,0 +1,10 @@
+	public Date getFailureTime() {
+		return failureTime;
+	}
+	/**
+	 * 设置票据失效时间。
+	 * @param failureTime
+	 *  票据失效时间。
+	 * */
+	public void setFailureTime(Date failureTime) {
+		this.failureTime = failureTime;

@@ -1,0 +1,10 @@
+    public abstract String getRequestFilterTag();
+
+    public abstract String getCacheKey();
+
+    protected boolean checkArgs() {
+        return true;
+    }
+
+    public void clearConsumer() {
+        cancelRequest();

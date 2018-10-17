@@ -1,0 +1,10 @@
+
+      add(scrollPane, BorderLayout.CENTER);
+
+      // add button to append text into the text area
+
+      JPanel southPanel = new JPanel();
+
+      JButton insertButton = new JButton("Insert");
+      southPanel.add(insertButton);
+      insertButton.addActionListener(new ActionListener()

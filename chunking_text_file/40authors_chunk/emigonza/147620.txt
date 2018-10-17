@@ -1,0 +1,10 @@
+{
+	//-------------------------------------------------------------------------
+	// Ctor(s)
+	//
+
+	/** 
+	 * Creates a profile with name passed
+	 * @param name the Profile's name
+	 */
+	DefaultProfile( String name ) { this.name = name; }

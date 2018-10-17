@@ -1,0 +1,10 @@
+      }
+
+      public searchEng_args getEmptyArgsInstance() {
+        return new searchEng_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+

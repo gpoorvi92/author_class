@@ -1,0 +1,10 @@
+    }
+
+    private void updateNext() {
+        if(runningHasNext()) {
+            if(this.nextBit == null || this.nextBit == this.runningBit) {
+                this.nextBit = this.runningBit;
+                int offset = runningOffset();
+                this.nextLength += offset;
+                movePosition(offset);
+                updateNext();

@@ -1,0 +1,10 @@
+
+      Triangle value;
+      for (int i = 1; i < len;i++ )
+      {
+          value = triangles[i];
+          j = i - 1;
+          while (j >= 0 && compare(triangles[j], value) > 0)
+          {
+              triangles[j + 1] = triangles[j];
+              j--;

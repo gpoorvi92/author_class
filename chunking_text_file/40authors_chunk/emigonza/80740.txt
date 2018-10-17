@@ -1,0 +1,10 @@
+
+    /**
+     * @return the JposEntry for this event
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public JposEntry getJposEntry() { return jposEntry; }
+
+    //--------------------------------------------------------------------------
+    // Instance variables
+    //

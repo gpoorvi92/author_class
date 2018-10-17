@@ -1,0 +1,10 @@
+
+	@Autowired
+	FileDeleter fileDeleter;
+
+	@Autowired
+	StaticStateManager<StaticStatePersistedOnFileSystemEntity> staticStateManager;
+
+	@Autowired
+	StaticStateDirectoryManager staticStatedDirectoryManager;
+

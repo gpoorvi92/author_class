@@ -1,0 +1,10 @@
+		OrderPrice op = new OrderPrice();
+		op.setOrder(ob.getOrder());
+		op.setProductID(ob.getBxg().getID());
+		op.setType("bxg");
+		double price = bxgService.findBxgByIdBindCut(ob.getBxg().getID(), 
+				ob.getOrder().getCustomer().getID(), null).getLsprice();
+		op.setPrice(price);
+		if(!orderPriceService.save(op)){
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据保存异常\t" + new Date());

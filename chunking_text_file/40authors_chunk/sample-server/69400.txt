@@ -1,0 +1,10 @@
+    static final private char[] lookUpHexAlphabet = new char[LOOKUPLENGTH];
+    static
+    {
+        for (int i = 0; i < BASELENGTH; i++)
+        {
+            hexNumberTable[i] = -1;
+        }
+        for (int i = '9'; i >= '0'; i--)
+        {
+            hexNumberTable[i] = (byte) (i - '0');

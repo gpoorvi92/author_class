@@ -1,0 +1,10 @@
+ * java.nio.LongBuffer wrapper.
+ * Users should not be concerned by this class.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class LongBufferWrapper implements Buffer {
+
+    public LongBufferWrapper(LongBuffer buffer) {
+        this.buffer = buffer;
+    }

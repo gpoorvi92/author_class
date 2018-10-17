@@ -1,0 +1,10 @@
+  public void clear() {
+    this.processName = null;
+    this.threadName = null;
+    this.checkTime = null;
+    this.deviceType = null;
+  }
+
+  public String getProcessName() {
+    return this.processName;
+  }

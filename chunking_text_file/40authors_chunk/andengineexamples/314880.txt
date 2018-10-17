@@ -1,0 +1,10 @@
+	protected void onReadTransmissionData(DataInputStream pDataInputStream) throws IOException {
+		this.mPaddleID = pDataInputStream.readInt();
+		this.mScore = pDataInputStream.readInt();
+	}
+
+	@Override
+	protected void onWriteTransmissionData(final DataOutputStream pDataOutputStream) throws IOException {
+		pDataOutputStream.writeInt(this.mPaddleID);
+		pDataOutputStream.writeInt(this.mScore);
+	}

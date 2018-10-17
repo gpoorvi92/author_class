@@ -1,0 +1,10 @@
+ */
+public class SearchedFile implements SeafItem {
+    private static final String DEBUG_TAG = "SearchedFile";
+
+    public enum FileType {DIR, FILE}
+    private String name;
+    private String repoID;
+    private long mtime;
+    private String path;
+    private FileType type;

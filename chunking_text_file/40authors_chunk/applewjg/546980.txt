@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 25, 2014
+ Problem:    Scramble String
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/scramble-string/
+ Notes:
+ Given a string s1, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
+ Below is one possible representation of s1 = "great":
+    great

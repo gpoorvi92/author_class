@@ -1,0 +1,10 @@
+  public void addToEngines(Engine elem) {
+    if (this.engines == null) {
+      this.engines = new ArrayList<Engine>();
+    }
+    this.engines.add(elem);
+  }
+
+  public List<Engine> getEngines() {
+    return this.engines;
+  }

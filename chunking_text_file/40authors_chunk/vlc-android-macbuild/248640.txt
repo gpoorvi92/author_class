@@ -1,0 +1,10 @@
+        sb.append(hardware);
+        sb.append('.');
+        sb.append(implementer);
+        sb.append('.');
+        sb.append(architecture);
+        sb.append('.');
+        sb.append(variant);
+        sb.append('.');
+        sb.append(part);
+        sb.append('.');

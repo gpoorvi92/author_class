@@ -1,0 +1,10 @@
+		acctAttr.setSex(1);
+		acctAttr.setAddr("chengdu china");
+		entity.setAcctAttr(JsonPojoMapper.toJson(acctAttr, true));
+		//增加一个帐号
+		Account r=dao.add(entity);
+		assertNotNull(r);
+		assertNotNull(r.get_id());
+		//修改帐号密码
+		entity.setPasswd("aaaaaaaa");
+		dao.updateAccount(entity);

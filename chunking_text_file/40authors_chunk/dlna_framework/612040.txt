@@ -1,0 +1,10 @@
+		deviceSearchResponseThread.start();		
+	}
+	
+	public void stop()
+	{
+		deviceSearchResponseThread = null;
+	}
+
+	////////////////////////////////////////////////
+	//	post

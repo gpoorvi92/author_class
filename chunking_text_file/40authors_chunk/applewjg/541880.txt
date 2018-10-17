@@ -1,0 +1,10 @@
+        recoverRe2(root.left, res);
+        if (res[0] != null && res[0].val > root.val) {
+            if (res[1] == null) res[1] = res[0];
+            res[2] = root;
+        }
+        res[0] = root;
+        recoverRe2(root.right, res);
+    }
+    
+    public void recoverTree_3(TreeNode root) {

@@ -1,0 +1,10 @@
+
+    }
+
+
+
+    @Test
+    public void testGetterAndSetter() throws InvocationTargetException, IllegalAccessException {
+
+        System.out.println("============Setter和Getter================");
+        BusinessLog log = new BusinessLog();

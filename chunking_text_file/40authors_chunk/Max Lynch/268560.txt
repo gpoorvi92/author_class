@@ -1,0 +1,10 @@
+								speed--;
+							
+						//} catch(InterruptedException ex) {}
+					}
+				}
+					
+				repaint();
+				
+				try { 
+					runner.sleep(speed);

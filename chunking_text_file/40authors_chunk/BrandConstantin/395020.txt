@@ -1,0 +1,10 @@
+    
+    int potencia = 1;
+    int i = 0;
+        
+    do {
+        potencia *= base;
+        i++;
+        System.out.println(base + " ^ " + i + " = " + potencia);  
+    }while (i < exponente);
+

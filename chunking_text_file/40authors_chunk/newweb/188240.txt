@@ -1,0 +1,10 @@
+	private CustomerMath() {
+		;
+	}
+
+	/**
+	 * 提供精确的加法运算。
+	 * 
+	 * @param v1
+	 *            被加数
+	 * @param v2

@@ -1,0 +1,10 @@
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping(value = "userRegister.action", method = RequestMethod.POST)
+	public String userRegister(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");
+		String userName = request.getParameter("userName");
+		String linkName = request.getParameter("linkName");

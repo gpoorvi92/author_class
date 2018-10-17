@@ -1,0 +1,10 @@
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.pidName != null) {
+        oprot.writeFieldBegin(PID_NAME_FIELD_DESC);
+        oprot.writeString(struct.pidName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.sourceAddress != null) {
+        oprot.writeFieldBegin(SOURCE_ADDRESS_FIELD_DESC);
+        oprot.writeString(struct.sourceAddress);
+        oprot.writeFieldEnd();

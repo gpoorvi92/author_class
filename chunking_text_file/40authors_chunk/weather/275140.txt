@@ -1,0 +1,10 @@
+    public boolean isClientTrusted(X509Certificate[] chain) {
+        return true;
+    }
+
+    public boolean isServerTrusted(X509Certificate[] chain) {
+        return true;
+    }
+
+    @Override
+    public X509Certificate[] getAcceptedIssuers() {

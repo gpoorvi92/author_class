@@ -1,0 +1,10 @@
+		dlg.setMessage(message);
+		dlg.setTitle("提示");
+		dlg.setCancelable(false);
+		dlg.setPositiveButton(android.R.string.ok,
+				new AlertDialog.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						result.confirm();
+					}
+				});
+		dlg.create();

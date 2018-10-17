@@ -1,0 +1,10 @@
+		myLocOverlay = new CustomMyLocationOverlay(mapView, popupOverlay, this);
+		ld = new LocationData();
+		myLocOverlay.setData(ld);
+		mapView.getOverlays().add(myLocOverlay);
+
+		nearbyOverlay = new LocationNearbyOverlay(null, mapView, popupOverlay,
+				this);
+		AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+		item.putStringValue("location_jc", arr[0]);
+		item.putStringValue("location_wz", arr[1]);

@@ -1,0 +1,10 @@
+
+		// boolean contains(Object obj):判断集合中是否包含指定的元素
+		// System.out.println("contains:" + c.contains("hello"));
+		// System.out.println("contains:" + c.contains("javaee"));
+
+		// boolean isEmpty():判断集合是否为空
+		// System.out.println("isEmpty:" + c.isEmpty());
+
+		// int size():集合的元素个数，长度
+		System.out.println("size:" + c.size());

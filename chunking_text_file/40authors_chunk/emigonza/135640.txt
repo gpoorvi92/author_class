@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapGateStatus"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapRealTimeData"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+
+        // Properties

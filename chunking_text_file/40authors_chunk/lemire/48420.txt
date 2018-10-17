@@ -1,0 +1,10 @@
+        }
+    }
+
+    /**
+     *
+     */
+    @SuppressWarnings("deprecation")
+    @Test
+    public void testWideOr() {
+        for (int nbr = 3; nbr <= 24; nbr += 3) {

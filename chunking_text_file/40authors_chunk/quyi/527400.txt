@@ -1,0 +1,10 @@
+          }
+        }
+      }
+      if (struct.isSetMissionProgress()) {
+        oprot.writeString(struct.missionProgress);
+      }
+      if (struct.isSetSamples()) {
+        {
+          oprot.writeI32(struct.samples.size());
+          for (com.nercis.isscp.idl.Sample _iter25 : struct.samples)

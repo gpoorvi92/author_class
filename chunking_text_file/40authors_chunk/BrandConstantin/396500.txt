@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class PiramideConNumerosConDoWhile {
+
+public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
+
+    System.out.println("Introduce la altura de la pirámide:");
+    int numIntrod = teclado.nextInt();
+    System.out.println("=================================================");

@@ -1,0 +1,10 @@
+
+		//super (Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("Add New Member", false, true, false, true);
+		setSize (355, 222);
+
+		//Setting the Form's Labels.
+
+		lbMemberId = new JLabel ("Member Id:");
+		lbMemberId.setForeground (Color.black);
+		lbMemberId.setBounds (15, 15, 100, 20);

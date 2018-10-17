@@ -1,0 +1,10 @@
+      this.operate = null;
+    }
+
+    public Engine getEngine() {
+      return this.engine;
+    }
+
+    public operateEngine_args setEngine(Engine engine) {
+      this.engine = engine;
+      return this;

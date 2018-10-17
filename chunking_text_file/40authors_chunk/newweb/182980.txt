@@ -1,0 +1,10 @@
+		return typeForBrand;
+	}
+	public void setTypeForBrand(TypeForBrand typeForBrand) {
+		this.typeForBrand = typeForBrand;
+	}
+	
+	@Column
+	public double getWinHeight() {
+		return winHeight;
+	}

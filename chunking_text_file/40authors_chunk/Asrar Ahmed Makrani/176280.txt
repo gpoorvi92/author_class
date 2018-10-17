@@ -1,0 +1,10 @@
+ 				boolean checked = false;
+ 				passwordSQL passql = new passwordSQL(usname, uspasswd, checked);
+ 				checked = passql.check();
+ 				
+ 				if (checked == true)
+ 				{
+ 				JOptionPane.showMessageDialog(null, "Welcome, " + usname );
+ 				add.setEnabled(true);
+ 				String dd;
+				dd = formatter.format(currentDate);

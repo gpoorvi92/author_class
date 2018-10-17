@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置图文信息描述。
+	 * @param description
+	 * 	图文信息描述。
+	 * */
+	public void setDescription(String description) {
+		this.Description = description;
+	}
+	/**

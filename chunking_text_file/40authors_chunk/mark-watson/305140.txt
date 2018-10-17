@@ -1,0 +1,10 @@
+package search.maze;
+
+/**
+ * Class Maze - class for representing search space as a two-Locational maze
+ */
+public class Maze {
+    public static short OBSTICLE = -1;
+    public static short START_LOC_VALUE = -2;
+    public static short GOAL_LOC_VALUE = -3;
+    private int width = 0;

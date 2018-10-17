@@ -1,0 +1,10 @@
+    public static byte[] toByteArray3(String filename) throws IOException {
+
+        FileChannel fc = null;
+        try {
+            fc = new RandomAccessFile(filename, "r").getChannel();
+            MappedByteBuffer byteBuffer = fc.map(MapMode.READ_ONLY, 0,
+                    fc.size()).load();
+            System.out.println(byteBuffer.isLoaded());
+            byte[] result = new byte[(int) fc.size()];
+            if (byteBuffer.remaining() > 0) {

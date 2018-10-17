@@ -1,0 +1,10 @@
+	/**
+	 * Set the current socket timeout
+	 * @param longout new timeout
+	 * @since 1.8
+	 */
+	public synchronized void setTimeout(int timeout) {
+		this.timeout = timeout;
+	}
+
+	public boolean open(InetAddress addr,int port){

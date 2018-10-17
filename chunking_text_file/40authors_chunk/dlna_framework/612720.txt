@@ -1,0 +1,10 @@
+	private SubscriberList subscriberList = new SubscriberList();
+	
+	public SubscriberList getSubscriberList() {
+		return subscriberList;
+	}
+
+	////////////////////////////////////////////////
+	// SID
+	////////////////////////////////////////////////
+

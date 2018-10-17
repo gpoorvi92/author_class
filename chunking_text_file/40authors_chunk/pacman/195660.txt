@@ -1,0 +1,10 @@
+			result = ensureToolExists(AppConfig.getInstance().getExtool_ffmpeg(), true);
+			result = ensureToolExists(AppConfig.getInstance().getExtool_python() + " -h", false);
+
+		} catch (Exception e) {
+
+			logger.error(PREFIX + " ... Fail!", e);
+		}
+
+		logger.info(PREFIX + " ... done.[" + result + "]");
+		return result;

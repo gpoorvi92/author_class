@@ -1,0 +1,10 @@
+	}
+}
+
+class DuoTaiDemo {
+	public static void main(String[] args) {
+		/*
+		//我喜欢狗，养了一只狗
+		Dog d = new Dog();
+		d.eat();
+		d.sport();

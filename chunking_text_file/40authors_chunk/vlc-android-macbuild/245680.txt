@@ -1,0 +1,10 @@
+    private int mSeekWhenDurationChanged;
+
+    private WeakReference<Context> mWeakContext;
+    private WeakHandler mVlcHandler;
+
+    private ModuleInfo mModuleInfo;
+
+    public static LibVlcMediaPlayer createWithOptions(Context context,
+            LibVlcLibraryLoader libLoader, PlayIndex.Resolver resolver,
+            String[]... extraParams) throws LibVlcException {

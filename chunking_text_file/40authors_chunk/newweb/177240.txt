@@ -1,0 +1,10 @@
+		int count = 0;
+		for (OrderLhjWeight w : set) {
+			ws[count++] = w;
+		}
+		return ws;
+	}
+
+	@Override
+	public OrderLhjWeight[] queryAllOrderLhjWeights() {
+		List<OrderLhjWeight> list = orderLhjWeightDao.selectAllOrderLhjWeights();

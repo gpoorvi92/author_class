@@ -1,0 +1,10 @@
+/**
+ * 
+ *	@author: Fully
+ *	初始化连接池
+ */
+public class MongoConnection implements Connection{
+	private LogPrn log=new LogPrn(MongoConnection.class);
+	private DB db;
+	//db的ip
+	private String connectionHost;

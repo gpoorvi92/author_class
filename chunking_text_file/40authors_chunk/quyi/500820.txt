@@ -1,0 +1,10 @@
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("NodeHeat(");
+    boolean first = true;
+
+    sb.append("nodeId:");
+    if (this.nodeId == null) {
+      sb.append("null");
+    } else {

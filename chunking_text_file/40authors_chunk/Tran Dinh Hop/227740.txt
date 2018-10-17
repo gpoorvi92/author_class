@@ -1,0 +1,10 @@
+		{ 
+			worker();
+		}
+
+
+		/* available() returns 0 when the last byte is in the stream  *
+		 * effectively, the algorithm must be run one more time after *
+		 * in.available() is 0													  */ 
+		
+		worker();

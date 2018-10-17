@@ -1,0 +1,10 @@
+			if (mIsQueue)
+				return ((Queue)mDestination).getQueueName();
+			else
+				return ((Topic)mDestination).getTopicName();
+		} catch (JMSException e) {
+			
+			e.printStackTrace();
+			return "";
+		}
+	}

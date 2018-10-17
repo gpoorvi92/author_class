@@ -1,0 +1,10 @@
+
+        // Properties
+        makeProperty("AsyncMode"),
+        makeProperty("AsyncResultCode"),
+        makeProperty("AsyncResultCodeExtended"),
+        makeProperty("CurrencyCashList"),
+        makeProperty("CurrencyCode"),
+        makeProperty("CurrencyCodeList"),
+        makeProperty("CurrentExit"),
+        makeProperty("DeviceExits"),

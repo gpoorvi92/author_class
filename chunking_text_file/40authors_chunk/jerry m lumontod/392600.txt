@@ -1,0 +1,10 @@
+//else trouble  i didnt figured out why
+
+public class MsgBox implements ActionListener, MouseListener{
+
+	private JFrame jfDummy = new JFrame();
+	
+	public MsgBox() {
+		super();
+	}
+	

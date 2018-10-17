@@ -1,0 +1,10 @@
+
+	List<Order> selectDoneOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer);
+
+	List<Order> selectProcessedOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer);
+
+	List<Order> selectUnprocessedOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer);
+

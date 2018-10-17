@@ -1,0 +1,10 @@
+     *
+     */
+    public void sort() {
+        for (int i=0, size=strings.size(); i<(size-1); i++) {
+            for (int j=i+1; j<size; j++) {
+                int score_i = ((Integer)scores.get(i)).intValue();  // must be inside inner loop because of possible shuffle
+                int score_j = ((Integer)scores.get(j)).intValue();
+                if (score_j > score_i) {
+                    scores.set(i, new Integer(score_j));
+                    scores.set(j, new Integer(score_i));

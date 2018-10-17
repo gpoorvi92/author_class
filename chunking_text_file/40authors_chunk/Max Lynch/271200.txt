@@ -1,0 +1,10 @@
+	}
+	
+	int getLocX() {
+            return Math.min(x1,x2);
+	}
+	
+	int getLocY() {
+            return Math.min(y1,y2);
+	}
+	

@@ -1,0 +1,10 @@
+
+   /**
+    * Gets the indexed values property.
+    * @return the values to display in the chart.
+    */
+   public double[] getValues()
+   {
+      return values;
+   }
+

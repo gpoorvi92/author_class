@@ -1,0 +1,10 @@
+    }
+
+    private Runnable mClearPatternRunnable = new Runnable() {
+        public void run() {
+            mLockPatternView.clearPattern();
+        }
+    };
+
+    protected LockPatternView.OnPatternListener mChooseNewLockPatternListener = new LockPatternView.OnPatternListener() {
+

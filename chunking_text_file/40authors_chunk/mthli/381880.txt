@@ -1,0 +1,10 @@
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * This frame shows an XML document, a panel to type an XPath expression, and a text field to
+ * display the result.
+ */

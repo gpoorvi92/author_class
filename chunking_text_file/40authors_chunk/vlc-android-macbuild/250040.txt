@@ -1,0 +1,10 @@
+    public void setAudioStreamType(int streamMusic) {
+        if (mSegmentPlayer == null)
+            return;
+
+        mSegmentPlayer.setAudioStreamType(streamMusic);
+    }
+
+    @Override
+    public void setScreenOnWhilePlaying(boolean screenOn) {
+        if (mSegmentPlayer == null)

@@ -1,0 +1,10 @@
+		pNew.add (btnOk);
+		pNew.add (btnCancel);
+
+		//Adding Panel to the Form.
+
+		getContentPane().add (pNew);
+
+		try {
+			st = con.createStatement ();	//Creating Statement Object.
+		}

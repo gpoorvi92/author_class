@@ -1,0 +1,10 @@
+     * Creates a new event
+     * @param source the source of this event
+     * @param entry the JposEntry associated with the event
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public JposEntryRegistryEvent( Object source, JposEntry entry )
+    {
+        super( source );
+        jposEntry = entry;
+    }

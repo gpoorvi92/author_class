@@ -1,0 +1,10 @@
+				String date = form.format(new Date());
+				String mess = client.username + "  " + date + "\n" + str;
+				jta_disMess.append(mess + "\n");
+				jta_disMess.setCaretPosition(jta_disMess.getText().length());
+				int index = client.username_online.indexOf(this.getTitle());
+				String info = client.username + "@single" + client.getThreadID() + "@single" +
+								(int)client.clientuserid.get(index) + "@single" + 
+								mess + "@single";
+				try {
+					client.dos.writeUTF(info);

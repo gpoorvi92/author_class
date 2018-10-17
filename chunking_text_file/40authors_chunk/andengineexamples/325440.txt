@@ -1,0 +1,10 @@
+		engineLock.lock();
+
+		/* Now it is save to remove the entity! */
+		pScene.detachChild(this.mFaceToRemove);
+		this.mFaceToRemove.dispose();
+		this.mFaceToRemove = null;
+
+		engineLock.unlock();
+		return true;
+	}

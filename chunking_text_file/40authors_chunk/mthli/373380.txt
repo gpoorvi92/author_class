@@ -1,0 +1,10 @@
+import java.rmi.*;
+import java.util.*;
+import javax.naming.*;
+
+/**
+ * The client for the warehouse program.
+ * @version 1.0 2007-10-09
+ * @author Cay Horstmann
+ */
+public class WarehouseClient

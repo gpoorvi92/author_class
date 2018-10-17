@@ -1,0 +1,10 @@
+	/**
+	 * 将XML消息转换成响应对象。
+	 * @param clazz
+	 * 目标对象类型。
+	 * @param xml
+	 * XML。
+	 * @return 目标对象。
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 */

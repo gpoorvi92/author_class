@@ -1,0 +1,5 @@
+		tempHero.father.setCurrentDrawable(null);//置空记录引用的变量
+		tempHero.father.setStatus(0);//重新设置GameView为待命状态
+		tempHero.father.gvt.setChanging(true);//骰子转起来
+	}
+}

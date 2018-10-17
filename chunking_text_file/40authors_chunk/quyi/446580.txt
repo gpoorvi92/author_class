@@ -1,0 +1,10 @@
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, RunMonitor struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(4);
+      if (incoming.get(0)) {
+        struct.monitorTime = iprot.readString();
+        struct.setMonitorTimeIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.screenShotPath = iprot.readString();

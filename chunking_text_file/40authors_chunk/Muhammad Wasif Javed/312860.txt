@@ -1,0 +1,10 @@
+			ResultSet rs = st.executeQuery (q);		//Running Query.
+
+			while (rs.next ()) {
+				records[rec][0] = "" + rs.getLong ("BookId");
+				records[rec][1] = rs.getString ("BookName");
+				records[rec][2] = rs.getString ("BookAuthor");
+				records[rec][3] = "" + rs.getLong ("BookPrice");
+				records[rec][4] = rs.getString ("Category");
+				rec++;
+			}

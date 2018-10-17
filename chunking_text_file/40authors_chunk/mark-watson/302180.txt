@@ -1,0 +1,10 @@
+					long population = parseLong(firstStateElement
+							.getAttribute("population"));
+					String sql = "insert into usstates values ('"+name+"','"+abbreviation+"','"+industry+"','"+agriculture+"',"+population+")";
+					System.out.println("\n"+sql+"\n");
+					s.execute(sql);			
+				}
+			}
+
+			// FACTBOOK
+			try { s.execute("drop table factbook"); } catch (Exception ignore) { }

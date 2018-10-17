@@ -1,0 +1,10 @@
+				args[1] = ConstVariables.INIT_APP[i][1];
+				args[2] = ConstVariables.INIT_APP[i][2];
+				args[3] = ConstVariables.INIT_APP[i][3];
+				args[4] = "" + new Date().getTime();
+				act.update("add_app", args);
+			}
+		} catch (Exception e) {
+
+		}
+	}

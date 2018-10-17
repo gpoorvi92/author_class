@@ -1,0 +1,10 @@
+ */
+public class Run1_singleton1 {
+    public static void main(String[] args) {
+        Thread1 t1 = new Thread1();
+        Thread1 t2 = new Thread1();
+        Thread1 t3 = new Thread1();
+        t1.start();
+        t2.start();
+        t3.start();
+    }

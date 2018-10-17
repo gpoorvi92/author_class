@@ -1,0 +1,10 @@
+        moduleInfo.mVideoDecoder = MediaPlayerModuleChanged
+                .getVideoDecoder(args);
+        moduleInfo.mVideoDecoderImpl = MediaPlayerModuleChanged
+                .getVideoDecoderImpl(args);
+
+        moduleInfo.mAudioDecoder = MediaPlayerModuleChanged
+                .getAudioDecoder(args);
+        moduleInfo.mAudioDecoderImpl = MediaPlayerModuleChanged
+                .getAudioDecoderImpl(args);
+

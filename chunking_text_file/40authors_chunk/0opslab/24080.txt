@@ -1,0 +1,10 @@
+        return new Color(r, g, b);
+    }
+
+
+    public static boolean pngCaptcha(String randomStr,int width,int height,String file){
+        char[] strs = randomStr.toCharArray();
+        try(OutputStream out = new FileOutputStream(file))
+        {
+            BufferedImage bi = new BufferedImage(width,height,BufferedImage.TYPE_INT_RGB);
+            Graphics2D g = (Graphics2D)bi.getGraphics();

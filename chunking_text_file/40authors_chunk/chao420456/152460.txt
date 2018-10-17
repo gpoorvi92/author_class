@@ -1,0 +1,10 @@
+		System.out.println("-----------");
+
+		//我喜欢猫，很喜欢猫，特别喜欢猫
+		//...
+		//写一个方法实现吧
+		//调用
+		Cat c = new Cat();
+		Cat c2 = new Cat();
+		Cat c3 = new Cat();
+

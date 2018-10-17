@@ -1,0 +1,10 @@
+         out.close();
+
+         // read a clone of the object from the byte array
+         ByteArrayInputStream bin = new ByteArrayInputStream(bout.toByteArray());
+         ObjectInputStream in = new ObjectInputStream(bin);
+         Object ret = in.readObject();
+         in.close();
+
+         return ret;
+      }  

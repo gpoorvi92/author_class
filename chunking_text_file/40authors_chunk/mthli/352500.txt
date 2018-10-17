@@ -1,0 +1,10 @@
+      colorEditor = PropertyEditorManager.findEditor(Color.class);
+      colorEditor.addPropertyChangeListener(new PropertyChangeListener()
+         {
+            public void propertyChange(PropertyChangeEvent event)
+            {
+               setGraphColor((Color) colorEditor.getValue());
+            }
+         });
+
+      colorPane.add(panel, BorderLayout.NORTH);

@@ -1,0 +1,10 @@
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public void notifyMethod() {
+        try {
+            lock.lock();
+            System.out.println("有" + lock.getWaitQueueLength(newCondition) + "个线程正在等待newCondition");
+            newCondition.signal();

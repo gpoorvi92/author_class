@@ -1,0 +1,10 @@
+	 * 
+	 * @param tasks
+	 *          一组子任务
+	 * @return 一组可以借以获取并行任务中的各个任务的处理结果的Promise（参见第6章，Promise模式）实例。
+	 */
+	protected List<Future<V>> invokeParallel(List<Callable<V>> tasks)
+	    throws Exception {
+		return executorService.invokeAll(tasks);
+	}
+

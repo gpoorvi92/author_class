@@ -1,0 +1,10 @@
+	 * @return: void
+	 */
+	private void notifyListeners(Object source, int typeCode) {
+		
+		for(IAppSvrEventListener listener : listeners) {
+			
+			switch (typeCode) {
+			case EVENT_SERVER_START:
+				listener.onAppSvrStarted(source);
+				break;

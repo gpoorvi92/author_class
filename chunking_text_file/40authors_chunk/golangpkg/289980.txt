@@ -1,0 +1,10 @@
+
+	public Map<UUID, StaticFileState> getFileStates() {
+		return fileStates;
+	}
+
+
+	public void setFileStates(Map<UUID, StaticFileState> fileStates) {
+		this.fileStates = fileStates;
+	}
+

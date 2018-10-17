@@ -1,0 +1,10 @@
+{
+   public static void main(String[] args)
+   {
+      Queue<String> q = new CircularArrayQueue<>(5);
+      q.add("Amy");
+      q.add("Bob");
+      q.add("Carl");
+      q.add("Deedee");
+      q.add("Emile");
+      q.remove();

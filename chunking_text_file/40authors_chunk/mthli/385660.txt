@@ -1,0 +1,10 @@
+public class TreeEditFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   private DefaultTreeModel model;
+   private JTree tree;
+
+   public TreeEditFrame()
+   {

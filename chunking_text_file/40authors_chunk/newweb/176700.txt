@@ -1,0 +1,10 @@
+					"\"id\":\"" + user.getID() +"\"" +
+					",\"linkid\":\"" + user.getLinkid() + "\"" +
+					",\"lastLoginTime\":\"" + (user.getLastLoginTime()==null?"无记录":user.getLastLoginTime()) + "\"" +
+					",\"loginCount\":\"" + user.getLoginCount() + "\"" +
+					",\"type\":\"" + user.getType() + "\"" +
+					",\"userName\":\"" + user.getUserName() +"" + "\"" +
+					",\"linkName\":\"" + (user.getType().equals("customer")?(
+							customerService.findCustomerByID(user.getLinkid()).getName()
+							):user.getUserName()) + "\"" +
+					",\"typeName\":\"" + (user.getType().equals("customer")?"客户":

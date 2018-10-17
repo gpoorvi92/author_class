@@ -1,0 +1,10 @@
+     * is removed from the list.</p>
+     */
+    private class ArrayFilter extends Filter {
+        @Override
+        protected FilterResults performFiltering(CharSequence prefix) {
+            FilterResults results = new FilterResults();
+
+            //拷贝一份，用作过滤
+            if (mOriginalValues == null) {
+                synchronized (mLock) {

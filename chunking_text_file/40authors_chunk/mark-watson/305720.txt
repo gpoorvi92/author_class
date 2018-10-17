@@ -1,0 +1,10 @@
+    int num_words = st.countTokens();
+    if (num_words == 0)  return;
+    while (st.hasMoreTokens()) {
+      String word = st.nextToken();
+      System.out.println(word);
+      if (wcount.containsKey(word)) {
+        wcount.put(word, wcount.get(word) +  (MAX_WORDS_PER_DOCUMENT / num_words));
+      } else {
+        wcount.put(word, MAX_WORDS_PER_DOCUMENT / num_words);
+      }

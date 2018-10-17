@@ -1,0 +1,10 @@
+		Thread.sleep(50);
+
+		System.out.println(result.get());
+
+		ss.shutdown();
+
+	}
+
+	private static class Task {
+		public final String message;

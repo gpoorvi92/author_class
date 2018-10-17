@@ -1,0 +1,10 @@
+    public void    setTotalizerType(int totalizerType) throws JposException;
+
+    // Methods
+    public void    setCurrency(int newCurrency) throws JposException;
+    public void    printRecCash(long amount) throws JposException;
+    public void    printRecItemFuel(String description, long price,
+                       int quantity, int vatInfo, long unitPrice,
+                       String unitName, long specialTax, String specialTaxName)
+                       throws JposException;
+    public void    printRecItemFuelVoid(String description, long price,

@@ -1,0 +1,10 @@
+        }
+        return pybf.toString();
+    }
+
+
+    // 只能判断部分CJK字符（CJK统一汉字）
+    public final static boolean isChineseByREG(String str) {
+        if (str == null) {
+            return false;
+        }

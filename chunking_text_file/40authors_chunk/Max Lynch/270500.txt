@@ -1,0 +1,10 @@
+package com.gs.ui;
+
+/* Class defines all the functionality of the stroke chooser panel */
+
+import javax.swing.*;
+import javax.swing.event.*;
+
+import java.awt.*;
+import java.awt.geom.*;
+import java.awt.event.*;

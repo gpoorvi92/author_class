@@ -1,0 +1,10 @@
+		jPanel2.add(Reload);
+		jPanel2.add(jButton4);      
+			try
+
+         {
+	
+                Statement s = Connect.getConnection().createStatement();
+      }
+
+     

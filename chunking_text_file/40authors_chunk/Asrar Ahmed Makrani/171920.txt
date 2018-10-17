@@ -1,0 +1,10 @@
+    public JMenuItem v_ret = new JMenuItem("Video Return...");
+    public JMenuItem pt_mast = new JMenuItem("Patron Master...");
+    public JMenuItem reportItem1 = new JMenuItem("Patron Inventory...");
+    public JMenuItem reportItem2 = new JMenuItem("Item Inventory...");
+    public password app = new password();
+    public aboutUs aboutus = new aboutUs();
+    public JLabel USERName = new JLabel("Welcome Lecturer/Student,if you are a member please login to your account");
+	public JLabel logo = new JLabel();
+	public Icon accLogo = new ImageIcon("back.jpg");
+	public String userName = "";

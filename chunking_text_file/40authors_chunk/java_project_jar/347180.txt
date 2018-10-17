@@ -1,0 +1,10 @@
+        if(max >= 0L && pos >= max)
+            return -1;
+        long maxRead = max < 0L ? len : Math.min(len, max - pos);
+        int bytesRead = in.read(b, off, (int)maxRead);
+        if(bytesRead == -1)
+        {
+            return -1;
+        } else
+        {
+            pos += bytesRead;

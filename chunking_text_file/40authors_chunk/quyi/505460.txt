@@ -1,0 +1,10 @@
+          {
+            oprot.writeString(_iter108);
+          }
+        }
+      }
+      if (struct.isSetPlots()) {
+        {
+          oprot.writeI32(struct.plots.size());
+          for (PlotsType _iter109 : struct.plots)
+          {

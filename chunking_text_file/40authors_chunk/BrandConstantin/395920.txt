@@ -1,0 +1,10 @@
+        switch (diaUno){
+             case "lunes":
+             case "1":
+                    dia1 = 1;
+                     nombreDiaUno = "lunes";
+                    break;
+              case "martes":
+              case "2":
+                    dia1 = 2;
+                    nombreDiaUno = "martes";

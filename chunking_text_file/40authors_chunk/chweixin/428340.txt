@@ -1,0 +1,10 @@
+	 * 设置开发者微信号。
+	 * @param toUserName
+	 * 	开发者微信号。
+	 * */
+	@Override
+	public void setToUserName(String toUserName) {
+		super.setToUserName(toUserName);
+	}
+	/**
+	 * 获取发送方帐号(一个OpenID)。

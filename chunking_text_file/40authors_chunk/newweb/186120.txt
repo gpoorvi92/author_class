@@ -1,0 +1,10 @@
+		if(orderID != null){
+			OrderPrice op = orderPriceService.findOrderPriceByCondition("lhj",materialBrandID,orderID);
+			if(op != null){
+				returnPrice.setPrice(op.getPrice());
+				return returnPrice;
+			}else{
+				LhjPriceCut cut = null;
+				try {
+					cut = lhjPriceCutService.findLhjPriceCutByCustomerIDAndPriceID(returnPrice.getID(),customerID);
+				} catch (Exception e) {

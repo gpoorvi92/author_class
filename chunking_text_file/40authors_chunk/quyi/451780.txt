@@ -1,0 +1,10 @@
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(issuedMessage_args.class, metaDataMap);
+    }
+
+    public issuedMessage_args() {
+    }
+
+    public issuedMessage_args(
+      String missionId,
+      List<com.nercis.isscp.idl.UserApp> userApps,
+      List<String> rules,

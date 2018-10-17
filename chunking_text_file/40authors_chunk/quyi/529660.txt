@@ -1,0 +1,10 @@
+
+  public void addToRequestPurviews(com.nercis.isscp.idl.permission.Permissions elem) {
+    if (this.requestPurviews == null) {
+      this.requestPurviews = new ArrayList<com.nercis.isscp.idl.permission.Permissions>();
+    }
+    this.requestPurviews.add(elem);
+  }
+
+  public List<com.nercis.isscp.idl.permission.Permissions> getRequestPurviews() {
+    return this.requestPurviews;

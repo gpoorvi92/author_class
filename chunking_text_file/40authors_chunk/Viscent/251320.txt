@@ -1,0 +1,10 @@
+		this.executor = executor;
+	}
+
+	public AsyncTask() {
+		this(DEFAULT_EXECUTOR);
+	}
+
+	public void setExecutor(Executor executor) {
+		this.executor = executor;
+	}

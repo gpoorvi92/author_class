@@ -1,0 +1,10 @@
+		}
+
+	}
+
+	public void wfxwBtnClick(View v) {
+		AbstractCommonData acd = SystemUtil.getCommonData("S23023",
+				bindUsername);
+		acd.putStringValue("wfxw", wfxw);
+		acd.putObjectValue("iservice", new WfxwSearchService(this, wfxw, fad));
+		ServiceController.addService(acd, this);

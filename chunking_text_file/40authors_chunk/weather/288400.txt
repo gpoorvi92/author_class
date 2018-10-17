@@ -1,0 +1,10 @@
+        NetworkInfo networkInfo = getNetworInfoInstance(context);
+        // if (networkInfo != null)
+        // return networkInfo.isAvailable();
+        return isNetworkAvailable(networkInfo);
+    }
+
+    /**
+     * 判断当前使用的网络状态，网络是否可用、是否是WiFi网络
+     *
+     * @param context

@@ -1,0 +1,10 @@
+	
+
+
+	Double calculateProgress(Long currentSize, Long expectedSize) {
+		double percent = currentSize.doubleValue() / expectedSize.doubleValue() * 100d;
+		if (percent == 100 && expectedSize - currentSize != 0) {
+			percent = 99.99d;
+		}
+		return percent;
+	}

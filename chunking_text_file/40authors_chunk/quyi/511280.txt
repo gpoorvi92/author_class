@@ -1,0 +1,10 @@
+     * modify taskmanager config.properties
+     * @param	propertyName
+     * @param	propertyValue
+     * @return	succeed or not
+     * 
+     * @param propertyName
+     * @param propertyValue
+     */
+    public com.nercis.isscp.idl.Result modifyTaskManagerConfig(String propertyName, String propertyValue) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+

@@ -1,0 +1,10 @@
+    }
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+    public int getPageNum() {
+        return pageNum;
+    }
+    public void setPageNum(int pageNum) {
+        this.pageNum = pageNum;
+    }

@@ -1,0 +1,10 @@
+        else
+            super.handlePrintFile( arg0 );
+    }
+
+    /// public void com.apple.eawt.ApplicationAdapter.handleQuit(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleQuit( com.apple.eawt.ApplicationEvent arg0 );
+
+    boolean entered_handleQuit_3;
+

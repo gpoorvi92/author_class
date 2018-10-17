@@ -1,0 +1,10 @@
+      {
+         if (c == 0) constraints.gridx = 0;
+         else constraints.gridx += constraints.gridwidth;
+      }
+      else constraints.gridx = Integer.parseInt(value);
+
+      value = e.getAttribute("gridy");
+      if (value.length() == 0) // use default
+      constraints.gridy = r;
+      else constraints.gridy = Integer.parseInt(value);

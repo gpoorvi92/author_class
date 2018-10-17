@@ -1,0 +1,10 @@
+		g2.setPaint(new Color(100, 100, 100));
+		g2.setStroke(new BasicStroke(2f));
+		g2.draw(gp);
+		g2.setPaint(new RadialGradientPaint(new Rectangle2D.Double(300, 40, 100, 100), new Color(100, 100, 100), new Color(0, 40, 90)));
+		g2.setFont(new Font("Sans-Serif", Font.BOLD, 140));
+		g2.drawString("G", 300, 100);	
+		g2.setPaint(new Color(100, 100, 100));
+		g2.fill(new Rectangle2D.Double(40, 233, 300, 50));
+		g2.setPaint(new Color(0, 20, 70));
+		g2.setStroke(new BasicStroke(3f));

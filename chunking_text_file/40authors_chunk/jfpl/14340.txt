@@ -1,0 +1,10 @@
+		return acd;
+	}
+
+	public static boolean setAutoLoginParam(Context ctx, AbstractCommonData acd) {
+		String username = acd.getStringValue("username");
+		String pwd = acd.getStringValue("pwd");
+		long lastTime = acd.getLongValue("last_login_time");
+		boolean isAutoLogin = acd.getBooleanValue("is_auto_login");
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(ctx);

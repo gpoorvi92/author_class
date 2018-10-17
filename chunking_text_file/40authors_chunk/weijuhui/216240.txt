@@ -1,0 +1,10 @@
+@EActivity(R.layout.act_edit_content)
+public class EditActivity extends Activity implements OnClickListener {
+
+	@Extra
+	int flag;
+	
+	@Extra
+	String value;
+	
+	@ViewById(R.id.title_center)

@@ -1,0 +1,10 @@
+ private RenderingBuffer renderer;
+
+
+    public static RenderingMode[] getRenderingModes()
+    {
+        if (renderingModes != null)
+            return renderingModes;
+        else
+        {
+            return new RenderingMode[] 

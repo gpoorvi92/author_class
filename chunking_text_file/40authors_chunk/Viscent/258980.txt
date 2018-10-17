@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch13.pipeline.example;
+
+public class Config {
+
+	public static int MAX_RECORDS_PER_FILE = 5000;
+
+	/**

@@ -1,0 +1,10 @@
+          result.success = iface.modifyNodeManagerConfig(args.nodeId, args.propertyName, args.propertyValue);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }
+    }
+

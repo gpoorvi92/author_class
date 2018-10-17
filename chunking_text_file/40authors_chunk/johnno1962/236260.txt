@@ -1,0 +1,10 @@
+            entered_swipedDown_4 = false;
+        }
+        else
+            super.swipedDown( arg0 );
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.swipedLeft(com.apple.eawt.event.SwipeEvent)
+
+    public native void __swipedLeft( com.apple.eawt.event.SwipeEvent arg0 );
+

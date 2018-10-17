@@ -1,0 +1,10 @@
+
+	本质理解：其本质是匿名子类对象
+*/
+interface Inter {
+	public abstract void show();
+	public abstract void show2();
+}
+
+class Outer {
+	private int num = 100;

@@ -1,0 +1,10 @@
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+   private AboutDialog dialog;
+
+   public DialogFrame()
+   {      
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // Construct a File menu.
+

@@ -1,0 +1,10 @@
+{
+    /**
+     * This method is used to retrieve the request message.
+     *
+     * @return The request message.
+     */
+    byte[] getRequest();
+
+    /**
+     * This method is used to update the request message.

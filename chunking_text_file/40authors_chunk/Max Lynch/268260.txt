@@ -1,0 +1,10 @@
+	ShapeLayerModel model;
+	
+	RenderSurface renderSurface;
+	
+	GeneralPath linePath = new GeneralPath();
+	
+	boolean first = true;
+	
+	
+	public FreeLineLayer(ShapeLayerModel model, RenderSurface renderSurface)

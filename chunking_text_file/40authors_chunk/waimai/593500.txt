@@ -1,0 +1,10 @@
+        return goodsTypeList;
+    }
+
+    @Override
+    public GoodsType findById(Integer id) {
+        return goodsTypeMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public void update(GoodsType goodsType) throws ServiceException {

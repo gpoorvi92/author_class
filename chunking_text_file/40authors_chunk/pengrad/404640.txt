@@ -1,0 +1,10 @@
+        Properties properties = new Properties();
+        properties.load(new FileInputStream("local.properties"));
+        TelegramBot bot = TelegramBotAdapter.build(properties.getProperty("TEST_TOKEN"));
+
+        GetUpdatesResponse updatesResponse;
+        int j = 0;
+        while (true) {
+            try {
+                updatesResponse = bot.getUpdates(j, 100, 20);
+                List<Update> updates = updatesResponse.updates();

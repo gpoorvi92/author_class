@@ -1,0 +1,6 @@
+    text.add(category_combo, gbc);
+    add(text);
+    setBackground(Color.blue);
+    }
+    
+    }

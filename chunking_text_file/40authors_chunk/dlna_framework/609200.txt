@@ -1,0 +1,10 @@
+				urlBaseStr = rootDev.getLocation();
+		}
+		
+		// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (09/02/03)
+		if (urlBaseStr == null || urlBaseStr.length() <= 0) {
+			if (HTTP.isAbsoluteURL(eventSubURL))
+				urlBaseStr = eventSubURL;
+		}
+		
+		String reqHost = HTTP.getHost(urlBaseStr);

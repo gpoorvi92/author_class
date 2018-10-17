@@ -1,0 +1,10 @@
+    private String mPseudoAccess; // "youku", required for index url
+    private String mPseudoDemux; // "mp4", optional
+
+    private String mUrl;
+
+    private String mSchemeSpecificPart; // "//location"
+
+    public static Mrl parse(String rawMrl) {
+        Mrl mrl = new Mrl();
+

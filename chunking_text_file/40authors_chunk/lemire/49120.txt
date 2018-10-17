@@ -1,0 +1,10 @@
+     * thrown.
+     */
+    @Override
+    public void addLiteralWord(int newData) {
+        if (newData != 0)
+            throw nonEmptyException;
+    }
+
+    /**
+     * throws a NonEmptyException exception when number is greater than 0

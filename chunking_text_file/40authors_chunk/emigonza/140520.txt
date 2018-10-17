@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface POSKeyboardService14 extends POSKeyboardService13
+{
+  // Nothing new added for release 1.4

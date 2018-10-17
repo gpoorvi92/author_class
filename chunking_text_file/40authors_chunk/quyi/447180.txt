@@ -1,0 +1,10 @@
+  }
+
+  public void setOsNameIsSet(boolean value) {
+    if (!value) {
+      this.osName = null;
+    }
+  }
+
+  public String getOsDesc() {
+    return this.osDesc;

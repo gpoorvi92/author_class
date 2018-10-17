@@ -1,0 +1,7 @@
+         */
+        @Override
+        public synchronized Throwable fillInStackTrace() {
+            return this;
+        }
+    }
+}

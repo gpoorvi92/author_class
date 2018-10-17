@@ -1,0 +1,10 @@
+	/**
+	 * Unsafe!!!
+	 * 
+	 * @Title: getAttribute
+	 * @param key
+	 * @return
+	 * @return: T
+	 */
+	public <T> T getAttribute(String key) {
+		

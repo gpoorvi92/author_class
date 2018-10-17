@@ -1,0 +1,10 @@
+		try {
+			URL url = new URL(urlStr);
+			return url.getHost();
+		}
+		catch (Exception e) {
+			return "";
+		}
+	}
+
+	public static final int getPort(String urlStr)

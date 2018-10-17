@@ -1,0 +1,7 @@
+		gameView.setCurrentGameAlert(null);//置空记录引用的变量		
+		gameView.setStatus(0);//重新设置GameView为待命状态
+		gameView.gvt.setChanging(true);//骰子转起来
+		gameView.setOnTouchListener(gameView);//返还监听器
+	}
+	
+}

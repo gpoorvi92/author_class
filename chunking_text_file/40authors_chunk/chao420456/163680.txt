@@ -1,0 +1,10 @@
+/*
+	位^运算符号：针对同一个数据异或两次，其值不变
+
+	 面试题：
+		请把两个数据进行交换。
+		说明：如果我没有指定数据的类型，默认是int类型。适用于我讲课。
+*/
+class OperatorTest {
+	public static void main(String[] args) {
+		/*

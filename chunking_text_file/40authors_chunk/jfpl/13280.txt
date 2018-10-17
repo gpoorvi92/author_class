@@ -1,0 +1,10 @@
+import com.jufan.platform.adapter.ChatListAdapter;
+import com.jufan.platform.http.HttpSendFactory;
+import com.jufan.platform.service.ChatImageService;
+import com.jufan.platform.service.ChatLocationService;
+import com.jufan.platform.service.ChatTextService;
+import com.jufan.platform.service.ChatUploadService;
+import com.jufan.platform.service.ChatVoiceService;
+import com.jufan.platform.ui.R;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;

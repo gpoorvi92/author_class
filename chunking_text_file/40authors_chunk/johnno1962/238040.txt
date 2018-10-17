@@ -1,0 +1,10 @@
+            entered_mouseDragged_1 = true;
+            __mouseDragged( e );
+            entered_mouseDragged_1 = false;
+        }
+        else
+            super.mouseDragged( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

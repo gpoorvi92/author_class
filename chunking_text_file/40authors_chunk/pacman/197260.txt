@@ -1,0 +1,10 @@
+	 * @return: long
+	 */
+	public static long sizeOf(String fileOrPath, boolean isFile) {
+		
+		if (isFile)
+			return FileUtils.sizeOf(new File(fileOrPath));
+		else
+			return FileUtils.sizeOfDirectory(new File(fileOrPath));
+	}
+

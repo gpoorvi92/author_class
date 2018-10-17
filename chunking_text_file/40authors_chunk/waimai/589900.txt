@@ -1,0 +1,10 @@
+
+    private String gender;
+
+    private Date birthday;
+
+    private String nickname;
+
+    public Integer getId() {
+        return id;
+    }

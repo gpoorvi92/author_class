@@ -1,0 +1,10 @@
+	 * 
+	 * @param bindAddr The address to bind the service
+	 * @param port The port used for accepting message
+	 * @param multicast The multicast address to use as destination
+	 * @since 1.8
+	 */
+	public SSDPSearchSocket(String bindAddr,int port,String multicast){
+		open(bindAddr,multicast);
+	}
+

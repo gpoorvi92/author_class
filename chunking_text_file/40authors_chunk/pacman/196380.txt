@@ -1,0 +1,10 @@
+			topicConnection = mFactory.createTopicConnection();
+
+			topicConnection.setClientID(clientID + "_" + StringHelper.random());
+			topicSession = topicConnection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
+			Topic topic = topicSession.createTopic(destName);
+			subscriber = topicSession.createDurableSubscriber(topic, "sub");
+			subscriber.setMessageListener(listener);
+			
+			topicConnection.start();			
+		} catch (JMSException e) {

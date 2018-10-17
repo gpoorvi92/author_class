@@ -1,0 +1,10 @@
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+	public static void method1() {
+		FileOutputStream fos = null;
+		try {

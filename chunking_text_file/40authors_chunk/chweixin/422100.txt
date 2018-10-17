@@ -1,0 +1,10 @@
+		LinkReqMessage linkReqMessage = new LinkReqMessage();
+		//
+		parseReqMessage(linkReqMessage, data);
+		//
+		linkReqMessage.setTitle(data.get("Title"));
+		linkReqMessage.setDescription(data.get("Description"));
+		linkReqMessage.setUrl(data.get("Url"));
+		
+		return linkReqMessage;
+	}

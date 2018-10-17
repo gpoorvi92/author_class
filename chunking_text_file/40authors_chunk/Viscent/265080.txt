@@ -1,0 +1,10 @@
+		int preSleep = Integer.valueOf(args[0]);
+		int postSleep = Integer.valueOf(args[1]);
+		String destClass = args[2];
+		
+		String stdInFile=System.getProperty("std.in");
+		if(null!=stdInFile){
+			System.setIn(new FileInputStream(new File(stdInFile)));
+		}
+
+		try {

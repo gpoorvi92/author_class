@@ -1,0 +1,10 @@
+   { 
+      assert newElement != null;
+      if (count < elements.length) 
+      {
+         elements[tail] = newElement; 
+         tail = (tail + 1) % elements.length; 
+         count++;
+         modcount++;
+         return true;
+      }

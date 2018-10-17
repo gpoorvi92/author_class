@@ -1,0 +1,10 @@
+package table;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.beans.*;
+import javax.swing.*;
+
+/**
+ * This program demonstrates how to show a simple table.
+ * @version 1.12 2012-06-09

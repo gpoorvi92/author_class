@@ -1,0 +1,10 @@
+ *  
+ * 0x02d
+ *  QCT_MSM8X60_SURF
+ *  MSM8260, pyramid, HTC Sensation
+ *  MSM8X60, mione
+ *  MSM8260, doubleshot, HTC DoubleShot
+ */
+public class CpuInfo {
+
+    // #define ARM_CPUID_ARM1026 0x4106a262

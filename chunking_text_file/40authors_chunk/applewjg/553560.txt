@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    Valid Sudoku
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/valid-sudoku/
+ Notes:
+ Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules (http://sudoku.com.au/TheRules.aspx).
+ The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
+

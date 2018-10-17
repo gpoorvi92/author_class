@@ -1,0 +1,10 @@
+	public void setUP(){
+		dao=new AccountDAO();
+		connection=dao.getConnection();
+	}
+	/**
+	 * 单条插入性能测试
+	 */
+	@Test
+	public void performanceTest(){
+		DBCollection coll=connection.getCollection(dao.getCollectionName());

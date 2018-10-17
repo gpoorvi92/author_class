@@ -1,0 +1,10 @@
+import com.jufan.platform.ui.LoginActivity;
+import com.jufan.platform.ui.MainActivity;
+import com.jufan.platform.util.GlobalVariables;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+
+public class LoginService implements IServiceLogic {
+
+	private AutoActivity ctx;
+	private String username;

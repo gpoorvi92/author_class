@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * @param bindAddr the binding address for senging multicast packet
+	 * @since 1.8
+	 */
+	public SSDPSearchSocket(InetAddress bindAddr){
+		if(bindAddr.getAddress().length!=4){
+			this.open((Inet6Address)bindAddr);
+		}else{
+			this.open((Inet4Address)bindAddr);

@@ -1,0 +1,10 @@
+
+import ipower.wechat.dao.IWeChatAccessTokenDao;
+import ipower.wechat.dao.IWeChatAccountDao;
+import ipower.wechat.domain.WeChatAccessToken;
+import ipower.wechat.domain.WeChatAccount;
+import ipower.wechat.modal.WeChatAccessTokenInfo;
+import ipower.wechat.service.IWeChatAccessTokenService;
+import ipower.wechat.utils.HttpUtil;
+
+public class WeChatAccessTokenServiceImpl  extends DataServiceImpl<WeChatAccessToken, WeChatAccessTokenInfo> implements IWeChatAccessTokenService  {

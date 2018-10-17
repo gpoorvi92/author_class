@@ -1,0 +1,10 @@
+        DebugLog.v(TAG, "libvlcplayer options:");
+        for (String opt : options) {
+            DebugLog.v(TAG, "    " + opt);
+        }
+
+        readMediaEx(mLibVlcInstance, mrl, options);
+    }
+
+    /**
+     * Change the verbosity of libvlc

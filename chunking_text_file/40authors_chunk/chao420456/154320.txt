@@ -1,0 +1,10 @@
+		short s = 100;
+		System.out.println(s);
+
+		//定义int类型的变量
+		int i = 100000;
+		System.out.println(i);
+
+		//报错
+		//int j = 2147483648;
+		//System.out.println(j);

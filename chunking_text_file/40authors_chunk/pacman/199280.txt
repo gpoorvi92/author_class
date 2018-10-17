@@ -1,0 +1,10 @@
+	 * @return the audioBitRate
+	 */
+	public int getAudioBitRate() {
+		return audioBitRate;
+	}
+
+	/**
+	 * @param audioBitRate the audioBitRate to set
+	 */
+	public void setAudioBitRate(int audioBitRate) {

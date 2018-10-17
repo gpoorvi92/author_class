@@ -1,0 +1,10 @@
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public List<List<Integer>> levelOrder_1(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();

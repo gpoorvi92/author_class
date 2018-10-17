@@ -1,0 +1,10 @@
+
+         // show file chooser dialog
+         int r = chooser.showOpenDialog(ImageViewerFrame.this);
+
+         // if image file accepted, set it as icon of the label
+         if (r == JFileChooser.APPROVE_OPTION)
+         {
+            String name = chooser.getSelectedFile().getPath();
+            logger.log(Level.FINE, "Reading file {0}", name);
+            label.setIcon(new ImageIcon(name));

@@ -1,0 +1,10 @@
+  public int getColumnNum() {
+    return this.columnNum;
+  }
+
+  public APICheck setColumnNum(int columnNum) {
+    this.columnNum = columnNum;
+    setColumnNumIsSet(true);
+    return this;
+  }
+

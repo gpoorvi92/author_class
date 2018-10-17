@@ -1,0 +1,10 @@
+    }
+
+    public String nodeId; // required
+    public String propertyName; // required
+    public String propertyValue; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      NODE_ID((short)1, "nodeId"),
+      PROPERTY_NAME((short)2, "propertyName"),

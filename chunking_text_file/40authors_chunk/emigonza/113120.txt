@@ -1,0 +1,10 @@
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+  public boolean getCapWaterMark() throws JposException;
+
+  // Properties
+  public boolean getAsyncMode() throws JposException;
+  public void    setAsyncMode(boolean asyncMode) throws JposException;
+  public boolean getAutoDisable() throws JposException;
+  public void    setAutoDisable(boolean autoDisable) throws JposException;
+  public int     getDataCount() throws JposException;

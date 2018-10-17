@@ -1,0 +1,10 @@
+						.getInstanceEmpty();
+				acd.putArrayValue("image_list", imageDataSource);
+				runOnUiThread(new Runnable() {
+
+					@Override
+					public void run() {
+						fillData(acd, getWindow().getDecorView());
+						handler.sendEmptyMessage(HIDE_LOADING);
+					}
+				});

@@ -1,0 +1,10 @@
+	{
+		try {
+			return Long.parseLong(value);
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+		}
+		return 0;
+	}
+

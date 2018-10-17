@@ -1,0 +1,9 @@
+			}while (!input.equals("java"));	
+			this.dispose();	
+			new CodecDeskTop();
+		}
+
+	public static void main(String[] args){
+		new StartHere();
+	}
+}

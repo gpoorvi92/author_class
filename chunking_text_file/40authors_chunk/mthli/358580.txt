@@ -1,0 +1,10 @@
+package transferText;
+
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.awt.event.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * This frame has a text area and buttons for copying and pasting text.

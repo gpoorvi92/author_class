@@ -1,0 +1,10 @@
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.start);
+        markdownView = new MarkdownView(this);
+        setContentView(markdownView);
+
+        Intent intent = getIntent();
+        path = intent.getStringExtra("path");

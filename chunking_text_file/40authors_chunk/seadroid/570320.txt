@@ -1,0 +1,10 @@
+            new OpenAsDialog(file) {
+                @Override
+                public void onDismiss(DialogInterface dialog) {
+                    activity.finish();
+                }
+            }.show(activity.getSupportFragmentManager(), "OpenAsDialog");
+            return;
+        }
+
+    }

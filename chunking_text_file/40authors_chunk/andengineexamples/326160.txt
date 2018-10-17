@@ -1,0 +1,10 @@
+	private SmoothCamera mSmoothCamera;
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFaceTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================
+	// Getter & Setter

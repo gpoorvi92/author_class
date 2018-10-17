@@ -1,0 +1,10 @@
+
+    @RequestMapping("/cancel")
+    public @ResponseBody Map<String, Object> cancel(MerchantCollection merchantCollection) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        try {
+            merchantCollectionService.cancel(merchantCollection);
+            map.put(Constants.RESULT_CODE, "1");
+        } catch (ServiceException e) {
+            map.put(Constants.RESULT_CODE, "0");
+            map.put(Constants.ERROR_MESSAGE, e.getMessage());

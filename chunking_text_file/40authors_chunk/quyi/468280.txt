@@ -1,0 +1,10 @@
+    if (this_present_riskLevel || that_present_riskLevel) {
+      if (!(this_present_riskLevel && that_present_riskLevel))
+        return false;
+      if (!this.riskLevel.equals(that.riskLevel))
+        return false;
+    }
+
+    boolean this_present_pak = true && this.isSetPak();
+    boolean that_present_pak = true && that.isSetPak();
+    if (this_present_pak || that_present_pak) {

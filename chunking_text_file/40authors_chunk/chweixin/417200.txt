@@ -1,0 +1,10 @@
+	 *  @return 普通用户openid。
+	 * */
+	public String getToUser() {
+		return toUser;
+	}
+	/**
+	 * 设置普通用户openid。
+	 * @param toUser
+	 * 	普通用户openid。
+	 * */

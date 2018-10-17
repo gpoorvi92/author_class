@@ -1,0 +1,10 @@
+  }
+
+  public Engine setEngineId(String engineId) {
+    this.engineId = engineId;
+    return this;
+  }
+
+  public void unsetEngineId() {
+    this.engineId = null;
+  }

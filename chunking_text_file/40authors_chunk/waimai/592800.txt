@@ -1,0 +1,10 @@
+
+    //统计日期
+    private String saleCountDate;
+
+    public String getSaleCountDate() {
+        return saleCountDate;
+    }
+
+    public void setSaleCountDate(String saleCountDate) {
+        this.saleCountDate = saleCountDate;

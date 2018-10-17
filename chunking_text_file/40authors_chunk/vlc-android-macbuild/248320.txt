@@ -1,0 +1,10 @@
+
+        parsedCpuInfo.append("CPU part : ");
+        parsedCpuInfo.append(getCpuPartText());
+        parsedCpuInfo.append("\n");
+
+        parsedCpuInfo.append("NEON : ");
+        parsedCpuInfo.append(supportNeon() ? "Yes" : "No");
+        parsedCpuInfo.append("\n");
+
+        return parsedCpuInfo.toString();

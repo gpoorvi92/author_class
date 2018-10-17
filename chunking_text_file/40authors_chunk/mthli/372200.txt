@@ -1,0 +1,10 @@
+         */
+        System.out.println("\nTesting tripleSalary:");
+        Employee harry = new Employee("Harrt", 50000);
+        System.out.println("Before: salary = " + harry.getSalary());
+        tripleSalary(harry);
+        System.out.println("After: salary = " + harry.getSalary());
+
+        /* 
+         * 第三个测试，
+         * 调用的swap方法并不能交换两个对象：

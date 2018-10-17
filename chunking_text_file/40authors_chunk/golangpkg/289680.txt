@@ -1,0 +1,10 @@
+	volatile Long rateInKiloBytes;
+
+	/**
+	 * The statistics.
+	 * 
+	 * @return
+	 */
+	long instantRateInBytes;
+	int instantRateInBytesCounter;
+	Object instantRateInBytesLock = new Object();

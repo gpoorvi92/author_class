@@ -1,0 +1,10 @@
+package chap09;
+
+import java.util.ArrayList;
+
+public class TestLifeSupportSim
+{
+    public static void main(String[] args)
+    {
+        ArrayList aList = new ArrayList();
+        V2Radiator v2 = new V2Radiator(aList);

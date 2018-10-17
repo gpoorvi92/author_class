@@ -1,0 +1,10 @@
+
+	public void setCrcAsString(String crcAsString) {
+		this.value = crcAsString;
+	}
+
+
+	public int getTotalRead() {
+		return read;
+	}
+

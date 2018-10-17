@@ -1,0 +1,10 @@
+		JobParameter parameter = new JobParameter();
+		parameter.setAppId(1000L);
+		parameter.setJobPhase(JobPhase.ON_STATIC);
+		List<ContextParameter> contextParameterList = new ArrayList<ContextParameter>();
+		ContextParameter contextParameter = new ContextParameter();
+		contextParameter.setSequenceNum(1);
+		contextParameter.setContent("test");
+		contextParameterList.add(contextParameter);
+		parameter.setContextParameterList(contextParameterList);
+		context.setParameter(parameter);

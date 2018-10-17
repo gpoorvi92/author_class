@@ -1,0 +1,8 @@
+     */
+    public static EWAHCompressedBitmap32 materialize(final IteratingRLW32 i) {
+        EWAHCompressedBitmap32 ewah = new EWAHCompressedBitmap32();
+        materialize(i, ewah);
+        return ewah;
+    }
+
+}

@@ -1,0 +1,10 @@
+                  _val69 = new com.nercis.isscp.idl.APICheck();
+                  _val69.read(iprot);
+                  _elem65.put(_key68, _val69);
+                }
+              }
+              struct.usedPermissions.add(_elem65);
+            }
+          }
+          struct.setUsedPermissionsIsSet(true);
+        }

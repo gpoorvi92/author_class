@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               node.putInt("left", getX());
+               node.putInt("top", getY());
+               node.putInt("width", getWidth());
+               node.putInt("height", getHeight());
+               node.put("title", getTitle());
+               System.exit(0);
+            }
+         });

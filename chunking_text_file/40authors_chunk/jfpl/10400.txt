@@ -1,0 +1,10 @@
+				item.putStringValue("load_data_type", "0");
+				list.add(item);
+			}
+			acd.putArrayValue("chat_list", list);
+			fillData(acd, getWindow().getDecorView(), "");
+
+		} else if (resultCode == ConstVariables.SEND_LOCATION_FLAG) {
+			String[] addressArr = intent.getStringArrayExtra("address");
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();

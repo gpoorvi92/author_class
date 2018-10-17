@@ -1,0 +1,10 @@
+            list.add(new CDKeyEntity(each));
+        }
+        return list;
+    }
+    @ACL(limit = Limit.CDKEY, type = RequestType.JSON)
+    @RequestMapping("generate")
+    @ResponseBody
+    public String generate(String cdName, @RequestParam(required = true) Integer cdCount, @RequestParam(required = true) Integer legealCount, @RequestParam(required = true) Integer giftId, @RequestParam(required = true) String dateLimit, HttpSession session) throws IOException, ParseException
+    {
+        UUID uuid = UUID.randomUUID();

@@ -1,0 +1,10 @@
+
+	@Override
+	public OrderBxgFdw selectBxgFdwById(int iD) {
+		return (OrderBxgFdw) sessionFactory.getCurrentSession().get(OrderBxgFdw.class, iD);
+	}
+
+	@Override
+	public boolean update(OrderBxgFdw fdw) {
+		try {
+			sessionFactory.getCurrentSession().update(fdw);

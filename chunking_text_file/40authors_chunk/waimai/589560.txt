@@ -1,0 +1,10 @@
+
+    private String realName;
+
+    private String image;
+
+    private Integer collectionCount;
+
+    public Integer getCollectionCount() {
+        return collectionCount;
+    }

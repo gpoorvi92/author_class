@@ -1,0 +1,10 @@
+	protected volatile PipeContext pipeCtx;
+
+	@Override
+	public void init(PipeContext pipeCtx) {
+		this.pipeCtx = pipeCtx;
+
+	}
+
+	@Override
+	public void setNextPipe(Pipe<?, ?> nextPipe) {

@@ -1,0 +1,10 @@
+   private DefaultTreeModel model;
+   private JTree tree;
+   private JTextField textField;
+   private JTextArea textArea;
+
+   public ClassTreeFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // the root of the class tree is Object

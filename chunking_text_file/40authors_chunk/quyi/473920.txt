@@ -1,0 +1,10 @@
+      switch (field) {
+      case SUBMIT_ID:
+        return isSetSubmitId();
+      }
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)

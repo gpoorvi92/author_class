@@ -1,0 +1,10 @@
+        if (value == null) {
+          unsetUserApps();
+        } else {
+          setUserApps((List<com.nercis.isscp.idl.UserApp>)value);
+        }
+        break;
+
+      case RULES:
+        if (value == null) {
+          unsetRules();

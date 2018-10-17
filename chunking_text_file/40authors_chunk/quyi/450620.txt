@@ -1,0 +1,10 @@
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public ruleSync_result getResult(I iface, ruleSync_args args) throws org.apache.thrift.TException {
+        ruleSync_result result = new ruleSync_result();
+        try {
+          result.success = iface.ruleSync(args.rules);

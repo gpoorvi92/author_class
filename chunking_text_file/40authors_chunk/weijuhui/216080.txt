@@ -1,0 +1,10 @@
+		}
+		float bitmapWidthF = source.getWidth();
+		float bitmapHeightF = source.getHeight();
+
+		float bitmapAspect = bitmapWidthF / bitmapHeightF;
+		float viewAspect = (float) targetWidth / targetHeight;
+
+		if (bitmapAspect > viewAspect) {
+			float scale = targetHeight / bitmapHeightF;
+			if (scale < .9F || scale > 1F) {

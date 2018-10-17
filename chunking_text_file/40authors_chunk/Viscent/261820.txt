@@ -1,0 +1,10 @@
+	// 用于记录AlarmAgent是否连接上告警服务器
+	private volatile boolean connectedToServer = false;
+
+	// 模式角色：GuardedSuspension.Predicate
+	private final Predicate agentConnected = new Predicate() {
+		@Override
+		public boolean evaluate() {
+			return connectedToServer;
+		}
+	};

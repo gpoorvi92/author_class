@@ -1,0 +1,10 @@
+        // 1/22/2002 mod (from Lisp code): if not in hash, try lower case:
+        if (ss == null)
+            ss = lexicon.get(word.toLowerCase());
+        if (ss != null) return true;
+        return false;
+    }
+
+    /**
+     * 
+     * @param words list of strings to tag with parts of speech

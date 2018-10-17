@@ -1,0 +1,10 @@
+
+      // print match if found
+      if (result >= 0) System.out.println(elements[result]);
+   }
+}
+
+/**
+ * An invocation handler that prints out the method name and parameters, then
+ * invokes the original method
+ */

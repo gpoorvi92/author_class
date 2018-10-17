@@ -1,0 +1,10 @@
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public ruleSync_result(ruleSync_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;
+      }

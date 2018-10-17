@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class WarAlert extends GameAlert{
+	CityDrawable enemy;//攻击自己的那个城池
+	CityDrawable self;//被攻击的自己的那个城池
+	String [] alertMessage = {
+			"后方探子来报，驻守xxyy城池的zz将军率领大军，奇袭你的城市aa，请选择：",
+			"经过将士们殊死抵抗，敌人久攻不下，终于撤军了。",
+			"守军积极防守，但是由于兵力悬殊太大，你的城池被攻破了，xx将军也被迫投降了敌人。"
+	};

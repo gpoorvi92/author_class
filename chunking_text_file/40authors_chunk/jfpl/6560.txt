@@ -1,0 +1,10 @@
+
+public class VoiceRecordDialog extends Dialog {
+
+	private Context ctx;
+
+	private TextView tipTv;
+	private ImageView volumeIv1;
+	private ImageView volumeIv2;
+	private ImageView volumeIv3;
+	private ImageView[] volumeArr;

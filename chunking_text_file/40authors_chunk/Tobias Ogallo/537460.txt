@@ -1,0 +1,10 @@
+
+		jButton4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+				//System.exit(0);
+			}
+		}); 
+
+		jPanel1.add(jPanel2, BorderLayout.SOUTH);
+		jPanel1.setPreferredSize(new Dimension(750, 300));

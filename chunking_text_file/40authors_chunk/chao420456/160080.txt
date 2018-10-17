@@ -1,0 +1,10 @@
+	}
+
+	public static void change(StringBuffer sb1, StringBuffer sb2) {
+		System.out.println(sb1 + "---" + sb2);// hello---world
+		sb1 = sb2;// sb1="world"
+		sb2 = sb1.append(sb2); // sb2=worldworld
+		System.out.println(sb1 + "---" + sb2);// world---worldworld ???
+	}
+
+	public static void change(String s1, String s2) {

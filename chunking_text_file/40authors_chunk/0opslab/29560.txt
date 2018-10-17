@@ -1,0 +1,10 @@
+ * This detector identifies byte order marks of the following codepages to give a 100 % deterministic result in case of
+ * detection.
+ * </p>
+ * 
+ * <p>
+ * <table border="1">
+ * <tr>
+ * <td>00 00 FE FF</td>
+ * <td>UCS-4, big-endian machine (1234 order)</td>
+ * </tr>

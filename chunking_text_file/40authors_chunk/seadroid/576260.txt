@@ -1,0 +1,10 @@
+
+        MenuItem itemCancel = menu.findItem(R.id.cancel);
+        MenuItem itemRetry = menu.findItem(R.id.retry);
+        MenuItem itemRemove = menu.findItem(R.id.remove);
+        MenuItem itemRemoveAll = menu.findItem(R.id.remove_all_finished);
+
+        itemCancel.setVisible(false);
+        itemRetry.setVisible(false);
+        itemRemove.setVisible(false);
+        itemRemoveAll.setVisible(false);

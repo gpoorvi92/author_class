@@ -1,0 +1,10 @@
+    public long dateTake;
+
+    public long getDateTake() {
+        return dateTake;
+    }
+
+    public void setDateTake(long dateTake) {
+        this.dateTake = dateTake;
+    }
+

@@ -1,0 +1,10 @@
+
+    private boolean mHasARMv7;
+    private boolean mHasARMv6;
+    private boolean mHasARMv5;
+    private String mProcess;
+
+    private static CpuInfo sInstance;
+
+    public static LongSparseArray<String> sCpuPartMap = new LongSparseArray<String>() {
+        {

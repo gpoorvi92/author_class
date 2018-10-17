@@ -1,0 +1,10 @@
+ 			dispose ();				//Closing the Form.
+	 	}
+
+		setVisible (true);
+
+	}
+
+	//Action Performed By the Form's Button.
+
+	public void actionPerformed (ActionEvent ae) {

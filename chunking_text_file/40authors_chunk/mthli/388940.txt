@@ -1,0 +1,10 @@
+      {
+         this.file = file;
+      }
+
+      // The following method executes in the worker thread; it doesn't touch Swing components.
+
+      @Override
+      public StringBuilder doInBackground() throws IOException, InterruptedException
+      {
+         int lineNumber = 0;

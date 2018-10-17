@@ -1,0 +1,10 @@
+                getActivity().supportInvalidateOptionsMenu();
+                ((BrowserActivity)getActivity()).disableUpButton();
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int arg0) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override

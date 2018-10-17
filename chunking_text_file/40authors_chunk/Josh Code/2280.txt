@@ -1,0 +1,10 @@
+      double m = magnitude(v);
+      if (Math.abs(m) < 0.00001)
+      {
+          v.x = 1;
+          v.y = 0;
+          v.z = 0; // just some unit vector
+      }
+      else
+      {
+          m = 1 / m;

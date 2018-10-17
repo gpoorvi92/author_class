@@ -1,0 +1,10 @@
+    this.targetAddress = targetAddress;
+    return this;
+  }
+
+  public void unsetTargetAddress() {
+    this.targetAddress = null;
+  }
+
+  /** Returns true if field targetAddress is set (has been assigned a value) and false otherwise */
+  public boolean isSetTargetAddress() {

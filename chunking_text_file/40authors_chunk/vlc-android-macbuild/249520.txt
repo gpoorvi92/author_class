@@ -1,0 +1,10 @@
+        DefMediaSegmentPlayer itemPlayer = new DefMediaSegmentPlayer();
+        itemPlayer.setOnBufferingUpdateListener(this);
+        itemPlayer.setOnCompletionListener(this);
+        itemPlayer.setOnErrorListener(this);
+        itemPlayer.setOnInfoListener(this);
+        itemPlayer.setOnPreparedListener(this);
+        itemPlayer.setOnSeekCompleteListener(this);
+        itemPlayer.setOnVideoSizeChangedListener(this);
+        itemPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        itemPlayer.setScreenOnWhilePlaying(true);

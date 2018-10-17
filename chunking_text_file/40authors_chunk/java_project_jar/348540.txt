@@ -1,0 +1,10 @@
+    private final OutputStream out;
+    private final String defaultEncoding;
+    private StringWriter xmlPrologWriter;
+    private Writer writer;
+    private String encoding;
+    static final Pattern ENCODING_PATTERN;
+
+    static 
+    {
+        ENCODING_PATTERN = XmlStreamReader.ENCODING_PATTERN;

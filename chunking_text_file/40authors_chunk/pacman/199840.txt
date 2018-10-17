@@ -1,0 +1,10 @@
+		IWorkerPool pool = new DefaultWorkerPool();
+		IWorker worker = (IWorker) factory.getBean("worker1");
+		IWorker worker2 = (IWorker) factory.getBean("worker2");
+		
+		worker.setAttribute("p1", 1);
+		worker2.setAttribute("p2", 2);
+		Future<?> result = pool.submit(worker);
+		Future<?> result2 = pool.submit(worker2);
+		result.get();
+		int re = worker.getAttribute("steps.result");

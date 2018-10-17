@@ -1,0 +1,10 @@
+		statusCode = code;
+	}
+
+	public int getStatusCode()
+	{
+		if (statusCode != 0)
+			return statusCode;
+		HTTPStatus httpStatus = new HTTPStatus(getFirstLine());
+		return httpStatus.getStatusCode();
+	}

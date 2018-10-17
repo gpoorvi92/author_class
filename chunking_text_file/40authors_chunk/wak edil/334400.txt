@@ -1,0 +1,10 @@
+    	jlbl.setIconTextGap(5);
+		
+		jbabout.setToolTipText(ttabout);
+		jbmenu.setToolTipText(ttmenu); 
+		jborder.setToolTipText(ttorder);
+		jbexit.setToolTipText(ttexit);
+			
+		JPanel p1=new JPanel();
+		p1.setLayout(new FlowLayout());
+		p1.setBackground(Color.PINK);

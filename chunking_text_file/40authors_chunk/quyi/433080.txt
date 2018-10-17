@@ -1,0 +1,10 @@
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(SystemResources.class, metaDataMap);
+  }
+
+  public SystemResources() {
+  }
+
+  public SystemResources(
+    String processName,
+    String threadName,
+    String checkTime,

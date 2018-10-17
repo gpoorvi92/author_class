@@ -1,0 +1,10 @@
+		if(responseBody.startsWith("{") || responseBody.startsWith("[")) {
+			result = new JSONTokener(responseBody).nextValue();
+		}
+		if (result == null) {
+			result = responseBody;
+		}
+		return result;
+    }
+
+    @Override

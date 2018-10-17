@@ -1,0 +1,10 @@
+
+      // draw a circle with the same center
+
+      double centerX = rect.getCenterX();
+      double centerY = rect.getCenterY();
+      double radius = 150;
+
+      Ellipse2D circle = new Ellipse2D.Double();
+      circle.setFrameFromCenter(centerX, centerY, centerX + radius, centerY + radius);
+      g2.draw(circle);

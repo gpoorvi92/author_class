@@ -1,0 +1,8 @@
+                ", height=" + height +
+                ", duration=" + duration +
+                ", thumb=" + thumb +
+                ", mime_type='" + mime_type + '\'' +
+                ", file_size=" + file_size +
+                '}';
+    }
+}

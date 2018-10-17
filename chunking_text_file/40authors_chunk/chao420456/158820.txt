@@ -1,0 +1,10 @@
+
+/*
+ * 一级菜单
+ */
+public class MenuDemo {
+	public static void main(String[] args) {
+		// 创建窗体对象
+		final Frame f = new Frame("一级菜单");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);

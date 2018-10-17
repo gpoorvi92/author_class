@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class NodeHeatTupleScheme extends TupleScheme<NodeHeat> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, NodeHeat struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetNodeId()) {

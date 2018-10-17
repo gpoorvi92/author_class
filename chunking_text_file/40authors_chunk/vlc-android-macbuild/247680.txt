@@ -1,0 +1,10 @@
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        Bundle bundle = new Bundle();
+
+        bundle.putString(BUNDLE_FROM_TAG, mFromTag);
+        bundle.putString(BUNDLE_TYPE_TAG, mTypeTag);
+        bundle.putString(BUNDLE_MRL, mMrl);
+        bundle.putBoolean(BUNDLE_IS_INDEX_MRL, mIsIndexMrl);
+        bundle.putBoolean(BUNDLE_NEED_MEMBUF, mNeedMembuf);
+

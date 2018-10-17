@@ -1,0 +1,10 @@
+ * A frame that restores position and size from a properties file and updates the properties upon
+ * exit.
+ */
+class PropertiesFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   private File propertiesFile;
+   private Properties settings;

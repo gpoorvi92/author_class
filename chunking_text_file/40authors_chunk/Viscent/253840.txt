@@ -1,0 +1,10 @@
+
+		firstPipe.process(input);
+	}
+
+	@Override
+	public void init(final PipeContext ctx) {
+
+		LinkedList<Pipe<?, ?>> pipesList = (LinkedList<Pipe<?, ?>>) pipes;
+		Pipe<?, ?> prevPipe = this;
+		for (Pipe<?, ?> pipe : pipesList) {

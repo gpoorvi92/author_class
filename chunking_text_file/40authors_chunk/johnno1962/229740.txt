@@ -1,0 +1,10 @@
+
+/// class java.awt.event.ContainerAdapter ///
+
+package org.genie.java_awt;
+
+public class ContainerAdapterProxy extends java.awt.event.ContainerAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.ContainerAdapter()

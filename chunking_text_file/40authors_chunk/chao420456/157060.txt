@@ -1,0 +1,10 @@
+			if(userNames.contains("@exit")){
+				String[] dis = {};
+				jlt_disUsers.setListData(dis);
+			}
+		}
+	}
+
+	public void setDisMess(String message) {
+		if(message.contains("@chat")){
+			int local = message.indexOf("@chat");

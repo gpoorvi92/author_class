@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         byte[] classBytes = null;
+         classBytes = loadClassBytes(name);
+         Class<?> cl = defineClass(name, classBytes, 0, classBytes.length);
+         if (cl == null) throw new ClassNotFoundException(name);
+         return cl;
+      }
+      catch (IOException e)

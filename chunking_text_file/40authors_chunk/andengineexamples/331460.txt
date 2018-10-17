@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	protected void onReadTransmissionData(DataInputStream pDataInputStream) throws IOException {
+		this.mPaddleID = pDataInputStream.readInt();
+		this.mX = pDataInputStream.readFloat();
+		this.mY = pDataInputStream.readFloat();
+	}
+
+	@Override

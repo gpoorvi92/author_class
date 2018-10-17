@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapDisplay"),
+        makeProperty("CapLanguage"),
+        makeProperty("CapKeyboard"),
+        makeProperty("CapMACCalculation"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapTone"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),

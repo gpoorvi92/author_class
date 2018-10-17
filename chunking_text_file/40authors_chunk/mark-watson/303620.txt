@@ -1,0 +1,10 @@
+     *
+     * @return the size of the scored list
+     */
+    public int size() { return strings.size(); }
+
+    /**
+     * Get a specific value
+     *
+     * @param index
+     * @return the value at the specified index

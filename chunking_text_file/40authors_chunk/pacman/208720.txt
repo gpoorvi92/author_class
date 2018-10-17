@@ -1,0 +1,10 @@
+		
+		boolean result = true;
+		CloseableHttpClient client = null;
+		CloseableHttpResponse response = null;
+		HttpGet getMethod = null;
+		FileOutputStream output = null;
+		
+		try {
+			
+			FileHelper.ensureExists(localFile, true);

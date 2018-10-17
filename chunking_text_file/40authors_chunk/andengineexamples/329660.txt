@@ -1,0 +1,10 @@
+		this.mMenuScene.buildAnimations();
+
+		this.mMenuScene.setBackgroundEnabled(false);
+
+		this.mMenuScene.setOnMenuItemClickListener(this);
+	}
+
+	// ===========================================================
+	// Inner and Anonymous Classes
+	// ===========================================================

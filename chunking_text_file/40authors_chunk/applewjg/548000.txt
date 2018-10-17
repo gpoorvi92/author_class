@@ -1,0 +1,10 @@
+                rhead = rhead.next;
+            }
+        }
+        lhead.next = rightdummy.next;
+        rhead.next = null;
+        return leftdummy.next;
+    }
+    public ListNode partition(ListNode head, int x) {
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;

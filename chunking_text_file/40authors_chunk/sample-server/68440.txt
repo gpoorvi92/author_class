@@ -1,0 +1,10 @@
+            rpcClient.connect();
+            int attempts = 0;
+            while (!rpcClient.isConnected() && attempts < 10)
+            {
+                log.info("BaseRpcConnection reconnect remote server, host = {} port = {} attempts = {}", new Object[]{host, port, ++attempts});
+                rpcClient.connect();
+            }
+            if (!rpcClient.isConnected())
+            {
+                log.info("BaseRpcConnection failed to connect remote server, host = {} port = {} attempts = {}", new Object[]{host, port, attempts});

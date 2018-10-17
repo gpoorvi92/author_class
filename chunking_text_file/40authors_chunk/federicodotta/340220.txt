@@ -1,0 +1,10 @@
+ */
+public interface IScanIssue
+{
+    /**
+     * This method returns the URL for which the issue was generated.
+     *
+     * @return The URL for which the issue was generated.
+     */
+    java.net.URL getUrl();
+

@@ -1,0 +1,10 @@
+                  "Can't create log file handler", e);
+         }
+      }
+
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               Handler windowHandler = new WindowHandler();
+               windowHandler.setLevel(Level.ALL);

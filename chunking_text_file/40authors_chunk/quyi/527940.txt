@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField WHY_FIELD_DESC = new org.apache.thrift.protocol.TField("why", org.apache.thrift.protocol.TType.STRING, (short)1);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new InvalidRequestExceptionStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new InvalidRequestExceptionTupleSchemeFactory());
+  }
+
+  public String why; // required
+

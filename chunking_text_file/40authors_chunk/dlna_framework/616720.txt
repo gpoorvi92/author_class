@@ -1,0 +1,10 @@
+public class SSDPNotifySocket extends HTTPMUSocket implements Runnable
+{
+	private boolean useIPv6Address;
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public SSDPNotifySocket(String bindAddr)
+	{

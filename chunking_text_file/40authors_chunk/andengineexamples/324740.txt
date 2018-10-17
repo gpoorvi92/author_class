@@ -1,0 +1,10 @@
+	private ITextureRegion mFaceTextureRegionBilinear;
+	private ITextureRegion mFaceTextureRegionRepeating;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================

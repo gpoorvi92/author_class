@@ -1,0 +1,10 @@
+
+/**
+ * @ClassName: TaskDAOImpl
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月9日 上午1:00:37
+ */
+public class TaskDAOImpl extends JdbcDaoSupport implements ITaskDAO {
+
+	class TaskAddAction extends SqlUpdate {

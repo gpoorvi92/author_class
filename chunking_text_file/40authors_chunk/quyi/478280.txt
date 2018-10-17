@@ -1,0 +1,10 @@
+      }
+      if (other.isSetUserAppId()) {
+        this.userAppId = other.userAppId;
+      }
+    }
+
+    public queryApp_args deepCopy() {
+      return new queryApp_args(this);
+    }
+

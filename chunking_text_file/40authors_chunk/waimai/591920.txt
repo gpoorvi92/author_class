@@ -1,0 +1,6 @@
+                throw new ServiceException("删除失败");
+            }
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+    private SSLContext context;
+    private String[] allowedCiphers;
+    private String[] allowedProtocols;
+
+    public SSLSeafileSocketFactory(KeyManager[] km, TrustManager[] tm, SecureRandom random) throws NoSuchAlgorithmException, KeyManagementException {
+        context = SSLContext.getInstance("TLS");
+        context.init(km, tm, random);
+
+        allowedProtocols = getProtocolList();
+        allowedCiphers = getCipherList();

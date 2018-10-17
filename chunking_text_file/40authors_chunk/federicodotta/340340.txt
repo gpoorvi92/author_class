@@ -1,0 +1,10 @@
+    /**
+     * This method returns detailed information about this specific instance of
+     * the issue.
+     *
+     * @return Detailed information about this specific instance of the issue,
+     * or
+     * <code>null</code> if none applies.
+     */
+    String getIssueDetail();
+

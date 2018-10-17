@@ -1,0 +1,10 @@
+        });
+        toolBar.add(save);
+        
+        //second button
+        update.setToolTipText("Update");
+        update.addActionListener(new ActionListener() 
+			 				{
+            					public void actionPerformed(ActionEvent e) 
+            					{
+            						JOptionPane.showMessageDialog(null, "pressed");

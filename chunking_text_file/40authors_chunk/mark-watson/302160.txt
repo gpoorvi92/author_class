@@ -1,0 +1,10 @@
+			System.out.println("Total no of states : " + totalStates);
+
+			for (int stateIndex = 0; stateIndex < totalStates; stateIndex++) {
+				Node firstStateNode = listOfStates.item(stateIndex);
+				if (firstStateNode.getNodeType() == Node.ELEMENT_NODE) {
+					Element firstStateElement = (Element) firstStateNode;
+					String name = firstStateElement.getAttribute("name").replaceAll("'", "");
+					String abbreviation = firstStateElement.getAttribute("abbrev");
+					String industry = firstStateElement.getAttribute("industry").replaceAll("'", "");
+					String agriculture = firstStateElement.getAttribute("agriculture").replaceAll("'", "");

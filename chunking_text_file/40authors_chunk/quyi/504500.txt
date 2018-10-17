@@ -1,0 +1,10 @@
+      return isSetUserApps();
+    case RULES:
+      return isSetRules();
+    case PLOTS:
+      return isSetPlots();
+    case JOB_PRIORITY:
+      return isSetJobPriority();
+    case TASK_INFO:
+      return isSetTaskInfo();
+    }

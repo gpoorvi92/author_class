@@ -1,0 +1,10 @@
+
+  public java.util.Iterator<String> getFeaturesCharactersIterator() {
+    return (this.featuresCharacters == null) ? null : this.featuresCharacters.iterator();
+  }
+
+  public void addToFeaturesCharacters(String elem) {
+    if (this.featuresCharacters == null) {
+      this.featuresCharacters = new ArrayList<String>();
+    }
+    this.featuresCharacters.add(elem);

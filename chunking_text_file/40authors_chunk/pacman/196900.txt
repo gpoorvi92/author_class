@@ -1,0 +1,10 @@
+
+	public final static String FILE_SEPARATOR = System.getProperties().getProperty("file.separator");
+	
+	/**
+	 * Checks current environment is window or *nix.
+	 * 
+	 * @Title: isWindow
+	 * @return
+	 * @return: boolean
+	 */

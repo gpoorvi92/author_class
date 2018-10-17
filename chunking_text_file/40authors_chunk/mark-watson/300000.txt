@@ -1,0 +1,10 @@
+            queue.removeFromFrontOfQueue(); // ignore return value
+        }
+        // now calculate the shortest path from the predecessor array:
+        maxDepth = 0;
+        if (success) {
+            searchPath[maxDepth++] = goalLoc;
+            for (int i=0; i<100; i++) {
+                searchPath[maxDepth] = predecessor[searchPath[maxDepth - 1].x][searchPath[maxDepth - 1].y];
+                maxDepth++;
+                if (equals(searchPath[maxDepth - 1], startLoc))  break;  // back to starting node

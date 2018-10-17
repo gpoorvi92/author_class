@@ -1,0 +1,10 @@
+            return charSequence.charAt(idx++);
+    }
+
+    public int read(char array[], int offset, int length)
+    {
+        if(idx >= charSequence.length())
+            return -1;
+        if(array == null)
+            throw new NullPointerException("Character array is missing");
+        if(length < 0 || offset + length > array.length)

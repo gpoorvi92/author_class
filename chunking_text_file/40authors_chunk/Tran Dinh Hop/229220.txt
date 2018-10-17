@@ -1,0 +1,10 @@
+	//	size--;
+	//	return o;
+	//}
+
+	public boolean isEmpty(){
+		if(size==0)return true;
+		return false;
+	}
+	
+	public int sizeQ(){

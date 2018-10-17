@@ -1,0 +1,10 @@
+
+    boolean this_present_taskQueueNume = true;
+    boolean that_present_taskQueueNume = true;
+    if (this_present_taskQueueNume || that_present_taskQueueNume) {
+      if (!(this_present_taskQueueNume && that_present_taskQueueNume))
+        return false;
+      if (this.taskQueueNume != that.taskQueueNume)
+        return false;
+    }
+

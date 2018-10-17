@@ -1,0 +1,10 @@
+		user.setUserName(userName);
+		user.setType(customer != null ? "customer" : "");
+		user.setLinkid(customer.getID());
+		user.setPassword(MD5Util.getMD5(password));
+			
+		if(!userService.saveUser(user)){
+			return "page/login/login.jsp?registerStatus=" + "failed";
+		}
+		
+		return "page/login/login.jsp?registerName=" + userName;

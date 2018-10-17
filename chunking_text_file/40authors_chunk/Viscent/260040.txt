@@ -1,0 +1,10 @@
+		} catch (FileNotFoundException e) {
+			storage.decrementSectionFileCount(fileNameParts[1]);
+			logger.error("Failed to store request", e);
+		} catch (IOException e) {
+			storage.decrementSectionFileCount(fileNameParts[1]);
+			logger.error("Failed to store request", e);
+		}
+
+	}
+

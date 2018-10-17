@@ -1,0 +1,10 @@
+
+	private final static ILog logger = LogFactory.getLog(ExecuteContext.class);
+	
+	//execute time of each step.
+	private final ThreadLocal<Long> executeTimer = new ThreadLocal<Long>();;
+	
+	//total execute time of the whole task.
+	private final AtomicLong totalTimer = new AtomicLong();
+	
+	//last executed duration.

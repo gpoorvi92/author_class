@@ -1,0 +1,10 @@
+     */
+    static final byte CONTEXT_TARGET_SITE_MAP_TABLE = 5;
+    /**
+     * Used to indicate that the context menu is being invoked in the Proxy
+     * history.
+     */
+    static final byte CONTEXT_PROXY_HISTORY = 6;
+    /**
+     * Used to indicate that the context menu is being invoked in the Scanner
+     * results.

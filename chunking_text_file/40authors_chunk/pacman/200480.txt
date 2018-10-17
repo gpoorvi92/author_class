@@ -1,0 +1,10 @@
+	public Object execute(ExecuteContext context) throws Exception {
+
+		List<String> resList = context.getAttribute(Constants.CONTEXT_WEB_RESOURCES);
+		String baseDir = context.getAttribute(Constants.CONTEXT_WEB_RESOURCES_TEMP_DIR);
+		String mediaSrc = context.getAttribute(Constants.CONTEXT_MEDIA_PATH);
+		String mediaTarget = FileHelper.combinePath(baseDir, StringHelper.getFileBareName(mediaSrc));
+		String resTargetDir = context.getAttribute(Constants.CONTEXT_WEB_RESOURCES_TARGET_DIR);
+		
+		logger.info("===>" + mediaSrc + " >> " + mediaTarget);
+		FileHelper.copyFile(mediaSrc, mediaTarget);

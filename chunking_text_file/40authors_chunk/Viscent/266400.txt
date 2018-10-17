@@ -1,0 +1,10 @@
+	public AlarmSendingThread() {
+
+		alarmQueue = new ArrayBlockingQueue<AlarmInfo>(100);
+
+		submittedAlarmRegistry = new ConcurrentHashMap<String, AtomicInteger>();
+
+		alarmAgent.init();
+	}
+
+	@Override

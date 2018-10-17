@@ -1,0 +1,10 @@
+    }
+
+    public List<Map<String,com.nercis.isscp.idl.APICheck>> getUsedPermissions() {
+      return this.usedPermissions;
+    }
+
+    public updateUserAppInfo_args setUsedPermissions(List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions) {
+      this.usedPermissions = usedPermissions;
+      return this;
+    }

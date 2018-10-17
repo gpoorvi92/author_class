@@ -1,0 +1,10 @@
+  public int     getDataCount() throws JposException;
+  public boolean getDataEventEnabled() throws JposException;
+  public void    setDataEventEnabled(boolean dataEventEnabled)
+                     throws JposException;
+  public int     getDocumentHeight() throws JposException;
+  public void    setDocumentHeight(int nDocumentHeight) throws JposException;
+  public int     getDocumentWidth() throws JposException;
+  public void    setDocumentWidth(int nDocumentWidth) throws JposException;
+  public String  getFileID() throws JposException;
+  public void    setFileID(String sFileID) throws JposException;

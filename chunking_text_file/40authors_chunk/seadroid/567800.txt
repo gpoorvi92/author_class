@@ -1,0 +1,10 @@
+        Log.d(DEBUG_TAG, "share " + localPath);
+        Intent chooserIntent = new Intent(this, SeafilePathChooserActivity.class);
+        startActivityForResult(chooserIntent, CHOOSE_COPY_MOVE_DEST_REQUEST);
+    }
+
+    private String getSharedFilePath(Uri uri) {
+        if (uri == null) {
+            return null;
+        }
+

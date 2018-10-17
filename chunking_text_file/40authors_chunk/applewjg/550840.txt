@@ -1,0 +1,10 @@
+        int one = 0, twice = 0;
+        for (int num : A) {
+            twice = twice | (one & num);
+            one = one ^ num;
+            int three = one & twice;
+            one = one ^ three;
+            twice = twice ^ three;
+        }
+        return one;
+    }

@@ -1,0 +1,10 @@
+			try {
+				attr=JsonPojoMapper.toJson(acctAttr, true);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			AccountEntity entity=new AccountEntity("hejing"+i,"ddddddd",attr);
+			acctArray.add(entity);
+		}
+		AccountBody body=new AccountBody(acctArray);
+		AddAccountRequest request=new AddAccountRequest(body);

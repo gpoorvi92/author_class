@@ -1,0 +1,10 @@
+      @Override
+      public void process(List<ProgressData> data)
+      {
+         if (isCancelled()) return;
+         StringBuilder b = new StringBuilder();
+         statusLine.setText("" + data.get(data.size() - 1).number);
+         for (ProgressData d : data)
+         {
+            b.append(d.line);
+            b.append("\n");

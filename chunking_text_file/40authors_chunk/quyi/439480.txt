@@ -1,0 +1,10 @@
+    case CPU_MODEL:
+      return getCpuModel();
+
+    case CPU_CORES:
+      return Integer.valueOf(getCpuCores());
+
+    case CPU_MHZ:
+      return Integer.valueOf(getCpuMhz());
+
+    case MEM_SIZE:

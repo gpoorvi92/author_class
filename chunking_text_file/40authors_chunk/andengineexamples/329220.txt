@@ -1,0 +1,10 @@
+				@Override
+				protected InputStream onGetInputStream() throws IOException {
+					return PVRGZTextureExample.this.getResources().openRawResource(R.raw.house_pvrgz_argb_8888);
+				}
+			};
+			this.mTexture.load();
+
+			this.mHouseTextureRegion = TextureRegionFactory.extractFromTexture(this.mTexture, 0, 0, 512, 512);
+		} catch (final Throwable e) {
+			Debug.e(e);

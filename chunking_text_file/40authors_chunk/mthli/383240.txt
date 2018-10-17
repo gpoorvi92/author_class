@@ -1,0 +1,10 @@
+         return b.action.equals("insert") && getName().indexOf(b.getName()) >= 0;
+      }
+      else if (action.equals("avoid"))
+      {
+         if (b.action.equals("avoid")) return b.badWordSet().containsAll(badWordSet());
+         else if (b.action.equals("insert"))
+         {
+            for (String badWord : badWordSet())
+               if (b.getName().indexOf(badWord) >= 0) return false;
+            return true;

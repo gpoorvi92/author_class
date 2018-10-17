@@ -1,0 +1,10 @@
+    this.objectName = objectName;
+    return this;
+  }
+
+  public void unsetObjectName() {
+    this.objectName = null;
+  }
+
+  /** Returns true if field objectName is set (has been assigned a value) and false otherwise */
+  public boolean isSetObjectName() {

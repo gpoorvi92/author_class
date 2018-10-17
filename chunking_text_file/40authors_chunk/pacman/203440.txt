@@ -1,0 +1,10 @@
+	}
+	
+	public String trimToBareName(String url) {
+		
+		String result = "";
+		
+		if (StringHelper.isEmpty(url)) 
+			return result;
+		
+		if (url.startsWith("http")) {

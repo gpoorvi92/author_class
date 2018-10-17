@@ -1,0 +1,10 @@
+    /**
+     * Bind the data for the specified {@code position} to the view.
+     */
+    public abstract void bindView(T item, int position, View view);
+
+    @Override
+    public final View getDropDownView(int position, View view, ViewGroup container) {
+        if (view == null) {
+            view = newDropDownView(inflater, position, container);
+            if (view == null) {

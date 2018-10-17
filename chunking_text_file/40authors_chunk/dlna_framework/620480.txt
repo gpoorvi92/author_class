@@ -1,0 +1,10 @@
+	
+	private InetAddress[] binds = null;
+	private int port = Device.HTTP_DEFAULT_PORT;
+	
+	public HTTPServerList() {
+	}
+	
+	public HTTPServerList(InetAddress[] list, int port) {
+		this.binds = list;
+		this.port = port;

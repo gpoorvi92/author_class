@@ -1,0 +1,10 @@
+
+	boolean updateOrder(Order order);
+
+	boolean deleteOrder(Order order);
+
+	List<Order> selectAllOrders();
+
+	@SuppressWarnings("rawtypes")
+	List selectDoneOrderByCreateDateACustomerLikeCondition(String startDate,String endDate, String customer,
+			int start, int limit);

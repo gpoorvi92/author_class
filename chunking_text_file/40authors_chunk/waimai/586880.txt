@@ -1,0 +1,10 @@
+        } else {
+            goodsList = goodsService.findAll();
+        }
+        List<Merchant> merchantList = merchantService.findAll();
+        if (!"2".equals(vo.getKeywords())) {
+            List<SaleCount> topTenList = saleCountService.findTopTen(vo);
+            modelAndView.addObject("topTenList", topTenList);
+        }
+        modelAndView.addObject("saleCountMap", saleCountMap);
+        modelAndView.addObject("goodsList", goodsList);

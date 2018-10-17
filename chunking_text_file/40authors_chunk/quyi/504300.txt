@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field taskInfo is set (has been assigned a value) and false otherwise */
+  public boolean isSetTaskInfo() {
+    return this.taskInfo != null;
+  }
+
+  public void setTaskInfoIsSet(boolean value) {
+    if (!value) {
+      this.taskInfo = null;

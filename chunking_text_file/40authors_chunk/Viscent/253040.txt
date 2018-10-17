@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch12.ms;
+
+/**
+ * 表示子任务处理失败的异常。
+ * 
+ * @author Viscent Huang
+ */

@@ -1,0 +1,10 @@
+                  zoomOut();
+                  break;
+          }
+      }
+  }
+
+  public void keyReleased(KeyEvent e)
+  {
+  }
+

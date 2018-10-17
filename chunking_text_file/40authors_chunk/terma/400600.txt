@@ -1,0 +1,8 @@
+        while ((handler = handlers.poll()) != null) handler.destroy();
+        handlers = null;
+
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info(name + " was shutdown");
+    }
+
+}

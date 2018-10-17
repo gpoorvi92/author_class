@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void clear() {
+      this.missionId = null;
+      this.userAppId = null;
+      this.plotsStatus = null;
+      this.functionStatus = null;
+    }
+

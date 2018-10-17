@@ -1,0 +1,10 @@
+
+    public void testgetStringLen() {
+        String str1 = "234判断fg456";
+        System.out.println(ChinesUtil.ChineseLength(str1));
+    }
+
+    public void testisMessyCode() throws UnsupportedEncodingException, CharacterCodingException {
+
+        String str1 = "涓枃鐨勫瓧绗︿覆,缂栫爜缁撴灉浼氬簲椤圭洰鐨勭紪璇戝拰JVM鐨勮繍琛岀幆澧冧笉鐥涙湁鎵�奖鍝�";
+        assertEquals("判断乱码有问题", true, ChinesUtil.isMessyCode(str1));

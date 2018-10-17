@@ -1,0 +1,10 @@
+
+  private static class UnavailableExceptionStandardScheme extends StandardScheme<UnavailableException> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, UnavailableException struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();
+        if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 

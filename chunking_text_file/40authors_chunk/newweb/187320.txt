@@ -1,0 +1,10 @@
+        }  
+		
+		if(beFilter){
+			int sessionUserID = -1;
+			try {
+				sessionUserID = (Integer) request.getSession().getAttribute("userID");
+			} catch (Exception e) {}
+			if(sessionUserID == -1){
+				if(!cookieLogin(request, response)){//若cookie无法自动登录
+					response.getWriter().write("noUserLogin");

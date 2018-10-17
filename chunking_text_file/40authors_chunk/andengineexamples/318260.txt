@@ -1,0 +1,10 @@
+	// ===========================================================
+	// Methods
+	// ===========================================================
+
+	public void setRotation(final Direction pDirection) {
+		switch(pDirection) {
+			case UP:
+				this.setRotation(180);
+				break;
+			case DOWN:

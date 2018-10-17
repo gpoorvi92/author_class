@@ -1,0 +1,10 @@
+        {
+            FileAlterationObserver arr$[] = observers;
+            int len$ = arr$.length;
+            for(int i$ = 0; i$ < len$; i$++)
+            {
+                FileAlterationObserver observer = arr$[i$];
+                addObserver(observer);
+            }
+
+        }

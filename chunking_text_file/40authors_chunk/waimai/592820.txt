@@ -1,0 +1,10 @@
+    }
+
+    private String keywords2;
+
+    public String getKeywords2() {
+        return keywords2;
+    }
+
+    public void setKeywords2(String keywords2) {
+        this.keywords2 = keywords2;

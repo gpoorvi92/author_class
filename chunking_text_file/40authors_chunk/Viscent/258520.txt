@@ -1,0 +1,10 @@
+class Context {
+	private static final ThreadLocal<Integer> TS_OBJECT_PROXY = new ThreadLocal<Integer>();
+
+	// Context类的唯一实例
+	public static final Context INSTANCE = new Context();
+
+	// 私有构造器
+	private Context() {
+
+	}

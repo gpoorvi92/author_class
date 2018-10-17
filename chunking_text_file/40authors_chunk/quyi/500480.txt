@@ -1,0 +1,10 @@
+      return isSetCpuUsedPerc();
+    case FREE_MEM:
+      return isSetFreeMem();
+    case JVM_FREE_MEM:
+      return isSetJvmFreeMem();
+    case TASK_QUEUE_LIMIT:
+      return isSetTaskQueueLimit();
+    case TASK_QUEUE_NUME:
+      return isSetTaskQueueNume();
+    }

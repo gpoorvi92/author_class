@@ -1,0 +1,10 @@
+ * Download task
+ *
+ */
+public class DownloadTask extends TransferTask {
+
+    private String localPath;
+    private DownloadStateListener downloadStateListener;
+
+    public DownloadTask(int taskID, Account account, String repoName, String repoID, String path,
+                        DownloadStateListener downloadStateListener) {

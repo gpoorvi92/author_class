@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class EntryLogger
+{
+   private ClassGen cg;
+   private ConstantPoolGen cpg;
+
+   /**
+    * Adds entry logging code to the given class.
+    * @param args the name of the class file to patch

@@ -1,0 +1,10 @@
+      schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
+      }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("modifyNodeManagerConfig_result(");
+      boolean first = true;
+
+      sb.append("success:");
+      if (this.success == null) {

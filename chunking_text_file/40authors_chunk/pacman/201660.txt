@@ -1,0 +1,10 @@
+				}
+			}
+		} catch (JMSException e) {
+			
+			throw new MQException("Fail to recognize the message type!", e);
+		}
+		
+		for(IMQListener listener : repository) {
+			switch(type) {
+			case 1:

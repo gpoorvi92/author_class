@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("jvmMaxMem:");
+    if (this.jvmMaxMem == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.jvmMaxMem);
+    }
+    first = false;
+    sb.append(")");
+    return sb.toString();

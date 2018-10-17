@@ -1,0 +1,10 @@
+            if (!mShouldHide)
+                return;
+
+            mIsReadyToHide = true;
+        }
+    };
+
+    @Override
+    public void setOnSystemUiVisibilityChangeListener(
+            OnSystemUiVisibilityChangeListener listener) {

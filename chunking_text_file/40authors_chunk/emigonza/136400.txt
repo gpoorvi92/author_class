@@ -1,0 +1,10 @@
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("InterfaceMode"),
+        makeProperty("IsoEmvMode"),
+        makeProperty("OutputID"),
+        makeProperty("PowerNotify"),

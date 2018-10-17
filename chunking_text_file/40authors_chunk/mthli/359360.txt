@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.net.*;
+import javax.swing.*;
+
+/**
+ * This applet displays a greeting from the authors.
+ * @version 1.22 2007-04-08
+ * @author Cay Horstmann
+ */

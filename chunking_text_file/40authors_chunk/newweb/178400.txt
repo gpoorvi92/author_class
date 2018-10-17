@@ -1,0 +1,10 @@
+			String startDate, String endDate, String customer) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select distinct customerID from t_bill where status != '等待结帐' and createDate between ? and ? and customerID like ?");
+		query.setString(0, startDate);
+		query.setString(1, endDate);
+		query.setString(2, customer);
+		return  query.list();
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override

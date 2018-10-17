@@ -1,0 +1,10 @@
+
+				int traceId = seq.getAndIncrement();
+				int originalTId = traceId;
+
+				entry.traceId = "0020" + traceIdFormatter.format(traceId);
+
+				logger.printLog(entry);
+
+				timeStamp += internalDelay;
+				entry.timeStamp = timeStamp;

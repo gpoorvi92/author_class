@@ -1,0 +1,10 @@
+                return null;
+
+            DefMediaListPlayer player = mWeakPlayer.get();
+            if (player == null)
+                return null;
+
+            if (!player.mIndexResolver.loadIndex(true))
+                return null;
+
+            return player.mIndexResolver.getPlayIndex();

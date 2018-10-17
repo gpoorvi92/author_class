@@ -1,0 +1,10 @@
+		return smallPriceCuts;
+	}
+	public void setSmallPriceCuts(Set<SmallPriceCut> smallPriceCuts) {
+		this.smallPriceCuts = smallPriceCuts;
+	}
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<LhjPriceCut> getLhjPriceCuts() {
+		return lhjPriceCuts;
+	}
+	public void setLhjPriceCuts(Set<LhjPriceCut> lhjPriceCuts) {

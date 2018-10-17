@@ -1,0 +1,10 @@
+    menu.getAccessibleContext().setAccessibleDescription("The only menu in this program that has menu items");
+
+    //  a group of JMenuItems
+    JMenuItem menuItem = new JMenuItem("A text-only menu item");
+    //menuItem.addActionListener(this);
+    menuItem.setAction(new ActionLoadFixture("ActionName","Demo Action",KeyEvent.VK_0));
+    menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_0, ActionEvent.ALT_MASK));
+    menuItem.getAccessibleContext().setAccessibleDescription("This doesn't really do anything");
+
+    menu.add(menuItem);

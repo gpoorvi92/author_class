@@ -1,0 +1,10 @@
+		return this.rows;
+	}
+
+	@Override
+	public void setRows(Integer rows) {
+		this.rows = rows;
+	}
+
+	@Override
+	public Integer getPage() {

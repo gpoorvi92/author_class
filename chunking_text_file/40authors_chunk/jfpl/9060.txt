@@ -1,0 +1,10 @@
+	private FrameAlertDialog fad;
+	private String bindUsername;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.vio_detail, "");
+		Intent intent = getIntent();
+		String json = intent.getStringExtra("json");
+		this.bindUsername = intent.getStringExtra("bind_name");
+		String title = intent.getStringExtra("wfdz");

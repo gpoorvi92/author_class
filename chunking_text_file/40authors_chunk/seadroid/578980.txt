@@ -1,0 +1,10 @@
+        pager = (ViewPager) root.findViewById(R.id.pager);
+        pager.setAdapter(adapter);
+
+        TabPageIndicator indicator = (TabPageIndicator) root
+                .findViewById(R.id.indicator);
+        indicator.setViewPager(pager);
+        indicator.setOnPageChangeListener(new OnPageChangeListener() {
+            @Override
+            public void onPageSelected(final int position) {
+                currentPosition = position;

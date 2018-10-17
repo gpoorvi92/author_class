@@ -1,0 +1,10 @@
+	 * @param t
+	 */
+	void warn(String msg, Throwable t);
+	
+	/**
+	 * error.
+	 * 
+	 * @param msg
+	 */
+	void error(String msg);

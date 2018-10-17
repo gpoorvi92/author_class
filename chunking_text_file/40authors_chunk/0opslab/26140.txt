@@ -1,0 +1,10 @@
+
+	/* (non-Javadoc)
+	 * @see java.io.FileFilter#accept(java.io.File)
+	 */
+	public boolean accept(File pathname) {
+		boolean ret = false;
+		// search for extension without dot. 
+		StringTokenizer tokenizer = new StringTokenizer(pathname.getAbsolutePath(), ".");
+		String extension = "no.txt"; // a dot, because verify will not allow these tokens: won't accept, if no extension in pathname.
+		while (tokenizer.hasMoreElements()) {

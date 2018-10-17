@@ -1,0 +1,10 @@
+               if (!r.endsWith("[")) r += ",";
+               r += f.getName() + "=";
+               try
+               {
+                  Class t = f.getType();
+                  Object val = f.get(obj);
+                  if (t.isPrimitive()) r += val;
+                  else r += toString(val);
+               }
+               catch (Exception e)

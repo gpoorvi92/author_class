@@ -1,0 +1,10 @@
+			} catch (android.content.ActivityNotFoundException e) {
+				System.out.println("Error showing map " + url + ": "
+						+ e.toString());
+			}
+			return true;
+		}
+
+		// If sending email (mailto:abc@corp.com)
+		else if (url.startsWith(WebView.SCHEME_MAILTO)) {
+			try {

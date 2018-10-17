@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean remove(Supplier supplier) {
+		return supplierDao.delete(supplier);
+	}
+
+	@Override
+	public String modifyToUnvalid(int id) {
+		StringBuilder sb = new StringBuilder();
+		Supplier supplier = supplierDao.selectSupplierById(id);

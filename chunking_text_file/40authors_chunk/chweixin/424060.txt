@@ -1,0 +1,10 @@
+			event.setCreateTime(Integer.parseInt(data.get("CreateTime")));
+			event.setMsgType(data.get("MsgType"));
+			event.setEvent(data.get("Event"));
+		}
+	}
+	/**
+	 * 取消关注事件解析成对象。
+	 * @param data
+	 * 	事件消息数据。
+	 * @return

@@ -1,0 +1,10 @@
+            c_threads[i] = new C_Thread(consumers[i]);
+        }
+
+        for (int i = 0; i < cNum; i++) {
+            c_threads[i].start();
+        }
+
+    }
+}
+

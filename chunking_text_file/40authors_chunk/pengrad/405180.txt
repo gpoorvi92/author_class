@@ -1,0 +1,4 @@
+        this.thumb_height = thumbHeight;
+        return this;
+    }
+}

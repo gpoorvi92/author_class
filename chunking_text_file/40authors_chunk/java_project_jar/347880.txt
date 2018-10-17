@@ -1,0 +1,10 @@
+    {
+        int b = readFirstBytes();
+        return b < 0 ? in.read() : b;
+    }
+
+    public int read(byte buf[], int off, int len)
+        throws IOException
+    {
+        int firstCount = 0;
+        int b = 0;

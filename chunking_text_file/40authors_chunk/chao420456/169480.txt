@@ -1,0 +1,10 @@
+			}
+		});
+
+		bu2.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				ta.setText("");
+
+				BufferedReader br = null;
+				try {

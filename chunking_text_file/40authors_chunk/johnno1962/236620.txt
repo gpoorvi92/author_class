@@ -1,0 +1,10 @@
+    public void handleQuit( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handleQuit_3 ) {
+            entered_handleQuit_3 = true;
+            __handleQuit( arg0 );
+            entered_handleQuit_3 = false;
+        }
+        else
+            super.handleQuit( arg0 );
+    }
+

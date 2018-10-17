@@ -1,0 +1,10 @@
+		this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		NescafeInfo frame = new NescafeInfo();
+		frame.setTitle("Nescafe Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

@@ -1,0 +1,10 @@
+
+    case PLOTS_STATUS:
+      return getPlotsStatus();
+
+    case CHECK_START_TIME:
+      return getCheckStartTime();
+
+    case CHECK_STOP_TIME:
+      return getCheckStopTime();
+

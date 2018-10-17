@@ -1,0 +1,10 @@
+import java.util.*;
+
+/**
+ * Listener interface to implement when registering for JposEntryEvents
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface JposEntryRegistryListener extends EventListener
+{
+    /**

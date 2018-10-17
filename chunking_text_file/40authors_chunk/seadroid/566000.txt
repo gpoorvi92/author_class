@@ -1,0 +1,10 @@
+        // Insert the new row, returning the primary key value of the new row
+        database.replace(AccountDBHelper.ACCOUNT_TABLE_NAME, null, values);
+
+        AccountNotifier.notifyProvider();
+    }
+
+    public void updateAccount(Account oldAccount, Account newAccount) {
+        ContentValues values = new ContentValues();
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_SERVER, newAccount.server);
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_EMAIL, newAccount.email);

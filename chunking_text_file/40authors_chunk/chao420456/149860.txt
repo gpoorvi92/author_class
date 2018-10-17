@@ -1,0 +1,10 @@
+		tm.put(s6, "it006");
+
+		// ±éÀú
+		Set<Student> set = tm.keySet();
+		for (Student key : set) {
+			String value = tm.get(key);
+			System.out.println(key.getName() + "---" + key.getAge() + "---"
+					+ value);
+		}
+	}

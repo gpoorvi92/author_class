@@ -1,0 +1,10 @@
+    /**
+     * generates randomly N distinct integers from 0 to Max.
+     */
+    int[] generateUniformHash(int N, int Max) {
+        if (N > Max)
+            throw new RuntimeException("not possible");
+        int[] ans = new int[N];
+        HashSet<Integer> s = new HashSet<Integer>();
+        while (s.size() < N)
+            s.add(this.rand.nextInt(Max));

@@ -1,0 +1,10 @@
+		List<T> results = new ArrayList<>();
+		if(list != null && list.size() > 0){
+			for(K data : list){
+				T info = this.changeModel(data);
+				if(info != null){
+					results.add(info);
+				}
+			}
+		}
+		return results;

@@ -1,0 +1,10 @@
+    public int     getAutoToneDuration() throws JposException;
+    public void    setAutoToneDuration(int autoToneDuration)
+                       throws JposException;
+    public int     getAutoToneFrequency() throws JposException;
+    public void    setAutoToneFrequency(int autoToneFrequency)
+                       throws JposException;
+    public int     getCharacterSet() throws JposException;
+    public String  getCharacterSetList() throws JposException;
+    public int     getClocks() throws JposException;
+    public int     getCurrentUnitID() throws JposException;

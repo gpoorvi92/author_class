@@ -1,0 +1,10 @@
+		setSize (500, 350);
+
+		HtmlPane html = new HtmlPane (filename);	//Providing the HTML File.
+		setContentPane (html);				//Setting the ContentPane of Form to Show HTML File.
+
+		setVisible (true);
+
+	}
+
+}

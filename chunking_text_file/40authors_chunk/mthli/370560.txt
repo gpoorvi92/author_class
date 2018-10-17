@@ -1,0 +1,10 @@
+                     }
+                  }, null /* no Cancel button listener */);
+      }
+
+      public void actionPerformed(ActionEvent event)
+      {
+         chooser.setColor(getBackground());
+         dialog.setVisible(true);
+      }
+   }

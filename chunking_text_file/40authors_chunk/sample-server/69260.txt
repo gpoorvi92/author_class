@@ -1,0 +1,10 @@
+        bootstrap.setOption("keepAlive", true);
+        bootstrap.setOption("tcpNoDelay", true);
+        bootstrap.setOption("reuseAddress", false);
+        bootstrap.setPipelineFactory(new GatewayInboundPipelineFactory());
+        bootstrap.bind(new InetSocketAddress(ip, port));
+    }
+    @Override
+    public void doStop()
+    {
+        if (null != bootstrap)

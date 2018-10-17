@@ -1,0 +1,10 @@
+   * @throws org.apache.lucene.queryParser.ParseException
+   * @throws java.io.IOException
+   */
+  public List<String> searchIndexForURIs(String search_query) throws ParseException, IOException {
+      reader = IndexReader.open(data_store_file_root + "/lucene_index");
+      List<String> ret = new ArrayList<String>();
+      Searcher searcher = new IndexSearcher(reader);
+      Analyzer analyzer = new StandardAnalyzer();
+      QueryParser parser = new QueryParser("text", analyzer);
+      Query query = parser.parse(search_query);

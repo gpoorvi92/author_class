@@ -1,0 +1,6 @@
+	
+	public String getCode(){
+		return code;
+	}
+	
+}

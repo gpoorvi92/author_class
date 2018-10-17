@@ -1,0 +1,10 @@
+            if (transport != null) {
+                try {
+                    transport.close();
+                } catch (MessagingException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+}

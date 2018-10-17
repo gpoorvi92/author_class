@@ -1,0 +1,10 @@
+	 * @throws java.lang.Exception
+	 * @return: void
+	 */
+	@Before
+	public void setUp() throws Exception {
+		
+		FileHelper.copyFile("e:\\mp3\\mww.mp3", "e:\\temp\\packtemp\\index.dat");
+		files = FileHelper.getAllFileInDir("e:/temp/resource", true);
+		String xml = FileHelper.combinePath(this.getClass().getResource("/").toString(), "log4j.xml").replace("file:\\", "");
+		FileHelper.copyFile(xml, "e:/temp/packtemp/index.xml");

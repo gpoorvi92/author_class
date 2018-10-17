@@ -1,0 +1,10 @@
+        for (int k = 0; k < X.length; ++k) {
+            X[k] = new IteratingBufferedRunningLengthWord32(x[k]);
+        }
+        return X;
+    }
+
+    /**
+     * Turn an iterator into a bitmap
+     *
+     * @param i   iterator we wish to materialize

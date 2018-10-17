@@ -1,0 +1,10 @@
+	}
+	
+	@Test
+	public void crudTest() throws JsonMappingException, JsonGenerationException, IOException{
+		Account entity=new Account();
+		entity.setUserName("chacha_one");
+		entity.setPasswd("dddddddd");
+		AcctAttr acctAttr=new AcctAttr();
+		acctAttr.setAddr("china");
+		acctAttr.setAge(32);

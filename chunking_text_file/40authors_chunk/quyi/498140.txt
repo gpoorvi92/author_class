@@ -1,0 +1,10 @@
+    this.fileDescription = null;
+    this.filePath = null;
+    this.operateContent = null;
+    this.operateTime = null;
+    this.operateType = null;
+  }
+
+  public String getPidName() {
+    return this.pidName;
+  }

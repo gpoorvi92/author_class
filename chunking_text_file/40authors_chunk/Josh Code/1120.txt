@@ -1,0 +1,10 @@
+    }
+
+    public BufferedImage getDisplayImage()
+    {
+        return display.getDisplayImage();
+    }
+
+    public JPanel getDisplayPanel()
+    {
+        return display;

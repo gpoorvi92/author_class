@@ -1,0 +1,10 @@
+        makeProperty("CapTemplateAdaptation"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+
+        // Properties
+        makeProperty("Algorithm"),
+        makeProperty("AlgorithmList"),
+        makeProperty("AutoDisable"),
+        makeProperty("BIR"),
+        makeProperty("DataCount"),

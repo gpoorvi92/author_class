@@ -1,0 +1,10 @@
+	{
+		if (input == null)
+			return null;
+		
+		String outStr;
+
+		outStr = input.replace("&amp;", "&");
+		outStr = outStr.replace("&lt;", "<");
+		outStr = outStr.replace("&gt;", ">");
+		outStr = outStr.replace("&apos;", "\'");

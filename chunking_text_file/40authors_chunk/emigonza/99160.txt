@@ -1,0 +1,10 @@
+        }
+
+        return smallest;
+    }
+
+    /**
+     * @return the greatest Comparable element in this Vector
+     * <b>NOTE:</b>implements a simple one pass algorithm in O(n) time
+     */
+    public static Comparable max( Vector comparables )

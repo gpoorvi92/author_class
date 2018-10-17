@@ -1,0 +1,10 @@
+    if (this.missionProgress == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.missionProgress);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("samples:");
+    if (this.samples == null) {
+      sb.append("null");

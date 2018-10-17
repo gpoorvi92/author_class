@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch8.activeobject.example;
+
+import java.io.Serializable;
+import java.util.Date;
+
+//彩信下发请求
+public class MMSDeliverRequest implements Serializable {

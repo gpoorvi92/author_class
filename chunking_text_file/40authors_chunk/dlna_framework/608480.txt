@@ -1,0 +1,10 @@
+*	11/18/02
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.util;
+
+import java.io.PrintStream;
+
+public final class Debug{		

@@ -1,0 +1,10 @@
+                       final IteratingBufferedRunningLengthWord rw, final int pos) {
+        this.pos = pos;
+        this.iterator = rw;
+        if (this.iterator.getRunningLength() > 0) {
+            this.endrun = previousEndRun + (int) this.iterator.getRunningLength();
+            this.isLiteral = false;
+            this.value = this.iterator.getRunningBit();
+        } else if (this.iterator.getNumberOfLiteralWords() > 0) {
+            this.isLiteral = true;
+            this.endrun = previousEndRun + this.iterator.getNumberOfLiteralWords();

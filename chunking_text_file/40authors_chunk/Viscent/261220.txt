@@ -1,0 +1,10 @@
+		EXECUTOR.submit(task);
+
+	}
+
+	private void sendSms(String msisdn, String verificationCode) {
+		System.out.println("Sending verification code " + verificationCode + " to "
+		    + msisdn);
+
+		// 省略其它代码
+	}

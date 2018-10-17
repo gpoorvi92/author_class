@@ -1,0 +1,10 @@
+        }
+
+        String cpuAbi2 = BuildHelper.get_CPU_ABI2();
+        if (!TextUtils.isEmpty(cpuAbi)) {
+            cpuAbiInfo.append("CPU ABI2 : ");
+            cpuAbiInfo.append(cpuAbi2);
+            cpuAbiInfo.append("\n");
+        }
+
+        return cpuAbiInfo.toString();

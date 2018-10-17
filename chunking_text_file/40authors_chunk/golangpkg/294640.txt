@@ -1,0 +1,10 @@
+				return;
+			}
+			
+			// get the model
+			StaticFileState fileState = staticStateManager.getEntityIfPresent().getFileStates().get(process.getFileId());
+			if (fileState == null) {
+				throw new FileNotFoundException("File with id " + process.getFileId() + " not found");
+			}
+
+			// process the request asynchronously

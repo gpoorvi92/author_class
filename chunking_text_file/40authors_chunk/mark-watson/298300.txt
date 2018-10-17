@@ -1,0 +1,10 @@
+    protected Maze maze;
+    /**
+     * We will use the Java type Location (fields width and height will
+     * encode the coordinates in x and y directions) for the search path:
+     */
+    protected Location [] searchPath = null;
+    protected int pathCount;
+    protected int maxDepth;
+    protected Location startLoc, goalLoc, currentLoc;
+    protected boolean isSearching = true;

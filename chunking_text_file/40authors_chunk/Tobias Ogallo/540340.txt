@@ -1,0 +1,10 @@
+        jPanel1.setBounds(2,200,770,2);
+		setSize(500,250);
+		add(jPanel1);
+	}
+
+	
+
+	
+	public static int getSelectedRow() {
+		jTable.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);

@@ -1,0 +1,10 @@
+ */
+public class BufferedDemo {
+	public static void main(String[] args) throws IOException {
+		// Ð´Êý¾Ý
+		// BufferedOutputStream(OutputStream out)
+		// OutputStream out = new FileOutputStream("bos.txt");
+		// BufferedOutputStream bos = new BufferedOutputStream(out);
+		// BufferedOutputStream bos = new BufferedOutputStream(
+		// new FileOutputStream("bos.txt"));
+		// bos.write("hello".getBytes());

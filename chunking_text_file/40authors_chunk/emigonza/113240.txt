@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    retrieveCurrentMarker(int markerType,
+                                       String[] marker)
+                     throws JposException;
+  public void    retrieveMarker(int markerType,
+                                int sessionNumber,
+                                int documentNumber,
+                                String[] marker)
+                     throws JposException;
+  public void    retrieveMarkerByDateTime(int markerType,

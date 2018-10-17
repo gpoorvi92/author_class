@@ -1,0 +1,10 @@
+        try
+        {
+            in.mark(idx);
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }
+

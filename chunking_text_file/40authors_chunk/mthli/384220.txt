@@ -1,0 +1,10 @@
+    * @param n the index of the tab to load
+    */
+   private void loadTab(int n)
+   {
+      String title = tabbedPane.getTitleAt(n);
+      ImageIcon planetIcon = new ImageIcon(getClass().getResource(title + ".gif"));
+      tabbedPane.setComponentAt(n, new JLabel(planetIcon));
+
+      // indicate that this tab has been visited--just for fun
+

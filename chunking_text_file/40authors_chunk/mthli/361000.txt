@@ -1,0 +1,10 @@
+      decompositionCombo.addActionListener(listener);
+      pack();
+   }
+
+   /**
+    * Updates the display and collates the strings according to the user settings.
+    */
+   public void updateDisplay()
+   {
+      Locale currentLocale = locales[localeCombo.getSelectedIndex()];

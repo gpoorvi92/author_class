@@ -1,0 +1,10 @@
+        struct.validate();
+      }
+
+      public void write(org.apache.thrift.protocol.TProtocol oprot, searchEng_result struct) throws org.apache.thrift.TException {
+        struct.validate();
+
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.success != null) {
+          oprot.writeFieldBegin(SUCCESS_FIELD_DESC);
+          struct.success.write(oprot);

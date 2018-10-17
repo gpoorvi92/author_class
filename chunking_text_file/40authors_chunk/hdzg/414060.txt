@@ -1,0 +1,10 @@
+package wyf.ytl.entity;
+/*
+ * 墨子，遇到后会有几率教会英雄建造箭垛
+ */
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_HEIGHT;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_SPAN;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_START_X;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_START_Y;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WIDTH;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WORD_LEFT;

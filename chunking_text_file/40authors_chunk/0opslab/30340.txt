@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testIsPropertyNameChar() throws Exception {
+
+    }
+
+    @Test
+    public void testIsAlpha() throws Exception {
+

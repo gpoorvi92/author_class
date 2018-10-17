@@ -1,0 +1,10 @@
+		for (File file : f.listFiles()) {
+			boolean flag = false;
+			for (String type : ConstVariables.IMAGE_TYPE) {
+				if (file.getName().toLowerCase().endsWith(type)) {
+					flag = true;
+					break;
+				}
+			}
+			if (flag) {
+				AbstractCommonData _acd = DataConvertFactory.getInstanceEmpty();

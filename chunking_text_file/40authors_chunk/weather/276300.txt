@@ -1,0 +1,10 @@
+
+  @Override public SSLSocketFactory getSSLSocketFactory() {
+    return delegate.client.getSslSocketFactory();
+  }
+
+//  @Override public long getContentLengthLong() {
+//    return 0L;//delegate.getContentLengthLong();
+//  }
+
+  @Override public void setFixedLengthStreamingMode(long contentLength) {

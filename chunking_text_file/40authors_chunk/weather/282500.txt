@@ -1,0 +1,10 @@
+    public BindableAdapter(Context context) {
+        this.context = context;
+        this.inflater = LayoutInflater.from(context);
+    }
+
+    public BindableAdapter(Context context, List<T> items) {
+        this.context = context;
+        this.inflater = LayoutInflater.from(context);
+        this.items = items;
+    }

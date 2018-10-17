@@ -1,0 +1,10 @@
+			int 	duration,
+			String 	audioSrc,
+			String	outputFile) throws InvalidMediaParameterException {
+		
+		if (StringUtils.isEmpty(acodec)) {
+			throw new InvalidMediaParameterException("Empty audio codec.");
+		}
+		
+		if (bitrate < 1) {
+			throw new InvalidMediaParameterException("Invalid audio bitrate.[" + bitrate + "]");

@@ -1,0 +1,10 @@
+		}
+
+		// ===========================================================
+		// Methods for/from SuperClass/Interfaces
+		// ===========================================================
+
+		@Override
+		public void run() {
+			this.mTargetFace.setRotation(this.mTargetFace.getRotation() + 45);
+		}

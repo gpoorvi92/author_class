@@ -1,0 +1,10 @@
+	 * @param session
+	 * 	Session.
+	 * */
+	@Override
+	public void setSession(Map<String, Object> session) {
+		this.session = session;
+	}
+	/**
+	 * 设置用户账号。
+	 * @param account

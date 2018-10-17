@@ -1,0 +1,10 @@
+
+	public Code(String s) {
+		//System.out.println("AAAAA");
+		System.out.println(s);
+	}
+}
+*/
+
+//¾²Ì¬´úÂë¿é
+class Code {

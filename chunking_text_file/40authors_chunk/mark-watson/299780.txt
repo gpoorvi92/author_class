@@ -1,0 +1,10 @@
+					stemCountMap.put(stem, 1);
+				}
+			}
+			// System.out.println(stem + " : " + stemCountMap.get(stem));
+		}
+	}
+	public Map<String, Integer> getStemMap() { return stemCountMap; }
+	public int getStemCount() { return stem_count; }
+	public float compareTo(ComparableDocument otherDocument) {
+		long count = 0;

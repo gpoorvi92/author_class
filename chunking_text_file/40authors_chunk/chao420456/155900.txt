@@ -1,0 +1,10 @@
+
+		// 就业班数据
+		HashMap<String, Integer> jy = new HashMap<String, Integer>();
+		jy.put("急先锋", 30);
+		jy.put("玉麒麟", 29);
+		// 把数据添加到集合
+		xaxq.put("就业班", jy);
+
+		// 大数据班
+		HashMap<String, Integer> dsj = new HashMap<String, Integer>();

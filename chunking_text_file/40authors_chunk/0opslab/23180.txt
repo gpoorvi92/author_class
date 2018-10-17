@@ -1,0 +1,10 @@
+public final class PropertiesUtil {
+
+    /**
+     * 从系统属性文件中获取相应的值
+     *
+     * @param key key
+     * @return 返回value
+     */
+    public final static String key(String key) {
+        return System.getProperty(key);

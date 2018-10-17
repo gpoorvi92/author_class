@@ -1,0 +1,10 @@
+		int lat = Integer.parseInt(arr[2]);
+		int lon = Integer.parseInt(arr[3]);
+		GeoPoint point = new GeoPoint(lat, lon);
+		
+		// 用给定的经纬度构造一个GeoPoint，单位是微度 (度 * 1E6)
+		mapController.setCenter(point);// 设置地图中心点
+		mapController.setZoom(16.5f);// 设置地图zoom级别
+
+		popupOverlay = new PopupOverlay(mapView, null);
+

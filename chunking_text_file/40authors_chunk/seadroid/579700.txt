@@ -1,0 +1,10 @@
+                if (!url.startsWith(prefix)) {
+                    int oldOffset = Math.max(prefix.length(), mServerUrlEt.getSelectionStart());
+                    mServerUrlEt.setText(old);
+                    mServerUrlEt.setSelection(oldOffset, oldOffset);
+                }
+            }
+        });
+    }
+
+    @Override

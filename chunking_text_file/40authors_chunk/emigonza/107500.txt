@@ -1,0 +1,10 @@
+     * @param l the JposEntryRegistryListener object
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void removeJposEntryRegistryListener( JposEntryRegistryListener l );
+
+    /**
+     * Tell the JposEntryRegistry to save the current entries 
+     * NOTE: the actual implementation will save it in dependent manner
+     * @since 0.1 (Philly 99 meeting)
+     * @throws java.lang.Exception if any error occurs while saving

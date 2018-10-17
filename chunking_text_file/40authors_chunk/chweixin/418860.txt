@@ -1,0 +1,10 @@
+	 * @return 系统对象。
+	 * @throws ParserConfigurationException 
+	 * @throws IOException 
+	 * @throws SAXException 
+	 * */
+	@Override
+	public synchronized ModuleSystem loadModuleSystem(String systemId){
+		if(systemId == null || systemId.trim().isEmpty()) return null;
+		ModuleSystem system = mapSystemCache.get(systemId);
+		if(system == null && (this.menuFilePath != null && !this.menuFilePath.trim().isEmpty())){

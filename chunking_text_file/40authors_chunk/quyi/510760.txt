@@ -1,0 +1,10 @@
+            break;
+          case 5: // VIRUS_ENGINE
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list0 = iprot.readListBegin();
+                struct.virusEngine = new ArrayList<VirusEngine>(_list0.size);
+                for (int _i1 = 0; _i1 < _list0.size; ++_i1)
+                {
+                  VirusEngine _elem2;
+                  _elem2 = new VirusEngine();

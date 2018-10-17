@@ -1,0 +1,10 @@
+   {
+      minmaxBonus(a, result);
+      PairAlg.swapHelper(result); // OK--swapHelper captures wildcard type
+   }
+}
+
+class PairAlg
+{
+   public static boolean hasNulls(Pair<?> p)
+   {

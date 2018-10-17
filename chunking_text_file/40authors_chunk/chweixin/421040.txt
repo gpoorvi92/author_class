@@ -1,0 +1,10 @@
+			String id = MD5Util.MD5(new FileInputStream(srcFile)),
+					  ext = IOUtil.getExtension(this.attachmentFileName);
+			String newFileName = id + ext;
+			logger.info("存储文件名:" + newFileName);
+			logger.info("存储相对路径:" + (folder + newFileName));
+			logger.info("存储绝对路径:" + (root + newFileName));
+			if(IOUtil.copyFile(srcFile, new File(root + newFileName), false)){
+				result.put("name",this.attachmentFileName);
+				result.put("contentType", this.attachmentContentType);
+				result.put("ext", ext);

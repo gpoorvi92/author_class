@@ -1,0 +1,10 @@
+        name = n;
+        salary = s;
+        GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+        hireDay = calendar.getTime();
+    }
+
+    /* 
+     * 以下的几处代码块是一些访问器和更改器，
+     * 通常的习惯是，
+     * 在访问器方法名前面加上前缀get，

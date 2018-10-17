@@ -1,0 +1,9 @@
+                    res += i - maxIdx - 1;
+                }
+                candy = 1;
+            }
+            res += candy;
+        }
+        return res;
+    }
+}

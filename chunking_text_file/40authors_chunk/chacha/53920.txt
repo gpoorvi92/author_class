@@ -1,0 +1,10 @@
+		DelAccountRequest dRequest=new  DelAccountRequest(delBody);
+		try{
+			Response r=service.delAccount(dRequest);
+			assertTrue(r.getResult()==Response.SUCCESS);
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+		//查询帐号是否删除成功
+		queryBody=new AccountNameBody(userNames);
+		qRequest=new QueryAccountRequest(queryBody);

@@ -1,0 +1,10 @@
+      checkReady();
+      searchMission_call method_call = new searchMission_call(missionId, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class searchMission_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;
+      public searchMission_call(String missionId, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);

@@ -1,0 +1,10 @@
+      face = new JComboBox<>(new String[] { "Serif", "SansSerif", "Monospaced", "Dialog",
+            "DialogInput" });
+
+      face.addActionListener(listener);
+
+      JLabel sizeLabel = new JLabel("Size: ");
+
+      size = new JComboBox<>(new Integer[] { 8, 10, 12, 15, 18, 24, 36, 48 });
+
+      size.addActionListener(listener);

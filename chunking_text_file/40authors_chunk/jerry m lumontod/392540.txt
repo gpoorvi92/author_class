@@ -1,0 +1,10 @@
+
+		return mintResult;
+		
+	}
+
+	public boolean equals(Object obj) {
+		
+		if (obj instanceof AcctSorter) {
+			
+			AcctSorter compObj = (AcctSorter)obj;

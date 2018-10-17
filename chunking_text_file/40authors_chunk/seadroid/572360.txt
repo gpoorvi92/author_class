@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Download task manager
+ * <p/>
+ */
+public class DownloadTaskManager extends TransferManager implements DownloadStateListener {
+    private static final String DEBUG_TAG = "DownloadTaskManager";
+

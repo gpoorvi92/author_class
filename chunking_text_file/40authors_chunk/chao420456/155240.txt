@@ -1,0 +1,6 @@
+			public void run() {
+				System.out.println("Õ¨ËÀÄã");
+			}
+		}, d, 3000);
+	}
+}

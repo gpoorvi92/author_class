@@ -1,0 +1,10 @@
+    }
+
+    public genMissionId_args setSubmitId(String submitId) {
+      this.submitId = submitId;
+      return this;
+    }
+
+    public void unsetSubmitId() {
+      this.submitId = null;
+    }

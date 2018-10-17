@@ -1,0 +1,6 @@
+                       int column, int height, int width, int attribute)
+                       throws JposException;
+    public void    videoSound(int units, int frequency, int duration,
+                       int numberOfCycles, int interSoundWait)
+                       throws JposException;
+}

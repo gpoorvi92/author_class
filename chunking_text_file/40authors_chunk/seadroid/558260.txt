@@ -1,0 +1,10 @@
+ * 2.5.29.19 - Basic Constraints
+ * BasicConstraintsSyntax ::= SEQUENCE {
+ *   cA  BOOLEAN DEFAULT FALSE,
+ *   pathLenConstraint INTEGER (0..MAX) OPTIONAL
+ *}
+*/
+
+public class CertificateInfo {
+    private static final String DEBUG_TAG = "CertificateInfo";
+

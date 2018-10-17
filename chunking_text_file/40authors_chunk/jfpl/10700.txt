@@ -1,0 +1,10 @@
+		if (position == 0) {
+			// AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			// List<AbstractCommonData> list = new
+			// ArrayList<AbstractCommonData>();
+			// AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+			// item.putIntValue("recently_icon", R.drawable.vio_search);
+			// item.putStringValue("recently_app", "掌上车管所");
+			// item.putStringValue("recently_desc", "新违章提醒：金水路与文化路交叉口");
+			// list.add(item);
+			// act.fillData(acd, viewList.get(position), "");

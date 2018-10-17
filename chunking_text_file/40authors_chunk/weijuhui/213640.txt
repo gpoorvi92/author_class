@@ -1,0 +1,10 @@
+         */
+        @Override
+        protected void setupView(boolean isCenterView, int textSize) {
+            setGravity(Gravity.CENTER);
+            setTextColor(0xFF883333);
+            setTextSize(TypedValue.COMPLEX_UNIT_DIP, textSize);
+            setTypeface(Typeface.SERIF);
+            if (isCenterView) {
+                setTypeface(Typeface.create(Typeface.SERIF, Typeface.BOLD));
+                setBackgroundColor(0x55FFFFFF);

@@ -1,0 +1,10 @@
+   * @throws IOException 
+   * @throws LockObtainFailedException 
+   * @throws CorruptIndexException 
+   * 
+   */
+  public void createAndClearLuceneIndex() throws CorruptIndexException, LockObtainFailedException, IOException {
+    deleteFilePath(new File(data_store_file_root + "/lucene_index"));
+    File index_dir = new File(data_store_file_root + "/lucene_index");
+    new IndexWriter(index_dir, new StandardAnalyzer(), true).close();
+  }

@@ -1,0 +1,10 @@
+        iface.searchEng(args.engineId,resultHandler);
+      }
+    }
+
+    public static class ruleSync<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, ruleSync_args, com.nercis.isscp.idl.Result> {
+      public ruleSync() {
+        super("ruleSync");
+      }
+
+      public ruleSync_args getEmptyArgsInstance() {

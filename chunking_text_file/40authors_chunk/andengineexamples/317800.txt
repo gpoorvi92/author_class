@@ -1,0 +1,10 @@
+		/* Create the face and add it to the scene. */
+		final Sprite face = new Sprite(centerX, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		scene.attachChild(face);
+
+		return scene;
+	}
+
+	// ===========================================================
+	// Methods
+	// ===========================================================

@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.user;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.common.constant.Constants;
+import cn.abovesky.shopping.domain.MerchantCollection;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IMerchantCollectionService;
+import cn.abovesky.shopping.service.IMerchantService;
+import org.springframework.beans.factory.annotation.Autowired;

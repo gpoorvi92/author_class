@@ -1,0 +1,8 @@
+	
+	@RequestMapping(value="htmlContentEdit")
+	public String htmlContentEdit(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response){
+		return "page/system/htmlContnetEdit.jsp";
+	}
+	
+}

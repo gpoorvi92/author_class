@@ -1,0 +1,10 @@
+     * @param path
+     * @return
+     */
+    public SeafCachedPhoto getCachedPhoto(String repoName, String repoID,
+            String dir, String path) {
+        String validPath = Utils.pathJoin(dir, path);
+        return getCachedPhoto(repoName, repoID, validPath);
+    }
+
+    /**

@@ -1,0 +1,10 @@
+package tv.danmaku.android.support;
+
+import java.lang.ref.WeakReference;
+
+import tv.danmaku.android.BuildHelper;
+
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.os.Handler;
+import android.view.View;

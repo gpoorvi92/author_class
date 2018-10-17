@@ -1,0 +1,10 @@
+            if (downloadTaskInfo.state.equals(TaskState.INIT)
+                    || downloadTaskInfo.state.equals(TaskState.TRANSFERRING))
+                count++;
+        }
+        return count;
+    }
+
+    /**
+     * get all download task info under a specific directory.
+     *

@@ -1,0 +1,10 @@
+				dict.dInsert(code, outBytes);
+
+				// save previously inputed data
+				previous = outBytes; 
+
+				code = getCode(in);
+			} 
+
+			nextCode++; 
+			

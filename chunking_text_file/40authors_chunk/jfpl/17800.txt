@@ -1,0 +1,10 @@
+
+		GlobalVariables.initVariables(this);
+		// PushManager.startWork(getApplicationContext(),
+		// PushConstants.LOGIN_TYPE_API_KEY, ConstVariables.BAIDU_API_KEY);
+		// PushManager.enableLbs(getApplicationContext());
+		FrameContext.startBaseService(this);
+		handler.postDelayed(runThread, 2000);
+	}
+
+	private void gotoLogin() {

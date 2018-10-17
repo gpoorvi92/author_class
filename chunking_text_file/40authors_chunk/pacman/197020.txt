@@ -1,0 +1,10 @@
+	 * Deletes a dir including its all subdirs.
+	 * 
+	 * @param dir
+	 * @return
+	 */
+	public static boolean deleteDir(String dir) {
+		
+		try {
+			
+			FileUtils.deleteDirectory(new File(dir));

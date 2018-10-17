@@ -1,0 +1,10 @@
+                && (repoID == tti.repoID || (repoID != null && repoID.equals(tti.repoID)))
+                && (localFilePath == tti.localFilePath || (localFilePath != null && localFilePath.equals(tti.localFilePath)));
+    }
+
+    @Override
+    public String toString() {
+        return "email " + account.getEmail() + " server " + account.getServer() + " taskID " + taskID + " repoID " + repoID +
+                " repoName " + repoName + " localFilePath " + localFilePath;
+    }
+

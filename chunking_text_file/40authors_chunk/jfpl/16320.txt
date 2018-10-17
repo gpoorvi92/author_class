@@ -1,0 +1,8 @@
+			e.printStackTrace();
+		}
+	}
+	
+	public void titleBackBtnClick(View v) {
+		finish();
+	}
+}

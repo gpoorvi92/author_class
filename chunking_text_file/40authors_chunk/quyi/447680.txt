@@ -1,0 +1,10 @@
+  public boolean equals(Software that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_osArch = true && this.isSetOsArch();
+    boolean that_present_osArch = true && that.isSetOsArch();
+    if (this_present_osArch || that_present_osArch) {
+      if (!(this_present_osArch && that_present_osArch))
+        return false;
+      if (!this.osArch.equals(that.osArch))

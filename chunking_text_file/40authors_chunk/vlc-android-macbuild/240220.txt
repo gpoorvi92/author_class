@@ -1,0 +1,10 @@
+        if (manager == null)
+            return null;
+
+        try {
+            return manager.getPackageInfo(packageName, flag);
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }

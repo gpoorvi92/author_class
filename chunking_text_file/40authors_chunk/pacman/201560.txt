@@ -1,0 +1,10 @@
+	
+	public MQEventSource() {
+		
+		repository = new Vector<IMQListener>();
+	}
+	
+	public void addListener(IMQListener listener) {
+		
+		repository.add(listener);
+	}

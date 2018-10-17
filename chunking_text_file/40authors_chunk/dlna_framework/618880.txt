@@ -1,0 +1,3 @@
+		return post(httpRes,httpRes.getContent(), contentOffset, contentLength, isOnlyHeader);
+	}
+}

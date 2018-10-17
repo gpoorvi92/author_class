@@ -1,0 +1,10 @@
+    public void testIsValid() throws Exception {
+        assertEquals(false, valid.valid(""));
+        assertEquals(true, valid.valid("111"));
+        assertEquals(true, valid.valid("111", "2222"));
+        assertEquals(false, valid.valid("111", ""));
+    }
+
+    public void testIsValid1() throws Exception {
+        assertEquals(true, valid.valid(new String("11")));
+

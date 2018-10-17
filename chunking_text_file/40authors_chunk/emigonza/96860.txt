@@ -1,0 +1,10 @@
+  public void    setRealTimeDataEnabled(boolean bEnabled) throws JposException;
+
+  // Methods
+  public void    adjustCashCounts(String cashCounts)
+                     throws JposException;
+  public void    beginDeposit()
+                     throws JposException;
+  public void    clearInput()  throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)

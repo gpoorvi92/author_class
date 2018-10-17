@@ -1,0 +1,10 @@
+		userApp.setCategory("123");
+		userApp.setStoreName("1234");
+		userApp.setCreateTime("123");
+		userApp.setAppFileMd5("1b6066c5a107ebdbf1e5c9e4b31891bc");
+		userApp.setVersion("1.0");
+		userApp.setUpdateTime("2013-12-12 12:12:12");// yyyy-MM-dd HH:mm:ss
+		userApp.setSource("123");
+		userApp.setDescription("hello");
+		userApp.setAppFilePath("test/test.apk");
+		List<UserApp> userApps = new ArrayList<UserApp>();

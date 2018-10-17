@@ -1,0 +1,10 @@
+		renderSurface.addShape(model);
+	}
+	
+	public int getSurfaceWidth()
+	{
+		return renderSurface.getWidth();
+	}
+	
+	public int getSurfaceHeight()
+	{

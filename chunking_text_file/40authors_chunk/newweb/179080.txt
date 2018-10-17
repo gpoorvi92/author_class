@@ -1,0 +1,10 @@
+	private boolean valid;
+	
+	@Column(columnDefinition="boolean default true")
+	public boolean isValid() {
+		return valid;
+	}
+	public void setValid(boolean valid) {
+		this.valid = valid;
+	}
+	

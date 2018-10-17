@@ -1,0 +1,10 @@
+				acd.putStringValue("chat_msg", chatMsg);
+
+			} else if ("3".equals(msgType)) { // 语音
+				VoicePlayItem vpi = (VoicePlayItem) v
+						.findViewById(R.id.voice_play_msg);
+				vpi.setPlaySource(acd.getStringValue("audio_url"));
+				vpi.setBindEventView(v);
+			} else if ("2".equals(msgType)) {
+				ImageView chatImage = (ImageView) v
+						.findViewById(R.id.chat_image);

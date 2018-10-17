@@ -1,0 +1,10 @@
+
+	public QueryResponse getQueryResponse() 
+	{
+		return queryRes;
+	}
+
+	public void setQueryResponse(QueryResponse res) 
+	{
+		queryRes = res;
+	}

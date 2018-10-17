@@ -1,0 +1,10 @@
+	//Constuctor of Class.
+
+	public PropertiesMetalTheme ( InputStream stream ) {
+
+		initColors ();			//Initializing the Colors.
+		loadProperties (stream);	//Load the Properties of Default Theme.
+
+	}
+
+	//Function for Initializing all the Colors.

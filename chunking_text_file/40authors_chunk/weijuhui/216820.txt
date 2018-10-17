@@ -1,0 +1,10 @@
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import com.weparty.R.id;
+import com.weparty.R.layout;
+

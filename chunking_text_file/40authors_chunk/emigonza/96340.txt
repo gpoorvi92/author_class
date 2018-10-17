@@ -1,0 +1,10 @@
+    private void init()
+    {
+        JposProperties props = new DefaultProperties();
+        props.loadJposProperties();
+
+        if( !props.isPropertyDefined( JposProperties.JPOS_TRACING_PROP_NAME ) )
+            setOn( false );
+        else
+        {
+            String tracingPropValue = 

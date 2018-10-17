@@ -1,0 +1,10 @@
+	{
+		statusCode = value;
+	}
+	
+	public void setReasonPhrase(String value)
+	{
+		reasonPhrase = value;
+	}
+	
+	public String getVersion()

@@ -1,0 +1,10 @@
+            try {
+                out.write(("--" + boundary + "\r\n").getBytes());
+            } catch (final IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        isSetFirst = true;
+    }
+

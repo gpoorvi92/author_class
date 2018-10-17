@@ -1,0 +1,10 @@
+		setStatusCode(0);
+		setReasonPhrase("");
+	}
+	
+	public HTTPStatus(String ver, int code, String reason)
+	{
+		setVersion(ver);
+		setStatusCode(code);
+		setReasonPhrase(reason);
+	}

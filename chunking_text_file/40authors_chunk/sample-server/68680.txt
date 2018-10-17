@@ -1,0 +1,10 @@
+    public int getServerGroupId()
+    {
+        return serverGroupId;
+    }
+    public void setServerGroupId(int serverGroupId)
+    {
+        this.serverGroupId = serverGroupId;
+    }
+    public String getGameServerHost()
+    {

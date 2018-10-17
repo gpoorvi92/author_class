@@ -1,0 +1,8 @@
+java.lang.NullPointerException
+	at com.brianway.learning.java.multithread.supplement.example4.Thread1.run(Thread1.java:10)
+java.lang.NullPointerException
+	at com.brianway.learning.java.multithread.supplement.example4.Thread1.run(Thread1.java:10)
+线程:thread t1 出现了异常：
+线程:thread t2 出现了异常：
+
+ */

@@ -1,0 +1,10 @@
+                break;
+            default:
+                super.handleMessage(msg);
+        }
+    }
+
+    protected void handleSuccessJsonMessage(int statusCode, Object jsonResponse) {
+        if(jsonResponse instanceof JSONObject) {
+            onSuccess(statusCode, (JSONObject)jsonResponse);
+        } else if(jsonResponse instanceof JSONArray) {

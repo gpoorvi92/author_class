@@ -1,0 +1,9 @@
+        
+       
+        g.draw(ellipse);
+        	
+        g.setColor(old);
+        
+    }
+}
+  

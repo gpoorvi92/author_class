@@ -1,0 +1,10 @@
+		startActivity(intent);
+	}
+
+	public void runJavascript(String js) {
+		if (!js.startsWith("javascript:")) {
+			js = "javascript:" + js + "";
+		}
+		webView.loadUrl(js);
+	}
+

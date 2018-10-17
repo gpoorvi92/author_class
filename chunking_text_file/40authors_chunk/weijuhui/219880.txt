@@ -1,0 +1,10 @@
+    /**
+     * constructor
+     * @param context
+     * @param isCenterView true if the element is the centered view in the ScrollLayout
+     * @param textSize text size in dps
+     */
+    public TimeTextView(Context context, boolean isCenterView, int textSize) {
+        super(context);
+        setupView(isCenterView, textSize);
+    }

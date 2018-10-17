@@ -1,0 +1,10 @@
+public class UMerchantController extends BaseController {
+    @Autowired
+    private IMerchantService merchantService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Merchant> merchantList = merchantService.findPageBreakByCondition(vo);
+        map.put("count", merchantList.size());
+        map.put("merchants", merchantList);

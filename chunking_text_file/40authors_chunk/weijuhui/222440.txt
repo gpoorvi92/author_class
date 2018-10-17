@@ -1,0 +1,10 @@
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			/*Intent intent = new Intent(TypeListActivity.this,
+					BuildActActivity.class);
+			intent.putExtra("value", "");
+			setResult(Constant.ITEM_VALUE_TYPE,intent);*/
+			/*startActivity(new Intent(TypeListActivity.this,ActivityType.class));*/
+			finish();
+		}
+		return super.onKeyDown(keyCode, event);
+	}

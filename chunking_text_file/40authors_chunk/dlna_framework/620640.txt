@@ -1,0 +1,10 @@
+	//	start/stop
+	////////////////////////////////////////////////
+	
+	public void start()
+	{
+		int nServers = size();
+		for (int n=0; n<nServers; n++) {
+			HTTPServer server = getHTTPServer(n);
+			server.start();
+		}

@@ -1,0 +1,10 @@
+					}
+				}else{
+					JOptionPane.showMessageDialog(this, "服务器地址不能为空！");
+				}
+			}else{
+				JOptionPane.showMessageDialog(this, "用户名不能为空！");
+			}
+		}
+	}
+

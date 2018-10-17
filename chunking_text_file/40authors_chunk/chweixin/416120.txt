@@ -1,0 +1,10 @@
+	 * 	对象。
+	 * */
+	@Override
+	public Serializable save(T data) {
+		if(data != null){
+			return this.getCurrentSession().save(data);
+		}
+		return null;
+	}
+	/**

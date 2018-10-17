@@ -1,0 +1,10 @@
+    @Override
+    protected void enableInput() {
+        super.enableInput();
+        passwordText.setEnabled(true);
+    }
+
+    @Override
+    protected SetPasswordTask prepareTask() {
+        String password = passwordText.getText().toString().trim();
+        SetPasswordTask task = new SetPasswordTask(repoID, password, getDataManager());

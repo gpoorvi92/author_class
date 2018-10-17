@@ -1,0 +1,10 @@
+		return age;
+	}
+
+	public void sleep() {
+		System.out.println("sleep");
+	}
+
+	public abstract void eat();
+}
+

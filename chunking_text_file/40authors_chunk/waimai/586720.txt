@@ -1,0 +1,10 @@
+
+    @RequestMapping("/infoView")
+    public ModelAndView infoView() {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/merchant/info");
+        Merchant merchant = merchantService.findById(this.getMerchant().getId());
+        modelAndView.addObject("merchant", merchant);
+        return modelAndView;
+    }
+
+    @RequestMapping("/update")

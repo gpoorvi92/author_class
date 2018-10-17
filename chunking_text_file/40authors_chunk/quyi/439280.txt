@@ -1,0 +1,10 @@
+  public Hardware setMemSize(int memSize) {
+    this.memSize = memSize;
+    setMemSizeIsSet(true);
+    return this;
+  }
+
+  public void unsetMemSize() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __MEMSIZE_ISSET_ID);
+  }
+

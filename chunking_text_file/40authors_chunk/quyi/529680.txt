@@ -1,0 +1,10 @@
+  }
+
+  public UserApp setRequestPurviews(List<com.nercis.isscp.idl.permission.Permissions> requestPurviews) {
+    this.requestPurviews = requestPurviews;
+    return this;
+  }
+
+  public void unsetRequestPurviews() {
+    this.requestPurviews = null;
+  }

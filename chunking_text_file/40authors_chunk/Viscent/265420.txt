@@ -1,0 +1,10 @@
+		
+		for(int i=0;i<count1;i++){
+			t1=new Thread(){
+				@Override
+        public void run() {
+					try {
+	          cbr.await();
+          } catch (InterruptedException e) {
+          } catch (BrokenBarrierException e) {
+	          e.printStackTrace();

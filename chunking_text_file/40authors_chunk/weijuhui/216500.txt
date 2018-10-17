@@ -1,0 +1,6 @@
+				keywordsFlow.go2Show(KeywordsFlow.ANIMATION_OUT);
+			}
+		}
+
+	}
+}

@@ -1,0 +1,10 @@
+			new MainMenu().loginvalidity3();
+		}
+		 
+		 	
+		 
+	}	
+	public static void main(String[]args)
+	{
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		new LoginScreen();

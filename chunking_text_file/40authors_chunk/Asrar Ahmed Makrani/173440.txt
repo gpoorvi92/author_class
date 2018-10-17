@@ -1,0 +1,10 @@
+			 				
+			 				patron_text.setEditable(true);
+			            	name_text.setEditable(true);
+			 				passport_text.setEditable(true);
+			 				expiry_date_text.setEditable(true);
+			 				reg_by_text.setEditable(true);
+			 				reg_date_text.setEditable(true);
+			 				textArea.setEditable(true);
+			 				tel_text.setEditable(true);
+			 				fax_text.setEditable(true);

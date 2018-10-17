@@ -1,0 +1,6 @@
+		if (!StringUtils.isBlank(fileName) && fileName.indexOf('.') > -1)
+			ext = fileName.substring(fileName.lastIndexOf('.'));
+		
+		return ext;
+	}
+}

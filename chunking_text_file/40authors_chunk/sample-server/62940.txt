@@ -1,0 +1,10 @@
+    private static final Logger log = LoggerFactory.getLogger(ServerLifecycleListener.class);
+    @Override
+    public void attributeAdded(ServletContextAttributeEvent servletContextAttributeEvent)
+    {
+    }
+    @Override
+    public void attributeRemoved(ServletContextAttributeEvent servletContextAttributeEvent)
+    {
+    }
+    @Override

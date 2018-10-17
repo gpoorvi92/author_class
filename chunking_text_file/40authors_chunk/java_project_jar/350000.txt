@@ -1,0 +1,10 @@
+import org.apache.commons.io.filefilter.IOFileFilter;
+import org.apache.commons.io.filefilter.TrueFileFilter;
+
+public abstract class DirectoryWalker
+{
+    public static class CancelException extends IOException
+    {
+
+        public File getFile()
+        {

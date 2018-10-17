@@ -1,0 +1,10 @@
+    public int     getErrorUnits() throws JposException;
+    public String  getEventString() throws JposException;
+    public int     getEventUnitID() throws JposException;
+    public int     getEventUnits() throws JposException;
+    public int     getKeys() throws JposException;
+    public int     getOutputID() throws JposException;
+    public int     getPowerNotify() throws JposException;
+    public void    setPowerNotify(int powerNotify) throws JposException;
+    public int     getPowerState() throws JposException;
+    public int     getTimeout() throws JposException;

@@ -1,0 +1,10 @@
+  public void setEngineNameIsSet(boolean value) {
+    if (!value) {
+      this.engineName = null;
+    }
+  }
+
+  public String getEngineIp() {
+    return this.engineIp;
+  }
+

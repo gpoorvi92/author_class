@@ -1,0 +1,10 @@
+			JScrollPane pictureScrollPane = new JScrollPane(picture);
+			
+			
+			Date date = new Date(f.lastModified());
+			DateFormat dateFormat1 = new SimpleDateFormat("dd/MM/yy");
+			DateFormat dateFormat2 = new SimpleDateFormat("hh:mm:ss");
+			
+			fileSize = f.length()/1024;
+	
+			//JTextArea fileInf = new JTextArea ("Image: "+file+ "\n"+

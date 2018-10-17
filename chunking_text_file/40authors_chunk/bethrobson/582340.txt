@@ -1,0 +1,10 @@
+            os.writeObject(three);
+            os.close();
+        }
+        catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        
+        one = null;
+        two = null;
+        three = null;

@@ -1,0 +1,10 @@
+	}
+
+
+	@Test
+	public void deleteFileThatIsNotAFile()
+			throws IOException {
+		File fake = new File("lalala");
+		File file = File.createTempFile("temp", "temp");
+		Assert.assertThat(fake.exists(), is(Boolean.FALSE));
+		Assert.assertThat(file.exists(), is(Boolean.TRUE));

@@ -1,0 +1,10 @@
+			Debug.warning(e);
+			return new byte[0];
+		}
+	}
+
+	public final static byte[] load(File file)
+	{
+		try {	
+			FileInputStream fin=new FileInputStream(file);
+			return load(fin);

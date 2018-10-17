@@ -1,0 +1,10 @@
+    @Test
+    public void testWideOr() {
+        for (int nbr = 3; nbr <= 24; nbr += 3) {
+            for (int N = 100; N < 1000; N += 100) {
+                System.out.println("testWideOr N = " + N);
+                Iterator<EWAHCompressedBitmap32[]> i = getCollections(
+                        N, 3);
+                while (i.hasNext()) {
+                    EWAHCompressedBitmap32[] x = i.next();
+                    EWAHCompressedBitmap32 tanswer = EWAHCompressedBitmap32

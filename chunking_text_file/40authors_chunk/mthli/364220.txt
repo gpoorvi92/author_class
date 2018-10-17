@@ -1,0 +1,10 @@
+package print;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.print.*;
+import javax.print.attribute.*;
+import javax.swing.*;
+
+/**
+ * This frame shows a panel with 2D graphics and buttons to print the graphics and to set up the

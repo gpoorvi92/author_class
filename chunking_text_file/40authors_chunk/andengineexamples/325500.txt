@@ -1,0 +1,10 @@
+ * @since 11:13:34 - 27.06.2010
+ */
+public enum ExampleGroup {
+	// ===========================================================
+	// Elements
+	// ===========================================================
+
+	SIMPLE(R.string.examplegroup_simple, 
+			Example.LINE, Example.RECTANGLE, Example.SPRITE, Example.SPRITEREMOVE, Example.SPRITEBATCH),
+	MODIFIER_AND_ANIMATION(R.string.examplegroup_modifier_and_animation, 

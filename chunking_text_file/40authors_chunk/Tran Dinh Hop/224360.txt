@@ -1,0 +1,10 @@
+			// Create a new reference for it
+			current.setNext(newNode); 
+		} 
+	}	 
+
+	// Determines if hasNode exists for given code
+	public boolean hasCode(int code) 
+	{ 
+		// calculate hashCode
+		int hashCode = code % hashSize; 

@@ -1,0 +1,10 @@
+    public void send_searchAllEng() throws org.apache.thrift.TException
+    {
+      searchAllEng_args args = new searchAllEng_args();
+      sendBase("searchAllEng", args);
+    }
+
+    public List<Engine> recv_searchAllEng() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      searchAllEng_result result = new searchAllEng_result();
+      receiveBase(result, "searchAllEng");

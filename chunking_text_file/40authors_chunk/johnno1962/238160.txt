@@ -1,0 +1,10 @@
+
+/// class java.awt.event.HierarchyBoundsAdapter ///
+
+package org.genie.java_awt;
+
+public class HierarchyBoundsAdapterProxy extends java.awt.event.HierarchyBoundsAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.HierarchyBoundsAdapter()

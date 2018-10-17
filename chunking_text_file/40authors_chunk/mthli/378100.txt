@@ -1,0 +1,10 @@
+               System.exit(0);
+            }
+         });
+      fileMenu.add(exitItem);
+
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(fileMenu);
+      setJMenuBar(menuBar);
+   }
+

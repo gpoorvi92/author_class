@@ -1,0 +1,10 @@
+	public ProgressJson() {
+	}
+
+	
+	/**
+	 * @return the percentage completed.
+	 */
+	public Float getProgress() {
+		return progress;
+	}

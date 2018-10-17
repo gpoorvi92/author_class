@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field operateContent is set (has been assigned a value) and false otherwise */
+  public boolean isSetOperateContent() {
+    return this.operateContent != null;
+  }
+
+  public void setOperateContentIsSet(boolean value) {
+    if (!value) {
+      this.operateContent = null;

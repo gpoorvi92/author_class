@@ -1,0 +1,10 @@
+
+			StringBuffer buf = new StringBuffer();
+			int[] selection = getSelectedIndices(model.getMinSelectionIndex(),
+			                                     model.getMaxSelectionIndex());
+			if (selection.length == 0) {
+
+				buf.append("none");
+
+			} else {
+

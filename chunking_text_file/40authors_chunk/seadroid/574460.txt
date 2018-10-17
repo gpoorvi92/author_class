@@ -1,0 +1,10 @@
+import android.support.v4.content.AsyncTaskLoader;
+
+public class FileLoader extends AsyncTaskLoader<List<SelectableFile>> {
+
+    private static final int FILE_OBSERVER_MASK = FileObserver.CREATE
+            | FileObserver.DELETE | FileObserver.DELETE_SELF
+            | FileObserver.MOVED_FROM | FileObserver.MOVED_TO
+            | FileObserver.MODIFY | FileObserver.MOVE_SELF;
+
+    private FileObserver mFileObserver;

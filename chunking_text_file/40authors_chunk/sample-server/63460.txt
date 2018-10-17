@@ -1,0 +1,10 @@
+                        client.send(trans);
+                    } catch (ShutdownException e)
+                    {
+                        log.error("error diapatch transpacket 2 Logic Server");
+                    }
+                }
+                break;
+            }
+            default:
+                break;

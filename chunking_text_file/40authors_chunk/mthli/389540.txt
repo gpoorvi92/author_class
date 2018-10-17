@@ -1,0 +1,10 @@
+                        layout.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(
+                              GroupLayout.Alignment.TRAILING,
+                              layout.createSequentialGroup().addGroup(
+                                    layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                          .addComponent(faceLabel).addComponent(sizeLabel))
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(
+                                          layout.createParallelGroup(
+                                                GroupLayout.Alignment.LEADING, false)
+                                                .addComponent(size).addComponent(face)))

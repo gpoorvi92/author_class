@@ -1,0 +1,10 @@
+
+  public String getDataChar() {
+    return this.dataChar;
+  }
+
+  public NetworkPacket setDataChar(String dataChar) {
+    this.dataChar = dataChar;
+    return this;
+  }
+

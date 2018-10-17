@@ -1,0 +1,10 @@
+         {
+            file.seek(p);
+            int c = file.readByte();
+            crc.update(c);
+         }
+         return crc.getValue();
+      }
+   }
+
+   public static long checksumMappedFile(Path filename) throws IOException

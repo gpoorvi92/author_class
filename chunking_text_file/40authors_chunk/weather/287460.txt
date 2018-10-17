@@ -1,0 +1,10 @@
+    }
+
+    protected void setDragEnable(boolean enable,int screenWidth) {
+        mDraggable = enable;
+        FrameLayout layout = (FrameLayout) findViewById(R.id.container_fragment_list);
+        ViewGroup.LayoutParams params = layout.getLayoutParams();
+        if (enable) {
+            int width = screenWidth;
+            params.width = width;//(int) (width * 0.618);
+        } else {

@@ -1,0 +1,10 @@
+            MessageDigest digest = MessageDigest.getInstance(algorithm);
+            digest.update(certificate.getEncoded());
+            String sig = "";
+            for (byte b : digest.digest())
+                sig += Integer.toHexString(b & 0xFF);
+            return sig;
+        } catch (Exception e) {
+            Log.e(DEBUG_TAG, "Couldn't calculate certificate digest", e);
+            return e.getMessage();
+        }

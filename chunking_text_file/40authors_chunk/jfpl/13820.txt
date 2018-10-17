@@ -1,0 +1,10 @@
+					}
+				}).show();
+	}
+
+	public static String convertToClientMessage(String backMsg) {
+		String t = null;
+		for (int i = 0; i < CHAT_CHAR_CONVERT_ARRAY.length; i += 2) {
+			t = backMsg.replaceAll(CHAT_CHAR_CONVERT_ARRAY[i + 1],
+					CHAT_CHAR_CONVERT_ARRAY[i]);
+		}

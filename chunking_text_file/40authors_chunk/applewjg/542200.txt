@@ -1,0 +1,10 @@
+ * }
+ */
+public class Solution {
+    public List<Integer> inorderTraversal_1(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        if (root == null) return res;
+        inorder(root, res);
+        return res;
+    }
+    public void inorder(TreeNode root, List<Integer> res) {

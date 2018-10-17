@@ -1,0 +1,10 @@
+
+    public interface OnStarredFileSelectedListener {
+        public void onStarredFileSelected(SeafStarredFile starredFile);
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        mActivity = (BrowserActivity)activity;
+    }

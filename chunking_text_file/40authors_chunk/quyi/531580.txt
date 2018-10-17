@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 检测策略类型
+ * equalsType 一致性检测
+ * staticType 静态检测
+ * dynamicType 动态检测
+ * virusType 病毒检测
+ * sensitiveType 敏感检测

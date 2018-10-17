@@ -1,0 +1,10 @@
+    numIntrod = teclado.nextLong();
+    
+    System.out.println("Introduce un digito");
+    digito = teclado.nextLong();
+        
+    System.out.println("-------------------------------------------------------");
+    
+    while (numIntrod > 0){
+        reves = (reves * 10) + (numIntrod % 10);
+        numIntrod = numIntrod / 10;

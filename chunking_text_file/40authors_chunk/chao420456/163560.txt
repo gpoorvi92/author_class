@@ -1,0 +1,10 @@
+import java.awt.event.WindowEvent;
+
+/*
+ * 通过观察图，我们分析知道应该有如下的几个组件：
+ * 窗体，文本框，按钮，文本域
+ * 并且对窗体和按钮添加事件
+ */
+public class TextDemo {
+	public static void main(String[] args) {
+		// 创建窗体对象

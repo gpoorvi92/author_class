@@ -1,0 +1,10 @@
+  public void    resetBelt()
+                     throws JposException;
+  public void    resetItemCount(int direction)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    stopBelt()
+                     throws JposException;

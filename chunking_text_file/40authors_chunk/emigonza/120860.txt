@@ -1,0 +1,5 @@
+  public void    setTimeout(int timeout) throws JposException;
+
+  // Methods
+  public void    waitForMotion(int timeout) throws JposException;
+}

@@ -1,0 +1,10 @@
+               if (chooser.showOpenDialog(PreferencesFrame.this) == JFileChooser.APPROVE_OPTION)
+               {
+                  try
+                  {
+                     InputStream in = new FileInputStream(chooser.getSelectedFile());
+                     Preferences.importPreferences(in);
+                     in.close();
+                  }
+                  catch (Exception e)
+                  {

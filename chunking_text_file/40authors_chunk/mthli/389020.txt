@@ -1,0 +1,10 @@
+         }
+         textArea.append(b.toString());
+      }
+
+      @Override
+      public void done()
+      {
+         try
+         {
+            StringBuilder result = get();

@@ -1,0 +1,10 @@
+import java.util.Enumeration;
+import java.util.List;
+
+/**
+ * 提供些获取系统信息相关的工具方法
+ */
+public class SysUtil {
+
+    /**
+     * JVM的版本

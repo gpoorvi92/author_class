@@ -1,0 +1,10 @@
+		mButton = (ImageButton) mPage3.findViewById(R.id.guide_activity_btn);
+		mButton.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View v) {
+				// 跳转到主界面
+				startActivity(new Intent(GuideActivity.this, MainActivity_.class));
+				finish();
+			}
+		});
+

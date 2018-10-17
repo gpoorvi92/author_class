@@ -1,0 +1,10 @@
+import org.xml.sax.SAXException;
+
+/**
+ * 菜单服务实现。
+ * @author 杨勇。
+ * @since 2014-01-18。
+ * */
+public class MenuServiceImpl implements IMenuService {
+	private static Logger logger = Logger.getLogger(MenuServiceImpl.class);
+	private static Map<String, ModuleSystemCollection> mapSystemCollectionCache = Collections.synchronizedMap(new HashMap<String, ModuleSystemCollection>());

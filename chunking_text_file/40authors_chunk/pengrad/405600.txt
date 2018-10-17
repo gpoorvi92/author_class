@@ -1,0 +1,10 @@
+        add("inline_message_id", inlineMessageId).add("text", text);
+    }
+
+    public EditMessageText parseMode(ParseMode parseMode) {
+        return add("parse_mode", parseMode.name());
+    }
+
+    public EditMessageText disableWebPagePreview(boolean disableWebPagePreview) {
+        return add("disable_web_page_preview", disableWebPagePreview);
+    }

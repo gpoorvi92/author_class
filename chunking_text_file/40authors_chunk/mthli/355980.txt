@@ -1,0 +1,10 @@
+            {
+               JFrame frame = new ExceptTestFrame();
+               frame.setTitle("ExceptTest");   
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+

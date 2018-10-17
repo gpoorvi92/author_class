@@ -1,0 +1,10 @@
+  //--------------------------------------------------------------------------
+  // Framework Methods
+  //--------------------------------------------------------------------------
+
+  // Create an EventCallbacks interface implementation object for this Control
+  protected EventCallbacks createEventCallbacks()
+  {
+    return new ImageScannerCallbacks();
+  }
+

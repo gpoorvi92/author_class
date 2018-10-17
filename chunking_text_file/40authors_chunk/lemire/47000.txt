@@ -1,0 +1,10 @@
+    @Override
+    public RunningLengthWord32 clone() throws CloneNotSupportedException {
+        return (RunningLengthWord32) super.clone();
+    }
+
+    /**
+     * The array of words.
+     */
+    final Buffer32 buffer;
+

@@ -1,0 +1,10 @@
+		
+		byte[] buf = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07,};
+		
+		IMQSender sender = mgr.getSender(QueueType.QUEUE_AUDIO);
+		assertNotNull(sender);
+
+		IMQReceiver receiver = mgr.getReceiver(QueueType.QUEUE_AUDIO);
+		assertNotNull(receiver);
+		receiver.addListener(new MockListener());
+		

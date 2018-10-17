@@ -1,0 +1,10 @@
+				blocker.signalAfter(new Callable<Boolean>() {
+
+					@Override
+					public Boolean call() throws Exception {
+						isStateOK = true;
+						Debug.info("state ok.");
+						return Boolean.TRUE;
+					}
+
+				});

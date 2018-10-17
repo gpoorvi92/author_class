@@ -1,0 +1,10 @@
+
+    @Test
+    public void testDateFormat() throws Exception {
+        //System.out.println(new Date(1398773727000l).toString());
+        //System.out.println(new SimpleDateFormat("yyyy-MM-dd mm:HH:ss").format(1398773727000l));
+//        Calendar calendar = Calendar.getInstance();
+//        calendar.set(Calendar.HOUR_OF_DAY, 0);
+//        calendar.set(Calendar.MINUTE, 0);
+//        calendar.set(Calendar.SECOND, 0);
+//        System.out.println(calendar.getTime());

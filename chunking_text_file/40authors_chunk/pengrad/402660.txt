@@ -1,0 +1,10 @@
+        if (user != null ? !user.equals(that.user) : that.user != null) return false;
+        return status == that.status;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = user != null ? user.hashCode() : 0;
+        result = 31 * result + (status != null ? status.hashCode() : 0);
+        return result;

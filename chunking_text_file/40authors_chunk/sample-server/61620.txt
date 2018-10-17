@@ -1,0 +1,8 @@
+        }
+        else
+        {
+            log.warn("未登录无法登出");
+        }
+        return InternalResourceViewResolver.REDIRECT_URL_PREFIX + "/";
+    }
+}

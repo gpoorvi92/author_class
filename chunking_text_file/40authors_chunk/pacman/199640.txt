@@ -1,0 +1,10 @@
+ * @date: 2014年12月25日 下午3:44:06
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.task.test;
+
+import static org.junit.Assert.*;
+
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+

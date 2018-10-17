@@ -1,0 +1,10 @@
+	
+	public int getWidth()
+	{
+		int width = Integer.parseInt(widthT.getText());
+		return width;
+	}
+	
+	public int getHeight()
+	{
+		int height = Integer.parseInt(heightT.getText());

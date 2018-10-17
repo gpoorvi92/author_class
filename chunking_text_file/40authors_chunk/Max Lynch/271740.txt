@@ -1,0 +1,10 @@
+		this.renderSurface = renderSurface;
+	}
+
+
+	public void paintShape(Graphics2D g)
+	{
+		g.setRenderingHint(antialiasing, antialiasingOn);
+		Ellipse2D.Double ellipse = new Ellipse2D.Double(model.getLocX()-getX(),model.getLocY()-getY(),model.getWidth(),model.getHeight());
+		
+        Color old = g.getColor();

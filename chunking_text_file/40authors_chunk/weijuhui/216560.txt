@@ -1,0 +1,10 @@
+import android.util.DisplayMetrics;
+import android.view.KeyEvent;
+import android.widget.LinearLayout.LayoutParams;
+
+/**
+ * 
+ * <ul>
+ * <li><b>name : </b>		WXEntryActivity		</li>
+ * <li><b>description :</b>	活动首页				</li>
+ * <li><b>author : </b>		yelingh			    </li>

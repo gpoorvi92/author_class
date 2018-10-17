@@ -1,0 +1,10 @@
+    }
+
+    /** Checks if the specified file should be loadable
+     */
+    public static boolean isLoadableModelFile(File f)
+    { 
+        for (ModelFileLoader mfl: loaders)
+           if (mfl.matchesFormat(f))
+               return true;
+    

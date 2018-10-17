@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_packageName = true && this.isSetPackageName();
+    boolean that_present_packageName = true && that.isSetPackageName();
+    if (this_present_packageName || that_present_packageName) {
+      if (!(this_present_packageName && that_present_packageName))
+        return false;
+      if (!this.packageName.equals(that.packageName))
+        return false;
+    }

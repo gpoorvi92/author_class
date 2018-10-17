@@ -1,0 +1,10 @@
+		//这个时候，已经可以了。
+		//但是，加入判断的条件较多，比如说，上半年和下半年。
+		//判断的条件比较多的话，我们其实还可以考虑通过另外的一种形式进行表达
+		//(month>=3 && month<=5)
+		//针对一个范围的判断
+		if(month<1 || month>12) {
+			System.out.println("月份输入有误");
+		}else if(month>=3 && month<=5) {
+			System.out.println("春季");
+		}else if(month>=6 && month<=8) {

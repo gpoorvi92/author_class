@@ -1,0 +1,10 @@
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, APICheck struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetApiName()) {
+        optionals.set(0);
+      }
+      if (struct.isSetApiPackageName()) {
+        optionals.set(1);

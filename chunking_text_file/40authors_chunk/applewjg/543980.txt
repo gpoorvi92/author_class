@@ -1,0 +1,10 @@
+                    && (tokens[i].compareTo("*") != 0) && (tokens[i].compareTo("/") != 0)) {
+                stk.push(Integer.parseInt(tokens[i]));
+            } else {
+                int op2 = stk.pop();
+                int op1 = stk.pop();
+                int res = 0;
+                if(tokens[i].compareTo("+") == 0)
+                    res = op1 + op2;
+                else if(tokens[i].compareTo("-") == 0)
+                    res = op1 - op2;

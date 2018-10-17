@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Move to the next RunningLengthWord
+     *
+     * @return whether the move was possible
+     */
+    @Override
+    public boolean next() {
+        if (!this.iteratingBrlw.next()) {

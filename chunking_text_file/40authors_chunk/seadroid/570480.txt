@@ -1,0 +1,10 @@
+        for (Account account : accounts) {
+            if (!hasAvatar(account)) {
+                accountsWithoutAvatar.add(account);
+            }
+        }
+
+        return accountsWithoutAvatar;
+    }
+
+    private boolean hasAvatar(Account account) {

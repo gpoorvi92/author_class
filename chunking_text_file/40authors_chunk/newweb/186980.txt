@@ -1,0 +1,10 @@
+		}
+		return orderSmallDao.delete(os);
+	}
+
+	@Override
+	public boolean modify(OrderSmall os) {
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("small",os.getSmall().getID(),
+				os.getOrder().getID());
+		double price = smallService.findSmallByIdBindCut(os.getSmall().getID(), 
+				os.getOrder().getCustomer().getID(), null).getLsprice();

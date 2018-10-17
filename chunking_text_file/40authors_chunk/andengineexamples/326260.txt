@@ -1,0 +1,10 @@
+
+		scene.setOnSceneTouchListener(new IOnSceneTouchListener() {
+			@Override
+			public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+				switch(pSceneTouchEvent.getAction()) {
+					case TouchEvent.ACTION_DOWN:
+						ZoomExample.this.mSmoothCamera.setZoomFactor(5.0f);
+						break;
+					case TouchEvent.ACTION_UP:
+						ZoomExample.this.mSmoothCamera.setZoomFactor(1.0f);

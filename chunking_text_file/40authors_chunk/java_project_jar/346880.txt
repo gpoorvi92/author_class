@@ -1,0 +1,10 @@
+//            FilenameUtils
+
+public final class IOCase
+    implements Serializable
+{
+
+    public static IOCase forName(String name)
+    {
+        if(SENSITIVE.name.equals(name))
+            return SENSITIVE;

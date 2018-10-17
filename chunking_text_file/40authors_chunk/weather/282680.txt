@@ -1,0 +1,10 @@
+
+
+    /**
+     * 根据index删除数据
+     *
+     * @param index
+     */
+    public void remove(int index) {
+        if (getCount() == 0 || index < 0 || index >= getCount()) {
+            return;

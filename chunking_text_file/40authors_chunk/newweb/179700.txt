@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_small where valid=true and type=? order by buycount desc,type desc,CONVERT(name USING GBK)")
+				.addEntity(Small.class);
+		query.setString(0, type);
+		return query.list();
+	}
+
+	@Override
+	public Small selectSmallById(int id) {
+		return (Small) sessionFactory.getCurrentSession().get(Small.class, id);
+	}

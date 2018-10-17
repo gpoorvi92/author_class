@@ -1,0 +1,10 @@
+                q.add(lists.get(i));
+        
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (!q.isEmpty()) {
+            ListNode node = q.poll();
+            cur = cur.next = node;
+            if (node.next != null)
+                q.add(node.next);
+        }

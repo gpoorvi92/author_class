@@ -1,0 +1,10 @@
+     */
+    int getRunningLength();
+
+    /**
+     * @param x the number of words to discard
+     */
+    void discardFirstWords(int x);
+
+    /**
+     * Discard all running words

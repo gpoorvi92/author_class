@@ -1,0 +1,10 @@
+		value = obj; 
+		type = propType;
+	}
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the Java object that this value represents */
+	public Object getValue() { return value; }

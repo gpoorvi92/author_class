@@ -1,0 +1,10 @@
+      if (!type.isPrimitive() && !type.isArray() && !type.equals(String.class) && value != null)
+      {
+         // get fields from the class and all superclasses
+         for (Class<?> c = value.getClass(); c != null; c = c.getSuperclass())
+         {
+            Field[] fs = c.getDeclaredFields();
+            AccessibleObject.setAccessible(fs, true);
+
+            // get all nonstatic fields
+            for (Field f : fs)

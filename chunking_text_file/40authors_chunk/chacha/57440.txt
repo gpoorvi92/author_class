@@ -1,0 +1,10 @@
+		CommandService cmd=new SocketServiceImpl(addList.toArray(new InetSocketAddress[0]));
+		LoginBody body=new LoginBody(userName,passwd,LoginBody.ACTION_TOKEN);
+		LoginRequest request=new LoginRequest(body);
+		try{
+			LoginResponse r=cmd.loginPassword(request);
+			assertNotNull(r);
+			assertTrue(r.getResult()==LoginResponse.SUCCESS);
+			System.out.println(Thread.currentThread().getName()+" "+r.getToken()+" "+userName);
+			
+			//令牌认证示例

@@ -1,0 +1,10 @@
+                } else
+                {
+                    return prototype
+                            .newBuilderForType()
+                            .mergeFrom(new ChannelBufferInputStream(body),
+                                    extensionRegistry).build();
+                }
+            }
+        }
+    }

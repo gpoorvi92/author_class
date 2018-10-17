@@ -1,0 +1,10 @@
+      if (missionId == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'missionId' was not present! Struct: " + toString());
+      }
+      if (userAppId == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'userAppId' was not present! Struct: " + toString());
+      }
+      // check for sub-struct validity
+    }
+
+    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {

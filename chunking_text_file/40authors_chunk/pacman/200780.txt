@@ -1,0 +1,10 @@
+     * @Title: work
+     * @param reader
+     * @param cmdFormat
+     * @param args
+     * @return
+     * @throws Exception
+     * @return: boolean
+     */
+    public boolean execute(List<String> outList, 
+    					     String cmdFormat, 

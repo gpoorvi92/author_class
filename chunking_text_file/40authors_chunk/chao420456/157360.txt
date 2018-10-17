@@ -1,0 +1,10 @@
+                    }else{
+                    	String value = serverThread.users.get((int)clientThread.getId());
+                    	if(value.equals("@login@")){
+                    		flag = true;
+                    		try
+                            {
+                            	//向纪录的每一个客户端发送数据信息
+                                clientThread.dos.writeUTF(str);
+                                if(str.contains("@exit")){
+                                	serverThread.clients.remove(i);

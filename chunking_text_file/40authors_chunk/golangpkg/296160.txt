@@ -1,0 +1,10 @@
+		// extract input stream
+		fileUploadConfiguration.setInputStream(item.openStream());
+
+		// return conf
+		return fileUploadConfiguration;
+
+	}
+
+
+	public String getParameterValue(HttpServletRequest request, UploadServletParameter parameter)

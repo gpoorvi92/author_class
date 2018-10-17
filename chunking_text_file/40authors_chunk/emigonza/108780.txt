@@ -1,0 +1,10 @@
+// LineDisplayBeanInfo.java - Bean information for the JavaPOS LineDisplay
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

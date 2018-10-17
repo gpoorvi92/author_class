@@ -1,0 +1,10 @@
+import com.newweb.dao.base.MaterialBrandDao;
+import com.newweb.model.base.MaterialBrand;
+import com.newweb.model.base.TypeForBrand;
+
+@SuppressWarnings("unchecked")
+@Component("materialBrandDao")
+public class MaterialBrandDaoImp implements MaterialBrandDao {
+
+	
+	private SessionFactory sessionFactory;

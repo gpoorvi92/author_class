@@ -1,0 +1,10 @@
+
+    public void unsetUsedPermissions() {
+      this.usedPermissions = null;
+    }
+
+    /** Returns true if field usedPermissions is set (has been assigned a value) and false otherwise */
+    public boolean isSetUsedPermissions() {
+      return this.usedPermissions != null;
+    }
+

@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    if (filePath.isDirectory()) {
+        String[] dirListing = filePath.list();
+
+        // For each file/directory in listing, make recursive call.
+        int len = dirListing.length;
+        for (int i = 0; i < len; i++) {
+            if (deleteFilePath(new File(filePath.toString() + fileSeparator + dirListing[i])) == false) {

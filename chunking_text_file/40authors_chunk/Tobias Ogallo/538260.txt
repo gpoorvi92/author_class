@@ -1,0 +1,10 @@
+    
+    /**
+     * The constructor.
+     */  
+     public RVSFrame() {
+                
+        MenuBar menuBar = new MenuBar();
+        Menu menuFile = new Menu();
+        MenuItem menuFileExit = new MenuItem();
+        

@@ -1,0 +1,10 @@
+package org.andengine.examples.launcher;
+
+import org.andengine.examples.R;
+
+
+/**
+ * (c) 2010 Nicolas Gramlich
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich

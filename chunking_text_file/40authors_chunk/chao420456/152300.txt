@@ -1,0 +1,10 @@
+	public void sport(){}
+
+	/*
+	public void sleep() {
+		System.out.println("°®Ë¯¾õ");
+	}
+	*/
+}
+
+class Dog extends Animal {

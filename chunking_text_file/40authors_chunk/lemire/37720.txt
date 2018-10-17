@@ -1,0 +1,10 @@
+    public boolean next() {
+        if (!this.iteratingBrlw.next()) {
+            if (!this.masterIterator.hasNext()) {
+                return false;
+            } else {
+                this.iteratingBrlw = new IteratingBufferedRunningLengthWord32(this.masterIterator.next());
+            }
+        }
+        return true;
+    }

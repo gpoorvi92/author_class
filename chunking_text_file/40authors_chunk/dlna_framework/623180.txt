@@ -1,0 +1,10 @@
+			Node rootElem = parse(urlIn);
+			
+		//	rootElem.print();
+			
+			urlIn.close();
+			urlCon.disconnect();
+
+			return rootElem;
+			
+		} catch (Exception e) {

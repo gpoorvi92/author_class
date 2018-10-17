@@ -1,0 +1,10 @@
+        return giftId;
+    }
+    public int getLegealCount()
+    {
+        return legealCount;
+    }
+    public void setCdName(String cdName)
+    {
+        this.cdName = cdName;
+    }

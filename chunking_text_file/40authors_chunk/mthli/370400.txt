@@ -1,0 +1,10 @@
+   {
+      JRadioButton button = new JRadioButton(buttonName);
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               demoPanel.setBorder(b);
+            }
+         });
+      group.add(button);

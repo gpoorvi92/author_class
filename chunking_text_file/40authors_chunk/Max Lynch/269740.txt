@@ -1,0 +1,10 @@
+        float widthx = model.getWidth()-model.getLocX()-getX();
+        float width = model.getWidth();
+        float height = model.getHeight();
+        
+        
+        	
+        g.setStroke(model.getStroke());
+        
+        g.setPaint(model.getColor());
+        

@@ -1,0 +1,10 @@
+
+  public DynamicCheckResultData() {
+  }
+
+  public DynamicCheckResultData(
+    String apkMD5,
+    List<String> sensitive,
+    List<RunMonitor> autoRunMonitor,
+    List<FileOperate> fileOperate,
+    List<NetworkPacket> networkPacket,

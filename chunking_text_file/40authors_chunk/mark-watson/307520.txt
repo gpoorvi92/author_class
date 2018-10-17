@@ -1,0 +1,10 @@
+package neuralnetworks;
+
+import java.util.*;
+
+/**
+ * Hopfield neural network
+ *
+ * <p/>
+ * Copyright 1998-2012 by Mark Watson. All rights reserved.
+ * <p/>

@@ -1,0 +1,10 @@
+对象的异常处理
+java.lang.NumberFormatException: For input string: "a"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.brianway.learning.java.multithread.supplement.example6.MyThread.run(MyThread.java:18)
+
+
+---------------------------
+//对象

@@ -1,0 +1,10 @@
+	};
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Intent intent = getIntent();
+		final String layoutUri = "http://192.168.1.210:3001/tt.xml";// intent.getStringExtra("layout_uri");
+		handler.sendEmptyMessage(SHOW_LOADING);
+		new Thread(new Runnable() {
+

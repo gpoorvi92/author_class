@@ -1,0 +1,10 @@
+
+    case FILE_DESCRIPTION:
+      if (value == null) {
+        unsetFileDescription();
+      } else {
+        setFileDescription((String)value);
+      }
+      break;
+
+    case FILE_PATH:

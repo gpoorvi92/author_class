@@ -1,0 +1,10 @@
+        Graphics g4 = w1Panel.getGraphics();
+        Graphics g5 = w2Panel.getGraphics();
+  training_loop:
+        for (int i = 0; i < 5000; i++) {
+        	if (i == 1000 || i == 3000 || i == 4000 | i ==4500)  nn.learningRate *= 0.75f;
+            float error = nn.train();
+            if (i > 0 && i % 500 == 0) {
+            	//
+            	// If the error is too large, slightly randomize weights:
+            	if (error > 0.75)  {

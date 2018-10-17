@@ -1,0 +1,10 @@
+
+    public List<com.nercis.isscp.idl.UserApp> getUserApps() {
+      return this.userApps;
+    }
+
+    public submitMission_args setUserApps(List<com.nercis.isscp.idl.UserApp> userApps) {
+      this.userApps = userApps;
+      return this;
+    }
+

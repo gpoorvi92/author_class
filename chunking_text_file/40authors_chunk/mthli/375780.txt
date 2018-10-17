@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class WarehouseActivator
+{
+   public static void main(String[] args) throws RemoteException, NamingException,
+         ActivationException, IOException
+   {
+      System.out.println("Constructing activation descriptors...");
+
+      Properties props = new Properties();

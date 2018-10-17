@@ -1,0 +1,10 @@
+
+    @Override
+    public void onPrepared(MediaPlayer mp) {
+        mIsMediaSwitchEnd = true;
+        if (mListPlayerPrepared) {
+            // TOOD: init seek not supported by stagefright yet
+            if (mOnInfoListener != null) {
+                mOnInfoListener.onInfo(this,
+                        MediaPlayer.MEDIA_INFO_BUFFERING_START, 0);
+            }

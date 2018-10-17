@@ -1,0 +1,10 @@
+	}
+
+
+	/**
+	 * Register a propagant to {@link #propagateTo}.
+	 * 
+	 * @param propagant
+	 */
+	public void registerListener(T propagant) {
+		synchronized (propagateTo) {

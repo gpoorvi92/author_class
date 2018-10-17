@@ -1,0 +1,10 @@
+
+		Thread t = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				String result;
+				result = helper.xGuarededMethod("test");
+				Debug.info(result);
+			}
+

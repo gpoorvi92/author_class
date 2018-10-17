@@ -1,0 +1,10 @@
+		txtBookName.setEnabled (false);
+		txtBookName.setBounds (120, 45, 175, 25);
+		txtBookAuthor = new JTextField ();
+		txtBookAuthor.setEnabled (false);
+		txtBookAuthor.setBounds (120, 75, 175, 25);
+		txtBookCategory = new JTextField ();
+		txtBookCategory.setEnabled (false);
+		txtBookCategory.setBounds (120, 105, 175, 25);
+		txtIssuedTo = new JTextField ();
+		txtIssuedTo.setEnabled (false);

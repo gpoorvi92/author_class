@@ -1,0 +1,10 @@
+      minmaxBonus(managers, result);
+      System.out.println("first: " + result.getFirst().getName() 
+         + ", second: " + result.getSecond().getName());
+      maxminBonus(managers, result);
+      System.out.println("first: " + result.getFirst().getName() 
+         + ", second: " + result.getSecond().getName());
+   }
+
+   public static void printBuddies(Pair<? extends Employee> p)
+   {

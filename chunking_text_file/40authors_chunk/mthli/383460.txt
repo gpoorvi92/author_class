@@ -1,0 +1,10 @@
+
+}
+
+/**
+ * This class loader loads encrypted class files.
+ */
+class CryptoClassLoader extends ClassLoader
+{
+   private int key;
+

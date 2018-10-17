@@ -1,0 +1,10 @@
+	public int getAudioDuration() {
+		return audioDuration;
+	}
+	
+	/**
+	 * @return the audioSamplingRate
+	 */
+	public int getAudioSamplingRate() {
+		return audioSamplingRate;
+	}

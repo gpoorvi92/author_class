@@ -1,0 +1,10 @@
+            	String l = location_text.getText();
+            	//Object m = campus_combo.getSelectedItem();
+            	journalSQL jorsql = new journalSQL(a, b, c, d, h, g, i, j, k, l);
+            	jorsql.add();
+            	
+            }
+        });
+        toolBar.add(save);
+        
+       

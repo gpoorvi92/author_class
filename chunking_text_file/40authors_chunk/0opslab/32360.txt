@@ -1,0 +1,10 @@
+                    sum = Integer.parseInt(ss[0]) ;
+                    sum +=(int) DateUtil.subtimeBurst(tt[0], tt[1], "08:00-19:30");
+                    count = Integer.parseInt(ss[1])+1;
+                }
+                group.put(tt[2],sum+":"+count);
+            }else{
+                int sum =(int) DateUtil.subtimeBurst(tt[0], tt[1], "08:00-19:30");
+                int count =1;
+                group.put(tt[2],sum+":"+count);
+            }

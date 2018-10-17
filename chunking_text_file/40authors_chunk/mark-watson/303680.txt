@@ -1,0 +1,10 @@
+    /**
+     * Get a specified number of values as a human readable string
+     *
+     * @param max_return_values
+     * @return string
+     */
+    public String getValuesAsString(int max_return_values) {
+        StringBuffer sb = new StringBuffer(200);
+        sort();
+        int limit = strings.size();  if (limit > max_return_values) limit = max_return_values;

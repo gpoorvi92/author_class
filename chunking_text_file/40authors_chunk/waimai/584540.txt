@@ -1,0 +1,10 @@
+        loginLog.setUserType(UserType.USER.toString());
+        loginLog.setDate(new Date());
+        loginLog.setIp(request.getRemoteAddr());
+        loginLog.setStatus(LoginStatus.FAIL.toString());
+        if (loginUser == null) {
+            map.put(Constants.RESULT_CODE, "0");
+            map.put(Constants.ERROR_MESSAGE, "用户名不存在");
+        } else if (!loginUser.getPassword().equals(user.getPassword())) {
+            map.put(Constants.RESULT_CODE, "2");
+            map.put(Constants.ERROR_MESSAGE, "密码错误");

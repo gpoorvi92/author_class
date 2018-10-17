@@ -1,0 +1,10 @@
+		long before = System.currentTimeMillis();
+		logger.info("接收请求url：" + req.getRequestURI());
+		logger.info("请求源地址：" + req.getRemoteAddr());
+		logger.info("请求主机：" + req.getRemoteHost());
+		
+		String signature = req.getParameter("signature"),//微信加密签名
+				timestamp = req.getParameter("timestamp"),//时间戳
+				nonce = req.getParameter("nonce"),//随机数
+				echostr = req.getParameter("echostr");//随机字符串
+		PrintWriter out = resp.getWriter();

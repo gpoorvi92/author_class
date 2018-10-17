@@ -1,0 +1,5 @@
+                                        int vatInfo,
+                                        long unitAmount,
+                                        String unitName)
+                     throws JposException;
+}

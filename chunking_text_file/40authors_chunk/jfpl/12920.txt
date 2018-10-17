@@ -1,0 +1,10 @@
+				pageBarWidth, 4);
+		lp.setMargins(index * pageBarWidth + width / 3, 0, 0, 0);
+		pageCursor.setLayoutParams(lp);
+	}
+
+	@Override
+	public void onPageSelected(int index) {
+		int black = getResources().getColor(R.color.black);
+		int green = getResources().getColor(R.color.tab_cursor);
+		switch (index) {

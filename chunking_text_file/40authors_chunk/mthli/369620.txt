@@ -1,0 +1,10 @@
+   public String getText()
+   {
+      return display.getText();
+   }
+   
+   /**
+      Appends a string to the history text.
+      @param s the string to append
+   */
+   public void append(String s)

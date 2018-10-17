@@ -1,0 +1,10 @@
+    this.sensitives.add(elem);
+  }
+
+  public List<String> getSensitives() {
+    return this.sensitives;
+  }
+
+  public StaticCheckResultData setSensitives(List<String> sensitives) {
+    this.sensitives = sensitives;
+    return this;

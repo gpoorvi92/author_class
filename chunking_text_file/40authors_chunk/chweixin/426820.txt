@@ -1,0 +1,10 @@
+	/**
+	 * 获取图片存储路径。
+	 * @return 图片存储路径。
+	 * */
+	public String getPath() {
+		return path;
+	}
+	/**
+	 * 设置图片存储路径。
+	 * @param path

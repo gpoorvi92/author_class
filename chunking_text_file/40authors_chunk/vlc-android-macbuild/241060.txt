@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+
+        return nowBrightnessValue;
+    }
+
+    public static void setBrightness(Activity activity, float brightness) {
+        // Settings.System.putInt(activity.getContentResolver(),
+        // Settings.System.SCREEN_BRIGHTNESS_MODE,
+        // Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL);

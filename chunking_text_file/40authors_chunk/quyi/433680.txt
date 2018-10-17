@@ -1,0 +1,10 @@
+    throw new IllegalStateException();
+  }
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof SystemResources)
+      return this.equals((SystemResources)that);
+    return false;

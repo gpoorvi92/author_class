@@ -1,0 +1,10 @@
+    }
+
+    private void init_(Bundle savedInstanceState) {
+        injectExtras_();
+    }
+
+    private void afterSetContentView_() {
+        title_phone_title = ((RelativeLayout) findViewById(id.title_phone_title));
+        number_dt = ((EditText) findViewById(id.number_dt));
+        {

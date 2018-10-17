@@ -1,0 +1,10 @@
+	 */
+	void onStreamMessage(byte[] buffer);
+	
+	/**
+	 * Map message arrived event.
+	 * 
+	 * @param map
+	 */
+	void onMapMessage(Map<String, Object> map);
+	

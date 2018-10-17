@@ -1,0 +1,10 @@
+
+				entry.recordType = "request";
+				entry.operationName = "getPrice";
+				entry.srcDevice = "ESB";
+				entry.dstDevice = "BSS";
+				traceId = traceId + 1;
+				entry.traceId = "0021" + traceIdFormatter.format(traceId);
+				logger.printLog(entry);
+
+				timeStamp += genResponseDelay("BSS");

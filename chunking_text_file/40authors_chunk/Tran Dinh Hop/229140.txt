@@ -1,0 +1,10 @@
+					if (n.getElement().getFreq()>key){
+						DLNode second=n.getPrev();						
+						DLNode huf=new DLNode(n,second,o);
+						second.setNext(huf);
+						n.setPrev(huf);
+						break;
+					}
+					if (n.getNext()==tail){
+						DLNode huf=new DLNode(tail,n,o);
+						n.setNext(huf);

@@ -1,0 +1,10 @@
+ * 5:list<APICheck> apiCheck Api检测结果
+ * 6:string reportPath 静态检测报告路径
+ * 7:string centerResultPath 中间结果存储路径
+ */
+public class StaticCheckResultData implements org.apache.thrift.TBase<StaticCheckResultData, StaticCheckResultData._Fields>, java.io.Serializable, Cloneable, Comparable<StaticCheckResultData> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("StaticCheckResultData");
+
+  private static final org.apache.thrift.protocol.TField APK_MD5_FIELD_DESC = new org.apache.thrift.protocol.TField("apkMD5", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField CHECK_DATE_FIELD_DESC = new org.apache.thrift.protocol.TField("checkDate", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField SENSITIVES_FIELD_DESC = new org.apache.thrift.protocol.TField("sensitives", org.apache.thrift.protocol.TType.LIST, (short)3);

@@ -1,0 +1,10 @@
+     private ImageEncoder encoder = null;
+     private PNMEncodeParam encodeParam = null;
+	private static PlanarImage srcImage, dstImage;
+	String outFileName;
+		
+     public PNMEncoder(String inFile) {
+		// Lay ra ten file de ghep vao phan mo rong jpg
+		File f = new File(inFile);
+		int pos = f.getName().indexOf(".");
+		String fileName =(f.getName().substring (0,pos));

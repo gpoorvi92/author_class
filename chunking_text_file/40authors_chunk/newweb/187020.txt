@@ -1,0 +1,10 @@
+			JOptionPane.showConfirmDialog(null,
+					"警告，小件订单价格更新失败，请查看" + "log" + File.separator +"database" + 
+			File.separator + "record.txt", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return orderSmallDao.update(os);
+	}
+
+	@Override
+	public OrderSmall findOrderSmallBySmallIdInOrderID(int smallId, String orderid) {

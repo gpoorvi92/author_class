@@ -1,0 +1,10 @@
+ Given 1->1->2, return 1->2.
+ Given 1->1->2->3->3, return 1->2->3.
+
+ Solution: 1. Delete duplicates directly.
+           2. Copy value first (like Remove Duplicates from Array) and then delete the remaining elements.
+ */
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;

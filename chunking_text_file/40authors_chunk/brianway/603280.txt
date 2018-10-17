@@ -1,0 +1,10 @@
+public class Run2_groupAddThreadMoreLevel {
+    public static void main(String[] args) {
+        ThreadGroup mainGroup = Thread.currentThread().getThreadGroup();
+        ThreadGroup group = new ThreadGroup(mainGroup, "A");
+        Runnable runnable = new Runnable() {
+            public void run() {
+                try {
+                    System.out.println("run!");
+                    Thread.sleep(10000);//运行状态才可以受组管理
+                } catch (InterruptedException e) {

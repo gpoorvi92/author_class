@@ -1,0 +1,10 @@
+		if (src == null) {
+			System.out.println("Error in loading image " + imageName);
+		}
+		return src;
+	}
+
+	// Create the image encoder.
+	private void encodeImage(PlanarImage img, FileOutputStream out) {
+		
+		encoder = ImageCodec.createImageEncoder("TIFF", out, encodeParam);

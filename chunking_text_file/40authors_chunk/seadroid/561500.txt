@@ -1,0 +1,10 @@
+
+    @Override
+    public SelectableFile getItem(int position) {
+        return mFiles.get(position);
+    }
+
+    public void addItem(SelectableFile file) {
+        mFiles.add(file);
+    }
+

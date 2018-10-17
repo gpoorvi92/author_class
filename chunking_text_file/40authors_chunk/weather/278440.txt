@@ -1,0 +1,10 @@
+        private final Response mResponse;
+        private final Runnable mRunnable;
+
+        public ResponseDeliveryRunnable(Request request, Response response, Runnable runnable) {
+            mRequest = request;
+            mResponse = response;
+            mRunnable = runnable;
+        }
+
+        @SuppressWarnings("unchecked")

@@ -1,0 +1,10 @@
+ * @author yangyong.
+ * @since 2014-02-21.
+ * */
+public final class SignUtil {
+	/**
+	 * 验证签名。
+	 * @param signature
+	 * 	加密签名。
+	 * @param token
+	 * 	令牌。

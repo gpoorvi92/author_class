@@ -1,0 +1,4 @@
+        while (i < in.length) res.append(in[i++]);
+        return res.toString();
+    }
+}

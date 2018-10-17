@@ -1,0 +1,10 @@
+ Given 1->1->1->2->3, return 2->3.
+
+ Solution: 1. iterative 2. recursive
+ */
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {

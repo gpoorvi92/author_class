@@ -1,0 +1,10 @@
+ * */
+public class UploadAction extends BaseAction {
+	private final static Logger logger = Logger.getLogger(UploadAction.class);
+	private File attachment;
+	private String tempFolder,attachmentContentType,attachmentFileName;
+	/**
+	 * 构造函数。
+	 * */
+	public UploadAction(){
+		this.setTempFolder("/temp/");

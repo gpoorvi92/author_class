@@ -1,0 +1,10 @@
+   private String descr;
+   private String value;
+
+   /**
+    * Constructs a SimplePrincipal to hold a description and a value.
+    * @param descr the description 
+    * @param value the associated value
+    */
+   public SimplePrincipal(String descr, String value)
+   {

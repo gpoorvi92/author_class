@@ -1,0 +1,10 @@
+    if (other.isSetObj()) {
+      this.obj = other.obj;
+    }
+    if (other.isSetFunc()) {
+      this.func = other.func;
+    }
+    if (other.isSetRuleDescription()) {
+      this.ruleDescription = other.ruleDescription;
+    }
+  }

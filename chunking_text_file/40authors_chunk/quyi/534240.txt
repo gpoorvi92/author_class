@@ -1,0 +1,10 @@
+      sb.append(this.apiName);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("apiPackageName:");
+    if (this.apiPackageName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.apiPackageName);
+    }

@@ -1,0 +1,10 @@
+				if(skill.calculateResult() == -1){//不能用
+				}
+				else {//可以使用时
+					gameView.suiXinBu = number;
+					skill.useSkill(0);//使用技能
+				}
+				selectI = 0;
+				gameView.setStatus(0);
+			}
+			else if(x>252 && x<267 && y>111 && y<126){//点击小加号

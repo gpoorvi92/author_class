@@ -1,0 +1,10 @@
+        return totalCount;
+    }
+
+    public void setTotalCount(int totalCount) {
+        this.totalCount = totalCount;
+    }
+
+    public String getKeywords() {
+        return "".equals(keywords)? null : keywords;
+    }

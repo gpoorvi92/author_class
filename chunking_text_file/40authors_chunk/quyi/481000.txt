@@ -1,0 +1,10 @@
+    public queryMission_result(queryMission_result other) {
+      if (other.isSetSuccess()) {
+        List<com.nercis.isscp.idl.AppCheckResult> __this__success = new ArrayList<com.nercis.isscp.idl.AppCheckResult>(other.success.size());
+        for (com.nercis.isscp.idl.AppCheckResult other_element : other.success) {
+          __this__success.add(new com.nercis.isscp.idl.AppCheckResult(other_element));
+        }
+        this.success = __this__success;
+      }
+      if (other.isSetIre()) {
+        this.ire = new com.nercis.isscp.idl.InvalidRequestException(other.ire);

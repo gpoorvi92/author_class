@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("app_name:");
+    if (this.app_name == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.app_name);
+    }
+    first = false;

@@ -1,0 +1,10 @@
+		canvas.drawBitmap(panel_back, 0, 0, paint);  
+		canvas.drawBitmap(threeBitmap, 212, 15, paint);
+		canvas.drawBitmap(logo, 15, 16, paint);//绘制logo
+		paint.setTextSize(23);//设置文字大小
+		canvas.drawText("使用计谋", 50, 40, paint);
+		paint.setTextSize(18);//设置文字大小
+		
+		canvas.drawBitmap(menuTitle, 10, 70, paint);
+		canvas.drawText("技能名", 15, 90, paint);
+		canvas.drawText("等级", 120, 90, paint);

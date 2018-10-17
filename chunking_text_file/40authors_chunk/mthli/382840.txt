@@ -1,0 +1,10 @@
+      menuBar.add(menu);
+
+      JMenuItem exportItem = new JMenuItem("Export preferences");
+      menu.add(exportItem);
+      exportItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               if (chooser.showSaveDialog(PreferencesFrame.this) == JFileChooser.APPROVE_OPTION)
+               {

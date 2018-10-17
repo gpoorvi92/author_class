@@ -1,0 +1,10 @@
+        try {
+            goodsTypeService.add(goodsType);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("添加成功", "goodsType_list");
+    }
+
+    @RequestMapping("/edit/{item_id}")
+    public ModelAndView editView(@PathVariable("item_id") Integer id){

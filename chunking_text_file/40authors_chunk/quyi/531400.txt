@@ -1,0 +1,10 @@
+        {
+          oprot.writeI32(struct.requestPurviews.size());
+          for (com.nercis.isscp.idl.permission.Permissions _iter4 : struct.requestPurviews)
+          {
+            oprot.writeI32(_iter4.getValue());
+          }
+        }
+      }
+      if (struct.isSetFormat()) {
+        oprot.writeString(struct.format);

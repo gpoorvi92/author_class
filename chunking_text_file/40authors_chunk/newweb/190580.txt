@@ -1,0 +1,10 @@
+	public Set<Bill> getBills() {
+		return bills;
+	}
+	public void setBills(Set<Bill> bills) {
+		this.bills = bills;
+	}
+	@OneToMany(mappedBy = "customer", cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+	public Set<Order> getOrders() {
+		return orders;
+	}

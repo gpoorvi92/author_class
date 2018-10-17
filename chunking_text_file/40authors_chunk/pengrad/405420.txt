@@ -1,0 +1,10 @@
+    }
+
+    private Type type;
+    private Integer offset;
+    private Integer length;
+    private String url;
+    private User user;
+
+    public Type type() {
+        return type;

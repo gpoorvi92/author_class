@@ -1,0 +1,10 @@
+
+    /**
+     * Constructs the version string of the application.
+     *
+     * @return the versions string of the application
+     */
+    public static String getVersionName() {
+        // Get a version string for the app.
+        return BuildConfig.VERSION_NAME;
+    }

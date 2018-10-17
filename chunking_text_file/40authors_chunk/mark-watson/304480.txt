@@ -1,0 +1,10 @@
+                ret = false;
+                break;
+            }
+        }
+        if (GameSearch.DEBUG) System.out.println("     ret="+ret);
+        return ret;
+    }
+    public boolean wonPosition(Position p, boolean player) {
+        if (GameSearch.DEBUG) System.out.println("wonPosition("+p+","+player+")");
+        boolean ret = false;

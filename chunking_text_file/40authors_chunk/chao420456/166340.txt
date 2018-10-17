@@ -1,0 +1,10 @@
+/*
+	需求：一维数组的练习
+
+	分析：
+*/
+import java.util.Scanner;
+
+class  MyArrayTest {
+	public static void main(String[] args) {
+		int arr = {1,2,3,4,5,6,7,8};

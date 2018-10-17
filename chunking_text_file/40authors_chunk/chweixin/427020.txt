@@ -1,0 +1,10 @@
+	 * 设置音乐标题。
+	 * @param title
+	 * 	音乐标题。
+	 * */
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	/**
+	 * 获取音乐描述。
+	 * @return 音乐描述。

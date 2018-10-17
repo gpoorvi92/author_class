@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(2)) {
+        struct.checkEngineNum = iprot.readI32();
+        struct.setCheckEngineNumIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.positives = iprot.readI32();
+        struct.setPositivesIsSet(true);
+      }
+      if (incoming.get(4)) {

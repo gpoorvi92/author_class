@@ -1,0 +1,10 @@
+            if(A[i]<=0) A[i]=A.length+2;
+        for(int i=0;i<A.length;i++)
+        {
+            if(Math.abs(A[i])<A.length+1)
+            {
+                int cur = Math.abs(A[i])-1;
+                A[cur] = -Math.abs(A[cur]);
+            }
+        }
+        for(int i=0;i<A.length;i++)

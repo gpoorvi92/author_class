@@ -1,0 +1,10 @@
+	 * Private field end Setter method.
+	 * @param end 
+	 */
+	public void setEnd(Timestamp end) {
+		this.end = end;
+	}
+
+	/**
+	 * Private field type Getter method.
+	 * @return isct 

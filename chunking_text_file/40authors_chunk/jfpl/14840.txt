@@ -1,0 +1,10 @@
+	public void voiceBtnClick(View v) {
+		if (isInputType) {
+			voiceBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.chatting_button));
+			pressRecordBtn.setVisibility(View.VISIBLE);
+			chatEt.setVisibility(View.GONE);
+			try {
+				((InputMethodManager) getSystemService(INPUT_METHOD_SERVICE))
+						.hideSoftInputFromWindow(chatEt.getWindowToken(),
+								InputMethodManager.HIDE_NOT_ALWAYS);

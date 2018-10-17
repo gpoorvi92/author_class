@@ -1,0 +1,10 @@
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.AutoCompleteTextView;
+import android.widget.RelativeLayout;
+import com.seafile.seadroid2.R;
+
+/**
+ * clearable EditText, also supports auto complete text typing.<br/>
+ * if want to use auto complete feature, should set data source to it.
+ *

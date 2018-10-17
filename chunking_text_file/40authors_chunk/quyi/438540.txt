@@ -1,0 +1,10 @@
+ */
+public enum JobPriority implements org.apache.thrift.TEnum {
+  HIGHER(9),
+  HIGH(6),
+  MEDIUM(4),
+  LOW(2),
+  LOWER(0);
+
+  private final int value;
+

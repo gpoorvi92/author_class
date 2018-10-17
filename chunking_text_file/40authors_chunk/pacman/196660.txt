@@ -1,0 +1,10 @@
+						item = token.nextToken(); // sys
+						info.setCpuSys(Double.valueOf(
+								item.substring(0, item.indexOf('%')))
+								.doubleValue());
+
+						if (!fragFormat) {
+							token.nextToken();
+						}
+						
+						item = token.nextToken(); // nice

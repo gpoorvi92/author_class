@@ -1,0 +1,10 @@
+	}
+
+	public QueryAccountResponseBody getBody() {
+		return body;
+	}
+
+	public void setBody(QueryAccountResponseBody body) {
+		this.body = body;
+	}
+	@Override

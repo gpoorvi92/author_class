@@ -1,0 +1,10 @@
+package tableCellRender;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.table.*;
+
+/**
+ * The planet table model specifies the values, rendering and editing properties for the planet
+ * data.
+ */

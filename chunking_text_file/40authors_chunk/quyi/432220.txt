@@ -1,0 +1,10 @@
+          case 4: // FEATURES_CHARACTERS
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list11 = iprot.readListBegin();
+                struct.featuresCharacters = new ArrayList<String>(_list11.size);
+                for (int _i12 = 0; _i12 < _list11.size; ++_i12)
+                {
+                  String _elem13;
+                  _elem13 = iprot.readString();
+                  struct.featuresCharacters.add(_elem13);

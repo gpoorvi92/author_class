@@ -1,0 +1,10 @@
+{
+    @ACL(limit = Limit.BULLETIN)
+    @RequestMapping(value = "/")
+    public void bulletin(Map<String, Object> map, HttpSession session)
+    {
+        ZoneEntity zoneEntity = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, session).getTargetZone();
+        if (null == zoneEntity)
+        {
+            map.put("data", new ArrayList<>());
+            map.put("zones", new ArrayList<>());

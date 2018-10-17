@@ -1,0 +1,7 @@
+     * (sizeInBits()+31)/32 must be equal to (size+31)/32.
+     * If needed, the bitmap can be further padded with zeroes. 
+     *  
+     * @param size         the size in bits
+     */
+    void setSizeInBitsWithinLastWord(final int size);
+}

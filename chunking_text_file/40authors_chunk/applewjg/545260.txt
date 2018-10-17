@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 13, 2014
+ Problem:    Longest Palindromic Substring
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/longest-palindromic-substring/
+ Notes:
+ Given a string S, find the longest palindromic substring in S. 
+ You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+

@@ -1,0 +1,10 @@
+				}
+			}
+		}
+	}
+	public void transMess(String mess) {
+		try {
+			dos.writeUTF(username  + "@chat" + getThreadID() + "@chat"+ mess + "@chat");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}

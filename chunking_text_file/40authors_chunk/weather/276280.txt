@@ -1,0 +1,10 @@
+    delegate.client.setHostnameVerifier(hostnameVerifier);
+  }
+
+  @Override public HostnameVerifier getHostnameVerifier() {
+    return delegate.client.getHostnameVerifier();
+  }
+
+  @Override public void setSSLSocketFactory(SSLSocketFactory sslSocketFactory) {
+    delegate.client.setSslSocketFactory(sslSocketFactory);
+  }

@@ -1,0 +1,10 @@
+/*
+输出：
+begin timer=1460738337277
+end   timer=1460738342278
+begin timer=1460738342278
+end   timer=1460738347278
+begin timer=1460738347278
+end   timer=1460738352278
+begin timer=1460738352278
+

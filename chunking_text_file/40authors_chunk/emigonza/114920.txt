@@ -1,0 +1,10 @@
+    public static final int PPAD_MSG_IDLE                   = 10;
+    public static final int PPAD_MSG_SLIDE_CARD             = 11;
+    public static final int PPAD_MSG_INSERTCARD             = 12;
+    public static final int PPAD_MSG_SELECTCARDTYPE         = 13;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "CapLanguage" Property Constants
+    /////////////////////////////////////////////////////////////////////
+

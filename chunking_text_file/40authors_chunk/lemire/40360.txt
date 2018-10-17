@@ -1,0 +1,10 @@
+     * The pointer represent the location of the current running length word
+     * in the array of words (embedded in the rlw attribute).
+     */
+    private int pointer;
+
+    /**
+     * The current running length word.
+     */
+    final RunningLengthWord32 rlw;
+

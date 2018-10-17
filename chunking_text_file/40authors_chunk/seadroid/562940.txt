@@ -1,0 +1,10 @@
+                    FadeInBitmapDisplayer.animate(imageView, 500);
+                    displayedImages.add(imageUri);
+                }
+            }
+        }
+    }
+    
+    private class Viewholder {
+        TextView title, subtitle;
+        ImageView icon;

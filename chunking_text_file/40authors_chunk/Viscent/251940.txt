@@ -1,0 +1,10 @@
+
+	/**
+	 * 留给子类实现。用于实现线程停止后的一些清理动作。
+	 * 
+	 * @param cause
+	 */
+	protected void doCleanup(Exception cause) {
+		// 什么也不做
+	}
+

@@ -1,0 +1,10 @@
+
+	/**
+	 * Visits a MICR DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitMICR( DevCat devCat ) {}
+
+	/**
+	 * Visits a MotionSensor DevCat
+	 * @param devCat the DevCat

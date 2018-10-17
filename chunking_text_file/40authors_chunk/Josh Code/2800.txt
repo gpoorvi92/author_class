@@ -1,0 +1,10 @@
+    private void allocateValues()
+    {
+        values = new double[m][];
+        for (int i=0;i<m;i++)
+            values[i]=new double[n];    
+    }
+
+    /** initializes by copying all values over
+     */
+    public void init(matrix mat)

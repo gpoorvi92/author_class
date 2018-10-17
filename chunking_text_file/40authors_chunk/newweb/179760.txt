@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Small selectSmallByName(String name) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_small where name=?")
+				.addEntity(Small.class);
+		query.setString(0, name);
+		return (Small) query.uniqueResult();
+	}
+

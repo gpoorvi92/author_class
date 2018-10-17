@@ -1,0 +1,10 @@
+		//mock service
+		FileProgressStatus fileProgressStatus = new FileProgressStatus();
+		fileProgressStatus.setProgress(returnedValue);
+		progressCalculator.onceReturns(fileProgressStatus).getProgress(clientId, fileId);
+		
+		//calculate progress
+		progressManager.calculateProgress();
+		
+		//assert map is filled
+		Assert.assertThat(progressManager.fileToProgressInfo.get(fileId).getProgress(), CoreMatchers.is(returnedValue));

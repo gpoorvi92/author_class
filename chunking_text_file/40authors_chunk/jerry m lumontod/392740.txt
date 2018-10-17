@@ -1,0 +1,10 @@
+			rs=st.executeQuery(mstrSQL);
+			
+			if (rs.next()) {
+				mstrTheMessage="";
+			}else {
+				mstrTheMessage="Sub class code not found!";
+			}
+
+			rs.close();
+			st.close();

@@ -1,0 +1,10 @@
+
+/**
+ * Transmit field's value via JMS.
+ * 
+ * @Class: Transmit
+ * @author: zhangxinyu
+ * @date: 2014年12月18日 下午6:10:34
+ */
+@Inherited
+@Target(ElementType.FIELD)

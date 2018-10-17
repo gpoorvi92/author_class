@@ -1,0 +1,10 @@
+      send_submitMission(missionId, userApps, plots, useRule);
+      return recv_submitMission();
+    }
+
+    public void send_submitMission(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<com.nercis.isscp.idl.PlotsType> plots, String useRule) throws org.apache.thrift.TException
+    {
+      submitMission_args args = new submitMission_args();
+      args.setMissionId(missionId);
+      args.setUserApps(userApps);
+      args.setPlots(plots);

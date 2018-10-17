@@ -1,0 +1,10 @@
+ */
+import java.util.List;
+
+/**
+ * This interface is used for an
+ * <code>IHttpRequestResponse</code> object that has had markers applied.
+ * Extensions can create instances of this interface using
+ * <code>IBurpExtenderCallbacks.applyMarkers()</code>, or provide their own
+ * implementation. Markers are used in various situations, such as specifying
+ * Intruder payload positions, Scanner insertion points, and highlights in

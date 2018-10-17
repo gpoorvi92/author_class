@@ -1,0 +1,10 @@
+	
+	public void setWeChatAccountDao(IWeChatAccountDao weChatAccountDao) {
+		this.weChatAccountDao = weChatAccountDao;
+	}
+	
+	@Override
+	public List<WeChatAccountInfo> loadAllAccounts() {
+		List<WeChatAccount> list  = this.weChatAccountDao.loadAllAccounts();
+		if(list == null || list.size() == 0) return null;
+		List<WeChatAccountInfo> results = new ArrayList<>();

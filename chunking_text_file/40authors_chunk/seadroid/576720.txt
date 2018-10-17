@@ -1,0 +1,10 @@
+        }
+    }
+
+    protected void onTaskFinished() {
+        getDialog().dismiss();
+        if (mListener != null) {
+            mListener.onSuccess();
+        }
+    }
+

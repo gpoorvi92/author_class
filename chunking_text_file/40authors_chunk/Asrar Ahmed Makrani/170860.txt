@@ -1,0 +1,10 @@
+
+public class General_frame extends JInternalFrame implements General_frame_Interface, remark_Interface, General_Info_Interface, passwordInterface{
+ 	
+ 	 public java.util.Date dt;
+ 	 private int paintx, painty;
+ 	 public String dd;	
+ 	 
+    public General_frame() {
+        super("Patron Setup", 
+              true, //resizable

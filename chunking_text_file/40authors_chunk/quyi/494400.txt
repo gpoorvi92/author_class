@@ -1,0 +1,10 @@
+      return this.equals((Sample)that);
+    return false;
+  }
+
+  public boolean equals(Sample that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_missionId = true && this.isSetMissionId();
+    boolean that_present_missionId = true && that.isSetMissionId();

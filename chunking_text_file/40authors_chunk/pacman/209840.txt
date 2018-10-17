@@ -1,0 +1,9 @@
+	
+	/**
+	 * error.
+	 * 
+	 * @param msg
+	 * @param t
+	 */
+	void error(String msg, Throwable t);
+}

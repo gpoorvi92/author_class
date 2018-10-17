@@ -1,0 +1,10 @@
+		
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("key1", 1);
+		map.put("key2", 1.1f);
+		map.put("key3", "Morning, guys!");
+		map.put("key4", new ArrayList());
+		
+		IMQSender sender = mgr.getSender(QueueType.QUEUE_AUDIO);
+		assertNotNull(sender);
+		

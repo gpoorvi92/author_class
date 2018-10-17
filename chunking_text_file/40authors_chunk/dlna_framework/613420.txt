@@ -1,0 +1,10 @@
+	{
+		httpRequestListenerList.add(listener);
+	}		
+
+	public void removeRequestListener(HTTPRequestListener listener)
+	{
+		httpRequestListenerList.remove(listener);
+	}		
+
+	public void performRequestListener(HTTPRequest httpReq)

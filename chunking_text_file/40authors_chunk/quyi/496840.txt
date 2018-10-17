@@ -1,0 +1,10 @@
+    }
+    if (isSetEnginePlots()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.enginePlots, other.enginePlots);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;
+  }
+

@@ -1,0 +1,10 @@
+	/**
+	 * The object's hash code generation method.
+	 * @return TaskparamModel hash code
+	 */
+	@Override
+	public int hashCode() {
+		int hash = 0;
+		hash += (this.pid != null ? this.pid.hashCode() : 0);
+		hash += (this.tid != null ? this.tid.hashCode() : 0);
+		hash += (this.pname != null ? this.pname.hashCode() : 0);

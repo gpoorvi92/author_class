@@ -1,0 +1,7 @@
+	 * 所暂挂的所有线程。
+	 * 
+	 * @param stateOperation
+	 *          更改状态的操作，其call方法的返回值为true时，该方法才会唤醒被暂挂的线程
+	 */
+	void broadcastAfter(Callable<Boolean> stateOperation) throws Exception;
+}

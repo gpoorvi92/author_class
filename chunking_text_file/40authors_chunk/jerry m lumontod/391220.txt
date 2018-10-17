@@ -1,0 +1,10 @@
+	// return a nonnull value.
+
+	protected int[] getSelectedIndices(int start, int stop) {
+
+		if ((start == -1) || (stop == -1)) {
+			// no selection, so return an empty array
+			return new int[0];
+		}
+
+		int guesses[] = new int[stop - start + 1];

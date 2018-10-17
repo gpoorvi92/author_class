@@ -1,0 +1,10 @@
+package com.jufan.platform.view;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.cyss.android.lib.util.FileUtil;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.ui.R;
+
+import android.app.Dialog;

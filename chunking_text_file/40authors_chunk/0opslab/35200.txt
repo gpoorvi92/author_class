@@ -1,0 +1,10 @@
+import javax.swing.table.TableModel;
+
+/**
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ *
+ */
+public abstract class StreamTableRenderer implements ITableRenderer {
+
+  final static int FIRST_CELL_IN_ROW = 0;
+  final static int LAST_CELL_IN_ROW = 1;

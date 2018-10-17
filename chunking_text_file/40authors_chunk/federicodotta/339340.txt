@@ -1,0 +1,10 @@
+     */
+    Component getUiComponent();
+
+    /**
+     * The hosting editor will invoke this method before it displays a new HTTP
+     * message, so that the custom tab can indicate whether it should be enabled
+     * for that message.
+     *
+     * @param content The message that is about to be displayed, or a zero-length
+     * array if the existing message is to be cleared.

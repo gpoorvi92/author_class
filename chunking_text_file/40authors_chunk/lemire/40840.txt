@@ -1,0 +1,10 @@
+                    }
+
+                    @Override
+                    public void remove() {
+                        throw new RuntimeException("N/A");
+                    }
+                };
+            }
+        };
+    }

@@ -1,0 +1,10 @@
+            if (pattern == null)
+                return;
+            LockPatternUtils mLockPatternUtils = new LockPatternUtils(getApplicationContext());
+            if (mLockPatternUtils.checkPattern(pattern)) {
+                mLockPatternView
+                        .setDisplayMode(LockPatternView.DisplayMode.Correct);
+                settingsMgr.setupGestureLock();
+                finish();
+            } else {
+                mLockPatternView

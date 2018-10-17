@@ -1,0 +1,10 @@
+        downloadTaskManager.removeByState(taskState);
+
+    }
+
+    public void retryDownloadTask(int taskID) {
+        downloadTaskManager.retry(taskID);
+    }
+
+    public DownloadTaskInfo getDownloadTaskInfo(int taskID) {
+        return (DownloadTaskInfo) downloadTaskManager.getTaskInfo(taskID);

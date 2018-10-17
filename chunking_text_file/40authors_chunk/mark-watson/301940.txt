@@ -1,0 +1,10 @@
+  static private List<Hashtable<String,String>> search_helper(String opensearch_url, String query, boolean return_cache) throws IOException, ParserConfigurationException, SAXException {
+    List<Hashtable<String,String>> ret = new ArrayList<Hashtable<String,String>>();
+    String url_str = opensearch_url + "?query=" + URLEncoder.encode(query, "UTF-8");
+    System.out.println(url_str);
+    URL url = new URL(url_str);
+    URLConnection uc = url.openConnection();
+    BufferedInputStream bis = new BufferedInputStream(uc.getInputStream());
+    DocumentBuilder docBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+    Document doc  = docBuilder.parse(bis);
+    doc.getDocumentElement().normalize();

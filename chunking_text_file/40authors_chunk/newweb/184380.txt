@@ -1,0 +1,10 @@
+package com.newweb.vo;
+
+/**
+ * 一个铝窗的各种材料数量,尺寸,玻璃高宽等
+ * @author qianlong
+ *
+ */
+public class LhjSizeModeFor728 implements LhjSizemode {
+
+	private String type;

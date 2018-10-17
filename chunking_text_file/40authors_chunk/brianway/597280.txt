@@ -1,0 +1,10 @@
+public class Run2_noObjectLock {
+    public static void main(String[] args) {
+        String s = new String("");
+        try {
+            s.wait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}

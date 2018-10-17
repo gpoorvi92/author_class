@@ -1,0 +1,7 @@
+pop操作中的： Thread-1 线程呈wait状态
+pop操作中的： Thread-4 线程呈wait状态
+pop操作中的： Thread-3 线程呈wait状态
+pop操作中的： Thread-2 线程呈wait状态
+push = 1
+push操作中的： Thread-0 线程呈wait状态
+ */

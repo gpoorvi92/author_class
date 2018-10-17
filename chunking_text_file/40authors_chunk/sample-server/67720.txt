@@ -1,0 +1,10 @@
+{
+    private static final Logger                       log                          = LoggerFactory.getLogger(GatewayInboundPipelineFactory.class);
+    //public final static  ChannelTrafficShapingHandler channelTrafficHandler        = new ChannelTrafficShapingHandler(new HashedWheelTimer());
+    //private static final int                          MAX_FRAME_BYTES_LENGTH       = 1048576;
+    private final        Message                      defaultInstance              = Fenrisulfr.RpcPacket.getDefaultInstance();
+    private final        ExecutionHandler             executionHandler             = new ExecutionHandler(new OrderedMemoryAwareThreadPoolExecutor(16, 1048576, 1048576));
+    private final        Timer                        timer                        = new HashedWheelTimer();
+    //private final        GlobalTrafficShapingHandler  globalTrafficHandler         = new GlobalTrafficShapingHandler(new HashedWheelTimer());
+    private final        BandwidthMeterHandler        bandwidthHandler             = new BandwidthMeterHandler(timer);
+    private final        IdleStateHandler             idleStateHandler             = new IdleStateHandler(timer, 5 * 60, 0, 0);//(timer,read,write,all)s

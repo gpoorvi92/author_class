@@ -1,0 +1,10 @@
+            entered_windowClosing_1 = true;
+            __windowClosing( e );
+            entered_windowClosing_1 = false;
+        }
+        else
+            super.windowClosing( e );
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowClosed(java.awt.event.WindowEvent)
+

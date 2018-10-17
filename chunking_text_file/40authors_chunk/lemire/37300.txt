@@ -1,0 +1,10 @@
+    /**
+     * Expands the buffer by adding the given number of words at the given position.
+     * The added words may contain stale data.
+     * @param position the position of the buffer where to add words
+     * @param length   the number of words to add
+     */
+    void expand(int position, int length);
+
+    /**
+     * Removes a given number of words at the given position in the buffer.

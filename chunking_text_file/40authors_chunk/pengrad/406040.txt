@@ -1,0 +1,10 @@
+        return message;
+    }
+
+    public Message editedMessage() {
+        return edited_message;
+    }
+
+    public InlineQuery inlineQuery() {
+        return inline_query;
+    }

@@ -1,0 +1,10 @@
+ * Simple class that tries to detect the encoding of files given on the command-line.
+ */
+public class CharsetPrinter {
+    private final CodepageDetectorProxy detector = CodepageDetectorProxy.getInstance();
+
+    public CharsetPrinter() {
+        detector.add(new ParsingDetector(false));
+        detector.add(JChardetFacade.getInstance());
+        detector.add(ASCIIDetector.getInstance());
+    }

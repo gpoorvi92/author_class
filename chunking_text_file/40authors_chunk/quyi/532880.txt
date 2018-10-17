@@ -1,0 +1,10 @@
+  public void unsetRiskLevel() {
+    this.riskLevel = null;
+  }
+
+  /** Returns true if field riskLevel is set (has been assigned a value) and false otherwise */
+  public boolean isSetRiskLevel() {
+    return this.riskLevel != null;
+  }
+
+  public void setRiskLevelIsSet(boolean value) {

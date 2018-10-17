@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+/*
+ * 特有功能：
+ * 		A:添加元素
+ * 			public void addElement(Object obj)		--		add(Object obj)
+ * 		B:获取元素

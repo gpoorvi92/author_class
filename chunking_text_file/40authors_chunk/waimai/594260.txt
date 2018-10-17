@@ -1,0 +1,10 @@
+        return collectionCount;
+    }
+
+    public void setCollectionCount(Integer collectionCount) {
+        this.collectionCount = collectionCount;
+    }
+
+    public Merchant getMerchant() {
+        return merchant;
+    }

@@ -1,0 +1,10 @@
+
+      public reportNodeManagerConfig_args getEmptyArgsInstance() {
+        return new reportNodeManagerConfig_args();
+      }
+
+      public AsyncMethodCallback<String> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<String>() { 
+          public void onComplete(String o) {
+            reportNodeManagerConfig_result result = new reportNodeManagerConfig_result();

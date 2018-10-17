@@ -1,0 +1,10 @@
+
+		//Change panel back to original text box		
+		//jsp.setViewportView(log);	
+	} 
+
+
+	// calculates the first byte of a 16-bit word
+	private static int getHiByte(int num) { 
+		num = num & 65280; 
+		return( num >>> 8 ); 

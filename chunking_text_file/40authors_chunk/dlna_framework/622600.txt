@@ -1,0 +1,10 @@
+	
+	public CommonLog(String tag) {
+		this.tag = tag;
+	}
+	
+	public void setTag(String tag) {
+		this.tag = tag;
+	}
+	
+	private String getFunctionName() {

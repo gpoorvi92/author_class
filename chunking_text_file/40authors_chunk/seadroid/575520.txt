@@ -1,0 +1,10 @@
+            strId = ctx.isCopy() ? R.string.copy_file_ing : R.string.move_file_ing;
+        }
+        String str = getActivity().getString(strId);
+        setTitle(str + " " + ctx.srcFn);
+        // dialog.setTitle(str + " " + ctx.srcFn);
+    }
+
+    @Override
+    protected CopyMoveTask prepareTask() {
+        CopyMoveTask task = new CopyMoveTask(ctx, getDataManager());

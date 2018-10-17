@@ -1,0 +1,5 @@
+		// [13, 24, 57, 69, 80]
+		System.out.println(Arrays.binarySearch(arr, 24));
+		System.out.println(Arrays.binarySearch(arr, 244)); // ??? -6
+	}
+}

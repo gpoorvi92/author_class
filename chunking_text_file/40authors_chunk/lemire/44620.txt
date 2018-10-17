@@ -1,0 +1,10 @@
+     *
+     * @return the long
+     */
+    public long size() {
+        return this.runningLength + this.numberOfLiteralWords;
+    }
+
+    /*
+     * @see java.lang.Object#toString()
+     */

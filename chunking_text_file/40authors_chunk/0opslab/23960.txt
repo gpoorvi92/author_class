@@ -1,0 +1,10 @@
+
+    public void setOperation_type(String operation_type) {
+        this.operation_type = operation_type;
+    }
+
+    @Override
+    public String toString() {
+        return "Log2{" +
+                "logId=" + logId +
+                ", logyype='" + logyype + '\'' +

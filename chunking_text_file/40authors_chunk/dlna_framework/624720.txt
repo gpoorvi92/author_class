@@ -1,0 +1,10 @@
+	
+	public final static void setXMLParser(Parser parser)
+	{
+		xmlParser = parser;
+	}
+	
+	public final static Parser getXMLParser()
+	{
+		return xmlParser;
+	}

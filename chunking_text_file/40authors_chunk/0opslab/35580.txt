@@ -1,0 +1,10 @@
+
+    /**
+     * 判断一组map是否有效
+     * @param maps 需要判断map
+     * @return 是否全部有效
+     */
+    public final static boolean valid(Map... maps) {
+        for (Map m : maps) {
+            if (!valid(m)) {
+                return false;

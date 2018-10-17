@@ -1,0 +1,10 @@
+		this.guid = guid;
+	}
+
+	/**
+	 * @return the audioBitRate
+	 */
+	public int getAudioBitRate() {
+		return audioBitRate;
+	}
+	

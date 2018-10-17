@@ -1,0 +1,10 @@
+		Intent intent = new Intent(LogoActivity.this, LoginActivity.class);
+		startActivity(intent);
+		finish();
+	}
+
+	private void loginService(AbstractCommonData loginPara) {
+		final String username = loginPara.getStringValue("username");
+		final String pwd = loginPara.getStringValue("pwd");
+		AbstractCommonData acd = ConstVariables.getCommPacket(username);
+		acd.putStringValue("username", username);

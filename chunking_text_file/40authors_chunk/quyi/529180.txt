@@ -1,0 +1,10 @@
+  }
+
+  @Override
+  public void clear() {
+    this.app_id = null;
+    this.app_name = null;
+    this.versioncode = null;
+    this.url = null;
+    setApp_sizeIsSet(false);
+    this.app_size = 0;

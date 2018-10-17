@@ -1,0 +1,10 @@
+      slider.setLabelTable(labelTable);
+      addSlider(slider, "Icon labels");
+
+      // add the text field that displays the slider value
+
+      textField = new JTextField();
+      add(sliderPanel, BorderLayout.CENTER);
+      add(textField, BorderLayout.SOUTH);
+      pack();
+   }

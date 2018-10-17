@@ -1,0 +1,10 @@
+  /**
+   * @return center gradient color
+   */
+  public Color getCenterColor(){
+    return color1;
+  }
+
+  /**
+   * @return boundary color
+   */

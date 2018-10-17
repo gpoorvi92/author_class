@@ -1,0 +1,10 @@
+        int [] ret = new int[AbstractGraphSearch.MAX];
+        int num = 0;
+        int last_node = path[num_path - 1];
+        for (int n=0; n<numNodes; n++) {
+            // see if node 'n' is already on 'path':
+            boolean keep = true;
+            for (int i=0; i<num_path; i++) {
+                if (n == path[i]) {
+                    keep = false;
+                    break;

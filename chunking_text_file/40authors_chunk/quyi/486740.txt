@@ -1,0 +1,10 @@
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("dycRD:");
+      if (this.dycRD == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.dycRD);
+      }
+      first = false;

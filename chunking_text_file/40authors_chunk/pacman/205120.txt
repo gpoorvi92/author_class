@@ -1,0 +1,10 @@
+
+		Message result = null;
+		
+		IMQReceiver receiver = null;
+		try {
+			
+			receiver = mqFactory.getReceiver(dest);
+			result = receiver.getMessage(AppConfig.getInstance().getJmsLoadTimeout());
+		} finally {
+			if (receiver != null)

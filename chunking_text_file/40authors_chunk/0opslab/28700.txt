@@ -1,0 +1,4 @@
+        assertEquals(true, RegUtil.isEmail("12@1.com"));
+        assertEquals(false, RegUtil.isEmail("12#1.com"));
+    }
+}

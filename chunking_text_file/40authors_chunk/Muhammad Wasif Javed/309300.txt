@@ -1,0 +1,10 @@
+	private JPanel pMember = new JPanel ();
+
+	private JScrollPane scroller;
+	private JTable table;	//Table for Displaying Records.
+	private Statement st;	//Statement for Getting the Required Table.
+
+	private int rec = 0;
+	private int total = 0;
+
+	private String rowRec[][];	//String Type Array use to Load Records into File.

@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.ui;
+
+import android.content.Context;
+import android.text.Editable;
+import android.text.InputType;
+import android.text.TextWatcher;
+import android.text.method.PasswordTransformationMethod;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;

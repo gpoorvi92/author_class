@@ -1,0 +1,10 @@
+			// // Integer i = (Integer) obj;
+			// // System.out.println(i);
+			// // }
+			// System.out.println(obj);
+		}
+
+//		String[] strArray = new String[3];
+//		strArray[0] = "hello";
+//		strArray[1] = "world";
+//		strArray[2] = 100;

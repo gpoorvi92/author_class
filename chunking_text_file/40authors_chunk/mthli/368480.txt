@@ -1,0 +1,10 @@
+         final Object v1 = RenderingHints.class.getField(value1).get(null);
+         final Object v2 = RenderingHints.class.getField(value2).get(null);
+         JLabel label = new JLabel(key);
+
+         buttonBox.add(label, new GBC(0, r).setAnchor(GBC.WEST));
+         ButtonGroup group = new ButtonGroup();
+         JRadioButton b1 = new JRadioButton(value1, true);
+
+         buttonBox.add(b1, new GBC(1, r).setAnchor(GBC.WEST));
+         group.add(b1);

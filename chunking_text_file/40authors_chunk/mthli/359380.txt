@@ -1,0 +1,10 @@
+public class WelcomeApplet extends JApplet
+{
+   public void init()
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               setLayout(new BorderLayout());
+

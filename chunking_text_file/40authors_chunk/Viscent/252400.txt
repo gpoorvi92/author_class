@@ -1,0 +1,10 @@
+			    });
+		}
+
+		@Override
+		protected Task makeTask(Object... params) {
+			String message = (String) params[0];
+			int id = (Integer) params[1];
+
+			return new Task(message, id);
+		}

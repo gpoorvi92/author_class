@@ -1,0 +1,10 @@
+      DefaultMutableTreeNode node = (DefaultMutableTreeNode) value;
+      Class<?> c = (Class<?>) node.getUserObject();
+
+      // the first time, derive italic font from plain font
+      if (plainFont == null)
+      {
+         plainFont = getFont();
+         // the tree cell renderer is sometimes called with a label that has a null font
+         if (plainFont != null) italicFont = plainFont.deriveFont(Font.ITALIC);
+      }

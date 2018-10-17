@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public <T> T getAttribute(String key) {
+
+		return context.getAttribute(key);
+	}
+
+	/**
+	 * (non Javadoc) TODO
+	 * 

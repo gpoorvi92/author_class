@@ -1,0 +1,10 @@
+            entered_mouseEntered_4 = false;
+        }
+        else
+            super.mouseEntered( e );
+    }
+
+    /// public void java.awt.event.MouseAdapter.mouseMoved(java.awt.event.MouseEvent)
+
+    public native void __mouseMoved( java.awt.event.MouseEvent e );
+

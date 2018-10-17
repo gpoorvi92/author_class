@@ -1,0 +1,10 @@
+          String ln = br.readLine();
+          if (ln == null)
+              break;
+          ln = ln.trim();
+          if (ln.startsWith("endfacet"))
+              break;
+
+          if (ln.startsWith("endloop") || ln.equals(""))
+              continue;
+

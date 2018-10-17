@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.riskLevel = Risk.findByValue(iprot.readI32());
+              struct.setRiskLevelIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // PAK
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.pak = iprot.readString();

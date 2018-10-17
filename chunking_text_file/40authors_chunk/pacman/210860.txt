@@ -1,0 +1,10 @@
+
+	/**
+	 * Private field status Setter method.
+	 * @param status 
+	 */
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+
+	/**

@@ -1,0 +1,10 @@
+      }
+    }
+
+    public void modifyTaskManagerConfig(String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      modifyTaskManagerConfig_call method_call = new modifyTaskManagerConfig_call(propertyName, propertyValue, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+

@@ -1,0 +1,10 @@
+		Instances training_data = new Instances(
+                new BufferedReader(
+                      new FileReader("test_data/stock_training_data.arff")));
+		training_data.setClassIndex(training_data.numAttributes() - 1);
+
+		Instances testing_data = new Instances(
+                new BufferedReader(
+                      new FileReader("test_data/stock_testing_data.arff")));
+		testing_data.setClassIndex(training_data.numAttributes() - 1);
+

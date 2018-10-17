@@ -1,0 +1,10 @@
+            infosList = ImmutableList.copyOf(infos);
+        }
+
+        addAllUploadTasks(infosList);
+    }
+
+    public void run() {
+        synchronized (infos) {
+            infos.addAll(db.getAutoUploadInfos());
+        }

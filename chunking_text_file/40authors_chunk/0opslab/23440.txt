@@ -1,0 +1,10 @@
+import java.nio.charset.Charset;
+
+/**
+ * 
+ * <p>
+ * <b> This class has been replaced by {@link ParsingDetector} and only exists for backward-compatibility.
+ * </b> The name simply would not match any more, as parsing is not limited to html (1.1 includes xml as well). New code
+ * should stick to the replacement. This class has been modified with version 1.1 and now is delegating all calls to an
+ * instance of the replacement class (5 minutes with eclipse and a common interface), which introduces a small overhead
+ * (minimal, as one invokevirtual is nothing compared to codepage detection by parsing).

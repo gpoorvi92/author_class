@@ -1,0 +1,10 @@
+      System.out.print(numero[i] + "\t");
+    }
+    
+      //leer el 7 del final
+    for(i = 0; i < 10; i++){
+        if((numero[i] % 10) == 7){
+               auxiliar[contador7] = numero[i]; 
+               contador7--;
+        } else {
+               auxiliar[contador] = numero[i];

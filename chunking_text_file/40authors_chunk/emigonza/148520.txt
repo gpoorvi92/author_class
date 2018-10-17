@@ -1,0 +1,9 @@
+	 */
+	public void visitToneIndicator( DevCat devCat ) {}
+
+	/**
+	 * Visits a PointCardRW DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitPointCardRW( DevCat devCat ) {}	
+}

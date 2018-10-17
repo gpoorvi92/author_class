@@ -1,0 +1,10 @@
+		acd.putStringValue("image_id", imageId);
+		acd.putStringValue("image_thumb_d", imageThumbId);
+		ServiceController.addService(acd, ctx);
+	}
+
+	public static void sendChatVoice(AutoActivity ctx, String username,
+			String toUser, String toGroup, String voiceId,
+			IServiceLogic iservice) {
+		AbstractCommonData acd = getChatCommonPacket(username, "1", toUser,
+				toGroup, iservice);

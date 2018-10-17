@@ -1,0 +1,10 @@
+    /**
+     * Sets the running bit.
+     *
+     * @param b the new running bit
+     */
+    public void setRunningBit(final boolean b) {
+        setRunningBit(this.buffer, this.position, b);
+    }
+
+    static void setRunningBit(final Buffer buffer, final int position, final boolean b) {

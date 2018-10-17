@@ -1,0 +1,10 @@
+            break;
+          case 8: // NOTIFY_CALLBACK_URL
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.notify_callback_url = iprot.readString();
+              struct.setNotify_callback_urlIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 9: // APP_DESCRIPTION

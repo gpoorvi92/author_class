@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class TestDB
+{
+   public static void main(String args[]) throws IOException
+   {
+      try
+      {
+         runTest();
+      }

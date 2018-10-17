@@ -1,0 +1,10 @@
+		return userDao.selectUserByID(id);
+	}
+
+	@Override
+	public User findUserByLinkID(int id) {
+		List<User> list = userDao.selectUserByLinkID(id);
+		if(list.size() == 1){
+			return list.get(0);
+		}
+		return null;

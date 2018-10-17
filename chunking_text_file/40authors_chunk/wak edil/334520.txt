@@ -1,0 +1,10 @@
+		frame.setSize(700,500);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);		this.dispose();
+	 	}
+		
+		if (e.getSource() == jbexit){
+	 			int confirm=JOptionPane.showConfirmDialog(null,"Are you sure to exit?","Exit ",JOptionPane.YES_NO_OPTION);
+		 	
+		 		if(confirm==0)
+		 			System.exit(0);

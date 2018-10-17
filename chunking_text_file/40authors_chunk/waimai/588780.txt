@@ -1,0 +1,10 @@
+
+    @RequestMapping("/edit/{user_id}")
+    public ModelAndView editView(@PathVariable("user_id") Integer id) {
+        ModelAndView modelAndView = new ModelAndView("management/user/edit");
+        User user = userService.findById(id);
+        user.setPassword(null);
+        modelAndView.addObject("user", user);
+        modelAndView.addObject("gender", Gender.values());
+        modelAndView.addObject("school", Schools.values());
+        modelAndView.addObject("area", Areas.values());

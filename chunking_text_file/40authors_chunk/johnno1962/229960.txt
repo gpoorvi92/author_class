@@ -1,0 +1,10 @@
+
+    KeyAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.KeyAdapter.keyTyped(java.awt.event.KeyEvent)
+
+    public native void __keyTyped( java.awt.event.KeyEvent e );
+

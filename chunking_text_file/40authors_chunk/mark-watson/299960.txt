@@ -1,0 +1,10 @@
+    outer:      
+        while (queue.isEmpty() == false) {
+            Location head = queue.peekAtFrontOfQueue();
+            if (head == null) break; // ??
+            Location [] connected = getPossibleMoves(head);
+            for (int i=0; i<4; i++) {
+                if (connected[i] == null) break;
+                int w = connected[i].x;
+                int h = connected[i].y;
+                if (alReadyVisitedFlag[w][h] == false) {

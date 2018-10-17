@@ -1,0 +1,10 @@
+      public operateEngine_argsTupleScheme getScheme() {
+        return new operateEngine_argsTupleScheme();
+      }
+    }
+
+    private static class operateEngine_argsTupleScheme extends TupleScheme<operateEngine_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, operateEngine_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;

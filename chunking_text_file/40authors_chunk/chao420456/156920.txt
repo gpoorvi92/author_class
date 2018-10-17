@@ -1,0 +1,10 @@
+		
+		jbt_exit = new JButton("\u9000\u51FA\u670D\u52A1\u5668");
+		jbt_exit.setBounds(258, 23, 103, 34);
+		jbt_exit.addActionListener(this);
+		getContentPane().add(jbt_exit);
+		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 64, 221, 192);
+		scrollPane.setWheelScrollingEnabled(true);
+		scrollPane.setBorder(BorderFactory.createTitledBorder("ÁÄÌìÏûÏ¢"));

@@ -1,0 +1,10 @@
+	        connection.setConnectionHost(dbServerIP);
+	        connection.setConnectionPort(dbServerPort);
+	        connection.setConnectionDescriptor(connectionDescriptor);
+	        connection.connect();
+		} catch (Exception e) {
+			throw new ExceptionInInitializerError("mongodb argument init error!");
+		}
+	}
+
+	public AbstractMapperDAO() {

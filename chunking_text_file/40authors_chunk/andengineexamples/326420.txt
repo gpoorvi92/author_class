@@ -1,0 +1,10 @@
+	private ITextureRegion mOnScreenControlBaseTextureRegion;
+	private ITextureRegion mOnScreenControlKnobTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================

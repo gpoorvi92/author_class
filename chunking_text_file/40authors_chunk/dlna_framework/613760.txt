@@ -1,0 +1,10 @@
+	 * 
+	 * @param outArgList
+	 */
+	public void setResArgs(ArgumentList outArgList)
+	{
+        int nArgs = size();
+        for (int n=0; n<nArgs; n++) {
+            Argument arg = getArgument(n);
+            if (arg.isOutDirection()){
+	            String argName = arg.getName();

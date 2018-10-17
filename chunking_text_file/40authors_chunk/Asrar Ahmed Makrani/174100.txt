@@ -1,0 +1,10 @@
+      		if (!((Character.isDigit(c) || (c == KeyEvent.VK_BACK_SPACE) || (c == KeyEvent.VK_DELETE)))) {
+        	JOptionPane.showMessageDialog(null, "Please enter a numerical value");
+        	getToolkit().beep();
+        	e.consume();
+      		}
+    		}
+  		});
+	
+	
+	

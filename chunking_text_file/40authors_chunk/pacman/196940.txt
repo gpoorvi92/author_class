@@ -1,0 +1,10 @@
+	 */
+	public static boolean exists(String dirOrFile) {
+		
+		if (StringUtils.isBlank(dirOrFile)) {
+			return false;
+		}
+		return new File(dirOrFile).exists();
+	}
+	
+	/**

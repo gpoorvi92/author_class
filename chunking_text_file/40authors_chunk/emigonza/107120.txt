@@ -1,0 +1,7 @@
+    public void    fixDeposit() throws JposException;
+    public void    pauseDeposit(int control) throws JposException;
+
+    // Event listener methods
+    public void    addDataListener(DataListener l);
+    public void    removeDataListener(DataListener l);
+}

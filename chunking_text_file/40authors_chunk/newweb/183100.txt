@@ -1,0 +1,10 @@
+	}
+	
+	@Column
+	public int getCircleCount() {
+		return circleCount;
+	}
+	public void setCircleCount(int circleCount) {
+		this.circleCount = circleCount;
+	}
+	

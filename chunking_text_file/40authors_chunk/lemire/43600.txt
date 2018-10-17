@@ -1,0 +1,10 @@
+		//
+		// support for threshold function (new as of version 0.8.0):
+		// mark as true a bit that occurs at least T times in the source
+		// bitmaps
+		//
+		EWAHCompressedBitmap threshold2 = EWAHCompressedBitmap.threshold(2,
+				ewahBitmap1, ewahBitmap2, ewahBitmap3, ewahBitmap4);
+		System.out.println("threshold 2 : " + threshold2);
+
+	}

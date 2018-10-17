@@ -1,0 +1,10 @@
+            e.raiseSalary(5);
+        }
+
+        for (Employee e : staff) {
+            System.out.println(
+                    "name = " + e.getName() + 
+                    ", salary = " + e.getSalary() + 
+                    ", hireDay = " + e.getHireDay()
+                    );
+        }

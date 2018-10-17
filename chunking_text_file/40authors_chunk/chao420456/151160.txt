@@ -1,0 +1,10 @@
+		// 遍历File数组，得到每一个File对象
+		for (File file : fileArray) {
+			String name = file.getName(); // a.txt
+			File newFile = new File(destFolder, name); // demo\\a.txt
+
+			copy(file, newFile);
+		}
+	}
+
+	private static void copy(File file, File newFile) throws IOException {

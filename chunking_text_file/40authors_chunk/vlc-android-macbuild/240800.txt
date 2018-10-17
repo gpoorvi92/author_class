@@ -1,0 +1,10 @@
+
+    public interface OnCompletionListener {
+        public void onCompletion(AbsMediaPlayer mp);
+    }
+
+    public interface OnErrorListener {
+        public boolean onError(AbsMediaPlayer mp, int what, int extra);
+    }
+
+    public interface OnInfoListener {

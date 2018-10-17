@@ -1,0 +1,10 @@
+                    consumer.get().didFinishedLoadingData(this.mProvider.get(), msg.obj, DataConsumer.LoadingType.RESET);
+                this.mProvider.get().isLoading = false;
+            }
+            if (msg.what == LOAD_NEW_FINISHED || msg.what == LOAD_CACHE_FINISHED) {
+                if (consumer != null && consumer.get() != null)
+                    consumer.get().didFinishedLoadingData(this.mProvider.get(), msg.obj, DataConsumer.LoadingType.LOAD_NEW);
+                this.mProvider.get().isLoading = false;
+            } else if (msg.what == LOAD_MORE_FINISHED) {
+                if (consumer != null && consumer.get() != null)
+                    consumer.get().didFinishedLoadingData(this.mProvider.get(), msg.obj, DataConsumer.LoadingType.LOAD_MORE);

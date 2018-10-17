@@ -1,0 +1,10 @@
+								urlNode.setText(trimToBareName(file));
+							}
+						}
+					}
+					
+					urlNode = subnode.element("releaseUrl");
+					if (urlNode != null){
+						String file = urlNode.getTextTrim();//StringHelper.getFileBareName(urlNode.getTextTrim());
+						
+						if (!StringHelper.isEmpty(file)) {

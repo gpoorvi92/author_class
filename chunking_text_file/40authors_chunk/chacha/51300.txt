@@ -1,0 +1,10 @@
+import org.chacha.client.command.account.ModifyAccountRequest;
+import org.chacha.client.command.account.QueryAccountRequest;
+import org.chacha.client.command.account.QueryAccountResponse;
+import org.chacha.client.command.auth.LoginRequest;
+import org.chacha.client.command.auth.LoginResponse;
+import org.chacha.client.command.auth.TokenLogout;
+import org.chacha.client.command.auth.TokenRequest;
+import org.chacha.exception.ChachaException;
+
+public interface CommandService {

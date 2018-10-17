@@ -1,0 +1,10 @@
+
+public class StarredItemAdapter extends BaseAdapter {
+
+    private ArrayList<SeafItem> items;
+    private BrowserActivity mActivity;
+
+    public StarredItemAdapter(BrowserActivity activity) {
+        this.mActivity = activity;
+        items = Lists.newArrayList();
+    }

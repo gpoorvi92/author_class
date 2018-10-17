@@ -1,0 +1,10 @@
+    public Integer countNumber(BaseConditionVO vo, String status) {
+        vo.setSaleCountDate(DateUtil.getSaleCountDate(status));
+        return saleRecordMapper.countNumber(vo) == null ? 0 : saleRecordMapper.countNumber(vo);
+    }
+
+    @Override
+    public List<Goods> getGoodsRecommend(Integer size) {
+        RowBounds rowBounds = new RowBounds(0, size);
+        return saleRecordMapper.getGoodsRecommend(DateUtil.getSaleCountDate("3"), rowBounds);
+    }

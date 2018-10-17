@@ -1,0 +1,10 @@
+			gListeners.add(listener);
+		}
+	}
+
+	private static IMessageManager gMsgManager = null;
+
+	public static void setMessageManager(IMessageManager mgr) {
+		gMsgManager = mgr;
+	}
+

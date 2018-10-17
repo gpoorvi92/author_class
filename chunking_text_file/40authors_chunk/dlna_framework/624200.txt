@@ -1,0 +1,10 @@
+		// Thanks for Theo Beisch (10/20/04)
+		return new Date(Calendar.getInstance(TimeZone.getTimeZone("GMT")));
+	}
+	
+	////////////////////////////////////////////////
+	//	getDateString
+	////////////////////////////////////////////////
+
+	public final static String toDateString(int value)
+	{

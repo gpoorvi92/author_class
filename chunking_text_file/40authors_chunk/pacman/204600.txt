@@ -1,0 +1,10 @@
+ * @date: 2015年1月9日 上午1:58:01
+ */
+public class JsonResult {
+
+	private int success;
+	
+	private String msg;
+
+	/**
+	 * @return the success

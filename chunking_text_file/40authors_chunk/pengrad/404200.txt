@@ -1,0 +1,7 @@
+                "file_id='" + file_id + '\'' +
+                ", width=" + width +
+                ", height=" + height +
+                ", file_size=" + file_size +
+                '}';
+    }
+}

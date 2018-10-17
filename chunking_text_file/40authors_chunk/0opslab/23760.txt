@@ -1,0 +1,10 @@
+    public final static String getFileType(File file) {
+        String filetype = null;
+        byte[] b        = new byte[50];
+        try (
+                InputStream is = new FileInputStream(file)
+        ) {
+            is.read(b);
+            filetype = getFileTypeByStream(b);
+            is.close();
+        } catch (IOException e) {

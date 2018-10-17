@@ -1,0 +1,10 @@
+     * 清理缓存
+     */
+    public void clearDataCache() {
+        FileUtil.deleteFile(getCacheFolder());
+    }
+
+    /*
+     * 计算缓存文件大小
+     */
+    public String calculateDataCacheSize() {

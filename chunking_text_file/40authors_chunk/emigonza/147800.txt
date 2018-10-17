@@ -1,0 +1,4 @@
+	private URL vendorUrl = null;
+
+	private DevCatInfoList devCatInfoList = new DefaultDevCatInfoList();
+}

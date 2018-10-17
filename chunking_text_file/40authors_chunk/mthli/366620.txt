@@ -1,0 +1,10 @@
+         {
+            textArea.append(chunk + "\n");
+            progressBar.setValue(chunk);
+         }
+      }
+      
+      protected void done()
+      {
+         startButton.setEnabled(true);
+      }     

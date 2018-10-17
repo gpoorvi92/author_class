@@ -1,0 +1,10 @@
+     * ASCII表中可见字符从!开始，偏移位值为33(Decimal)
+     */
+    static final char DBC_CHAR_START = 33; // 半角!
+
+    /**
+     * ASCII表中可见字符到~结束，偏移位值为126(Decimal)
+     */
+    static final char DBC_CHAR_END = 126; // 半角~
+
+    /**

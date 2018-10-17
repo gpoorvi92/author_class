@@ -1,0 +1,10 @@
+
+  /**
+   * @see Charset#displayName(Locale)
+   */
+  public String displayName(Locale locale) {
+    return this.m_name;
+
+  }
+
+}

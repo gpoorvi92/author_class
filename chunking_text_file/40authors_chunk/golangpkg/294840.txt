@@ -1,0 +1,10 @@
+
+
+
+	public UploadServletAsyncListenerAdapter(UUID identifier) {
+		this.id = identifier;
+	}
+
+
+	abstract void clean();
+

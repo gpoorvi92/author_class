@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used to retrieve and update details about HTTP messages.
+ *
+ * <b>Note:</b> The setter methods generally can only be used before the message
+ * has been processed, and not in read-only contexts. The getter methods
+ * relating to response details can only be used after the request has been
+ * issued.
+ */
+public interface IHttpRequestResponse

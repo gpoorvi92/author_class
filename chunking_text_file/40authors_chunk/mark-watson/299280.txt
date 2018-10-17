@@ -1,0 +1,10 @@
+    JLabel jLabel2 = new JLabel();
+    JLabel jLabel2b = new JLabel();
+    JLabel jLabel3 = new JLabel();
+    JLabel jLabel4 = new JLabel();
+    JLabel jLabel4b = new JLabel();
+    JLabel jLabel5 = new JLabel();
+
+    public GUITest_2H_momentum() {
+        try { 
+            nn.addTrainingExample(in1, out1);

@@ -1,0 +1,10 @@
+        return retry;
+    }
+    
+    protected boolean isInList(HashSet<Class<?>> list, Throwable error) {
+    	Iterator<Class<?>> itr = list.iterator();
+    	while (itr.hasNext()) {
+    		if (itr.next().isInstance(error)) {
+    			return true;
+    		}
+    	}

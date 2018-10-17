@@ -1,0 +1,10 @@
+
+    public int read(byte[] bytes) throws IOException 
+    {
+        return is.read(bytes);
+    }
+
+    public int readShort() throws IOException
+    {
+        int result = is.read();
+        if (result < 0)// end of file reached

@@ -1,0 +1,10 @@
+							new RotationModifier(CardinalSplineMoveModifierExample.DURATION, -45, -315)
+						),
+						new ParallelEntityModifier(
+							new CardinalSplineMoveModifier(CardinalSplineMoveModifierExample.DURATION, catmullRomMoveModifierConfig2, EaseLinear.getInstance()),
+							new RotationModifier(CardinalSplineMoveModifierExample.DURATION, 45, 315)
+						)
+					)
+				)
+			)
+		);

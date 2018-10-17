@@ -1,0 +1,10 @@
+
+   /**
+    * Sets the join style.
+    * @param j the join style
+    */
+   public void setJoin(int j)
+   {
+      join = j;
+      repaint();
+   }

@@ -1,0 +1,10 @@
+
+    /**
+     * unique task id
+     */
+    protected int notificationID;
+
+    protected static final int TRANSFER_MAX_COUNT = 2;
+    /**
+     * contains all transfer tasks, including failed, cancelled, finished, transferring, waiting tasks.
+     */

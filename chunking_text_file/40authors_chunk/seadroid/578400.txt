@@ -1,0 +1,10 @@
+    private final long mDateTaken;
+    private String mTitle;
+
+    protected BaseImageList mContainer;
+
+    private int mWidth = UNKNOWN_LENGTH;
+    private int mHeight = UNKNOWN_LENGTH;
+
+    protected BaseImage(BaseImageList container, ContentResolver cr,
+            long id, int index, Uri uri, String dataPath, String mimeType,

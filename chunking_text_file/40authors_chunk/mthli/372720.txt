@@ -1,0 +1,10 @@
+               if ((f.getModifiers() & Modifier.STATIC) == 0) fields.add(f);
+         }
+      }
+   }
+
+   /**
+    * Gets the value of this variable.
+    * @return the value
+    */
+   public Object getValue()

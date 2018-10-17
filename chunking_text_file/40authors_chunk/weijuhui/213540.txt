@@ -1,0 +1,10 @@
+        super(120, 60);
+        mFormatString = formatString;
+    }
+
+    @Override
+    public TimeObject add(long time, int val) {
+        return timeObjectfromCalendar(Util.addWeeks(time, val));
+    }
+
+    /**

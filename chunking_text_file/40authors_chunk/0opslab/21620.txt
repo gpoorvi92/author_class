@@ -1,0 +1,10 @@
+     * @param str 需要处理的字符串
+     * @param reg 正则
+     * @return 出现的次数
+     */
+    public final static int countSubStrReg(String str, String reg) {
+        Pattern p = Pattern.compile(reg);
+        Matcher m = p.matcher(str);
+        int     i = 0;
+        while (m.find()) {
+            i++;

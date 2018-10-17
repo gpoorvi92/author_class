@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class SunZiDrawable extends MyMeetableDrawable implements Serializable{	
+	String [] dialogMessage={//对话框显示文字
+			"前方是孙武的住所，是否前去拜访？预计消耗金钱3500。",
+			"前方是孙武的住所，不过你现在没什么钱买礼品，下次再来拜访吧。",
+			"你去拜访孙武，不过碰巧他不在家。",
+			"孙武被你的诚意感动，于是乎，他传授了你一些xx的兵法。",
+			"老夫已经平生所学尽数传授与你，剩下的就需要靠你自己去领悟了。"
+		};

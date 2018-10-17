@@ -1,0 +1,8 @@
+        return this;
+    }
+
+    public InlineQueryResultPhoto caption(String caption) {
+        this.caption = caption;
+        return this;
+    }
+}

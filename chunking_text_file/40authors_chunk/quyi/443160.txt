@@ -1,0 +1,10 @@
+		queue_name = properties.getProperty("activeMq.messagequeue.name", "waitingCheckQueueTest");
+		queue_url = properties.getProperty("activeMq.queue.url", "tcp://localhost:61616");
+	}
+
+
+	public static void main(String[] args) throws JMSException, InterruptedException {
+		// TODO Auto-generated method stub
+		for(int i=0;i<9;i++){
+			workLoadTest("E:\\个人\\论文实验\\样本数据新测试.xls", "workloadTestcase1511138" + i, 99, i);
+		    Thread.sleep(10*60*1000);

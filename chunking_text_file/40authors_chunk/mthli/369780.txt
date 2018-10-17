@@ -1,0 +1,10 @@
+            }
+         }
+      }
+   }
+
+   /**
+      Carries out the pending calculation. 
+      @param x the value to be accumulated with the prior result.
+   */
+   public void calculate(double x)

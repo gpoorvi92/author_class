@@ -1,0 +1,10 @@
+      } else {
+        setStaticCheckResult((StaticCheckResultData)value);
+      }
+      break;
+
+    case DYNAMIC_CHECK_RESULT:
+      if (value == null) {
+        unsetDynamicCheckResult();
+      } else {
+        setDynamicCheckResult((DynamicCheckResultData)value);

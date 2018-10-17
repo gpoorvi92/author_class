@@ -1,0 +1,10 @@
+ * <p/>
+ * This is an example Hadoop Map/Reduce application derived from Apache Hadoop examples.
+ * It reads the input files, breaks each line into words, checks to see if words are part
+ * of proper (human) names) and counts them. The output is a sorted list of human names
+ * that occur some minumum number of times in the inpup files.
+ * <p/>
+ * To run:
+ * <p/>
+ * bin/hadoop jar namefinder.jar namefinder [-m <i>maps</i>] [-r <i>reduces</i>] <i>in-dir</i> <i>out-dir</i>
+ * <p/>

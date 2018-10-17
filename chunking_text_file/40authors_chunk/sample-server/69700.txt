@@ -1,0 +1,10 @@
+import org.slf4j.LoggerFactory;
+import org.jboss.netty.channel.Channel;
+
+/**
+ * @author Teaey
+ */
+public abstract class GatewayAllMoudleService implements IDispatcher<Fenrisulfr.RpcPacket>
+{
+    private static final Logger log = LoggerFactory.getLogger(GatewayAllMoudleService.class);
+    @Override

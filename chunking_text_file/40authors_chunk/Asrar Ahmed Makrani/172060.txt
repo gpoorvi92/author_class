@@ -1,0 +1,10 @@
+/* Database.java*/
+
+import java.sql.*;
+import java.awt.*;
+import javax.swing.*;
+
+public class Database{
+	private static Connection con = null;
+	public static Statement statement = null;
+	

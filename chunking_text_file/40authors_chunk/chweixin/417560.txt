@@ -1,0 +1,10 @@
+	 * 获取消息标题。
+	 * @return 消息标题。
+	 * */
+	public String getTitle() {
+		return title;
+	}
+	/**
+	 * 设置消息标题。
+	 * @param title
+	 * 	消息标题。

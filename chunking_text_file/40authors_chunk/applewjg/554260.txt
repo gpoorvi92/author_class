@@ -1,0 +1,10 @@
+ Solution: Use the first k buckets to store the count. (count sort, two pass).
+ */
+class Solution {
+    /**
+     * @param colors: A list of integer
+     * @param k: An integer
+     * @return: nothing
+     */
+    public void sortColors2(int[] A, int k) {
+        // write your code here

@@ -1,0 +1,10 @@
+		EWAHCompressedBitmap ewahBitmap3 = EWAHCompressedBitmap.bitmapOf(5, 55,
+				1 << 30);
+		EWAHCompressedBitmap ewahBitmap4 = EWAHCompressedBitmap.bitmapOf(4, 66,
+				1 << 30);
+		System.out.println("bitmap 3: " + ewahBitmap3);
+		System.out.println("bitmap 4: " + ewahBitmap4);
+		andbitmap = EWAHCompressedBitmap.and(ewahBitmap1, ewahBitmap2, ewahBitmap3,
+				ewahBitmap4);
+		System.out.println("b1 AND b2 AND b3 AND b4: " + andbitmap);
+		// serialization

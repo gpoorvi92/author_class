@@ -1,0 +1,10 @@
+ * This software is can be used under either of the following licenses:
+ * <p/>
+ * 1. LGPL v3<br/>
+ * 2. Apache 2
+ * <p/>
+ */
+public class Hopfield {
+
+    public Hopfield(int numInputs) {
+        this.numInputs = numInputs;

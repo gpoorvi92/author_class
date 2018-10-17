@@ -1,0 +1,10 @@
+ * 5:i32 taskQueueLimit 任务队列最大长度
+ * 6:i32 taskQueueNume 任务队列中等待任务长度
+ */
+public class NodeHeat implements org.apache.thrift.TBase<NodeHeat, NodeHeat._Fields>, java.io.Serializable, Cloneable, Comparable<NodeHeat> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("NodeHeat");
+
+  private static final org.apache.thrift.protocol.TField NODE_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("nodeId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField CPU_USED_PERC_FIELD_DESC = new org.apache.thrift.protocol.TField("cpuUsedPerc", org.apache.thrift.protocol.TType.DOUBLE, (short)2);
+  private static final org.apache.thrift.protocol.TField FREE_MEM_FIELD_DESC = new org.apache.thrift.protocol.TField("freeMem", org.apache.thrift.protocol.TType.DOUBLE, (short)3);
+  private static final org.apache.thrift.protocol.TField JVM_FREE_MEM_FIELD_DESC = new org.apache.thrift.protocol.TField("jvmFreeMem", org.apache.thrift.protocol.TType.DOUBLE, (short)4);

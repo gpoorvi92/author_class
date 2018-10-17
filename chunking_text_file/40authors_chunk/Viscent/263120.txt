@@ -1,0 +1,10 @@
+				executor.execute(new Runnable() {
+
+					@Override
+					public void run() {
+						MMSDeliverRequest request = new MMSDeliverRequest();
+						request.setTransactionID(String.valueOf(counter.incrementAndGet()));
+						request.setSenderAddress("13612345678");
+						request.setTimeStamp(new Date());
+						request.setExpiry((new Date().getTime() + 3600000) / 1000);
+

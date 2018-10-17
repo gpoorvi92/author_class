@@ -1,0 +1,10 @@
+  /**
+   * 
+   * @param search_query
+   * @return
+   * @throws java.lang.Exception
+   */
+  public List<String[]> searchIndexForURIsAndDocText(String search_query) throws Exception {
+      reader = IndexReader.open(data_store_file_root + "/lucene_index");
+      List<String[]> ret = new ArrayList<String[]>();
+      Searcher searcher = new IndexSearcher(reader);

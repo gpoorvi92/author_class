@@ -1,0 +1,10 @@
+        int returnLength = length;
+        if(position > size)
+        {
+            returnLength = length - (int)(position - size);
+            position = size;
+        }
+        processChars(chars, offset, returnLength);
+        return returnLength;
+    }
+

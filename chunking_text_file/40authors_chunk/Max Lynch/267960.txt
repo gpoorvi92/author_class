@@ -1,0 +1,10 @@
+	public GraphicsFrame()
+	{
+		FRAME = new JFrame(); //Main Frame in application
+	
+		
+		Container c = FRAME.getContentPane(); //ContentPane of Frame, to add components, etc.
+		
+		
+		c.setLayout(new BorderLayout()); //BorderLayout Please, thank you
+		

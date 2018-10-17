@@ -1,0 +1,10 @@
+
+    private Integer goodsId;
+
+    private Integer merchantId;
+
+    private User user;
+
+    private Goods goods;
+
+    private Merchant merchant;

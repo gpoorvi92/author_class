@@ -1,0 +1,10 @@
+
+    public void add(Account entry) {
+        items.add(entry);
+    }
+
+    public void notifyChanged() {
+        notifyDataSetChanged();
+    }
+
+    @Override

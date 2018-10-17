@@ -1,0 +1,10 @@
+      this.url = null;
+    }
+  }
+
+  public int getApp_size() {
+    return this.app_size;
+  }
+
+  public UserApp setApp_size(int app_size) {
+    this.app_size = app_size;

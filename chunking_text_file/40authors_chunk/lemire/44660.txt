@@ -1,0 +1,10 @@
+        answer.literalWordOffset = this.literalWordOffset;
+        answer.numberOfLiteralWords = this.numberOfLiteralWords;
+        answer.runningBit = this.runningBit;
+        answer.runningLength = this.runningLength;
+        return answer;
+    }
+
+    /**
+     * how many literal words have we read so far?
+     */

@@ -1,0 +1,10 @@
+		fos.write("helloworld".getBytes());
+
+		// public void write(byte[] b,int off,int len):一次写一个字节数组的一部分
+		// fos.write("helloworld".getBytes(), 0, 5);
+		// fos.write("helloworld".getBytes(), 0, "helloworld".length());
+		
+		//释放资源
+		fos.close();
+		//关闭此文件输出流并释放与此流有关的所有系统资源。
+		/*

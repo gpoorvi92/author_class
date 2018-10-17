@@ -1,0 +1,10 @@
+        if (null == inbound)
+        {
+            log.warn("inbound channel is null {}", channelId);
+        }
+        else if (!inbound.isOpen() || !inbound.isConnected() || !inbound.isWritable())
+        {
+            log.warn("inbound channel is closed or disconnected or not writable {}", inbound);
+        }
+        else
+        {

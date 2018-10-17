@@ -1,0 +1,10 @@
+	 * */
+	public void setTitle(String title) {
+		this.Title = title;
+	}
+	/**
+	 * 获取图文信息描述。
+	 * @return 图文信息描述。
+	 * */
+	public String getDescription() {
+		return Description;

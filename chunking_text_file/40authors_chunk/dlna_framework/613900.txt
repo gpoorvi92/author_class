@@ -1,0 +1,10 @@
+	{
+		ctrlPoint = ctrlp;
+	}
+	
+	public ControlPoint getControlPoint()
+	{
+		return ctrlPoint;
+	}
+
+	////////////////////////////////////////////////

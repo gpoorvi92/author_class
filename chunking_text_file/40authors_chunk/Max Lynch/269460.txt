@@ -1,0 +1,10 @@
+		this.selected = selected;
+		
+		
+		repaint();
+	}
+	
+	public ShapeLayer getSelected()
+	{
+		return selected;
+	}

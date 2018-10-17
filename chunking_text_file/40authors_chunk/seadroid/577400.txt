@@ -1,0 +1,10 @@
+        }
+    };
+    Runnable attemptLockout = new Runnable() {
+
+        @Override
+        public void run() {
+            mLockPatternView.clearPattern();
+            mLockPatternView.setEnabled(false);
+            mCountdownTimer = new CountDownTimer(
+                    LockPatternUtils.FAILED_ATTEMPT_TIMEOUT_MS + 1, 1000) {

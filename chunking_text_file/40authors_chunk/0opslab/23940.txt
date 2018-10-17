@@ -1,0 +1,10 @@
+        return operationname;
+    }
+
+    public void setOperationname(String operationname) {
+        this.operationname = operationname;
+    }
+
+    public String getOperation_type() {
+        return operation_type;
+    }

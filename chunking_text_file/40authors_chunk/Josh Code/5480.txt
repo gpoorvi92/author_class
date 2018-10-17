@@ -1,0 +1,10 @@
+          render();
+      }
+  }
+
+  public int countTriangles()
+  {
+      if (m == null)
+          return 0;
+
+      return m.getNumberOfTriangles();  

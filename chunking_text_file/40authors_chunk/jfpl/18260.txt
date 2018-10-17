@@ -1,0 +1,10 @@
+		webView.loadUrl(url);
+
+		super.setRightMenuBtn(rightMenu);
+
+	}
+
+	public void setRefreshState(boolean flag) {
+		this.refreshState = flag;
+		if (flag) {
+			refreshBtn.setImageDrawable(getResources().getDrawable(

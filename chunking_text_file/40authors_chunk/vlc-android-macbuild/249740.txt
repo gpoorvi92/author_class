@@ -1,0 +1,10 @@
+        }
+
+        @Override
+        protected void onPostExecute(PlayIndex result) {
+            DefMediaListPlayer player = mWeakPlayer.get();
+            if (player == null)
+                return;
+
+            if (result == null) {
+                if (player.mOnErrorListener != null) {

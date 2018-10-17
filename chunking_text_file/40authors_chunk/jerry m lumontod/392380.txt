@@ -1,0 +1,10 @@
+
+public class ARS extends MouseAdapter {
+	JTable cjt;
+	DefaultTableModel cmodel;
+	public ARS(JTable tjt,DefaultTableModel tmodel) {
+		cjt=tjt;
+		cmodel=tmodel;
+	}
+    public void mouseClicked(MouseEvent evt) {
+        JTable table = ((JTableHeader)evt.getSource()).getTable();

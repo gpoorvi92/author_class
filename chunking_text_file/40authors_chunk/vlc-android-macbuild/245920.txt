@@ -1,0 +1,10 @@
+        DebugLog.v(TAG, "prepareAsync:readMediaEx");
+        mLibVLC.readMediaEx(mVideoMrl, mVlcPlayerOptions);
+        mHasReadMedia = true;
+        // Message msg = mSurfaceHandler.obtainMessage(MSG_FAKE_PREPARED);
+        // mSurfaceHandler.sendMessage(msg);
+    }
+
+    @Override
+    public void release() {
+        DebugLog.v(TAG, "release");

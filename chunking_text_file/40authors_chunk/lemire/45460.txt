@@ -1,0 +1,10 @@
+
+    /**
+     * Compute the bitwise logical not (in place)
+     */
+    void not();
+
+    /**
+     * Compute the bitwise logical or
+     * @param le another element
+     * @return the result of the operation

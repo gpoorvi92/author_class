@@ -1,0 +1,10 @@
+
+package jpos.events;
+
+public class ErrorEvent extends JposEvent
+{
+    public ErrorEvent(Object source, int errorCode, int errorCodeExtended,
+                      int errorLocus, int errorResponse)
+    {
+        super(source);
+

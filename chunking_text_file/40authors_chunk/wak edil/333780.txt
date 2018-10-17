@@ -1,0 +1,10 @@
+		this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		MiloInfo frame = new MiloInfo();
+		frame.setTitle("Milo Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

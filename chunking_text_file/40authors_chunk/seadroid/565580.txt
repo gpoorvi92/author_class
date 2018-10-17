@@ -1,0 +1,10 @@
+        return avatars;
+    }
+
+    public void saveAvatars(List<Avatar> avatars) {
+
+        List<Avatar> validAvatars = Lists.newArrayList();
+
+        // query database in case insert duplicate rows
+        for (Avatar avatar : avatars) {
+            if (!isRowDuplicate(avatar)) {

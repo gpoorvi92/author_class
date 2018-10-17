@@ -1,0 +1,10 @@
+ 				authorsArea.setEditable(true);
+ 				subjectArea.setEditable(true);
+ 				location_text.setEditable(true);
+ 				
+ 				delete.setEnabled(false);
+ 				update.setEnabled(false);
+            	            }
+        });
+
+        toolBar.add(newForm);

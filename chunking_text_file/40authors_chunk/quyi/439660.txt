@@ -1,0 +1,10 @@
+
+    boolean this_present_memSize = true;
+    boolean that_present_memSize = true;
+    if (this_present_memSize || that_present_memSize) {
+      if (!(this_present_memSize && that_present_memSize))
+        return false;
+      if (this.memSize != that.memSize)
+        return false;
+    }
+

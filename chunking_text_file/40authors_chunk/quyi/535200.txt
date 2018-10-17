@@ -1,0 +1,10 @@
+        struct.setRuleNoIsSet(true);
+      }
+      if (incoming.get(9)) {
+        struct.category = iprot.readString();
+        struct.setCategoryIsSet(true);
+      }
+      if (incoming.get(10)) {
+        struct.description = iprot.readString();
+        struct.setDescriptionIsSet(true);
+      }

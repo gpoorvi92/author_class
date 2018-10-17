@@ -1,0 +1,6 @@
+      else if (node instanceof Comment) builder.insert(0, "Comment: ");
+
+      return builder.toString();
+   }
+}
+

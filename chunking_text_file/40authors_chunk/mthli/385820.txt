@@ -1,0 +1,10 @@
+               tree.scrollPathToVisible(path);
+            }
+         });
+      panel.add(addSiblingButton);
+
+      JButton addChildButton = new JButton("Add Child");
+      addChildButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

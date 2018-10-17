@@ -1,0 +1,10 @@
+        return new VideoObject(this, mContentResolver,
+                id, cursor.getPosition(), contentUri(id), dataPath,
+                mimeType, dateTaken, title);
+    }
+
+    public VideoList(ContentResolver resolver, Uri uri, int sort,
+            String bucketId) {
+        super(resolver, uri, sort, bucketId);
+    }
+

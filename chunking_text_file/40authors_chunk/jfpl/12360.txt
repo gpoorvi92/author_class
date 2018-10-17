@@ -1,0 +1,10 @@
+		setCheckBoxEvent(v, acd);
+	}
+
+	private void setCheckBoxEvent(View v, AbstractCommonData acd) {
+
+		CheckBox cb = (CheckBox) v.findViewById(R.id.image_select_cb);
+		cb.setChecked(acd.getBooleanValue("is_checked"));
+		cb.setTag(acd);
+		cb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+

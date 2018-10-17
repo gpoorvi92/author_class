@@ -1,0 +1,10 @@
+				flag_exit = false;
+				if(!chat_re.contains("@serverexit")){
+					chat_re = null;
+				}
+			}
+			if(chat_re != null){
+				if(chat_re.contains("@clientThread")){
+					int local = chat_re.indexOf("@clientThread");
+					setThreadID(Integer.parseInt(chat_re.substring(0, local)));
+					try {

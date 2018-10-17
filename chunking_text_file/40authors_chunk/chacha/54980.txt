@@ -1,0 +1,10 @@
+	public static void setConnectTimeout(int connectTimeout) {
+		Config.connectTimeout = connectTimeout;
+	}
+
+	public static boolean isAutoConnectRetry() {
+		return autoConnectRetry;
+	}
+
+	public static void setAutoConnectRetry(boolean autoConnectRetry) {
+		Config.autoConnectRetry = autoConnectRetry;

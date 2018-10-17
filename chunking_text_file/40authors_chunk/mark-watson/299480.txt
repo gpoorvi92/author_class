@@ -1,0 +1,10 @@
+                System.out.println("cycle " + i + " error is " + error);
+                if (error < 0.1)  break training_loop;
+            }
+            inputPanel.paint(g1);
+            hidden1Panel.paint(g2);
+            hidden2Panel.paint(g3);
+            outputPanel.paint(g4);
+            w1Panel.paint(g5);
+            w2Panel.paint(g6);
+            w3Panel.paint(g7);

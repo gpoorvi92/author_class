@@ -1,0 +1,10 @@
+        }
+        return b;
+    }
+
+    protected void onRemove() {
+    }
+
+    @Override
+    public String toString() {
+        return mUri.toString();

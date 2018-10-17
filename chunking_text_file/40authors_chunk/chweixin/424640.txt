@@ -1,0 +1,10 @@
+		this.proxy.init(this.getServletConfig());
+		logger.info("成功装载[servlet:" + targetServletBean + "]对象:[" + this.proxy.getClass().getName() + "]");
+		logger.info("初始化Servlet代理类完成。");
+	}
+	
+	@Override
+	public void service(ServletRequest req, ServletResponse res)
+			throws ServletException, IOException {
+		this.proxy.service(req, res);
+	}

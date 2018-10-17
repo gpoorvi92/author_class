@@ -1,0 +1,10 @@
+    }
+
+    public void onTaskFailed(UploadTaskInfo info) {
+        adapter.onTaskFailed(info);
+    }
+
+    public void onTaskCancelled(UploadTaskInfo info) {
+        adapter.onTaskCancelled(info);
+    }
+}

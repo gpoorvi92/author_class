@@ -1,0 +1,10 @@
+	}
+	public void setZzLength(double zzLength) {
+		this.zzLength = zzLength;
+	}
+	public int getZzCount() {
+		return zzCount;
+	}
+	public void setZzCount(int zzCount) {
+		this.zzCount = zzCount;
+	}

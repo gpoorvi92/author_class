@@ -1,0 +1,10 @@
+    tmpMap.put(_Fields.JVM_MAX_MEM, new org.apache.thrift.meta_data.FieldMetaData("jvmMaxMem", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(Software.class, metaDataMap);
+  }
+
+  public Software() {
+  }
+
+  public Software(

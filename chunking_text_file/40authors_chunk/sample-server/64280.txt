@@ -1,0 +1,9 @@
+        {
+            if (!listLogin.contains(each))
+            {
+                size ++;
+            }
+        }
+        System.out.println(size);
+    }
+}

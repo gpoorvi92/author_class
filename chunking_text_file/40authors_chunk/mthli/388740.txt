@@ -1,0 +1,10 @@
+
+/**
+ * This program demonstrates a worker thread that runs a potentially time-consuming task.
+ * @version 1.1 2007-05-18
+ * @author Cay Horstmann
+ */
+public class SwingWorkerTest
+{
+   public static void main(String[] args) throws Exception
+   {

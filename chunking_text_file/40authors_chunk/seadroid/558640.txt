@@ -1,0 +1,10 @@
+
+    public static List<File> getAllPhotosAbsolutePathList() {
+        List<File> list = Lists.newArrayList();
+        List<File> photoAbsolutePathList = Lists.newArrayList();
+
+        List<String> paths = ImageManager.getAllPath();
+        for (String path : paths) {
+            photoAbsolutePathList = getPhotosAbsolutePathList(path);
+            if (photoAbsolutePathList != null) {
+                for (File sf : photoAbsolutePathList) {

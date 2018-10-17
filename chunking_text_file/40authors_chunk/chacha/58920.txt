@@ -1,0 +1,10 @@
+		return COLLECTION_NAME;
+	}
+	/**
+	 * 通过ID查询帐号
+	 * @param id
+	 * @return
+	 */
+	public Account getAccountByID(String id){
+		return helper.get(id);
+	}

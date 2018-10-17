@@ -1,0 +1,10 @@
+ */
+@Component
+public class FileDeleter
+		implements Runnable {
+
+	private static final Logger log = LoggerFactory.getLogger(FileDeleter.class);
+
+	/** The executor */
+	private ScheduledThreadPoolExecutor executor = (ScheduledThreadPoolExecutor) Executors.newScheduledThreadPool(1);
+

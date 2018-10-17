@@ -1,0 +1,10 @@
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+    static {
+      schemes.put(StandardScheme.class, new updateAppStatus_resultStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new updateAppStatus_resultTupleSchemeFactory());
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result

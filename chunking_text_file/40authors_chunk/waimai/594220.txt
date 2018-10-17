@@ -1,0 +1,10 @@
+
+    private Date updateDate;
+
+    private String status;
+
+    private Integer merchantId;
+
+    private Integer goodsType;
+
+    private Integer saleCount;

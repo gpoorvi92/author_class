@@ -1,0 +1,10 @@
+        return instance;
+    }
+
+    //--------------------------------------------------------------------------
+    // Public methods
+    //
+
+    /**
+     * Prints a string appended with a new line to the tracer output
+     * @param s the String to print

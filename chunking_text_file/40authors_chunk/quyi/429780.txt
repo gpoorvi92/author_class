@@ -1,0 +1,10 @@
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetResult()).compareTo(other.isSetResult());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetResult()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.result, other.result);
+      if (lastComparison != 0) {

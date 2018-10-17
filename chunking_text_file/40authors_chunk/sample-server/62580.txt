@@ -1,0 +1,10 @@
+        return result.toJson();
+    }
+    @ACL(limit = Limit.NOTICE, type = RequestType.JSON)
+    @RequestMapping(value = "/add")
+    @ResponseBody
+    public String add(String content, String start, String stop, int zoneId, String interval, String noticeLevel, String roundTime, String noticeType) throws IOException
+    {
+        start = start.replace('T', ' ');
+        stop = stop.replace('T', ' ');
+        NoticeEntity newNotice = new NoticeEntity();

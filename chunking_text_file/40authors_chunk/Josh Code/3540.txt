@@ -1,0 +1,10 @@
+    {
+        return true;
+    }
+
+  /** stereolithography files
+   * format described at: http://orion.math.iastate.edu/burkardt/data/stl/stl.html
+   */
+    public static void saveToSTL(Model m,File f) throws IOException
+    {
+        FileOutputStream fout = new FileOutputStream(f);

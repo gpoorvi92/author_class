@@ -1,0 +1,10 @@
+	 * @return 相对路径。
+	 * */
+	private String createTargetStoreFolder(String userId, String root){
+		StringBuilder folderBuilder = new StringBuilder(File.separator);
+		if(root != null && !root.trim().isEmpty()){
+			folderBuilder.append(root);
+			if(root.charAt(root.length()  - 1) != File.separatorChar){
+				folderBuilder.append(File.separatorChar);
+			}
+		}

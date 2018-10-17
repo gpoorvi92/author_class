@@ -1,0 +1,9 @@
+		default:
+			addBindVeh.setVisibility(View.VISIBLE);
+			bindLayout.setVisibility(View.GONE);
+			vioLayout.setVisibility(View.VISIBLE);
+			isShowBindFlag = false;
+			break;
+		}
+	}
+}

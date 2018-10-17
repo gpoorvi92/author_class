@@ -1,0 +1,10 @@
+ * 支持统一清理不再被使用的ThreadLocal变量的ThreadLocal子类。
+ * 
+ * @author Viscent Huang
+ * 
+ * @param <T> 相应的线程特有对象类型
+ */
+public class ManagedThreadLocal<T> extends ThreadLocal<T> {
+
+	/*
+	 * 使用弱引用，防止内存泄漏。

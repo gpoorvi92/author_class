@@ -1,0 +1,10 @@
+		System.out.println(sum(x,y));
+
+		//赋值调用
+		int result = sum(x,y);
+		//result进行操作
+		System.out.println(result);
+	}
+
+	//如果我自己要想写一个方法
+	public static int sum(int a,int b) {

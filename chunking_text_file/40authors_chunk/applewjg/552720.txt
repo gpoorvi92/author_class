@@ -1,0 +1,10 @@
+        }
+        RandomListNode newnode = new RandomListNode(root.label);
+        map.put(root, newnode);
+        newnode.next = copy(root.next, map);
+        newnode.random = copy(root.random, map);
+        return newnode;
+    }
+    public RandomListNode copyRandomList_4(RandomListNode head) {
+        if (head == null) return null;
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();

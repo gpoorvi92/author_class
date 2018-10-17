@@ -1,0 +1,10 @@
+     * @param existingIssue An issue that was previously reported by this
+     * Scanner check.
+     * @param newIssue An issue at the same URL path that has been newly
+     * reported by this Scanner check.
+     * @return An indication of which issue(s) should be reported in the main
+     * Scanner results. The method should return <code>-1</code> to report the
+     * existing issue only, <code>0</code> to report both issues, and
+     * <code>1</code> to report the new issue only.
+     */
+    int consolidateDuplicateIssues(

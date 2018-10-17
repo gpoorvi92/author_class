@@ -1,0 +1,10 @@
+      schemes.put(StandardScheme.class, new reportEngineConfig_resultStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new reportEngineConfig_resultTupleSchemeFactory());
+    }
+
+    public String success; // required
+    public com.nercis.isscp.idl.UnavailableException ue; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      SUCCESS((short)0, "success"),

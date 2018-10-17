@@ -1,0 +1,10 @@
+			}
+		}
+		return possible;
+	}
+	
+	public  String correct(String word, String previous_word) {
+		if(wordCounts.containsKey(word)) return word;
+		List<String> list = edits(word);
+		// candidate hash has as word counts as keys, word as value:
+		HashMap<Integer, String> candidates = new HashMap<Integer, String>();

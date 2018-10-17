@@ -1,0 +1,10 @@
+	public String login(String username, String hostIp, String hostPort) {
+		this.username = username;
+		String login_mess = null;
+		try {
+			c_socket = new Socket(hostIp, Integer.parseInt(hostPort));
+		} catch (NumberFormatException e) {
+			login_mess = "连接的服务器端口号port为整数,取值范围为：1024<port<65535";
+			return login_mess;
+		} catch (UnknownHostException e) {
+			login_mess = "主机地址错误";

@@ -1,0 +1,10 @@
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public int     getSCPresentSensor() throws JposException;
+  public int     getSCSlot() throws JposException;
+  public void    setSCSlot(int scSlot) throws JposException;
+  public boolean getTransactionInProgress() throws JposException;
+  public int     getTransmissionProtocol() throws JposException;
+
+  // Methods
+  public void    beginInsertion(int timeout) throws JposException;

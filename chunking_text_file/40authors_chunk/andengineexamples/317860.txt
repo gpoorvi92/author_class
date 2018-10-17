@@ -1,0 +1,10 @@
+import org.andengine.entity.text.Text;
+import org.andengine.entity.text.TextOptions;
+import org.andengine.entity.util.FPSLogger;
+import org.andengine.opengl.font.Font;
+import org.andengine.opengl.font.FontFactory;
+import org.andengine.opengl.texture.TextureOptions;
+import org.andengine.opengl.vbo.VertexBufferObjectManager;
+import org.andengine.ui.activity.SimpleLayoutGameActivity;
+import org.andengine.util.HorizontalAlign;
+import org.andengine.util.color.Color;

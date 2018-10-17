@@ -1,0 +1,10 @@
+   */
+  public HardwareResources setDeviceType(DeviceType deviceType) {
+    this.deviceType = deviceType;
+    return this;
+  }
+
+  public void unsetDeviceType() {
+    this.deviceType = null;
+  }
+

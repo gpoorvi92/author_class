@@ -1,0 +1,10 @@
+package org.videolan.vlc.segments;
+
+import android.os.Bundle;
+
+public class LibVlcVslSegment {
+    private static final String BUNDLE_FMT1_SEGMENT_MRL = "%d_segment_mrl";
+    private static final String BUNDLE_FMT1_SEGMENT_URL = "%d_segment_url";
+    private static final String BUNDLE_FMT1_DURATION = "%d_duration";
+    private static final String BUNDLE_FMT1_BYTES = "%d_bytes";
+

@@ -1,0 +1,10 @@
+
+  @Override
+  public void clear() {
+    this.monitorTime = null;
+    this.screenShotPath = null;
+    this.imageContent = null;
+    this.checkResult = null;
+  }
+
+  public String getMonitorTime() {

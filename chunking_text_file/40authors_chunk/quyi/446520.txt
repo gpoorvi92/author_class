@@ -1,0 +1,10 @@
+    public void write(org.apache.thrift.protocol.TProtocol prot, RunMonitor struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetMonitorTime()) {
+        optionals.set(0);
+      }
+      if (struct.isSetScreenShotPath()) {
+        optionals.set(1);
+      }
+      if (struct.isSetImageContent()) {

@@ -1,0 +1,10 @@
+        TableColumnModel colModel = cjt.getColumnModel();
+		
+        // The index of the column whose header was clicked
+        int vColIndex = colModel.getColumnIndexAtX(evt.getX());
+        int mColIndex = table.convertColumnIndexToModel(vColIndex);
+		//System.out.print("\nvColIndex is " + vColIndex + "\nmColIndex is " + mColIndex);
+        // Return if not clicked on any column header
+        //if (vColIndex == -1 || vColIndex == 0) {
+        if (vColIndex == -1) {
+            return;

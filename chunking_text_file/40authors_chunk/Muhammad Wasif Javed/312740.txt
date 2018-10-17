@@ -1,0 +1,10 @@
+		lbCategory = new JLabel ("Select Book Category to Show Book Records:");
+		lbCategory.setForeground (Color.black);
+		lbCategory.setBounds (20, 18, 275, 25);
+
+		//Setting the Form's ComboBox.
+
+		cboCategory = new JComboBox (category);
+		cboCategory.addItemListener (this);
+		cboCategory.setBounds (300, 18, 170, 25);
+

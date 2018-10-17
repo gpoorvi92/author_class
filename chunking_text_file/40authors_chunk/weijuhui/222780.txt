@@ -1,0 +1,10 @@
+			@Override
+			public void onClick(View arg0) {
+				startActivity(new Intent(getActivity(), ActivityType.class));
+			}
+		});
+
+		buildTimingRecom();
+		super.onResume();
+	}
+

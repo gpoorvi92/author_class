@@ -1,0 +1,10 @@
+	public void setPlotsType(PlotsType plotsType) {
+		this.plotsType = plotsType;
+	}
+
+	public String getAppCheckResult() {
+		return appCheckResult;
+	}
+
+	public void setAppCheckResult(String appCheckResult) {
+		this.appCheckResult = appCheckResult;

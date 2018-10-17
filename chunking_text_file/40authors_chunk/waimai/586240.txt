@@ -1,0 +1,10 @@
+ */
+@Controller
+public class IndexController extends BaseController {
+    @Autowired
+    private INewsService newsService;
+    @Autowired
+    private IAppService appService;
+
+    @RequestMapping("")
+    public ModelAndView index() {

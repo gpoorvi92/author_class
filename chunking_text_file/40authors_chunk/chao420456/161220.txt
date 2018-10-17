@@ -1,0 +1,10 @@
+		System.out.println("--------------------");
+
+		// public static double ceil(double a):大于等于参数的最小整数值
+		System.out.println("ceil:" + Math.ceil(12.34));
+		System.out.println("ceil:" + Math.ceil(12.56));
+		System.out.println("--------------------");
+
+		// public static double floor(double a):小于等于参数的最大整数值
+		System.out.println("floor:" + Math.floor(12.34));
+		System.out.println("floor:" + Math.floor(12.56));

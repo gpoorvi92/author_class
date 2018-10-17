@@ -1,0 +1,10 @@
+                    _elem2 = new com.nercis.isscp.idl.UserApp();
+                    _elem2.read(iprot);
+                    struct.userApps.add(_elem2);
+                  }
+                  iprot.readListEnd();
+                }
+                struct.setUserAppsIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }

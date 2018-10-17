@@ -1,0 +1,10 @@
+    public ModelAndView list(@ModelAttribute("vo") BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/user/list");
+        List<User> userList = userService.search(vo);
+        modelAndView.addObject("userList", userList);
+        modelAndView.addObject("userStatus", UserStatus.values());
+        modelAndView.addObject("gender", Gender.values());
+        modelAndView.addObject("school", Schools.values());
+        modelAndView.addObject("area", Areas.values());
+        return modelAndView;
+    }

@@ -1,0 +1,6 @@
+    
+    private static void clipAll(final Canvas canvas,final Paint paint,int offset,int width,int height){
+    	final RectF rectF = new RectF(0, 0, width , height);
+        canvas.drawRoundRect(rectF, offset, offset, paint);
+    }
+}

@@ -1,0 +1,10 @@
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the unique name of this profile */
+	public String getName();
+
+	/** @return the version of this profile */
+	public String getVersion();
+

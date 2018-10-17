@@ -1,0 +1,10 @@
+        if ( !entered_update_0 ) {
+            entered_update_0 = true;
+            __update( g );
+            entered_update_0 = false;
+        }
+        else
+            super.update( g );
+    }
+
+    /// public void java.awt.Canvas.paint(java.awt.Graphics)

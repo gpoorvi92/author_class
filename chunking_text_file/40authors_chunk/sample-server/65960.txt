@@ -1,0 +1,10 @@
+    @Column(name = "username")
+    private String username;
+    @Column(name = "limits")
+    private long   limits;
+    @Column(name = "created_by")
+    private String createdBy = "";
+    public List<Limit> limits()
+    {
+        List<Limit> ret = new ArrayList<>();
+        for (Limit each : Limit.values())

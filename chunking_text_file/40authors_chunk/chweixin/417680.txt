@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String ToUserName,FromUserName,MsgType;
+	private int CreateTime;
+	/**
+	 * 构造函数。
+	 * */
+	public BaseMessage(){
+		this.setCreateTime((int)(System.currentTimeMillis()/1000));
+	}
+	/**

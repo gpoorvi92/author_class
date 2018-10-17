@@ -1,0 +1,10 @@
+        staff[1] = new Emplogee(60000);
+        staff[2] = new Emplogee();
+
+        for (Emplogee e : staff) {
+            System.out.println(
+                    "name = " + e.getName() +
+                    ", id = " + e.getId() + 
+                    ", salary = " + e.getSalary()
+                    );
+        }

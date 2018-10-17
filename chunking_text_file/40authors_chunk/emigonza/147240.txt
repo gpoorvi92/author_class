@@ -1,0 +1,10 @@
+		//
+
+		/** @return the next DevCatInfo in the iterator */
+		public DevCatInfo next() { return (DevCatInfo)iterator.next(); }
+
+		/** @return true if there is a next DevCatInfo in the iterator */
+		public boolean hasNext() { return iterator.hasNext(); }
+
+		//---------------------------------------------------------------------
+		// Instance variables

@@ -1,0 +1,10 @@
+        super("Password", 
+              false, //resizable
+              false, //closable
+              false, //maximizable
+              false);//iconifiable
+		
+		rem = false;
+		c = getContentPane();
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+       

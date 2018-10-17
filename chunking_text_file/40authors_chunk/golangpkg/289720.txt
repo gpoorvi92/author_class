@@ -1,0 +1,10 @@
+			this.instantRateInBytesCounter++;
+			this.instantRateInBytes += instantRateInBytes;
+		}
+	}
+
+
+	long getInstantRateInBytes() {
+		int returnValue = 0;
+		synchronized (instantRateInBytesLock) {
+			if (instantRateInBytesCounter > 0) {

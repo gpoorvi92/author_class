@@ -1,0 +1,10 @@
+            Viewholder viewHolder;
+
+            if (convertView == null) {
+                view = LayoutInflater.from(getActivity()).inflate(R.layout.app_list_item, null);
+                ImageView icon = (ImageView)view.findViewById(R.id.app_icon);
+                TextView desc = (TextView)view.findViewById(R.id.app_desc);
+                viewHolder = new Viewholder(icon, desc);
+                view.setTag(viewHolder);
+            } else {
+                viewHolder = (Viewholder)convertView.getTag();

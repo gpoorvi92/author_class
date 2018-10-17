@@ -1,0 +1,10 @@
+package ipower.wechat.servlets;
+
+import ipower.wechat.service.ICoreService;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;

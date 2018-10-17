@@ -1,0 +1,10 @@
+		}
+
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inSampleSize = size;
+		options.inDither = false;
+		options.inPurgeable = true;
+		options.inInputShareable = true;
+		options.inTempStorage = new byte[32 * 1024];
+
+		bm = BitmapFactory.decodeFile(filePath, options);

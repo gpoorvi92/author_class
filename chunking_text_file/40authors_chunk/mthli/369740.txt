@@ -1,0 +1,10 @@
+         else
+         {  
+            try
+            {
+               int lines = display.getLineCount();
+               int lineStart = display.getLineStartOffset(lines - 1);
+               int lineEnd = display.getLineEndOffset(lines - 1);
+               String value = display.getText(lineStart, lineEnd - lineStart);
+               display.append(" ");
+               display.append(command); 

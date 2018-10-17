@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch10.tss.example;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class ImplicitParameterPassing {
+
+	public static void main(String[] args) throws InterruptedException {

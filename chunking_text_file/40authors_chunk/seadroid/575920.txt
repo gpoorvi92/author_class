@@ -1,0 +1,5 @@
+            recentDownloadedFiles.remove(filePath);
+            Log.d(DEBUG_TAG, "remove recent file, # total watched " + recentDownloadedFiles.size());
+        }
+    }
+}

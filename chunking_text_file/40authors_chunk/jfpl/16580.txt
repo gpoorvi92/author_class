@@ -1,0 +1,10 @@
+						DataConvertFactory.praseNormJson(acd).getBytes(),
+						acd.getStringValue("pp_pic"), bindUsername);
+				fillVioData(acd);
+				return acd;
+			}
+
+			@Override
+			public AbstractCommonData doError(AbstractCommonData acd) {
+				return acd;
+			}

@@ -1,0 +1,10 @@
+        Iterator<String> iterator = Arrays.asList(idsAndStatuses).iterator();
+        while (iterator.hasNext()) {
+            if (!compareValue.equals(iterator.next().split("_")[1])) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static boolean isFormatSecret(String[] idsAndStatuses, String compareValue1, String compareValue2) {

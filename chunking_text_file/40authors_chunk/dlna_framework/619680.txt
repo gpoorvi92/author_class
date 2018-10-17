@@ -1,0 +1,10 @@
+	 * @since 1.8
+	 */
+	public int getLocalPort(){
+		return ssdpMultiSock.getLocalPort();
+	}
+	
+	/**
+	 * 
+	 * @return the opened {@link MulticastSocket}
+	 * @since 1.8 

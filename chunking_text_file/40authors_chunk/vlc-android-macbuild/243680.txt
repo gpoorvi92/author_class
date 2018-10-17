@@ -1,0 +1,10 @@
+package tv.danmaku.android.util;
+
+import tv.danmaku.pragma.Pragma;
+import android.util.Log;
+
+public class DebugLog {
+
+    // 调试配置,发布时,将 DEBUG_ON 置为 false
+    public static final boolean DEBUG_ON = Pragma.DEBUG;
+    public static final boolean DEBUG_OFF = false;

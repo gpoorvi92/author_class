@@ -1,0 +1,10 @@
+
+   private JLabel label;
+   private static Logger logger = Logger.getLogger("com.horstmann.corejava");
+
+   public ImageViewerFrame()
+   {
+      logger.entering("ImageViewerFrame", "<init>");      
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // set up menu bar

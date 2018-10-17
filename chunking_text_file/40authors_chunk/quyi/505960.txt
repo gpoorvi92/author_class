@@ -1,0 +1,10 @@
+	@Override
+	public List<AppCheckResult> queryMission(String missionId) throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Result updateAppStatus(String missionId, String userAppId, AppStatus status, List<Map<String, APICheck>> usedPermissions,
+			StaticCheckResultData stcRD, DynamicCheckResultData dycRD, VirusDetectionResultData virRD) throws InvalidRequestException,
+			UnavailableException, TException {

@@ -1,0 +1,10 @@
+		final Sprite faceSprite2 = new Sprite(50, 0, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		
+		faceSprite1.setScale(2);
+		faceSprite2.setRotation(45);
+
+		/* Create the face and add it to the scene. */
+		final SpriteBatch dynamicSpriteBatch = new DynamicSpriteBatch(this.mBitmapTextureAtlas, 2, this.getVertexBufferObjectManager()) {
+			@Override
+			public boolean onUpdateSpriteBatch() {
+				this.draw(faceSprite1);

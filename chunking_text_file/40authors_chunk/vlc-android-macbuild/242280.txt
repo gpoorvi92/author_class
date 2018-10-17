@@ -1,0 +1,10 @@
+        }
+
+        return sb.toString();
+    }
+
+    public final String getAudioDecoderInline() {
+        if (TextUtils.isEmpty(mAudioDecoder))
+            return "N/A";
+
+        StringBuilder sb = new StringBuilder(mAudioDecoder);

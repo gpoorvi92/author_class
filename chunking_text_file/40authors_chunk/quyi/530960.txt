@@ -1,0 +1,10 @@
+              struct.setApp_sizeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // MINSDKVERSION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.minsdkversion = iprot.readString();
+              struct.setMinsdkversionIsSet(true);
+            } else { 

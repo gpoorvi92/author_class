@@ -1,0 +1,10 @@
+	public HTTPSocket(Socket socket)
+	{
+		setSocket(socket);
+		open();
+	}
+
+	public HTTPSocket(HTTPSocket socket)
+	{
+		setSocket(socket.getSocket());
+		setInputStream(socket.getInputStream());

@@ -1,0 +1,10 @@
+		Button whiteButton = new Button("复原");
+
+		// 添加到窗体
+		f.add(redButton);
+		f.add(greenButton);
+		f.add(blueButton);
+		f.add(whiteButton);
+
+		// 注册事件
+		f.addWindowListener(new WindowAdapter() {

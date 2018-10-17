@@ -1,0 +1,10 @@
+            log.info("Center服务器启动");
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+    }
+    /**
+     * 初始化到其他服务器的Rpc
+     */
+    private void initRpc()

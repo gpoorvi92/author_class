@@ -1,0 +1,10 @@
+            list.add(new SimUnit("V3Radiator"));
+        }
+    }
+}
+class RetentionBot {
+    RetentionBot(ArrayList rlist) {
+        rlist.add(new SimUnit("Retention"));
+    }
+}
+class SimUnit {

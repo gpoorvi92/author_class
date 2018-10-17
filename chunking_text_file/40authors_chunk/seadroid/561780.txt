@@ -1,0 +1,10 @@
+    protected File doInBackground(Void... params) {
+        try {
+            DataManager dataManager = new DataManager(account);
+            return dataManager.getFile(repoName, repoID, path,
+                    new ProgressMonitor() {
+
+                        @Override
+                        public void onProgressNotify(long total) {
+                            publishProgress(total);
+                        }

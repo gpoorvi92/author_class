@@ -1,0 +1,10 @@
+
+	public void setGradientFill(GradientPaint g)
+	{
+		fillColorGradient = g;
+		fillColor = null;
+		fillColorRadial = null;
+		notifyListeners();
+	}
+	
+	public void setGradientFill(RadialGradientPaint g)

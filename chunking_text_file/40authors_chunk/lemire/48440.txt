@@ -1,0 +1,10 @@
+            for (int N = 100; N < 1000; N += 100) {
+                System.out.println("testWideOr N = " + N);
+                Iterator<EWAHCompressedBitmap[]> i = getCollections(
+                        N, 3);
+                while (i.hasNext()) {
+                    EWAHCompressedBitmap[] x = i.next();
+                    EWAHCompressedBitmap tanswer = EWAHCompressedBitmap
+                            .or(x);
+                    EWAHCompressedBitmap container = new EWAHCompressedBitmap();
+                    FastAggregation.legacy_orWithContainer(container, x);

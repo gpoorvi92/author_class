@@ -1,0 +1,10 @@
+import java.text.*;
+import java.util.Date;
+
+
+class Receipt extends JFrame {
+	public Container content;
+	public JPanel reportingPanel;
+	public JTabbedPane listsTabs;
+	public JPanel chartPanel;
+	public JButton hide;

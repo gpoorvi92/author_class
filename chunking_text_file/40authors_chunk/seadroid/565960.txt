@@ -1,0 +1,10 @@
+
+        c.close();
+        return accounts;
+    }
+
+    public void saveAccount(Account account) {
+        Account old = getAccount(account.server, account.email);
+        if (old != null) {
+            if (old.token.equals(account.token))
+                return;

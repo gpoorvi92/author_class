@@ -1,0 +1,10 @@
+    final public boolean needMembuf() {
+        return mNeedMembuf;
+    }
+
+    // for Parcelable
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+

@@ -1,0 +1,10 @@
+       fraction += (unsignedByte(data[4])<<8);
+       fraction *= 0x1000000;
+       fraction += (long)((unsignedByte(data[3]) << 24) | (unsignedByte(data[2]) << 16) | 
+           (unsignedByte(data[1]) << 8) | unsignedByte(data[0]));
+
+       fraction = fraction / powersOfTwo[52+1023];
+       if (fraction > 1)
+       {
+           System.out.println("problem: fraction should be less than 1: "+fraction);
+           fraction = 1;

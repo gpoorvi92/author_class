@@ -1,0 +1,8 @@
+        List<Remark> remarkList = remarkService.search(vo);
+        List<Goods> goodsList = goodsService.findByMerchantId(vo.getMerchantId());
+        modelAndView.addObject("goodsList", goodsList);
+        modelAndView.addObject("remarkList", remarkList);
+        modelAndView.addObject("vo", vo);
+        return modelAndView;
+    }
+}

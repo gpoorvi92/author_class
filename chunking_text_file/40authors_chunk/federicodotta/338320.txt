@@ -1,0 +1,10 @@
+     */
+    static final byte CONTENT_TYPE_JSON = 4;
+    /**
+     * Used to indicate AMF content.
+     */
+    static final byte CONTENT_TYPE_AMF = 5;
+    /**
+     * Used to indicate unknown content.
+     */
+    static final byte CONTENT_TYPE_UNKNOWN = -1;

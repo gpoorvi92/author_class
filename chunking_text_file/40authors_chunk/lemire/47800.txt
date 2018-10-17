@@ -1,0 +1,10 @@
+    /**
+     * Gets the running bit.
+     *
+     * @return the running bit
+     */
+    @Override
+    public boolean getRunningBit() {
+        return this.iteratingBrlw.getRunningBit();
+    }
+

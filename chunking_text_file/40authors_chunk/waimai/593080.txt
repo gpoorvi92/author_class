@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void changePwd(Integer id, String oldPassword, String newPassword) throws ServiceException {
+        Admin admin = adminMapper.selectByPrimaryKey(id);
+        if (admin != null && admin.getPassword().equals(DigestUtils.md5DigestAsHex(oldPassword.getBytes()))) {
+            admin.setPassword(DigestUtils.md5DigestAsHex(newPassword.getBytes()));
+            if (adminMapper.updateByPrimaryKeySelective(admin) < 1) {
+                throw new ServiceException("修改失败");

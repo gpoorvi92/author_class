@@ -1,0 +1,10 @@
+		osw.write(s, 0, s.length());
+
+		osw.flush();
+		// 10M-20M
+
+		// 释放资源
+		osw.close();// 关闭此流，但要先刷新它
+		// osw.write("haha"); //java.io.IOException: Stream closed
+	}
+}

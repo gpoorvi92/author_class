@@ -1,0 +1,10 @@
+
+    /** sets each value in this matrix to the specified value
+     */
+    public void fill(double value)
+    {
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+                values[i][j] = value;
+        }

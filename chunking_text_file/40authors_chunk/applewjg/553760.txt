@@ -1,0 +1,10 @@
+    }
+    public TreeNode sortedListToBST_2(ListNode head) {
+        return sortedListToBSTRe2(head, null);
+    }
+    public TreeNode sortedListToBSTRe2(ListNode start, ListNode end) {
+        if(start == end) return null;
+        ListNode pre = null;
+        ListNode slow = start;
+        ListNode fast = start;
+        while (fast!=end&&fast.next!=end) {

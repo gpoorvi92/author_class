@@ -1,0 +1,10 @@
+import de.undercouch.bson4jackson.BsonFactory;
+import de.undercouch.bson4jackson.BsonGenerator;
+
+public class PerformanceBsonJson {
+	private Account src=new Account();
+	private Account dst=new Account();
+	
+	@Before
+	public void setUP(){
+		src.setUserName("chachacha");

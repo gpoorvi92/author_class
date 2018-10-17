@@ -1,0 +1,10 @@
+
+import com.am.jlfu.fileuploader.json.CRCResult;
+import com.am.jlfu.fileuploader.logic.UploadServletAsyncProcessor;
+
+
+
+/**
+ * Helper providing methods to compute crc hash.
+ * 
+ * @see #getBufferedCrc(InputStream)

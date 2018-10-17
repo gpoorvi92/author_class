@@ -1,0 +1,10 @@
+		}
+		if(user.getType().equals("system")){
+			result = "系统管理员";
+		}
+		try {
+			response.getWriter().write(result);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}

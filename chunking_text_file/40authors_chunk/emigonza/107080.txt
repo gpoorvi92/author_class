@@ -1,0 +1,10 @@
+    public boolean getCapDeposit() throws JposException;
+    public boolean getCapDepositDataEvent() throws JposException;
+    public boolean getCapPauseDeposit() throws JposException;
+    public boolean getCapRepayDeposit() throws JposException;
+
+    // Properties
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled)
+                       throws JposException;

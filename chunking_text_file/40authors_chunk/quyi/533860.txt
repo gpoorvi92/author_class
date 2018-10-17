@@ -1,0 +1,10 @@
+
+    boolean this_present_riskDescription = true && this.isSetRiskDescription();
+    boolean that_present_riskDescription = true && that.isSetRiskDescription();
+    if (this_present_riskDescription || that_present_riskDescription) {
+      if (!(this_present_riskDescription && that_present_riskDescription))
+        return false;
+      if (!this.riskDescription.equals(that.riskDescription))
+        return false;
+    }
+

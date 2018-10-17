@@ -1,0 +1,10 @@
+  }
+
+  public void setCheckEngineNumIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __CHECKENGINENUM_ISSET_ID, value);
+  }
+
+  public int getPositives() {
+    return this.positives;
+  }
+

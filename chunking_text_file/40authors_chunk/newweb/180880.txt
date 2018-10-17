@@ -1,0 +1,10 @@
+		if(query.list().size() == 0){
+			return (OrderLhjWeight) query.uniqueResult();
+		}
+		return (OrderLhjWeight) query.list().get(0);
+	}
+
+	@Override
+	public boolean delete(OrderLhjWeight lhjWeight) {
+		try {
+			sessionFactory.getCurrentSession().delete(lhjWeight);

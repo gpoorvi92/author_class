@@ -1,0 +1,10 @@
+  /** Returns true if field deviceType is set (has been assigned a value) and false otherwise */
+  public boolean isSetDeviceType() {
+    return this.deviceType != null;
+  }
+
+  public void setDeviceTypeIsSet(boolean value) {
+    if (!value) {
+      this.deviceType = null;
+    }
+  }

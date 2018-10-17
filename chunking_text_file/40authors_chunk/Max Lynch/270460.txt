@@ -1,0 +1,10 @@
+	public void repositionWindows(Dimension newD)
+	{
+		int sw = newD.width;
+		int sh = newD.height;
+		
+		System.out.println(sw);
+		System.out.println(sh);
+		
+		colorPicker.setBounds(sw-250, 10, colorPicker.getWidth(), colorPicker.getHeight());
+		strokeDialog.setBounds(sw-250, sh-270, strokeDialog.getWidth(), strokeDialog.getHeight());

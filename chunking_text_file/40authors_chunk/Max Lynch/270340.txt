@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+
+//Imports the main classes of GraphicsStudio.  Ohhh bizzoy you hot.  tEcHrolLas
+import com.gs.main.*;
+
+
+public class FrameDesktop extends JDesktopPane { 
+	
+	StudioFrame studioFrame;

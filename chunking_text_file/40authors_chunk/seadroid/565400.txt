@@ -1,0 +1,10 @@
+            "CREATE TABLE " + AVATAR_TABLE_NAME + " ("
+            + AVATAR_COLUMN_ID + " INTEGER PRIMARY KEY, "
+            + AVATAR_COLUMN_SIGNATURE + " TEXT NOT NULL, "
+            + AVATAR_COLUMN_URL + " TEXT NOT NULL, "
+            + AVATAR_COLUMN_MTIME + " INTEGER NOT NULL);";
+
+    private static final String[] projection = {
+            //AVATAR_COLUMN_ID,
+            AVATAR_COLUMN_SIGNATURE,
+            AVATAR_COLUMN_URL,

@@ -1,0 +1,10 @@
+	/** @return a String description of this profile */
+	public String getDescription();
+
+	/** @return the vendor name of this profile */
+	public String getVendorName();
+
+	/** @return the URL for this vendor */
+	public URL getVendorUrl();
+
+	/** @return the list of DevCatInfo for this profile */

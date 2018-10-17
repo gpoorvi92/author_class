@@ -1,0 +1,10 @@
+public class ImageRecommendServiceImpl implements IImageRecommendService {
+    @Autowired
+    private ImageRecommendMapper imageRecommendMapper;
+
+    @Override
+    public List<ImageRecommend> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<ImageRecommend> imageRecommendList = imageRecommendMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(imageRecommendMapper.getTotalCount(vo));
+        return imageRecommendList;

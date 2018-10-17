@@ -1,0 +1,10 @@
+    /* 使用loader pool的id的任务也会统一以 mLoaderId回调给外部 */
+    private WeakReference<LoaderCallbacks<D>> mWeakCallbacks;
+    private WeakReference<Fragment> mWeakFragment;
+
+    /* 如果没有足够的loader, 请求会在这里暂存 */
+    private ArrayList<Integer> mLoaderPool = new ArrayList<Integer>();
+    private HashSet<Integer> mBusyLoaders = new HashSet<Integer>();
+    private LinkedList<LoaderRequest<D>> mRequestQueue = new LinkedList<LoaderRequest<D>>();
+
+    private Handler mHandler = new Handler();

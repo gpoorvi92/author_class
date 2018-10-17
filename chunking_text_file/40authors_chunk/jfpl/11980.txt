@@ -1,0 +1,10 @@
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.right_menu);
+		this.setCanceledOnTouchOutside(true);
+		window = getWindow();
+		window.setWindowAnimations(R.style.left_menu_anim);
+		WindowManager.LayoutParams wl = window.getAttributes();
+		int itemWidth = (int) (SystemUtil.SCREEN_WIDTH / 3 * 1.75f);
+		wl.width = itemWidth;
+		wl.height = height;

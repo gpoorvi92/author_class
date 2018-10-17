@@ -1,0 +1,10 @@
+		buildContent();
+		
+		/*LayoutParams params = getWH();
+		
+		WePartyApplication.width = params.width;
+		WePartyApplication.height = params.height;*/
+		
+		updateVersion();
+	}
+	

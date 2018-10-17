@@ -1,0 +1,10 @@
+	 * if no exception occurred
+	 * @since 2.0.0
+	 */
+	public Exception getLastLoadException();
+
+    /**
+     * @return the URL pointing to the entries file loaded or saved
+     * @since 1.2 (NY 2K meeting)
+     */
+    public URL getEntriesURL();

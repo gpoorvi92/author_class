@@ -1,0 +1,10 @@
+     * Prints a string appended without a new line to the tracer output
+     * @param s the String to print
+     */
+    public void print( String s );
+    
+    /**
+     * Prints a StackTrace from an Exception object.
+     * @param e the Exception to extract StackTrace from
+     */
+    public void print( Exception e );

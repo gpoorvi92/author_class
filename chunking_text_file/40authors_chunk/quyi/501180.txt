@@ -1,0 +1,10 @@
+        optionals.set(0);
+      }
+      if (struct.isSetCpuUsedPerc()) {
+        optionals.set(1);
+      }
+      if (struct.isSetFreeMem()) {
+        optionals.set(2);
+      }
+      if (struct.isSetJvmFreeMem()) {
+        optionals.set(3);

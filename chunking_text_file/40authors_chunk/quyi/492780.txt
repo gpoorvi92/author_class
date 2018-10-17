@@ -1,0 +1,10 @@
+        return isSetIre();
+      case UE:
+        return isSetUe();
+      }
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)

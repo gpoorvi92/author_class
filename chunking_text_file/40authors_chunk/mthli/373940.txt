@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class InverseEditor extends PropertyEditorSupport
+{
+   private ImageIcon normalIcon = new ImageIcon(getClass().getResource("ChartBean_MONO_16x16.gif"));
+
+   private ImageIcon inverseIcon = new ImageIcon(getClass().getResource(
+         "ChartBean_INVERSE_16x16.gif"));
+
+   public Component getCustomEditor()

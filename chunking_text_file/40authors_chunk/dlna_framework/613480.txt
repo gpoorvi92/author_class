@@ -1,0 +1,10 @@
+		
+		while (httpServerThread == thisThread) {
+			Thread.yield();
+			Socket sock;
+			try {
+				Debug.message("accept ...");
+				sock = accept();
+				if (sock != null)
+				{
+					Debug.message("sock = " + sock.getRemoteSocketAddress());

@@ -1,0 +1,10 @@
+		
+		if (postURL == null || postURL.length() <= 0)
+			postURL = service.getRootDevice().getURLBase();
+
+		// Thanks for Rob van den Boomen <rob.van.den.boomen@philips.com> (02/17/04)
+		// BUGFIX, set urlbase from location string if not set in description.xml
+		if (postURL == null || postURL.length() <= 0)
+			postURL = service.getRootDevice().getLocation();
+		
+		String reqHost = HTTP.getHost(postURL);

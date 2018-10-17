@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, SystemResources.class))));
+    tmpMap.put(_Fields.HARDWARE_RESOURCES, new org.apache.thrift.meta_data.FieldMetaData("hardwareResources", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, HardwareResources.class))));
+    tmpMap.put(_Fields.CHECK_END_DATE, new org.apache.thrift.meta_data.FieldMetaData("checkEndDate", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(DynamicCheckResultData.class, metaDataMap);
+  }

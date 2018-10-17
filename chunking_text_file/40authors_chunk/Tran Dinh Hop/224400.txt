@@ -1,0 +1,10 @@
+			// chain is searched for given code 
+			HashNode current = data[hashCode]; 
+			boolean found = current.hasCode(code); 
+
+			while(current.getNext() != null && found == false) 
+			{ 
+				current = current.getNext(); 
+				found = current.hasCode(code); 
+			} 
+			return found; 

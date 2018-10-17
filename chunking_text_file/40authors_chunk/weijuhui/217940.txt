@@ -1,0 +1,10 @@
+
+			int resId = array[position].getImg();
+			// String explain = array[position].getTitle();
+
+			// Bitmap iconBitmap = ResourceReader.readAsBitmap(mContext, resId);
+
+			holder.act_type_img.setImageResource(resId);
+
+			/*
+			 * holder.act_type_img.setImageBitmap(BitmapFillet.fillet(

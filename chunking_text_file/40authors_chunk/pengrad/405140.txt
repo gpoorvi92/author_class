@@ -1,0 +1,10 @@
+        this.caption = caption;
+        return this;
+    }
+
+    public InlineQueryResultDocument description(String description) {
+        this.description = description;
+        return this;
+    }
+
+    public InlineQueryResultDocument thumbUrl(String thumbUrl) {

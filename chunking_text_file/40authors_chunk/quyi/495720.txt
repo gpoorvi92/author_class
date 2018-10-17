@@ -1,0 +1,10 @@
+    if (other.isSetEngineIp()) {
+      this.engineIp = other.engineIp;
+    }
+    if (other.isSetEngineStatus()) {
+      this.engineStatus = other.engineStatus;
+    }
+    if (other.isSetEngineType()) {
+      this.engineType = other.engineType;
+    }
+    if (other.isSetNodeInfo()) {

@@ -1,0 +1,10 @@
+	 * 留给子类实现。用于实现子任务的处理逻辑。
+	 * 
+	 * @param task
+	 *          子任务
+	 * @return 子任务的处理结果
+	 * @throws Exception
+	 */
+	protected abstract V doProcess(T task) throws Exception;
+
+	@Override

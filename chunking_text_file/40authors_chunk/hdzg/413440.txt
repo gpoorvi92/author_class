@@ -1,0 +1,10 @@
+		enemySoldier[1] = BitmapFactory.decodeResource(r, R.drawable.enemy_soldier_2);
+		enemySoldier[2] = BitmapFactory.decodeResource(r, R.drawable.enemy_soldier_3);
+		enemySoldier[3] = BitmapFactory.decodeResource(r, R.drawable.enemy_soldier_4); 
+		//±³¾°
+		bmpBack = BitmapFactory.decodeResource(r, R.drawable.battle_field);     
+		bmpCityBorder = BitmapFactory.decodeResource(r, R.drawable.board); 
+	}
+	//»­×Ô¼º
+	public void onDraw(Canvas canvas){
+		canvas.drawBitmap(bmpBack, 0, 0, null);

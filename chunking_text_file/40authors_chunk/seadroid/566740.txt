@@ -1,0 +1,10 @@
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        FileListAdapter adapter = (FileListAdapter) l.getAdapter();
+        if (adapter != null) {
+            SelectableFile file = adapter.getItem(position);
+            mPath = file.getAbsolutePath();
+            file.toggleSelected();

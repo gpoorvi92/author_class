@@ -1,0 +1,10 @@
+        out.close();
+    }
+
+    private static void printAsciiVertices(Model m, PrintStream out) throws IOException
+    { 
+     int numTriangles = m.getNumberOfTriangles();
+     Triangle[] triangles = m.getTriangles();
+
+       // loop through triangles
+       for (int ti = 0; ti < numTriangles; ti++)

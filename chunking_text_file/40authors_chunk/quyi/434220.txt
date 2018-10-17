@@ -1,0 +1,10 @@
+          case 4: // CPU
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.cpu = iprot.readI32();
+              struct.setCpuIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // RSS
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {

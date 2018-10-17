@@ -1,0 +1,8 @@
+        {
+            def = "";
+        }
+        //Locale locale = RequestContextUtils.getLocale(request);
+        String msg = context.getMessage(key, null, def, locale);
+        return msg;
+    }
+}

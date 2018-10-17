@@ -1,0 +1,10 @@
+        return gson.fromJson(jsonElement, clazz);
+    }
+
+
+    /**
+     * 反序列化复杂Collection如List<Bean>
+     */
+    public <T> T fromJson(String jsonString, Type type) {
+        if (TextUtils.isEmpty(jsonString)) {
+            return null;

@@ -1,0 +1,10 @@
+   */
+    public void loadModel(Model m, File f, loadProgressListener progressListener) throws IOException
+  {
+      loadFromSTL(m, f,progressListener);
+  }
+
+    public String getDescription()
+    {
+        return "(*.stl) Stereolithography";
+    }

@@ -1,0 +1,6 @@
+     * Tries to end the connection with the associated service
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if any errors occurs with trying to end this connection
+     */
+    public void disconnect() throws JposException;
+}

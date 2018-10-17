@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetDataLength();
+      } else {
+        setDataLength((String)value);
+      }
+      break;
+
+    case OPERATE_TIME:
+      if (value == null) {
+        unsetOperateTime();

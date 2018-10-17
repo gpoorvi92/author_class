@@ -1,0 +1,10 @@
+		return sb.toString();
+	}
+
+	//-------------------------------------------------------------------------
+	// Package setter methods
+	//
+
+	/** 
+	 * Sets the the version of this profile 
+	 * @param s the String object

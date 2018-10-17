@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used to retrieve details of items in the Burp Scanner
+ * active scan queue. Extensions can obtain references to scan queue items by
+ * calling
+ * <code>IBurpExtenderCallbacks.doActiveScan()</code>.
+ */
+public interface IScanQueueItem
+{
+    /**

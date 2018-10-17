@@ -1,0 +1,10 @@
+
+	@Override
+	public WeChatDefaultReplyInfo update(WeChatDefaultReplyInfo info) {
+		if(info != null){
+			boolean isAdded = false;
+			WeChatDefaultReply data = (info.getId() == null || info.getId().trim().isEmpty()) ? null : this.weChatDefaultReplyDao.load(WeChatDefaultReply.class, info.getId());
+			if(isAdded = (data == null)){
+				if(info.getId() == null || info.getId().trim().isEmpty()){
+					info.setId(UUID.randomUUID().toString());
+				}

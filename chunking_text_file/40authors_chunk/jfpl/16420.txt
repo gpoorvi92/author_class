@@ -1,0 +1,10 @@
+		this.bindUsername = intent.getStringExtra("bind_name");
+		this.hphm = intent.getStringExtra("hphm");
+		titleTv.setText("豫A" + this.hphm);
+
+		AbstractCommonData acd = queryForData("get_bind_veh_by_bindname",
+				this.bindUsername);
+		long syncTime = 0;
+		try {
+			syncTime = Long.parseLong(acd.getStringValue("sync_time"));
+		} catch (Exception e) {

@@ -1,0 +1,10 @@
+	
+	
+	
+	@Test
+	public void testCalculateRemainingTime() {
+		processRemainingTimeTest(1000l, 0l, 100l, 10l);
+		processRemainingTimeTest(1000l, 500l, 100l, 5l);
+		processRemainingTimeTest(1000l, 1000l, 100l, 1l);
+	}
+

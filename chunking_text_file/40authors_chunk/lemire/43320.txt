@@ -1,0 +1,10 @@
+    @Override
+    public boolean hasNext() {
+        return this.hasNext;
+    }
+
+    @Override
+    public int next() {
+        final int answer;
+        if (literalHasNext()) {
+            final int t = this.word & -this.word;

@@ -1,0 +1,10 @@
+		}
+		
+		if (sampling < 11025) {
+			throw new InvalidMediaParameterException("Audio sampling rate too low.[" + sampling + "]");
+		}
+		
+		if (duration < 5) {
+			throw new InvalidMediaParameterException("Too short audio, are you sure?[" + duration + "]");
+		}
+		

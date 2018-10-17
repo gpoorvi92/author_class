@@ -1,0 +1,10 @@
+    byte[] getResponse();
+
+    /**
+     * This method is used to update the response message.
+     *
+     * @param message The new response message.
+     */
+    void setResponse(byte[] message);
+
+    /**

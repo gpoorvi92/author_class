@@ -1,0 +1,10 @@
+	
+	private void setRootNode(Node node)
+	{
+		rootNode = node;
+	}
+	
+	private synchronized Node getRootNode()
+	{
+		if (rootNode != null)
+			return rootNode;

@@ -1,0 +1,10 @@
+// ItemDispenserBeanInfo.java - Bean information for the JavaPOS ItemDispenser
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

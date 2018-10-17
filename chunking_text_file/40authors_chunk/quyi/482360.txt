@@ -1,0 +1,10 @@
+        this.virRD = new com.nercis.isscp.idl.virus.VirusDetectionResultData(other.virRD);
+      }
+    }
+
+    public updateAppStatus_args deepCopy() {
+      return new updateAppStatus_args(this);
+    }
+
+    @Override
+    public void clear() {

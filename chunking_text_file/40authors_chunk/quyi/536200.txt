@@ -1,0 +1,10 @@
+    lastComparison = Boolean.valueOf(isSetDeviceType()).compareTo(other.isSetDeviceType());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetDeviceType()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.deviceType, other.deviceType);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }

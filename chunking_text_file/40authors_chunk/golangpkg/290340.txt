@@ -1,0 +1,10 @@
+				Set<UUID> copySet;
+				synchronized (originSet) {
+					 copySet = Sets.newHashSet(originSet);
+				}
+				for (UUID fileId : copySet) {
+				
+					try {
+						
+						//calculate its progress
+						FileProgressStatus newProgress = progressCalculator.getProgress(entry.getKey(), fileId);

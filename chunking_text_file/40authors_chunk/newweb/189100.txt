@@ -1,0 +1,4 @@
+		sessionFactory.getCurrentSession().flush();
+	}
+
+}

@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetCheckEngineNum() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __CHECKENGINENUM_ISSET_ID);
+  }
+
+  /** Returns true if field checkEngineNum is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckEngineNum() {
+    return EncodingUtils.testBit(__isset_bitfield, __CHECKENGINENUM_ISSET_ID);

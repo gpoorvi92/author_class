@@ -1,0 +1,10 @@
+import com.newweb.dao.base.LhjPriceDao;
+import com.newweb.model.base.LhjPrice;
+
+@Component("lhjPriceDao")
+public class LhjPriceDaoImp implements LhjPriceDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired

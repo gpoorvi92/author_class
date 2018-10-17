@@ -1,0 +1,10 @@
+	 * 
+	 * @param stateOperation
+	 *          更改状态的操作，其call方法的返回值为true时，该方法才会唤醒被暂挂的线程
+	 */
+	void signalAfter(Callable<Boolean> stateOperation) throws Exception;
+
+	void signal() throws InterruptedException;
+
+	/**
+	 * 执行stateOperation所指定的操作后，决定是否唤醒本Blocker

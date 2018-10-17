@@ -1,0 +1,9 @@
+        
+       
+        g.draw(new Line2D.Double(model.getX1()-this.getX(),model.getY1()-this.getY(),model.getX2()-this.getX(),model.getY2()-this.getY()));
+        	
+        g.setColor(old);
+        
+    }
+}
+  

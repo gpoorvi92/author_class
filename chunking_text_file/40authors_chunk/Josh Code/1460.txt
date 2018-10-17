@@ -1,0 +1,10 @@
+ * http://people.scs.fsu.edu/~burkardt/data/obj/obj.html
+ * http://en.wikipedia.org/wiki/Obj
+ * 
+ */
+public class OBJModelFileSaver implements ModelFileSaver
+{
+  public boolean matchesFormat(String filename)
+  {
+      filename = filename.toLowerCase();
+

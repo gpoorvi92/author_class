@@ -1,0 +1,10 @@
+ *
+ * @param <IN>
+ *          输入类型
+ * @param <OUT>
+ *          输出类型
+ */
+public class WorkerThreadPipeDecorator<IN, OUT> implements Pipe<IN, OUT> {
+	protected final BlockingQueue<IN> workQueue;
+	private final Set<AbstractTerminatableThread> workerThreads = new HashSet<AbstractTerminatableThread>();
+	private final TerminationToken terminationToken = new TerminationToken();

@@ -1,0 +1,10 @@
+				"', subject_area = '" + k +
+				"', permission = '" + type_combo.getSelectedItem() +
+				"' WHERE item_id = '" + a + "'";
+														
+				int result = statement.executeUpdate(query1);
+				
+				String query2 = "UPDATE journal_detail SET " +
+				"issue_no = '" + c +
+				"', type = '" + type_combo.getSelectedItem() +
+				"', category = '" + category_combo.getSelectedItem() +

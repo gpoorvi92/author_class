@@ -1,0 +1,10 @@
+        {
+            lookUpHexAlphabet[i] = (char) ('0' + i);
+        }
+        for (int i = 10; i <= 15; i++)
+        {
+            lookUpHexAlphabet[i] = (char) ('A' + i - 10);
+        }
+    }
+    /**
+     * Encode a byte array to hex string

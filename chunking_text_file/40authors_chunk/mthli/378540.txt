@@ -1,0 +1,10 @@
+      // if file selected, open
+      if(r == JFileChooser.APPROVE_OPTION)
+      {
+         try
+         {
+            File file = chooser.getSelectedFile();
+            XMLDecoder decoder = new XMLDecoder(new FileInputStream(file));
+            decoder.readObject(); 
+            decoder.close();
+         }

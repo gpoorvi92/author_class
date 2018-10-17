@@ -1,0 +1,10 @@
+*	11/18/02
+*		- first revision.
+*	09/03/03
+*		- Changed to open the socket using setReuseAddress().
+*	12/10/03
+*		- Fixed getLocalAddress() to return a valid interface address.
+*	02/28/04
+*		- Added getMulticastInetAddress(), getMulticastAddress().
+*	11/19/04
+*		- Theo Beisch <theo.beisch@gmx.de>

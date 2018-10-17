@@ -1,0 +1,10 @@
+     * 
+     * @param f
+     *            the surface to draw
+     */
+    public native void setSurface(Surface f);
+
+    /**
+     * Initialize the libVLC class
+     */
+    private void initEx(String[] params) throws LibVlcException {

@@ -1,0 +1,10 @@
+		out.writeInt(row);//在大地图中所在的行
+		out.writeInt(refCol);//定位参考点在本MyDrawable中所占的列，以左下角为原点
+		out.writeInt(refRow);//定位参考点在本MyDrawable中所占的行，以左下角为原点
+		out.writeObject(noThrough);//不可通过矩阵
+		out.writeBoolean(meetable);//是否可以遇到
+	}
+	public void readExternal(ObjectInput in) throws IOException,
+			ClassNotFoundException {
+		width = in.readInt();
+		height = in.readInt();

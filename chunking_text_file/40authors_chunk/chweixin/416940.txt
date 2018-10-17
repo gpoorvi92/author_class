@@ -1,0 +1,6 @@
+		parameters.put("account", account);
+		List<User> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;
+		return list.get(0);
+	}
+}

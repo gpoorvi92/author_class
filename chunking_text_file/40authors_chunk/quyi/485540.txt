@@ -1,0 +1,10 @@
+      Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus,
+      List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions,
+      com.nercis.isscp.idl.StaticCheckResultData stcRD,
+      com.nercis.isscp.idl.DynamicCheckResultData dycRD,
+      com.nercis.isscp.idl.virus.VirusDetectionResultData virRD)
+    {
+      this();
+      this.missionId = missionId;
+      this.userAppId = userAppId;
+      this.plotsStatus = plotsStatus;

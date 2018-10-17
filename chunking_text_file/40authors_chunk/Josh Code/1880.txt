@@ -1,0 +1,10 @@
+
+     return result;
+  }
+
+    /** Reads a 4-byte int from big endian
+     */
+    public int readIntBigEndian() throws IOException
+    {
+        int result;
+        byte[] data = new byte[4];

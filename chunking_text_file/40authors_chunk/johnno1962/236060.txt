@@ -1,0 +1,10 @@
+        if ( !entered_insertString_0 ) {
+            entered_insertString_0 = true;
+            __insertString( offs, str, a );
+            entered_insertString_0 = false;
+        }
+        else
+            super.insertString( offs, str, a );
+    }
+
+}

@@ -1,0 +1,10 @@
+				paint);
+	}
+	public boolean onTouch(View v, MotionEvent event) {
+		if(event.getAction() == MotionEvent.ACTION_DOWN){//事件为点下屏幕
+			int x = (int)event.getX();//获取屏幕按下的x坐标
+			int y = (int)event.getY();//获取屏幕按下的y坐标
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				gameView.setStatus(97);//弹出自己城池管理界面
+				gameView.setCurrentGameAlert(null);

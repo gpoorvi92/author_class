@@ -1,0 +1,10 @@
+      break;
+
+    case MISSION_PROGRESS:
+      if (value == null) {
+        unsetMissionProgress();
+      } else {
+        setMissionProgress((String)value);
+      }
+      break;
+

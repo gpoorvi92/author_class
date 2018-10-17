@@ -1,0 +1,10 @@
+		this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		BandungInfo frame = new BandungInfo();
+		frame.setTitle("Bandung Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

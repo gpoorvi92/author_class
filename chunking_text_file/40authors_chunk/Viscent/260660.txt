@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch3.immutableobject;
+
+/**
+ * 与运维中心（Operation and Maintenance Center）对接的类
+ * 模式角色：ImmutableObject.Manipulator
+ */
+public class OMCAgent extends Thread{

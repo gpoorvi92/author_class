@@ -1,0 +1,10 @@
+
+    private static class updateUserAppInfo_argsStandardSchemeFactory implements SchemeFactory {
+      public updateUserAppInfo_argsStandardScheme getScheme() {
+        return new updateUserAppInfo_argsStandardScheme();
+      }
+    }
+
+    private static class updateUserAppInfo_argsStandardScheme extends StandardScheme<updateUserAppInfo_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, updateUserAppInfo_args struct) throws org.apache.thrift.TException {

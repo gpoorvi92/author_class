@@ -1,0 +1,10 @@
+        unsetJvmMaxMem();
+      } else {
+        setJvmMaxMem((String)value);
+      }
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {

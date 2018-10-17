@@ -1,0 +1,10 @@
+        if(avail > 0x7fffffffL)
+            return 0x7fffffff;
+        else
+            return (int)avail;
+    }
+
+    public void close()
+        throws IOException
+    {
+        eof = false;

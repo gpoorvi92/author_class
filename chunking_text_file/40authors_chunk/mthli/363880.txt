@@ -1,0 +1,5 @@
+   public void setExtensions(int i, String newValue)
+   {
+      if (0 <= i && i < extensions.length) extensions[i] = newValue;
+   }
+}

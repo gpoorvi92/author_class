@@ -1,0 +1,10 @@
+ */
+import java.awt.event.InputEvent;
+
+/**
+ * This interface is used when Burp calls into an extension-provided
+ * <code>IContextMenuFactory</code> with details of a context menu invocation.
+ * The custom context menu factory can query this interface to obtain details of
+ * the invocation event, in order to determine what menu items should be
+ * displayed.
+ */

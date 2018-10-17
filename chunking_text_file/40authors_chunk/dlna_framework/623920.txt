@@ -1,0 +1,10 @@
+	//	UPnP Error
+	////////////////////////////////////////////////
+	
+	private UPnPStatus upnpErr = new UPnPStatus();
+	
+	private Node getUPnPErrorNode()
+	{
+		Node detailNode = getFaultDetailNode();
+		if (detailNode == null)
+			return null;

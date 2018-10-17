@@ -1,0 +1,10 @@
+            }
+
+            if (position < customActions.size()) {
+                setCustomAction(viewHolder, customActions.get(position));
+            } else {
+                setAppInfo(viewHolder, mAppInfos.get(position - customActions.size()));
+            }
+
+            return view;
+        }

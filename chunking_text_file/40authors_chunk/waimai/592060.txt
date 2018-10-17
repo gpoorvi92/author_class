@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping("/merchant/order")
+public class MOrderController extends ComOrderController {
+    @Autowired
+    private IOrderService orderService;
+    @Autowired
+    private ISaleRecordService saleRecordService;
+    @Autowired
+    private IMerchantService merchantService;

@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_apiPackageName = true && this.isSetApiPackageName();
+    boolean that_present_apiPackageName = true && that.isSetApiPackageName();
+    if (this_present_apiPackageName || that_present_apiPackageName) {
+      if (!(this_present_apiPackageName && that_present_apiPackageName))
+        return false;
+      if (!this.apiPackageName.equals(that.apiPackageName))
+        return false;

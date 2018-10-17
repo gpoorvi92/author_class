@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, APICheck.class))));
+    tmpMap.put(_Fields.REPORT_PATH, new org.apache.thrift.meta_data.FieldMetaData("reportPath", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.CENTER_RESULT_PATH, new org.apache.thrift.meta_data.FieldMetaData("centerResultPath", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(StaticCheckResultData.class, metaDataMap);
+  }
+

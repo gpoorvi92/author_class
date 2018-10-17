@@ -1,0 +1,10 @@
+ * 6:string jvmVersion jvm版本
+ * 7:string jvmMaxMem jvm最大版本
+ */
+public class Software implements org.apache.thrift.TBase<Software, Software._Fields>, java.io.Serializable, Cloneable, Comparable<Software> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Software");
+
+  private static final org.apache.thrift.protocol.TField OS_ARCH_FIELD_DESC = new org.apache.thrift.protocol.TField("osArch", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField OS_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("osName", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField OS_DESC_FIELD_DESC = new org.apache.thrift.protocol.TField("osDesc", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField OS_VERSION_FIELD_DESC = new org.apache.thrift.protocol.TField("osVersion", org.apache.thrift.protocol.TType.STRING, (short)4);

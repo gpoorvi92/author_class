@@ -1,0 +1,10 @@
+ isMatch("aab", "c*a*b") ? true
+
+ Solution: 1. Recursion.
+           2. DP.
+*/
+
+public class Solution {
+    public boolean isMatch_1(String s, String p) {
+        if (p.length() == 0) return s.length() == 0;
+        if (p.length() == 1) {

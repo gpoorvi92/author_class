@@ -1,0 +1,10 @@
+ * @since 2013-11-27.
+ * */
+public abstract class DataServiceImpl<K,T> implements IDataService<T> {
+	/**
+	 * 获取列表数据。
+	 * @param info
+	 * 	查询条件。
+	 * */
+	@Override
+	public DataGrid<T> datagrid(T info) {

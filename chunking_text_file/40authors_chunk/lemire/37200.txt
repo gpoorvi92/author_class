@@ -1,0 +1,10 @@
+    /**
+     * Same as push_back, but the words are negated.
+     *
+     * @param buffer the buffer
+     * @param start  the position of the first word to add
+     * @param number the number of words to add
+     */
+    void negative_push_back(Buffer buffer, int start, int number);
+
+    /**

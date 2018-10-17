@@ -1,0 +1,10 @@
+	int warCount = 0;//执行10次循环才增加有几率爆发战争
+	CityDrawable ignoredCity;//被玩家忽略的粮草危机城市
+	CityDrawable emptyCity;//从粮草危机城市变成了空城
+	Research completedResearch;//存放完成的研究项目
+
+	//构造器
+	public HeroBackDataThread(Hero hero){
+		super.setName("==HeroBackDataThread");
+		this.hero = hero;
+		flag = true;

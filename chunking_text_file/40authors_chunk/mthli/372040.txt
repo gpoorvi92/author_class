@@ -1,0 +1,10 @@
+         });
+      fileMenu.add(exitItem);
+
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+      add(new JScrollPane(textArea), BorderLayout.CENTER);
+      pack();
+   }
+
+   /**
+    * The Connect action pops up the password dialog.

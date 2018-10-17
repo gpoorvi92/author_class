@@ -1,0 +1,10 @@
+      
+    
+      try {
+        
+        services = server.getServiceList();
+        
+      } catch(Exception ex) {
+         ex.printStackTrace();
+      }
+     return services;

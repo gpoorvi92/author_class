@@ -1,0 +1,10 @@
+
+      add(panel, BorderLayout.NORTH);
+      add(new JScrollPane(docText), BorderLayout.CENTER);
+      add(result, BorderLayout.SOUTH);
+
+      try
+      {
+         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+         builder = factory.newDocumentBuilder();
+      }

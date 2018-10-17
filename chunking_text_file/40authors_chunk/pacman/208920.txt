@@ -1,0 +1,10 @@
+				}
+				
+				response.close();
+				
+			} else {
+				
+				logger.error("Fail to download[" + url + "], response is null.");
+			}
+
+		} catch (Exception e) {

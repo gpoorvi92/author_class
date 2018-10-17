@@ -1,0 +1,10 @@
+    }
+
+    public static byte byteArrayFieldStatic[];
+    public byte byteArrayField[];
+
+    public static byte[] byteArrayMethodStatic( byte arg[] ) {
+        return arg;
+    }
+
+    public byte[] byteArrayMethod( byte arg[] ) {

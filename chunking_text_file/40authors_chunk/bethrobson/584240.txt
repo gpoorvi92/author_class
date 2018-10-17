@@ -1,0 +1,10 @@
+        {
+            System.out.println(Thread.currentThread().getName() + " is about to withdrawal");
+            try {
+                System.out.println(Thread.currentThread().getName() + " is going to sleep");
+                Thread.sleep(500);
+            } catch (InterruptedException ex) { ex.printStackTrace(); }
+            System.out.println(Thread.currentThread().getName() + " woke up");
+            account.withdraw(amount);
+            System.out.println(Thread.currentThread().getName() + " completes the withdrawal");
+        }

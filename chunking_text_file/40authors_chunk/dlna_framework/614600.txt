@@ -1,0 +1,10 @@
+import org.cybergarage.util.Debug;
+
+
+import android.util.Log;
+
+public class HTTPUSocket
+{
+
+	////////////////////////////////////////////////
+	//	Member

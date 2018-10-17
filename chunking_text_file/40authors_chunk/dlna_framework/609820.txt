@@ -1,0 +1,10 @@
+	{
+		serviceNode = servNode;
+		argumentNode = argNode;
+	}
+
+	public Argument(String name, String value)
+	{
+		this();
+		setName(name);
+		setValue(value);

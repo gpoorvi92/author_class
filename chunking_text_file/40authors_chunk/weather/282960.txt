@@ -1,0 +1,10 @@
+
+    public static void callStack() {
+        d(Arrays.toString(Thread.currentThread().getStackTrace()));
+    }
+
+    public static void e(String message) {
+        if (!isDebuggable())
+            return;
+
+        // Throwable instance must be created before any methods

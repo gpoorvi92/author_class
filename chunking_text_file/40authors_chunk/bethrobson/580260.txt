@@ -1,0 +1,10 @@
+    int incr = 1;                                      // set horizontal increment
+    if ((comCount % 2) == 1) {                         // if odd dot com  (place vertically)
+      incr = gridLength;                               // set vertical increment
+    }
+
+    while ( !success & attempts++ < 200 ) {             // main search loop  (32)
+	location = (int) (Math.random() * gridSize);      // get random starting point
+        //System.out.print(" try " + location);
+	int x = 0;                                        // nth position in dotcom to place
+        success = true;                                 // assume success

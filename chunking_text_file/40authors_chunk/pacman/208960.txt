@@ -1,0 +1,10 @@
+					logger.error("Fail to close reader.", e);
+				}
+			}
+			
+			if (client != null) {
+				try {
+
+					client.close();
+				} catch (IOException e) {
+					

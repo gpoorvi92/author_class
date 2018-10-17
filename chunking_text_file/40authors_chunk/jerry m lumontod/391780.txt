@@ -1,0 +1,10 @@
+			return 0;
+
+		GenJournalData s1 = (GenJournalData)o1;
+		GenJournalData s2 = (GenJournalData)o2;
+
+		int mintResult = 0;
+		double d1, d2;
+		long mlngTimeInMillis1,mlngTimeInMillis2;
+		Date mdDate1=new Date(),mdDate2=new Date();
+		SimpleDateFormat msdf = new SimpleDateFormat("mm/dd/yyyy");

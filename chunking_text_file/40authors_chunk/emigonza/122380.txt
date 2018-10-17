@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// POSKeyboardConst
+//
+//   POS Keyboard constants for JavaPOS Applications.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 98-02-18 JavaPOS Release 1.2                                   BS
+//

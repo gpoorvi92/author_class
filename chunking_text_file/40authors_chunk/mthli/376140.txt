@@ -1,0 +1,10 @@
+
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);
+      JMenu fileMenu = new JMenu("File");
+      menuBar.add(fileMenu);
+      openItem = new JMenuItem("Open");
+      openItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

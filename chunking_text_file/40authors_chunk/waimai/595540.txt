@@ -1,0 +1,5 @@
+            map.put("merchant", merchantService.findById(merchantId));
+            return map;
+        }
+    }
+}

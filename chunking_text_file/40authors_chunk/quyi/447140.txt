@@ -1,0 +1,10 @@
+      this.osArch = null;
+    }
+  }
+
+  public String getOsName() {
+    return this.osName;
+  }
+
+  public Software setOsName(String osName) {
+    this.osName = osName;

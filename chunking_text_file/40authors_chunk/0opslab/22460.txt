@@ -1,0 +1,10 @@
+/**
+ * FTP工具类测试
+ */
+public class FTPtest {
+    public static void main(String[] args) throws IOException {
+        FTPUtil ftp = FTPFactory.getInstance("FTPTest");
+
+        String remoteFile = "test/22.txt";
+        ftp.downLoad(remoteFile);
+

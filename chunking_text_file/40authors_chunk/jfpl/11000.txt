@@ -1,0 +1,10 @@
+		View v = LayoutInflater.from(ctx).inflate(R.layout.voice_play_item,
+				null);
+		this.addView(v);
+//		this.setOnClickListener(this);
+		this.setGravity(Gravity.CENTER_VERTICAL);
+		voiceImage = (ImageView) v.findViewById(R.id.play_voice_image);
+		secondsTv = (TextView) v.findViewById(R.id.play_voice_seconds);
+		this.mediaPlayer = new MediaPlayer();
+		this.mediaPlayer.setOnCompletionListener(this);
+		this.mediaPlayer.setOnPreparedListener(this);

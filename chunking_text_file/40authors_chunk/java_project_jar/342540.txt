@@ -1,0 +1,10 @@
+        }
+    }
+
+    public boolean accept(File file)
+    {
+        RandomAccessFile randomAccessFile;
+        if(file == null || !file.isFile() || !file.canRead())
+            break MISSING_BLOCK_LABEL_108;
+        randomAccessFile = null;
+        byte fileBytes[];

@@ -1,0 +1,10 @@
+ * java rsa.RSATest -decrypt encrypted decrypted private<br>
+ * @author Cay Horstmann
+ * @version 1.01 2012-06-10 
+ */
+public class RSATest
+{
+   private static final int KEYSIZE = 512;
+
+   public static void main(String[] args) 
+      throws IOException, GeneralSecurityException, ClassNotFoundException

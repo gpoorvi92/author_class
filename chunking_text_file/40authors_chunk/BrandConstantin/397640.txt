@@ -1,0 +1,10 @@
+        int num;
+        num = teclado.nextInt();
+        
+        if(num >=0){
+            positivos++;
+        } else {
+            negativos++;
+        }
+        contador++;
+    }

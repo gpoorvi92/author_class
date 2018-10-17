@@ -1,0 +1,10 @@
+    	ComparableDocument news2 = new ComparableDocument(new File("test_data/news_2.txt"));
+    	ComparableDocument econ1 = new ComparableDocument(new File("test_data/economy_1.txt"));
+    	ComparableDocument econ2 = new ComparableDocument(new File("test_data/economy_2.txt"));
+    	System.out.println("news 1 - news1: " + news1.compareTo(news1));
+    	System.out.println("news 1 - news2: " + news1.compareTo(news2));
+    	System.out.println("news 2 - news2: " + news2.compareTo(news2));
+    	System.out.println("news 1 - econ1: " + news1.compareTo(econ1));
+    	System.out.println("econ 1 - econ1: " + econ1.compareTo(econ1));
+    	System.out.println("news 1 - econ2: " + news1.compareTo(econ2));
+    	System.out.println("news 2 - econ2: " + news2.compareTo(econ2));

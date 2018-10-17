@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 15, 2014
+ Problem:    Compare Version Numbers
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/compare-version-numbers/
+ Notes:
+ Compare two version numbers version1 and version1.
+ If version1 > version2 return 1, if version1 < version2 return -1, otherwise return 0.
+

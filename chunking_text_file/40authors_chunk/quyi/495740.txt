@@ -1,0 +1,10 @@
+      this.nodeInfo = new NodeInfo(other.nodeInfo);
+    }
+    if (other.isSetEngineRules()) {
+      List<String> __this__engineRules = new ArrayList<String>(other.engineRules);
+      this.engineRules = __this__engineRules;
+    }
+    if (other.isSetEnginePlots()) {
+      List<String> __this__enginePlots = new ArrayList<String>(other.enginePlots);
+      this.enginePlots = __this__enginePlots;
+    }

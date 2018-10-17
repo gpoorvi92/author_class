@@ -1,0 +1,10 @@
+
+    /**
+     * append to the list the literal words as EWAHPointer
+     *
+     * @param container where we write
+     */
+    public final void fillWithLiterals(final List<EWAHPointer> container) {
+        for (int k = this.litwlist.nextSetBit(0); k >= 0; k = this.litwlist.nextSetBit(k + 1)) {
+            container.add(this.rw[k]);
+        }

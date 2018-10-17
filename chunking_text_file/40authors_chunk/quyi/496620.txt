@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_engineRules = true && this.isSetEngineRules();
+    boolean that_present_engineRules = true && that.isSetEngineRules();
+    if (this_present_engineRules || that_present_engineRules) {
+      if (!(this_present_engineRules && that_present_engineRules))
+        return false;
+      if (!this.engineRules.equals(that.engineRules))
+        return false;

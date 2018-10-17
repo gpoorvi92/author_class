@@ -1,0 +1,10 @@
+		return ofs;
+	}
+
+
+	@Override
+	public OrderBxgFdw findBxgFdwById(int ID) {
+		return orderBxgFdwDao.selectBxgFdwById(ID);
+	}
+
+

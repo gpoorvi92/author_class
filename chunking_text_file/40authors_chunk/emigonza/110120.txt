@@ -1,0 +1,10 @@
+    public byte[]  getTrack3Data() throws JposException;
+    public void    setTrack3Data(byte[] track3Data) throws JposException;
+    public int     getTransactionType() throws JposException;
+    public void    setTransactionType(int transactionType) throws JposException;
+
+    // Methods
+    public void    beginEFTTransaction(String PINPadSystem, int transactionHost)
+                       throws JposException;
+    public void    clearInput() throws JposException;
+    public void    computeMAC(String inMsg, String[] outMsg)

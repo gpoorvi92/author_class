@@ -1,0 +1,10 @@
+
+ 					if (oldPass.equals (pass)) {		//If Found then.
+						verify = true;
+						String q = "UPDATE Users SET Password = '" + newPass + 
+							"' WHERE Username = '" + userName + "'";
+
+						int result = st.executeUpdate (q);
+						if (result == 1) {
+							JOptionPane.showMessageDialog (this, 
+							"Your Password has been Changed.\nRemember Your new Password");

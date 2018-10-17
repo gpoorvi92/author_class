@@ -1,0 +1,10 @@
+				Account a=new Account();
+				a.fromDbObject(obj);
+				result.add(a);
+			}
+		}finally{
+			if(cursor!=null)
+				cursor.close();
+		}
+		return (Account[])result.toArray(new Account[0]);
+	}

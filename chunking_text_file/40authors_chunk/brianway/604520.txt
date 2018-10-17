@@ -1,0 +1,10 @@
+        for (int i = 0; i < pNum; i++) {
+            producers[i] = new Producer(myStack);
+        }
+
+        for (int i = 0; i < pNum; i++) {
+            p_threads[i] = new P_Thread(producers[i]);
+            p_threads[i].start();
+        }
+
+        int cNum = 8;

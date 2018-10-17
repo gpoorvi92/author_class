@@ -1,0 +1,10 @@
+package search.game;
+
+public class TicTacToe extends GameSearch {
+
+    public boolean drawnPosition(Position p) {
+        if (GameSearch.DEBUG) System.out.println("drawnPosition("+p+")");
+        boolean ret = true;
+        TicTacToePosition pos = (TicTacToePosition)p;
+        for (int i=0; i<9; i++) {
+            if (pos.board[i] == TicTacToePosition.BLANK){

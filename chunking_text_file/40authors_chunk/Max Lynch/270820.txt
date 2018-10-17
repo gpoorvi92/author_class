@@ -1,0 +1,10 @@
+	
+	
+	
+	public int getCap()
+	{
+		if(cap.getSelectedItem().toString() == "Cap Butt")
+			return BasicStroke.CAP_BUTT;
+		else if(cap.getSelectedItem().toString() == "Cap Round")
+			return BasicStroke.CAP_ROUND;
+		else if(cap.getSelectedItem().toString() == "Cap Square")

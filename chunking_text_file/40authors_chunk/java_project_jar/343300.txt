@@ -1,0 +1,10 @@
+    public boolean markSupported()
+    {
+        return in.markSupported();
+    }
+
+    protected void beforeRead(int i)
+        throws IOException
+    {
+    }
+

@@ -1,0 +1,10 @@
+    public short short2dArrayField[][];
+
+    public static short[][] short2dArrayMethodStatic( short arg[][] ) {
+        return arg;
+    }
+
+    public short[][] short2dArrayMethod( short arg[][] ) {
+        return arg;
+    }
+

@@ -1,0 +1,10 @@
+public class GetMaxNumberDemo {
+	public static void main(String[] args) {
+		// 定义集合，用于存储多个数据
+		ArrayList<Integer> array = new ArrayList<Integer>();
+
+		// 循环键盘录入数据，用while(true){}
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			int number = sc.nextInt();
+

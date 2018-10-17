@@ -1,0 +1,10 @@
+	 * @param map
+	 * @throws MQException
+	 * @return: void
+	 */
+	void sendMapMessage(Map<String, Object> map) throws MQException;
+
+	/**
+	 * Sends object via the class of object.
+	 * 
+	 * @Title: sendObject

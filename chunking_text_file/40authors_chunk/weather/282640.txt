@@ -1,0 +1,10 @@
+                throw new IllegalStateException("newDropDownView result must not be null.");
+            }
+        }
+        bindDropDownView(getItem(position), position, view);
+        return view;
+    }
+
+    /**
+     * Create a new instance of a drop-down view for the specified position.
+     */

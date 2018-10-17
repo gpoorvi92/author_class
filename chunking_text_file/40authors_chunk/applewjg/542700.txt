@@ -1,0 +1,10 @@
+        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        q.offer(root);
+        q.offer(null);
+        List<Integer> level = new ArrayList<Integer>();
+        int depth = 0;
+        while(true) {
+            TreeNode node = q.poll();
+            if (node != null) {
+                level.add(node.val);
+                if(node.left!=null) q.offer(node.left);

@@ -1,0 +1,10 @@
+	
+	public static final String SOAP_ACTION = "SOAPACTION";
+
+	public static final String M_SEARCH = "M-SEARCH";
+	public static final String NOTIFY = "NOTIFY";
+	public static final String POST = "POST";
+	public static final String GET = "GET";
+	public static final String HEAD = "HEAD";
+	public static final String SUBSCRIBE = "SUBSCRIBE";
+	public static final String UNSUBSCRIBE = "UNSUBSCRIBE";

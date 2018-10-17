@@ -1,0 +1,10 @@
+      @param anchor the anchor value
+      @return this object for further modification
+   */
+   public GBC setAnchor(int anchor) 
+   { 
+      this.anchor = anchor; 
+      return this;
+   }
+   
+   /**

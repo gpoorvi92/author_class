@@ -1,0 +1,10 @@
+	}
+	public void setBuycount(int buycount) {
+		this.buycount = buycount;
+	}
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="id")
+	public int getID() {
+		return ID;
+	}

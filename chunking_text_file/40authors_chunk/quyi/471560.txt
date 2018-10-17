@@ -1,0 +1,10 @@
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("submitMission", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        submitMission_args args = new submitMission_args();
+        args.setMissionId(missionId);
+        args.setUserApps(userApps);
+        args.setPlots(plots);
+        args.setUseRule(useRule);
+        args.write(prot);
+        prot.writeMessageEnd();

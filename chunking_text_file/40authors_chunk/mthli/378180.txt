@@ -1,0 +1,10 @@
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+      setContentPane(new JScrollPane(box));
+      validate();
+   }
+
+   /**
+    * Save the current image in a file.
+    * @param formatName the file format

@@ -1,0 +1,10 @@
+import android.os.Handler;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
+import android.support.v4.content.Loader;
+
+public class LoaderLauncher<D> implements LoaderCallbacks<D> {
+    private static final String TAG = LoaderLauncher.class.getSimpleName();
+    private boolean ENABLE_VERBOSE;
+

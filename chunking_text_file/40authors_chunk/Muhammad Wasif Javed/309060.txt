@@ -1,0 +1,10 @@
+
+		Object obj = ae.getSource();
+
+		if (obj == btnOk) {		//If OK Button Pressed.
+
+			String password = new String (txtPass.getPassword());
+
+			if (txtUser.getText().equals ("")) {
+				txtUser.requestFocus();
+				JOptionPane.showMessageDialog (this, "Username not Provided.");

@@ -1,0 +1,10 @@
+        float roundPx;
+        result = Bitmap.createBitmap(bitmap.getWidth(), bitmap.getHeight(), Bitmap.Config.ARGB_8888);
+        canvas = new Canvas(result);
+        color = 0xff424242;
+        paint = new Paint();
+        rect = new Rect(0, 0, bitmap.getWidth(), bitmap.getHeight());
+        rectF = new RectF(rect);
+        roundPx = pixels;
+        paint.setAntiAlias(true);
+        canvas.drawARGB(0, 0, 0, 0);

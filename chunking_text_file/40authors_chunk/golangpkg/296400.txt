@@ -1,0 +1,10 @@
+		// populate request component container
+		requestComponentContainer.populate(new MockHttpServletRequest(), new MockHttpServletResponse());
+
+
+		staticStateManager.clear();
+		content = new byte[] { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+		file = new MockMultipartFile("blob", content);
+		fileSize = Integer.valueOf(content.length).longValue();
+	}
+

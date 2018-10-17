@@ -1,0 +1,10 @@
+    public BaseRequest(Class<? extends R> responseClass) {
+        this.responseClass = responseClass;
+        this.parameters = new HashMap<String, Object>();
+    }
+
+    protected T add(String name, Object val) {
+        parameters.put(name, val);
+        return thisAsT;
+    }
+

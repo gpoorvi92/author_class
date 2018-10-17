@@ -1,0 +1,10 @@
+    boolean that_present_ruleTypes = true && that.isSetRuleTypes();
+    if (this_present_ruleTypes || that_present_ruleTypes) {
+      if (!(this_present_ruleTypes && that_present_ruleTypes))
+        return false;
+      if (!this.ruleTypes.equals(that.ruleTypes))
+        return false;
+    }
+
+    boolean this_present_riskLevel = true && this.isSetRiskLevel();
+    boolean that_present_riskLevel = true && that.isSetRiskLevel();

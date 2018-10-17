@@ -1,0 +1,10 @@
+			int size = tempHero.father.freeGeneral.size();
+			if(size == 0){//碰到了，但是无将军可遇了，都是自己的了
+				status = 4;
+			}
+			else{//还有将军可遇
+				status = 2;//设置状态位
+				int index = (int)(Math.random()*size);//随机选个将军
+				General g = tempHero.father.freeGeneral.get(index);
+				dialogMessage[2] = dialogMessage[2].replaceFirst("xx", g.getName());
+				tempHero.getGeneralList().add(g);//添加新将军

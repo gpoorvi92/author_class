@@ -1,0 +1,10 @@
+        List<Integer> res = new ArrayList<Integer>();
+        if(root == null) return res;
+        preorderTraversalRe(root, res);
+        return res;
+    }
+    public List<Integer> preorderTraversal_3(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        if(root == null) return res;
+        Stack<TreeNode> stk = new Stack<TreeNode>();
+        stk.push(root);

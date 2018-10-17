@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetPlotsStatus()) {
+        {
+          oprot.writeI32(struct.plotsStatus.size());
+          for (Map.Entry<PlotsType, CheckResultStatus> _iter85 : struct.plotsStatus.entrySet())
+          {
+            oprot.writeI32(_iter85.getKey().getValue());
+            oprot.writeI32(_iter85.getValue().getValue());
+          }
+        }

@@ -1,0 +1,10 @@
+        return status;
+    }
+
+    /**
+     * The following three methods are used to keep track of
+     * BitmapFaction.Options used for decoding and cancelling.
+     */
+    private synchronized void setDecodingOptions(Thread t,
+            BitmapFactory.Options options) {
+        getOrCreateThreadStatus(t).mOptions = options;

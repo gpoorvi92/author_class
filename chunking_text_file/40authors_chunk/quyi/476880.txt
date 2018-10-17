@@ -1,0 +1,10 @@
+            org.apache.thrift.protocol.TList _list13 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.I32, iprot.readI32());
+            struct.plots = new ArrayList<com.nercis.isscp.idl.PlotsType>(_list13.size);
+            for (int _i14 = 0; _i14 < _list13.size; ++_i14)
+            {
+              com.nercis.isscp.idl.PlotsType _elem15;
+              _elem15 = com.nercis.isscp.idl.PlotsType.findByValue(iprot.readI32());
+              struct.plots.add(_elem15);
+            }
+          }
+          struct.setPlotsIsSet(true);

@@ -1,0 +1,10 @@
+				file.mkdirs();
+				files[i] = file;
+			}
+			else {
+				files[i] = File.createTempFile("temp", "temp");
+			}
+		}
+	}
+
+

@@ -1,0 +1,10 @@
+    public VodIndex(String vodTag, PlayIndex playIndex) {
+        this(vodTag);
+        mVodList.add(playIndex);
+    }
+
+    public VodIndex(String vodTag, String url) {
+        this(vodTag, new PlayIndex(null, url));
+    }
+
+    public VodIndex(String vodTag, Uri uri) {

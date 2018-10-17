@@ -1,0 +1,10 @@
+		//创建图片消息对象。
+		ImageReqMessage imageReqMessage = new ImageReqMessage();
+		//
+		parseReqMessage(imageReqMessage,data);
+		//
+		imageReqMessage.setPicUrl(data.get("PicUrl"));
+		imageReqMessage.setMediaId(data.get("MediaId"));
+		//
+		return imageReqMessage;
+	}

@@ -1,0 +1,10 @@
+            @Override
+            public RetryPolicy getRetryPolicy() {
+                RetryPolicy retryPolicy = new DefaultRetryPolicy(TIME_OUT_TIME, 0, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT);
+
+                return retryPolicy;
+            }
+        };
+        request.getTimeoutMs();
+        queue.add(request);
+        return request;

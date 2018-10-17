@@ -1,0 +1,10 @@
+		setHeader(HTTP.SID, Subscription.toSIDHeaderString(id));
+	}
+
+	public String getSID()
+	{
+		// Thanks for Grzegorz Lehmann and Stefano Lenzi(12/06/04)
+		String sid = Subscription.getSID(getHeaderValue(HTTP.SID));
+		if (sid == null)
+			return "";
+		return sid;

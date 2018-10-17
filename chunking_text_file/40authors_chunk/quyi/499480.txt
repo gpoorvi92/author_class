@@ -1,0 +1,10 @@
+      if (incoming.get(3)) {
+        struct.operateContent = iprot.readString();
+        struct.setOperateContentIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.operateTime = iprot.readString();
+        struct.setOperateTimeIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.operateType = iprot.readString();

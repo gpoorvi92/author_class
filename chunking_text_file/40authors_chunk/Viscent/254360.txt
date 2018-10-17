@@ -1,0 +1,10 @@
+
+public class SomeService {
+	private final BlockingQueue<String> queue = new ArrayBlockingQueue<String>(
+	    100);
+
+	private final Producer producer = new Producer();
+	private final Consumer consumer = new Consumer();
+
+	private class Producer extends AbstractTerminatableThread {
+		private int i = 0;

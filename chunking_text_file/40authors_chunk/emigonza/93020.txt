@@ -1,0 +1,10 @@
+
+    /**
+     * @return an Enumeration of JposEntry objects
+     * @since 1.2 (NY 2K meeting)
+     */
+    public Enumeration getEntries();
+
+	/**
+	 * @retun true if this populator is a composite populator or false 
+	 * otherwise

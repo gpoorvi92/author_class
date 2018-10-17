@@ -1,0 +1,10 @@
+        return add(time, hours, Calendar.HOUR_OF_DAY);
+    }
+
+    public static Calendar addMinutes(long time, int minutes) {
+        return add(time, minutes, Calendar.MINUTE);
+    }
+    
+    public static Calendar addMinutes(long time, int minutes, int minInterval) {
+        return add(time, minutes*minInterval, Calendar.MINUTE);
+    }

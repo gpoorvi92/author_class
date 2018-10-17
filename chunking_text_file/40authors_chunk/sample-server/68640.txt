@@ -1,0 +1,10 @@
+    public void setDbPasswd(String dbPasswd)
+    {
+        this.dbPasswd = dbPasswd;
+    }
+    public int getZoneId()
+    {
+        return zoneId;
+    }
+    public void setZoneId(int zoneId)
+    {

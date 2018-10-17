@@ -1,0 +1,10 @@
+    private static double rad(double d) {
+        return d * Math.PI / 180.0;
+    }
+
+    /**
+     * 根据两点间经纬度坐标（double值），计算两点间距离，
+     * @param lat1
+     * @param lng1
+     * @param lat2
+     * @param lng2

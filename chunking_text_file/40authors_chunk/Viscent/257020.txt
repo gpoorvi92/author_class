@@ -1,0 +1,10 @@
+		});
+		t.start();
+
+		final Timer timer = new Timer();
+
+		// 延迟50ms调用helper.stateChanged方法
+		timer.schedule(new TimerTask() {
+			@Override
+			public void run() {
+				helper.xStateChanged();

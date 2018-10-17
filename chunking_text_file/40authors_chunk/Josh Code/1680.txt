@@ -1,0 +1,10 @@
+        if (b >= 0)
+            return b;
+        else
+            return 256+b;
+    }
+
+    public void close() throws IOException
+    {
+        is.close();
+    }

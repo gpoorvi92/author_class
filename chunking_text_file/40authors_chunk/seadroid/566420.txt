@@ -1,0 +1,10 @@
+        if (mRotation == degrees) return;
+        mRotation = degrees;
+        ContentValues values = new ContentValues();
+        values.put(ImageColumns.ORIENTATION, mRotation);
+        mContentResolver.update(mUri, values, null, null);
+
+        //TODO: Consider invalidate the cursor in container
+        // ((BaseImageList) getContainer()).invalidateCursor();
+    }
+

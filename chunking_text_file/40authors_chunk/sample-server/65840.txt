@@ -1,0 +1,10 @@
+        ret.setDateLimit(dateLimit.getTime());
+        ret.setGiftId(giftId);
+        ret.setLegealCount(legealCount);
+        ret.setUuid(uuid);
+        return ret.build();
+    }
+    public int getZoneId()
+    {
+        return zoneId;
+    }

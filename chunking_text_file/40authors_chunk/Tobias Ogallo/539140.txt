@@ -1,0 +1,10 @@
+		jPanel1 = new JPanel(new BorderLayout());
+		jPanel1.add(jScrollPane, BorderLayout.CENTER);
+		
+		Print=new JButton("Print Record");
+	
+		jButton4 = new JButton("Close");
+		
+		jPanel2 = new javax.swing.JPanel(new java.awt.FlowLayout());
+		
+		

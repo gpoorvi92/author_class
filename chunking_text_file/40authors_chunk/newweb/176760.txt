@@ -1,0 +1,10 @@
+		StringBuilder sb = new StringBuilder();
+		
+		String[] ss = ids.split(",");
+		for (String s : ss) {
+			int id = 0;
+			try {
+				id = Integer.parseInt(s);
+			} catch (Exception e) {
+				sb.append("用户标识符:'" + s +"'未能识别!</br>");
+				continue;

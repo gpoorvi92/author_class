@@ -1,0 +1,10 @@
+		try {
+			System.out.println(request.toJson());
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		//包含多个帐号的帐号增加消息，无附加属性
+		acctArray=new LinkedList<AccountEntity>();
+		for(int i=0;i<3;i++){
+			AccountEntity entity=new AccountEntity("hejing"+i,"ddddddd","");
+			acctArray.add(entity);

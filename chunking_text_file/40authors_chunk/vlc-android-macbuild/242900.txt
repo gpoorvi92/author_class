@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean shouldHide() {
+        return mShouldHide;
+    }
+
+    @Override
+    public void show() {
+        mShouldHide = false;

@@ -1,0 +1,10 @@
+
+  @Override
+  public void clear() {
+    this.why = null;
+  }
+
+  public String getWhy() {
+    return this.why;
+  }
+

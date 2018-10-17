@@ -1,0 +1,10 @@
+import com.yeshj.pacman.log.ILog;
+import com.yeshj.pacman.log.LogFactory;
+
+/**
+ * @ClassName: ExecuteContext
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月23日 下午11:34:51
+ */
+public class ExecuteContext implements Cloneable{

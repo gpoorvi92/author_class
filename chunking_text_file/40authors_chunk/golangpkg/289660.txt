@@ -1,0 +1,10 @@
+package com.am.jlfu.fileuploader.limiter;
+
+
+public class UploadProcessingConfiguration {
+
+
+	/**
+	 * The desired upload rate. <br>
+	 * Can be null (the maxmimum rate is applied).
+	 */

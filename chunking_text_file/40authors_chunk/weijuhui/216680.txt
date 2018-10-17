@@ -1,0 +1,10 @@
+	}
+	
+	@Override
+	protected void onRestart() {
+		super.onResume();
+		MobclickAgent.onResume(this);
+	}
+	
+	@Override
+	public void onPause() {

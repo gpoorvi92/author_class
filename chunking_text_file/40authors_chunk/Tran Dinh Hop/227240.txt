@@ -1,0 +1,10 @@
+     private FileOutputStream createOutputStream(String outFile) {
+             FileOutputStream out = null;
+             try {
+                 out = new FileOutputStream(outFile);
+             } catch(IOException e) {
+                 System.out.println("IOException "+e);
+                 }
+
+             return out;
+         }

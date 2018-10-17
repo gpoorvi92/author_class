@@ -1,0 +1,10 @@
+    private static final Logger       log               = LoggerFactory.getLogger(BridgeJoint.class);
+    private              ChannelGroup allInboundChanels = new DefaultChannelGroup();
+    private static final int          COMPRESS_VALUE    = 1024;
+    private static final int          COMPRESSED        = 0x01;
+    private static final int          ENCRYPTED         = 0x02;
+    @Override
+    public void diapatch(Channel channel, Fenrisulfr.TransPacket packet)
+    {
+        int channelId = packet.getChannelId();
+        Channel inbound = allInboundChanels.find(channelId);

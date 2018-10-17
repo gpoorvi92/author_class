@@ -1,0 +1,10 @@
+	public int write(String jsonReponse, Charset utf8) throws IOException {
+		CharBuffer wcb=CharBuffer.allocate(WriteCharBufferSize);
+		while(true){
+			try{
+				wcb.put(jsonReponse);
+				break;
+			}catch(BufferOverflowException ex){
+				assert(wcb.capacity()<(1<<16));
+				wcb=CharBuffer.allocate(wcb.capacity()*2);
+				continue;

@@ -1,0 +1,10 @@
+		}
+	}
+
+	/**
+	 * 心跳定时任务：定时检查与告警服务器的连接是否正常，发现连接异常后自动重新连接
+	 */
+	private class HeartbeatTask extends TimerTask {
+		// 省略其它代码
+
+		@Override

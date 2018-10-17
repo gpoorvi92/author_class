@@ -1,0 +1,10 @@
+	private String winType;
+	private int fourLinkPartZZCount;
+	private String glassType;
+	private String remark;
+	private String windowsBuyType;
+	private String ytDirection;
+	private String operation; //数据被操作的方式(create:第一次的订单提交创建,add:订单修改时添加的,update:订单修改时被更新的)
+	
+	@Column
+	public String getOperation() {

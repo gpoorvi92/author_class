@@ -1,0 +1,10 @@
+    case RULE_NO:
+      return getRuleNo();
+
+    case CATEGORY:
+      return getCategory();
+
+    case DESCRIPTION:
+      return getDescription();
+
+    case LINE_NUM:

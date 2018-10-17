@@ -1,0 +1,10 @@
+	
+	////////////////////////////////////////////////
+	//	UserData
+	////////////////////////////////////////////////
+
+	private ArgumentData getArgumentData()
+	{
+		Node node = getArgumentNode();
+		ArgumentData userData = (ArgumentData)node.getUserData();
+		if (userData == null) {

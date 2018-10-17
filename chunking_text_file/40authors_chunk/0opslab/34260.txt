@@ -1,0 +1,10 @@
+
+    /**
+     * 将十六进制字符串转为二进制字符串
+     *
+     * @param hexStr 十六进制字符串
+     */
+    public final static String hexStringtoBinarg(String hexStr) {
+        hexStr = hexStr.replaceAll("\\s", "").replaceAll("0x", "");
+        char[] achar = hexStr.toCharArray();
+        String result = "";

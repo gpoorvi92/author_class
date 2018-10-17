@@ -1,0 +1,10 @@
+public class LoginResponse extends Response implements JsonConvert{
+	private String token;
+
+	public LoginResponse() {
+		super();
+	}
+
+	public LoginResponse(int result,String token) {
+		super.result=result;
+		this.token=token;

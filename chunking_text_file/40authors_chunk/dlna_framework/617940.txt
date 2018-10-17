@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public SOAPResponse postMessage(String host, int port)
+	{
+		HTTPResponse httpRes = post(host, port);
+		
+		 SOAPResponse soapRes = new SOAPResponse(httpRes);
+
+		byte content[] = soapRes.getContent();
+		if (content.length <= 0)

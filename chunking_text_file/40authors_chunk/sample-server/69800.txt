@@ -1,0 +1,10 @@
+            
+            if (null != response)
+            {
+                channel.write(response);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+    }

@@ -1,0 +1,10 @@
+	/**
+	 * (non Javadoc) TODO
+	 * 
+	 * @Title: stop
+	 * @see com.yeshj.pacman.schedule.IWorker#stop()
+	 */
+	@Override
+	public void stop() {
+
+		signalStop.set(true);

@@ -1,0 +1,10 @@
+	@Override
+	public UUID getIdentifier(HttpServletRequest req, HttpServletResponse resp) {
+
+		// get from session
+		UUID uuid = (UUID) req.getSession().getAttribute(cookieIdentifier);
+
+		// if nothing in session
+		if (uuid == null) {
+
+			// check in cookie

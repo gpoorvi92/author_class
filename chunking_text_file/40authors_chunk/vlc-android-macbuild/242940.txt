@@ -1,0 +1,10 @@
+        mHandler.removeCallbacks(mReadyToHide);
+        mHandler.postDelayed(mReadyToHide, 5000);
+
+        SystemUIHelper.showNavigation(activity);
+    }
+
+    @Override
+    public void hide() {
+        mShouldHide = true;
+

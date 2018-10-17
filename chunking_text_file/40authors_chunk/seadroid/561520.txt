@@ -1,0 +1,10 @@
+    public void clear() {
+        mFiles.clear();
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    public void setListItems(List<SelectableFile> files) {

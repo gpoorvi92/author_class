@@ -1,0 +1,10 @@
+          }
+        };
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, updateUserAppInfo_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.updateUserAppInfo(args.missionId, args.userAppId, args.plotsStatus, args.usedPermissions, args.stcRD, args.dycRD, args.virRD,resultHandler);

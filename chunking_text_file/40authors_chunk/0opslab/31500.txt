@@ -1,0 +1,10 @@
+  /**
+   * <p>
+   * This method allows to detect the charset encoding from every source (even a
+   * String, which an URL does not decorate!).
+   * </p>
+   * <p>
+   * Note that you cannot reuse the given InputStream unless it supports marking ({@link InputStream#markSupported()} ==
+   * true), you mark the initial position with a sufficient readlimit and invoke
+   * reset afterwards (without getting any exception).
+   * </p>

@@ -1,0 +1,10 @@
+        button.setToolTipText("Update");
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	String a = patron_text.getText();
+            	String b = name_text.getText();
+            	String c = passport_text.getText();
+            	String d = expiry_date_text.getText();
+            	String g = reg_by_text.getText();
+            	String  l = reg_date_text.getText();
+            	String h = textArea.getText();

@@ -1,0 +1,10 @@
+    }
+
+    private static class ruleSync_argsTupleScheme extends TupleScheme<ruleSync_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, ruleSync_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        {
+          oprot.writeI32(struct.rules.size());
+          for (com.nercis.isscp.idl.rules.Rules _iter68 : struct.rules)

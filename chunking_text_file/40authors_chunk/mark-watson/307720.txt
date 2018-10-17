@@ -1,0 +1,10 @@
+    static float[] in1 = {FALSE, FALSE};
+    static float[] in2 = {FALSE, TRUE};
+    static float[] in3 = {TRUE, FALSE};
+    static float[] in4 = {TRUE, TRUE};
+
+    static float[] out1 = {FALSE};
+    static float[] out2 = {TRUE};
+    static float[] out3 = {TRUE};
+    static float[] out4 = {FALSE};
+

@@ -1,0 +1,10 @@
+
+    public InlineQueryResultVenue thumbUrl(String thumbUrl) {
+        this.thumb_url = thumbUrl;
+        return this;
+    }
+
+    public InlineQueryResultVenue thumbWidth(Integer thumbWidth) {
+        this.thumb_width = thumbWidth;
+        return this;
+    }

@@ -1,0 +1,10 @@
+                              pane, GroupLayout.Alignment.TRAILING).addGroup(
+                              layout.createSequentialGroup().addGroup(
+                                    layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                          .addComponent(face).addComponent(faceLabel))
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(
+                                          layout.createParallelGroup(
+                                                GroupLayout.Alignment.BASELINE).addComponent(size)
+                                                .addComponent(sizeLabel)).addPreferredGap(
+                                          LayoutStyle.ComponentPlacement.RELATED).addComponent(

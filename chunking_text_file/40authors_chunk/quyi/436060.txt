@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_sensitive = true && this.isSetSensitive();
+    boolean that_present_sensitive = true && that.isSetSensitive();
+    if (this_present_sensitive || that_present_sensitive) {
+      if (!(this_present_sensitive && that_present_sensitive))
+        return false;
+      if (!this.sensitive.equals(that.sensitive))
+        return false;
+    }

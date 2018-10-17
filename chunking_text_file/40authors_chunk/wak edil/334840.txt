@@ -1,0 +1,10 @@
+
+	while(true)
+	{
+		tableNo = isFromClient.readInt();
+		receipt = isFromClient.readUTF();
+		
+		jta.append("Table no "+tableNo+" :\n");
+		jta.append("**************************************************************\n");
+		jta.append(receipt);
+		jta.append("\n**************************************************************\n");

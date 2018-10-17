@@ -1,0 +1,10 @@
+		return value.equals("\"" + ROOT_DEVICE + "\"");
+	}
+
+	public final static boolean isUUIDDevice(String value)
+	{
+		if (value == null)
+			return false;
+		if (value.startsWith(UUID_DEVICE) == true)
+			return true;
+		return value.startsWith("\"" + UUID_DEVICE);

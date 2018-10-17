@@ -1,0 +1,10 @@
+	Message getMessage() throws MQException;
+	
+	/**
+	 * Gets the message inside queue or topic immediately with timeout.
+	 * 
+	 * @param milliseconds
+	 * @return
+	 * @throws MQException
+	 */
+	Message getMessage(int milliseconds) throws MQException;

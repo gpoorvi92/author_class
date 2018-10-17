@@ -1,0 +1,10 @@
+        {
+            if ((each.getMark() & limits) != 0)
+            {
+                ret.add(each);
+            }
+        }
+        return ret;
+    }
+    public void addLimit(Limit limit)
+    {

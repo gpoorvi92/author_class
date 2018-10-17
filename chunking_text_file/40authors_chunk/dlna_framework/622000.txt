@@ -1,0 +1,10 @@
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return new byte[0];
+		}
+	}
+
+	public final static byte[] load(FileInputStream fin)
+	{
+		byte readBuf[] = new byte[512*1024];

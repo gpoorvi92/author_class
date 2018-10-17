@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetCheckTime();
+      } else {
+        setCheckTime((String)value);
+      }
+      break;
+
+    case DEVICE_TYPE:
+      if (value == null) {
+        unsetDeviceType();

@@ -1,0 +1,10 @@
+	}
+	public void setGlassYtCount(int glassYtCount) {
+		this.glassYtCount = glassYtCount;
+	}
+	public double getGbLength() {
+		return gbLength;
+	}
+	public void setGbLength(double gbLength) {
+		this.gbLength = gbLength;
+	}

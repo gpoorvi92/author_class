@@ -1,0 +1,10 @@
+        schemeField = iprot.readFieldBegin();
+        if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+          break;
+        }
+        switch (schemeField.id) {
+          case 1: // APP_ID
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.app_id = iprot.readString();
+              struct.setApp_idIsSet(true);
+            } else { 

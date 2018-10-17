@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import java.util.*;
+
+public class about extends JFrame implements ActionListener
+{
+	private JTextArea jtaIntro2=new JTextArea("\n\t\tWak Lue Bistro Restaurent"+"\n\t\t(A SUBSIDARY OF WAK & CO. SDN BHD)\n");
+											 

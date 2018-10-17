@@ -1,0 +1,10 @@
+
+		AbstractCommonData acd = dataSource.get(position);
+		String direction = acd.getStringValue("type");
+		String sendStateFlag = acd.getStringValue("send_state");
+		if (holder.sendState != null && holder.sendFinishState != null) {
+			if (sendStateFlag != null) { // send_state 0:发送成功 1:发送失败 2:正在发送
+				// 3:上传成功并未发送
+				holder.sendState.setVisibility(View.GONE);
+				holder.sendFinishState.setVisibility(View.VISIBLE);
+				if ("0".equals(sendStateFlag)) {

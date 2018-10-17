@@ -1,0 +1,10 @@
+	public void unregisterAllListeners() {
+		synchronized (propagateTo) {
+			propagateTo.clear();
+		}
+	}
+
+
+	/**
+	 * @return the propagator.
+	 */

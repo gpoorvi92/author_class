@@ -1,0 +1,10 @@
+    // Methods
+    public void    beginTrans() throws JposException;
+    public void    claimFile(int hTotalsFile, int timeout)
+                       throws JposException;
+    public void    commitTrans() throws JposException;
+    public void    create(String fileName, int[] hTotalsFile, int size,
+                       boolean errorDetection) throws JposException;
+    public void    delete(String fileName) throws JposException;
+    public void    find(String fileName, int[] hTotalsFile, int[] size)
+                       throws JposException;

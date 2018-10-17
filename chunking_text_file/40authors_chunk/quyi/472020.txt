@@ -1,0 +1,10 @@
+    public void heart(NodeHeat nodeHeat, long timestamp, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      heart_call method_call = new heart_call(nodeHeat, timestamp, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class heart_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private NodeHeat nodeHeat;
+      private long timestamp;

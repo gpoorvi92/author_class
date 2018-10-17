@@ -1,0 +1,10 @@
+        思路：
+            获取屏幕的宽和高
+            获取窗体的宽和高
+        */
+        //获取工具类
+        Toolkit took = Toolkit.getDefaultToolkit();
+        
+        //获取屏幕的宽和高
+        Dimension screen = took.getScreenSize();
+        

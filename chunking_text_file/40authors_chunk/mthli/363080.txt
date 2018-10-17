@@ -1,0 +1,10 @@
+{
+   private Map<String, Product> products;
+   private Warehouse backup;
+
+   /**
+    * Constructs a warehouse implementation.
+    */
+   public WarehouseImpl(Warehouse backup) throws RemoteException
+   {
+      products = new HashMap<>();

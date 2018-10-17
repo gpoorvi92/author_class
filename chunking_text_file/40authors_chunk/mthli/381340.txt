@@ -1,0 +1,10 @@
+      @return this object for further modification
+   */
+   public GBC setInsets(int top, int left, int bottom, int right) 
+   { 
+      this.insets = new Insets(top, left, bottom, right);
+      return this;
+   }
+
+   /**
+      Sets the internal padding

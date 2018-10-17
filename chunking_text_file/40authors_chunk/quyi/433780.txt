@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_rss = true;
+    boolean that_present_rss = true;
+    if (this_present_rss || that_present_rss) {
+      if (!(this_present_rss && that_present_rss))
+        return false;
+      if (this.rss != that.rss)
+        return false;
+    }

@@ -1,0 +1,10 @@
+import jpos.loader.*;
+
+/**
+ * Simple application to printout the current values from the JposProperties 
+ * implementing class
+ * @since 1.2 (NY 2K 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class JposPropertiesViewer extends Object
+{

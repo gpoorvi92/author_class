@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.startup;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.yeshj.pacman.config.AppConfig;

@@ -1,0 +1,10 @@
+            return;
+
+        getMethodNames(new Throwable().getStackTrace());
+        Log.w(className, createLog(message));
+    }
+
+    public static void wtf(String message) {
+        if (!isDebuggable())
+            return;
+

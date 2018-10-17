@@ -1,0 +1,10 @@
+
+    case REQUEST_PURVIEWS:
+      if (value == null) {
+        unsetRequestPurviews();
+      } else {
+        setRequestPurviews((List<com.nercis.isscp.idl.permission.Permissions>)value);
+      }
+      break;
+
+    case FORMAT:

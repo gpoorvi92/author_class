@@ -1,0 +1,10 @@
+		}
+		Bxg bxg = ob.getBxg();
+		bxg.setBuycount(bxg.getBuycount()+1);//被购买次数加1
+		bxgService.modify(bxg);
+		int result = orderBxgDao.insert(ob);
+		if(result > 0)
+			return true;
+		return false;
+	}
+

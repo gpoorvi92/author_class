@@ -1,0 +1,10 @@
+						(research.researchProject==0?"战车":"箭垛")
+						+"已经完成，可以在城池管理中查看或划拨给所需要的城池。";								
+						PlainAlert pa = new PlainAlert(gv, alertMessage, GameView.dialogBack,GameView.dialogButton);
+						hero.father.setCurrentGameAlert(pa);
+					}
+				}
+				if(completedResearch != null){//删除完成的项目
+					hero.researchList.remove(completedResearch);
+				}
+			}

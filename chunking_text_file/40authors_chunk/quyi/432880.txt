@@ -1,0 +1,10 @@
+  public String threadName; // required
+  public String checkTime; // required
+  public int cpu; // required
+  public int rss; // required
+  public int vss; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    PROCESS_NAME((short)1, "processName"),
+    THREAD_NAME((short)2, "threadName"),

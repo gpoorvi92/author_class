@@ -1,0 +1,10 @@
+	@Override
+	public WeChatUserInfo update(WeChatUserInfo info) {
+		if(info != null){
+			boolean isAdded = false;
+			WeChatUser data = this.weChatUserDao.load(WeChatUser.class, info);
+			if(isAdded = (data == null)){
+				data = new WeChatUser();
+			}
+			BeanUtils.copyProperties(info, data);
+			if(info.getAccountId() != null && (data.getAccount() == null || !data.getAccount().getId().equalsIgnoreCase(info.getAccountId()))){

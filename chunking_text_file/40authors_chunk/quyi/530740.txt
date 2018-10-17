@@ -1,0 +1,10 @@
+    } else {
+      sb.append(this.notify_callback_url);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("app_description:");
+    if (this.app_description == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.app_description);

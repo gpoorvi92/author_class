@@ -1,0 +1,10 @@
+			layoutId = R.layout.chat_voice_item;
+			break;
+		case 4:
+			layoutId = R.layout.chat_location_item;
+			break;
+		case 5:
+			layoutId = R.layout.chat_list_item;
+			break;
+		case 6:
+			layoutId = R.layout.chat_form_item;

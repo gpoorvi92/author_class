@@ -1,0 +1,10 @@
+		}
+
+	}
+
+	public void signal() throws InterruptedException {
+		lock.lockInterruptibly();
+		try {
+			condition.signal();
+
+		} finally {

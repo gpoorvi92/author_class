@@ -1,0 +1,10 @@
+         InputStream data = new ByteArrayInputStream(out.toByteArray());
+         FileSaveService service = (FileSaveService) ServiceManager
+               .lookup("javax.jnlp.FileSaveService");
+         service.saveFileDialog(".", new String[] { "txt" }, data, "calc.txt");
+      }
+      catch (UnavailableServiceException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+      catch (IOException e)

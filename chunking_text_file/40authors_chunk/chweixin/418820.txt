@@ -1,0 +1,10 @@
+	 * 菜单文件。
+	 * @return 系统集合。
+	 * */
+	private synchronized ModuleSystemCollection parse(String menuFilePath) throws SAXException, IOException, ParserConfigurationException{
+		if(menuFilePath == null || menuFilePath.trim().isEmpty()) return null;
+		String key = MD5Util.MD5(menuFilePath);
+		ModuleSystemCollection collection = mapSystemCollectionCache.get(key);
+		if(collection == null || collection.size() == 0){
+			Resource rs = new ClassPathResource(menuFilePath,ClassUtils.getDefaultClassLoader());
+			if(rs != null){

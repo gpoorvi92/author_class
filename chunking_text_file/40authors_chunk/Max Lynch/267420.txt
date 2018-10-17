@@ -1,0 +1,10 @@
+		addKeyListener(this);
+
+	}
+
+
+
+		
+	public void keyPressed(KeyEvent e) {
+		System.out.println("Pressed");
+	}

@@ -1,0 +1,10 @@
+	int currentI = 0;//当前绘制的屏幕最上边的元素下标
+	int selectI = 0;//当前的选中
+	
+	int startY = 120;
+	int startX = 15;
+	
+	ArrayList<General> totalGeneral;
+	String[][] items;//需要列出的武将
+	
+	static Bitmap menuTitle;//表格的标题背景

@@ -1,0 +1,10 @@
+		label1=new JLabel("Name");
+		label2=new JLabel("Category");
+		username=new JLabel("Username");
+		password=new JLabel("Password");
+		confirm=new JLabel("Re-enter Password");
+		pass1=new JPasswordField();
+		pass2=new JPasswordField();
+		txtusername=new JTextField();
+		name=new JTextField();
+    	combo1=new JComboBox();

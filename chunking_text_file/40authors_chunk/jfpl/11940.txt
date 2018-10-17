@@ -1,0 +1,10 @@
+import android.widget.TextView;
+
+public class RightMenuDialog extends Dialog {
+
+	private Context ctx;
+	private Window window;
+	private int height = 0;
+	private int itemHeight;
+
+	private LinearLayout menuLayout;

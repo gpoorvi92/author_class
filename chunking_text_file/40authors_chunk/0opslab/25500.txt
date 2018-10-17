@@ -1,0 +1,10 @@
+        assertEquals("路径计算错误", FilePathUtil.commandPath("c:\\home\\scott"), "c:/home/scott");
+        assertEquals("路径计算错误", FilePathUtil.commandPath("c:\\\\\\home\\scott"), "c:/home/scott");
+    }
+
+
+    @org.junit.Test
+    public void testGetParentPath() throws Exception {
+
+    }
+

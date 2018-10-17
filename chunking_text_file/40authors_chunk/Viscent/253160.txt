@@ -1,0 +1,10 @@
+			@Override
+			public void printLogs(Logger logger) {
+				final int internalDelay = genInternalDelay();
+				LogEntry entry = new LogEntry();
+				long timeStamp = nextRequestTimestamp();
+				entry.timeStamp = timeStamp;
+				entry.recordType = "request";
+
+				entry.interfaceType = "SOAP";
+				entry.interfaceName = "SMS";

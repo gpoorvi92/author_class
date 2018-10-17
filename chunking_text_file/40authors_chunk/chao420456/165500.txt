@@ -1,0 +1,10 @@
+						serverThread.messages.addElement(Message);
+					}
+				}
+				if(Message.contains("@exit")){
+					this.clientSocket.close();
+					flag_exit = false;
+				}
+			} catch (IOException e) {}
+		}
+	}

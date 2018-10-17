@@ -1,0 +1,10 @@
+ * @date: 2014年12月19日 上午10:40:02
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms.test;
+
+import com.yeshj.pacman.annotation.Transmit;
+
+/**
+ * TODO
+ * @Class: MockModel

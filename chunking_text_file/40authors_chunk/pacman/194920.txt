@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月2日 上午3:11:30
+ */
+public class FeedbackMessage extends BaseMessage {
+
+	@Transmit(key = "success")
+	private boolean success = false;
+	
+	@Transmit(key = "msg")

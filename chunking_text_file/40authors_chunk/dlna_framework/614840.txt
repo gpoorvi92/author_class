@@ -1,0 +1,10 @@
+		setLocalAddress(bindAddr);
+		
+		return true;
+	}
+
+	public boolean open(int bindPort)
+	{
+		close();
+		
+		try {

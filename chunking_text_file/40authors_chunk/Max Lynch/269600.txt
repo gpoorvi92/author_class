@@ -1,0 +1,10 @@
+		{
+			
+			current = new Point(m_x, m_y);
+		
+			s_w = current.x - down.x;
+			s_h = current.y - down.y;
+			
+			selectionRectangle = new Rectangle(down.x, down.y, s_w, s_h);
+			
+			

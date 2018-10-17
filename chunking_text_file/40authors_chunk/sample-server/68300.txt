@@ -1,0 +1,10 @@
+ */
+public class RpcConnectionPool extends GenericObjectPool<BaseRpcConnection>
+{
+    private static final Logger log = LoggerFactory.getLogger(RpcConnectionPool.class);
+    public RpcConnectionPool(final String host, final int port, final int timeout)
+    {
+        super(new RpcConnectionFactory(host, port, timeout), new Config());
+    }
+    public RpcConnectionPool(final String host, final int port, final int timeout, final Config poolConfig)
+    {

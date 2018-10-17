@@ -1,0 +1,10 @@
+							if (file.indexOf(".ashx") < 0
+								&& file.indexOf("pic_title_") < 0 //排除掉pic_title_xzt.png pic_title_tkt.png ... 阿辉
+								&& !info.getAllFiles().contains(file)) {
+								info.addFile(file);
+							}
+							attribute.setValue(trimToBareName(file));
+						}
+					}
+					
+					Element urlNode = subnode.element("url");

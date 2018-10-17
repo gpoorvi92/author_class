@@ -1,0 +1,10 @@
+
+    /// public abstract void com.apple.eawt.AppForegroundListener.appMovedToBackground(com.apple.eawt.AppEvent$AppForegroundEvent)
+
+    public native void __appMovedToBackground( com.apple.eawt.AppEvent.AppForegroundEvent arg0 );
+
+    public void appMovedToBackground( com.apple.eawt.AppEvent.AppForegroundEvent arg0 ) {
+        __appMovedToBackground( arg0 );
+    }
+
+}

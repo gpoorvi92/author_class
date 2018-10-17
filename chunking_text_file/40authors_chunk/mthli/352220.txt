@@ -1,0 +1,10 @@
+      if (support.isDataFlavorSupported(DataFlavor.javaFileListFlavor))
+      {
+         if (support.getUserDropAction() == MOVE) support.setDropAction(COPY);
+         return true;
+      }
+      else return support.isDataFlavorSupported(DataFlavor.imageFlavor);
+   }
+
+   public boolean importData(TransferSupport support)
+   {

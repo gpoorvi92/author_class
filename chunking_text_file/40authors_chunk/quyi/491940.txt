@@ -1,0 +1,10 @@
+      StringBuilder sb = new StringBuilder("heart_args(");
+      boolean first = true;
+
+      sb.append("nodeHeat:");
+      if (this.nodeHeat == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.nodeHeat);
+      }
+      first = false;

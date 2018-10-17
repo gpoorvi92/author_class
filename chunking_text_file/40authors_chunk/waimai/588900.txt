@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Created by snow on 2014/4/29.
+ */
+@Controller
+@RequestMapping("/user/goodsType")
+public class UGoodsTypeController extends BaseController {

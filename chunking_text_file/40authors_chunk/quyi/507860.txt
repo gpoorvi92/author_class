@@ -1,0 +1,10 @@
+      return getMissionId();
+
+    case USER_APP_ID:
+      return getUserAppId();
+
+    case USED_PERMISSIONS:
+      return getUsedPermissions();
+
+    case PLOTS_STATUS:
+      return getPlotsStatus();

@@ -1,0 +1,10 @@
+        return new submitMission_resultTupleScheme();
+      }
+    }
+
+    private static class submitMission_resultTupleScheme extends TupleScheme<submitMission_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, submitMission_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();

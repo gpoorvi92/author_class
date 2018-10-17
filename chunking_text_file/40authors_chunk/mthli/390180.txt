@@ -1,0 +1,10 @@
+         urlString = "http://www.w3c.org";
+         System.out.println("Using " + urlString);
+      }
+      else urlString = args[0];
+      URL url = new URL(urlString);
+      InputStream in = url.openStream();
+      XMLInputFactory factory = XMLInputFactory.newInstance();
+      XMLStreamReader parser = factory.createXMLStreamReader(in);
+      while (parser.hasNext())
+      {

@@ -1,0 +1,10 @@
+	public void setDescriptionFile(File descriptionFile) {
+		this.descriptionFile = descriptionFile;
+	}
+
+	public void setDescriptionURI(String descriptionURI) {
+		this.descriptionURI = descriptionURI;
+	}
+
+	////////////////////////////////////////////////
+	// description

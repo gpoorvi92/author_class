@@ -1,0 +1,10 @@
+    {
+        return context.getBean(beanName);
+    }
+    public static String getMessage(String key, Locale locale)
+    {
+        return getMessage(key, "", locale);
+    }
+    public static String getMessage(String key, String def, Locale locale)
+    {
+        if (null == def)

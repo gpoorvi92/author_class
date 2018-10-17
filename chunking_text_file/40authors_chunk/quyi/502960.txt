@@ -1,0 +1,10 @@
+//				e.printStackTrace();
+//			}
+//			transport.close();
+//			long time = System.currentTimeMillis();
+		return time;
+	}
+
+	private static void issueSingleMessage(Session session, MessageProducer producer, String missionid, String userAppId, String appPath,
+			String appName, String appMd5, String appSize) throws JMSException {
+		ObjectMessage message = session.createObjectMessage();

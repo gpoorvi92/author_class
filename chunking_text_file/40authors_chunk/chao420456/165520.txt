@@ -1,0 +1,10 @@
+
+	public void closeClienthread(ClientThread clientThread) {
+		if(clientThread.clientSocket != null){
+			try {
+				clientThread.clientSocket.close();
+			} catch (IOException e) {
+				System.out.println("server's clientSocket is null");
+			}
+		}
+		

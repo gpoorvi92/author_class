@@ -1,0 +1,10 @@
+	}
+	
+	/**
+	 * time-on when step ready to run
+	 */
+	public void timeOn() {
+		
+		lastExecuteTime = 0;
+		executeTimer.set(System.nanoTime());
+	}

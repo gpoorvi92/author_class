@@ -1,0 +1,10 @@
+			 				textArea.setText("");
+			 				tel_text.setText("");
+			 				fax_text.setText("");
+			 				email_text.setText("");	
+		 				}
+		 				else {
+		 				JOptionPane.showMessageDialog(null, "Insertion Failed");
+							patron_text.setText("P-");
+			            	name_text.setText("");
+			 				passport_text.setText("");

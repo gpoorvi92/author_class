@@ -1,0 +1,10 @@
+ */
+public class TransactionUtil {
+    /**
+     * transaction between Activities
+     *
+     * @param activity
+     * @param transaction
+     */
+    public static void doAnimationWith(Activity activity, Transaction transaction) {
+        switch (transaction) {

@@ -1,0 +1,10 @@
+                    break;
+                default:
+                    log.warn("unknow opcode:{}", opcode);
+                    break;
+            }
+            
+            Fenrisulfr.TransPacket response = null;
+            if (null != result)
+            {
+                if (result instanceof NullResult)

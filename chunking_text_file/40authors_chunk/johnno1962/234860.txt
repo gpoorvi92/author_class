@@ -1,0 +1,10 @@
+
+    public native void __resizeFrame( javax.swing.JComponent f, int newX, int newY, int newWidth, int newHeight );
+
+    public void resizeFrame( javax.swing.JComponent f, int newX, int newY, int newWidth, int newHeight ) {
+        __resizeFrame( f, newX, newY, newWidth, newHeight );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.endResizingFrame(javax.swing.JComponent)
+
+    public native void __endResizingFrame( javax.swing.JComponent f );

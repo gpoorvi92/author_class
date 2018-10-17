@@ -1,0 +1,10 @@
+	 * bson解析性能测试
+	 * @throws JsonGenerationException
+	 * @throws JsonMappingException
+	 * @throws IOException
+	 */
+	@Test
+	public void testBson() throws JsonGenerationException, JsonMappingException, IOException{
+		BsonFactory fac=new BsonFactory();
+		fac.enable(BsonGenerator.Feature.ENABLE_STREAMING);
+		ObjectMapper mapper=new ObjectMapper(fac);

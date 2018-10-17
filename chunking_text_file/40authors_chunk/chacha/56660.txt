@@ -1,0 +1,10 @@
+	 * –ﬁ∏ƒ¡Ó≈∆
+	 * @param entity
+	 */
+	public void updateToken(LoginToken entity) {
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);
+		coll.setWriteConcern(WriteConcern.NONE);
+		QueryBuilder Query = QueryBuilder.start();
+		DBObject object = Query.put("userName").is(entity.getUserName()).get();
+		coll.update(object, entity.toDbObject());		
+	}

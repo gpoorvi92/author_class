@@ -1,0 +1,10 @@
+                    for (int i = 0; i < 100000000; i++) {
+                        Math.random();
+                    }
+                    System.out.println("a run end " + System.currentTimeMillis());
+                }
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }

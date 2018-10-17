@@ -1,0 +1,10 @@
+        List<OrderDetail> orderDetails = orderService.search(vo);
+        map.put("count", orderDetails.size());
+        map.put("orderDetails", orderDetails);
+        return map;
+    }
+
+    @RequestMapping("/confirmAndRemark")
+    public @ResponseBody Map<String, Object> confirm(Remark remark, Integer orderId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        try {

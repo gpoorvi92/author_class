@@ -1,0 +1,10 @@
+    protected File[] filterDirectoryContents(File directory, int depth, File files[])
+        throws IOException
+    {
+        return files;
+    }
+
+    protected void handleFile(File file1, int i, Collection collection)
+        throws IOException
+    {
+    }

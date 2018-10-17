@@ -1,0 +1,10 @@
+   public boolean isPaintable()
+   {
+      return true;
+   }
+
+   public String getAsText()
+   {
+      return null;
+   }
+

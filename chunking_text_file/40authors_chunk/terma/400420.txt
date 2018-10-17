@@ -1,0 +1,10 @@
+ * Only one worker processes accept for incoming client connection, after
+ * that this worker uses @{link TcpServerHandlerFactory} for create
+ * handler @{link TcpServerHandler} and add it to not started handlers queue. All workers
+ * have access to this queue.
+ *
+ * Worker has next lifecycle: try to get one not started handler from queue
+ * if it exists register it, then wait on selector with timeout, get IO events
+ * for each event get attached handler from key and process it.
+ * After that worker returns to step with queue.
+ *

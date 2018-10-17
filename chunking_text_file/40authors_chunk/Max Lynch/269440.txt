@@ -1,0 +1,10 @@
+	public void setBackground(Color color)
+	{
+		if(paint != null)
+			paint = null;
+		super.setBackground(color);
+		repaint();
+	}
+	
+	public void setSelected(ShapeLayer selected)
+	{

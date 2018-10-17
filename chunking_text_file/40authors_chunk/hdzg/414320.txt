@@ -1,0 +1,10 @@
+			status=3; //拜访失败
+		}
+		else{
+			boolean isUnderConstruction = false;
+			if(tempHero.researchList.size() != 0){
+				for(Research research:tempHero.researchList){
+					if(research.researchProject == 1){//如果目前正在建造箭垛，0是战车，1是箭垛
+						isUnderConstruction = true;
+						break;
+					}

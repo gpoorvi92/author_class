@@ -1,0 +1,10 @@
+      g2.fill(new Rectangle2D.Double(0, 0, clientWidth, clientHeight));
+      g2.setPaint(Color.black);
+
+      Font titleFont = new Font("SansSerif", Font.BOLD, 20);
+      FontRenderContext context = g2.getFontRenderContext();
+      Rectangle2D titleBounds = titleFont.getStringBounds(title, context);
+
+      double titleWidth = titleBounds.getWidth();
+      double y = -titleBounds.getY();
+      double x = 0;

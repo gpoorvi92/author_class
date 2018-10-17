@@ -1,0 +1,10 @@
+         *     因为swap内部交换的是其拷贝过来的临时的对象，
+         *     而不是实际的对象
+         */
+        System.out.println("\nTesting swap:");
+        Employee a = new Employee("Alice", 70000);
+        Employee b = new Employee("Bob", 60000);
+        System.out.println("Before: a = " + a.getName());
+        System.out.println("Before: b = " + b.getName());
+        swap(a, b);
+        System.out.println("After: a = " + a.getName());

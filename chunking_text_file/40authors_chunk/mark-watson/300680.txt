@@ -1,0 +1,10 @@
+     * @return a List<String> of parsed tokens
+     */
+    static public List<String> wordsToList(String s2) {
+        return wordsToList(s2, s2.length() + 1);
+    }
+
+    /**
+     * utility to tokenize an input string into an Array of Strings - with a maximum # of returned words
+     * @param s2 string containing words to tokenize
+     * @param maxR maximum number of tokens to return

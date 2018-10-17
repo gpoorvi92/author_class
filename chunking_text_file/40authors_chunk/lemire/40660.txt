@@ -1,0 +1,10 @@
+        } else {
+            moveToNextRLW();
+        }
+    }
+
+    private int runningOffset() {
+        return this.runningLength - this.position;
+    }
+
+    private void movePosition(int offset) {

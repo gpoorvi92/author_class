@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.DocumentListener ///
+
+package org.genie.javax_swing;
+
+public class DocumentListenerProxy implements javax.swing.event.DocumentListener {
+
+    long swiftObject;
+
+    DocumentListenerProxy( long swiftObject ) {

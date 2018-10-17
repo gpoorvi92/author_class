@@ -1,0 +1,10 @@
+        if (struct.isSetDycRD()) {
+          optionals.set(2);
+        }
+        if (struct.isSetVirRD()) {
+          optionals.set(3);
+        }
+        oprot.writeBitSet(optionals, 4);
+        if (struct.isSetUsedPermissions()) {
+          {
+            oprot.writeI32(struct.usedPermissions.size());

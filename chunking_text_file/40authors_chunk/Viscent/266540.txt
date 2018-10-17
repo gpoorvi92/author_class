@@ -1,0 +1,9 @@
+	@Override
+	protected void doCleanup(Exception exp) {
+		if (null != exp && !(exp instanceof InterruptedException)) {
+			exp.printStackTrace();
+		}
+		alarmAgent.disconnect();
+	}
+
+}

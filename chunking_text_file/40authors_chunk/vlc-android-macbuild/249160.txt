@@ -1,0 +1,10 @@
+        mIsVslIndex = false;
+
+        String pseduoAccess = mMrl.getPseudoAccess();
+        if (TextUtils.isEmpty(pseduoAccess))
+            return false;
+
+        if (pseduoAccess.equalsIgnoreCase(ACCESS_SINA)) {
+            mVlcIndexAccess = ACCESS_SINA_INDEX;
+            mVlcSegmentAccess = ACCESS_SINA_SEGMENT;
+        } else if (pseduoAccess.equalsIgnoreCase(ACCESS_YOUKU)) {

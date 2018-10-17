@@ -1,0 +1,10 @@
+        } catch (Exception e) {
+
+        }
+    }
+
+    @Override
+    public void onDirectoryChange(File directory) {
+        Log.v(DEBUG_TAG, directory.getPath() + " was modified!");
+    }
+

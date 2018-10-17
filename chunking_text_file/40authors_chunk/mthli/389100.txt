@@ -1,0 +1,10 @@
+package composite;
+
+import java.awt.*;
+
+/**
+ * This class describes a Porter-Duff rule.
+ */
+class Rule
+{
+   private String name;

@@ -1,0 +1,10 @@
+  }
+
+  public List<PlotsType> getPlots() {
+    return this.plots;
+  }
+
+  public AppSendMessage setPlots(List<PlotsType> plots) {
+    this.plots = plots;
+    return this;
+  }

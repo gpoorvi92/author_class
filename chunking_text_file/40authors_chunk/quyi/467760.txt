@@ -1,0 +1,10 @@
+  public Rules setPak(String pak) {
+    this.pak = pak;
+    return this;
+  }
+
+  public void unsetPak() {
+    this.pak = null;
+  }
+
+  /** Returns true if field pak is set (has been assigned a value) and false otherwise */

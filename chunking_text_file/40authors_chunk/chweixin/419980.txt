@@ -1,0 +1,10 @@
+	 * 设置多条图文消息信息，默认第一个item为大图；
+	 * 注意：如果图文数超过10个，则将会无响应。
+	 * @param articles
+	 * 多条图文消息信息。
+	 * */
+	public void setArticles(List<Article> articles) {
+		 if(articles == null || articles.size() == 0)return;
+		 this.setArticleCount(articles.size() > MAX_COUNT ? MAX_COUNT : articles.size());
+		 if(articles.size() > MAX_COUNT){
+			List<Article> dest = new ArrayList<>();

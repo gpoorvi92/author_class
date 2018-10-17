@@ -1,0 +1,10 @@
+        List<String> lines = FileUtil.lines(file);
+        Map<String,String> group = new HashMap<String,String>();
+        for(String line:lines){
+            String[] tt= line.split("/");
+            if(group.get(tt[2]) != null){
+                String value =group.get(tt[2]);
+                int count = 0;
+                int sum = 0;
+                if(value != null && !"".equals(value)){
+                    String[] ss = value.split(":");

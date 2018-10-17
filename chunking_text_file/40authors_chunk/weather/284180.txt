@@ -1,0 +1,4 @@
+        return VALUES[position] + weight * (VALUES[position + 1] - VALUES[position]);
+    }
+
+}

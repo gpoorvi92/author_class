@@ -1,0 +1,10 @@
+		@Override
+		public boolean onJsAlert(WebView view, String url, String message,
+				final JsResult result) {
+			AlertDialog.Builder dlg = new AlertDialog.Builder(
+					WebViewActivity.this);
+			dlg.setMessage(message);
+			dlg.setTitle("Alert");
+			dlg.setCancelable(false);
+			dlg.setPositiveButton(android.R.string.ok,
+					new AlertDialog.OnClickListener() {

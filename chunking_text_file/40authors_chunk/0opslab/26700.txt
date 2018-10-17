@@ -1,0 +1,10 @@
+ * for ASCII: almost all character sets define the ASCII range (compatibility).
+ * Therefore this is a good fall-back.
+ * </p>
+ * <p>
+ * It is a singleton for performance-reasons: The constructor is private. Use
+ * {@link #getInstance()}or <code>
+ * {@link info.monitorenter.cpdetector.reflect.SingletonLoader#getInstance()}
+ * and
+ * {@link info.monitorenter.cpdetector.reflect.SingletonLoader#newInstance(String)}
+ * on the result.

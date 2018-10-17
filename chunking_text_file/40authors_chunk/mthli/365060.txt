@@ -1,0 +1,10 @@
+    * Adds an "entering" call to the beginning of a method.
+    * @param m the method
+    * @param loggerName the name of the logger to call
+    */
+   private Method insertLogEntry(Method m, String loggerName)
+   {
+      MethodGen mg = new MethodGen(m, cg.getClassName(), cpg);
+      String className = cg.getClassName();
+      String methodName = mg.getMethod().getName();
+      System.out.printf("Adding logging instructions to %s.%s%n", className, methodName);

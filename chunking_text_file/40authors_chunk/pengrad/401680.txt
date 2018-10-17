@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot;
+
+import com.pengrad.telegrambot.model.ChatMember;
+import com.pengrad.telegrambot.model.InlineQuery;
+import com.pengrad.telegrambot.model.Message;
+import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.request.*;
+import com.pengrad.telegrambot.request.*;
+import com.pengrad.telegrambot.response.*;
+import org.junit.Test;

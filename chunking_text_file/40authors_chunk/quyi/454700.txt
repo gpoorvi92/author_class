@@ -1,0 +1,10 @@
+      switch (field) {
+      case ENGINE:
+        if (value == null) {
+          unsetEngine();
+        } else {
+          setEngine((Engine)value);
+        }
+        break;
+
+      case OPERATE:

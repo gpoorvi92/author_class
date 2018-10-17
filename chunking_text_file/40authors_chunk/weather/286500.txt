@@ -1,0 +1,10 @@
+
+    private static File getExternalCacheDir(Context context) {
+        File dataDir = new File(new File(Environment.getExternalStorageDirectory(), "Android"), "data");
+        File appCacheDir = new File(new File(dataDir, context.getPackageName()), "cache");
+        if (!appCacheDir.exists()) {
+            if (!appCacheDir.mkdirs()) {
+                return null;
+            }
+            try {
+                new File(appCacheDir, ".nomedia").createNewFile();

@@ -1,0 +1,10 @@
+              struct.setApkMD5IsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // SENSITIVE
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list32 = iprot.readListBegin();
+                struct.sensitive = new ArrayList<String>(_list32.size);

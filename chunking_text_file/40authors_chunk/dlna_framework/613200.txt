@@ -1,0 +1,10 @@
+	{
+		return serverSock;
+	}
+
+	public String getBindAddress()
+	{
+			if (bindAddr == null)
+				return "";
+			return bindAddr.toString();
+	}

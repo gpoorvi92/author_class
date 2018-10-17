@@ -1,0 +1,10 @@
+    public TreeNode sortedArrayToBSTRe1(int[] num, int len, int[] curidx) {
+        if (len == 0) return null;
+        if (len == 1) return new TreeNode(num[curidx[0]++]);
+        int mid = len / 2;
+        TreeNode left = sortedArrayToBSTRe1(num, mid, curidx);
+        TreeNode node = new TreeNode(num[curidx[0]++]);
+        node.left = left;
+        node.right = sortedArrayToBSTRe1(num, len - 1 - mid, curidx);
+        return node;
+    }

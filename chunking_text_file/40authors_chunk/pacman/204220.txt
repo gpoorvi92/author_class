@@ -1,0 +1,10 @@
+		String command = ExternalTool.buildVideoCommand(
+				videoCodec, audioCodec, videoBitrate, audioBitrate, audioSamping, videoSrc, videoDest);
+		
+		logger.info(PREFIX + " CMD:" + command);
+		ProcessExecutor pe = new ProcessExecutor();
+		if (pe.runShell(command))
+		{
+			
+			logger.info(PREFIX + " execute successfully!");
+		} else {

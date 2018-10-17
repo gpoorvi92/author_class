@@ -1,0 +1,10 @@
+    public static final int PCRW_TRACK5   = 0x0010;
+    public static final int PCRW_TRACK6   = 0x0020;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "MapMode" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_MM_DOTS          = 1;
+    public static final int PCRW_MM_TWIPS         = 2;

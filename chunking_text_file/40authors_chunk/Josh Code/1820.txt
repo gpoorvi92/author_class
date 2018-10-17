@@ -1,0 +1,10 @@
+
+      if (c < 0) // if nothing was read in
+          return null; // indicate end of stream reached
+
+      while (c != '\n' && (c>=0))
+      {
+          if (index>=tempChars.length)
+          {
+              result = result+(new String(tempChars));
+              index = 0;

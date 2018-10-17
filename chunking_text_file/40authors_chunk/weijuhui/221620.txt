@@ -1,0 +1,10 @@
+	private int responseCode;
+	/*
+	 * as this is a synchronous request this is just a helping mechanism to pass
+	 * the result back to this method. Therefore the result object has to be a
+	 * field to be accessible
+	 */
+	protected String result;
+	protected AsyncHttpResponseHandler responseHandler = new AsyncHttpResponseHandler() {
+
+		void sendResponseMessage(org.apache.http.HttpResponse response) {

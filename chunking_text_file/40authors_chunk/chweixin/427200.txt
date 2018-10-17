@@ -1,0 +1,10 @@
+
+public class PictureServiceImpl extends DataServiceImpl<Picture, PictureInfo> implements IPictureService {
+	private final static Logger logger = Logger.getLogger(PictureServiceImpl.class);
+	private IPictureDao pictureDao;
+	private String imageFolder;
+	/**
+	 * 构造函数。
+	 * */
+	public PictureServiceImpl(){
+		this.setImageFolder("images");

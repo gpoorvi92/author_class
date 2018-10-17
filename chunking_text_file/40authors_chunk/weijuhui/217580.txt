@@ -1,0 +1,10 @@
+				row.setTag(holder);
+			} else {
+				holder = (ViewHolder) row.getTag();
+			}
+
+			int resId = array[position].getImg();
+			String explain = array[position].getTitle();
+
+			holder.act_type_img.setImageResource(resId);
+

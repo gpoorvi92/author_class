@@ -1,0 +1,10 @@
+	 * Meaning: This side is not anchored.
+	 */
+	public static final int ANCHOR_NONE = 0;
+
+	/**
+	 * (Relative anchor) Meaning: This side is anchored so that it always 
+	 * occurs a fixed fraction of
+	 * the distance along it's parent's side. The position is calculated by
+	 * the formula " position = (parent side)*(value)/1000 " so for
+	 * instance if top=100 and topType == ANCHOR_REL then the

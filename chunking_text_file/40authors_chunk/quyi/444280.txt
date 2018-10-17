@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, DynamicCheckResultData.class)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(AppCheckResult.class, metaDataMap);
+  }
+
+  public AppCheckResult() {
+  }
+
+  public AppCheckResult(
+    UserApp userApp,

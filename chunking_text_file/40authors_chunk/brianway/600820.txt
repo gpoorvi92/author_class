@@ -1,0 +1,10 @@
+        System.out.println(service.lock.hasQueuedThreads());
+    }
+
+}
+
+
+/*
+输出：
+false
+true

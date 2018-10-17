@@ -1,0 +1,10 @@
+			public void actionPerformed(ActionEvent e)
+			{
+				preview.setFont(new Font(String.valueOf(fontSelector.getSelectedItem()),fontStyle.getSelectedIndex(),14));
+			}
+		});
+	}
+	
+	public Font returnFont()
+	{
+		String fontSS = String.valueOf(fontSelector.getSelectedItem());

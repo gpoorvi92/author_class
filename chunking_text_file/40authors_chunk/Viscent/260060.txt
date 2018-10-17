@@ -1,0 +1,10 @@
+	class SectionBasedDiskStorage {
+		private Deque<String> sectionNames = new LinkedList<String>();
+		/*
+		 * Key->value: 存储子目录名->子目录下缓存文件计数器
+		 */
+		private Map<String, AtomicInteger> sectionFileCountMap = new HashMap<String, AtomicInteger>();
+		private int maxFilesPerSection = 2000;
+		private int maxSectionCount = 100;
+		private String storageBaseDir = System.getProperty("java.io.tmpdir") + "/vpn";
+		

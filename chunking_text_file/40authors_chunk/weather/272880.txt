@@ -1,0 +1,10 @@
+import com.qihigh.chinaweather.UIManager;
+import com.qihigh.chinaweather.provider.CityChangeWatcher;
+import com.qihigh.chinaweather.ui.adapter.CityChangeAdapter;
+import com.weico.core.BaseActivity;
+import com.weico.core.utils.JsonUtil;
+import com.weico.core.utils.LogUtil;
+
+import java.util.List;
+
+import butterknife.ButterKnife;

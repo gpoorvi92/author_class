@@ -1,0 +1,10 @@
+                /* launch next loader */
+                launchHeadLoader();
+            }
+        });
+    }
+
+    @Override
+    public void onLoaderReset(Loader<D> loader) {
+        int id = loader.getId();
+        mBusyLoaders.remove(id);

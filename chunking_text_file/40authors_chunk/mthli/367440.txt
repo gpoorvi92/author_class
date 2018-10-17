@@ -1,0 +1,5 @@
+      buttonPanel.add(printButton);
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+}

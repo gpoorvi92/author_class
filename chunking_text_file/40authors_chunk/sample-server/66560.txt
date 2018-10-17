@@ -1,0 +1,10 @@
+        worker.setDaemon(true);
+        worker.start();
+    }
+    private final void init()
+    {
+        Class clazz = this.getClass();
+        for (Method each : clazz.getDeclaredMethods())
+        {
+            if (each.getName().endsWith("Req"))
+            {

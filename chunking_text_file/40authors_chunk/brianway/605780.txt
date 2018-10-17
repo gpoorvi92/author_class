@@ -1,0 +1,10 @@
+public class Run13_suspendAndresume01 {
+    public static void main(String[] args) {
+        try {
+            MyThread13 myThread13 = new MyThread13();
+            myThread13.start();
+            Thread.sleep(5000);
+            //A段
+            myThread13.suspend();
+            System.out.println("A= " + System.currentTimeMillis() + " i=" + myThread13.getI());
+            Thread.sleep(5000);

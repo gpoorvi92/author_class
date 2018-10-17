@@ -1,0 +1,10 @@
+
+		Object cmp1 = null;
+		if (o1 instanceof MSort)
+			cmp1 = ((MSort)o1).data;
+		if (cmp1 instanceof NamePair)
+			cmp1 = ((NamePair)cmp1).getName();
+
+		Object cmp2 = o2;
+		if (o2 instanceof MSort)
+			cmp2 = ((MSort)o2).data;

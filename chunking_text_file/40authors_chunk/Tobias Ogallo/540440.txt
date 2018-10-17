@@ -1,0 +1,7 @@
+	}
+
+	public static void main(String args[]) {
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		new Show_Booked().setVisible(true);
+	}
+}

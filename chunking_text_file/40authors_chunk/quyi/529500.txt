@@ -1,0 +1,10 @@
+
+  public String getApk_md5() {
+    return this.apk_md5;
+  }
+
+  public UserApp setApk_md5(String apk_md5) {
+    this.apk_md5 = apk_md5;
+    return this;
+  }
+

@@ -1,0 +1,9 @@
+         double x = (2 * getWidth() * i) / NLINES;
+         double y = (2 * getHeight() * (NLINES - 1 - i)) / NLINES;
+         Point2D q = new Point2D.Double(x, y);
+         g2.draw(new Line2D.Double(p, q));
+      }
+   }
+   
+   public Dimension getPreferredSize() { return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT); }
+}

@@ -1,0 +1,10 @@
+    private SQLiteDatabase database = null;
+
+    public static synchronized CertsDBHelper getDatabaseHelper() {
+        if (dbHelper != null)
+            return dbHelper;
+        dbHelper = new CertsDBHelper(SeadroidApplication.getAppContext());
+        dbHelper.database = dbHelper.getWritableDatabase();
+        return dbHelper;
+    }
+

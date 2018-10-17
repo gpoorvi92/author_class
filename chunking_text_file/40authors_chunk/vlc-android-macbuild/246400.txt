@@ -1,0 +1,10 @@
+            if (msg.obj != null) {
+                mModuleInfo = ModuleInfo.parseModuleInfo((Bundle) msg.obj);
+            }
+            break;
+        }
+        default:
+            return false;
+        }
+
+        return true;

@@ -1,0 +1,10 @@
+    public WeakActivity(T_Activity activity) {
+        if (activity != null) {
+            mWeakReference = new WeakReference<T_Activity>(activity);
+        }
+    }
+    
+    final public void setActivity(T_Activity activity) {
+        if (activity == null) {
+            mWeakReference = null;
+        } else {

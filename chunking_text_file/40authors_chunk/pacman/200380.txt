@@ -1,0 +1,10 @@
+	public void testTrimToBareName() throws Exception {
+		
+		String url = "http://www.hujiang.com/abc/132/3kjd/1.mp3";
+		LessonInfoParser parser = new LessonInfoParser();
+		assertEquals("1", parser.trimToBareName(url));
+		
+		url = "hi$$so__i23.mp4";
+		assertEquals("hi$$so__i23", parser.trimToBareName(url));
+	}
+}

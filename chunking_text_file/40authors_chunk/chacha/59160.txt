@@ -1,0 +1,10 @@
+	//@Test
+	public void dupAddTest(){
+		Account entity=new Account();
+		entity.setUserName("chacha_one");
+		entity.setPasswd("dddddddd");
+		 
+		Account r=dao.add(entity);
+		assertNotNull(r.get_id());
+		
+		Account dup=null;

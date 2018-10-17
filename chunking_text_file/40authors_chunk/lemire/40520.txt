@@ -1,0 +1,10 @@
+
+    @Override
+    public void move(int bits) {
+        this.nextLength -= bits;
+        if(this.nextLength <= 0) {
+            do {
+                this.nextBit = null;
+                updateNext();
+                this.hasNext = moveToNextRLW();
+            } while(this.nextLength <= 0 && this.hasNext);

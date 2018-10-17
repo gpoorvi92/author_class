@@ -1,0 +1,7 @@
+    public int     getKeyPosition() throws JposException;
+    public int     getPositionCount() throws JposException;
+
+    // Methods
+    public void    waitForKeylockChange(int keyPosition, int timeout)
+                       throws JposException;
+}

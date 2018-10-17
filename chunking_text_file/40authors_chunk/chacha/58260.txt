@@ -1,0 +1,10 @@
+/**
+ * Selector调度线程
+ *	@author: Fully
+ */
+public class NioDispatcher implements Dispatcher {
+	private final LogPrn log=new LogPrn(getClass());
+	private Selector sel;
+	private Object lock=new Object();
+	//请求处理线程池
+	private ExecutorService pool=Executors.newCachedThreadPool();	

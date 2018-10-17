@@ -1,0 +1,10 @@
+		return m_name;
+	}   //  getName
+
+	/**
+	 *  Returns Key or Value as String
+	 *  @return String or null
+	 */
+	public abstract String getID();
+
+	/**

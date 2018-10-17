@@ -1,0 +1,10 @@
+	}
+
+	private Node getServiceNode()
+	{
+		return serviceNode;
+	}
+
+	public Service getService()
+	{
+		return new Service(getServiceNode());

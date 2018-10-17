@@ -1,0 +1,10 @@
+            jbInit();
+            this.setSize(450, 350);
+            this.setVisible(true);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        GUITest_1H GUITest_1H1 = new GUITest_1H();

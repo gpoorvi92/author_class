@@ -1,0 +1,10 @@
+		}
+	}
+
+
+	public long getAndResetBytesWritten() {
+		synchronized (bytesWrittenLock) {
+			final long temp = bytesWritten;
+			bytesWritten = 0;
+			return temp;
+		}

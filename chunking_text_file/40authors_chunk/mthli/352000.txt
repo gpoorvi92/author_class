@@ -1,0 +1,10 @@
+            }
+         });
+
+      // add combo box to a panel at the frame's southern border
+
+      JPanel comboPanel = new JPanel();
+      comboPanel.add(faceCombo);
+      add(comboPanel, BorderLayout.SOUTH);
+      pack();
+   }

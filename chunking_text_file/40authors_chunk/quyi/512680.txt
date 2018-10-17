@@ -1,0 +1,10 @@
+      public reportTaskManagerConfig() {
+        super("reportTaskManagerConfig");
+      }
+
+      public reportTaskManagerConfig_args getEmptyArgsInstance() {
+        return new reportTaskManagerConfig_args();
+      }
+
+      public AsyncMethodCallback<String> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;

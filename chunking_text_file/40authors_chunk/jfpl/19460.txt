@@ -1,0 +1,10 @@
+		} else {
+			AbstractCommonData acd = ConstVariables
+					.getCommPacket(GlobalVariables.loginUsername);
+			acd.putStringValue("username", username);
+			acd.putStringValue("password",
+					SSLConnection.Md5(pwd1 + ConstVariables.NODE_MD5_CHECK_KEY));
+			String[] args = PushMessageReceiver.getBindInfo(this);
+			acd.putStringValue("user_id", args[2]);
+			acd.putStringValue("channel_id", args[1]);
+			acd.putStringValue("_url", ConstVariables.RESGITER_URL);

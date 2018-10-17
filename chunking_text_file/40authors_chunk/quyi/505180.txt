@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // TASK_INFO
+            if (schemeField.type == org.apache.thrift.protocol.TType.MAP) {
+              {
+                org.apache.thrift.protocol.TMap _map99 = iprot.readMapBegin();
+                struct.taskInfo = new HashMap<String,String>(2*_map99.size);
+                for (int _i100 = 0; _i100 < _map99.size; ++_i100)
+                {

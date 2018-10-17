@@ -1,0 +1,10 @@
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public static final String DEFAULT_ENTRIES_SER_FILE_NAME = "jpos.cfg";
+
+    //-------------------------------------------------------------------------
+    // Public constants (properties name)
+    //
+
+    /**
+     * Constants defining the JavaPOS service manager class name Java property 

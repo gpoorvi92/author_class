@@ -1,0 +1,10 @@
+
+        return text;
+    }
+
+    public String getParsedCpuInfo() {
+        StringBuilder parsedCpuInfo = new StringBuilder();
+
+        parsedCpuInfo.append("CPU implementer : ");
+        parsedCpuInfo.append(getCpuImplementerText());
+        parsedCpuInfo.append("\n");

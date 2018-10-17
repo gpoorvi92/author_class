@@ -1,0 +1,10 @@
+		jc.setAge(5);
+		System.out.println(jc.getName()+"---"+jc.getAge());
+		jc.sleep();
+		jc.eat();
+		jc.jump();
+		//´ø²Î...
+
+		//¶àÌ¬
+		Animal a = new JumpCat();
+		a.setName("À¶Ã¨");

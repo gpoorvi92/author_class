@@ -1,0 +1,10 @@
+	static int generalHeight = 100;
+	
+	
+	int borderX = 102;
+	int borderY = 10;	
+	int soldierWidth = 80;
+	int soldierHeight = 80;
+	int heroGeneralIndex;//我方将领帧序号
+	int enemyGeneralIndex;//敌方将领帧序号
+	int heroSoldierIndex;//我方士兵帧序号

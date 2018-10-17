@@ -1,0 +1,10 @@
+//		}
+		
+//		OrderService os = (OrderService) ctx.getBean("orderService");
+//		BillService billService = (BillService) ctx.getBean("billService");
+//		Bill[] bs = billService.queryAllBills();
+//		for (Bill bill : bs) {
+//			Order[] orders = billService.queryOrdersByBillId(bill.getID());
+//			for (Order order : orders) {
+//				if(order.getRemark().contains("历史")){
+//					String[] ss = order.getRemark().split("-");

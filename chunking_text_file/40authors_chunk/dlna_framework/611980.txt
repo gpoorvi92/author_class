@@ -1,0 +1,10 @@
+	public void run()
+	{
+		Thread thisThread = Thread.currentThread();
+		
+		ControlPoint ctrlPoint = getControlPoint();
+
+		while (deviceSearchResponseThread == thisThread) {
+			Thread.yield();
+			SSDPPacket packet = receive();
+			if (packet == null)

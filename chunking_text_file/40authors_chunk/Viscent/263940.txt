@@ -1,0 +1,10 @@
+
+		@Override
+		protected void doCleanup(Exception cause) {
+			try {
+				ftpClientPromise.get().disconnect();
+			} catch (IOException e) {
+				e.printStackTrace();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			} catch (ExecutionException e) {

@@ -1,0 +1,10 @@
+	private Button registerBtn;
+
+	@InjectionView(id = R.id.login_btn, click = "loginBtnClick")
+	private Button loginBtn;
+
+	@InjectionView(id = R.id.login_username)
+	private EditText usernameEt;
+
+	@InjectionView(id = R.id.login_pwd)
+	private EditText pwdEt;

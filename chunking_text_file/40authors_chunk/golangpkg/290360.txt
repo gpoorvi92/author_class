@@ -1,0 +1,10 @@
+
+						//if progress has successfully been computed
+						if (newProgress != null) {
+							
+							//get from map
+							FileProgressStatus progressInMap = fileToProgressInfo.get(fileId);
+							
+							//if not present in map
+							//or if present in map but different from previous one
+							if (progressInMap == null || !progressInMap.getProgress().equals(newProgress.getProgress())) {

@@ -1,0 +1,10 @@
+//		
+//		final int supressThredshold=10;
+//		final AlarmMgr alarmMgr=AlarmMgr.getInstance();
+//		alarmMgr.init();
+//		
+//		final String alarmId="10000020";
+//		final String alarmExtraInfo= "name1=test;name2=value2";
+//		
+//		Thread thread;
+//		

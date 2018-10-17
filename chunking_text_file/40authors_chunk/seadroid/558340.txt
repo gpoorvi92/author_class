@@ -1,0 +1,10 @@
+            return null;
+        }
+    }
+
+    public String getSerialNumber() {
+        return certificate.getSerialNumber().toString(16);
+    }
+
+    public String getSignature(String algorithm) {
+        try {

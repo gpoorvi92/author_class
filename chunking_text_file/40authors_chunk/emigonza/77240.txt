@@ -1,0 +1,10 @@
+	//-------------------------------------------------------------------------
+	// Ctor(s)
+	// 
+	
+	/**
+	 * Creates a JposConfigException with the description passed
+	 * @param description the description String
+	 */
+    public JposConfigException( String description )
+    {

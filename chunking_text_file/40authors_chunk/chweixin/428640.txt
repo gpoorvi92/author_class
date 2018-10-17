@@ -1,0 +1,10 @@
+	 * @param account
+	 * 公众号。
+	 * */
+	public void setAccount(WeChatAccount account) {
+		this.account = account;
+	}
+	/**
+	 * 获取全局唯一票据。
+	 * @return 全局唯一票据。
+	 * */

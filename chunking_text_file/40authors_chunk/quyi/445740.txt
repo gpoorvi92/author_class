@@ -1,0 +1,10 @@
+  /** Returns true if field imageContent is set (has been assigned a value) and false otherwise */
+  public boolean isSetImageContent() {
+    return this.imageContent != null;
+  }
+
+  public void setImageContentIsSet(boolean value) {
+    if (!value) {
+      this.imageContent = null;
+    }
+  }

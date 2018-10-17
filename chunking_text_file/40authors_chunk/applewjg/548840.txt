@@ -1,0 +1,8 @@
+                pre.next = cur.right;
+                pre = pre.next;
+            }
+            cur = cur.next;
+        }
+        connect(dummy.next);
+    }
+}

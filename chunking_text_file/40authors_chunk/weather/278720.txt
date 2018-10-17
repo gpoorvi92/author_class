@@ -1,0 +1,10 @@
+package com.weico.core.emotion;
+
+import android.content.Context;
+import android.content.res.AssetManager;
+import android.content.res.Resources;
+
+import com.weico.core.R;
+
+import java.io.BufferedReader;
+import java.io.IOException;

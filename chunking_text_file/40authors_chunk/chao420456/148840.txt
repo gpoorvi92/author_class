@@ -1,0 +1,10 @@
+ * 		Object[] toArray():把集合转成对象数组
+ */
+public class CollectionDemo {
+	public static void main(String[] args) {
+		// 创建集合对象
+		Collection c = new ArrayList();
+
+		// boolean add(Object obj):往集合中添加一个元素
+		// System.out.println("add:" + c.add("hello"));
+		// System.out.println("add:" + c.add("world"));

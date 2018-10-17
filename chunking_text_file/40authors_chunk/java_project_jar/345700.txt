@@ -1,0 +1,10 @@
+            String wildcard = arr$[i$];
+            if(FilenameUtils.wildcardMatch(name, wildcard))
+                return true;
+        }
+
+        return false;
+    }
+
+    public boolean accept(File file)
+    {

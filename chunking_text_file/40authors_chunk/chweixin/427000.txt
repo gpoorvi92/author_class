@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String title,description,musicURL,HQMusicUrl,thumbMediaId;
+	/**
+	 * 获取音乐标题。
+	 * @return 音乐标题。
+	 * */
+	public String getTitle() {
+		return title;
+	}
+	/**

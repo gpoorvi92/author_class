@@ -1,0 +1,10 @@
+				void clean() {
+					log.debug("request " + request + " completed.");
+					// we do not need to clear the inputstream here.
+					// and tell processor to clean its shit!
+					uploadServletAsyncProcessor.clean(clientId, process.getFileId());
+				}
+			});
+
+			// then process
+			uploadServletAsyncProcessor.process(fileState, process.getFileId(), process.getCrc(), process.getInputStream(),

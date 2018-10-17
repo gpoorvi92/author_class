@@ -1,0 +1,10 @@
+			meta = rs.getMetaData();
+			colCount = meta.getColumnCount();
+
+
+			// and file the cache with the records from our query.  This would not be
+			// practical if we were expecting a few million records in response to our
+			// query, but we aren't, so we can do this.
+			
+			
+			//manually set column headers here, query statements passed in this class

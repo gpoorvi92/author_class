@@ -1,0 +1,10 @@
+        IntIteratorOverIteratingRLW ii = new IntIteratorOverIteratingRLW(
+                e.getIteratingRLW());
+        int ctr = 0;
+        while (ii.hasNext()) {
+            ++ctr;
+            ii.next();
+        }
+
+        assertEquals(e.cardinality(), ctr);
+        System.out

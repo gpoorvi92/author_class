@@ -1,0 +1,10 @@
+		System.out.println("admin".equals("admin"));
+	}
+
+	// 这是开发中的用法
+	// public static boolean compare(String s1, String s2) {
+	// return s1.equals(s2);
+	// }
+
+	// 这是面试想考你的
+	public static boolean compare(String s1, String s2) {

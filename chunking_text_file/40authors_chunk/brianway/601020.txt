@@ -1,0 +1,10 @@
+        Thread.sleep(2000);
+
+        service.notifyMethod();
+    }
+}
+
+
+/*
+输出：
+

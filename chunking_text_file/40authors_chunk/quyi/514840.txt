@@ -1,0 +1,10 @@
+
+    public reportTaskManagerConfig_args() {
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public reportTaskManagerConfig_args(reportTaskManagerConfig_args other) {
+    }
+

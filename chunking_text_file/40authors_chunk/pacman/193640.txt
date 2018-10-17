@@ -1,0 +1,10 @@
+	 */
+	public void setVideoHeight(int videoHeight) {
+		this.videoHeight = videoHeight;
+	}
+
+	/**
+	 * @param videoWidth the videoWidth to set
+	 */
+	public void setVideoWidth(int videoWidth) {
+		this.videoWidth = videoWidth;

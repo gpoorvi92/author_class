@@ -1,0 +1,10 @@
+            {
+               g.drawImage(img, 0, 0, null);
+            }
+         };
+         
+      final JProgressBar progressBar = new JProgressBar();
+      progressBar.setStringPainted(true);
+      splashPanel.setLayout(new BorderLayout());
+      splashPanel.add(progressBar, BorderLayout.SOUTH);
+      

@@ -1,0 +1,10 @@
+package wyf.ytl.view;				//声明包语句
+
+/*
+ * 该类继承自抽象类GameAlert，主要负责最简单的界面显示
+ */
+import static wyf.ytl.tool.ConstantUtil.*;
+import android.graphics.Bitmap;				//引入相关类
+import android.graphics.Canvas;				//引入相关类
+import android.graphics.Paint;				//引入相关类
+import android.graphics.Typeface;			//引入相关类

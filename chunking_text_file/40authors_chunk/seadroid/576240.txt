@@ -1,0 +1,10 @@
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+            ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        MenuInflater inflater = mActivity.getMenuInflater();
+        inflater.inflate(R.menu.upload_task_menu, menu);
+
+        ListView listView = (ListView)v;
+        AdapterContextMenuInfo info = (AdapterContextMenuInfo) menuInfo;
+        UploadTaskInfo taskInfo = (UploadTaskInfo)listView.getItemAtPosition(info.position);

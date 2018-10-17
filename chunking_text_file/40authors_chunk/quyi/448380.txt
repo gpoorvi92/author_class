@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.osDesc != null) {
+        oprot.writeFieldBegin(OS_DESC_FIELD_DESC);
+        oprot.writeString(struct.osDesc);
+        oprot.writeFieldEnd();
+      }
+      if (struct.osVersion != null) {
+        oprot.writeFieldBegin(OS_VERSION_FIELD_DESC);
+        oprot.writeString(struct.osVersion);

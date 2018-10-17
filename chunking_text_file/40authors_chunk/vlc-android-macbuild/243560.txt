@@ -1,0 +1,10 @@
+package tv.danmaku.media.list;
+
+import java.io.IOException;
+
+import tv.danmaku.android.util.DebugLog;
+import tv.danmaku.media.resource.Segment;
+
+import android.media.MediaPlayer;
+
+public class DefMediaSegmentPlayer extends MediaPlayer {

@@ -1,0 +1,10 @@
+	public void issuedMessageTest002() throws Exception {
+		ConnectionFactory connectionFactory;
+		Connection connection = null;
+		Session session;
+		Destination destination;
+		MessageProducer producer;
+		connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_USER, ActiveMQConnection.DEFAULT_PASSWORD, queue_url);
+		connection = connectionFactory.createConnection();
+		connection.start();
+		session = connection.createSession(Boolean.TRUE, Session.AUTO_ACKNOWLEDGE);

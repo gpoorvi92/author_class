@@ -1,0 +1,10 @@
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               a[1] = 1 / (a.length - a.length);
+            }
+         });
+
+      addRadioButton("Floating point divide by zero", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

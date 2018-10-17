@@ -1,0 +1,9 @@
+          primo = true;
+          System.out.println("Numero primo!");
+        } else {
+          primo = false;
+          System.out.println("Numero no primo!");
+        }
+
+  }
+}

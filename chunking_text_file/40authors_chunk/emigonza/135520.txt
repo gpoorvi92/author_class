@@ -1,0 +1,10 @@
+// 2006-Oct-23 JavaPOS 1.10.2 Update                               BS
+//   Fixed type of writeTracks data parameter to be byte[][] as
+//   UnifiedPOS has corrected the type from "string" to
+//   "array of binary".
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;

@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example5;
+
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+public class Service3 {
+    private ReentrantLock lock = new ReentrantLock();

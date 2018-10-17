@@ -1,0 +1,10 @@
+    public int getPageSize() {
+        return pageSize > 0 ? pageSize : PAGE_SHOW_COUNT;
+    }
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
+    }
+    public String getOrderField() {
+        return orderField;
+    }
+    public void setOrderField(String orderField) {

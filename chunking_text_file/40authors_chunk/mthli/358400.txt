@@ -1,0 +1,10 @@
+
+      // draw the enclosed ellipse
+
+      Ellipse2D ellipse = new Ellipse2D.Double();
+      ellipse.setFrame(rect);
+      g2.draw(ellipse);
+
+      // draw a diagonal line
+
+      g2.draw(new Line2D.Double(leftX, topY, leftX + width, topY + height));

@@ -1,0 +1,10 @@
+
+    @RequestMapping("/changePwd")
+    public ModelAndView changPwd(String oldPassword, String newPassword) {
+        try {
+            merchantService.changePwd(this.getMerchant().getId(), oldPassword, newPassword);
+            return ajaxDoneSuccessAndClose("修改成功", "");
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+    }

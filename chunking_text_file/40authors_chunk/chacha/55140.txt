@@ -1,0 +1,10 @@
+			prop.load(is);
+			dbServerIP=Config.getDbServerIP();
+			dbServerPort=Config.getDbServerPort();
+			dbName=Config.getDbName();
+			dbUserName=Config.getDbUserName();
+			dbPassword=Config.getDbPassword();
+			connectionDescriptor=Config.getConnectionDescriptor();
+			connectionsPerHost=Config.getConnectionsPerHost();
+			threadsAllowedToBlockForConnectionMultiplier=Config.getThreadsAllowedToBlockForConnectionMultiplier();
+			connectTimeout=Config.getConnectTimeout();

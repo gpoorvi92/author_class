@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("minsdkversion:");
+    if (this.minsdkversion == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.minsdkversion);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("apk_md5:");

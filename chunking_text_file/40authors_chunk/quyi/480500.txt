@@ -1,0 +1,10 @@
+      if (isSetMissionId()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.missionId, other.missionId);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      return 0;
+    }
+
+    public _Fields fieldForId(int fieldId) {

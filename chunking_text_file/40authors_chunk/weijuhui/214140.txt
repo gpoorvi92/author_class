@@ -1,0 +1,10 @@
+    //
+    // Pre-processing of messages (in original calling thread, typically the UI thread)
+    //
+
+    @Override
+    protected void handleMessage(Message msg) {
+        switch(msg.what){
+            case SUCCESS_JSON_MESSAGE:
+                Object[] response = (Object[]) msg.obj;
+                handleSuccessJsonMessage(((Integer) response[0]).intValue(), response[1]);

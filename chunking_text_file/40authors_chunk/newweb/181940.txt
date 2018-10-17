@@ -1,0 +1,10 @@
+		return acceptStatus;
+	}
+	public void setAcceptStatus(String acceptStatus) {
+		this.acceptStatus = acceptStatus;
+	}
+	
+	@Column
+	public String getDoneStatus() {
+		return doneStatus;
+	}

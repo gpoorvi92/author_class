@@ -1,0 +1,10 @@
+	
+	JSpinner width = new JSpinner();
+	
+	String[] caps = { "Cap Butt", "Cap Round", "Cap Square" };
+	String[] joins = { "Join Bevel", "Join Miter", "Join Round" };
+	String[] styles = { "Solid", "Dashed" };
+	
+	
+	float[] dash = {10f};
+	

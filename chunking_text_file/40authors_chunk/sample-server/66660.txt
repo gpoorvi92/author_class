@@ -1,0 +1,10 @@
+                    else
+                    {
+                        wrapper.channel.write(Rpc.RpcPacket.newBuilder(rpcPacket).setContent(resp.toByteString()).build());
+                    }
+                }
+            } catch (Throwable e)
+            {
+                log.error("close channel:{}", wrapper.getChannel(), e);
+                wrapper.channel.close();
+            }

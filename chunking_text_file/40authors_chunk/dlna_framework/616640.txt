@@ -1,0 +1,10 @@
+*	11/20/02
+*		- first revision.
+*	05/13/03
+*		- Added support for IPv6.
+*	02/20/04
+*		- Inma Marin Lopez <inma@dif.um.es>
+*		- Added a multicast filter using the SSDP pakcet.
+*	04/20/05
+*		- Mikael Hakman <mhakman@dkab.net>
+*		- Handle receive() returning null.

@@ -1,0 +1,10 @@
+public class MRemarkController extends BaseController {
+    @Autowired
+    private IRemarkService remarkService;
+    @Autowired
+    private IGoodsService goodsService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/remark/list");
+        vo.setMerchantId(getMerchant().getId());

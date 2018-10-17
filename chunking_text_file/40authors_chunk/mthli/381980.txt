@@ -1,0 +1,10 @@
+            {
+               evaluate();
+            }
+         };
+      expression = new JTextField(20);
+      expression.addActionListener(listener);
+      JButton evaluateButton = new JButton("Evaluate");
+      evaluateButton.addActionListener(listener);
+
+      typeCombo = new JComboBox<String>(new String[] { 

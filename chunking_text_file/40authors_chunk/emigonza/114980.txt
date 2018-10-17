@@ -1,0 +1,10 @@
+    public static final int PPAD_EFT_NORMAL                 = 1;
+    public static final int PPAD_EFT_ABNORMAL               = 2;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "DataEvent" Event Status Constants
+    /////////////////////////////////////////////////////////////////////
+    public static final int PPAD_SUCCESS                    = 1;
+    public static final int PPAD_CANCEL                     = 2;
+

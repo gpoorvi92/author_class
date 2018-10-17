@@ -1,0 +1,10 @@
+      aboutItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               if (dialog == null) // first time
+               dialog = new AboutDialog(DialogFrame.this);
+               dialog.setVisible(true); // pop up dialog
+            }
+         });
+      fileMenu.add(aboutItem);

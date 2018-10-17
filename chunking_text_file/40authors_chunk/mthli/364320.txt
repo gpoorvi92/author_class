@@ -1,0 +1,9 @@
+               PrinterJob job = PrinterJob.getPrinterJob();
+               job.pageDialog(attributes);
+            }
+         });
+
+      add(buttonPanel, BorderLayout.NORTH);
+      pack();
+   }
+}

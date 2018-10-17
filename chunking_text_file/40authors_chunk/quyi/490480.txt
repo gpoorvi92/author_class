@@ -1,0 +1,10 @@
+      return this.success;
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */
+    public updateUserAppStatus_result setSuccess(com.nercis.isscp.idl.Result success) {
+      this.success = success;
+      return this;

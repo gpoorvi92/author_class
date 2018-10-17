@@ -1,0 +1,7 @@
+    public static final int PWR_SUE_RESTART                = 23;
+    public static final int PWR_SUE_STANDBY                = 24;
+    public static final int PWR_SUE_USER_STANDBY           = 25;
+    public static final int PWR_SUE_SUSPEND                = 26;
+    public static final int PWR_SUE_USER_SUSPEND           = 27;
+    public static final int PWR_SUE_PWR_SOURCE             = 28;
+}

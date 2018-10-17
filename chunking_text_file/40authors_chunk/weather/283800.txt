@@ -1,0 +1,10 @@
+        public boolean handleMessage(Message msg) {
+            switch (msg.what) {
+                case REQUEST_SUCCESS:
+                    UIResponse(response);
+                    break;
+                case REQUEST_ERROR:
+                    UIErrorResponse(error);
+                    break;
+            }
+            return true;

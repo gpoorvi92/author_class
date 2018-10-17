@@ -1,0 +1,10 @@
+package fileIO;
+
+import model.*;
+import java.io.*;
+import java.util.*;
+
+public class STLModelFileLoader implements ModelFileLoader
+{
+  public boolean matchesFormat(File f)
+  {

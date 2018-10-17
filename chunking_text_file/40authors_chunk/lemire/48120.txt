@@ -1,0 +1,10 @@
+        fillClustered(array, 0, N, 0, Max);
+        return array;
+    }
+
+    void fillClustered(int[] array, int offset, int length, int Min, int Max) {
+        final int range = Max - Min;
+        if ((range == length) || (length <= 10)) {
+            fillUniform(array, offset, length, Min, Max);
+            return;
+        }

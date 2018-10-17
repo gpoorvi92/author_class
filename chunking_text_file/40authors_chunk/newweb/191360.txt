@@ -1,0 +1,10 @@
+	@Override
+	public List<Map<String, Object>> queryOrderBxgABxgByOrderID(
+			String orderID) {
+		Order order = orderService.findOrderById(orderID);
+		List<Map<String,Object>> oblist = new ArrayList<Map<String,Object>>();
+		for (OrderBxg	ob : order.getOrderBxgs()) {
+			if(ob.getCount() == 0){
+				remove(ob);
+				continue;
+			}

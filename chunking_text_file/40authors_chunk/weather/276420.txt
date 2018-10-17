@@ -1,0 +1,10 @@
+                activity.overridePendingTransition(R.anim.image_grow, R.anim.image_shrink);
+                break;
+            case DEFAULT:
+                break;
+        }
+        ActivityUtil.convertActivityToTranslucent(activity);
+    }
+
+    /**
+     * @param currentActivity

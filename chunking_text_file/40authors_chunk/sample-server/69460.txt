@@ -1,0 +1,10 @@
+     *
+     * @param binaryData array of byte to encode
+     * @return return encoded string
+     */
+    static public String encode(byte[] binaryData)
+    {
+        if (binaryData == null)
+            return null;
+        int lengthData = binaryData.length;
+        int lengthEncode = lengthData * 2;

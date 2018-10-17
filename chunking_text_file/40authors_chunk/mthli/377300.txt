@@ -1,0 +1,10 @@
+package rasterImage;
+
+import java.awt.*;
+import java.awt.image.*;
+import javax.swing.*;
+
+/**
+ * This frame shows an image with a Mandelbrot set.
+ */
+public class RasterImageFrame extends JFrame

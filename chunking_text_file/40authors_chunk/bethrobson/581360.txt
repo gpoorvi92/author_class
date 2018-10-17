@@ -1,0 +1,10 @@
+
+         // make (and open) a sequencer, make a sequence and track
+
+         Sequencer sequencer = MidiSystem.getSequencer();         
+         sequencer.open();
+        
+         sequencer.addControllerEventListener(myPanel, new int[] {127});
+         Sequence seq = new Sequence(Sequence.PPQ, 4);
+         Track track = seq.createTrack();     
+

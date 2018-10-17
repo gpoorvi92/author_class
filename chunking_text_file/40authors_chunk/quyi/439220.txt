@@ -1,0 +1,10 @@
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __CPUCORES_ISSET_ID, value);
+  }
+
+  public int getCpuMhz() {
+    return this.cpuMhz;
+  }
+
+  public Hardware setCpuMhz(int cpuMhz) {
+    this.cpuMhz = cpuMhz;
+    setCpuMhzIsSet(true);

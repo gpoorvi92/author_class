@@ -1,0 +1,10 @@
+		return media;
+	}
+	/**
+	 * @param media the media to set
+	 */
+	public void setMedia(String media) {
+		this.media = media;
+	}
+	/**
+	 * @return the mediaType

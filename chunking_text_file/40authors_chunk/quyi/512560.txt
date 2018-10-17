@@ -1,0 +1,10 @@
+    }
+
+    public static class reportEngineConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, reportEngineConfig_args, String> {
+      public reportEngineConfig() {
+        super("reportEngineConfig");
+      }
+
+      public reportEngineConfig_args getEmptyArgsInstance() {
+        return new reportEngineConfig_args();
+      }

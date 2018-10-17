@@ -1,0 +1,10 @@
+
+	@InjectionView(id = R.id.image_grid)
+	private GridView gridView;
+
+	@InjectionView(id = R.id.image_send_btn, click = "imgSendBtnClick")
+	private android.widget.Button sendImageBtn;
+
+	private ArrayList<String> selectImageList = new ArrayList<String>();
+
+	@Override

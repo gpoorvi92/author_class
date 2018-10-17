@@ -1,0 +1,10 @@
+			 				
+			 				if(confirm == JOptionPane.NO_OPTION)
+			 				{
+			 				save.setEnabled(false);
+			 				delete.setEnabled(true);
+			            	book_no_text.setEditable(false);
+			            	book_title_text.setEditable(false);
+ 							isbn_text.setEditable(false);
+			 				class_text.setEditable(false);
+			 				publisher_text.setEditable(false);

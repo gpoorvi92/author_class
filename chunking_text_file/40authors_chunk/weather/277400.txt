@@ -1,0 +1,10 @@
+    public static final int DELETE_FINISHED = 10006;
+    public static final int DELETE_FAIL = 10007;
+    public static final int RESET_DATA = 10008;
+
+    public RequestQueue mQueue;
+    public RequestQueue.RequestFilter mRequestFilter;
+    /**
+     * 加载更多的数量，moreCount为false时没有更多数据,
+     */
+    public boolean hasMore = true;

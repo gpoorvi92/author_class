@@ -1,0 +1,10 @@
+      if (other.isSetEngineId()) {
+        this.engineId = other.engineId;
+      }
+    }
+
+    public searchEng_args deepCopy() {
+      return new searchEng_args(this);
+    }
+
+    @Override

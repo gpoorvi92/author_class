@@ -1,0 +1,10 @@
+
+    public void setCollectionCount(Integer collectionCount) {
+        this.collectionCount = collectionCount;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {

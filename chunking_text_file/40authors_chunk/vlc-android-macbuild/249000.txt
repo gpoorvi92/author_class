@@ -1,0 +1,7 @@
+        DebugLog.ifmt(TAG, "mScheme:                %s", mScheme);
+        DebugLog.ifmt(TAG, "mPseudoAccess:          %s", mPseudoAccess);
+        DebugLog.ifmt(TAG, "mPseudoDemux:           %s", mPseudoDemux);
+        DebugLog.ifmt(TAG, "mSchemeSpecificPart:    %s", mSchemeSpecificPart);
+        DebugLog.ifmt(TAG, "mRealIndexUrl:          %s", mUrl);
+    }
+}

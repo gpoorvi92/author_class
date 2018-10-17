@@ -1,0 +1,10 @@
+
+      // common listener for all sliders
+      listener = new ChangeListener()
+         {
+            public void stateChanged(ChangeEvent event)
+            {
+               // update text field when the slider value changes
+               JSlider source = (JSlider) event.getSource();
+               textField.setText("" + source.getValue());
+            }

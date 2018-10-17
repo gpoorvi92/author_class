@@ -1,0 +1,10 @@
+		return this.count(hql, parameters);
+	}
+	
+	/**
+	 * 重载加载实体数据。
+	 * @param c
+	 * 实体数据类型。
+	 * @param id
+	 * 带联合主键的WeChatUserInfo对象。
+	 * @return

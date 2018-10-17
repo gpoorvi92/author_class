@@ -1,0 +1,10 @@
+
+    case FUNCTION_STATUS:
+      return getFunctionStatus();
+
+    case DETECT_RESULT:
+      return getDetectResult();
+
+    }
+    throw new IllegalStateException();
+  }

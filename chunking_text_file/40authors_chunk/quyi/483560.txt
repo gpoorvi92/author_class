@@ -1,0 +1,10 @@
+      }
+    }
+
+    private static class updateAppStatus_argsStandardSchemeFactory implements SchemeFactory {
+      public updateAppStatus_argsStandardScheme getScheme() {
+        return new updateAppStatus_argsStandardScheme();
+      }
+    }
+
+    private static class updateAppStatus_argsStandardScheme extends StandardScheme<updateAppStatus_args> {

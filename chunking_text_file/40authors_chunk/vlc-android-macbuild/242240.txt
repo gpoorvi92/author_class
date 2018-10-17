@@ -1,0 +1,10 @@
+        }
+
+        return sAndroidModuleInfo;
+    }
+
+    public static ModuleInfo getNullModuleInfo() {
+        ModuleInfo module = new ModuleInfo();
+        return module;
+    }
+

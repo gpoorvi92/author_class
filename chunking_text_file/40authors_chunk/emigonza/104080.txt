@@ -1,0 +1,10 @@
+    public static final int JPOS_ECHK_NOCHECK = 1 + JposConst.JPOSERREXT; // endInsertion
+    public static final int JPOS_ECHK_CHECK   = 2 + JposConst.JPOSERREXT; // endRemoval
+    public static final int JPOS_ECHK_NOROOM  = 3 + JposConst.JPOSERREXT; // storeImage
+
+    /////////////////////////////////////////////////////////////////////
+    // "StatusUpdateEvent" Event: "status" Parameter Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CHK_SUE_SCANCOMPLETE = 11;
+}

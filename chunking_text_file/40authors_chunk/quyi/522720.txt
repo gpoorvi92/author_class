@@ -1,0 +1,10 @@
+      StringBuilder sb = new StringBuilder("modifyNodeManagerConfig_args(");
+      boolean first = true;
+
+      sb.append("nodeId:");
+      if (this.nodeId == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.nodeId);
+      }
+      first = false;

@@ -1,0 +1,10 @@
+        text.setLayout(new GridBagLayout());
+		GridBagConstraints gbc = new GridBagConstraints();
+		
+        gbc.gridy = 0;
+        gbc.gridx = 0;
+        text.add(tel, gbc);
+        gbc.gridy = 1;
+        text.add(fax, gbc);
+        gbc.gridy = 2;
+        text.add(email, gbc);

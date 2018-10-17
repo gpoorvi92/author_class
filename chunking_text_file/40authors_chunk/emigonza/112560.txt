@@ -1,0 +1,5 @@
+  public void    endRemoval() throws JposException;
+  public void    retrieveImage(int cropAreaID) throws JposException;
+  public void    retrieveMemory(int by) throws JposException;
+  public void    storeImage(int by) throws JposException;
+}

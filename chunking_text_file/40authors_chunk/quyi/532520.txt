@@ -1,0 +1,10 @@
+    this.riskDescription = null;
+  }
+
+  public String getApiName() {
+    return this.apiName;
+  }
+
+  public APICheck setApiName(String apiName) {
+    this.apiName = apiName;
+    return this;

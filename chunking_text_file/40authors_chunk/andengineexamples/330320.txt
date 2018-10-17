@@ -1,0 +1,10 @@
+
+	@Override
+	public short getFlag() {
+		return FLAG_MESSAGE_SERVER_SET_PADDLEID;
+	}
+
+	@Override
+	protected void onReadTransmissionData(DataInputStream pDataInputStream) throws IOException {
+		this.mPaddleID = pDataInputStream.readInt();
+	}

@@ -1,0 +1,8 @@
+
+    public native void __ancestorMoved( javax.swing.event.AncestorEvent event );
+
+    public void ancestorMoved( javax.swing.event.AncestorEvent event ) {
+        __ancestorMoved( event );
+    }
+
+}

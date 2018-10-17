@@ -1,0 +1,10 @@
+import com.nercis.isscp.ts.TSOperate;
+import com.nercis.isscp.util.ExportExcel;
+import com.nercis.isscp.util.SingleRecordInfo;
+import com.nercis.isscp.util.SingleRecordInfoQueue;
+
+public class TSOperateImpl implements TSOperate.Iface {
+
+	public TSOperateImpl() {
+		// TODO Auto-generated constructor stub
+	}

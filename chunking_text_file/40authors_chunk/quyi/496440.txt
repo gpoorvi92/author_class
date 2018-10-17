@@ -1,0 +1,10 @@
+  public boolean isSet(_Fields field) {
+    if (field == null) {
+      throw new IllegalArgumentException();
+    }
+
+    switch (field) {
+    case ENGINE_ID:
+      return isSetEngineId();
+    case ENGINE_NAME:
+      return isSetEngineName();

@@ -1,0 +1,10 @@
+
+	//Constructor of Class.
+
+	public ViewAllMembers (Connection con) {
+
+		//super (Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("View All Members", false, true, false, true);
+		setSize (510, 280);
+
+		//Setting Panel's Layout.

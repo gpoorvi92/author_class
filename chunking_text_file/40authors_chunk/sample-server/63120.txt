@@ -1,0 +1,10 @@
+/**
+ * User: Teaey
+ * Date: 13-5-16
+ */
+public class ProtocolBuffersDecoder extends FrameDecoder
+{
+    private final MessageLite prototype;
+    private final ExtensionRegistry extensionRegistry;
+
+    /**

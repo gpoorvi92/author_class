@@ -1,0 +1,10 @@
+					sdIcon2.setVisibility(View.VISIBLE);
+					stIcon2.setVisibility(View.GONE);
+					checYzmBtn.setEnabled(true);
+					alertDialog = alertDialogBuilder.show();
+					break;
+				case 3:
+					sdIcon3.setVisibility(View.VISIBLE);
+					stIcon3.setVisibility(View.GONE);
+					Intent intent = new Intent(RegisterTipActivity.this,
+							MainActivity.class);

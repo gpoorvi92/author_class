@@ -1,0 +1,10 @@
+package tableSelection;
+
+import java.awt.event.*;
+import java.util.*;
+import javax.swing.*;
+import javax.swing.table.*;
+
+/**
+ * This frame shows a multiplication table and has menus for setting the row/column/cell selection modes, and for adding
+ * and removing rows and columns.

@@ -1,0 +1,10 @@
+                return null;
+
+            Object fieldValue = field.get(null);
+            if (field == null || !(fieldValue instanceof String)) {
+                return null;
+            }
+
+            return (String) fieldValue;
+        } catch (Exception e) {
+

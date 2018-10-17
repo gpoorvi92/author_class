@@ -1,0 +1,10 @@
+import com.android.wpvolley.Response;
+import com.android.wpvolley.Response.ErrorListener;
+import com.android.wpvolley.Response.Listener;
+
+import java.io.UnsupportedEncodingException;
+
+/**
+ * A canned request for retrieving the response body at a given URL as a String.
+ */
+public class StringRequest extends Request<String> {

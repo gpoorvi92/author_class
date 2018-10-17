@@ -1,0 +1,7 @@
+   public Set<String> badWordSet()
+   {
+      Set<String> set = new HashSet<>();
+      set.addAll(Arrays.asList(getName().split(",")));
+      return set;
+   }
+}

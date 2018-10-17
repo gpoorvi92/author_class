@@ -1,0 +1,9 @@
+   public Win32RegKeyException()
+   {
+   }
+
+   public Win32RegKeyException(String why)
+   {
+      super(why);
+   }
+}

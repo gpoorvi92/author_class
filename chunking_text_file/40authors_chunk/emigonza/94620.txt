@@ -1,0 +1,10 @@
+
+	/**
+	 * Visits a  DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitBumpBar( DevCat devCat );
+
+	/**
+	 * Visits a CashChanger DevCat
+	 * @param devCat the DevCat

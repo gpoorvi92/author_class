@@ -1,0 +1,10 @@
+
+		try {
+
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost/eis?user=root&password=");
+			//System.out.println("Connection open");
+			Statement st;
+			ResultSet rs;
+			st=conn.createStatement();
+			mstrSQL = "select * from acct5 where cdeptcode = '" + tstrDeptCode + "' and ccompcode = '" + tstrCompCode + "'";

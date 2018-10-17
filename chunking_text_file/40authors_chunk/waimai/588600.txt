@@ -1,0 +1,10 @@
+    private IOrderService orderService;
+    @Autowired
+    private ISendAddressService sendAddressService;
+
+    @RequestMapping("/add")
+    public @ResponseBody Map<String, Object> add(String detail, Order order) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        ObjectMapper mapper = new ObjectMapper();
+        List<OrderDetail> orderDetails = null;
+        sendAddressService.add(order.getUserId(), order.getAddress());

@@ -1,0 +1,10 @@
+		AbstractCommonData acd = SystemUtil.getCommonData("S22003",
+				this.bindUsername);
+		// acd.putBooleanValue("is_alert", true);
+		acd.putStringValue("_url", ConstVariables.VIO_SERVER_URL);
+		acd.putObjectValue("ipacket", HttpSendFactory.getClientSendMethod());
+		acd.putObjectValue("iservice", new IServiceLogic() {
+
+			@Override
+			public AbstractCommonData doSuccess(AbstractCommonData acd) {
+				update("update_bind_veh", new Date().getTime(),

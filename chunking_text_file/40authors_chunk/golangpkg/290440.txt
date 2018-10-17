@@ -1,0 +1,10 @@
+	 * @param fileId
+	 * @return
+	 */
+	public FileProgressStatus getProgress(UUID fileId) {
+		synchronized (fileToProgressInfo) {
+			return fileToProgressInfo.get(fileId);
+		}
+	}
+
+	

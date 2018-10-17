@@ -1,0 +1,7 @@
+	public void setControlResponse(ControlResponse res) 
+	{
+		ctrlRes = res;
+	}
+
+}
+

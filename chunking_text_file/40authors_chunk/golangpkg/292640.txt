@@ -1,0 +1,10 @@
+		// schedule file for deletion
+		fileDeleter.deleteFile(uuidFileParent);
+
+		// remove entity from cache
+		staticStateManager.cache.invalidate(clientId);
+
+	}
+	
+	
+	/**

@@ -1,0 +1,10 @@
+        struct.operate = EngineOperation.findByValue(iprot.readI32());
+        struct.setOperateIsSet(true);
+      }
+    }
+
+  }
+
+  public static class operateEngine_result implements org.apache.thrift.TBase<operateEngine_result, operateEngine_result._Fields>, java.io.Serializable, Cloneable, Comparable<operateEngine_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("operateEngine_result");
+

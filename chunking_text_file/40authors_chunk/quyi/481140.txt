@@ -1,0 +1,10 @@
+    public queryMission_result setIre(com.nercis.isscp.idl.InvalidRequestException ire) {
+      this.ire = ire;
+      return this;
+    }
+
+    public void unsetIre() {
+      this.ire = null;
+    }
+
+    /** Returns true if field ire is set (has been assigned a value) and false otherwise */

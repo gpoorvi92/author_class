@@ -1,0 +1,10 @@
+ * Date: 13-7-10
+ */
+@Entity
+@Table(name = "gm_user")
+public class UserEntity extends Persistance
+{
+    @Column(name = "account")
+    private String account;
+    @Column(name = "passwd")
+    private String passwd;

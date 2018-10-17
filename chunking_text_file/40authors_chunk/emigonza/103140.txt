@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface CoinDispenserService13 extends CoinDispenserService12
+{
+    // Capabilities

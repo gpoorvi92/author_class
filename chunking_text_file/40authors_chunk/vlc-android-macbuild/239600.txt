@@ -1,0 +1,10 @@
+    public String mPlayTag;
+    public ArrayList<Segment> mSegmentList = new ArrayList<Segment>();
+    public long mPseudoBitrate;
+
+    public PlayIndex(String playTag) {
+        mPlayTag = playTag;
+    }
+
+    public PlayIndex(String playTag, String url) {
+        this(playTag);

@@ -1,0 +1,10 @@
+        CONFIG_FILE = path.getPath() + "mail.properties";
+    }
+
+    private Properties properties = new Properties();
+    /**
+     * Message对象将存储我们实际发送的电子邮件信息，
+     */
+    private MimeMessage message;
+
+    /**

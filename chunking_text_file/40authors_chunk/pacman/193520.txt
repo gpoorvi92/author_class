@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @param audioBitRate the audioBitRate to set
+	 */
+	public void setAudioBitRate(int audioBitRate) {
+		this.audioBitRate = audioBitRate;
+	}
+
+	/**

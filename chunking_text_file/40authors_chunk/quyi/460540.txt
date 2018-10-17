@@ -1,0 +1,10 @@
+      schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("searchAllEng_args(");
+      boolean first = true;
+
+      sb.append(")");
+      return sb.toString();

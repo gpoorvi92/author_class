@@ -1,0 +1,10 @@
+	private String audioPath;
+	private MediaPlayer mediaPlayer;
+	private boolean isPlay = false;
+	private Handler handler = new Handler();
+	private ImageView voiceImage;
+	private TextView secondsTv;
+	private int flag = 0;
+
+	private Runnable playVoice = new Runnable() {
+

@@ -1,0 +1,10 @@
+	public int getSxhCount() {
+		return sxhCount;
+	}
+	public void setSxhCount(int sxhCount) {
+		this.sxhCount = sxhCount;
+	}
+	public double getBfLength() {
+		return bfLength;
+	}
+	public void setBfLength(double bfLength) {

@@ -1,0 +1,10 @@
+ * 5:string engineType 引擎类型
+ * 6:list<string> engineRules 引擎规则
+ * 7:list<string> enginePlots 引擎策略
+ */
+public class Engine implements org.apache.thrift.TBase<Engine, Engine._Fields>, java.io.Serializable, Cloneable, Comparable<Engine> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Engine");
+
+  private static final org.apache.thrift.protocol.TField ENGINE_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("engineId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField ENGINE_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("engineName", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField ENGINE_IP_FIELD_DESC = new org.apache.thrift.protocol.TField("engineIp", org.apache.thrift.protocol.TType.STRING, (short)3);

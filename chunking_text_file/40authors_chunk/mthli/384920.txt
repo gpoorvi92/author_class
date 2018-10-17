@@ -1,0 +1,10 @@
+package unsynch;
+
+/**
+ * A bank with a number of bank accounts.
+ * @version 1.30 2004-08-01
+ * @author Cay Horstmann
+ */
+public class Bank
+{
+   private final double[] accounts;

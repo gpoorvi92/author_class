@@ -1,0 +1,10 @@
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<TypeForBrand> selectTypeForBrandByMaterialBrand(String brandID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_typeforbrand where valid=true and materialbrandID=?")
+				.addEntity(TypeForBrand.class);
+		return query.setString(0, brandID).list();

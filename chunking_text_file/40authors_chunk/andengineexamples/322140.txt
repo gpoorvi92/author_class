@@ -1,0 +1,10 @@
+		this.mFont.load();
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+		
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		for(int i = 0; i < TEXT_COUNT; i++) {

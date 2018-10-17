@@ -1,0 +1,10 @@
+		protected void addButtons(JToolBar toolBar) {
+        
+        //first button
+        button = new JButton(new ImageIcon("new.gif"));
+        button.setToolTipText("New");
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	patron_no_text.setText("");
+            	patron_name_text.setText("");
+            	patron_group_type_text.setText("");

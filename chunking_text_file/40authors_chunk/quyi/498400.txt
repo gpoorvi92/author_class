@@ -1,0 +1,10 @@
+
+  public FileOperate setOperateType(String operateType) {
+    this.operateType = operateType;
+    return this;
+  }
+
+  public void unsetOperateType() {
+    this.operateType = null;
+  }
+

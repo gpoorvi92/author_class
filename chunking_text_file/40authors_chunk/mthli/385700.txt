@@ -1,0 +1,10 @@
+
+      JScrollPane scrollPane = new JScrollPane(tree);
+      add(scrollPane, BorderLayout.CENTER);
+
+      makeButtons();
+   }
+
+   public TreeNode makeSampleTree()
+   {
+      DefaultMutableTreeNode root = new DefaultMutableTreeNode("World");

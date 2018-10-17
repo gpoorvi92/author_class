@@ -1,0 +1,6 @@
+            res.append("/");
+            res.append(dirs.get(i));
+        }
+        return res.toString();
+    }
+}

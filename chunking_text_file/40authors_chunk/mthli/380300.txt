@@ -1,0 +1,10 @@
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);
+      JMenu fileMenu = new JMenu("File");
+      menuBar.add(fileMenu);
+
+      // Add About and Exit menu items.
+
+      // The About item shows the About dialog.
+
+      JMenuItem aboutItem = new JMenuItem("About");

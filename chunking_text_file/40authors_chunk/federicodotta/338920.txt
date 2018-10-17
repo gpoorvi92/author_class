@@ -1,0 +1,10 @@
+     * @return The start offset of the parameter value within the HTTP request,
+     * or -1 if the parameter is not associated with a specific request.
+     */
+    int getValueStart();
+
+    /**
+     * This method is used to retrieve the end offset of the parameter value
+     * within the HTTP request.
+     *
+     * @return The end offset of the parameter value within the HTTP request, or

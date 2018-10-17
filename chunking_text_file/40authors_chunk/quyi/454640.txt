@@ -1,0 +1,10 @@
+     */
+    public EngineOperation getOperate() {
+      return this.operate;
+    }
+
+    /**
+     * 
+     * @see EngineOperation
+     */
+    public operateEngine_args setOperate(EngineOperation operate) {

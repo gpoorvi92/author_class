@@ -1,0 +1,10 @@
+  public boolean isSetEnginePlots() {
+    return this.enginePlots != null;
+  }
+
+  public void setEnginePlotsIsSet(boolean value) {
+    if (!value) {
+      this.enginePlots = null;
+    }
+  }
+

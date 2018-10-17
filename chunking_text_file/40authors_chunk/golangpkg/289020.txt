@@ -1,0 +1,10 @@
+
+		private <T extends Exception> ExceptionCodeMapping(int exceptionIdentifier, Class<T> clazz) {
+			this(exceptionIdentifier);
+			this.clazz = clazz;
+		}
+
+
+		public int getExceptionIdentifier() {
+			return exceptionIdentifier;
+		}

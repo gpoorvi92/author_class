@@ -1,0 +1,10 @@
+        };
+    }
+
+    /**
+     * Creates a new response delivery interface, mockable version
+     * for testing.
+     * @param executor For running delivery tasks
+     */
+    public ExecutorDelivery(Executor executor) {
+        mResponsePoster = executor;

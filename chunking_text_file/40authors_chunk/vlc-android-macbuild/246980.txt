@@ -1,0 +1,10 @@
+    }
+
+    public static final boolean isApi14_IceCreamSandwichOrLater() {
+        return getSDKVersion() >= ICE_CREAM_SANDWICH;
+    }
+
+    public static final boolean isApi16_JellyBean() {
+        int sdk = getSDKVersion();
+        return sdk == JELLY_BEAN;
+    }

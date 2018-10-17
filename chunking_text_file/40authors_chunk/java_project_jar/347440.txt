@@ -1,0 +1,10 @@
+        {
+            this.names = new String[names.length];
+            System.arraycopy(names, 0, this.names, 0, names.length);
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public NameFileFilter(List names)
+    {

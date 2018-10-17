@@ -1,0 +1,10 @@
+import com.jufan.platform.ui.R;
+import com.jufan.platform.ui.WebContentActivity;
+import com.jufan.platform.util.GlobalVariables;
+import com.jufan.platform.ui.R;
+import com.jufan.platform.ui.WebContentActivity;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+
+import android.content.Intent;
+import android.support.v4.view.PagerAdapter;

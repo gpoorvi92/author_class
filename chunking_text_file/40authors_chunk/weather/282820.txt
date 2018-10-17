@@ -1,0 +1,10 @@
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        mContext = this;
+        RequestManager.init(this);
+    }
+
+    /**
+     * Return the current display metrics that are in effect for this resource object.

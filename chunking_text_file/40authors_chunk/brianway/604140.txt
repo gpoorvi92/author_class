@@ -1,0 +1,10 @@
+                        conditionB.await();
+                    }
+                    for (int i = 0; i < 3; i++) {
+                        System.out.println("ThreadB " + (i + 1));
+                    }
+                    nextPrintWho = 3;
+                    conditionC.signalAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } finally {

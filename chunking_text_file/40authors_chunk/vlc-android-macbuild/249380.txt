@@ -1,0 +1,10 @@
+    public Bundle getIndexBundle() {
+        synchronized (mIndexLock) {
+            return mIndexBundle;
+        }
+    }
+
+    public PlayIndex getPlayIndex() {
+        synchronized (mIndexLock) {
+            return mPlayIndex;
+        }

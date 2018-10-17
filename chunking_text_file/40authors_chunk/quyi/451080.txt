@@ -1,0 +1,10 @@
+        super("searchMission");
+      }
+
+      public searchMission_args getEmptyArgsInstance() {
+        return new searchMission_args();
+      }
+
+      public AsyncMethodCallback<MissionResults> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<MissionResults>() { 

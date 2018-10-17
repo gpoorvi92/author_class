@@ -1,0 +1,10 @@
+		return true;
+	}
+
+	public boolean close()
+	{
+ 		try {
+ 			if (sockIn != null)
+				sockIn.close();
+			if (sockOut != null)
+				sockOut.close();

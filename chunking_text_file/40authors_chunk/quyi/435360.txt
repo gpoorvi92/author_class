@@ -1,0 +1,10 @@
+  public List<RunMonitor> getAutoRunMonitor() {
+    return this.autoRunMonitor;
+  }
+
+  public DynamicCheckResultData setAutoRunMonitor(List<RunMonitor> autoRunMonitor) {
+    this.autoRunMonitor = autoRunMonitor;
+    return this;
+  }
+
+  public void unsetAutoRunMonitor() {

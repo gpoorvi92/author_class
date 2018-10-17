@@ -1,0 +1,10 @@
+ *
+ * You can create any count of proxy instances and run they in together.
+ *
+ * @see TcpProxyConnectorFactory
+ * @see TcpProxyConnector
+ * @see StaticTcpProxyConfig
+ * @see TcpServer
+ */
+public class TcpProxy {
+

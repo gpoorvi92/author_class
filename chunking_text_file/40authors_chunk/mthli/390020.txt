@@ -1,0 +1,10 @@
+ */
+class CompositeTestFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 400;
+
+   private CompositeComponent canvas;
+   private JComboBox<Rule> ruleCombo;
+   private JSlider alphaSlider;
+   private JTextField explanation;

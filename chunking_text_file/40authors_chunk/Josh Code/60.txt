@@ -1,0 +1,10 @@
+        if (filename.endsWith(".xyz"))
+            return true;
+        else
+            return false;
+    }
+
+    /** saves the model from the specified file
+     */
+    public void saveModel(Model m, File f) throws IOException
+    {

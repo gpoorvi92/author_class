@@ -1,0 +1,10 @@
+	        	returnVal = fc.showDialog(FileChooser.this, "Open");
+			
+		} else if (_fileType == "zipdecompress" && _action == "Save"){ // Target file for Decompress
+			fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/DesImages"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");
+		} else if (_fileType == "otherdecompress" && _action == "Save"){ // Target file for Decompress
+            	fc.addChoosableFileFilter(new ImageFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/DesImages"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");

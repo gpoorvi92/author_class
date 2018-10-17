@@ -1,0 +1,10 @@
+    public DeleteTask(String repoID, String path, boolean isdir, DataManager dataManager) {
+        this.repoID = repoID;
+        this.path = path;
+        this.isdir = isdir;
+        this.dataManager = dataManager;
+    }
+
+    @Override
+    protected void runTask() {
+        try {

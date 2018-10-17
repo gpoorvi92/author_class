@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot;
+
+import com.pengrad.telegrambot.model.Chat;
+import com.pengrad.telegrambot.model.Message;
+import com.pengrad.telegrambot.model.Update;
+import com.pengrad.telegrambot.model.User;
+import com.pengrad.telegrambot.response.GetUpdatesResponse;
+
+import java.io.FileInputStream;
+import java.io.IOException;

@@ -1,0 +1,7 @@
+                BEAN_SIMPLE_PROPERTIES.put(className, simpleProperties);
+                BEAN_SIMPLE_PROPERTIESIGNORE.put(className, simplePropertiesIgnore);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+          oprot.writeFieldBegin(FUNCTION_STATUS_FIELD_DESC);
+          {
+            oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.I32, struct.functionStatus.size()));
+            for (Map.Entry<String, CheckResultStatus> _iter142 : struct.functionStatus.entrySet())
+            {
+              oprot.writeString(_iter142.getKey());
+              oprot.writeI32(_iter142.getValue().getValue());
+            }
+            oprot.writeMapEnd();
+          }

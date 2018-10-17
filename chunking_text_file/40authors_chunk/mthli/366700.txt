@@ -1,0 +1,10 @@
+            {
+               JFrame frame = new PermissionTestFrame();
+               frame.setTitle("PermissionTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+

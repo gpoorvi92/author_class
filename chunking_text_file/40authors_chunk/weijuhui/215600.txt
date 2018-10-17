@@ -1,0 +1,10 @@
+    /**
+     * Pushes our current time into all child ScrollLayouts, except the source
+     * of the time change (if specified)
+     *
+     * @param source The ScrollLayout that generated the time change, or null if
+     *               this isn't the result of a ScrollLayout-generated time change.
+     */
+    private void arrangeScrollers(ScrollLayout source) {
+        final int childCount = getChildCount();
+        for (int i = 0; i < childCount; i++) {

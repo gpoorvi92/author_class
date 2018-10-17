@@ -1,0 +1,10 @@
+//局部代码块
+/*
+class Code {
+	public void show() {
+		//局部代码块
+		{
+			int x = 10;
+			System.out.println(x);
+		}
+

@@ -1,0 +1,10 @@
+	FileDeleter fileDeleter;
+
+
+
+	@Test
+	public void test()
+			throws IOException {
+		// put some files
+		File rootFolder = staticStateRootFolderProvider.getRootFolder();
+

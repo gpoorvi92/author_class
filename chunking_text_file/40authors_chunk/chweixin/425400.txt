@@ -1,0 +1,10 @@
+	public WeChatAccount findAccount(String account) {
+		if(account == null || account.trim().isEmpty()) return null;
+		final String hql = "from WeChatAccount w where w.account = :account order by w.createTime desc";
+		Map<String, Object> parameters = new HashMap<>();
+		parameters.put("account", account);
+		List<WeChatAccount> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;
+		return list.get(0);
+	}
+}

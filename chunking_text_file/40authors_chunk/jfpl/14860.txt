@@ -1,0 +1,10 @@
+			} catch (Exception e) {
+				// 无EditText焦点
+			}
+		} else {
+			voiceBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.voice_record_button));
+			pressRecordBtn.setVisibility(View.GONE);
+			chatEt.setVisibility(View.VISIBLE);
+		}
+		isInputType = !isInputType;

@@ -1,0 +1,10 @@
+  public static final int SC_MODE_BLOCK = 2;  // Block Data Mode.
+  public static final int SC_MODE_APDU  = 4;  // Same as Block Data Mode except APDU Standard Defines the Commands and data.
+  public static final int SC_MODE_XML   = 8;  // XML Block Data Mode.
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "IsoEmvMode" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_MODE_ISO = 1;  // APDU messaging format currently in use conforms to the ISO standard.

@@ -1,0 +1,10 @@
+	
+	/**
+	 * info.
+	 * 
+	 * @param msg
+	 * @param t
+	 */
+	void info(String msg, Throwable t);
+	
+	/**

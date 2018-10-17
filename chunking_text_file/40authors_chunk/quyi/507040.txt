@@ -1,0 +1,10 @@
+     */
+    public static _Fields findByThriftId(int fieldId) {
+      switch(fieldId) {
+        case 1: // MISSION_ID
+          return MISSION_ID;
+        case 2: // USER_APP_ID
+          return USER_APP_ID;
+        case 3: // USED_PERMISSIONS
+          return USED_PERMISSIONS;
+        case 4: // PLOTS_STATUS

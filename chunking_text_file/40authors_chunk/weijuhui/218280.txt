@@ -1,0 +1,10 @@
+public class WelcomeActivity extends Activity implements Runnable {
+
+	
+	
+	@AfterViews
+	void initConfig(){
+		//makeRequest();
+		
+		if(LocalStore.getInit(this)){
+			new Thread(this).start();

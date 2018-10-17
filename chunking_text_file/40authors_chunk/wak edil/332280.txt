@@ -1,0 +1,10 @@
+public void actionPerformed(ActionEvent e)
+	{
+    	if (e.getSource() == btnPrint)
+    	{
+			this.dispose();
+			System.exit(0);
+	 	}
+	}
+     public static void main(String[]args)
+	{

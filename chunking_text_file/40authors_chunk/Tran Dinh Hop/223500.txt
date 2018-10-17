@@ -1,0 +1,10 @@
+
+	private int totalBytes=0,mycount=0;
+	private int freq[],arr=0;
+	private String summary="";
+	private File inputFile;
+	private Table table;
+
+	private FileInputStream in1;
+	private ObjectInputStream inF;
+	private BufferedInputStream in;

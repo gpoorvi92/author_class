@@ -1,0 +1,10 @@
+    if (isSetRuleNo()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.ruleNo, other.ruleNo);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCategory()).compareTo(other.isSetCategory());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

@@ -1,0 +1,10 @@
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, Software struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetOsArch()) {
+        optionals.set(0);
+      }
+      if (struct.isSetOsName()) {
+        optionals.set(1);

@@ -1,0 +1,10 @@
+			logger.error("发生异常：" + e.getMessage(), e);
+		}finally{
+			logger.info("处理完毕！[耗时：" + (System.currentTimeMillis() - before) + " ms]");
+		}
+	}
+	/**
+	 * 处理微信服务器发来的消息。
+	 * @param req
+	 * @param resp
+	 * */

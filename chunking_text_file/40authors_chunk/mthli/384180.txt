@@ -1,0 +1,10 @@
+            }
+         });
+      buttonPanel.add(wrapButton);
+      buttonGroup.add(wrapButton);
+      wrapButton.setSelected(true);
+      JRadioButton scrollButton = new JRadioButton("Scroll tabs");
+      scrollButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

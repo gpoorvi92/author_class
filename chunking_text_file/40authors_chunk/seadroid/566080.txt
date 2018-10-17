@@ -1,0 +1,10 @@
+/*
+ * App passcode library for Android, master branch
+ * Dual licensed under MIT, and GPL.
+ * See https://github.com/wordpress-mobile/Android-PasscodeLock
+ */
+package com.seafile.seadroid2.gesturelock;
+
+import android.app.Activity;
+import android.app.Application;
+import android.content.Intent;

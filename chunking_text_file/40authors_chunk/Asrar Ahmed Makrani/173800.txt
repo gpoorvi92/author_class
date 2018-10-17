@@ -1,0 +1,10 @@
+							{
+								sqlex.printStackTrace();
+								testing.setText("a");
+							}
+						}
+						
+						
+						cnt = 0;
+						i = 0;
+						statement.close();

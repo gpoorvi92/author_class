@@ -1,0 +1,10 @@
+	private DrawThread drawThread;//刷帧的线程
+	
+	Bitmap loading1;//下面的剑的图片
+	Bitmap loading2;//上面的剑的图片
+	Rect r1;//取上面的剑的哪部分
+	Rect r2;//将取出的部分绘制到屏幕的哪部分
+	
+	int type;//进度条结束后去的界面
+	Paint paint;//画笔
+	

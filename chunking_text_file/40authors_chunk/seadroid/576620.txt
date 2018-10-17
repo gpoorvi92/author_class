@@ -1,0 +1,10 @@
+        }
+        switch (info.state) {
+        case INIT:
+            break;
+        case TRANSFERRING:
+            updateProgress(info.fileSize, info.finished);
+            break;
+        case CANCELLED:
+            break;
+        case FAILED:

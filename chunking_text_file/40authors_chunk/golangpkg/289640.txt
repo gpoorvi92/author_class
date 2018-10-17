@@ -1,0 +1,8 @@
+		fileDeleter.deleteFile(fake);
+		fileDeleter.deleteFile(file);
+		fileDeleter.run();
+		Assert.assertThat(fake.exists(), is(Boolean.FALSE));
+		Assert.assertThat(file.exists(), is(Boolean.FALSE));
+	}
+
+}

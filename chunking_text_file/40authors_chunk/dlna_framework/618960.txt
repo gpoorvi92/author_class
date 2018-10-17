@@ -1,0 +1,10 @@
+import org.cybergarage.xml.ParserException;
+import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
+import org.xml.sax.InputSource;
+
+
+public class JaxpParser extends Parser
+{
+
+	public JaxpParser()

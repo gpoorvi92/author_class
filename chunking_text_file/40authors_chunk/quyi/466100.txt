@@ -1,0 +1,10 @@
+  failure(5),
+  breaked(6),
+  other(7);
+
+  private final int value;
+
+  private CheckResultStatus(int value) {
+    this.value = value;
+  }
+

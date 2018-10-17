@@ -1,0 +1,10 @@
+    return new EventSetDescriptor(jpos.PINPad.class,
+                                  eventName,
+                                  Class.forName(listener),
+                                  eventName + "Occurred");
+  }
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {
+    try
+    {

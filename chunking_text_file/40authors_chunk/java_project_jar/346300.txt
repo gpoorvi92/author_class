@@ -1,0 +1,10 @@
+    protected abstract OutputStream getStream()
+        throws IOException;
+
+    protected abstract void thresholdReached()
+        throws IOException;
+
+    private final int threshold;
+    private long written;
+    private boolean thresholdExceeded;
+}

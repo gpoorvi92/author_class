@@ -1,0 +1,10 @@
+*	03/28/03
+*		- first revision.
+*	12/25/03
+*		- Added Advertiser functions.
+*
+******************************************************************/
+
+package org.cybergarage.upnp.xml;
+
+import java.io.*;

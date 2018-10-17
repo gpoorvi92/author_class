@@ -1,0 +1,10 @@
+            ans[c++] = i++;
+        return ans;
+    }
+
+    /**
+     * generates randomly N distinct integers from 0 to Max.
+     *
+     * @param N   Number of integers to generate
+     * @param Max Maximum value of the integers
+     * @return array containing random integers

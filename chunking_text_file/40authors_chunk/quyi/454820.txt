@@ -1,0 +1,10 @@
+      boolean this_present_engine = true && this.isSetEngine();
+      boolean that_present_engine = true && that.isSetEngine();
+      if (this_present_engine || that_present_engine) {
+        if (!(this_present_engine && that_present_engine))
+          return false;
+        if (!this.engine.equals(that.engine))
+          return false;
+      }
+
+      boolean this_present_operate = true && this.isSetOperate();

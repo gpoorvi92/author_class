@@ -1,0 +1,5 @@
+   public Dimension getPreferredSize()
+   {
+      return new Dimension(10, 10);
+   }
+}

@@ -1,0 +1,10 @@
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public boolean insert(Bill bill) {
+		try {
+			sessionFactory.getCurrentSession().save(bill);
+		} catch (Exception e) {
+			return false;

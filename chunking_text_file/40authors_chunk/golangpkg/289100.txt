@@ -1,0 +1,10 @@
+			catch (IOException ee) {
+				log.error(ee.getMessage());
+			}
+		}
+	}
+
+
+	public static ExceptionCodeMapping getExceptionCodeMappingByType(Exception e) {
+		if (e instanceof JavaFileUploaderException) {
+			return ((JavaFileUploaderException) e).getExceptionCodeMapping();

@@ -1,0 +1,10 @@
+				context.getAttribute(Constants.CONTEXT_SLICER_PUBLISH_PATH), classid, lessonid);
+		
+		String bareName = StringHelper.removeFileExtName(StringHelper.getFileBareName(mediaFile));
+		String mediaPath = mediaFile.replace(".flv", FileHelper.FILE_SEPARATOR); 
+		String xmlFile = FileHelper.combinePath(mediaPath, bareName + ".xml");
+
+		if (!FileHelper.exists(xmlFile)) {
+			
+			throw new FileNotFoundException(xmlFile);
+		}

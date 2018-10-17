@@ -1,0 +1,10 @@
+        }
+
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            if (mProvider.get() == null) {
+                return;
+            }
+            WeakReference<DataConsumer> consumer = this.mProvider.get().consumer;
+            if (msg.what == RESET_DATA) {
+                if (consumer != null && consumer.get() != null)

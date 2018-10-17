@@ -1,0 +1,10 @@
+				entry.operationName = "sendSms";
+				entry.srcDevice = "OSG";
+				entry.dstDevice = "ESB";
+
+				int traceId = seq.getAndIncrement();
+
+				entry.traceId = "0020" + traceIdFormatter.format(traceId);
+
+				logger.printLog(entry);
+

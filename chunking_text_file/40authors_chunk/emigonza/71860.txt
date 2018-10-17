@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface ImageScannerControl113 extends BaseControl
+{
+  // Nothing new added for release 1.13

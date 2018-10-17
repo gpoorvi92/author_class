@@ -1,0 +1,10 @@
+			acd.putStringValue("password",
+					SSLConnection.Md5(pwd + ConstVariables.NODE_MD5_CHECK_KEY));
+			String[] args = PushMessageReceiver.getBindInfo(this);
+			acd.putStringValue("user_id", args[2]);
+			acd.putStringValue("channel_id", args[1]);
+			acd.putStringValue("_url", ConstVariables.CHAT_BIND_INFO_URL);
+			acd.putObjectValue("iservice",
+					new LoginService(this, username, pwd));
+			acd.putObjectValue("ipacket",
+					HttpSendFactory.getChatPlatformSendMethod());

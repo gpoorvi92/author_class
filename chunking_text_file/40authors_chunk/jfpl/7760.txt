@@ -1,0 +1,10 @@
+			// 返回步行路线搜索结果
+		}
+
+		@Override
+		public void onGetBusDetailResult(MKBusLineResult result, int iError) {
+			// 返回公交车详情信息搜索结果
+		}
+
+		@Override
+		public void onGetSuggestionResult(MKSuggestionResult result, int iError) {

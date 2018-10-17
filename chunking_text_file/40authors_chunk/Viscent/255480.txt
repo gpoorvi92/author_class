@@ -1,0 +1,10 @@
+	 * 留给子类实现。用于子类实现其任务处理逻辑。
+	 * 
+	 * @param input
+	 *          输入元素（任务）
+	 * @return 任务的处理结果
+	 * @throws PipeException
+	 */
+	protected abstract OUT doProcess(IN input) throws PipeException;
+
+	@SuppressWarnings("unchecked")

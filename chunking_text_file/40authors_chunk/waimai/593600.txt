@@ -1,0 +1,10 @@
+@Controller
+@RequestMapping("/merchant/saleCount")
+public class MSaleCountController extends BaseController {
+    @Autowired
+    private ISaleCountService saleCountService;
+    @Autowired
+    private IGoodsService goodsService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(@ModelAttribute("vo") BaseConditionVO vo) {

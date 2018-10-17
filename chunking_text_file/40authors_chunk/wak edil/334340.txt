@@ -1,0 +1,10 @@
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import javax.swing.border.*;
+
+public class mainmenu extends JFrame implements ActionListener {
+
+	private JButton jbabout =new JButton("ABOUT");
+	private JButton jbexit =new JButton("EXIT");
+	

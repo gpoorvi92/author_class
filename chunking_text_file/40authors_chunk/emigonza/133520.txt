@@ -1,0 +1,10 @@
+
+public interface PointCardRWConst
+{
+    /////////////////////////////////////////////////////////////////////
+    // "CapCharacterSet" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_CCS_ALPHA        =   1;
+    public static final int PCRW_CCS_ASCII        = 998;
+    public static final int PCRW_CCS_KANA         =  10;

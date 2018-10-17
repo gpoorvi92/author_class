@@ -1,0 +1,10 @@
+        try
+        {
+            handleStart(startDirectory, results);
+            walk(startDirectory, 0, results);
+            handleEnd(results);
+        }
+        catch(CancelException cancel)
+        {
+            handleCancelled(startDirectory, results, cancel);
+        }

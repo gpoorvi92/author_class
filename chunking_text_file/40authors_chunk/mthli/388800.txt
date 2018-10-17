@@ -1,0 +1,10 @@
+   private JLabel statusLine;
+   private JMenuItem openItem;
+   private JMenuItem cancelItem;
+   private SwingWorker<StringBuilder, ProgressData> textReader;
+   public static final int TEXT_ROWS = 20;
+   public static final int TEXT_COLUMNS = 60;
+
+   public SwingWorkerFrame()
+   {
+      chooser = new JFileChooser();

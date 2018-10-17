@@ -1,0 +1,10 @@
+import org.apache.commons.io.ByteOrderMark;
+
+// Referenced classes of package org.apache.commons.io.input:
+//            ProxyInputStream
+
+public class BOMInputStream extends ProxyInputStream
+{
+
+    public BOMInputStream(InputStream delegate)
+    {

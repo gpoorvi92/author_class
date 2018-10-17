@@ -1,0 +1,7 @@
+        buffer.append(")");
+        return buffer.toString();
+    }
+
+    private final String names[];
+    private final IOCase caseSensitivity;
+}

@@ -1,0 +1,10 @@
+                    for (int _i128 = 0; _i128 < _map127.size; ++_i128)
+                    {
+                      String _key129;
+                      APICheck _val130;
+                      _key129 = iprot.readString();
+                      _val130 = new APICheck();
+                      _val130.read(iprot);
+                      _elem126.put(_key129, _val130);
+                    }
+                    iprot.readMapEnd();

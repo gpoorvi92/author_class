@@ -1,0 +1,10 @@
+      int height = minHeight + insets.top + insets.bottom;
+      return new Dimension(width, height);
+   }
+
+   public void layoutContainer(Container parent)
+   {
+      setSizes(parent);
+
+      // compute center of the circle
+

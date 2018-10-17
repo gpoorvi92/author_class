@@ -1,0 +1,10 @@
+	// 高效字符流一次一个字符数组
+	private static void method4(String srcString, String destString)
+			throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(srcString));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(destString));
+
+		char[] chs = new char[1024];
+		int len = 0;
+		while ((len = br.read(chs)) != -1) {
+			bw.write(chs, 0, len);

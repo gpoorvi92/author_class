@@ -1,0 +1,10 @@
+	public static void main(String[] args) throws IOException {
+		// mergeTwo();
+		mergeMore();
+	}
+
+	private static void mergeMore() throws IOException {
+		// SequenceInputStream(Enumeration e):合并多个流对象
+		// public Enumeration<E> elements()
+		// Vector
+

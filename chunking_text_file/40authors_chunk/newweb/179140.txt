@@ -1,0 +1,10 @@
+	public void setID(int iD) {
+		ID = iD;
+	}
+	
+	@Column(name="userName")
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;

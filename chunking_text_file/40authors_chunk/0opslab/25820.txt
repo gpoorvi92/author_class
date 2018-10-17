@@ -1,0 +1,10 @@
+     * 存放BeanUtil解析过的JavaBean数据
+     * 只获取简单的属性字段
+     */
+    public static Map<String,Map<String,BeanStruct>> BEAN_SIMPLE_PROPERTIES = new Hashtable<>();
+
+
+    /**
+     * 存放BeanUtil解析过的JavaBean数据
+     * 只获取简单的属性字段(忽略字段名字的大小写)
+     */

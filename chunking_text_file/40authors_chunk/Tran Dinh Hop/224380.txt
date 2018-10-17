@@ -1,0 +1,10 @@
+
+		// If the array has no chain
+		// there is no match
+		if(data[hashCode] == null) 
+		{ 
+			return false; 
+		} 
+		else 
+		{
+			// chain exists

@@ -1,0 +1,10 @@
+
+      // chooser.setFilter(); 
+       // set filter to appropriate file types              
+     int response = chooser.showSaveDialog(mv);
+
+      if (response == JFileChooser.APPROVE_OPTION)
+      {
+         // save the model
+          File f = chooser.getSelectedFile();
+          try

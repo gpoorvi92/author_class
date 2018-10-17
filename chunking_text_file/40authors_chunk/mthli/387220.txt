@@ -1,0 +1,10 @@
+      for (int i = 0; i < builder.length(); i++)
+      {
+         if (builder.charAt(i) == '\r')
+         {
+            builder.replace(i, i + 1, "\\r");
+            i++;
+         }
+         else if (builder.charAt(i) == '\n')
+         {
+            builder.replace(i, i + 1, "\\n");

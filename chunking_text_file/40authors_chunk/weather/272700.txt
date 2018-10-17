@@ -1,0 +1,10 @@
+    @Override
+    public synchronized boolean cancel(boolean mayInterruptIfRunning) {
+        if (mRequest == null) {
+            return false;
+        }
+
+        if (!isDone()) {
+            mRequest.cancel();
+            return true;
+        } else {

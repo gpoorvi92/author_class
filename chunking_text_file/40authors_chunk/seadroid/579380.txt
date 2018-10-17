@@ -1,0 +1,10 @@
+        } else {
+            return getTypeForName(path);
+        }
+    }
+
+    /**
+     * Extract MIME Type of file ending.
+     *
+     * @param name file name
+     * @return MIME type

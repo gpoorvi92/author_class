@@ -1,0 +1,10 @@
+                for (int _i17 = 0; _i17 < _list16.size; ++_i17)
+                {
+                  Engine _elem18;
+                  _elem18 = new Engine();
+                  _elem18.read(iprot);
+                  struct.engines.add(_elem18);
+                }
+                iprot.readListEnd();
+              }
+              struct.setEnginesIsSet(true);

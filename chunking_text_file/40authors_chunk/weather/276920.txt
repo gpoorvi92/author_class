@@ -1,0 +1,10 @@
+        this.getDrawingRect(r);
+        int iconWidth = bitmap.getWidth();
+        int iconHeight = bitmap.getHeight();
+        int space = iconWidth / 2;
+
+        int x = (r.width() - (iconWidth * mTotalPage + space * (mTotalPage - 1))) / 2;
+        int y = (r.height() - iconHeight) / 2;
+
+        Bitmap drawBitmap = null;
+        for (int i = 0; i < mTotalPage; i++) {

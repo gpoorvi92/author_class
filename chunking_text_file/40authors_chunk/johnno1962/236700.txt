@@ -1,0 +1,10 @@
+    }
+
+    /// public void com.apple.eawt.ApplicationAdapter.handlePreferences(com.apple.eawt.ApplicationEvent)
+
+    public native void __handlePreferences( com.apple.eawt.ApplicationEvent arg0 );
+
+    boolean entered_handlePreferences_6;
+
+    public void handlePreferences( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handlePreferences_6 ) {

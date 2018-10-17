@@ -1,0 +1,10 @@
+                    mActivity, android.R.anim.fade_out));
+
+            mProgressContainer.setVisibility(View.VISIBLE);
+            mListContainer.setVisibility(View.INVISIBLE);
+        } else {
+            mProgressContainer.startAnimation(AnimationUtils.loadAnimation(
+                    mActivity, android.R.anim.fade_out));
+            mListContainer.startAnimation(AnimationUtils.loadAnimation(
+                    mActivity, android.R.anim.fade_in));
+

@@ -1,0 +1,10 @@
+                cpuInfo.addCpuInfo(line);
+
+                infoBuilder.append(line);
+                infoBuilder.append('\n');
+            }
+
+            cpuInfo.mRawCpuInfo = infoBuilder.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+            cpuInfo = null;

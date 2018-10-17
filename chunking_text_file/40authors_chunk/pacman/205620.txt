@@ -1,0 +1,10 @@
+		return nextInt(-1);
+	}
+	
+	public static int nextInt(int initValue) {
+		
+		if (initValue < 0) {
+			
+			return seed.getAndSet(initValue);
+		} else {
+			

@@ -1,0 +1,10 @@
+                        encoding = defaultEncoding;
+                    }
+                } else
+                if(xmlProlog.length() >= 4096)
+                    encoding = defaultEncoding;
+            } else
+            {
+                encoding = defaultEncoding;
+            }
+            if(encoding != null)

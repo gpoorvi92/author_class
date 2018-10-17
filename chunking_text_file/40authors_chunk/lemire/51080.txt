@@ -1,0 +1,4 @@
+    public int compareTo(EWAHPointer other) {
+        return this.endrun - other.endrun;
+    }
+}

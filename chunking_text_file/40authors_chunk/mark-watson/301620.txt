@@ -1,0 +1,10 @@
+			}
+			word_pair = testWord + " " + previous_word;
+			if (wordPairCounts.containsKey(word_pair)) {
+				count_from_word_pairs += wordPairCounts.get(word_pair);
+			}
+			int sum = count_from_1_word + count_from_word_pairs;
+			if (sum > 0)  {
+				candidates.put(sum, testWord);
+			}
+			System.out.println(word_pair + " : " + count_from_1_word + ", " + count_from_word_pairs + "  " + testWord);

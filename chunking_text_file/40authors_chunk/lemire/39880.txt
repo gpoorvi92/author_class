@@ -1,0 +1,10 @@
+    @Override
+    public void andWord(int position, int mask) {
+        setWord(position, getWord(position) & mask);
+    }
+
+    @Override
+    public void orWord(int position, int mask) {
+        setWord(position, getWord(position) | mask);
+    }
+

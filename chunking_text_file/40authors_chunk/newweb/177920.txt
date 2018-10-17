@@ -1,0 +1,10 @@
+		this.yjLength = yjLength;
+	}
+	public int getYjCount() {
+		return yjCount;
+	}
+	public void setYjCount(int yjCount) {
+		this.yjCount = yjCount;
+	}
+	public double getGgqLength() {
+		return ggqLength;

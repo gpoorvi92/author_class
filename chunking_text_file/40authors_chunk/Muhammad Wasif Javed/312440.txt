@@ -1,0 +1,10 @@
+						String q = "DELETE FROM Members WHERE MemberId = " + id + "";
+						txtClear ();				//Clearing the TextFields.
+						JOptionPane.showMessageDialog (this, "Record has been Deleted.");
+						ResultSet rs = st.executeQuery (q);	//Executing the Query.
+					}
+					catch (SQLException sqlex) { }
+
+				}
+				//If User's Choice No then Do Nothing Return to Program.
+				else if (reply == JOptionPane.NO_OPTION) { }

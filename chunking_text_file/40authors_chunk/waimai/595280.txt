@@ -1,0 +1,10 @@
+public class GoodsCollectionServiceImpl implements IGoodsCollectionService {
+    @Autowired
+    private GoodsCollectionMapper goodsCollectionMapper;
+    @Autowired
+    private GoodsMapper goodsMapper;
+
+    @Override
+    public void add(GoodsCollection goodsCollection) throws ServiceException {
+        if (goodsCollectionMapper.countByUserIdAndGoodsId(goodsCollection) > 0) {
+            throw new ServiceException("收藏一次就好");

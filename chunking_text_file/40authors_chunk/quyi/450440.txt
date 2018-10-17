@@ -1,0 +1,10 @@
+        }
+        return result;
+      }
+    }
+
+    public static class searchMission<I extends Iface> extends org.apache.thrift.ProcessFunction<I, searchMission_args> {
+      public searchMission() {
+        super("searchMission");
+      }
+

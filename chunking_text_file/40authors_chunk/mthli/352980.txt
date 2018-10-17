@@ -1,0 +1,10 @@
+ * permissions.
+ * @version 1.12 2012-06-10
+ * @author Cay Horstmann
+ */
+public class FileReadApplet extends JApplet
+{
+   private JTextField fileNameField;
+   private JTextArea fileText;
+
+   public void init()

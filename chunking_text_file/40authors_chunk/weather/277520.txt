@@ -1,0 +1,10 @@
+        consumer.clear();
+        consumer = null;
+    }
+
+    public final void loadCacheAsynchronous() {
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                loadCache();
+            }

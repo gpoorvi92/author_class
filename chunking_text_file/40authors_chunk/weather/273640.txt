@@ -1,0 +1,10 @@
+     * @return
+     */
+    public static String[] localizedStringArray(String aStrings, Context context) {
+        String packageName = context.getPackageName();
+        int resId = context.getResources().getIdentifier(aStrings, "array", packageName);
+        if (resId == 0) {
+            return null;
+        } else {
+            return context.getResources().getStringArray(resId);
+        }

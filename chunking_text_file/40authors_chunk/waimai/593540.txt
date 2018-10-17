@@ -1,0 +1,7 @@
+    public void delete(Integer[] ids) throws ServiceException {
+        if (goodsTypeMapper.delete(ids) < 1) {
+            throw new ServiceException("删除失败");
+        }
+    }
+
+}

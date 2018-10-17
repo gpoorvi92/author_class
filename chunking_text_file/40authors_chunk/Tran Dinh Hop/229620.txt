@@ -1,0 +1,10 @@
+
+public class MessageBox extends JPanel implements ActionListener{
+
+	private JTextField tfInput;
+	private JButton mbtStudent;
+	private JTextArea msgBoard;
+	
+	public MessageBox() {
+		
+		this.setLayout(new FlowLayout());

@@ -1,0 +1,10 @@
+
+        return filename;
+    }
+
+    public String setFileNameExtension(String filename)
+    {
+        String newExtension = mfs.getCommonExtension();
+        return setFileNameExtension(filename, newExtension);
+    }
+}

@@ -1,0 +1,10 @@
+            {
+               try
+               {
+                  System.out.println(new Scanner(Paths.get("woozle.txt")).next());
+               }
+               catch (IOException e)
+               {
+                  textField.setText(e.toString());
+               }
+            }

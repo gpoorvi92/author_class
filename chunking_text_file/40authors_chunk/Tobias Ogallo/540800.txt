@@ -1,0 +1,10 @@
+
+	private void printList() 
+	{
+    	try {
+                
+            ResultSet rst=Connect.getConnection().createStatement(
+			ResultSet.TYPE_SCROLL_INSENSITIVE,
+			ResultSet.CONCUR_UPDATABLE).executeQuery("select empNo,Sname,Fname,Gender,Designation,Telephone,E_Mail from Emp");
+                
+			

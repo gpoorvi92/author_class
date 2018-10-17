@@ -1,0 +1,10 @@
+    public InlineQueryResultVideo videoWidth(Integer videoWidth) {
+        this.video_width = videoWidth;
+        return this;
+    }
+
+    public InlineQueryResultVideo videoHeight(Integer videoHeight) {
+        this.video_height = videoHeight;
+        return this;
+    }
+

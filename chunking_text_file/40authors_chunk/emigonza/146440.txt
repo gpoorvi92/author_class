@@ -1,0 +1,10 @@
+  public boolean getAutoDisable() throws JposException;
+  public void    setAutoDisable(boolean autoDisable) throws JposException;
+  public int     getBitsPerPixel() throws JposException;
+  public int     getDataCount() throws JposException;
+  public boolean getDataEventEnabled() throws JposException;
+  public void    setDataEventEnabled(boolean dataEventEnabled)
+                     throws JposException;
+  public byte[]  getFrameData() throws JposException;
+  public int     getFrameType() throws JposException;
+  public boolean getIlluminateMode() throws JposException;

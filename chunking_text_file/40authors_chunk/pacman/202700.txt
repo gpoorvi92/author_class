@@ -1,0 +1,10 @@
+ * @date: 2015年1月9日 下午1:03:35
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.dao.impl;
+
+import java.sql.Types;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.SqlParameter;

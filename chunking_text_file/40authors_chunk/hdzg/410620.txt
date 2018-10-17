@@ -1,0 +1,10 @@
+		if(event.getAction() == MotionEvent.ACTION_DOWN){//屏幕被按下
+			int x = (int) event.getX();
+			int y = (int) event.getY();
+			if(x>212 && x<242 && y>15 && y<45){//点击了向下翻页按钮
+				if(items.size() == 0){
+					return true;
+				}			
+				selectI++;
+				if(selectI > items.size()-1){ 
+					selectI = items.size()-1;

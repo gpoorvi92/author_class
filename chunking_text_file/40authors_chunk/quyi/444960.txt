@@ -1,0 +1,10 @@
+
+  private static class AppCheckResultStandardSchemeFactory implements SchemeFactory {
+    public AppCheckResultStandardScheme getScheme() {
+      return new AppCheckResultStandardScheme();
+    }
+  }
+
+  private static class AppCheckResultStandardScheme extends StandardScheme<AppCheckResult> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, AppCheckResult struct) throws org.apache.thrift.TException {

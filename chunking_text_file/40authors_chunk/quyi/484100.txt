@@ -1,0 +1,10 @@
+          struct.dycRD = new com.nercis.isscp.idl.DynamicCheckResultData();
+          struct.dycRD.read(iprot);
+          struct.setDycRDIsSet(true);
+        }
+        if (incoming.get(3)) {
+          struct.virRD = new com.nercis.isscp.idl.virus.VirusDetectionResultData();
+          struct.virRD.read(iprot);
+          struct.setVirRDIsSet(true);
+        }
+      }

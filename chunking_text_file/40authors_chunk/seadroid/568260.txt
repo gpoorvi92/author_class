@@ -1,0 +1,10 @@
+
+    public List<DownloadTaskInfo> getDownloadTaskInfosByPath(String repoID, String dir) {
+        return downloadTaskManager.getTaskInfoListByPath(repoID, dir);
+    }
+
+    public void removeDownloadTask(int taskID) {
+        downloadTaskManager.removeInAllTaskList(taskID);
+    }
+
+    public void removeAllDownloadTasksByState(TaskState taskState) {

@@ -1,0 +1,10 @@
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+/**
+ * UserEntity: Teaey
+ * Date: 13-7-15
+ */
+public class RpcClientManager
+{
+    private static final Logger           log      = LoggerFactory.getLogger(RpcClientManager.class);
+    private static final RpcClientManager instance = new RpcClientManager();

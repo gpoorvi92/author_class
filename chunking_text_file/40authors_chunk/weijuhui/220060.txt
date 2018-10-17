@@ -1,0 +1,10 @@
+    protected String text;
+    protected boolean isCenter=false, isOutOfBounds=false;
+    protected TextView topView, bottomView;
+
+    /**
+     * constructor
+     *
+     * @param context
+     * @param isCenterView true if the element is the centered view in the ScrollLayout
+     * @param topTextSize	text size of the top TextView in dps

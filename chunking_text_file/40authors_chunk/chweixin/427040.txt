@@ -1,0 +1,10 @@
+	 * */
+	public String getDescription() {
+		return description;
+	}
+	/**
+	 * 设置音乐描述。
+	 * @param description
+	 * 	音乐描述。
+	 * */
+	public void setDescription(String description) {

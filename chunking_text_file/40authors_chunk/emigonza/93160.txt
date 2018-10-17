@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAutoStopBackward"),
+        makeProperty("CapAutoStopBackwardItemCount"),
+        makeProperty("CapAutoStopForward"),
+        makeProperty("CapAutoStopForwardItemCount"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapLightBarrierBackward"),
+        makeProperty("CapLightBarrierForward"),
+        makeProperty("CapMoveBackward"),
+        makeProperty("CapPowerReporting"),

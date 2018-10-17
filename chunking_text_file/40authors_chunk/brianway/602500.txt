@@ -1,0 +1,7 @@
+threadName= A in main 下一步 sleep end time =1460457470879
+threadName= B in sub 下一步 sleep begin time =1460457470879
+threadName= B in sub 下一步 sleep end time =1460457472879
+threadName= B in main 下一步 sleep begin time =1460457472879
+threadName= B in main 下一步 sleep end time =1460457477879
+
+ */

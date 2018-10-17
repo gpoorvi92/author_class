@@ -1,0 +1,10 @@
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFaceTextureRegion;
+
+	protected MenuScene mMenuScene;
+
+	private BitmapTextureAtlas mMenuTexture;
+	protected ITextureRegion mMenuResetTextureRegion;
+	protected ITextureRegion mMenuQuitTextureRegion;
+
+	// ===========================================================

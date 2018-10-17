@@ -1,0 +1,10 @@
+				WXWebpageObject webpage = new WXWebpageObject();
+				webpage.webpageUrl = request.getUrl();
+				WXMediaMessage msg = new WXMediaMessage(webpage);
+				msg.title = request.getTitle();
+				msg.description = request.getDescription();
+
+				Bitmap thumb = BitmapFactory.decodeResource(getResources(),
+						R.drawable.wx_msg);
+
+				msg.thumbData = Util.bmpToByteArray(thumb, true);

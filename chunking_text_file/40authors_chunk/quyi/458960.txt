@@ -1,0 +1,10 @@
+        return new searchMission_argsStandardScheme();
+      }
+    }
+
+    private static class searchMission_argsStandardScheme extends StandardScheme<searchMission_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, searchMission_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)

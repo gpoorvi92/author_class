@@ -1,0 +1,10 @@
+
+    public NewFileTask(String repoID, String parentDir,
+                       String fileName, DataManager dataManager) {
+        this.repoID = repoID;
+        this.parentDir = parentDir;
+        this.fileName = fileName;
+        this.dataManager = dataManager;
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+            IOFileFilter fileFilter = (IOFileFilter)i$.next();
+            if(fileFilter.accept(file))
+                return true;
+        }
+
+        return false;
+    }
+
+    public boolean accept(File file, String name)
+    {

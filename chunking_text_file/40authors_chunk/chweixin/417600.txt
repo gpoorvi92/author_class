@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置消息描述。
+	 * @param description
+	 * 消息描述。
+	 * */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	/**

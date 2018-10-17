@@ -1,0 +1,10 @@
+        if(url.equals("/") || url.equals("\\")){
+        	return true;
+        }
+        if(url.indexOf("isUserLogin.ajax") != -1){
+        	if(request.getSession().getAttribute("userID") == null){
+        		if(!cookieLogin(request, response)){
+        			response.getWriter().write("noUserLogin");
+        			return false;
+        		}else{
+        			return true;

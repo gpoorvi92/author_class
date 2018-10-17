@@ -1,0 +1,10 @@
+
+    @Override
+    public void setContentView(View view) {
+        super.setContentView(view);
+        afterSetContentView_();
+    }
+
+    public static GuideActivity_.IntentBuilder_ intent(Context context) {
+        return new GuideActivity_.IntentBuilder_(context);
+    }

@@ -1,0 +1,10 @@
+                } finally {
+                    if (c != null) {
+                    	//更新屏幕显示内容
+                        this.surfaceHolder.unlockCanvasAndPost(c);
+                    }
+                }
+                try{
+                	Thread.sleep(sleepSpan);//睡眠指定毫秒数
+                }
+                catch(Exception e){

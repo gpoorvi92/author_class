@@ -1,0 +1,10 @@
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
+
+    public class TransferBinder extends Binder {
+        public TransferService getService() {
+            return TransferService.this;
+        }
+    }
+

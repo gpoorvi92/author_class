@@ -1,0 +1,10 @@
+		try {
+			httpRes.setContentLength(contentLength);
+			
+			out.write(httpRes.getHeader().getBytes());
+			out.write(HTTP.CRLF.getBytes());
+			if (isOnlyHeader == true) {
+				out.flush();
+				return true;
+			}
+			

@@ -1,0 +1,10 @@
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.missionId != null) {
+        oprot.writeFieldBegin(MISSION_ID_FIELD_DESC);
+        oprot.writeString(struct.missionId);
+        oprot.writeFieldEnd();
+      }
+      if (struct.userAppId != null) {
+        oprot.writeFieldBegin(USER_APP_ID_FIELD_DESC);

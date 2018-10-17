@@ -1,0 +1,10 @@
+						MusicExample.this.mMusic.pause();
+					} else {
+						MusicExample.this.mMusic.play();
+					}
+				}
+
+				return true;
+			}
+		});
+

@@ -1,0 +1,10 @@
+	 * 数据总数。
+	 * */
+	Long total(WeChatAccountInfo info);
+	/**
+	 * 根据OpenId来加载公众账号。
+	 * @param openId
+	 * 		OpenId
+	 * @return
+	 * 	加载公众账号。
+	 * */

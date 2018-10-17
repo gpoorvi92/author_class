@@ -1,0 +1,10 @@
+    public String addZone(@RequestParam(required = true) int zoneId, @RequestParam(required = true) String zoneName, @RequestParam(required = true) int serverGroupId, @RequestParam(required = true) String gameServerHost, @RequestParam(required = true) String chatServerHost, @RequestParam(required = true) String authServerHost, @RequestParam(required = true) String gatewayServerHostList)
+    {
+        JsonResponse resultCode = new JsonResponse();
+        try
+        {
+            ZoneEntity entity = new ZoneEntity();
+            entity.setZoneId(zoneId);
+            entity.setZoneName(zoneName);
+            entity.setServerGroupId(serverGroupId);
+            entity.setGameServerHost(gameServerHost);

@@ -1,0 +1,10 @@
+        if( customManagerDefined )
+        {
+			tracer.println( "Custom manager is defined: className= " +
+							customManagerClassName );        	
+        	
+            try
+            {
+                Class managerClass = Class.forName( customManagerClassName );
+
+                Class arg1Class = Class.forName( "jpos.util.JposProperties" );

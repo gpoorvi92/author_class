@@ -1,0 +1,10 @@
+    }
+
+    public void removeInAllTaskList(int taskID) {
+        TransferTask task = getTask(taskID);
+        if (task != null) {
+            allTaskList.remove(task);
+        }
+    }
+
+    public void removeByState(TaskState taskState) {

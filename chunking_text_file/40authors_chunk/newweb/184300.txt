@@ -1,0 +1,10 @@
+	@Override
+	public int insert(OrderLhjWinProp orderLhjWinProp) {
+		if(sessionFactory.getCurrentSession().save(orderLhjWinProp) != null)
+			return 1;
+		return 0;
+	}
+
+	@Override
+	public OrderLhjWinProp selectOrderLhjWinPropById(int ID) {
+		return (OrderLhjWinProp) sessionFactory.getCurrentSession().get(OrderLhjWinProp.class, ID);

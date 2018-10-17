@@ -1,0 +1,10 @@
+			rectangle.setColor(1 - pTension, 0, 0, 0.5f);
+		} else {
+			rectangle.setColor(pTension, 0, 0, 0.5f);
+		}
+
+		final CardinalSplineMoveModifierConfig catmullRomMoveModifierConfig1 = new CardinalSplineMoveModifierConfig(CardinalSplineMoveModifierExample.CONTROLPOINT_1_XS.length, pTension);
+		final CardinalSplineMoveModifierConfig catmullRomMoveModifierConfig2 = new CardinalSplineMoveModifierConfig(CardinalSplineMoveModifierExample.CONTROLPOINT_1_XS.length, pTension);
+
+		for(int i = 0; i < CardinalSplineMoveModifierExample.CONTROLPOINT_1_XS.length; i++) {
+			catmullRomMoveModifierConfig1.setControlPoint(i, CardinalSplineMoveModifierExample.CONTROLPOINT_1_XS[i] - SIZE / 2, CardinalSplineMoveModifierExample.CONTROLPOINT_YS[i] - SIZE / 2);

@@ -1,0 +1,10 @@
+    } while (numIntrod > 0);
+    
+    do {
+        if ((reves % 10) == digito){
+            System.out.println("El digito esta en la posicion:" + posicion);
+        }
+        reves = reves / 10;
+        posicion++;
+    } while (reves > 0);
+  }

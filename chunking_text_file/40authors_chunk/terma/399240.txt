@@ -1,0 +1,10 @@
+    public boolean isReadyToWrite() {
+        return state == BufferState.READY_TO_WRITE;
+    }
+
+    public void writeFrom(SocketChannel channel) throws IOException {
+        int read = channel.read(buffer);
+        if (read == -1) throw new ClosedChannelException();
+
+        if (read > 0) {
+            buffer.flip();

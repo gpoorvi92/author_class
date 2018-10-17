@@ -1,0 +1,10 @@
+            public void Notify(String charset) {
+                found = true;
+                encoding = charset;
+            }
+        });
+        byte[]  buf     = new byte[1024];
+        int     len;
+        boolean done    = false;
+        boolean isAscii = true;
+        try (

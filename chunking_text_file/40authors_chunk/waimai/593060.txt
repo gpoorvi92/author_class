@@ -1,0 +1,10 @@
+            throw new ServiceException("添加失败");
+        }
+    }
+
+    @Override
+    public String checkUsername(String username) {
+        if (adminMapper.findByUsername(username) != null) {
+            return "false";
+        } else {
+            return "true";

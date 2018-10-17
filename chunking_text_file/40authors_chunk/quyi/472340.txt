@@ -1,0 +1,10 @@
+      }
+    }
+
+    public static class updateAppStatus<I extends Iface> extends org.apache.thrift.ProcessFunction<I, updateAppStatus_args> {
+      public updateAppStatus() {
+        super("updateAppStatus");
+      }
+
+      public updateAppStatus_args getEmptyArgsInstance() {
+        return new updateAppStatus_args();

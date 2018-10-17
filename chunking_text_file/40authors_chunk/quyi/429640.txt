@@ -1,0 +1,10 @@
+    boolean this_present_version = true && this.isSetVersion();
+    boolean that_present_version = true && that.isSetVersion();
+    if (this_present_version || that_present_version) {
+      if (!(this_present_version && that_present_version))
+        return false;
+      if (!this.version.equals(that.version))
+        return false;
+    }
+
+    boolean this_present_update = true && this.isSetUpdate();

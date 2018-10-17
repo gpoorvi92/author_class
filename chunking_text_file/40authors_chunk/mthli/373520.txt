@@ -1,0 +1,10 @@
+         Transformer t = TransformerFactory.newInstance().newTransformer(styleSource);     
+         t.setOutputProperty(OutputKeys.INDENT, "yes");
+         t.setOutputProperty(OutputKeys.METHOD, "xml");      
+         t.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+
+         try (InputStream docIn = Files.newInputStream(Paths.get("transform", "employee.dat")))
+         {
+            t.transform(new SAXSource(new EmployeeReader(), new InputSource(docIn)), 
+               new StreamResult(System.out));
+         }

@@ -1,0 +1,10 @@
+
+    };
+
+    private BroadcastReceiver transferReceiver = new BroadcastReceiver() {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if (mTransferService == null) {
+                return;
+            }

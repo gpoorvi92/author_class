@@ -1,0 +1,10 @@
+        int colIndex;
+        boolean ascending;
+        ColumnSorter(int colIndex, boolean ascending) {
+            this.colIndex = colIndex;
+            this.ascending = ascending;
+        }
+        
+        
+        public int compare(Object a, Object b) {
+        	

@@ -1,0 +1,10 @@
+
+        if (moduleComponents.length >= 2)
+            mrl.mPseudoAccess = moduleComponents[1];
+        if (moduleComponents.length >= 3)
+            mrl.mPseudoDemux = moduleComponents[2];
+
+        return mrl;
+    }
+
+    @Override

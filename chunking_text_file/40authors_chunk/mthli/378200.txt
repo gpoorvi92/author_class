@@ -1,0 +1,10 @@
+    */
+   public void saveFile(final String formatName)
+   {
+      if (images == null) return;
+      Iterator<ImageWriter> iter = ImageIO.getImageWritersByFormatName(formatName);
+      ImageWriter writer = iter.next();
+      JFileChooser chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("."));
+      String[] extensions = writer.getOriginatingProvider().getFileSuffixes();
+      chooser.setFileFilter(new FileNameExtensionFilter("Image files", extensions));

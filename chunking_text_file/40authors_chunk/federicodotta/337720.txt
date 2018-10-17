@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used to define an insertion point for use by active Scanner
+ * checks. Extensions can obtain instances of this interface by registering an
+ * <code>IScannerCheck</code>, or can create instances for use by Burp's own
+ * scan checks by registering an
+ * <code>IScannerInsertionPointProvider</code>.
+ */
+public interface IScannerInsertionPoint
+{

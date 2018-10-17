@@ -1,0 +1,10 @@
+      this.sourcePort = other.sourcePort;
+    }
+    if (other.isSetTargetAddress()) {
+      this.targetAddress = other.targetAddress;
+    }
+    if (other.isSetTargetPort()) {
+      this.targetPort = other.targetPort;
+    }
+    if (other.isSetProtocal()) {
+      this.protocal = other.protocal;

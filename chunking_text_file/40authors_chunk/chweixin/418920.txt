@@ -1,0 +1,10 @@
+	 * */
+	@Override
+	public synchronized ModuleDefineCollection children(String systemId, String moduleId){
+		if(systemId != null && !systemId.trim().isEmpty() && moduleId != null && !moduleId.trim().isEmpty()){
+			ModuleSystem system = this.loadModuleSystem(systemId);
+			if(system != null && system.getModules() != null && system.getModules().size() > 0){
+				ModuleDefine define = this.findDefine(system.getModules(), moduleId);
+				if(define != null) return define.getModules();
+			}
+		}

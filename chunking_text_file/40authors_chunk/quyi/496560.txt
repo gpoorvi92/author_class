@@ -1,0 +1,10 @@
+      if (!(this_present_engineIp && that_present_engineIp))
+        return false;
+      if (!this.engineIp.equals(that.engineIp))
+        return false;
+    }
+
+    boolean this_present_engineStatus = true && this.isSetEngineStatus();
+    boolean that_present_engineStatus = true && that.isSetEngineStatus();
+    if (this_present_engineStatus || that_present_engineStatus) {
+      if (!(this_present_engineStatus && that_present_engineStatus))

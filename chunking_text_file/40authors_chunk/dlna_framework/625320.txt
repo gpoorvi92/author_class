@@ -1,0 +1,10 @@
+		}else{
+			int nHostAddrs = HostInterface.getNHostAddresses();
+			bindAddresses = new String[nHostAddrs]; 
+			for (int n=0; n<nHostAddrs; n++) {
+				bindAddresses[n] = HostInterface.getHostAddress(n);
+			}
+		}		
+		try {
+			for (int j = 0; j < bindAddresses.length; j++) {	
+				if (!isValidAddress(bindAddresses[j])){

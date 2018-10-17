@@ -1,0 +1,10 @@
+        }
+        return -1;
+    }
+
+    // Clear the queue. Returns an array of tags that were in the queue.
+    public int[] clearQueue() {
+        synchronized (mQueue) {
+            int n = mQueue.size();
+            int[] tags = new int[n];
+            for (int i = 0; i < n; i++) {

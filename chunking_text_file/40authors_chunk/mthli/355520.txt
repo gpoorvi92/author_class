@@ -1,0 +1,9 @@
+      System.out.println(b);
+
+      // bulk operation: remove all words in b from a
+
+      a.removeAll(b);
+
+      System.out.println(a);
+   }
+}

@@ -1,0 +1,10 @@
+            } else {
+                state = TaskState.FAILED;
+                if (err == null)
+                    err = SeafException.unknownException;
+                downloadStateListener.onFileDownloadFailed(taskID);
+            }
+        }
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, struct.enginePlots.size()));
+          for (String _iter7 : struct.enginePlots)
+          {
+            oprot.writeString(_iter7);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }

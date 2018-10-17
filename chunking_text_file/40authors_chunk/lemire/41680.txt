@@ -1,0 +1,10 @@
+        EWAHCompressedBitmap32 ewah3 = EWAHCompressedBitmap32.bitmapOf(1,
+                110, 1000, 1101, 1200, 1201, 31416, 31417);
+
+        Assert.assertTrue(EWAHCompressedBitmap32.threshold(1, ewah1)
+                .equals(ewah1));
+        Assert.assertTrue(EWAHCompressedBitmap32.threshold(1, ewah2)
+                .equals(ewah2));
+        Assert.assertTrue(EWAHCompressedBitmap32.threshold(1, ewah3)
+                .equals(ewah3));
+        Assert.assertTrue(EWAHCompressedBitmap32.threshold(2, ewah1,

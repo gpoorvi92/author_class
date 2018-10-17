@@ -1,0 +1,10 @@
+/**
+ * This program demonstrates the system tray API.
+ * @version 1.01 2012-01-26
+ * @author Cay Horstmann
+ */
+public class SystemTrayTest
+{
+   public static void main(String[] args)
+   {
+      SystemTrayApp app = new SystemTrayApp();

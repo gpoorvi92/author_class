@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+
+	}
+
+	private static class XAsyncTask extends AsyncTask<String> {
+
+		@Override
+		protected String doInBackground(Object... params) {
+			String message = (String) params[0];

@@ -1,0 +1,10 @@
+				}
+					
+			}
+			catch (Exception e){
+				Debug.warning(e);
+				break;
+			}
+			HTTPServerThread httpServThread = new HTTPServerThread(this, sock);
+			httpServThread.start(); 
+			Debug.message("httpServThread ...");

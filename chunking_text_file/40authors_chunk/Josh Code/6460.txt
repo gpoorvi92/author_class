@@ -1,0 +1,10 @@
+            g.fillRect(10 + sidePadding, top, width - 20 - sidePadding, 20);
+        }
+        if (completed)
+        {
+            msg = null;
+            progress = -1;
+        }
+    }
+
+   public void componentHidden(ComponentEvent e)

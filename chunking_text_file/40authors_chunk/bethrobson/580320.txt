@@ -1,0 +1,10 @@
+    // System.out.println("\n");
+    while (x < comSize) {
+      grid[coords[x]] = 1;                              // mark master grid pts. as 'used'
+      row = (int) (coords[x] / gridLength);             // get row value
+      column = coords[x] % gridLength;                  // get numeric column value
+      temp = String.valueOf(alphabet.charAt(column));   // convert to alpha
+      
+      alphaCells.add(temp.concat(Integer.toString(row)));
+      x++;
+

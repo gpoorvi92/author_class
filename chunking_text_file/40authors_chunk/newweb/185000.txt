@@ -1,0 +1,10 @@
+
+@Component("orderLhjWinPropService")
+public class OrderLhjWinPropServiceImp implements OrderLhjWinPropService {
+	
+	@Autowired
+	private OrderLhjWinPropDao orderLhjWinPropDao;
+	@Autowired
+	private OrderDao orderDao;
+	
+

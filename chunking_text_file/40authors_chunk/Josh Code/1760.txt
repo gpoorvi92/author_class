@@ -1,0 +1,10 @@
+    {
+        int result = is.read();
+        if (result < 0)// end of file reached
+            throw new EOFException();
+
+        int r2 = is.read();
+        if (r2 < 0)// end of file reached
+            throw new EOFException();
+
+        return result*256 | r2;

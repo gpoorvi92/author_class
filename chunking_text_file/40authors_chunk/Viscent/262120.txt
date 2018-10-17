@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch1;
+
+/**
+ * 线程安全的计数器。
+ * 
+ * @author Viscent Huang
+ *

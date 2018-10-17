@@ -1,0 +1,10 @@
+    */
+   public static void printFields(Class cl)
+   {
+      Field[] fields = cl.getDeclaredFields();
+
+      for (Field f : fields)
+      {
+         Class type = f.getType();
+         String name = f.getName();
+         System.out.print("   ");

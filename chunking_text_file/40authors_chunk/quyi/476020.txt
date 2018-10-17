@@ -1,0 +1,10 @@
+          setPlots((List<com.nercis.isscp.idl.PlotsType>)value);
+        }
+        break;
+
+      case USE_RULE:
+        if (value == null) {
+          unsetUseRule();
+        } else {
+          setUseRule((String)value);
+        }

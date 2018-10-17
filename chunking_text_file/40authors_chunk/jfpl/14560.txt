@@ -1,0 +1,10 @@
+	private VoiceRecordDialog vrDialog;
+	private ChatListAdapter chatListAdapter;
+
+	private boolean isAddVisible = false;
+	private boolean isInputType = true;
+	private int addPanelHeight = (int) (SystemUtil.SCREEN_HEIGHT * 0.504f);
+	private float recordVoiceY = 0;
+	private String title;
+	private String id;
+	private String serial;

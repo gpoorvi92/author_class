@@ -1,0 +1,10 @@
+            }
+        }
+        for (ChatClient each : chatClientMap.values())
+        {
+            try
+            {
+                each.shutdown();
+            } catch (Exception e)
+            {
+                log.error("", e);

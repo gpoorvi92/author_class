@@ -1,0 +1,10 @@
+package spinner;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.text.*;
+import javax.swing.*;
+
+/**
+ * A frame with a panel that contains several spinners and a button that displays the spinner
+ * values.

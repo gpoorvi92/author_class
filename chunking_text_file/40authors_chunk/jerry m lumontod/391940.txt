@@ -1,0 +1,10 @@
+				mintResult = s1.mstrAmount.compareTo(s2.mstrAmount);
+				break;
+			case 9:
+				mintResult = s1.mstrUserDesc.compareTo(s2.mstrUserDesc);
+				break;
+			case 10:
+				mintResult = s1.mstrDRCR.compareTo(s2.mstrDRCR);
+				break;			
+			case 11:
+				mintResult = Date1GreaterThanDate2(s1.mstrEntryDate,s2.mstrEntryDate);

@@ -1,0 +1,10 @@
+
+      // add a slider with alphabetic labels
+
+      slider = new JSlider();
+      slider.setPaintLabels(true);
+      slider.setPaintTicks(true);
+      slider.setMajorTickSpacing(20);
+      slider.setMinorTickSpacing(5);
+
+      Dictionary<Integer, Component> labelTable = new Hashtable<>();

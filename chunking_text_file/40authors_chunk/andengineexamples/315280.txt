@@ -1,0 +1,10 @@
+				return pY - 1;
+			case DOWN:
+				return pY + 1;
+			default:
+				throw new IllegalArgumentException();
+		}
+	}
+
+	public static Direction opposite(final Direction pDirection) {
+		switch(pDirection) {

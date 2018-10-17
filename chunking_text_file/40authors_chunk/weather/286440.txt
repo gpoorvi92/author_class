@@ -1,0 +1,10 @@
+     * @param url
+     * @param context
+     * @return
+     */
+    public static File getImageFileInDiscCache(String url,Context context) {
+        return new File(getCacheDirectory(context), generate(url));
+    }
+
+    /**
+     * Returns application cache directory. Cache directory will be created on SD card

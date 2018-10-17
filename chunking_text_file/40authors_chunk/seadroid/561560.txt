@@ -1,0 +1,10 @@
+        SelectableFile item = mFiles.get(position);
+        View view = convertView;
+        Viewholder viewHolder;
+        TextView title;
+        TextView subtitle;
+        ImageView icon;
+        CheckBox checkBox;
+
+        if (convertView == null) {
+            view = LayoutInflater.from(mActivity).inflate(R.layout.list_item_entry_check, null);

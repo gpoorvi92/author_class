@@ -1,0 +1,10 @@
+				assertt = true;
+			}
+		});
+
+		// emulate a pending upload
+		final StaticStatePersistedOnFileSystemEntity entity = staticStateManager.getEntity();
+		final UUID identifier = staticStateIdentifierManager.getIdentifier();
+		rateLimiterConfigurationManager.configurationMap
+				.put(identifier, new RequestUploadProcessingConfiguration());
+		rateLimiterConfigurationManager.configurationMap.getUnchecked(identifier);

@@ -1,0 +1,10 @@
+    }
+
+    public String getDataPath() {
+        return mDataPath;
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (other == null || !(other instanceof Image)) return false;
+        return mUri.equals(((Image) other).mUri);

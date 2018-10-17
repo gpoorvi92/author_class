@@ -1,0 +1,10 @@
+            sb.append(ZeroString(fixdlenth - strNum.length()));
+        } else {
+            throw new RuntimeException("将数字" + num + "转化为长度为" + fixdlenth + "的字符串发生异常！");
+        }
+        sb.append(strNum);
+        return sb.toString();
+    }
+
+    /**
+     * 每次生成的len位数都不相同

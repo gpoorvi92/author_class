@@ -1,0 +1,10 @@
+      
+               // echo client input
+               boolean done = false;
+               while (!done && in.hasNextLine())
+               {
+                  String line = in.nextLine();
+                  out.println("Echo: " + line);
+                  if (line.trim().equals("BYE")) done = true;
+               }
+            }

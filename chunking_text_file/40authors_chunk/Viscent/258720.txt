@@ -1,0 +1,10 @@
+
+		Map<String, Integer> locationConf = new HashMap<String, Integer>();
+		locationConf.put("NIG", 500);
+		locationConf.put("ESB", 20);
+		delayConf.put("Location", locationConf);
+
+		Map<String, Integer> chargingConf = new HashMap<String, Integer>();
+		chargingConf.put("BSS", 1200);
+		chargingConf.put("ESB", 50);
+		delayConf.put("Charging", chargingConf);

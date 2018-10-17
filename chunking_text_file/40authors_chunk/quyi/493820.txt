@@ -1,0 +1,10 @@
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(Sample.class, metaDataMap);
+  }
+
+  public Sample() {
+  }
+
+  public Sample(
+    String missionId,
+    String userAppId,
+    Map<PlotsType,CheckResultStatus> plotsStatus,

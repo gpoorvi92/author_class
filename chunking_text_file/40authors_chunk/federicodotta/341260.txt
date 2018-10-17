@@ -1,0 +1,10 @@
+     */
+    static final byte CONTEXT_MESSAGE_EDITOR_RESPONSE = 1;
+    /**
+     * Used to indicate that the context menu is being invoked in a non-editable
+     * request viewer.
+     */
+    static final byte CONTEXT_MESSAGE_VIEWER_REQUEST = 2;
+    /**
+     * Used to indicate that the context menu is being invoked in a non-editable
+     * response viewer.

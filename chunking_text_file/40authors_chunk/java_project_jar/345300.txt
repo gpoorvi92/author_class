@@ -1,0 +1,10 @@
+    }
+
+    public int read(char chr[])
+        throws IOException
+    {
+        int n;
+        beforeRead(chr == null ? 0 : chr.length);
+        n = in.read(chr);
+        afterRead(n);
+        return n;

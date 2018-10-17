@@ -1,0 +1,10 @@
+  {
+    // Place text area on the frame
+    getContentPane().setLayout(new BorderLayout());
+    getContentPane().add(new JScrollPane(jta), BorderLayout.CENTER);
+    
+    setTitle("Server");
+    setSize(500, 300);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setVisible(true); // It is necessary to show the frame here!
+    

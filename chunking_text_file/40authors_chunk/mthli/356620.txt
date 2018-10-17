@@ -1,0 +1,10 @@
+    */
+   public ChartComponent(double[] v, String[] n, String t)
+   {
+      values = v;
+      names = n;
+      title = t;
+   }
+
+   public void paintComponent(Graphics g)
+   {

@@ -1,0 +1,10 @@
+					return respXmlToObject(TextRespMessage.class, xml);
+				case WeChatContext.REQ_MESSAGE_TYPE_IMAGE://图片。
+					return respXmlToObject(ImageRespMessage.class, xml);
+				case WeChatContext.REQ_MESSAGE_TYPE_VOICE://语音。
+					return respXmlToObject(VoiceRespMessage.class, xml);
+				case WeChatContext.REQ_MESSAGE_TYPE_VIDEO://视频
+					return respXmlToObject(VoiceRespMessage.class, xml);
+				case "music"://音乐。
+					return respXmlToObject(MusicRespMessage.class, xml);
+				case "news"://图文。

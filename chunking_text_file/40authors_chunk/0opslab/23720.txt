@@ -1,0 +1,10 @@
+        FILE_TYPE_MAP.put("qdf", "AC9EBD8F");  //Quicken (qdf)
+        FILE_TYPE_MAP.put("pwl", "E3828596");  //Windows Password (pwl)
+        FILE_TYPE_MAP.put("wav", "57415645");  //Wave (wav)
+        FILE_TYPE_MAP.put("avi", "41564920");
+        FILE_TYPE_MAP.put("ram", "2E7261FD");  //Real Audio (ram)
+        FILE_TYPE_MAP.put("rm", "2E524D46");  //Real Media (rm)
+        FILE_TYPE_MAP.put("mpg", "000001BA");  //
+        FILE_TYPE_MAP.put("mov", "6D6F6F76");  //Quicktime (mov)
+        FILE_TYPE_MAP.put("asf", "3026B2758E66CF11"); //Windows Media (asf)
+        FILE_TYPE_MAP.put("mid", "4D546864");  //MIDI (mid)

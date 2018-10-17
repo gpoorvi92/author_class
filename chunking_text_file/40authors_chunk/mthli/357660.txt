@@ -1,0 +1,10 @@
+               RescaleOp op = new RescaleOp(a, b, null);
+               filter(op);
+            }
+         });
+      editMenu.add(brightenItem);
+
+      JMenuItem edgeDetectItem = new JMenuItem("Edge detect");
+      edgeDetectItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

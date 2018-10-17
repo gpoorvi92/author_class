@@ -1,0 +1,10 @@
+		this.terminationToken = terminationToken;
+		terminationToken.register(this);
+	}
+
+	/**
+	 * 留给子类实现其线程处理逻辑。
+	 * 
+	 * @throws Exception
+	 */
+	protected abstract void doRun() throws Exception;

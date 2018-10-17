@@ -1,0 +1,10 @@
+                collection.add(element);
+            }
+        }
+    }
+
+    public final static <T> void Append(Collection<T> collection,
+            T[][] array_array) {
+        if (collection != null && array_array != null && array_array.length > 0) {
+            for (T[] array : array_array) {
+                Append(collection, array);

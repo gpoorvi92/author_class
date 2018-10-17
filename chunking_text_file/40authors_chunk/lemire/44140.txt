@@ -1,0 +1,6 @@
+    /**
+     * The buffer
+     */
+    private LongBuffer buffer;
+    
+}

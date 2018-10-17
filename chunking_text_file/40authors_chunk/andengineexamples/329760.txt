@@ -1,0 +1,10 @@
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+
+	public int getOwnerID() {
+		return this.mOwnerID;
+	}
+
+	public int getOpponentID() {
+		return this.mOpponentID;

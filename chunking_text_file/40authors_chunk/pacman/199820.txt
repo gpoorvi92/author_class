@@ -1,0 +1,10 @@
+		result.get();
+		
+		int re = worker.getAttribute("steps.result");
+		
+		assertEquals(6, re); //p1 + p2 + p3
+	}
+	
+	@Test
+	public void testSingleStepWorker() throws Exception {
+		

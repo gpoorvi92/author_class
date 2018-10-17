@@ -1,0 +1,10 @@
+            channel.read(buffer);
+            buffer.flip();
+            newStaff[i] = readData(buffer);
+         }
+
+         // print the newly read employee records
+         for (Employee e : newStaff) 
+            System.out.println(e);
+      }
+   }

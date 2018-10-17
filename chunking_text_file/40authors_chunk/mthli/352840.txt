@@ -1,0 +1,10 @@
+package longList;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * This frame contains a long word list and a label that shows a sentence made up from the chosen
+ * word.
+ */

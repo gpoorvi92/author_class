@@ -1,0 +1,10 @@
+import io.github.viscent.mtpattern.ch12.ms.WorkerThreadSlave;
+import io.github.viscent.util.Debug;
+
+public class ParallelPrimeGenerator {
+
+	public static void main(String[] args) throws Exception {
+		PrimeGeneratorService primeGeneratorService = new PrimeGeneratorService();
+
+		Set<BigInteger> result = primeGeneratorService.generatePrime(Integer
+		    .valueOf(args[0]));

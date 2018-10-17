@@ -1,0 +1,10 @@
+        //p.addLast("GLOBAL_TRAFFIC_SHAPING", globalTrafficHandler);
+        //p.addLast("CHANNEL_TRAFFIC_SHAPING", channelTrafficHandler);
+        p.addLast("idleStateHandler", idleStateHandler);
+        p.addLast("hearbeat", idleStateAwareChannelHandler);
+        p.addLast("protobufDecoder", new ProtocolBuffersDecoder(defaultInstance));
+        p.addLast("protobufEncoder", new ProtocolBuffersEncoder());
+        p.addLast("executionHandler", executionHandler);
+        p.addLast("handler", gatewayInboundHandler);
+        return p;
+    }

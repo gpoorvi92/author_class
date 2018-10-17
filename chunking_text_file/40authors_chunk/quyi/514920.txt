@@ -1,0 +1,10 @@
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof reportTaskManagerConfig_args)
+        return this.equals((reportTaskManagerConfig_args)that);
+      return false;
+    }
+
+    public boolean equals(reportTaskManagerConfig_args that) {

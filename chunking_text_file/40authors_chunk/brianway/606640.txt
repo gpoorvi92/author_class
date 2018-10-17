@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.lock.example3;
+
+/**
+ * Created by Brian on 2016/4/15.
+ */
+
+/**
+ * P215
+ * 实现生产者/消费者模式，多对多交替打印
+ * signal()会假死

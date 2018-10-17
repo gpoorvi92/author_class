@@ -1,0 +1,10 @@
+	public Bitmap bmpDialogBack;//对话框背景图片
+	public Bitmap bmpDialogButton;//对话框的按钮背景图片
+	Hero tempHero;//英雄的引用,用于拷贝数据防止污染
+
+	
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeObject(meetableMatrix);//可遇矩阵，相对于本MyDrawable所占的块数
+
+	}
+	public void readExternal(ObjectInput in) throws IOException,

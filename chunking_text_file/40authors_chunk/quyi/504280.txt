@@ -1,0 +1,10 @@
+    return this.taskInfo;
+  }
+
+  public AppSendMessage setTaskInfo(Map<String,String> taskInfo) {
+    this.taskInfo = taskInfo;
+    return this;
+  }
+
+  public void unsetTaskInfo() {
+    this.taskInfo = null;

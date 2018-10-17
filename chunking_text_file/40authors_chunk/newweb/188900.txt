@@ -1,0 +1,10 @@
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order where acceptStatus=? and doneStatus='notDone' order by createDate DESC,createTime DESC")
+				.addEntity(Order.class);
+		query.setString(0, acceptStatus);
+		int size = query.list().size();
+		query.setFirstResult(start);
+		query.setMaxResults(limit);
+		list.add(0,size);
+		list.add(1,query.list());
+		return list;

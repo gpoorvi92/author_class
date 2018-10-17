@@ -1,0 +1,10 @@
+   }
+
+   public void drawPage(Graphics2D g2, PageFormat pf, int page)
+   {
+      if (message.equals("")) return;
+      page--; // account for cover page
+
+      drawCropMarks(g2, pf);
+      g2.clip(new Rectangle2D.Double(0, 0, pf.getImageableWidth(), pf.getImageableHeight()));
+      g2.translate(-page * pf.getImageableWidth(), 0);

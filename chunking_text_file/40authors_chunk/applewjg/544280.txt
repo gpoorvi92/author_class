@@ -1,0 +1,10 @@
+        if (idxStart >= 0 && newInterval.start <= intervals.get(idxStart).end) {
+            newInterval.start = intervals.get(idxStart--).start;
+        }
+        if (idxEnd < n && newInterval.end >= intervals.get(idxEnd).start) {
+            newInterval.end = intervals.get(idxEnd++).end;
+        }
+        for (int i = 0; i <= idxStart; ++i) {
+            res.add(intervals.get(i));
+        }
+        res.add(newInterval);

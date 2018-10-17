@@ -1,0 +1,10 @@
+ 					"Video" +"','" +
+ 					l +"','" +
+ 					j +"','" +
+ 					k +"','" +
+ 					"IN" +"','" +
+ 					type_combo.getSelectedItem() +"')";
+		
+		
+		 		if (!Video_no_text.getText().equals(""))
+ 					{

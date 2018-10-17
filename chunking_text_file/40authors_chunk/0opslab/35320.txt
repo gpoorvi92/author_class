@@ -1,0 +1,10 @@
+    m_out.write(this.CellStopTag((firstOrLast==LAST_CELL_IN_ROW)));
+  }
+  
+  protected abstract String CellStartTag(boolean rowstart);
+  protected abstract String CellStopTag(boolean rowend);
+ 
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.ITableRenderer#render(javax.swing.table.TableModel)
+   */
+  public final void render(TableModel model) throws IOException {

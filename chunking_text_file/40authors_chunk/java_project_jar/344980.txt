@@ -1,0 +1,10 @@
+        if(file.getParentFile() != null)
+            FileUtils.forceMkdir(file.getParentFile());
+        if(file.isDirectory())
+            throw new IOException("File specified is a directory");
+        if(lockDir == null)
+            lockDir = System.getProperty("java.io.tmpdir");
+        File lockDirFile = new File(lockDir);
+        FileUtils.forceMkdir(lockDirFile);
+        testLockDir(lockDirFile);
+        lockFile = new File(lockDirFile, (new StringBuilder()).append(file.getName()).append(".lck").toString());

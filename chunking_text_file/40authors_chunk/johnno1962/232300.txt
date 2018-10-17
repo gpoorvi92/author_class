@@ -1,0 +1,10 @@
+
+    WindowProxy( java.awt.Frame arg0 , long swiftObject ) {
+        super( arg0 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Window(java.awt.Window)
+
+    WindowProxy( java.awt.Window arg0 , long swiftObject ) {
+        super( arg0 );

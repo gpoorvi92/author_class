@@ -1,0 +1,10 @@
+            slow = slow.next;
+        }
+        fast = slow.next;
+        while (fast.next != null) {
+            ListNode move = fast.next;
+            fast.next = move.next;
+            move.next = slow.next;
+            slow.next = move;
+        }
+        fast = slow.next;

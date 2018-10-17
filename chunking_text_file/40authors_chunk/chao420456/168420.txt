@@ -1,0 +1,10 @@
+		    default：	
+				语句体n+1;
+				break;
+		}
+
+		格式解释：
+			A:switch表示这是switch语句
+			B:表达式的取值
+				byte,short,int,char
+				JDK5以后可以是枚举类型。(enum)

@@ -1,0 +1,10 @@
+	{
+		open(bindAddr, bindPort);
+	}
+
+	public HTTPUSocket(int bindPort)
+	{
+		open(bindPort);
+	}
+
+	protected void finalize()

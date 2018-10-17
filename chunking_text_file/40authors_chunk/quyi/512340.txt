@@ -1,0 +1,10 @@
+        reportNodeManagerConfig_result result = new reportNodeManagerConfig_result();
+        try {
+          result.success = iface.reportNodeManagerConfig(args.nodeId);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }

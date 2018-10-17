@@ -1,0 +1,10 @@
+      return fields;
+   }
+
+   public String toString()
+   {
+      String r = type + " " + name;
+      if (type.isPrimitive()) r += "=" + value;
+      else if (type.equals(String.class)) r += "=" + value;
+      else if (value == null) r += "=null";
+      return r;

@@ -1,0 +1,10 @@
+		listPane.setLineWrap(true);
+		listPane.setWrapStyleWord(true);
+		reportPanel.add(listPane);
+		 
+         	try
+
+                {
+                Statement s = Connect.getConnection().createStatement();
+                }
+

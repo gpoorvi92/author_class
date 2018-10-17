@@ -1,0 +1,10 @@
+        }
+        return -1;
+    }
+    public int strStr_3(String haystack, String needle) {
+        int sLen = haystack.length(), tLen = needle.length();
+        if (tLen == 0) return 0;
+        if (haystack==null || needle==null || sLen==0 || sLen < tLen) return -1;
+        long fh = 0, fn = 0;
+        int head = 0, tail = tLen - 1;
+        for (int i = 0; i < tLen; ++i) {

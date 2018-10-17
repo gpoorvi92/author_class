@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.MouseAdapter.mouseReleased(java.awt.event.MouseEvent)
+
+    public native void __mouseReleased( java.awt.event.MouseEvent e );
+
+    boolean entered_mouseReleased_1;
+
+    public void mouseReleased( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseReleased_1 ) {

@@ -1,0 +1,10 @@
+		// 遍历集合，获取到每一个键
+		Set<String> set = prop.stringPropertyNames();
+		for (String key : set) {
+			// 判断键的值是否有为lisi的
+			if ("lisi".equals(key)) {
+				// 就修改其值为100
+				prop.setProperty(key, "100");
+				break;
+			}
+		}

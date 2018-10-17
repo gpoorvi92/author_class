@@ -1,0 +1,10 @@
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("UserApp(");
+    boolean first = true;
+
+    sb.append("app_id:");
+    if (this.app_id == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.app_id);

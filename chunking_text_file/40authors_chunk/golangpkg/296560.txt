@@ -1,0 +1,10 @@
+
+		// assert that file is reset
+		Assert.assertThat(staticStateManager.getEntity().getFileStates().containsKey(fileId), is(false));
+
+		// assert that we dont have it in the pending files anymore
+		Assert.assertThat(uploadProcessor.getConfig(null).getPendingFiles().containsKey(fileId), is(false));
+	}
+
+
+	@Test

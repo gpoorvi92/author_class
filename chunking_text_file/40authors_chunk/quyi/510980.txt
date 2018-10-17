@@ -1,0 +1,10 @@
+        optionals.set(5);
+      }
+      oprot.writeBitSet(optionals, 6);
+      if (struct.isSetCheckTime()) {
+        oprot.writeString(struct.checkTime);
+      }
+      if (struct.isSetMD5()) {
+        oprot.writeString(struct.MD5);
+      }
+      if (struct.isSetCheckEngineNum()) {

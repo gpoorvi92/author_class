@@ -1,0 +1,10 @@
+                    if (state == TaskState.CANCELLED) {
+                        txService.removeAllDownloadTasksByState(TaskState.CANCELLED);
+                    }
+                    break;
+                case R.id.remove_all_finished:
+                    if (state == TaskState.FINISHED) {
+                        txService.removeAllDownloadTasksByState(TaskState.FINISHED);
+                    }
+                    break;
+                default:

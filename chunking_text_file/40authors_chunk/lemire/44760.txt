@@ -1,0 +1,10 @@
+     */
+    public BufferedRunningLengthWord32(final int a) {
+        this.NumberOfLiteralWords = (a >>> (1 + RunningLengthWord32.RUNNING_LENGTH_BITS));
+        this.RunningBit = (a & 1) != 0;
+        this.RunningLength = ((a >>> 1) & RunningLengthWord32.LARGEST_RUNNING_LENGTH_COUNT);
+    }
+
+    /**
+     * Instantiates a new buffered running length word.
+     *

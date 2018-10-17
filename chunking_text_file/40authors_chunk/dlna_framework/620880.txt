@@ -1,0 +1,10 @@
+	public InetAddress getRemoteInetAddress()
+	{
+		return getDatagramPacket().getAddress();
+	}
+	
+	public String getRemoteAddress()
+	{
+		// Thanks for Theo Beisch (11/09/04)
+		return getDatagramPacket().getAddress().getHostAddress();
+	}

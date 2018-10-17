@@ -1,0 +1,10 @@
+   /**
+    * Writes employee data to a print writer
+    * @param out the print writer
+    */
+   public static void writeEmployee(PrintWriter out, Employee e)
+   {
+      GregorianCalendar calendar = new GregorianCalendar();
+      calendar.setTime(e.getHireDay());
+      out.println(e.getName() + "|" + e.getSalary() + "|" + calendar.get(Calendar.YEAR) + "|"
+            + (calendar.get(Calendar.MONTH) + 1) + "|" + calendar.get(Calendar.DAY_OF_MONTH));

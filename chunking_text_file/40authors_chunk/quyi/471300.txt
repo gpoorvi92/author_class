@@ -1,0 +1,10 @@
+    {
+      send_updateUserAppStatus(missionId, userAppId, plotsStatus, functionStatus);
+      return recv_updateUserAppStatus();
+    }
+
+    public void send_updateUserAppStatus(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus) throws org.apache.thrift.TException
+    {
+      updateUserAppStatus_args args = new updateUserAppStatus_args();
+      args.setMissionId(missionId);
+      args.setUserAppId(userAppId);

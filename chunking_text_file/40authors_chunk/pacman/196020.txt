@@ -1,0 +1,10 @@
+		this.data = data;
+		empty = this.data == null;
+	}
+
+	/**
+	 * @return the empty
+	 */
+	public boolean isEmpty() {
+		
+		return empty;

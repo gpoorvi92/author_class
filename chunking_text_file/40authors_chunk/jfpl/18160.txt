@@ -1,0 +1,10 @@
+	private TextView titleTv;
+	@InjectionView(id = R.id.loading_bar)
+	private android.widget.ImageView loadingBar;
+	@InjectionView(id = R.id.right_menu)
+	private android.widget.ImageView rightMenu;
+	@InjectionView(id = R.id.chat_icon_iv, click = "chatIconClick")
+	private android.widget.ImageView chatIcon;
+	@InjectionView(id = R.id.webview_refresh, click = "refreshClick")
+	private android.widget.ImageView refreshBtn;
+	@InjectionView(id = R.id.webview_back, click = "backClick")

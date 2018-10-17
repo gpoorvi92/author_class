@@ -1,0 +1,10 @@
+        clientChannel.register(selector, clientOps, this);
+
+        int serverOps = 0;
+        if (clientBuffer.isReadyToWrite()) serverOps |= SelectionKey.OP_READ;
+        if (serverBuffer.isReadyToRead()) serverOps |= SelectionKey.OP_WRITE;
+        serverChannel.register(selector, serverOps, this);
+    }
+
+    private static void closeQuietly(SocketChannel channel) {
+        if (channel != null) {

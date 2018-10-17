@@ -1,0 +1,10 @@
+      if (!this.hardware.equals(that.hardware))
+        return false;
+    }
+
+    boolean this_present_software = true && this.isSetSoftware();
+    boolean that_present_software = true && that.isSetSoftware();
+    if (this_present_software || that_present_software) {
+      if (!(this_present_software && that_present_software))
+        return false;
+      if (!this.software.equals(that.software))

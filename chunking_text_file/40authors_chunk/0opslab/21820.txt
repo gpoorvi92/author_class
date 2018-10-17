@@ -1,0 +1,10 @@
+
+    /**
+     * 利用FileChannel直接实现文件的对拷,对于大文件速度特别明显
+     *
+     * @param source
+     * @param target
+     */
+    public static void copyFileWithChannel(File source, File target) {
+        try (
+                FileInputStream inStream = new FileInputStream(source);

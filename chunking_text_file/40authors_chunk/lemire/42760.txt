@@ -1,0 +1,10 @@
+            } else
+                break;
+        }
+        return origMax - max;
+    }
+
+    /**
+     * Turn an iterator into a bitmap
+     * 
+     * 

@@ -1,0 +1,10 @@
+import ipower.wechat.message.events.ClickEventMessage;
+import ipower.wechat.message.events.EventMessage;
+import ipower.wechat.message.events.LocationEventMessage;
+import ipower.wechat.message.events.ScanEventMessage;
+import ipower.wechat.message.events.SubscribeEventMessage;
+import ipower.wechat.message.req.ImageReqMessage;
+import ipower.wechat.message.req.LinkReqMessage;
+import ipower.wechat.message.req.LocationReqMessage;
+import ipower.wechat.message.req.TextReqMessage;
+import ipower.wechat.message.req.VideoReqMessage;

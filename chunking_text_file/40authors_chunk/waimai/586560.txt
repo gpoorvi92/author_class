@@ -1,0 +1,10 @@
+
+    @Test
+    public void testCountTotalPrice() throws Exception {
+        BaseConditionVO vo = new BaseConditionVO();
+        vo.setMerchantId(4);
+        System.out.println(saleRecordService.countTotalPrice(vo, "4"));
+    }
+
+    @Test
+    public void testCountNumber() throws Exception {

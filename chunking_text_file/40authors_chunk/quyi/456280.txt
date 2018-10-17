@@ -1,0 +1,10 @@
+        oprot.writeStructEnd();
+      }
+
+    }
+
+    private static class operateEngine_resultTupleSchemeFactory implements SchemeFactory {
+      public operateEngine_resultTupleScheme getScheme() {
+        return new operateEngine_resultTupleScheme();
+      }
+    }

@@ -1,0 +1,9 @@
+
+		for (int i = 0; i < fields.length; i++) {
+			
+			map.put(fields[i].getName(), fields[i]);
+		}
+
+		return map;
+	}
+}

@@ -1,0 +1,10 @@
+			"此处是个采矿补给装备的好地方，怎奈人困马乏，体力不足，只好改日再来！"
+		};
+	int result;//记录英雄可以获得的收益
+	Hero tempHero;//临时记录英雄
+	int status;//状态，0：显示是否伐木的选择对话框，1：显示不能伐木的提示对话框
+	
+	public MineDrawable(){}
+	
+	public MineDrawable(Bitmap bmpSelf,Bitmap bmpDialogBack,Bitmap bmpDialogButton,boolean meetable,int width,int height,int col,int row,
+			int refCol,int refRow,int [][] noThrough,

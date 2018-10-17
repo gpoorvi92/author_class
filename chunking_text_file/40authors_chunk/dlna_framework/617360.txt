@@ -1,0 +1,10 @@
+*	05/08/03
+*		- first revision.
+*	05/28/03
+*		- Moved post() for SSDPSearchRequest to SSDPResponseSocket.
+*		- Removed open(int).
+*
+******************************************************************/
+
+package org.cybergarage.upnp.ssdp;
+

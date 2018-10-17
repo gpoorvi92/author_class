@@ -1,0 +1,10 @@
+public class TransferTaskInfo {
+    public final Account account;
+    public final int taskID;
+    public final TaskState state;
+    public final String repoID;
+    public final String repoName;
+    public final String localFilePath;
+    public final SeafException err;
+
+    /**

@@ -1,0 +1,10 @@
+import ipower.wechat.modal.WeChatUserInfo;
+import ipower.wechat.service.IWeChatUserService;
+
+/**
+ * 微信关注用户服务实现类。
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */
+public class WeChatUserServiceImpl extends DataServiceImpl<WeChatUser, WeChatUserInfo> implements IWeChatUserService {
+	private IWeChatUserDao weChatUserDao;

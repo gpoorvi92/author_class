@@ -1,0 +1,10 @@
+          if (ln.startsWith("vertex"))
+              ln = ln.substring(7);
+          /* remove the prefix "vertex" from ln so it won't be a token
+          */
+
+          StringTokenizer st = new StringTokenizer(ln, " \t");
+          x = Double.parseDouble(st.nextToken());
+          y = Double.parseDouble(st.nextToken());
+          z = Double.parseDouble(st.nextToken());
+

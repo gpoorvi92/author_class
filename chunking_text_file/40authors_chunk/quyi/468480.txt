@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetPak()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.pak, other.pak);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetObj()).compareTo(other.isSetObj());

@@ -1,0 +1,10 @@
+    public int getEveryInterval()
+    {
+        return everyInterval;
+    }
+    public void setEveryInterval(int everyInterval)
+    {
+        this.everyInterval = everyInterval;
+    }
+    public int getLevel()
+    {

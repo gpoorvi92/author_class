@@ -1,0 +1,10 @@
+	private Node createResponseNode(Action action)
+	{
+		String actionName = action.getName();
+		Node actionNameResNode = new Node(SOAP.METHODNS + SOAP.DELIM + actionName + SOAP.RESPONSE);
+		
+		Service service = action.getService();
+		if (service != null) {
+			actionNameResNode.setAttribute(
+				"xmlns:" + SOAP.METHODNS,
+					service.getServiceType());

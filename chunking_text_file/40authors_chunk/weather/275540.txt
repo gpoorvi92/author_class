@@ -1,0 +1,10 @@
+
+  @Override public HttpResponse execute(HttpUriRequest request, HttpContext context)
+      throws IOException {
+    return execute(null, request, context);
+  }
+
+  @Override public HttpResponse execute(HttpHost host, HttpRequest request) throws IOException {
+    return execute(host, request, (HttpContext) null);
+  }
+

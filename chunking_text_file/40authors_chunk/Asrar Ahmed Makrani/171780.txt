@@ -1,0 +1,10 @@
+    text.add(Video_master, gbc);
+    
+    gbc.gridy = 1;
+    text.add(Video_no, gbc);
+    gbc.gridy = 2;
+    text.add(Video_title, gbc);
+    gbc.gridx = 2;
+    gbc.gridy = 1;
+    text.add(Video_type, gbc);
+    gbc.gridy = 2;

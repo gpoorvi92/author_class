@@ -1,0 +1,10 @@
+    return EncodingUtils.testBit(__isset_bitfield, __CPU_ISSET_ID);
+  }
+
+  public void setCpuIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __CPU_ISSET_ID, value);
+  }
+
+  public int getRss() {
+    return this.rss;
+  }

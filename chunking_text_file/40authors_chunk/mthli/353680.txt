@@ -1,0 +1,10 @@
+
+      add(panel, BorderLayout.CENTER);
+
+      addTextField();
+   }
+
+   /**
+    * Add the text field and "Add" button to add a new class.
+    */
+   public void addTextField()

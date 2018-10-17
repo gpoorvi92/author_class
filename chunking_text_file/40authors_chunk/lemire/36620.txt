@@ -1,0 +1,10 @@
+    
+    @Override
+    public void setLastWord(int word) {
+        setWord(this.actualSizeInWords - 1, word);
+    }
+    
+    @Override
+    public void push_back(int word) {
+        resizeBuffer(1);
+        this.buffer[this.actualSizeInWords++] = word;

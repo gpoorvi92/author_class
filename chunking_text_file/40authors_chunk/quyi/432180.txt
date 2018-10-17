@@ -1,0 +1,10 @@
+            }
+            break;
+          case 3: // SENSITIVES
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list8 = iprot.readListBegin();
+                struct.sensitives = new ArrayList<String>(_list8.size);
+                for (int _i9 = 0; _i9 < _list8.size; ++_i9)
+                {
+                  String _elem10;

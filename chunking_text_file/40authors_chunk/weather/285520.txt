@@ -1,0 +1,10 @@
+    public Filter getFilter() {
+        if (mFilter == null) {
+            mFilter = new ArrayFilter();
+        }
+        return mFilter;
+    }
+
+    /**
+     * <p>An array filter constrains the content of the array adapter with
+     * a prefix. Each item that does not start with the supplied prefix

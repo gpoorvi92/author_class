@@ -1,0 +1,10 @@
+     */
+    int getLiteralWordAt(int index);
+
+    /**
+     * @return the number of literal (non-fill) words
+     */
+    int getNumberOfLiteralWords();
+
+    /**
+     * @return the bit used for the fill bits

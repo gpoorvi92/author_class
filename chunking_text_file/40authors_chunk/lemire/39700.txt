@@ -1,0 +1,10 @@
+
+/**
+ * java.nio.IntBuffer wrapper.
+ * Users should not be concerned by this class.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class IntBufferWrapper implements Buffer32 {
+
+    public IntBufferWrapper(IntBuffer buffer) {

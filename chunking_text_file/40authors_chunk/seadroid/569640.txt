@@ -1,0 +1,10 @@
+    private static final String STATE_ACCOUNT = "set_password_task.account";
+
+    private EditText passwordText;
+    private String repoID, repoName;
+    private DataManager dataManager;
+    private Account account;
+    private String password;
+
+    public void setRepo(String repoName, String repoID, Account account) {
+        this.repoName = repoName;

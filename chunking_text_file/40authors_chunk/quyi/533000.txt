@@ -1,0 +1,10 @@
+    }
+  }
+
+  public String getDescription() {
+    return this.description;
+  }
+
+  public APICheck setDescription(String description) {
+    this.description = description;
+    return this;

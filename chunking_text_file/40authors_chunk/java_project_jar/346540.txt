@@ -1,0 +1,10 @@
+        } else
+        {
+            position = mark;
+            eof = false;
+            return;
+        }
+    }
+
+    public long skip(long numberOfChars)
+        throws IOException

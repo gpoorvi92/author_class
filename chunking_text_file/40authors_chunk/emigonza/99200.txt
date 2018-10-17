@@ -1,0 +1,10 @@
+                if( greatest.compareTo( element ) < 0 )
+                    greatest = element;
+            }
+            else
+                greatest = element;
+        }
+
+        return greatest;
+    }
+

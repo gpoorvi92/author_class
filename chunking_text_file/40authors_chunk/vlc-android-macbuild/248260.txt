@@ -1,0 +1,10 @@
+        }
+    };
+
+    public String mRawCpuInfo = new String();
+    public TreeMap<String, String> mRawInfoMap = new TreeMap<String, String>();
+    public int mCpuPart;
+    public int mCpuImplementer;
+    public TreeSet<String> mFeatureSet = new TreeSet<String>();
+
+    public static String getRawCpuInfo() {

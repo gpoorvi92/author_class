@@ -1,0 +1,8 @@
+	/**
+	 * A generic object arrived event.
+	 * 
+	 * @param clazz
+	 * @param obj
+	 */
+	void onObjectMessage(Object obj);
+}

@@ -1,0 +1,10 @@
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               textArea.append("User name: " + textField.getText() + " Password: "
+                     + new String(passwordField.getPassword()) + "\n");
+            }
+         });
+
+      add(southPanel, BorderLayout.SOUTH);
+      pack();

@@ -1,0 +1,10 @@
+    }); 
+    int count = 0;
+  result_loop:
+    for (Integer id : keys) {
+      if (count++ >= max_terms) break result_loop;
+      ret.add(id);
+    }
+    return ret;
+  }
+

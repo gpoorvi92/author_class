@@ -1,0 +1,10 @@
+      if (!this.cpuVendor.equals(that.cpuVendor))
+        return false;
+    }
+
+    boolean this_present_cpuModel = true && this.isSetCpuModel();
+    boolean that_present_cpuModel = true && that.isSetCpuModel();
+    if (this_present_cpuModel || that_present_cpuModel) {
+      if (!(this_present_cpuModel && that_present_cpuModel))
+        return false;
+      if (!this.cpuModel.equals(that.cpuModel))

@@ -1,0 +1,10 @@
+            topView.setTextColor(0xFF553333);
+        }
+        else {
+            bottomView.setTextColor(0xFF442222);
+            topView.setTextColor(0xFF553333);
+        }
+    }
+
+
+    /**

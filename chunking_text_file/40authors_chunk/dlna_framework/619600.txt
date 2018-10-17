@@ -1,0 +1,10 @@
+		open(addr, port, bindAddr);
+	}
+
+	protected void finalize()
+	{
+		close();
+	}
+
+	////////////////////////////////////////////////
+	//	bindAddr

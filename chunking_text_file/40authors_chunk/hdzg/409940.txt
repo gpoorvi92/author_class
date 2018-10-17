@@ -1,0 +1,6 @@
+				tempHero.father.freeGeneral.remove(g);//从自由将军列表中去掉将军
+			}
+			
+		}
+	}
+}

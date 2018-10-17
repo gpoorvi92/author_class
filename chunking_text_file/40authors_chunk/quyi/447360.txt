@@ -1,0 +1,10 @@
+    this.jvmVersion = null;
+  }
+
+  /** Returns true if field jvmVersion is set (has been assigned a value) and false otherwise */
+  public boolean isSetJvmVersion() {
+    return this.jvmVersion != null;
+  }
+
+  public void setJvmVersionIsSet(boolean value) {
+    if (!value) {

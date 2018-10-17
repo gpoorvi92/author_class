@@ -1,0 +1,10 @@
+import android.view.MotionEvent;
+import android.view.View;
+
+public class WuGuanDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={//对话框显示文字
+			"前方是一个武馆，是否让将军们在此锻炼一番？预计消耗金钱1500。",
+			"大军来到一个武馆，不过你的金钱太少了，看门人不让你进去。",
+			"xx将军通过在武馆训练一番，武力提高了yy点。",
+			"xx将军在武馆晃悠了一整天，什么也没学会。"
+		};

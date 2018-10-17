@@ -1,0 +1,10 @@
+	}
+
+
+	/**
+	 * Specifies the bytes that have been read from the files.
+	 * 
+	 * @param bytesConsumed
+	 */
+	public void bytesConsumedFromAllowance(long bytesConsumed) {
+		synchronized (bytesWrittenLock) {

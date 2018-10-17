@@ -1,0 +1,10 @@
+		Scanner sc = new Scanner(System.in);
+
+		//键盘录入数据
+		System.out.println("请输入一个数据(1-7)：");
+		int week = sc.nextInt();
+
+		//用switch语句实现
+		switch(week) {
+			case 1:
+				System.out.println("星期一");

@@ -1,0 +1,10 @@
+			bxg = (Bxg) sessionFactory.getCurrentSession().merge(bxg);
+			sessionFactory.getCurrentSession().update(bxg);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public List<Bxg> selectBxgByLikeNorms(String condition) {

@@ -1,0 +1,8 @@
+A end   timer=1460639942830 threadName=Thread-1
+
+main end timer=1460639942830 threadName=main
+B begin timer=1460639942830 threadName=Thread-0
+B end   timer=1460639945830 threadName=Thread-0
+
+
+ */

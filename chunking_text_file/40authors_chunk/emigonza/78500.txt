@@ -1,0 +1,10 @@
+    //
+
+    /**
+     * Compares this and other arguments for order
+     * @param other object to compare to
+     */
+    public int compareTo( Object other ) { return object.toString().compareTo( other.toString() ); }
+
+    /**
+     * Indicates this object is "equal to" the other 

@@ -1,0 +1,10 @@
+  public boolean isSetJvmName() {
+    return this.jvmName != null;
+  }
+
+  public void setJvmNameIsSet(boolean value) {
+    if (!value) {
+      this.jvmName = null;
+    }
+  }
+

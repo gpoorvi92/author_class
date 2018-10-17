@@ -1,0 +1,10 @@
+	 * @return 用户状态(1-关注，－1-取消关注)。
+	 * */
+	public Integer getStatus() {
+		return status;
+	}
+	/**
+	 * 设置用户状态(1-关注，－1-取消关注)。
+	 * @param status
+	 * 用户状态(1-关注，－1-取消关注)。
+	 * */

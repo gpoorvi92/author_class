@@ -1,0 +1,10 @@
+			Sample sample = client.searchApp(missionId, userAppId);
+			long finishedTime=System.currentTimeMillis();
+			if (sample != null && sample.getMissionId() != null) {
+				isSearchSuccess = true;
+			}
+			String result="失败";
+			if(isSearchSuccess){
+				result="成功";
+			}
+			SearchRecordInfo searchRecordInfo=new SearchRecordInfo(number,startTime,finishedTime,count,result);

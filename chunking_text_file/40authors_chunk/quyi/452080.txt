@@ -1,0 +1,10 @@
+    public boolean isSetRules() {
+      return this.rules != null;
+    }
+
+    public void setRulesIsSet(boolean value) {
+      if (!value) {
+        this.rules = null;
+      }
+    }
+

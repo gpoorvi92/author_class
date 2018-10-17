@@ -1,0 +1,10 @@
+         };
+      BeanInfo info = Introspector.getBeanInfo(Employee.class);
+      info.getBeanDescriptor().setValue("persistenceDelegate", delegate);
+
+      XMLEncoder out = new XMLEncoder(System.out);
+      out.setExceptionListener(new ExceptionListener()
+         {
+            public void exceptionThrown(Exception e)
+            {
+               e.printStackTrace();

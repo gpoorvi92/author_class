@@ -1,0 +1,10 @@
+                            mQueue.wait();
+                        } catch (InterruptedException ex) {
+                            // ignore the exception
+                        }
+                        continue;
+                    }
+                }
+
+                final Bitmap b = workItem.mImage.miniThumbBitmap();
+

@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * 根据用户名查询
+	 * 
+	 * @param userName
+	 * @return
+	 */
+	private DBObject queryTokenByuserName(String userName) {
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);

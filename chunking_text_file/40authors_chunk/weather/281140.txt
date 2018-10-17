@@ -1,0 +1,10 @@
+        return super.onInterceptTouchEvent(event);
+    }
+
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        getParent().requestDisallowInterceptTouchEvent(!enableParent);
+        return super.dispatchTouchEvent(ev);
+    }
+

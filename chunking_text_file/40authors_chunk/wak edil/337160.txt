@@ -1,0 +1,10 @@
+		
+		cont.add(p1,BorderLayout.CENTER);
+		cont.add(p2,BorderLayout.NORTH);
+		cont.add(p3,BorderLayout.SOUTH);
+		
+		jbtBack.addActionListener(this);
+		
+    }
+    
+    public void actionPerformed(ActionEvent e)

@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerHttpListener()</code> to register an
+ * HTTP listener. The listener will be notified of requests and responses made
+ * by any Burp tool. Extensions can perform custom analysis or modification of
+ * these messages by registering an HTTP listener.
+ */
+public interface IHttpListener
+{

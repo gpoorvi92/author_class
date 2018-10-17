@@ -1,0 +1,10 @@
+	public static LocationReqMessage parseLocationReqMessage(Map<String, String> data){
+		LocationReqMessage locationReqMessage = new LocationReqMessage();
+		//
+		parseReqMessage(locationReqMessage, data);
+		//
+		locationReqMessage.setLocation_X(data.get("Location_X"));
+		locationReqMessage.setLocation_Y(data.get("Location_Y"));
+		locationReqMessage.setScale(Integer.parseInt(data.get("Scale")));
+		locationReqMessage.setLabel(data.get("Label"));
+		//

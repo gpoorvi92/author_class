@@ -1,0 +1,10 @@
+      } else {
+        setMonitorTime((String)value);
+      }
+      break;
+
+    case SCREEN_SHOT_PATH:
+      if (value == null) {
+        unsetScreenShotPath();
+      } else {
+        setScreenShotPath((String)value);

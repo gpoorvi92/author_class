@@ -1,0 +1,10 @@
+		if(entity!=null)
+			return null;
+		else
+			return Converter.toObject(Account.class, entity);
+	}
+	/**
+	 * 增加帐号
+	 * @param entity
+	 * @return
+	 */

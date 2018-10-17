@@ -1,0 +1,10 @@
+        makeProperty("ReaderWriterServiceList"),
+        makeProperty("SequenceNumber"),
+        makeProperty("SettledAmount"),
+        makeProperty("SettledPoint"),
+        makeProperty("TransactionLog"),
+        makeProperty("VoucherID"),
+        makeProperty("VoucherIDList"),
+
+      };
+

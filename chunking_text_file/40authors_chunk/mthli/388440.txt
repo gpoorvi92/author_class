@@ -1,0 +1,10 @@
+   /**
+    * Prints all constructors of a class
+    * @param cl a class
+    */
+   public static void printConstructors(Class cl)
+   {
+      Constructor[] constructors = cl.getDeclaredConstructors();
+
+      for (Constructor c : constructors)
+      {

@@ -1,0 +1,10 @@
+            bottomView.setTextColor(0xFF444444);
+            topView.setPadding(0, 5-(int)(topTextSize/15.0), 0, 0);
+        } else {
+            topView.setPadding(0, 5, 0, 0);
+            topView.setTextColor(0xFF666666);
+            bottomView.setTextColor(0xFF666666);
+        }
+        addView(topView);addView(bottomView);
+
+    }

@@ -1,0 +1,10 @@
+    public static synchronized CameraUploadDBHelper getCameraUploadDBHelper() {
+        if (dbHelper != null)
+            return dbHelper;
+        dbHelper = new CameraUploadDBHelper(SeadroidApplication.getAppContext());
+        dbHelper.database = dbHelper.getWritableDatabase();
+        return dbHelper;
+    }
+
+    private CameraUploadDBHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);

@@ -1,0 +1,10 @@
+	 * @Title: sendTextMessage
+	 * @param msg
+	 * @return: void
+	 */
+	void sendTextMessage(String msg) throws MQException;
+	
+	/**
+	 * Sends the text format messages one by one.
+	 * 
+	 * @Title: sendTextMessage

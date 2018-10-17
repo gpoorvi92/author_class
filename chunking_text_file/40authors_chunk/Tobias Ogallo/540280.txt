@@ -1,0 +1,10 @@
+                         jTable.setValueAt(result.getString(3),Numrow,2);
+                         jTable.setValueAt(result.getString(4),Numrow,3);
+                         jTable.setValueAt(result.getString(5),Numrow,4);
+                         Numrow++;
+                       
+					   }	
+					   	
+					
+					
+				}

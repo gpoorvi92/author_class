@@ -1,0 +1,10 @@
+
+    WindowAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowOpened(java.awt.event.WindowEvent)
+
+    public native void __windowOpened( java.awt.event.WindowEvent e );
+

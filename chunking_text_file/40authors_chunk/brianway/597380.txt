@@ -1,0 +1,10 @@
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+public class Run6_StartVsRun02 {
+    public static void main(String[] args) {
+        MyThread6 myThread6 = new MyThread6();

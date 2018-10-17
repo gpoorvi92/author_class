@@ -1,0 +1,10 @@
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+public class SocketServiceImpl implements CommandService {
+    private InetSocketAddress[] hosts;
+    private Sender sender;
+    
+    
+	public SocketServiceImpl(InetSocketAddress[] hosts) {

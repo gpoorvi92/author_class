@@ -1,0 +1,10 @@
+			TokenLogout logout=new TokenLogout(logoutBody);
+			LoginResponse logoutR=cmd.logout(logout);
+			assertNotNull(logoutR);
+			assertTrue(logoutR.getResult()==LoginResponse.SUCCESS);
+			assertNull(logoutR.getToken());
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}finally{
+			count.countDown();
+		}

@@ -1,0 +1,10 @@
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+
+public class passwordSQL
+{
+	public Connection con;
+	public int cnt = 0;
+	public String usname, uspasswd;

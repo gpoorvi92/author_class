@@ -1,0 +1,10 @@
+    if (!value) {
+      this.packageName = null;
+    }
+  }
+
+  public String getObjectName() {
+    return this.objectName;
+  }
+
+  public APICheck setObjectName(String objectName) {

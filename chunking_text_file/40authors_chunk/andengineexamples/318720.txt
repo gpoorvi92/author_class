@@ -1,0 +1,10 @@
+	SPADE_JACK(Color.SPADE, Value.JACK),
+	SPADE_QUEEN(Color.SPADE, Value.QUEEN),
+	SPADE_KING(Color.SPADE, Value.KING);
+
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	public static final int CARD_WIDTH = 71;
+	public static final int CARD_HEIGHT = 96;

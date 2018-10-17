@@ -1,0 +1,10 @@
+
+    public ModelJMenu(modelViewer mv)
+    {
+        super("Model");
+        this.mv = mv;
+        scaleModel = new JMenuItem("Scale Model");
+        flipAxis = new JMenu("Flip Axis");
+        flipX = new JMenuItem("X");
+        flipY = new JMenuItem("Y");
+        flipZ = new JMenuItem("Z");

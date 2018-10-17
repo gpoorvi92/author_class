@@ -1,0 +1,10 @@
+     * @param resid
+     * @return
+     */
+    public static int  getThemeColorFromId(Context appContext,Context packageContext,int resid) {
+        int id = getResidFromIdentifier(appContext,packageContext,resid,"color");
+        return packageContext.getResources().getColor(id);
+    }
+
+
+

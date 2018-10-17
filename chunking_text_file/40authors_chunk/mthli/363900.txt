@@ -1,0 +1,10 @@
+package optionDialog;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import java.util.*;
+import javax.swing.*;
+
+/**
+ * A frame that contains settings for selecting various option dialogs.

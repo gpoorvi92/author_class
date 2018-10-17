@@ -1,0 +1,10 @@
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(Rules.class, metaDataMap);
+  }
+
+  public Rules() {
+  }
+
+  public Rules(
+    String ruleId,
+    String ruleName,
+    List<Activity> ruleTypes,

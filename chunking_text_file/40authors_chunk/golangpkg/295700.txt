@@ -1,0 +1,10 @@
+import com.google.common.collect.Iterables;
+import com.google.common.collect.Lists;
+
+
+
+/**
+ * Takes care of deleting the files.
+ * 
+ * @author antoinem
+ * 

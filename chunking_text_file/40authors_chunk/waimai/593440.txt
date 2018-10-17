@@ -1,0 +1,10 @@
+@Service(IGoodsTypeService.SERVICE_NAME)
+public class GoodsTypeServiceImpl implements IGoodsTypeService {
+    @Autowired
+    private GoodsTypeMapper goodsTypeMapper;
+
+    @Override
+    public List<GoodsType> findAll() {
+        return goodsTypeMapper.findAll();
+    }
+

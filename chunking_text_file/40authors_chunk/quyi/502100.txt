@@ -1,0 +1,10 @@
+      case 101:
+        return RECORD_AUDIO;
+      case 102:
+        return REORDER_TASKS;
+      case 103:
+        return RESTART_PACKAGES;
+      case 104:
+        return SEND_RESPOND_VIA_MESSAGE;
+      case 105:
+        return SEND_SMS;

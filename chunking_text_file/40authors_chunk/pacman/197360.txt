@@ -1,0 +1,10 @@
+			
+			File zipFile = new File(target);
+			zip = (ZipArchiveOutputStream) new ArchiveStreamFactory().createArchiveOutputStream(
+					ArchiveStreamFactory.ZIP, new FileOutputStream(zipFile));
+			zip.setEncoding("UTF-8");
+			zip.setUseZip64(Zip64Mode.AsNeeded);
+			
+			String entryName = null;
+			InputStream in = null;
+			List<String> dupList = new ArrayList<String>();

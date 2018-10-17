@@ -1,0 +1,10 @@
+	/**
+	 * 构造函数。
+	 * */
+	public BaseRespMessage(){
+		super();
+	}
+	/**
+	 * 构造函数。
+	 * @param req
+	 * 	请求消息。

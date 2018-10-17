@@ -1,0 +1,10 @@
+package tv.danmaku.media;
+
+import tv.danmaku.android.util.Assure;
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
+
+public class MediaResourceItem implements Parcelable {
+    private static final String BUNDLE_FROM_TAG = "from_tag";

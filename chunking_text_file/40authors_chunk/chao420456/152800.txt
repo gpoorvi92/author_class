@@ -1,0 +1,10 @@
+		synchronized (serverThread.messages) {
+			String str = "@serverexit";
+			serverThread.messages.add(str);
+		}
+		serverThread.serverFrame.setDisMess("@exit");
+		serverThread.serverFrame.setDisUsers("@exit");
+		serverThread.stopServer();
+	}
+
+	

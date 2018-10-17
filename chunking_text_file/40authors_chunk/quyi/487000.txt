@@ -1,0 +1,10 @@
+                        _key51 = iprot.readString();
+                        _val52 = new com.nercis.isscp.idl.APICheck();
+                        _val52.read(iprot);
+                        _elem48.put(_key51, _val52);
+                      }
+                      iprot.readMapEnd();
+                    }
+                    struct.usedPermissions.add(_elem48);
+                  }
+                  iprot.readListEnd();

@@ -1,0 +1,10 @@
+
+	@Override
+	public void store(final MMSDeliverRequest request) {
+		/*
+		 * 将对store方法的调用封装成MethodRequest对象, 并存入缓冲区。
+		 */
+		//模式角色：ActiveObject.MethodRequest
+		Callable<Boolean> methodRequest = new Callable<Boolean>() {
+			@Override
+			public Boolean call() throws Exception {

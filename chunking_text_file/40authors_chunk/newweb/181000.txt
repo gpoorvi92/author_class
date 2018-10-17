@@ -1,0 +1,10 @@
+import com.newweb.dao.base.BxgDao;
+import com.newweb.model.base.Bxg;
+
+@SuppressWarnings("unchecked")
+@Component("bxgDao")
+public class BxgDaoImp implements BxgDao {
+
+	
+	private SessionFactory sessionFactory;
+	

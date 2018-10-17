@@ -1,0 +1,10 @@
+      case 6:
+        return ACCESS_SURFACE_FLINGER;
+      case 7:
+        return ACCESS_WIFI_STATE;
+      case 8:
+        return ACCOUNT_MANAGER;
+      case 9:
+        return ADD_VOICEMAIL;
+      case 10:
+        return AUTHENTICATE_ACCOUNTS;

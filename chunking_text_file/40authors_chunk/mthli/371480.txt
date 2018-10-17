@@ -1,0 +1,5 @@
+            c.setBounds(x - d.width / 2, y - d.height / 2, d.width, d.height);
+         }
+      }
+   }
+}

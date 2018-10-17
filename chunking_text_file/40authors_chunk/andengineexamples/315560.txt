@@ -1,0 +1,10 @@
+		rectangleGroup.attachChild(rect1);
+		rectangleGroup.attachChild(rect2);
+		rectangleGroup.attachChild(rect3);
+		rectangleGroup.attachChild(rect4);
+
+		scene.attachChild(rectangleGroup);
+
+		return scene;
+	}
+

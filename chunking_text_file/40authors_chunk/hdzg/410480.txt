@@ -1,0 +1,10 @@
+	int number = 1;
+	Paint paint;
+	public UseSkillView(GameView gameView) {
+		this.gameView = gameView;
+		paint = new Paint();
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		paint.setAntiAlias(true);//抗锯齿
+		initData();//初始化数据
+	}
+	

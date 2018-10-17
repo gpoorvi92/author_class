@@ -1,0 +1,10 @@
+				if(currentI < 0){
+					currentI = 0;
+				}
+			}	
+		}
+		else if(x>212 && x<242 && y>15 && y<45){//点击了向下翻页按钮{		
+			selectI++;
+			if(items.length < yeSpan){//当一个屏幕可以全部显示时，即不需要滚屏 
+				if(selectI > items.length-1){ 
+					selectI = items.length-1;

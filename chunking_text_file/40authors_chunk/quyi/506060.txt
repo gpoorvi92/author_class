@@ -1,0 +1,10 @@
+					singleRecordInfo.setAppCheckResult("成功");
+				}else if(plotsStatus.containsValue(CheckResultStatus.timeout)){
+					singleRecordInfo.setAppCheckResult("超时");
+				}else if(plotsStatus.containsValue(CheckResultStatus.failure)){
+					singleRecordInfo.setAppCheckResult("失败");
+				}
+				
+				//new ExportExcel().exportToSingleExcel("E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\单个应用统计.xls", singleRecordInfo);
+			    SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo);
+			}

@@ -1,0 +1,10 @@
+        comparables.removeElement( min );
+
+        comparables.insertElementAt( min, 0 );
+
+        for( int i = 2; i < comparables.size(); i++ )
+        {
+            Comparable temp = (Comparable)comparables.elementAt( i );
+            int j = 0;
+            for( j = i; j > 0 && temp.compareTo( (Comparable)comparables.elementAt( j - 1 ) ) < 0; --j )
+                comparables.setElementAt( comparables.elementAt( j - 1 ), j );

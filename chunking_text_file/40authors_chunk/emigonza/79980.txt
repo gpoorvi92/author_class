@@ -1,0 +1,10 @@
+ * The JavaPOS JposServiceLoader class.  It creates an instance of the 
+ * installed JposServiceFactory or default to the SimpleServiceFactory
+ * and is used by the controls to create JposServiceConnection object
+ * that are used to bind the controls to the actual loaded services.
+ * Modification history
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public final class JposServiceLoader extends Object
+{

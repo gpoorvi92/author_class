@@ -1,0 +1,10 @@
+      if (struct.isSetFunctionStatus()) {
+        optionals.set(1);
+      }
+      oprot.writeBitSet(optionals, 2);
+      if (struct.isSetUsedPermissions()) {
+        {
+          oprot.writeI32(struct.usedPermissions.size());
+          for (Map<String,APICheck> _iter144 : struct.usedPermissions)
+          {
+            {

@@ -1,0 +1,9 @@
+			CityDrawable cd = (CityDrawable)gameView.currentDrawable;//获得成城池类引用
+			cd.calculateWinOrLose();//计算输赢
+			gameView.battleField.setCity(cd.getCityName());
+			gameView.setStatus(4);
+			gameView.battleField.startAnimation();
+		}
+		return true;
+	}
+}

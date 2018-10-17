@@ -1,0 +1,10 @@
+		return list;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<String> selectDistinctStatus() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select distinct status from t_bill");
+		return query.list();
+	}
+

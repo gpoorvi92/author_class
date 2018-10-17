@@ -1,0 +1,10 @@
+
+//Following Class Show HTML Help inside an EditorPane.
+
+class HtmlPane extends JScrollPane implements HyperlinkListener {
+
+	JEditorPane html;
+
+	public HtmlPane (String filename) {
+
+		try {

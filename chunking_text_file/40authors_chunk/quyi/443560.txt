@@ -1,0 +1,10 @@
+
+  public void setWhyIsSet(boolean value) {
+    if (!value) {
+      this.why = null;
+    }
+  }
+
+  public void setFieldValue(_Fields field, Object value) {
+    switch (field) {
+    case WHY:

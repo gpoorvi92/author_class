@@ -1,0 +1,10 @@
+    /**
+     * testSub2断点调试结果是运行的Service类的printA方法
+     */
+    public static void testSub2() {
+        ServiceSub2 service1 = new ServiceSub2();
+        ServiceSub2 service2 = new ServiceSub2();
+
+        ThreadA a = new ThreadA(service1);
+        a.setName("A");
+        a.start();

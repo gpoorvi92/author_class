@@ -1,0 +1,10 @@
+    public AcctObject(AcctType toAcctType) {
+    	moAcctType=toAcctType;
+    }
+        
+    public synchronized void NewAcctSelectionEventReceived(String tstrAcctCode,String tstrAcctDesc,String tstrAcctType) {
+			
+		mstrAcctCode = tstrAcctCode;
+		mstrAcctDesc = tstrAcctDesc;
+		mstrAcctType=tstrAcctType;
+		moAcctType = new AcctType(mstrAcctCode,mstrAcctDesc,mstrAcctType);

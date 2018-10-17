@@ -1,0 +1,10 @@
+ * 		先判断满足条件吗?如果满足，就往数组里面方法，最后直接遍历即可。
+ * 
+ * 要想实现B方案，就必须知道一个东西：FilenameFilter 文件名称过滤器。
+ */
+public class FileTest2 {
+	public static void main(String[] args) {
+		File folder = new File("d:\\");
+
+		// public String[] list(FilenameFilter filter)
+		// public File[] listFiles(FilenameFilter filter)

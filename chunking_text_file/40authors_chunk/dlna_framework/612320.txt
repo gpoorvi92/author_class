@@ -1,0 +1,10 @@
+			Node node = resNode.getNode(n);
+			String name = node.getName();
+			String value = node.getValue();
+			Argument arg = new Argument(name, value);
+			argList.add(arg);
+		}
+		
+		return argList;
+	}
+}

@@ -1,0 +1,10 @@
+    public void run() {
+        try {
+            if(responseHandler != null){
+                responseHandler.sendStartMessage();
+            }
+
+            makeRequestWithRetries();
+
+            if(responseHandler != null) {
+                responseHandler.sendFinishMessage();

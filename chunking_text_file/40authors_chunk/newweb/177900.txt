@@ -1,0 +1,10 @@
+	public int getBfCount() {
+		return bfCount;
+	}
+	public void setBfCount(int bfCount) {
+		this.bfCount = bfCount;
+	}
+	public double getYjLength() {
+		return yjLength;
+	}
+	public void setYjLength(double yjLength) {

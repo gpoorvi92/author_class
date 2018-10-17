@@ -1,0 +1,9 @@
+        return ajaxDoneSuccessAndClose("修改成功", "imageRecommend_list");
+    }
+
+    @RequestMapping("/delete")
+    public ModelAndView delete(String[] ids) {
+        imageRecommendService.delete(ids);
+        return ajaxDoneSuccess("删除成功");
+    }
+}

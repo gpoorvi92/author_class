@@ -1,0 +1,10 @@
+    */
+   public void add(Component c)
+   {
+      try
+      {
+         // get all events to which this component can listen
+         BeanInfo info = Introspector.getBeanInfo(c.getClass());
+
+         EventSetDescriptor[] eventSets = info.getEventSetDescriptors();
+         for (EventSetDescriptor eventSet : eventSets)

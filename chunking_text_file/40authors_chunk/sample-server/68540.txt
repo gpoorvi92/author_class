@@ -1,0 +1,10 @@
+public class ZoneEntity extends Persistance
+{
+    @Column(name = "zone_id")
+    private Integer zoneId = Integer.valueOf(0);
+    @Column(name = "zone_name")
+    private String zoneName;
+    @Column(name = "server_group_id")
+    private Integer serverGroupId = Integer.valueOf(0);
+    @Column(name = "game_server_host")
+    private String gameServerHost;

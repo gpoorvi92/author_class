@@ -1,0 +1,10 @@
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public StaticCheckResultData(StaticCheckResultData other) {
+    if (other.isSetApkMD5()) {
+      this.apkMD5 = other.apkMD5;
+    }
+    if (other.isSetCheckDate()) {

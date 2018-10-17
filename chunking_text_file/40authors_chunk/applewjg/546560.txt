@@ -1,0 +1,5 @@
+        for (int i = 0; i < letters.length(); ++i) {
+            letterCombinationsRe(keyboard, res, digits, s+letters.charAt(i));
+        }
+    }
+}

@@ -1,0 +1,10 @@
+    public boolean existRe(char[][] board, int i, int j, String word, int cur, boolean[][] visited) {
+        if (cur == word.length()) return true;
+        int m = board.length;
+        int n = board[0].length;
+        if (i < 0 || i >= m || j < 0 || j >= n) return false;
+        if (visited[i][j] == true || (board[i][j] != word.charAt(cur))) return false;
+        visited[i][j] = true;
+        if (existRe(board, i+1, j, word, cur+1,visited)) return true;
+        if (existRe(board, i-1, j, word, cur+1,visited)) return true;
+        if (existRe(board, i, j+1, word, cur+1,visited)) return true;

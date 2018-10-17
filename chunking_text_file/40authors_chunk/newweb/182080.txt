@@ -1,0 +1,10 @@
+		bill.setLastModifyDate(DateUtil.getLocationCurrentDate());
+		bill.setLastModifyTime(DateUtil.getLocationCurrentTime());
+		return billDao.insert(bill);
+	}
+
+	@Override
+	public boolean remove(Bill bill) {
+		return billDao.delete(bill);
+	}
+

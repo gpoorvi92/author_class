@@ -1,0 +1,10 @@
+	@Override
+	public List selectBillByStatusACreateDateACustomerLikeCondition(String status,String startDate, String endDate,
+			String customer, int start, int limit) {
+		List list = new ArrayList();
+		Query query1 = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bill where status != '等待结帐' and status like '送货结帐' and createDate < ? order by lastModifyDate DESC,lastModifyTime DESC")
+				.addEntity(Bill.class);
+		Query query2 = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bill where status != '等待结帐' and status like ? and createDate between ? and ? and customerID like ? order by lastModifyDate DESC,lastModifyTime DESC")
+				.addEntity(Bill.class);
+		query1.setString(0, startDate);
+		query2.setString(0, status);

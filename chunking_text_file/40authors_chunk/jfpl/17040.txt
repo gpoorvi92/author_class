@@ -1,0 +1,10 @@
+		if (errorCode == 0) {
+			Log.i(SystemUtil.LOG_MSG, "userId: " + userId + ", channelId:"
+					+ channelId + ", appid:" + appid);
+			setBind(context, true, new String[] { appid, channelId, userId });
+		}
+	}
+
+	@Override
+	public void onDelTags(Context context, int errorCode,
+			List<String> sucessTags, List<String> failTags, String requestId) {

@@ -1,0 +1,10 @@
+
+
+
+/**
+ * Component responsible for advertising the write progress of a specific file to
+ * {@link JLFUListener}s.<br>
+ * Every second, it calculates the progress of all the files being uploaded.
+ * 
+ * @author antoinem
+ * 

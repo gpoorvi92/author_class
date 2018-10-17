@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * The color action sets the background of the frame to a given color.
+    */
+   class ColorAction extends AbstractAction
+   {
+      public ColorAction(String name, Icon icon, Color c)
+      {
+         putValue(Action.NAME, name);

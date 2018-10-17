@@ -1,0 +1,10 @@
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, issuedMessage_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.missionId);
+        {
+          oprot.writeI32(struct.userApps.size());
+          for (com.nercis.isscp.idl.UserApp _iter44 : struct.userApps)
+          {
+            _iter44.write(oprot);

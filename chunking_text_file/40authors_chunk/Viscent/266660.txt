@@ -1,0 +1,7 @@
+	void shutdown(long timeout, TimeUnit unit);
+
+	/**
+	 * 对输入元素进行处理，并将处理结果作为下一个Pipe实例的输入。
+	 */
+	void process(IN input) throws InterruptedException;
+}

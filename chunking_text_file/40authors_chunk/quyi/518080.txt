@@ -1,0 +1,10 @@
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(modifyEngineConfig_args.class, metaDataMap);
+    }
+
+    public modifyEngineConfig_args() {
+    }
+
+    public modifyEngineConfig_args(
+      String propertyName,
+      String propertyValue)
+    {

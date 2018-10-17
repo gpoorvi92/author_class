@@ -1,0 +1,10 @@
+        checkIfCancelled(directory, depth, results);
+    }
+
+    protected final void checkIfCancelled(File file, int depth, Collection results)
+        throws IOException
+    {
+        if(handleIsCancelled(file, depth, results))
+            throw new CancelException(file, depth);
+        else
+            return;

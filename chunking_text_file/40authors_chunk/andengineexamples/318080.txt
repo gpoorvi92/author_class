@@ -1,0 +1,10 @@
+		rightBreakLine.setColor(Color.RED);
+		this.mText.attachChild(rightBreakLine);
+
+		this.updateText();
+
+		return scene;
+	}
+
+	@Override
+	public void afterTextChanged(final Editable pEditable) {

@@ -1,0 +1,10 @@
+                     TrayIcon.MessageType.INFO);
+            }
+         });
+      timer.start();
+   }
+
+   private List<String> readFortunes()
+   {
+      List<String> fortunes = new ArrayList<>();
+      try (InputStream inStream = getClass().getResourceAsStream("fortunes"))       

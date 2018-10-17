@@ -1,0 +1,10 @@
+		setResult(flag, intent);
+		finish();
+	}
+
+	@Click(R.id.title_back)
+	void back() {
+		EditActivity.this.finish();
+	}
+
+	private void initKeywordsFlow(String[] keywords) {

@@ -1,0 +1,10 @@
+	 * @param audioBitrate
+	 * @param audioSample
+	 * @param videoBitrate
+	 * @param videoWidth
+	 * @param videoHeight
+	 * @param duration
+	 * @return
+	 */
+	BaseMessage buildVideoTaskMessage(
+			int taskId,

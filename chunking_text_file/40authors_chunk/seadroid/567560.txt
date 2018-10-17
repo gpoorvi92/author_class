@@ -1,0 +1,10 @@
+
+        if (!(o instanceof SelectableFile)) {
+            return false;
+        }
+
+        SelectableFile lhs = (SelectableFile) o;
+
+        return file.equals(lhs.getFile()) && selected == lhs.isSelected();
+    }
+

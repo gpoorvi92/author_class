@@ -1,0 +1,10 @@
+            if(match<n&&s.charAt(i)=='('&&s.charAt(match)==')'){
+                f[i]=f[i+1]+2;
+                if(match+1<n) f[i]+=f[match+1];
+            }
+            res = Math.max(res,f[i]);
+        }
+        return res;
+    }
+    public int longestValidParentheses(String s) {
+        int counter = 0, val = 0, res = 0;

@@ -1,0 +1,10 @@
+        throw new java.io.IOException(te);
+      }
+    }
+
+    private static class ruleSync_resultStandardSchemeFactory implements SchemeFactory {
+      public ruleSync_resultStandardScheme getScheme() {
+        return new ruleSync_resultStandardScheme();
+      }
+    }
+

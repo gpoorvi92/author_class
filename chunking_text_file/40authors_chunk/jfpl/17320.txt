@@ -1,0 +1,10 @@
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(context);
+		String flag = sp.getString("bind_flag", "");
+		if ("ok".equalsIgnoreCase(flag)) {
+			return true;
+		}
+		return false;
+	}
+
+	public static String[] getBindInfo(Context context) {

@@ -1,0 +1,10 @@
+		StringBuilder sb = new StringBuilder();
+
+		// 遍历TreeMap集合
+		Set<Character> set = tm.keySet();
+		for (Character key : set) {
+			Integer value = tm.get(key);
+			sb.append(key).append("(").append(value).append(")");
+		}
+
+		// 把StringBuilder转换为字符串

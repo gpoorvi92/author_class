@@ -1,0 +1,10 @@
+      this.result = null;
+    }
+  }
+
+  public void setFieldValue(_Fields field, Object value) {
+    switch (field) {
+    case ENGINE_NAME:
+      if (value == null) {
+        unsetEngineName();
+      } else {

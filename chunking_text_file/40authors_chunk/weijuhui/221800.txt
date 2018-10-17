@@ -1,0 +1,10 @@
+	public String post(String url, RequestParams params) {
+		this.post(url, params, responseHandler);
+		return result;
+	}
+
+	public String post(String url) {
+		this.post(url, null, responseHandler);
+		return result;
+	}
+

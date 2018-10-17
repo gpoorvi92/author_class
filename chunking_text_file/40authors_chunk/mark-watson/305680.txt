@@ -1,0 +1,10 @@
+import java.util.TreeSet;
+
+
+public class InMemorySearch {
+  private final int MAX_WORDS_PER_DOCUMENT = 1000;
+  public static void main(String[] args) {
+    InMemorySearch ims = new InMemorySearch();
+    TestDocument doc1 = new TestDocument("This is a test for index and a test for search.");
+    ims.add(doc1);
+    TestDocument doc2 = new TestDocument("Please test the index code.");

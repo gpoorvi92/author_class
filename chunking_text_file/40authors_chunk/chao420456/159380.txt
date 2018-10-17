@@ -1,0 +1,10 @@
+		list.add("world");
+		list.add("java");
+
+		// void add(int index,Object obj):在指定索引位置添加元素
+		// list.add(1, "android");
+		// list.add(3, "android");
+		// list.add(4, "android"); //有问题
+
+		// Object remove(int index):删除指定索引位置的元素，并把删除掉的元素值返回
+		// System.out.println("remove:" + list.remove(1));

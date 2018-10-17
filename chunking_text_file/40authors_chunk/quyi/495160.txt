@@ -1,0 +1,10 @@
+    public void read(org.apache.thrift.protocol.TProtocol prot, Sample struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(5);
+      if (incoming.get(0)) {
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.userAppId = iprot.readString();
+        struct.setUserAppIdIsSet(true);

@@ -1,0 +1,7 @@
+
+	//-------------------------------------------------------------------------
+	// Private instance variables
+	//
+
+	private Exception origException = null;
+}

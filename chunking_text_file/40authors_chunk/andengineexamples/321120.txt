@@ -1,0 +1,10 @@
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(CAMERA_WIDTH, CAMERA_HEIGHT), camera);
+	}
+
+	@Override
+	public void onCreateResources() {
+		this.mBitmapTextureAtlas = new BitmapTextureAtlas(this.getTextureManager(), 256, 128, TextureOptions.BILINEAR);
+
+		/* The actual AssetTextureSource. */
+		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
+		final AssetBitmapTextureAtlasSource baseTextureSource = AssetBitmapTextureAtlasSource.create(this.getAssets(), "gfx/chromatic_circle.png");

@@ -1,0 +1,10 @@
+ * @author Viscent Huang
+ *
+ * @param <P> “产品”类型
+ */
+public class BlockingQueueChannel<P> implements Channel<P> {
+	private final BlockingQueue<P> queue;
+
+	public BlockingQueueChannel(BlockingQueue<P> queue) {
+		this.queue = queue;
+	}

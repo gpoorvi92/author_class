@@ -1,0 +1,10 @@
+☆☆☆☆☆ thread2 use time = 496
+☆☆☆☆☆ thread2 use time = 509
+☆☆☆☆☆ thread2 use time = 510
+★★★★★ thread1 use time = 511
+★★★★★ thread1 use time = 554
+★★★★★ thread1 use time = 558
+★★★★★ thread1 use time = 561
+★★★★★ thread1 use time = 569
+
+---------------

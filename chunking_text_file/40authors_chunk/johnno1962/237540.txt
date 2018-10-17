@@ -1,0 +1,10 @@
+    boolean entered_windowOpened_0;
+
+    public void windowOpened( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowOpened_0 ) {
+            entered_windowOpened_0 = true;
+            __windowOpened( e );
+            entered_windowOpened_0 = false;
+        }
+        else
+            super.windowOpened( e );

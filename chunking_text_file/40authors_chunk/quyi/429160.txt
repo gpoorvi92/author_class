@@ -1,0 +1,10 @@
+  }
+
+  public VirusEngine() {
+  }
+
+  public VirusEngine(
+    String engineName,
+    String version,
+    String update,
+    String result)

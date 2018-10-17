@@ -1,0 +1,10 @@
+            int orientation = ExifInterface.ORIENTATION_NORMAL;
+            switch (degrees) {
+                case 0:
+                    orientation = ExifInterface.ORIENTATION_NORMAL;
+                    break;
+                case 90:
+                    orientation = ExifInterface.ORIENTATION_ROTATE_90;
+                    break;
+                case 180:
+                    orientation = ExifInterface.ORIENTATION_ROTATE_180;

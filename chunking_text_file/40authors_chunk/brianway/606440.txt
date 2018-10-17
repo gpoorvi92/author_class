@@ -1,0 +1,10 @@
+------------------------
+
+
+★线程Thread-0运行了
+★线程Thread-2运行了
+ThreadName=Thread-0获得锁定
+ThreadName=Thread-2获得锁定
+★线程Thread-4运行了
+ThreadName=Thread-4获得锁定
+★线程Thread-6运行了

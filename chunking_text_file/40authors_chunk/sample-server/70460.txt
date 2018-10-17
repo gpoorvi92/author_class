@@ -1,0 +1,10 @@
+    public Logicserver(String ip, int port, String name)
+    {
+        super(ip, port, name);
+    }
+    private ServerBootstrap bootstrap;
+    @Override
+    public void beforeStart() throws Exception
+    {
+        ServerContext.init(ServerType.LOGIC);
+        if (!name.startsWith(ServerContext.getServerType().toString().toLowerCase()))

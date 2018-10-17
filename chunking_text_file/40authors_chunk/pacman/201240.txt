@@ -1,0 +1,10 @@
+	protected DefaultMQReceiver(Connection 	connection,
+							       String		destName) 
+			throws JMSException {
+		
+		this(connection, destName, true);
+	}
+	
+	protected DefaultMQReceiver(Connection	connection,
+							       String 		destName,
+							       boolean		isQueue) 

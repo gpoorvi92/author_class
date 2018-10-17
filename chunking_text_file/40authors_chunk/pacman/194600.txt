@@ -1,0 +1,10 @@
+		sender.sendStream(buf);
+		sender.Close();
+		
+		assertTrue(receiver.tryGetMessage());
+		assertTrue(Arrays.equals(buf, verifyBuf));
+		receiver.Close();
+	}
+	
+	@Test
+	public void testTransformMap() throws MQException {

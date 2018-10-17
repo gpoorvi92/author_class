@@ -1,0 +1,10 @@
+		
+		
+		this.frame = frame;
+		
+		gradientControls = new GradientControls(GradientControls.LINEAR_CONTROLS);
+		
+		renderSurface = frame.getRenderSurface();
+		
+		studioFrame = new StudioFrame(500, 450, renderSurface);
+		

@@ -1,0 +1,4 @@
+     * -1 if the parameter is not associated with a specific request.
+     */
+    int getValueEnd();
+}

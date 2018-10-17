@@ -1,0 +1,10 @@
+              {
+                org.apache.thrift.protocol.TList _list14 = iprot.readListBegin();
+                struct.apiCheck = new ArrayList<APICheck>(_list14.size);
+                for (int _i15 = 0; _i15 < _list14.size; ++_i15)
+                {
+                  APICheck _elem16;
+                  _elem16 = new APICheck();
+                  _elem16.read(iprot);
+                  struct.apiCheck.add(_elem16);
+                }

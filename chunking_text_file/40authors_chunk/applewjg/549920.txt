@@ -1,0 +1,10 @@
+                    int sum = num[l] + num[r];
+                    if (sum == twosum) {
+                    ArrayList<Integer> tmp = new ArrayList<Integer>();
+                    tmp.add(num[i]); tmp.add(num[j]); tmp.add(num[l]); tmp.add(num[r]);
+                    res.add(tmp);
+                        while (l < r && num[l+1] == num[l]) l++; // avoid duplicates
+                        while (l < r && num[r-1] == num[r]) r--; // avoid duplicates
+                        l++; r--;
+                    }
+                    else if (sum < twosum) l++;

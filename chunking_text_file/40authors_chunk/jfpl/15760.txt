@@ -1,0 +1,10 @@
+					startActivity(intent);
+					finish();
+					break;
+				default:
+					break;
+				}
+			} catch (Exception e) {
+
+			}
+		}

@@ -1,0 +1,10 @@
+        }
+    }
+
+    public void write(char chr[])
+        throws IOException
+    {
+        try
+        {
+            int len = 0;
+            if(chr != null)

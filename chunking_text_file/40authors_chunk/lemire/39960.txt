@@ -1,0 +1,10 @@
+        return new IntBufferWrapper(this.buffer, this.actualSizeInWords);
+    }
+
+    @Override
+    public void swap(final Buffer32 other) {
+        if (other instanceof IntBufferWrapper) {// optimized version
+            IntBufferWrapper o = (IntBufferWrapper) other;
+            IntBuffer tmp = this.buffer;
+            int tmp2 = this.actualSizeInWords;
+            this.actualSizeInWords = o.actualSizeInWords;

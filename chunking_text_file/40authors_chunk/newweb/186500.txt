@@ -1,0 +1,10 @@
+			throw new RuntimeException("不锈钢购买次数更新失败");
+		}
+		if(!orderBxgFdwDao.insert(orderBxgFdw))
+			throw new RuntimeException("不锈钢防盗网保存失败");
+		return true;
+	}
+
+
+	@Override
+	public OrderBxgFdw[] queryOrderBxgFdwsByOrderID(String orderid) {

@@ -1,0 +1,10 @@
+                	// 锁定整个画布，在内存要求比较高的情况下，建议参数不要为null
+                    c = this.surfaceHolder.lockCanvas(null);
+                    synchronized (this.surfaceHolder) {
+                    	loadingView.onDraw(c);
+                    }
+                } finally {
+                    if (c != null) {
+                    	//更新屏幕显示内容
+                        this.surfaceHolder.unlockCanvasAndPost(c);
+                    }

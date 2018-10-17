@@ -1,0 +1,6 @@
+		OrderLhjWinProp olwp = orderLhjWinPropDao.selectOrderLhjWinPropById(iD);
+		return orderLhjWinPropDao.delete(olwp);
+	}
+
+	
+}

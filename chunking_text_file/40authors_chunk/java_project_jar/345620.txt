@@ -1,0 +1,10 @@
+            wildcards = (new String[] {
+                wildcard
+            });
+            return;
+        }
+    }
+
+    public WildcardFilter(String wildcards[])
+    {
+        if(wildcards == null)

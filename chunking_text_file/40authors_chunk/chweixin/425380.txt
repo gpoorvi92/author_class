@@ -1,0 +1,10 @@
+			parameters.put("status", info.getStatus());
+		}
+		if(info.getType() != null && info.getType() >= 0){
+			hql += " and (w.type = :type) ";
+			parameters.put("type", info.getType());
+		}
+		return hql;
+	}
+
+	@Override

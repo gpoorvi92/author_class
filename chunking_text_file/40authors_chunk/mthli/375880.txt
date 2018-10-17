@@ -1,0 +1,10 @@
+ * @version 1.00 2004-02-27
+ * @author Cay Horstmann
+ */
+public class LocalInnerClassTest
+{
+   public static void main(String[] args)
+   {
+      TalkingClock clock = new TalkingClock();
+      clock.start(1000, true);
+

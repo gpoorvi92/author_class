@@ -1,0 +1,10 @@
+
+        public char charMethod( char arg ) {
+            return arg;
+        }
+
+        public char[] charArrayMethod( char arg[] ) {
+            return arg;
+        }
+
+        public char[][] char2dArrayMethod( char arg[][] ) {

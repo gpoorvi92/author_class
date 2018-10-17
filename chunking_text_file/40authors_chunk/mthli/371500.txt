@@ -1,0 +1,10 @@
+package printService;
+
+import java.io.*;
+import java.nio.file.*;
+import javax.print.*;
+
+/**
+ * This program demonstrates the use of print services. The program lets you print a GIF image to
+ * any of the print services that support the GIF document flavor.
+ * @version 1.10 2007-08-16

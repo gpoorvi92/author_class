@@ -1,0 +1,10 @@
+		return type;
+	}
+
+	/**
+	 * @param type
+	 *            the type to set
+	 */
+	@Override
+	public void setType(WorkerType type) {
+		this.type = type;

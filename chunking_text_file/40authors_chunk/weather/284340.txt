@@ -1,0 +1,10 @@
+        if (timeInterval > 6*60*60*1000*1000){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+    public boolean isEntityInLocationGroup(ImageLocation location,Date date){
+        double distance = ImageAnalysisTool.distanceOfTwoPoints(mLocation.mLat,mLocation.mLon,location.mLat,location.mLon);

@@ -1,0 +1,10 @@
+
+    public ReplyKeyboardMarkup(KeyboardButton[]... keyboard) {
+        this.keyboard = keyboard;
+    }
+
+    public ReplyKeyboardMarkup resizeKeyboard(boolean resizeKeyboard) {
+        this.resize_keyboard = resizeKeyboard;
+        return this;
+    }
+

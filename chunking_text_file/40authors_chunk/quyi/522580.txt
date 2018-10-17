@@ -1,0 +1,10 @@
+      if (this_present_propertyValue || that_present_propertyValue) {
+        if (!(this_present_propertyValue && that_present_propertyValue))
+          return false;
+        if (!this.propertyValue.equals(that.propertyValue))
+          return false;
+      }
+
+      return true;
+    }
+

@@ -1,0 +1,10 @@
+  public void    clearOutput()  throws JposException;
+  public void    endInsertion() throws JposException;
+  public void    endRemoval() throws JposException;
+  public void    readData(int action, int[] count, String[] data)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)

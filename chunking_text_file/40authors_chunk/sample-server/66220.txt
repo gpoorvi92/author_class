@@ -1,0 +1,10 @@
+    public static final RpcPacketHandler.RpcPacketWrapper take()
+    {
+        try
+        {
+            return rpcRequestQueue.poll(1000L, TimeUnit.MILLISECONDS);
+        } catch (Exception e)
+        {
+            throw new RpcException(e);
+        }
+    }

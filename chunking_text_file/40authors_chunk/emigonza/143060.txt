@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapEmptySensor"),
+        makeProperty("CapIndividualSlotStatus"),
+        makeProperty("CapJamSensor"),
+        makeProperty("CapNearEmptySensor"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapRealTimeData"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateFirmware"),

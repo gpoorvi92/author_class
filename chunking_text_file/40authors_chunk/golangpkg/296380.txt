@@ -1,0 +1,10 @@
+	private Long fileSize;
+
+	private byte[] content;
+
+
+
+	@Before
+	public void init()
+			throws IOException, InterruptedException, ExecutionException, TimeoutException {
+

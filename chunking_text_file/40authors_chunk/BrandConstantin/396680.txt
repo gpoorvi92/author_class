@@ -1,0 +1,10 @@
+    double contador = 0;
+    
+    do {
+    System.out.println("Introduce numeros:");
+    num = teclado.nextInt();
+    contador++;
+    suma += num;
+    } 
+    while (num > 0 && num < 100000);
+      System.out.println("Has introducido un numero negativo, el programa " + 

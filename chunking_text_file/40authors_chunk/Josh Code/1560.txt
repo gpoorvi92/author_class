@@ -1,0 +1,10 @@
+      for (int t = 0; t < numTriangles; t++)
+      {
+          out.println("# vertices for triangle "+(t+1));
+          for (int v = 0; v < 3; v++)
+          {
+              out.println("v " + ModelSaver.getSpacedVectorCoordinates(
+                  Triangle.getVertex(triangles[t],v)));
+          }
+      }
+

@@ -1,0 +1,10 @@
+      
+      // Create data input and output streams
+      DataInputStream isFromClient = new DataInputStream(
+        connectToClient.getInputStream());
+      DataOutputStream osToClient = new DataOutputStream(
+        connectToClient.getOutputStream());
+	    
+
+	String receipt = "a";
+	int tableNo = 0;

@@ -1,0 +1,10 @@
+
+	//Constructor of Class.
+
+	public ViewIssuedBooks (Connection con) {
+
+		//super (Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("View All Issued Books", false, true, false, true);
+		setSize (510, 285);
+
+		//Setting Panel's Layout.

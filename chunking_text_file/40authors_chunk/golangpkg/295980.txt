@@ -1,0 +1,10 @@
+	public boolean deletionQueueContains(File file) {
+		synchronized (this.files) {
+			return files.contains(file);
+		}
+	}
+	
+	
+	@PreDestroy
+	private void destroy() throws InterruptedException {
+		log.debug("destroying executor");

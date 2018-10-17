@@ -1,0 +1,10 @@
+            throw new NullPointerException("Please specify config! Thx!");
+
+        this.config = config;
+        name = "TcpServer on port " + config.getPort();
+    }
+
+    /**
+     * This method starts waiting incoming connections for proxy to remote host.
+     * Method return control when all worker will be started, it isn't block.
+     *

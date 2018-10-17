@@ -1,0 +1,10 @@
+			}
+			long end=System.currentTimeMillis();
+			System.out.println("performanceBatchTest costs="+(end-begin));
+		}
+	}
+	/**
+	 * 基于mongomapper插入性能测试
+	 */
+	//@Test
+	public void performanceMapperTest(){

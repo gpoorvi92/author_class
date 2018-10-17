@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetCpuMhz() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __CPUMHZ_ISSET_ID);
+  }
+
+  /** Returns true if field cpuMhz is set (has been assigned a value) and false otherwise */
+  public boolean isSetCpuMhz() {
+    return EncodingUtils.testBit(__isset_bitfield, __CPUMHZ_ISSET_ID);

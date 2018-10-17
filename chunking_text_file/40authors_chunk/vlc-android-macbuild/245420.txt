@@ -1,0 +1,10 @@
+package tv.danmaku.android;
+
+import android.content.Context;
+import android.media.AudioManager;
+
+public class AudioManagerHelper {
+    public static AudioManager getAudioManager(Context context) {
+        return (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+    }
+

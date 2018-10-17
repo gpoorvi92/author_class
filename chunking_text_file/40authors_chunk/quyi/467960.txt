@@ -1,0 +1,10 @@
+      break;
+
+    case RULE_NAME:
+      if (value == null) {
+        unsetRuleName();
+      } else {
+        setRuleName((String)value);
+      }
+      break;
+

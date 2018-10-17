@@ -1,0 +1,10 @@
+			this.rDia = new RightMenuDialog(this);
+		if (defaultMenuItemFlag) {
+			initMenuItem();
+		}
+	}
+
+	private void initMenuItem() {
+		// rDia.addMenuItem(chatEnterName, "", new View.OnClickListener() {
+		//
+		// @Override

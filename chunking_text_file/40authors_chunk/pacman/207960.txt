@@ -1,0 +1,10 @@
+import javax.jms.Message;
+import javax.jms.TextMessage;
+
+import org.apache.commons.lang3.ArrayUtils;
+
+import com.yeshj.pacman.annotation.Transmit;
+
+/**
+ * @ClassName: MessageHelper
+ * @Description: TODO

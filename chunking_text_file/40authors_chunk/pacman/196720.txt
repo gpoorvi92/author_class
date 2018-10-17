@@ -1,0 +1,10 @@
+
+						token.nextToken();
+						item = token.nextToken(); // used
+						info.setMemUsed(Long.valueOf(
+								item.substring(0, item.indexOf('k')))
+								.longValue());
+
+						token.nextToken();
+						item = token.nextToken(); // free
+						info.setMemFree(Long.valueOf(

@@ -1,0 +1,10 @@
+				}
+			} else {
+				if ("0".equals(type)) {
+					holder.sendState.setVisibility(View.GONE);
+					holder.sendFinishState.setVisibility(View.VISIBLE);
+					holder.sendFinishState
+							.setImageResource(R.drawable.done_holo);
+				}
+			}
+		}

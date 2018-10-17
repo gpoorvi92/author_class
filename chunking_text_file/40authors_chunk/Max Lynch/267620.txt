@@ -1,0 +1,10 @@
+	{
+		renderMediator.moveShapeToFront();
+	}
+	 
+	 
+	public void setBackground(Color color) {
+		renderMediator.setBackground(color);
+	}
+	
+	public void setBackground(GradientPaint gp) {

@@ -1,0 +1,10 @@
+        int tmp = first.val;
+        first.val = second.val;
+        second.val = tmp;
+    }
+    public void inorderTraversal(TreeNode root, ArrayList<TreeNode> res) {
+        if (root == null) return;
+        inorderTraversal(root.left, res);
+        res.add(root);
+        inorderTraversal(root.right, res);
+    }

@@ -1,0 +1,10 @@
+ * commonsType 共性检测
+ */
+public enum PlotsType implements org.apache.thrift.TEnum {
+  equalsType(0),
+  staticType(1),
+  dynamicType(2),
+  virusType(3),
+  sensitiveType(4),
+  commonsType(5);
+

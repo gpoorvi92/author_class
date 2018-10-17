@@ -1,0 +1,10 @@
+     */
+    private static DisplayMetrics getDefaultDisplayMetrics(boolean retry) {
+        if (mDisplayMetrics == null || retry) {
+            mDisplayMetrics = mContext.getResources().getDisplayMetrics();
+            mScreenDensity = mDisplayMetrics.density;
+        }
+        return mDisplayMetrics;
+    }
+
+    /**

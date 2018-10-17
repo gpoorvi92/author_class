@@ -1,0 +1,10 @@
+    private static class queryApp_argsTupleSchemeFactory implements SchemeFactory {
+      public queryApp_argsTupleScheme getScheme() {
+        return new queryApp_argsTupleScheme();
+      }
+    }
+
+    private static class queryApp_argsTupleScheme extends TupleScheme<queryApp_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, queryApp_args struct) throws org.apache.thrift.TException {

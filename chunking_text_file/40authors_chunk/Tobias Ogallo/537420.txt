@@ -1,0 +1,10 @@
+		
+
+	jButton2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			new Updatedata   (  jTable.getValueAt(getSelectedRow(), 0).toString(),
+								jTable.getValueAt(getSelectedRow(), 1).toString(),
+								jTable.getValueAt(getSelectedRow(), 2).toString(),
+								jTable.getValueAt(getSelectedRow(), 3).toString(),
+								jTable.getValueAt(getSelectedRow(), 4).toString(),
+								jTable.getValueAt(getSelectedRow(), 5).toString()).setVisible(true);

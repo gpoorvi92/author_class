@@ -1,0 +1,10 @@
+     * @param className
+     * @param transaction
+     */
+    public static void startActivityWithAction(Activity currentActivity, Class className, Transaction transaction) {
+        Activity ac = currentActivity;
+        Intent in = new Intent(ac, className);
+        ac.startActivity(in);
+        doAnimationWith(ac, transaction);
+    }
+

@@ -1,0 +1,10 @@
+      g2.draw(new Line2D.Double(0, 0, C, 0));
+      g2.draw(new Line2D.Double(w, 0, w, C));
+      g2.draw(new Line2D.Double(w, 0, w - C, 0));
+      g2.draw(new Line2D.Double(0, h, 0, h - C));
+      g2.draw(new Line2D.Double(0, h, C, h));
+      g2.draw(new Line2D.Double(w, h, w, h - C));
+      g2.draw(new Line2D.Double(w, h, w - C, h));
+   }
+}
+

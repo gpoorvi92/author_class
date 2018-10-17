@@ -1,0 +1,10 @@
+public abstract class UpdateableBitmapFunction {
+    EWAHPointer[] rw = new EWAHPointer[0];
+    int hammingWeight = 0;
+    int litWeight = 0;
+    boolean[] b = new boolean[0];
+    final BitSet litwlist = new BitSet(0);
+
+    UpdateableBitmapFunction() {
+    }
+

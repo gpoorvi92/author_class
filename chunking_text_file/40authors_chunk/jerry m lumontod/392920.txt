@@ -1,0 +1,10 @@
+
+	public String getColumnName(int tintColumn) {
+		String str = mobjColumns[tintColumn].mstrTitle;
+		if (tintColumn==mintSortCol)
+			str += mblnSortAsc ? " (asc)" : " (desc)";
+		//System.out.println("\n getColumnName fired");
+		return str;
+	}
+
+	public boolean isCellEditable(int tintRow, int tintCol) {

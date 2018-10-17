@@ -1,0 +1,10 @@
+      if (struct.isSetSensitives()) {
+        {
+          oprot.writeI32(struct.sensitives.size());
+          for (String _iter20 : struct.sensitives)
+          {
+            oprot.writeString(_iter20);
+          }
+        }
+      }
+      if (struct.isSetFeaturesCharacters()) {

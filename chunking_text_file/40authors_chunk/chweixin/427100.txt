@@ -1,0 +1,10 @@
+	 * */
+	public String getHQMusicUrl() {
+		return HQMusicUrl;
+	}
+	/**
+	 * 设置高质量音乐链接，WIFI环境优先使用该链接播放音乐。
+	 * @param hQMusicUrl
+	 * 	高质量音乐链接。
+	 * */
+	public void setHQMusicUrl(String hQMusicUrl) {

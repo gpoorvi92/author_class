@@ -1,0 +1,10 @@
+ * 		Collection:是单列集合的顶层接口，定义了单列集合的共性功能。
+ * 
+ * 掌握的功能：
+ * 		public static <T> void sort(List<T> list):排序
+ *		public static <T> int binarySearch(List<?> list,T key):二分查找
+ *		public static <T> T max(Collection<?> coll):最大值
+ *		public static void reverse(List<?> list):反转
+ *		public static void shuffle(List<?> list):随机置换
+ */
+public class CollectionsDemo {

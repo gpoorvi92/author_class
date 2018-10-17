@@ -1,0 +1,10 @@
+          break;
+        }
+        switch (schemeField.id) {
+          case 1: // WHY
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.why = iprot.readString();
+              struct.setWhyIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

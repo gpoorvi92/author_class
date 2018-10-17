@@ -1,0 +1,10 @@
+		}
+		setAddPanelState(false);
+		chatListToBottom();
+	}
+
+	public void chatListToBottom() {
+		handler.postDelayed(new Runnable() {
+
+			@Override
+			public void run() {

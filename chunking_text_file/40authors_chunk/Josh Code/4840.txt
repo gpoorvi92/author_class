@@ -1,0 +1,10 @@
+        if (comparisonValue == 0)
+            return -1;
+        else
+            return getIndexForComparedRelationship(comparisonValue);
+    }
+
+    /** returns the index for the subtree corresponding with the specified 3 dimensional comparison
+     */
+    private static int getIndexForComparedRelationship(int comparison)
+    { 

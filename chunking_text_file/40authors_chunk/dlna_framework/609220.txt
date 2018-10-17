@@ -1,0 +1,10 @@
+		int reqPort = HTTP.getPort(urlBaseStr);
+		
+		setHost(reqHost, reqPort);
+		setRequestHost(reqHost);
+		setRequestPort(reqPort);
+	}
+	
+	public void setSubscribeRequest(Service service, String callback, long timeout)
+	{
+		setMethod(Subscription.SUBSCRIBE_METHOD);

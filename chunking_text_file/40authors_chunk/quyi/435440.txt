@@ -1,0 +1,10 @@
+    return this.fileOperate;
+  }
+
+  public DynamicCheckResultData setFileOperate(List<FileOperate> fileOperate) {
+    this.fileOperate = fileOperate;
+    return this;
+  }
+
+  public void unsetFileOperate() {
+    this.fileOperate = null;

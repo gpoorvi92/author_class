@@ -1,0 +1,10 @@
+     * Unicode转换成GBK字符集
+     *
+     * @param input 待转换字符串
+     * @return 转换完成字符串
+     */
+    public final static String toGBKWithUTF8(String input) throws UnsupportedEncodingException {
+        if (StringUtil.isEmpty(input)) {
+            return "";
+        } else {
+            String s1;

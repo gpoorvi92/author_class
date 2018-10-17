@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapWriteTag"),
+
+        // Properties
+        makeProperty("AutoDisable"),
+        makeProperty("ContinuousReadMode"),
+        makeProperty("CurrentTagID"),
+        makeProperty("CurrentTagProtocol"),
+        makeProperty("CurrentTagUserData"),

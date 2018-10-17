@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateStatistics"),
+
+        // Properties
+        makeProperty("DispenserStatus"),
+        makeProperty("MaxSlots"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;

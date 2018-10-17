@@ -1,0 +1,10 @@
+    /**
+     * Increases the size of the buffer if necessary
+     */
+    void ensureCapacity(int capacity);
+
+    /**
+     * Returns the word at a given position
+     * @param position
+     * @return the word
+     */

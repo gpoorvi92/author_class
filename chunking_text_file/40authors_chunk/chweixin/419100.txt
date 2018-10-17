@@ -1,0 +1,10 @@
+	private String accountId,userId,openId,lastMenuKey;
+	private Date lastActiveTime;
+	/**
+	 * 构造函数。
+	 * @param account
+	 * 所属公众号。
+	 * @param openId
+	 * 微信用户OpenId
+	 * */
+	public WeChatContext(String accountId, String openId){

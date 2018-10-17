@@ -1,0 +1,10 @@
+*	11/18/02
+*		- first revision.
+*	05/13/03
+*		- Added constants for IPv6.
+*	08/03/05
+*		- Thanks for Stefano Lenzi <kismet-sl at users.sourceforge.net>
+*		  and Mikael <mhakman at users.sourceforge.net>
+*		- Fixed getLeaseTime() to parse normally when the value includes extra strings such as white space.
+*	
+******************************************************************/

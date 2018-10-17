@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderPrice;
+
+@Component("orderPriceDao")
+public class OrderPriceDaoImp implements OrderPriceDao {
+
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;

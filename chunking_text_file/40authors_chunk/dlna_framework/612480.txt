@@ -1,0 +1,10 @@
+	{
+		return isSOAPAction(Control.QUERY_SOAPACTION);
+	}
+	
+	public boolean isActionControl()
+	{
+		return !isQueryControl();
+	}
+
+	////////////////////////////////////////////////

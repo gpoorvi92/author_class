@@ -1,0 +1,9 @@
+
+
+    @Override
+    public int getIcon() {
+        if (isDir())
+            return R.drawable.folder;
+        return Utils.getFileIcon(name);
+    }
+}

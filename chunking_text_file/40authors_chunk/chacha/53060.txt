@@ -1,0 +1,10 @@
+	 * 输出INFO级别的调试信息
+	 * 
+	 * @param message
+	 */
+	public void info(Object message) {
+		prnLog.info(message);
+	}
+
+	/**
+	 * 输出INFO级别的调试信息

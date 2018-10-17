@@ -1,0 +1,10 @@
+			return true;
+			
+		try {
+			ssdpUniSock.close();
+			ssdpUniSock = null;
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}

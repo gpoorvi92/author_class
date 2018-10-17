@@ -1,0 +1,10 @@
+            if (null == entity)
+            {
+                resultCode.setResult(JsonResponse.Result.FALSE);
+                resultCode.setMsg("不存在");
+            }
+            else
+            {
+                DaoManager.getLocalDao().delete(entity);
+                ZoneEntityManager.getInstance().deleteZoneEntity(entity);
+            }

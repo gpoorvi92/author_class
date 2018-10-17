@@ -1,0 +1,10 @@
+                {
+                    listener.fileNotFound();
+                }
+            } else
+            {
+                if(length > position)
+                {
+                    last = System.currentTimeMillis();
+                    position = readLines(reader);
+                } else

@@ -1,0 +1,10 @@
+    /////////////////////////////////////////////////////////////////////
+    // "ErrorCodeExtended" Property (ErrorEvent) Constants for PintCardRW
+    //   Also used in "ReaseStateX" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_EPCRW_READ    =  1 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_WRITE   =  2 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_JAM     =  3 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_MOTOR   =  4 + JposConst.JPOSERREXT;
+    public static final int JPOS_EPCRW_COVER   =  5 + JposConst.JPOSERREXT;

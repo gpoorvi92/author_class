@@ -1,0 +1,10 @@
+}
+
+class ImageList extends JList<ImageIcon>
+{
+   public ImageList(Path dir)
+   {
+      DefaultListModel<ImageIcon> model = new DefaultListModel<>();
+      try (DirectoryStream<Path> entries = Files.newDirectoryStream(dir))
+      {
+         for (Path entry : entries) 

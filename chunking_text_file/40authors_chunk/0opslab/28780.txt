@@ -1,0 +1,10 @@
+    }
+
+    public String getLocalFile() {
+        return localFile;
+    }
+
+    public void setLocalFile(String localFile) {
+        this.localFile = localFile;
+    }
+

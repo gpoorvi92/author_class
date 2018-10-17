@@ -1,0 +1,10 @@
+        __this__engines.add(new Engine(other_element));
+      }
+      this.engines = __this__engines;
+    }
+    if (other.isSetMissionProgress()) {
+      this.missionProgress = other.missionProgress;
+    }
+    if (other.isSetSamples()) {
+      List<com.nercis.isscp.idl.Sample> __this__samples = new ArrayList<com.nercis.isscp.idl.Sample>(other.samples.size());
+      for (com.nercis.isscp.idl.Sample other_element : other.samples) {

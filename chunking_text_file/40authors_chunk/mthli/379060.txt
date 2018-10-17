@@ -1,0 +1,10 @@
+            {
+               // button action: switch to the new look and feel
+               try
+               {
+                  UIManager.setLookAndFeel(plafName);
+                  SwingUtilities.updateComponentTreeUI(PlafFrame.this);
+                  pack();
+               }
+               catch (Exception e)
+               {

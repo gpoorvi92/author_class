@@ -1,0 +1,10 @@
+import com.newweb.model.base.Bxg;
+import com.newweb.model.base.MaterialBrand;
+import com.newweb.model.base.Small;
+import com.newweb.model.base.Supplier;
+import com.newweb.service.base.BxgService;
+import com.newweb.service.base.MaterialBrandService;
+import com.newweb.service.base.SmallService;
+import com.newweb.service.base.SupplierService;
+
+@Component("supplierService")

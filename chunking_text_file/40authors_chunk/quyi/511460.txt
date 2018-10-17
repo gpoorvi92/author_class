@@ -1,0 +1,10 @@
+
+    public void send_reportTaskManagerConfig() throws org.apache.thrift.TException
+    {
+      reportTaskManagerConfig_args args = new reportTaskManagerConfig_args();
+      sendBase("reportTaskManagerConfig", args);
+    }
+
+    public String recv_reportTaskManagerConfig() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      reportTaskManagerConfig_result result = new reportTaskManagerConfig_result();

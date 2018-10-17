@@ -1,0 +1,10 @@
+     */
+    public List<String> lstOfTxtEmotions1;
+
+
+    public ExpressionDataLoader(Context context) {
+        expressionNameList1 = new ArrayList<String>();
+        lstOfTxtEmotions1 = new ArrayList<String>();
+        loadExpression(context);
+    }
+

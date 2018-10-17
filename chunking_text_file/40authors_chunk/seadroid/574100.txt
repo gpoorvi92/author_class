@@ -1,0 +1,10 @@
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
+import com.seafile.seadroid2.R;
+import com.seafile.seadroid2.ui.fragment.DownloadTaskFragment;
+import com.seafile.seadroid2.ui.fragment.UploadTaskFragment;
+import com.viewpagerindicator.TabPageIndicator;
+import com.seafile.seadroid2.ui.adapter.TransferTaskAdapter;

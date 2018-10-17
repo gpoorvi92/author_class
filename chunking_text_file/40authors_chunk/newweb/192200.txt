@@ -1,0 +1,10 @@
+					return returnSmall;
+				}
+				if(cut != null){
+					returnSmall.setLsprice(cut.getPrice());
+				}
+				return returnSmall;
+			}
+		}else{
+			SmallPriceCut cut = null;
+			try {

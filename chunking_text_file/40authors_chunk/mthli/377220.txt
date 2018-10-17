@@ -1,0 +1,10 @@
+   {
+      private int current;
+      private int target;
+
+      /**
+       * Constructs the simulated activity that increments a counter from 0 to a
+       * given target.
+       * @param t the target value of the counter.
+       */
+      public SimulatedActivity(int t)

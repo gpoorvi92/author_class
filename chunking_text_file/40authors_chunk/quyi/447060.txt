@@ -1,0 +1,10 @@
+    if (other.isSetJvmMaxMem()) {
+      this.jvmMaxMem = other.jvmMaxMem;
+    }
+  }
+
+  public Software deepCopy() {
+    return new Software(this);
+  }
+
+  @Override

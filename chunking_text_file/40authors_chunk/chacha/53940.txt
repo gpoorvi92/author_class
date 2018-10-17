@@ -1,0 +1,9 @@
+		try{
+			QueryAccountResponse qResponse=service.queryAccount(qRequest);
+			assertTrue(qResponse.getResult()==Response.SUCCESS);
+			assertTrue(qResponse.getBody().getAcctArray().size()==0);
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+	}
+}

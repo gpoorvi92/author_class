@@ -1,0 +1,10 @@
+        return (type == FileType.DIR);
+    }
+
+    public String getRepoID() {
+        return repoID;
+    }
+
+    public String getPath() {
+        return path;
+    }

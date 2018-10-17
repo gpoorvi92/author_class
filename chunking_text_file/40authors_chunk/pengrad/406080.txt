@@ -1,0 +1,10 @@
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Update update = (Update) o;
+
+        if (update_id != null ? !update_id.equals(update.update_id) : update.update_id != null) return false;
+        if (message != null ? !message.equals(update.message) : update.message != null) return false;
+        if (edited_message != null ? !edited_message.equals(update.edited_message) : update.edited_message != null)
+            return false;

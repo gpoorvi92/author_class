@@ -1,0 +1,10 @@
+            myThread15.suspend();
+            System.out.println("main end!");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+/*
+输出：

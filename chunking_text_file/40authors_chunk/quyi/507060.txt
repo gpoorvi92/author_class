@@ -1,0 +1,10 @@
+          return PLOTS_STATUS;
+        case 5: // FUNCTION_STATUS
+          return FUNCTION_STATUS;
+        case 6: // DETECT_RESULT
+          return DETECT_RESULT;
+        default:
+          return null;
+      }
+    }
+

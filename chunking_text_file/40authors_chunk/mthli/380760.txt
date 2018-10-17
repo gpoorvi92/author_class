@@ -1,0 +1,10 @@
+      label = new JLabel("The quick brown fox jumps over the lazy dog.");
+      label.setFont(new Font("Serif", Font.PLAIN, DEFAULT_SIZE));
+      add(label, BorderLayout.CENTER);
+
+      // add the radio buttons
+
+      buttonPanel = new JPanel();
+      group = new ButtonGroup();
+
+      addRadioButton("Small", 8);

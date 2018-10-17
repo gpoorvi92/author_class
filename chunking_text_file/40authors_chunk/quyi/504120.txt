@@ -1,0 +1,10 @@
+
+  public java.util.Iterator<PlotsType> getPlotsIterator() {
+    return (this.plots == null) ? null : this.plots.iterator();
+  }
+
+  public void addToPlots(PlotsType elem) {
+    if (this.plots == null) {
+      this.plots = new ArrayList<PlotsType>();
+    }
+    this.plots.add(elem);

@@ -1,0 +1,10 @@
+        if (first_name != null ? !first_name.equals(chat.first_name) : chat.first_name != null) return false;
+        if (last_name != null ? !last_name.equals(chat.last_name) : chat.last_name != null) return false;
+        if (username != null ? !username.equals(chat.username) : chat.username != null) return false;
+        return title != null ? title.equals(chat.title) : chat.title == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode();
+    }

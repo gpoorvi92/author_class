@@ -1,0 +1,10 @@
+	 * */
+	public void setAccount(WeChatAccount account) {
+		this.account = account;
+	}
+	/**
+	 * 获取回复内容。
+	 * @return
+	 * 回复内容。
+	 * */
+	public String getContent() {

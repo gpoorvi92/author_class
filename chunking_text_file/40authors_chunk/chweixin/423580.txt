@@ -1,0 +1,10 @@
+	 * */
+	public void setAccountId(String accountId) {
+		this.accountId = accountId;
+	}
+	/**
+	 * 获取所属公众号名称。
+	 * @return 所属公众号名称。
+	 * */
+	public String getAccountName() {
+		return accountName;

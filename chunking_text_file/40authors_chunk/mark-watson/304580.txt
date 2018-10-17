@@ -1,0 +1,10 @@
+        float ret = (base - 1.0f);
+        if (wonPosition(p, player))  {
+            return base + (1.0f / count);
+        }
+        if (wonPosition(p, !player))  {
+            return -(base + (1.0f / count));
+        }
+        return ret;
+    }
+    public void printPosition(Position p) {

@@ -1,0 +1,10 @@
+/*
+ */
+
+package com.jml.eisapp.acctg.utils.src.gui;
+/**
+ * Used by both AnchorLayout (SWT) and AnchorLayoutManager (Swing)
+ */
+public class AnchorConstraint {
+
+	/**

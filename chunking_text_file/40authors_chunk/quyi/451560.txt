@@ -1,0 +1,10 @@
+
+      public void start(I iface, ruleSync_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.ruleSync(args.rules,resultHandler);
+      }
+    }
+
+  }
+
+  public static class issuedMessage_args implements org.apache.thrift.TBase<issuedMessage_args, issuedMessage_args._Fields>, java.io.Serializable, Cloneable, Comparable<issuedMessage_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("issuedMessage_args");

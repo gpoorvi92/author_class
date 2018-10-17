@@ -1,0 +1,10 @@
+		// 需求：我要查找80在这个数组中的索引
+
+		// 新的数组
+		int[] arr = { 13, 24, 57, 69, 80 };
+		// 需求：我要查找80在这个数组中的索引
+		int index = getIndex(arr, 57);
+		System.out.println(index);
+
+		index = getIndex(arr, 88);
+		System.out.println(index);

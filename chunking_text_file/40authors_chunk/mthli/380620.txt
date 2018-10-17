@@ -1,0 +1,10 @@
+               {
+                  String subject = percentEncode(subjectField.getText());
+                  URI uri = new URI("mailto:" + toField.getText() + "?subject=" + subject);
+
+                  System.out.println(uri);
+                  Desktop.getDesktop().mail(uri);
+               }
+               catch (URISyntaxException ex)
+               {
+                  ex.printStackTrace();

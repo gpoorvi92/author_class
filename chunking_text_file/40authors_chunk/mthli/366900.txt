@@ -1,0 +1,10 @@
+         });
+      ForkJoinPool pool = new ForkJoinPool();
+      pool.invoke(counter);
+      System.out.println(counter.join());
+   }
+}
+
+interface Filter
+{
+   boolean accept(double t);

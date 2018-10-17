@@ -1,0 +1,10 @@
+        return account;
+    }
+
+    public String getRepoName() {
+        return repoName;
+    }
+
+    public String getRepoID() {
+        return repoID;
+    }

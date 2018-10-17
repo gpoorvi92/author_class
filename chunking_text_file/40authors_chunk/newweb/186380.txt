@@ -1,0 +1,10 @@
+
+	OrderLhjWeight[] queryOrderLhjWeightsByOrderID(String id);
+
+	OrderSmall[] queryOrderSmallsByOrderID(String id);
+
+	OrderBxg[] queryOrderBxgsByOrderID(String orderID);
+
+	double getOrderLhjWinArea(String orderID);
+
+	double getOrderBxgFdwArea(String orderID);

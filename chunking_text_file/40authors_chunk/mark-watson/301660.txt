@@ -1,0 +1,10 @@
+
+	public int usePairStatistics(String test_word, String previous_word) {
+		return wordPairCounts.get(previous_word + " " + test_word);
+	}
+	
+	/**
+	 * main test method
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException {

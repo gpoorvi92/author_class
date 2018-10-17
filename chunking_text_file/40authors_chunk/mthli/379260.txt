@@ -1,0 +1,10 @@
+        String[] weekdayNames = new DateFormatSymbols().getShortWeekdays();
+        do {
+            System.out.printf("%4s", weekdayNames[weekday]);
+            d.add(Calendar.DAY_OF_MONTH, 1);
+            weekday = d.get(Calendar.DAY_OF_WEEK);
+        } while (weekday != firstDayOfWeek);
+        System.out.println();
+        for (int i = 1; i <= indent; i++) {
+            System.out.print("    ");
+        }

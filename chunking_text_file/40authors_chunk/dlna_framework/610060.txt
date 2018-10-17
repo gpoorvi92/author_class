@@ -1,0 +1,10 @@
+	
+	public String getValue() 
+	{
+		return getArgumentData().getValue();
+	}
+
+	public int getIntegerValue() 
+	{
+		String value = getValue();
+		try {

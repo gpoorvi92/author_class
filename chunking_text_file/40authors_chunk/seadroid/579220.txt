@@ -1,0 +1,10 @@
+package com.seafile.seadroid2;
+
+import android.os.AsyncTask;
+import android.os.Build;
+
+/**
+ * Make sure an AsyncTask is executed in parallel across different version of
+ * Android
+ * @see asynctask executing tasks serially or concurrently {@link http://www.jayway.com/2012/11/28/is-androids-asynctask-executing-tasks-serially-or-concurrently/}
+ */

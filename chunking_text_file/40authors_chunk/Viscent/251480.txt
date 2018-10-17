@@ -1,0 +1,10 @@
+
+		};
+
+		// 提交任务到同步层处理
+		executor.execute(ft);
+
+		return ft;
+	}
+
+}

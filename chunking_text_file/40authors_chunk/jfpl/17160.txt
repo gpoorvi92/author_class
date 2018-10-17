@@ -1,0 +1,10 @@
+				item.putStringValue("chat_msg", chatMsg);
+				con.execSQL(
+						SystemUtil.SQL_MAP.get("add_chat_message"),
+						new Object[] { SystemUtil.getUniqueId(), "0", msgType,
+								fromUser, GlobalVariables.loginUsername,
+								chatMsg, serverDate, recentlyAppId, "0", "", "" });
+				recentlyContent = chatMsg;
+			} else if ("2".equals(msgType)) {
+				recentlyContent = "【图片】";
+			} else if ("3".equals(msgType)) {

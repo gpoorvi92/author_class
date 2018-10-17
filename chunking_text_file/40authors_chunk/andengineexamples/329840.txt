@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga Inc.
+ * 
+ * @author Nicolas Gramlich
+ * @since 12:00:31 - 21.05.2011
+ */
+public class ConnectionEstablishClientMessage extends ClientMessage implements ClientMessageFlags {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

@@ -1,0 +1,10 @@
+               try
+               {
+                  Desktop.getDesktop().edit(chooser.getSelectedFile());
+               }
+               catch (IOException ex)
+               {
+                  ex.printStackTrace();
+               }
+            }
+         });

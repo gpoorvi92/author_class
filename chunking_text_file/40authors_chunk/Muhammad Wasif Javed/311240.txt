@@ -1,0 +1,10 @@
+
+		//Creating EntryDate Option & Setting the Form's ComboBox..
+
+		String Months[] = {"Janruary", "February", "March", "April", "May", "June", "July", 
+					"August", "September", "October", "November", "December"};
+		cboMonth = new JComboBox (Months);
+		cboDate = new JComboBox ();
+		for (int i = 1; i <= 31; i++) {
+			String days = "" + i;
+			cboDate.addItem (days);

@@ -1,0 +1,10 @@
+    	new GUITest_2H();
+    }
+
+    private void jbInit() throws Exception {
+        this.getContentPane().setLayout(null);
+        inputPanel.setBounds(new Rectangle(5, 30, 400, 20));
+        hidden1Panel.setBounds(new Rectangle(5, 138, 400, 20));
+        hidden2Panel.setBounds(new Rectangle(5, 238, 400, 20));
+        outputPanel.setBounds(new Rectangle(5, 340, 400, 20));
+        w1Panel.setBounds(new Rectangle(160, 50, 61, 61));

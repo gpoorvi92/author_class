@@ -1,0 +1,10 @@
+
+	@Autowired
+	StaticStateRootFolderProvider rootFolderProvider;
+
+	@Autowired
+	FileDeleter fileDeleter;
+
+	@Value("jlfu{jlfu.filecleaner.maximumInactivityInHoursBeforeDelete:48}")
+	volatile Integer maximumInactivityInHoursBeforeDelete;
+

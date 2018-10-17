@@ -1,0 +1,9 @@
+        struct.dynamicCheckResult = new DynamicCheckResultData();
+        struct.dynamicCheckResult.read(iprot);
+        struct.setDynamicCheckResultIsSet(true);
+      }
+    }
+  }
+
+}
+

@@ -1,0 +1,10 @@
+				holder.chatBgLayout.setPadding(5, 5, 22, 5);
+				if ("0".equals(acd.getStringValue("load_data_type"))
+						&& acd.getStringValue("send_state") == null) {
+					String[] args = (String[]) acd.getObjectValue("tag");
+					ctx.update("add_chat_message", msgId, "1", "4",
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, args[0] + "\n"
+									+ args[1], new Date(), this.busiType, "2",
+							args[2], args[3]);
+					acd.putStringValue("send_state", "2");

@@ -1,0 +1,10 @@
+      addRow("Word permutations", permSpinner);
+      pack();
+   }
+
+   /**
+    * Adds a row to the main panel.
+    * @param labelText the label of the spinner
+    * @param spinner the sample spinner
+    */
+   public void addRow(String labelText, final JSpinner spinner)

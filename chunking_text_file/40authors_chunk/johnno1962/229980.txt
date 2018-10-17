@@ -1,0 +1,10 @@
+    boolean entered_keyTyped_0;
+
+    public void keyTyped( java.awt.event.KeyEvent e ) {
+        if ( !entered_keyTyped_0 ) {
+            entered_keyTyped_0 = true;
+            __keyTyped( e );
+            entered_keyTyped_0 = false;
+        }
+        else
+            super.keyTyped( e );

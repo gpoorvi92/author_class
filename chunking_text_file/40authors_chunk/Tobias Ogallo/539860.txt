@@ -1,0 +1,10 @@
+		getContentPane().add(fontSelector);
+		getContentPane().add(sizeLabel);
+		getContentPane().add(fontSize);
+		getContentPane().add(styleLabel);
+		getContentPane().add(fontStyle);
+		getContentPane().add(okButton);
+		getContentPane().add(cancelButton);
+		getContentPane().add(previewLabel); 
+		getContentPane().add(preview);
+		setLocation((screen.width-1270)/2,((screen.height-740)/2));

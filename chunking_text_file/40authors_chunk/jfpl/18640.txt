@@ -1,0 +1,10 @@
+	@Override
+	public AbstractCommonData doSuccess(AbstractCommonData acd) {
+		ctx.update("delete_bind_veh_byuname", GlobalVariables.loginUsername);
+		List<AbstractCommonData> vehs = acd.getArrayValue("vehs");
+		for (AbstractCommonData item : vehs) {
+			String bindName = item.getStringValue("jtgzfw_user");
+			String hpzl = item.getStringValue("hpzl");
+			String hphm = item.getStringValue("hphm");
+			try {
+				ctx.update("add_bind_veh", bindName,

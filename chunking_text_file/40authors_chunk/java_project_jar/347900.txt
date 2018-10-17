@@ -1,0 +1,10 @@
+        do
+        {
+            if(len <= 0 || b < 0)
+                break;
+            b = readFirstBytes();
+            if(b >= 0)
+            {
+                buf[off++] = (byte)(b & 0xff);
+                len--;
+                firstCount++;

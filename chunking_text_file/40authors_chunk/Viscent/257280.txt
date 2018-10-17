@@ -1,0 +1,10 @@
+	}
+
+	private void uploadFiles(FTPClientUtil ftpClientUtil) {
+		Set<File> files = retrieveGeneratedFiles();
+		for (File file : files) {
+			try {
+				ftpClientUtil.upload(file);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}

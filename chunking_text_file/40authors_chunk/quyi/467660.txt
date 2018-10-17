@@ -1,0 +1,10 @@
+    this.ruleTypes = null;
+  }
+
+  /** Returns true if field ruleTypes is set (has been assigned a value) and false otherwise */
+  public boolean isSetRuleTypes() {
+    return this.ruleTypes != null;
+  }
+
+  public void setRuleTypesIsSet(boolean value) {
+    if (!value) {

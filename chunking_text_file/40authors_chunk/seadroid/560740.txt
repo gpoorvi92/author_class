@@ -1,0 +1,10 @@
+    IImage getImageAt(int i);
+
+    /**
+     * Returns the image with a particular Uri.
+     *
+     * @param uri
+     * @return      the image with a particular Uri. null if not found.
+     */
+    IImage getImageForUri(Uri uri);
+

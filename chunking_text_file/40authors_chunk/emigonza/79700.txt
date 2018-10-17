@@ -1,0 +1,10 @@
+	 * @return true if the object passed is of this PropType
+	 * @param boolean the boolean primitive type
+	 */
+	public boolean isValidValue( boolean b ) { return true; }
+
+	/**
+	 * @return true if the object passed is of this PropType
+	 * @param obj the Java Object
+	 */
+	public boolean isValidValue( Object obj ) { return ( obj instanceof Boolean ); }

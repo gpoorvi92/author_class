@@ -1,0 +1,10 @@
+    public SendVideo(Object chatId, String video) {
+        super(chatId, video);
+    }
+
+    public SendVideo(Object chatId, File video) {
+        super(chatId, video);
+    }
+
+    public SendVideo(Object chatId, byte[] video) {
+        super(chatId, video);

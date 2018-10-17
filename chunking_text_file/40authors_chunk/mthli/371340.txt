@@ -1,0 +1,10 @@
+      {
+         Component c = parent.getComponent(i);
+         if (c.isVisible())
+         {
+            Dimension d = c.getPreferredSize();
+            maxComponentWidth = Math.max(maxComponentWidth, d.width);
+            maxComponentHeight = Math.max(maxComponentHeight, d.height);
+            preferredWidth += d.width;
+            preferredHeight += d.height;
+         }

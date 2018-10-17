@@ -1,0 +1,10 @@
+    }
+
+    public FileEntry[] getChildren()
+    {
+        return children == null ? EMPTY_ENTRIES : children;
+    }
+
+    public void setChildren(FileEntry children[])
+    {
+        this.children = children;

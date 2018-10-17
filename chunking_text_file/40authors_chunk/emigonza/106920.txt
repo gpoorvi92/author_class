@@ -1,0 +1,5 @@
+                     throws JposException;
+  public void    readCashCounts(String[] cashCounts,
+                                boolean[] discrepancy)
+                     throws JposException;
+}

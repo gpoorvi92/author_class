@@ -1,0 +1,10 @@
+        }
+    }
+    public static ZoneEntityManager getInstance()
+    {
+        return instance;
+    }
+    public void addOrUpdateZoneEntity(ZoneEntity zoneEntity)
+    {
+        ZoneEntity old = zoneEntityMap.put(zoneEntity.getZoneId(), zoneEntity);
+        RpcClientManager.getInstance().connectRpcServer(zoneEntity);

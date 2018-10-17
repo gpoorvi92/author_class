@@ -1,0 +1,10 @@
+package runtimeAnnotations;
+
+import java.awt.event.*;
+import java.lang.reflect.*;
+
+/**
+ * @version 1.00 2004-08-17
+ * @author Cay Horstmann
+ */
+public class ActionListenerInstaller

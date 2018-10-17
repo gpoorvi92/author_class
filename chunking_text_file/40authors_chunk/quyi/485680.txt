@@ -1,0 +1,10 @@
+      this.dycRD = null;
+      this.virRD = null;
+    }
+
+    public String getMissionId() {
+      return this.missionId;
+    }
+
+    public updateUserAppInfo_args setMissionId(String missionId) {
+      this.missionId = missionId;

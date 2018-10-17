@@ -1,0 +1,10 @@
+        add(countTriangles);
+
+        addListeners();
+    }
+
+    private void addListeners()
+    {
+        scaleModel.addActionListener(
+            new ActionListener()
+        {

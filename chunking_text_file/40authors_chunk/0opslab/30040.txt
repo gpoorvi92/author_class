@@ -1,0 +1,10 @@
+    public static void main(String[] args) {
+        CharsetPrinter cp = new CharsetPrinter();
+
+        if (args.length < 1) {
+            System.err
+                    .println("Please provide one or more files to examine on the command line after the command.");
+        }
+
+        try {
+            File f;

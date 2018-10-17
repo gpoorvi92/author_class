@@ -1,0 +1,10 @@
+	public String toString() {
+		return "UserAppInfo [appName=" + appName + ", size=" + size + ", md5=" + md5 + ", appPath=" + appPath + "]";
+	}
+
+	public String getAppName() {
+		return appName;
+	}
+
+	public void setAppName(String appName) {
+		this.appName = appName;

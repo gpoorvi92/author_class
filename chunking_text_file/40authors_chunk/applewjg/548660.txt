@@ -1,0 +1,10 @@
+ "...Q",
+ ".Q.."]
+ ]
+
+ Solution: Recursion (DFS). Use bit-manipulation solution (See N-QueensII for more details).
+ */
+
+
+public class Solution {
+    public List<String[]> solveNQueens(int n) {

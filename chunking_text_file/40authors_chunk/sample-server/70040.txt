@@ -1,0 +1,10 @@
+        }
+        List<BulletinEntity> bulletinList = DaoManager.getLocalDao().selectList(BulletinEntity.class);
+        if (bulletinList.size() > 0)
+        {
+            for (BulletinEntity each : bulletinList)
+            {
+                Integer zoneId = each.getZoneId();
+                ChatServerRpc.SynReq.Builder req = map.get(zoneId);
+                if (null == req)
+                {

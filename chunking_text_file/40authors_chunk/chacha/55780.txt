@@ -1,0 +1,10 @@
+	
+	public static String KEY_TOKEN="ticket";//令牌字串
+	
+	public static void main(String[] args){
+		//密码认证请求
+		AuthRequest auth=new AuthRequest();
+		auth.setOpt(CMD_AUTH);
+		auth.put(KEY_USERNAME, "chacha");
+		auth.put(KEY_PASSWD, "dddddddd");
+		auth.put(KEY_ACTION, NEEDTOKEN);

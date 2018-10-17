@@ -1,0 +1,10 @@
+	 * */
+	List<WeChatMenuInfo> loadMenus(String accountId,String ignoreId);
+	/**
+	 * 更新数据。
+	 * @param info
+	 * 	源数据。
+	 * */
+	WeChatMenuInfo update(WeChatMenuInfo info);
+	/**
+	 * 删除数据。

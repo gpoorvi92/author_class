@@ -1,0 +1,10 @@
+	private static final Logger log = LoggerFactory.getLogger(GenericPropagator.class);
+
+
+	/** The element proxied by {@link #initProxy()} */
+	private T proxiedElement;
+
+	/** List of objects to propagate to */
+	private List<T> propagateTo = Lists.newArrayList();
+
+

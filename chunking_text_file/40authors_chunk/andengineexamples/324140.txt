@@ -1,0 +1,10 @@
+			catmullRomMoveModifierConfig2.setControlPoint(i, CardinalSplineMoveModifierExample.CONTROLPOINT_2_XS[i] - SIZE / 2, CardinalSplineMoveModifierExample.CONTROLPOINT_YS[i] - SIZE / 2);
+		}
+
+		rectangle.registerEntityModifier(
+			new SequenceEntityModifier(
+				new DelayModifier(pDelay),
+				new LoopEntityModifier(
+					new SequenceEntityModifier(
+						new ParallelEntityModifier(
+							new CardinalSplineMoveModifier(CardinalSplineMoveModifierExample.DURATION, catmullRomMoveModifierConfig1, EaseLinear.getInstance()),

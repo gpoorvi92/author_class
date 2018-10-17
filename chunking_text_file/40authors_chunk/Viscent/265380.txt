@@ -1,0 +1,10 @@
+		final CyclicBarrier cbr=new CyclicBarrier(count1, new Runnable(){
+
+			@Override
+      public void run() {
+	      
+				timer.schedule(new TimerTask(){
+
+					@Override
+          public void run() {
+						alarmMgr.sendAlarm(AlarmType.RESUME,alarmId ,alarmExtraInfo);

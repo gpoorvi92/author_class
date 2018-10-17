@@ -1,0 +1,10 @@
+   private int current;
+   private float width;
+   private int cap;
+   private int join;
+   private boolean dash;
+
+   public StrokeComponent()
+   {
+      addMouseListener(new MouseAdapter()
+         {

@@ -1,0 +1,10 @@
+   /**
+    * Parses a bean element.
+    * @param e a bean element
+    */
+   private Object parseBean(Element e)
+   {
+      try
+      {
+         NodeList children = e.getChildNodes();
+         Element classElement = (Element) children.item(0);

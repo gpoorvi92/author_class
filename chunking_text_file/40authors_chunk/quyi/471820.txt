@@ -1,0 +1,10 @@
+        if (getState() != org.apache.thrift.async.TAsyncMethodCall.State.RESPONSE_READ) {
+          throw new IllegalStateException("Method call not finished!");
+        }
+        org.apache.thrift.transport.TMemoryInputTransport memoryTransport = new org.apache.thrift.transport.TMemoryInputTransport(getFrameBuffer().array());
+        org.apache.thrift.protocol.TProtocol prot = client.getProtocolFactory().getProtocol(memoryTransport);
+        return (new Client(prot)).recv_updateAppStatus();
+      }
+    }
+
+    public void updateUserAppInfo(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {

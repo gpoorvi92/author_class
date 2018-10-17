@@ -1,0 +1,10 @@
+      textArea.setText("");
+
+      SwingWorker<Void, Void> worker = new SwingWorker<Void, Void>()
+         {
+            protected Void doInBackground() throws Exception
+            {
+               try (Scanner in = new Scanner(progressIn))
+               {
+                  while (in.hasNextLine())
+                  {

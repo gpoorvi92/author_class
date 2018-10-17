@@ -1,0 +1,10 @@
+		@SuppressWarnings("unchecked")
+		CacheEntity<WeChatContext>  entity = (CacheEntity<WeChatContext>) CacheListHandler.getCache(key);
+		if(entity != null && entity.getEntity() != null){
+			context = entity.getEntity();
+		}
+		if(context == null){
+			logger.info("未找到上下文缓存，重新构建。");
+			context = new WeChatContext(accountId, userOpenId);
+			entity = new CacheEntity<WeChatContext>(key, context, CONST_CACHE_ValidityTime);
+		}

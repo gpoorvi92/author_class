@@ -1,0 +1,10 @@
+		requestFocus();
+	}
+
+	
+	
+	public void mouseClicked(MouseEvent e) {
+		selected = null;
+		repaint();
+	}
+	

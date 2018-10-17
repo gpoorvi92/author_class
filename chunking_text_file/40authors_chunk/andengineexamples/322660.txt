@@ -1,0 +1,10 @@
+			public void onPathWaypointFinished(final PathModifier pPathModifier, final IEntity pEntity, final int pWaypointIndex) {
+				Debug.d("onPathWaypointFinished: " + pWaypointIndex);
+			}
+
+			@Override
+			public void onPathFinished(final PathModifier pPathModifier, final IEntity pEntity) {
+				Debug.d("onPathFinished");
+			}
+		}, EaseSineInOut.getInstance())));
+		scene.attachChild(player);

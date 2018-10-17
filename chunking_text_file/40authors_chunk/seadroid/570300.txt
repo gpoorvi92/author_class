@@ -1,0 +1,10 @@
+
+        String mime = MimeTypeMap.getSingleton().getMimeTypeFromExtension(suffix);
+        Intent open = new Intent(Intent.ACTION_VIEW);
+        open.setDataAndType((Uri.fromFile(file)), mime);
+
+        try {
+            activity.startActivity(open);
+            activity.finish();
+            return;
+        } catch (ActivityNotFoundException e) {

@@ -1,0 +1,10 @@
+/**
+ * P249
+ * TimerTask类的cancel()方法
+ * 将自身从任务队列移除，其他任务不受影响
+ */
+public class Run3_cancel1 {
+    public static void main(String[] args) {
+        System.out.println("当前时间为：" + new Date());
+        Calendar calendar = Calendar.getInstance();
+        Date runDate = calendar.getTime();

@@ -1,0 +1,10 @@
+            DebugLog.v(TAG, "start:readMediaEX");
+            mLibVLC.readMediaEx(mVideoMrl, mVlcPlayerOptions);
+            mHasReadMedia = true;
+        }
+    }
+
+    private void restart() {
+        DebugLog.v(TAG, "restart");
+        mCompleted = false;
+        mLibVLC.stop();

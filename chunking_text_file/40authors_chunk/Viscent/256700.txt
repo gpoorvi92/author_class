@@ -1,0 +1,10 @@
+import io.github.viscent.mtpattern.ch5.tpt.AbstractTerminatableThread;
+
+/**
+ * Serial Thread Confinement模式WorkerThread参与者可复用实现。
+ * 该类使用了Two-phase Termination模式（参见第5章）。
+ * @author Viscent Huang
+ *
+ * @param <T>
+ *          Serializer向WorkerThread所提交的任务对应的类型
+ * @param <V>

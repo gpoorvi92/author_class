@@ -1,0 +1,10 @@
+	/**
+	 * 构造函数。
+	 * */
+	public ArticleRespMessage(){
+		super();
+		this.setMsgType("news");
+	}
+	/**
+	 * 构造函数。
+	 * @param req

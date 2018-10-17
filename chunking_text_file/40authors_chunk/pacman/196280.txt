@@ -1,0 +1,10 @@
+		} catch (JMSException e) {
+			
+			throw new MQException("Can not getSender.", e);
+		} //try			
+	}
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: getReceiver
+	 * @param qtype

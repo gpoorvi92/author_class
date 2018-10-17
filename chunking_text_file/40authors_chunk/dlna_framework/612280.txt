@@ -1,0 +1,10 @@
+
+	private Node getActionResponseNode()
+	{
+		Node bodyNode = getBodyNode();
+		if (bodyNode == null || bodyNode.hasNodes() == false)
+			return null;
+		return bodyNode.getNode(0);
+	}
+	
+	

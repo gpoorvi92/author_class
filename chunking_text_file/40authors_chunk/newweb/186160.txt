@@ -1,0 +1,10 @@
+				cut = lhjPriceCutService.findLhjPriceCutByCustomerIDAndPriceID(returnPrice.getID(),customerID);
+			} catch (Exception e) {
+				return returnPrice;
+			}
+			if(cut != null){
+				returnPrice.setPrice(cut.getPrice());
+			}
+			return returnPrice;
+		}
+	}

@@ -1,0 +1,10 @@
+        if (mime_type != null ? !mime_type.equals(audio.mime_type) : audio.mime_type != null) return false;
+        return file_size != null ? file_size.equals(audio.file_size) : audio.file_size == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return file_id != null ? file_id.hashCode() : 0;
+    }
+
+    @Override

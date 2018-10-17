@@ -1,0 +1,10 @@
+package tv.danmaku.media;
+
+import java.io.IOException;
+import java.lang.ref.WeakReference;
+import java.util.ArrayList;
+
+import org.videolan.vlc.EventManager;
+import org.videolan.vlc.LibVLC;
+import org.videolan.vlc.LibVlcLibraryLoader;
+import org.videolan.vlc.LibVlcMessages;

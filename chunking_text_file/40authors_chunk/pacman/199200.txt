@@ -1,0 +1,10 @@
+	protected String mediaFile;
+	
+	@Transmit(key = "cid")
+	protected int classId;
+	
+	@Transmit(key = "lid")
+	protected int lessonId;
+	
+	@Transmit(key = "guid")
+	protected String guid;

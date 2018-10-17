@@ -1,0 +1,9 @@
+		delegate.shutdown(timeout, unit);
+	}
+
+	@Override
+	public void setNextPipe(Pipe<?, ?> nextPipe) {
+		delegate.setNextPipe(nextPipe);
+	}
+
+}

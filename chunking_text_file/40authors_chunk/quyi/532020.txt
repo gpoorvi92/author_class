@@ -1,0 +1,10 @@
+  public String statement; // required
+  public String riskType; // required
+  public String riskLevel; // required
+  public String ruleNo; // required
+  public String category; // required
+  public String description; // required
+  public int lineNum; // required
+  public int columnNum; // required
+  public String riskDescription; // required
+

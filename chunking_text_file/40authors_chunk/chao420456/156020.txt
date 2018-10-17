@@ -1,0 +1,3 @@
+		// Files.write(Paths.get("array.txt"), array, Charset.forName("GBK"));
+	}
+}

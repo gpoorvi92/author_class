@@ -1,0 +1,10 @@
+		codeMax = 65335;
+		jbt = btPercent;
+		//jsp = pane;
+		//log = jta;
+		inFile = in;
+		outFile = out;
+		codeCnt = 256;
+		status = -1;
+		
+		dict = new Dictionary();

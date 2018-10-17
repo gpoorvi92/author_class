@@ -1,0 +1,10 @@
+            	//Object m = campus_combo.getSelectedItem();
+            	videoSQL vidsql = new videoSQL(a, b, j, k, l);
+            	vidsql.add();            	
+            }
+        });
+        toolBarVideo.add(saveButton);
+        
+		updateButton.setToolTipText("Update");
+        updateButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {	

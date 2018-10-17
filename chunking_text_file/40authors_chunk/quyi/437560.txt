@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class NodeInfo implements org.apache.thrift.TBase<NodeInfo, NodeInfo._Fields>, java.io.Serializable, Cloneable, Comparable<NodeInfo> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("NodeInfo");
+
+  private static final org.apache.thrift.protocol.TField HARDWARE_FIELD_DESC = new org.apache.thrift.protocol.TField("hardware", org.apache.thrift.protocol.TType.STRUCT, (short)1);
+  private static final org.apache.thrift.protocol.TField SOFTWARE_FIELD_DESC = new org.apache.thrift.protocol.TField("software", org.apache.thrift.protocol.TType.STRUCT, (short)2);
+

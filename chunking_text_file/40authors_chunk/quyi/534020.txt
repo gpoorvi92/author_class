@@ -1,0 +1,10 @@
+    if (isSetStatement()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.statement, other.statement);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRiskType()).compareTo(other.isSetRiskType());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

@@ -1,0 +1,10 @@
+	 * 	描述信息。
+	 * */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	/**
+	 * 获取创建时间。
+	 * @return 创建时间。
+	 * */
+	public Date getCreateTime() {

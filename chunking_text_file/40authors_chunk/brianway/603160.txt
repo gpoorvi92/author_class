@@ -1,0 +1,10 @@
+    private Condition condition = lock.newCondition();
+    private boolean hasValue = false;
+
+    public void set() {
+        try {
+            lock.lock();
+            while (hasValue == true) {
+                System.out.println("有可能★★连续" + "  时间为" + System.currentTimeMillis() + " ThreadName=" + Thread.currentThread().getName());
+                condition.await();
+            }

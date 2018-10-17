@@ -1,0 +1,10 @@
+		hs.add(p5);
+		hs.add(p6);
+		hs.add(p7);
+		hs.add(p8);
+
+		// ±éÀú¼¯ºÏ
+		for (Person p : hs) {
+			System.out.println(p.getName() + "---" + p.getAge());
+		}
+	}

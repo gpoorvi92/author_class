@@ -1,0 +1,10 @@
+	private static final String TAG = SelectDialog.class.getSimpleName();
+	private MyDialogListener dialogListener;
+	private Context mContext;
+	private List<String> dataList;
+	private ListView listView;
+	private String data;
+
+	public String getData() {
+		return data;
+	}

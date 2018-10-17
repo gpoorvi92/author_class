@@ -1,0 +1,10 @@
+        this.startTime = to.startTime;
+        this.endTime = to.endTime;
+    }
+
+    
+    public void setVals(TimeView other) {
+        setText(other.getTimeText());
+        startTime = other.getStartTime();
+        endTime = other.getEndTime();
+    }

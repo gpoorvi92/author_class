@@ -1,0 +1,10 @@
+            {
+               setTitle(titleField.getText());
+            }
+         });
+
+      titlePane.add(titleField, BorderLayout.NORTH);
+      JPanel panel2 = new JPanel();
+      panel2.add(panel);
+      titlePane.add(panel2, BorderLayout.CENTER);
+      addTab("Color", colorPane);

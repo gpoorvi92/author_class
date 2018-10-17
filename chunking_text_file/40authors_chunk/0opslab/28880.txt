@@ -1,0 +1,5 @@
+                ", ReplyCodeDesc='" + ReplyCodeDesc + '\'' +
+                ", createTime='" + createTime + '\'' +
+                '}';
+    }
+}

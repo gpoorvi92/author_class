@@ -1,0 +1,10 @@
+			 				{ 
+					 				
+            				}
+			            	name_text.setText(rs1.getString(2));
+			 				passport_text.setText(rs1.getString(3));
+			 				expiry_date_text.setText(rs1.getString(6));
+			 				reg_by_text.setText(rs1.getString(7));
+			 				reg_date_text.setText(rs1.getString(8));
+			 				textArea.setText(rs1.getString(9));
+			 				tel_text.setText(rs1.getString(10));

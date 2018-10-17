@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field targetPort is set (has been assigned a value) and false otherwise */
+  public boolean isSetTargetPort() {
+    return this.targetPort != null;
+  }
+
+  public void setTargetPortIsSet(boolean value) {
+    if (!value) {
+      this.targetPort = null;

@@ -1,0 +1,10 @@
+		//
+
+		private java.util.Iterator iterator = null;
+	}
+
+	//-------------------------------------------------------------------------
+	// Instance variables
+	//
+
+	private List list = new ArrayList();

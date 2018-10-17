@@ -1,0 +1,10 @@
+            entered_windowEnteredFullScreen_1 = true;
+            __windowEnteredFullScreen( arg0 );
+            entered_windowEnteredFullScreen_1 = false;
+        }
+        else
+            super.windowEnteredFullScreen( arg0 );
+    }
+
+    /// public void com.apple.eawt.FullScreenAdapter.windowExitingFullScreen(com.apple.eawt.AppEvent$FullScreenEvent)
+

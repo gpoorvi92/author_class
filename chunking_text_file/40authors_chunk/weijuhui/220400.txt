@@ -1,0 +1,10 @@
+				android.R.layout.simple_list_item_1, dataList));
+		listView.setOnItemClickListener(this);
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position,
+			long id) {
+		if (dataList.get(position).trim() != null) {
+			setData(dataList.get(position).trim());
+			dismiss();

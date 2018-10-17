@@ -1,0 +1,10 @@
+				
+				throw new MQException("fail to close topic session.", e);
+			}
+		}
+		
+		if (topicConnection != null) {
+			try {
+
+				topicConnection.close();
+				topicConnection = null;

@@ -1,0 +1,10 @@
+	private byte[] previous; 
+	private byte[] outBytes; 
+	private Dictionary dict;
+	
+	public LZWDecompress(File in, File out, JButton btPercent) throws IOException{
+		jbt = btPercent;
+		//jsp = pane;
+		//log = jta;
+		this.in = new FileInputStream(in);
+		this.out = new FileOutputStream(out);

@@ -1,0 +1,10 @@
+}
+
+
+/*
+输出：
+T1 进入InnerClass1类中的method1方法
+i=1
+T2 进入InnerClass1类中的method2方法
+j=1
+j=2

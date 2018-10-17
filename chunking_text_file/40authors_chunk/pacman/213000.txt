@@ -1,0 +1,10 @@
+	
+	/**
+	 * @param corePoolSize
+	 * @param maximumPoolSize
+	 * @param keepAliveTime
+	 * @param unit
+	 * @param workQueue
+	 */
+	public InnerWorkerPool(int corePoolSize, int maximumPoolSize,
+			long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue) {

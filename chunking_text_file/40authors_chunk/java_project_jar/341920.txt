@@ -1,0 +1,10 @@
+
+    public volatile int compare(Object x0, Object x1)
+    {
+        return compare((File)x0, (File)x1);
+    }
+
+    private static final Comparator NO_COMPARATORS[] = new Comparator[0];
+    private final Comparator delegates[];
+
+}

@@ -1,0 +1,10 @@
+				if(ms != null && ms.getModules() != null && ms.getModules().size() > 0){
+					for(int i = 0; i < ms.getModules().size(); i++){
+						TreeNode node = this.createTreeNode(ms.getModules().item(i));
+						if(node != null) treeNodeList.add(node);
+					}
+				}
+				//缓存数据。
+				if(treeNodeList != null && treeNodeList.size() > 0){
+					mapNodesCache.put(this.systemId, treeNodeList);
+				}

@@ -1,0 +1,10 @@
+        return adminMapper.findByUsername(username);
+    }
+
+    @Override
+    public List<Admin> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<Admin> adminList = adminMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(adminMapper.getTotalCount(vo));
+        return adminList;
+    }

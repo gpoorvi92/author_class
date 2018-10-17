@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping("/manage/news")
+public class ANewsController extends BaseController {
+    @Autowired
+    private INewsService newsService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(@ModelAttribute("vo") BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/news/list");

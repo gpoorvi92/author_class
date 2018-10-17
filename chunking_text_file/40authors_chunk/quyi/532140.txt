@@ -1,0 +1,10 @@
+        case 11: // DESCRIPTION
+          return DESCRIPTION;
+        case 12: // LINE_NUM
+          return LINE_NUM;
+        case 13: // COLUMN_NUM
+          return COLUMN_NUM;
+        case 14: // RISK_DESCRIPTION
+          return RISK_DESCRIPTION;
+        default:
+          return null;

@@ -1,0 +1,10 @@
+	public Manager() {}
+
+	public Manager(String name,String eid,int salary,int bonus) { //"°×Ò»í®","10000",500,10000
+		super(name,eid,salary); //"°×Ò»í®","10000",500
+		this.bonus = bonus;
+	}
+
+	public void setBonus(int bonus) {
+		this.bonus = bonus;
+	}

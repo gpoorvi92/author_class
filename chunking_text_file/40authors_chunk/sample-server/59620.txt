@@ -1,0 +1,10 @@
+/**
+ * User: Teaey
+ * Date: 13-5-16
+ */
+public class ProtocolBuffersEncoder extends OneToOneEncoder
+{
+    @Override
+    protected Object encode(ChannelHandlerContext ctx, Channel channel, Object msg) throws Exception
+    {
+        byte[] body = toByteArray(msg);

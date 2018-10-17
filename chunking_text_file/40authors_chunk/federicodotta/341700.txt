@@ -1,0 +1,10 @@
+     * This method is used to update the interception action.
+     *
+     * @param interceptAction The new interception action. Possible values are
+     * defined within this interface.
+     */
+    void setInterceptAction(int interceptAction);
+
+    /**
+     * This method retrieves the name of the Burp Proxy listener that is
+     * processing the intercepted message.

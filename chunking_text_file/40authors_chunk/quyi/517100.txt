@@ -1,0 +1,10 @@
+    public void setSuccessIsSet(boolean value) {
+      if (!value) {
+        this.success = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.InvalidRequestException getIre() {
+      return this.ire;
+    }
+

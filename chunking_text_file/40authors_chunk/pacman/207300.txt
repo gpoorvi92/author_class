@@ -1,0 +1,10 @@
+	void delete(TaskModel task);
+	
+	/**
+	 * save.
+	 * 
+	 * @param task
+	 */
+	void save(TaskModel task);
+	
+	/**

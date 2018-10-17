@@ -1,0 +1,10 @@
+		if (iv == null) {
+			iv = (ImageView) v.findViewById(R.id.image_preview);
+		}
+		String filePath = acd.getStringValue("image_path");
+		try {
+			ImageLoader.getInstance().displayImage("file://" + filePath, iv);
+		} catch (Exception ex) {
+			SystemUtil.printException(ex, "w");
+		}
+	}

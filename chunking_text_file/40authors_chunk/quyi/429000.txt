@@ -1,0 +1,10 @@
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    ENGINE_NAME((short)1, "engineName"),
+    VERSION((short)2, "version"),
+    UPDATE((short)3, "update"),
+    RESULT((short)4, "result");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {
+      for (_Fields field : EnumSet.allOf(_Fields.class)) {

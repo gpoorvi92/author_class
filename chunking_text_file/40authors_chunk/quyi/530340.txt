@@ -1,0 +1,10 @@
+  public int hashCode() {
+    return 0;
+  }
+
+  @Override
+  public int compareTo(UserApp other) {
+    if (!getClass().equals(other.getClass())) {
+      return getClass().getName().compareTo(other.getClass().getName());
+    }
+

@@ -1,0 +1,10 @@
+class MethodDemo {
+	public static void main(String[] args) {
+		//定义两个变量
+		int x = 10;
+		int y = 20;
+
+		//单独调用
+		//sum(x,y);
+
+		//输出调用

@@ -1,0 +1,8 @@
+	{
+		// Thanks for Mikael Hakman (04/20/05)
+		close();
+		
+		deviceNotifyThread = null;
+	}
+}
+

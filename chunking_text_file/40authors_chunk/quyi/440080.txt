@@ -1,0 +1,10 @@
+              struct.setCpuCoresIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // CPU_MHZ
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.cpuMhz = iprot.readI32();
+              struct.setCpuMhzIsSet(true);
+            } else { 

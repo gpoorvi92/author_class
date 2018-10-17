@@ -1,0 +1,10 @@
+			IMQSender sender = null;
+			
+			if (qtype == QueueType.TOPIC_COMMAND)
+				sender = new DefaultMQSender(con, destName, false); //topic sender.
+			else
+				sender = new DefaultMQSender(con, destName);
+			
+			logger.info(PREFIX + " Sender created![" + destName + "]"); 
+			
+			return sender;

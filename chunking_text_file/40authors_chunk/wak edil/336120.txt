@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class TehTarikInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Air gula dan susu \nTuang 1/3pati teh \ntarik teh tersebut hingga berbuih ");

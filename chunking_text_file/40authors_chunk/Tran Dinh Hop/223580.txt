@@ -1,0 +1,10 @@
+		outf=new FileOutputStream(outputFile);
+		
+		summary+="File name : "+ table.fileName();
+		summary+="\n";	
+	
+	} catch(Exception exc){
+		
+		System.out.println("Error creating file");
+		JOptionPane.showMessageDialog(null,"Error"+"\nNot a valid < hff > format file.","Summary",JOptionPane.INFORMATION_MESSAGE);								
+		System.exit(0);

@@ -1,0 +1,10 @@
+               JFrame frame = new ResourceTestFrame();
+               frame.setTitle("ResourceTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**

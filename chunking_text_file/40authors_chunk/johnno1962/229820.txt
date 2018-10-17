@@ -1,0 +1,10 @@
+            entered_componentRemoved_1 = true;
+            __componentRemoved( e );
+            entered_componentRemoved_1 = false;
+        }
+        else
+            super.componentRemoved( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

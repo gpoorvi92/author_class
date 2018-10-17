@@ -1,0 +1,10 @@
+                ((Activity) context_).startActivityForResult(intent_, requestCode);
+            } else {
+                context_.startActivity(intent_);
+            }
+        }
+
+        public EditActivity_.IntentBuilder_ flag(int flag) {
+            intent_.putExtra("flag", flag);
+            return this;
+        }

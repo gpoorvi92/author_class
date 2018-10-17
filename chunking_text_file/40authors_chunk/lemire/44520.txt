@@ -1,0 +1,10 @@
+     * Reset the values using the provided word.
+     *
+     * @param a the word
+     */
+    public void reset(final long a) {
+        this.numberOfLiteralWords = (int) (a >>> (1 + RunningLengthWord.RUNNING_LENGTH_BITS));
+        this.runningBit = (a & 1) != 0;
+        this.runningLength = (int) ((a >>> 1) & RunningLengthWord.LARGEST_RUNNING_LENGTH_COUNT);
+        this.literalWordOffset = 0;
+    }

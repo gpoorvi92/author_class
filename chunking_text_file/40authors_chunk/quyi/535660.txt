@@ -1,0 +1,10 @@
+
+  public HardwareResources setProcessName(String processName) {
+    this.processName = processName;
+    return this;
+  }
+
+  public void unsetProcessName() {
+    this.processName = null;
+  }
+

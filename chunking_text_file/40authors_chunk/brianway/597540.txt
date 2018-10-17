@@ -1,0 +1,10 @@
+        };
+        b.setName("B");
+        b.start();
+    }
+
+    /**
+     * testSub断点调试结果是运行的Service类的printA方法
+     */
+    public static void testSub() {
+        ServiceSub service1 = new ServiceSub();

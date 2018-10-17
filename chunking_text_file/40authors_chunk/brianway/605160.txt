@@ -1,0 +1,10 @@
+i=7
+i=8
+j=8
+i=9
+j=9
+j=10
+i=10
+T2 离开InnerClass1类中的method2方法
+T1 离开InnerClass1类中的method1方法
+T3 进入InnerClass2类中的method2方法

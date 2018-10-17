@@ -1,0 +1,10 @@
+        for (int j = 1; j < numInputs; j++) {
+            for (int i = 0; i < j; i++) {
+                for (int n = 0; n < trainingData.size(); n++) {
+                    float[] data = (float[]) trainingData.elementAt(n);
+                    float temp1 = adjustInput(data[i]) * adjustInput(data[j]);
+                    float temp = truncate(temp1 + weights[j][i]);
+                    weights[i][j] = weights[j][i] = temp;
+                }
+            }
+        }

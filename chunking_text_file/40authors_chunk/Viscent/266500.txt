@@ -1,0 +1,10 @@
+
+			AtomicInteger prevSubmittedCounter;
+
+			prevSubmittedCounter = submittedAlarmRegistry.putIfAbsent(type.toString()
+			    + ':' + id + '@' + extraInfo, new AtomicInteger(0));
+			if (null == prevSubmittedCounter) {
+				terminationToken.reservations.incrementAndGet();
+				alarmQueue.put(alarmInfo);
+			} else {
+

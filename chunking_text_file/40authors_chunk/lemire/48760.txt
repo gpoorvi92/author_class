@@ -1,0 +1,7 @@
+            this.word = this.buffer.getWord(this.wordPosition++);
+            this.literalPosition = this.position;
+            this.position += WORD_IN_BITS;
+        }
+        return this.word != 0;
+    }
+}

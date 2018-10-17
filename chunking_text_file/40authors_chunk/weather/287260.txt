@@ -1,0 +1,10 @@
+/**
+ * Created by zhoukai on 13-8-27.
+ */
+public class SwipeActivity extends BaseActivity {
+    boolean mHasBackGround;
+    boolean mDraggable;
+    boolean mIsAttached;
+    Bitmap mBgBitMap;
+    boolean mIsTransparent;
+    private SlidingPaneLayout mSlidingPaneLayout;

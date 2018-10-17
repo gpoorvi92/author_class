@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.apkMD5);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("checkDate:");
+    if (this.checkDate == null) {
+      sb.append("null");
+    } else {

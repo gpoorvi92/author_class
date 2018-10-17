@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case IMAGE_CONTENT:
+      if (value == null) {
+        unsetImageContent();
+      } else {
+        setImageContent((String)value);
+      }
+      break;

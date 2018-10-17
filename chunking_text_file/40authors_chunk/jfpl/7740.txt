@@ -1,0 +1,10 @@
+
+		@Override
+		public void onGetTransitRouteResult(MKTransitRouteResult result,
+				int iError) {
+			// 返回公交搜索结果
+		}
+
+		@Override
+		public void onGetWalkingRouteResult(MKWalkingRouteResult result,
+				int iError) {

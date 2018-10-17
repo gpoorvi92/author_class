@@ -1,0 +1,10 @@
+ * 
+ * @version 1.31 2012-06-05
+ * @author Cay Horstmann
+ */
+class ExecSQL
+{
+   public static void main(String args[]) throws IOException
+   {
+      try
+      {

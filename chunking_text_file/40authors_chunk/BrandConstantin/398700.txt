@@ -1,0 +1,7 @@
+    for (int i = 1; i <= expo; i++){
+    potencia *= base;
+    }
+    
+    System.out.println(base + " ^ " + expo + " = " + potencia);
+  }
+}

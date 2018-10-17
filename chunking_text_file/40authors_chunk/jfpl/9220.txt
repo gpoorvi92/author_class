@@ -1,0 +1,4 @@
+			Toast.makeText(this, "加载图片失败", Toast.LENGTH_LONG).show();
+		}
+	}
+}

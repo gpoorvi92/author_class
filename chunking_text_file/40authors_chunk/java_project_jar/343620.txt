@@ -1,0 +1,10 @@
+                }
+                catch(InterruptedException e) { }
+            }
+        }
+        IOUtils.closeQuietly(reader);
+        break MISSING_BLOCK_LABEL_275;
+        Exception e;
+        e;
+        listener.handle(e);
+        IOUtils.closeQuietly(reader);

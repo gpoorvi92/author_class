@@ -1,0 +1,10 @@
+      if (struct.isSetPidName()) {
+        oprot.writeString(struct.pidName);
+      }
+      if (struct.isSetSourceAddress()) {
+        oprot.writeString(struct.sourceAddress);
+      }
+      if (struct.isSetSourcePort()) {
+        oprot.writeString(struct.sourcePort);
+      }
+      if (struct.isSetTargetAddress()) {

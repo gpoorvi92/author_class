@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.table.DefaultTableModel(java.util.Vector,java.util.Vector)
+
+    DefaultTableModelProxy( java.util.Vector data, java.util.Vector columnNames , long swiftObject ) {
+        super( data, columnNames );
+        this.swiftObject = swiftObject;
+    }
+

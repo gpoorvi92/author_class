@@ -1,0 +1,4 @@
+    private final String charsetName;
+    private final int bytes[];
+
+}

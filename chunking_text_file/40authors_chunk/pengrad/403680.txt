@@ -1,0 +1,10 @@
+    public static void checkDocumentMessage(Message message) {
+        checkMessage(message);
+        DocumentTest.check(message.document());
+    }
+
+    public static void checkStickerMessage(Message message) {
+        checkMessage(message);
+        StickerTest.check(message.sticker());
+    }
+

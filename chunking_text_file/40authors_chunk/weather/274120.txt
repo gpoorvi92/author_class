@@ -1,0 +1,10 @@
+		
+		this.setDownloadEndTime(new Date().getTime());
+		this.setTotalTimeToDownload();
+		this.setDownloading(false);
+        if (this.delegate != null)
+		this.delegate.didFinishDownload(this);
+		try {
+			this.outputStream.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block

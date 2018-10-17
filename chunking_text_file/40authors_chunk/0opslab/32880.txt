@@ -1,0 +1,10 @@
+        }
+    }
+
+    /**
+     * 以指定编码方式读取文件，返回文件内容
+     *
+     * @param file            要转换的文件
+     * @param fromCharsetName 源文件的编码
+     */
+    public static String getFileContentFromCharset(File file, String fromCharsetName) {

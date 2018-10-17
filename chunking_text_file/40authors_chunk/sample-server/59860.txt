@@ -1,0 +1,10 @@
+                socket.setTcpNoDelay(true);
+                socket.connect(new InetSocketAddress(host, port), timeout);
+                socket.setSoTimeout(timeout);
+                outputStream = new HeaderOutputStream(socket.getOutputStream());
+                inputStream = new HeaderInputStream(socket.getInputStream());
+            } catch (IOException ex)
+            {
+                throw new RpcException(ex);
+            }
+        }

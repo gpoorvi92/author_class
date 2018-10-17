@@ -1,0 +1,10 @@
+    case TASK_QUEUE_LIMIT:
+      return Integer.valueOf(getTaskQueueLimit());
+
+    case TASK_QUEUE_NUME:
+      return Integer.valueOf(getTaskQueueNume());
+
+    }
+    throw new IllegalStateException();
+  }
+

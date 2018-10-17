@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping("/user/goodsCollection")
+public class UGoodsCollectionController extends BaseController {
+    @Autowired
+    private IGoodsCollectionService goodsCollectionService;
+
+    @RequestMapping("/add")
+    public @ResponseBody Map<String, Object> add(GoodsCollection goodsCollection) {
+        Map<String, Object> map = new HashMap<String, Object>();

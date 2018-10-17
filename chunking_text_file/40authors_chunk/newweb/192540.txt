@@ -1,0 +1,10 @@
+	private CustomerService customerService;
+	
+
+	/**
+	 * 登陆页面请求
+	 * @param locale
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "login.action", method = RequestMethod.GET)

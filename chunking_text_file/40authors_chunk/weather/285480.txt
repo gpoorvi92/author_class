@@ -1,0 +1,10 @@
+    public CityChangeAdapter(Context context, List<Pair<String, String>> items) {
+        super(context, items);
+        //加载拼音 汉字 对照表
+        String cityPinyin = JsonUtil.getInstance().jsonStringFromRawFile(context, R.raw.city_pinyin);
+        cityPinyinMap = JsonUtil.getInstance().fromJson(cityPinyin, Map.class);
+    }
+
+    @Override
+    public View newView(LayoutInflater inflater, int position, ViewGroup container) {
+        return inflater.inflate(R.layout.item_city, container, false);

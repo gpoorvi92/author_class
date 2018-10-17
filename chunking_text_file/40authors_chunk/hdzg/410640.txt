@@ -1,0 +1,10 @@
+				}	
+			}
+			else if(x>243 && x<273 && y>15 && y<45){//点击了向上翻页按钮
+				if(items.size() == 0){
+					return true;
+				}
+				selectI--;
+				if(selectI < 0){
+					selectI = 0;
+				}

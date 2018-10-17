@@ -1,0 +1,10 @@
+        Rectangle2D.Double rect = new Rectangle2D.Double(model.getLocX()-getX(),model.getLocY()-getY(),model.getWidth(),model.getHeight());
+        
+        
+        g.setStroke(model.getStroke());
+       	
+       	if(model.getGradientFill() != null)
+       		g.setPaint(model.getGradientFill());
+       	else if(model.getRadialFill() != null)
+       		g.setPaint(model.getRadialFill());
+       	else

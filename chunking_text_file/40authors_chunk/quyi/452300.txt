@@ -1,0 +1,10 @@
+      switch (field) {
+      case MISSION_ID:
+        return isSetMissionId();
+      case USER_APPS:
+        return isSetUserApps();
+      case RULES:
+        return isSetRules();
+      case PLOTS:
+        return isSetPlots();
+      }

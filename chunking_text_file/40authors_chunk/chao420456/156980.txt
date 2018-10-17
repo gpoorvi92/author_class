@@ -1,0 +1,10 @@
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		if(arg0.getSource() == jbt_start){
+			jbt_start.setEnabled(false);
+			jbt_stop.setEnabled(true);
+			server.startServer();
+		}
+		if(arg0.getSource() == jbt_stop){
+			int flag = JOptionPane.showConfirmDialog(this, "是否要停止服务器？", "", 
+            		JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);

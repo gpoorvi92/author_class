@@ -1,0 +1,10 @@
+        final Context contextThemeWrapper = new ContextThemeWrapper(
+                getActivity(), R.style.StyledIndicators);
+
+        // clone the inflater using the ContextThemeWrapper
+        LayoutInflater localInflater = inflater
+                .cloneInContext(contextThemeWrapper);
+
+        View root = localInflater.inflate(R.layout.tabs_main, container, false);
+        adapter = new SeafileTabsAdapter(getChildFragmentManager());
+

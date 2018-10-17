@@ -1,0 +1,10 @@
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据更新异常\t" + new Date());
+			sb.append("\n目标表：t_orderprice\n");
+			sb.append("orderID:"+ lhjWeight.getOrder().getID()+"\n");
+			sb.append("productID:"+lhjWeight.getMaterialBrand().getID()+"\n");
+			sb.append("type:lhj"+"\n");
+			sb.append("price:" + price+"\n\n");
+			FileUtil.writeTextToTextFile(sb.toString(), "log" + File.separator +"database", "record.txt",true);
+			JOptionPane.showConfirmDialog(null,
+					"警告，铝合金订单价格更新失败，请查看" + "log" + File.separator +"database" + 

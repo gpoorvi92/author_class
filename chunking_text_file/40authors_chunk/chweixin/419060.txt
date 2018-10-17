@@ -1,0 +1,10 @@
+	 * 关注事件消息。
+	 * */
+	public static final String EVENT_MESSAGE_TYPE_SUBSCRIBE = "subscribe";
+	/**
+	 * 取消关注事件消息。
+	 * */
+	public static final String EVENT_MESSAGE_TYPE_UNSUBSCRIBE = "unsubscribe";
+	/**
+	 * 扫描事件消息。
+	 * */

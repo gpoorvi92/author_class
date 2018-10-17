@@ -1,0 +1,10 @@
+
+        if (filename.endsWith(".tec"))
+            return true;
+        else
+            return false;
+    }
+
+    /** Saves the model to the specified file
+     */
+    public void saveModel(Model m, File f) throws IOException

@@ -1,0 +1,10 @@
+    public void setZoneId(int zoneId)
+    {
+        this.zoneId = zoneId;
+    }
+    public Date getAddTime()
+    {
+        return addTime;
+    }
+    public void setAddTime(Date addTime)
+    {

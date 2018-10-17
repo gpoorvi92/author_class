@@ -1,0 +1,10 @@
+
+    public Object getFieldValue(_Fields field) {
+      switch (field) {
+      case MISSION_ID:
+        return getMissionId();
+
+      case USER_APP_ID:
+        return getUserAppId();
+
+      case STATUS:

@@ -1,0 +1,10 @@
+			prevPipe.setNextPipe(pipe);
+			prevPipe = pipe;
+		}
+
+		Runnable task = new Runnable() {
+			@Override
+			public void run() {
+				for (Pipe<?, ?> pipe : pipes) {
+					pipe.init(ctx);
+				}

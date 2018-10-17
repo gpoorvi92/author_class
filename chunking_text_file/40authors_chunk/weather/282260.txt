@@ -1,0 +1,10 @@
+import android.view.MenuItem;
+
+import com.qihigh.chinaweather.ui.activity.CityChangeActivity;
+import com.qihigh.chinaweather.ui.fragment.WeatherDailyFragment;
+import com.qihigh.chinaweather.ui.fragment.WeatherWeeklyFragment;
+import com.weico.core.utils.LogUtil;
+
+
+public class MainActivity extends Activity {
+

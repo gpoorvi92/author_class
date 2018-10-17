@@ -1,0 +1,10 @@
+		this.tid = tid;
+	}
+
+	/**
+	 * Private field cid Getter method.
+	 * @return cid 
+	 */
+	public Integer getCid() {
+		return this.cid;
+	}

@@ -1,0 +1,10 @@
+
+      saveAsAction = new TestAction("Save As");
+      fileMenu.add(saveAsAction);
+      fileMenu.addSeparator();
+
+      fileMenu.add(new AbstractAction("Exit")
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               System.exit(0);

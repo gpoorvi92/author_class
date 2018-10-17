@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+	}
+	
+	@Override
+	public void didFailDownload(DownloaderWorker downloaderWorker) {
+        if (this.delegate != null)
+		this.delegate.didFailDownload(this);
+	}
+	

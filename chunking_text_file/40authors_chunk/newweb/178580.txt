@@ -1,0 +1,10 @@
+		returnList.add(size);//第一个对象保存结果总数
+		returnList.add(us);//第二个对象保存实体数组
+		return returnList;
+	}
+
+	@Override
+	public void userLoginRecord(HttpServletRequest request, User user) {
+		user.setLoginCount(user.getLoginCount() + 1);
+		user.setLastLoginTime(DateUtil.getLocationCurrentDate() + " " + DateUtil.getLocationCurrentTime());
+		userDao.update(user);

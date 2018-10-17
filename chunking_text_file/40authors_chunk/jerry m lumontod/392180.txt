@@ -1,0 +1,7 @@
+			mintResult=-1;
+		}
+		
+		return mintResult;
+		
+	}
+}

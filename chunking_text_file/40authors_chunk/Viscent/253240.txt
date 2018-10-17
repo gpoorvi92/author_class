@@ -1,0 +1,10 @@
+				entry.recordType = "response";
+				entry.operationName = "sendSmsRsp";
+				entry.srcDevice = "NIG";
+				entry.dstDevice = "ESB";
+				traceId = traceId + 3;
+				entry.traceId = "0021" + traceIdFormatter.format(traceId);
+				logger.printLog(entry);
+
+			}
+

@@ -1,0 +1,10 @@
+      return this;
+    }
+
+    public void unsetVirRD() {
+      this.virRD = null;
+    }
+
+    /** Returns true if field virRD is set (has been assigned a value) and false otherwise */
+    public boolean isSetVirRD() {
+      return this.virRD != null;

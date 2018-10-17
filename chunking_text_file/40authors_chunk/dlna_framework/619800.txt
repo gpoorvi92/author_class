@@ -1,0 +1,10 @@
+		}catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+	}
+
+	public boolean close()
+	{
+		if (ssdpMultiSock == null)
+			return true;

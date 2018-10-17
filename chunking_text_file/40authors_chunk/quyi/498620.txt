@@ -1,0 +1,10 @@
+      return isSetFilePath();
+    case OPERATE_CONTENT:
+      return isSetOperateContent();
+    case OPERATE_TIME:
+      return isSetOperateTime();
+    case OPERATE_TYPE:
+      return isSetOperateType();
+    }
+    throw new IllegalStateException();
+  }

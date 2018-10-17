@@ -1,0 +1,10 @@
+    public void setChatServerHost(String chatServerHost)
+    {
+        this.chatServerHost = chatServerHost;
+    }
+    public String getAuthServerHost()
+    {
+        return authServerHost;
+    }
+    public void setAuthServerHost(String authServerHost)
+    {

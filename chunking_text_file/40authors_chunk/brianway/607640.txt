@@ -1,0 +1,5 @@
+325040804 com.brianway.learning.java.multithread.singleton.example3.MyObject2@135fbaa4
+调用了readResolve方法
+325040804 com.brianway.learning.java.multithread.singleton.example3.MyObject2@135fbaa4
+
+ */

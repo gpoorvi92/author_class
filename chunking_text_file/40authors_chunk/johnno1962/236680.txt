@@ -1,0 +1,10 @@
+    boolean entered_handleAbout_5;
+
+    public void handleAbout( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handleAbout_5 ) {
+            entered_handleAbout_5 = true;
+            __handleAbout( arg0 );
+            entered_handleAbout_5 = false;
+        }
+        else
+            super.handleAbout( arg0 );

@@ -1,0 +1,4 @@
+		// public static double sqrt(double a):正平方根
+		System.out.println("sqrt:" + Math.sqrt(16));
+	}
+}

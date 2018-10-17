@@ -1,0 +1,10 @@
+                    } else {
+                        int col = A[c-1];
+                        A[c-1] = -1;
+                        c = col;
+                    }
+                }
+            }
+        }
+        int idx = n;
+        for (int i = k; i > 0; --i) {

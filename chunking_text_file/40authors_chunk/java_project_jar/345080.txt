@@ -1,0 +1,10 @@
+                writer = new OutputStreamWriter(stream, encoding);
+            }
+        }
+        catch(IOException ex)
+        {
+            IOUtils.closeQuietly(writer);
+            IOUtils.closeQuietly(stream);
+            FileUtils.deleteQuietly(lockFile);
+            if(!fileExistedAlready)
+                FileUtils.deleteQuietly(file);

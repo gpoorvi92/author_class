@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void forceHideImmediately() {
+        mShouldHide = true;
+        mIsReadyToHide = true;
+
+        doHide();
+    }
+

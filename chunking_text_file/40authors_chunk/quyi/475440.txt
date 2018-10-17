@@ -1,0 +1,10 @@
+    public List<com.nercis.isscp.idl.PlotsType> plots; // required
+    public String useRule; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      MISSION_ID((short)1, "missionId"),
+      USER_APPS((short)2, "userApps"),
+      PLOTS((short)3, "plots"),
+      USE_RULE((short)4, "useRule");
+

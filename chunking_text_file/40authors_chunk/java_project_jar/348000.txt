@@ -1,0 +1,4 @@
+    private int fbIndex;
+    private int markFbIndex;
+    private boolean markedAtStart;
+}

@@ -1,0 +1,10 @@
+ * 要想知道是如何判断的，就必须看判断的方法的源码
+ * 通过查看源码，我们知道集合的contains()方法底层源码依赖的是元素对象的equals()方法
+ * 而默认情况下，元素所属的类继承了Object类的equals()方法，比较的是地址值。
+ * 所以，我们想要比较对象的成员变量值相同，就必须重写equals()方法。
+ */
+public class ArrayListTest3 {
+	public static void main(String[] args) {
+		// 创建集合对象
+		ArrayList array = new ArrayList();
+

@@ -1,0 +1,10 @@
+    	StringBuffer sb = new StringBuffer();
+    	try {
+	    	Process proc = Runtime.getRuntime().exec(shellCmd);
+	    	BufferedReader br = new BufferedReader(new InputStreamReader(proc.getErrorStream()));
+	    	String line = null;
+	    	result = proc.waitFor() == 0;
+	    	while ((line = br.readLine()) != null)
+	    	{
+	    		sb.append(line + "\n");
+	    	}

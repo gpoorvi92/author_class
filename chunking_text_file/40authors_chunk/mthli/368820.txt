@@ -1,0 +1,10 @@
+            }
+            else
+            {
+               if (search(file)) count++;
+            }
+
+         for (Future<Integer> result : results)
+            try
+            {
+               count += result.get();

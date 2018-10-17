@@ -1,0 +1,10 @@
+				tipTv.setText(ctx.getString(R.string.cancel_record_tip2));
+				// this.mediaRecorder.start();
+				break;
+			default:
+				break;
+			}
+		} catch (Exception ex) {
+			Log.d(SystemUtil.LOG_MSG, "call after dialog.show() ");
+		}
+		this.state = flag;

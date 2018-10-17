@@ -1,0 +1,10 @@
+
+	/** 
+	 * Sets the DevCat that this property can be applied to 
+	 * @param devCat the DevCat
+	 */
+	void setDevCat( DevCat devCat ) { this.devCat = devCat; }
+
+	/**
+	 * Sets the PropInfoViewer for this property 
+	 * @param viewer the PropInfoViewer

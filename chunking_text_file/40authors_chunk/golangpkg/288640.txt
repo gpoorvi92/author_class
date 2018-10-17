@@ -1,0 +1,10 @@
+				.expireAfterAccess(clientEvictionTimeInSeconds, TimeUnit.SECONDS)
+				.build(new CacheLoader<UUID, RequestUploadProcessingConfiguration>() {
+
+					@Override
+					public RequestUploadProcessingConfiguration load(UUID arg0)
+							throws Exception {
+						return new RequestUploadProcessingConfiguration();
+					}
+				});
+	}

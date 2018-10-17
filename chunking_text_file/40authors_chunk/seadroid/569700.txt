@@ -1,0 +1,10 @@
+            account = (Account)savedInstanceState.getParcelable(STATE_ACCOUNT);
+        }
+
+        if (password != null) {
+            passwordText.setText(password);
+        }
+
+        return view;
+    }
+

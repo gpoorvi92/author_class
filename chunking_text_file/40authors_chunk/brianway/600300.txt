@@ -1,0 +1,10 @@
+        System.out.println("main thread begin priority =" + Thread.currentThread().getPriority());
+        //Thread.currentThread().setPriority(6);
+        System.out.println("main thread end priority =" + Thread.currentThread().getPriority());
+        MyThread17_1 myThread17_1 = new MyThread17_1();
+        myThread17_1.start();
+    }
+}
+
+/*
+//Thread.currentThread().setPriority(6);

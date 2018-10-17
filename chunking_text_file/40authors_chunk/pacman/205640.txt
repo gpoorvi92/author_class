@@ -1,0 +1,4 @@
+			return seed.getAndAdd(1);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+                monitor.monitorAllAccounts();
+            }
+        });
+
+        return START_STICKY;
+    }
+
+    public class MonitorBinder extends Binder {
+        public FileMonitorService getService() {
+            return FileMonitorService.this;

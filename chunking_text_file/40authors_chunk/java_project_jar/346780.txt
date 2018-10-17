@@ -1,0 +1,10 @@
+
+        return count;
+    }
+
+    public void reset()
+    {
+        idx = mark;
+    }
+
+    public long skip(long n)

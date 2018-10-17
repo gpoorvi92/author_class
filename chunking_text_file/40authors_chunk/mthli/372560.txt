@@ -1,0 +1,10 @@
+      catch (UnavailableServiceException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+      catch (IOException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+   }
+

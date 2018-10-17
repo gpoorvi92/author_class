@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.gallery;
+
+import java.util.HashMap;
+import java.util.List;
+
+import android.content.ContentResolver;
+import android.database.Cursor;
+import android.net.Uri;
+import android.provider.MediaStore.Images.Media;
+

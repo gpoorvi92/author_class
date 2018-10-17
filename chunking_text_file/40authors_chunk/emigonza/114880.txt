@@ -1,0 +1,10 @@
+    public static final int PPAD_DISP_UNRESTRICTED          = 1;
+    public static final int PPAD_DISP_PINRESTRICTED         = 2;
+    public static final int PPAD_DISP_RESTRICTED_LIST       = 3;
+    public static final int PPAD_DISP_RESTRICTED_ORDER      = 4;
+    public static final int PPAD_DISP_NONE                  = 5;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "AvailablePromptsList" and "Prompt" Property Constants
+    /////////////////////////////////////////////////////////////////////

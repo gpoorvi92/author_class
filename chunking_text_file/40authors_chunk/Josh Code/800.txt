@@ -1,0 +1,10 @@
+{
+ private static final LinkedList<ModelFileLoader> loaders = getModelFileLoaders();
+
+    /** Returns a list of ModelFileLoader objects
+     */
+    public static LinkedList<ModelFileLoader> getModelFileLoaders()
+    {
+      LinkedList<ModelFileLoader> mloaders = new LinkedList<ModelFileLoader>();
+
+        /* The following could be done by checking 

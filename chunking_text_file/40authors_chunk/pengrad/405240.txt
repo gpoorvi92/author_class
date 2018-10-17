@@ -1,0 +1,10 @@
+    }
+
+    public SendAudio duration(int duration) {
+        return add("duration", duration);
+    }
+
+    public SendAudio performer(String performer) {
+        return add("performer", performer);
+    }
+

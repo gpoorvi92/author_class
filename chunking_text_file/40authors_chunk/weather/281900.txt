@@ -1,0 +1,10 @@
+     *
+     * @param activity
+     */
+    public static void toggleSoftInput(Activity activity) {
+        InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        // 得到InputMethodManager的实例
+        // 如果开启关闭软键盘，开启方法相同，这个方法是切换开启与关闭状态的
+        imm.toggleSoftInput(InputMethodManager.SHOW_IMPLICIT, InputMethodManager.HIDE_NOT_ALWAYS);
+    }
+

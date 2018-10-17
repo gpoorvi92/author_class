@@ -1,0 +1,10 @@
+            final int c = buffers[k];
+            final int m = Math.min(t - 1, k);
+            for (int j = m; j >= 1; --j) {
+                v[j] |= (c & v[j - 1]);
+            }
+            v[0] |= c;
+        }
+        return v[t - 1];
+    }
+

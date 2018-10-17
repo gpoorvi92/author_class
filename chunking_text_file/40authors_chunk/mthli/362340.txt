@@ -1,0 +1,10 @@
+
+         // print convenience functions
+
+         System.out.println("----------");
+         System.out.println("getContentType: " + connection.getContentType());
+         System.out.println("getContentLength: " + connection.getContentLength());
+         System.out.println("getContentEncoding: " + connection.getContentEncoding());
+         System.out.println("getDate: " + connection.getDate());
+         System.out.println("getExpiration: " + connection.getExpiration());
+         System.out.println("getLastModifed: " + connection.getLastModified());

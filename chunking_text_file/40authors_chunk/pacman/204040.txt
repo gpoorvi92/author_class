@@ -1,0 +1,9 @@
+	void stop();
+	
+	/**
+	 * Gets the steps inside worker.
+	 * 
+	 * @return
+	 */
+	List<IStep> getSteps();
+}

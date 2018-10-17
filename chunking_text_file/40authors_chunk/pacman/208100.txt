@@ -1,0 +1,10 @@
+/******************************************************************  
+ * Copyright ? 2014 hujiang.com. All rights reserved.
+ *
+ * @Title: MediaInfo.java
+ * @Prject: libMediaInfo
+ * @Package: com.yeshj.pacman
+ * @Description: packing and transcoding classware of hujiang.com.
+ *                http://class.hujiang.com/
+ * @author: Dellinger  
+ * @date: 2014-12-22 12:16:57

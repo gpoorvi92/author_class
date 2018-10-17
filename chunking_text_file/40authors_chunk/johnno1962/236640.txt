@@ -1,0 +1,10 @@
+    /// public void com.apple.eawt.ApplicationAdapter.handleReOpenApplication(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleReOpenApplication( com.apple.eawt.ApplicationEvent arg0 );
+
+    boolean entered_handleReOpenApplication_4;
+
+    public void handleReOpenApplication( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handleReOpenApplication_4 ) {
+            entered_handleReOpenApplication_4 = true;
+            __handleReOpenApplication( arg0 );

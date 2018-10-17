@@ -1,0 +1,10 @@
+  protected String CellStartTag(boolean rowstart) {
+    return "<TD>";
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#CellStopTag(boolean)
+   */
+  protected String CellStopTag(boolean rowend) {
+    return "</TD>";
+  }
+  /* (non-Javadoc)

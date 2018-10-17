@@ -1,0 +1,10 @@
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public operateEngine_result getResult(I iface, operateEngine_args args) throws org.apache.thrift.TException {
+        operateEngine_result result = new operateEngine_result();
+        try {
+          result.success = iface.operateEngine(args.engine, args.operate);

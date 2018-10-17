@@ -1,0 +1,10 @@
+          }
+        }
+      }
+      if (struct.isSetCheckEndDate()) {
+        oprot.writeString(struct.checkEndDate);
+      }
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, DynamicCheckResultData struct) throws org.apache.thrift.TException {

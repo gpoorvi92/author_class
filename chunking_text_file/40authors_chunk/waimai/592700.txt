@@ -1,0 +1,10 @@
+        this.orderField = orderField;
+    }
+    public String getOrderDirection() {
+        return "desc".equals(orderDirection) ? "desc" : "asc";
+    }
+    public void setOrderDirection(String orderDirection) {
+        this.orderDirection = orderDirection;
+    }
+
+    public int getTotalCount() {

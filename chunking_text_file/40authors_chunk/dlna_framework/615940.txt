@@ -1,0 +1,10 @@
+		if (rootNode == null)
+			return null;
+		if (rootNode.hasNodes() == false)
+			return null;
+		Node propNode = rootNode.getNode(0);
+		if (propNode.hasNodes() == false)
+			return null;
+		return propNode.getNode(0);
+	}
+

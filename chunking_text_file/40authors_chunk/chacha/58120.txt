@@ -1,0 +1,10 @@
+			JsonGenerationException, IOException {
+		TokenLogout tl=(TokenLogout)JsonPojoMapper.fromJson(json, TokenLogout.class);
+		this.setOpt(tl.getOpt());
+		this.setBody(tl.getBody());
+		
+	}
+	public static void main(String[] args){
+		//pojo to json
+		TokenLogout login=new TokenLogout();
+		TokenBody body=new TokenBody("f706c0e77064d8c127ea45397d72778942685880218da7e8e005137104b65df8");

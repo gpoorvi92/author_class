@@ -1,0 +1,10 @@
+        setupForCurrentRunningLengthWord();
+        this.hasNext = moveToNext();
+    }
+
+    /**
+     * @return whether we could find another set bit; don't move if there is
+     * an unprocessed value
+     */
+    private boolean moveToNext() {
+        while (!runningHasNext() && !literalHasNext()) {

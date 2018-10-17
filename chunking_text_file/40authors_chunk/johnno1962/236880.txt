@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.MenuDragMouseListener.menuDragMouseExited(javax.swing.event.MenuDragMouseEvent)
+
+    public native void __menuDragMouseExited( javax.swing.event.MenuDragMouseEvent e );
+
+    public void menuDragMouseExited( javax.swing.event.MenuDragMouseEvent e ) {
+        __menuDragMouseExited( e );
+    }
+
+    /// public abstract void javax.swing.event.MenuDragMouseListener.menuDragMouseDragged(javax.swing.event.MenuDragMouseEvent)

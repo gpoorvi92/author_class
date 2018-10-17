@@ -1,0 +1,10 @@
+     */
+    public static String encoding(String str) {
+        java.nio.charset.Charset charset = null;
+        try {
+            InputStream inputStream = new ByteArrayInputStream(str.getBytes());
+            charset = cpDetector.codepageDetector.detectCodepage(inputStream, 3);
+            if (charset != null) {
+                return charset.name();
+            }
+        } catch (Exception e) {

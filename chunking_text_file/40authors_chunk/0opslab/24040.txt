@@ -1,0 +1,10 @@
+     * @param num 数字
+     * @return int 随机数字
+     */
+    public static int num(int num)
+    {
+        return (new Random()).nextInt(num);
+    }
+    /**
+     * 给定范围获得随机颜色
+     * @return Color 随机颜色

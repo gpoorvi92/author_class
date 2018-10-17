@@ -1,0 +1,10 @@
+  public void clear() {
+    this.nodeId = null;
+    setCpuUsedPercIsSet(false);
+    this.cpuUsedPerc = 0.0;
+    setFreeMemIsSet(false);
+    this.freeMem = 0.0;
+    setJvmFreeMemIsSet(false);
+    this.jvmFreeMem = 0.0;
+    setTaskQueueLimitIsSet(false);
+    this.taskQueueLimit = 0;

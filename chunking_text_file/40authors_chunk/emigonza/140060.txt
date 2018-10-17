@@ -1,0 +1,10 @@
+//   Added new StatusUpdateEvent constant:
+//       LOCK_KP_ELECTRONIC
+//   Added new CapKeylockType constants:
+//       LOCK_KT_STANDARD
+//       LOCK_KT_ELECTRONIC
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+

@@ -1,0 +1,10 @@
+			status = 3;
+		} 
+		else{//招上了兵
+			status = 2;
+			int result = 0;
+			if(Math.random()<0.4){//有几率招不到那么多
+				result = 5000;
+			}
+			else{
+				result = maxNumber;

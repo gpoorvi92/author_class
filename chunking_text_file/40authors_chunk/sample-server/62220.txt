@@ -1,0 +1,10 @@
+    {
+        StandardDao dao = StandardDao.getInstance();
+        Player p = dao.select(Player.class, 1);
+        System.out.println(p.getItem().size());
+    }
+    @Test
+    public void insert()
+    {
+        Player player = new Player();
+        player.setName("player2");

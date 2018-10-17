@@ -1,0 +1,10 @@
+			else {
+				log.debug(file + " not deleted, rescheduled for deletion.");
+			}
+		}
+
+		// all the files have been processed
+		// remove the deleted files from queue
+		synchronized (this.files) {
+			Iterables.removeAll(this.files, successfullyDeletedFiles);
+		}

@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowDeactivated(java.awt.event.WindowEvent)
+
+    public native void __windowDeactivated( java.awt.event.WindowEvent e );
+
+    boolean entered_windowDeactivated_6;
+
+    public void windowDeactivated( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowDeactivated_6 ) {

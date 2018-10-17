@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JWindow(java.awt.Frame)
+
+    JWindowProxy( java.awt.Frame owner , long swiftObject ) {
+        super( owner );
+        this.swiftObject = swiftObject;
+    }
+

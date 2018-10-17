@@ -1,0 +1,10 @@
+		renderSurface.moveShapeToBack();
+	}
+	
+	public void removeAll() {
+		renderSurface.removeAll();
+		renderSurface.repaint();
+	}
+	
+	public void addShape(ShapeLayerModel model)
+	{

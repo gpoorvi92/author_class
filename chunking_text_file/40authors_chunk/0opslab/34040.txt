@@ -1,0 +1,10 @@
+
+    /**
+     * 整型数组转换为字节数组的转换
+     *
+     * @param arr 整型数组
+     */
+    public final static byte[] intToByte(int[] arr) {
+        byte[] bt = new byte[arr.length * 4];
+        for (int i = 0; i < arr.length; i++) {
+            byte[] t = intToByte(arr[i]);

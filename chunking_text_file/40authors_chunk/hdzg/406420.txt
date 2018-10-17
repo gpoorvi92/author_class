@@ -1,0 +1,10 @@
+			if(i == lines-1){//如果是最后一行那个不太整的汉字
+				str = string.substring(i*DIALOG_WORD_EACH_LINE);
+			}
+			else{
+				str = string.substring(i*DIALOG_WORD_EACH_LINE, (i+1)*DIALOG_WORD_EACH_LINE);
+			}
+			canvas.drawText(str, DIALOG_WORD_START_X, DIALOG_WORD_START_Y+DIALOG_WORD_SIZE*i, paint);
+		}
+	}
+	public boolean onTouch(View arg0, MotionEvent arg1) {

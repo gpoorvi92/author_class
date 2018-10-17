@@ -1,0 +1,10 @@
+import java.awt.event.*;
+
+import com.gs.ui.option.*;
+
+public class OptionDialog extends JDialog implements OptionConstants {
+	
+
+	GraphicsFrame frame;
+	
+	OptionDisplay display; //= new OptionDisplay(this); //The configurable panels of the dialog

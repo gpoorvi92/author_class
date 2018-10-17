@@ -1,0 +1,10 @@
+			else {
+				String pass;			//To Hold the Password.
+				boolean verify = false;		//To Confirm Logon.
+
+	 			try {	//SELECT Query to Retrieved the Record.
+ 					String query = "SELECT * FROM Users WHERE Username = '" + userName + "'";
+
+		 			ResultSet rs = st.executeQuery (query);		//Executing the Query.
+					rs.next();					//Moving Towards the Record.
+ 					pass = rs.getString ("Password");		//Storing Password.

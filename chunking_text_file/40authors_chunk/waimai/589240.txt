@@ -1,0 +1,10 @@
+
+    private Admin createUser;
+
+    private Admin updateUser;
+
+    public Admin getCreateUser() {
+        return createUser;
+    }
+
+    public void setCreateUser(Admin createUser) {

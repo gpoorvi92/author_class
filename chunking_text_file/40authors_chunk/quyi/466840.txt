@@ -1,0 +1,10 @@
+		return missionId;
+
+	}
+
+	/**
+	 * 
+	 * @param session
+	 * @param producer
+	 * @param missionId
+	 * @param missionSize

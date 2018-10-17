@@ -1,0 +1,10 @@
+                    com.nercis.isscp.idl.PlotsType _elem40;
+                    _elem40 = com.nercis.isscp.idl.PlotsType.findByValue(iprot.readI32());
+                    struct.plots.add(_elem40);
+                  }
+                  iprot.readListEnd();
+                }
+                struct.setPlotsIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }

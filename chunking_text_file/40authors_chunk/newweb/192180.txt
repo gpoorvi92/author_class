@@ -1,0 +1,10 @@
+		if(orderID != null){
+			OrderPrice op = orderPriceService.findOrderPriceByCondition("small",smallID,orderID);
+			if(op != null){
+				returnSmall.setLsprice(op.getPrice());
+				return returnSmall;
+			}else{
+				SmallPriceCut cut = null;
+				try {
+					cut = smallPriceCutService.findSmallPriceCutBySmallIDAndCustomerID(smallID,customerID);
+				} catch (Exception e) {

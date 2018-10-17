@@ -1,0 +1,10 @@
+	 * @param msgs
+	 * @throws MQException
+	 * @return: void
+	 */
+	void sendTextMessage(String[] msgs) throws MQException;
+	
+	/**
+	 * Sends the key-value data.
+	 * 
+	 * @Title: sendMapMessage

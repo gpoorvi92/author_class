@@ -1,0 +1,10 @@
+						StringBuffer sb = new StringBuffer();
+						synchronized (serverThread.clients) {
+							for(int i = 0; i < serverThread.clients.size(); i++){
+								int threadID = (int) serverThread.clients.elementAt(i).getId();
+								if(userID == threadID){
+									serverThread.clients.removeElementAt(i);
+									i--;
+								}else{
+									sb.append((String)serverThread.users.get(new Integer(threadID)) + "@userlist");
+									sb.append(threadID + "@userlist");

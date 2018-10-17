@@ -1,0 +1,10 @@
+
+	private void setKbPerSecond(String kbPerSecond) {
+		this.kbPerSecond = kbPerSecond;
+	}
+
+	public String getTotalTimeToDownload() {
+		return totalTimeToDownload;
+	}
+
+	private void setTotalTimeToDownload() {

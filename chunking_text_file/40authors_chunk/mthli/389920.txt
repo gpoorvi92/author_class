@@ -1,0 +1,10 @@
+      panel.add(new JLabel("username:"));
+      panel.add(username);
+      panel.add(new JLabel("password:"));
+      panel.add(password);
+      panel.add(propertyName);
+      panel.add(propertyValue);
+      add(panel, BorderLayout.CENTER);
+
+      JButton getValueButton = new JButton("Get Value");
+      getValueButton.addActionListener(EventHandler.create(ActionListener.class, this, "getValue"));

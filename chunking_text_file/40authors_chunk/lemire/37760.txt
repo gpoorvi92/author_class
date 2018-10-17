@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Gets the number of literal words for the current running length word.
+     *
+     * @return the number of literal words
+     */
+    @Override
+    public int getNumberOfLiteralWords() {
+        return this.iteratingBrlw.getNumberOfLiteralWords();

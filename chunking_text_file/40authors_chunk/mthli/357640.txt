@@ -1,0 +1,10 @@
+      editMenu.add(sharpenItem);
+
+      JMenuItem brightenItem = new JMenuItem("Brighten");
+      brightenItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               float a = 1.1f;
+               // float b = 20.0f;
+               float b = 0;

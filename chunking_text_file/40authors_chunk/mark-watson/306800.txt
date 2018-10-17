@@ -1,0 +1,10 @@
+        } catch (Exception ex) {
+            System.out.println("Error creating relation '" + relation + "' with arity=" + arity + " is: " + ex);
+            return 0;
+        }   
+    }
+
+    private String fix(Object obj) {
+      String s = ""+obj;
+      return s.substring(3);
+    }

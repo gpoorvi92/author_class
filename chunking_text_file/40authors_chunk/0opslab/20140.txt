@@ -1,0 +1,10 @@
+        String jarPath = TestUtil.path +"/lib/cpdetector.jar";
+        List<String> classNameList = ClassUtil.getClassNameByJar(jarPath);
+        System.out.println(classNameList);
+    }
+
+    /**
+     * 获取jar包中的所有的资源文件
+     */
+    @Test
+    public void testGetResourceByJar(){

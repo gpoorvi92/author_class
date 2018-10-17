@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Bill findBillById(String billid) {
+		return billDao.selectBillById(billid);
+	}
+
+	@Override
+	public double getBillAccountByBillID(String billid) {
+		Order[] orders = queryOrdersByBillId(billid);

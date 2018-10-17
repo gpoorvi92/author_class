@@ -1,0 +1,10 @@
+    /**
+     * @return the Profile for the profileName specified
+     * @param profileName the unique name of this profile
+     */
+    public Profile getProfile( String profileName );
+
+    /**
+     * Add an Profile for the service with logical name specified
+     * @param profile the profile
+     */

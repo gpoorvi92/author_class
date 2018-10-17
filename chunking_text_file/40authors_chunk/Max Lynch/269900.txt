@@ -1,0 +1,10 @@
+	public static final int LINEAR_CONTROLS = 0;
+	public static final int RADIAL_CONTROLS = 1;
+	
+	GraphicsFrame frame;
+	
+	ColorFramePanelGradient gradientPanel;
+	
+	JSlider xSlider = new JSlider(0, 100);
+	JSlider ySlider = new JSlider(0, 100);
+	

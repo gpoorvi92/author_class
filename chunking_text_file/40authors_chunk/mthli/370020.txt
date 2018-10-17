@@ -1,0 +1,10 @@
+
+/**
+ * This login module authenticates users by reading usernames, passwords, and roles from a text
+ * file.
+ */
+public class SimpleLoginModule implements LoginModule
+{
+   private Subject subject;
+   private CallbackHandler callbackHandler;
+   private Map<String, ?> options;

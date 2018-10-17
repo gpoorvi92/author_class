@@ -1,0 +1,10 @@
+	{
+		Node propSetNode = new Node(/*XMLNS + SOAP.DELIM + */PROPERTYSET);
+		
+		propSetNode.setNameSpace(XMLNS, Subscription.XMLNS);
+
+		Node propNode = new Node(/*XMLNS + SOAP.DELIM + */PROPERTY);
+		propSetNode.addNode(propNode);
+		
+		// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (05/22/03)
+		//Node varNameNode = new Node(XMLNS + SOAP.DELIM + varName);

@@ -1,0 +1,10 @@
+
+    public void track(File file, Object marker, FileDeleteStrategy deleteStrategy)
+    {
+        if(file == null)
+        {
+            throw new NullPointerException("The file must not be null");
+        } else
+        {
+            addTracker(file.getPath(), marker, deleteStrategy);
+            return;

@@ -1,0 +1,10 @@
+				tempFlag = true;
+			}
+			if(hero.food >= 800000){//身上粮食太多
+				hero.food -= 80000*(int)(Math.random()*20000);
+				if(hero.armyWithMe > 1000){
+					hero.armyWithMe -= (int)(Math.random()*500);
+				}	
+				if(hero.totalMoney > 1000){
+					hero.totalMoney -=(int)(Math.random()*500);
+				}

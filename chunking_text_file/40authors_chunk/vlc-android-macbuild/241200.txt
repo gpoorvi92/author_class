@@ -1,0 +1,10 @@
+    }
+
+    public static void setBackgroundResource(View container, int id,
+            int resource) {
+        if (container == null)
+            return;
+
+        container.findViewById(id).setBackgroundResource(resource);
+    }
+

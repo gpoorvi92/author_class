@@ -1,0 +1,10 @@
+
+    /**
+     * This method is used to update the HTTP service for this request /
+     * response.
+     *
+     * @param httpService An
+     * <code>IHttpService</code> object containing details of the new HTTP
+     * service.
+     */
+    void setHttpService(IHttpService httpService);

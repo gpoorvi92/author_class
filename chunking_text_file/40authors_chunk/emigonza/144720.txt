@@ -1,0 +1,10 @@
+    /**
+     * Constants defining the JavaPOS tracing facility Java property value of ON
+     * <b>NOTE</b>: either this or the JposProperties#JPOS_TRACING_TRUE_PROP_VALUE works
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String JPOS_TRACING_ON_PROP_VALUE = "ON";
+    
+    /**
+     * Constants defining the JavaPOS tracing facility Java property of TRUE
+     * <b>NOTE</b>: either this or the JposProperties#JPOS_TRACING_ON_PROP_VALUE works

@@ -1,0 +1,10 @@
+	public ArgumentList getResponse()
+	{
+		ArgumentList argList = new ArgumentList();
+		
+		Node resNode = getActionResponseNode();
+		if (resNode == null)
+			return argList;
+			
+		int nArgs = resNode.getNNodes();
+		for (int n=0; n<nArgs; n++) {

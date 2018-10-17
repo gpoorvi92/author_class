@@ -1,0 +1,10 @@
+	public void addPositionItem(AbstractCommonData acd) {
+		positionList.add(acd);
+		GeoPoint p = new GeoPoint(acd.getIntValue("lat"),
+				acd.getIntValue("lon"));
+		OverlayItem item = new OverlayItem(p,
+				acd.getStringValue("location_jc"), "");
+		Bitmap bmp = ImageLoader.getInstance().loadImageSync(
+				"drawable://" + R.drawable.location_arrows,
+				new ImageSize(25, 25));
+		item.setMarker(new BitmapDrawable(bmp));

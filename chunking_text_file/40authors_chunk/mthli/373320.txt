@@ -1,0 +1,10 @@
+   public static void printTable(double from, double to, int n, Method f)
+   {
+      // print out the method as table header
+      System.out.println(f);
+
+      double dx = (to - from) / (n - 1);
+
+      for (double x = from; x <= to; x += dx)
+      {
+         try

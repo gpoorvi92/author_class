@@ -1,0 +1,6 @@
+package jpos.events;
+
+public interface ErrorListener extends java.util.EventListener
+{
+    public void errorOccurred(ErrorEvent e);
+}

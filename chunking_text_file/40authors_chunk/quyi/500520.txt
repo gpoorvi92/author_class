@@ -1,0 +1,10 @@
+  }
+
+  public boolean equals(NodeHeat that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_nodeId = true && this.isSetNodeId();
+    boolean that_present_nodeId = true && that.isSetNodeId();
+    if (this_present_nodeId || that_present_nodeId) {
+      if (!(this_present_nodeId && that_present_nodeId))

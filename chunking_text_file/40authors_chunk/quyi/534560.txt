@@ -1,0 +1,10 @@
+          case 3: // PACKAGE_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.packageName = iprot.readString();
+              struct.setPackageNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // OBJECT_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {

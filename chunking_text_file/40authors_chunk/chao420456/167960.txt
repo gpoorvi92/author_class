@@ -1,0 +1,10 @@
+		c_chatFrame.setVisible(true);
+		flag_exit = true;
+		this.start();
+		
+	}
+	private void getDataInit() {
+		try {
+			dis = new DataInputStream(c_socket.getInputStream());
+			dos = new DataOutputStream(c_socket.getOutputStream());
+		} catch (IOException e) {

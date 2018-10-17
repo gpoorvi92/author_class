@@ -1,0 +1,10 @@
+
+  /** Returns true if field taskQueueLimit is set (has been assigned a value) and false otherwise */
+  public boolean isSetTaskQueueLimit() {
+    return EncodingUtils.testBit(__isset_bitfield, __TASKQUEUELIMIT_ISSET_ID);
+  }
+
+  public void setTaskQueueLimitIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __TASKQUEUELIMIT_ISSET_ID, value);
+  }
+

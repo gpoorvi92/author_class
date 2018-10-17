@@ -1,0 +1,10 @@
+            throw new EOFException();
+
+        int r2 = is.read();
+        if (r2 < 0)// end of file reached
+            throw new EOFException();
+
+        return result | (r2*256);
+    }
+
+    public int readShortBigEndian() throws IOException

@@ -1,0 +1,10 @@
+	public void stop()
+	{
+		int nSockets = size();
+		for (int n=0; n<nSockets; n++) {
+			SSDPSearchSocket sock = getSSDPSearchSocket(n);
+			sock.stop();
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+      showPanel.add(showButton);
+
+      add(gridPanel, BorderLayout.CENTER);
+      add(showPanel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Gets the currently selected message.
+    * @return a string, icon, component, or object array, depending on the Message panel selection

@@ -1,0 +1,8 @@
+	public void register(SelectableChannel ch, int ops) throws IOException {
+		synchronized(lock){
+			sel.wakeup();
+			ch.register(sel, ops);
+		}
+	}
+
+}

@@ -1,0 +1,7 @@
+	 * finds the model by primary key.
+	 * 
+	 * @param taskid
+	 * @return
+	 */
+	MediainfoModel findByPk(int taskid);
+}

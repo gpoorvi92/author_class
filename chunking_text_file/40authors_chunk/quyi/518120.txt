@@ -1,0 +1,10 @@
+        this.propertyName = other.propertyName;
+      }
+      if (other.isSetPropertyValue()) {
+        this.propertyValue = other.propertyValue;
+      }
+    }
+
+    public modifyEngineConfig_args deepCopy() {
+      return new modifyEngineConfig_args(this);
+    }

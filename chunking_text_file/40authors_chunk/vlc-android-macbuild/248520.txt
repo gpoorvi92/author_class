@@ -1,0 +1,10 @@
+            if (-1 == pos) {
+                mCpuImplementer = Integer.parseInt(value);
+            } else {
+                mCpuImplementer = Integer
+                        .parseInt(value.substring(pos + 1), 16);
+            }
+        } else if (key.equals("features")) {
+            value = value.toLowerCase();
+
+            String[] features = value.split(" ");

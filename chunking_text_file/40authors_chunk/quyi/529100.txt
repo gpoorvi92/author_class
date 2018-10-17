@@ -1,0 +1,10 @@
+    if (other.isSetApp_id()) {
+      this.app_id = other.app_id;
+    }
+    if (other.isSetApp_name()) {
+      this.app_name = other.app_name;
+    }
+    if (other.isSetVersioncode()) {
+      this.versioncode = other.versioncode;
+    }
+    if (other.isSetUrl()) {

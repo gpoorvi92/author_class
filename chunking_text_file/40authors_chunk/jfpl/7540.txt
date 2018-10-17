@@ -1,0 +1,10 @@
+		Intent i = new Intent();
+		i.putExtra("address", sendAddress);
+		setResult(ConstVariables.SEND_LOCATION_FLAG, i);
+		finish();
+	}
+
+	public void setSendAddress(String[] address) {
+		this.sendAddress = address;
+	}
+

@@ -1,0 +1,4 @@
+     * <code>null</code> if no selection is made.
+     */
+    byte[] getSelectedData();
+}

@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetOsName() {
+    this.osName = null;
+  }
+
+  /** Returns true if field osName is set (has been assigned a value) and false otherwise */
+  public boolean isSetOsName() {
+    return this.osName != null;

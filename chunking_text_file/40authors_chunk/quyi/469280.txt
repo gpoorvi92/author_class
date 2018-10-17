@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(3)) {
+        struct.riskLevel = Risk.findByValue(iprot.readI32());
+        struct.setRiskLevelIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.pak = iprot.readString();
+        struct.setPakIsSet(true);
+      }
+      if (incoming.get(5)) {

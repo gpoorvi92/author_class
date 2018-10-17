@@ -1,0 +1,10 @@
+	 * Removes the DevCatInfo to this list
+	 * @param devCatInfo the devCatInfo to remove
+	 */
+	public void remove( DevCatInfo devCatInfo );
+
+	/** Removes all DevCatInfo in this list */
+	public void removeAll();
+
+	/**
+	 * @return true if the DevCatInfo is already in the list

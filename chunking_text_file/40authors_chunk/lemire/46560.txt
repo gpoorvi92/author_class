@@ -1,0 +1,10 @@
+
+/**
+ * This class is equivalent to IntIteratorImpl, except that it allows
+ * use to iterate over "clear" bits (bits set to 0).
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class ClearIntIterator32 implements IntIterator {
+
+    private final EWAHIterator32 ewahIter;

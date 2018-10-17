@@ -1,0 +1,10 @@
+        return equalsType;
+      case 1:
+        return staticType;
+      case 2:
+        return dynamicType;
+      case 3:
+        return virusType;
+      case 4:
+        return sensitiveType;
+      case 5:

@@ -1,0 +1,10 @@
+        return s;
+    }
+
+    /**
+     * generate a unique uuid
+     * @return
+     */
+    public static String generateUUID() {
+        return UUID.randomUUID().toString();
+    }

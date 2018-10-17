@@ -1,0 +1,10 @@
+				characterNumber -= characterEachLine;
+			}
+			int lines = characterNumber/characterEachLine+(characterNumber%characterEachLine==0?0:1);//计算 一共需要几行
+			for(int i=0;i<lines;i++){
+				if(i == lines-1){//到了最后一行，可能不是整行，区别对待一下
+					int n = characterNumber - characterEachLine*(lines -1);//求出最后这一样需要多少个字
+					for(int j=0;j<n-1;j++){
+						canvas.drawText(
+								msg.charAt(startChar+i*characterEachLine+j)+"",
+								textStartX-i*characterSpanX,

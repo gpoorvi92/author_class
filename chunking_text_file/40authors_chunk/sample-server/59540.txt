@@ -1,0 +1,10 @@
+        {
+            return null;
+        }
+    }
+    public ZoneEntity getZoneEntiryByZoneId(int zoneId)
+    {
+        return zoneEntityMap.get(zoneId);
+    }
+    public ZoneEntity getByZoneId(int zoneId)
+    {

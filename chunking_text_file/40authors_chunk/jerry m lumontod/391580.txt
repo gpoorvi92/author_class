@@ -1,0 +1,10 @@
+
+
+public class jf extends JFrame  implements ContainerListener, KeyListener {
+
+	public jf() {
+		super();
+		//AnchorLayout thisLayout = new AnchorLayout();
+		//this.getContentPane().setLayout(thisLayout);		
+		addKeyAndContainerListenerRecursively(this);
+	}

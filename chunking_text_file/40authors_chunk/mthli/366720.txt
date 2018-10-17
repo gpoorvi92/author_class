@@ -1,0 +1,10 @@
+/**
+ * This frame contains a text field for inserting words into a text area that is protected from "bad
+ * words".
+ */
+class PermissionTestFrame extends JFrame
+{
+   private JTextField textField;
+   private WordCheckTextArea textArea;
+   private static final int TEXT_ROWS = 20;
+   private static final int TEXT_COLUMNS = 60;

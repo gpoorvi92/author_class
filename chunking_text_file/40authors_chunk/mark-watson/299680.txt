@@ -1,0 +1,7 @@
+	 */
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		new DumpMetaData("jdbc:derby:test_database");
+
+	}
+
+}

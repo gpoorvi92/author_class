@@ -1,0 +1,10 @@
+ *
+ */
+@Component
+public class ProgressCalculator {
+
+	private static final Logger log = LoggerFactory.getLogger(ProgressCalculator.class);
+
+	@Autowired
+	JavaLargeFileUploaderService<StaticStatePersistedOnFileSystemEntity> javaLargeFileUploaderService;
+

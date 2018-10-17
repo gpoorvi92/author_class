@@ -1,0 +1,10 @@
+     * This method may be called from any thread
+     *
+     * @param activity
+     * @param resId
+     */
+    public static void show(final Activity activity, final int resId) {
+        if (activity == null)
+            return;
+
+        show(activity, activity.getString(resId));

@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.operateType != null) {
+        oprot.writeFieldBegin(OPERATE_TYPE_FIELD_DESC);
+        oprot.writeString(struct.operateType);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }

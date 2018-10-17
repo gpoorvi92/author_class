@@ -1,0 +1,10 @@
+
+	@Test
+	public void deleteFileThatIsOpenInADirectory()
+			throws IOException, InterruptedException {
+		File dir = new File(staticStateRootFolderProvider.getRootFolder(), "zetestdir");
+		dir.mkdirs();
+		File file = new File(dir, "file");
+		file.createNewFile();
+		Assert.assertThat(file.exists(), is(Boolean.TRUE));
+		Assert.assertThat(dir.exists(), is(Boolean.TRUE));

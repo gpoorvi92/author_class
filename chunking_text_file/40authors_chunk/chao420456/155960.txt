@@ -1,0 +1,10 @@
+package cn.itcast_12;
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+
+/*
+ * JDK4以后，出现了新IO。在nio包下。和以前的IO相比，它是把文件映射到内存，效率更高。

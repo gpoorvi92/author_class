@@ -1,0 +1,10 @@
+		return (serverSock != null) ? true : false;
+	}
+
+	////////////////////////////////////////////////
+	//	httpRequest
+	////////////////////////////////////////////////
+
+	private ListenerList httpRequestListenerList = new ListenerList();
+	 	
+	public void addRequestListener(HTTPRequestListener listener)

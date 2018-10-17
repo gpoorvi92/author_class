@@ -1,0 +1,10 @@
+		AppSendMessage appSendMessage = new AppSendMessage();
+		appSendMessage.setMissionId(missionid);
+		appSendMessage.setJobPriority(JobPriority.MEDIUM);
+		List<PlotsType> plots = new ArrayList<PlotsType>();
+		//plots.add(PlotsType.staticType);
+		plots.add(PlotsType.staticType);
+		appSendMessage.setPlots(plots);
+		appSendMessage.setRules(null);
+		appSendMessage.setTaskInfo(null);
+		UserApp userApp = new UserApp();

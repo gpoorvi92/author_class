@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	//	Qyery
+	////////////////////////////////////////////////
+
+	private Node getVarNameNode()
+	{
+		Node bodyNode = getBodyNode();
+		if (bodyNode == null)
+			return null;

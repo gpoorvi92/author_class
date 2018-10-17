@@ -1,0 +1,10 @@
+        oprot.writeStructEnd();
+      }
+
+    }
+
+    private static class reportTaskManagerConfig_resultTupleSchemeFactory implements SchemeFactory {
+      public reportTaskManagerConfig_resultTupleScheme getScheme() {
+        return new reportTaskManagerConfig_resultTupleScheme();
+      }
+    }

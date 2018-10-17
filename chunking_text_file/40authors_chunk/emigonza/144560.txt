@@ -1,0 +1,10 @@
+    //
+
+    /**
+     * Constant defining the resource name for the "jpos.properties" file
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String JPOS_PROPERTIES_FILENAME = "jpos/res/jpos.properties";
+
+    /**
+     * The default name for the serialized file of JposEntry

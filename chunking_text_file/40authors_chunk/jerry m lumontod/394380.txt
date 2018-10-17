@@ -1,0 +1,10 @@
+	
+	public boolean DocCodeIsValid(String tstrDocCode) {
+		boolean mbln=true;
+
+
+		if (tstrDocCode.length()<1) {
+			mbln=false;
+		}
+		return mbln;
+	}

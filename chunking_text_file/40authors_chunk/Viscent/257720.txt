@@ -1,0 +1,10 @@
+	 * 
+	 * @param task
+	 *          子任务
+	 * @return 可借以获取子任务处理结果的Promise（参见第6章，Promise模式）实例。
+	 * @throws InterruptedException
+	 */
+	Future<V> submit(final T task) throws InterruptedException;
+
+	/**
+	 * 初始化Slave实例提供的服务

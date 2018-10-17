@@ -1,0 +1,10 @@
+		col = in.readInt();
+		row = in.readInt();
+		refCol = in.readInt();
+		refRow = in.readInt();
+		noThrough = (int[][]) in.readObject();
+		meetable = in.readBoolean();
+	}
+	public MyDrawable(){}//无参构造器
+	//构造器
+	public MyDrawable(Bitmap bmpSelf,boolean meetable,int width,int height,int col,int row,int refCol,int refRow,int [][] noThrough){

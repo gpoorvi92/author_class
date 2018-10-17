@@ -1,0 +1,10 @@
+				srcFile));
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream(destFile));
+
+		byte[] bys = new byte[1024];
+		int len = 0;
+		while ((len = bis.read(bys)) != -1) {
+			bos.write(bys, 0, len);
+		}
+

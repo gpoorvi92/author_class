@@ -1,0 +1,10 @@
+               Triangle.setVertex(triangles[i],vi,v);
+            }
+          }
+       }
+       LinkedList<Vector3D> uniqueVertices = vt.asList();
+       vertices = new Vector3D[uniqueVertices.size()];
+       System.arraycopy(uniqueVertices.toArray(), 0, vertices,
+           0, vertices.length);
+
+       needVertexUpdating = false;

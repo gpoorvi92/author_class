@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.ListDataListener.intervalAdded(javax.swing.event.ListDataEvent)
+
+    public native void __intervalAdded( javax.swing.event.ListDataEvent e );
+
+    public void intervalAdded( javax.swing.event.ListDataEvent e ) {
+        __intervalAdded( e );
+    }
+
+    /// public abstract void javax.swing.event.ListDataListener.intervalRemoved(javax.swing.event.ListDataEvent)

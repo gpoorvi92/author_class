@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField REQUEST_PURVIEWS_FIELD_DESC = new org.apache.thrift.protocol.TField("requestPurviews", org.apache.thrift.protocol.TType.LIST, (short)10);
+  private static final org.apache.thrift.protocol.TField FORMAT_FIELD_DESC = new org.apache.thrift.protocol.TField("format", org.apache.thrift.protocol.TType.STRING, (short)11);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new UserAppStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new UserAppTupleSchemeFactory());
+  }
+
+  public String app_id; // required

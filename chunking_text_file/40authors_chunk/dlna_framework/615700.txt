@@ -1,0 +1,10 @@
+import org.cybergarage.http.*;
+import org.cybergarage.xml.*;
+import org.cybergarage.soap.*;
+
+import org.cybergarage.upnp.device.*;
+
+public class NotifyRequest extends SOAPRequest
+{
+	private final static String XMLNS = "e";
+	private final static String PROPERTY = "property";

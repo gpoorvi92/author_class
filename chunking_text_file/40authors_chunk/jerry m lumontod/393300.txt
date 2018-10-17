@@ -1,0 +1,10 @@
+	 * value of y for this side would be (parent height)*top/1000.
+	 */
+	public static final int ANCHOR_REL = 1;
+
+	/**
+	 * (Absolute anchor) Meaning: This side is anchored a fixed distance
+	 * in pixels (given by the value for this side) from it's parent's respective side.
+	 * For instance, if bottomType == ANCHOR_ABS and bottom = 100 then the
+	 * bottom side of this component will remain fixed 100 pixels from
+	 * the bottom side of it's parent container.

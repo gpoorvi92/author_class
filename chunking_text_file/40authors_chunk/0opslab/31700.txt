@@ -1,0 +1,10 @@
+            }
+        }));
+
+
+    }
+
+    @Test
+    public void testSetProperties() throws InvocationTargetException, IllegalAccessException {
+        String value ="Properties's value1";
+        BusinessLog bean = new BusinessLog();

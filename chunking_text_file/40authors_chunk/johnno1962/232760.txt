@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.TreeModelListener ///
+
+package org.genie.javax_swing;
+
+public class TreeModelListenerProxy implements javax.swing.event.TreeModelListener {
+
+    long swiftObject;
+
+    TreeModelListenerProxy( long swiftObject ) {

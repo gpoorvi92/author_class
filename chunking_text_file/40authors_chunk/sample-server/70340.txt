@@ -1,0 +1,10 @@
+    }
+    @Override
+    public void channelClosed(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception
+    {
+        Channel channel = ctx.getChannel();
+        log.info("<<<<<<<<<<<<<<<<channel closed:{}", channel);
+    }
+    @Override
+    public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception
+    {

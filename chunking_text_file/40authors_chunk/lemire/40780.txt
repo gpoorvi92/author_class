@@ -1,0 +1,10 @@
+    /**
+     * @return the current number of literal words
+     */
+    public final int getNumberOfLiterals() {
+        return this.litwlist.cardinality();
+    }
+
+    /**
+     * Goes through the literals.
+     *

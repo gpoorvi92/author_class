@@ -1,0 +1,10 @@
+		try
+				{
+					Statement statement =Connect.getConnection().createStatement();
+					{
+							String temp = ("SELECT Pass_No,PassName,SeatNo,Bus_RegNo,Date_of_Travel FROM BOOKING Order by SeatNo");
+					   int  Numrow = 0;
+					   ResultSet result = statement.executeQuery(temp);
+					   while (result.next()) {
+                         jTable.setValueAt(result.getString(1),Numrow,0);
+                         jTable.setValueAt(result.getString(2),Numrow,1);

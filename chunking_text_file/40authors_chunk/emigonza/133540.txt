@@ -1,0 +1,10 @@
+    public static final int PCRW_CCS_KANJI        =  11;
+    public static final int PCRW_CCS_UNICODE      = 997;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "CharacterSet" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_CS_UNICODE       = 997;
+    public static final int PCRW_CS_ASCII         = 998;

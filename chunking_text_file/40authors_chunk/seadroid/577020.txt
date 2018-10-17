@@ -1,0 +1,10 @@
+        SeafileObserver fileObserver = observers.get(account);
+        removeObserver(fileObserver);
+        observers.remove(account);
+    }
+
+    private void addObserver(SeafileObserver fileObserver) {
+        alterationMonitor.addObserver(fileObserver.getAlterationObserver());
+    }
+
+    private void removeObserver(SeafileObserver fileObserver) {

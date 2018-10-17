@@ -1,0 +1,10 @@
+      }
+      if (struct.dataHex != null) {
+        oprot.writeFieldBegin(DATA_HEX_FIELD_DESC);
+        oprot.writeString(struct.dataHex);
+        oprot.writeFieldEnd();
+      }
+      if (struct.dataChar != null) {
+        oprot.writeFieldBegin(DATA_CHAR_FIELD_DESC);
+        oprot.writeString(struct.dataChar);
+        oprot.writeFieldEnd();

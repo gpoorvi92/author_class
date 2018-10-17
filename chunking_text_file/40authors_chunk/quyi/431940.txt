@@ -1,0 +1,10 @@
+    schemes.get(oprot.getScheme()).getScheme().write(oprot, this);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("StaticCheckResultData(");
+    boolean first = true;
+
+    sb.append("apkMD5:");
+    if (this.apkMD5 == null) {

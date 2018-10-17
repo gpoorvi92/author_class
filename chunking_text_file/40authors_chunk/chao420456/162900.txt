@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.Date;
+
+/*
+ * 类 Date 表示特定的瞬间，精确到毫秒。 
+ * 
+ * 构造方法：
+ * 		public Date():默认就是当前时间
+ *		public Date(long date):把给定的毫秒值赋值给日期对象

@@ -1,0 +1,10 @@
+			     * 重新将任务放入ThreadPoolExecutor
+			     * 的工作队列（这意味着，此时客户端代码
+			     * 需要等待ThreadPoolExecutor的队列非满）。
+			     */
+			    @Override
+			    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+				    if (!executor.isShutdown()) {
+					    try {
+						    executor.getQueue().put(r);
+					    } catch (InterruptedException e) {

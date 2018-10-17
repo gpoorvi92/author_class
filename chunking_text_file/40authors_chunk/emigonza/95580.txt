@@ -1,0 +1,10 @@
+    //-------------------------------------------------------------------------
+    // Ctor(s)
+    //
+
+    /**
+     * Default ctor
+     * @since 1.2 (NY 2K meeting)
+     */
+    public SimpleXmlRegPopulator() 
+    { super( SimpleXmlRegPopulator.class.getName() ); }

@@ -1,0 +1,10 @@
+                if(c == -1)
+                    endOfInput = true;
+                else
+                    encoderIn.position(position + c);
+                encoderIn.flip();
+            }
+            lastCoderResult = encoder.encode(encoderIn, encoderOut, endOfInput);
+        } while(!endOfInput || encoderOut.position() != 0);
+        return read != 0 || !endOfInput ? read : -1;
+    }

@@ -1,0 +1,10 @@
+		String[] fileNameParts = storage.apply4Filename(request);
+		File file = new File(fileNameParts[0]);
+		try {
+			ObjectOutputStream objOut = new ObjectOutputStream(new FileOutputStream(
+			    file));
+			try {
+				objOut.writeObject(request);
+			} finally {
+				objOut.close();
+			}

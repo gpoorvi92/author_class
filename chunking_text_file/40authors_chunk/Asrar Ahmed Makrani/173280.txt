@@ -1,0 +1,10 @@
+ 					JOptionPane.showMessageDialog(null, "update");
+ 				Statement statement = con.createStatement();
+				String query1 = "UPDATE patronmaster SET " +
+				"name ='" + b +
+				"', ic ='" + c +
+				"', status ='" + status_combo.getSelectedItem() +
+				"', salute ='" + salute_combo.getSelectedItem() +
+				"', expiry_date ='" + d +
+				"', registered_by ='" + g +
+				"', Reg_date ='" + l +

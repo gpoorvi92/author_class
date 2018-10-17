@@ -1,0 +1,10 @@
+		response.setCharacterEncoding("UTF-8");
+		int sessionUserID = (Integer) request.getSession().getAttribute("userID");
+		User user = userService.findUserByID(sessionUserID);
+		if(user.getType().equals("system")){	//如用户身份为管理员
+			return "page/system/systemIndex.jsp";
+		}else if(user.getType().equals("customer")){//若用户身份为客户
+			return "page/customer/customerCentre.jsp";
+		}else{
+			return "page/index.jsp?warnMsg=" + URLEncoder.encode(URLEncoder.encode("系统未能识别出您的身份，请联系本站！","UTF-8"),"UTF-8");
+		}

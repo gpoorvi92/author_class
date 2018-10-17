@@ -1,0 +1,10 @@
+    @Override
+    public void setIntent(Intent newIntent) {
+        super.setIntent(newIntent);
+        injectExtras_();
+    }
+
+    public static class IntentBuilder_ {
+
+        private Context context_;
+        private final Intent intent_;

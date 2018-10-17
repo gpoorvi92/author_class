@@ -1,0 +1,10 @@
+    }
+
+    @RequestMapping("/addView")
+    public ModelAndView addView() {
+        ModelAndView modelAndView = new ModelAndView("merchant_system/goods/add");
+        modelAndView.addObject("goodsType", goodsTypeService.findAll());
+        return modelAndView;
+    }
+
+}

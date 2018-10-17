@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public boolean post(SSDPSearchRequest req)
+	{
+		boolean ret = true;
+		int nSockets = size();
+		for (int n=0; n<nSockets; n++) {
+			SSDPSearchResponseSocket sock = getSSDPSearchResponseSocket(n);
+			String bindAddr = sock.getLocalAddress();
+			req.setLocalAddress(bindAddr);

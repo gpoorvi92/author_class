@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, APICheck struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(14);
+      if (incoming.get(0)) {
+        struct.apiName = iprot.readString();
+        struct.setApiNameIsSet(true);
+      }

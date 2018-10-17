@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+/*
+ * 字节输入流读数据步骤：
+ * A:创建字节输入流对象
+ * B:调用方法，读取数据
+ * C:释放资源

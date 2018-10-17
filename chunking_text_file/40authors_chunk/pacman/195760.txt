@@ -1,0 +1,10 @@
+		if (StringHelper.isEmpty(key)) {
+			return true;
+		}
+
+		AppConfig config = AppConfig.getInstance();
+
+		if (config == null) {
+			logger.error("[Environment prechecking] ERROR: AppConfig is null!");
+			return false;
+		}

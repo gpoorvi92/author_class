@@ -1,0 +1,10 @@
+            {
+                triangles[i] = old[i];
+            }
+        }
+        triangles[numTriangles] = t;
+        numTriangles++;
+        needVertexUpdating=true; // indicate the vertex collection must be updated
+    }
+
+    /** updates the vertices array to refer to all vertexes in this model

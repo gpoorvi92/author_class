@@ -1,0 +1,10 @@
+package enums;
+
+import java.util.*;
+
+/* 所有的枚举变量都是Enum类的子类，它们继承了这个类的许多方法 */
+public class EnumTest {  
+    public static void main(String[] args) {  
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a size: (SMALL, MEDIUM, LARGE, EXTRA_LARGE) ");
+        String input = in.next().toUpperCase();

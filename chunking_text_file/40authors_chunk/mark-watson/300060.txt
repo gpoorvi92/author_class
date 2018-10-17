@@ -1,0 +1,10 @@
+        public Location removeFromFrontOfQueue() {
+            Location ret = queue[head];
+            if (head >= (len - 1)) {
+                head = 0;
+            } else {
+                head++;
+            }
+            return ret;
+        }
+        public boolean isEmpty() {

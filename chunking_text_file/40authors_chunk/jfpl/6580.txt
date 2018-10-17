@@ -1,0 +1,10 @@
+
+	private int state = 0;
+
+	private MediaRecorder mediaRecorder;
+	private static final int BASE = 600;
+	private String lastVoicePath;
+
+	private Handler handler = new Handler();
+	private Runnable showVoiceVolume = new Runnable() {
+

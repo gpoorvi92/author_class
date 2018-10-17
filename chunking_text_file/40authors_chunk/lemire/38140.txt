@@ -1,0 +1,10 @@
+     * thrown.
+     *
+     * @see com.googlecode.javaewah.BitmapStorage#addWord(long)
+     */
+    @Override
+    public void addWord(long newData) {
+        if (newData != 0)
+            throw nonEmptyException;
+    }
+    

@@ -1,0 +1,10 @@
+ 林平之---岳灵珊
+ */
+public class ArrayListAndHashMapTest {
+	public static void main(String[] args) {
+		// 创建集合
+		ArrayList<HashMap<String, String>> array = new ArrayList<HashMap<String, String>>();
+
+		// 创建元素
+		HashMap<String, String> sgyy = new HashMap<String, String>();
+		sgyy.put("周瑜", "小乔");

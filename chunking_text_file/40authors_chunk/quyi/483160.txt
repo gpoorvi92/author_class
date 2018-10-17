@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int hashCode() {
+      return 0;
+    }
+
+    @Override
+    public int compareTo(updateAppStatus_args other) {
+      if (!getClass().equals(other.getClass())) {

@@ -1,0 +1,10 @@
+		return getArgumentNode().getNodeValue(DIRECTION);
+	}
+
+	public boolean isInDirection()
+	{
+		String dir = getDirection();
+		if (dir == null)
+			return false;
+		return dir.equalsIgnoreCase(IN);
+	}

@@ -1,0 +1,10 @@
+    public java.awt.Component prepareRenderer( javax.swing.table.TableCellRenderer arg0, int arg1, int arg2 ) {
+        if ( !entered_prepareRenderer_1 ) {
+            entered_prepareRenderer_1 = true;
+            java.awt.Component __return = __prepareRenderer( arg0, arg1, arg2 );
+            entered_prepareRenderer_1 = false;
+            return __return;
+        }
+        else
+            return super.prepareRenderer( arg0, arg1, arg2 );
+    }

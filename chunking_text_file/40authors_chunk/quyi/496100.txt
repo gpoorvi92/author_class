@@ -1,0 +1,10 @@
+  public void addToEngineRules(String elem) {
+    if (this.engineRules == null) {
+      this.engineRules = new ArrayList<String>();
+    }
+    this.engineRules.add(elem);
+  }
+
+  public List<String> getEngineRules() {
+    return this.engineRules;
+  }

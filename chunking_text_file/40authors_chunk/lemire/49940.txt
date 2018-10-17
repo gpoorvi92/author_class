@@ -1,0 +1,10 @@
+        int upperlimit = 100000;
+        for (int i = 0; i < upperlimit; ++i) {
+            double probabilityOfOne = i / (double) (upperlimit / 2);
+            if (probabilityOfOne > 1.0)
+                probabilityOfOne = 1.0;
+            if (Math.random() < probabilityOfOne) {
+                e.set(i);
+            }
+        }
+

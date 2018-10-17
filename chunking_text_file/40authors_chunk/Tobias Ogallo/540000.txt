@@ -1,0 +1,10 @@
+		button1=new JButton("Change");
+		button2=new JButton("Cancel");
+		
+		label1=new JLabel("Old Password");
+		label2=new JLabel("New Password");
+		label3=new JLabel("Confirm Pass");
+		panel1=new JPanel(new GridLayout(3,2));
+		
+		panel1.add(label1);panel1.add(text1);
+		panel1.add(label2);panel1.add(text2);

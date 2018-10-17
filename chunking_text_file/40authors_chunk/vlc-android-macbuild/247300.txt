@@ -1,0 +1,10 @@
+
+    private static ThreadPenalty sThreadPenalty = ThreadPenalty.Log;
+
+    /*--------------------------------------
+     * VM Policy
+     */
+    private static final boolean VM__DETECT_LEAKED_CLOSABLE_OBJECT = true;
+    private static final boolean VM__DETECT_LEAKED_REGISTRATION_OBJECTS = true;
+    private static final boolean VM__DETECT_LEAKED_SQLLITE_OBJECTS = true;
+

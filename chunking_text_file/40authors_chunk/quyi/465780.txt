@@ -1,0 +1,10 @@
+//	private static final Logger LOGGER = Logger.getLogger(TaskClientRpcUtils.class);
+
+	public static TaskClientService.Client getReceiver(String ip, int port, int timeout, int retryTimes) throws TTransportException {
+		TProtocol protocol = prepare(ip, port, timeout, retryTimes);
+		return new TaskClientService.Client(protocol);
+	}
+
+	private static TProtocol prepare(String ip, int port, int timeout, int retryTimes) throws TTransportException {
+		TTransport transport = new TSocket(ip, port, timeout);
+

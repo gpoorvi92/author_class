@@ -1,0 +1,10 @@
+	public void testSetRanges() throws IOException {
+		int N = 256;
+		for(int end = 1; end < N; ++end ) {
+			for(int start = 0; start< end; ++start) {
+				BitSet bs1 = new BitSet(N);
+				for(int k = start; k < end; ++k) {
+					bs1.set(k);
+				}
+				BitSet bs2 = new BitSet(N);
+				bs2.set(start, end);

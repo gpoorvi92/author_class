@@ -1,0 +1,10 @@
+    public static int d(String tag, String msg, Throwable tr) {
+        if (ENABLE_DEBUG) {
+            return Log.d(tag, msg, tr);
+        }
+
+        return 0;
+    }
+
+    public static int dfmt(String tag, String fmt, Object... args) {
+        if (ENABLE_DEBUG) {

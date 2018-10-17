@@ -1,0 +1,10 @@
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, searchMission_args args, org.apache.thrift.async.AsyncMethodCallback<MissionResults> resultHandler) throws TException {
+        iface.searchMission(args.missionId,resultHandler);
+      }
+    }
+

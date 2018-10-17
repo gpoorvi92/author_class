@@ -1,0 +1,10 @@
+		this.userName = userName;
+	}
+
+
+	public String getPasswd() {
+		return passwd;
+	}
+
+
+	public void setPasswd(String passwd) {

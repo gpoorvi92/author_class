@@ -1,0 +1,10 @@
+	//	paint
+	////////////////////////////////////////////////
+
+	public final static Date getLocalInstance()
+	{
+		return new Date(Calendar.getInstance());
+	}
+
+	public final static Date getInstance()
+	{

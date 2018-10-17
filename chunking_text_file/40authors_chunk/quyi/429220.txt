@@ -1,0 +1,10 @@
+    }
+    if (other.isSetResult()) {
+      this.result = other.result;
+    }
+  }
+
+  public VirusEngine deepCopy() {
+    return new VirusEngine(this);
+  }
+

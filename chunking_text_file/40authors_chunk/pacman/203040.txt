@@ -1,0 +1,8 @@
+		query.setSql("SELECT * FROM mediainfo WHERE tid=?");
+		query.declareParameter(new SqlParameter(Types.INTEGER));
+		query.compile();
+		
+		return query.findObject(taskid);
+	}
+
+}

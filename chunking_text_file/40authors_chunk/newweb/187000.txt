@@ -1,0 +1,10 @@
+		op.setPrice(price);
+		if(!orderPriceService.modify(op)){
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据更新异常\t" + new Date());
+			sb.append("\n目标表：t_orderprice\n");
+			sb.append("orderID:"+ os.getOrder().getID()+"\n");
+			sb.append("productID:"+os.getSmall().getID()+"\n");
+			sb.append("type:small"+"\n");
+			sb.append("price:" + price+"\n\n");
+			FileUtil.writeTextToTextFile(sb.toString(), "log" + File.separator +"database", "record.txt",true);

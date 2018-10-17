@@ -1,0 +1,10 @@
+    /** renders into the specified triangle
+     */
+    public void renderTriangle(Point p1, Point p2, Point p3)
+    {
+      // sort the points
+      Point temp = p1;
+        /* The following statements are basically following the bubble sort algorithm for 3 elements
+         * Avoiding overhead from loops makes this more efficient, though.
+         */
+      if (temp.y > p2.y)

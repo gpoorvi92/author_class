@@ -1,0 +1,10 @@
+		if (!ServletFileUpload.isMultipartContent(request)) {
+			throw new JavaFileUploaderException(ExceptionCodeMapping.requestIsNotMultipart);
+		}
+
+		// extract the fields
+		fileUploadConfiguration.setFileId(UUID.fromString(getParameterValue(request, UploadServletParameter.fileId)));
+		fileUploadConfiguration.setCrc(getParameterValue(request, UploadServletParameter.crc, false));
+
+		// Create a new file upload handler
+		ServletFileUpload upload = new ServletFileUpload();

@@ -1,0 +1,10 @@
+    }
+    
+    /**
+     * Close the RDF repository
+     */
+    public void close() {
+        try {
+            con.close();
+        } catch (RepositoryException ex) {
+            Logger.getLogger(TripleStoreSesameManager.class.getName()).log(Level.SEVERE, null, ex);

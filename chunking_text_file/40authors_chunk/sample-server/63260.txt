@@ -1,0 +1,10 @@
+            throw new CorruptedFrameException("length wider than 32-bit"
+                    + " close channel " + channel);
+        } else
+        {
+            if (body.hasArray())
+            {
+                final int offset = body.readerIndex();
+                if (extensionRegistry == null)
+                {
+                    return prototype

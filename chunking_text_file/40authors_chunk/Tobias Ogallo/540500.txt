@@ -1,0 +1,10 @@
+      {
+            cnfex.printStackTrace();
+            info=info+"Connection unsuccessful\n" + cnfex.toString();
+      }
+
+      catch ( SQLException sqlex )
+
+      {
+            sqlex.printStackTrace();
+            //info=info+"Connection unsuccessful\n" +sqlex.toString();

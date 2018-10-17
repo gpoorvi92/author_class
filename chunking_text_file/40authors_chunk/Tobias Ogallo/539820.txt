@@ -1,0 +1,10 @@
+		this.setBackground(Color.blue);
+		this.setTitle("Font Selector");
+		
+		getContentPane().setLayout(null);
+		
+		fontLabel.setBounds(10,10,100,20);
+		fontSelector.setBounds(110,10,150,20);
+		sizeLabel.setBounds(10,35,100,20);
+		fontSize.setBounds(110,35,100,20);
+		styleLabel.setBounds(10,60,100,20);

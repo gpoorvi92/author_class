@@ -1,0 +1,10 @@
+     * @param file File对象实例
+     * @return 文件编码，若无，则返回null
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
+    public static String guestFileEncoding(File file) throws IOException {
+        return geestFileEncoding(file, new nsDetector());
+    }
+
+    /**

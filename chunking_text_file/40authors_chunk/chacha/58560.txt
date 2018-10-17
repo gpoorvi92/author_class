@@ -1,0 +1,10 @@
+						}
+						addr.add(new ServerAddress(hostPortPair[0],port));
+					}
+				}
+				mongo=new Mongo(addr);
+			}else{
+				mongo=new Mongo(connectionHost,conectionPort);
+			}
+			//连接池参数
+			MongoOptions opt=mongo.getMongoOptions();

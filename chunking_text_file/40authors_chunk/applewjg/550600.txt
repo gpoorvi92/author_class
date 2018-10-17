@@ -1,0 +1,10 @@
+        return true;
+    }
+    boolean isValidSudoKu(char[][] board, int x, int y){
+        for(int i = 0; i<9; i++){
+            if(i!=y&&board[x][i]==board[x][y]) return false;
+        }
+        for(int i=0;i<9;i++){
+            if(i!=x&&board[i][y]==board[x][y]) return false;
+        }
+        for(int i=3*(x/3);i<3*(x/3)+3;i++){

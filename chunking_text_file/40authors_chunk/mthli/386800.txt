@@ -1,0 +1,10 @@
+            }
+         });
+   }
+}
+
+/**
+ * This frame contains a tree that displays the contents of an XML document.
+ */
+class DOMTreeFrame extends JFrame
+{

@@ -1,0 +1,10 @@
+      Rectangle2D bounds = f.getStringBounds(message, context);
+
+      // set (x,y) = top left corner of text
+
+      double x = (getWidth() - bounds.getWidth()) / 2;
+      double y = (getHeight() - bounds.getHeight()) / 2;
+
+      // add ascent to y to reach the baseline
+
+      double ascent = -bounds.getY();

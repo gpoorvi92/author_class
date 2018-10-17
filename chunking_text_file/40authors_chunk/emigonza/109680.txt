@@ -1,0 +1,10 @@
+	public String getDescription() { return description; }
+
+	/** @return a short description of this PropInfo (this can be HTML formated) */
+	public String getShortDescription() { return shortDescription; }
+
+	//-------------------------------------------------------------------------
+	// Package setter methods
+	//
+
+	/**

@@ -1,0 +1,10 @@
+	public String modifyBillsToConform(String[] ids, double money) {
+		Bill newBill = new Bill();
+		newBill.setAccount(money);
+		newBill.setCreateDate(DateUtil.getLocationCurrentDate());
+		newBill.setCreateTime(DateUtil.getLocationCurrentTime());
+		newBill.setCustomer(billDao.selectBillById(ids[0]).getCustomer());
+		newBill.setID(UUID.randomUUID().toString());
+		newBill.setLastModifyDate(DateUtil.getLocationCurrentDate());
+		newBill.setLastModifyTime(DateUtil.getLocationCurrentTime());
+		newBill.setRealIncomeMoney(0);

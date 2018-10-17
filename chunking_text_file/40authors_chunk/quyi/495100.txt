@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetCheckStopTime()) {
+        optionals.set(4);
+      }
+      oprot.writeBitSet(optionals, 5);
+      if (struct.isSetMissionId()) {
+        oprot.writeString(struct.missionId);
+      }
+      if (struct.isSetUserAppId()) {
+        oprot.writeString(struct.userAppId);

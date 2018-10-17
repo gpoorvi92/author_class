@@ -1,0 +1,10 @@
+		
+		setBounds(s_w_2-WIDTH/2, s_h_2-HEIGHT/2, WIDTH, HEIGHT);
+		
+		show();
+		
+		
+	}
+	
+	
+	public void close()

@@ -1,0 +1,10 @@
+			} else if(str == items[2])
+			{
+				System.out.println("Its all about how you look and feel.");
+			}
+		}
+		
+	}
+	
+		
+	

@@ -1,0 +1,10 @@
+	}
+	public static void main(String[] args){
+		//包含多个帐号的帐号修改消息，带附加属性
+		LinkedList<AccountEntity> acctArray=new LinkedList<AccountEntity>();
+		for(int i=0;i<3;i++){
+			AccountAttr acctAttr=new AccountAttr();
+			acctAttr.setAddr("chengdu china");
+			acctAttr.setAge(36);
+			acctAttr.setSex(1);
+			String attr="";//附加属性如果没有可以不构造

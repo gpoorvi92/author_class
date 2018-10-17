@@ -1,0 +1,10 @@
+package fileIO;
+
+import model.*;
+import java.io.*;
+
+/**
+ * Saves Wavefront Object files
+ * 
+ * format described:
+ * http://www.royriggs.com/obj.html

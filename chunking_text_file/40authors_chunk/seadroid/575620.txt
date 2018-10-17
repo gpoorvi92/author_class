@@ -1,0 +1,10 @@
+        this.account = account;
+        this.dataManager = new DataManager(account);
+        this.listener = listener;
+        alterationObserver = new FileAlterationObserver(getAccountDir());
+        alterationObserver.addListener(this);
+        watchAllCachedFiles();
+    }
+
+    private String getAccountDir() {
+        return dataManager.getAccountDir();

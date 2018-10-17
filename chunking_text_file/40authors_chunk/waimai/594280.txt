@@ -1,0 +1,10 @@
+
+    public void setMerchant(Merchant merchant) {
+        this.merchant = merchant;
+    }
+
+    public GoodsType getGoodsTypeObj() {
+        return goodsTypeObj;
+    }
+
+    public void setGoodsTypeObj(GoodsType goodsTypeObj) {

@@ -1,0 +1,4 @@
+      book.append(banner, pageFormat, pageCount);
+      return book;
+   }
+}

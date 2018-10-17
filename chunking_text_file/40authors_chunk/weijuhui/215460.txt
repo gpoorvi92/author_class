@@ -1,0 +1,10 @@
+     */
+    public Calendar getTime() {
+        return mTime;
+    }
+    
+    
+    /**
+     * sets the minimum date that the scroller can scroll
+     * 
+     * @param c the minimum date (inclusiv)

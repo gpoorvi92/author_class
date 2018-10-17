@@ -1,0 +1,10 @@
+
+public class Show_schedules extends JFrame {
+	Dimension screen 		= Toolkit.getDefaultToolkit().getScreenSize();
+    JFrame JFParentFrame;
+	private static JTable jTable;
+	private JScrollPane jScrollPane;
+	private JPanel jPanel1;
+	private JPanel jPanel2;
+	private JButton Print;
+	private JButton jButton2;

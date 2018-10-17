@@ -1,0 +1,10 @@
+      // check for required fields
+      if (propertyName == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'propertyName' was not present! Struct: " + toString());
+      }
+      if (propertyValue == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'propertyValue' was not present! Struct: " + toString());
+      }
+      // check for sub-struct validity
+    }
+

@@ -1,0 +1,10 @@
+      switch (field) {
+      case MISSION_ID:
+        if (value == null) {
+          unsetMissionId();
+        } else {
+          setMissionId((String)value);
+        }
+        break;
+
+      case USER_APPS:

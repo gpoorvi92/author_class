@@ -1,0 +1,10 @@
+
+    private static String createLog(String log) {
+        return String.format("[%s:%d] %s", methodName, lineNum, log);
+    }
+
+    private static void getMethodNames(StackTraceElement[] sElements) {
+        className = sElements[1].getFileName();
+        methodName = sElements[1].getMethodName();
+        lineNum = sElements[1].getLineNumber();
+    }

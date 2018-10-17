@@ -1,0 +1,10 @@
+    private ModelFileSaver mfs;
+
+    public ModelFileSaverFileFilter(ModelFileSaver mfs)
+    { 
+       this.mfs = mfs;
+    }
+
+    public boolean accept(File f)
+    {
+        if (f == null)

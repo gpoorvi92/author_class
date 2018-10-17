@@ -1,0 +1,10 @@
+    /**
+     * 通过color id 查找对应的color
+     * @param id
+     * @return
+     */
+    public static int getColorById(int id, Context mContext) {
+        return mContext.getResources().getColor(id);
+    }
+
+    /**

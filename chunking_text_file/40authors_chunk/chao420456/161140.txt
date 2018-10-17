@@ -1,0 +1,10 @@
+
+		//使用三元运算符实现
+		int c =  (a>b)?a:b;
+		System.out.println("c:"+c);
+
+		//用if语句格式2实现
+		int d;
+		if(a > b) {
+			d = a;
+		}else {

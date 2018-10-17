@@ -1,0 +1,10 @@
+        }
+
+        return authToken;
+    }
+
+    @Override
+    public void invalidateAuthToken(String authToken) {
+        AccountManager.get(mContext).invalidateAuthToken(mAccount.type, authToken);
+    }
+}

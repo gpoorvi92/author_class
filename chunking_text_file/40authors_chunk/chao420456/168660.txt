@@ -1,0 +1,10 @@
+			name = name.replace(".java", ".jad"); // ForDemo.jad
+			File newFile = new File(destFolder, name); // d:\\jad\\ForDemo.jad
+
+			copy(file, newFile);
+		}
+	}
+
+	private static void copy(File file, File newFile) throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				file));

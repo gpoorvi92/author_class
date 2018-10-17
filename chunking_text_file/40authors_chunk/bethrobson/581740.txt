@@ -1,0 +1,10 @@
+   public class OpenMenuListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+             JFileChooser fileOpen = new JFileChooser();
+             fileOpen.showOpenDialog(frame);
+             loadFile(fileOpen.getSelectedFile());
+        }
+    }
+
+   private void loadFile(File file) {
+      cardList = new ArrayList();

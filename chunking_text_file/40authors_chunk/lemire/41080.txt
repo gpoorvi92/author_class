@@ -1,0 +1,10 @@
+     * Construction a threshold function with a given threshold
+     *
+     * @param min threshold
+     */
+    public ThresholdFuncBitmap(final int min) {
+        super();
+        this.min = min;
+        this.buffers = new long[16];
+        this.bufferUsed = 0;
+    }

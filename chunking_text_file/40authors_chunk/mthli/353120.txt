@@ -1,0 +1,10 @@
+package rsa;
+
+import java.io.*;
+import java.security.*;
+import javax.crypto.*;
+
+/**
+ * This program tests the RSA cipher. Usage:<br>
+ * java rsa.RSATest -genkey public private<br>
+ * java rsa.RSATest -encrypt plaintext encrypted public<br>

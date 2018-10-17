@@ -1,0 +1,10 @@
+    public final static String toUTF_16BE(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, UTF_16BE);
+    }
+
+    /**
+     * 将字符编码转换成UTF-16LE码
+     */
+    public final static String toUTF_16LE(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, UTF_16LE);
+    }

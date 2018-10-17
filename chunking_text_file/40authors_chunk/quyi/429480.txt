@@ -1,0 +1,10 @@
+      break;
+
+    case UPDATE:
+      if (value == null) {
+        unsetUpdate();
+      } else {
+        setUpdate((String)value);
+      }
+      break;
+

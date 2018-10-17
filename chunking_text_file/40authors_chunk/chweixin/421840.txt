@@ -1,0 +1,8 @@
+	 * 设置视频描述。
+	 * @param description
+	 * 	视频描述。
+	 * */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+}

@@ -1,0 +1,10 @@
+        public int getCount() {
+            return customActions.size() + mAppInfos.size();
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override

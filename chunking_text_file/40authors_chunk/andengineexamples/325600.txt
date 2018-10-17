@@ -1,0 +1,10 @@
+	// Constructors
+	// ===========================================================
+
+	private ExampleGroup(final int pNameResourceID, final Example ... pExamples) {
+		this.mNameResourceID = pNameResourceID;
+		this.mExamples = pExamples;
+	}
+
+	// ===========================================================
+	// Getter & Setter

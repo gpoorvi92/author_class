@@ -1,0 +1,10 @@
+
+    /**
+     * 数字过长的简单处理
+     *
+     * @param number 要显示的数字
+     * @return
+     */
+    public static String formatNumber(int number) {
+        String str = String.valueOf(number);
+        if (number > 100000) {

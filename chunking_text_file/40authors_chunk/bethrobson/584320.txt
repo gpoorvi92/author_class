@@ -1,0 +1,10 @@
+    public class ClientHandler implements Runnable {
+        BufferedReader reader;
+        Socket sock;
+        
+        public ClientHandler(Socket clientSOcket) {
+            try {
+                sock = clientSOcket;
+                InputStreamReader isReader = new InputStreamReader(sock.getInputStream());
+                reader = new BufferedReader(isReader);
+                

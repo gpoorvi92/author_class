@@ -1,0 +1,10 @@
+@EActivity(R.layout.act_edit_phone)
+public class EditNumberActivity extends Activity {
+	
+	@Extra
+	int flag;
+	
+	@ViewById(R.id.number_dt)
+	EditText number_dt;
+	
+	@Extra("value")

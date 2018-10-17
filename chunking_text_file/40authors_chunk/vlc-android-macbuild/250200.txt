@@ -1,0 +1,10 @@
+
+            }
+
+            if (mOnCompletionListener != null) {
+                mOnCompletionListener.onCompletion(this);
+            }
+
+            return;
+        } catch (IllegalArgumentException e) {
+            // TODO Auto-generated catch block

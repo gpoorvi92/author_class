@@ -1,0 +1,10 @@
+		if(m == null) return null;
+		
+		TreeNode node = new TreeNode();
+		node.setId(m.getModuleID());
+		node.setText(m.getModuleName());
+		Map<String,Object> attributes = new HashMap<String,Object>();
+		attributes.put("url", m.getModuleUri());
+		node.setAttributes(attributes);
+		
+		if(m.getModules() != null && m.getModules().size() > 0){

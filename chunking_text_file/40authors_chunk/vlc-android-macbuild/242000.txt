@@ -1,0 +1,10 @@
+    public void onBufferingUpdate(MediaPlayer mp, int percent) {
+        if (mOnBufferingUpdateListener != null) {
+            mOnBufferingUpdateListener.onBufferingUpdate(this, percent);
+        }
+    }
+
+    @Override
+    public void onCompletion(MediaPlayer mp) {
+        if (mOnCompletionListener != null) {
+            mOnCompletionListener.onCompletion(this);

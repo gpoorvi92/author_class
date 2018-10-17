@@ -1,0 +1,10 @@
+						 mi.getVideo_width(),
+						 mi.getVideo_height(),
+						 mi.getVideo_rate(),
+						 mi.getVideo_duration(),
+						 mi.getVideo_codec());
+	}
+
+	/**
+	 * (non Javadoc) TODO
+	 * 

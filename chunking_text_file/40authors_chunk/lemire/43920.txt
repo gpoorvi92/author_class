@@ -1,0 +1,10 @@
+        this.actualSizeInWords = 1;
+        setWord(0, 0);
+    }
+
+    @Override
+    public void trim() {
+    }
+
+    @Override
+    public void setWord(int position, long word) {

@@ -1,0 +1,10 @@
+        if (encoded == null)
+            return null;
+        int lengthData = encoded.length();
+        if (lengthData % 2 != 0)
+            return null;
+        char[] binaryData = encoded.toCharArray();
+        int lengthDecode = lengthData / 2;
+        byte[] decodedData = new byte[lengthDecode];
+        byte temp1, temp2;
+        char tempChar;

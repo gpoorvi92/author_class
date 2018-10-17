@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch12.ms;
+
+import java.util.concurrent.Callable;
+
+/**
+ * 对处理失败的子任务进行重试所需的信息。
+ * 

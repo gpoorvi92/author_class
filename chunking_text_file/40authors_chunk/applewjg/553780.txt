@@ -1,0 +1,10 @@
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        TreeNode node = new TreeNode(slow.val);
+        node.left = sortedListToBSTRe2(start, slow);
+        node.right = sortedListToBSTRe2(slow.next,end);
+        return node;
+    }
+    public TreeNode sortedListToBST_3(ListNode head) {
+        if (head == null) return null;

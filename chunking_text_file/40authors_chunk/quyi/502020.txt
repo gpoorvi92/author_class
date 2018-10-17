@@ -1,0 +1,10 @@
+      case 81:
+        return READ_CALENDAR;
+      case 82:
+        return READ_CALL_LOG;
+      case 83:
+        return READ_CONTACTS;
+      case 84:
+        return READ_EXTERNAL_STORAGE;
+      case 85:
+        return READ_FRAME_BUFFER;

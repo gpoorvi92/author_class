@@ -1,0 +1,10 @@
+       double screenWidth =  screen.getWidth();
+       double screenHeight = screen.getHeight();
+       
+       //获取窗体的宽和高
+       int jfWidth = jf.getWidth();
+       int jfHeight = jf.getHeight();
+       
+       //设置坐标
+       int width = (int)(screenWidth-jfWidth)/2;
+       int height = (int)(screenHeight-jfHeight)/2;

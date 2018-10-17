@@ -1,0 +1,10 @@
+							GlobalVariables.chatToUser, chatMsg, new Date(),
+							this.id, "2", "", "");
+					acd.putStringValue("send_state", "2");
+
+					ChatMessageUtil.sendChatText(this,
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, "to group", chatMsg,
+							new ChatTextService(this, chatList, sendState,
+									sendFinishState, acd));
+				}

@@ -1,0 +1,10 @@
+	public MyMeetableDrawable check(Hero hero){//检测是否遇上
+		int col = hero.col;//获取英雄的列数
+		int row = hero.row;//获取英雄的行数
+		switch(hero.direction%4){//还是先按方向查看
+		case 0://向下
+			if(mapMatrixForMeetable[row][col-1] != null){//左边检测到了可遇物
+				return mapMatrixForMeetable[row][col-1];
+			}
+			else if(mapMatrixForMeetable[row][col+1] != null){//右边检测到了可遇物
+				return mapMatrixForMeetable[row][col+1];

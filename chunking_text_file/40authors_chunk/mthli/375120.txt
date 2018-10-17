@@ -1,0 +1,10 @@
+         {
+            throw new ParseException("Not an integer", 0);
+         }
+         if (b < 0 || b >= 256) throw new ParseException("Byte out of range", 0);
+         a[i] = (byte) b;
+      }
+      if (tokenizer.hasMoreTokens()) throw new ParseException("Too many bytes", 0);
+      return a;
+   }
+}

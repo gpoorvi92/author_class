@@ -1,0 +1,10 @@
+	 * */
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
+	}
+	/**
+	 * 获取地理位置经度。
+	 * @return 地理位置经度。
+	 * */
+	public String getLongitude() {
+		return longitude;

@@ -1,0 +1,10 @@
+
+        return listView.getChildAt(position - firstPostion
+                + listView.getHeaderViewsCount());
+    }
+
+    @TargetApi(11)
+    public static void setLayerType(View view, int layerType, Paint paint) {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            view.setLayerType(layerType, paint);
+        }

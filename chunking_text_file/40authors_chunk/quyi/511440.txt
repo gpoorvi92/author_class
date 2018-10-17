@@ -1,0 +1,10 @@
+        throw result.ue;
+      }
+      throw new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.MISSING_RESULT, "reportEngineConfig failed: unknown result");
+    }
+
+    public String reportTaskManagerConfig() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_reportTaskManagerConfig();
+      return recv_reportTaskManagerConfig();
+    }

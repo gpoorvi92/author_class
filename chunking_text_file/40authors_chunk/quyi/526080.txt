@@ -1,0 +1,10 @@
+          return MISSION_ID;
+        case 2: // ENGINES
+          return ENGINES;
+        case 3: // MISSION_PROGRESS
+          return MISSION_PROGRESS;
+        case 4: // SAMPLES
+          return SAMPLES;
+        default:
+          return null;
+      }

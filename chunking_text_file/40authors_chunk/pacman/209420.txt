@@ -1,0 +1,10 @@
+ * @Class: SystemInfo
+ * @author: zhangxinyu
+ * @date: 2014年12月19日 下午12:54:49
+ */
+public class SystemInfo {
+
+	@Transmit(key = "ip")
+	private String ip;
+	
+	@Transmit(key = "user")

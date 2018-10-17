@@ -1,0 +1,6 @@
+        if (getCount() == 0 || null == item) {
+            return;
+        }
+        getItems().remove(item);
+    }
+}

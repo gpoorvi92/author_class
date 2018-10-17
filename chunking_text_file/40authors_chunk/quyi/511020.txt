@@ -1,0 +1,10 @@
+            _iter4.write(oprot);
+          }
+        }
+      }
+      if (struct.isSetDescription()) {
+        oprot.writeString(struct.description);
+      }
+    }
+
+    @Override

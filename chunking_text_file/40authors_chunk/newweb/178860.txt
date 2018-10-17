@@ -1,0 +1,10 @@
+			}
+		}
+		Set<Small> smalls = supplier.getSmalls();
+		for (Small small : smalls) {
+			small.setValid(false);
+			if(smallService.modify(small)){
+				i2++;
+			}else{
+				throw new RuntimeException("供应商： " + supplier.getName() + " 【不可用】状态更改失败</br>原因：小件【" + 
+						small.getName() +  "】状态更改失败</br>");

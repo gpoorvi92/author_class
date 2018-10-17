@@ -1,0 +1,10 @@
+	protected int     	mintSortCol;
+	protected boolean 	mblnSortAsc;
+	protected int 		mintResult = 0;
+
+	public AcctSorter(int tintSortCol, boolean tblnSortAsc) {
+		mintSortCol = tintSortCol;
+		mblnSortAsc = tblnSortAsc;
+	}
+
+	public int compare(Object o1, Object o2) {

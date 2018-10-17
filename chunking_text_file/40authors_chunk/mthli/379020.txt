@@ -1,0 +1,10 @@
+      pack();
+   }
+
+   /**
+    * Makes a button to change the pluggable look and feel.
+    * @param name the button name
+    * @param plafName the name of the look and feel class
+    */
+   void makeButton(String name, final String plafName)
+   {

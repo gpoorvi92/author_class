@@ -1,0 +1,10 @@
+         // add the events to the track
+            
+          // add the sequence to the sequencer, set timing, and start
+          sequencer.setSequence(seq);
+         
+          sequencer.start();
+          // new
+          Thread.sleep(1000);
+          sequencer.close();
+          System.exit(0);

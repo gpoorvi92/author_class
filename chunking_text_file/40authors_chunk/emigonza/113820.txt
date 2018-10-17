@@ -1,0 +1,10 @@
+        // Properties
+        makeProperty("DispenserStatus"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {

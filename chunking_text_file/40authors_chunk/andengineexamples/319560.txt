@@ -1,0 +1,10 @@
+ * @author Nicolas Gramlich
+ * @since 21:42:39 - 06.07.2010
+ */
+public class EntityModifierIrregularExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 720;
+	private static final int CAMERA_HEIGHT = 480;

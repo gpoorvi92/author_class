@@ -1,0 +1,10 @@
+	}
+
+	public void upload(File file) throws Exception {
+		InputStream dataIn = new BufferedInputStream(new FileInputStream(file),
+		    1024 * 8);
+		boolean isOK;
+		String dirName = file.getParentFile().getName();
+		String fileName = dirName + '/' + file.getName();
+		ByteArrayInputStream checkFileInputStream = new ByteArrayInputStream(
+		    "".getBytes());

@@ -1,0 +1,10 @@
+package com.am.jlfu.staticstate.entities;
+
+
+import java.io.Serializable;
+
+import com.am.jlfu.fileuploader.json.FileStateJsonBase;
+
+
+/**
+ * Server-side entity representing a file.<br>

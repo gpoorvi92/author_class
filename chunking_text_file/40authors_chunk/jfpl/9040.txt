@@ -1,0 +1,10 @@
+	private ImageButton titleBackBtn;
+	// @InjectionView(id = R.id.show_vio_pic, click = "showVioPicClick")
+	private android.widget.Button showVioPicBtn;
+	@InjectionView(id = R.id.wfxw, click = "wfxwBtnClick")
+	private android.widget.TextView wfxwTv;
+
+	private AbstractCommonData acd;
+
+	private String wfxw;
+

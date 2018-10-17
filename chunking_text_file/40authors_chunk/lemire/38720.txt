@@ -1,0 +1,10 @@
+            final EWAHPointer32 x = new EWAHPointer32(0,
+                    new IteratingBufferedRunningLengthWord32(set[k]),
+                    k);
+            if (x.hasNoData())
+                continue;
+            f.rw[k] = x;
+            x.callbackUpdate(f);
+            h.toss(x);
+        }
+        h.buildHeap(); // just in case we use an insane number of inputs

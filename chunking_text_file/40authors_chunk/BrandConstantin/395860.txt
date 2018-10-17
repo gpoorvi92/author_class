@@ -1,0 +1,10 @@
+* Día: martes
+* Hora: 20
+* Entre las 18:00h del lunes y las 20:00h del martes hay 26 hora/s.
+* 
+* @author costy
+ */
+import java.util.Scanner;
+
+public class HorasTranscuridas {
+

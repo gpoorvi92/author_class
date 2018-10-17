@@ -1,0 +1,10 @@
+     * This method is used to retrieve the user-annotated comment for this item,
+     * if applicable.
+     *
+     * @return The user-annotated comment for this item, or null if none is set.
+     */
+    String getComment();
+
+    /**
+     * This method is used to update the user-annotated comment for this item.
+     *

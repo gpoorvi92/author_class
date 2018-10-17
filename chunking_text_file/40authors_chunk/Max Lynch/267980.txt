@@ -1,0 +1,10 @@
+		statusBar.setPreferredSize(new Dimension(FRAME.WIDTH, 20)); //Make the status bar small enough
+		
+		/* Add the Three main components to the frame:
+		 * The Toolbar, the DesktopPane and
+		 * The staus bar */
+		 
+		c.add(toolbar, BorderLayout.NORTH);
+		//c.add(testbar, BorderLayout.NORTH);
+		c.add(frameDesktop, BorderLayout.CENTER);
+		c.add(statusBar, BorderLayout.SOUTH);	

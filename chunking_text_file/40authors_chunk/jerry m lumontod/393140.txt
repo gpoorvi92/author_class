@@ -1,0 +1,10 @@
+				mblnSortAsc = !mblnSortAsc;
+			else
+				mintSortCol = modelIndex;
+	
+			for (int i=0; i < mintColumnsCount; i++) { //NEW
+	
+				TableColumn column = colModel.getColumn(i);
+				column.setHeaderValue(getColumnName(column.getModelIndex()));
+			}
+	

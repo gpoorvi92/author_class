@@ -1,0 +1,10 @@
+		// while (it.hasNext()) {
+		// String s = (String) it.next();
+		// // 判断元素有没有是"world"的，如果有，就往集合中添加一个新元素android
+		// if ("world".equals(s)) {
+		// list.add("android");
+		// // it = list.iterator();
+		// }
+		// }
+
+		// 普通for

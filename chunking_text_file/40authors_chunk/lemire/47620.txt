@@ -1,0 +1,10 @@
+ * @author Daniel Lemire
+ */
+public class BufferedIterator implements IteratingRLW, Cloneable {
+
+    /**
+     * Instantiates a new iterating buffered running length word.
+     *
+     * @param iterator iterator
+     */
+    public BufferedIterator(final CloneableIterator<EWAHIterator> iterator) {

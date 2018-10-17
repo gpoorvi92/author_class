@@ -1,0 +1,10 @@
+            entered_dropActionChanged_4 = false;
+        }
+        else
+            super.dropActionChanged( dsde );
+    }
+
+    /// public void java.awt.dnd.DragSourceAdapter.dragExit(java.awt.dnd.DragSourceEvent)
+
+    public native void __dragExit( java.awt.dnd.DragSourceEvent dse );
+

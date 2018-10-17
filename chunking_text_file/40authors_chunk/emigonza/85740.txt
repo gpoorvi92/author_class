@@ -1,0 +1,10 @@
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+  public int     getCapWriteTag() throws JposException;
+
+  // Properties
+  public boolean getAutoDisable() throws JposException;
+  public void    setAutoDisable(boolean autoDisable) throws JposException;
+  public boolean getContinuousReadMode() throws JposException;
+  public byte[]  getCurrentTagID() throws JposException;
+  public int     getCurrentTagProtocol() throws JposException;

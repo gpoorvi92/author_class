@@ -1,0 +1,10 @@
+        while (!literalHasNext() && !runningHasNext()) {
+            if (!this.ewahIter.hasPrevious()) {
+                return false;
+            }
+            setRLW(this.ewahIter.previous());
+        }
+        return true;
+    }
+
+    private void setRLW(RunningLengthWord32 rlw) {

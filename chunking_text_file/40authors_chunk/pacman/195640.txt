@@ -1,0 +1,10 @@
+		try {
+
+			result = ensureConfigDir("tempDir");
+			result = ensureConfigDir("resTempDir");
+			//result = ensureConfigDir("mediaTempDir");
+			//result = ensureConfigDir("packTempDir");
+			result = ensureConfigDir("packTargetDir");
+			result = ensureConfigDir("sliceTargetDir");
+			result = ensureConfigDir("resTargetDir");
+

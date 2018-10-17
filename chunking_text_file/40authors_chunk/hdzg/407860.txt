@@ -1,0 +1,10 @@
+						gameView.allCityDrawable.add(self);
+					}
+					break;
+				case 1://没被攻下按下确认
+				case 2://被攻下了按下确认
+					recoverGame();
+					break;
+				}			
+			}
+			else if(x>DIALOG_BTN_START_X+DIALOG_BTN_SPAN && x<DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WIDTH

@@ -1,0 +1,10 @@
+                mMrl.getSchemeSpecificPart());
+    }
+
+    final public String getSegmentMrlForVlcPlayer(PlayIndex playIndex, int order) {
+        if (!mIsVslIndex) {
+            ArrayList<Segment> segList = playIndex.mSegmentList;
+            if (segList != null && segList.size() > order) {
+                return segList.get(order).mUrl;
+            }
+        }

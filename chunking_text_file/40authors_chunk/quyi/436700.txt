@@ -1,0 +1,10 @@
+                  RunMonitor _elem37;
+                  _elem37 = new RunMonitor();
+                  _elem37.read(iprot);
+                  struct.autoRunMonitor.add(_elem37);
+                }
+                iprot.readListEnd();
+              }
+              struct.setAutoRunMonitorIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

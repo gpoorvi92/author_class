@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCheckStartTime()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.checkStartTime, other.checkStartTime);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCheckStopTime()).compareTo(other.isSetCheckStopTime());

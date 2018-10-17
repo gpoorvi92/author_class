@@ -1,0 +1,10 @@
+        Log.d(LOG_TAG, "onPause");
+        super.onPause();
+    }
+
+    @Override
+    public Loader<List<SelectableFile>> onCreateLoader(int id, Bundle args) {
+        return new FileLoader(getActivity(), mPath, ((MultiFileChooserActivity) getActivity()).getSelectedFiles());
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+        int sLen = haystack.length(), tLen = needle.length();
+        if(tLen == 0) return 0;
+        if (haystack==null || needle==null || sLen==0) return -1;
+        int[] next = new int[tLen+1];
+        getNext(needle, next);
+        int i = 0, j = 0;
+        while (i < sLen) {
+            while (j > -1 && needle.charAt(j) != haystack.charAt(i)) j = next[j];
+            ++i; ++j;
+            if (j == tLen) return i - j;

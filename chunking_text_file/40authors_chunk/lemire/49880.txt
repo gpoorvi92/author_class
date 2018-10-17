@@ -1,0 +1,10 @@
+        for (int i = 1; i < 2 * 64; ++i)
+            e.set(i);
+        for (int i = 4 * 64; i < 5 * 64; ++i)
+            e.set(i);
+
+        IntIteratorOverIteratingRLW ii = new IntIteratorOverIteratingRLW(
+                e.getIteratingRLW());
+        assertTrue(ii.hasNext());
+        int ctr = 0;
+        while (ii.hasNext()) {

@@ -1,0 +1,10 @@
+	 *  扫描消息事件。
+	 *  @return
+	 *  回复消息。
+	 * */
+	BaseRespMessage handler(WeChatContext context, ScanEventMessage event);
+	/**
+	 * 上报地理位置消息事件处理。
+	 * @param context
+	 * 上下文。
+	 * @param event

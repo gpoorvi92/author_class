@@ -1,0 +1,6 @@
+
+    @Override
+    public String getMessage() {
+        return "Could_not_connect_internet";//return super.getMessage();
+    }
+}

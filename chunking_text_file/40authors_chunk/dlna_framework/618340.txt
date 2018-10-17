@@ -1,0 +1,7 @@
+		returnNode.setName(Control.RETURN);
+		returnNode.setValue(var);
+		queryResNode.addNode(returnNode);
+		
+		return queryResNode;
+	}
+}

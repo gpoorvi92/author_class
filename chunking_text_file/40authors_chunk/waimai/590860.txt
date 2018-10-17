@@ -1,0 +1,10 @@
+
+    private Integer number;
+
+    private Float totalPrice;
+
+    private Integer orderId;
+
+    private String status;
+
+    private Order order;

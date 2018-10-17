@@ -1,0 +1,10 @@
+   */
+   public CalculatorPanel()
+   {  
+      setLayout(new BorderLayout());
+
+      result = 0;
+      lastCommand = "=";
+      start = true;
+      
+      // add the display

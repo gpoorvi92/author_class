@@ -1,0 +1,10 @@
+
+    @Override
+    public List<SelectableFile> loadInBackground() {
+        return Utils.getFileList(mPath, mSelectedFiles);
+    }
+
+    @Override
+    public void deliverResult(List<SelectableFile> data) {
+        if (isReset()) {
+            onReleaseResources(data);

@@ -1,0 +1,10 @@
+ 					if (rem == false) 
+ 					{
+ 						usersName.setText("");
+ 						userPassword.setText("");
+ 					}
+ 			dispose();		
+ 			}
+ 			
+ 		});
+        		

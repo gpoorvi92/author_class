@@ -1,0 +1,10 @@
+		// bos.close();
+
+		// 读数据
+		// BufferedInputStream(InputStream is)
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				"bos.txt"));
+
+		// 方式1
+		int by = 0;
+		while ((by = bis.read()) != -1) {

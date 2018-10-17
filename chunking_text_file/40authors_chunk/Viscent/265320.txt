@@ -1,0 +1,10 @@
+//    	;
+//    }
+//		alarmMgr.sendAlarm(AlarmType.RESUME,alarmId ,alarmExtraInfo);
+//		
+//		//Fault re-occur
+//		try {
+//	    Thread.sleep(500);
+//    } catch (InterruptedException e) {
+//    	;
+//    }

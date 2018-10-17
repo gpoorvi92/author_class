@@ -1,0 +1,10 @@
+        if (!fragment.isAdded() || fragment.isDetached())
+            return null;
+
+        try {
+            LoaderManager loaderManager = fragment.getLoaderManager();
+            return loaderManager;
+        } catch (IllegalStateException e) {
+        }
+
+        return null;

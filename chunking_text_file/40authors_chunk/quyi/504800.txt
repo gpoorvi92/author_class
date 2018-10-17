@@ -1,0 +1,10 @@
+    if (isSetTaskInfo()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.taskInfo, other.taskInfo);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;
+  }
+
+  public _Fields fieldForId(int fieldId) {

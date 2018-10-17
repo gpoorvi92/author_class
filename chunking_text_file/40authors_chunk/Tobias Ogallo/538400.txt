@@ -1,0 +1,10 @@
+public class LoginScreen extends JFrame{
+	private JLabel username,password,cat;
+	private JLabel t1,t2;
+	public JTextField user;
+	private JPasswordField pass;
+	private JButton Login,Cancel;
+	private JComboBox cboCat;
+	private JPanel p1,p2,p4;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+	public LoginScreen(){

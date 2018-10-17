@@ -1,0 +1,10 @@
+import com.newweb.dao.base.UserDao;
+import com.newweb.model.base.User;
+import com.newweb.service.base.UserService;
+import com.newweb.util.DateUtil;
+
+@Component("userService")
+public class UserServiceImp implements UserService {
+	
+	@Autowired
+	private UserDao userDao;

@@ -1,0 +1,10 @@
+        {
+          oprot.writeI32(struct.featuresCharacters.size());
+          for (String _iter21 : struct.featuresCharacters)
+          {
+            oprot.writeString(_iter21);
+          }
+        }
+      }
+      if (struct.isSetApiCheck()) {
+        {

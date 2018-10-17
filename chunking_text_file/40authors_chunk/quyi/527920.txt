@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义在Client端操作过程中出现的异常
+ */
+public class InvalidRequestException extends TException implements org.apache.thrift.TBase<InvalidRequestException, InvalidRequestException._Fields>, java.io.Serializable, Cloneable, Comparable<InvalidRequestException> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("InvalidRequestException");
+

@@ -1,0 +1,10 @@
+      if (porterDuff1.equals(" S")) r.append(" and overwrites empty pixels");
+      r.append(".");
+      return r.toString();
+   }
+
+   public String toString()
+   {
+      return name;
+   }
+

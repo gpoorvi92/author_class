@@ -1,0 +1,10 @@
+      copyAction.putValue(Action.SMALL_ICON, new ImageIcon("copy.gif"));
+      Action pasteAction = new TestAction("Paste");
+      pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("paste.gif"));
+
+      JMenu editMenu = new JMenu("Edit");
+      editMenu.add(cutAction);
+      editMenu.add(copyAction);
+      editMenu.add(pasteAction);
+
+      // demonstrate nested menus

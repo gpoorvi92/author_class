@@ -1,0 +1,10 @@
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+
+public class videoSQL implements video_master_info_Interface, video_tab_Interface
+{
+	public Connection con;
+	public String a, b, j, k, l;
+

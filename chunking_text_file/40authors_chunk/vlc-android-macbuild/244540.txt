@@ -1,0 +1,10 @@
+    /*--------------------------------------
+     * LoaderManager.Callbacks
+     */
+    @Override
+    public Loader<D> onCreateLoader(int id, Bundle args) {
+        LoaderCallbacks<D> callbacks = getLoaderCallbacks();
+        if (callbacks == null)
+            return null;
+
+        return callbacks.onCreateLoader(id, args);

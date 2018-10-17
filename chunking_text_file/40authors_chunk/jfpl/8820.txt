@@ -1,0 +1,10 @@
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode,
+			Intent intent) {
+
+		if (resultCode == ConstVariables.SEND_IMAGE_FLAG) {
+			ArrayList<String> imageList = intent
+					.getStringArrayListExtra("image_list");
+			Intent i = new Intent();
+			i.putStringArrayListExtra("image_list", imageList);

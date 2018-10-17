@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(6)) {
+        struct.apk_md5 = iprot.readString();
+        struct.setApk_md5IsSet(true);
+      }
+      if (incoming.get(7)) {
+        struct.notify_callback_url = iprot.readString();
+        struct.setNotify_callback_urlIsSet(true);
+      }
+      if (incoming.get(8)) {

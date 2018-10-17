@@ -1,0 +1,10 @@
+      if (incoming.get(11)) {
+        struct.lineNum = iprot.readI32();
+        struct.setLineNumIsSet(true);
+      }
+      if (incoming.get(12)) {
+        struct.columnNum = iprot.readI32();
+        struct.setColumnNumIsSet(true);
+      }
+      if (incoming.get(13)) {
+        struct.riskDescription = iprot.readString();

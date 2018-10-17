@@ -1,0 +1,10 @@
+    extends Charset {
+
+  /** The name of this unsupported charset. */
+  private String m_name;
+
+  /**
+   * Singleton cache for the unsupported charsets (no need to instanciate the same unsupported
+   * charset again and again).
+   */
+  private static Map<String, Charset> singletons = new HashMap<String, Charset>();

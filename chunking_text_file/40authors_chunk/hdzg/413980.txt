@@ -1,0 +1,10 @@
+		return basicEarning*(proficiency);
+	}
+	
+	//计算并返回一座城池的防御力
+	public static int getCityDefence(CityDrawable city){
+		int defend =0;
+		General g = city.guardGeneral.get(0);
+		float gDefend = (g.defend*0.8f+g.intelligence*0.2f)/100.0f;
+		defend = (int)(city.baseDefend*city.army*(1+gDefend)) + city.warTower*100;
+		return defend;

@@ -1,0 +1,10 @@
+      checkReady();
+      updateUserAppInfo_call method_call = new updateUserAppInfo_call(missionId, userAppId, plotsStatus, usedPermissions, stcRD, dycRD, virRD, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class updateUserAppInfo_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;
+      private String userAppId;
+      private Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus;

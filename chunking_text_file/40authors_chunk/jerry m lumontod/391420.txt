@@ -1,0 +1,10 @@
+	}	//	toString
+
+	/**
+	 *	To String - detail
+	 *  @return String in format ID=Name
+	 */
+	public String toStringX()
+	{
+		StringBuffer sb = new StringBuffer (getID());
+		sb.append("=").append(m_name);

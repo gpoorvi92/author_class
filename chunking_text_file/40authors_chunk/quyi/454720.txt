@@ -1,0 +1,10 @@
+        if (value == null) {
+          unsetOperate();
+        } else {
+          setOperate((EngineOperation)value);
+        }
+        break;
+
+      }
+    }
+

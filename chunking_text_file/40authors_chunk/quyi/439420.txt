@@ -1,0 +1,10 @@
+        unsetCpuMhz();
+      } else {
+        setCpuMhz((Integer)value);
+      }
+      break;
+
+    case MEM_SIZE:
+      if (value == null) {
+        unsetMemSize();
+      } else {

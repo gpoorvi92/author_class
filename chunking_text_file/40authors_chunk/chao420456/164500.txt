@@ -1,0 +1,10 @@
+
+		// System.out.println(tg.getMaxPriority());
+
+		// System.out.println(tg.toString());
+
+		tg.setMaxPriority(8);
+		// System.out.println(tg.getMaxPriority());
+
+		System.out.println(t1.getPriority());
+		System.out.println(t2.getPriority());

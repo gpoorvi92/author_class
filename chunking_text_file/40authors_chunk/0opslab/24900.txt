@@ -1,0 +1,10 @@
+    /**
+     * 发送邮件
+     *
+     * @param subject     邮件主题
+     * @param sendHtml    邮件内容
+     * @param receiveUser 收件人地址
+     * @param attachment  附件
+     */
+    public void doSendHtmlEmail(String subject, String sendHtml, String receiveUser, File attachment) {
+        try {

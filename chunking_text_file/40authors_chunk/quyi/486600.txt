@@ -1,0 +1,10 @@
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetVirRD()).compareTo(other.isSetVirRD());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetVirRD()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.virRD, other.virRD);
+        if (lastComparison != 0) {

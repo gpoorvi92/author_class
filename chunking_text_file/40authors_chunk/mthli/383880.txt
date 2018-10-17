@@ -1,0 +1,10 @@
+      showColumnsItem.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent event)
+         {
+            // restore all removed columns
+            for (TableColumn tc : removedColumns)
+               table.addColumn(tc);
+            removedColumns.clear();
+         }
+      });

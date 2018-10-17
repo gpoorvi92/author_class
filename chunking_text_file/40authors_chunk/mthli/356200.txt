@@ -1,0 +1,10 @@
+         });
+
+      addRadioButton("Throw unknown", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               throw new UnknownError();
+            }
+         });
+

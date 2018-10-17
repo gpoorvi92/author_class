@@ -1,0 +1,10 @@
+		return userAppInfo;
+	}
+	
+	//get userAppinfo by filename
+	public List<UserAppInfo> getUserAppInfoList(String fileName,int sheetNum) {
+		File file = new File(fileName); // 创建文件对象
+		if (!file.exists()) {
+			return null;
+		}
+		Workbook wb = null;

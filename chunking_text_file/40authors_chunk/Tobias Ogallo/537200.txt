@@ -1,0 +1,10 @@
+					   int  Numrow = 0;
+					   ResultSet result = statement.executeQuery(temp);
+					   while (result.next()) {
+                         jTable.setValueAt(result.getString(1),Numrow,0);
+                         jTable.setValueAt(result.getString(2),Numrow,1);
+                         jTable.setValueAt(result.getString(3),Numrow,2);
+                         jTable.setValueAt(result.getString(4),Numrow,3);
+                         jTable.setValueAt(result.getDate(5),Numrow,4);
+                         jTable.setValueAt(result.getString(6),Numrow,5);
+                         jTable.setValueAt(result.getString(7),Numrow,6);	

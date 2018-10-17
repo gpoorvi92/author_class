@@ -1,0 +1,10 @@
+package ipower.wechat.message;
+
+import java.io.Serializable;
+
+/**
+ * 消息基类。
+ * @author yangyong.
+ * @since 2014-02-21.
+ * */
+public abstract class BaseMessage implements Serializable {

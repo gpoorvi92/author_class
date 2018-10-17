@@ -1,0 +1,10 @@
+	private static final int HOUR=60*60*1000;
+	
+	public LoginToken(){}
+	/**
+	 * 默认有效期1小时的令牌构造方法
+	 * @param userName
+	 */
+	public LoginToken(String userName){
+		this(userName,HOUR);
+	}

@@ -1,0 +1,10 @@
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("searchApp", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        searchApp_args args = new searchApp_args();
+        args.setMissionId(missionId);
+        args.setUserAppId(userAppId);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+
+      public com.nercis.isscp.idl.Sample getResult() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException {

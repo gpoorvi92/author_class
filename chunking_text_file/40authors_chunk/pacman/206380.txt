@@ -1,0 +1,10 @@
+/**
+ * @ClassName: StringHelper
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月28日 下午10:27:21
+ */
+public final class StringHelper {
+
+	/**
+	 * remove extend file name.

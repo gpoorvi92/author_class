@@ -1,0 +1,10 @@
+    /**
+     * 使用FileChannel+Buffer实现文件的读取拷贝是一种极佳的方案
+     *
+     * @param source
+     * @param target
+     */
+    public static void copyFileWithBuffer(File source, File target) {
+        try (
+                FileInputStream inStream = new FileInputStream(source);
+                FileOutputStream outStream = new FileOutputStream(target);

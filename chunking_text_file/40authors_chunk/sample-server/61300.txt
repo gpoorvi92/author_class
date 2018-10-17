@@ -1,0 +1,10 @@
+    public boolean isConnected()
+    {
+        return null != bootstrap && null != channel && channel.isConnected() && channel.isOpen() && channel.isBound() && channel.isWritable() && channel.isReadable();
+    }
+    @Override
+    public void disconnect()
+    {
+        //        if (null != channel && channel.isOpen())
+        //        {
+        //            try

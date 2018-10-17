@@ -1,0 +1,10 @@
+            }
+        }
+        return groups;
+    }
+
+    public static List<ImageEntity> getImageEntitiesWithHeaderId(ArrayList<ImageEntity> images){
+        boolean hasEntity = false;
+        LocationTimeGroup  curTimeGroup = null;
+
+        long curHeaderId = 0;//images.get(0);

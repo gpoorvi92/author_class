@@ -1,0 +1,10 @@
+        this(10000L);
+    }
+
+    public FileAlterationMonitor(long interval)
+    {
+        observers = new CopyOnWriteArrayList();
+        thread = null;
+        running = false;
+        this.interval = interval;
+    }

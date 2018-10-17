@@ -1,0 +1,10 @@
+ */
+public class ArrayListTest {
+	public static void main(String[] args) {
+		// 定义集合，存储带重复的元素
+		ArrayList array = new ArrayList();
+		array.add("hello");
+		array.add("world");
+		array.add("java");
+		array.add("android");
+		array.add("world");

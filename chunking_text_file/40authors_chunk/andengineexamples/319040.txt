@@ -1,0 +1,10 @@
+		});
+
+		particleSystem.addParticleInitializer(new ColorParticleInitializer<Sprite>(1, 0, 0));
+		particleSystem.addParticleInitializer(new AlphaParticleInitializer<Sprite>(0));
+		particleSystem.addParticleInitializer(new BlendFunctionParticleInitializer<Sprite>(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE));
+		particleSystem.addParticleInitializer(new VelocityParticleInitializer<Sprite>(-2, 2, -20, -10));
+		particleSystem.addParticleInitializer(new RotationParticleInitializer<Sprite>(0.0f, 360.0f));
+		particleSystem.addParticleInitializer(new ExpireParticleInitializer<Sprite>(6));
+
+		particleSystem.addParticleModifier(new ScaleParticleModifier<Sprite>(0, 5, 1.0f, 2.0f));

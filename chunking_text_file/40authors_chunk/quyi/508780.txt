@@ -1,0 +1,10 @@
+          {
+            oprot.writeI32(_iter141.getKey().getValue());
+            oprot.writeI32(_iter141.getValue().getValue());
+          }
+          oprot.writeMapEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.functionStatus != null) {
+        if (struct.isSetFunctionStatus()) {

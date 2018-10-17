@@ -1,0 +1,10 @@
+    public void dfs(String s, String ip, int start, int step, List<String> res) {
+        if (step == 4 && start == s.length()) {
+            res.add(ip);
+        }
+        if (step == 4) return;
+        if(s.length()-start>(4-step)*3) return ;
+        if(s.length()-start<4-step) return ;
+        if (ip.length() != 0) ip+=".";
+        int num = 0;
+        for (int i = start; i < start + 3 && i < s.length(); ++i) {

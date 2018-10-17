@@ -1,0 +1,10 @@
+{
+    // Capabilities
+    public boolean getCapFanAlarm() throws JposException;
+    public boolean getCapHeatAlarm() throws JposException;
+    public int     getCapPowerReporting() throws JposException;
+    public boolean getCapQuickCharge() throws JposException;
+    public boolean getCapShutdownPOS() throws JposException;
+    public int     getCapUPSChargeState() throws JposException;
+
+    // Properties

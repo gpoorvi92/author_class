@@ -1,0 +1,10 @@
+			logger.error("Error occurs on saving file. " + f.getName(), e);
+			result.setSuccess(0);
+			result.setMsg("Error occurs on saving file. " + f.getName());
+			return;
+		}
+		
+		String pubDir;
+		if (isPrimary)
+			pubDir = String.format("slicer/%s/%s/%s", libId, cwId, file.getOriginalFilename());
+		else

@@ -1,0 +1,10 @@
+import org.junit.Test;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.yeshj.pacman.config.AppConfig;
+import com.yeshj.pacman.schedule.SystemInfo;
+import com.yeshj.pacman.startup.AppInitException;
+import com.yeshj.pacman.startup.AppServer;
+/**
+ * @ClassName: AppServerTest

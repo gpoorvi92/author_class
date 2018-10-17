@@ -1,0 +1,10 @@
+    if (this_present_systemResources || that_present_systemResources) {
+      if (!(this_present_systemResources && that_present_systemResources))
+        return false;
+      if (!this.systemResources.equals(that.systemResources))
+        return false;
+    }
+
+    boolean this_present_hardwareResources = true && this.isSetHardwareResources();
+    boolean that_present_hardwareResources = true && that.isSetHardwareResources();
+    if (this_present_hardwareResources || that_present_hardwareResources) {

@@ -1,0 +1,10 @@
+	private GradientPaint fillColorGradient;
+	private GradientPaint strokeColorGradient;
+	private RadialGradientPaint fillColorRadial;
+	private RadialGradientPaint strokeColorRadial;	
+	private Stroke stroke;
+	private Image image;
+	private boolean fill;
+	private boolean mouse3or4 = false;
+	
+	

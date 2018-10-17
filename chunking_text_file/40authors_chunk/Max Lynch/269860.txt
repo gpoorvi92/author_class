@@ -1,0 +1,10 @@
+package com.gs.ui;
+
+
+
+/* GradientControls.java
+ * Class that controls all actions and layout for the gradient size controls
+ * you see when choosing between linear or radial gradients */ 
+
+
+

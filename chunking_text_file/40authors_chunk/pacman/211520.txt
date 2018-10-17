@@ -1,0 +1,10 @@
+		
+		return new ShellCommand(cmd);
+	}
+	
+	public <T> ShellCommand add(T opt) {
+		
+		cmdBuffer.append(" " + String.valueOf(opt));
+		return this;
+	}
+	

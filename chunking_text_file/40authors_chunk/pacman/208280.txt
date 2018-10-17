@@ -1,0 +1,10 @@
+			}
+			return videoFormat;
+		} else {
+			return "UNKNOWN";
+		}
+	}
+
+	/**
+	 * @return the audioFormat
+	 */

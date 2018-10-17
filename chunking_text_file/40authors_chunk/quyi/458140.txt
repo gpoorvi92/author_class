@@ -1,0 +1,10 @@
+      public searchApp_resultStandardScheme getScheme() {
+        return new searchApp_resultStandardScheme();
+      }
+    }
+
+    private static class searchApp_resultStandardScheme extends StandardScheme<searchApp_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, searchApp_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();

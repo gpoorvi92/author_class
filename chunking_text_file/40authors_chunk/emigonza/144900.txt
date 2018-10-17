@@ -1,0 +1,10 @@
+        makeProperty("CapWritableTracks"),
+        makeProperty("CapCardAuthentication"),
+        makeProperty("CapDataEncryption"),
+        makeProperty("CapDeviceAuthentication"),
+        makeProperty("CapTrackDataMasking"),
+
+        // Properties
+        makeProperty("AccountNumber"),
+        makeProperty("AutoDisable"),
+        makeProperty("DataCount"),

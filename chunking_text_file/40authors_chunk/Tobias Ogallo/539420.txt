@@ -1,0 +1,10 @@
+import java.sql.*;
+import javax.swing.*;
+import java.util.Date;
+import java.text.*;
+import java.awt.*;
+import java.awt.event.*;
+
+class Bus_Details extends JFrame  {
+	public Container content;
+	public JPanel reportingPanel;

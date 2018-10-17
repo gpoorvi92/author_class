@@ -1,0 +1,10 @@
+        accountManager.saveCurrentAccount(account);
+
+        // save account to database
+        accountManager.saveAccountToDB(account);
+    }
+
+    /**
+     * The cookie value is like seahub_shib="foo@test.com@bd8cc1138", where
+     * foo@test.com is username and bd8cc1138 is api token"
+     */

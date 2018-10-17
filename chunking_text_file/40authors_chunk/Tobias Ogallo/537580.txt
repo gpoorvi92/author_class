@@ -1,0 +1,10 @@
+
+	public static void main(String args[]) {
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		new LoginScreen().setVisible(true);
+		}
+	public void load_jTable(){
+		
+		try
+				{
+					Statement statement =Connect.getConnection().createStatement();

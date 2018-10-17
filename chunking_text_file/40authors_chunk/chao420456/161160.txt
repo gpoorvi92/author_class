@@ -1,0 +1,10 @@
+			d = b;
+		}
+		System.out.println("d:"+d);
+		System.out.println("------------------");
+
+		//直接把结果输出
+		if(a > b) {
+			System.out.println("a:"+a);
+		}else {
+			System.out.println("b:"+b);

@@ -1,0 +1,10 @@
+      panel.add(dataButton);
+      dataPane.add(panel, BorderLayout.SOUTH);
+
+      JPanel colorPane = new JPanel();
+      colorPane.setLayout(new BorderLayout());
+
+      normal = new JRadioButton("Normal", true);
+      inverse = new JRadioButton("Inverse", false);
+      panel = new JPanel();
+      panel.add(normal);

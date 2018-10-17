@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	public final static int USER_STATUS_SUBSCRIBE = 1, USER_STATUS_UNSUBSCRIBE = -1;
+	private WeChatAccount account;
+	private String openId,userId,userSign,userName;
+	private Date createTime,lastTime;
+	private Integer status;
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatUser(){

@@ -1,0 +1,10 @@
+            entered_equals_6 = true;
+            boolean __return = __equals( arg0 );
+            entered_equals_6 = false;
+            return __return;
+        }
+        else
+            return super.equals( arg0 );
+    }
+
+    /// public java.lang.String java.lang.Object.toString()

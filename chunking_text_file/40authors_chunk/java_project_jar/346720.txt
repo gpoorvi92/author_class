@@ -1,0 +1,10 @@
+    public boolean markSupported()
+    {
+        return true;
+    }
+
+    public int read()
+    {
+        if(idx >= charSequence.length())
+            return -1;
+        else

@@ -1,0 +1,10 @@
+
+	@Autowired
+	ProgressManager progressManager;
+	
+	@Autowired
+	StaticStateDirectoryManager staticStateDirectoryManager;
+
+	@Autowired
+	UploadServletAsyncProcessor uploadServletAsyncProcessor;
+	

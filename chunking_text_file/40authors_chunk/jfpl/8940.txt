@@ -1,0 +1,10 @@
+					if (flag) {
+						if (StringUtil.isNull(imagePath)) {
+							imagePath = file.getAbsolutePath();
+						}
+						length++;
+					}
+				}
+			}
+			if (length > 0) {
+				acd.putStringValue("image_num", length + "张");

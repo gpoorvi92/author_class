@@ -1,0 +1,10 @@
+import com.newweb.dao.base.SmallDao;
+import com.newweb.model.base.Small;
+
+@SuppressWarnings({"unchecked"})
+@Component("smallDao")
+public class SmallDaoImp implements SmallDao {
+
+	
+	private SessionFactory sessionFactory;
+	

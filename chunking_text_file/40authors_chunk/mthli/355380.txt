@@ -1,0 +1,10 @@
+            {
+               output.append(new String(b, off, len));
+            }
+         });
+   }
+
+   public void publish(LogRecord record)
+   {
+      if (!frame.isVisible()) return;
+      super.publish(record);

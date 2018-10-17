@@ -1,0 +1,10 @@
+
+	public static AbstractCommonData getCommPacket(String username) {
+		AbstractCommonData acd = DataConvertFactory.getInstance();
+		AbstractCommonData head = acd.getDataValue("head");
+		head.putStringValue("device", "android-phone: "
+				+ android.os.Build.MODEL);
+		head.putStringValue("client_time", DateUtil.detaledFormat(new Date()));
+		head.putStringValue("username", username);
+		head.putStringValue("message_type", "");
+		return acd;

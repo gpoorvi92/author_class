@@ -1,0 +1,10 @@
+        this.buffer = buffer;
+    }
+
+    public IntBufferWrapper(IntBuffer slice, int sizeInWords) {
+    	  this.buffer = slice;
+    	  this.actualSizeInWords = sizeInWords;
+		}
+
+
+		@Override

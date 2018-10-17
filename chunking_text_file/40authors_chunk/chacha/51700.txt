@@ -1,0 +1,10 @@
+	public DelAccountRequest() {
+		super.setOpt(CMD);
+	}
+
+	public AccountNameBody getBody() {
+		return body;
+	}
+
+	public void setBody(AccountNameBody body) {
+		this.body = body;

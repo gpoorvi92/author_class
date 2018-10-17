@@ -1,0 +1,10 @@
+			Cookie cookie = getCookie(req.getCookies(), cookieIdentifier);
+			if (cookie != null && cookie.getValue() != null) {
+				// set in session
+				uuid = UUID.fromString(cookie.getValue());
+				req.getSession().setAttribute(cookieIdentifier, uuid);
+				jlfuListenerPropagator.getPropagator().onClientBack(uuid);
+				return uuid;
+			}
+
+			// if not in session nor cookie, create one

@@ -1,0 +1,10 @@
+			assertTrue(qResponse.getResult()==Response.SUCCESS);
+			assertTrue(qResponse.getBody().getAcctArray().size()==10);
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+		//修改帐号密码
+		for(AccountEntity entity:acctArray){
+			entity.setPasswd("ffffffff");
+		}
+		body=new AccountBody(acctArray);

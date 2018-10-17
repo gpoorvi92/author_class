@@ -1,0 +1,10 @@
+        {
+            do
+            {
+                if(len <= 0)
+                    break label0;
+                if(encoderOut.position() <= 0)
+                    break;
+                encoderOut.flip();
+                int c = Math.min(encoderOut.remaining(), len);
+                encoderOut.get(b, off, c);

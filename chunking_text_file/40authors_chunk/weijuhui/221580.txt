@@ -1,0 +1,5 @@
+    public InputStream getContent() throws IOException,
+    UnsupportedOperationException {
+        return new ByteArrayInputStream(out.toByteArray());
+    }
+}

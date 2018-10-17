@@ -1,0 +1,10 @@
+      }
+
+      boolean this_present_plotsStatus = true && this.isSetPlotsStatus();
+      boolean that_present_plotsStatus = true && that.isSetPlotsStatus();
+      if (this_present_plotsStatus || that_present_plotsStatus) {
+        if (!(this_present_plotsStatus && that_present_plotsStatus))
+          return false;
+        if (!this.plotsStatus.equals(that.plotsStatus))
+          return false;
+      }

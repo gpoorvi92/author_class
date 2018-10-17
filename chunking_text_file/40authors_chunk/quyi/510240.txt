@@ -1,0 +1,10 @@
+      if (!this.checkTime.equals(that.checkTime))
+        return false;
+    }
+
+    boolean this_present_MD5 = true && this.isSetMD5();
+    boolean that_present_MD5 = true && that.isSetMD5();
+    if (this_present_MD5 || that_present_MD5) {
+      if (!(this_present_MD5 && that_present_MD5))
+        return false;
+      if (!this.MD5.equals(that.MD5))

@@ -1,0 +1,10 @@
+					"'password    ='" + txtaddress.getText()    +
+					"' WHERE empNo LIKE'" + txtEmpNo.getText()  + "'";
+					
+                    int result = statement.executeUpdate( temp );
+				 
+				      setVisible(false);
+				      dispose();
+					}
+				 
+				}

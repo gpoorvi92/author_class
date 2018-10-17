@@ -1,0 +1,10 @@
+      tabbedPane.addTab("File Chooser", fileChooser);
+      JColorChooser colorChooser = new JColorChooser();
+      tabbedPane.addTab("Color Chooser", colorChooser);
+
+      final JTextArea textArea = new JTextArea(4, 40);
+      JScrollPane scrollPane = new JScrollPane(textArea);
+      scrollPane.setBorder(new TitledBorder(new EtchedBorder(), "Drag text here"));
+
+      JTextField textField = new JTextField("Drag color here");
+      textField.setTransferHandler(new TransferHandler("background"));

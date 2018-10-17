@@ -1,0 +1,10 @@
+        }
+        catch(IOException ex)
+        {
+            ex.printStackTrace();
+        }
+    }
+    
+    public class SendButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent ev) {
+            try {

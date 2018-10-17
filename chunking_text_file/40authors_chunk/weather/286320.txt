@@ -1,0 +1,10 @@
+
+        if (sdf == null) {
+            if(DATE_FORMAT_DEFAULT_ZONE.contentEquals(format)){
+                sdf = new SimpleDateFormat(format, Locale.ENGLISH);
+                sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+            }else{
+                sdf = new SimpleDateFormat(format);
+            }
+            formatMap.put(format, sdf);
+        }

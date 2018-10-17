@@ -1,0 +1,10 @@
+        Color old = g.getColor();
+        
+        g.setStroke(model.getStroke());     
+       
+        if(model.getImage() != null)
+        {	
+        	System.out.println("Inside imager");
+        	g.drawImage(model.getImage(), model.getLocX()-getX(),model.getLocY()-getY(),model.getWidth(),model.getHeight(), old, null);
+        }
+        if(model.getGradientStroke() != null)

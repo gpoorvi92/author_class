@@ -1,0 +1,10 @@
+	// data structures for depth first search:
+	boolean [] alreadyVisitedFlag = new boolean[numNodes];
+	int [] predecessor = new int[numNodes];
+	IntQueue queue = new IntQueue(numNodes + 2);
+
+	for (int i=0; i<numNodes; i++) {
+	    alreadyVisitedFlag[i] = false;
+	    predecessor[i] = -1;
+	}
+

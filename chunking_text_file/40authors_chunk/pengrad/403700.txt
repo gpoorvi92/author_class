@@ -1,0 +1,10 @@
+    public static void checkVideoMessage(Message message) {
+        checkMessage(message);
+        assertNotNull(message.caption());
+        VideoTest.check(message.video());
+    }
+
+    public static void checkVoiceMessage(Message message) {
+        checkMessage(message);
+        VoiceTest.check(message.voice());
+    }

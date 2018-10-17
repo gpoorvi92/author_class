@@ -1,0 +1,10 @@
+			parameters.put("accountId", info.getAccountId());
+		}
+		if(info.getAccountName() != null && !info.getAccountName().trim().isEmpty()){
+			hql += " and (w.account.name like :accountName or w.account.account like :accountName) ";
+			parameters.put("accountName", "%" + info.getAccountName() + "%");
+		}
+		if(info.getUserName() != null && !info.getUserName().trim().isEmpty()){
+			hql += " and (w.userName like :userName or w.userSign like :userName) ";
+			parameters.put("userName", "%"+ info.getUserName() +"%");
+		}

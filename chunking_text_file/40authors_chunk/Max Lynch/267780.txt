@@ -1,0 +1,10 @@
+package com.gs.shape;
+
+
+import java.awt.*;
+
+import java.awt.geom.*;
+
+import com.gs.ui.*;
+
+public class LineLayer extends ShapeLayer {

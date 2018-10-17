@@ -1,0 +1,10 @@
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode cur = headA;
+        int lenA = 0, lenB = 0;
+        while (cur != null) {
+            ++lenA;
+            cur = cur.next;
+        }
+        cur = headB;
+        while (cur != null) {
+            ++lenB;

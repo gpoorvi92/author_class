@@ -1,0 +1,4 @@
+        " termina aqui!!! ");
+    System.out.println("La media es " + (media = (suma - num) / (contador -1)));
+  }
+}

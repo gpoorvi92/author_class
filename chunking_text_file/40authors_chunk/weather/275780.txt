@@ -1,0 +1,10 @@
+        Log.wtf(TAG, buildMessage(format, args), tr);
+    }
+
+    /**
+     * Formats the caller's provided message and prepends useful info like
+     * calling thread ID and method name.
+     */
+    private static String buildMessage(String format, Object... args) {
+        String msg = (args == null) ? format : String.format(Locale.US, format, args);
+        StackTraceElement[] trace = new Throwable().fillInStackTrace().getStackTrace();

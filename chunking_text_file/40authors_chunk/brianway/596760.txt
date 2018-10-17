@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example8;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P161
+ * 多生产与多消费，假死
+ * 只需将Producer和Consumer类中的notify()改为notifyAll()即可让程序一直运行下去

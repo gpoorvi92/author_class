@@ -1,0 +1,10 @@
+//		}
+		
+//		Set<OrderSmall> set = new HashSet<OrderSmall>();
+//		OrderSmall os1 = new OrderSmall();
+//		OrderSmall os2 = new OrderSmall();
+//		Small s1 = new Small();
+//		s1.setID(1);
+//		Small s2 = new Small();
+//		s2.setID(1);
+//		os1.setSmall(s1);

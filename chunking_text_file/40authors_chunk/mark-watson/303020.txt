@@ -1,0 +1,10 @@
+    public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Usage: argument is a string like \"The ball rolled down the street.\"\n\nSample run:\n");
+            List<String> words = nlp.com.knowledgebooks.nlp.util.Tokenizer.wordsToList("The ball rolled down the street.");
+            List<String> tags = (new FastTag()).tag(words);
+            for (int i = 0; i < words.size(); i++) System.out.println(words.get(i) + "/" + tags.get(i));
+        } else {
+            List<String> words = nlp.com.knowledgebooks.nlp.util.Tokenizer.wordsToList(args[0]);
+            List<String> tags = (new FastTag()).tag(words);
+            for (int i = 0; i < words.size(); i++) System.out.println(words.get(i) + "/" + tags.get(i));

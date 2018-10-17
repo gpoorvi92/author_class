@@ -1,0 +1,10 @@
+public class GatewayServerDispatcher implements IDispatcher<Fenrisulfr.RpcPacket>
+{
+    private static final Logger log = LoggerFactory.getLogger(GatewayServerDispatcher.class);
+    @Inject
+    private GatewayMoudleDispatcher gatewayMoudleDispatcher;
+    @Override
+    public void diapatch(Channel channel, Fenrisulfr.RpcPacket pkt)
+    {
+        int opcode = pkt.getOpcode();
+        int serverType = DispatcherHelper.serverType(opcode);

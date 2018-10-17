@@ -1,0 +1,10 @@
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                LogUtil.e(error);
+                fail(error.toString());
+                syncRequestCompleted();
+            }
+
+            @Override
+            public void onResponse(DailyResponse response) {
+                LogUtil.d(response.toJson());

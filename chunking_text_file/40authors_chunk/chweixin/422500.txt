@@ -1,0 +1,10 @@
+	public void setToken(String token) {
+		this.token = token;
+	}
+	/**
+	 * 获取公众号OpenId。
+	 * @return 公众号OpenId。
+	 * */
+	public String getOpenId() {
+		return openId;
+	}

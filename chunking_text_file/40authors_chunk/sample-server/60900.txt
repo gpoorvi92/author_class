@@ -1,0 +1,10 @@
+            cdKeyEntity.setCdName(cdName);
+            cdKeyEntity.setCdKey(key);
+            cdKeyEntity.setGiftId(giftId);
+            cdKeyEntity.setDateLimit(StringToDate(dateLimit));
+            cdKeyEntity.setLegealCount(legealCount);
+            cdKeyEntity.setLeftCount(legealCount);
+            cdKeyEntity.setZoneId(zoneId);
+            cdKeyEntity.setUuid(uuid.toString());
+            cdkeys.add(cdKeyEntity);
+            rpcReq.addCdKeyDTO(cdKeyEntity.toDTO());

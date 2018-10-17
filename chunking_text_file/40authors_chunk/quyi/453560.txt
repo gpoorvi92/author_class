@@ -1,0 +1,10 @@
+    }
+
+    public void setIreIsSet(boolean value) {
+      if (!value) {
+        this.ire = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.UnavailableException getUe() {
+      return this.ue;

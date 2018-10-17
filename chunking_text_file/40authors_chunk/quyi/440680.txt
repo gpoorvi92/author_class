@@ -1,0 +1,10 @@
+        case 4: // TARGET_ADDRESS
+          return TARGET_ADDRESS;
+        case 5: // TARGET_PORT
+          return TARGET_PORT;
+        case 6: // PROTOCAL
+          return PROTOCAL;
+        case 7: // DATA_HEX
+          return DATA_HEX;
+        case 8: // DATA_CHAR
+          return DATA_CHAR;

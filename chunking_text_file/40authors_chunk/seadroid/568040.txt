@@ -1,0 +1,10 @@
+
+public class TransferService extends Service {
+    private static final String DEBUG_TAG = "TransferService";
+
+    private final IBinder mBinder = new TransferBinder();
+    private DownloadTaskManager downloadTaskManager;
+    private UploadTaskManager uploadTaskManager;
+
+    @Override
+    public void onCreate() {

@@ -1,0 +1,10 @@
+	// Ctor(s)
+	//
+
+	/** Default ctor */
+	public DefaultDevCatInfoList() {}
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+

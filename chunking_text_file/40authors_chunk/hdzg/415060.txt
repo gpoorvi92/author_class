@@ -1,0 +1,10 @@
+					break;
+				case 1://无钱进时玩家确认放弃拜访
+				case 2://拜访成功
+				case 3://拜访失败
+				case 4://拜访成功，但是建造失败，原因是之前的还正在建造
+					recoverGame();
+					break;
+				}				
+			}
+			else if(x>DIALOG_BTN_START_X+DIALOG_BTN_SPAN && x<DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WIDTH

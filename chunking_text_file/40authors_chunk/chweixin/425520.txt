@@ -1,0 +1,10 @@
+	 * 	地理位置经度。
+	 * */
+	public void setLocation_Y(String location_Y) {
+		this.location_Y = location_Y;
+	}
+	/**
+	 * 获取地图缩放大小。
+	 * @return 地图缩放大小。
+	 * */
+	public Integer getScale() {

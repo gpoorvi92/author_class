@@ -1,0 +1,10 @@
+            for (String featureItem : features) {
+                mFeatureSet.add(featureItem.trim());
+            }
+        }
+    }
+
+    public String getCpuImplementerText() {
+        String cpuPartText = sCpuImplementerMap.get(mCpuImplementer);
+        if (TextUtils.isEmpty(cpuPartText)) {
+            return String.format("Unknown:0x%x", mCpuImplementer);

@@ -1,0 +1,10 @@
+public class StringDemo {
+	public static void main(String[] args) throws IOException {
+		// 读取文件内容，读一次，用字符串接受。
+		BufferedReader br = new BufferedReader(new FileReader("s.txt"));
+		String line = br.readLine();
+		br.close();
+
+		// 把字符串转换成字符数组
+		char[] chs = line.toCharArray();
+

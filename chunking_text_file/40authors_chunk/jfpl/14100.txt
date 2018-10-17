@@ -1,0 +1,10 @@
+
+	@Override
+	public void onReceivePoi(BDLocation arg0) {
+	}
+
+	@Override
+	protected void onDestroy() {
+		mapView.destroy();
+		if (mapView != null) {
+			mapView.destroy();

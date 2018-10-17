@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean save(TypeForBrand type) {
+		return typeForBrandDao.insert(type);
+	}
+
+	@Override
+	public int getOrderLhjWinPropsCount(int id) {
+		TypeForBrand type = typeForBrandDao.selectTypeForBrandByID(id);

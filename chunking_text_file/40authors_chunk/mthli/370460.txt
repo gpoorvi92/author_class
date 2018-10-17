@@ -1,0 +1,10 @@
+public class ColorChooserPanel extends JPanel
+{
+   public ColorChooserPanel()
+   {
+      JButton modalButton = new JButton("Modal");
+      modalButton.addActionListener(new ModalListener());
+      add(modalButton);
+
+      JButton modelessButton = new JButton("Modeless");
+      modelessButton.addActionListener(new ModelessListener());

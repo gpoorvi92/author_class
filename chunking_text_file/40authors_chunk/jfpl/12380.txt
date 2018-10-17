@@ -1,0 +1,10 @@
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView,
+					boolean isChecked) {
+				AbstractCommonData acd = (AbstractCommonData) buttonView
+						.getTag();
+				String path = acd.getStringValue("image_path");
+				if (isChecked) {
+					selectImageList.add(path);
+					acd.putBooleanValue("is_checked", true);
+				} else {

@@ -1,0 +1,10 @@
+        else
+            super.componentShown( e );
+    }
+
+    /// public void java.awt.event.ComponentAdapter.componentHidden(java.awt.event.ComponentEvent)
+
+    public native void __componentHidden( java.awt.event.ComponentEvent e );
+
+    boolean entered_componentHidden_3;
+

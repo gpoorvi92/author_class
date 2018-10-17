@@ -1,0 +1,10 @@
+ * ***** END LICENSE BLOCK ***** * 
+ */
+package info.monitorenter.cpdetector;
+
+import info.monitorenter.cpdetector.io.ASCIIDetector;
+import info.monitorenter.cpdetector.io.CodepageDetectorProxy;
+import info.monitorenter.cpdetector.io.JChardetFacade;
+import info.monitorenter.cpdetector.io.ParsingDetector;
+
+import java.io.File;

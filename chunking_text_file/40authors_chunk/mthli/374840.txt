@@ -1,0 +1,5 @@
+            .getPercentInstance(currentLocale);
+      String n = currentNumberFormat.format(currentNumber);
+      numberText.setText(n);
+   }
+}

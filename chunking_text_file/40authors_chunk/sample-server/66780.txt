@@ -1,0 +1,10 @@
+            GameServerRpc.ContainCdKeyResp ret = GameServerRpc.ContainCdKeyResp.parseFrom(resp.getContent());
+            rpcClientPool.returnRpcClient(rpcClient);
+            return ret;
+        } catch (Exception e)
+        {
+            rpcClientPool.returnBrokenRpcClient(rpcClient);
+            throw new RpcException(e);
+        }
+    }
+    

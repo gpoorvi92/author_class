@@ -1,0 +1,10 @@
+      if (field == null) {
+        throw new IllegalArgumentException();
+      }
+
+      switch (field) {
+      case MISSION_ID:
+        return isSetMissionId();
+      case USER_APP_ID:
+        return isSetUserAppId();
+      case STATUS:

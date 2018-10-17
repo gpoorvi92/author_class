@@ -1,0 +1,10 @@
+
+	@Override
+	public AbstractCommonData sendHttpPost(AbstractCommonData sendData)
+			throws Exception {
+		String url = getCommonUrl(sendData);
+		AbstractCommonData head = sendData.getDataValue("head");
+		head.putStringValue("device", "android:" + android.os.Build.MODEL);
+		if (!head.containsKey("username") && head.containsKey("phone_num")) {
+			head.putStringValue("username", head.getStringValue("phone_num"));
+		}

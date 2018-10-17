@@ -1,0 +1,10 @@
+		return smallDao.delete(small);
+	}
+
+
+	@Override
+	public int getOrderSmallsCount(int id) {
+		Small small = smallDao.selectSmallById(id);
+		return small.getOrderSmalls().size();
+	}
+

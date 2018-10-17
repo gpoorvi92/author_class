@@ -1,0 +1,10 @@
+
+					pGLState.translateModelViewGLMatrixf(rotationCenterX, rotationCenterY, 0);
+					/* Note we are applying rotation around the y-axis and not the z-axis anymore! */
+					pGLState.rotateModelViewGLMatrixf(rotation, 0, 1, 0);
+					pGLState.translateModelViewGLMatrixf(-rotationCenterX, -rotationCenterY, 0);
+				}
+			}
+		};
+		face.registerEntityModifier(new LoopEntityModifier(new RotationModifier(6, 0, 360)));
+		scene.attachChild(face);

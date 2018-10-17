@@ -1,0 +1,10 @@
+		FRAME.setSize(sw-100, sh-100);
+		frameDesktop.repositionWindows(FRAME.getSize());
+		FRAME.setTitle("Graphics Studio v0.1");
+		FRAME.show();
+		
+		FRAME.addWindowListener(new WindowAdapter() {
+			public void windowClosed(WindowEvent e) {
+				System.exit(0);
+			}
+		});

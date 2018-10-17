@@ -1,0 +1,10 @@
+	 * @param clientId
+	 * @param fileId
+	 * @return
+	 * @throws FileNotFoundException
+	 */
+	public FileProgressStatus getProgress(UUID clientId, UUID fileId)
+			throws FileNotFoundException {
+		return progressManager.getProgress(fileId);
+	}
+

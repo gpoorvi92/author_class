@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 自定义菜单事件解析成对象。
+	 * @param data
+	 * 	消息数据。
+	 * @return
+	 *  事件消息对象。
+	 * */
+	public static ClickEventMessage parseClickEventMessage(Map<String, String> data){
+		ClickEventMessage clickEventMessage = new ClickEventMessage();

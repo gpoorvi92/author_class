@@ -1,0 +1,10 @@
+			}
+			if(cs.length == 0){
+				return "linkNameUnvalid";	//关联名不可用
+			}
+			if(cs.length > 1){
+				return "nameRepead";	//系统检测此名存在多个结果
+			}
+		}
+		
+		if(cs == null || cs.length == 0){

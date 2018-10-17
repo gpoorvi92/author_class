@@ -1,0 +1,10 @@
+  public Rules(Rules other) {
+    if (other.isSetRuleId()) {
+      this.ruleId = other.ruleId;
+    }
+    if (other.isSetRuleName()) {
+      this.ruleName = other.ruleName;
+    }
+    if (other.isSetRuleTypes()) {
+      List<Activity> __this__ruleTypes = new ArrayList<Activity>(other.ruleTypes.size());
+      for (Activity other_element : other.ruleTypes) {

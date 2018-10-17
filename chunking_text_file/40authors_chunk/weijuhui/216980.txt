@@ -1,0 +1,10 @@
+    public static EditNumberActivity_.IntentBuilder_ intent(Context context) {
+        return new EditNumberActivity_.IntentBuilder_(context);
+    }
+
+    @SuppressWarnings("unchecked")
+    private<T >T cast_(Object object) {
+        return ((T) object);
+    }
+
+    private void injectExtras_() {

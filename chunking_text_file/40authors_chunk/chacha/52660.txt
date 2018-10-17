@@ -1,0 +1,10 @@
+			acctV.add(a);
+		}
+		boolean result=true;
+		if(!acctV.isEmpty()){
+			Account[] array=(Account[])acctV.toArray(new Account[0]);
+			result=acctDAO.addBatch(array);
+		}
+		Response r=new Response();
+		r.setResult(result?ResponseCode.SUCCESS:ResponseCode.ERROR_ACCOUNT_ADD);
+		return r;

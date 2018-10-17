@@ -1,0 +1,10 @@
+
+	private static Properties properties = new Properties();
+
+	private static String queue_name = null;
+	private static String queue_url = null;
+	private static String engine_address = null;
+	private static int engine_port = 0;
+	private static int engine_notify_port = 0;
+	private static String taskmanager_address = null;
+	private static int taskmanager_submit_port = 0;

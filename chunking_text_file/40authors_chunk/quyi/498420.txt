@@ -1,0 +1,10 @@
+  /** Returns true if field operateType is set (has been assigned a value) and false otherwise */
+  public boolean isSetOperateType() {
+    return this.operateType != null;
+  }
+
+  public void setOperateTypeIsSet(boolean value) {
+    if (!value) {
+      this.operateType = null;
+    }
+  }

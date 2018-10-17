@@ -1,0 +1,10 @@
+
+  public Map<PlotsType,CheckResultStatus> getPlotsStatus() {
+    return this.plotsStatus;
+  }
+
+  public AppDetectResult setPlotsStatus(Map<PlotsType,CheckResultStatus> plotsStatus) {
+    this.plotsStatus = plotsStatus;
+    return this;
+  }
+

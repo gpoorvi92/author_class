@@ -1,0 +1,10 @@
+
+
+package com.jml.eisapp.acctg.interfaces;
+public interface CheckEntries {
+
+	public boolean CompCodeIsValid(String tstrCompCode);
+	public boolean DivisionCodeIsValid(String tstrDivisionCode);
+	public boolean GLCodeIsValid(String tstrCompCode,String tstrGLCode);
+	public boolean SLCodeIsValid(String tstrSLCode);
+	public boolean DeptCodeIsValid(String tstrCompCode,String tstrDeptCode);

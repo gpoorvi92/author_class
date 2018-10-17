@@ -1,0 +1,10 @@
+     */
+    public static void print( Object obj ) { tracer.print( obj.toString() ); }
+
+    /**
+     * Prints a StackTrace from an Exception object.
+     * @param e the Exception to extract StackTrace from
+     */
+    public static void print( Exception e ) { tracer.print( e ); }
+    
+    /** Flushes the TracerOutput */

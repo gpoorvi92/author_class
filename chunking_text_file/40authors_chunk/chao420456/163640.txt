@@ -1,0 +1,10 @@
+				// 获取文本框的值，赋值给文本域
+				String tf_str = tf.getText();
+				// 清空数据
+				tf.setText("");
+
+				// ta.setText(tf_str);
+				ta.append(tf_str + "\n");
+			}
+		});
+

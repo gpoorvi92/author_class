@@ -1,0 +1,10 @@
+            return __return;
+        }
+        else
+            return super.toString( );
+    }
+
+    /// public native int java.lang.Object.hashCode()
+
+    public native int __hashCode();
+

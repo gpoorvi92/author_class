@@ -1,0 +1,10 @@
+	
+	@AfterTextChange(R.id.details_dt)
+	void detailsChange(Editable s){
+		Spannable spanText = (Spannable) s;
+		Selection.setSelection(spanText, s.length());
+	}
+	
+	@AfterViews
+	void afterViews() {
+		if (flag != -1) {

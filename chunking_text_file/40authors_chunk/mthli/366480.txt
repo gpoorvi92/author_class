@@ -1,0 +1,10 @@
+      JPanel panel = new JPanel();
+      startButton = new JButton("Start");
+      progressBar = new JProgressBar(0, MAX);
+      progressBar.setStringPainted(true);
+      panel.add(startButton);
+      panel.add(progressBar);
+
+      checkBox = new JCheckBox("indeterminate");
+      checkBox.addActionListener(new ActionListener()
+         {

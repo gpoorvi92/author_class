@@ -1,0 +1,10 @@
+
+
+	@Override
+	public boolean save(Small small) {
+		return smallDao.insert(small);
+	}
+
+
+	@Override
+	public boolean remove(Small small) {

@@ -1,0 +1,10 @@
+	 		String query3 = "delete * from Item "+
+	 		" WHERE item_id = '%" + a + "%'";
+	 		int result = statement.executeUpdate(query3);
+	 		String query2 = "delete * from journal_detail "+
+	 		" WHERE item_id = '%" + a + "%'";
+	 		int result2 = statement.executeUpdate(query2);	 		
+			if (result == 1 && result2 == 1)
+			{
+				JOptionPane.showMessageDialog(null, "del Succesful");
+				journal_no_text.setText("JL-");

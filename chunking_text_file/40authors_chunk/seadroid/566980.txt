@@ -1,0 +1,5 @@
+        for (LifeCycleListener listener : mListeners) {
+            listener.onActivityStopped(this);
+        }
+    }
+}

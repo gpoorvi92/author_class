@@ -1,0 +1,10 @@
+
+    /**
+     * 中文超大字符集
+     */
+    public static final String GBK = "GBK";
+
+    /**
+     * 将字符编码转换成US-ASCII码
+     */
+    public final static String toASCII(String str) throws UnsupportedEncodingException {

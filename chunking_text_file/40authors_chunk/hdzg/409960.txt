@@ -1,0 +1,10 @@
+package wyf.ytl.entity;
+/*
+ * 该类继承自线程类，主要负责英雄后台数据的定时修改，如每隔一段时间增加英雄的体力
+ * 每个一段时间减少英雄的粮草，为科研线程
+ */
+import static wyf.ytl.tool.ConstantUtil.*;
+
+import java.util.ArrayList;
+
+import wyf.ytl.view.FoodAlert;

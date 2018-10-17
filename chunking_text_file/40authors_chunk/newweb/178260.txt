@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public boolean delete(Bill bill) {
+		try {
+			sessionFactory.getCurrentSession().delete(bill);
+		} catch (Exception e) {
+			return false;

@@ -1,0 +1,10 @@
+
+   public int size() 
+   { 
+      return count; 
+   } 
+
+   public Iterator<E> iterator()
+   {
+      return new QueueIterator();
+         

@@ -1,0 +1,10 @@
+  }
+
+  public void addToFileOperate(FileOperate elem) {
+    if (this.fileOperate == null) {
+      this.fileOperate = new ArrayList<FileOperate>();
+    }
+    this.fileOperate.add(elem);
+  }
+
+  public List<FileOperate> getFileOperate() {

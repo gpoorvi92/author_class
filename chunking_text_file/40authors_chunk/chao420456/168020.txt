@@ -1,0 +1,10 @@
+						dos.writeUTF(username + "@login" + getThreadID() + "@login");
+					} catch (IOException e) {
+						e.printStackTrace();
+					}
+				}else{
+					if(chat_re.contains("@userlist")){
+						c_chatFrame.setDisUsers(chat_re);
+					}else{
+						if(chat_re.contains("@chat")){
+							c_chatFrame.setDisMess(chat_re);

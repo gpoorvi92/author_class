@@ -1,0 +1,10 @@
+	public void cInsert(byte[] entry) 
+	{ 
+		//get hashCode for entry 
+		int hashCode = getHashCode(entry); 
+
+		//create hashCode with given entry
+		HashNode newNode = new HashNode(nextCode, entry); 
+
+		//find a spot in the hashChain for it
+		if(null == data[hashCode]) 

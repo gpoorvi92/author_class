@@ -1,0 +1,10 @@
+     * @param topTextSize	text size of the top TextView in dps
+     * @param bottomTextSize	text size of the bottom TextView in dps
+     * @param lineHeight	LineHeight of the top TextView
+     */
+    public DayTimeLayoutView(Context context, boolean isCenterView,
+            int topTextSize, int bottomTextSize, float lineHeight) {
+        super(context, isCenterView, topTextSize, bottomTextSize, lineHeight);
+    }
+
+    @Override

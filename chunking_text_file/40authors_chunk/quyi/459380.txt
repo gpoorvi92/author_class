@@ -1,0 +1,10 @@
+      return this.success;
+    }
+
+    public searchMission_result setSuccess(MissionResults success) {
+      this.success = success;
+      return this;
+    }
+
+    public void unsetSuccess() {
+      this.success = null;

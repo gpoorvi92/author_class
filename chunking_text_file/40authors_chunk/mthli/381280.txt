@@ -1,0 +1,10 @@
+   /**
+      Sets the cell weights.
+      @param weightx the cell weight in x-direction
+      @param weighty the cell weight in y-direction
+      @return this object for further modification
+   */
+   public GBC setWeight(double weightx, double weighty) 
+   { 
+      this.weightx = weightx; 
+      this.weighty = weighty; 

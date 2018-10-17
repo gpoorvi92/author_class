@@ -1,0 +1,10 @@
+ * 		hello,world,java,android,javaee
+ * 
+ * 和数组排序的选择排序思想一样。
+ */
+public class ArrayListTest2 {
+	public static void main(String[] args) {
+		// 定义集合，存储带重复的元素
+		ArrayList array = new ArrayList();
+		array.add("hello");
+		array.add("world");

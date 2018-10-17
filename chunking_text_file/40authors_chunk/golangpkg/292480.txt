@@ -1,0 +1,10 @@
+	public void writeEntity(UUID uuid, T entity) {
+		writeEntity(new File(staticStateDirectoryManager.getUUIDFileParent(uuid), StaticStateManager.FILENAME), entity);
+	}
+
+	/**
+	 * Persists modifications onto filesystem only.
+	 * 
+	 * @param staticStateFile the file in which to write the entity
+	 * @param entity the entity to write into that file
+	 */

@@ -1,0 +1,10 @@
+
+    PlainDocumentProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.text.PlainDocument(javax.swing.text.AbstractDocument$Content)
+
+    PlainDocumentProxy( javax.swing.text.AbstractDocument.Content c , long swiftObject ) {
+        super( c );

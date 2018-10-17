@@ -1,0 +1,10 @@
+	@Override
+	public List<Customer> selectAllCustomers() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_customer where valid=true")
+				.addEntity(Customer.class);
+		return query.list();
+	}
+
+
+	@Override
+	public List<Customer> selectCustomersByLikePy(String py) {

@@ -1,0 +1,10 @@
+
+/*
+输出：
+当前时间为：Fri Apr 15 23:41:22 CST 2016
+计划时间为：Fri Apr 15 23:41:22 CST 2016
+A run timer=Fri Apr 15 23:41:22 CST 2016
+A任务自己移除自己
+B run timer=Fri Apr 15 23:41:22 CST 2016
+B run timer=Fri Apr 15 23:41:26 CST 2016
+B run timer=Fri Apr 15 23:41:30 CST 2016

@@ -1,0 +1,10 @@
+    * @param newValue the new color
+    */
+   public void setGraphColor(Color newValue)
+   {
+      if (bean == null) return;
+      Color oldValue = bean.getGraphColor();
+      bean.setGraphColor(newValue);
+      firePropertyChange("graphColor", oldValue, newValue);
+   }
+

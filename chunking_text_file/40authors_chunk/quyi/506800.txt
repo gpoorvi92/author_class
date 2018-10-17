@@ -1,0 +1,10 @@
+			jxl.SheetSettings sheetset = sheet.getSettings();
+			sheetset.setProtected(false);
+
+			/** ************设置单元格字体************** */
+			WritableFont NormalFont = new WritableFont(WritableFont.ARIAL, 10);
+			WritableFont BoldFont = new WritableFont(WritableFont.ARIAL, 10,
+					WritableFont.BOLD);
+
+			// 用于正文居左
+			WritableCellFormat wcf_left = new WritableCellFormat(NormalFont);

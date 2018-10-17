@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义动态检测网络流量记录
+ * 1:string pidName 进程编号
+ * 2:string sourceAddress 源地址
+ * 3:string sourcePort 源端口
+ * 4:string targetAddress 目标地址

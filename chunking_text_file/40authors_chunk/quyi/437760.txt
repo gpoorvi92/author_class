@@ -1,0 +1,10 @@
+    this.hardware = hardware;
+    this.software = software;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public NodeInfo(NodeInfo other) {
+    if (other.isSetHardware()) {
+      this.hardware = new Hardware(other.hardware);

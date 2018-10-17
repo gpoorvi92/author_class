@@ -1,0 +1,10 @@
+public final class OkApacheClient implements HttpClient {
+  private static Request transformRequest(HttpRequest request) {
+    Request.Builder builder = new Request.Builder();
+
+    RequestLine requestLine = request.getRequestLine();
+    String method = requestLine.getMethod();
+    builder.url(requestLine.getUri());
+
+    for (Header header : request.getAllHeaders()) {
+      builder.header(header.getName(), header.getValue());

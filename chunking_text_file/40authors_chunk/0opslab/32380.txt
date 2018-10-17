@@ -1,0 +1,9 @@
+        }
+        for(Map.Entry<String,String> entry:group.entrySet()){
+            String[] value = entry.getValue().split(":");
+            int sum = Integer.parseInt(value[0])/60/60;
+            int count = Integer.parseInt(value[1]);
+            System.out.println(entry.getKey()+"=>"+sum+"/"+count);
+        }
+    }
+}

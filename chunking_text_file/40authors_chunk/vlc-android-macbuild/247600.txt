@@ -1,0 +1,10 @@
+        if (isIndexMrl())
+            return false;
+
+        return true;
+    }
+
+    final public boolean isIndexMrl() {
+        return mIsIndexMrl;
+    }
+

@@ -1,0 +1,10 @@
+	{
+		String us = user.getText();
+	    String SQL;
+		
+		String pas= pass.getText();
+        //String category=cboCat.getSelectedItem();
+		SQL = "SELECT * FROM users WHERE username='" + us + "'  AND password='"+pas+"'AND Category='"+cboCat.getSelectedItem()+"'";
+		try
+		{
+			Statement stmt   = Connect.getConnection().createStatement();

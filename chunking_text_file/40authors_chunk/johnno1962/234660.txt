@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.DesktopManager.openFrame(javax.swing.JInternalFrame)
+
+    public native void __openFrame( javax.swing.JInternalFrame f );
+
+    public void openFrame( javax.swing.JInternalFrame f ) {
+        __openFrame( f );
+    }

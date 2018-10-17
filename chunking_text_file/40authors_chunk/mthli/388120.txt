@@ -1,0 +1,10 @@
+      label = new JLabel(prefix + suffix);
+      add(label, BorderLayout.CENTER);
+      add(buttonPanel, BorderLayout.SOUTH);
+   }
+
+   /**
+    * Makes a radio button to set the layout orientation.
+    * @param label the button label
+    * @param orientation the orientation for the list
+    */

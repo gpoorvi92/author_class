@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxg where valid=true and norms like ? order by buycount desc,CONVERT(name USING GBK)")
+				.addEntity(Bxg.class);
+		query.setString(0, condition);
+		return query.list();
+	}
+
+	@SuppressWarnings("rawtypes")
+	@Override
+	public List selectAllBxgs(int start, int limit) {
+		List list = new ArrayList();

@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list124 = iprot.readListBegin();
+                struct.usedPermissions = new ArrayList<Map<String,APICheck>>(_list124.size);
+                for (int _i125 = 0; _i125 < _list124.size; ++_i125)
+                {
+                  Map<String,APICheck> _elem126;
+                  {
+                    org.apache.thrift.protocol.TMap _map127 = iprot.readMapBegin();
+                    _elem126 = new HashMap<String,APICheck>(2*_map127.size);

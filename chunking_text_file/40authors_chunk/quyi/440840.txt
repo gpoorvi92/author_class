@@ -1,0 +1,10 @@
+
+  public NetworkPacket() {
+  }
+
+  public NetworkPacket(
+    String pidName,
+    String sourceAddress,
+    String sourcePort,
+    String targetAddress,
+    String targetPort,

@@ -1,0 +1,10 @@
+  }
+
+  public void unsetScreenShotPath() {
+    this.screenShotPath = null;
+  }
+
+  /** Returns true if field screenShotPath is set (has been assigned a value) and false otherwise */
+  public boolean isSetScreenShotPath() {
+    return this.screenShotPath != null;
+  }

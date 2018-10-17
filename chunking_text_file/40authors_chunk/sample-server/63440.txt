@@ -1,0 +1,10 @@
+                break;
+            case LOGIC:
+            {
+                GatewayConnection conn = (GatewayConnection) channel.getAttachment();
+                TransClient client = TransClientFactory.getClient(serverType, conn.getLogicServerid());
+                if (null != client)
+                {
+                    Fenrisulfr.TransPacket trans = Fenrisulfr.TransPacket.newBuilder().setChannelId(channel.getId()).setCounter(pkt.getCounter()).setOpcode(opcode).setContent(pkt.getContent()).build();
+                    try
+                    {

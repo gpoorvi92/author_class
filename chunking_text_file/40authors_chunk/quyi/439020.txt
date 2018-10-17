@@ -1,0 +1,10 @@
+  public Hardware(Hardware other) {
+    __isset_bitfield = other.__isset_bitfield;
+    if (other.isSetCpuVendor()) {
+      this.cpuVendor = other.cpuVendor;
+    }
+    if (other.isSetCpuModel()) {
+      this.cpuModel = other.cpuModel;
+    }
+    this.cpuCores = other.cpuCores;
+    this.cpuMhz = other.cpuMhz;

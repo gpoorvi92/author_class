@@ -1,0 +1,10 @@
+			609871
+*/
+class JiaMiDemo{
+	public static void main(String[] args) {
+		//123456
+		//int[] arr = {1,2,3,4,5,6};
+
+		//定义数据
+		int number = 123456;
+

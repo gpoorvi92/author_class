@@ -1,0 +1,10 @@
+package com.am.jlfu.fileuploader.utils;
+
+
+/**
+ * Provdes static unit conversion methods.<br>
+ * A javascript method is also contained in <code>javalargefileuploader.js</code>
+ * 
+ * @author antoinem
+ */
+public final class UnitConverter {

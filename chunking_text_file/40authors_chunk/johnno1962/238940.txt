@@ -1,0 +1,10 @@
+
+/// interface java.awt.event.KeyListener ///
+
+package org.genie.java_awt;
+
+public class KeyListenerProxy implements java.awt.event.KeyListener {
+
+    long swiftObject;
+
+    KeyListenerProxy( long swiftObject ) {

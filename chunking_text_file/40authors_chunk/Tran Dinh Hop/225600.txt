@@ -1,0 +1,10 @@
+	        	returnVal = fc.showDialog(FileChooser.this, "Open");
+			
+		} else if (_fileType == "rle" && _action == "Save"){ // Target file to Compress with Zip
+            	fc.addChoosableFileFilter(new RLEFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");
+			
+		} else if (_fileType == "rle" && _action == "Open"){ // Source file to Compress with Zip
+            	fc.addChoosableFileFilter(new RLEFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));

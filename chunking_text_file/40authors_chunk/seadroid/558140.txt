@@ -1,0 +1,10 @@
+
+        private void setCustomAction(Viewholder viewHolder, CustomAction customAction) {
+            viewHolder.icon.setImageDrawable(customAction.icon);
+            viewHolder.desc.setText(customAction.description);
+        }
+
+        private void setAppInfo(Viewholder viewHolder, ResolveInfo info) {
+            PackageManager pm = getActivity().getPackageManager();
+            CharSequence appDesc = info.activityInfo.loadLabel(pm);
+            Drawable appIcon = info.activityInfo.loadIcon(pm);

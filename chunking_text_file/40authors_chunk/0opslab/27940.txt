@@ -1,0 +1,10 @@
+    public void setDeclared(boolean isDeclared) {
+        this.isDeclared = isDeclared;
+    }
+
+    public String getFieldName() {
+        return fieldName;
+    }
+
+    public void setFieldName(String fieldName) {
+        this.fieldName = fieldName;

@@ -1,0 +1,10 @@
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.tabs_main);
+
+        tabsAdapter = new TransferTabsAdapter(getSupportFragmentManager());
+
+        pager = (ViewPager) findViewById(R.id.pager);
+        pager.setAdapter(tabsAdapter);

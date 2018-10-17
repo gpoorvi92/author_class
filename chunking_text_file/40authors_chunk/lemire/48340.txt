@@ -1,0 +1,10 @@
+    public void testAnd() {
+        for (int N = 1; N < 10; ++N) {
+            System.out.println("testAnd N = " + N);
+            Iterator<EWAHCompressedBitmap[]> i = getCollections(N,
+                    3);
+            while (i.hasNext()) {
+                EWAHCompressedBitmap[] x = i.next();
+                EWAHCompressedBitmap tanswer = EWAHCompressedBitmap.and(x);
+                EWAHCompressedBitmap x1 = IteratorUtil
+                        .materialize(IteratorAggregation

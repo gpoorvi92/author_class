@@ -1,0 +1,10 @@
+        beforeRead(len);
+        n = in.read(chr, st, len);
+        afterRead(n);
+        return n;
+        IOException e;
+        e;
+        handleIOException(e);
+        return -1;
+    }
+

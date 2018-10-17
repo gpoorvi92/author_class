@@ -1,0 +1,10 @@
+    {
+      send_modifyNodeManagerConfig(nodeId, propertyName, propertyValue);
+      return recv_modifyNodeManagerConfig();
+    }
+
+    public void send_modifyNodeManagerConfig(String nodeId, String propertyName, String propertyValue) throws org.apache.thrift.TException
+    {
+      modifyNodeManagerConfig_args args = new modifyNodeManagerConfig_args();
+      args.setNodeId(nodeId);
+      args.setPropertyName(propertyName);

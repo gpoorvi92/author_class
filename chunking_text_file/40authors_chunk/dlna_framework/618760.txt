@@ -1,0 +1,10 @@
+		httpRes.setDate(Calendar.getInstance());
+		
+		OutputStream out = getOutputStream();
+
+		try {
+			httpRes.setContentLength(contentLength);
+			
+			out.write(httpRes.getHeader().getBytes());
+			out.write(HTTP.CRLF.getBytes());
+			

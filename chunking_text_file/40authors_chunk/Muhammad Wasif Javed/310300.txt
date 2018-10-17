@@ -1,0 +1,10 @@
+		try { prop.load (stream); }
+		catch (IOException e) { }
+
+		Object tempName = prop.get ("name");
+		if (tempName != null) {
+			name = tempName.toString ();
+		}
+
+		Object colorString = null;
+		colorString = prop.get ("primary1");		

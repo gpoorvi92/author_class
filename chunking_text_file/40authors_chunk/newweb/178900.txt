@@ -1,0 +1,10 @@
+			sb.append("已同步更改" + i1 +"个不锈钢为【不可用】状态</br>");
+		}
+		if(i2 !=0 ){
+			sb.append("已同步更改" + i2 +"个小件为【不可用】状态</br>");
+		}
+		Set<MaterialBrand> materialBrands = supplier.getMaterialBrands();
+		for (MaterialBrand materialBrand : materialBrands) {
+			try {
+				sb.append(materialBrandService.modifyToUnvalid(materialBrand.getID()));
+			} catch (Exception e) {

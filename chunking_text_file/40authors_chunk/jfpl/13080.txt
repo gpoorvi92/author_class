@@ -1,0 +1,10 @@
+
+	@Override
+	protected void handleGridItem(android.widget.GridView gv, View v,
+			int position) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		if (gv.getId() == R.id.app_grid) {
+			String icon = acd.getStringValue("icon");
+			ImageView iconIv = (ImageView) v.findViewById(R.id.app_icon);
+			iconIv.setImageBitmap(ImageLoader.getInstance().loadImageSync(icon));
+		}

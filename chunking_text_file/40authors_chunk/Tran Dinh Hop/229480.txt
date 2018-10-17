@@ -1,0 +1,10 @@
+//Do the second compressed byte
+//Put last 3 bits of 2nd value in high position-mask out first 5 bits
+res2=res2|((c2&7)<<5);
+//Put 3rd value in lo position
+res2=res2|c3;
+c[j]=(byte)res1;
+c[j+1]=(byte)res2;
+}
+}
+}

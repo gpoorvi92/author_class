@@ -1,0 +1,10 @@
+
+	private final static ILog logger 		= LogFactory.getLog(DefaultWorker.class);
+	private final static String PREFIX 	= "[DefaultWorker]";
+	private final ExecuteContext context 	= new ExecuteContext();
+
+	private AtomicBoolean signalStop = new AtomicBoolean(false);
+	private List<IStep> steps;
+	private WorkerType type;
+
+	public DefaultWorker() {

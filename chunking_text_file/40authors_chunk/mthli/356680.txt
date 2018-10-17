@@ -1,0 +1,10 @@
+      FontRenderContext context = g2.getFontRenderContext();
+      Rectangle2D titleBounds = titleFont.getStringBounds(title, context);
+      double titleWidth = titleBounds.getWidth();
+      double top = titleBounds.getHeight();
+
+      // draw the title
+      double y = -titleBounds.getY(); // ascent
+      double x = (panelWidth - titleWidth) / 2;
+      g2.setFont(titleFont);
+      g2.drawString(title, (float) x, (float) y);

@@ -1,0 +1,10 @@
+
+    public searchEng_result setSuccess(Engine success) {
+      this.success = success;
+      return this;
+    }
+
+    public void unsetSuccess() {
+      this.success = null;
+    }
+

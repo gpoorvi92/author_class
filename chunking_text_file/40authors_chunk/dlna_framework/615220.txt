@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public void setRequest(StateVariable stateVar)
+	{
+		Service service = stateVar.getService();		
+		
+		String ctrlURL = service.getControlURL();
+
+		setRequestHost(service);
+

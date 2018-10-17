@@ -1,0 +1,10 @@
+		2 * (CAMERA_WIDTH / 4),
+		3 * (CAMERA_WIDTH / 4),
+		2.5f * (CAMERA_WIDTH / 4),
+		2 * (CAMERA_WIDTH / 4)
+	};
+
+	private static final float[] CONTROLPOINT_YS = {
+		3.5f * (CAMERA_HEIGHT / 4),
+		2 * (CAMERA_HEIGHT / 4),
+		1 * (CAMERA_HEIGHT / 4),

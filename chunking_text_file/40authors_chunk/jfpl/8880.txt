@@ -1,0 +1,10 @@
+		}
+		File[] imageList = f.listFiles();
+		if (imageList == null) {
+			return null;
+		}
+		if (imageList.length > 0) {
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			String fname = f.getName();
+			String imageDir = f.getAbsolutePath();
+			if (fname.length() > 20 || f.getName().startsWith(".")

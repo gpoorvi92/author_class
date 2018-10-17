@@ -1,0 +1,10 @@
+
+    private Float avgGrade;
+
+    private Float speed;
+
+    private Float quality;
+
+    private String content;
+
+    private Integer userId;

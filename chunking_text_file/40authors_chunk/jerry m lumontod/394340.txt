@@ -1,0 +1,10 @@
+		return true; //temporary, we dont have business policies to apply yet...
+	}
+	public boolean SubClassIsValid(String tstrCompCode,String tstrDeptCode,String tstrSubDeptCode,String tstrClassCode,String tstrSubClassCode) {
+		boolean mbln=true;
+		
+		moSubClassIsValid.SubClassIsValid(tstrCompCode,tstrDeptCode,tstrSubDeptCode,tstrClassCode,tstrSubClassCode);
+		if (moSubClassIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}
+		return true; //temporary, we dont have business policies to apply yet...

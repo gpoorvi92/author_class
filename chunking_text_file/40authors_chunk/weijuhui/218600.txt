@@ -1,0 +1,10 @@
+	@Override
+	public void onReq(BaseReq arg0) {
+		// 微信向微聚会发送请求后响应
+		new MainActivity_.IntentBuilder_(this).start();
+		this.finish();
+		Output.toast(this,"欢迎回家");
+	}
+
+	@Override
+	public void onResp(BaseResp resp) {

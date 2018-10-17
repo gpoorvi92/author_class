@@ -1,0 +1,10 @@
+
+		// Object get(int index):根据给定索引，返回元素
+		// System.out.println("get:" + list.get(1));
+
+		// Object set(int index,E element):修改指定索引处的元素为给定的元素，并返回被修改的值
+		System.out.println("set:" + list.set(1, "android"));
+
+		System.out.println("list:" + list);
+	}
+}

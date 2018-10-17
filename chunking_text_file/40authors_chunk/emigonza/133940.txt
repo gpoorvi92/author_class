@@ -1,0 +1,10 @@
+                                                         //   characters (a, b, c,
+                                                         //   d)
+    public static final int SCAN_SDT_Code39      = 108;  // Alpha, Digits, Space,
+                                                         //   -, ., $, /, +, %;
+                                                         //   start/stop (*)
+                                                         // Also has Full Ascii
+                                                         //   feature
+    public static final int SCAN_SDT_Code93      = 109;  // Same characters as
+                                                         //   Code 39
+    public static final int SCAN_SDT_Code128     = 110;  // 128 data characters

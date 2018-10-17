@@ -1,0 +1,10 @@
+      for (int i = 0; i < rects.size(); i++)
+      {
+         g2.setPaint(colors.get(i));
+         g2.fill(rects.get(i));
+      }
+   }
+
+   /**
+    * Creates an SVG document of the current drawing.
+    * @return the DOM tree of the SVG document

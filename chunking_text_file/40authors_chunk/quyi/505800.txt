@@ -1,0 +1,10 @@
+import com.nercis.isscp.util.SingleRecordInfoConsumer;
+
+public class testServer {
+//	@Test
+	public static void main(String args[]) throws Exception{
+		//new Thread(new SingleRecordInfoConsumer("D:\\批量下发统计.xls")).start();
+		//System.out.println("开启线程写文件");
+		TServerTransport serverTransport;
+		int listenerPort = 7778;
+		try {

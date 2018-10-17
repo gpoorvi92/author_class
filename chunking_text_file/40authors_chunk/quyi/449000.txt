@@ -1,0 +1,10 @@
+		int rowSize=getRowSize(0, fileName, sheetNum);
+		List<UserAppInfo>userAppInfos=new ArrayList<UserAppInfo>();
+		for(int i=1;i<rowSize;i++){
+			userAppInfos.add(getUserAppInfo(sheet, i, fileName, sheetNum));
+		}
+		if (wb != null) {
+			wb.close();
+		}
+		return userAppInfos;
+		

@@ -1,0 +1,10 @@
+            return new Account[size];
+        }
+    };
+
+    private Account(Parcel in) {
+        server = in.readString();
+        email = in.readString();
+        passwd = in.readString();
+        token = in.readString();
+

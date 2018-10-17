@@ -1,0 +1,10 @@
+	public static void initMapData(){	
+	//二维数组为一个MyDrawable对象的引用
+		mapData = new MyDrawable [40][60];
+		try {
+			InputStream in = resources.getAssets().open("maps.so");
+			DataInputStream din = new DataInputStream(in);
+			int totalBlocks = din.readInt();
+			
+			for(int i=0; i<totalBlocks; i++){
+				int outBitmapInxex = din.readByte();

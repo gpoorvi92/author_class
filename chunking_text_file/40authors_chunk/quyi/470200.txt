@@ -1,0 +1,10 @@
+		Sheet sheet = null;
+		try {
+			wb = Workbook.getWorkbook(file); // 从文件流中获取Excel工作区对象（WorkBook）
+			sheet = wb.getSheet(0); // 从工作区中取得页（Sheet）
+		} catch (BiffException e) {
+			e.printStackTrace();
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}

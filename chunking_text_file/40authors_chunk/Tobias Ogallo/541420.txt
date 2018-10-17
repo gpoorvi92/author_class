@@ -1,0 +1,10 @@
+view=new JButton ("More Info");
+exit=new JButton("Exit");
+
+	about=new JTextArea ("Name:   Tobias Oluoch Ogallo \n" +
+	                     "Cell:   0720233259\n"+
+	                     "E-mail:  tobi2006@gmail.com\n"+
+	                     "Address:6046,Kisumu" +
+	                     "Message\n\n"+
+                         "Thanks to all those who are supporting me\n"+
+                         "To developed this system\n"+

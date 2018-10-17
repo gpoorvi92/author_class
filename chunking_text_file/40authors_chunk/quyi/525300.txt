@@ -1,0 +1,10 @@
+		} finally {
+			transport.close();
+		}
+	}
+
+	@Test
+	public void testSubmitResult002() {
+		AndroidStaticSimpleResults appstaticresults = new AndroidStaticSimpleResults();
+		appstaticresults.setApkName("test");
+		appstaticresults.setApkDescription("test");

@@ -1,0 +1,10 @@
+public abstract class ThresholdingOutputStream extends OutputStream
+{
+
+    public ThresholdingOutputStream(int threshold)
+    {
+        this.threshold = threshold;
+    }
+
+    public void write(int b)
+        throws IOException

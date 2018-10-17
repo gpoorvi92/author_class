@@ -1,0 +1,10 @@
+	
+	public ScreenRollView(HDZGActivity activity) {
+		super(activity);
+		this.activity = activity;
+		getHolder().addCallback(this);
+		drawThread = new DrawThread(getHolder());
+		screenRollThread = new ScreenRollThread(this);
+		initBitmap(getResources());
+		status = 1;
+	}

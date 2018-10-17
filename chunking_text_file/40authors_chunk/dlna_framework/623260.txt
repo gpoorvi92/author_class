@@ -1,0 +1,10 @@
+	}
+
+	////////////////////////////////////////////////
+	//	parse (Memory)
+	////////////////////////////////////////////////
+	
+	public Node parse(String descr) throws ParserException
+	{
+		try {
+			InputStream decrIn = new ByteArrayInputStream(descr.getBytes());

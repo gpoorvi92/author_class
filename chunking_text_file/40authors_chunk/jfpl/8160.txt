@@ -1,0 +1,10 @@
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.service.IServiceLogic;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.ui.R;
+import com.lianzt.commondata.AbstractCommonData;
+
+public class ChatBaseService implements IServiceLogic {
+
+	protected ProgressBar progressBar;
+	protected ImageView imageView;

@@ -1,0 +1,10 @@
+		this.setCreateTime(new Date());
+	}
+	/**
+	 * 获取所属公众号ID。
+	 * @return 所属公众号ID。
+	 * */
+	public String getAccountId() {
+		return accountId;
+	}
+	/**

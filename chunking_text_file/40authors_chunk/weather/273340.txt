@@ -1,0 +1,10 @@
+        if (i != -1) {
+            string = string.substring(0, i);
+        }
+        return string;
+    }
+
+    /**
+     * 从某个字符串开始切字符串
+     *
+     * @param string

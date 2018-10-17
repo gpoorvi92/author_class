@@ -1,0 +1,10 @@
+               {
+                  dateText.setText("Parse error: " + d);
+               }
+               catch (IllegalArgumentException e)
+               {
+                  dateText.setText("Argument error: " + d);
+               }
+            }
+         });
+

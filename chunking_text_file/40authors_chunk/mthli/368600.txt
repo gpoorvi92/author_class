@@ -1,0 +1,10 @@
+
+      g2.draw(new Ellipse2D.Double(10, 10, 60, 50));
+      g2.setFont(new Font("Serif", Font.ITALIC, 40));
+      g2.drawString("Hello", 75, 50);
+
+      g2.draw(new Rectangle2D.Double(200, 10, 40, 40));
+      g2.draw(new Line2D.Double(201, 11, 239, 49));
+      
+      g2.drawImage(image, 250, 10, 100, 100, null);
+   }

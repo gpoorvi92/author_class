@@ -1,0 +1,10 @@
+      
+      // only if we got an event do we want to paint
+      boolean msg = false;
+
+      public void controlChange(ShortMessage event) {
+         msg = true;       
+         repaint();         
+      }
+
+      public void paintComponent(Graphics g) {

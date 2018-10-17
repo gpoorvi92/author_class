@@ -1,0 +1,10 @@
+package com.lz.center;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+/**
+ * User: Teaey
+ * Date: 13-9-17
+ */
+public class AttributeManager
+{
+    public static final class AttributeKey<T>

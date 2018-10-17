@@ -1,0 +1,10 @@
+    /** Reads a 4 byte IEEE 754 float in big endian format
+     * This would be the same as the Java API's DataInputStream's readFloat
+     */
+    public float readFloatBigEndian() throws IOException 
+    {
+       int bitData = readIntBigEndian();
+        
+        return Float.intBitsToFloat(bitData);
+    }
+

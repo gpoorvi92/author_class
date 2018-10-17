@@ -1,0 +1,10 @@
+		int x = (int)event.getX();			//获得点击处的X坐标
+		int y = (int)event.getY();			//获得点击处的Y坐标
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				gameView.setStatus(0);					//设置游戏状态为0(待命态)	
+				gameView.setOnTouchListener(gameView);	//将监听器重新设置为GameView
+				gameView.currentGameAlert = null;		//置空当前游戏提示
+			}			
+		}

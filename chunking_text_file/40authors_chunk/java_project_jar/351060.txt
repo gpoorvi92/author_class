@@ -1,0 +1,10 @@
+        if(iterator != null)
+            iterator.close();
+    }
+
+    public volatile Object next()
+    {
+        return next();
+    }
+
+    private final BufferedReader bufferedReader;

@@ -1,0 +1,10 @@
+        res.add(sub);
+        for (int i = start; i < S.length; ++i) {
+            path.add(S[i]);
+            subsetsRe(S, i + 1, path, res);
+            path.remove(path.size() - 1);
+        }
+    }
+    public List<List<Integer>> subsets_2(int[] S) {
+        Arrays.sort(S);
+        List<List<Integer>> res = new ArrayList<List<Integer>>();

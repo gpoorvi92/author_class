@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.dao.CreditLogMapper;
+import cn.abovesky.shopping.domain.CreditLog;
+import cn.abovesky.shopping.service.ICreditLogService;
+import org.apache.ibatis.session.RowBounds;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;

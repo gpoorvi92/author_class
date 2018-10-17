@@ -1,0 +1,10 @@
+
+    public String toString()
+    {
+        StringBuilder builder = new StringBuilder();
+        builder.append(getClass().getSimpleName());
+        builder.append('[');
+        builder.append(charsetName);
+        builder.append(": ");
+        for(int i = 0; i < bytes.length; i++)
+        {

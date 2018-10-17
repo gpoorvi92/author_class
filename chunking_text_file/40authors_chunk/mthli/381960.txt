@@ -1,0 +1,10 @@
+         });
+      fileMenu.add(exitItem);
+
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(fileMenu);
+      setJMenuBar(menuBar);
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

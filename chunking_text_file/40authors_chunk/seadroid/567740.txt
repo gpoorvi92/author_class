@@ -1,0 +1,10 @@
+
+    private TransferService mTxService;
+    private ServiceConnection mConnection;
+    private ArrayList<String> localPath;
+    private Intent dstData;
+    private Boolean isFinishActivity = false;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Intent intent = getIntent();
+

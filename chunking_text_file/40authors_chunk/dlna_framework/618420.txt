@@ -1,0 +1,10 @@
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.Calendar;
+
+public class HTTPSocket
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	

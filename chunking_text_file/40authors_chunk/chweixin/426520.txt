@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, VideoReqMessage req) {
+		return this.buildDefaultReply(context, req);
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, VoiceReqMessage req) {
+		return this.buildDefaultReply(context, req);

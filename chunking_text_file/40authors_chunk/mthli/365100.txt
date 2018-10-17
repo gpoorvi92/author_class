@@ -1,0 +1,10 @@
+      patch.append(new PUSH(cpg, className));
+      patch.append(new PUSH(cpg, methodName));
+      patch.append(new INVOKEVIRTUAL(enteringIndex));
+      InstructionHandle[] ihs = il.getInstructionHandles();
+      il.insert(ihs[0], patch);
+
+      mg.setMaxStack();
+      return mg.getMethod();
+   }
+}

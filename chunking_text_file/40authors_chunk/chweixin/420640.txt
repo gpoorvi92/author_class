@@ -1,0 +1,10 @@
+		this.accountName = accountName;
+	}
+	/**
+	 * 获取微信ID。
+	 * @return 微信ID。
+	 * */
+	public String getOpenId() {
+		return openId;
+	}
+	/**

@@ -1,0 +1,10 @@
+		for(int i=0;i<10000;i++){
+			BasicDBObject bo=new BasicDBObject().append("i",i);
+			list.add(bo);
+		}
+		coll.insert(list);
+		long end=System.currentTimeMillis();
+		System.out.println("batchinsert cost="+(end-begin));
+		
+		begin=System.currentTimeMillis();
+		coll.setWriteConcern(WriteConcern.NONE);

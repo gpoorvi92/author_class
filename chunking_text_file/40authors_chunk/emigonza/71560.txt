@@ -1,0 +1,10 @@
+	/** 
+	 * Sets the String description of this PropType (can be HTML text) 
+	 * @param s the String
+	 */
+	void setDescription( String s ) { description = s; }
+
+	//-------------------------------------------------------------------------
+	// Instance variables
+	//
+

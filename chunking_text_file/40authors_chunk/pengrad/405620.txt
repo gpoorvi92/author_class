@@ -1,0 +1,6 @@
+
+    public EditMessageText replyMarkup(InlineKeyboardMarkup replyMarkup) {
+        return add("reply_markup", replyMarkup);
+    }
+
+}

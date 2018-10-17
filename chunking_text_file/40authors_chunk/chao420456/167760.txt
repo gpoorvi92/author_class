@@ -1,0 +1,5 @@
+
+		// Ò»¾ä»°¸ã¶¨
+		// return new String(new StringBuffer(s).reverse()).equals(s);
+	}
+}

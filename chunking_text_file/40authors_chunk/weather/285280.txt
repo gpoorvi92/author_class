@@ -1,0 +1,10 @@
+package com.weico.core.fileDownLoader;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class DownloaderWorker extends Thread {
+	final static int size=1048576; // buffer size
+	

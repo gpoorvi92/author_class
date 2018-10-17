@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               // show file chooser dialog
+               int result = chooser.showOpenDialog(null);
+
+               // if file selected, set it as icon of the label
+               if (result == JFileChooser.APPROVE_OPTION)
+               {
+                  String name = chooser.getSelectedFile().getPath();
+                  label.setIcon(new ImageIcon(name));

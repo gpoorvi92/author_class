@@ -1,0 +1,10 @@
+    private Account parseAccount(String url, String cookie) {
+        if (url == null || cookie.isEmpty())
+            return null;
+
+        if (cookie.startsWith("\"")) {
+            cookie = cookie.substring(1, cookie.length() - 1);
+        }
+
+        String email = cookie.substring(0, cookie.lastIndexOf("@"));
+        String token = cookie.substring(cookie.lastIndexOf("@") + 1);

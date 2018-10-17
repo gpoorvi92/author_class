@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	//	post
+	////////////////////////////////////////////////
+
+	public SubscriptionResponse post()
+	{
+		HTTPResponse httpRes = post(getRequestHost(), getRequestPort());
+		return new SubscriptionResponse(httpRes);
+	}

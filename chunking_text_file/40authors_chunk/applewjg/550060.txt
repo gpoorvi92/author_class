@@ -1,0 +1,10 @@
+        res.add(new ArrayList<Integer>());
+        for (int i = 0; i < S.length; ++i) {
+            int sz = res.size();
+            for (int j = 0; j < sz; ++j) {
+                List<Integer> path = new ArrayList<Integer>(res.get(j));
+                path.add(S[i]);
+                res.add(path);
+            }
+        }
+        return res;

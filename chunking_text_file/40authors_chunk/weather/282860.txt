@@ -1,0 +1,10 @@
+     * 获取屏幕宽度
+     */
+    public static int requestScreenWidth() {
+        return getDefaultDisplayMetrics(false).widthPixels;
+    }
+
+    /**
+     * 获取屏幕宽度
+     */
+    public static int requestScreenHeight() {

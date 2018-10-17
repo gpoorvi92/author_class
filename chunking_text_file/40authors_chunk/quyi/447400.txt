@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetJvmMaxMem() {
+    this.jvmMaxMem = null;
+  }
+
+  /** Returns true if field jvmMaxMem is set (has been assigned a value) and false otherwise */
+  public boolean isSetJvmMaxMem() {
+    return this.jvmMaxMem != null;

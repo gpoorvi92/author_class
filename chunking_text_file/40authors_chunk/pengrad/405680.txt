@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        UserProfilePhotos that = (UserProfilePhotos) o;
+
+        if (total_count != null ? !total_count.equals(that.total_count) : that.total_count != null) return false;
+        return Arrays.deepEquals(photos, that.photos);

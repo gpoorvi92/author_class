@@ -1,0 +1,10 @@
+    public String name;
+    public long size;    // size of file, 0 if type is dir
+    public long mtime;   // last modified timestamp
+
+
+    static SeafDirent fromJson(JSONObject obj) {
+        SeafDirent dirent = new SeafDirent();
+        try {
+            dirent.id = obj.getString("id");
+            dirent.name = obj.getString("name");

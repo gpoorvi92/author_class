@@ -1,0 +1,10 @@
+								.doubleValue());
+
+					} else if (line.startsWith("Mem:")) {
+
+						token = new StringTokenizer(line);
+						token.nextToken();
+						item = token.nextToken(); // total
+						info.setMemTotal(Long.valueOf(
+								item.substring(0, item.indexOf('k')))
+								.longValue());

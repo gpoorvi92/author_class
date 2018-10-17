@@ -1,0 +1,10 @@
+package signed;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import java.nio.file.*;
+import javax.swing.*;
+
+/**
+ * This applet can run "outside the sandbox" and read local files when it is given the right

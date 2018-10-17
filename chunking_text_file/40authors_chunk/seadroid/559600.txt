@@ -1,0 +1,10 @@
+        notBeforeText = (TextView) view.findViewById(R.id.not_before);
+        notAfterText = (TextView) view.findViewById(R.id.not_after);
+
+        String host = null;
+
+        try {
+            host = new URL(account.server).getHost();
+        } catch (MalformedURLException e) {
+            // ignore
+        }

@@ -1,0 +1,10 @@
+         float miterLimit = 10.0F;
+         float[] dashPattern = { 10F, 10F, 10F, 10F, 10F, 10F, 30F, 10F, 30F, 10F, 30F, 10F, 10F,
+               10F, 10F, 10F, 10F, 30F };
+         float dashPhase = 0;
+         stroke = new BasicStroke(width, cap, join, miterLimit, dashPattern, dashPhase);
+      }
+      else stroke = new BasicStroke(width, cap, join);
+      g2.setStroke(stroke);
+      g2.draw(path);
+   }

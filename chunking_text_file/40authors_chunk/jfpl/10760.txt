@@ -1,0 +1,10 @@
+			// bxlp.setOnClickListener(new View.OnClickListener() {
+			//
+			// @Override
+			// public void onClick(View v) {
+			// Intent intent = new Intent(act, WebContentActivity.class);
+			// intent.putExtra("title", act.getString(R.string.app2));
+			// intent.putExtra("app_id", "2");
+			// intent.putExtra("url",
+			// "http://www.jtgzfw.com/jtgzfw/_pc/wx/wx_allnews.do");
+			// act.startActivity(intent);

@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public boolean setRequest(Subscriber sub, String varName, String value)
+	{
+		String callback = sub.getDeliveryURL();
+		String sid = sub.getSID();
+		long notifyCnt = sub.getNotifyCount();

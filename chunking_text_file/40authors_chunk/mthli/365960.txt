@@ -1,0 +1,10 @@
+               new Thread(new GoodWorkerRunnable(combo)).start();
+            }
+         });
+      panel.add(goodButton);
+      JButton badButton = new JButton("Bad");
+      badButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               new Thread(new BadWorkerRunnable(combo)).start();

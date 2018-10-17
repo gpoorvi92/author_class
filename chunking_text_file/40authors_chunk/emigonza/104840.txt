@@ -1,0 +1,10 @@
+
+  /////////////////////////////////////////////////////////////////////
+  // "DeviceStatus" Property Constants
+  // "StatusUpdateEvent" Event Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int BDSP_STATUS_OK               = 0;  // DeviceStatus
+
+  public static final int BDSP_STATUS_EMPTY            = 11; // DeviceStatus, StatusUpdateEvent
+  public static final int BDSP_STATUS_NEAREMPTY        = 12; // DeviceStatus, StatusUpdateEvent

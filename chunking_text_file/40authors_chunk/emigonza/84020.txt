@@ -1,0 +1,10 @@
+  public boolean getCapPositiveSubtotalAdjustment() throws JposException;
+
+  // Methods
+  public void    printRecItemVoid(String description,
+                                  long price,
+                                  int quantity,
+                                  int vatInfo,
+                                  long unitPrice,
+                                  String unitName)
+                     throws JposException;

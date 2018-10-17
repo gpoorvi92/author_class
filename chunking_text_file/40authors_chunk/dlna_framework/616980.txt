@@ -1,0 +1,10 @@
+*	12/17/02
+*		- first revision.
+*	09/03/03
+*		- Added CONTINUE_STATUS.
+*	10/20/04 
+*		- Brent Hills <bhills@openshores.com>
+*		- Added PARTIAL_CONTENT and INVALID_RANGE;
+*	10/22/04
+*		- Added isSuccessful().
+*	10/29/04

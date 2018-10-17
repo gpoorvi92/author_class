@@ -1,0 +1,10 @@
+		appstaticresults.setDetectDate(100L);
+		appstaticresults.setMD5_Apk("test");
+		ByteBuffer content = ByteBuffer.wrap(getBytes(appstaticresults));
+		TTransport transport = new TSocket(taskmanager_address, taskmanager_result_port);
+		try {
+			transport.open();
+		} catch (TTransportException e) {
+			// LOGGER.error("Failed to notify app : " + e.getMessage(), e);
+		}
+		TProtocol protocol = new TBinaryProtocol(transport);

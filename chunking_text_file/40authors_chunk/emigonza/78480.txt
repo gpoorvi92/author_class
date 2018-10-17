@@ -1,0 +1,10 @@
+    //
+
+    /**
+     * Default 1-argument ctor
+     * @param obj the element's Object
+     */
+    public DefaultComparableElement( Object obj ) { object = obj; }
+
+    //-------------------------------------------------------------------------
+    // Public instance methods

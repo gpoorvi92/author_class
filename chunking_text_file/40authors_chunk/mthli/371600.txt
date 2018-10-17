@@ -1,0 +1,10 @@
+package exec;
+
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
+import java.sql.*;
+
+/**
+ * Executes all SQL statements in a file. Call this program as <br>
+ * java -classpath driverPath:. ExecSQL commandFile

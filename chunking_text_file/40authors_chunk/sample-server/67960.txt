@@ -1,0 +1,10 @@
+        ret.setFlag(flag);
+        return ret.build();
+    }
+    public void addInboundChannel(Channel channel)
+    {
+        allInboundChanels.add(channel);
+    }
+    //    private BridgeJoint()
+    //    {
+    //    }

@@ -1,0 +1,10 @@
+	boolean isQueue();
+	
+	/**
+	 * Close the connection.
+	 * 
+	 * @Title: Close
+	 * @return: void
+	 */
+	void Close() throws MQException;
+}

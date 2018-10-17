@@ -1,0 +1,10 @@
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 7, 35*60000, 7, 4);
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 13, 13*5*60000, 13, 5);
+//		autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 19, 19*5*60000, 19, 6);
+	//	autoissueMessages("D:\\6月6日测试文档\\病毒批次下发问题应用.xls", 100, 450*60000, 400, 7);
+		// new Thread(new
+		// SearchRecordInfoConsumer("D:\\6月6日测试文档\\测试查询应用.xls")).start();
+		// autoSearchApp("D:\\6月6日测试文档\\单个应用下发统计.xls");
+		//new Thread(new SearchRecordInfoConsumer("D:\\6月6日测试文档\\测试查询单个引擎.xls")).start();
+		//autoSearchApp("D:\\6月6日测试文档\\单个应用下发统计.xls");
+		//searchEngine(10, 1000);

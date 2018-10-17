@@ -1,0 +1,10 @@
+	{
+		if(type == 'i')
+			image = i;
+	}
+	
+	public Image getImage()
+	{
+		if(image != null && type == 'i')
+			return image;
+		else

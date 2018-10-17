@@ -1,0 +1,10 @@
+/**
+ * Defines a default a Visitor interface for the DevCat hiearchy
+ * @since 1.3 (SF 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class DefaultDevCatV extends Object implements DevCatVisitor
+{
+	//-------------------------------------------------------------------------
+	// Public methods
+	//

@@ -1,0 +1,10 @@
+     *   indicates no parameters will be posted along with request.
+     * @param listener Listener to receive the JSON response
+     * @param errorListener Error listener, or null to ignore errors.
+     */
+    public JsonObjectRequest(int method, String url, JSONObject jsonRequest,
+            Listener<JSONObject> listener, ErrorListener errorListener) {
+        super(method, url, (jsonRequest == null) ? null : jsonRequest.toString(), listener,
+                    errorListener);
+    }
+

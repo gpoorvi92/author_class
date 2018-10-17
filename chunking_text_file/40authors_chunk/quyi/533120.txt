@@ -1,0 +1,10 @@
+  public void unsetColumnNum() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __COLUMNNUM_ISSET_ID);
+  }
+
+  /** Returns true if field columnNum is set (has been assigned a value) and false otherwise */
+  public boolean isSetColumnNum() {
+    return EncodingUtils.testBit(__isset_bitfield, __COLUMNNUM_ISSET_ID);
+  }
+
+  public void setColumnNumIsSet(boolean value) {

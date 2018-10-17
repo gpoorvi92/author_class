@@ -1,0 +1,10 @@
+    private static AvatarDBHelper dbHelper = null;
+    private SQLiteDatabase database = null;
+    
+    public static synchronized AvatarDBHelper getAvatarDbHelper() {
+        if (dbHelper != null)
+            return dbHelper;
+        dbHelper = new AvatarDBHelper(SeadroidApplication.getAppContext());
+        dbHelper.database = dbHelper.getWritableDatabase();
+        return dbHelper;
+    }

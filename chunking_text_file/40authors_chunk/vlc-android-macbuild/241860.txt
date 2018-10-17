@@ -1,0 +1,10 @@
+    @Override
+    public void setDataSource(String uri) throws IOException,
+            IllegalArgumentException, IllegalStateException {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            // uri is OK
+        } else {
+            // android 2.x only accepts httplive://......m3u8
+            Uri uriComponent = Uri.parse(uri);
+            String lastSegment = uriComponent.getLastPathSegment();
+            if (!TextUtils.isEmpty(lastSegment)

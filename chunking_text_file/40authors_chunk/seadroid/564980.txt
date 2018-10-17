@@ -1,0 +1,10 @@
+    
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(url, mtime);
+    }
+    
+    public String getUrl() {
+        return url;
+    }
+

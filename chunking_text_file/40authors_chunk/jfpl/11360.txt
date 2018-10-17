@@ -1,0 +1,10 @@
+		if (newProgress != 100 && newProgress != 0) {
+			// loadingBar.setBackgroundColor(ctx.getResources().getColor(
+			// R.color.loading_bar_visible));
+			loadingBar.setVisibility(View.VISIBLE);
+			int progress = SystemUtil.SCREEN_WIDTH * newProgress / 100;
+			// Log.i(SystemUtil.LOG_MSG, "process: " + newProgress + ","
+			// + progress);
+			RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
+					progress, 6);
+			layoutParams.addRule(RelativeLayout.ABOVE, R.id.bottom_bar);

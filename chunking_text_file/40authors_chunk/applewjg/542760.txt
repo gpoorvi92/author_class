@@ -1,0 +1,10 @@
+        while (last.empty() == false) {
+            TreeNode node = last.pop(); 
+            if (node != null) {
+                level.add(node.val);
+                if (left2right) {
+                    if(node.left!=null) cur.push(node.left);
+                    if(node.right!=null) cur.push(node.right);
+                } else {
+                    if(node.right!=null) cur.push(node.right);
+                    if(node.left!=null) cur.push(node.left);

@@ -1,0 +1,10 @@
+@Table(name="t_bxg")
+public class Bxg implements Cloneable{
+	
+	private int ID;
+	private String name;
+	private String norms;
+	private double thickness;
+	private double lsprice;
+	private double pfprice;
+	private MaterialBrand materialBrand;

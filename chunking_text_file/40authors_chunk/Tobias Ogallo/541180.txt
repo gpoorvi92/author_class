@@ -1,0 +1,10 @@
+    
+    
+		listPane.setEditable(false);
+		listPane.setFont(new Font("Serif", Font.BOLD, 12));
+		listPane.setForeground(Color.black);
+	
+		listPane.setLineWrap(true);
+		listPane.setWrapStyleWord(true);
+		reportPanel.add(listPane);
+		 

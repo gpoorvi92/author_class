@@ -1,0 +1,10 @@
+
+	public LoginService(AutoActivity ctx, String username, String pwd) {
+		this.ctx = ctx;
+		this.username = username;
+		this.pwd = pwd;
+		this.toLogin = false;
+	}
+
+	@Override
+	public AbstractCommonData doSuccess(AbstractCommonData acd) {

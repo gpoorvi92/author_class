@@ -1,0 +1,10 @@
+					}
+				}).start();
+			}
+		}).start();
+	}
+
+	public void showYzmClick(View v) {
+		if (alertDialog == null) {
+			alertDialog = alertDialogBuilder.show();
+		} else if (alertDialog != null && !alertDialog.isShowing()) {

@@ -1,0 +1,10 @@
+			    mba[rowT][colT]=c;	
+			}
+			
+			((MeetableLayer)gameView.layerList.layers.get(1)).initMapMatrixForMeetable();
+			
+			//恢复英雄相关信息
+			gameView.hero.father = gameView;
+			gameView.hero.initAnimationSegment(GameView.heroAnimationSegments);//为英雄初始化动画段列表
+			gameView.hero.startAnimation();//启动英雄动画
+			gameView.hero.hgt = new HeroGoThread(gameView,gameView.hero);

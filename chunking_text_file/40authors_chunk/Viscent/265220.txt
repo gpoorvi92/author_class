@@ -1,0 +1,10 @@
+
+import org.apache.log4j.Logger;
+
+import io.github.viscent.mtpattern.ch5.tpt.example.AlarmType;
+import io.github.viscent.util.Debug;
+
+public class Client {
+	private final static Logger logger=Logger.getLogger(Client.class);
+	public static void main(String[] args) {
+//		Debug.info("started.");

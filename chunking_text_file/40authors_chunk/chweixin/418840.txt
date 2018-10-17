@@ -1,0 +1,10 @@
+				collection = ModuleSystemCollection.parse(rs.getInputStream());
+				if(collection != null) mapSystemCollectionCache.put(key, collection);
+			}
+		}
+		return collection;
+	}
+	/**
+	 * 加载系统对象。
+	 * @param systemId
+	 * 系统ID。

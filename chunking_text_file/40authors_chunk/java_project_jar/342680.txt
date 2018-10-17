@@ -1,0 +1,10 @@
+{
+
+    public ProxyWriter(Writer proxy)
+    {
+        super(proxy);
+    }
+
+    public Writer append(char c)
+        throws IOException
+    {

@@ -1,0 +1,10 @@
+
+import com.yeshj.pacman.model.TaskModel;
+
+/**
+ * @ClassName: TaskMappingQuery
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月9日 上午3:33:27
+ */
+public class TaskMappingQuery extends MappingSqlQuery<TaskModel> {

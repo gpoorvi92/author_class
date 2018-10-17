@@ -1,0 +1,10 @@
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+/**
+ * Represents a particular image and provides access to the underlying bitmap
+ * and two thumbnail bitmaps as well as other information such as the id, and
+ * the path to the actual image data.
+ */
+public abstract class BaseImage implements IImage {

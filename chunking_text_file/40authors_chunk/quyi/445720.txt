@@ -1,0 +1,10 @@
+
+  public RunMonitor setImageContent(String imageContent) {
+    this.imageContent = imageContent;
+    return this;
+  }
+
+  public void unsetImageContent() {
+    this.imageContent = null;
+  }
+

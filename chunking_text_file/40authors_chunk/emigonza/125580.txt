@@ -1,0 +1,10 @@
+        makeProperty("PowerState"),
+        makeProperty("Timeout"),
+
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();

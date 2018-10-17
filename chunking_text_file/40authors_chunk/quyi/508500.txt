@@ -1,0 +1,10 @@
+            break;
+          case 2: // USER_APP_ID
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.userAppId = iprot.readString();
+              struct.setUserAppIdIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // USED_PERMISSIONS

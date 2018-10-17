@@ -1,0 +1,8 @@
+		return this.order;
+	}
+
+	@Override
+	public void setOrder(String order) {
+		this.order = order;
+	}
+}

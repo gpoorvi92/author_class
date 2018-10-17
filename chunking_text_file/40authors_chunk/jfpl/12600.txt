@@ -1,0 +1,10 @@
+		if (rDia == null) {
+			init();
+		}
+		rDia.addMenuItem(name, tag, click);
+	}
+
+	protected void setChatTitle(String title) {
+		this.chatTitle = title;
+	}
+

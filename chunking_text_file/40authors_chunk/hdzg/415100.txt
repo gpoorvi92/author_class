@@ -1,0 +1,10 @@
+		tempHero.father.setStatus(0);//重新设置GameView为待命状态
+		tempHero.father.gvt.setChanging(true);//骰子转起来
+		status = -1;//状态复位
+	}
+	//方法：为英雄建造箭垛
+	public void buildWarTank(){
+		if(Math.random()<0.4){//有一定几率不在家，不帮英雄建造
+			status=3; //拜访失败
+		}
+		else{

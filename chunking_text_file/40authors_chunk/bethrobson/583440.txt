@@ -1,0 +1,10 @@
+package chap11;
+import javax.sound.midi.*;
+
+
+public class MiniMiniMusicApp {   // this is the first one
+       
+     public static void main(String[] args) {
+        MiniMiniMusicApp mini = new MiniMiniMusicApp();
+        mini.play();
+     }

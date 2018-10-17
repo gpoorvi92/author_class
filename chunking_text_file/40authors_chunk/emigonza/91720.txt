@@ -1,0 +1,10 @@
+  {
+    return new PropertyDescriptor(propertyName, jpos.CAT.class);
+  }
+
+  public PropertyDescriptor[] getPropertyDescriptors()
+  {
+    try
+    {
+      PropertyDescriptor[] properties =
+      {

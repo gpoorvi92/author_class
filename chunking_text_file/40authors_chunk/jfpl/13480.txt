@@ -1,0 +1,10 @@
+		int arr = R.array.chat_media_long_click_dialog_arr;
+		String type = acd.getStringValue("type");
+		final String sendState = acd.getStringValue("send_state");
+		final String msgType = acd.getStringValue("msg_type");
+		if ("1".equals(type)) {
+			if (!"0".equals(sendState)) {
+				arr = R.array.chat_media_long_click_err_dialog_arr;
+			}
+		}
+		new AlertDialog.Builder(ctx).setItems(arr,

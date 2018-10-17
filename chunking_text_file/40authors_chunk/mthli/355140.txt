@@ -1,0 +1,10 @@
+               Logger.getLogger("com.horstmann.corejava").addHandler(windowHandler);
+
+               JFrame frame = new ImageViewerFrame();
+               frame.setTitle("LoggingImageViewer");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+               Logger.getLogger("com.horstmann.corejava").fine("Showing frame");
+               frame.setVisible(true);
+            }
+         });

@@ -1,0 +1,10 @@
+    private final IOCase caseSensitivity;
+
+    static 
+    {
+        PATH_COMPARATOR = new PathFileComparator();
+        PATH_REVERSE = new ReverseComparator(PATH_COMPARATOR);
+        PATH_INSENSITIVE_COMPARATOR = new PathFileComparator(IOCase.INSENSITIVE);
+        PATH_INSENSITIVE_REVERSE = new ReverseComparator(PATH_INSENSITIVE_COMPARATOR);
+        PATH_SYSTEM_COMPARATOR = new PathFileComparator(IOCase.SYSTEM);
+        PATH_SYSTEM_REVERSE = new ReverseComparator(PATH_SYSTEM_COMPARATOR);

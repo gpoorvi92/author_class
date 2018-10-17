@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @return the videoFormat
+	 */
+	public String getVideoFormat() {
+		
+		if (gJNILoaded) {
+			if (null == videoFormat || videoFormat.trim().length() < 1) {
+				videoFormat = nativeGetVideoCodec();

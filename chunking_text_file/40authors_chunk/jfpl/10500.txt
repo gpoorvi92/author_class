@@ -1,0 +1,10 @@
+		GlobalVariables.chatAppSerial = this.serial;
+		if (StringUtil.isNull(this.id)) {
+			this.id = ConstVariables.CHAT_DEFAULT_BUSITYPE;
+
+		}
+		if (StringUtil.isNull(this.title)) {
+			this.title = ConstVariables.CHAT_DEFAULT_TITLE;
+		}
+
+		titleTv.setText(this.title);

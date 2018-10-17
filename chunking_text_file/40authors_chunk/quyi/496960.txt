@@ -1,0 +1,10 @@
+    if (this.engineType == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engineType);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("nodeInfo:");
+    if (this.nodeInfo == null) {
+      sb.append("null");

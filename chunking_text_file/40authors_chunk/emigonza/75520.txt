@@ -1,0 +1,10 @@
+    public boolean getCapPostPreLine() throws JposException;
+    public boolean getCapSetCurrency() throws JposException;
+    public boolean getCapTotalizerType() throws JposException;
+
+    // Properties
+    public int     getActualCurrency() throws JposException;
+    public String  getAdditionalHeader() throws JposException;
+    public void    setAdditionalHeader(String additionalHeader)
+                       throws JposException;
+    public String  getAdditionalTrailer() throws JposException;

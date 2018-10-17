@@ -1,0 +1,10 @@
+					paint
+					);
+		}
+	}
+
+	@Override
+	public boolean onTouch(View v, MotionEvent event) {
+		int x = (int)event.getX();
+		int y = (int)event.getY();
+		if(event.getAction() == MotionEvent.ACTION_DOWN){

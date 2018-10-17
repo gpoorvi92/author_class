@@ -1,0 +1,10 @@
+         if (b < 0) b += 256;
+         builder.append(String.valueOf(b));
+         if (i < 3) builder.append('.');
+      }
+      return builder.toString();
+   }
+
+   public Object stringToValue(String text) throws ParseException
+   {
+      StringTokenizer tokenizer = new StringTokenizer(text, ".");

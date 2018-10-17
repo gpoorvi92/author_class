@@ -1,0 +1,10 @@
+    public void attributeReplaced(ServletContextAttributeEvent servletContextAttributeEvent)
+    {
+    }
+    @Override
+    public void contextInitialized(ServletContextEvent servletContextEvent)
+    {
+        ServerState.run();
+        ContextParamHolder.init(servletContextEvent.getServletContext());
+        initServer(servletContextEvent);
+    }

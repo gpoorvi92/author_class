@@ -1,0 +1,10 @@
+      redButton = new JButton("Red");
+
+      panel.add(yellowButton);
+      panel.add(blueButton);
+      panel.add(redButton);
+
+      ActionListenerInstaller.processAnnotations(this);
+   }
+
+   @ActionListenerFor(source = "yellowButton")

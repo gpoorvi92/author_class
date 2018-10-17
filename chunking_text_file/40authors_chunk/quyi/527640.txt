@@ -1,0 +1,10 @@
+	}
+
+	public String getAppSize() {
+		return appSize;
+	}
+
+	public void setAppSize(String appSize) {
+		this.appSize = appSize;
+	}
+

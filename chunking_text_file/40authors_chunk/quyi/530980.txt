@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 7: // APK_MD5
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.apk_md5 = iprot.readString();
+              struct.setApk_md5IsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

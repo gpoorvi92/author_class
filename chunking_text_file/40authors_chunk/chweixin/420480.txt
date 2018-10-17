@@ -1,0 +1,10 @@
+					}
+					if(cdata){
+						writer.write("<![CDATA["); 
+                        writer.write(text); 
+                        writer.write("]]>");
+					}else {
+						writer.write(text);
+					}
+				}
+			};

@@ -1,0 +1,10 @@
+      final JTextField browseField = new JTextField();
+      JButton browseButton = new JButton("Browse");
+      final JTextField toField = new JTextField();
+      final JTextField subjectField = new JTextField();
+      JButton mailButton = new JButton("Mail");
+
+      openButton.setEnabled(false);
+      editButton.setEnabled(false);
+      printButton.setEnabled(false);
+      browseButton.setEnabled(false);

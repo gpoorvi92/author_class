@@ -1,0 +1,10 @@
+     */
+    public int getPreferredViewHeight(Context context) {
+        return (int)(viewHeightDP * context.getResources().getDisplayMetrics().density);
+    }
+    
+    /**
+     * This method sets a minute interval to only show multiples of this number in any
+     * minute slider 
+     * 
+     * @param minInterval

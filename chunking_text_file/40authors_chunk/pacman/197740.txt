@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月29日 上午12:43:44
+ */
+public class AppServerTest {
+
+	private BeanFactory factory;
+	/**
+	 * @throws java.lang.Exception
+	 */

@@ -1,0 +1,10 @@
+   public Base64OutputStream(OutputStream out)
+   {
+      super(out);
+   }
+
+   public void write(int c) throws IOException
+   {
+      inbuf[i] = c;
+      i++;
+      if (i == 3)

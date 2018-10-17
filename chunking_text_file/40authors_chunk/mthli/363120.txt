@@ -1,0 +1,10 @@
+   {
+      for (Product p : products.values())
+         if (p.getDescription().equals(description)) return p.getPrice();
+      if (backup == null) return 0;
+      else return backup.getPrice(description);
+   }
+   
+   public Product getProduct(List<String> keywords) throws RemoteException
+   {
+      for (String keyword : keywords)

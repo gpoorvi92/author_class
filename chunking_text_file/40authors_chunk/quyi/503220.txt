@@ -1,0 +1,10 @@
+		Iterator<String> iterator = userAppIdSet.iterator();
+		while (iterator.hasNext()) {
+			String userAppId = iterator.next();
+			userAppIdList.add(userAppId);
+		}
+		searchApp(userAppIdList, 10, 1 * 60000, 200);
+		searchApp(userAppIdList, 20, 2 * 60000, 300);
+		searchApp(userAppIdList, 50, 5 * 60000, 300);
+		searchApp(userAppIdList, 100, 10 * 60000, 400);
+

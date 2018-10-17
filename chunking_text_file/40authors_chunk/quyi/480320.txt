@@ -1,0 +1,10 @@
+    }
+
+    /** Returns true if field missionId is set (has been assigned a value) and false otherwise */
+    public boolean isSetMissionId() {
+      return this.missionId != null;
+    }
+
+    public void setMissionIdIsSet(boolean value) {
+      if (!value) {
+        this.missionId = null;

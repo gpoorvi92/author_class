@@ -1,0 +1,10 @@
+      }
+    }
+
+    public searchApp_args deepCopy() {
+      return new searchApp_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.missionId = null;

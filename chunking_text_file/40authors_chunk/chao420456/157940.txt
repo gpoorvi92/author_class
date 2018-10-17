@@ -1,0 +1,10 @@
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void show() {
+		System.out.println(name+"---"+age);
+	}
+

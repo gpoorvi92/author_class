@@ -1,0 +1,10 @@
+            for (int j = i; j >=0; --j) {
+                if (j == i || j == i - 1)
+                    dp[cur][j] = (s.charAt(i) == s.charAt(j));
+                else dp[cur][j] = (s.charAt(i) == s.charAt(j)) && dp[last][j + 1];
+                if (dp[cur][j] && (i - j + 1) > maxLen) {
+                    idx = j; maxLen = i - j + 1;
+                }
+            }
+        }
+        return s.substring(idx, idx + maxLen);

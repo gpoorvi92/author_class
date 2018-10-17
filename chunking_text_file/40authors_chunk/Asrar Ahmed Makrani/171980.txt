@@ -1,0 +1,10 @@
+	public JLabel item_type_label = new JLabel("IC/Passport");
+	
+	public JLabel location_label = new JLabel("Registered");
+	public JLabel author_label = new JLabel("Expiry Date");
+	
+	public JLabel year_label = new JLabel("Status");
+	public JLabel subject_label = new JLabel("Address");
+	
+	public JLabel avail_label = new JLabel("Telephone");
+	public JLabel permission_label = new JLabel("Salute");

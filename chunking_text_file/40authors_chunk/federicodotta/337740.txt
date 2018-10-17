@@ -1,0 +1,10 @@
+
+    /**
+     * Used to indicate where the payload is inserted into the value of a URL
+     * parameter.
+     */
+    static final byte INS_PARAM_URL = 0x00;
+    /**
+     * Used to indicate where the payload is inserted into the value of a body
+     * parameter.
+     */

@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import com.opslab.util.RandomUtil;
+import org.junit.Test;
+
+
+public class RandomUtilTest {
+
+    @Test
+    public void testInteger(){

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void put(T product) throws InterruptedException {
+		int targetIndex = (product.hashCode() % managedQueues.length);
+		BlockingQueue<T> targetQueue = managedQueues[targetIndex];
+		targetQueue.put(product);
+	}
+
+	@Override

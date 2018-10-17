@@ -1,0 +1,10 @@
+			);
+
+		face.registerEntityModifier(entityModifier);
+		rect.registerEntityModifier(entityModifier.deepCopy());
+
+		scene.attachChild(face);
+		scene.attachChild(rect);
+
+		return scene;
+	}

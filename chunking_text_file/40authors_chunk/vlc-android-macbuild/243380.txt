@@ -1,0 +1,10 @@
+
+    public PlayIndex selectPlayIndex_HighestBitrate() {
+        return selectPlayIndex_HighestBitrate(Integer.MAX_VALUE);
+    }
+
+    public PlayIndex selectPlayIndex_HighestBitrate(int maxBitrate) {
+        DebugLog.v(TAG, "selectPlayIndex_HighestBitrate");
+        long selectedBitrate = 0;
+        for (PlayIndex playIndex : mVodList) {
+            long bitrate = playIndex.getBitrate();

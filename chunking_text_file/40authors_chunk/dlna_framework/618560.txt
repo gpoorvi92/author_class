@@ -1,0 +1,10 @@
+	public InputStream getInputStream()
+	{
+		return sockIn;
+	}
+
+	private void setOutputStream(OutputStream out)
+	{
+		sockOut = out;
+	}
+	

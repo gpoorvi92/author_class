@@ -1,0 +1,10 @@
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		this.mScene = new Scene();
+		this.mScene.setOnAreaTouchTraversalFrontToBack();
+
+		this.addCard(Card.CLUB_ACE, 200, 100);
+		this.addCard(Card.HEART_ACE, 200, 260);
+		this.addCard(Card.DIAMOND_ACE, 440, 100);
+		this.addCard(Card.SPADE_ACE, 440, 260);

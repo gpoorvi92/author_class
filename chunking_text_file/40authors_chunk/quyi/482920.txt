@@ -1,0 +1,10 @@
+        return getStatus();
+
+      case USED_PERMISSIONS:
+        return getUsedPermissions();
+
+      case STC_RD:
+        return getStcRD();
+
+      case DYC_RD:
+        return getDycRD();

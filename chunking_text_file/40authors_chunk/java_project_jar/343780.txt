@@ -1,0 +1,10 @@
+    {
+        this(reader, Charset.defaultCharset());
+    }
+
+    public int read(byte b[], int off, int len)
+        throws IOException
+    {
+        int read = 0;
+label0:
+        do

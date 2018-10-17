@@ -1,0 +1,10 @@
+        if (toCancel == null)
+            return;
+
+        if (!waitingList.isEmpty()) {
+            waitingList.remove(toCancel);
+        }
+
+        if (!transferringList.isEmpty()) {
+            transferringList.remove(toCancel);
+        }

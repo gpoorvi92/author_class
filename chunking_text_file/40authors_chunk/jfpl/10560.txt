@@ -1,0 +1,10 @@
+package com.jufan.platform.adapter;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.ui.LoginActivity;
+import com.jufan.platform.ui.MainActivity;
+import com.jufan.platform.ui.PersonInfoActivity;

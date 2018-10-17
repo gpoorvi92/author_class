@@ -1,0 +1,10 @@
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+public class JFWebViewClient extends WebViewClient {
+
+	private WebContentActivity webActivity;
+	private String refreshUrl = "";
+
+	public JFWebViewClient(WebContentActivity webActivity) {
+		this.webActivity = webActivity;

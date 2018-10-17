@@ -1,0 +1,10 @@
+ *		public static int binarySearch(int[] a,int key):二分查找
+ *
+ * 注意：
+ * 		如果数组本身是无序的，不能直接使用二分查找。
+ * 		并且，先排序，再二分也是有问题的，因为这样就改变了数组中元素原始的索引位置。
+ */
+public class ArraysDemo {
+	public static void main(String[] args) {
+		int[] arr = { 24, 13, 69, 80, 57 };
+

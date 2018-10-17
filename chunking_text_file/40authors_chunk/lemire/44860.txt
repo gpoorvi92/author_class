@@ -1,0 +1,10 @@
+    /**
+     * Gets the running length.
+     *
+     * @return the running length
+     */
+    public int getRunningLength() {
+        return this.RunningLength;
+    }
+
+    /**

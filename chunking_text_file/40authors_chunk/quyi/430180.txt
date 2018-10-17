@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetResult()) {
+        optionals.set(3);
+      }
+      oprot.writeBitSet(optionals, 4);
+      if (struct.isSetEngineName()) {
+        oprot.writeString(struct.engineName);
+      }
+      if (struct.isSetVersion()) {
+        oprot.writeString(struct.version);

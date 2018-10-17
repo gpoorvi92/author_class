@@ -1,0 +1,10 @@
+            weekday = d.get(Calendar.DAY_OF_WEEK);
+            if (weekday == firstDayOfWeek) {
+                System.out.println();
+            }
+        } while (d.get(Calendar.MONTH) == month);
+        if (weekday != firstDayOfWeek) {
+            System.out.println();
+        }
+    }
+}

@@ -1,0 +1,10 @@
+            {
+               System.out.println(method + ":" + args[0]);
+               return null;
+            }
+         };
+   }
+
+   /**
+    * Adds event tracers for all events to which this component and its children can listen
+    * @param c a component

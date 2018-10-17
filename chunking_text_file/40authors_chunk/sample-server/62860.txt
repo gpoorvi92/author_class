@@ -1,0 +1,10 @@
+        Object msg = e.getMessage();
+        if (!(msg instanceof Fenrisulfr.RpcPacket))
+        {
+            log.warn("不明数据包:{},{}", msg.getClass(), ctx.getChannel());
+            return;
+        }
+        Fenrisulfr.RpcPacket pkt = (Fenrisulfr.RpcPacket) msg;
+        log.info("收到数据包{}", pkt);
+        gatewayServerDispatcher.diapatch(ctx.getChannel(), pkt);
+    }

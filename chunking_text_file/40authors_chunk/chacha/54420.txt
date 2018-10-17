@@ -1,0 +1,10 @@
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		coll.ensureIndex(new BasicDBObject("userName",1), "idx_name", true);
+	}
+	
+	public AccountDAO() {
+		super();
+	}
+
+	@Override
+	public String getCollectionName() {

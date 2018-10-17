@@ -1,0 +1,10 @@
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.opengl.GLES20;
+
+/**
+ * (c) 2010 Nicolas Gramlich
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich

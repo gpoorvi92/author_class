@@ -1,0 +1,10 @@
+      URL aboutURL = getClass().getResource("about.gif");
+      Image img = new ImageIcon(aboutURL).getImage();
+      setIconImage(img);
+
+      JTextArea textArea = new JTextArea();
+      InputStream stream = getClass().getResourceAsStream("about.txt");
+      Scanner in = new Scanner(stream);
+      while (in.hasNext())
+         textArea.append(in.nextLine() + "\n");
+      add(textArea);

@@ -1,0 +1,10 @@
+		for(int x=0; x<18; x++){
+			int temp = a;//以前的a
+			a = b;
+			b = temp + b;
+		}
+		System.out.println("第20个月的兔子对数是："+b);
+		
+		//用递归实现
+		System.out.println("第20个月的兔子对数是："+fib(20));
+	}

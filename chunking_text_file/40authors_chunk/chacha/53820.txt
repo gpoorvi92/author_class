@@ -1,0 +1,10 @@
+		LinkedList<AccountEntity> acctArray=new LinkedList<AccountEntity>();
+		for(int i=0;i<10;i++){
+			userNames[i]="chacha"+i;
+			AccountEntity entity=new AccountEntity(userNames[i],"dddddddd","");
+			acctArray.add(entity);
+		}
+		AccountBody body=new AccountBody(acctArray);
+		AddAccountRequest request=new AddAccountRequest(body);
+		try{
+			Response r=service.addAccount(request);

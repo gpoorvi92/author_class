@@ -1,0 +1,10 @@
+        return this;
+    }
+
+    public InlineQueryResultPhoto title(String title) {
+        this.title = title;
+        return this;
+    }
+
+    public InlineQueryResultPhoto description(String description) {
+        this.description = description;

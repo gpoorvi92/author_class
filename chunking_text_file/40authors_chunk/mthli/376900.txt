@@ -1,0 +1,10 @@
+   public void setRemoveMode(boolean newValue)
+   {
+      removeMode = newValue;
+   }
+
+   public boolean getRemoveMode()
+   {
+      return removeMode;
+   }
+

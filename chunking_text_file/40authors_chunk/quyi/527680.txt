@@ -1,0 +1,10 @@
+	}
+
+	public void setFinishedTime(long finishedTime) {
+		this.finishedTime = finishedTime;
+	}
+
+	public PlotsType getPlotsType() {
+		return plotsType;
+	}
+

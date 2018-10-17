@@ -1,0 +1,10 @@
+					singleRecordInfo.setAppSize(userAppInfo.getSize());
+					singleRecordInfo.setMd5(userAppInfo.getMd5());
+					singleRecordInfo.setStartedTime(0);
+					singleRecordInfo.setMissionId(realMissionId);
+					singleRecordInfo.setPlotsType(PlotsType.virusType);
+					singleRecordInfo.setUserAppId("MultiTest" + missionSize + (missionId * missionSize + i));				
+					SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo);
+				
+				}
+				

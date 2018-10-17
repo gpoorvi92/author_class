@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.Canvas.update(java.awt.Graphics)
+
+    public native void __update( java.awt.Graphics g );
+
+    boolean entered_update_0;
+
+    public void update( java.awt.Graphics g ) {

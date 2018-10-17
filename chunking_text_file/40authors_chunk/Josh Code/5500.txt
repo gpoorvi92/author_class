@@ -1,0 +1,8 @@
+  }
+
+    public BufferedImage getDisplayImage()
+    {
+        return renderer.getImage();
+    }
+}
+

@@ -1,0 +1,10 @@
+	RequestComponentContainer requestComponentContainer;
+
+	MockHttpServletRequest mockHttpServletRequest = new MockHttpServletRequest();
+	MockHttpServletResponse mockHttpServletResponse = new MockHttpServletResponse();
+
+
+
+	@Before
+	public void init() {
+

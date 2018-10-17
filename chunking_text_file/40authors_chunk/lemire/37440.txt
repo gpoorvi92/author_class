@@ -1,0 +1,10 @@
+        Iterator<Integer> i = s.iterator();
+        for (int k = 0; k < N; ++k)
+            ans[k] = i.next();
+        Arrays.sort(ans);
+        return ans;
+    }
+
+    /**
+     * output all integers from the range [0,Max) that are not in the array
+     */

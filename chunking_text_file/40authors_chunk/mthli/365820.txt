@@ -1,0 +1,10 @@
+   {
+      double rate = (c + minRate) / 100.0;
+      int nperiods = r;
+      double futureBalance = INITIAL_BALANCE * Math.pow(1 + rate, nperiods);
+      return String.format("%.2f", futureBalance);
+   }
+
+   public String getColumnName(int c)
+   {
+      return (c + minRate) + "%";

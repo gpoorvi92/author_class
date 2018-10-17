@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.MouseMotionAdapter.mouseDragged(java.awt.event.MouseEvent)
+
+    public native void __mouseDragged( java.awt.event.MouseEvent e );
+
+    boolean entered_mouseDragged_1;
+
+    public void mouseDragged( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseDragged_1 ) {

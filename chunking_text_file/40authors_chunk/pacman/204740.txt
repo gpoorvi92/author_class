@@ -1,0 +1,10 @@
+	 * @Title: sendMessage
+	 * @param msg
+	 * @param dest
+	 * @return: void
+	 */
+	<T extends BaseMessage> void sendMessage(T msg, QueueType dest) throws MQException;
+	
+	/**
+	 * 
+	 * 

@@ -1,0 +1,10 @@
+
+    public long[] longArrayMethod( long arg[] ) {
+        return arg;
+    }
+
+    public static long long2dArrayFieldStatic[][];
+    public long long2dArrayField[][];
+
+    public static long[][] long2dArrayMethodStatic( long arg[][] ) {
+        return arg;

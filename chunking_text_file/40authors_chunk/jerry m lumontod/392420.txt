@@ -1,0 +1,10 @@
+        }
+
+        // Determine if mouse was clicked between column heads
+        Rectangle headerRect = table.getTableHeader().getHeaderRect(vColIndex);
+        if (!headerRect.contains(evt.getX(), evt.getY())) {
+			return;
+        }
+        
+        ARowSort ARowSortInst = new ARowSort();
+        ARowSortInst.sortAllRowsBy(cmodel,mColIndex,true);

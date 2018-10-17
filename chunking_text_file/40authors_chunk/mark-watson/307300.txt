@@ -1,0 +1,10 @@
+                    g2.setColor(Color.black);
+                	g2.drawRect(6 + x * 29, 3 + y * 29, 29, 29);
+                } else {
+                	g2.setColor(Color.black);
+                	g2.drawRect(6 + x * 29, 3 + y * 29, 29, 29);
+                }
+            }
+        }
+        // redraw the path in black:
+        g2.setColor(Color.black);

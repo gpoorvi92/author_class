@@ -1,0 +1,10 @@
+
+  public Rules deepCopy() {
+    return new Rules(this);
+  }
+
+  @Override
+  public void clear() {
+    this.ruleId = null;
+    this.ruleName = null;
+    this.ruleTypes = null;

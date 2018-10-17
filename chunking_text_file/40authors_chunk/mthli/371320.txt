@@ -1,0 +1,10 @@
+      preferredWidth = 0;
+      preferredHeight = 0;
+      minWidth = 0;
+      minHeight = 0;
+      maxComponentWidth = 0;
+      maxComponentHeight = 0;
+
+      // compute the maximum component widths and heights
+      // and set the preferred size to the sum of the component sizes.
+      for (int i = 0; i < n; i++)

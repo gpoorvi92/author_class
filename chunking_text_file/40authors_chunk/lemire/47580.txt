@@ -1,0 +1,9 @@
+     */
+    private int pointer;
+
+    /**
+     * The current running length word.
+     */
+    protected RunningLengthWord rlw;
+
+}

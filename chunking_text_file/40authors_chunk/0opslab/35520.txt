@@ -1,0 +1,10 @@
+
+    /**
+     * 判断集合的有效性
+     */
+    public final static boolean valid(Collection col) {
+        return !(col == null || col.isEmpty());
+    }
+
+    /**
+     * 判断一组集合是否有效

@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
+     * 获取字符串编码
+     *
+     * @param str 需要处理的字符串
+     */

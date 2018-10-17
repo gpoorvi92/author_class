@@ -1,0 +1,10 @@
+			 else if(e.getSource() == circleButton)			
+				frame.addShape(new ShapeLayerModel('o'));
+			 else if(e.getSource() == lineButton)			
+				frame.addShape(new ShapeLayerModel('l'));
+			 else if(e.getSource() == freeButton)
+				frame.addShape(new ShapeLayerModel('f'));
+			 else if(e.getSource() == swirlButton)
+			 	frame.addShape(new ShapeLayerModel('s'));
+			
+		}

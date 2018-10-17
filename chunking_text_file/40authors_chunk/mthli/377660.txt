@@ -1,0 +1,10 @@
+         if (first) first = false;
+         else out.print(",");
+         out.println();
+         out.print("            ");
+         out.print(p);
+         out.print("Descriptor");
+      }
+      out.println();
+      out.println("         };");
+      out.println("      }");

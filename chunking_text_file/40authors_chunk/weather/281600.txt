@@ -1,0 +1,10 @@
+ * <p>
+ * If there is not a suitably-sized buffer in its recycling pool when a buffer is requested, this
+ * class will allocate a new buffer and return it.
+ * <p>
+ * This class has no special ownership of buffers it creates; the caller is free to take a buffer
+ * it receives from this pool, use it permanently, and never return it to the pool; additionally,
+ * it is not harmful to return to this pool a buffer that was allocated elsewhere, provided there
+ * are no other lingering references to it.
+ * <p>
+ * This class ensures that the total size of the buffers in its recycling pool never exceeds a

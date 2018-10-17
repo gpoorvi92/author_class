@@ -1,0 +1,10 @@
+		return name;
+	}
+	/**
+	 * 设置图片名称。
+	 * @param name
+	 * 图片名称。
+	 * */
+	public void setName(String name) {
+		this.name = name;
+	}

@@ -1,0 +1,10 @@
+         Object obj = answer.next();
+         int nItems = PLI.getColumnCount((edu.isi.stella.Stella_Object)obj);
+         java.util.ArrayList r2 = new java.util.ArrayList(nItems);
+         for (int i = 0; i < nItems; i++) {
+           r2.add(fix(PLI.getNthValue((edu.isi.stella.Stella_Object)obj, i, null, null)));
+         }
+         ret.add(r2);
+       }
+      } catch (Exception ex) {
+       System.out.println("Error with query '" + query + "': " + ex);

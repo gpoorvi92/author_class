@@ -1,0 +1,10 @@
+		return Result.success;
+	}
+
+	@Override
+	public Result heart(NodeHeat nodeHeat, long timestamp) throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+	//	System.out.println(timestamp + nodeHeat.toString());
+		return Result.success;
+	}
+

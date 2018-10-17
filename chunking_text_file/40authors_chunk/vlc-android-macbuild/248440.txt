@@ -1,0 +1,10 @@
+        sInstance = cpuInfo;
+        return cpuInfo;
+    }
+
+    public void addCpuInfo(String line) {
+        String[] lineInfo = line.split(":", 2);
+        if (lineInfo.length >= 2) {
+            addCpuInfo(lineInfo[0], lineInfo[1]);
+        }
+    }

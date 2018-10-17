@@ -1,0 +1,10 @@
+        if (mOnTimeChangeListener != null) {
+        	if (minuteInterval>1) {
+        		int minute = mTime.get(Calendar.MINUTE)/minuteInterval*minuteInterval;
+        		
+        		mTime.set(Calendar.MINUTE, minute);
+        	}
+            mOnTimeChangeListener.onTimeChange(mTime);
+        }
+    }
+

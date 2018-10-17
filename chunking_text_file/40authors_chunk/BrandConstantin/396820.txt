@@ -1,0 +1,7 @@
+    for (int i = 1; i <= numIntrod; i ++){
+        factorial *= i;
+        System.out.print(" += " + factorial);
+    }
+
+  }
+}

@@ -1,0 +1,10 @@
+		public SectionBasedDiskStorage() {
+			File dir = new File(storageBaseDir);
+			if (!dir.exists()) {
+				dir.mkdirs();
+			}
+		}
+
+		private final Object sectionLock = new Object();
+
+		public String[] apply4Filename(MMSDeliverRequest request) {

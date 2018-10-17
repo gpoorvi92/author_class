@@ -1,0 +1,10 @@
+    {
+        if(str1 == null || str2 == null)
+            throw new NullPointerException("The strings must not be null");
+        else
+            return sensitive ? str1.compareTo(str2) : str1.compareToIgnoreCase(str2);
+    }
+
+    public boolean checkEquals(String str1, String str2)
+    {
+        if(str1 == null || str2 == null)

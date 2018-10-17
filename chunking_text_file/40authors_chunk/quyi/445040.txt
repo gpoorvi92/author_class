@@ -1,0 +1,10 @@
+              struct.dynamicCheckResult.read(iprot);
+              struct.setDynamicCheckResultIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          default:
+            org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+        }
+        iprot.readFieldEnd();

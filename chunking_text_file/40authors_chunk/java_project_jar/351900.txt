@@ -1,0 +1,8 @@
+    }
+
+    ReferenceQueue q;
+    final Collection trackers = Collections.synchronizedSet(new HashSet());
+    final List deleteFailures = Collections.synchronizedList(new ArrayList());
+    volatile boolean exitWhenFinished;
+    Thread reaper;
+}

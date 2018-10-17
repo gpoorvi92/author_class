@@ -1,0 +1,10 @@
+            alterationObserver.initialize();
+        } catch (Exception e) {
+
+        }
+        alterationObserver.checkAndNotify();
+    }
+
+    public void stopWatching() {
+        try {
+            alterationObserver.destroy();

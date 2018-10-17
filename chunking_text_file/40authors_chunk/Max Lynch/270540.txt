@@ -1,0 +1,10 @@
+	{
+		setLayout(new BorderLayout());
+		add(new StrokeControls(renderSurface), BorderLayout.CENTER);
+	}
+	
+	
+}
+
+
+

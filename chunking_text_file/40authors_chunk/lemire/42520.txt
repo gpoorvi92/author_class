@@ -1,0 +1,10 @@
+
+/**
+ * Convenience functions for working over iterators
+ */
+public final class IteratorUtil32 {
+
+    /** Private constructor to prevent instantiation */
+    private IteratorUtil32() {}
+
+    /**

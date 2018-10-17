@@ -1,0 +1,10 @@
+
+
+   public boolean equals(Object obj) 
+   {
+       return false;  
+   }
+
+   /** compares 
+    */
+   public int compare(Triangle t1, Triangle t2)

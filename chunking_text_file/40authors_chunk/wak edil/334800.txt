@@ -1,0 +1,10 @@
+	try 
+	{
+      // Create a server socket
+      ServerSocket serverSocket = new ServerSocket(7777);
+      jta.append("-------------------------\n");
+      jta.append("Cashier DeliFood\n");
+      jta.append("-------------------------\n");
+      
+      // Listen for a connection request
+      Socket connectToClient = serverSocket.accept();

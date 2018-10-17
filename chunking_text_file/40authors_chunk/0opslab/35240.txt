@@ -1,0 +1,10 @@
+    }
+  }
+
+  /**
+   * @throws IOException
+   * 
+   */
+  private final void renderHeaderCell(String columnName, int firstOrLast) throws IOException {
+    m_out.write(this.HeadCellStartTag((firstOrLast==FIRST_CELL_IN_ROW)));
+    m_out.write(columnName);

@@ -1,0 +1,10 @@
+    public static final String  REG_SPACE_POINT         = "^\\s*|\\s*$";
+    /**
+     * HTML
+     */
+    public static final String  REG_HTML                = "<(\\S*?)[^>]*>.*?</\\1>|<.*? />";
+    /**
+     * Email
+     */
+    public static final String  REG_EMAIL               = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+    /**

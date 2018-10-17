@@ -1,0 +1,10 @@
+{
+    private static final Logger log = LoggerFactory.getLogger(SynService.class);
+    public static final void syn()
+    {
+        Map<Integer, ChatServerRpc.SynReq.Builder> map = new HashMap<>();
+        //ChatServerRpc.SynReq.Builder req = ChatServerRpc.SynReq.newBuilder();
+        List<NoticeEntity> noticeList = DaoManager.getLocalDao().selectList(NoticeEntity.class);
+        if (noticeList.size() > 0)
+        {
+            for (NoticeEntity each : noticeList)

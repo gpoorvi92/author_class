@@ -1,0 +1,10 @@
+	练习：
+		Phone:
+			成员变量：brand,price,color
+			构造方法：无参,带参
+			成员方法：setXxx()/getXxx()
+					  show()
+
+		PhoneTest:
+			main
+*/

@@ -1,0 +1,10 @@
+ * 			V remove(Object key):根据键移除键值对元素，返回的是键对应的值
+ * 		C:判断功能
+ * 			boolean containsKey(Object key):判断Map集合中是否包含指定的键
+ * 			boolean containsValue(Object value):判断Map集合中是否包含指定的值
+ * 			boolean isEmpty():判断集合是否为空
+ * 		D:获取功能
+ * 			Set<Map.Entry<K,V>> entrySet():返回的是键值对对象的Set集合。
+ * 			V get(Object key):根据键获取值
+ * 			Set<K> keySet():所有的键的集合
+ * 			Collection<V> values():所有值的集合

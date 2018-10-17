@@ -1,0 +1,10 @@
+                //MimeUtility.encodeWord可以避免文件名乱码
+                attachmentBodyPart.setFileName(MimeUtility.encodeWord(attachment.getName()));
+                multipart.addBodyPart(attachmentBodyPart);
+            }
+
+            // 将multipart对象放到message中
+            message.setContent(multipart);
+            // 保存邮件
+            message.saveChanges();
+

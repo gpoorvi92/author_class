@@ -1,0 +1,10 @@
+          }
+          tempChars[index] = (char)c;
+          index++;
+          c = is.read();
+      }
+      result = result + (new String(tempChars, 0, index));
+      return result;
+    }
+
+    public int readInt() throws IOException

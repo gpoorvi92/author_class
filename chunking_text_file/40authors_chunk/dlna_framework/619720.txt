@@ -1,0 +1,10 @@
+	public InetAddress getMulticastInetAddress()
+	{
+		return ssdpMultiGroup.getAddress();
+	}
+	
+	public String getMulticastAddress()
+	{
+		return getMulticastInetAddress().getHostAddress();
+	}
+	

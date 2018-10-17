@@ -1,0 +1,10 @@
+        this(names, null);
+    }
+
+    public NameFileFilter(List names, IOCase caseSensitivity)
+    {
+        if(names == null)
+        {
+            throw new IllegalArgumentException("The list of names must not be null");
+        } else
+        {

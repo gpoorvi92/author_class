@@ -1,0 +1,10 @@
+			int chunkSize = HTTP.getChunkSize();
+			byte readBuf[] = new byte[chunkSize];
+			long readCnt = 0;
+			long readSize = (chunkSize < contentLength) ? chunkSize : contentLength;
+			int readLen = in.read(readBuf, 0, (int)readSize);
+			while (0 < readLen && readCnt < contentLength) {
+				if (isChunkedResponse == true) {
+					// Thanks for Lee Peik Feng <pflee@users.sourceforge.net> (07/07/05)
+					String chunSizeBuf = Long.toHexString(readLen);
+					out.write(chunSizeBuf.getBytes());

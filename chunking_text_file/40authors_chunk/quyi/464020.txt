@@ -1,0 +1,10 @@
+      }
+      this.rules.add(elem);
+    }
+
+    public List<com.nercis.isscp.idl.rules.Rules> getRules() {
+      return this.rules;
+    }
+
+    public ruleSync_args setRules(List<com.nercis.isscp.idl.rules.Rules> rules) {
+      this.rules = rules;

@@ -1,0 +1,10 @@
+		final String hql = "from WeChatAccount w order by w.name";
+		return this.find(hql, null, null, null);
+	}
+
+	@Override
+	public List<WeChatAccount> findAccounts(WeChatAccountInfo info) {
+		String hql = "from WeChatAccount w where 1 = 1 ";
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		hql = this.addWhere(info, hql, parameters);
+		if(info.getSort() != null && !info.getSort().trim().isEmpty()){

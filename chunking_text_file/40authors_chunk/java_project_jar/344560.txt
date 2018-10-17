@@ -1,0 +1,10 @@
+                    buffer.append(",");
+                Object filter = fileFilters.get(i);
+                buffer.append(filter != null ? filter.toString() : "null");
+            }
+
+        }
+        buffer.append(")");
+        return buffer.toString();
+    }
+

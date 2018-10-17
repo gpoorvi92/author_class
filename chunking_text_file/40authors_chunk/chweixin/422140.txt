@@ -1,0 +1,10 @@
+package ipower.wechat.dao.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import ipower.wechat.dao.IPictureDao;
+import ipower.wechat.domain.Picture;
+import ipower.wechat.modal.PictureInfo;
+/**

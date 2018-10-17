@@ -1,0 +1,10 @@
+  public boolean getAutoStopBackward() throws JposException;
+  public void    setAutoStopBackward(boolean autoStop) throws JposException;
+  public int     getAutoStopBackwardDelayTime() throws JposException;
+  public void    setAutoStopBackwardDelayTime(int delayTime) throws JposException;
+  public int     getAutoStopBackwardItemCount() throws JposException;
+  public boolean getAutoStopForward() throws JposException;
+  public void    setAutoStopForward(boolean autoStop) throws JposException;
+  public int     getAutoStopForwardDelayTime() throws JposException;
+  public void    setAutoStopForwardDelayTime(int delayTime) throws JposException;
+  public int     getAutoStopForwardItemCount() throws JposException;

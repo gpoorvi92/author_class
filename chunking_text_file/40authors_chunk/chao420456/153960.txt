@@ -1,0 +1,10 @@
+//抽象的教练类
+abstract class Coach extends People {
+	public Coach() {}
+
+	public Coach(String name,int age) {
+		super(name,age);
+	}
+
+	public abstract void teach();
+}

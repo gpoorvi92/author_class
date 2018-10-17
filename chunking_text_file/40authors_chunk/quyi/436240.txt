@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetSensitive()).compareTo(other.isSetSensitive());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSensitive()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.sensitive, other.sensitive);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

@@ -1,0 +1,10 @@
+	public int Date1GreaterThanDate2(String tstrDate1,String tstrDate2) {
+		
+		int mintYear1,mintMonth1,mintDay1,mintYear2,mintMonth2,mintDay2;
+		int mintResult=0;
+		
+		mintYear1 = moDateIntervalProcessor.GetYearFromString(tstrDate1);
+		mintMonth1=moDateIntervalProcessor.GetMonthFromString(tstrDate1);
+		mintDay1=moDateIntervalProcessor.GetDayFromString(tstrDate1);
+
+		mintYear2 = moDateIntervalProcessor.GetYearFromString(tstrDate2);

@@ -1,0 +1,10 @@
+	public JTextArea listPane;
+	public JPanel reportPanel;
+	public JButton drawGraphButton;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+	public int ID;
+	public Color skyblue=new Color(150,190,255);
+	public 	final ImageIcon imageIcon = new ImageIcon("Icon/header/cool.png");
+	private static Connection dbcon = null;
+	private JButton print,cancel;
+	private JPanel panel;	

@@ -1,0 +1,10 @@
+            result += hex + " ";
+        }
+        return result;
+    }
+
+    /**
+     * 把16进制字符串转换成字节数组
+     *
+     * @param hexString 16进制字符串
+     * @return byte[]

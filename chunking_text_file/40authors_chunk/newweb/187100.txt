@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.Customer;
+import com.newweb.model.base.LhjPrice;
+
+@Entity
+@Table(name="t_lhjpricecut")
+public class LhjPriceCut {
+	private int ID;
+	private Customer customer;
+	private LhjPrice lhjPrice;

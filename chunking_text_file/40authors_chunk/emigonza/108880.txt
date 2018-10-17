@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("CharacterSet"),
+        makeProperty("CharacterSetList"),
+        makeProperty("Columns"),
+        makeProperty("CurrentWindow"),
+        makeProperty("CursorColumn"),
+        makeProperty("CursorRow"),
+        makeProperty("CursorUpdate"),

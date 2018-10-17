@@ -1,0 +1,10 @@
+            } else if ((t >= DBC_CHAR_START) && (t <= DBC_CHAR_END)) {
+                // 字符是!到~之间的可见字符
+                buf.append((char) (t + CONVERT_STEP));
+            } else {
+                // 不对空格以及ascii表中其他可见字符之外的字符做任何处理
+                buf.append(t);
+            }
+        }
+        return buf.toString();
+    }

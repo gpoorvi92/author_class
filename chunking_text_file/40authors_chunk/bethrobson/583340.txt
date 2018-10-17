@@ -1,0 +1,10 @@
+
+     public QuizCard(String q, String a) {
+         question = q;
+         answer = a;
+    }
+     
+
+     public void setUniqueID(String id) {
+        uniqueID = id;
+     }

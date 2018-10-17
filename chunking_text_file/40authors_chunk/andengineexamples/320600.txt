@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	private void addCard(final Card pCard, final int pX, final int pY) {
+		final Sprite sprite = new Sprite(pX, pY, this.mCardTotextureRegionMap.get(pCard), this.getVertexBufferObjectManager()) {
+			boolean mGrabbed = false;
+
+			@Override
+			public boolean onAreaTouched(final TouchEvent pSceneTouchEvent, final float pTouchAreaLocalX, final float pTouchAreaLocalY) {
+				switch(pSceneTouchEvent.getAction()) {
+					case TouchEvent.ACTION_DOWN:

@@ -1,0 +1,10 @@
+            IOUtils.closeQuietly(stream);
+            if(!fileExistedAlready)
+                FileUtils.deleteQuietly(file);
+            throw ex;
+        }
+        return writer;
+    }
+
+    public void write(int idx)
+        throws IOException

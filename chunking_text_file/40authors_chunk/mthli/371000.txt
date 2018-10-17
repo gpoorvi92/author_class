@@ -1,0 +1,10 @@
+    }
+}
+
+/* 
+ * 如前CalendarTest.java开头的注释所述，
+ * 这里的Employee就是一个非公有类，
+ * 但它不是一个私有类
+ */
+class Employee {
+    private String name;

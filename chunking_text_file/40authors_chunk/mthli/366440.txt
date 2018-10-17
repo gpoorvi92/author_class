@@ -1,0 +1,10 @@
+ */
+public class ProgressBarFrame extends JFrame
+{
+   public static final int TEXT_ROWS = 10;
+   public static final int TEXT_COLUMNS = 40;
+
+   private JButton startButton;
+   private JProgressBar progressBar;
+   private JCheckBox checkBox;
+   private JTextArea textArea;

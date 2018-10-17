@@ -1,0 +1,10 @@
+     * Sets the running length.
+     *
+     * @param number the new running length
+     */
+    public void setRunningLength(final int number) {
+        this.RunningLength = number;
+    }
+
+    /**
+     * Size in uncompressed words.

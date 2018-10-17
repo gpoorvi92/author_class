@@ -1,0 +1,10 @@
+	}
+
+	////////////////////////////////////////////////
+	//	Methods
+	////////////////////////////////////////////////
+
+	public void addRequestListener(HTTPRequestListener listener)
+	{
+		int nServers = size();
+		for (int n=0; n<nServers; n++) {

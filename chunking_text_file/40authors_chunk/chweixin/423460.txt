@@ -1,0 +1,10 @@
+	 * */
+	public void setType(Integer type) {
+		this.type = type;
+	}
+	/**
+	 * 设置菜单代码。
+	 * @return 菜单代码。
+	 * */
+	public String getCode() {
+		return code;

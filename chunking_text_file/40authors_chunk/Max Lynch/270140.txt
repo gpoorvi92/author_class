@@ -1,0 +1,10 @@
+ * This class provides a way to fill a shape with a radial color gradient
+ * pattern.
+ * Given an Ellipse and 2 Colors, color1 and color2, the paint will render 
+ * a color starting at color1 at the center of the Ellipse to color2 at 
+ * its boundary. All pixels lying outside the Ellipse boundary have the
+ * color2 value.
+ *
+ * @author Vincent Hardy
+ * @version 1.0, 09.11.1998
+ */

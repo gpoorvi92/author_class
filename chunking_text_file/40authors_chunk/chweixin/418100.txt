@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取排序号。
+	 * @return 排序号。
+	 * */
+	public Integer getOrderNo() {
+		return orderNo;
+	}
+	/**
+	 * 设置排序号。

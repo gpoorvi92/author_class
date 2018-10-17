@@ -1,0 +1,10 @@
+      return getRuleTypes();
+
+    case RISK_LEVEL:
+      return getRiskLevel();
+
+    case PAK:
+      return getPak();
+
+    case OBJ:
+      return getObj();

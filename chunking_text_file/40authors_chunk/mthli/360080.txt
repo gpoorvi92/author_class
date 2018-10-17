@@ -1,0 +1,10 @@
+                  updateDisplay();
+               }
+               catch (ParseException e)
+               {
+                  timeText.setText("Parse error: " + t);
+               }
+               catch (IllegalArgumentException e)
+               {
+                  timeText.setText("Argument error: " + t);
+               }

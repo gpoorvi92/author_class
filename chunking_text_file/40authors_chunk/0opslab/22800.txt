@@ -1,0 +1,10 @@
+  super(state,1);
+  tokenNames = _tokenNames;
+}
+
+	public final String  htmlDocument() throws RecognitionException, TokenStreamException {
+		String charset;
+		
+		Token  token1 = null;
+		Token  token2 = null;
+		charset = null;

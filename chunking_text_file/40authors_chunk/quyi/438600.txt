@@ -1,0 +1,10 @@
+        return HIGH;
+      case 4:
+        return MEDIUM;
+      case 2:
+        return LOW;
+      case 0:
+        return LOWER;
+      default:
+        return null;
+    }

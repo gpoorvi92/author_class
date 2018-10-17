@@ -1,0 +1,10 @@
+
+    /**
+     * 字符串转换成日期
+     */
+    public static Date str2date(String dataStr) {
+        return str2date(dataStr, DATE_FORMAT);
+    }
+
+    /**
+     * 字符串转换成日期

@@ -1,0 +1,10 @@
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		hql = this.addWhere(info, hql, parameters); 
+		return this.count(hql, parameters);
+	}
+
+	@Override
+	public User loadUser(String account) {
+		if(account == null || account.trim().isEmpty()) return null;
+		final String hql = "from User u where u.account = :account ";
+		Map<String, Object> parameters = new HashMap<String, Object>();

@@ -1,0 +1,10 @@
+    public void register(Selector selector) {
+        this.selector = selector;
+
+        try {
+            clientChannel.configureBlocking(false);
+
+            final InetSocketAddress socketAddress = new InetSocketAddress(
+                    config.getRemoteHost(), config.getRemotePort());
+            serverChannel = SocketChannel.open();
+            serverChannel.connect(socketAddress);

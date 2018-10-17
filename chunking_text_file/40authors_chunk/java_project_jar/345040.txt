@@ -1,0 +1,10 @@
+            if(!lockFile.createNewFile())
+                throw new IOException((new StringBuilder()).append("Can't write file, lock ").append(lockFile.getAbsolutePath()).append(" exists").toString());
+            lockFile.deleteOnExit();
+        }
+    }
+
+    private Writer initWriter(File file, String encoding, boolean append)
+        throws IOException
+    {
+        boolean fileExistedAlready = file.exists();

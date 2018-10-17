@@ -1,0 +1,10 @@
+            {
+                listener.fileRotated();
+                try
+                {
+                    RandomAccessFile save = reader;
+                    reader = new RandomAccessFile(file, "r");
+                    position = 0L;
+                    IOUtils.closeQuietly(save);
+                }
+                catch(FileNotFoundException e)

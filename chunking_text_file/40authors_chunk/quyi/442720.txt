@@ -1,0 +1,10 @@
+      }
+      if (struct.sourcePort != null) {
+        oprot.writeFieldBegin(SOURCE_PORT_FIELD_DESC);
+        oprot.writeString(struct.sourcePort);
+        oprot.writeFieldEnd();
+      }
+      if (struct.targetAddress != null) {
+        oprot.writeFieldBegin(TARGET_ADDRESS_FIELD_DESC);
+        oprot.writeString(struct.targetAddress);
+        oprot.writeFieldEnd();

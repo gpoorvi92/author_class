@@ -1,0 +1,10 @@
+     * Constants defining the JavaPOS local populator file Java property 
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String JPOS_POPULATOR_FILE_PROP_NAME = "jpos.config.populatorFile";
+
+
+    /**
+     * Constants defining the JavaPOS URL populator file Java property 
+     * @since 1.2 (NY 2K meeting)
+     */

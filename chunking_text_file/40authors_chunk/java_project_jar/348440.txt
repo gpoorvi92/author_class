@@ -1,0 +1,10 @@
+    {
+        int size = len;
+        StringBuffer xmlProlog = xmlPrologWriter.getBuffer();
+        if(xmlProlog.length() + len > 4096)
+            size = 4096 - xmlProlog.length();
+        xmlPrologWriter.write(cbuf, off, size);
+        if(xmlProlog.length() >= 5)
+        {
+            if(xmlProlog.substring(0, 5).equals("<?xml"))
+            {

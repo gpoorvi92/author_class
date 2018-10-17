@@ -1,0 +1,10 @@
+      modcount++;
+      return r; 
+   } 
+
+   @SuppressWarnings("unchecked")
+   public E peek() 
+   { 
+      if (count == 0) return null;
+      return (E) elements[head]; 
+   } 

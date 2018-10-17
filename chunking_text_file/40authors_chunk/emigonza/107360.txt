@@ -1,0 +1,10 @@
+ */
+public interface JposEntryRegistry
+{
+    /**
+     * @return true if there is an JposEntry with the specified logical name
+     * @param logicalName the logical name for the service
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public boolean hasJposEntry( String logicalName );
+

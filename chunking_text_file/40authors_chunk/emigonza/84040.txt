@@ -1,0 +1,6 @@
+  public void    printRecItemAdjustmentVoid(int adjustmentType,
+                                            String description,
+                                            long amount,
+                                            int vatInfo)
+                     throws JposException;
+}

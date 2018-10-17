@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(1)) {
+        struct.cpuModel = iprot.readString();
+        struct.setCpuModelIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.cpuCores = iprot.readI32();
+        struct.setCpuCoresIsSet(true);
+      }
+      if (incoming.get(3)) {

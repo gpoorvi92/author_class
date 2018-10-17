@@ -1,0 +1,10 @@
+
+    public void readFromServer() throws IOException {
+        clientBuffer.writeFrom(serverChannel);
+        if (clientBuffer.isReadyToRead()) register();
+    }
+
+    public void writeToClient() throws IOException {
+        clientBuffer.writeTo(clientChannel);
+        if (clientBuffer.isReadyToWrite()) register();
+    }

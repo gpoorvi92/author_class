@@ -1,0 +1,10 @@
+    }
+  }
+
+  public DynamicCheckResultData getDynamicCheckResult() {
+    return this.dynamicCheckResult;
+  }
+
+  public AppCheckResult setDynamicCheckResult(DynamicCheckResultData dynamicCheckResult) {
+    this.dynamicCheckResult = dynamicCheckResult;
+    return this;

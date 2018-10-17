@@ -1,0 +1,10 @@
+				iFileCount = fileCount.addAndGet(1);
+
+			}
+
+			fileName[0] = storageBaseDir + "/" + sectionName + "/"
+			    + new DecimalFormat("0000").format(iFileCount) + "-"
+			    + request.getTimeStamp().getTime() / 1000 + "-" + request.getExpiry()
+			    + ".rq";
+			fileName[1] = sectionName;
+

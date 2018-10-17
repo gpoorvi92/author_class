@@ -1,0 +1,10 @@
+                }
+            }
+            if (last.empty() == true) {
+                if (level.size() != 0)
+                    res.add(level);
+                level = new ArrayList<Integer>();
+                Stack<TreeNode> temp = last;
+                last = cur;
+                cur = temp;
+                left2right = !left2right;

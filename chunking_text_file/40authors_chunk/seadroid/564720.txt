@@ -1,0 +1,10 @@
+     */
+    public synchronized boolean canThreadDecoding(Thread t) {
+        ThreadStatus status = mThreadStatus.get(t);
+        if (status == null) {
+            // allow decoding by default
+            return true;
+        }
+
+        boolean result = (status.mState != State.CANCEL);
+        return result;

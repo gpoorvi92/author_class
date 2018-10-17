@@ -1,0 +1,10 @@
+	//-------------------------------------------------------------------------
+	// Inner interfaces
+	//
+
+	/**
+	 * Simple interface to iterate through the list
+	 * @author E. Michael Maximilien (maxim@us.ibm.com)
+	 * @since 1.3 (SF 2K meeting)
+	 */
+	class DefaultIterator extends Object implements PropInfoList.Iterator

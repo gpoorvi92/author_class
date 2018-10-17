@@ -1,0 +1,10 @@
+            textArea.setText(result.toString());
+            statusLine.setText("Done");
+         }
+         catch (InterruptedException ex)
+         {
+         }
+         catch (CancellationException ex)
+         {
+            textArea.setText("");
+            statusLine.setText("Cancelled");

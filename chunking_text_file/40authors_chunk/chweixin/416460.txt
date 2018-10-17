@@ -1,0 +1,10 @@
+	 * 设置用户ID。
+	 * @param id
+	 * 用户ID。
+	 * */
+	public void setId(String id) {
+		this.id = id;
+	}
+	/**
+	 * 获取用户姓名。
+	 * @return 用户姓名。

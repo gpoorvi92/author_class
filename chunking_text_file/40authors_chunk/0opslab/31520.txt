@@ -1,0 +1,10 @@
+   * 
+   * @param in
+   *          An InputStream for the document, that supports mark and a
+   *          readlimit of argument length.
+   * 
+   * @param length
+   *          The amount of bytes to take into account. This number should not
+   *          be longer than the amount of bytes retrievable from the
+   *          InputStream but should be as long as possible to give the fallback
+   *          detection (chardet) more hints to guess. 

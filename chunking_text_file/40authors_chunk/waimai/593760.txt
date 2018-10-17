@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void editPwd(User user, String newPwd) throws ServiceException {
+        User originalUser = userMapper.selectByPrimaryKey(user.getId());
+        if (originalUser != null && originalUser.getPassword().equals(user.getPassword())) {
+            user.setPassword(newPwd);
+            userMapper.updateByPrimaryKeySelective(user);
+        } else {
+            throw new ServiceException("原密码错误或用户不存在");

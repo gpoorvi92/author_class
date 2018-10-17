@@ -1,0 +1,8 @@
+		rateLimiterConfigurationManager.configurationMap.get(randomUUID).pause();
+		Assert.assertThat(rateLimiterConfigurationManager.configurationMap.get(randomUUID).isPaused(), CoreMatchers.is(true));
+		Assert.assertThat(rateLimiterConfigurationManager.configurationMap.get(randomUUID).isPaused(), CoreMatchers.is(true));
+		rateLimiterConfigurationManager.configurationMap.get(randomUUID).resume();
+		Assert.assertThat(rateLimiterConfigurationManager.configurationMap.get(randomUUID).isPaused(), CoreMatchers.is(false));
+		
+	}
+}

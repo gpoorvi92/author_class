@@ -1,0 +1,10 @@
+
+ Solution: back-tracking..
+ */
+public class Solution {
+    public void solveSudoku(char[][] board) {
+        solve(board);
+    }
+    boolean solve(char[][] board){
+        for(int i = 0;i<9;i++){
+            for(int j=0;j<9;j++){

@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // IMAGE_CONTENT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.imageContent = iprot.readString();
+              struct.setImageContentIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

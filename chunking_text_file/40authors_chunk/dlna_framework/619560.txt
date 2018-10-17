@@ -1,0 +1,10 @@
+{
+
+	////////////////////////////////////////////////
+	//	Member
+	////////////////////////////////////////////////
+
+	private InetSocketAddress ssdpMultiGroup = null;
+	private MulticastSocket ssdpMultiSock = null;
+	private NetworkInterface ssdpMultiIf = null;
+	

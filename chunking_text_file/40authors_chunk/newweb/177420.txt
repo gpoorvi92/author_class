@@ -1,0 +1,10 @@
+
+	@Override
+	public MaterialBrand findMaterialBrandByName(String name) {
+		return materialBrandDao.selectMaterialBrandByName(name);
+	}
+
+	@Override
+	public boolean save(MaterialBrand mb) {
+		return materialBrandDao.insert(mb);
+	}

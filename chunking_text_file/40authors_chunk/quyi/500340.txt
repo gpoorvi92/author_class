@@ -1,0 +1,10 @@
+
+    case FREE_MEM:
+      if (value == null) {
+        unsetFreeMem();
+      } else {
+        setFreeMem((Double)value);
+      }
+      break;
+
+    case JVM_FREE_MEM:

@@ -1,0 +1,10 @@
+         {
+            public Locale getElementAt(int i)
+            {
+               return locales[i];
+            }
+
+            public int getSize()
+            {
+               return locales.length;
+            }

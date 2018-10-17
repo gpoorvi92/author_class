@@ -1,0 +1,10 @@
+        this.repoID = repoID;
+        this.account = account;
+    }
+
+    private DataManager getDataManager() {
+        if (dataManager == null) {
+            dataManager = new DataManager(account);
+        }
+
+        return dataManager;

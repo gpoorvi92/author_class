@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// BaseControl
+//
+//   Interface definining all capabilities, properties and methods
+//   that are common to all JavaPOS device controls.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 98-02-18 JavaPOS Release 1.2                                   BS

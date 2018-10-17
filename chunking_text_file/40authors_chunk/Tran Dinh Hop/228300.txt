@@ -1,0 +1,10 @@
+ 	* are met:
+ 	*
+ 	* 1. Redistributions of source code must retain the above copyright
+ 	*    notice, this list of conditions and the following disclaimer.
+ 	* 2. The source can be used and modified by individual/organizations, 
+	*	  ONLY IF the source will not be used 
+ 	*    for commercial purposes or incorporated into commercial applications.
+	*
+ 	* --------------------------------- WARRANTY --------------------------------- 
+	* THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED 

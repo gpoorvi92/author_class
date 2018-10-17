@@ -1,0 +1,10 @@
+    gbc.gridx = 3;
+    text.add(isbn, gbc);
+    gbc.gridy = 2;
+    text.add(class_no, gbc);
+    gbc.gridy = 3;
+    text.add(publisher, gbc);
+    gbc.gridy = 4;
+    text.add(yer, gbc);
+    gbc.gridy = 5;
+    text.add(pages, gbc);

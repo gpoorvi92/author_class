@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+
+/**
+ * Description:
+ * 编码相关的封装类
+ */

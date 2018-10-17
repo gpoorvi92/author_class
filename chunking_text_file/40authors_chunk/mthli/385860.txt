@@ -1,0 +1,10 @@
+               TreeNode[] nodes = model.getPathToRoot(newNode);
+               TreePath path = new TreePath(nodes);
+               tree.scrollPathToVisible(path);
+            }
+         });
+      panel.add(addChildButton);
+
+      JButton deleteButton = new JButton("Delete");
+      deleteButton.addActionListener(new ActionListener()
+         {

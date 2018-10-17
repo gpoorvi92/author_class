@@ -1,0 +1,10 @@
+            myThread11.start();
+            Thread.sleep(200);
+            myThread11.interrupt();
+        } catch (InterruptedException e) {
+            System.out.println("main catch");
+            e.printStackTrace();
+        }
+        System.out.println("end");
+    }
+}

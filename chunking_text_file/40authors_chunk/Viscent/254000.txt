@@ -1,0 +1,10 @@
+		final FutureTask<T> task = new FutureTask<T>(methodRequest) {
+
+			@Override
+			public void run() {
+				try {
+					super.run();
+					// 捕获所以可能抛出的对象，避免该任务运行失败而导致其所在的线程终止。
+				} catch (Throwable t) {
+					this.setException(t);
+				}

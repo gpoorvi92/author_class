@@ -1,0 +1,10 @@
+        c.add(chk);
+        
+        
+        
+        okButton.addActionListener( new ActionListener()
+		{
+			public void actionPerformed( ActionEvent e )
+ 			{
+ 				usname = usersName.getText();
+ 				String uspasswd = userPassword.getText();

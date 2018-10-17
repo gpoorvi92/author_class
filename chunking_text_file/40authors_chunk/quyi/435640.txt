@@ -1,0 +1,10 @@
+
+  public int getHardwareResourcesSize() {
+    return (this.hardwareResources == null) ? 0 : this.hardwareResources.size();
+  }
+
+  public java.util.Iterator<HardwareResources> getHardwareResourcesIterator() {
+    return (this.hardwareResources == null) ? null : this.hardwareResources.iterator();
+  }
+
+  public void addToHardwareResources(HardwareResources elem) {

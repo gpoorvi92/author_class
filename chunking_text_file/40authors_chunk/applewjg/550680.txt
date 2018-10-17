@@ -1,0 +1,10 @@
+ ]
+
+ Solution: ..Similar to Subset I.
+ */
+public class Solution {
+    public List<List<Integer>> subsetsWithDup(int[] S) {
+        return subsetsWithDup_2(S);
+    }
+    public List<List<Integer>> subsetsWithDup_1(int[] S) {
+        Arrays.sort(S);

@@ -1,0 +1,9 @@
+
+
+	@ManagedAttribute
+	public void setMaximumInactivityInHoursBeforeDelete(Integer maximumInactivityInHoursBeforeDelete) {
+		this.maximumInactivityInHoursBeforeDelete = maximumInactivityInHoursBeforeDelete;
+	}
+
+
+}

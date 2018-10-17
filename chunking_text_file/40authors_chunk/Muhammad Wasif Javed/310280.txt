@@ -1,0 +1,10 @@
+		white = super.getWhite();
+
+	}
+
+	//Function for Loading all the Properties of Theme.
+
+	private void loadProperties (InputStream stream) {
+
+		Properties prop = new Properties ();	
+	

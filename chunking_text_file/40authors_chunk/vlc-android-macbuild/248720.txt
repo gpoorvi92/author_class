@@ -1,0 +1,10 @@
+        if (mCpuImplementer != CPU_IMPL_QUALCOMM)
+            return false;
+
+        return CPU_PART_QUALCOMM_S1_S2 == mCpuPart;
+    }
+
+    public boolean isSnapdragon_S3() {
+        if (mCpuImplementer != CPU_IMPL_QUALCOMM)
+            return false;
+

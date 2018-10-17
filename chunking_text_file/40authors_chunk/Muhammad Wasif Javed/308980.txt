@@ -1,0 +1,10 @@
+
+		//Setting the Form's Buttons.
+
+		btnOk = new JButton ("OK");
+		btnOk.setBounds (20, 100, 100, 25);
+		btnOk.addActionListener (this);
+		btnCancel = new JButton ("Cancel");
+		btnCancel.setBounds (150, 100, 100, 25);
+		btnCancel.addActionListener (this);
+

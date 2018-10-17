@@ -1,0 +1,10 @@
+ */
+public class Solution {
+    public List<List<Integer>> combine(int n, int k) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        ArrayList<Integer> path = new ArrayList<Integer>();
+        combineRe(n, k, 1, path, res);
+        return res;
+    }
+    void combineRe(int n, int k, int start, ArrayList<Integer> path, List<List<Integer>> res){
+        int m = path.size();

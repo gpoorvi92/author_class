@@ -1,0 +1,10 @@
+   {
+      name = n;
+      porterDuff1 = pd1;
+      porterDuff2 = pd2;
+   }
+
+   /**
+    * Gets an explanation of the behavior of this rule.
+    * @return the explanation
+    */

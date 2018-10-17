@@ -1,0 +1,10 @@
+public class RadialGradientPaint implements Paint {
+  /* The Ellipse controlling colors */
+  Color color1, color2;
+
+  /** The Ellipse bounds */
+  Rectangle2D.Float gradientBounds;
+
+  /** Transparency */
+  int transparency;
+

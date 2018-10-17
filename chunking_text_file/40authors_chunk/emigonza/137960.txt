@@ -1,0 +1,10 @@
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled)
+                       throws JposException;
+    public String  getEPC() throws JposException;
+    public String  getRawData() throws JposException;
+    public String  getSerialNumber() throws JposException;
+    public String  getTransitNumber() throws JposException;
+
+    // Methods

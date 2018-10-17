@@ -1,0 +1,10 @@
+ *
+ * Format: ServerName::::RepoId::::Path
+ * Example:
+ * https://server.com/seafile/::::550e8400-e29b-11d4-a716-446655440000::::/dir/file.jpg
+ *
+ * the separation using "::::" is arbitrary. Is has to be something, that is neither in an URL
+ * nor in a repoId UUID.
+ *
+ */
+public class DocumentIdParser {

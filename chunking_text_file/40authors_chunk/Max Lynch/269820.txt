@@ -1,0 +1,10 @@
+		
+		swirl.curveTo(90, 140, 35, 140, 35, 100); //down
+		
+		swirl.curveTo(35, 75, 75, 75, 75, 100); //up
+		
+		swirl.curveTo(75, 120, 50, 120, 50, 100); //down
+		
+		swirl.curveTo(50, 90, 65, 90, 65, 100); //up */
+	
+		g.draw(swirl);

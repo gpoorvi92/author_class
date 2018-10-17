@@ -1,0 +1,10 @@
+  public int getCpuCores() {
+    return this.cpuCores;
+  }
+
+  public Hardware setCpuCores(int cpuCores) {
+    this.cpuCores = cpuCores;
+    setCpuCoresIsSet(true);
+    return this;
+  }
+

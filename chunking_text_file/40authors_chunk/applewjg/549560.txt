@@ -1,0 +1,10 @@
+                TreeNode peak = stk.peek();
+                if (peak.right != null && pre != peak.right) {
+                    cur = peak.right;
+                } else {
+                    res.add(peak.val);
+                    stk.pop();
+                    pre = peak;
+                }
+            }
+        }

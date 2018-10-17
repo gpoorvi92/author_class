@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used to retrieve details of Scanner issues. Extensions can
+ * obtain details of issues by registering an
+ * <code>IScannerListener</code> or by calling
+ * <code>IBurpExtenderCallbacks.getScanIssues()</code>. Extensions can also add
+ * custom Scanner issues by registering an
+ * <code>IScannerCheck</code> or calling
+ * <code>IBurpExtenderCallbacks.addScanIssue()</code>, and providing their own
+ * implementations of this interface

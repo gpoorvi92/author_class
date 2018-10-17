@@ -1,0 +1,10 @@
+            {
+               Thread.sleep(100);
+               current++;
+               textArea.append(current + "\n");               
+               setProgress(current);
+            }
+         }
+         catch (InterruptedException e)
+         {
+         }

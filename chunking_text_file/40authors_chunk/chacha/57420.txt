@@ -1,0 +1,10 @@
+		this.count = count;
+	}
+
+
+	@Override
+	public void run() {
+		List<InetSocketAddress> addList=new ArrayList<InetSocketAddress>();
+		InetSocketAddress addr=new InetSocketAddress(serverIP,port);
+		addList.add(addr);
+		//密码认证示例

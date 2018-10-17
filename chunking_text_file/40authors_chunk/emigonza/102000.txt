@@ -1,0 +1,10 @@
+
+	/**
+	 * Accepts a DevCat Visitor object
+	 * @param visitor the DevCat Visitor object
+	 */
+	public void accept( DevCatVisitor visitor );
+
+	//-------------------------------------------------------------------------
+	// Inner interfaces
+	//

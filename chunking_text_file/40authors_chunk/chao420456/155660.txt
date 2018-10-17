@@ -1,0 +1,10 @@
+		// method5(srcString, destString);
+	}
+
+	// 高效字符流一次一个字符串
+	private static void method5(String srcString, String destString)
+			throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(srcString));
+		BufferedWriter bw = new BufferedWriter(new FileWriter(destString));
+
+		String line = null;

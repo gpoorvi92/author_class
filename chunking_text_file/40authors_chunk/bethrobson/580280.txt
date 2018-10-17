@@ -1,0 +1,10 @@
+        while (success && x < comSize) {                // look for adjacent unused spots
+          if (grid[location] == 0) {                    // if not already used
+             coords[x++] = location;                    // save location
+             location += incr;                          // try 'next' adjacent
+             if (location >= gridSize){                 // out of bounds - 'bottom'
+               success = false;                         // failure
+             }
+             if (x>0 & (location % gridLength == 0)) {  // out of bounds - right edge
+               success = false;                         // failure
+             }

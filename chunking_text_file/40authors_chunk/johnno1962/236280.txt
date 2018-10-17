@@ -1,0 +1,10 @@
+    boolean entered_swipedLeft_5;
+
+    public void swipedLeft( com.apple.eawt.event.SwipeEvent arg0 ) {
+        if ( !entered_swipedLeft_5 ) {
+            entered_swipedLeft_5 = true;
+            __swipedLeft( arg0 );
+            entered_swipedLeft_5 = false;
+        }
+        else
+            super.swipedLeft( arg0 );

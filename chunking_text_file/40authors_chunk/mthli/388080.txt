@@ -1,0 +1,10 @@
+            {
+               StringBuilder text = new StringBuilder(prefix);
+               for (String value : wordList.getSelectedValuesList())
+               {                  
+                  text.append(value);
+                  text.append(" ");
+               }
+               text.append(suffix);
+
+               label.setText(text.toString());

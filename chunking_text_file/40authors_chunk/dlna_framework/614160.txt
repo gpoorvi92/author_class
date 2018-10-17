@@ -1,0 +1,10 @@
+			useIPv6Address = false;
+		}else{
+			throw new IllegalArgumentException("Cannot open a UDP Socket for IPv6 address on IPv4 interface or viceversa");
+		}
+		return open(multicast, SSDP.PORT, bind);
+	}
+
+	/**
+	 * 
+	 * @param bindAddr the hostname of the interface to use for senfing multicast packet

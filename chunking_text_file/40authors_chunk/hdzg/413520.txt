@@ -1,0 +1,10 @@
+				heroGeneralIndex = (heroGeneralIndex+1)%4;
+				enemyGeneralIndex = (enemyGeneralIndex+1)%4;
+				heroSoldierIndex = (heroSoldierIndex+1)%4;
+				enemySoldierIndex = (enemySoldierIndex+1)%4;
+				counter++;
+				if(counter == 20){
+					flag = false;
+					gameView.setStatus(0);
+				}
+				try{

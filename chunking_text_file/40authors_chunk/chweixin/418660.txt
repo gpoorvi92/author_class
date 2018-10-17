@@ -1,0 +1,10 @@
+				ModuleSystem ms = this.menuService.loadModuleSystem(this.systemId);
+				if(ms != null){
+					this.systemName = ms.getName();
+					if(this.systemName != null && !this.systemName.trim().isEmpty()){
+						cache.put(this.systemId, this.systemName);
+					}
+				}
+			}
+		}
+		return SUCCESS;

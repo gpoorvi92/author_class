@@ -1,0 +1,10 @@
+    private Account account;
+    private DataManager dataManager;
+    private FileAlterationObserver alterationObserver;
+
+    private final Map<String, SeafCachedFile> watchedFiles = Maps.newHashMap();
+    private final CachedFileChangedListener listener;
+    private final RecentDownloadedFilesWorkAround recentDownloadedFiles =
+            new RecentDownloadedFilesWorkAround();
+
+    public SeafileObserver(Account account, CachedFileChangedListener listener) {

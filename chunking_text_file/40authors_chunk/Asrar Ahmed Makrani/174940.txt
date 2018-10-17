@@ -1,0 +1,10 @@
+public class journal extends JInternalFrame implements journal_Interface, journal_master_info_Interface, journal_tab_Interface{
+ 	
+ 	 private int paintx, painty;
+
+    public journal() {
+        super("Journal", 
+              true, //resizable
+              true, //closable
+              true, //maximizable
+              true);//iconifiable

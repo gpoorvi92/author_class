@@ -1,0 +1,10 @@
+
+public class CustomScheduler implements Runnable {
+	private LinkedBlockingQueue<Runnable> activationQueue = new LinkedBlockingQueue<Runnable>();
+
+	@Override
+	public void run() {
+		dispatch();
+	}
+
+	public <T> Future<T> enqueue(Callable<T> methodRequest) {

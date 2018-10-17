@@ -1,0 +1,10 @@
+
+		final Sprite notes = new Sprite(centerX, centerY, this.mNotesTextureRegion, this.getVertexBufferObjectManager());
+		scene.attachChild(notes);
+
+		scene.registerTouchArea(notes);
+		scene.setOnAreaTouchListener(new IOnAreaTouchListener() {
+			@Override
+			public boolean onAreaTouched(final TouchEvent pSceneTouchEvent, final ITouchArea pTouchArea, final float pTouchAreaLocalX, final float pTouchAreaLocalY) {
+				if(pSceneTouchEvent.isActionDown()) {
+					if(MusicExample.this.mMusic.isPlaying()) {

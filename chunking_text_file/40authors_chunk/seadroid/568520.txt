@@ -1,0 +1,10 @@
+    public void onFileUpdateSuccess(Account account, String repoID, String repoName,
+            String parentDir, String localPath) {
+        // This file has already been updated on server, so we abort auto update task
+        if (removeAutoUpdateInfo(account, repoID, repoName, parentDir, localPath)) {
+            Log.d(DEBUG_TAG, "auto updated " + localPath);
+        }
+    }
+
+    public void onFileUpdateFailure(Account account, String repoID, String repoName,
+            String parentDir, String localPath, SeafException e) {

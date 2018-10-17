@@ -1,0 +1,10 @@
+
+    boolean this_present_osVersion = true && this.isSetOsVersion();
+    boolean that_present_osVersion = true && that.isSetOsVersion();
+    if (this_present_osVersion || that_present_osVersion) {
+      if (!(this_present_osVersion && that_present_osVersion))
+        return false;
+      if (!this.osVersion.equals(that.osVersion))
+        return false;
+    }
+

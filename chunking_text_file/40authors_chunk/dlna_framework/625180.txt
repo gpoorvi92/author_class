@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+	
+	private InetAddress[] binds = null;
+	
+	public SSDPSearchResponseSocketList() {
+	}
+	/**

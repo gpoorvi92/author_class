@@ -1,0 +1,10 @@
+    
+    gbc.gridy = 1;
+    gbc.gridx = 4;
+    text.add(isbn_text, gbc);
+    gbc.gridy = 2;
+    text.add(class_text, gbc);
+    gbc.gridy = 3;
+    text.add(publisher_text, gbc);
+    gbc.gridy = 4;
+    text.add(year_text, gbc);

@@ -1,0 +1,10 @@
+	}
+	
+	void setService(Service s){
+		s.getServiceNode();
+	}
+	
+	public Node getActionNode()
+	{
+		Node argumentLinstNode = getArgumentNode().getParentNode();
+		if (argumentLinstNode == null)

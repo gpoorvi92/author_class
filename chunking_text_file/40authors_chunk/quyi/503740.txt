@@ -1,0 +1,10 @@
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, UserApp.class))));
+    tmpMap.put(_Fields.RULES, new org.apache.thrift.meta_data.FieldMetaData("rules", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING))));
+    tmpMap.put(_Fields.PLOTS, new org.apache.thrift.meta_data.FieldMetaData("plots", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, PlotsType.class))));
+    tmpMap.put(_Fields.JOB_PRIORITY, new org.apache.thrift.meta_data.FieldMetaData("jobPriority", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, JobPriority.class)));
+    tmpMap.put(_Fields.TASK_INFO, new org.apache.thrift.meta_data.FieldMetaData("taskInfo", org.apache.thrift.TFieldRequirementType.DEFAULT, 

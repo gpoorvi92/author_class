@@ -1,0 +1,10 @@
+    //        return userGroup;
+    //    }
+    //    public void setUserGroup(UserGroup userGroup)
+    //    {
+    //        this.userGroup = userGroup;
+    //    }
+    //    public String getUserGroupStr()
+    //    {
+    //        return userGroupStr;
+    //    }

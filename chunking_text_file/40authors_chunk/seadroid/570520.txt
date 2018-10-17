@@ -1,0 +1,10 @@
+    public List<Avatar> getAvatarList() {
+        return dbHelper.getAvatarList();
+    }
+
+    public void saveAvatarList(List<Avatar> avatars) {
+        dbHelper.saveAvatars(avatars);
+    }
+
+    public Avatar parseAvatar(String json) {
+        if (json == null) return null;

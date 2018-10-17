@@ -1,0 +1,10 @@
+    public boolean getCapDwideDhigh() throws JposException;
+    public boolean getCapItalic() throws JposException;
+    public boolean getCapLeft90() throws JposException;
+    public int     getCapPowerReporting() throws JposException;
+    public boolean getCapPrint() throws JposException;
+    public boolean getCapPrintMode() throws JposException;
+    public boolean getCapRight90() throws JposException;
+    public boolean getCapRotate180() throws JposException;
+    public int     getCapTracksToRead() throws JposException;
+    public int     getCapTracksToWrite() throws JposException;

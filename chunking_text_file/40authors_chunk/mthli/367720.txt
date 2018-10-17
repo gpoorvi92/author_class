@@ -1,0 +1,10 @@
+package action;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a panel that demonstrates color change actions.
+ */
+public class ActionFrame extends JFrame

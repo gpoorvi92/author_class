@@ -1,0 +1,10 @@
+class FillFrame extends JFrame
+{
+   public FillFrame()
+   {
+      add(new FillComponent());
+      pack();
+   }
+}
+
+/**

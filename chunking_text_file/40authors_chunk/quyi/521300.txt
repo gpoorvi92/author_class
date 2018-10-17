@@ -1,0 +1,10 @@
+          unsetIre();
+        } else {
+          setIre((com.nercis.isscp.idl.InvalidRequestException)value);
+        }
+        break;
+
+      case UE:
+        if (value == null) {
+          unsetUe();
+        } else {

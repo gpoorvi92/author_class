@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case DATA_HEX:
+      if (value == null) {
+        unsetDataHex();
+      } else {
+        setDataHex((String)value);
+      }
+      break;

@@ -1,0 +1,10 @@
+                this.a[i] = this.a[smallest]; // move smallest
+                // one up into
+                // place of i
+                i = smallest;
+            } else {
+                this.a[smallest] = ai;
+                return;
+            }
+        }
+    }

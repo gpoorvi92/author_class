@@ -1,0 +1,10 @@
+      localeCombo.setLocale(currentLocale);
+
+      currentCollator = Collator.getInstance(currentLocale);
+      currentCollator.setStrength(strengthCombo.getValue());
+      currentCollator.setDecomposition(decompositionCombo.getValue());
+
+      Collections.sort(strings, currentCollator);
+
+      sortedWords.setText("");
+      for (int i = 0; i < strings.size(); i++)

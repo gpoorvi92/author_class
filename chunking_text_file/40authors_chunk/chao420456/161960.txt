@@ -1,0 +1,10 @@
+		// boolean addAll(Collection c)
+		// System.out.println("addAll:" + c1.addAll(c2));
+
+		// boolean removeAll(Collection c)
+		// System.out.println("removeAll:" + c1.removeAll(c2));
+
+		// boolean containsAll(Collection c)
+		// System.out.println("containsAll:" + c1.containsAll(c2));
+
+		// boolean retainAll(Collection c)

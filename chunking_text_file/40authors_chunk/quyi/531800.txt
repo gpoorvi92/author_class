@@ -1,0 +1,10 @@
+				WritableFont BoldFont = new WritableFont(WritableFont.ARIAL, 10, WritableFont.BOLD);
+				WritableCellFormat wcf_left = new WritableCellFormat(NormalFont);
+				wcf_left.setBorder(Border.NONE, BorderLineStyle.THIN);
+				wcf_left.setVerticalAlignment(VerticalAlignment.CENTRE); // 文字垂直对齐
+				wcf_left.setAlignment(Alignment.LEFT); // 文字水平对齐
+				wcf_left.setWrap(false); // 文字是否换行
+				Workbook preWorkbook = Workbook.getWorkbook(new File(dfilePath));
+				WritableWorkbook workbook = Workbook.createWorkbook(new File(dfilePath), preWorkbook);
+				/** **********创建工作表************ */
+				WritableSheet dsheet = workbook.getSheet(0);

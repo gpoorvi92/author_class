@@ -1,0 +1,10 @@
+	private JLabel lblInfo=new JLabel("Ingredient: ");
+	private ImageIcon ABC=new ImageIcon("desert/kek coklat.jpeg");
+	private JButton jbtBack =new JButton("Back");
+
+    public KekCoklatInfo() 
+    {
+    	Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));
+		cont.setBackground(Color.white);
+		

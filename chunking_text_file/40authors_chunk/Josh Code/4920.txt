@@ -1,0 +1,10 @@
+  }
+
+    /** returns 0 if values are equal
+     * returns 1 if s1>s2
+     * returns 2 if s1<s2
+     */
+    private static int oneDimensionalComparison(double s1, double s2)
+    {
+        if (s1 == s2)
+            return 0;

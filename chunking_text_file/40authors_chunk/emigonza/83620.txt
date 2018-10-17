@@ -1,0 +1,6 @@
+
+  public static final int GATE_SUE_CLOSED              = 11;
+  public static final int GATE_SUE_OPEN                = 12;
+  public static final int GATE_SUE_BLOCKED             = 13;
+  public static final int GATE_SUE_MALFUNCTION         = 14;
+}

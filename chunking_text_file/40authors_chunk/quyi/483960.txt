@@ -1,0 +1,10 @@
+        }
+        oprot.writeBitSet(optionals, 4);
+        if (struct.isSetUsedPermissions()) {
+          {
+            oprot.writeI32(struct.usedPermissions.size());
+            for (Map<String,com.nercis.isscp.idl.APICheck> _iter33 : struct.usedPermissions)
+            {
+              {
+                oprot.writeI32(_iter33.size());
+                for (Map.Entry<String, com.nercis.isscp.idl.APICheck> _iter34 : _iter33.entrySet())

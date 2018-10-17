@@ -1,0 +1,10 @@
+                    responseHandler.sendFailureMessage(e, "can't resolve host");
+                }
+                return;
+            }catch (SocketTimeoutException e){
+                if(responseHandler != null) {
+                    responseHandler.sendFailureMessage(e, "socket time out");
+                }
+                return;
+            } catch (IOException e) {
+                cause = e;

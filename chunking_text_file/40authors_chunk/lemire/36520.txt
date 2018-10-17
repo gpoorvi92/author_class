@@ -1,0 +1,10 @@
+    public IntArray() {
+        this(DEFAULT_BUFFER_SIZE);
+    }
+ 
+    /**
+     * Creates a buffer with explicit size
+     * @param bufferSize
+     */
+    public IntArray(int bufferSize) {
+        if(bufferSize < 1) {

@@ -1,0 +1,10 @@
+			
+			logger.error("Can not load dynamic library![libdec]", e);
+		}
+	}
+	
+	private native int encode(String srcFile, String destFile);
+	private native int decode(String srcFile, String destFile);
+	
+	/**
+	 * 

@@ -1,0 +1,10 @@
+}
+
+/*
+//对象
+myThread.setUncaughtExceptionHandler(new ObjectUncaughtExceptionHandler());
+//类
+MyThread.setDefaultUncaughtExceptionHandler(new StateUncaughtExceptionHandler());
+输出：
+对象的异常处理
+java.lang.NumberFormatException: For input string: "a"

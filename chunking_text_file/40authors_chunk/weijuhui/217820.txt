@@ -1,0 +1,10 @@
+
+	private ActType[] buildType() {
+		actType = new ActType[6];
+		actType[0] = new ActType(Constant.TYPE_COFFEE,R.drawable.type_coffee_selector, "喝咖啡");
+		actType[1] = new ActType(Constant.TYPE_MOVIE,R.drawable.type_movie_selector, "看电影");
+		actType[2] = new ActType(Constant.TYPE_KTV,R.drawable.type_ktv_selector, "去唱K");
+		actType[3] = new ActType(Constant.TYPE_PLAY,R.drawable.type_play_selector, "去桌游");
+		actType[4] = new ActType(Constant.TYPE_TRAVEL,R.drawable.type_travel_selector, "去旅游");
+		actType[5] = new ActType(Constant.TYPE_MORE,R.drawable.type_more_selector, "更多");
+		return actType;

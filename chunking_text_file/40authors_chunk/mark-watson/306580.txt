@@ -1,0 +1,10 @@
+ * 2. Apache 2
+ */
+public class ExampleSparqlQueries implements ISparqlProcessResults {
+
+      public static void main (String [] args) throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      new ExampleSparqlQueries();
+  }
+  
+  public ExampleSparqlQueries() throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      TripleStoreSesameManager ts = new TripleStoreSesameManager();

@@ -1,0 +1,5 @@
+
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+}

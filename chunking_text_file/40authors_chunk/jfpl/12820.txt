@@ -1,0 +1,10 @@
+			if (new Date().getTime() - syncVehTime > ConstVariables.DEFAULT_SYNC_TIME) {
+				AbstractCommonData sendData = SystemUtil.getCommonData("",
+						GlobalVariables.loginUsername);
+				sendData.putStringValue("_url", ConstVariables.GET_BIND_VEH_URL);
+				sendData.putObjectValue("ipacket",
+						HttpSendFactory.getChatPlatformSendMethod());
+				sendData.putObjectValue("iservice", new GetBindVehService(this));
+				ServiceController.addService(sendData);
+			}
+		}

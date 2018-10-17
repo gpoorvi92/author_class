@@ -1,0 +1,10 @@
+import org.chacha.client.command.account.ModifyAccountRequest;
+import org.chacha.client.command.account.QueryAccountRequest;
+import org.chacha.client.command.account.QueryAccountResponse;
+import org.chacha.exception.ChachaException;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * 帐号管理接口单元测试
+ *	@author: Fully

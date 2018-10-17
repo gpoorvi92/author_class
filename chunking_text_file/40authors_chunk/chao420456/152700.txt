@@ -1,0 +1,10 @@
+		//¸³Öµµ÷ÓÃ
+		//void v = printXing(7,8);
+		//System.out.println(v);
+	}
+
+	public static void printXing(int a,int b) {
+		for(int x=0; x<a; x++){
+			for(int y=0; y<b; y++) {
+				System.out.print("*");
+			}

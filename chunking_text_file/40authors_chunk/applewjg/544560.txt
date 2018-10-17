@@ -1,0 +1,10 @@
+    public void totalNQueensRe(int n, int row, int[] board, int[] res) {
+        if (n == row) {
+            res[0]++;
+            return;
+        }
+        for (int i = 0; i < n; ++i) {
+            if (isValid(board, row, i)) {
+                board[row] = i;
+                totalNQueensRe(n, row + 1, board, res);
+                board[row] = -1;

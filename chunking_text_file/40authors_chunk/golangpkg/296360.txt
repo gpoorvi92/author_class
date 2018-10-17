@@ -1,0 +1,10 @@
+	@Autowired
+	StaticStateIdentifierManager staticStateIdentifierManager;
+
+	@Autowired
+	RequestComponentContainer requestComponentContainer;
+
+	MockMultipartFile file;
+
+	String fileName = "zenameofzefile.owf";
+

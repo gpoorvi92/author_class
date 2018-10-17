@@ -1,0 +1,10 @@
+    }
+
+    public void paint(Graphics g_unused) {
+        if (currentSearchEngine == null) return;
+        Maze maze = currentSearchEngine.getMaze();
+        int width = maze.getWidth();
+        int height = maze.getHeight();
+        System.out.println("Size of current maze: " + width + " by " + height);
+        Graphics g = jPanel1.getGraphics();
+        BufferedImage image = new BufferedImage(320, 320, BufferedImage.TYPE_INT_RGB);

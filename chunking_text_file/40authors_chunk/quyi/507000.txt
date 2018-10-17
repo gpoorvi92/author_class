@@ -1,0 +1,10 @@
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    MISSION_ID((short)1, "missionId"),
+    USER_APP_ID((short)2, "userAppId"),
+    USED_PERMISSIONS((short)3, "usedPermissions"),
+    PLOTS_STATUS((short)4, "plotsStatus"),
+    FUNCTION_STATUS((short)5, "functionStatus"),
+    DETECT_RESULT((short)6, "detectResult");
+

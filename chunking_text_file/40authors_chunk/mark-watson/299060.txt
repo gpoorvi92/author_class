@@ -1,0 +1,10 @@
+		List<String> list = edits(word);
+		// candidate hash has as word counts as keys, word as value:
+		HashMap<Integer, String> candidates = new HashMap<Integer, String>();
+		for (String testWord : list) {
+			if(wordCounts.containsKey(testWord)) {
+				candidates.put(wordCounts.get(testWord), testWord);
+			}
+		}
+		/**
+		 *  If candidates is not empty, then return the word with

@@ -1,0 +1,10 @@
+import java.nio.charset.Charset;
+import java.nio.charset.CharsetDecoder;
+import java.nio.charset.CharsetEncoder;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
+
+/**
+ * <p>
+ * A dummy charset that indicates an unknown charset. Nevertheless some indication of a encoding

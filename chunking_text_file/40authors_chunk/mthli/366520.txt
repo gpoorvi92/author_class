@@ -1,0 +1,10 @@
+      // set up the button action
+
+      startButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               startButton.setEnabled(false);
+               activity = new SimulatedActivity(MAX);
+               activity.execute();
+            }

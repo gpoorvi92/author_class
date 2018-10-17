@@ -1,0 +1,10 @@
+	@Override
+	public void drawDialog(Canvas canvas) {
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);//画对话框背景\\
+		alertMessage=alertMessage.replaceFirst("xx", city.getCityName());//替换成实际的城市名称
+		drawString(canvas, alertMessage);//画提示文本
+		Paint paint = new Paint();//创建画笔
+		paint.setTextSize(DIALOG_WORD_SIZE);//设置字体大小
+		paint.setAntiAlias(true);//设置抗锯齿
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		//画划拨按钮

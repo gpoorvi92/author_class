@@ -1,0 +1,10 @@
+	@Test
+	public void testNoIdInCookieOrSession() {
+
+		// assert session is empty
+		Assert.assertNull(mockHttpServletRequest.getSession().getAttribute(DefaultIdentifierProvider.cookieIdentifier));
+
+		// assert cookie is empty
+		Assert.assertNull(DefaultIdentifierProvider.getCookie(mockHttpServletRequest.getCookies(), DefaultIdentifierProvider.cookieIdentifier));
+
+		// get id

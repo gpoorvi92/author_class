@@ -1,0 +1,10 @@
+				activity.isBackSound = !activity.isBackSound;
+				if(type == 6){//gameViewÀ´µÄ
+					if(activity.isBackSound && !activity.gameView.mMediaPlayer.isPlaying()){
+						activity.gameView.mMediaPlayer.start();
+					}
+					if(!activity.isBackSound && activity.gameView.mMediaPlayer.isPlaying()){
+						activity.gameView.mMediaPlayer.pause();
+					}
+				}
+			}

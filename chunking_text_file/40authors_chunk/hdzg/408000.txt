@@ -1,0 +1,10 @@
+import android.view.MotionEvent;
+import android.view.View;
+
+public class FishingDrawable extends MyMeetableDrawable implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8963531040983837253L;
+	String dialogMessage[] = {//对话框的提示信息，第一个是可以捕鱼，第二个是不可以捕鱼显示的
+			"此处水土肥沃，湖中必然有许多鱼贝。是否捕鱼？预计消耗体力xx，收获yy金。",

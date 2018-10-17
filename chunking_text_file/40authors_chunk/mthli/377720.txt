@@ -1,0 +1,10 @@
+ */
+public class SplashScreenTest
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   private static SplashScreen splash;
+
+   private static void drawOnSplash(int percent)
+   {

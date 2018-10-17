@@ -1,0 +1,10 @@
+                        if (subX > 0) {
+                            enableParent = true;
+                        }
+                        break;
+                    case BottomOnly:
+                        if (subY < 0) {
+                            enableParent = true;
+                        }
+                        break;
+                    case TopOnly:

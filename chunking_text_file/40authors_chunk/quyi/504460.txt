@@ -1,0 +1,10 @@
+    case JOB_PRIORITY:
+      return getJobPriority();
+
+    case TASK_INFO:
+      return getTaskInfo();
+
+    }
+    throw new IllegalStateException();
+  }
+

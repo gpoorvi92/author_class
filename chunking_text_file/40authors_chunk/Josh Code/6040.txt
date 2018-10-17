@@ -1,0 +1,10 @@
+        }
+    }
+
+    private static void printAsciiPLYHeader(Model m, PrintStream out) throws IOException
+    {
+        out.print("ply\n");
+        out.print("format ascii 1.0\n");
+        out.print("comment generator Josh Greig's opensource "
+            +"PolyMapper available at http://www.planet-source-code.com"
+            +" and http://www.programmersheaven.com\n");

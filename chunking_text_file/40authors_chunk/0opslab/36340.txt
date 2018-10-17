@@ -1,0 +1,10 @@
+   * 
+   * @param delegate
+   *          a stream that should not receive any write that is done on this
+   *          instance any more.
+   * @return true if remove was successful, false if remove failed or - more
+   *         likely - the given stream was not on the list of delegates before.
+   */
+  public boolean removeOutputStream(final OutputStream delegate) {
+    boolean result = this.m_delegates.remove(delegate);
+    return result;

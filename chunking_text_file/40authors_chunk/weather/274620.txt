@@ -1,0 +1,10 @@
+     */
+    public static Request getDailyWeather(String cityId, RequestListener<DailyResponse> listener) {
+        String url = API_URL.DAILY + cityId + ".html";
+        return startGsonRequest(url, null, DailyResponse.class, listener);
+    }
+
+
+    /**
+     * 获取之后7天的天气
+     *

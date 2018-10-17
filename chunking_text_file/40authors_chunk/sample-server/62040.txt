@@ -1,0 +1,10 @@
+    @ACL(limit = Limit.BULLETIN, type = RequestType.JSON)
+    @RequestMapping(value = "/delete")
+    @ResponseBody
+    protected String delete(@RequestParam(required = true) String id) throws ServletException, IOException
+    {
+        int bulletinId = Integer.valueOf(id);
+        BulletinEntity bulletin = DaoManager.getLocalDao().select(BulletinEntity.class, bulletinId);
+        JsonResponse resultCode = new JsonResponse();
+        if (null != bulletin)
+        {

@@ -1,0 +1,10 @@
+ * TODO
+ * @Class: IMessageManager
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 下午1:17:08
+ */
+public interface IMessageManager {
+
+	/**
+	 * 
+	 * 

@@ -1,0 +1,10 @@
+    if (plotsStatus == null) {
+      throw new org.apache.thrift.protocol.TProtocolException("Required field 'plotsStatus' was not present! Struct: " + toString());
+    }
+    if (detectResult == null) {
+      throw new org.apache.thrift.protocol.TProtocolException("Required field 'detectResult' was not present! Struct: " + toString());
+    }
+    // check for sub-struct validity
+  }
+
+  private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {

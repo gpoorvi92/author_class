@@ -1,0 +1,10 @@
+    /**
+     * Returns the current retry count.
+     */
+    @Override
+    public int getCurrentRetryCount() {
+        return mCurrentRetryCount;
+    }
+
+    /**
+     * Prepares for the next retry by applying a backoff to the timeout.

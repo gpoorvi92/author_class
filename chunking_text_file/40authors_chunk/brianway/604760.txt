@@ -1,0 +1,10 @@
+ * 2）当其他线程执行x对象中synchronized同步方法时呈同步效果
+ * 3）当其他线程执行x对象里面的synchronized(this)代码块时，也呈现同步效果
+ * 验证结论2：
+ * 当其他线程执行x对象中synchronized同步方法时呈同步效果
+ */
+public class Run9_synchronized02 {
+    public static void main(String[] args) {
+        Service service = new Service();
+        MyObject1 object1 = new MyObject1();
+

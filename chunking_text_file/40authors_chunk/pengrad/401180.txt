@@ -1,0 +1,10 @@
+        this.thumb_url = thumbUrl;
+        this.title = title;
+        inputMessageContent(inputMessageContent);
+    }
+
+    public InlineQueryResultVideo caption(String caption) {
+        this.caption = caption;
+        return this;
+    }
+

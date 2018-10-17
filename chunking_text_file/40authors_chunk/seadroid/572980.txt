@@ -1,0 +1,10 @@
+    }
+
+    public String[] getDefaultCipherSuites()
+    {
+        return allowedCiphers;
+    }
+
+    public String[] getSupportedCipherSuites()
+    {
+        return allowedCiphers;

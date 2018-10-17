@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent e) {
+            	for (int i = 0; i<5; i++)
+			    {
+			    acc_no_text[i].setText("");
+			    book_title_text1[i].setText("");
+			    rent_date_text[i].setText("");
+			    due_date_text[i].setText("");
+				}
+			    patron_no_text.setText("");
+			    patron_name_text.setText("");

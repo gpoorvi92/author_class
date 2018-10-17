@@ -1,0 +1,10 @@
+        makeEvent("DirectIO"),
+        makeEvent("StatusUpdate")
+      };
+
+      return events;
+    }
+    catch(Exception e)
+    {
+      return super.getEventSetDescriptors();
+    }

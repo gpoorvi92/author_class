@@ -1,0 +1,10 @@
+    public static int intFieldStatic;
+    public int intField;
+
+    public static int intMethodStatic( int arg ) {
+        return arg;
+    }
+
+    public int intMethod( int arg ) {
+        return arg;
+    }

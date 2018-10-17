@@ -1,0 +1,8 @@
+				System.exit(0);
+			}
+		});
+
+		// …Ë÷√¥∞ÃÂœ‘ æ
+		f.setVisible(true);
+	}
+}

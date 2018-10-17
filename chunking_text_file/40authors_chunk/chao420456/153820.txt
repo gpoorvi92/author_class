@@ -1,0 +1,10 @@
+		Person p2 = new Person("jiapingwa", 25);
+		Person p3 = new Person("zhangyimou", 25);
+		Person p4 = new Person("xijinping", 26);
+		Person p5 = new Person("yanni", 27);
+		Person p6 = new Person("wenzhang", 30);
+		Person p7 = new Person("tianliang", 28);
+		Person p8 = new Person("xijinping", 26);
+
+		// Ìí¼ÓÔªËØ
+		ts.add(p1);

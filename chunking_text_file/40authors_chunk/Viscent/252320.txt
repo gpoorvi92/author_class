@@ -1,0 +1,10 @@
+import io.github.viscent.mtpattern.ch11.stc.TaskProcessor;
+
+public class ReusableCodeExample {
+
+	public static void main(String[] args) throws InterruptedException,
+	    ExecutionException {
+		SomeService ss = new SomeService();
+		ss.init();
+		Future<String> result = ss.doSomething("Serial Thread Confinement", 1);
+

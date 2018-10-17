@@ -1,0 +1,10 @@
+package stroke;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import javax.swing.*;
+
+/**
+ * This program demonstrates different stroke types.
+ * @version 1.03 2007-08-16

@@ -1,0 +1,10 @@
+                if (curTimeGroup == null){
+                    LocationTimeGroup  timeGroup = new LocationTimeGroup(exifInterface);
+                    hasEntity = false;
+                    curTimeGroup = timeGroup;
+                    groups.add(curTimeGroup);
+                    curTimeGroup.setAvatarEntity(entity);
+
+                }
+                if (curTimeGroup.isEntityInTimeGroup(LocationTimeGroup.getDateByExifInterface(exifInterface))){
+                    curTimeGroup.insertImageEntity(entity);

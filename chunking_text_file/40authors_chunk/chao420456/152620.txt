@@ -1,0 +1,10 @@
+/*
+	没有明确返回值的方法调用：void修饰的方法
+		单独调用
+*/
+class MethodDemo3 {
+	public static void main(String[] args) {
+		/*
+		//需求：请在控制台输出一个3行4列的星形
+		for(int x=0; x<3; x++){
+			for(int y=0; y<4; y++) {

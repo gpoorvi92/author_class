@@ -1,0 +1,10 @@
+    public boolean isBufferingEnd() {
+        return true;
+    }
+
+    @Override
+    public ModuleInfo getModuleInfo() {
+        return ModuleInfo.getAndroidModuleInfo();
+    }
+
+    @Override

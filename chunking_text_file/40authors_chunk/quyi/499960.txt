@@ -1,0 +1,10 @@
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public NodeHeat(NodeHeat other) {
+    __isset_bitfield = other.__isset_bitfield;
+    if (other.isSetNodeId()) {
+      this.nodeId = other.nodeId;
+    }
+    this.cpuUsedPerc = other.cpuUsedPerc;
+    this.freeMem = other.freeMem;

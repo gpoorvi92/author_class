@@ -1,0 +1,10 @@
+{
+    private static final int    CDKLENTH    = 16;
+    private static final int    SPLITKEYLEN = 4;
+    private static final Logger log         = LoggerFactory.getLogger(CdKeyController.class);
+    @ACL(limit = Limit.CDKEY)
+    @RequestMapping("/")
+    public void cdkey()
+    {
+    }
+    private boolean contain(String key, Integer zoneId)

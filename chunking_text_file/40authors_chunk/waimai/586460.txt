@@ -1,0 +1,10 @@
+    @Autowired
+    private SaleRecordMapper saleRecordMapper;
+
+    @Override
+    public Float countTotalPrice(BaseConditionVO vo, String status) {
+        vo.setSaleCountDate(DateUtil.getSaleCountDate(status));
+        return saleRecordMapper.countTotalPrice(vo) == null ? 0 : saleRecordMapper.countTotalPrice(vo);
+    }
+
+    @Override

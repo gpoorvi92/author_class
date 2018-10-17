@@ -1,0 +1,10 @@
+    public int totalNQueens_2(int n) {
+        int[] res = new int[1];
+        totalNQueensRe2(n, 0, 0, 0, res);
+        return res[0];
+    }
+    public void totalNQueensRe2(int n, int row, int ld, int rd, int[] res) {
+        if (row == (1<<n) -1 ) {
+            res[0]++;
+            return;
+        }

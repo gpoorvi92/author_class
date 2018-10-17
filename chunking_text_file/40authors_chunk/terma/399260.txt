@@ -1,0 +1,10 @@
+            state = BufferState.READY_TO_READ;
+        }
+    }
+
+    /**
+     * This method try to write data from buffer to channel.
+     * Buffer changes state to READY_TO_READ only if all data were wrote to channel,
+     * in other case you should call this method again
+     *
+     * @param channel - channel

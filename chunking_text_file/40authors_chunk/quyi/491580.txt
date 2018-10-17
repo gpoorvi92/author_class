@@ -1,0 +1,10 @@
+
+    public NodeHeat getNodeHeat() {
+      return this.nodeHeat;
+    }
+
+    public heart_args setNodeHeat(NodeHeat nodeHeat) {
+      this.nodeHeat = nodeHeat;
+      return this;
+    }
+

@@ -1,0 +1,10 @@
+        optionals.set(6);
+      }
+      if (struct.isSetCheckEndDate()) {
+        optionals.set(7);
+      }
+      oprot.writeBitSet(optionals, 8);
+      if (struct.isSetApkMD5()) {
+        oprot.writeString(struct.apkMD5);
+      }
+      if (struct.isSetSensitive()) {

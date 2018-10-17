@@ -1,0 +1,10 @@
+ "...Q",
+ ".Q.."]
+ ]
+
+ Solution: 1. Recursion.
+           2. Recursion + bit version. (fast)
+              The idea is from http://www.matrix67.com/blog/archives/266 (in chinese).
+           3. Iteration.  
+*/
+public class Solution {

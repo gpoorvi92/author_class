@@ -1,0 +1,10 @@
+   private static void init2()
+   {
+      final Image img = new ImageIcon(splash.getImageURL()).getImage();
+      
+      final JFrame splashFrame = new JFrame();
+      splashFrame.setUndecorated(true);
+      
+      final JPanel splashPanel = new JPanel()
+         {
+            public void paintComponent(Graphics g)

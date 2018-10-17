@@ -1,0 +1,10 @@
+                String cityCode = (String) data;
+                mProvider.setCityCode(cityCode);
+                mProvider.loadNew();
+            }
+        });
+
+        mAdapter = new WeeklyAdapter(getActivity());
+        mList.setAdapter(mAdapter);
+    }
+

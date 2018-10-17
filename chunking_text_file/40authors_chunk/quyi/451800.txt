@@ -1,0 +1,10 @@
+      List<com.nercis.isscp.idl.PlotsType> plots)
+    {
+      this();
+      this.missionId = missionId;
+      this.userApps = userApps;
+      this.rules = rules;
+      this.plots = plots;
+    }
+
+    /**

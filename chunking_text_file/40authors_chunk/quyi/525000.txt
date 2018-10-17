@@ -1,0 +1,10 @@
+
+		List<JobParameter> jobParameterList = new ArrayList<JobParameter>();
+		JobParameter taskParam1 = new JobParameter();
+		taskParam1.setJobPhase(JobPhase.PROCESS);
+		taskParam1.setAppId(1000L);
+		List<ContextParameter> contextParamList1 = new ArrayList<ContextParameter>();
+		ContextParameter parameter1 = new ContextParameter();
+		parameter1.setSequenceNum(1);
+		parameter1.setContent("test/test.apk");
+		parameter1.setNeedDownload(true);

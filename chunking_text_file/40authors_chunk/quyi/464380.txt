@@ -1,0 +1,10 @@
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 1: // RULES
+              if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+                {
+                  org.apache.thrift.protocol.TList _list64 = iprot.readListBegin();
+                  struct.rules = new ArrayList<com.nercis.isscp.idl.rules.Rules>(_list64.size);
+                  for (int _i65 = 0; _i65 < _list64.size; ++_i65)

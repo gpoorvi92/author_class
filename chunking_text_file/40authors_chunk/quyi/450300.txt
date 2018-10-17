@@ -1,0 +1,10 @@
+      }
+
+      public issuedMessage_args getEmptyArgsInstance() {
+        return new issuedMessage_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+

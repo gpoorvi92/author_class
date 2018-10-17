@@ -1,0 +1,10 @@
+					request.getSession().setAttribute("userID", user.getID());
+					userService.userLoginRecord(request, user);
+					return true;
+				}
+			}else{
+				return false;
+			}
+		}else{//cookie值无效
+			return false;
+		}

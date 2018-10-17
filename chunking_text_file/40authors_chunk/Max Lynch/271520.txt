@@ -1,0 +1,10 @@
+        protected void notifyListeners() {
+            if(listeners == null) return;
+            Iterator it = listeners.iterator();
+            while(it.hasNext()) {
+                ShapeModelListener elem = (ShapeModelListener)it.next();
+                elem.shapeChanged(this);
+            }
+        }
+	
+

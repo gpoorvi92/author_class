@@ -1,0 +1,10 @@
+@RequestMapping("/server")
+public class ServerController
+{
+    @RequestMapping("/zoneManage/")
+    public String zoneManage(Map<String, Object> map)
+    {
+        List list = new ArrayList<>();
+        map.put("data", list);
+        return "zoneManage";
+    }

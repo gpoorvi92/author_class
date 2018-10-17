@@ -1,0 +1,10 @@
+      }
+
+      boolean this_present_useRule = true && this.isSetUseRule();
+      boolean that_present_useRule = true && that.isSetUseRule();
+      if (this_present_useRule || that_present_useRule) {
+        if (!(this_present_useRule && that_present_useRule))
+          return false;
+        if (!this.useRule.equals(that.useRule))
+          return false;
+      }

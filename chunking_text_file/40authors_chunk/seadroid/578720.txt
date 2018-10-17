@@ -1,0 +1,10 @@
+ * SeafRepo: A Seafile library
+ * @author plt
+ */
+public class SeafRepo implements SeafItem {
+    public String id;     // repo id
+    public String name;
+    public String description;
+    public String owner;
+    public Date mtime;    // the last modification time
+

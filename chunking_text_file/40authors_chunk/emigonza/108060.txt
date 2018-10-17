@@ -1,0 +1,10 @@
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("MelodyType"),
+        makeProperty("MelodyVolume"),
+
+      };
+
+      return properties;
+    }
+    catch(Exception e)

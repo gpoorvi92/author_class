@@ -1,0 +1,10 @@
+            while ((line = br.readLine()) != null) {
+                String[] datas = line.split("=");
+                if (username.equals(datas[0]) && password.equals(datas[1])) {
+                    flag = true;
+                    break;
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {

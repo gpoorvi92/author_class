@@ -1,0 +1,10 @@
+@RequestMapping("/manage/goodsType")
+public class AGoodsTypeController extends BaseController {
+    @Autowired
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(@ModelAttribute("vo")BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/goodsType/list");
+        List<GoodsType> goodsTypeList = goodsTypeService.search(vo);
+        modelAndView.addObject("goodsTypeList", goodsTypeList);

@@ -1,0 +1,10 @@
+
+
+	public CRCResult() {
+	}
+
+
+	public String getCrcAsString() {
+		return value;
+	}
+

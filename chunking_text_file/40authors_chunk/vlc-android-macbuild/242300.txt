@@ -1,0 +1,10 @@
+        sb.append(": ");
+        if (TextUtils.isEmpty(mAudioDecoderImpl)) {
+            sb.append("SW");
+        } else {
+            sb.append(mAudioDecoderImpl);
+        }
+
+        return sb.toString();
+    }
+}

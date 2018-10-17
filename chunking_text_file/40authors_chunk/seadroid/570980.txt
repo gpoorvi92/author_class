@@ -1,0 +1,10 @@
+        viewHolder.subtitle.setText(repo.getSubtitle());
+        viewHolder.icon.setImageResource(repo.getIcon());
+        viewHolder.action.setVisibility(View.INVISIBLE);
+        return view;
+    }
+
+    private class Viewholder {
+        TextView title, subtitle;
+        ImageView icon, action;
+

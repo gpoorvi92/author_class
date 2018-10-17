@@ -1,0 +1,10 @@
+package fileIO;
+
+import javax.swing.*;
+import java.io.*;
+import javax.swing.filechooser.*;
+
+/** a FileFilter that wraps around a ModelFileSaver to accept only the files it saves with
+ */
+public class ModelFileSaverFileFilter extends javax.swing.filechooser.FileFilter
+{

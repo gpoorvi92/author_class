@@ -1,0 +1,10 @@
+  private int [] grid = new int[gridSize];
+  private int comCount = 0;
+
+
+  public String getUserInput(String prompt) {
+     String inputLine = null;
+     System.out.print(prompt + "  ");
+     try {
+       BufferedReader is = new BufferedReader(
+	 new InputStreamReader(System.in));

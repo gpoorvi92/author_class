@@ -1,0 +1,10 @@
+
+    private Integer remarkCount;
+
+    private GoodsType goodsTypeObj;
+
+    private Merchant merchant;
+
+    private Integer collectionCount;
+
+    public Integer getCollectionCount() {

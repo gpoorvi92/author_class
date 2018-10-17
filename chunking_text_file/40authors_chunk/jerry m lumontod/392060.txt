@@ -1,0 +1,10 @@
+				mintResult = s1.mstrUserCode.compareTo(s2.mstrUserCode);
+				break;
+			case 29:
+				mintResult = s1.mstrDocnum.compareTo(s2.mstrDocnum);
+				break;
+			case 30:
+				mintResult = s1.mstrRefDoclineum.compareTo(s2.mstrRefDoclineum);
+				break;
+			case 31:
+				mintResult = s1.mstrPostType.compareTo(s2.mstrPostType);

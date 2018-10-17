@@ -1,0 +1,10 @@
+     *       subclassed to write a new game program.
+     */
+    /*
+     * Note: the abstract class Move also needs to be subclassed.
+     *       
+     */
+
+    public static boolean PROGRAM = false;
+    public static boolean HUMAN = true;
+

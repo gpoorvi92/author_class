@@ -1,0 +1,10 @@
+                    l = max;
+                c.addStreamOfEmptyWords(i.getRunningBit(), l);
+                max -= l;
+            }
+            long L = i.getNumberOfLiteralWords();
+            for (int k = 0; k < L; ++k)
+                c.addWord(i.getLiteralWordAt(k));
+            if (max > 0) {
+                if (!i.next())
+                    break;

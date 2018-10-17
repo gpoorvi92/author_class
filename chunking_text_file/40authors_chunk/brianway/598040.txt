@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example16;
+
+/**
+ * Created by Brian on 2016/4/13.
+ */
+
+/**
+ * P124
+ * volatile非原子的特性
+ */

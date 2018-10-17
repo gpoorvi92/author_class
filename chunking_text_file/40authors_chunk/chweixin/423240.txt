@@ -1,0 +1,10 @@
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	/**
+	 * 登录。
+	 * @throws IOException 
+	 * */
+	public void login() throws IOException{
+		Json result = new Json();
+		try{

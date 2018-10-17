@@ -1,0 +1,10 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/**
+ * 一些中文相关的操作方法
+ */
+public final class ChinesUtil {
+    private ChinesUtil(){
+
+    }

@@ -1,0 +1,10 @@
+    */
+   private boolean checkLogin(String username, char[] password) throws LoginException, IOException
+   {
+      try (Scanner in = new Scanner(Paths.get("" + options.get("pwfile"))))
+      {
+         while (in.hasNextLine())
+         {
+            String[] inputs = in.nextLine().split("\\|");
+            if (inputs[0].equals(username) && Arrays.equals(inputs[1].toCharArray(), password))
+            {

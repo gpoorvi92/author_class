@@ -1,0 +1,10 @@
+public class CalcularMediaPositivosConDoWhile {
+  public static void main(String[] args) {   
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("CALCULAR MEDIA POSITIVOS");
+    System.out.println("===========================================");
+    
+    double num = 0;
+    double suma = 0;
+    double media;

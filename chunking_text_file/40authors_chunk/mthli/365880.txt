@@ -1,0 +1,10 @@
+ * @version 1.23 2007-05-17
+ * @author Cay Horstmann
+ */
+public class SwingThreadTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()

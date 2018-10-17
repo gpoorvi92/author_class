@@ -1,0 +1,10 @@
+/**
+ * A cache that doesn't.
+ */
+public class NoCache implements Cache {
+    @Override
+    public void clear() {
+    }
+
+    @Override
+    public Entry get(String key) {

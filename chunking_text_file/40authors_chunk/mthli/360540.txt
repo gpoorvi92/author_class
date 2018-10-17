@@ -1,0 +1,10 @@
+            {
+               i--;
+               builder.deleteCharAt(i);
+            }
+         }
+      }
+      super.insertString(fb, offset, builder.toString(), attr);
+   }
+
+   public void replace(FilterBypass fb, int offset, int length, String string, AttributeSet attr)

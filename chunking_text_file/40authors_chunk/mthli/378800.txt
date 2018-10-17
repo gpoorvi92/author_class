@@ -1,0 +1,10 @@
+   }
+
+   private class QueueIterator implements Iterator<E>
+   {
+      private int offset;
+      private int modcountAtConstruction;
+
+      public QueueIterator()
+      {
+         modcountAtConstruction = modcount;

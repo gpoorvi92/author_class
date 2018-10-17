@@ -1,0 +1,10 @@
+    @Override
+    public void checkClientTrusted(X509Certificate[] x509Certificates, String s) throws java.security.cert.CertificateException {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public void checkServerTrusted(X509Certificate[] x509Certificates, String s) throws java.security.cert.CertificateException {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
+

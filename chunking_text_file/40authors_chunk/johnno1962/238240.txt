@@ -1,0 +1,10 @@
+            entered_ancestorResized_1 = true;
+            __ancestorResized( e );
+            entered_ancestorResized_1 = false;
+        }
+        else
+            super.ancestorResized( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

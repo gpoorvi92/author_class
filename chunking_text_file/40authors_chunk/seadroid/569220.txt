@@ -1,0 +1,10 @@
+            return null;
+        }
+    }
+
+    public boolean isDir() {
+        return (type == DirentType.DIR);
+    }
+
+    @Override
+    public String getTitle() {

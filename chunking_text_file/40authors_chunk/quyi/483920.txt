@@ -1,0 +1,10 @@
+    private static class updateAppStatus_argsTupleScheme extends TupleScheme<updateAppStatus_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, updateAppStatus_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        oprot.writeString(struct.missionId);
+        oprot.writeString(struct.userAppId);
+        oprot.writeI32(struct.status.getValue());
+        BitSet optionals = new BitSet();
+        if (struct.isSetUsedPermissions()) {

@@ -1,0 +1,10 @@
+ * This frame has text fields for user name and password, a field for the name of the requested
+ * system property, and a field to show the property value.
+ */
+public class JAASFrame extends JFrame
+{
+   private JTextField username;
+   private JPasswordField password;
+   private JTextField propertyName;
+   private JTextField propertyValue;
+

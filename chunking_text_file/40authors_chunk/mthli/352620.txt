@@ -1,0 +1,10 @@
+      addTab("Title", titlePane);
+      addTab("Data", dataPane);
+            
+   }
+
+   /**
+    * Sets the data to be shown in the chart.
+    * @param s a string containing the numbers to be displayed, separated by white space
+    */
+   public void setData(String s)

@@ -1,0 +1,10 @@
+
+	public MainPagerAdapter(MainActivity act, List<View> viewList,
+			List<String> titleList) {
+		this.viewList = viewList;
+		this.titleList = titleList;
+		this.act = act;
+	}
+
+	@Override
+	public int getCount() {

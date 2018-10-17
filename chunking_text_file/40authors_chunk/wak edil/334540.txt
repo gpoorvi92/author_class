@@ -1,0 +1,10 @@
+	 	}
+	}
+	
+   public static void main(String [] args)
+   	{
+   		mainmenu frame = new mainmenu();
+		frame.setTitle("MAIN ");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(600,500);
+		frame.setVisible(true);

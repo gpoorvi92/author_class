@@ -1,0 +1,10 @@
+        ServerType targetServerType = ServerType.get(serverType);
+        if (null == targetServerType)
+        {
+            log.error("unknow servertype:{}", DispatcherHelper.serverType(opcode));
+            return;
+        }
+        switch (targetServerType)
+        {
+            case GATEWAY:
+                gatewayMoudleDispatcher.diapatch(channel, pkt);

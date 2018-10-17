@@ -1,0 +1,10 @@
+		return COLLECTION_ACCOUNT;
+	}
+	/**
+	 * Õ®π˝ID≤È—Ø’ ∫≈
+	 * @param id
+	 * @return
+	 */
+	public Account getAccountByID(String id){
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		DBObject object=coll.findOne(super.idQuery(id));

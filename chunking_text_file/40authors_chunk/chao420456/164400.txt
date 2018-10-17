@@ -1,0 +1,10 @@
+package cn.itcast_07;
+
+/*
+ * 线程组：Java中使用ThreadGroup来表示线程组，它可以对一批线程进行分类管理，Java允许程序直接对线程组进行控制。
+ * 
+ * 默认情况下，所有的线程都属于主线程组。
+ * public final ThreadGroup getThreadGroup()：返回该线程所属的线程组。 
+ * 
+ * public final String getName():返回此线程组的名称。 
+ * 

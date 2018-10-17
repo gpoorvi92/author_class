@@ -1,0 +1,10 @@
+package com.opslab.util.ftp;
+
+/**
+ * 用于包装FTP的相关的信息
+ */
+public class FTPVo {
+    private String  hostName;
+    private int     port;
+    private String  username;
+    private String  password;

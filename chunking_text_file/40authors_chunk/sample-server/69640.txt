@@ -1,0 +1,10 @@
+            switch (moudle)
+            {
+                case 1:
+                    gatewayAllMoudleService.diapatch(channel, packet);
+                    break;
+                default:
+                    log.error("unknow moudle:{}", moudle);
+                    break;
+            }
+        } catch (Exception e)

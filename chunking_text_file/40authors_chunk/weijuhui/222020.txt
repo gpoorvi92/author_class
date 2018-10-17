@@ -1,0 +1,10 @@
+            if (context_ instanceof Activity) {
+                ((Activity) context_).startActivityForResult(intent_, requestCode);
+            } else {
+                context_.startActivity(intent_);
+            }
+        }
+
+    }
+
+}

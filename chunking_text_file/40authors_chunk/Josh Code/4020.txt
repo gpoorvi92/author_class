@@ -1,0 +1,10 @@
+             {
+                 zoomOut();
+             }
+         }
+           );
+
+         saveDisplay.addActionListener(
+               new ActionListener()
+         {
+             public void actionPerformed(ActionEvent ae)

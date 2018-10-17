@@ -1,0 +1,10 @@
+		return file;
+	}
+
+	public File finishRecords(String recordDay, int targetFileIndex) {
+		String fileKey = recordDay + '-' + targetFileIndex;
+		PrintWriter pwr = printWriterMap.get(fileKey);
+		File file = null;
+		if (null != pwr) {
+			pwr.flush();
+			pwr.close();

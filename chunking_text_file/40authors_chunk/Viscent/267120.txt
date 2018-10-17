@@ -1,0 +1,10 @@
+	@Override
+	public String toString() {
+		return "MM7DeliverRequest [transactionID=" + transactionID
+		    + ", messageType=" + messageType + ", senderAddress=" + senderAddress
+		    + ", recipient=" + recipient + ", subject=" + subject + ", attachment="
+		    + attachment + "]";
+	}
+
+	private static final long serialVersionUID = 302185079311891797L;
+

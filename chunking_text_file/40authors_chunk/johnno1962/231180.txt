@@ -1,0 +1,10 @@
+
+/// interface com.apple.eawt.event.SwipeListener ///
+
+package org.genie.com_apple;
+
+public class SwipeListenerProxy implements com.apple.eawt.event.SwipeListener {
+
+    long swiftObject;
+
+    SwipeListenerProxy( long swiftObject ) {

@@ -1,0 +1,10 @@
+	}
+	/**
+	 * Í¨¹ýIDÉ¾³ýÕÊºÅ
+	 * @param id
+	 */
+	public void deleteByID(String id){
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		DBObject object=coll.findOne(super.idQuery(id));
+		if(object!=null){
+			coll.remove(object, WriteConcern.SAFE);

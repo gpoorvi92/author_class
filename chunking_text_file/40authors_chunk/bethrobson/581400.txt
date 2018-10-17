@@ -1,0 +1,10 @@
+        
+           track.add(makeEvent(176,1,127,0,i));
+         
+           track.add(makeEvent(128,1,rNum,100,i + 2));
+         }
+       } // end loop
+        
+          // add the events to the track            
+          // add the sequence to the sequencer, set timing, and start
+

@@ -1,0 +1,10 @@
+	 * */
+	public final static int ACCOUNT_STATUS_ENABLE = 1;
+	/**
+	 * 公众号类型－服务号。
+	 * */
+	public final static int ACCOUNT_TYPE_SERVICE = 1;
+	/**
+	 * 公众号类型－订阅号。
+	 * */
+	public final static int ACCOUNT_TYPE_SUBSCRIBE = 2;

@@ -1,0 +1,10 @@
+        int n = num.length;
+        if (n < 2) return 0;
+        int minVal = num[0], maxVal = num[0];
+        for (int i = 1; i < n; ++i) {
+            minVal = Math.min(minVal, num[i]);
+            maxVal = Math.max(maxVal, num[i]);
+        }
+        //delta = (maxVal + 1 - minVal) / (n + 1)
+        //idx = (val - minVal) / delta = (val - minVal) * (n + 1) / (maxVal + 1 - minVal)
+        node[] pool = new node[n+2];

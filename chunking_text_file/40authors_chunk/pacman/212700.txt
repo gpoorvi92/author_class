@@ -1,0 +1,10 @@
+	
+	static {
+		
+		try {
+			if (FileHelper.isWindow())
+				System.loadLibrary("libdec");
+			else
+				System.loadLibrary("dec");
+			gJNILoaded = true;
+		} catch (UnsatisfiedLinkError e) {

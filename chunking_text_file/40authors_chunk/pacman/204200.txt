@@ -1,0 +1,10 @@
+		
+		String videoSrc = context.getAttribute(Constants.CONTEXT_MEDIA_PATH);
+		String videoDest = context.getAttribute(Constants.CONTEXT_MEDIA_FULLPATH);
+		
+		if (!FileHelper.exists(videoSrc)) {
+			throw new FileNotFoundException(videoSrc);
+		}
+		
+		FileHelper.ensureExists(videoDest, true);
+		

@@ -1,0 +1,10 @@
+
+/// class java.awt.event.WindowAdapter ///
+
+package org.genie.java_awt;
+
+public class WindowAdapterProxy extends java.awt.event.WindowAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.WindowAdapter()

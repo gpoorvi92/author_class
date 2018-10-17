@@ -1,0 +1,10 @@
+// BillAcceptorBeanInfo.java - Bean information for the JavaPOS BillAcceptor
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

@@ -1,0 +1,10 @@
+		this(false);
+	}
+
+	public ConditionVarBlocker(boolean allowAccess2Lock) {
+		this(new ReentrantLock(), allowAccess2Lock);
+	}
+
+	public Lock getLock() {
+		if (allowAccess2Lock) {
+			return this.lock;

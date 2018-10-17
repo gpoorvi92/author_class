@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void setDataSource(String uri) throws IOException,
+            IllegalArgumentException, IllegalStateException {
+        DebugLog.v(TAG, "def play list " + uri);
+
+        if (!mIndexResolver.parseIndexMrl(uri))
+            throw new IllegalArgumentException("unsupport mrl");
+

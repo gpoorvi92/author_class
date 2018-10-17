@@ -1,0 +1,10 @@
+
+    /**
+     * Pauses any playing media
+     */
+    public native void pause();
+
+    /**
+     * Stops any playing media
+     */
+    public native void stop();

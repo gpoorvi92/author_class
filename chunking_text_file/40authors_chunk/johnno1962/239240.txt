@@ -1,0 +1,10 @@
+    public native void __dragEnter( java.awt.dnd.DragSourceDragEvent dsde );
+
+    boolean entered_dragEnter_2;
+
+    public void dragEnter( java.awt.dnd.DragSourceDragEvent dsde ) {
+        if ( !entered_dragEnter_2 ) {
+            entered_dragEnter_2 = true;
+            __dragEnter( dsde );
+            entered_dragEnter_2 = false;
+        }

@@ -1,0 +1,10 @@
+		Node actNode = getActionNode();
+		int nArgNodes = actNode.getNNodes();
+		ArgumentList argList = new ArgumentList();
+		for (int n=0; n<nArgNodes; n++) {
+			Argument arg = new Argument();
+			Node argNode = actNode.getNode(n);
+			arg.setName(argNode.getName());
+			arg.setValue(argNode.getValue());
+			argList.add(arg);
+		}

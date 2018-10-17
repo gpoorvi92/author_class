@@ -1,0 +1,10 @@
+package fileIO;
+
+import model.*;
+import java.io.*;
+
+/**
+ * Loads a XYZ format
+ * 
+ * described:
+ * http://people.scs.fsu.edu/~burkardt/data/xyz/xyz.html

@@ -1,0 +1,10 @@
+      TreePath path = new TreePath(model.getPathToRoot(newNode));
+      tree.makeVisible(path);
+
+      return newNode;
+   }
+
+   /**
+    * Returns a description of the fields of a class.
+    * @param the class to be described
+    * @return a string containing all field types and names

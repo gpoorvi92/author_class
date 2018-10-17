@@ -1,0 +1,10 @@
+    public void setZoneId(int zoneId)
+    {
+        this.zoneId = zoneId;
+    }
+    public int getRound()
+    {
+        return round;
+    }
+    public void setRound(int round)
+    {

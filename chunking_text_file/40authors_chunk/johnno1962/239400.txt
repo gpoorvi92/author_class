@@ -1,0 +1,10 @@
+
+    public native java.lang.String __toString();
+
+    boolean entered_toString_7;
+
+    public java.lang.String toString() {
+        if ( !entered_toString_7 ) {
+            entered_toString_7 = true;
+            java.lang.String __return = __toString( );
+            entered_toString_7 = false;

@@ -1,0 +1,10 @@
+     * duplicated versions of the same issues - for example, if the same request
+     * has been scanned multiple times. Duplicated issues are consolidated in
+     * the main view of scan results. Extensions can register an
+     * <code>IScannerListener</code> to get details only of unique, newly
+     * discovered Scanner issues post-consolidation.
+     *
+     * @return Details of the issues generated for the scan queue item.
+     */
+    IScanIssue[] getIssues();
+}

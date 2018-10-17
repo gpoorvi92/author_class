@@ -1,0 +1,10 @@
+    public queryMission_args deepCopy() {
+      return new queryMission_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.missionId = null;
+    }
+
+    public String getMissionId() {

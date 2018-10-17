@@ -1,0 +1,10 @@
+		}
+		if (minutes > 0) {
+			returned += ((int)minutes) + "m";
+			displaySeconds &= minutes <= 10;
+		}
+		if (displaySeconds) {
+			returned += ((int)seconds) + "s";
+		}
+		return returned;
+	}

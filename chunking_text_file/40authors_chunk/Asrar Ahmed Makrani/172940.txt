@@ -1,0 +1,10 @@
+    gbc.gridy = 1;
+    upper.add(book_title, gbc);
+    
+	for (int i = 0; i<5; i++)
+    {
+    gbc.gridy = 2+i;
+    upper.add(book_title_text1[i], gbc);
+	}
+    
+    gbc.gridx = 2;

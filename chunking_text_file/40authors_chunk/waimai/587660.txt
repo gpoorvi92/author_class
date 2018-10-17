@@ -1,0 +1,10 @@
+        // 设置图片长宽
+        setWidthAndHeight(width, height);
+        // 是否是等比缩放 标记
+        this.proportion = gp;
+        return compressPic();
+    }
+
+    public boolean compressPic(InputStream inputStream, String output, int width, int height, boolean gp) {
+        // 输入图片流
+        this.inputStream = inputStream;

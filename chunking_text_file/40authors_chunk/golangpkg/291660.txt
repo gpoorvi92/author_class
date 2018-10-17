@@ -1,0 +1,10 @@
+ * This cleaner shall be regularly invoked to remove files that are outdated on the system.<br/>
+ * That is checked against the last modified time which shall be no more than what is configured.
+ * 
+ * @author antoinem
+ */
+@Component
+@ManagedResource(objectName = "JavaLargeFileUploader:name=importedFilesCleaner")
+public class ImportedFilesCleaner {
+
+	private static final Logger log = LoggerFactory.getLogger(ImportedFilesCleaner.class);

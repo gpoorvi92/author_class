@@ -1,0 +1,10 @@
+            map.get(cur).next = map.get(cur.next);
+            if (cur.random != null && map.containsKey(cur.random) == false) {
+                RandomListNode newnode = new RandomListNode(cur.random.label);
+                map.put(cur.random, newnode);
+                queue.offer(cur.random);
+            }
+            map.get(cur).random = map.get(cur.random);
+        }
+        return map.get(head);
+    }

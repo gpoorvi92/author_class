@@ -1,0 +1,8 @@
+	public void exitLogin() {
+		System.exit(0);
+	}
+	public void exitClient() {
+		flag_exit = false;
+		System.exit(0);
+	}
+}

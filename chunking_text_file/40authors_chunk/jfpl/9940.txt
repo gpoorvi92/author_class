@@ -1,0 +1,10 @@
+		int layout = -1;
+		String msgType = acd.getStringValue("msg_type");
+		if ("2".equals(msgType)) {// 图片
+			layout = R.layout.chat_image_item;
+		} else if ("3".equals(msgType)) {// 语音
+			layout = R.layout.chat_voice_item;
+		} else if ("4".equals(msgType)) { // 位置
+			layout = R.layout.chat_location_item;
+		} else if ("6".equals(msgType)) { //
+			layout = R.layout.chat_form_item;

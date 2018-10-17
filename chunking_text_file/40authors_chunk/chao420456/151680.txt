@@ -1,0 +1,10 @@
+	public void study() {
+		System.out.println("学生要好好学习，天天向上");
+	}
+}
+
+//部分抽烟学生
+class SmokeStudent extends Student implements Smoking {
+	public SmokeStudent(){}
+
+	public SmokeStudent(String name,int age) {

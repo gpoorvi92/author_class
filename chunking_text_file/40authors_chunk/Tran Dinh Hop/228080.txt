@@ -1,0 +1,10 @@
+    public final static String rle = "rle";
+    public final static String lzw = "lzw";
+    /*
+     * Get the extension of a image/zip file.
+     */
+    public static String getExtension(File f) {
+        String ext = null;
+        String s = f.getName();
+        int i = s.lastIndexOf('.');
+

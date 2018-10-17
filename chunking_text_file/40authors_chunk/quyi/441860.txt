@@ -1,0 +1,10 @@
+        return false;
+      if (!this.sourcePort.equals(that.sourcePort))
+        return false;
+    }
+
+    boolean this_present_targetAddress = true && this.isSetTargetAddress();
+    boolean that_present_targetAddress = true && that.isSetTargetAddress();
+    if (this_present_targetAddress || that_present_targetAddress) {
+      if (!(this_present_targetAddress && that_present_targetAddress))
+        return false;

@@ -1,0 +1,10 @@
+				+ android.os.Build.MODEL);
+		head.putStringValue("message_type", msgType);
+		head.putStringValue("client_time", DateUtil.detaledFormat(new Date()));
+		head.putStringValue("username", username);
+		acd.putStringValue("_url", SEND_URL);
+		acd.putBooleanValue("is_alert", false);
+		acd.putStringValue("to_user", toUser);
+		acd.putStringValue("busi_type", GlobalVariables.chatAppId);
+		acd.putStringValue("busi_serial", GlobalVariables.chatAppSerial);
+		acd.putObjectValue("ipacket",

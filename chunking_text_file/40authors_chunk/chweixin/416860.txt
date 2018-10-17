@@ -1,0 +1,10 @@
+	 * 可选查询参数。
+	 * @param hql
+	 *  HQL
+	 *  @param parameters
+	 *  参数集合。
+	 *  @return
+	 *  结果HQL。
+	 * */
+	 protected String addWhere(UserInfo info,String hql,Map<String, Object> parameters){
+		  if(info.getAccount() != null && !info.getAccount().trim().isEmpty()){

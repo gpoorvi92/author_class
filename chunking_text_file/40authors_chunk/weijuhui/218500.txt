@@ -1,0 +1,10 @@
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+
+/**
+ * 
+ * <ul>
+ * <li><b>name : </b> WXEntryActivity</li>
+ * <li><b>description :</b> app请求发送与微信回调类</li>

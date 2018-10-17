@@ -1,0 +1,10 @@
+        test_recall(nn, test1);
+        test_recall(nn, test2);
+        test_recall(nn, test3);
+
+        nn.save("test.neural");
+        System.out.println("Reload a previously trained NN from disk and re-test:");
+        Neural_2H nn2 = Neural_2H.Factory("test.neural");
+        nn2.addTrainingExample(in1, out1);
+        nn2.addTrainingExample(in2, out2);
+        nn2.addTrainingExample(in3, out3);

@@ -1,0 +1,10 @@
+	public int getX2() { return(x2); }
+	public int getY2() { return(y2); }
+	public int getX3() { return(x2); }
+	public int getY3() { return(y1); }
+	public int getX4() { return(x1); }
+	public int getY4() { return(y2); }
+	
+	
+	
+	

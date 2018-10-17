@@ -1,0 +1,10 @@
+		}
+
+		for (int row = 1; row < rowsize; row++) {
+			UserAppInfo userAppInfo = readExcel.getUserAppInfo(sheet, row, fileName, 1);
+			try {
+				long time1 = System.currentTimeMillis();
+				issueSingleMessage(session, producer, "SingleTest11", "SingleTest11" + row, userAppInfo.getAppPath(), userAppInfo.getAppName(),
+						userAppInfo.getMd5(), userAppInfo.getSize());
+				/*SingleRecordInfo singleRecordInfo = new SingleRecordInfo();
+				singleRecordInfo.setAppName(userAppInfo.getAppName());

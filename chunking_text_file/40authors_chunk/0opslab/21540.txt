@@ -1,0 +1,10 @@
+                return_value = true;
+            }
+        }
+        return return_value;
+    }
+
+
+    /**
+     * 判断是否浮点数字表示
+     *

@@ -1,0 +1,10 @@
+							StringHelper.removeFileExtName(StringHelper.getFileBareName(file)) :
+							StringHelper.getFileBareName(file);
+				}
+				
+				if (!dupList.contains(entryName)) {
+					dupList.add(entryName);
+				} else {
+					continue;
+				}
+				

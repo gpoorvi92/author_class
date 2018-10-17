@@ -1,0 +1,10 @@
+		taskOp2.setJobPhase(JobPhase.PROCESS);
+		taskOp2.setJobExecutionMode(JobExecutionMode.EXCLUSIVE);
+		taskOp2.setJobReturnMode(JobReturnMode.PASSIVE);
+		taskOp2.setTimeout(180000);
+		jobOpList.add(taskOp2);
+
+		List<JobParameter> jobParameterList = new ArrayList<JobParameter>();
+		JobParameter taskParam1 = new JobParameter();
+		taskParam1.setJobPhase(JobPhase.PROCESS);
+		taskParam1.setAppId(1101097200000001L);

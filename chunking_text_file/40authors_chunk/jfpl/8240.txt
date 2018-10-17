@@ -1,0 +1,10 @@
+			BaseAdapter ba = (BaseAdapter) chatList.getAdapter();
+			ba.notifyDataSetChanged();
+			doChatSuccess(acd);
+		} else {
+			doError(acd);
+
+		}
+
+		return null;
+	}

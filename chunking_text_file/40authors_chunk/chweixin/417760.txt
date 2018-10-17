@@ -1,0 +1,10 @@
+	 * 获取消息类型(text/image/voice/video/location/link)。
+	 * @return 消息类型(text/image/voice/video/location/link)。
+	 * */
+	public String getMsgType() {
+		return MsgType;
+	}
+	/**
+	 * 设置消息类型。
+	 * @param msgType
+	 * 消息类型(text/image/voice/video/location/link)。

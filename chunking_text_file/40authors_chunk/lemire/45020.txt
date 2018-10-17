@@ -1,0 +1,10 @@
+        BufferedRunningLengthWord32 answer = (BufferedRunningLengthWord32) super
+                .clone();
+        answer.literalWordOffset = this.literalWordOffset;
+        answer.NumberOfLiteralWords = this.NumberOfLiteralWords;
+        answer.RunningBit = this.RunningBit;
+        answer.RunningLength = this.RunningLength;
+        return answer;
+    }
+
+    /**

@@ -1,0 +1,10 @@
+    }
+  }
+
+  public void setFieldValue(_Fields field, Object value) {
+    switch (field) {
+    case APK_MD5:
+      if (value == null) {
+        unsetApkMD5();
+      } else {
+        setApkMD5((String)value);

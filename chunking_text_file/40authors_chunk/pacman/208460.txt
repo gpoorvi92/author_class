@@ -1,0 +1,10 @@
+	/**
+	 * @return the videoDuration
+	 */
+	public long getVideoDuration() {
+		
+		if (gJNILoaded)
+			return nativeGetVideoDuration();
+		else
+			return -1;
+	}

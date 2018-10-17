@@ -1,0 +1,10 @@
+        finish();
+    }
+
+    private void saveAccount(Account account) {
+        if (account == null)
+            return;
+
+        AccountManager accountManager = new AccountManager(this);
+
+        // save account to SharedPrefs

@@ -1,0 +1,10 @@
+			if (milliseconds < 10) {
+				
+				message = mConsumer.receive();
+			} else {
+				
+				message = mConsumer.receive(milliseconds);
+			}
+			
+		} catch (JMSException e) {
+			

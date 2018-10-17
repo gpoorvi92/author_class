@@ -1,0 +1,10 @@
+            try {
+                // Checking only directories
+                if (folder.isDirectory()
+                        && !folder.getName().startsWith(HIDDEN_PREFIX)) {
+                    File[] listOfFiles = folder.listFiles();
+
+                    if (listOfFiles == null)
+                        return false;
+
+                    // For each file in the directory

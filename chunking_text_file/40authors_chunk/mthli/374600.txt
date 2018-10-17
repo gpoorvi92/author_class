@@ -1,0 +1,10 @@
+            public void run()
+            {
+               JFrame frame = new NumberFormatFrame();
+               frame.setTitle("NumberFormatTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}

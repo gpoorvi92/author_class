@@ -1,0 +1,10 @@
+    }
+
+    /** returns m1*m2
+     */
+    public static matrix multiply(matrix m1,matrix m2) throws IncompatibleArgumentsException
+    {
+       if (m1.m!=m2.n)
+          throw new IncompatibleArgumentsException(
+              "Matrix multiplication can't be calculated "
+              +"because of invalid dimensions.");

@@ -1,0 +1,10 @@
+
+    public reportNodeManagerConfig_args() {
+    }
+
+    public reportNodeManagerConfig_args(
+      String nodeId)
+    {
+      this();
+      this.nodeId = nodeId;
+    }

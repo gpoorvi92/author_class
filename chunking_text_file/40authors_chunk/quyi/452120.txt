@@ -1,0 +1,10 @@
+        this.plots = new ArrayList<com.nercis.isscp.idl.PlotsType>();
+      }
+      this.plots.add(elem);
+    }
+
+    public List<com.nercis.isscp.idl.PlotsType> getPlots() {
+      return this.plots;
+    }
+
+    public issuedMessage_args setPlots(List<com.nercis.isscp.idl.PlotsType> plots) {

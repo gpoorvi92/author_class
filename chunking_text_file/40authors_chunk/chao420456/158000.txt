@@ -1,0 +1,10 @@
+		Dog d = new Dog();
+		d.setName("Ð¥Ìì");
+		d.setAge(5);
+		d.show();
+		d.lookDoor();
+		System.out.println("------------");
+
+		Dog dd = new Dog("Íú²Æ",8);
+		dd.show();
+		dd.lookDoor();

@@ -1,0 +1,10 @@
+                    float percent = MediaPlayerBufferingTotal
+                            .getNewCacheTotal((Bundle) msg.obj);
+                    // 这里返回的是缓冲比例，而不是缓冲位置
+                    DebugLog.v(TAG, "buffering " + percent);
+                    mOnBufferingUpdateListener.onBufferingUpdate(this,
+                            (int) percent);
+                }
+            }
+            break;
+        }

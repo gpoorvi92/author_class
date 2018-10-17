@@ -1,0 +1,10 @@
+            }
+
+            if (st.getClassName().equals(Thread.class.getName())) {
+                continue;
+            }
+
+            if (st.getClassName().equals(this.getClass().getName())) {
+                continue;
+            }
+

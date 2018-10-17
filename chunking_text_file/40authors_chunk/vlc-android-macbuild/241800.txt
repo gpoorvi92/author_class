@@ -1,0 +1,10 @@
+    @Override
+    public void stop() throws IllegalStateException {
+        mMediaPlayer.stop();
+    }
+
+    @Override
+    public void pause() throws IllegalStateException {
+        mMediaPlayer.pause();
+    }
+

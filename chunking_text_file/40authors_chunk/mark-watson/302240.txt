@@ -1,0 +1,10 @@
+				if (firstCountryNode.getNodeType() == Node.ELEMENT_NODE) {
+					Element firstCountryElement = (Element) firstCountryNode;
+					String name = firstCountryElement.getAttribute("name").replaceAll("'", "");
+					String location = firstCountryElement
+							.getAttribute("location").replaceAll("'", "");
+					if (location.length() > 150) location = location.substring(0,149);
+					long population = parseLong(firstCountryElement
+							.getAttribute("population"));
+					long exports = (long)parseFloat(firstCountryElement
+							.getAttribute("exports"));

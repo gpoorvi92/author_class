@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetUrl()).compareTo(other.isSetUrl());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetUrl()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.url, other.url);
+      if (lastComparison != 0) {
+        return lastComparison;

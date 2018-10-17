@@ -1,0 +1,10 @@
+        if (struct.isSetRules()) {
+          {
+            oprot.writeI32(struct.rules.size());
+            for (String _iter45 : struct.rules)
+            {
+              oprot.writeString(_iter45);
+            }
+          }
+        }
+        if (struct.isSetPlots()) {

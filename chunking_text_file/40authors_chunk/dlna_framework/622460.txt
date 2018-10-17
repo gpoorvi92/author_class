@@ -1,0 +1,10 @@
+		
+		// Thanks for Oliver Newell (10/26/04)
+		if(timeOut == Subscription.INFINITE_VALUE ) 
+			return false; 
+			
+		// Thanks for Oliver Newell (10/26/04)
+		long expiredTime = getSubscriptionTime() + getTimeOut()*1000;
+		if (expiredTime < currTime)
+			return true;
+			

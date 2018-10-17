@@ -1,0 +1,10 @@
+        return mWidth;
+    }
+
+    public int getHeight() {
+        if (mHeight == UNKNOWN_LENGTH) setupDimension();
+        return mHeight;
+    }
+
+    public Bitmap miniThumbBitmap() {
+        Bitmap b = null;

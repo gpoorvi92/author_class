@@ -1,0 +1,10 @@
+            case WIRE_FRAME:
+                renderer.renderWireframe();
+                break;
+
+            case TEXTURE_MAPPED:
+                renderer.realtimeTextureRender();
+                break;
+
+            case WHITE_VERTICES:
+                renderer.renderWhiteVertices();

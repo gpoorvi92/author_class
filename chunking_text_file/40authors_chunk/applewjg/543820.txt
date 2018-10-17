@@ -1,0 +1,5 @@
+            q.offer(i); q.offer(j-1);
+            q.offer(i); q.offer(j+1);
+        }
+    }
+}

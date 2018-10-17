@@ -1,0 +1,10 @@
+{
+   private JLabel label;
+   private JCheckBox bold;
+   private JCheckBox italic;
+   private static final int FONTSIZE = 24;
+
+   public CheckBoxFrame()
+   {      
+      // add the sample text label
+

@@ -1,0 +1,10 @@
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(6);
+      if (incoming.get(0)) {
+        struct.nodeId = iprot.readString();
+        struct.setNodeIdIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.cpuUsedPerc = iprot.readDouble();
+        struct.setCpuUsedPercIsSet(true);
+      }

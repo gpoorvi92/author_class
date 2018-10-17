@@ -1,0 +1,10 @@
+
+    public String mAudioDecoder;
+    public String mAudioDecoderImpl;
+
+    public static ModuleInfo sAndroidModuleInfo;
+    public static ModuleInfo sAndroidListModuleInfo;
+
+    public static ModuleInfo parseModuleInfo(Bundle args) {
+        ModuleInfo moduleInfo = new ModuleInfo();
+

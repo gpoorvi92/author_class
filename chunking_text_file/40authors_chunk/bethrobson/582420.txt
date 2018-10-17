@@ -1,0 +1,10 @@
+    private JTextArea answer;
+    private ArrayList cardList;
+    private JFrame frame;
+    
+    // additional, bonus method not found in any book!
+
+    public static void main (String[] args) {
+       QuizCardBuilder builder = new QuizCardBuilder();
+       builder.go();
+    }

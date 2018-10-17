@@ -1,0 +1,10 @@
+/**
+ * 利用文件头来实现的一些文件类型的方法封装
+ */
+public class FileTypeImpl {
+
+    public final static Map<String,String> FILE_TYPE_MAP = new HashMap<String,String>();
+
+    static {
+        FILE_TYPE_MAP.put("jpg", "FFD8FF"); //JPEG (jpg)
+        FILE_TYPE_MAP.put("png", "89504E47");  //PNG (png)

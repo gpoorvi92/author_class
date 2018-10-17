@@ -1,0 +1,10 @@
+     * thrown.
+     */
+    @Override
+    public void addWord(int newData) {
+        if (newData != 0)
+            throw nonEmptyException;
+    }
+    
+    /**
+     * If the word to be added is non-zero, a NonEmptyException exception is

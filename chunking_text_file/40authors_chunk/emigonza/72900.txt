@@ -1,0 +1,10 @@
+        makeProperty("PositionCount"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("ElectronicKeyValue")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {

@@ -1,0 +1,10 @@
+        System.out.println("=============获取自定义的和继承的Protected类型的方法==========");
+        methods = ClassUtil.getProtectedMethod("com.opslab.util.bean.BeanUtil", true);
+        for (String m : methods) {
+            System.out.println(m);
+        }
+    }
+    @Test
+    public void testPublicMetod()  {
+        System.out.println("=============获取自定义的public类型的方法==========");
+        String[] methods = ClassUtil.getPublicMethod("com.opslab.util.bean.BeanUtil", false);

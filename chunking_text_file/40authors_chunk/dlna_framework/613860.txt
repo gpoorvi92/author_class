@@ -1,0 +1,10 @@
+public class RenewSubscriber extends ThreadCore
+{
+	public final static long INTERVAL = 120;
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public RenewSubscriber(ControlPoint ctrlp)
+	{

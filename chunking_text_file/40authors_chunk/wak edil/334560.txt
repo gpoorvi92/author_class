@@ -1,0 +1,7 @@
+		frame.setResizable(true);
+		frame.setLocationRelativeTo(null);
+   
+   }
+    
+    
+}

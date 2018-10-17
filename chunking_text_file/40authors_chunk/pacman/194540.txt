@@ -1,0 +1,10 @@
+		IMQSender sender = null;
+		sender = mgr.getSender(QueueType.QUEUE_AUDIO);
+		assertNotNull(sender);
+
+		IMQReceiver receiver = mgr.getReceiver(QueueType.QUEUE_AUDIO);
+		assertNotNull(receiver);
+		receiver.addListener(new MockListener());
+		
+		sender.sendTextMessage("This is a test!");
+		

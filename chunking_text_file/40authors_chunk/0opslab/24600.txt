@@ -1,0 +1,10 @@
+    int bytesToRead = len;
+    if (this.m_amountOfBytesReadable == 0) {
+      result = -1; // EOF
+    } else{
+      if (this.m_amountOfBytesReadable < len) {
+        bytesToRead = this.m_amountOfBytesReadable; // limit
+      }
+      result = super.read(b, off, bytesToRead);
+      if (result > 0) {
+        this.m_amountOfBytesReadable -= result;

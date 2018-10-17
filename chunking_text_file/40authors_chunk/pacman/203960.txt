@@ -1,0 +1,10 @@
+	 * 
+	 * @return
+	 */
+	long	getExecutedDuration(); 
+	
+	/**
+	 * Getter and Setter for worker type.
+	 * 
+	 * @Title: getType
+	 * @return

@@ -1,0 +1,10 @@
+	public boolean onMenuItemClicked(final MenuScene pMenuScene, final IMenuItem pMenuItem, final float pMenuItemLocalX, final float pMenuItemLocalY) {
+		switch(pMenuItem.getID()) {
+			case MENU_RESET:
+				/* Restart the animation. */
+				this.mMainScene.reset();
+
+				/* Remove the menu and reset it. */
+				this.mMainScene.clearChildScene();
+				this.mMenuScene.reset();
+				return true;

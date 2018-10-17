@@ -1,0 +1,10 @@
+      // add the text field for exception display
+      textField = new JTextField(30);
+      add(textField);
+   }
+
+   /**
+    * Adds a radio button with a given listener to the panel. Traps any exceptions in the
+    * actionPerformed method of the listener.
+    * @param s the label of the radio button
+    * @param listener the action listener for the radio button

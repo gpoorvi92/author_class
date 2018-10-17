@@ -1,0 +1,10 @@
+
+import org.cybergarage.upnp.*;
+
+public class ControlResponse extends SOAPResponse
+{
+	public static final String FAULT_CODE = "Client";
+	public static final String FAULT_STRING = "UPnPError";
+	
+	////////////////////////////////////////////////
+	//	Constructor

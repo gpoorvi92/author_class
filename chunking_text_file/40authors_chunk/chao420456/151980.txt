@@ -1,0 +1,10 @@
+				System.out.println("请输入密码：");
+				String newPassword = sc.nextLine();
+				// 调用功能
+				// UserDao ud = new UserDaoImpl();
+				// 把数据封装到对象中
+				// User user = new User(newUsername, newPassword);
+				User user = new User();
+				user.setUsername(newUsername);
+				user.setPassword(newPassword);
+

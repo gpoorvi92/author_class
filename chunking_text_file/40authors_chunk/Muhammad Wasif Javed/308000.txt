@@ -1,0 +1,10 @@
+		txtIssuedTo.setBounds (120, 135, 175, 25);
+
+		//Setting the Form's Buttons.
+
+		btnReturn = new JButton ("Return Book");
+		btnReturn.setBounds (25, 175, 125, 25);
+		btnReturn.addActionListener (this);
+		btnCancel = new JButton ("Cancel");
+		btnCancel.setBounds (165, 175, 125, 25);
+		btnCancel.addActionListener (this);

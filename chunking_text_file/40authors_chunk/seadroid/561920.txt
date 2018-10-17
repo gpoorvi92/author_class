@@ -1,0 +1,10 @@
+import java.io.IOException;
+import java.io.InputStream;
+
+/**
+ * Represents a particular video and provides access to the underlying data and
+ * two thumbnail bitmaps as well as other information such as the id, and the
+ * path to the actual video data.
+ */
+public class VideoObject extends BaseImage implements IImage {
+    private static final String TAG = "VideoObject";

@@ -1,0 +1,10 @@
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CAT_TRANSACTION_SALES            = 10;
+    public static final int CAT_TRANSACTION_VOID             = 20;
+    public static final int CAT_TRANSACTION_REFUND           = 21;
+    public static final int CAT_TRANSACTION_VOIDPRESALES     = 29;
+    public static final int CAT_TRANSACTION_COMPLETION       = 30;
+    public static final int CAT_TRANSACTION_PRESALES         = 40;
+    public static final int CAT_TRANSACTION_CHECKCARD        = 41;
+    public static final int CAT_TRANSACTION_CASHDEPOSIT      = 50;

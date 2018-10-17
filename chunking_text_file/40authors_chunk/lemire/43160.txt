@@ -1,0 +1,10 @@
+        assertEquals(3 * 32 - 1, ctr);
+    }
+
+    @Test
+    public void testEmpty() {
+        System.out.println("testing int iteration over empty bitmap");
+        EWAHCompressedBitmap32 e = new EWAHCompressedBitmap32();
+
+        IntIteratorOverIteratingRLW32 ii = new IntIteratorOverIteratingRLW32(e.getIteratingRLW());
+        assertFalse(ii.hasNext());

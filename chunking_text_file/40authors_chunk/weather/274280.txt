@@ -1,0 +1,10 @@
+
+	public int getPercentComplete() {
+		return percentComplete;
+	}
+
+	private void setPercentComplete() {
+		int totalFileSize = this.getDownloadWorker().getFileSize();
+		Double percentComplete = new Double(new Double(this.getBytesWritten()) / new Double(totalFileSize));
+	    this.percentComplete = (int)(percentComplete*100);
+	}

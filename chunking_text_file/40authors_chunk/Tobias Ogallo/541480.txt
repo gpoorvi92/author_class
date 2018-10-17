@@ -1,0 +1,10 @@
+
+getContentPane().add(pan);
+
+		pack();
+		setVisible(true);
+		setLocation((screen.width - 500)/2,((screen.height-350)/2));
+		exit.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent e) {
+				setVisible(true);
+				dispose();

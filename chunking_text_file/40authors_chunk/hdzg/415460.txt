@@ -1,0 +1,10 @@
+	                }
+	                catch(Exception e){
+	                	e.printStackTrace();
+	                }
+	            }
+	            try{
+	            	Thread.sleep(1500);//Ë¯ÃßÖ¸¶¨ºÁÃëÊý
+	            }
+	            catch(Exception e){
+	            	e.printStackTrace();

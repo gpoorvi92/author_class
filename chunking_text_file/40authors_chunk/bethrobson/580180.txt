@@ -1,0 +1,10 @@
+package chap05;
+
+import java.io.*;
+import java.util.*;
+
+public class GameHelper {
+
+  private static final String alphabet = "abcdefg";
+  private int gridLength = 7;
+  private int gridSize = 49;

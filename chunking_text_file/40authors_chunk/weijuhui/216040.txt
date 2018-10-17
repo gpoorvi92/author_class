@@ -1,0 +1,10 @@
+
+		int deltaX = source.getWidth() - targetWidth;
+		int deltaY = source.getHeight() - targetHeight;
+		if (!scaleUp && (deltaX < 0 || deltaY < 0)) {
+			Bitmap b2 = Bitmap.createBitmap(targetWidth, targetHeight,Bitmap.Config.ARGB_8888);
+			Canvas c = new Canvas(b2);
+			int deltaXHalf = Math.max(0, deltaX / 2);
+			int deltaYHalf = Math.max(0, deltaY / 2);
+			Rect src = new Rect(deltaXHalf, deltaYHalf, deltaXHalf
+					+ Math.min(targetWidth, source.getWidth()), deltaYHalf

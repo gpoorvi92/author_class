@@ -1,0 +1,10 @@
+  public static final int BELT_SUE_SAFETY_STOP                         = 13;
+  public static final int BELT_SUE_TIMEOUT_STOP                        = 14;
+  public static final int BELT_SUE_MOTOR_OVERHEATING                   = 15;
+  public static final int BELT_SUE_MOTOR_FUSE_DEFECT                   = 16;
+  public static final int BELT_SUE_LIGHT_BARRIER_BACKWARD_INTERRUPTED  = 17;
+  public static final int BELT_SUE_LIGHT_BARRIER_BACKWARD_OK           = 18;
+  public static final int BELT_SUE_LIGHT_BARRIER_FORWARD_INTERRUPTED   = 19;
+  public static final int BELT_SUE_LIGHT_BARRIER_FORWARD_OK            = 20;
+  public static final int BELT_SUE_SECURITY_FLAP_BACKWARD_OPENED       = 21;
+  public static final int BELT_SUE_SECURITY_FLAP_BACKWARD_CLOSED       = 22;

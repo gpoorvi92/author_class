@@ -1,0 +1,10 @@
+	}
+
+
+	public void assignRateToRequest(UUID fileId, Long rateInKiloBytes) {
+		configurationMap.getUnchecked(fileId).rateInKiloBytes = rateInKiloBytes;
+	}
+
+
+	public Long getUploadState(UUID requestIdentifier) {
+		return configurationMap.getUnchecked(requestIdentifier).getInstantRateInBytes();

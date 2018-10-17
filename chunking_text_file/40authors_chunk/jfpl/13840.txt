@@ -1,0 +1,10 @@
+		return t;
+	}
+
+	public static String convertToServerMessage(String chatMsg) {
+		String t = null;
+		for (int i = 0; i < CHAT_CHAR_CONVERT_ARRAY.length; i += 2) {
+			t = chatMsg.replaceAll(CHAT_CHAR_CONVERT_ARRAY[i],
+					CHAT_CHAR_CONVERT_ARRAY[i + 1]);
+		}
+		return t;

@@ -1,0 +1,10 @@
+	public List selectDoneOrderByCreateDateACustomerLikeCondition(String startDate,String endDate, String customer,
+			int start, int limit) {
+		List list = new ArrayList();
+		Query query1 = sessionFactory.getCurrentSession().createSQLQuery(
+				"select * from t_order where doneStatus='done' and billID is null "
+						+ "and createDate < ? and customerID like ? order by createDate DESC,createTime DESC")
+				.addEntity(Order.class);
+		Query query2 = sessionFactory.getCurrentSession().createSQLQuery(
+				"select * from t_order where doneStatus='done' and createDate between ? and ? and customerID like ? order by createDate DESC,createTime DESC")
+				.addEntity(Order.class);

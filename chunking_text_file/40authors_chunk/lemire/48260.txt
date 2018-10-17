@@ -1,0 +1,10 @@
+        return new Iterator<EWAHCompressedBitmap[]>() {
+            int sparsity = 1;
+
+            @Override
+            public boolean hasNext() {
+                return this.sparsity < 5;
+            }
+
+            @Override
+            public EWAHCompressedBitmap[] next() {

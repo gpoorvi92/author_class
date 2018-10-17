@@ -1,0 +1,10 @@
+                len = chr.length;
+            beforeWrite(len);
+            out.write(chr);
+            afterWrite(len);
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }

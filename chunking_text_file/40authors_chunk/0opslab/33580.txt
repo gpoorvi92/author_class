@@ -1,0 +1,10 @@
+
+
+    /**
+     * 生成制定范围内的随机数
+     * @param scopeMin
+     * @param scoeMax
+     * @return
+     */
+    public final static int integer(int scopeMin,int scoeMax){
+        Random random = new Random();

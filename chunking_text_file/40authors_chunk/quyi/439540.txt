@@ -1,0 +1,10 @@
+    case CPU_CORES:
+      return isSetCpuCores();
+    case CPU_MHZ:
+      return isSetCpuMhz();
+    case MEM_SIZE:
+      return isSetMemSize();
+    case FS_SIZE:
+      return isSetFsSize();
+    }
+    throw new IllegalStateException();

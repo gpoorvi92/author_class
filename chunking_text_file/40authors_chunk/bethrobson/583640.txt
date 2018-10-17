@@ -1,0 +1,10 @@
+           System.out.println("Player two guessed " + guessp2);
+           guessp3 = p3.number;
+           System.out.println("Player three guessed " + guessp3);
+           
+           if (guessp1 == targetNumber) {
+               p1isRight = true;
+           }
+           if (guessp2 == targetNumber) {
+               p2isRight = true;
+           }

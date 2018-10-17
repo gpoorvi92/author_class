@@ -1,0 +1,10 @@
+
+	// //////////////////////////////////////////////
+	// Member
+	// //////////////////////////////////////////////
+
+	private ControlPoint ctrlPoint;
+
+	public void setControlPoint(ControlPoint ctrlp) {
+		ctrlPoint = ctrlp;
+	}

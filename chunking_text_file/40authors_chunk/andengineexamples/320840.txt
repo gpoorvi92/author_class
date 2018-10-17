@@ -1,0 +1,10 @@
+	private TiledTextureRegion mFaceTextureRegion;
+
+	private boolean mToggleBox = true;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	// ===========================================================
+	// Getter & Setter

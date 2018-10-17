@@ -1,0 +1,10 @@
+        __handleReOpenApplication( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handleAbout(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleAbout( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handleAbout( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handleAbout( arg0 );
+    }

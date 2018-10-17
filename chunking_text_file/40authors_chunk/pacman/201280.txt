@@ -1,0 +1,10 @@
+		else
+			mDestination	= mSession.createTopic(destName);
+		
+		mConsumer		= mSession.createConsumer(mDestination);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQReceiver#tryGetMessage()
+	 */
+	@Override

@@ -1,0 +1,10 @@
+        }
+    }
+
+    public Uri fullSizeImageUri() {
+        return mUri;
+    }
+
+    public InputStream fullSizeImageData() {
+        return getInputStream();
+    }

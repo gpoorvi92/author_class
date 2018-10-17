@@ -1,0 +1,6 @@
+        for (int i = idxEnd; i < n; ++i) {
+            res.add(intervals.get(i));
+        }
+        return res;
+    }
+}

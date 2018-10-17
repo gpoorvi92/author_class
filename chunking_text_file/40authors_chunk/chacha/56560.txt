@@ -1,0 +1,10 @@
+	 */
+	public LoginToken getTokenByToken(String token) {
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);
+		DBObject obj = queryTokenByToken(token);
+		DBObject object = coll.findOne(obj);
+		if (object != null) {
+			LoginToken loginToken = new LoginToken();
+			loginToken.fromDbObject(object);
+			return loginToken;
+		} else

@@ -1,0 +1,10 @@
+				frame.setSize(450,400);
+				frame.setVisible(true);
+				frame.setLocationRelativeTo(null);
+				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				this.dispose();
+		}
+		if(e.getSource() ==jbtChoc6)
+		{
+				RojakBuahInfo frame = new RojakBuahInfo();
+				frame.setTitle("Rojak Buah Info");

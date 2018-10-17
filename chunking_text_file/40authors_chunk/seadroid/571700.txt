@@ -1,0 +1,10 @@
+
+    protected void addTaskToQue(TransferTask task) {
+        if (!hasInQue(task)) {
+            // remove the cancelled or failed task if any
+            allTaskList.remove(task);
+
+            // add new created task
+            allTaskList.add(task);
+
+            // Log.d(DEBUG_TAG, "add Que  " + taskID + " " + repoName + path);

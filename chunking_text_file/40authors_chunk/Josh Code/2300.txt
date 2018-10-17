@@ -1,0 +1,10 @@
+          v.x *= m;
+          v.y *= m;
+          v.z *= m;
+      }
+    }
+
+
+
+    public static void rotateVectors(Vector3D[] vectors, Vector3D rotationVector)
+    { 

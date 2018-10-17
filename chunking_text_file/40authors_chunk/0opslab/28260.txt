@@ -1,0 +1,10 @@
+
+/**
+ * A singleton Charset indicating that no encoding could be detected at all (regardless wether supported by platform or
+ * not). Unlike the {@link UnsupportedCharset} singleton instances it will never equal anything.
+ * <p>
+ * 
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ * 
+ */
+public class UnknownCharset extends Charset {

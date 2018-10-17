@@ -1,0 +1,10 @@
+	 * 获取菜单ID。
+	 * @return 菜单ID。
+	 * */
+	public String getId() {
+		return id;
+	}
+	/**
+	 * 设置菜单ID。
+	 * @param id
+	 * 菜单ID。

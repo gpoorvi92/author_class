@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		System.out.println("Testing PowerLoom Wrapper Class");
+		PowerLoomUtils plu = new PowerLoomUtils();
+		plu.load("test_data/test.plm");
+		plu.changeModule("BUSINESS");
+		// Note: query strings broken over multiple lines
+		// for better formatting in book example section:
+		plu.assertProposition(
+				"(and (company c1)" +
+				"     (company-name c1 \"Moms Grocery\"))");

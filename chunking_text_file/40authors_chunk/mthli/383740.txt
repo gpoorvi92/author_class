@@ -1,0 +1,10 @@
+      final JCheckBoxMenuItem rowsItem = new JCheckBoxMenuItem("Rows");
+      final JCheckBoxMenuItem columnsItem = new JCheckBoxMenuItem("Columns");
+      final JCheckBoxMenuItem cellsItem = new JCheckBoxMenuItem("Cells");
+
+      rowsItem.setSelected(table.getRowSelectionAllowed());
+      columnsItem.setSelected(table.getColumnSelectionAllowed());
+      cellsItem.setSelected(table.getCellSelectionEnabled());
+
+      rowsItem.addActionListener(new ActionListener()
+      {

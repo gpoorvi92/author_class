@@ -1,0 +1,10 @@
+		 *  the largest key (word count) value:
+		 */
+		if(candidates.size() > 0) {
+			return candidates.get(Collections.max(candidates.keySet()));
+		}
+		/**
+		 * If the edits method does not provide a candidate word that matches
+		 * then we will call edits again with each previous permutation words.
+		 * Note: this case occurs only about 20% of the time and obviously
+		 *       increases the runtime of method correct.

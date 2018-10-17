@@ -1,0 +1,10 @@
+            searchedFile.size = obj.optLong("size");
+            searchedFile.oid = obj.optString("oid");
+            boolean type = obj.getBoolean("is_dir");
+            searchedFile.type = type ? FileType.DIR : FileType.FILE;
+
+            return searchedFile;
+        } catch (JSONException e) {
+            Log.d(DEBUG_TAG, searchedFile.path + e.getMessage());
+            return null;
+        }

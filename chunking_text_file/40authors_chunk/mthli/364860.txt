@@ -1,0 +1,10 @@
+                     engine.eval(scriptCode);
+                     return null;
+                  }
+               }));
+   }
+
+   private static EventSetDescriptor getEventSetDescriptor(Object bean, String eventName)
+      throws IntrospectionException
+   {
+      for (EventSetDescriptor descriptor : Introspector.getBeanInfo(bean.getClass())

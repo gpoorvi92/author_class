@@ -1,0 +1,10 @@
+public class Banner implements Printable
+{
+   private String message;
+   private double scale;
+
+   /**
+    * Constructs a banner.
+    * @param m the message string
+    */
+   public Banner(String m)

@@ -1,0 +1,10 @@
+    {
+        idx = 0;
+        mark = 0;
+    }
+
+    public void mark(int readAheadLimit)
+    {
+        mark = idx;
+    }
+

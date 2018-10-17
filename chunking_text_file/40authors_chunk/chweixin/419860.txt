@@ -1,0 +1,10 @@
+package ipower.wechat.message.resp;
+import ipower.wechat.message.Article;
+import ipower.wechat.message.BaseMessage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 响应回复图文消息。
+ * @author yangyong.

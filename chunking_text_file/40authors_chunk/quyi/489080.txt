@@ -1,0 +1,10 @@
+    }
+
+    public void setUserAppIdIsSet(boolean value) {
+      if (!value) {
+        this.userAppId = null;
+      }
+    }
+
+    public int getPlotsStatusSize() {
+      return (this.plotsStatus == null) ? 0 : this.plotsStatus.size();

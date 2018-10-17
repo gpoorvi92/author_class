@@ -1,0 +1,10 @@
+	}
+		
+
+	private void printList() 
+	{
+    	try {
+                
+            ResultSet rst=Connect.getConnection().createStatement(
+			ResultSet.TYPE_SCROLL_INSENSITIVE,
+			ResultSet.CONCUR_UPDATABLE).executeQuery("select Bus_RegNo,Model,Capacity,insurance_Status,Insurance_Expiry from Buses");

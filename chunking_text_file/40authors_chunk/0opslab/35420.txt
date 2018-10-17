@@ -1,0 +1,10 @@
+        try {
+            SimpleDateFormat sdf = new SimpleDateFormat(format);
+            sdf.parse(date);
+            return true;
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+

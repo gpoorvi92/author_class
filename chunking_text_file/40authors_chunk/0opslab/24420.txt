@@ -1,0 +1,10 @@
+
+import java.io.FilterInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+/**
+ * An {@link InputStream} wrapper that limits the bytes to read from the wrapped
+ * stream.
+ * <p>
+ */

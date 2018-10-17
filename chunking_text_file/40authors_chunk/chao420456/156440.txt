@@ -1,0 +1,10 @@
+		tf.addKeyListener(new KeyAdapter() {
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// public char getKeyChar()
+				char ch = e.getKeyChar();
+				if (!(ch >= KeyEvent.VK_0 && ch <= KeyEvent.VK_9)) {
+					System.out.println("ÄãÊäÈëµÄÊÇ£º" + ch);
+					e.consume();
+				}
+			}

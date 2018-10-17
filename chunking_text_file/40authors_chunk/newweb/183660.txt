@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public OrderOther[] queryOrderOthersByOrderID(String orderid) {
+		List<OrderOther> list = orderOtherDao.selectOrderOthersByOrderID(orderid);
+		OrderOther[] others = new OrderOther[list.size()];
+		int count = 0;
+		for (OrderOther other : list) {
+			if(other.getCount() == 0){
+				remove(other);

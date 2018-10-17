@@ -1,0 +1,10 @@
+ */
+public class DataStreamDemo {
+	public static void main(String[] args) throws IOException {
+		// write();
+		read();
+	}
+
+	private static void read() throws IOException {
+		// DataInputStream(InputStream in)
+		DataInputStream dis = new DataInputStream(

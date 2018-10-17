@@ -1,0 +1,10 @@
+package org.cybergarage.util;
+
+import android.util.Log;
+
+public class CommonLog {
+	private String tag = "CommonLog";
+	public static int logLevel = Log.VERBOSE;
+	public static boolean isDebug = true;
+	
+	public CommonLog() { }	

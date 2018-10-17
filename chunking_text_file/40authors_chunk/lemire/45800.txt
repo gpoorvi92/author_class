@@ -1,0 +1,10 @@
+
+    /**
+     * Returns the last word of the buffer
+     * @return the last word
+     */
+    int getLastWord();
+
+    /**
+     * Resets the buffer
+     * The buffer is not fully cleared and any new set operations should

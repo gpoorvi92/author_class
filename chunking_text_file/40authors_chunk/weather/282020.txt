@@ -1,0 +1,10 @@
+
+    static {
+        instance = new JsonUtil();
+    }
+
+    private JsonUtil() {
+        GsonBuilder builder = new GsonBuilder();
+        //添加布尔类型转化的特殊处理
+        builder.registerTypeAdapter(Boolean.class, new BooleanSerializer());
+        builder.registerTypeAdapter(boolean.class, new BooleanSerializer());

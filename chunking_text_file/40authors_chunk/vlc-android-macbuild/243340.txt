@@ -1,0 +1,10 @@
+
+    public PlayIndex selectPlayIndex_First() {
+        if (mVodList.isEmpty())
+            return null;
+
+        mSelectedPlayIndex = mVodList.get(0);
+        return mSelectedPlayIndex;
+    }
+
+    public PlayIndex selectPlayIndex_ByTag(String tag) {

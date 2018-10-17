@@ -1,0 +1,10 @@
+    public boolean matchesFormat(String filename)
+    {
+        filename = filename.toLowerCase();
+
+        if (filename.endsWith(".wrl")||filename.endsWith(".vrml"))
+            return true;
+        else
+            return false;
+    }
+

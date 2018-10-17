@@ -1,0 +1,10 @@
+              true, //maximizable
+              true);//iconifiable
+              
+        int inset = 250;
+        JToolBar toolBar = new JToolBar();
+        addButtons(toolBar);
+        //book_master.setDefaultCloseOperation (HIDE_ON_CLOSE);
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        paintx = (screenSize.width);
+		painty = (screenSize.height);

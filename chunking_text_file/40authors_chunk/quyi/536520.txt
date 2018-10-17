@@ -1,0 +1,10 @@
+      }
+      if (struct.checkTime != null) {
+        oprot.writeFieldBegin(CHECK_TIME_FIELD_DESC);
+        oprot.writeString(struct.checkTime);
+        oprot.writeFieldEnd();
+      }
+      if (struct.deviceType != null) {
+        oprot.writeFieldBegin(DEVICE_TYPE_FIELD_DESC);
+        oprot.writeI32(struct.deviceType.getValue());
+        oprot.writeFieldEnd();

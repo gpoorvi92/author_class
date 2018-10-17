@@ -1,0 +1,10 @@
+
+      public void start(I iface, operateEngine_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.operateEngine(args.engine, args.operate,resultHandler);
+      }
+    }
+
+    public static class searchApp<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, searchApp_args, com.nercis.isscp.idl.Sample> {
+      public searchApp() {
+        super("searchApp");
+      }

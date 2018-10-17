@@ -1,0 +1,10 @@
+			}
+			synchronized (serverThread.clients) {
+				for(int i=0; i < serverThread.clients.size(); i++)
+                {
+                    clientThread = serverThread.clients.elementAt(i);
+                    if(flag){
+                    	try
+                        {
+                        	//向纪录的每一个客户端发送数据信息
+                            if(str.contains("@exit")){

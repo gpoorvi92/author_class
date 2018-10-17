@@ -1,0 +1,10 @@
+    Scanner teclado = new Scanner(System.in);
+    
+    int positivos = 0;
+    int negativos = 0;
+    int contador = 0;
+    
+    System.out.println("Escribe 10 numeros y te digo cuantos hay positivos y cuantos negativos");
+    System.out.println("==========================================");
+
+    do {

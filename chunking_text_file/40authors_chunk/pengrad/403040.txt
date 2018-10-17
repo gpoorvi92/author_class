@@ -1,0 +1,10 @@
+    private String url;
+    private Boolean hide_url;
+    private String description;
+    private String thumb_url;
+    private Integer thumb_width;
+    private Integer thumb_height;
+
+    public InlineQueryResultArticle(String id, String title, String messageText) {
+        this(id, title, new InputTextMessageContent(messageText));
+    }

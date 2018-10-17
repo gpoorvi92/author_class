@@ -1,0 +1,10 @@
+      {
+         Product p = products.get(keyword);
+         if (p != null) return p;
+      }
+      if (backup != null)
+         return backup.getProduct(keywords);
+      else if (products.values().size() > 0)
+         return products.values().iterator().next();
+      else
+         return null;

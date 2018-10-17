@@ -1,0 +1,10 @@
+       {
+           // loop through vertices of each triangle
+           for (int tv = 0; tv < 3; tv++)
+           {
+               Vector3D v = Triangle.getVertex(triangles[ti], tv);
+               out.print(Vector3D.getSpacedVectorCoordinates(v));
+               out.print(" 255 255 255\n"); // make vertex white
+           }
+       }
+    }

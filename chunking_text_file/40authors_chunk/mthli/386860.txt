@@ -1,0 +1,10 @@
+      JMenuItem exitItem = new JMenuItem("Exit");
+      exitItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               System.exit(0);
+            }
+         });
+      fileMenu.add(exitItem);
+

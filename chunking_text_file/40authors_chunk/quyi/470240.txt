@@ -1,0 +1,10 @@
+				singleRecordInfo.setMd5(userAppInfo.getMd5());
+				singleRecordInfo.setMissionId("SingleTest");
+				singleRecordInfo.setUserAppId("SingleTest" + row);
+				singleRecordInfo.setStartedTime(time1);
+				singleRecordInfo.setPlotsType(PlotsType.staticType);
+				SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo);*/
+				// exportExcel.exportToSingleExcel(fileName1, singleRecordInfo);
+				SingleRecordInfo singleRecordInfo1 = new SingleRecordInfo();
+				singleRecordInfo1.setAppName(userAppInfo.getAppName());
+				singleRecordInfo1.setAppSize(userAppInfo.getSize());

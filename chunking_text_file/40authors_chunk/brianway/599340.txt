@@ -1,0 +1,10 @@
+            //}
+            System.out.println();
+            System.out.println("main end timer=" + System.currentTimeMillis() + " threadName=" + Thread.currentThread().getName());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    static class ThreadA extends Thread {

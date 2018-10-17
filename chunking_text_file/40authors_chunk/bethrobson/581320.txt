@@ -1,0 +1,10 @@
+    
+    MyDrawPanel myPanel;
+
+
+   public JPanel getGuiPanel() {
+       
+       JPanel mainPanel = new JPanel();
+       myPanel = new MyDrawPanel();
+       JButton playItButton = new JButton("Play it");
+       playItButton.addActionListener(new PlayItListener());

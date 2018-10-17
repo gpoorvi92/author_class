@@ -1,0 +1,10 @@
+        System.out.println("Board position:");
+        TicTacToePosition pos = (TicTacToePosition)p;
+        int count = 0;
+        for (int row=0; row<3; row++) {
+            System.out.println();
+            for (int col=0; col<3; col++) {
+                if (pos.board[count] == TicTacToePosition.HUMAN) {
+                    System.out.print("H");
+                } else if (pos.board[count] == TicTacToePosition.PROGRAM) {
+                    System.out.print("P");

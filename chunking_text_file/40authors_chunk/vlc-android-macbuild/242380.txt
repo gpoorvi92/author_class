@@ -1,0 +1,10 @@
+            return null;
+
+        for (MediaResourceItem item : mResourceList) {
+            if (((flags & RES_FLAGS__NORMAL_URL) != 0)
+                    && !item.isNormalMediaUrl())
+                continue;
+
+            return item;
+        }
+

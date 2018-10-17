@@ -1,0 +1,10 @@
+        if(lists.size()==0) return null;
+        int sz = lists.size(), end = sz - 1;
+        while (end > 0) {
+            int begin = 0;
+            while (begin < end) {
+                ListNode node = mergeTwoLists(lists.get(begin), lists.get(end));
+                lists.set(begin, node);
+                ++begin; --end;
+            }
+        }

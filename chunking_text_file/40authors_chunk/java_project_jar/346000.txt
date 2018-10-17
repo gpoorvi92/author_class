@@ -1,0 +1,10 @@
+
+        return count;
+    }
+
+    public static int copy(Reader input, Writer output)
+        throws IOException
+    {
+        char buffer[] = new char[4096];
+        int count = 0;
+        for(int n = 0; -1 != (n = input.read(buffer));)

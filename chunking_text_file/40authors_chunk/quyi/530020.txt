@@ -1,0 +1,10 @@
+    case REQUEST_PURVIEWS:
+      return getRequestPurviews();
+
+    case FORMAT:
+      return getFormat();
+
+    }
+    throw new IllegalStateException();
+  }
+

@@ -1,0 +1,10 @@
+import java.util.Calendar;
+
+/**
+ * Created by snow on 2014/5/8.
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:spring.xml", "classpath:spring-mybatis.xml"})
+public class TestSaleRecordService {
+    @Autowired
+    private ISaleRecordService saleRecordService;

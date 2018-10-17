@@ -1,0 +1,10 @@
+	@Override
+	public boolean delete(Bxg bxg) {
+		try {
+			sessionFactory.getCurrentSession().delete(bxg);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+

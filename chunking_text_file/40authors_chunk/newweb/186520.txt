@@ -1,0 +1,10 @@
+		List<OrderBxgFdw> list = orderBxgFdwDao.selectOrderBxgFdwsByOrderID(orderid);
+		OrderBxgFdw[] ofs = new OrderBxgFdw[list.size()];
+		int count = 0;
+		for (OrderBxgFdw of : list) {
+			if(of.getFdwCount() == 0){
+				remove(of);
+				continue;
+			}
+			ofs[count++] = of;
+		}

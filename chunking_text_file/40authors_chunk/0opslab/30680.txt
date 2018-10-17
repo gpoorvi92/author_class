@@ -1,0 +1,10 @@
+    /**
+     * 
+     */
+    public boolean markSupported() {
+        return m_delegate.markSupported();
+    }
+
+    /**
+     * 
+     */

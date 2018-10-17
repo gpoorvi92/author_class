@@ -1,0 +1,10 @@
+    /*
+     Activity 动画种类
+    */
+    public static enum Transaction {
+        /**
+         * 默认
+         */
+        DEFAULT,
+        /**
+         * 右进左出

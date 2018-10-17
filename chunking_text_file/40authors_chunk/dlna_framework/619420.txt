@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	public void setLocalAddress(String bindAddr)
+	{
+		String ssdpAddr = SSDP.ADDRESS;
+		if (HostInterface.isIPv6Address(bindAddr) == true)
+			ssdpAddr = SSDP.getIPv6Address();
+		setHost(ssdpAddr, SSDP.PORT);
+	}
+

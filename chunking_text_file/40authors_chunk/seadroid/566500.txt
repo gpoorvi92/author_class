@@ -1,0 +1,10 @@
+        if (mExif != null) {
+            mExif.saveAttributes();
+        }
+    }
+
+    private void setExifRotation(int degrees) {
+        try {
+            degrees %= 360;
+            if (degrees < 0) degrees += 360;
+

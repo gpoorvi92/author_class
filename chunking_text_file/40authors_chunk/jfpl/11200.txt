@@ -1,0 +1,10 @@
+
+	/**
+	 * Tell the client to display a javascript alert dialog.
+	 * 
+	 * @param view
+	 * @param url
+	 * @param message
+	 * @param result
+	 */
+	@Override

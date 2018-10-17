@@ -1,0 +1,10 @@
+	/**
+	 * @param lessonId the lessonId to set
+	 */
+	public void setLessonId(int lessonId) {
+		this.lessonId = lessonId;
+	}
+
+	@Transmit(key = "aubr")
+	protected int audioBitRate;
+	

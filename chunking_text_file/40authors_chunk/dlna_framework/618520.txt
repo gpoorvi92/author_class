@@ -1,0 +1,10 @@
+		return getSocket().getLocalAddress().getHostAddress();	
+	}
+
+	public int getLocalPort()
+	{
+		return getSocket().getLocalPort();	
+	}
+
+	////////////////////////////////////////////////
+	//	in/out

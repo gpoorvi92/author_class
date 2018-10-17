@@ -1,0 +1,10 @@
+   * You may use null. But you will get it back next call!
+   * <p>
+   * 
+   * @see java.util.Map.Entry#setValue(Object)
+   * 
+   * @return the previous value instance.
+   */
+  public K setValue(final K value) {
+    final K ret = this.m_value;
+    this.m_value = value;

@@ -1,0 +1,10 @@
+public class AttachmentProcessor {
+	private final String ATTACHMENT_STORE_BASE_DIR = "/home/viscent/tmp/attachments/";
+	
+	// 模式角色：Producer-Consumer.Channel
+	private final Channel<File> channel = new BlockingQueueChannel<File>(
+	    new ArrayBlockingQueue<File>(200));
+
+	// 模式角色：Producer-Consumer.Consumer
+	private final AbstractTerminatableThread indexingThread = new AbstractTerminatableThread() {
+

@@ -1,0 +1,10 @@
+package com.weparty.view;
+
+import com.umeng.analytics.MobclickAgent;
+import com.weparty.R;
+import com.weparty.domain.ActType;
+import com.weparty.tools.BitmapFillet;
+import com.weparty.tools.Constant;
+import com.weparty.tools.ResourceReader;
+import android.app.Activity;
+import android.content.Intent;

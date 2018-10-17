@@ -1,0 +1,10 @@
+
+	/**
+	 * @return The class of {@link #proxiedElement}
+	 */
+	protected abstract Class<T> getProxiedClass();
+
+
+	@PostConstruct
+	@SuppressWarnings("unchecked")
+	private void initProxy() {

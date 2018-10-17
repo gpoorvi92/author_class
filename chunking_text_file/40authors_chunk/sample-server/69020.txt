@@ -1,0 +1,10 @@
+                ChatServerRpc.UpdateSysNoticeResp resp = RpcClientManager.getInstance().getChatServerRpcClientByZoneId(sysNotice.getZoneId()).updateSysNotice(req);
+            }
+            if (ret)
+            {
+                DaoManager.getLocalDao().saveOrUpdate(sysNotice);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }

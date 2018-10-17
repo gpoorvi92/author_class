@@ -1,0 +1,10 @@
+            return NODE_HEAT;
+          case 2: // TIMESTAMP
+            return TIMESTAMP;
+          default:
+            return null;
+        }
+      }
+
+      /**
+       * Find the _Fields constant that matches fieldId, throwing an exception

@@ -1,0 +1,10 @@
+		System.out.println("pow:" + Math.pow(5, 5));
+		System.out.println("--------------------");
+
+		// public static double random():产生随机数。[0.0,1.0)
+
+		// public static int round(float a) 参数为double的自学
+		System.out.println("round:" + Math.round(12.34f));
+		System.out.println("round:" + Math.round(12.56f));
+		System.out.println("--------------------");
+

@@ -1,0 +1,10 @@
+        oprot.writeI32(struct.cpuCores);
+      }
+      if (struct.isSetCpuMhz()) {
+        oprot.writeI32(struct.cpuMhz);
+      }
+      if (struct.isSetMemSize()) {
+        oprot.writeI32(struct.memSize);
+      }
+      if (struct.isSetFsSize()) {
+        oprot.writeI32(struct.fsSize);

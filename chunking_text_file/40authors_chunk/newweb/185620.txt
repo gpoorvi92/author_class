@@ -1,0 +1,10 @@
+
+
+	@Override
+	public List<Customer> selectCustomerByName(String name) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_customer where name=? order by py")
+				.addEntity(Customer.class);
+		return query.setString(0, name).list();
+	}
+
+

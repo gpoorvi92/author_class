@@ -1,0 +1,10 @@
+
+            // TODO: add options here
+
+            player.mVlcPlayerOptions = options.toArray(new String[options
+                    .size()]);
+
+            return player;
+        } catch (LibVlcException e) {
+            e.printStackTrace();
+        }

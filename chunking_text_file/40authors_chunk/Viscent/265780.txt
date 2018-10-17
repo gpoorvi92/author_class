@@ -1,0 +1,10 @@
+
+	private static Connection getConnection() throws Exception {
+		Connection dbConn = null;
+
+		Class.forName("org.hsqldb.jdbc.JDBCDriver");
+
+		dbConn = DriverManager.getConnection(
+		    "jdbc:hsqldb:hsql://localhost/viscent-test", "SA", "");
+		return dbConn;
+	}

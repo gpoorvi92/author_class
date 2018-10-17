@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch7.pc.exmaple;
+
+import io.github.viscent.mtpattern.ch5.tpt.AbstractTerminatableThread;
+import io.github.viscent.mtpattern.ch7.pc.BlockingQueueChannel;
+import io.github.viscent.mtpattern.ch7.pc.Channel;
+
+import java.io.BufferedInputStream;

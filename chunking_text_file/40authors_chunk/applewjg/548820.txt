@@ -1,0 +1,10 @@
+        if (root == null) return;
+        TreeLinkNode dummy = new TreeLinkNode(-1);
+        TreeLinkNode pre = dummy;
+        TreeLinkNode cur = root;
+        while (cur != null) {
+            if (cur.left != null) {
+                pre.next = cur.left;
+                pre = pre.next;
+            }
+            if (cur.right != null) {

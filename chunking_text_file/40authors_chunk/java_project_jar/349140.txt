@@ -1,0 +1,10 @@
+    private DeferredFileOutputStream(int threshold, File outputFile, String prefix, String suffix, File directory)
+    {
+        super(threshold);
+        closed = false;
+        this.outputFile = outputFile;
+        memoryOutputStream = new ByteArrayOutputStream();
+        currentOutputStream = memoryOutputStream;
+        this.prefix = prefix;
+        this.suffix = suffix;
+        this.directory = directory;

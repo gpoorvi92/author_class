@@ -1,0 +1,10 @@
+	/** Array of all the property types allowed for a JposEntry property */
+	public static final Class[] PROP_TYPES = 
+								  { 
+								  	String.class, 
+								  	Boolean.class, 
+								  	Byte.class, 
+								  	Character.class, 
+								  	Double.class, 
+								  	Float.class,
+                                    Integer.class, 

@@ -1,0 +1,10 @@
+ */
+public class APICheck implements org.apache.thrift.TBase<APICheck, APICheck._Fields>, java.io.Serializable, Cloneable, Comparable<APICheck> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("APICheck");
+
+  private static final org.apache.thrift.protocol.TField API_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("apiName", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField API_PACKAGE_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("apiPackageName", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField PACKAGE_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("packageName", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField OBJECT_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("objectName", org.apache.thrift.protocol.TType.STRING, (short)4);
+  private static final org.apache.thrift.protocol.TField METHOD_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("methodName", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField STATEMENT_FIELD_DESC = new org.apache.thrift.protocol.TField("statement", org.apache.thrift.protocol.TType.STRING, (short)6);

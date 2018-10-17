@@ -1,0 +1,10 @@
+    private static int connectionsPerHost=90;
+    private static int threadsAllowedToBlockForConnectionMultiplier=20;
+    private static int connectTimeout=30000;
+    private static boolean autoConnectRetry=true;
+    protected static MongoConnection connection=new MongoConnection();
+    
+	static{
+		try {
+			Properties prop = new Properties();
+			InputStream is = AbstractDAO.class.getClassLoader().getResourceAsStream("conf\\chacha.properties");

@@ -1,0 +1,10 @@
+
+    public void stop() {
+        running = false;
+    }
+
+    /**
+     * This method is called by file monitor, so it would be executed in the file monitor thread
+     */
+    @Override
+    public void onCachedFiledChanged(final Account account, final SeafCachedFile cachedFile, final File localFile) {

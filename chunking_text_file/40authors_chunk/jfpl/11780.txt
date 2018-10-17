@@ -1,0 +1,10 @@
+
+	public void refreshBindVeh() {
+		bindVehList = query("get_bind_veh_by_username",
+				GlobalVariables.loginUsername);
+		changeLayout(bindVehList.size());
+		if (bindVehList.size() > 0) {
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			acd.putArrayValue("bind_veh_list", bindVehList);
+			fillData(acd, vioLayout);
+		} else {

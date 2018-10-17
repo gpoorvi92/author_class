@@ -1,0 +1,10 @@
+
+/// class java.awt.event.KeyAdapter ///
+
+package org.genie.java_awt;
+
+public class KeyAdapterProxy extends java.awt.event.KeyAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.KeyAdapter()

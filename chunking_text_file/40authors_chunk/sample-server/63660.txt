@@ -1,0 +1,10 @@
+            }
+            else
+            {
+                ChatServerRpc.DeleteBulletinResp resp = RpcClientManager.getInstance().getChatServerRpcClientByZoneId(bulletinEntity.getZoneId()).deleteBulletin(req);
+                if (!resp.getSuccess())
+                {
+                    ret = false;
+                }
+            }
+            if (ret)

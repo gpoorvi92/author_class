@@ -1,0 +1,10 @@
+        struct.setPropertyNameIsSet(true);
+        struct.propertyValue = iprot.readString();
+        struct.setPropertyValueIsSet(true);
+      }
+    }
+
+  }
+
+  public static class modifyNodeManagerConfig_result implements org.apache.thrift.TBase<modifyNodeManagerConfig_result, modifyNodeManagerConfig_result._Fields>, java.io.Serializable, Cloneable, Comparable<modifyNodeManagerConfig_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("modifyNodeManagerConfig_result");

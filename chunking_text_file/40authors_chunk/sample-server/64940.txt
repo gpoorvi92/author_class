@@ -1,0 +1,10 @@
+        {
+            in = DaoManager.class.getClassLoader().getResourceAsStream("zone_hibernate.cfg_tpl.xml");
+            out = new ByteArrayOutputStream();
+            int data = -1;
+            while ((data = in.read()) != -1)
+            {
+                out.write(data);
+            }
+            String str = new String(out.toByteArray(), "utf8");
+            return str;

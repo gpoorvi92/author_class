@@ -1,0 +1,10 @@
+	/** @return the number of populator in this composite */
+	public int size();
+
+	//-------------------------------------------------------------------------
+	// Constants
+	//
+
+	/** The default name for the CompositeRegPopulator */
+	public static final String COMPOSITE_REG_POPULATOR_STRING = "JCL Composite Entries Populator";
+}

@@ -1,0 +1,10 @@
+        } catch (final IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void addPart(final String key, final String fileName, final InputStream fin, final boolean isLast){
+        addPart(key, fileName, fin, "application/octet-stream", isLast);
+    }
+
+    public void addPart(final String key, final String fileName, final InputStream fin, String type, final boolean isLast){

@@ -1,0 +1,10 @@
+    @Override
+    public void swap(final Buffer other) {
+        if (other instanceof LongBufferWrapper) {// optimized version
+            LongBufferWrapper o = (LongBufferWrapper) other;
+            LongBuffer tmp = this.buffer;
+            int tmp2 = this.actualSizeInWords;
+            this.actualSizeInWords = o.actualSizeInWords;
+            this.buffer = o.buffer;
+            o.actualSizeInWords = tmp2;
+            o.buffer = tmp;

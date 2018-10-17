@@ -1,0 +1,10 @@
+          case 1: // MISSION_ID
+            return MISSION_ID;
+          default:
+            return null;
+        }
+      }
+
+      /**
+       * Find the _Fields constant that matches fieldId, throwing an exception
+       * if it is not found.

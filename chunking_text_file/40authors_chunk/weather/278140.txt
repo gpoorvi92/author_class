@@ -1,0 +1,10 @@
+  /** Sets the response cache to be used to read and write cached responses. */
+  OkUrlFactory setResponseCache(ResponseCache responseCache) {
+    client.setInternalCache(responseCache != null ? new CacheAdapter(responseCache) : null);
+    return this;
+  }
+
+  ResponseCache getResponseCache() {
+    InternalCache cache = client.internalCache();
+    return cache instanceof CacheAdapter ? ((CacheAdapter) cache).getDelegate() : null;
+  }

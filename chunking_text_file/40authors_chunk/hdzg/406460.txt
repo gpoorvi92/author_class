@@ -1,0 +1,10 @@
+package wyf.ytl.entity;
+
+import static wyf.ytl.tool.ConstantUtil.*;
+
+import java.io.Serializable;
+
+
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;

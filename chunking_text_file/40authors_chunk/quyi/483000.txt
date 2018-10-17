@@ -1,0 +1,10 @@
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof updateAppStatus_args)
+        return this.equals((updateAppStatus_args)that);
+      return false;

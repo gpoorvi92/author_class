@@ -1,0 +1,10 @@
+		if (tstrSubClass.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}
+		if (tstrRef.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}
+		if (tstrRemarks.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}
+		if (tstrAmount.toString().trim().length()<1)	{

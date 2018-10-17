@@ -1,0 +1,10 @@
+	 * Defines the DevCat for FiscalPrinter
+	 * @since 1.3 (SF 2K meeting)
+	 * @author E. Michael Maximilien (maxim@us.ibm.com)
+	 */
+	public interface FiscalPrinter extends DevCat {}
+
+	/**
+	 * Defines the DevCat for HardTotals
+	 * @since 1.3 (SF 2K meeting)
+	 * @author E. Michael Maximilien (maxim@us.ibm.com)

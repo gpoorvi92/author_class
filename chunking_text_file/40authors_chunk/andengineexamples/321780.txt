@@ -1,0 +1,10 @@
+		final ITexture neverwinterNightsFontTexture = new BitmapTextureAtlas(this.getTextureManager(), 256, 256, TextureOptions.BILINEAR);
+		final ITexture plokFontTexture = new BitmapTextureAtlas(this.getTextureManager(), 256, 256, TextureOptions.BILINEAR);
+		final ITexture unrealTournamentFontTexture = new BitmapTextureAtlas(this.getTextureManager(), 256, 256, TextureOptions.BILINEAR);
+
+		FontFactory.setAssetBasePath("font/");
+		this.mDroidFont = FontFactory.createFromAsset(this.getFontManager(), droidFontTexture, this.getAssets(), "Droid.ttf", FONT_SIZE, true, Color.BLACK);
+		this.mDroidFont.load();
+
+		this.mKingdomOfHeartsFont = FontFactory.createFromAsset(this.getFontManager(), kingdomOfHeartsFontTexture, this.getAssets(), "KingdomOfHearts.ttf", FONT_SIZE + 20, true, Color.BLACK);
+		this.mKingdomOfHeartsFont.load();

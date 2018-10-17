@@ -1,0 +1,10 @@
+    }
+
+    public void setLogType(String logType) {
+        this.logType = logType;
+    }
+
+    @Override
+    public String toString() {
+        return "Log{" +
+                "logId=" + logId +

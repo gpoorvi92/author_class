@@ -1,0 +1,10 @@
+    if (that instanceof Engine)
+      return this.equals((Engine)that);
+    return false;
+  }
+
+  public boolean equals(Engine that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_engineId = true && this.isSetEngineId();

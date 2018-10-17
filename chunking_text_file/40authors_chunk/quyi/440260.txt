@@ -1,0 +1,10 @@
+      if (struct.isSetCpuCores()) {
+        optionals.set(2);
+      }
+      if (struct.isSetCpuMhz()) {
+        optionals.set(3);
+      }
+      if (struct.isSetMemSize()) {
+        optionals.set(4);
+      }
+      if (struct.isSetFsSize()) {

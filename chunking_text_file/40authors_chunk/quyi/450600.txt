@@ -1,0 +1,10 @@
+      }
+    }
+
+    public static class ruleSync<I extends Iface> extends org.apache.thrift.ProcessFunction<I, ruleSync_args> {
+      public ruleSync() {
+        super("ruleSync");
+      }
+
+      public ruleSync_args getEmptyArgsInstance() {
+        return new ruleSync_args();

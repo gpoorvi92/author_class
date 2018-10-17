@@ -1,0 +1,10 @@
+			coll.insert(entity.toDbObject(),WriteConcern.NONE);
+		}else{
+			token.setToken(entity.getToken());
+			token.setTokenLifeTime(entity.getTokenLifeTime());
+			updateToken(token);
+		}
+		return entity;
+	}
+	
+	/**

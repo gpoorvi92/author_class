@@ -1,0 +1,10 @@
+     * @return BufferedImage
+     */
+    private static BufferedImage graphicsImage(Color[] fontcolor,char[] strs,int flag,int width,int height,int len){
+        BufferedImage image = new BufferedImage(width, height,BufferedImage.TYPE_INT_RGB);
+        //或得图形上下文
+        //Graphics2D g2d=image.createGraphics();
+        Graphics2D g2d = (Graphics2D)image.getGraphics();
+        //利用指定颜色填充背景
+        g2d.setColor(Color.WHITE);
+        g2d.fillRect(0, 0, width, height);

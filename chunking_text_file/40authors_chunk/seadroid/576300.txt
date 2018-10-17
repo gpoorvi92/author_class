@@ -1,0 +1,10 @@
+            itemRemove.setVisible(true);
+            break;
+        case FAILED:
+            itemRetry.setVisible(true);
+            itemRemove.setVisible(true);
+            break;
+        case FINISHED:
+            itemRemove.setVisible(true);
+            itemRemoveAll.setVisible(true);
+            break;

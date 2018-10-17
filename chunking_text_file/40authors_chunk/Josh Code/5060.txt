@@ -1,0 +1,10 @@
+    public static LinkedList<ModelFileSaverFileFilter> getCompleteModelFileSaverFileFilters()
+    { 
+     LinkedList<ModelFileSaverFileFilter> result = new LinkedList<ModelFileSaverFileFilter>();
+
+       for (ModelFileSaver m: mfSavers)
+       {
+          if (m.savesFaces())
+              result.add(new ModelFileSaverFileFilter(m));
+       }
+        return result;

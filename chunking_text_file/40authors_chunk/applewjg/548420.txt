@@ -1,0 +1,10 @@
+                    return headA;
+                }
+                headA = headA.next;
+                headB = headB.next;
+            }
+        } else {
+            int diff = lenB - lenA;
+            while (diff > 0) {
+                headB = headB.next;
+                --diff;

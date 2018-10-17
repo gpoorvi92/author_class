@@ -1,0 +1,10 @@
+
+	public int getBonus() {
+		return bonus;
+	}
+
+	public void work() {
+		System.out.println("经理辛辛苦苦和客户谈需求");
+	}
+
+	public void show() {

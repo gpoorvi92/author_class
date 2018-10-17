@@ -1,0 +1,10 @@
+            return true;
+        }
+        else
+            return false;
+    }
+
+    /**
+     *  cancel upload tasks
+     *  Note that, this method <strong>only</strong> use to cancel file upload tasks rather than Camera Upload tasks.
+     *  Because Camera Upload tasks will restarted again by Camera Upload Service.

@@ -1,0 +1,8 @@
+  public int getCapMelody() throws JposException;
+
+  // Properties
+  public int  getMelodyType() throws JposException;
+  public void setMelodyType(int melodyType) throws JposException;
+  public int  getMelodyVolume() throws JposException;
+  public void setMelodyVolume(int melodyVolume) throws JposException;
+}

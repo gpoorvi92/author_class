@@ -1,0 +1,10 @@
+ * 
+ * @author Viscent Huang
+ *
+ * @param <IN>
+ *          输入类型
+ * @param <OUT>
+ *          输出类型
+ */
+public interface Pipe<IN, OUT> {
+	/**

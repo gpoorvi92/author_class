@@ -1,0 +1,10 @@
+		this.engine_port = enginePort;
+		this.nodeId = nodeId;
+		this.number=number;
+	}
+
+	@Override
+	public void run() {
+		// TODO 记录查询开始时间
+		boolean isSearchSuccess = false;
+		try {

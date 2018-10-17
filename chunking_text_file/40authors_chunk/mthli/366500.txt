@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               progressBar.setIndeterminate(checkBox.isSelected());
+               progressBar.setStringPainted(!progressBar.isIndeterminate());
+            }
+         });
+      panel.add(checkBox);
+      add(new JScrollPane(textArea), BorderLayout.CENTER);
+      add(panel, BorderLayout.SOUTH);
+

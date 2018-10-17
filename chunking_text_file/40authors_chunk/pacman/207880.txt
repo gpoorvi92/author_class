@@ -1,0 +1,10 @@
+	public InvalidMediaParameterException() {
+		super();
+	}
+	
+	public InvalidMediaParameterException(String msg) {
+		super(msg);
+	}
+	
+	public InvalidMediaParameterException(String msg, Exception innerException) {
+		super(msg, innerException);

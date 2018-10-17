@@ -1,0 +1,10 @@
+            parameterTypes[ 1 ] = Class.forName( "jpos.config.JposEntry");             
+
+            JposServiceInstanceFactory siFactory = null;
+
+            if( siFactoryTable.containsKey( siFactoryClassName ) )
+                siFactory = (JposServiceInstanceFactory)siFactoryTable.
+                            get( siFactoryClassName );
+            else
+            {
+                Class instanceClass = Class.forName( siFactoryClassName );

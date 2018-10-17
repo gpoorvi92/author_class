@@ -1,0 +1,10 @@
+			try {
+				AbstractCommonData acd = DataConvertFactory
+						.getInstanceByJson(json);
+				appendChatItem(acd);
+			} catch (InstanceDataException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+

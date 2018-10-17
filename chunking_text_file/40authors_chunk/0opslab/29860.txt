@@ -1,0 +1,10 @@
+        String path = TestUtil.path+"/image";
+        String path_temp = TestUtil.path+"/temp/image";
+        String file = path +"1.jpg";
+        String file_temp = path_temp +"1.jpg";
+        BufferedImage bufferedImage = ImageIO.read(new File(file));
+        BufferedImage bufferedImage1 = zoomInImage(bufferedImage, 50);
+        FileOutputStream outputStream = new FileOutputStream(file_temp);
+        ImageIO.write(bufferedImage1,"jpg",outputStream );
+    }
+}

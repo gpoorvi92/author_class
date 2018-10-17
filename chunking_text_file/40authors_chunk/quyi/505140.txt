@@ -1,0 +1,10 @@
+                org.apache.thrift.protocol.TList _list96 = iprot.readListBegin();
+                struct.plots = new ArrayList<PlotsType>(_list96.size);
+                for (int _i97 = 0; _i97 < _list96.size; ++_i97)
+                {
+                  PlotsType _elem98;
+                  _elem98 = PlotsType.findByValue(iprot.readI32());
+                  struct.plots.add(_elem98);
+                }
+                iprot.readListEnd();
+              }

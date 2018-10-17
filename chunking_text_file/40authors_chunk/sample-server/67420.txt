@@ -1,0 +1,10 @@
+    private String  title;
+    @Column(name = "content")
+    private String  content;//每一行用\n\r隔开
+    @Column(name = "zone_id")
+    private Integer zoneId;
+    public int getLinkId()
+    {
+        return linkId;
+    }
+    public void setLinkId(int linkId)

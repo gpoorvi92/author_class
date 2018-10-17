@@ -1,0 +1,10 @@
+	 * @param subTaskResults
+	 *          子任务处理结果列表
+	 * @return 相应输入元素的处理结果
+	 * @throws Exception
+	 */
+	protected abstract OUT combineResults(List<Future<V>> subTaskResults)
+	    throws Exception;
+
+	/**
+	 * 以并行的方式执行一组子任务。

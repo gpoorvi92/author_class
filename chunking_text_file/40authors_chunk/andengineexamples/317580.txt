@@ -1,0 +1,10 @@
+	@Override
+	protected void onReadTransmissionData(final DataInputStream pDataInputStream) throws IOException {
+		this.mProtocolVersion = pDataInputStream.readShort();
+	}
+
+	@Override
+	protected void onWriteTransmissionData(final DataOutputStream pDataOutputStream) throws IOException {
+		pDataOutputStream.writeShort(this.mProtocolVersion);
+	}
+

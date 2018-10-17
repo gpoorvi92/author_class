@@ -1,0 +1,10 @@
+ * 5:string targetPort 目标端口
+ * 6:string protocal 所采用协议
+ * 7:string dataHex
+ * 8:string dataChar
+ * 9:string dataLength
+ * 10:string operateTime 操作时间
+ */
+public class NetworkPacket implements org.apache.thrift.TBase<NetworkPacket, NetworkPacket._Fields>, java.io.Serializable, Cloneable, Comparable<NetworkPacket> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("NetworkPacket");
+

@@ -1,0 +1,10 @@
+                vz += sensetivity*dy; 
+            }
+            else if (e.isAltDown())
+            { 
+             Vector3D rotationVector;
+                // if 'z' is down, 
+             // rotationVector = Vector3D.getFromCoordinates(0,dx*0.01,dy*0.01);
+                // else
+                rotationVector = Vector3D.getFromCoordinates(dx*0.01,dy*0.01,0);
+                panel.rotateModel(rotationVector);

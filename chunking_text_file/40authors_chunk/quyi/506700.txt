@@ -1,0 +1,10 @@
+				/*
+				 * List<String> columninfoList = new ArrayList<String>(); for
+				 * (int i = 1; i < sheet.getRows(); i++) { // 看md5 Cell cell =
+				 * sheet.getCell(3, i); columninfoList.add(cell.getContents());
+				 * } int row = columninfoList.indexOf(singleRecordInfo.getMd5())
+				 * + 1; if (sheet.getCell(7,
+				 * row).getContents().equals(singleRecordInfo
+				 * .getPlotsType().name())) { sheet.addCell(new
+				 * jxl.write.Number(6, row, singleRecordInfo.getFinishedTime(),
+				 * wcf_left)); sheet.addCell(new Label(8, row,

@@ -1,0 +1,10 @@
+        return hasAvatar;
+
+    }
+
+    public List<Avatar> getAvatarList() {
+        Cursor cursor = database.query(
+        AVATAR_TABLE_NAME,
+        projection,
+        null,
+        null,

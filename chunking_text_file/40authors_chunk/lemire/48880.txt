@@ -1,0 +1,10 @@
+
+    /**
+     * Look at the top of the heap
+     *
+     * @return the element on top
+     */
+    public T peek() {
+        return this.a[1];
+    }
+

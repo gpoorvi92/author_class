@@ -1,0 +1,10 @@
+					r = (int) Math.random()*15;
+					incx*=-1+r;
+				}
+				if(y >= getHeight()-(int)circle.height || y <= 1)
+				{	
+					r = (int) Math.random()*15;
+					incy*=-1+r;
+				}
+			
+				if(mousexy != null)

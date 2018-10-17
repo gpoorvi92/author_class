@@ -1,0 +1,10 @@
+    */
+   public static String getFieldDescription(Class<?> c)
+   {
+      // use reflection to find types and names of fields
+      StringBuilder r = new StringBuilder();
+      Field[] fields = c.getDeclaredFields();
+      for (int i = 0; i < fields.length; i++)
+      {
+         Field f = fields[i];
+         if ((f.getModifiers() & Modifier.STATIC) != 0) r.append("static ");

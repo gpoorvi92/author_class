@@ -1,0 +1,10 @@
+import org.apache.commons.codec.binary.Base64OutputStream;
+import org.apache.commons.codec.digest.DigestUtils;
+
+public class DigestUtil {
+	public final static String MD5="MD5";
+	public final static String NONE="NONE";
+	public final static String SHA_1="SHA_1";
+	public final static String SHA_256="SHA_256";
+	public final static String SHA_512="SHA_512";
+	public final static String SHA_384="SHA_384";

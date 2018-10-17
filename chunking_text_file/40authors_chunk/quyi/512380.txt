@@ -1,0 +1,10 @@
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public modifyEngineConfig_result getResult(I iface, modifyEngineConfig_args args) throws org.apache.thrift.TException {
+        modifyEngineConfig_result result = new modifyEngineConfig_result();
+        try {
+          result.success = iface.modifyEngineConfig(args.propertyName, args.propertyValue);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {

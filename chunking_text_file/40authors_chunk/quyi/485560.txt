@@ -1,0 +1,10 @@
+      this.usedPermissions = usedPermissions;
+      this.stcRD = stcRD;
+      this.dycRD = dycRD;
+      this.virRD = virRD;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public updateUserAppInfo_args(updateUserAppInfo_args other) {

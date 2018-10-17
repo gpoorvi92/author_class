@@ -1,0 +1,10 @@
+	public void setSmalls(Set<Small> smalls) {
+		this.smalls = smalls;
+	}
+	@OneToMany(mappedBy = "supplier", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<MaterialBrand> getMaterialBrands() {
+		return materialBrands;
+	}
+	public void setMaterialBrands(Set<MaterialBrand> materialBrands) {
+		this.materialBrands = materialBrands;
+	}

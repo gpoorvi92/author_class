@@ -1,0 +1,4 @@
+    public enum gestureType {
+        All, Vertical, Horizon, LeftOnly, RightOnly, TopOnly, BottomOnly;
+    }
+}

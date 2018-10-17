@@ -1,0 +1,10 @@
+         }
+         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(args[2])))
+         {
+            out.writeObject(keyPair.getPrivate());
+         }
+      }
+      else if (args[0].equals("-encrypt"))
+      {
+         KeyGenerator keygen = KeyGenerator.getInstance("AES");
+         SecureRandom random = new SecureRandom();

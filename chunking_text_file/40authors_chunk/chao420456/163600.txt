@@ -1,0 +1,10 @@
+		// 创建文本域
+		final TextArea ta = new TextArea(10, 40);
+
+		// 添加到窗体
+		f.add(tf);
+		f.add(bu);
+		f.add(ta);
+
+		// 注册事件
+		f.addWindowListener(new WindowAdapter() {

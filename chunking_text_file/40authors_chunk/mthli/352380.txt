@@ -1,0 +1,10 @@
+ * A customizer for the chart bean that allows the user to edit all chart properties in a single
+ * tabbed dialog.
+ * @version 1.12 2007-10-03
+ * @author Cay Horstmann
+ */
+public class ChartBeanCustomizer extends JTabbedPane implements Customizer
+{
+   private ChartBean bean;
+   private PropertyEditor colorEditor;
+   private JTextArea data;

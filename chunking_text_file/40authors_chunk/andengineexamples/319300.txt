@@ -1,0 +1,10 @@
+
+
+			final RevoluteJointDef revoluteJointDef = new RevoluteJointDef();
+			revoluteJointDef.initialize(anchorBody, movingBody, anchorBody.getWorldCenter());
+			revoluteJointDef.enableMotor = true;
+			revoluteJointDef.motorSpeed = 10;
+			revoluteJointDef.maxMotorTorque = 200;
+
+			this.mPhysicsWorld.createJoint(revoluteJointDef);
+		}

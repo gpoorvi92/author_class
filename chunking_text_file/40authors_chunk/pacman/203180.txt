@@ -1,0 +1,10 @@
+		}
+		LessonInfo info = new LessonInfo();
+		
+		Element root = doc.getRootElement();		
+		parseGeneralInfo(root, info);
+		parseAllFiles(root, info);
+		
+		convertToXml(doc, xmlFile);
+		
+		return info;

@@ -1,0 +1,10 @@
+			if (connected[i] == goal_node) break outer; // we are done
+		    }
+		}
+		alreadyVisitedFlag[head] = true;
+		queue.removeFromQueue(); // ignore return value
+	    }
+	}
+	// now calculate the shortest path from the predecessor array:
+	int [] ret = new int[numNodes + 1];
+	int count = 0;

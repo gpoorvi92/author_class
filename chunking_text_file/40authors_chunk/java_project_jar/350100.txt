@@ -1,0 +1,10 @@
+        {
+            filter = null;
+        } else
+        {
+            directoryFilter = directoryFilter == null ? TrueFileFilter.TRUE : directoryFilter;
+            fileFilter = fileFilter == null ? TrueFileFilter.TRUE : fileFilter;
+            directoryFilter = FileFilterUtils.makeDirectoryOnly(directoryFilter);
+            fileFilter = FileFilterUtils.makeFileOnly(fileFilter);
+            filter = FileFilterUtils.or(new IOFileFilter[] {
+                directoryFilter, fileFilter

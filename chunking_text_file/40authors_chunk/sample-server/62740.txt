@@ -1,0 +1,10 @@
+    {
+        return addTime;
+    }
+    public void setAddTime(Date addTime)
+    {
+        this.addTime = addTime;
+    }
+    public Date getModifyTime()
+    {
+        return modifyTime;

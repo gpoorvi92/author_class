@@ -1,0 +1,10 @@
+/******************************************************************
+*
+*	CyberXML for Java
+*
+*	Copyright (C) Satoshi Konno 2004
+*
+*   Author: Markus Thurner (http://thoean.com)
+*
+*	File: JaxpParser.java
+*

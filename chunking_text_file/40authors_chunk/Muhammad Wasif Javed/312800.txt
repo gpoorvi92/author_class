@@ -1,0 +1,10 @@
+		//Adding Panel to the Form.
+
+		getContentPane().add (pBook);
+
+		setVisible (true);
+
+	}
+
+	//Function Perform By the ComboBox of Form.
+

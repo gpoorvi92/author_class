@@ -1,0 +1,10 @@
+        return "android:switcher:" + R.id.pager + ":" + index;
+    }
+
+    public ReposFragment getReposFragment() {
+        return (ReposFragment)getFragment(0);
+    }
+
+    public StarredFragment getStarredFragment() {
+        return (StarredFragment)getFragment(1);
+    }

@@ -1,0 +1,10 @@
+                  }
+                  struct.usedPermissions.add(_elem126);
+                }
+                iprot.readListEnd();
+              }
+              struct.setUsedPermissionsIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

@@ -1,0 +1,10 @@
+			//Debug.warning(e);
+			return false;
+		}
+		
+		return true;
+	}
+	
+	private boolean post(HTTPResponse httpRes, InputStream in, long contentOffset, long contentLength, boolean isOnlyHeader)
+	{
+		//TODO Check for bad HTTP agents, this method may be list for IOInteruptedException and for blacklistening

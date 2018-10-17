@@ -1,0 +1,10 @@
+import android.widget.GridView;
+import android.widget.ImageView;
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.annotation.InjectionView;
+import com.jufan.platform.util.ConstVariables;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+public class ImageSendActivity extends AutoActivity {

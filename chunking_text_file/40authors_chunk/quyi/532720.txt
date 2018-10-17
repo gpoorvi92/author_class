@@ -1,0 +1,10 @@
+    return this.methodName;
+  }
+
+  public APICheck setMethodName(String methodName) {
+    this.methodName = methodName;
+    return this;
+  }
+
+  public void unsetMethodName() {
+    this.methodName = null;

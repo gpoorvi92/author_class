@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.networkPacket != null) {
+        oprot.writeFieldBegin(NETWORK_PACKET_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.networkPacket.size()));
+          for (NetworkPacket _iter53 : struct.networkPacket)
+          {
+            _iter53.write(oprot);
+          }

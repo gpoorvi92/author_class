@@ -1,0 +1,10 @@
+    
+    int positivos = 0;
+    int negativos = 0;
+    int contador;
+    
+    System.out.println("Escribe 10 numeros:");
+    System.out.println("==========================================");
+    
+    for(contador = 0; contador < 10; contador++){
+        System.out.println("Escribe un numero:");

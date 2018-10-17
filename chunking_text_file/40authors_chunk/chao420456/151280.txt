@@ -1,0 +1,10 @@
+		Menu m1 = new Menu("文件");
+		Menu m2 = new Menu("更改名称");
+		// 创建菜单项
+		final MenuItem mi1 = new MenuItem("好好学习");
+		final MenuItem mi2 = new MenuItem("天天向上");
+		MenuItem mi3 = new MenuItem("恢复标题");
+		MenuItem mi4 = new MenuItem("打开记事本");
+		MenuItem mi5 = new MenuItem("退出系统");
+
+		// 菜单本身组合

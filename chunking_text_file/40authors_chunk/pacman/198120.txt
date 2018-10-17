@@ -1,0 +1,10 @@
+ * @date: 2014年12月18日 下午6:20:15
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms.message;
+
+import com.yeshj.pacman.annotation.Transmit;
+import com.yeshj.pacman.jms.CommandType;
+
+/**
+ * Defines base command.

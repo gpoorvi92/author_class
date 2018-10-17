@@ -1,0 +1,10 @@
+     * @param c   where we write
+     * @param max maximum number of words to materialize
+     * @return how many words were actually materialized
+     */
+    public static long materialize(final IteratingRLW32 i, final BitmapStorage32 c, int max) {
+        final int origMax = max;
+        while (true) {
+            if (i.getRunningLength() > 0) {
+                int l = i.getRunningLength();
+                if (l > max)

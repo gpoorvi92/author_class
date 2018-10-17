@@ -1,0 +1,10 @@
+      buttonPanel.add(new JButton(redAction));
+
+      // add panel to frame
+      add(buttonPanel);
+
+      // associate the Y, B, and R keys with names
+      InputMap imap = buttonPanel.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+      imap.put(KeyStroke.getKeyStroke("ctrl Y"), "panel.yellow");
+      imap.put(KeyStroke.getKeyStroke("ctrl B"), "panel.blue");
+      imap.put(KeyStroke.getKeyStroke("ctrl R"), "panel.red");

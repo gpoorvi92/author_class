@@ -1,0 +1,10 @@
+
+/**
+ * 简单的轮询（Round-Robin）派发算法策略。
+ * 
+ * @author Viscent Huang
+ *
+ * @param <T>
+ *          原始任务类型
+ * @param <V>
+ *          子任务处理结果类型

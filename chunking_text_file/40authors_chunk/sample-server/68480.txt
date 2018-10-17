@@ -1,0 +1,10 @@
+        public boolean validateObject(final BaseRpcConnection obj)
+        {
+            try
+            {
+                return obj.isConnected();
+            } catch (Exception e)
+            {
+                log.error("", e);
+                return false;
+            }

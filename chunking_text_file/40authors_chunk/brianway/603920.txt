@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example4;
+
+/**
+ * Created by brian on 2016/4/14.
+ */
+
+/**
+ * p152
+ * wait(long)使用，时间限制内由其他线程唤醒
+ */

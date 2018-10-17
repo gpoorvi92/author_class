@@ -1,0 +1,10 @@
+					if (strc == charc)
+						return idx;
+				}
+				else {
+					if (strc != charc)
+						noEqualCnt++;
+					if (noEqualCnt == charCnt)
+						return idx;
+				}
+			}

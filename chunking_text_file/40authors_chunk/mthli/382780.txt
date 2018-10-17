@@ -1,0 +1,10 @@
+      // if no title given, ask user
+
+      String title = node.get("title", "");
+      if (title.equals("")) title = JOptionPane.showInputDialog("Please supply a frame title:");
+      if (title == null) title = "";
+      setTitle(title);
+
+      // set up file chooser that shows XML files
+
+      final JFileChooser chooser = new JFileChooser();

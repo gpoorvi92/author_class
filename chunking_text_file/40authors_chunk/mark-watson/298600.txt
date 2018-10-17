@@ -1,0 +1,10 @@
+                           Reporter reporter) throws IOException {
+            String person = person_name.toString();
+            List<String> doc_list = new ArrayList<String>();
+            while (documents.hasNext()) {
+                Text document = documents.next();
+                String document_str = document.toString();
+                if (document_str.substring(0, 1).equals("["))
+                    document_str = document_str.substring(1, document_str.length() - 1);
+                doc_list.add(document_str);
+            }

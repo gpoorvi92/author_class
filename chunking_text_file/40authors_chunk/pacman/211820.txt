@@ -1,0 +1,10 @@
+	 */
+	public Object getResult() {
+		return result;
+	}
+
+	/**
+	 * @param result the result to set
+	 */
+	public void setResult(Object result) {
+		this.result = result;

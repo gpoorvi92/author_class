@@ -1,0 +1,10 @@
+
+      try
+      {
+         MaskFormatter formatter = new MaskFormatter("###-##-####");
+         formatter.setPlaceholderCharacter('0');
+         JFormattedTextField ssnField = new JFormattedTextField(formatter);
+         ssnField.setValue("078-05-1120");
+         addRow("SSN Mask:", ssnField);
+      }
+      catch (ParseException ex)

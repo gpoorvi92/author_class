@@ -1,0 +1,10 @@
+        Assert.assertTrue(EWAHCompressedBitmap.threshold(4, ewah1,ewah2, ewah3).equals(zero));
+
+        EWAHCompressedBitmap ewahorth = EWAHCompressedBitmap.threshold(
+                1, ewah1, ewah2, ewah3);
+        EWAHCompressedBitmap ewahtrueor = EWAHCompressedBitmap.or(
+                ewah1, ewah2, ewah3);
+        Assert.assertTrue(ewahorth.equals(ewahtrueor));
+
+        EWAHCompressedBitmap ewahandth = EWAHCompressedBitmap
+                .threshold(3, ewah1, ewah2, ewah3);

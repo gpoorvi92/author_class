@@ -1,0 +1,10 @@
+	@Override
+	public Object execute(ExecuteContext context) throws Exception {
+
+		LessonInfo info = null;
+		String tempDir = context.getAttribute(Constants.CONTEXT_TEMP_DIR);
+		int lessonId = context.getAttribute(Constants.CONTEXT_LESSON_ID);
+		String url = context.getAttribute(Constants.LESSON_XML_URL);
+		
+		url = url + lessonId;
+		

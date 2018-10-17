@@ -1,0 +1,10 @@
+			bs[count++] = b;
+		}
+		return bs;
+	}
+
+	@Override
+	public Integer[] queryDistinctCustomerByDateACustomer(String startDate,
+			String endDate, String customer) {
+		List<Integer> list = billDao.selectDistinctCustomerByDateACustomer(startDate,endDate,customer);
+		Integer[] ids = new Integer[list.size()];

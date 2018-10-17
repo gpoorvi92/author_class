@@ -1,0 +1,10 @@
+
+    ComponentAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.ComponentAdapter.componentResized(java.awt.event.ComponentEvent)
+
+    public native void __componentResized( java.awt.event.ComponentEvent e );
+

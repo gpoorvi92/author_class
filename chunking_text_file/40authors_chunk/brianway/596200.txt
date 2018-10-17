@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example10;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P168
+ * 一生产与多消费
+ *

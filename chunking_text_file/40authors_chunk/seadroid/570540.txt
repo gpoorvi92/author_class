@@ -1,0 +1,10 @@
+
+        JSONObject obj = Utils.parseJsonObject(json);
+        if (obj == null)
+            return null;
+        Avatar avatar = Avatar.fromJson(obj);
+        if (avatar == null)
+            return null;
+
+        return avatar;
+    }

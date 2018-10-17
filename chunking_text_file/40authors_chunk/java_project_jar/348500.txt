@@ -1,0 +1,10 @@
+            {
+                xmlPrologWriter = null;
+                writer = new OutputStreamWriter(out, encoding);
+                writer.write(xmlProlog.toString());
+                if(len > size)
+                    writer.write(cbuf, off + size, len - size);
+            }
+        }
+    }
+

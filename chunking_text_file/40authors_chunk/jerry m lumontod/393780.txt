@@ -1,0 +1,10 @@
+		mstrFiscalCode=tstrFiscalCode;
+		mstrReference=tstrReference;
+		mstrRemarks=tstrRemarks;
+		mstrDocCode=tstrDocCode;
+		mstrDocnum=tstrDocnum;
+		mstrDoclinenum=tstrDoclinenum;
+		mstrDueDate = tstrDueDate;
+		mstrPayDate = tstrPayDate;
+		mstrPostType=tstrPostType;
+		mstrEntrySource=tstrEntrySource;

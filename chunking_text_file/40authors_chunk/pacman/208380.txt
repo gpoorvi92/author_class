@@ -1,0 +1,10 @@
+		
+		if (gJNILoaded)
+			return nativeGetAudioBitrate();
+		else
+			return -1;
+	}
+
+	/**
+	 * @return the videoBitrate
+	 */

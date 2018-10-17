@@ -1,0 +1,10 @@
+		canvas.drawColor(Color.BLACK);
+		//画的内容是z轴的，后画的会覆盖前面画的
+		canvas.drawBitmap(loading1, startX, startY, paint);//绘制后面的剑
+		
+		if(process > 100){
+			process = 100;
+		}
+		
+		r1 = new Rect(0, 0, loading2.getWidth()*process/100, loading2.getHeight());//取前面的剑的一部分
+		r2 = new Rect(startX-10, startY-2, startX+loading2.getWidth()*process/100, startY+loading2.getHeight());//绘制到屏幕的哪个部分

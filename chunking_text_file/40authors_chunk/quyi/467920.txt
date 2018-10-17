@@ -1,0 +1,10 @@
+
+  /** Returns true if field ruleDescription is set (has been assigned a value) and false otherwise */
+  public boolean isSetRuleDescription() {
+    return this.ruleDescription != null;
+  }
+
+  public void setRuleDescriptionIsSet(boolean value) {
+    if (!value) {
+      this.ruleDescription = null;
+    }

@@ -1,0 +1,10 @@
+
+    case CATEGORY:
+      if (value == null) {
+        unsetCategory();
+      } else {
+        setCategory((String)value);
+      }
+      break;
+
+    case DESCRIPTION:

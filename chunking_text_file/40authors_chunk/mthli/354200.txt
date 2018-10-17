@@ -1,0 +1,9 @@
+    /* 这里就体现出了抽象类中也可以有非abstract的方法存在 */
+    public Person(String n) {
+        name = n;
+    }
+
+    public String getName() {
+       return name;
+    }
+}

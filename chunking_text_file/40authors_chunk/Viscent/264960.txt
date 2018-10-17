@@ -1,0 +1,10 @@
+	    int maxRequestPerTimeslice) {
+		super();
+		this.respDelayConf = respDelayConf;
+		this.maxRequestPerTimeslice = maxRequestPerTimeslice;
+	}
+
+	public long nextRequestTimestamp() {
+		long requestTimestamp;
+
+		requestTimestamp = nowTimestamp + reqTimeRnd.nextInt((10 - 1) * 1000)

@@ -1,0 +1,10 @@
+                  rst.close();
+                 
+               } catch (SQLException sqle) {
+                     JOptionPane.showMessageDialog(null, " No Records found"
+                                       + sqle.getMessage());
+                    return;
+               }
+       }
+		
+	

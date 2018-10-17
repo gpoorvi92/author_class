@@ -1,0 +1,4 @@
+			// TextView act_type_explain;
+		}
+	}
+}

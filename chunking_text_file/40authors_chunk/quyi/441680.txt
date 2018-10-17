@@ -1,0 +1,10 @@
+      return getTargetAddress();
+
+    case TARGET_PORT:
+      return getTargetPort();
+
+    case PROTOCAL:
+      return getProtocal();
+
+    case DATA_HEX:
+      return getDataHex();

@@ -1,0 +1,10 @@
+        for(int i = 0; i < length; ++i) {
+            removeLastWord();
+        }
+    }
+
+    @Override
+    public LongBufferWrapper clone() throws CloneNotSupportedException {
+       return new LongBufferWrapper(this.buffer, this.actualSizeInWords);
+    }
+

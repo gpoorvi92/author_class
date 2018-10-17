@@ -1,0 +1,10 @@
+		return INSTANCE;
+	}
+
+	/**
+	 * 发送告警
+	 * @param type 告警类型
+	 * @param id 告警编号
+	 * @param extraInfo 告警参数
+	 * @return 由type+id+extraInfo唯一确定的告警信息被提交的次数。-1表示告警管理器已被关闭。
+	 */

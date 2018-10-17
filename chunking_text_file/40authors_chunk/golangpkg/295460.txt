@@ -1,0 +1,10 @@
+	private String originalFileName;
+
+	/** The original file size */
+	private Long originalFileSizeInBytes;
+
+	/** When the file was originally created */
+	private Date creationDate;
+
+	/**
+	 * The rate of the client in kilo bytes.<br>

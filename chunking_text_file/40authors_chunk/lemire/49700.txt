@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public EWAHIterator clone() throws CloneNotSupportedException {
+        return new EWAHIterator(pointer,rlw.clone(),size);
+    }
+
+    /**
+     * The pointer represent the location of the current running length word
+     * in the array of words (embedded in the rlw attribute).

@@ -1,0 +1,10 @@
+			return t.compareTo(cmp2) * m_multiplier;
+		}
+
+		else if (cmp1 instanceof BigDecimal) {
+			BigDecimal d = (BigDecimal)cmp1;
+			return d.compareTo(cmp2) * m_multiplier;
+		}
+
+		else if (cmp1 instanceof Integer) {
+			Integer d = (Integer)cmp1;

@@ -1,0 +1,10 @@
+        }
+        bindView(getItem(position), position, view);
+        return view;
+    }
+
+    /**
+     * Create a new instance of a view for the specified position.
+     */
+    public abstract View newView(LayoutInflater inflater, int position, ViewGroup container);
+

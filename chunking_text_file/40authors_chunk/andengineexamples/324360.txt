@@ -1,0 +1,10 @@
+	@Override
+	protected int getRenderSurfaceViewID() {
+		return R.id.xmllayoutexample_rendersurfaceview;
+	}
+
+	@Override
+	public EngineOptions onCreateEngineOptions() {
+		Toast.makeText(this, "Touch the screen to move the particlesystem.", Toast.LENGTH_LONG).show();
+
+		final Camera camera = new Camera(0, 0, XMLLayoutExample.CAMERA_WIDTH, XMLLayoutExample.CAMERA_HEIGHT);

@@ -1,0 +1,10 @@
+    }
+
+  }
+
+  public static class submitMission_args implements org.apache.thrift.TBase<submitMission_args, submitMission_args._Fields>, java.io.Serializable, Cloneable, Comparable<submitMission_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("submitMission_args");
+
+    private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField USER_APPS_FIELD_DESC = new org.apache.thrift.protocol.TField("userApps", org.apache.thrift.protocol.TType.LIST, (short)2);
+    private static final org.apache.thrift.protocol.TField PLOTS_FIELD_DESC = new org.apache.thrift.protocol.TField("plots", org.apache.thrift.protocol.TType.LIST, (short)3);

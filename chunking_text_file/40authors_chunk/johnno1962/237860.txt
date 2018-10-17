@@ -1,0 +1,10 @@
+    boolean entered_equals_10;
+
+    public boolean equals( java.lang.Object arg0 ) {
+        if ( !entered_equals_10 ) {
+            entered_equals_10 = true;
+            boolean __return = __equals( arg0 );
+            entered_equals_10 = false;
+            return __return;
+        }
+        else

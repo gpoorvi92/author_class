@@ -1,0 +1,10 @@
+	public void delete(String url, RequestParams queryParams,
+			AsyncHttpResponseHandler responseHandler) {
+		// TODO what about query params??
+		delete(url, responseHandler);
+	}
+
+	public String get(String url, RequestParams params) {
+		this.get(url, params, responseHandler);
+		/*
+		 * the response handler will have set the result when this line is

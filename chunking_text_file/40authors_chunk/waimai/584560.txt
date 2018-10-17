@@ -1,0 +1,10 @@
+            loginLog.setUserId(loginUser.getId());
+        } else if (UserStatus.INACTIVE.toString().equals(loginUser.getStatus())) {
+            map.put(Constants.RESULT_CODE, "3");
+            map.put(Constants.ERROR_MESSAGE, "用户已被禁用");
+            loginLog.setUserId(loginUser.getId());
+        } else {
+            map.put(Constants.RESULT_CODE, "1");
+            loginUser.setPassword(null);
+            loginUser.setStatus(null);
+            map.put(Constants.USER, loginUser);

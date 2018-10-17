@@ -1,0 +1,10 @@
+            break;
+          case 3: // RULE_TYPES
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list0 = iprot.readListBegin();
+                struct.ruleTypes = new ArrayList<Activity>(_list0.size);
+                for (int _i1 = 0; _i1 < _list0.size; ++_i1)
+                {
+                  Activity _elem2;
+                  _elem2 = Activity.findByValue(iprot.readI32());

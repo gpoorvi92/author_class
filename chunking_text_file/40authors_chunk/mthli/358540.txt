@@ -1,0 +1,10 @@
+            }
+         });
+
+      // set up split panes
+
+      JSplitPane innerPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, planetList, planetImage);
+
+      innerPane.setContinuousLayout(true);
+      innerPane.setOneTouchExpandable(true);
+

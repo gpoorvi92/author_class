@@ -1,0 +1,10 @@
+      tree.getSelectionModel().setSelectionMode(mode);
+
+      // this text area holds the class description
+      textArea = new JTextArea();
+
+      // add tree and text area
+      JPanel panel = new JPanel();
+      panel.setLayout(new GridLayout(1, 2));
+      panel.add(new JScrollPane(tree));
+      panel.add(new JScrollPane(textArea));

@@ -1,0 +1,10 @@
+
+    public static class genMissionId<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, genMissionId_args, String> {
+      public genMissionId() {
+        super("genMissionId");
+      }
+
+      public genMissionId_args getEmptyArgsInstance() {
+        return new genMissionId_args();
+      }
+

@@ -1,0 +1,10 @@
+        }
+    }
+
+    private boolean moveToNextRLW() {
+        while (!runningHasNext() && !literalHasNext()) {
+            if (!hasNextRLW()) {
+                return this.nextBit!=null;
+            }
+            setRLW(nextRLW());
+            updateNext();

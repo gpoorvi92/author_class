@@ -1,0 +1,10 @@
+						token = new StringTokenizer(line);
+						token.nextToken();
+						item = token.nextToken(); // user
+						info.setCpuUser(Double.valueOf(
+								item.substring(0, item.indexOf('%')))
+								.doubleValue());
+
+						if (!fragFormat) {
+							token.nextToken();
+						}

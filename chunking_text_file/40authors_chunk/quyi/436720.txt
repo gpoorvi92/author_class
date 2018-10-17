@@ -1,0 +1,10 @@
+            }
+            break;
+          case 4: // FILE_OPERATE
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list38 = iprot.readListBegin();
+                struct.fileOperate = new ArrayList<FileOperate>(_list38.size);
+                for (int _i39 = 0; _i39 < _list38.size; ++_i39)
+                {
+                  FileOperate _elem40;

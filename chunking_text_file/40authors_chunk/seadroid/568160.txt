@@ -1,0 +1,10 @@
+    public UploadTaskInfo getUploadTaskInfo(int taskID) {
+        return (UploadTaskInfo) uploadTaskManager.getTaskInfo(taskID);
+    }
+
+    public List<UploadTaskInfo> getAllUploadTaskInfos() {
+        return (List<UploadTaskInfo>) uploadTaskManager.getAllTaskInfoList();
+    }
+
+    public void removeAllUploadTasksByState(TaskState taskState) {
+        uploadTaskManager.removeByState(taskState);

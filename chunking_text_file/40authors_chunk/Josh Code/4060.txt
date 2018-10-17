@@ -1,0 +1,10 @@
+    }
+
+    public static void gotoInitialDirectory(JFileChooser chooser)
+    {
+        try
+        {
+            File f = new File("./models");
+            chooser.setCurrentDirectory(f);
+        }
+        catch (Throwable t)

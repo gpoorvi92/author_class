@@ -1,0 +1,10 @@
+		if (state == flag) {
+			return;
+		}
+		try {
+			switch (flag) {
+			case 0:
+				tipTv.setText(ctx.getString(R.string.cancel_record_tip1));
+				// this.mediaRecorder.stop();
+				break;
+			case 1:

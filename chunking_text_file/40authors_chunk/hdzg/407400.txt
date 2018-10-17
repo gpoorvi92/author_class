@@ -1,0 +1,10 @@
+				case 3://学习失败
+					recoverGame();
+					break;
+				}				
+			}
+			else if(x>DIALOG_BTN_START_X+DIALOG_BTN_SPAN && x<DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是取消键
+				recoverGame();
+			}			
+		}

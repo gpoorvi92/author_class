@@ -1,0 +1,10 @@
+class BounceFrame extends JFrame
+{
+   private BallComponent comp;
+
+   /**
+    * Constructs the frame with the component for showing the bouncing ball and Start and Close
+    * buttons
+    */
+   public BounceFrame()
+   {

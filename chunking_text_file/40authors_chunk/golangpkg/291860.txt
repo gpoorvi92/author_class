@@ -1,0 +1,10 @@
+		
+		//reset progress manager map
+		progressManager.fileToProgressInfo.clear();
+		
+		//set mock
+		ReflectionTestUtils.setField(progressManager, "progressCalculator", progressCalculator.getMock());
+		ReflectionTestUtils.setField(progressManager, "progressManagerAdvertiser", progressManagerAdvertiser.getMock());
+		
+	}
+	

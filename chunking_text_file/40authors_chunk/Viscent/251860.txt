@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch5.tpt;
+
+/**
+ * 可停止的抽象线程。
+ * 
+ * 模式角色：Two-phaseTermination.AbstractTerminatableThread
+ * 

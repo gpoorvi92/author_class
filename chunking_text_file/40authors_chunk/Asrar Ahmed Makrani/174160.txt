@@ -1,0 +1,10 @@
+			            	book_title_text.setText(rs1.getString(2));
+			 				year_text.setText(rs1.getString(6));
+			 				authorsArea.setText(rs1.getString(5));
+			 				subjectArea.setText(rs1.getString(7));
+			 				location_text.setText(rs1.getString(4));
+			 				type_combo.setSelectedItem(rs1.getString(3));			 					
+			 		}
+					catch (SQLException sqlex)
+					{
+					//	JOptionPane.showMessageDialog(null, "Yeah here");

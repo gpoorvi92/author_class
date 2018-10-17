@@ -1,0 +1,10 @@
+
+	/**
+	 * Default destination port for SSDP multicast messages
+	 */
+	public static final int PORT = 1900;
+	
+	/**
+	 * Default IPv4 multicast address for SSDP messages
+	 */
+	public static final String ADDRESS = "239.255.255.250";

@@ -1,0 +1,10 @@
+      catch (IOException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+   }
+
+   /**
+    * Opens a history file and updates the display.
+    */
+   public void open()

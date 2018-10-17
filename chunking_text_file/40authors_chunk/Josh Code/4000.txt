@@ -1,0 +1,10 @@
+             public void actionPerformed(ActionEvent ae)
+             {
+                 zoomIn();
+             }
+         }
+           );
+         zoomOut.addActionListener(
+               new ActionListener()
+         {
+             public void actionPerformed(ActionEvent ae)

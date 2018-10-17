@@ -1,0 +1,10 @@
+         if (originalRenderer == null) return null;
+         renderer = new ListCellRenderer<Locale>()
+            {
+               public Component getListCellRendererComponent(JList<? extends Locale> list, Locale value, int index,
+                     boolean isSelected, boolean cellHasFocus)
+               {
+                  String renderedValue =  value.getDisplayName(getLocale());
+                  return originalRenderer.getListCellRendererComponent(list, renderedValue, index,
+                        isSelected, cellHasFocus);
+               }

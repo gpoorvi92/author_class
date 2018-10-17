@@ -1,0 +1,10 @@
+@RunWith(SpringJUnit4ClassRunner.class)
+public class RateLimiterConfigurationManagerTest {
+
+	@Autowired
+	RateLimiterConfigurationManager rateLimiterConfigurationManager;
+
+	@Autowired
+	JLFUListenerPropagator jlfuListenerPropagator;
+
+	@Autowired

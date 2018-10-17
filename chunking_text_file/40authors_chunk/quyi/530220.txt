@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_minsdkversion = true && this.isSetMinsdkversion();
+    boolean that_present_minsdkversion = true && that.isSetMinsdkversion();
+    if (this_present_minsdkversion || that_present_minsdkversion) {
+      if (!(this_present_minsdkversion && that_present_minsdkversion))
+        return false;
+      if (!this.minsdkversion.equals(that.minsdkversion))
+        return false;
+    }

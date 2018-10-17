@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ *  定义批次返回结果
+ * 1:UserApp userApp 定义用户应用详细信息
+ * 2:StaticCheckResultData staticCheckResult 静态检测结果
+ * 3:DynamicCheckResultData dynamicCheckResult 动态检测结果
+ */

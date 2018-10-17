@@ -1,0 +1,10 @@
+	public boolean onJsAlert(WebView view, String url, String message,
+			final JsResult result) {
+		AlertDialog.Builder dlg = new AlertDialog.Builder(this.webActivity);
+		dlg.setMessage(message);
+		dlg.setTitle("来自 " + url);
+		dlg.setCancelable(false);
+		dlg.setPositiveButton(android.R.string.ok,
+				new AlertDialog.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						result.confirm();

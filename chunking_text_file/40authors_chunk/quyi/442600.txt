@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 7: // DATA_HEX
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.dataHex = iprot.readString();
+              struct.setDataHexIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

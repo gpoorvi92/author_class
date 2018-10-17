@@ -1,0 +1,10 @@
+              break;
+            case 3: // PLOTS
+              if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+                {
+                  org.apache.thrift.protocol.TList _list3 = iprot.readListBegin();
+                  struct.plots = new ArrayList<com.nercis.isscp.idl.PlotsType>(_list3.size);
+                  for (int _i4 = 0; _i4 < _list3.size; ++_i4)
+                  {
+                    com.nercis.isscp.idl.PlotsType _elem5;
+                    _elem5 = com.nercis.isscp.idl.PlotsType.findByValue(iprot.readI32());

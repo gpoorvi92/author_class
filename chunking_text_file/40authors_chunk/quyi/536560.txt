@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class HardwareResourcesTupleScheme extends TupleScheme<HardwareResources> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, HardwareResources struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetProcessName()) {

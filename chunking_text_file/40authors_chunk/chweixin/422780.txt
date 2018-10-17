@@ -1,0 +1,10 @@
+		DataGrid<T> grid = new DataGrid<T>();
+		grid.setRows(this.changeModel(this.find(info)));
+		grid.setTotal(this.total(info));
+		return grid;
+	}
+	
+	/**
+	 * 查询数据。
+	 * @param info
+	 * 	查询条件。

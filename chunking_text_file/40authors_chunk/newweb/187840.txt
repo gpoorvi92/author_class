@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return t4;
+	}
+
+	/**
+	 * 提取每个汉字的首字母
+	 * 

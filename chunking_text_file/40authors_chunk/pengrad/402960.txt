@@ -1,0 +1,10 @@
+                String name = parameter.getKey();
+                Object value = parameter.getValue();
+                if (value instanceof byte[]) {
+                    builder.addFormDataPart(name, request.getFileName(), RequestBody.create(contentType, (byte[]) value));
+                } else if (value instanceof File) {
+                    builder.addFormDataPart(name, request.getFileName(), RequestBody.create(contentType, (File) value));
+                } else {
+                    builder.addFormDataPart(name, String.valueOf(value));
+                }
+            }

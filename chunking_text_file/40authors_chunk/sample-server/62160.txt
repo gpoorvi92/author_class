@@ -1,0 +1,6 @@
+        {
+            resultCode.setMsg("failed");
+        }
+        return resultCode.toJson();
+    }
+}

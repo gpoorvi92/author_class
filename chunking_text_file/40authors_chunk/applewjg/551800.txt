@@ -1,0 +1,10 @@
+        int[] res = new int[1];
+        res[0] = Integer.MIN_VALUE;
+        maxPathSumRe(root, res);
+        return res[0];
+    }
+    int maxPathSumRe(TreeNode root, int[] res) {
+        if (root == null) return 0;
+        int left = maxPathSumRe(root.left, res);
+        int right = maxPathSumRe(root.right, res);
+        res[0] = Math.max(res[0], root.val + Math.max(left, 0) + Math.max(right, 0));

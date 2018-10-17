@@ -1,0 +1,10 @@
+        return toString();
+    }
+
+    @Override
+    public String getCacheKey() {
+        return null;
+    }
+
+    public void setCityCode(String cityCode) {
+        this.cityId = cityCode;

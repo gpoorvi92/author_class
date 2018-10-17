@@ -1,0 +1,10 @@
+             public void actionPerformed(ActionEvent ae)
+             {
+                 openFile();
+             }
+         }
+        );
+
+         zoomIn.addActionListener(
+               new ActionListener()
+         {

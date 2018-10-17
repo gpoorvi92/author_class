@@ -1,0 +1,10 @@
+      return this.status != null;
+    }
+
+    public void setStatusIsSet(boolean value) {
+      if (!value) {
+        this.status = null;
+      }
+    }
+
+    public int getUsedPermissionsSize() {

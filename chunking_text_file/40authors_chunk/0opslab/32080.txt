@@ -1,0 +1,10 @@
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#HeadRowStartTag()
+   */
+  protected String HeadRowStartTag() {
+    return "<TR>";
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#HeadRowStopTag()
+   */

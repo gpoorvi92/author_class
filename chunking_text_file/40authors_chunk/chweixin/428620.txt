@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取公众号。
+	 * @return 公众号。
+	 * */
+	public WeChatAccount getAccount() {
+		return account;
+	}
+	/**
+	 * 设置公众号。

@@ -1,0 +1,10 @@
+        //平静的获取属性
+        assertEquals(value, BeanUtil.getPropertyPeaceful(bean, "operationName"));
+
+        //获取属性(忽略大小写)平静:
+        assertEquals(value, BeanUtil.getPropertyIgnoreCasePeaceful(bean, "operationname"));
+
+
+        //获取属性(使用自定的过滤函数):
+        assertEquals(value, BeanUtil.getPropertyFilter(bean, "operation_Name", new PropertyFilter() {
+            @Override

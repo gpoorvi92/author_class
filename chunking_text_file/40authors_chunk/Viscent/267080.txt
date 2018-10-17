@@ -1,0 +1,10 @@
+	public void setRecipient(Recipient recipient) {
+		this.recipient = recipient;
+	}
+
+	public Attachment getAttachment() {
+		return attachment;
+	}
+
+	public void setAttachment(Attachment attachment) {
+		this.attachment = attachment;

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean save(Bxg b) {
+		return bxgDao.insert(b);
+	}
+
+	@Override
+	public int getOrderBxgsCount(int id) {
+		Bxg bxg = bxgDao.selectBxgById(id);

@@ -1,0 +1,10 @@
+   public void addRadioButton(Container p, JRadioButton b, ButtonGroup g, ActionListener listener)
+   {
+      b.setSelected(g.getButtonCount() == 0);
+      b.addActionListener(listener);
+      g.add(b);
+      p.add(b);
+   }
+
+   /**
+    * Updates the display and formats the number according to the user settings.

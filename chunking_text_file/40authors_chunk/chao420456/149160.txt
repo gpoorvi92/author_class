@@ -1,0 +1,10 @@
+		//错误
+		//Outer.Inner oi = new Outer().new Inner();
+	
+		//用private修饰
+		//Outer o = new Outer();
+		//o.method();
+
+		//用static修饰后，这种写法错误
+		//Outer.Inner oi = new Outer().new Inner();
+		//用类名限定

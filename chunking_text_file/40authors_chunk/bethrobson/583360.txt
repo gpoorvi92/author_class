@@ -1,0 +1,10 @@
+
+     public String getUniqueID() {
+        return uniqueID;
+     }
+
+     public void setCategory(String c) {
+        category = c;
+     }
+
+     public String getCategory() {

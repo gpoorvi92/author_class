@@ -1,0 +1,10 @@
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		acd.putArrayValue("chat_list", list);
+		fillData(acd, getWindow().getDecorView());
+		chatList.setSelection(chatList.getCount() - 1);
+	}
+
+	public void setSendState(boolean flag) {
+		if (flag) {
+			addInfoIv.setVisibility(View.GONE);
+			sendChatLayout.setVisibility(View.VISIBLE);

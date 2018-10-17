@@ -1,0 +1,10 @@
+
+	/**
+	 * @return true if the DevCatInfo is already in the list
+	 * @param devCatInfo the devCatInfo
+	 */
+	public boolean contains( DevCatInfo devCatInfo ) { return list.contains( devCatInfo ); }
+
+	/** @return an DevCatInfoList.Iterator object for this list */
+	public DevCatInfoList.Iterator iterator() { return this.new DefaultIterator(); }
+

@@ -1,0 +1,10 @@
+    static final byte INS_PARAM_BODY = 0x01;
+    /**
+     * Used to indicate where the payload is inserted into the value of an HTTP
+     * cookie.
+     */
+    static final byte INS_PARAM_COOKIE = 0x02;
+    /**
+     * Used to indicate where the payload is inserted into the value of an item
+     * of data within an XML data structure.
+     */

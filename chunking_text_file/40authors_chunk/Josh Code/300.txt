@@ -1,0 +1,10 @@
+
+
+    public static void saveToTEC(Model m, File f) throws IOException
+    {
+        PrintStream out = new PrintStream(new FileOutputStream(f));
+        Triangle[] triangles = m.getTriangles();
+        int numTriangles = m.getNumberOfTriangles();
+        int numVertices = numTriangles * 3;
+        out.println("TITLE = \"cube.tec created by IVREAD.\"");
+        out.println("VARIABLES = \"X\", \"Y\", \"Z\"");

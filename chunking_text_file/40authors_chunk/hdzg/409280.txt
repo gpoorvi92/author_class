@@ -1,0 +1,10 @@
+//public class MeetableLayer extends Layer implements Serializable{
+public class MeetableLayer extends Layer{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1265133035026861860L;
+	private MyMeetableDrawable[][] mapMatrixMeetable;//实际地图
+	private MyMeetableDrawable[][] mapMatrixForMeetable;//可遇矩阵
+	

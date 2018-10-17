@@ -1,0 +1,10 @@
+      JButton printPreviewButton = new JButton("Print preview");
+      buttonPanel.add(printPreviewButton);
+      printPreviewButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               PrintPreviewDialog dialog = new PrintPreviewDialog(makeBook());
+               dialog.setVisible(true);
+            }
+         });

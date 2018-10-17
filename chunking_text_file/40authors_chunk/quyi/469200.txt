@@ -1,0 +1,10 @@
+        oprot.writeI32(struct.riskLevel.getValue());
+      }
+      if (struct.isSetPak()) {
+        oprot.writeString(struct.pak);
+      }
+      if (struct.isSetObj()) {
+        oprot.writeString(struct.obj);
+      }
+      if (struct.isSetFunc()) {
+        oprot.writeString(struct.func);

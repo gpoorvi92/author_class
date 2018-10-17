@@ -1,0 +1,6 @@
+	 *  菜单点击事件。
+	 *  @return
+	 *  回复消息。
+	 * */
+	BaseRespMessage handler(WeChatContext context, ClickEventMessage event);
+}

@@ -1,0 +1,10 @@
+			// without stracktrace if it is managed
+			log.error(e.getMessage());
+		}
+
+		// write exception to response
+		if (exceptionCodeMappingByType != null) {
+			try {
+				log.error("managed error " + exceptionCodeMappingByType.getExceptionIdentifier() + ": " + e.getMessage());
+				fileUploaderHelper.writeExceptionToResponse(new JavaFileUploaderException(exceptionCodeMappingByType), response);
+			}

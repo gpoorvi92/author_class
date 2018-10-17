@@ -1,0 +1,10 @@
+    BreadthFirstSearchEngine currentSearchEngine = null;
+
+    public MazeBreadthFirstSearch() {
+        try {
+          jbInit();
+        } catch (Exception e) {
+          System.out.println("GUI initilization error: " + e);
+        }
+        currentSearchEngine = new BreadthFirstSearchEngine(10, 10);
+        repaint();

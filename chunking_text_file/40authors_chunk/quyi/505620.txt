@@ -1,0 +1,10 @@
+          struct.taskInfo = new HashMap<String,String>(2*_map120.size);
+          for (int _i121 = 0; _i121 < _map120.size; ++_i121)
+          {
+            String _key122;
+            String _val123;
+            _key122 = iprot.readString();
+            _val123 = iprot.readString();
+            struct.taskInfo.put(_key122, _val123);
+          }
+        }

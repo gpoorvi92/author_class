@@ -1,0 +1,10 @@
+				tempFlag = true;
+			}
+			if(tempFlag){
+				String alertMessage="你的大军遭遇了一场沙尘暴，损失了一些粮草和金钱，有一些士兵也不见了，唉，还是不要带太多东西在自己身上啊！";
+				PlainAlert pa = new PlainAlert(hero.father, alertMessage, GameView.dialogBack, GameView.dialogButton);
+				hero.father.setCurrentGameAlert(pa);				
+			}
+			try{
+				Thread.sleep(sleepSpan);
+			}

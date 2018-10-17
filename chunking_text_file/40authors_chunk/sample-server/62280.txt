@@ -1,0 +1,10 @@
+        player.getItem().get(0).setName("第二个物品");
+        StandardDao.getInstance().update(player);
+    }
+    @Test
+    public void getItem()
+    {
+        DataCache cache = new AutoSavedCache();
+        Item item = cache.get(Item.class, 2, KeyType.PRIMARY_KEY);
+        System.out.println(item);
+        cache.update(item);

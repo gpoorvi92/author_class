@@ -1,0 +1,10 @@
+    Statement stmt = null;
+	private JButton print,cancel;
+	private JPanel panel;	
+	public Bus_Details()
+	{ 
+		
+		super("Buses Report");
+		
+		content=getContentPane();
+		content.setBackground(skyblue);

@@ -1,0 +1,10 @@
+        } catch (FileNotFoundException ex) {
+            return null;
+        }
+    }
+
+    private ParcelFileDescriptor getPFD() {
+        try {
+            if (mUri.getScheme().equals("file")) {
+                String path = mUri.getPath();
+                return ParcelFileDescriptor.open(new File(path),

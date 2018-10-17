@@ -1,0 +1,10 @@
+      planetList.addListSelectionListener(new ListSelectionListener()
+         {
+            public void valueChanged(ListSelectionEvent event)
+            {
+               Planet value = (Planet) planetList.getSelectedValue();
+
+               // update image and description
+
+               planetImage.setIcon(value.getImage());
+               planetDescription.setText(value.getDescription());

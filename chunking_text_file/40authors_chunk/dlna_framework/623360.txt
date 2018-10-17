@@ -1,0 +1,10 @@
+	{
+		if (input == null)
+			return null;
+		StringBuffer out = new StringBuffer();
+		int oldsize=input.length();
+		char[] old=new char[oldsize];
+		input.getChars(0,oldsize,old,0);
+		int selstart = 0;
+		String entity=null;			
+		for (int i=0;i<oldsize;i++) {			

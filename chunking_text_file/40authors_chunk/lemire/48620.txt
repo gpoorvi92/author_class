@@ -1,0 +1,10 @@
+ * The IntIteratorImpl is the 64 bit implementation of the IntIterator
+ * interface, which efficiently returns the stream of integers represented by an
+ * EWAHIterator.
+ *
+ * @author Colby Ranger
+ * @since 0.5.6
+ */
+final class IntIteratorImpl implements IntIterator {
+
+    private final EWAHIterator ewahIter;

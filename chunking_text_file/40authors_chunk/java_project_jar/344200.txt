@@ -1,0 +1,10 @@
+public class HexDump
+{
+
+    public HexDump()
+    {
+    }
+
+    public static void dump(byte data[], long offset, OutputStream stream, int index)
+        throws IOException, ArrayIndexOutOfBoundsException, IllegalArgumentException
+    {

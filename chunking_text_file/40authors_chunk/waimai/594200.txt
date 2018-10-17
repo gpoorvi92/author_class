@@ -1,0 +1,10 @@
+
+    private Float price;
+
+    private Integer number;
+
+    private String image;
+
+    private String description;
+
+    private Date insertDate;

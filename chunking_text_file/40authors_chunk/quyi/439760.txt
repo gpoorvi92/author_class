@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.cpuModel, other.cpuModel);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCpuCores()).compareTo(other.isSetCpuCores());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCpuCores()) {

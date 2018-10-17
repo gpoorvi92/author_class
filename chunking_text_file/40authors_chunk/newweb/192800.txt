@@ -1,0 +1,10 @@
+	@ResponseBody
+	public String isUserLogin(HttpServletRequest request, HttpServletResponse response){
+		String result = "";
+		response.setCharacterEncoding("UTF-8");
+		
+		int sessionUserID = (Integer) request.getSession().getAttribute("userID");
+		User user = userService.findUserByID(sessionUserID);
+		if(user.getType().equals("customer")){
+			Customer c = customerService.findCustomerByID(user.getLinkid());
+			result = c.getName();

@@ -1,0 +1,10 @@
+	}
+	public void setGgqsCount(int ggqsCount) {
+		this.ggqsCount = ggqsCount;
+	}
+	public double getSxfLength() {
+		return sxfLength;
+	}
+	public void setSxfLength(double sxfLength) {
+		this.sxfLength = sxfLength;
+	}

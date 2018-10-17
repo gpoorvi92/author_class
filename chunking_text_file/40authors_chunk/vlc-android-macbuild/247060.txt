@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    public static final String getParsedCpuAbiInfo() {
+        StringBuilder cpuAbiInfo = new StringBuilder();
+        String cpuAbi = BuildHelper.get_CPU_ABI();
+        if (!TextUtils.isEmpty(cpuAbi)) {
+            cpuAbiInfo.append("CPU ABI : ");
+            cpuAbiInfo.append(cpuAbi);
+            cpuAbiInfo.append("\n");

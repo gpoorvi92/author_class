@@ -1,0 +1,10 @@
+            mp.start();
+        } else {
+            if (mOnPreparedListener != null) {
+                mOnPreparedListener.onPrepared(this);
+            }
+            mListPlayerPrepared = true;
+        }
+    }
+
+    @Override

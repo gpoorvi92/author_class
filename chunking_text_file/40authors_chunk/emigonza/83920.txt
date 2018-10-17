@@ -1,0 +1,10 @@
+// 2001-Apr-18 JavaPOS Release 1.6                                 BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface PointCardRWService16
+  extends PointCardRWService15

@@ -1,0 +1,10 @@
+ * 
+ * 总体来说，abstract有利于类的设计者创建方法的原型，
+ * 而把真正的实现留个使用这个类的人
+ */
+
+public abstract class Person {
+    /* 这里就定义了一个抽象方法 */
+    public abstract String getDescription();
+    private String name;
+

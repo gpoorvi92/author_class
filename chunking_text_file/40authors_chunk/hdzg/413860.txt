@@ -1,0 +1,10 @@
+			}		
+		}
+		else if(x>274 && x<304 && y>15 && y<45){//点击了关闭按钮
+			
+			CityDrawable city = (CityDrawable)gameView.currentDrawable;
+			city.status = 0;
+			gameView.setStatus(0);
+		}
+		else if(x>130 && x<190 && y>400 && y<430){//点击了确定按钮
+			gameView.fightingGeneral=  totalGeneral.get((currentI+selectI));//得到选中的武将			

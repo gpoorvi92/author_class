@@ -1,0 +1,10 @@
+    
+    	public static void main(String[] args)
+	{
+		AisBatuCampurInfo frame = new AisBatuCampurInfo();
+		frame.setTitle("Ais Batu Campur Info");
+		frame.setSize(450,400);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		

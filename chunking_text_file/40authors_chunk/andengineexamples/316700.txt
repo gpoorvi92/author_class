@@ -1,0 +1,10 @@
+	@Override
+	public EngineOptions onCreateEngineOptions() {
+		final Camera camera = new Camera(0, 0, AsyncGameActivityExample.CAMERA_WIDTH, AsyncGameActivityExample.CAMERA_HEIGHT);
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_SENSOR, new RatioResolutionPolicy(AsyncGameActivityExample.CAMERA_WIDTH, AsyncGameActivityExample.CAMERA_HEIGHT), camera);
+	}
+
+	@Override
+	public void onCreateResourcesAsync(final IProgressListener pProgressListener) throws Exception {
+		/* Comfortably load the resources asynchronously, adding artificial pauses between each step. */

@@ -1,0 +1,10 @@
+    sb.append("cpu:");
+    sb.append(this.cpu);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("rss:");
+    sb.append(this.rss);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("vss:");
+    sb.append(this.vss);

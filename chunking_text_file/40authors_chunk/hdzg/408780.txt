@@ -1,0 +1,10 @@
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+/**
+ * 
+ * 该类为进度条界面
+ * 当程序长时间加载时给用户提示
+ *

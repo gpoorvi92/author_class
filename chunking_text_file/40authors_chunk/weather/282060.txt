@@ -1,0 +1,10 @@
+     * 2. 添加了日期转换的特殊处理。（这部分是将日期转换为了long型）
+     *
+     * @return
+     */
+    public static Gson buildInGson() {
+        return getInstance().gson;
+    }
+
+    /**
+     * 返回默认实现的jackson单例

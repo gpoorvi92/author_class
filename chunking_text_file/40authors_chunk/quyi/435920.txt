@@ -1,0 +1,10 @@
+
+    case AUTO_RUN_MONITOR:
+      return getAutoRunMonitor();
+
+    case FILE_OPERATE:
+      return getFileOperate();
+
+    case NETWORK_PACKET:
+      return getNetworkPacket();
+

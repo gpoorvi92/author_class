@@ -1,0 +1,10 @@
+                    Engine _elem58;
+                    _elem58 = new Engine();
+                    _elem58.read(iprot);
+                    struct.success.add(_elem58);
+                  }
+                  iprot.readListEnd();
+                }
+                struct.setSuccessIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

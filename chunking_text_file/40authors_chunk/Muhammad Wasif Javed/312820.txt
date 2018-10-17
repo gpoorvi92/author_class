@@ -1,0 +1,10 @@
+	public void itemStateChanged (ItemEvent e) {
+
+		rec = 0;
+		total = 0;
+		getRecords ("" + cboCategory.getSelectedItem ());	//Getting Records.
+		scroller.getViewport().remove (table);
+		scroller.getViewport().add (makeTable ());
+		this.repaint();
+
+	}

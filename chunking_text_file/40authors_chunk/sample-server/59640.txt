@@ -1,0 +1,10 @@
+        if (null != body)
+        {
+            int length = body.length;
+            int headerLength = CodedOutputStream.computeRawVarint32Size(length);
+            byte[] header = new byte[headerLength];
+            CodedOutputStream codedOutputStream = CodedOutputStream.newInstance(header);
+            codedOutputStream.writeRawVarint32(length);
+            codedOutputStream.flush();
+            return ChannelBuffers.wrappedBuffer(header, body);
+        }

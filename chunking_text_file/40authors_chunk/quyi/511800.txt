@@ -1,0 +1,10 @@
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("reportEngineConfig", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        reportEngineConfig_args args = new reportEngineConfig_args();
+        args.write(prot);
+        prot.writeMessageEnd();
+      }
+
+      public String getResult() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException {
+        if (getState() != org.apache.thrift.async.TAsyncMethodCall.State.RESPONSE_READ) {
+          throw new IllegalStateException("Method call not finished!");

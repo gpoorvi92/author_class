@@ -1,0 +1,10 @@
+  public NodeInfo setHardware(Hardware hardware) {
+    this.hardware = hardware;
+    return this;
+  }
+
+  public void unsetHardware() {
+    this.hardware = null;
+  }
+
+  /** Returns true if field hardware is set (has been assigned a value) and false otherwise */

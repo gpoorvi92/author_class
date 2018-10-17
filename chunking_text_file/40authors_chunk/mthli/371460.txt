@@ -1,0 +1,10 @@
+         {
+            double angle = 2 * Math.PI * i / n;
+
+            // center point of component
+            int x = xcenter + (int) (Math.cos(angle) * radius);
+            int y = ycenter + (int) (Math.sin(angle) * radius);
+
+            // move component so that its center is (x, y)
+            // and its size is its preferred size
+            Dimension d = c.getPreferredSize();

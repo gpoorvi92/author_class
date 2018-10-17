@@ -1,0 +1,10 @@
+
+import java.io.*;
+
+import com.gs.paint.*;
+import com.gs.shape.event.*;
+
+
+public class ShapeLayerModel extends Object implements Serializable {
+
+	

@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(CPU_MODEL_FIELD_DESC);
+        oprot.writeString(struct.cpuModel);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(CPU_CORES_FIELD_DESC);
+      oprot.writeI32(struct.cpuCores);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(CPU_MHZ_FIELD_DESC);
+      oprot.writeI32(struct.cpuMhz);
+      oprot.writeFieldEnd();

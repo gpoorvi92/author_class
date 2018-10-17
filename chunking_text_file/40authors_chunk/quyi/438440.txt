@@ -1,0 +1,10 @@
+      oprot.writeBitSet(optionals, 2);
+      if (struct.isSetHardware()) {
+        struct.hardware.write(oprot);
+      }
+      if (struct.isSetSoftware()) {
+        struct.software.write(oprot);
+      }
+    }
+
+    @Override

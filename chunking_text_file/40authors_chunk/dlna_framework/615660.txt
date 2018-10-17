@@ -1,0 +1,10 @@
+*		- Error : The NotifyRequest class introduces the XML namespace in variable names, too
+*		- Description : removed the xml namespace
+*	09/03/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Problem : Notification messages refer to uncorrect variable names
+*		- Error : The NotifyRequest class introduces the XML namespace in variable names, too
+*		- Description: removed the xml namespace
+*	09/08/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Problem : when an event notification message is received and the message

@@ -1,0 +1,10 @@
+        if (loadedImage != null) {
+            ImageView imageView = (ImageView) view;
+            boolean firstDisplay = !displayedImages.contains(imageUri);
+            if (firstDisplay) {
+                FadeInBitmapDisplayer.animate(imageView, 1000);
+                displayedImages.add(imageUri);
+            }
+        }
+    }
+}

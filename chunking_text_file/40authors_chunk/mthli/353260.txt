@@ -1,0 +1,10 @@
+            // unwrap with RSA private key
+            Key privateKey = (Key) keyIn.readObject();
+   
+            Cipher cipher = Cipher.getInstance("RSA");
+            cipher.init(Cipher.UNWRAP_MODE, privateKey);
+            Key key = cipher.unwrap(wrappedKey, "AES", Cipher.SECRET_KEY);
+   
+            cipher = Cipher.getInstance("AES");
+            cipher.init(Cipher.DECRYPT_MODE, key);
+   

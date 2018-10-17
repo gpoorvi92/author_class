@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean insert(TypeForBrand type) {
+		try {
+			sessionFactory.getCurrentSession().save(type);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

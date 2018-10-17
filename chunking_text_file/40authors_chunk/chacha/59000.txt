@@ -1,0 +1,9 @@
+	/**
+	 * 通过用户名删除帐号
+	 * @param userName
+	 */
+	public void deleteAccount(String userName){
+		Account entity=this.getAccountByname(userName);
+		this.deleteByID(entity.get_id());
+	}
+}

@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetFilePath()) {
+        optionals.set(2);
+      }
+      if (struct.isSetOperateContent()) {
+        optionals.set(3);
+      }
+      if (struct.isSetOperateTime()) {
+        optionals.set(4);
+      }

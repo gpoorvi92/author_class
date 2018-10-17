@@ -1,0 +1,10 @@
+ * @date: 2015年1月4日 下午11:24:33
+ */
+public interface Constants {
+
+	//lesson xml url
+	public final static String LESSON_XML_URL = "lesson.xml.url";
+	
+	//the address of all images, small vedioes and small audioes.
+	public final static String CONTEXT_WEB_RESOURCES = "context.web.resources";
+	

@@ -1,0 +1,10 @@
+         {
+            buffer.clear();
+            writeData(buffer, e);
+            buffer.flip();
+            channel.write(buffer);
+         }       
+      }
+      
+      try (FileChannel channel = FileChannel.open(path, StandardOpenOption.READ))
+      {  

@@ -1,0 +1,10 @@
+            if (BuildHelper.isApi16_JellyBeanOrLater())
+                vmPolicyBuilder = vmPolicyBuilder
+                        .detectLeakedRegistrationObjects();
+
+        if (VM__DETECT_LEAKED_SQLLITE_OBJECTS)
+            vmPolicyBuilder = vmPolicyBuilder.detectLeakedSqlLiteObjects();
+
+        switch (sVmPenalty) {
+        case Death:
+            vmPolicyBuilder = vmPolicyBuilder.penaltyDeath();

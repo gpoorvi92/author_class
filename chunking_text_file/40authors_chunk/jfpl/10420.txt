@@ -1,0 +1,10 @@
+			AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+			item.putStringValue("type", "1");
+			item.putStringValue("msg_type", "4");
+			item.putStringValue("chat_location", addressArr[0] + "\n"
+					+ addressArr[1]);
+			item.putObjectValue("tag", addressArr);
+			item.putStringValue("load_data_type", "0");
+			list.add(item);
+			acd.putArrayValue("chat_list", list);
+			fillData(acd, getWindow().getDecorView(), "");

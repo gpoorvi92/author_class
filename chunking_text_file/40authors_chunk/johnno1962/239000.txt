@@ -1,0 +1,8 @@
+
+    public native void __keyReleased( java.awt.event.KeyEvent e );
+
+    public void keyReleased( java.awt.event.KeyEvent e ) {
+        __keyReleased( e );
+    }
+
+}

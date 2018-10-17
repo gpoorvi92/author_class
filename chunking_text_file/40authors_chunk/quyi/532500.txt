@@ -1,0 +1,10 @@
+    this.statement = null;
+    this.riskType = null;
+    this.riskLevel = null;
+    this.ruleNo = null;
+    this.category = null;
+    this.description = null;
+    setLineNumIsSet(false);
+    this.lineNum = 0;
+    setColumnNumIsSet(false);
+    this.columnNum = 0;

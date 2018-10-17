@@ -1,0 +1,10 @@
+	 * 获取菜单URL。
+	 * @return 菜单URL。
+	 * */
+	public String getUrl() {
+		return url;
+	}
+	/**
+	 * 设置菜单URL。
+	 * @param url
+	 * 菜单URL。

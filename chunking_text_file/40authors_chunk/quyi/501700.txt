@@ -1,0 +1,10 @@
+      case 1:
+        return ACCESS_COARSE_LOCATION;
+      case 2:
+        return ACCESS_FINE_LOCATION;
+      case 3:
+        return ACCESS_LOCATION_EXTRA_COMMANDS;
+      case 4:
+        return ACCESS_MOCK_LOCATION;
+      case 5:
+        return ACCESS_NETWORK_STATE;

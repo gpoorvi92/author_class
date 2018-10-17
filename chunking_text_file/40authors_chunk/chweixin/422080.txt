@@ -1,0 +1,10 @@
+		return locationReqMessage;
+	}
+	/**
+	 * 解析链接消息。
+	 * @param data
+	 * 	消息数据。
+	 * @return
+	 * 	链接消息对象。
+	 * */
+	public static LinkReqMessage parseLinkReqMessage(Map<String, String> data){

@@ -1,0 +1,10 @@
+            beforeStartup();
+            doStartup();
+            log.info("{} server startup on {}:{}", new Object[]{this.getClass().getSimpleName(), host, port});
+        } catch (Throwable t)
+        {
+            log.error("", t);
+        }
+    }
+    public final void shutdown()
+    {

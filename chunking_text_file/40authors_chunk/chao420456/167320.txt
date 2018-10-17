@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 创建集合对象
+		HashSet<Person> hs = new HashSet<Person>();
+
+		// 创建元素对象
+		Person p1 = new Person("吕洞宾", 30);
+		Person p2 = new Person("何仙姑", 22);
+		Person p3 = new Person("曹国舅", 25);
+		Person p4 = new Person("铁拐李", 35);
+		Person p5 = new Person("张果老", 33);

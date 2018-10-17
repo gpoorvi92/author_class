@@ -1,0 +1,10 @@
+                return this.under.next();
+            }
+
+            @Override
+            public void remove() {
+            }
+
+            private final IntIterator under = toSetBitsIntIterator(i);
+        };
+

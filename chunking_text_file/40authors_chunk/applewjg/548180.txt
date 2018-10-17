@@ -1,0 +1,5 @@
+            cur = cur.next;
+        }
+        connect(dummy.next);
+    }
+}

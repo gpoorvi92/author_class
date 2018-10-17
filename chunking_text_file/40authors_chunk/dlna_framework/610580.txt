@@ -1,0 +1,10 @@
+		try {
+			return Integer.parseInt(value);
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+		}
+		return 0;
+	}
+
+	public final static long toLong(String value)

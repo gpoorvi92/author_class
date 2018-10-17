@@ -1,0 +1,10 @@
+			Assert.assertNull(state.getAbsoluteFullPathOfUploadedFile());
+		}
+		Assert.assertEquals(fileName, state.getStaticFileStateJson().getOriginalFileName());
+		Assert.assertEquals(fileSize, state.getStaticFileStateJson().getOriginalFileSizeInBytes());
+	}
+
+
+
+	public static class TestFileSplitResult {
+

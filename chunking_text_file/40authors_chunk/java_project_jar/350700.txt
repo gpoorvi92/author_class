@@ -1,0 +1,10 @@
+            throw new EOFException();
+        else
+            return -1;
+    }
+
+    private final long size;
+    private long position;
+    private long mark;
+    private long readlimit;
+    private boolean eof;

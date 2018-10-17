@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.memSize, other.memSize);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetFsSize()).compareTo(other.isSetFsSize());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFsSize()) {

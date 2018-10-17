@@ -1,0 +1,10 @@
+	 * @param propValue the PropValue
+	 */
+	public boolean contains( PropValue propValue );
+
+	/** @return an PropValueList.Iterator object for this list */
+	public PropValueList.Iterator iterator();
+
+	//-------------------------------------------------------------------------
+	// Inner interfaces
+	//

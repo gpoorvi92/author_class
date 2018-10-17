@@ -1,0 +1,10 @@
+     *
+     * @return An <code>IHttpRequestResponse</code> object containing details of
+     * the intercepted message.
+     */
+    IHttpRequestResponse getMessageInfo();
+
+    /**
+     * This method retrieves the currently defined interception action. The
+     * default action is
+     * <code>ACTION_FOLLOW_RULES</code>. If multiple proxy listeners are

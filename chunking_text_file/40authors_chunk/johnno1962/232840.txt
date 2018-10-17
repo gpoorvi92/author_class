@@ -1,0 +1,6 @@
+
+    public void treeStructureChanged( javax.swing.event.TreeModelEvent e ) {
+        __treeStructureChanged( e );
+    }
+
+}

@@ -1,0 +1,10 @@
+        timer.schedule(task1, runDate);
+        timer.schedule(task2, runDate);
+    }
+}
+
+/*
+输出：
+当前时间为：Fri Apr 15 22:39:30 CST 2016
+A计划时间为：Fri Apr 15 22:39:30 CST 2016
+B计划时间为：Fri Apr 15 22:39:35 CST 2016

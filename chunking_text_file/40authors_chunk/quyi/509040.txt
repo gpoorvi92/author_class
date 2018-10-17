@@ -1,0 +1,10 @@
+                _val157 = new APICheck();
+                _val157.read(iprot);
+                _elem153.put(_key156, _val157);
+              }
+            }
+            struct.usedPermissions.add(_elem153);
+          }
+        }
+        struct.setUsedPermissionsIsSet(true);
+      }

@@ -1,0 +1,10 @@
+            if (this.iterator.getRunningLength() > 0) {
+                this.endrun += (int) this.iterator.getRunningLength();
+                this.isLiteral = false;
+                this.value = this.iterator.getRunningBit();
+            } else if (this.iterator.getNumberOfLiteralWords() > 0) {
+                this.isLiteral = true;
+                this.endrun += this.iterator.getNumberOfLiteralWords();
+            } else {
+                this.dead = true;
+            }

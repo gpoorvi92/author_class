@@ -1,0 +1,10 @@
+     * @return list of strings for part of speech tokens
+     */
+    public List<String> tag(List<String> words) {
+        List<String> ret = new ArrayList<String>(words.size());
+        for (int i = 0, size = words.size(); i < size; i++) {
+            String[] ss = (String[]) lexicon.get(words.get(i));
+            // 1/22/2002 mod (from Lisp code): if not in hash, try lower case:
+            if (ss == null)
+                ss = lexicon.get(words.get(i).toLowerCase());
+            if (ss == null && words.get(i).length() == 1)

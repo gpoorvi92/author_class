@@ -1,0 +1,10 @@
+        Assert.assertTrue(ewahorth.equals(ewahtrueor));
+
+        EWAHCompressedBitmap32 ewahandth = EWAHCompressedBitmap32
+                .threshold(3, ewah1, ewah2, ewah3);
+        ewahandth.setSizeInBitsWithinLastWord(maxSizeInBits(ewah1, ewah2, ewah3));
+        EWAHCompressedBitmap32 ewahtrueand = EWAHCompressedBitmap32.and(
+                ewah1, ewah2, ewah3);
+        Assert.assertTrue(ewahandth.equals(ewahtrueand));
+
+        EWAHCompressedBitmap32 ewahmajth = EWAHCompressedBitmap32

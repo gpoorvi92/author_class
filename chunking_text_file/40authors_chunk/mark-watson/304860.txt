@@ -1,0 +1,10 @@
+        return
+                (float) (1.0f / (1.0f + Math.exp((double) (-x))));
+        //     (float)((1.0f/(1.0f+Math.exp((double)(-x))))-0.5f);
+    }
+
+    protected float sigmoidP(float x) {
+        double z = sigmoid(x); // + 0.5f;
+        return (float) (z * (1.0f - z));
+    }
+

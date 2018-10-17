@@ -1,0 +1,8 @@
+	}
+
+	@Override
+	public synchronized void remove(WeChatContext context) {
+		if(context == null) return;
+		CacheListHandler.removeCache(context.getAccountId() + "_" + context.getOpenId());
+	}
+}

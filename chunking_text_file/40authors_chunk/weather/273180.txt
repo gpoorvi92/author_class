@@ -1,0 +1,9 @@
+  /**
+   * Returns the {@link java.net.CacheResponse} from the delegate by converting the
+   * OkHttp {@link Request} into the arguments required by the {@link java.net.ResponseCache}.
+   */
+  private CacheResponse getJavaCachedResponse(Request request) throws IOException {
+    Map<String, List<String>> headers = JavaApiConverter.extractJavaHeaders(request);
+    return delegate.get(request.uri(), request.method(), headers);
+  }
+}

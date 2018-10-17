@@ -1,0 +1,10 @@
+            dateTaken = cursor.getLong(INDEX_DATE_MODIFIED) * 1000;
+        }
+        long miniThumbMagic = cursor.getLong(INDEX_MINI_THUMB_MAGIC);
+        int orientation = cursor.getInt(INDEX_ORIENTATION);
+        String title = cursor.getString(INDEX_TITLE);
+        String mimeType = cursor.getString(INDEX_MIME_TYPE);
+        if (title == null || title.length() == 0) {
+            title = dataPath;
+        }
+        return new Image(this, mContentResolver, id, cursor.getPosition(),

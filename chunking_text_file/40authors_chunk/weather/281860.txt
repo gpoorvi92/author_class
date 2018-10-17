@@ -1,0 +1,10 @@
+     * @param activity
+     */
+    public static void hideSoftKeyboardNotAlways(Activity activity, IBinder windowToken) {
+        hideSoftKeyboardNotAlways(activity, windowToken, null);
+    }
+
+
+    /**
+     * 隐藏软键盘，类型InputMethodManager.HIDE_NOT_ALWAYS
+     *

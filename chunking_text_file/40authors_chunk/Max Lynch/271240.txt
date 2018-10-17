@@ -1,0 +1,10 @@
+	void setBounds(Rectangle bounds)
+	{
+		x1 = (int) bounds.getX();
+		y1 = (int) bounds.getY();
+		x2 = (int) (bounds.getX() + bounds.getWidth());
+		y2 = (int) (bounds.getY() + bounds.getHeight());
+	}
+	
+	public Color getColor() { return(fillColor); }
+	public Color getStrokeColor() { return(strokeColor); }

@@ -1,0 +1,10 @@
+import com.newweb.dao.business.BillDao;
+import com.newweb.model.business.Bill;
+
+@Component("billDao")
+public class BillDaoImp implements BillDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired

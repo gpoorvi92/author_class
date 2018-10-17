@@ -1,0 +1,10 @@
+
+    /**
+     * Sets the number of literal words.
+     *
+     * @param number the new number of literal words
+     */
+    public void setNumberOfLiteralWords(final int number) {
+        this.numberOfLiteralWords = number;
+    }
+

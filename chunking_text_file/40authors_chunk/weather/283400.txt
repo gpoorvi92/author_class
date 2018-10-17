@@ -1,0 +1,10 @@
+    @InjectView(R.id.weekly_list)
+    ListView mList;
+    private WeeklyAdapter mAdapter;
+
+    /**
+     * Returns a new instance of this fragment for the given section
+     * number.
+     */
+    public static WeatherWeeklyFragment newInstance(int sectionNumber) {
+        WeatherWeeklyFragment fragment = new WeatherWeeklyFragment();

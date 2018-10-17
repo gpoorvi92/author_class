@@ -1,0 +1,10 @@
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone == null ? null : phone.trim();
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }

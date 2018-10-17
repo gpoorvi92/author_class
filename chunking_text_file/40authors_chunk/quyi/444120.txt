@@ -1,0 +1,10 @@
+    schemes.put(TupleScheme.class, new AppCheckResultTupleSchemeFactory());
+  }
+
+  public UserApp userApp; // required
+  public StaticCheckResultData staticCheckResult; // required
+  public DynamicCheckResultData dynamicCheckResult; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    USER_APP((short)1, "userApp"),

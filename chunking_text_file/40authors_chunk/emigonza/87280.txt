@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapDisplay"),
+        makeProperty("CapDisplayText"),
+        makeProperty("CapPriceCalculating"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapTareWeight"),
+        makeProperty("CapZeroScale"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),

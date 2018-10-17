@@ -1,0 +1,10 @@
+				Enumeration en = mm.getMapNames();
+				while (en.hasMoreElements()) {
+
+					String key = (String) en.nextElement();
+					map.put(key, mm.getObject(key));
+				}
+			}
+		} catch (JMSException e) {
+
+			throw new MQException("Fail to recognize the message type!", e);

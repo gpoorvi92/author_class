@@ -1,0 +1,10 @@
+  @Override
+  public void clear() {
+    this.engineName = null;
+    this.version = null;
+    this.update = null;
+    this.result = null;
+  }
+
+  public String getEngineName() {
+    return this.engineName;

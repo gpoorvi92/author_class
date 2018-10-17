@@ -1,0 +1,10 @@
+    }
+
+    public static Tailer create(File file, TailerListener listener)
+    {
+        return create(file, listener, 1000L, false);
+    }
+
+    public File getFile()
+    {
+        return file;

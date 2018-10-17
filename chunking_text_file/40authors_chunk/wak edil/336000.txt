@@ -1,0 +1,10 @@
+
+   try {
+      // Create a server socket
+      ServerSocket serverSocket = new ServerSocket(8888);
+      jta.append("----------------\n");
+      jta.append("KITCHEN\n");
+      jta.append("----------------\n");
+      
+      
+      // Listen for a connection request

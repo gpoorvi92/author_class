@@ -1,0 +1,10 @@
+      if (struct.screenShotPath != null) {
+        oprot.writeFieldBegin(SCREEN_SHOT_PATH_FIELD_DESC);
+        oprot.writeString(struct.screenShotPath);
+        oprot.writeFieldEnd();
+      }
+      if (struct.imageContent != null) {
+        oprot.writeFieldBegin(IMAGE_CONTENT_FIELD_DESC);
+        oprot.writeString(struct.imageContent);
+        oprot.writeFieldEnd();
+      }

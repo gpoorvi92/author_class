@@ -1,0 +1,10 @@
+        } else {
+          setPropertyName((String)value);
+        }
+        break;
+
+      case PROPERTY_VALUE:
+        if (value == null) {
+          unsetPropertyValue();
+        } else {
+          setPropertyValue((String)value);

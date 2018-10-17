@@ -1,0 +1,10 @@
+
+    synchronized public void push() {
+        try {
+            if (list.size() == 1) {
+                System.out.println("push操作中的： " + Thread.currentThread().getName() + " 线程呈wait状态");
+                this.wait();
+            }
+            list.add(Math.random());
+            this.notify();
+            System.out.println("push = " + list.size());

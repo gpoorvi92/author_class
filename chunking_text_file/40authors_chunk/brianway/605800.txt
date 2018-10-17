@@ -1,0 +1,10 @@
+            System.out.println("A= " + System.currentTimeMillis() + " i=" + myThread13.getI());
+
+            //B段
+            myThread13.resume();
+            Thread.sleep(5000);
+            //C段
+            myThread13.suspend();
+            System.out.println("B= " + System.currentTimeMillis() + " i=" + myThread13.getI());
+            Thread.sleep(5000);
+            System.out.println("B= " + System.currentTimeMillis() + " i=" + myThread13.getI());

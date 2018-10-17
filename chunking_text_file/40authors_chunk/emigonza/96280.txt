@@ -1,0 +1,10 @@
+     */
+    public void println( String s ) { getTracerOutput().println( s ); }
+
+    /**
+     * Prints a string appended without a new line to the tracer output
+     * @param s the String to print
+     */
+    public void print( String s ) { getTracerOutput().print( s ); }
+
+    /**

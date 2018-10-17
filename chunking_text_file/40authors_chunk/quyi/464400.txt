@@ -1,0 +1,10 @@
+                  {
+                    com.nercis.isscp.idl.rules.Rules _elem66;
+                    _elem66 = new com.nercis.isscp.idl.rules.Rules();
+                    _elem66.read(iprot);
+                    struct.rules.add(_elem66);
+                  }
+                  iprot.readListEnd();
+                }
+                struct.setRulesIsSet(true);
+              } else { 

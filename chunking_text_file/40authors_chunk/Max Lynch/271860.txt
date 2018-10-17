@@ -1,0 +1,10 @@
+		int s_w_2 = s_w/2;
+		int s_h_2 = s_h/2;
+		
+		gsImage = Toolkit.getDefaultToolkit().getImage("hi.jpg");
+		
+		InnerWindow iw = new InnerWindow(gsImage);
+		
+		getContentPane().setLayout(new BorderLayout());
+		
+		getContentPane().add(iw, BorderLayout.CENTER);

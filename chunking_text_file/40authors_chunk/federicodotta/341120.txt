@@ -1,0 +1,10 @@
+     * @param insertionPoint An <code>IScannerInsertionPoint</code> object that
+     * can be queried to obtain details of the insertion point being tested, and
+     * can be used to build scan requests for particular payloads.
+     * @return A list of <code>IScanIssue</code> objects, or <code>null</code>
+     * if no issues are identified.
+     */
+    List<IScanIssue> doActiveScan(
+            IHttpRequestResponse baseRequestResponse,
+            IScannerInsertionPoint insertionPoint);
+

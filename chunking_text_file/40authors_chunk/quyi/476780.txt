@@ -1,0 +1,10 @@
+        }
+        if (struct.isSetUseRule()) {
+          optionals.set(2);
+        }
+        oprot.writeBitSet(optionals, 3);
+        if (struct.isSetUserApps()) {
+          {
+            oprot.writeI32(struct.userApps.size());
+            for (com.nercis.isscp.idl.UserApp _iter8 : struct.userApps)
+            {

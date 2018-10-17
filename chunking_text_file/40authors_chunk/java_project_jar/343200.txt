@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        return in.skip(ln);
+        IOException e;
+        e;
+        handleIOException(e);
+        return 0L;
+    }
+
+    public int available()

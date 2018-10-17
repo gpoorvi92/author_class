@@ -1,0 +1,7 @@
+    public void    addDataListener(DataListener l);
+    public void    removeDataListener(DataListener l);
+    public void    addErrorListener(ErrorListener l);
+    public void    removeErrorListener(ErrorListener l);
+    public void    addStatusUpdateListener(StatusUpdateListener l);
+    public void    removeStatusUpdateListener(StatusUpdateListener l);
+}

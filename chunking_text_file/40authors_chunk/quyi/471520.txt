@@ -1,0 +1,10 @@
+
+    public void submitMission(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<com.nercis.isscp.idl.PlotsType> plots, String useRule, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      submitMission_call method_call = new submitMission_call(missionId, userApps, plots, useRule, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class submitMission_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;

@@ -1,0 +1,10 @@
+	}
+
+	////////////////////////////////////////////////
+	//	isAllowedValueNode
+	////////////////////////////////////////////////
+
+	public static boolean isAllowedValueNode(Node node)
+	{
+		return ELEM_NAME.equals(node.getName());
+	}

@@ -1,0 +1,10 @@
+         keygen.init(random);
+         SecretKey key = keygen.generateKey();
+
+         // wrap with RSA public key
+         try (ObjectInputStream keyIn = new ObjectInputStream(new FileInputStream(args[3]));
+            DataOutputStream out = new DataOutputStream(new FileOutputStream(args[2]));
+            InputStream in = new FileInputStream(args[1]) )
+         {
+            Key publicKey = (Key) keyIn.readObject();
+            Cipher cipher = Cipher.getInstance("RSA");

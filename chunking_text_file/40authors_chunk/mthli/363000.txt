@@ -1,0 +1,10 @@
+                  Attributes attrs)
+            {
+               if (lname.equals("a") && attrs != null)
+               {
+                  for (int i = 0; i < attrs.getLength(); i++)
+                  {
+                     String aname = attrs.getLocalName(i);
+                     if (aname.equals("href")) System.out.println(attrs.getValue(i));
+                  }
+               }

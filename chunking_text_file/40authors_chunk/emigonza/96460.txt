@@ -1,0 +1,10 @@
+     * @author E. Michael Maximilien (maxim@us.ibm.com)
+     */
+    static class DefaultTracerOutput extends Object implements TracerOutput
+    {
+        /**
+         * Default ctor
+         * @since 1.2 (NY 2K meeting)
+         */
+        public DefaultTracerOutput() {}
+

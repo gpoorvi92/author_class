@@ -1,0 +1,10 @@
+
+      // add card images
+
+      labelTable.put(0, new JLabel(new ImageIcon("nine.gif")));
+      labelTable.put(20, new JLabel(new ImageIcon("ten.gif")));
+      labelTable.put(40, new JLabel(new ImageIcon("jack.gif")));
+      labelTable.put(60, new JLabel(new ImageIcon("queen.gif")));
+      labelTable.put(80, new JLabel(new ImageIcon("king.gif")));
+      labelTable.put(100, new JLabel(new ImageIcon("ace.gif")));
+

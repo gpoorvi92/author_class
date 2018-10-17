@@ -1,0 +1,10 @@
+            merchant.setPassword(null);
+        }
+        return merchant;
+    }
+
+    @Override
+    public String getImageById(Integer id) {
+        return merchantMapper.getImageById(id);
+    }
+

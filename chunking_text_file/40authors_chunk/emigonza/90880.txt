@@ -1,0 +1,10 @@
+        this.logicalName = logicalName;
+        this.entry = entry;
+        this.siFactoryClassName = siFactoryClassName;
+    }
+
+    /**
+     * @return the JposServiceInstance for this connection (it's null 
+     * util a succesful connection)
+     * @since 0.1 (Philly 99 meeting)
+     */

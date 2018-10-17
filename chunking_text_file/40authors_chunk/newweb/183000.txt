@@ -1,0 +1,10 @@
+	public void setWinHeight(double winHeight) {
+		this.winHeight = winHeight;
+	}
+	
+	@Column
+	public double getWinWidth() {
+		return winWidth;
+	}
+	public void setWinWidth(double winWidth) {
+		this.winWidth = winWidth;

@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCheckStopTime()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.checkStopTime, other.checkStopTime);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    return 0;

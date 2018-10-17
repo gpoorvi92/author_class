@@ -1,0 +1,10 @@
+      setDragEnabled(true);
+      setDropMode(DropMode.ON_OR_INSERT);
+      setTransferHandler(new ImageListTransferHandler());
+   }
+}
+
+class ImageListTransferHandler extends TransferHandler
+{
+   // support for drag
+

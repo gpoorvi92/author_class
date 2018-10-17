@@ -1,0 +1,10 @@
+		return this.begin;
+	}
+
+	/**
+	 * Private field begin Setter method.
+	 * @param begin 
+	 */
+	public void setBegin(Timestamp begin) {
+		this.begin = begin;
+	}

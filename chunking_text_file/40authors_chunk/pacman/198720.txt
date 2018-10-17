@@ -1,0 +1,10 @@
+	public void run() {
+
+		int cmdId = 0;
+		InnerWorkerPool pool = context
+				.getAttribute(InnerWorkerPool.WORKER_POOL);
+		BaseMessage msg = context.getAttribute("msg");
+		
+		if (msg != null)
+			cmdId = msg.getCommandId();
+		

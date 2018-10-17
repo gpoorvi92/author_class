@@ -1,0 +1,10 @@
+	 * @param title
+	 * 	消息标题。
+	 * @param url
+	 * 	消息连接。
+	 * */
+	public Article(String title,String url){
+		this.setTitle(title);
+		if(url != null && !url.trim().isEmpty()){
+			this.setUrl(url);
+		}

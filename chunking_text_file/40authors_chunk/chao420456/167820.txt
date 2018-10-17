@@ -1,0 +1,10 @@
+	public DataOutputStream dos = null;
+	private boolean flag_exit = false;
+	
+	private int threadID;
+	
+	public Map<String, Client_singleFrame> c_singleFrames;
+	public  List<String> username_online;
+	public  List<Integer> clientuserid;
+	public String username = null;
+	public String chat_re;

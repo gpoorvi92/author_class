@@ -1,0 +1,10 @@
+ *     RandomListNode next, random;
+ *     RandomListNode(int x) { this.label = x; }
+ * };
+ */
+public class Solution {
+    public RandomListNode copyRandomList_1(RandomListNode head) {
+        if (head == null) return null;
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
+        RandomListNode dummy = new RandomListNode(-1);
+        RandomListNode curNew = dummy, cur = head;

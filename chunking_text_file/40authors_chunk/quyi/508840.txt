@@ -1,0 +1,10 @@
+    }
+
+  }
+
+  private static class AppDetectResultTupleSchemeFactory implements SchemeFactory {
+    public AppDetectResultTupleScheme getScheme() {
+      return new AppDetectResultTupleScheme();
+    }
+  }
+

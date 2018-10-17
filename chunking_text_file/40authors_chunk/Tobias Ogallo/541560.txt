@@ -1,0 +1,10 @@
+		button1=new JButton("Search");
+		button2=new JButton("Cancel");
+		label1.setForeground(Color.blue);
+		panel1=new JPanel(new GridLayout(2,2));
+		panel1.add(label1);panel1.add(text1);
+		panel1.add(button1);panel1.add(button2);
+		
+		panel2=new JPanel();
+		panel2.add(panel1);
+		//getContentPane().setLayout(new BorderLayout());

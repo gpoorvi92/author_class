@@ -1,0 +1,10 @@
+		setMethod(HTTP.M_SEARCH);
+		setURI("*");
+
+		setHeader(HTTP.ST, serachTarget);
+		setHeader(HTTP.MX, Integer.toString(mx));
+		setHeader(HTTP.MAN, "\"" + MAN.DISCOVER + "\"");
+	}
+	
+	public SSDPSearchRequest(String serachTarget)
+	{

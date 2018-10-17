@@ -1,0 +1,10 @@
+package com.lz.center.dao;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+/**
+ * User: Teaey
+ * Date: 13-9-17
+ */
+public class DaoHelper
+{

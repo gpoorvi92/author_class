@@ -1,0 +1,10 @@
+		@Override
+		protected void doRun() throws Exception {
+			File file = null;
+
+			file = channel.take();
+			try {
+				indexFile(file);
+			} catch (Exception e) {
+				e.printStackTrace();
+			} finally {

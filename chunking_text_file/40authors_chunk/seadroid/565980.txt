@@ -1,0 +1,10 @@
+            else
+                deleteAccount(old);
+        }
+
+        // Create a new map of values, where column names are the keys
+        ContentValues values = new ContentValues();
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_SERVER, account.server);
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_EMAIL, account.email);
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_TOKEN, account.token);
+

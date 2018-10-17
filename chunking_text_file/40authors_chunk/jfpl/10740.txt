@@ -1,0 +1,10 @@
+			// @Override
+			// public void onClick(View v) {
+			// Intent intent = new Intent(act, WebContentActivity.class);
+			// intent.putExtra("title", act.getString(R.string.app1));
+			// intent.putExtra("app_id", "1");
+			// intent.putExtra("url",
+			// "http://www.jtgzfw.com/jtgzfw/_pc/wx/jgcs_list.do?type_id=JC02");
+			// act.startActivity(intent);
+			// }
+			// });

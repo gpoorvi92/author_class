@@ -1,0 +1,10 @@
+    {
+      send_modifyTaskManagerConfig(propertyName, propertyValue);
+      return recv_modifyTaskManagerConfig();
+    }
+
+    public void send_modifyTaskManagerConfig(String propertyName, String propertyValue) throws org.apache.thrift.TException
+    {
+      modifyTaskManagerConfig_args args = new modifyTaskManagerConfig_args();
+      args.setPropertyName(propertyName);
+      args.setPropertyValue(propertyValue);

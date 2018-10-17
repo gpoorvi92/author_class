@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
+
+/**
+ * Created by hufeng on 13-7-8.
+ */

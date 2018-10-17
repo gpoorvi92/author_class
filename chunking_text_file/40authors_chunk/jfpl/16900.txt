@@ -1,0 +1,10 @@
+					// file:///android_asset/www/test.html
+					"assets://images/vio_search.png" },
+			{
+					"2",
+					"保险理赔",
+					"http://www.jtgzfw.com/jtgzfw/_pc/wx/jgcs_list.do?type_id=JC02",
+					"assets://images/friend.png" } };
+
+	public static final String[] HPZL_DESC = new String[] { "02", "小型车辆", "01",
+			"大型车辆" };

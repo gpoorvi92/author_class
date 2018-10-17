@@ -1,0 +1,10 @@
+    */
+   public Document buildDocument()
+   {      
+      String namespace = "http://www.w3.org/2000/svg";
+      Document doc = builder.newDocument();
+      Element svgElement = doc.createElementNS(namespace, "svg");
+      doc.appendChild(svgElement);
+      svgElement.setAttribute("width", "" + getWidth());
+      svgElement.setAttribute("height", "" + getHeight());
+      for (int i = 0; i < rects.size(); i++)

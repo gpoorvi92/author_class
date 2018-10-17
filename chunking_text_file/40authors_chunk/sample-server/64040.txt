@@ -1,0 +1,10 @@
+                }
+            }
+        }
+        if (!toBeHandle)
+        {
+            String errorMsg = new StringBuilder().append("您没有[").append(limitLack == null ? "" : limitLack.getDesc()).append("]权限").toString();
+            if (acl.type() == RequestType.PAGE)
+            {
+                StringBuilder sb = new StringBuilder();
+                sb.append("/overview/?errorMsg=").append(errorMsg);

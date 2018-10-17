@@ -1,0 +1,10 @@
+    /**
+     * Used to indicate a parameter within the message body.
+     */
+    static final byte PARAM_BODY = 1;
+    /**
+     * Used to indicate an HTTP cookie.
+     */
+    static final byte PARAM_COOKIE = 2;
+    /**
+     * Used to indicate an item of data within an XML structure.

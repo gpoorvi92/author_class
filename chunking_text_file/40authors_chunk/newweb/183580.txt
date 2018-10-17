@@ -1,0 +1,10 @@
+	}
+	@Column(columnDefinition="int default 0 ")
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public Object clone(){

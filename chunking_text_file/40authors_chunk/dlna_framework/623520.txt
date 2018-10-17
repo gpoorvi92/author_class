@@ -1,0 +1,10 @@
+
+package org.cybergarage.upnp.ssdp;
+
+import org.cybergarage.util.Debug;
+
+/**
+ * 
+ * This class defines constant value related to SSDP.<br>
+ * All the values defined here are complaint to the UPnP Standard 
+ * 

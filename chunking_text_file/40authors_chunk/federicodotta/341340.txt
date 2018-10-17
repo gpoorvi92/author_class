@@ -1,0 +1,10 @@
+     */
+    static final byte CONTEXT_INTRUDER_ATTACK_RESULTS = 9;
+    /**
+     * Used to indicate that the context menu is being invoked in a search
+     * results window.
+     */
+    static final byte CONTEXT_SEARCH_RESULTS = 10;
+
+    /**
+     * This method can be used to retrieve the native Java input event that was

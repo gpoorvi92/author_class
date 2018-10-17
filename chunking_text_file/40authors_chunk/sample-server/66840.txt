@@ -1,0 +1,10 @@
+    
+    public final GameServerRpc.GetPlayerJsonDetailResp getPlayerJsonDetail(GameServerRpc.GetPlayerJsonDetailReq req)
+    {
+        BaseRpcConnection rpcClient = null;
+        try
+        {
+            rpcClient = rpcClientPool.borrowRpcClient();
+            Rpc.RpcPacket resp = rpcClient.sendWaitBack(newRpcPacket(req));
+            GameServerRpc.GetPlayerJsonDetailResp ret = GameServerRpc.GetPlayerJsonDetailResp.parseFrom(resp.getContent());
+            rpcClientPool.returnRpcClient(rpcClient);

@@ -1,0 +1,10 @@
+      menuBar.add(fileMenu);
+      menuBar.add(editMenu);
+      menuBar.add(helpMenu);
+
+      // demonstrate pop-ups
+
+      popup = new JPopupMenu();
+      popup.add(cutAction);
+      popup.add(copyAction);
+      popup.add(pasteAction);

@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example16;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P196
+ * 验证线程变量的隔离性
+ */

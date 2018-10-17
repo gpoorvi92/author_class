@@ -1,0 +1,10 @@
+    public Bitmap miniThumbBitmap() {
+        try {
+            long id = mId;
+            return BitmapManager.instance().getThumbnail(mContentResolver,
+                    id, Images.Thumbnails.MICRO_KIND, null, true);
+        } catch (Throwable ex) {
+            Log.e(TAG, "miniThumbBitmap got exception", ex);
+            return null;
+        }
+    }

@@ -1,0 +1,10 @@
+        }
+        Iterator<Entry<String, ArrayList<String>>> iter = group.entrySet().iterator();
+        while (iter.hasNext()) {
+            Map.Entry entry = (Map.Entry) iter.next();
+            ArrayList<String> val = (ArrayList<String>) entry.getValue();
+            if (val.size() > 1) res.addAll(val);
+        }
+        return res;
+    }
+}

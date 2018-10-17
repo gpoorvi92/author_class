@@ -1,0 +1,10 @@
+import org.cybergarage.xml.ParserException;
+
+public class SOAPRequest extends HTTPRequest
+{
+	private final static String SOAPACTION = "SOAPACTION";
+	
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	

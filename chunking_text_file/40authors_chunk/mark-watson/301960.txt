@@ -1,0 +1,10 @@
+    System.out.println( doc.getDocumentElement().getTagName());
+    NodeList listItems = doc.getElementsByTagName("item");
+    int numItems = listItems.getLength();
+    for (int i=0; i<numItems; i++) {
+      Node item = listItems.item(i);
+      //System.out.println("\nStart of new item in RSS 2.0 XML stream:");
+      Hashtable<String,String> new_item = new Hashtable<String,String>();
+      ret.add(new_item);
+      NodeList item_data = item.getChildNodes();
+      int num = item_data.getLength();

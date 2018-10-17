@@ -1,0 +1,10 @@
+      if (that instanceof updateUserAppStatus_result)
+        return this.equals((updateUserAppStatus_result)that);
+      return false;
+    }
+
+    public boolean equals(updateUserAppStatus_result that) {
+      if (that == null)
+        return false;
+
+      boolean this_present_success = true && this.isSetSuccess();

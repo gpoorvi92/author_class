@@ -1,0 +1,10 @@
+*	03/28/03
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.upnp.xml;
+
+import org.cybergarage.upnp.control.*;
+
+public class ActionData extends NodeData

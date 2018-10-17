@@ -1,0 +1,10 @@
+            public void mousePressed(MouseEvent event)
+            {
+               Point p = event.getPoint();
+               for (int i = 0; i < points.length; i++)
+               {
+                  double x = points[i].getX() - SIZE / 2;
+                  double y = points[i].getY() - SIZE / 2;
+                  Rectangle2D r = new Rectangle2D.Double(x, y, SIZE, SIZE);
+                  if (r.contains(p))
+                  {

@@ -1,0 +1,10 @@
+		}
+
+		synchronized (gListeners) {
+			for (IMQListener listener : gListeners) {
+				switch (type) {
+				case 1:
+					listener.onTextMessage(txt);
+					break;
+				case 2:
+					listener.onStreamMessage(buf);

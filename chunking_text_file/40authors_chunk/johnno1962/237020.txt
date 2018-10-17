@@ -1,0 +1,10 @@
+
+    public native void __paint( java.awt.Graphics g );
+
+    boolean entered_paint_1;
+
+    public void paint( java.awt.Graphics g ) {
+        if ( !entered_paint_1 ) {
+            entered_paint_1 = true;
+            __paint( g );
+            entered_paint_1 = false;

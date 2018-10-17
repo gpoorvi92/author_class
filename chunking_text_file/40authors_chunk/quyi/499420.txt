@@ -1,0 +1,10 @@
+      if (struct.isSetFilePath()) {
+        oprot.writeString(struct.filePath);
+      }
+      if (struct.isSetOperateContent()) {
+        oprot.writeString(struct.operateContent);
+      }
+      if (struct.isSetOperateTime()) {
+        oprot.writeString(struct.operateTime);
+      }
+      if (struct.isSetOperateType()) {

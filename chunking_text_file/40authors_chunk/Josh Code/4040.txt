@@ -1,0 +1,10 @@
+             {
+                 saveDisplayImage();
+             }
+         }
+       );
+   }
+
+    private void gotoInitialDirectory()
+    {
+        gotoInitialDirectory(chooser);

@@ -1,0 +1,10 @@
+      g2.draw(new Line2D.Double(x, baseY, x + bounds.getWidth(), baseY));
+
+      // draw the enclosing rectangle
+
+      Rectangle2D rect = new Rectangle2D.Double(x, y, bounds.getWidth(), bounds.getHeight());
+      g2.draw(rect);
+   }
+   
+   public Dimension getPreferredSize() { return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT); }
+}

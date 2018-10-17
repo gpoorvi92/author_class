@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 8: // ENGINE_PLOTS
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list3 = iprot.readListBegin();
+                struct.enginePlots = new ArrayList<String>(_list3.size);
+                for (int _i4 = 0; _i4 < _list3.size; ++_i4)
+                {

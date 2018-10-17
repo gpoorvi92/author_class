@@ -1,0 +1,10 @@
+    {
+        throw cancel;
+    }
+
+    protected void handleStart(File file, Collection collection)
+        throws IOException
+    {
+    }
+
+    protected boolean handleDirectory(File directory, int depth, Collection results)

@@ -1,0 +1,10 @@
+    public SendAudio(Object chatId, String audio) {
+        super(chatId, audio);
+    }
+
+    public SendAudio(Object chatId, File audio) {
+        super(chatId, audio);
+    }
+
+    public SendAudio(Object chatId, byte[] audio) {
+        super(chatId, audio);

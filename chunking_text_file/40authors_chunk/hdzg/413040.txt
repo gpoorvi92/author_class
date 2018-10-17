@@ -1,0 +1,10 @@
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WORD_UP;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_START_Y;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_WORD_SIZE;
+
+import java.io.Serializable;
+
+
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;

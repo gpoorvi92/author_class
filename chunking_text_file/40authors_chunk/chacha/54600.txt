@@ -1,0 +1,10 @@
+		}
+	}
+	/**
+	 * 通过用户名删除帐号
+	 * @param userName
+	 */
+	public void deleteAccount(String userName){
+		DBObject entity=queryUserName(userName);
+		if(entity!=null){
+			DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);

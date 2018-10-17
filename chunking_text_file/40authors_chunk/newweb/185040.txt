@@ -1,0 +1,10 @@
+	@Override
+	public OrderLhjWinProp[] queryOrderLhjWinPropsByOrderID(String id) {
+		Order order = orderDao.selectOrderById(id);
+		OrderLhjWinProp[] ops = new OrderLhjWinProp[order.getOrderLhjWinProps().size()];
+		int count = 0;
+		for (OrderLhjWinProp op : order.getOrderLhjWinProps()) {
+			if(op.getWinCount() == 0){
+				remove(op.getID());
+				continue;
+			}

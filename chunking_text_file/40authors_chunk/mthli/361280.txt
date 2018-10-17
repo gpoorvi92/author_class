@@ -1,0 +1,10 @@
+
+      ButtonGroup group2 = new ButtonGroup();
+      makeJoinButton("Miter Join", BasicStroke.JOIN_MITER, group2);
+      makeJoinButton("Bevel Join", BasicStroke.JOIN_BEVEL, group2);
+      makeJoinButton("Round Join", BasicStroke.JOIN_ROUND, group2);
+
+      ButtonGroup group3 = new ButtonGroup();
+      makeDashButton("Solid Line", false, group3);
+      makeDashButton("Dashed Line", true, group3);
+   }

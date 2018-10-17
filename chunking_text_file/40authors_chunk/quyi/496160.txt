@@ -1,0 +1,10 @@
+
+  public int getEnginePlotsSize() {
+    return (this.enginePlots == null) ? 0 : this.enginePlots.size();
+  }
+
+  public java.util.Iterator<String> getEnginePlotsIterator() {
+    return (this.enginePlots == null) ? null : this.enginePlots.iterator();
+  }
+
+  public void addToEnginePlots(String elem) {

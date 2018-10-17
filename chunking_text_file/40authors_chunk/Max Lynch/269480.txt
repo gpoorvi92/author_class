@@ -1,0 +1,10 @@
+	
+	public ShapeLayerModel getSelectedModel()
+	{
+		return selected.getModel();
+	} 
+
+
+
+	public void mousePressed(MouseEvent e) {
+		int m_x = e.getX();

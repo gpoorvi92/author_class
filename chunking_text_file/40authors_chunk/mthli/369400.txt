@@ -1,0 +1,10 @@
+      URLConnection connection = url.openConnection();
+      connection.setDoOutput(true);
+
+      try (PrintWriter out = new PrintWriter(connection.getOutputStream()))
+      {
+         boolean first = true;
+         for (Map.Entry<Object, Object> pair : nameValuePairs.entrySet())
+         {
+            if (first) first = false;
+            else out.print('&');

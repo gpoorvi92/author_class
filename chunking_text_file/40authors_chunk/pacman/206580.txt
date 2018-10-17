@@ -1,0 +1,10 @@
+ * @date: 2015年1月9日 下午2:16:22
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.dao.impl;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.object.MappingSqlQuery;
+

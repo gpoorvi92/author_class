@@ -1,0 +1,8 @@
+
+    public native void __menuCanceled( javax.swing.event.MenuEvent e );
+
+    public void menuCanceled( javax.swing.event.MenuEvent e ) {
+        __menuCanceled( e );
+    }
+
+}

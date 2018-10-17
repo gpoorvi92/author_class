@@ -1,0 +1,10 @@
+  public int cpuCores; // required
+  public int cpuMhz; // required
+  public int memSize; // required
+  public int fsSize; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    CPU_VENDOR((short)1, "cpuVendor"),
+    CPU_MODEL((short)2, "cpuModel"),
+    CPU_CORES((short)3, "cpuCores"),

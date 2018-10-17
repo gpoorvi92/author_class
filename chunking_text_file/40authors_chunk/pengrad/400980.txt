@@ -1,0 +1,10 @@
+    }
+
+    public AnswerInlineQuery switchPmText(String switchPmText) {
+        return add("switch_pm_text", switchPmText);
+    }
+
+    public AnswerInlineQuery switchPmParameter(String switchPmParameter) {
+        return add("switch_pm_parameter", switchPmParameter);
+    }
+

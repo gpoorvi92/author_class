@@ -1,0 +1,10 @@
+    public ruleSync_args deepCopy() {
+      return new ruleSync_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.rules = null;
+    }
+
+    public int getRulesSize() {

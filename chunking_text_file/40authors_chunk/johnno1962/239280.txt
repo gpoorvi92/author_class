@@ -1,0 +1,10 @@
+    public void dragOver( java.awt.dnd.DragSourceDragEvent dsde ) {
+        if ( !entered_dragOver_3 ) {
+            entered_dragOver_3 = true;
+            __dragOver( dsde );
+            entered_dragOver_3 = false;
+        }
+        else
+            super.dragOver( dsde );
+    }
+

@@ -1,0 +1,10 @@
+		int count = 0;
+
+		// 先查找一次
+		int index = maxString.indexOf(minString);
+		// 定义一个变量，用于记录每次最新的查找位置
+		int startIndex = 0;
+
+		// 判断位置是不是-1，如果是，就不继续了
+		while (index != -1) {
+			// 统计变量加1

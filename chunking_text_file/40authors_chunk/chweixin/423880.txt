@@ -1,0 +1,10 @@
+	 * 设置微信公众号数据接口。
+	 * @param weChatAccountDao
+	 * 微信公众号数据接口。
+	 * */
+	public void setWeChatAccountDao(IWeChatAccountDao weChatAccountDao) {
+		this.weChatAccountDao = weChatAccountDao;
+	}
+
+	@Override
+	protected List<WeChatUser> find(WeChatUserInfo info) {

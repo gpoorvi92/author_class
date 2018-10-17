@@ -1,0 +1,10 @@
+      String[] extensions = ImageIO.getReaderFileSuffixes();
+      chooser.setFileFilter(new FileNameExtensionFilter("Image files", extensions));
+      int r = chooser.showOpenDialog(this);
+      if (r != JFileChooser.APPROVE_OPTION) return;
+
+      try
+      {
+         Image img = ImageIO.read(chooser.getSelectedFile());
+         image = new BufferedImage(img.getWidth(null), img.getHeight(null),
+               BufferedImage.TYPE_INT_RGB);

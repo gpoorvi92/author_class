@@ -1,0 +1,10 @@
+	}
+	public void setPy(String py) {
+		this.py = py;
+	}
+	
+	@Override
+	public Object clone(){
+		try {
+			MaterialBrand m = (MaterialBrand) super.clone();
+			m.supplier = (Supplier) supplier.clone();

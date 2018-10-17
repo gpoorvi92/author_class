@@ -1,0 +1,10 @@
+		raf.writeInt(100);
+		raf.writeChar('a');
+		// raf.writeUTF("hello");
+		raf.writeUTF("林青霞");
+
+		raf.seek(1000);
+		raf.writeUTF("哈哈");
+
+		// 释放资源
+		raf.close();

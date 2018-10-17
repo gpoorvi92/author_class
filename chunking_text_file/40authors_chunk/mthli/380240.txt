@@ -1,0 +1,9 @@
+      panel.add(s);
+      panel.add(new JLabel(description));
+      panel.setAlignmentX(Component.LEFT_ALIGNMENT);
+      GridBagConstraints gbc = new GridBagConstraints();
+      gbc.gridy = sliderPanel.getComponentCount();
+      gbc.anchor = GridBagConstraints.WEST;
+      sliderPanel.add(panel, gbc);      
+   }
+}

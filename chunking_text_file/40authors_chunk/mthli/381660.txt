@@ -1,0 +1,10 @@
+      }
+      catch (Exception ex) // the reflection methods can throw various exceptions
+      {
+         ex.printStackTrace();
+      }
+
+      Component comp = (Component) parseBean((Element) e.getFirstChild());
+      add(comp, constraints);
+   }
+

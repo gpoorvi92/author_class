@@ -1,0 +1,10 @@
+			JSONArray buttons = jobj.getJSONArray("buttons");
+			Log.d(SystemUtil.LOG_MSG, "---->" + buttons.length());
+			for (int i = 0; i < buttons.length(); i++) {
+				JSONObject button = (JSONObject) buttons.get(i);
+				Log.d(SystemUtil.LOG_MSG, "---->" + button.toString());
+				String name = button.getString("name");
+
+				ctx.addMenuItem(name, button.toString(),
+						new View.OnClickListener() {
+

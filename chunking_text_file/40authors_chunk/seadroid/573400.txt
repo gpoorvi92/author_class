@@ -1,0 +1,10 @@
+        if (seafRepo != null)
+            return Utils.pathJoin(seafRepo.getName(), parentPath);
+        else
+            return parentPath;
+    }
+
+    public void notifyChanged() {
+        notifyDataSetChanged();
+    }
+

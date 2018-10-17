@@ -1,0 +1,10 @@
+		}
+		if(e.getSource() == jbt_enter){
+			String username = jtf_username.getText();
+			username.trim();
+			String hostIp = jtf_hostIp.getText();
+			hostIp.trim();
+			String hostPort = jtf_hostPort.getText();
+			hostPort.trim();
+			if(!username.equals("")){
+				if(!hostIp.equals("")){

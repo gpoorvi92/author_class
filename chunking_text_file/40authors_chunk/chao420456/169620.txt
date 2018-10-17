@@ -1,0 +1,10 @@
+
+class Zi extends Fu {
+	public Zi() {
+		//super();
+		//super("aaa");
+		//this("aaa");
+		System.out.println("zi()");
+	}
+
+	public Zi(String name) {

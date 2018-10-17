@@ -1,0 +1,10 @@
+        }
+        struct.setAutoRunMonitorIsSet(true);
+      }
+      if (incoming.get(3)) {
+        {
+          org.apache.thrift.protocol.TList _list68 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.fileOperate = new ArrayList<FileOperate>(_list68.size);
+          for (int _i69 = 0; _i69 < _list68.size; ++_i69)
+          {
+            FileOperate _elem70;

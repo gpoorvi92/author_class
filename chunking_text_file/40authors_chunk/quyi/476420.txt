@@ -1,0 +1,10 @@
+      if (!first) sb.append(", ");
+      sb.append("useRule:");
+      if (this.useRule == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.useRule);
+      }
+      first = false;
+      sb.append(")");
+      return sb.toString();

@@ -1,0 +1,10 @@
+			holder.act_type_explain.setText(explain);
+
+			return row;
+		}
+
+		class ViewHolder {
+			ImageView act_type_img;
+			TextView act_type_explain;
+		}
+	}

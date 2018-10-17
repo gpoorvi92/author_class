@@ -1,0 +1,10 @@
+
+/// class com.apple.eawt.ApplicationAdapter ///
+
+package org.genie.com_apple;
+
+public class ApplicationAdapterProxy extends com.apple.eawt.ApplicationAdapter {
+
+    long swiftObject;
+
+    /// public com.apple.eawt.ApplicationAdapter()

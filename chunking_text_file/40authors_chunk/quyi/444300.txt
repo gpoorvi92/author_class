@@ -1,0 +1,10 @@
+    StaticCheckResultData staticCheckResult,
+    DynamicCheckResultData dynamicCheckResult)
+  {
+    this();
+    this.userApp = userApp;
+    this.staticCheckResult = staticCheckResult;
+    this.dynamicCheckResult = dynamicCheckResult;
+  }
+
+  /**

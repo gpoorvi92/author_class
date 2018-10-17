@@ -1,0 +1,10 @@
+package aes;
+
+import java.io.*;
+import java.security.*;
+import javax.crypto.*;
+
+/**
+ * This program tests the AES cipher. Usage:<br>
+ * java aes.AESTest -genkey keyfile<br>
+ * java aes.AESTest -encrypt plaintext encrypted keyfile<br>

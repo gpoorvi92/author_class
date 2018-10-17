@@ -1,0 +1,10 @@
+    {
+        //try{
+        GameServerRpc.ContainCdKeyResp rpcResp = RpcClientManager.getInstance().getGameServerRpcClientByZoneId(zoneId).containCdKey(GameServerRpc.ContainCdKeyReq.newBuilder().setCdKey(key).build());
+        return rpcResp.getIsContain();
+        //}catch (Exception e){
+        //    log.error("",e);
+        //}
+        //return false;
+    }
+    @ACL(limit = Limit.CDKEY, type = RequestType.JSON)

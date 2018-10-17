@@ -1,0 +1,10 @@
+
+	protected void onExecutionError(Exception e) {
+		e.printStackTrace();
+	}
+
+	/**
+	 * 留给子类实现耗时较长的任务（同步任务），由后台线程负责调用。
+	 * 
+	 * @param params
+	 *          客户端代码调用dispatch方法时所传递的参数列表

@@ -1,0 +1,10 @@
+          ex.printStackTrace();
+      }
+
+     // now time to start
+     cardIterator = cardList.iterator();
+     showNextCard();
+   }
+
+   private void makeCard(String lineToParse) {
+   

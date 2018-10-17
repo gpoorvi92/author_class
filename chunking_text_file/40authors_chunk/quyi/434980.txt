@@ -1,0 +1,10 @@
+    tmpMap.put(_Fields.AUTO_RUN_MONITOR, new org.apache.thrift.meta_data.FieldMetaData("autoRunMonitor", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, RunMonitor.class))));
+    tmpMap.put(_Fields.FILE_OPERATE, new org.apache.thrift.meta_data.FieldMetaData("fileOperate", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, FileOperate.class))));
+    tmpMap.put(_Fields.NETWORK_PACKET, new org.apache.thrift.meta_data.FieldMetaData("networkPacket", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, NetworkPacket.class))));
+    tmpMap.put(_Fields.SYSTEM_RESOURCES, new org.apache.thrift.meta_data.FieldMetaData("systemResources", org.apache.thrift.TFieldRequirementType.DEFAULT, 

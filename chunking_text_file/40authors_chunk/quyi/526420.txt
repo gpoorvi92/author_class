@@ -1,0 +1,10 @@
+  /** Returns true if field engines is set (has been assigned a value) and false otherwise */
+  public boolean isSetEngines() {
+    return this.engines != null;
+  }
+
+  public void setEnginesIsSet(boolean value) {
+    if (!value) {
+      this.engines = null;
+    }
+  }

@@ -1,0 +1,6 @@
+        //        log.info("{}", httpSessionEvent.getSession());
+        //        log.info("{}", cc);
+        //        log.info("{}", httpSessionEvent.getSession().getId());
+        log.info("sessionDestroyed {}", httpSessionEvent.getSession().getId());
+    }
+}

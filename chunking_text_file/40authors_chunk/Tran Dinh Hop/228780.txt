@@ -1,0 +1,10 @@
+import javax.media.jai.JAI;
+import javax.media.jai.PlanarImage;
+import javax.media.jai.RenderedOp;
+import com.sun.media.jai.codec.FileSeekableStream;
+
+//import Utils.FileChooser;
+
+public class OpenImage extends JPanel{
+
+	private static PlanarImage image = null;

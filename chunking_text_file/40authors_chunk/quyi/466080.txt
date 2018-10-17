@@ -1,0 +1,10 @@
+ * 6:Failure 失败
+ * 7:Breaked	中断
+ * 8:other 未知状态
+ */
+public enum CheckResultStatus implements org.apache.thrift.TEnum {
+  received(0),
+  nonexec(1),
+  executing(2),
+  executed(3),
+  timeout(4),

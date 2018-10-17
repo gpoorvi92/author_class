@@ -1,0 +1,10 @@
+      this.checkStopTime = other.checkStopTime;
+    }
+  }
+
+  public Sample deepCopy() {
+    return new Sample(this);
+  }
+
+  @Override
+  public void clear() {

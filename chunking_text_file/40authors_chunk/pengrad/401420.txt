@@ -1,0 +1,10 @@
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = location != null ? location.hashCode() : 0;
+        result = 31 * result + (title != null ? title.hashCode() : 0);
+        result = 31 * result + (address != null ? address.hashCode() : 0);
+        result = 31 * result + (foursquare_id != null ? foursquare_id.hashCode() : 0);
+        return result;

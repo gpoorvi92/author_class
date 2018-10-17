@@ -1,0 +1,10 @@
+      throw new java.io.IOException(te);
+    }
+  }
+
+  private static class AppSendMessageStandardSchemeFactory implements SchemeFactory {
+    public AppSendMessageStandardScheme getScheme() {
+      return new AppSendMessageStandardScheme();
+    }
+  }
+

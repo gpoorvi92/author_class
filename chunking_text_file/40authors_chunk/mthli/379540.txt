@@ -1,0 +1,10 @@
+         {
+            int x = event.getX();
+            int y = event.getY();
+
+            // drag the current rectangle to center it at (x, y)
+            current.setFrame(x - SIDELENGTH / 2, y - SIDELENGTH / 2, SIDELENGTH, SIDELENGTH);
+            repaint();
+         }
+      }
+   }

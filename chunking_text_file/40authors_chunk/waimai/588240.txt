@@ -1,0 +1,8 @@
+        if (merchantCollectionService.isExist(merchantCollection)) {
+            map.put(Constants.RESULT_CODE, "1");
+        } else {
+            map.put(Constants.RESULT_CODE, "0");
+        }
+        return map;
+    }
+}

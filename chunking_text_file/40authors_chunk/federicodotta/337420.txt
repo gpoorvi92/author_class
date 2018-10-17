@@ -1,0 +1,10 @@
+ */
+import java.awt.Component;
+
+/**
+ * This interface is used to provide Burp with details of a custom tab that will
+ * be added to Burp's UI, using a method such as
+ * <code>IBurpExtenderCallbacks.addSuiteTab()</code>.
+ */
+public interface ITab
+{

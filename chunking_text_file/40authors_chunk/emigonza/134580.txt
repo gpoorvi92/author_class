@@ -1,0 +1,10 @@
+  public static final int EVRW_CDC_RWCONTROL           = 0x00000001;
+  public static final int EVRW_CDC_APPLICATIONCONTROL  = 0x00000002;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "DetectionStatus" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int EVRW_DS_NOCARD               = 1;
+  public static final int EVRW_DS_DETECTED             = 2;

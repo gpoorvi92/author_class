@@ -1,0 +1,10 @@
+
+/// class javax.swing.JDialog ///
+
+package org.genie.javax_swing;
+
+public class JDialogProxy extends javax.swing.JDialog {
+
+    long swiftObject;
+
+    /// public javax.swing.JDialog(java.awt.Window)

@@ -1,0 +1,10 @@
+          case 2: // USER_APPS
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list90 = iprot.readListBegin();
+                struct.userApps = new ArrayList<UserApp>(_list90.size);
+                for (int _i91 = 0; _i91 < _list90.size; ++_i91)
+                {
+                  UserApp _elem92;
+                  _elem92 = new UserApp();
+                  _elem92.read(iprot);

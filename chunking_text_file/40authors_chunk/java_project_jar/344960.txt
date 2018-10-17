@@ -1,0 +1,10 @@
+    public LockableFileWriter(File file, String encoding)
+        throws IOException
+    {
+        this(file, encoding, false, null);
+    }
+
+    public LockableFileWriter(File file, String encoding, boolean append, String lockDir)
+        throws IOException
+    {
+        file = file.getAbsoluteFile();

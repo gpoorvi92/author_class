@@ -1,0 +1,10 @@
+/**
+ * A spelling correct suggestion utility based on Peter Norvig's
+ * Python spelling program: http://norvig.com/spell-correct.html
+ *
+ */
+public class SpellingSuggestions {
+
+	private SpellingSuggestions() { } // disable default constructor
+	
+	private static List<String> edits(String word) {

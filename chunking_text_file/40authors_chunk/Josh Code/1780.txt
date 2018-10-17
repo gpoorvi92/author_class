@@ -1,0 +1,10 @@
+    
+    }
+
+    public String readString(int len) throws IOException
+    {
+       if (len < 0) return "";
+       byte[]resultBytes = new byte[len];
+       if (is.read(resultBytes) < 0)
+           throw new EOFException();
+       else

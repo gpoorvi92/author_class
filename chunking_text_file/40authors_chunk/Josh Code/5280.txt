@@ -1,0 +1,10 @@
+        this.renderer = renderer;
+        render();
+    }
+
+    public void setDimensions(int width, int height)
+    {
+        renderer.setDimensions(width,height);
+        updateDimensionsToRenderers();
+        render();
+    }

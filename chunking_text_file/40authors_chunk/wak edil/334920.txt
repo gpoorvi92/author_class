@@ -1,0 +1,10 @@
+	private JButton jbtChoc2=new JButton("Aiskrim");
+	private JButton jbtChoc3=new JButton("Banana Split");
+	private JButton jbtChoc4=new JButton("Kek Coklat");
+	private JButton jbtChoc5=new JButton("Puding");
+	private JButton jbtChoc6=new JButton("Rojak Buah");
+	private JButton jbtBack=new JButton("Back");
+	private JButton jbtExit=new JButton("Exit");
+	private JLabel FoodLabelChoice=new JLabel("Choose your Foods : ");
+	private ImageIcon Food1Image=new ImageIcon("desert/ABC.jpeg");
+	private ImageIcon Food2Image=new ImageIcon("desert/aiskrim.jpeg");

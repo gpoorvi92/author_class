@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		System.out.println(SpellingSuggestions.correct("baank"));
+		System.out.println(SpellingSuggestions.correct("hown"));
+		System.out.println(SpellingSuggestions.correct("watr"));
+		System.out.println(SpellingSuggestions.correct("thee"));
+		System.out.println(SpellingSuggestions.correct("thhe"));
+		System.out.println(SpellingSuggestions.correct("smth"));
+		System.out.println(SpellingSuggestions.correct("joonees"));
+		System.out.println(SpellingSuggestions.correct("waateer"));
+	}

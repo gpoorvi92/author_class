@@ -1,0 +1,10 @@
+
+	/**
+	 * Visits a POSPower DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitPOSPower( DevCat devCat ) {}
+
+	/**
+	 * Visits a POSPrinter DevCat
+	 * @param devCat the DevCat

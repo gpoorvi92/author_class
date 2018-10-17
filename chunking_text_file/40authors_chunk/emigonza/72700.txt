@@ -1,0 +1,3 @@
+	public int     getPaymentMedia() throws JposException;
+	public void    setPaymentMedia(int paymentMedia) throws JposException;
+}

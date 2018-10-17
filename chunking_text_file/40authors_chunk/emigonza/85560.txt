@@ -1,0 +1,9 @@
+  public boolean getCapMapCharacterSet() throws JposException;
+
+  // Properties
+  public boolean getMapCharacterSet() throws JposException;
+  public void    setMapCharacterSet(boolean mapCharacterSet)
+                   throws JposException;
+  public String  getRecBitmapRotationList() throws JposException;
+  public String  getSlpBitmapRotationList() throws JposException;
+}

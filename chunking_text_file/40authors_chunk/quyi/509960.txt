@@ -1,0 +1,10 @@
+  }
+
+  public VirusDetectionResultData setDescription(String description) {
+    this.description = description;
+    return this;
+  }
+
+  public void unsetDescription() {
+    this.description = null;
+  }

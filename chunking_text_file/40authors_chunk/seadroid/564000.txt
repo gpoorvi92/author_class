@@ -1,0 +1,10 @@
+            openResource(account);
+        }
+    }
+
+    private void openResource(Account account) {
+        if (account == null)
+            return;
+
+        Intent intent = new Intent(this, AccountsActivity.class);
+        startActivity(intent);

@@ -1,0 +1,10 @@
+  }
+
+  private static class VirusDetectionResultDataTupleSchemeFactory implements SchemeFactory {
+    public VirusDetectionResultDataTupleScheme getScheme() {
+      return new VirusDetectionResultDataTupleScheme();
+    }
+  }
+
+  private static class VirusDetectionResultDataTupleScheme extends TupleScheme<VirusDetectionResultData> {
+

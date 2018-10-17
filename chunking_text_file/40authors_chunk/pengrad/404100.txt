@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 8/4/15.
+ */
+public class PhotoSize {
+
+    private String file_id;
+    private Integer width;

@@ -1,0 +1,10 @@
+    }
+
+    public void get() {
+        try {
+            lock.lock();
+            while (hasValue == false) {
+                System.out.println("有可能☆☆连续" + "  时间为" + System.currentTimeMillis() + " ThreadName=" + Thread.currentThread().getName());
+                condition.await();
+            }
+            System.out.println("打印☆" + "          时间为" + System.currentTimeMillis() + " ThreadName=" + Thread.currentThread().getName());

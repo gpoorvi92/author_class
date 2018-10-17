@@ -1,0 +1,10 @@
+                Constructor defaultCtor = instanceClass.
+                						  getConstructor( new Class[ 0 ] );
+                siFactory = (JposServiceInstanceFactory)defaultCtor.
+                			newInstance( new Object[ 0 ] );
+                siFactoryTable.put( siFactoryClassName, siFactory );
+            }
+
+            service = (JposServiceInstance)siFactory.
+            		  createInstance( logicalName, entry );
+        } 

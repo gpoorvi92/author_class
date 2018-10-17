@@ -1,0 +1,10 @@
+	private ImageIcon Food3Image=new ImageIcon("makanan/nasi minyak.jpeg");
+	private ImageIcon Food4Image=new ImageIcon("makanan/nasi goreng kampung.jpeg");
+	private ImageIcon Food5Image=new ImageIcon("makanan/mee goreng.jpeg");
+	private ImageIcon Food6Image=new ImageIcon("makanan/bihun goreng.jpeg");
+
+
+	public Foods()
+	{
+		Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));;

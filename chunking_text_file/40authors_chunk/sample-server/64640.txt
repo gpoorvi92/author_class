@@ -1,0 +1,10 @@
+    }
+    public ChatClient getChatClientByZoneId(int zoneId)
+    {
+        ZoneEntity zoneEntity = ZoneEntityManager.getInstance().getZoneEntiryByZoneId(zoneId);
+        return chatClientMap.get(zoneEntity.getChatServerHost());
+    }
+    public ChatClient getChatClientByZone(ZoneEntity zoneEntity)
+    {
+        return chatClientMap.get(zoneEntity.getChatServerHost());
+    }

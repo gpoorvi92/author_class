@@ -1,0 +1,10 @@
+
+    public volatile Appendable append(char x0)
+        throws IOException
+    {
+        return append(x0);
+    }
+
+    public volatile Appendable append(CharSequence x0, int x1, int x2)
+        throws IOException
+    {

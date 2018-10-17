@@ -1,0 +1,10 @@
+     */
+    T and(T le);
+
+    /**
+     * Compute the bitwise logical and not
+     *
+     * @param le element
+     * @return the result of the operation
+     */
+    T andNot(T le);

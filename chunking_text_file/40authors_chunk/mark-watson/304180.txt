@@ -1,0 +1,10 @@
+		System.out.println("\n\n** Process word: " + word);
+		for (Synset synset : synset_list) {
+			System.out.println("\nsynset type:       " + SYNSET_TYPES[synset.getType().getCode()]);
+			System.out.println("       definition: " + synset.getDefinition());
+			// word forms are synonyms:
+			for (String wordForm : synset.getWordForms()) {
+				if (!wordForm.equals(word)) {
+					System.out.println("       synonym:    " + wordForm);
+					// antonyms mean the opposite:
+					for (WordSense antonym : synset.getAntonyms(wordForm)) {

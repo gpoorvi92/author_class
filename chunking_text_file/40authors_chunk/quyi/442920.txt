@@ -1,0 +1,10 @@
+        oprot.writeString(struct.targetAddress);
+      }
+      if (struct.isSetTargetPort()) {
+        oprot.writeString(struct.targetPort);
+      }
+      if (struct.isSetProtocal()) {
+        oprot.writeString(struct.protocal);
+      }
+      if (struct.isSetDataHex()) {
+        oprot.writeString(struct.dataHex);

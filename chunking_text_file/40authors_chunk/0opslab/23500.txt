@@ -1,0 +1,10 @@
+     * Deprecation support. Instances of this class stick to the replacement.
+     */
+    private ParsingDetector delegate;
+
+    public HTMLCodepageDetector() {
+        this(false);
+    }
+
+    public HTMLCodepageDetector(boolean verbose) {
+        super();

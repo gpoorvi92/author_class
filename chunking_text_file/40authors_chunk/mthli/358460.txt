@@ -1,0 +1,10 @@
+package splitPane;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * This frame consists of two nested split panes to demonstrate planet images and data.
+ */
+class SplitPaneFrame extends JFrame

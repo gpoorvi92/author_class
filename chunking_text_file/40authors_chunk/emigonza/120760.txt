@@ -1,0 +1,4 @@
+    protected int    eventNumber;
+    protected int    data;
+    protected Object object;
+}

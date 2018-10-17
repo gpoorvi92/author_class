@@ -1,0 +1,10 @@
+	 */
+	public String getPvalue() {
+		return this.pvalue;
+	}
+
+	/**
+	 * TODO:Insert Private field pvalue Setter method of Comment in here.
+	 * @param pvalue TODO:Insert method parameter pvalue of Comment in here.
+	 */
+	public void setPvalue(String pvalue) {

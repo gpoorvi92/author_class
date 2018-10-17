@@ -1,0 +1,10 @@
+      sb.append(this.statement);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("riskType:");
+    if (this.riskType == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.riskType);
+    }

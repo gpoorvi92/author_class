@@ -1,0 +1,10 @@
+    this.checkStartTime = null;
+  }
+
+  /** Returns true if field checkStartTime is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckStartTime() {
+    return this.checkStartTime != null;
+  }
+
+  public void setCheckStartTimeIsSet(boolean value) {
+    if (!value) {

@@ -1,0 +1,10 @@
+	private BuildableBitmapTextureAtlas mBitmapTextureAtlas;
+
+	private TiledTextureRegion mSnapdragonTextureRegion;
+	private TiledTextureRegion mHelicopterTextureRegion;
+	private TiledTextureRegion mBananaTextureRegion;
+	private TiledTextureRegion mFaceTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================

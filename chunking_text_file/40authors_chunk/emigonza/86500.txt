@@ -1,0 +1,10 @@
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "PaymentMedia' Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CAT_MEDIA_UNSPECIFIED            = 0;
+    public static final int CAT_MEDIA_NONDEFINE              = 0;
+    public static final int CAT_MEDIA_CREDIT                 = 1;
+    public static final int CAT_MEDIA_DEBIT                  = 2;

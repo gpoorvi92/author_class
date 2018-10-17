@@ -1,0 +1,9 @@
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 31 * hash + (account.getSignature() == null ? 0 : account.getSignature().hashCode());
+        hash = 31 * hash + (repoID == null ? 0 : repoID.hashCode());
+        hash = 31 * hash + (localFilePath == null ? 0 : localFilePath.hashCode());
+        return hash;
+    }
+}

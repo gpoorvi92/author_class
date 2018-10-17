@@ -1,0 +1,10 @@
+        savers.add(new TECModelFileSaver());
+        savers.add(new PLYModelFileSaver());
+        savers.add(new VLAModelFileSaver());
+        savers.add(new XYZModelFileSaver());
+        return savers;
+    }
+
+    public ModelSaver(Model m)
+    {
+        this.m = m;

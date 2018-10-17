@@ -1,0 +1,10 @@
+    public CDKeyEntity(RpcDto.CdKeyDTO dto)
+    {
+        this.leftCount = dto.getLeftCount();
+        this.zoneId = dto.getZoneId();
+        this.addTime = new Date(dto.getAddTime());
+        this.cdKey = dto.getCdKey();
+        this.cdName = dto.getCdName();
+        this.dateLimit = new Date(dto.getDateLimit());
+        this.giftId = dto.getGiftId();
+        this.legealCount = dto.getLegealCount();

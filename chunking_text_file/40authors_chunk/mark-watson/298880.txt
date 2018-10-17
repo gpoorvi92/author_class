@@ -1,0 +1,10 @@
+    }
+
+
+    /** findPath - abstract method that is defined in subclasses */
+    abstract public int [] findPath(int start_node, int goal_node); // return an array of node indices
+
+    protected int getNodeIndex(String name) {
+	for (int i=0; i<numNodes; i++) {
+	    if (name.equals(nodeNames[i])) return i;
+	}

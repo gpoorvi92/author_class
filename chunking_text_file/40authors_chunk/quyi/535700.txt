@@ -1,0 +1,10 @@
+
+  public String getThreadName() {
+    return this.threadName;
+  }
+
+  public HardwareResources setThreadName(String threadName) {
+    this.threadName = threadName;
+    return this;
+  }
+

@@ -1,0 +1,10 @@
+package spinner;
+
+import javax.swing.*;
+
+/**
+ * A model that dynamically generates word permutations.
+ */
+public class PermutationSpinnerModel extends AbstractSpinnerModel
+{
+   private String word;

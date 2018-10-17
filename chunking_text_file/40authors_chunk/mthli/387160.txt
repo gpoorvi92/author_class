@@ -1,0 +1,10 @@
+   }
+
+   public static JPanel elementPanel(Element e)
+   {
+      JPanel panel = new JPanel();
+      panel.add(new JLabel("Element: " + e.getTagName()));
+      final NamedNodeMap map = e.getAttributes();
+      panel.add(new JTable(new AbstractTableModel()
+         {
+            public int getRowCount()

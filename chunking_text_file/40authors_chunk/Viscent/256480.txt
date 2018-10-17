@@ -1,0 +1,10 @@
+	private int maxLines = 10000;
+
+	private final AtomicLong linesCount = new AtomicLong(0);
+	private volatile PrintWriter cachedPwr = null;
+	private volatile long now;
+
+	public Logger() {
+		now = System.currentTimeMillis();
+		try {
+			cachedPwr = new PrintWriter(new FileWriter(LOG_FILE_BASE_DIR

@@ -1,0 +1,10 @@
+
+  /**
+   * Singleton constructor.
+   * <p>
+   * 
+   * @param name
+   *          the detected name of the charset.
+   */
+  private UnsupportedCharset(String name) {
+    super("unsupported", null);

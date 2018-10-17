@@ -1,0 +1,10 @@
+        return arg;
+    }
+
+    public static long longFieldStatic;
+    public long longField;
+
+    public static long longMethodStatic( long arg ) {
+        return arg;
+    }
+

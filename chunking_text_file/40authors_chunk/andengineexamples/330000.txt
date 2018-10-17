@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga Inc.
+ * 
+ * @author Nicolas Gramlich
+ * @since 16:11:40 - 11.03.2011
+ */
+public class ConnectionCloseServerMessage extends ServerMessage implements ServerMessageFlags {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

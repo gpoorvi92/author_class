@@ -1,0 +1,10 @@
+	public final static int findOf(String str, String chars, int startIdx, int endIdx, int offset, boolean isEqual)
+	{
+		if (offset == 0)
+			return -1;
+		int charCnt = chars.length();
+		int idx = startIdx;
+		while (true) {
+			if (0 < offset) {
+				if (endIdx < idx)
+					break; 

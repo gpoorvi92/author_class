@@ -1,0 +1,10 @@
+/*
+ *
+ *  HTMLCodepageDetector.java, a facade to an ANTLR grammar based
+ *  parser / lexer that searches for the "charset" attribute of a
+ *  html page.
+ *  Copyright (C) 2004 Achim Westermann, created on 20.07.2004, 10:35:46
+ *
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ * 

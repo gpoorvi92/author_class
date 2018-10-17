@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof searchMission_result)
+        return this.equals((searchMission_result)that);
+      return false;
+    }

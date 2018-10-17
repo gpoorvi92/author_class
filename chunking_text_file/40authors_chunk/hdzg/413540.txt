@@ -1,0 +1,10 @@
+					Thread.sleep(sleepSpan);
+				}
+				catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	public void setCity(String city) {
+		this.city = city;

@@ -1,0 +1,10 @@
+        this.areaId = areaId;
+    }
+
+    public Integer getBlockId() {
+        return blockId;
+    }
+
+    public void setBlockId(Integer blockId) {
+        this.blockId = blockId;
+    }

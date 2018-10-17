@@ -1,0 +1,10 @@
+ * 练习：请把字节的名字写到一个文本文件
+ */
+public class FileOutputStreamDemo {
+	public static void main(String[] args) throws IOException {
+		// 创建字节输出流对象
+		// FileOutputStream fos = new FileOutputStream("a.txt");
+
+		// 如果传递的不是String，而是File，如果做呢?
+		// File file = new File("a.txt");
+		// FileOutputStream fos = new FileOutputStream(file);

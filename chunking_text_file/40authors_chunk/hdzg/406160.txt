@@ -1,0 +1,10 @@
+package wyf.ytl.view;
+
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_HEIGHT;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_START_X;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_START_Y;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WIDTH;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WORD_LEFT;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_BTN_WORD_UP;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_START_Y;
+import static wyf.ytl.tool.ConstantUtil.DIALOG_WORD_SIZE;

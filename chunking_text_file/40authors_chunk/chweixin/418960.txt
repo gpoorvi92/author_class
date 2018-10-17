@@ -1,0 +1,8 @@
+					ModuleDefine d = this.findDefine(m.getModules(), moduleId);
+					if(d != null) return d;
+				}
+			}
+		}
+		return null;
+	}
+}

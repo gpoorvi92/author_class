@@ -1,0 +1,10 @@
+import com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl;
+import java.net.HttpURLConnection;
+import java.net.Proxy;
+import java.net.ResponseCache;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLStreamHandler;
+import java.net.URLStreamHandlerFactory;
+
+public final class OkUrlFactory implements URLStreamHandlerFactory, Cloneable {

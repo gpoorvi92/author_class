@@ -1,0 +1,10 @@
+
+         factory.setIgnoringElementContentWhitespace(true);
+
+         DocumentBuilder builder = factory.newDocumentBuilder();
+         Document doc = builder.parse(file);
+         parseGridbag(doc.getDocumentElement());         
+      }
+      catch (Exception e)
+      {
+         e.printStackTrace();

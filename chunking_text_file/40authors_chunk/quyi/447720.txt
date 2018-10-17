@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_osDesc = true && this.isSetOsDesc();
+    boolean that_present_osDesc = true && that.isSetOsDesc();
+    if (this_present_osDesc || that_present_osDesc) {
+      if (!(this_present_osDesc && that_present_osDesc))
+        return false;
+      if (!this.osDesc.equals(that.osDesc))
+        return false;
+    }

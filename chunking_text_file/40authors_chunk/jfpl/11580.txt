@@ -1,0 +1,10 @@
+			int position, long id) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		Intent intent = getCustomIntent(VioActivity.class);
+		intent.putExtra("hphm", acd.getStringValue("hphm"));
+		intent.putExtra("bind_name", acd.getStringValue("bind_name"));
+		startActivity(intent);
+	}
+
+	@Override
+	protected void onListItemLongClick(String prxName, ListView l, View v,

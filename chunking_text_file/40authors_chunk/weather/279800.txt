@@ -1,0 +1,10 @@
+            public void onErrorResponse(VolleyError error) {
+                LogUtil.e(error);
+                loadFinished(error.getMessage(), LOAD_NEW_FAIL);
+            }
+
+            @Override
+            public void onResponse(WeeklyResponse response) {
+                LogUtil.d(response.weather.city);
+                loadFinished(Arrays.asList(new WeeklyWeather[]{response.weather}), LOAD_NEW_FINISHED);
+            }

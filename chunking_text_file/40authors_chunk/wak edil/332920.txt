@@ -1,0 +1,10 @@
+    
+    	public static void main(String[] args)
+	{
+		KekCoklatInfo frame = new KekCoklatInfo();
+		frame.setTitle("Kek Coklat Info");
+		frame.setSize(450,400);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		

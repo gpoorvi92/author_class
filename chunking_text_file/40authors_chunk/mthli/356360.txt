@@ -1,0 +1,10 @@
+      GraphicsEnvironment environment = GraphicsEnvironment.getLocalGraphicsEnvironment();
+      GraphicsDevice screen = environment.getDefaultScreenDevice();
+
+      try
+      {
+         final Robot robot = new Robot(screen);
+         robot.waitForIdle();
+         new Thread()
+         {
+            public void run() 

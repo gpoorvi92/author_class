@@ -1,0 +1,10 @@
+            // use isCopyToLocal as a flag to mark a camera photo upload task if false
+            // mark a file upload task if true
+            if (!uploadTaskInfo.isCopyToLocal) {
+                cancel(uploadTaskInfo.taskID);
+            }
+        }
+    }
+
+    public void retry(int taskID) {
+        UploadTask task = (UploadTask) getTask(taskID);

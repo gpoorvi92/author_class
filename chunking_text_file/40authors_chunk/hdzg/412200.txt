@@ -1,0 +1,10 @@
+	
+	public CityDrawable cityDrawable = null;//将领当前所在地城，如果跟随英雄则为NULL
+	
+	public General(String name, int rank, int loyalty, int defend, 
+			int power, int intelligence,int agility,int strength,int level){
+		this.name = name;
+		this.rank = rank;
+		this.loyalty = loyalty;
+		this.defend = defend;
+		this.power = power;

@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 25, 2014
+ Problem:    Permutations
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/permutations/
+ Notes:
+ Given a collection of numbers, return all possible permutations.
+ For example,
+ [1,2,3] have the following permutations:

@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list93 = iprot.readListBegin();
+                struct.rules = new ArrayList<String>(_list93.size);
+                for (int _i94 = 0; _i94 < _list93.size; ++_i94)
+                {
+                  String _elem95;
+                  _elem95 = iprot.readString();
+                  struct.rules.add(_elem95);
+                }

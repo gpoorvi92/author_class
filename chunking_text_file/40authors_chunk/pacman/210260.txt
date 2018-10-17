@@ -1,0 +1,10 @@
+import com.yeshj.pacman.log.ILog;
+import com.yeshj.pacman.log.LogFactory;
+
+/**
+ * @ClassName: BootStrapper
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月28日 下午9:23:59
+ */
+public class BootStrapper {

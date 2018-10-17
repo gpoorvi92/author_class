@@ -1,0 +1,10 @@
+            exception1.printStackTrace();
+        }
+        encode = "GBK";
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {
+                return encode;
+
+            }
+        } catch (UnsupportedEncodingException exception1) {
+            exception1.printStackTrace();

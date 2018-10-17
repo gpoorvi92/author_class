@@ -1,0 +1,10 @@
+            f.setZero(this.pos);
+        else if (this.isLiteral)
+            f.setLiteral(this.pos);
+        else if (this.value)
+            f.setOne(this.pos);
+        else
+            f.setZero(this.pos);
+    }
+
+    @Override

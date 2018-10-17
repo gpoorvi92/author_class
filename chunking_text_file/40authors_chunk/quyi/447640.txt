@@ -1,0 +1,10 @@
+      return isSetOsVersion();
+    case JVM_NAME:
+      return isSetJvmName();
+    case JVM_VERSION:
+      return isSetJvmVersion();
+    case JVM_MAX_MEM:
+      return isSetJvmMaxMem();
+    }
+    throw new IllegalStateException();
+  }

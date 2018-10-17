@@ -1,0 +1,10 @@
+{
+    /**
+     * This method returns the UI component of the editor, for extensions to add
+     * to their own UI.
+     *
+     * @return The UI component of the editor.
+     */
+    Component getComponent();
+
+    /**

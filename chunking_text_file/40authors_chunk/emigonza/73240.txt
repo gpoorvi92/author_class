@@ -1,0 +1,10 @@
+//     getTotalMemorySize
+//   Added:
+//     getCapIsoEmvMode
+//     getIsoEmvMode
+//     setIsoEmvMode
+//   Fixed:
+//     count parameter of readData is now int[] instead of int
+//
+/////////////////////////////////////////////////////////////////////
+

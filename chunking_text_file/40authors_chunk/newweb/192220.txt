@@ -1,0 +1,10 @@
+				cut = smallPriceCutService.findSmallPriceCutBySmallIDAndCustomerID(smallID,customerID);
+			} catch (Exception e) {
+				return returnSmall;
+			}
+			if(cut != null){
+				returnSmall.setLsprice(cut.getPrice());
+			}
+			return returnSmall;
+		}
+	}

@@ -1,0 +1,10 @@
+	public final static String CONTEXT_HJPACK = "context.hjpack";
+	
+	public final static String CONTEXT_CLASS_ID = "context.class.id";
+	
+	public final static String CONTEXT_LESSON_ID = "context.lesson.id";
+
+	public static final String CONTEXT_IDENTITY = "context.identity";
+	
+	public final static String CONTEXT_ISFREE_CLASS = "context.free";
+}

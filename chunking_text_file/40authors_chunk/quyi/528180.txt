@@ -1,0 +1,10 @@
+  public boolean isSetWhy() {
+    return this.why != null;
+  }
+
+  public void setWhyIsSet(boolean value) {
+    if (!value) {
+      this.why = null;
+    }
+  }
+

@@ -1,0 +1,10 @@
+        FileWriter outFile = new FileWriter(output_file_path);
+        //PrintWriter out = new PrintWriter(outFile);
+        RDFHandler n3Writer = new N3Writer(outFile);
+        con.export(n3Writer);
+        outFile.close();
+    }
+    
+    private Repository myRepository;
+    private RepositoryConnection con;
+    private String baseURI = "http://knowledgebooks.com/ontology";

@@ -1,0 +1,8 @@
+        try {
+            goodsService.down(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("下架成功");
+    }
+}

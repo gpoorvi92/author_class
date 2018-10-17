@@ -1,0 +1,10 @@
+	{
+		return mapMatrixMeetable;
+	}
+	
+	public void initMapMatrixForMeetable(){//¼ÆËã¿ÉÓö¾ØÕómapMatrixForMeetable
+		mapMatrixForMeetable = new MyMeetableDrawable[40][60]; 
+		for(int i=0; i<mapMatrixMeetable.length; i++){
+			for(int j=0; j<mapMatrixMeetable[i].length; j++){
+				if(mapMatrixMeetable[i][j] != null){
+					int x = mapMatrixMeetable[i][j].col - mapMatrixMeetable[i][j].refCol;

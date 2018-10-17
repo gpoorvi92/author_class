@@ -1,0 +1,10 @@
+        
+        settingsMgr = SettingsManager.instance();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mCountdownTimer != null)
+            mCountdownTimer.cancel();
+    }

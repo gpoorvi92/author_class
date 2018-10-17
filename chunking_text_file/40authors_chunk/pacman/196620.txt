@@ -1,0 +1,10 @@
+		if (pe.execute(output, CMDLINE)) {
+
+			try {
+
+				for (String line : output) {
+					
+					if (line.startsWith("Cpu(s):")) {
+
+						boolean fragFormat = line.indexOf("%us,") > 0;
+						

@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich
+ * @since 15:31:11 - 27.07.2011
+ */
+public class PVRCCZTextureExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

@@ -1,0 +1,10 @@
+	 */
+	public void setLid(Integer lid) {
+		this.lid = lid;
+	}
+
+	/**
+	 * Private field begin Getter method.
+	 * @return begin 
+	 */
+	public Timestamp getBegin() {

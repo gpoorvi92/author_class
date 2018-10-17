@@ -1,0 +1,10 @@
+    // Initialize base class instance data
+    deviceControlDescription = "JavaPOS ImageScanner Device Control";
+    deviceControlVersion = deviceVersion113;
+
+    // Initialize instance data. Initializations are commented out for
+    // efficiency if the Java default is correct.
+    //service113 = null;
+  }
+
+

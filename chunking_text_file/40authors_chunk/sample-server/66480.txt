@@ -1,0 +1,10 @@
+            {
+                try
+                {
+                    if ((wrapper = DefaultRpcServer.take()) != null)
+                    {
+                        //                        wrapper.channel.write(wrapper.packet);
+                        handle(wrapper);
+                    }
+                } catch (Throwable e)
+                {

@@ -1,0 +1,10 @@
+
+		 setLayout(new GridLayout(2, 4));
+		 add(xLabel);
+		 add(xSlider);
+		 add(yLabel);
+		 add(ySlider);
+		 add(wLabel);
+		 add(wSlider);
+		 add(hLabel);
+		 add(hSlider);

@@ -1,0 +1,10 @@
+import org.apache.commons.io.IOCase;
+
+// Referenced classes of package org.apache.commons.io.filefilter:
+//            AbstractFileFilter
+
+public class NameFileFilter extends AbstractFileFilter
+    implements Serializable
+{
+
+    public NameFileFilter(String name)

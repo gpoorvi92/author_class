@@ -1,0 +1,7 @@
+	 * @param free the free to set
+	 */
+	public void setFree(boolean free) {
+		this.free = free;
+	}
+
+}

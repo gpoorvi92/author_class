@@ -1,0 +1,9 @@
+
+		// ok, pare down the guess array to the real thing
+		int realthing[] = new int[index];
+		System.arraycopy(guesses, 0, realthing, 0, index);
+		return realthing;
+
+	}
+	
+}

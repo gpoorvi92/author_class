@@ -1,0 +1,10 @@
+ *			public Object elementAt(int index)		--		get(int index)
+ *			public Enumeration elements()			--		Iterator iterator()
+ *						hasMoreElements()							hasNext()
+ *						nextElement()								next()
+ *
+ *		JDK版本升级：
+ *			A:安全
+ *			B:效率
+ *			C:简化书写
+ */

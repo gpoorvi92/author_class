@@ -1,0 +1,10 @@
+public class Run7_ProducerAndConsumer_One {
+    public static void main(String[] args) {
+        String lock = new String("");
+        Producer producer = new Producer(lock);
+        Consumer consumer = new Consumer(lock);
+        ThreadP p = new ThreadP(producer);
+        ThreadC c = new ThreadC(consumer);
+        p.start();
+        c.start();
+    }

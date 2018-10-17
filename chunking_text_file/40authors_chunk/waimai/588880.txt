@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.user;
+
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.domain.GoodsType;
+import cn.abovesky.shopping.service.IGoodsTypeService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+

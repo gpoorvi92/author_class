@@ -1,0 +1,10 @@
+   {
+      return new InverseEditorPanel(this);
+   }
+
+   public boolean supportsCustomEditor()
+   {
+      return true;
+   }
+
+   public boolean isPaintable()

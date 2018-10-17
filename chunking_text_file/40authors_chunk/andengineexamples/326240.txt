@@ -1,0 +1,10 @@
+
+		/* Calculate the coordinates for the screen-center. */
+		final float centerX = (CAMERA_WIDTH - this.mFaceTextureRegion.getWidth()) / 2;
+		final float centerY = (CAMERA_HEIGHT - this.mFaceTextureRegion.getHeight()) / 2;
+
+		/* Create some faces and add them to the scene. */
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		scene.attachChild(new Sprite(centerX - 25, centerY - 25, this.mFaceTextureRegion, vertexBufferObjectManager));
+		scene.attachChild(new Sprite(centerX  + 25, centerY - 25, this.mFaceTextureRegion, vertexBufferObjectManager));
+		scene.attachChild(new Sprite(centerX, centerY + 25, this.mFaceTextureRegion, vertexBufferObjectManager));

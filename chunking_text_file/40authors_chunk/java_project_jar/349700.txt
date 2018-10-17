@@ -1,0 +1,8 @@
+        }
+        buffer.append(")");
+        return buffer.toString();
+    }
+
+    private final String wildcards[];
+    private final IOCase caseSensitivity;
+}

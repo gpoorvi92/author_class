@@ -1,0 +1,10 @@
+          case 3: // CHECK_TIME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.checkTime = iprot.readString();
+              struct.setCheckTimeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // DEVICE_TYPE
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {

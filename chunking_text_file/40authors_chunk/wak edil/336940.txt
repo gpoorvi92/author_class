@@ -1,0 +1,10 @@
+	    jmiAbout.addActionListener(this);
+	
+	}
+	
+	
+		public void actionPerformed(ActionEvent e)
+	{
+		
+		if (e.getSource() == jbBack)
+	 	{

@@ -1,0 +1,10 @@
+		}
+	}
+
+	@Override
+	public void interrupt() {
+		terminate();
+	}
+
+	/*
+	 * 请求停止线程。

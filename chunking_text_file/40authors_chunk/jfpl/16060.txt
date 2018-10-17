@@ -1,0 +1,10 @@
+		Log.d(SystemUtil.LOG_MSG, "--->" + url);
+		// If dialing phone (tel:5551212)
+		if (url.startsWith(WebView.SCHEME_TEL)) {
+			try {
+				Intent intent = new Intent(Intent.ACTION_DIAL);
+				intent.setData(Uri.parse(url));
+				webActivity.startActivity(intent);
+			} catch (android.content.ActivityNotFoundException e) {
+				System.out
+						.println("Error dialing " + url + ": " + e.toString());

@@ -1,0 +1,10 @@
+    if (isSetRiskType()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.riskType, other.riskType);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRiskLevel()).compareTo(other.isSetRiskLevel());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

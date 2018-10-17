@@ -1,0 +1,10 @@
+     */
+    T or(T le);
+
+    /**
+     * How many logical bits does this element represent?
+     *
+     * @return the number of bits represented by this element
+     */
+    int sizeInBits();
+

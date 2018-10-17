@@ -1,0 +1,10 @@
+
+    private static class queryMission_argsStandardSchemeFactory implements SchemeFactory {
+      public queryMission_argsStandardScheme getScheme() {
+        return new queryMission_argsStandardScheme();
+      }
+    }
+
+    private static class queryMission_argsStandardScheme extends StandardScheme<queryMission_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, queryMission_args struct) throws org.apache.thrift.TException {

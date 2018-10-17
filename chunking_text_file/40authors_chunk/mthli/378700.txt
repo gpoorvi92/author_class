@@ -1,0 +1,10 @@
+   */ 
+   public CircularArrayQueue(int capacity) 
+   { 
+      elements = new Object[capacity]; 
+      count = 0; 
+      head = 0; 
+      tail = 0; 
+   } 
+
+   public boolean offer(E newElement) 

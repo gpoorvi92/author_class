@@ -1,0 +1,10 @@
+import io.github.viscent.util.Debug;
+
+public class SampleAsyncTask {
+
+	public static void main(String[] args) {
+		XAsyncTask task = new XAsyncTask();
+		List<Future<String>> results = new LinkedList<Future<String>>();
+
+		try {
+			results.add(task.doSomething("Half-sync/Half-async", 1));

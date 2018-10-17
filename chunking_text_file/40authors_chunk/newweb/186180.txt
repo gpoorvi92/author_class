@@ -1,0 +1,10 @@
+	
+	@Override
+	public LhjPrice findLhjPriceByMaterialBrandID(int materialBrandID) {
+		LhjPrice price = lhjPriceDao.selectLhjPriceByMaterialBrandID(materialBrandID);
+		return price;
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public List queryAllLhjPrices(int start, int limit) {

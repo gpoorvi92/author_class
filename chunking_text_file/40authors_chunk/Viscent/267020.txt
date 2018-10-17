@@ -1,0 +1,10 @@
+	}
+
+	public String getTransactionID() {
+		return transactionID;
+	}
+
+	public void setTransactionID(String transactionID) {
+		this.transactionID = transactionID;
+	}
+

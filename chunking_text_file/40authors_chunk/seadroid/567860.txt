@@ -1,0 +1,10 @@
+
+        super.onDestroy();
+    }
+
+    private void addUploadTask(Account account, String repoName, String repoID, String targetDir, ArrayList<String> localFilePath) {
+        bindTransferService(account, repoName, repoID, targetDir, localFilePath);
+    }
+
+    private void bindTransferService(final Account account, final String repoName, final String repoID,
+                                        final String targetDir, final ArrayList<String> localPath) {

@@ -1,0 +1,10 @@
+//		signlechatuse = new ArrayList<String>();
+	}
+	
+	public static void main(String[] args) {
+		Client client = new Client();
+		Client_enterFrame c_enterFrame = new Client_enterFrame(client);
+		client.setC_enterFrame(c_enterFrame);
+		c_enterFrame.setVisible(true);
+	}
+	

@@ -1,0 +1,10 @@
+  public Engine setEnginePlots(List<String> enginePlots) {
+    this.enginePlots = enginePlots;
+    return this;
+  }
+
+  public void unsetEnginePlots() {
+    this.enginePlots = null;
+  }
+
+  /** Returns true if field enginePlots is set (has been assigned a value) and false otherwise */

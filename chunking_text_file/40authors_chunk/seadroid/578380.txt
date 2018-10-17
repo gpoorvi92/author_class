@@ -1,0 +1,10 @@
+    private static final String TAG = "BaseImage";
+    private static final int UNKNOWN_LENGTH = -1;
+    protected ContentResolver mContentResolver;
+
+    // Database field
+    protected Uri mUri;
+    protected long mId;
+    protected String mDataPath;
+    protected final int mIndex;
+    protected String mMimeType;

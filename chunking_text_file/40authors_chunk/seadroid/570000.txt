@@ -1,0 +1,10 @@
+                        ParcelFileDescriptor.MODE_READ_ONLY);
+            } else {
+                return mContentResolver.openFileDescriptor(mUri, "r");
+            }
+        } catch (FileNotFoundException ex) {
+            return null;
+        }
+    }
+
+    public Bitmap fullSizeBitmap(int minSideLength, int maxNumberOfPixels) {

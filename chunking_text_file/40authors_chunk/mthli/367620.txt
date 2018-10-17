@@ -1,0 +1,10 @@
+         { "Uranus", 25559.0, 17, true, Color.BLUE, 
+            new ImageIcon(getClass().getResource("Uranus.gif")) },
+         { "Neptune", 24766.0, 8, true, Color.BLUE, 
+            new ImageIcon(getClass().getResource("Neptune.gif")) },
+         { "Pluto", 1137.0, 1, false, Color.BLACK, 
+            new ImageIcon(getClass().getResource("Pluto.gif")) } };
+
+   private String[] columnNames = { "Planet", "Radius", "Moons", "Gaseous", "Color", "Image" };
+
+   public String getColumnName(int c)

@@ -1,0 +1,10 @@
+      public ImmediateListener()
+      {
+         chooser = new JColorChooser();
+         chooser.getSelectionModel().addChangeListener(new ChangeListener()
+            {
+               public void stateChanged(ChangeEvent event)
+               {
+                  setBackground(chooser.getColor());
+               }
+            });

@@ -1,0 +1,10 @@
+            bufferSize = 1;
+        }
+        this.buffer = new long[bufferSize];
+    }
+    
+    @Override
+    public int sizeInWords() {
+        return this.actualSizeInWords;
+    }
+

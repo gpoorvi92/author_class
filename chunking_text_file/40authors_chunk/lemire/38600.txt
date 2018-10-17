@@ -1,0 +1,10 @@
+
+    /**
+     * should directly set the sizeInBits field, but is effectively ignored
+     * in this class.
+     *
+     * @param bits number of bits
+     */
+    // @Override : causes problems with Java 1.5
+    @Override
+    public void setSizeInBitsWithinLastWord(int bits) {

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public InputStream fullSizeImageData() {
+        try {
+            InputStream input = mContentResolver.openInputStream(
+                    fullSizeImageUri());
+            return input;
+        } catch (IOException ex) {
+            return null;

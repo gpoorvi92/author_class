@@ -1,0 +1,10 @@
+     * Indicates that a new JposEntry was added to the registry
+     * @param event the JposEntryEvent object
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void jposEntryAdded( JposEntryRegistryEvent event );
+
+    /**
+     * Indicates that a JposEntry was removed from the registry
+     * @param event the JposEntryEvent object
+     * @since 0.1 (Philly 99 meeting)

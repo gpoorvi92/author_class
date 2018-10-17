@@ -1,0 +1,10 @@
+                  _elem43.read(iprot);
+                  struct.networkPacket.add(_elem43);
+                }
+                iprot.readListEnd();
+              }
+              struct.setNetworkPacketIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

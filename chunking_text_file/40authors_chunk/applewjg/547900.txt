@@ -1,0 +1,8 @@
+                A[left++] = 0;
+            } else if (A[i] == 2) {
+                A[i] = A[right];
+                A[right--] = 2;
+            } else i++;
+        }
+    }
+}

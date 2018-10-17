@@ -1,0 +1,10 @@
+				 dsheet.addCell((WritableCell) new Label(2,i+1,rowinfoList.get(2),wcf_left));
+				 dsheet.addCell(new Label(3,i+1,rowinfoList.get(3),wcf_left));
+				 dsheet.addCell(new Label(4,i+1,rowinfoList.get(4),wcf_left));
+				 dsheet.addCell(new jxl.write.Number(5,i+1,Long.parseLong(rowinfoList.get(5)),wcf_left));
+				workbook.write();
+				workbook.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			} finally {
+				if(wb!=null){

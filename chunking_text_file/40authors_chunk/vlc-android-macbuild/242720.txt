@@ -1,0 +1,10 @@
+
+    private static final String BUNDLE_VOD_INDEX = "vod_index";
+
+    // 优先级 1st > mrl > 2nd
+    // new params
+    public MediaResourceGroup mHighQualGroup;
+    public MediaResourceGroup mLowQualGroup;
+
+    // 点播列表, 新浪和优酷源, 第三方播放器, MediaListPlayer用
+    // TODO deprecate this field

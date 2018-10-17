@@ -1,0 +1,10 @@
+class TeacherDemo {
+	public static void main(String[] args) {
+		//测试基础班老师
+		BasicTeacher bt = new BasicTeacher();
+		bt.setName("林青霞");
+		bt.setAge(28);
+		System.out.println(bt.getName()+"---"+bt.getAge());
+		bt.teach();
+		System.out.println("----------------------------");
+

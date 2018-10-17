@@ -1,0 +1,10 @@
+    @Override
+    public void addStreamOfNegatedLiteralWords(Buffer32 buffer, int start,
+                                               int number) {
+        if (number > 0) {
+            throw nonEmptyException;
+        }
+    }
+
+    @Override
+    public void clear() {

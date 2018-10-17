@@ -1,0 +1,10 @@
+    tmpMap.put(_Fields.OS_NAME, new org.apache.thrift.meta_data.FieldMetaData("osName", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.OS_DESC, new org.apache.thrift.meta_data.FieldMetaData("osDesc", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.OS_VERSION, new org.apache.thrift.meta_data.FieldMetaData("osVersion", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.JVM_NAME, new org.apache.thrift.meta_data.FieldMetaData("jvmName", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.JVM_VERSION, new org.apache.thrift.meta_data.FieldMetaData("jvmVersion", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));

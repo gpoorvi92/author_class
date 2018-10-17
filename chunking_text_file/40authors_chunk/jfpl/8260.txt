@@ -1,0 +1,10 @@
+
+	@Override
+	public AbstractCommonData doError(AbstractCommonData acd) {
+		progressBar.setVisibility(View.GONE);
+		imageView.setVisibility(View.VISIBLE);
+		imageView.setImageResource(R.drawable.holo_undone);
+		itemData.putStringValue("send_state", "1");
+		BaseAdapter ba = (BaseAdapter) chatList.getAdapter();
+		ba.notifyDataSetChanged();
+		doChatError(acd);

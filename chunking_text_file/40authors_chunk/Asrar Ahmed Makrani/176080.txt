@@ -1,0 +1,10 @@
+		gbc.gridx = 2;
+		gbc.gridy = 1;
+		main_panel.add(salute, gbc);
+		gbc.gridy = 3;
+		main_panel.add(expiry_date, gbc);
+		gbc.gridy = 4;
+		main_panel.add(reg_by, gbc);
+		gbc.gridy = 5;
+		main_panel.add(reg_date, gbc);
+		

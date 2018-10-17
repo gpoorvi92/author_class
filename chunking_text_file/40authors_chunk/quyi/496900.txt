@@ -1,0 +1,10 @@
+    } else {
+      sb.append(this.engineId);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("engineName:");
+    if (this.engineName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engineName);

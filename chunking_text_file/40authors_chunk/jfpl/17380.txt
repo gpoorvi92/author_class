@@ -1,0 +1,10 @@
+		Editor editor = sp.edit();
+		editor.putString("bind_flag", flagStr);
+		if (flag) {
+			editor.putString("app_id", args[0]);
+			editor.putString("channel_id", args[1]);
+			editor.putString("user_id", args[2]);
+		} else {
+			editor.remove("app_id");
+			editor.remove("channel_id");
+			editor.remove("user_id");

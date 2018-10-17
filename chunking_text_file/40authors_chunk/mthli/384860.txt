@@ -1,0 +1,10 @@
+
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Makes a book that contains a cover page and the pages for the banner.
+    */
+   public Book makeBook()
+   {

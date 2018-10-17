@@ -1,0 +1,10 @@
+      this.success = success;
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public reportTaskManagerConfig_result(reportTaskManagerConfig_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;

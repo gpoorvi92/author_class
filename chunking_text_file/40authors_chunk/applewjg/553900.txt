@@ -1,0 +1,10 @@
+                    res.append(cnt);
+                    res.append(cur);
+                    cur = s.charAt(i);
+                    cnt = 1;
+                }else ++cnt;
+            }
+            res.append(cnt);
+            res.append(cur);
+            StringBuffer tmp = s;
+            s = res;

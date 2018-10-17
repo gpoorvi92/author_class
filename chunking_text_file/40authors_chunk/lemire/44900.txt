@@ -1,0 +1,10 @@
+
+    /**
+     * Reset the values of this running length word so that it has the same
+     * values as the other running length word.
+     *
+     * @param rlw the other running length word
+     */
+    public void reset(final RunningLengthWord32 rlw) {
+        reset(rlw.buffer.getWord(rlw.position));
+    }

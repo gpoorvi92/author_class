@@ -1,0 +1,10 @@
+                  if (f == null)
+                  {
+                     setIcon(null);
+                     return;
+                  }
+
+                  // read the image into an icon
+                  ImageIcon icon = new ImageIcon(f.getPath());
+
+                  // if the icon is too large to fit, scale it

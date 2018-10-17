@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
 
-train_dir = 'data/train'
-validation_dir = 'data/test'
+train_dir = 'author_class/data/train'
+validation_dir = 'author_class/data/test'
 image_size = 256
 
 from keras.applications import VGG16

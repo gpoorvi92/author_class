@@ -1,0 +1,10 @@
+      this.propertyName = null;
+      this.propertyValue = null;
+    }
+
+    public String getNodeId() {
+      return this.nodeId;
+    }
+
+    public modifyNodeManagerConfig_args setNodeId(String nodeId) {
+      this.nodeId = nodeId;

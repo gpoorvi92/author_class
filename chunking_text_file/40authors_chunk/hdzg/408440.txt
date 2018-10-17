@@ -1,0 +1,10 @@
+	}
+	//方法：教会英雄一项技能
+	public void teachSkill(){
+		if(Math.random()<0.4){//有一定几率不教英雄
+			status=2; //拜访失败
+		}
+		else{
+			status = 3;//拜访成功
+			int size = tempHero.father.skillToLearn.size();
+			if(size == 0){

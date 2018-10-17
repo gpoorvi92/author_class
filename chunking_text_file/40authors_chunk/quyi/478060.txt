@@ -1,0 +1,10 @@
+    }
+
+  }
+
+  public static class queryApp_args implements org.apache.thrift.TBase<queryApp_args, queryApp_args._Fields>, java.io.Serializable, Cloneable, Comparable<queryApp_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("queryApp_args");
+
+    private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField USER_APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("userAppId", org.apache.thrift.protocol.TType.STRING, (short)2);
+

@@ -1,0 +1,10 @@
+package neuralnetworks;
+
+
+public class Test_1H {
+
+    static float[] in1 = {0.1f,  0.1f, 0.9f};
+    static float[] in2 = {0.1f,  0.9f, 0.1f};
+    static float[] in3 = {0.9f,  0.1f, 0.1f};
+
+    static float[] out1 = {0.9f, 0.1f, 0.1f};

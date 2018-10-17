@@ -1,0 +1,10 @@
+    case IMAGE_CONTENT:
+      return getImageContent();
+
+    case CHECK_RESULT:
+      return getCheckResult();
+
+    }
+    throw new IllegalStateException();
+  }
+

@@ -1,0 +1,10 @@
+
+/**
+ * User: Teaey
+ * Date: 13-6-17
+ */
+@Singleton
+public class LogicMoudleDispatcher implements IDispatcher<Fenrisulfr.TransPacket>
+{
+    private static final Logger log = LoggerFactory.getLogger(GatewayMoudleDispatcher.class);
+

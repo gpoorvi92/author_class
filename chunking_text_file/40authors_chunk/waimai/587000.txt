@@ -1,0 +1,10 @@
+        } else {
+            merchantCollectionMapper.insert(merchantCollection);
+            merchantMapper.addCollectionCount(merchantCollection.getMerchantId());
+        }
+    }
+
+    @Override
+    public void cancel(MerchantCollection merchantCollection) throws ServiceException {
+        if (merchantCollectionMapper.cancel(merchantCollection) > 0) {
+            merchantMapper.subCollectionCount(merchantCollection.getMerchantId());

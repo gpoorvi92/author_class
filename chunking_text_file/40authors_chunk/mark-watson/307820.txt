@@ -1,0 +1,10 @@
+                }
+            }
+        }
+        test_recall(nn, test1);
+        test_recall(nn, test2);
+        test_recall(nn, test3);
+    }
+
+    public static void test_recall(Neural_1H nn, float[] inputs) {
+        float[] results = nn.recall(inputs);

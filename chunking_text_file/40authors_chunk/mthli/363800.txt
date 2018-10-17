@@ -1,0 +1,10 @@
+    */
+   public String getFileName()
+   {
+      return nameField.getText();
+   }
+
+   /**
+    * Gets the extensions property.
+    * @return the default extensions in the file chooser
+    */

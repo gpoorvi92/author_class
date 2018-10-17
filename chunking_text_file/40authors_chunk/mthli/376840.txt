@@ -1,0 +1,10 @@
+   private static final int MARK_SIZE = 5;
+
+   public enum CarType
+   {
+      SEDAN, WAGON, SUV
+   }
+
+   // this property is saved automatically
+   public void setRentalRecord(String newValue)
+   {

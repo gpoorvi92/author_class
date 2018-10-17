@@ -1,0 +1,10 @@
+	 * Gets the media type.
+	 * 
+	 * @return
+	 */
+	public String getMediaTypeKey() {
+		
+		if (gJNILoaded)
+			return nativeGetMediaType();
+		
+		return "UNKNOWN";

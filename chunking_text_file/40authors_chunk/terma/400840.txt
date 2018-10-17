@@ -1,0 +1,10 @@
+        if (args.length != 1) {
+            System.err.println("Please specify path to config file!");
+            System.exit(1);
+        }
+
+        final Properties properties = new Properties();
+        try {
+            properties.load(new FileInputStream(args[0]));
+        } catch (IOException exception) {
+            if (LOGGER.isLoggable(Level.SEVERE))

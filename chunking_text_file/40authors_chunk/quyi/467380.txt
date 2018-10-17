@@ -1,0 +1,10 @@
+    Risk riskLevel,
+    String pak,
+    String obj,
+    String func,
+    String ruleDescription)
+  {
+    this();
+    this.ruleId = ruleId;
+    this.ruleName = ruleName;
+    this.ruleTypes = ruleTypes;

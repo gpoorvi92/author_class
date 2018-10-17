@@ -1,0 +1,10 @@
+		//所以我们根本就没有必要定义z变量，直接把z用x替换
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<=x; y++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		System.out.println("---------");
+
+		for(int x=1; x<=5; x++) {

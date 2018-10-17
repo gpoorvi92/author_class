@@ -1,0 +1,5 @@
+消费者1 WAITING
+生产者2 WAITING
+消费者2 WAITING
+
+ */

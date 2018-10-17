@@ -1,0 +1,10 @@
+
+    case USER_APPS:
+      return getUserApps();
+
+    case RULES:
+      return getRules();
+
+    case PLOTS:
+      return getPlots();
+

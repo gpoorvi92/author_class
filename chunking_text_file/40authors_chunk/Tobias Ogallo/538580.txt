@@ -1,0 +1,10 @@
+
+			stmt.execute(SQL);
+			ResultSet rs = stmt.getResultSet();
+			
+			boolean recordfound = rs.next();
+             
+			if (recordfound)
+			{LoginValidity();
+			
+			 dispose();

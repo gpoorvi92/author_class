@@ -1,0 +1,10 @@
+/** Adapts {@link java.net.ResponseCache} to {@link InternalCache}. */
+public final class CacheAdapter implements InternalCache {
+  private final ResponseCache delegate;
+
+  public CacheAdapter(ResponseCache delegate) {
+    this.delegate = delegate;
+  }
+
+  public ResponseCache getDelegate() {
+    return delegate;

@@ -1,0 +1,10 @@
+      if (that == null)
+        return false;
+      if (that instanceof reportEngineConfig_args)
+        return this.equals((reportEngineConfig_args)that);
+      return false;
+    }
+
+    public boolean equals(reportEngineConfig_args that) {
+      if (that == null)
+        return false;

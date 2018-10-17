@@ -1,0 +1,6 @@
+		}
+	}
+	public static boolean checkFor(String stem) {
+		return stems.contains(stem);
+	}
+}

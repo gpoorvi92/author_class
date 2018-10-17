@@ -1,0 +1,10 @@
+		return delayConf;
+	}
+
+	public void generate(int overallTPS, int duration/* minutes */,
+	    Map<String, Map<String, Integer>> respDelayConf) {
+		if (duration < 1) {
+			throw new IllegalArgumentException("duration must be greater than 1!");
+		}
+
+		doGenerate(overallTPS, duration, respDelayConf);

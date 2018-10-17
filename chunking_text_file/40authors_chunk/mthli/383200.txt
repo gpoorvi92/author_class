@@ -1,0 +1,10 @@
+      if (other == null) return false;
+      if (!getClass().equals(other.getClass())) return false;
+      WordCheckPermission b = (WordCheckPermission) other;
+      if (!Objects.equals(action, b.action)) return false;
+      if ("insert".equals(action)) return Objects.equals(getName(), b.getName());
+      else if ("avoid".equals(action)) return badWordSet().equals(b.badWordSet());
+      else return false;
+   }
+
+   public int hashCode()

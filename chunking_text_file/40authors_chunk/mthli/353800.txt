@@ -1,0 +1,10 @@
+
+   /**
+    * Adds a new class and any parent classes that aren't yet part of the tree
+    * @param c the class to add
+    * @return the newly added node.
+    */
+   public DefaultMutableTreeNode addClass(Class<?> c)
+   {
+      // add a new class to the tree
+

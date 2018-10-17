@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface POSPrinterService13 extends POSPrinterService12
+{
+    // Capabilities

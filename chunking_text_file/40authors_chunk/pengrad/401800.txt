@@ -1,0 +1,10 @@
+        bot.execute(new EditMessageText(channelName, 306, text));
+        System.out.println(response);
+        bot.execute(new EditMessageText("AgAAAJUtAQCj_Q4D87e3E-gkx2A", text));
+        System.out.println(response);
+    }
+
+    @Test
+    public void answerInline() {
+        String inlineQueryId = getLastInlineQuery().id();
+        InlineKeyboardMarkup keyboardMarkup = new InlineKeyboardMarkup(new InlineKeyboardButton[]{new InlineKeyboardButton("inline ok").callbackData("callback ok"), new InlineKeyboardButton("inline cancel").callbackData("callback cancel")});

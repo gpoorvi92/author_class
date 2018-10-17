@@ -1,0 +1,10 @@
+						tail.setPrev(huf);
+						break;
+					}
+					n=n.getNext();
+				}
+			}
+		size++;
+	}
+
+	public HuffmanNode removeFirst() throws Exception{

@@ -1,0 +1,10 @@
+
+	private Map<String, TextView> itemMap = new LinkedHashMap<String, TextView>();
+
+	public RightMenuDialog(Context context) {
+		super(context, R.style.left_menu_dialog);
+		this.ctx = context;
+		itemHeight = SystemUtil.dip2px(ctx, 48);
+	}
+
+	@Override

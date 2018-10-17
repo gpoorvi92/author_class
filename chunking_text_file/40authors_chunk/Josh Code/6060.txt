@@ -1,0 +1,10 @@
+        out.print("element vertex "+(m.getNumberOfTriangles()*3)+'\n');
+        out.print("property float x\n");
+        out.print("property float y\n");
+        out.print("property float z\n");
+        out.print("property uchar red\n");
+        out.print("property uchar green\n");
+        out.print("property uchar blue\n");
+        out.print("element face "+m.getNumberOfTriangles()+'\n');
+        out.print("property list uchar int vertex_index\n");
+        out.print("end_header\n");

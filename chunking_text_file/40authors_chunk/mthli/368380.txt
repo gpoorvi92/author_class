@@ -1,0 +1,10 @@
+package renderQuality;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.geom.*;
+import javax.swing.*;
+
+/**
+ * This frame contains buttons to set rendering hints and an image that is drawn with the selected
+ * hints.

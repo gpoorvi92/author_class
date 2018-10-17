@@ -1,0 +1,10 @@
+        float x = 0;
+        for (int j=0; j<numGenesPerChromosome; j++)  {
+            if (getGene(chromosomeIndex, j)) {
+                x += base;
+            }
+            base *= 2;
+        }
+        x /= 102.4f;
+        return x;
+    }

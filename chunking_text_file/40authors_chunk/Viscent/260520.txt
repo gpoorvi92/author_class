@@ -1,0 +1,10 @@
+	}
+
+	public int getOperationType() {
+		return operationType;
+	}
+
+	public void setOperationType(int operationType) {
+		this.operationType = operationType;
+	}
+

@@ -1,0 +1,10 @@
+  private static final long serialVersionUID = 3618977875919778866L;
+
+  private boolean m_verbose = false;
+
+  public ParsingDetector() {
+    this(false);
+  }
+
+  public ParsingDetector(boolean verbose) {
+    super();

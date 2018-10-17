@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Frame(java.awt.GraphicsConfiguration)
+
+    FrameProxy( java.awt.GraphicsConfiguration gc , long swiftObject ) {
+        super( gc );
+        this.swiftObject = swiftObject;
+    }
+

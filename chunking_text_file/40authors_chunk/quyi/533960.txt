@@ -1,0 +1,10 @@
+    if (isSetPackageName()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.packageName, other.packageName);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetObjectName()).compareTo(other.isSetObjectName());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

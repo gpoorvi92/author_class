@@ -1,0 +1,10 @@
+      public reportNodeManagerConfig_resultStandardScheme getScheme() {
+        return new reportNodeManagerConfig_resultStandardScheme();
+      }
+    }
+
+    private static class reportNodeManagerConfig_resultStandardScheme extends StandardScheme<reportNodeManagerConfig_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, reportNodeManagerConfig_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();

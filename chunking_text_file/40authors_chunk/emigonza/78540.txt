@@ -1,0 +1,10 @@
+
+    /** @return a String description of this Comparable */
+    public String toString() { return object.toString(); }
+
+    //-------------------------------------------------------------------------
+    // Instance variables
+    //
+
+    private Object object = null;
+}

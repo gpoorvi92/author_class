@@ -1,0 +1,10 @@
+
+    /// public javax.swing.JTable(javax.swing.table.TableModel,javax.swing.table.TableColumnModel)
+
+    JTableProxy( javax.swing.table.TableModel arg0, javax.swing.table.TableColumnModel arg1 , long swiftObject ) {
+        super( arg0, arg1 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void javax.swing.JTable.changeSelection(int,int,boolean,boolean)
+

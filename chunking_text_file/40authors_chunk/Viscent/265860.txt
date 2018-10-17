@@ -1,0 +1,10 @@
+			int count;
+
+			if (args.length > 0) {
+				count = Integer.valueOf(args[0]);
+			} else {
+				count = 10000;
+			}
+
+			for (int i = 0; i < count; i++) {
+				ps.setString(1, "p0000" + df.format(rnd1.nextInt(9999)));

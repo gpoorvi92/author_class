@@ -1,0 +1,10 @@
+      }
+      throw new org.apache.thrift.TApplicationException(org.apache.thrift.TApplicationException.MISSING_RESULT, "searchMission failed: unknown result");
+    }
+
+    public List<Engine> searchAllEng() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_searchAllEng();
+      return recv_searchAllEng();
+    }
+

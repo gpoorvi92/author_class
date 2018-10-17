@@ -1,0 +1,10 @@
+	public void initBitmap(){
+		paint = new Paint();
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		paint.setAntiAlias(true);//抗锯齿
+		paint.setTextSize(18);//设置文字大小
+		help1 = BitmapFactory.decodeResource(getResources(), R.drawable.help);
+		Bitmap menu_item = BitmapFactory.decodeResource(getResources(), R.drawable.buttons); 
+		buttonBackGround = Bitmap.createBitmap(menu_item, 0, 0, 60, 30);
+		menu_item = null;//释放掉大图 
+	}

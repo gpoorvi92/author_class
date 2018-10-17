@@ -1,0 +1,10 @@
+        map.put("goods", goodsList);
+        return map;
+    }
+
+    @RequestMapping("/detail")
+    public @ResponseBody Map<String, Object> findById(Integer goodsId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        Goods goods = goodsService.getDetailById(goodsId);
+        map.put("goods", goods);
+        return map;

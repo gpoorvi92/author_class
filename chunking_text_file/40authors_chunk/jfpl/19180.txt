@@ -1,0 +1,10 @@
+					ChatMessageUtil.sendChatText(ctx,
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, "to group", chatMsg,
+							new ChatTextService(ctx, chatList,
+									holder.sendState, holder.sendFinishState,
+									acd));
+				}
+				chatMsg = ChatMessageUtil.convertToClientMessage(chatMsg);
+				holder.chatTextView.setText(chatMsg);
+			} else if (type == 2 && holder.chatImage != null) { // 图片

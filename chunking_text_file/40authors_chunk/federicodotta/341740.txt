@@ -1,0 +1,6 @@
+     *
+     * @return The client IP address from which the request for the intercepted
+     * message was received.
+     */
+    InetAddress getClientIpAddress();
+}

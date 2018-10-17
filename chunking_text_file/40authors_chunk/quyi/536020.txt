@@ -1,0 +1,10 @@
+      return this.equals((HardwareResources)that);
+    return false;
+  }
+
+  public boolean equals(HardwareResources that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_processName = true && this.isSetProcessName();
+    boolean that_present_processName = true && that.isSetProcessName();

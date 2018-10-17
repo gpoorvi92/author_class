@@ -1,0 +1,10 @@
+		acd.putArrayValue("recently_list", list);
+		fillData(acd, recentlyPage, "");
+	}
+
+	@Override
+	protected void onNewIntent(Intent intent) {
+		super.onNewIntent(intent);
+		NotificationManager notifyManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+		notifyManager.cancel(0);
+		viewPager.setCurrentItem(0);

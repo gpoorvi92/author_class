@@ -1,0 +1,10 @@
+public class XML 
+{
+	public final static String CONTENT_TYPE = "text/xml; charset=\"utf-8\"";
+	public final static String CHARSET_UTF8 = "utf-8";
+
+	////////////////////////////////////////////////
+	// escapeXMLChars
+	////////////////////////////////////////////////
+	
+	private final static String escapeXMLChars(String input, boolean quote) 

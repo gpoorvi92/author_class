@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("detectResult:");
+    if (this.detectResult == null) {
+      sb.append("null");
+    } else {
+      org.apache.thrift.TBaseHelper.toString(this.detectResult, sb);
+    }
+    first = false;
+    sb.append(")");
+    return sb.toString();

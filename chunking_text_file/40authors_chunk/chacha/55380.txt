@@ -1,0 +1,10 @@
+		return tokenLifeTime;
+	}
+
+	public void setTokenLifeTime(long tokenLifeTime) {
+		this.tokenLifeTime = tokenLifeTime;
+	}
+	
+	public DBObject toDbObject(){
+		BasicDBObject entity=new BasicDBObject();
+		entity.put("_id", _id);

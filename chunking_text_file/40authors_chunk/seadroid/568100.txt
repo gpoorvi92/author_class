@@ -1,0 +1,10 @@
+    @Override
+    public IBinder onBind(Intent intent) {
+        // Log.d(DEBUG_TAG, "onBind");
+        return mBinder;
+    }
+
+    // -------------------------- upload task --------------------//
+    public void addTaskToUploadQue(Account account, String repoID, String repoName, String dir,
+                             String filePath, boolean isUpdate, boolean isCopyToLocal) {
+        uploadTaskManager.addTaskToQue(account, repoID, repoName, dir, filePath, isUpdate, isCopyToLocal);

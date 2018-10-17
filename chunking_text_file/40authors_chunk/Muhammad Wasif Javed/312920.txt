@@ -1,0 +1,10 @@
+	//Function to Create the Table and Add Data to Show.
+
+	private JTable makeTable () {
+
+		//String Array For Table Columns.
+		String colsName[] = {"Book ID", "Book Name", "Book Author", "Book Price", "Category"};
+
+		table = new JTable (rowRec, colsName) {
+			public boolean isCellEditable (int iRows, int iCols) {
+				return false;	//Disable All Columns of Table.

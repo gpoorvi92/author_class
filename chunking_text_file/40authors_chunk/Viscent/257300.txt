@@ -1,0 +1,10 @@
+		}
+
+	}
+
+	private Set<File> retrieveGeneratedFiles() {
+		Set<File> files = new HashSet<File>();
+		// 省略其它代码
+		return files;
+	}
+

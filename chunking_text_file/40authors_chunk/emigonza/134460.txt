@@ -1,0 +1,10 @@
+	/** @return a String description of this PropType (can be HTML text) */
+	public String getDescription();
+
+	/** @return a Java class that defines this type */
+	public Class getJavaTypeClass();
+
+	/**
+	 * @return true if the object passed is of this PropType
+	 * @param obj the Java Object
+	 */

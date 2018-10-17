@@ -1,0 +1,10 @@
+package eventTracer;
+
+import java.awt.*;
+import java.beans.*;
+import java.lang.reflect.*;
+
+/**
+ * @version 1.31 2004-05-10
+ * @author Cay Horstmann
+ */

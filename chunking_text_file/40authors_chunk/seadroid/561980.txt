@@ -1,0 +1,10 @@
+    @Override
+    public int hashCode() {
+        return fullSizeImageUri().toString().hashCode();
+    }
+
+    @Override
+    public Bitmap fullSizeBitmap(int minSideLength, int maxNumberOfPixels,
+            boolean rotateAsNeeded, boolean useNative) {
+        return ThumbnailUtils.createVideoThumbnail(mDataPath,
+                Video.Thumbnails.MINI_KIND);

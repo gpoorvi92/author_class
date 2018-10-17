@@ -1,0 +1,10 @@
+	}
+	public boolean isEmpty() {
+	    return head == (tail + 1);
+	}
+	public int peekAtFrontOfQueue() {
+	    return queue[head];
+	}
+    }
+
+    protected int [] connected_nodes(int node) {

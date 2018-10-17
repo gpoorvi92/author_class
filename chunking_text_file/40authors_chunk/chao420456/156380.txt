@@ -1,0 +1,10 @@
+
+/*
+ * 一个窗体，一个标签，一个文本框
+ */
+public class KeyDemo {
+	public static void main(String[] args) {
+		// 创建窗体对象
+		final Frame f = new Frame("键盘事件");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);

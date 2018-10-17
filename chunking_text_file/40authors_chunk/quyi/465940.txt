@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> userAppIdList = new ArrayList<String>();
+		String dfilePath = "E:\\baiduyundownload\\结果\\批量回收统计.xls";
+		String sfilePath = "E:\\baiduyundownload\\结果\\批量下发统计.xls";
+		userAppIdList = new ReadExcel().getColumnInfo(0, dfilePath, 0);
+		for (int i = 0; i < userAppIdList.size(); i++) {
+			String userAppId = userAppIdList.get(i);
+			List<String> suserAppIdList = new ReadExcel().getColumnInfo(0, sfilePath, 0);
+			int row = suserAppIdList.indexOf(userAppId) + 1;

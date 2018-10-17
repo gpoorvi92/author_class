@@ -1,0 +1,10 @@
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					searchGeneral();//酒馆寻将
+					break;
+				case 1://无钱招兵时玩家点确认放弃
+				case 2://招兵 成功
+				case 3://招兵失败
+					recoverGame();
+					break;
+				}				
+			}

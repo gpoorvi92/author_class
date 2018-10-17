@@ -1,0 +1,10 @@
+
+	/**
+	 * Remove the pending uploaded file identifier by this id for this client.
+	 * @param clientId
+	 * @param fileId
+	 */
+	public void clearFile(final UUID clientId, final UUID fileId)
+	{
+		log.debug("Clearing pending uploaded file and all attributes linked to it.");
+		

@@ -1,0 +1,10 @@
+                writer.close();
+                System.out.println(advice);
+            }
+        } catch (IOException ex)
+        {
+            ex.printStackTrace();
+        }
+    }
+    
+    private String getAdvice() {

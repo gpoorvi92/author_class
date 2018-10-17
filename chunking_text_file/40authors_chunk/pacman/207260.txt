@@ -1,0 +1,10 @@
+/**
+ * TODO
+ * @Class: ITaskDAO
+ * @author: zhangxinyu
+ * @date: 2015年1月8日 下午4:37:04
+ */
+public interface ITaskDAO {
+	
+	/**
+	 * add

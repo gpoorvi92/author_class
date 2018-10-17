@@ -1,0 +1,10 @@
+    public void    displayData(int units, int row, int column, int attribute,
+                       String data) throws JposException;
+    public void    drawBox(int units, int row, int column, int height,
+                       int width, int attribute, int borderType)
+                       throws JposException;
+    public void    freeVideoRegion(int units, int bufferId)
+                       throws JposException;
+    public void    resetVideo(int units) throws JposException;
+    public void    restoreVideoRegion(int units, int targetRow,
+                       int targetColumn, int bufferId) throws JposException;

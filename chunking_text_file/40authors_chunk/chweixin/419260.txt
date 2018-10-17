@@ -1,0 +1,9 @@
+	/**
+	 * 是否已身份认证。
+	 * @return
+	 * 已身份认证为true，否则返回false.
+	 * */
+	public boolean isAuthen(){
+		return !(this.getUserId() == null || this.getUserId().trim().isEmpty());
+	}
+}

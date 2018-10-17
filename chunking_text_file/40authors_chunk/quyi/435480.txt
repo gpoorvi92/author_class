@@ -1,0 +1,10 @@
+    }
+  }
+
+  public int getNetworkPacketSize() {
+    return (this.networkPacket == null) ? 0 : this.networkPacket.size();
+  }
+
+  public java.util.Iterator<NetworkPacket> getNetworkPacketIterator() {
+    return (this.networkPacket == null) ? null : this.networkPacket.iterator();
+  }

@@ -1,0 +1,10 @@
+        TicTacToePosition pos = (TicTacToePosition)p;
+        TicTacToePosition pos2 = new  TicTacToePosition();
+        for (int i=0; i<9; i++) pos2.board[i] = pos.board[i];
+        int pp;
+        if (player) pp =  1;
+        else        pp = -1;
+        if (GameSearch.DEBUG) System.out.println("makeMove: m.moveIndex = " + m.moveIndex);
+        pos2.board[m.moveIndex] = pp;
+        return pos2;
+    }

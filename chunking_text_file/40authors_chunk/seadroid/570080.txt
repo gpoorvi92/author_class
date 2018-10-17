@@ -1,0 +1,10 @@
+
+    public Bitmap miniThumbBitmap() {
+        return thumbBitmap(IImage.ROTATE_AS_NEEDED);
+    }
+
+    public String getTitle() {
+        return mUri.toString();
+    }
+
+    public Bitmap thumbBitmap(boolean rotateAsNeeded) {

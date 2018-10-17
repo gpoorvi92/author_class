@@ -1,0 +1,10 @@
+            b[off] = (byte)ret;
+            ret = 1;
+        }
+        return ret;
+    }
+
+    /**
+     * 
+     */
+    public void reset() throws IOException {

@@ -1,0 +1,10 @@
+*	01/12/03
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.util;
+
+public final class StringUtil
+{
+	public final static boolean hasData(String value)

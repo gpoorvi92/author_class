@@ -1,0 +1,10 @@
+        exists = file.exists();
+        directory = exists ? file.isDirectory() : false;
+        lastModified = exists ? file.lastModified() : 0L;
+        length = !exists || directory ? 0L : file.length();
+        return exists != origExists || lastModified != origLastModified || directory != origDirectory || length != origLength;
+    }
+
+    public FileEntry newChildInstance(File file)
+    {
+        return new FileEntry(this, file);

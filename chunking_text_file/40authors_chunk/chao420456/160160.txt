@@ -1,0 +1,10 @@
+	B:°´ÕÕÄ£¿é·Ö
+		cn.itcast.student
+			add
+			delete
+			update
+			find
+		cn.itcast.teacher
+			add
+			delete
+			update

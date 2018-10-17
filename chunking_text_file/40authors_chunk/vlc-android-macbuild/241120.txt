@@ -1,0 +1,6 @@
+        Uri uri = Settings.System.getUriFor("screen_brightness");
+        Settings.System.putInt(resolver, "screen_brightness", brightness);
+        // resolver.registerContentObserver(uri, true, myContentObserver);
+        resolver.notifyChange(uri, null);
+    }
+}

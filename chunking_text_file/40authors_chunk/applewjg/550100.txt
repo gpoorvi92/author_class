@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Aug 22, 2013
+ Problem:    Palindrome Number
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/palindrome-number/
+ Notes:
+ Determine whether an integer is a palindrome. Do this without extra space.
+ Some hints:
+ Could negative integers be palindromes? (ie, -1) (No!)

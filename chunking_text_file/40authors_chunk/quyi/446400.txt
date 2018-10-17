@@ -1,0 +1,10 @@
+            }
+            break;
+          case 4: // CHECK_RESULT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.checkResult = iprot.readString();
+              struct.setCheckResultIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

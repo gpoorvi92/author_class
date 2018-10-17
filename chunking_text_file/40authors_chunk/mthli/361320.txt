@@ -1,0 +1,10 @@
+      boolean selected = group.getButtonCount() == 0;
+      JRadioButton button = new JRadioButton(label, selected);
+      buttonPanel.add(button);
+      group.add(button);
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               canvas.setCap(style);
+            }

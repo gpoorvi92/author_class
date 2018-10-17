@@ -1,0 +1,10 @@
+
+    public queryMission_args() {
+    }
+
+    public queryMission_args(
+      String missionId)
+    {
+      this();
+      this.missionId = missionId;
+    }

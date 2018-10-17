@@ -1,0 +1,10 @@
+		query.setMaxResults(limit);
+		list.add(0, size);
+		list.add(1, query.list());
+		return list;
+	}
+
+	@Override
+	public TypeForBrand selectTypeForBrandByID(int typeID) {
+		return (TypeForBrand) sessionFactory.getCurrentSession().get(TypeForBrand.class, typeID);
+	}

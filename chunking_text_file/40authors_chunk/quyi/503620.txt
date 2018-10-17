@@ -1,0 +1,10 @@
+      switch(fieldId) {
+        case 1: // MISSION_ID
+          return MISSION_ID;
+        case 2: // USER_APPS
+          return USER_APPS;
+        case 3: // RULES
+          return RULES;
+        case 4: // PLOTS
+          return PLOTS;
+        case 5: // JOB_PRIORITY

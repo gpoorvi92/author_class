@@ -1,0 +1,10 @@
+	} 
+
+	public void method() {
+		Inner i = new Inner();
+		i.show();
+	}
+}
+*/
+
+class Outer {

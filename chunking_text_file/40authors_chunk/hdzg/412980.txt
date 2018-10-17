@@ -1,0 +1,10 @@
+		}
+	}
+	public static boolean check(HDZGActivity h){//检查文件是否存在
+		try{
+			h.openFileInput("game.ytl");
+		}
+		catch(Exception e){
+			return false;
+		}
+		return true;

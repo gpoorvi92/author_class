@@ -1,0 +1,10 @@
+
+            String type = intent.getStringExtra("type");
+            if (type == null) {
+                return;
+            }
+
+            if (type.equals(DownloadTaskManager.BROADCAST_FILE_DOWNLOAD_SUCCESS)) {
+                int taskID = intent.getIntExtra("taskID", 0);
+                DownloadTaskInfo info = mTransferService.getDownloadTaskInfo(taskID);
+                if (info != null) {

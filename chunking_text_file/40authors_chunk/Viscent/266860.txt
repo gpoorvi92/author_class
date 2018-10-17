@@ -1,0 +1,10 @@
+	 */
+	protected SubTaskDispatchStrategy<T, V> newSubTaskDispatchStrategy() {
+		return new RoundRobinSubTaskDispatchStrategy<T, V>();
+	}
+
+	/**
+	 * 留给子类实现。用于创建Slave参与者实例。
+	 * 
+	 * @return 一组Slave参与者实例。
+	 */

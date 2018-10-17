@@ -1,0 +1,10 @@
+// PointCardRWBeanInfo.java - Bean information for the JavaPOS PointCardRW
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

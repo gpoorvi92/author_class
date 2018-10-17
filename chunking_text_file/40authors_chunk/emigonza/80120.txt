@@ -1,0 +1,10 @@
+                Class[] argsClass = { arg1Class };
+
+                Constructor oneArgCtor = managerClass.
+                                         getConstructor( argsClass );
+
+                Object[] args = { jposProperties };
+
+                manager = (JposServiceManager)oneArgCtor.newInstance( args );
+            }
+            catch( Exception e ) 

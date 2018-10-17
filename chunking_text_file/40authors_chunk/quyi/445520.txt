@@ -1,0 +1,10 @@
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(RunMonitor.class, metaDataMap);
+  }
+
+  public RunMonitor() {
+  }
+
+  public RunMonitor(
+    String monitorTime,
+    String screenShotPath,
+    String imageContent,

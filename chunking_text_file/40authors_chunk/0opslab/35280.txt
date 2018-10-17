@@ -1,0 +1,10 @@
+  protected final void renderRow(TableModel model, int row) throws IOException{
+    m_out.write(RowStartTag());
+    int cols = model.getColumnCount();
+    for(int i=0;i<cols;i++){
+      this.renderCell(model.getValueAt(row,i),(i==0)?FIRST_CELL_IN_ROW:(i==cols-1)?LAST_CELL_IN_ROW:2);
+    }
+    m_out.write(RowStopTag());
+  }
+  
+  protected abstract String RowStartTag();

@@ -1,0 +1,10 @@
+			}
+		}
+	};
+
+	public VoiceRecordDialog(Context context) {
+		super(context, R.style.frame_alert_dialog);
+		this.ctx = context;
+	}
+
+	@Override

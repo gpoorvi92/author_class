@@ -1,0 +1,10 @@
+     */
+    public final static boolean isMatche(String str, String reg) {
+        Pattern pattern = Pattern.compile(reg);
+        Matcher isNum   = pattern.matcher(str);
+        return isNum.matches();
+    }
+
+    /**
+     * 获取符合reg正则表达式的字符串在String中出现的次数
+     *

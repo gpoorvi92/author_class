@@ -1,0 +1,10 @@
+
+        SeafileStyleDialogBuilder builder = new SeafileStyleDialogBuilder(getActivity());
+        builder.setTitle(getResources().getString(R.string.open_as));
+        builder.setItems(R.array.file_type_array,
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(Intent.ACTION_VIEW);
+                        switch (which) {
+                        case OPEN_AS_TEXT:

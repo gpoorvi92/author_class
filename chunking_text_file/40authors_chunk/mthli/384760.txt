@@ -1,0 +1,10 @@
+      text = new JTextField();
+      add(text, BorderLayout.NORTH);
+
+      attributes = new HashPrintRequestAttributeSet();
+
+      JPanel buttonPanel = new JPanel();
+
+      JButton printButton = new JButton("Print");
+      buttonPanel.add(printButton);
+      printButton.addActionListener(new ActionListener()

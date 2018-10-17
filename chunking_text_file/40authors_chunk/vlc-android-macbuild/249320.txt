@@ -1,0 +1,10 @@
+
+            setIndexBundle(indexBundle, playIndex);
+            return true;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (HttpException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();

@@ -1,0 +1,10 @@
+
+	/**
+	 * @param videoCodec the videoCodec to set
+	 */
+	public void setVideoCodec(String videoCodec) {
+		this.videoCodec = videoCodec;
+	}
+
+	/**
+	 * @param videoHeight the videoHeight to set

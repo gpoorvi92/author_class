@@ -1,0 +1,10 @@
+        Integer[] ids = new Integer[idsAndStatuses.length];
+        int index = 0;
+        Iterator<String> iterator = Arrays.asList(idsAndStatuses).iterator();
+        while (iterator.hasNext()) {
+            ids[index++] = Integer.valueOf(iterator.next().split("_")[0]);
+        }
+        return ids;
+    }
+
+    public static boolean isFormatSecret(String[] idsAndStatuses, String compareValue) {

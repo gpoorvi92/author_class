@@ -1,0 +1,10 @@
+
+    case DATA_CHAR:
+      return getDataChar();
+
+    case DATA_LENGTH:
+      return getDataLength();
+
+    case OPERATE_TIME:
+      return getOperateTime();
+

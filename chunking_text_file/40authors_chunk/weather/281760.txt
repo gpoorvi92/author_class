@@ -1,0 +1,10 @@
+        trim();
+    }
+
+    /**
+     * Removes buffers from the pool until it is under its size limit.
+     */
+    private synchronized void trim() {
+        while (mCurrentSize > mSizeLimit) {
+            byte[] buf = mBuffersByLastUse.remove(0);
+            mBuffersBySize.remove(buf);

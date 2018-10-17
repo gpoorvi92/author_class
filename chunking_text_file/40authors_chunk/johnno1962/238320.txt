@@ -1,0 +1,10 @@
+    }
+
+    /// public native int java.lang.Object.hashCode()
+
+    public native int __hashCode();
+
+    boolean entered_hashCode_4;
+
+    public int hashCode() {
+        if ( !entered_hashCode_4 ) {

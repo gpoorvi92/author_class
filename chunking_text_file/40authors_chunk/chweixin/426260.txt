@@ -1,0 +1,10 @@
+	 * @param weChatMenuDao
+	 */
+	public void setWeChatMenuDao(IWeChatMenuDao weChatMenuDao) {
+		this.weChatMenuDao = weChatMenuDao;
+	}
+	/**
+	 * 设置文本指令消息处理。
+	 * @param orderMessageHandlers
+	 */
+	public void setOrderMessageHandlers(IWeChatMessageFactory orderMessageHandlers) {

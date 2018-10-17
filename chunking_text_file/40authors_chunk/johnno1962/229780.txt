@@ -1,0 +1,10 @@
+    boolean entered_componentAdded_0;
+
+    public void componentAdded( java.awt.event.ContainerEvent e ) {
+        if ( !entered_componentAdded_0 ) {
+            entered_componentAdded_0 = true;
+            __componentAdded( e );
+            entered_componentAdded_0 = false;
+        }
+        else
+            super.componentAdded( e );

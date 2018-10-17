@@ -1,0 +1,10 @@
+
+public class FTPClientUtil {
+	
+	private final FTPClient ftp = new FTPClient();
+	private final Map<String, Boolean> dirCreateMap = new HashMap<String, Boolean>();
+
+	// 私有构造器
+	private FTPClientUtil() {
+
+	}

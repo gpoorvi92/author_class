@@ -1,0 +1,10 @@
+
+		// System.out.println(t1.getThreadGroup().getName()); // 王子二人组
+		// System.out.println(t2.getThreadGroup().getName()); // 王子二人组
+		// System.out.println(Thread.currentThread().getThreadGroup().getName());
+		// // main
+
+		// 设置t1,t2为守护线程
+		// t1.setDaemon(true);
+		// t2.setDaemon(true);
+

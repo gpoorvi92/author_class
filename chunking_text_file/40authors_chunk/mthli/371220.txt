@@ -1,0 +1,10 @@
+   public void yellowBackground()
+   {
+      panel.setBackground(Color.YELLOW);
+   }
+
+   @ActionListenerFor(source = "blueButton")
+   public void blueBackground()
+   {
+      panel.setBackground(Color.BLUE);
+   }

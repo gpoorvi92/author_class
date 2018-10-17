@@ -1,0 +1,10 @@
+		}else if(score>=70 && score<80) {
+			System.out.println("良");
+		}else if(score>=60 && score<70) {
+			System.out.println("及格");
+		}else {
+			System.out.println("不及格");
+		}
+		*/
+
+		//这个时候，虽然可以满足要求了。但是没有考虑到错误数据的情况。

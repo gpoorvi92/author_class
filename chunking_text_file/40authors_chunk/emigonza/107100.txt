@@ -1,0 +1,10 @@
+    public int     getDepositAmount() throws JposException;
+    public String  getDepositCashList() throws JposException;
+    public String  getDepositCodeList() throws JposException;
+    public String  getDepositCounts() throws JposException;
+    public int     getDepositStatus() throws JposException;
+
+    // Methods
+    public void    beginDeposit() throws JposException;
+    public void    clearInput() throws JposException;
+    public void    endDeposit(int success) throws JposException;

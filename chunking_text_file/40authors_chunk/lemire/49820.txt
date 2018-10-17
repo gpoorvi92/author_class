@@ -1,0 +1,10 @@
+            ii.next();
+        }
+        assertEquals(64, ctr);
+    }
+
+    @Test
+    public void testConsecCleanStartOnes() {
+        System.out
+                .println("testing int iteration, 2 consec clean runs starting with ones");
+        EWAHCompressedBitmap e = new EWAHCompressedBitmap();

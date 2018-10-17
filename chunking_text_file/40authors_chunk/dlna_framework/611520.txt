@@ -1,0 +1,10 @@
+	{
+		super(httpRes);
+		setRootNode(SOAP.createEnvelopeBodyNode());
+		setContentType(XML.CONTENT_TYPE);
+	}
+
+	public SOAPResponse(SOAPResponse soapRes)
+	{
+		super(soapRes);
+		setEnvelopeNode(soapRes.getEnvelopeNode());

@@ -1,0 +1,10 @@
+
+      JMenuItem sharpenItem = new JMenuItem("Sharpen");
+      sharpenItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               float[] elements = { 0.0f, -1.0f, 0.0f, -1.0f, 5.f, -1.0f, 0.0f, -1.0f, 0.0f };
+               convolve(elements);
+            }
+         });

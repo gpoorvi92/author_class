@@ -1,0 +1,10 @@
+
+    public native void __deactivateFrame( javax.swing.JInternalFrame f );
+
+    public void deactivateFrame( javax.swing.JInternalFrame f ) {
+        __deactivateFrame( f );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.beginDraggingFrame(javax.swing.JComponent)
+
+    public native void __beginDraggingFrame( javax.swing.JComponent f );

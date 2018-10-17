@@ -1,0 +1,10 @@
+    {
+        for(; n > 0L && readFirstBytes() >= 0; n--);
+        return in.skip(n);
+    }
+
+    private final boolean include;
+    private final List boms;
+    private ByteOrderMark byteOrderMark;
+    private int firstBytes[];
+    private int fbLength;

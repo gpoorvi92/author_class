@@ -1,0 +1,10 @@
+import java.nio.charset.*;
+
+public class ReaderInputStream extends InputStream
+{
+
+    public ReaderInputStream(Reader reader, Charset charset, int bufferSize)
+    {
+        encoderOut = ByteBuffer.allocate(128);
+        this.reader = reader;
+        encoder = charset.newEncoder();

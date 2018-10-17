@@ -1,0 +1,10 @@
+	}
+
+	////////////////////////////////////////////////
+	//	isArgumentNode
+	////////////////////////////////////////////////
+
+	public static boolean isArgumentNode(Node node)
+	{
+		return Argument.ELEM_NAME.equals(node.getName());
+	}

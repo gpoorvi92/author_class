@@ -1,0 +1,10 @@
+
+	/** @return the Profile associated with this DevCatInfo */
+	public Profile getProfile();
+
+	/** @return the DevCat */
+	public DevCat getDevCat();
+
+	/** @return the list of standard properties for this DevCat */
+	public PropInfoList getStandardProps();
+

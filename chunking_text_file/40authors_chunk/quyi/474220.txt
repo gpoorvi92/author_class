@@ -1,0 +1,10 @@
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.submitId != null) {
+          oprot.writeFieldBegin(SUBMIT_ID_FIELD_DESC);
+          oprot.writeString(struct.submitId);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+

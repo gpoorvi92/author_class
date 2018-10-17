@@ -1,0 +1,10 @@
+package model;
+
+
+public class matrix
+{
+    /** dimensions of this matrix
+     * m = width, number of columns
+     * n = height, number of rows
+     */
+  private int n, m;

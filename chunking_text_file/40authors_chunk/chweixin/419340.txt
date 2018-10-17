@@ -1,0 +1,10 @@
+		this.setType(type);
+		this.setData(data);
+	}
+	/**
+	 * 获取用户ID。
+	 * @return 用户ID。
+	 */
+	public String getUserId() {
+		return userId;
+	}

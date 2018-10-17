@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void push_back(Buffer32 buffer, int start, int number) {
+        resizeBuffer(number);
+        if(buffer instanceof IntArray) {
+            int[] data = ((IntArray)buffer).buffer;
+            System.arraycopy(data, start, this.buffer, this.actualSizeInWords, number);
+        } else {
+            for(int i = 0; i < number; ++i) {

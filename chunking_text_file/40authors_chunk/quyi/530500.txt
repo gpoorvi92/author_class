@@ -1,0 +1,10 @@
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetNotify_callback_url()).compareTo(other.isSetNotify_callback_url());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetNotify_callback_url()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.notify_callback_url, other.notify_callback_url);
+      if (lastComparison != 0) {
+        return lastComparison;

@@ -1,0 +1,10 @@
+		return materialBrandDao.selectMaterialBrandById(ID);
+	}
+
+	@Override
+	public TypeForBrand findTypeForBrandById(int ID) {
+		return materialBrandDao.selectTypeForBrandById(ID);
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override

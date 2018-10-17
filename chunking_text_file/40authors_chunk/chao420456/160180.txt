@@ -1,0 +1,10 @@
+			find
+		cn.itcast.worker
+			add
+			delete
+			update
+			find
+	
+	定义包的格式:
+		package 包名;
+

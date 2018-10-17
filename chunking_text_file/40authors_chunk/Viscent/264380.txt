@@ -1,0 +1,10 @@
+			Set<BigInteger> result = new TreeSet<BigInteger>();
+			BigInteger start = BigInteger.valueOf(range.lowerBound);
+			BigInteger end = BigInteger.valueOf(range.upperBound);
+
+			while (-1 == (start = start.nextProbablePrime()).compareTo(end)) {
+				result.add(start);
+			}
+
+			return result;
+		}

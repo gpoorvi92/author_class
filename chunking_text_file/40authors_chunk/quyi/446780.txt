@@ -1,0 +1,10 @@
+    OS_ARCH((short)1, "osArch"),
+    OS_NAME((short)2, "osName"),
+    OS_DESC((short)3, "osDesc"),
+    OS_VERSION((short)4, "osVersion"),
+    JVM_NAME((short)5, "jvmName"),
+    JVM_VERSION((short)6, "jvmVersion"),
+    JVM_MAX_MEM((short)7, "jvmMaxMem");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+

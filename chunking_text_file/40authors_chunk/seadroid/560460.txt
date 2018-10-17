@@ -1,0 +1,10 @@
+                tags[i] = mQueue.get(i).mTag;
+            }
+            mQueue.clear();
+            return tags;
+        }
+    }
+
+    private static class WorkItem {
+        IImage mImage;
+        LoadedCallback mOnLoadedRunnable;

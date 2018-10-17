@@ -1,0 +1,10 @@
+	private static void mergeTwo() throws IOException {
+		// SequenceInputStream(InputStream s1, InputStream s2)
+		InputStream s1 = new FileInputStream("MyBufferedReader.java");
+		InputStream s2 = new FileInputStream("MyBufferedReaderDemo.java");
+		SequenceInputStream sis = new SequenceInputStream(s1, s2);
+
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream("Copy.java"));
+
+		byte[] bys = new byte[1024];

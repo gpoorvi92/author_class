@@ -1,0 +1,10 @@
+        return gson.fromJson(jsonString, clazz);
+    }
+
+    /**
+     * 反序列化POJO
+     */
+    public <T> T fromJson(JsonElement jsonElement, Class<T> clazz) {
+        if (jsonElement == null) {
+            return null;
+        }

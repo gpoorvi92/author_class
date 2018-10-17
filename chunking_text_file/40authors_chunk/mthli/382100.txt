@@ -1,0 +1,10 @@
+      int r = chooser.showOpenDialog(this);
+      if (r != JFileChooser.APPROVE_OPTION) return;
+      File file = chooser.getSelectedFile();
+      try
+      {
+         docText.setText(new String(Files.readAllBytes(file.toPath())));
+         doc = builder.parse(file);
+      }
+      catch (IOException e)
+      {

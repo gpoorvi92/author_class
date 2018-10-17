@@ -1,0 +1,10 @@
+ * 5:string methodName 检测存在问题的方法的名称
+ * 6:string statement 检测存在问题
+ * 7:string riskType 威胁类型
+ * 8:string riskLevel 威胁等级
+ * 9:string ruleNo 规则序号
+ * 10:string category 规则的类别
+ * 11:string description 规则描述
+ * 12:i32 lineNum 检测到威胁所在行
+ * 13:i32 columnNum 检测到威胁所在列
+ * 14:string riskDescription 检测到的威胁描述

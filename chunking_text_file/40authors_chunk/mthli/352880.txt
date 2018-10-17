@@ -1,0 +1,10 @@
+      wordList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+      wordList.setPrototypeCellValue("www");
+      JScrollPane scrollPane = new JScrollPane(wordList);
+
+      JPanel p = new JPanel();
+      p.add(scrollPane);
+      wordList.addListSelectionListener(new ListSelectionListener()
+         {
+            public void valueChanged(ListSelectionEvent evt)
+            {

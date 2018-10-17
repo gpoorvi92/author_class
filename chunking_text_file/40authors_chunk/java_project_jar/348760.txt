@@ -1,0 +1,10 @@
+            if(i > 0)
+                builder.append(",");
+            builder.append("0x");
+            builder.append(Integer.toHexString(0xff & bytes[i]).toUpperCase());
+        }
+
+        builder.append(']');
+        return builder.toString();
+    }
+

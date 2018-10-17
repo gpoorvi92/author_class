@@ -1,0 +1,10 @@
+      this();
+      this.propertyName = propertyName;
+      this.propertyValue = propertyValue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public modifyEngineConfig_args(modifyEngineConfig_args other) {
+      if (other.isSetPropertyName()) {

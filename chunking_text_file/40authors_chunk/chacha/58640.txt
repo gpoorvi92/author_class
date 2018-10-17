@@ -1,0 +1,10 @@
+		this.connectionPerHost = connectionPerHost;
+	}
+
+	public void setThreadsAllowedToBlockForConnectionMultiplier(
+			int threadsAllowedToBlockForConnectionMultiplier) {
+		this.threadsAllowedToBlockForConnectionMultiplier = threadsAllowedToBlockForConnectionMultiplier;
+	}
+
+	public void setConnectTimeout(int connectTimeout) {
+		this.connectTimeout = connectTimeout;

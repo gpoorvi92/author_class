@@ -1,0 +1,10 @@
+      public issuedMessage_result getResult(I iface, issuedMessage_args args) throws org.apache.thrift.TException {
+        issuedMessage_result result = new issuedMessage_result();
+        try {
+          result.success = iface.issuedMessage(args.missionId, args.userApps, args.rules, args.plots);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;

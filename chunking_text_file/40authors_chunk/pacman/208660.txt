@@ -1,0 +1,10 @@
+ * @date: 2015年1月5日 上午12:59:28
+ */
+public final class WebHelper {
+
+	private final static ILog logger = LogFactory.getLog(WebHelper.class);
+	
+	/**
+	 * Whether the resource is local file or not.
+	 * 
+	 * @param resource

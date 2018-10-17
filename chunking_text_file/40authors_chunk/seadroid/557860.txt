@@ -1,0 +1,10 @@
+        return server;
+    }
+
+    public void setServer(String server) {
+        this.server = server;
+    }
+
+    public String getSpaceUsed() {
+        String strUsage = Utils.readableFileSize(usage);
+        String strTotal = Utils.readableFileSize(total);

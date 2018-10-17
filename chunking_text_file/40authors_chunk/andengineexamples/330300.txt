@@ -1,0 +1,10 @@
+	// Getter & Setter
+	// ===========================================================
+
+	public void set(final int pPaddleID) {
+		this.mPaddleID = pPaddleID;
+	}
+
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================

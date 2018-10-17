@@ -1,0 +1,5 @@
+    public int     getScanDataType() throws JposException;
+
+    // Methods
+    public void    clearInput() throws JposException;
+}

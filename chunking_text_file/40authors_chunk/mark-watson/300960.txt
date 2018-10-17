@@ -1,0 +1,10 @@
+				"    (and" +
+				"      (company ?x)" +
+				"      (company-name ?x ?name))");
+		System.out.println(answers);
+		plu.createRelation("CEO", 2);
+		plu.assertProposition(
+				"(CEO \"Apple\" \"SteveJobs\")");
+		answers = plu.doQuery(
+				"all (?x ?name ?ceo)" +
+				"    (and" +

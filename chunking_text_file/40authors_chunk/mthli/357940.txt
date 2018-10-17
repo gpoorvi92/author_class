@@ -1,0 +1,10 @@
+}
+
+/**
+ * This frame contains a font selection dialog that is described by an XML file.
+ * @param filename the file containing the user interface components for the dialog.
+ */
+class FontFrame extends JFrame
+{
+   private GridBagPane gridbag;
+   private JComboBox<String> face;

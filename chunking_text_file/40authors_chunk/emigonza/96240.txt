@@ -1,0 +1,10 @@
+     */
+    public static Tracer getInstance()
+    {
+        if( instance == null )
+        {
+            instance = new Tracer();
+
+            instance.init();
+        }
+

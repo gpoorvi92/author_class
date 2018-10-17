@@ -1,0 +1,10 @@
+     */
+    public final void setOne(final int pos) {
+        if (!this.b[pos]) {
+            clearLiteral(pos);
+            this.b[pos] = true;
+            ++this.hammingWeight;
+        }
+    }
+
+    /**

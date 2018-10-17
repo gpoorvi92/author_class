@@ -1,0 +1,10 @@
+
+			@Override
+			public boolean evaluate() {
+				return isStateOK;
+			}
+
+		};
+
+		private final Blocker blocker = new ConditionVarBlocker();
+

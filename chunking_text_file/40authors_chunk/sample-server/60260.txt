@@ -1,0 +1,10 @@
+        return resultCode.toJson();
+    }
+    @ResponseBody
+    @RequestMapping("/zoneManage/delete")
+    public String deleteZone(@RequestParam(required = true) int id)
+    {
+        JsonResponse resultCode = new JsonResponse();
+        try
+        {
+            ZoneEntity entity = DaoManager.getLocalDao().select(ZoneEntity.class, id);

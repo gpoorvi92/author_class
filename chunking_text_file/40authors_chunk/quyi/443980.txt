@@ -1,0 +1,10 @@
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, UnavailableException struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      struct.why = iprot.readString();
+      struct.setWhyIsSet(true);
+    }
+  }
+
+}

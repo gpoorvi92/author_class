@@ -1,0 +1,10 @@
+                return;
+            }
+
+            mSegmentPlayer.release();
+        }
+
+        mSegmentPlayer = createItemPlayer();
+        try {
+            mSegmentPlayer.setSegment(order, startTime, segment);
+            mSegmentPlayer.prepareAsync();

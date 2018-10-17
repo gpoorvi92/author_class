@@ -1,0 +1,10 @@
+	/**
+	 * @return the classID
+	 */
+	public int getClassID() {
+		return classID;
+	}
+	/**
+	 * @param classID the classID to set
+	 */
+	public void setClassID(int classID) {

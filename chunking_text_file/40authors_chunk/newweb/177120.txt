@@ -1,0 +1,10 @@
+			File.separator + "record.txt", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return orderLhjWeightDao.delete(lhjWeight);
+	}
+
+	@Override
+	public boolean save(OrderLhjWeight w) {
+		OrderPrice op = new OrderPrice();
+		op.setOrder(w.getOrder());

@@ -1,0 +1,10 @@
+package list;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * This frame contains a word list and a label that shows a sentence made up from the chosen words.
+ * Note that you can select multiple words with Ctrl+click and Shift+click.

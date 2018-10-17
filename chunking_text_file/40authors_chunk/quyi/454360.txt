@@ -1,0 +1,10 @@
+    public EngineOperation operate; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      ENGINE((short)1, "engine"),
+      /**
+       * 
+       * @see EngineOperation
+       */
+      OPERATE((short)2, "operate");

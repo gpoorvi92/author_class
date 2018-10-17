@@ -1,0 +1,10 @@
+					int y = mapMatrixMeetable[i][j].row + mapMatrixMeetable[i][j].refRow;
+					int[][] meetableMatrix = mapMatrixMeetable[i][j].meetableMatrix;
+					for(int k=0; k<meetableMatrix.length; k++){
+						mapMatrixForMeetable[y-meetableMatrix[k][1]][x+meetableMatrix[k][0]] = mapMatrixMeetable[i][j];
+					}					
+				}
+			}
+		}
+	}
+	

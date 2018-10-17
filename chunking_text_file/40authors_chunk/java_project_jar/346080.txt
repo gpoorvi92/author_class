@@ -1,0 +1,10 @@
+    public static void copy(String input, OutputStream output)
+        throws IOException
+    {
+        StringReader in = new StringReader(input);
+        OutputStreamWriter out = new OutputStreamWriter(output);
+        copy(((Reader) (in)), ((Writer) (out)));
+        out.flush();
+    }
+
+    public static void copy(String input, Writer output)

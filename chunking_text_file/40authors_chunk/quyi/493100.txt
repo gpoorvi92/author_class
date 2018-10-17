@@ -1,0 +1,10 @@
+
+    private static class heart_resultStandardSchemeFactory implements SchemeFactory {
+      public heart_resultStandardScheme getScheme() {
+        return new heart_resultStandardScheme();
+      }
+    }
+
+    private static class heart_resultStandardScheme extends StandardScheme<heart_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, heart_result struct) throws org.apache.thrift.TException {

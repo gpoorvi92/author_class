@@ -1,0 +1,10 @@
+        {
+            int max = 0;
+            for(Iterator i$ = boms.iterator(); i$.hasNext();)
+            {
+                ByteOrderMark bom = (ByteOrderMark)i$.next();
+                max = Math.max(max, bom.length());
+            }
+
+            firstBytes = new int[max];
+            int i = 0;

@@ -1,0 +1,10 @@
+    }
+
+    public static int int2dArrayFieldStatic[][];
+    public int int2dArrayField[][];
+
+    public static int[][] int2dArrayMethodStatic( int arg[][] ) {
+        return arg;
+    }
+
+    public int[][] int2dArrayMethod( int arg[][] ) {

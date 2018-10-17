@@ -1,0 +1,10 @@
+      Moves the ball to the next position, reversing direction
+      if it hits one of the edges
+   */
+   public void move(Rectangle2D bounds)
+   {
+      x += dx;
+      y += dy;
+      if (x < bounds.getMinX())
+      { 
+         x = bounds.getMinX();

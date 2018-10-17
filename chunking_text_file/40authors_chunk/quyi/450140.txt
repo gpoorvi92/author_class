@@ -1,0 +1,10 @@
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.engineId = engineId;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("searchEng", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        searchEng_args args = new searchEng_args();
+        args.setEngineId(engineId);
+        args.write(prot);
+        prot.writeMessageEnd();

@@ -1,0 +1,10 @@
+		BlockingDeque<T> targetQueue = preferredQueue;
+		T product = null;
+
+		// 试图从指定的队列队首取“产品”
+		if (null != targetQueue) {
+			product = targetQueue.poll();
+		}
+
+		int queueIndex = -1;
+

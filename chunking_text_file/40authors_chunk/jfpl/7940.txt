@@ -1,0 +1,10 @@
+	}
+
+	public static Bitmap setImageView(String filePath, ImageView iv)
+			throws FileNotFoundException {
+		Bitmap bm = null;
+		bm = bitmapCache.get(filePath);
+		if (bm != null) {
+			iv.setImageBitmap(bm);
+			return bm;
+		}

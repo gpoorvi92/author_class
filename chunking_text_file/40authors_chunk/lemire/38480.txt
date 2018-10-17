@@ -1,0 +1,10 @@
+     */
+    @Override
+    public void addLiteralWord(final long newData) {
+        this.oneBits += Long.bitCount(newData);
+    }
+
+    /**
+     * virtually add several literal words.
+     *
+     * @param buffer the buffer wrapping the literal words

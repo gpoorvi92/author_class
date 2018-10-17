@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch8.activeobject.example;
+
+import io.github.viscent.mtpattern.ch5.tpt.AbstractTerminatableThread;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;

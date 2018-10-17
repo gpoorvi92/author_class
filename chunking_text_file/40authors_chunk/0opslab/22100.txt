@@ -1,0 +1,10 @@
+        StringBuffer sb = new StringBuffer();
+        for (char item : str.toCharArray()){
+            if (charReg(item)) {
+                sb.append(item);
+            }
+        }
+        return sb.toString();
+    }
+
+    /**

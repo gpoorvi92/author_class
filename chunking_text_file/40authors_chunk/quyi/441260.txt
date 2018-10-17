@@ -1,0 +1,10 @@
+  }
+
+  public void unsetProtocal() {
+    this.protocal = null;
+  }
+
+  /** Returns true if field protocal is set (has been assigned a value) and false otherwise */
+  public boolean isSetProtocal() {
+    return this.protocal != null;
+  }

@@ -1,0 +1,10 @@
+        for (PlayIndex playIndex : mVodList) {
+            String playTag = playIndex.mPlayTag;
+            if (!TextUtils.isEmpty(playTag) && playTag.equalsIgnoreCase(tag)) {
+                mSelectedPlayIndex = playIndex;
+                return playIndex;
+            }
+        }
+
+        return null;
+    }

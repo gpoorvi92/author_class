@@ -1,0 +1,10 @@
+            dirent.mtime = obj.getLong("mtime");
+            String type = obj.getString("type");
+            if (type.equals("file")) {
+                dirent.type = DirentType.FILE;
+                dirent.size = obj.getLong("size");
+            } else
+                dirent.type = DirentType.DIR;
+            return dirent;
+        } catch (JSONException e) {
+            Log.d(DEBUG_TAG, e.getMessage());

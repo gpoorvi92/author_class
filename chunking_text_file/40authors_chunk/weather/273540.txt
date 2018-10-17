@@ -1,0 +1,10 @@
+                    sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+
+    /*
+     * 数字保留一位小数
+     */
+    public static String formatScore(double number) {

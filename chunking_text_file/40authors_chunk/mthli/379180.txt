@@ -1,0 +1,6 @@
+            if (min > v) min = v;
+            if (max < v) max = v;
+        }
+        return new Pair(min, max);
+    }
+}

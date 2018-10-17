@@ -1,0 +1,10 @@
+      return x * x;
+   }
+
+   /**
+    * Prints a table with x- and y-values for a method
+    * @param from the lower bound for the x-values
+    * @param to the upper bound for the x-values
+    * @param n the number of rows in the table
+    * @param f a method with a double parameter and double return value
+    */

@@ -1,0 +1,10 @@
+			try {
+				wb = Workbook.getWorkbook(file); // 从文件流中获取Excel工作区对象（WorkBook）
+				Sheet sheet = wb.getSheet(sheetNum); // 从工作区中取得页（Sheet）
+
+				for (int i = 1; i < sheet.getRows(); i++) { // 循环打印Excel表中的内容
+					Cell cell = sheet.getCell(column, i);
+					columninfoSet.add(cell.getContents());
+				}
+			} catch (BiffException e) {
+				e.printStackTrace();

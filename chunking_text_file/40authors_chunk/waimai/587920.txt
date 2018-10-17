@@ -1,0 +1,10 @@
+        return mav;
+    }
+
+    protected ModelAndView ajaxDoneSuccess(String message) {
+        return ajaxDone(200, message, "", "", "", "", "");
+    }
+
+    protected ModelAndView ajaxDoneError(String message) {
+        return ajaxDone(300, message, "", "", "", "", "");
+    }

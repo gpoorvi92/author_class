@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * PrivacySteal 隐私窃取
+ * RemoteControl 远程控制
+ * RatesLoss 响应触屏事件
+ * MaliceSpread 恶意传播
+ * SystemDamage 系统破坏
+ * TouchEvent 响应触屏事件

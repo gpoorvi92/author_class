@@ -1,0 +1,10 @@
+      if (incoming.get(2)) {
+        struct.freeMem = iprot.readDouble();
+        struct.setFreeMemIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.jvmFreeMem = iprot.readDouble();
+        struct.setJvmFreeMemIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.taskQueueLimit = iprot.readI32();

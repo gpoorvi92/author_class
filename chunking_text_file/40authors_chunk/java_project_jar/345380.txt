@@ -1,0 +1,10 @@
+        handleIOException(e);
+        return -1;
+    }
+
+    public long skip(long ln)
+        throws IOException
+    {
+        return in.skip(ln);
+        IOException e;
+        e;

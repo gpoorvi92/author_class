@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface RemoteOrderDisplayService15
+  extends RemoteOrderDisplayService14, JposServiceInstance

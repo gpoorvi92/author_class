@@ -1,0 +1,10 @@
+  public String  getCapCardAuthentication() throws JposException;
+  public int     getCapDataEncryption() throws JposException;
+  public int     getCapDeviceAuthentication() throws JposException;
+  public boolean getCapTrackDataMasking() throws JposException;
+
+  // Properties
+  public byte[]  getAdditionalSecurityInformation() throws JposException;
+  public byte[]  getCardAuthenticationData() throws JposException;
+  public int     getCardAuthenticationDataLength() throws JposException;
+  public String  getCardPropertyList() throws JposException;

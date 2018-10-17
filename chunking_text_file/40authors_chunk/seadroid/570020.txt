@@ -1,0 +1,10 @@
+        return fullSizeBitmap(minSideLength, maxNumberOfPixels,
+                IImage.ROTATE_AS_NEEDED, IImage.NO_NATIVE);
+    }
+
+    public Bitmap fullSizeBitmap(int minSideLength, int maxNumberOfPixels,
+            boolean rotateAsNeeded) {
+        return fullSizeBitmap(minSideLength, maxNumberOfPixels,
+                rotateAsNeeded, IImage.NO_NATIVE);
+    }
+

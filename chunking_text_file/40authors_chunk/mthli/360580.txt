@@ -1,0 +1,10 @@
+               builder.deleteCharAt(i);
+               if (Character.isSupplementaryCodePoint(cp))
+               {
+                  i--;
+                  builder.deleteCharAt(i);
+               }
+            }
+         }
+         string = builder.toString();
+      }

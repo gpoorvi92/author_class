@@ -1,0 +1,10 @@
+      editor = ed;
+      button = new JButton();
+      updateButton();
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               editor.setValue(!(Boolean) editor.getValue());
+               updateButton();
+            }

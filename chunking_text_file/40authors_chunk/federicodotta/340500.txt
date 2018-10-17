@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String getIssueName()
+    {
+        return name;
+    }
+
+    @Override
+    public int getIssueType()

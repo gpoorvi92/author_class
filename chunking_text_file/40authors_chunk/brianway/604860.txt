@@ -1,0 +1,10 @@
+ */
+public class Run4_notFair {
+    public static void main(String[] args) {
+        final Service service = new Service(false);
+
+        Runnable runnable = new Runnable() {
+            public void run() {
+                System.out.println("★线程" + Thread.currentThread().getName() + "运行了");
+                service.serviceMethod();
+            }

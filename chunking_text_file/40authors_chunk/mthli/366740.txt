@@ -1,0 +1,10 @@
+
+   public PermissionTestFrame()
+   {
+      textField = new JTextField(20);
+      JPanel panel = new JPanel();
+      panel.add(textField);
+      JButton openButton = new JButton("Insert");
+      panel.add(openButton);
+      openButton.addActionListener(new ActionListener()
+         {

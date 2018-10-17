@@ -1,0 +1,10 @@
+         e.printStackTrace();
+      }
+   }
+
+   /**
+    * Constructs an EntryLogger that inserts logging into annotated methods of a given class.
+    * @param cg the class
+    */
+   public EntryLogger(ClassGen cg)
+   {

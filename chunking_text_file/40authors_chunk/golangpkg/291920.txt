@@ -1,0 +1,10 @@
+		
+		//assert that event is propagated
+		if (shallBePropagated) {
+			progressManagerAdvertiser.assertInvoked().advertise(clientId, fileId, fileProgressStatus);
+		} else {
+			progressManagerAdvertiser.assertNotInvoked().advertise(clientId, fileId, fileProgressStatus);
+		}
+	}
+	
+	

@@ -1,0 +1,10 @@
+	{
+		super();
+	}
+	
+	////////////////////////////////////////////////
+	//	parse (Node)
+	////////////////////////////////////////////////
+
+	public org.cybergarage.xml.Node parse(org.cybergarage.xml.Node parentNode, org.w3c.dom.Node domNode, int rank)
+	{

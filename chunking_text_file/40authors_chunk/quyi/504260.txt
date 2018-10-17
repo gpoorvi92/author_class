@@ -1,0 +1,10 @@
+  }
+
+  public void putToTaskInfo(String key, String val) {
+    if (this.taskInfo == null) {
+      this.taskInfo = new HashMap<String,String>();
+    }
+    this.taskInfo.put(key, val);
+  }
+
+  public Map<String,String> getTaskInfo() {

@@ -1,0 +1,10 @@
+      this.apiName = other.apiName;
+    }
+    if (other.isSetApiPackageName()) {
+      this.apiPackageName = other.apiPackageName;
+    }
+    if (other.isSetPackageName()) {
+      this.packageName = other.packageName;
+    }
+    if (other.isSetObjectName()) {
+      this.objectName = other.objectName;

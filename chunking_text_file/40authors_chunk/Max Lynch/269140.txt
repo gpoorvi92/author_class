@@ -1,0 +1,10 @@
+	
+	ShapeLayerModel rectModel = new ShapeLayerModel('r');
+
+	public RenderSurface(GraphicsFrame frame)
+	{
+		super();
+		
+		this.frame = frame;
+		menus = frame.getMenuMan();
+		

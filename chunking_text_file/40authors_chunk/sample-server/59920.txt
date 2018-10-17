@@ -1,0 +1,10 @@
+                outputStream.close();
+        } catch (Exception e)
+        {
+            //ignore
+        }
+        try
+        {
+            if (outputStream != null && !socket.isClosed())
+            {
+                socket.close();

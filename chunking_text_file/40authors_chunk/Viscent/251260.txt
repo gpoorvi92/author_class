@@ -1,0 +1,10 @@
+				    thread.setDaemon(true);
+				    return thread;
+			    }
+
+		    }, new RejectedExecutionHandler() {
+
+			    /**
+			     * 该RejectedExecutionHandler支持重试。 
+			     * 当任务被ThreadPoolExecutor拒绝时，
+			     * 该RejectedExecutionHandler支持

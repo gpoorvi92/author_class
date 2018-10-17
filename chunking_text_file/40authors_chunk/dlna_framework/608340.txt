@@ -1,0 +1,10 @@
+	 * @param ip The IPv6 address used as destination address for Multicast comunication
+	 * @since 1.8
+	 */
+	public void setMulticastIPv6Address(String ip){
+		this.ssdpMulticastIPv6=ip;
+	}
+
+	/**
+	 * 
+	 * @return The IPv6 address used as destination address for Multicast comunication

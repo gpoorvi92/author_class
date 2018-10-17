@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		Helper helper = new Helper();
+		helper.init();
+
+		// 此处，helper的客户端线程为main线程
+		helper.submit("Something...");
+
+	}
+
+	static class Helper {

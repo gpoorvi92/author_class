@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import java.io.ByteArrayOutputStream;
+
+/**
+ * 常用类型转换
+ */
+public final class ConvertUtil {
+
+    private final static String hexStr = "0123456789ABCDEF";

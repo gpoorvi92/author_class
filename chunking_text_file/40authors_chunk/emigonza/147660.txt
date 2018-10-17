@@ -1,0 +1,10 @@
+
+	/** @return a String description of this profile */
+	public String getDescription() { return description; }
+
+	/** @return the vendor name of this profile */
+	public String getVendorName() { return vendorName; }
+
+	/** @return the URL for this vendor */
+	public URL getVendorUrl() { return vendorUrl; }
+

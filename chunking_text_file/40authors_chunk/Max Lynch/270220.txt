@@ -1,0 +1,10 @@
+
+  /**
+   * @param bounds the bounds of the Ellipse defining the gradient. User space.
+   * @param color1 Color at the ellipse focal points.
+   * @param color2 Color at the ellipse boundary and beyond.
+   */
+  public RadialGradientPaint(Rectangle2D bounds, Color color1, Color color2) {
+    this.color1 = color1;
+    this.color2 = color2;
+    this.gradientBounds = new Rectangle2D.Float();

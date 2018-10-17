@@ -1,0 +1,10 @@
+    public boolean hasProfile( String profileName ) { return table.containsKey( profileName ); }
+
+    /**
+     * @return true if there is an Profile with the specified logical name
+     * @param profile the profile
+     */
+    public boolean hasProfile( Profile profile ) { return table.containsValue( profile ); }
+
+    /** @return an enumeration of Profile objects  */
+    public Enumeration getProfiles() { return table.elements(); }

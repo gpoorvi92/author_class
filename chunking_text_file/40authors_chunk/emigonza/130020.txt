@@ -1,0 +1,10 @@
+// 98-04-20 JavaPOS Release 1.3                                   BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface RemoteOrderDisplayService13 extends BaseService
+{

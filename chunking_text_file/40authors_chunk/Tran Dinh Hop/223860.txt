@@ -1,0 +1,10 @@
+	   			output+=wg*Integer.parseInt(""+b.charAt(i));
+				wg/=2;
+	     }	
+		return output;
+     }
+	
+	public int getCurrent(){
+		return totalBytes;
+	}
+	

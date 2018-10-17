@@ -1,0 +1,10 @@
+		getContentPane().add (pMember, BorderLayout.CENTER);
+
+		try {
+			st = con.createStatement ();	//Creating Statement Object.
+		}
+		catch (SQLException sqlex) {			//If Problem then Show the User a Message.
+ 			JOptionPane.showMessageDialog (null, "A Problem Occurs While Loading the Form.");
+ 			dispose ();				//Closing the Form.
+	 	}
+

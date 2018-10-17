@@ -1,0 +1,10 @@
+            if (ratings[i] >= ratings[i - 1]) {
+                candy = ratings[i] == ratings[i - 1] ? 1 : candy + 1;
+                maxVal = candy;
+                maxIdx = i;
+            } else {
+                if (candy == 1) {
+                    if (maxVal <= i - maxIdx) {
+                        ++maxVal;
+                        ++res;
+                    }

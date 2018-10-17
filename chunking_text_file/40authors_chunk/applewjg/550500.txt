@@ -1,0 +1,10 @@
+        Comparator<String> comp =  new Comparator<String>(){  
+            public int compare(String a,  String b) { 
+                    String aa = a+b;
+                    String bb = b+a;
+                    return bb.compareTo(aa);
+            }  
+        };
+        Arrays.sort(in, comp);
+        int i = 0;
+        while ((i < in.length - 1) && (in[i].compareTo("0") == 0)) ++i;

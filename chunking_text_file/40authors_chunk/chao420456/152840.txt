@@ -1,0 +1,8 @@
+			if(serverThread.isAlive()){
+				serverThread.stopServer();
+			}
+		}
+		System.exit(0);
+	}
+	
+}

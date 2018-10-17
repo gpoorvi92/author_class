@@ -1,0 +1,10 @@
+	@Override
+	public Response add(AddAccountRequest acct) {
+		AccountBody body=acct.getBody();
+		LinkedList<AccountEntity> acctArray=body.getAcctArray();
+		Vector<Account> acctV=new  Vector<Account>();
+		for(AccountEntity entity:acctArray){
+			Account a=new Account();
+			a.setUserName(entity.getUserName());
+			a.setPasswd(entity.getPasswd());
+			a.setAcctAttr(entity.getAcctAttr());

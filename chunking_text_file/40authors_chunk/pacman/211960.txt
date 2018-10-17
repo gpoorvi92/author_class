@@ -1,0 +1,10 @@
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 下午2:48:09
+ */
+public interface IMessageBuilder {
+
+	/**
+	 * 
+	 * @param classId
+	 * @param lessonId
+	 * @param bitrate

@@ -1,0 +1,10 @@
+ * This class can be used to iterate over blocks of bitmap data.
+ *
+ * @author Daniel Lemire
+ */
+public class BufferedIterator32 implements IteratingRLW32, Cloneable {
+    /**
+     * Instantiates a new iterating buffered running length word.
+     *
+     * @param iterator iterator
+     */

@@ -1,0 +1,10 @@
+	{
+		try {	 	
+			InetSocketAddress mcastGroup = new InetSocketAddress(InetAddress.getByName(mcastAddr), mcastPort);
+			NetworkInterface mcastIf = NetworkInterface.getByInetAddress(InetAddress.getByName(bindAddr));
+			ssdpUniSock.joinGroup(mcastGroup, mcastIf);
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}

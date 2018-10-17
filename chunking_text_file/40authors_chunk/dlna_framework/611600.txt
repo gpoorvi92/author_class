@@ -1,0 +1,10 @@
+		return getRootNode();
+	}
+	
+	public Node getBodyNode()
+	{
+		Node envNode = getEnvelopeNode();
+		if (envNode == null)
+			return null;
+		return envNode.getNodeEndsWith(SOAP.BODY);
+	}

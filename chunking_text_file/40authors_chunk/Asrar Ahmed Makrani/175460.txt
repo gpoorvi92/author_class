@@ -1,0 +1,10 @@
+						cnt++;
+					}
+					if (cnt!=0)
+					{				
+					
+					try{
+					userPic = new ImageIcon(patron_text.getText() + ".gif");
+					pic.setIcon(userPic);
+					}
+					catch(Exception ex)

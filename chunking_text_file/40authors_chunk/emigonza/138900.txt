@@ -1,0 +1,10 @@
+  public byte[]  getTrack3EncryptedData() throws JposException;
+  public int     getTrack3EncryptedDataLength() throws JposException;
+  public byte[]  getTrack4EncryptedData() throws JposException;
+  public int     getTrack4EncryptedDataLength() throws JposException;
+  public String  getWriteCardType() throws JposException;
+  public void    setWriteCardType(String cardType) throws JposException;
+
+  // Methods
+  public void    authenticateDevice(byte[] response)
+                     throws JposException;

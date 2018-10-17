@@ -1,0 +1,10 @@
+    public void disconnectRpcServer(ZoneEntity zoneEntity)
+    {
+        //TODO:是否一个服务器组对应一个区？如果不是，移除
+        GameServerRpcClient gameServerRpcClient = gameServerRpcClientMap.remove(zoneEntity.getGameServerHost());
+        if (null != gameServerRpcClient)
+        {
+            gameServerRpcClient.shutdown();
+        }
+        ChatServerRpcClient chatServerRpcClient = chatServerRpcClientMap.remove(zoneEntity.getChatServerHost());
+        if (null != chatServerRpcClient)

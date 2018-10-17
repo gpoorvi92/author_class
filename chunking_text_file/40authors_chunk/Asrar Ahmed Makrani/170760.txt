@@ -1,0 +1,10 @@
+	public JLabel item_type_label = new JLabel("Item Type");
+	
+	public JLabel location_label = new JLabel("Location");
+	public JLabel author_label = new JLabel("Author");
+	
+	public JLabel year_label = new JLabel("Year");
+	public JLabel subject_label = new JLabel("Subject Area");
+	
+	public JLabel avail_label = new JLabel("Availability");
+	public JLabel permission_label = new JLabel("Permissions");

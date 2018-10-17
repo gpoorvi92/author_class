@@ -1,0 +1,10 @@
+		returnList.add(size);//第一个对象保存结果总数
+		returnList.add(ss);//第二个对象保存实体数组
+		return returnList;
+	}
+
+
+	@Override
+	public Small findSmallByName(String name) {
+		return smallDao.selectSmallByName(name);
+	}

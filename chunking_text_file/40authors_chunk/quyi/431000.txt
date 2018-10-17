@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetCheckDate() {
+    this.checkDate = null;
+  }
+
+  /** Returns true if field checkDate is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckDate() {
+    return this.checkDate != null;

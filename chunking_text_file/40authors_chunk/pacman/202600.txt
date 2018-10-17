@@ -1,0 +1,10 @@
+				if (1 == task.getType()) {
+					//CT lesson callback url.
+					url = AppConfig.getInstance().getOcsCallbackUrl();
+					data.add(new BasicNameValuePair("lessonid", task.getLid().toString()));
+				} else {
+					//OCS transcode callback url.
+					url = AppConfig.getInstance().getTransCallbackUrl();
+				}
+				
+				data.add(new BasicNameValuePair("taskid", task.getTid().toString()));

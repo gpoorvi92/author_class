@@ -1,0 +1,10 @@
+        for (int i = 0; i < runLength; ++i) {
+            long w = 0;
+            for (EWAHPointer R : this.getLiterals()) {
+                w |= R.iterator.getLiteralWordAt(i + runBegin - R.beginOfRun());
+            }
+            out.addWord(w);
+        }
+    }
+
+    private void andLiterals(final BitmapStorage out, final int runBegin, final int runLength) {

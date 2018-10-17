@@ -1,0 +1,10 @@
+	 * @param request
+	 * 	请求对象。
+	 * @return 解析结果。
+	 * @throws Exception
+	 * */
+	public static Map<String, String> parseXml(HttpServletRequest request) throws Exception{
+		InputStream inputStream = null;
+		try{
+			//从request中取得输入流。
+			inputStream = request.getInputStream();

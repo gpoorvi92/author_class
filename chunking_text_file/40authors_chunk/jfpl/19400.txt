@@ -1,0 +1,10 @@
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.util.SSLConnection;
+import com.lianzt.util.StringUtil;
+
+public class RegisterActivity extends AutoActivity {
+
+	@InjectionView(id = R.id.next_step_btn, click = "nextStepClick")
+	private Button nextStepBtn;
+	@InjectionView(id = R.id.reg_username)
+	private EditText usernameEt;

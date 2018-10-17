@@ -1,0 +1,10 @@
+    @Override
+    public void didFinishedLoadingData(DataProvider provider, Object objects, LoadingType type) {
+        WeeklyWeather weeklyWeather = ((List<WeeklyWeather>) objects).get(0);
+        //将信息分解
+        mCity.setText(weeklyWeather.city);
+        mTips.setText(weeklyWeather.tips);
+        mAdapter.setItems(weeklyWeather.forecast);
+        mAdapter.notifyDataSetChanged();
+    }
+

@@ -1,0 +1,10 @@
+    this.notify_callback_url = notify_callback_url;
+    return this;
+  }
+
+  public void unsetNotify_callback_url() {
+    this.notify_callback_url = null;
+  }
+
+  /** Returns true if field notify_callback_url is set (has been assigned a value) and false otherwise */
+  public boolean isSetNotify_callback_url() {

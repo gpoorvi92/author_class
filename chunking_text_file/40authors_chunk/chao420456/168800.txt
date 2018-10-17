@@ -1,0 +1,10 @@
+	// char temp = chs[start];
+	// chs[start] = chs[end];
+	// chs[end] = temp;
+	// }
+	// // 把数组转成字符串返回
+	// return String.valueOf(chs);
+	// }
+
+	// 方式3
+	public static String reverse(String str) {

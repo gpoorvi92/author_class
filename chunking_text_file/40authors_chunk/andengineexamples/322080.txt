@@ -1,0 +1,10 @@
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================
+
+	@Override
+	protected int getBenchmarkID() {
+		return TICKERTEXTBENCHMARK_ID;
+	}
+
+	@Override

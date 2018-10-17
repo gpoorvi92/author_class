@@ -1,0 +1,10 @@
+    }
+
+    public void testIsValid2() throws Exception {
+        Map map = new HashMap();
+        assertEquals(false, valid.valid(map));
+        map.put("1", "1");
+        assertEquals(true, valid.valid(map));
+        Map map1 = new HashMap();
+        assertEquals(false, valid.valid(map, map1));
+        map1.put("2", "2");

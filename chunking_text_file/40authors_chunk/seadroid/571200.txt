@@ -1,0 +1,10 @@
+
+    public int getTaskID() {
+        return taskID;
+    }
+
+    public TaskState getState() {
+        return state;
+    }
+
+    public Account getAccount() {

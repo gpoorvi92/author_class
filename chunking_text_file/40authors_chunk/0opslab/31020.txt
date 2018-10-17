@@ -1,0 +1,10 @@
+     */
+    public final static long usedMemory() {
+        if (valid.valid(osmxb)) {
+            return (osmxb.getTotalPhysicalMemorySize() - osmxb.getFreePhysicalMemorySize()) / kb;
+        }
+        return 0;
+    }
+
+    /**
+     * 获取JVM内存总量

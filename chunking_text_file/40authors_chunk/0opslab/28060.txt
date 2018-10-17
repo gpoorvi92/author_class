@@ -1,0 +1,10 @@
+    public void setStartTime(String startTime) {
+        this.startTime = startTime;
+    }
+
+    public String getOperationName() {
+        return operationName;
+    }
+
+    public void setOperationName(String operationName) {
+        this.operationName = operationName;

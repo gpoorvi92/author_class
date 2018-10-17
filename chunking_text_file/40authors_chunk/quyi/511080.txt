@@ -1,0 +1,10 @@
+        {
+          org.apache.thrift.protocol.TList _list5 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.virusEngine = new ArrayList<VirusEngine>(_list5.size);
+          for (int _i6 = 0; _i6 < _list5.size; ++_i6)
+          {
+            VirusEngine _elem7;
+            _elem7 = new VirusEngine();
+            _elem7.read(iprot);
+            struct.virusEngine.add(_elem7);
+          }

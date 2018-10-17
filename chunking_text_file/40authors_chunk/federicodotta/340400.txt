@@ -1,0 +1,10 @@
+    IHttpRequestResponse[] getHttpMessages();
+
+    /**
+     * This method returns the HTTP service for which the issue was generated.
+     *
+     * @return The HTTP service for which the issue was generated.
+     */
+    IHttpService getHttpService();
+
+}

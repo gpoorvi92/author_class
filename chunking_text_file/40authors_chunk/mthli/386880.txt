@@ -1,0 +1,10 @@
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(fileMenu);
+      setJMenuBar(menuBar);
+   }
+
+   /**
+    * Open a file and load the document.
+    */
+   public void openFile()
+   {

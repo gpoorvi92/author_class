@@ -1,0 +1,10 @@
+			AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+			List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();
+			acd.putArrayValue("location_list", list);
+			int num = 0;
+			for (MKPoiInfo info : res.getAllPoi()) {
+				if (info.pt != null && num < 5) {
+					AbstractCommonData item = DataConvertFactory
+							.getInstanceEmpty();
+					item.putStringValue("location_jc", info.name);
+					item.putStringValue("location_wz", info.address);

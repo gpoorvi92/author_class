@@ -1,0 +1,10 @@
+
+	/**
+	 * Default constructor.
+	 */
+	public FileProgressStatus() {
+		super();
+	}
+
+	/**
+	 * @return total file of the size in bytes.

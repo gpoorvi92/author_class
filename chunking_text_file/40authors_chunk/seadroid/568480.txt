@@ -1,0 +1,10 @@
+        ArrayList<AutoUpdateInfo> infosList = new ArrayList<AutoUpdateInfo>(1);
+        infosList.add(info);
+        addAllUploadTasks(infosList);
+    }
+
+    private void addAllUploadTasks(final List<AutoUpdateInfo> infos) {
+        mHandler.post(new Runnable() {
+            @Override
+            public void run() {
+                for (AutoUpdateInfo info : infos) {

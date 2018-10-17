@@ -1,0 +1,10 @@
+            if (progress > 0) {
+                progressBar.setIndeterminate(false);
+                progressBar.setProgress(progress);
+            }
+        }
+
+        String fileName = Utils.fileNameFromPath(path);
+        fileIcon.setImageResource(Utils.getFileIcon(fileName));
+        fileNameText.setText(fileName);
+

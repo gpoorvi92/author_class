@@ -1,0 +1,10 @@
+      buttonPanel.add(openButton);
+      buttonPanel.add(editButton);
+      buttonPanel.add(printButton);
+
+      add(fileChooserButton, new GBC(0, 0).setAnchor(GBC.EAST).setInsets(2));
+      add(fileField, new GBC(1, 0).setFill(GBC.HORIZONTAL));
+      add(buttonPanel, new GBC(2, 0).setAnchor(GBC.WEST).setInsets(0));
+      add(browseField, new GBC(1, 1).setFill(GBC.HORIZONTAL));
+      add(browseButton, new GBC(2, 1).setAnchor(GBC.WEST).setInsets(2));
+      add(new JLabel("To:"), new GBC(0, 2).setAnchor(GBC.EAST).setInsets(5, 2, 5, 2));

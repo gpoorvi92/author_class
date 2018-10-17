@@ -1,0 +1,8 @@
+		return height;
+	}
+	
+	public void actionPerformed(ActionEvent e)
+	{
+		super.hide();
+	}
+}	

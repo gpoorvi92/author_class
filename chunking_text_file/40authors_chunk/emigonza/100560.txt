@@ -1,0 +1,10 @@
+// CoinAcceptorBeanInfo.java - Bean information for the JavaPOS CoinAcceptor
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

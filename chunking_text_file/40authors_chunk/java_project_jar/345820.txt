@@ -1,0 +1,10 @@
+    {
+        return caseSensitivity.checkCompareTo(file1.getName(), file2.getName());
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append(super.toString()).append("[caseSensitivity=").append(caseSensitivity).append("]").toString();
+    }
+
+    public volatile int compare(Object x0, Object x1)

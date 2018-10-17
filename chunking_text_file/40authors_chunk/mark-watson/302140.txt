@@ -1,0 +1,10 @@
+			s.execute(sql2);
+            System.out.println("Created table usstates");
+
+            DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+            Document doc = docBuilder.parse(new File("test_data/xml/USstates.xml"));
+            // normalize text representation
+            doc.getDocumentElement().normalize();
+			NodeList listOfStates = doc.getElementsByTagName("state");
+			int totalStates = listOfStates.getLength();

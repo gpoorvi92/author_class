@@ -1,0 +1,10 @@
+      Object colorData = model.getDataElements(argb, null);
+
+      for (int i = 0; i < width; i++)
+         for (int j = 0; j < height; j++)
+         {
+            double a = XMIN + i * (XMAX - XMIN) / width;
+            double b = YMIN + j * (YMAX - YMIN) / height;
+            if (!escapesToInfinity(a, b)) raster.setDataElements(i, j, colorData);
+         }
+      return image;

@@ -1,0 +1,10 @@
+	DateIntervalProcessor moDateIntervalProcessor = new DateIntervalProcessor();
+	
+	public GenJournalTableSorter(int tintSortCol, boolean tblnSortAsc) {
+		mintSortCol = tintSortCol;
+		mblnSortAsc = tblnSortAsc;
+	}
+	
+	public int compare(Object o1, Object o2) {
+		
+		if(!(o1 instanceof GenJournalData) || !(o2 instanceof GenJournalData))

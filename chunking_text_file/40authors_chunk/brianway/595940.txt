@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example13;
+
+/**
+ * Created by Brian on 2016/4/13.
+ */
+public class OutClass2 {
+    static class InnerClass1 {
+        public void method1(InnerClass2 class2) {
+            String threadName = Thread.currentThread().getName();
+            synchronized (class2) {

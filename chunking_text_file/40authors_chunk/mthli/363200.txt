@@ -1,0 +1,10 @@
+ */
+class SerialTransferFrame extends JFrame
+{
+   private JColorChooser chooser;
+
+   public SerialTransferFrame()
+   {
+      chooser = new JColorChooser();
+      add(chooser, BorderLayout.CENTER);
+      JPanel panel = new JPanel();

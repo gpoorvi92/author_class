@@ -1,0 +1,10 @@
+ For example, given
+ s = "catsanddog",
+ dict = ["cat", "cats", "and", "sand", "dog"].
+ A solution is ["cats and dog", "cat sand dog"].
+
+ Solution: check before constructing the sentences.
+*/
+
+public class Solution {
+    public List<String> wordBreak(String s, Set<String> dict) {

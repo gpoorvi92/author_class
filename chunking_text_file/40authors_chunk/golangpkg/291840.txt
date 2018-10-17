@@ -1,0 +1,10 @@
+	private UUID fileId = UUID.randomUUID();
+	
+	@Before
+	public void init() {
+		
+		//init client to files map
+		clientToFilesMap.clear();
+		Set<UUID> newHashSet = Sets.newHashSet();
+		clientToFilesMap.put(clientId, newHashSet);
+		newHashSet.add(fileId);

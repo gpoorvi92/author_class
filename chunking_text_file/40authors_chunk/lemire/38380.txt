@@ -1,0 +1,10 @@
+	public void basicFileTest() throws IOException {
+		File tmpfile = File.createTempFile("roaring", "bin");
+		tmpfile.deleteOnExit();
+		final FileOutputStream fos = new FileOutputStream(tmpfile);
+		EWAHCompressedBitmap32 ewahBitmap = EWAHCompressedBitmap32.bitmapOf(0, 2, 55,
+				64, 1 << 30);
+		ewahBitmap.serialize(new DataOutputStream(fos));
+		long totalcount = fos.getChannel().position();
+		fos.close();
+		RandomAccessFile memoryMappedFile = new RandomAccessFile(tmpfile, "r");

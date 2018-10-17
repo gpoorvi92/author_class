@@ -1,0 +1,10 @@
+    /**
+     * Sets the running bit.
+     *
+     * @param b the new running bit
+     */
+    public void setRunningBit(final boolean b) {
+        this.RunningBit = b;
+    }
+
+    /**

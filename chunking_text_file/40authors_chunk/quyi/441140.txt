@@ -1,0 +1,10 @@
+    if (!value) {
+      this.sourcePort = null;
+    }
+  }
+
+  public String getTargetAddress() {
+    return this.targetAddress;
+  }
+
+  public NetworkPacket setTargetAddress(String targetAddress) {

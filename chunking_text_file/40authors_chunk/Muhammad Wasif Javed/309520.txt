@@ -1,0 +1,10 @@
+
+	private JPanel pChange = new JPanel();
+	private JLabel lbUser, lbPass, lbNew;
+	public JTextField txtUser;
+	public JPasswordField txtPass, txtNew;
+	private JButton btnOk, btnCancel;
+
+	private Statement st;			//Statement for Getting the Required Table.
+	public String userName;			//For Holding the Usename.
+

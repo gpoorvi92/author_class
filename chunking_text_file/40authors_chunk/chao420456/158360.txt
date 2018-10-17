@@ -1,0 +1,10 @@
+ * 		D:遍历两个数组，拿每一个位置上的字符进行比较。
+ * 		  一旦发现有不同的，就返回false。
+ * 		E:返回true。
+ */
+public class StringTest {
+	public static void main(String[] args) {
+		System.out.println(compare("admin", "admin"));
+		System.out.println(compare("admin", "Admin"));
+		System.out.println(compare("admin", "hello"));
+

@@ -1,0 +1,10 @@
+	private String mstrTheMessage="",mstrDummy[];
+	private Date mdDate;
+	private String mstrDate;
+	
+	
+	public void DateFormatIsValid(String tstrDate) {
+		SimpleDateFormat msdfFormat = new SimpleDateFormat("MM/dd/yyyy");
+		DateFormat mdf = new SimpleDateFormat( "MM/dd/yyyy" );
+		Calendar mgc;
+		mstrDate = tstrDate;

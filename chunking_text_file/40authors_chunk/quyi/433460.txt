@@ -1,0 +1,10 @@
+  public void unsetVss() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __VSS_ISSET_ID);
+  }
+
+  /** Returns true if field vss is set (has been assigned a value) and false otherwise */
+  public boolean isSetVss() {
+    return EncodingUtils.testBit(__isset_bitfield, __VSS_ISSET_ID);
+  }
+
+  public void setVssIsSet(boolean value) {

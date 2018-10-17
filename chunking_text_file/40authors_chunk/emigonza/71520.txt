@@ -1,0 +1,10 @@
+	 */
+	public abstract boolean isValidValue( Object obj );
+
+	/**
+	 * @return true if the PropValue passed is of this PropType
+	 * @param propValue the PropValue
+	 */
+	public abstract boolean isValidValue( PropValue obj );
+
+	//-------------------------------------------------------------------------

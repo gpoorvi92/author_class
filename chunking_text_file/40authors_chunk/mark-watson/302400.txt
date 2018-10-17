@@ -1,0 +1,7 @@
+		} catch (Exception ex) {
+			//System.err.println("Error in parseInt: " + ex + " for input: "
+			//		+ orig + " current s: " + s);
+		}
+		return ret * scale;
+	}
+}

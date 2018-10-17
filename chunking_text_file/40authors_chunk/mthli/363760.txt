@@ -1,0 +1,10 @@
+      gbc.anchor = GridBagConstraints.EAST;
+      gbc.fill = GridBagConstraints.NONE;
+      gbc.gridx = 1;
+      add(dialogButton, gbc);
+   }
+
+   /**
+    * Sets the fileName property.
+    * @param newValue the new file name
+    */

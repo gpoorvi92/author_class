@@ -1,0 +1,10 @@
+  /** Saves the model to the specified file
+   */
+    public void saveModel(Model m, File f) throws IOException
+    {
+       saveToSTL(m,f); 
+    }
+
+    public String getDescription()
+    {
+        return "(*.stl) Stereolithography";

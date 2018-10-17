@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetPak()) {
+        optionals.set(4);
+      }
+      if (struct.isSetObj()) {
+        optionals.set(5);
+      }
+      if (struct.isSetFunc()) {
+        optionals.set(6);
+      }

@@ -1,0 +1,10 @@
+		case MotionEvent.ACTION_UP: // 抬起时图片继续轮播
+			mScrollLayout.postDelayed(this, duration);
+			break;
+		default:
+			break;
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,10 @@
+//			throw new InvalidMediaParameterException("Audio sampling rate too low.[" + sampling + "]");
+//		}
+
+		ShellCommand cmd = ShellCommand.create(FFMPEG_TOOL);
+		if ("aac".equalsIgnoreCase(acodec) || "mpeg audio".equalsIgnoreCase(acodec)) {
+			if (sampling == 44100 || sampling == 22050 || sampling == 11025) {
+				cmd.add("-acopy");
+			} else {
+				cmd.add("-m44");
+			}

@@ -1,0 +1,10 @@
+  public int     getScreenMode() throws JposException;
+  public void    setScreenMode(int screenMode) throws JposException;
+  public String  getScreenModeList() throws JposException;
+
+  // Methods
+  public void    displayBitmap(String fileName, int width, int alignmentX,
+                               int alignmentY) throws JposException;
+  public void    setBitmap(int bitmapNumber, String fileName, int width,
+                           int alignmentX, int alignmentY) throws JposException;
+}

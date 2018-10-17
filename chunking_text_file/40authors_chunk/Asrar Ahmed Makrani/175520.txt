@@ -1,0 +1,10 @@
+			 				expiry_date_text.setEditable(false);
+			 				reg_by_text.setEditable(false);
+			 				reg_date_text.setEditable(false);
+			 				textArea.setEditable(false);
+			 				tel_text.setEditable(false);
+			 				fax_text.setEditable(false);
+			 				email_text.setEditable(false);	
+							}
+					
+							else

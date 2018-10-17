@@ -1,0 +1,10 @@
+			if (StringUtil.isNull(title)) {
+				Log.w(SystemUtil.LOG_MSG, "title is null");
+			} else {
+				this.titleTv.setText(title);
+			}
+		} else {
+			Log.w(SystemUtil.LOG_MSG, "not found R.id.frame_title_text");
+		}
+	}
+}

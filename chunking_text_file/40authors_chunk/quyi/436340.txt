@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetHardwareResources()).compareTo(other.isSetHardwareResources());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetHardwareResources()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.hardwareResources, other.hardwareResources);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

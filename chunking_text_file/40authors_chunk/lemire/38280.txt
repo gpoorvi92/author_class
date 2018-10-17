@@ -1,0 +1,10 @@
+        private static final long serialVersionUID = 1L;
+
+        /**
+         * Do not fill in the stack trace for this exception for
+         * performance reasons.
+         *
+         * @return this instance
+         * @see java.lang.Throwable#fillInStackTrace()
+         */
+        @Override

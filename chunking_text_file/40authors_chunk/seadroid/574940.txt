@@ -1,0 +1,10 @@
+            mProgressContainer.setVisibility(View.GONE);
+            mListContainer.setVisibility(View.VISIBLE);
+        }
+    }
+
+    private void updateAdapterWithStarredFiles(List<SeafStarredFile> starredFiles) {
+        adapter.clear();
+        if (starredFiles.size() > 0) {
+            for (SeafStarredFile starred : starredFiles) {
+                adapter.add(starred);

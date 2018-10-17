@@ -1,0 +1,10 @@
+    static final int ACTION_DO_INTERCEPT = 1;
+    /**
+     * This action causes Burp Proxy to forward the message to the remote server
+     * or client, without presenting it to the user.
+     */
+    static final int ACTION_DONT_INTERCEPT = 2;
+    /**
+     * This action causes Burp Proxy to drop the message.
+     */
+    static final int ACTION_DROP = 3;

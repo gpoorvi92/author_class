@@ -1,0 +1,10 @@
+		public void run() {
+			// 省略其它代码
+
+			if (!testConnection()) {
+				onDisconnected();
+				reconnect();
+			}
+
+		}
+

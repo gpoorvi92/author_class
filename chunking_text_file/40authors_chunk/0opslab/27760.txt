@@ -1,0 +1,10 @@
+        return password;
+    }
+
+    /**
+     * 判断一个密码是否健壮
+     * 必选包含数字、大写字母、小写字母、特殊字符，长度在8到15位
+     * @param password
+     * @return
+     */
+    public final static  boolean isSec(String password){

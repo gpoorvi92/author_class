@@ -1,0 +1,10 @@
+	private JPanel panel;	
+	public employee_report()
+	{ 
+		
+		super("Employee Reports");
+		
+		content=getContentPane();
+		content.setBackground(skyblue);
+		listsTabs=new JTabbedPane();
+		print=new JButton("PRINT ",new ImageIcon("Icon/i16x16/prints.png"));

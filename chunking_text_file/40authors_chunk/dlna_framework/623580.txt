@@ -1,0 +1,10 @@
+
+	public static final String IPV6_LINK_LOCAL_ADDRESS = "FF02::C";
+	public static final String IPV6_SUBNET_ADDRESS = "FF03::C";
+	public static final String IPV6_ADMINISTRATIVE_ADDRESS = "FF04::C";
+	public static final String IPV6_SITE_LOCAL_ADDRESS = "FF05::C";
+	public static final String IPV6_GLOBAL_ADDRESS = "FF0E::C";
+	
+	private static String IPV6_ADDRESS;
+
+	public static final void setIPv6Address(String addr)

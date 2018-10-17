@@ -1,0 +1,10 @@
+        }
+        if (struct.isSetUe()) {
+          struct.ue.write(oprot);
+        }
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, modifyTaskManagerConfig_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        BitSet incoming = iprot.readBitSet(3);

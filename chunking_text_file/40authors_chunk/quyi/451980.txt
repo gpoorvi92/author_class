@@ -1,0 +1,10 @@
+
+    public issuedMessage_args setUserApps(List<com.nercis.isscp.idl.UserApp> userApps) {
+      this.userApps = userApps;
+      return this;
+    }
+
+    public void unsetUserApps() {
+      this.userApps = null;
+    }
+

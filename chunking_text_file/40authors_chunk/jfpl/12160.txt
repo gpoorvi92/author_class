@@ -1,0 +1,10 @@
+		} else if (acd.containsKey("voice_id")) {
+			String voiceId = acd.getStringValue("voice_id");
+			ctx.update("update_chat_args", voiceId, "", id);
+			ChatMessageUtil.sendChatVoice(ctx, GlobalVariables.loginUsername,
+					GlobalVariables.chatToUser, "to_group", voiceId,
+					new ChatVoiceService(ctx, chatList, progressBar, imageView,
+							itemData));
+		}
+		ctx.update("update_chat_state", "3", id);
+	}

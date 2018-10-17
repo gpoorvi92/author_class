@@ -1,0 +1,10 @@
+        Stack<TreeNode> stk = new Stack<TreeNode>();
+        stk.push(root);
+        while (stk.empty() == false) {
+            TreeNode cur = stk.pop();
+            if (cur.right != null) stk.push(cur.right);
+            if (cur.left != null) stk.push(cur.left);
+            cur.left = null;
+            cur.right = stk.empty() == true ? null : stk.peek();
+        }
+    }

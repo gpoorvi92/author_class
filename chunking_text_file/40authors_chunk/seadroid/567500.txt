@@ -1,0 +1,10 @@
+        this.file = file;
+        selected = isSelected;
+    }
+
+    public void setSelected(boolean isSelected) {
+        selected = isSelected;
+    }
+
+    public boolean isSelected() {
+        return selected;

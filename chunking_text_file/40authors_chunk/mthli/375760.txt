@@ -1,0 +1,10 @@
+import java.io.*;
+import java.rmi.*;
+import java.rmi.activation.*;
+import java.util.*;
+import javax.naming.*;
+
+/**
+ * This server program instantiates a remote warehouse object, registers it with the naming
+ * service, and waits for clients to invoke methods.
+ * @version 1.13 2012-01-26

@@ -1,0 +1,10 @@
+
+    }
+
+    private static class reportEngineConfig_resultTupleSchemeFactory implements SchemeFactory {
+      public reportEngineConfig_resultTupleScheme getScheme() {
+        return new reportEngineConfig_resultTupleScheme();
+      }
+    }
+
+    private static class reportEngineConfig_resultTupleScheme extends TupleScheme<reportEngineConfig_result> {

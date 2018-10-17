@@ -1,0 +1,10 @@
+             zero        i     two
+              ->        ->     <-  
+ */
+public class Solution {
+    public void sortColors(int[] A) {
+        int n = A.length;
+        if (n <= 1) return;
+        for (int i = 0, left = 0, right = n - 1; i <= right;) {
+            if (A[i] == 0) {
+                A[i++] = A[left];

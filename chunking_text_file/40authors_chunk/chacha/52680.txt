@@ -1,0 +1,10 @@
+	}
+
+
+	@Override
+	public Response update(ModifyAccountRequest modifyReq) {
+		Response r=new Response();
+		try{
+			AccountBody body=modifyReq.getBody();
+			LinkedList<AccountEntity> acctArray=body.getAcctArray();
+			for(AccountEntity entity:acctArray){

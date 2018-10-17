@@ -1,0 +1,10 @@
+		} else {
+			return -1;
+		}
+	}
+
+	/**
+	 * @return the height
+	 */
+	public int getHeight() {
+		

@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		//学生类
+		Student s = new Student();
+		s.setName("王祖贤");
+		s.setAge(27);
+		System.out.println(s.getName()+"---"+s.getAge());
+		s.eat();
+		s.sleep();
+		System.out.println("--------------------------");
+

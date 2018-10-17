@@ -1,0 +1,10 @@
+          case 6: // DETECT_RESULT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.detectResult = iprot.readBinary();
+              struct.setDetectResultIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          default:
+            org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

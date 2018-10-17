@@ -1,0 +1,10 @@
+        return new updateUserAppInfo_resultTupleScheme();
+      }
+    }
+
+    private static class updateUserAppInfo_resultTupleScheme extends TupleScheme<updateUserAppInfo_result> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, updateUserAppInfo_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        BitSet optionals = new BitSet();

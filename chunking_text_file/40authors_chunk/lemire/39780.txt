@@ -1,0 +1,10 @@
+
+    @Override
+    public void clear() {
+        this.actualSizeInWords = 1;
+        setWord(0, 0);
+    }
+
+    @Override
+    public void trim() {
+    }

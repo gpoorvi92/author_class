@@ -1,0 +1,10 @@
+      public updateAppStatus() {
+        super("updateAppStatus");
+      }
+
+      public updateAppStatus_args getEmptyArgsInstance() {
+        return new updateAppStatus_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.Result> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;

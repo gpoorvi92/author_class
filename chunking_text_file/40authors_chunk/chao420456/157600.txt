@@ -1,0 +1,10 @@
+		// 创建学生对象
+		Student s1 = new Student("林青霞", 28);
+		Student s2 = new Student("王祖贤", 27);
+		Student s3 = new Student("杨幂", 27);
+		Student s4 = new Student("李若彤", 25);
+		Student s5 = new Student("张惠妹", 40);
+		Student s6 = new Student("赵雅芝", 60);
+		Student s7 = new Student("林青霞", 20);
+		Student s8 = new Student("林青霞", 28);
+

@@ -1,0 +1,10 @@
+package com.weparty.fragment;
+
+import com.weparty.R;
+import com.weparty.view.ActivityType;
+import com.weparty.widgets.ScrollLayout;
+import com.weparty.widgets.ScrollLayout.OnScreenChangeListener;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;

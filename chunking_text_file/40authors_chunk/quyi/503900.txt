@@ -1,0 +1,10 @@
+    this.plots = null;
+    this.jobPriority = null;
+    this.taskInfo = null;
+  }
+
+  public String getMissionId() {
+    return this.missionId;
+  }
+
+  public AppSendMessage setMissionId(String missionId) {

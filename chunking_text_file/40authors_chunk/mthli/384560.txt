@@ -1,0 +1,10 @@
+      }
+   }
+
+   /**
+    * Searches a file for a given keyword and prints all matching lines.
+    * @param file the file to search
+    */
+   public void search(File file) throws IOException
+   {
+      try (Scanner in = new Scanner(file))

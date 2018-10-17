@@ -1,0 +1,10 @@
+import com.qihigh.chinaweather.model.json.DailyResponse;
+import com.qihigh.chinaweather.model.json.WeeklyResponse;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by qihigh on 7/4/14.
+ * Modified by ____.
+ */

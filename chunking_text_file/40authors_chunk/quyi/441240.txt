@@ -1,0 +1,10 @@
+    }
+  }
+
+  public String getProtocal() {
+    return this.protocal;
+  }
+
+  public NetworkPacket setProtocal(String protocal) {
+    this.protocal = protocal;
+    return this;

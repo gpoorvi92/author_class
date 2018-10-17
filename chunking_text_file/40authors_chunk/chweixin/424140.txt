@@ -1,0 +1,10 @@
+	 * @return
+	 * 	事件消息对象。
+	 * */
+	public static ScanEventMessage parseScanEventMessage(Map<String, String> data){
+		ScanEventMessage scanEventMessage = new ScanEventMessage();
+		//
+		parseEventMessage(scanEventMessage, data);
+		//
+		scanEventMessage.setEventKey(Integer.parseInt(data.get("EventKey")));
+		scanEventMessage.setTicket(data.get("Ticket"));

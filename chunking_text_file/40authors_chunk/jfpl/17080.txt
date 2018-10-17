@@ -1,0 +1,10 @@
+	public void onMessage(Context context, String message,
+			String customContentString) {
+		Log.d(SystemUtil.LOG_MSG, "jf-pl---message:" + message
+				+ ", customContent:" + customContentString);
+		AbstractCommonData backAcd = null;
+		try {
+			backAcd = DataConvertFactory.getInstanceByJson(message);
+		} catch (InstanceDataException ex) {
+			SystemUtil.printException(ex, "w");
+		}

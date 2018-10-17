@@ -1,0 +1,10 @@
+         });
+
+      points = new Point2D[3];
+      points[0] = new Point2D.Double(200, 100);
+      points[1] = new Point2D.Double(100, 200);
+      points[2] = new Point2D.Double(200, 200);
+      current = -1;
+      width = 8.0F;
+   }
+

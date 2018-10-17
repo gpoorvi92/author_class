@@ -1,0 +1,8 @@
+        // do nothing
+    }
+
+    public void setOnSystemUiVisibilityChangeListener(
+            OnSystemUiVisibilityChangeListener listener) {
+        // do nothing
+    }
+}

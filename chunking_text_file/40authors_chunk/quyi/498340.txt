@@ -1,0 +1,10 @@
+    }
+  }
+
+  public String getOperateTime() {
+    return this.operateTime;
+  }
+
+  public FileOperate setOperateTime(String operateTime) {
+    this.operateTime = operateTime;
+    return this;

@@ -1,0 +1,10 @@
+      title = t;
+   }
+
+   /**
+    * Gets the title property.
+    * @return the chart title.
+    */
+   public String getTitle()
+   {
+      return title;

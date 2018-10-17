@@ -1,0 +1,10 @@
+	public void addList(List<AbstractCommonData> list) {
+		this.dataSource.addAll(list);
+		this.notifyDataSetChanged();
+	}
+
+	public void removeItem(AbstractCommonData acd) {
+		this.dataSource.remove(acd);
+		this.notifyDataSetChanged();
+	}
+

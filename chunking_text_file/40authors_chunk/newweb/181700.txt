@@ -1,0 +1,10 @@
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import com.newweb.model.base.Customer;
+
+@Entity
+@Table(name="t_order")
+public class Order {
+	private String ID;

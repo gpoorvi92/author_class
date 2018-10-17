@@ -1,0 +1,10 @@
+                if (nextOrder < count) {
+                    mSegmentPlayer.release();
+
+                    mIsMediaSwitchEnd = false;
+                    if (mOnInfoListener != null) {
+                        mOnInfoListener.onInfo(this,
+                                MediaPlayer.MEDIA_INFO_BUFFERING_START, 0);
+                    }
+
+                    Segment nextSegment = mPlayIndex.mSegmentList

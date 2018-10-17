@@ -1,0 +1,10 @@
+				break;
+			if (ctrlPoint != null)
+				ctrlPoint.searchResponseReceived(packet); 
+		}
+		
+//		log.e("SSDPSearchResponseSocket runOver...");
+
+	}
+	
+	public void start()	{

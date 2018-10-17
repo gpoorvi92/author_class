@@ -1,0 +1,10 @@
+	private ImageIcon Food3Image=new ImageIcon("desert/banana split.jpeg");
+	private ImageIcon Food4Image=new ImageIcon("desert/kek coklat.jpeg");
+	private ImageIcon Food5Image=new ImageIcon("desert/puding.jpeg");
+	private ImageIcon Food6Image=new ImageIcon("desert/rojak buah.jpeg");
+
+
+	public Desert()
+	{
+		Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));;

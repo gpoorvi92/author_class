@@ -1,0 +1,10 @@
+				return self;
+			}
+
+		};
+		final FutureTask<FTPClientUtil> task = new FutureTask<FTPClientUtil>(
+		    callable);
+
+		// 下面这行代码与本案例的实际代码并不一致，这是为了讨论方便。
+		new Thread(task).start();
+

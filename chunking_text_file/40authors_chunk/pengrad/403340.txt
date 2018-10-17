@@ -1,0 +1,10 @@
+    private Integer height;
+    private Integer duration;
+    private PhotoSize thumb;
+    private String mime_type;
+    private Integer file_size;
+
+    public String fileId() {
+        return file_id;
+    }
+

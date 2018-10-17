@@ -1,0 +1,10 @@
+		if(accountId == null || accountId.trim().isEmpty()){
+			logger.error("公众号ID(accountId)为空，无法加载上下文！");
+			return null;
+		}
+		if(userOpenId == null || userOpenId.trim().isEmpty()){
+			logger.error("微信用户OpenID(userOpenId)为空，无法加载上下文！");
+			return null;
+		}
+		WeChatContext context = null;
+		String key = accountId.trim() + "_" + userOpenId.trim();

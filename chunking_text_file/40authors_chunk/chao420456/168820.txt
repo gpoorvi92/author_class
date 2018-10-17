@@ -1,0 +1,7 @@
+		StringBuffer sb = new StringBuffer(str);
+		sb.reverse();
+		return new String(sb);
+		
+		//return new String(new StringBuffer(str).reverse());
+	}
+}

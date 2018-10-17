@@ -1,0 +1,7 @@
+      {
+         ex.printStackTrace();
+         Throwable ex2 = ex.getCause();
+         if (ex2 != null) ex2.printStackTrace();         
+      }
+   }
+}

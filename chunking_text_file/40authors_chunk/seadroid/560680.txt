@@ -1,0 +1,10 @@
+//      - VideoObject
+//      - Image
+//        - DrmImage
+//    - UriImage
+//
+
+/**
+ * The interface of all image collections used in gallery.
+ */
+public interface IImageList {

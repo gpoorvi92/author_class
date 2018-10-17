@@ -1,0 +1,10 @@
+            hasValue = false;
+            //condition.signal();
+            condition.signalAll();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("get unlock" + "      时间为" + System.currentTimeMillis() + " ThreadName=" + Thread.currentThread().getName());
+            lock.unlock();
+        }
+    }

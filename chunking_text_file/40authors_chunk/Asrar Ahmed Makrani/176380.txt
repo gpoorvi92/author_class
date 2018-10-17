@@ -1,0 +1,10 @@
+ 		}
+ 		private class CheckBoxHandler implements ItemListener {
+ 		
+ 		public void itemStateChanged(ItemEvent e)
+ 		{
+ 		if (e.getSource() == chk)
+ 		{
+ 			if(e.getStateChange() == ItemEvent.SELECTED)
+ 			{
+ 			rem = true;

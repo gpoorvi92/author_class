@@ -1,0 +1,10 @@
+
+
+    /**
+     * 判断一个对象是否为空
+     */
+    public final static boolean valid(Object obj) {
+        return !(null == obj);
+    }
+
+    /**

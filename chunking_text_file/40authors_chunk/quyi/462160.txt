@@ -1,0 +1,10 @@
+    public void clear() {
+      this.engineId = null;
+    }
+
+    public String getEngineId() {
+      return this.engineId;
+    }
+
+    public searchEng_args setEngineId(String engineId) {
+      this.engineId = engineId;

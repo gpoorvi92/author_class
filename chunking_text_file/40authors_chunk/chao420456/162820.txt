@@ -1,0 +1,10 @@
+						}
+						
+						if(socket != null){
+							ClientThread clientThread = new ClientThread(socket, this);
+							clientThread.setFlag_exit(true);
+							clientThread.start();
+							synchronized (clients) {
+								clients.addElement(clientThread);
+							}
+							synchronized (messages) {

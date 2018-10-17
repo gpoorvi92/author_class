@@ -1,0 +1,10 @@
+	
+	private final static String PYTHON_TOOL = AppConfig.getInstance().getExtool_python();
+	
+	private final static String PY_SCRIPT_PATH = AppConfig.getInstance().getExtool_flvslicer();
+	/**
+	 * 
+	 * 
+	 * @Title: buildAudioCommand
+	 * @param bitrate
+	 * @param sampling

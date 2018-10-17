@@ -1,0 +1,10 @@
+     * @return the movie position, or -1 for any error.
+     */
+    public native float getPosition();
+
+    /**
+     * Sets the movie position.
+     * 
+     * @param pos
+     *            : movie position.
+     */

@@ -1,0 +1,10 @@
+
+
+		/////////////////////////////////////////////////////////////////////
+		// "EndDeposit" Method: "Success" Parameter Constants
+		/////////////////////////////////////////////////////////////////////
+
+    public static final int CHAN_DEPOSIT_CHANGE   = 1;
+    public static final int CHAN_DEPOSIT_NOCHANGE = 2;
+    public static final int CHAN_DEPOSIT_REPAY    = 3;
+

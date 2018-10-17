@@ -1,0 +1,10 @@
+
+	/**
+	 * Private field cid Setter method.
+	 * @param cid 
+	 */
+	public void setCid(Integer cid) {
+		this.cid = cid;
+	}
+
+	/**

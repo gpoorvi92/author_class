@@ -1,0 +1,10 @@
+import com.googlecode.javaewah.EWAHCompressedBitmap;
+
+import java.io.*;
+import java.nio.ByteBuffer;
+
+/**
+ * Simple illustrative example.
+ * 
+ * @author Daniel Lemire
+ * 

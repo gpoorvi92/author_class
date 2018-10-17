@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 11, 2015
+ Problem:    Simplify Path
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/simplify-path/
+ Notes:
+ Given an absolute path for a file (Unix-style), simplify it.
+
+ For example,

@@ -1,0 +1,10 @@
+		};
+
+		public void init() {
+			workerThread.start();
+		}
+
+		protected String doProcess(String task) {
+			return task + "->processed.";
+		}
+

@@ -1,0 +1,10 @@
+		return this.pictureDao.findPictures(info);
+	}
+
+	@Override
+	protected PictureInfo changeModel(Picture data) {
+		if(data == null)return null;
+		PictureInfo info = new PictureInfo();
+		BeanUtils.copyProperties(data, info);
+		return info;
+	}

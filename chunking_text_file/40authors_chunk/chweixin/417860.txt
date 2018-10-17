@@ -1,0 +1,10 @@
+	 * 获取所属公众号。
+	 * @return 所属公众号。
+	 * */
+	public WeChatAccount getAccount() {
+		return account;
+	}
+	/**
+	 * 设置所属公众号。
+	 * @param account
+	 * 	所属公众号。

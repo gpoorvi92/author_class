@@ -1,0 +1,10 @@
+      return isSetApiName();
+    case API_PACKAGE_NAME:
+      return isSetApiPackageName();
+    case PACKAGE_NAME:
+      return isSetPackageName();
+    case OBJECT_NAME:
+      return isSetObjectName();
+    case METHOD_NAME:
+      return isSetMethodName();
+    case STATEMENT:

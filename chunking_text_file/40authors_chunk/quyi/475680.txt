@@ -1,0 +1,10 @@
+        for (com.nercis.isscp.idl.PlotsType other_element : other.plots) {
+          __this__plots.add(other_element);
+        }
+        this.plots = __this__plots;
+      }
+      if (other.isSetUseRule()) {
+        this.useRule = other.useRule;
+      }
+    }
+

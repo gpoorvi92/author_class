@@ -1,0 +1,10 @@
+			chatEt.setFocusable(true);
+		}
+	}
+
+	public void voiceBtnClick(View v) {
+		if (isInputType) {
+			voiceBtn.setImageDrawable(getResources().getDrawable(
+					R.drawable.chatting_button));
+			pressRecordBtn.setVisibility(View.VISIBLE);
+			chatEt.setVisibility(View.GONE);

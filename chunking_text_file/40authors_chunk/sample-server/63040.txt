@@ -1,0 +1,10 @@
+        TimeBaseTimerTask.FiveMinutesTimer.startup();
+        TimeBaseTimerTask.TwoMinutesTimer.startup();
+    }
+    /**
+     * 初始化Websocket服务器
+     */
+    private void initWebSocketServer()
+    {
+        WebSocketServer.getInstance().init(ContextParamHolder.getInt(ContextParamHolder.WEB_SOCKET_PORT_KEY));
+    }

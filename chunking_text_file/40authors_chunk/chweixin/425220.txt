@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置图文消息跳转链接。
+	 * @param url
+	 * 	图文消息跳转链接。
+	 * */
+	public void setUrl(String url) {
+		this.Url = url;
+	}
+}

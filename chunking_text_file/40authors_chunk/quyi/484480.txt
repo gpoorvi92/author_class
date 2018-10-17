@@ -1,0 +1,10 @@
+      return this.ire;
+    }
+
+    public updateAppStatus_result setIre(com.nercis.isscp.idl.InvalidRequestException ire) {
+      this.ire = ire;
+      return this;
+    }
+
+    public void unsetIre() {
+      this.ire = null;

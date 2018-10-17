@@ -1,0 +1,10 @@
+        out.println("ZONE N = " + numVertices + ", E = " + numTriangles
+            + ", DATAPACKING = POINT, ZONETYPE = FETRIANGLE");
+
+        // loop through triangles
+        for (int i = 0; i < numTriangles; i++)
+        {
+            // loop through the triangle's vertices
+            for (int vi = 0; vi < 3; vi++)
+            {
+                Vector3D v = Triangle.getVertex(triangles[i], vi);

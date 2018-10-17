@@ -1,0 +1,10 @@
+        return localDao;
+    }
+    public static ZoneDao getZoneDao(ZoneEntity zoneEntity)
+    {
+        return getDao(zoneEntity.getDbUrl(), zoneEntity.getDbUsername(), zoneEntity.getDbPasswd());
+    }
+    private static final ConcurrentHashMap<String, ZoneDao> daoPool = new ConcurrentHashMap<>();
+    public static ZoneDao getDao(String dbUrl, String dbUsername, String dbPasswd)
+    {
+        try

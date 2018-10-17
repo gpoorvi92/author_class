@@ -1,0 +1,10 @@
+         putValue(Action.SMALL_ICON, icon);
+         putValue(Action.SHORT_DESCRIPTION, name + " background");
+         putValue("Color", c);
+      }
+
+      public void actionPerformed(ActionEvent event)
+      {
+         Color c = (Color) getValue("Color");
+         panel.setBackground(c);
+      }

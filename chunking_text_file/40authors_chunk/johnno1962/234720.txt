@@ -1,0 +1,10 @@
+
+    public void minimizeFrame( javax.swing.JInternalFrame f ) {
+        __minimizeFrame( f );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.iconifyFrame(javax.swing.JInternalFrame)
+
+    public native void __iconifyFrame( javax.swing.JInternalFrame f );
+
+    public void iconifyFrame( javax.swing.JInternalFrame f ) {

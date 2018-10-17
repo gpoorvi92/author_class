@@ -1,0 +1,10 @@
+        }
+
+        ListView listView = getListView();
+        UploadTaskInfo taskInfo = (UploadTaskInfo)listView.getItemAtPosition(info.position);
+        TaskState state = taskInfo.state;
+        int taskID = taskInfo.taskID;
+
+        boolean needRefresh = false;
+
+        switch (item.getItemId()) {

@@ -1,0 +1,10 @@
+		String totalTimeToDownload = 
+				new Long( (this.getDownloadEndTime() - this.getDownloadBeginTime()) / 1000 /* milliseconds to seconds conversion*/).toString();
+		this.totalTimeToDownload = totalTimeToDownload;
+	}
+
+	public long getDownloadBeginTime() {
+		return downloadBeginTime;
+	}
+
+	public void setDownloadBeginTime(long downloadBeginTime) {

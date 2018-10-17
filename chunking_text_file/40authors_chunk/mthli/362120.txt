@@ -1,0 +1,10 @@
+    /* 
+     * 下面的代码块用到的是“静态初始化块”
+     * 当对类的静态域进行初始化的代码比较复杂的时候，
+     * 可以考虑使用“静态初始化块”进行初始化
+     */
+    static {
+        Random generator = new Random();
+        nextId = generator.nextInt(10000);
+    }
+

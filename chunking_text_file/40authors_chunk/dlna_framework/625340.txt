@@ -1,0 +1,10 @@
+					log.e("ready to create SSDPSearchResponseSocket bindAddresses = " + bindAddresses[j]+ ", it's invalid so drop it!!!" );
+					continue;
+				}
+				SSDPSearchResponseSocket socket = new SSDPSearchResponseSocket(bindAddresses[j], port);
+				if (socket.getDatagramSocket() == null){
+					log.e("SSDPSearchResponseSocket.getSocket() == null!!!");
+					continue;
+				}
+				log.i("SSDPSearchResponseSocket create success!!!bindAddresses = " + bindAddresses[j]);
+				add(socket);

@@ -1,0 +1,10 @@
+          return false;
+        if (!this.missionId.equals(that.missionId))
+          return false;
+      }
+
+      boolean this_present_userApps = true && this.isSetUserApps();
+      boolean that_present_userApps = true && that.isSetUserApps();
+      if (this_present_userApps || that_present_userApps) {
+        if (!(this_present_userApps && that_present_userApps))
+          return false;

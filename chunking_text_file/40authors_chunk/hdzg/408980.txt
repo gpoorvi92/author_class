@@ -1,0 +1,10 @@
+	
+	class DrawThread extends Thread{//刷帧线程
+		private int sleepSpan = ConstantUtil.LOADING_VIEW_SLEEP_SPAN;//睡眠的毫秒数 
+		private SurfaceHolder surfaceHolder;
+		private LoadingView loadingView;
+		private boolean flag = false;
+        public DrawThread(SurfaceHolder surfaceHolder, LoadingView loadingView) {//构造器
+        	super.setName("==LoadingView.DrawThrea");
+            this.surfaceHolder = surfaceHolder;
+            this.loadingView = loadingView;

@@ -1,0 +1,10 @@
+						GlobalVariables.loginUsername, hphm, hpzl, "");
+			} catch (Exception ex) {
+
+			}
+		}
+		SampleStorageUtil.saveKeyValue(ctx, ConstVariables.SYNC_VEH_TIME,
+				new Date().getTime() + "");
+		return null;
+	}
+

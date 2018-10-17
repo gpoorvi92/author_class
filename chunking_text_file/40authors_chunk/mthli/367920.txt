@@ -1,0 +1,10 @@
+    * Gets the value of a registry entry.
+    * @param name the entry name
+    * @return the associated value
+    */
+   public native Object getValue(String name);
+
+   /**
+    * Sets the value of a registry entry.
+    * @param name the entry name
+    * @param value the new value

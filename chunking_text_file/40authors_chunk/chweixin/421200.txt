@@ -1,0 +1,10 @@
+import ipower.wechat.modal.WeChatAccountInfo;
+import ipower.wechat.service.IWeChatAccountService;
+
+/**
+ * 微信公众账号服务实现类。
+ * @author yangyong.
+ * @since 2014-04-01.
+ * */
+public class WeChatAccountServiceImpl extends DataServiceImpl<WeChatAccount, WeChatAccountInfo> implements IWeChatAccountService {
+	private IWeChatAccountDao weChatAccountDao;

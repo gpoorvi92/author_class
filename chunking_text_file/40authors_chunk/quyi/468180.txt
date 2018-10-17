@@ -1,0 +1,10 @@
+    case FUNC:
+      return isSetFunc();
+    case RULE_DESCRIPTION:
+      return isSetRuleDescription();
+    }
+    throw new IllegalStateException();
+  }
+
+  @Override
+  public boolean equals(Object that) {

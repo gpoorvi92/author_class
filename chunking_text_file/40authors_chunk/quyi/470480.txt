@@ -1,0 +1,10 @@
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	// searchAllEngine
+	public static void searchAllEngine(int searchCount, long waitTime) {
+		for (int i = 0; i < searchCount; i++) {
+			SearchAllEngineThread searchAllEngineThread = new SearchAllEngineThread(engine_address, engine_port,searchCount+"@" +i + "");

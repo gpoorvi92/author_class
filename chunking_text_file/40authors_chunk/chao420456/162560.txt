@@ -1,0 +1,10 @@
+	public void eat() {
+		System.out.println("猫吃鱼");
+	}
+}
+
+//具备跳高功能的猫
+class JumpCat extends Cat implements Sport {
+	public JumpCat(){}
+
+	public JumpCat(String name,int age) {

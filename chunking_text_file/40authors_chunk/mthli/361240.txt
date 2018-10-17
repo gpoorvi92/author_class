@@ -1,0 +1,10 @@
+ * This frame lets the user choose the cap, join, and line style, and shows the resulting stroke.
+ */
+class StrokeTestFrame extends JFrame
+{
+   private StrokeComponent canvas;
+   private JPanel buttonPanel;
+
+   public StrokeTestFrame()
+   {
+      canvas = new StrokeComponent();

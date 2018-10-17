@@ -1,0 +1,10 @@
+                String merchantId = String.valueOf(((Merchant) session.getAttribute(Constants.LOGIN_MERCHANT)).getId());
+                ev.getSession().setAttribute("merchantId", merchantId);
+            }
+
+            public void sessionDestroyed(ScriptSessionEvent ev) {
+            }
+        };
+        this.addScriptSessionListener(listener);
+    }
+

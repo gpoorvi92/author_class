@@ -1,0 +1,10 @@
+	}
+
+	private void initViewPager() {
+		mPage1 = LayoutInflater.from(this).inflate(R.layout.act_guide_page1,
+				null);
+		mPage2 = LayoutInflater.from(this).inflate(R.layout.act_guide_page2,
+				null);
+		mPage3 = LayoutInflater.from(this).inflate(R.layout.act_guide_page3,
+				null);
+		mViews.add(mPage1);

@@ -1,0 +1,10 @@
+	}
+
+	protected void onDisconnected() {
+		connectedToServer = false;
+	}
+
+	// 负责与告警服务器建立网络连接
+	private class ConnectingTask implements Runnable {
+		@Override
+		public void run() {

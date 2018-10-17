@@ -1,0 +1,10 @@
+      case NODE_HEAT:
+        if (value == null) {
+          unsetNodeHeat();
+        } else {
+          setNodeHeat((NodeHeat)value);
+        }
+        break;
+
+      case TIMESTAMP:
+        if (value == null) {

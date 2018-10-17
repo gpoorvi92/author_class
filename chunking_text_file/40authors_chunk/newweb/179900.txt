@@ -1,0 +1,10 @@
+		int count = 0;
+		for (Bxg bxg : list) {
+			bxgs[count++] = bxg;
+		}
+		return bxgs;
+	}
+
+	@Override
+	public Bxg findBxgByIdBindCut(int id,int customerID,String orderID) {
+		Bxg bxg =  bxgDao.selectBxgById(id);

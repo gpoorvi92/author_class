@@ -1,0 +1,10 @@
+	};
+
+	public VoicePlayItem(Context context, AttributeSet as) {
+		super(context, as);
+		init(context);
+	}
+
+	public VoicePlayItem(Context context) {
+		super(context);
+		init(context);

@@ -1,0 +1,10 @@
+
+//Main class in the GraphicsStudio application, 
+//creates an instance of the Controlling GraphicsFrame class
+  
+
+import java.io.*;
+
+import javax.swing.plaf.*;
+import javax.swing.*;
+

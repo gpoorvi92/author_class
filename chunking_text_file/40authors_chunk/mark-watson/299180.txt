@@ -1,0 +1,10 @@
+			while ((line = br.readLine()) != null) {
+				List<String> words = Tokenizer.wordsToList(line);
+				for (String word : words) {
+					if (wordCounts.containsKey(word)) {
+						Integer count = wordCounts.get(word);
+						wordCounts.put(word, count + 1);
+					} else {
+						wordCounts.put(word, 1);
+					}
+				}

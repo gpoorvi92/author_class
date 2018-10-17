@@ -1,0 +1,10 @@
+            }
+        });
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayShowTitleEnabled(true);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {

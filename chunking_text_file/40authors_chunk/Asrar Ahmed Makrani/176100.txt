@@ -1,0 +1,10 @@
+		gbc.gridx = 3;
+		gbc.gridy = 1;
+		main_panel.add(salute_combo, gbc);
+		gbc.gridy = 3;
+		main_panel.add(expiry_date_text, gbc);
+		gbc.gridy = 4;
+		main_panel.add(reg_by_text, gbc);
+		gbc.gridy = 5;
+		main_panel.add(reg_date_text, gbc);
+		setBackground(Color.blue);

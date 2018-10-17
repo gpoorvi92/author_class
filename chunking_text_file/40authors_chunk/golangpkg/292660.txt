@@ -1,0 +1,10 @@
+	 * Enables the processing of file uploads. Clients will automatically resume their upload.
+	 * @see #disableFileUploader()
+	 */
+	@ManagedOperation
+	public void enableFileUploader() {
+		uploadServletAsyncProcessor.setEnabled(true);
+		jlfuListenerPropagator.getPropagator().onFileUploaderEnabled();
+	}
+	
+	/**

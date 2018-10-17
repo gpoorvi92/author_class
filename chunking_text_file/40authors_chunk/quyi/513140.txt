@@ -1,0 +1,10 @@
+        };
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, modifyTaskManagerConfig_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.modifyTaskManagerConfig(args.propertyName, args.propertyValue,resultHandler);
+      }

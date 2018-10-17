@@ -1,0 +1,10 @@
+                loadFinished(Arrays.asList(new DailyWeather[]{response.weather}), LOAD_NEW_FINISHED);
+            }
+        });
+    }
+
+    @Override
+    protected int getLoadCount() {
+        return 0;
+    }
+

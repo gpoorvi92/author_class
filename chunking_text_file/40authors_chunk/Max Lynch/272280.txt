@@ -1,0 +1,10 @@
+			SplashWindow splash = new SplashWindow();
+		//try{
+			GraphicsFrame studio = GraphicsFrame.instance();
+			//When instance is made and App is loaded, close splash Window
+			splash.close();
+		/*} catch(Exception e) {
+			System.out.println ("Shitttttttttttttttttttt");
+			try {
+				
+				

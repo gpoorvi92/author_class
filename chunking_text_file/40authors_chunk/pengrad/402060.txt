@@ -1,0 +1,10 @@
+    private String performer;
+    private String title;
+    private String mime_type;
+    private Integer file_size;
+
+    public String fileId() {
+        return file_id;
+    }
+
+    public Integer duration() {

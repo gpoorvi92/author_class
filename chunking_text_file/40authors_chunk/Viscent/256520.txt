@@ -1,0 +1,10 @@
+
+		pwr.print(entry.interfaceType);
+		pwr.print('|');
+
+		pwr.print(entry.recordType);
+		pwr.print('|');
+
+		pwr.print(entry.interfaceName);
+		pwr.print('|');
+

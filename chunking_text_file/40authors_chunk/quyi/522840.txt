@@ -1,0 +1,10 @@
+    private static class modifyNodeManagerConfig_argsStandardSchemeFactory implements SchemeFactory {
+      public modifyNodeManagerConfig_argsStandardScheme getScheme() {
+        return new modifyNodeManagerConfig_argsStandardScheme();
+      }
+    }
+
+    private static class modifyNodeManagerConfig_argsStandardScheme extends StandardScheme<modifyNodeManagerConfig_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, modifyNodeManagerConfig_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;

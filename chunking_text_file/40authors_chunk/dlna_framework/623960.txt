@@ -1,0 +1,10 @@
+
+	private Node getUPnPErrorDescriptionNode()
+	{
+		Node errorNode = getUPnPErrorNode();
+		if (errorNode == null)
+			return null;
+		return errorNode.getNodeEndsWith(SOAP.ERROR_DESCRIPTION);
+	}
+
+	public int getUPnPErrorCode()

@@ -1,0 +1,10 @@
+        switch (schemeField.id) {
+          case 1: // OS_ARCH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.osArch = iprot.readString();
+              struct.setOsArchIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // OS_NAME

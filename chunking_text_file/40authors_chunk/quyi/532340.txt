@@ -1,0 +1,10 @@
+    String description,
+    int lineNum,
+    int columnNum,
+    String riskDescription)
+  {
+    this();
+    this.apiName = apiName;
+    this.apiPackageName = apiPackageName;
+    this.packageName = packageName;
+    this.objectName = objectName;

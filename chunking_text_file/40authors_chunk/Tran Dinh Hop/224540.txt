@@ -1,0 +1,10 @@
+		return current.getEntry(); 
+	} 
+
+	private int getHashCode(byte[] ba) 
+	{ 
+		//get hashCode for ba 
+		int out = ba[0];
+		
+		// make unsigned
+		if( out < 0 )

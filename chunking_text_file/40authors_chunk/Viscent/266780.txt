@@ -1,0 +1,10 @@
+	 * 对子类暴露的服务方法。 该类的子类需要定义一个比该方法命名更为具体的服务方法（如downloadFileService）。
+	 * 由命名含义具体的服务方法（如downloadFileService）调用该方法。
+	 * 该方法使用了Template（模板）模式、Strategy（策略）模式。
+	 * 
+	 * @param params
+	 *          客户端代码传递的参数列表
+	 */
+	protected R service(Object... params) throws Exception {
+		final TaskDivideStrategy<T> taskDivideStrategy = newTaskDivideStrategy(params);
+

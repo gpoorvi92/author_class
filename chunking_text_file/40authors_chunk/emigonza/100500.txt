@@ -1,0 +1,10 @@
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapStatusUpdate() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+
+  // Properties
+  public int     getScaleLiveWeight() throws JposException;
+  public int     getStatusNotify() throws JposException;
+  public void    setStatusNotify(int statusNotify) throws JposException;
+
+  // Methods

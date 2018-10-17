@@ -1,0 +1,10 @@
+    
+    int positivos = 0;
+    int negativos = 0;
+    int contador = 0;
+    
+    System.out.println("Escribe 10 numeros:");
+    System.out.println("==========================================");
+    
+    while(contador < 10){
+        System.out.println("Escribe un numero:");

@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jun 18, 2014
+ Problem:    Longest Consecutive Sequence
+ Difficulty: Hard
+ Source:     https://oj.leetcode.com/problems/longest-consecutive-sequence/
+ Notes:
+ Given an unsorted array of integers, find the length of the longest consecutive 
+ elements sequence.
+ For example,

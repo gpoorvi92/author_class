@@ -1,0 +1,10 @@
+ * Created by zhoukai on 13-12-23.
+ */
+public class KeyBoardUtil {
+
+    /**
+     * 隐藏软键盘，类型InputMethodManager.HIDE_NOT_ALWAYS
+     *
+     * @param activity
+     */
+    public static void hideSoftKeyboardNotAlways(Activity activity) {

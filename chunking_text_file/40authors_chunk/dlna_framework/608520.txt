@@ -1,0 +1,10 @@
+	public synchronized PrintStream getOut() {
+		return out;
+	}
+	public synchronized void setOut(PrintStream out) {
+		this.out = out;
+	}
+	
+	
+	public static boolean enabled = false;
+

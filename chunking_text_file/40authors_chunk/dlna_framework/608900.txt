@@ -1,0 +1,10 @@
+ *	01/05/04
+ *		- first revision.
+ *	
+ ******************************************************************/
+
+package org.cybergarage.upnp.device;
+
+import org.cybergarage.upnp.*;
+import org.cybergarage.util.*;
+

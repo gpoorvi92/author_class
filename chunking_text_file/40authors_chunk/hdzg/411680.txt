@@ -1,0 +1,10 @@
+package wyf.ytl.entity;							//声明包语句
+import static wyf.ytl.tool.ConstantUtil.*;
+
+import java.io.Serializable;				//引入相关类
+
+import android.graphics.Bitmap;				//引入相关类
+import android.graphics.Canvas;				//引入相关类
+import android.graphics.Paint;				//引入相关类
+import android.graphics.Typeface;			//引入相关类
+import android.view.MotionEvent;			//引入相关类

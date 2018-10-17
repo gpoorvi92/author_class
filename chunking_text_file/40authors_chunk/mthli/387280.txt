@@ -1,0 +1,10 @@
+package imageViewer;
+
+import java.awt.*;
+import java.io.*;
+import java.nio.file.*;
+import javax.imageio.*;
+import javax.swing.*;
+
+/**
+ * A bean for viewing an image.

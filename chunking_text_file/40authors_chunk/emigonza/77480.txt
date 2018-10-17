@@ -1,0 +1,10 @@
+                                   };
+
+    //-------------------------------------------------------------------------
+    // Required properties default values
+    //
+
+	public static final String LOGICAL_NAME_DEFAULT_PROP_VALUE = 
+	                             "UnknownDevice";
+	                             
+	public static final String SI_FACTORY_CLASS_DEFAULT_PROP_VALUE = 

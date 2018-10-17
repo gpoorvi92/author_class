@@ -1,0 +1,10 @@
+	public void setUserSign(String userSign) {
+		this.userSign = userSign;
+	}
+	/**
+	 * 获取用户名。
+	 * @return userName
+	 * */
+	public String getUserName() {
+		return userName;
+	}

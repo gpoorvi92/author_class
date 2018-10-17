@@ -1,0 +1,10 @@
+			if (index > -1)
+				s = s.substring(0, index);
+			index = s.indexOf(" ");
+			if (index > -1)
+				s = s.substring(0, index);
+			s = s.replaceAll(",", "");
+			ret = Float.parseFloat(s);
+		} catch (Exception ex) {
+			//System.err.println("Error in parseFloat: " + ex + " for input: "
+			//		+ orig + " current s: " + s);

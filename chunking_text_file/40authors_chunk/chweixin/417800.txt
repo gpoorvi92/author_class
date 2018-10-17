@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置消息创建时间。
+	 * @param createTime
+	 * 	消息创建时间。
+	 * */
+	public void setCreateTime(int createTime) {
+		this.CreateTime = createTime;
+	}
+}

@@ -1,0 +1,10 @@
+								paint);
+					}
+				}
+			}
+			break;
+		case 1://»­Öñ¼ò
+			canvas.drawBitmap(bmpScroll, scrollStartX, scrollStartY, paint);
+			break;
+		}
+	}

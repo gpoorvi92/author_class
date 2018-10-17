@@ -1,0 +1,10 @@
+        if (struct.propertyValue != null) {
+          oprot.writeFieldBegin(PROPERTY_VALUE_FIELD_DESC);
+          oprot.writeString(struct.propertyValue);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+
+    }

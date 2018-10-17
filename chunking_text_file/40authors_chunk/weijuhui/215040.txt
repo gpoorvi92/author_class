@@ -1,0 +1,9 @@
+
+        public EditActivity_.IntentBuilder_ value(String value) {
+            intent_.putExtra("value", value);
+            return this;
+        }
+
+    }
+
+}

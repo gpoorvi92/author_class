@@ -1,0 +1,10 @@
+			File.separator + "record.txt", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return orderBxgDao.update(ob);
+	}
+
+	@Override
+	public OrderBxg[] queryAllOrderBxgs() {
+		List<OrderBxg> list = orderBxgDao.selectAllOrderBxgs();
+		OrderBxg[] obs = new OrderBxg[list.size()];

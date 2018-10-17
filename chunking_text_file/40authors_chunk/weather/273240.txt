@@ -1,0 +1,10 @@
+        if (elements == null) {
+            return EMPTY;
+        }
+        return join(Arrays.asList(elements), separator);
+    }
+
+    public static String join(Iterable<?> elements, String separator) {
+        if (elements == null) {
+            return EMPTY;
+        }

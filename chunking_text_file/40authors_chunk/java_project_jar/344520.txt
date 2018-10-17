@@ -1,0 +1,10 @@
+        for(Iterator i$ = fileFilters.iterator(); i$.hasNext();)
+        {
+            IOFileFilter fileFilter = (IOFileFilter)i$.next();
+            if(fileFilter.accept(file, name))
+                return true;
+        }
+
+        return false;
+    }
+

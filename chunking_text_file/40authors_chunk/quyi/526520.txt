@@ -1,0 +1,10 @@
+  public List<com.nercis.isscp.idl.Sample> getSamples() {
+    return this.samples;
+  }
+
+  public MissionResults setSamples(List<com.nercis.isscp.idl.Sample> samples) {
+    this.samples = samples;
+    return this;
+  }
+
+  public void unsetSamples() {

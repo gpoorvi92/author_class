@@ -1,0 +1,10 @@
+        if (struct.isSetUe()) {
+          optionals.set(1);
+        }
+        oprot.writeBitSet(optionals, 2);
+        if (struct.isSetSuccess()) {
+          oprot.writeString(struct.success);
+        }
+        if (struct.isSetUe()) {
+          struct.ue.write(oprot);
+        }

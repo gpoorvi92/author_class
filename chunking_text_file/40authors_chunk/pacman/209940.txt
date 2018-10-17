@@ -1,0 +1,10 @@
+		
+		public TaskAddAction(DataSource ds) {
+			setDataSource(ds);
+			setSql("INSERT INTO task (tid, cid, lid, guid, type, file, begin, modified) VALUES(?, ?, ?, ?, ?, ?, now(), now())");
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.VARCHAR));
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.VARCHAR));

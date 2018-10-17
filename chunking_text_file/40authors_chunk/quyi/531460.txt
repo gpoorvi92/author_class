@@ -1,0 +1,10 @@
+        struct.url = iprot.readString();
+        struct.setUrlIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.app_size = iprot.readI32();
+        struct.setApp_sizeIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.minsdkversion = iprot.readString();
+        struct.setMinsdkversionIsSet(true);

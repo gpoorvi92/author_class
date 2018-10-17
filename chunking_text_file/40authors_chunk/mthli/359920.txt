@@ -1,0 +1,10 @@
+   private EnumCombo timeStyleCombo = new EnumCombo(DateFormat.class, "Default",
+         "Full", "Long", "Medium", "Short");
+
+   public DateFormatFrame()
+   {
+      setLayout(new GridBagLayout());
+      add(new JLabel("Locale"), new GBC(0, 0).setAnchor(GBC.EAST));
+      add(new JLabel("Date style"), new GBC(0, 1).setAnchor(GBC.EAST));
+      add(new JLabel("Time style"), new GBC(2, 1).setAnchor(GBC.EAST));
+      add(new JLabel("Date"), new GBC(0, 2).setAnchor(GBC.EAST));

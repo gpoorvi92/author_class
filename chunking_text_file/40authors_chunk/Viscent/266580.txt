@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch13.pipeline;
+
+import java.util.concurrent.TimeUnit;
+
+/**
+ * 对处理阶段的抽象。
+ * 负责对其输入进行处理，并将其输出作为下一个处理阶段的输入。

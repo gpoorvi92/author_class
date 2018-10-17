@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.fileDescription != null) {
+        oprot.writeFieldBegin(FILE_DESCRIPTION_FIELD_DESC);
+        oprot.writeString(struct.fileDescription);
+        oprot.writeFieldEnd();
+      }
+      if (struct.filePath != null) {
+        oprot.writeFieldBegin(FILE_PATH_FIELD_DESC);
+        oprot.writeString(struct.filePath);

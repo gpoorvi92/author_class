@@ -1,0 +1,10 @@
+    @Override
+    public String toString() {
+        return "ImageEntity [id=" + id + ", path=" + path + "]";
+    }
+
+    public Bitmap getMiniNail(Context context) {
+        return MediaStore.Images.Thumbnails.getThumbnail(context.getContentResolver(), this.id, MediaStore.Images.Thumbnails.MICRO_KIND, null);
+    }
+
+    public Bitmap getThumbnail(Context context) {

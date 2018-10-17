@@ -1,0 +1,10 @@
+/**
+ * This runnable modifies a combo box by randomly adding and removing numbers. This can result in
+ * errors because the combo box methods are not synchronized and both the worker thread and the
+ * event dispatch thread access the combo box.
+ */
+class BadWorkerRunnable implements Runnable
+{
+   private JComboBox<Integer> combo;
+   private Random generator;
+

@@ -1,0 +1,10 @@
+    * Gets the dialog entries.
+    * @return a User object whose state represents the dialog entries
+    */
+   public User getUser()
+   {
+      return new User(username.getText(), password.getPassword());
+   }
+
+   /**
+    * Show the chooser panel in a dialog

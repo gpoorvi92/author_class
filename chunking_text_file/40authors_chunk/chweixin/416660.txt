@@ -1,0 +1,10 @@
+	 * */
+	public String getAccountName() {
+		return accountName;
+	}
+	/**
+	 * 设置所属公众号名称。
+	 * @param accountName
+	 * 所属公众号名称。
+	 * */
+	public void setAccountName(String accountName) {

@@ -1,0 +1,10 @@
+{
+    private static final Logger log = LoggerFactory.getLogger(MD5Encrypt.class);
+    public static String encrypt(String sourceStr)
+    {
+        String signStr = "";
+        try
+        {
+            byte[] bytes = sourceStr.getBytes("utf-8");
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            md5.update(bytes);

@@ -1,0 +1,10 @@
+	 * @param sample
+	 * @param duration
+	 * @return
+	 */
+	BaseMessage buildAudioTaskMessage(
+			int taskId,
+			int classId,
+			int lessonId,
+			int type,
+			String guid,

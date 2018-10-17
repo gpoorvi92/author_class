@@ -1,0 +1,7 @@
+		
+		sqlBuilder.append(" WHERE tid=?");
+		
+		getJdbcTemplate().update(sqlBuilder.toString(), params.toArray());
+	}
+
+}

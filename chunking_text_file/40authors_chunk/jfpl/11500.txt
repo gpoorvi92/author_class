@@ -1,0 +1,10 @@
+	private LinearLayout vioLayout;
+	@InjectionView(id = R.id.bind_veh_hpzl)
+	private Spinner hpzlSpinner;
+	@InjectionView(id = R.id.bind_btn, click = "bindVehClick")
+	private Button bindBtn;
+	@InjectionView(id = R.id.bind_hphm)
+	private EditText bindHphmEt;
+	@InjectionView(id = R.id.bind_clsbdh)
+	private EditText bindClsbdhEt;
+	@InjectionView(id = R.id.bind_syr)

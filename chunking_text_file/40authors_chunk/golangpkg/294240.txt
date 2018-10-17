@@ -1,0 +1,10 @@
+ * @author antoinem
+ * @see DefaultIdentifierProvider
+ * 
+ */
+public interface IdentifierProvider {
+
+	/**
+	 * Retrieves the client identifier.<br>
+	 * 
+	 * @param httpServletRequest

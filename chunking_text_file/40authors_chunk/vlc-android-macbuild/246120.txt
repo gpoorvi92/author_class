@@ -1,0 +1,10 @@
+    @Override
+    public void enableLog(boolean enable) {
+        if (mLibVLC != null)
+            mLibVLC.changeVerbosity(enable);
+    }
+
+    @Override
+    public boolean isBufferingEnd() {
+        return true;
+    }

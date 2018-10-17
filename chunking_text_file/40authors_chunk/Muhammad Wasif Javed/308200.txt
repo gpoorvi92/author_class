@@ -1,0 +1,10 @@
+			long bookNo;					//Use for Comparing the Book's Id.
+			boolean found = false;				//To Confirm the Book's Id Existance.
+
+			try {	//SELECT Query to Retrieved the Record.
+				String q = "SELECT IssuedBooks.BookId, IssuedBooks.BookName, IssuedBooks.BookAuthor, " + 
+					"IssuedBooks.Category, Members.MemberName FROM IssuedBooks " + 
+					"INNER JOIN Members ON IssuedBooks.MemberId = Members.MemberId " + 
+					"WHERE BookId = " + id + "";
+				ResultSet rs = st.executeQuery (q);	//Executing the Query.
+				rs.next ();				//Moving towards the Record.

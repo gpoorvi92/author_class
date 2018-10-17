@@ -1,0 +1,10 @@
+        if( manager == null )
+        {
+        	String msg = "Did not find a valid " + 
+        	             JposProperties.JPOS_SERVICE_MANAGER_CLASS_PROP_NAME + 
+        	             " to create";
+
+			tracer.println( msg );
+        	        
+            throw new JposException( JposConst.JPOS_E_NOSERVICE, msg );
+        }

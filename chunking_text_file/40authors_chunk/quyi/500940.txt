@@ -1,0 +1,10 @@
+  private static class NodeHeatStandardSchemeFactory implements SchemeFactory {
+    public NodeHeatStandardScheme getScheme() {
+      return new NodeHeatStandardScheme();
+    }
+  }
+
+  private static class NodeHeatStandardScheme extends StandardScheme<NodeHeat> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, NodeHeat struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;

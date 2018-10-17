@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface FiscalPrinterService111 extends FiscalPrinterService110
+{
+  // Capabilities

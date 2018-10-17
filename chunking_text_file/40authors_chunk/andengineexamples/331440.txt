@@ -1,0 +1,10 @@
+		this.mY = pY;
+	}
+
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================
+
+	@Override
+	public short getFlag() {
+		return FLAG_MESSAGE_SERVER_UPDATE_PADDLE;

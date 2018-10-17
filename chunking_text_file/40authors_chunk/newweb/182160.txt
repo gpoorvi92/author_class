@@ -1,0 +1,10 @@
+		bill.setLastModifyTime(DateUtil.getLocationCurrentTime());
+		return billDao.update(bill);
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public List queryBillStoreByStatusACreateDateTimeACustomerJsons(String status,String startDate, String endDate,
+			String customer,int start, int limit) {
+		List returnList = new ArrayList();
+		List list = billDao.selectBillByStatusACreateDateACustomerLikeCondition(status,startDate,endDate,customer,start, limit);

@@ -1,0 +1,10 @@
+		jbtBack.addActionListener(this);
+		jbtExit.addActionListener(this);
+		
+	}
+	
+	public void actionPerformed(ActionEvent e)
+	{
+		
+		if(e.getSource() ==jbtBack)
+		{

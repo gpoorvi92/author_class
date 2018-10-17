@@ -1,0 +1,10 @@
+            put(CPU_IMPL_MARVELL, "Marvell");
+            put(CPU_IMPL_INTEL, "Intel");
+        }
+    };
+
+    // CPU part:
+
+    // ARMv6 xScale
+    public static final int CPU_PART_PXA910 = 0x840;
+

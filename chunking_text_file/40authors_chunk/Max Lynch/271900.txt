@@ -1,0 +1,10 @@
+	{
+		dispose();
+		setVisible(false);
+	}
+}
+
+class InnerWindow extends JPanel {
+	
+	Image img;
+	

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof submitMission_args)
+        return this.equals((submitMission_args)that);
+      return false;
+    }

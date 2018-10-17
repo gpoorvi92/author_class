@@ -1,0 +1,10 @@
+            idx = dest;
+            return (long)count;
+        }
+    }
+
+    public String toString()
+    {
+        return charSequence.toString();
+    }
+

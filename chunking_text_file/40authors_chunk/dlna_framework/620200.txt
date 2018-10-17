@@ -1,0 +1,10 @@
+	}
+	
+	////////////////////////////////////////////////
+	//	CacheControl
+	////////////////////////////////////////////////
+
+	public void setLeaseTime(int len)
+	{
+		setHeader(HTTP.CACHE_CONTROL, "max-age=" + Integer.toString(len));
+	}

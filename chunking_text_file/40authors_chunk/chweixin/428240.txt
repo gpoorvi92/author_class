@@ -1,0 +1,10 @@
+		}finally{
+			this.writeJson(result);
+		}
+	}
+	/**
+	 * 创建公众号上的菜单。
+	 * */
+	public void create() throws IOException{
+		this.writeJson(this.service.createMenus(this.getModel().getAccountId()));
+	}

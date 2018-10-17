@@ -1,0 +1,10 @@
+    public static void startMarkdownActivity(Context context, String path) {
+        Intent intent = new Intent(context, MarkdownActivity.class);
+        intent.putExtra("path", path);
+        context.startActivity(intent);
+    }
+
+    public static int getThumbnailWidth() {
+        return (int) SeadroidApplication.getAppContext().getResources().getDimension(R.dimen.lv_icon_width);
+    }
+

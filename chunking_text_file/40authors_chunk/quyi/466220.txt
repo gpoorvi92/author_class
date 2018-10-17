@@ -1,0 +1,10 @@
+import com.nercis.isscp.engine.EngineOperate;
+import com.nercis.isscp.util.SearchRecordInfo;
+import com.nercis.isscp.util.SearchRecordInfoQueue;
+
+public class SearchAllEngineThread implements Runnable {
+
+	private String engine_address;
+	private int engine_port;
+	private String number;
+

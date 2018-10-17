@@ -1,0 +1,10 @@
+        struct.setDataLengthIsSet(true);
+      }
+      if (incoming.get(9)) {
+        struct.operateTime = iprot.readString();
+        struct.setOperateTimeIsSet(true);
+      }
+    }
+  }
+
+}

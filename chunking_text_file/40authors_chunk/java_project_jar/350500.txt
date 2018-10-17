@@ -1,0 +1,10 @@
+        {
+            mark = position;
+            this.readlimit = readlimit;
+            return;
+        }
+    }
+
+    public boolean markSupported()
+    {
+        return markSupported;

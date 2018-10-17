@@ -1,0 +1,10 @@
+      {
+         AnnotationEntry[] annotations = m.getAnnotationEntries();
+         for (AnnotationEntry a : annotations)
+         {
+            if (a.getAnnotationType().equals("LbytecodeAnnotations/LogEntry;"))
+            {
+               for (ElementValuePair p : a.getElementValuePairs())
+               {
+                  if (p.getNameString().equals("logger"))
+                  {

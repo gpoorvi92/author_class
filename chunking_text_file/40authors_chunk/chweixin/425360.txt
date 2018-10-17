@@ -1,0 +1,10 @@
+	 * @return
+	 * HQL
+	 * */
+	protected String addWhere(WeChatAccountInfo info, String hql,Map<String, Object> parameters) {
+		if(info.getAccount() != null && !info.getAccount().trim().isEmpty()){
+			hql += " and (w.name like :account or w.account like :account) ";
+			parameters.put("account", "%" +info.getAccount() + "%");
+		}
+		if(info.getStatus() != null && info.getStatus() >= 0){
+			hql += " and (w.status = :status) ";

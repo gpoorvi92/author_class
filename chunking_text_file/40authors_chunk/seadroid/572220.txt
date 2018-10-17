@@ -1,0 +1,7 @@
+            } catch (ActivityNotFoundException e) {
+                ToastUtils.show(this, getString(R.string.activity_not_found));
+            }
+        }
+    }
+
+}

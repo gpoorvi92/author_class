@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetDataLength()).compareTo(other.isSetDataLength());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetDataLength()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.dataLength, other.dataLength);

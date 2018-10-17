@@ -1,0 +1,10 @@
+            model.addElement(new ImageIcon(entry.toString()));       
+      }         
+      catch (IOException ex)
+      {
+         ex.printStackTrace();
+      }
+
+      setModel(model);
+      setVisibleRowCount(0);
+      setLayoutOrientation(JList.HORIZONTAL_WRAP);

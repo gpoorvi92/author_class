@@ -1,0 +1,10 @@
+			gameView.drawThread.setIsViewOn(true);
+			 
+			gameView.hero.hbdt=new HeroBackDataThread(gameView.hero);
+			gameView.hero.hbdt.start();
+			
+			//gameView.mMediaPlayer.stop();
+			if(!gameView.mMediaPlayer.isPlaying())
+			{
+				gameView.mMediaPlayer = MediaPlayer.create(gameView.activity, R.raw.backsound);
+				gameView.mMediaPlayer.setLooping(true);

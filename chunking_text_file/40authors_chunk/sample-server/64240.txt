@@ -1,0 +1,10 @@
+    public static void main(String[] args) throws IOException
+    {
+        List<Integer> listCreate = new ArrayList<>();
+        List<Integer> listLogin = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\37-int-teaey\\Desktop\\test_15.txt")));
+        String line = null;
+        while ((line = reader.readLine()) != null)
+        {
+            listCreate.add(Integer.valueOf(line));
+        }

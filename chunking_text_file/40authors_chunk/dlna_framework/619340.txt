@@ -1,0 +1,10 @@
+*	11/19/02
+*		- first revision.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.ssdp;
+
+import org.cybergarage.net.*;
+import org.cybergarage.http.*;
+

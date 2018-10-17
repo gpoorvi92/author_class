@@ -1,0 +1,9 @@
+		return index;
+	}
+
+	//еепР
+	//public static void OrderOfArray(int[] arr) {
+
+	//}
+
+}

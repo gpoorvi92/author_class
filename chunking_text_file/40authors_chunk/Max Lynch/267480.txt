@@ -1,0 +1,7 @@
+			 else if(e.getSource() == swirlButton)
+			 	frame.addShape(new ShapeLayerModel('s'));
+			
+		}
+	
+}
+	

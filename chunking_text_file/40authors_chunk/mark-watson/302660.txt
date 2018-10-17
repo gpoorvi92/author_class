@@ -1,0 +1,10 @@
+    
+    /**
+     * Save the RDF repository that is currently in memory to a N3 formatted RDF file.
+     * 
+     * @param output_file_path
+     * @throws org.openrdf.repository.RepositoryException
+     * @throws org.openrdf.rio.RDFHandlerException
+     * @throws java.io.IOException
+     */
+    public void saveRepositoryAsN3(String output_file_path) throws RepositoryException, RDFHandlerException, IOException {

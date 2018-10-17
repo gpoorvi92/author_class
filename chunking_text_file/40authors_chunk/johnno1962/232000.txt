@@ -1,0 +1,10 @@
+
+/// class javax.swing.table.DefaultTableModel ///
+
+package org.genie.javax_swing;
+
+public class DefaultTableModelProxy extends javax.swing.table.DefaultTableModel {
+
+    long swiftObject;
+
+    /// public javax.swing.table.DefaultTableModel(java.util.Vector,int)

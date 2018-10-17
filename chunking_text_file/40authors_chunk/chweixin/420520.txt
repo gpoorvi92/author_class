@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import java.util.Date;
+import ipower.model.Paging;
+/**
+ * 微信关注用户信息。
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */
+public class WeChatUserInfo extends Paging {

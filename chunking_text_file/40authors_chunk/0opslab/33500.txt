@@ -1,0 +1,10 @@
+      putValue(MNEMONIC_KEY, new Integer(mnemonic));
+    }
+    
+    public void actionPerformed(ActionEvent e) {
+      System.out.println(this.getClass().getName() + ".actionPerformed()");
+      ClassFileChooser chooser = new ClassFileChooser(new URLFileSystemView());
+      ClassFileFilterIsA filter = new ClassFileFilterIsA();
+      //TODO: comment in the filter for fit client.
+      //filter.addSuperClass(ColumnFixture.class);
+      filter.addSuperClass(Throwable.class);

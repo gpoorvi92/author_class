@@ -1,0 +1,10 @@
+	public double getGgqlLength() {
+		return ggqlLength;
+	}
+	public void setGgqlLength(double ggqlLength) {
+		this.ggqlLength = ggqlLength;
+	}
+	public int getGgqlCount() {
+		return ggqlCount;
+	}
+	public void setGgqlCount(int ggqlCount) {

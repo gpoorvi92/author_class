@@ -1,0 +1,10 @@
+    gbc.gridy = 1;
+    upper.add(due_date, gbc);
+    for (int i = 0; i<5; i++)
+    {
+    gbc.gridy = 2+i;
+    upper.add(due_date_text[i], gbc);
+	}
+	
+	
+	

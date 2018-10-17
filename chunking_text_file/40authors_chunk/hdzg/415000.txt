@@ -1,0 +1,10 @@
+		paint.setAntiAlias(true);
+		paint.setTypeface(Typeface.create((Typeface)null,Typeface.ITALIC));
+		paint.setTextSize(18);
+		canvas.drawText("确定",
+				DIALOG_BTN_START_X+DIALOG_BTN_WORD_LEFT,
+				DIALOG_BTN_START_Y+DIALOG_WORD_SIZE+DIALOG_BTN_WORD_UP,
+				paint
+				);
+		//画取消按钮
+		if(status == 0){//查看是否需要画第二个取消按钮

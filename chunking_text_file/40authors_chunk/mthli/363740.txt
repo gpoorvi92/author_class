@@ -1,0 +1,10 @@
+               {
+                  File f = chooser.getSelectedFile();
+                  String name = f.getAbsolutePath();
+                  setFileName(name);
+               }
+            }
+         });
+      nameField.setEditable(false);
+
+      gbc.weightx = 0;

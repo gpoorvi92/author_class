@@ -1,0 +1,10 @@
+            }
+            res = Math.max(res, cal(dp));
+        }
+        return res;
+    }
+    public int maximalRectangle(char[][] matrix) {
+        if (matrix.length == 0 || matrix[0].length == 0) return 0;
+        int M = matrix.length, N = matrix[0].length;
+        int[] L = new int[N]; Arrays.fill(L,0);
+        int[] R = new int[N]; Arrays.fill(R,N);

@@ -1,0 +1,10 @@
+    protected void runTask() {
+        try {
+            dataManager.createNewFile(repoID, parentDir, fileName);
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+}
+
+public class NewFileDialog extends TaskDialog {

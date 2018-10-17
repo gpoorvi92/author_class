@@ -1,0 +1,10 @@
+			throw new Exception(error);
+		}
+		String url = String.format(this.tokenUrl, account.getAppId(), account.getAppSecret());
+		logger.info("token请求url:" + url);
+		JSONObject resultObject = HttpUtil.httpsRequest(url, "GET", null);
+		if(resultObject == null){
+			logger.error(error = "未得到微信服务器的反馈！");
+			throw new Exception(error);
+		}
+		String access_token = resultObject.getString("access_token");

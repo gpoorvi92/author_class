@@ -1,0 +1,10 @@
+    }
+
+    /// public void com.apple.eawt.ApplicationAdapter.handleOpenFile(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleOpenFile( com.apple.eawt.ApplicationEvent arg0 );
+
+    boolean entered_handleOpenFile_1;
+
+    public void handleOpenFile( com.apple.eawt.ApplicationEvent arg0 ) {
+        if ( !entered_handleOpenFile_1 ) {

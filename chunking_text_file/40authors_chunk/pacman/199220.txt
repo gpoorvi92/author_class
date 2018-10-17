@@ -1,0 +1,10 @@
+	
+	/**
+	 * @return the guid
+	 */
+	public String getGuid() {
+		return guid;
+	}
+
+	/**
+	 * @param guid the guid to set

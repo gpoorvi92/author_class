@@ -1,0 +1,10 @@
+		    //模式角色：ActiveObject.ActivationQueue
+		    new ArrayBlockingQueue<Runnable>(200), new ThreadFactory() {
+			    @Override
+			    public Thread newThread(Runnable r) {
+				    Thread t;
+				    t = new Thread(r, "AsyncRequestPersistence");
+				    return t;
+			    }
+
+		    });

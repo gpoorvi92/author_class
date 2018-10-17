@@ -1,0 +1,10 @@
+     */
+    static final int ACTION_DO_INTERCEPT_AND_REHOOK = 0x11;
+    /**
+     * This action causes Burp Proxy to skip user interception, and then make a
+     * second call to processProxyMessage.
+     */
+    static final int ACTION_DONT_INTERCEPT_AND_REHOOK = 0x12;
+
+    /**
+     * This method retrieves a unique reference number for this

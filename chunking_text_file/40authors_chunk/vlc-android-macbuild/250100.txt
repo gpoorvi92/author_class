@@ -1,0 +1,10 @@
+    @Override
+    public void onBufferingUpdate(MediaPlayer mp, int percent) {
+        if (mOnBufferingUpdateListener != null) {
+            DefMediaSegmentPlayer segmentPlayer = mSegmentPlayer;
+            if (segmentPlayer == null)
+                return;
+
+            int totalDuration = getDuration();
+            if (totalDuration <= 0)
+                return;

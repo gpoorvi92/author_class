@@ -1,0 +1,10 @@
+		String[] adminFilter = {"cmsDo.action","businessSystemDo.action"};
+		for (String string : adminFilter) {
+			if(url.contains(string)){
+				if(!userService.findUserByID(sessionUserID).getType().equals("system")){
+					response.sendRedirect(request.getContextPath() + "/" + "indexPage?warnMsg=" + URLEncoder.encode(URLEncoder.encode("非法访问：访问权限不够！","UTF-8"),"UTF-8"));
+					return false;
+				}
+			}
+		}
+		

@@ -1,0 +1,10 @@
+    final public String getUrl() {
+        return mUrl;
+    }
+
+    final public String getSchemeSpecificPart() {
+        return mSchemeSpecificPart;
+    }
+
+    final public void dump() {
+        DebugLog.ifmt(TAG, "mIndexMrl:              %s", mRawMrl);

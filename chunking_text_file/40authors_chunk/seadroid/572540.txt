@@ -1,0 +1,10 @@
+                BROADCAST_FILE_DOWNLOAD_PROGRESS).putExtra("taskID", taskID);
+        LocalBroadcastManager.getInstance(SeadroidApplication.getAppContext()).sendBroadcast(localIntent);
+    }
+
+    @Override
+    public void onFileDownloaded(int taskID) {
+        remove(taskID);
+        doNext();
+        Intent localIntent = new Intent(BROADCAST_ACTION).putExtra("type",
+                BROADCAST_FILE_DOWNLOAD_SUCCESS).putExtra("taskID", taskID);

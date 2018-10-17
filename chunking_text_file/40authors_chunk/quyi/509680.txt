@@ -1,0 +1,10 @@
+    this.positives = 0;
+    this.virusEngine = null;
+    this.description = null;
+  }
+
+  public String getCheckTime() {
+    return this.checkTime;
+  }
+
+  public VirusDetectionResultData setCheckTime(String checkTime) {

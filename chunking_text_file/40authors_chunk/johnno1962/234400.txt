@@ -1,0 +1,10 @@
+    /// public void java.awt.event.MouseAdapter.mouseEntered(java.awt.event.MouseEvent)
+
+    public native void __mouseEntered( java.awt.event.MouseEvent e );
+
+    boolean entered_mouseEntered_4;
+
+    public void mouseEntered( java.awt.event.MouseEvent e ) {
+        if ( !entered_mouseEntered_4 ) {
+            entered_mouseEntered_4 = true;
+            __mouseEntered( e );

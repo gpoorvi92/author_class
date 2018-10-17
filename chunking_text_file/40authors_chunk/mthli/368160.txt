@@ -1,0 +1,10 @@
+      menu.add(exitItem);
+      exitItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               System.exit(0);
+            }
+         });
+
+      // use a label to display the images

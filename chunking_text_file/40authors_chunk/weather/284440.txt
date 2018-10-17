@@ -1,0 +1,10 @@
+			float dX = Math.abs(x - mTouchX);
+			if (dX > minSwipeDistance){
+				return true;
+            }
+			break;
+		}
+		return super.onInterceptTouchEvent(event);
+	}
+
+    @Override

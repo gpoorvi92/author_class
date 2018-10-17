@@ -1,0 +1,9 @@
+    public void    displayText(String data, int attribute)
+                       throws JposException;
+    public void    displayTextAt(int row, int column, String data,
+                       int attribute) throws JposException;
+    public void    refreshWindow(int window) throws JposException;
+    public void    scrollText(int direction, int units) throws JposException;
+    public void    setDescriptor(int descriptor, int attribute)
+                       throws JposException;
+}

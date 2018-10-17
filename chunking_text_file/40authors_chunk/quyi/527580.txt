@@ -1,0 +1,10 @@
+	public String getUserAppId() {
+		return userAppId;
+	}
+
+	public void setUserAppId(String userAppId) {
+		this.userAppId = userAppId;
+	}
+
+	public String getMissionId() {
+		return missionId;

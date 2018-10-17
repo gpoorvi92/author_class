@@ -1,0 +1,10 @@
+    /**
+     * 处理get请求
+     *
+     * @param url
+     * @param params
+     * @param clazz
+     * @param listener
+     * @param <T>
+     * @return
+     */

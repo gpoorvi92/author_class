@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.common.constant.Constants;
+import cn.abovesky.shopping.dao.CheckInMapper;
+import cn.abovesky.shopping.dao.CreditLogMapper;
+import cn.abovesky.shopping.dao.UserMapper;
+import cn.abovesky.shopping.domain.CheckIn;
+import cn.abovesky.shopping.domain.CreditLog;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.ICheckInService;

@@ -1,0 +1,10 @@
+
+    protected void handleRestricted(File file, int i, Collection collection)
+        throws IOException
+    {
+    }
+
+    protected void handleDirectoryEnd(File file, int i, Collection collection)
+        throws IOException
+    {
+    }

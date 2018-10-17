@@ -1,0 +1,10 @@
+   */
+  public InvalidRequestException(InvalidRequestException other) {
+    if (other.isSetWhy()) {
+      this.why = other.why;
+    }
+  }
+
+  public InvalidRequestException deepCopy() {
+    return new InvalidRequestException(this);
+  }

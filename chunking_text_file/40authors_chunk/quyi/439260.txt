@@ -1,0 +1,10 @@
+  }
+
+  public void setCpuMhzIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __CPUMHZ_ISSET_ID, value);
+  }
+
+  public int getMemSize() {
+    return this.memSize;
+  }
+

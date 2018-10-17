@@ -1,0 +1,10 @@
+// Referenced classes of package org.apache.commons.io.input:
+//            ProxyInputStream
+
+public class SwappedDataInputStream extends ProxyInputStream
+    implements DataInput
+{
+
+    public SwappedDataInputStream(InputStream input)
+    {
+        super(input);

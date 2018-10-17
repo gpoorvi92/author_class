@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void fromJson(String json) throws JsonMappingException,
+			JsonGenerationException, IOException {
+		QueryAccountRequest r=(QueryAccountRequest)JsonPojoMapper.fromJson(json, QueryAccountRequest.class);
+		this.setOpt(r.getOpt());
+		this.setBody(r.getBody());
+		
+	}

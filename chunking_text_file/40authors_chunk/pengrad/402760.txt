@@ -1,0 +1,10 @@
+    public String getMethod() {
+        String className = this.getClass().getSimpleName();
+        return Character.toLowerCase(className.charAt(0)) + className.substring(1);
+    }
+
+    public Map<String, Object> getParameters() {
+        return parameters;
+    }
+
+    public Type getResponseType() {

@@ -1,0 +1,10 @@
+     * 
+     * @note You must call it before exiting
+     */
+    public void destroy() {
+        DebugLog.v(TAG, "Destroying LibVLC instance");
+        nativeDestroy();
+        detachEventManager();
+        mIsInitialized = false;
+    }
+

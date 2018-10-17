@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 14, 2014 
+ Problem:    Maximum Gap
+ Difficulty: Hard
+ Source:     https://oj.leetcode.com/problems/maximum-gap/
+ Notes:
+ Given an unsorted array, find the maximum difference between the successive elements in its sorted form.
+
+ Try to solve it in linear time/space.

@@ -1,0 +1,10 @@
+
+    /**
+     * This method is used to retrieve the parameter value.
+     *
+     * @return The parameter value.
+     */
+    String getValue();
+
+    /**
+     * This method is used to retrieve the start offset of the parameter name

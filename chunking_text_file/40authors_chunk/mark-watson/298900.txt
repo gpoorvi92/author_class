@@ -1,0 +1,10 @@
+	return -1; // error condition
+    }
+
+    final public static int MAX = 50; // max number of nodes and max number of links
+
+    protected int [] path = new int[AbstractGraphSearch.MAX];
+    protected int num_path = 0;
+
+    // for nodes:
+    protected String [] nodeNames = new String[MAX];

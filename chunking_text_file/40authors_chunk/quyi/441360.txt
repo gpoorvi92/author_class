@@ -1,0 +1,10 @@
+  public void unsetDataChar() {
+    this.dataChar = null;
+  }
+
+  /** Returns true if field dataChar is set (has been assigned a value) and false otherwise */
+  public boolean isSetDataChar() {
+    return this.dataChar != null;
+  }
+
+  public void setDataCharIsSet(boolean value) {

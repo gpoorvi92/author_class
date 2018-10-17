@@ -1,0 +1,10 @@
+      JOptionPane.DEFAULT_OPTION);
+      pass1.requestFocus();
+      return;}
+      if (pass2.getText() == null ||
+      pass2.getText().equals("")){   
+      JOptionPane.showMessageDialog(null,"Confirm your password","ERROR",
+      JOptionPane.DEFAULT_OPTION);
+      pass2.requestFocus();
+      return;}
+      if (!pass1.getText().equals(pass2.getText())){

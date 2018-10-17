@@ -1,0 +1,10 @@
+/******************************************************************
+*
+*	CyberXML for Java
+*
+*	Copyright (C) Satoshi Konno 2009
+*
+*	File: XmlPullParser.java
+*
+*	Revision:
+*

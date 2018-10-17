@@ -1,0 +1,10 @@
+        }
+
+        String extension = Utils.getExtension(f);
+        if (extension != null) {
+            if (extension.equals(Utils.lzw)){
+        		    return true;
+            } else {
+                return false;
+            }
+        }

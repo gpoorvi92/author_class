@@ -1,0 +1,10 @@
+	private TiledTextureRegion mPlayerTextureRegion;
+	private TiledTextureRegion mEnemyTextureRegion;
+
+	private BitmapTextureAtlas mAutoParallaxBackgroundTexture;
+
+	private ITextureRegion mParallaxLayerBack;
+	private ITextureRegion mParallaxLayerMid;
+	private ITextureRegion mParallaxLayerFront;
+
+	// ===========================================================

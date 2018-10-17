@@ -1,0 +1,10 @@
+	 * @return 发送方帐号(一个OpenID)。
+	 * */
+	@Override
+	public String getFromUserName() {
+		return super.getFromUserName();
+	}
+	/**
+	 * 设置发送方帐号(一个OpenID)。
+	 * @param fromUserName
+	 *  发送方帐号(一个OpenID)。

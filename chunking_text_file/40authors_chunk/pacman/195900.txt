@@ -1,0 +1,10 @@
+	 * 
+	 * @return
+	 */
+	boolean canTakeTask(SystemInfo info);
+	
+	/**
+	 * 
+	 * @return
+	 */
+	int takeNewTask(IMQReceiver receiver, IWorkerCallback callback);

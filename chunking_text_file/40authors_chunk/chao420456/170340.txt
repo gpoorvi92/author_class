@@ -1,0 +1,9 @@
+		ts.add(p8);
+
+		// ±éÀú¼¯ºÏ
+		for (Person p : ts) {
+			System.out.println(p.getName() + "---" + p.getAge());
+		}
+
+	}
+}

@@ -1,0 +1,10 @@
+
+   /**
+    * Makes a radio button to change the cap style.
+    * @param label the button label
+    * @param style the cap style
+    * @param group the radio button group
+    */
+   private void makeCapButton(String label, final int style, ButtonGroup group)
+   {
+      // select first button in group

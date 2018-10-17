@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * List集合的特有功能：
+ * 		void add(int index,Object obj):在指定索引位置添加元素
+ *		Object remove(int index):删除指定索引位置的元素，并把删除掉的元素值返回
+ *		Object get(int index):根据给定索引，返回元素

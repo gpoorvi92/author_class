@@ -1,0 +1,10 @@
+  public int     getCapPowerReporting() throws JposException;
+
+    // Properties
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+
+    // Event listener methods
+    public void    addStatusUpdateListener(StatusUpdateListener l);
+    public void    removeStatusUpdateListener(StatusUpdateListener l);

@@ -1,0 +1,10 @@
+     *
+     * @return An index indicating the context within which the menu was
+     * invoked. The indices used are defined within this interface.
+     */
+    byte getInvocationContext();
+
+    /**
+     * This method can be used to retrieve the bounds of the user's selection
+     * into the current message, if applicable.
+     *

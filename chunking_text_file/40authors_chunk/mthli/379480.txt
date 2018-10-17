@@ -1,0 +1,10 @@
+   {
+      public void mousePressed(MouseEvent event)
+      {
+         // add a new square if the cursor isn't inside a square
+         current = find(event.getPoint());
+         if (current == null) add(event.getPoint());
+      }
+
+      public void mouseClicked(MouseEvent event)
+      {

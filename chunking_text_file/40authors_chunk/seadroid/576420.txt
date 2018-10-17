@@ -1,0 +1,10 @@
+        }
+        return true;
+    }
+
+    public boolean isReady() {
+        return adapter != null;
+    }
+
+    public void refreshView() {
+        adapter.setTaskInfos(getUploadTaskInfos());

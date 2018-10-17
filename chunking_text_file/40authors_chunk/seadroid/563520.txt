@@ -1,0 +1,10 @@
+
+    private DataManager getDataManager() {
+        if (dataManager == null) {
+            dataManager = new DataManager(account);
+        }
+
+        return dataManager;
+    }
+
+    @Override

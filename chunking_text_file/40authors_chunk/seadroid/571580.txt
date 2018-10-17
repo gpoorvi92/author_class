@@ -1,0 +1,10 @@
+
+/**
+ * Manages file downloading and uploading.
+ * <p/>
+ * Currently use an AsyncTask for an file.
+ */
+public abstract class TransferManager {
+    private static final String DEBUG_TAG = "TransferManager";
+
+    public static final String BROADCAST_ACTION = "com.seafile.seadroid.TX_BROADCAST";

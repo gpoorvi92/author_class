@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Dec 25, 2014
+ Problem:    Symmetric Tree
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/symmetric-tree/
+ Notes:
+ Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+ For example, this binary tree is symmetric:
+     1

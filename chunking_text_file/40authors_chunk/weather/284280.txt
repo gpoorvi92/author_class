@@ -1,0 +1,10 @@
+    }
+
+    public static ImageLocation getLocationByExifInterFace(ExifInterface exifInterface){
+        float[] latLong = new float[2];
+        exifInterface.getLatLong(latLong);
+        ImageLocation location = new ImageLocation(latLong[0],latLong[1]);
+        return location;
+    }
+
+    public static Date getDateByExifInterface(ExifInterface exifInterface){

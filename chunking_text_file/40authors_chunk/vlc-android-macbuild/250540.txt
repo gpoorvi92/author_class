@@ -1,0 +1,10 @@
+                mLibVlcLoaded = true;
+            } catch (UnsatisfiedLinkError ule) {
+                DebugLog.e(TAG, "Can't load vlcjni library: " + ule);
+                // / FIXME: Alert user
+                System.exit(1);
+            } catch (SecurityException se) {
+                DebugLog.e(TAG,
+                        "Encountered a security issue when loading vlcjni library: "
+                                + se);
+                // / FIXME: Alert user

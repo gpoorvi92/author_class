@@ -1,0 +1,6 @@
+     * menu was displayed.
+     */
+    void menuItemClicked(
+            String menuItemCaption,
+            IHttpRequestResponse[] messageInfo);
+}

@@ -1,0 +1,10 @@
+
+	@Override
+	protected int getRenderSurfaceViewID() {
+		return R.id.textbreakexample_rendersurfaceview;
+	}
+
+	@Override
+	protected void onSetContentView() {
+		super.onSetContentView();
+

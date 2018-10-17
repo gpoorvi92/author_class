@@ -1,0 +1,10 @@
+	public double getSxfLength() {
+		return sxfLength;
+	}
+	public void setSxfLength(double sxfLength) {
+		this.sxfLength = sxfLength;
+	}
+	public int getSxfCount() {
+		return sxfCount;
+	}
+	public void setSxfCount(int sxfCount) {

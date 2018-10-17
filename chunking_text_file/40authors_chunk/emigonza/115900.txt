@@ -1,0 +1,10 @@
+    public void    beginRemoval(int timeout) throws JposException;
+    public void    cleanCard() throws JposException;
+    public void    clearInput() throws JposException;
+    public void    clearOutput() throws JposException;
+    public void    clearPrintWrite(int kind, int hPosition, int vPosition,
+                                   int width, int height) throws JposException;
+    public void    endInsertion() throws JposException;
+    public void    endRemoval() throws JposException;
+    public void    printWrite(int kind, int hPosition, int vPosition,
+                              String data) throws JposException;

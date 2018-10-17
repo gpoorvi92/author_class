@@ -1,0 +1,10 @@
+				bm.readBytes(buf);
+				
+			} else if (message instanceof MapMessage) {
+				
+				className = message.getStringProperty("mq.clazz");
+				
+				if (StringUtils.isEmpty(className))
+					type	= 3;
+				else
+					type	= 4;

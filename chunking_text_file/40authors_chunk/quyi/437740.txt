@@ -1,0 +1,10 @@
+  }
+
+  public NodeInfo() {
+  }
+
+  public NodeInfo(
+    Hardware hardware,
+    Software software)
+  {
+    this();

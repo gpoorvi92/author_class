@@ -1,0 +1,10 @@
+		this.writeJson(grid);
+	}
+	
+	@Override
+	public void update() throws IOException{
+		if(this.getUserIdentity() != null && this.getModel() != null){
+			this.getModel().setCreateUserId(this.getUserIdentity().getId());
+			this.getModel().setCreateUserName(this.getUserIdentity().getName());
+		}
+		if(this.getModel() != null){

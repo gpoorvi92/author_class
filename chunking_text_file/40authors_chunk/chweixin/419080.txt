@@ -1,0 +1,10 @@
+	public static final String EVENT_MESSAGE_TYPE_SCAN = "SCAN";
+	/**
+	 * 上报地理位置事件消息。
+	 * */
+	public static final String EVENT_MESSAGE_TYPE_LOCATION = "LOCATION";
+	/**
+	 * 自定义菜单事件消息。
+	 * */
+	public static final String EVENT_MESSAGE_TYPE_CLICK = "CLICK";
+	

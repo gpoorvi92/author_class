@@ -1,0 +1,10 @@
+      private List<com.nercis.isscp.idl.rules.Rules> rules;
+      public ruleSync_call(List<com.nercis.isscp.idl.rules.Rules> rules, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.rules = rules;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("ruleSync", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        ruleSync_args args = new ruleSync_args();
+        args.setRules(rules);

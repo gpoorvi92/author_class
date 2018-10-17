@@ -1,0 +1,10 @@
+
+         // print header fields
+
+         Map<String, List<String>> headers = connection.getHeaderFields();
+         for (Map.Entry<String, List<String>> entry : headers.entrySet())
+         {
+            String key = entry.getKey();
+            for (String value : entry.getValue())
+               System.out.println(key + ": " + value);
+         }

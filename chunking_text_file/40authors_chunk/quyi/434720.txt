@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义动态检测结果
+ * 1:string apkMD5 应用MD5值
+ * 2:list<string> sensitive 敏感词组
+ * 3:list<RunMonitor> autoRunMonitor 运行监视
+ * 4:list<FileOperate> fileOperate 文件操作记录

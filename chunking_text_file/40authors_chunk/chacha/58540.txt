@@ -1,0 +1,10 @@
+				String[] hosts=connectionDescriptor.split(",");
+				List<ServerAddress> addr=new ArrayList<ServerAddress>();
+				for(String host:hosts){
+					String[] hostPortPair=host.split(":");
+					int port=27017;
+					if(hostPortPair.length>1){
+						try{
+							port=Integer.parseInt(hostPortPair[1]);
+						}catch(Exception e){
+							

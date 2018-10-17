@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        try
+        {
+            in.close();
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }

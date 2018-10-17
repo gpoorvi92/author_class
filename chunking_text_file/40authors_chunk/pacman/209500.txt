@@ -1,0 +1,10 @@
+	 * @param ip
+	 */
+	public void setIp(String ip) {
+		this.ip = ip;
+	}
+	
+	/**
+	 * @return the cpuUser
+	 */
+	public double getCpuUser() {

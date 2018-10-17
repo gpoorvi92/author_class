@@ -1,0 +1,10 @@
+    public com.nercis.isscp.idl.AppCheckResult queryApp(String missionId, String userAppId) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_queryApp(missionId, userAppId);
+      return recv_queryApp();
+    }
+
+    public void send_queryApp(String missionId, String userAppId) throws org.apache.thrift.TException
+    {
+      queryApp_args args = new queryApp_args();
+      args.setMissionId(missionId);

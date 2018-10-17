@@ -1,0 +1,10 @@
+	}
+	
+	public static ResultSet executeQuery(String query) throws SQLException{
+		return statement.executeQuery(query);
+	}
+	
+	public static int executeUpdate(String query) throws SQLException {
+		return statement.executeUpdate(query);
+	}
+}

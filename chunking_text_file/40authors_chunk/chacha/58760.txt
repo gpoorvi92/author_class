@@ -1,0 +1,10 @@
+	
+	public Response() {
+		super();
+	}
+
+	
+	public Response(int result) {
+		super();
+		this.result = result;
+	}

@@ -1,0 +1,10 @@
+		helicopter.animate(new long[] { 100, 100 }, 1, 2, true);
+		scene.attachChild(helicopter);
+
+		/* Snapdragon. */
+		final AnimatedSprite snapdragon = new AnimatedSprite(300, 200, this.mSnapdragonTextureRegion, this.getVertexBufferObjectManager());
+		snapdragon.animate(100);
+		scene.attachChild(snapdragon);
+
+		/* Funny banana. */
+		final AnimatedSprite banana = new AnimatedSprite(100, 220, this.mBananaTextureRegion, this.getVertexBufferObjectManager());

@@ -1,0 +1,10 @@
+				String result = input + "->[pipe3," + Thread.currentThread().getName()
+				    + "]";
+				;
+				System.out.println(result);
+				try {
+					Thread.sleep(new Random().nextInt(200));
+				} catch (InterruptedException e) {
+					;
+				}
+				return result;

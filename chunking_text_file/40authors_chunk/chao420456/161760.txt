@@ -1,0 +1,10 @@
+
+	孔子装爹案例
+
+		孔子：教书():讲论语,玩游戏():连连看,age:20
+		孔子爹：教书():JavaSE，age:40
+
+		//多态
+		孔子爹 k爹 = new 孔子(); //Android很火，而JavaSE是Android基础，所以JavaSE很火。
+								 //爹太忙，儿子装爹去讲课。粘上小胡子，带上眼镜。向上转型
+		System.out.println(k爹.age); //40

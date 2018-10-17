@@ -1,0 +1,10 @@
+
+        /*--------------------------------------
+         * VM Policy
+         */
+        VmPolicy.Builder vmPolicyBuilder = new VmPolicy.Builder();
+        if (VM__DETECT_LEAKED_CLOSABLE_OBJECT)
+            if (BuildHelper.isApi11_HoneyCombOrLater())
+                vmPolicyBuilder = vmPolicyBuilder.detectLeakedClosableObjects();
+
+        if (VM__DETECT_LEAKED_REGISTRATION_OBJECTS)

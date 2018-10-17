@@ -1,0 +1,10 @@
+    public void testisFloatNumeric() {
+        assertEquals(true, RegUtil.isFloatNumeric("123.3"));
+        assertEquals(false, RegUtil.isFloatNumeric("123.3 "));
+    }
+
+    @Test
+    public void testisABC() {
+        assertEquals(true, RegUtil.isABC("abc"));
+        assertEquals(false, RegUtil.isABC("abc "));
+        assertEquals(false, RegUtil.isABC("123abc"));

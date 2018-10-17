@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapBlink"),
+        makeProperty("CapBrightness"),
+        makeProperty("CapCharacterSet"),
+        makeProperty("CapDescriptors"),
+        makeProperty("CapHMarquee"),
+        makeProperty("CapICharWait"),
+        makeProperty("CapVMarquee"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapBlinkRate"),

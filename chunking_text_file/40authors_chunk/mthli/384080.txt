@@ -1,0 +1,10 @@
+      tabbedPane.addTab("Earth", icon, null);
+      tabbedPane.addTab("Mars", icon, null);
+      tabbedPane.addTab("Jupiter", icon, null);
+      tabbedPane.addTab("Saturn", icon, null);
+      tabbedPane.addTab("Uranus", icon, null);
+      tabbedPane.addTab("Neptune", icon, null);
+      tabbedPane.addTab("Pluto", null, null);
+      
+      final int plutoIndex = tabbedPane.indexOfTab("Pluto");      
+      JPanel plutoPanel = new JPanel();

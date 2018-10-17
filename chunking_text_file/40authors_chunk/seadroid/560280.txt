@@ -1,0 +1,10 @@
+    protected void disableInput() {
+        super.disableInput();
+        fileNameText.setEnabled(false);
+    }
+
+    @Override
+    protected void enableInput() {
+        super.enableInput();
+        fileNameText.setEnabled(true);
+    }

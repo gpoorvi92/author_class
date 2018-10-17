@@ -1,0 +1,10 @@
+    public static String getFileNameExtension(String filename)
+    {
+        int index = filename.lastIndexOf('.');
+
+        if (index > 0)
+            return filename.substring(index+1);
+        else
+            return null;
+    }
+

@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapKeylockType"),
+
+        // Properties
+        makeProperty("KeyPosition"),

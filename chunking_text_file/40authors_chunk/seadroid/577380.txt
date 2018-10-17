@@ -1,0 +1,10 @@
+                    mLockPatternView.postDelayed(mClearPatternRunnable, 2000);
+                }
+            }
+        }
+
+        public void onPatternCellAdded(List<Cell> pattern) {
+
+        }
+
+        private void patternInProgress() {

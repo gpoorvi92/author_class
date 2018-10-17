@@ -1,0 +1,10 @@
+
+	private Node getReturnNode()
+	{
+		Node bodyNode = getBodyNode();
+		if (bodyNode == null)
+			return null;
+		if (bodyNode.hasNodes() == false)
+			return null;
+		Node queryResNode = bodyNode.getNode(0);
+		if (queryResNode == null)

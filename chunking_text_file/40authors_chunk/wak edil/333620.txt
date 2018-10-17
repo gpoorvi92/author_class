@@ -1,0 +1,10 @@
+			this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		NasiLemakInfo frame = new NasiLemakInfo();
+		frame.setTitle("Nasi Lemak Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

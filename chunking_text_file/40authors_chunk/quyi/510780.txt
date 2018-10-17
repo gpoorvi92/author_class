@@ -1,0 +1,10 @@
+                  _elem2.read(iprot);
+                  struct.virusEngine.add(_elem2);
+                }
+                iprot.readListEnd();
+              }
+              struct.setVirusEngineIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

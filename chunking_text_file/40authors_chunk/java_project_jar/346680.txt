@@ -1,0 +1,10 @@
+public class CharSequenceReader extends Reader
+    implements Serializable
+{
+
+    public CharSequenceReader(CharSequence charSequence)
+    {
+        this.charSequence = charSequence == null ? "" : charSequence;
+    }
+
+    public void close()

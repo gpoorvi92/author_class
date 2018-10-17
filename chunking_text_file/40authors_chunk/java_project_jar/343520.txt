@@ -1,0 +1,10 @@
+                listener.fileNotFound();
+            }
+            if(reader == null)
+            {
+                try
+                {
+                    Thread.sleep(delay);
+                }
+                catch(InterruptedException e) { }
+            } else

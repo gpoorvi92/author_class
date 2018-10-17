@@ -1,0 +1,10 @@
+	 * @param str
+	 * @param defaultValue
+	 * @return
+	 * @return: int
+	 */
+	public static int safeParseInt(String str, int defaultValue) {
+		
+		try {
+			
+			defaultValue = Integer.parseInt(str);

@@ -1,0 +1,6 @@
+    this.m_out.write(this.TableStopTag());
+  }
+  
+  protected abstract String TableStartTag();
+  protected abstract String TableStopTag();
+}

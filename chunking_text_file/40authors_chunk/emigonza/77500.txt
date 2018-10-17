@@ -1,0 +1,10 @@
+	                             "UnknownServiceInstanceFactoryClass";
+	                             
+	public static final String SERVICE_CLASS_DEFAULT_PROP_VALUE = 
+	                             "UnknownServiceClass";
+	                             
+	public static final String DEVICE_CATEGORY_DEFAULT_PROP_VALUE = 
+								 "CashDrawer";
+	
+	public static final String JPOS_VERSION_DEFAULT_PROP_VALUE = "1.5";
+	

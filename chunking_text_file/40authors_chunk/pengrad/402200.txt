@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 8/5/15.
+ */
+public class Location {
+
+    private Float longitude;
+    private Float latitude;

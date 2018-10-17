@@ -1,0 +1,10 @@
+    }
+
+    public static class reportTaskManagerConfig<I extends Iface> extends org.apache.thrift.ProcessFunction<I, reportTaskManagerConfig_args> {
+      public reportTaskManagerConfig() {
+        super("reportTaskManagerConfig");
+      }
+
+      public reportTaskManagerConfig_args getEmptyArgsInstance() {
+        return new reportTaskManagerConfig_args();
+      }

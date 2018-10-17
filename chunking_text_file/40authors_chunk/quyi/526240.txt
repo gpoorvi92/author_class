@@ -1,0 +1,10 @@
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public MissionResults(MissionResults other) {
+    if (other.isSetMissionId()) {
+      this.missionId = other.missionId;
+    }
+    if (other.isSetEngines()) {
+      List<Engine> __this__engines = new ArrayList<Engine>(other.engines.size());
+      for (Engine other_element : other.engines) {

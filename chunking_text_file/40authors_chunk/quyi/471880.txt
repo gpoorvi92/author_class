@@ -1,0 +1,10 @@
+        this.stcRD = stcRD;
+        this.dycRD = dycRD;
+        this.virRD = virRD;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("updateUserAppInfo", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        updateUserAppInfo_args args = new updateUserAppInfo_args();
+        args.setMissionId(missionId);
+        args.setUserAppId(userAppId);

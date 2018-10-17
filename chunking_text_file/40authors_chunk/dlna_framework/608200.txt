@@ -1,0 +1,10 @@
+	
+	public SSDPSearchSocketList getSSDPSearchSocketList() {
+		if(this.ssdpSearchSocketList==null){
+			this.ssdpSearchSocketList = new SSDPSearchSocketList(this.ssdpBinds,ssdpPort,ssdpMulticastIPv4,ssdpMulticastIPv6);			
+		}
+		return ssdpSearchSocketList;
+	}
+	
+	/**
+	 * 

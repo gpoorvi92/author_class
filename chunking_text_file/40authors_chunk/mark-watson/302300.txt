@@ -1,0 +1,10 @@
+					String sql = "insert into factbook values ('"+name+"','"+location+"',"+exports+","+imports+","+debt+","+aid+","+unemployment+","+inflation+")";
+					System.out.println("\n"+sql+"\n");
+					s.execute(sql);
+				}
+			}
+		} catch (Exception ex) {
+			System.out.println("Error" + ex);
+			ex.printStackTrace();
+		}
+	}

@@ -1,0 +1,10 @@
+	 */
+	public int getVideoHeight() {
+		return videoHeight;
+	}
+
+	/**
+	 * @return the videoWidth
+	 */
+	public int getVideoWidth() {
+		return videoWidth;

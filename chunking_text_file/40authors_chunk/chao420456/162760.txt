@@ -1,0 +1,10 @@
+	private boolean flag_exit = false;
+	public ServerThread(ServerFrame serverFrame){
+		this.serverFrame = serverFrame;
+		messages = new Vector<String>();
+		clients = new Vector<ClientThread>();
+		users = new HashMap<Integer, String>();
+		try {
+			serverSocket = new ServerSocket(Port);
+		} catch (IOException e) {
+			this.serverFrame.setStartAndStopUnable();

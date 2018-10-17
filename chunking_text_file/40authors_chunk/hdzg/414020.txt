@@ -1,0 +1,10 @@
+	public static int getHeroAttack(Hero hero,General general){
+		int attack = 0;//攻击力
+		float gAttack = (general.power*0.7f+general.agility*0.2f+general.intelligence*0.1f)/100.0f;//英雄的攻击加成
+		attack = (int)((hero.basicAttack*hero.armyWithMe)*(1+gAttack));
+		return attack;
+	}
+	//计算并返回英雄的防御力
+	public static int getHeroDefence(Hero hero,General general){
+		int defence = 0;
+		float gDefend = (general.defend*0.8f+general.intelligence*0.2f)/100.0f;//英雄的防御加成

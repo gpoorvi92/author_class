@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetFilePath();
+      } else {
+        setFilePath((String)value);
+      }
+      break;
+
+    case OPERATE_CONTENT:
+      if (value == null) {
+        unsetOperateContent();

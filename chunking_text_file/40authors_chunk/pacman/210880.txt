@@ -1,0 +1,10 @@
+	 * Private field err Getter method.
+	 * @return err 
+	 */
+	public String getErr() {
+		return this.err;
+	}
+
+	/**
+	 * Private field err Setter method.
+	 * @param err 

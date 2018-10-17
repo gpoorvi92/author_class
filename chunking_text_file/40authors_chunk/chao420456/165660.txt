@@ -1,0 +1,10 @@
+		}else {
+			int max = secondNumber;
+		}
+		*/
+
+		int max;
+		if(firstNumber > secondNumber) {
+			max = firstNumber;
+		}else {
+			max = secondNumber;

@@ -1,0 +1,10 @@
+public class OrderLhjWinPropDaoImp implements OrderLhjWinPropDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+

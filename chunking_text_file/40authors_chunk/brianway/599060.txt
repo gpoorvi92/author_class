@@ -1,0 +1,10 @@
+        Thread t1 = new Thread(c);
+        t1.setName("A");
+        t1.start();
+    }
+}
+
+/*
+输出：
+CountOperate---begin
+Thread.currentThread().getName()=main

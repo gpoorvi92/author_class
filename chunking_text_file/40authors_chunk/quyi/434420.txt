@@ -1,0 +1,10 @@
+      if (struct.isSetProcessName()) {
+        oprot.writeString(struct.processName);
+      }
+      if (struct.isSetThreadName()) {
+        oprot.writeString(struct.threadName);
+      }
+      if (struct.isSetCheckTime()) {
+        oprot.writeString(struct.checkTime);
+      }
+      if (struct.isSetCpu()) {

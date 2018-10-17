@@ -1,0 +1,10 @@
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof issuedMessage_args)
+        return this.equals((issuedMessage_args)that);
+      return false;

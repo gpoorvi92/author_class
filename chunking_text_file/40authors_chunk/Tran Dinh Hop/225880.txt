@@ -1,0 +1,10 @@
+		code = getCode(in);
+
+		// precess all remaining bytes
+		while(in.available() > 0) { 
+			worker();
+		} 
+		
+		worker();
+
+		// close streams

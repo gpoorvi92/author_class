@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// ImageScanner.java - A JavaPOS 1.13.0 device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import jpos.events.*;
+import jpos.services.*;

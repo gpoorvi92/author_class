@@ -1,0 +1,10 @@
+        return ret;
+    }
+    public static boolean delete(NoticeEntity sysNotice)
+    {
+        boolean ret = true;
+        try
+        {
+            ChatServerRpc.DeleteSysNoticeReq.Builder reqBuilder = ChatServerRpc.DeleteSysNoticeReq.newBuilder();
+            reqBuilder.addSysNoticeDto(sysNotice.toDTO());
+            ChatServerRpc.DeleteSysNoticeReq req = reqBuilder.build();

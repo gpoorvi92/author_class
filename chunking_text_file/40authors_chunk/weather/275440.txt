@@ -1,0 +1,10 @@
+        }
+        InetSocketAddress address = (InetSocketAddress) proxy.address();
+        return new HttpHost(address.getHostName(), address.getPort());
+      }
+      throw new IllegalArgumentException(name);
+    }
+
+    @Override public HttpParams setParameter(String name, Object value) {
+      if (name.equals(ConnRouteParams.DEFAULT_PROXY)) {
+        HttpHost host = (HttpHost) value;

@@ -1,0 +1,10 @@
+		//a = (a+b) - (b=a); //一句话搞定
+		//System.out.println("a="+a+",b="+b);
+
+		//方式4：面试
+		a = a ^ b;
+		b = a ^ b; //b = a ^ b = a ^ b ^ b = a;
+		a = a ^ b; //a = a ^ b = a ^ b ^ a = b;
+		System.out.println("a="+a+",b="+b);
+		//记忆：左边，a,b,a。右边a^b
+	}

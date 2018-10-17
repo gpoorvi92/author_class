@@ -1,0 +1,6 @@
+                ", location=" + location +
+                ", inline_message_id='" + inline_message_id + '\'' +
+                ", query='" + query + '\'' +
+                '}';
+    }
+}

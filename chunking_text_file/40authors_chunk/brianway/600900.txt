@@ -1,0 +1,10 @@
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+/*
+输出：
+在Main线程中取值=1460642917909
+在Main线程中取值=1460642917909

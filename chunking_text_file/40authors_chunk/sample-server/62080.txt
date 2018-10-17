@@ -1,0 +1,10 @@
+    @ResponseBody
+    public String modify(String id, int zoneId, String linkId, String title, String content, String sortFlag) throws IOException
+    {
+        JsonResponse resultCode = new JsonResponse();
+        BulletinEntity bulletin = DaoManager.getLocalDao().select(BulletinEntity.class, Integer.parseInt(id));
+        if (null == bulletin)
+        {
+            resultCode.setMsg("failed");
+        }
+        else

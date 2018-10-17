@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class fontSelector extends JFrame
+{
+		Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+	String fontString[] = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
+	JComboBox fontSelector = new JComboBox(fontString);
+	JLabel fontLabel = new JLabel("Select Font");

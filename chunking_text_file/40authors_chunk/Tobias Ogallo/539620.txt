@@ -1,0 +1,10 @@
+      	content.add(listsTabs,BorderLayout.CENTER);
+      	
+      cancel.addActionListener(new java.awt.event.ActionListener() {
+	  public void actionPerformed(java.awt.event.ActionEvent e) {
+				dispose();
+				
+			}
+		});
+
+      		

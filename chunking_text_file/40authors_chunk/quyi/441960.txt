@@ -1,0 +1,10 @@
+    boolean this_present_dataLength = true && this.isSetDataLength();
+    boolean that_present_dataLength = true && that.isSetDataLength();
+    if (this_present_dataLength || that_present_dataLength) {
+      if (!(this_present_dataLength && that_present_dataLength))
+        return false;
+      if (!this.dataLength.equals(that.dataLength))
+        return false;
+    }
+
+    boolean this_present_operateTime = true && this.isSetOperateTime();

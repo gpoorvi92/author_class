@@ -1,0 +1,10 @@
+    public void start() {
+        server.start();
+    }
+
+    /**
+     * Stop server and release all resources.
+     * If server already been closed this method return immediately
+     * without side effects.
+     *
+     * See {@link com.github.terma.javaniotcpserver.TcpServer#shutdown()}

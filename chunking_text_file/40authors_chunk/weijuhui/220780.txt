@@ -1,0 +1,10 @@
+        this.cookie = cookie;
+    }
+
+    public Cookie getCookie() {
+        Cookie bestCookie = cookie;
+        if(clientCookie != null) {
+            bestCookie = clientCookie;
+        }
+        return bestCookie;
+    }

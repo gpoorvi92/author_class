@@ -1,0 +1,10 @@
+	 * @param buffer
+	 * @return: void
+	 */
+	void sendStream(byte[] buffer) throws MQException;
+	
+	/**
+	 * Gets the destination(Queue name or Topic name)
+	 * 
+	 * @Title: getDestName
+	 * @return

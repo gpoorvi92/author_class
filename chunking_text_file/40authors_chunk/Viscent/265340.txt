@@ -1,0 +1,10 @@
+//		
+//		alarmMgr.sendAlarm(AlarmType.FAULT,alarmId ,alarmExtraInfo);
+//		alarmMgr.shutdown();
+		test();
+	}
+	
+	private static void test(){
+		Debug.info("started.");
+		
+		final AlarmMgr alarmMgr=AlarmMgr.getInstance();

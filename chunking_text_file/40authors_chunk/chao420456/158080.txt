@@ -1,0 +1,10 @@
+		File file = new File("d:\\a.txt");
+
+		// public boolean createNewFile() throws IOException
+		System.out.println("createNewFile:" + file.createNewFile());
+
+		// 创建文件夹
+		File file2 = new File("d:\\demo");
+		System.out.println("mkdir:" + file2.mkdir());
+
+		// 创建多级文件夹

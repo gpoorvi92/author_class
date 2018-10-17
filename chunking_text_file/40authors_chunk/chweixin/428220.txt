@@ -1,0 +1,10 @@
+		try {
+			String s = this.getModel().getId();
+			if(s != null && !s.isEmpty()){
+				this.service.delete(s.split("\\|"));
+				result.setSuccess(true);
+				result.setMsg("删除成功！");
+			}
+		} catch (Exception e) {
+			result.setSuccess(false);
+			result.setMsg(e.getMessage());

@@ -1,0 +1,10 @@
+		catch (SQLException sqlex) {
+ 			JOptionPane.showMessageDialog (null, "Unable to Connect to Database...");
+ 			System.exit (0);
+	 	}
+
+		//Showing The Logon Form.
+
+		setVisible (true);
+
+	}

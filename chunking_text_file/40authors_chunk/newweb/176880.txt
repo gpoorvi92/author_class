@@ -1,0 +1,10 @@
+				findTypeForBrandById(Integer.parseInt(typeForBrandID)));
+		model.setWindowsBuyType(windowsBuyType);
+		model.setWinHeight(Double.parseDouble(winProp.getString("winHeight")));
+		model.setWinWidth(Double.parseDouble(winProp.getString("winWidth")));
+		model.setWinCount(Integer.parseInt(winProp.getString("winCount")));
+		model.setShType(winProp.getString("shType"));
+		model.setNmHeight(Double.parseDouble(winProp.getString("nmHeight")));
+		model.setYtDirection(winProp.getString("ytDirection"));
+		model.setIsHasZZ(Integer.parseInt(winProp.getString("isHasZZ")));
+		model.setIsHasCircle(Integer.parseInt(winProp.getString("isHasCircle")));

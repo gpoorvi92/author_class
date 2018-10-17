@@ -1,0 +1,10 @@
+    }
+
+    public void pushHead(Bundle args) {
+        LoaderRequest<D> request = new LoaderRequest<D>(0, args, this);
+        mRequestQueue.addFirst(request);
+
+        if (mQueueSize > 0) {
+            while (mRequestQueue.size() > mQueueSize) {
+                mRequestQueue.removeLast();
+            }

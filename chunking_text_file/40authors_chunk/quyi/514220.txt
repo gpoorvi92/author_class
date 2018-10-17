@@ -1,0 +1,10 @@
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof reportEngineConfig_result)
+        return this.equals((reportEngineConfig_result)that);
+      return false;
+    }
+
+    public boolean equals(reportEngineConfig_result that) {

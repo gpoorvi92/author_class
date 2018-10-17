@@ -1,0 +1,10 @@
+import java.util.Hashtable;
+import java.util.Map;
+
+/**
+ * 提供一些BeanUti需要的方法
+ */
+public class Factory {
+
+
+    /**

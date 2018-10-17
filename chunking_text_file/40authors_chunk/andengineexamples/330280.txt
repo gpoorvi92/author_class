@@ -1,0 +1,10 @@
+
+	public SetPaddleIDServerMessage() {
+
+	}
+
+	public SetPaddleIDServerMessage(final int pPaddleID) {
+		this.mPaddleID = pPaddleID;
+	}
+
+	// ===========================================================

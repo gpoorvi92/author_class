@@ -1,0 +1,10 @@
+
+import com.qihigh.chinaweather.R;
+import com.weico.core.baseUi.BindableAdapter;
+import com.weico.core.utils.JsonUtil;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+/**

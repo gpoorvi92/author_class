@@ -1,0 +1,10 @@
+                Cache.Entry entry = mCache.get(request.getCacheKey());
+                if (entry == null) {
+                    request.addMarker("cache-miss");
+                    // Cache miss; send off to the network dispatcher.
+                    mNetworkQueue.put(request);
+                    continue;
+                }
+
+                // If it is completely expired, just send it to the network.
+                if (entry.isExpired()) {

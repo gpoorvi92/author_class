@@ -1,0 +1,10 @@
+import com.jufan.platform.webview.JFWebChromeClient;
+import com.jufan.platform.webview.JFWebViewClient;
+import com.jufan.platform.webview.PluginManager;
+import com.lianzt.util.StringUtil;
+
+@SuppressLint("JavascriptInterface")
+public class WebContentActivity extends RightMenuActivity {
+	@InjectionView(id = R.id.web_view)
+	private WebView webView;
+	@InjectionView(id = R.id.frame_title_text)

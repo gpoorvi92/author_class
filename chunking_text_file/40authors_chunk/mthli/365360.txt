@@ -1,0 +1,10 @@
+   
+
+   /**
+      Writes employee data to a byte buffer
+      @param out the buffer
+      @param e the employee
+   */
+   public static void writeData(ByteBuffer out, Employee e) throws IOException
+   {
+      String name = e.getName();

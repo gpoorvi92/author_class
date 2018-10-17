@@ -1,0 +1,10 @@
+		// 创建集合对象
+		Vector<InputStream> v = new Vector<InputStream>();
+		// 创建元素对象
+		InputStream s1 = new FileInputStream("MyBufferedReader.java");
+		InputStream s2 = new FileInputStream("MyBufferedReaderDemo.java");
+		InputStream s3 = new FileInputStream("MyLineNumberReader.java");
+		InputStream s4 = new FileInputStream("MyMyLineNumberReaderDemo.java");
+		// 把元素添加到集合
+		v.add(s1);
+		v.add(s2);

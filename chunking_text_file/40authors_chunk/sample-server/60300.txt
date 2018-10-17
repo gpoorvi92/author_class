@@ -1,0 +1,10 @@
+        } catch (Exception e)
+        {
+            resultCode.setResult(JsonResponse.Result.FALSE);
+            resultCode.setMsg(e.getMessage());
+        }
+        return resultCode.toJson();
+    }
+    @ResponseBody
+    @RequestMapping("/zoneManage/update")
+    public String updateZone(@RequestParam(required = true) int id, @RequestParam(required = true) int zoneId, @RequestParam(required = true) String zoneName, @RequestParam(required = true) int serverGroupId, @RequestParam(required = true) String gameServerHost, @RequestParam(required = true) String chatServerHost, @RequestParam(required = true) String authServerHost, @RequestParam(required = true) String gatewayServerHostList,@RequestParam(required = true) String dbUrl,@RequestParam(required = true) String dbUsername,@RequestParam(required = true) String dbPasswd )

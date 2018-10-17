@@ -1,0 +1,10 @@
+        molisteners.remove(toListener);
+    }
+     
+    private synchronized void fireAcctSelectionEvent() {
+        AcctEvent moAcctEvent = new AcctEvent(this, moAcctType,mstrAcctType);
+        Iterator listeners = molisteners.iterator();
+        while(listeners.hasNext()) {
+            ((AcctSelectionListener)listeners.next()).AcctSelectionEventReceived(moAcctEvent);
+        }
+    }

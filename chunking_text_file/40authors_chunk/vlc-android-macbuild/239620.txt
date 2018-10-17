@@ -1,0 +1,10 @@
+        mSegmentList.add(new Segment(url));
+    }
+
+    public PlayIndex(String playTag, Uri uri) {
+        this(playTag, uri.toString());
+    }
+
+    public Segment getFirstSegment() {
+        if (mSegmentList.size() >= 1)
+            return mSegmentList.get(0);

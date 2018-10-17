@@ -1,0 +1,10 @@
+                  // Print ( for non-empty groups starting here
+                  for (int j = 1; j <= g; j++)
+                     if (i == matcher.start(j) && i != matcher.end(j)) 
+                        System.out.print('(');
+                  System.out.print(input.charAt(i));
+                  // Print ) for non-empty groups ending here
+                  for (int j = 1; j <= g; j++)
+                     if (i + 1 != matcher.start(j) && i + 1 == matcher.end(j)) 
+                        System.out.print(')');
+               }

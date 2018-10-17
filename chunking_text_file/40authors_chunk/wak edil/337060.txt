@@ -1,0 +1,9 @@
+	{
+		about frame=new about();
+		frame.setTitle("About");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(700,500);
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+	}
+}

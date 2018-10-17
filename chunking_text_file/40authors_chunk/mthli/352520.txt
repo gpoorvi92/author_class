@@ -1,0 +1,10 @@
+      colorPane.add(colorEditor.getCustomEditor(), BorderLayout.CENTER);
+
+      JPanel titlePane = new JPanel();
+      titlePane.setLayout(new BorderLayout());
+
+      group = new ButtonGroup();
+      position = new JRadioButton[3];
+      position[0] = new JRadioButton("Left");
+      position[1] = new JRadioButton("Center");
+      position[2] = new JRadioButton("Right");

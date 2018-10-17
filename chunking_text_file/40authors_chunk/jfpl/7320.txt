@@ -1,0 +1,10 @@
+		mapView.setBuiltInZoomControls(true);
+		MapController mapController = mapView.getController();
+		GeoPoint point = new GeoPoint((int) (34.790 * 1E6),
+				(int) (113.675 * 1E6));
+		// 用给定的经纬度构造一个GeoPoint，单位是微度 (度 * 1E6)
+		mapController.setCenter(point);// 设置地图中心点
+		mapController.setZoom(16.5f);// 设置地图zoom级别
+		mapController.enableClick(true);
+
+		popupOverlay = new PopupOverlay(mapView, new PopupClickListener() {

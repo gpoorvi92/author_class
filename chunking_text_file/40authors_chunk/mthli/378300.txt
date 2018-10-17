@@ -1,0 +1,6 @@
+         writerFormats.add(format);
+         formatNames.removeAll(Arrays.asList(names));
+      }
+      return writerFormats;
+   }
+}

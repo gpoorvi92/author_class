@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 12, 2014
+ Problem:    Convert Sorted List to Binary Search Tree
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+ Notes:
+ Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
+
+ Solution: 1. Recursion. In-order. O(n)

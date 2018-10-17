@@ -1,0 +1,10 @@
+	}
+	public boolean DateFormatIsValid(String tstrDate) {
+		boolean mbln=true;
+
+		moDateFormatIsValid.DateFormatIsValid(tstrDate);
+		if (moDateFormatIsValid.TheMessage().length()>0) {
+			mbln=false;
+		}
+		return mbln;
+	}

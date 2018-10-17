@@ -1,0 +1,10 @@
+    upper.setLayout(new GridBagLayout());
+	GridBagConstraints gbc = new GridBagConstraints();
+	
+	gbc.gridy = 0;
+    gbc.gridx = 0;
+    upper.add(loan_items, gbc);
+    
+    
+    
+    gbc.gridy = 1;

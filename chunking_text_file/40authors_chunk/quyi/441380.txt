@@ -1,0 +1,10 @@
+    if (!value) {
+      this.dataChar = null;
+    }
+  }
+
+  public String getDataLength() {
+    return this.dataLength;
+  }
+
+  public NetworkPacket setDataLength(String dataLength) {

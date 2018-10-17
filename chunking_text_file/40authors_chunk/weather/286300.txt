@@ -1,0 +1,10 @@
+                } else {
+                    string = createStr.substring(0, 8);
+                }
+            }
+        }
+        return string;
+    }
+
+    private static SimpleDateFormat getSimpleDataFormat(String format) {
+        SimpleDateFormat sdf = formatMap.get(format);

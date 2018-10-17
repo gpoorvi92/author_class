@@ -1,0 +1,10 @@
+
+	/**
+	 * 留给子类实现耗时较短的任务，默认实现什么也不做。
+	 * 
+	 * @param params
+	 *          客户端代码调用dispatch方法时所传递的参数列表
+	 */
+	protected void onPreExecute(Object... params) {
+		// 什么也不做
+	}

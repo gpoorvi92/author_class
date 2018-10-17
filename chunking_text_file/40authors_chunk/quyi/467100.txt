@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField RISK_LEVEL_FIELD_DESC = new org.apache.thrift.protocol.TField("riskLevel", org.apache.thrift.protocol.TType.I32, (short)4);
+  private static final org.apache.thrift.protocol.TField PAK_FIELD_DESC = new org.apache.thrift.protocol.TField("pak", org.apache.thrift.protocol.TType.STRING, (short)5);
+  private static final org.apache.thrift.protocol.TField OBJ_FIELD_DESC = new org.apache.thrift.protocol.TField("obj", org.apache.thrift.protocol.TType.STRING, (short)6);
+  private static final org.apache.thrift.protocol.TField FUNC_FIELD_DESC = new org.apache.thrift.protocol.TField("func", org.apache.thrift.protocol.TType.STRING, (short)7);
+  private static final org.apache.thrift.protocol.TField RULE_DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("ruleDescription", org.apache.thrift.protocol.TType.STRING, (short)8);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new RulesStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new RulesTupleSchemeFactory());

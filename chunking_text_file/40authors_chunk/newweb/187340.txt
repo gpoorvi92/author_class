@@ -1,0 +1,10 @@
+					response.sendRedirect(root + "/" + "indexPage?warnMsg=" + URLEncoder.encode(URLEncoder.encode("此操作需要登陆","UTF-8"),"UTF-8"));
+					return false;
+				}else{//cookie自动登录成功,进行权限控制
+					return SecurityController(request, response, url);
+				}
+			}else{//用户已登陆，返回true
+				return SecurityController(request, response, url);
+			}
+		}else{//不需要过滤的请求，返回true
+			return true;

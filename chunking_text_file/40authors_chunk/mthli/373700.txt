@@ -1,0 +1,10 @@
+
+   public DTDHandler getDTDHandler()
+   {
+      return null;
+   }
+
+   public void setEntityResolver(EntityResolver resolver)
+   {
+   }
+

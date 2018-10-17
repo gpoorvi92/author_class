@@ -1,0 +1,10 @@
+	public void eat(){}
+}
+
+class Dog extends Animal {
+	public void eat(){
+		System.out.println("狗吃骨头");
+	}
+	
+	public void help() {
+		System.out.println("狗可以帮助警察叔叔抓小偷");

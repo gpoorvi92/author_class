@@ -1,0 +1,10 @@
+    obj[1]=cstr;
+    model.addRow(obj);
+    obj[0]="row 2 column 0";
+    obj[1]="row 3 column 0";
+    model.addRow(obj);
+    
+    
+    // Add data here...
+    
+    // Disable autoCreateColumnsFromModel otherwise all the column customizations

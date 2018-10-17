@@ -1,0 +1,10 @@
+
+    public String getNewDirName() {
+        return dirNameText.getText().toString().trim();
+    }
+
+    public void init(String repoID, String parentDir, Account account) {
+        this.repoID = repoID;
+        this.parentDir = parentDir;
+        this.account = account;
+    }

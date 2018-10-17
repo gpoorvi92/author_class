@@ -1,0 +1,10 @@
+			}
+			String result="失败";
+			if(isSearchSuccess){
+				result="成功";
+			}
+			SearchRecordInfo searchRecordInfo=new SearchRecordInfo(number,startTime,finishTime,0,result);
+			SearchRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(searchRecordInfo);
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();

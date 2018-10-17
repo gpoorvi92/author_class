@@ -1,0 +1,10 @@
+		return scale;
+	}
+	/**
+	 * 设置地图缩放大小。
+	 * @param scale
+	 * 	地图缩放大小。
+	 * */
+	public void setScale(Integer scale) {
+		this.scale = scale;
+	}

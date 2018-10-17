@@ -1,0 +1,10 @@
+
+		dynamicSpriteBatch.setPosition(centerX, centerY - 50);
+		staticSpriteBatch.setPosition(centerX, centerY + 50);
+		
+		scene.attachChild(dynamicSpriteBatch);
+		scene.attachChild(staticSpriteBatch);
+
+		return scene;
+	}
+

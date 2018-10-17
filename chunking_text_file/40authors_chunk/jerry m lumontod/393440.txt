@@ -1,0 +1,10 @@
+
+    private AcctType moAcctType;
+    private List molisteners = new ArrayList();
+    private String mstrAcctCode,mstrAcctDesc;
+	private String mstrAcctType;
+	
+    public AcctObject() {
+    	super();
+    }
+

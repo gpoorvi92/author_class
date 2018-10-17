@@ -1,0 +1,10 @@
+
+    private boolean currentWordBit() {
+        return (this.word & this.wordMask) != 0;
+    }
+
+    private void shiftWordMask() {
+        this.word &= ~this.wordMask;
+        this.wordMask = this.wordMask << 1;
+    }
+

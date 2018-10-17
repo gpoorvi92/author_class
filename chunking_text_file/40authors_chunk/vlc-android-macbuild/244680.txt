@@ -1,0 +1,10 @@
+    }
+
+    private LoaderCallbacks<D> getLoaderCallbacks() {
+        return mWeakCallbacks.get();
+    }
+
+    public void setEnableVerbose(boolean enableVerbose) {
+        ENABLE_VERBOSE = enableVerbose;
+    }
+}

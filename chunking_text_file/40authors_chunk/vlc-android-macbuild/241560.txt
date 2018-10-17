@@ -1,0 +1,8 @@
+    public static String getVideoDecoderImpl(Bundle args) {
+        return args.getString(BUNDLE_VIDEO_DECODER_IMPL);
+    }
+
+    public static String getAudioDecoderImpl(Bundle args) {
+        return args.getString(BUNDLE_AUDIO_DECODER_IMPL);
+    }
+}

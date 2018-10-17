@@ -1,0 +1,10 @@
+		setResizable(false);
+		WinCenter.center(this);
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent arg0) {
+				jbt_exit.doClick();
+			}
+		});
+		getContentPane().setLayout(null);
+		

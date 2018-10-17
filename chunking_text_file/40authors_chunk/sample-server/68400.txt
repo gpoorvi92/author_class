@@ -1,0 +1,10 @@
+        {
+            throw new RpcException("Could not destroy the pool", e);
+        }
+    }
+    private static final class RpcConnectionFactory extends BasePoolableObjectFactory<BaseRpcConnection>
+    {
+        private final String host;
+        private final int    port;
+        private final int    timeout;
+        private RpcConnectionFactory(final String host, final int port, final int timeout)

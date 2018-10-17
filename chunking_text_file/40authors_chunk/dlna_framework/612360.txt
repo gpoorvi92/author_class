@@ -1,0 +1,10 @@
+*	01/29/03
+*		- first revision.
+*	05/22/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Description: inserted a check at the beginning of the setRequestHost method
+*		- Problem : If the host does not start with a '/', the device could refuse the control action
+*		- Error : it is not an error, but adding the '/' when missing allows the integration with the Intel devices
+*	09/02/03
+*		- Giordano Sassaroli <sassarol@cefriel.it> / Suzan Foster
+*		- Problem : NullpointerException thrown for devices whose description use absolute urls

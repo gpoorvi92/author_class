@@ -1,0 +1,10 @@
+
+/**
+ * P260
+ * schedule不具有追赶执行性
+ */
+public class Run4_schedule_vs_scheduleAtFixedRate_1 {
+    static public class MyTask extends TimerTask {
+        @Override
+        public void run() {
+            System.out.println("begin timer=" + new Date());

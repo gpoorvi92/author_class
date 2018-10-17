@@ -1,0 +1,10 @@
+/*
+	猫：
+		成员变量：姓名，年龄
+		构造方法：无参，带参
+		成员方法：getXxx()/setXxx()，show()，catchMouse()
+	狗：
+		成员变量：姓名，年龄
+		构造方法：无参，带参
+		成员方法：getXxx()/setXxx()，show()，lookDoor()
+	测试类：

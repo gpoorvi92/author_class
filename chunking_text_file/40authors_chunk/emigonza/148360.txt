@@ -1,0 +1,10 @@
+	 * Visits a Keylock DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitKeylock( DevCat devCat ) {}
+
+	/**
+	 * Visits a LineDisplay DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitLineDisplay( DevCat devCat ) {}

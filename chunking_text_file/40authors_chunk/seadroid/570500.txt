@@ -1,0 +1,10 @@
+        return dbHelper.hasAvatar(account);
+    }
+
+    public boolean isNeedToLoadNewAvatars() {
+        ArrayList<Account> accounts = getAccountsWithoutAvatars();
+        if (accounts == null || accounts.size() ==0) return false;
+        else
+            return true;
+    }
+

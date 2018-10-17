@@ -1,0 +1,10 @@
+
+   void loadService(Object serviceSelection) {
+       try {
+          Service svc = server.getService(serviceSelection);
+          
+          mainPanel.removeAll();
+          mainPanel.add(svc.getGuiPanel());
+          mainPanel.validate();
+          mainPanel.repaint();
+        } catch(Exception ex) {

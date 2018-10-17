@@ -1,0 +1,10 @@
+
+        return cpuPartText;
+    }
+
+    public boolean isKnownCpuId() {
+        return sCpuPartMap.get(mCpuPart) != null;
+    }
+
+    private String optCpuRawInfoItem(String key) {
+        if (TextUtils.isEmpty(key))

@@ -1,0 +1,10 @@
+  public void    printRecItemRefund(String description,
+                                    long amount,
+                                    int quantity,
+                                    int vatInfo,
+                                    long unitAmount,
+                                    String unitName)
+                     throws JposException;
+  public void    printRecItemRefundVoid(String description,
+                                        long amount,
+                                        int quantity,

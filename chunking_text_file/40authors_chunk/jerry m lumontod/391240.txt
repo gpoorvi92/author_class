@@ -1,0 +1,10 @@
+		int index = 0;
+		// manually walk through these . . .
+
+		for (int i = start; i <= stop; i++) {
+
+			if (model.isSelectedIndex(i)) {
+				guesses[index++] = i;
+			}
+
+		}

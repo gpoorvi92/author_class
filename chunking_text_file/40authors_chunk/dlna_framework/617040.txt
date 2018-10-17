@@ -1,0 +1,10 @@
+	public static final int PARTIAL_CONTENT = 206;
+	public static final int BAD_REQUEST = 400;
+	public static final int NOT_FOUND = 404;
+	public static final int PRECONDITION_FAILED = 412;
+	//	Thanks for Brent Hills (10/20/04)
+	public static final int INVALID_RANGE = 416;
+	public static final int INTERNAL_SERVER_ERROR = 500;
+
+	public static final String code2String(int code)
+	{

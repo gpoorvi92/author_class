@@ -1,0 +1,10 @@
+        {
+          schemeField = iprot.readFieldBegin();
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 1: // NODE_HEAT
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+                struct.nodeHeat = new NodeHeat();
+                struct.nodeHeat.read(iprot);

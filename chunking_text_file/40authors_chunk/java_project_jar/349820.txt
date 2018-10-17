@@ -1,0 +1,10 @@
+        while(len > 0) 
+        {
+            int c = Math.min(len, decoderIn.remaining());
+            decoderIn.put(b, off, c);
+            processInput(false);
+            len -= c;
+            off += c;
+        }
+        if(writeImmediately)
+            flushOutput();

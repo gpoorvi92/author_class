@@ -1,0 +1,10 @@
+	}
+	
+	/**
+	 * <b>description :</b>		
+	 * </br><b>time :</b>		2012-8-10 下午10:30:27
+	 * @param source			源图
+	 * @param targetWidth		目标宽度
+	 * @param targetHeight		目标高度
+	 * @return
+	 */

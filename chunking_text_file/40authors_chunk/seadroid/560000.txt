@@ -1,0 +1,10 @@
+        } else if (type.equals(INPUT_TYPE_PASSWORD)) {
+            edit_text.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+            edit_text.setTransformationMethod(PasswordTransformationMethod.getInstance());
+            edit_text.setHint(R.string.passwd_hint);
+        }
+    }
+
+    public int getSelectionStart() {
+        return edit_text.getSelectionStart();
+    }

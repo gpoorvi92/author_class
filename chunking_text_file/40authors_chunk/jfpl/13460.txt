@@ -1,0 +1,10 @@
+		acd.putBooleanValue("is_alert", false);
+		acd.putObjectValue("iservice", iservice);
+		acd.putBooleanValue("is_show_loading", false);
+		acd.putBooleanValue("is_upload", true);
+		ServiceController.addService(acd, ctx);
+	}
+
+	public static void showChatLongClickMediaDialog(final AutoActivity ctx,
+			final ListView chatList, final ProgressBar pb, final ImageView iv,
+			final AbstractCommonData acd) {

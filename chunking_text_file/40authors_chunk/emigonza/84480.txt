@@ -1,0 +1,10 @@
+  public boolean getCapAutoGenerateImageTagData() throws JposException;
+  public boolean getCapAutoSize() throws JposException;
+  public int     getCapColor() throws JposException;
+  public boolean getCapConcurrentMICR() throws JposException;
+  public boolean getCapDefineCropArea() throws JposException;
+  public int     getCapImageFormat() throws JposException;
+  public boolean getCapImageTagData() throws JposException;
+  public boolean getCapMICRDevice() throws JposException;
+  public int     getCapPowerReporting() throws JposException;
+  public boolean getCapStoreImageFiles() throws JposException;

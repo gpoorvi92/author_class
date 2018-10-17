@@ -1,0 +1,10 @@
+			data[row][col] = value;
+			fireTableCellUpdated(row, col);
+		}
+	}
+	public void reloaded(){
+			try
+				{
+					Statement statement =Connect.getConnection().createStatement();
+					{
+					  String temp = ("SELECT * FROM Passenger");

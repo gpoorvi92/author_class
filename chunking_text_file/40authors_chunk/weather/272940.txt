@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void initView() {
+        String fileContent = JsonUtil.getInstance().jsonStringFromRawFile(this, R.raw.city_code);
+        List<Pair<String, String>> data = JsonUtil.getInstance().fromJson(fileContent, new TypeToken<List<Pair<String, String>>>() {
+        }.getType());
+        mAdapter = new CityChangeAdapter(this, data);
+        mInput.setAdapter(mAdapter);
+    }

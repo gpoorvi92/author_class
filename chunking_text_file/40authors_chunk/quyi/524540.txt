@@ -1,0 +1,10 @@
+		queue_name = properties.getProperty("activeMq.messagequeue.name", "waitingCheckQueue");
+		queue_url = properties.getProperty("activeMq.queue.url", "tcp://localhost:61616");
+		engine_address = properties.getProperty("engine.address", "localhost");
+		engine_port = Integer.valueOf(properties.getProperty("engine.port", "7911"));
+		engine_notify_port = Integer.valueOf(properties.getProperty("engine.notify.port", "7910"));
+		taskmanager_address = properties.getProperty("taskmanager.listener.domain ", "localhost");
+		taskmanager_submit_port = Integer.valueOf(properties.getProperty("taskmanager.node.port", "6000"));
+		taskmanager_result_port = Integer.valueOf(properties.getProperty("taskmanager.result.port", "6020"));
+		static_nodemanager_address = properties.getProperty("static.nodemanager.listener.domain", "localhost");
+		virus_nodemanager_address = properties.getProperty("virus.nodemanager.listener.domain", "localhost");

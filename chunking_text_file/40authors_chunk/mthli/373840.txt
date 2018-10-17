@@ -1,0 +1,10 @@
+      return Printable.PAGE_EXISTS;
+   }
+
+   /**
+    * This method draws the page both on the screen and the printer graphics context.
+    * @param g2 the graphics context
+    */
+   public void drawPage(Graphics2D g2)
+   {
+      FontRenderContext context = g2.getFontRenderContext();

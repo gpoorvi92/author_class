@@ -1,0 +1,10 @@
+  }
+
+  private static class NodeInfoTupleSchemeFactory implements SchemeFactory {
+    public NodeInfoTupleScheme getScheme() {
+      return new NodeInfoTupleScheme();
+    }
+  }
+
+  private static class NodeInfoTupleScheme extends TupleScheme<NodeInfo> {
+

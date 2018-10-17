@@ -1,0 +1,10 @@
+                try (OutputStream os = new FileOutputStream(temp);
+                     //通过ZipFile的getInputStream方法拿到具体的ZipEntry的输入流
+                     InputStream is = zipFile.getInputStream(zipEntry)) {
+                    int len = 0;
+                    while ((len = is.read()) != -1) {
+                        os.write(len);
+                    }
+                }
+            }
+        } catch (IOException e) {

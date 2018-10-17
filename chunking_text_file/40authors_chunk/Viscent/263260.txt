@@ -1,0 +1,10 @@
+		// 将数据库表中的数据加载到内存，存为Map
+		this.routeMap = MMSCRouter.retrieveRouteMapFromDB();
+	}
+
+	private static Map<String, MMSCInfo> retrieveRouteMapFromDB() {
+		Map<String, MMSCInfo> map = new HashMap<String, MMSCInfo>();
+		// 省略其它代码
+		return map;
+	}
+

@@ -1,0 +1,10 @@
+/*
+ *
+ *  AbstractCharsetdetector.java, provides the default implementation
+ *  for the high-level codepage detection method of interface ICodepageProcessor.
+ *
+ *  Copyright (C) Achim Westermann, created on 19.07.2004, 21:45:47
+ *
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ * 

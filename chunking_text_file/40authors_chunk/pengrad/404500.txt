@@ -1,0 +1,10 @@
+    }
+
+    public Message message() {
+        return message;
+    }
+
+    public String inlineMessageId() {
+        return inline_message_id;
+    }
+

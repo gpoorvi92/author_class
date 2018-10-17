@@ -1,0 +1,10 @@
+            long duration = getTotalDuration();
+            if (duration <= MIN_DURATION_FOR_LOGGING_MS) {
+                return;
+            }
+
+            long prevTime = mMarkers.get(0).time;
+            d("(%-4d ms) %s", duration, header);
+            for (Marker marker : mMarkers) {
+                long thisTime = marker.time;
+                d("(+%-4d) [%2d] %s", (thisTime - prevTime), marker.thread, marker.name);

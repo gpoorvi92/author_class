@@ -1,0 +1,10 @@
+      rentalRecord = newValue;
+   }
+
+   public String getRentalRecord()
+   {
+      return rentalRecord;
+   }
+
+   // this property is saved automatically
+   public void setCarType(CarType newValue)

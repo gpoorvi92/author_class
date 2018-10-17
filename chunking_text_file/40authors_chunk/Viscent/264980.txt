@@ -1,0 +1,10 @@
+		    / 1000;
+		if ((++requestGeneratedInTimeSlice) >= maxRequestPerTimeslice) {
+			nowTimestamp = nowTimestamp + (10 * 1000);
+			requestGeneratedInTimeSlice = 0;
+
+		}
+
+		return requestTimestamp;
+	}
+

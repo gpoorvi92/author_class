@@ -1,0 +1,10 @@
+          unsetUserAppId();
+        } else {
+          setUserAppId((String)value);
+        }
+        break;
+
+      case PLOTS_STATUS:
+        if (value == null) {
+          unsetPlotsStatus();
+        } else {

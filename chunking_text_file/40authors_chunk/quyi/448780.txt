@@ -1,0 +1,10 @@
+
+	}
+	// get column info
+		public Set<String> getColumnInfoSet(int column, String fileName, int sheetNum) {
+			Set<String> columninfoSet = new HashSet<String>();
+			File file = new File(fileName); // 创建文件对象
+			if (!file.exists()) {
+				return null;
+			}
+			Workbook wb = null;

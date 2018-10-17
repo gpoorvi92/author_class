@@ -1,0 +1,10 @@
+    public Method getReadMethod() {
+        return readMethod;
+    }
+
+    public void setReadMethod(Method readMethod) {
+        this.readMethod = readMethod;
+    }
+
+    public Method getWriteMethod() {
+        return writeMethod;

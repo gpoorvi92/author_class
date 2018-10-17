@@ -1,0 +1,10 @@
+		if (posOnClickListener == null)
+			
+			posOnClickListener = new DialogInterface.OnClickListener() {
+			
+			public void onClick(DialogInterface dialog, int which) {}
+		};
+			
+		if(negaOnClickListener != null) localBuilder.setNegativeButton(negaStr,negaOnClickListener);
+		
+		localBuilder.setPositiveButton(positiveStr,posOnClickListener);

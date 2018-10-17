@@ -1,0 +1,6 @@
+        System.out.println( "<!-- JavaPOS jpos.config/loader (JCL) defined Java properties: -->" );
+        System.out.println( "<!-- name = \"propName\" value = \"propValue\" -->" );
+
+        System.out.println( JposServiceLoader.getManager().getProperties() );
+    }
+}

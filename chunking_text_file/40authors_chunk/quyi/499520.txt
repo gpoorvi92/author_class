@@ -1,0 +1,10 @@
+package com.nercis.isscp.util;
+
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+public class SingleRecordInfoQueue {
+
+	private ConcurrentLinkedQueue<SingleRecordInfo> queue=new ConcurrentLinkedQueue<SingleRecordInfo>();
+	
+	private static final SingleRecordInfoQueue singleRecordInfoQueueSingleton = new SingleRecordInfoQueue();
+

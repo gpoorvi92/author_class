@@ -1,0 +1,10 @@
+                ChatServerRpc.GetActiveUserReq req = ChatServerRpc.GetActiveUserReq.newBuilder().build();
+                for (ChatServerRpcClient client : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.GetActiveUserResp resp = client.getActiveUser(req);
+                    ActiveUserInfoEntity activeUserInfoEntity = new ActiveUserInfoEntity();
+                    activeUserInfoEntity.setNum(resp.getNum());
+                    DaoManager.getLocalDao().saveOrUpdate(activeUserInfoEntity);
+                }
+            }
+        }

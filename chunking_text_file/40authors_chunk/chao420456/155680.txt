@@ -1,0 +1,10 @@
+		while ((line = br.readLine()) != null) {
+			bw.write(line);
+			bw.newLine();
+			bw.flush();
+		}
+
+		bw.close();
+		br.close();
+	}
+

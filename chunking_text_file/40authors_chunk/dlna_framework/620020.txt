@@ -1,0 +1,10 @@
+*	01/14/03
+*		- first revision.
+*	01/23/04
+*		- Oliver Newell
+*		- Overided HTTPResponse::getHeader() for Intel UPnP control points.
+*	03/16/04
+*		- Thanks for Darrell Young
+*		- Fixed to set v1.1 to the HTTP version.
+*	10/20/04 
+*		- Brent Hills <bhills@openshores.com>

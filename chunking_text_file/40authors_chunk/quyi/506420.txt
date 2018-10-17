@@ -1,0 +1,10 @@
+  Indycheckfailure(6),
+  Indycheckbreak(7),
+  Invicheck(8),
+  Invichecktimeout(9),
+  Invicheckfailure(10),
+  Invicheckbreak(11);
+
+  private final int value;
+
+  private CheckPlotsStatus(int value) {

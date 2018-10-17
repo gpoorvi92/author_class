@@ -1,0 +1,10 @@
+        //PrintUtil.print(ftp.listFile("./"));
+
+        System.out.println("远程文件是否存在:" + ftp.isExists(remoteFile));
+
+
+        System.out.println("获取当前的工作目录:" + ftp.getWorkDir());
+        //ftp.downLoadDir("");
+
+        System.out.println("创建目录:"+ftp.mkDir("test01"));
+        System.out.println("创建目录:"+ftp.mkDir("test02/"));

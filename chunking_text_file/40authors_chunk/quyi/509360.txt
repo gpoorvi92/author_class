@@ -1,0 +1,10 @@
+  public int checkEngineNum; // required
+  public int positives; // required
+  public List<VirusEngine> virusEngine; // required
+  public String description; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    CHECK_TIME((short)1, "checkTime"),
+    MD5((short)2, "MD5"),
+    CHECK_ENGINE_NUM((short)3, "checkEngineNum"),

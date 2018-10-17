@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetDescription();
+      } else {
+        setDescription((String)value);
+      }
+      break;
+
+    case LINE_NUM:
+      if (value == null) {
+        unsetLineNum();

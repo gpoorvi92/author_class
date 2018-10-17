@@ -1,0 +1,10 @@
+/**
+ * User: Teaey
+ * Date: 13-9-18
+ */
+public class ZoneEntityManager
+{
+    private static final Logger                   log           = LoggerFactory.getLogger(ZoneEntityManager.class);
+    private static final ZoneEntityManager        instance      = new ZoneEntityManager();
+    /**
+     * key: zoneId

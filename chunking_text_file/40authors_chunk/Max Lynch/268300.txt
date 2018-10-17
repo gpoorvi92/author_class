@@ -1,0 +1,10 @@
+		
+        Color old = g.getColor();
+        
+        
+        
+        g.setStroke(model.getStroke());
+       
+        
+        //g.setColor(model.getColor().darker().darker());
+        

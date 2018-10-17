@@ -1,0 +1,10 @@
+      if (numOutofOrder > 10)
+          quickSort(triangles);
+      else
+          insertionSort(triangles);
+   }
+
+}
+
+
+

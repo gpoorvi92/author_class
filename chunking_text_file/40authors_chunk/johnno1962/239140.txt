@@ -1,0 +1,10 @@
+
+/// class java.awt.dnd.DragSourceAdapter ///
+
+package org.genie.java_awt;
+
+public class DragSourceAdapterProxy extends java.awt.dnd.DragSourceAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.dnd.DragSourceAdapter()

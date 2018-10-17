@@ -1,0 +1,10 @@
+ * }
+ */
+public class Solution {
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        if(inorder.length==0||postorder.length==0||inorder.length!=postorder.length)
+            return null;
+        return buildTreeRe(inorder,0,inorder.length-1,postorder,0,postorder.length-1); 
+    }
+    public TreeNode buildTreeRe(int[] inorder,int s1,int e1, int[] postorder, int s2,int e2){
+        if(e2<s2) return null;

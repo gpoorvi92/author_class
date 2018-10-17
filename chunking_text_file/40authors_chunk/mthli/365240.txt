@@ -1,0 +1,10 @@
+package randomAccess2;
+
+import java.io.*;
+import java.nio.*;
+import java.nio.channels.*;
+import java.nio.file.*;
+import java.util.*;
+
+/**
+ * @version 1.12 2012-05-30

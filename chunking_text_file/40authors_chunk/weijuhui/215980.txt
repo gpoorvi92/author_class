@@ -1,0 +1,10 @@
+		int srcWidth = source.getWidth();
+		int srcHeight = source.getHeight();
+		if (srcWidth < srcHeight) {
+			targetHeight = srcHeight * targetWidth / srcWidth;
+		} else { 
+			targetWidth = srcWidth * targetHeight / srcHeight;
+		}
+		return extractThumbnail(source, targetWidth, targetHeight, Option.NONE);
+	}
+

@@ -1,0 +1,10 @@
+
+  /**
+   * @see Charset#contains(Charset)
+   */
+  public boolean contains(Charset cs) {
+    return false;
+  }
+
+  /**
+   * @see Charset#newDecoder()

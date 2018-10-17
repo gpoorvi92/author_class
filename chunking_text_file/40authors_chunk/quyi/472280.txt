@@ -1,0 +1,10 @@
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;
+      }
+    }
+
+    public static class queryMission<I extends Iface> extends org.apache.thrift.ProcessFunction<I, queryMission_args> {
+      public queryMission() {
+        super("queryMission");

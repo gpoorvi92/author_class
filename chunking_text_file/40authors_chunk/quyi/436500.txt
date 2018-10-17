@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("systemResources:");
+    if (this.systemResources == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.systemResources);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("hardwareResources:");

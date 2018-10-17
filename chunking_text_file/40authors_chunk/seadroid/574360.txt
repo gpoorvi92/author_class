@@ -1,0 +1,10 @@
+            case 0:
+                if (downloadsFragment == null) {
+                    downloadsFragment = new DownloadTaskFragment();
+                }
+                return downloadsFragment;
+            case 1:
+                if (uploadsFragment == null) {
+                    uploadsFragment = new UploadTaskFragment();
+                }
+                return uploadsFragment;

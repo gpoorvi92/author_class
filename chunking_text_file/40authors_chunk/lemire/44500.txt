@@ -1,0 +1,10 @@
+    /**
+     * Gets the running length.
+     *
+     * @return the running length
+     */
+    public long getRunningLength() {
+        return this.runningLength;
+    }
+
+    /**

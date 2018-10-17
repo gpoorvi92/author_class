@@ -1,0 +1,10 @@
+		return text;
+	}
+
+	/**
+	 * 获取制定路径下的所有文件中的文本
+	 * 
+	 * @param path
+	 * @return
+	 * @throws Exception
+	 */

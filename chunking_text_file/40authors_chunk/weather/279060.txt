@@ -1,0 +1,10 @@
+            String[] tokens = headerValue.split(",");
+            for (String token1 : tokens) {
+                String token = token1.trim();
+                if (token.equals("no-cache") || token.equals("no-store")) {
+                    return null;
+                } else if (token.startsWith("max-age=")) {
+                    try {
+                        maxAge = Long.parseLong(token.substring(8));
+                    } catch (Exception e) {
+                    }

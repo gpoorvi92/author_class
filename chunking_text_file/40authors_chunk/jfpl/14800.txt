@@ -1,0 +1,10 @@
+		chatListToBottom();
+
+	}
+
+	public void addInfoClick(View v) {
+		if (!isAddVisible) {
+			((InputMethodManager) getSystemService(INPUT_METHOD_SERVICE))
+					.hideSoftInputFromWindow(chatEt.getWindowToken(),
+							InputMethodManager.HIDE_NOT_ALWAYS);
+			setAddPanelState(true);

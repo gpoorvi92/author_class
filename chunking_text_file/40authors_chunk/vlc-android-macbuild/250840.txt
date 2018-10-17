@@ -1,0 +1,10 @@
+     * 
+     * @param verbose
+     *            : true for increased verbosity
+     */
+    public native void changeVerbosity(boolean verbose);
+
+    /**
+     * Initialize the libvlc C library
+     * 
+     * @return a pointer to the libvlc instance

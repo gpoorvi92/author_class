@@ -1,0 +1,10 @@
+		double kiloBytesWrittenDifference = bytesWrittenDifference / 1024; // byte conversion to seconds
+		
+		if (timeDifferenceInSeconds != 0) {
+			this.setKbPerSecond(new Double(kiloBytesWrittenDifference / timeDifferenceInSeconds).toString());
+		}
+		this.lastTimeReceivedData = currentTime;
+		this.previousBytesWritten = this.getBytesWritten();
+	}
+	
+	/*

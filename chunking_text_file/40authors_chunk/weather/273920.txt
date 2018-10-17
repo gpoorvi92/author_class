@@ -1,0 +1,10 @@
+    public void setDelegate(FileDownloaderDelegate delegate) {
+        this.delegate = delegate;
+    }
+
+    private FileDownloaderDelegate delegate;
+	private int bytesWritten;
+	private int previousBytesWritten;
+	private OutputStream outputStream;
+	private String kbPerSecond;
+	private double lastTimeReceivedData;

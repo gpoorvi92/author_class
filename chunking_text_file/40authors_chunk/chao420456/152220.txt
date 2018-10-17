@@ -1,0 +1,10 @@
+		br.close();
+
+		// 随机产生一个索引
+		// int index = (int) (Math.random() * array.size()); //
+		// [0,array.size()-1)
+
+		Random r = new Random();
+		int index = r.nextInt(array.size());
+		System.out.println("幸运者是：" + array.get(index));
+

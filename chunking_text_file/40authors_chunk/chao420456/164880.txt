@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+/*
+ * Collections：是针对集合进行操作的工具类。里面包含了排序和查找等方法。
+ * 面试题?
+ * 		Collections和Collection的区别?
+ * 		Collections:是针对集合进行操作的工具类，包含了排序和查找等功能。

@@ -1,0 +1,10 @@
+				sdf.format(i);
+		   
+		}
+		
+		jScrollPane = new JScrollPane(jTable);
+		
+		jPanel1 = new JPanel(new BorderLayout());
+		jPanel1.add(jScrollPane, BorderLayout.CENTER);
+		jButton1 = new JButton("ADD NEW",new ImageIcon("Icon/i16x16/contents.png"));
+		jButton2 = new JButton("UPDATE",new ImageIcon("Icon/i16x16/reset.png"));

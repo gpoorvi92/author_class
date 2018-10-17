@@ -1,0 +1,10 @@
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                synchronized (lock2) {
+                    System.out.println("按lock1->lock2代码顺序执行");
+                }
+            }
+        }

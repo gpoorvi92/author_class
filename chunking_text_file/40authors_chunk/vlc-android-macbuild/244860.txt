@@ -1,0 +1,10 @@
+        args.putString(String.format(BUNDLE_FMT1_SEGMENT_MRL, order),
+                segmentMrl);
+    }
+
+    public static void putSegmentUrl(Bundle args, int order, String segmentUrl) {
+        args.putString(String.format(BUNDLE_FMT1_SEGMENT_URL, order),
+                segmentUrl);
+    }
+
+    public static void putDuration(Bundle args, int order, int duration) {

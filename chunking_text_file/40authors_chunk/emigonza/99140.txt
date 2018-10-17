@@ -1,0 +1,10 @@
+        {
+            Comparable element = (Comparable)elements.nextElement();
+
+            if( smallest != null )
+            {
+                if( smallest.compareTo( element ) > 0 )
+                    smallest = element;
+            }
+            else
+                smallest = element;

@@ -1,0 +1,10 @@
+
+import android.content.Context;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
+
+public class VodIndex implements Parcelable {
+    private static final String TAG = VodIndex.class.getSimpleName();

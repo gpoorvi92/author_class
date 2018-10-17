@@ -1,0 +1,10 @@
+
+    /// public abstract void java.awt.event.MouseMotionListener.mouseDragged(java.awt.event.MouseEvent)
+
+    public native void __mouseDragged( java.awt.event.MouseEvent e );
+
+    public void mouseDragged( java.awt.event.MouseEvent e ) {
+        __mouseDragged( e );
+    }
+
+}

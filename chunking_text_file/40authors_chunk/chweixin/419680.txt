@@ -1,0 +1,10 @@
+		this.setCreateTime(new Date());
+	}
+	/**
+	 * 获取回复ID。
+	 * @return
+	 * 回复ID。
+	 * */
+	public String getId() {
+		return id;
+	}

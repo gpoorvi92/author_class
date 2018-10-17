@@ -1,0 +1,10 @@
+        values.put(AccountDBHelper.ACCOUNT_COLUMN_TOKEN, newAccount.token);
+
+        database.update(AccountDBHelper.ACCOUNT_TABLE_NAME, values, "server=? and email=?",
+                new String[]{oldAccount.server, oldAccount.email});
+
+        AccountNotifier.notifyProvider();
+    }
+
+    public void deleteAccount(Account account) {
+        database.delete(AccountDBHelper.ACCOUNT_TABLE_NAME,  "server=? and email=?",

@@ -1,0 +1,10 @@
+			mstrTheMessage="Invalid date format:  " + e.getMessage();
+			//System.out.println(mstrTheMessage);
+			
+		}
+        		
+	}
+
+	public String TheMessage() {
+		return mstrTheMessage;
+	}

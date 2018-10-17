@@ -1,0 +1,10 @@
+            str_tok.whitespaceChars('\'', '\'');
+            str_tok.whitespaceChars('/', '/');
+            //str_tok.wordChars(':', ':');
+            while (str_tok.nextToken() != StreamTokenizer.TT_EOF) {
+                String s;
+                switch (str_tok.ttype) {
+                    case StreamTokenizer.TT_EOL:
+                        s = ""; // we will ignore this
+                        break;
+                    case StreamTokenizer.TT_WORD:

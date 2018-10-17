@@ -1,0 +1,10 @@
+  {
+      if (e.isControlDown())
+      {
+          switch (e.getKeyChar())
+          {
+              case '+':
+                  zoomIn();
+                  break;
+
+              case '-':

@@ -1,0 +1,10 @@
+		// write();
+		read();
+	}
+
+	private static void read() throws IOException, ClassNotFoundException {
+		// ObjectInputStream(InputStream is)
+		ObjectInputStream ois = new ObjectInputStream(new FileInputStream(
+				"oos.txt"));
+		Object obj = ois.readObject();
+		ois.close();

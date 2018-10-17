@@ -1,0 +1,10 @@
+import wyf.ytl.entity.SuiXinBuSkill;
+
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.view.MotionEvent;
+
+public class UseSkillView {

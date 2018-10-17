@@ -1,0 +1,10 @@
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.nodeHeat != null) {
+          oprot.writeFieldBegin(NODE_HEAT_FIELD_DESC);
+          struct.nodeHeat.write(oprot);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldBegin(TIMESTAMP_FIELD_DESC);
+        oprot.writeI64(struct.timestamp);
+        oprot.writeFieldEnd();
+        oprot.writeFieldStop();

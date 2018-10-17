@@ -1,0 +1,10 @@
+  public SystemResources setThreadName(String threadName) {
+    this.threadName = threadName;
+    return this;
+  }
+
+  public void unsetThreadName() {
+    this.threadName = null;
+  }
+
+  /** Returns true if field threadName is set (has been assigned a value) and false otherwise */

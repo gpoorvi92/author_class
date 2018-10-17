@@ -1,0 +1,10 @@
+    private String encryptedRepoId;
+
+    public ReposAdapter(boolean onlyShowWritableRepos, String encryptedRepoId) {
+        this.onlyShowWritableRepos = onlyShowWritableRepos;
+        this.encryptedRepoId = encryptedRepoId;
+    }
+
+    @Override
+    public int getCount() {
+        return repos.size();

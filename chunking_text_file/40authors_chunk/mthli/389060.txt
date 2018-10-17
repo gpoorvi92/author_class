@@ -1,0 +1,10 @@
+         }
+         catch (ExecutionException ex)
+         {
+            statusLine.setText("" + ex.getCause());
+         }
+
+         cancelItem.setEnabled(false);
+         openItem.setEnabled(true);
+      }
+

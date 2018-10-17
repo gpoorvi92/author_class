@@ -1,0 +1,10 @@
+         String className = ((Text) classElement.getFirstChild()).getData();
+
+         Class<?> cl = Class.forName(className);
+
+         Object obj = cl.newInstance();
+
+         if (obj instanceof Component) ((Component) obj).setName(e.getAttribute("id"));
+
+         for (int i = 1; i < children.getLength(); i++)
+         {

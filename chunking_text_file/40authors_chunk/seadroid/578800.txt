@@ -1,0 +1,10 @@
+    public SeafRepo() {
+    }
+
+    public String getID() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }

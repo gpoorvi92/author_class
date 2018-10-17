@@ -1,0 +1,10 @@
+         });
+
+      addMouseMotionListener(new MouseMotionAdapter()
+         {
+            public void mouseDragged(MouseEvent event)
+            {
+               if (current == -1) return;
+               points[current] = event.getPoint();
+               repaint();
+            }

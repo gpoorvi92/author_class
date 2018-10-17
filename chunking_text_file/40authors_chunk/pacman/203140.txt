@@ -1,0 +1,10 @@
+	 * Gets the output of parser.
+	 * 
+	 * @Title: parse
+	 * @param: url
+	 * @return
+	 * @return: LessonInfo
+	 * @throws Exception 
+	 */
+	public LessonInfo parseAndSave(String url, String xmlFile) throws Exception {
+		

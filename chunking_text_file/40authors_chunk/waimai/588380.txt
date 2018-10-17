@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.domain;
+
+import cn.abovesky.shopping.base.BaseDomain;
+
+import java.util.Date;
+
+public class Order extends BaseDomain {
+    private Integer id;
+
+    private Date date;

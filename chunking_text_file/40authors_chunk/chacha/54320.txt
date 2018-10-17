@@ -1,0 +1,10 @@
+		try {
+			Properties prop = new Properties();
+			InputStream is = AbstractMapperDAO.class.getClassLoader().getResourceAsStream("chacha.properties");
+			prop.load(is);
+			dbServerIP=prop.getProperty("dbServerIP");
+			dbServerPort=Integer.parseInt(prop.getProperty("dbServerPort"));
+			dbName=prop.getProperty("dbName");
+			connectionDescriptor=prop.getProperty("connectionDescriptor");
+			
+	        connection.setConnectionDatabase(dbName);

@@ -1,0 +1,10 @@
+
+  /////////////////////////////////////////////////////////////////////
+  // "ErrorEvent" "ErrorCodeExtended" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int JPOS_ESC_READ    = 201;  // There was a read error.
+  public static final int JPOS_ESC_WRITE   = 202;  // There was a write error.
+  public static final int JPOS_ESC_TORN    = 203;  // The smart card was prematurely removed from the SCR/W unexpectedly. Note: CapCardErrorDetection capability must be true before this can be set.
+  public static final int JPOS_ESC_NO_CARD = 204;  // There is no card detected in the SCR/W but a card was expected.
+}

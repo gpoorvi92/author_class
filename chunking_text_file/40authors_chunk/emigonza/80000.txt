@@ -1,0 +1,10 @@
+    //--------------------------------------------------------------------------
+    // Class variables
+    //
+
+	private static Tracer tracer = TracerFactory.getInstance().
+									 createTracer( "JposServiceLoader" );
+
+    private static JposServiceManager manager = null;
+
+    /**

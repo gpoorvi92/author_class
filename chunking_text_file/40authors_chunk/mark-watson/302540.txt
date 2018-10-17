@@ -1,0 +1,10 @@
+     */
+    public void loadRDF(String rdf_file_path_name) throws RepositoryException, IOException, RDFParseException {
+        File file = new File(rdf_file_path_name);
+        if (rdf_file_path_name.endsWith(".nt"))
+            con.add(file, "http://knowledgebooks.com/ontology", RDFFormat.NTRIPLES);
+        else if (rdf_file_path_name.endsWith(".n3"))
+            con.add(file, "http://knowledgebooks.com/ontology", RDFFormat.N3);
+        else if (rdf_file_path_name.endsWith(".rdf"))
+            con.add(file, "http://knowledgebooks.com/ontology", RDFFormat.RDFXML);
+        else System.out.println("\n\nERROR: file name " + rdf_file_path_name + " has an unsupported file extention.\n");

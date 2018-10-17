@@ -1,0 +1,10 @@
+				}
+				Map<String,Object> map = new HashMap<String, Object>();
+				map.put("count", os.getCount());
+				map.put("small", smallService.findSmallByIdBindCut(os.getSmall().getID(),order.getCustomer().getID(),orderID));
+				map.put("operation", os.getOperation());
+				oslist.add(map);
+			}
+		}
+		return oslist;
+	}

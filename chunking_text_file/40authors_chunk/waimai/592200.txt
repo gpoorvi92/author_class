@@ -1,0 +1,10 @@
+@Transactional(rollbackFor = Exception.class)
+@Service(ICheckInService.SERVICE_NAME)
+public class CheckInServiceImpl implements ICheckInService {
+    @Autowired
+    private CheckInMapper checkInMapper;
+    @Autowired
+    private CreditLogMapper creditLogMapper;
+    @Autowired
+    private UserMapper userMapper;
+

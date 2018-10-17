@@ -1,0 +1,10 @@
+
+	public void setGene(int chromosome, int gene, int value) {
+		chromosomes.get(chromosome).setBit(gene, value != 0);
+	}
+
+	public void setGene(int chromosome, int gene, boolean value) {
+		chromosomes.get(chromosome).setBit(gene, value);
+	}
+
+	public void evolve() {

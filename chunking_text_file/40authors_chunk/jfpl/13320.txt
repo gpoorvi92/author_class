@@ -1,0 +1,10 @@
+
+	private static final String[] CHAT_CHAR_CONVERT_ARRAY = new String[] { "~",
+			"@1:@" };
+
+	private static AbstractCommonData getChatCommonPacket(String username,
+			String msgType, String toUser, String toGroup,
+			IServiceLogic iservice) {
+		AbstractCommonData acd = DataConvertFactory.getInstance();
+		AbstractCommonData head = acd.getDataValue("head");
+		head.putStringValue("device", "android-phone: "

@@ -1,0 +1,10 @@
+    if (this.hardware == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.hardware);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("software:");
+    if (this.software == null) {
+      sb.append("null");

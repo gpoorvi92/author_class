@@ -1,0 +1,10 @@
+        if (img!=null)
+           g.drawImage(img, 0, 0, null);
+    }
+
+    /** Returns the viewpoint the panel is showing the model from
+     */
+    public Vector3D getViewPoint()
+    {
+        return renderer.getViewPoint();
+    }

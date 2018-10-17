@@ -1,0 +1,10 @@
+			this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		NasiBeriyaniInfo frame = new NasiBeriyaniInfo();
+		frame.setTitle("Nasi Beriyani Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

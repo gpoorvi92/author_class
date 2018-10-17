@@ -1,0 +1,10 @@
+				catch (IOException ioe) {
+					html.setDocument (doc);
+					getToolkit().beep();
+				}
+				finally {
+					url = null;
+					SwingUtilities.invokeLater (this);
+				}
+			}
+

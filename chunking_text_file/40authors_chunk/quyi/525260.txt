@@ -1,0 +1,10 @@
+		TTransport transport = new TSocket(taskmanager_address, taskmanager_result_port);
+		try {
+			transport.open();
+		} catch (TTransportException e) {
+			// LOGGER.error("Failed to notify app : " + e.getMessage(), e);
+		}
+		TProtocol protocol = new TBinaryProtocol(transport);
+		NodeTrackerService.Client client = new NodeTrackerService.Client(protocol);
+		try {
+			int retvalue = client.submitResult(AppType.APK, JobLifecycle.ANALYSIS, JobPhase.ON_STATIC, content, "ce4d06f1db496088df12f8b8a4f5bbe0",

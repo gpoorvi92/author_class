@@ -1,0 +1,10 @@
+		return true;
+	}
+
+	public static String getHpzlDesc(String hpzl) {
+		for (int i = 0; i < ConstVariables.HPZL_DESC.length; i += 2) {
+			if (ConstVariables.HPZL_DESC[i].equals(hpzl)) {
+				return ConstVariables.HPZL_DESC[i + 1];
+			}
+		}
+		return null;

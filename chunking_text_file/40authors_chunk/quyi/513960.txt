@@ -1,0 +1,10 @@
+    public reportEngineConfig_result() {
+    }
+
+    public reportEngineConfig_result(
+      String success,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {
+      this();
+      this.success = success;
+      this.ue = ue;

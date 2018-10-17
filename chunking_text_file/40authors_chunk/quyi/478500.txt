@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof queryApp_args)
+        return this.equals((queryApp_args)that);
+      return false;
+    }

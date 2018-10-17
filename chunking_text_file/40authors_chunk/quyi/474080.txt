@@ -1,0 +1,10 @@
+      }
+      first = false;
+      sb.append(")");
+      return sb.toString();
+    }
+
+    public void validate() throws org.apache.thrift.TException {
+      // check for required fields
+      if (submitId == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'submitId' was not present! Struct: " + toString());

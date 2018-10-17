@@ -1,0 +1,10 @@
+    if (this_present_why || that_present_why) {
+      if (!(this_present_why && that_present_why))
+        return false;
+      if (!this.why.equals(that.why))
+        return false;
+    }
+
+    return true;
+  }
+

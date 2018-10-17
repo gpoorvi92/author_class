@@ -1,0 +1,9 @@
+            ii.next();
+        }
+
+        assertEquals(e.cardinality(), ctr);
+        System.out.println("checking int iteration over a var density bitset of size " + e.cardinality());
+
+    }
+
+}

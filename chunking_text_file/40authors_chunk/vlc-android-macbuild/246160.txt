@@ -1,0 +1,10 @@
+            if (mOnVideoSizeChangedListener != null) {
+                mOnVideoSizeChangedListener.onVideoSizeChanged(
+                        LibVlcMediaPlayer.this, mVideoWidth, mVideoHeight);
+            }
+            return true;
+        case LibVlcMessages.VLC_FAKE_PREPARED:
+            if (mOnPreparedListener != null) {
+                mOnPreparedListener.onPrepared(LibVlcMediaPlayer.this);
+            }
+            return true;

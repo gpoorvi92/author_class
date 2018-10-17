@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 定义引擎操作
+ * 0:shutdown 关闭引擎
+ * 1:restart 重起引擎
+ * 2:startup 开启引擎
+ * 3:sleep 休眠 | 暂停引擎
+ */

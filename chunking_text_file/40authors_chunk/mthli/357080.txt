@@ -1,0 +1,10 @@
+ * Usage: java memoryMap.MemoryMapTest filename
+ * @version 1.01 2012-05-30
+ * @author Cay Horstmann
+ */
+public class MemoryMapTest
+{
+   public static long checksumInputStream(Path filename) throws IOException
+   {
+      try (InputStream in = Files.newInputStream(filename))
+      {

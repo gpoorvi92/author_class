@@ -1,0 +1,8 @@
+		//System.out.println((x++)>3 & (y++)>4); //false & false = false
+		//System.out.println(x);//4
+		//System.out.println(y);//5
+		System.out.println((x++)>3 && (y++)>4);
+		System.out.println(x);//4
+		System.out.println(y);//4
+	}
+}

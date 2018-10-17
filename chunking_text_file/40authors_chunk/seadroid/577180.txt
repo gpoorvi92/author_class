@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.gesturelock.LockPatternView;
+import com.seafile.seadroid2.gesturelock.LockPatternView.Cell;
+import com.seafile.seadroid2.ui.ToastUtils;
+
+
+public class UnlockGesturePasswordActivity extends Activity {
+    private LockPatternView mLockPatternView;
+    private int mFailedPatternAttemptsSinceLastTimeout = 0;
+    private CountDownTimer mCountdownTimer = null;
+    private Handler mHandler = new Handler();

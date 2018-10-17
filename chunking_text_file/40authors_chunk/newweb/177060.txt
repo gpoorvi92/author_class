@@ -1,0 +1,10 @@
+
+@Component("orderLhjWeightService")
+public class OrderLhjWeightServiceImp implements OrderLhjWeightService {
+	@Autowired
+	private  OrderLhjWeightDao orderLhjWeightDao;
+	@Autowired
+	private OrderService orderService;
+	@Autowired
+	private OrderPriceService orderPriceService;
+	@Autowired

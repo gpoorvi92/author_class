@@ -1,0 +1,10 @@
+							.getAutoLoginParam(act);
+					loginPara.putBooleanValue("is_auto_login", false);
+					GlobalVariables.setAutoLoginParam(act, loginPara);
+					Intent intent = new Intent(act, LoginActivity.class);
+					act.startActivity(intent);
+					act.finish();
+				}
+			});
+
+			piInfoTv.setOnClickListener(new View.OnClickListener() {

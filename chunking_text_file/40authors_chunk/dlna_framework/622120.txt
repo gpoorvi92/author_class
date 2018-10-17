@@ -1,0 +1,10 @@
+import java.util.Vector;
+
+public class AllowedValueList extends Vector
+{
+	////////////////////////////////////////////////
+	//	Constants
+	////////////////////////////////////////////////
+	
+	public final static String ELEM_NAME = "allowedValueList";
+

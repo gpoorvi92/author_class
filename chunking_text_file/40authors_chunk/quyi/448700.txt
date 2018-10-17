@@ -1,0 +1,10 @@
+		SingleRecordInfo singleRecordInfo = new SingleRecordInfo();
+		singleRecordInfo.setAppName("百度电视云.apk");
+		singleRecordInfo.setAppSize("7411941");
+		singleRecordInfo.setMd5("480e65eeb554bb22d96156f8aa1ce82b");
+		singleRecordInfo.setMissionId("SingleTest");
+		singleRecordInfo.setUserAppId("SingleTest1");
+		singleRecordInfo.setPlotsType(PlotsType.virusType);
+		singleRecordInfo.setStartedTime(System.currentTimeMillis());
+		 singleRecordInfo.setFinishedTime(System.currentTimeMillis());
+		singleRecordInfo.setAppCheckResult("success");

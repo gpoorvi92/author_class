@@ -1,0 +1,10 @@
+/**
+ * 
+ *	@author: Fully
+ *	初始化连接池参数并且进行封装
+ */
+public class Config {
+	private static String dbServerIP="127.0.0.1";
+    private static int dbServerPort=27017;
+    private static String dbName="chacha";
+    private static String dbUserName="chacha";

@@ -1,0 +1,10 @@
+        __this__systemResources.add(new SystemResources(other_element));
+      }
+      this.systemResources = __this__systemResources;
+    }
+    if (other.isSetHardwareResources()) {
+      List<HardwareResources> __this__hardwareResources = new ArrayList<HardwareResources>(other.hardwareResources.size());
+      for (HardwareResources other_element : other.hardwareResources) {
+        __this__hardwareResources.add(new HardwareResources(other_element));
+      }
+      this.hardwareResources = __this__hardwareResources;

@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFunc()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.func, other.func);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRuleDescription()).compareTo(other.isSetRuleDescription());

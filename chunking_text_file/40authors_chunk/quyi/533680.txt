@@ -1,0 +1,10 @@
+
+    boolean this_present_objectName = true && this.isSetObjectName();
+    boolean that_present_objectName = true && that.isSetObjectName();
+    if (this_present_objectName || that_present_objectName) {
+      if (!(this_present_objectName && that_present_objectName))
+        return false;
+      if (!this.objectName.equals(that.objectName))
+        return false;
+    }
+

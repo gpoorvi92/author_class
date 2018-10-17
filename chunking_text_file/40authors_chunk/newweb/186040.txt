@@ -1,0 +1,7 @@
+	public List<OrderBxg> selectAllOrderBxgs() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from  t_order_bxgs")
+				.addEntity(OrderBxg.class);
+		return query.list();
+	}
+
+}

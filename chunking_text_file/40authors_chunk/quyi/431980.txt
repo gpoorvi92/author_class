@@ -1,0 +1,10 @@
+      sb.append(this.checkDate);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("sensitives:");
+    if (this.sensitives == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.sensitives);
+    }

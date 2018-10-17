@@ -1,0 +1,10 @@
+   private void copy()
+   {
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      ImageTransferable selection = new ImageTransferable(image);
+      clipboard.setContents(selection, null);
+   }
+
+   /**
+    * Pastes the image from the system clipboard into the image label.
+    */

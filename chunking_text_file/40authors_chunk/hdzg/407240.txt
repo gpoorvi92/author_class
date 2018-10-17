@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class MaChangDrawable extends MyMeetableDrawable implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5415143555027899159L;
+	String [] dialogMessage={
+		"前方是一个马场，是否让将军们在此锻炼一番？预计消耗金钱1500。",
+		"大军来到一个马场，不过您的金钱太少了，看门人不让您进去。",

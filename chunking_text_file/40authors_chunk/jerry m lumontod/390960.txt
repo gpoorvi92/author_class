@@ -1,0 +1,10 @@
+		g.setColor(mclrBackColor);
+		int offset = 0;
+		
+		if(icon != null && getText() != null) {
+			Insets ins = getInsets();
+			offset = ins.left + icon.getIconWidth() + getIconTextGap();
+		}
+		g.fillRect(offset, 0, getWidth() - 1 - offset,
+			getHeight() - 1);
+		

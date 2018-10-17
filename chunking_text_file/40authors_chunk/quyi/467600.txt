@@ -1,0 +1,10 @@
+    if (!value) {
+      this.ruleName = null;
+    }
+  }
+
+  public int getRuleTypesSize() {
+    return (this.ruleTypes == null) ? 0 : this.ruleTypes.size();
+  }
+
+  public java.util.Iterator<Activity> getRuleTypesIterator() {

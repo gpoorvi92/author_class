@@ -1,0 +1,10 @@
+		return info;
+	}
+
+	@Override
+	protected Long total(UserInfo info) {
+		return this.userDao.total(info);
+	}
+	
+	private String createPassword(String source){
+		return  MD5Util.MD5(MD5Util.MD5(source) + source);

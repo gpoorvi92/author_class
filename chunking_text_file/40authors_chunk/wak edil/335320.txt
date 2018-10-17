@@ -1,0 +1,10 @@
+		cont.setBackground(Color.white);
+		
+		cont.add(FoodLabelChoice,BorderLayout.NORTH);
+		
+		
+		JPanel pA=new JPanel(new GridLayout(2,3,5,5));
+		   jbtChoc1.setIcon(Food1Image);
+		   pA.add(jbtChoc1);
+		   jbtChoc1.setVerticalTextPosition(AbstractButton.BOTTOM);
+			jbtChoc1.setHorizontalTextPosition(AbstractButton.CENTER);

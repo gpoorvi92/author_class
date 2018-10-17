@@ -1,0 +1,10 @@
+      public void read(org.apache.thrift.protocol.TProtocol prot, updateAppStatus_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+        struct.userAppId = iprot.readString();
+        struct.setUserAppIdIsSet(true);
+        struct.status = com.nercis.isscp.idl.AppStatus.findByValue(iprot.readI32());
+        struct.setStatusIsSet(true);
+        BitSet incoming = iprot.readBitSet(4);
+        if (incoming.get(0)) {

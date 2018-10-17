@@ -1,0 +1,10 @@
+   {
+      if (type instanceof Class)
+      {
+         Class<?> t = (Class<?>) type;
+         System.out.print(t.getName());
+      }
+      else if (type instanceof TypeVariable)
+      {
+         TypeVariable<?> t = (TypeVariable<?>) type;
+         System.out.print(t.getName());

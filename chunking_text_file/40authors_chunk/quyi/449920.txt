@@ -1,0 +1,10 @@
+        return (new Client(prot)).recv_operateEngine();
+      }
+    }
+
+    public void searchApp(String missionId, String userAppId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      searchApp_call method_call = new searchApp_call(missionId, userAppId, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }

@@ -1,0 +1,10 @@
+				 info.setCreateTime(new Date());
+				 String newFileName = info.getId() + info.getExt();
+				 info.setPath(destFolder + newFileName);
+				 logger.info("存储相对路径:" + info.getPath());
+				 logger.info("存储绝对路径:" + destPath + newFileName);
+				 if(IOUtil.copyFile(srcFile, new File(destPath + newFileName), true)){
+					 	BeanUtils.copyProperties(info, data);
+						if(isAdded) this.pictureDao.save(data);
+						logger.info("图片已成功移动到图片库！");
+				 }else{

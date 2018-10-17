@@ -1,0 +1,10 @@
+ * 图片库数据访问实现。
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */
+public class PictureDaoImpl extends BaseDaoImpl<Picture> implements IPictureDao {
+	/**
+	 * 添加查询条件。
+	 * @param info
+	 * 查询条件。
+	 * @param hql

@@ -1,0 +1,10 @@
+		this.type = type;
+	}
+
+	/**
+	 * Private field status Getter method.
+	 * @return status 
+	 */
+	public Integer getStatus() {
+		return this.status;
+	}

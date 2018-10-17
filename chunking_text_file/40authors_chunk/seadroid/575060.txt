@@ -1,0 +1,10 @@
+            }
+
+            if (starredFiles == null) {
+                showError(getString(R.string.error_when_load_starred));
+                return;
+            }
+
+            updateAdapterWithStarredFiles(starredFiles);
+            showLoading(false);
+        }

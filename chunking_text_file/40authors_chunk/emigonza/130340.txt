@@ -1,0 +1,10 @@
+    public static final int SCAL_SN_ENABLED  = 2;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "StatusUpdateEvent" "Status" Parameter Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int SCL_SUE_STABLE_WEIGHT     = 11;
+    public static final int SCL_SUE_WEIGHT_UNSTABLE   = 12;
+    public static final int SCL_SUE_WEIGHT_ZERO       = 13;

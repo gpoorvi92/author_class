@@ -1,0 +1,10 @@
+                    if (first == null) first = pre;
+                    second = cur;
+                }
+                pre = cur;
+                cur = cur.right;
+            }
+        }
+        if (first == null) return;
+        int tmp = first.val;
+        first.val = second.val;

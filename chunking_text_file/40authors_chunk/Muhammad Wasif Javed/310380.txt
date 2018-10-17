@@ -1,0 +1,10 @@
+		if (colorString != null) {
+			black = parseColor (colorString.toString());
+		}
+
+		colorString = prop.get ("white");
+		if (colorString != null) {
+			white = parseColor (colorString.toString());
+		}
+
+	}

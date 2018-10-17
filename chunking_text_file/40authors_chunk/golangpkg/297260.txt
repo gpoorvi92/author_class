@@ -1,0 +1,10 @@
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CRCResult other = (CRCResult) obj;
+		if (read != other.read)
+			return false;
+		if (value == null) {
+			if (other.value != null)
+				return false;

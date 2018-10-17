@@ -1,0 +1,10 @@
+		};
+
+		FutureTask<V> ft = new FutureTask<V>(callable);
+		workQueue.put(ft);
+
+		terminationToken.reservations.incrementAndGet();
+		return ft;
+	}
+
+	/**

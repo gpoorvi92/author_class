@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void start() throws IllegalStateException {
+        if (mSegmentPlayer == null)
+            return;
+        mSegmentPlayer.start();
+    }
+

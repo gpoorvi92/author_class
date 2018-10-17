@@ -1,0 +1,10 @@
+			}
+		});
+		
+		LaunchActButton guangyingLab =  (LaunchActButton) view.findViewById(R.id.guangying_lab);
+		guangyingLab.setOnHomeClick(new HomeClickListener() {
+			
+			@Override
+			public void onclick() {
+				action(Constant.TYPE_GUANGYING);
+			}

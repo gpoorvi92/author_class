@@ -1,0 +1,10 @@
+    }
+
+    private void handlePassword() {
+        getBrowserActivity().showPasswordDialog(repoName, repoID,
+                                                getPasswordDialogListener());
+    }
+
+    private void onTaskFailed(SeafException err) {
+        String fileName = Utils.fileNameFromPath(path);
+        if (err.getCode() == 404) {

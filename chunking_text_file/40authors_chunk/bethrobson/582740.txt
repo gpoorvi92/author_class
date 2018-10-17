@@ -1,0 +1,10 @@
+    
+    private void startPlaying() {
+        while (!dotComsList.isEmpty()) {
+            String userGuess = helper.getUserInput("Enter a guess");
+            checkUserGuess(userGuess);
+        }
+        finishGame();
+    }
+    
+    private void checkUserGuess(String userGuess)

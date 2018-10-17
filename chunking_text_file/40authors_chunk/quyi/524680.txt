@@ -1,0 +1,10 @@
+		destination = session.createQueue(queue_name);
+		producer = session.createProducer(destination);
+		producer.setDeliveryMode(DeliveryMode.PERSISTENT);
+		ObjectMessage message = session.createObjectMessage();
+		AppSendMessage appSendMessage = new AppSendMessage();
+		appSendMessage.setMissionId("issuedMessageTest002");
+		appSendMessage.setJobPriority(JobPriority.MEDIUM);
+		List<PlotsType> plots = new ArrayList<PlotsType>();
+		plots.add(PlotsType.staticType);
+		appSendMessage.setPlots(plots);

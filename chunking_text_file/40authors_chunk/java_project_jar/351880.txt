@@ -1,0 +1,10 @@
+    }
+
+    public synchronized void exitWhenFinished()
+    {
+        exitWhenFinished = true;
+        if(reaper != null)
+            synchronized(reaper)
+            {
+                reaper.interrupt();
+            }

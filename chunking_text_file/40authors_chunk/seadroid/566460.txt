@@ -1,0 +1,10 @@
+     * Replaces the tag if already there. Otherwise, adds to the exif tags.
+     * @param tag
+     * @param value
+     */
+    public void replaceExifTag(String tag, String value) {
+        if (mExif == null) {
+            loadExifData();
+        }
+        mExif.setAttribute(tag, value);
+    }

@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot;
+
+import com.google.gson.Gson;
+import com.pengrad.telegrambot.impl.FileApi;
+import com.pengrad.telegrambot.impl.TelegramBotClient;
+import okhttp3.Interceptor;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+
+/**

@@ -1,0 +1,10 @@
+
+   /**
+    * Gets the titlePosition property.
+    * @return LEFT, CENTER, or RIGHT
+    */
+   public Position getTitlePosition()
+   {
+      return titlePosition;
+   }
+

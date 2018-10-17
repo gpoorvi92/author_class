@@ -1,0 +1,10 @@
+          case 9: // DATA_LENGTH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.dataLength = iprot.readString();
+              struct.setDataLengthIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 10: // OPERATE_TIME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {

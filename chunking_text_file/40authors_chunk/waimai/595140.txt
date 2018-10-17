@@ -1,0 +1,10 @@
+        try {
+            adminService.active(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/inactive")
+    public ModelAndView inactive(String[] ids) {

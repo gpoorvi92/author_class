@@ -1,0 +1,10 @@
+			} catch (FileNotFoundException e1) {
+				e1.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		public void doRun() {
+			for (int i = 0; i < requestsPerInterval; i++) {
+

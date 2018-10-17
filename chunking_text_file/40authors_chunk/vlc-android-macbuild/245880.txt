@@ -1,0 +1,10 @@
+        mLibVLC.setPosition(0);
+        mLibVLC.play();
+    }
+
+    @Override
+    public void stop() throws IllegalStateException {
+        DebugLog.v(TAG, "stop");
+        mLibVLC.stop();
+    }
+

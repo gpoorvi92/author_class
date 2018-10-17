@@ -1,0 +1,10 @@
+      case 21:
+        return BIND_VPN_SERVICE;
+      case 22:
+        return BIND_WALLPAPER;
+      case 23:
+        return BLUETOOTH;
+      case 24:
+        return BLUETOOTH_ADMIN;
+      case 25:
+        return BLUETOOTH_PRIVILEGED;

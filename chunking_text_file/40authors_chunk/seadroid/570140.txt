@@ -1,0 +1,10 @@
+        return (options != null && options.outMimeType != null)
+                ? options.outMimeType
+                : "";
+    }
+
+    public int getHeight() {
+        BitmapFactory.Options options = snifBitmapOptions();
+        return (options != null) ? options.outHeight : 0;
+    }
+

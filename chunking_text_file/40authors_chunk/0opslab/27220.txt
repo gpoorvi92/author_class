@@ -1,0 +1,6 @@
+                return null;
+            }
+        }
+        return encoding;
+    }
+}

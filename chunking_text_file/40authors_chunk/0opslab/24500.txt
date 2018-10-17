@@ -1,0 +1,10 @@
+      result = 0; // EOF
+    } else {
+      result = super.available();
+      if (this.m_amountOfBytesReadable < result) {
+        result = this.m_amountOfBytesReadable;
+      }
+    }
+    return result;
+  }
+

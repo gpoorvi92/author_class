@@ -1,0 +1,10 @@
+
+    public int read(byte bts[])
+        throws IOException
+    {
+        int n;
+        beforeRead(bts == null ? 0 : bts.length);
+        n = in.read(bts);
+        afterRead(n);
+        return n;
+        IOException e;

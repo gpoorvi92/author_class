@@ -1,0 +1,10 @@
+	public void applyDeltas(int dx1, int dy1, int dx2, int dy2, int dx3, int dy3, int dx4, int dy4, boolean m3or4) {
+            x1+=dx1;
+            y1+=dy1;
+            x2+=dx2;
+            y2+=dy2;
+            x3+=dx3;
+            y3+=dy3;
+            x4+=dx4;
+            y4+=dy4;
+            mouse3or4 = m3or4;

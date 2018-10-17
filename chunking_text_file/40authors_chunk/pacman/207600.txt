@@ -1,0 +1,10 @@
+			
+			throw new FileNotFoundException(packfile);
+		}
+		
+		FileHelper.ensureExists(tempDir, false);
+		
+		MediaEncrypt encrypt = new MediaEncrypt();
+		encrypt.encodeMedia(packfile, FileHelper.combinePath(tempDir, "index.dat"));
+		
+		if (isFree) {

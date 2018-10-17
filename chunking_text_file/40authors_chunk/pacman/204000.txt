@@ -1,0 +1,10 @@
+	 */
+	<T> void setAttribute(String key, T value);
+	<T> T 	getAttribute(String key);
+	
+	/**
+	 * 
+	 * @return
+	 */
+	ExecuteContext getContext();
+	

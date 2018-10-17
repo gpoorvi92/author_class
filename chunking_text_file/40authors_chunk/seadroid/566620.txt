@@ -1,0 +1,6 @@
+            bitmap = Util.rotate(bitmap, getDegreesRotated());
+        }
+
+        return bitmap;
+    }
+}

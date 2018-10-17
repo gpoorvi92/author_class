@@ -1,0 +1,10 @@
+    else
+    {
+      // Make sure that the service actually conforms to the interfaces it
+      // claims to.
+      if(serviceVersion >= deviceVersion113)
+      {
+        try
+        {
+          service113 = (ImageScannerService113)service;
+        }

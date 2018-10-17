@@ -1,0 +1,10 @@
+
+    public void zoomIn()
+    {
+        renderer.setZoom(renderer.getZoom()*1.1);
+        render();
+    }
+
+    public void zoomOut()
+    {
+        renderer.setZoom(renderer.getZoom() / 1.1);

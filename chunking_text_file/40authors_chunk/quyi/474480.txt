@@ -1,0 +1,10 @@
+
+    public genMissionId_result() {
+    }
+
+    public genMissionId_result(
+      String success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {
+      this();

@@ -1,0 +1,10 @@
+    String getInsertionPointName();
+
+    /**
+     * This method returns the base value for this insertion point.
+     *
+     * @return the base value that appears in this insertion point in the base
+     * request being scanned, or <code>null</code> if there is no value in the
+     * base request that corresponds to this insertion point.
+     */
+    String getBaseValue();

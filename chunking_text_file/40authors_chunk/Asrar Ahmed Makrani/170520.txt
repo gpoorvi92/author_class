@@ -1,0 +1,10 @@
+public class video extends JInternalFrame implements video_Interface, video_master_info_Interface, video_tab_Interface{
+ 	
+ 	 private int paintx, painty;
+ 	 	public JButton newButton = new JButton(new ImageIcon("new.gif"));
+	public JButton saveButton = new JButton(new ImageIcon("save.gif"));
+	public JButton deleteButton = new JButton(new ImageIcon("delete.gif"));
+	public JButton updateButton = new JButton(new ImageIcon("update.gif"));
+	JToolBar toolBarVideo = new JToolBar();
+
+    public video() {

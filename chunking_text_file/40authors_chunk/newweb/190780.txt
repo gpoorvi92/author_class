@@ -1,0 +1,10 @@
+			double price = 0;
+			try {
+				price = Double.parseDouble(priceStr);
+			} catch (Exception e) {
+				out.write("failed服务器返回:零售价无效");
+				return null;
+			}
+			int materialBrandID = 0;
+			try {
+				materialBrandID = Integer.parseInt(materialBrandStr);

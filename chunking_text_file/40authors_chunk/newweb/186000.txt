@@ -1,0 +1,10 @@
+		try {
+			sessionFactory.getCurrentSession().delete(ob);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean update(OrderBxg ob) {

@@ -1,0 +1,10 @@
+ * @date: 2014年12月23日 下午10:58:15
+ */
+public interface IStep{
+
+	/**
+	 * Before execution.
+	 * 
+	 * @param context
+	 */
+	void beforeExecute(ExecuteContext context);

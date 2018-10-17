@@ -1,0 +1,10 @@
+    * Parses a gridbag element.
+    * @param e a gridbag element
+    */
+   private void parseGridbag(Element e)
+   {
+      NodeList rows = e.getChildNodes();
+      for (int i = 0; i < rows.getLength(); i++)
+      {
+         Element row = (Element) rows.item(i);
+         NodeList cells = row.getChildNodes();

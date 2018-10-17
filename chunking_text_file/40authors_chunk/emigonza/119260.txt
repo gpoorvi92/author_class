@@ -1,0 +1,10 @@
+      return super.getPropertyDescriptors();
+    }
+  }
+
+  public EventSetDescriptor makeEvent(String eventName)
+    throws IntrospectionException, ClassNotFoundException
+  {
+    String listener = "jpos.events." + eventName + "Listener";
+    return new EventSetDescriptor(jpos.CheckScanner.class,
+                                  eventName,

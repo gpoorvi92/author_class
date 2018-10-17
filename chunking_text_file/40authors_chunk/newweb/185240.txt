@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderSmall;
+
+@Component("orderSmallDao")
+public class OrderSmallDaoImp implements OrderSmallDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {

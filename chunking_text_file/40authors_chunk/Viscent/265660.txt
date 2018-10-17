@@ -1,0 +1,10 @@
+import java.util.Set;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+
+public class ExceptionHandlingExample {
+
+	public void handle(ExecutionException e, Set<BigInteger> result) {
+		Throwable cause = e.getCause();
+		if (SubTaskFailureException.class.isInstance(cause)) {
+

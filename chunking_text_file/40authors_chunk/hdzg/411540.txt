@@ -1,0 +1,10 @@
+	}
+	
+	public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {
+		
+	}
+
+	public void surfaceCreated(SurfaceHolder arg0) {
+		drawThread.setFlag(true);
+		drawThread.start();
+	}

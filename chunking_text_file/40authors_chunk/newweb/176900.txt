@@ -1,0 +1,10 @@
+		try {
+			model.setCircleCount(Integer.parseInt(winProp.getString("circleCount")));
+		} catch (Exception e) {}
+		model.setWinType(winProp.getString("winType"));
+		try {
+			model.setFourLinkPartZZCount(Integer.parseInt(winProp.getString("fourLinkPartZZCount")));
+		} catch (Exception e) {}
+		model.setGlassType(winProp.getString("glassType"));
+		model.setRemark(winProp.getString("remark"));
+	}

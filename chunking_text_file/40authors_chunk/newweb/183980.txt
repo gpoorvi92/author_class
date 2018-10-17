@@ -1,0 +1,7 @@
+
+	@Override
+	public boolean modify(SmallPriceCut cut) {
+		return smallPriceCutDao.update(cut);
+	}
+	
+}

@@ -1,0 +1,10 @@
+        unsetEngineIp();
+      } else {
+        setEngineIp((String)value);
+      }
+      break;
+
+    case ENGINE_STATUS:
+      if (value == null) {
+        unsetEngineStatus();
+      } else {

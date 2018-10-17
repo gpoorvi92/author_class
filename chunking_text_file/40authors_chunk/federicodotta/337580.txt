@@ -1,0 +1,10 @@
+     *
+     * @return An indication of whether the current message has been modified by
+     * the user since it was first displayed.
+     */
+    boolean isMessageModified();
+
+    /**
+     * This method returns the data that is currently selected by the user.
+     *
+     * @return The data that is currently selected by the user, or

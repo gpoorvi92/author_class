@@ -1,0 +1,10 @@
+        return bpm;
+    }
+
+    public String getRating()
+    {
+        return rating;
+    }
+
+    public String getTitle()
+    {

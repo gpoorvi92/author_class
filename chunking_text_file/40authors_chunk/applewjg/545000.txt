@@ -1,0 +1,5 @@
+        tail.next = head;
+        cur.next = null;
+        return newHead;
+    }
+}

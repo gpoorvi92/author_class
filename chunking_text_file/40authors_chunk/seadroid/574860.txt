@@ -1,0 +1,10 @@
+    public void refreshView() {
+
+        if (mActivity == null)
+            return;
+
+        mErrorText.setVisibility(View.GONE);
+        mListContainer.setVisibility(View.VISIBLE);
+
+        showLoading(true);
+        ConcurrentAsyncTask.execute(new LoadStarredFilesTask(getDataManager()));

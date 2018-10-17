@@ -1,0 +1,10 @@
+    /**
+     * Finds human names and emits them with the document name that they are in.
+     */
+    public static class MapClass extends MapReduceBase
+            implements Mapper<LongWritable, Text, Text, Text> {
+
+        private Text human_name = new Text();
+        private Text doc = new Text();
+
+        public void map(LongWritable key, Text value,

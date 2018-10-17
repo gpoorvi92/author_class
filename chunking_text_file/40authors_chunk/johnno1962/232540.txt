@@ -1,0 +1,10 @@
+    public void internalFrameIconified( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameIconified_3 ) {
+            entered_internalFrameIconified_3 = true;
+            __internalFrameIconified( e );
+            entered_internalFrameIconified_3 = false;
+        }
+        else
+            super.internalFrameIconified( e );
+    }
+

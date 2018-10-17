@@ -1,0 +1,10 @@
+  		{
+			public void focusLost(FocusEvent e)
+			{
+				if (!testing.getText().equals(""))
+				{
+				testing.setText("");
+				try
+				{
+					DateFormat df2 = DateFormat.getDateInstance(DateFormat.SHORT);
+					String bname[] = new String[5]; // ={""};

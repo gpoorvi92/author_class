@@ -1,0 +1,10 @@
+		this.mCardTotextureRegionMap = new HashMap<Card, ITextureRegion>();
+
+		/* Extract the TextureRegion of each card in the whole deck. */
+		for(final Card card : Card.values()) {
+			final ITextureRegion cardTextureRegion = TextureRegionFactory.extractFromTexture(this.mCardDeckTexture, card.getTexturePositionX(), card.getTexturePositionY(), Card.CARD_WIDTH, Card.CARD_HEIGHT);
+			this.mCardTotextureRegionMap.put(card, cardTextureRegion);
+		}
+	}
+
+	@Override

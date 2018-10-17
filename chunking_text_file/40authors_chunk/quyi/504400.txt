@@ -1,0 +1,10 @@
+      } else {
+        setJobPriority((JobPriority)value);
+      }
+      break;
+
+    case TASK_INFO:
+      if (value == null) {
+        unsetTaskInfo();
+      } else {
+        setTaskInfo((Map<String,String>)value);

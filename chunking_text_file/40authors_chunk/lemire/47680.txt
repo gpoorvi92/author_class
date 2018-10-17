@@ -1,0 +1,10 @@
+            x -= this.iteratingBrlw.getRunningLength();
+            long toDiscard = x > this.iteratingBrlw.getNumberOfLiteralWords()
+                    ? this.iteratingBrlw.getNumberOfLiteralWords()
+                    : x;
+
+            this.iteratingBrlw.discardFirstWords(toDiscard);
+            x -= toDiscard;
+            if ((x > 0) || (this.iteratingBrlw.size() == 0)) {
+                if (!this.next()) {
+                    break;

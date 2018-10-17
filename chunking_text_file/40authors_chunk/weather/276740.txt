@@ -1,0 +1,10 @@
+    TextView mTitle;
+    @InjectView(R.id.weekly_weather)
+    TextView mWeather;
+    @InjectView(R.id.weekly_temperature_high)
+    TextView mTemperatureH;
+    @InjectView(R.id.weekly_temperature_low)
+    TextView mTemperatureL;
+
+    public WeeklyItemView(Context context) {
+        super(context);

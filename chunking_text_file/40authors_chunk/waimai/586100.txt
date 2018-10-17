@@ -1,0 +1,10 @@
+        }
+        return ajaxDoneSuccessAndClose("修改成功", "merchant_list");
+    }
+
+    @RequestMapping("/active")
+    public ModelAndView active(String[] ids) {
+        try {
+            merchantService.active(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());

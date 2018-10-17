@@ -1,0 +1,10 @@
+    this.riskLevel = riskLevel;
+    this.pak = pak;
+    this.obj = obj;
+    this.func = func;
+    this.ruleDescription = ruleDescription;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */

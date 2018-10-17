@@ -1,0 +1,10 @@
+        for (int i = 0; i < count; i++) {
+            chars.add("?");
+        }
+
+        String clause = WHERE_CLAUSE + " AND "
+            + Media.BUCKET_ID + " in " + "(" + Joiner.on(", ").join(chars) + ")";
+
+        return clause;
+    }
+

@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field staticCheckResult is set (has been assigned a value) and false otherwise */
+  public boolean isSetStaticCheckResult() {
+    return this.staticCheckResult != null;
+  }
+
+  public void setStaticCheckResultIsSet(boolean value) {
+    if (!value) {
+      this.staticCheckResult = null;

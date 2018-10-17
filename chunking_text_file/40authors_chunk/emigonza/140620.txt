@@ -1,0 +1,10 @@
+	/** @return true if this list is empty */
+	public boolean isEmpty();
+
+	/**
+	 * Adds a new DevCatInfo to this list
+	 * @param devCatInfo the devCatInfo to add
+	 */
+	public void add( DevCatInfo devCatInfo );
+
+	/**

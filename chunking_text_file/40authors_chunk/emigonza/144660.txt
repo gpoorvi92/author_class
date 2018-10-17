@@ -1,0 +1,10 @@
+    public static final String JPOS_POPULATOR_FILE_URL_PROP_NAME = "jpos.config.populatorFileURL";
+
+    /**
+     * Constants defining the JavaPOS tracing facility Java property 
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String JPOS_TRACING_PROP_NAME = "jpos.util.tracing";
+
+    //-------------------------------------------------------------------------
+    // Public constants (multi-properties name)

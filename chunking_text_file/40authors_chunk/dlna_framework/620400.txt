@@ -1,0 +1,5 @@
+		if (val == null)
+			val = "";
+		value = val;
+	}
+}

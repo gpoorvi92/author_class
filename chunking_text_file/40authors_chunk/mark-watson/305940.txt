@@ -1,0 +1,10 @@
+package search.game;
+
+import java.util.*;
+
+public abstract class GameSearch {
+
+    public static final boolean DEBUG = false;
+
+    /*
+     * Note: the abstract Position also needs to be

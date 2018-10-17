@@ -1,0 +1,10 @@
+		// } else {
+		// sb.append((char) ch);
+		// }
+		// }
+		// return sb.toString();
+
+		// 如何解决死循环问题呢?
+
+		int ch = 0;
+		while ((ch = r.read()) != -1) {

@@ -1,0 +1,10 @@
+		obj=new HuffmanNode[capacity];
+	}
+	
+	
+	public PriorityQueue(){
+		
+		head=new DLNode();
+		tail=new DLNode();
+		head.setNext(tail);
+		tail.setPrev(head);

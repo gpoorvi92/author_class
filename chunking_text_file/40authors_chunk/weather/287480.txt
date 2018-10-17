@@ -1,0 +1,10 @@
+            params.width = 0;
+        }
+        layout.setLayoutParams(params);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+

@@ -1,0 +1,10 @@
+     * 
+     *  <code>
+     *  EWAHCompressedBitmap n = IteratorUtil.materialize(bitmap.getIteratingRLW()));
+     *  n.setSizeInBitsWithinLastWord(bitmap.sizeInBits());
+     *  </code>
+     *
+     * @param i iterator we wish to materialize
+     * @return materialized version of the iterator
+     */
+    public static EWAHCompressedBitmap materialize(final IteratingRLW i) {

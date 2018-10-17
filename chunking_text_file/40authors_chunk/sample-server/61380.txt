@@ -1,0 +1,10 @@
+            boolean isDone = countDownLatch.await(timeout, TimeUnit.MILLISECONDS);
+            if (isDone)
+            {
+                return read();
+            }
+            else
+            {
+                throw new RpcIOException("read rpc response timeout");
+            }
+        } catch (InterruptedException e)

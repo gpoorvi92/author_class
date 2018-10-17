@@ -1,0 +1,10 @@
+         });
+      pack();
+   }
+
+   /**
+    * Makes a radio button to change the join style.
+    * @param label the button label
+    * @param style the join style
+    * @param group the radio button group
+    */

@@ -1,0 +1,10 @@
+			if(x>274 && x<304 && y>15 && y<45){//点击了关闭按钮
+				this.selectI = 0;
+				this.currentI = 0;
+				gameView.setStatus(0);
+			}
+			else if(x>212 && x<242 && y>15 && y<45){//点击了向下翻页按钮
+				selectI++;
+				if(items1.length < yeSpan){//当一个屏幕可以全部显示时，即不需要滚屏 
+					if(selectI > items1.length-1){ 
+						selectI = items1.length-1;

@@ -1,0 +1,10 @@
+        SendResponse sendResponse = bot.execute(new SendSticker(chatId, stickerId));
+        Message message = sendResponse.message();
+        MessageTest.checkStickerMessage(message);
+    }
+
+    @Test
+    public void sendVideo() {
+        SendResponse sendResponse = bot.execute(new SendVideo(chatId, new File(videoFile)));
+        Message message = sendResponse.message();
+        MessageTest.checkVideoMessage(message);

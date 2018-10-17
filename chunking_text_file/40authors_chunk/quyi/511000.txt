@@ -1,0 +1,10 @@
+        oprot.writeI32(struct.checkEngineNum);
+      }
+      if (struct.isSetPositives()) {
+        oprot.writeI32(struct.positives);
+      }
+      if (struct.isSetVirusEngine()) {
+        {
+          oprot.writeI32(struct.virusEngine.size());
+          for (VirusEngine _iter4 : struct.virusEngine)
+          {

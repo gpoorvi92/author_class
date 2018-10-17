@@ -1,0 +1,10 @@
+      renderer.setOpenIcon(new ImageIcon(getClass().getResource("yellow-ball.gif")));
+      renderer.setLeafIcon(new ImageIcon(getClass().getResource("blue-ball.gif")));
+      tree.setCellRenderer(renderer);
+      
+      // set up selection mode
+      tree.addTreeSelectionListener(new TreeSelectionListener()
+         {
+            public void valueChanged(TreeSelectionEvent event)
+            {
+               // the user selected a different node--update description

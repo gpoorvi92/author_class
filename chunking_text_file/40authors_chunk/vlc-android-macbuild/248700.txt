@@ -1,0 +1,10 @@
+
+    public boolean isCortexA9() {
+        return CPU_PART_CORTEX_A9 == mCpuPart;
+    }
+
+    public boolean isCortexA15() {
+        return CPU_PART_CORTEX_A15 == mCpuPart;
+    }
+
+    public boolean isSnapdragon_S1_or_S2() {

@@ -1,0 +1,10 @@
+            }
+        }
+    }
+    public void connect()
+    {
+        if (!isConnected())
+        {
+            long start = System.currentTimeMillis();
+            int times = 3;
+            while (ServerState.isRunning() && times > 0)

@@ -1,0 +1,10 @@
+      if (!first) sb.append(", ");
+      sb.append("virRD:");
+      if (this.virRD == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.virRD);
+      }
+      first = false;
+      sb.append(")");
+      return sb.toString();

@@ -1,0 +1,10 @@
+		return customerDao.selectCustomerByID(id);
+	}
+
+	@Override
+	public Customer[] queryCustomerByName(String name) {
+		List<Customer> list = customerDao.selectCustomerByName(name);
+		Customer[] cs = new Customer[list.size()];
+		int count = 0;
+		for (Customer customer : list) {
+			cs[count++] = customer;

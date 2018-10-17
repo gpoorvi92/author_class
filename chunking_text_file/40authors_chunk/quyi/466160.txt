@@ -1,0 +1,10 @@
+        return executed;
+      case 4:
+        return timeout;
+      case 5:
+        return failure;
+      case 6:
+        return breaked;
+      case 7:
+        return other;
+      default:

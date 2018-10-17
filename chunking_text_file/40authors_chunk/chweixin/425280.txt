@@ -1,0 +1,10 @@
+		final String hql = "from WeChatAccount w where w.openId = :openId order by w.createTime desc";
+		Map<String, Object> parameters = new HashMap<>();
+		parameters.put("openId", openId);
+		List<WeChatAccount> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;
+		return list.get(0);
+	}
+	
+	@Override
+	public List<WeChatAccount> loadAllAccounts() {

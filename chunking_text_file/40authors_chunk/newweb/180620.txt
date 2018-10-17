@@ -1,0 +1,10 @@
+		String contact = request.getParameter("contact");
+		String password = request.getParameter("password");
+		
+		User user = new User();
+		Customer[] cs = customerService.queryCustomerByName(linkName);
+		Customer customer = null;
+		boolean linkValid = false;
+		for (Customer c : cs) {
+			if(c.getName().equals(linkName) &&
+					c.getContact().equals(contact)){

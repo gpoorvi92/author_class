@@ -1,0 +1,10 @@
+    private static class issuedMessage_argsStandardSchemeFactory implements SchemeFactory {
+      public issuedMessage_argsStandardScheme getScheme() {
+        return new issuedMessage_argsStandardScheme();
+      }
+    }
+
+    private static class issuedMessage_argsStandardScheme extends StandardScheme<issuedMessage_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, issuedMessage_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;

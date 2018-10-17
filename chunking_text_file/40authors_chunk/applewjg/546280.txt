@@ -1,0 +1,10 @@
+        return candy_1(ratings);
+    }
+    public int candy_1(int[] ratings) {
+        int N = ratings.length;
+        if (N == 0) return 0;
+        int[] height = new int[N];
+        int res = 0;
+        height[0] = 1;
+        for (int i = 1; i < N; ++i) {
+            height[i] = 1;

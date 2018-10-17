@@ -1,0 +1,10 @@
+         { "Pluto", 1137.0, 1, false, Color.BLACK } };
+
+   public PlanetTableFrame()
+   {
+      final JTable table = new JTable(cells, columnNames);
+      table.setAutoCreateRowSorter(true);
+      add(table, BorderLayout.CENTER);
+      JButton printButton = new JButton("Print");
+      printButton.addActionListener(EventHandler.create(ActionListener.class, table, "print"));
+      JPanel buttonPanel = new JPanel();

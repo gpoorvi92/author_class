@@ -1,0 +1,10 @@
+				// Thanks for Jan Newmarch <jan.newmarch@infotech.monash.edu.au> (05/26/04)
+				if (bigLineHeaderName.equals(bigName) == false) {
+					 lineStr = reader.readLine();
+					 continue;
+				}
+				return header.getValue();
+			}
+		}
+		catch (IOException e) {
+			Debug.warning(e);

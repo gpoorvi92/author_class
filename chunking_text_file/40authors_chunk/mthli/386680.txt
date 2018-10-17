@@ -1,0 +1,10 @@
+      Printable printable = book.getPrintable(currentPage);
+      try
+      {
+         printable.print(g2, pageFormat, currentPage);
+      }
+      catch (PrinterException e)
+      {
+         g2.draw(new Line2D.Double(0, 0, px, py));
+         g2.draw(new Line2D.Double(px, 0, 0, py));
+      }

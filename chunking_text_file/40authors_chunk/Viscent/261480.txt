@@ -1,0 +1,10 @@
+		System.out.println(originalNumberRecipient);
+	}
+
+	private MMSDeliverRequest parseRequest(InputStream reqInputStream) {
+		MMSDeliverRequest mmsDeliverReq = new MMSDeliverRequest();
+		//省略其它代码
+		return mmsDeliverReq;
+	}
+
+	private Recipient convertShortNumber(Recipient shortNumberRecipient)

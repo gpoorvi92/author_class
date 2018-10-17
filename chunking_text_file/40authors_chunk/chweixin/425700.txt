@@ -1,0 +1,10 @@
+				}
+				data = new User();
+			}
+			BeanUtils.copyProperties(info, data, new String[]{ "password"});
+			if(info.getPassword() != null && !info.getPassword().trim().isEmpty()){
+				data.setPassword(this.createPassword(info.getPassword()));
+			}
+			if(isAdded)this.userDao.save(data);
+			info.setPassword(null);
+		}

@@ -1,0 +1,10 @@
+    List<String> getHeaders();
+
+    /**
+     * This method is used to obtain the parameters contained in the request.
+     *
+     * @return The parameters contained in the request.
+     */
+    List<IParameter> getParameters();
+
+    /**

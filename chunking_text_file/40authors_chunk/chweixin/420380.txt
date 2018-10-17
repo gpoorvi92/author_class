@@ -1,0 +1,10 @@
+			for(Element e : elements){
+				map.put(e.getName(), e.getText());
+				logger.info(e.getName() + " = " + e.getText());
+			}
+			return map;
+		}
+		return null;
+	}
+	/**
+	 * 解析微信发来的请求(xml)

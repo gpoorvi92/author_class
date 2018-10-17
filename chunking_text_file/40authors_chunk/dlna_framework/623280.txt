@@ -1,0 +1,10 @@
+			Node root = parse(decrIn);
+			return root;
+		} catch (Exception e) {
+			throw new ParserException(e);
+		}
+	}
+
+}
+
+

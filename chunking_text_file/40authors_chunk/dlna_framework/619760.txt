@@ -1,0 +1,10 @@
+			InetSocketAddress bindSockAddr = new InetSocketAddress(port);
+			ssdpMultiSock.bind(bindSockAddr);		
+		
+			ssdpMultiGroup = new InetSocketAddress(InetAddress.getByName(addr), port);
+
+			ssdpMultiIf = NetworkInterface.getByInetAddress(bindAddr);
+			ssdpMultiSock.joinGroup(ssdpMultiGroup, ssdpMultiIf);
+		}
+		catch (Exception e) {
+			Debug.warning(e);

@@ -1,0 +1,10 @@
+		else if (currentItem == 0)
+			isBack = false;
+		if (isBack) {
+			currentItem--;
+		} else {
+			currentItem++;
+		}
+		mScrollLayout.snapToScreen(currentItem);
+		mScrollLayout.postDelayed(this, duration);
+	}

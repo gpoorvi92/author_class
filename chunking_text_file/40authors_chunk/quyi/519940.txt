@@ -1,0 +1,10 @@
+  }
+
+  public static class modifyTaskManagerConfig_args implements org.apache.thrift.TBase<modifyTaskManagerConfig_args, modifyTaskManagerConfig_args._Fields>, java.io.Serializable, Cloneable, Comparable<modifyTaskManagerConfig_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("modifyTaskManagerConfig_args");
+
+    private static final org.apache.thrift.protocol.TField PROPERTY_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("propertyName", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField PROPERTY_VALUE_FIELD_DESC = new org.apache.thrift.protocol.TField("propertyValue", org.apache.thrift.protocol.TType.STRING, (short)2);
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+    static {

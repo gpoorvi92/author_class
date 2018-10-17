@@ -1,0 +1,10 @@
+ * Modified by ____.
+ */
+public class WeatherApiTest extends SimpleSyncTest {
+
+    /**
+    * 测试获取北京的天气数据
+    */
+    public void testDialyWeather() {
+        String beijing = "101010100";
+        WeatherApi.getDailyWeather(beijing, new RequestListener<DailyResponse>() {

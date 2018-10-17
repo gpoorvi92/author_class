@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testRandomish() {
+        EWAHCompressedBitmap32 e = new EWAHCompressedBitmap32();
+
+        int upperLimit = 100000;
+        for (int i = 0; i < upperLimit; ++i) {
+            double probabilityOfOne = i / (double) (upperLimit / 2);
+            if (probabilityOfOne > 1.0)

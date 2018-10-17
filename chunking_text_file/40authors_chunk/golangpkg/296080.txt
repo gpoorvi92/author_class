@@ -1,0 +1,10 @@
+import com.am.jlfu.fileuploader.web.utils.ExceptionCodeMappingHelper.ExceptionCodeMapping;
+import com.google.gson.Gson;
+
+
+
+/**
+ * Provides some common methods to deal with file upload requests.
+ * 
+ * @author antoinem
+ * 

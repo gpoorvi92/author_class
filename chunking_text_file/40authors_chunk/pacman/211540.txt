@@ -1,0 +1,10 @@
+	public <T> ShellCommand add(String key, T opt) {
+		
+		cmdBuffer.append(String.format(" %s %s", key, String.valueOf(opt)));
+		return this;
+	}
+	
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: toString
+	 * @return

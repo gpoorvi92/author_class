@@ -1,0 +1,10 @@
+ * @date: 2014年12月30日 下午3:02:19
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms.impl;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.jms.Message;
+

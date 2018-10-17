@@ -1,0 +1,10 @@
+		setService(service);
+		setCallback(callback);
+		setNT(NT.EVENT);
+		setTimeout(timeout);
+	}
+
+	public void setRenewRequest(Service service, String uuid, long timeout)
+	{
+		setMethod(Subscription.SUBSCRIBE_METHOD);
+		setService(service);

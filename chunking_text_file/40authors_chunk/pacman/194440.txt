@@ -1,0 +1,10 @@
+			verifyTxt = msg;
+		}
+
+		@Override
+		public void onStreamMessage(byte[] buffer) {
+			verifyBuf = buffer;
+		}
+
+		@Override
+		public void onMapMessage(Map<String, Object> map) {

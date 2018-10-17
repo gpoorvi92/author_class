@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model.request;
+
+/**
+ * Stas Parshin
+ * 06 May 2016
+ */
+public class InlineQueryResultDocument extends InlineQueryResult<InlineQueryResultDocument> {
+
+    public static final String MIME_APP_PDFL = "application/pdf";
+    public static final String MIME_APP_ZIP = "application/zip";

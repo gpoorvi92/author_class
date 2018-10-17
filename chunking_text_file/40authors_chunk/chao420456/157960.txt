@@ -1,0 +1,10 @@
+	public void lookDoor() {
+		System.out.println("狗可以看门");
+	}
+}
+//测试类
+class Test {
+	public static void main(String[] args) {
+		//猫类测试
+		Cat c = new Cat();
+		c.setName("加菲猫");

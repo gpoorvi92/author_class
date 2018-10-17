@@ -1,0 +1,10 @@
+				.addEntity(User.class);
+		return query.setInteger(0, id).list();
+	}
+
+	@Override
+	public boolean insertUser(User user) {
+		try {
+			sessionFactory.getCurrentSession().save(user);
+		} catch (Exception e) {
+			return false;

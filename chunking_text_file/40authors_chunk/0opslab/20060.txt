@@ -1,0 +1,10 @@
+            System.out.println(m);
+        }
+
+    }
+
+
+    @Test
+    public void testgetClassNameByFile(){
+        String file = System.getProperty("user.dir")+"/target/classes";
+        List<String> classNames = ClassUtil.getClassNameByFile(file, true);

@@ -1,0 +1,10 @@
+        try {
+            goodsService.up(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("上架成功");
+    }
+
+    @RequestMapping("/down")
+    public ModelAndView down(String[] ids) {

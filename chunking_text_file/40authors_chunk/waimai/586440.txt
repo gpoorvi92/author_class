@@ -1,0 +1,10 @@
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+/**
+ * Created by snow on 2014/5/8.
+ */
+@Transactional(rollbackFor = Exception.class)
+@Service(ISaleRecordService.SERVICE_NAME)
+public class SaleRecordServiceImpl implements ISaleRecordService {

@@ -1,0 +1,10 @@
+   * Performs a deep copy on <i>other</i>.
+   */
+  public FileOperate(FileOperate other) {
+    if (other.isSetPidName()) {
+      this.pidName = other.pidName;
+    }
+    if (other.isSetFileDescription()) {
+      this.fileDescription = other.fileDescription;
+    }
+    if (other.isSetFilePath()) {

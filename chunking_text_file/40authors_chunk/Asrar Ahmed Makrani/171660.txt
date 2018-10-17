@@ -1,0 +1,10 @@
+			 				type_combo.setSelectedItem(rs1.getString(3));			 					
+			 		}
+					catch (SQLException sqlex)
+					{
+						
+					}
+						
+					String query = "SELECT * FROM video_detail " + 
+ 								"WHERE item_id = '" + 
+ 								Video_no_text.getText() +"'";

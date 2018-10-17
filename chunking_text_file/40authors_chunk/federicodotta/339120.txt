@@ -1,0 +1,5 @@
+    byte[] processPayload(
+            byte[] currentPayload,
+            byte[] originalPayload,
+            byte[] baseValue);
+}

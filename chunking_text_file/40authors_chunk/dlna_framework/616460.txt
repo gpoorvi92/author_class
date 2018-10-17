@@ -1,0 +1,10 @@
+			return DEFAULT_PORT;
+		}
+	}
+
+	public static final String getRequestHostURL(String host, int port)
+	{
+		String reqHost = "http://" + host + ":" + port;
+		return reqHost;
+	}
+	

@@ -1,0 +1,10 @@
+
+    /// public abstract void java.awt.dnd.DropTargetListener.dragOver(java.awt.dnd.DropTargetDragEvent)
+
+    public native void __dragOver( java.awt.dnd.DropTargetDragEvent dtde );
+
+    public void dragOver( java.awt.dnd.DropTargetDragEvent dtde ) {
+        __dragOver( dtde );
+    }
+
+    /// public abstract void java.awt.dnd.DropTargetListener.dropActionChanged(java.awt.dnd.DropTargetDragEvent)

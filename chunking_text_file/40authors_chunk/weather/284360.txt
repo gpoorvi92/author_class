@@ -1,0 +1,9 @@
+        long timeInterval = Math.abs(date.getTime() - mBeginDate.getTime());
+        if (distance > 10000){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+}

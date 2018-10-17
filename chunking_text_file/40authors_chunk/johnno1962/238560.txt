@@ -1,0 +1,10 @@
+    public native void __changeSelection( int arg0, int arg1, boolean arg2, boolean arg3 );
+
+    boolean entered_changeSelection_0;
+
+    public void changeSelection( int arg0, int arg1, boolean arg2, boolean arg3 ) {
+        if ( !entered_changeSelection_0 ) {
+            entered_changeSelection_0 = true;
+            __changeSelection( arg0, arg1, arg2, arg3 );
+            entered_changeSelection_0 = false;
+        }

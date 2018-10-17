@@ -1,0 +1,10 @@
+	        StackTraceElement[] sts = ex.getStackTrace();
+
+	        if (name != null) {
+                sb.append(name+" - "+ex+"\r\n");
+            } else {
+                sb.append(ex+"\r\n");
+            }
+	        
+	        if (sts != null && sts.length > 0) {
+	            for (StackTraceElement st:sts) {

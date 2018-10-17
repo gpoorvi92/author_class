@@ -1,0 +1,10 @@
+        V3Radiator v3 = new V3Radiator(aList);
+        for (int z = 0; z < 20; z++)
+        {
+            RetentionBot ret = new RetentionBot(aList);
+        }
+        
+        //adding this to make sure the power is correct:
+        int totalPower = 0;
+        for(Object o : aList)
+        {

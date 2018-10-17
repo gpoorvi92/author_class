@@ -1,0 +1,10 @@
+	}
+	public void setOrderLhjWeights(Set<OrderLhjWeight> orderLhjWeights) {
+		this.orderLhjWeights = orderLhjWeights;
+	}
+	@Column
+	public String getOrderCreateType() {
+		return orderCreateType;
+	}
+	public void setOrderCreateType(String orderCreateType) {
+		this.orderCreateType = orderCreateType;

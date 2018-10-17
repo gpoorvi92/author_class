@@ -1,0 +1,10 @@
+    }
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetUserApp()).compareTo(other.isSetUserApp());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetUserApp()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.userApp, other.userApp);

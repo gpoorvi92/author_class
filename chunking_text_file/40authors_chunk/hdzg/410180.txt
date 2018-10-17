@@ -1,0 +1,10 @@
+			if(hero.armyWithMe>=800000){//身上的军队太多
+				int a= 80000+(int)(Math.random()*20000);
+				hero.armyWithMe -=a;
+				
+				if(hero.food > 1000){
+					hero.food -= (int)(Math.random()*500);
+				}	
+				if(hero.totalMoney > 1000){
+					hero.totalMoney -=(int)(Math.random()*500);
+				}

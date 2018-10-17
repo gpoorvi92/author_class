@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("AsyncMode"),
+        makeProperty("AutoToneDuration"),
+        makeProperty("AutoToneFrequency"),
+        makeProperty("CharacterSet"),
+        makeProperty("CharacterSetList"),
+        makeProperty("Clocks"),
+        makeProperty("CurrentUnitID"),

@@ -1,0 +1,5 @@
+            }
+        }
+        return triangle == null ? 0 : triangle.get(0).get(0);
+    }
+}

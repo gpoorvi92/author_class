@@ -1,0 +1,8 @@
+     *  If want to persistently turn off Camera Upload tasks, should turn off the Camera upload service in Settings Menu.
+     */
+    public void cancelUploadTasks() {
+        if (txService != null) {
+            txService.cancelAllUploadTasks();
+        }
+    }
+}

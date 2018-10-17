@@ -1,0 +1,10 @@
+/**
+ * This panel uses an XML file to describe its components and their grid bag layout positions.
+ */
+public class GridBagPane extends JPanel
+{
+   private GridBagConstraints constraints;
+
+   /**
+    * Constructs a grid bag pane.
+    * @param filename the name of the XML file that describes the pane's components and their

@@ -1,0 +1,10 @@
+	 }
+	 public void produceCertificate()
+	 {
+	 	listPane = new JTextArea() {
+      Image image = imageIcon.getImage();
+      {
+        setOpaque(false);
+      } 
+
+      public void paint(Graphics g) {

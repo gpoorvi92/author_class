@@ -1,0 +1,10 @@
+			repaint();
+		} /*else if(freeDrawing)
+		{
+			if(freeShape != null)
+			{
+				freeShape.updatePath(m_x, m_y);
+				repaint();
+				System.out.println("drawing");
+			}
+		}*/

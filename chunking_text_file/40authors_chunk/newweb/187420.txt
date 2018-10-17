@@ -1,0 +1,10 @@
+					name = c.getValue();
+				}else if(c.getName().equals("loginPassword")){
+					password = c.getValue();
+				}
+			}
+		}
+		if(!name.equals("") && !password.equals("")){//若cookie值有效
+			User user = userService.findUserByName(name);
+			if(user != null && user.isValid()){
+				if(user.getPassword().equals(password)){//若符合自动登陆条件，记入session，返回true

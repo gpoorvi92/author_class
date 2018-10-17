@@ -1,0 +1,10 @@
+
+    private static Charset instance;
+
+    /**
+     * @param canonicalName
+     * @param aliases
+     */
+    private UnknownCharset() {
+        super("void", null);
+    }

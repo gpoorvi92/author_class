@@ -1,0 +1,10 @@
+ */
+@SuppressWarnings("serial")
+public class NetworkError extends VolleyError {
+    public NetworkError() {
+        super();
+    }
+
+    public NetworkError(Throwable cause) {
+        super(cause);
+    }

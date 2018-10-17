@@ -1,0 +1,10 @@
+      catch (XPathExpressionException e)
+      {
+         result.setText("" + e);
+      }
+      catch (Exception e) // reflection exception
+      {
+         e.printStackTrace();
+      }
+   }
+}

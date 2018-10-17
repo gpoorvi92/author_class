@@ -1,0 +1,10 @@
+	        Log.i(tag, ls);
+	    }
+	}
+	
+	public void i(Object str) {
+		if (isDebug) {
+			info(str);
+		}
+	}
+	

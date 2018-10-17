@@ -1,0 +1,10 @@
+            }
+        }
+        if (canBreak[0] == false) return res;
+        wordBreakRe(s, dict, "", 0, res);
+        return res;
+    }
+    public void wordBreakRe(String s, Set<String> dict, String path, int start, List<String> res) {
+        if (start == s.length()) {
+            res.add(path);
+            return;

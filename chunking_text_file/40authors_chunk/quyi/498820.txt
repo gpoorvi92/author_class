@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetFileDescription()).compareTo(other.isSetFileDescription());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetFileDescription()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.fileDescription, other.fileDescription);

@@ -1,0 +1,10 @@
+		message.setVideoHeight(videoHeight);
+		message.setAudioCodec(acodec);
+		message.setVideoCodec(vcodec);
+		message.setMediaFile(media);
+		message.setGuid(guid);
+		message.setCommandType(type);
+		
+		return message;
+	}
+

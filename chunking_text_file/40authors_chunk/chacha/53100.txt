@@ -1,0 +1,10 @@
+	/**
+	 * 输出WARN级别的调试信息
+	 * 
+	 * @param message
+	 *            调试信息
+	 */
+	public void warn(Object message) {
+		prnLog.warn(message);
+	}
+

@@ -1,0 +1,5 @@
+  public static final int OPOS_EVRW_LOGOVERFLOW           = 207;
+  public static final int OPOS_EVRW_DAILYLOGOVERFLOW      = 208;
+  public static final int OPOS_EVRW_DEFICIENT             = 209;
+  public static final int OPOS_EVRW_OVERDEPOSIT           = 210;
+}

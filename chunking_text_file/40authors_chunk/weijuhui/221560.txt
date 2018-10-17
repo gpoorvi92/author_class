@@ -1,0 +1,10 @@
+    @Override
+    public void consumeContent() throws IOException,
+    UnsupportedOperationException {
+        if (isStreaming()) {
+            throw new UnsupportedOperationException(
+            "Streaming entity does not implement #consumeContent()");
+        }
+    }
+
+    @Override

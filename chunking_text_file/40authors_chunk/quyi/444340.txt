@@ -1,0 +1,10 @@
+      this.dynamicCheckResult = new DynamicCheckResultData(other.dynamicCheckResult);
+    }
+  }
+
+  public AppCheckResult deepCopy() {
+    return new AppCheckResult(this);
+  }
+
+  @Override
+  public void clear() {

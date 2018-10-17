@@ -1,0 +1,10 @@
+import javax.swing.JButton;
+
+public class Client_enterFrame extends JFrame implements ActionListener, KeyListener{
+	public Client_enterFrame(Client client) {
+		this.client = client;
+		try {
+			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+		} catch (ClassNotFoundException e1) {
+			e1.printStackTrace();
+		} catch (InstantiationException e1) {

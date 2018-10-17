@@ -1,0 +1,10 @@
+						EntityModifierIrregularExample.this.runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								Toast.makeText(EntityModifierIrregularExample.this, "Sequence started.", Toast.LENGTH_LONG).show();
+							}
+						});
+					}
+
+					@Override
+					public void onModifierFinished(final IModifier<IEntity> pEntityModifier, final IEntity pEntity) {

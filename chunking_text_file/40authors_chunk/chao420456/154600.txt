@@ -1,0 +1,10 @@
+		} catch (InstantiationException e1) {
+			e1.printStackTrace();
+		} catch (IllegalAccessException e1) {
+			e1.printStackTrace();
+		} catch (UnsupportedLookAndFeelException e1) {
+			e1.printStackTrace();
+		}
+		setIconImage(Toolkit.getDefaultToolkit().getImage("Images/socket.jpg"));
+		WinCenter.center(this);
+		setTitle(title);

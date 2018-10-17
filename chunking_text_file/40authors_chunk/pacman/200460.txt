@@ -1,0 +1,10 @@
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月3日 下午7:22:59
+ */
+public class ResourceProcessingStep extends StepBase {
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.schedule.IStep#execute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override

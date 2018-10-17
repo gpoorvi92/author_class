@@ -1,0 +1,10 @@
+    this();
+    this.app_id = app_id;
+    this.app_name = app_name;
+    this.versioncode = versioncode;
+    this.url = url;
+    this.app_size = app_size;
+    setApp_sizeIsSet(true);
+    this.minsdkversion = minsdkversion;
+    this.apk_md5 = apk_md5;
+    this.notify_callback_url = notify_callback_url;

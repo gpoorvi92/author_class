@@ -1,0 +1,10 @@
+   {
+      if (callbackHandler == null) throw new LoginException("no handler");
+
+      NameCallback nameCall = new NameCallback("username: ");
+      PasswordCallback passCall = new PasswordCallback("password: ", false);
+      try
+      {
+         callbackHandler.handle(new Callback[] { nameCall, passCall });
+      }
+      catch (UnsupportedCallbackException e)

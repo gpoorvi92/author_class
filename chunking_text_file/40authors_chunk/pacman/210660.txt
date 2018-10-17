@@ -1,0 +1,10 @@
+	 */
+	public Integer getTid() {
+		return this.tid;
+	}
+
+	/**
+	 * Private field tid Setter method.
+	 * @param tid 
+	 */
+	public void setTid(Integer tid) {

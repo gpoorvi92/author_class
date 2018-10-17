@@ -1,0 +1,10 @@
+      this.success = null;
+      this.ue = null;
+    }
+
+    public String getSuccess() {
+      return this.success;
+    }
+
+    public reportEngineConfig_result setSuccess(String success) {
+      this.success = success;

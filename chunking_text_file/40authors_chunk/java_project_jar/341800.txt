@@ -1,0 +1,10 @@
+        if(delegates == null)
+        {
+            this.delegates = (Comparator[])NO_COMPARATORS;
+        } else
+        {
+            this.delegates = (Comparator[])new Comparator[delegates.length];
+            System.arraycopy(delegates, 0, this.delegates, 0, delegates.length);
+        }
+    }
+

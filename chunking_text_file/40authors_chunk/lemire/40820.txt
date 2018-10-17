@@ -1,0 +1,10 @@
+                    @Override
+                    public boolean hasNext() {
+                        return this.k >= 0;
+                    }
+
+                    @Override
+                    public EWAHPointer next() {
+                        EWAHPointer answer = UpdateableBitmapFunction.this.rw[this.k];
+                        this.k = UpdateableBitmapFunction.this.litwlist.nextSetBit(this.k + 1);
+                        return answer;

@@ -1,0 +1,10 @@
+        try {
+            long id = mId;
+            b = BitmapManager.instance().getThumbnail(mContentResolver, id,
+                    Images.Thumbnails.MICRO_KIND, null, false);
+        } catch (Throwable ex) {
+            Log.e(TAG, "miniThumbBitmap got exception", ex);
+            return null;
+        }
+        if (b != null) {
+            b = Util.rotate(b, getDegreesRotated());

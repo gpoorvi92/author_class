@@ -1,0 +1,10 @@
+		lookPoker("曹操", caoCao, hm);
+		lookPoker("刘备", liuBei, hm);
+		lookPoker("孙权", sunQuan, hm);
+		lookPoker("底牌", diPai, hm);
+	}
+
+	// 写一个功能实现遍历
+	public static void lookPoker(String name, TreeSet<Integer> ts,
+			HashMap<Integer, String> hm) {
+		System.out.print(name + "的牌是：");

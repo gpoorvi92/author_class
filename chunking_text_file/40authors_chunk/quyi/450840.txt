@@ -1,0 +1,10 @@
+        return new operateEngine_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.Result> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<com.nercis.isscp.idl.Result>() { 
+          public void onComplete(com.nercis.isscp.idl.Result o) {
+            operateEngine_result result = new operateEngine_result();
+            result.success = o;
+            try {

@@ -1,0 +1,10 @@
+    public ModelAndView inactive(String[] ids) {
+        try {
+            userService.inactive(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/resetPwd")

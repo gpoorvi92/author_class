@@ -1,0 +1,10 @@
+
+    private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField USER_APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("userAppId", org.apache.thrift.protocol.TType.STRING, (short)2);
+    private static final org.apache.thrift.protocol.TField PLOTS_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("plotsStatus", org.apache.thrift.protocol.TType.MAP, (short)3);
+    private static final org.apache.thrift.protocol.TField USED_PERMISSIONS_FIELD_DESC = new org.apache.thrift.protocol.TField("usedPermissions", org.apache.thrift.protocol.TType.LIST, (short)4);
+    private static final org.apache.thrift.protocol.TField STC_RD_FIELD_DESC = new org.apache.thrift.protocol.TField("stcRD", org.apache.thrift.protocol.TType.STRUCT, (short)5);
+    private static final org.apache.thrift.protocol.TField DYC_RD_FIELD_DESC = new org.apache.thrift.protocol.TField("dycRD", org.apache.thrift.protocol.TType.STRUCT, (short)6);
+    private static final org.apache.thrift.protocol.TField VIR_RD_FIELD_DESC = new org.apache.thrift.protocol.TField("virRD", org.apache.thrift.protocol.TType.STRUCT, (short)7);
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();

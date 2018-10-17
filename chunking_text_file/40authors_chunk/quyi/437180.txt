@@ -1,0 +1,10 @@
+        {
+          oprot.writeI32(struct.sensitive.size());
+          for (String _iter56 : struct.sensitive)
+          {
+            oprot.writeString(_iter56);
+          }
+        }
+      }
+      if (struct.isSetAutoRunMonitor()) {
+        {

@@ -1,0 +1,10 @@
+        oprot.writeString(struct.MD5);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(CHECK_ENGINE_NUM_FIELD_DESC);
+      oprot.writeI32(struct.checkEngineNum);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(POSITIVES_FIELD_DESC);
+      oprot.writeI32(struct.positives);
+      oprot.writeFieldEnd();
+      if (struct.virusEngine != null) {

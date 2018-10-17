@@ -1,0 +1,10 @@
+	@OneToMany(mappedBy = "small", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<OrderSmall> getOrderSmalls() {
+		return orderSmalls;
+	}
+	public void setOrderSmalls(Set<OrderSmall> orderSmalls) {
+		this.orderSmalls = orderSmalls;
+	}
+	@Column(columnDefinition="int default 0 ")
+	public int getBuycount() {
+		return buycount;

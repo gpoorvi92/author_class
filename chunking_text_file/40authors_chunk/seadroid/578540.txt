@@ -1,0 +1,10 @@
+    public IImageList getContainer() {
+        return mContainer;
+    }
+
+    public long getDateTaken() {
+        return mDateTaken;
+    }
+
+    public int getDegreesRotated() {
+        return 0;

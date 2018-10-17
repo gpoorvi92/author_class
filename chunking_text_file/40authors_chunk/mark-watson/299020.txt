@@ -1,0 +1,10 @@
+		}
+		// replace a character in each location in the word:
+		for (int i=0; i < wordL; ++i) {
+			for (char ch='a'; ch <= 'z'; ++ch) {
+				possible.add(word.substring(0, i) + ch +
+						     word.substring(i+1));
+			}
+		}
+		// add in a character in each location in the word:
+		for (int i=0; i <= wordL; ++i) {

@@ -1,0 +1,10 @@
+    
+    public void updatePath(float x, float y)
+    {
+    	if(first)
+    	{
+    		linePath.moveTo(x, y);
+    		first = false;
+    	} else 
+    	{
+    		linePath.lineTo(x, y);

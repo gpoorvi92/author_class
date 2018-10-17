@@ -1,0 +1,5 @@
+        StreamHelper.closeStream(inputStream);
+
+        return text;
+    }
+}

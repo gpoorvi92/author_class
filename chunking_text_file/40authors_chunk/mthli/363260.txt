@@ -1,0 +1,10 @@
+
+      add(panel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Copies the chooser's color into the system clipboard.
+    */
+   private void copy()
+   {

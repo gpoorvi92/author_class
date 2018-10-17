@@ -1,0 +1,10 @@
+    public static RpcClientManager getInstance()
+    {
+        return instance;
+    }
+    private final Map<String, ChatServerRpcClient> chatServerRpcClientMap = new ConcurrentHashMap<>();
+    private final Map<String, GameServerRpcClient> gameServerRpcClientMap = new ConcurrentHashMap<>();
+    private final Map<String, ChatClient>          chatClientMap          = new ConcurrentHashMap<>();
+    private RpcClientManager()
+    {
+    }

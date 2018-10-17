@@ -1,0 +1,10 @@
+                for (ChatServerRpcClient client : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.GetOnlineInfoResp resp = client.getOnlineInfo(req);
+                    for (RpcDto.OnlineInfoDTO each : resp.getOnlineInfoDtoList())
+                    {
+                        OnlineInfoEntity info = OnlineInfoEntity.fromDTO(each);
+                        info.setNum(resp.getTotalNum());
+                        info.setAddTime(this.getLastStart());
+                        info.setModifyTime(this.getLastStart());
+                        DaoManager.getLocalDao().saveOrUpdate(info);

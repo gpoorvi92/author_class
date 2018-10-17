@@ -1,0 +1,10 @@
+        return clone;
+    }
+
+
+   @Override
+   public void swap(final Buffer32 other) {
+       if(other instanceof IntArray) {
+           int[] tmp = this.buffer;
+           this.buffer = ((IntArray) other).buffer;
+           ((IntArray) other).buffer = tmp;

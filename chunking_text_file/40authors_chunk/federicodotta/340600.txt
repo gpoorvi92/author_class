@@ -1,0 +1,10 @@
+    @Override
+    public IHttpRequestResponse[] getHttpMessages()
+    {
+        return httpMessages;
+    }
+
+    @Override
+    public IHttpService getHttpService()
+    {
+        return httpService;

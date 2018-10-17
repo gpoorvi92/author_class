@@ -1,0 +1,10 @@
+  }
+
+  public String getApp_name() {
+    return this.app_name;
+  }
+
+  public UserApp setApp_name(String app_name) {
+    this.app_name = app_name;
+    return this;
+  }

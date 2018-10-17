@@ -1,0 +1,10 @@
+	/**
+	 * @return The currently displayed time
+	 */
+	protected Calendar getTime() {
+		return mContainer.getTime();
+	}
+
+	/**
+	 * This method sets the title of the dialog
+	 */

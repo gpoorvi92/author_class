@@ -1,0 +1,10 @@
+      setArray(Arrays.copyOf(array, s));
+      editor.setValue(array);
+   }
+
+   /**
+    * This method is called when the user wants to change the currently selected array value.
+    */
+   public void changeValue()
+   {
+      double v = (Double) valueField.getValue(); 

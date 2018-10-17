@@ -1,0 +1,9 @@
+     */
+    private int actualSizeInWords = 1;
+    
+    /**
+     * The buffer
+     */
+    private IntBuffer buffer;
+    
+}

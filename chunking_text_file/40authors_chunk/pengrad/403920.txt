@@ -1,0 +1,10 @@
+    public String query() {
+        return query;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ChosenInlineResult that = (ChosenInlineResult) o;

@@ -1,0 +1,10 @@
+                    continue;
+                //if (s.indexOf("-") > -1) continue;
+                //s = s.toLowerCase();
+                if (s.endsWith(".")) {
+                    // first check for abreviations like "N.J.":
+                    int index = s.indexOf(".");
+                    if (index < (s.length() - 1)) {
+                        words.add(s);
+                    } else {
+                        words.add(s.substring(0, s.length() - 1));

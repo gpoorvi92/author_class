@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch11.stc;
+
+/**
+ * 对任务处理的抽象。
+ * 
+ * @author Viscent Huang
+ *

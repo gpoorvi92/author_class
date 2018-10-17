@@ -1,0 +1,10 @@
+            {
+               setTitle(titleField.getText());
+            }
+
+            public void insertUpdate(DocumentEvent evt)
+            {
+               setTitle(titleField.getText());
+            }
+
+            public void removeUpdate(DocumentEvent evt)

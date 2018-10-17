@@ -1,0 +1,3 @@
+		imm.hideSoftInputFromWindow(number_dt.getWindowToken(), 0); 
+	}
+}

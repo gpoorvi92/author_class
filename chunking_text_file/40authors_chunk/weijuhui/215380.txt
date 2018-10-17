@@ -1,0 +1,10 @@
+    private int minuteInterval;
+
+    public SliderContainer(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        setOrientation(VERTICAL);
+    }
+
+    @Override
+    protected void onFinishInflate() {
+        final int childCount = getChildCount();

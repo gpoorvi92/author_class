@@ -1,0 +1,10 @@
+
+    public static final boolean isApi16_JellyBeanOrLater() {
+        return getSDKVersion() >= JELLY_BEAN;
+    }
+
+    public static final boolean isApi17_UnknownOrLater() {
+        return getSDKVersion() >= ANDROID_UNKNOWN;
+    }
+
+    public static boolean supportARMv7a() {

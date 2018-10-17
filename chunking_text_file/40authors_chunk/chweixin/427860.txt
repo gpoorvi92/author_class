@@ -1,0 +1,10 @@
+	 * @return 登录帐号。
+	 * */
+	public String getUserSign() {
+		return userSign;
+	}
+	/**
+	 * 设置登录帐号。
+	 * @param userSign
+	 * 登录帐号。
+	 * */

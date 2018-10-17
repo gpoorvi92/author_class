@@ -1,0 +1,10 @@
+    public void    accessDailyLog(int sequenceNumber, int type, int timeout)
+                       throws JposException;
+    public void    authorizeCompletion(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;
+    public void    authorizePreSales(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;
+    public void    authorizeRefund(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;
+    public void    authorizeSales(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;

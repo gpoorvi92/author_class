@@ -1,0 +1,10 @@
+			smalls[count++] = small;
+		}
+		return smalls;
+	}
+
+
+	@Override
+	public Small findSmallByIdBindCut(int smallID,int customerID,String orderID) {
+		Small small =  smallDao.selectSmallById(smallID);
+		Small returnSmall = (Small) small.clone();

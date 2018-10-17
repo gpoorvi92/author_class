@@ -1,0 +1,10 @@
+    List<VirusEngine> virusEngine,
+    String description)
+  {
+    this();
+    this.checkTime = checkTime;
+    this.MD5 = MD5;
+    this.checkEngineNum = checkEngineNum;
+    setCheckEngineNumIsSet(true);
+    this.positives = positives;
+    setPositivesIsSet(true);

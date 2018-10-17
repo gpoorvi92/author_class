@@ -1,0 +1,10 @@
+        if (resources == null)
+            return null;
+
+        return resources.getColorStateList(id);
+    }
+
+    public static String getTextFile(Context context, int id) {
+        InputStream inputStream = context.getResources().openRawResource(id);
+
+        String text = StreamHelper.readStreamLineByLine(inputStream);

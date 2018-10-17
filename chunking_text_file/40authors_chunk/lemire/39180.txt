@@ -1,0 +1,8 @@
+       neg = IteratorUtil32.materialize(IteratorAggregation32.not(b.getIteratingRLW()));
+       neg.setSizeInBitsWithinLastWord(b.sizeInBits());
+       x= b.clone();
+       x.not();
+       assertTrue(x.equals(neg));
+   }
+
+}

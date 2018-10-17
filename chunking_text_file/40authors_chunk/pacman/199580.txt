@@ -1,0 +1,10 @@
+	void delete(MediainfoModel mi);
+	
+	/**
+	 * save.
+	 * 
+	 * @param task
+	 */
+	void save(MediainfoModel mi);
+	
+	/**

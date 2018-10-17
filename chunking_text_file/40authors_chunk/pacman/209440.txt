@@ -1,0 +1,10 @@
+	private double cpuUser;
+	
+	@Transmit(key = "sys")
+	private double cpuSys;
+	
+	@Transmit(key = "nice")
+	private double cpuNice;
+	
+	@Transmit(key = "idle")
+	private double cpuIdle;

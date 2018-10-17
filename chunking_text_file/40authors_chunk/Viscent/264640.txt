@@ -1,0 +1,10 @@
+		super(respDelayConf, timestampMaxOffset);
+	}
+
+	@Override
+	public SimulatedRequest newRequest() {
+		return new SimulatedRequest() {
+
+			@Override
+			public void printLogs(Logger logger) {
+				final int internalDelay = genInternalDelay();

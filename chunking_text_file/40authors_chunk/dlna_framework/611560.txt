@@ -1,0 +1,10 @@
+	{
+		rootNode = node;
+	}
+	
+	private Node getRootNode()
+	{
+		return rootNode;
+	}
+	
+	////////////////////////////////////////////////

@@ -1,0 +1,10 @@
+
+   public ClassLoaderFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+      setLayout(new GridBagLayout());
+      add(new JLabel("Class"), new GBC(0, 0).setAnchor(GBC.EAST));
+      add(nameField, new GBC(1, 0).setWeight(100, 0).setAnchor(GBC.WEST));
+      add(new JLabel("Key"), new GBC(0, 1).setAnchor(GBC.EAST));
+      add(keyField, new GBC(1, 1).setWeight(100, 0).setAnchor(GBC.WEST));
+      JButton loadButton = new JButton("Load");

@@ -1,0 +1,10 @@
+	}
+
+	public QueryAccountResponse(QueryAccountResponseBody body) {
+		super();
+		this.body = body;
+	}
+	
+	public QueryAccountResponse(int result,QueryAccountResponseBody body) {
+		super(result);
+		this.body = body;

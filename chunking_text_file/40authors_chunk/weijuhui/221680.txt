@@ -1,0 +1,10 @@
+			result = onRequestFailed(error, content);
+		}
+	};
+
+	/**
+	 * @return the response code for the last request, might be usefull
+	 *         sometimes
+	 */
+	public int getResponseCode() {
+		return responseCode;

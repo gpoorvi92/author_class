@@ -1,0 +1,7 @@
+	public int get() {
+		synchronized (this) {
+			return counter;
+		}
+
+	}
+}

@@ -1,0 +1,10 @@
+    boolean this_present_jvmName = true && this.isSetJvmName();
+    boolean that_present_jvmName = true && that.isSetJvmName();
+    if (this_present_jvmName || that_present_jvmName) {
+      if (!(this_present_jvmName && that_present_jvmName))
+        return false;
+      if (!this.jvmName.equals(that.jvmName))
+        return false;
+    }
+
+    boolean this_present_jvmVersion = true && this.isSetJvmVersion();

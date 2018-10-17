@@ -1,0 +1,10 @@
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/resetPwd")
+    public ModelAndView resetPwd(String[] ids) {
+        merchantService.resetPwd(ids);
+        return ajaxDoneSuccess("操作成功");
+    }
+

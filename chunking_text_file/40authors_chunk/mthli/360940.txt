@@ -1,0 +1,10 @@
+      strings.add("zebra");
+      strings.add("\u00C5ngstr\u00F6m");
+      strings.add("A\u030angstro\u0308m");
+      strings.add("Angstrom");
+      strings.add("Able");
+      strings.add("office");
+      strings.add("o\uFB03ce");
+      strings.add("Java\u2122");
+      strings.add("JavaTM");
+      updateDisplay();

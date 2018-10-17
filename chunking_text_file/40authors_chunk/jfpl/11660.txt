@@ -1,0 +1,10 @@
+				"assets://clpp/car_" + clpp1Str + ".jpg"));
+		if (StringUtil.isNull(vio)) {
+			refreshBindVeh(acd.getStringValue("bind_name"));
+		}
+	}
+
+	public void addBindVehClick(View v) {
+		changeLayout(0);
+	}
+

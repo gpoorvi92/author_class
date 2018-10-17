@@ -1,0 +1,10 @@
+	/**
+	 * 按指定比例缩放
+	 * @param source
+	 * @param targetWidth
+	 * @param targetHeight
+	 * @return
+	 */
+	public static Bitmap prorate(Bitmap source, int targetWidth, int targetHeight) {
+		if (source == null) return null;
+		

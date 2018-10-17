@@ -1,0 +1,10 @@
+			final AbstractCommonData acd) {
+		new AlertDialog.Builder(ctx).setItems(
+				R.array.chat_text_long_click_dialog_arr,
+				new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						String text = acd.getStringValue("chat_msg");
+						switch (which) {
+						case 1:

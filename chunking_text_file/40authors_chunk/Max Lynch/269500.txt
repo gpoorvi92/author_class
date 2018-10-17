@@ -1,0 +1,10 @@
+		int m_y = e.getY();
+		
+		s_x1 = m_x;
+		s_y1 = m_y;
+		
+		down = new Point(s_x1, s_y1);
+		
+		if(getSelected() != null)
+			selected = null;
+			

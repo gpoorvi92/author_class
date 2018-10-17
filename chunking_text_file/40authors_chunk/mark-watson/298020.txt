@@ -1,0 +1,10 @@
+      }
+      reader.close();
+      return ret;
+  }
+  
+  private static final String fileSeparator = System.getProperty("file.separator");
+  
+  private boolean deleteFilePath(File filePath) {
+    System.out.println("deleteFile(" + filePath + ")");
+    if (filePath == null) {

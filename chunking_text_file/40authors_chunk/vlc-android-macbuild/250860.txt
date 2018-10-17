@@ -1,0 +1,10 @@
+     */
+    private native void nativeInitEx(boolean verbose, String[] params)
+            throws LibVlcException;
+
+    /**
+     * Close the libvlc C library
+     * 
+     * @note mLibVlcInstance should be 0 after a call to destroy()
+     */
+    private native void nativeDestroy();

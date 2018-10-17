@@ -1,0 +1,10 @@
+ * }
+ */
+public class Solution {
+    public boolean isBalanced(TreeNode root) {
+        if (root == null) return true;
+        return isBalancedRe(root) > -1;
+    }
+    public int isBalancedRe(TreeNode root) {
+        if (root == null) return 0;
+        int left = isBalancedRe(root.left);

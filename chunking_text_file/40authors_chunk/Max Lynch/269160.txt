@@ -1,0 +1,10 @@
+		
+		
+		
+		
+		setLayout(null);
+		setBackground(Color.white);
+		addMouseListener(this);
+		addMouseMotionListener(this);
+		addKeyListener(new KeyAdapter() {
+			public void keyPressed(KeyEvent e)

@@ -1,0 +1,10 @@
+    /**
+     * 判断字符串有效性
+     */
+    public final static boolean valid(String src) {
+        return !(src == null || "".equals(src.trim()));
+    }
+
+    /**
+     * 判断一组字符串是否有效
+     * @param src

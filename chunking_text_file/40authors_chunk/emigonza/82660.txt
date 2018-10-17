@@ -1,0 +1,10 @@
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("OutputID"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("ProtocolMask"),
+        makeProperty("ReadTimerInterval"),
+        makeProperty("TagCount")
+      };
+

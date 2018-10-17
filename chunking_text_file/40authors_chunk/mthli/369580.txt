@@ -1,0 +1,10 @@
+      addButton("6", insert);
+      addButton("*", command);
+
+      addButton("1", insert);
+      addButton("2", insert);
+      addButton("3", insert);
+      addButton("-", command);
+
+      addButton("0", insert);
+      addButton(".", insert);

@@ -1,0 +1,10 @@
+		debugger = target;
+		model = lsm;
+		tm=ttm;
+		
+	}
+	public void valueChanged(ListSelectionEvent lse) {
+
+		if (!lse.getValueIsAdjusting()) {
+
+			// skip all the intermediate events . . .

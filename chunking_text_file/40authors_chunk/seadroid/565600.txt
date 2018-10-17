@@ -1,0 +1,10 @@
+                validAvatars.add(avatar);
+            }
+        }
+
+        for (Avatar avatar : validAvatars) {
+            ContentValues values = new ContentValues();
+            values.put(AVATAR_COLUMN_SIGNATURE, avatar.getSignature());
+            values.put(AVATAR_COLUMN_URL, avatar.getUrl());
+            values.put(AVATAR_COLUMN_MTIME, avatar.getMtime());
+            /*values.put(AVATAR_COLUMN_IS_DEFAULT, (avatar.isIs_default() ? 1 : 0));*/

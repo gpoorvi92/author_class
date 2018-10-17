@@ -1,0 +1,10 @@
+		userApp.setAppFilePath(appPath);
+		List<UserApp> userApps = new ArrayList<UserApp>();
+		userApps.add(userApp);
+		appSendMessage.setUserApps(userApps);
+		message.setObject(appSendMessage);
+		producer.send(message);
+		// TODO record app being sent
+
+		session.commit();
+		// connection.close();

@@ -1,0 +1,10 @@
+
+		wse.doSomething();
+		Thread.sleep(3500);
+
+	}
+
+	private class Producer extends AbstractTerminatableThread {
+		private int i = 0;
+
+		@Override

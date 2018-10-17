@@ -1,0 +1,10 @@
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.dycRD, other.dycRD);
+        if (lastComparison != 0) {
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetVirRD()).compareTo(other.isSetVirRD());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetVirRD()) {

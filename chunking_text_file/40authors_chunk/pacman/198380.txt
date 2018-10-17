@@ -1,0 +1,10 @@
+		} else {
+			
+			packFiles.add(mediaFile);
+		}
+		
+		if (!FileHelper.exists(xmlFile)) {
+			
+			throw new FileNotFoundException(xmlFile);
+		} else {
+			

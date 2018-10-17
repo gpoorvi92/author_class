@@ -1,0 +1,10 @@
+    public final static long JVMfreeMem() {
+        return Runtime.getRuntime().freeMemory() / kb;
+    }
+
+    /**
+     * 虚拟机使用最大内存量
+     *
+     */
+    public final static long JVMmaxMem() {
+        return Runtime.getRuntime().maxMemory() / kb;

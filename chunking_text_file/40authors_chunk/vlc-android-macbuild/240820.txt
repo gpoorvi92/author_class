@@ -1,0 +1,10 @@
+        public boolean onInfo(AbsMediaPlayer mp, int what, int extra);
+    }
+
+    public interface OnPreparedListener {
+        public void onPrepared(AbsMediaPlayer mp);
+    }
+
+    public interface OnVideoSizeChangedListener {
+        public void onVideoSizeChanged(AbsMediaPlayer mp, int width, int height);
+    }

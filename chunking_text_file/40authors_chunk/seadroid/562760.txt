@@ -1,0 +1,10 @@
+    public Account getItem(int position) {
+        return items.get(position);
+    }
+
+    public void setItem(Account item, int listviewPosition) {
+        items.set(listviewPosition, item);
+        notifyDataSetChanged();
+    }
+
+    public void setItems(List<Account> items) {

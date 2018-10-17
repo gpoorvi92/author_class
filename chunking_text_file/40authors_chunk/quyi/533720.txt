@@ -1,0 +1,10 @@
+    boolean that_present_statement = true && that.isSetStatement();
+    if (this_present_statement || that_present_statement) {
+      if (!(this_present_statement && that_present_statement))
+        return false;
+      if (!this.statement.equals(that.statement))
+        return false;
+    }
+
+    boolean this_present_riskType = true && this.isSetRiskType();
+    boolean that_present_riskType = true && that.isSetRiskType();

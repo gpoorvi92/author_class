@@ -1,0 +1,10 @@
+        struct.validate();
+
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.engine != null) {
+          oprot.writeFieldBegin(ENGINE_FIELD_DESC);
+          struct.engine.write(oprot);
+          oprot.writeFieldEnd();
+        }
+        if (struct.operate != null) {
+          oprot.writeFieldBegin(OPERATE_FIELD_DESC);

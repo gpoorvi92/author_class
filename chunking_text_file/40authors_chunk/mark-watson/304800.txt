@@ -1,0 +1,10 @@
+ * @author Mark Watson
+ * @version 1.0
+ */
+
+
+public class Graph extends JFrame {
+    GraphPanel jPanel1;
+    float[] data1;
+    float[] data2;
+

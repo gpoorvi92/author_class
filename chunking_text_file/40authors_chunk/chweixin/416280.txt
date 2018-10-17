@@ -1,0 +1,10 @@
+	protected Long count(String hql, Map<String, Object> parameters) {
+		if(hql == null || hql.isEmpty()) return null;
+		Query query = this.getCurrentSession().createQuery(hql);
+		if(query != null){
+			if(parameters != null && parameters.size() > 0){
+				for(String key : parameters.keySet()){
+					query.setParameter(key, parameters.get(key));
+				}
+			}
+			return (Long)query.uniqueResult();

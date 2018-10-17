@@ -1,0 +1,10 @@
+	private static final float SIZE = 25;
+
+	private static final float[] CONTROLPOINT_1_XS = {
+		2 * (CAMERA_WIDTH / 4),
+		1 * (CAMERA_WIDTH / 4),
+		1.5f * (CAMERA_WIDTH / 4),
+		2 * (CAMERA_WIDTH / 4)
+	};
+
+	private static final float[] CONTROLPOINT_2_XS = {

@@ -1,0 +1,10 @@
+      case 26:
+        return BRICK;
+      case 27:
+        return BROADCAST_PACKAGE_REMOVED;
+      case 28:
+        return BROADCAST_SMS;
+      case 29:
+        return BROADCAST_STICKY;
+      case 30:
+        return BROADCAST_WAP_PUSH;

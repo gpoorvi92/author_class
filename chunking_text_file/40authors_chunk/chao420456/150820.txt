@@ -1,0 +1,10 @@
+		WinCenter.center(this);
+		setResizable(false);
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				jbt_exit.doClick();
+			}
+		});
+		
+		JLabel lblNewLabel = new JLabel("\u7528\u6237\u540D");

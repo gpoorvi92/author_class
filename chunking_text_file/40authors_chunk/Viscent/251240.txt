@@ -1,0 +1,10 @@
+
+	static {
+		DEFAULT_EXECUTOR = new ThreadPoolExecutor(1, 1, 8, TimeUnit.HOURS,
+		    new LinkedBlockingQueue<Runnable>(), new ThreadFactory() {
+
+			    @Override
+			    public Thread newThread(Runnable r) {
+				    Thread thread = new Thread(r, "AsyncTaskDefaultWorker");
+
+				    // 使该线程在JVM关闭时自动停止

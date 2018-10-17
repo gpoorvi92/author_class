@@ -1,0 +1,10 @@
+     * @return
+     */
+    public static int getColorIdFromName(String name, Context mContext) {
+        return mContext.getResources().getIdentifier(name, "color",
+                mContext.getPackageName());
+    }
+
+    /**
+     * 通过名称查找对应资源
+     *

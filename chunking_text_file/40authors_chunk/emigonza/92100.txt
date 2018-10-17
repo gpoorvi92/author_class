@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    readTags(int cmd,
+                          byte[] filterID,
+                          byte[] filtermask,
+                          int start,
+                          int length,
+                          int timeout,
+                          byte[] password)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)

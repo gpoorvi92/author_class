@@ -1,0 +1,10 @@
+        oprot.writeFieldBegin(JOB_PRIORITY_FIELD_DESC);
+        oprot.writeI32(struct.jobPriority.getValue());
+        oprot.writeFieldEnd();
+      }
+      if (struct.taskInfo != null) {
+        oprot.writeFieldBegin(TASK_INFO_FIELD_DESC);
+        {
+          oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRING, struct.taskInfo.size()));
+          for (Map.Entry<String, String> _iter106 : struct.taskInfo.entrySet())
+          {

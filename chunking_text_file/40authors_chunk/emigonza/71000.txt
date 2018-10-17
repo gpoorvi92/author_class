@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+public interface BaseControl
+{
+    // Properties
+    public String  getCheckHealthText() throws JposException;
+    public boolean getClaimed() throws JposException;

@@ -1,0 +1,10 @@
+    @ResponseBody
+    @RequestMapping("/zoneManage/get")
+    public String getZone(int pageNum, int pageSize)
+    {
+        //List<ZoneEntity> list = Dao.getInstance().selectList(ZoneEntity.class, pageNum, pageSize);
+        List<ZoneEntity> list = DaoManager.getLocalDao().selectList(ZoneEntity.class);
+        return JsonHelper.toJson(list);
+    }
+    @ResponseBody
+    @RequestMapping("/zoneManage/add")

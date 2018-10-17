@@ -1,0 +1,10 @@
+        mCr = cr;
+        start();
+    }
+
+    private class WorkerThread implements Runnable {
+
+        // Pick off items on the queue, one by one, and compute their bitmap.
+        // Place the resulting bitmap in the cache, then call back by executing
+        // the given runnable so things can get updated appropriately.
+        public void run() {

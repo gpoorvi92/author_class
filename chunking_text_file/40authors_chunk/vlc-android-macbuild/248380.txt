@@ -1,0 +1,10 @@
+            e.printStackTrace();
+            return null;
+        }
+
+        CpuInfo cpuInfo = new CpuInfo();
+
+        try {
+            StringBuilder infoBuilder = new StringBuilder();
+            String line;
+            while ((line = buffReader.readLine()) != null) {

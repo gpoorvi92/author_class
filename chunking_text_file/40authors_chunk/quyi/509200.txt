@@ -1,0 +1,10 @@
+        return bluetooth;
+      case 2:
+        return wifi;
+      case 3:
+        return gps;
+      case 4:
+        return camera;
+      case 5:
+        return nfc;
+      case 6:

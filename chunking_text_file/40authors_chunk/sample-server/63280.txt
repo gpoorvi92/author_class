@@ -1,0 +1,10 @@
+                            .newBuilderForType()
+                            .mergeFrom(body.array(),
+                                    body.arrayOffset() + offset,
+                                    body.readableBytes()).build();
+                } else
+                {
+                    return prototype
+                            .newBuilderForType()
+                            .mergeFrom(body.array(),
+                                    body.arrayOffset() + offset,

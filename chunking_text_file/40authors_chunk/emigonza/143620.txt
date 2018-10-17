@@ -1,0 +1,10 @@
+import jpos.config.JposRegPopulator;
+
+/**
+ * Defines an interface to load, save JposEntries
+ * @since 1.2 (NY 2K meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface XmlRegPopulator extends JposRegPopulator
+{
+    //-------------------------------------------------------------------------

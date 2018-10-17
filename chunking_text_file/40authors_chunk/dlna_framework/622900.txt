@@ -1,0 +1,10 @@
+*	01/31/03
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.upnp.event;
+
+import org.cybergarage.upnp.*;
+
+public class Subscription 

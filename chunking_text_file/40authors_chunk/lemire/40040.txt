@@ -1,0 +1,10 @@
+ * @author David McIntosh
+ * @since 0.4.0
+ */
+public interface BitmapStorage {
+
+    /**
+     * Adding words directly to the bitmap (for expert use).
+     * 
+     * This is normally how you add data to the array. So you add bits in
+     * streams of 8*8 bits.

@@ -1,0 +1,10 @@
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+
+  // Properties
+  public String  getCurrencyCode() throws JposException;
+  public void    setCurrencyCode(String currencyCode) throws JposException;
+  public int     getDataCount() throws JposException;
+  public boolean getDataEventEnabled() throws JposException;
+  public void    setDataEventEnabled(boolean dataEventEnabled)
+                     throws JposException;

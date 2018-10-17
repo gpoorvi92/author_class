@@ -1,0 +1,10 @@
+   {
+      if (0 <= i && i < extensions.length) return extensions[i];
+      else return "";
+   }
+
+   /**
+    * Sets one of the extensions property values.
+    * @param i the index of the property value
+    * @param newValue the new value at the given index
+    */

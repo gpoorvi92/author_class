@@ -1,0 +1,10 @@
+        optionals.set(0);
+      }
+      if (struct.isSetSourceAddress()) {
+        optionals.set(1);
+      }
+      if (struct.isSetSourcePort()) {
+        optionals.set(2);
+      }
+      if (struct.isSetTargetAddress()) {
+        optionals.set(3);

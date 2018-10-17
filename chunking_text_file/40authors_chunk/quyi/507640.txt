@@ -1,0 +1,10 @@
+  public AppDetectResult setFunctionStatus(Map<String,CheckResultStatus> functionStatus) {
+    this.functionStatus = functionStatus;
+    return this;
+  }
+
+  public void unsetFunctionStatus() {
+    this.functionStatus = null;
+  }
+
+  /** Returns true if field functionStatus is set (has been assigned a value) and false otherwise */

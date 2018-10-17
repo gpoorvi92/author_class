@@ -1,0 +1,10 @@
+ * A frame with a calculator panel and a menu to load and save the calculator history.
+ */
+public class CalculatorFrame extends JFrame
+{
+   private CalculatorPanel panel;
+
+   public CalculatorFrame()
+   {
+      setTitle();
+      panel = new CalculatorPanel();

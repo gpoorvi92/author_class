@@ -1,0 +1,10 @@
+    double cpuUsedPerc,
+    double freeMem,
+    double jvmFreeMem,
+    int taskQueueLimit,
+    int taskQueueNume)
+  {
+    this();
+    this.nodeId = nodeId;
+    this.cpuUsedPerc = cpuUsedPerc;
+    setCpuUsedPercIsSet(true);

@@ -1,0 +1,10 @@
+	 */
+	public int getVedioSamplingRate() {
+		return vedioSamplingRate;
+	}
+	
+	/**
+	 * @return the videoBitRate
+	 */
+	public int getVideoBitRate() {
+		return videoBitRate;

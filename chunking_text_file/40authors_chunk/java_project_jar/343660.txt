@@ -1,0 +1,10 @@
+    }
+
+    private long readLines(RandomAccessFile reader)
+        throws IOException
+    {
+        for(String line = reader.readLine(); line != null; line = reader.readLine())
+            listener.handle(line);
+
+        return reader.getFilePointer();
+    }

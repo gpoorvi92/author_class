@@ -1,0 +1,10 @@
+          struct.ire = new com.nercis.isscp.idl.InvalidRequestException();
+          struct.ire.read(iprot);
+          struct.setIreIsSet(true);
+        }
+        if (incoming.get(2)) {
+          struct.ue = new com.nercis.isscp.idl.UnavailableException();
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }

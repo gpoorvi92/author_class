@@ -1,0 +1,10 @@
+            int port = Integer.parseInt(properties.getProperty(Name + ".port"));
+            String username = properties.getProperty(Name + ".username");
+            String password = properties.getProperty(Name + ".password");
+            String remoteDir = properties.getProperty(Name + ".remoteDir");
+            String localDir = properties.getProperty(Name + ".localDir");
+            String Encoding = properties.getProperty(Name + ".Encoding");
+            boolean passiveMode = new Boolean(properties.getProperty(Name + ".passiveMode")).booleanValue();
+            FTPVo vo = new FTPVo(host, port, username, password, remoteDir, localDir, Encoding, passiveMode);
+            return new FTPUtilImpl(vo);
+        } else {

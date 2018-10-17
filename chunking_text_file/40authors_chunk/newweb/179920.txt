@@ -1,0 +1,10 @@
+		Bxg returnBxg = (Bxg) bxg.clone();
+		if(orderID != null){
+			OrderPrice op = orderPriceService.findOrderPriceByCondition("bxg",id,orderID);
+			if(op != null){
+				returnBxg.setLsprice(op.getPrice());
+				return returnBxg;
+			}else{
+				BxgPriceCut cut = null;
+				try {
+					cut = bxgPriceCutService.findBxgPriceCutByBxgIDAndCuttomerID(id,customerID);

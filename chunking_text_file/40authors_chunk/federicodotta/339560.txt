@@ -1,0 +1,9 @@
+
+    /**
+     * This method is used to retrieve the HTTP response associated with the
+     * current message (which may itself be a request).
+     *
+     * @return The HTTP response associated with the current message.
+     */
+    byte[] getResponse();
+}

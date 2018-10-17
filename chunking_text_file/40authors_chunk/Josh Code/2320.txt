@@ -1,0 +1,10 @@
+      // create the rotation matrix
+      matrix rotationM = matrix.get3By3RotationMatrix(rotationVector);
+
+            // loop through vectors
+      for (int i = 0; i < vectors.length; i++)
+      {
+          // map the current vector through the rotation matrix
+          rotationM.multiplyAndStore3By3(vectors[i]);
+      }
+    }

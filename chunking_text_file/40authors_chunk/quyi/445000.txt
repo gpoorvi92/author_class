@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+              struct.userApp = new UserApp();
+              struct.userApp.read(iprot);
+              struct.setUserAppIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // STATIC_CHECK_RESULT
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {

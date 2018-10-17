@@ -1,0 +1,8 @@
+
+		swirl = null;
+		
+		g.setTransform(new AffineTransform());
+		
+	}
+	
+}

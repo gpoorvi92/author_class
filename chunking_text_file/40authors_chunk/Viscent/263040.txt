@@ -1,0 +1,10 @@
+		private final ThreadPoolExecutor executor;
+		private final Attachment attachment;
+		private final AtomicInteger counter;
+
+		public RequestSenderThread(int requestsPerInterval, AtomicInteger counter) {
+
+			this.requestsPerInterval = requestsPerInterval;
+			this.counter = counter;
+			persistence = AsyncRequestPersistence.getInstance();
+			executor = new ThreadPoolExecutor(80, 200, 60 * 3600, TimeUnit.SECONDS,

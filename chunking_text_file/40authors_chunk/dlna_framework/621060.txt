@@ -1,0 +1,10 @@
+	//	Access Methods
+	////////////////////////////////////////////////
+
+	public InetAddress getHostInetAddress()
+	{
+		String addrStr = "127.0.0.1";
+		String host = getHost();
+		int canmaIdx = host.lastIndexOf(":");
+		if (0 <= canmaIdx) {
+			addrStr = host.substring(0, canmaIdx);

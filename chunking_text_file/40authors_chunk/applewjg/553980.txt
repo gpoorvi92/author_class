@@ -1,0 +1,10 @@
+            int b = (j==n) ? Integer.MAX_VALUE : B[j];
+            m1 = m2;
+            m2 = Math.min(a,b);
+            if (a > b) ++j;
+            else ++i;
+        }
+        if ((total&1) == 1) return m2;
+        else return (m1+m2)/2.0;
+    }
+    public double findMedianSortedArrays_2(int A[], int B[]) {

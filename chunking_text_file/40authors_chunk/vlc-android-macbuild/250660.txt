@@ -1,0 +1,10 @@
+    /**
+     * Constructor It is private because this class is a singleton.
+     */
+    private LibVLC() {
+        mAout = new Aout();
+    }
+
+    /**
+     * Destructor: It is bad practice to rely on them, so please don't forget to
+     * call destroy() before exiting.

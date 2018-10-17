@@ -1,0 +1,10 @@
+            if (currentPosition == 0) {
+                getDownloadTaskFragment().cancelAllDownloadTasks();
+                
+            } else getUploadTaskFragment().cancelUploadTasks();
+            
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+

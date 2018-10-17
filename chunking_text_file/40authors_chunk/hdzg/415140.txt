@@ -1,0 +1,10 @@
+				status = 4;
+			}
+			else{//准备建造箭垛
+				status = 2;
+				Research r = new Research("鲁班", 0, projectNumber);
+				tempHero.getResearchList().add(r);
+			}
+		}
+	}
+}

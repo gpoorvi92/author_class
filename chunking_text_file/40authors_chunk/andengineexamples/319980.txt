@@ -1,0 +1,10 @@
+		this.mBitmapTextureAtlas.load();
+
+		SoundFactory.setAssetBasePath("mfx/");
+		try {
+			this.mExplosionSound = SoundFactory.createSoundFromAsset(this.mEngine.getSoundManager(), this, "explosion.ogg");
+		} catch (final IOException e) {
+			Debug.e(e);
+		}
+	}
+

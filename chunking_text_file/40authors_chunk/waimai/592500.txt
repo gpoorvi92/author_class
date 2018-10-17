@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.util;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+/**
+ * Created by snow on 2014/4/24.
+ */
+public class IdStatusSplitUtils {
+    public static Integer[] split2Id(String[] idsAndStatuses) {

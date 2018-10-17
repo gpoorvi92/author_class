@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Adds a button to a container.
+    * @param c the container
+    * @param title the button title
+    * @param listener the action listener for the button
+    */
+   public void addButton(Container c, String title, ActionListener listener)
+   {

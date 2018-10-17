@@ -1,0 +1,10 @@
+      return getChildCount(node) == 0;
+   }
+
+   public void valueForPathChanged(TreePath path, Object newValue)
+   {
+   }
+
+   public void addTreeModelListener(TreeModelListener l)
+   {
+      listenerList.add(TreeModelListener.class, l);

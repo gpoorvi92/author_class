@@ -1,0 +1,10 @@
+        MyTask task = new MyTask();
+        System.out.println("当前时间：" + System.currentTimeMillis());
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(task, 3000, 4000);
+    }
+}
+
+/*
+输出：
+当前时间：1460738574939

@@ -1,0 +1,10 @@
+                isSearching = false;
+                maxDepth = depth;
+                return;
+            } else {
+                iterateSearch(moves[i], depth + 1);
+                if (isSearching == false) return;
+            }
+        }
+        return;
+    }

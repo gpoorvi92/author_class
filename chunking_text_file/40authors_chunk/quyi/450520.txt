@@ -1,0 +1,10 @@
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public searchAllEng_result getResult(I iface, searchAllEng_args args) throws org.apache.thrift.TException {
+        searchAllEng_result result = new searchAllEng_result();
+        try {
+          result.success = iface.searchAllEng();
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;

@@ -1,0 +1,10 @@
+       if (roundBitMap!=source){
+           source.recycle();
+       }
+        return roundBitMap;
+    }
+
+    @Override
+    public String key() {
+        return "RoundCorner()";
+    }

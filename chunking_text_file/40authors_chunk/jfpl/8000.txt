@@ -1,0 +1,10 @@
+		bitmapCache.put(filePath, bm);
+		iv.setImageBitmap(bm);
+		return bm;
+	}
+
+	public static Bitmap setImageView(String filePath, ImageView iv,
+			int maxWidth) throws FileNotFoundException {
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inJustDecodeBounds = true;
+		Bitmap bm = BitmapFactory.decodeFile(filePath, options);

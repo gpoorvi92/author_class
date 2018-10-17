@@ -1,0 +1,10 @@
+      return isSetStatement();
+    case RISK_TYPE:
+      return isSetRiskType();
+    case RISK_LEVEL:
+      return isSetRiskLevel();
+    case RULE_NO:
+      return isSetRuleNo();
+    case CATEGORY:
+      return isSetCategory();
+    case DESCRIPTION:

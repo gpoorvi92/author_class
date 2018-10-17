@@ -1,0 +1,10 @@
+        item.path = path;
+        item.accountSignature = account.getSignature();
+        dbHelper.savePhotoCacheItem(item);
+    }
+
+    /**
+     * remove a photo cache from local database
+     *
+     * @param cp
+     * @return 1 when successfully removed a cache, otherwise 0

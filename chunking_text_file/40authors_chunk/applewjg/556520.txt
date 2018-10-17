@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Jan 02, 2015
+ Problem:    Insertion Sort List
+ Difficulty: Easy
+ Source:     http://oj.leetcode.com/problems/insertion-sort-list/
+ Notes:
+ Sort a linked list using insertion sort.
+
+ Solution: ...

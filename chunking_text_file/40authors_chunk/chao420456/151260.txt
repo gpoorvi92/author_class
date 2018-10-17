@@ -1,0 +1,10 @@
+public class MenuDemo2 {
+	public static void main(String[] args) {
+		// 创建窗体对象
+		final Frame f = new Frame("多级菜单");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);
+
+		// 创建菜单栏
+		MenuBar mb = new MenuBar();
+		// 创建菜单

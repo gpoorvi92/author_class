@@ -1,0 +1,10 @@
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new NetworkPacketStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new NetworkPacketTupleSchemeFactory());
+  }
+
+  public String pidName; // required
+  public String sourceAddress; // required
+  public String sourcePort; // required

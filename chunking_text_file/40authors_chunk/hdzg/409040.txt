@@ -1,0 +1,10 @@
+                }
+                if(loadingView.process >= 100){//当进度条进度达到100时
+        			loadingView.activity.myHandler.sendEmptyMessage(loadingView.type);//向主activity发送Handler消息
+                }
+                try{
+                	Thread.sleep(sleepSpan);//睡眠指定毫秒数
+                }
+                catch(Exception e){
+                	e.printStackTrace();
+                }

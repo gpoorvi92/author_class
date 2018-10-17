@@ -1,0 +1,10 @@
+            totalPower += ((SimUnit) o).powerUse();
+        }
+        System.out.println("Total power: " + totalPower);
+    }
+}
+
+class V2Radiator {
+    V2Radiator(ArrayList list) {
+        System.out.println("making a v2 radiator");
+        for(int x=0; x<5; x++)

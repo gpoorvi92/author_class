@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetScreenShotPath()).compareTo(other.isSetScreenShotPath());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetScreenShotPath()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.screenShotPath, other.screenShotPath);

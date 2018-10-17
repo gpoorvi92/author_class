@@ -1,0 +1,10 @@
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.TimeUnit;
+
+public class SimplePipeline<T, OUT> extends AbstractPipe<T, OUT> implements
+    Pipeline<T, OUT> {
+
+	private final Queue<Pipe<?, ?>> pipes = new LinkedList<Pipe<?, ?>>();
+
+	private final ExecutorService helperExecutor;
+

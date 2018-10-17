@@ -1,0 +1,10 @@
+    public String  getDeviceControlDescription();
+    public int     getDeviceControlVersion();
+    public boolean getDeviceEnabled() throws JposException;
+    public void    setDeviceEnabled(boolean deviceEnabled)
+                       throws JposException;
+    public String  getDeviceServiceDescription() throws JposException;
+    public int     getDeviceServiceVersion() throws JposException;
+    public boolean getFreezeEvents() throws JposException;
+    public void    setFreezeEvents(boolean freezeEvents) throws JposException;
+    public String  getPhysicalDeviceDescription() throws JposException;

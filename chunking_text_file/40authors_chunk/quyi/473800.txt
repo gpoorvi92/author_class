@@ -1,0 +1,10 @@
+      return new genMissionId_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.submitId = null;
+    }
+
+    public String getSubmitId() {
+      return this.submitId;

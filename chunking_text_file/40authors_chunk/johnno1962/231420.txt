@@ -1,0 +1,10 @@
+    public byte[][] byte2dArrayMethod( byte arg[][] ) {
+        return arg;
+    }
+
+    public static char charFieldStatic;
+    public char charField;
+
+    public static char charMethodStatic( char arg ) {
+        return arg;
+    }

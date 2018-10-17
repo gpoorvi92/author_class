@@ -1,0 +1,10 @@
+
+import com.mongodb.DBCollection;
+import com.mongodb.DBObject;
+import com.mongodb.QueryBuilder;
+
+/**
+ * 
+ *	@author: Fully
+ */
+public class AccountMapperDAO extends AbstractMapperDAO{

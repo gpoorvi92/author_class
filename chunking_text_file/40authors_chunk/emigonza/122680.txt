@@ -1,0 +1,10 @@
+    //-------------------------------------------------------------------------
+    // Public methods
+    //
+
+	/** @return the default JposRegPopulator */
+	public JposRegPopulator getDefaultPopulator();
+
+	/**
+	 * Adds this JposRegPopulator to the composite
+	 * @param populator adds the populator to the composite reg populator.  Does nothing

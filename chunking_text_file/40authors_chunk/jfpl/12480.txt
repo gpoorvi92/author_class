@@ -1,0 +1,10 @@
+	protected String busiType = ConstVariables.CHAT_DEFAULT_BUSITYPE;
+	protected String busiSerial = ConstVariables.CHAT_DEFAULT_BUSISERIAL;
+
+	protected String chatTitle = "";
+	private static final String chatEnterName = "客服咨询";
+
+	@Override
+	public void onCreate(Bundle savedInstanceState, int layoutId, String prefix) {
+		super.onCreate(savedInstanceState, layoutId, prefix);
+		init();

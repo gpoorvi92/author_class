@@ -1,0 +1,10 @@
+	 * 
+	 * @param mi
+	 */
+	void add(MediainfoModel mi);
+	
+	/**
+	 * deletes.
+	 * 
+	 * @param mi
+	 */

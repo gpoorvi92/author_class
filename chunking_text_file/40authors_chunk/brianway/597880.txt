@@ -1,0 +1,10 @@
+}
+
+
+/*
+输出:
+541962297 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+
+---------------------------

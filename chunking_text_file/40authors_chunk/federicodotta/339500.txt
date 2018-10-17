@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used by an
+ * <code>IMessageEditor</code> to obtain details about the currently displayed
+ * message. Extensions that create instances of Burp's HTTP message editor can
+ * optionally provide an implementation of
+ * <code>IMessageEditorController</code>, which the editor will invoke when it
+ * requires further information about the current message (for example, to send
+ * it to another Burp tool). Extensions that provide custom editor tabs via an
+ * <code>IMessageEditorTabFactory</code> will receive a reference to an

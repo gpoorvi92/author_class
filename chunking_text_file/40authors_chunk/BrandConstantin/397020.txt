@@ -1,0 +1,6 @@
+      System.out.println(num + " || " + num*num + " || "+ num*num*num);
+      contador ++;
+      num++;
+    } while  (contador < 5);
+  }
+}

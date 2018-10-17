@@ -1,0 +1,10 @@
+    public void windowIconified( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowIconified_3 ) {
+            entered_windowIconified_3 = true;
+            __windowIconified( e );
+            entered_windowIconified_3 = false;
+        }
+        else
+            super.windowIconified( e );
+    }
+

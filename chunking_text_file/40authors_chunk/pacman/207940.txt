@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.utils;
+
+import java.lang.reflect.Field;
+
+import javax.jms.JMSException;
+import javax.jms.MapMessage;

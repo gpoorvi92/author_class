@@ -1,0 +1,10 @@
+package ipower.wechat.domain;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * 默认回复。
+ * @author yangyong.
+ * @since 2014-04-09.
+ * */

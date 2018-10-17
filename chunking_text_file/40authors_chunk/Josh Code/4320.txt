@@ -1,0 +1,10 @@
+{
+  private RenderingBuffer renderBuf;
+  private Vector3D []vertices;
+    private boolean needVertexUpdating;
+  Triangle triangles[];
+  int numTriangles;
+
+
+    public Model()
+    { 

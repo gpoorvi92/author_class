@@ -1,0 +1,8 @@
+        for (int i=0; i<limit; i++) {
+            sb.append(strings.get(i) + ":" + scores.get(i));
+            if (i != (limit - 1)) sb.append(", ");
+        }
+        return sb.toString();
+    }
+}
+

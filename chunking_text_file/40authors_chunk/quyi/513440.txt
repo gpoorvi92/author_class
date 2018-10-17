@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public reportEngineConfig_args(reportEngineConfig_args other) {
+    }
+
+    public reportEngineConfig_args deepCopy() {
+      return new reportEngineConfig_args(this);

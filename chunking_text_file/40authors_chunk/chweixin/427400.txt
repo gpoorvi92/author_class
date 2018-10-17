@@ -1,0 +1,10 @@
+			}
+		}
+		return info;
+	}
+	/**
+	 * 构建目标存储目录相对路径。
+	 * @param userId
+	 * 当前用户ID。
+	 * @param root
+	 * 根目录。

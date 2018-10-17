@@ -1,0 +1,10 @@
+else if (incoming.length()%3==2) incoming+="[";
+byte[] original=incoming.getBytes();
+BigInteger origNum=new BigInteger(1,original);
+System.out.println("Original string in binary:\n"+origNum.toString(2));
+byte[] compressed=new byte[2*incoming.length()/3];
+compress(original,compressed);
+BigInteger compNum=new BigInteger(1,compressed);
+System.out.println("Compressed string in binary:\n"+compNum.toString(2));
+}
+public static void compress(byte[] o,byte[] c) {

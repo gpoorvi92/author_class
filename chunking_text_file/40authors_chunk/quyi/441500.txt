@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case SOURCE_ADDRESS:
+      if (value == null) {
+        unsetSourceAddress();
+      } else {
+        setSourceAddress((String)value);
+      }
+      break;

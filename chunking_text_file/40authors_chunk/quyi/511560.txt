@@ -1,0 +1,10 @@
+    {
+      send_modifyEngineConfig(propertyName, propertyValue);
+      return recv_modifyEngineConfig();
+    }
+
+    public void send_modifyEngineConfig(String propertyName, String propertyValue) throws org.apache.thrift.TException
+    {
+      modifyEngineConfig_args args = new modifyEngineConfig_args();
+      args.setPropertyName(propertyName);
+      args.setPropertyValue(propertyValue);

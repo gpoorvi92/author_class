@@ -1,0 +1,10 @@
+        Iterator<TransferTask> iter = allTaskList.iterator();
+        while (iter.hasNext()) {
+            TransferTask task = iter.next();
+            if (task.getState().equals(taskState)) {
+                iter.remove();
+            }
+        }
+    }
+
+    public void cancelAll() {

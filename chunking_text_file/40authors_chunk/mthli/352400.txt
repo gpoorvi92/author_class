@@ -1,0 +1,10 @@
+   private JRadioButton normal;
+   private JRadioButton inverse;
+   private JRadioButton[] position;
+   private JTextField titleField;
+
+   public ChartBeanCustomizer()
+   {
+      data = new JTextArea();
+      JPanel dataPane = new JPanel();
+      dataPane.setLayout(new BorderLayout());

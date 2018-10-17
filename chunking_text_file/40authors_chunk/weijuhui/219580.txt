@@ -1,0 +1,10 @@
+        c.set(year, month, day, hour, Math.min(59,minute+minInterval-1), 59);
+        c.set(Calendar.MILLISECOND, 999);
+        long endTime = c.getTimeInMillis();
+        // get the first millisecond of that minute interval
+        c.set(year, month, day, hour, minute, 0);
+        c.set(Calendar.MILLISECOND, 0);
+        long startTime = c.getTimeInMillis();
+        return new TimeObject(String.format(formatString, c,c), startTime, endTime);
+    }
+

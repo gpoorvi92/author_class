@@ -1,0 +1,10 @@
+      NodeHeat nodeHeat,
+      long timestamp)
+    {
+      this();
+      this.nodeHeat = nodeHeat;
+      this.timestamp = timestamp;
+      setTimestampIsSet(true);
+    }
+
+    /**

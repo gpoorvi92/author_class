@@ -1,0 +1,10 @@
+		// ÔöÇ¿for
+		for (String str : strArray) {
+			System.out.println(str);
+		}
+		System.out.println("-----------------");
+
+		ArrayList<String> array = new ArrayList<String>();
+		array.add("hello");
+		array.add("world");
+		array.add("java");

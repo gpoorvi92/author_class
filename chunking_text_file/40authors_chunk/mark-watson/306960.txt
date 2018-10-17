@@ -1,0 +1,10 @@
+	alreadyVisitedFlag[start_node] = true;
+	queue.addToBackOfQueue(start_node);
+outer:	while (queue.isEmpty() == false) {
+	    int head = queue.peekAtFrontOfQueue();
+	    int [] connected = connected_nodes(head);
+	    if (connected != null) {
+		for (int i=0; i<connected.length; i++) {
+		    if (alreadyVisitedFlag[connected[i]] == false) {
+			predecessor[connected[i]] = head;
+			queue.addToBackOfQueue(connected[i]);

@@ -1,0 +1,10 @@
+		// 比较长度是否相同
+		if (s1.length() != s2.length()) {
+			return false;
+		}
+
+		char[] chs1 = s1.toCharArray();
+		char[] chs2 = s2.toCharArray();
+
+		for (int x = 0; x < chs1.length; x++) {
+			if (chs1[x] != chs2[x]) {

@@ -1,0 +1,10 @@
+		            	subjectArea.setText("");
+		 				}
+		 				
+		 			}
+ 				
+ 			statement.close();
+ 			}
+ 			catch(SQLException sqlex) {
+ 			
+ 			}

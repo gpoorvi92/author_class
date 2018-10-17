@@ -1,0 +1,10 @@
+     * by the native code
+     */
+    public void playAudio(byte[] audioData, int bufferSize) {
+        mAout.playBuffer(audioData, bufferSize);
+    }
+
+    /**
+     * Close the Java audio output This function is called by the native code
+     */
+    public void closeAout() {

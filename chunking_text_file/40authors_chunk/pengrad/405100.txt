@@ -1,0 +1,10 @@
+
+    private String title;
+    private String document_url;
+    private String mime_type;
+
+    private String caption;
+    private String description;
+    private String thumb_url;
+    private Integer thumb_width;
+    private Integer thumb_height;

@@ -1,0 +1,10 @@
+	 * @param userId
+	 * 用户ID(身份验证后获得)。
+	 * */
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	/**
+	 * 获取微信用户OpenId.
+	 *@return 微信用户OpenId.
+	 * */

@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               insertWords(textField.getText());
+            }
+         });
+
+      add(panel, BorderLayout.NORTH);
+
+      textArea = new WordCheckTextArea();
+      textArea.setRows(TEXT_ROWS);

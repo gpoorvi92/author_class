@@ -1,0 +1,10 @@
+		map.put(QueueType.QUEUE_FEEDBACK, "test_q");
+		map.put(QueueType.QUEUE_HEARTBEAT, "test_q");
+		map.put(QueueType.QUEUE_VIDEO, "test_q");
+		mgr = new DefaultMQFactory("tcp://localhost:61616", map);
+		
+		IMQReceiver receiver = mgr.getReceiver(QueueType.QUEUE_AUDIO);
+		while(receiver.tryGetMessage(100));
+		receiver.Close();
+	}
+

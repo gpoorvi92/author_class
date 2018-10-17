@@ -1,0 +1,10 @@
+
+    /**
+     * @return true if there is an Profile with the specified logical name
+     * @param profile the profile
+     */
+    public boolean hasProfile( Profile profile );
+
+    /** @return an enumeration of Profile objects  */
+    public Enumeration getProfiles();
+

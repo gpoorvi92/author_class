@@ -1,0 +1,10 @@
+    }
+
+    public String toString()
+    {
+        return getSpacedVectorCoordinates(this);
+    }
+
+    /** Sets the components of the specified vector
+     */
+    public static void setCoordinates(Vector3D v,double x, double y, double z)

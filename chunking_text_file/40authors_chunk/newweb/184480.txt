@@ -1,0 +1,10 @@
+		this.zfCount = zfCount;
+	}
+	public double getGbLength() {
+		return gbLength;
+	}
+	public void setGbLength(double gbLength) {
+		this.gbLength = gbLength;
+	}
+	public int getGbCount() {
+		return gbCount;

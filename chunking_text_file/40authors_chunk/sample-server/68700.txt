@@ -1,0 +1,10 @@
+        return gameServerHost;
+    }
+    public void setGameServerHost(String gameServerHost)
+    {
+        this.gameServerHost = gameServerHost;
+    }
+    public String getChatServerHost()
+    {
+        return chatServerHost;
+    }

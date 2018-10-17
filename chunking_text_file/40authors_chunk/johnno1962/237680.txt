@@ -1,0 +1,10 @@
+            entered_windowDeiconified_4 = false;
+        }
+        else
+            super.windowDeiconified( e );
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowActivated(java.awt.event.WindowEvent)
+
+    public native void __windowActivated( java.awt.event.WindowEvent e );
+

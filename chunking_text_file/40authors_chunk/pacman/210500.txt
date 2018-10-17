@@ -1,0 +1,10 @@
+ * @date: 2015年1月8日 下午4:32:46
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.model;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+
+/**
+ * TaskModel 

@@ -1,0 +1,10 @@
+			userApp.setUserAppId(missionId + "@" + i);
+			userApp.setAppName(userAppInfo.getAppName());
+			userApp.setCategory("123");
+			userApp.setStoreName("1234");
+			userApp.setCreateTime("123");
+			userApp.setAppFileMd5(userAppInfo.getMd5());
+			userApp.setVersion("1.0");
+			userApp.setUpdateTime("2013-12-12 12:12:12");// yyyy-MM-dd HH:mm:ss
+			userApp.setSize(userAppInfo.getSize());
+			userApp.setDescription("hello");

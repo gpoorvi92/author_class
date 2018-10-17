@@ -1,0 +1,10 @@
+	public static final String REQ_MESSAGE_TYPE_VIDEO = "video";
+	/**
+	 * 地理位置信息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_LOCATION = "location";
+	/**
+	 * 链接消息请求。
+	 * */
+	public static final String REQ_MESSAGE_TYPE_LINK = "link";
+	/**

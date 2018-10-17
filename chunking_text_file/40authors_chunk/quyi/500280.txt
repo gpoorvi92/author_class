@@ -1,0 +1,10 @@
+  public void unsetTaskQueueNume() {
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __TASKQUEUENUME_ISSET_ID);
+  }
+
+  /** Returns true if field taskQueueNume is set (has been assigned a value) and false otherwise */
+  public boolean isSetTaskQueueNume() {
+    return EncodingUtils.testBit(__isset_bitfield, __TASKQUEUENUME_ISSET_ID);
+  }
+
+  public void setTaskQueueNumeIsSet(boolean value) {

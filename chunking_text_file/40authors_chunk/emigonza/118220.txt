@@ -1,0 +1,10 @@
+    public boolean getCapEmptySensor() throws JposException;
+    public boolean getCapJamSensor() throws JposException;
+    public boolean getCapNearEmptySensor() throws JposException;
+
+    // Properties
+    public int     getDispenserStatus() throws JposException;
+
+    // Methods
+    public void    dispenseChange(int amount) throws JposException;
+}

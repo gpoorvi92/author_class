@@ -1,0 +1,10 @@
+
+		// assert that the state has what we want
+		StaticFileState value = staticStateManager.getEntity().getFileStates().get(fileId);
+		assertState(value, true, false, fileName, fileSize, 0l);
+
+		// assert that we have it in the pending files
+		Assert.assertThat(uploadProcessor.getConfig(null).getPendingFiles().keySet().toArray()[0].toString(), is(fileId.toString()));
+
+		// cancel
+		uploadProcessor.clearFile(fileId);

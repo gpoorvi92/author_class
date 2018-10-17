@@ -1,0 +1,4 @@
+    public boolean supportVfp() {
+        return mFeatureSet.contains("vfp");
+    }
+}

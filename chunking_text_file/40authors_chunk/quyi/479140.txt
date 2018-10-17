@@ -1,0 +1,10 @@
+    }
+
+    public queryApp_result() {
+    }
+
+    public queryApp_result(
+      com.nercis.isscp.idl.AppCheckResult success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {

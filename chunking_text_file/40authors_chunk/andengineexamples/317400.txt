@@ -1,0 +1,10 @@
+		for(int i = 0; i < AttachDetachBenchmark.SPRITE_COUNT; i++) {
+			final Sprite face = new Sprite((AttachDetachBenchmark.CAMERA_WIDTH - 32) * this.mRandom.nextFloat(), (AttachDetachBenchmark.CAMERA_HEIGHT - 32) * this.mRandom.nextFloat(), this.mFaceTextureRegion, vertexBufferObjectManager);
+			spriteGroup.attachChild(face);
+		}
+		pScene.registerUpdateHandler(new TimerHandler(ATTACH_DETACH_DELAY, true, new ITimerCallback() {
+			@Override
+			public void onTimePassed(TimerHandler pTimerHandler) {
+				final int randomChildIndex = AttachDetachBenchmark.this.mRandom.nextInt(spriteGroup.getChildCount());
+				final Sprite child = (Sprite)spriteGroup.getChildByIndex(randomChildIndex);
+				child.detachSelf();

@@ -1,0 +1,6 @@
+        // no retries left, crap out with exception
+        ConnectException ex = new ConnectException();
+        ex.initCause(cause);
+        throw ex;
+    }
+}

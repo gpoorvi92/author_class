@@ -1,0 +1,10 @@
+    if (!value) {
+      this.threadName = null;
+    }
+  }
+
+  public String getCheckTime() {
+    return this.checkTime;
+  }
+
+  public HardwareResources setCheckTime(String checkTime) {

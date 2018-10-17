@@ -1,0 +1,10 @@
+	/**
+	 * @return the cpuNice
+	 */
+	public double getCpuNice() {
+		return cpuNice;
+	}
+	/**
+	 * @param cpuNice the cpuNice to set
+	 */
+	public void setCpuNice(double cpuNice) {

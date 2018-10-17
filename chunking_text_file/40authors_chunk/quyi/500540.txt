@@ -1,0 +1,10 @@
+        return false;
+      if (!this.nodeId.equals(that.nodeId))
+        return false;
+    }
+
+    boolean this_present_cpuUsedPerc = true;
+    boolean that_present_cpuUsedPerc = true;
+    if (this_present_cpuUsedPerc || that_present_cpuUsedPerc) {
+      if (!(this_present_cpuUsedPerc && that_present_cpuUsedPerc))
+        return false;

@@ -1,0 +1,10 @@
+            return;
+
+        LoaderRequest<D> request = mRequestQueue.removeFirst();
+        if (request == null)
+            return;
+
+        if (launchLoader(request))
+            return;
+
+        // not launched, push back

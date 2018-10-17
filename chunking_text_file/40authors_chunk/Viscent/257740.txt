@@ -1,0 +1,8 @@
+	 */
+	void init();
+
+	/**
+	 * 停止Slave实例对外提供的服务
+	 */
+	void shutdown();
+}

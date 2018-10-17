@@ -1,0 +1,10 @@
+         String name = c.getName();
+         System.out.print("   ");
+         String modifiers = Modifier.toString(c.getModifiers());
+         if (modifiers.length() > 0) System.out.print(modifiers + " ");         
+         System.out.print(name + "(");
+
+         // print parameter types
+         Class[] paramTypes = c.getParameterTypes();
+         for (int j = 0; j < paramTypes.length; j++)
+         {

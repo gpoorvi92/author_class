@@ -1,0 +1,10 @@
+            return ret;
+        } catch (Exception e)
+        {
+            rpcClientPool.returnBrokenRpcClient(rpcClient);
+            throw new RpcException(e);
+        }
+    }
+    
+    
+    

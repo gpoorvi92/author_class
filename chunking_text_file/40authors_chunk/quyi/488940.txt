@@ -1,0 +1,10 @@
+      }
+      if (other.isSetFunctionStatus()) {
+        Map<String,com.nercis.isscp.idl.CheckResultStatus> __this__functionStatus = new HashMap<String,com.nercis.isscp.idl.CheckResultStatus>(other.functionStatus.size());
+        for (Map.Entry<String, com.nercis.isscp.idl.CheckResultStatus> other_element : other.functionStatus.entrySet()) {
+
+          String other_element_key = other_element.getKey();
+          com.nercis.isscp.idl.CheckResultStatus other_element_value = other_element.getValue();
+
+          String __this__functionStatus_copy_key = other_element_key;
+

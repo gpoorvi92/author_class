@@ -1,0 +1,10 @@
+		
+		try {
+			File file = new File(dir);
+			if (isFile) {
+				FileUtils.forceMkdir(file.getParentFile());
+				if (!file.exists()) {
+					file.createNewFile();
+				}
+			} else {
+				FileUtils.forceMkdir(file);

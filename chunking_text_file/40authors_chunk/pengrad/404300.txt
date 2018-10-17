@@ -1,0 +1,9 @@
+
+    private static Gson gson() {
+        return new Gson();
+    }
+
+    private static String apiUrl(String botToken) {
+        return API_URL + botToken + "/";
+    }
+}

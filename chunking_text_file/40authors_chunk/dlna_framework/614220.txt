@@ -1,0 +1,10 @@
+	public void addSearchListener(SearchListener listener)
+	{
+		deviceSearchListenerList.add(listener);
+	}		
+
+	public void removeSearchListener(SearchListener listener)
+	{
+		deviceSearchListenerList.remove(listener);
+	}		
+

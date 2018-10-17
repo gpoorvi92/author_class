@@ -1,0 +1,10 @@
+        if(s2==e2) return new TreeNode(postorder[e2]);
+        int j=-1;
+        for(int i=s1;i<=e1;i++){
+            if(inorder[i]==postorder[e2]){
+                j=i;
+                break;
+            }
+        }
+        int left_len = j-s1;
+        TreeNode root = new TreeNode(postorder[e2]);

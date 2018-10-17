@@ -1,0 +1,10 @@
+package com.jufan.platform.ui;
+
+import java.util.Date;
+
+import android.annotation.SuppressLint;
+import android.app.Notification;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;

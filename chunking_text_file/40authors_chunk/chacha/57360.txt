@@ -1,0 +1,10 @@
+		this.port = port;
+	}
+
+
+	public String getUserName() {
+		return userName;
+	}
+
+
+	public void setUserName(String userName) {

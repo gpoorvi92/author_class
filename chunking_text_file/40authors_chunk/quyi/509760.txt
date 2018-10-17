@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field MD5 is set (has been assigned a value) and false otherwise */
+  public boolean isSetMD5() {
+    return this.MD5 != null;
+  }
+
+  public void setMD5IsSet(boolean value) {
+    if (!value) {
+      this.MD5 = null;

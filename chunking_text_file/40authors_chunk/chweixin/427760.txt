@@ -1,0 +1,10 @@
+		this.lastTime = this.createTime = new Date();
+		this.status = WeChatUser.USER_STATUS_SUBSCRIBE;
+	}
+	/**
+	 * 获取所关注的微信公众号。
+	 * @return 所关注的微信公众号。
+	 * */
+	public WeChatAccount getAccount() {
+		return account;
+	}

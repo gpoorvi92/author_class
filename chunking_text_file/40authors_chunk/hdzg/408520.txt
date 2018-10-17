@@ -1,0 +1,10 @@
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.view.MotionEvent;
+import android.view.View;
+
+public class TieJangPuDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={//对话框显示文字
+			"前方是一个铁匠铺，是否让将军们在此修理自己的武器装备？预计消耗金钱1500。",
+			"大军来到一个铁匠铺，不过你的金钱太少了，铁匠没有理睬你。",
+			"xx将军在铁匠铺打造了一套新铠甲，防御提高了yy点。",

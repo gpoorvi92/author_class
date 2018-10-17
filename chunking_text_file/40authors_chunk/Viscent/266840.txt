@@ -1,0 +1,10 @@
+	 * @param params
+	 *          客户端代码调用service方法时传递的参数列表
+	 */
+	protected abstract TaskDivideStrategy<T> newTaskDivideStrategy(
+	    Object... params);
+
+	/**
+	 * 用于创建子任务派发算法策略。 默认使用轮询（Round-Robin）派发算法。
+	 * 
+	 * @return 子任务派发算法策略实例。

@@ -1,0 +1,6 @@
+    /**
+     * The size in words.
+     */
+    private final int size;
+
+}

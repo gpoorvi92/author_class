@@ -1,0 +1,10 @@
+	 */
+	@RequestMapping(value="logout.action")
+	public String logout(Locale locale, Model model, ModelMap modelMap,
+			HttpServletRequest request, HttpServletResponse response){
+		request.getSession().setAttribute("userID", null);
+		response.addCookie(new Cookie("loginPassword", ""));
+		return "page/index.jsp";
+	}
+	
+	/**

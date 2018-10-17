@@ -1,0 +1,10 @@
+		"Date_of_Travel","From","To"};
+		private Object[][] data = new Object[50][50];
+
+		public int getColumnCount() {
+			return columnNames.length;
+		}
+
+		public int getRowCount() {
+			return data.length;
+		}

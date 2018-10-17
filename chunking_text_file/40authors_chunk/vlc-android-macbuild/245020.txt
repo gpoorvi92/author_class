@@ -1,0 +1,10 @@
+        } else {
+            return new SystemUINavHider(activity);
+        }
+    }
+
+    public static interface OnSystemUiVisibilityChangeListener {
+        public abstract void onSystemUiVisibilityChange(int visibility);
+    };
+
+    public SystemUINavHider(Activity activity) {

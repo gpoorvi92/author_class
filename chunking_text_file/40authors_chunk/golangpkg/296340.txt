@@ -1,0 +1,10 @@
+
+	@Autowired
+	UploadProcessor uploadProcessor;
+
+	@Autowired
+	UploadServletAsync uploadServletAsync;
+
+	@Autowired
+	StaticStateManager<StaticStatePersistedOnFileSystemEntity> staticStateManager;
+

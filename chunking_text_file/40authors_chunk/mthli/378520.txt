@@ -1,0 +1,10 @@
+      saveButton.addActionListener(EventHandler.create(ActionListener.class, this, "save"));
+     
+      frame.setVisible(true);
+   }
+
+   public void load()
+   {
+      // show file chooser dialog
+      int r = chooser.showOpenDialog(null);
+

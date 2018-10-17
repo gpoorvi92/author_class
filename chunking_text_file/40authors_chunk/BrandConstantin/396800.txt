@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+Scanner teclado = new Scanner(System.in);
+    
+    int numIntrod;
+    int factorial = 1;
+
+    System.out.println("Introduce un numro para calcular el factorial");
+    numIntrod = teclado.nextInt();
+    System.out.println("-------------------------------------------------");
+    

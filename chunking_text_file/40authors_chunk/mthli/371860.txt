@@ -1,0 +1,10 @@
+   @author Cay Horstmann
+*/
+public class RegexTest
+{
+   public static void main(String[] args) throws PatternSyntaxException
+   {
+      Scanner in = new Scanner(System.in);
+      System.out.println("Enter pattern: ");
+      String patternString = in.nextLine();
+

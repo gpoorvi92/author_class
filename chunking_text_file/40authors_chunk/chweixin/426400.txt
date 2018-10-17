@@ -1,0 +1,10 @@
+	}
+	
+	@Override
+	public BaseRespMessage handler(WeChatContext context, SubscribeEventMessage event) {//关注
+		return this.buildDefaultReply(context, event);
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, EventMessage event) {//取消关注
+		return null;

@@ -1,0 +1,10 @@
+        Date date;
+        sFormatter = new SimpleDateFormat("yyyy:MM:dd HH:mm:ss");
+        sFormatter.setTimeZone(TimeZone.getTimeZone("UTC"));
+        String dateTimeString = exifInterface.getAttribute(ExifInterface.TAG_DATETIME);
+        if (dateTimeString == null)
+            date = new Date();
+        ParsePosition pos = new ParsePosition(0);
+        try {
+            date = sFormatter.parse(dateTimeString, pos);
+        } catch (IllegalArgumentException ex) {

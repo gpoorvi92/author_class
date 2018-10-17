@@ -1,0 +1,10 @@
+    {
+        v.x = x;
+        v.y = y;
+        v.z = z;
+    }
+
+    public static String getSpacedVectorCoordinates(Vector3D v)
+    {
+        return v.x + " " + v.y + " " + v.z;
+    }

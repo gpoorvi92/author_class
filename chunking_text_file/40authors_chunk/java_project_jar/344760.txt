@@ -1,0 +1,10 @@
+        thread.start();
+    }
+
+    public synchronized void stop()
+        throws Exception
+    {
+        if(!running)
+            throw new IllegalStateException("Monitor is not running");
+        running = false;
+        try

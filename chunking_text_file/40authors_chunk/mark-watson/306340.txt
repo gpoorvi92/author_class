@@ -1,0 +1,10 @@
+					e1.printStackTrace();
+				}
+            }
+        });
+        this.setDefaultCloseOperation(3);
+        jLabel1.setText("Input neurons:");
+        jLabel1.setBounds(new Rectangle(4, 10, 144, 19));
+        jLabel2.setText("Hidden 1 neurons:");
+        jLabel2.setBounds(new Rectangle(4, 111, 144, 19));
+        jLabel2b.setText("Hidden 2 neurons:");

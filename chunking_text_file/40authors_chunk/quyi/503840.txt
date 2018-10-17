@@ -1,0 +1,10 @@
+    }
+    if (other.isSetRules()) {
+      List<String> __this__rules = new ArrayList<String>(other.rules);
+      this.rules = __this__rules;
+    }
+    if (other.isSetPlots()) {
+      List<PlotsType> __this__plots = new ArrayList<PlotsType>(other.plots.size());
+      for (PlotsType other_element : other.plots) {
+        __this__plots.add(other_element);
+      }

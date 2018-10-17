@@ -1,0 +1,10 @@
+     */
+    static final byte INS_ENTIRE_BODY = 0x24;
+    /**
+     * Used to indicate where the payload is inserted into the URL path
+     * filename.
+     */
+    static final byte INS_URL_PATH_FILENAME = 0x25;
+    /**
+     * Used to indicate where the payload is inserted at a location manually
+     * configured by the user.

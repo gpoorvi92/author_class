@@ -1,0 +1,10 @@
+    if (this_present_riskType || that_present_riskType) {
+      if (!(this_present_riskType && that_present_riskType))
+        return false;
+      if (!this.riskType.equals(that.riskType))
+        return false;
+    }
+
+    boolean this_present_riskLevel = true && this.isSetRiskLevel();
+    boolean that_present_riskLevel = true && that.isSetRiskLevel();
+    if (this_present_riskLevel || that_present_riskLevel) {

@@ -1,0 +1,10 @@
+
+
+	public Long getRateInKiloBytes() {
+		return rateInKiloBytes;
+	}
+
+
+	public void setRateInKiloBytes(Long rateInKiloBytes) {
+		this.rateInKiloBytes = rateInKiloBytes;
+	}

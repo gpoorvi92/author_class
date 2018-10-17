@@ -1,0 +1,10 @@
+ * Date: 13-7-11
+ */
+public class SessionLifecycleListener implements HttpSessionListener
+{
+    private static final Logger log = LoggerFactory.getLogger(SessionLifecycleListener.class);
+    @Override
+    public void sessionCreated(HttpSessionEvent httpSessionEvent)
+    {
+        log.info("sessionCreated {}", httpSessionEvent.getSession().getId());
+    }

@@ -1,0 +1,10 @@
+	private JTextField txtMemberId, txtMemberName, txtMemberAddress;
+	private JComboBox cboMonth, cboDate, cboYear;
+	private JButton btnOk, btnCancel;
+
+	private Statement st;			//Statement for Getting the Required Table.
+	private long id = 0;			//To Hold the BookId.
+
+	//Constructor of Class.
+
+	public AddMember (Connection con) {

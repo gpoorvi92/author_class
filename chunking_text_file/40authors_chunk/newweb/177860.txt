@@ -1,0 +1,10 @@
+		this.type = type;
+	}
+	public double getSxhLength() {
+		return sxhLength;
+	}
+	public void setSxhLength(double sxhLength) {
+		this.sxhLength = sxhLength;
+	}
+	public int getSxhCount() {
+		return sxhCount;

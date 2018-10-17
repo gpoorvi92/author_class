@@ -1,0 +1,10 @@
+
+    /**
+     * @param x set of bitmaps
+     * @return an array of iterators corresponding to the array of bitmaps
+     */
+    public static IteratingRLW[] toIterators(
+            final EWAHCompressedBitmap... x) {
+        IteratingRLW[] X = new IteratingRLW[x.length];
+        for (int k = 0; k < X.length; ++k) {
+            X[k] = new IteratingBufferedRunningLengthWord(x[k]);

@@ -1,0 +1,10 @@
+    /**
+     * Replaces the word at the given position in the buffer
+     * with its bitwise-and with the given mask.
+     * @param position
+     * @param mask
+     */
+    void andWord(int position, long mask);
+
+    /**
+     * Replaces the word at the given position in the buffer

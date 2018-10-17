@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_columnNum = true;
+    boolean that_present_columnNum = true;
+    if (this_present_columnNum || that_present_columnNum) {
+      if (!(this_present_columnNum && that_present_columnNum))
+        return false;
+      if (this.columnNum != that.columnNum)
+        return false;
+    }

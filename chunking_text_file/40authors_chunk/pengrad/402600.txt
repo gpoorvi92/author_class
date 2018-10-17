@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * Stas Parshin
+ * 29 May 2016
+ */
+public class ChatMember {
+
+    public enum Status {
+        creator, administrator, member, left, kicked;

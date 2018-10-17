@@ -1,0 +1,10 @@
+
+    public void setRepos(List<SeafRepo> repos) {
+        this.repos.clear();
+        for (SeafRepo repo: repos) {
+            if (onlyShowWritableRepos && !repo.hasWritePermission()) {
+                continue;
+            }
+            if (encryptedRepoId != null && !repo.id.equals(encryptedRepoId)) {
+                continue;
+            }

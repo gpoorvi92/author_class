@@ -1,0 +1,10 @@
+        this.title = title;
+    }
+
+    public InlineQueryResultLocation thumbUrl(String thumbUrl) {
+        this.thumb_url = thumbUrl;
+        return this;
+    }
+
+    public InlineQueryResultLocation thumbWidth(Integer thumbWidth) {
+        this.thumb_width = thumbWidth;

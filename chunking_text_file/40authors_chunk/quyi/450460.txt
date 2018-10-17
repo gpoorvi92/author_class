@@ -1,0 +1,10 @@
+      public searchMission_args getEmptyArgsInstance() {
+        return new searchMission_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public searchMission_result getResult(I iface, searchMission_args args) throws org.apache.thrift.TException {
+        searchMission_result result = new searchMission_result();

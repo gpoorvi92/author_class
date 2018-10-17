@@ -1,0 +1,10 @@
+      }
+      return doc;
+   }
+
+   /**
+    * Writes an SVG document of the current drawing.
+    * @param writer the document destination
+    */
+   public void writeDocument(XMLStreamWriter writer) throws XMLStreamException
+   {

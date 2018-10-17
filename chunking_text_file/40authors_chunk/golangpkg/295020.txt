@@ -1,0 +1,10 @@
+		clearIdentifier(httpServletRequest, httpServletResponse);
+
+		// then set in session
+		httpServletRequest.getSession().setAttribute(cookieIdentifier, id);
+
+		// and cookie
+		setCookie(httpServletResponse, id);
+
+	}
+

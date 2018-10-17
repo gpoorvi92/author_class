@@ -1,0 +1,10 @@
+    /*--------------------------------------
+     * View Visibility
+     */
+    public static void setVisibility(View container, int id, int visibility) {
+        if (container == null)
+            return;
+
+        container.findViewById(id).setVisibility(visibility);
+    }
+

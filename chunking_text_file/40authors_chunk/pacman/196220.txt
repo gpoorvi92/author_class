@@ -1,0 +1,10 @@
+		
+		logger.info(PREFIX + " CREATED, addr:" + addr);
+	}
+	
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: getSender
+	 * @param qtype
+	 * @return
+	 * @see com.yeshj.pacman.jms.IMQFactory#getSender(com.yeshj.pacman.jms.QueueType)

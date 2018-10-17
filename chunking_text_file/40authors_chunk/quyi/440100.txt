@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // MEM_SIZE
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.memSize = iprot.readI32();
+              struct.setMemSizeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

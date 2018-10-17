@@ -1,0 +1,5 @@
+        intent.putExtra(SHIBBOLETH_SERVER_URL, serverUrl);
+        startActivity(intent);
+        finish();
+    }
+}

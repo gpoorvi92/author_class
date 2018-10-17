@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.monitor;
+
+import java.util.List;
+import java.util.Map;
+
+import org.apache.commons.io.monitor.FileAlterationMonitor;
+
+import android.util.Log;
+
+import com.google.common.collect.Maps;

@@ -1,0 +1,10 @@
+
+		@Override
+		public void onGetPoiResult(MKPoiResult res, int type, int iError) {
+			if (iError == MKEvent.ERROR_RESULT_NOT_FOUND) {
+				Toast.makeText(LocationPickerActivity.this, "查询附近地点失败",
+						Toast.LENGTH_LONG).show();
+				return;
+			}
+
+			mapView.refresh();

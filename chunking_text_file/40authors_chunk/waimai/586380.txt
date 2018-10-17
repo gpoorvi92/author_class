@@ -1,0 +1,10 @@
+public class URemarkController extends BaseController {
+    @Autowired
+    private IRemarkService remarkService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Remark> remarks = remarkService.search(vo);
+        map.put("count", remarks.size());
+        map.put("remarks", remarks);

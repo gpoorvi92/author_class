@@ -1,0 +1,10 @@
+		System.out.print("*");
+		System.out.print("*");
+		System.out.print("*");
+		System.out.print("*");
+		*/
+
+		//用循环改进一行输出5个*
+		/*
+		//第一行
+		for(int x=0; x<5; x++) {

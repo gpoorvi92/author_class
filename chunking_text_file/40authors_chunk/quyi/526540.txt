@@ -1,0 +1,10 @@
+    this.samples = null;
+  }
+
+  /** Returns true if field samples is set (has been assigned a value) and false otherwise */
+  public boolean isSetSamples() {
+    return this.samples != null;
+  }
+
+  public void setSamplesIsSet(boolean value) {
+    if (!value) {

@@ -1,0 +1,10 @@
+	public MeetableLayer(){}
+	
+	public MeetableLayer(Resources resources) {
+		super(resources);
+		
+		this.mapMatrixMeetable = GameData2.mapData;
+		initMapMatrixForMeetable();
+	}
+
+	public MyDrawable[][] getMapMatrix()

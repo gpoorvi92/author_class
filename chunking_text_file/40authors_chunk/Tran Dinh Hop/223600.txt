@@ -1,0 +1,10 @@
+	}
+
+
+	HuffmanNode tree=new HuffmanNode(),one,two;
+	PriorityQueue q=new PriorityQueue();
+	
+	try{
+	
+	//*****creating priority queue ******//
+		for(int j=0;j<256;j++){

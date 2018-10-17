@@ -1,0 +1,10 @@
+	/**
+	 * Whether the task can be stopped.
+	 * 
+	 * @return
+	 */
+	boolean canStop();
+	
+	/**
+	 * Stop the running task
+	 */

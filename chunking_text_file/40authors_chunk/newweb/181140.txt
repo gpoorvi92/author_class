@@ -1,0 +1,10 @@
+	@Override
+	public Bxg selectBxgByCondition(String name, double thickness,String norms,int brandID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxg where name=? and thickness=? and norms=? and materialbrandID=?")
+				.addEntity(Bxg.class);
+		query.setString(0, name);
+		query.setDouble(1, thickness);
+		query.setString(2, norms);
+		query.setInteger(3, brandID);
+		return (Bxg) query.uniqueResult();
+	}

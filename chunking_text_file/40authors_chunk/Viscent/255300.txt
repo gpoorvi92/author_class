@@ -1,0 +1,10 @@
+		Helper helper = new Helper("Java Thread AnyWhere");
+		
+		//创建一个线程
+		Thread thread = new Thread(helper);
+		
+		//设置线程名
+		thread.setName("A-Worker-Thread");
+		
+		//启动线程
+		thread.start();

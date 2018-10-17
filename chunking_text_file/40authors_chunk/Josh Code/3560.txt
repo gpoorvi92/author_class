@@ -1,0 +1,10 @@
+        PrintStream out = new PrintStream(fout);
+        int numTriangles = m.getNumberOfTriangles();
+        Triangle []triangles = m.getTriangles();
+
+        // loop through triangles
+        for (int i = 0; i < numTriangles; i++)
+        {
+            Vector3D normal = triangles[i].getNormal();
+            String solidName = "triangle" + i;
+            out.println("solid " + solidName);

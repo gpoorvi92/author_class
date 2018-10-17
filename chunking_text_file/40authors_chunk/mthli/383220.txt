@@ -1,0 +1,10 @@
+   {
+      return Objects.hash(getName(), action);
+   }
+
+   public boolean implies(Permission other)
+   {
+      if (!(other instanceof WordCheckPermission)) return false;
+      WordCheckPermission b = (WordCheckPermission) other;
+      if (action.equals("insert"))
+      {

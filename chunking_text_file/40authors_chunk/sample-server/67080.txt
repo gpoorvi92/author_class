@@ -1,0 +1,10 @@
+            }
+            return ret;
+        } catch (Exception e)
+        {
+            throw new RuntimeException(e);
+        }
+    }
+    private static ZoneDao getDao0(String dbUrl, String dbUsername, String dbPasswd) throws IOException, TemplateException
+    {
+        Engine engine = new Engine();

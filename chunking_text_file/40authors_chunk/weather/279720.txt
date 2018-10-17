@@ -1,0 +1,8 @@
+
+    /**
+     * Returns true if this policy has attempts remaining, false otherwise.
+     */
+    protected boolean hasAttemptRemaining() {
+        return mCurrentRetryCount <= mMaxNumRetries;
+    }
+}

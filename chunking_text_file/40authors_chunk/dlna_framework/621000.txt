@@ -1,0 +1,10 @@
+	{
+		return HTTPHeader.getValue(getData(), HTTP.ST);
+	}
+
+	public String getNT()
+	{
+		return HTTPHeader.getValue(getData(), HTTP.NT);
+	}
+
+	public String getNTS()

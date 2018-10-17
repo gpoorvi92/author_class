@@ -1,0 +1,7 @@
+      if (!isDataFlavorSupported(flavor)) throw new UnsupportedFlavorException(flavor);
+
+      if (DataFlavor.stringFlavor.equals(flavor)) return obj.toString();
+
+      return obj;
+   }
+}

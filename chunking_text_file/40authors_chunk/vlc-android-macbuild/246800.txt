@@ -1,0 +1,10 @@
+        mImageMemCache = new LruCache<Integer, Drawable>(capacity);
+    }
+
+    public Drawable get(int key) {
+        Drawable thumb = mImageMemCache.get(key);
+        if (thumb != null) {
+            if (ENABLE_VERBOSE)
+                DebugLog.vfmt("ImageLruCache", "get %d", key);
+            return thumb;
+        }

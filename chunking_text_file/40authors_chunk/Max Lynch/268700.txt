@@ -1,0 +1,10 @@
+		
+		cp.add(list, BorderLayout.WEST);
+		cp.add(display, BorderLayout.CENTER);
+		
+
+		list.setPreferredSize(new Dimension(100, 440));
+						
+        setSize(500, 400);
+        //setResizable(false);
+        show();

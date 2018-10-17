@@ -1,0 +1,10 @@
+
+    public InputStreamDebug(InputStream delegate) {
+        this.m_delegate = delegate;
+    }
+
+    public synchronized int read() throws IOException {
+        int ret = this.m_delegate.read();
+        System.out.print((char)ret);
+        return ret;
+    }

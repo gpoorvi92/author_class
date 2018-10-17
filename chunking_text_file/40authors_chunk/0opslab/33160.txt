@@ -1,0 +1,10 @@
+  }
+
+  public static Charset forName(String name) {
+    Charset ret = (Charset) singletons.get(name);
+    if (ret == null) {
+      ret = new UnsupportedCharset(name);
+      UnsupportedCharset.singletons.put(name, ret);
+    }
+    return ret;
+  }

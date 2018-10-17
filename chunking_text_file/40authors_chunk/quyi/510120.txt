@@ -1,0 +1,10 @@
+    case MD5:
+      return getMD5();
+
+    case CHECK_ENGINE_NUM:
+      return Integer.valueOf(getCheckEngineNum());
+
+    case POSITIVES:
+      return Integer.valueOf(getPositives());
+
+    case VIRUS_ENGINE:

@@ -1,0 +1,10 @@
+
+    /**
+     * 
+     */
+    public int available() throws IOException {
+        return m_delegate.available();
+    }
+
+    /**
+     * 

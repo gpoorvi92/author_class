@@ -1,0 +1,10 @@
+    }
+  }
+
+  public int getCheckEngineNum() {
+    return this.checkEngineNum;
+  }
+
+  public VirusDetectionResultData setCheckEngineNum(int checkEngineNum) {
+    this.checkEngineNum = checkEngineNum;
+    setCheckEngineNumIsSet(true);

@@ -1,0 +1,10 @@
+        question.setFont(bigFont);
+       
+        JScrollPane qScroller = new JScrollPane(question);
+        qScroller.setVerticalScrollBarPolicy(
+                  ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        qScroller.setHorizontalScrollBarPolicy(
+                  ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+        answer = new JTextArea(6,20);
+        answer.setLineWrap(true);

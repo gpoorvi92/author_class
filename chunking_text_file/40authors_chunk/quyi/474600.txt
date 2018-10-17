@@ -1,0 +1,10 @@
+      if (!value) {
+        this.success = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.InvalidRequestException getIre() {
+      return this.ire;
+    }
+
+    public genMissionId_result setIre(com.nercis.isscp.idl.InvalidRequestException ire) {

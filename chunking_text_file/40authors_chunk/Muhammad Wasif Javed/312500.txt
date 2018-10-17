@@ -1,0 +1,10 @@
+		}
+		else {
+			id = Integer.parseInt (txtMemberId.getText ());	//Converting String to Numeric.
+			long memberNo;					//Use for Comparing the Member's Id.
+			boolean found = false;				//To Confirm the Member's Id Existance.
+
+			try {	//SELECT Query to Retrieved the Record.
+				String q = "SELECT * FROM Members WHERE MemberId = " + id + "";
+				ResultSet rs = st.executeQuery (q);	//Executing the Query.
+				rs.next ();				//Moving towards the Record.

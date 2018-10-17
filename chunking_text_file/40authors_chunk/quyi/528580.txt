@@ -1,0 +1,10 @@
+  private static class InvalidRequestExceptionTupleSchemeFactory implements SchemeFactory {
+    public InvalidRequestExceptionTupleScheme getScheme() {
+      return new InvalidRequestExceptionTupleScheme();
+    }
+  }
+
+  private static class InvalidRequestExceptionTupleScheme extends TupleScheme<InvalidRequestException> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, InvalidRequestException struct) throws org.apache.thrift.TException {

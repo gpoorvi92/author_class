@@ -1,0 +1,10 @@
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case MONITOR_TIME:
+      return getMonitorTime();
+
+    case SCREEN_SHOT_PATH:
+      return getScreenShotPath();
+

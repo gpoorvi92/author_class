@@ -1,0 +1,10 @@
+}
+
+/*
+输出：
+CountOperate---begin
+Thread.currentThread().getName()=main
+Thread.currentThread().isAlive()=true
+this.getName()=Thread-0
+this.isAlive()=false
+CountOperate---end

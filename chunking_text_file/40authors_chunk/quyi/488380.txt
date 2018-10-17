@@ -1,0 +1,10 @@
+        return new updateUserAppInfo_resultStandardScheme();
+      }
+    }
+
+    private static class updateUserAppInfo_resultStandardScheme extends StandardScheme<updateUserAppInfo_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, updateUserAppInfo_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)

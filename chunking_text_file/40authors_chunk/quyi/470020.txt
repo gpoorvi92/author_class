@@ -1,0 +1,10 @@
+//				userApp.setAppFileMd5(userAppInfo.getMd5());
+//				userApp.setVersion("1.0");
+//				userApp.setUpdateTime("2013-12-12 12:12:12");// yyyy-MM-dd HH:mm:ss
+//				userApp.setSize(userAppInfo.getSize());
+//				userApp.setDescription("hello");
+//				userApp.setAppFilePath(userAppInfo.getAppPath());
+//				userApps.add(userApp);
+//			}
+//			try {
+//				client.issuedMessage(missionId, userApps, null, plots);

@@ -1,0 +1,10 @@
+    }
+
+    public int read(char chars[], int offset, int length)
+        throws IOException
+    {
+        if(eof)
+            throw new IOException("Read after end of file");
+        if(position == size)
+            return doEndOfFile();
+        position += length;

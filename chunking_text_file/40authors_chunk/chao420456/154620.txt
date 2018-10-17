@@ -1,0 +1,10 @@
+		setSize(400, 400);
+		setResizable(false);
+		setContentPane(createContentPanel());
+		addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				closeSingleFrame();
+			}
+		});
+	}

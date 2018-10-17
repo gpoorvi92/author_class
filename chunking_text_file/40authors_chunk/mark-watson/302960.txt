@@ -1,0 +1,10 @@
+            // rule 3: convert a noun to a past participle if words.get(i) ends with "ed"
+            if (ret.get(i).startsWith("N") && words.get(i).endsWith("ed"))
+                ret.set(i,"VBN");
+            // rule 4: convert any type to adverb if it ends in "ly";
+            if (words.get(i).endsWith("ly"))
+                ret.set(i, "RB");
+            // rule 5: convert a common noun (NN or NNS) to a adjective if it ends with "al"
+            if (ret.get(i).startsWith("NN") && word.endsWith("al"))
+                ret.set(i, "JJ");
+            // rule 6: convert a noun to a verb if the preceeding work is "would"

@@ -1,0 +1,10 @@
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class CaseRunner {
+
+	public static void main(String[] args) {
+		int numRequestThreads = Runtime.getRuntime().availableProcessors();
+		int targetTPS = 200;
+
+		// 每秒中提交的请求数量

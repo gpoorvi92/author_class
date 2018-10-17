@@ -1,0 +1,6 @@
+					new Object[] { appId, title, new Date().getTime(), content,
+							url, num });
+		}
+		cursor.close();
+	}
+}

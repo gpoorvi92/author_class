@@ -1,0 +1,10 @@
+public class ConstructorTest {
+    public static void main(String[] args) {
+        Emplogee[] staff = new Emplogee[3];
+        
+        /* 
+         * 这里利用到了Java中的“重载”进行初始化，
+         * 当然在这里就不能像C++中叫“函数重载”了，
+         * 在Java中，应该叫做“方法重载”
+         */
+        staff[0] = new Emplogee("Harry", 40000);

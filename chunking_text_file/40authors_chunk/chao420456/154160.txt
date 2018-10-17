@@ -1,0 +1,10 @@
+		//≤‚ ‘
+		PingPangCoach ppc = new PingPangCoach("¡ıπ˙¡∫",50);
+		ppc.eat();
+		ppc.teach();
+		ppc.speak();
+		System.out.println("---------------------------");
+
+		PingPangPlayer ppp = new PingPangPlayer("Õı∫∆",30);
+		ppp.eat();
+		ppp.study();

@@ -1,0 +1,10 @@
+   {
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      try
+      {
+         DataFlavor flavor = new DataFlavor(
+               "application/x-java-serialized-object;class=java.awt.Color");
+         if (clipboard.isDataFlavorAvailable(flavor))
+         {
+            Color color = (Color) clipboard.getData(flavor);
+            chooser.setColor(color);

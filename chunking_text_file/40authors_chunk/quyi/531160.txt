@@ -1,0 +1,10 @@
+      oprot.writeI32(struct.app_size);
+      oprot.writeFieldEnd();
+      if (struct.minsdkversion != null) {
+        oprot.writeFieldBegin(MINSDKVERSION_FIELD_DESC);
+        oprot.writeString(struct.minsdkversion);
+        oprot.writeFieldEnd();
+      }
+      if (struct.apk_md5 != null) {
+        oprot.writeFieldBegin(APK_MD5_FIELD_DESC);
+        oprot.writeString(struct.apk_md5);

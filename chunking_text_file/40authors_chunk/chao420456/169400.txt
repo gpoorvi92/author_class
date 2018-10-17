@@ -1,0 +1,10 @@
+		f.add(tf);
+		f.add(bu);
+		f.add(bu2);
+		f.add(ta);
+
+		// ×¢²áÊÂ¼þ
+		f.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);

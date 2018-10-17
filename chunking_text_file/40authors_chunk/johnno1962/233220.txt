@@ -1,0 +1,10 @@
+            entered_componentMoved_1 = true;
+            __componentMoved( e );
+            entered_componentMoved_1 = false;
+        }
+        else
+            super.componentMoved( e );
+    }
+
+    /// public void java.awt.event.ComponentAdapter.componentShown(java.awt.event.ComponentEvent)
+

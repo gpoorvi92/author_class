@@ -1,0 +1,10 @@
+		NodeTrackerService.Client client = new NodeTrackerService.Client(protocol);
+		try {
+			int retvalue = client.submitResult(AppType.APK, JobLifecycle.ANALYSIS, JobPhase.INITIALIZE, content, "123",
+					110000640100000101L, "1201000000000001");
+			System.out.println(retvalue);
+		} catch (InvalidRequestException e) {
+			e.printStackTrace();
+		} catch (UnavailableException e) {
+			e.printStackTrace();
+		} catch (TimeoutException e) {

@@ -1,0 +1,10 @@
+{
+	private JButton jbt;
+	//private JScrollPane jsp;
+	//private JTextArea log;
+	private FileInputStream in;  
+	private FileOutputStream out; 
+	private int fileSize;
+	private int status;
+	private int code; 
+	private int nextCode;

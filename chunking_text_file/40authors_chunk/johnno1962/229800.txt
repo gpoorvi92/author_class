@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.ContainerAdapter.componentRemoved(java.awt.event.ContainerEvent)
+
+    public native void __componentRemoved( java.awt.event.ContainerEvent e );
+
+    boolean entered_componentRemoved_1;
+
+    public void componentRemoved( java.awt.event.ContainerEvent e ) {
+        if ( !entered_componentRemoved_1 ) {

@@ -1,0 +1,10 @@
+        Selector selector = null;
+        try {
+            selector = Selector.open();
+
+            while (!Thread.interrupted()) {
+                TcpServerHandler newHandler = handlers.poll();
+                if (newHandler != null) {
+                    newHandler.register(selector);
+                }
+

@@ -1,0 +1,10 @@
+                  Encoder out)
+            {
+               super.initialize(type, oldInstance, newInstance, out);
+               DamageReport r = (DamageReport) oldInstance;
+
+               for (Point2D p : r.points)
+                  out.writeStatement(new Statement(oldInstance, "click", new Object[] { p }));
+            }
+         });
+   }

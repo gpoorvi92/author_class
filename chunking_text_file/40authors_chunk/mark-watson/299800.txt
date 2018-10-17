@@ -1,0 +1,10 @@
+		Map<String, Integer> map2 = otherDocument.getStemMap();
+		Iterator<String> iter = stemCountMap.keySet().iterator();
+		while (iter.hasNext()) {
+			String key = iter.next();
+			Integer count1 = stemCountMap.get(key);
+			Integer count2 = map2.get(key);
+			
+			if (count1!=null && count2!=null) {
+				count += count1 + count2;
+				//System.out.println(key);

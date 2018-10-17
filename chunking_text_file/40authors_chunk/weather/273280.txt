@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 转编码
+     *
+     * @param source
+     * @param srcCharsetName
+     * @param newCharsetName
+     * @return
+     */

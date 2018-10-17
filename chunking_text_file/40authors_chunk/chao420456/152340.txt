@@ -1,0 +1,10 @@
+	}
+}
+
+class Cat extends Animal {
+	public void eat(){
+		System.out.println("√®≥‘”„");
+	}
+
+	public void sport(){
+		System.out.println("√®∫Õ¿œ Û◊Ω√‘≤ÿ");

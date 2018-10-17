@@ -1,0 +1,10 @@
+
+	boolean insert(Order order);
+
+	Order selectOrderById(String iD);
+
+	List<Order> selectOrderByAcceptStatus(String acceptStatus);
+
+	BigInteger selectUnprocessedOrderCount();
+
+	List<Order> selectOrderByAcceptStatus(String acceptStatus, int start,int limit);

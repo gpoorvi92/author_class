@@ -1,0 +1,10 @@
+				// 故障未恢复，不用重复发送告警信息给服务器，故仅增加计数
+				duplicateSubmissionCount = prevSubmittedCounter.incrementAndGet();
+			}
+		} catch (Throwable t) {
+			t.printStackTrace();
+		}
+
+		return duplicateSubmissionCount;
+	}
+

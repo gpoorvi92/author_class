@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @return the free
+	 */
+	public boolean isFree() {
+		return free;
+	}
+
+	/**

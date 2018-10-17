@@ -1,0 +1,10 @@
+                return false;
+            } else {
+                int newWidth; int newHeight;
+                // 判断是否是等比缩放
+                if (this.proportion == true) {
+                    // 为等比缩放计算输出的图片宽度及高度
+                    double rate1 = ((double) img.getWidth(null)) / (double) outputWidth + 0.1;
+                    double rate2 = ((double) img.getHeight(null)) / (double) outputHeight + 0.1;
+                    // 根据缩放比率大的进行缩放控制
+                    double rate = rate1 > rate2 ? rate1 : rate2;

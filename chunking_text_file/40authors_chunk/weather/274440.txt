@@ -1,0 +1,10 @@
+    /** The HTTP status code. */
+    public final int statusCode;
+
+    /** Raw data from this response. */
+    public final byte[] data;
+
+    /** Response headers. */
+    public final Map<String, String> headers;
+
+    /** True if the server returned a 304 (Not Modified). */

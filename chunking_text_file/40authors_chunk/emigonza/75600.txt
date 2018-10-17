@@ -1,0 +1,10 @@
+    public void    printRecItemFuelVoid(String description, long price,
+                       int vatInfo, long specialTax) throws JposException;
+    public void    printRecPackageAdjustment(int adjustmentType,
+                       String description, String vatAdjustment)
+                       throws JposException;
+    public void    printRecPackageAdjustVoid(int adjustmentType,
+                       String vatAdjustment) throws JposException;
+    public void    printRecRefundVoid(String description, long amount,
+                       int vatInfo) throws JposException;
+    public void    printRecSubtotalAdjustVoid(int adjustmentType, long amount)

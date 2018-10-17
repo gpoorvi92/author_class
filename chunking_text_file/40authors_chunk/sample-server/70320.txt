@@ -1,0 +1,10 @@
+ */
+public class LogicHandler extends SimpleChannelHandler
+{
+    private static final Logger                log                   = LoggerFactory.getLogger(LogicHandler.class);
+    private static final LogicMoudleDispatcher logicMoudleDispatcher = LogicBeanFactory.getService(LogicMoudleDispatcher.class);
+    @Override
+    public void channelConnected(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception
+    {
+        Channel channel = ctx.getChannel();
+        log.info(">>>>>>>>>>>>>>>>channel connected:{}", channel);

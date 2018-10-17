@@ -1,0 +1,10 @@
+     * This method returns a description of the status of the scan queue item.
+     *
+     * @return A description of the status of the scan queue item.
+     */
+    String getStatus();
+
+    /**
+     * This method returns an indication of the percentage completed for the
+     * scan queue item.
+     *

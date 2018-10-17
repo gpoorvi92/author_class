@@ -1,0 +1,10 @@
+    __isset_bitfield = EncodingUtils.clearBit(__isset_bitfield, __FSSIZE_ISSET_ID);
+  }
+
+  /** Returns true if field fsSize is set (has been assigned a value) and false otherwise */
+  public boolean isSetFsSize() {
+    return EncodingUtils.testBit(__isset_bitfield, __FSSIZE_ISSET_ID);
+  }
+
+  public void setFsSizeIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __FSSIZE_ISSET_ID, value);

@@ -1,0 +1,10 @@
+ *
+ * 成员方法：
+ * 		public long getTime()：获取毫秒值
+ *		public void setTime(long time):把毫秒值作为参数传递
+ */
+public class DateDemo {
+	public static void main(String[] args) {
+		// 创建对象
+		Date d = new Date();
+		System.out.println("d:" + d);

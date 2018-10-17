@@ -1,0 +1,10 @@
+
+  // Methods
+  public void    addMarker(String marker)
+                     throws JposException;
+  public void    cancelPrintContent()
+                     throws JposException;
+  public void    cancelQueryContent()
+                     throws JposException;
+  public void    clearInput() throws JposException;
+  public void    clearOutput() throws JposException;

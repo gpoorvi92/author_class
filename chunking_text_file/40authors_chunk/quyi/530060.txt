@@ -1,0 +1,10 @@
+    case APP_NAME:
+      return isSetApp_name();
+    case VERSIONCODE:
+      return isSetVersioncode();
+    case URL:
+      return isSetUrl();
+    case APP_SIZE:
+      return isSetApp_size();
+    case MINSDKVERSION:
+      return isSetMinsdkversion();

@@ -1,0 +1,10 @@
+
+	public T get() {
+		return threadLocal.get();
+	}
+
+	public void set(T value) {
+		threadLocal.set(value);
+	}
+
+	public void remove() {

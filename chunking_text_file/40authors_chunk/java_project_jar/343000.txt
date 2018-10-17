@@ -1,0 +1,10 @@
+        {
+            handleIOException(e);
+        }
+    }
+
+    protected void beforeWrite(int i)
+        throws IOException
+    {
+    }
+

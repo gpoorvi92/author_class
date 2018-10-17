@@ -1,0 +1,10 @@
+  /** Returns true if field pidName is set (has been assigned a value) and false otherwise */
+  public boolean isSetPidName() {
+    return this.pidName != null;
+  }
+
+  public void setPidNameIsSet(boolean value) {
+    if (!value) {
+      this.pidName = null;
+    }
+  }

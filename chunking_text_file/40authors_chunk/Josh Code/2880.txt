@@ -1,0 +1,10 @@
+                startY = 0;
+            }
+            else // z axis
+            {
+                startX = 1;
+                startY = 1;
+            }
+
+            result.values[startX][startY] = cos_Theta;
+            result.values[startX][startY + 1] = sin_Theta;

@@ -1,0 +1,10 @@
+        public String[] StringArrayMethod( String arg[] );
+        public String[][] String2dArrayMethod( String arg[][] );
+
+    }
+
+    public static class TestResponderImpl implements TestListener {
+
+        public boolean booleanMethod( boolean arg ) {
+            return arg;
+        }

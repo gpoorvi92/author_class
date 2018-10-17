@@ -1,0 +1,10 @@
+    public static final int MICR_CC_UNKNOWN      = 99;
+
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "ResultCodeExtended" Property Constants for MICR
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_EMICR_NOCHECK    = 1 + JposConst.JPOSERREXT; // EndInsertion
+    public static final int JPOS_EMICR_CHECK      = 2 + JposConst.JPOSERREXT; // EndRemoval

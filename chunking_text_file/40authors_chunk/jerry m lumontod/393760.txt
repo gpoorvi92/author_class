@@ -1,0 +1,10 @@
+		mstrClassCode=tstrClassCode;
+		mstrClassDesc=tstrClassDesc;
+		mstrSubClassCode=tstrSubClassCode;
+		mstrSubClassDesc=tstrSubClassDesc;
+		mstrAmount=tstrAmount; //need to convert this to object;
+		mstrUserCode=tstrUserCode;
+		mstrUserDesc=tstrUserDesc;
+		mstrDRCR=tstrDRCR;
+		mstrEntryDate = tstrEntryDate; 
+		mstrPostDate = tstrPostDate;

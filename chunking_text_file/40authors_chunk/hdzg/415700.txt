@@ -1,0 +1,10 @@
+				canvas.drawText(items1[i][0], 15, startY + 5+ 30*(i-tempCurrentI), paint);
+				canvas.drawText(items1[i][1], 85, startY + 5+ 30*(i-tempCurrentI), paint);
+				canvas.drawText(items1[i][2], 170, startY + 5+ 30*(i-tempCurrentI), paint);
+				canvas.drawText(items1[i][3], 235, startY + 5+ 30*(i-tempCurrentI), paint);
+			}
+		}
+		canvas.drawBitmap(selectBackground, 10, startY + 5 + 30*selectI - 22, paint);//绘制选择效果
+		if(currentI != 0){//绘制小的向上箭头
+			canvas.drawBitmap(upBitmap, 150, 55, paint);
+		}

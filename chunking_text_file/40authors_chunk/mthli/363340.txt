@@ -1,0 +1,10 @@
+      catch (IOException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+   }
+}
+
+/**
+ * This class is a wrapper for the data transfer of serialized objects.
+ */

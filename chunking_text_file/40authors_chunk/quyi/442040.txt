@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetSourceAddress()).compareTo(other.isSetSourceAddress());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSourceAddress()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.sourceAddress, other.sourceAddress);

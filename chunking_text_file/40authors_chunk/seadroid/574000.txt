@@ -1,0 +1,10 @@
+        }
+
+        return null;
+    }
+
+    @Override
+    protected void onPostExecute(File file) {
+        state = err == null ? TaskState.FINISHED : TaskState.FAILED;
+        if (uploadStateListener != null) {
+            if (err == null) {

@@ -1,0 +1,10 @@
+    public void    setDataEventEnabled(boolean dataEventEnabled)
+                       throws JposException;
+    public boolean getDecodeData() throws JposException;
+    public void    setDecodeData(boolean decodeData) throws JposException;
+    public int     getErrorReportingType() throws JposException;
+    public void    setErrorReportingType(int errorReportingType)
+                       throws JposException;
+    public String  getExpirationDate() throws JposException;
+    public String  getFirstName() throws JposException;
+    public String  getMiddleInitial() throws JposException;

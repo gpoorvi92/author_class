@@ -1,0 +1,10 @@
+
+    public String getRootDirID() {
+        return root;
+    }
+
+    @Override
+    public String getTitle() {
+        return name;
+    }
+

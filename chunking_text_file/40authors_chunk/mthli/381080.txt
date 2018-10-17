@@ -1,0 +1,10 @@
+      JButton button = new JButton(title);
+      c.add(button);
+      button.addActionListener(listener);
+   }
+
+   /**
+    * Adds a bouncing ball to the canvas and starts a thread to make it bounce
+    */
+   public void addBall()
+   {

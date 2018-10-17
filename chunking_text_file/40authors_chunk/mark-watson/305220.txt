@@ -1,0 +1,10 @@
+            int x = (int)(Math.random()*width);
+            int y = (int)(Math.random()*height);
+            setValue(x, y, OBSTICLE);
+        }
+        /**
+         * Specify the starting location
+         */
+         startLoc.x = 0;
+         startLoc.y = 0;
+         setValue(0, 0, (short)0);

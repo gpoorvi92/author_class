@@ -1,0 +1,10 @@
+
+	public int defend;//将领统御力
+	public int power;//将领武力
+	public int intelligence;//将领智力
+	public int agility;//将领敏捷度
+	private int strength;//将领的体力，打仗会减少
+	public int maxStrength = 100;//将领体力的上限,随着升级会增加
+
+	int level;//将领的等级
+	int exp;//将领经验值

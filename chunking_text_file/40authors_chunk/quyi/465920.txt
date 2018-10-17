@@ -1,0 +1,10 @@
+import jxl.write.WriteException;
+
+public class MultiRecordStatistic {
+	/**
+	 * @param args
+	 * 对文件进行处理，根据批量应用回收情况查下发表补全表格。
+	 * @throws WriteException
+	 * @throws IOException
+	 * @throws BiffException
+	 */

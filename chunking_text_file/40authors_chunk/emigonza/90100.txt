@@ -1,0 +1,10 @@
+/**
+ * class that prepares a JPopoupMenu for display
+ * @author Manuel M Monserrate    
+ * @since 1.3 (SF 2K meeting)
+ */
+public class PopupListener
+{
+    /**
+     * used to setUp the PopupMenu depending on the coordinates given to the method
+     * @param x, the x-coordinate

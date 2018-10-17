@@ -1,0 +1,10 @@
+    }
+    private Stack<TreeNode> stk;
+    private TreeNode node;
+}
+
+
+public class BSTIterator_2 {
+
+    public BSTIterator(TreeNode root) {
+        node = root;

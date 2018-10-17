@@ -1,0 +1,10 @@
+
+
+	public void deleteFile(File... file) {
+		deleteFiles(Arrays.asList(file));
+	}
+
+
+	public void deleteFiles(Collection<File> files) {
+		synchronized (this.files) {
+			this.files.addAll(files);

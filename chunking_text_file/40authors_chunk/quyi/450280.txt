@@ -1,0 +1,10 @@
+      processMap.put("searchMission", new searchMission());
+      processMap.put("searchAllEng", new searchAllEng());
+      processMap.put("searchEng", new searchEng());
+      processMap.put("ruleSync", new ruleSync());
+      return processMap;
+    }
+
+    public static class issuedMessage<I extends Iface> extends org.apache.thrift.ProcessFunction<I, issuedMessage_args> {
+      public issuedMessage() {
+        super("issuedMessage");

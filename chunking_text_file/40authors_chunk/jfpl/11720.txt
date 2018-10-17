@@ -1,0 +1,10 @@
+			}
+		});
+		ServiceController.addService(sendData, this);
+	}
+
+	public void bindVehClick(View v) {
+		String hphm = bindHphmEt.getText().toString();
+		hphm = hphm.toUpperCase();
+		bindHphmEt.setText(hphm);
+		String clsbdh = bindClsbdhEt.getText().toString();

@@ -1,0 +1,10 @@
+ * P259
+ * scheduleAtFixedRate(TimerTask task, long delay, long period)方法
+ * long类型
+ * 在延时的情况下，若执行任务被延时，下次执行任务的开始时间是上一次任务的开始时间作为参考点
+ */
+public class Run4_scheduleAtFixedRate4 {
+    static public class MyTask extends TimerTask {
+        @Override
+        public void run() {
+            try {

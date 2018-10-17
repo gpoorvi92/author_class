@@ -1,0 +1,10 @@
+    this.rss = rss;
+    setRssIsSet(true);
+    this.vss = vss;
+    setVssIsSet(true);
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public SystemResources(SystemResources other) {

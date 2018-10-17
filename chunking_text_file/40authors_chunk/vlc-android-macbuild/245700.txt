@@ -1,0 +1,10 @@
+        // options
+        ArrayList<String> options = new ArrayList<String>();
+        CollectionHelper.Append(options, extraParams);
+        return create(context, libLoader, resolver,
+                CollectionHelper.toArray(options));
+    }
+
+    private static LibVlcMediaPlayer create(Context context,
+            LibVlcLibraryLoader libLoader, PlayIndex.Resolver resolver,
+            String... extraParams) throws LibVlcException {

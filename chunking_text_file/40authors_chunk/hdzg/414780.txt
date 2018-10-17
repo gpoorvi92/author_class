@@ -1,0 +1,10 @@
+				int kyf=din.readByte();//可遇否，0—不可遇
+				int w = din.readByte();//图元的宽度
+				int h = din.readByte();//图元的高度
+				int col = din.readByte();//总列数
+				int row = din.readByte();//总行数
+				int pCol = din.readByte();//占位列
+				int pRow = din.readByte();//占位行
+				
+				int bktgCount=din.readByte();////不可通过点的数量
+				int[][] notIn=new int[bktgCount][2];

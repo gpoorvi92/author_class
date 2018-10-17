@@ -1,0 +1,10 @@
+	}
+	
+	
+	public void update()
+	{
+		if(gradientPanel != null)
+		{	
+			gradientPanel.setGradientSize(g_x, g_y, g_w, g_h);
+			System.out.println("asdfaf");
+		}

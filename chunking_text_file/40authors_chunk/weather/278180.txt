@@ -1,0 +1,10 @@
+    return open(url, client.getProxy());
+  }
+
+  HttpURLConnection open(URL url, Proxy proxy) {
+    String protocol = url.getProtocol();
+    OkHttpClient copy = client.copyWithDefaults();
+    copy.setProxy(proxy);
+
+    if (protocol.equals("http")) return new HttpURLConnectionImpl(url, copy);
+    if (protocol.equals("https")) return new HttpsURLConnectionImpl(url, copy);

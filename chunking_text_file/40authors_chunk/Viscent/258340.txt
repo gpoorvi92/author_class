@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch8.activeobject.example;
+
+import java.io.Serializable;
+
+public class Attachment implements Serializable{
+	private static final long serialVersionUID = -313285270497968496L;
+	private String contentType;

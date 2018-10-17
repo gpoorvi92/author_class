@@ -1,0 +1,10 @@
+ Solution: Sort the string to see if they're anagrams.
+ */
+
+import java.util.Map.Entry; 
+public class Solution {
+    public List<String> anagrams(String[] strs) {
+        ArrayList<String> res = new ArrayList<String>();
+        HashMap<String, ArrayList<String>> group = new HashMap<String, ArrayList<String>>();
+        if (strs.length == 0) return res;
+        for (int i = 0; i < strs.length; ++i) {

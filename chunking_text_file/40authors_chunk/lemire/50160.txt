@@ -1,0 +1,10 @@
+        }
+        return result;
+    }
+
+    private static int threshold3(final int t, final int[] buffers, final int bufUsed) {
+        if (buffers.length == 0)
+            return 0;
+        final int[] v = new int[t];
+        v[0] = buffers[0];
+        for (int k = 1; k < bufUsed; ++k) {

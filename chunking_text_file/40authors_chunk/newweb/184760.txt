@@ -1,0 +1,10 @@
+	
+	public double getGlassYtWidth() {
+		return glassYtWidth;
+	}
+	public void setGlassYtWidth(double glassYtWidth) {
+		this.glassYtWidth = glassYtWidth;
+	}
+	public double getGlassYtHeight() {
+		return glassYtHeight;
+	}

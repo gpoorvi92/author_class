@@ -1,0 +1,10 @@
+                    {
+                        RegisterInfoEntity registerInfoEntity = RegisterInfoEntity.fromDTO(each);
+                        registerInfoEntity.setAddTime(this.getLastStart());
+                        registerInfoEntity.setModifyTime(this.getLastStart());
+                        DaoManager.getLocalDao().saveOrUpdate(registerInfoEntity);
+                    }
+                }
+            }
+            {
+                //获取活跃用户信息

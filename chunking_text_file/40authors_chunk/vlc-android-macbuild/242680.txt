@@ -1,0 +1,10 @@
+                String extraInfoName = info.getExtraInfo().toLowerCase();
+                if (!TextUtils.isEmpty(extraInfoName))
+                    return extraInfoName;
+            }
+            return typeName;
+        } catch (Exception e) {
+            return null;
+        }
+    }
+}

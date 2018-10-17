@@ -1,0 +1,10 @@
+ */
+public class AndroidAuthenticator implements Authenticator {
+    private final Context mContext;
+    private final Account mAccount;
+    private final String mAuthTokenType;
+    private final boolean mNotifyAuthFailure;
+
+    /**
+     * Creates a new authenticator.
+     * @param context Context for accessing AccountManager

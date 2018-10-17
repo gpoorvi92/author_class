@@ -1,0 +1,10 @@
+*	12/11/02
+*		- first revision.
+*	05/22/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Description: removed the xml namespace
+*		- Problem : Notification messages refer to uncorrect variable names
+*		- Error : The NotifyRequest class introduces the XML namespace in variable names, too
+*	05/22/03
+*		- Giordano Sassaroli <sassarol@cefriel.it>
+*		- Problem : Notification messages refer to uncorrect variable names

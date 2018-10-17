@@ -1,0 +1,10 @@
+        if (sAndroidModuleInfo == null) {
+            ModuleInfo module = new ModuleInfo();
+
+            module.mVideoDecoder = "android";
+            module.mVideoDecoderImpl = "SYS-HW";
+
+            module.mAudioDecoder = "android";
+            module.mAudioDecoderImpl = "SYS-HW";
+
+            sAndroidModuleInfo = module;

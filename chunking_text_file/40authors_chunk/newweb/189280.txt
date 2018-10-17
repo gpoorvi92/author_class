@@ -1,0 +1,10 @@
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean delete(MaterialBrand mb) {
+		try {
+			sessionFactory.getCurrentSession().delete(mb);
+		} catch (Exception e) {

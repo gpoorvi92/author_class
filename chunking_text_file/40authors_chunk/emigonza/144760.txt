@@ -1,0 +1,10 @@
+	 * @since 1.3 (Washington DC 2001)
+	 */
+	public static final String[] PROP_NAME_ARRAY = { JPOS_SERVICE_MANAGER_CLASS_PROP_NAME,
+                                                     JPOS_SERVICE_MANAGER_CLASS_PROP_NAME2,
+                                                     JPOS_REG_POPULATOR_CLASS_PROP_NAME,
+                                                     JPOS_POPULATOR_FILE_PROP_NAME,
+                                                     JPOS_POPULATOR_FILE_URL_PROP_NAME,
+                                                     JPOS_TRACING_PROP_NAME,
+                                                     JPOS_CONFIG_POPULATOR_CLASS_MULTIPROP_NAME,
+                                                     JPOS_CONFIG_POPULATOR_FILE_MULTIPROP_NAME };

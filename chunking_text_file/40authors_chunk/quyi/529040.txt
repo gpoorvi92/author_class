@@ -1,0 +1,10 @@
+    String versioncode,
+    String url,
+    int app_size,
+    String minsdkversion,
+    String apk_md5,
+    String notify_callback_url,
+    String app_description,
+    List<com.nercis.isscp.idl.permission.Permissions> requestPurviews,
+    String format)
+  {

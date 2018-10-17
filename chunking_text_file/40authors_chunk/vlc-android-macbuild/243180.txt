@@ -1,0 +1,10 @@
+
+    private static final String BUNDLE_VOD_TAG = "vod_tag";
+    private static final String BUNDLE_VOD_LIST = "vod_list";
+
+    public static final String VOD_TAG__YOUKU = "youku";
+    public static final String VOD_TAG__SINA = "sina";
+    public static final String VOD_TAG__QQ = "qq";
+    public static final String VOD_TAG__TUDOU = "tudou";
+    public static final String VOD_TAG__6CN = "6cn";
+    public static final String VOD_TAG__LINK = "link";

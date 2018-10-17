@@ -1,0 +1,10 @@
+        mActivity = null;
+        super.onDetach();
+    }
+
+    private List<UploadTaskInfo> getUploadTaskInfos() {
+        TransferService txService = mActivity.getTransferService();
+        if (txService == null) {
+            // In case the service is not ready
+            return new ArrayList<UploadTaskInfo>();
+        }

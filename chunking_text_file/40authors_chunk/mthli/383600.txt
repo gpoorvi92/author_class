@@ -1,0 +1,10 @@
+      this.descr = descr;
+      this.value = value;
+   }
+
+   /**
+    * Returns the role name of this principal.
+    * @return the role name
+    */
+   public String getName()
+   {

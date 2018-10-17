@@ -1,0 +1,10 @@
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 上午11:43:09
+ */
+public final class NumericHelper {
+
+	/**
+	 * @Title: safeParseInt
+	 * @param str
+	 * @return
+	 * @return: int

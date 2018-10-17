@@ -1,0 +1,10 @@
+public class TcpProxyConfigParser {
+
+    @SuppressWarnings("unchecked")
+    public static List<TcpProxyConfig> parse(Properties properties) {
+        final Set<String> proxyNames = new HashSet<String>();
+        final List<String> propertySet = (List<String>) Collections.list(properties.propertyNames());
+        for (final String propertyName : propertySet) {
+            final int dotIndex = propertyName.lastIndexOf('.');
+            if (dotIndex == -1) throw new IllegalArgumentException(
+                    "Invalid property " + propertyName + " should be <proxy name>.localPort|remotePort|remoteHost");

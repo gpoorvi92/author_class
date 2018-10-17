@@ -1,0 +1,10 @@
+package pair3;
+
+/**
+ * @version 1.01 2012-01-26
+ * @author Cay Horstmann
+ */
+public class PairTest3
+{
+   public static void main(String[] args)
+   {

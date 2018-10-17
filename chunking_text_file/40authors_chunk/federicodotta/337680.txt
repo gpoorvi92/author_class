@@ -1,0 +1,8 @@
+     * <code>IScannerInsertionPoint</code> objects that should be used in the
+     * scanning, or
+     * <code>null</code> if no custom insertion points are applicable for this
+     * request.
+     */
+    List<IScannerInsertionPoint> getInsertionPoints(
+            IHttpRequestResponse baseRequestResponse);
+}

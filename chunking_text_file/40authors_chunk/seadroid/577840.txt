@@ -1,0 +1,10 @@
+
+    @Override
+    public int getCount() {
+        return items.size();
+    }
+
+    public void clear() {
+        items.clear();
+    }
+

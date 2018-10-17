@@ -1,0 +1,10 @@
+    public void calcFitness() {
+        for (int i=0; i<numChromosomes; i++) {
+            float x = geneToFloat(i);
+            chromosomes.get(i).setFitness(fitness(x));
+        }
+    }
+
+    public void print() {
+        float sum = 0.0f;
+        for (int i=0; i<numChromosomes; i++) {

@@ -1,0 +1,10 @@
+    private int    leftCount;
+    //@Column(name = "date_limit")
+    private Date   dateLimit;
+    //@Column(name = "cd_key")
+    private String cdKey;
+    //@Column(name = "zone_id")
+    private int    zoneId;
+    public String getUuid()
+    {
+        return uuid;

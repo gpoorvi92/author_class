@@ -1,0 +1,10 @@
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
+import android.widget.RelativeLayout.LayoutParams;
+import android.widget.TextView;
+import android.widget.EditText;
+
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.annotation.InjectionView;
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.service.ChatLocationService;

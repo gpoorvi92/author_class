@@ -1,0 +1,10 @@
+     * @param stringValue 需要处理的字符串
+     * @return 返回文件的编码
+     */
+    public static String encoding(String stringValue) {
+        java.nio.charset.Charset charset = null;
+        try {
+            InputStream inputStream = new ByteArrayInputStream(stringValue.getBytes());
+            charset = cpDetector.codepageDetector.detectCodepage(inputStream, 3);
+            if (charset != null) {
+                return charset.name();

@@ -1,0 +1,10 @@
+        }
+        this.userApps = __this__userApps;
+      }
+      if (other.isSetRules()) {
+        List<String> __this__rules = new ArrayList<String>(other.rules);
+        this.rules = __this__rules;
+      }
+      if (other.isSetPlots()) {
+        List<com.nercis.isscp.idl.PlotsType> __this__plots = new ArrayList<com.nercis.isscp.idl.PlotsType>(other.plots.size());
+        for (com.nercis.isscp.idl.PlotsType other_element : other.plots) {

@@ -1,0 +1,8 @@
+    public void removeProfile( String profileName ) { table.remove( profileName ); }
+
+	//-------------------------------------------------------------------------
+	// Instance varaibles
+	//
+
+	private Hashtable table = new Hashtable();
+}

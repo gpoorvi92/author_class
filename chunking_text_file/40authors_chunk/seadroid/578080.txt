@@ -1,0 +1,10 @@
+    private CameraUploadDBHelper dbHelper;
+    private DataManager mDataManager;
+    private Account account;
+
+    public CameraUploadManager(Account act) {
+        account = act;
+        dbHelper = CameraUploadDBHelper.getCameraUploadDBHelper();
+        mDataManager = new DataManager(act);
+    }
+

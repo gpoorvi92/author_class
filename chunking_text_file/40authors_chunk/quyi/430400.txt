@@ -1,0 +1,10 @@
+	@Override
+	public void run() {
+		// TODO 记录查询开始时间
+		long startTime =System.currentTimeMillis();
+		boolean isSearchSuccess = false;
+		try {
+			TTransport transport = new TSocket(engine_address, engine_port);
+			transport.open();
+			TProtocol protocol1 = new TBinaryProtocol(transport);
+			EngineOperate.Client client = new EngineOperate.Client(protocol1);

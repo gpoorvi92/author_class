@@ -1,0 +1,10 @@
+ *		向下限定，E及其子类
+ *? super E
+ *		向上限定，E及其父类
+ */
+public class GenericeDemo {
+	public static void main(String[] args) {
+		// 泛型通配符<?>
+		Collection<?> c1 = new ArrayList<Animal>();
+		Collection<?> c2 = new ArrayList<Dog>();
+		Collection<?> c3 = new ArrayList<Cat>();

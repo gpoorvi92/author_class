@@ -1,0 +1,10 @@
+    if (!value) {
+      this.plotsStatus = null;
+    }
+  }
+
+  public int getFunctionStatusSize() {
+    return (this.functionStatus == null) ? 0 : this.functionStatus.size();
+  }
+
+  public void putToFunctionStatus(String key, CheckResultStatus val) {

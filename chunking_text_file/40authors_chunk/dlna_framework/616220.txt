@@ -1,0 +1,10 @@
+*		  post(HTTPResponse, byte[])
+*		  post(HTTPResponse, InputStream)
+*	05/26/04
+*		- Added NO_CATCH and MAX_AGE.
+*	10/20/04 
+*		- Brent Hills <bhills@openshores.com>
+*		- Added Range and MYNAME;
+*	
+******************************************************************/
+

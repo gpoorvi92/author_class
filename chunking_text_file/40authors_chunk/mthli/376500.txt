@@ -1,0 +1,10 @@
+package menu;
+
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a sample menu bar.
+ */
+public class MenuFrame extends JFrame
+{

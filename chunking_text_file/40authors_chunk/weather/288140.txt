@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather.model;
+
+/**
+ * Created by qihigh on 7/4/14.
+ * Modified by ____.
+ */
+public class DailyWeather extends BaseType {
+    //{"weatherinfo":{"city":"北京","cityid":"101010100","temp1":"31℃","temp2":"23℃","weather":"多云","img1":"d1.gif","img2":"n1.gif","ptime":"11:00"}}
+
+    private String city;//城市中文名

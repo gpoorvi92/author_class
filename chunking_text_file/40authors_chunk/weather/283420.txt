@@ -1,0 +1,10 @@
+        return fragment;
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View result = inflater.inflate(R.layout.fragment_weather_weekly, container, false);
+        ButterKnife.inject(this, result);
+        return result;
+    }
+

@@ -1,0 +1,4 @@
+        __setBoundsForFrame( f, newX, newY, newWidth, newHeight );
+    }
+
+}

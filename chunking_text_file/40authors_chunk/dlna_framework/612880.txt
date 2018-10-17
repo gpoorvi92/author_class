@@ -1,0 +1,10 @@
+public class UPnPStatus
+{
+	////////////////////////////////////////////////
+	//	Code
+	////////////////////////////////////////////////
+	
+	public static final int INVALID_ACTION = 401;
+	public static final int INVALID_ARGS = 402;
+	public static final int OUT_OF_SYNC = 403;
+	public static final int INVALID_VAR = 404;

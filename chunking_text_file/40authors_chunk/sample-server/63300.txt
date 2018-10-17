@@ -1,0 +1,10 @@
+                                    body.readableBytes(), extensionRegistry)
+                            .build();
+                }
+            } else
+            {
+                if (extensionRegistry == null)
+                {
+                    return prototype.newBuilderForType()
+                            .mergeFrom(new ChannelBufferInputStream(body))
+                            .build();

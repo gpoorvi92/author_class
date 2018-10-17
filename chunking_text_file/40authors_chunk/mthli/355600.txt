@@ -1,0 +1,10 @@
+   /**
+    * Constructs a print preview dialog.
+    * @param b a Book
+    */
+   public PrintPreviewDialog(Book b)
+   {
+      layoutUI(b);
+   }
+
+   /**

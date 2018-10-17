@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Window(java.awt.Window,java.awt.GraphicsConfiguration)
+
+    WindowProxy( java.awt.Window arg0, java.awt.GraphicsConfiguration arg1 , long swiftObject ) {
+        super( arg0, arg1 );
+        this.swiftObject = swiftObject;
+    }
+

@@ -1,0 +1,10 @@
+
+	public ActionListener getActionListener() {
+		return actionListener;
+	}
+
+	public void setActionListener(ActionListener actionListener) {
+		this.actionListener = actionListener;
+	}
+
+	////////////////////////////////////////////////

@@ -1,0 +1,10 @@
+    private JTextArea answer;
+    private ArrayList cardList;
+    private QuizCard currentCard;
+    private Iterator cardIterator;
+    private JFrame frame;
+    private JButton nextButton;
+    private boolean isShowAnswer;
+
+    // additional, bonus method not found in any book!
+

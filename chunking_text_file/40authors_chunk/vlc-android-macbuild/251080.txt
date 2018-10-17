@@ -1,0 +1,10 @@
+public class ResourcesHelper {
+
+    public static Drawable getDrawable(Context context, int id) {
+        Resources resources = context.getResources();
+        if (resources == null)
+            return null;
+
+        return resources.getDrawable(id);
+    }
+

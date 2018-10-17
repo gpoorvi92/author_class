@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field monitorTime is set (has been assigned a value) and false otherwise */
+  public boolean isSetMonitorTime() {
+    return this.monitorTime != null;
+  }
+
+  public void setMonitorTimeIsSet(boolean value) {
+    if (!value) {
+      this.monitorTime = null;

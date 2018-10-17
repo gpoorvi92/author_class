@@ -1,0 +1,10 @@
+public final class Entry<V, K> implements java.util.Map.Entry<V, K> {
+
+  /** The key instance. */
+  private final V m_key;
+
+  /** The value instance. */
+  private K m_value;
+
+  /**
+   * Creates an instance with the given key and value.

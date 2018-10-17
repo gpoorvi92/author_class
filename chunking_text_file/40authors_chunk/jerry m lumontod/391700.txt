@@ -1,0 +1,10 @@
+			setVisible(false);
+
+			//System.exit(0);
+		}
+
+	}
+
+	public void keyReleased(KeyEvent e) {
+
+	}

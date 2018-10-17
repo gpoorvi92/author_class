@@ -1,0 +1,10 @@
+		System.out.println("--------");
+		*/
+
+		//单独调用
+		//printXing(3,4);
+		//printXing(7,8);
+
+		//输出调用
+		//System.out.println(printXing(7,8));
+

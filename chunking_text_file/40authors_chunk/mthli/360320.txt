@@ -1,0 +1,10 @@
+   public double getSalary()
+   {  
+      return salary;
+   }
+
+   public Date getHireDay()
+   {  
+      return hireDay;
+   }
+

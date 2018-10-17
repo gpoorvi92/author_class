@@ -1,0 +1,10 @@
+			Intent intent = null;
+			if (StringUtil.isNull(url)) {
+				intent = new Intent(this, Chat2Activity.class);
+				intent.putExtra("title", title);
+				intent.putExtra("busi_type", appId);
+				intent.putExtra("busi_serial", "");
+			} else {
+				intent = new Intent(this, WebContentActivity.class);
+				intent.putExtra("title", title);
+				intent.putExtra("url", url);

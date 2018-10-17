@@ -1,0 +1,10 @@
+    }
+	
+	public void debug(Object str) {
+        if (logLevel <= Log.DEBUG) {
+            String name = getFunctionName();
+            String ls = (name == null?str.toString():(name+" - "+str));
+            Log.d(tag, ls);
+        }
+	}
+	

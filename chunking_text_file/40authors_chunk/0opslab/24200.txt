@@ -1,0 +1,10 @@
+            {
+                frame=graphicsImage(fontcolor, rands, i,width,height,len);
+                gifEncoder.addFrame(frame);
+                frame.flush();
+            }
+            gifEncoder.finish();
+            return true;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {

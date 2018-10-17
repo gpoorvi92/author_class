@@ -1,0 +1,10 @@
+		return dbServerPort;
+	}
+
+	public static void setDbServerPort(int dbServerPort) {
+		Config.dbServerPort = dbServerPort;
+	}
+
+	public static String getDbName() {
+		return dbName;
+	}

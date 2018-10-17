@@ -1,0 +1,3 @@
+		this.writeJson(this.service.deleteMenus(this.getModel().getAccountId()));
+	}
+}

@@ -1,0 +1,10 @@
+    public void setUsedPermissionsIsSet(boolean value) {
+      if (!value) {
+        this.usedPermissions = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.StaticCheckResultData getStcRD() {
+      return this.stcRD;
+    }
+

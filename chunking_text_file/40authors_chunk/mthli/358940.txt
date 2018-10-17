@@ -1,0 +1,10 @@
+               settings.put("title", getTitle());
+               try
+               {
+                  FileOutputStream out = new FileOutputStream(propertiesFile);
+                  settings.store(out, "Program Properties");
+               }
+               catch (IOException ex)
+               {
+                  ex.printStackTrace();
+               }

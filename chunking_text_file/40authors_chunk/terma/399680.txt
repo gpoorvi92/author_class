@@ -1,0 +1,10 @@
+        this.remoteHost = remoteHost;
+        this.remotePort = remotePort;
+    }
+
+    /**
+     * @return - local port which TCP proxy will be listening, should be 0..64000
+     */
+    @Override public int getLocalPort() {
+        return localPort;
+    }

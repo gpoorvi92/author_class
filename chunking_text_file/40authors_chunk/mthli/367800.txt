@@ -1,0 +1,10 @@
+
+      // associate the names with actions
+      ActionMap amap = buttonPanel.getActionMap();
+      amap.put("panel.yellow", yellowAction);
+      amap.put("panel.blue", blueAction);
+      amap.put("panel.red", redAction);
+   }
+   
+   public class ColorAction extends AbstractAction
+   {

@@ -1,0 +1,10 @@
+	@Override
+	public List<Map<String, Object>> queryOrderSmallASmallByOrderID(
+			String orderID) {
+		Order order = orderService.findOrderById(orderID);
+		List<Map<String,Object>> oslist = new ArrayList<Map<String,Object>>();
+		if(order != null){
+			for (OrderSmall	os : order.getOrderSmalls()) {
+				if(os.getCount() == 0){
+					remove(os);
+					continue;

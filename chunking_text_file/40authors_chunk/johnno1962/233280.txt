@@ -1,0 +1,10 @@
+    public void componentHidden( java.awt.event.ComponentEvent e ) {
+        if ( !entered_componentHidden_3 ) {
+            entered_componentHidden_3 = true;
+            __componentHidden( e );
+            entered_componentHidden_3 = false;
+        }
+        else
+            super.componentHidden( e );
+    }
+

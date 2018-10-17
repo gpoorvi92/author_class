@@ -1,0 +1,10 @@
+	private byte[] content = new byte[0];
+
+	public String getContentType() {
+		return contentType;
+	}
+
+	public void setContentType(String contentType) {
+		this.contentType = contentType;
+	}
+

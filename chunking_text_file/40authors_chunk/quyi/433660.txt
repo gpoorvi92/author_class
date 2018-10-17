@@ -1,0 +1,10 @@
+      return isSetThreadName();
+    case CHECK_TIME:
+      return isSetCheckTime();
+    case CPU:
+      return isSetCpu();
+    case RSS:
+      return isSetRss();
+    case VSS:
+      return isSetVss();
+    }

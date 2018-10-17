@@ -1,0 +1,10 @@
+	JSlider wSlider = new JSlider(0, 100);
+	JSlider hSlider = new JSlider(0, 100);
+	
+	JLabel xLabel = new JLabel("x:");
+	JLabel yLabel = new JLabel("y:");
+	JLabel wLabel = new JLabel("w:");
+	JLabel hLabel = new JLabel("h:");
+	
+	int g_x, g_y, g_w, g_h, type;
+	

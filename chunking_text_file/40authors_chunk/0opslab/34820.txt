@@ -1,0 +1,10 @@
+        while (m.find()) {
+            String temp = m.group(0);
+            i += temp.length();
+        }
+        return i;
+    }
+
+    /**
+     * 判断是否是乱码
+     *

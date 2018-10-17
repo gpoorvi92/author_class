@@ -1,0 +1,10 @@
+
+    public static void add(Class clazz) throws IntrospectionException, ClassNotFoundException {
+        String className = clazz.getName();
+        if (!valid.valid(BEAN_SIMPLE_PROPERTIES.get(className))) {
+            BeanInfo beanInfo = Introspector.getBeanInfo(clazz);
+            PropertyDescriptor[] proDescrtptors = beanInfo.getPropertyDescriptors();
+            if (proDescrtptors != null && proDescrtptors.length > 0) {
+                Map<String,BeanStruct> simpleProperties = new Hashtable<>();
+                Map<String,BeanStruct> simplePropertiesIgnore = new Hashtable<>();
+                for (PropertyDescriptor propDesc : proDescrtptors) {

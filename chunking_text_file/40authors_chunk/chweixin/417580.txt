@@ -1,0 +1,10 @@
+	 * */
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	/**
+	 * 获取消息描述。
+	 * @return 消息描述。
+	 * */
+	public String getDescription() {
+		return description;

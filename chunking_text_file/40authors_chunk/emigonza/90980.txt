@@ -1,0 +1,10 @@
+        catch( Exception e ) 
+        {
+        	String msg = "Could not connect to service with logicalName = " + 
+      				     logicalName + ": Exception.message=" + e.getMessage();
+        
+        	tracer.println( msg );
+        	 
+        	throw new JposException( JposConst.JPOS_E_NOSERVICE, msg, e ); 
+    	}
+    }

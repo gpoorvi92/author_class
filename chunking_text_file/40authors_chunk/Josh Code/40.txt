@@ -1,0 +1,10 @@
+ * 
+ * This will only store vertices and not facial or surface information. 
+ * That is why this should only be used for exporting and not loading models.
+ */
+public class XYZModelFileSaver implements ModelFileSaver
+{
+    public boolean matchesFormat(String filename)
+    {
+        filename = filename.toLowerCase();
+

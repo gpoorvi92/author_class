@@ -1,0 +1,10 @@
+    public static synchronized BitmapManager instance() {
+        if (sManager == null) {
+            sManager = new BitmapManager();
+        }
+        return sManager;
+    }
+
+    /**
+     * The real place to delegate bitmap decoding to BitmapFactory.
+     */

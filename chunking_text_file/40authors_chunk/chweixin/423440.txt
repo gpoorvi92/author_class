@@ -1,0 +1,10 @@
+	 * 获取菜单类型。
+	 * @return 菜单类型。
+	 * */
+	public Integer getType() {
+		return type;
+	}
+	/**
+	 * 设置菜单类型。
+	 * @param type
+	 * 菜单类型。

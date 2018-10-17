@@ -1,0 +1,10 @@
+	protected Color  mclrTextColor;
+	protected Color  mclrBackColor;
+
+	protected boolean mblnHasFocus;
+	protected Border[] mborBorders;
+
+	public SelDataListCellRenderer() {
+		super();
+		mclrTextColor = mclrTextNonSelectionColor;
+		mclrBackColor = mclrBackNonSelectionColor;

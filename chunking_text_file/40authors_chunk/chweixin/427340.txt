@@ -1,0 +1,10 @@
+				 logger.info("文件扩展名:" + info.getExt());
+				 info.setSize(srcFile.length()/1024);
+				 logger.info("文件大小:" + info.getSize() + " (KB)");
+				 try {
+					info.setCode(MD5Util.MD5(new FileInputStream(srcFile)));
+				} catch (FileNotFoundException e) {
+					logger.error(e);
+					e.printStackTrace();
+				}
+				 logger.info("文件MD5校验码:" + info.getCode());

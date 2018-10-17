@@ -1,0 +1,10 @@
+ * 5:list<NetworkPacket> networkPacket 网络数据包记录
+ * 6:list<SystemResources> 系统资源占用记录
+ * 7:list<HardwareResources> 设备资源使用记录
+ * 8:string checkEndDate 检测结束时间
+ */
+public class DynamicCheckResultData implements org.apache.thrift.TBase<DynamicCheckResultData, DynamicCheckResultData._Fields>, java.io.Serializable, Cloneable, Comparable<DynamicCheckResultData> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("DynamicCheckResultData");
+
+  private static final org.apache.thrift.protocol.TField APK_MD5_FIELD_DESC = new org.apache.thrift.protocol.TField("apkMD5", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField SENSITIVE_FIELD_DESC = new org.apache.thrift.protocol.TField("sensitive", org.apache.thrift.protocol.TType.LIST, (short)2);

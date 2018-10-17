@@ -1,0 +1,10 @@
+	
+	protected Vector moSelDataList;
+	
+	public SelDataList(String tstrSQL) {
+		retrieveData(tstrSQL);
+	}
+
+	
+	public double GetSelectedCode(Object toObj) {
+		double mdbl=0;

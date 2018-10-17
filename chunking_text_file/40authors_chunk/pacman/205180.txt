@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public IMQFactory createFactory() throws ApplicationContextException{
+		
+		if (AppConfig.getInstance() == null) {
+			throw new ApplicationContextException("AppConfig is null!");
+			//AppConfig.getFactory()
+		}
+
+		Map<QueueType, String> map = new HashMap<QueueType, String>();

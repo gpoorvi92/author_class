@@ -1,0 +1,10 @@
+    m_out.write(this.HeadCellStopTag((firstOrLast==LAST_CELL_IN_ROW)));
+  }
+
+  protected abstract String HeadRowStartTag();
+  protected abstract String HeadRowStopTag();
+  
+  protected abstract String HeadCellStopTag(boolean firstOrLast);
+
+  protected abstract String HeadCellStartTag(boolean firstOrLast);
+

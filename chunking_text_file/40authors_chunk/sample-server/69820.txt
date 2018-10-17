@@ -1,0 +1,4 @@
+    public abstract IResult CP_Heartbeat(Gateway1All1.CP_Heartbeat packet);
+    public abstract IResult CP_TestMsg1(Gateway1All1.CP_TestMsg1 packet);
+    
+}

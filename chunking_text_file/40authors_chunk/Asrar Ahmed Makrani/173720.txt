@@ -1,0 +1,10 @@
+						int cnt1 = cnt;
+						maincnt = cnt;
+						dump.setText(String.valueOf(cnt));
+						String query22 = "SELECT * From loan WHERE member_id = '" + patron_no_text.getText() + "'";
+						ResultSet rs22 = statement.executeQuery(query22);
+						try
+						{
+							while (rs22.next()  && cnt1> 0 && i < cnt) 
+							{
+								bname[i] = rs22.getString("item_id");

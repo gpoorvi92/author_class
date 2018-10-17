@@ -1,0 +1,10 @@
+
+            if (!found) processingEnv.getMessager().printMessage(Kind.ERROR,
+                  "@Property must be applied to getXxx, setXxx, or isXxx method", e);
+            else if (beanClassName == null)
+               beanClassName = ((TypeElement) e.getEnclosingElement()).getQualifiedName()
+                     .toString();
+         }
+         try
+         {
+            if (beanClassName != null) writeBeanInfoFile(beanClassName, props);

@@ -1,0 +1,10 @@
+/**
+ * A frame with a collection of formatted text fields and a button that displays the field values.
+ */
+public class FormatTestFrame extends JFrame
+{
+   private DocumentFilter filter = new IntFilter();
+   private JButton okButton;
+   private JPanel mainPanel;
+
+   public FormatTestFrame()

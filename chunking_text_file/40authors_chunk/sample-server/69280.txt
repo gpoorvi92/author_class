@@ -1,0 +1,10 @@
+            bootstrap.releaseExternalResources();
+    }
+    public static void main(String[] args)
+    {                 System.out.print(0x7fffffff);
+        if (args.length == 0)
+            throw new IllegalArgumentException("没有指定服务器");
+        String serverName = args[0];
+        String ip = Config.getServerIp(serverName);
+        int port = Config.getServerPort(serverName);
+        new Gatewayserver(ip, port, serverName).start();

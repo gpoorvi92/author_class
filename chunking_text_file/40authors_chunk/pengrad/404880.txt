@@ -1,0 +1,10 @@
+    public String offset() {
+        return offset;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        InlineQuery that = (InlineQuery) o;

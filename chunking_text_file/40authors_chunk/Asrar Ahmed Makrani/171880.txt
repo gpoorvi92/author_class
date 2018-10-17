@@ -1,0 +1,10 @@
+    public JMenu help = new JMenu("Help"); 
+    public JMenuBar menuBar = new JMenuBar();
+    public JMenuItem menuItemhelp1 = new JMenuItem("Help Contents...", new ImageIcon("help.gif"));
+    public JMenuItem menuItemhelp2 = new JMenuItem("Splash screen...");
+    public JMenuItem menuItemhelp3 = new JMenuItem("About us...", new ImageIcon("about.gif"));
+    public JMenuItem menuItem3 = new JMenuItem("Login...", new ImageIcon("login.gif"));
+    public JMenuItem menuItem6 = new JMenuItem("Logoff...", new ImageIcon("logout.gif"));
+    public JMenuItem menuItem5 = new JMenuItem("Exit...", new ImageIcon("quit.gif"));
+    public JMenuItem returnItem1 = new JMenuItem("Close...", new ImageIcon("close.gif"));
+    public JMenuItem returnItem2 = new JMenuItem("Close All...", new ImageIcon("closeall.gif"));

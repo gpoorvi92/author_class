@@ -1,0 +1,10 @@
+
+/**
+ * Implementation of an IntIterator over an IteratingRLW.
+ */
+public class IntIteratorOverIteratingRLW32 implements IntIterator {
+    final IteratingRLW32 parent;
+    private int position;
+    private int runningLength;
+    private int word;
+    private int wordPosition;

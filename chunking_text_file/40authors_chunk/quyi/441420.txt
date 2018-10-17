@@ -1,0 +1,10 @@
+    return this.dataLength != null;
+  }
+
+  public void setDataLengthIsSet(boolean value) {
+    if (!value) {
+      this.dataLength = null;
+    }
+  }
+
+  public String getOperateTime() {

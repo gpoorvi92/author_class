@@ -1,0 +1,10 @@
+            public String Properties(String pro) {
+                return StringUtil.remove(pro, "_").toLowerCase();
+            }
+        }));
+
+        //获取属性(使用自定的过滤函数):
+        assertEquals(value, BeanUtil.getPropertyFilterPeaceful(bean, "operation_Name", new PropertyFilter() {
+            @Override
+            public String Properties(String pro) {
+                return StringUtil.remove(pro, "_").toLowerCase();

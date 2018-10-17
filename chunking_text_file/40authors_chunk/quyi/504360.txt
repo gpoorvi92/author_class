@@ -1,0 +1,10 @@
+
+    case RULES:
+      if (value == null) {
+        unsetRules();
+      } else {
+        setRules((List<String>)value);
+      }
+      break;
+
+    case PLOTS:

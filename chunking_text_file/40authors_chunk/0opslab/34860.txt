@@ -1,0 +1,10 @@
+        float   count    = 0;
+        for (int i = 0; i < ch.length; i++) {
+            char c = ch[i];
+            if (!Character.isLetterOrDigit(c)) {
+                if (!ChinesUtil.isChinese(c)) {
+                    count = count + 1;
+                }
+                chLength++;
+            }
+        }

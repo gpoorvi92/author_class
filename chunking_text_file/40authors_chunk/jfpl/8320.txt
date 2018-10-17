@@ -1,0 +1,10 @@
+import android.view.View;
+import android.view.View.MeasureSpec;
+import android.widget.TextView;
+
+import com.baidu.mapapi.map.ItemizedOverlay;
+import com.baidu.mapapi.map.MapView;
+import com.baidu.mapapi.map.OverlayItem;
+import com.baidu.mapapi.map.PopupOverlay;
+import com.baidu.platform.comapi.basestruct.GeoPoint;
+import com.jufan.platform.ui.LocationPickerActivity;

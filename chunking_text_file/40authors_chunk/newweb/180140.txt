@@ -1,0 +1,10 @@
+
+import com.newweb.model.base.Bxg;
+
+@Entity
+@Table(name="t_order_bxgfdws")
+public class OrderBxgFdw {
+	
+	private int ID;
+	private Order order;
+	private double fdwHeight;

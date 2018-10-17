@@ -1,0 +1,10 @@
+		pMember.add (lbMemberName);
+		pMember.add (lbMemberAddress);
+		pMember.add (lbDate);
+		pMember.add (txtMemberId);
+		pMember.add (txtMemberName);
+		pMember.add (txtMemberAddress);
+		pMember.add (txtDate);
+		pMember.add (btnFind);
+		pMember.add (btnCancel);
+

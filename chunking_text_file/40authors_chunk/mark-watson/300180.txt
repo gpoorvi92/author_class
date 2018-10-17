@@ -1,0 +1,10 @@
+package geneticalgorithm;
+
+import java.util.*;
+
+/**
+ * Genetic Algorithm Java classes
+ *
+ * <p/>
+ * Copyright 1996-2012 by Mark Watson. All rights reserved.
+ * <p/>

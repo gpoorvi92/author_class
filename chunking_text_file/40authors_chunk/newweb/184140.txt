@@ -1,0 +1,10 @@
+@Component("lhjPriceCutDao")
+public class LhjPriceCutDaoImp implements LhjPriceCutDao {
+
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}

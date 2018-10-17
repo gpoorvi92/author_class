@@ -1,0 +1,10 @@
+	  public void actionPerformed(java.awt.event.ActionEvent e) {
+				dispose();
+				
+			}
+		});
+		
+      	setSize(1000,720);
+      	setVisible(true);
+	
+	}

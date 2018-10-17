@@ -1,0 +1,10 @@
+        unsetOsName();
+      } else {
+        setOsName((String)value);
+      }
+      break;
+
+    case OS_DESC:
+      if (value == null) {
+        unsetOsDesc();
+      } else {

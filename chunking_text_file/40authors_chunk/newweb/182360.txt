@@ -1,0 +1,10 @@
+		}
+		StringBuilder sb = new StringBuilder();
+		sb.append("整合成功，新账单信息如下：</br>");
+		sb.append("客户：" + newBill.getCustomer().getName() + "</br>");
+		sb.append("账单日期:" + newBill.getCreateDate() + "</br>");
+		sb.append("账单全款金额：" + newBill.getReceivableMoney() + "</br>");
+		return sb.toString();
+	}
+	
+}

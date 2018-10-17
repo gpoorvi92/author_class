@@ -1,0 +1,10 @@
+	public void setTopicListener(QueueType qtype, IMQListener listener) throws MQException {
+		
+		String destName = map.get(qtype);
+		
+		if (topicConnection != null) {
+			closeTopicListener();
+		}
+		
+		try {
+			

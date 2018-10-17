@@ -1,0 +1,10 @@
+  public static final int CACC_STATUS_FULLOK           = 23; // StatusUpdateEvent
+
+  public static final int CACC_STATUS_JAM              = 31; // StatusUpdateEvent
+  public static final int CACC_STATUS_JAMOK            = 32; // StatusUpdateEvent
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "DepositStatus" Property Constants
+  /////////////////////////////////////////////////////////////////////
+

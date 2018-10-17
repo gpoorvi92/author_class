@@ -1,0 +1,10 @@
+     * The actual size in words.
+     */
+    private int actualSizeInWords = 1;
+    
+    /**
+     * The buffer (array of 64-bit words)
+     */
+    private long buffer[] = null;
+    
+    /**

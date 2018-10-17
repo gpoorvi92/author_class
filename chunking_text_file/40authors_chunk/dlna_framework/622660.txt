@@ -1,0 +1,10 @@
+            return "["+Thread.currentThread().getId()+": "+st.getFileName()+":"+st.getLineNumber()+"]";
+        }
+        
+        return null;
+	}
+
+	public void info(Object str) {
+	    if (logLevel <= Log.INFO) {	        
+	        String name = getFunctionName();
+	        String ls=(name==null?str.toString():(name+" - "+str));

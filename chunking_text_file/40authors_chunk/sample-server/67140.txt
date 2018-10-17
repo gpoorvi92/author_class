@@ -1,0 +1,10 @@
+package com.lz.game.rpc.util;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.security.MessageDigest;
+/**
+ * User: Teaey
+ * Date: 13-7-10
+ */
+public class MD5Encrypt

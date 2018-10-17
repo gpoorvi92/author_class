@@ -1,0 +1,10 @@
+
+/// interface com.apple.eawt.UserSessionListener ///
+
+package org.genie.com_apple;
+
+public class UserSessionListenerProxy implements com.apple.eawt.UserSessionListener {
+
+    long swiftObject;
+
+    UserSessionListenerProxy( long swiftObject ) {

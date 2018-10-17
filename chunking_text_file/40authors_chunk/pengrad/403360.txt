@@ -1,0 +1,10 @@
+    public Integer width() {
+        return width;
+    }
+
+    public Integer height() {
+        return height;
+    }
+
+    public Integer duration() {
+        return duration;

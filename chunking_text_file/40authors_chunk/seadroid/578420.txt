@@ -1,0 +1,10 @@
+            long dateTaken, String title) {
+        mContainer = container;
+        mContentResolver = cr;
+        mId = id;
+        mIndex = index;
+        mUri = uri;
+        mDataPath = dataPath;
+        mMimeType = mimeType;
+        mDateTaken = dateTaken;
+        mTitle = title;

@@ -1,0 +1,10 @@
+    if (field == null) {
+      throw new IllegalArgumentException();
+    }
+
+    switch (field) {
+    case PID_NAME:
+      return isSetPidName();
+    case FILE_DESCRIPTION:
+      return isSetFileDescription();
+    case FILE_PATH:

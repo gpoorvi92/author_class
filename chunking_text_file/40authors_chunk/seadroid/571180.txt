@@ -1,0 +1,10 @@
+        }
+        state = TaskState.CANCELLED;
+        super.cancel(true);
+    }
+
+    protected boolean canRetry() {
+        return state == TaskState.CANCELLED || state == TaskState.FAILED;
+    }
+
+    protected abstract TransferTaskInfo getTaskInfo();

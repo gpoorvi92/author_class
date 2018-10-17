@@ -1,0 +1,10 @@
+		fileSize = this.in.available();
+		status = -1;
+		code = 0;
+		nextCode = 256;
+	}
+ 
+	public void decompress() throws Exception { 
+
+		//create dictionary 
+		dict = new Dictionary(); 

@@ -1,0 +1,10 @@
+	public StartHere(){
+		
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+		image = toolkit.getImage("Icons\\Welcome.jpg");
+		MediaTracker mediaTracker = new MediaTracker(this);
+		mediaTracker.addImage(image, 0);
+		try{
+			mediaTracker.waitForID(0);
+		}
+		catch (InterruptedException ie){

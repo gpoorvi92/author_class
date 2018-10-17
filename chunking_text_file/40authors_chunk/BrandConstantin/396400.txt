@@ -1,0 +1,10 @@
+    }
+    
+    System.out.println(naranja + "=======================================================================");
+    
+    //Mostras el indice
+    for (i = 0; i < numero.length; i++){
+      System.out.print(verde + i + "\t");
+    }
+    System.out.println(naranja + "\n-----------------------------------------------------------------------\n");
+    for (i = 0; i < numero.length; i++){

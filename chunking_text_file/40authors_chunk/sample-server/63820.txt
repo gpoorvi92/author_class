@@ -1,0 +1,10 @@
+        if (null == host)
+            throw new NullPointerException("host");
+        this.host = host;
+        this.port = port;
+    }
+    public final void startup()
+    {
+        try
+        {
+            InternalLoggerFactory.setDefaultFactory(new Slf4JLoggerFactory());

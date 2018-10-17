@@ -1,0 +1,10 @@
+      if (!this.why.equals(that.why))
+        return false;
+    }
+
+    return true;
+  }
+
+  @Override
+  public int hashCode() {
+    return 0;

@@ -1,0 +1,10 @@
+                    return 1;  
+                } else {  
+                    return 0;  
+                }  
+            }  
+        };
+
+        Queue<ListNode> q =  new PriorityQueue<ListNode>(10,comp);
+        for (int i = 0; i < lists.size(); ++i)
+            if (lists.get(i) != null)

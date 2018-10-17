@@ -1,0 +1,10 @@
+            @Override
+            public void onFailure(Call call, IOException e) {
+                callback.onFailure(request, e);
+            }
+        });
+    }
+
+    public <T extends BaseRequest, R extends BaseResponse> R send(final BaseRequest<T, R> request) {
+        try {
+            Response response = client.newCall(createRequest(request)).execute();

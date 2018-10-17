@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.text.TextUtils;
+
+/**
+ * Created by zhoukai on 3/19/14.
+ */
+public class ResUtil {

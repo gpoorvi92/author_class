@@ -1,0 +1,10 @@
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    ENGINE_ID((short)1, "engineId"),
+    ENGINE_NAME((short)2, "engineName"),
+    ENGINE_IP((short)3, "engineIp"),
+    ENGINE_STATUS((short)4, "engineStatus"),
+    ENGINE_TYPE((short)5, "engineType"),
+    NODE_INFO((short)6, "nodeInfo"),
+    ENGINE_RULES((short)7, "engineRules"),

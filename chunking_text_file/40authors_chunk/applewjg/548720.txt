@@ -1,0 +1,7 @@
+                sol.add(str);
+                solveNQueensRe(n, row | pos, (ld|pos)<<1, (rd|pos)>>1, sol, res);
+                sol.remove(sol.size()-1);
+            }
+        }
+    }  
+}

@@ -1,0 +1,10 @@
+    
+    public String getTimeText() {
+        return getText().toString();
+    }
+
+	public boolean isOutOfBounds() {
+		return isOutOfBounds;
+	}
+
+	public void setOutOfBounds(boolean outOfBounds) {

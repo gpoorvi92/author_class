@@ -1,0 +1,10 @@
+        struct.engine.write(oprot);
+        oprot.writeI32(struct.operate.getValue());
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, operateEngine_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.engine = new Engine();
+        struct.engine.read(iprot);
+        struct.setEngineIsSet(true);

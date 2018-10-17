@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.util;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Debug {
+		private static ThreadLocal<SimpleDateFormat> sdfWrapper=new ThreadLocal<SimpleDateFormat>(){

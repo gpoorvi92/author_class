@@ -1,0 +1,10 @@
+            }
+            break;
+          case 4: // SAMPLES
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list19 = iprot.readListBegin();
+                struct.samples = new ArrayList<com.nercis.isscp.idl.Sample>(_list19.size);
+                for (int _i20 = 0; _i20 < _list19.size; ++_i20)
+                {
+                  com.nercis.isscp.idl.Sample _elem21;

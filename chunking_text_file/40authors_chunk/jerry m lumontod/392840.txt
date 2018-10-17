@@ -1,0 +1,10 @@
+
+public class AcctTableData extends AbstractTableModel {
+
+	static final public ColumnSpecs mobjColumns[] = {
+		new ColumnSpecs("Code", 100, JLabel.LEFT),
+		new ColumnSpecs("Description", 160, JLabel.LEFT)
+	};
+
+	protected SimpleDateFormat mdFrm;
+	protected Vector moVector;

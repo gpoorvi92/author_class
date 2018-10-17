@@ -1,0 +1,10 @@
+消费者1 WAITING
+生产者2 WAITING
+消费者2 WAITING
+
+----------------------------
+
+生产者 生产者1 RUNNABLE了
+生产者 生产者1 WAITING了★
+生产者 生产者2 WAITING了★
+消费者 消费者1 RUNNABLE了

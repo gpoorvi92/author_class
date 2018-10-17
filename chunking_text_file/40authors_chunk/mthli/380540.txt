@@ -1,0 +1,10 @@
+
+      printButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent e)
+            {
+               try
+               {
+                  Desktop.getDesktop().print(chooser.getSelectedFile());
+               }
+               catch (IOException ex)

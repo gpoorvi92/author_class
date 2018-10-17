@@ -1,0 +1,4 @@
+		assertTrue(FileHelper.sizeOf(target, true) > 0);
+	}
+
+}

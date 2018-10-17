@@ -1,0 +1,6 @@
+				logger.error("Fail to save task callback status.", e);
+			}
+		}
+	}
+
+}

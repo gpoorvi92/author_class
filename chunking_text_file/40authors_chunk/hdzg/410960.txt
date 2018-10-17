@@ -1,0 +1,8 @@
+		tempHero.father.gvt.setChanging(true);//骰子转起来
+	}
+	//方法：为英雄加封号
+	public void upgradeHeroTitle(){
+		status = 2;
+		tempHero.setTitle(tempHero.title+1);
+	}
+}

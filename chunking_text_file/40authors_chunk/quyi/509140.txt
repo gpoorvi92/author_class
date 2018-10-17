@@ -1,0 +1,10 @@
+ * 6:mic 麦克风
+ */
+public enum DeviceType implements org.apache.thrift.TEnum {
+  bluetooth(1),
+  wifi(2),
+  gps(3),
+  camera(4),
+  nfc(5),
+  mic(6);
+

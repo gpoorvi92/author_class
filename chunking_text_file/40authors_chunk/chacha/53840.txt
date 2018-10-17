@@ -1,0 +1,10 @@
+			assertTrue(r.getResult()==Response.SUCCESS);
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+		System.out.println("add cost="+(System.currentTimeMillis()-begin));
+		//查询新增帐号
+		AccountNameBody queryBody=new AccountNameBody(userNames);
+		QueryAccountRequest qRequest=new QueryAccountRequest(queryBody);
+		try{
+			QueryAccountResponse qResponse=service.queryAccount(qRequest);

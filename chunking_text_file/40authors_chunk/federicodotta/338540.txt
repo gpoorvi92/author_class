@@ -1,0 +1,10 @@
+     * 
+     * @return The name of the cookie.
+     */
+    String getName();
+
+    /**
+     * This method is used to retrieve the value of the cookie.
+     * @return The value of the cookie.
+     */
+    String getValue();

@@ -1,0 +1,10 @@
+      canvas = new RenderQualityComponent();
+      canvas.setRenderingHints(hints);
+
+      add(canvas, BorderLayout.CENTER);
+      add(buttonBox, BorderLayout.NORTH);
+      pack();
+   }
+
+   /**
+    * Makes a set of buttons for a rendering hint key and values.

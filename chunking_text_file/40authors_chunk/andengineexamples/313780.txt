@@ -1,0 +1,10 @@
+		final Random random = new Random(RANDOM_SEED);
+
+		final VertexBufferObjectManager vertexBufferObjectManager = this.getVertexBufferObjectManager();
+		for(int i = 0; i < LINE_COUNT; i++) {
+			final float x1 = random.nextFloat() * CAMERA_WIDTH;
+			final float x2 = random.nextFloat() * CAMERA_WIDTH;
+			final float y1 = random.nextFloat() * CAMERA_HEIGHT;
+			final float y2 = random.nextFloat() * CAMERA_HEIGHT;
+			final float lineWidth = random.nextFloat() * 5;
+

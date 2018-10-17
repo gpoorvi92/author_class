@@ -1,0 +1,10 @@
+ * <ul>
+ * <li><b>name : </b>		FragScence		</li>
+ * <li><b>description :</b>	首页场景				</li>
+ * <li><b>author : </b>		yelingh			    </li>
+ * <li><b>date : </b>		2013-8-30 下午3:27:59		</li>
+ * </ul>
+ */
+
+public class FragScence extends Fragment {
+	

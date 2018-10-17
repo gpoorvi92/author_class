@@ -1,0 +1,10 @@
+        fast = slow.next;
+        slow.next = null;
+        ListNode l1 = sortList(head);
+        ListNode l2 = sortList(fast);
+        return mergeTwoLists(l1, l2);
+    }
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode head = new ListNode(0);
+        ListNode cur = head;
+        while (l1 != null && l2 != null) {

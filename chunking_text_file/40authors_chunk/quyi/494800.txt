@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class SampleStandardSchemeFactory implements SchemeFactory {
+    public SampleStandardScheme getScheme() {
+      return new SampleStandardScheme();
+    }
+  }
+
+  private static class SampleStandardScheme extends StandardScheme<Sample> {

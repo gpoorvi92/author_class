@@ -1,0 +1,10 @@
+               if (className.startsWith("x."))
+               {
+                  ByteArrayJavaClass fileObject = new ByteArrayJavaClass(className);
+                  classFileObjects.add(fileObject);
+                  return fileObject;
+               }
+               else return super.getJavaFileForOutput(location, className, kind, sibling);
+            }
+         };
+

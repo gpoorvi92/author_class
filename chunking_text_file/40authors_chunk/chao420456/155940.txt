@@ -1,0 +1,9 @@
+			Set<String> xaxqValueSet = xaxqValue.keySet();
+			for (String xaxqValuekey : xaxqValueSet) {
+				Integer xaxqValueValue = xaxqValue.get(xaxqValuekey);
+				System.out
+						.println("\t" + xaxqValuekey + "---" + xaxqValueValue);
+			}
+		}
+	}
+}

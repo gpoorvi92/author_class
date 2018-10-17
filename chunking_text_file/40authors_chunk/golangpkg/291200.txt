@@ -1,0 +1,10 @@
+	/**
+	 * @return quantity of bytes uploaded.
+	 */
+	public long getBytesUploaded() {
+		return bytesUploaded;
+	}
+
+	
+	public void setBytesUploaded(long bytesUploaded) {
+		this.bytesUploaded = bytesUploaded;

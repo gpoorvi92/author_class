@@ -1,0 +1,10 @@
+               int x1 = engine.getNodeX(l1);
+               int y1 = engine.getNodeY(l1);
+               int x2 = engine.getNodeX(l2);
+               int y2 = engine.getNodeY(l2);
+               g.setColor(Color.lightGray);
+               g.drawLine(x1, y1, x2, y2);
+            }
+            for (int i=1; i<path.length; i++) {
+               int x1 = engine.getNodeX(path[i-1]);
+               int y1 = engine.getNodeY(path[i-1]);

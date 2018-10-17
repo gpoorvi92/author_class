@@ -1,0 +1,10 @@
+import android.graphics.Typeface;
+import android.view.MotionEvent;
+import android.view.View;
+
+public class VillageDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={//对话框显示文字
+			"前方是一个村庄，是否招募兵丁？预计消耗金钱15000。",
+			"前方是一个村庄，不过我们连手头的将士们都没得军饷发了，就别想着再招募兵丁了吧。",
+			"成功招募到兵丁xx人。",
+			"村民们远远看到你的旗号，都躲了起来，一个人影都没见着。"

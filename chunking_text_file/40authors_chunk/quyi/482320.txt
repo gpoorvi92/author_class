@@ -1,0 +1,10 @@
+      if (other.isSetUserAppId()) {
+        this.userAppId = other.userAppId;
+      }
+      if (other.isSetStatus()) {
+        this.status = other.status;
+      }
+      if (other.isSetUsedPermissions()) {
+        List<Map<String,com.nercis.isscp.idl.APICheck>> __this__usedPermissions = new ArrayList<Map<String,com.nercis.isscp.idl.APICheck>>(other.usedPermissions.size());
+        for (Map<String,com.nercis.isscp.idl.APICheck> other_element : other.usedPermissions) {
+          __this__usedPermissions.add(other_element);

@@ -1,0 +1,6 @@
+        inputPanel.paint(g1);
+        hiddenPanel.paint(g2);
+        outputPanel.paint(g3);
+        jButton1.setEnabled(true);
+    }
+}

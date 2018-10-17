@@ -1,0 +1,10 @@
+  public void clear() {
+    this.apkMD5 = null;
+    this.checkDate = null;
+    this.sensitives = null;
+    this.featuresCharacters = null;
+    this.apiCheck = null;
+    this.reportPath = null;
+    this.centerResultPath = null;
+  }
+

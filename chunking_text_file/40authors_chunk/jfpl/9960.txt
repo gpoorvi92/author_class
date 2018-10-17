@@ -1,0 +1,10 @@
+		}
+		return layout;
+	}
+
+	@Override
+	protected void handleListItem(View v, int position) {
+		final AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		String type = acd.getStringValue("type");
+		String msgType = acd.getStringValue("msg_type");
+		LinearLayout chatLayout = (LinearLayout) v.findViewById(R.id.chat_type);

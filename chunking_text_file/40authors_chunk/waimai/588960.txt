@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.dao;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseMapper;
+import cn.abovesky.shopping.domain.Goods;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.session.RowBounds;
+
+import java.util.List;
+

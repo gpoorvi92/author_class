@@ -1,0 +1,10 @@
+import tv.danmaku.media.vsl.LibVlcVideoSegmentListLoader;
+import tv.danmaku.pragma.Pragma;
+import android.content.Context;
+import android.graphics.PixelFormat;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.SurfaceHolder;
+import android.view.SurfaceHolder.Callback;

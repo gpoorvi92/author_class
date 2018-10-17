@@ -1,0 +1,10 @@
+import android.webkit.WebSettings.LayoutAlgorithm;
+import android.webkit.WebView;
+import android.widget.LinearLayout;
+
+import com.cyss.android.lib.AutoActivity;
+import com.cyss.android.lib.annotation.InjectionView;
+
+public class WebViewActivity extends AutoActivity {
+
+	@InjectionView(id = R.id.web_view)

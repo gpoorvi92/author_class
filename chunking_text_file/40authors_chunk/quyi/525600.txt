@@ -1,0 +1,10 @@
+	@Test
+	public void testTransferResult001() {
+		TTransport transport = new TSocket(static_nodemanager_address, nodemanager_result_port);
+		try {
+			transport.open();
+		} catch (TTransportException e) {
+		}
+		TProtocol protocol = new TBinaryProtocol(transport);
+		ProgramTrackerService.Client client = new ProgramTrackerService.Client(protocol);
+		try {

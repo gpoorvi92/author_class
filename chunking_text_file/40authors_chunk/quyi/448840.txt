@@ -1,0 +1,10 @@
+
+	// get row info by row num
+	public List<String> getRowInfo(Sheet sheet, int row) {
+		List<String> rowinfoList = new ArrayList<String>();
+//		File file = new File(fileName); // 创建文件对象
+//		if (!file.exists()) {
+//			return null;
+//		}
+//		Workbook wb = null;
+//		try {

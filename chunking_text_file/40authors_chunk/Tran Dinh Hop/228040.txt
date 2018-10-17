@@ -1,0 +1,10 @@
+
+import java.io.File;
+//import javax.swing.ImageIcon;
+
+/* Utils.java is used for all open/save operations */
+
+public class Utils {
+    public final static String bmp = "bmp";
+    public final static String pcx = "pcx";
+    public final static String jpeg = "jpeg";

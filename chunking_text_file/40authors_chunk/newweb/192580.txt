@@ -1,0 +1,10 @@
+	 * @param model
+	 * @param modelMap
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@ResponseBody
+	@RequestMapping(value = "userLogin.action",method = RequestMethod.GET)
+	public String userLogin(HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");

@@ -1,0 +1,10 @@
+			}
+		}
+		return false;
+	}
+
+	public void locationBtnClick(View v) {
+		Intent intent = new Intent(this, LocationPickerActivity.class);
+		startActivityForResult(intent, 0);
+	}
+

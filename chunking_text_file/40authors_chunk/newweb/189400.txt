@@ -1,0 +1,10 @@
+				cell.setCellStyle(titleStyle);
+				cell.setCellValue(titleCells[i]);
+			}
+			
+			sheet.createRow(sheet.getLastRowNum() + 1);
+			HSSFCell dateCell = sheet.createRow(sheet.getLastRowNum() + 1).createCell(0);
+			CellStyle dateStyle = book.createCellStyle();
+			dateStyle.setAlignment(CellStyle.ALIGN_CENTER);
+			dateCell.setCellValue("报表导出日期：" + DateUtil.getLocationCurrentDate());
+			sheet.addMergedRegion(new Region(dateCell.getRowIndex(), (short)dateCell.getColumnIndex(), dateCell.getRowIndex(), (short)5));

@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 25, 2014
+ Problem:    Spiral Matrix
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/spiral-matrix/
+ Notes:
+ Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+ For example,
+ Given the following matrix:

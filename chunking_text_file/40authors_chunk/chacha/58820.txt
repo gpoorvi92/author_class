@@ -1,0 +1,7 @@
+			JsonGenerationException, IOException {
+		Response r=(Response)JsonPojoMapper.fromJson(json, Response.class);
+		this.result=r.getResult();
+		
+	}
+
+}

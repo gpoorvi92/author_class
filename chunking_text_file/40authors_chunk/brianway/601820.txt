@@ -1,0 +1,10 @@
+/**
+ * P245
+ * schedule(TimerTask task, Date time)测试，多个TimerTask任务及延时
+ */
+public class Run1_timer4 {
+    public static void main(String[] args) {
+        System.out.println("当前时间为：" + new Date());
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.SECOND, 5);
+        Date runDate = calendar.getTime();

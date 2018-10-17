@@ -1,0 +1,10 @@
+        String input = "234判234断一的fg456个字符rer串d23213fg中有de多少g45fhh个中文324";
+        assertEquals("计算有错误", 15, ChinesUtil.ChineseLength(input));
+    }
+
+    public void testIsChinese() {
+        String input0 = "234判234断一的fg456个字符rer串d23213fg中有de多少g45fhh个中文324";
+        String input1 = "Process finished with exit code 0";
+        System.out.println(ChinesUtil.isChinese(input0));
+        System.out.println(ChinesUtil.isChinese(input1));
+    }

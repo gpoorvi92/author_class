@@ -1,0 +1,10 @@
+            System.out.println("===========> 测试字符串：" + str);
+            System.out.println("正则判断结果：" + ChinesUtil.isChineseByREG(str) +
+                    " -- " + ChinesUtil.isChineseByName(str));
+            System.out.println("Unicode判断结果 ：" + ChinesUtil.isChinese(str));
+            System.out.println("详细判断列表：");
+
+        }
+    }
+
+    public void testChineseLength() {

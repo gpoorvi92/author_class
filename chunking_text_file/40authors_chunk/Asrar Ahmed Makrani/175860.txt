@@ -1,0 +1,10 @@
+        //second button
+        button = new JButton(new ImageIcon("save.gif"));
+        button.setToolTipText("Save");
+        button.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+    	{
+    	if (!txtBookSearch.getText().equals(""))
+    		{
+    			testing.setText("");
+    			bookSQL bsql = new bookSQL();

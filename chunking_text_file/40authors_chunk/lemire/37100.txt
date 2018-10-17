@@ -1,0 +1,10 @@
+    long getWord(int position);
+
+    /**
+     * Returns the last word of the buffer
+     * @return the last word
+     */
+    long getLastWord();
+
+    /**
+     * Resets the buffer

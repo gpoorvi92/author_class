@@ -1,0 +1,10 @@
+package nlp.com.knowledgebooks.nlp.util;
+
+import java.util.HashSet;
+import java.util.Set;
+import nlp.public_domain.Stemmer;
+
+public class NoiseWords {
+	private static String[] words = {
+		"the", "a", "an", "it", "or", "and", "he", "she",
+		"with", "often", "to", "do", "that", "this", "is",

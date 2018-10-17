@@ -1,0 +1,8 @@
+            entered_hashCode_12 = false;
+            return __return;
+        }
+        else
+            return super.hashCode( );
+    }
+
+}

@@ -1,0 +1,3 @@
+      tabbedPane.setIconAt(n, new ImageIcon(getClass().getResource("red-ball.gif")));
+   }
+}

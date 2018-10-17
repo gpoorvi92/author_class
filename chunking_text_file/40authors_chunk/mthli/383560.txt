@@ -1,0 +1,10 @@
+package jaas;
+
+import java.security.*;
+import java.util.*;
+
+/**
+ * A principal with a named value (such as "role=HR" or "username=harry").
+ */
+public class SimplePrincipal implements Principal
+{

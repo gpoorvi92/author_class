@@ -1,0 +1,10 @@
+		hm.put(s3, "it003");
+		hm.put(s4, "it004");
+		hm.put(s5, "it005");
+		hm.put(s6, "it006");
+
+		// ±éÀú¼¯ºÏ
+		Set<Student> set = hm.keySet();
+		for (Student key : set) {
+			String value = hm.get(key);
+			System.out.println(key.getName() + "---" + key.getAge() + "---"

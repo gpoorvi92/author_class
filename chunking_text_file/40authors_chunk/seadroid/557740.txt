@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.account;
+
+import com.seafile.seadroid2.util.Utils;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/**
+ * This class used to manage Account information
+ *
+ */

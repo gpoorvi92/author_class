@@ -1,0 +1,10 @@
+      if (struct.fileOperate != null) {
+        oprot.writeFieldBegin(FILE_OPERATE_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.fileOperate.size()));
+          for (FileOperate _iter52 : struct.fileOperate)
+          {
+            _iter52.write(oprot);
+          }
+          oprot.writeListEnd();
+        }

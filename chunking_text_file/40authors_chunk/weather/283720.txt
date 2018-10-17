@@ -1,0 +1,10 @@
+    public String convert2url() {
+        StringBuffer result = new StringBuffer();
+        try {
+            for (Entry<String, Object> entry : entrySet()) {
+
+                result.append(entry.getKey()).append("=").append(URLEncoder.encode(String.valueOf(entry.getValue()), "UTF-8")).append("&");
+
+            }
+            if (result.length() > 0) {
+                result.setLength(result.length() - 1);

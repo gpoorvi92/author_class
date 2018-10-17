@@ -1,0 +1,8 @@
+            num =  num*10 + s.charAt(i) - '0';
+            if (num > 255) break;
+            ip += s.charAt(i);
+            dfs(s, ip, i + 1, step + 1, res);
+            if (num == 0) break;
+        }
+    }
+}

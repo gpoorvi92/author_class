@@ -1,0 +1,10 @@
+	{
+		return (Argument)get(n);
+	}
+
+	public Argument getArgument(String name)
+	{
+		int nArgs = size();
+		for (int n=0; n<nArgs; n++) {
+			Argument arg = getArgument(n);
+			String argName = arg.getName();

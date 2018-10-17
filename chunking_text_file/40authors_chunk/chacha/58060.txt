@@ -1,0 +1,10 @@
+public class TokenLogout extends Request implements JsonConvert{
+	private static final String CMDTOKEN="logout";
+	private TokenBody body;
+	
+	
+	public TokenLogout() {
+		super.setOpt(CMDTOKEN);
+	}
+
+	public TokenLogout(TokenBody body) {

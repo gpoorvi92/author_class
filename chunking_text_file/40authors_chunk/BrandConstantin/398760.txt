@@ -1,0 +1,7 @@
+        do{
+            resultado = i * num;
+            System.out.println(num + " X " + i + " = " + resultado);
+            i++;
+        } while (i <= 10);
+    }
+}

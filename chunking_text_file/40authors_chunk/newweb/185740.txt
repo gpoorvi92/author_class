@@ -1,0 +1,10 @@
+	}
+
+
+	@Override
+	public boolean delete(Customer customer) {
+		try {
+			sessionFactory.getCurrentSession().delete(customer);
+		} catch (Exception e) {
+			return false;
+		}

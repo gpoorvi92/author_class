@@ -1,0 +1,10 @@
+import com.yeshj.pacman.jms.message.VideoTranscodingMessage;
+import com.yeshj.pacman.utils.IdGenerator;
+
+/**
+ * @ClassName: DefaultMessageBuilder
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月2日 上午1:17:52
+ */
+public class DefaultMessageBuilder implements IMessageBuilder {

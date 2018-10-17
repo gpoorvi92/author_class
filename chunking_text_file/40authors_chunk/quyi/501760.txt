@@ -1,0 +1,10 @@
+      case 16:
+        return BIND_NFC_SERVICE;
+      case 17:
+        return BIND_NOTIFICATION_LISTENER_SERVICE;
+      case 18:
+        return BIND_PRINT_SERVICE;
+      case 19:
+        return BIND_REMOTEVIEWS;
+      case 20:
+        return BIND_TEXT_SERVICE;

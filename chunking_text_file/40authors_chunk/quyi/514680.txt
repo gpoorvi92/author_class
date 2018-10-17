@@ -1,0 +1,10 @@
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class reportTaskManagerConfig_args implements org.apache.thrift.TBase<reportTaskManagerConfig_args, reportTaskManagerConfig_args._Fields>, java.io.Serializable, Cloneable, Comparable<reportTaskManagerConfig_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("reportTaskManagerConfig_args");

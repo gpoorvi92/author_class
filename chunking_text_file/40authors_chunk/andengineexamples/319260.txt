@@ -1,0 +1,10 @@
+			final Body movingBody = PhysicsFactory.createCircleBody(this.mPhysicsWorld, movingFace, BodyType.DynamicBody, objectFixtureDef);
+
+			anchorFace.animate(200);
+			anchorFace.animate(200);
+
+			final Line connectionLine = new Line(anchorFaceX + spriteWidth / 2, anchorFaceY + spriteHeight / 2, anchorFaceX + spriteWidth / 2, anchorFaceY + spriteHeight / 2, this.getVertexBufferObjectManager());
+
+			pScene.attachChild(connectionLine);
+			pScene.attachChild(anchorFace);
+			pScene.attachChild(movingFace);

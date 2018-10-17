@@ -1,0 +1,10 @@
+public class VirusEngine implements org.apache.thrift.TBase<VirusEngine, VirusEngine._Fields>, java.io.Serializable, Cloneable, Comparable<VirusEngine> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("VirusEngine");
+
+  private static final org.apache.thrift.protocol.TField ENGINE_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("engineName", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField VERSION_FIELD_DESC = new org.apache.thrift.protocol.TField("version", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField UPDATE_FIELD_DESC = new org.apache.thrift.protocol.TField("update", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField RESULT_FIELD_DESC = new org.apache.thrift.protocol.TField("result", org.apache.thrift.protocol.TType.STRING, (short)4);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {

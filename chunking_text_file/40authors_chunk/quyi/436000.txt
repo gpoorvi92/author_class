@@ -1,0 +1,10 @@
+    case SYSTEM_RESOURCES:
+      return isSetSystemResources();
+    case HARDWARE_RESOURCES:
+      return isSetHardwareResources();
+    case CHECK_END_DATE:
+      return isSetCheckEndDate();
+    }
+    throw new IllegalStateException();
+  }
+

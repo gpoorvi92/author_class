@@ -1,0 +1,10 @@
+				throw new IllegalArgumentException();
+		}
+	}
+
+	public static int addToY(final Direction pDirection, final int pY) {
+		switch(pDirection) {
+			case LEFT:
+			case RIGHT:
+				return pY;
+			case UP:

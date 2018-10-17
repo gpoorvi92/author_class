@@ -1,0 +1,10 @@
+ * 			目的地：d:\\jad\\ForDemo.jad
+ */
+public class ChangeNameDemo {
+	public static void main(String[] args) throws IOException {
+		// 封装数据源目录
+		File srcFolder = new File("d:\\java");
+
+		// 封装目的地目录
+		File destFolder = new File("d:\\jad");
+		if (!destFolder.exists()) {

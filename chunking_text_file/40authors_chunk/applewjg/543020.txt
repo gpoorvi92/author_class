@@ -1,0 +1,10 @@
+        int pre = pool[0].high;
+        int res = 0;
+        for (int i = 1; i < n + 2; ++i) {
+            if (pool[i].low != -1) {
+                res = Math.max(res, pool[i].low - pre);
+                pre = pool[i].high;
+            }
+        }
+        return res;
+    }

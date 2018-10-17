@@ -1,0 +1,10 @@
+        long endTime = c.getTimeInMillis();
+        return new TimeObject(String.format(formatString, c,c), startTime, endTime);
+    }
+
+    public static TimeObject getMonth(Calendar c, String formatString) {
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH);
+        // set calendar to first millisecond of the month
+        c.set(year, month, 1, 0, 0, 0);
+        c.set(Calendar.MILLISECOND, 0);

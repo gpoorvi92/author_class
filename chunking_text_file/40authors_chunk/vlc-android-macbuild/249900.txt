@@ -1,0 +1,10 @@
+
+        int startTime = mPlayIndex.getStartTime(order);
+        int msecOffset = msec - startTime;
+        DebugLog.e(TAG, String.format("seek to segment[%d:%d] %d", order,
+                startTime, msecOffset));
+
+        if (mSegmentPlayer != null) {
+            int playerIndex = mSegmentPlayer.getOrder();
+            if (order == playerIndex) {
+                mSegmentPlayer.seekTo(msecOffset);

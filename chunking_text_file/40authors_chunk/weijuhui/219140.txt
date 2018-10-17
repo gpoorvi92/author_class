@@ -1,0 +1,10 @@
+					* minuteInterval - minutes;
+			mInitialTime.add(Calendar.MINUTE, diff);
+		}
+	}
+
+	/**
+	 * Set up the dialog with all the views and their listeners
+	 */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {

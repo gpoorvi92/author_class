@@ -1,0 +1,10 @@
+public class Disposer extends ThreadCore {
+	// //////////////////////////////////////////////
+	// Constructor
+	// //////////////////////////////////////////////
+
+	private static final CommonLog log = LogFactory.createNewLog("dlna_framework");
+
+	public Disposer(ControlPoint ctrlp) {
+		setControlPoint(ctrlp);
+	}

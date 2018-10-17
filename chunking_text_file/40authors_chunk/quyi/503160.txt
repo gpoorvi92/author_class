@@ -1,0 +1,10 @@
+				singleRecordInfo1.setAppSize(userAppInfo.getSize());
+				singleRecordInfo1.setMd5(userAppInfo.getMd5());
+				singleRecordInfo1.setMissionId("SingleTest11");
+				singleRecordInfo1.setUserAppId("SingleTest11" + row);
+				singleRecordInfo1.setStartedTime(time1);
+				singleRecordInfo1.setPlotsType(PlotsType.staticType);
+				//singleRecordInfo1.setPlotsType(PlotsType.virusType);
+				// exportExcel.exportToSingleExcel(fileName1, singleRecordInfo);
+				SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo1);
+				// todo 记录相关信息并写到excel中

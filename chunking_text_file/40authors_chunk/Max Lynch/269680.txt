@@ -1,0 +1,10 @@
+package com.gs.shape;
+
+import java.awt.*;
+import java.awt.geom.*;
+
+import com.gs.ui.*;
+
+public class SwirlLayer extends ShapeLayer {
+	GeneralPath swirl = new GeneralPath();
+	public SwirlLayer(ShapeLayerModel model, RenderSurface renderSurface)

@@ -1,0 +1,10 @@
+		for(int x=0; x<5; x++) {
+			for(int y=0; y<=z; y++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			z++;
+		}
+		*/
+
+		//我们发现z的变化和x的变化其实是一致的

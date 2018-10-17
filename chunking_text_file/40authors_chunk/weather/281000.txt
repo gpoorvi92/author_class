@@ -1,0 +1,10 @@
+    private gestureType mGestureType;
+
+    public BaseViewPager(Context context) {
+        super(context);
+        mGestureType = gestureType.All;
+    }
+
+    public BaseViewPager(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        mGestureType = gestureType.All;

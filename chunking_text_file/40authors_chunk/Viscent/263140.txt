@@ -1,0 +1,10 @@
+						request.setSubject("Hi");
+						request.getRecipient().addTo("776");
+						request.setAttachment(attachment);
+
+						persistence.store(request);
+
+					}
+				});
+
+			}

@@ -1,0 +1,10 @@
+public class JFWebChromeClient extends WebChromeClient {
+
+	private WebContentActivity webActivity;
+	private ImageView loadingBar;
+
+	public JFWebChromeClient(WebContentActivity webActivity,
+			ImageView loadingBar) {
+		this.webActivity = webActivity;
+		this.loadingBar = loadingBar;
+	}

@@ -1,0 +1,10 @@
+							});
+						}
+
+						@Override
+						public void onModifierFinished(final IModifier<IEntity> pEntityModifier, final IEntity pEntity) {
+							EntityModifierExample.this.runOnUiThread(new Runnable() {
+								@Override
+								public void run() {
+									Toast.makeText(EntityModifierExample.this, "Sequence finished.", Toast.LENGTH_SHORT).show();
+								}

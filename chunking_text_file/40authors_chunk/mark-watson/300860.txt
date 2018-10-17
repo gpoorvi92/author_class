@@ -1,0 +1,10 @@
+            else
+                sb.append(' ');
+        }
+        return sb.toString();
+    }
+    public static void main(String []args) {
+    	String text = "The ball, rolling quickly, went down the hill.";
+    	List<String> tokens = Tokenizer.wordsToList(text);
+    	System.out.println(text);
+    	for (String token : tokens) System.out.print("\""+token+"\" ");

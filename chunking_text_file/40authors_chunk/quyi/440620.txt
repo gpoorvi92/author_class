@@ -1,0 +1,10 @@
+    PID_NAME((short)1, "pidName"),
+    SOURCE_ADDRESS((short)2, "sourceAddress"),
+    SOURCE_PORT((short)3, "sourcePort"),
+    TARGET_ADDRESS((short)4, "targetAddress"),
+    TARGET_PORT((short)5, "targetPort"),
+    PROTOCAL((short)6, "protocal"),
+    DATA_HEX((short)7, "dataHex"),
+    DATA_CHAR((short)8, "dataChar"),
+    DATA_LENGTH((short)9, "dataLength"),
+    OPERATE_TIME((short)10, "operateTime");

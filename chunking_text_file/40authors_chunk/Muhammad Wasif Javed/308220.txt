@@ -1,0 +1,10 @@
+				bookNo = rs.getLong ("BookId");		//Storing the Record.
+				if (bookNo == id) {			//If Record Found then Display Records.
+					found = true;
+					txtBookId.setText ("" + id);
+					txtBookName.setText ("" + rs.getString ("BookName"));
+					txtBookAuthor.setText ("" + rs.getString ("BookAuthor"));
+					txtBookCategory.setText ("" + rs.getString ("Category"));
+					txtIssuedTo.setText ("" + rs.getString ("MemberName"));
+				}
+				else {

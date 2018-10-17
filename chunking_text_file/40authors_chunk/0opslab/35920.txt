@@ -1,0 +1,10 @@
+                        if (Math.abs(Integer.parseInt(value1[k]) - Integer.parseInt(value2[k])) < 5) {
+                            xiangsi++;
+                        } else {
+                            busi++;
+                        }
+                    }
+                } catch (RuntimeException e) {
+                    continue;
+                }
+                j++;

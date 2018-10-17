@@ -1,0 +1,10 @@
+  public void unsetPackageName() {
+    this.packageName = null;
+  }
+
+  /** Returns true if field packageName is set (has been assigned a value) and false otherwise */
+  public boolean isSetPackageName() {
+    return this.packageName != null;
+  }
+
+  public void setPackageNameIsSet(boolean value) {

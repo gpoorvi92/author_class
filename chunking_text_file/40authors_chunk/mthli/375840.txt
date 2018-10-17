@@ -1,0 +1,4 @@
+      namingContext.bind("rmi:central_warehouse", centralWarehouse);
+      System.out.println("Exiting...");
+   }
+}

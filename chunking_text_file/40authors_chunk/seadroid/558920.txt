@@ -1,0 +1,10 @@
+ */
+public class FileMonitorService extends Service {
+    private static final String DEBUG_TAG = "FileMonitorService";
+
+    private SeafileMonitor monitor;
+    private TransferService mTransferService;
+    private AutoUpdateManager updateMgr = new AutoUpdateManager();
+    private final IBinder mBinder = new MonitorBinder();
+
+    @Override

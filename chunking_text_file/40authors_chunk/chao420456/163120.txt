@@ -1,0 +1,10 @@
+import java.awt.Toolkit;
+import javax.swing.JFrame;
+
+/**
+ * 工具类
+ * @author fqy
+ */
+public class UiUtil {
+    
+    private UiUtil(){}

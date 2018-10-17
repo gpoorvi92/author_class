@@ -1,0 +1,10 @@
+     *
+     */
+    public final static long JVMtotalMem() {
+        return Runtime.getRuntime().totalMemory() / kb;
+    }
+
+    /**
+     * 虚拟机空闲内存量
+     *
+     */

@@ -1,0 +1,10 @@
+import com.jufan.platform.util.GlobalVariables;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.util.SSLConnection;
+import com.lianzt.util.StringUtil;
+
+import android.widget.EditText;
+
+public class LoginActivity extends AutoActivity {
+	@InjectionView(id = R.id.register_btn, click = "registerBtnClick")

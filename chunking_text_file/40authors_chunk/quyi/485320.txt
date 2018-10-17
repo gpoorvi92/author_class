@@ -1,0 +1,10 @@
+    public com.nercis.isscp.idl.DynamicCheckResultData dycRD; // required
+    public com.nercis.isscp.idl.virus.VirusDetectionResultData virRD; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+    public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+      MISSION_ID((short)1, "missionId"),
+      USER_APP_ID((short)2, "userAppId"),
+      PLOTS_STATUS((short)3, "plotsStatus"),
+      USED_PERMISSIONS((short)4, "usedPermissions"),
+      STC_RD((short)5, "stcRD"),

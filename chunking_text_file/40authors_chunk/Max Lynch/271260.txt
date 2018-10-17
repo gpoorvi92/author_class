@@ -1,0 +1,10 @@
+	public Color getStrokeColor1() {
+		if(strokeColorGradient != null) 
+			return strokeColorGradient.getColor1();
+		else 
+			return strokeColor;
+		}
+	public Color getStrokeColor2() {
+		if(strokeColorGradient != null)
+			return strokeColorGradient.getColor2();
+		else 

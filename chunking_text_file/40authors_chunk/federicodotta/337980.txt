@@ -1,0 +1,10 @@
+     * and the insertion point has responsibility for performing any data
+     * encoding that is necessary given the nature and location of the insertion
+     * point.
+     *
+     * @param payload The payload that should be placed into the insertion
+     * point.
+     * @return The resulting request.
+     */
+    byte[] buildRequest(byte[] payload);
+

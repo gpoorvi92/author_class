@@ -1,0 +1,10 @@
+	//	post
+	////////////////////////////////////////////////
+
+	private boolean post(HTTPResponse httpRes, byte content[], long contentOffset, long contentLength, boolean isOnlyHeader)
+	{
+		//TODO Check for bad HTTP agents, this method may be list for IOInteruptedException and for blacklistening
+		httpRes.setDate(Calendar.getInstance());
+		
+		OutputStream out = getOutputStream();
+

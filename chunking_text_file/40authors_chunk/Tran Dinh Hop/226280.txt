@@ -1,0 +1,10 @@
+	public int pop(){
+		if(size<1)
+			System.out.println("Error in record");
+		int rt=arr[front++];
+		size--;
+		return rt;
+	}
+
+	public String fileName(){
+		return FileName;

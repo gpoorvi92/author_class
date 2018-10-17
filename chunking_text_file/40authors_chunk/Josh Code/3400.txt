@@ -1,0 +1,10 @@
+                    catch (NumberFormatException nfe)
+                    {
+                        nfe.printStackTrace();
+                        JOptionPane.showMessageDialog(mv,
+                            "Unable to scale the model because at least one of the inputted values is not a valid real number: "
+                             + scaleStr);
+                    }
+                }
+            }
+        }

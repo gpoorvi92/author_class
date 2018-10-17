@@ -1,0 +1,10 @@
+	}
+	
+	
+	public GraphicsFrame getGraphicsFrame()
+	{
+		return this;
+	}
+	
+	
+	public void removeAll()

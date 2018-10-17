@@ -1,0 +1,10 @@
+
+    private void writeObject(ObjectOutputStream out) throws IOException {
+        out.writeObject(cookie.getName());
+        out.writeObject(cookie.getValue());
+        out.writeObject(cookie.getComment());
+        out.writeObject(cookie.getDomain());
+        out.writeObject(cookie.getExpiryDate());
+        out.writeObject(cookie.getPath());
+        out.writeInt(cookie.getVersion());
+        out.writeBoolean(cookie.isSecure());

@@ -1,0 +1,10 @@
+	public static final int DEFAULT_CHUNK_SIZE = 512 * 1024;
+	public static final int DEFAULT_TIMEOUT = 30;
+		
+	////////////////////////////////////////////////
+	// URL
+	////////////////////////////////////////////////
+	
+	public static final boolean isAbsoluteURL(String urlStr)
+	{
+		try {

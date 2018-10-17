@@ -1,0 +1,10 @@
+
+    public com.nercis.isscp.idl.Result ruleSync(List<com.nercis.isscp.idl.rules.Rules> rules) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_ruleSync(rules);
+      return recv_ruleSync();
+    }
+
+    public void send_ruleSync(List<com.nercis.isscp.idl.rules.Rules> rules) throws org.apache.thrift.TException
+    {
+      ruleSync_args args = new ruleSync_args();

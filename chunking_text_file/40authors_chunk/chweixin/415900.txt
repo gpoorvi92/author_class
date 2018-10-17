@@ -1,0 +1,10 @@
+			 
+			jsonObject = JSONObject.parseObject(result);
+		}catch(ConnectException e){
+			logger.error("连接服务器["+ requestUrl +"]异常：", e);
+		} catch (Exception e) {
+			logger.error("https请求异常：",e);
+		}
+		return jsonObject;
+	}
+	/**

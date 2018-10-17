@@ -1,0 +1,10 @@
+                unmap.put(val, unmap.get(val - 1) + 1);
+                unmap.put(val - unmap.get(val - 1), unmap.get(val));
+            } else if (unmap.containsKey(val + 1) == true) {
+                unmap.put(val, unmap.get(val + 1) + 1);
+                unmap.put(val + unmap.get(val + 1), unmap.get(val));   
+            } else {
+                unmap.put(val, 1);
+            }
+            res = Math.max(res, unmap.get(val));
+        }

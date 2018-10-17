@@ -1,0 +1,10 @@
+	 * @param map
+	 */
+	public void reset(Map<String, Object> map) {
+		
+		logger.info("ExecuteContext.reset()");
+		storage.clear();
+		if (map != null)
+			storage.putAll(map);
+		
+		totalTimer.set(0);

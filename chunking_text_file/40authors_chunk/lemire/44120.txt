@@ -1,0 +1,10 @@
+        } else {
+            other.swap(this);
+        }
+    }
+    
+    /**
+     * The actual size in words.
+     */
+    private int actualSizeInWords = 1;
+    

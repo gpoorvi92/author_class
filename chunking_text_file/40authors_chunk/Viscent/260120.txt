@@ -1,0 +1,10 @@
+				// 当前存储子目录已满
+				if (iFileCount >= maxFilesPerSection) {
+					if (sectionNames.size() >= maxSectionCount) {
+						need2RemoveSection = true;
+					}
+					// 创建新的存储子目录
+					sectionName = this.makeNewSectionDir();
+					fileCount = sectionFileCountMap.get(sectionName);
+
+				}

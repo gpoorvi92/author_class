@@ -1,0 +1,10 @@
+        // check for required fields of primitive type, which can't be checked in the validate method
+        if (!struct.isSetTimestamp()) {
+          throw new org.apache.thrift.protocol.TProtocolException("Required field 'timestamp' was not found in serialized data! Struct: " + toString());
+        }
+        struct.validate();
+      }
+
+      public void write(org.apache.thrift.protocol.TProtocol oprot, heart_args struct) throws org.apache.thrift.TException {
+        struct.validate();
+

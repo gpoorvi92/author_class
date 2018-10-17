@@ -1,0 +1,10 @@
+    throw new UnsupportedOperationException(
+        "This is no real Charset but a flag you should test for!");
+  }
+
+  /**
+   * @see Charset#displayName()
+   */
+  public String displayName() {
+    return this.m_name;
+  }

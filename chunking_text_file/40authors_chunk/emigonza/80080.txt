@@ -1,0 +1,10 @@
+        if( jposProperties.isPropertyDefined( JposProperties.
+        	JPOS_SERVICE_MANAGER_CLASS_PROP_NAME2 ) )
+        {
+            customManagerDefined = true;
+            customManagerClassName = 
+            jposProperties.
+            getPropertyString( JposProperties.
+            				   JPOS_SERVICE_MANAGER_CLASS_PROP_NAME2 );
+        }
+

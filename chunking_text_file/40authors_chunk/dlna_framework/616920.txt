@@ -1,0 +1,10 @@
+			name.append(this.getLocalAddress()).append(':');
+			name.append(this.getLocalPort()).append(" -> ");
+			name.append(this.getMulticastAddress()).append(':');
+			name.append(this.getMulticastPort());
+		}
+		deviceNotifyThread = new Thread(this,name.toString());
+		deviceNotifyThread.start();
+	}
+	
+	public void stop()

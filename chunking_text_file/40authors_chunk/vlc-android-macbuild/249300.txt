@@ -1,0 +1,10 @@
+            LibVlcVslIndex.putCount(indexBundle, playIndex.mSegmentList.size());
+
+            int order = 0;
+            for (Segment segment : playIndex.mSegmentList) {
+                segment.putIntoVslBundle(indexBundle, order);
+
+                LibVlcVslSegment.putSegmentMrl(indexBundle, order,
+                        getSegmentMrlForVlcPlayer(playIndex, order));
+                order += 1;
+            }

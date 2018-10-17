@@ -1,0 +1,10 @@
+	public boolean post(HTTPRequest req, String bindAddr, int bindPort)
+	{
+		return send(req.toString(), bindAddr, bindPort);
+	}
+
+	public boolean post(HTTPRequest req)
+	{
+		return send(req.toString(), null, -1);
+	}
+

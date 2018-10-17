@@ -1,0 +1,10 @@
+
+      // set up checkbox for toggling edit mode
+
+      final JCheckBox editable = new JCheckBox();
+      editable.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               editorPane.setEditable(editable.isSelected());
+            }

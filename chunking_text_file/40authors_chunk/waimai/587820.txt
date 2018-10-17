@@ -1,0 +1,7 @@
+    }
+
+    @Override
+    public int getTotalCount() {
+        return newsMapper.getTotalCount(null);
+    }
+}

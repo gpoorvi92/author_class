@@ -1,0 +1,10 @@
+                AccountDBHelper.ACCOUNT_COLUMN_EMAIL,
+                AccountDBHelper.ACCOUNT_COLUMN_TOKEN
+        };
+
+        Cursor c = database.query(
+             AccountDBHelper.ACCOUNT_TABLE_NAME,
+             projection,
+             null,
+             null,
+             null,   // don't group the rows

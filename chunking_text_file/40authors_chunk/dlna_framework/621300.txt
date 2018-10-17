@@ -1,0 +1,10 @@
+	}
+
+	public final static boolean isURNDevice(String value)
+	{
+		if (value == null)
+			return false;
+		if (value.startsWith(URN_DEVICE) == true)
+			return true;
+		return value.startsWith("\"" + URN_DEVICE);
+	}

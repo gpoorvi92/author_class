@@ -1,0 +1,10 @@
+	protected void setTitle() {
+		if (mTitleText != null) {
+			final Calendar c = getTime();
+			mTitleText
+					.setText(String.format("%tY年%tB%te日   %tH:%02d", c, c, c));
+		}
+	}
+
+	/**
+	 * Defines the interface which defines the methods of the OnDateSetListener

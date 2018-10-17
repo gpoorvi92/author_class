@@ -1,0 +1,10 @@
+	void onAppSvrStarted(Object source);
+	
+	/**
+	 * Server stopped event.
+	 * 
+	 * @Title: onAppSvrShutdown
+	 * @param source
+	 * @return: void
+	 */
+	void onAppSvrShutdown(Object source);

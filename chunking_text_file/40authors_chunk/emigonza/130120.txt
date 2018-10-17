@@ -1,0 +1,10 @@
+    public int     getUnitsOnline() throws JposException;
+    public int     getVideoDataCount() throws JposException;
+    public int     getVideoMode() throws JposException;
+    public void    setVideoMode(int videoMode) throws JposException;
+    public String  getVideoModesList() throws JposException;
+    public int     getVideoSaveBuffers() throws JposException;
+
+    // Methods
+    public void    clearInput() throws JposException;
+    public void    clearOutput() throws JposException;

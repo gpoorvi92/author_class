@@ -1,0 +1,10 @@
+        View view = activity.getCurrentFocus();
+        if (view != null) {
+            IBinder windowToken = view.getWindowToken();
+            hideSoftKeyboardNotAlways(activity, windowToken);
+        }
+    }
+
+    /**
+     * 隐藏软键盘，类型InputMethodManager.HIDE_NOT_ALWAYS
+     *

@@ -1,0 +1,10 @@
+		session.commit();
+		connection.close();
+	}
+
+	@Test
+	public void searchAppTest001() {
+		try {
+			TTransport transport = new TSocket(engine_address, engine_port);
+			transport.open();
+			TProtocol protocol1 = new TBinaryProtocol(transport);

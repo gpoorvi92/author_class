@@ -1,0 +1,10 @@
+     *
+     * @param file            要转换的文件或目录
+     * @param fromCharsetName 源文件的编码
+     * @param toCharsetName   要转换的编码
+     * @param filter          文件名过滤器
+     */
+    public static void convert(File file, String fromCharsetName, String toCharsetName, FilenameFilter filter) {
+        if (file.isDirectory()) {
+            List<File> list = valid.valid(filter) ? FileUtil.listFileFilter(file, filter) :
+                    FileUtil.listFile(file);

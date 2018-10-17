@@ -1,0 +1,10 @@
+        return modelAndView;
+    }
+
+    @RequestMapping("/addView")
+    public String addView() {
+        return "management/goodsType/add";
+    }
+
+    @RequestMapping("/add")
+    public ModelAndView add(GoodsType goodsType) {

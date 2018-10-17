@@ -1,0 +1,8 @@
+    void active(String[] ids) throws ServiceException;
+
+    void inactive(String[] ids) throws ServiceException;
+
+    void resetPwd(String[] ids);
+
+    String checkStoreName(String storeName);
+}

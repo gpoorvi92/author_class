@@ -1,0 +1,10 @@
+      int oldLength = array == null ? 0 : array.length;
+      if (oldLength > 0) fireIntervalRemoved(this, 0, oldLength);
+      array = a;
+      int newLength = array == null ? 0 : array.length;
+      if (newLength > 0) fireIntervalAdded(this, 0, newLength);
+   }
+
+   /**
+    * Changes a value in the array to be displayed in the list.
+    * @param i the index whose value to change

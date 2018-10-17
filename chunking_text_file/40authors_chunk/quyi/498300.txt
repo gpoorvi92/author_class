@@ -1,0 +1,10 @@
+    return this.operateContent;
+  }
+
+  public FileOperate setOperateContent(String operateContent) {
+    this.operateContent = operateContent;
+    return this;
+  }
+
+  public void unsetOperateContent() {
+    this.operateContent = null;

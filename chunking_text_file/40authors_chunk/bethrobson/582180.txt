@@ -1,0 +1,10 @@
+       JButton labelButton = new JButton("Change Label");
+       labelButton.addActionListener(new LabelButtonListener());
+
+       JButton colorButton = new JButton("Change Circle");
+       colorButton.addActionListener(new ColorButtonListener());
+
+       label = new JLabel("I'm a label");       
+       MyDrawPanel drawPanel = new MyDrawPanel();
+       
+       frame.getContentPane().add(BorderLayout.SOUTH, colorButton);

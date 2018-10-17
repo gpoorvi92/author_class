@@ -1,0 +1,10 @@
+    sb.append("ruleNo:");
+    if (this.ruleNo == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.ruleNo);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("category:");
+    if (this.category == null) {

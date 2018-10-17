@@ -1,0 +1,10 @@
+		
+		ok.addActionListener(this);
+		cancel.addActionListener(this);
+		
+		
+		setSize(160, 120);
+		
+		
+		
+	}

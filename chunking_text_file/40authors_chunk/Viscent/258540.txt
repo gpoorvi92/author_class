@@ -1,0 +1,10 @@
+
+	public Integer getTransactionId() {
+		return TS_OBJECT_PROXY.get();
+	}
+
+	public void setTransactionId(Integer transactionId) {
+		TS_OBJECT_PROXY.set(transactionId);
+	}
+
+	public void reset() {

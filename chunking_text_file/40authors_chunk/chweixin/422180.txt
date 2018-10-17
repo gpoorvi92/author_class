@@ -1,0 +1,10 @@
+	 * HQL.
+	 * @param parameters
+	 * 查询参数。
+	 * @return HQL
+	 * */
+	protected String addWhere(PictureInfo info,String hql,Map<String, Object> parameters){
+		if(info.getCode() != null && !info.getCode().trim().isEmpty()){
+			hql += " and (p.code = :code) ";
+			parameters.put("code", info.getCode());
+		}

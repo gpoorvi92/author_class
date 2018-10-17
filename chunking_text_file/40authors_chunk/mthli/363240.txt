@@ -1,0 +1,10 @@
+
+      JButton pasteButton = new JButton("Paste");
+      panel.add(pasteButton);
+      pasteButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               paste();
+            }
+         });

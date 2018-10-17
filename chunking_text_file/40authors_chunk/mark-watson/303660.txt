@@ -1,0 +1,10 @@
+
+    /**
+     * Get all values and scores as a human readable string
+     *
+     * @return string
+     */
+    public String getValuesAsString() {
+        return getValuesAsString(99999);
+    }
+

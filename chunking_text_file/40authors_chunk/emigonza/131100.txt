@@ -1,0 +1,10 @@
+	public DevCat getDevCat() { return devCat; }
+
+	/** @return the list of standard properties for this DevCat */
+	public PropInfoList getStandardProps() { return standardProps; }
+
+	/** @return the list of required properties for this DevCat */
+	public PropInfoList getRequiredProps() { return requiredProps; }
+
+	/** @return the list of optional properties for this DevCat */
+	public PropInfoList getOptionalProps() { return optionalProps; }

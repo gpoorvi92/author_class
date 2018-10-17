@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 票据是否有效。
+	 * @return 
+	 * 有效返回true，失效返回false。
+	 * */
+	public boolean isEffective(){
+		return System.currentTimeMillis() < this.failureTime.getTime();
+	}
+}

@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.domain;
+
+import cn.abovesky.shopping.base.BaseDomain;
+
+import java.util.Date;
+
+/**
+ * Created by snow on 2014/5/9.
+ */
+public class ImageRecommend extends BaseDomain {

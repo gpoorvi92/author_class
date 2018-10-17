@@ -1,0 +1,10 @@
+
+    public ActivitiesFragment getActivitiesFragment() {
+        return (ActivitiesFragment)getFragment(2);
+    }
+
+    class SeafileTabsAdapter extends FragmentPagerAdapter implements
+            IconPagerAdapter {
+        public SeafileTabsAdapter(FragmentManager fm) {
+            super(fm);
+        }

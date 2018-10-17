@@ -1,0 +1,10 @@
+	  	 */
+	  	if(isTableModificationMsg){
+	  		if("MMSCInfo".equals(updatedTableName)){
+	  			MMSCRouter.setInstance(new MMSCRouter());
+	  		}
+	  	}
+	  	//省略其它代码
+	  }
+  }
+	

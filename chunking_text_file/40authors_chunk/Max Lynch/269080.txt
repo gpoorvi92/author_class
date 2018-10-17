@@ -1,0 +1,10 @@
+import com.gs.shape.*;
+import com.gs.paint.*;
+
+
+public class RenderSurface extends JPanel implements MouseListener, MouseMotionListener {
+	
+	
+	GraphicsStudio studio;
+	MenuMan menus;
+	

@@ -1,0 +1,10 @@
+          new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+              new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, com.nercis.isscp.idl.PlotsType.class))));
+      tmpMap.put(_Fields.USE_RULE, new org.apache.thrift.meta_data.FieldMetaData("useRule", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+      metaDataMap = Collections.unmodifiableMap(tmpMap);
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(submitMission_args.class, metaDataMap);
+    }
+
+    public submitMission_args() {
+    }

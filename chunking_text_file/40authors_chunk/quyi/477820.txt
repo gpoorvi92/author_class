@@ -1,0 +1,10 @@
+        {
+          schemeField = iprot.readFieldBegin();
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 0: // SUCCESS
+              if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+                struct.success = com.nercis.isscp.idl.Result.findByValue(iprot.readI32());
+                struct.setSuccessIsSet(true);

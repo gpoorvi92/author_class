@@ -1,0 +1,10 @@
+      public issuedMessage_call(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<String> rules, List<com.nercis.isscp.idl.PlotsType> plots, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.missionId = missionId;
+        this.userApps = userApps;
+        this.rules = rules;
+        this.plots = plots;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("issuedMessage", org.apache.thrift.protocol.TMessageType.CALL, 0));

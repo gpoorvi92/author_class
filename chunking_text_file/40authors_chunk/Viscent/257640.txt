@@ -1,0 +1,8 @@
+		@SuppressWarnings("unchecked")
+		T f = (T) Proxy.newProxyInstance(interf.getClassLoader(),
+		    new Class[] { interf }, new DispatchInvocationHandler(servant,
+		        scheduler));
+
+		return f;
+	}
+}

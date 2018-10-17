@@ -1,0 +1,10 @@
+package tv.danmaku.android.util;
+
+import android.graphics.drawable.Drawable;
+import android.support.v4.util.LruCache;
+
+public class ImageLruCache {
+    private static final boolean ENABLE_VERBOSE = false;
+
+    private final static int GLOBAL_IMAGE_MEM_CACHE_MAX_SIZE = 40;
+    private final static int PRIVATE_IMAGE_MEM_CACHE_MAX_SIZE = 10;

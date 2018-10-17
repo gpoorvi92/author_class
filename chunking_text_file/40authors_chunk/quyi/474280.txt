@@ -1,0 +1,10 @@
+        struct.setSubmitIdIsSet(true);
+      }
+    }
+
+  }
+
+  public static class genMissionId_result implements org.apache.thrift.TBase<genMissionId_result, genMissionId_result._Fields>, java.io.Serializable, Cloneable, Comparable<genMissionId_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("genMissionId_result");
+
+    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.STRING, (short)0);

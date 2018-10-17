@@ -1,0 +1,10 @@
+			ops[count++] = op;
+		}
+		return ops;
+	}
+
+
+	@Override
+	public OrderLhjWinProp findOrderLhjWinPropById(int ID) {
+		return orderLhjWinPropDao.selectOrderLhjWinPropById(ID);
+	}

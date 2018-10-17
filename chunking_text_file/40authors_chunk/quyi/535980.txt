@@ -1,0 +1,10 @@
+    }
+
+    switch (field) {
+    case PROCESS_NAME:
+      return isSetProcessName();
+    case THREAD_NAME:
+      return isSetThreadName();
+    case CHECK_TIME:
+      return isSetCheckTime();
+    case DEVICE_TYPE:

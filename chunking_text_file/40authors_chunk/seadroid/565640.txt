@@ -1,0 +1,10 @@
+                AVATAR_COLUMN_SIGNATURE + "=? and " +
+                        AVATAR_COLUMN_URL + "=?",
+                new String[]{avatar.getSignature(), avatar.getUrl()});
+        return count > 0;
+
+    }
+    
+    @Override
+    public void onCreate(SQLiteDatabase db) {
+        createAvatarTable(db);

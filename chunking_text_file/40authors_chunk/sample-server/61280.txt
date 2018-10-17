@@ -1,0 +1,10 @@
+                    throw new RpcException("failed connection");
+                }
+            } catch (Exception e)
+            {
+                disconnect();
+                throw new RpcIOException(e);
+            }
+        }
+    }
+    @Override

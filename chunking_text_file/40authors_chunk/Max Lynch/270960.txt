@@ -1,0 +1,10 @@
+				
+			else if(shape == null)
+				g2.draw(new Rectangle2D.Double(w/2-50, h/2-50, 100, 100));
+				*/
+		
+		}
+	}
+	
+	
+}

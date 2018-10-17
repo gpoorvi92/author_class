@@ -1,0 +1,10 @@
+					}
+				}
+				else {//当一屏显示不全，需要滚屏时
+					if(selectI > yeSpan-1){ 
+						selectI = yeSpan-1;
+						currentI++;
+						if((currentI+yeSpan) > items1.length){
+							currentI--;
+						}
+					}						

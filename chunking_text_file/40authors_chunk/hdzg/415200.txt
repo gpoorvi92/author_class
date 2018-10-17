@@ -1,0 +1,10 @@
+	DrawThread drawThread;//后台的重绘线程
+	ScreenRollThread screenRollThread;//竹简滚屏的后台线程
+	float textSize = 23f;//字体的大小
+	int scrollStartX = 320;//竹简开始的x坐标
+	int scrollStartY = 60;//竹简开始的y坐标 
+	int characterEachLine = 10;//每行显示的汉字个数
+	int characterSpanX = 36;//文字x方向间距
+	int characterSpanY = 25;//文字y方向间距
+	int characterNumber = 1;//已经显示了的字数
+	int textStartX=237;//文字起始的x坐标

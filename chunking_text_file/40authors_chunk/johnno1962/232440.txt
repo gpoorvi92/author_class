@@ -1,0 +1,10 @@
+    boolean entered_internalFrameOpened_0;
+
+    public void internalFrameOpened( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameOpened_0 ) {
+            entered_internalFrameOpened_0 = true;
+            __internalFrameOpened( e );
+            entered_internalFrameOpened_0 = false;
+        }
+        else
+            super.internalFrameOpened( e );

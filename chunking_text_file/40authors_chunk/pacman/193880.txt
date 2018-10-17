@@ -1,0 +1,10 @@
+	private long lastExecuteTime = 0;
+	
+	private ExecuteResult executeResult = new ExecuteResult();
+	
+	//Sets the return result.
+	public void setResult(int cmdId, Object result, Exception e) {
+		
+		executeResult.setCommandId(cmdId);
+		executeResult.setResult(result);
+		executeResult.setException(e);

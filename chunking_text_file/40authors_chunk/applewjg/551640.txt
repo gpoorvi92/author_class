@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    Combinations
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/combinations/
+ Notes:
+ Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
+ For example,
+ If n = 4 and k = 2, a solution is:

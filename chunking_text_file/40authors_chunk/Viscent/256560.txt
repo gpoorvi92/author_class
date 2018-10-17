@@ -1,0 +1,10 @@
+		pwr.print('|');
+
+		pwr.print(entry.selfIPAddress);
+		pwr.print('|');
+
+		pwr.print(entry.calling);
+		pwr.print('|');
+
+		pwr.print(entry.callee);
+		pwr.println();

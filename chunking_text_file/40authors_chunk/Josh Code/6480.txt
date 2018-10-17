@@ -1,0 +1,10 @@
+   {}
+
+   public void componentMoved(ComponentEvent e)
+   {}
+
+   public void componentResized(ComponentEvent e)
+   {
+      setDimensions(e.getComponent().getWidth(),e.getComponent().getHeight());
+   }
+

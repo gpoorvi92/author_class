@@ -1,0 +1,10 @@
+
+  /** Returns true if field rss is set (has been assigned a value) and false otherwise */
+  public boolean isSetRss() {
+    return EncodingUtils.testBit(__isset_bitfield, __RSS_ISSET_ID);
+  }
+
+  public void setRssIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __RSS_ISSET_ID, value);
+  }
+

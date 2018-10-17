@@ -1,0 +1,6 @@
+		//}*/
+		System.out.println("missionID:"+missionId+",userappId:"+userAppId +",status:"+ plotsStatus.toString());
+		return Result.success;
+	}
+
+}

@@ -1,0 +1,10 @@
+
+    ApplicationAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void com.apple.eawt.ApplicationAdapter.handleOpenApplication(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleOpenApplication( com.apple.eawt.ApplicationEvent arg0 );
+

@@ -1,0 +1,10 @@
+import java.util.Map;
+
+
+public class Client extends Thread{
+
+	public Socket c_socket ;
+	private Client_chatFrame c_chatFrame;
+	private Client_enterFrame c_enterFrame;
+	private Client_singleFrame c_singleFrame;
+	public  DataInputStream dis = null;

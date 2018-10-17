@@ -1,0 +1,10 @@
+            threadPolicyBuilder = threadPolicyBuilder.detectNetwork();
+
+        switch (sThreadPenalty) {
+        case Death:
+            threadPolicyBuilder = threadPolicyBuilder.penaltyDeath();
+            break;
+        case Dialog:
+            threadPolicyBuilder = threadPolicyBuilder.penaltyDialog();
+            break;
+        case DropBox:

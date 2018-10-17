@@ -1,0 +1,10 @@
+
+		if(!(o1 instanceof AcctData) || !(o2 instanceof AcctData))
+			return 0;
+
+		AcctData s1 = (AcctData)o1;
+		AcctData s2 = (AcctData)o2;
+		
+		switch (mintSortCol) {
+			
+			case 0:    // Code

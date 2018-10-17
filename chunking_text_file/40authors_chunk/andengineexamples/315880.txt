@@ -1,0 +1,10 @@
+		try {
+			final TexturePack spritesheetTexturePack = new TexturePackLoader(this.getTextureManager(), "gfx/spritesheets/").loadFromAsset(this.getAssets(), "texturepackerexample.xml");
+			spritesheetTexturePack.loadTexture();
+			this.mSpritesheetTexturePackTextureRegionLibrary = spritesheetTexturePack.getTexturePackTextureRegionLibrary();
+		} catch (final TexturePackParseException e) {
+			Debug.e(e);
+		}
+	}
+
+	@Override

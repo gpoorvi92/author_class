@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Add an element at the end of the queue
+     *
+     * @param t element to be added
+     */
+    public void toss(final T t) {
+        this.a[++this.lastIndex] = t;
+    }

@@ -1,0 +1,10 @@
+			holder.chatBgLayout.setBackgroundDrawable(ctx.getResources()
+					.getDrawable(R.drawable.chat_img_to_bg_mask));
+			String msgId = acd.getStringValue("id");
+			if (StringUtil.isNull(msgId)) {
+				msgId = SystemUtil.getUniqueId();
+				acd.putStringValue("id", msgId);
+			}
+			if (type == 1 && holder.chatTextView != null) { // 文本
+				holder.chatTextView.setPadding(12, 10, 25, 0);
+				String chatMsg = acd.getStringValue("chat_msg");

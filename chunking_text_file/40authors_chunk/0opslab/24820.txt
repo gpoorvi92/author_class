@@ -1,0 +1,10 @@
+            // 发件人
+            InternetAddress from = new InternetAddress(sender_username);
+            // 下面这个是设置发送人的Nick name
+            //InternetAddress from = new InternetAddress(MimeUtility.encodeWord("幻影") + " <" + sender_username + ">");
+            message.setFrom(from);
+
+            // 收件人
+            InternetAddress to = new InternetAddress(receiveUser);
+            message.setRecipient(Message.RecipientType.TO, to);//还可以有CC、BCC
+

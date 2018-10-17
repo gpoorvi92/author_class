@@ -1,0 +1,10 @@
+      if (other.m_key != null) {
+        return false;
+      }
+    } else if (!this.m_key.equals(other.m_key)) {
+      return false;
+    }
+    if (this.m_value == null) {
+      if (other.m_value != null) {
+        return false;
+      }

@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch7.pc;
+
+/**
+ * 对通道参与者进行抽象。
+ * 
+ * @author Viscent Huang
+ *

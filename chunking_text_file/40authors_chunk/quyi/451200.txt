@@ -1,0 +1,10 @@
+    public static class searchAllEng<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, searchAllEng_args, List<Engine>> {
+      public searchAllEng() {
+        super("searchAllEng");
+      }
+
+      public searchAllEng_args getEmptyArgsInstance() {
+        return new searchAllEng_args();
+      }
+
+      public AsyncMethodCallback<List<Engine>> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {

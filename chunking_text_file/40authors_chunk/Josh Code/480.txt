@@ -1,0 +1,10 @@
+           sorted = true;
+           for (i=1;i<maxI; i++)
+           {
+               t = triangles[i - 1];
+               if (compare(t,triangles[i])>0)
+               {// swap
+                   triangles[i-1]=triangles[i];
+                   triangles[i]=t;
+                   sorted = false;
+                   // indicate not sorted

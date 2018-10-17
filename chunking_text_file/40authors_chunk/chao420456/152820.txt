@@ -1,0 +1,10 @@
+
+	public static void main(String[] args) {
+		Server server = new Server();
+		ServerFrame serverFrame = new ServerFrame(server);
+		server.setServerFrame(serverFrame);
+		serverFrame.setVisible(true);
+	}
+
+	public void close() {
+		if(serverThread != null){

@@ -1,0 +1,10 @@
+   }
+}
+
+/**
+ * A text area whose append method makes a security check to see that no bad words are added.
+ */
+class WordCheckTextArea extends JTextArea
+{
+   public void append(String text)
+   {

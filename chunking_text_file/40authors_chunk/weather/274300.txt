@@ -1,0 +1,10 @@
+
+	public boolean isDownloading() {
+		return isDownloading;
+	}
+
+	private void setDownloading(boolean isDownloading) {
+		this.isDownloading = isDownloading;
+	}
+
+	public DownloaderWorker getDownloadWorker() {

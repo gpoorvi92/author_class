@@ -1,0 +1,10 @@
+	 * */
+	@Override
+	public void setFromUserName(String fromUserName) {
+		super.setFromUserName(fromUserName);
+	}
+	/**
+	 * 获取消息ID。
+	 * @return 消息ID。
+	 * */
+	public Long getMsgId() {

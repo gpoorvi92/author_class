@@ -1,0 +1,10 @@
+  public void unsetMissionProgress() {
+    this.missionProgress = null;
+  }
+
+  /** Returns true if field missionProgress is set (has been assigned a value) and false otherwise */
+  public boolean isSetMissionProgress() {
+    return this.missionProgress != null;
+  }
+
+  public void setMissionProgressIsSet(boolean value) {

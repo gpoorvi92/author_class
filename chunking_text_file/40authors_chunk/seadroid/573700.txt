@@ -1,0 +1,10 @@
+
+            if (txService == null) {
+                return false;
+            }
+
+            ListView listView = mTransferTaskListView;
+            UploadTaskInfo taskInfo = (UploadTaskInfo) listView.getItemAtPosition(info.position);
+            TaskState state = taskInfo.state;
+            int taskID = taskInfo.taskID;
+

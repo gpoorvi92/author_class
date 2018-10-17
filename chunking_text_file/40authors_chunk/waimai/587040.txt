@@ -1,0 +1,8 @@
+        return merchantCollectionList;
+    }
+
+    @Override
+    public boolean isExist(MerchantCollection merchantCollection) {
+        return merchantCollectionMapper.countByUserIdAndMerchantId(merchantCollection) > 0 ? true : false;
+    }
+}

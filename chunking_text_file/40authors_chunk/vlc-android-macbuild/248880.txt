@@ -1,0 +1,10 @@
+        mrl.mRawMrl = rawMrl;
+        mrl.mScheme = null;
+        mrl.mPseudoAccess = null;
+        mrl.mPseudoDemux = null;
+        mrl.mSchemeSpecificPart = null;
+
+        String[] mrlComponents = mrl.mRawMrl.split(":", 2);
+        if (mrlComponents == null || mrlComponents.length < 2)
+            return mrl;
+        mrl.mSchemeSpecificPart = mrlComponents[1];

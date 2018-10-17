@@ -1,0 +1,6 @@
+      catch (UnsupportedFlavorException ex)
+      {
+         return false;
+      }
+   }
+}

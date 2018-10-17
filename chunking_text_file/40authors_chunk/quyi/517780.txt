@@ -1,0 +1,10 @@
+          struct.ue.write(oprot);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+
+    }
+
+    private static class reportNodeManagerConfig_resultTupleSchemeFactory implements SchemeFactory {

@@ -1,0 +1,10 @@
+		return false;
+	}
+	
+	////////////////////////////////////////////////
+	//	SubscriptionTIme
+	////////////////////////////////////////////////
+
+	private long subscriptionTime = 0;
+	
+	public long getSubscriptionTime() {

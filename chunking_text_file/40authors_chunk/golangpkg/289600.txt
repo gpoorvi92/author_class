@@ -1,0 +1,10 @@
+		FileInputStream fileInputStream = new FileInputStream(file);
+		fileInputStream.read();
+		fileDeleter.deleteFile(dir);
+		fileDeleter.run();
+		Assert.assertThat(file.exists(), is(Boolean.TRUE));
+		Assert.assertThat(dir.exists(), is(Boolean.TRUE));
+		fileInputStream.close();
+		fileDeleter.run();
+		Assert.assertThat(file.exists(), is(Boolean.FALSE));
+		Assert.assertThat(dir.exists(), is(Boolean.FALSE));

@@ -1,0 +1,10 @@
+    public int     getMaximumPINLength() throws JposException;
+    public void    setMaximumPINLength(int maximumPINLength) throws JposException;
+    public String  getMerchantID() throws JposException;
+    public void    setMerchantID(String merchantID) throws JposException;
+    public int     getMinimumPINLength() throws JposException;
+    public void    setMinimumPINLength(int minimumPINLength) throws JposException;
+    public boolean getPINEntryEnabled() throws JposException;
+    public int     getPowerNotify() throws JposException;
+    public void    setPowerNotify(int powerNotify) throws JposException;
+    public int     getPowerState() throws JposException;

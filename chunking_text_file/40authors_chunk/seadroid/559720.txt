@@ -1,0 +1,10 @@
+        });
+        builder.setView(view);
+        final AlertDialog dialog = builder.show();
+        Button okButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+        okButton.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.dialog_btn_txt_size));
+        Button cancelButton = dialog.getButton(AlertDialog.BUTTON_NEGATIVE);
+        cancelButton.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimension(R.dimen.dialog_btn_txt_size));
+
+        return dialog;
+    }

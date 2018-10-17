@@ -1,0 +1,10 @@
+          return lastComparison;
+        }
+      }
+      lastComparison = Boolean.valueOf(isSetTimestamp()).compareTo(other.isSetTimestamp());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetTimestamp()) {
+        lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.timestamp, other.timestamp);
+        if (lastComparison != 0) {

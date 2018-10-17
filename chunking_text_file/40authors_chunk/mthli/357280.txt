@@ -1,0 +1,10 @@
+package listRendering;
+
+import java.awt.*;
+import javax.swing.*;
+
+/**
+ * A cell renderer for Font objects that renders the font name in its own font.
+ */
+public class FontCellRenderer extends JComponent implements ListCellRenderer<Font>
+{

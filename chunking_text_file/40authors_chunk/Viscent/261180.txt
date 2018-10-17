@@ -1,0 +1,10 @@
+	 * 生成并下发验证码短信到指定的手机号码。
+	 * 
+	 * @param msisdn 短信接收方号码。
+	 */
+	public void sendVerificationSms(final String msisdn) {
+		Runnable task = new Runnable() {
+			@Override
+			public void run() {
+				//生成强随机数验证码
+				int verificationCode = ThreadSpecificSecureRandom.INSTANCE

@@ -1,0 +1,10 @@
+        if (this.iteratingBrlw.getNumberOfLiteralWords() == 0)
+            this.next();
+    }
+
+    /**
+     * Move to the next RunningLengthWord
+     *
+     * @return whether the move was possible
+     */
+    @Override

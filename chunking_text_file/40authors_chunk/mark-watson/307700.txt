@@ -1,0 +1,10 @@
+package neuralnetworks;
+
+
+// 3/7/2004: note: someone asked for an XOR example...  -Mark
+
+
+public class xor {
+    static float FALSE = 0.01f;
+    static float TRUE  = 0.99f;
+

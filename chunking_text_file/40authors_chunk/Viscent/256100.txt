@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch7.pc;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.Semaphore;
+
+/**
+ * 基于Semaphore的支持流量控制的通道实现。

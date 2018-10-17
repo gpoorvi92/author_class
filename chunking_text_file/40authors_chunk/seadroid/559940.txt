@@ -1,0 +1,10 @@
+
+            }
+        });
+    }
+
+    public Editable getText() {
+        Editable text = edit_text.getText();
+        return text;
+    }
+

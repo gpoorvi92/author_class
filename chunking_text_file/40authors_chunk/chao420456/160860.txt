@@ -1,0 +1,10 @@
+		prop.load(r);
+		r.close();
+		System.out.println("prop:" + prop);
+		System.out.println("---------------------");
+
+		// 创建集合对象
+		Properties prop2 = new Properties();
+		prop2.setProperty("001", "hello");
+		prop2.setProperty("002", "world");
+		prop2.setProperty("003", "java");

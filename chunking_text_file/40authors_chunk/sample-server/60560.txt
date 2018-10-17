@@ -1,0 +1,10 @@
+                    cf.awaitUninterruptibly();
+                    if (cf.isDone() && cf.isSuccess())
+                    {
+                        channel = cf.getChannel();
+                        break;
+                    }
+                } catch (Exception e)
+                {
+                    log.error("", e);
+                    shutdown();

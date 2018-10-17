@@ -1,0 +1,10 @@
+				continue;
+			}
+			others[count++] = other;
+		}
+		return others;
+	}
+
+	@Override
+	public OrderOther findOrderOtherById(int id) {
+		return orderOtherDao.selectOrderOtherById(id);

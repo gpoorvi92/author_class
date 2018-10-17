@@ -1,0 +1,10 @@
+//
+//////////////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface CATControl14 extends BaseControl
+{
+    // Capabilities

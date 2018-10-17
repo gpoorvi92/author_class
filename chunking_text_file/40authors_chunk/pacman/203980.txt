@@ -1,0 +1,10 @@
+	 * @return: WorkerType
+	 */
+	WorkerType getType();
+	void setType(WorkerType type);
+	
+	/**
+	 * Getter and setter for parameter.
+	 * 
+	 * @param key
+	 * @param value

@@ -1,0 +1,10 @@
+			}
+		}
+	}
+
+	
+	@Test
+	public void serializationExample() throws IOException {
+		File tmpfile = File.createTempFile("javaewah", "bin");
+		tmpfile.deleteOnExit();
+		final FileOutputStream fos = new FileOutputStream(tmpfile);

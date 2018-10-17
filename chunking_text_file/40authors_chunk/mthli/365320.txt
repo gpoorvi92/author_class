@@ -1,0 +1,10 @@
+         // compute the array size
+         int n = (int)(Files.size(path)) / Employee.RECORD_SIZE;
+         Employee[] newStaff = new Employee[n];
+         
+         // read employees in reverse order
+         for (int i = n - 1; i >= 0; i--)
+         {            
+            newStaff[i] = new Employee();
+            channel.position(i * Employee.RECORD_SIZE);
+            buffer.clear();

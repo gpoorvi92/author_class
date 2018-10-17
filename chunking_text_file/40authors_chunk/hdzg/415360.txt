@@ -1,0 +1,10 @@
+
+	public void surfaceChanged(SurfaceHolder holder, int format, int width,
+			int height) {
+	}
+
+	public void surfaceCreated(SurfaceHolder holder) {
+		if(!drawThread.isAlive()){
+			drawThread.start();
+		}
+		screenRollThread.flag = true;

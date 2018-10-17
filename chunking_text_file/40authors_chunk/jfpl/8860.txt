@@ -1,0 +1,10 @@
+		String imagePath = acd.getStringValue("image_parent_dir");
+		Intent intent = new Intent(this, ImageSendActivity.class);
+		intent.putExtra("image_dir", imagePath);
+		startActivityForResult(intent, 0);
+	}
+
+	private AbstractCommonData getImagePickerList(File f, int i) {
+		int j = i + 1;
+		if (f == null || !f.exists()) {
+			return null;

@@ -1,0 +1,10 @@
+      if (r != JFileChooser.APPROVE_OPTION) return;
+      File f = chooser.getSelectedFile();
+      Box box = Box.createVerticalBox();
+      try
+      {
+         String name = f.getName();
+         String suffix = name.substring(name.lastIndexOf('.') + 1);
+         Iterator<ImageReader> iter = ImageIO.getImageReadersBySuffix(suffix);
+         ImageReader reader = iter.next();
+         ImageInputStream imageIn = ImageIO.createImageInputStream(f);

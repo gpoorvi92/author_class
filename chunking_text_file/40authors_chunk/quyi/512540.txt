@@ -1,0 +1,10 @@
+    }
+
+    private static <I extends AsyncIface> Map<String,  org.apache.thrift.AsyncProcessFunction<I, ? extends  org.apache.thrift.TBase,?>> getProcessMap(Map<String,  org.apache.thrift.AsyncProcessFunction<I, ? extends  org.apache.thrift.TBase, ?>> processMap) {
+      processMap.put("reportEngineConfig", new reportEngineConfig());
+      processMap.put("reportTaskManagerConfig", new reportTaskManagerConfig());
+      processMap.put("reportNodeManagerConfig", new reportNodeManagerConfig());
+      processMap.put("modifyEngineConfig", new modifyEngineConfig());
+      processMap.put("modifyTaskManagerConfig", new modifyTaskManagerConfig());
+      processMap.put("modifyNodeManagerConfig", new modifyNodeManagerConfig());
+      return processMap;

@@ -1,0 +1,10 @@
+		in.close(); 
+		out.close(); 
+		
+		//jsp.setViewportView(log);
+	} 
+
+	private void worker() throws IOException{
+			if(dict.hasCode(code)) { 
+				// Case1: the given code is found
+

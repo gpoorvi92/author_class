@@ -1,0 +1,10 @@
+
+				@Override
+				public void onClick(View v) {
+					Intent intent = new Intent(act, PersonInfoActivity.class);
+					act.startActivity(intent);
+				}
+			});
+		}
+		return v;
+	}

@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class RulesStandardScheme extends StandardScheme<Rules> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, Rules struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {

@@ -1,0 +1,10 @@
+     * @return an iterator
+     */
+    public final Iterable<EWAHPointer32> getLiterals() {
+        return new Iterable<EWAHPointer32>() {
+
+            @Override
+            public Iterator<EWAHPointer32> iterator() {
+                return new Iterator<EWAHPointer32>() {
+                    int k = UpdateableBitmapFunction32.this.litwlist
+                            .nextSetBit(0);

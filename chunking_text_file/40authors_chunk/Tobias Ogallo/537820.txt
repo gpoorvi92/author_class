@@ -1,0 +1,10 @@
+		JPanel dpanel=new JPanel();
+		dpanel.setBorder(BorderFactory.createLoweredBevelBorder());
+		dpanel.setLayout(new GridLayout(1,1));
+		DateFormat defaultDate=DateFormat.getDateInstance(DateFormat.FULL);
+      	content.add(reportingPanel,BorderLayout.CENTER);
+
+      	setLocation(5,0);
+      	setSize(780,700);
+      	setVisible(true);
+		

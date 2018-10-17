@@ -1,0 +1,10 @@
+package burp;
+
+import java.net.URL;
+
+public class CustomScanIssue implements IScanIssue {
+	
+    private IHttpService httpService;
+    private URL url;
+    private IHttpRequestResponse[] httpMessages;
+    private String name;

@@ -1,0 +1,10 @@
+				workQueue.put(file);
+				terminationToken.reservations.incrementAndGet();
+			} catch (InterruptedException e) {
+				;
+			}
+		}
+
+		private FTPClient initFTPClient(String ftpServer, String userName,
+		    String password) throws Exception {
+			FTPClient ftpClient = new FTPClient();

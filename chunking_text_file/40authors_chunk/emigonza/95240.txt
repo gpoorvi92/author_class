@@ -1,0 +1,10 @@
+        makeProperty("CapWaterMark"),
+
+        // Properties
+        makeProperty("AsyncMode"),
+        makeProperty("AutoDisable"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),
+        makeProperty("FlagWhenIdle"),
+        makeProperty("MediumFreeSpace"),
+        makeProperty("MediumID"),

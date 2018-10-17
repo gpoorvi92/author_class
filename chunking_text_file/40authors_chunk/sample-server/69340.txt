@@ -1,0 +1,10 @@
+public class WebSocketServerPipelineFactory implements ChannelPipelineFactory
+{
+    private final BaseWebSocketServerHandler baseWebSocketServerHandler;
+    public WebSocketServerPipelineFactory(BaseWebSocketServerHandler baseWebSocketServerHandler)
+    {
+        this.baseWebSocketServerHandler = baseWebSocketServerHandler;
+    }
+    public ChannelPipeline getPipeline() throws Exception
+    {
+        ChannelPipeline pipeline = pipeline();

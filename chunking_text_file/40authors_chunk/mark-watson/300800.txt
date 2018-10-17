@@ -1,0 +1,10 @@
+                } else if (s.endsWith("?")) {
+                    x = s.substring(0, s.length() - 1);
+                    if (x.length() > 0) words.add(x);
+                    words.add("?");
+                } else if (s.endsWith(":")) {
+                    x = s.substring(0, s.length() - 1);
+                    if (x.length() > 0) words.add(x);
+                    words.add(":");
+                } else {
+                    words.add(s);

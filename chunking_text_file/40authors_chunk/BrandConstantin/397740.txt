@@ -1,0 +1,10 @@
+        numero = 1;
+        while ( numero <= a) {
+            numero++;
+            System.out.print(" " + "*");
+        }
+        
+        a++;
+        System.out.println();
+    }
+    System.out.println("------------------------------------------------------");

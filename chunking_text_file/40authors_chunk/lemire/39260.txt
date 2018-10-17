@@ -1,0 +1,10 @@
+    boolean getRunningBit();
+
+    /**
+     * @return sum of getRunningLength() and getNumberOfLiteralWords()
+     */
+    long size();
+
+    /**
+     * @return length of the run of fill words
+     */

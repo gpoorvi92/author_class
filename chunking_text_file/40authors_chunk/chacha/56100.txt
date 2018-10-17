@@ -1,0 +1,10 @@
+	 * @param request
+	 *            密码认证请求
+	 * @return 回应消息，认证成功或失败，若认证成功根据action决定是否返回令牌
+	 */
+	public AuthResponse loginPass(AuthRequest request) {
+		String userName=((String)request.getKey(AuthRequest.KEY_USERNAME)).trim();
+		Account account=accoutDAO.getAccountByName(userName);
+		if(account==null||account.getPasswd().equals(AuthRequest.KEY_PASSWD)){
+			response.setResult(ResponseCode.ERROR_USERPASS);
+		}else{

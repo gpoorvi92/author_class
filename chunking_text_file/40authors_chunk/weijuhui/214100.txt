@@ -1,0 +1,10 @@
+
+    //
+    // Pre-processing of messages (executes in background threadpool thread)
+    //
+
+    @Override
+    protected void sendSuccessMessage(int statusCode, String responseBody) {
+    	if (statusCode != HttpStatus.SC_NO_CONTENT){
+	        try {
+	            Object jsonResponse = parseResponse(responseBody);

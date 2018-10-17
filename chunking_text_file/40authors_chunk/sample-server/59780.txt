@@ -1,0 +1,10 @@
+        public HeaderInputStream(InputStream in)
+        {
+            super(in);
+        }
+        public byte[] recv() throws IOException
+        {
+            ByteBuffer header = ByteBuffer.allocate(4);
+            read(header.array());
+            int length = header.getInt();
+            byte[] data = new byte[length];

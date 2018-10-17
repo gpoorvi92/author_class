@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.supplement.example4;
+
+/**
+ * Created by Brian on 2016/4/17.
+ */
+
+/**
+ * P298
+ * 线程中出现异常，捕捉
+ */

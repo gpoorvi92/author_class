@@ -1,0 +1,10 @@
+            if (update.inlineQuery() != null) {
+                return update.inlineQuery();
+            }
+        }
+        return null;
+    }
+
+    @Test
+    public void answerCallback() {
+        bot.execute(new AnswerCallbackQuery("220392309269028729").text("answer callback"));

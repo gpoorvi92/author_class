@@ -1,0 +1,10 @@
+         buttonBox.add(b2, new GBC(2, r).setAnchor(GBC.WEST));
+         group.add(b2);
+         b2.addActionListener(new ActionListener()
+            {
+               public void actionPerformed(ActionEvent event)
+               {
+                  hints.put(k, v2);
+                  canvas.setRenderingHints(hints);
+               }
+            });

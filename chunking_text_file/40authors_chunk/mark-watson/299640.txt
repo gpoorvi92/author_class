@@ -1,0 +1,10 @@
+			columnNames.add("");
+			for (int col=1; col<=columnCount; col++) {
+				System.out.println("Column " + col +  " name: " + table_meta.getColumnLabel(col));
+				System.out.println("  column data type: " + table_meta.getColumnTypeName(col));
+				columnNames.add(table_meta.getColumnLabel(col));
+			}
+			System.out.println("\nFirst row in table:");
+			if (rs.next()) {
+				for (int col=1; col<=columnCount; col++) {
+					System.out.println("   " + columnNames.get(col) + ": " + rs.getString(col));

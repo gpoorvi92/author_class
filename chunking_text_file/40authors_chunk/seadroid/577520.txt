@@ -1,0 +1,10 @@
+    private static final String PHOTOCACHE_TABLE_NAME = "PhotoCache";
+
+    private static final String PHOTOCACHE_COLUMN_ID = "id";
+    private static final String PHOTOCACHE_COLUMN_REPO_NAME = "repo_name";
+    private static final String PHOTOCACHE_COLUMN_REPO_ID = "repo_id";
+    private static final String PHOTOCACHE_COLUMN_PATH = "path";
+    private static final String PHOTOCACHE_COLUMN_ACCOUNT = "account";
+
+    private static final String SQL_CREATE_PHOTOCACHE_TABLE =
+            "CREATE TABLE " + PHOTOCACHE_TABLE_NAME + " ("

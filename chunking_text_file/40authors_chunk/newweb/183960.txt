@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean save(SmallPriceCut cut) {
+		return smallPriceCutDao.insert(cut);
+	}
+
+	@Override
+	public boolean remove(SmallPriceCut cut) {
+		return smallPriceCutDao.delete(cut);
+	}

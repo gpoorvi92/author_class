@@ -1,0 +1,10 @@
+        throws Exception
+    {
+        if(running)
+            throw new IllegalStateException("Monitor is already running");
+        FileAlterationObserver observer;
+        for(Iterator i$ = observers.iterator(); i$.hasNext(); observer.initialize())
+            observer = (FileAlterationObserver)i$.next();
+
+        running = true;
+        thread = new Thread(this);

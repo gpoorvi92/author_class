@@ -1,0 +1,10 @@
+ * The ReverseIntIterator is the 64 bit implementation of the IntIterator
+ * interface, which efficiently returns the stream of integers represented by a
+ * ReverseEWAHIterator in reverse order.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class ReverseIntIterator implements IntIterator {
+
+    private final ReverseEWAHIterator ewahIter;
+    private final int sizeInBits;

@@ -1,0 +1,10 @@
+    public String getWorkDir();
+
+    //重命名文件
+    public boolean changName(String oldName, String newName);
+
+    //返回FTPCliend对象(已经打开连接)
+    public FTPClient client();
+
+    //释放所有的资源
+    public void destory();

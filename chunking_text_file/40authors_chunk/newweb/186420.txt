@@ -1,0 +1,9 @@
+
+	Order[] queryUnprocessedOrderByCreateDateACustomerLikeCondition(
+			String startDate, String endDate, String customer);
+
+	String getOrderSimpleContent(String ID);
+
+	void flush();
+	
+}

@@ -1,0 +1,10 @@
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public updateAppStatus_result getResult(I iface, updateAppStatus_args args) throws org.apache.thrift.TException {
+        updateAppStatus_result result = new updateAppStatus_result();
+        try {
+          result.success = iface.updateAppStatus(args.missionId, args.userAppId, args.status, args.usedPermissions, args.stcRD, args.dycRD, args.virRD);

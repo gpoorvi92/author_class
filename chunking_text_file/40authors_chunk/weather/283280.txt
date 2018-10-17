@@ -1,0 +1,10 @@
+    // not forgiving so we fall back to a generic type if it's missing.
+    Header contentType = entity.getContentType();
+    mediaType = MediaType.parse(contentType != null ? contentType.getValue() : DEFAULT_MEDIA_TYPE);
+  }
+
+  @Override public long contentLength() {
+    return entity.getContentLength();
+  }
+
+  @Override public MediaType contentType() {

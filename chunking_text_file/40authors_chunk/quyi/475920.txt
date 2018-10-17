@@ -1,0 +1,10 @@
+        this.plots = null;
+      }
+    }
+
+    public String getUseRule() {
+      return this.useRule;
+    }
+
+    public submitMission_args setUseRule(String useRule) {
+      this.useRule = useRule;

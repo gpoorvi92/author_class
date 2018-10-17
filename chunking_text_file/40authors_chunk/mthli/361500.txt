@@ -1,0 +1,10 @@
+                     current = i;
+                     return;
+                  }
+               }
+            }
+
+            public void mouseReleased(MouseEvent event)
+            {
+               current = -1;
+            }

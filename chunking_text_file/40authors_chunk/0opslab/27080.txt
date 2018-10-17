@@ -1,0 +1,10 @@
+     */
+    public static String guestFileEncoding(String path) throws IOException {
+        return guestFileEncoding(new File(path));
+    }
+
+    /**
+     * 获取文件的编码
+     *
+     * @param path         文件路径
+     * @param languageHint 语言提示区域代码 eg：1 : Japanese; 2 : Chinese; 3 : Simplified Chinese;

@@ -1,0 +1,10 @@
+      try (PrintWriter out = new PrintWriter("employee.dat", "UTF-8"))
+      {         
+         writeData(staff, out);
+      }
+      
+      // retrieve all records into a new array
+      try (Scanner in = new Scanner(
+            new FileInputStream("employee.dat"), "UTF-8"))
+      {
+         Employee[] newStaff = readData(in);

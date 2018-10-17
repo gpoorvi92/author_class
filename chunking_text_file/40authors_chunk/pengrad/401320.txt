@@ -1,0 +1,6 @@
+
+    public InlineQueryResultVenue thumbHeight(Integer thumbHeight) {
+        this.thumb_height = thumbHeight;
+        return this;
+    }
+}

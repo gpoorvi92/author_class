@@ -1,0 +1,10 @@
+			// 省略其它代码
+
+			// 模拟连接操作耗时
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				;
+			}
+
+			onConnected();

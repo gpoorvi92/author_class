@@ -1,0 +1,10 @@
+			String description, String customContentString) {
+		Log.d(SystemUtil.LOG_MSG, "title：" + title);
+		Log.d(SystemUtil.LOG_MSG, "description：" + description);
+		Log.d(SystemUtil.LOG_MSG, "customContentString：" + customContentString);
+	}
+
+	@Override
+	public void onSetTags(Context context, int errorCode,
+			List<String> sucessTags, List<String> failTags, String requestId) {
+

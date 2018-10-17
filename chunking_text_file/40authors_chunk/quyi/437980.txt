@@ -1,0 +1,10 @@
+      throw new IllegalArgumentException();
+    }
+
+    switch (field) {
+    case HARDWARE:
+      return isSetHardware();
+    case SOFTWARE:
+      return isSetSoftware();
+    }
+    throw new IllegalStateException();

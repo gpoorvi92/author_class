@@ -1,0 +1,6 @@
+        g.drawString("-5", 4, (int) yzero);
+        g.drawString("5", width - 19, (int) yzero);
+        g.drawString("1.0", width / 2 - 7, 12);
+        g.drawString("0.0", width / 2 - 9, height - 5);
+    }
+}

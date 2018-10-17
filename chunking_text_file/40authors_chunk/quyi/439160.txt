@@ -1,0 +1,10 @@
+  public boolean isSetCpuModel() {
+    return this.cpuModel != null;
+  }
+
+  public void setCpuModelIsSet(boolean value) {
+    if (!value) {
+      this.cpuModel = null;
+    }
+  }
+

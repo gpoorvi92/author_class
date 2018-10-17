@@ -1,0 +1,10 @@
+        byte[] data = packet.toByteArray();
+        try
+        {
+            outputStream.send(data);
+        } catch (Exception e)
+        {
+            throw new RpcIOException(e);
+        }
+    }
+    @Override

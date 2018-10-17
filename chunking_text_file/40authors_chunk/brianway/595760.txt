@@ -1,0 +1,10 @@
+public class Run6_waitOld {
+    public static void main(String[] args) throws InterruptedException {
+        String lock = new String("");
+        Add add = new Add(lock);
+        Subtract sub = new Subtract(lock);
+        ThreadSubtract subtract1 = new ThreadSubtract("sub1", sub);
+        subtract1.start();
+        ThreadSubtract subtract2 = new ThreadSubtract("sub2", sub);
+        subtract2.start();
+        Thread.sleep(1000);

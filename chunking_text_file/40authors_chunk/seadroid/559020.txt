@@ -1,0 +1,10 @@
+    @Override
+    public void onDestroy() {
+        Log.d(DEBUG_TAG, "onDestroy");
+
+        updateMgr.stop();
+
+        if (monitor != null) {
+            try {
+                monitor.stop();
+            } catch (Exception e) {

@@ -1,0 +1,10 @@
+      }
+      this.usedPermissions.add(elem);
+    }
+
+    public List<Map<String,com.nercis.isscp.idl.APICheck>> getUsedPermissions() {
+      return this.usedPermissions;
+    }
+
+    public updateAppStatus_args setUsedPermissions(List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions) {
+      this.usedPermissions = usedPermissions;

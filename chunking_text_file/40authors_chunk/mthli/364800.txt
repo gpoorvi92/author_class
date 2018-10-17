@@ -1,0 +1,10 @@
+      if (name != null) engine.put(name, c);
+      if (c instanceof Container)
+      {
+         for (Component child : ((Container) c).getComponents())
+            getComponentBindings(child, engine);
+      }
+   }
+
+   /**
+    * Adds a listener to an object whose listener method executes a script.

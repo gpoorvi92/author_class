@@ -1,0 +1,10 @@
+     */
+    public void updateVertexCollection()
+    {
+        if (!needVertexUpdating)
+            return;
+
+        if (triangles == null)
+            return;
+
+      Vector3DTree vt = new Vector3DTree(null);

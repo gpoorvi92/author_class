@@ -1,0 +1,10 @@
+    }
+
+    public void setBucketId(int bucketId) {
+        this.bucketId = bucketId;
+    }
+
+    private int bucketId;// BUCKET_ID
+
+    public int getId() {
+        return id;

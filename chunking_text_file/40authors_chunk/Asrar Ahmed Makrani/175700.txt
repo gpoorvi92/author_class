@@ -1,0 +1,10 @@
+public class book_loan extends JInternalFrame implements book_loan_Interface, book_loan_tab_Interface, book_loan_master_Interface {
+ 	
+ 	 private int paintx, painty;
+	 public JButton button = null;	
+	
+    public book_loan() {
+        super("Item Loan", 
+              true, //resizable
+              true, //closable
+              true, //maximizable

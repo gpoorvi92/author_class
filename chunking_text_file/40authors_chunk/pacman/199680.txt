@@ -1,0 +1,10 @@
+import com.yeshj.pacman.schedule.impl.DefaultWorkerPool;
+
+/**
+ * TODO
+ * @Class: WorkerTest
+ * @author: zhangxinyu
+ * @date: 2014年12月25日 下午3:44:06
+ */
+public class WorkerTest {
+

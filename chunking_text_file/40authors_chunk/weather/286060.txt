@@ -1,0 +1,10 @@
+     */
+    public static final String DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
+
+
+    /**
+     * 传入的日期与当前的时间相比较
+     * <p/>
+     * date:需要比较的日期时间
+     *
+     * @return

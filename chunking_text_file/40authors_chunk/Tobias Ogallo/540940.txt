@@ -1,0 +1,10 @@
+				int pageHeight = pjob.getPageDimension().height - margin;
+    			int fontHeight = fm.getHeight();
+    			int fontDescent = fm.getDescent();
+    			int curHeight = margin;
+
+				String nextLine;
+				pg.setFont (listPane.getFont());
+
+				try
+				{

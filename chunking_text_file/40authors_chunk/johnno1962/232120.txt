@@ -1,0 +1,9 @@
+            boolean __return = __isCellEditable( row, column );
+            entered_isCellEditable_0 = false;
+            return __return;
+        }
+        else
+            return super.isCellEditable( row, column );
+    }
+
+}

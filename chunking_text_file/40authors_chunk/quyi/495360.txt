@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义node引擎的数据结构
+ * 1:string engineId 引擎标示符
+ * 2:string engineName 引擎名称
+ * 3:string engineIp 引擎IP地址
+ * 4:string engineStatus 引擎状态

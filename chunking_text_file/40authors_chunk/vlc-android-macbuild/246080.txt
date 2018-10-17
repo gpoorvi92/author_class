@@ -1,0 +1,10 @@
+        public void surfaceCreated(SurfaceHolder holder) {
+        }
+
+        public void surfaceDestroyed(SurfaceHolder holder) {
+            mLibVLC.detachSurface();
+        }
+    };
+
+    @Override
+    public void setAudioStreamType(int streamMusic) {

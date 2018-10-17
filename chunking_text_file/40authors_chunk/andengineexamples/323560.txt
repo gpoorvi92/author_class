@@ -1,0 +1,10 @@
+	public int getCellX() {
+		return this.mCellX;
+	}
+
+	public int getCellY() {
+		return this.mCellY;
+	}
+
+	public void setCell(final ICellEntity pCellEntity) {
+		this.setCell(pCellEntity.getCellX(), pCellEntity.getCellY());

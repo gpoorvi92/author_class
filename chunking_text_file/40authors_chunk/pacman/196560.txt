@@ -1,0 +1,10 @@
+ * 
+ * @Class: SystemMonitorStep
+ * @author: zhangxinyu
+ * @date: 2014年12月24日 上午10:17:10
+ */
+public class SystemMonitorStep extends StepBase {
+
+	private final static ILog logger = LogFactory.getLog(SystemMonitorStep.class);
+	private final static String PREFIX = "[SystemMonitorStep]";
+	

@@ -1,0 +1,10 @@
+        if (ENABLE_VERBOSE)
+            DebugLog.vfmt("ImageLruCache", "get %d missing", key);
+
+        return null;
+    }
+
+    public void put(int key, Drawable thumb) {
+        if (thumb == null)
+            return;
+

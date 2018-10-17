@@ -1,0 +1,10 @@
+			idx += offset;
+		}
+		return -1;
+	}
+	
+	public final static int findFirstOf(String str, String chars)
+	{
+		return findOf(str, chars, 0, (str.length()-1), 1, true);
+	}
+	

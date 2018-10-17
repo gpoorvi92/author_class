@@ -1,0 +1,10 @@
+		return orderBxgs;
+	}
+	public void setOrderBxgs(Set<OrderBxg> orderBxgs) {
+		this.orderBxgs = orderBxgs;
+	}
+	
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<OrderSmall> getOrderSmalls() {
+		return orderSmalls;
+	}

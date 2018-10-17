@@ -1,0 +1,5 @@
+        root.left = buildTreeRe(inorder,s1,j-1,postorder,s2,s2+left_len-1);
+        root.right = buildTreeRe(inorder,j+1,e1,postorder,s2+left_len,e2-1);
+        return root;
+    }
+}

@@ -1,0 +1,4 @@
+        __columnSelectionChanged( e );
+    }
+
+}

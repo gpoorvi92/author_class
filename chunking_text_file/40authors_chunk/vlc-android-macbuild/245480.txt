@@ -1,0 +1,8 @@
+            int volume, int flag) {
+        AudioManager audioManager = getAudioManager(context);
+        if (audioManager == null)
+            return;
+
+        audioManager.setStreamVolume(streamType, volume, flag);
+    }
+}

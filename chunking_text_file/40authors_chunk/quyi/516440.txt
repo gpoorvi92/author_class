@@ -1,0 +1,10 @@
+      if (that == null)
+        return false;
+      if (that instanceof reportNodeManagerConfig_args)
+        return this.equals((reportNodeManagerConfig_args)that);
+      return false;
+    }
+
+    public boolean equals(reportNodeManagerConfig_args that) {
+      if (that == null)
+        return false;

@@ -1,0 +1,10 @@
+
+	@Override
+	public void onClientInactivity(UUID clientId, int inactivityDuration) {
+
+	}
+
+
+	@Override
+	public void onFileUploadEnd(UUID clientId, UUID fileId) {
+

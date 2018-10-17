@@ -1,0 +1,10 @@
+        g.drawImage(originalImage,0,0,width,height,null);
+        g.dispose();
+        return newImage;
+    }
+    /**
+     * 按照给点的比例缩小图像
+     * 当缩减比例小于等于0时不发生任何变化
+     * @param originalImage 图像数据
+     * @param withdRatio 宽度缩减比例
+     * @param heightRatio 高度缩减比例

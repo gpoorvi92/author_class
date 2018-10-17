@@ -1,0 +1,10 @@
+        return sb.toString();
+
+    }
+
+    /**
+     * 生产一张png格式的验证图片在指定的位置
+     * @param strlen 验证码长度
+     * @param file 文件位置
+     * @return 是否成功
+     */

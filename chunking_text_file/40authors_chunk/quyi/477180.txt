@@ -1,0 +1,10 @@
+    }
+
+    public submitMission_result deepCopy() {
+      return new submitMission_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;

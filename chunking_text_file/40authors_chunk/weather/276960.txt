@@ -1,0 +1,10 @@
+
+        if (drawBitmap != null && !drawBitmap.isRecycled()) {
+            drawBitmap.recycle();
+        }
+
+
+    }
+
+
+}

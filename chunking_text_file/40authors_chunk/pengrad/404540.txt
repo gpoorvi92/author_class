@@ -1,0 +1,10 @@
+
+        if (id != null ? !id.equals(that.id) : that.id != null) return false;
+        if (from != null ? !from.equals(that.from) : that.from != null) return false;
+        if (message != null ? !message.equals(that.message) : that.message != null) return false;
+        if (inline_message_id != null ? !inline_message_id.equals(that.inline_message_id) : that.inline_message_id != null)
+            return false;
+        return data != null ? data.equals(that.data) : that.data == null;
+
+    }
+

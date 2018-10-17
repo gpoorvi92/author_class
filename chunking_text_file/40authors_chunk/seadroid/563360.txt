@@ -1,0 +1,10 @@
+     * @param path The file path. May be null
+     * @returns a documentId
+     */
+    public static String buildId(Account a, String repoId, String path) {
+        if (repoId != null && path != null)
+            return a.getServer() + DOC_SEPERATOR + repoId + DOC_SEPERATOR + path;
+        else if (repoId != null)
+            return a.getServer() + DOC_SEPERATOR + repoId;
+        else
+            return a.getServer();

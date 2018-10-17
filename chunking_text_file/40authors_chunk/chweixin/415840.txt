@@ -1,0 +1,10 @@
+import com.alibaba.fastjson.JSONObject;
+/**
+ * HTTP访问工具类。
+ * @author yangyong.
+ * @since 2014-02-25.
+ * */
+public final class HttpUtil {
+	private static Logger logger = Logger.getLogger(HttpUtil.class);
+	/**
+	 * 发起https请求并获取结果。

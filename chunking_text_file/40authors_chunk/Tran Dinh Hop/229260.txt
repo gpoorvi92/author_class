@@ -1,0 +1,8 @@
+	
+	//public HuffmanNode Last()throws Exception
+	//{
+	//	if(isEmpty())
+	//	  throw new Exception("Stack is empty");
+	//	return tail.getPrev().getElement();
+	//}
+}

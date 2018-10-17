@@ -1,0 +1,10 @@
+    private void doSearchOn2DGrid() {
+        int width = maze.getWidth();
+        int height = maze.getHeight();
+        boolean alReadyVisitedFlag[][] = new boolean[width][height];
+        //float distanceToNode[][] = new float[width][height];
+        Location predecessor[][] = new Location[width][height];
+        LocationQueue queue = new LocationQueue();
+
+        for (int i=0; i<width; i++) {
+            for (int j=0; j<height; j++) {

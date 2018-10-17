@@ -1,0 +1,10 @@
+
+	public void setPower(int power) {
+		this.power = power;
+	}
+	
+	public int getDefend() {
+		return defend;
+	}
+	public void setDefend(int defend) {
+		this.defend = defend;

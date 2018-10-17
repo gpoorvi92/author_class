@@ -1,0 +1,10 @@
+    if (other.isSetNetworkPacket()) {
+      List<NetworkPacket> __this__networkPacket = new ArrayList<NetworkPacket>(other.networkPacket.size());
+      for (NetworkPacket other_element : other.networkPacket) {
+        __this__networkPacket.add(new NetworkPacket(other_element));
+      }
+      this.networkPacket = __this__networkPacket;
+    }
+    if (other.isSetSystemResources()) {
+      List<SystemResources> __this__systemResources = new ArrayList<SystemResources>(other.systemResources.size());
+      for (SystemResources other_element : other.systemResources) {

@@ -1,0 +1,10 @@
+                //response.sendRedirect(sb.toString());
+                request.getRequestDispatcher(sb.toString()).forward(request, response);
+            }
+            else if (acl.type() == RequestType.JSON)
+            {
+                JsonResponse resultCode = new JsonResponse();
+                resultCode.setResult(JsonResponse.Result.FALSE);
+                resultCode.setMsg(errorMsg);
+                response.setCharacterEncoding("UTF-8");
+                response.setContentType("text/html;charset=UTF-8");

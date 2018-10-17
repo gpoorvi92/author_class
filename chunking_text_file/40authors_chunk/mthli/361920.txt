@@ -1,0 +1,10 @@
+    */
+   public static void changePrices() throws SQLException
+   {
+      String publisher = select("Publishers:", publishers.subList(1, publishers.size()));
+      System.out.print("Change prices by: ");
+      double priceChange = in.nextDouble();
+      PreparedStatement stat = conn.prepareStatement(priceUpdate);
+      stat.setDouble(1, priceChange);
+      stat.setString(2, publisher);
+      int r = stat.executeUpdate();

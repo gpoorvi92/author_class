@@ -1,0 +1,10 @@
+		return menus;
+	}
+	
+	
+
+	
+    public void addShape(ShapeLayerModel model) {
+    	ShapeLayer temp = null;
+    
+	    if(model.getType() == 'r') temp = new RectangleLayer(model, this);

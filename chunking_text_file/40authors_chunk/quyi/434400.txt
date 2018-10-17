@@ -1,0 +1,10 @@
+      if (struct.isSetCpu()) {
+        optionals.set(3);
+      }
+      if (struct.isSetRss()) {
+        optionals.set(4);
+      }
+      if (struct.isSetVss()) {
+        optionals.set(5);
+      }
+      oprot.writeBitSet(optionals, 6);

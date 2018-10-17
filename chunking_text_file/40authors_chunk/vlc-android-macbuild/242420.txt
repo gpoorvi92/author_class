@@ -1,0 +1,10 @@
+        item.mTypeTag = MediaResourceItem.TYPE_TAG__ANY;
+        item.mMrl = indexMrl;
+        item.mIsIndexMrl = true;
+        item.mNeedMembuf = true;
+
+        mResourceList.add(item);
+    }
+
+    final public void addIndex_flv_membuf(String from, String indexMrl) {
+        MediaResourceItem item = new MediaResourceItem();

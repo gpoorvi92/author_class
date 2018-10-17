@@ -1,0 +1,10 @@
+
+    @Override
+    public void regist(User user) {
+        BufferedWriter bw = null;
+        try {
+            bw = new BufferedWriter(new FileWriter(file, true));
+            bw.write(user.getUsername() + "=" + user.getPassword());
+            bw.newLine();
+            bw.flush();
+        } catch (IOException e) {

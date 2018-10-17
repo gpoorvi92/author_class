@@ -1,0 +1,10 @@
+    public native void __windowClosed( java.awt.event.WindowEvent e );
+
+    boolean entered_windowClosed_2;
+
+    public void windowClosed( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowClosed_2 ) {
+            entered_windowClosed_2 = true;
+            __windowClosed( e );
+            entered_windowClosed_2 = false;
+        }

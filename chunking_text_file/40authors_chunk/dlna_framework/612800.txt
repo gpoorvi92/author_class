@@ -1,0 +1,10 @@
+	public long getTimeout() 
+	{
+		return timeout;
+	}
+
+	public void setTimeout(long value) 
+	{
+		timeout = value;
+	}
+

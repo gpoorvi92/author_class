@@ -1,0 +1,10 @@
+            	String j = authorsArea.getText();
+            	String k = subjectArea.getText();
+            	String l = location_text.getText();
+            	//Object m = campus_combo.getSelectedItem();
+            	journalSQL jorsql = new journalSQL(a, b, c, d, h, g, i, j, k, l);
+            	jorsql.delete();	
+            }
+        });
+        toolBar.add(delete);
+    }

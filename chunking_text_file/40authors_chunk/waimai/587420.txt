@@ -1,0 +1,10 @@
+    public String getInput() {
+        return input;
+    }
+
+    public void setInput(String input) {
+        this.input = input;
+    }
+
+    public void setOutputWidth(int outputWidth) {
+        this.outputWidth = outputWidth;

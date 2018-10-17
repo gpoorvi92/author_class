@@ -1,0 +1,10 @@
+				jbt.setFont (new Font("Arial", Font.BOLD, 15));
+				jbt.setLabel(status+"%");			
+
+				//jsp.setViewportView(new JButton(status+"%"));			
+			}			
+	}
+
+	// calculates the int value of the next 16-bit word
+	private static int getCode(FileInputStream in) throws IOException 
+	{ 

@@ -1,0 +1,10 @@
+		return timeOut;
+	}
+
+	public void setTimeOut(long value) {
+		timeOut = value;
+	}
+
+	public boolean isExpired()
+	{
+		long currTime = System.currentTimeMillis();

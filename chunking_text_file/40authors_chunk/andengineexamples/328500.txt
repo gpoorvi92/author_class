@@ -1,0 +1,10 @@
+		final LoopEntityModifier entityModifier =
+			new LoopEntityModifier(
+					new IEntityModifierListener() {
+						@Override
+						public void onModifierStarted(final IModifier<IEntity> pModifier, final IEntity pItem) {
+							EntityModifierExample.this.runOnUiThread(new Runnable() {
+								@Override
+								public void run() {
+									Toast.makeText(EntityModifierExample.this, "Sequence started.", Toast.LENGTH_SHORT).show();
+								}

@@ -1,0 +1,10 @@
+  }
+
+  public String engineId; // required
+  public String engineName; // required
+  public String engineIp; // required
+  public String engineStatus; // required
+  public String engineType; // required
+  public NodeInfo nodeInfo; // required
+  public List<String> engineRules; // required
+  public List<String> enginePlots; // required

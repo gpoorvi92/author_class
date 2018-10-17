@@ -1,0 +1,10 @@
+        {
+            list.add(new SimUnit("V2Radiator"));
+        }
+    }
+}
+class V3Radiator extends V2Radiator{
+    V3Radiator(ArrayList list) {
+        super(list);
+        for(int g=0; g<10; g++)
+        {

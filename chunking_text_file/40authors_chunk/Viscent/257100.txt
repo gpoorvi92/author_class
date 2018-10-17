@@ -1,0 +1,10 @@
+			try {
+				result = blocker.callWithGuard(ga);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			return result;
+		}
+
+		public synchronized void xStateChanged() {
+			try {

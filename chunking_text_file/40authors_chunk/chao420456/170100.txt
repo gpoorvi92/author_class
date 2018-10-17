@@ -1,0 +1,10 @@
+//人类
+class Person {
+	private String name;
+	private int age;
+
+	public Person() {}
+
+	public Person(String name,int age) { //"王宝强",18
+		this.name = name;
+		this.age = age;

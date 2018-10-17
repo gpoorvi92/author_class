@@ -1,0 +1,10 @@
+
+/// interface java.awt.event.ComponentListener ///
+
+package org.genie.java_awt;
+
+public class ComponentListenerProxy implements java.awt.event.ComponentListener {
+
+    long swiftObject;
+
+    ComponentListenerProxy( long swiftObject ) {

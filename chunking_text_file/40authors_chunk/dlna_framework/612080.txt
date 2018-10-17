@@ -1,0 +1,7 @@
+
+	public boolean post(String addr, int port, SSDPSearchRequest req)
+	{
+		return post(addr, port, req.toString());
+	}
+}
+

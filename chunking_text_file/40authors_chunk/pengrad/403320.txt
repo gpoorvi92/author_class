@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 8/5/15.
+ */
+public class Video {
+
+    private String file_id;
+    private Integer width;

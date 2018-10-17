@@ -1,0 +1,10 @@
+
+  public APICheck setRiskType(String riskType) {
+    this.riskType = riskType;
+    return this;
+  }
+
+  public void unsetRiskType() {
+    this.riskType = null;
+  }
+

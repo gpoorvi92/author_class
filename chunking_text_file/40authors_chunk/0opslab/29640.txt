@@ -1,0 +1,10 @@
+ * <p>
+ * <p>
+ * This implementation is based on: <br>
+ * <a target="_blank" title="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-guessing-no-ext-info"
+ * href="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-guessing-no-ext-info">W3C XML Specification 1.0 3rd Edition,
+ * F.1 Detection Without External Encoding Information </a>.
+ * </p>
+ * 
+ * This implementation does the same as <code>{@link ByteOrderMarkDetector}</code> but with a different
+ * read strategy (read 4 bytes at once) and elseif blocks. Would

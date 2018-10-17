@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.dao.SaleRecordMapper;
+import cn.abovesky.shopping.domain.Goods;
+import cn.abovesky.shopping.service.ISaleRecordService;
+import cn.abovesky.shopping.util.DateUtil;
+import org.apache.ibatis.session.RowBounds;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;

@@ -1,0 +1,10 @@
+           5. compare [12,16] with [3,10], insert newInterval [3,10], then all the remaining intervals...
+           Solution 1 : Time O(N).
+           Solution 2 : Time O(Log(N)).
+*/
+
+/**
+ * Definition for an interval.
+ * public class Interval {
+ *     int start;
+ *     int end;

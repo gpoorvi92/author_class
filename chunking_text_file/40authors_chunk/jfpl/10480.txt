@@ -1,0 +1,10 @@
+		acd.putArrayValue("chat_list", list);
+		fillData(acd, getWindow().getDecorView(), "");
+	}
+
+	private void initParams(Intent intent) {
+		// 初始化参数
+		this.title = intent.getStringExtra("title");
+		this.id = intent.getStringExtra("busi_type");
+		this.serial = intent.getStringExtra("busi_serial");
+		GlobalVariables.chatAppId = this.id;

@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置菜单ID。
+	 * @param id
+	 * 	菜单ID。
+	 * */
+	public void setId(String id) {
+		this.id = id;
+	}
+	/**

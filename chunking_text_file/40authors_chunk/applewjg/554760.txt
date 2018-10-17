@@ -1,0 +1,6 @@
+        if(level == res.size()) res.add(new ArrayList<Integer>());
+        res.get(level).add(root.val);
+        levelOrderRe(root.left, level+1, res);
+        levelOrderRe(root.right,level+1, res);
+    }
+}

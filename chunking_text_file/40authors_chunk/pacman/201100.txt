@@ -1,0 +1,10 @@
+			case EVENT_SERVER_SHUTDOWN:
+				listener.onAppSvrShutdown(source);
+				break;
+			case EVENT_SERVER_HEARTBEAT:
+				listener.onAppSvrHeartBeat(source);
+				break;
+			}
+		}
+	}
+}

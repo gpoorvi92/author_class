@@ -1,0 +1,10 @@
+	//	Contents
+	////////////////////////////////////////////////
+
+	private Node createContentNode(Service service, Action action, ArgumentList argList)
+	{
+		String actionName = action.getName();
+		String serviceType = service.getServiceType();
+		
+		Node actionNode = new Node();
+		actionNode.setName(Control.NS, actionName);

@@ -1,0 +1,10 @@
+	//
+	// for (int x = 0; x < arr.length; x++) {
+	// if (arr[x] == value) {
+	// index = x;
+	// break;
+	// }
+	// }
+	//
+	// return index;
+	// }

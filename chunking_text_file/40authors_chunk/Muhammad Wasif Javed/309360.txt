@@ -1,0 +1,10 @@
+
+			while (rs.next ()) {
+				records[rec][0] = "" + rs.getLong ("MemberId");
+				records[rec][1] = rs.getString ("MemberName");
+				records[rec][2] = rs.getString ("MemberAddress");
+				records[rec][3] = rs.getString ("EntryDate");
+				rec++;
+			}
+
+			total = rec;

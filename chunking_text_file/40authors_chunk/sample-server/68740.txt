@@ -1,0 +1,10 @@
+        this.authServerHost = authServerHost;
+    }
+    public String getGatewayServerHostList()
+    {
+        return gatewayServerHostList;
+    }
+    public void setGatewayServerHostList(String gatewayServerHostList)
+    {
+        this.gatewayServerHostList = gatewayServerHostList;
+    }

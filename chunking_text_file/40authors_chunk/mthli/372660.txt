@@ -1,0 +1,10 @@
+   private Class<?> type;
+   private String name;
+   private Object value;
+   private ArrayList<Field> fields;
+
+   /**
+    * Construct a variable.
+    * @param aType the type
+    * @param aName the name
+    * @param aValue the value

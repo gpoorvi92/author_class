@@ -1,0 +1,10 @@
+    }
+
+    private void jbInit() throws Exception {
+        this.getContentPane().setLayout(null);
+        inputPanel.setBounds(new Rectangle(5, 30, 400, 20));
+        hiddenPanel.setBounds(new Rectangle(5, 138, 400, 20));
+        outputPanel.setBounds(new Rectangle(5, 240, 400, 20));
+        w1Panel.setBounds(new Rectangle(150, 50, 61, 61));
+        w2Panel.setBounds(new Rectangle(150, 158, 61, 61));
+        jButton1.setText("Reset and Run");

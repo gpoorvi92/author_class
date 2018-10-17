@@ -1,0 +1,10 @@
+									File f = new File(mediaPath);
+									f.delete();
+								}
+							}
+							break;
+						case 1:
+							pb.setVisibility(View.VISIBLE);
+							iv.setVisibility(View.GONE);
+							if ("2".equals(msgType)) {
+								String path = acd.getStringValue("image_path");

@@ -1,0 +1,10 @@
+      else
+      {
+         try (DataInputStream in = new DataInputStream(new FileInputStream(args[1]));
+            ObjectInputStream keyIn = new ObjectInputStream(new FileInputStream(args[3]));
+            OutputStream out = new FileOutputStream(args[2]))
+         {
+            int length = in.readInt();
+            byte[] wrappedKey = new byte[length];
+            in.read(wrappedKey, 0, length);
+

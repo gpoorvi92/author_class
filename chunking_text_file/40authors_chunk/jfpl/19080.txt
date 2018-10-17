@@ -1,0 +1,10 @@
+				Bitmap bm = ImageLoader.getInstance().loadImageSync(
+						"file://" + acd.getStringValue("image_path"));
+				holder.chatImage.setImageBitmap(bm);
+				holder.chatImage.setLayoutParams(new LinearLayout.LayoutParams(
+						bm.getWidth() + 40, bm.getHeight() + 25));
+			} else if (type == 3 && holder.chatVoice != null) { // 语音
+				holder.chatVoice.setPlaySource(acd.getStringValue("audio_url"));
+				holder.chatVoice.setBindEventView(convertView);
+			} else if (type == 4 && holder.chatLoaction != null) {
+				holder.chatLoaction

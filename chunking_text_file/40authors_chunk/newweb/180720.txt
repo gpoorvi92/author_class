@@ -1,0 +1,10 @@
+			return "nameRepeat";
+		}
+		return null;
+	}
+	
+	/**
+	 * 判断用户关联的名字存在情况
+	 * @param locale
+	 * @param model
+	 * @param modelMap

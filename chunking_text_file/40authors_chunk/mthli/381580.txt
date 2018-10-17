@@ -1,0 +1,10 @@
+    * @param e a cell element
+    * @param r the row of the cell
+    * @param c the column of the cell
+    */
+   private void parseCell(Element e, int r, int c)
+   {
+      // get attributes
+
+      String value = e.getAttribute("gridx");
+      if (value.length() == 0) // use default

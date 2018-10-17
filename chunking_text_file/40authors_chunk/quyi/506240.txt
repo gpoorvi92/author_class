@@ -1,0 +1,10 @@
+import com.nercis.isscp.util.SearchRecordInfoConsumer;
+import com.nercis.isscp.util.SearchRecordInfoQueue;
+
+public class SearchMissionThread implements Runnable {
+
+	
+	private String engine_address;
+	private int engine_port;
+	private String missionId;
+	private String number;

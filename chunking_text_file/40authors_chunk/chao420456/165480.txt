@@ -1,0 +1,10 @@
+							serverThread.serverFrame.setDisMess(Message);
+						}else{
+							if(Message.contains("@single")){
+								
+							}
+						}
+					}
+				}
+				synchronized (serverThread.messages) {
+					if(Message != null){

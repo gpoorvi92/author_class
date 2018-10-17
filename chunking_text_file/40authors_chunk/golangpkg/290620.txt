@@ -1,0 +1,10 @@
+
+	public static String getFormattedTime(long secs)
+	{
+		if (secs < 1) {
+			return "-";
+		}
+
+		double hours = Math.floor(secs / (60 * 60));
+
+		double divisor_for_minutes = secs % (60 * 60);

@@ -1,0 +1,10 @@
+package tableModel;
+
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.table.*;
+
+/**
+ * This program shows how to build a table from a table model.
+ * @version 1.02 2007-08-01

@@ -1,0 +1,10 @@
+
+			// Create Reference to new hashNode
+			current.setNext(newNode); 
+		} 
+		
+		nextCode++;
+	}	 
+
+	/* Decomopression Dictionary Insert */
+	public void dInsert(int code, byte[] entry) 

@@ -1,0 +1,10 @@
+				}
+			} else if ("2".equals(msgType)) {
+				ImageView chatImage = (ImageView) v
+						.findViewById(R.id.chat_image);
+				String imagePath = acd.getStringValue("image_path");
+				if ("0".equals(acd.getStringValue("load_data_type"))
+						&& acd.getStringValue("send_state") == null) {
+					update("add_chat_message", msgId, "1", "2",
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, imagePath, new Date(),

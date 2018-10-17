@@ -1,0 +1,10 @@
+      }
+
+      fileChooserButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent e)
+            {
+               if (chooser.showOpenDialog(DesktopAppFrame.this) == JFileChooser.APPROVE_OPTION)
+                  fileField.setText(chooser.getSelectedFile().getAbsolutePath());
+            }
+         });

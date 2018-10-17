@@ -1,0 +1,10 @@
+    @Override
+    public String getRequestFilterTag() {
+        return this.toString();
+    }
+
+    @Override
+    public String getCacheKey() {
+        return null;
+    }
+

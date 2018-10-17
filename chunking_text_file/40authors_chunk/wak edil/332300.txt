@@ -1,0 +1,10 @@
+        Report  myR=new Report();
+		myR.setTitle("Receipt Detail");
+		myR.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		myR.setSize(600,600);
+		myR.setVisible(true);
+		myR.setResizable(true);
+		myR.setLocationRelativeTo(null);
+	}
+    
+}

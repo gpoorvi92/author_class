@@ -1,0 +1,10 @@
+		this.coreService = coreService;
+	}
+	/**
+	 * 确认请求来自微信服务器。
+	 * @param req
+	 * @param resp
+	 * */
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException{

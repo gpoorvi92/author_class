@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void fromJson(String json) throws JsonMappingException,
+			JsonGenerationException, IOException {
+		TokenRequest tr=(TokenRequest)JsonPojoMapper.fromJson(json, TokenRequest.class);
+		this.setOpt(tr.getOpt());
+		this.setBody(tr.getBody());
+	}
+	

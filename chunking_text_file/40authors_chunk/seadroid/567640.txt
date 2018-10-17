@@ -1,0 +1,10 @@
+    @Override
+    public String getSubtitle() {
+        String timestamp = Utils.translateCommitTime(file.lastModified());
+        if (isDirectory())
+            return timestamp;
+        return Utils.readableFileSize(file.length()) + ", " + timestamp;
+    }
+
+    @Override
+    public int getIcon() {

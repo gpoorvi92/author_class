@@ -1,0 +1,10 @@
+	 * 创建默认回复。
+	 * @param accountId
+	 * @return 默认回复对象。
+	 */
+	protected synchronized BaseRespMessage createDefaultReply(String accountId){
+		logger.info("开始创建默认回复消息...");
+		if(accountId == null || accountId.trim().isEmpty()){
+			logger.error("公众号ID为空，无法查询公众号下的默认回复！");
+			return null;
+		}

@@ -1,0 +1,10 @@
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    protected int [] connected_nodes(int [] path, int num_path) {
+        // find all nodes connected to the last node on 'path'
+        // that are not already on 'path'

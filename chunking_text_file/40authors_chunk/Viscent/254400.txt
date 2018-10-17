@@ -1,0 +1,10 @@
+
+		@Override
+		protected void doRun() throws Exception {
+			String product = queue.take();
+
+			System.out.println("Processing product:" + product);
+
+			// 模拟执行真正操作的时间消耗
+			try {
+				Thread.sleep(new Random().nextInt(100));

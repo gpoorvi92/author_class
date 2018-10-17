@@ -1,0 +1,10 @@
+                if(board[i][j]=='.'){
+                    for(char ch = '1';ch<='9';ch++){
+                        board[i][j]=ch;
+                        if(isValidSudoKu(board,i,j)&&solve(board)) return true;
+                        board[i][j]='.';
+                    }
+                    return false;
+                }
+            }
+        }

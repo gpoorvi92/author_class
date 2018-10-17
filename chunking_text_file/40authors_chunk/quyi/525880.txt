@@ -1,0 +1,10 @@
+
+	public static void main(String[] args) throws InvalidRequestException, UnavailableException, TException {
+		// 设置调用的服务地址为本地，端口为7911
+		TTransport transport = new TSocket(address, 7778);
+		try {
+			transport.open();
+		} catch (TTransportException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}

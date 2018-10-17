@@ -1,0 +1,10 @@
+	}
+
+	public void sleep() {
+		System.out.println("Ë¯¾õ");
+	}
+}
+//Ñ§ÉúÀà
+class Student extends Person  {
+	public Student() {}
+

@@ -1,0 +1,10 @@
+					mintResult=1;
+
+				} catch (Exception e) {
+
+					e.printStackTrace();
+					System.err.println("Load data error: "+e.toString());
+					mintResult = -1;
+
+				}
+

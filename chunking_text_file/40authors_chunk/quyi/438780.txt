@@ -1,0 +1,10 @@
+    CPU_MHZ((short)4, "cpuMhz"),
+    MEM_SIZE((short)5, "memSize"),
+    FS_SIZE((short)6, "fsSize");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {
+      for (_Fields field : EnumSet.allOf(_Fields.class)) {
+        byName.put(field.getFieldName(), field);
+      }

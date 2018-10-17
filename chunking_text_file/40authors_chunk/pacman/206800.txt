@@ -1,0 +1,10 @@
+
+	@Test
+	public void testMp3() {
+		MediaInfo mi = new MediaInfo();
+		mi.analyzeMedia("e:\\mp3\\mww.mp3");
+		
+		assertEquals("mpeg audio", mi.getMediaTypeKey());
+		System.out.println("bitrate:" + mi.getAudioBitrate());
+		System.out.println("duration:" + mi.getAudioDuration());
+		System.out.println("codec:" + mi.getAudioFormat());

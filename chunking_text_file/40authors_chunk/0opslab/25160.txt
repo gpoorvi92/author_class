@@ -1,0 +1,10 @@
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.channels.FileChannel.MapMode;
+
+/**
+ * File相关的一些常用操作
+ */
+public class FileDemo {
+
+    public byte[] getContent(String filePath) throws IOException {

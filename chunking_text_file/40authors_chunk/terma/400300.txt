@@ -1,0 +1,10 @@
+            if (key.channel() == serverChannel) {
+                if (key.isValid() && key.isReadable()) readFromServer();
+                if (key.isValid() && key.isWritable()) writeToServer();
+            }
+        } catch (final ClosedChannelException exception) {
+            destroy();
+
+            if (LOGGER.isLoggable(Level.INFO))
+                LOGGER.log(Level.INFO, "Channel was closed by client or server.", exception);
+        } catch (final IOException exception) {

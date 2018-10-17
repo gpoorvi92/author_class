@@ -1,0 +1,10 @@
+	 * @param className
+	 */
+	public LogPrn(final String className) {
+		prnLog = LogFactory.getLog(className);
+	}
+
+	/**
+	 * 构造函数，带调用类参数构造
+	 * 
+	 * @param c

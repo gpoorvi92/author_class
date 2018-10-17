@@ -1,0 +1,10 @@
+        oprot.writeStructEnd();
+      }
+
+    }
+
+    private static class heart_argsTupleSchemeFactory implements SchemeFactory {
+      public heart_argsTupleScheme getScheme() {
+        return new heart_argsTupleScheme();
+      }
+    }

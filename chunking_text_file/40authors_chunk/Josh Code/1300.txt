@@ -1,0 +1,10 @@
+      return m;
+  }
+
+    private static void loadFromSTL(BufferedReader br, Model m, loadProgressListener progressListener)
+     throws IOException
+  {
+      while (true)
+      {
+          String ln = br.readLine();
+          if (ln == null)

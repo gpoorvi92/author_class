@@ -1,0 +1,10 @@
+				@Override
+				protected InputStream getInputStream() throws IOException {
+					return ETC1TextureExample.this.getResources().openRawResource(R.raw.house_etc1);
+				}
+			};
+			this.mTexture.load();
+
+			this.mHouseTextureRegion = TextureRegionFactory.extractFromTexture(this.mTexture, 0, 0, 512, 512);
+
+		} catch (final Throwable e) {

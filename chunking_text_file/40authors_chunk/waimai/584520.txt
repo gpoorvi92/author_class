@@ -1,0 +1,10 @@
+            map.put(Constants.ERROR_MESSAGE, "手机号已存在");
+        }
+        return map;
+    }
+
+    @RequestMapping("/login")
+    public @ResponseBody Map<String, Object> login(User user) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        User loginUser = userService.findByUsername(user.getUsername());
+        LoginLog loginLog = new LoginLog();

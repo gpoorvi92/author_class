@@ -1,0 +1,10 @@
+	// Public methods
+	//
+
+	/** @return a String description of this PropType (can be HTML text) */
+	public String getDescription() { return description; }
+
+	//-------------------------------------------------------------------------
+	// Package setter methods
+	//
+

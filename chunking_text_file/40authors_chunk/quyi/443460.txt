@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(UnavailableException.class, metaDataMap);
+  }
+
+  public UnavailableException() {
+  }
+
+  public UnavailableException(
+    String why)

@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        try
+        {
+            out.flush();
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }

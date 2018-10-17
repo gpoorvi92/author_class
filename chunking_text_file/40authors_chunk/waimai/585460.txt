@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void resetPwd(String[] ids) {
+        for (Integer id : IdStatusSplitUtils.split2Id(ids)) {
+            Merchant merchant = new Merchant();
+            merchant.setId(id);
+            merchant.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
+            merchantMapper.updateByPrimaryKeySelective(merchant);

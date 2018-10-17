@@ -1,0 +1,10 @@
+		HQMusicUrl = hQMusicUrl;
+	}
+	/**
+	 * 获取缩略图的媒体id，通过上传多媒体文件，得到的id。
+	 * @return 缩略图的媒体id。
+	 * */
+	public String getThumbMediaId() {
+		return thumbMediaId;
+	}
+	/**

@@ -1,0 +1,10 @@
+
+    public Float longitude() {
+        return longitude;
+    }
+
+    public Float latitude() {
+        return latitude;
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+     *
+     * @param url 需要处理的资源
+     * @return 返回文件编码
+     */
+    public static String cpdetector(URL url) {
+        java.nio.charset.Charset charset = null;
+        try {
+            charset = cpDetector.codepageDetector.detectCodepage(url);
+        } catch (Exception ex) {
+            ex.printStackTrace();

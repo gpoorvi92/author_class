@@ -1,0 +1,10 @@
+
+/**
+ * An implementation of {@link BaseAdapter} which uses the new/bind pattern for its views.
+ * 基础的adapter，定义了绝大部分方法，需要自定义的重写相关方法即可。
+ * 泛型部分是item对应的类型，继承时注意添加相应泛型数据
+ */
+public abstract class BindableAdapter<T> extends BaseAdapter {
+    protected final Context context;
+    protected final LayoutInflater inflater;
+

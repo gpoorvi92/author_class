@@ -1,0 +1,10 @@
+            }
+         });
+      panel.add(badButton);
+
+      panel.add(combo);
+      add(panel);
+      pack();
+   }
+}
+

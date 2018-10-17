@@ -1,0 +1,2 @@
+    public void    printRecTaxID(String taxID) throws JposException;
+}

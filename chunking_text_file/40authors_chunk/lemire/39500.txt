@@ -1,0 +1,10 @@
+        if (b)
+            buffer.orWord(position, 1l);
+        else
+            buffer.andWord(position, ~1l);
+    }
+
+    /**
+     * Sets the running length.
+     *
+     * @param number the new running length

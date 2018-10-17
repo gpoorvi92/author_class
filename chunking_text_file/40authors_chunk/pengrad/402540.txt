@@ -1,0 +1,10 @@
+        return thisAsT;
+    }
+
+    @Override
+    public boolean isMultipart() {
+        return isMultipart;
+    }
+
+    @Override
+    public String getFileName() {

@@ -1,0 +1,10 @@
+
+            for (int walk = 0; walk < args.length; walk++) {
+                f = new File(args[walk]);
+
+                if (f.exists() && f.canRead() && f.isFile()) {
+                    System.out.println(args[walk] + " appears to be " + cp.guessEncoding(f));
+                } else {
+                    System.err.println(args[walk]
+                            + " is not a file, does not exists or is not readable at this time.");
+                    System.out.println(args[walk] + " appears to be UNKNOWN");

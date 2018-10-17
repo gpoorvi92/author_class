@@ -1,0 +1,10 @@
+    }
+
+    public String[] getSubjectAltNames() {
+        try {
+            LinkedList<String> altNames = Lists.newLinkedList();
+            if (certificate.getSubjectAlternativeNames() != null)
+                for (List<?> asn1Name : certificate.getSubjectAlternativeNames()) {
+                    int type = (Integer) asn1Name.get(0);
+                    String value;
+                    try {

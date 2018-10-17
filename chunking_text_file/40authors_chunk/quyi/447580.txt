@@ -1,0 +1,10 @@
+    case OS_VERSION:
+      return getOsVersion();
+
+    case JVM_NAME:
+      return getJvmName();
+
+    case JVM_VERSION:
+      return getJvmVersion();
+
+    case JVM_MAX_MEM:

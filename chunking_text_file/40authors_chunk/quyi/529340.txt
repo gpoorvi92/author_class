@@ -1,0 +1,10 @@
+  public boolean isSetVersioncode() {
+    return this.versioncode != null;
+  }
+
+  public void setVersioncodeIsSet(boolean value) {
+    if (!value) {
+      this.versioncode = null;
+    }
+  }
+

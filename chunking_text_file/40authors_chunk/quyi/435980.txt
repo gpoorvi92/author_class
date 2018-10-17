@@ -1,0 +1,10 @@
+    case APK_MD5:
+      return isSetApkMD5();
+    case SENSITIVE:
+      return isSetSensitive();
+    case AUTO_RUN_MONITOR:
+      return isSetAutoRunMonitor();
+    case FILE_OPERATE:
+      return isSetFileOperate();
+    case NETWORK_PACKET:
+      return isSetNetworkPacket();

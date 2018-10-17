@@ -1,0 +1,10 @@
+      catch (IncompatibleArgumentsException iae)
+      {
+          System.out.println("problem while creating rotation matrix: "+iae);
+      }
+        return result;
+    }
+
+    /** basically this = this*mat
+     * @param m must be a matrix of compatable dimensions for multiplication
+     */

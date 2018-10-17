@@ -1,0 +1,10 @@
+		long time = ed.getTime() - sd.getTime();
+		int date = (int) (time/1000/60/60/24);
+		return date;
+	}
+	
+	/**
+	 * 将‘yyyy-MM-dd’的字符串日期转化为Date对象
+	 * @param date
+	 * @return
+	 */

@@ -1,0 +1,10 @@
+		txtBookAuthor = new JTextField ();
+		txtBookAuthor.setEnabled (false);
+		txtBookAuthor.setBounds (120, 75, 175, 25);
+		txtBookPrice = new JTextField ();
+		txtBookPrice.setEnabled (false);
+		txtBookPrice.setHorizontalAlignment (JTextField.RIGHT);
+		txtBookPrice.setBounds (120, 105, 175, 25);
+		txtBookCategory = new JTextField ();
+		txtBookCategory.setEnabled (false);
+		txtBookCategory.setBounds (120, 135, 175, 25);

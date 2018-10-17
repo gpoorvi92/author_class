@@ -1,0 +1,10 @@
+    public synchronized byte[] getBuf(int len) {
+        for (int i = 0; i < mBuffersBySize.size(); i++) {
+            byte[] buf = mBuffersBySize.get(i);
+            if (buf.length >= len) {
+                mCurrentSize -= buf.length;
+                mBuffersBySize.remove(i);
+                mBuffersByLastUse.remove(buf);
+                return buf;
+            }
+        }

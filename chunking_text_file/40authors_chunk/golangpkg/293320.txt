@@ -1,0 +1,6 @@
+		//set the minimum to 1second remaining
+		return Math.max(calculatedTimeRemaining, 1);
+	}
+
+
+}

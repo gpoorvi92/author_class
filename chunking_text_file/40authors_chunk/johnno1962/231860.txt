@@ -1,0 +1,10 @@
+    public String[] StringArrayMethod( String arg[] ) {
+        return arg;
+    }
+
+    public static String String2dArrayFieldStatic[][];
+    public String String2dArrayField[][];
+
+    public static String[][] String2dArrayMethodStatic( String arg[][] ) {
+        return arg;
+    }

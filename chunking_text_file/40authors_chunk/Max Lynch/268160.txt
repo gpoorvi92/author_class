@@ -1,0 +1,10 @@
+
+	public GraphicsToolbar getToolbar() {
+		return (toolbar); 
+	}
+
+	public FrameDesktop getFrameDesktop() {
+		return (frameDesktop); 
+	}
+
+	public MenuMan getMenuMan() {

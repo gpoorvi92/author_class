@@ -1,0 +1,10 @@
+*	12/05/02
+*		- first revision.
+*	03/28/04
+*		- Added getRelatedStateVariable().
+*		- Changed setRelatedStateVariable() to setRelatedStateVariableName().
+*		- Changed getRelatedStateVariable() to getRelatedStateVariableName().
+*		- Added getActionNode() and getAction().
+*		- Added getServiceNode() and getService().
+*		- Added the parent service node to the constructor.
+*	04/12/06

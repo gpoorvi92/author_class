@@ -1,0 +1,10 @@
+public class DateSlider extends Dialog {
+
+	// private static String TAG = "DATESLIDER";
+
+	protected OnDateSetListener onDateSetListener;
+	protected Calendar mInitialTime, minTime, maxTime;
+	protected int mLayoutID;
+	protected TextView mTitleText;
+	protected SliderContainer mContainer;
+	protected int minuteInterval;

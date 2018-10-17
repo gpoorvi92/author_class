@@ -1,0 +1,10 @@
+    }
+
+    private static long threshold3(final int t, final long[] buffers, final int bufUsed) {
+        if (buffers.length == 0)
+            return 0;
+        final long[] v = new long[t];
+        v[0] = buffers[0];
+        for (int k = 1; k < bufUsed; ++k) {
+            final long c = buffers[k];
+            final int m = Math.min(t - 1, k);

@@ -1,0 +1,10 @@
+          for (FileOperate _iter58 : struct.fileOperate)
+          {
+            _iter58.write(oprot);
+          }
+        }
+      }
+      if (struct.isSetNetworkPacket()) {
+        {
+          oprot.writeI32(struct.networkPacket.size());
+          for (NetworkPacket _iter59 : struct.networkPacket)

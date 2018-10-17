@@ -1,0 +1,10 @@
+
+    @Override
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        onUpgrade(db, oldVersion, newVersion);
+    }
+
+    public SeafCachedPhoto getPhotoCacheItem(String repoID,
+            String path) {
+        Cursor c = database.query(
+        PHOTOCACHE_TABLE_NAME,

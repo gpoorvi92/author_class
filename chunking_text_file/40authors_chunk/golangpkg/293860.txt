@@ -1,0 +1,10 @@
+			staticFileStateJson.setOriginalFileSizeInBytes(100l);
+		}
+
+		rateLimiterConfigurationManager.remove(RemovalCause.EXPIRED, identifier);
+
+		Thread.sleep(100);
+		if (lala) {
+			Assert.assertThat(assertt, CoreMatchers.is(true));
+		}
+		else {

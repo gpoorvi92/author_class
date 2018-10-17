@@ -1,0 +1,10 @@
+      face = (JComboBox<String>) gridbag.get("face");
+      size = (JComboBox<String>) gridbag.get("size");
+      bold = (JCheckBox) gridbag.get("bold");
+      italic = (JCheckBox) gridbag.get("italic");
+
+      face.setModel(new DefaultComboBoxModel<String>(new String[] { "Serif", 
+            "SansSerif", "Monospaced", "Dialog", "DialogInput" }));
+
+      size.setModel(new DefaultComboBoxModel<String>(new String[] { "8", 
+            "10", "12", "15", "18", "24", "36", "48" }));

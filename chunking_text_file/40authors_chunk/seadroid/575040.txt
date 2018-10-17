@@ -1,0 +1,10 @@
+        // onPostExecute displays the results of the AsyncTask.
+        @Override
+        protected void onPostExecute(List<SeafStarredFile> starredFiles) {
+            if (mActivity == null)
+                // this occurs if user navigation to another activity
+                return;
+
+            if (err != null) {
+                showError(getString(R.string.error_when_load_starred));
+                return;

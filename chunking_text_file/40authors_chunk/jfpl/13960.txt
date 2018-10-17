@@ -1,0 +1,10 @@
+
+	private PopupOverlay popupOverlay;
+
+	private LocationClient locationClient;
+
+	private LocationData ld;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);

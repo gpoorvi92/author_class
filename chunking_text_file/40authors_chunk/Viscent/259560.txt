@@ -1,0 +1,10 @@
+	    ExecutorService executorSerivce) {
+		this.delegate = delegate;
+		this.executorSerivce = executorSerivce;
+		this.terminationToken = TerminationToken.newInstance(executorSerivce);
+	}
+
+	@Override
+	public void init(PipeContext pipeCtx) {
+		delegate.init(pipeCtx);
+

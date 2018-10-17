@@ -1,0 +1,10 @@
+		long count = linesCount.incrementAndGet();
+		if (count >= maxLines) {
+			pwr.flush();
+			pwr.close();
+			linesCount.set(0);
+			try {
+				long newTimeStamp = System.currentTimeMillis();
+				if ((newTimeStamp - now) <= 60 * 1000) {
+					newTimeStamp = now + 60 * 1000;
+					now = newTimeStamp;

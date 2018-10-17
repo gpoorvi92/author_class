@@ -1,0 +1,10 @@
+     */
+    @Override
+    public void addStreamOfEmptyWords(boolean v, int number) {
+        if (v && (number > 0))
+            throw nonEmptyException;
+    }
+
+    /**
+     * throws a NonEmptyException exception when number is greater than 0
+     */

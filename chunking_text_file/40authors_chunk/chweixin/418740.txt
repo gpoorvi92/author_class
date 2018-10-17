@@ -1,0 +1,10 @@
+package ipower.wechat.service.impl;
+
+import ipower.configuration.ModuleDefine;
+import ipower.configuration.ModuleDefineCollection;
+import ipower.configuration.ModuleSystem;
+import ipower.configuration.ModuleSystemCollection;
+import ipower.utils.MD5Util;
+import ipower.wechat.service.IMenuService;
+
+import java.io.IOException;

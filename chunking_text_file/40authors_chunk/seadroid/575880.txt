@@ -1,0 +1,10 @@
+
+        public boolean isRecentDownloadedFiles(String filePath) {
+            Long timestamp = recentDownloadedFiles.get(filePath);
+            if (timestamp != null) {
+                long timeWhenDownloaded = timestamp;
+                long now = Utils.now();
+
+                if (now - timeWhenDownloaded < 10000) {
+                    return true;
+                }

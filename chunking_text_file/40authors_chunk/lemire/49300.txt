@@ -1,0 +1,6 @@
+        ByteBuffer bb = memoryMappedFile.getChannel().map(FileChannel.MapMode.READ_ONLY, 0, totalcount);
+        EWAHCompressedBitmap mapped = new EWAHCompressedBitmap(bb);
+        System.out.println("Mapped the bitmap "+mapped);
+        memoryMappedFile.close();
+    }
+}

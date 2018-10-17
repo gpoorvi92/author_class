@@ -1,0 +1,10 @@
+			result.setMsg("Invalid parameter: lid!");
+			return;
+		}
+		
+		if (!NumericHelper.isNumeric(cwId)) {
+			
+			result.setSuccess(0);
+			result.setMsg("Invalid parameter: cid");
+			return;
+		}

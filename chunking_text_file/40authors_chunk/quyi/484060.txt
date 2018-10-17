@@ -1,0 +1,10 @@
+                {
+                  String _key40;
+                  com.nercis.isscp.idl.APICheck _val41;
+                  _key40 = iprot.readString();
+                  _val41 = new com.nercis.isscp.idl.APICheck();
+                  _val41.read(iprot);
+                  _elem37.put(_key40, _val41);
+                }
+              }
+              struct.usedPermissions.add(_elem37);

@@ -1,0 +1,10 @@
+    public Integer getLogId() {
+        return logId;
+    }
+
+    public void setLogId(Integer logId) {
+        this.logId = logId;
+    }
+
+    public String getLogType() {
+        return logType;

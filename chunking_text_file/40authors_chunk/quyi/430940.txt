@@ -1,0 +1,10 @@
+  public String getApkMD5() {
+    return this.apkMD5;
+  }
+
+  public StaticCheckResultData setApkMD5(String apkMD5) {
+    this.apkMD5 = apkMD5;
+    return this;
+  }
+
+  public void unsetApkMD5() {

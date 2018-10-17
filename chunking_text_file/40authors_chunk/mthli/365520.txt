@@ -1,0 +1,10 @@
+   /**
+    * This method grows an array by allocating a new array of the same type and
+    * copying all elements.
+    * @param a the array to grow. This can be an object array or a primitive
+    * type array
+    * @return a larger array that contains all elements of a.
+    */
+   public static Object goodCopyOf(Object a, int newLength) 
+   {
+      Class cl = a.getClass();

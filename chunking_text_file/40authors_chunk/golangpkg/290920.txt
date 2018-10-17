@@ -1,0 +1,10 @@
+
+		// populate request component container
+		requestComponentContainer.populate(new MockHttpServletRequest(), new MockHttpServletResponse());
+
+		staticStateManager.init(StaticStatePersistedOnFileSystemEntity.class);
+	}
+
+
+	@Test
+	public void testClear()

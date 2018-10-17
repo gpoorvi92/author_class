@@ -1,0 +1,10 @@
+
+
+public class PageIndicatorView extends View {
+    private int mCurrentPage = -1;
+    private int mTotalPage = 0;
+
+    public PageIndicatorView(Context context) {
+        super(context);
+    }
+

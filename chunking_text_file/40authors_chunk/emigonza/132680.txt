@@ -1,0 +1,10 @@
+
+  public static final int LGT_ALARM_NOALARM                    = 0x00000001;
+  public static final int LGT_ALARM_SLOW                       = 0x00000010;
+  public static final int LGT_ALARM_MEDIUM                     = 0x00000020;
+  public static final int LGT_ALARM_FAST                       = 0x00000040;
+  public static final int LGT_ALARM_CUSTOM1                    = 0x00010000;
+  public static final int LGT_ALARM_CUSTOM2                    = 0x00020000;
+
+
+  /////////////////////////////////////////////////////////////////////

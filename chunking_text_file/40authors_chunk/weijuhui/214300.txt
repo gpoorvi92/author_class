@@ -1,0 +1,10 @@
+    public static final int TOP = 547120;
+    public static final int LEFT = 647120;
+    public static final int RIGHT = 747120;
+    public static final int BOTTOM = 847120;
+    
+    /**
+     * 
+     * 指定图片的切边，对图片进行圆角处理
+     * @param type 具体参见：{@link BitmapFillet#ALL} , {@link BitmapFillet#TOP} ,
+     * 				{@link BitmapFillet#LEFT} , {@link BitmapFillet#RIGHT} , {@link BitmapFillet#BOTTOM}

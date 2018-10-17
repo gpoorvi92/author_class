@@ -1,0 +1,10 @@
+ */
+public class Solution {
+    public List<TreeNode> generateTrees(int n) {
+        return generateTreesRe(1, n);
+    }
+    public List<TreeNode> generateTreesRe(int l, int r) {
+        ArrayList<TreeNode> res = new ArrayList<TreeNode>();
+        if (l > r) {
+            res.add(null);
+            return res;

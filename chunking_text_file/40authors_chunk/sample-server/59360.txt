@@ -1,0 +1,10 @@
+        this.user = user;
+    }
+    private volatile UserEntity user;
+    private volatile ZoneEntity targetZone;
+    public UserEntity getUser()
+    {
+        return user;
+    }
+    public void setUser(UserEntity user)
+    {

@@ -1,0 +1,10 @@
+        userService.update(user);
+        map.put(Constants.RESULT_CODE, "1");
+        return map;
+    }
+
+    @RequestMapping("/editPwd")
+    public @ResponseBody Map<String, Object> editPwd(User user, String newPwd) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        try {
+            userService.editPwd(user, newPwd);

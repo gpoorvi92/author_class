@@ -1,0 +1,10 @@
+     * @return a List<String> of parsed tokens
+     */
+    static public List<String> wordsToList(String s2, int maxR) {
+        s2 = stripControlCharacters(s2);
+        List<String> words = new ArrayList<String>();
+        String x;
+        int count = 0;
+        try {
+            StreamTokenizer str_tok = new StreamTokenizer(new StringReader(s2));
+            str_tok.whitespaceChars('"', '"');

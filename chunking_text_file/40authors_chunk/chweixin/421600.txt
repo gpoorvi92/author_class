@@ -1,0 +1,10 @@
+		token.setCreateTime(new Date());
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(token.getCreateTime());
+		calendar.add(Calendar.SECOND, expires_in);
+		token.setFailureTime(calendar.getTime());
+		this.weChatAccessTokenDao.save(token);
+		return token.getAccessToken();
+	}
+
+	@Override

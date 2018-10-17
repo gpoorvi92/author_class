@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         int red = Integer.parseInt(redField.getText().trim());
+         int green = Integer.parseInt(greenField.getText().trim());
+         int blue = Integer.parseInt(blueField.getText().trim());
+         panel.setBackground(new Color(red, green, blue));
+      }
+      catch (NumberFormatException e)
+      {

@@ -1,0 +1,10 @@
+        if (username.equals("b")) {
+            synchronized (lock2) {
+                try {
+                    System.out.println("username = " + username);
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                synchronized (lock1) {

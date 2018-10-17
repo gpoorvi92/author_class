@@ -1,0 +1,10 @@
+			Argument arg = getArgument(inArgName);
+			if (arg == null)
+				continue;
+			arg.setValue(inArg.getValue());
+		}
+	}
+
+	/**
+	 * Set all the Argument which are Input Argoument to the given value in 
+	 * the argument list

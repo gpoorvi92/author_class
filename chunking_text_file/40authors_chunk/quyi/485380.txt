@@ -1,0 +1,10 @@
+          case 3: // PLOTS_STATUS
+            return PLOTS_STATUS;
+          case 4: // USED_PERMISSIONS
+            return USED_PERMISSIONS;
+          case 5: // STC_RD
+            return STC_RD;
+          case 6: // DYC_RD
+            return DYC_RD;
+          case 7: // VIR_RD
+            return VIR_RD;

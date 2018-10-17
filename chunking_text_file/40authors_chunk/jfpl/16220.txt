@@ -1,0 +1,10 @@
+	public String getRefreshUrl() {
+		return refreshUrl;
+	}
+
+	private void webViewLoadComplete(WebView wv) {
+		wv.clearAnimation();
+		wv.clearDisappearingChildren();
+		wv.destroyDrawingCache();
+		wv.freeMemory();
+

@@ -1,0 +1,10 @@
+{
+
+    public ProxyInputStream(InputStream proxy)
+    {
+        super(proxy);
+    }
+
+    public int read()
+        throws IOException
+    {

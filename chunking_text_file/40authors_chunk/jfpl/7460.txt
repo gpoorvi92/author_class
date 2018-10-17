@@ -1,0 +1,10 @@
+		ld.direction = location.getDerect();
+		ld.accuracy = location.getRadius();
+		myLocOverlay.setData(ld);
+		mapView.refresh();
+		int lat = (int) (ld.latitude * 1E6);
+		int lon = (int) (ld.longitude * 1E6);
+		AbstractCommonData myLocData = myLocOverlay.getData();
+		if (myLocData != null) {
+			myLocData.putIntValue("lat", lat);
+			myLocData.putIntValue("lon", lon);

@@ -1,0 +1,10 @@
+        path[0] = start_node;
+        return findPathHelper(path, 1, goal_node);
+    }
+
+    public int [] findPathHelper(int [] path, int num_path, int goal_node) {
+        System.out.println("Entered DepthFirstSearch.findPathHelper(...," +
+                           num_path + ", " + goal_node + ")");
+        if (goal_node == path[num_path - 1]) {
+            int [] ret = new int[num_path];
+            for (int i=0; i<num_path; i++) ret[i] = path[i];

@@ -1,0 +1,10 @@
+    
+    public abstract ChatServerRpc.AddSysNoticeResp AddSysNoticeReq(ChatServerRpc.AddSysNoticeReq req);
+    
+    
+    
+    public abstract void ChatReq(ChatServerRpc.ChatReq req);
+    
+    
+    
+    public abstract void SynReq(ChatServerRpc.SynReq req);

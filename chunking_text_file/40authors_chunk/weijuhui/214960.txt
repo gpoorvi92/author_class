@@ -1,0 +1,10 @@
+    @SuppressWarnings("unchecked")
+    private<T >T cast_(Object object) {
+        return ((T) object);
+    }
+
+    public static class IntentBuilder_ {
+
+        private Context context_;
+        private final Intent intent_;
+

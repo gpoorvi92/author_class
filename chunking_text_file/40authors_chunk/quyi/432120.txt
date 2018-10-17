@@ -1,0 +1,10 @@
+      return new StaticCheckResultDataStandardScheme();
+    }
+  }
+
+  private static class StaticCheckResultDataStandardScheme extends StandardScheme<StaticCheckResultData> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, StaticCheckResultData struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)

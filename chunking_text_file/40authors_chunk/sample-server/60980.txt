@@ -1,0 +1,10 @@
+                sb.append("-");
+            }
+        }
+        return sb.toString();
+    }
+    final Date StringToDate(String source) throws ParseException
+    {
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        return df.parse(source);
+    }

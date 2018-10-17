@@ -1,0 +1,10 @@
+    private void afterSetContentView_() {
+        keywordsFlow = ((KeywordsFlow) findViewById(id.keywordsflow));
+        title_sub_bar = ((RelativeLayout) findViewById(id.title_sub_bar));
+        details_dt = ((EditText) findViewById(id.details_dt));
+        title = ((TextView) findViewById(id.title_center));
+        {
+            View view = findViewById(id.title_back);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+

@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.util.Utils;
+
+public class SeafDirent implements SeafItem, Serializable {
+    public static final long serialVersionUID = 0L;
+    private static final String DEBUG_TAG = "SeafDirent";
+
+    public enum DirentType { DIR, FILE };
+
+    public String id;
+    public DirentType type;

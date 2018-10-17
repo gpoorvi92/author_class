@@ -1,0 +1,9 @@
+    public static DisplayImageOptions iconOptions = new DisplayImageOptions.Builder()
+            .delayBeforeLoading(0)
+            .resetViewBeforeLoading(true)
+            .cacheInMemory(true)
+            .cacheOnDisk(false)
+            .build();
+
+
+}

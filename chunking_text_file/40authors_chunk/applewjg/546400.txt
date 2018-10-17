@@ -1,0 +1,10 @@
+ Given height = [2,1,5,6,2,3],
+ return 10.
+
+ Solution: 1. Only calucate area when reaching local maximum value.
+           2. Keep a non-descending stack. O(n). if the vector height is not allowed to be changed.
+*/
+public class Solution {
+    public int largestRectangleArea_1(int[] height) {
+        int res = 0;
+        for (int i = 0; i < height.length; ++i) {

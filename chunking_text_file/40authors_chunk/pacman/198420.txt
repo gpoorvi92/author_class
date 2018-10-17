@@ -1,0 +1,10 @@
+				AppConfig.getInstance().getIgnoreExtNames(), 
+				true);
+		
+		FileHelper.deleteDir(resDir);
+		FileHelper.deleteDir(tempDir);
+		
+		return null;
+	}
+
+	/** (non Javadoc)

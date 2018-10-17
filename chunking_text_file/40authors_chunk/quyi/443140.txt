@@ -1,0 +1,10 @@
+	static {
+		try {
+			InputStream input = TestClientForNercis.class.getClassLoader().getResourceAsStream("client.properties");
+			if (input == null) {
+				input = TestClientForNercis.class.getResourceAsStream("client.properties");
+			}
+			properties.load(input);
+		} catch (IOException e) {
+			throw new RuntimeException("Load config file failed", e);
+		}

@@ -1,0 +1,10 @@
+   public EntityResolver getEntityResolver()
+   {
+      return null;
+   }
+
+   public void setProperty(String name, Object value)
+   {
+   }
+
+   public Object getProperty(String name)

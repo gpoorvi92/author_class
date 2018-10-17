@@ -1,0 +1,10 @@
+package com.opslab.util.algorithmImpl;
+
+
+import org.mozilla.intl.chardet.nsDetector;
+import org.mozilla.intl.chardet.nsICharsetDetectionObserver;
+
+import java.io.*;
+import java.net.URL;
+
+/**

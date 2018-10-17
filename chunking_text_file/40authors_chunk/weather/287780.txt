@@ -1,0 +1,10 @@
+    public static int getDrawableIdFromName(String name, Context mContext) {
+        return mContext.getResources().getIdentifier(name, "drawable",
+                mContext.getPackageName());
+    }
+
+    /**
+     * @param appContext
+     * @param packageContext
+     * @param resid
+     * @return

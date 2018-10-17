@@ -1,0 +1,10 @@
+		return argList;
+	}
+
+	////////////////////////////////////////////////
+	//	setRequest
+	////////////////////////////////////////////////
+	
+	public void setRequest(Action action, ArgumentList argList)
+	{
+		Service service = action.getService();		

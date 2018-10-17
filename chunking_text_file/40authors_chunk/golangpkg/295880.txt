@@ -1,0 +1,10 @@
+
+				// if it is a file
+				if (file.isFile()) {
+					// delete it
+					return file.delete();
+				}
+				// otherwise, if it is a directoy
+				else if (file.isDirectory()) {
+					FileUtils.deleteDirectory(file);
+					return true;

@@ -1,0 +1,10 @@
+      Graphics2D g2 = (Graphics2D) g;
+
+      String message = "Hello, World!";
+
+      Font f = new Font("Serif", Font.BOLD, 36);
+      g2.setFont(f);
+
+      // measure the size of the message
+
+      FontRenderContext context = g2.getFontRenderContext();

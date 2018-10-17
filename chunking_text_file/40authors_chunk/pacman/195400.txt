@@ -1,0 +1,10 @@
+	 */
+	@Before
+	public void setUp() throws Exception {
+		
+		File dir = new File(tempDir);
+		FileUtils.forceMkdir(dir);
+		
+		srcDir = FileHelper.combinePath(tempDir, "src");
+		destDir = FileHelper.combinePath(tempDir, "dest");
+		FileUtils.forceMkdir(new File(srcDir));

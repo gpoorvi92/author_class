@@ -1,0 +1,10 @@
+
+   Win32RegKeyNameEnumeration(int theRoot, String thePath)
+   {
+      root = theRoot;
+      path = thePath;
+   }
+}
+
+class Win32RegKeyException extends RuntimeException
+{

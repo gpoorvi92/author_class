@@ -1,0 +1,10 @@
+		main_panel.add(name, gbc);
+		gbc.gridy = 3;
+		main_panel.add(passport, gbc);
+		gbc.gridy = 4;
+		main_panel.add(group, gbc);
+		gbc.gridy = 5;
+		main_panel.add(status, gbc);
+		
+		gbc.gridx = 1;
+		gbc.gridy = 1;

@@ -1,0 +1,10 @@
+        map.put("data", list);
+        Collection<ZoneEntity> zoneEntityList = ZoneEntityManager.getInstance().getAllZoneEntiry();
+        map.put("zones", zoneEntityList);
+    }
+    @ACL(limit = Limit.NOTICE, type = RequestType.JSON)
+    @RequestMapping(value = "/delete")
+    @ResponseBody
+    public String delete(String noticeId) throws IOException
+    {
+        JsonResponse result = new JsonResponse();

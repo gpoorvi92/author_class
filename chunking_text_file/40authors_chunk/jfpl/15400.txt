@@ -1,0 +1,10 @@
+
+		public TWebViewClient(WebView webView) {
+			this.webView = webView;
+		}
+
+		@Override
+		public boolean shouldOverrideUrlLoading(WebView view, String url) {
+			webView.loadUrl(url);
+			return true;
+		}

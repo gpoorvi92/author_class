@@ -1,0 +1,10 @@
+   {
+      carType = newValue;
+   }
+
+   public CarType getCarType()
+   {
+      return carType;
+   }
+
+   // this property is set to be transient

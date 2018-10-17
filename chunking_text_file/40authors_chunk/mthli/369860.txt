@@ -1,0 +1,10 @@
+         return new java.beans.PropertyDescriptor[]
+         {
+            titleDescriptor,
+            valuesDescriptor,
+            inverseDescriptor,
+            titlePositionDescriptor,
+            graphColorDescriptor
+         };
+      }
+      catch (java.beans.IntrospectionException e)

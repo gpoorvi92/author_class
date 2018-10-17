@@ -1,0 +1,10 @@
+ */
+public interface IAppSvrEventListener extends IEventListener {
+
+	/**
+	 * Server started event.
+	 * 
+	 * @Title: onAppSvrStarted
+	 * @param source
+	 * @return: void
+	 */

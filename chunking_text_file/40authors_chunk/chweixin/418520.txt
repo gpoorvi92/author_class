@@ -1,0 +1,7 @@
+		for(int i = 0; i < ids.length; i++){
+			WeChatDefaultReply data = this.weChatDefaultReplyDao.load(WeChatDefaultReply.class, ids[i]);
+			if(data != null) this.weChatDefaultReplyDao.delete(data);
+		}
+	}
+
+}

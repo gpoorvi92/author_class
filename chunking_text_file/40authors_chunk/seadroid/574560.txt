@@ -1,0 +1,10 @@
+                @Override
+                public void onEvent(int event, String path) {
+                    onContentChanged();
+                }
+            };
+        }
+        mFileObserver.startWatching();
+
+        if (takeContentChanged() || mData == null)
+            forceLoad();

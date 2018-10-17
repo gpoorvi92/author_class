@@ -1,0 +1,10 @@
+        struct.setOsNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        struct.osDesc = iprot.readString();
+        struct.setOsDescIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.osVersion = iprot.readString();
+        struct.setOsVersionIsSet(true);
+      }

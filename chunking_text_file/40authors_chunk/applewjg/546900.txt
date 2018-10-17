@@ -1,0 +1,10 @@
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    boolean isValidBSTRe(TreeNode root, long left, long right)
+    {
+        if(root == null) return true;

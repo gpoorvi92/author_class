@@ -1,0 +1,10 @@
+		this.createTime = createTime;
+	}
+	@Id
+	@Column(name="id")
+	public String getID() {
+		return ID;
+	}
+	public void setID(String iD) {
+		ID = iD;
+	}

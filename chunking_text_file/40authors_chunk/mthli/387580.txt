@@ -1,0 +1,10 @@
+   private Random generator;
+   private DocumentBuilder builder;
+
+   public RectangleComponent()
+   {
+      rects = new ArrayList<>();
+      colors = new ArrayList<>();
+      generator = new Random();
+
+      DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

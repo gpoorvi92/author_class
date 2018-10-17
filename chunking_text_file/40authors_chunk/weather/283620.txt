@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather.network;
+
+
+import com.weico.core.utils.StringUtil;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;

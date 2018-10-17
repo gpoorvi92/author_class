@@ -1,0 +1,10 @@
+                .build();
+    }
+
+    private RequestBody createRequestBody(BaseRequest<?, ?> request) {
+        if (request.isMultipart()) {
+            MediaType contentType = MediaType.parse(request.getContentType());
+
+            MultipartBody.Builder builder = new MultipartBody.Builder().setType(MultipartBody.FORM);
+
+            for (Map.Entry<String, Object> parameter : request.getParameters().entrySet()) {

@@ -1,0 +1,10 @@
+			else if(x>200 && x<260 && y>193 && y<223){//开场音乐
+				activity.isStartSound = !activity.isStartSound; 
+				if(type == 5){//menu来的
+					if(activity.isStartSound && !activity.menuView.mMediaPlayer.isPlaying()){
+						activity.menuView.mMediaPlayer.start();
+					}
+					if(!activity.isStartSound && activity.menuView.mMediaPlayer.isPlaying()){
+						activity.menuView.mMediaPlayer.pause();
+					}
+				}

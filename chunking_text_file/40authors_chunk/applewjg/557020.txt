@@ -1,0 +1,10 @@
+    }
+    public boolean isInterleave(String s1, String s2, String s3) {
+        int l1 = s1.length(), l2 = s2.length(), l3 = s3.length();
+        if (l1 == 0) return s2.compareTo(s3) == 0;
+        if (l2 == 0) return s1.compareTo(s3) == 0;
+        if (l1 + l2 != l3) return false;
+        boolean[] dp = new boolean[l2+1];
+        dp[0] = true;
+        for (int j = 1; j <= l2; ++j) {
+            dp[j] = dp[j-1] && (s2.charAt(j-1) == s3.charAt(j-1));

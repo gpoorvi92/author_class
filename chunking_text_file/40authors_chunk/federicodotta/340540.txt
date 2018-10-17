@@ -1,0 +1,10 @@
+    @Override
+    public String getConfidence()
+    {
+        return confidence;
+    }
+
+    @Override
+    public String getIssueBackground()
+    {
+        return null;

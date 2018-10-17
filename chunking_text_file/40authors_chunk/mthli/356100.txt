@@ -1,0 +1,10 @@
+            }
+         });
+
+      addRadioButton("Bad cast", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               a = (double[]) event.getSource();
+            }
+         });

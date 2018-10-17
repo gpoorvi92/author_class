@@ -1,0 +1,10 @@
+{
+   /**
+    * Starts the clock.
+    * @param interval the interval between messages (in milliseconds)
+    * @param beep true if the clock should beep
+    */
+   public void start(int interval, final boolean beep)
+   {
+      class TimePrinter implements ActionListener
+      {

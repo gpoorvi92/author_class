@@ -1,0 +1,10 @@
+ Another example is ")()())", where the longest valid parentheses substring is "()()", 
+ which has length = 4.
+
+ Solution: O(n).
+ */
+
+public class Solution {
+    public int longestValidParentheses_1(String s) {
+        Stack<Integer> stk = new Stack<Integer>();
+        int res = 0, count = 0;

@@ -1,0 +1,10 @@
+ * 
+ * Exception in thread "main" java.io.InvalidClassException: 
+ * cn.itcast_10.Person; local class incompatible: 
+ * stream classdesc serialVersionUID = -1509474945256457713, 
+ * local class serialVersionUID = -8199609520215381056
+ * 
+ * A:被序列化流操作的对象所属的类必须实现序列化接口。
+ * B:一个java文件，在生存class文件的时候，也会有一个序列化id值，在序列化到文件的时候，它会把这个id值写到文件。
+ * 		Person.java		id=100
+ * 		Person.class	id=100

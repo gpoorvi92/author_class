@@ -1,0 +1,10 @@
+                 System.out.println("IOException "+e);
+                 }
+
+             return out;
+         }
+
+	public String getOutFileName(){
+		return (outFileName);
+	}
+	

@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Dec 25, 2014
+ Problem:    Minimum Window Substring
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/minimum-window-substring/
+ Notes:
+ Given a string S and a string T, find the minimum window in S which will contain all the 
+ characters in T in complexity O(n).
+ For example,

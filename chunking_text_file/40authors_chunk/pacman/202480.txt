@@ -1,0 +1,10 @@
+	 * @param taskDAO
+	 */
+	public MessageHandler(ITaskDAO taskDAO) {
+		this.taskDAO = taskDAO;
+	}
+
+	/* (non-Javadoc)
+	 * @see javax.jms.MessageListener#onMessage(javax.jms.Message)
+	 */
+	@Override

@@ -1,0 +1,10 @@
+    public void shutdown()
+    {
+        for (ChatServerRpcClient each : chatServerRpcClientMap.values())
+        {
+            try
+            {
+                each.shutdown();
+            } catch (Exception e)
+            {
+                log.error("", e);

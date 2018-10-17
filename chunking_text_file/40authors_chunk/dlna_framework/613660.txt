@@ -1,0 +1,10 @@
+			if (argName == null)
+				continue;
+			if (argName.equals(name) == true)
+				return arg;
+		}
+		return null;
+	}
+
+	////////////////////////////////////////////////
+	//	Methods

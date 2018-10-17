@@ -1,0 +1,10 @@
+
+public class TransferActivity extends SherlockFragmentActivity {
+    private static final String DEBUG_TAG = "TransferActivity";
+
+    /**  0 mark as Download Fragment, 1 mark as Upload Fragment, the same convention with {@link TransferTaskAdapter #mTransferTaskType} */
+    private int currentPosition = 0;
+    private TransferTabsAdapter tabsAdapter;
+    private ViewPager pager;
+
+    private Menu overFlowMenu = null;

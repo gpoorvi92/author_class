@@ -1,0 +1,9 @@
+		Phone p = new Phone();
+		p.call("林青霞");
+		System.out.println("-----------");
+	
+		//新手机
+		NewPhone np = new NewPhone();
+		np.call("林青霞");
+	}
+}

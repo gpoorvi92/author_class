@@ -1,0 +1,10 @@
+        DownloadTask task = (DownloadTask) getTask(taskID);
+        if (task == null || !task.canRetry())
+            return;
+        addTaskToQue(task.getAccount(), task.getRepoName(), task.getRepoID(), task.getPath());
+    }
+
+    // -------------------------- listener method --------------------//
+    @Override
+    public void onFileDownloadProgress(int taskID) {
+        Intent localIntent = new Intent(BROADCAST_ACTION).putExtra("type",

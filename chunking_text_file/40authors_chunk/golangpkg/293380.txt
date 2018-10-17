@@ -1,0 +1,10 @@
+public class FileUploadManagerFilter
+		implements Filter {
+
+	@Autowired
+	RequestComponentContainer requestComponentContainer;
+
+
+
+	@Override
+	public void destroy() {

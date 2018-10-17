@@ -1,0 +1,10 @@
+                    if (need.get(s) <= found.get(s)) break;
+                    found.put(s, found.get(s)+1);
+                } else found.put(s, 1);
+            }
+            if (j == N) res.add(i);
+        }
+        return res;
+    }
+    
+    public List<Integer> findSubstring_2(String S, String[] L) {

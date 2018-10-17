@@ -1,0 +1,10 @@
+/**
+ * 微信用户上下文服务接口实现。
+ * @author yangyong.
+ * @since 2014-04-12.
+ * */
+public class WeChatContextServiceImpl implements IWeChatContextService {
+	private static Logger logger = Logger.getLogger(WeChatContextServiceImpl.class);
+	private static int CONST_CACHE_ValidityTime = 900;
+	private IWeChatUserDao weChatUserDao;
+	/**

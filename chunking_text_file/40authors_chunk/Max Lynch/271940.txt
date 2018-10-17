@@ -1,0 +1,10 @@
+		g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+		
+		GeneralPath gp = new GeneralPath();
+		/*gp.moveTo(20, 100);
+		gp.curveTo(100, 250, 10, 200, 100, 10);
+		gp.lineTo(20, 200);
+		gp.closePath();
+		*/
+		
+		/*gp.moveTo(35, 50);

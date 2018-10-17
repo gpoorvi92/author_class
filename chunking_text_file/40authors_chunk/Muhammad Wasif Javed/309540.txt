@@ -1,0 +1,10 @@
+	//Constructor of Class.	
+
+	public ChangePassword (String user, Connection con) {
+
+		//super(Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("Change Password", false, true, false, true);
+		setSize (300, 210);
+
+		//Setting the Form's Labels.
+

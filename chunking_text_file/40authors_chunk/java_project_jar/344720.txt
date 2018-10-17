@@ -1,0 +1,10 @@
+        if(observer != null)
+            while(observers.remove(observer)) ;
+    }
+
+    public Iterable getObservers()
+    {
+        return observers;
+    }
+
+    public synchronized void start()

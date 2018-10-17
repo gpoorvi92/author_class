@@ -1,0 +1,10 @@
+@Transactional(rollbackFor = Exception.class)
+@Service(IGoodsService.SERVICE_NAEM)
+public class GoodsServiceImpl implements IGoodsService {
+    @Autowired
+    private GoodsMapper goodsMapper;
+
+    public List<Goods> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<Goods> goodsList = goodsMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(goodsMapper.getTotalCount(vo));

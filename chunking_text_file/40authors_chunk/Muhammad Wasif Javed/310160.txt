@@ -1,0 +1,10 @@
+
+	private void txtClear () {
+
+		txtMemberId.setText ("");
+		txtMemberName.setText ("");
+		txtMemberAddress.setText ("");
+		txtDate.setText ("");
+		txtMemberId.requestFocus ();
+
+	}

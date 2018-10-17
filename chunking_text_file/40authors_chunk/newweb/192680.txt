@@ -1,0 +1,10 @@
+				return "passwordError";
+			}
+		}
+		return "unknowUser";
+	}
+	
+	/**
+	 * 根据当前用户登陆的不同身份，跳转相应的页面
+	 * 触发链接：点击首页的当前用户名
+	 * @param locale

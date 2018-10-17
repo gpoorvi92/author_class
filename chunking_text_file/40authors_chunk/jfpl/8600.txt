@@ -1,0 +1,10 @@
+		MyVioActivity mva = (MyVioActivity) ctx;
+		String bindUname = acd.getStringValue("jtgzfw_user");
+		String hphm = sendData.getStringValue("hphm");
+		String hpzl = sendData.getStringValue("hpzl");
+		String clsbdh = sendData.getStringValue("clsbdh");
+		try {
+			mva.update("add_bind_veh", bindUname,
+					GlobalVariables.loginUsername, hphm, hpzl, clsbdh);
+		} catch (Exception e) {
+			e.printStackTrace();

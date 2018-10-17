@@ -1,0 +1,10 @@
+      if (incoming.get(0)) {
+        struct.ruleId = iprot.readString();
+        struct.setRuleIdIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.ruleName = iprot.readString();
+        struct.setRuleNameIsSet(true);
+      }
+      if (incoming.get(2)) {
+        {

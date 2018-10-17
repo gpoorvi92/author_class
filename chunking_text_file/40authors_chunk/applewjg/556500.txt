@@ -1,0 +1,9 @@
+        Arrays.sort(num);
+        do {
+            List<Integer> path = new ArrayList<Integer>();
+            for (int i : num) path.add(i);
+            res.add(path);
+        } while(nextPermutation(num));
+        return res;
+    }
+}

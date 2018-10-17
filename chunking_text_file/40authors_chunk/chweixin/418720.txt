@@ -1,0 +1,6 @@
+	 * 底部footer。
+	 * */
+	public String footer(){
+		return "footer";
+	}
+}

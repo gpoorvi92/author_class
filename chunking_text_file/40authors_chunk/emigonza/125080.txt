@@ -1,0 +1,10 @@
+        makeProperty("Write3Data"),
+        makeProperty("Write4Data"),
+        makeProperty("Write5Data"),
+        makeProperty("Write6Data"),
+        makeProperty("MapCharacterSet"),
+
+      };
+
+      return properties;
+    }

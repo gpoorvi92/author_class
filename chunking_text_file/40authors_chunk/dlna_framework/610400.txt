@@ -1,0 +1,10 @@
+*	12/24/03
+*		- first revision.
+*	06/18/04
+*		- Changed to advertise every 25%-50% of the periodic notification cycle for NMPR;
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.device;
+
+import org.cybergarage.util.*;

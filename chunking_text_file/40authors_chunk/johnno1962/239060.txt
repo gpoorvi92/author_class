@@ -1,0 +1,10 @@
+
+    /// public abstract void java.awt.LayoutManager.addLayoutComponent(java.lang.String,java.awt.Component)
+
+    public native void __addLayoutComponent( java.lang.String name, java.awt.Component comp );
+
+    public void addLayoutComponent( java.lang.String name, java.awt.Component comp ) {
+        __addLayoutComponent( name, comp );
+    }
+
+    /// public abstract void java.awt.LayoutManager.layoutContainer(java.awt.Container)

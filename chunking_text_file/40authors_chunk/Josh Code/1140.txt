@@ -1,0 +1,10 @@
+    }
+
+    public void zoomIn()
+    {
+        display.zoomIn();
+    }
+
+    public void zoomOut()
+    {
+        display.zoomOut();

@@ -1,0 +1,10 @@
+/**
+ * Realiza un programa que sume los 100 números siguientes a un número entero 
+ * positivo introducido por teclado. Se debe comprobar que el dato introducido 
+ * es correcto (que es un número positivo).
+ * 
+ * @author costy
+ */
+import java.util.Scanner;
+
+public class Sumar100NumerosConFor {

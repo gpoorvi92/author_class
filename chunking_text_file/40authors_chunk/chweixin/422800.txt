@@ -1,0 +1,10 @@
+	 * @return 结构数据集合。
+	 * */
+	protected abstract List<K> find(T info);
+	/**
+	 * 数据转换。
+	 * @param list
+	 * 	查询结果集合。
+	 * @return 转换结果集合。
+	 * */
+	protected List<T> changeModel(List<K> list){

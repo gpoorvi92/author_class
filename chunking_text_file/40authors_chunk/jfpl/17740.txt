@@ -1,0 +1,10 @@
+						.getAutoLoginParam(LogoActivity.this);
+				if (loginPara != null) {
+					if (loginPara.getBooleanValue("is_auto_login")) {
+						loginService(loginPara);
+					} else {
+						gotoLogin();
+					}
+				} else {
+					gotoLogin();
+				}

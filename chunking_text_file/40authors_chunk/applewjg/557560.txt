@@ -1,0 +1,10 @@
+    }
+
+    /** @return whether we have a next smallest number */
+    public boolean hasNext() {
+        return node != null;
+    }
+
+    /** @return the next smallest number */
+    public int next() {
+        if (node == null) return 0;

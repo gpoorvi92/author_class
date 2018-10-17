@@ -1,0 +1,10 @@
+		TS_OBJECT_PROXY.remove();
+	}
+
+}
+
+class BusinessService {
+
+	public void service(String message) {
+		int transactionId = Context.INSTANCE.getTransactionId();
+		System.out.println("processing transaction " + transactionId

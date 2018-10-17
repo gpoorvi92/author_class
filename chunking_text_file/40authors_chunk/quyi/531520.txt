@@ -1,0 +1,10 @@
+            _elem7 = com.nercis.isscp.idl.permission.Permissions.findByValue(iprot.readI32());
+            struct.requestPurviews.add(_elem7);
+          }
+        }
+        struct.setRequestPurviewsIsSet(true);
+      }
+      if (incoming.get(10)) {
+        struct.format = iprot.readString();
+        struct.setFormatIsSet(true);
+      }

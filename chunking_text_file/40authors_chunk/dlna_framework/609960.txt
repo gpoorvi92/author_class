@@ -1,0 +1,10 @@
+	private final static String RELATED_STATE_VARIABLE = "relatedStateVariable";
+	
+	public void setRelatedStateVariableName(String value)
+	{
+		getArgumentNode().setNode(RELATED_STATE_VARIABLE, value);
+	}
+
+	public String getRelatedStateVariableName()
+	{
+		return getArgumentNode().getNodeValue(RELATED_STATE_VARIABLE);

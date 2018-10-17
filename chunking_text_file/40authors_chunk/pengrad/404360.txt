@@ -1,0 +1,10 @@
+    }
+
+    public String fileName() {
+        return file_name;
+    }
+
+    public String mimeType() {
+        return mime_type;
+    }
+

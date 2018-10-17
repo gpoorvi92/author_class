@@ -1,0 +1,10 @@
+    } else {
+      sb.append(this.nodeInfo);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("engineRules:");
+    if (this.engineRules == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engineRules);

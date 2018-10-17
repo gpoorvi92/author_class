@@ -1,0 +1,10 @@
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.KeyStroke;
+
+public class FitAuthoringClient extends JFrame implements ActionListener{
+
+  
+  public FitAuthoringClient() {
+
+    this.addWindowListener(new WindowAdapter() {

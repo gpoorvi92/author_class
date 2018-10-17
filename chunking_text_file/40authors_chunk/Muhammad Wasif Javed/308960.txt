@@ -1,0 +1,10 @@
+	        lbPass = new JLabel ("Password:");
+		lbPass.setForeground (Color.black);
+	        lbPass.setBounds (20, 55, 100, 25);
+
+		//Setting the Form's TextField & PasswordField.
+
+		txtUser = new JTextField ();
+		txtUser.setBounds (100, 20, 150, 25);
+		txtPass = new JPasswordField ();
+		txtPass.setBounds (100, 55, 150, 25);

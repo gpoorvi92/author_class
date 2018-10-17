@@ -1,0 +1,10 @@
+  }
+
+  public VirusDetectionResultData() {
+  }
+
+  public VirusDetectionResultData(
+    String checkTime,
+    String MD5,
+    int checkEngineNum,
+    int positives,

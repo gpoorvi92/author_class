@@ -1,0 +1,10 @@
+}
+
+/**
+ * This tree model describes the tree structure of an XML document.
+ */
+class DOMTreeModel implements TreeModel
+{
+   private Document doc;
+
+   /**

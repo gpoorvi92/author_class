@@ -1,0 +1,10 @@
+   {
+      display.append(s);
+   }
+
+   /**
+      Adds a button to the center panel.
+      @param label the button label
+      @param listener the button listener
+   */
+   private void addButton(String label, ActionListener listener)

@@ -1,0 +1,10 @@
+		// public void mouseClicked(MouseEvent e) {
+		// f.setBackground(Color.RED);
+		// }
+		// });
+
+		redButton.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				f.setBackground(Color.RED);
+			}

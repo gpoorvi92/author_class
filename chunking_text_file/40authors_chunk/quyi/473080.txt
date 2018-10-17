@@ -1,0 +1,10 @@
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, queryMission_args args, org.apache.thrift.async.AsyncMethodCallback<List<com.nercis.isscp.idl.AppCheckResult>> resultHandler) throws TException {
+        iface.queryMission(args.missionId,resultHandler);
+      }
+    }
+
+    public static class updateAppStatus<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, updateAppStatus_args, com.nercis.isscp.idl.Result> {

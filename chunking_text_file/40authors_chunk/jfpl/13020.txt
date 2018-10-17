@@ -1,0 +1,10 @@
+				intent = new Intent();
+				intent.putExtra("title", acd.getStringValue("title"));
+				intent.putExtra("busi_type", acd.getStringValue("app_id"));
+				url = url.replace("intent://", "");
+				int index = url.lastIndexOf(".");
+				intent.setClassName(url.substring(0, index), url);
+			} else {
+				GlobalVariables.showToast(this, "非法路径");
+				return;
+			}

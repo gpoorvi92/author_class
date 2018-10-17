@@ -1,0 +1,10 @@
+      while (bIter.hasNext())
+      {
+         bIter.next(); // skip one element
+         if (bIter.hasNext())
+         {
+            bIter.next(); // skip next element
+            bIter.remove(); // remove that element
+         }
+      }
+

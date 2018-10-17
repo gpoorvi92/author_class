@@ -1,0 +1,10 @@
+		this.triggerView.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				rightMenuClick(v);
+			}
+		});
+	}
+
+	public void addMenuItem(String name, String tag, View.OnClickListener click) {

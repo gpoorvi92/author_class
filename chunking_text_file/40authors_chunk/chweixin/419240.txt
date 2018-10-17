@@ -1,0 +1,10 @@
+	public void setLastActiveTime(Date lastActiveTime) {
+		this.lastActiveTime = lastActiveTime;
+	}
+	/**
+	 * 清空上下文。
+	 * */
+	public synchronized void clear(){
+		this.lastMenuKey = null;
+		this.setUserId(null);
+	}

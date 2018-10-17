@@ -1,0 +1,10 @@
+//
+//		this.mBitmapTextureAtlas = new BitmapTextureAtlas(this.getTextureManager(), 32, 32, TextureOptions.BILINEAR);
+//		this.mFaceTextureRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(this.mBitmapTextureAtlas, this, "face_box.png", 0, 0);
+//		this.mBitmapTextureAtlas.load();
+//	}
+//
+//	@Override
+//	public Scene onCreateScene() {
+//		this.mEngine.registerUpdateHandler(new FPSLogger());
+//		final Scene scene = new Scene();

@@ -1,0 +1,10 @@
+
+  public String getSourcePort() {
+    return this.sourcePort;
+  }
+
+  public NetworkPacket setSourcePort(String sourcePort) {
+    this.sourcePort = sourcePort;
+    return this;
+  }
+

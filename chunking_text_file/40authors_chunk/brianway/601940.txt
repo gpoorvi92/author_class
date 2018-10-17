@@ -1,0 +1,10 @@
+        System.out.println("计划时间为：" + runDate);
+
+        TaskA2 task1 = new TaskA2();
+        TaskB2 task2 = new TaskB2();
+        Timer timer = new Timer();
+        timer.schedule(task1, runDate, 2000);
+        timer.schedule(task2, runDate, 2000);
+        Thread.sleep(10000);
+        timer.cancel();
+    }

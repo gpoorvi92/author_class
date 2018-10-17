@@ -1,0 +1,10 @@
+    public static final int MediaPlayerModuleChanged = 0x701;
+
+    private ArrayList<Handler> mEventHandler;
+    private static EventManager mInstance;
+
+    private EventManager() {
+        mEventHandler = new ArrayList<Handler>();
+    }
+
+    public static EventManager getIntance() {

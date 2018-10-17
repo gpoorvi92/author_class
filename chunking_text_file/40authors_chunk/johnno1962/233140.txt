@@ -1,0 +1,10 @@
+
+/// class java.awt.event.ComponentAdapter ///
+
+package org.genie.java_awt;
+
+public class ComponentAdapterProxy extends java.awt.event.ComponentAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.ComponentAdapter()

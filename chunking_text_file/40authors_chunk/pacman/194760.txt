@@ -1,0 +1,10 @@
+		} finally {
+			
+			if (sender != null) {
+				sender.Close();
+			}
+			
+			mgr.closeTopicListener();
+			
+			locker.unlock();
+		}

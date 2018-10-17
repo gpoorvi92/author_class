@@ -1,0 +1,10 @@
+
+        onReleaseResources(data);
+    }
+
+    protected void onReleaseResources(List<SelectableFile> data) {
+
+        if (mFileObserver != null) {
+            mFileObserver.stopWatching();
+            mFileObserver = null;
+        }

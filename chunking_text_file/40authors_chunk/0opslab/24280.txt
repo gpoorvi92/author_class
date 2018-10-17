@@ -1,0 +1,10 @@
+        }
+        g2d.dispose();
+        return image;
+    }
+
+    /**
+     * 获取透明度,从0到1,自动计算步长
+     * @return float 透明度
+     */
+    private static float getAlpha(int i,int j,int len) {

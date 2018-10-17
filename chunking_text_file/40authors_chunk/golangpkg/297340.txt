@@ -1,0 +1,10 @@
+@RunWith(SpringJUnit4ClassRunner.class)
+public class ImportedFilesCleanerTest {
+
+	@Autowired
+	StaticStateRootFolderProvider staticStateRootFolderProvider;
+
+	@Autowired
+	ImportedFilesCleaner importedFilesCleaner;
+
+	@Autowired

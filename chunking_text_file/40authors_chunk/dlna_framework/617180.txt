@@ -1,0 +1,10 @@
+	{
+		return version;
+	}
+	
+	public int getStatusCode()
+	{
+		return statusCode;
+	}
+	
+	public String getReasonPhrase()

@@ -1,0 +1,10 @@
+    boolean that_present_missionProgress = true && that.isSetMissionProgress();
+    if (this_present_missionProgress || that_present_missionProgress) {
+      if (!(this_present_missionProgress && that_present_missionProgress))
+        return false;
+      if (!this.missionProgress.equals(that.missionProgress))
+        return false;
+    }
+
+    boolean this_present_samples = true && this.isSetSamples();
+    boolean that_present_samples = true && that.isSetSamples();

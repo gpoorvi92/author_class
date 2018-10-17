@@ -1,0 +1,4 @@
+         // don't set the color if the input can't be parsed
+      }
+   }
+}

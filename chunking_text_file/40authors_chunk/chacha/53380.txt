@@ -1,0 +1,10 @@
+			AuthRequest request=(AuthRequest)JsonPojoMapper.fromJson(requestJson, Request.class);
+			response=context.loginPass(request);		
+		}catch(Exception e){
+			response.setResult(ResponseCode.EXCEPTION);
+			log.error("CommandHandler handleLoginPass exception",e);
+		}finally{
+			return JsonPojoMapper.toJson(response, true);
+		}
+	}
+	

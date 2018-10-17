@@ -1,0 +1,10 @@
+            }
+         };
+
+      SAXParserFactory factory = SAXParserFactory.newInstance();
+      factory.setNamespaceAware(true);
+      factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+      SAXParser saxParser = factory.newSAXParser();
+      InputStream in = new URL(url).openStream();
+      saxParser.parse(in, handler);
+   }

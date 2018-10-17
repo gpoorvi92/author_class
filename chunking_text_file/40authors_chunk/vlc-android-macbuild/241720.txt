@@ -1,0 +1,10 @@
+            e.printStackTrace();
+            return 0;
+        }
+    }
+
+    @Override
+    public int getDuration() {
+        try {
+            return mMediaPlayer.getDuration();
+        } catch (IllegalStateException e) {

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void java.awt.dnd.DropTargetListener.dragEnter(java.awt.dnd.DropTargetDragEvent)
+
+    public native void __dragEnter( java.awt.dnd.DropTargetDragEvent dtde );
+
+    public void dragEnter( java.awt.dnd.DropTargetDragEvent dtde ) {
+        __dragEnter( dtde );
+    }

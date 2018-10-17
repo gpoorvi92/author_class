@@ -1,0 +1,6 @@
+main thread begin priority =5
+main thread end priority =6
+MyThread17_1 run priority=6
+MyThread17_2 run priority=6
+
+ */

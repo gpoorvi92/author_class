@@ -1,0 +1,10 @@
+   }
+}
+
+/**
+ * A panel with radio buttons for running code snippets and studying their exception behavior
+ */
+class ExceptTestPanel extends Box
+{
+   private ButtonGroup group;
+   private JTextField textField;

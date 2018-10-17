@@ -1,0 +1,6 @@
+     * The Constant DEFAULT_BUFFER_SIZE: default memory allocation when the
+     * object is constructed.
+     */
+    private static final int DEFAULT_BUFFER_SIZE = 4;
+    
+}

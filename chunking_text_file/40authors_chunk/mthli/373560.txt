@@ -1,0 +1,10 @@
+   private ContentHandler handler;
+
+   public void parse(InputSource source) throws IOException, SAXException
+   {
+      InputStream stream = source.getByteStream();
+      BufferedReader in = new BufferedReader(new InputStreamReader(stream));
+      String rootElement = "staff";
+      AttributesImpl atts = new AttributesImpl();
+
+      if (handler == null) throw new SAXException("No content handler");

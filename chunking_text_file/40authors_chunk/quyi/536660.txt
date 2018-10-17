@@ -1,0 +1,10 @@
+        struct.setCheckTimeIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.deviceType = DeviceType.findByValue(iprot.readI32());
+        struct.setDeviceTypeIsSet(true);
+      }
+    }
+  }
+
+}

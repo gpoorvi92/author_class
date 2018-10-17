@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class SoftwareStandardSchemeFactory implements SchemeFactory {
+    public SoftwareStandardScheme getScheme() {
+      return new SoftwareStandardScheme();
+    }
+  }
+
+  private static class SoftwareStandardScheme extends StandardScheme<Software> {

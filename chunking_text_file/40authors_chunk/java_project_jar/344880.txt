@@ -1,0 +1,10 @@
+
+public class LockableFileWriter extends Writer
+{
+
+    public LockableFileWriter(String fileName)
+        throws IOException
+    {
+        this(fileName, false, null);
+    }
+

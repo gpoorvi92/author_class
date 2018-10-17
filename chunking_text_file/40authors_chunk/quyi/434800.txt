@@ -1,0 +1,10 @@
+  public String checkEndDate; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {
+    APK_MD5((short)1, "apkMD5"),
+    SENSITIVE((short)2, "sensitive"),
+    AUTO_RUN_MONITOR((short)3, "autoRunMonitor"),
+    FILE_OPERATE((short)4, "fileOperate"),
+    NETWORK_PACKET((short)5, "networkPacket"),
+    SYSTEM_RESOURCES((short)6, "systemResources"),

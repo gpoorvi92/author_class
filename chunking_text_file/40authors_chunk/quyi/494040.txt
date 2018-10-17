@@ -1,0 +1,10 @@
+    if (!value) {
+      this.userAppId = null;
+    }
+  }
+
+  public int getPlotsStatusSize() {
+    return (this.plotsStatus == null) ? 0 : this.plotsStatus.size();
+  }
+
+  public void putToPlotsStatus(PlotsType key, CheckResultStatus val) {

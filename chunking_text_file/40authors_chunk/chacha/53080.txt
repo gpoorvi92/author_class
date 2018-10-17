@@ -1,0 +1,10 @@
+	 * 
+	 * @param message
+	 *            调试信息
+	 * @param t
+	 *            异常对象参数，将打印该异常对象堆栈信息
+	 */
+	public void info(Object message, Throwable t) {
+		prnLog.info(message, t);
+	}
+

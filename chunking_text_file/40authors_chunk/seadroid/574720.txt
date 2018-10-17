@@ -1,0 +1,10 @@
+    private TextView mErrorText;
+
+
+    private DataManager getDataManager() {
+        return mActivity.getDataManager();
+    }
+
+    public StarredItemAdapter getAdapter() {
+        return adapter;
+    }

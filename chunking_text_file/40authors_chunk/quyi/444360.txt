@@ -1,0 +1,10 @@
+    this.userApp = null;
+    this.staticCheckResult = null;
+    this.dynamicCheckResult = null;
+  }
+
+  public UserApp getUserApp() {
+    return this.userApp;
+  }
+
+  public AppCheckResult setUserApp(UserApp userApp) {

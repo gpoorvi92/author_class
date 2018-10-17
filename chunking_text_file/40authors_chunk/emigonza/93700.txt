@@ -1,0 +1,10 @@
+                       throws JposException;
+    public String  getApprovalCode() throws JposException;
+    public boolean getAsyncMode() throws JposException;
+    public void    setAsyncMode(boolean asyncMode) throws JposException;
+    public String  getCardCompanyID() throws JposException;
+    public String  getCenterResultCode() throws JposException;
+    public String  getDailyLog() throws JposException;
+    public int     getPaymentCondition() throws JposException;
+    public String  getPaymentDetail() throws JposException;
+		public int     getPowerNotify() throws JposException;

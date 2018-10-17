@@ -1,0 +1,10 @@
+		System.out.println("------------------");
+
+		// System.out.println(raf.read());
+		// raf.seek(0);
+		// System.out.println(raf.readInt());
+		raf.seek(4);
+		System.out.println(raf.readChar());
+
+		raf.seek(1000);
+		System.out.println(raf.readUTF());

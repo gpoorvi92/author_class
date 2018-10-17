@@ -1,0 +1,10 @@
+
+		String id = itemData.getStringValue("id");
+		if (acd.containsKey("image_id")) {
+			String imageId = acd.getStringValue("image_id");
+			String imageThumbId = acd.getStringValue("image_thumb_id");
+			ctx.update("update_chat_args", imageId, imageThumbId, id);
+			ChatMessageUtil.sendChatImage(ctx, GlobalVariables.loginUsername,
+					GlobalVariables.chatToUser, "to_group", imageId,
+					imageThumbId, new ChatImageService(ctx, chatList,
+							progressBar, imageView, itemData));

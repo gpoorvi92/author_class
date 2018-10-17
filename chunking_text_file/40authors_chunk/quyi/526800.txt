@@ -1,0 +1,10 @@
+    if (this_present_samples || that_present_samples) {
+      if (!(this_present_samples && that_present_samples))
+        return false;
+      if (!this.samples.equals(that.samples))
+        return false;
+    }
+
+    return true;
+  }
+

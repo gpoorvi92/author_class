@@ -1,0 +1,10 @@
+	/**
+	 * 获取回复状态。
+	 * @return
+	 * 回复状态(1-启用,0-停用)。
+	 * */
+	public Integer getStatus() {
+		return status;
+	}
+	/**
+	 * 设置回复状态。

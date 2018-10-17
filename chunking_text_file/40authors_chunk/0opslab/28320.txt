@@ -1,0 +1,10 @@
+     * 
+     * @see java.nio.charset.Charset#contains(java.nio.charset.Charset)
+     */
+    public boolean contains(Charset cs) {
+        return false;
+    }
+
+    /*
+     * (non-Javadoc)
+     * 

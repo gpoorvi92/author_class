@@ -1,0 +1,10 @@
+        jLabel2b.setText("Hidden 2 neurons:");
+        jLabel2b.setBounds(new Rectangle(4, 211, 144, 19));
+        jLabel3.setText("Output neurons:");
+        jLabel3.setBounds(new Rectangle(4, 317, 240, 19));
+        jLabel4.setText("Input to H1 weights");
+        jLabel4.setBounds(new Rectangle(230, 80, 170, 19));
+        jLabel4b.setText("H1 to H2 weights");
+        jLabel4b.setBounds(new Rectangle(230, 180, 170, 19));
+        jLabel5.setText("H2 to output weights");
+        jLabel5.setBounds(new Rectangle(230, 280, 170, 19));

@@ -1,0 +1,10 @@
+            System.out.println("获取系统信息失败");
+            e.printStackTrace();
+        }
+
+
+    }
+
+
+    /**
+     * 已使用的物理内存

@@ -1,0 +1,10 @@
+		}
+
+		hm.put(key, "小王");
+		array.add(key);
+		key++;
+		hm.put(key, "大王");
+		array.add(key);
+
+		// 洗牌
+		Collections.shuffle(array);

@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch7.pc;
+
+import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.BlockingQueue;
+
+public class WorkStealingChannel<T> implements WorkStealingEnabledChannel<T> {
+	// 受管队列

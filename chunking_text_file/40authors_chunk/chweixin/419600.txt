@@ -1,0 +1,10 @@
+		return this.sort;
+	}
+
+	@Override
+	public void setSort(String sort) {
+		this.sort = sort;
+	}
+
+	@Override
+	public String getOrder() {

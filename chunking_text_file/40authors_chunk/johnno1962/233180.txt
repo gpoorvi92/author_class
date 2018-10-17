@@ -1,0 +1,10 @@
+    boolean entered_componentResized_0;
+
+    public void componentResized( java.awt.event.ComponentEvent e ) {
+        if ( !entered_componentResized_0 ) {
+            entered_componentResized_0 = true;
+            __componentResized( e );
+            entered_componentResized_0 = false;
+        }
+        else
+            super.componentResized( e );

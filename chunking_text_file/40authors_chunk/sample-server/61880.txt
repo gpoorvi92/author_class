@@ -1,0 +1,10 @@
+            doRun();
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        lastStop = new Date();
+    }
+    protected abstract void doRun();
+    public long getTimeIntervalInMillis()
+    {

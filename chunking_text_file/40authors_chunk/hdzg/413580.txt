@@ -1,0 +1,10 @@
+package wyf.ytl.view;
+
+import java.util.ArrayList;
+
+import wyf.ytl.R;
+import wyf.ytl.R.drawable;
+import wyf.ytl.entity.CityDrawable;
+import wyf.ytl.entity.General;
+
+import android.content.res.Resources;

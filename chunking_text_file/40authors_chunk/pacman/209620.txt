@@ -1,0 +1,10 @@
+	/**
+	 * @param memTotal the memTotal to set
+	 */
+	public void setMemTotal(long memTotal) {
+		this.memTotal = memTotal;
+	}
+	/**
+	 * @return the memUsed
+	 */
+	public long getMemUsed() {

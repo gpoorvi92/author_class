@@ -1,0 +1,10 @@
+    }
+
+    public modifyTaskManagerConfig_args setPropertyValue(String propertyValue) {
+      this.propertyValue = propertyValue;
+      return this;
+    }
+
+    public void unsetPropertyValue() {
+      this.propertyValue = null;
+    }

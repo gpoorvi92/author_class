@@ -1,0 +1,10 @@
+    private final Buffer buffer;
+    private int position;
+    private boolean runningBit;
+    private int runningLength;
+    private long word;
+    private long wordMask;
+    private int wordPosition;
+    private int wordLength;
+    private boolean hasNext;
+    private Boolean nextBit;

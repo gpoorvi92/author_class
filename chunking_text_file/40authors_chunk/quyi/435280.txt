@@ -1,0 +1,10 @@
+
+  public List<String> getSensitive() {
+    return this.sensitive;
+  }
+
+  public DynamicCheckResultData setSensitive(List<String> sensitive) {
+    this.sensitive = sensitive;
+    return this;
+  }
+

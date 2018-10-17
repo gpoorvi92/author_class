@@ -1,0 +1,10 @@
+import java.util.SimpleTimeZone;
+import java.util.concurrent.atomic.AtomicLong;
+
+public class Logger {
+
+	// 接口日志输出目标目录
+	private static final String LOG_FILE_BASE_DIR = System
+	    .getProperty("java.io.tmpdir") + "/tps/";
+	private static final String TIME_STAMP_FORMAT = "yyyy-MM-dd HH:mm:ss.SSS";
+	private static final String TIME_STAMP_FORMAT1 = "yyyyMMddHHmm";

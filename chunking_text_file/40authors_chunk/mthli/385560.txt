@@ -1,0 +1,10 @@
+            addListener(c, eventSet);
+      }
+      catch (IntrospectionException e)
+      {
+      }
+      // ok not to add listeners if exception is thrown
+
+      if (c instanceof Container)
+      {
+         // get all children and call add recursively

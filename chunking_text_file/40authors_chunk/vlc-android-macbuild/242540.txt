@@ -1,0 +1,10 @@
+
+    private MediaResourceGroup(Parcel in) {
+        Bundle bundle = in
+                .readBundle(MediaResourceGroup.class.getClassLoader());
+
+        mResourceList = bundle.getParcelableArrayList(BUNDLE_RES_LIST);
+    }
+
+    public static final Parcelable.Creator<MediaResourceGroup> CREATOR = new Parcelable.Creator<MediaResourceGroup>() {
+        public MediaResourceGroup createFromParcel(Parcel in) {

@@ -1,0 +1,10 @@
+	
+	gbc.gridx = 1;
+    gbc.gridy = 9;
+    upper.add(txtBookSearch, gbc);
+    
+      
+    gbc.gridx = 3;
+    gbc.gridy = 9;
+    upper.add(dump, gbc);
+    dump.setVisible(false);

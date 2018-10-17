@@ -1,0 +1,10 @@
+	/**
+	 * 
+	 * 
+	 * @Title: tryParse
+	 * @param str
+	 * @param defaultValue
+	 * @return
+	 * @return: int
+	 */
+	public static int tryParse(String str, int defaultValue) {

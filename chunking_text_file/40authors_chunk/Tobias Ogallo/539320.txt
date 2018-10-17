@@ -1,0 +1,10 @@
+		rowSel.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
+			public void valueChanged(javax.swing.event.ListSelectionEvent e) {
+				if (e.getValueIsAdjusting()) return;
+
+				javax.swing.ListSelectionModel sel = (ListSelectionModel)e.getSource();
+				if (!sel.isSelectionEmpty()) {
+					selectedRow = sel.getMinSelectionIndex();
+				}
+			}
+		});

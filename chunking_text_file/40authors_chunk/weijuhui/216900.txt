@@ -1,0 +1,10 @@
+                }
+                );
+            }
+        }
+        {
+            View view = findViewById(id.title_pos);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+

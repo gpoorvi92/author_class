@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 17, 2014
+ Problem:    Merge k Sorted Lists
+ Difficulty: easy
+ Source:     https://oj.leetcode.com/problems/merge-k-sorted-lists/
+ Notes:
+ Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+ 
+ Solution: Find the smallest list-head first using minimum-heap(lgk).

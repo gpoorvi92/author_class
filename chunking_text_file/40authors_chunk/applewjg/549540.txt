@@ -1,0 +1,10 @@
+        List<Integer> res = new ArrayList<Integer>();
+        if (root == null) return res;
+        Stack<TreeNode> stk = new Stack<TreeNode>();
+        TreeNode cur = root;
+        TreeNode pre = null;
+        while (stk.isEmpty() == false || cur != null) {
+            if (cur != null) {
+                stk.push(cur);
+                cur = cur.left;
+            } else {

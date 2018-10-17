@@ -1,0 +1,10 @@
+	private Supplier supplier;
+	private int buycount;
+	private Set<BxgPriceCut> bxgPriceCuts;
+	private boolean valid;
+	private Set<OrderBxg> orderBxgs;
+	
+	@OneToMany(mappedBy = "bxg", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<OrderBxg> getOrderBxgs() {
+		return orderBxgs;
+	}

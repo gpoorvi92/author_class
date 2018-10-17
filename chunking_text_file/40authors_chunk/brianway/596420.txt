@@ -1,0 +1,10 @@
+-------
+输出不唯一：
+run begin
+end
+沉睡中被停止！进入catch!false
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.brianway.learning.java.multithread.meet.MyThread11.run(Run11_sleepAndinterrupt01.java:18)
+
+*/

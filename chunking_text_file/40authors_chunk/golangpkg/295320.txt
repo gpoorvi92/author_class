@@ -1,0 +1,10 @@
+			set.add(fileId);
+		}
+
+	}
+
+
+	public void stopOperation(UUID clientId, UUID fileId) {
+		log.debug("stopping operation for client "+clientId + " and file "+fileId);
+		
+		// remove from map

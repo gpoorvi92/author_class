@@ -1,0 +1,10 @@
+	}
+	
+	/**
+	 * 增删改查帐号单元测试
+	 */
+	@Test
+	public void crudAccountTest(){
+		//批量新增10个帐号
+		long begin=System.currentTimeMillis();
+		String[] userNames=new String[10];

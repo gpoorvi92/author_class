@@ -1,0 +1,10 @@
+        for (int i = 0; i < 2*n+1; ++i) {
+            p[i] = (mx > i) ? Math.min(p[2*id-i], mx - i) : 0;
+            int left = i - 1 - p[i],  right = i + 1 + p[i];
+            while (left>=0 && right <= 2*n) {
+                if (left % 2 == 0 || s.charAt(left/2) == s.charAt(right/2)) {
+                    ++p[i];
+                } else break;
+                --left;
+                ++right;
+            }

@@ -1,0 +1,10 @@
+
+
+package com.jml.eisapp.acctg.ledger.src.process;
+
+import com.jml.eisapp.acctg.base.*;
+import com.jml.eisapp.acctg.interfaces.*;
+
+public class CheckGenJournalEntries implements CheckEntries{
+
+	private CompCodeIsValid moCompCodeIsValid = new CompCodeIsValid();

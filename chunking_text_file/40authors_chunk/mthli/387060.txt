@@ -1,0 +1,10 @@
+   public Object getChild(Object parent, int index)
+   {
+      Node node = (Node) parent;
+      NodeList list = node.getChildNodes();
+      return list.item(index);
+   }
+
+   public int getIndexOfChild(Object parent, Object child)
+   {
+      Node node = (Node) parent;

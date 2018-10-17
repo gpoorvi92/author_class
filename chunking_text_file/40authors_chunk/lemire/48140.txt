@@ -1,0 +1,10 @@
+        final int cut = length
+                / 2
+                + ((range - length - 1 > 0) ? this.unidg.rand
+                .nextInt(range - length - 1) : 0);
+        final double p = this.unidg.rand.nextDouble();
+        if (p < 0.25) {
+            fillUniform(array, offset, length / 2, Min, Min + cut);
+            fillClustered(array, offset + length / 2, length
+                    - length / 2, Min + cut, Max);
+        } else if (p < 0.5) {

@@ -1,0 +1,10 @@
+	public final static int findFirstNotOf(String str, String chars)
+	{
+		return findOf(str, chars, 0, (str.length()-1), 1, false);
+	}
+	
+	public final static int findLastOf(String str, String chars)
+	{
+		return findOf(str, chars, (str.length()-1), 0, -1, true);
+	}
+	

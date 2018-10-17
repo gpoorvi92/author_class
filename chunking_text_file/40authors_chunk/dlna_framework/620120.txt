@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	Location
+	////////////////////////////////////////////////
+
+	public void setLocation(String value)
+	{
+		setHeader(HTTP.LOCATION, value);
+	}
+
+	public String getLocation()

@@ -1,0 +1,9 @@
+			} catch (JMSException e) {
+
+				throw new MQException("fail to close topic connection.", e);
+			}
+		}
+	}
+
+	
+}

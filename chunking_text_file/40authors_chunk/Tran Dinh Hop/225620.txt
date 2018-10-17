@@ -1,0 +1,10 @@
+	        	returnVal = fc.showDialog(FileChooser.this, "Open");
+			
+		} else if (_fileType == "lzw" && _action == "Save"){ // Target file to Compress with lzw
+            	fc.addChoosableFileFilter(new LZWFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");
+			
+		} else if (_fileType == "lzw" && _action == "Open"){ // Source file to DeCompress with lzw
+            	fc.addChoosableFileFilter(new LZWFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));

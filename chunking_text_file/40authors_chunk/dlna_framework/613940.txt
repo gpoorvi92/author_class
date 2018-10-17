@@ -1,0 +1,10 @@
+				Thread.sleep(renewInterval);
+			} catch (InterruptedException e1) {
+			}
+			
+			try {
+				long time1 = System.currentTimeMillis();
+				ctrlp.renewSubscriberService();
+				long time2 = System.currentTimeMillis();
+	//			log.e("ctrlp.renewSubscriberService() cost time = " + (time2 - time1));
+			} catch (Exception e) {

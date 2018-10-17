@@ -1,0 +1,10 @@
+// ToneIndicatorBeanInfo.java - Bean information for the JavaPOS ToneIndicator
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

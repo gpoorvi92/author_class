@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot;
+
+import com.pengrad.telegrambot.impl.FileApi;
+import com.pengrad.telegrambot.impl.TelegramBotClient;
+import com.pengrad.telegrambot.model.File;
+import com.pengrad.telegrambot.request.BaseRequest;
+import com.pengrad.telegrambot.response.BaseResponse;
+
+/**
+ * Stas Parshin

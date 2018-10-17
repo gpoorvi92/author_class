@@ -1,0 +1,10 @@
+    this.reportPath = reportPath;
+    return this;
+  }
+
+  public void unsetReportPath() {
+    this.reportPath = null;
+  }
+
+  /** Returns true if field reportPath is set (has been assigned a value) and false otherwise */
+  public boolean isSetReportPath() {

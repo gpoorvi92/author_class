@@ -1,0 +1,10 @@
+/**
+ * @version 1.00 2007-10-28
+ * @author Cay Horstmann
+ */
+public class CompilerTest
+{
+   public static void main(final String[] args) throws IOException, ClassNotFoundException
+   {
+      JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+

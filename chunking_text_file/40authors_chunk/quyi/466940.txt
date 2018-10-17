@@ -1,0 +1,10 @@
+		return time;
+	}
+
+	public static String searchMission(String missionId) {
+		TTransport transport = new TSocket(engine_address, engine_port);
+		try {
+			transport.open();
+		} catch (TTransportException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();

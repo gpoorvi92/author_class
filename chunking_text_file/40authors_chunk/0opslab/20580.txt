@@ -1,0 +1,10 @@
+
+    /**
+     * 将字符编码转换成UTF-16码
+     */
+    public final static String toUTF_16(String str) throws UnsupportedEncodingException {
+        return changeCharset(str, UTF_16);
+    }
+
+    /**
+     * 将字符编码转换成GBK码

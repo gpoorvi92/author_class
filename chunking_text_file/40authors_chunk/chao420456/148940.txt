@@ -1,0 +1,10 @@
+ */
+public class SystemOutDemo {
+	public static void main(String[] args) throws IOException {
+		// 标准输入流
+		// PrintStream ps = System.out;
+		// OutputStream os = ps;
+		// OutputStream os = System.out; // PrintStream,多态
+		// System.out.println(os);
+
+		// os.write("hello\r\n".getBytes());

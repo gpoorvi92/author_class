@@ -1,0 +1,10 @@
+		this.basicEarning = basicEarning;
+		this.skillType = skillType;
+		this.hero = hero;
+		proficiencyLevel = 1;
+		tempProficiency = 0;
+		proficiencyToUpgrade = 100;
+	}
+	//方法：每次使用前调用，根据返回英雄应得的收益，如果无收益则返回-1;
+	public abstract int calculateResult();
+	

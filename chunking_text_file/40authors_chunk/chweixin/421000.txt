@@ -1,0 +1,10 @@
+		}
+		folderBuilder.append(this.tempFolder);
+		if(this.tempFolder.charAt(this.tempFolder.length()  - 1) != File.separatorChar){
+			folderBuilder.append(File.separatorChar);
+		}
+		folderBuilder.append(new SimpleDateFormat("yyyy-MM-dd").format(new Date())).append(File.separatorChar);
+		if(this.getUserIdentity() != null){ 
+			folderBuilder.append(this.getUserIdentity().getId()).append(File.separatorChar);
+		}
+		String folder = folderBuilder.toString(),

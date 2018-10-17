@@ -1,0 +1,10 @@
+    }
+
+    public static MainActivity_.IntentBuilder_ intent(Context context) {
+        return new MainActivity_.IntentBuilder_(context);
+    }
+
+    public static class IntentBuilder_ {
+
+        private Context context_;
+        private final Intent intent_;

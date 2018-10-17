@@ -1,0 +1,10 @@
+
+  public Engine setEngineRules(List<String> engineRules) {
+    this.engineRules = engineRules;
+    return this;
+  }
+
+  public void unsetEngineRules() {
+    this.engineRules = null;
+  }
+

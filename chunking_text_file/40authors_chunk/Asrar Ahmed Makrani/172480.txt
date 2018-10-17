@@ -1,0 +1,10 @@
+ 		j = jj;
+ 		k = kk;
+ 		l = ll;
+ 		
+ 		
+ 	}
+		
+ 		public void add()
+ 		{
+ 		try

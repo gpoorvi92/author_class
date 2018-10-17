@@ -1,0 +1,10 @@
+    protected void processChars(char ac[], int i, int j)
+    {
+    }
+
+    private int doEndOfFile()
+        throws EOFException
+    {
+        eof = true;
+        if(throwEofException)
+            throw new EOFException();

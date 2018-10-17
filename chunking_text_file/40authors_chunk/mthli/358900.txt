@@ -1,0 +1,10 @@
+      int top = Integer.parseInt(settings.getProperty("top"));
+      int width = Integer.parseInt(settings.getProperty("width"));
+      int height = Integer.parseInt(settings.getProperty("height"));
+      setBounds(left, top, width, height);
+
+      // if no title given, ask user
+
+      String title = settings.getProperty("title");
+      if (title.equals("")) title = JOptionPane.showInputDialog("Please supply a frame title:");
+      if (title == null) title = "";

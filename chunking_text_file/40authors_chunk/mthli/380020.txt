@@ -1,0 +1,10 @@
+         };
+
+      // add a plain slider
+
+      JSlider slider = new JSlider();
+      addSlider(slider, "Plain");
+
+      // add a slider with major and minor ticks
+
+      slider = new JSlider();

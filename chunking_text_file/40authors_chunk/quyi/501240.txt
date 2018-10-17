@@ -1,0 +1,10 @@
+      if (struct.isSetTaskQueueLimit()) {
+        oprot.writeI32(struct.taskQueueLimit);
+      }
+      if (struct.isSetTaskQueueNume()) {
+        oprot.writeI32(struct.taskQueueNume);
+      }
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, NodeHeat struct) throws org.apache.thrift.TException {

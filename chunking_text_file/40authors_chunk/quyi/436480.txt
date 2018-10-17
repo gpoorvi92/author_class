@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("networkPacket:");
+    if (this.networkPacket == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.networkPacket);
+    }
+    first = false;

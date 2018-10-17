@@ -1,0 +1,10 @@
+        this.path = path;
+        this.isdir = isdir;
+        this.account = account;
+    }
+
+    private DataManager getDataManager() {
+        if (dataManager == null) {
+            dataManager = new DataManager(account);
+        }
+

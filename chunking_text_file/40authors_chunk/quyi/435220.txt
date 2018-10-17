@@ -1,0 +1,10 @@
+
+  public void unsetApkMD5() {
+    this.apkMD5 = null;
+  }
+
+  /** Returns true if field apkMD5 is set (has been assigned a value) and false otherwise */
+  public boolean isSetApkMD5() {
+    return this.apkMD5 != null;
+  }
+

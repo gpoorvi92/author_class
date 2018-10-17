@@ -1,0 +1,10 @@
+		alertDialogBuilder = new AlertDialog.Builder(this).setTitle("请输入短信验证码")
+				.setIcon(android.R.drawable.ic_dialog_info).setView(et)
+				.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+
+					@Override
+					public void onClick(DialogInterface dialog, int which) {
+						dialog.dismiss();
+						new Thread(new Runnable() {
+
+							@Override

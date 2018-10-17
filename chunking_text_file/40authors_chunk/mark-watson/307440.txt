@@ -1,0 +1,10 @@
+ */
+public class SparqlQueries implements ISparqlProcessResults {
+  public static void main (String [] args) throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      new SparqlQueries();
+  }
+  
+  public SparqlQueries() throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      TripleStoreSesameManager ts = new TripleStoreSesameManager();
+      ts.loadRDF("rdf_files/knowledgebooks_namespace.n3");
+      ts.loadRDF("rdf_files/rdfs.nt");

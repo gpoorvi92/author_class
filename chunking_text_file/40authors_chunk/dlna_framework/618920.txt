@@ -1,0 +1,10 @@
+*	Revision;
+*
+*	06/15/04
+*		- first revision.
+*	01/08/08
+*		- Fixed parse() not to occur null exception when the NamedNodeMap is null on Android.
+*	02/08/08
+*		- Change parse() to use Node::addValue() instead of the setValue().
+*
+******************************************************************/

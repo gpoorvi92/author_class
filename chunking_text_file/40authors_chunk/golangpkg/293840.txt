@@ -1,0 +1,10 @@
+		final StaticFileState value = new StaticFileState();
+		entity.getFileStates().put(identifier, value);
+		final FileStateJsonBase staticFileStateJson = new FileStateJsonBase();
+		value.setStaticFileStateJson(staticFileStateJson);
+		staticFileStateJson.setCrcedBytes(100l);
+
+		if (lala) {
+			staticFileStateJson.setOriginalFileSizeInBytes(10000l);
+		}
+		else {

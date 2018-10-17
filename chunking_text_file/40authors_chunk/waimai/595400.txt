@@ -1,0 +1,10 @@
+@RequestMapping("/user/goods")
+public class UGoodsController extends BaseController {
+    @Autowired
+    private IGoodsService goodsService;
+
+    @RequestMapping("/list/byMerchant")
+    public @ResponseBody Map<String, Object> findByMerchant(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<Goods> goodsList = goodsService.search(vo);
+        map.put("count", goodsList.size());

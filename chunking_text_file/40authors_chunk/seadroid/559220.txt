@@ -1,0 +1,10 @@
+ */
+public class SingleImageList implements IImageList {
+
+    @SuppressWarnings("unused")
+    private static final String TAG = "BaseImageList";
+
+    private IImage mSingleImage;
+    private Uri mUri;
+
+    public SingleImageList(ContentResolver resolver, Uri uri) {

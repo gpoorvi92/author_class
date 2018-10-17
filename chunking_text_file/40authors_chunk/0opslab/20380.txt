@@ -1,0 +1,10 @@
+     * @return 图像数据
+     */
+    public static BufferedImage imageShrinkRatio(BufferedImage originalImage, Integer withdRatio,Integer heightRatio){
+        if(withdRatio <= 0){
+            withdRatio =1;
+        }
+        if(heightRatio <= 0){
+            heightRatio =1;
+        }
+        int width = originalImage.getWidth()/withdRatio;

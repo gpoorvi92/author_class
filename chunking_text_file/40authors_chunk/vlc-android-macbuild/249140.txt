@@ -1,0 +1,10 @@
+    private boolean mIsVslIndex;
+
+    public LibVlcVideoSegmentListLoader(Context context,
+            PlayIndex.Resolver resolver) {
+        mWeakContext = new WeakReference<Context>(context);
+        mResolver = resolver;
+    }
+
+    public boolean parseIndexMrl(String mrl) {
+        mMrl = Mrl.parse(mrl);

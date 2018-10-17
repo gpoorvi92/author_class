@@ -1,0 +1,10 @@
+    private int mQueueSize; // <=0 for no limit
+
+    public LoaderLauncher(int id, Fragment fragment,
+            LoaderCallbacks<D> callbacks) {
+        mWeakFragment = new WeakReference<Fragment>(fragment);
+        mWeakCallbacks = new WeakReference<LoaderCallbacks<D>>(callbacks);
+
+        addExtraLoader(id);
+    }
+

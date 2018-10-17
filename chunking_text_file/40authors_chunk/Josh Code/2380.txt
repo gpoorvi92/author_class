@@ -1,0 +1,10 @@
+{
+ private Point prevPoint;
+ private modelViewPanel panel;
+ private double sensetivity = 5;
+
+    public ModelViewerMouseListener(modelViewPanel panel)
+    {
+        this.panel = panel;
+    }
+

@@ -1,0 +1,10 @@
+ * @date: 2015年1月8日 上午11:47:36
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;

@@ -1,0 +1,10 @@
+        map.put("3", "test3");
+        map.put("4", "test4");
+        System.out.println(map);
+
+        Vector<String> all = new Vector<>();
+        all.add("hello");
+        all.add("world");
+        System.out.println(all);
+        System.out.println(all.elements());
+    }

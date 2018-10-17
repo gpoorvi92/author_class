@@ -1,0 +1,10 @@
+            addFileFilter(filter2);
+            return;
+        }
+    }
+
+    public void addFileFilter(IOFileFilter ioFileFilter)
+    {
+        fileFilters.add(ioFileFilter);
+    }
+

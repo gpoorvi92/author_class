@@ -1,0 +1,10 @@
+		assertTrue(FileHelper.exists("e:/1.data"));
+	}
+
+	@Test
+	public void testDecode() {
+		
+		MediaEncrypt encrypt = new MediaEncrypt();
+		encrypt.decodeMedia("e:/1.data", "e:/11.zip");
+		
+		assertTrue(FileHelper.exists("e:/11.zip"));

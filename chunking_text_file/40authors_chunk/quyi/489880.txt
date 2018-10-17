@@ -1,0 +1,10 @@
+                  struct.functionStatus = new HashMap<String,com.nercis.isscp.idl.CheckResultStatus>(2*_map74.size);
+                  for (int _i75 = 0; _i75 < _map74.size; ++_i75)
+                  {
+                    String _key76;
+                    com.nercis.isscp.idl.CheckResultStatus _val77;
+                    _key76 = iprot.readString();
+                    _val77 = com.nercis.isscp.idl.CheckResultStatus.findByValue(iprot.readI32());
+                    struct.functionStatus.put(_key76, _val77);
+                  }
+                  iprot.readMapEnd();

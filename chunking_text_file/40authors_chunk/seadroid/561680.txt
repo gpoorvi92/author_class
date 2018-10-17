@@ -1,0 +1,9 @@
+            this.title = title;
+            this.subtitle = subtitle;
+
+        }
+
+    }
+
+
+}

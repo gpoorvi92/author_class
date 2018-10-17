@@ -1,0 +1,10 @@
+        c.set(Calendar.MILLISECOND, 0);
+        long startTime = c.getTimeInMillis();
+        // get the last millisecond of that hour
+        c.set(year, month, day, hour, 59, 59);
+        c.set(Calendar.MILLISECOND, 999);
+        long endTime = c.getTimeInMillis();
+        return new TimeObject(String.format(formatString, c,c), startTime, endTime);
+    }
+
+    public static TimeObject getMinute(Calendar c, String formatString) {

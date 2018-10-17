@@ -1,0 +1,10 @@
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				gameView.stopGame();
+				gameView.activity.myHandler.sendEmptyMessage(14);//向Activity发消息回菜单
+			}			
+		}
+		return true;
+	}
+	

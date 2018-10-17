@@ -1,0 +1,10 @@
+    }
+
+    public static void CheckEqual(int expect, int real) {
+        if (expect != real)
+            throw new IllegalArgumentException("AssureEqual");
+    }
+
+    public static void CheckEqualNoCase(String expect, String real) {
+        if (expect == null && real == null)
+            return;

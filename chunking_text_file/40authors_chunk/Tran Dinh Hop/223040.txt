@@ -1,0 +1,10 @@
+		String fileName =(f.getName().substring (0,pos));
+
+		outFileName = "C:\\CoDecImage\\DesImages\\"+fileName+".tif";
+	     FileOutputStream fosImage = createOutputStream(outFileName);
+
+	     encodeParam = new TIFFEncodeParam();
+			
+		// Set parameters from command line arguments.
+		PlanarImage srcImage = loadImage(inFile);
+		

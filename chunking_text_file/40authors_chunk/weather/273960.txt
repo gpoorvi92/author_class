@@ -1,0 +1,10 @@
+	public FileDownloader(FileDownloaderDelegate delegate) {
+		this.delegate = delegate;
+	}
+
+
+
+	
+	/*
+	 * Public methods
+	 */

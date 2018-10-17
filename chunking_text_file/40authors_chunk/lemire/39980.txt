@@ -1,0 +1,10 @@
+            this.buffer = o.buffer;
+            o.actualSizeInWords = tmp2;
+            o.buffer = tmp;
+        } else {
+            other.swap(this);
+        }
+    }
+    
+    /**
+     * The actual size in words.

@@ -1,0 +1,10 @@
+
+    public void columnMarginChanged( javax.swing.event.ChangeEvent e ) {
+        __columnMarginChanged( e );
+    }
+
+    /// public abstract void javax.swing.event.TableColumnModelListener.columnSelectionChanged(javax.swing.event.ListSelectionEvent)
+
+    public native void __columnSelectionChanged( javax.swing.event.ListSelectionEvent e );
+
+    public void columnSelectionChanged( javax.swing.event.ListSelectionEvent e ) {

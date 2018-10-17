@@ -1,0 +1,10 @@
+	
+	public String getOutFileName(){
+		return (outFileName);
+	}
+
+
+	public static void main(String args[]) {
+         	TIFEncoder jtest = new TIFEncoder(args[0]);
+     }
+

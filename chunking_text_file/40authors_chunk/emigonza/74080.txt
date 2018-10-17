@@ -1,0 +1,10 @@
+        makeProperty("DrawerOpened"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();

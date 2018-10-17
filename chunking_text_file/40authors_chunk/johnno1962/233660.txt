@@ -1,0 +1,10 @@
+            return arg;
+        }
+
+        public float[] floatArrayMethod( float arg[] ) {
+            return arg;
+        }
+
+        public float[][] float2dArrayMethod( float arg[][] ) {
+            return arg;
+        }

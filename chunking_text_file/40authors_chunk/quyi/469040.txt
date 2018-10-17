@@ -1,0 +1,10 @@
+      }
+      if (struct.pak != null) {
+        oprot.writeFieldBegin(PAK_FIELD_DESC);
+        oprot.writeString(struct.pak);
+        oprot.writeFieldEnd();
+      }
+      if (struct.obj != null) {
+        oprot.writeFieldBegin(OBJ_FIELD_DESC);
+        oprot.writeString(struct.obj);
+        oprot.writeFieldEnd();

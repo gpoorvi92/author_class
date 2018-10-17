@@ -1,0 +1,10 @@
+        }
+        assertEquals(3 * 32, ctr);
+    }
+
+    @Test
+    public void testStartDirty() {
+        System.out.println("testing int iteration, no initial runs");
+        EWAHCompressedBitmap32 e = new EWAHCompressedBitmap32();
+        for (int i = 1; i < 2 * 32; ++i)
+            e.set(i);

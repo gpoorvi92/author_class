@@ -1,0 +1,10 @@
+      Variable oldRoot = v;
+      root = v;
+      fireTreeStructureChanged(oldRoot);
+   }
+
+   public Object getRoot()
+   {
+      return root;
+   }
+

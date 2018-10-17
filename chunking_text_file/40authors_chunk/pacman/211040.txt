@@ -1,0 +1,10 @@
+		content += ", begin = " + this.begin;
+		content += ", end = " + this.end;
+		content += ", type = " + this.type;
+		content += ", status = " + this.status;
+		content += ", err = " + this.err + " ]";
+		return content;
+	}
+
+	/**
+	 * @return the guid

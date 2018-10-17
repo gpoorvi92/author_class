@@ -1,0 +1,10 @@
+
+		/////////////////////////////////////////////////////////////////////
+		// "DepositStatus" Property Constants
+		/////////////////////////////////////////////////////////////////////
+
+    public static final int CHAN_STATUS_DEPOSIT_START = 1;
+    public static final int CHAN_STATUS_DEPOSIT_END   = 2;
+    public static final int CHAN_STATUS_DEPOSIT_NONE  = 3;
+    public static final int CHAN_STATUS_DEPOSIT_COUNT = 4;
+    public static final int CHAN_STATUS_DEPOSIT_JAM   = 5;

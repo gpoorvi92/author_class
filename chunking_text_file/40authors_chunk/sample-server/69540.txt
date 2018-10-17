@@ -1,0 +1,10 @@
+        for (int i = 0; i < lengthDecode; i++)
+        {
+            tempChar = binaryData[i * 2];
+            temp1 = (tempChar < BASELENGTH) ? hexNumberTable[tempChar] : -1;
+            if (temp1 == -1)
+                return null;
+            tempChar = binaryData[i * 2 + 1];
+            temp2 = (tempChar < BASELENGTH) ? hexNumberTable[tempChar] : -1;
+            if (temp2 == -1)
+                return null;

@@ -1,0 +1,7 @@
+
+		// 把集合中的数据存储到文本文件
+		Writer w = new FileWriter("user.txt");
+		prop.store(w, null);
+		w.close();
+	}
+}

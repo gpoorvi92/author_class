@@ -1,0 +1,10 @@
+            int tmp2 = this.actualSizeInWords;
+            this.actualSizeInWords = ((LongArray)other).actualSizeInWords;
+            ((LongArray)other).actualSizeInWords = tmp2;
+        } else {
+            long[] tmp = new long[other.sizeInWords()];
+            for(int i = 0; i < other.sizeInWords(); ++i) {
+                tmp[i] = other.getWord(i);
+            }
+            int tmp2 = other.sizeInWords();
+

@@ -1,0 +1,10 @@
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		final Text elapsedText = new Text(100, 160, this.mFont, "Seconds elapsed:", "Seconds elapsed: XXXXX".length(), this.getVertexBufferObjectManager());
+		final Text fpsText = new Text(250, 240, this.mFont, "FPS:", "FPS: XXXXX".length(), this.getVertexBufferObjectManager());
+
+		scene.attachChild(elapsedText);
+		scene.attachChild(fpsText);
+
+		scene.registerUpdateHandler(new TimerHandler(1 / 20.0f, true, new ITimerCallback() {

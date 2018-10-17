@@ -1,0 +1,10 @@
+  }
+
+  public void unsetStatement() {
+    this.statement = null;
+  }
+
+  /** Returns true if field statement is set (has been assigned a value) and false otherwise */
+  public boolean isSetStatement() {
+    return this.statement != null;
+  }

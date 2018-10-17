@@ -1,0 +1,10 @@
+				task.getGuid(),
+				task.getType(),
+				task.getFile(),
+				DateHelper.getCurrentTime(),
+				task.getEnd(),
+				task.getStatus(),
+				task.getErr(),
+				task.getTid());
+	}
+

@@ -1,0 +1,10 @@
+    public void reportNodeManagerConfig(String nodeId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void modifyEngineConfig(String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void modifyTaskManagerConfig(String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void modifyNodeManagerConfig(String nodeId, String propertyName, String propertyValue, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+  }
+

@@ -1,0 +1,10 @@
+	{
+		super("Tools");
+		
+		this.frame = frame;
+		//tbp = new ToolbarPanel();
+		
+		//setLayout(new BorderLayout());
+		//add(tbp, BorderLayout.CENTER);
+		add(rectButton);
+		add(circleButton);

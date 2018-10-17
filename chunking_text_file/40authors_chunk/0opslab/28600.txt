@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import com.opslab.util.RegUtil;
+import junit.framework.TestCase;
+import org.junit.Test;
+
+
+public class RegUtilTest extends TestCase {
+
+    public void testIsMatche() {

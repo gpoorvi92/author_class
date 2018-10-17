@@ -1,0 +1,10 @@
+ */
+/**
+ * This interface is used for custom Intruder payload generators. Extensions
+ * that have registered an
+ * <code>IIntruderPayloadGeneratorFactory</code> must return a new instance of
+ * this interface when required as part of a new Intruder attack.
+ */
+public interface IIntruderPayloadGenerator
+{
+    /**

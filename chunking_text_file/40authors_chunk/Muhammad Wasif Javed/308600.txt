@@ -1,0 +1,10 @@
+						txtPass.setText ("");
+						txtUser.requestFocus ();
+					}
+				}
+				catch (SQLException sqlex) {
+					if (verify == false) {
+						JOptionPane.showMessageDialog (this, "Incorrect Information Provided.");
+						txtUser.setText ("");
+						txtPass.setText ("");
+						txtUser.requestFocus ();

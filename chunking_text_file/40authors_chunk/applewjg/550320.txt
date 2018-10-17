@@ -1,0 +1,10 @@
+ All words have the same length.
+ All words contain only lowercase alphabetic characters.
+
+ Solution: BFS.
+*/
+ public class Solution {
+    public int ladderLength(String start, String end, Set<String> dict) {
+        Queue<String> cur = new LinkedList<String>();
+        if(start.compareTo(end) == 0) return 0;
+        cur.offer(start);

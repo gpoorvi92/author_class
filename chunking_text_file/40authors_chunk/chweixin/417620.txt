@@ -1,0 +1,10 @@
+	 * 获取消息链接。
+	 * @return 消息链接。
+	 * */
+	public String getUrl() {
+		return url;
+	}
+	/**
+	 * 设置消息链接。
+	 * @param url
+	 * 	消息链接。

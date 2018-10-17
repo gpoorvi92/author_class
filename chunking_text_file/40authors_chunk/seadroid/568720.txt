@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.SettingsManager;
+import com.seafile.seadroid2.account.Account;
+import com.seafile.seadroid2.util.Utils;
+
+class ClearCacheTask extends TaskDialog.Task {
+    private Account account;
+    private String filesDir;
+    private String cacheDir;
+    private String tempDir;
+    private String thumbDir;

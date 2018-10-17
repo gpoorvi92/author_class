@@ -1,0 +1,10 @@
+     */
+    public static String OS_NAME           = PropertiesUtil.key("os.name");
+    /**
+     * 主机类型版本
+     */
+    public static String OS_VERSION        = PropertiesUtil.key("os.version");
+    /**
+     * 操作系统类型
+     */
+    public static String SUN_DESKTOP       = PropertiesUtil.key("sun.desktop");

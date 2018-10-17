@@ -1,0 +1,10 @@
+final class HttpEntityBody extends RequestBody {
+  private static final String DEFAULT_MEDIA_TYPE = "application/octet-stream";
+
+  private final HttpEntity entity;
+  private final MediaType mediaType;
+
+  HttpEntityBody(HttpEntity entity) {
+    this.entity = entity;
+
+    // Apache is forgiving and lets you skip specifying a content type with an entity. OkHttp is

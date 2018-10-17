@@ -1,0 +1,10 @@
+ */
+public class MethodInterceptor extends HandlerInterceptorAdapter
+{
+    private static final Logger log                 = LoggerFactory.getLogger(MethodInterceptor.class);
+    private static final String PERFORMANCE_CAL_KEY = "PERFORMANCE_CAL";
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception
+    {
+        //请求资源，直接放过
+        if (!(handler instanceof HandlerMethod))

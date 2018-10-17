@@ -1,0 +1,10 @@
+import java.util.List;
+
+
+public class DumpMetaData {
+
+	public DumpMetaData(String connectionUrl) throws SQLException, ClassNotFoundException {
+		Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+		Connection conn = DriverManager.getConnection(connectionUrl);
+		System.out.println("conn: " + conn);
+		Statement s = conn.createStatement();

@@ -1,0 +1,10 @@
+
+				final ExecutorService scheduler = this.scheduler;
+
+				Callable<Object> methodRequest = new Callable<Object>() {
+					@Override
+					public Object call() throws Exception {
+						Object rv = null;
+
+						try {
+							rv = delegateMethod.invoke(delegate, args);

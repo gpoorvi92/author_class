@@ -1,0 +1,10 @@
+    @Override
+    public void add(GoodsType goodsType) throws ServiceException {
+        if (goodsTypeMapper.countByName(goodsType.getName()) < 1) {
+            goodsType.setStatus(GoodsTypeStatus.ACTIVE.toString());
+            goodsTypeMapper.insert(goodsType);
+        } else {
+            throw new ServiceException("该类别已存在");
+        }
+    }
+

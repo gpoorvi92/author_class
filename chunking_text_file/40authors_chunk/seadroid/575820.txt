@@ -1,0 +1,10 @@
+    public void onFileCreate(File file) {
+        Log.v(DEBUG_TAG, file.getPath() + " was created!");
+    }
+
+    @Override
+    public void onFileDelete(File file) {
+        Log.v(DEBUG_TAG, file.getPath() + " was deleted!");
+        String path = file.getPath();
+        watchedFiles.remove(path);
+        recentDownloadedFiles.removeRecentDownloadedFile(path);

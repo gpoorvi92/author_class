@@ -1,0 +1,10 @@
+               JFrame frame = new InvestmentTableFrame();
+               frame.setTitle("InvestmentTable");               
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**

@@ -1,0 +1,10 @@
+	public void onTextChanged(final CharSequence pCharSequence, final int pStart, final int pBefore, final int pCount) {
+		/* Nothing. */
+	}
+
+	// ===========================================================
+	// Methods
+	// ===========================================================
+
+	// ===========================================================
+	// Inner and Anonymous Classes

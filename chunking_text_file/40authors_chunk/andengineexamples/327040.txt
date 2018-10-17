@@ -1,0 +1,10 @@
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private Scene mMainScene;
+	private ITextureRegion mFaceTextureRegion;
+	private ITextureRegion mPausedTextureRegion;
+	private CameraScene mPauseScene;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================

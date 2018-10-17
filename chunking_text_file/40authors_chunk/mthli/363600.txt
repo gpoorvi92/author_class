@@ -1,0 +1,10 @@
+ * 如果需要的话，可以在枚举类型中添加一些构造器、方法和域，
+ * 当然，构造器只是在构造枚举常量时被调用
+ */
+enum Size {
+    /* 通过括号进行赋值 */
+    SMALL("S"), MEDIUM("M"), LARGE("L"), EXTRA_LARGE("XL");
+
+    private Size(String abbreviation) { this.abbreviation = abbreviation; }
+    public String getAbbreviation() { return abbreviation; }
+

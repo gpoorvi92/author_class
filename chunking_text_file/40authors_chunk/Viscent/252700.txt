@@ -1,0 +1,10 @@
+		if (null != threadLocal) {
+			threadLocal.remove();
+			threadLocal = null;
+		}
+	}
+
+	/**
+	 * 清理该类所管理的所有ThreadLocal实例。
+	 */
+	public static void removeAll() {

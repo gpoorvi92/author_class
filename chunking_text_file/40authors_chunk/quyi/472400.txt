@@ -1,0 +1,10 @@
+      public updateUserAppInfo() {
+        super("updateUserAppInfo");
+      }
+
+      public updateUserAppInfo_args getEmptyArgsInstance() {
+        return new updateUserAppInfo_args();
+      }
+
+      protected boolean isOneway() {
+        return false;

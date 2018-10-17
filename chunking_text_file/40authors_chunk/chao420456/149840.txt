@@ -1,0 +1,10 @@
+		Student s4 = new Student("linqingxia", 28);
+		Student s5 = new Student("fengqingyang", 20);
+		Student s6 = new Student("wangyang", 100);
+
+		// Ìí¼ÓÔªËØ
+		tm.put(s1, "it001");
+		tm.put(s2, "it002");
+		tm.put(s3, "it003");
+		tm.put(s4, "it004");
+		tm.put(s5, "it005");

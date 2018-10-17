@@ -1,0 +1,10 @@
+			return null;
+	}
+	
+	/**
+	 * 根据用户名获取logintoken
+	 * @param userName
+	 * @return
+	 */
+	public LoginToken getTokenByuserName(String userName){
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);

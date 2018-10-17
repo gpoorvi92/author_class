@@ -1,0 +1,10 @@
+	{
+		return getCalendar().get(Calendar.MINUTE);
+	}
+
+	public int getSecond()
+	{
+		return getCalendar().get(Calendar.SECOND);
+	}
+	
+	////////////////////////////////////////////////

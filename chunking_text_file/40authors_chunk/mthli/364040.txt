@@ -1,0 +1,10 @@
+      else return null;
+   }
+
+   /**
+    * Gets the currently selected options.
+    * @return an array of strings, icons, or objects, depending on the Option panel selection
+    */
+   public Object[] getOptions()
+   {
+      String s = optionsPanel.getSelection();

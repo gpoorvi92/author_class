@@ -1,0 +1,10 @@
+			}
+		}
+		this.writeJson(nodes);
+	}
+
+	@Override
+	protected String deletePrimaryString() {
+		return this.getModel().getId();
+	}
+}

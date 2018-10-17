@@ -1,0 +1,10 @@
+	}
+
+	public void setBearingToUser(final double pBearingToUser) {
+		this.mBearingToUser = pBearingToUser;
+	}
+
+	// ===========================================================
+	// Methods for/from SuperClass/Interfaces
+	// ===========================================================
+

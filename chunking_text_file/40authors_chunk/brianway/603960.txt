@@ -1,0 +1,10 @@
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    };
+
+    static private Runnable runnable2 = new Runnable() {
+        public void run() {
+
+            synchronized (lock) {

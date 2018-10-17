@@ -1,0 +1,10 @@
+    /*--------------------------------------
+     * Music stream
+     */
+    public static int getStreamMaxVolume(Context context, int streamType) {
+        AudioManager audioManager = getAudioManager(context);
+        if (audioManager == null)
+            return 0;
+
+        return audioManager.getStreamMaxVolume(streamType);
+    }

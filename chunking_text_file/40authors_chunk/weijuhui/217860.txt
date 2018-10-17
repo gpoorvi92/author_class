@@ -1,0 +1,10 @@
+			this.array = arrays;
+			this.mContext = context;
+		}
+
+		@Override
+		public int getCount() {
+			return array.length;
+		}
+
+		@Override

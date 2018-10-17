@@ -1,0 +1,10 @@
+        __dragFrame( f, newX, newY );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.endDraggingFrame(javax.swing.JComponent)
+
+    public native void __endDraggingFrame( javax.swing.JComponent f );
+
+    public void endDraggingFrame( javax.swing.JComponent f ) {
+        __endDraggingFrame( f );
+    }

@@ -1,0 +1,10 @@
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQListener#onMapMessage(java.util.Map)
+	 */
+	@Override
+	public void onMapMessage(Map<String, Object> map) {
+		// TODO Auto-generated method stub
+
+	}

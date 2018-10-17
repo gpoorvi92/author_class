@@ -1,0 +1,10 @@
+							});
+						}
+					},
+					2,
+					new ILoopEntityModifierListener() {
+						@Override
+						public void onLoopStarted(final LoopModifier<IEntity> pLoopModifier, final int pLoop, final int pLoopCount) {
+							EntityModifierExample.this.runOnUiThread(new Runnable() {
+								@Override
+								public void run() {

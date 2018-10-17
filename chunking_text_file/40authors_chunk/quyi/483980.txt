@@ -1,0 +1,10 @@
+                {
+                  oprot.writeString(_iter34.getKey());
+                  _iter34.getValue().write(oprot);
+                }
+              }
+            }
+          }
+        }
+        if (struct.isSetStcRD()) {
+          struct.stcRD.write(oprot);

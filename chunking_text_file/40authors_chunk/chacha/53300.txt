@@ -1,0 +1,10 @@
+		response.setResult(ResponseCode.ERROR_COMMAND);
+		return JsonPojoMapper.toJson(response, true);	
+	}
+	
+	/**
+	 * Ω‚Œˆ√¸¡Ó
+	 * @param requestJson
+	 * @return
+	 * @throws JsonMappingException
+	 * @throws JsonParseException

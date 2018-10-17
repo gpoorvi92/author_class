@@ -1,0 +1,10 @@
+    if (this.hardwareResources == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.hardwareResources);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("checkEndDate:");
+    if (this.checkEndDate == null) {
+      sb.append("null");

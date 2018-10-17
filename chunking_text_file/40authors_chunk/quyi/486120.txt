@@ -1,0 +1,10 @@
+          setPlotsStatus((Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>)value);
+        }
+        break;
+
+      case USED_PERMISSIONS:
+        if (value == null) {
+          unsetUsedPermissions();
+        } else {
+          setUsedPermissions((List<Map<String,com.nercis.isscp.idl.APICheck>>)value);
+        }

@@ -1,0 +1,10 @@
+      bean.setTitlePosition(pos);
+      firePropertyChange("titlePosition", oldValue, pos);
+   }
+
+   /**
+    * Sets the inverse setting of the chart.
+    * @param b true if graph and background color are inverted
+    */
+   public void setInverse(boolean b)
+   {

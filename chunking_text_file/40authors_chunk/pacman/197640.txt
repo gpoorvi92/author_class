@@ -1,0 +1,10 @@
+		return -1;
+	}
+	
+	public int transSpecVideo(String srcFile, String destFile) {
+		
+		if (gJNILoaded) {
+			
+			return nativeTransSpecVideo(srcFile, destFile);
+		}
+		return -1;

@@ -1,0 +1,9 @@
+	/**
+	 * 设置图文消息数组。
+	 * @param articles
+	 * 图文消息数组。
+	 */
+	public void setArticles(List<Article> articles) {
+		this.articles = articles;
+	}
+}

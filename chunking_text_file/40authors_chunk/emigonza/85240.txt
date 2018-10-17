@@ -1,0 +1,7 @@
+    public void    setEventTypes(int eventTypes) throws JposException;
+    public int     getPOSKeyData() throws JposException;
+    public int     getPOSKeyEventType() throws JposException;
+
+    // Methods
+    public void    clearInput() throws JposException;
+}

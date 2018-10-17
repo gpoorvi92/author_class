@@ -1,0 +1,10 @@
+        }
+        Vector best = new Vector();
+        Position [] moves = possibleMoves(p, player);
+        for (int i=0; i<moves.length; i++) {
+            Vector v2 = alphaBetaHelper(depth + 1, moves[i], !player, -beta, -alpha);
+            //  if (v2 == null || v2.size() < 1) continue;
+            float value = -((Float)v2.elementAt(0)).floatValue();
+            if (value > beta) {
+                if(GameSearch.DEBUG) System.out.println(" ! ! ! value="+value+", beta="+beta);
+                beta = value;

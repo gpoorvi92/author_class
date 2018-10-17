@@ -1,0 +1,7 @@
+
+		// public void store(Writer writer,String comments)
+		Writer w = new FileWriter("w.txt");
+		prop2.store(w, null);
+		w.close();
+	}
+}

@@ -1,0 +1,10 @@
+public class NutchClient {
+
+  static public List<Hashtable<String,String>> searchGetCache(String opensearch_url, String query) throws IOException, ParserConfigurationException, SAXException {
+    return search_helper(opensearch_url, query, true);
+  }
+  
+  static public List<Hashtable<String,String>> search(String opensearch_url, String query) throws IOException, ParserConfigurationException, SAXException {
+    return search_helper(opensearch_url, query, false);
+  }
+  

@@ -1,0 +1,10 @@
+		this.audioBitRate = audioBitRate;
+	}
+
+	/**
+	 * @return the audioSamplingRate
+	 */
+	public int getAudioSamplingRate() {
+		return audioSamplingRate;
+	}
+

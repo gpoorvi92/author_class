@@ -1,0 +1,10 @@
+ * An implementation of the jpos.config must provide an implementation of
+ * this interface which is used to create the JposServiceConnection objects.
+ * This also provides a way to access the JposEntryPopulator to allow for
+ * dynamic updates of the currently configured JposEntry objects.
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface JposServiceManager
+{
+    /**

@@ -1,0 +1,10 @@
+    @Override
+    public void stop() throws IllegalStateException {
+        if (mSegmentPlayer == null)
+            return;
+        mSegmentPlayer.stop();
+    }
+
+    @Override
+    public void pause() throws IllegalStateException {
+        if (mSegmentPlayer == null)

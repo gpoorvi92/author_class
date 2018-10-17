@@ -1,0 +1,10 @@
+     * @param useRule
+     */
+    public com.nercis.isscp.idl.Result submitMission(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<com.nercis.isscp.idl.PlotsType> plots, String useRule) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+
+    /**
+     * 获取指定批次中，指定应用的状态
+     * 1:missionId 批次编号
+     * 2:userAppId 应用编号
+     * 
+     * 

@@ -1,0 +1,9 @@
+                Date now = new Date();
+                System.out.println("At the tone, the time is " + now);
+                if (beep) Toolkit.getDefaultToolkit().beep();
+            }   
+        };
+        Timer t = new Timer(interval, listener);
+        t.start();
+    }
+}

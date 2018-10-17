@@ -1,0 +1,10 @@
+				 * singleRecordInfo.getAppCheckResult(), wcf_left)); } else if
+				 * (sheet.getCell(7, row +
+				 * 1).getContents().equals(singleRecordInfo
+				 * .getPlotsType().name())) { sheet.addCell(new
+				 * jxl.write.Number(6, row + 1,
+				 * singleRecordInfo.getFinishedTime(), wcf_left));
+				 * sheet.addCell(new Label(8, row + 1,
+				 * singleRecordInfo.getAppCheckResult(), wcf_left)); }
+				 */
+				sheet.addCell(new Label(0, row,

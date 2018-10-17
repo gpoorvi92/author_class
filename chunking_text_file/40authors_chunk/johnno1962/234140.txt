@@ -1,0 +1,10 @@
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handleOpenFile(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleOpenFile( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handleOpenFile( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handleOpenFile( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handlePrintFile(com.apple.eawt.ApplicationEvent)

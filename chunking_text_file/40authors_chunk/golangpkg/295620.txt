@@ -1,0 +1,10 @@
+
+
+	public String getFirstChunkCrc() {
+		return firstChunkCrc;
+	}
+
+
+	public void setFirstChunkCrc(String firstChunkCrc) {
+		this.firstChunkCrc = firstChunkCrc;
+	}

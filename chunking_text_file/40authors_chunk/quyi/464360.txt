@@ -1,0 +1,10 @@
+    }
+
+    private static class ruleSync_argsStandardScheme extends StandardScheme<ruleSync_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, ruleSync_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();

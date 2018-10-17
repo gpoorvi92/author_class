@@ -1,0 +1,10 @@
+    public static <E> RequestFuture<E> newFuture() {
+        return new RequestFuture<E>();
+    }
+
+    private RequestFuture() {}
+
+    public void setRequest(Request<?> request) {
+        mRequest = request;
+    }
+

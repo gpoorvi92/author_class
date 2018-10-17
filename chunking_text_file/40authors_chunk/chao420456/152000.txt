@@ -1,0 +1,10 @@
+				ud.regist(user);
+				System.out.println("注册成功,回到选择界面");
+				break;
+			case "3":
+			default:
+				System.out.println("谢谢光临，欢迎再来");
+				System.exit(0);
+				break;
+			}
+		}

@@ -1,0 +1,10 @@
+         );
+        countTriangles.addActionListener(
+             new ActionListener()
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+
+                JOptionPane.showMessageDialog(mv,
+                   "There are " + mv.countTriangles() + " triangles in the model.");
+            }

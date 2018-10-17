@@ -1,0 +1,10 @@
+        optionals.set(7);
+      }
+      oprot.writeBitSet(optionals, 8);
+      if (struct.isSetEngineId()) {
+        oprot.writeString(struct.engineId);
+      }
+      if (struct.isSetEngineName()) {
+        oprot.writeString(struct.engineName);
+      }
+      if (struct.isSetEngineIp()) {

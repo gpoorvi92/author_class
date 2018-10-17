@@ -1,0 +1,10 @@
+  public boolean isSetPlotsStatus() {
+    return this.plotsStatus != null;
+  }
+
+  public void setPlotsStatusIsSet(boolean value) {
+    if (!value) {
+      this.plotsStatus = null;
+    }
+  }
+

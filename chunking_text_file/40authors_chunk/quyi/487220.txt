@@ -1,0 +1,10 @@
+        }
+        if (struct.virRD != null) {
+          oprot.writeFieldBegin(VIR_RD_FIELD_DESC);
+          struct.virRD.write(oprot);
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }
+

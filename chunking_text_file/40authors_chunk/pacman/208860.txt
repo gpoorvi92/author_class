@@ -1,0 +1,10 @@
+	public static boolean loadUrl(String url, Wrapper<String> content) {
+		
+		boolean result = false;
+		CloseableHttpClient client = null;
+		CloseableHttpResponse response = null;
+		HttpGet getMethod = null;
+		BufferedReader reader = null;
+		StringBuffer sb = new StringBuffer();
+		
+		try {

@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.osName = iprot.readString();
+              struct.setOsNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // OS_DESC
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.osDesc = iprot.readString();

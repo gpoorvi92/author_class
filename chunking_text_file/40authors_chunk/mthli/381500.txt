@@ -1,0 +1,10 @@
+      }
+   }
+
+   /**
+    * Gets a component with a given name
+    * @param name a component name
+    * @return the component with the given name, or null if no component in this grid bag pane has
+    * the given name
+    */
+   public Component get(String name)

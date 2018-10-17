@@ -1,0 +1,10 @@
+ * 5:string operateTime 操作时间
+ * 6:string operateType 操作类型
+ */
+public class FileOperate implements org.apache.thrift.TBase<FileOperate, FileOperate._Fields>, java.io.Serializable, Cloneable, Comparable<FileOperate> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("FileOperate");
+
+  private static final org.apache.thrift.protocol.TField PID_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("pidName", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField FILE_DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("fileDescription", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField FILE_PATH_FIELD_DESC = new org.apache.thrift.protocol.TField("filePath", org.apache.thrift.protocol.TType.STRING, (short)3);
+  private static final org.apache.thrift.protocol.TField OPERATE_CONTENT_FIELD_DESC = new org.apache.thrift.protocol.TField("operateContent", org.apache.thrift.protocol.TType.STRING, (short)4);

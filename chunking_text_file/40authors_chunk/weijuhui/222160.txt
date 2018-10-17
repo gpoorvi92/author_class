@@ -1,0 +1,10 @@
+
+    public static class IntentBuilder_ {
+
+        private Context context_;
+        private final Intent intent_;
+
+        public IntentBuilder_(Context context) {
+            context_ = context;
+            intent_ = new Intent(context, GuideActivity_.class);
+        }

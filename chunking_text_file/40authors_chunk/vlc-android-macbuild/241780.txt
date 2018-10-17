@@ -1,0 +1,10 @@
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
+    public void start() throws IllegalStateException {
+        mMediaPlayer.start();
+    }
+

@@ -1,0 +1,10 @@
+
+	public void processException(Exception e, HttpServletResponse response) {
+		ExceptionCodeMapping exceptionCodeMappingByType = ExceptionCodeMappingHelper.getExceptionCodeMappingByType(e);
+
+		// log
+		if (exceptionCodeMappingByType.equals(ExceptionCodeMapping.unkownError)) {
+			// with stacktrace if it is unknown
+			log.error(e.getMessage(), e);
+		}
+		else {

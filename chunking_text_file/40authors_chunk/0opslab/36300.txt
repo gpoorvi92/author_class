@@ -1,0 +1,10 @@
+   */
+  public MultiplexingOutputStream(final OutputStream streamOne, final OutputStream streamTwo) {
+    this.m_delegates = new LinkedList<OutputStream>();
+    this.m_delegates.add(streamOne);
+    this.m_delegates.add(streamTwo);
+  }
+
+  /**
+   * Adds the given output stream to the list of delegates multiplexed to.
+   * 

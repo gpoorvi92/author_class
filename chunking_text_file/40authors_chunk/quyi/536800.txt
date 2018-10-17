@@ -1,0 +1,10 @@
+	}
+
+	public void setFinishedTime(long finishedTime) {
+		this.finishedTime = finishedTime;
+	}
+
+	public int getCount() {
+		return count;
+	}
+

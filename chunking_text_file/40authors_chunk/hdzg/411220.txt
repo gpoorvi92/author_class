@@ -1,0 +1,10 @@
+		int r = (int)(Math.random()*100)%size;//随机算出哪位将军属性提高
+		General g = tempHero.generalList.get(r);		
+		int increment = (int)(Math.random()*(defendIncrement+1));//随机获取增量
+		if(increment == 0){//如果什么都没学会 
+			status = 3;
+			dialogMessage[3] = dialogMessage[3].replaceFirst("xx", g.getName());//替换对话框的文字
+		}
+		else{//如果学有所成
+			status = 2;
+			g.setPower(g.getPower()+increment);//增加英雄属性

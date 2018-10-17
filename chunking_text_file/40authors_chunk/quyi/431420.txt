@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetFeaturesCharacters();
+      } else {
+        setFeaturesCharacters((List<String>)value);
+      }
+      break;
+
+    case API_CHECK:
+      if (value == null) {
+        unsetApiCheck();

@@ -1,0 +1,10 @@
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Column
+	public String getNorms() {
+		return norms;
+	}
+	public void setNorms(String norms) {
+		this.norms = norms;

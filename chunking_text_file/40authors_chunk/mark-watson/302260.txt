@@ -1,0 +1,10 @@
+					long imports = (long)parseFloat(firstCountryElement
+							.getAttribute("imports"));
+					long debt = (long)parseFloat(firstCountryElement
+							.getAttribute("debt"));
+					long aid = (long)parseFloat(firstCountryElement
+							.getAttribute("aid"));
+					long unemployment = (long)parseFloat(firstCountryElement
+							.getAttribute("unemployment"));
+					long inflation = (long)parseFloat(firstCountryElement
+							.getAttribute("inflation"));

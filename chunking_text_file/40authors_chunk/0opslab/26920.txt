@@ -1,0 +1,10 @@
+                code = "UTF-16BE";
+                break;
+            default:
+                code = "GBK";
+        }
+        return code;
+    }
+
+    /**
+     * 探测资源符的编码

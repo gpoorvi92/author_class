@@ -1,0 +1,10 @@
+
+    private static class queryApp_argsStandardScheme extends StandardScheme<queryApp_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, queryApp_args struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 

@@ -1,0 +1,10 @@
+    static {
+      schemes.put(StandardScheme.class, new searchEng_resultStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new searchEng_resultTupleSchemeFactory());
+    }
+
+    public Engine success; // required
+    public com.nercis.isscp.idl.InvalidRequestException ire; // required
+    public com.nercis.isscp.idl.UnavailableException ue; // required
+
+    /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */

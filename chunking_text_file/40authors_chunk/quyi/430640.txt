@@ -1,0 +1,10 @@
+    public static _Fields findByThriftId(int fieldId) {
+      switch(fieldId) {
+        case 1: // APK_MD5
+          return APK_MD5;
+        case 2: // CHECK_DATE
+          return CHECK_DATE;
+        case 3: // SENSITIVES
+          return SENSITIVES;
+        case 4: // FEATURES_CHARACTERS
+          return FEATURES_CHARACTERS;

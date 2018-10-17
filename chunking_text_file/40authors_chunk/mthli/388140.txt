@@ -1,0 +1,10 @@
+   private void makeButton(String label, final int orientation)
+   {
+      JRadioButton button = new JRadioButton(label);
+      buttonPanel.add(button);
+      if (group.getButtonCount() == 0) button.setSelected(true);
+      group.add(button);
+      button.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

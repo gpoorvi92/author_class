@@ -1,0 +1,10 @@
+package com.newweb.dao.business;
+
+import java.math.BigInteger;
+import java.util.List;
+
+import com.newweb.model.business.Order;
+
+
+
+public interface OrderDao {

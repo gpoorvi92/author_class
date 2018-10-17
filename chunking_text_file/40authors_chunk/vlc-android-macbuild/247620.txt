@@ -1,0 +1,10 @@
+    final public boolean isType(String typeTag) {
+        Assure.checkNotEmptyString(typeTag);
+        if (TextUtils.isEmpty(mTypeTag))
+            return false;
+
+        return mTypeTag.equalsIgnoreCase(typeTag);
+    }
+
+    final public boolean isType_hls() {
+        return isType(TYPE_TAG__HLS);

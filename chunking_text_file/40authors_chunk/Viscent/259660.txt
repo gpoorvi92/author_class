@@ -1,0 +1,10 @@
+			} catch (InterruptedException e) {
+				;
+			}
+		}
+		
+		delegate.shutdown(timeout, unit);
+	}
+
+	@Override
+	public void setNextPipe(Pipe<?, ?> nextPipe) {

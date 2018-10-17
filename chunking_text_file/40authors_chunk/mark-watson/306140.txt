@@ -1,0 +1,10 @@
+        }
+        while (true) {
+            printPosition(startingPosition);
+            if (wonPosition(startingPosition, PROGRAM)) {
+                System.out.println("Program won");
+                break;
+            }
+            if (wonPosition(startingPosition, HUMAN)) {
+                System.out.println("Human won");
+                break;

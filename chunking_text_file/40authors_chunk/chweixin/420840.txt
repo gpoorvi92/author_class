@@ -1,0 +1,8 @@
+	 * 设置最近一次交互时间。
+	 * @param lastTime
+	 * 	最近一次交互时间。
+	 * */
+	public void setLastTime(Date lastTime) {
+		this.lastTime = lastTime;
+	}
+}

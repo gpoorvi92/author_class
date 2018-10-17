@@ -1,0 +1,10 @@
+        this.eventNumber = eventNumber;
+        this.data = data;
+        this.object = object;
+    }
+
+    public int getEventNumber()
+    {
+        return eventNumber;
+    }
+

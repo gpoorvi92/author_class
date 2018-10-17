@@ -1,0 +1,10 @@
+   {
+      return cells[0].length;
+   }
+
+   public int getRowCount()
+   {
+      return cells.length;
+   }
+
+   public Object getValueAt(int r, int c)

@@ -1,0 +1,10 @@
+        int len$ = arr$.length;
+        int i$ = 0;
+        do
+        {
+            if(i$ >= len$)
+                break;
+            Comparator delegate = arr$[i$];
+            result = delegate.compare(file1, file2);
+            if(result != 0)
+                break;

@@ -1,0 +1,10 @@
+	}
+
+
+	UUID getUuid() {
+		final UUID uuid = UUID.randomUUID();
+		jlfuListenerPropagator.getPropagator().onNewClient(uuid);
+		return uuid;
+	}
+
+

@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testIsDigit() throws Exception {
+
+    }
+
+    @Test
+    public void testIsHexDigit() throws Exception {
+

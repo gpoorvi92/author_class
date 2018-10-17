@@ -1,0 +1,10 @@
+			this.mediaRecorder
+					.setOutputFormat(MediaRecorder.OutputFormat.RAW_AMR);
+			this.lastVoicePath = FileUtil.getNewFilePath("voice",
+					SystemUtil.getUniqueId() + ".amr");
+			this.mediaRecorder.setOutputFile(this.lastVoicePath);
+			this.mediaRecorder
+					.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+			this.mediaRecorder.setMaxDuration(60 * 1000);
+			this.mediaRecorder
+					.setOnInfoListener(new MediaRecorder.OnInfoListener() {

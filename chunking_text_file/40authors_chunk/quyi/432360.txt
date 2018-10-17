@@ -1,0 +1,10 @@
+        oprot.writeString(struct.apkMD5);
+        oprot.writeFieldEnd();
+      }
+      if (struct.checkDate != null) {
+        oprot.writeFieldBegin(CHECK_DATE_FIELD_DESC);
+        oprot.writeString(struct.checkDate);
+        oprot.writeFieldEnd();
+      }
+      if (struct.sensitives != null) {
+        oprot.writeFieldBegin(SENSITIVES_FIELD_DESC);

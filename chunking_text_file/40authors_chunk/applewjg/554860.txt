@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Jan 28, 2015
+ Problem:    Flatten Binary Tree to Linked List
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
+ Notes:
+ Given a binary tree, flatten it to a linked list in-place.
+ For example,
+ Given

@@ -1,0 +1,9 @@
+		arr[0] = arr[index-1];
+		arr[index-1] = temp;
+
+		for(int x=0; x<index; x++) {
+			System.out.print(arr[x]);
+		}
+		System.out.println();
+	}
+}

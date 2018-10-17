@@ -1,0 +1,10 @@
+    // Class constants
+    //
+
+    /**
+     * Default name to save entries if the XML populator is chosen but
+     * no populator file is specified
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String DEFAULT_XML_FILE_NAME = "jpos.xml";
+}

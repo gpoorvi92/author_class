@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch11.stc.example;
+
+public class SampleClient {
+	private static final MessageFileDownloader DOWNLOADER;
+
+	static {
+		

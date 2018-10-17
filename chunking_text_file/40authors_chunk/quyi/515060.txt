@@ -1,0 +1,10 @@
+        throw new java.io.IOException(te);
+      }
+    }
+
+    private static class reportTaskManagerConfig_argsStandardSchemeFactory implements SchemeFactory {
+      public reportTaskManagerConfig_argsStandardScheme getScheme() {
+        return new reportTaskManagerConfig_argsStandardScheme();
+      }
+    }
+

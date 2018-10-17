@@ -1,0 +1,10 @@
+    //
+
+    /**
+     * Defines the base name for a multi-property constant used to define the multiple
+	 * populator class name
+     * @since 1.3 (Washington DC 2001 meeting)
+     */
+	public static final String JPOS_CONFIG_POPULATOR_CLASS_MULTIPROP_NAME = "jpos.config.populator.class";
+
+    /**

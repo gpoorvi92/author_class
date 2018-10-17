@@ -1,0 +1,10 @@
+        add(modelMenu);
+
+        addListeners();
+    }
+
+    private void addListeners()
+    {
+        fileOpen.addActionListener(
+            new ActionListener()
+         {

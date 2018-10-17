@@ -1,0 +1,10 @@
+     * in radians in the specified rotationVector
+     */
+    public void rotateModel(Vector3D rotationVector)
+    {
+        updateVertexCollection();
+        vectorMath.rotateVectors(vertices,rotationVector);
+        verticesUpdated();
+    }
+
+    public void verticesUpdated()

@@ -1,0 +1,9 @@
+	private String name = "";
+	private PropType type = null;
+	private PropValue defaultValue = null;
+	private PropValueList values = new DefaultPropValueList();
+	private DevCat devCat = null;
+	private PropInfoViewer viewer = null;
+	private String description = "";
+	private String shortDescription = "";
+}

@@ -1,0 +1,10 @@
+     * This method is used to obtain the offset within the request where the
+     * message body begins.
+     *
+     * @return The offset within the request where the message body begins.
+     */
+    int getBodyOffset();
+
+    /**
+     * This method is used to obtain the content type of the message body.
+     *

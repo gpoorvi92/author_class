@@ -1,0 +1,10 @@
+ * 			int size():集合的长度
+ */
+public class MapDemo {
+	public static void main(String[] args) {
+		// 创建集合对象
+		// 创建元素
+		// 添加元素
+		// 遍历集合
+
+		// 创建集合对象

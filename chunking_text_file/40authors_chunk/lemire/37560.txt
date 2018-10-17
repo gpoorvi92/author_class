@@ -1,0 +1,10 @@
+        int pos = 0;
+        for (int i = bs.nextSetBit(0); i >= 0; i = bs.nextSetBit(i + 1)) {
+            ans[pos++] = i;
+        }
+        return ans;
+    }
+
+    Random rand = new Random();
+
+}

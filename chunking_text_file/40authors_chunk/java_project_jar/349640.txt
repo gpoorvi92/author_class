@@ -1,0 +1,10 @@
+
+    public boolean accept(File file)
+    {
+        String name = file.getName();
+        String arr$[] = wildcards;
+        int len$ = arr$.length;
+        for(int i$ = 0; i$ < len$; i$++)
+        {
+            String wildcard = arr$[i$];
+            if(FilenameUtils.wildcardMatch(name, wildcard, caseSensitivity))

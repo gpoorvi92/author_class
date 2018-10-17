@@ -1,0 +1,10 @@
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public reportNodeManagerConfig_args(reportNodeManagerConfig_args other) {
+      if (other.isSetNodeId()) {
+        this.nodeId = other.nodeId;
+      }
+    }
+

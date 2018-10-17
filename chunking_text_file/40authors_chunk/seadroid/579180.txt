@@ -1,0 +1,10 @@
+            }
+        }
+
+        @Override
+        public int getIconResId(int index) {
+            return ICONS[index];
+        }
+
+        @Override
+        public int getCount() {

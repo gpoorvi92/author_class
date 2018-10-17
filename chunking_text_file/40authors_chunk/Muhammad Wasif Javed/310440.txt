@@ -1,0 +1,10 @@
+			StringTokenizer st = new StringTokenizer (s, ",");
+			red = Integer.parseInt (st.nextToken());
+			green = Integer.parseInt (st.nextToken());
+			blue = Integer.parseInt (st.nextToken());
+		}
+		catch (Exception e) { }
+	
+		return new ColorUIResource (red, green, blue);
+
+	}

@@ -1,0 +1,10 @@
+              numVectors++;
+              return true;
+          }
+      }
+      return false;
+   }
+
+    /** returns true iff the specified vector is found in this tree
+     */
+    public boolean contains(Vector3D v)

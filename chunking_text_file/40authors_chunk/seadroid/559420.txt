@@ -1,0 +1,10 @@
+                          SeafException err) {
+
+        super(account, taskID, state, repoID, repoName, localPath, err);
+
+        this.parentDir = parentDir;
+        this.uploadedSize = uploadedSize;
+        this.totalSize = totalSize;
+        this.isUpdate = isUpdate;
+        this.isCopyToLocal = isCopyToLocal;
+    }

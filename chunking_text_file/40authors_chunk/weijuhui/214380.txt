@@ -1,0 +1,10 @@
+            	clipAll(canvas,paint,roundPx,width,height);
+            }
+            
+            paint.setXfermode(new PorterDuffXfermode(Mode.SRC_IN)); 
+            //帖子图
+            final Rect src = new Rect(0, 0, width, height);
+            canvas.drawBitmap(bitmap, src, src, paint);
+            return paintingBoard;
+        } catch (Exception exp) {        
+            return bitmap;

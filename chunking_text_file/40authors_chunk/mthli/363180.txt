@@ -1,0 +1,10 @@
+package serialTransfer;
+
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.awt.event.*;
+import java.io.*;
+import javax.swing.*;
+
+/**
+ * This frame contains a color chooser, and copy and paste buttons.

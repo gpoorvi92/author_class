@@ -1,0 +1,10 @@
+	 * @param port The port to use for binding the SSDP service. 
+	 * 		The port will be used as source port for all SSDP messages 
+	 * @since 1.8
+	 */
+	public void setSSDPPort(int port){
+		this.ssdpPort=port;
+	}
+
+	/**
+	 * 

@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) tree
+                     .getLastSelectedPathComponent();
+
+               if (selectedNode != null && selectedNode.getParent() != null) model
+                     .removeNodeFromParent(selectedNode);
+            }
+         });
+      panel.add(deleteButton);

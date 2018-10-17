@@ -1,0 +1,10 @@
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("Hardware(");
+    boolean first = true;
+
+    sb.append("cpuVendor:");
+    if (this.cpuVendor == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.cpuVendor);

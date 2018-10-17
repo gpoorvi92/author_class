@@ -1,0 +1,10 @@
+
+    private static CertsManager instance;
+
+    public static synchronized CertsManager instance() {
+        if (instance == null) {
+            instance = new CertsManager();
+        }
+
+        return instance;
+    }

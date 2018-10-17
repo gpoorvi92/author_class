@@ -1,0 +1,10 @@
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }
+
+    public void write(String str)
+        throws IOException
+    {
+        try

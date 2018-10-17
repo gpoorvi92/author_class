@@ -1,0 +1,10 @@
+	// Ctor(s)
+	//
+
+	/** Default ctor*/
+	public DefaultProfileRegistry() {}
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+

@@ -1,0 +1,8 @@
+		File file6 = new File("d:\\ccc\\dddd\\eee\\fff");
+		System.out.println("mkdirs:" + file6.mkdirs());
+
+		// 下面这个我到底创建的是什么呢?
+		File file7 = new File("d:\\aaa\\bbb\\ccc.txt");
+		System.out.println("mkdir:" + file7.mkdir());
+	}
+}

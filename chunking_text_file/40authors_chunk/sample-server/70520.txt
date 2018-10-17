@@ -1,0 +1,10 @@
+    @Override
+    public void doStop()
+    {
+        if (null != bootstrap)
+            bootstrap.releaseExternalResources();
+    }
+    public static void main(String[] args) throws KeeperException, InterruptedException
+    {
+        if (args.length == 0)
+            throw new IllegalArgumentException("指定一个服务器");

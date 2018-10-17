@@ -1,0 +1,10 @@
+		this.name = name;
+	}
+	/**
+	 * 获取用户帐号。
+	 * @return 用户帐号。
+	 * */
+	public String getAccount() {
+		return account;
+	}
+	/**

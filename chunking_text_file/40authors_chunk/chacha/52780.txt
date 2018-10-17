@@ -1,0 +1,10 @@
+			String[] nameArray=body.getNameArray();
+			Account[] accts=acctDAO.getAccounts(nameArray);
+			LinkedList<AccountEntity> acctArray=new LinkedList<AccountEntity>();
+			for(Account a:accts){
+				AccountEntity entity=new AccountEntity();
+				entity.setUserName(a.getUserName());
+				entity.setPasswd(a.getPasswd());
+				entity.setAcctAttr(a.getAcctAttr());
+				acctArray.add(entity);
+			}

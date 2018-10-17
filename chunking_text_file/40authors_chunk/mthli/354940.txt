@@ -1,0 +1,10 @@
+
+   /**
+    * Sets the titlePosition property.
+    * @param p LEFT, CENTER, or RIGHT
+    */
+   @Property(editor = "TitlePositionEditor")
+   public void setTitlePosition(Position p)
+   {
+      titlePosition = p;
+   }

@@ -1,0 +1,10 @@
+          {
+            _iter59.write(oprot);
+          }
+        }
+      }
+      if (struct.isSetSystemResources()) {
+        {
+          oprot.writeI32(struct.systemResources.size());
+          for (SystemResources _iter60 : struct.systemResources)
+          {

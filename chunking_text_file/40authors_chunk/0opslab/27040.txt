@@ -1,0 +1,10 @@
+     * 获取文件的编码
+     *
+     * @param file         File对象实例
+     * @param languageHint 语言提示区域代码 eg：1 : Japanese; 2 : Chinese; 3 : Simplified Chinese;
+     *                     4 : Traditional Chinese; 5 : Korean; 6 : Dont know (default)
+     * @return 文件编码，eg：UTF-8,GBK,GB2312形式，若无，则返回null
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
+    public static String guestFileEncoding(File file, int languageHint) throws IOException {

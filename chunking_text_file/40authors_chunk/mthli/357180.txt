@@ -1,0 +1,10 @@
+   {
+      try (FileChannel channel = FileChannel.open(filename))
+      {
+         CRC32 crc = new CRC32();
+         int length = (int) channel.size();
+         MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_ONLY, 0, length);
+   
+         for (int p = 0; p < length; p++)
+         {
+            int c = buffer.get(p);

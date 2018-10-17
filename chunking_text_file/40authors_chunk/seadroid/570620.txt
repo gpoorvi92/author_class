@@ -1,0 +1,10 @@
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        Log.d(DEBUG_TAG, "onActivityCreated");
+        super.onActivityCreated(savedInstanceState);
+
+        emptyView.setText(getString(R.string.no_download_tasks));
+    }
+
+    @Override

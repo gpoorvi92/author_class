@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String id,name,code,ext,path,createUserId,createUserName;
+	private Long size;
+	private Date createTime;
+	/**
+	 * 构造函数。
+	 * */
+	public Picture(){
+		 this.setCreateTime(new Date());
+	}

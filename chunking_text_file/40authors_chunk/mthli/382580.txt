@@ -1,0 +1,10 @@
+            {
+               return selected >= 0 ? locales[selected] : null;
+            }
+
+            public void setSelectedItem(Object anItem)
+            {
+               if (anItem == null) selected = -1;
+               else selected = Arrays.binarySearch(locales, (Locale) anItem, comp);
+            }
+

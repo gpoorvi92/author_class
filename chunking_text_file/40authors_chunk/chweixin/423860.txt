@@ -1,0 +1,10 @@
+	private IWeChatAccountDao weChatAccountDao;
+	/**
+	 * 设置微信关注用户数据接口。
+	 * @param weChatUserDao
+	 * 微信关注用户数据访问接口。
+	 * */
+	public void setWeChatUserDao(IWeChatUserDao weChatUserDao) {
+		this.weChatUserDao = weChatUserDao;
+	}
+	/**

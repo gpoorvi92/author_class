@@ -1,0 +1,10 @@
+
+	/**
+	 * 这是获取时分秒的方法 格式：12:23:34
+	 * 
+	 * @param d
+	 * @return
+	 */
+	public static String getSFM(Date d) {
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		// String s = sdf.format(d);

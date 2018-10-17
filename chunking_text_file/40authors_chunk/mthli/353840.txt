@@ -1,0 +1,10 @@
+
+      DefaultMutableTreeNode parent;
+      if (s == null) parent = root;
+      else parent = addClass(s);
+
+      // add the class as a child to the parent
+      DefaultMutableTreeNode newNode = new DefaultMutableTreeNode(c);
+      model.insertNodeInto(newNode, parent, parent.getChildCount());
+
+      // make node visible

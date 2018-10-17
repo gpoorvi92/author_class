@@ -1,0 +1,10 @@
+package progressMonitorInputStream;
+
+import java.awt.event.*;
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
+import javax.swing.*;
+
+/**
+ * A frame with a menu to load a text file and a text area to display its contents. The text area is

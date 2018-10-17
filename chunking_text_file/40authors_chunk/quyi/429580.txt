@@ -1,0 +1,10 @@
+    case UPDATE:
+      return isSetUpdate();
+    case RESULT:
+      return isSetResult();
+    }
+    throw new IllegalStateException();
+  }
+
+  @Override
+  public boolean equals(Object that) {

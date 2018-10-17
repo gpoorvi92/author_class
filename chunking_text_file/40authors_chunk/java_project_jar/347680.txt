@@ -1,0 +1,10 @@
+        if(boms == null || boms.length == 0)
+        {
+            throw new IllegalArgumentException("No BOMs specified");
+        } else
+        {
+            this.include = include;
+            this.boms = Arrays.asList(boms);
+            return;
+        }
+    }

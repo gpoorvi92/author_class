@@ -1,0 +1,10 @@
+A begin timer=1460639887068 threadName=Thread-1
+A end   timer=1460639890069 threadName=Thread-1
+
+B begin timer=1460639890069 threadName=Thread-0
+main end timer=1460639890069 threadName=main
+B end   timer=1460639893069 threadName=Thread-0
+
+---------------------------
+
+A begin timer=1460639939829 threadName=Thread-1

@@ -1,0 +1,10 @@
+	 * 获取菜单名称。
+	 * @return 菜单名称。
+	 * */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * 设置菜单名称。
+	 * @param name
+	 * 	菜单名称。

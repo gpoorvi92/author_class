@@ -1,0 +1,10 @@
+
+      // put all control components in a panel
+
+      JPanel panel = new JPanel();
+      panel.add(new JLabel("URL"));
+      panel.add(url);
+      panel.add(loadButton);
+      panel.add(backButton);
+      panel.add(new JLabel("Editable"));
+      panel.add(editable);

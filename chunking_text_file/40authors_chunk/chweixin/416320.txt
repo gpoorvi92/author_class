@@ -1,0 +1,10 @@
+package ipower.wechat.action;
+
+import java.io.IOException;
+
+import ipower.action.BaseDataAction;
+import ipower.model.DataGrid;
+import ipower.wechat.modal.PictureInfo;
+
+/**
+ * 图片库Action。

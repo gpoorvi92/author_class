@@ -1,0 +1,10 @@
+            inbound.write(getRpcPacket(packet));
+        }
+    }
+    public Fenrisulfr.RpcPacket getRpcPacket(Fenrisulfr.TransPacket trans)
+    {
+        Fenrisulfr.RpcPacket.Builder ret = Fenrisulfr.RpcPacket.newBuilder();
+        ret.setCounter(trans.getCounter());
+        ret.setOpcode(trans.getOpcode());
+        ret.setTimestamp(System.currentTimeMillis());
+        int responseCode = trans.getResponseCode();

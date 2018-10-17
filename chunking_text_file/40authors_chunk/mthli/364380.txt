@@ -1,0 +1,10 @@
+      System.out.println("min = " + mm.getFirst().getTime());
+      System.out.println("max = " + mm.getSecond().getTime());
+   }
+}
+
+class ArrayAlg
+{
+   /**
+      Gets the minimum and maximum of an array of objects of type T.
+      @param a an array of objects of type T

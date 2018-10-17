@@ -1,0 +1,10 @@
+    public void testBytesToHexString() throws UnsupportedEncodingException {
+        String str = "中文";
+        byte[] uft8_bytes = str.getBytes(CharsetUtil.UTF_8);
+        String utf8_hexStr = ConvertUtil.bytesToHexString(uft8_bytes);
+        System.out.println("UTF-8 BYTE:"+ Arrays.toString(uft8_bytes));
+        System.out.println("UTF-8 HEX: " + utf8_hexStr);
+        byte[] gbk_bytes = str.getBytes(CharsetUtil.GBK);
+        String gbk_hexStr = ConvertUtil.bytesToHexString(str.getBytes(CharsetUtil.GBK));
+        System.out.println("GBK BYTE:" + Arrays.toString(gbk_bytes));
+        System.out.println("GBK HEX: " + gbk_hexStr);

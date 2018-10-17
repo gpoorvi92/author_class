@@ -1,0 +1,10 @@
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			if (client != null) {
+				client.getInputProtocol().getTransport().close();
+			}
+		}
+	}
+
+	public static byte[] getBytes(Serializable obj) {

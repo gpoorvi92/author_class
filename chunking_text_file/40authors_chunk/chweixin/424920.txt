@@ -1,0 +1,10 @@
+	 * @param xml
+	 * @return
+	 */
+	public static BaseRespMessage respXmlToObject(String xml){
+		if(xml == null || xml.trim().isEmpty()) return null;
+		try {
+			Map<String, String> map = parseXml(new ByteArrayInputStream(xml.getBytes("utf-8")));
+			String type = map.get("MsgType");
+			switch(type){
+				case WeChatContext.REQ_MESSAGE_TYPE_TEXT://文本。

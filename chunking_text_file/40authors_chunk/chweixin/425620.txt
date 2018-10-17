@@ -1,0 +1,10 @@
+	private IUserDao userDao;
+	/**
+	 * 设置用户数据访问接口。
+	 * @param userDao
+	 * 用户数据访问接口。
+	 * */
+	public void setUserDao(IUserDao userDao){
+		this.userDao = userDao;
+	}
+	@Override

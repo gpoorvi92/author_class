@@ -1,0 +1,10 @@
+
+/**
+ * Shibboleth Authorize page
+ * use cookie to get authorized data
+ * <p/>
+ */
+public class ShibbolethAuthorizeActivity extends SherlockFragmentActivity {
+    public static final String DEBUG_TAG = "ShibbolethAuthorizeActivity";
+
+    public static final String SEAHUB_SHIB_COOKIE_NAME = "seahub_auth";

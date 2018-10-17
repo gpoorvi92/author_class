@@ -1,0 +1,10 @@
+import org.chacha.client.command.Request;
+import org.chacha.util.JsonPojoMapper;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+/**
+ * 密码认证请求
+ *	@author: Fully
+ */

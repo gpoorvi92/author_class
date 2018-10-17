@@ -1,0 +1,8 @@
+        nextButton.setText("Show Answer");
+        isShowAnswer = true;
+   }
+} // close class
+      
+
+
+

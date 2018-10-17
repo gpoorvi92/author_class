@@ -1,0 +1,10 @@
+
+    public int getRulesSize() {
+      return (this.rules == null) ? 0 : this.rules.size();
+    }
+
+    public java.util.Iterator<String> getRulesIterator() {
+      return (this.rules == null) ? null : this.rules.iterator();
+    }
+
+    public void addToRules(String elem) {

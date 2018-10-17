@@ -1,0 +1,10 @@
+            	String k = email_text.getText();
+            	patronSQL patsql = new patronSQL(a, b, c, d, g, l, h, i, j, k);
+            	patsql.add();
+            	patron_text.setText("P-");
+            }
+        });
+        toolBar.add(button);
+		
+		//forth button
+        button = new JButton(new ImageIcon("clear.gif"));

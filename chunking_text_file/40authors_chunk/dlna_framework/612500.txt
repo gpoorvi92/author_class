@@ -1,0 +1,10 @@
+	//	setRequest
+	////////////////////////////////////////////////
+
+	protected void setRequestHost(Service service)
+	{
+		String ctrlURL = service.getControlURL();
+
+		// Thanks for Thomas Schulz (2004/03/20)
+		String urlBase = service.getRootDevice().getURLBase();
+		if (urlBase != null && 0 < urlBase.length()){

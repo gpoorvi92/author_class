@@ -1,0 +1,10 @@
+			str += "0";
+		str += Integer.toString(value);
+		return str;
+	}
+	
+	public String getDateString()
+	{
+		// Thanks for Theo Beisch (10/20/04)
+		Calendar cal = getCalendar();
+		return

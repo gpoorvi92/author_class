@@ -1,0 +1,10 @@
+        read(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(in)));
+      } catch (org.apache.thrift.TException te) {
+        throw new java.io.IOException(te);
+      }
+    }
+
+    private static class searchEng_argsStandardSchemeFactory implements SchemeFactory {
+      public searchEng_argsStandardScheme getScheme() {
+        return new searchEng_argsStandardScheme();
+      }

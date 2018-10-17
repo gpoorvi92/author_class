@@ -1,0 +1,10 @@
+          ShortMessage a = new ShortMessage();
+          a.setMessage(144, 1, 44, 100);
+          MidiEvent noteOn = new MidiEvent(a, 1); // <-- means at tick one, the above event happens
+          track.add(noteOn);
+
+          ShortMessage b = new ShortMessage();
+          b.setMessage(128, 1, 44, 100);
+          MidiEvent noteOff = new MidiEvent(b, 16); // <-- means at tick one, the above event happens
+          track.add(noteOff);
+        

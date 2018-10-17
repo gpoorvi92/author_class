@@ -1,0 +1,10 @@
+      return Integer.valueOf(getLineNum());
+
+    case COLUMN_NUM:
+      return Integer.valueOf(getColumnNum());
+
+    case RISK_DESCRIPTION:
+      return getRiskDescription();
+
+    }
+    throw new IllegalStateException();

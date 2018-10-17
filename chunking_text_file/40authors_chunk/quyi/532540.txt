@@ -1,0 +1,10 @@
+  }
+
+  public void unsetApiName() {
+    this.apiName = null;
+  }
+
+  /** Returns true if field apiName is set (has been assigned a value) and false otherwise */
+  public boolean isSetApiName() {
+    return this.apiName != null;
+  }

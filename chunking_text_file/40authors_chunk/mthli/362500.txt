@@ -1,0 +1,10 @@
+      {
+         if (col >= 76)
+         {
+            super.write('\n');
+            col = 0;
+         }
+         super.write(toBase64[(inbuf[0] & 0xFC) >> 2]);
+         super.write(toBase64[((inbuf[0] & 0x03) << 4) | ((inbuf[1] & 0xF0) >> 4)]);
+         super.write(toBase64[((inbuf[1] & 0x0F) << 2) | ((inbuf[2] & 0xC0) >> 6)]);
+         super.write(toBase64[inbuf[2] & 0x3F]);

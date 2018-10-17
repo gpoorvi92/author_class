@@ -1,0 +1,10 @@
+/**
+ * 暂时未用到
+ * User: Teaey
+ * Date: 13-8-23
+ */
+public class ObjectToJsonConvert extends AbstractHttpMessageConverter
+{
+    private static final Charset DEF_CHARSET = Charset.forName("UTF-8");
+    @Override
+    protected boolean supports(Class clazz)

@@ -1,0 +1,10 @@
+/**
+ * P173
+ * 通过管道进行线程间通信：字节流
+ *
+ * 字符流PipedWriter,PipedReader,同理。
+ */
+public class Run12_pipeInputOutput {
+    public static void main(String[] args) {
+        try {
+            WriteData writeData = new WriteData();

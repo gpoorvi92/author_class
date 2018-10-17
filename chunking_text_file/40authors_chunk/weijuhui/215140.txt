@@ -1,0 +1,10 @@
+    public AsyncHttpRequest(AbstractHttpClient client, HttpContext context, HttpUriRequest request, AsyncHttpResponseHandler responseHandler) {
+        this.client = client;
+        this.context = context;
+        this.request = request;
+        this.responseHandler = responseHandler;
+        if(responseHandler instanceof BinaryHttpResponseHandler) {
+            this.isBinaryRequest = true;
+        }
+    }
+

@@ -1,0 +1,10 @@
+	public int leftType;
+
+	public AnchorConstraint() {
+		this(0, 0, 0, 0, ANCHOR_NONE, ANCHOR_NONE, ANCHOR_NONE, ANCHOR_NONE);
+	}
+
+	/**
+	 * Creates an AnchorConstraint.
+	 * @param top - value (relative or absolute) for top side
+	 * @param right - like 'top' but for right side

@@ -1,0 +1,10 @@
+    //上传本地目录到远程
+    public boolean putDir(File file, String remoteDir);
+
+    //创建文件夹
+    public boolean mkDir(String destory);
+
+
+    //获取远程文件列表
+    public List<String> listFile(String directory);
+

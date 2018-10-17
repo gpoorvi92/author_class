@@ -1,0 +1,10 @@
+        Date now = new Date();
+        merchant.setPassword(DigestUtils.md5DigestAsHex(merchant.getPassword().getBytes()));
+        merchant.setInsertDate(now);
+        merchant.setUpdateDate(now);
+        merchant.setStatus(MerchantStatus.PENDING.toString());
+        merchant.setSaleCount(0);
+        merchant.setCollectionCount(0);
+        merchantMapper.insert(merchant);
+    }
+

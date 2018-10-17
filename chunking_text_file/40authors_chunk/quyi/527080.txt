@@ -1,0 +1,10 @@
+    public MissionResultsStandardScheme getScheme() {
+      return new MissionResultsStandardScheme();
+    }
+  }
+
+  private static class MissionResultsStandardScheme extends StandardScheme<MissionResults> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, MissionResults struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();

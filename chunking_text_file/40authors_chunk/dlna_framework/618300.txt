@@ -1,0 +1,10 @@
+		String var = stateVar.getValue();
+
+		setStatusCode(HTTPStatus.OK);
+		
+		Node bodyNode = getBodyNode();
+		Node resNode = createResponseNode(var);
+		bodyNode.addNode(resNode);
+		
+		Node envNodee = getEnvelopeNode();
+		setContent(envNodee);

@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Dec 13, 2014
+ Problem:    Two Sum
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/two-sum/
+ Notes:
+ Given an array of integers, find two numbers such that they add up to a specific target number.
+
+ The function twoSum should return indices of the two numbers such that they add up to the target, 

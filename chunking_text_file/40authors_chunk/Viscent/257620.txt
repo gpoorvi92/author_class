@@ -1,0 +1,10 @@
+	 *          要实现的Active Object接口
+	 * @param servant
+	 *          Active Object的Servant参与者实例
+	 * @param scheduler
+	 *          Active Object的Scheduler参与者实例
+	 * @return Active Object的Proxy参与者实例
+	 */
+	public static <T> T newInstance(Class<T> interf, Object servant,
+	    ExecutorService scheduler) {
+

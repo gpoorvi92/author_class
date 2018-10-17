@@ -1,0 +1,10 @@
+
+	@Override
+	public String genMissionId(String submitId) throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Result submitMission(String missionId, List<UserApp> userApps, List<PlotsType> plots, String useRule) throws InvalidRequestException,
+			UnavailableException, TException {

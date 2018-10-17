@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	
+	/**
+	 * Get the current socket timeout
+	 * @since 1.8
+	 */
+	public synchronized int getTimeout() {
+		return timeout;
+	}
+

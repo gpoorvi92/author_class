@@ -1,0 +1,10 @@
+    public java.util.Iterator<com.nercis.isscp.idl.UserApp> getUserAppsIterator() {
+      return (this.userApps == null) ? null : this.userApps.iterator();
+    }
+
+    public void addToUserApps(com.nercis.isscp.idl.UserApp elem) {
+      if (this.userApps == null) {
+        this.userApps = new ArrayList<com.nercis.isscp.idl.UserApp>();
+      }
+      this.userApps.add(elem);
+    }

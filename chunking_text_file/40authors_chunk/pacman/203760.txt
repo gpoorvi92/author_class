@@ -1,0 +1,10 @@
+
+				if (StringUtils.isEmpty(className))
+					type = 3;
+				else
+					type = 4;
+
+				map = new HashMap<String, Object>();
+				MapMessage mm = ((MapMessage) message);
+
+				@SuppressWarnings("rawtypes")

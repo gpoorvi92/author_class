@@ -1,0 +1,10 @@
+            frame.setVisible(true);
+         }
+      }.execute();  
+   }
+
+   public static void main(String args[])
+   {
+      init1();
+
+      EventQueue.invokeLater(new Runnable()

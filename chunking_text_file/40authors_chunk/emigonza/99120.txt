@@ -1,0 +1,10 @@
+    /**
+     * @return the smallest Comparable element in this Vector
+     * <b>NOTE:</b>implements a simple one pass algorithm in O(n) time
+     */
+    public static Comparable min( Vector comparables )
+    {
+        Comparable smallest = null;
+        Enumeration elements = comparables.elements();
+
+        while( elements.hasMoreElements() )

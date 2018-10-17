@@ -1,0 +1,10 @@
+
+	public void setDefaultMenuItem(boolean flag) {
+		defaultMenuItemFlag = flag;
+		if (!flag && rDia != null) {
+			rDia.removeMenuItem(chatEnterName);
+		}
+	}
+
+	protected void setRightMenuBtn(View v) {
+		this.triggerView = v;

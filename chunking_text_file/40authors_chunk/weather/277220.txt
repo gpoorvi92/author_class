@@ -1,0 +1,10 @@
+        HttpConnectionParams.setConnectionTimeout(httpParams, 5000);
+        HttpConnectionParams.setSoTimeout(httpParams, timeoutMs);
+        return mClient.execute(httpRequest);
+    }
+
+    /**
+     * Creates the appropriate subclass of HttpUriRequest for passed in request.
+     */
+    @SuppressWarnings("deprecation")
+    /* protected */ static HttpUriRequest createHttpRequest(Request<?> request,

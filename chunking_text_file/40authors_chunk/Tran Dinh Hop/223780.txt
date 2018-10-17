@@ -1,0 +1,10 @@
+	
+		summary+="Size after decompressed : "+table.originalSize()+" bytes.";
+		summary+="\n";	
+    }
+
+	private int getCode(HuffmanNode node,String decode){
+		while (true){
+			if (decode.charAt(0)=='0'){
+				node=node.lchild;
+			}

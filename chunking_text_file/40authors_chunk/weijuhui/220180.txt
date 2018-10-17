@@ -1,0 +1,10 @@
+    public void setVals(TimeView other) {
+        text = other.getTimeText().toString();
+        setText();
+        startTime = other.getStartTime();
+        endTime = other.getEndTime();
+    }
+
+    /**
+     * sets the TextView texts by splitting the text into two
+     */

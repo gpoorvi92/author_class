@@ -1,0 +1,10 @@
+
+   public void setLocale(Locale newValue)
+   {
+      super.setLocale(newValue);
+      sort();
+   }
+
+   private void sort()
+   {
+      final Locale loc = getLocale();

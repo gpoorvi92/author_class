@@ -1,0 +1,10 @@
+	public List queryAllMaterialBrands(int start, int limit) {
+		List list = materialBrandDao.selectAllMaterialBrands(start,limit);
+		int size =(Integer) list.get(0);
+		List mbList = (List) list.get(1);
+		MaterialBrand[] mbs = new MaterialBrand[mbList.size()];
+		int count = 0;
+		for (Object mb : mbList) {
+			MaterialBrand mb1 = (MaterialBrand) mb;
+			mbs[count++] = mb1;
+		}

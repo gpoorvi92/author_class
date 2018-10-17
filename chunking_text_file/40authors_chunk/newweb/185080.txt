@@ -1,0 +1,10 @@
+
+
+	@Override
+	public boolean modify(OrderLhjWinProp prop) {
+		return orderLhjWinPropDao.update(prop);
+	}
+
+
+	@Override
+	public boolean remove(int iD) {

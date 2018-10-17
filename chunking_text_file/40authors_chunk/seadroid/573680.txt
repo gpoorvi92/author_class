@@ -1,0 +1,10 @@
+
+    @Override
+    protected boolean isNeedUpdateProgress() {
+        return !txService.getAllUploadTaskInfos().isEmpty();
+    }
+
+    @Override
+    public boolean onContextItemSelected(android.view.MenuItem item) {
+        if (getUserVisibleHint()) {
+            AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();

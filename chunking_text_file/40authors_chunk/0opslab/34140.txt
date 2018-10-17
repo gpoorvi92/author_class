@@ -1,0 +1,10 @@
+    public final static int bytesToInt(byte[] bytes) {
+        int num = bytes[0] & 0xFF;
+        num |= ((bytes[1] << 8) & 0xFF00);
+        num |= ((bytes[2] << 16) & 0xFF0000);
+        num |= ((bytes[3] << 24) & 0xFF000000);
+        return num;
+    }
+
+    /**
+     * 字节数组和长整型的转换

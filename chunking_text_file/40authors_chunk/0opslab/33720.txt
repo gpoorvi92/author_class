@@ -1,0 +1,10 @@
+     * @return 随机字符串
+     */
+    public final static String UpperString(int length) {
+        return MixString(length).toUpperCase();
+    }
+
+    /**
+     * 生成一个定长的纯0字符串
+     *
+     * @param length 字符串长度

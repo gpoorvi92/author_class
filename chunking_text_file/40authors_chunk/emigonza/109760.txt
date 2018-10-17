@@ -1,0 +1,10 @@
+	 * Sets a short description of this PropInfo used as TootipText (this can be HTML formated)
+	 * @param s the String
+	 */
+	void setShortDescription( String s ) { shortDescription = s; }
+
+	//-------------------------------------------------------------------------
+	// Instance variables
+	//
+
+	private Profile profile = null;

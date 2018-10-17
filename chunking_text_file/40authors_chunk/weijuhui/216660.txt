@@ -1,0 +1,10 @@
+
+		Fragment details = (Fragment) getFragmentManager()
+				.findFragmentById(R.id.main_content);
+
+		details = new FragScence();
+
+		FragmentTransaction ft = getFragmentManager().beginTransaction();
+		ft.replace(R.id.main_content, details);
+		ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+		ft.commit();

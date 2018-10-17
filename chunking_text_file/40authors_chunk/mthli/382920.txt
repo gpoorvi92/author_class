@@ -1,0 +1,10 @@
+                     e.printStackTrace();
+                  }
+               }
+            }
+         });
+
+      JMenuItem exitItem = new JMenuItem("Exit");
+      menu.add(exitItem);
+      exitItem.addActionListener(new ActionListener()
+         {

@@ -1,0 +1,10 @@
+			if(children.size() > 0) node.setChildren(children);
+		}
+		return node;
+	}
+	/**
+	 * 加载菜单树数据。
+	 * */
+	public void tree() throws IOException{
+		List<TreeNode> results = new ArrayList<>();
+		List<WeChatMenuInfo> list = this.service.loadMenus(this.getModel().getAccountId(), this.getModel().getId());

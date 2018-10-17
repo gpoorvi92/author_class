@@ -1,0 +1,10 @@
+  }
+
+  public DynamicCheckResultData setNetworkPacket(List<NetworkPacket> networkPacket) {
+    this.networkPacket = networkPacket;
+    return this;
+  }
+
+  public void unsetNetworkPacket() {
+    this.networkPacket = null;
+  }

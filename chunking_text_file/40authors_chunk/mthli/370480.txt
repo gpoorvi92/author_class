@@ -1,0 +1,10 @@
+      add(modelessButton);
+
+      JButton immediateButton = new JButton("Immediate");
+      immediateButton.addActionListener(new ImmediateListener());
+      add(immediateButton);
+   }
+
+   /**
+    * This listener pops up a modal color chooser
+    */

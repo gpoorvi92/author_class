@@ -1,0 +1,10 @@
+        menuFile.setLabel("File");
+        menuFileExit.setLabel("Exit");
+        
+        // Add action listener.for the menu button
+        menuFileExit.addActionListener
+        (
+            new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                    RVSFrame.this.windowClosed();
+                }

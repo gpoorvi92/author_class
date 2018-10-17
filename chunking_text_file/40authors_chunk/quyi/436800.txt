@@ -1,0 +1,10 @@
+          case 6: // SYSTEM_RESOURCES
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list44 = iprot.readListBegin();
+                struct.systemResources = new ArrayList<SystemResources>(_list44.size);
+                for (int _i45 = 0; _i45 < _list44.size; ++_i45)
+                {
+                  SystemResources _elem46;
+                  _elem46 = new SystemResources();
+                  _elem46.read(iprot);

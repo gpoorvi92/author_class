@@ -1,0 +1,10 @@
+        int M = board.length, N = board[0].length;
+        Queue<Integer> q = new LinkedList<Integer>();
+        q.offer(row); q.offer(col);
+        while (q.isEmpty() == false) {
+            int i = q.poll(); int j = q.poll();
+            if (i < 0 || i == M || j < 0 || j == N) continue;
+            if (board[i][j] != 'O') continue;// important to recheck!
+            board[i][j] = 'V';
+            q.offer(i-1); q.offer(j);
+            q.offer(i+1); q.offer(j);

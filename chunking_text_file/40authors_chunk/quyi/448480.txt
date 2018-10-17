@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetOsDesc()) {
+        optionals.set(2);
+      }
+      if (struct.isSetOsVersion()) {
+        optionals.set(3);
+      }
+      if (struct.isSetJvmName()) {
+        optionals.set(4);
+      }

@@ -1,0 +1,10 @@
+							.getSimpleName().toLowerCase())
+					&& SystemUtil.TOP_ACTIVITY_ACTIVE) {
+				addRecently(con, recentlyTitle, recentlyContent, recentlyAppId,
+						recentlyUrl, true);
+				sendNotify(context, backAcd, notifyTitle, notifyContent);
+				MainActivity ma = (MainActivity) SystemUtil.TOP_ACTIVITY;
+				ma.refreshRecently();
+
+			} else {
+				sendNotify(context, backAcd, notifyTitle, notifyContent);

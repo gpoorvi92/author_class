@@ -1,0 +1,10 @@
+        IOException e;
+        e;
+        handleIOException(e);
+        return -1;
+    }
+
+    public int read(char chr[], int st, int len)
+        throws IOException
+    {
+        int n;

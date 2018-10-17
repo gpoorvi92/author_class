@@ -1,0 +1,8 @@
+			wv.freeMemory();
+			wv.destroy();
+			// wv.removeAllViews();
+		} catch (Exception ex) {
+
+		}
+	}
+}

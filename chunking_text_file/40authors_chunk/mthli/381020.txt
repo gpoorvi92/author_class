@@ -1,0 +1,10 @@
+      comp = new BallComponent();
+      add(comp, BorderLayout.CENTER);
+      JPanel buttonPanel = new JPanel();
+      addButton(buttonPanel, "Start", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               addBall();
+            }
+         });

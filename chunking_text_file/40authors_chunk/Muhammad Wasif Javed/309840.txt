@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.sql.*;
+import java.util.*;
+
+public class SearchMember extends JInternalFrame implements ActionListener {
+
+	private JPanel pMember = new JPanel ();
+	private JLabel lbMemberId, lbMemberName, lbMemberAddress, lbDate;

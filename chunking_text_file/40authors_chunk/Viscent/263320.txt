@@ -1,0 +1,10 @@
+	 * @param newInstance
+	 *          新的MMSCRouter实例
+	 */
+	public static void setInstance(MMSCRouter newInstance) {
+		instance = newInstance;
+	}
+
+	private static Map<String, MMSCInfo> deepCopy(Map<String, MMSCInfo> m) {
+		Map<String, MMSCInfo> result = new HashMap<String, MMSCInfo>();
+		for (String key : m.keySet()) {

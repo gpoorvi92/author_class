@@ -1,0 +1,10 @@
+package com.opslab.util.image;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
+
+/**
+ * 图片相关的操作类
+ */
+public final class ImageUtil {
+

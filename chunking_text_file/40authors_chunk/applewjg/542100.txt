@@ -1,0 +1,10 @@
+        return dummy.next;
+    }
+    public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode first = head, second = head.next;
+        first.next = second.next;
+        second.next = first;
+        first.next = swapPairs(first.next);
+        return second;
+    }

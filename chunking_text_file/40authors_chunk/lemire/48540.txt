@@ -1,0 +1,10 @@
+       n.setSizeInBitsWithinLastWord(b.sizeInBits());
+       assertTrue(n.sizeInBits() == b.sizeInBits());
+       assertTrue(n.equals(b));
+       EWAHCompressedBitmap neg = IteratorUtil.materialize(IteratorAggregation.not(b.getIteratingRLW()));
+       neg.setSizeInBitsWithinLastWord(b.sizeInBits());
+       EWAHCompressedBitmap x= b.clone();
+       x.not();
+       assertTrue(x.equals(neg));
+       for(int k = 145; k<1024; ++k)
+           b.set(k);

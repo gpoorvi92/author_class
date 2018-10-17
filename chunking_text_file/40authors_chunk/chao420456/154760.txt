@@ -1,0 +1,10 @@
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+			}
+		}
+	}
+
+	public void setDisMess(String chat_re) {
+		jta_disMess.append(chat_re + "\n");
+		jta_disMess.setCaretPosition(jta_disMess.getText().length());

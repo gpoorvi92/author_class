@@ -1,0 +1,10 @@
+     * @param comment The comment to be assigned to this item.
+     */
+    void setComment(String comment);
+
+    /**
+     * This method is used to retrieve the user-annotated highlight for this
+     * item, if applicable.
+     *
+     * @return The user-annotated highlight for this item, or null if none is
+     * set.

@@ -1,0 +1,10 @@
+	/**
+	 * @return the memUsage
+	 */
+	public double getMemUsage() {
+		return memUsage;
+	}
+	/**
+	 * @param memUsage the memUsage to set
+	 */
+	public void setMemUsage(double memUsage) {

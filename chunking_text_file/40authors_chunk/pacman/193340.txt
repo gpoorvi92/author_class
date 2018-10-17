@@ -1,0 +1,10 @@
+	@Transmit(key = "lid")
+	protected int lessonId;
+
+	@Transmit(key = "height")
+	protected int videoHeight;
+	
+	@Transmit(key = "guid")
+	protected String guid;
+	
+	/**

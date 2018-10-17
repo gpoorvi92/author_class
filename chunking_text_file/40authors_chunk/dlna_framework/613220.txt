@@ -1,0 +1,10 @@
+
+	public int getBindPort()
+	{
+		return bindPort;
+	}
+	
+	
+	
+	////////////////////////////////////////////////
+	//	open/close

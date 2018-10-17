@@ -1,0 +1,10 @@
+     * @return null if no duplicate was found
+     */
+    public synchronized Vector3D getDuplicate(Vector3D v)
+    {
+        if (v == null) return null;
+        int subtreeIndex = getSubtreeIndexForVector(v);
+        if (subtreeIndex < 0)
+            return rootV; // match found because v==rootV
+
+        if (subtrees[subtreeIndex] == null)

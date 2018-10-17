@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, ClickEventMessage event) {
+		return this.buildDefaultReply(context, event);
+	}
+
+	@Override
+	public BaseRespMessage handler(WeChatContext context, ImageReqMessage req) {
+		return this.buildDefaultReply(context, req);

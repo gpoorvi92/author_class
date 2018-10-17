@@ -1,0 +1,10 @@
+            }
+        }
+        return new String(result);
+    }
+
+    private static boolean charReg(char charValue) {
+        return (charValue >= 0x4E00 && charValue <= 0X9FA5) || (charValue >= 'a' && charValue <= 'z') || (charValue >= 'A' && charValue <= 'Z') || (charValue >= '0' && charValue <= '9');
+    }
+
+    private static String removeSign(String str) {

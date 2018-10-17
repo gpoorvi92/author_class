@@ -1,0 +1,10 @@
+    }
+
+    public void cancelDownloadTask(int taskID) {
+        cancelDownloadTaskInQue(taskID);
+    }
+
+    public void cancelDownloadTaskInQue(int taskID) {
+        downloadTaskManager.cancel(taskID);
+        downloadTaskManager.doNext();
+    }

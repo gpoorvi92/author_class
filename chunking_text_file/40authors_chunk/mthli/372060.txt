@@ -1,0 +1,10 @@
+    */
+
+   private class ConnectAction implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {
+         // if first time, construct dialog
+
+         if (dialog == null) dialog = new PasswordChooser();
+

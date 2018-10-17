@@ -1,0 +1,10 @@
+    public int     getFiscalReceiptType() throws JposException;
+    public void    setFiscalReceiptType(int fiscalReceiptType)
+                       throws JposException;
+    public int     getMessageType() throws JposException;
+    public void    setMessageType(int messageType) throws JposException;
+    public String  getPostLine() throws JposException;
+    public void    setPostLine(String postLine) throws JposException;
+    public String  getPreLine() throws JposException;
+    public void    setPreLine(String preLine) throws JposException;
+    public int     getTotalizerType() throws JposException;

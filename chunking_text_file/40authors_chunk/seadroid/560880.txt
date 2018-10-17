@@ -1,0 +1,10 @@
+            return hash;
+        } finally {
+            cursor.close();
+        }
+    }
+
+    /**
+     * ImageList constructor.
+     */
+    public ImageList(ContentResolver resolver, Uri imageUri,

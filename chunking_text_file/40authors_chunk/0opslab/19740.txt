@@ -1,0 +1,10 @@
+            String entryName = null;
+            if (!"".equals(dir)) {
+                entryName = dir + "/" + inFile.getName();
+            } else {
+                entryName = inFile.getName();
+            }
+            ZipEntry entry = new ZipEntry(entryName);
+            zos.putNextEntry(entry);
+            try (InputStream is = new FileInputStream(inFile)) {
+                int len = 0;

@@ -1,0 +1,10 @@
+        mTotalPage = nPageNum;
+        if (mCurrentPage >= mTotalPage)
+            mCurrentPage = mTotalPage - 1;
+    }
+
+    /**
+     * 设置当前页显示标识
+     * @param nPageIndex
+     */
+    /**

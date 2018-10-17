@@ -1,0 +1,10 @@
+    public static final int CPU_IMPL_QUALCOMM = 0x51; // 'Q'
+    public static final int CPU_IMPL_MARVELL = 0x56; // 'V'
+    public static final int CPU_IMPL_INTEL = 0x69; // 'i'
+
+    public static LongSparseArray<String> sCpuImplementerMap = new LongSparseArray<String>() {
+        {
+            put(CPU_IMPL_ARM_LIMITED, "ARM");
+            put(CPU_IMPL_DEC, "DEC");
+            put(CPU_IMPL_MOTO, "Moto");
+            put(CPU_IMPL_QUALCOMM, "Qualcomm");

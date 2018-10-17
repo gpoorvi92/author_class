@@ -1,0 +1,10 @@
+			for (char ch='a'; ch <= 'z'; ++ch) {
+				possible.add(word.substring(0, i) + ch +
+						     word.substring(i));
+			}
+		}
+		return possible;
+	}
+	
+	public static String correct(String word) {
+		if(wordCounts.containsKey(word)) return word;

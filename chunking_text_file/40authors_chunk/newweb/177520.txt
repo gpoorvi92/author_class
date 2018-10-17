@@ -1,0 +1,10 @@
+			}else{
+				throw new RuntimeException("品牌： '" + mb.getName() + " 更改【不可用】状态失败</br>原因：材料品牌【" + typeForBrand.getName()+ "】状态更改失败</br>");
+			}
+		}
+		mb.setValid(false);
+		if(modify(mb)){
+			sb.append("品牌： '" + mb.getName() +" ' 已更改为【不可用】状态</br>");
+		}else{
+			throw new RuntimeException("品牌： '" + mb.getName() + " 更改【不可用】状态失败</br>");
+		}

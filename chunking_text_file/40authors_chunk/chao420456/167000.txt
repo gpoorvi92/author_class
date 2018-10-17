@@ -1,0 +1,10 @@
+			System.out.print((char) by);
+		}
+		System.out.println("-----------------------");
+
+		// ·½Ê½2
+		bis = new BufferedInputStream(new FileInputStream("bos.txt"));
+		byte[] bys = new byte[1024];
+		int len = 0;
+		while ((len = bis.read(bys)) != -1) {
+			System.out.print(new String(bys, 0, len));

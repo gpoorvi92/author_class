@@ -1,0 +1,10 @@
+    */
+   public static void printMethods(Class cl)
+   {
+      Method[] methods = cl.getDeclaredMethods();
+
+      for (Method m : methods)
+      {
+         Class retType = m.getReturnType();
+         String name = m.getName();
+

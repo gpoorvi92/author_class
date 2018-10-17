@@ -1,0 +1,10 @@
+            LOGGER.info("TcpProxy detected " + cores + " core" + (cores > 1 ? "s" : ""));
+
+        final int workerCount = Math.max(cores / configs.size(), 1);
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info("TcpProxy will use " + workerCount + " workers per connector");
+
+        for (final TcpProxyConfig config : configs) {
+            config.setWorkerCount(workerCount);
+            new TcpProxy(config).start();
+        }

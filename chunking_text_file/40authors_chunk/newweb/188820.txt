@@ -1,0 +1,10 @@
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public boolean insert(Order order) {
+		try {
+			sessionFactory.getCurrentSession().save(order);

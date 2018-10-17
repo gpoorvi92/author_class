@@ -1,0 +1,8 @@
+      add(explanation, BorderLayout.SOUTH);
+
+      canvas.setAlpha(alphaSlider.getValue());
+      Rule r = ruleCombo.getItemAt(ruleCombo.getSelectedIndex());
+      canvas.setRule(r.getValue());
+      explanation.setText(r.getExplanation());      
+   }
+}

@@ -1,0 +1,10 @@
+     * request/response.
+     *
+     * @return An identifier that is unique to a single request/response pair.
+     * Extensions can use this to correlate details of requests and responses
+     * and perform processing on the response message accordingly.
+     */
+    int getMessageReference();
+
+    /**
+     * This method retrieves details of the intercepted message.

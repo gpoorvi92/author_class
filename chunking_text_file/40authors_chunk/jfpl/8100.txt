@@ -1,0 +1,10 @@
+	public AbstractCommonData sendHttpPost(AbstractCommonData sendData)
+			throws Exception {
+		AbstractCommonData head = sendData.getDataValue("head");
+		head.putStringValue("source_channel", "M");
+		head.putStringValue("target_channel", "P");
+		head.putStringValue("message_type", "0");
+		head.putStringValue("client_time", DateUtil.detaledFormat(new Date()));
+		head.putStringValue("username", head.getStringValue("phone_num"));
+		String url = getCommonUrl(sendData);
+		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);

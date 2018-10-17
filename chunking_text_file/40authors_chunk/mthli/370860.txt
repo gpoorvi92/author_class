@@ -1,0 +1,10 @@
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               JFrame frame = new NotHelloWorldFrame();
+               frame.setTitle("NotHelloWorld");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

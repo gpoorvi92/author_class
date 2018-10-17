@@ -1,0 +1,10 @@
+      System.out.println(Arrays.toString(b));
+
+      System.out.println("The following call will generate an exception.");
+      b = (String[]) badCopyOf(b, 10);
+   }
+
+   /**
+    * This method attempts to grow an array by allocating a new array and copying all elements.
+    * @param a the array to grow
+    * @param newLength the new length

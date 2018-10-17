@@ -1,0 +1,10 @@
+   public void click(Point2D p)
+   {
+      if (removeMode)
+      {
+         for (Point2D center : points)
+         {
+            Ellipse2D circle = new Ellipse2D.Double(center.getX() - MARK_SIZE, center.getY()
+                  - MARK_SIZE, 2 * MARK_SIZE, 2 * MARK_SIZE);
+            if (circle.contains(p))
+            {

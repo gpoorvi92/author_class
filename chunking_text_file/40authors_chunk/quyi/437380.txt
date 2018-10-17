@@ -1,0 +1,10 @@
+            _elem70 = new FileOperate();
+            _elem70.read(iprot);
+            struct.fileOperate.add(_elem70);
+          }
+        }
+        struct.setFileOperateIsSet(true);
+      }
+      if (incoming.get(4)) {
+        {
+          org.apache.thrift.protocol.TList _list71 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());

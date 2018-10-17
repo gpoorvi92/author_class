@@ -1,0 +1,10 @@
+*	01/07/03
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.upnp.device;
+
+public class ST 
+{
+	public final static String ALL_DEVICE = "ssdp:all";

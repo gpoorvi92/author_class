@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    3Sum Closest
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/3sum-closest/
+ Notes:
+ Given an array S of n integers, find three integers in S such that the sum is closest to 
+ a given number, target. Return the sum of the three integers. 
+ You may assume that each input would have exactly one solution.

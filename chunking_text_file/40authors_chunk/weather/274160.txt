@@ -1,0 +1,10 @@
+	/*
+	 * Getters and setters
+	 */
+	public String getLocalLocation() {
+		return localLocation;
+	}
+
+	public void setLocalLocation(String localLocation) {
+		this.localLocation = localLocation;
+	}

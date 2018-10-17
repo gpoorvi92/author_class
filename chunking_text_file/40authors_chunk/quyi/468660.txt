@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("pak:");
+    if (this.pak == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.pak);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("obj:");

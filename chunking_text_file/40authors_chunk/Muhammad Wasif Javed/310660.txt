@@ -1,0 +1,10 @@
+		pBook.add (lbBookAuthor);
+		pBook.add (lbBookPrice);
+		pBook.add (lbBookCategory);
+		pBook.add (txtBookId);
+		pBook.add (txtBookName);
+		pBook.add (txtBookAuthor);
+		pBook.add (txtBookPrice);
+		pBook.add (txtBookCategory);
+		pBook.add (btnDel);
+		pBook.add (btnCancel);

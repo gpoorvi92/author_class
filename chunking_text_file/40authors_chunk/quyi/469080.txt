@@ -1,0 +1,10 @@
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class RulesTupleSchemeFactory implements SchemeFactory {
+    public RulesTupleScheme getScheme() {
+      return new RulesTupleScheme();

@@ -1,0 +1,10 @@
+	// Fields
+	// ===========================================================
+
+	private BuildableBitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFace1TextureRegion;
+	private ITextureRegion mFace2TextureRegion;
+	private ITextureRegion mFace3TextureRegion;
+
+	// ===========================================================
+	// Constructors

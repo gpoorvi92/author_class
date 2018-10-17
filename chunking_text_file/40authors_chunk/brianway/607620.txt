@@ -1,0 +1,10 @@
+
+
+/*
+输出:
+325040804 com.brianway.learning.java.multithread.singleton.example3.MyObject2@135fbaa4
+1173230247 com.brianway.learning.java.multithread.singleton.example3.MyObject2@45ee12a7
+
+------------------------
+取消MyObject2中protected Object readResolve()的注释
+输出:

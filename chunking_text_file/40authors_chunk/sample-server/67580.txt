@@ -1,0 +1,10 @@
+    
+    
+    
+    public abstract ChatServerRpc.DeleteSysNoticeResp DeleteSysNoticeReq(ChatServerRpc.DeleteSysNoticeReq req);
+    
+    
+    
+    public abstract void AddGameSysNoticeReq(ChatServerRpc.AddGameSysNoticeReq req);
+    
+    

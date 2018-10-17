@@ -1,0 +1,10 @@
+        }
+    }
+
+    private void setupServerText() {
+        mServerUrlEt.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                Log.d(DEBUG_TAG, "serverText has focus: " + (hasFocus ? "yes" : "no"));
+            }
+        });

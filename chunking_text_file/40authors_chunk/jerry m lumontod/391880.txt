@@ -1,0 +1,10 @@
+		*/
+
+								
+		switch (mintSortCol) {
+			
+			case 0:
+				mintResult = s1.mstrCompanyCode.compareTo(s2.mstrCompanyCode);
+				break;
+			case 1:
+				mintResult = s1.mstrDivisionCode.compareTo(s2.mstrDivisionCode);

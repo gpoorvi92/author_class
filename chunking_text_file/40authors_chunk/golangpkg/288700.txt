@@ -1,0 +1,10 @@
+	// ///////////////
+
+
+	void remove(RemovalCause cause, UUID key) {
+
+		// if expired
+		if (cause.equals(RemovalCause.EXPIRED)) {
+
+			// check if client id is in state
+			final StaticStatePersistedOnFileSystemEntity entityIfPresentWithIdentifier =

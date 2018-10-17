@@ -1,0 +1,10 @@
+            	location_text.setText("");
+            	authorsArea.setText("");
+            	subjectArea.setText("");	
+ 		}
+ 				else {
+ 					JOptionPane.showMessageDialog(null, "Insertion Failed");
+				journal_no_text.setText("JL-");
+            	journal_title_text.setText("");
+            	issue_number_text.setText("");
+            	class_text.setText("");

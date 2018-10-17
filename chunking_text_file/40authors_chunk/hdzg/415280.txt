@@ -1,0 +1,10 @@
+		//画竹简
+		switch(status){
+		case 3://渐隐状态
+		case 2://画文字
+			canvas.drawBitmap(bmpScroll, scrollStartX, scrollStartY, paint);
+			paint.setTextSize(textSize);
+			paint.setAntiAlias(true);
+			paint.setARGB(alpha, 234, 234, 234);
+			if(characterNumber > maxChar){//如果屏幕要绘制的文字数大于最大值
+				startChar += characterEachLine;//起始位置改变

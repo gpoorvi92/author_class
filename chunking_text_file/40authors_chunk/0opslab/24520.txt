@@ -1,0 +1,10 @@
+  /**
+   * Read a byte.
+   * <p>
+   * 
+   * @return -1 if the wrapped stream is at EOF or the limit has been reached.
+   * 
+   * @see FilterInputStream#read()
+   */
+  @Override
+  public int read() throws IOException {

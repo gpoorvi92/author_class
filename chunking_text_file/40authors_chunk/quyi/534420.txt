@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("riskDescription:");
+    if (this.riskDescription == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.riskDescription);
+    }
+    first = false;
+    sb.append(")");

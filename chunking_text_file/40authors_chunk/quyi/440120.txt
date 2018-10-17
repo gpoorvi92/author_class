@@ -1,0 +1,10 @@
+            break;
+          case 6: // FS_SIZE
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.fsSize = iprot.readI32();
+              struct.setFsSizeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          default:

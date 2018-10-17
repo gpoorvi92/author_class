@@ -1,0 +1,10 @@
+		this.renderSurface = renderSurface;
+	}
+
+
+	public void paintShape(Graphics2D g)
+	{
+		g.setRenderingHint(antialiasing, antialiasingOn);
+		
+        Color old = g.getColor();
+        

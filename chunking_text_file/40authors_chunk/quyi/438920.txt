@@ -1,0 +1,10 @@
+  private static final int __CPUMHZ_ISSET_ID = 1;
+  private static final int __MEMSIZE_ISSET_ID = 2;
+  private static final int __FSSIZE_ISSET_ID = 3;
+  private byte __isset_bitfield = 0;
+  public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;
+  static {
+    Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> tmpMap = new EnumMap<_Fields, org.apache.thrift.meta_data.FieldMetaData>(_Fields.class);
+    tmpMap.put(_Fields.CPU_VENDOR, new org.apache.thrift.meta_data.FieldMetaData("cpuVendor", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.CPU_MODEL, new org.apache.thrift.meta_data.FieldMetaData("cpuModel", org.apache.thrift.TFieldRequirementType.DEFAULT, 

@@ -1,0 +1,10 @@
+		// System.out.println(s);
+		// }
+
+		// 类似迭代器的方式
+		Enumeration en = v.elements();
+		while (en.hasMoreElements()) {
+			String s = (String) en.nextElement();
+			System.out.println(s);
+		}
+

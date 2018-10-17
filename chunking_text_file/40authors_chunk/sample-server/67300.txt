@@ -1,0 +1,10 @@
+    }
+    @ACL(limit = Limit.PLAYER_SEARCH, type = RequestType.JSON)
+    @RequestMapping("/doSearch")
+    @ResponseBody
+    public String doSearch(String condition, HttpSession session)
+    {
+        JsonResponse response = new JsonResponse();
+        ZoneEntity zoneEntity = AttributeManager.getContext(session).getTargetZone();
+        try
+        {

@@ -1,0 +1,10 @@
+     */
+    public static void setTypeface(View container, int id, Typeface face) {
+        if (container == null)
+            return;
+
+        setTypeface(container.findViewById(id), face);
+    }
+
+    public static void setTypeface(View textView, Typeface face) {
+        ((TextView) textView).setTypeface(face);

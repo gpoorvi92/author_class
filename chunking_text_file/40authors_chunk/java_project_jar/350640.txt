@@ -1,0 +1,10 @@
+        throws IOException
+    {
+        if(eof)
+            throw new IOException("Skip after end of file");
+        if(position == size)
+            return (long)doEndOfFile();
+        position += numberOfBytes;
+        long returnLength = numberOfBytes;
+        if(position > size)
+        {

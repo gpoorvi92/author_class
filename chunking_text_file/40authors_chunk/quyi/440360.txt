@@ -1,0 +1,10 @@
+        struct.cpuMhz = iprot.readI32();
+        struct.setCpuMhzIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.memSize = iprot.readI32();
+        struct.setMemSizeIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.fsSize = iprot.readI32();
+        struct.setFsSizeIsSet(true);

@@ -1,0 +1,10 @@
+    public enum Type {
+        @SerializedName("private")Private, group, supergroup, channel
+    }
+
+    private Long id;
+    private Type type;
+
+    //Private
+    private String first_name;
+    private String last_name;

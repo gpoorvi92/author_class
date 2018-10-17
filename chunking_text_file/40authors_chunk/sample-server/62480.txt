@@ -1,0 +1,10 @@
+        }
+        return result.toJson();
+    }
+    @ACL(limit = Limit.NOTICE, type = RequestType.JSON)
+    @RequestMapping(value = "/get")
+    @ResponseBody
+    public String get(String pageNo, String pageCount) throws IOException
+    {
+        List<NoticeEntity> list = DaoManager.getLocalDao().selectList(NoticeEntity.class);
+        return JsonHelper.toJson(list);

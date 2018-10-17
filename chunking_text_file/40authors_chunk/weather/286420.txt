@@ -1,0 +1,10 @@
+        }
+        File file = new File(fileString);
+        if(!file.exists()){
+            file.mkdir();
+        }
+        return  fileString;
+    }
+
+    /**
+     * 根据图片url地址获取本地已经下载的图片文件

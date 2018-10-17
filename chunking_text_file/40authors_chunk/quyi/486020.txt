@@ -1,0 +1,10 @@
+        this.dycRD = null;
+      }
+    }
+
+    public com.nercis.isscp.idl.virus.VirusDetectionResultData getVirRD() {
+      return this.virRD;
+    }
+
+    public updateUserAppInfo_args setVirRD(com.nercis.isscp.idl.virus.VirusDetectionResultData virRD) {
+      this.virRD = virRD;

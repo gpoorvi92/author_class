@@ -1,0 +1,10 @@
+
+	public static void main(String[] args) {
+
+		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(
+				//核心线程池大小为1
+				1,
+				//最大线程池大小为2*Ncpu
+		    Runtime.getRuntime().availableProcessors() * 2, 
+		    60, 
+		    TimeUnit.SECONDS,

@@ -1,0 +1,10 @@
+    }
+
+    public InlineQueryResultContact lastName(String lastName) {
+        this.last_name = lastName;
+        return this;
+    }
+
+    public InlineQueryResultContact thumbUrl(String thumbUrl) {
+        this.thumb_url = thumbUrl;
+        return this;

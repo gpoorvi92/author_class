@@ -1,0 +1,10 @@
+    @Override
+    public String toString()
+    {
+        return "ZoneEntity{" +
+                "zoneId=" + zoneId +
+                ", zoneName='" + zoneName + '\'' +
+                ", serverGroupId=" + serverGroupId +
+                ", gameServerHost='" + gameServerHost + '\'' +
+                ", chatServerHost='" + chatServerHost + '\'' +
+                ", authServerHost='" + authServerHost + '\'' +

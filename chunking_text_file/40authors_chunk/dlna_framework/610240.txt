@@ -1,0 +1,10 @@
+	}
+	////////////////////////////////////////////////
+	//	isAllowedValueRangeNode
+	////////////////////////////////////////////////
+	
+	public AllowedValueRange(Number max, Number min, Number step) {
+		//TODO Test
+		allowedValueRangeNode = new Node(ELEM_NAME);
+		if(max!=null)
+			setMaximum(max.toString());

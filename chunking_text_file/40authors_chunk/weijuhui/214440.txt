@@ -1,0 +1,10 @@
+        final RectF rectF = new RectF(0, 0, width , offset * 2);
+        canvas.drawRoundRect(rectF, offset, offset, paint);
+    }
+    
+    private static void clipBottom(final Canvas canvas,final Paint paint,int offset,int width,int height){
+        final Rect block = new Rect(0, 0, width, height - offset);
+        canvas.drawRect(block, paint);
+        final RectF rectF = new RectF(0, height - offset * 2 , width , height);
+        canvas.drawRoundRect(rectF, offset, offset, paint);
+    }

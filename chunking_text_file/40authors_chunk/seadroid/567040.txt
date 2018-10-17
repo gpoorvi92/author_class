@@ -1,0 +1,10 @@
+    }
+
+    public Account(String server, String email) {
+        this.server = server;
+        this.email = email;
+    }
+
+    public Account(String server, String email, String passwd) {
+        this.server = server;
+        this.email = email;

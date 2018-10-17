@@ -1,0 +1,10 @@
+ * 
+ * @author Nicolas Gramlich
+ * @since 17:13:44 - 09.07.2010
+ */
+public abstract class AnimatedCellEntity extends AnimatedSprite implements SnakeConstants, ICellEntity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	// ===========================================================

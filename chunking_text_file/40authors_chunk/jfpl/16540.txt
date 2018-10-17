@@ -1,0 +1,10 @@
+	private void fillVioData(AbstractCommonData acd) {
+		if (acd.getArrayValue("wzxx").size() == 0) {
+			wztipTv.setText("恭喜您，没有违章。");
+		} else {
+			wztipTv.setText("共有 " + acd.getArrayValue("wzxx").size() + " 条违章");
+		}
+		fillData(acd, getWindow().getDecorView());
+	}
+
+	public void refreshVio() {

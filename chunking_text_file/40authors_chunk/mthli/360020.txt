@@ -1,0 +1,10 @@
+            {
+               String d = dateText.getText().trim();
+               try
+               {
+                  currentDateFormat.setLenient(lenientCheckbox.isSelected());
+                  Date date = currentDateFormat.parse(d);
+                  currentDate = date;
+                  updateDisplay();
+               }
+               catch (ParseException e)

@@ -1,0 +1,10 @@
+		 
+	public static final String ST = "ST";
+	public static final String MX = "MX";
+	public static final String MAN = "MAN";
+	public static final String NT = "NT";
+	public static final String NTS = "NTS";
+	public static final String USN = "USN";
+	public static final String EXT = "EXT";
+	public static final String SID = "SID";
+	public static final String SEQ = "SEQ";

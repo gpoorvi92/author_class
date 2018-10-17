@@ -1,0 +1,10 @@
+		}
+	}
+	
+	/**
+	 * 分页查询
+	 * @param lastId 上页最后的ID
+	 * @param pageNum 每页的页数
+	 * @return
+	 */
+	public LinkedList<LoginToken> getPage(String lastId,int pageNum){

@@ -1,0 +1,10 @@
+		setStatusCode(HTTPStatus.OK);
+	
+		Node bodyNode = getBodyNode();
+		Node resNode = createResponseNode(action);
+		bodyNode.addNode(resNode);
+
+		Node envNode = getEnvelopeNode();
+		setContent(envNode);
+	}
+

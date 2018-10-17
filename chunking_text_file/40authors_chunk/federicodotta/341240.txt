@@ -1,0 +1,10 @@
+public interface IContextMenuInvocation
+{
+    /**
+     * Used to indicate that the context menu is being invoked in a request
+     * editor.
+     */
+    static final byte CONTEXT_MESSAGE_EDITOR_REQUEST = 0;
+    /**
+     * Used to indicate that the context menu is being invoked in a response
+     * editor.

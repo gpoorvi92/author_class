@@ -1,0 +1,10 @@
+      }
+    }
+    return result;
+  }
+
+  @Override
+  public long skip(final long howManyBytes) throws IOException {
+
+    long result;
+    long bytesToSkip = howManyBytes;

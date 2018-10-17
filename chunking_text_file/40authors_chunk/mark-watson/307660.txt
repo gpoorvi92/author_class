@@ -1,0 +1,10 @@
+        return (float) i;
+    }
+
+    private float deltaEnergy(int index) {
+        float temp = 0.0f;
+        for (int j = 0; j < numInputs; j++) {
+            temp += weights[index][j] * inputCells[j];
+        }
+        return 2.0f * temp - tempStorage[index];
+    }

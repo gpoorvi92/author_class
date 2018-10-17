@@ -1,0 +1,10 @@
+import java.nio.charset.*;
+
+public class WriterOutputStream extends OutputStream
+{
+
+    public WriterOutputStream(Writer writer, Charset charset, int bufferSize, boolean writeImmediately)
+    {
+        decoderIn = ByteBuffer.allocate(128);
+        this.writer = writer;
+        decoder = charset.newDecoder();

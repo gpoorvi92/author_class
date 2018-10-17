@@ -1,0 +1,10 @@
+for (int i=0,j=0;i<o.length-2;i+=3,j+=2) {
+int c1=o[i]-posA;
+int c2=o[i+1]-posA;
+int c3=o[i+2]-posA;
+int res1=0,res2=0;
+//Do the first compressed byte
+//Put 1st value shifted 2 bits up
+res1=res1|(c1<<2);
+//Put first 2 bits of 2nd value in lo position
+res1=res1|(c2>>>3);

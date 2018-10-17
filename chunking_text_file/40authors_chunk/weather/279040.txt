@@ -1,0 +1,10 @@
+        String headerValue;
+
+        headerValue = headers.get("Date");
+        if (headerValue != null) {
+            serverDate = parseDateAsEpoch(headerValue);
+        }
+
+        headerValue = headers.get("Cache-Control");
+        if (headerValue != null) {
+            hasCacheControl = true;

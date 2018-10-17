@@ -1,0 +1,10 @@
+        this.num = num;
+        this.min = min;
+        this.max = max;
+        this.values = values;
+        colors = new Color[100];
+        for (int i = 0; i < 100; i++) {
+            float x = 1.0f - ((float) i) * 0.0096f;
+            colors[i] = new Color(x, x, x);
+        }
+        this.setBackground(Color.white);

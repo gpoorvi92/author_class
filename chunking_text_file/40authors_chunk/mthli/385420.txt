@@ -1,0 +1,10 @@
+                  if (cl.getComponentType().isPrimitive())
+                  {
+                     try
+                     {
+                        text = Arrays.class.getMethod("toString", cl).invoke(null, value)
+                              .toString();
+                     }
+                     catch (ReflectiveOperationException ex)
+                     {
+                        // ignore reflection exceptions

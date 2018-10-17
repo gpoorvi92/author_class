@@ -1,0 +1,10 @@
+   * @param args
+   * @throws Throwable 
+   */
+  public static void main(String[] args) throws Throwable {
+    LuceneManager lm = new LuceneManager("/tmp");
+    // start fresh: create a new index:
+    lm.createAndClearLuceneIndex();
+    lm.addDocumentToIndex("file://tmp/test1.txt", "This is a test for index and a test for search.");
+    lm.addDocumentToIndex("file://tmp/test2.txt", "Please test the index code.");
+    lm.addDocumentToIndex("file://tmp/test3.txt", "Please test the index code before tomorrow.");

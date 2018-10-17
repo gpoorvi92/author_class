@@ -1,0 +1,10 @@
+
+class IdCount implements Comparable<IdCount> {
+  int id = 0;
+  int count = 0;
+  public IdCount(int k, int v) {
+    this.id = k;
+    this.count = v;
+  }
+  public String toString() {
+    return "[IdCount: " + id + " : " + count + "]";

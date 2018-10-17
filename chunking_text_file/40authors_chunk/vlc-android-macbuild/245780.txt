@@ -1,0 +1,10 @@
+
+    @Override
+    public int getCurrentPosition() {
+        return (int) mLibVLC.getTime();
+    }
+
+    @Override
+    public int getDuration() {
+        int duration = (int) mLibVLC.getLength();
+        return duration;

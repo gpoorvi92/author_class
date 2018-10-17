@@ -1,0 +1,10 @@
+{
+  // Capabilities
+  public boolean getCapBatteryCapacityRemaining() throws JposException;
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapRestartPOS() throws JposException;
+  public boolean getCapStandbyPOS() throws JposException;
+  public boolean getCapSuspendPOS() throws JposException;
+  public boolean getCapUpdateFirmware() throws JposException;
+  public boolean getCapVariableBatteryCriticallyLowThreshold() throws JposException;
+  public boolean getCapVariableBatteryLowThreshold() throws JposException;

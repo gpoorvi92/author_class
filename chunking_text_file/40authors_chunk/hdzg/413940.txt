@@ -1,0 +1,10 @@
+		}
+		return increment;
+	}
+	//计算并返回将领应该增加的体力,基本算法就是体力越低,回复越快,等级越高,恢复越慢,但暂时先不这样
+	public static int getGeneralStrengthIncrement(General general){
+		//int level = general.getLevel();//获得将军等级
+		int strength = general.getStrength();//获得将军体力
+		int increment = BASIC_STRENGTH_INCREMENT;//计算出增量
+		if(strength + increment > general.maxStrength){//如果不用加那么多就已经完全恢复
+			increment = general.maxStrength - strength;

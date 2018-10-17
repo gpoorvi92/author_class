@@ -1,0 +1,10 @@
+
+			//Creating the Themes Radio Button by Getting their own Name.
+			JRadioButtonMenuItem item = new JRadioButtonMenuItem (themes[i].getName());
+			group.add (item);			//Adding theme into Group.
+			add (item);
+			item.setActionCommand (i + "");		//Setting the ActionCommand.
+			item.addActionListener (this);		//Setting the theme's Action.
+			if ( i == 0)
+				item.setSelected (true);	//Setting the theme's Selection.
+

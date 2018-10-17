@@ -1,0 +1,10 @@
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("operate:");
+      if (this.operate == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.operate);
+      }
+      first = false;
+      sb.append(")");

@@ -1,0 +1,10 @@
+			strBuf.delete(0, 40);
+
+			pwr.print(sdf.format(record.getEffectiveDate(), strBuf, FIELD_POS));
+			strBuf.delete(0, 40);
+			pwr.print(FIELD_SEPARATOR);
+
+			pwr.print(sdf.format(record.getDueDate(), strBuf, FIELD_POS));
+			pwr.print('\n');
+
+			if (0 == (i % RECORD_JOIN_SIZE)) {

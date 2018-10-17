@@ -1,0 +1,10 @@
+        this.getContentPane().add(inputPanel, null);
+        this.getContentPane().add(hidden1Panel, null);
+        this.getContentPane().add(hidden2Panel, null);
+        this.getContentPane().add(outputPanel, null);
+        this.getContentPane().add(w1Panel, null);
+        this.getContentPane().add(w2Panel, null);
+        this.getContentPane().add(w3Panel, null);
+        this.getContentPane().add(jButton1, null);
+        this.getContentPane().add(jLabel1, null);
+        this.getContentPane().add(jLabel2, null);

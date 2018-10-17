@@ -1,0 +1,10 @@
+    public ModelAndView update(@RequestParam("imageFile") MultipartFile image, Merchant merchant) {
+        try {
+            merchantService.update(image, merchant);
+            return ajaxDoneSuccessAndClose("修改成功", "");
+        } catch (ServiceException e) {
+            return ajaxDoneError("修改失败");
+        }
+    }
+
+    @RequestMapping("/checkStoreName")

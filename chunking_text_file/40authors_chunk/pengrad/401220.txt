@@ -1,0 +1,9 @@
+    public void videoDuration(Integer videoDuration) {
+        this.video_duration = videoDuration;
+    }
+
+    public InlineQueryResultVideo description(String description) {
+        this.description = description;
+        return this;
+    }
+}

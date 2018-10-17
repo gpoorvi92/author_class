@@ -1,0 +1,10 @@
+    CHECK_TIME((short)3, "checkTime"),
+    CPU((short)4, "cpu"),
+    RSS((short)5, "rss"),
+    VSS((short)6, "vss");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {
+      for (_Fields field : EnumSet.allOf(_Fields.class)) {
+        byName.put(field.getFieldName(), field);

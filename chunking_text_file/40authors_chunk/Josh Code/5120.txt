@@ -1,0 +1,10 @@
+  private static final int WIRE_FRAME = 0;
+  private static final int TEXTURE_MAPPED = 1;
+    private static final int WHITE_VERTICES = 2;
+    private static final RenderingMode[] renderingModes = getRenderingModes();
+
+  private int displaymode;
+ /**
+   The model being viewed
+ */
+ private Model m;

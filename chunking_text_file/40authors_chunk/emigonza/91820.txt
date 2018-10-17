@@ -1,0 +1,10 @@
+        makeProperty("TransactionNumber"),
+        makeProperty("TransactionType"),
+        makeProperty("PaymentMedia"),
+        makeProperty("Balance"),
+        makeProperty("LogStatus"),
+        makeProperty("SettledAmount")
+      };
+
+      return properties;
+    }

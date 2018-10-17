@@ -1,0 +1,10 @@
+        BaseResponse response = bot.execute(new LeaveChat(chatId));
+        System.out.println(response);
+    }
+
+    @Test
+    public void getChatAdministrators() {
+        GetChatAdministratorsResponse response = bot.execute(new GetChatAdministrators(channelName));
+        System.out.println(response);
+        for (ChatMember chatMember : response.administrators()) ChatMemberTest.check(chatMember);
+    }

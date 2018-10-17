@@ -1,0 +1,10 @@
+    return new AppDetectResult(this);
+  }
+
+  @Override
+  public void clear() {
+    this.missionId = null;
+    this.userAppId = null;
+    this.usedPermissions = null;
+    this.plotsStatus = null;
+    this.functionStatus = null;

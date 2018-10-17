@@ -1,0 +1,10 @@
+
+    public static class queryApp<I extends Iface> extends org.apache.thrift.ProcessFunction<I, queryApp_args> {
+      public queryApp() {
+        super("queryApp");
+      }
+
+      public queryApp_args getEmptyArgsInstance() {
+        return new queryApp_args();
+      }
+

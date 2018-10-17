@@ -1,0 +1,10 @@
+class Win32RegKeyNameEnumeration implements Enumeration<String>
+{
+   public native String nextElement();
+   public native boolean hasMoreElements();
+   private int root;
+   private String path;
+   private int index = -1;
+   private int hkey = 0;
+   private int maxsize;
+   private int count;

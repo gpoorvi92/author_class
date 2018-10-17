@@ -1,0 +1,10 @@
+         int row, int column)
+   {
+      // this is where we get the current Color value. We store it in the dialog in case the user.
+      // starts editing
+      colorChooser.setColor((Color) value);
+      return panel;
+   }
+
+   public boolean shouldSelectCell(EventObject anEvent)
+   {

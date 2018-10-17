@@ -1,0 +1,10 @@
+
+//¿∫«Ú‘À∂Ø‘±
+class BasketBallPlayer extends Player {
+	public BasketBallPlayer() {}
+
+	public BasketBallPlayer(String name,int age) {
+		super(name,age);
+	}
+
+	public void eat() {

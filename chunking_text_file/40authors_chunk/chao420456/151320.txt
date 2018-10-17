@@ -1,0 +1,10 @@
+		// 添加到窗体
+		f.setMenuBar(mb);
+
+		// 获取以前的标题
+		final String title = f.getTitle();
+
+		// 注册事件
+		f.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {

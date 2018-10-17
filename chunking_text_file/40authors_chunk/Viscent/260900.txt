@@ -1,0 +1,10 @@
+import java.util.concurrent.FutureTask;
+
+/**
+ * 基于工作者线程的Slave参与者通用实现。
+ * 
+ * @author Viscent Huang
+ *
+ * @param <T>
+ *          子任务类型
+ * @param <V>

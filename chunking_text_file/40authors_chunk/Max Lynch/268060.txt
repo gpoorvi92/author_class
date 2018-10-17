@@ -1,0 +1,10 @@
+	}
+
+
+	public static synchronized GraphicsFrame instance()
+	{
+		if(_instance == null)
+		{
+			_instance = new GraphicsFrame();
+		}
+		return _instance;

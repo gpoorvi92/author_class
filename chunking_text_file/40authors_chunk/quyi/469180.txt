@@ -1,0 +1,10 @@
+      if (struct.isSetRuleTypes()) {
+        {
+          oprot.writeI32(struct.ruleTypes.size());
+          for (Activity _iter4 : struct.ruleTypes)
+          {
+            oprot.writeI32(_iter4.getValue());
+          }
+        }
+      }
+      if (struct.isSetRiskLevel()) {

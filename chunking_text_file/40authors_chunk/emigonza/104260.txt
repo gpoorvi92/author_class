@@ -1,0 +1,10 @@
+                                boolean[] discrepancy)
+                     throws JposException;
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;

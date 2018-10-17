@@ -1,0 +1,10 @@
+		this.setTitle(title);
+		fad = new FrameAlertDialog(this);
+		try {
+			acd = DataConvertFactory.getInstanceByJson(json);
+			acd.putStringValue("fkje", acd.getStringValue("fkje") + " 元");
+			fillData(acd);
+			wfxw = wfxwTv.getText().toString();
+			wfxwTv.setText(Html.fromHtml("<u>" + wfxw + "</u>"));
+		} catch (InstanceDataException e) {
+			e.printStackTrace();

@@ -1,0 +1,10 @@
+    public String getCpuArchitecture() {
+        return mRawInfoMap.get("cpu architecture");
+    }
+
+    public boolean hasArmv7() {
+        return mHasARMv7;
+    }
+
+    public boolean hasArmv6() {
+        return mHasARMv6;

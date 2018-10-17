@@ -1,0 +1,10 @@
+		alarmMgr.init();
+		
+		final String alarmId="10000020";
+		final String alarmExtraInfo= "name1=test;name2=value2";
+		
+		Thread t1;
+		
+		
+		int count1=10;
+		final Timer timer=new Timer(true);

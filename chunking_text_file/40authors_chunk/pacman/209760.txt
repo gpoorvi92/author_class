@@ -1,0 +1,10 @@
+ * @date: 2014年12月28日 下午9:43:17
+ */
+public interface ILog {
+
+	/**
+	 * info.
+	 * 
+	 * @param msg
+	 */
+	void info(String msg);

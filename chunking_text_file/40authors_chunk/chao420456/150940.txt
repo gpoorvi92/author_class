@@ -1,0 +1,10 @@
+		getContentPane().add(jbt_exit);
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JTextField jtf_username;
+	private JTextField jtf_hostIp;
+	private JTextField jtf_hostPort;

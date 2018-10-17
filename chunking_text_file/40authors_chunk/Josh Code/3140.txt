@@ -1,0 +1,10 @@
+               resultComponents[row]+=
+                   values[c][row]*vectorComponents[c];
+            }
+        }
+
+        v.x = resultComponents[0];
+        v.y = resultComponents[1];
+        v.z = resultComponents[2];
+    }
+

@@ -1,0 +1,10 @@
+	 * @param t
+	 * @throws MQException
+	 * @return: void
+	 */
+	<T> void sendObject(T t) throws MQException;
+	
+	/**
+	 * Sends the bytes stream
+	 * 
+	 * @Title: sendStream

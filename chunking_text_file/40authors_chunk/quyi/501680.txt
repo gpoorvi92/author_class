@@ -1,0 +1,10 @@
+  }
+
+  /**
+   * Find a the enum type by its integer value, as defined in the Thrift IDL.
+   * @return null if the value is not found.
+   */
+  public static Permissions findByValue(int value) { 
+    switch (value) {
+      case 0:
+        return ACCESS_CHECKIN_PROPERTIES;

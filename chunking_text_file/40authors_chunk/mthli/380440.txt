@@ -1,0 +1,10 @@
+      mailButton.setEnabled(false);
+
+      if (Desktop.isDesktopSupported())
+      {
+         Desktop desktop = Desktop.getDesktop();
+         if (desktop.isSupported(Desktop.Action.OPEN)) openButton.setEnabled(true);
+         if (desktop.isSupported(Desktop.Action.EDIT)) editButton.setEnabled(true);
+         if (desktop.isSupported(Desktop.Action.PRINT)) printButton.setEnabled(true);
+         if (desktop.isSupported(Desktop.Action.BROWSE)) browseButton.setEnabled(true);
+         if (desktop.isSupported(Desktop.Action.MAIL)) mailButton.setEnabled(true);

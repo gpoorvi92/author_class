@@ -1,0 +1,5 @@
+	 * */
+	public void setChildren(List<WeChatMenuInfo> children) {
+		this.children = children;
+	}
+}

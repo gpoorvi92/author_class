@@ -1,0 +1,10 @@
+    public String reportEngineConfig() throws com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      send_reportEngineConfig();
+      return recv_reportEngineConfig();
+    }
+
+    public void send_reportEngineConfig() throws org.apache.thrift.TException
+    {
+      reportEngineConfig_args args = new reportEngineConfig_args();
+      sendBase("reportEngineConfig", args);

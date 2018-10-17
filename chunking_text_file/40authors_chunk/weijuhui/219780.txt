@@ -1,0 +1,10 @@
+				.toString());
+		setResult(flag, intent);
+		finish();
+		
+	}
+	
+	public void onResume() {
+	    super.onResume();
+	    MobclickAgent.onResume(this);
+	}

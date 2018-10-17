@@ -1,0 +1,10 @@
+                else if (result instanceof ErrorResult)
+                {
+                    int responseCode = (int) result.getResult();
+                    response = Fenrisulfr.RpcPacket.newBuilder().setCounter(packet.getCounter()).setResponseCode(responseCode).setTimestamp(System.currentTimeMillis()).build();
+                }
+                else
+                {
+                    log.error("unknow result type:{}", result.getClass());
+                }
+            }

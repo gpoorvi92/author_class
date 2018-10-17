@@ -1,0 +1,10 @@
+		}
+
+		public Future<String> doSomething(String message, int sequence) {
+			if (sequence < 0) {
+				throw new IllegalArgumentException("Invalid sequence:" + sequence);
+			}
+			return this.dispatch(message, sequence);
+		}
+	}
+}

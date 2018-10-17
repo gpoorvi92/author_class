@@ -1,0 +1,10 @@
+//说英语的接口
+interface SpeakEnglish {
+	public abstract void speak();
+}
+
+//抽象人类
+abstract class People {
+	private String name;
+	private int age;
+

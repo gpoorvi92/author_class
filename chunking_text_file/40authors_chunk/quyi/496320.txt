@@ -1,0 +1,10 @@
+      break;
+
+    case NODE_INFO:
+      if (value == null) {
+        unsetNodeInfo();
+      } else {
+        setNodeInfo((NodeInfo)value);
+      }
+      break;
+

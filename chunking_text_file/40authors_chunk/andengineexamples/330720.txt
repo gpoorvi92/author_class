@@ -1,0 +1,10 @@
+		this.mLatitude = pLatitude;
+		this.mLongitude = pLongitude;
+	}
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+
+	public final String getName() {
+		return this.mName;

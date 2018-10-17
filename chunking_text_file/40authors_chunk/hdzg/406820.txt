@@ -1,0 +1,10 @@
+package wyf.ytl.view;
+
+import wyf.ytl.HDZGActivity;
+import wyf.ytl.R;
+import wyf.ytl.R.drawable;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;

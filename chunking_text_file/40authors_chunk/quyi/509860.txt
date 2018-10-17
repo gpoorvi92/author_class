@@ -1,0 +1,10 @@
+  /** Returns true if field positives is set (has been assigned a value) and false otherwise */
+  public boolean isSetPositives() {
+    return EncodingUtils.testBit(__isset_bitfield, __POSITIVES_ISSET_ID);
+  }
+
+  public void setPositivesIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __POSITIVES_ISSET_ID, value);
+  }
+
+  public int getVirusEngineSize() {

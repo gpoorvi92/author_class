@@ -1,0 +1,10 @@
+ * User: Teaey
+ * Date: 13-9-17
+ */
+public class LocalDao extends BaseDao
+{
+    LocalDao(Configuration c)
+    {
+        super(c);
+    }
+    public List<Object> getAverageOnlineData(Date date)

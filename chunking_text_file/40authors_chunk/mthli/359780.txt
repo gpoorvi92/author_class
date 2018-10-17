@@ -1,0 +1,10 @@
+   }
+   
+   public static void showContents2(String zipname) throws IOException
+   {
+      // Here, we make a Java SE 7 file system
+      FileSystem fs = FileSystems.newFileSystem(Paths.get(zipname), null);
+      Files.walkFileTree(fs.getPath("/"), new SimpleFileVisitor<Path>()
+         {
+            public FileVisitResult visitFile(Path path, BasicFileAttributes attrs) throws IOException
+            {               

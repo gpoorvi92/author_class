@@ -1,0 +1,10 @@
+
+   /**
+    * Makes the buttons to add a sibling, add a child, and delete a node.
+    */
+   public void makeButtons()
+   {
+      JPanel panel = new JPanel();
+      JButton addSiblingButton = new JButton("Add Sibling");
+      addSiblingButton.addActionListener(new ActionListener()
+         {

@@ -1,0 +1,10 @@
+        this.severity = severity;
+        this.confidence = confidence;
+        this.issueDetail = issueDetail;
+        this.remediationDetail = remediationDetail;        
+    }
+    
+    @Override
+    public URL getUrl()
+    {
+        return url;

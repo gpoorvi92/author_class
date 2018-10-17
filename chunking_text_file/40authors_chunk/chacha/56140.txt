@@ -1,0 +1,10 @@
+
+	/**
+	 * 令牌认证
+	 * 
+	 * @param request
+	 *            令牌认证请求
+	 * @return 令牌认证是否成功
+	 */
+	public AuthResponse loginToken(AuthRequest request) {
+		String token=((String)request.getKey(AuthRequest.KEY_TOKEN)).trim();

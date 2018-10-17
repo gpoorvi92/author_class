@@ -1,0 +1,10 @@
+ */
+public class ExpressionDataLoader {
+
+    /**
+     * 图片表情名称
+     */
+    public List<String> expressionNameList1; // 表情名字
+
+    /**
+     * 符号表情名称

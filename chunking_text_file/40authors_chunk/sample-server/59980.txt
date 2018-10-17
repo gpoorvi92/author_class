@@ -1,0 +1,10 @@
+    public Rpc.RpcPacket sendWaitBack(Rpc.RpcPacket packet)
+    {
+        connect();
+        byte[] reqData = packet.toByteArray();
+        try
+        {
+            outputStream.send(reqData);
+            byte[] respData = inputStream.recv();
+            return Rpc.RpcPacket.parseFrom(respData);
+        } catch (Exception e)

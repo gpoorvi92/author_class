@@ -1,0 +1,7 @@
+
+package jpos.events;
+
+public interface OutputCompleteListener extends java.util.EventListener
+{
+    public void outputCompleteOccurred(OutputCompleteEvent e);
+}

@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.service.impl;
+
+import cn.abovesky.shopping.dao.SendAddressMapper;
+import cn.abovesky.shopping.domain.SendAddress;
+import cn.abovesky.shopping.service.ISendAddressService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;

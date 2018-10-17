@@ -1,0 +1,6 @@
+   @LogEntry(logger = "global")
+   public int hashCode()
+   {
+      return Objects.hash(description, partNumber);
+   }
+}

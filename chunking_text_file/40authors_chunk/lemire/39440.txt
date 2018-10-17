@@ -1,0 +1,10 @@
+    }
+
+    static long getRunningLength(final Buffer buffer, final int position) {
+        return (buffer.getWord(position) >>> 1) & LARGEST_RUNNING_LENGTH_COUNT;
+    }
+
+    /**
+     * Sets the number of literal words.
+     *
+     * @param number the new number of literal words

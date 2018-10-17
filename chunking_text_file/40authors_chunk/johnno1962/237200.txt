@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.PopupMenuListener ///
+
+package org.genie.javax_swing;
+
+public class PopupMenuListenerProxy implements javax.swing.event.PopupMenuListener {
+
+    long swiftObject;
+
+    PopupMenuListenerProxy( long swiftObject ) {

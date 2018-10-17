@@ -1,0 +1,10 @@
+	protected AbstractCommonData itemData;
+	protected AutoActivity ctx;
+	protected ListView chatList;
+
+	public ChatBaseService(AutoActivity ctx, ListView chatList,
+			ProgressBar progressBar, ImageView imageView, AbstractCommonData acd) {
+
+		this.progressBar = progressBar;
+		this.imageView = imageView;
+		this.itemData = acd;

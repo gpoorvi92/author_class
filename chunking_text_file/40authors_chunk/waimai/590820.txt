@@ -1,0 +1,6 @@
+    @Override
+    public List<Goods> findAll() {
+        return goodsMapper.findAll();
+    }
+
+}

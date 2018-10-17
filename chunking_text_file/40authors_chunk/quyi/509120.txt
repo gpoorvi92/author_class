@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * 定义硬件类型
+ * 1:bluetooth 蓝牙
+ * 2:wifi 无线WiFi
+ * 3:gps GPS定位
+ * 4:camera 摄像头
+ * 5:nfc 近距离无线通讯

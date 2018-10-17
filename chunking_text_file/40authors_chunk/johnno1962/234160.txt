@@ -1,0 +1,10 @@
+
+    public native void __handlePrintFile( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handlePrintFile( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handlePrintFile( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handleQuit(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleQuit( com.apple.eawt.ApplicationEvent arg0 );

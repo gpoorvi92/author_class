@@ -1,0 +1,7 @@
+    }
+
+    @Override
+    public void didLoadDataFail(DataProvider provider, String failMsg, LoadingType type) {
+        UIManager.getInstance().Toast(failMsg);
+    }
+}

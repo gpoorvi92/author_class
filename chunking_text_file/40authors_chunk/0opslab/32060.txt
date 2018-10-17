@@ -1,0 +1,10 @@
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#HeadCellStartTag(boolean)
+   */
+  protected String HeadCellStartTag(boolean firstOrLast) {
+    return "<TH>";
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#HeadCellStopTag(boolean)
+   */
+  protected String HeadCellStopTag(boolean firstOrLast) {
+    return "</TH>";

@@ -1,0 +1,10 @@
+public class PropertiesHelper {
+    public static Properties createFromAsset(Context context, String path) {
+        AssetManager am = context.getAssets();
+        if (am == null)
+            return null;
+
+        InputStream inputStream = null;
+        Properties properties = null;
+        try {
+            inputStream = am.open(path);

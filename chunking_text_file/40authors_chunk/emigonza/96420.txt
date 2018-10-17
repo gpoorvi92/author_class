@@ -1,0 +1,10 @@
+    					  	new TracerOutput()
+                          	{
+                          		public void println( String s ) {}
+                                public void print( String s ) {}
+                            };
+
+    //--------------------------------------------------------------------------
+    // Private class variables
+    //
+

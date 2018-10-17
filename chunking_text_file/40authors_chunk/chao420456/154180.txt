@@ -1,0 +1,10 @@
+		ppp.speak();
+		System.out.println("---------------------------");
+
+		BasketBallCoach bbc = new BasketBallCoach("ÇÇµ¤",60);
+		bbc.eat();
+		bbc.teach();
+		System.out.println("---------------------------");
+
+		BasketBallPlayer bbp = new BasketBallPlayer("ÕÅ²®Â×",30);
+		bbp.eat();

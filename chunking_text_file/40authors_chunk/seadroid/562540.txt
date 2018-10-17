@@ -1,0 +1,10 @@
+        super.onCreate();
+        SeadroidApplication.context = getApplicationContext();
+        initImageLoader(getApplicationContext());
+
+        // set gesture lock if available
+        AppLockManager.getInstance().enableDefaultAppLockIfAvailable(this);
+    }
+    
+    public static Context getAppContext() {
+        return SeadroidApplication.context;

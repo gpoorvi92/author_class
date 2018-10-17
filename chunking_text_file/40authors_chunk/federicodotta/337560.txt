@@ -1,0 +1,10 @@
+     * This method is used to retrieve the currently displayed message, which
+     * may have been modified by the user.
+     *
+     * @return The currently displayed HTTP message.
+     */
+    byte[] getMessage();
+
+    /**
+     * This method is used to determine whether the current message has been
+     * modified by the user.

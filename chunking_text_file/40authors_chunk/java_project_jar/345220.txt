@@ -1,0 +1,6 @@
+    }
+
+    private static final String LCK = ".lck";
+    private final Writer out;
+    private final File lockFile;
+}

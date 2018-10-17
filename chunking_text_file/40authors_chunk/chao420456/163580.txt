@@ -1,0 +1,10 @@
+		Frame f = new Frame("数据转移");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);
+		// 设置布局
+		f.setLayout(new FlowLayout());
+
+		// 创建文本框
+		final TextField tf = new TextField(20);
+		// 创建按钮
+		Button bu = new Button("数据转移");

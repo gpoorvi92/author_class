@@ -1,0 +1,10 @@
+ 			JOptionPane.showMessageDialog (null, "A Problem Occurs While Loading the Form.");
+ 			dispose ();				//Closing the Form.
+	 	}
+
+		setVisible (true);
+
+	}
+
+	//Action Performed By the Form's Button.
+

@@ -1,0 +1,10 @@
+        case R.id.cancel:
+            if (state == TaskState.INIT || state == TaskState.TRANSFERRING) {
+                txService.cancelUploadTask(taskID);
+                needRefresh = true;
+            }
+            break;
+        case R.id.retry:
+            if (state == TaskState.FAILED || state == TaskState.CANCELLED) {
+                txService.retryUploadTask(taskID);
+                needRefresh = true;

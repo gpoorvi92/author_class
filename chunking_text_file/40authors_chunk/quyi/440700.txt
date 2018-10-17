@@ -1,0 +1,10 @@
+        case 9: // DATA_LENGTH
+          return DATA_LENGTH;
+        case 10: // OPERATE_TIME
+          return OPERATE_TIME;
+        default:
+          return null;
+      }
+    }
+
+    /**

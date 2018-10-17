@@ -1,0 +1,6 @@
+		log.trace("giving an allowance of " + allowedCapacityPerIteration + " bytes to " + entry.getKey() + ". (consumed " +
+				instantRateInBytes + " bytes during previous iteration)");
+
+	}
+
+}

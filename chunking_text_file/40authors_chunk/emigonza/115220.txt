@@ -1,0 +1,10 @@
+    public String  getPhysicalDeviceName() throws JposException;
+    public int     getState() throws JposException;
+
+    // Methods
+    public void    claim(int timeout) throws JposException;
+    public void    close() throws JposException;
+    public void    checkHealth(int level) throws JposException;
+    public void    directIO(int command, int[] data, Object object)
+                       throws JposException;
+    public void    open(String logicalName, EventCallbacks cb)

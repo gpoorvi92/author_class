@@ -1,0 +1,10 @@
+				linkValid = true;
+				customer = c;
+				break;
+			}
+		}
+		if(!linkValid){
+			return "page/register/register.jsp?registerName=" + userName + 
+					"&linkName=" + linkName+"&contact=" + contact;
+		}
+		

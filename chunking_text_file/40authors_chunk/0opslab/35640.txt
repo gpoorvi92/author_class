@@ -1,0 +1,10 @@
+/**
+ * 对JDK提供的集合相关的一些测试
+ */
+public class CollectionTest {
+
+    /**
+     * 测试利用list转set或set转list的方法是否能解决深拷贝的问题
+     * <p/>
+     * 测试结果:不能解决深拷贝的问题
+     */

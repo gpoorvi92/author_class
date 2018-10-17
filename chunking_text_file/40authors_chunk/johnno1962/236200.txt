@@ -1,0 +1,10 @@
+        else
+            super.gestureEnded( arg0 );
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.magnify(com.apple.eawt.event.MagnificationEvent)
+
+    public native void __magnify( com.apple.eawt.event.MagnificationEvent arg0 );
+
+    boolean entered_magnify_3;
+

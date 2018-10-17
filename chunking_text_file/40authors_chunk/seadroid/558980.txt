@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        Log.d(DEBUG_TAG, "onBind");
+        return mBinder;
+    }
+
+    @Override

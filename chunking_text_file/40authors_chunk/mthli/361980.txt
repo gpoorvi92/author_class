@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Gets a connection from the properties specified in the file database.properties.
+    * @return the database connection
+    */
+   public static Connection getConnection() throws SQLException, IOException
+   {
+      Properties props = new Properties();
+      try (InputStream in = Files.newInputStream(Paths.get("database.properties")))

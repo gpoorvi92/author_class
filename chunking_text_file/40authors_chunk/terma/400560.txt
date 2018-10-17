@@ -1,0 +1,10 @@
+        if (workers == null) {
+            if (LOGGER.isLoggable(Level.INFO))
+                LOGGER.info(name + " already been shutdown");
+            return;
+        }
+
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info("Starting shutdown " + name);
+
+        for (final Thread worker : workers) {

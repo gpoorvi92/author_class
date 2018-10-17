@@ -1,0 +1,10 @@
+/**
+ * FTP工具类
+ *
+ * @require apache-commons-net.jar.
+ */
+public interface FTPUtil {
+    //判断远程文件是否存在
+    public boolean isExists(String fileName);
+
+    //下载远程文件

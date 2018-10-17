@@ -1,0 +1,10 @@
+  public boolean isSetUsedPermissions() {
+    return this.usedPermissions != null;
+  }
+
+  public void setUsedPermissionsIsSet(boolean value) {
+    if (!value) {
+      this.usedPermissions = null;
+    }
+  }
+

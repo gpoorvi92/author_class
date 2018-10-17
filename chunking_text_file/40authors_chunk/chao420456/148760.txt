@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+/*
+ * 为什么出现集合类?
+ * 		面向对象语言对事物的体现都是以对象的形式，所以为了方便对多个对象的操作，用前面所学知识，我们只能采用对象数组实现。
+ * 		但是，对象数组的长度又是固定的，适应不了变化的需求，所以，java就提供了集合类供我们使用。
+ * 

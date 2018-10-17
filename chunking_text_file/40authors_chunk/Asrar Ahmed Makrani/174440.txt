@@ -1,0 +1,10 @@
+import java.sql.*;
+import javax.swing.*;
+import java.awt.*;
+import java.util.*;
+
+public class journalSQL implements journal_master_info_Interface, journal_tab_Interface
+{
+	public Connection con;
+	public String a, b, c, d, g, h, i, j, k, l;
+	

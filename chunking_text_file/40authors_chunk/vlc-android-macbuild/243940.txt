@@ -1,0 +1,10 @@
+        return 0;
+    }
+
+    public static int vfmt(String tag, String fmt, Object... args) {
+        if (ENABLE_VERBOSE) {
+            String msg = String.format(fmt, args);
+            return Log.v(tag, msg);
+        }
+
+        return 0;

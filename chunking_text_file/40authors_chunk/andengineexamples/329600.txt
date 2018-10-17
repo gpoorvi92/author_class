@@ -1,0 +1,10 @@
+				this.mMainScene.reset();
+
+				/* Remove the menu and reset it. */
+				this.mMainScene.clearChildScene();
+				this.mMenuScene.reset();
+				return true;
+			case MENU_QUIT:
+				/* End Activity. */
+				this.finish();
+				return true;

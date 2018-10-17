@@ -1,0 +1,10 @@
+  /** Returns true if field ruleId is set (has been assigned a value) and false otherwise */
+  public boolean isSetRuleId() {
+    return this.ruleId != null;
+  }
+
+  public void setRuleIdIsSet(boolean value) {
+    if (!value) {
+      this.ruleId = null;
+    }
+  }

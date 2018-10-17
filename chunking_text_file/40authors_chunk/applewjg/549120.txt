@@ -1,0 +1,10 @@
+    public List<List<Integer>> threeSum(int[] num) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        Arrays.sort(num);
+        int N = num.length;
+        for (int i = 0; i < N-2 && num[i] <= 0; ++i)
+        {
+            if (i > 0 && num[i] == num[i-1])
+                continue; // avoid duplicates
+            int twosum = 0 - num[i];
+            int l = i + 1, r = N - 1;

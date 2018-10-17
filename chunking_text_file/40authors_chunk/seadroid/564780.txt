@@ -1,0 +1,10 @@
+                while (status.mThumbRequesting) {
+                    Images.Thumbnails.cancelThumbnailRequest(cr, -1, t.getId());
+                    Video.Thumbnails.cancelThumbnailRequest(cr, -1, t.getId());
+                    status.wait(200);
+                }
+            }
+        } catch (InterruptedException ex) {
+            // ignore it.
+        }
+    }

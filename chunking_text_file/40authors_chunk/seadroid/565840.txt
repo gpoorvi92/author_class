@@ -1,0 +1,10 @@
+        db.execSQL("DELETE TABLE AccountInfo");
+        onCreate(db);
+    }
+
+    public void onDowngrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        onUpgrade(db, oldVersion, newVersion);
+    }
+
+    public Account getAccount(String server, String email) {
+        String[] projection = {

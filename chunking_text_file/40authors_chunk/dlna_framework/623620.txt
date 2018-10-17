@@ -1,0 +1,10 @@
+
+	public static final int RECV_MESSAGE_BUFSIZE = 1024;
+
+	////////////////////////////////////////////////
+	//	Initialize
+	////////////////////////////////////////////////
+
+	static 
+	{
+		setIPv6Address(IPV6_LINK_LOCAL_ADDRESS);

@@ -1,0 +1,10 @@
+
+	public SearchAppThread(String engineAddress, int enginePort, String missionId, String userAppId,String number,int count) {
+		this.engine_address = engineAddress;
+		this.engine_port = enginePort;
+		this.missionId = missionId;
+		this.userAppId = userAppId;
+		this.number=number;
+		this.count=count;
+	}
+

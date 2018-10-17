@@ -1,0 +1,10 @@
+
+			}
+		}).start();
+	}
+
+	@Override
+	protected void handleListItem(View v, int position) {
+
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();
+		ImageView iv = (ImageView) acd.getObjectValue("_image_view");

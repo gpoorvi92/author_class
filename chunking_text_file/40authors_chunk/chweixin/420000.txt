@@ -1,0 +1,9 @@
+			for(int i = 0; i < MAX_COUNT - 1; i ++){
+				dest.add(articles.get(i));
+			}
+			this.Articles = dest;
+			 return;
+		 }
+		this.Articles = articles;
+	}	
+}

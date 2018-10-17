@@ -1,0 +1,10 @@
+
+			String notifyTitle = context.getString(R.string.app_name);
+			String notifyContent = "客服有新的消息回复";
+			String recentlyTitle = "";
+			String recentlyContent = null;
+			String recentlyUrl = null;
+			String recentlyAppId = null;
+
+			DBHelper dbHelper = new DBHelper(context);
+			SQLiteDatabase con = dbHelper.getWritableDatabase();

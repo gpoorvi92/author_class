@@ -1,0 +1,7 @@
+     * should be intercepted and displayed to the user for manual review or
+     * modification.
+     */
+    void processProxyMessage(
+            boolean messageIsRequest,
+            IInterceptedProxyMessage message);
+}

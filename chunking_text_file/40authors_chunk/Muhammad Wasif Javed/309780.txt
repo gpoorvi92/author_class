@@ -1,0 +1,10 @@
+					else {
+						verify = false;
+						txtPass.setText ("");
+						txtNew.setText ("");
+						txtPass.requestFocus ();
+						JOptionPane.showMessageDialog (this, "Incorrect Old Password.");
+					}
+				}
+				catch (SQLException sqlex) { }
+			}

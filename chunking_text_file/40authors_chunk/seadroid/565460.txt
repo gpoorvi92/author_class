@@ -1,0 +1,10 @@
+
+    private AvatarDBHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+    }
+
+    public boolean hasAvatar(Account account) {
+
+        if (account == null)
+            return false;
+        if (account.getSignature() == null || account.getSignature().isEmpty())

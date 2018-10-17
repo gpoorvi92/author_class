@@ -1,0 +1,10 @@
+                //得到输入流
+                InputStream is=conn.getInputStream();
+                //创建包装流
+                BufferedReader br=new BufferedReader(new InputStreamReader(is));
+                //定义String类型用于储存单行数据
+                String line=null;
+                //创建StringBuffer对象用于存储所有数据
+                StringBuffer sb=new StringBuffer();
+                while((line=br.readLine())!=null){
+                    sb.append(line);

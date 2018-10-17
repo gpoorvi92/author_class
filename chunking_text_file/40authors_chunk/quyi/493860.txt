@@ -1,0 +1,10 @@
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public Sample(Sample other) {
+    if (other.isSetMissionId()) {
+      this.missionId = other.missionId;
+    }
+    if (other.isSetUserAppId()) {
+      this.userAppId = other.userAppId;

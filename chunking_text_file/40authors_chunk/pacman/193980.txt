@@ -1,0 +1,10 @@
+	 * @param map
+	 */
+	public ExecuteContext(Map<String, Object> map) {
+		
+		if (map != null) {
+			storage = map;
+		} else {
+			storage = new HashMap<String, Object>();
+		}
+		logger.info("ExecuteContext[param] created!");

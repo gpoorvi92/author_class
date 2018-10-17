@@ -1,0 +1,10 @@
+	View mPage1, mPage2, mPage3;
+
+	/**
+	 * 存放显示内容的View
+	 */
+	private List<View> mViews = new ArrayList<View>();
+
+	@AfterViews
+	void afterViews() {
+		initViewPager();

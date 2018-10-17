@@ -1,0 +1,10 @@
+	/**
+	 * @param lessonName the lessonName to set
+	 */
+	public void setLessonName(String lessonName) {
+		this.lessonName = lessonName;
+	}
+	/**
+	 * @return the media
+	 */
+	public String getMedia() {

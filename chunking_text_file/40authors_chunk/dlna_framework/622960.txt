@@ -1,0 +1,10 @@
+	public final static long getTimeout(String headerValue)
+	{
+		int minusIdx = headerValue.indexOf('-');
+		long timeout = Subscription.INFINITE_VALUE;
+		try {
+			String timeoutStr = headerValue.substring(minusIdx+1, headerValue.length());
+			timeout = Long.parseLong(timeoutStr);
+		}
+		catch (Exception e) {}
+		return timeout;

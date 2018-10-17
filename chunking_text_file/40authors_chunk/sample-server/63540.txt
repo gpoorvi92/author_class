@@ -1,0 +1,10 @@
+        reqBuilder.addBulletinDto(bulletinEntity.toDTO());
+        ChatServerRpc.AddBulletinReq req = reqBuilder.build();
+        try
+        {
+            if (bulletinEntity.getZoneId() == 0)
+            {
+                for (ChatServerRpcClient each : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.AddBulletinResp resp = each.addBulletin(req);
+                    if (!resp.getSuccess())

@@ -1,0 +1,10 @@
+    text.add(Video_cat, gbc);
+    gbc.gridy = 1;
+    gbc.gridx = 1;
+    text.add(Video_no_text, gbc);
+    gbc.gridy = 2;
+    text.add(Video_title_text, gbc);
+    gbc.gridx = 3;
+    gbc.gridy = 1;
+    text.add(type_combo, gbc);
+    gbc.gridy = 2;

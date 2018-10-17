@@ -1,0 +1,5 @@
+		// public static void shuffle(List<?> list):Ëæ»úÖÃ»»
+		Collections.shuffle(array);
+		System.out.println("array:" + array);
+	}
+}

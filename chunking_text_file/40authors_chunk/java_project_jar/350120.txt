@@ -1,0 +1,10 @@
+            });
+        }
+        this.depthLimit = depthLimit;
+    }
+
+    protected final void walk(File startDirectory, Collection results)
+        throws IOException
+    {
+        if(startDirectory == null)
+            throw new NullPointerException("Start Directory is null");

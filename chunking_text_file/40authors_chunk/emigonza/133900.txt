@@ -1,0 +1,10 @@
+    //#### Scanner Constants
+    //###################################################################
+
+    /////////////////////////////////////////////////////////////////////
+    // "ScanDataType" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    // One dimensional symbologies
+    public static final int SCAN_SDT_UPCA        = 101;  // Digits
+    public static final int SCAN_SDT_UPCE        = 102;  // Digits

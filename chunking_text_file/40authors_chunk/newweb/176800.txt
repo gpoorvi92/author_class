@@ -1,0 +1,10 @@
+					sb.append("用户: " + user.getUserName() + " ' 密码重置成功!(注意，此号为当前登陆用户)</br>");
+				}else{
+					sb.append("用户: " + user.getUserName() + " ' 密码重置成功!</br>");
+				}
+			}else{
+				sb.append("用户 : " + user.getUserName() + " ' 密码重置失败!</br>");
+				}
+		}
+		try {
+			response.getWriter().write(sb.toString());//将JSON数据写入response中

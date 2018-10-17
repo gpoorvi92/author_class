@@ -1,0 +1,10 @@
+        for (int i = 0; i < n; ++i) {
+            Map<String, Integer> find = new HashMap<>();
+            for (int start = i, end = i, count = 0; end + n <= S.length(); end += n) {
+                String str = S.substring(end, end + n);
+                if (need.get(str) == null) {
+                    start = end + n;
+                    find.clear();
+                    count = 0;
+                    continue;
+                }

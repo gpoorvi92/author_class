@@ -1,0 +1,10 @@
+    public native void setPosition(float pos);
+
+    /**
+     * Gets current movie's length in ms.
+     * 
+     * @return the movie length (in ms), or -1 if there is no media.
+     */
+    public native long getLength();
+
+    private native void setEventManager(EventManager eventManager);

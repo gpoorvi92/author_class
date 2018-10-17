@@ -1,0 +1,10 @@
+	public abstract void study();
+}
+
+class PersonDemo {
+	public void method(Person p) {
+		p.study();
+	}
+}
+
+class Student extends Person {

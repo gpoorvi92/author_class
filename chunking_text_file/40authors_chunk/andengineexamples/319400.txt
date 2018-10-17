@@ -1,0 +1,10 @@
+//	// Getter & Setter
+//	// ===========================================================
+//
+//	// ===========================================================
+//	// Methods for/from SuperClass/Interfaces
+//	// ===========================================================
+//
+//	@Override
+//	public EngineOptions onCreateEngineOptions() {
+//		Toast.makeText(this, "If you don't see a sprite moving over the screen, try starting this while already being in Landscape orientation!!", Toast.LENGTH_LONG).show();

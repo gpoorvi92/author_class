@@ -1,0 +1,10 @@
+
+    /** Returns the model being displayed
+     */
+    public Model getModel()
+    {
+        return m;
+    }
+
+    public void setRenderingBuffer(RenderingBuffer renderer)
+    {

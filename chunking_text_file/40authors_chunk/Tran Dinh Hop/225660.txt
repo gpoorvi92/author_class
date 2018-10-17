@@ -1,0 +1,10 @@
+		}
+		
+	   //Process the results.
+	     if (returnVal == JFileChooser.APPROVE_OPTION) {
+	     	fileName = fc.getSelectedFile().getAbsolutePath ();
+			System.out.println(fileName);
+			
+		} else {
+	     	fc=null;
+	   	}

@@ -1,0 +1,10 @@
+                // 显示行号
+                lstOfTxtEmotions1.add(tempString.trim());
+            }
+            in.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**

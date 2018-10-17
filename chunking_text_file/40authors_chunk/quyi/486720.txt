@@ -1,0 +1,10 @@
+      } else {
+        sb.append(this.usedPermissions);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("stcRD:");
+      if (this.stcRD == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.stcRD);

@@ -1,0 +1,10 @@
+   private JTextField nameField;
+   private JFileChooser chooser;
+   private String[] extensions = { "gif", "png" };
+
+   public FilePickerBean()
+   {
+      dialogButton = new JButton("...");
+      nameField = new JTextField(30);
+
+      chooser = new JFileChooser();

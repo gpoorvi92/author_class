@@ -1,0 +1,10 @@
+	/**
+	 * 判断是否可以输出trace级别调试信息
+	 * 
+	 * @return
+	 */
+	public boolean isTraceEnable() {
+		return prnLog.isTraceEnabled();
+	}
+
+	/**

@@ -1,0 +1,10 @@
+      Insets insets = parent.getInsets();
+      int containerWidth = parent.getSize().width - insets.left - insets.right;
+      int containerHeight = parent.getSize().height - insets.top - insets.bottom;
+
+      int xcenter = insets.left + containerWidth / 2;
+      int ycenter = insets.top + containerHeight / 2;
+
+      // compute radius of the circle
+
+      int xradius = (containerWidth - maxComponentWidth) / 2;

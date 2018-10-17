@@ -1,0 +1,6 @@
+     * issues that were selected by the user when the context menu was invoked.
+     * This method returns <code>null</code> if no Scanner issues are applicable
+     * to the invocation.
+     */
+    IScanIssue[] getSelectedIssues();
+}

@@ -1,0 +1,10 @@
+    private final        IdleStateAwareChannelHandler idleStateAwareChannelHandler = new IdleStateAwareChannelHandler()
+    {
+        public void channelIdle(ChannelHandlerContext ctx, IdleStateEvent e) throws Exception
+        {
+            IdleState state = e.getState();
+            Channel channel = e.getChannel();
+            ChannelFuture cf = channel.close();
+            cf.awaitUninterruptibly(2, TimeUnit.SECONDS);
+            if (cf.isDone() && cf.isSuccess())
+                log.warn("channel {} closed:{}", state, channel);

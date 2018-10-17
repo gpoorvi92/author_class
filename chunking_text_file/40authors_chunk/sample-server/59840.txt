@@ -1,0 +1,10 @@
+    @Override
+    public void connect()
+    {
+        if (!isConnected())
+        {
+            try
+            {
+                socket = new Socket();
+                //socket.setReuseAddress(false);
+                socket.setKeepAlive(true);

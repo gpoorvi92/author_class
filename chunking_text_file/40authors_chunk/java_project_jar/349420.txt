@@ -1,0 +1,10 @@
+    public static final Comparator EXTENSION_INSENSITIVE_REVERSE;
+    public static final Comparator EXTENSION_SYSTEM_COMPARATOR;
+    public static final Comparator EXTENSION_SYSTEM_REVERSE;
+    private final IOCase caseSensitivity;
+
+    static 
+    {
+        EXTENSION_COMPARATOR = new ExtensionFileComparator();
+        EXTENSION_REVERSE = new ReverseComparator(EXTENSION_COMPARATOR);
+        EXTENSION_INSENSITIVE_COMPARATOR = new ExtensionFileComparator(IOCase.INSENSITIVE);

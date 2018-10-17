@@ -1,0 +1,10 @@
+      if (!this.func.equals(that.func))
+        return false;
+    }
+
+    boolean this_present_ruleDescription = true && this.isSetRuleDescription();
+    boolean that_present_ruleDescription = true && that.isSetRuleDescription();
+    if (this_present_ruleDescription || that_present_ruleDescription) {
+      if (!(this_present_ruleDescription && that_present_ruleDescription))
+        return false;
+      if (!this.ruleDescription.equals(that.ruleDescription))

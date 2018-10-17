@@ -1,0 +1,10 @@
+     * scope.
+     *
+     * @return The domain for which the cookie is in scope. <b>Note:</b> For
+     * cookies that have been analyzed from responses (by calling
+     * <code>IExtensionHelpers.analyzeResponse()</code> and then
+     * <code>IResponseInfo.getCookies()</code>, the domain will be
+     * <code>null</code> if the response did not explicitly set a domain
+     * attribute for the cookie.
+     */
+    String getDomain();

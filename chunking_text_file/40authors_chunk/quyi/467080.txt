@@ -1,0 +1,10 @@
+ * 6:string obj 类名
+ * 7:string funct 函数名称
+ * 8:string ruleDescription 规则描述
+ */
+public class Rules implements org.apache.thrift.TBase<Rules, Rules._Fields>, java.io.Serializable, Cloneable, Comparable<Rules> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Rules");
+
+  private static final org.apache.thrift.protocol.TField RULE_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("ruleId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField RULE_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("ruleName", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField RULE_TYPES_FIELD_DESC = new org.apache.thrift.protocol.TField("ruleTypes", org.apache.thrift.protocol.TType.LIST, (short)3);

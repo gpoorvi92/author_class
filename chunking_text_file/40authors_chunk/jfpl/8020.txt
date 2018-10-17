@@ -1,0 +1,10 @@
+		int width = options.outWidth;
+		int height = options.outHeight;
+		options.inJustDecodeBounds = false;
+		if (width > maxWidth) {
+			int outHeight = maxWidth * height / width;
+			options.outHeight = outHeight;
+			options.outWidth = maxWidth;
+			options.inSampleSize = width / maxWidth + 1;
+		}
+		bm = BitmapFactory.decodeFile(filePath, options);

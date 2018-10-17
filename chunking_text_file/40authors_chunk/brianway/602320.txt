@@ -1,0 +1,10 @@
+            }
+            System.out.println("i=" + (i + 1));
+        }
+    }
+}
+
+public class Run8_interrupted01 {
+    public static void main(String[] args) {
+        try {
+            MyThread8 myThread8 = new MyThread8();

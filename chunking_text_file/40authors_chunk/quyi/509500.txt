@@ -1,0 +1,10 @@
+      return _thriftId;
+    }
+
+    public String getFieldName() {
+      return _fieldName;
+    }
+  }
+
+  // isset id assignments
+  private static final int __CHECKENGINENUM_ISSET_ID = 0;

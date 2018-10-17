@@ -1,0 +1,10 @@
+            read(data);
+            return data;
+        }
+    }
+    private final class HeaderOutputStream extends FilterOutputStream
+    {
+        public HeaderOutputStream(OutputStream out)
+        {
+            super(out);
+        }

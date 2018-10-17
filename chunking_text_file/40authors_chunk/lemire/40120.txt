@@ -1,0 +1,10 @@
+    /**
+     * Like "addStreamOfLiteralWords" but negates the words being added.
+     *
+     * @param buffer the buffer wrapping the literal words
+     * @param start  the starting point in the array
+     * @param number the number of literal words to add
+     */
+    void addStreamOfNegatedLiteralWords(final Buffer buffer, final int start, final int number);
+
+    /**

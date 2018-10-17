@@ -1,0 +1,10 @@
+        public MainActivity_.IntentBuilder_ flags(int flags) {
+            intent_.setFlags(flags);
+            return this;
+        }
+
+        public void start() {
+            context_.startActivity(intent_);
+        }
+
+        public void startForResult(int requestCode) {

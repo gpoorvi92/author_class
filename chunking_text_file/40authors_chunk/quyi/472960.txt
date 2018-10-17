@@ -1,0 +1,10 @@
+      }
+
+      public void start(I iface, queryApp_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.AppCheckResult> resultHandler) throws TException {
+        iface.queryApp(args.missionId, args.userAppId,resultHandler);
+      }
+    }
+
+    public static class queryMission<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, queryMission_args, List<com.nercis.isscp.idl.AppCheckResult>> {
+      public queryMission() {
+        super("queryMission");

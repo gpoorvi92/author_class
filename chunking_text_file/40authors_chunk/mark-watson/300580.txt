@@ -1,0 +1,10 @@
+          dd[i] = test_data[i];
+        }
+        // change this to flip 1 or 2 bits:
+        int NUM_BITS_TO_FLIP = 1;
+        for (int i_scramble=0; i_scramble<NUM_BITS_TO_FLIP; i_scramble++) {
+          int index = (int) (12.0f * (float) Math.random());
+          dd[index] = -dd[index];
+          //if (dd[index] < 0.0f)
+          //  dd[index] = 1.0f;
+          //else

@@ -1,0 +1,5 @@
+  public int     getCapKeylockType() throws JposException;
+
+  // Properties
+  public byte[]  getElectronicKeyValue() throws JposException;
+}

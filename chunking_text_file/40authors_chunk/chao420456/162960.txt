@@ -1,0 +1,10 @@
+
+		Date d3 = new Date(3600000);
+		// 3600000/1000/60/60 = 1¸öÐ¡Ê±
+		System.out.println("d3:" + d3);
+		System.out.println("--------------------");
+
+		Date d4 = new Date();
+		// long t = d4.getTime();
+		// long t2 = System.currentTimeMillis();
+		// System.out.println(t);

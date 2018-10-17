@@ -1,0 +1,10 @@
+      if (!first) sb.append(", ");
+      sb.append("status:");
+      if (this.status == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.status);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("usedPermissions:");

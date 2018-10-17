@@ -1,0 +1,10 @@
+        return false;
+      if (!this.obj.equals(that.obj))
+        return false;
+    }
+
+    boolean this_present_func = true && this.isSetFunc();
+    boolean that_present_func = true && that.isSetFunc();
+    if (this_present_func || that_present_func) {
+      if (!(this_present_func && that_present_func))
+        return false;

@@ -1,0 +1,10 @@
+          return JVM_NAME;
+        case 6: // JVM_VERSION
+          return JVM_VERSION;
+        case 7: // JVM_MAX_MEM
+          return JVM_MAX_MEM;
+        default:
+          return null;
+      }
+    }
+

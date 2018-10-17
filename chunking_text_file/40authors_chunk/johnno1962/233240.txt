@@ -1,0 +1,10 @@
+    public native void __componentShown( java.awt.event.ComponentEvent e );
+
+    boolean entered_componentShown_2;
+
+    public void componentShown( java.awt.event.ComponentEvent e ) {
+        if ( !entered_componentShown_2 ) {
+            entered_componentShown_2 = true;
+            __componentShown( e );
+            entered_componentShown_2 = false;
+        }

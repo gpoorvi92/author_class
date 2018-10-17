@@ -1,0 +1,10 @@
+  public String osArch; // required
+  public String osName; // required
+  public String osDesc; // required
+  public String osVersion; // required
+  public String jvmName; // required
+  public String jvmVersion; // required
+  public String jvmMaxMem; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */
+  public enum _Fields implements org.apache.thrift.TFieldIdEnum {

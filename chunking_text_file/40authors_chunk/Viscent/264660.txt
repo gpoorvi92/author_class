@@ -1,0 +1,10 @@
+				LogEntry entry = new LogEntry();
+				long timeStamp = nextRequestTimestamp();
+				entry.timeStamp = timeStamp;
+				entry.recordType = "request";
+
+				entry.interfaceType = "SOAP";
+				entry.interfaceName = "Chg";
+				entry.operationName = "getPrice";
+				entry.srcDevice = "OSG";
+				entry.dstDevice = "ESB";

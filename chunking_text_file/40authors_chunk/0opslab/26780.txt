@@ -1,0 +1,10 @@
+  /**
+   * @see ICodepageDetector#detectCodepage(InputStream,
+   *      int)
+   */
+  public Charset detectCodepage(final InputStream in, final int length) throws IOException {
+    Charset ret = UnknownCharset.getInstance();
+    InputStream localin;
+    if (!(in instanceof BufferedInputStream)) {
+      localin = new BufferedInputStream(in, 4096);
+    } else {

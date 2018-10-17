@@ -1,0 +1,10 @@
+	 * */
+	public void setId(String id) {
+		this.id = id;
+	}
+	/**
+	 * 获取菜单名称。
+	 * @return 菜单名称。
+	 * */
+	public String getName() {
+		return name;

@@ -1,0 +1,10 @@
+        double sin_Theta = Math.sin(angle);
+        double cos_Theta = Math.cos(angle);
+        double negative_sin_Theta = -sin_Theta;
+
+        if (axis == 0 || axis == 2)
+        { // x or z
+            int startX, startY;
+            if (axis == 0) // x axis
+            {
+                startX = 0;

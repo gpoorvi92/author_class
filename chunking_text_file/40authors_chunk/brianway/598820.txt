@@ -1,0 +1,10 @@
+
+    public static void main(String[] args) {
+        MyTask task = new MyTask();
+        Calendar calendar = Calendar.getInstance();
+        Date runDate = calendar.getTime();
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(task, runDate, 3000);
+    }
+}
+

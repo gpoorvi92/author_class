@@ -1,0 +1,10 @@
+	 * @param pipeCtx
+	 */
+	void init(PipeContext pipeCtx);
+
+	/**
+	 * 停止当前Pipe实例对外提供的服务。
+	 * 
+	 * @param timeout
+	 * @param unit
+	 */

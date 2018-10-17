@@ -1,0 +1,10 @@
+
+          comparison = comparison >> 2;
+      }
+      return result;
+    }
+
+  /** a 3 dimensional comparison
+   * returns a 6 bit binary value.
+     * XXYYZZ
+     * 00 -> equal

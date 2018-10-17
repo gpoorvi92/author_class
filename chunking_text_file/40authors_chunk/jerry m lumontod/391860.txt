@@ -1,0 +1,10 @@
+		case 26: return row.mstrClassDesc;
+		case 27: return row.mstrSubClassDesc;
+		case 28: return row.mdblUserCode;
+		case 29: return row.mdblDocnum;
+		case 30: return row.mdblDoclinenum;
+		case 31: return row.mdblPostType;
+		case 32: return row.mdblEntrySource;
+		case 33: return row.mdblMatchedVia;
+		case 34: return row.mdblBatch;
+		case 35: return row.mdblEntryCode;

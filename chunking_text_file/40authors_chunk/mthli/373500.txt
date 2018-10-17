@@ -1,0 +1,10 @@
+{
+   public static void main(String[] args) throws Exception
+   {
+      Path path;
+      if (args.length > 0) path = Paths.get(args[0]);
+      else path = Paths.get("transform", "makehtml.xsl");
+      try (InputStream styleIn = Files.newInputStream(path))
+      {
+         StreamSource styleSource = new StreamSource(styleIn);
+   

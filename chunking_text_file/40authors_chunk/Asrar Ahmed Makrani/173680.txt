@@ -1,0 +1,10 @@
+					{
+						rs1.next();
+						String query3;
+						
+						patron_name_text.setText(rs1.getString("name"));
+						patron_status_text.setText(rs1.getString("status"));
+						patron_loan_limit_text.setText("5");
+						patron_group_type_text.setText(rs1.getString("group_type"));
+						patron_expiry_date_text.setText(rs1.getString("expiry_date"));
+						

@@ -1,0 +1,10 @@
+      app.init();
+   }
+}
+
+class SystemTrayApp
+{
+   public void init()
+   {      
+      final TrayIcon trayIcon;
+

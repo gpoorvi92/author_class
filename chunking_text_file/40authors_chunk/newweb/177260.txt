@@ -1,0 +1,9 @@
+		OrderLhjWeight[] ws = new OrderLhjWeight[list.size()];
+		int count = 0;
+		for (OrderLhjWeight w : list) {
+			ws[count++] = w;
+		}
+		return ws;
+	}
+	
+}

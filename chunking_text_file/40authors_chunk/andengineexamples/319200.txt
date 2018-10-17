@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Scene onCreateScene() {
+		final Scene scene = super.onCreateScene();
+		this.initJoints(scene);
+		return scene;
+	}
+
+	// ===========================================================

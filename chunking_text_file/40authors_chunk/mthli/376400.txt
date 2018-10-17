@@ -1,0 +1,10 @@
+            }
+         });
+
+      add(panel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Copies the current image to the system clipboard.
+    */

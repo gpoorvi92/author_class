@@ -1,0 +1,10 @@
+    public Graph() {
+        try {
+            int size = 500;
+            data1 = new float[size];
+            data2 = new float[size];
+            float xmin = -5;
+            float xmax = 5;
+            for (int i = 0; i < size; i++) {
+                float x = i;
+                x = xmin + x * (xmax - xmin) / (float) size;

@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.DesktopManager.activateFrame(javax.swing.JInternalFrame)
+
+    public native void __activateFrame( javax.swing.JInternalFrame f );
+
+    public void activateFrame( javax.swing.JInternalFrame f ) {
+        __activateFrame( f );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.deactivateFrame(javax.swing.JInternalFrame)

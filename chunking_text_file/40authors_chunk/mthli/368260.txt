@@ -1,0 +1,10 @@
+ * This editor pops up a color dialog to edit a cell value.
+ */
+public class ColorTableCellEditor extends AbstractCellEditor implements TableCellEditor
+{
+   private JColorChooser colorChooser;
+   private JDialog colorDialog;
+   private JPanel panel;
+
+   public ColorTableCellEditor()
+   {

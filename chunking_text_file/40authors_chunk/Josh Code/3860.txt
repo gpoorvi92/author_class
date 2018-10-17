@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.image.*;
+
+public class ModelViewerJMenuBar extends JMenuBar
+    implements KeyListener
+{
+ private static javax.swing.filechooser.FileFilter imageFilter = new ImageFileFilter();
+ private modelViewer mv;
+ private JMenu fileM;
+ private JMenuItem fileOpen;

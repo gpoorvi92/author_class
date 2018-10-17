@@ -1,0 +1,10 @@
+  public String toString() {
+    StringBuilder sb = new StringBuilder("RunMonitor(");
+    boolean first = true;
+
+    sb.append("monitorTime:");
+    if (this.monitorTime == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.monitorTime);
+    }

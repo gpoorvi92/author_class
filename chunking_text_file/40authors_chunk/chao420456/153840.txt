@@ -1,0 +1,10 @@
+		ts.add(p2);
+		ts.add(p3);
+		ts.add(p4);
+		ts.add(p5);
+		ts.add(p6);
+		ts.add(p7);
+		ts.add(p8);
+
+		// ±éÀú¼¯ºÏ
+		for (Person p : ts) {

@@ -1,0 +1,10 @@
+	}
+	
+	public void setBindEventView(View v) {
+		v.setOnClickListener(this);
+	}
+
+	private void init(Context context) {
+		this.ctx = context;
+		this.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
+				LayoutParams.WRAP_CONTENT));

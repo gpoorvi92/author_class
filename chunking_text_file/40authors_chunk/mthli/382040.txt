@@ -1,0 +1,10 @@
+      catch (ParserConfigurationException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+
+      XPathFactory xpfactory = XPathFactory.newInstance();
+      path = xpfactory.newXPath();
+      pack();
+   }
+

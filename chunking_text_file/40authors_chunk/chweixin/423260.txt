@@ -1,0 +1,10 @@
+			UserIdentity identity = this.userAuthentication.authen(this.account, this.password);
+			if(identity != null && this.session != null){
+				this.session.put(BaseAction.CURRENT_USER_SESSION_KEY, identity);
+				result.setSuccess(true);
+			}
+		}catch(Exception e){
+			result.setSuccess(false);
+			result.setMsg(e.getMessage());
+		}finally{
+			this.writeJson(result);

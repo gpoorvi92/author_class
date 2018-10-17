@@ -1,0 +1,10 @@
+
+	/** Indicates the version of JavaPOS that these DevCat apply to */
+	public static final String JPOS_VERSION_STRING = "1.5";
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the String representation of this DevCat */
+	public String toString();

@@ -1,0 +1,10 @@
+    boolean entered_focusGained_0;
+
+    public void focusGained( java.awt.event.FocusEvent e ) {
+        if ( !entered_focusGained_0 ) {
+            entered_focusGained_0 = true;
+            __focusGained( e );
+            entered_focusGained_0 = false;
+        }
+        else
+            super.focusGained( e );

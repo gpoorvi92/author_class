@@ -1,0 +1,10 @@
+        return b;
+    }
+
+    /**
+     * 字节数组和长整型的转换
+     */
+    public final static long byteToLong(byte[] b) {
+        long s;
+        long s0 = b[0] & 0xff;// 最低位
+        long s1 = b[1] & 0xff;

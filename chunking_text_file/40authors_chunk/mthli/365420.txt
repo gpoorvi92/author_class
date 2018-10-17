@@ -1,0 +1,10 @@
+      char ch;
+      while ((ch = in.getChar()) != '\0') name.append(ch);
+      in.position(2 * Employee.NAME_SIZE);
+      double salary = in.getDouble();
+      int y = in.getInt();
+      int m = in.getInt();
+      int d = in.getInt();
+      return new Employee(name.toString(), salary, y, m - 1, d);
+   }  
+}

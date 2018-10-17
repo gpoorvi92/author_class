@@ -1,0 +1,10 @@
+		if(info ==  null) return null;
+		TreeNode node = new TreeNode();
+		node.setId(info.getId());
+		node.setText(info.getName());
+		if(info.getChildren() != null && info.getChildren().size() > 0){
+			List<TreeNode> children = new ArrayList<>();
+			for(WeChatMenuInfo data: info.getChildren()){
+				TreeNode n = this.createTreeNode(data);
+				if(n != null) children.add(n);
+			}

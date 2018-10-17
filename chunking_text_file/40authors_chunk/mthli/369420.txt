@@ -1,0 +1,10 @@
+            String name = pair.getKey().toString();
+            String value = pair.getValue().toString();
+            out.print(name);
+            out.print('=');
+            out.print(URLEncoder.encode(value, "UTF-8"));
+         }
+      }      
+
+      StringBuilder response = new StringBuilder();
+      try (Scanner in = new Scanner(connection.getInputStream()))

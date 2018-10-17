@@ -1,0 +1,8 @@
+				result.put("path", folder + newFileName); 
+				result.put("url", this.host() + folder + newFileName);
+			}
+		}
+		this.writeJson(result);
+		return null;
+	}
+}

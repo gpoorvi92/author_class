@@ -1,0 +1,10 @@
+      }
+
+    }
+
+    private static class ruleSync_resultTupleSchemeFactory implements SchemeFactory {
+      public ruleSync_resultTupleScheme getScheme() {
+        return new ruleSync_resultTupleScheme();
+      }
+    }
+

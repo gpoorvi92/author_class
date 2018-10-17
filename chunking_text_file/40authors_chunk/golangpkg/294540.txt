@@ -1,0 +1,10 @@
+	private static final Logger log = LoggerFactory.getLogger(UploadServletAsync.class);
+
+	@Autowired
+	ExceptionCodeMappingHelper exceptionCodeMappingHelper;
+
+	@Autowired
+	UploadServletAsyncProcessor uploadServletAsyncProcessor;
+	
+	@Autowired
+	StaticStateIdentifierManager staticStateIdentifierManager;

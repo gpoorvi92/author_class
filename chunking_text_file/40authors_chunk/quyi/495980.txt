@@ -1,0 +1,10 @@
+      this.engineStatus = null;
+    }
+  }
+
+  public String getEngineType() {
+    return this.engineType;
+  }
+
+  public Engine setEngineType(String engineType) {
+    this.engineType = engineType;

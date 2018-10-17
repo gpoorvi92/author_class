@@ -1,0 +1,10 @@
+ * Date: 13-7-17
+ */
+public class BulletinService
+{
+    private static final Logger log = LoggerFactory.getLogger(BulletinService.class);
+    public static boolean add(BulletinEntity bulletinEntity)
+    {
+        DaoManager.getLocalDao().saveOrUpdate(bulletinEntity);
+        boolean ret = true;
+        ChatServerRpc.AddBulletinReq.Builder reqBuilder = ChatServerRpc.AddBulletinReq.newBuilder();

@@ -1,0 +1,10 @@
+      return isSetTargetPort();
+    case PROTOCAL:
+      return isSetProtocal();
+    case DATA_HEX:
+      return isSetDataHex();
+    case DATA_CHAR:
+      return isSetDataChar();
+    case DATA_LENGTH:
+      return isSetDataLength();
+    case OPERATE_TIME:

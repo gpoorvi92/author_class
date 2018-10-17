@@ -1,0 +1,10 @@
+		try {
+			taskClient = TaskClientRpcUtils.getReceiver(taskmanager_address, taskmanager_submit_port, 5000, 5);
+		} catch (TTransportException e) {
+			e.printStackTrace();
+		}
+
+		try {
+			jobId = taskClient.submitJobForMission(0, AppType.APK, JobLifecycle.ANALYSIS, jobPhaseList, JobDistributionMode.PARALLEL,
+					com.softsec.tase.common.rpc.domain.job.JobPriority.MEDIUM, jobOpList, jobRescList, jobParameterList, 5000L, "test");
+		} catch (InvalidRequestException e) {

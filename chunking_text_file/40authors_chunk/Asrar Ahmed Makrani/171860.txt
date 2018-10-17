@@ -1,0 +1,10 @@
+	public JLabel l = new JLabel(splPic);
+	public JWindow splashWindow = new JWindow();
+	public Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+	public JDesktopPane desktop = new JDesktopPane(); 
+    public boolean open = false;
+    public  String passwd = "";
+    public JMenu menu = new JMenu("File"); 
+    public JMenu add = new JMenu("Library"); 
+    public JMenu rtn = new JMenu("Window"); 
+    public JMenu report = new JMenu("Reports"); 

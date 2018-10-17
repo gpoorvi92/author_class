@@ -1,0 +1,10 @@
+    public static void init(ServletContext servletContext)
+    {
+        contextParamMap.put(WEB_SOCKET_PORT_KEY, servletContext.getInitParameter(WEB_SOCKET_PORT_KEY));
+//        contextParamMap.put(CHAT_RPC_SERVER_IP_KEY, servletContext.getInitParameter(CHAT_RPC_SERVER_IP_KEY));
+//        contextParamMap.put(CHAT_RPC_SERVER_PORT_KEY, servletContext.getInitParameter(CHAT_RPC_SERVER_PORT_KEY));
+//
+//        contextParamMap.put(GAME_RPC_SERVER_IP_KEY, servletContext.getInitParameter(GAME_RPC_SERVER_IP_KEY));
+//        contextParamMap.put(GAME_RPC_SERVER_PORT_KEY, servletContext.getInitParameter(GAME_RPC_SERVER_PORT_KEY));
+
+        for (Map.Entry<String, String> each : contextParamMap.entrySet())

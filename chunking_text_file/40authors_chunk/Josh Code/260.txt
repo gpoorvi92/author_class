@@ -1,0 +1,10 @@
+    {
+        saveToTEC(m, f);
+    }
+
+    public String getDescription()
+    {
+        return "(*.tec) Tecplot files";
+    }
+
+    /** returns the extension commonly used by the file format

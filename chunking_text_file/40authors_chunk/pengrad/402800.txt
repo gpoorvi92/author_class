@@ -1,0 +1,5 @@
+
+    public String getContentType() {
+        return ContentTypes.GENERAL_MIME_TYPE;
+    }
+}

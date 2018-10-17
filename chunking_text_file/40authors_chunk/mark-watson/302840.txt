@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 
+     * @param word
+     * @return true if the input word is in the lexicon, otherwise return false
+     */
+    public boolean wordInLexicon(String word) {
+        String[] ss = lexicon.get(word);
+        if (ss != null) return true;

@@ -1,0 +1,10 @@
+
+protected EncodingParser(TokenBuffer tokenBuf, int k) {
+  super(tokenBuf,k);
+  tokenNames = _tokenNames;
+}
+
+public EncodingParser(TokenBuffer tokenBuf) {
+  this(tokenBuf,1);
+}
+

@@ -1,0 +1,9 @@
+		else{//如果学有所成
+			status = 2;
+			g.setAgility(g.getAgility()+increment);//增加英雄属性
+			dialogMessage[2] = dialogMessage[2].replaceFirst("xx", g.getName());//替换对话框的文字
+			dialogMessage[2] = dialogMessage[2].replaceFirst("yy", increment+"");//替换对话框的文字			
+		}
+	}
+
+}

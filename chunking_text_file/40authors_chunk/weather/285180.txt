@@ -1,0 +1,10 @@
+   */
+    public void saveObjectToCacheByKey(Object content, String key) {
+         saveObjectToCacheByKey(JsonUtil.getInstance().toJson(content),key);
+    }
+
+    /*
+     *保存数据到缓存
+     */
+    public void saveObjectToCacheByKey(String content, String key) {
+        String idPath = getCacheFolder() + "/" + getIdString();

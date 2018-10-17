@@ -1,0 +1,10 @@
+	 * @return 文本消息内容。
+	 */
+	public String getContent() {
+		return content;
+	}
+	/**
+	 * 设置文本消息内容。
+	 * @param content
+	 * 文本消息内容。
+	 */

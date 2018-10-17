@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    protected void deliverResponse(T response) {
+        mListener.onResponse(response);
+    }
+
+    @Override
+    abstract protected Response<T> parseNetworkResponse(NetworkResponse response);
+

@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("engines:");
+    if (this.engines == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engines);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("missionProgress:");

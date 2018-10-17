@@ -1,0 +1,10 @@
+@RunWith(SpringJUnit4ClassRunner.class)
+public class LimitingListTest {
+
+	
+	@Test
+	public void test() {
+		Integer a = 1;
+		Integer b = 2;
+		Integer c = 3;
+		Integer d = 4;

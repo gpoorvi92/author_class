@@ -1,0 +1,10 @@
+{
+    /**
+     * This action causes Burp Proxy to follow the current interception rules to
+     * determine the appropriate action to take for the message.
+     */
+    static final int ACTION_FOLLOW_RULES = 0;
+    /**
+     * This action causes Burp Proxy to present the message to the user for
+     * manual review or modification.
+     */

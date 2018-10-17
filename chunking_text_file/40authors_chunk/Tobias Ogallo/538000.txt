@@ -1,0 +1,10 @@
+		button1=new JButton ("Ok",new ImageIcon("Icon/i16x16/ok.png"));
+		button2=new JButton("Cancel",new ImageIcon("Icon/i16x16/exit.png"));
+		
+		panel1=new JPanel(new GridLayout(6,2));
+		panel1.add(label1);panel1.add(name);
+		panel1.add(label2);panel1.add(combo1);
+		panel1.add(username);panel1.add(txtusername);
+		panel1.add(password);panel1.add(pass1);
+		panel1.add(confirm); panel1.add(pass2);
+		panel1.add(button1); panel1.add(button2);

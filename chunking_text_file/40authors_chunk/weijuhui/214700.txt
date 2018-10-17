@@ -1,0 +1,10 @@
+import com.weparty.R.id;
+import com.weparty.R.layout;
+import com.weparty.widgets.KeywordsFlow;
+
+public final class EditActivity_
+    extends EditActivity
+{
+
+
+    @Override

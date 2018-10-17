@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("MD5:");
+    if (this.MD5 == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.MD5);
+    }
+    first = false;

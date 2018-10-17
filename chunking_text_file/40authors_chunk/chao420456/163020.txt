@@ -1,0 +1,10 @@
+ * 		B:按照空格进行分割字符串，得到一个字符串数组
+ * 		C:把字符串数组转换为整数数组
+ * 		D:对整数数组进行排序
+ * 		E:把排序后的整数数组转换成字符串
+ */
+public class RegexTest {
+	public static void main(String[] args) {
+		// 定义一个字符串
+		String s = "91 27 46 38 50";
+

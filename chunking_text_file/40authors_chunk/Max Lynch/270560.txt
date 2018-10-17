@@ -1,0 +1,10 @@
+
+//This is the class that does it all
+
+class StrokeControls extends JPanel implements ActionListener, ChangeListener {
+	RenderSurface renderSurface;
+	
+	
+	JPanel choicePanel = new JPanel();
+	JPanel bottomPanel = new JPanel();
+	

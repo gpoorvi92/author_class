@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetPackageName()) {
+        optionals.set(2);
+      }
+      if (struct.isSetObjectName()) {
+        optionals.set(3);
+      }
+      if (struct.isSetMethodName()) {
+        optionals.set(4);
+      }

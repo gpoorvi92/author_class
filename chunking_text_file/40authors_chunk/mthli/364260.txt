@@ -1,0 +1,10 @@
+      add(canvas, BorderLayout.CENTER);
+
+      attributes = new HashPrintRequestAttributeSet();
+
+      JPanel buttonPanel = new JPanel();
+      JButton printButton = new JButton("Print");
+      buttonPanel.add(printButton);
+      printButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

@@ -1,0 +1,10 @@
+								s2.getName()) : num;
+						int num3 = num2 == 0 ? s2.getAge() - s1.getAge() : num2;
+						return num3;
+					}
+				});
+
+		// 创建对象
+		Student s1 = new Student("linqingxia", 28);
+		Student s2 = new Student("fengqingyang", 31);
+		Student s3 = new Student("wangchongyang", 200);

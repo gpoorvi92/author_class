@@ -1,0 +1,10 @@
+ * errors are posted back to the caller via a {@link ResponseDelivery}.
+ */
+@SuppressWarnings("rawtypes")
+public class NetworkDispatcher extends Thread {
+    /** The queue of requests to service. */
+    private final BlockingQueue<Request> mQueue;
+    /** The network interface for processing requests. */
+    private final Network mNetwork;
+    /** The cache to write to. */
+    private final Cache mCache;

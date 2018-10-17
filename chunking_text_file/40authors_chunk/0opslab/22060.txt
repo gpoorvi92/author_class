@@ -1,0 +1,10 @@
+        while (matrix[m][n] != 0) {
+            if (matrix[n] == matrix[n - 1])
+                n--;
+            else if (matrix[m][n] == matrix[m - 1][n])
+                m--;
+            else {
+                result[currentIndex] = chars_strA[m - 1];
+                currentIndex--;
+                n--;
+                m--;

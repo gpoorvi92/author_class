@@ -1,0 +1,10 @@
+package model;
+
+import java.util.*;
+
+/** a collection of Triangle objects.
+ * This is used for sorting polygons for painting
+ */
+public class TriangleCollection
+    implements Comparator<Triangle>
+{

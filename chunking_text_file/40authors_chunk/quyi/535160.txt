@@ -1,0 +1,10 @@
+        struct.setObjectNameIsSet(true);
+      }
+      if (incoming.get(4)) {
+        struct.methodName = iprot.readString();
+        struct.setMethodNameIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.statement = iprot.readString();
+        struct.setStatementIsSet(true);
+      }

@@ -1,0 +1,10 @@
+
+  public void setDescriptionIsSet(boolean value) {
+    if (!value) {
+      this.description = null;
+    }
+  }
+
+  public int getLineNum() {
+    return this.lineNum;
+  }

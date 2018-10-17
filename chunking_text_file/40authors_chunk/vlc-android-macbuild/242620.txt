@@ -1,0 +1,10 @@
+    }
+
+    /*-
+     * FIXME: for USB connect, this method can not be reliable.
+     * Only use this method to retrieve error reason
+     */
+    public static boolean isConnectedOrConnecting(Context context) {
+        NetworkInfo networkInfo = getActivieNetworkInfo(context);
+        if (networkInfo == null)
+            return false;

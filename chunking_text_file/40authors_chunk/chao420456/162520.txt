@@ -1,0 +1,10 @@
+		return age;
+	}
+
+	//睡觉
+	public void sleep() {
+		System.out.println("动物们要睡觉");
+	}
+
+	//吃饭
+	public abstract void eat();

@@ -1,0 +1,10 @@
+
+			results.add(task.doSomething("Pattern", 2));
+
+			for (Future<String> result : results) {
+				Debug.info(result.get());
+			}
+
+			Thread.sleep(200);
+		} catch (Exception e) {
+

@@ -1,0 +1,10 @@
+	public String delete(String url, RequestParams params) {
+		this.delete(url, params, responseHandler);
+		return result;
+	}
+
+	public String delete(String url) {
+		this.delete(url, null, responseHandler);
+		return result;
+	}
+

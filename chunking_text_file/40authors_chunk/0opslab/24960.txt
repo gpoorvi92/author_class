@@ -1,0 +1,10 @@
+            if (attachment != null) {
+                BodyPart attachmentBodyPart = new MimeBodyPart();
+                DataSource source = new FileDataSource(attachment);
+                attachmentBodyPart.setDataHandler(new DataHandler(source));
+
+                // 网上流传的解决文件名乱码的方法，其实用MimeUtility.encodeWord就可以很方便的搞定
+                // 这里很重要，通过下面的Base64编码的转换可以保证你的中文附件标题名在发送时不会变成乱码
+                //sun.misc.BASE64Encoder enc = new sun.misc.BASE64Encoder();
+                //messageBodyPart.setFileName("=?GBK?B?" + enc.encode(attachment.getName().getBytes()) + "?=");
+

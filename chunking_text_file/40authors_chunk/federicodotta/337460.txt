@@ -1,0 +1,8 @@
+     * Burp uses this method to obtain the component that should be used as the
+     * contents of the custom tab when it is displayed.
+     *
+     * @return The component that should be used as the contents of the custom
+     * tab when it is displayed.
+     */
+    Component getUiComponent();
+}

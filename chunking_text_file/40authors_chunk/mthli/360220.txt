@@ -1,0 +1,10 @@
+class SerialCloneable implements Cloneable, Serializable
+{  
+   public Object clone()
+   {  
+      try
+      {  
+         // save the object to a byte array
+         ByteArrayOutputStream bout = new ByteArrayOutputStream();
+         ObjectOutputStream out = new ObjectOutputStream(bout);
+         out.writeObject(this);

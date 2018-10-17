@@ -1,0 +1,10 @@
+            
+           
+    public class MyStartListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
+            buildTrackAndStart();
+        }
+    } // close inner class
+
+    public class MyStopListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {

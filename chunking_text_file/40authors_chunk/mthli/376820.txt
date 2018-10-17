@@ -1,0 +1,10 @@
+ * @version 1.22 2012-01-26
+ * @author Cay Horstmann
+ */
+public class DamageReport
+{
+   private String rentalRecord;
+   private CarType carType;
+   private boolean removeMode;
+   private java.util.List<Point2D> points = new ArrayList<>();
+

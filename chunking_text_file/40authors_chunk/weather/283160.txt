@@ -1,0 +1,10 @@
+        String urlDate="http://maps.googleapis.com/maps/api/geocode/json?sensor=true&language=zh_cn&latlng="+location.mLat+","+location.mLon;
+        try {
+            //封装访问服务器的地址
+            URL url= new URL(urlDate);
+            try {
+                //打开对服务器的连接
+                HttpURLConnection conn=(HttpURLConnection) url.openConnection();
+                //连接服务器
+                conn.connect();
+                /**读入服务器数据的过程**/

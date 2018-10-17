@@ -1,0 +1,10 @@
+		//B:在测试类里面写方法实现
+		//C:在测试类中创建对象，调用方法即可
+		Pig p = new Pig();
+		Pig p2 = new Pig();
+		Pig p3 = new Pig();
+
+		//printPig(p);
+		//printPig(p2);
+		//printPig(p3);
+		printAnimal(p);

@@ -1,0 +1,10 @@
+    /**
+     * get cached photo from local database
+     *
+     * @param repoName
+     * @param repoID
+     * @param path
+     * @return
+     */
+    public SeafCachedPhoto getCachedPhoto(String repoName, String repoID,
+            String path) {

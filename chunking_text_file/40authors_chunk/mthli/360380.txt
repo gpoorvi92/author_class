@@ -1,0 +1,10 @@
+package dnd;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import javax.swing.event.*;
+
+public class SwingDnDFrame extends JFrame
+{
+   public SwingDnDFrame()

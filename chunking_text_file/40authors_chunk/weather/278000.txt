@@ -1,0 +1,10 @@
+    }
+
+    private String getRealString(byte[] data) {
+        byte[] h = new byte[2];
+        h[0] = (data)[0];
+        h[1] = (data)[1];
+        int head = getShort(h);
+        boolean t = head == 0x1f8b;
+        InputStream in;
+        StringBuilder sb = new StringBuilder();

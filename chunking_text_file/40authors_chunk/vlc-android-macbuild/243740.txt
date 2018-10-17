@@ -1,0 +1,10 @@
+        return 0;
+    }
+
+    public static int efmt(String tag, String fmt, Object... args) {
+        if (ENABLE_ERROR) {
+            String msg = String.format(fmt, args);
+            return Log.e(tag, msg);
+        }
+
+        return 0;

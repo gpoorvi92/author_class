@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather;
+
+import android.app.Application;
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.util.DisplayMetrics;
+
+import com.qihigh.chinaweather.network.RequestManager;
+
+

@@ -1,0 +1,10 @@
+      ImageList list = (ImageList) support.getComponent();
+      DefaultListModel<ImageIcon> model = (DefaultListModel<ImageIcon>) list.getModel();
+
+      Transferable transferable = support.getTransferable();
+      List<DataFlavor> flavors = Arrays.asList(transferable.getTransferDataFlavors());
+
+      List<Image> images = new ArrayList<>();
+
+      try
+      {

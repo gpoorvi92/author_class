@@ -1,0 +1,10 @@
+		mintMonth2=moDateIntervalProcessor.GetMonthFromString(tstrDate2);
+		mintDay2=moDateIntervalProcessor.GetDayFromString(tstrDate2);
+
+		if (mintYear1>mintYear2) { 
+			mintResult=1;
+		}else if (mintYear1>=mintYear2 && mintMonth1>mintMonth2) {
+			 mintResult=1;
+		}else if (mintYear1>=mintYear2 && mintMonth1 >=mintMonth2 && mintDay1 > mintDay2) { 
+			mintResult=1; 
+		}else {

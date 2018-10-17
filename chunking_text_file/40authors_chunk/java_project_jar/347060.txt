@@ -1,0 +1,7 @@
+    public static final IOCase INSENSITIVE = new IOCase("Insensitive", false);
+    public static final IOCase SYSTEM = new IOCase("System", !FilenameUtils.isSystemWindows());
+    private static final long serialVersionUID = 0xa7f889439aec7931L;
+    private final String name;
+    private final transient boolean sensitive;
+
+}

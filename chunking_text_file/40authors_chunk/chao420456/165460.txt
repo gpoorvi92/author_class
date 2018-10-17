@@ -1,0 +1,10 @@
+					}else{
+						if(Message.contains("@chat")){
+							String[] chat = Message.split("@chat");
+							StringBuffer sb = new StringBuffer();
+							SimpleDateFormat form = new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss");
+							String date = form.format(new Date());
+							sb.append(chat[0] + "  " + date + "\n");
+							sb.append(chat[2] + "@chat");
+							String str = new String(sb);
+							Message = str;

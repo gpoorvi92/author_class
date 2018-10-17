@@ -1,0 +1,10 @@
+        }
+        if (struct.isSetDycRD()) {
+          struct.dycRD.write(oprot);
+        }
+        if (struct.isSetVirRD()) {
+          struct.virRD.write(oprot);
+        }
+      }
+
+      @Override

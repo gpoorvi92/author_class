@@ -1,0 +1,10 @@
+	 * 增加一个帐号
+	 * @param entity
+	 * @return
+	 */
+	public Account add(Account entity){
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		entity.set_id(super.generateID());
+		coll.insert(entity.toDbObject(), WriteConcern.SAFE);
+		return entity;
+	}

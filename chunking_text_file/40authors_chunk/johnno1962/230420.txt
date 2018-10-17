@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.FileDialog(java.awt.Frame,java.lang.String,int)
+
+    FileDialogProxy( java.awt.Frame parent, java.lang.String title, int mode , long swiftObject ) {
+        super( parent, title, mode );
+        this.swiftObject = swiftObject;
+    }
+

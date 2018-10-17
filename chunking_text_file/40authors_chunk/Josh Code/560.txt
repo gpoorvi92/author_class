@@ -1,0 +1,10 @@
+    /** Counts the number of pairs that are out of order
+     * and swaps any that are to bring them
+     */
+    private int countOutOfOrder(Triangle []triangles)
+    {
+      int result = 0;
+        for (int i = 1; i < triangles.length; i++)
+        {
+            if (compare(triangles[i - 1], triangles[i]) > 0)
+                result++;

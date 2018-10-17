@@ -1,0 +1,10 @@
+	 * @return
+	 */
+	public static boolean copyDir(String srcDir, String destDir) {
+		
+		if (!exists(srcDir)) {
+			return false;
+		}
+		
+		try {
+			

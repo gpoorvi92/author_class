@@ -1,0 +1,10 @@
+
+	@Override
+	public LhjPriceCut selectPriceCutByCustomerIDAndPriceID(int priceID,
+			int customerID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_lhjpricecut where lhjpriceid=? and customerid=?")
+				.addEntity(LhjPriceCut.class);
+		query.setInteger(0, priceID);
+		query.setInteger(1, customerID);
+		return (LhjPriceCut) query.uniqueResult();
+	}

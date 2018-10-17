@@ -1,0 +1,10 @@
+    boolean that_present_networkPacket = true && that.isSetNetworkPacket();
+    if (this_present_networkPacket || that_present_networkPacket) {
+      if (!(this_present_networkPacket && that_present_networkPacket))
+        return false;
+      if (!this.networkPacket.equals(that.networkPacket))
+        return false;
+    }
+
+    boolean this_present_systemResources = true && this.isSetSystemResources();
+    boolean that_present_systemResources = true && that.isSetSystemResources();

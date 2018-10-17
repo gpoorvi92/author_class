@@ -1,0 +1,10 @@
+
+    public static ApplicationInfo getApplicationInfo(Context context,
+            String packageName) {
+        PackageInfo pkgInfo = getPackageInfo(context, packageName, 0);
+        if (pkgInfo == null)
+            return null;
+
+        return pkgInfo.applicationInfo;
+    }
+

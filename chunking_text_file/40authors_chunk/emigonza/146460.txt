@@ -1,0 +1,10 @@
+  public void    setIlluminateMode(boolean illuminateMode) throws JposException;
+  public int     getImageHeight() throws JposException;
+  public int     getImageLength() throws JposException;
+  public int     getImageMode() throws JposException;
+  public void    setImageMode(int imageMode) throws JposException;
+  public int     getImageQuality() throws JposException;
+  public void    setImageQuality(int imageQuality) throws JposException;
+  public int     getImageType() throws JposException;
+  public int     getImageWidth() throws JposException;
+  public int     getPowerNotify() throws JposException;

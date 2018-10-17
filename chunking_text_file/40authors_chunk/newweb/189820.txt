@@ -1,0 +1,10 @@
+			return false;
+		}
+		return true;
+	}
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@Override
+	public List selectAllSuppliers(int start, int limit) {
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_supplier")

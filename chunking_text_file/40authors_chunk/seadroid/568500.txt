@@ -1,0 +1,10 @@
+                    txService.addUploadTask(info.account, info.repoID, info.repoName,
+                            info.parentDir, info.localPath, true, true);
+                }
+            }
+        });
+    }
+
+    /**
+     * This callback in called in the main thread when the transfer service broadcast is received
+     */

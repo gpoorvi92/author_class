@@ -1,0 +1,10 @@
+		}
+		return open(addr, SSDP.PORT, bindAddr);
+	}
+	
+	////////////////////////////////////////////////
+	//	deviceSearch
+	////////////////////////////////////////////////
+
+	private ListenerList deviceSearchListenerList = new ListenerList();
+	 	

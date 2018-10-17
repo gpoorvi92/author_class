@@ -1,0 +1,10 @@
+		faultNode.addNode(faultStringNode);
+
+		// <detail>
+		Node detailNode = new Node(SOAP.DETAIL);
+		faultNode.addNode(detailNode);
+
+		// <UPnPError xmlns="urn:schemas-upnp-org:control-1-0">
+		Node upnpErrorNode = new Node(FAULT_STRING);
+		upnpErrorNode.setAttribute("xmlns", Control.XMLNS);
+		detailNode.addNode(upnpErrorNode);

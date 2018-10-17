@@ -1,0 +1,10 @@
+	
+	/**
+	 * 
+	 * @return inets The <tt>InetAddress</tt> that will be binded for this service
+	 * 		<code>null</code> means that defulat behaviur will be used
+	 * @since 1.8
+	 */	
+	public InetAddress[] getSSDPBindAddress(){
+		return this.ssdpBinds;
+	}

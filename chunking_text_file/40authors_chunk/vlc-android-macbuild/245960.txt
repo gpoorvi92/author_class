@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void seekTo(int msec) throws IllegalStateException {
+        int duration = getDuration();
+        if (duration <= 0) {
+            DebugLog.e(TAG, "no duration for seek, try later");
+            mSeekWhenDurationChanged = msec;
+            return;
+        }

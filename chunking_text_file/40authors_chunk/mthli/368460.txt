@@ -1,0 +1,10 @@
+    * @param key the key name
+    * @param value1 the name of the first value for the key
+    * @param value2 the name of the second value for the key
+    */
+   void makeButtons(String key, String value1, String value2)
+   {
+      try
+      {
+         final RenderingHints.Key k = (RenderingHints.Key) RenderingHints.class.getField(key).get(
+               null);

@@ -1,0 +1,10 @@
+	}
+		public String createBuffer()
+	{
+		String buffer;
+		buffer = listPane.getText();
+		return buffer;
+	}
+	private void print(String s)
+	{
+		StringReader sr = new StringReader(s);

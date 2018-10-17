@@ -1,0 +1,10 @@
+ */
+@Component
+public class ProgressManager {
+	private static final Logger log = LoggerFactory.getLogger(ProgressManager.class);
+
+	@Autowired
+	private JLFUListenerPropagator jlfuListenerPropagator;
+
+	@Autowired
+	private ClientToFilesMap clientToFilesMap;

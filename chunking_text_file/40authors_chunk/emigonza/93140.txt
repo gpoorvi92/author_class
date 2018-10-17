@@ -1,0 +1,10 @@
+  {
+    return new PropertyDescriptor(propertyName, jpos.Belt.class);
+  }
+
+  public PropertyDescriptor[] getPropertyDescriptors()
+  {
+    try
+    {
+      PropertyDescriptor[] properties =
+      {

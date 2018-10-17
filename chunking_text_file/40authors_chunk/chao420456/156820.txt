@@ -1,0 +1,10 @@
+public class ServerFrame extends JFrame implements ActionListener {
+	
+	private JButton jbt_start;
+	private JButton jbt_stop;
+	private JButton jbt_exit;
+	private JTextArea jta_disMess;
+	private JList jlt_disUsers;
+	
+	private Server server;
+	

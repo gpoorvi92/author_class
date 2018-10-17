@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void delete(String[] ids) {
+		if(ids == null || ids.length == 0)return;
+		for(int i = 0; i < ids.length;i++){
+			if(ids[i] == null || ids[i].trim().isEmpty()) continue;
+			WeChatAccount data = this.weChatAccountDao.load(WeChatAccount.class, ids[i]);
+			if(data != null)this.weChatAccountDao.delete(data);
+		}

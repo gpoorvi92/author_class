@@ -1,0 +1,10 @@
+		if (serverSock != null)
+			return true;
+		try {
+			serverSock = new ServerSocket(bindPort, 0, bindAddr);
+		}catch (IOException e) {
+			return false;
+		}
+		return true;
+	}
+	

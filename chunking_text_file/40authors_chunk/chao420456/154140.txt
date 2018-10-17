@@ -1,0 +1,10 @@
+		System.out.println("篮球运动员吃牛肉");
+	}
+
+	public void study() {
+		System.out.println("篮球运动员学如何带球和投篮");
+	}
+}
+
+class PeopleDemo {
+	public static void main(String[] args) {

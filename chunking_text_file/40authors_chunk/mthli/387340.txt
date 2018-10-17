@@ -1,0 +1,10 @@
+      path = Paths.get(fileName);
+      try (InputStream in = Files.newInputStream(path))
+      {
+         setIcon(new ImageIcon(ImageIO.read(in)));
+      }
+      catch (IOException e)
+      {
+         path = null;
+         setIcon(null);
+      }

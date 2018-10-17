@@ -1,0 +1,10 @@
+public class EventTracer
+{
+   private InvocationHandler handler;
+
+   public EventTracer()
+   {
+      // the handler for all event proxies
+      handler = new InvocationHandler()
+         {
+            public Object invoke(Object proxy, Method method, Object[] args)

@@ -1,0 +1,10 @@
+            goods.setImage(filename);
+        }
+        goods.getName().replace('_', '-');
+        goods.setUpdateDate(new Date());
+        goodsMapper.updateByPrimaryKeySelective(goods);
+    }
+
+    @Override
+    public void delete(String[] idsAndStatuses) {
+        goodsMapper.deleteByIds(IdStatusSplitUtils.split2Id(idsAndStatuses));

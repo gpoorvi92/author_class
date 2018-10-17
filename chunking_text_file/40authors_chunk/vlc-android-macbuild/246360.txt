@@ -1,0 +1,10 @@
+            }
+            break;
+        }
+        case EventManager.MediaPlayerSeekableChanged: {
+            if (mOnInfoListener != null) {
+                if (msg.obj != null) {
+                    boolean seekable = MediaPlayerSeekableChanged
+                            .getNewSeekable((Bundle) msg.obj);
+                    if (!seekable && mOnInfoListener != null) {
+                        mOnInfoListener.onInfo(this,

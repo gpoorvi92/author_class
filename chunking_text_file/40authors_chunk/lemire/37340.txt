@@ -1,0 +1,9 @@
+
+    /**
+     * Swap the content of the buffer with another.
+     *
+     * @param other buffer to swap with
+     */
+    void swap(Buffer other);
+
+}

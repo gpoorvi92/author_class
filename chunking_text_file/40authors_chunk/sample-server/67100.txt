@@ -1,0 +1,10 @@
+        Template tpt = engine.parseTemplate(DaoHelper.getConfitTemplate());
+        Context context = new Context(); // 生成数据容器对象
+        context.set("dbUrl", dbUrl);
+        context.set("dbUsername", dbUsername);
+        context.set("dbPasswd", dbPasswd);
+        StringWriter outData = new StringWriter();
+        tpt.merge(context, outData);
+        ZoneDao dao = new ZoneDao(new ZoneConfiguration(outData.toString(), dbUrl).doConfig());
+        return dao;
+    }

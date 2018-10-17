@@ -1,0 +1,10 @@
+
+
+@ContextConfiguration(locations = { "classpath:jlfu.test.xml" })
+@RunWith(SpringJUnit4ClassRunner.class)
+public class StaticStateIdentifierManagerTest {
+
+	@Autowired
+	StaticStateIdentifierManager staticStateIdentifierManager;
+
+	@Autowired

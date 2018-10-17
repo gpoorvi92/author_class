@@ -1,0 +1,10 @@
+  }
+
+  public UserApp setApp_id(String app_id) {
+    this.app_id = app_id;
+    return this;
+  }
+
+  public void unsetApp_id() {
+    this.app_id = null;
+  }

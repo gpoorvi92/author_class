@@ -1,0 +1,10 @@
+      locales = (Locale[]) NumberFormat.getAvailableLocales().clone();
+      Arrays.sort(locales, new Comparator<Locale>()
+         {
+            public int compare(Locale l1, Locale l2)
+            {
+               return l1.getDisplayName().compareTo(l2.getDisplayName());
+            }
+         });
+      for (Locale loc : locales)
+         localeCombo.addItem(loc.getDisplayName());

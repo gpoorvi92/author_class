@@ -1,0 +1,10 @@
+		setSEQ(notifyCnt);
+
+		setContentType(XML.CONTENT_TYPE);
+		Node propSetNode = createPropertySetNode(varName, value);
+		setContent(propSetNode);		
+
+		return true;			
+	}
+	
+	private Node createPropertySetNode(String varName, String value)

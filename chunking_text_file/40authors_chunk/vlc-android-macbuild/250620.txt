@@ -1,0 +1,10 @@
+
+            return sInstance;
+        }
+    }
+
+    static LibVLC getExistingInstance() {
+        synchronized (LibVLC.class) {
+            return sInstance;
+        }
+    }

@@ -1,0 +1,10 @@
+	 * @param t
+	 * @return: void
+	 */
+	public <T> void setAttribute(String key, T t) {
+		
+		if (storage != null) {
+			storage.put(key, t);	
+		}
+	}
+	

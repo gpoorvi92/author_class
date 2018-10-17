@@ -1,0 +1,9 @@
+        public Viewholder(TextView title, TextView subtitle, ImageView icon, ImageView action) {
+            super();
+            this.icon = icon;
+            this.action = action;
+            this.title = title;
+            this.subtitle = subtitle;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+		File file = new File(fileName); // 创建文件对象
+		if (!file.exists()) {
+			return 0;
+		}
+		int size = 0;
+		Workbook wb = null;
+		try {
+			wb = Workbook.getWorkbook(file); // 从文件流中获取Excel工作区对象（WorkBook）
+			Sheet sheet = wb.getSheet(sheetNum); // 从工作区中取得页（Sheet）
+			size = sheet.getRows();

@@ -1,0 +1,10 @@
+        try (
+                ZipFile zipFile = new ZipFile(source);
+                ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(source))
+        ) {
+            while ((zipEntry = zipInputStream.getNextEntry()) != null) {
+                String fileName = zipEntry.getName();
+                File temp = new File(path + "/" + fileName);
+                if (!temp.getParentFile().exists()) {
+                    temp.getParentFile().mkdirs();
+                }

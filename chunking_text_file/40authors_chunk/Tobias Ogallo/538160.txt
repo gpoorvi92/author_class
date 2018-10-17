@@ -1,0 +1,10 @@
+      	JOptionPane.showMessageDialog(null,"passwords do not match.","ERROR",
+        JOptionPane.DEFAULT_OPTION);
+        pass2.requestFocus();
+        return;
+      }
+				try{
+					Statement statement =Connect.getConnection().createStatement();
+					{
+						String temp = "INSERT INTO users (Name,Category,username, password) VALUES ('"+
+                             name.getText()            +"', '" +

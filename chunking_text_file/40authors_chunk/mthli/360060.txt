@@ -1,0 +1,10 @@
+      timeParseButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               String t = timeText.getText().trim();
+               try
+               {
+                  currentDateFormat.setLenient(lenientCheckbox.isSelected());
+                  Date date = currentTimeFormat.parse(t);
+                  currentTime = date;

@@ -1,0 +1,10 @@
+		hm.put("范冰冰", "山东");
+
+		// 遍历
+		// 方式1
+		Set<String> keySet = hm.keySet();
+		for (String key : keySet) {
+			String value = hm.get(key);
+			System.out.println(key + "---" + value);
+		}
+		System.out.println("---------------------");

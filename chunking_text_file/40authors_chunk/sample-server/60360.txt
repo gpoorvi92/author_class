@@ -1,0 +1,6 @@
+            resultCode.setResult(JsonResponse.Result.FALSE);
+            resultCode.setMsg(e.getMessage());
+        }
+        return resultCode.toJson();
+    }
+}

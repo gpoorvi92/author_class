@@ -1,0 +1,10 @@
+      this.checkTime = null;
+    }
+  }
+
+  public int getCpu() {
+    return this.cpu;
+  }
+
+  public SystemResources setCpu(int cpu) {
+    this.cpu = cpu;

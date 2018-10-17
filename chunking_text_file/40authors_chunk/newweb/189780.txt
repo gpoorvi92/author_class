@@ -1,0 +1,10 @@
+			sessionFactory.getCurrentSession().update(supplier);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public Supplier selectSupplierByName(String name) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_supplier where name=?)")

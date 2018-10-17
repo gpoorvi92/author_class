@@ -1,0 +1,10 @@
+		query.setString(2, orderID);
+		return query.list();
+	}
+
+	@Override
+	public boolean delete(OrderPrice op) {
+		try {
+			sessionFactory.getCurrentSession().delete(op);
+		} catch (Exception e) {
+			return false;

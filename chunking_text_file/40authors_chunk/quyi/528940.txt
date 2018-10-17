@@ -1,0 +1,10 @@
+    @Override
+	public short getThriftFieldId() {
+      return _thriftId;
+    }
+
+    @Override
+	public String getFieldName() {
+      return _fieldName;
+    }
+  }

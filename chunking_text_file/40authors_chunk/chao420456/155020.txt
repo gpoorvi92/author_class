@@ -1,0 +1,10 @@
+ * 		D:把集合中的数据存储到文本文件
+ */
+public class PropertiesTest {
+	public static void main(String[] args) throws IOException {
+		// 把文本文件的数据加载到集合中
+		Properties prop = new Properties();
+		Reader r = new FileReader("user.txt");
+		prop.load(r);
+		r.close();
+

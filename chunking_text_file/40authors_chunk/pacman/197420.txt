@@ -1,0 +1,10 @@
+				in = new FileInputStream(new File(file));
+				ZipArchiveEntry entry = new ZipArchiveEntry(new File(file), entryName);
+				zip.putArchiveEntry(entry);
+				IOUtils.copy(in, zip);
+				zip.closeArchiveEntry();
+			}
+			
+		} catch (Exception e) {
+			
+			result = false;

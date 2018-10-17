@@ -1,0 +1,10 @@
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(1, 1, 1));
+
+		TextureRegion faceTextureRegion = this.mSpritesheetTexturePackTextureRegionLibrary.get(TexturePackerExampleSpritesheet.FACE_BOX_ID);
+		/* Calculate the coordinates for the face, so its centered on the camera. */
+		final float centerX = (CAMERA_WIDTH - faceTextureRegion.getWidth()) / 2;
+		final float centerY = (CAMERA_HEIGHT - faceTextureRegion.getHeight()) / 2;

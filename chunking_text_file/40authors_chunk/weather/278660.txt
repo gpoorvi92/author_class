@@ -1,0 +1,10 @@
+    private void expand(int i) {
+        /* Can the buffer handle @i more bytes, if not expand it */
+        if (count + i <= buf.length) {
+            return;
+        }
+        byte[] newbuf = mPool.getBuf((count + i) * 2);
+        System.arraycopy(buf, 0, newbuf, 0, count);
+        mPool.returnBuf(buf);
+        buf = newbuf;
+    }

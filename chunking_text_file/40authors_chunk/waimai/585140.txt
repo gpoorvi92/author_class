@@ -1,0 +1,8 @@
+        modelAndView.addObject("goodsList", goodsList);
+        modelAndView.addObject("goodsStatus", GoodsStatus.values());
+        modelAndView.addObject("goodsType", goodsTypeService.findAll());
+        modelAndView.addObject("vo", vo);
+        return modelAndView;
+    }
+
+}

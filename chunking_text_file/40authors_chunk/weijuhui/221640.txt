@@ -1,0 +1,10 @@
+			responseCode = response.getStatusLine().getStatusCode();
+			super.sendResponseMessage(response);
+		};
+
+		@Override
+		protected void sendMessage(Message msg) {
+			/*
+			 * Dont use the handler and send it directly to the analysis
+			 * (because its all the same thread)
+			 */

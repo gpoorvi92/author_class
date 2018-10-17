@@ -1,0 +1,10 @@
+        if (source == exportVertices)
+        {
+            mfsff = (new ModelFileSaverFileFilter(new XYZModelFileSaver()));
+        }
+        else if (source == exportWireFrame)
+        {
+            mfsff = (new ModelFileSaverFileFilter(new VLAModelFileSaver()));
+        }
+        else if (source == exportModel)
+        { 

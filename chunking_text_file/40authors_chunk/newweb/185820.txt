@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean insert(OrderOther other) {
+		try {
+			sessionFactory.getCurrentSession().save(other);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;

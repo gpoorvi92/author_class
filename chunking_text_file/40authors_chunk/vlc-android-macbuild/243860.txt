@@ -1,0 +1,10 @@
+    }
+
+    public static int d(String tag, String msg) {
+        if (ENABLE_DEBUG) {
+            return Log.d(tag, msg);
+        }
+
+        return 0;
+    }
+

@@ -1,0 +1,10 @@
+               canvas.setRule(r.getValue());
+               explanation.setText(r.getExplanation());
+            }
+         });
+
+      alphaSlider = new JSlider(0, 100, 75);
+      alphaSlider.addChangeListener(new ChangeListener()
+         {
+            public void stateChanged(ChangeEvent event)
+            {

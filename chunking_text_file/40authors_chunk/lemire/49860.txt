@@ -1,0 +1,10 @@
+            ++ctr;
+            ii.next();
+        }
+        assertEquals(3 * 64, ctr);
+    }
+
+    @Test
+    public void testStartDirty() {
+        System.out.println("testing int iteration, no initial runs");
+        EWAHCompressedBitmap e = new EWAHCompressedBitmap();

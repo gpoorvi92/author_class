@@ -1,0 +1,10 @@
+        e;
+        handleIOException(e);
+        return -1;
+    }
+
+    public int read(byte bts[], int off, int len)
+        throws IOException
+    {
+        int n;
+        beforeRead(len);

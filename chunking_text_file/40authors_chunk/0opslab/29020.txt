@@ -1,0 +1,10 @@
+            ®	注册商标	&reg;
+            ™	商标	&trade;
+            ×	乘号	&times;
+            ÷	除号	&divide;
+     */
+    public static String unhtml(String content) {
+        if (StringUtil.isEmpty(content)) {
+            return "";
+        }
+        String html = content;

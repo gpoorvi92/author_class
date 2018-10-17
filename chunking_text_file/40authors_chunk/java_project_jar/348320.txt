@@ -1,0 +1,10 @@
+import org.apache.commons.io.input.XmlStreamReader;
+
+public class XmlStreamWriter extends Writer
+{
+
+    public XmlStreamWriter(OutputStream out)
+    {
+        this(out, null);
+    }
+

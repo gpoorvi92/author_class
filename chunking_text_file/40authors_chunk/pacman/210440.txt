@@ -1,0 +1,10 @@
+		} catch (NumberFormatException e) {}
+		
+		return defaultValue;
+	}
+	
+	/**
+	 * @Title: isNumeric
+	 * @param str
+	 * @return
+	 * @return: boolean

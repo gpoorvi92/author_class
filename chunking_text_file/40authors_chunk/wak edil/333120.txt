@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class NasiMinyakInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Nasi Minyak yang dimasak \nRendang daging atau ayam masak merah \nAcar Timun atau buah-buahan \nSayur-sayuran \n ");

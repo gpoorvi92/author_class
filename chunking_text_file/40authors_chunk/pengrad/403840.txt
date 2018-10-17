@@ -1,0 +1,7 @@
+                "file_id='" + file_id + '\'' +
+                ", duration=" + duration +
+                ", mime_type='" + mime_type + '\'' +
+                ", file_size=" + file_size +
+                '}';
+    }
+}

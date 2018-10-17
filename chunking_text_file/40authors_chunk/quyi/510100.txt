@@ -1,0 +1,10 @@
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case CHECK_TIME:
+      return getCheckTime();
+

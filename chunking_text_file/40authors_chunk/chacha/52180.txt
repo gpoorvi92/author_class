@@ -1,0 +1,10 @@
+		info.put("y", 102);
+		doc.put("info",info);
+		WriteResult w=coll.insert(doc);
+		assertTrue(w.getLastError().ok());
+		
+		DBObject myDoc=coll.findOne();
+		System.out.println(myDoc);
+		
+		long begin=System.currentTimeMillis();
+		List<DBObject> list=new ArrayList<DBObject>();

@@ -1,0 +1,6 @@
+		pushWinProp(model, winProp, materialBrandService, brandID, typeForBrandID, windowsBuyType);
+		
+		return model;
+	}
+	
+}

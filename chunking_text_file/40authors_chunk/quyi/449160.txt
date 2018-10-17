@@ -1,0 +1,10 @@
+     * @param engine
+     * @param operate
+     */
+    public com.nercis.isscp.idl.Result operateEngine(Engine engine, EngineOperation operate) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+
+    /**
+     * 检查单个应用在引擎中的进度状态接口
+     * 1:missionId 任务批号
+     * 2:userAppId 用户应用ID
+     * 

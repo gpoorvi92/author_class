@@ -1,0 +1,10 @@
+            entered_windowDeactivated_6 = true;
+            __windowDeactivated( e );
+            entered_windowDeactivated_6 = false;
+        }
+        else
+            super.windowDeactivated( e );
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowGainedFocus(java.awt.event.WindowEvent)
+

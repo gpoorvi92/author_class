@@ -1,0 +1,10 @@
+
+    public void send_operateEngine(Engine engine, EngineOperation operate) throws org.apache.thrift.TException
+    {
+      operateEngine_args args = new operateEngine_args();
+      args.setEngine(engine);
+      args.setOperate(operate);
+      sendBase("operateEngine", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_operateEngine() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException

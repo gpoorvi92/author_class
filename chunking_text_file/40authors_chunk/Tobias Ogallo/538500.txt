@@ -1,0 +1,10 @@
+        p4=new JPanel(new GridLayout(2,2));
+        
+        p4.add(p1) ;p4.add(p2);
+        
+       try
+
+         {
+	
+        Statement s = Connect.getConnection().createStatement();
+         }

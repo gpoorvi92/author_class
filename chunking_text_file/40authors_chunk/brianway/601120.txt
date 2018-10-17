@@ -1,0 +1,9 @@
+    public static void printB() {
+        synchronized (ServiceSub.class) {
+            System.out.println("线程名：" + Thread.currentThread().getName() + " 在 " + System.currentTimeMillis() + "进入printB");
+            System.out.println("线程名：" + Thread.currentThread().getName() + " 在 " + System.currentTimeMillis() + "离开printB");
+        }
+
+    }
+
+}

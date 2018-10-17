@@ -1,0 +1,10 @@
+       n = IteratorUtil.materialize(b.getIteratingRLW());
+       assertTrue(n.sizeInBits()/64 * 64 == n.sizeInBits());
+       n.setSizeInBitsWithinLastWord(b.sizeInBits());
+       assertTrue(n.sizeInBits() == b.sizeInBits());
+       assertTrue(n.equals(b));
+       neg = IteratorUtil.materialize(IteratorAggregation.not(b.getIteratingRLW()));
+       neg.setSizeInBitsWithinLastWord(b.sizeInBits());
+       x= b.clone();
+       x.not();
+       assertTrue(x.equals(neg));

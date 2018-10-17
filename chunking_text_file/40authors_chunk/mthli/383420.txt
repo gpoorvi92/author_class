@@ -1,0 +1,10 @@
+
+   /**
+    * Runs the main method of a given class.
+    * @param name the class name
+    * @param key the decryption key for the class files
+    */
+   public void runClass(String name, String key)
+   {
+      try
+      {

@@ -1,0 +1,10 @@
+            int k = x & 3;
+            if (k == 0) res = 'A' + res;
+            if (k == 1) res = 'C' + res;
+            if (k == 2) res = 'G' + res;
+            if (k == 3) res = 'T' + res;
+            x = x >> 2;
+        }
+        return res;
+    }
+}

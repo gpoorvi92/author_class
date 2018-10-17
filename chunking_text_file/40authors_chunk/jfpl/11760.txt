@@ -1,0 +1,10 @@
+		sendData.putStringValue("hphm", hphm);
+		sendData.putStringValue("hpzl", hpzl);
+		sendData.putStringValue("clsbdh", clsbdh);
+		sendData.putStringValue("syr", syr);
+		sendData.putStringValue("sfzmhm", sfzmhm);
+		sendData.putObjectValue("ipacket",
+				HttpSendFactory.getChatPlatformSendMethod());
+		sendData.putObjectValue("iservice", new BindVehService(this, sendData));
+		ServiceController.addService(sendData, this);
+	}

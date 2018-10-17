@@ -1,0 +1,5 @@
+	}
+
+	public static final String HtmlBlack = "#000000";
+	public static final String HtmlGray = "#808080";
+}

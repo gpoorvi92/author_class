@@ -1,0 +1,10 @@
+				bos.write(buf, 0, len);
+			}
+			bos.flush();
+		} finally {
+			try {
+				bis.close();
+			} catch (IOException e) {
+				;
+			}
+			try {

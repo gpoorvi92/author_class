@@ -1,0 +1,10 @@
+
+    @Override
+    public void setWord(int position, int word) {
+        this.buffer.put(position, word);
+    }
+
+    @Override
+    public void setLastWord(int word) {
+        setWord(this.actualSizeInWords - 1, word);
+    }

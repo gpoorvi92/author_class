@@ -1,0 +1,10 @@
+package treeModel;
+
+import java.lang.reflect.*;
+import java.util.*;
+
+/**
+ * A variable with a type, name, and value.
+ */
+public class Variable
+{

@@ -1,0 +1,10 @@
+
+ Here is an example:
+ S = "rabbbit", T = "rabbit"
+ Return 3.
+
+ Solution: dp.
+ */
+
+public class Solution {
+    public int numDistinct(String S, String T) {

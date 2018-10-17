@@ -1,0 +1,10 @@
+         }
+         catch (Exception e)
+         {  
+            label = "(" + label + ")";
+         }
+         table.put(label, value);
+         addItem(label);
+      }
+      setSelectedItem(labels[0]);
+   }

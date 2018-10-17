@@ -1,0 +1,10 @@
+			"e:\\null" + new Random().nextInt() :
+			"/tmp/null" + new Random().nextInt() ;
+	private String srcDir;
+	private String destDir;
+	private String testFile;
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception
+	 * @return: void

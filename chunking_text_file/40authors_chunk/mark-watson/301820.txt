@@ -1,0 +1,10 @@
+        fc.buildClassifier(training_data);
+        // test using stock_testing_data.arff:
+        for (int i = 0; i < testing_data.numInstances(); i++) {
+          double pred = fc.classifyInstance(testing_data.instance(i));
+          System.out.print("given value: " + testing_data.classAttribute().value((int)testing_data.instance(i).classValue()));
+          System.out.println(". predicted value: " + testing_data.classAttribute().value((int) pred));
+        }
+
+	}
+

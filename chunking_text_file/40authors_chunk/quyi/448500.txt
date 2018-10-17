@@ -1,0 +1,10 @@
+      if (struct.isSetJvmVersion()) {
+        optionals.set(5);
+      }
+      if (struct.isSetJvmMaxMem()) {
+        optionals.set(6);
+      }
+      oprot.writeBitSet(optionals, 7);
+      if (struct.isSetOsArch()) {
+        oprot.writeString(struct.osArch);
+      }

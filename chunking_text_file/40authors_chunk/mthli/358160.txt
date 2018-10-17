@@ -1,0 +1,10 @@
+    * @param out a print writer
+    */
+   private static void writeData(Employee[] employees, PrintWriter out) throws IOException
+   {
+      // write number of employees
+      out.println(employees.length);
+
+      for (Employee e : employees)
+         writeEmployee(out, e);
+   }

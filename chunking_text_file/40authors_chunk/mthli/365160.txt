@@ -1,0 +1,10 @@
+   public Item(String aDescription, int aPartNumber)
+   {
+      description = aDescription;
+      partNumber = aPartNumber;
+   }
+
+   /**
+    * Gets the description of this item.
+    * @return the description
+    */

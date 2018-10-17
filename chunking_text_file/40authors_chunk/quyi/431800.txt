@@ -1,0 +1,10 @@
+      return lastComparison;
+    }
+    if (isSetCheckDate()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.checkDate, other.checkDate);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetSensitives()).compareTo(other.isSetSensitives());
+    if (lastComparison != 0) {

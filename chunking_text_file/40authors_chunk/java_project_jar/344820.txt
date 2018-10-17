@@ -1,0 +1,10 @@
+            for(Iterator i$ = observers.iterator(); i$.hasNext(); observer.checkAndNotify())
+                observer = (FileAlterationObserver)i$.next();
+
+            if(!running)
+                break;
+            try
+            {
+                Thread.sleep(interval);
+            }
+            catch(InterruptedException ignored) { }

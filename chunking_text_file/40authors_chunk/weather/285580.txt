@@ -1,0 +1,10 @@
+                results.count = list.size();
+            } else {
+                String prefixString = prefix.toString().toLowerCase();
+
+                List<Pair<String, String>> values;
+                synchronized (mLock) {
+                    values = new ArrayList<Pair<String, String>>(mOriginalValues);
+                }
+
+                final int count = values.size();

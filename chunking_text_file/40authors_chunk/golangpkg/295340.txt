@@ -1,0 +1,10 @@
+		clientsAndRequestsProcessingOperation.remove(fileId);
+
+		// remove mapping
+		Set<UUID> set = clientToFilesMap.get(clientId);
+		if (set != null) {
+			synchronized (set) {
+				set.remove(fileId);
+				
+				// if client is empty, remove client
+				final boolean noreMoreUploadsForThisClient = set.isEmpty();

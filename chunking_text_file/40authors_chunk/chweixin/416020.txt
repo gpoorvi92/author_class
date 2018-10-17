@@ -1,0 +1,10 @@
+package ipower.wechat.dao.impl;
+
+import ipower.wechat.dao.IBaseDao;
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;

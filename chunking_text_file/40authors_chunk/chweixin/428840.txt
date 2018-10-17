@@ -1,0 +1,10 @@
+	 * 获取地理位置精度。
+	 * @return 地理位置精度。
+	 * */
+	public String getPrecision() {
+		return precision;
+	}
+	/**
+	 * 设置地理位置精度。
+	 * @param precision
+	 * 	地理位置精度。

@@ -1,0 +1,10 @@
+                iprot.readListEnd();
+              }
+              struct.setRulesIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // PLOTS
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {

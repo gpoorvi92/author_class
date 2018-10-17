@@ -1,0 +1,10 @@
+        return new genMissionId_resultStandardScheme();
+      }
+    }
+
+    private static class genMissionId_resultStandardScheme extends StandardScheme<genMissionId_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, genMissionId_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)

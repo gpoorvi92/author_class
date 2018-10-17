@@ -1,0 +1,10 @@
+		}
+		Object obj = clazz.newInstance();
+		
+		for(Field field : fields) {
+			
+			Transmit transmit = field.getAnnotation(Transmit.class);
+			if (transmit != null) {
+				field.setAccessible(true);
+				field.set(obj, map.getObject(transmit.key()));
+			}

@@ -1,0 +1,10 @@
+
+
+	public Long getCrcedBytes() {
+		return crcedBytes;
+	}
+
+
+	public void setCrcedBytes(Long crcedBytes) {
+		this.crcedBytes = crcedBytes;
+	}

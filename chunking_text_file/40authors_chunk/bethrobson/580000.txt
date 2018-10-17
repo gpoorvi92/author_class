@@ -1,0 +1,10 @@
+    public void go() {
+        try {
+            ServerSocket serverSock = new ServerSocket(4242);
+            while (true)
+            {
+                Socket sock = serverSock.accept();
+                
+                PrintWriter writer = new PrintWriter(sock.getOutputStream());
+                String advice = getAdvice();
+                writer.println(advice);

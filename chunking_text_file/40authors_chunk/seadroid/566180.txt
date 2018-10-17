@@ -1,0 +1,10 @@
+    @Override
+    public void disable() {
+        if (android.os.Build.VERSION.SDK_INT < 14)
+            return;
+
+        currentApp.unregisterActivityLifecycleCallbacks(this);
+    }
+
+    @Override
+    public void onActivityPaused(Activity activity) {

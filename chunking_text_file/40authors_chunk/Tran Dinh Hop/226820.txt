@@ -1,0 +1,10 @@
+	public HuffmanNode rchild,lchild,up;
+	private String code;
+	private int freq;
+	private int value;
+	
+	public HuffmanNode(String bstring, int freq, int value, 
+					HuffmanNode lchild, HuffmanNode rchild, HuffmanNode up){
+		code=bstring;
+		this.freq=freq;
+		this.value=value;

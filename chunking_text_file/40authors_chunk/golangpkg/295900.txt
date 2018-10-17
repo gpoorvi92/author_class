@@ -1,0 +1,10 @@
+				}
+				// if its none of them, we cannot delete them so we assume its deleted.
+				else {
+					return true;
+				}
+
+			}
+			// if does not exist, we can remove it from list
+			else {
+				return true;

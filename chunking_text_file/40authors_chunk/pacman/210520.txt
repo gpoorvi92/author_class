@@ -1,0 +1,10 @@
+ * @author CodingMouse's POJOGenerator
+ * @version v1.0.0.1 2015-01-08 05:16:24
+ */
+public class TaskModel implements Serializable {
+
+	/*
+	 * Private Fields
+	 */
+	private static final long serialVersionUID = -1759501103L;
+	private Integer 	tid;

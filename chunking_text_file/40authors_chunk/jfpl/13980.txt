@@ -1,0 +1,10 @@
+		mapManager = new BMapManager(getApplication());
+		mapManager.init(ConstVariables.BAIDU_API_KEY, null);
+		setContentView(R.layout.show_location);
+		mapView.setBuiltInZoomControls(true);
+		MapController mapController = mapView.getController();
+		Intent intent = getIntent();
+		String[] arr = intent.getStringArrayExtra("tag");
+		if (arr.length != 4) {
+			finish();
+		}

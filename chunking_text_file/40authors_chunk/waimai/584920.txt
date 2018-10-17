@@ -1,0 +1,10 @@
+        return insertDate;
+    }
+
+    public void setInsertDate(Date insertDate) {
+        this.insertDate = insertDate;
+    }
+
+    public Date getUpdateDate() {
+        return updateDate;
+    }

@@ -1,0 +1,10 @@
+		// ws.setSavePassword(false);
+		// ws.setSaveFormData(false);
+		// ws.setAppCacheEnabled(false);
+		// ws.setAllowFileAccess(true);
+		// ws.setRenderPriority(RenderPriority.LOW);
+		webViewClient = new JFWebViewClient(this);
+		webView.requestFocus();
+		webView.setWebViewClient(webViewClient);
+		webView.setWebChromeClient(new JFWebChromeClient(this, loadingBar));
+		webView.addJavascriptInterface(new PluginManager(this), "jufan");

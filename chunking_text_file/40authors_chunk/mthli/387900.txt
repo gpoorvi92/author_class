@@ -1,0 +1,10 @@
+            if (i > 0) r += ",";
+            Object val = Array.get(obj, i);
+            if (cl.getComponentType().isPrimitive()) r += val;
+            else r += toString(val);
+         }
+         return r + "}";
+      }
+
+      String r = cl.getName();
+      // inspect the fields of this class and all superclasses

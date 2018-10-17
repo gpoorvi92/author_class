@@ -1,0 +1,10 @@
+            }
+         });
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Adds a button to a container.
+    * @param c the container
+    * @param title the button title

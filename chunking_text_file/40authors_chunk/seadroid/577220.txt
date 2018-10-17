@@ -1,0 +1,10 @@
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.gesturepassword_unlock);
+        mLockPatternView = (LockPatternView) this
+                .findViewById(R.id.gesturepwd_unlock_lockview);
+        mLockPatternView.setOnPatternListener(mChooseNewLockPatternListener);
+        mLockPatternView.setTactileFeedbackEnabled(true);
+        mHeadTextView = (TextView) findViewById(R.id.gesturepwd_unlock_text);
+        mShakeAnim = AnimationUtils.loadAnimation(this, R.anim.shake_x);

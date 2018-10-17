@@ -1,0 +1,6 @@
+        properties.setProperty("test1.com.remoteHost", "1");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+}

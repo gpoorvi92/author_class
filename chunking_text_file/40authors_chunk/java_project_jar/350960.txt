@@ -1,0 +1,10 @@
+            continue; /* Loop/switch isn't completed */
+        finished = true;
+        return false;
+        if(!isValidLine(line)) goto _L2; else goto _L1
+_L1:
+        cachedLine = line;
+        return true;
+        IOException ioe;
+        ioe;
+        close();

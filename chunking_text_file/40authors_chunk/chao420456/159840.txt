@@ -1,0 +1,9 @@
+		for (String key : hmSet) {
+			System.out.println(key);
+			ArrayList<String> value = hm.get(key);
+			for (String s : value) {
+				System.out.println("\t" + s);
+			}
+		}
+	}
+}

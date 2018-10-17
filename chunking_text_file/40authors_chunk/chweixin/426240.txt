@@ -1,0 +1,10 @@
+ * @author yangyong.
+ * @since 2014-04-14.
+ */
+public class DefaultWeChatMessageHandlers implements IWeChatMessageHandlers,IWeChatMessageEventHandlers {
+	private static Logger logger = Logger.getLogger(DefaultWeChatMessageHandlers.class);
+	private IWeChatDefaultReplyDao weChatDefaultReplyDao;
+	private IWeChatMenuDao weChatMenuDao;
+	private IWeChatMessageFactory orderMessageHandlers;
+	/**
+	 * 设置菜单数据接口。

@@ -1,0 +1,10 @@
+        mBytes = bytes;
+    }
+
+    public void putIntoVslBundle(Bundle args, int order) {
+        LibVlcVslSegment.putSegmentUrl(args, order, mUrl);
+        LibVlcVslSegment.putDuration(args, order, mDuration);
+        LibVlcVslSegment.putBytes(args, order, mBytes);
+    }
+
+    // for Parcelable

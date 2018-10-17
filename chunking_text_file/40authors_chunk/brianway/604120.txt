@@ -1,0 +1,10 @@
+                }
+            }
+        };
+
+        Thread b = new Thread() {
+            @Override
+            public void run() {
+                try {
+                    lock.lock();
+                    while (nextPrintWho != 2) {

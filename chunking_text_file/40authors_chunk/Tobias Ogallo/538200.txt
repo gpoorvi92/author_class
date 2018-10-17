@@ -1,0 +1,10 @@
+				}
+			     catch(Exception in){
+			     	in.printStackTrace();
+			     }
+				
+			}
+		});
+		button2.addActionListener( new ActionListener(){
+			public void actionPerformed(ActionEvent e){
+				dispose();

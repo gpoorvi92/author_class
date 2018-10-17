@@ -1,0 +1,10 @@
+  public void    compareFirmwareVersion(String firmwareFileName, int[] result)
+                     throws JposException;
+  public void    restartPOS()
+                     throws JposException;
+  public void    standbyPOS(int reason)
+                     throws JposException;
+  public void    suspendPOS(int reason)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;

@@ -1,0 +1,10 @@
+      processMap.put("genMissionId", new genMissionId());
+      processMap.put("submitMission", new submitMission());
+      processMap.put("queryApp", new queryApp());
+      processMap.put("queryMission", new queryMission());
+      processMap.put("updateAppStatus", new updateAppStatus());
+      processMap.put("updateUserAppInfo", new updateUserAppInfo());
+      processMap.put("updateUserAppStatus", new updateUserAppStatus());
+      processMap.put("heart", new heart());
+      return processMap;
+    }

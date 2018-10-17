@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import java.io.Serializable;
+
+/**
+ * 提供给第三方调用数据。
+ * @author yangyong.
+ * @since 2014-04-12.
+ */
+public class RemoteData implements Serializable {

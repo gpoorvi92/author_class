@@ -1,0 +1,10 @@
+        
+        
+
+       	if(model.getGradientFill() != null)
+       		g.setPaint(model.getGradientFill());
+       	else if(model.getRadialFill() != null)
+       		g.setPaint(model.getRadialFill());
+       	else
+       	    g.setColor(model.getColor());
+        

@@ -1,0 +1,10 @@
+					if (context.isRollbackFlag()) {
+						logger.error(PREFIX + step.name() + " ERROR ROLLBACK.");
+						break;
+					}
+				} catch (Exception e) {
+
+					logger.error(PREFIX + step.name() + " ERROR OCCURS.", e);
+					context.setResult(cmdId, obj, e);
+					break;
+				} finally {

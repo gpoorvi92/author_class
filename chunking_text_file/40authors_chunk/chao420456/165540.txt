@@ -1,0 +1,10 @@
+		try {
+			setFlag_exit(false);
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void setFlag_exit(boolean b) {
+		flag_exit = b;
+	}

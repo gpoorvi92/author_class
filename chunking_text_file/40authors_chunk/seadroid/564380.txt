@@ -1,0 +1,10 @@
+        this.isdir = isdir;
+        this.conn = new SeafConnection(account);
+    }
+
+    @Override
+    protected View createDialogContentView(LayoutInflater inflater, Bundle savedInstanceState) {
+        return null;
+    }
+
+    @Override

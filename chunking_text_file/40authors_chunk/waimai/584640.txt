@@ -1,0 +1,10 @@
+        Map<String, Object> map = new HashMap<String, Object>();
+        Integer credit = userService.getCreditByUserId(userId);
+        map.put("credit", credit);
+        return map;
+    }
+
+    @RequestMapping("/info")
+    public @ResponseBody Map<String, Object> info(Integer userId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        User user = userService.findById(userId);

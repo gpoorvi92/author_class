@@ -1,0 +1,10 @@
+    @Override
+    public void pause() throws IllegalStateException {
+        DebugLog.v(TAG, "pause");
+        mLibVLC.pause();
+    }
+
+    @Override
+    public void prepareAsync() throws IllegalStateException {
+        Assure.checkNotNull(mVideoMrl);
+

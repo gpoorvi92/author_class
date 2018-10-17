@@ -1,0 +1,10 @@
+	/**
+	 * Full Constructor
+	 * @param pid TODO:Insert Constructor method parameter pid of Comment in here.
+	 * @param tid TODO:Insert Constructor method parameter tid of Comment in here.
+	 * @param pname TODO:Insert Constructor method parameter pname of Comment in here.
+	 * @param pvalue TODO:Insert Constructor method parameter pvalue of Comment in here.
+	 */
+	public TaskParamModel(
+		Integer pid, 
+		Integer tid, 

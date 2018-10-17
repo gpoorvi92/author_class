@@ -1,0 +1,10 @@
+   {
+      JTabbedPane tabbedPane = new JTabbedPane();
+
+      JList<String> list = SampleComponents.list();
+      tabbedPane.addTab("List", list);
+      JTable table = SampleComponents.table();
+      tabbedPane.addTab("Table", table);
+      JTree tree = SampleComponents.tree();
+      tabbedPane.addTab("Tree", tree);
+      JFileChooser fileChooser = new JFileChooser();

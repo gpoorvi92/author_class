@@ -1,0 +1,10 @@
+package wyf.ytl.entity;
+import static wyf.ytl.tool.ConstantUtil.*;
+
+import java.io.Serializable;
+
+/*
+ * 本类表示将领，封装了将领的信息，如名称、职位、忠诚度，以及包括
+ * 统御、武力、智力、敏捷、体力值等个人属性，还有等级和经验值、战绩等
+ */
+public class General implements Serializable{

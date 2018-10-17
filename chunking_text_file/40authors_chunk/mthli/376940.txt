@@ -1,0 +1,10 @@
+               points.remove(center);
+               return;
+            }
+         }
+      }
+      else points.add(p);
+   }
+
+   public void drawDamage(Graphics2D g2)
+   {

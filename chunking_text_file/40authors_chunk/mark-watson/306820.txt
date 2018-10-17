@@ -1,0 +1,10 @@
+
+  // following method donated by Thomas Russ:
+  public List doQuery(String query) {
+	  ArrayList ret = null;
+      try {
+       PlIterator rawAnswer = PLI.sRetrieve(query, workingModule, null);
+       ret = new ArrayList<ArrayList<String>>(rawAnswer.length());
+       Iterator answer =
+         new edu.isi.stella.javalib.StellaIterator(rawAnswer);
+       while (answer.hasNext()) {

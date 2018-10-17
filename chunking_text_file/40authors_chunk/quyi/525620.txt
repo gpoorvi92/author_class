@@ -1,0 +1,10 @@
+			AndroidStaticResults appstaticresults = new AndroidStaticResults();
+			appstaticresults.setApkName("test.apk");
+			appstaticresults.setResultReportPath("D:\\0000test.xml");
+			appstaticresults.setApkDescription("123");
+			appstaticresults.setDetectDate(100L);
+			appstaticresults.setMD5_Apk("test");
+			ByteBuffer content = ByteBuffer.wrap(getBytes(appstaticresults));
+			int result = client.transferResult(AppType.APK, JobLifecycle.ANALYSIS, JobPhase.ON_STATIC, content, 110000640100000000L, "1000");
+
+			System.out.println(result);

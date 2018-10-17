@@ -1,0 +1,10 @@
+    case ENGINE_STATUS:
+      return getEngineStatus();
+
+    case ENGINE_TYPE:
+      return getEngineType();
+
+    case NODE_INFO:
+      return getNodeInfo();
+
+    case ENGINE_RULES:

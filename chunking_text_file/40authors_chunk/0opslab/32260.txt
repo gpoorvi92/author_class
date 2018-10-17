@@ -1,0 +1,10 @@
+            String[] tt = line.split(":");
+
+            if(tt.length == 2){
+                key = tt[0];
+                if(!group.containsKey(key)){
+                    group.put(key,0);
+                }
+                int count = Integer.parseInt(tt[1]) + group.get(key);
+                group.put(key,count);
+            }else{

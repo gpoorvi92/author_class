@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.math.BigDecimal;
+
+/*
+ * 由于在运算的时候，float类型和double很容易丢失精度，演示案例。所以，为了能精确的表示、计算浮点数，Java提供了BigDecimal
+ * 
+ * public BigDecimal(String val)
+ */
+public class BigDecimalDemo2 {

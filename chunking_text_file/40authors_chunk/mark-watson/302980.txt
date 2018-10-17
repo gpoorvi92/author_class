@@ -1,0 +1,10 @@
+            if (i > 0
+                    && ret.get(i).startsWith("NN")
+                    && words.get(i - 1).equalsIgnoreCase("would"))
+                ret.set(i, "VB");
+            // rule 7: if a word has been categorized as a common noun and it ends with "s",
+            //         then set its type to plural common noun (NNS)
+            if (ret.get(i).equals("NN") && words.get(i).endsWith("s"))
+                ret.set(i, "NNS");
+            // rule 8: convert a common noun to a present participle verb (i.e., a gerand)
+            if (ret.get(i).startsWith("NN") && words.get(i).endsWith("ing"))

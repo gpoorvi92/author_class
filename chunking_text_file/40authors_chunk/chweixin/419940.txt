@@ -1,0 +1,10 @@
+	public Integer getArticleCount() {
+		return ArticleCount;
+	}
+	/**
+	 * 设置图文消息个数，限制为10条以内。
+	 * @param articleCount。
+	 * 	图文消息个数。
+	 * */
+	public void setArticleCount(Integer articleCount) {
+		this.ArticleCount = articleCount;

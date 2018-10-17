@@ -1,0 +1,10 @@
+	protected int videoBitRate;
+
+	@Transmit(key = "visamr")
+	protected int vedioSamplingRate;
+
+	@Transmit(key = "vidur")
+	protected int vedioDuration;
+
+	@Transmit(key = "width")
+	protected int videoWidth;

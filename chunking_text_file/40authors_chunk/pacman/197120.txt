@@ -1,0 +1,10 @@
+			
+			return false;
+		}
+	}
+	
+	/**
+	 * Copies the specified dir to target dir.
+	 * 
+	 * @param srcDir
+	 * @param destDir

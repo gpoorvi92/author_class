@@ -1,0 +1,10 @@
+    public void setTime(Calendar calendar) {
+    	mTime = Calendar.getInstance(calendar.getTimeZone());
+        mTime.setTimeInMillis(calendar.getTimeInMillis());
+        arrangeScrollers(null);
+    }
+    
+    /**
+     * Get the current time
+     *
+     * @return The current time

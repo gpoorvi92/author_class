@@ -1,0 +1,10 @@
+						.setText(acd.getStringValue("chat_location"));
+			} else if (type == 5) {
+
+			} else if (type == 6 && holder.chatWebview != null) {
+				if (StringUtil.isNull(holder.chatWebview.getUrl())) {
+					WebSettings ws = holder.chatWebview.getSettings();
+					ws.setJavaScriptEnabled(true);
+					ws.setJavaScriptCanOpenWindowsAutomatically(true);
+					ws.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);
+					holder.chatWebview.requestFocus();

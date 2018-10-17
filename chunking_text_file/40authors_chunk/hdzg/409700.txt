@@ -1,0 +1,10 @@
+import static wyf.ytl.tool.ConstantUtil.DIALOG_WORD_SIZE;
+
+import java.io.Serializable;
+
+
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.view.MotionEvent;

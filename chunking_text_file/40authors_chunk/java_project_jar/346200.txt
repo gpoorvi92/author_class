@@ -1,0 +1,10 @@
+    }
+
+    public void flush()
+        throws IOException
+    {
+        getStream().flush();
+    }
+
+    public void close()
+        throws IOException

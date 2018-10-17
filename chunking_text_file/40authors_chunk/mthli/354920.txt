@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Gets the inverse property.
+    * @return true if the display is inverted
+    */
+   public boolean isInverse()
+   {
+      return inverse;
+   }

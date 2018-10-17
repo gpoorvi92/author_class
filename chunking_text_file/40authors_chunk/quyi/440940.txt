@@ -1,0 +1,10 @@
+    }
+    if (other.isSetDataHex()) {
+      this.dataHex = other.dataHex;
+    }
+    if (other.isSetDataChar()) {
+      this.dataChar = other.dataChar;
+    }
+    if (other.isSetDataLength()) {
+      this.dataLength = other.dataLength;
+    }

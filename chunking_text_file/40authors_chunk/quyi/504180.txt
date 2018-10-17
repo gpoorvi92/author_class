@@ -1,0 +1,10 @@
+  public void setPlotsIsSet(boolean value) {
+    if (!value) {
+      this.plots = null;
+    }
+  }
+
+  /**
+   * 
+   * @see JobPriority
+   */

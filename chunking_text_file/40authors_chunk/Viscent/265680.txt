@@ -1,0 +1,10 @@
+			@SuppressWarnings("rawtypes")
+			RetryInfo retryInfo = ((SubTaskFailureException) cause).retryInfo;
+
+			Object subTask = retryInfo.subTask;
+			Debug.info("retrying subtask:" + subTask);
+
+			@SuppressWarnings("unchecked")
+			Callable<Set<BigInteger>> redoCmd = retryInfo.redoCommand;
+			try {
+				result.addAll(redoCmd.call());

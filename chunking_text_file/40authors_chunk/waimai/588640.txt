@@ -1,0 +1,10 @@
+        } catch (ServiceException e) {
+            map.put(Constants.RESULT_CODE, "2");
+            map.put(Constants.ERROR_MESSAGE, e.getMessage());
+        }
+        return map;
+    }
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();

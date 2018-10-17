@@ -1,0 +1,10 @@
+		for (AbstractTerminatableThread thread : workerThreads) {
+			thread.start();
+		}
+	}
+
+	@Override
+	public void process(IN input) throws InterruptedException {
+		workQueue.put(input);
+		terminationToken.reservations.incrementAndGet();
+	}

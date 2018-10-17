@@ -1,0 +1,8 @@
+    * @param a the alpha value between 0 and 100
+    */
+   public void setAlpha(int a)
+   {
+      alpha = (float) a / 100.0F;
+      repaint();
+   }
+}

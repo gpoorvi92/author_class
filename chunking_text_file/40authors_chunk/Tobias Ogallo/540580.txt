@@ -1,0 +1,10 @@
+import javax.swing.text.*;
+import java.text.*;
+import java.util.*;
+import javax.swing.undo.*;
+import javax.swing.event.*;
+import java.net.*;
+class employee_report extends JFrame  {
+	public Container content;
+	public JPanel reportingPanel;
+	public JTabbedPane listsTabs;

@@ -1,0 +1,10 @@
+
+/// class com.apple.eawt.event.GestureAdapter ///
+
+package org.genie.com_apple;
+
+public class GestureAdapterProxy extends com.apple.eawt.event.GestureAdapter {
+
+    long swiftObject;
+
+    /// public com.apple.eawt.event.GestureAdapter()

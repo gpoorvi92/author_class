@@ -1,0 +1,10 @@
+                     throws JposException;
+  public int     getTracksToWrite()
+                     throws JposException;
+  public void    setTracksToWrite(int tracks)
+                     throws JposException;
+
+  // Methods
+  public void    clearInputProperties()
+                     throws JposException;
+  public void    writeTracks(byte[][] data, int timeout)

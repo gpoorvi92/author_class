@@ -1,0 +1,10 @@
+		if (null == product) {
+
+			// 随机”窃取“其它受管队列的”产品“
+			queueIndex = (int) (System.currentTimeMillis() % managedQueues.length);
+			targetQueue = managedQueues[queueIndex];
+			product = targetQueue.takeLast();
+			System.out.println("stealed from " + queueIndex + ":" + product);
+		}
+
+		return product;

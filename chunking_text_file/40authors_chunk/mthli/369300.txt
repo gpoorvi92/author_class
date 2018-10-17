@@ -1,0 +1,10 @@
+            }
+            else
+            {
+               fortune.append(line);
+               fortune.append(' ');
+            }
+         }
+      }
+      catch (IOException ex)
+      {

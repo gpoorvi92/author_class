@@ -1,0 +1,10 @@
+        if (incoming.get(2)) {
+          struct.ue = new com.nercis.isscp.idl.UnavailableException();
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+

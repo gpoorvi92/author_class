@@ -1,0 +1,10 @@
+
+/**
+ * Component dedicated to calculate the remaining time of a pending upload.
+ * @author antoinem
+ */
+@Component
+public class RemainingTimeEstimator {
+
+	private static final int averageUploadRateOnTheLastX = 10;
+	

@@ -1,0 +1,10 @@
+                    g2.setColor(Color.black);
+                	g2.drawRect(6 + x * 29, 3 + y * 29, 29, 29);
+                } else if (val == Maze.START_LOC_VALUE || val == 1) {
+                    g2.setColor(Color.blue);
+                    g2.drawString("S", 16 + x * 29, 19 + y * 29);
+                    g2.setColor(Color.black);
+                	g2.drawRect(6 + x * 29, 3 + y * 29, 29, 29);
+                } else if (val == Maze.GOAL_LOC_VALUE) {
+                    g2.setColor(Color.red);
+                    g2.drawString("G", 16 + x * 29, 19 + y * 29);

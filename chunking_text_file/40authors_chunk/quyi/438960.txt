@@ -1,0 +1,10 @@
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(Hardware.class, metaDataMap);
+  }
+
+  public Hardware() {
+  }
+
+  public Hardware(
+    String cpuVendor,
+    String cpuModel,
+    int cpuCores,

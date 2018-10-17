@@ -1,0 +1,10 @@
+
+@TargetApi(11)
+public class SystemUINavHider_HoneyComb extends SystemUINavHider {
+    private WeakReference<Activity> mWeakActivity;
+    private boolean mEnableHide;
+    private OnSystemUiVisibilityChangeListener mOnSystemUiVisibilityChangeListener;
+
+    private Handler mHandler = new Handler();
+
+    private boolean mShouldHide;

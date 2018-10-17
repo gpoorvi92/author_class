@@ -1,0 +1,10 @@
+		final Scene scene = new Scene();
+		scene.setBackground(new Background(0.09804f, 0.6274f, 0.8784f));
+
+		/* Quickly twinkling face. */
+		final AnimatedSprite face = new AnimatedSprite(100, 50, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		face.animate(100);
+		scene.attachChild(face);
+
+		/* Continuously flying helicopter. */
+		final AnimatedSprite helicopter = new AnimatedSprite(320, 50, this.mHelicopterTextureRegion, this.getVertexBufferObjectManager());

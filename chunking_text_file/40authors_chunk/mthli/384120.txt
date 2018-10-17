@@ -1,0 +1,10 @@
+      tabbedPane.setTabComponentAt(plutoIndex, plutoPanel);
+      
+      add(tabbedPane, "Center");
+
+      tabbedPane.addChangeListener(new ChangeListener()
+         {
+            public void stateChanged(ChangeEvent event)
+            {
+               // check if this tab still has a null component
+

@@ -1,0 +1,10 @@
+    SettingsManager settingsMgr;
+
+    public ClearCacheTask(Account account, String filesDir, String cacheDir, String tempDir, String thumbDir, SettingsManager settingsManager) {
+        this.account = account;
+        this.filesDir = filesDir;
+        this.cacheDir = cacheDir;
+        this.tempDir = tempDir;
+        this.thumbDir = thumbDir;
+        this.settingsMgr = settingsManager;
+    }

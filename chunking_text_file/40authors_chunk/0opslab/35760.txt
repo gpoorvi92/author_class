@@ -1,0 +1,10 @@
+    public static String[][] getPX(File file) {
+        int[] rgb = new int[3];
+
+        BufferedImage bi = null;
+        try {
+            bi = ImageIO.read(file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+

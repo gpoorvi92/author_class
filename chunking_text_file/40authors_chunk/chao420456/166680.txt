@@ -1,0 +1,10 @@
+				break;
+			case 10:
+				System.out.println("Çï¼¾");
+				break;
+			case 11:
+				System.out.println("Çï¼¾");
+				break;
+			case 12:
+				System.out.println("¶¬¼¾");
+				break;

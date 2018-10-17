@@ -1,0 +1,10 @@
+                  _elem21 = new com.nercis.isscp.idl.Sample();
+                  _elem21.read(iprot);
+                  struct.samples.add(_elem21);
+                }
+                iprot.readListEnd();
+              }
+              struct.setSamplesIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

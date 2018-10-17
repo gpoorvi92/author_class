@@ -1,0 +1,10 @@
+ * @since 2014-02-24.
+ * */
+public class ArticleRespMessage extends BaseRespMessage {
+	private static final long serialVersionUID = 1L;
+	/**
+	 * 最大数据条数为10.
+	 */
+	public final static int MAX_COUNT = 10;
+	private Integer ArticleCount;
+	private List<Article> Articles;

@@ -1,0 +1,10 @@
+				long memberNo;					//Use for Comparing the Member's Id.
+				boolean found = false;				//To Confirm the Member's Id Existance.
+
+				try {	//SELECT Query to Retrieved the Record.
+					String q = "SELECT * FROM Members WHERE MemberId = " + id + "";
+					ResultSet rs = st.executeQuery (q);	//Executing the Query.
+					rs.next ();				//Moving towards the Record.
+					memberNo = rs.getLong ("MemberId");	//Storing the Record.
+					if (memberNo == id) {			//If Record Found then Display Records.
+						found = true;

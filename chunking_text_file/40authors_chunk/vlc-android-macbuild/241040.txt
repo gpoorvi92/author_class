@@ -1,0 +1,10 @@
+
+    public static float getScreenBrightness(Activity activity) {
+        float nowBrightnessValue = -1;
+        ContentResolver resolver = activity.getContentResolver();
+        try {
+            nowBrightnessValue = android.provider.Settings.System.getInt(
+                    resolver, Settings.System.SCREEN_BRIGHTNESS, -1);
+
+            nowBrightnessValue /= 255;
+        } catch (Exception e) {

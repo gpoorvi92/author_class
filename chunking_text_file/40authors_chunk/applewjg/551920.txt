@@ -1,0 +1,6 @@
+        if (Numerator == 0) return res.toString();
+        res.insert(map.get(Numerator),"(");
+        res.append(')');
+        return res.toString();
+    }
+}

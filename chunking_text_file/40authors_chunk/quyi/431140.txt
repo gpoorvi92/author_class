@@ -1,0 +1,10 @@
+  }
+
+  public List<String> getFeaturesCharacters() {
+    return this.featuresCharacters;
+  }
+
+  public StaticCheckResultData setFeaturesCharacters(List<String> featuresCharacters) {
+    this.featuresCharacters = featuresCharacters;
+    return this;
+  }

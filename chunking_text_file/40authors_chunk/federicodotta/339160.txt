@@ -1,0 +1,10 @@
+ */
+/**
+ * Extensions can implement this interface and then call
+ * <code>IBurpExtenderCallbacks.registerSessionHandlingAction()</code> to
+ * register a custom session handling action. Each registered action will be
+ * available within the session handling rule UI for the user to select as a
+ * rule action. Users can choose to invoke an action directly in its own right,
+ * or following execution of a macro.
+ */
+public interface ISessionHandlingAction

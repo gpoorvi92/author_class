@@ -1,0 +1,10 @@
+            mVlcSegmentAccess = ACCESS_LETV_SEGMENT;
+        } else {
+            mVlcIndexAccess = ACCESS_VSL_INDEX;
+            mVlcSegmentAccess = ACCESS_VSL_SEGMENT;
+        }
+
+        mMrl.dump();
+        if (TextUtils.isEmpty(mVlcIndexAccess)
+                || TextUtils.isEmpty(mVlcSegmentAccess))
+            return false;

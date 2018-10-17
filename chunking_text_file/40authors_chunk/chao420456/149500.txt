@@ -1,0 +1,10 @@
+		// ·ÀÖ¹Êý¾Ý¶ªÊ§
+		if (sb.length() > 0) {
+			return sb.toString();
+		}
+
+		return null;
+
+	}
+
+	public void close() throws IOException {

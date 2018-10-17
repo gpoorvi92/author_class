@@ -1,0 +1,10 @@
+ * a different color to distinguish Sundays from other days.
+ */
+public class DayTimeLayoutView extends TimeLayoutView {
+
+    protected boolean isSunday=false;
+
+    /**
+     * Constructor
+     * @param context
+     * @param isCenterView true if the element is the centered view in the ScrollLayout

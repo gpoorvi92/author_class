@@ -1,0 +1,10 @@
+ */
+public class IOEncodeDemo {
+	public static void main(String[] args) throws IOException {
+		// 写数据
+		// 默认GBK
+		// OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(
+		// "osw.txt"));
+		// 指定GBK
+		// OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(
+		// "osw.txt"), "GBK");

@@ -1,0 +1,10 @@
+  }
+
+  public int getSystemResourcesSize() {
+    return (this.systemResources == null) ? 0 : this.systemResources.size();
+  }
+
+  public java.util.Iterator<SystemResources> getSystemResourcesIterator() {
+    return (this.systemResources == null) ? null : this.systemResources.iterator();
+  }
+

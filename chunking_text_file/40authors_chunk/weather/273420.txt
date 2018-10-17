@@ -1,0 +1,10 @@
+    }
+
+    public static boolean isAllEmpty(String... strings) {
+        for (String string : strings) {
+            if (!isEmpty(string)) {
+                return false;
+            }
+        }
+        return true;
+    }

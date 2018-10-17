@@ -1,0 +1,10 @@
+        System.out.println(client.makeDirectory("test1/"));
+        System.out.println(client.makeDirectory("test/test1"));
+        System.out.println(client.makeDirectory("test2/test2"));
+
+
+        FTPFile[] list  = client.listFiles();
+        System.out.println(list);
+        String[] list1 = client.listNames();
+        System.out.println(list1);
+

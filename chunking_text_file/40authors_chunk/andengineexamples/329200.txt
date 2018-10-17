@@ -1,0 +1,10 @@
+			}
+		};
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(CAMERA_WIDTH, CAMERA_HEIGHT), camera);
+	}
+
+	@Override
+	public void onCreateResources() {
+		try {
+			this.mTexture = new PVRGZTexture(this.getTextureManager(), PVRTextureFormat.RGBA_8888, TextureOptions.BILINEAR) {

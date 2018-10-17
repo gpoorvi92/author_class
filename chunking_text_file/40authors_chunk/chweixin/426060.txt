@@ -1,0 +1,10 @@
+ * 微信消息事件处理接口。
+ * @author yangyong.
+ * @since 2014-04-10.
+ * */
+public interface IWeChatMessageEventHandlers {
+	/**
+	 * 关注消息事件处理。
+	 * @param context
+	 * 上下文。
+	 * @param event

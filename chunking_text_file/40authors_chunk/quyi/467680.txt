@@ -1,0 +1,10 @@
+      this.ruleTypes = null;
+    }
+  }
+
+  /**
+   * 
+   * @see Risk
+   */
+  public Risk getRiskLevel() {
+    return this.riskLevel;

@@ -1,0 +1,10 @@
+            mVlcIndexAccess = ACCESS_YOUKU_INDEX;
+            mVlcSegmentAccess = ACCESS_YOUKU_SEGMENT;
+        } else if (pseduoAccess.equalsIgnoreCase(ACCESS_CNTV)) {
+            mVlcIndexAccess = ACCESS_CNTV_INDEX;
+            mVlcSegmentAccess = ACCESS_CNTV_SEGMENT;
+        } else if (pseduoAccess.equalsIgnoreCase(ACCESS_SOHU)) {
+            mVlcIndexAccess = ACCESS_SOHU_INDEX;
+            mVlcSegmentAccess = ACCESS_SOHU_SEGMENT;
+        } else if (pseduoAccess.equalsIgnoreCase(ACCESS_LETV)) {
+            mVlcIndexAccess = ACCESS_LETV_INDEX;

@@ -1,0 +1,10 @@
+        this.setTitle("MazeDepthFirstSearch");
+        this.getContentPane().setLayout(null);
+        jPanel1.setBackground(Color.white);
+        jPanel1.setDebugGraphicsOptions(DebugGraphics.NONE_OPTION);
+        jPanel1.setDoubleBuffered(false);
+        jPanel1.setRequestFocusEnabled(false);
+        jPanel1.setLayout(null);
+        this.setSize(370, 420);
+        this.setVisible(true);
+    }

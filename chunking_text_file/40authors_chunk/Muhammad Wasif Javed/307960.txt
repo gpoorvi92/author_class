@@ -1,0 +1,10 @@
+		lbIssuedTo.setForeground (Color.black);
+		lbIssuedTo.setBounds (15, 135, 115, 20);
+
+		//Setting the Form's TextFields.
+
+		txtBookId = new JTextField ();
+		txtBookId.setHorizontalAlignment (JTextField.RIGHT);
+		txtBookId.addFocusListener (this);
+		txtBookId.setBounds (120, 15, 175, 25);
+		txtBookName = new JTextField ();

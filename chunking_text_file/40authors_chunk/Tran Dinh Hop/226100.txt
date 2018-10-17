@@ -1,0 +1,10 @@
+		{
+			decompress();
+		}
+		catch(Exception e)
+		{
+			//jsp.setViewportView(new JButton("Decompression failed:\n"+e));
+		}
+	}
+
+}//~ End Class Algorithm 

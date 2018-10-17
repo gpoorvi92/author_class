@@ -1,0 +1,10 @@
+
+  public void unsetFeaturesCharacters() {
+    this.featuresCharacters = null;
+  }
+
+  /** Returns true if field featuresCharacters is set (has been assigned a value) and false otherwise */
+  public boolean isSetFeaturesCharacters() {
+    return this.featuresCharacters != null;
+  }
+

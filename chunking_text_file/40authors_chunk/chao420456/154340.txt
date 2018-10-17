@@ -1,0 +1,10 @@
+
+		//定义long类型的变量
+		long l = 2147483648L;
+		System.out.println(l);
+
+		//定义float类型的变量
+		float f = 12.34F;
+		System.out.println(f);
+
+		//定义double类型的变量

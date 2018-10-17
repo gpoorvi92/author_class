@@ -1,0 +1,10 @@
+      label = new JLabel("The quick brown fox jumps over the lazy dog.");
+      label.setFont(new Font("Serif", Font.BOLD, FONTSIZE));
+      add(label, BorderLayout.CENTER);
+
+      // this listener sets the font attribute of
+      // the label to the check box state
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

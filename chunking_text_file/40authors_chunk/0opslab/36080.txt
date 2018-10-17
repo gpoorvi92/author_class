@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import com.opslab.util.SysUtil;
+
+public class SysUtilTest {
+
+    @org.junit.Test
+    public void testGet() throws Exception {
+        System.out.println(SysUtil.HOST_IP);
+        System.out.println(SysUtil.HOST_NAME);

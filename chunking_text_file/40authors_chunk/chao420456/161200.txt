@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+/*
+ * Math是用于数学操作的类。方法都是静态的
+ */
+public class MathDemo {
+	public static void main(String[] args) {
+		// public static int abs(int a):绝对值
+		System.out.println("abs:" + Math.abs(12));
+		System.out.println("abs:" + Math.abs(-12));

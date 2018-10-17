@@ -1,0 +1,10 @@
+		int i1 = 0;
+		int i2 = 0;
+		Set<Bxg> bxgs = supplier.getBxgs();
+		for (Bxg bxg : bxgs) {
+			bxg.setValid(false);
+			if(bxgService.modify(bxg)){
+				i1++;
+			}else{
+				throw new RuntimeException("供应商： " + supplier.getName() + " 【不可用】状态更改失败</br>原因：不锈钢【" + 
+						bxg.getName() + bxg.getNorms() + "】状态更改失败</br>");

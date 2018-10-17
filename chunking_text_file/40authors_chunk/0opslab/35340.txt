@@ -1,0 +1,10 @@
+    this.m_out.write(this.TableStartTag());
+    int rows = model.getRowCount();
+    // write header
+    m_out.write(this.HeadRowStartTag());
+    this.renderHeader(model);
+    m_out.write(this.HeadRowStopTag());
+
+    for(int i=0;i<rows;i++){
+      this.renderRow(model,i);
+    }

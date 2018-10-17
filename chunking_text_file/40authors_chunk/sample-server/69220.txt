@@ -1,0 +1,10 @@
+    {
+        LogbackConfigUtil.config();
+    }
+    public Gatewayserver(String ip, int port, String name)
+    {
+        super(ip, port, name);
+    }
+    private ServerBootstrap bootstrap;
+    @Override
+    public void beforeStart() throws Exception

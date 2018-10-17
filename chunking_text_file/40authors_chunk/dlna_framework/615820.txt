@@ -1,0 +1,10 @@
+
+	public void setSEQ(long value)
+	{
+		setHeader(HTTP.SEQ, Long.toString(value));
+	}
+
+	public long getSEQ()
+	{
+		return getLongHeaderValue(HTTP.SEQ);
+	}

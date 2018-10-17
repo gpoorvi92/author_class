@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	depth
+	////////////////////////////////////////////////
+
+	private final static String DEPTH = "depth";
+	
+	public void setDepth(String value)
+	{
+		getIconNode().setNode(DEPTH, value);
+	}

@@ -1,0 +1,10 @@
+            threadAs[i].start();
+            threadBs[i].start();
+        }
+    }
+}
+
+
+/*
+输出：
+有可能★★连续  时间为1460688833773 ThreadName=Thread-18

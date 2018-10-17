@@ -1,0 +1,10 @@
+			}
+			
+			context.setAttribute(Constants.CONTEXT_WEB_RESOURCES, info.getAllFiles());
+			
+			logger.info("LessonParserStep...execute[SUCCESS]");	
+		} catch (Exception e) {
+			
+			logger.error("LessonParserStep...execute[ERROR]", e);
+			context.setRollbackFlag(true);
+			throw e;

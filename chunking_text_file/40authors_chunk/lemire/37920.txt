@@ -1,0 +1,10 @@
+     * @param newData the word
+     */
+    @Override
+    public void addWord(final int newData) {
+        this.oneBits += Integer.bitCount(newData);
+    }
+    
+    /**
+     * Virtually add literal words directly to the bitmap
+     *

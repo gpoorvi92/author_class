@@ -1,0 +1,10 @@
+         factory.setValidating(true);
+
+         if (file.toString().contains("-schema"))
+         {
+            factory.setNamespaceAware(true);
+            final String JAXP_SCHEMA_LANGUAGE = 
+               "http://java.sun.com/xml/jaxp/properties/schemaLanguage";
+            final String W3C_XML_SCHEMA = "http://www.w3.org/2001/XMLSchema";
+            factory.setAttribute(JAXP_SCHEMA_LANGUAGE, W3C_XML_SCHEMA);
+         }

@@ -1,0 +1,10 @@
+								String tstrSubDept,
+								String tstrClass,
+								String tstrSubClass,
+								String tstrRef,
+								String tstrRemarks,
+								String tstrAmount) {
+									
+		boolean mbln=true;
+		moCheckForMustEntries.CheckForMustEntries(tstrDate,tstrDateTo,tstrDocCode,tstrComp,tstrDivision,tstrGL,tstrSL,tstrDept,tstrSubDept,tstrClass,tstrSubClass,tstrRef,tstrRemarks,tstrAmount);
+		if (moCheckForMustEntries.TheMessage().length()>0) {

@@ -1,0 +1,10 @@
+	
+	public static final String[] _tokenNames = {
+		"<0>",
+		"EOF",
+		"<2>",
+		"NULL_TREE_LOOKAHEAD",
+		"META_CONTENT_TYPE",
+		"XML_ENCODING_DECL",
+		"IDENTIFIER",
+		"SPACING",

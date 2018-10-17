@@ -1,0 +1,10 @@
+        int[] maxRight = new int[n];
+        maxLeft[0] = A[0];
+        maxRight[n - 1] = A[n - 1];
+        for (int i = 1; i < n; ++i) {
+            maxLeft[i] = Math.max(maxLeft[i - 1], A[i]);
+            maxRight[n - 1 - i] = Math.max(maxRight[n - i], A[n - 1 - i]);
+        }
+        
+        int res = 0;
+        for (int i = 1; i < n; ++i) {

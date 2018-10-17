@@ -1,0 +1,10 @@
+		//
+		// we can use a ByteBuffer as backend for a bitmap
+		// which allows memory-mapped bitmaps
+		//
+		ByteBuffer bb = ByteBuffer.wrap(bout);
+		EWAHCompressedBitmap rmap = new EWAHCompressedBitmap(bb);
+		System.out.println("bitmap 1 (mapped) : " + rmap);
+
+		if (!rmap.equals(ewahBitmap1))
+			throw new RuntimeException("Will not happen");

@@ -1,0 +1,10 @@
+		System.out.println("猫吃鱼");
+	}
+}
+
+class AbstractDemo {
+	public static void main(String[] args) {
+		//Animal a = new Animal(); //无法实例化
+
+		//Dog d = new Dog();  //无法实例化
+

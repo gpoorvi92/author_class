@@ -1,0 +1,10 @@
+    } catch (org.apache.thrift.TException te) {
+      throw new java.io.IOException(te);
+    }
+  }
+
+  private static class AppDetectResultStandardSchemeFactory implements SchemeFactory {
+    public AppDetectResultStandardScheme getScheme() {
+      return new AppDetectResultStandardScheme();
+    }
+  }

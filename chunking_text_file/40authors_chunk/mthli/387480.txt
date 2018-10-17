@@ -1,0 +1,10 @@
+
+         try (ResultSet result = stat.executeQuery("SELECT * FROM Greetings"))
+         {
+            if (result.next())
+               System.out.println(result.getString(1));
+         }
+         stat.executeUpdate("DROP TABLE Greetings");
+      }
+   }
+

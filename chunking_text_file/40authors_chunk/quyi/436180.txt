@@ -1,0 +1,10 @@
+        return false;
+      if (!this.checkEndDate.equals(that.checkEndDate))
+        return false;
+    }
+
+    return true;
+  }
+
+  @Override
+  public int hashCode() {

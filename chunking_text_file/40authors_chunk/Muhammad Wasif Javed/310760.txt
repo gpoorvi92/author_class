@@ -1,0 +1,10 @@
+						txtClear ();				//Clering All TextFields.
+						JOptionPane.showMessageDialog (this, "Record has been Deleted.");
+						ResultSet rs = st.executeQuery (q);	//Running Query.
+					}
+					catch (SQLException sqlex) { }
+				}
+				//If User's Choice No then Do Nothing Return to Program.
+				else if (reply == JOptionPane.NO_OPTION) { }
+			}
+

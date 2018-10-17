@@ -1,0 +1,10 @@
+				Intent intent = act.getCustomIntent(WfxwDetailActivity.class);
+				intent.putExtra("wfxw", wfxw);
+				intent.putExtra("detail", DataConvertFactory.praseNormJson(acd));
+				act.startActivity(intent);
+			} else {
+				Intent intent = new Intent(autoActivity,
+						WfxwDetailActivity.class);
+				intent.putExtra("wfxw", wfxw);
+				intent.putExtra("detail", DataConvertFactory.praseNormJson(acd));
+				autoActivity.startActivity(intent);

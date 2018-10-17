@@ -1,0 +1,10 @@
+		sc.close();
+		
+	}
+	
+	public SocketChannel getSocketChannel(){
+		return sc;
+	}
+	public ByteBuffer getReadBuf() {
+		return requestBB;
+	}

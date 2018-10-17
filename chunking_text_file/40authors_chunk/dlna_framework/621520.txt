@@ -1,0 +1,10 @@
+	
+	////////////////////////////////////////////////
+	//	getHeader
+	////////////////////////////////////////////////
+	
+	public String getHeader()
+	{
+		StringBuffer str = new StringBuffer();
+	
+		str.append(getStatusLineString());

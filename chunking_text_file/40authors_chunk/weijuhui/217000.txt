@@ -1,0 +1,10 @@
+        Intent intent_ = getIntent();
+        Bundle extras_ = intent_.getExtras();
+        if (extras_!= null) {
+            if (extras_.containsKey("value")) {
+                try {
+                    value = cast_(extras_.get("value"));
+                } catch (ClassCastException e) {
+                    Log.e("EditNumberActivity_", "Could not cast extra to expected type, the field is left to its default value", e);
+                }
+            }

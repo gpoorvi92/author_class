@@ -1,0 +1,10 @@
+
+        return result;
+    }
+
+    /** returns a rotation matrix that will rotate around x,y, and z axis 
+     * @param by radian angles specified in each component of rotationComponents vector
+     */
+    public static matrix get3By3RotationMatrix(Vector3D rotationComponents)
+    {
+      matrix xRotation = get3By3RotationMatrix(0,rotationComponents.x);

@@ -1,0 +1,10 @@
+    }
+
+    public synchronized void mark(int readlimit)
+    {
+        markFbIndex = fbIndex;
+        markedAtStart = firstBytes == null;
+        in.mark(readlimit);
+    }
+
+    public synchronized void reset()

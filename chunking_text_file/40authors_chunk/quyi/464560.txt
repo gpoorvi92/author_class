@@ -1,0 +1,10 @@
+        struct.setRulesIsSet(true);
+      }
+    }
+
+  }
+
+  public static class ruleSync_result implements org.apache.thrift.TBase<ruleSync_result, ruleSync_result._Fields>, java.io.Serializable, Cloneable, Comparable<ruleSync_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("ruleSync_result");
+
+    private static final org.apache.thrift.protocol.TField SUCCESS_FIELD_DESC = new org.apache.thrift.protocol.TField("success", org.apache.thrift.protocol.TType.I32, (short)0);

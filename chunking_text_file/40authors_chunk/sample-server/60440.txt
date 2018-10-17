@@ -1,0 +1,10 @@
+    private static final Logger log = LoggerFactory.getLogger(ChatClient.class);
+    private volatile ClientBootstrap bootstrap;
+    private volatile Channel         channel;
+    private final    String          host;
+    private final    int             port;
+    private final class ChatPipelineFactory implements ChannelPipelineFactory
+    {
+        private InternalHandler internalHandler = new InternalHandler();
+        @Override
+        public ChannelPipeline getPipeline() throws Exception

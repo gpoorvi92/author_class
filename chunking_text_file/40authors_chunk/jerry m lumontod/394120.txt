@@ -1,0 +1,10 @@
+		}
+		if (tstrDept.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}
+		if (tstrSubDept.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}
+		if (tstrClass.toString().trim().length()<1)	{
+			mstrErrMsg = mstrErrMsg + "";
+		}

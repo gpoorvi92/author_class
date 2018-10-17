@@ -1,0 +1,10 @@
+		new MainActivity_.IntentBuilder_(WelcomeActivity.this).start();
+		//overridePendingTransition(R.anim.alpha_in,R.anim.alpha_out);
+		finish();
+	}
+	
+	void makeRequest(){
+		try {
+			
+			WePartyRestClient.updateVersion(buildRequestParams(),new AsyncHttpResponseHandler(){
+				

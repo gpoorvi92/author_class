@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping(value = "/chat")
+public class ChatController
+{
+    private static final Logger log = LoggerFactory.getLogger(ChatController.class);
+    @ACL(limit = Limit.CHAT)
+    @RequestMapping(value = {"/"})
+    public void chat()
+    {

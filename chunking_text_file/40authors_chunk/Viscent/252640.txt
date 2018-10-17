@@ -1,0 +1,10 @@
+			@Override
+			protected T initialValue() {
+				return ivp.initialValue();
+			}
+
+		};
+	}
+
+	public static <T> ManagedThreadLocal<T> newInstance(
+	    final InitialValueProvider<T> ivp) {

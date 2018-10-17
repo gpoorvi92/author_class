@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetUserApp();
+      } else {
+        setUserApp((UserApp)value);
+      }
+      break;
+
+    case STATIC_CHECK_RESULT:
+      if (value == null) {
+        unsetStaticCheckResult();

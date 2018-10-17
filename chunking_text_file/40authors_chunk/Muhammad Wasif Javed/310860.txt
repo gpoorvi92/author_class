@@ -1,0 +1,10 @@
+			}
+			catch (SQLException sqlex) {
+				if (found == false) {
+					txtClear ();		//Clearing the TextFields.
+					JOptionPane.showMessageDialog (this, "Record not Found.");
+				}
+			}
+		}
+
+	}

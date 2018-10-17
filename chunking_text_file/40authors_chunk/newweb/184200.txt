@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean delete(LhjPriceCut cut) {
+		try {
+			sessionFactory.getCurrentSession().delete(cut);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

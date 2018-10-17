@@ -1,0 +1,10 @@
+    }
+
+    public static final Parcelable.Creator<VodIndex> CREATOR = new Parcelable.Creator<VodIndex>() {
+        public VodIndex createFromParcel(Parcel in) {
+            return new VodIndex(in);
+        }
+
+        public VodIndex[] newArray(int size) {
+            return new VodIndex[size];
+        }

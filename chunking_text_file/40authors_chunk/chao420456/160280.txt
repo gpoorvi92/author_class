@@ -1,0 +1,10 @@
+*/
+abstract class Employee {
+	private String name;
+	private String eid;
+	private int salary;
+
+	public Employee() {}
+
+	public Employee(String name,String eid,int salary) { //"°×Ò»í®","10000",500
+		this.name = name; 

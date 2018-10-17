@@ -1,0 +1,10 @@
+      case MISSION_ID:
+        return isSetMissionId();
+      case USER_APPS:
+        return isSetUserApps();
+      case PLOTS:
+        return isSetPlots();
+      case USE_RULE:
+        return isSetUseRule();
+      }
+      throw new IllegalStateException();

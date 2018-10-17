@@ -1,0 +1,10 @@
+    public void onLoadFinished(Loader<List<SelectableFile>> loader, List<SelectableFile> data) {
+        mFileListAdapter.setListItems(data);
+
+        if (isResumed())
+            setListShown(true);
+        else
+            setListShownNoAnimation(true);
+
+
+    }

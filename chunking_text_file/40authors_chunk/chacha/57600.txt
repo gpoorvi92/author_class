@@ -1,0 +1,10 @@
+        return m.readValue(jsonAsString, pojoClass);
+    }
+
+    public static <T> Object fromJson(FileReader fr, Class<T> pojoClass)
+    throws JsonParseException, IOException {
+        return m.readValue(fr, pojoClass);
+    }
+
+    public static String toJson(Object pojo, boolean prettyPrint)
+    throws JsonMappingException, JsonGenerationException, IOException {

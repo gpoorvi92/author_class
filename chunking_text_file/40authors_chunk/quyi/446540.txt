@@ -1,0 +1,10 @@
+        optionals.set(2);
+      }
+      if (struct.isSetCheckResult()) {
+        optionals.set(3);
+      }
+      oprot.writeBitSet(optionals, 4);
+      if (struct.isSetMonitorTime()) {
+        oprot.writeString(struct.monitorTime);
+      }
+      if (struct.isSetScreenShotPath()) {

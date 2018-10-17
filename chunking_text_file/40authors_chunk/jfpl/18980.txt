@@ -1,0 +1,10 @@
+			holder.chatVoice = (VoicePlayItem) convertView
+					.findViewById(R.id.voice_play_msg);
+			holder.chatLoaction = (TextView) convertView
+					.findViewById(R.id.chat_location);
+			holder.chatWebview = (WebView) convertView
+					.findViewById(R.id.chat_web_view);
+			convertView.setTag(holder);
+		} else {
+			holder = (ChatViewHolder) convertView.getTag();
+		}

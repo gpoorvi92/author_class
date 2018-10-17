@@ -1,0 +1,10 @@
+    final public MediaResourceItem getItem() {
+        return findItem(RES_FLAGS__ANY);
+    }
+
+    final public MediaResourceItem getItem_NormalUrl() {
+        return findItem(RES_FLAGS__NORMAL_URL);
+    }
+
+    final private MediaResourceItem findItem(int flags) {
+        if (mResourceList == null || mResourceList.isEmpty())

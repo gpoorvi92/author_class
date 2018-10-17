@@ -1,0 +1,10 @@
+	// Fields
+	// ===========================================================
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mFaceTextureRegion;
+
+	private int mTargetFaceIndex = 0;
+	private final Sprite[] mFaces = new Sprite[FACE_COUNT];
+
+	private final RunnablePoolUpdateHandler<FaceRotateRunnablePoolItem> mFaceRotateRunnablePoolUpdateHandler = new RunnablePoolUpdateHandler<FaceRotateRunnablePoolItem>() {

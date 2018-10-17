@@ -1,0 +1,10 @@
+
+    DialogProxy( java.awt.Window arg0, java.lang.String arg1 , long swiftObject ) {
+        super( arg0, arg1 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Dialog(java.awt.Window)
+
+    DialogProxy( java.awt.Window arg0 , long swiftObject ) {
+        super( arg0 );

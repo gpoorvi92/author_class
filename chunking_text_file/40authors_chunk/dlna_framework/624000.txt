@@ -1,0 +1,10 @@
+		}
+	}
+
+	public String getUPnPErrorDescription()
+	{
+		Node errorDescNode = getUPnPErrorDescriptionNode();
+		if (errorDescNode == null)
+			return "";
+		return errorDescNode.getValue();
+	}

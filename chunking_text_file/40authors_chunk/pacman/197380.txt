@@ -1,0 +1,10 @@
+			
+			for(String file : files) {
+
+				if (ignoreExtNames.contains(getExtName(file)))
+					continue;
+
+				if (file.endsWith("index.dat") || file.endsWith("index.xml")) {
+					entryName = StringHelper.getFileBareName(file);
+				} else {
+					entryName = trimExtName ? 

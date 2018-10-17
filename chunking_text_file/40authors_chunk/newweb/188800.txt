@@ -1,0 +1,10 @@
+
+import com.newweb.dao.business.OrderDao;
+import com.newweb.model.business.Order;
+
+@SuppressWarnings({"unchecked","rawtypes"})
+@Component("orderDao")
+public class OrderDaoImp implements OrderDao {
+
+	
+	private SessionFactory sessionFactory;

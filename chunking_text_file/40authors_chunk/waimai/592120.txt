@@ -1,0 +1,10 @@
+        try {
+            orderService.confirmSend(ids, this.getMerchant().getStoreName());
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        } catch (UnsupportedEncodingException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("确认成功");
+    }
+

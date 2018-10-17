@@ -1,0 +1,10 @@
+
+      try
+      {
+         String name = e.getAttribute("fill");
+         Field f = cl.getField(name);
+         constraints.fill = f.getInt(cl);
+
+         name = e.getAttribute("anchor");
+         f = cl.getField(name);
+         constraints.anchor = f.getInt(cl);

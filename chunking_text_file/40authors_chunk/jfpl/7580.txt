@@ -1,0 +1,10 @@
+		int lat = data.getIntValue("lat");
+		int lon = data.getIntValue("lon");
+		title.setText(jc);
+		content.setText(wz);
+		view.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED),
+				MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
+		view.layout(0, 0, view.getMeasuredWidth(), view.getMeasuredHeight());
+		view.buildDrawingCache();
+		popupOverlay.hidePop();
+		popupOverlay.showPopup(view.getDrawingCache(), new GeoPoint(

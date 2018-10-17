@@ -1,0 +1,10 @@
+    public boolean supportVfpv3D16() {
+        if (mFeatureSet.contains("vfpv3-d16"))
+            return true;
+
+        if (mFeatureSet.contains("vfpv3d16"))
+            return true;
+
+        return false;
+    }
+

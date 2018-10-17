@@ -1,0 +1,10 @@
+
+    public long getInterval()
+    {
+        return interval;
+    }
+
+    public transient FileAlterationMonitor(long interval, FileAlterationObserver observers[])
+    {
+        this(interval);
+        if(observers != null)

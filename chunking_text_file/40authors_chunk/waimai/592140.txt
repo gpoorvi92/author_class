@@ -1,0 +1,10 @@
+    @RequestMapping("/send")
+    public ModelAndView send(String[] ids) {
+        try {
+            orderService.send(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+}

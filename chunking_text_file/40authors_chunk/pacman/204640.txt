@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @return the msg
+	 */
+	public String getMsg() {
+		return msg;
+	}
+
+	/**

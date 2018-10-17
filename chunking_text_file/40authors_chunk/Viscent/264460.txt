@@ -1,0 +1,10 @@
+
+public class SampleAlarmClient {
+	private final static Logger logger = Logger
+	    .getLogger(SampleAlarmClient.class);
+
+	// 告警日志抑制阈值
+	private static final int ALARM_MSG_SUPRESS_THRESHOLD = 10;
+
+	static {
+

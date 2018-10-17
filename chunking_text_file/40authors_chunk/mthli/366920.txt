@@ -1,0 +1,10 @@
+}
+
+class Counter extends RecursiveTask<Integer>
+{
+   public static final int THRESHOLD = 1000;
+   private double[] values;
+   private int from;
+   private int to;
+   private Filter filter;
+

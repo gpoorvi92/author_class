@@ -1,0 +1,10 @@
+         // remove the current square if double clicked
+         current = find(event.getPoint());
+         if (current != null && event.getClickCount() >= 2) remove(current);
+      }
+   }
+
+   private class MouseMotionHandler implements MouseMotionListener
+   {
+      public void mouseMoved(MouseEvent event)
+      {

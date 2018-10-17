@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetRuleDescription()) {
+        oprot.writeString(struct.ruleDescription);
+      }
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, Rules struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(8);

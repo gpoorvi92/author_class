@@ -1,0 +1,10 @@
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(queryMission_result.class, metaDataMap);
+    }
+
+    public queryMission_result() {
+    }
+
+    public queryMission_result(
+      List<com.nercis.isscp.idl.AppCheckResult> success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)

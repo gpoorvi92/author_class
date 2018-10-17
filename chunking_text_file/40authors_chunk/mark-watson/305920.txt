@@ -1,0 +1,8 @@
+  }
+  public int compareTo(IdCount o) {
+    // don't use i1-i2: avoid overflows
+    if (o.count == count) return 0;
+    if (o.count > count) return 1;
+    return -1;
+  }
+}

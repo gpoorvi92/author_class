@@ -1,0 +1,10 @@
+            return "";
+
+        String value = mRawInfoMap.get(key);
+        if (TextUtils.isEmpty(value))
+            return "";
+
+        return value;
+    }
+
+    public String getCpuIdString() {

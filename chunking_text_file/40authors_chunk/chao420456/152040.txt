@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+/*
+ * Map集合的遍历：(把Map集合习惯看成夫妻对)
+ * 		既然是夫妻对，那么就应该有结婚证。
+ * 		而结婚证证上应该有丈夫和妻子的名字。

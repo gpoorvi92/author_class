@@ -1,0 +1,10 @@
+ */
+public class Solution {
+    public boolean isScramble_1(String s1, String s2) {
+        if (s1.compareTo(s2) == 0) return true;
+        if (s1.length() != s2.length()) return false;
+        return isScrambleRe(s1, s2);
+    }
+    public boolean isScrambleRe(String s1, String s2) {
+        if (hasSameLetters(s1, s2) == false) return false;
+        int len = s1.length();

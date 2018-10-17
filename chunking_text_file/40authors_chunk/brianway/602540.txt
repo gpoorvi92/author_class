@@ -1,0 +1,10 @@
+ */
+public class Run11_manyP_oneC {
+    public static void main(String[] args) {
+        MyStack myStack = new MyStack();
+
+        int pNum = 6;
+        Producer[] producers = new Producer[pNum];
+        P_Thread[] p_threads = new P_Thread[pNum];
+
+        for (int i = 0; i < pNum; i++) {

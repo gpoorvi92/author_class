@@ -1,0 +1,10 @@
+			loadingLayout.setVisibility(View.GONE);
+			locationList.setVisibility(View.VISIBLE);
+			searchNearBy();
+		}
+
+		@Override
+		public void onGetDrivingRouteResult(MKDrivingRouteResult result,
+				int iError) {
+			// 返回驾乘路线搜索结果
+		}

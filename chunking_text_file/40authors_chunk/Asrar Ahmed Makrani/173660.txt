@@ -1,0 +1,10 @@
+					java.sql.Date rdate[] = new java.sql.Date[5];
+					java.sql.Date ddate[] = new java.sql.Date[5];
+					
+					Statement statement = connection.createStatement();
+					String query1 = "SELECT * FROM patronmaster " + 
+ 								"WHERE id = '" + 
+ 								(String)patron_no_text.getText() +"'";
+					
+					ResultSet rs1 = statement.executeQuery(query1);
+					try

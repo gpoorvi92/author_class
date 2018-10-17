@@ -1,0 +1,10 @@
+public class Solution {
+    public ListNode reverseKGroup(ListNode head, int k) {
+        if (k <= 1) return head;
+        int T = GetLength(head) / k;
+        ListNode dummy = new ListNode(0), cur = head, ins = dummy; 
+        dummy.next = head;
+        while ((T--) != 0) {
+            for (int i = 0; i < k - 1; ++i) {
+                ListNode move = cur.next;
+                cur.next = move.next;

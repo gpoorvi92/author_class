@@ -1,0 +1,10 @@
+                UIManager.getInstance().Toast("切换成功");
+                CityChangeWatcher.getInstance().notifyCityChange(mAdapter.getItem(position).second);
+                finish();
+            }
+        });
+
+    }
+
+    @Override
+    public void initResourceAndColor() {

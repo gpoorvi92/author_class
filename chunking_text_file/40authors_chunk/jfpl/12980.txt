@@ -1,0 +1,10 @@
+
+	public void pageTabClick(View v) {
+		int index = Integer.parseInt(v.getTag().toString());
+		viewPager.setCurrentItem(index);
+	}
+
+	@Override
+	protected void onGridItemClick(String prxName, android.widget.GridView g,
+			View v, int position, long id) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();

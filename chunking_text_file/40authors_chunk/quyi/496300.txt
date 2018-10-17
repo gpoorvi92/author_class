@@ -1,0 +1,10 @@
+        setEngineStatus((String)value);
+      }
+      break;
+
+    case ENGINE_TYPE:
+      if (value == null) {
+        unsetEngineType();
+      } else {
+        setEngineType((String)value);
+      }

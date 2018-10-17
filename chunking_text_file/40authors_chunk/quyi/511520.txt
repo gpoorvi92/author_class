@@ -1,0 +1,10 @@
+      sendBase("reportNodeManagerConfig", args);
+    }
+
+    public String recv_reportNodeManagerConfig() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      reportNodeManagerConfig_result result = new reportNodeManagerConfig_result();
+      receiveBase(result, "reportNodeManagerConfig");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }

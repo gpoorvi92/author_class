@@ -1,0 +1,10 @@
+  [9,20],
+  [15,7]
+ ]
+ 
+ Solution: 1. Use queue. In order to seperate the levels, use 'NULL' as the end indicator of one level.
+           2. DFS.
+ */
+
+/**
+ * Definition for binary tree

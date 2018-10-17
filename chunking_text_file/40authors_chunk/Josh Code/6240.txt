@@ -1,0 +1,10 @@
+        for (int i = 0; i < numTriangles; i++)
+        { 
+           // loop through vertices
+            for (int vi = 1; vi <= 3; vi++)
+            {
+                Vector3D v1 = Triangle.getVertex(triangles[i], vi-1);
+                Vector3D v2 = Triangle.getVertex(triangles[i], vi%3);
+                out.println("; triangle "+i+", edge "+vi);
+                out.println("P "+Vector3D.getSpacedVectorCoordinates(v1));
+                out.println("L " + Vector3D.getSpacedVectorCoordinates(v2));

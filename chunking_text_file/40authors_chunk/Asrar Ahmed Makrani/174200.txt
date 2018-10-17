@@ -1,0 +1,10 @@
+							rs.next();
+							//book_no_text.setText(rs1.getString(1));
+			            	type_combo.setSelectedItem(rs.getString(3));
+			            	category_combo.setSelectedItem(rs.getString(4));
+			            	isbn_text.setText(rs.getString(2));
+			            	publisher_text.setText(rs.getString(6));
+			            	pages_text.setText(rs.getString(7));
+			             	class_text.setText(rs.getString(5));
+			            	
+			            	int confirm = JOptionPane.showConfirmDialog(null, "This record Exists, would you like to update it?", "CONFIRM", JOptionPane.YES_NO_OPTION);

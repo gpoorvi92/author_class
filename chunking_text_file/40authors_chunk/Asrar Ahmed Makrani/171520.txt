@@ -1,0 +1,10 @@
+    public JTextField reg_date_text = new JTextField(20);
+    public JLabel patron = new JLabel("Patron Master");
+    public JLabel patron_no = new JLabel("Patron No");
+    public JLabel name = new JLabel("Name");
+    public JLabel salute = new JLabel("Salute");
+    public JLabel passport = new JLabel("IC/Passport");
+    public JLabel group = new JLabel("Group Type");
+    public JLabel status = new JLabel("Status");
+    public JLabel expiry_date = new JLabel("Expiry Date");
+    public JLabel reg_by = new JLabel("Registered By");

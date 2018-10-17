@@ -1,0 +1,10 @@
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 1: // PROPERTY_NAME
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.propertyName = iprot.readString();
+                struct.setPropertyNameIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

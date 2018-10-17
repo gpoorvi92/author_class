@@ -1,0 +1,10 @@
+            do
+            {
+                if(i >= firstBytes.length)
+                    break;
+                firstBytes[i] = in.read();
+                fbLength++;
+                if(firstBytes[i] < 0)
+                    break;
+                byteOrderMark = find();
+                if(byteOrderMark != null)

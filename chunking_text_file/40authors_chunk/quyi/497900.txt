@@ -1,0 +1,10 @@
+        case 2: // FILE_DESCRIPTION
+          return FILE_DESCRIPTION;
+        case 3: // FILE_PATH
+          return FILE_PATH;
+        case 4: // OPERATE_CONTENT
+          return OPERATE_CONTENT;
+        case 5: // OPERATE_TIME
+          return OPERATE_TIME;
+        case 6: // OPERATE_TYPE
+          return OPERATE_TYPE;

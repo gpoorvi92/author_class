@@ -1,0 +1,6 @@
+            cachedCerts.put(account, cert);
+        }
+
+        return cert;
+    }
+}

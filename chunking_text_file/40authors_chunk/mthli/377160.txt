@@ -1,0 +1,10 @@
+               cancelMonitor.start();              
+            }
+         });
+
+      // set up the timer action
+
+      cancelMonitor = new Timer(500, new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {               

@@ -1,0 +1,10 @@
+        if (stk.isEmpty() == true && node == null)  return 0;
+        while (node != null) {
+            stk.push(node);
+            node = node.left;
+        }
+        int res = 0;
+        node = stk.pop();
+        res = node.val;
+        node = node.right;
+        return res;  

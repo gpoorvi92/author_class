@@ -1,0 +1,10 @@
+        if (size <= 0) return new String();
+        String[] in = new String[size];
+        for (int i = 0; i < size; ++i)
+            in[i] = String.valueOf(num[i]);
+        return foo(in);
+    }
+    public String foo(String[] in) {
+        if (in.length == 0) return new String();
+        if (in.length == 1) return in[0];
+        StringBuffer res = new StringBuffer();

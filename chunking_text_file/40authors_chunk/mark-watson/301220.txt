@@ -1,0 +1,10 @@
+package search.graph;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class GraphDepthFirstSearch extends JFrame {
+  JPanel jPanel1 = new JPanel();
+
+  public GraphDepthFirstSearch() {
+    DepthFirstSearch engine = new DepthFirstSearch();

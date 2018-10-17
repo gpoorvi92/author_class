@@ -1,0 +1,10 @@
+  public String getOsArch() {
+    return this.osArch;
+  }
+
+  public Software setOsArch(String osArch) {
+    this.osArch = osArch;
+    return this;
+  }
+
+  public void unsetOsArch() {

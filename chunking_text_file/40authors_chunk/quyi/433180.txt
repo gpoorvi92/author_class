@@ -1,0 +1,10 @@
+  public void clear() {
+    this.processName = null;
+    this.threadName = null;
+    this.checkTime = null;
+    setCpuIsSet(false);
+    this.cpu = 0;
+    setRssIsSet(false);
+    this.rss = 0;
+    setVssIsSet(false);
+    this.vss = 0;

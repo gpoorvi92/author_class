@@ -1,0 +1,10 @@
+    }
+  }
+
+  /**
+   * Return the transparency mode for this GradientPaint.
+   * @see Transparency
+   */
+  public int getTransparency() {
+    return transparency;
+  }

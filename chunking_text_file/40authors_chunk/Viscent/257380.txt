@@ -1,0 +1,10 @@
+ * 对子任务派发算法策略的抽象。
+ * @author Viscent Huang
+ *
+ * @param <T> 子任务类型
+ * @param <V> 子任务处理结果类型 
+ */
+public interface SubTaskDispatchStrategy<T,V> {
+	/**
+	 * 根据指定的原始任务分解策略，将分解得来的各个子任务派发给一组Slave参与者实例。
+	 * 

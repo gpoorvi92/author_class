@@ -1,0 +1,10 @@
+		return getValue(lineReader, name);
+	}
+
+	public final static String getValue(byte[] data, String name)
+	{
+		return getValue(new String(data), name);
+	}
+
+	public final static int getIntegerValue(String data, String name)
+	{

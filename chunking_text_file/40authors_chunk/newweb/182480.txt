@@ -1,0 +1,10 @@
+//					if(ss.length >=3){
+//						Pattern p = Pattern.compile("\\d\\d\\d\\d-\\d\\d-\\d\\d");
+//						Matcher m = p.matcher(order.getRemark());
+//						while(m.find()){
+//							String s = m.group();
+//							if(!order.getCreateDate().equals(s)){
+//								System.out.println(s);
+//								order.setCreateDate(s);
+//								if(os.modifyOrder(order)){
+//									System.out.println("Order:" + order.getID());

@@ -1,0 +1,10 @@
+         else
+         {
+            y1 += maxValue * scale;
+            height = -height;
+         }
+
+         // fill the bar and draw the bar outline
+         Rectangle2D rect = new Rectangle2D.Double(x1, y1, barWidth - 2, height);
+         g2.setPaint(Color.RED);
+         g2.fill(rect);

@@ -1,0 +1,10 @@
+        return false;
+      if (that instanceof heart_result)
+        return this.equals((heart_result)that);
+      return false;
+    }
+
+    public boolean equals(heart_result that) {
+      if (that == null)
+        return false;
+

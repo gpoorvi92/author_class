@@ -1,0 +1,10 @@
+
+    boolean this_present_vss = true;
+    boolean that_present_vss = true;
+    if (this_present_vss || that_present_vss) {
+      if (!(this_present_vss && that_present_vss))
+        return false;
+      if (this.vss != that.vss)
+        return false;
+    }
+

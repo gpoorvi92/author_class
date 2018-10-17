@@ -1,0 +1,10 @@
+	@ManagedAttribute
+	public long getMaximumOverAllRateInKiloBytes() {
+		return maximumOverAllRateInKiloBytes;
+	}
+
+
+	@ManagedAttribute
+	public void setMaximumOverAllRateInKiloBytes(long maximumOverAllRateInKiloBytes) {
+		this.maximumOverAllRateInKiloBytes = maximumOverAllRateInKiloBytes;
+	}

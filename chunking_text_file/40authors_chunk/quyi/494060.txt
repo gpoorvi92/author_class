@@ -1,0 +1,10 @@
+    if (this.plotsStatus == null) {
+      this.plotsStatus = new HashMap<PlotsType,CheckResultStatus>();
+    }
+    this.plotsStatus.put(key, val);
+  }
+
+  public Map<PlotsType,CheckResultStatus> getPlotsStatus() {
+    return this.plotsStatus;
+  }
+

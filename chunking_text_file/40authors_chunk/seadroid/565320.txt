@@ -1,0 +1,5 @@
+    protected void enableInput() {
+        super.enableInput();
+        fileNameText.setEnabled(true);
+    }
+}

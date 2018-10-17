@@ -1,0 +1,10 @@
+   */
+  public VirusEngine(VirusEngine other) {
+    if (other.isSetEngineName()) {
+      this.engineName = other.engineName;
+    }
+    if (other.isSetVersion()) {
+      this.version = other.version;
+    }
+    if (other.isSetUpdate()) {
+      this.update = other.update;

@@ -1,0 +1,10 @@
+          struct.networkPacket = new ArrayList<NetworkPacket>(_list71.size);
+          for (int _i72 = 0; _i72 < _list71.size; ++_i72)
+          {
+            NetworkPacket _elem73;
+            _elem73 = new NetworkPacket();
+            _elem73.read(iprot);
+            struct.networkPacket.add(_elem73);
+          }
+        }
+        struct.setNetworkPacketIsSet(true);

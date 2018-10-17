@@ -1,0 +1,10 @@
+        log.info("添加ZoneEntiry:{}", zoneEntity);
+    }
+    public void deleteZoneEntity(ZoneEntity zoneEntity)
+    {
+        ZoneEntity old = zoneEntityMap.remove(zoneEntity.getZoneId());
+        RpcClientManager.getInstance().disconnectRpcServer(old);
+        log.info("删除ZoneEntiry:{}", old);
+    }
+    public Collection<ZoneEntity> getAllZoneEntiry()
+    {

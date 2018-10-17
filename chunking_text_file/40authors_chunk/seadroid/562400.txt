@@ -1,0 +1,10 @@
+            TextView title = (TextView) view.findViewById(R.id.list_item_title);
+            TextView subtitle = (TextView) view.findViewById(R.id.list_item_subtitle);
+            ImageView icon = (ImageView) view.findViewById(R.id.list_item_icon);
+            viewHolder = new Viewholder(title, subtitle, icon);
+            view.setTag(viewHolder);
+        } else {
+            viewHolder = (Viewholder) convertView.getTag();
+        }
+
+        viewHolder.title.setText(dirent.getTitle());

@@ -1,0 +1,10 @@
+ */
+public class ShellCommand {
+
+	private StringBuffer cmdBuffer;
+	
+	private ShellCommand(String cmd) {
+		cmdBuffer = new StringBuffer(cmd);
+	}
+	
+	public static ShellCommand create(String cmd) {

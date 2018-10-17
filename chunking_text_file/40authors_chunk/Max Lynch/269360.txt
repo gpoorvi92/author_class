@@ -1,0 +1,10 @@
+		  {
+		  
+		  	remove(selected);
+          	add(selected, 0);//getComponentCount();
+          	selected.repaint();
+          }
+          
+			
+		
+	}

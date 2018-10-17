@@ -1,0 +1,10 @@
+            put(CPU_PART_ARM926, "ARM926");
+            put(CPU_PART_ARM946, "ARM946");
+            put(CPU_PART_ARM1026, "ARM1026");
+            put(CPU_PART_ARM1156, "ARM1156");
+            put(CPU_PART_ARM1176, "ARM1176");
+            put(CPU_PART_ARM11_MPCORE, "ARM11-MPCore");
+
+            put(CPU_PART_QUALCOMM_S1_S2, "Qualcomm S1/S2");
+            put(CPU_PART_QUALCOMM_S3, "Qualcomm S3");
+            put(CPU_PART_QUALCOMM_S4, "Qualcomm S4");

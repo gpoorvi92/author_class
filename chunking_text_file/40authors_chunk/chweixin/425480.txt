@@ -1,0 +1,10 @@
+		return location_X;
+	}
+	/**
+	 * 设置地理位置纬度。
+	 * @param location_X
+	 * 	地理位置纬度。
+	 * */
+	public void setLocation_X(String location_X) {
+		this.location_X = location_X;
+	}

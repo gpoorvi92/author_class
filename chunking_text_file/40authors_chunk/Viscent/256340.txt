@@ -1,0 +1,10 @@
+	}
+
+	protected void dispatch() throws InterruptedException {
+		IN input = workQueue.take();
+		delegate.process(input);
+	}
+
+	@Override
+	public void init(PipeContext pipeCtx) {
+		delegate.init(pipeCtx);

@@ -1,0 +1,10 @@
+	 * @Title: fireEvent
+	 * @param source
+	 * @param params
+	 * @see com.yeshj.pacman.event.EventManager#fireEvent(java.lang.Object, java.lang.Object[])
+	 */
+	@Override
+	public void fireEvent(Object source, Object... params) {
+		
+		if (params.length > 0 && params[0] != null) {
+			

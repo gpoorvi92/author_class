@@ -1,0 +1,10 @@
+
+    /** This is a workaround
+     *
+     * the right thing to do would be this:
+     * public static final Uri NOTIFICATION_URI = DocumentsContract.buildRootsUri(ProviderUtil.AUTHORITY);
+     *
+     * However that would bump the API level to 19. Therefore we build the identical RootsUri by hand.
+     */
+    public static final Uri NOTIFICATION_URI = new Uri.Builder().scheme("content").
+            authority(ProviderUtil.AUTHORITY).appendEncodedPath("root").build();

@@ -1,0 +1,7 @@
+        p.addLast("protobufDecoder", new ProtocolBuffersDecoder(defaultInstance));
+        p.addLast("protobufEncoder", new ProtocolBuffersEncoder());
+        p.addLast("executionHandler", executionHandler);
+        p.addLast("handler", handler);
+        return p;
+    }
+}

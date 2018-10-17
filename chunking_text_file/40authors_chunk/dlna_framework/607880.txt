@@ -1,0 +1,8 @@
+			throw new ParserException(e);
+		}
+		
+		return rootNode;
+	}
+	
+}
+

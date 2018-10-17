@@ -1,0 +1,10 @@
+        getStream().write(b);
+        written += b.length;
+    }
+
+    public void write(byte b[], int off, int len)
+        throws IOException
+    {
+        checkThreshold(len);
+        getStream().write(b, off, len);
+        written += len;

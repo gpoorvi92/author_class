@@ -1,0 +1,10 @@
+	public ShapeLayerModel(char type) {
+		this(type, 50, 50, 89, 89, Color.gray);
+	}
+	
+	
+	public ShapeLayerModel(char type, int x1, int y1, int x2, int y2, Color fillColor, Stroke stroke, boolean fill) {
+		this.type = type;
+		this.x1 = x1;
+		this.y1 = y1;
+		this.x2 = x2;

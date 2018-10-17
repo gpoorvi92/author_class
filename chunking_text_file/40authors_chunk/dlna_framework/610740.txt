@@ -1,0 +1,10 @@
+			return buf;
+		}
+		String trimStr2 = trimStr.substring(spIdx, trimStr.length());
+		spIdx = findLastNotOf(trimStr2, trimChars);
+		if (spIdx < 0) {
+			String buf = trimStr2;
+			return buf;
+		}
+		String buf = trimStr2.substring(0, spIdx+1);
+		return buf;

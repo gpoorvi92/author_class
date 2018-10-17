@@ -1,0 +1,10 @@
+        public short[] shortArrayMethod( short arg[] );
+        public short[][] short2dArrayMethod( short arg[][] );
+
+        public int intMethod( int arg );
+        public int[] intArrayMethod( int arg[] );
+        public int[][] int2dArrayMethod( int arg[][] );
+
+        public long longMethod( long arg );
+        public long[] longArrayMethod( long arg[] );
+        public long[][] long2dArrayMethod( long arg[][] );

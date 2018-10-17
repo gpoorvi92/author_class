@@ -1,0 +1,10 @@
+	/**
+	 * ÃÌº” µÃÂlogintoken
+	 * @param entity
+	 * @return
+	 */
+	public LoginToken addToken(LoginToken entity){
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);
+		LoginToken token=getTokenByuserName(entity.getUserName());
+		if(token==null){
+			entity.set_id(super.generateID());

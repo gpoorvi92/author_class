@@ -1,0 +1,10 @@
+
+    /**
+     * @return a service connection for the logicalName specified
+     * @param logicalName the logical name of the service to find 
+     * @throws jpos.JposException if any error occurs     
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public static JposServiceConnection findService( String logicalName ) 
+    throws JposException
+    {

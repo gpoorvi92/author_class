@@ -1,0 +1,10 @@
+            e.printStackTrace();
+            return 0;
+        }
+    }
+
+    @Override
+    public int getVideoHeight() {
+        return mMediaPlayer.getVideoHeight();
+    }
+

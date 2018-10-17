@@ -1,0 +1,10 @@
+			} catch (Exception e) {
+				out.write("failed服务器返回:铝材品牌id无法识别，操作失败");
+				return null;
+			}
+			MaterialBrand mb = materialBrandService.findMaterialBrandById(materialBrandID);
+			if(mb == null){
+				out.write("failed更新失败,铝材品牌对象未找到");
+				return null;
+			}
+			if(id != null && !id.trim().equals("")){

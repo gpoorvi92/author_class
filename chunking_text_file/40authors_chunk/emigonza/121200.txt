@@ -1,0 +1,4 @@
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+}

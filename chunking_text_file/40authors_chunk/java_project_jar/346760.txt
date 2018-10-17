@@ -1,0 +1,10 @@
+            throw new IndexOutOfBoundsException((new StringBuilder()).append("Array Size=").append(array.length).append(", offset=").append(offset).append(", length=").append(length).toString());
+        int count = 0;
+        for(int i = 0; i < length; i++)
+        {
+            int c = read();
+            if(c == -1)
+                return count;
+            array[offset + i] = (char)c;
+            count++;
+        }

@@ -1,0 +1,10 @@
+        return last_name;
+    }
+
+    public String username() {
+        return username;
+    }
+
+    public String title() {
+        return title;
+    }

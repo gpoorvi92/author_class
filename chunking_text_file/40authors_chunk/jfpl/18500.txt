@@ -1,0 +1,10 @@
+	private String pwd;
+	private boolean toLogin;
+
+	public LoginService(AutoActivity ctx, String username, String pwd,
+			boolean toLogin) {
+		this.ctx = ctx;
+		this.username = username;
+		this.pwd = pwd;
+		this.toLogin = toLogin;
+	}

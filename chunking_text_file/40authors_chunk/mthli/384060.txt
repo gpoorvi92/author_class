@@ -1,0 +1,10 @@
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      tabbedPane = new JTabbedPane();
+      // we set the components to null and delay their loading until the tab is shown
+      // for the first time
+
+      ImageIcon icon = new ImageIcon(getClass().getResource("yellow-ball.gif"));
+
+      tabbedPane.addTab("Mercury", icon, null);
+      tabbedPane.addTab("Venus", icon, null);

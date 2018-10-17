@@ -1,0 +1,10 @@
+
+   /**
+    * This listener pops up a modeless color chooser. The panel color is changed when the user
+    * clicks the OK button.
+    */
+   private class ModelessListener implements ActionListener
+   {
+      private JDialog dialog;
+      private JColorChooser chooser;
+

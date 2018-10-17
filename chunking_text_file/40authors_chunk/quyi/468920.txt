@@ -1,0 +1,10 @@
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 7: // FUNC
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.func = iprot.readString();
+              struct.setFuncIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

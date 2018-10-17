@@ -1,0 +1,10 @@
+
+    private static LruCache<Integer, Drawable> sGlobalMemCache = new LruCache<Integer, Drawable>(
+            GLOBAL_IMAGE_MEM_CACHE_MAX_SIZE);
+    private LruCache<Integer, Drawable> mImageMemCache;
+
+    public ImageLruCache() {
+        this(PRIVATE_IMAGE_MEM_CACHE_MAX_SIZE);
+    }
+
+    public ImageLruCache(int capacity) {

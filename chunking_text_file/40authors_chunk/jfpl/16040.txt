@@ -1,0 +1,10 @@
+		view.loadUrl("file:///android_asset/www/index.html");
+	}
+
+	@Override
+	public boolean shouldOverrideKeyEvent(WebView view, KeyEvent event) {
+		return super.shouldOverrideKeyEvent(view, event);
+	}
+
+	@Override
+	public boolean shouldOverrideUrlLoading(WebView view, String url) {

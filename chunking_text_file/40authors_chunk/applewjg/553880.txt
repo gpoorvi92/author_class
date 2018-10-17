@@ -1,0 +1,10 @@
+    public String countAndSay(int n) {
+        StringBuffer s = new StringBuffer("1");
+        StringBuffer res = new StringBuffer();
+        while((--n) != 0){
+            res.setLength(0);
+            int size = s.length();
+            int cnt = 1;
+            char cur = s.charAt(0);
+            for(int i=1;i<size;i++){
+                if(s.charAt(i)!=cur){

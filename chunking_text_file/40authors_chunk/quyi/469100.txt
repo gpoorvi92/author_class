@@ -1,0 +1,10 @@
+    }
+  }
+
+  private static class RulesTupleScheme extends TupleScheme<Rules> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, Rules struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;
+      BitSet optionals = new BitSet();
+      if (struct.isSetRuleId()) {

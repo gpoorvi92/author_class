@@ -1,0 +1,10 @@
+import com.newweb.service.base.CustomerService;
+
+@Component("customerService")
+public class CustomerServiceImp implements CustomerService {
+	
+	@Autowired
+	private CustomerDao customerDao;
+
+	@Override
+	public Customer findCustomerByID(int id) {

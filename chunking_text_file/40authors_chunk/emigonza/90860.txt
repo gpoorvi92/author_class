@@ -1,0 +1,10 @@
+     * the associated JposEntry and JposServiceInstanceFactory
+     * @param logicalName the logicalName for this connection
+     * @param entry the JposEntry matching this logicalName
+     * @param siFactoryClassName the class name implememting the 
+     * JposServiceInstanceFactory interface    
+     * @since 0.1 (Philly 99 meeting)
+     */
+    SimpleServiceConnection( String logicalName, JposEntry entry, 
+                             String siFactoryClassName )
+    {

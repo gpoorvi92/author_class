@@ -1,0 +1,10 @@
+ * 模式角色：HalfSync/HalfAsync.AsyncTask
+ * 模式角色：Two-phaseTermination.ThreadOwner
+ */
+public class AlarmMgr {
+	// 保存AlarmMgr类的唯一实例
+	private static final AlarmMgr INSTANCE = new AlarmMgr();
+
+	private volatile boolean shutdownRequested = false;
+
+	//告警发送线程

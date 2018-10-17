@@ -1,0 +1,10 @@
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, searchEng_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        BitSet incoming = iprot.readBitSet(3);
+        if (incoming.get(0)) {
+          struct.success = new Engine();
+          struct.success.read(iprot);
+          struct.setSuccessIsSet(true);
+        }

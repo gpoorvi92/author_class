@@ -1,0 +1,10 @@
+    * Gets the sum of all account balances.
+    * @return the total balance
+    */
+   public double getTotalBalance()
+   {
+      double sum = 0;
+
+      for (double a : accounts)
+         sum += a;
+

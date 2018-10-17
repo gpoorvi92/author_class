@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/*
+ * 问题：
+ * 		1:有黄色警告线，太难看。
+ * 		2:其实黄色警告线就是告诉你，该集合隐含了一个问题
+ * 		3:如果你看到别人往集合中添加了基本类型的元素，其实这里隐含了自动装箱，添加的也是一个对象

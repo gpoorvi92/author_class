@@ -1,0 +1,10 @@
+      break;
+
+    case AUTO_RUN_MONITOR:
+      if (value == null) {
+        unsetAutoRunMonitor();
+      } else {
+        setAutoRunMonitor((List<RunMonitor>)value);
+      }
+      break;
+

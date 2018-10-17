@@ -1,0 +1,10 @@
+ 					if (txtUser.getText().equals (user) && password.equals (pass)) {//If Found then.
+						verify = true;
+						new LibrarySystem (user, con);	//Show Main Form.
+						setVisible (false);		//Hide the Form.
+						dispose();            		//Free the System Resources.
+					}
+					else {
+						verify = false;
+						JOptionPane.showMessageDialog (this, "Incorrect Information Provided.");
+						txtUser.setText ("");

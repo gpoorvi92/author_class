@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_jobPriority = true && this.isSetJobPriority();
+    boolean that_present_jobPriority = true && that.isSetJobPriority();
+    if (this_present_jobPriority || that_present_jobPriority) {
+      if (!(this_present_jobPriority && that_present_jobPriority))
+        return false;
+      if (!this.jobPriority.equals(that.jobPriority))
+        return false;
+    }

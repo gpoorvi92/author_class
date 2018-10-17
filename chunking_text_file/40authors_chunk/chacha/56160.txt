@@ -1,0 +1,10 @@
+		LoginToken loginToken=loginTokenDAO.getTokenByToken(token);
+		if(loginToken==null){
+			response.setResult(ResponseCode.ERROR_TOKENNOTEXIST);
+		}else{
+			String dsToken=loginToken.getToken();
+			long life=loginToken.getTokenLifeTime();
+			String userName=loginToken.getUserName();
+			if(!token.equals(dsToken))
+				response.setResult(ResponseCode.ERROR_TOKEN);//¥ÌŒÛµƒ¡Ó≈∆
+			else{

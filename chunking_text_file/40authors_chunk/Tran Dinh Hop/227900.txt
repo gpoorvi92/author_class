@@ -1,0 +1,10 @@
+		
+			// calculate progress
+			double dbl_status = (((double) fileSize - (double)in.available())/(double)fileSize) * 100;
+			
+			int new_status = (int) dbl_status;
+					
+			// output % done
+			if(new_status != status){
+				status = new_status;
+				jbt.setForeground(Color.red);

@@ -1,0 +1,10 @@
+    public int hashCode() {
+        if ( !entered_hashCode_6 ) {
+            entered_hashCode_6 = true;
+            int __return = __hashCode( );
+            entered_hashCode_6 = false;
+            return __return;
+        }
+        else
+            return super.hashCode( );
+    }

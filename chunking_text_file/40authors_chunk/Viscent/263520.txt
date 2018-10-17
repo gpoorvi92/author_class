@@ -1,0 +1,8 @@
+			throw new IllegalStateException("shutdown already requested!");
+		}
+
+		alarmSendingThread.terminate();
+		shutdownRequested = true;
+	}
+
+}

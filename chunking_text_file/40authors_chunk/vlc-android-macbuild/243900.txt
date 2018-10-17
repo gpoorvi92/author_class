@@ -1,0 +1,10 @@
+            String msg = String.format(fmt, args);
+            return Log.d(tag, msg);
+        }
+
+        return 0;
+    }
+
+    public static int v(String tag, String msg) {
+        if (ENABLE_VERBOSE) {
+            return Log.v(tag, msg);

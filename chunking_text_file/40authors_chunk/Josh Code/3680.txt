@@ -1,0 +1,10 @@
+        loadFromWaveFrontOBJ(m, f,progressListener);
+    }
+
+    public String getDescription()
+    {
+        return "(*.obj;*.mod) WaveFront Object files";
+    }
+
+    /** Loads from a WaveFront OBJ file
+     */

@@ -1,0 +1,10 @@
+	 * 
+	 * @param srcDir
+	 * @param destDir
+	 * @return
+	 */
+	public static boolean moveDir(String srcDir, String destDir) {
+		
+		if (!exists(srcDir)) {
+			return false;
+		}

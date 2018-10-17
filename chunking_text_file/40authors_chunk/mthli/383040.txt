@@ -1,0 +1,10 @@
+{
+   public ImageFrame()
+   {
+      add(new ImageComponent());
+      pack();
+   }
+}
+
+/**
+ * A component that displays a tiled image

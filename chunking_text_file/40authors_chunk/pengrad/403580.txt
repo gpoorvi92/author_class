@@ -1,0 +1,3 @@
+        return ContentTypes.VIDEO_MIME_TYPE;
+    }
+}

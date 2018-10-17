@@ -1,0 +1,10 @@
+        oprot.writeString(struct.engineIp);
+      }
+      if (struct.isSetEngineStatus()) {
+        oprot.writeString(struct.engineStatus);
+      }
+      if (struct.isSetEngineType()) {
+        oprot.writeString(struct.engineType);
+      }
+      if (struct.isSetNodeInfo()) {
+        struct.nodeInfo.write(oprot);

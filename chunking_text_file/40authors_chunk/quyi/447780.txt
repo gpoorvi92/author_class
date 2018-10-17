@@ -1,0 +1,10 @@
+    boolean that_present_jvmVersion = true && that.isSetJvmVersion();
+    if (this_present_jvmVersion || that_present_jvmVersion) {
+      if (!(this_present_jvmVersion && that_present_jvmVersion))
+        return false;
+      if (!this.jvmVersion.equals(that.jvmVersion))
+        return false;
+    }
+
+    boolean this_present_jvmMaxMem = true && this.isSetJvmMaxMem();
+    boolean that_present_jvmMaxMem = true && that.isSetJvmMaxMem();

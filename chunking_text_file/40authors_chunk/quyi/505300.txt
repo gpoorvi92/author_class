@@ -1,0 +1,10 @@
+          {
+            oprot.writeString(_iter104);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.plots != null) {
+        oprot.writeFieldBegin(PLOTS_FIELD_DESC);
+        {

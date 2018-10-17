@@ -1,0 +1,10 @@
+	 */
+	public LoginResponse logout(TokenLogout request) throws ChachaException;
+	/**
+	 * 新增帐号
+	 * @param request  新增帐号请求消息，可新增批量帐号
+	 * @return		   新增帐号回应消息
+	 * @throws ChachaException
+	 */
+	public Response addAccount(AddAccountRequest request) throws ChachaException;
+	/**

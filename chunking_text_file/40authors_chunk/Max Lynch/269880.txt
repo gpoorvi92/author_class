@@ -1,0 +1,10 @@
+import javax.swing.*;
+import javax.swing.event.*;
+
+import java.awt.*;
+import java.awt.event.*;
+
+import com.gs.ui.*;
+
+public class GradientControls extends JPanel implements ChangeListener {
+	

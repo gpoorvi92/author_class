@@ -1,0 +1,10 @@
+ return [1,6],[8,10],[15,18].
+
+ Solution: 1. Sort in ascending order of 'start'.
+           2. Traverse the 'intervals', merge or push...
+*/
+
+/**
+ * Definition for an interval.
+ * public class Interval {
+ *     int start;

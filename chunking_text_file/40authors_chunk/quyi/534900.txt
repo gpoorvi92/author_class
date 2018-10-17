@@ -1,0 +1,10 @@
+      oprot.writeI32(struct.columnNum);
+      oprot.writeFieldEnd();
+      if (struct.riskDescription != null) {
+        oprot.writeFieldBegin(RISK_DESCRIPTION_FIELD_DESC);
+        oprot.writeString(struct.riskDescription);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }

@@ -1,0 +1,10 @@
+      setTitle(title);
+
+      addWindowListener(new WindowAdapter()
+         {
+            public void windowClosing(WindowEvent event)
+            {
+               settings.put("left", "" + getX());
+               settings.put("top", "" + getY());
+               settings.put("width", "" + getWidth());
+               settings.put("height", "" + getHeight());

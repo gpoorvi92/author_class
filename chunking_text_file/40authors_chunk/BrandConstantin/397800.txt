@@ -1,0 +1,10 @@
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Introduce la altura de la pirámide:");
+    int alturaIntrod = teclado.nextInt();
+    System.out.println("Introduce el carácter:");
+    String caracter = teclado.next();
+    System.out.println("------------------------------------------------------");
+
+    int altura = 1;
+    int i = 0;

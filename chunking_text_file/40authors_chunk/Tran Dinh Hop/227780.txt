@@ -1,0 +1,10 @@
+		byte[] temp = {(byte) currentByte};
+		outCode = dict.fetchCode(temp);
+		out.write(getHiByte(outCode));
+		out.write(getLoByte(outCode));
+		
+		//jsp.setViewportView(new JButton(status+"100%"));	
+
+		// streams are closed
+		in.close(); 
+		out.close(); 

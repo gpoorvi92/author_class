@@ -1,0 +1,10 @@
+      JPanel buttonPanel = new JPanel();
+      buttonPanel.add(getValueButton);
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   public void getValue()
+   {
+      try
+      {

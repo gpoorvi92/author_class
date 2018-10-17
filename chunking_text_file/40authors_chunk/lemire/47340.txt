@@ -1,0 +1,10 @@
+            boolean b = currentWordBit();
+            if(this.nextBit == null || this.nextBit == b) {
+                this.nextBit = b;
+                this.nextLength++;
+                movePosition(1);
+                shiftWordMask();
+                updateNext();
+            }
+        } else {
+            moveToNextRLW();

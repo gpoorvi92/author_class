@@ -1,0 +1,10 @@
+			wcf_left.setAlignment(Alignment.LEFT); // 文字水平对齐
+			wcf_left.setWrap(false); // 文字是否换行
+			if (singleRecordInfo.getFinishedTime() == 0) {
+				int row = sheet.getRows();
+				sheet.addCell(new Label(0, row,
+						singleRecordInfo.getUserAppId(), wcf_left));
+				sheet.addCell(new Label(1, row,
+						singleRecordInfo.getMissionId(), wcf_left));
+				sheet.addCell(new Label(2, row, singleRecordInfo.getAppName(),
+						wcf_left));

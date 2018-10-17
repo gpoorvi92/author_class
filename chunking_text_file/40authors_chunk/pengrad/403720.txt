@@ -1,0 +1,6 @@
+
+    public static void checkLocationMessage(Message message) {
+        checkMessage(message);
+        LocationTest.check(message.location());
+    }
+}

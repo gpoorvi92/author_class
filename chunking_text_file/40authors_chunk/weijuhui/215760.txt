@@ -1,0 +1,10 @@
+	public static void closeProgressDialog() {
+		if (defineProDialog != null && defineProDialog.isShowing()){
+			defineProDialog.dismiss();
+			defineProDialog = null;
+		}
+	}
+	
+	public static void showInfoDialog(Context context, String message) {
+		showInfoDialog(context, message, "提示", "知道了", null);
+	}

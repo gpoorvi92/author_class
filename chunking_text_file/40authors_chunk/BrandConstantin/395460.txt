@@ -1,0 +1,10 @@
+        }
+        
+        System.err.println("El primer numero tiene que ser mas pequeños que el segundo"); 
+        System.err.println("Asi que hemos rotado los numeros");
+    }else{
+        int i = num1;
+       do{
+          System.out.println(i + " ");
+          i += 7;
+       } while (i <= num2);

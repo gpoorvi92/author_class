@@ -1,0 +1,10 @@
+   public Component getTreeCellRendererComponent(JTree tree, Object value, boolean selected,
+         boolean expanded, boolean leaf, int row, boolean hasFocus)
+   {
+      Node node = (Node) value;
+      if (node instanceof Element) return elementPanel((Element) node);
+
+      super.getTreeCellRendererComponent(tree, value, selected, expanded, leaf, row, hasFocus);
+      if (node instanceof CharacterData) setText(characterString((CharacterData) node));
+      else setText(node.getClass() + ": " + node.toString());
+      return this;

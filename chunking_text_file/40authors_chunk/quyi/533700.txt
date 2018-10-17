@@ -1,0 +1,10 @@
+    boolean this_present_methodName = true && this.isSetMethodName();
+    boolean that_present_methodName = true && that.isSetMethodName();
+    if (this_present_methodName || that_present_methodName) {
+      if (!(this_present_methodName && that_present_methodName))
+        return false;
+      if (!this.methodName.equals(that.methodName))
+        return false;
+    }
+
+    boolean this_present_statement = true && this.isSetStatement();

@@ -1,0 +1,10 @@
+    }
+
+    public InlineQueryResultContact thumbWidth(Integer thumbWidth) {
+        this.thumb_width = thumbWidth;
+        return this;
+    }
+
+    public InlineQueryResultContact thumbHeight(Integer thumbHeight) {
+        this.thumb_height = thumbHeight;
+        return this;

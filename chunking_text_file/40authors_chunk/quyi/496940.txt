@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("engineStatus:");
+    if (this.engineStatus == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engineStatus);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("engineType:");

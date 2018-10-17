@@ -1,0 +1,10 @@
+
+      panel = new JPanel();
+      add(panel, BorderLayout.CENTER);
+
+      // set up actions
+
+      Action blueAction = new ColorAction("Blue", new ImageIcon("blue-ball.gif"), Color.BLUE);
+      Action yellowAction = new ColorAction("Yellow", new ImageIcon("yellow-ball.gif"),
+            Color.YELLOW);
+      Action redAction = new ColorAction("Red", new ImageIcon("red-ball.gif"), Color.RED);

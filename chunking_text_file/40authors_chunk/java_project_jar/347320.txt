@@ -1,0 +1,8 @@
+    }
+
+    private final InputStream in;
+    private final long max;
+    private long pos;
+    private long mark;
+    private boolean propagateClose;
+}

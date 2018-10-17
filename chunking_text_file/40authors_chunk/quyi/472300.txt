@@ -1,0 +1,10 @@
+      }
+
+      public queryMission_args getEmptyArgsInstance() {
+        return new queryMission_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+

@@ -1,0 +1,10 @@
+        if (list.length>1) {
+            String repoId = list[1];
+            return repoId;
+        }
+        return "";
+    }
+
+
+    /**
+     * extract the file path from the given documentId.

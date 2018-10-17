@@ -1,0 +1,10 @@
+  }
+
+  private static class APICheckStandardScheme extends StandardScheme<APICheck> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, APICheck struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();

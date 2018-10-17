@@ -1,0 +1,10 @@
+		GregorianCalendar mgc1 = new GregorianCalendar(),mgc2 = new GregorianCalendar();
+		int mintYear1,mintMonth1,mintDay1,mintYear2,mintMonth2,mintDay2;
+				
+		/**
+		case 0: return row.mstrCompanyCode;
+		case 1: return row.mstrDivisionCode;
+		case 2: return row.mstrGLCode;
+		case 3: return row.mstrSLCode;
+		case 4: return row.mstrDeptCode;
+		case 5: return row.mstrSubDeptCode;

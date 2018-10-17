@@ -1,0 +1,4 @@
+		
+		FileHelper.deleteDir("e:\\temp\\0\\");
+	}
+}

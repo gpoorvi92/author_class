@@ -1,0 +1,10 @@
+        struct.setPropertyNameIsSet(true);
+        struct.propertyValue = iprot.readString();
+        struct.setPropertyValueIsSet(true);
+      }
+    }
+
+  }
+
+  public static class modifyEngineConfig_result implements org.apache.thrift.TBase<modifyEngineConfig_result, modifyEngineConfig_result._Fields>, java.io.Serializable, Cloneable, Comparable<modifyEngineConfig_result>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("modifyEngineConfig_result");

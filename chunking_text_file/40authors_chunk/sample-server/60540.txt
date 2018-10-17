@@ -1,0 +1,10 @@
+            {
+                try
+                {
+                    shutdown();
+                    bootstrap = new ClientBootstrap(new NioClientSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));
+                    bootstrap.setOption("keepAlive", true);
+                    bootstrap.setOption("tcpNoDelay", true);
+                    bootstrap.setOption("reuseAddress", false);
+                    bootstrap.setPipelineFactory(new ChatPipelineFactory());
+                    ChannelFuture cf = bootstrap.connect(new InetSocketAddress(host, port));

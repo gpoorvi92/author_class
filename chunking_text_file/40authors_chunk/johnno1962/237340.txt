@@ -1,0 +1,10 @@
+
+    public native void __windowExitingFullScreen( com.apple.eawt.AppEvent.FullScreenEvent arg0 );
+
+    public void windowExitingFullScreen( com.apple.eawt.AppEvent.FullScreenEvent arg0 ) {
+        __windowExitingFullScreen( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.FullScreenListener.windowExitedFullScreen(com.apple.eawt.AppEvent$FullScreenEvent)
+
+    public native void __windowExitedFullScreen( com.apple.eawt.AppEvent.FullScreenEvent arg0 );

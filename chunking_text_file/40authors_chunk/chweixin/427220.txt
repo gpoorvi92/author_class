@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置图片库数据接口。
+	 * @param pictureDao
+	 * 图片库数据接口。
+	 * */
+	public void setPictureDao(IPictureDao pictureDao) {
+		this.pictureDao = pictureDao;
+	}
+	/**

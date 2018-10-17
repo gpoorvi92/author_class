@@ -1,0 +1,10 @@
+				current = current.getNext(); 
+				found = current.hasEntry(ba); 
+			} 
+			return found; 
+		} 
+
+	} 
+
+	public int fetchCode(byte[] ba) 
+	{ 

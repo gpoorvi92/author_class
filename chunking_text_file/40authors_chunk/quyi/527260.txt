@@ -1,0 +1,10 @@
+      }
+      if (struct.engines != null) {
+        oprot.writeFieldBegin(ENGINES_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.engines.size()));
+          for (Engine _iter22 : struct.engines)
+          {
+            _iter22.write(oprot);
+          }
+          oprot.writeListEnd();

@@ -1,0 +1,10 @@
+    if (isSetTaskQueueLimit()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.taskQueueLimit, other.taskQueueLimit);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetTaskQueueNume()).compareTo(other.isSetTaskQueueNume());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

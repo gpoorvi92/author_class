@@ -1,0 +1,10 @@
+  public void    clearOutput()
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)
+                     throws JposException;
+  public void    disableTag(byte[] tagID,
+                            int timeout,
+                            byte[] password)
+                     throws JposException;
+  public void    firstTag()

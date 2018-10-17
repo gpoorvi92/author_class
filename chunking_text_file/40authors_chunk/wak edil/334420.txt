@@ -1,0 +1,10 @@
+		p1.add(jlbl, BorderLayout.NORTH);
+		
+		cont.add(p1,BorderLayout.NORTH);			
+		
+		JPanel p2=new JPanel();
+		p2.setLayout(new GridLayout());
+		p2.setBackground(Color.PINK);	
+		p2.add(jbabout);
+		p2.add(jbmenu);
+		p2.add(jborder);

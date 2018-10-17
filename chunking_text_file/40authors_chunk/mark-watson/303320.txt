@@ -1,0 +1,10 @@
+            outputPanel.paint(g3);
+            w1Panel.paint(g4);
+            w2Panel.paint(g5);
+        }
+        float [] answers;
+        Thread.sleep(2000);
+        answers = nn.recall(in1);
+        for (int i=0; i<3; i++) nn.outputs[i] = answers[i];
+        inputPanel.paint(g1);
+        hiddenPanel.paint(g2);

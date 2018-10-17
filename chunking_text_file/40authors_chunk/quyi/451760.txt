@@ -1,0 +1,10 @@
+      tmpMap.put(_Fields.USER_APPS, new org.apache.thrift.meta_data.FieldMetaData("userApps", org.apache.thrift.TFieldRequirementType.REQUIRED, 
+          new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+              new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, com.nercis.isscp.idl.UserApp.class))));
+      tmpMap.put(_Fields.RULES, new org.apache.thrift.meta_data.FieldMetaData("rules", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+              new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING))));
+      tmpMap.put(_Fields.PLOTS, new org.apache.thrift.meta_data.FieldMetaData("plots", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+              new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, com.nercis.isscp.idl.PlotsType.class))));
+      metaDataMap = Collections.unmodifiableMap(tmpMap);

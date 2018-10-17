@@ -1,0 +1,10 @@
+        BufferedReader buffReader = new BufferedReader(reader);
+
+        StringBuilder text = new StringBuilder();
+        String resultText = null;
+
+        try {
+            String line;
+            while ((line = buffReader.readLine()) != null) {
+                text.append(line);
+                text.append('\n');

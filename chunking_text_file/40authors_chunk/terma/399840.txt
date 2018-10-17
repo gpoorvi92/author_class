@@ -1,0 +1,10 @@
+        properties.setProperty("test1.remotePort", "2");
+        properties.setProperty("test1.remoteHost", "www");
+
+        properties.setProperty("test2.localPort", "90");
+        properties.setProperty("test2.remotePort", "91");
+        properties.setProperty("test2.remoteHost", "bbb");
+    }
+
+    @Test
+    public void shouldGetListOnInstancesFromFile() throws URISyntaxException {

@@ -1,0 +1,10 @@
+	
+
+
+	@Override
+	public boolean save(OrderBxgFdw orderBxgFdw) {
+		Bxg fg = orderBxgFdw.getFdwFgType();
+		Bxg yg = orderBxgFdw.getFdwYgType();
+		fg.setBuycount(fg.getBuycount()+1);//被购买次数加1
+		yg.setBuycount(yg.getBuycount()+1);//被购买次数加1
+		if(!bxgService.modify(fg) || bxgService.modify(yg)){

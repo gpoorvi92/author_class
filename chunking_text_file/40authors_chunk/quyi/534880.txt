@@ -1,0 +1,10 @@
+      }
+      if (struct.description != null) {
+        oprot.writeFieldBegin(DESCRIPTION_FIELD_DESC);
+        oprot.writeString(struct.description);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldBegin(LINE_NUM_FIELD_DESC);
+      oprot.writeI32(struct.lineNum);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(COLUMN_NUM_FIELD_DESC);

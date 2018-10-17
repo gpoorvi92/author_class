@@ -1,0 +1,10 @@
+
+    @Override
+    public SeafRepo getItem(int position) {
+        return repos.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }

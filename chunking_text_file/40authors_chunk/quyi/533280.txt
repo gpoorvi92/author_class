@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetStatement();
+      } else {
+        setStatement((String)value);
+      }
+      break;
+
+    case RISK_TYPE:
+      if (value == null) {
+        unsetRiskType();

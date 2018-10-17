@@ -1,0 +1,9 @@
+            int mask) {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            ActionBar actionBar = activity.getActionBar();
+            if (actionBar != null) {
+                actionBar.setDisplayOptions(options, mask);
+            }
+        }
+    }
+}

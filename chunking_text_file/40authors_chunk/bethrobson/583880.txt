@@ -1,0 +1,10 @@
+       if (msg) {
+            
+         Graphics2D g2 = (Graphics2D) g;
+
+         int r = (int) (Math.random() * 250);
+         int gr = (int) (Math.random() * 250);
+         int b = (int) (Math.random() * 250);
+
+         g.setColor(new Color(r,gr,b));
+

@@ -1,0 +1,6 @@
+				log.e("catch exception!!!e = " + e.getMessage());
+			}
+		
+		}
+	}
+}

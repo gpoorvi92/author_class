@@ -1,0 +1,10 @@
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, heart_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.nodeHeat = new NodeHeat();
+        struct.nodeHeat.read(iprot);
+        struct.setNodeHeatIsSet(true);
+        struct.timestamp = iprot.readI64();
+        struct.setTimestampIsSet(true);
+      }
+    }

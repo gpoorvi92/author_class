@@ -1,0 +1,10 @@
+
+// Referenced classes of package org.apache.commons.io.input:
+//            TailerListener
+
+public class Tailer
+    implements Runnable
+{
+
+    public Tailer(File file, TailerListener listener)
+    {

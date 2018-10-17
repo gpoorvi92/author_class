@@ -1,0 +1,10 @@
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetSamples()).compareTo(other.isSetSamples());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSamples()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.samples, other.samples);
+      if (lastComparison != 0) {

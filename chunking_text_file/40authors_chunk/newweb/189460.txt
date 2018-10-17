@@ -1,0 +1,10 @@
+					HSSFCell cell = content.createCell(index);
+					cell.setCellValue(dou);
+					cell.setCellStyle(style);
+				}
+			}
+			
+			book.write(fileOut);//把book对象输出到文件中  
+			fileOut.close();  
+			return fileName;
+		} catch (Exception e) {

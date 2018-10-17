@@ -1,0 +1,10 @@
+                            .get(nextOrder);
+                    if (nextSegment != null) {
+                        mSegmentPlayer = createItemPlayer();
+                        int startTime = mPlayIndex.getStartTime(nextOrder);
+                        mSegmentPlayer.setSegment(nextOrder, startTime,
+                                nextSegment);
+                        mSegmentPlayer.prepareAsync();
+                    }
+                    return;
+                }

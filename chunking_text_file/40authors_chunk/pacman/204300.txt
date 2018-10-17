@@ -1,0 +1,10 @@
+				audioCodec, audioBitrate, audioSamping, audioDuration, audioSrc, audioDest);
+		
+		logger.info(PREFIX + " CMD:" + command);
+		
+		ProcessExecutor pe = new ProcessExecutor();
+		if (pe.runShell(command))
+		{
+			
+			logger.info(PREFIX + " execute successfully!");
+		} else {

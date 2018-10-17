@@ -1,0 +1,10 @@
+        if (newsMapper.updateByPrimaryKeySelective(news) < 1) {
+            throw new ServiceException("修改失败");
+        }
+    }
+
+    @Override
+    public void delete(Integer[] ids) throws ServiceException {
+        if (newsMapper.delete(ids) < 0) {
+            throw new ServiceException("删除失败");
+        }

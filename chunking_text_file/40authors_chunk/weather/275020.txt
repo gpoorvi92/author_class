@@ -1,0 +1,10 @@
+ */
+public interface RetryPolicy {
+
+    /**
+     * Returns the current timeout (used for logging).
+     */
+    public int getCurrentTimeout();
+
+    /**
+     * Returns the current retry count (used for logging).

@@ -1,0 +1,10 @@
+ return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
+
+ Solution: DFS.
+ */
+public class Solution {
+    public List<String> restoreIpAddresses(String s) {
+        List<String> res = new ArrayList<String>();
+        dfs(s, new String(), 0, 0, res);
+        return res;
+    }

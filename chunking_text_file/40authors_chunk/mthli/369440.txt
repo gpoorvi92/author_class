@@ -1,0 +1,10 @@
+      {
+         while (in.hasNextLine())
+         {
+            response.append(in.nextLine());
+            response.append("\n");
+         }         
+      }
+      catch (IOException e)
+      {
+         if (!(connection instanceof HttpURLConnection)) throw e;

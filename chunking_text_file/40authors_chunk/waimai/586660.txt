@@ -1,0 +1,10 @@
+@Controller
+@RequestMapping("/merchant")
+public class MerchantController extends BaseController {
+    @Autowired
+    private IMerchantService merchantService;
+    @Autowired
+    private INewsService newsService;
+
+    @RequestMapping("/index")
+    public ModelAndView index() {

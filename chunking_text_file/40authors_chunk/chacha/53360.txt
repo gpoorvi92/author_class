@@ -1,0 +1,10 @@
+	 * @throws JsonGenerationException 
+	 * @throws IOException 
+	 * @throws JsonParseException 
+	 * @throws JsonMappingException 
+	 */
+	@SuppressWarnings("finally")
+	private static String handleLoginPass(String requestJson) throws JsonMappingException, JsonGenerationException, IOException{
+		AuthResponse response=new AuthResponse();
+		LoginContext context=new LoginContextImpl();
+		try{

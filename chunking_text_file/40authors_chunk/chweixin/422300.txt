@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String id,name,account, token, openId,appId,appSecret,businessURL,description;
+	private Integer status,type;
+	private Date createTime;
+	/**
+	 * 公众号状态-停用。
+	 * */
+	public final static int ACCOUNT_STATUS_DISABLE = 0;
+	/**
+	 * 公众号状态-启用。

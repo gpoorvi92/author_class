@@ -1,0 +1,10 @@
+
+        //Bean类中是否存在operationName属性(判断将忽略大小写)
+        assertEquals(true, BeanUtil.hasPropertyIgnoreCase(bean, "OperationName"));
+
+        //Bean类中是否定义属性logId
+        assertEquals(false, BeanUtil.hasDeclaredProperty(bean, "logId"));
+
+        //Bean类中是否存在属性(对属性命执行自定义的过滤函数后比较)
+        assertEquals(true, BeanUtil.hasPropertyFilter(bean, "operationType", new PropertyFilter() {
+            @Override

@@ -1,0 +1,10 @@
+		public void method() {
+			if(如果你是医生){
+				Heart h = new Heart();
+				h.operator();
+			}
+		}
+	}
+
+	Body.Heart bh = new Body().new Heart();
+	bh.operator();

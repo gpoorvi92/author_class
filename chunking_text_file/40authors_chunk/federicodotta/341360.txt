@@ -1,0 +1,10 @@
+     * the trigger for the context menu invocation.
+     *
+     * @return The <code>InputEvent</code> that was the trigger for the context
+     * menu invocation.
+     */
+    InputEvent getInputEvent();
+
+    /**
+     * This method can be used to retrieve the Burp tool within which the
+     * context menu was invoked.

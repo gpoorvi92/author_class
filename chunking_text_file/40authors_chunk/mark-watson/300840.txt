@@ -1,0 +1,10 @@
+        StringBuffer sb = new StringBuffer(s.length() + 1);
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (ch > 256 || ch == '\n' || ch == '\t' || ch == '\r' || ch == 226) {
+                sb.append(' ');
+                continue;
+            }
+            //System.out.println(" ch: " + ch + " (int)ch: " + (int)ch + " Character.isISOControl(ch): " + Character.isISOControl(ch));
+            if ((int) ch < 129)
+                sb.append(ch);

@@ -1,0 +1,10 @@
+	 * FileDownloaderDelegate delegate methods
+	 */
+	@Override
+	public void didStartDownload(DownloaderWorker downloaderWorker) {
+		try {
+			this.outputStream = new BufferedOutputStream(new FileOutputStream(this.localLocation));
+			this.setDownloadBeginTime(new Date().getTime());
+			this.setDownloading(true);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();

@@ -1,0 +1,10 @@
+			else {
+				//Show a Confirmation Dialog to Delete the Record.
+			    	int reply = JOptionPane.showConfirmDialog (this, 
+				"Are you really want to Delete\nthe " + txtMemberName.getText () + " Record?",
+				"LibrarySystem - Delete Member", JOptionPane.YES_NO_OPTION, JOptionPane.PLAIN_MESSAGE);
+
+				//Check the User Selection.
+				if (reply == JOptionPane.YES_OPTION) {			//If User's Choice Yes then.
+
+					try {	//DELETE Query to Delete the Record from Table.

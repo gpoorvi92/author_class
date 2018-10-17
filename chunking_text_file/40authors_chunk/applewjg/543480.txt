@@ -1,0 +1,10 @@
+        for (int i = s.length() - 1; i >= 0;) {
+            while (i >= 0 && s.charAt(i) == ' ') --i;
+            StringBuffer temp = new StringBuffer();
+            while (i >= 0 && s.charAt(i) != ' ') {
+                temp.append(s.charAt(i--));
+            }
+            temp.reverse();
+            if (sb.length() > 0 && temp.length() > 0) sb.append(" ");
+            sb.append(temp);
+        }

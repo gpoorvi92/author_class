@@ -1,0 +1,8 @@
+    public void    authorizeVoid(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;
+    public void    authorizeVoidPreSales(int sequenceNumber, long amount,
+                       long taxOthers, int timeout) throws JposException;
+    public void    checkCard(int sequenceNumber, int timeout)
+                       throws JposException;
+    public void    clearOutput() throws JposException;
+}

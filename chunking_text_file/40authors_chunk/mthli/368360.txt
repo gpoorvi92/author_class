@@ -1,0 +1,9 @@
+      // tell caller is is ok to use color value
+      return true;
+   }
+
+   public Object getCellEditorValue()
+   {
+      return colorChooser.getColor();
+   }
+}

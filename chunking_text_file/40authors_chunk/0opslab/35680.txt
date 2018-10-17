@@ -1,0 +1,10 @@
+        user1.setUserId("444");
+        System.out.println("list" + list1);
+
+        Set<User> set = new HashSet<>(list1);
+        System.out.println("Set:" + set);
+
+        System.out.println("==============");
+        user2.setUserId("5555");
+        list1.add(new User("666", "EEE"));
+        System.out.println("list" + list1);

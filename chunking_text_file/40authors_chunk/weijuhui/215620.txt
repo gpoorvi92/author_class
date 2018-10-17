@@ -1,0 +1,10 @@
+            View v = getChildAt(i);
+            if (v == source) {
+                continue;
+            }
+            if (v instanceof ScrollLayout) {
+                ScrollLayout scroller = (ScrollLayout)v;
+                scroller.setTime(mTime.getTimeInMillis());
+            }
+        }
+

@@ -1,0 +1,10 @@
+                .getExternalStorageDirectory().getAbsolutePath();
+    }
+
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        setEmptyText(getString(R.string.empty_folder));
+        setListAdapter(mFileListAdapter);
+        setListShown(false);
+        getLoaderManager().initLoader(LOADER_ID, null, this);

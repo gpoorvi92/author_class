@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+
+import java.io.*;
+import java.util.Enumeration;
+import java.util.Properties;
+
+/**
+ * 提供一些常用的属性文件相关的方法
+ */

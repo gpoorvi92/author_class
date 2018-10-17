@@ -1,0 +1,10 @@
+      return this;
+    }
+
+    public void unsetPropertyName() {
+      this.propertyName = null;
+    }
+
+    /** Returns true if field propertyName is set (has been assigned a value) and false otherwise */
+    public boolean isSetPropertyName() {
+      return this.propertyName != null;

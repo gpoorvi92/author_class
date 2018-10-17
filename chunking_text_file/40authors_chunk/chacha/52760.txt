@@ -1,0 +1,10 @@
+		}
+		return r;
+	}
+
+
+	@Override
+	public QueryAccountResponse query(QueryAccountRequest queryReq) {
+		QueryAccountResponse r=new QueryAccountResponse();
+		try{
+			AccountNameBody body=queryReq.getBody();

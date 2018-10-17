@@ -1,0 +1,10 @@
+        ret.addAll(chatClientMap.values());
+        return ret;
+    }
+    public GameServerRpcClient getGameServerRpcClientByZone(ZoneEntity zoneEntity)
+    {
+        return gameServerRpcClientMap.get(zoneEntity.getGameServerHost());
+    }
+    public ChatServerRpcClient getChatServerRpcClientByZone(ZoneEntity zoneEntity)
+    {
+        return chatServerRpcClientMap.get(zoneEntity.getChatServerHost());

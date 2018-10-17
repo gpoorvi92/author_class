@@ -1,0 +1,10 @@
+
+@Entity
+@Table(name="t_order_others")
+public class OrderOther {
+	
+	private int ID;
+	private Order order;
+	private String name;
+	private String unit;
+	private double count;

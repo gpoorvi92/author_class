@@ -1,0 +1,10 @@
+    private int height = 0;
+    public Location startLoc = new Location();
+    public Location goalLoc  = new Location();
+    /**
+     * The maze (or search space) data is stored as a short integer rather than
+     * as a boolean so that bread-first style searches can use the array to store
+     * search depth. A value of -1 indicates a barrier in the maze.
+     */
+    private short [][]maze;
+    public Maze(int width, int height) {

@@ -1,0 +1,10 @@
+			logger.info("上下中公众号ID为空，无法查找默认回复！");
+			return null;
+		}
+		BaseRespMessage respMessage = this.createDefaultReply(context.getAccountId());
+		if(respMessage != null){
+			respMessage.setFromUserName(req.getToUserName());
+			respMessage.setToUserName(req.getFromUserName());
+			return respMessage;
+		}
+		return null;

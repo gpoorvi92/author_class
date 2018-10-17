@@ -1,0 +1,10 @@
+
+    @Override
+    protected void onValidateUserInput() throws Exception {
+        String fileName = fileNameText.getText().toString().trim();
+
+        if (fileName.length() == 0) {
+            String err = getActivity().getResources().getString(R.string.file_name_empty);
+            throw new Exception(err);
+        }
+    }

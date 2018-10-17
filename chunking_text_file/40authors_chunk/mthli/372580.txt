@@ -1,0 +1,10 @@
+   /**
+    * Saves the calculator history to a file.
+    */
+   public void save()
+   {
+      try
+      {
+         ByteArrayOutputStream out = new ByteArrayOutputStream();
+         PrintStream printOut = new PrintStream(out);
+         printOut.print(panel.getText());

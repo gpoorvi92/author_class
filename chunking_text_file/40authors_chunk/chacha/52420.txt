@@ -1,0 +1,10 @@
+	 * @param sc    socket通道
+	 * @param block 是否阻塞
+	 * @return
+	 * @throws IOException
+	 */
+	public static ChannelHelper getInstance(SocketChannel sc,boolean block) throws IOException{
+		ChannelHelper ch=new ChannelHelper(sc,block);
+		ch.requestBB=ByteBuffer.allocate(requestBBSize);
+		return ch;
+	}

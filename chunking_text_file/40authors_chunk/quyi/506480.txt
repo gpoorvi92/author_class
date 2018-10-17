@@ -1,0 +1,10 @@
+        return Instaticchecktimeout;
+      case 2:
+        return Instaticcheckfailure;
+      case 3:
+        return Instaticcheckbreak;
+      case 4:
+        return Indycheck;
+      case 5:
+        return Indychecktimeout;
+      case 6:

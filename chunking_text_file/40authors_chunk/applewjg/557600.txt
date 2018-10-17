@@ -1,0 +1,10 @@
+            if (pre.right == null) {
+                pre.right = node;
+                node = node.left;
+            } else {
+                res = node.val;
+                node = node.right;
+                pre.right = null;
+                return res;
+            }
+        }

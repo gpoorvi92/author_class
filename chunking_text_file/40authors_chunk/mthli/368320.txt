@@ -1,0 +1,10 @@
+      // start editing
+      colorDialog.setVisible(true);
+
+      // tell caller it is ok to select this cell
+      return true;
+   }
+
+   public void cancelCellEditing()
+   {
+      // editing is canceled--hide dialog

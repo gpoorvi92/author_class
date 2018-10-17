@@ -1,0 +1,10 @@
+            {
+                position = end ? file.length() : 0L;
+                last = System.currentTimeMillis();
+                reader.seek(position);
+            }
+        }
+        while(run) 
+        {
+            long length = file.length();
+            if(length < position)

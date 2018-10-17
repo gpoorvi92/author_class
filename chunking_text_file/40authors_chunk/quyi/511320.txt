@@ -1,0 +1,10 @@
+    public com.nercis.isscp.idl.Result modifyNodeManagerConfig(String nodeId, String propertyName, String propertyValue) throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException;
+
+  }
+
+  public interface AsyncIface {
+
+    public void reportEngineConfig(org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void reportTaskManagerConfig(org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+

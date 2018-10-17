@@ -1,0 +1,10 @@
+}
+
+/**
+ * This frame has a text area to show the contents of a text file, a menu to open a file and cancel
+ * the opening process, and a status line to show the file loading progress.
+ */
+class SwingWorkerFrame extends JFrame
+{
+   private JFileChooser chooser;
+   private JTextArea textArea;

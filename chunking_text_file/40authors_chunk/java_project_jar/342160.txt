@@ -1,0 +1,10 @@
+    {
+        throw new UnsupportedOperationException("Operation not supported: readUTF()");
+    }
+
+    public int skipBytes(int count)
+        throws IOException, EOFException
+    {
+        return (int)in.skip(count);
+    }
+}

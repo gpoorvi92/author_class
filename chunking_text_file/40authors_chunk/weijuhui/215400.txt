@@ -1,0 +1,10 @@
+        for (int i = 0; i < childCount; i++) {
+            View v = getChildAt(i);
+            if (v instanceof ScrollLayout) {
+                final ScrollLayout sl = (ScrollLayout)v;
+                sl.setOnScrollListener(
+                        new ScrollLayout.OnScrollListener() {
+                            public void onScroll(long x) {
+                                mTime.setTimeInMillis(x);
+                                arrangeScrollers(sl);
+                            }

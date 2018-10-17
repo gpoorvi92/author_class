@@ -1,0 +1,10 @@
+		System.out.println(dis.readBoolean());
+
+		// สอทลืสิด
+		dis.close();
+	}
+
+	private static void write() throws IOException {
+		// DataOutputStream(OutputStream out)
+		DataOutputStream dos = new DataOutputStream(new FileOutputStream(
+				"dos.txt"));

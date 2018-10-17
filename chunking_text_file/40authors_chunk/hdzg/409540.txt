@@ -1,0 +1,10 @@
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);
+		Skill skill = hero.heroSkill.get(MINING);//获得英雄的伐木技能
+		result = skill.calculateResult();
+		if(result == -1){//体力值不够了
+			status = 1;
+			showString = dialogMessage[status];
+		}
+		else{//如果体力值够
+			status = 0;
+			showString = dialogMessage[status];

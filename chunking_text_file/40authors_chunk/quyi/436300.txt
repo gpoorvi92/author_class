@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetNetworkPacket()).compareTo(other.isSetNetworkPacket());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetNetworkPacket()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.networkPacket, other.networkPacket);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

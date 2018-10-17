@@ -1,0 +1,9 @@
+            if (null != client && null != builder)
+            {
+                client.syn(map.get(each.getZoneId()).build());
+            }
+        }
+        //RpcClientManager.getChatServerRpcClient().syn(req.build());
+        log.info("同步了Notice&Bulletin");
+    }
+}

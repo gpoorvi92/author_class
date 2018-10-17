@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Gets the running length.
+     *
+     * @return the running length
+     */
+    @Override
+    public int getRunningLength() {
+        return this.iteratingBrlw.getRunningLength();

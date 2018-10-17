@@ -1,0 +1,10 @@
+				recentlyContent = "【语音】";
+			} else if ("4".equals(msgType)) {
+				recentlyContent = "【位置】";
+			} else if ("5".equals(msgType)) {
+				recentlyContent = "【视频】";
+			} else if ("6".equals(msgType)) {
+				recentlyContent = "【表单】" + backAcd.getStringValue("busi_desc");
+			} else if ("9".equals(msgType)) {
+				defaultType = 1;
+				notifyTitle = backAcd.getStringValue("title");

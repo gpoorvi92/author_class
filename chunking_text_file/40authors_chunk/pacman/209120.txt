@@ -1,0 +1,9 @@
+					
+					logger.error("Fail to close httpclient.", e);
+				}
+			}
+		}
+		
+		return result;
+	}
+}

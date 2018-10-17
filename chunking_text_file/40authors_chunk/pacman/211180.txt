@@ -1,0 +1,10 @@
+	private int lessonID;
+	private String lessonName;
+	private String media;
+	private int mediaType;
+	private List<String> allFiles;
+	
+	public LessonInfo() {
+		allFiles = new ArrayList<String>();
+	}
+	

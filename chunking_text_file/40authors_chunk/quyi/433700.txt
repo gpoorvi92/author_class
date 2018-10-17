@@ -1,0 +1,10 @@
+  }
+
+  public boolean equals(SystemResources that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_processName = true && this.isSetProcessName();
+    boolean that_present_processName = true && that.isSetProcessName();
+    if (this_present_processName || that_present_processName) {
+      if (!(this_present_processName && that_present_processName))

@@ -1,0 +1,10 @@
+			    + retrieveLogFileName(now)), true);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void printLog(LogEntry entry) {
+		final PrintWriter pwr = cachedPwr;
+		pwr.print(getUTCTimeStamp(Long.valueOf(entry.timeStamp), TIME_STAMP_FORMAT));
+		pwr.print('|');

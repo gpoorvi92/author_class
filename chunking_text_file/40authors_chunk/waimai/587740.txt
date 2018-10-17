@@ -1,0 +1,10 @@
+public class NewsServiceImpl implements INewsService {
+    @Autowired
+    private NewsMapper newsMapper;
+
+    @Override
+    public List<News> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<News> newsList = newsMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(newsMapper.getTotalCount(vo));
+        return newsList;

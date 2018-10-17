@@ -1,0 +1,10 @@
+    }
+
+    private void walk(File directory, int depth, Collection results)
+        throws IOException
+    {
+        checkIfCancelled(directory, depth, results);
+        if(handleDirectory(directory, depth, results))
+        {
+            handleDirectoryStart(directory, depth, results);
+            int childDepth = depth + 1;

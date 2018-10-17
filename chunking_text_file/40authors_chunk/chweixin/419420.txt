@@ -1,0 +1,10 @@
+	/**
+	 * 设置微信请求类型。
+	 * @param type
+	 * 微信请求类型。
+	 */
+	public void setType(String type) {
+		this.type = type;
+	}
+	/**
+	 * 获取微信请求数据。

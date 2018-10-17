@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    public static String removePoundLineCommentAndTrim(String ln) 
+    {
+        if (ln == null)
+            return null;
+        int index1 = ln.indexOf('#'); // comment character
+         if (index1 == 0)
+             return "";

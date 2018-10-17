@@ -1,0 +1,10 @@
+		// System.out.println(a);
+		int result = 0;
+		for (int i : a) {
+			result += i;
+		}
+		return result;
+	}
+
+	// public static int sum(int a, int b) {
+	// return a + b;

@@ -1,0 +1,10 @@
+			ssdpUniSock = new DatagramSocket();
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+		
+		return true;
+	}
+	

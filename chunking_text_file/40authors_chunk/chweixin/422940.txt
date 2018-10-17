@@ -1,0 +1,10 @@
+	 * 获取公众号ID。
+	 * @return 
+	 * 	公众号ID。
+	 * */
+	public String getAccountId() {
+		return accountId;
+	}
+	/**
+	 * 设置公众号ID。
+	 * @param accountId

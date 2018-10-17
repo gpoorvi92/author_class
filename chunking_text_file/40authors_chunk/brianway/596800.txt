@@ -1,0 +1,10 @@
+            pThread[i].setName("生产者" + (i + 1));
+            cThread[i] = new ThreadC(consumer);
+            cThread[i].setName("消费者" + (i + 1));
+            pThread[i].start();
+            cThread[i].start();
+        }
+
+        Thread.sleep(5000);
+        Thread[] threads = new Thread[Thread.currentThread().getThreadGroup().activeCount()];
+        Thread.currentThread().getThreadGroup().enumerate(threads);

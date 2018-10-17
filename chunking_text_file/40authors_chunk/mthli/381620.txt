@@ -1,0 +1,10 @@
+
+      constraints.gridwidth = Integer.parseInt(e.getAttribute("gridwidth"));
+      constraints.gridheight = Integer.parseInt(e.getAttribute("gridheight"));
+      constraints.weightx = Integer.parseInt(e.getAttribute("weightx"));
+      constraints.weighty = Integer.parseInt(e.getAttribute("weighty"));
+      constraints.ipadx = Integer.parseInt(e.getAttribute("ipadx"));
+      constraints.ipady = Integer.parseInt(e.getAttribute("ipady"));
+
+      // use reflection to get integer values of static fields
+      Class<GridBagConstraints> cl = GridBagConstraints.class;

@@ -1,0 +1,10 @@
+        }
+        if (charset != null)
+            return charset.name();
+        else
+            return null;
+    }
+
+    /**
+     * 探测字符串的编码
+     *

@@ -1,0 +1,10 @@
+
+		tracer.println( "findService: " + logicalName );
+
+        return manager.createConnection( logicalName );
+    }
+
+    /**
+     * @return the JposServiceManager associated with the 
+     * running of the JposServiceLoader      
+     * @since 0.1 (Philly 99 meeting)

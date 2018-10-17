@@ -1,0 +1,10 @@
+ */
+class ListFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   private JPanel listPanel;
+   private JList<String> wordList;
+   private JLabel label;
+   private JPanel buttonPanel;

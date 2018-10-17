@@ -1,0 +1,10 @@
+      // skip non-class types
+      if (c.isInterface() || c.isPrimitive()) return null;
+
+      // if the class is already in the tree, return its node
+      DefaultMutableTreeNode node = findUserObject(c);
+      if (node != null) return node;
+
+      // class isn't present--first add class parent recursively
+
+      Class<?> s = c.getSuperclass();

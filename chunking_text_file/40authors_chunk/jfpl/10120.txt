@@ -1,0 +1,10 @@
+				}
+			}
+		} else if ("1".equals(type)) {
+			chatLayout.setGravity(Gravity.RIGHT);
+			chatBgLayout.setBackgroundDrawable(getResources().getDrawable(
+					R.drawable.chat_img_to_bg_mask));
+			String msgId = acd.getStringValue("id");
+			if (StringUtil.isNull(msgId)) {
+				msgId = SystemUtil.getUniqueId();
+				acd.putStringValue("id", msgId);

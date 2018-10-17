@@ -1,0 +1,10 @@
+        BeanUtil.copyProperty(bean1, bean2, new String[]{"operationName"});
+        System.out.println(bean2);
+
+        Log bean3 = new Log();
+        BeanUtil.copyProperties(bean1, bean3);
+        System.out.println(bean3);
+        BeanUtil.copyPropertiesPeaceful(bean1, bean3);
+        System.out.println(bean3);
+
+

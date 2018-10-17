@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderOther;
+
+@Component("orderOtherDao")
+public class OrderOtherDaoImp implements OrderOtherDao {
+	
+	private SessionFactory sessionFactory;
+	
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;

@@ -1,0 +1,10 @@
+  public String getCheckEndDate() {
+    return this.checkEndDate;
+  }
+
+  public DynamicCheckResultData setCheckEndDate(String checkEndDate) {
+    this.checkEndDate = checkEndDate;
+    return this;
+  }
+
+  public void unsetCheckEndDate() {

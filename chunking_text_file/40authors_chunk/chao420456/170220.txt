@@ -1,0 +1,10 @@
+		Student s2 = new Student("王宝强",18);
+		System.out.println(s2.getName()+"---"+s2.getAge());
+		s2.eat();
+		s2.sleep();
+		System.out.println("--------------------------");
+
+
+		//老师类
+		Teacher t = new Teacher();
+		t.setName("王祖蓝");

@@ -1,0 +1,10 @@
+	private int fileSize,arr[],size=0,front=0;
+	
+	public Table(int fileSize,String FileName){
+		
+		arr=new int[256];
+		this.FileName=FileName;
+		this.fileSize=fileSize;
+	}
+	
+	public void push(int c){

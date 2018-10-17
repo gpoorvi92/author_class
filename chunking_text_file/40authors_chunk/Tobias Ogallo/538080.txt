@@ -1,0 +1,10 @@
+              (c==KeyEvent.VK_SPACE) ||
+              (c == KeyEvent.VK_DELETE))) {
+             
+             getToolkit().beep();
+             JOptionPane.showMessageDialog(null,"Invalid Character","ERROR",
+             JOptionPane.DEFAULT_OPTION);
+             e.consume();
+           }
+         }
+       });

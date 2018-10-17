@@ -1,0 +1,10 @@
+	public void exportToSearchExcel(String filePath,
+			SearchRecordInfo searchRecordInfo) {
+		try {
+			Workbook preWorkbook = Workbook.getWorkbook(new File(filePath));
+			WritableWorkbook workbook = Workbook.createWorkbook(new File(
+					filePath), preWorkbook);
+			/** **********创建工作表************ */
+			WritableSheet sheet = workbook.getSheet(0);
+
+			/** **********设置纵横打印（默认为纵打）、打印纸***************** */

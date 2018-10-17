@@ -1,0 +1,10 @@
+    if (isSetColumnNum()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.columnNum, other.columnNum);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetRiskDescription()).compareTo(other.isSetRiskDescription());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

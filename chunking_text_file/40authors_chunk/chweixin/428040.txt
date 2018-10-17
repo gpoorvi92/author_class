@@ -1,0 +1,10 @@
+import ipower.wechat.modal.WeChatMenuInfo;
+import ipower.wechat.service.IWeChatMenuService;
+
+/**
+ * 微信公众号菜单Action。
+ * @author yangyong.
+ * @since 2014-04-02.
+ * */
+public class WeChatMenuAction extends BaseAction implements ModelDriven<WeChatMenuInfo> {
+	private IWeChatMenuService service;

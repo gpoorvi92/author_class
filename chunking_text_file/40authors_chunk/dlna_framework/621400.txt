@@ -1,0 +1,10 @@
+
+import java.io.InputStream;
+
+public class HTTPResponse extends HTTPPacket
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public HTTPResponse()

@@ -1,0 +1,10 @@
+  public static void main(String[] args) {
+    
+    Scanner tecla = new Scanner(System.in);
+    
+    System.out.println("Introduce un numero mas > que 1");
+    int numIntroducido = tecla.nextInt();
+    
+    int cuenta = 0;
+    int suma = 0;
+    

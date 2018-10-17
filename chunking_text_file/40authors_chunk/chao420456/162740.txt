@@ -1,0 +1,10 @@
+public class ServerThread extends Thread {
+
+	public ServerSocket serverSocket;
+	public Vector<String> messages;
+	public Vector<ClientThread> clients;
+	public Map<Integer, String> users;
+	public BroadCast broadcast;
+	public int Port = 5000;
+	public boolean login = true;
+	public ServerFrame serverFrame;

@@ -1,0 +1,6 @@
+        buffer.append(")");
+        return buffer.toString();
+    }
+
+    private final List fileFilters;
+}

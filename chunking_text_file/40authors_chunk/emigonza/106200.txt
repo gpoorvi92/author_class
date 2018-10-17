@@ -1,0 +1,3 @@
+	// Properties
+	public int     getAmountDecimalPlaces() throws JposException;
+}

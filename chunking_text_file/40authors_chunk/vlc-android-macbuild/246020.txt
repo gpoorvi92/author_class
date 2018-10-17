@@ -1,0 +1,10 @@
+         * http://v.iask.com/v_play.php?vid=78817175
+         * http://hot.vrs.sohu.com/vrs_flash.action?vid=717069
+         * http://cache.video.qiyi.com/v/6fb817df2a5c4e9fac8fa9e6af5c5935
+         * http://vdn.apps.cntv.cn/api/getHttpVideoInfo.do?pid=9f2f1704cae745cb99be4ceb207d0f97
+         */
+        mIndexResolver.parseIndexMrl(mRawVideoMrl);
+        mVideoMrl = mIndexResolver.getIndexMrlForVlcPlayer();
+    }
+
+    @SuppressWarnings("deprecation")

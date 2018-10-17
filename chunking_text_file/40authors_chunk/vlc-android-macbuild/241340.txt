@@ -1,0 +1,10 @@
+     * TextView setText
+     */
+    public static void setText(Activity container, int id, int resource) {
+        if (container == null)
+            return;
+
+        setText(container, id, container.getString(resource));
+    }
+
+    public static void setText(View container, int id, int resource) {

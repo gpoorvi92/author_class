@@ -1,0 +1,10 @@
+        {
+            this.suffixes = new String[suffixes.length];
+            System.arraycopy(suffixes, 0, this.suffixes, 0, suffixes.length);
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public SuffixFileFilter(List suffixes)
+    {

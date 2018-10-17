@@ -1,0 +1,10 @@
+
+		public int getCount() {
+
+			return mViews.size();
+		}
+
+		public Object instantiateItem(View arg0, int arg1) {
+			((ViewPager) arg0).addView(mViews.get(arg1));
+			return mViews.get(arg1);
+

@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public AllowedValue(Node node)
+	{
+		allowedValueNode = node;
+	}
+
+	/**
+	 * Create an AllowedValue by the value String,
+	 * and will create the Node structure by itself

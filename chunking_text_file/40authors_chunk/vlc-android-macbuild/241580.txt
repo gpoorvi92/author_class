@@ -1,0 +1,10 @@
+/*****************************************************************************
+ * DefMediaPlayer.java
+ * https://github.com/tewilove/faplayer
+ * 
+ * Modified:
+ *  - 2012-03-13 --bbcallen <bbcallen@gmail.com>
+ *      remove unused methods and fields
+ *****************************************************************************
+ * Copyright © 2011-2012 tewilove <tewilove@gmail.com>
+ *

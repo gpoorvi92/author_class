@@ -1,0 +1,10 @@
+ *
+ * @author Daniel Lemire
+ * @since 0.1.0
+ */
+public final class EWAHIterator implements Cloneable {
+
+    /**
+     * Instantiates a new EWAH iterator.
+     *
+     * @param buffer      the buffer

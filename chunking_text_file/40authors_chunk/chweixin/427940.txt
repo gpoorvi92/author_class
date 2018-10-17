@@ -1,0 +1,10 @@
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+	/**
+	 * 获取首次关注时间。
+	 * @return 首次关注时间。
+	 * */
+	public Date getCreateTime() {
+		return createTime;
+	}

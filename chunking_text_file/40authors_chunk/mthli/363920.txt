@@ -1,0 +1,10 @@
+ */
+public class OptionDialogFrame extends JFrame
+{
+   private ButtonPanel typePanel;
+   private ButtonPanel messagePanel;
+   private ButtonPanel messageTypePanel;
+   private ButtonPanel optionTypePanel;
+   private ButtonPanel optionsPanel;
+   private ButtonPanel inputPanel;
+   private String messageString = "Message";

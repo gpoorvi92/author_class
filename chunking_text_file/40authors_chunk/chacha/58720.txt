@@ -1,0 +1,10 @@
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
+/**
+ * 回应消息基类
+ *	@author: Fully
+ */
+public class Response implements JsonConvert{
+	protected int result;				//返回码

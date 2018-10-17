@@ -1,0 +1,10 @@
+/**
+ * This is a simple implementation of the JposServiceConnection interface
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public class SimpleServiceConnection extends Object 
+									  implements JposServiceConnection
+{
+    /**
+     * Creates a new SimpleServiceConnection by passing the logicalName, 

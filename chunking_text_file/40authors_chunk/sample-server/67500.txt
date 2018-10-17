@@ -1,0 +1,10 @@
+    {
+        return sortFlag;
+    }
+    public void setSortFlag(int sortFlag)
+    {
+        this.sortFlag = sortFlag;
+    }
+    public Integer getZoneId()
+    {
+        return zoneId;

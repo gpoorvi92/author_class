@@ -1,0 +1,9 @@
+	public String getUrl() {
+		return url;
+	}
+
+	public int getMaxAttachmentSizeInBytes() {
+		return maxAttachmentSizeInBytes;
+	}
+
+}

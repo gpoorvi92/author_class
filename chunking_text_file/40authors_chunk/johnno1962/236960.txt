@@ -1,0 +1,10 @@
+
+    CanvasProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public java.awt.Canvas(java.awt.GraphicsConfiguration)
+
+    CanvasProxy( java.awt.GraphicsConfiguration config , long swiftObject ) {
+        super( config );

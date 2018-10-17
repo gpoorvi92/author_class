@@ -1,0 +1,10 @@
+
+	public boolean open() 
+	{
+		return open(SSDP.PORT);
+	}
+		
+	public void close()
+	{
+		int nSockets = size();
+		for (int n=0; n<nSockets; n++) {

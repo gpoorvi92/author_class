@@ -1,0 +1,10 @@
+	 * 返回格式：yyyy-MM-dd
+	 * @return
+	 */
+	public static String getLastMonthDate(){
+		Calendar calendar = Calendar.getInstance();
+		calendar.add(Calendar.DATE, -1);    //得到前一天
+		calendar.add(Calendar.MONTH, -1);    //得到前一个月
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH);
+		int date = calendar.get(Calendar.DATE);

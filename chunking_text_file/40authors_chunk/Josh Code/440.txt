@@ -1,0 +1,10 @@
+   {
+       Vector3D v1 = t1.getCentre();
+       Vector3D v2 = t2.getCentre();
+         if (v1.z>v2.z)
+             return 1;
+         else if (v1.z<v2.z)
+             return -1;
+         else
+            return 0;
+   }

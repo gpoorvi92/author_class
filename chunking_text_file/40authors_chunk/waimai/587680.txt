@@ -1,0 +1,9 @@
+        // 输出图路径
+        this.output = output;
+        // 设置图片长宽
+        setWidthAndHeight(width, height);
+        // 是否是等比缩放 标记
+        this.proportion = gp;
+        return compressPicWithInputStream();
+    }
+}

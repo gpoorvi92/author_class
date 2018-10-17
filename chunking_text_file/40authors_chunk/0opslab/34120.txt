@@ -1,0 +1,10 @@
+            for (int i = 0; i < bytes.length; i++) {
+                chars[i] = (char) bytes[i];
+            }
+        }
+        return chars;
+    }
+
+    /**
+     * 字节数组和整型的转换
+     */

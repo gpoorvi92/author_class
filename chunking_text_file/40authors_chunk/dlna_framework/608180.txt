@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	// SSDPSearchSocket
+	////////////////////////////////////////////////
+	
+	private SSDPSearchSocketList ssdpSearchSocketList = null;
+	private String ssdpMulticastIPv4 = SSDP.ADDRESS;
+	private String ssdpMulticastIPv6 = SSDP.getIPv6Address();
+	private int ssdpPort = SSDP.PORT;
+	private InetAddress[] ssdpBinds = null;

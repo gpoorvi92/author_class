@@ -1,0 +1,7 @@
+
+    private final File file;
+    private final long delay;
+    private final boolean end;
+    private final TailerListener listener;
+    private volatile boolean run;
+}

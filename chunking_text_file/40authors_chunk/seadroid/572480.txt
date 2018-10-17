@@ -1,0 +1,10 @@
+     * @param repoID
+     * @param dir
+     * @return List<DownloadTaskInfo>
+     */
+    public List<DownloadTaskInfo> getTaskInfoListByPath(String repoID, String dir) {
+        ArrayList<DownloadTaskInfo> infos = Lists.newArrayList();
+        for (TransferTask task : allTaskList) {
+            if (!task.getRepoID().equals(repoID))
+                continue;
+

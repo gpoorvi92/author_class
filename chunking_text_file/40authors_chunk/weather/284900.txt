@@ -1,0 +1,10 @@
+    private String cityId;
+
+    public DailyProvider(DataConsumer consumer,String cityId) {
+        super(consumer);
+        this.cityId = cityId;
+    }
+
+    @Override
+    public void doLoadNew() {
+        super.doLoadNew();

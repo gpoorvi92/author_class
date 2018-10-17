@@ -1,0 +1,10 @@
+package com.lz.center.entity;
+import com.lz.center.ToDtoable;
+import com.lz.game.rpc.RpcDto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.util.Date;
+/**
+ * UserEntity: Teaey

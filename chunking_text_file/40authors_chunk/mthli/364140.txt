@@ -1,0 +1,10 @@
+                  OptionDialogFrame.this, getMessage(), "Title", getType(messageTypePanel));
+            else JOptionPane.showInputDialog(OptionDialogFrame.this, getMessage(), "Title",
+                  getType(messageTypePanel), null, new String[] { "Yellow", "Blue", "Red" },
+                  "Blue");
+         }
+         else if (typePanel.getSelection().equals("Message")) JOptionPane.showMessageDialog(
+               OptionDialogFrame.this, getMessage(), "Title", getType(messageTypePanel));
+         else if (typePanel.getSelection().equals("Option")) JOptionPane.showOptionDialog(
+               OptionDialogFrame.this, getMessage(), "Title", getType(optionTypePanel),
+               getType(messageTypePanel), null, getOptions(), getOptions()[0]);

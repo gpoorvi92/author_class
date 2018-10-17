@@ -1,0 +1,10 @@
+  {
+    this();
+    this.engineName = engineName;
+    this.version = version;
+    this.update = update;
+    this.result = result;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.

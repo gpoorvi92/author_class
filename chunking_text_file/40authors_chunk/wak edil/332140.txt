@@ -1,0 +1,10 @@
+											  "\n\tSelangor."+
+											  "\n\n\t Tel : 03-89386655"+
+											  "\n-------------------------------------------------------------");
+	private JTextArea jtaAll=new JTextArea(50,50);
+	private JButton btnPrint = new JButton("Print");
+	
+    public Report() {
+    }
+    
+    public Report(String numtable,String numperson,String datetime,String all,String sub,String tax,String total)

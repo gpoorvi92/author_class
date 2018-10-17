@@ -1,0 +1,10 @@
+    private void setupDimension() {
+        ParcelFileDescriptor input = null;
+        try {
+            input = mContentResolver.openFileDescriptor(mUri, "r");
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            BitmapManager.instance().decodeFileDescriptor(
+                    input.getFileDescriptor(), options);
+            mWidth = options.outWidth;
+            mHeight = options.outHeight;

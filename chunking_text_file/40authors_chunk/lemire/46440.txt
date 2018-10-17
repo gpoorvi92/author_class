@@ -1,0 +1,10 @@
+     * Resizes the buffer if the number of words to add exceeds the buffer capacity.
+     * @param number the number of words to add
+     */
+    private void resizeBuffer(int number) {
+        int size = newSizeInWords(number);
+        if (size >= this.buffer.length) {
+            long oldBuffer[] = this.buffer;
+            this.buffer = new long[size];
+            System.arraycopy(oldBuffer, 0, this.buffer, 0, oldBuffer.length);
+        }

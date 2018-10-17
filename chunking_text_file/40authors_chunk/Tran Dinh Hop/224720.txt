@@ -1,0 +1,10 @@
+import com.sun.media.jai.codec.FileSeekableStream;
+import com.sun.media.jai.codec.SeekableStream;
+
+public class JAIImageReader {
+	
+	public static PlanarImage readImage(String filename) {
+		PlanarImage image = null;
+		
+		// Use the JAI API unless JAI_IMAGE_READER_USE_CODECS is set
+		if (System.getProperty("JAI_IMAGE_READER_USE_CODECS") == null) {

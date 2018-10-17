@@ -1,0 +1,8 @@
+	 * @return
+	 * @return: boolean
+	 */
+	protected boolean canAccess() {
+		
+		return "1".equals(getSession().getAttribute(SESSION_KEY_AUTH));
+	}
+}

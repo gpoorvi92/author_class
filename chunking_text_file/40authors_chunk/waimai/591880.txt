@@ -1,0 +1,10 @@
+public class RemarkServiceImpl implements IRemarkService {
+    @Autowired
+    private RemarkMapper remarkMapper;
+    @Autowired
+    private GoodsMapper goodsMapper;
+
+    @Override
+    public List<Remark> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<Remark> remarkList = remarkMapper.findPageBreakByCondition(vo, rb);

@@ -1,0 +1,10 @@
+ without using extra memory?
+
+ Solution: 1. Count the number of each bit.
+        2. We can improve this based on the previous solution using three bitmask variables.
+        3. An excellent answer by @ranmocy in LeetCode Discuss:
+        https://oj.leetcode.com/discuss/857/constant-space-solution?show=2542#a2542
+*/
+public class Solution {
+    public int singleNumber_1(int[] A) {
+        int res = 0;

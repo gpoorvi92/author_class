@@ -1,0 +1,10 @@
+	
+	/*
+	 * 定义方法fib(int n)
+	 * fib(n)表示是第n个月的兔子对数。
+	 * 请问，n-1和n-2个月的兔子对数如何表示呢?
+	 * fib(n-1),fib(n-2)
+	 */
+	public static int fib(int n){
+		if(n==1 || n==2){
+			return 1;

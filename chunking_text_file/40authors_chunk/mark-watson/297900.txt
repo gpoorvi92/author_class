@@ -1,0 +1,10 @@
+   * 
+   * @param document_original_uri
+   * @param document_plain_text
+   * @throws org.apache.lucene.index.CorruptIndexException
+   * @throws java.io.IOException
+   */
+  public void addDocumentToIndex(String document_original_uri, String document_plain_text) throws CorruptIndexException, IOException {
+      File index_dir = new File(data_store_file_root + "/lucene_index");
+      writer = new IndexWriter(index_dir, new StandardAnalyzer(), false);
+      Document doc = new Document();

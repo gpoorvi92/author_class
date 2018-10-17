@@ -1,0 +1,10 @@
+  public String toString() {
+    StringBuilder sb = new StringBuilder("AppCheckResult(");
+    boolean first = true;
+
+    sb.append("userApp:");
+    if (this.userApp == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.userApp);
+    }

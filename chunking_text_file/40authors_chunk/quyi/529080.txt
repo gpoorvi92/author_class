@@ -1,0 +1,10 @@
+    this.app_description = app_description;
+    this.requestPurviews = requestPurviews;
+    this.format = format;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public UserApp(UserApp other) {
+    __isset_bitfield = other.__isset_bitfield;

@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public void setControlPoint(ControlPoint ctrlPoint)
+	{
+		int nSockets = size();
+		for (int n=0; n<nSockets; n++) {
+			SSDPNotifySocket sock = getSSDPNotifySocket(n);
+			sock.setControlPoint(ctrlPoint);
+		}
+	}

@@ -1,0 +1,10 @@
+
+	@Override
+	public View getGroupView(final int pGroupPosition, final boolean pIsExpanded, final View pConvertView, final ViewGroup pParent) {
+		final View groupView;
+		if (pConvertView != null){
+			groupView = pConvertView;
+		}else{
+			groupView = LayoutInflater.from(this.mContext).inflate(R.layout.listrow_examplegroup, null);
+		}
+

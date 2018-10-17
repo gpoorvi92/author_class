@@ -1,0 +1,10 @@
+			logger.warn(msg);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.log.ILog#Warning(java.lang.String, java.lang.Throwable)
+	 */
+	@Override
+	public void warn(String msg, Throwable t) {
+		
+		if (logger.isWarnEnabled())

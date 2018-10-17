@@ -1,0 +1,10 @@
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是取消键
+				recoverGame();
+			}			
+		}
+		return true;
+	}
+	//方法：升级将军的敏捷度
+	public void upgradeGeneralAgility(){
+		int size = tempHero.generalList.size();
+		int r = (int)(Math.random()*100)%size;//随机算出哪位将军属性提高

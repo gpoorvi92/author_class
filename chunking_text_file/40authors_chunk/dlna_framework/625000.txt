@@ -1,0 +1,10 @@
+	
+	public int getHeight()
+	{
+		try {
+			return Integer.parseInt(getIconNode().getNodeValue(HEIGHT));
+		}
+		catch (Exception e) {};
+		return 0;
+	}
+

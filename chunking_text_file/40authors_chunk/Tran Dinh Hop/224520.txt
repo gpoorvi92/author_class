@@ -1,0 +1,10 @@
+
+		if(!hasCode(code)) 
+			System.err.print("Tried to Fetch entry that is not in Dictionary"); 
+
+		HashNode current = data[hashCode]; 
+
+		while(!current.hasCode(code)) 
+		{ 
+			current = current.getNext(); 
+		} 

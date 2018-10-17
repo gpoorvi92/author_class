@@ -1,0 +1,10 @@
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.util.*;
+/**
+ * User: Teaey
+ * Date: 13-8-27
+ */
+@Controller
+@RequestMapping("/bulletin")
+public class BulletinController

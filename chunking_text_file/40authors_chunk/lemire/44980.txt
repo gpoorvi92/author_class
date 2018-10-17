@@ -1,0 +1,10 @@
+     *
+     * @return the int
+     */
+    public int size() {
+        return this.RunningLength + this.NumberOfLiteralWords;
+    }
+
+    /*
+     * @see java.lang.Object#toString()
+     */

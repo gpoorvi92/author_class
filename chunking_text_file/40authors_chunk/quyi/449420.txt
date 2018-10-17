@@ -1,0 +1,10 @@
+    {
+      operateEngine_result result = new operateEngine_result();
+      receiveBase(result, "operateEngine");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }
+      if (result.ire != null) {
+        throw result.ire;
+      }
+      if (result.ue != null) {

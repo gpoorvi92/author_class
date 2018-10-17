@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public void closeTopicListener() throws MQException {
+
+		if (subscriber != null) {
+			try {
+				
+				subscriber.close();
+				subscriber = null;
+			} catch (JMSException e) {

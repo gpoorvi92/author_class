@@ -1,0 +1,10 @@
+ * 好处：
+ * 		简化了数组和Collection集合的遍历。
+ * 
+ * 注意事项：增强for的目标要判断是否为null
+ * 增强for遍历集合，其实是用来替代迭代器。
+ * 
+ * Collection：迭代器，增强for
+ * List及其子类：迭代器，增强for，普通for
+ */
+public class ForDemo {

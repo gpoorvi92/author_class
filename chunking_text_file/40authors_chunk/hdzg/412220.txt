@@ -1,0 +1,10 @@
+		this.intelligence = intelligence;
+		this.agility = agility;
+		this.strength = strength;
+		this.level = level;
+	}
+	public int getMaxStrength() {
+		return maxStrength;
+	}
+	public void setMaxStrength(int maxStrength) {
+		this.maxStrength = maxStrength;

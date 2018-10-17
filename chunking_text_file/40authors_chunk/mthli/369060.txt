@@ -1,0 +1,10 @@
+      StringBuilder s = new StringBuilder();
+      s.append("new double[] {");
+      for (int i = 0; i < values.length; i++)
+      {
+         if (i > 0) s.append(", ");
+         s.append(values[i]);
+      }
+      s.append("}");
+      return s.toString();
+   }

@@ -1,0 +1,10 @@
+    /**
+     * @return the JposRegPopulator for this registry
+     * @since 1.2 (NY 2K meeting)
+     */
+    public JposRegPopulator getRegPopulator();
+
+	/**
+	 * @return the current size of the registry 
+	 * @since 1.3 (Tokyo 2001 meeting)
+	 */

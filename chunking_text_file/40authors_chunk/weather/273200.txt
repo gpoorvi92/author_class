@@ -1,0 +1,10 @@
+package com.weico.core.utils;
+
+import android.content.Context;
+
+import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;

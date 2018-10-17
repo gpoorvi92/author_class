@@ -1,0 +1,10 @@
+/**
+ * @ClassName: MediaEncrypt
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2015年1月5日 下午10:40:13
+ */
+public final class MediaEncrypt {
+
+	private final static ILog logger = LogFactory.getLog(MediaEncrypt.class);
+	private static boolean gJNILoaded = false;

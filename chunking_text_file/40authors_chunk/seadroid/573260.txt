@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.data.SeafRepo;
+import com.seafile.seadroid2.data.SearchedFile;
+import com.seafile.seadroid2.ui.activity.SearchActivity;
+import com.seafile.seadroid2.util.Utils;
+
+import java.util.List;
+
+/**
+ * Adapter for search list
+ *

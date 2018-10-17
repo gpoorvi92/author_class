@@ -1,0 +1,10 @@
+	/**
+	 * 获取地理位置信息。
+	 * @return 地理位置信息。
+	 * */
+	public String getLabel() {
+		return label;
+	}
+	/**
+	 * 设置地理位置信息。
+	 * @param label

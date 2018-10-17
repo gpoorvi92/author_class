@@ -1,0 +1,10 @@
+	 * @return
+	 * 	视频消息对象。
+	 * */
+	public static VideoReqMessage parseVideoReqMessage(Map<String, String> data){
+		VideoReqMessage videoReqMessage = new VideoReqMessage();
+		//
+		parseReqMessage(videoReqMessage,data);
+		//
+		videoReqMessage.setMediaId(data.get("MediaId"));
+		videoReqMessage.setThumbMediaId(data.get("ThumbMediaId"));

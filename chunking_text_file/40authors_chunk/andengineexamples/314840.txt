@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+
+	public void set(final int pPaddleID, final int pScore) {
+		this.mPaddleID = pPaddleID;
+		this.mScore = pScore;
+	}
+

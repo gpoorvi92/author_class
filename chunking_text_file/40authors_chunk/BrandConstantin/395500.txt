@@ -1,0 +1,10 @@
+/**
+ * Escribe un programa que pida una base y un exponente (entero positivo) y que 
+ * calcule la potencia.
+ * 
+ * @author costy
+ */
+import java.util.Scanner;
+
+public class CalcularPotenciaConDoWhile {
+  public static void main(String[] args) {   

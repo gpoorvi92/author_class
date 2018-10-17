@@ -1,0 +1,10 @@
+		}
+
+		try {
+			jobId = taskClient.submitJobForMission(0, AppType.APK, JobLifecycle.ANALYSIS, jobPhaseList, JobDistributionMode.PARALLEL,
+					com.softsec.tase.common.rpc.domain.job.JobPriority.MEDIUM, jobOpList, jobRescList, jobParameterList, 5000L, null);
+		} catch (InvalidRequestException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (UnavailableException e) {
+			// TODO Auto-generated catch block

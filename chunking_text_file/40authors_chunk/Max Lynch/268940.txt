@@ -1,0 +1,10 @@
+
+public class RenderMediator {
+	
+	
+	private RenderSurface renderSurface;
+	
+	public RenderMediator(GraphicsFrame frame){
+		renderSurface = frame.getRenderSurface();
+	
+	

@@ -1,0 +1,10 @@
+       EWAHCompressedBitmap32 x= b.clone();
+       x.not();
+       assertTrue(x.equals(neg));
+       for(int k = 145; k<1024; ++k)
+           b.set(k);
+       n = IteratorUtil32.materialize(b.getIteratingRLW());
+       assertTrue(n.sizeInBits()/64 * 64 == n.sizeInBits());
+       n.setSizeInBitsWithinLastWord(b.sizeInBits());
+       assertTrue(n.sizeInBits() == b.sizeInBits());
+       assertTrue(n.equals(b));

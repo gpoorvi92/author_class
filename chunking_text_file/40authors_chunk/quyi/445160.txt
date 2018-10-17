@@ -1,0 +1,10 @@
+      if (struct.isSetDynamicCheckResult()) {
+        optionals.set(2);
+      }
+      oprot.writeBitSet(optionals, 3);
+      if (struct.isSetUserApp()) {
+        struct.userApp.write(oprot);
+      }
+      if (struct.isSetStaticCheckResult()) {
+        struct.staticCheckResult.write(oprot);
+      }

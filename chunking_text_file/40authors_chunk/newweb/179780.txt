@@ -1,0 +1,10 @@
+	@Override
+	public boolean insert(Small small) {
+		try {
+			sessionFactory.getCurrentSession().save(small);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+

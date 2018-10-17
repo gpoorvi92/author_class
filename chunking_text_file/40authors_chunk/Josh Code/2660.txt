@@ -1,0 +1,10 @@
+                }
+                else
+                {
+                   chooser.setFileFilter(m);
+                    firstSet = true;               
+                }
+            }
+        }
+        if (mfsff != null)
+            chooser.setFileFilter(mfsff);

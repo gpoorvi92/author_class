@@ -1,0 +1,10 @@
+
+	public void setValue(String value) 
+	{
+		getArgumentData().setValue(value);
+	}
+	
+	public void setValue(int value) 
+	{
+		setValue(Integer.toString(value));
+	}

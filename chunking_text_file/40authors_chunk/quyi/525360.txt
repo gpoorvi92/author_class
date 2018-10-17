@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		} catch (TException e) {
+			e.printStackTrace();
+		} finally {
+			transport.close();
+		}
+	}
+
+	@Test
+	public void testSubmitContext001() {

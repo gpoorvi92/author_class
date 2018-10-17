@@ -1,0 +1,10 @@
+		choicePanel.add(style);
+		
+		
+		
+		add(choicePanel, BorderLayout.NORTH);
+		add(drawPanel, BorderLayout.CENTER);
+	
+		
+		
+		

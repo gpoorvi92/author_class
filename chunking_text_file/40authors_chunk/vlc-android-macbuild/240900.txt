@@ -1,0 +1,10 @@
+            IllegalArgumentException, IllegalStateException;
+
+    public abstract void setDisplay(SurfaceHolder holder);
+
+    public abstract void setAudioStreamType(int streamMusic);
+
+    public abstract void setScreenOnWhilePlaying(boolean screenOn);
+
+    public abstract void enableLog(boolean enable);
+

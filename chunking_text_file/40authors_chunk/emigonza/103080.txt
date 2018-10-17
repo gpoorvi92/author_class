@@ -1,0 +1,7 @@
+    /////////////////////////////////////////////////////////////////////
+    // "ResultCodeExtended" Property Constants for Hard Totals
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int JPOS_ETOT_NOROOM     = 1 + JposConst.JPOSERREXT; // Create, Write
+    public static final int JPOS_ETOT_VALIDATION = 2 + JposConst.JPOSERREXT; // Read, Write
+}

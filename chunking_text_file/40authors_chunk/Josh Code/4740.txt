@@ -1,0 +1,10 @@
+      if (subtrees[subtreeIndex] == null)
+      {
+          subtrees[subtreeIndex] = new Vector3DTree(v);
+          numVectors++;
+          return true;
+      }
+      else
+      {
+          if (subtrees[subtreeIndex].add(v))
+          {

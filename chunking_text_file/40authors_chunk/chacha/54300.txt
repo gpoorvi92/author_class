@@ -1,0 +1,10 @@
+ */
+public class AbstractMapperDAO {
+	protected final LogPrn log = new LogPrn(getClass());
+    protected static String dbServerIP="127.0.0.1";
+    protected static int dbServerPort=27017;
+    protected static String dbName="chacha";
+    protected static String connectionDescriptor=null;
+    protected static ConnectionImpl connection=new ConnectionImpl();
+    
+	static{

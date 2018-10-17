@@ -1,0 +1,10 @@
+     *
+     * @param buffer      the buffer
+     */
+    public ReverseEWAHIterator32(final Buffer32 buffer) {
+        this.pointer = 0;
+        this.rlw = new RunningLengthWord32(buffer, this.pointer);
+        this.positions = new Stack<Integer>();
+        this.positions.ensureCapacity(buffer.sizeInWords());
+        while(this.pointer < buffer.sizeInWords()) {
+            this.positions.push(this.pointer);

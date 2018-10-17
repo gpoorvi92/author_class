@@ -1,0 +1,10 @@
+                                          String dateTime,
+                                          String markerNumber,
+                                          String[] marker)
+                     throws JposException;
+  public void    retrieveMarkersDateTime(String marker,
+                                         String[] dateTime)
+                     throws JposException;
+  public void    retrieveStatistics(String[] statisticsBuffer)
+                     throws JposException;
+  public void    suspendPrintContent()

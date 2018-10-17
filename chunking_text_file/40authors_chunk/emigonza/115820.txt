@@ -1,0 +1,10 @@
+    public void    setMapMode(int mapMode) throws JposException;
+    public int     getMaxLines() throws JposException;
+    public int     getOutputID() throws JposException;
+    public int     getPowerNotify() throws JposException;
+    public void    setPowerNotify(int powerNotify) throws JposException;
+    public int     getPowerState() throws JposException;
+    public int     getPrintHeight() throws JposException;
+    public int     getReadState1() throws JposException;
+    public int     getReadState2() throws JposException;
+    public int     getRecvLength1() throws JposException;

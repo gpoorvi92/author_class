@@ -1,0 +1,10 @@
+            }
+          }
+        }
+        if (struct.isSetStcRD()) {
+          struct.stcRD.write(oprot);
+        }
+        if (struct.isSetDycRD()) {
+          struct.dycRD.write(oprot);
+        }
+        if (struct.isSetVirRD()) {

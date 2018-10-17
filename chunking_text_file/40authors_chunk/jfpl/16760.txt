@@ -1,0 +1,10 @@
+									ctx.runJavascript(js);
+								} catch (JSONException e) {
+									SystemUtil.printException(e, "w");
+								}
+							}
+						});
+			}
+		} catch (JSONException e) {
+			SystemUtil.printException(e, "w");
+		}

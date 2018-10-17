@@ -1,0 +1,10 @@
+        this.mFiles = files;
+        notifyDataSetChanged();
+    }
+
+    public List<SelectableFile> getListItems() {
+        return mFiles;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {

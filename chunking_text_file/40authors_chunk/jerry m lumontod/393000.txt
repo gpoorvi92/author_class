@@ -1,0 +1,10 @@
+		mstrSQL = tstrSQL;
+
+		//Thread runner = new Thread() {
+
+		//	public void run() {
+
+				try {
+
+					Class.forName("com.mysql.jdbc.Driver").newInstance();			
+					Connection conn=DriverManager.getConnection("jdbc:mysql://localhost/eis?user=root&password=");

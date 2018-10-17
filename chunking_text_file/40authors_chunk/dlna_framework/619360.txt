@@ -1,0 +1,10 @@
+import org.cybergarage.upnp.device.*;
+
+public class SSDPSearchRequest extends SSDPRequest
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+
+	public SSDPSearchRequest(String serachTarget, int mx)
+	{

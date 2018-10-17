@@ -1,0 +1,10 @@
+          struct.virRD.write(oprot);
+        }
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, updateUserAppInfo_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+        struct.userAppId = iprot.readString();

@@ -1,0 +1,8 @@
+								   	 "Character", 
+							     	 "Double", 
+							     	 "Float", 
+							     	 "Integer", 
+							     	 "Long", 
+							     	 "Short" 
+							       };
+}

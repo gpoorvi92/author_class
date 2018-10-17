@@ -1,0 +1,10 @@
+
+/**
+ * Created by qihigh on 6/5/14.
+ * Modified by ____.
+ */
+public class RequestParams extends LinkedHashMap<String, Object> {
+    public void add(String key, Object obj) {
+        put(key, obj);
+    }
+

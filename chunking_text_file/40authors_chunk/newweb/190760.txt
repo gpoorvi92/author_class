@@ -1,0 +1,10 @@
+		response.setCharacterEncoding("UTF-8");
+		String id = request.getParameter("id");
+		synchronized (id) {
+			String priceStr = request.getParameter("price");
+			String materialBrandStr = request.getParameter("materialBrand");
+			PrintWriter out = response.getWriter();
+			if(priceStr.equals("") || materialBrandStr.trim().equals("")){
+				out.write("failed服务器返回:零售价,品牌不能有空值");
+				return null;
+			}

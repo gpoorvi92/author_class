@@ -1,0 +1,10 @@
+			synchronized (serverThread.messages) {
+				if(serverThread.messages.isEmpty()){
+					continue;
+				}else{
+					str = (String)serverThread.messages.firstElement();
+					serverThread.messages.removeElement(str);
+					if(str.contains("@clientThread")){
+						flag = false;
+					}
+				}

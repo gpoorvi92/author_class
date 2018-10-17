@@ -1,0 +1,10 @@
+
+    private static <I extends AsyncIface> Map<String,  org.apache.thrift.AsyncProcessFunction<I, ? extends  org.apache.thrift.TBase,?>> getProcessMap(Map<String,  org.apache.thrift.AsyncProcessFunction<I, ? extends  org.apache.thrift.TBase, ?>> processMap) {
+      processMap.put("issuedMessage", new issuedMessage());
+      processMap.put("operateEngine", new operateEngine());
+      processMap.put("searchApp", new searchApp());
+      processMap.put("searchMission", new searchMission());
+      processMap.put("searchAllEng", new searchAllEng());
+      processMap.put("searchEng", new searchEng());
+      processMap.put("ruleSync", new ruleSync());
+      return processMap;

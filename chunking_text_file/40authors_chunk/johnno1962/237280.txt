@@ -1,0 +1,10 @@
+
+/// interface com.apple.eawt.FullScreenListener ///
+
+package org.genie.com_apple;
+
+public class FullScreenListenerProxy implements com.apple.eawt.FullScreenListener {
+
+    long swiftObject;
+
+    FullScreenListenerProxy( long swiftObject ) {

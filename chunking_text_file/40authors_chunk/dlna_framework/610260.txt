@@ -1,0 +1,10 @@
+		if(min!=null)
+			setMinimum(min.toString());
+		if(step!=null)
+			setStep(step.toString());
+	}
+
+	public static boolean isAllowedValueRangeNode(Node node)
+	{
+		return ELEM_NAME.equals(node.getName());
+	}

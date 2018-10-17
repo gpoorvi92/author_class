@@ -1,0 +1,10 @@
+
+    /**
+     * NIO way
+     *
+     * @param filename
+     * @return
+     * @throws IOException
+     */
+    public static byte[] toByteArray2(String filename) throws IOException {
+

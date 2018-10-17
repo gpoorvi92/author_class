@@ -1,0 +1,10 @@
+    /**
+     * build the heap...
+     */
+    public void buildHeap() {
+        for (int i = this.lastIndex / 2; i > 0; --i) {
+            percolateDown(i);
+        }
+    }
+
+    /**

@@ -1,0 +1,10 @@
+		}
+
+		void setIsToShutdown() {
+			this.toShutdown = true;
+		}
+
+		static TerminationToken newInstance(ExecutorService executorSerivce) {
+			TerminationToken token = INSTANCES_MAP.get(executorSerivce);
+			if (null == token) {
+				token = new TerminationToken();

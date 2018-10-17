@@ -1,0 +1,10 @@
+            return;
+        }
+
+        // Open markdown files in MarkdownActivity
+        if (suffix.endsWith("md") || suffix.endsWith("markdown")) {
+            startMarkdownActivity(activity, file.getPath());
+            activity.finish();
+            activity.overridePendingTransition(0, 0);
+            return;
+        }

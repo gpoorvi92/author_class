@@ -1,0 +1,10 @@
+		main(String[] args):
+*/
+//√®¿‡
+class Cat {
+	private String name;
+	private int age;
+
+	public Cat() {}
+
+	public Cat(String name,int age) {

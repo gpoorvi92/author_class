@@ -1,0 +1,10 @@
+		String value = sp.getString(key, "");
+		return value;
+	}
+
+	public static void saveKeyValue(Context ctx, String[] keys, String[] values) {
+		if (keys.length != values.length) {
+			return;
+		}
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(ctx);

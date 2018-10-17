@@ -1,0 +1,10 @@
+              struct.setPakIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // OBJ
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.obj = iprot.readString();
+              struct.setObjIsSet(true);
+            } else { 

@@ -1,0 +1,10 @@
+
+	@Override
+	public List<Small> selectAllSmalls() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_small where valid=true order by buycount desc,type desc,CONVERT(name USING GBK)")
+				.addEntity(Small.class);
+		return query.list();
+	}
+
+	@Override
+	public List<Small> selectSmallsByType(String type) {

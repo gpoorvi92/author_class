@@ -1,0 +1,10 @@
+    private Condition newCondition = lock.newCondition();
+
+    public void waitMethod() {
+        try {
+            lock.lock();
+            System.out.println("before await " + Thread.currentThread().getName());
+            newCondition.await();
+            System.out.println("after  await " + Thread.currentThread().getName());
+        } catch (InterruptedException e) {
+            e.printStackTrace();

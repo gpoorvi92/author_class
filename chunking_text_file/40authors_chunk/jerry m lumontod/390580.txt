@@ -1,0 +1,10 @@
+			return d.compareTo(cmp2) * m_multiplier;
+		}
+
+		else if (cmp1 instanceof String) {
+			String s = (String)cmp1;
+			return s.compareTo(cmp2.toString()) * m_multiplier;
+		}
+
+		String s = cmp1.toString();
+		return s.compareTo(cmp2.toString()) * m_multiplier;

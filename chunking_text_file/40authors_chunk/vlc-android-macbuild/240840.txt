@@ -1,0 +1,10 @@
+
+    public interface OnSeekCompleteListener {
+        public abstract void onSeekComplete(AbsMediaPlayer mp);
+    }
+
+    public abstract int getCurrentPosition();
+
+    public abstract int getDuration();
+
+    public abstract int getVideoHeight();

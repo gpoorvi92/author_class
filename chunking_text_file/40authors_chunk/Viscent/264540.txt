@@ -1,0 +1,10 @@
+			}
+			return;
+		}
+
+		alarmClient.doSomething(dbConn);
+
+	}
+
+	// 获取数据库连接
+	private Connection retrieveDBConnection() throws Exception {

@@ -1,0 +1,10 @@
+	            Argument outArg = outArgList.getArgument(argName);
+	            if (outArg == null)
+	                throw new IllegalArgumentException("Argument \"" + argName + "\" missing.");
+	            arg.setValue(outArg.getValue());
+            }
+        }
+	}
+
+
+}

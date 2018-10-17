@@ -1,0 +1,10 @@
+    }
+
+    public PhotoSize thumb() {
+        return thumb;
+    }
+
+    public String mimeType() {
+        return mime_type;
+    }
+

@@ -1,0 +1,10 @@
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    /**
+     * 
+     */
+    public FastTag() {

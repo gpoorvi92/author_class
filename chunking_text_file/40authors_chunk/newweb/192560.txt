@@ -1,0 +1,10 @@
+	public String home(HttpServletRequest request, HttpServletResponse response,
+			Locale locale, Model model) {
+		String url = request.getParameter("url");
+		return "page/login/login.jsp?reqUrl=" + url;
+	}
+	
+	/**
+	 * 用户登陆的逻辑处理
+	 * 返回ajax请求
+	 * @param locale

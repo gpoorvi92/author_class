@@ -1,0 +1,10 @@
+  public void setFreeMemIsSet(boolean value) {
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __FREEMEM_ISSET_ID, value);
+  }
+
+  public double getJvmFreeMem() {
+    return this.jvmFreeMem;
+  }
+
+  public NodeHeat setJvmFreeMem(double jvmFreeMem) {
+    this.jvmFreeMem = jvmFreeMem;

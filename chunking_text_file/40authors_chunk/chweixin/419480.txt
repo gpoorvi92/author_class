@@ -1,0 +1,10 @@
+package ipower.wechat.modal;
+
+import ipower.model.IPaging;
+import ipower.wechat.domain.Picture;
+
+/**
+ * 图片信息。
+ * @author yangyong.
+ * @since 2014-04-08.
+ * */

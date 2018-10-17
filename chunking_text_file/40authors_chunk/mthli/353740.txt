@@ -1,0 +1,10 @@
+
+      // new class names are typed into this text field
+      textField = new JTextField(20);
+      textField.addActionListener(addListener);
+      panel.add(textField);
+
+      JButton addButton = new JButton("Add");
+      addButton.addActionListener(addListener);
+      panel.add(addButton);
+

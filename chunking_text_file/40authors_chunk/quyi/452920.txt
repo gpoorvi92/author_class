@@ -1,0 +1,10 @@
+          }
+          oprot.writeFieldEnd();
+        }
+        if (struct.rules != null) {
+          oprot.writeFieldBegin(RULES_FIELD_DESC);
+          {
+            oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, struct.rules.size()));
+            for (String _iter42 : struct.rules)
+            {
+              oprot.writeString(_iter42);

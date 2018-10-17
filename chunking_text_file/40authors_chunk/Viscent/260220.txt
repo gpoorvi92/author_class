@@ -1,0 +1,10 @@
+				sectionName = this.makeNewSectionDir();
+
+			} else {
+				sectionName = sectionNames.getLast();
+			}
+
+			return sectionName;
+		}
+
+		private String makeNewSectionDir() {

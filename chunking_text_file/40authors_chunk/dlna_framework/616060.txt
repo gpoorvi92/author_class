@@ -1,0 +1,10 @@
+*	11/27/02
+*		- first revision.
+*
+******************************************************************/
+
+package org.cybergarage.xml;
+
+import java.util.Vector;
+
+public class NodeList extends Vector 

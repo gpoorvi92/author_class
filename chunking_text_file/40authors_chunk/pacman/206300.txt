@@ -1,0 +1,10 @@
+	 * 
+	 * 
+	 * @Title: buildFlvSlicerCommand
+	 * @param flvFile
+	 * @return
+	 * @return: String
+	 */
+	public static String buildFlvSlicerCommand(String flvFile) {
+		
+		return ShellCommand.create(PYTHON_TOOL)

@@ -1,0 +1,10 @@
+			}
+		}
+		return convertView;
+	}
+
+	public static class ChatViewHolder {
+		public LinearLayout chatLayout;
+		public LinearLayout chatBgLayout;
+		public ImageView sendFinishState;
+		public ProgressBar sendState;

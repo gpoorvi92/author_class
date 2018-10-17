@@ -1,0 +1,10 @@
+      parser = new EncodingParser(lexer);
+      csName = parser.htmlDocument();
+      if (csName != null) {
+        // TODO: prepare document with illegal value, then test: Decide to catch
+        // exception and return
+        // UnsupportedCharset.
+        try {
+          charset = Charset.forName(csName);
+        } catch (UnsupportedCharsetException uce) {
+          charset = UnsupportedCharset.forName(csName);

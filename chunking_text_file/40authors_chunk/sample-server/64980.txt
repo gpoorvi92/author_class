@@ -1,0 +1,10 @@
+                } catch (IOException e)
+                {
+                }
+            }
+            if (null != out)
+            {
+                try
+                {
+                    out.close();
+                } catch (IOException e)

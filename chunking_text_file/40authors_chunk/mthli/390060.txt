@@ -1,0 +1,10 @@
+            new Rule("SRC_OVER", " S", "DS"), new Rule("DST_OVER", " S", "DD"),
+            new Rule("SRC_IN", "  ", " S"), new Rule("SRC_OUT", " S", "  "),
+            new Rule("DST_IN", "  ", " D"), new Rule("DST_OUT", "  ", "D "),
+            new Rule("SRC_ATOP", "  ", "DS"), new Rule("DST_ATOP", " S", " D"),
+            new Rule("XOR", " S", "D "), });
+      ruleCombo.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               Rule r = (Rule) ruleCombo.getSelectedItem();

@@ -1,0 +1,10 @@
+
+	@AfterViews
+	void initConfig(){
+		
+		/** IWXAPI 是第三方app和微信通信的openapi接口 */
+		api = WXAPIFactory.createWXAPI(this, WePartyApplication.APP_ID, false);
+
+		/** app注册至微信 */
+		api.registerApp(WePartyApplication.APP_ID);
+		

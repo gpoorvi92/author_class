@@ -1,0 +1,10 @@
+package neuralnetworks;
+
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class GUITest_1H extends JFrame {
+    static float[] in1 = {0.1f, 0.1f, 0.9f};

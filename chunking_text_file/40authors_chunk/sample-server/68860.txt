@@ -1,0 +1,10 @@
+                        ret = false;
+                    }
+                }
+            }
+            else
+            {
+                ChatServerRpc.AddSysNoticeResp resp = RpcClientManager.getInstance().getChatServerRpcClientByZoneId(sysNotice.getZoneId()).addSysNotice(req);
+                if (!resp.getSuccess())
+                {
+                    ret = false;

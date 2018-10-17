@@ -1,0 +1,10 @@
+		pwr.print(entry.operationName);
+		pwr.print('|');
+
+		pwr.print(entry.srcDevice);
+		pwr.print('|');
+
+		pwr.print(entry.dstDevice);
+		pwr.print('|');
+
+		pwr.print(entry.traceId);

@@ -1,0 +1,10 @@
+                  saveFile(formatName);
+               }
+            });
+      }
+
+      JMenuItem exitItem = new JMenuItem("Exit");
+      exitItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

@@ -1,0 +1,10 @@
+
+        mIsVslIndex = true;
+        return true;
+    }
+
+    final public String getIndexMrlForVlcPlayer() {
+        if (!mIsVslIndex)
+            return mMrl.getRawMrl();
+
+        return String.format("%s:%s", mVlcIndexAccess,

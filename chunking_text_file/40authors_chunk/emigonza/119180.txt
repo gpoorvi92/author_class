@@ -1,0 +1,10 @@
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapStoreImageFiles"),
+        makeProperty("CapValidationDevice"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapAutoContrast"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapContrast"),
+        makeProperty("CapUpdateFirmware"),
+

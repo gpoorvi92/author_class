@@ -1,0 +1,10 @@
+   /**
+    * Sets the dialog defaults.
+    * @param u the default user information
+    */
+   public void setUser(User u)
+   {
+      username.setText(u.getName());
+   }
+
+   /**

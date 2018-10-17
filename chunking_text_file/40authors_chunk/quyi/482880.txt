@@ -1,0 +1,10 @@
+      case VIR_RD:
+        if (value == null) {
+          unsetVirRD();
+        } else {
+          setVirRD((com.nercis.isscp.idl.virus.VirusDetectionResultData)value);
+        }
+        break;
+
+      }
+    }

@@ -1,0 +1,10 @@
+            this.pointer += this.rlw.getNumberOfLiteralWords() + 1;
+        }
+    }
+
+    /**
+     * Access to the buffer
+     *
+     * @return the buffer
+     */
+    public Buffer buffer() {

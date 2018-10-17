@@ -1,0 +1,10 @@
+		executor.shutdown();
+		if (!executor.awaitTermination(1, TimeUnit.MINUTES)) {
+			log.error("executor timed out");
+			List<Runnable> shutdownNow = executor.shutdownNow();
+			for (Runnable runnable : shutdownNow) {
+				log.error(runnable + "has not been terminated");
+			}
+		}
+	}
+

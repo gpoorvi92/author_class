@@ -1,0 +1,10 @@
+@Entity
+@Table(name = "gm_online_info")
+public class OnlineInfoEntity extends Persistance
+{
+    @Column(name = "num")
+    private int    num;
+    @Column(name = "zone_id")
+    private int    zoneId;
+    @Column(name = "zone_name")
+    private String zoneName;

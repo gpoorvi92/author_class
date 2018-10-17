@@ -1,0 +1,10 @@
+
+	private final AlarmAgent alarmAgent = new AlarmAgent();
+	
+	/*
+	 * 告警队列。
+	 * 模式角色：HalfSync/HalfAsync.Queue
+	 */
+	private final BlockingQueue<AlarmInfo> alarmQueue;
+	private final ConcurrentMap<String, AtomicInteger> submittedAlarmRegistry;
+

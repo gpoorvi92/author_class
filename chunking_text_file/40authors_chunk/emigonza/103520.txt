@@ -1,0 +1,10 @@
+  public void    setAutoStopForwardDelayTime(int delayTime) throws JposException;
+  public int     getAutoStopForwardItemCount() throws JposException;
+  public boolean getLightBarrierBackwardInterrupted() throws JposException;
+  public boolean getLightBarrierForwardInterrupted() throws JposException;
+  public int     getMotionStatus() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public boolean getSecurityFlapBackwardOpened() throws JposException;
+  public boolean getSecurityFlapForwardOpened() throws JposException;

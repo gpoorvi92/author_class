@@ -1,0 +1,5 @@
+    /**
+     * Posts an error for the given request.
+     */
+    public void postError(Request<?> request, VolleyError error);
+}

@@ -1,0 +1,10 @@
+            if (valid.valid(list)) {
+                for (File f : list) {
+                    convert(f, fromCharsetName, toCharsetName, filter);
+                }
+            }
+        } else {
+            if (filter == null || filter.accept(file.getParentFile(), file.getName())) {
+                String fileContent = getFileContentFromCharset(file, fromCharsetName);
+                saveFile2Charset(file, toCharsetName, fileContent);
+            }

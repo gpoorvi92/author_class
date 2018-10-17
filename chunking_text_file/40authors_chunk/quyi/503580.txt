@@ -1,0 +1,10 @@
+    PLOTS((short)4, "plots"),
+    /**
+     * 
+     * @see JobPriority
+     */
+    JOB_PRIORITY((short)5, "jobPriority"),
+    TASK_INFO((short)6, "taskInfo");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+

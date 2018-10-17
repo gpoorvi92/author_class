@@ -1,0 +1,10 @@
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException{
+		long before = System.currentTimeMillis();
+		try {
+			//将请求、响应的编码均设置为utf-8(防止中文乱码)
+			req.setCharacterEncoding("UTF-8");
+			resp.setCharacterEncoding("UTF-8");
+			
+			//调用核心业务服务接收消息、处理消息。

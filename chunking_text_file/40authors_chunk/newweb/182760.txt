@@ -1,0 +1,10 @@
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name="materialbrandID")
+	public MaterialBrand getMaterialBrand() {
+		return materialBrand;
+	}

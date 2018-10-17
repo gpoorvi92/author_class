@@ -1,0 +1,10 @@
+        final Random rand = new Random();
+        for (int i = 0; i < 30; i++) {
+            buf.append(MULTIPART_CHARS[rand.nextInt(MULTIPART_CHARS.length)]);
+        }
+        this.boundary = buf.toString();
+
+    }
+
+    public void writeFirstBoundaryIfNeeds(){
+        if(!isSetFirst){

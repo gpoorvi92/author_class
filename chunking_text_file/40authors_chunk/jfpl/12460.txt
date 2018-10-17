@@ -1,0 +1,10 @@
+import com.jufan.platform.util.ConstVariables;
+import com.jufan.platform.view.RightMenuDialog;
+
+public class RightMenuActivity extends AutoActivity {
+
+	private View triggerView;
+	private RightMenuDialog rDia;
+	private boolean defaultMenuItemFlag = true;
+	private boolean pageLoadFinish = false;
+

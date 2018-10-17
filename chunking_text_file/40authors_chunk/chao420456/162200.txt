@@ -1,0 +1,8 @@
+		
+		
+		// for (String s : array) {
+		// //ConcurrentModificationException
+		// array.add("hello");
+		// }
+	}
+}

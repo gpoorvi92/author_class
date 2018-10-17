@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @param audioCodec the audioCodec to set
+	 */
+	public void setAudioCodec(String audioCodec) {
+		this.audioCodec = audioCodec;
+	}
+
+	/**

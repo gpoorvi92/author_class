@@ -1,0 +1,10 @@
+					case 2:
+						player.animate(new long[]{200, 200, 200}, 0, 2, true);
+						break;
+					case 3:
+						player.animate(new long[]{200, 200, 200}, 9, 11, true);
+						break;
+				}
+			}
+
+			@Override

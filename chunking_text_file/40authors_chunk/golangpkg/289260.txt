@@ -1,0 +1,10 @@
+		if (model == null) {
+			return null;
+		}
+		return processProgress(fileId, model);
+
+	}
+
+
+	private FileProgressStatus processProgress(UUID fileId, StaticStatePersistedOnFileSystemEntity model)
+			throws FileNotFoundException {

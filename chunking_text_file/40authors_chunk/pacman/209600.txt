@@ -1,0 +1,10 @@
+	 */
+	public void setCpuIdle(double cpuIdle) {
+		this.cpuIdle = cpuIdle;
+	}
+	/**
+	 * @return the memTotal
+	 */
+	public long getMemTotal() {
+		return memTotal;
+	}

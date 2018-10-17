@@ -1,0 +1,10 @@
+    @Override
+    public void reset() {
+        mMediaPlayer.reset();
+    }
+
+    @Override
+    public void seekTo(int msec) throws IllegalStateException {
+        mMediaPlayer.seekTo(msec);
+    }
+

@@ -1,0 +1,10 @@
+                System.exit(1);
+            }
+        }
+    }
+
+    /**
+     * Singleton constructor Without surface and vout to create the thumbnail
+     * and get information e.g. on the MediaLibraryAcitvity
+     * 
+     * @return

@@ -1,0 +1,10 @@
+			}
+		});
+       
+		jButton3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				setVisible(false);
+            	load_jTable();
+            	setVisible(true);
+			}
+		});

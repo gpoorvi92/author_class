@@ -1,0 +1,10 @@
+    }
+
+    public Integer offset() {
+        return offset;
+    }
+
+    public Integer length() {
+        return length;
+    }
+

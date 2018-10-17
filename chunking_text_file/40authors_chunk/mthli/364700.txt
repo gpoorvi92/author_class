@@ -1,0 +1,10 @@
+                        System.out.println(factory.getEngineName());
+                     
+                     language = "js";
+                  }
+                  else language = args[0];
+
+                  final ScriptEngine engine = manager.getEngineByName(language);               
+                  if (engine == null)
+                  {
+                     System.err.println("No engine for " + language);

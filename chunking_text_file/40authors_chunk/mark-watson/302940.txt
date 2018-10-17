@@ -1,0 +1,10 @@
+            if (word.startsWith("N")) {
+                if (words.get(i).indexOf(".") > -1) {
+                    ret.set(i, "CD");
+                }
+                try {
+                    Float.parseFloat(words.get(i));
+                    ret.set(i, "CD");
+                } catch (Exception e) {  // ignore: exception OK: this just means that the string could not parse as a number
+                }
+            }

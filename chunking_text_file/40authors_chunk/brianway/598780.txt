@@ -1,0 +1,10 @@
+
+/**
+ * P257
+ * scheduleAtFixedRate(TimerTask task, Date firstTime,long period)方法
+ * Date类型
+ * 不延时的情况下，若执行任务未被延时，下次执行任务的开始时间是上一次任务的开始时间加上period
+ */
+public class Run4_scheduleAtFixedRate1 {
+    static public class MyTask extends TimerTask {
+        @Override

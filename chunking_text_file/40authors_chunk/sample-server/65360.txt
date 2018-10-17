@@ -1,0 +1,10 @@
+    {
+        return (T) request.getAttribute(key.getKeyName());
+    }
+    public static <T> void setAttribute(AttributeKey<T> key, HttpSession session, T value)
+    {
+        session.setAttribute(key.getKeyName(), value);
+    }
+    public static <T> void setAttribute(AttributeKey<T> key, HttpServletRequest request, T value)
+    {
+        request.setAttribute(key.getKeyName(), value);

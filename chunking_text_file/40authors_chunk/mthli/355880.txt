@@ -1,0 +1,10 @@
+    * @param parent a component in the owner frame or null
+    * @param title the dialog window title
+    */
+   public boolean showDialog(Component parent, String title)
+   {
+      ok = false;
+
+      // locate the owner frame
+
+      Frame owner = null;

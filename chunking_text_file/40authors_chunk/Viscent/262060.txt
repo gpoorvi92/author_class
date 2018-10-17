@@ -1,0 +1,10 @@
+		private boolean testConnection() {
+			// 省略其它代码
+
+			return true;
+		}
+
+		private void reconnect() {
+			ConnectingTask connectingThread = new ConnectingTask();
+
+			// 直接在心跳定时器线程中执行

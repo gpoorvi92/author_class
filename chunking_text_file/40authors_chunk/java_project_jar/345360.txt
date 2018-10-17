@@ -1,0 +1,10 @@
+    public int read(CharBuffer target)
+        throws IOException
+    {
+        int n;
+        beforeRead(target == null ? 0 : target.length());
+        n = in.read(target);
+        afterRead(n);
+        return n;
+        IOException e;
+        e;

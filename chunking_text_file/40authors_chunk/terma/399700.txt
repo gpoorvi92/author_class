@@ -1,0 +1,10 @@
+
+    /**
+     * @return - remote port on which TCP proxy will send all traffic from incoming connections
+     */
+    @Override public int getRemotePort() {
+        return remotePort;
+    }
+
+    /**
+     * @return - remote host on which TCP proxy will send all traffic from incoming connections

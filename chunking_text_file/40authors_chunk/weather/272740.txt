@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public T get(long timeout, TimeUnit unit)
+            throws InterruptedException, ExecutionException, TimeoutException {
+        return doGet(TimeUnit.MILLISECONDS.convert(timeout, unit));
+    }
+
+    private synchronized T doGet(Long timeoutMs)

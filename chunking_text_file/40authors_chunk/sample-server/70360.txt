@@ -1,0 +1,10 @@
+        Object msg = e.getMessage();
+        if (!(msg instanceof Fenrisulfr.TransPacket))
+        {
+            log.warn("不明数据包:{},{}", msg.getClass(), ctx.getChannel());
+            return;
+        }
+        Fenrisulfr.TransPacket pkt = (Fenrisulfr.TransPacket) msg;
+        logicMoudleDispatcher.diapatch(ctx.getChannel(), pkt);
+    }
+    @Override

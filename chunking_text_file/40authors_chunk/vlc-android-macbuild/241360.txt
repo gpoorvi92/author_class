@@ -1,0 +1,10 @@
+        if (container == null)
+            return;
+
+        setText(container, id, container.getContext().getString(resource));
+    }
+
+    public static void setText(Activity container, int id, CharSequence text) {
+        if (container == null)
+            return;
+

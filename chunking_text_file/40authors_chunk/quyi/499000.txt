@@ -1,0 +1,10 @@
+    sb.append("filePath:");
+    if (this.filePath == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.filePath);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("operateContent:");
+    if (this.operateContent == null) {

@@ -1,0 +1,10 @@
+			} else {
+
+				System.out.println(ftpClient.getReplyString());
+			}
+
+			ftpClient.setFileType(FTP.ASCII_FILE_TYPE);
+			return ftpClient;
+
+		}
+

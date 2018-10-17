@@ -1,0 +1,10 @@
+      }
+
+      public searchApp_result getResult(I iface, searchApp_args args) throws org.apache.thrift.TException {
+        searchApp_result result = new searchApp_result();
+        try {
+          result.success = iface.searchApp(args.missionId, args.userAppId);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;

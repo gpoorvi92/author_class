@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	public MovePaddleClientMessage() {
+
+	}
+
+	public MovePaddleClientMessage(final int pID, final float pY) {
+		this.mPaddleID = pID;
+		this.mY = pY;
+	}

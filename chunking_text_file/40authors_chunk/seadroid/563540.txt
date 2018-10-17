@@ -1,0 +1,10 @@
+    protected View createDialogContentView(LayoutInflater inflater, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.dialog_new_dir, null);
+        dirNameText = (EditText) view.findViewById(R.id.new_dir_name);
+
+        if (savedInstanceState != null) {
+            repoID = savedInstanceState.getString(STATE_TASK_REPO_ID);
+            parentDir = savedInstanceState.getString(STATE_TASK_PARENT_DIR);
+            account = (Account)savedInstanceState.getParcelable(STATE_ACCOUNT);
+        }
+

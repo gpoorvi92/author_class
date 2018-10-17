@@ -1,0 +1,10 @@
+ 	* --------------------------------- CONTACT --------------------------------- 
+	* This project was written in a burning hurry, so it is not a model of efficient
+	* nor even good code.
+	* Please send comments, bug reports, improvements to: hoptrandinh@yahoo.com  
+	*
+	* @Author Tran Dinh Hop, 6 May 2004
+	* @Please visit http://www.freewebs.com/DigitZone for updated version
+*/
+
+

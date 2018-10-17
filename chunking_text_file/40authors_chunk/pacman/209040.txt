@@ -1,0 +1,10 @@
+					reader = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
+					String line = null;
+					while((line = reader.readLine()) != null) {
+						sb.append(line);
+					}
+					content.setData(sb.toString());
+					
+					result = true;
+				} else {
+					

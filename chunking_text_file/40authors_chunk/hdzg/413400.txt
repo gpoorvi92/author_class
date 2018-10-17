@@ -1,0 +1,10 @@
+		heroGeneral = new Bitmap[4];//初始化我方英雄
+		Bitmap temp = BitmapFactory.decodeResource(r, R.drawable.battle_hero);
+		for(int i=0;i<4;i++){
+			heroGeneral[i] = Bitmap.createBitmap(temp, i*generalWidth, 0, generalWidth, generalHeight);
+		}
+		//敌方英雄
+		enemyGeneral = new Bitmap[4];//初始化敌方英雄
+		temp = BitmapFactory.decodeResource(r, R.drawable.battle_enemy_general);
+		for(int i=0;i<4;i++){
+			enemyGeneral[i] = Bitmap.createBitmap(temp, i*generalWidth, 0, generalWidth, generalHeight);

@@ -1,0 +1,10 @@
+      }
+    }
+
+    public modifyNodeManagerConfig_args deepCopy() {
+      return new modifyNodeManagerConfig_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.nodeId = null;

@@ -1,0 +1,10 @@
+  /** Returns true if field systemResources is set (has been assigned a value) and false otherwise */
+  public boolean isSetSystemResources() {
+    return this.systemResources != null;
+  }
+
+  public void setSystemResourcesIsSet(boolean value) {
+    if (!value) {
+      this.systemResources = null;
+    }
+  }

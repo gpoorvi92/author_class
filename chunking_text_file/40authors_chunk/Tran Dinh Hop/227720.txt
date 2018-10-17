@@ -1,0 +1,10 @@
+		currentByte = in.read();
+		if(in.available() == 0){ 
+			System.err.print(inFile.getName()+" is empty"); 
+			System.exit(1); 
+		} 
+
+		lPattern = null;
+	
+		// processes all other bytes
+		while(in.available() > 0) 

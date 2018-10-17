@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean onTouch(View v, MotionEvent event) {
+		switch (event.getAction()) {
+		case MotionEvent.ACTION_DOWN: // 按下时停止图片轮播
+			mScrollLayout.removeCallbacks(this);
+			break;
+		case MotionEvent.ACTION_CANCEL:
+
+			break;

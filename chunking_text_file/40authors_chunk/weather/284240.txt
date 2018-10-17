@@ -1,0 +1,10 @@
+    private boolean isLowQuality;
+    private List<ImageEntity> listImageEntity = new ArrayList<ImageEntity>();
+    private static SimpleDateFormat  sFormatter = new SimpleDateFormat("yyyy:MM:dd HH:mm:ss");
+
+    public ImageEntity getAvatarEntity() {
+        return mAvatarEntity;
+    }
+
+    public void setAvatarEntity(ImageEntity mAvatarEntity) {
+        this.mAvatarEntity = mAvatarEntity;

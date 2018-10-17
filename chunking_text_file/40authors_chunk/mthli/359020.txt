@@ -1,0 +1,10 @@
+   {
+      root = null;
+   }
+
+   /**
+    * Sets the root to a given variable.
+    * @param v the variable that is being described by this tree
+    */
+   public void setRoot(Variable v)
+   {

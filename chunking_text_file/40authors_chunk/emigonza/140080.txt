@@ -1,0 +1,10 @@
+public interface KeylockConst
+{
+    //###################################################################
+    //#### Keylock Constants
+    //###################################################################
+
+    /////////////////////////////////////////////////////////////////////
+    // "KeyPosition" Property Constants
+    // "WaitForKeylockChange" Method: "KeyPosition" Parameter
+    // "StatusUpdateEvent" Event: "status" Parameter

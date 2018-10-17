@@ -1,0 +1,10 @@
+ * }
+ */
+public class Solution {
+    public TreeNode sortedArrayToBST_1(int[] num) {
+        return sortedArrayToBSTRe(num, 0, num.length - 1);
+    }
+    public TreeNode sortedArrayToBSTRe(int[] num, int left, int right) {
+        if (left > right) return null;
+        if (left == right) return new TreeNode(num[left]);
+        int mid = (left + right) / 2;

@@ -1,0 +1,10 @@
+    __isset_bitfield = EncodingUtils.setBit(__isset_bitfield, __TASKQUEUENUME_ISSET_ID, value);
+  }
+
+  public void setFieldValue(_Fields field, Object value) {
+    switch (field) {
+    case NODE_ID:
+      if (value == null) {
+        unsetNodeId();
+      } else {
+        setNodeId((String)value);

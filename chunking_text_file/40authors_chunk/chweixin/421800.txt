@@ -1,0 +1,10 @@
+	 * */
+	public String getMediaId() {
+		return mediaId;
+	}
+	/**
+	 * 设置通过上传多媒体文件，得到的id。
+	 * @param mediaId
+	 * 	通过上传多媒体文件，得到的id。
+	 * */
+	public void setMediaId(String mediaId) {

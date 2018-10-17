@@ -1,0 +1,10 @@
+		ImmutableList<File> copyOf;
+		synchronized (this.files) {
+			copyOf = ImmutableList.copyOf(this.files);
+		}
+
+		// log
+		boolean weHaveFilesToDelete = !copyOf.isEmpty();
+		if (weHaveFilesToDelete) {
+			log.debug(copyOf.size() + " files to delete");
+		}

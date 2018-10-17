@@ -1,0 +1,10 @@
+	{
+		renderMediator.removeAll();
+		
+	}
+	
+	public void moveShapeToFront()
+	{
+		renderMediator.moveShapeToFront();
+	}
+	 

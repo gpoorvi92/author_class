@@ -1,0 +1,10 @@
+
+	private final static ILog logger = LogFactory.getLog(BootStrapper.class);
+	
+	private static BeanFactory gFactory;
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		

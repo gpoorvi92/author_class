@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_dataHex = true && this.isSetDataHex();
+    boolean that_present_dataHex = true && that.isSetDataHex();
+    if (this_present_dataHex || that_present_dataHex) {
+      if (!(this_present_dataHex && that_present_dataHex))
+        return false;
+      if (!this.dataHex.equals(that.dataHex))
+        return false;
+    }

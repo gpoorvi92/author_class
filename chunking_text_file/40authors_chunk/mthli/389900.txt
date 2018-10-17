@@ -1,0 +1,10 @@
+   public JAASFrame()
+   {
+      username = new JTextField(20);
+      password = new JPasswordField(20);
+      propertyName = new JTextField("user.home");
+      propertyValue = new JTextField(20);
+      propertyValue.setEditable(false);
+
+      JPanel panel = new JPanel();
+      panel.setLayout(new GridLayout(0, 2));

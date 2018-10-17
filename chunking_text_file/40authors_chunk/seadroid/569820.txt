@@ -1,0 +1,10 @@
+
+    @Override
+    protected SetPasswordTask onRestoreTaskState(Bundle outState) {
+        if (outState == null) {
+            return null;
+        }
+
+        String password = outState.getString(STATE_TASK_PASSWORD);
+        if (password != null) {
+            return new SetPasswordTask(repoID, password, getDataManager());

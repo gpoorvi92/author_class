@@ -1,0 +1,10 @@
+
+		Student,Person
+		Dog,Animal
+		Dog,Pig
+*/
+class Fu {
+	private int num = 100;
+	public int num2 = 200;
+
+	private void show() {

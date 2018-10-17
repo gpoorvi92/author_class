@@ -1,0 +1,10 @@
+                                MediaPlayer.MEDIA_INFO_NOT_SEEKABLE, 0);
+                    }
+                }
+            }
+            break;
+        }
+        case EventManager.MediaPlayerPausableChanged: {
+            break;
+        }
+        case EventManager.MediaPlayerModuleChanged: {

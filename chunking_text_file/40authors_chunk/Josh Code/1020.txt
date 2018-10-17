@@ -1,0 +1,10 @@
+    implements ComponentListener
+{
+/**
+  The model being viewed
+*/
+  private Model model;
+
+  /** a JPanel for viewing the model */
+  private modelViewPanel display;
+

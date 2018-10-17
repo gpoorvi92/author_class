@@ -1,0 +1,10 @@
+            values[i] = Double.parseDouble(token);
+            i++;
+         }
+         catch (NumberFormatException e)
+         {
+         }
+      }
+      setValues(values);
+   }
+

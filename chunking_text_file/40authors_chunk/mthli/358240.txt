@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Reads employee data from a buffered reader
+    * @param in the scanner
+    */
+   public static Employee readEmployee(Scanner in)
+   {
+      String line = in.nextLine();
+      String[] tokens = line.split("\\|");

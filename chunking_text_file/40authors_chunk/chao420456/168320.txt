@@ -1,0 +1,10 @@
+		// // 而is对象代表的是字节流，所以，我们需要考虑把字节流转换为字符流，然后再对字符流进行缓冲
+		// // 我们前面学习过一个转换流：把字节转换为字符
+		// InputStreamReader isr = new InputStreamReader(is);
+		// BufferedReader br = new BufferedReader(isr);
+
+		// 封装键盘录入，用IO实现
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		System.out.println("请输入一个字符串：");
+		String line = br.readLine();

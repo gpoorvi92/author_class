@@ -1,0 +1,10 @@
+		return USN.isRootDevice(getUSN());
+	}
+
+	public boolean isDiscover()
+	{
+		return MAN.isDiscover(getMAN());
+	}
+	
+	public boolean isAlive()
+	{

@@ -1,0 +1,10 @@
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: mapRow
+	 * @param arg0
+	 * @param arg1
+	 * @return
+	 * @throws SQLException
+	 * @see org.springframework.jdbc.object.MappingSqlQuery#mapRow(java.sql.ResultSet, int)
+	 */

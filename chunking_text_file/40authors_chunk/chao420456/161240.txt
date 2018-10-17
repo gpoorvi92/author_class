@@ -1,0 +1,10 @@
+		System.out.println("--------------------");
+
+		// public static int max(int a,int b) min自学
+		System.out.println("max:" + Math.max(12, 23));
+		// 方法的嵌套调用
+		System.out.println("max:" + Math.max(Math.max(24, 47), 23));
+		System.out.println("--------------------");
+
+		// public static double pow(double a,double b)
+		System.out.println("pow:" + Math.pow(2, 3));

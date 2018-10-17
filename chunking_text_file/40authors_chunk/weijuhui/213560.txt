@@ -1,0 +1,10 @@
+     * We implement this as custom code rather than a method in Util because there
+     * is no format string that shows the week of the year as an integer, so we just
+     * format the week directly rather than extracting it from a Calendar object.
+     */
+    @Override
+    protected TimeObject timeObjectfromCalendar(Calendar c) {
+        int week = c.get(Calendar.WEEK_OF_YEAR);
+        int day_of_week = c.get(Calendar.DAY_OF_WEEK)-1;
+        // set calendar to first millisecond of the week
+        c.add(Calendar.DAY_OF_MONTH,-day_of_week);

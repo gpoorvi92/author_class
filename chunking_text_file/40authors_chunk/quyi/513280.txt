@@ -1,0 +1,10 @@
+        iface.modifyNodeManagerConfig(args.nodeId, args.propertyName, args.propertyValue,resultHandler);
+      }
+    }
+
+  }
+
+  public static class reportEngineConfig_args implements org.apache.thrift.TBase<reportEngineConfig_args, reportEngineConfig_args._Fields>, java.io.Serializable, Cloneable, Comparable<reportEngineConfig_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("reportEngineConfig_args");
+
+

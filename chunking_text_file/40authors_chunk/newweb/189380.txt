@@ -1,0 +1,10 @@
+			
+			HSSFRow title = sheet.createRow(0);
+			String[] titleCells = {"客户","联系电话","全部账单金额","全部账单应收金额","全部实收总额","欠款总额"};
+			CellStyle titleStyle = book.createCellStyle();
+			titleStyle.setAlignment(CellStyle.ALIGN_CENTER);
+			Font titleFont = book.createFont();
+			titleStyle.setFont(titleFont);
+			for(int i = 0;i<titleCells.length;i++){
+				int index = title.getPhysicalNumberOfCells();
+				HSSFCell cell =title.createCell(index);

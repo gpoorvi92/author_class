@@ -1,0 +1,10 @@
+	public static int addToX(final Direction pDirection, final int pX) {
+		switch(pDirection) {
+			case UP:
+			case DOWN:
+				return pX;
+			case LEFT:
+				return pX - 1;
+			case RIGHT:
+				return pX + 1;
+			default:

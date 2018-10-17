@@ -1,0 +1,10 @@
+	 * @param status
+	 * 回复状态(1-启用,0-停用)。
+	 * */
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+	/**
+	 * 获取创建时间。
+	 *  @return 创建时间。
+	 * */

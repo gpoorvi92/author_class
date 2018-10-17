@@ -1,0 +1,10 @@
+	   print.addActionListener(new ActionListener(){
+	   	public void actionPerformed(ActionEvent e){
+	   		JOptionPane.showMessageDialog(null,"Printer Not Found","PRINT ERROR",
+            JOptionPane.DEFAULT_OPTION);
+	   	}
+	   });
+      	setResizable(false);
+      	setSize(1000,720);
+      	setVisible(true);
+	

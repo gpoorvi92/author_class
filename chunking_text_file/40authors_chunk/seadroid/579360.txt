@@ -1,0 +1,10 @@
+    /**
+     * get MIME type of file
+     *
+     * @param path file path.
+     * @param isDir whether it is a directory
+     * @return
+     */
+    public static String getTypeForFile(String path, boolean isDir) {
+        if (isDir) {
+            return DocumentsContract.Document.MIME_TYPE_DIR;

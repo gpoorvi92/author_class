@@ -1,0 +1,10 @@
+		
+		//The Following Commented out section will reposition the internal frames
+		//When the main frame is resized
+		
+		/*FRAME.addComponentListener(new ComponentAdapter() {
+			public void componentResized(ComponentEvent e) {
+				frameDesktop.repositionWindows(FRAME.getSize());
+			}
+		} );*/		
+		

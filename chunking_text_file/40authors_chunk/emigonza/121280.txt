@@ -1,0 +1,10 @@
+  public boolean getCapBitmap() throws JposException;
+  public boolean getCapMapCharacterSet() throws JposException;
+  public boolean getCapScreenMode() throws JposException;
+
+  // Properties
+  public boolean getMapCharacterSet() throws JposException;
+  public void    setMapCharacterSet(boolean mapCharacterSet)
+                   throws JposException;
+  public int     getMaximumX() throws JposException;
+  public int     getMaximumY() throws JposException;

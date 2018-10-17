@@ -1,0 +1,10 @@
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, submitMission_result struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        BitSet incoming = iprot.readBitSet(3);
+        if (incoming.get(0)) {
+          struct.success = com.nercis.isscp.idl.Result.findByValue(iprot.readI32());
+          struct.setSuccessIsSet(true);
+        }
+        if (incoming.get(1)) {

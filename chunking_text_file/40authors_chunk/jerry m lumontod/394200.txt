@@ -1,0 +1,10 @@
+	private DivisionCodeIsValid moDivisionCodeIsValid = new DivisionCodeIsValid();
+	private GLCodeIsValid moGLCodeIsValid = new GLCodeIsValid();
+	private SLCodeIsValid moSLCodeIsValid = new SLCodeIsValid();
+	private DeptCodeIsValid moDeptCodeIsValid = new DeptCodeIsValid();
+	private SubDeptCodeIsValid moSubDeptCodeIsValid = new SubDeptCodeIsValid();
+	private ClassCodeIsValid moClassCodeIsValid = new ClassCodeIsValid();
+	private SubClassIsValid moSubClassIsValid = new SubClassIsValid();
+	private DateFormatIsValid moDateFormatIsValid = new DateFormatIsValid();
+	private CheckForMustEntries moCheckForMustEntries = new CheckForMustEntries();
+	

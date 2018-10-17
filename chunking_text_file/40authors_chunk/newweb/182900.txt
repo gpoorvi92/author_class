@@ -1,0 +1,10 @@
+		this.ytDirection = ytDirection;
+	}
+	@Column
+	public String getWindowsBuyType() {
+		return windowsBuyType;
+	}
+	public void setWindowsBuyType(String windowsBuyType) {
+		this.windowsBuyType = windowsBuyType;
+	}
+	@Id

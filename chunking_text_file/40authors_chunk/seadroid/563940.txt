@@ -1,0 +1,10 @@
+        public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+            // Display error messages
+            Toast.makeText(
+                    ShibbolethAuthorizeActivity.this,
+                    String.format((R.string.shib_load_page_error) + description),
+                    Toast.LENGTH_SHORT
+            ).show();
+
+            showPageLoading(false);
+        }

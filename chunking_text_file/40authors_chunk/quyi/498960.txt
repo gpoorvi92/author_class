@@ -1,0 +1,10 @@
+  public String toString() {
+    StringBuilder sb = new StringBuilder("FileOperate(");
+    boolean first = true;
+
+    sb.append("pidName:");
+    if (this.pidName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.pidName);
+    }

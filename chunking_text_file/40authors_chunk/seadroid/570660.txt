@@ -1,0 +1,10 @@
+        adapter.setCurrentTab(TransferTaskAdapter.DOWNLOAD_LIST_TAB);
+        mTransferTaskListView.setAdapter(adapter);
+
+    }
+
+    protected boolean isNeedUpdateProgress() {
+        return !txService.getAllDownloadTaskInfos().isEmpty();
+    }
+
+    @Override

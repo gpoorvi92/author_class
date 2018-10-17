@@ -1,0 +1,10 @@
+      setPreferredSize(new Dimension(XPREFSIZE, YPREFSIZE));
+
+      setLayout(new GridBagLayout());
+      GridBagConstraints gbc = new GridBagConstraints();
+      gbc.weightx = 100;
+      gbc.weighty = 100;
+      gbc.anchor = GridBagConstraints.WEST;
+      gbc.fill = GridBagConstraints.BOTH;
+      gbc.gridwidth = 1;
+      gbc.gridheight = 1;

@@ -1,0 +1,10 @@
+            public void onItemClick(AdapterView<?> l, View view, int position, long id) {
+                onAppSelected(position);
+            }
+        });
+
+        return builder.create();
+    }
+
+    private class AppsListAdapter extends BaseAdapter {
+        @Override

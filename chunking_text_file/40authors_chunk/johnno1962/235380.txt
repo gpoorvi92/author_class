@@ -1,0 +1,10 @@
+
+/// class com.apple.eawt.FullScreenAdapter ///
+
+package org.genie.com_apple;
+
+public class FullScreenAdapterProxy extends com.apple.eawt.FullScreenAdapter {
+
+    long swiftObject;
+
+    /// public com.apple.eawt.FullScreenAdapter()

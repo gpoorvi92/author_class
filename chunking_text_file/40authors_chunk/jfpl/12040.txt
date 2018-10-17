@@ -1,0 +1,10 @@
+				R.drawable.menu_item));
+		tv.setGravity(Gravity.CENTER);
+		tv.setTag(tag);
+		tv.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				click.onClick(v);
+				dismiss();
+			}

@@ -1,0 +1,10 @@
+		jobPhaseList.add(JobPhase.PROCESS);
+		List<JobResourceRequirement> jobRescList = new ArrayList<JobResourceRequirement>();
+		JobResourceRequirement jobResc2 = new JobResourceRequirement();
+		jobResc2.setJobLifecycle(JobLifecycle.ANALYSIS);
+		jobResc2.setJobPhase(JobPhase.PROCESS);
+		jobResc2.setClusterType(ClusterType.DEDICATED);
+		jobResc2.setNodeType(NodeType.INTERNET_ACCESSIBLE);
+		jobRescList.add(jobResc2);
+		TaskClientService.Client taskClient = null;
+		long jobId = 0L;

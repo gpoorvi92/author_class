@@ -1,0 +1,10 @@
+
+   /**
+    * Sets solid or dashed lines.
+    * @param d false for solid, true for dashed lines
+    */
+   public void setDash(boolean d)
+   {
+      dash = d;
+      repaint();
+   }

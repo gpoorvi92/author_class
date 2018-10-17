@@ -1,0 +1,10 @@
+{
+   private double[] values;
+   private String[] names;
+   private String title;
+
+   /**
+    * Constructs a ChartComponent.
+    * @param v the array of values for the chart
+    * @param n the array of names for the values
+    * @param t the title of the chart

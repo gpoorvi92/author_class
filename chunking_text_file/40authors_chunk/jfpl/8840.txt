@@ -1,0 +1,10 @@
+			setResult(ConstVariables.SEND_IMAGE_FLAG, i);
+			finish();
+		}
+
+	}
+
+	@Override
+	protected void onListItemClick(String prxName, ListView l, View v,
+			int position, long id) {
+		AbstractCommonData acd = (AbstractCommonData) v.getTag();

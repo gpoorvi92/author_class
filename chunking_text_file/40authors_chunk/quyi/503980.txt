@@ -1,0 +1,10 @@
+    }
+    this.userApps.add(elem);
+  }
+
+  public List<UserApp> getUserApps() {
+    return this.userApps;
+  }
+
+  public AppSendMessage setUserApps(List<UserApp> userApps) {
+    this.userApps = userApps;

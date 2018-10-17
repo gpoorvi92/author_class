@@ -1,0 +1,10 @@
+	@InjectionView(id = R.id.chat_content)
+	private EditText chatEt;
+
+	@InjectionView(id = R.id.add_info, click = "addInfoClick")
+	private ImageView addInfoIv;
+	@InjectionView(id = R.id.send_chat, click = "sendChatClick")
+	private Button sendChatBtn;
+	@InjectionView(id = R.id.voice_record, click = "voiceBtnClick")
+	private ImageView voiceBtn;
+	@InjectionView(id = R.id.press_voice_btn, touch = "pressRecordTouch")

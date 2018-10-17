@@ -1,0 +1,10 @@
+                long t2 = bitset & -bitset;
+                counters[Long.bitCount(t2 - 1)]++;
+                bitset ^= t2;
+            }
+        }
+        for (int pos = 0; pos < 64; ++pos) {
+            if (counters[pos] >= t)
+                result |= (1L << pos);
+        }
+        return result;

@@ -1,0 +1,10 @@
+						user.getType().equals("system")?"系统":"未知") + "\"" +
+					"},";
+			json += str;
+		}
+		
+		json = json.substring(0, json.length()-1);	//去掉多余的逗号
+		json += "]}";	//json串尾
+		try {
+			response.getWriter().write(json);//将JSON数据写入response中
+		} catch (Exception e) {

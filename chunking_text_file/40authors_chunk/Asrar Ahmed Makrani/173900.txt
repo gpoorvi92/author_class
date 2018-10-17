@@ -1,0 +1,10 @@
+        tab.add(patron_expiry_date, gbc);
+        
+        gbc.gridx = 1;
+        gbc.gridy = 0;
+        tab.add(patron_no_text, gbc);
+        gbc.gridy = 1;
+        tab.add(patron_name_text, gbc);
+        gbc.gridy = 2;
+        tab.add(patron_group_type_text, gbc);
+        gbc.gridx = 3;

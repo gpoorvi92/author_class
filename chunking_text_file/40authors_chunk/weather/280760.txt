@@ -1,0 +1,10 @@
+                }
+                else{
+                    LocationTimeGroup  timeGroup = new LocationTimeGroup(exifInterface);
+                    curTimeGroup = timeGroup;
+                    curTimeGroup.insertImageEntity(entity);
+                    groups.add(curTimeGroup);
+                    curTimeGroup.setAvatarEntity(entity);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();

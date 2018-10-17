@@ -1,0 +1,9 @@
+	}
+
+	@Override
+	public void onPrepared(MediaPlayer mp) {
+		String sec = mp.getDuration() / 1000.0f + "";
+		sec.substring(0, 3);
+		secondsTv.setText(sec + "'");
+	}
+}

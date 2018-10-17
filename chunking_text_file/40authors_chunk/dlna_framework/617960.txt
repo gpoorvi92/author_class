@@ -1,0 +1,10 @@
+			return soapRes;
+		
+		try {
+			ByteArrayInputStream byteIn = new ByteArrayInputStream(content);
+			Parser xmlParser = SOAP.getXMLParser();
+			Node rootNode = xmlParser.parse(byteIn);
+			soapRes.setEnvelopeNode(rootNode);
+		}
+		catch (Exception e) {
+			Debug.warning(e);

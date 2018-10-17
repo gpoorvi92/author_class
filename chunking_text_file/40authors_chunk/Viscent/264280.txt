@@ -1,0 +1,10 @@
+	}
+
+	// 组合子任务的处理结果
+	@Override
+	protected Set<BigInteger> combineResults(
+	    Iterator<Future<Set<BigInteger>>> subResults) {
+
+		Set<BigInteger> result = new TreeSet<BigInteger>();
+
+		while (subResults.hasNext()) {

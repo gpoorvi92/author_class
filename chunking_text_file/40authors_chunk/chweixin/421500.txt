@@ -1,0 +1,10 @@
+		this.weChatAccountDao = weChatAccountDao;
+	}
+
+	public void setAccessTokenUrl(String accessTokenUrl) {
+		this.tokenUrl = accessTokenUrl;
+	}
+
+	@Override
+	public String loadAccessToken(String accountId) throws Exception {
+		if(accountId == null || accountId.trim().isEmpty()) {

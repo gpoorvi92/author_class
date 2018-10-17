@@ -1,0 +1,10 @@
+  public void clear() {
+    this.pidName = null;
+    this.sourceAddress = null;
+    this.sourcePort = null;
+    this.targetAddress = null;
+    this.targetPort = null;
+    this.protocal = null;
+    this.dataHex = null;
+    this.dataChar = null;
+    this.dataLength = null;

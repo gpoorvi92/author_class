@@ -1,0 +1,10 @@
+        int m = A.length, n = B.length;
+        int total = m + n;
+        int k = total / 2;
+        if ((total&1) == 1) return findKth(A,B,k+1,0,m-1,0,n-1);
+        else return (findKth(A,B,k,0,m-1,0,n-1)+findKth(A,B,k+1,0,m-1,0,n-1))/2.0;
+    }
+    public double findKth(int A[], int B[], int k, int astart, int aend, int bstart, int bend) {
+        int alen = aend - astart + 1;
+        int blen = bend - bstart + 1;
+        if (alen > blen) return findKth(B,A,k, bstart, bend, astart, aend);

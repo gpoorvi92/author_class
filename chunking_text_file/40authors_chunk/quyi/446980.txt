@@ -1,0 +1,10 @@
+    String osArch,
+    String osName,
+    String osDesc,
+    String osVersion,
+    String jvmName,
+    String jvmVersion,
+    String jvmMaxMem)
+  {
+    this();
+    this.osArch = osArch;

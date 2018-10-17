@@ -1,0 +1,10 @@
+/******************************************************************  
+ * Copyright © 2015 hujiang.com. All rights reserved.
+ *
+ * @Title: MessageHandler.java
+ * @Prject: pacman
+ * @Package: com.yeshj.pacman.web
+ * @Description: packing and transcoding classware of hujiang.com.
+ *                http://class.hujiang.com/
+ * @author: Dellinger  
+ * @date: 2015年1月12日 上午3:29:07

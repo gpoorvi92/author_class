@@ -1,0 +1,10 @@
+			this.delegate.didStartDownload(this);
+		}
+	}
+	
+	/*
+	 * Private methods
+	 */
+	private void calculateKBPerSecond() {
+		double currentTime = new Date().getTime();
+		double timeDifference = currentTime - this.lastTimeReceivedData;

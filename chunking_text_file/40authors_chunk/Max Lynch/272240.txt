@@ -1,0 +1,10 @@
+import com.gs.ui.*;
+
+
+public class GraphicsStudio {
+
+	//Starting point for whole application
+	public static void main(String args[]) throws ClassNotFoundException, 
+												  InstantiationException, 
+												  IllegalAccessException,
+												  UnsupportedLookAndFeelException {

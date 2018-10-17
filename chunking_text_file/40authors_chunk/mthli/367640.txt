@@ -1,0 +1,10 @@
+   {
+      return columnNames[c];
+   }
+
+   public Class<?> getColumnClass(int c)
+   {
+      return cells[0][c].getClass();
+   }
+
+   public int getColumnCount()

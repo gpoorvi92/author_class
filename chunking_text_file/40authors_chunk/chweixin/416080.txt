@@ -1,0 +1,10 @@
+		return this.sessionFactory == null ? null : this.sessionFactory.getCurrentSession();
+	}
+	/**
+	 * 加载指定主键对象。
+	 * @param c
+	 * 	对象类型。
+	 * @param id
+	 * 	主键值。
+	 * */
+	@SuppressWarnings("unchecked")

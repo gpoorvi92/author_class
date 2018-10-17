@@ -1,0 +1,10 @@
+import com.baidu.mapapi.map.PopupOverlay;
+import com.jufan.platform.ui.LocationPickerActivity;
+import com.lianzt.commondata.AbstractCommonData;
+
+public class CustomMyLocationOverlay extends MyLocationOverlay {
+
+	private MapView mapView;
+	private PopupOverlay popupOverlay;
+	private AbstractCommonData data;
+	private CustomOverlayInterface locationPicker;

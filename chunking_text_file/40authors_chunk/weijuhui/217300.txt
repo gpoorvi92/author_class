@@ -1,0 +1,7 @@
+        } else if (isSunday && !otherDay.isSunday) {
+            isSunday = false;
+            colorMeWorkday();
+        }
+    }
+
+}

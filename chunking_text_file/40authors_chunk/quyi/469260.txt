@@ -1,0 +1,10 @@
+          org.apache.thrift.protocol.TList _list5 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.I32, iprot.readI32());
+          struct.ruleTypes = new ArrayList<Activity>(_list5.size);
+          for (int _i6 = 0; _i6 < _list5.size; ++_i6)
+          {
+            Activity _elem7;
+            _elem7 = Activity.findByValue(iprot.readI32());
+            struct.ruleTypes.add(_elem7);
+          }
+        }
+        struct.setRuleTypesIsSet(true);

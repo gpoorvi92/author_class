@@ -1,0 +1,10 @@
+import android.support.v4.util.LongSparseArray;
+import android.text.TextUtils;
+
+/* -
+ * Qualcomm CPU part list:
+ * 
+ * 0x00f
+ *  MSM8255, glacier, HTC
+ *  MSM8255, zeus, Sony Ericsson Xperia PLAY
+ *  MSM8255, mogami, Sony Ericsson Xperia neo V

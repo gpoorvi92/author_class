@@ -1,0 +1,10 @@
+            context = SSLContext.getInstance("TLS");
+            context.init(null, trustManagers, new SecureRandom());
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (KeyManagementException e) {
+            e.printStackTrace();
+        }
+
+        HttpsURLConnection.setDefaultSSLSocketFactory(context.getSocketFactory());
+    }

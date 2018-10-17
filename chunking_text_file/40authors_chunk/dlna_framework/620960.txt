@@ -1,0 +1,10 @@
+	{
+		return HTTPHeader.getValue(getData(), HTTP.HOST);
+	}
+
+	public String getCacheControl()
+	{
+		return HTTPHeader.getValue(getData(), HTTP.CACHE_CONTROL);
+	}
+	
+	public String getLocation()

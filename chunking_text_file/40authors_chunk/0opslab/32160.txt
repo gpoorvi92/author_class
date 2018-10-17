@@ -1,0 +1,10 @@
+    Writer out = new OutputStreamWriter(new FileOutputStream(new File("test.html")));
+    for(int rows=0;rows<10;rows++){
+      for(int cols = 0;cols<3;cols++){
+        model.setValueAt("Test("+rows+","+cols+")",rows,cols);
+      }
+    }
+    new TableRendererHTML(out).render(model);
+    out.close();
+    
+  }

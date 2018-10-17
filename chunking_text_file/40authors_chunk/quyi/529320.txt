@@ -1,0 +1,10 @@
+  public UserApp setVersioncode(String versioncode) {
+    this.versioncode = versioncode;
+    return this;
+  }
+
+  public void unsetVersioncode() {
+    this.versioncode = null;
+  }
+
+  /** Returns true if field versioncode is set (has been assigned a value) and false otherwise */

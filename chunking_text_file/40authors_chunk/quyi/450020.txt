@@ -1,0 +1,10 @@
+        this.missionId = missionId;
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {
+        prot.writeMessageBegin(new org.apache.thrift.protocol.TMessage("searchMission", org.apache.thrift.protocol.TMessageType.CALL, 0));
+        searchMission_args args = new searchMission_args();
+        args.setMissionId(missionId);
+        args.write(prot);
+        prot.writeMessageEnd();
+      }

@@ -1,0 +1,4 @@
+     * <code>null</code> if no response markers are defined.
+     */
+    List<int[]> getResponseMarkers();
+}

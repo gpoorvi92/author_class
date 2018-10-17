@@ -1,0 +1,10 @@
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
+    }
+
+    public int getStartIndex() {
+        int pageNum = this.getPageNum() > 0 ? this.getPageNum() - 1 : 0;
+        return pageNum * this.getPageSize();
+    }
+
+    //商家ID

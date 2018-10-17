@@ -1,0 +1,10 @@
+
+  public static final int ITEM_DS_OK                   = 1;
+  public static final int ITEM_DS_EMPTY                = 2;
+  public static final int ITEM_DS_NEAREMPTY            = 3;
+  public static final int ITEM_DS_JAM                  = 4;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "StatusUpdateEvent" Event: "Data" Parameter Constants
+  /////////////////////////////////////////////////////////////////////

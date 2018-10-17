@@ -1,0 +1,10 @@
+    public PageIndicatorView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    /**
+     * 设置频道页数，包括广告页，计算页面表示点的数量
+     *
+     * @param nPageNum
+     */
+    public void setTotalPage(int nPageNum) {

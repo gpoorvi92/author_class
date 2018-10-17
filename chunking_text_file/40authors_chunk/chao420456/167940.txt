@@ -1,0 +1,10 @@
+			return login_mess;
+		} catch (IOException e) {
+			login_mess = "连接服务其失败，请稍后再试";
+			return login_mess;
+		}
+		return "true";
+	}
+	public void showChatFrame(String username) {
+		getDataInit();
+		c_chatFrame = new Client_chatFrame(this,username);

@@ -1,0 +1,10 @@
+					
+					catch (SQLException sqlex)
+					{
+					pic.setIcon(userPic);	
+					}
+				}
+			}
+				catch (SQLException sqlex)
+					{
+					pic.setIcon(userPic);

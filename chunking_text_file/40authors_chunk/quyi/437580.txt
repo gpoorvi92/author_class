@@ -1,0 +1,10 @@
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new NodeInfoStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new NodeInfoTupleSchemeFactory());
+  }
+
+  public Hardware hardware; // required
+  public Software software; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */

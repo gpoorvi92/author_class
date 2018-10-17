@@ -1,0 +1,10 @@
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("screenShotPath:");
+    if (this.screenShotPath == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.screenShotPath);
+    }
+    first = false;
+    if (!first) sb.append(", ");

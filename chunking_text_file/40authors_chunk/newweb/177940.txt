@@ -1,0 +1,10 @@
+	}
+	public void setGgqLength(double ggqLength) {
+		this.ggqLength = ggqLength;
+	}
+	public int getGgqCount() {
+		return ggqCount;
+	}
+	public void setGgqCount(int ggqCount) {
+		this.ggqCount = ggqCount;
+	}

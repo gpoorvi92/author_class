@@ -1,0 +1,10 @@
+                Class[] params = each.getParameterTypes();
+                if (params.length > 1)
+                {
+                    throw new RpcException("invalid handler methold");
+                }
+                Class reqType = params[0];
+                Invoker invoker = new Invoker();
+                try
+                {
+                    Method parseFromMethod = reqType.getMethod("parseFrom", com.google.protobuf.ByteString.class);

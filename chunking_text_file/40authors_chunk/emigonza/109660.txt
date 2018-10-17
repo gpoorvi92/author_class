@@ -1,0 +1,10 @@
+	/** @return the list of possible values for this property */
+	public PropValueList getValues() { return values; }
+
+	/** @return the DevCat that this property can be applied to */
+	public DevCat getDevCat() { return devCat; }
+
+	/** @return the PropInfoViewer for this property */
+	public PropInfoViewer getViewer() { return viewer; }
+
+	/** @return a description of this PropInfo (this can be HTML formated) */

@@ -1,0 +1,10 @@
+  }
+
+  private static class UserAppStandardScheme extends StandardScheme<UserApp> {
+
+    @Override
+	public void read(org.apache.thrift.protocol.TProtocol iprot, UserApp struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {

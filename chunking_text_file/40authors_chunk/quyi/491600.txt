@@ -1,0 +1,10 @@
+    public void unsetNodeHeat() {
+      this.nodeHeat = null;
+    }
+
+    /** Returns true if field nodeHeat is set (has been assigned a value) and false otherwise */
+    public boolean isSetNodeHeat() {
+      return this.nodeHeat != null;
+    }
+
+    public void setNodeHeatIsSet(boolean value) {

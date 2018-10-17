@@ -1,0 +1,10 @@
+     * @return the end of the current run
+     */
+    public int endOfRun() {
+        return this.endrun;
+    }
+
+    /**
+     * @return the beginning of the current run
+     */
+    public int beginOfRun() {

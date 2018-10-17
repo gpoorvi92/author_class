@@ -1,0 +1,10 @@
+
+      public modifyTaskManagerConfig_result getResult(I iface, modifyTaskManagerConfig_args args) throws org.apache.thrift.TException {
+        modifyTaskManagerConfig_result result = new modifyTaskManagerConfig_result();
+        try {
+          result.success = iface.modifyTaskManagerConfig(args.propertyName, args.propertyValue);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }

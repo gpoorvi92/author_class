@@ -1,0 +1,10 @@
+		frame.setResizable(true);
+		frame.setLocationRelativeTo(null);
+		this.dispose();
+	 	}
+	 	
+	 	if (e.getSource() == jborder){
+		ordermenu frame = new ordermenu();
+		frame.pack();
+		frame.setTitle("Ordering System");
+		frame.setSize(1100, 650);

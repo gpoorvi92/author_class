@@ -1,0 +1,10 @@
+		acd.putObjectValue("ipacket", HttpSendFactory.getClientSendMethod());
+		acd.putObjectValue("iservice", new IServiceLogic() {
+
+			@Override
+			public AbstractCommonData doSuccess(AbstractCommonData acd) {
+				update("update_bind_veh", new Date().getTime(),
+						DataConvertFactory.praseNormJson(acd).getBytes(),
+						acd.getStringValue("pp_pic"), bindUser);
+				refreshBindVeh();
+				return null;

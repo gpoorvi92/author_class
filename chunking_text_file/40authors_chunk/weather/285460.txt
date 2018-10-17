@@ -1,0 +1,10 @@
+ * Created by qihigh on 7/15/14.
+ * Modified by ____.
+ */
+public class CityChangeAdapter extends BindableAdapter<Pair<String, String>> implements Filterable {
+
+    private final Map<String, String> cityPinyinMap;
+    private ArrayFilter mFilter;
+    private ArrayList<Pair<String, String>> mOriginalValues;
+    private Object mLock = new Object();
+

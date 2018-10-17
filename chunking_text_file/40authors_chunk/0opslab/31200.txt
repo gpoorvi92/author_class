@@ -1,0 +1,10 @@
+        byte[] buffer = baos.toByteArray();
+        return buffer;
+    }
+
+    /**
+     * @方法功能 InputStream 转为 byte
+     */
+    public final static byte[] inputStream2Byte(InputStream inStream) throws Exception {
+        int count = 0;
+        while (count == 0) {

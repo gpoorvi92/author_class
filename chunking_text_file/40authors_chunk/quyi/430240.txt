@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(2)) {
+        struct.update = iprot.readString();
+        struct.setUpdateIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.result = iprot.readString();
+        struct.setResultIsSet(true);
+      }
+    }

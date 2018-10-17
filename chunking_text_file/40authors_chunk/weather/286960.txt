@@ -1,0 +1,10 @@
+    /**
+     * @deprecated Use {@link #getBodyContentType()}.
+     */
+    @Override
+    public String getPostBodyContentType() {
+        return getBodyContentType();
+    }
+
+    /**
+     * @deprecated Use {@link #getBody()}.

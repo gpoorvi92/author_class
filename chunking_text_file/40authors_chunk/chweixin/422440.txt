@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取公众号类型。
+	 * @return 公众号类型。
+	 * 1-服务号，2-订阅号。
+	 * */
+	public Integer getType() {
+		return type;
+	}
+	/**

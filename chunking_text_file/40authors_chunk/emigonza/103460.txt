@@ -1,0 +1,10 @@
+  extends BaseService, JposServiceInstance
+{
+  // Capabilities
+  public boolean getCapAutoStopBackward() throws JposException;
+  public boolean getCapAutoStopBackwardItemCount() throws JposException;
+  public boolean getCapAutoStopForward() throws JposException;
+  public boolean getCapAutoStopForwardItemCount() throws JposException;
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapLightBarrierBackward() throws JposException;
+  public boolean getCapLightBarrierForward() throws JposException;

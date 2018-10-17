@@ -1,0 +1,6 @@
+      {
+         currentPage = newPage;
+         repaint();
+      }
+   }
+}

@@ -1,0 +1,10 @@
+
+    public void endResizingFrame( javax.swing.JComponent f ) {
+        __endResizingFrame( f );
+    }
+
+    /// public abstract void javax.swing.DesktopManager.setBoundsForFrame(javax.swing.JComponent,int,int,int,int)
+
+    public native void __setBoundsForFrame( javax.swing.JComponent f, int newX, int newY, int newWidth, int newHeight );
+
+    public void setBoundsForFrame( javax.swing.JComponent f, int newX, int newY, int newWidth, int newHeight ) {

@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetLineNum()) {
+        oprot.writeI32(struct.lineNum);
+      }
+      if (struct.isSetColumnNum()) {
+        oprot.writeI32(struct.columnNum);
+      }
+      if (struct.isSetRiskDescription()) {
+        oprot.writeString(struct.riskDescription);
+      }

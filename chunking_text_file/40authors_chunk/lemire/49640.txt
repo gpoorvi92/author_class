@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Position of the literal words represented by this running length
+     * word.
+     *
+     * @return the int
+     */
+    public int literalWords() {
+        return this.pointer - this.rlw.getNumberOfLiteralWords();

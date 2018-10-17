@@ -1,0 +1,10 @@
+package groupLayout;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.beans.*;
+import javax.swing.*;
+
+/**
+ * A frame that uses a group layout to arrange font selection components.
+ */

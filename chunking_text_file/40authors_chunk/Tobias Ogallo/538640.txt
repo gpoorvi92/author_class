@@ -1,0 +1,10 @@
+			
+			{ 
+			 if (user.getText() == null ||
+            user.getText().equals("")){   
+            JOptionPane.showMessageDialog(null,"Enter username","tobiluoch"
+           ,JOptionPane.DEFAULT_OPTION);
+            user.requestFocus();
+            return;
+            }
+            

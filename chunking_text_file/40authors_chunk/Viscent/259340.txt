@@ -1,0 +1,10 @@
+	public void init() {
+		indexingThread.start();
+	}
+
+	public void shutdown() {
+		indexingThread.terminate();
+	}
+
+	public void saveAttachment(InputStream in, String documentId,
+	    String originalFileName) throws IOException {

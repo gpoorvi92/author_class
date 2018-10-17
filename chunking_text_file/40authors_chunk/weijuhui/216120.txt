@@ -1,0 +1,10 @@
+			}
+		}
+
+		Bitmap b1;
+		if (scaler != null) {
+			b1 = Bitmap.createBitmap(source, 0, 0, source.getWidth(),source.getHeight(), scaler, true);
+		} else {
+			b1 = source;
+		}
+		if (recycle && b1 != source) {

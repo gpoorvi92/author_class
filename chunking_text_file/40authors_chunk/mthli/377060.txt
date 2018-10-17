@@ -1,0 +1,10 @@
+package progressMonitor;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame that contains a button to launch a simulated activity and a text area for the activity
+ * output.
+ */

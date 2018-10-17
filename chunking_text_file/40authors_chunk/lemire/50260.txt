@@ -1,0 +1,10 @@
+        }
+    }
+
+    private void generalLiterals(final int deficit, final BitmapStorage32 out,
+                                 final int runBegin, final int runLength) {
+        if (this.bufferUsed > this.buffers.length)
+            this.buffers = Arrays.copyOf(this.buffers, 2 * this.bufferUsed);
+        for (int i = 0; i < runLength; ++i) {
+            int p = 0;
+            for (EWAHPointer32 r : this.getLiterals()) {

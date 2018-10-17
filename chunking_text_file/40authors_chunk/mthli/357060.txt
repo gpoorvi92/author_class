@@ -1,0 +1,10 @@
+package memoryMap;
+
+import java.io.*;
+import java.nio.*;
+import java.nio.channels.*;
+import java.nio.file.*;
+import java.util.zip.*;
+
+/**
+ * This program computes the CRC checksum of a file in four ways. <br>

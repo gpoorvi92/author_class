@@ -1,0 +1,10 @@
+		Config.dbUserName = dbUserName;
+	}
+
+	public static String getDbPassword() {
+		return dbPassword;
+	}
+
+	public static void setDbPassword(String dbPassword) {
+		Config.dbPassword = dbPassword;
+	}

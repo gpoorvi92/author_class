@@ -1,0 +1,10 @@
+  public int getPlotsStatusSize() {
+    return (this.plotsStatus == null) ? 0 : this.plotsStatus.size();
+  }
+
+  public void putToPlotsStatus(PlotsType key, CheckResultStatus val) {
+    if (this.plotsStatus == null) {
+      this.plotsStatus = new HashMap<PlotsType,CheckResultStatus>();
+    }
+    this.plotsStatus.put(key, val);
+  }

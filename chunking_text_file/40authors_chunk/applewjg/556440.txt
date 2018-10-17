@@ -1,0 +1,10 @@
+            if (free[i] == true) {
+                free[i] = false;
+                path.add(num[i]);
+                permuteRe(num, res, path, free);
+                path.remove(path.size() - 1);
+                free[i] = true;
+            }
+        }
+    }
+    public boolean nextPermutation(int[] num) {

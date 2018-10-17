@@ -1,0 +1,10 @@
+//     SCL_SUE_WEIGHT_UNDER_ZERO
+// 2006-Feb-10 JavaPOS Release 1.10                                BS
+//   Added duplicate SUE constants to match names used in the spec.
+//     (i.e. SCAL_SUE_STABLE_WEIGHT instead of SCL_SUE_STABLE_WEIGHT)
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+public interface ScaleConst

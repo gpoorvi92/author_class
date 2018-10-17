@@ -1,0 +1,10 @@
+		private int mLayoutId;
+		private Share[] array;
+		private Activity mContext;
+
+		public ShareAdapter(Activity context, Share[] arrays) {
+			mLayoutId = R.layout.ite_share;
+			this.array = arrays;
+			this.mContext = context;
+		}
+

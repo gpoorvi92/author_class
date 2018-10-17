@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	public PaddleUserData(final int pOwnerID, final int pOpponentID) {
+		this.mOwnerID = pOwnerID;
+		this.mOpponentID = pOpponentID;
+	}
+

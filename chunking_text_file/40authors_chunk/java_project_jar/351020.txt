@@ -1,0 +1,10 @@
+            String currentLine = cachedLine;
+            cachedLine = null;
+            return currentLine;
+        }
+    }
+
+    public void close()
+    {
+        finished = true;
+        IOUtils.closeQuietly(bufferedReader);

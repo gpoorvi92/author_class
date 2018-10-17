@@ -1,0 +1,10 @@
+{
+   private JComboBox<Integer> combo;
+   private Random generator;
+
+   public GoodWorkerRunnable(JComboBox<Integer> aCombo)
+   {
+      combo = aCombo;
+      generator = new Random();
+   }
+

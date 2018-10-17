@@ -1,0 +1,10 @@
+	private String transactionID;
+	private String messageType = "Delivery.req";
+	private String senderAddress;
+	
+	//彩信消息接收方
+	private Recipient recipient = new Recipient();
+	private String subject;
+	private Attachment attachment = new Attachment();
+
+	public long getExpiry() {

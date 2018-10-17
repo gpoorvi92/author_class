@@ -1,0 +1,10 @@
+    /**
+     * Burp uses this method to obtain the caption that should appear on the
+     * custom tab when it is displayed.
+     *
+     * @return The caption that should appear on the custom tab when it is
+     * displayed.
+     */
+    String getTabCaption();
+
+    /**

@@ -1,0 +1,10 @@
+            }
+        }
+    }
+
+    public final static String[] toArray(Collection<String> collection) {
+        return collection.toArray(new String[collection.size()]);
+    }
+
+    public final static boolean isAnyStringEmpty(String[] array) {
+        if (array == null || array.length <= 0)

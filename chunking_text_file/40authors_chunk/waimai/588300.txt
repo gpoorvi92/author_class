@@ -1,0 +1,10 @@
+    private LayerMapper layerMapper;
+    @Autowired
+    private RoomMapper roomMapper;
+
+    @Test
+    public void testInsertBlock() throws Exception {
+        for (int i = 1; i < 14; i++) {
+            Block block = new Block();
+            block.setAreaId(1);
+            block.setName(String.valueOf(i));

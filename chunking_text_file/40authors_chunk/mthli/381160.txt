@@ -1,0 +1,10 @@
+package chart;
+
+import java.awt.*;
+
+/**
+   This class simplifies the use of the GridBagConstraints
+   class.
+*/
+public class GBC extends GridBagConstraints 
+{

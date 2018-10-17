@@ -1,0 +1,10 @@
+ * 			run:直接调用，仅仅是普通方法的调用
+ * 		D:线程能不能多次启动?
+ * 			不能
+ */
+public class MyThreadDemo {
+	public static void main(String[] args) {
+		// 创建子类对象
+		// MyThread mt = new MyThread();
+		// mt.run();
+		// mt.run();

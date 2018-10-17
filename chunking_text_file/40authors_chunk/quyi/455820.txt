@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof operateEngine_result)
+        return this.equals((operateEngine_result)that);
+      return false;
+    }
+

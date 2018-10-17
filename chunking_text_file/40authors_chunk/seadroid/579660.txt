@@ -1,0 +1,10 @@
+
+        mServerUrlEt.addTextChangedListener(new TextWatcher() {
+            private String old;
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count,

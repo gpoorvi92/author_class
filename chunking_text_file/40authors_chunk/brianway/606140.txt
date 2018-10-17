@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example9;
+
+/**
+ * Created by Brian on 2016/4/12.
+ */
+
+/**
+ * P91
+ * synchronized(非this对象x)的三个结论
+ * 1）当多个线程同时执行synchronized(x){}同步代码块时呈现效果

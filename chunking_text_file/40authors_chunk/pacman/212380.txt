@@ -1,0 +1,10 @@
+		if (this == otherObject) return true;
+		if (otherObject == null) return false;
+		if (this.getClass() != otherObject.getClass()) return false;
+		TaskParamModel other = (TaskParamModel) otherObject;
+		return this.pid.equals(other.pid)
+			&& this.tid.equals(other.tid)
+			&& this.pname.equals(other.pname)
+			&& this.pvalue.equals(other.pvalue);
+	}
+

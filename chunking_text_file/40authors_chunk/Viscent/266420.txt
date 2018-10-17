@@ -1,0 +1,10 @@
+	protected void doRun() throws Exception {
+		AlarmInfo alarm;
+		alarm = alarmQueue.take();
+		terminationToken.reservations.decrementAndGet();
+
+		try {
+			//将告警信息发送至告警服务器
+			alarmAgent.sendAlarm(alarm);
+		} catch (Exception e) {
+			e.printStackTrace();

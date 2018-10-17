@@ -1,0 +1,10 @@
+	public void setAppId(String appId) {
+		this.appId = appId;
+	}
+	/**
+	 * 获取第三方用户唯一凭证密钥。
+	 * @return 第三方用户唯一凭证密钥。
+	 * */
+	public String getAppSecret() {
+		return appSecret;
+	}

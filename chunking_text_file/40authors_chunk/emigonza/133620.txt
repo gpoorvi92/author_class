@@ -1,0 +1,10 @@
+    public static final int PCRW_MM_ENGLISH       = 3;
+    public static final int PCRW_MM_METRIC        = 4;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "RotatePrint" Method: "Rotation" Parameter Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PCRW_RP_NORMAL        = 0x0001;
+    // In drafts of spec, but not in final - should never have been defined.

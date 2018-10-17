@@ -1,0 +1,10 @@
+        }
+
+        AssetManager mAsset = resources.getAssets();
+        try {
+            // 符号表情
+            InputStream in = mAsset.open("txt_emotions.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+            String tempString = null;
+            // 一次读入一行，直到读入null为文件结束
+            while ((tempString = reader.readLine()) != null) {

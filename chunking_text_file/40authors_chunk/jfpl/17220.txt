@@ -1,0 +1,10 @@
+					&& SystemUtil.TOP_ACTIVITY_ACTIVE
+					&& fromUser.equals(GlobalVariables.chatToUser)
+					&& defaultType == 0) {
+				ChatActivity ca = (ChatActivity) SystemUtil.TOP_ACTIVITY;
+				ca.appendChatItem(item);
+				ca.chatListToBottom();
+				addRecently(con, recentlyTitle, recentlyContent, recentlyAppId,
+						recentlyUrl, false);
+			} else if (SystemUtil.TOP_ACTIVITY != null
+					&& "mainactivity".equals(SystemUtil.TOP_ACTIVITY.getClass()

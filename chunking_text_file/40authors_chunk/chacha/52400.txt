@@ -1,0 +1,10 @@
+	protected ByteBuffer requestBB;
+	private static int requestBBSize=1024;
+	private static int WriteCharBufferSize=1024;
+	
+	public ChannelHelper(SocketChannel sc,boolean block) throws IOException{
+		this.sc=sc;
+		sc.configureBlocking(block);
+	}
+	/**
+	 * 

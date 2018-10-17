@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.url = iprot.readString();
+              struct.setUrlIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // APP_SIZE
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.app_size = iprot.readI32();

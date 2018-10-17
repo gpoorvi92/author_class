@@ -1,0 +1,10 @@
+								}
+							}
+						}
+						String userNames = new String(sb);
+						if(userNames.equals("")){
+							serverThread.serverFrame.setDisUsers("@userlist");
+						}else{
+							serverThread.serverFrame.setDisUsers(userNames);
+						}
+						Message = userNames;

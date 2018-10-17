@@ -1,0 +1,10 @@
+	
+		drawPanel.repaint();
+		
+		if(renderSurface.getSelected() != null)
+			renderSurface.getSelected().getModel().setStroke(stroke, size);
+		renderSurface.repaint();
+	}
+	
+	
+	

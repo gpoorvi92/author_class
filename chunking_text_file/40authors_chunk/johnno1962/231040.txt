@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.InternalFrameListener ///
+
+package org.genie.javax_swing;
+
+public class InternalFrameListenerProxy implements javax.swing.event.InternalFrameListener {
+
+    long swiftObject;
+
+    InternalFrameListenerProxy( long swiftObject ) {

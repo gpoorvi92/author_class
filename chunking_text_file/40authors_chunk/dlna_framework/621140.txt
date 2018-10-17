@@ -1,0 +1,10 @@
+		return NTS.isAlive(getNTS());
+	}
+
+	public boolean isByeBye()
+	{
+		return NTS.isByeBye(getNTS());
+	}
+
+	public int getLeaseTime()
+	{

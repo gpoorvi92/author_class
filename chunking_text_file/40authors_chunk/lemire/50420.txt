@@ -1,0 +1,10 @@
+                final EWAHPointer p = h.peek();
+                p.parseNextRun();
+                p.callbackUpdate(f);
+                if (p.hasNoData()) {
+                    h.poll(); // we just remove it
+                    if (h.isEmpty())
+                        break mainloop;
+                } else {
+                    h.percolateDown(); // since we have
+                    // increased the key

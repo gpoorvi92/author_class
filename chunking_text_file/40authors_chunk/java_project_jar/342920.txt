@@ -1,0 +1,10 @@
+            handleIOException(e);
+        }
+    }
+
+    public void write(String str, int st, int len)
+        throws IOException
+    {
+        try
+        {
+            beforeWrite(len);

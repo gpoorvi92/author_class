@@ -1,0 +1,10 @@
+		if (!StringUtil.isNull(url) && this.refreshState) {
+			webView.loadUrl(url);
+		}
+	}
+
+	public void backClick(View v) {
+		if (webView.canGoBack() && goBackState) {
+			webView.goBack();
+		}
+	}

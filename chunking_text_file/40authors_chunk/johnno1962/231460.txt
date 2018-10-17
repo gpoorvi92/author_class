@@ -1,0 +1,10 @@
+    }
+
+    public char[] charArrayMethod( char arg[] ) {
+        return arg;
+    }
+
+    public static char char2dArrayFieldStatic[][];
+    public char char2dArrayField[][];
+
+    public static char[][] char2dArrayMethodStatic( char arg[][] ) {

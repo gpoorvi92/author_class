@@ -1,0 +1,10 @@
+        List<Integer> list = new ArrayList<>();
+        Map<String, Integer> need = new HashMap<>();
+        for(String str: L) {
+            if(need.containsKey(str)) {
+                need.put(str, need.get(str)+1);
+            } else {
+                need.put(str, 1);
+            }
+        }
+        int n = L[0].length(), m = L.length;

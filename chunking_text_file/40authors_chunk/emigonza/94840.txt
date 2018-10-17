@@ -1,0 +1,10 @@
+	 * Visits a Scanner DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitScanner( DevCat devCat );
+
+	/**
+	 * Visits a SignatureCapture DevCat
+	 * @param devCat the DevCat
+	 */
+	public void visitSignatureCapture( DevCat devCat );

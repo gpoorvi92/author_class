@@ -1,0 +1,10 @@
+                    cur = cur.left;
+                } else {
+                    node.right = null;
+                    cur = cur.right;
+                }
+            }
+        }
+        return res;
+    }
+}

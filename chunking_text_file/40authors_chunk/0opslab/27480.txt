@@ -1,0 +1,10 @@
+ */
+public abstract class AbstractCodepageDetector implements ICodepageDetector {
+    /**
+     * 
+     */
+    public AbstractCodepageDetector() {
+        super();
+    }
+
+    /**

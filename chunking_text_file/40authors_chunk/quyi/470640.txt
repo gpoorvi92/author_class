@@ -1,0 +1,10 @@
+     * 提交应用信息
+     * 1:missionId	批次号
+     * 2:userApps	应用集合
+     * 3:plots   	检测策略
+     * 4:useRule		是否使用默认规则（"YES"使用默认规则，"NO"使用自定义规则，需要人工在测评管系统中指定自定义规则）
+     * 
+     * 
+     * @param missionId
+     * @param userApps
+     * @param plots

@@ -1,0 +1,10 @@
+		}
+		*/
+		System.out.println("-----------");
+
+		if(false) {
+			System.out.println("haha");
+			System.out.println("hehe");
+		}
+
+		System.out.println("heihei");

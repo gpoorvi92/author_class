@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapErrorDetection"),
+        makeProperty("CapSingleFile"),
+        makeProperty("CapTransactions"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapUpdateStatistics"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapUpdateFirmware"),
+

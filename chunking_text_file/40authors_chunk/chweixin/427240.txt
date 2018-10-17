@@ -1,0 +1,10 @@
+	 * 设置图片库文件存储目录。
+	 * @param imageFolder
+	 * 图片库文件存储目录。
+	 * */
+	public void setImageFolder(String imageFolder) {
+		this.imageFolder = imageFolder;
+	}
+
+	@Override
+	protected List<Picture> find(PictureInfo info) {

@@ -1,0 +1,10 @@
+       inputPanel.add(day);
+       inputPanel.add(new JLabel("Year"));    
+       inputPanel.add(year);
+
+       panel.add(inputPanel);
+       panel.add(button);
+       panel.add(outputLabel);
+       return panel;
+    }
+

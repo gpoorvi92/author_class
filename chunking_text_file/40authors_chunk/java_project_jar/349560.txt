@@ -1,0 +1,10 @@
+        } else
+        {
+            this.wildcards = new String[wildcards.length];
+            System.arraycopy(wildcards, 0, this.wildcards, 0, wildcards.length);
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public WildcardFileFilter(List wildcards)

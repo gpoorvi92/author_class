@@ -1,0 +1,10 @@
+    /*
+     * @see java.lang.Object#toString()
+     */
+    @Override
+    public String toString() {
+        return "running bit = " + getRunningBit()
+                + " running length = " + getRunningLength()
+                + " number of lit. words " + getNumberOfLiteralWords();
+    }
+

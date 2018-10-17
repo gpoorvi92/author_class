@@ -1,0 +1,10 @@
+			try {
+				cut = bxgPriceCutService.findBxgPriceCutByBxgIDAndCuttomerID(id,customerID);
+			} catch (Exception e) {
+				return returnBxg;
+			}
+			if(cut != null){
+				returnBxg.setLsprice(cut.getPrice());
+			}
+			return returnBxg;
+		}

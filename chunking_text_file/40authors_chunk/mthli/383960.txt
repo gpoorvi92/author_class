@@ -1,0 +1,10 @@
+
+      JMenuItem clearCellsItem = new JMenuItem("Clear Cells");
+      clearCellsItem.addActionListener(new ActionListener()
+      {
+         public void actionPerformed(ActionEvent event)
+         {
+            for (int i = 0; i < table.getRowCount(); i++)
+               for (int j = 0; j < table.getColumnCount(); j++)
+                  if (table.isCellSelected(i, j)) table.setValueAt(0, i, j);
+         }

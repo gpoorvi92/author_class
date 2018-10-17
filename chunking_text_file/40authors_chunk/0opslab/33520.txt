@@ -1,0 +1,10 @@
+      chooser.addClassFileFilter(filter);
+      chooser.showOpenDialog(FitAuthoringClient.this);
+    }
+  }
+
+  public static void main(String[] args) {
+    JFrame frame = new FitAuthoringClient();
+    frame.setSize(new Dimension(800, 600));
+    frame.setVisible(true);
+  }

@@ -1,0 +1,10 @@
+
+  }
+
+  private static class AppSendMessageTupleSchemeFactory implements SchemeFactory {
+    public AppSendMessageTupleScheme getScheme() {
+      return new AppSendMessageTupleScheme();
+    }
+  }
+
+  private static class AppSendMessageTupleScheme extends TupleScheme<AppSendMessage> {

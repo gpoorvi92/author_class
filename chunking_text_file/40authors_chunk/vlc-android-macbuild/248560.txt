@@ -1,0 +1,10 @@
+        }
+
+        return cpuPartText;
+    }
+
+    public String getCpuPartText() {
+        String cpuPartText = sCpuPartMap.get(mCpuPart);
+        if (TextUtils.isEmpty(cpuPartText)) {
+            return String.format("Unknown:0x%x", mCpuPart);
+        }

@@ -1,0 +1,10 @@
+		} finally {
+			dataIn.close();
+		}
+
+	}
+
+	public void disconnect() {
+		if (ftp.isConnected()) {
+			try {
+				ftp.disconnect();

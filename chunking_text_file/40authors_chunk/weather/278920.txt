@@ -1,0 +1,10 @@
+    @Override
+    public JsonElement serialize(Date src, Type typeOfSrc, JsonSerializationContext context) {
+        return new JsonPrimitive(src.getTime());
+    }
+
+    @Override
+    public Date deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
+        return new Date(json.getAsLong()*1000);
+    }
+}

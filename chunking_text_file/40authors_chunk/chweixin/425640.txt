@@ -1,0 +1,10 @@
+	protected List<User> find(UserInfo info) {
+		return this.userDao.findUsers(info);
+	}
+
+	@Override
+	protected UserInfo changeModel(User data) {
+		if(data == null) return null;
+		UserInfo info = new UserInfo();
+		BeanUtils.copyProperties(data, info,new String[]{ "password"});
+		info.setPassword(null);

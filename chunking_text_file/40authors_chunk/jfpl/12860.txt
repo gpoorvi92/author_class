@@ -1,0 +1,10 @@
+		viewList.add(appPage);
+		viewList.add(settingPage);
+		List<String> titleList = new ArrayList<String>();
+		titleList.add(getString(R.string.recently));
+		titleList.add(getString(R.string.application));
+		titleList.add(getString(R.string.more));
+		viewPager.setAdapter(new MainPagerAdapter(this, viewList, titleList));
+		viewPager.setOnPageChangeListener(this);
+		pageBarWidth = SystemUtil.SCREEN_WIDTH / 3;
+		pageCursor.setLayoutParams(new LinearLayout.LayoutParams(pageBarWidth,

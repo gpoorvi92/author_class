@@ -1,0 +1,10 @@
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQReceiver#getMessage(int)
+	 */
+	@Override
+	public Message getMessage(int milliseconds)
+			throws MQException {
+		
+		Message message 	= null;
+		try {
+			

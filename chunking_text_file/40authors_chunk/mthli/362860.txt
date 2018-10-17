@@ -1,0 +1,10 @@
+               j--;
+            swap(codePoints, i - 1, j);
+            reverse(codePoints, i, codePoints.length - 1);
+            return new String(codePoints, 0, codePoints.length);
+         }
+      }
+      reverse(codePoints, 0, codePoints.length - 1);
+      return new String(codePoints, 0, codePoints.length);
+   }
+

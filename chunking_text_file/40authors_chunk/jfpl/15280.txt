@@ -1,0 +1,10 @@
+		if ("1".equals(msgType) && "1".equals(type)) {
+			String state = acd.getStringValue("send_state");
+			if (!"0".equals(state)) {
+				ChatMessageUtil.showChatClickTextDialog(this, chatList,
+						sendState, sendFinishState, acd);
+
+			}
+		} else if ("2".equals(msgType)) {// 图片
+			Intent intent = new Intent(this, ShowImageActivity.class);
+			intent.putExtra("image_path", acd.getStringValue("image_path"));

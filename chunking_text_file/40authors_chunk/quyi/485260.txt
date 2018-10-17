@@ -1,0 +1,10 @@
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class updateUserAppInfo_args implements org.apache.thrift.TBase<updateUserAppInfo_args, updateUserAppInfo_args._Fields>, java.io.Serializable, Cloneable, Comparable<updateUserAppInfo_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("updateUserAppInfo_args");

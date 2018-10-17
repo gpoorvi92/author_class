@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onPageScrollStateChanged(int arg0) {
+
+	}
+
+	@Override
+	public void onPageScrolled(int index, float per, int width) {
+		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(

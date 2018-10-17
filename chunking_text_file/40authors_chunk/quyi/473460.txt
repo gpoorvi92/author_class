@@ -1,0 +1,10 @@
+      public void start(I iface, updateUserAppStatus_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.updateUserAppStatus(args.missionId, args.userAppId, args.plotsStatus, args.functionStatus,resultHandler);
+      }
+    }
+
+    public static class heart<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, heart_args, com.nercis.isscp.idl.Result> {
+      public heart() {
+        super("heart");
+      }
+

@@ -1,0 +1,10 @@
+
+			}
+		}, 0, ONE_MINUTE_IN_SECONDS * 1000);
+
+	}
+
+	//获取类AsyncRequestPersistence的唯一实例
+	public static RequestPersistence getInstance() {
+		return InstanceHolder.INSTANCE;
+	}

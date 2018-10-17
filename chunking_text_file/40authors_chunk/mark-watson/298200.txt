@@ -1,0 +1,10 @@
+
+    private int num1;
+    private int num2;
+    private float min, max;
+    private float temp;
+    private float[][] values = null;
+    private Color[] colors;
+
+    public void paint(Graphics g) {
+        if (values == null) return;

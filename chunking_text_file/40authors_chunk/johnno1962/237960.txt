@@ -1,0 +1,10 @@
+
+/// class java.awt.event.MouseMotionAdapter ///
+
+package org.genie.java_awt;
+
+public class MouseMotionAdapterProxy extends java.awt.event.MouseMotionAdapter {
+
+    long swiftObject;
+
+    /// public java.awt.event.MouseMotionAdapter()

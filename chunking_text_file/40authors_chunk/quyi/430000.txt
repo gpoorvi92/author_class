@@ -1,0 +1,10 @@
+              struct.setEngineNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // VERSION
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.version = iprot.readString();
+              struct.setVersionIsSet(true);
+            } else { 

@@ -1,0 +1,10 @@
+
+			loadingBar.setLayoutParams(layoutParams);
+		} else if (newProgress == 100) {
+			loadingBar.setVisibility(View.GONE);
+			view.destroyDrawingCache();
+			view.clearCache(true);
+		}
+		super.onProgressChanged(view, newProgress);
+	}
+

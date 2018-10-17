@@ -1,0 +1,10 @@
+	{
+		Socket sock = getSocket();
+ 		try {
+			sockIn = sock.getInputStream();
+			sockOut = sock.getOutputStream();
+		}
+		catch (Exception e) {
+			//TODO Add blacklistening of the UPnP Device
+			return false;
+		}

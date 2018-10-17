@@ -1,0 +1,10 @@
+     *
+     * @param currentPayload The value of the payload to be processed.
+     * @param originalPayload The value of the original payload prior to
+     * processing by any already-applied processing rules.
+     * @param baseValue The base value of the payload position, which will be
+     * replaced with the current payload.
+     * @return The value of the processed payload. This may be
+     * <code>null</code> to indicate that the current payload should be skipped,
+     * and the attack will move directly to the next payload.
+     */

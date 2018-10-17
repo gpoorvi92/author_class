@@ -1,0 +1,10 @@
+    }
+
+    public FileEntry getParent()
+    {
+        return parent;
+    }
+
+    public int getLevel()
+    {
+        return parent != null ? parent.getLevel() + 1 : 0;

@@ -1,0 +1,10 @@
+		lbBookCategory.setBounds (15, 135, 100, 20);
+
+		//Setting the Form's TextFields.
+
+		txtBookId = new JTextField ();
+		txtBookId.setHorizontalAlignment (JTextField.RIGHT);
+		txtBookId.setBounds (120, 15, 175, 25);
+		txtBookName = new JTextField ();
+		txtBookName.setEnabled (false);
+		txtBookName.setBounds (120, 45, 175, 25);

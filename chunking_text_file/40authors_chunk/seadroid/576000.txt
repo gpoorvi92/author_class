@@ -1,0 +1,10 @@
+            dataManager.delete(repoID, path, isdir);
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+}
+
+public class DeleteFileDialog extends TaskDialog {
+    private String repoID;
+    private String path;

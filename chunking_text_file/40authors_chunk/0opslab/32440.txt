@@ -1,0 +1,10 @@
+ */
+package info.monitorenter.util;
+
+/**
+ * <p>
+ * I have written implementations of <tt>java.util.Map.Entry</tt> in form of
+ * <ul>
+ * <li>Static inner classes.</li>
+ * <li>Non-static inner classes.</li>
+ * <li>Non-public classes.</li>

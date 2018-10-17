@@ -1,0 +1,10 @@
+	//	run	
+	////////////////////////////////////////////////
+
+	private Thread deviceSearchThread = null;
+		
+	public void run()
+	{
+		Thread thisThread = Thread.currentThread();
+		
+		while (deviceSearchThread == thisThread) {

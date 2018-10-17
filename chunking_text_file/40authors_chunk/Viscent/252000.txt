@@ -1,0 +1,10 @@
+
+		} catch (Exception e) {
+			// 使得线程能够响应interrupt调用而退出
+			ex = e;
+		} finally {
+			try {
+				doCleanup(ex);
+			} finally {
+				terminationToken.notifyThreadTermination(this);
+			}

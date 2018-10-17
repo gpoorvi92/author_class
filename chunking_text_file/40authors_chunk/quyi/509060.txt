@@ -1,0 +1,10 @@
+      if (incoming.get(1)) {
+        {
+          org.apache.thrift.protocol.TMap _map158 = new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.I32, iprot.readI32());
+          struct.functionStatus = new HashMap<String,CheckResultStatus>(2*_map158.size);
+          for (int _i159 = 0; _i159 < _map158.size; ++_i159)
+          {
+            String _key160;
+            CheckResultStatus _val161;
+            _key160 = iprot.readString();
+            _val161 = CheckResultStatus.findByValue(iprot.readI32());

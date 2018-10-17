@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		TestingDataGen me = new TestingDataGen();
+		Map<String, Map<String, Integer>> delayConf = createDefaultConf();
+		int argc = args.length;
+		int duration;// 模拟系统流量的时间跨度（发起请求到停止发起请求的持续时间）
+		int overrallTPS;// 模拟系统的整体TPS（Transaction per Second）
+		overrallTPS = (argc >= 1) ? Integer.valueOf(args[0]) : 100 * 3;
+		duration = (argc >= 2) ? Integer.valueOf(args[1]) : 60;
+		// 持续时间最短为1分钟（因为日志文件的文件名就是精确到分钟）
+		me.generate(overrallTPS, duration, delayConf);

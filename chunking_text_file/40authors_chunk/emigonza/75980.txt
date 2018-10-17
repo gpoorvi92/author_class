@@ -1,0 +1,10 @@
+                     throws JposException;
+  public void    compareFirmwareVersion(String firmwareFileName,
+                                        int[] result)
+                     throws JposException;
+  public void    endCapture()
+                     throws JposException;
+  public void    identify(int maxFARRequested,
+                          int maxFRRRequested,
+                          boolean FARPrecedence,
+                          byte[][] referenceBIRPopulation,

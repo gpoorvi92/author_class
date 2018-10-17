@@ -1,0 +1,10 @@
+        this.ue = new com.nercis.isscp.idl.UnavailableException(other.ue);
+      }
+    }
+
+    public reportEngineConfig_result deepCopy() {
+      return new reportEngineConfig_result(this);
+    }
+
+    @Override
+    public void clear() {

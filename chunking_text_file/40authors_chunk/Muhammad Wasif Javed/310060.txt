@@ -1,0 +1,10 @@
+		Object obj = ae.getSource();
+
+		if (obj == btnFind) {		//If Delete Button Pressed.
+
+			if (txtMemberId.getText().equals ("")) {
+				JOptionPane.showMessageDialog (this, "Member's Id not Provided.");
+				txtMemberId.requestFocus ();
+			}
+			else {
+				id = Integer.parseInt (txtMemberId.getText ());	//Converting String to Numeric.

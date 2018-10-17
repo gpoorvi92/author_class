@@ -1,0 +1,10 @@
+	 * */
+	public void setSystemId(String systemId) {
+		this.systemId = systemId;
+	}
+	/**
+	 * 获取系统名称。
+	 * @return 系统名称。
+	 * */
+	public String getSystemName() {
+		return systemName;

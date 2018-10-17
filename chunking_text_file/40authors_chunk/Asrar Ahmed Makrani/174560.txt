@@ -1,0 +1,10 @@
+ 					k +"','" +
+ 					"IN" +"','" +
+ 					type_combo.getSelectedItem() +"')";
+ 				
+ 				int result = statement.executeUpdate(query);
+ 				
+ 				String query2 = "INSERT INTO journal_detail (item_id, journal_no, type, category, issue_no, publisher, pages" + 
+ 						") VALUES ('" +
+ 					a +"','" +
+ 					c +"','" +

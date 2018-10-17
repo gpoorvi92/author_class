@@ -1,0 +1,10 @@
+*		- Fixed set() to set the version and the response code when the mothod is null.
+*		- Fixed set() to read multi words of the response sring such as Not Found.
+*	
+******************************************************************/
+
+package org.cybergarage.http;
+
+import java.util.StringTokenizer;
+
+import org.cybergarage.util.Debug;

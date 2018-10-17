@@ -1,0 +1,10 @@
+// This program is in Image Compression1.pdf. See it
+package Algorithms.GEN;
+
+import java.math.*;
+
+public class CharCompressDemo {
+static int posA='A';
+public static void main(String[] args) {
+String incoming=args[0].toUpperCase();
+if (incoming.length()%3==1) incoming+="[[";

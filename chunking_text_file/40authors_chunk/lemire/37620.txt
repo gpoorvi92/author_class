@@ -1,0 +1,10 @@
+    public BufferedIterator32(
+            final CloneableIterator<EWAHIterator32> iterator) {
+        this.masterIterator = iterator;
+        if (this.masterIterator.hasNext()) {
+            iteratingBrlw = new IteratingBufferedRunningLengthWord32(this.masterIterator.next());
+        }
+    }
+
+    /**
+     * Discard first words, iterating to the next running length word if

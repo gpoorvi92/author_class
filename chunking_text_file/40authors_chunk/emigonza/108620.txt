@@ -1,0 +1,10 @@
+// 2009-Feb-23 JavaPOS Release 1.13                                BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface PointCardRWService113 extends PointCardRWService112
+{

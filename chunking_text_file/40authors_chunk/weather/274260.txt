@@ -1,0 +1,10 @@
+		this.downloadBeginTime = downloadBeginTime;
+	}
+
+	public long getDownloadEndTime() {
+		return downloadEndTime;
+	}
+
+	public void setDownloadEndTime(long downloadEndTime) {
+		this.downloadEndTime = downloadEndTime;
+	}

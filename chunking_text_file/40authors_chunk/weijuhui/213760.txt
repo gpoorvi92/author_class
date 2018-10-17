@@ -1,0 +1,10 @@
+     * @return the TimeObject representing "time" suitable for populating TimeViews
+     * returned from {@link #createView(Context, boolean)}
+     */
+    public TimeObject getElem(long time) {
+        Calendar c = Calendar.getInstance();
+        c.setTimeInMillis(time);
+        return timeObjectfromCalendar(c);
+    }
+
+    /**

@@ -1,0 +1,10 @@
+       } // close outer
+
+       track.add(makeEvent(192,9,1,0,15));      
+       try {
+           sequencer.setSequence(sequence); 
+	     sequencer.setLoopCount(sequencer.LOOP_CONTINUOUSLY);                   
+           sequencer.start();
+           sequencer.setTempoInBPM(120);
+       } catch(Exception e) {e.printStackTrace();}
+    } // close buildTrackAndStart method

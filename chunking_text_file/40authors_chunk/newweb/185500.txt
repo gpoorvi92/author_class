@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean insert(LhjPrice lhjp) {
+		try {
+			sessionFactory.getCurrentSession().save(lhjp);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

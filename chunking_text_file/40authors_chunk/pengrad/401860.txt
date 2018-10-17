@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void getChat() {
+        GetChatResponse getChatResponse = bot.execute(new GetChat(chatId));
+        ChatTest.checkChat(getChatResponse.chat());
+    }
+
+    @Test
+    public void leaveChat() {

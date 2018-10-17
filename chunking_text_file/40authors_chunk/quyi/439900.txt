@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("cpuModel:");
+    if (this.cpuModel == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.cpuModel);
+    }
+    first = false;

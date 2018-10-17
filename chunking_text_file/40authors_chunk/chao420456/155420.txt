@@ -1,0 +1,9 @@
+		// 其他进制到十进制
+		// public static int parseInt(String s,int radix)
+		System.out.println(Integer.parseInt("100", 2));
+		System.out.println(Integer.parseInt("100", 8));
+		System.out.println(Integer.parseInt("100", 16));
+		System.out.println(Integer.parseInt("300", 12));
+
+	}
+}

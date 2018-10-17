@@ -1,0 +1,10 @@
+                ZoneEntity zoneEntity = ZoneEntityManager.getInstance().getFirstZoneEntiry();
+                AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, request.getSession()).setTargetZone(zoneEntity);
+                resultCode.setUrl(request.getContextPath() + "/overview/");
+                LoginLogEntiry loginLogEntiry = new LoginLogEntiry();
+                loginLogEntiry.setUserName(user.getUsername());
+                DaoManager.getLocalDao().saveOrUpdate(loginLogEntiry);
+                log.info("用户[{}]登录系统", account);
+            }
+        }
+        return resultCode.toJson();

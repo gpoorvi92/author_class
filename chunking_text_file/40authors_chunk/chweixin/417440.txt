@@ -1,0 +1,10 @@
+	 * */
+	public BaseRespMessage(BaseMessage req){
+		super();
+		if(req != null){
+			this.setToUserName(req.getFromUserName());
+			this.setFromUserName(req.getToUserName());
+		}
+	}
+	/**
+	 * 获取接收方帐号(收到的OpenID)。

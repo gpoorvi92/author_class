@@ -1,0 +1,10 @@
+        this.remoteDir = remoteDir;
+        this.localDir = localDir;
+        this.remoteEncoding = remoteEncoding;
+        this.passiveMode = passiveMode;
+        this.username = username;
+        this.password = password;
+    }
+
+    public int getPort() {
+        return port;

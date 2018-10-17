@@ -1,0 +1,10 @@
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				switch(status){
+				case 0://有稻子可收时玩家确认伐木
+					tempHero.heroSkill.get(FARMING).useSkill(result);
+					break;
+				case 1://无稻子可收时玩家确认放弃
+					break;
+				}
+				recoverGame();

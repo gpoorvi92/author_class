@@ -1,0 +1,10 @@
+            };
+      }
+      return renderer;
+   }
+
+   public void setRenderer(ListCellRenderer<? super Locale> newValue)
+   {
+      renderer = null;
+      super.setRenderer(newValue);
+   }

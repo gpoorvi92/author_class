@@ -1,0 +1,10 @@
+
+    public java.util.Iterator<com.nercis.isscp.idl.AppCheckResult> getSuccessIterator() {
+      return (this.success == null) ? null : this.success.iterator();
+    }
+
+    public void addToSuccess(com.nercis.isscp.idl.AppCheckResult elem) {
+      if (this.success == null) {
+        this.success = new ArrayList<com.nercis.isscp.idl.AppCheckResult>();
+      }
+      this.success.add(elem);

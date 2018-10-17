@@ -1,0 +1,10 @@
+                    }
+                }
+            }
+            {
+                //获取当前注册人数信息
+                ChatServerRpc.GetRegisterInfoReq req = ChatServerRpc.GetRegisterInfoReq.newBuilder().build();
+                for (ChatServerRpcClient client : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.GetRegisterInfoResp resp = client.getRegisterInfo(req);
+                    for (RpcDto.RegisterInfoDTO each : resp.getRegisterInfoDTOList())

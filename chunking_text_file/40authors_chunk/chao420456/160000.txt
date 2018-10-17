@@ -1,0 +1,9 @@
+		int len = 0;
+		while ((len = sis.read(bys)) != -1) {
+			bos.write(bys, 0, len);
+		}
+
+		bos.close();
+		sis.close();
+	}
+}

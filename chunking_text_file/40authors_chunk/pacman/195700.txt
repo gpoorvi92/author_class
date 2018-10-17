@@ -1,0 +1,10 @@
+		
+		boolean result = false;
+		
+		
+		ProcessExecutor pe = new ProcessExecutor();
+		try {
+			logger.info(PREFIX + " CMD:" + cmd); 
+			result = pe.execute(null, cmd);
+			if (ignoreResult)
+				result = true;

@@ -1,0 +1,10 @@
+		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
+
+		final ITextureAtlasStateListener.TextureAtlasStateAdapter<IBitmapTextureAtlasSource> textureAtlasStateListener = new ITextureAtlasStateListener.TextureAtlasStateAdapter<IBitmapTextureAtlasSource>() {
+			@Override
+			public void onTextureAtlasSourceLoadExeption(final ITextureAtlas<IBitmapTextureAtlasSource> pTextureAtlas, final IBitmapTextureAtlasSource pBitmapTextureAtlasSource, final Throwable pThrowable) {
+				ImageFormatsExample.this.runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						Toast.makeText(ImageFormatsExample.this, "Failed loading TextureSource: " + pBitmapTextureAtlasSource.toString(), Toast.LENGTH_LONG).show();
+					}

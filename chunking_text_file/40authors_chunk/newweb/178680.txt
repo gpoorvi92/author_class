@@ -1,0 +1,10 @@
+	
+	@Override
+	public Supplier[] queryAllSuppliers() {
+		List<Supplier> list = supplierDao.selectAllSuppliers();
+		Supplier[] ss = new Supplier[list.size()];
+		int count = 0;
+		for (Supplier s : list) {
+			ss[count++] = s;
+		}
+		return ss;

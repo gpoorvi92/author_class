@@ -1,0 +1,10 @@
+		this.cpuNice = cpuNice;
+	}
+	/**
+	 * @return the cpuIdle
+	 */
+	public double getCpuIdle() {
+		return cpuIdle;
+	}
+	/**
+	 * @param cpuIdle the cpuIdle to set

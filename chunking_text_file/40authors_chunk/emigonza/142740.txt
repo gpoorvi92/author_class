@@ -1,0 +1,10 @@
+  public void    setCurrencyCode(String currencyCode) throws JposException;
+  public String  getCurrencyCodeList() throws JposException;
+  public int     getCurrentExit() throws JposException;
+  public void    setCurrentExit(int currentExit) throws JposException;
+  public int     getDeviceExits() throws JposException;
+  public int     getDeviceStatus() throws JposException;
+  public String  getExitCashList() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;

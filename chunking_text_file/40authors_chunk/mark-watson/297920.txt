@@ -1,0 +1,10 @@
+      doc.add(new Field("uri", document_original_uri, Field.Store.YES, Field.Index.NO));
+      doc.add(new Field("text", document_plain_text, Field.Store.YES, Field.Index.TOKENIZED));
+      writer.addDocument(doc);
+      writer.optimize();
+      writer.close();
+  }
+  /**
+   * 
+   * @param search_query
+   * @return

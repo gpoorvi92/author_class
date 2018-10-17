@@ -1,0 +1,10 @@
+    {
+        numOfGuesses++;
+        String result = "miss";
+        
+        for (DotCom dotComToTest : dotComsList)
+        {
+            result = dotComToTest.checkYourself(userGuess);
+            if (result.equals("hit"))
+            {
+                break;

@@ -1,0 +1,10 @@
+		});
+
+		mi4.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Runtime r = Runtime.getRuntime();
+				try {
+					r.exec("notepad");
+				} catch (IOException e1) {

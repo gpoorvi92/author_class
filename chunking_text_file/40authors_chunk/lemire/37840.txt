@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public BufferedIterator32 clone() throws CloneNotSupportedException {
+        BufferedIterator32 answer = (BufferedIterator32) super.clone();
+        answer.iteratingBrlw = this.iteratingBrlw.clone();
+        answer.masterIterator = this.masterIterator.clone();
+        return answer;
+    }
+

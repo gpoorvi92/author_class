@@ -1,0 +1,10 @@
+            boolean showHomeAsUp) {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            ActionBar actionBar = activity.getActionBar();
+            if (actionBar != null) {
+                actionBar.setDisplayHomeAsUpEnabled(true);
+            }
+        }
+    }
+
+    public static void setDisplayShowTitleEnabled(Activity activity,

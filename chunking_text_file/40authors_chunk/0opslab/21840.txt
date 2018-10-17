@@ -1,0 +1,10 @@
+                FileOutputStream outStream = new FileOutputStream(target);
+                FileChannel in = inStream.getChannel();
+                FileChannel out = outStream.getChannel();
+        ) {
+            in.transferTo(0, in.size(), out);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+

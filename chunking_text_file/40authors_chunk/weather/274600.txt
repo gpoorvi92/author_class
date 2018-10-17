@@ -1,0 +1,10 @@
+        public static String ICON = "http://www.weather.com.cn/m/i/weatherpic/29x20/";//图标前缀
+    }
+
+
+    /**
+     * 获取当日天气信息
+     *
+     * @param cityId
+     * @param listener
+     * @return

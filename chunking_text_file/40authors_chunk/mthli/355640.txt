@@ -1,0 +1,10 @@
+      JPanel buttonPanel = new JPanel();
+
+      JButton nextButton = new JButton("Next");
+      buttonPanel.add(nextButton);
+      nextButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               canvas.flipPage(1);
+            }

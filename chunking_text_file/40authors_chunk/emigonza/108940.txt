@@ -1,0 +1,10 @@
+        makeProperty("MaximumY"),
+        makeProperty("ScreenMode"),
+        makeProperty("ScreenModeList")
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {
+      return super.getPropertyDescriptors();

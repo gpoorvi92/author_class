@@ -1,0 +1,10 @@
+            while (i.hasNext()) {
+                EWAHCompressedBitmap[] x = i.next();
+                EWAHCompressedBitmap tanswer = EWAHCompressedBitmap.or(x);
+                EWAHCompressedBitmap x1 = IteratorUtil
+                        .materialize(IteratorAggregation
+                                .bufferedor(IteratorUtil
+                                        .toIterators(x)));
+                assertTrue(x1.equals(tanswer));
+            }
+            System.gc();

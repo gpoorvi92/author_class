@@ -1,0 +1,10 @@
+          unsetVirRD();
+        } else {
+          setVirRD((com.nercis.isscp.idl.virus.VirusDetectionResultData)value);
+        }
+        break;
+
+      }
+    }
+
+    public Object getFieldValue(_Fields field) {

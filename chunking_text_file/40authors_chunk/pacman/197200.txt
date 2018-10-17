@@ -1,0 +1,10 @@
+		
+		try {
+			
+			FileUtils.moveDirectoryToDirectory(new File(srcDir), new File(destDir), true);
+			return true;
+		} catch (IOException e) {
+			
+			return false;
+		}
+	}

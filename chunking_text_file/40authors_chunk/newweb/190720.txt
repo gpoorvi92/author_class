@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.newweb.model.base.LhjPrice;
+import com.newweb.model.base.MaterialBrand;
+import com.newweb.service.base.LhjPriceService;
+import com.newweb.service.base.MaterialBrandService;
+
+@Controller

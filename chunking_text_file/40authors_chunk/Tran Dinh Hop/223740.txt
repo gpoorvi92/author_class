@@ -1,0 +1,10 @@
+				else counter=s.length();
+				for(int a=0;a<counter;a++){
+					int wr=getCode(tree,s.substring(0,a+1));
+					if(wr==-1)continue;
+					else{
+						outf.write(wr);
+						s=s.substring(a+1);
+						break;
+					}
+				}

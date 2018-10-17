@@ -1,0 +1,10 @@
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich
+ * @since 9:55:51 - 02.08.2011
+ */
+public class TexturePackerExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+

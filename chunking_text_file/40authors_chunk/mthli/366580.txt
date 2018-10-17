@@ -1,0 +1,10 @@
+      protected Void doInBackground() throws Exception
+      {
+         try
+         {
+            while (current < target)
+            {
+               Thread.sleep(100);
+               current++;
+               publish(current);
+            }

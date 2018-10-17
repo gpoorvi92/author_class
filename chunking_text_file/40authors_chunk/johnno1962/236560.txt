@@ -1,0 +1,10 @@
+            entered_handleOpenFile_1 = true;
+            __handleOpenFile( arg0 );
+            entered_handleOpenFile_1 = false;
+        }
+        else
+            super.handleOpenFile( arg0 );
+    }
+
+    /// public void com.apple.eawt.ApplicationAdapter.handlePrintFile(com.apple.eawt.ApplicationEvent)
+

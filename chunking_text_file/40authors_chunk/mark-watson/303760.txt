@@ -1,0 +1,10 @@
+        // we will use chromosomes with 10 1 bit genes per
+        // chromosomes, and a population of 12 chromosomes:
+        genetic_experiment = new MyGenetic(10, 20, 0.85f, 0.3f);
+        int geneIndex = 0; //  debug only
+        for (Chromosome ll  : genetic_experiment.chromosomes) {
+          System.out.println(ll.chromosome + " : " + genetic_experiment.geneToFloat(geneIndex++));
+        }
+        int NUM_CYCLES = 500;
+        for (int i=0; i<NUM_CYCLES; i++) {
+            genetic_experiment.evolve();

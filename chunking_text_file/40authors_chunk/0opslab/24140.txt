@@ -1,0 +1,10 @@
+                g.setColor(color);
+                g.drawString(strs[i]+"",(width-(len-i)*w)+size, h-4);
+            }
+            ImageIO.write(bi, "png", out);
+            out.flush();
+            return true;
+        }catch (IOException e){
+            return false;
+        }
+    }

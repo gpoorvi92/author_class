@@ -1,0 +1,10 @@
+import android.graphics.Paint;
+import android.view.MotionEvent;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+/**
+ * 
+ * 此类为帮助界面
+ *
+ */

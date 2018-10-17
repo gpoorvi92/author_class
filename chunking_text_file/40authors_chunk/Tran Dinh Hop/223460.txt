@@ -1,0 +1,10 @@
+	* ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+	*
+ 	* --------------------------------- CONTACT --------------------------------- 
+	* This project was written in a burning hurry, so it is not a model of efficient
+	* nor even good code.
+	* Please send comments, bug reports, improvements to: hoptrandinh@yahoo.com  
+	*
+	* Author:  http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp
+	* Kh.Mahmudul Alam (Dipu) student of computer science and technology,  
+	* Bangladesh University of Engineering & Technology 

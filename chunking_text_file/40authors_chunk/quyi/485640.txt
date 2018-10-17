@@ -1,0 +1,10 @@
+      }
+      if (other.isSetDycRD()) {
+        this.dycRD = new com.nercis.isscp.idl.DynamicCheckResultData(other.dycRD);
+      }
+      if (other.isSetVirRD()) {
+        this.virRD = new com.nercis.isscp.idl.virus.VirusDetectionResultData(other.virRD);
+      }
+    }
+
+    public updateUserAppInfo_args deepCopy() {

@@ -1,0 +1,10 @@
+              _iter8.write(oprot);
+            }
+          }
+        }
+        if (struct.isSetPlots()) {
+          {
+            oprot.writeI32(struct.plots.size());
+            for (com.nercis.isscp.idl.PlotsType _iter9 : struct.plots)
+            {
+              oprot.writeI32(_iter9.getValue());

@@ -1,0 +1,10 @@
+    public String getName() {
+        return file.getName();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o) {
+            return true;
+        }

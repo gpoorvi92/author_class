@@ -1,0 +1,10 @@
+    static {
+      schemes.put(StandardScheme.class, new operateEngine_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new operateEngine_argsTupleSchemeFactory());
+    }
+
+    public Engine engine; // required
+    /**
+     * 
+     * @see EngineOperation
+     */

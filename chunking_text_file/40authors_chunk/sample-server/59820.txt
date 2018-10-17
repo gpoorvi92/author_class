@@ -1,0 +1,10 @@
+        public void send(byte[] data) throws IOException
+        {
+            int length = data.length;
+            ByteBuffer header = ByteBuffer.allocate(4);
+            header.putInt(length);
+            write(header.array());
+            write(data);
+            flush();
+        }
+    }

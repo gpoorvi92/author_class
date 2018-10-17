@@ -1,0 +1,10 @@
+	// Instance variables
+	//
+
+	private Profile profile = null;
+	private DevCat devCat = null;
+
+	private PropInfoList standardProps = new DefaultPropInfoList();
+	private PropInfoList requiredProps = new DefaultPropInfoList();
+	private PropInfoList optionalProps = new DefaultPropInfoList();
+}

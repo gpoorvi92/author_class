@@ -1,0 +1,10 @@
+	
+	/**
+	 * @return the vedioDuration
+	 */
+	public int getVedioDuration() {
+		return vedioDuration;
+	}
+	
+	/**
+	 * @return the vedioSamplingRate

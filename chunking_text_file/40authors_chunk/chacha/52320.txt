@@ -1,0 +1,10 @@
+		try{
+			while(cursor.hasNext()){
+				System.out.println(cursor.next());
+			}
+		}finally{
+			System.out.println(cursor.count());
+			cursor.close();
+		}
+	}
+}

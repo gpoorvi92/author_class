@@ -1,0 +1,10 @@
+	public boolean setChatBusiSerial(String str) {
+		ctx.setChatBusiSerial(str);
+		return true;
+	}
+
+	public String getChatBusiType() {
+		return ctx.getChatBusiType();
+	}
+
+	public boolean initMenu(String json) {

@@ -1,0 +1,10 @@
+ Solution: dp.
+ */
+public class Solution {
+    public int maxSubArray_1(int[] A) {
+        if (A.length == 0) return 0;
+        int minVal = Math.min(A[0],0), res = A[0], sum = A[0];
+        for (int i = 1; i < A.length; ++i) {
+            sum += A[i];
+            res = Math.max(res, sum - minVal);
+            minVal = Math.min(minVal, sum);

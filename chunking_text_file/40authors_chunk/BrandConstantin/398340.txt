@@ -1,0 +1,10 @@
+            for (int i = 1; i < elemento; i++){
+                suma = num1 + num2;
+                System.out.print(num2 + " ");
+                num1 = num2;
+                num2 = suma;
+            }
+        }
+    }
+  }
+}

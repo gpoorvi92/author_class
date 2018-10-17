@@ -1,0 +1,10 @@
+      textArea.setColumns(TEXT_COLUMNS);
+      add(new JScrollPane(textArea), BorderLayout.CENTER);
+      pack();
+   }
+
+   /**
+    * Tries to insert words into the text area. Displays a dialog if the attempt fails.
+    * @param words the words to insert
+    */
+   public void insertWords(String words)

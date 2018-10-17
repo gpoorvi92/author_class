@@ -1,0 +1,10 @@
+	/**
+	 * @Title:DefaultMQManager
+	 */
+	public DefaultMQFactory(String addr, Map<QueueType, String> map) {
+		
+		if (clientID == null) {
+			try {
+				clientID = InetAddressUtil.getLocalHostName();
+			} catch (UnknownHostException e) {
+				// TODO Auto-generated catch block

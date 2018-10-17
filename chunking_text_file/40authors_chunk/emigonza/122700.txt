@@ -1,0 +1,10 @@
+	 * if the popualator already is in the composite
+	 */
+	public void add( JposRegPopulator populator );
+
+	/**
+	 * Removes this JposRegPopulator from the composite
+	 * @param populator removes the populator to the composite reg populator
+	 */
+	public void remove( JposRegPopulator populator );
+

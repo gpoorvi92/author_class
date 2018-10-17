@@ -1,0 +1,4 @@
+	public static String getLocationCurrentTime(){
+		return new SimpleDateFormat("HH:mm:ss").format(new Date());
+	}
+}

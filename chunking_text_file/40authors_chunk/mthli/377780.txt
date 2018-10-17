@@ -1,0 +1,10 @@
+         System.err.println("Did you specify a splash image with -splash or in the manifest?");         
+         System.exit(1);
+      }
+
+      try
+      {
+         for (int i = 0; i <= 100; i++)
+         {
+            drawOnSplash(i);
+            Thread.sleep(100); // simulate startup work

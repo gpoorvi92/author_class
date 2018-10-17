@@ -1,0 +1,10 @@
+         if (args.length > 2)
+         {
+            String username = args[1];
+            String password = args[2];
+            String input = username + ":" + password;
+            String encoding = base64Encode(input);
+            connection.setRequestProperty("Authorization", "Basic " + encoding);
+         }
+
+         connection.connect();

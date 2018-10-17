@@ -1,0 +1,10 @@
+      processMap.put("queryApp", new queryApp());
+      processMap.put("queryMission", new queryMission());
+      processMap.put("updateAppStatus", new updateAppStatus());
+      processMap.put("updateUserAppInfo", new updateUserAppInfo());
+      processMap.put("updateUserAppStatus", new updateUserAppStatus());
+      processMap.put("heart", new heart());
+      return processMap;
+    }
+
+    public static class genMissionId<I extends Iface> extends org.apache.thrift.ProcessFunction<I, genMissionId_args> {

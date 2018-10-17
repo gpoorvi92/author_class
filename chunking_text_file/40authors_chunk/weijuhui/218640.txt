@@ -1,0 +1,10 @@
+			result = R.string.errcode_cancel;
+			break;
+		case BaseResp.ErrCode.ERR_AUTH_DENIED:
+			result = R.string.errcode_deny;
+			break;
+		default:
+			result = R.string.errcode_unknown;
+			break;
+		}
+		//Output.toast(this, result);

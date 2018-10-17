@@ -1,0 +1,10 @@
+      try
+      {
+         return new Variable(f.getType(), f.getName(), f.get(parentValue));
+      }
+      catch (IllegalAccessException e)
+      {
+         return null;
+      }
+   }
+

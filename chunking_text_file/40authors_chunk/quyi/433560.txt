@@ -1,0 +1,10 @@
+      } else {
+        setRss((Integer)value);
+      }
+      break;
+
+    case VSS:
+      if (value == null) {
+        unsetVss();
+      } else {
+        setVss((Integer)value);

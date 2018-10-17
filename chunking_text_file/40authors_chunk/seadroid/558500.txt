@@ -1,0 +1,10 @@
+        };
+
+    /**
+     * {get photo path from sd-card @link
+     * http://stackoverflow.com/questions/3873496
+     * /how-to-get-image-path-from-images-stored-on-sd-card}
+     */
+    private static final FileFilter PHOTO_DIR_FILTER = new FileFilter() {
+        @Override
+        public boolean accept(File folder) {

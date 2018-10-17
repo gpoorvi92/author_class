@@ -1,0 +1,10 @@
+  public static final int SC_RESET          = 26;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "StatusUpdateEvent" "Status" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int SC_SUE_NO_CARD      = 1;  // No card detected in the SCR/W Device.
+  public static final int SC_SUE_CARD_PRESENT = 2;  // There is a card in the device.
+

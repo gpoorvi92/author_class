@@ -1,0 +1,10 @@
+ * This component draws two joined lines, using different stroke objects, and allows the user to 
+ * drag the three points defining the lines.
+ */
+class StrokeComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 400;
+   private static int SIZE = 10;
+
+   private Point2D[] points;

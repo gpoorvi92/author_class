@@ -1,0 +1,10 @@
+		}
+	}
+
+
+	/**
+	 * Returns true if the specified file is scheduled for deletion
+	 * 
+	 * @param file
+	 * @return
+	 */

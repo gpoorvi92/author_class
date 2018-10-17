@@ -1,0 +1,10 @@
+				for(int i=0; i<outBytes.length; i++) 
+					out.write(outBytes[i]); 
+
+				previous = outBytes; 
+
+				code = getCode(in);
+			} else { 
+				// Case2: given code is not in dictionary
+
+				// output previous code's ([Entry] U [previous first byte]) 

@@ -1,0 +1,10 @@
+ * @author Nicolas Gramlich
+ * @since 11:54:51 - 03.04.2010
+ */
+public class ETC1TextureExample extends SimpleBaseGameActivity {
+	// ===========================================================
+	// Constants
+	// ===========================================================
+
+	private static final int CAMERA_WIDTH = 720;
+	private static final int CAMERA_HEIGHT = 480;

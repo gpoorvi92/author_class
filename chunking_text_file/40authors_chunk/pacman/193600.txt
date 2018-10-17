@@ -1,0 +1,10 @@
+	public void setVedioSamplingRate(int vedioSamplingRate) {
+		this.vedioSamplingRate = vedioSamplingRate;
+	}
+
+	/**
+	 * @param videoBitRate the videoBitRate to set
+	 */
+	public void setVideoBitRate(int videoBitRate) {
+		this.videoBitRate = videoBitRate;
+	}

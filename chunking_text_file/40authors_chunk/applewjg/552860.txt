@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       March 12, 2014
+ Problem:    LRU Cache
+ Difficulty: Hard
+ Source:     http://oj.leetcode.com/problems/lru-cache/
+ Notes:
+ Design and implement a data structure for Least Recently Used (LRU) cache. 
+ It should support the following operations: get and set. 
+ get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.

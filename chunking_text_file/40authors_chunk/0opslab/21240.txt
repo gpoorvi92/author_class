@@ -1,0 +1,6 @@
+        if(CaptchaUtil.gifCaptcha(random,width,height,file)){
+            return random;
+        }
+        return "";
+    }
+}

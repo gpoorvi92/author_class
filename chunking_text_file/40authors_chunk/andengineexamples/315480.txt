@@ -1,0 +1,10 @@
+		scene.setOnSceneTouchListener(new IOnSceneTouchListener() {
+			@Override
+			public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+				if(pSceneTouchEvent.isActionDown()) {
+					screenCapture.capture(180, 60, 360, 360, FileUtils.getAbsolutePathOnExternalStorage(RectangleExample.this, "Screen_" + System.currentTimeMillis() + ".png"), new IScreenCaptureCallback() {
+						@Override
+						public void onScreenCaptured(final String pFilePath) {
+							RectangleExample.this.runOnUiThread(new Runnable() {
+								@Override
+								public void run() {

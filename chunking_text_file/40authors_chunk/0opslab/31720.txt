@@ -1,0 +1,10 @@
+
+        BeanUtil.setProperty(bean,"operationName", value);
+        assertEquals(value, bean.getOperationName());
+
+        BeanUtil.setPropertyPeaceful(bean, "operationName", value + "2");
+        assertEquals(value + "2", bean.getOperationName());
+
+
+        BeanUtil.setPropertyIgnoreCase(bean, "operationname", value + "3");
+        assertEquals(value + "3", bean.getOperationName());

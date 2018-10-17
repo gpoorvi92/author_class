@@ -1,0 +1,10 @@
+      this.checkStartTime = null;
+    }
+  }
+
+  public String getCheckStopTime() {
+    return this.checkStopTime;
+  }
+
+  public Sample setCheckStopTime(String checkStopTime) {
+    this.checkStopTime = checkStopTime;

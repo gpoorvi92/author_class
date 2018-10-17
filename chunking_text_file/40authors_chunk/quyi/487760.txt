@@ -1,0 +1,10 @@
+    }
+
+    public updateUserAppInfo_result deepCopy() {
+      return new updateUserAppInfo_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;

@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义动态检测文件操作记录
+ * 1:string pidName 进程编号
+ * 2:string fileDescription 进程描述/文件描述
+ * 3:string filePath 文件路径
+ * 4:string operateContent 操作内容

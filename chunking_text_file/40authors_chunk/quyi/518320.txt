@@ -1,0 +1,10 @@
+      if (field == null) {
+        throw new IllegalArgumentException();
+      }
+
+      switch (field) {
+      case PROPERTY_NAME:
+        return isSetPropertyName();
+      case PROPERTY_VALUE:
+        return isSetPropertyValue();
+      }

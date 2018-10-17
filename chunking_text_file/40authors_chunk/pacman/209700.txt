@@ -1,0 +1,4 @@
+		this.memUsage = memUsage;
+	}
+	
+}

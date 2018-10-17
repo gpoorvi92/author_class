@@ -1,0 +1,10 @@
+        super(Method.GET, null, null);
+        mCache = cache;
+        mCallback = callback;
+    }
+
+    @Override
+    public boolean isCanceled() {
+        // This is a little bit of a hack, but hey, why not.
+        mCache.clear();
+        if (mCallback != null) {

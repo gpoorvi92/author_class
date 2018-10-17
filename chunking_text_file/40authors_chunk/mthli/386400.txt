@@ -1,0 +1,10 @@
+      else if (type instanceof ParameterizedType)
+      {
+         ParameterizedType t = (ParameterizedType) type;
+         Type owner = t.getOwnerType();
+         if (owner != null)
+         {
+            printType(owner, false);
+            System.out.print(".");
+         }
+         printType(t.getRawType(), false);

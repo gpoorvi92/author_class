@@ -1,0 +1,10 @@
+
+    public static final int PCRW_SUE_STATE_NOCARD     = 1;
+    public static final int PCRW_SUE_STATE_REMAINING  = 2;
+    public static final int PCRW_SUE_STATE_INRW       = 3;
+
+    public static final int PCRW_SUE_NOCARD           = 1;
+    public static final int PCRW_SUE_REMAINING        = 2;
+    public static final int PCRW_SUE_INRW             = 3;
+
+

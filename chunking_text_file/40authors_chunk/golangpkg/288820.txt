@@ -1,0 +1,10 @@
+		return maximumRatePerClientInKiloBytes;
+	}
+
+
+	@ManagedAttribute
+	public void setMaximumRatePerClientInKiloBytes(long maximumRatePerClientInKiloBytes) {
+		this.maximumRatePerClientInKiloBytes = maximumRatePerClientInKiloBytes;
+	}
+
+

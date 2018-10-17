@@ -1,0 +1,4 @@
+		// return s;
+		return new SimpleDateFormat("HH:mm:ss").format(d);
+	}
+}

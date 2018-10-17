@@ -1,0 +1,10 @@
+	}
+
+	class TWebChromeClient extends WebChromeClient {
+
+		private WebView webView;
+
+		public TWebChromeClient(WebView webView) {
+			this.webView = webView;
+		}
+

@@ -1,0 +1,8 @@
+
+            return packageInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+
+        return null;
+    }
+}

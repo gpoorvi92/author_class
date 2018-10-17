@@ -1,0 +1,10 @@
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "CountryCode" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int MICR_CC_USA          =  1;
+    public static final int MICR_CC_CANADA       =  2;
+    public static final int MICR_CC_MEXICO       =  3;
+    public static final int MICR_CC_CMC7         =  4; // Added in 1.13

@@ -1,0 +1,10 @@
+		//设置初始状态位
+		if(status == -1){
+			if(tempHero.getTotalMoney() < cost){//金钱不够了
+				status = 1;
+			}
+			else{//如果金钱还够
+				status = 0;
+			}			
+		}
+		showString = dialogMessage[status];//确定要显示的字符串

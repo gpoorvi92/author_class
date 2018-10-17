@@ -1,0 +1,10 @@
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {
+               JFrame frame = new SwingWorkerFrame();
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }

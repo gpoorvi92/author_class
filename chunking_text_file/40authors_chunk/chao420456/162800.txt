@@ -1,0 +1,10 @@
+		while(flag_exit){
+				try {
+					if(serverSocket.isClosed()){
+						flag_exit = false;
+					}else{
+						try{
+							socket = serverSocket.accept();
+						}catch(SocketException e){
+							socket = null;
+							flag_exit = false;

@@ -1,0 +1,10 @@
+ * A frame that restores position and size from user preferences and updates the preferences upon
+ * exit.
+ */
+class PreferencesFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   public PreferencesFrame()
+   {

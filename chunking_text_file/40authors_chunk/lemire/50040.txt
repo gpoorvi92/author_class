@@ -1,0 +1,10 @@
+ * @since 0.8.2
+ */
+public final class ThresholdFuncBitmap32 extends UpdateableBitmapFunction32 {
+    private final int min;
+    private int[] buffers;
+    private int bufferUsed;
+    private final int[] bufcounters = new int[64];
+    private static final int[] zeroes64 = new int[64];
+
+    /**

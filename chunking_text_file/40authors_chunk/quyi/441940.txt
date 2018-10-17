@@ -1,0 +1,10 @@
+
+    boolean this_present_dataChar = true && this.isSetDataChar();
+    boolean that_present_dataChar = true && that.isSetDataChar();
+    if (this_present_dataChar || that_present_dataChar) {
+      if (!(this_present_dataChar && that_present_dataChar))
+        return false;
+      if (!this.dataChar.equals(that.dataChar))
+        return false;
+    }
+

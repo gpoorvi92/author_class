@@ -1,0 +1,10 @@
+
+  /**
+   * Returns a copy of this stream handler factory that includes a shallow copy
+   * of the internal {@linkplain OkHttpClient HTTP client}.
+   */
+  @Override public OkUrlFactory clone() {
+    return new OkUrlFactory(client.clone());
+  }
+
+  public HttpURLConnection open(URL url) {

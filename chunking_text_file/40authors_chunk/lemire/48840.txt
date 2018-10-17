@@ -1,0 +1,10 @@
+
+    /**
+     * @return the size of the queue
+     */
+    public int size() {
+        return this.lastIndex;
+    }
+
+    private int compare(T a, T b) {
+        return this.comp.compare(a, b);

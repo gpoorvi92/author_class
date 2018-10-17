@@ -1,0 +1,10 @@
+
+   /**
+    * Constructs a FileEnumerationTask.
+    * @param queue the blocking queue to which the enumerated files are added
+    * @param startingDirectory the directory in which to start the enumeration
+    */
+   public FileEnumerationTask(BlockingQueue<File> queue, File startingDirectory)
+   {
+      this.queue = queue;
+      this.startingDirectory = startingDirectory;

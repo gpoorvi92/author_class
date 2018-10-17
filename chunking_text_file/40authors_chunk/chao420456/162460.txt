@@ -1,0 +1,10 @@
+interface Sport {
+	//跳高功能
+	public abstract void jump();
+}
+
+//动物抽象类
+abstract class Animal {
+	private String name;
+	private int age;
+

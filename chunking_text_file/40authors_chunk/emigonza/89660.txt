@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// JposException
+//
+//   Exception class used to report all JavaPOS errors.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 98-02-18 JavaPOS Release 1.2                                   BS
+//

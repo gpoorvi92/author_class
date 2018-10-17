@@ -1,0 +1,10 @@
+  public void    stopReadTags(byte[] password)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    writeTagData(byte[] tagID,
+                              byte[] userdata,
+                              int start,
+                              int timeout,

@@ -1,0 +1,10 @@
+    }
+
+    public operateEngine_args(
+      Engine engine,
+      EngineOperation operate)
+    {
+      this();
+      this.engine = engine;
+      this.operate = operate;
+    }

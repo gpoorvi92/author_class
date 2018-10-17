@@ -1,0 +1,10 @@
+/**
+ * <p>
+ * An acceptance filter based on classfiles. Implementations 
+ * may use filtering criteria as inheritance or pattern matching 
+ * upon class names (eg. for packages, substrings like "test") and 
+ * any information provided by a {@link Class} instance.
+ * </p>
+ * @see FileFilter
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ *

@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.cameraupload;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+import com.seafile.seadroid2.SeadroidApplication;
+import com.seafile.seadroid2.data.SeafCachedPhoto;

@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	private Socket socket = null;
+
+	private void setSocket(Socket socket)
+	{
+		this.socket = socket;
+	}
+
+	public Socket getSocket()

@@ -1,0 +1,10 @@
+	 */
+	public static String getFileBareName(String url) {
+		
+		if (StringUtils.isBlank(url)) {
+			return "";
+		}
+		String[] arr = url.split("\\/|\\\\");
+		return arr[arr.length - 1];
+	}
+	

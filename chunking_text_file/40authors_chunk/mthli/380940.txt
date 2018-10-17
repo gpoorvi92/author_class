@@ -1,0 +1,10 @@
+    * @param aBall the ball to bounce
+    * @param aComponent the component in which the ball bounces
+    */
+   public BallRunnable(Ball aBall, Component aComponent)
+   {
+      ball = aBall;
+      component = aComponent;
+   }
+
+   public void run()

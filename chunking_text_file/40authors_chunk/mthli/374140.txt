@@ -1,0 +1,10 @@
+      if (!result)
+      {
+         System.out.println("Compilation failed.");
+         System.exit(1);
+      }
+
+      EventQueue.invokeLater(new Runnable()
+         {
+            public void run()
+            {

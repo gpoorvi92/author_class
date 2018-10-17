@@ -1,0 +1,10 @@
+	public SSDPRequest()
+	{
+		setVersion(HTTP.VERSION_11);
+	}
+
+	public SSDPRequest(InputStream in)
+	{
+		super(in);
+	}
+	

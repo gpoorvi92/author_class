@@ -1,0 +1,10 @@
+		totalTimer.addAndGet(lastExecuteTime);
+
+		return lastExecuteTime;
+	}
+	
+	/**
+	 * Saves the attribute
+	 * 
+	 * @Title: setAttribute
+	 * @param key

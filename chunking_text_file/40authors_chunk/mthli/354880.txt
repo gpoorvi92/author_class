@@ -1,0 +1,10 @@
+
+   /**
+    * Gets the indexed values property.
+    * @param i the index of the value to get
+    * @return the value for that index
+    */
+   public double getValues(int i)
+   {
+      if (0 <= i && i < values.length) return values[i];
+      return 0;

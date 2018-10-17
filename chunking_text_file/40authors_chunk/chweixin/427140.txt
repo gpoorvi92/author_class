@@ -1,0 +1,8 @@
+	 * 设置缩略图的媒体id，通过上传多媒体文件，得到的id。
+	 * @param thumbMediaId
+	 * 	缩略图的媒体id。
+	 * */
+	public void setThumbMediaId(String thumbMediaId) {
+		this.thumbMediaId = thumbMediaId;
+	}
+}

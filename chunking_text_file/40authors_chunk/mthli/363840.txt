@@ -1,0 +1,10 @@
+   {
+      extensions = newValue;
+   }
+
+   /**
+    * Gets one of the extensions property values.
+    * @param i the index of the property value
+    * @return the value at the given index
+    */
+   public String getExtensions(int i)

@@ -1,0 +1,10 @@
+                need.put(str, 1);
+            }
+        }
+        for (int i = 0; i <= M - N*K; ++i) {
+            HashMap<String, Integer> found = new HashMap<String, Integer>();
+            int j = 0;
+            for (j = 0; j < N; ++j) {
+                String s = S.substring(i + j * K, i + (j+1) * K);
+                if (need.containsKey(s) == false) break;
+                if (found.containsKey(s) == true) {

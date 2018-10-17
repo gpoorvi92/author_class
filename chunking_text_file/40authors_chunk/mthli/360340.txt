@@ -1,0 +1,10 @@
+   public void raiseSalary(double byPercent)
+   {  
+      double raise = salary * byPercent / 100;
+      salary += raise;
+   }
+
+   public String toString()
+   {  
+      return getClass().getName()
+         + "[name=" + name

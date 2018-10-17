@@ -1,0 +1,10 @@
+
+  public boolean equals(Hardware that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_cpuVendor = true && this.isSetCpuVendor();
+    boolean that_present_cpuVendor = true && that.isSetCpuVendor();
+    if (this_present_cpuVendor || that_present_cpuVendor) {
+      if (!(this_present_cpuVendor && that_present_cpuVendor))
+        return false;

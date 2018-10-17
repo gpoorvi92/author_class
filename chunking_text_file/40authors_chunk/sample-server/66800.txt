@@ -1,0 +1,10 @@
+    
+    
+    public final GameServerRpc.AddCdKeyResp addCdKey(GameServerRpc.AddCdKeyReq req)
+    {
+        BaseRpcConnection rpcClient = null;
+        try
+        {
+            rpcClient = rpcClientPool.borrowRpcClient();
+            Rpc.RpcPacket resp = rpcClient.sendWaitBack(newRpcPacket(req));
+            GameServerRpc.AddCdKeyResp ret = GameServerRpc.AddCdKeyResp.parseFrom(resp.getContent());

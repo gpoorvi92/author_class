@@ -1,0 +1,10 @@
+    public static final int PPAD_TRANS_CREDIT               = 2;
+    public static final int PPAD_TRANS_INQ                  = 3;
+    public static final int PPAD_TRANS_RECONCILE            = 4;
+    public static final int PPAD_TRANS_ADMIN                = 5;
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "EndEFTTransaction" Method Completion Code Constants
+    /////////////////////////////////////////////////////////////////////
+

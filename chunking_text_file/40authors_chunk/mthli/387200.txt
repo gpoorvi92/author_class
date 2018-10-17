@@ -1,0 +1,10 @@
+            {
+               return c == 0 ? map.item(r).getNodeName() : map.item(r).getNodeValue();
+            }
+         }));
+      return panel;
+   }
+
+   public static String characterString(CharacterData node)
+   {
+      StringBuilder builder = new StringBuilder(node.getData());

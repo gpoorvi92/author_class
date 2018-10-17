@@ -1,0 +1,10 @@
+   private ExecutorService pool;
+   private int count;
+
+   /**
+    * Constructs a MatchCounter.
+    * @param directory the directory in which to start the search
+    * @param keyword the keyword to look for
+    * @param pool the thread pool for submitting subtasks
+    */
+   public MatchCounter(File directory, String keyword, ExecutorService pool)

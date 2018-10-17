@@ -1,0 +1,10 @@
+	public boolean modify(Customer c) {
+		return customerDao.update(c);
+	}
+
+	@Override
+	public boolean remove(Customer customer) {
+		return customerDao.delete(customer);
+	}
+
+}

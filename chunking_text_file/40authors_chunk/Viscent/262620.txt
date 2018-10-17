@@ -1,0 +1,7 @@
+			if (dir.isDirectory() && 0 == dir.list().length) {
+				dir.delete();
+			}
+		}
+	}
+
+}

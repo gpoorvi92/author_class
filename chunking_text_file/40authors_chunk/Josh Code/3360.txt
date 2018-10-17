@@ -1,0 +1,10 @@
+        }
+         );
+        scaleAxis.addActionListener(
+            new ActionListener()
+        {
+            public void actionPerformed(ActionEvent ae)
+            {
+                String scaleStr = JOptionPane.showInputDialog(mv,
+                    "What would you like to scale all vector components by?",
+                    "1.000 1.000 1.000");

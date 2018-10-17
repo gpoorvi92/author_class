@@ -1,0 +1,10 @@
+        setMemSize((Integer)value);
+      }
+      break;
+
+    case FS_SIZE:
+      if (value == null) {
+        unsetFsSize();
+      } else {
+        setFsSize((Integer)value);
+      }

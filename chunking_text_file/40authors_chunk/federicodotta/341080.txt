@@ -1,0 +1,10 @@
+     * be passively scanned.
+     * @return A list of <code>IScanIssue</code> objects, or <code>null</code>
+     * if no issues are identified.
+     */
+    List<IScanIssue> doPassiveScan(IHttpRequestResponse baseRequestResponse);
+
+    /**
+     * The Scanner invokes this method for each insertion point that is actively
+     * scanned. Extensions may issue HTTP requests as required to carry out
+     * active scanning, and should use the

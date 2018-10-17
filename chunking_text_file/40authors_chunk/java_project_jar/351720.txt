@@ -1,0 +1,10 @@
+                    trackers.remove(tracker);
+                    if(!tracker.delete())
+                        deleteFailures.add(tracker.getPath());
+                    tracker.clear();
+                }
+                catch(InterruptedException e) { }
+        }
+
+        final FileCleaningTracker this$0;
+

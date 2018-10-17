@@ -1,0 +1,10 @@
+		}
+
+		Timer timer = new Timer(true);
+		timer.schedule(new TimerTask() {
+
+			@Override
+			public void run() {
+				for (AbstractTerminatableThread att : requestThreads) {
+					att.terminate();
+				}

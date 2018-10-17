@@ -1,0 +1,10 @@
+    }
+
+    public String recv_genMissionId() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      genMissionId_result result = new genMissionId_result();
+      receiveBase(result, "genMissionId");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }
+      if (result.ire != null) {

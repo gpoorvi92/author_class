@@ -1,0 +1,10 @@
+         // set the mouse cursor to cross hairs if it is inside
+         // a rectangle
+
+         if (find(event.getPoint()) == null) setCursor(Cursor.getDefaultCursor());
+         else setCursor(Cursor.getPredefinedCursor(Cursor.CROSSHAIR_CURSOR));
+      }
+
+      public void mouseDragged(MouseEvent event)
+      {
+         if (current != null)

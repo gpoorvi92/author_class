@@ -1,0 +1,10 @@
+                        idx = i - k; maxLen = j + 1 + k*2;
+                    }
+                }
+            }
+        }
+        return s.substring(idx, idx + maxLen);
+    }
+    public String longestPalindrome_4(String s) {
+        int n = s.length();
+        int idx = 0, maxLen = 0;

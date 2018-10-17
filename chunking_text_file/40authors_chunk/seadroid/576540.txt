@@ -1,0 +1,10 @@
+    private ProgressBar progressBar;
+
+    private int taskID = -1;
+    private boolean cancelled = false;
+
+    private FetchFileListener mListener;
+
+    public interface FetchFileListener {
+        void onDismiss();
+        void onSuccess();

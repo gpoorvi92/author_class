@@ -1,0 +1,10 @@
+    public long getSize()
+    {
+        return size;
+    }
+
+    public void close()
+        throws IOException
+    {
+        eof = false;
+        position = 0L;

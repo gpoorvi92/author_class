@@ -1,0 +1,10 @@
+      Graphics2D g2 = (Graphics2D) g;
+
+      // compute the minimum and maximum values
+      if (values == null) return;
+      double minValue = 0;
+      double maxValue = 0;
+      for (double v : values)
+      {
+         if (minValue > v) minValue = v;
+         if (maxValue < v) maxValue = v;

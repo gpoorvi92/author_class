@@ -1,0 +1,10 @@
+               if (tabbedPane.getSelectedComponent() == null)
+               {
+                  // set the component to the image icon
+
+                  int n = tabbedPane.getSelectedIndex();
+                  loadTab(n);
+               }
+            }
+         });
+

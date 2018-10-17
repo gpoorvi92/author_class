@@ -1,0 +1,10 @@
+				SearchAppThread searchAppThread = new SearchAppThread(engine_address, engine_port, missionId, userAppId, number, missionSize);
+				searchAppThread.run();
+			}
+			try {
+				Thread.sleep(waitTime);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}

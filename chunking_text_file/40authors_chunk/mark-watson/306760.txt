@@ -1,0 +1,10 @@
+            return 1;
+        } catch (Exception ex) {
+            System.out.println("Error changing module " + workingModule + " is: " + ex);
+            return 0;
+        }   
+    }
+    public int assertProposition(String proposition) {
+    	proposition = proposition.replace('\'', '\"');
+        try {
+            PLI.sAssertProposition(proposition, workingModule, null);

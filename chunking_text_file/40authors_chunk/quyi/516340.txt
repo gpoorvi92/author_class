@@ -1,0 +1,10 @@
+    }
+
+    /** Returns true if field nodeId is set (has been assigned a value) and false otherwise */
+    public boolean isSetNodeId() {
+      return this.nodeId != null;
+    }
+
+    public void setNodeIdIsSet(boolean value) {
+      if (!value) {
+        this.nodeId = null;

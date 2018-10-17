@@ -1,0 +1,10 @@
+        values.put(PHOTOCACHE_COLUMN_PATH, item.path);
+        values.put(PHOTOCACHE_COLUMN_ACCOUNT, item.accountSignature);
+
+        // Insert the new row, returning the primary key value of the new row
+        database.insert(PHOTOCACHE_TABLE_NAME, null, values);
+    }
+
+    public int removePhotoCacheItem(SeafCachedPhoto item) {
+        if (item.id != -1) {
+            return database.delete(PHOTOCACHE_TABLE_NAME,  PHOTOCACHE_COLUMN_ID + "=?",

@@ -1,0 +1,10 @@
+	}
+
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the Profile associated with this DevCatInfo */
+	public Profile getProfile() { return profile; }
+
+	/** @return the DevCat */

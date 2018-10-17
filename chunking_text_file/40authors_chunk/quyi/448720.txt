@@ -1,0 +1,10 @@
+		SingleRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(singleRecordInfo);
+		//new ExportExcel().exportToSingleExcel("E:\\实验室\\项目\\信工所\\6月6日张妍测试文档\\单个应用统计.xls", singleRecordInfo);
+	}
+
+	// get column info
+	public List<String> getColumnInfo(int column, String fileName, int sheetNum) {
+		List<String> columninfoList = new ArrayList<String>();
+		File file = new File(fileName); // 创建文件对象
+		if (!file.exists()) {
+			return null;

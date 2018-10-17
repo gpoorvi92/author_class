@@ -1,0 +1,10 @@
+    public void testIntsToByte() throws UnsupportedEncodingException {
+        int[] arr = new int[]{0xE4, 0xb8, 0xAD, 0xE6, 0x96, 0x87};
+        byte[] bt = ConvertUtil.intToByte(arr);
+        String str = new String(bt);
+        System.out.println(str);
+
+        int[] tt = new int[]{0xD6, 0xD0, 0xCE, 0xC4};
+        String strs = new String(ConvertUtil.intToByte(tt), "GBK");
+        System.out.println(strs);
+    }

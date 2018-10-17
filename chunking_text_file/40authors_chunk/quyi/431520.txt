@@ -1,0 +1,10 @@
+
+    case REPORT_PATH:
+      return getReportPath();
+
+    case CENTER_RESULT_PATH:
+      return getCenterResultPath();
+
+    }
+    throw new IllegalStateException();
+  }

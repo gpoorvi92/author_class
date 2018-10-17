@@ -1,0 +1,10 @@
+ * 1. LGPL v3<br/>
+ * 2. Apache 2
+ * <p/>
+ */
+
+public class LuceneManager {
+
+  private String data_store_file_root;
+
+  /**

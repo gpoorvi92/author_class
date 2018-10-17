@@ -1,0 +1,10 @@
+
+    /**
+     *
+     * camera photos only uploaded to the specific folder called {@link CameraUploadService#CAMERA_UPLOAD_REMOTE_DIR},
+     * the folder was placed under the root directory of the selected library
+     *
+     * get dirents list from server,
+     * traverse the dirents list to check if the remote folder {@link CameraUploadService#CAMERA_UPLOAD_REMOTE_DIR} already existed or not
+     * if not, create a new one
+     *

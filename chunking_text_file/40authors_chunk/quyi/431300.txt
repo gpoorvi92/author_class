@@ -1,0 +1,10 @@
+    return this.reportPath != null;
+  }
+
+  public void setReportPathIsSet(boolean value) {
+    if (!value) {
+      this.reportPath = null;
+    }
+  }
+
+  public String getCenterResultPath() {

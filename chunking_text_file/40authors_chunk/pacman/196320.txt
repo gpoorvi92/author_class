@@ -1,0 +1,10 @@
+			Connection con = mFactory.createConnection();
+			con.start();			
+			IMQReceiver receiver = new DefaultMQReceiver(con, destName);
+
+			return receiver;
+		} catch (JMSException e) {
+			
+			throw new MQException("Fail to get receiver!", e);
+		}
+	}

@@ -1,0 +1,10 @@
+            View view = findViewById(id.title_back);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        EditNumberActivity_.this.back();
+                    }
+

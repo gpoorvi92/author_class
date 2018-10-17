@@ -1,0 +1,10 @@
+      public ModelessListener()
+      {
+         chooser = new JColorChooser();
+         dialog = JColorChooser.createDialog(ColorChooserPanel.this, "Background Color",
+               false /* not modal */, chooser, 
+               new ActionListener() // OK button listener               
+                  {
+                     public void actionPerformed(ActionEvent event)
+                     {
+                        setBackground(chooser.getColor());

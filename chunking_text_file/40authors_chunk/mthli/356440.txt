@@ -1,0 +1,10 @@
+      robot.mouseMove(220, 40);
+      robot.mousePress(InputEvent.BUTTON1_MASK);
+      robot.mouseRelease(InputEvent.BUTTON1_MASK);
+
+      // capture the screen and show the resulting image
+      robot.delay(2000);
+      BufferedImage image = robot.createScreenCapture(new Rectangle(0, 0, 400, 300));
+
+      ImageFrame frame = new ImageFrame(image);      
+      frame.setVisible(true);

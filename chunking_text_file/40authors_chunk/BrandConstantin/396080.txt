@@ -1,0 +1,10 @@
+        
+        verdadero = true;
+        
+        if (dia2 <= dia1) {
+            System.out.println("El segundo día debe ser posterior al primero.");
+            verdadero = false;
+        }
+        
+        if ((dia1 == 0) || (dia2 == 0)){
+            System.out.println("Introduce un dia correcto de la semana! (1-7/lunes-domingo)");

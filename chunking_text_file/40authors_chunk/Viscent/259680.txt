@@ -1,0 +1,10 @@
+		delegate.setNextPipe(nextPipe);
+	}
+
+	/**
+	 * 线程池停止标志。
+	 * 每个ExecutorService实例对应唯一的一个TerminationToken实例。
+	 * 这里使用了Two-phase Termination模式（第5章）的思想来停止多个Pipe实例所共用的
+	 * 线程池实例。
+	 * @author Viscent Huang
+	 *

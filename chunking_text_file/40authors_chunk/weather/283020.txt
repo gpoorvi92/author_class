@@ -1,0 +1,10 @@
+    public static void v(String message) {
+        if (!isDebuggable())
+            return;
+
+        getMethodNames(new Throwable().getStackTrace());
+        Log.v(className, createLog(message));
+    }
+
+    public static void w(String message) {
+        if (!isDebuggable())

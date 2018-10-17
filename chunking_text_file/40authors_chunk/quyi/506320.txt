@@ -1,0 +1,10 @@
+			searchRecordInfo.setStartedTime(startTime);
+			searchRecordInfo.setFinishedTime(finishTime);
+			searchRecordInfo.setNumber(number);
+			searchRecordInfo.setCheckResult(result);
+			SearchRecordInfoQueue.getInstance().addToSingleRecordInfoQueue(searchRecordInfo);
+			transport.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		// TODO 记录查询结束时间及状态

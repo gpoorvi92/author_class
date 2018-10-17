@@ -1,0 +1,10 @@
+
+public class HTTPStatus 
+{
+	////////////////////////////////////////////////
+	//	Code
+	////////////////////////////////////////////////
+	
+	public static final int CONTINUE = 100;
+	public static final int OK = 200;
+	//	Thanks for Brent Hills (10/20/04)

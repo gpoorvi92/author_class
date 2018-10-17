@@ -1,0 +1,10 @@
+      sb.append("null");
+    } else {
+      sb.append(this.threadName);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("checkTime:");
+    if (this.checkTime == null) {
+      sb.append("null");
+    } else {

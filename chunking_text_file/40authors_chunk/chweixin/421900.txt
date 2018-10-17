@@ -1,0 +1,10 @@
+			req.setCreateTime(Integer.parseInt(data.get("CreateTime")));
+			req.setFromUserName(data.get("FromUserName"));
+			req.setToUserName(data.get("ToUserName"));
+		}
+	}
+	/**
+	 * 解析文本消息。
+	 * @param data
+	 * 	消息数据。
+	 * @return 

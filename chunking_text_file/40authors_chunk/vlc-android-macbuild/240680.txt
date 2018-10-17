@@ -1,0 +1,5 @@
+            ft.commit();
+            mActivity.getSupportFragmentManager().executePendingTransactions();
+        }
+    }
+}

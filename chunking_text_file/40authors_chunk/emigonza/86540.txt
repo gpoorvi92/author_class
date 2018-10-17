@@ -1,0 +1,10 @@
+    public static final int CAT_DL_REPORTING_SETTLEMENT   = 3;  //Both of them
+
+
+    /////////////////////////////////////////////////////////////////////
+    // "LogStatus" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CAT_LOGSTATUS_OK              = 1;
+    public static final int CAT_LOGSTATUS_NEARFULL        = 2;
+    public static final int CAT_LOGSTATUS_FULL            = 3;

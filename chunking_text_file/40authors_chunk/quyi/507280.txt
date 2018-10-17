@@ -1,0 +1,10 @@
+        PlotsType __this__plotsStatus_copy_key = other_element_key;
+
+        CheckResultStatus __this__plotsStatus_copy_value = other_element_value;
+
+        __this__plotsStatus.put(__this__plotsStatus_copy_key, __this__plotsStatus_copy_value);
+      }
+      this.plotsStatus = __this__plotsStatus;
+    }
+    if (other.isSetFunctionStatus()) {
+      Map<String,CheckResultStatus> __this__functionStatus = new HashMap<String,CheckResultStatus>(other.functionStatus.size());

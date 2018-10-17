@@ -1,0 +1,10 @@
+	/**
+	 * 获取地理位置经度。
+	 * @return 地理位置经度。
+	 * */
+	public String getLocation_Y() {
+		return location_Y;
+	}
+	/**
+	 * 设置地理位置经度。
+	 * @param location_Y

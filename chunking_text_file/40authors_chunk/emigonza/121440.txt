@@ -1,0 +1,10 @@
+  public static final int CACC_DEPOSIT_COMPLETE        = 11;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "PauseDeposit" Method Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int CACC_DEPOSIT_PAUSE           = 11;
+  public static final int CACC_DEPOSIT_RESTART         = 12;
+}

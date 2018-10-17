@@ -1,0 +1,10 @@
+        }
+
+        return dataManager;
+    }
+
+    public String getNewFileName() {
+        return fileNameText.getText().toString().trim();
+    }
+
+    @Override

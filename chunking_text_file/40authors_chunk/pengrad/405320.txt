@@ -1,0 +1,10 @@
+
+    private String last_name;
+    private String thumb_url;
+    private Integer thumb_width;
+    private Integer thumb_height;
+
+    public InlineQueryResultContact(String id, String phoneNumber, String firstName) {
+        super("contact", id);
+        this.phone_number = phoneNumber;
+        this.first_name = firstName;

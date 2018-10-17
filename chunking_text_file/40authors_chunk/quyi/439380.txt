@@ -1,0 +1,10 @@
+      break;
+
+    case CPU_MODEL:
+      if (value == null) {
+        unsetCpuModel();
+      } else {
+        setCpuModel((String)value);
+      }
+      break;
+

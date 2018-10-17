@@ -1,0 +1,10 @@
+	public void setFdwYgType(Bxg fdwYgType) {
+		this.fdwYgType = fdwYgType;
+	}
+	
+	@Column
+	public int getFdwYgCount() {
+		return fdwYgCount;
+	}
+	public void setFdwYgCount(int fdwYgCount) {
+		this.fdwYgCount = fdwYgCount;

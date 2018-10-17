@@ -1,0 +1,10 @@
+		for(int i = 0; i < list.size(); i++){
+			WeChatAccountInfo info = this.changeModel(list.get(i));
+			if(info != null) results.add(info);
+		}
+		return results;
+	}
+	
+	@Override
+	protected List<WeChatAccount> find(WeChatAccountInfo info) {
+		return this.weChatAccountDao.findAccounts(info);

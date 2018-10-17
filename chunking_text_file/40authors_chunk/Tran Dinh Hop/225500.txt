@@ -1,0 +1,10 @@
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.filechooser.*;
+import java.io.File;
+	
+public class FileChooser extends JComponent {
+	protected int returnVal=0;

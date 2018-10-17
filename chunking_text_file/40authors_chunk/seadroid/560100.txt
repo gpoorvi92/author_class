@@ -1,0 +1,10 @@
+
+    @Override
+    protected void runTask() {
+        if (newName.equals(Utils.fileNameFromPath(path))) {
+            return;
+        }
+        try {
+            dataManager.rename(repoID, path, newName, isdir);
+        } catch (SeafException e) {
+            setTaskException(e);

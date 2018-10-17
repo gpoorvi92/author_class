@@ -1,0 +1,10 @@
+
+			@Override
+			public void onClick(View arg0) {
+				Toast.makeText(getActivity(), "我们正在努力完善中哦,请期待", 0).show();
+				
+			}
+		});
+		
+		launch_ib.setOnClickListener(new View.OnClickListener() {
+

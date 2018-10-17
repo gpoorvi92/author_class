@@ -1,0 +1,10 @@
+
+	////////////////////////////////////////////////
+	//	name
+	////////////////////////////////////////////////
+
+	private final static String NAME = "name";
+	
+	public void setName(String value)
+	{
+		getArgumentNode().setNode(NAME, value);

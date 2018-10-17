@@ -1,0 +1,10 @@
+              struct.monitorTime = iprot.readString();
+              struct.setMonitorTimeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // SCREEN_SHOT_PATH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.screenShotPath = iprot.readString();
+              struct.setScreenShotPathIsSet(true);

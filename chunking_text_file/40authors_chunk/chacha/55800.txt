@@ -1,0 +1,10 @@
+		try{
+			String json=JsonPojoMapper.toJson(auth, true);
+			System.out.println(json);
+			
+			AuthRequest req=(AuthRequest)JsonPojoMapper.fromJson(json, AuthRequest.class);
+			System.out.println(req.get(KEY_USERNAME));
+			System.out.println(req.get(KEY_PASSWD));
+			System.out.println(req.get(KEY_ACTION));
+			//令牌认证请求
+			 auth=new AuthRequest();

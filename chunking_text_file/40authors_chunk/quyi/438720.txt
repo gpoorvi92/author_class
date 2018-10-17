@@ -1,0 +1,10 @@
+ * 6:i32 fsSize  文件系统大小
+ */
+public class Hardware implements org.apache.thrift.TBase<Hardware, Hardware._Fields>, java.io.Serializable, Cloneable, Comparable<Hardware> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Hardware");
+
+  private static final org.apache.thrift.protocol.TField CPU_VENDOR_FIELD_DESC = new org.apache.thrift.protocol.TField("cpuVendor", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField CPU_MODEL_FIELD_DESC = new org.apache.thrift.protocol.TField("cpuModel", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField CPU_CORES_FIELD_DESC = new org.apache.thrift.protocol.TField("cpuCores", org.apache.thrift.protocol.TType.I32, (short)3);
+  private static final org.apache.thrift.protocol.TField CPU_MHZ_FIELD_DESC = new org.apache.thrift.protocol.TField("cpuMhz", org.apache.thrift.protocol.TType.I32, (short)4);
+  private static final org.apache.thrift.protocol.TField MEM_SIZE_FIELD_DESC = new org.apache.thrift.protocol.TField("memSize", org.apache.thrift.protocol.TType.I32, (short)5);

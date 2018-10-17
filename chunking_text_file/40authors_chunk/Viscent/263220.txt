@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch3.immutableobject;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+/**

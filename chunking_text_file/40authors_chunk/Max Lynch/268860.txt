@@ -1,0 +1,10 @@
+									break;
+			case LOOKANDFEEL_OPTION: removeAll();
+									
+									break;
+		}
+									 	
+		/*if(dialog != null)
+		{	
+			System.out.println("Inside repainter");
+			dialog.repaint();			

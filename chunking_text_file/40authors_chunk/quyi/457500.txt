@@ -1,0 +1,10 @@
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchApp_result(searchApp_result other) {
+      if (other.isSetSuccess()) {
+        this.success = new com.nercis.isscp.idl.Sample(other.success);
+      }

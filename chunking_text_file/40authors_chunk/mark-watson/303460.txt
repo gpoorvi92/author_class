@@ -1,0 +1,10 @@
+     */
+    public boolean addValue(String text, int score) {
+        strings.add(text);
+        scores.add(score);
+        return removeOne(text);
+    }
+
+    /**
+     * Add a value to a scored list. The "score" is not specified so
+     * the "score" for a given value string is the number of times that it is added

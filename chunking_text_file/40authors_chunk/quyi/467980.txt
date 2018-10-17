@@ -1,0 +1,10 @@
+    case RULE_TYPES:
+      if (value == null) {
+        unsetRuleTypes();
+      } else {
+        setRuleTypes((List<Activity>)value);
+      }
+      break;
+
+    case RISK_LEVEL:
+      if (value == null) {

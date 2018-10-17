@@ -1,0 +1,10 @@
+                          int alarm)
+                     throws JposException;
+  public void    updateFirmware(String firmwareFileName)
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;
+
+  // Event listener methods
+  public void    addDirectIOListener(DirectIOListener l);
+  public void    removeDirectIOListener(DirectIOListener l);

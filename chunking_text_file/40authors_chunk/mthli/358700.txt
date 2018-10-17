@@ -1,0 +1,10 @@
+    * Pastes the text from the system clipboard into the text area.
+    */
+   private void paste()
+   {
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      DataFlavor flavor = DataFlavor.stringFlavor;
+      if (clipboard.isDataFlavorAvailable(flavor))
+      {
+         try
+         {

@@ -1,0 +1,10 @@
+        {
+            body = ((MessageLite.Builder) msg).build().toByteArray();
+        }
+        return body;
+    }
+    public static byte[] encode(Object msg) throws IOException
+    {
+        byte[] body = toByteArray(msg);
+        if (null == body)
+            return null;

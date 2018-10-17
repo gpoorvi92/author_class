@@ -1,0 +1,10 @@
+    sb.append("dataChar:");
+    if (this.dataChar == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.dataChar);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("dataLength:");
+    if (this.dataLength == null) {

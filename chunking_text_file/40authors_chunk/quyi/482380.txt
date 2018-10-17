@@ -1,0 +1,10 @@
+      this.missionId = null;
+      this.userAppId = null;
+      this.status = null;
+      this.usedPermissions = null;
+      this.stcRD = null;
+      this.dycRD = null;
+      this.virRD = null;
+    }
+
+    public String getMissionId() {

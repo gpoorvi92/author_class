@@ -1,0 +1,10 @@
+
+	public final static boolean isURNService(String value)
+	{
+		if (value == null)
+			return false;
+		if (value.startsWith(URN_SERVICE) == true)
+			return true;
+		return value.startsWith("\"" + URN_SERVICE);
+	}
+}

@@ -1,0 +1,10 @@
+
+   public CollationFrame()
+   {
+      setLayout(new GridBagLayout());
+      add(new JLabel("Locale"), new GBC(0, 0).setAnchor(GBC.EAST));
+      add(new JLabel("Strength"), new GBC(0, 1).setAnchor(GBC.EAST));
+      add(new JLabel("Decomposition"), new GBC(0, 2).setAnchor(GBC.EAST));
+      add(addButton, new GBC(0, 3).setAnchor(GBC.EAST));
+      add(localeCombo, new GBC(1, 0).setAnchor(GBC.WEST));
+      add(strengthCombo, new GBC(1, 1).setAnchor(GBC.WEST));

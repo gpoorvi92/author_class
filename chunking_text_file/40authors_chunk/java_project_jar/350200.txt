@@ -1,0 +1,10 @@
+                    File arr$[] = childFiles;
+                    int len$ = arr$.length;
+                    for(int i$ = 0; i$ < len$; i$++)
+                    {
+                        File childFile = arr$[i$];
+                        if(childFile.isDirectory())
+                        {
+                            walk(childFile, childDepth, results);
+                        } else
+                        {

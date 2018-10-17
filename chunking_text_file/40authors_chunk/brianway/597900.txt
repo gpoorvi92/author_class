@@ -1,0 +1,10 @@
+
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@3a1a7da6
+
+--------------------------
+
+1802892302 com.brianway.learning.java.multithread.singleton.example1.MyObject1@6b75f40e
+974814630 com.brianway.learning.java.multithread.singleton.example1.MyObject1@6b75f40e
+1771081048 com.brianway.learning.java.multithread.singleton.example1.MyObject1@6b75f40e

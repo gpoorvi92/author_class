@@ -1,0 +1,10 @@
+		Container cont=getContentPane();
+		cont.setLayout(new BorderLayout());
+		cont.setBackground(Color.PINK);
+		
+		ImageIcon restpic = new ImageIcon("rest2.gif");
+	   	JLabel jlbl = new JLabel("Wak Lue Bistro",restpic,SwingConstants.CENTER);
+    	jlbl.setForeground(Color.BLACK);
+    	jlbl.setFont(new Font("Times New Roman",5,24));
+    	jlbl.setHorizontalTextPosition(SwingConstants.CENTER);
+    	jlbl.setVerticalTextPosition(SwingConstants.NORTH);

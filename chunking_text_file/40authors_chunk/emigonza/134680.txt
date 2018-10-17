@@ -1,0 +1,10 @@
+
+  public static final int EVRW_SUE_LS_OK                  = 11;
+  public static final int EVRW_SUE_LS_NEARFULL            = 12;
+  public static final int EVRW_SUE_LS_FULL                = 13;
+  public static final int EVRW_SUE_DS_NOCARD              = 21;
+  public static final int EVRW_SUE_DS_DETECTED            = 22;
+  public static final int EVRW_SUE_DS_ENTERED             = 23;
+  public static final int EVRW_SUE_DS_CAPTURED            = 24;
+
+

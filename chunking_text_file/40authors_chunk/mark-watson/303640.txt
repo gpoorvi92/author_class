@@ -1,0 +1,10 @@
+     */
+    public String getValue(int index) { return (String)strings.get(index); }
+
+    /**
+     * Get a specific score
+     *
+     * @param index
+     * @return the score at the specified index
+     */
+    public int getScore(int index) { return ((Integer)scores.get(index)).intValue(); }

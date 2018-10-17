@@ -1,0 +1,10 @@
+ 	}
+		
+ 		public void add()
+ 		{
+ 		try
+ 				{
+ 					
+ 					Statement statement = con.createStatement();
+ 					
+ 					

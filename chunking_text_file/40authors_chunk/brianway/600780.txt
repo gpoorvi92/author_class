@@ -1,0 +1,10 @@
+ * 测试方法boolean hasQueueThreads()
+ * 查询是否有线程正在等待获取此锁定
+ */
+public class Run6_hasQueueThread {
+    public static void main(String[] args) throws InterruptedException {
+        final Service1 service = new Service1();
+        Runnable runnable = new Runnable() {
+            public void run() {
+                service.waitMethod();
+            }

@@ -1,0 +1,10 @@
+	/** @return the size of the registry */
+	public int getSize() { return table.size(); }
+
+	/** @return true if the registry is empty or not */
+	public boolean isEmpty() { return table.isEmpty(); }
+
+    /**
+     * @return true if there is an Profile with the specified logical name
+     * @param profileName the unique name of this profile
+     */

@@ -1,0 +1,10 @@
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);
+		//设置初始状态位
+		if(status == -1){
+			if(tempHero.getTotalMoney() < cost){//没钱买什么礼品
+				status = 1;
+			}
+			else{//孙武在家
+				status = 0;
+			}			
+		}		

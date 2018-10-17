@@ -1,0 +1,10 @@
+
+
+	public void clean() {
+		log.trace("#####################Started file cleaner job.#####################");
+		DateTime pastTime = new DateTime().minusHours(maximumInactivityInHoursBeforeDelete);
+		File[] listFiles = rootFolderProvider.getRootFolder().listFiles();
+		for (File file : listFiles) {
+			if (pastTime.isAfter(file.lastModified())) {
+				log.debug("Deleting outdated file: " + file.getName());
+				fileDeleter.deleteFile(file);

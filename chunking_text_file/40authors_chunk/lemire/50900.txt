@@ -1,0 +1,10 @@
+    public final IteratingBufferedRunningLengthWord iterator;
+
+    /**
+     * Construct a pointer over an IteratingBufferedRunningLengthWord.
+     *
+     * @param previousEndRun word where the previous run ended
+     * @param rw             the iterator
+     * @param pos            current position (in word)
+     */
+    public EWAHPointer(final int previousEndRun,

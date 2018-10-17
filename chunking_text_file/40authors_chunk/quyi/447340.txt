@@ -1,0 +1,10 @@
+  public String getJvmVersion() {
+    return this.jvmVersion;
+  }
+
+  public Software setJvmVersion(String jvmVersion) {
+    this.jvmVersion = jvmVersion;
+    return this;
+  }
+
+  public void unsetJvmVersion() {

@@ -1,0 +1,10 @@
+                       throws JposException;
+    public void    enablePINEntry() throws JposException;
+    public void    endEFTTransaction(int completionCode) throws JposException;
+    public void    updateKey(int keyNum, String key) throws JposException;
+    public void    verifyMAC(String message) throws JposException;
+
+    // Event listener methods
+    public void    addDataListener(DataListener l);
+    public void    removeDataListener(DataListener l);
+    public void    addDirectIOListener(DirectIOListener l);

@@ -1,0 +1,10 @@
+    public void trace(List<List<String>> res, 
+                    HashMap<String, ArrayList<String>> graph,
+                    ArrayList<String> path,
+                    String start, String now) {
+        path.add(now);
+        if (now.compareTo(start) == 0) {
+            ArrayList<String> ans = new ArrayList<String>(path);
+            Collections.reverse(ans);
+            res.add(ans);
+            path.remove(path.size()-1);

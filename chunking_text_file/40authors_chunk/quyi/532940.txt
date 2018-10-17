@@ -1,0 +1,10 @@
+    return this.ruleNo != null;
+  }
+
+  public void setRuleNoIsSet(boolean value) {
+    if (!value) {
+      this.ruleNo = null;
+    }
+  }
+
+  public String getCategory() {

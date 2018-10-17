@@ -1,0 +1,10 @@
+			String sectionName;
+			int iFileCount;
+			boolean need2RemoveSection = false;
+			String[] fileName = new String[2];
+			synchronized (sectionLock) {
+				// 获取当前的存储子目录名
+				sectionName = this.getSectionName();
+				AtomicInteger fileCount;
+				fileCount = sectionFileCountMap.get(sectionName);
+				iFileCount = fileCount.get();

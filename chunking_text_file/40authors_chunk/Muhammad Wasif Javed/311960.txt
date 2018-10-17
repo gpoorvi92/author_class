@@ -1,0 +1,10 @@
+		}
+		);
+
+		//Adding All the Controls in Panel.
+
+		pBook.setLayout (null);
+		pBook.add (lbBookId);
+		pBook.add (lbBookName);
+		pBook.add (lbBookAuthor);
+		pBook.add (lbBookPrice);

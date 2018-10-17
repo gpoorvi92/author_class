@@ -1,0 +1,10 @@
+              true);//iconifiable
+              
+        int inset = 250;
+ 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        JToolBar toolBar = new JToolBar();
+        addButtons(toolBar);
+        paintx = (screenSize.width);
+		painty = (screenSize.height);
+        
+        int xy = this.getX();

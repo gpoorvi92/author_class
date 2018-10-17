@@ -1,0 +1,8 @@
+    delegate.setFixedLengthStreamingMode(contentLength);
+  }
+
+//  @Override public long getHeaderFieldLong(String field, long defaultValue) {
+//      return 0L;
+//    //return delegate.getHeaderFieldLong(field, defaultValue);
+//  }
+}

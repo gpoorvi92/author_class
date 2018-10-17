@@ -1,0 +1,10 @@
+        System.out.println("计划时间为：" + runDate);
+
+        TaskA task = new TaskA();
+        Timer timer = new Timer();
+        timer.schedule(task, runDate, 3000);
+    }
+}
+
+/*
+输出：

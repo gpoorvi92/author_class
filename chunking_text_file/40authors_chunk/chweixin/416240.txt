@@ -1,0 +1,10 @@
+			if(parameters != null && parameters.size() > 0){
+				for(String key : parameters.keySet()){
+					query.setParameter(key, parameters.get(key));
+				}
+			}
+			if((page == null) && (rows == null))return query.list();
+			if((page == null) || (page < 1)) page = 1;
+			if((rows == null) || (rows < 10)) rows = 10;
+			return query.setFirstResult((page - 1) * rows).setMaxResults(rows).list();
+		}

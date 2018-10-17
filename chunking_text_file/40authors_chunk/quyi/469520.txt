@@ -1,0 +1,10 @@
+		engine_notify_port = Integer.valueOf(properties.getProperty("engine.notify.port", "7910"));
+		taskmanager_address = properties.getProperty("taskmanager.listener.domain ", "localhost");
+		taskmanager_submit_port = Integer.valueOf(properties.getProperty("taskmanager.node.port", "6000"));
+		taskmanager_result_port = Integer.valueOf(properties.getProperty("taskmanager.result.port", "6020"));
+		static_nodemanager_address = properties.getProperty("static.nodemanager.listener.domain", "localhost");
+		virus_nodemanager_address = properties.getProperty("virus.nodemanager.listener.domain", "localhost");
+		nodemanager_submit_port = Integer.valueOf(properties.getProperty("nodemanager.context.port", "7000"));
+		nodemanager_result_port = Integer.valueOf(properties.getProperty("program.tracker.service.port", "7020"));
+	}
+

@@ -1,0 +1,10 @@
+
+      bold = new JCheckBox("Bold");
+      bold.addActionListener(listener);
+
+      italic = new JCheckBox("Italic");
+      italic.addActionListener(listener);
+
+      sample = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+      sample.setText("The quick brown fox jumps over the lazy dog");
+      sample.setEditable(false);

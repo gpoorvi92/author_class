@@ -1,0 +1,10 @@
+    }
+
+    public FileAlterationObserver getAlterationObserver() {
+        return alterationObserver;
+    }
+
+    private void watchAllCachedFiles() {
+        List<SeafCachedFile> cachedfiles = dataManager.getCachedFiles();
+        for (SeafCachedFile cached : cachedfiles) {
+            File file = dataManager.getLocalRepoFile(cached.repoName, cached.repoID, cached.path);

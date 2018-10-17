@@ -1,0 +1,10 @@
+ */
+class MatchCounter implements Callable<Integer>
+{
+   private File directory;
+   private String keyword;
+   private int count;
+
+   /**
+    * Constructs a MatchCounter.
+    * @param directory the directory in which to start the search

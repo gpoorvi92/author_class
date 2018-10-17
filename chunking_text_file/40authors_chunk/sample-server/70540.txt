@@ -1,0 +1,5 @@
+        String ip = Config.getServerIp(args[0]);
+        int port = Config.getServerPort(args[0]);
+        new Logicserver(ip, port, args[0]).start();
+    }
+}

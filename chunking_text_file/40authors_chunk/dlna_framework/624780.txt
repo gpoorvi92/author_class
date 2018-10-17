@@ -1,0 +1,10 @@
+*	11/28/02
+*		- first revision.
+*	04/12/06
+*		- Added setUserData() and getUserData() to set a user original data object.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp;
+
+import org.cybergarage.xml.Node;

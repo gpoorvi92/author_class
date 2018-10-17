@@ -1,0 +1,10 @@
+/**
+ * 线程停止标志。
+ * 
+ * @author Viscent Huang
+ *
+ */
+public class TerminationToken {
+
+	// 使用volatile修饰，以保证无需显式锁的情况下该变量的内存可见性
+	protected volatile boolean toShutdown = false;

@@ -1,0 +1,9 @@
+
+  // now build a phrase
+  String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
+
+  // now return it
+  return ("What we need is a " + phrase);
+  } 
+}   
+

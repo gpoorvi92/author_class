@@ -1,0 +1,10 @@
+        return null;
+    }
+
+    public final static String getDefaultCharSet() throws UnsupportedEncodingException {
+        OutputStreamWriter writer = new OutputStreamWriter(new ByteArrayOutputStream(), CharsetUtil.UTF_8);
+        String             enc    = writer.getEncoding();
+        return enc;
+    }
+
+    /**

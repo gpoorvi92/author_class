@@ -1,0 +1,10 @@
+				// 判断是否以指定的后缀结尾
+				if (file.getName().endsWith(".java")) {
+					count1++;
+					// 就输出该文件的绝对路径
+					System.out.println(file.getAbsolutePath());
+				}else if(file.getName().endsWith(".avi")){
+					count2++;
+					System.out.println(file.getName());
+				}
+			}

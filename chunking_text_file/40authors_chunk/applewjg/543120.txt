@@ -1,0 +1,10 @@
+                    res = Math.max(res, minheight*(j-k+1));
+                }
+            }
+        }
+        return res;
+    }
+    public int cal(int[] dp) {
+        int N = dp.length;
+        Stack<Integer> stk = new Stack<Integer>();
+        int i = 0, res = 0;

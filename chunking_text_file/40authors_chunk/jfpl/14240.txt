@@ -1,0 +1,10 @@
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.preference.PreferenceManager;
+import android.widget.Toast;
+
+public class GlobalVariables {
+	public static String loginUsername = null;
+	public static String chatToUser = "1031";
+	public static String chatAppId = null;
+	public static String chatAppSerial = null;

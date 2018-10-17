@@ -1,0 +1,10 @@
+       Service theService = (Service) serviceList.get(serviceKey);       
+       return theService;
+    }
+  
+
+    public static void main (String[] args) {
+      
+       try {
+         Naming.rebind("ServiceServer", new ServiceServerImpl());
+        } catch(Exception ex) { }

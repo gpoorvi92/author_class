@@ -1,0 +1,10 @@
+    }
+
+    // ListView
+    public static View getChildAtPosition(ListView listView, int position) {
+        int firstPostion = listView.getFirstVisiblePosition();
+        int lastPostion = listView.getLastVisiblePosition();
+
+        if ((position < firstPostion) || (position > lastPostion)) {
+            return null;
+        }

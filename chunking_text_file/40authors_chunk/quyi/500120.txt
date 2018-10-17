@@ -1,0 +1,10 @@
+
+  public double getFreeMem() {
+    return this.freeMem;
+  }
+
+  public NodeHeat setFreeMem(double freeMem) {
+    this.freeMem = freeMem;
+    setFreeMemIsSet(true);
+    return this;
+  }

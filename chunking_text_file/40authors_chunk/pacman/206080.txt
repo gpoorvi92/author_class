@@ -1,0 +1,10 @@
+	 * @param duration
+	 * @param audioSrc
+	 * @throws InvalidMediaParameterException
+	 * @return
+	 * @return: String
+	 */
+	public static String buildAudioCommand(
+			String	acodec, 
+			int 	bitrate,
+			int 	sampling,

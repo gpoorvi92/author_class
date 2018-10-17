@@ -1,0 +1,10 @@
+    boolean this_present_imageContent = true && this.isSetImageContent();
+    boolean that_present_imageContent = true && that.isSetImageContent();
+    if (this_present_imageContent || that_present_imageContent) {
+      if (!(this_present_imageContent && that_present_imageContent))
+        return false;
+      if (!this.imageContent.equals(that.imageContent))
+        return false;
+    }
+
+    boolean this_present_checkResult = true && this.isSetCheckResult();

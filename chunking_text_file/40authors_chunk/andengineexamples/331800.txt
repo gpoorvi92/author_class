@@ -1,0 +1,10 @@
+						player.animate(new long[]{200, 200, 200}, 6, 8, true);
+						break;
+					case 1:
+						player.animate(new long[]{200, 200, 200}, 3, 5, true);
+						break;
+					case 2:
+						player.animate(new long[]{200, 200, 200}, 0, 2, true);
+						break;
+					case 3:
+						player.animate(new long[]{200, 200, 200}, 9, 11, true);

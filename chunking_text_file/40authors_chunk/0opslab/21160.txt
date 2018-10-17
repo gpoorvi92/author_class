@@ -1,0 +1,10 @@
+
+    public static int getHeight() {
+        return height;
+    }
+
+    public static void setHeight(int height) {
+        ImageCaptcha.height = height;
+    }
+
+    /**

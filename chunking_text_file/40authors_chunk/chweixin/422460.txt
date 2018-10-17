@@ -1,0 +1,10 @@
+	 * 设置公众号类型。
+	 * @param type
+	 * 公众号类型。
+	 * 1-服务号，2-订阅号。
+	 * */
+	public void setType(Integer type) {
+		this.type = type;
+	}
+	/**
+	 * 获取接入令牌。

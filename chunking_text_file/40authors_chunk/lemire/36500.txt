@@ -1,0 +1,10 @@
+ * Int array wrapper.
+ * Users should not be concerned by this class.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+class IntArray implements Buffer32, Cloneable {
+
+    /**
+     * Creates a buffer with default size
+     */

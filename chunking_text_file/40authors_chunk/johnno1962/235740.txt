@@ -1,0 +1,10 @@
+            entered_focusLost_1 = true;
+            __focusLost( e );
+            entered_focusLost_1 = false;
+        }
+        else
+            super.focusLost( e );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

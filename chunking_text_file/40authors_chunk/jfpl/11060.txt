@@ -1,0 +1,10 @@
+			try {
+				this.mediaPlayer.setDataSource(this.audioPath);
+				this.mediaPlayer.prepare();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+			this.mediaPlayer.start();
+			this.isPlay = !isPlay;
+			handler.postDelayed(playVoice, 1000);
+		}

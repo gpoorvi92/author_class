@@ -1,0 +1,5 @@
+        }
+        pre.next = null;
+        return head;
+    }
+}

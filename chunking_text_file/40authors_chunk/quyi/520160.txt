@@ -1,0 +1,10 @@
+        this.propertyValue = other.propertyValue;
+      }
+    }
+
+    public modifyTaskManagerConfig_args deepCopy() {
+      return new modifyTaskManagerConfig_args(this);
+    }
+
+    @Override
+    public void clear() {

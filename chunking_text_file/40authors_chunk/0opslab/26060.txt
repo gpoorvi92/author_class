@@ -1,0 +1,10 @@
+ * <p>
+ * Configureable implementation of {@link FileFilter} used for
+ * selection of the test documents under the collection root. 
+ * </p>
+ * <p>
+ * Kept private because no state-verification is performed: The configuration 
+ * may (but shouldn't) be made at runtime. 
+ * </p>
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann</a>
+ */

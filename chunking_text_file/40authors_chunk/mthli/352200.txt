@@ -1,0 +1,10 @@
+         if (index < 0) return;
+         DefaultListModel<?> model = (DefaultListModel<?>) list.getModel();
+         model.remove(index);
+      }
+   }
+
+   // support for drop
+
+   public boolean canImport(TransferSupport support)
+   {

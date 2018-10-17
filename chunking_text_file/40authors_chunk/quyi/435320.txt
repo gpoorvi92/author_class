@@ -1,0 +1,10 @@
+    if (!value) {
+      this.sensitive = null;
+    }
+  }
+
+  public int getAutoRunMonitorSize() {
+    return (this.autoRunMonitor == null) ? 0 : this.autoRunMonitor.size();
+  }
+
+  public java.util.Iterator<RunMonitor> getAutoRunMonitorIterator() {

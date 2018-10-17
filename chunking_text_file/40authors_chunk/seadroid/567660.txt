@@ -1,0 +1,6 @@
+        if (isDirectory())
+            return R.drawable.folder;
+        return Utils.getFileIcon(getTitle());
+    }
+
+}

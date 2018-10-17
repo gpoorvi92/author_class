@@ -1,0 +1,10 @@
+	 * @param httpServletResponse
+	 * 
+	 * @return the unique identifier identifying this client/job
+	 */
+	UUID getIdentifier(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse);
+
+
+	/**
+	 * Define this method if your application supports IDs specified by the client (on
+	 * initialization).

@@ -1,0 +1,10 @@
+                     String loggerName = p.getValue().stringifyValue();
+                     cg.replaceMethod(m, insertLogEntry(m, loggerName));
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   /**

@@ -1,0 +1,10 @@
+            a.setMessage(comd, chan, one, two);
+            event = new MidiEvent(a, tick);
+            
+          }catch(Exception e) { }
+          return event;
+       }
+
+
+
+ class MyDrawPanel extends JPanel implements ControllerEventListener {

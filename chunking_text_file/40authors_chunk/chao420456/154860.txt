@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		StudentDemo sd = new StudentDemo();
+		Student s = new Student();
+		sd.method(s);
+	}
+}
+*/
+
+/*
+abstract class Person {

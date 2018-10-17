@@ -1,0 +1,10 @@
+
+    public synchronized void mark(int readlimit)
+    {
+        in.mark(readlimit);
+        mark = pos;
+    }
+
+    public boolean markSupported()
+    {
+        return in.markSupported();

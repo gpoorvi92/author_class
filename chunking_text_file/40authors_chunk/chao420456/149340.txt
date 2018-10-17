@@ -1,0 +1,10 @@
+		//第三行
+		for(int x=0; x<5; x++) {
+			System.out.print("*");
+		}
+		System.out.println();
+
+		//第四行
+		for(int x=0; x<5; x++) {
+			System.out.print("*");
+		}

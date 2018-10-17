@@ -1,0 +1,10 @@
+        case EventManager.MediaPlayerPlaying: {
+            break;
+        }
+        case EventManager.MediaPlayerPaused: {
+            break;
+        }
+        case EventManager.MediaPlayerStopped: {
+            break;
+        }
+        case EventManager.MediaPlayerEndReached: {

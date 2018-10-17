@@ -1,0 +1,6 @@
+                resEnd = end;
+            }
+        }
+        return (resStart == -1) ? new String("") : S.substring(resStart, resEnd + 1); 
+    }
+}

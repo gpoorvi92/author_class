@@ -1,0 +1,10 @@
+package com.gs.ui;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class NewDialog extends JDialog implements ActionListener {
+	Box buttonBox = new Box(BoxLayout.X_AXIS);
+	

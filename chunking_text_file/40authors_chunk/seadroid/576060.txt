@@ -1,0 +1,10 @@
+    protected View createDialogContentView(LayoutInflater inflater, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.dialog_delete_file, null);
+        return view;
+    }
+
+    @Override
+    protected void onDialogCreated(Dialog dialog) {
+        String str = getActivity().getString(
+                isdir ? R.string.delete_dir : R.string.delete_file_f);
+        setTitle(str);

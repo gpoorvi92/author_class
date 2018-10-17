@@ -1,0 +1,10 @@
+			}
+			int sessionID = (Integer) request.getSession().getAttribute("userID");
+			User user = userService.findUserByID(id);
+			if(user == null){
+				sb.append("该标识符:'" + id +"'没有找到对应的用户,可能已经被删除,或ID被修改</br>");
+				continue;
+			}
+			user.setPassword(MD5Util.getMD5("888888"));
+			if(userService.modify(user)){
+				if(sessionID == id){

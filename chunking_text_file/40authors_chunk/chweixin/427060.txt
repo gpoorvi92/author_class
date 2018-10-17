@@ -1,0 +1,10 @@
+		this.description = description;
+	}
+	/**
+	 * 获取音乐链接。
+	 * @return 音乐链接。
+	 * */
+	public String getMusicURL() {
+		return musicURL;
+	}
+	/**

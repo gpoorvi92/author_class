@@ -1,0 +1,10 @@
+    }
+    /**
+     * 开始计时
+     * @param request
+     */
+    private void endProfile(HttpServletRequest request, Object handler)
+    {
+        Long start = (Long) request.getAttribute(PERFORMANCE_CAL_KEY);
+        if (null != start)
+        {

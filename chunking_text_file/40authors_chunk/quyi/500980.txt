@@ -1,0 +1,10 @@
+              struct.nodeId = iprot.readString();
+              struct.setNodeIdIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 2: // CPU_USED_PERC
+            if (schemeField.type == org.apache.thrift.protocol.TType.DOUBLE) {
+              struct.cpuUsedPerc = iprot.readDouble();
+              struct.setCpuUsedPercIsSet(true);

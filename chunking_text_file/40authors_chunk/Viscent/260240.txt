@@ -1,0 +1,10 @@
+			String sectionName;
+			SimpleDateFormat sdf = new SimpleDateFormat("MMddHHmmss");
+			sectionName = sdf.format(new Date());
+			File dir = new File(storageBaseDir + "/" + sectionName);
+			if (dir.mkdir()) {
+				sectionNames.addLast(sectionName);
+				sectionFileCountMap.put(sectionName, new AtomicInteger(0));
+			} else {
+				throw new RuntimeException("Cannot create section dir " + sectionName);
+			}

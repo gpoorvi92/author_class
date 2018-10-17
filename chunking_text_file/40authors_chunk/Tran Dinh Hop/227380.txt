@@ -1,0 +1,10 @@
+
+import java.awt.image.*;
+import java.awt.image.renderable.*;
+import java.io.*;
+import javax.media.jai.*;
+import com.sun.media.jai.codec.*;
+
+     public class GIFEncoder{
+
+     private ImageEncoder encoder = null;

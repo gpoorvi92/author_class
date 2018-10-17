@@ -1,0 +1,10 @@
+  /** Returns true if field corresponding to fieldID is set (has been assigned a value) and false otherwise */
+  @Override
+public boolean isSet(_Fields field) {
+    if (field == null) {
+      throw new IllegalArgumentException();
+    }
+
+    switch (field) {
+    case APP_ID:
+      return isSetApp_id();

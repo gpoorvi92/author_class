@@ -1,0 +1,10 @@
+				
+				if (result == 1)
+				{
+				JOptionPane.showMessageDialog(null, "Update Succesfull");
+				patron_text.setText("");
+			            	name_text.setText("");
+			 				passport_text.setText("");
+			 				expiry_date_text.setText("");
+			 				reg_by_text.setText("");
+			 				reg_date_text.setText("");

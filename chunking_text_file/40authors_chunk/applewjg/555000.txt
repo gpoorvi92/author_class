@@ -1,0 +1,10 @@
+    public TreeNode flattenRe3(TreeNode root, TreeNode tail) {
+        if (root == null) return tail;
+        root.right = flattenRe3(root.left, flattenRe3(root.right, tail));
+        root.left = null;
+        return root;
+    }
+    public void flatten_3(TreeNode root) {
+        if (root == null) return;
+        flattenRe3(root, null);
+    }

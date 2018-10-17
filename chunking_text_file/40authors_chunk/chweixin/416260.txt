@@ -1,0 +1,10 @@
+		return null;
+	}
+	/**
+	 * 统计数据总数。
+	 * @param hql
+	 *  HQL语句。
+	 * @param parameters
+	 * 	参数集合。
+	 * @return 数据总数。
+	 * */

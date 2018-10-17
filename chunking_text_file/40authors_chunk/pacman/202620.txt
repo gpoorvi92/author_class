@@ -1,0 +1,10 @@
+				data.add(new BasicNameValuePair("stat", fm.isSuccess() ? "2" : "3"));
+				
+				
+				if (!WebHelper.postUrl(url, data, content)) {
+					callOcsOk = false;
+				}
+
+				Map<String, Object> map = new HashMap<String, Object>();
+				map.put("end", DateHelper.getCurrentTime());
+				map.put("status", fm.isSuccess() ? 2 : 3);

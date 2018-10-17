@@ -1,0 +1,10 @@
+    public TransferTaskInfo(Account account, int taskID, TaskState state, String repoID,
+                            String repoName, String localPath,
+                            SeafException err) {
+        this.account = account;
+        this.taskID = taskID;
+        this.state = state;
+        this.repoID = repoID;
+        this.repoName = repoName;
+        this.localFilePath = localPath;
+        this.err = err;

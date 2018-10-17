@@ -1,0 +1,10 @@
+	}
+
+	public void sendChatClick(View v) {
+		AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+		item.putStringValue("type", "1");
+		item.putStringValue("msg_type", "1");
+		item.putStringValue("chat_msg", chatEt.getText().toString());
+		item.putStringValue("load_data_type", "0");
+		appendChatItem(item);
+		chatEt.setText("");

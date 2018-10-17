@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义静态检测结果
+ * 1:string apkMD5 应用MD5值
+ * 2:string checkDate 检测结束时间
+ * 3:list<string> sensitives 敏感词组
+ * 4:list<string> featuresCharacters 特征字符串

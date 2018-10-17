@@ -1,0 +1,10 @@
+        for(String f:field){
+            System.out.println(f);
+        }
+    }
+    @Test
+    public void testPrivateMetod()  {
+        System.out.println("=============获取自定义的private类型的方法==========");
+        String[] methods = ClassUtil.getPrivateMethod("com.opslab.util.bean.BeanUtil");
+        for (String m : methods) {
+            System.out.println(m);

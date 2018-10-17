@@ -1,0 +1,10 @@
+      } else {
+        setOperateTime((String)value);
+      }
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {

@@ -1,0 +1,10 @@
+			cs[count++] = c;
+		}
+		return cs;
+	}
+
+	@Override
+	public Customer[] queryCustomerByLikePy(String py) {
+		List<Customer> list = customerDao.selectCustomersByLikePy(py);
+		Customer[] cs = new Customer[list.size()];
+		int count = 0;

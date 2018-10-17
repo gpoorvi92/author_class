@@ -1,0 +1,10 @@
+				TypeListActivity.this.finish();
+			}
+		});
+		findViewById(R.id.title_pos).setVisibility(View.INVISIBLE);
+
+	}
+
+	public void onResume() {
+		super.onResume();
+		MobclickAgent.onResume(this);

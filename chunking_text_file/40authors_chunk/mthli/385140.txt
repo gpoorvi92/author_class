@@ -1,0 +1,8 @@
+      setLocationByPlatform(true);
+
+      // set frame icon
+
+      Image img = new ImageIcon("icon.gif").getImage();
+      setIconImage(img);      
+   }
+}

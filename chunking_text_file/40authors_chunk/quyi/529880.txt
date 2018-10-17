@@ -1,0 +1,10 @@
+      } else {
+        setApk_md5((String)value);
+      }
+      break;
+
+    case NOTIFY_CALLBACK_URL:
+      if (value == null) {
+        unsetNotify_callback_url();
+      } else {
+        setNotify_callback_url((String)value);

@@ -1,0 +1,10 @@
+            {
+               addBall();
+            }
+         });
+
+      addButton(buttonPanel, "Close", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               System.exit(0);

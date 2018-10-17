@@ -1,0 +1,10 @@
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");
+			
+		} else if (_fileType == "zip" && _action == "Save"){ // Target file to Compress with Zip
+            	fc.addChoosableFileFilter(new ZipFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Save");
+			
+		} else if (_fileType == "zip" && _action == "Open"){ // Source file to Compress with Zip
+            	fc.addChoosableFileFilter(new ZipFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/Compressed"));

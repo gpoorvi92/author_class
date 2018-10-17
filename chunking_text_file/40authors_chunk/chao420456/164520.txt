@@ -1,0 +1,10 @@
+	}
+
+	// 获取线程所在的线程组名称
+	private static void method1() {
+		ThreadGroupRunnable tgr = new ThreadGroupRunnable();
+
+		Thread t1 = new Thread(tgr, "王亚聪");
+		Thread t2 = new Thread(tgr, "王思聪");
+
+		// public final ThreadGroup getThreadGroup()

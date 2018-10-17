@@ -1,0 +1,10 @@
+    
+    Scanner teclado = new Scanner(System.in);
+    elemento = teclado.nextInt();
+    
+    if (elemento <= 100) {  
+        if (elemento == 1){
+            System.out.print("0");  
+        } else {
+            System.out.print(num1 + " ");
+

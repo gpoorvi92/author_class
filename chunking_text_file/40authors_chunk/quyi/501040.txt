@@ -1,0 +1,10 @@
+          case 5: // TASK_QUEUE_LIMIT
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.taskQueueLimit = iprot.readI32();
+              struct.setTaskQueueLimitIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // TASK_QUEUE_NUME
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {

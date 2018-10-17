@@ -1,0 +1,10 @@
+    private int position;
+    private int runningLength;
+    private long word;
+    private int wordPosition;
+    private int wordLength;
+    private int literalPosition;
+    private boolean hasNext;
+
+    ClearIntIterator(EWAHIterator ewahIter, int sizeInBits) {
+        this.ewahIter = ewahIter;

@@ -1,0 +1,10 @@
+    case CPU_CORES:
+      if (value == null) {
+        unsetCpuCores();
+      } else {
+        setCpuCores((Integer)value);
+      }
+      break;
+
+    case CPU_MHZ:
+      if (value == null) {

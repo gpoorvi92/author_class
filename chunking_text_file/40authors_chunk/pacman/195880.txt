@@ -1,0 +1,10 @@
+/**
+ * @ClassName: IWorkerPool
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月23日 下午2:56:25
+ */
+public interface IWorkerPool extends ExecutorService{
+
+	/**
+	 * whether current status can take more tasks.

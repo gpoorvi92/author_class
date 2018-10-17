@@ -1,0 +1,10 @@
+class PrimeGeneratorService extends
+    AbstractMaster<Range, Set<BigInteger>, Set<BigInteger>> {
+
+	public PrimeGeneratorService() {
+		this.init();
+	}
+
+	// 创建子任务分解算法实现类
+	@Override
+	protected TaskDivideStrategy<Range> newTaskDivideStrategy(

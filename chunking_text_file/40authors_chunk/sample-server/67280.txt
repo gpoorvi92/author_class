@@ -1,0 +1,10 @@
+ */
+@Controller
+@RequestMapping(value = "/player")
+public class PlayerController
+{
+    @ACL(limit = Limit.PLAYER_SEARCH)
+    @RequestMapping("/")
+    public String playerSearch()
+    {
+        return "playerSearch";

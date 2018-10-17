@@ -1,0 +1,10 @@
+		crc32.update(b);
+		testFileSplitResult.crc = Long.toHexString(crc32.getValue());
+
+		return testFileSplitResult;
+	}
+
+
+	public static TestFileSplitResult getByteArrayFromFile(MultipartFile file2, long start, long length)
+			throws IOException {
+		InputStream inputStream = file2.getInputStream();

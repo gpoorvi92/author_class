@@ -1,0 +1,10 @@
+	}
+
+	// ·½Ê½1
+	// public static String reverse(String str) {
+	// String s = "";
+	//
+	// char[] chs = str.toCharArray();
+	// for (int x = chs.length - 1; x >= 0; x--) {
+	// s += chs[x];
+	// }

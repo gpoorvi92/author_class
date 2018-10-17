@@ -1,0 +1,10 @@
+      double baseY = y + ascent;
+
+      // draw the message
+
+      g2.drawString(message, (int) x, (int) baseY);
+
+      g2.setPaint(Color.LIGHT_GRAY);
+
+      // draw the baseline
+

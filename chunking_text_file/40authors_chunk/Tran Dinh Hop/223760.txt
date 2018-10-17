@@ -1,0 +1,10 @@
+			}
+
+			outf.close();
+		
+		}catch(IOException eofexc){
+			System.out.println("IO error");
+		}
+
+		summary+="Compressed size : "+ mycount+" bytes.";
+		summary+="\n";	

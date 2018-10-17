@@ -1,0 +1,10 @@
+		return compare (this, o);
+	}	//	compareTo
+
+	/**
+	 *	To String - returns name
+	 *  @return Name
+	 */
+	public String toString()
+	{
+		return m_name;

@@ -1,0 +1,10 @@
+  }
+
+  /**
+   * 
+   * @see Risk
+   */
+  public Rules setRiskLevel(Risk riskLevel) {
+    this.riskLevel = riskLevel;
+    return this;
+  }

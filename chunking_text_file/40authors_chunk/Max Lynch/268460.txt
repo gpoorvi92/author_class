@@ -1,0 +1,10 @@
+		
+		Point mousexy;
+		
+		Ellipse2D.Double circle = new Ellipse2D.Double(120, 120, 100, 100);
+		
+		Graphics2D g2; 
+		
+		
+		public AboutPanel()
+		{

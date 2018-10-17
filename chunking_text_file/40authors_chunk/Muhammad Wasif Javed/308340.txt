@@ -1,0 +1,10 @@
+	public Logon () {
+
+		//Setting Program's Title.
+
+		super ("Muhammad Wasif's LibrarySystem.");
+
+		//Setting the Main Window of Program.
+
+		setIconImage (getToolkit().getImage ("Images/Home.gif"));	//Setting the Program's Icon.
+		setSize (275, 150);						//Setting Main Window Size.

@@ -1,0 +1,10 @@
+     * Constructor
+     *
+     * @param account   Current login Account instance
+     * @param taskID    TransferTask id
+     * @param state     TransferTask state, value is one of INIT, TRANSFERRING, FINISHED, CANCELLED, FAILED of {@link TaskState}
+     * @param repoID    Repository id
+     * @param repoName  Repository name
+     * @param localPath Local path
+     * @param err       Exception instance of {@link SeafException}
+     */

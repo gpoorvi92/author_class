@@ -1,0 +1,10 @@
+    public static int getColor(Context context, int id) {
+        Resources resources = context.getResources();
+        if (resources == null)
+            return 0;
+
+        return resources.getColor(id);
+    }
+
+    public static ColorStateList getColorStateList(Context context, int id) {
+        Resources resources = context.getResources();

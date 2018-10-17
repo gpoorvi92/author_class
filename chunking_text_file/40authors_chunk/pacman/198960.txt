@@ -1,0 +1,10 @@
+	public List<IStep> getSteps() {
+
+		return steps;
+	}
+
+	/**
+	 * @param steps
+	 *            the steps to set
+	 */
+	public void setSteps(List<IStep> steps) {

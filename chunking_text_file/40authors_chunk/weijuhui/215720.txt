@@ -1,0 +1,10 @@
+	}
+	
+	//private static ProgressStyle defineProDialog;
+	private static ProgressDialog defineProDialog;
+	
+	public static void showProgressDialog(Context c) {
+		if (defineProDialog == null) {
+			  defineProDialog = new ProgressDialog(c);
+			  defineProDialog.setMessage(c.getString(R.string.sendRequest));
+		}

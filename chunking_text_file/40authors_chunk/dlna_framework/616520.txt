@@ -1,0 +1,10 @@
+		}
+		return uri;
+	}
+	
+	public static final String toRelativeURL(String urlStr)
+	{
+		return toRelativeURL(urlStr, true);
+	}
+	 	
+	public static final String getAbsoluteURL(String baseURLStr, String relURlStr)

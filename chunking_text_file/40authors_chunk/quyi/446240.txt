@@ -1,0 +1,10 @@
+    sb.append("imageContent:");
+    if (this.imageContent == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.imageContent);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("checkResult:");
+    if (this.checkResult == null) {

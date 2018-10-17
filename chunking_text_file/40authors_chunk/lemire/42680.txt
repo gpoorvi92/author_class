@@ -1,0 +1,10 @@
+        return answer;
+    }
+
+    /**
+     * @param x set of bitmaps we wish to iterate over
+     * @return an array of iterators corresponding to the array of bitmaps
+     */
+    public static IteratingRLW32[] toIterators(
+            final EWAHCompressedBitmap32... x) {
+        IteratingRLW32[] X = new IteratingRLW32[x.length];

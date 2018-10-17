@@ -1,0 +1,10 @@
+package composite;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * This frame contains a combo box to choose a composition rule, a slider to change the source alpha
+ * channel, and a component that shows the composition.

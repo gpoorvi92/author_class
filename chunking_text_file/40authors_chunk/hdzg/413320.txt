@@ -1,0 +1,10 @@
+public class BattleField{
+	GameView gameView;
+	
+	static Bitmap [] heroGeneral;//我方将领
+	static Bitmap [] enemyGeneral;//敌方将领
+	static Bitmap [] heroSoldier;//我方士兵
+	static Bitmap [] enemySoldier;//敌方士兵
+	static Bitmap bmpBack;//背景
+	static Bitmap bmpCityBorder;//城名外框
+	static int generalWidth = 80;

@@ -1,0 +1,10 @@
+		jPanel2 = new javax.swing.JPanel(new java.awt.FlowLayout());
+		jPanel2.add(jButton4); 
+	     setLocation((screen.width - 500)/2,((screen.height-350)/2));
+			try
+
+         {
+	
+                Statement s = Connect.getConnection().createStatement();
+         }
+

@@ -1,0 +1,10 @@
+		if(this.service instanceof IWeChatAccountService){
+			List<WeChatAccountInfo> list = ((IWeChatAccountService)this.service).loadAllAccounts();
+			if(list != null && list.size() > 0){
+				for(WeChatAccountInfo info: list){
+					if(info == null) continue;
+					TreeNode tn = new TreeNode();
+					tn.setId(info.getId());
+					tn.setText(info.getName());
+					nodes.add(tn);
+				}

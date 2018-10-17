@@ -1,0 +1,10 @@
+	public int i;
+    public book_loan_tab() {   
+     		
+    
+    for (i = 0; i<5; i++)
+    {
+    acc_no_text[i] = new JTextField(10);
+    acc_no_text[i].setEditable(false);
+   }
+   	

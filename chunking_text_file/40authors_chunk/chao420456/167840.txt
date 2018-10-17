@@ -1,0 +1,10 @@
+	//getter, setter·½·¨
+	public Client_chatFrame getC_chatFrame() {
+		return c_chatFrame;
+	}
+	public Client_singleFrame getC_singlFrame() {
+		return c_singleFrame;
+	}
+	public void setC_singlFrame(Client_singleFrame c_singlFrame) {
+		this.c_singleFrame = c_singlFrame;
+	}

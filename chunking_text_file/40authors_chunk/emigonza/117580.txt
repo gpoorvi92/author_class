@@ -1,0 +1,4 @@
+    
+    /** Flushes the output */
+    public void flush();
+}

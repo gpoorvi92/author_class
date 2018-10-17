@@ -1,0 +1,10 @@
+     */
+    public static final String JPOS_SERVICE_MANAGER_CLASS_PROP_NAME2 = "jpos.loader.serviceManagerClass";
+
+    /**
+     * Constants defining the JavaPOS JposRegPopulator implementor class name Java property 
+     * @since 1.2 (NY 2K meeting)
+     */
+    public static final String JPOS_REG_POPULATOR_CLASS_PROP_NAME = "jpos.config.regPopulatorClass";
+
+    /**

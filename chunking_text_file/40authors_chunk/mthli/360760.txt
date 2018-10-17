@@ -1,0 +1,9 @@
+            Key key = (Key) keyIn.readObject();
+            Cipher cipher = Cipher.getInstance("AES");
+            cipher.init(mode, key);
+            Util.crypt(in, out, cipher);
+         }
+      }
+   }
+}
+

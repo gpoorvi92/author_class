@@ -1,0 +1,10 @@
+			case DIALOG_ALLOWDIAGONAL_ID:
+				return new AlertDialog.Builder(this)
+				.setTitle("Setup...")
+				.setMessage("Do you wish to allow diagonal directions on the OnScreenControl?")
+				.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(final DialogInterface pDialog, final int pWhich) {
+						DigitalOnScreenControlExample.this.mDigitalOnScreenControl.setAllowDiagonal(true);
+					}
+				})

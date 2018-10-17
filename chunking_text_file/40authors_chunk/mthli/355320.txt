@@ -1,0 +1,10 @@
+         }
+         else logger.fine("File open dialog canceled.");
+         logger.exiting("ImageViewerFrame.FileOpenListener", "actionPerformed");
+      }
+   }
+}
+
+/**
+ * A handler for displaying log records in a window.
+ */

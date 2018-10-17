@@ -1,0 +1,10 @@
+    public native void __mouseWheelMoved( java.awt.event.MouseWheelEvent e );
+
+    boolean entered_mouseWheelMoved_7;
+
+    public void mouseWheelMoved( java.awt.event.MouseWheelEvent e ) {
+        if ( !entered_mouseWheelMoved_7 ) {
+            entered_mouseWheelMoved_7 = true;
+            __mouseWheelMoved( e );
+            entered_mouseWheelMoved_7 = false;
+        }

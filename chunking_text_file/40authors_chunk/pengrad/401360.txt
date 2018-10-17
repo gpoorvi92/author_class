@@ -1,0 +1,10 @@
+    private String address;
+    private String foursquare_id;
+
+    public Location location() {
+        return location;
+    }
+
+    public String title() {
+        return title;
+    }

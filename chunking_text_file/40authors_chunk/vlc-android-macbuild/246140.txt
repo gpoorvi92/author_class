@@ -1,0 +1,10 @@
+
+    @Override
+    public ModuleInfo getModuleInfo() {
+        return mModuleInfo;
+    }
+
+    @Override
+    public boolean handleMessage(Message msg) {
+        switch (msg.what) {
+        case LibVlcMessages.VLC_VIDEO_SIZE_CHANGED:

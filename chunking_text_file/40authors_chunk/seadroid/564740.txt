@@ -1,0 +1,10 @@
+    }
+
+    public synchronized void allowThreadDecoding(Thread t) {
+        getOrCreateThreadStatus(t).mState = State.ALLOW;
+    }
+
+    public synchronized void cancelThreadDecoding(Thread t, ContentResolver cr) {
+        ThreadStatus status = getOrCreateThreadStatus(t);
+        status.mState = State.CANCEL;
+        if (status.mOptions != null) {

@@ -1,0 +1,9 @@
+    int i = 1;
+    while (i <= numIntrod){
+        factorial *= i;
+        System.out.print(" += " + factorial);
+        i ++;
+    }
+    
+  }
+}

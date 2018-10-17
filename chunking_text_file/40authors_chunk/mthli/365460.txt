@@ -1,0 +1,10 @@
+public class CopyOfTest
+{
+   public static void main(String[] args)
+   {
+      int[] a = { 1, 2, 3 };
+      a = (int[]) goodCopyOf(a, 10);
+      System.out.println(Arrays.toString(a));
+
+      String[] b = { "Tom", "Dick", "Harry" };
+      b = (String[]) goodCopyOf(b, 10);

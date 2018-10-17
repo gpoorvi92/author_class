@@ -1,0 +1,10 @@
+            out.write(str, st, len);
+            afterWrite(len);
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }
+
+    public void flush()

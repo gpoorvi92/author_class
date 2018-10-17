@@ -1,0 +1,10 @@
+            oprot.writeI32(_iter3.getValue());
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.riskLevel != null) {
+        oprot.writeFieldBegin(RISK_LEVEL_FIELD_DESC);
+        oprot.writeI32(struct.riskLevel.getValue());
+        oprot.writeFieldEnd();

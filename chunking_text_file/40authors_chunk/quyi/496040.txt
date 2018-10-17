@@ -1,0 +1,10 @@
+  }
+
+  public Engine setNodeInfo(NodeInfo nodeInfo) {
+    this.nodeInfo = nodeInfo;
+    return this;
+  }
+
+  public void unsetNodeInfo() {
+    this.nodeInfo = null;
+  }

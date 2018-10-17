@@ -1,0 +1,10 @@
+      catch (IOException e)
+      {
+         e.printStackTrace();
+      }
+   }
+
+   /**
+    * Computes the Base64 encoding of a string.
+    * @param s a string
+    * @return the Base64 encoding of s

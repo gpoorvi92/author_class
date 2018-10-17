@@ -1,0 +1,10 @@
+	}
+
+
+	public HttpServletRequest getRequest() {
+		return requestThreadLocal.get();
+
+	}
+
+
+	public HttpSession getSession() {

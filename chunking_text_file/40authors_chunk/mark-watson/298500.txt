@@ -1,0 +1,10 @@
+ * Copyright 2002-2013 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is not public domain. It can be legally
+ * used under the following licenses: LGPL version 3 or Apache 2
+ * <p/>
+ */
+public class NameFinder extends Configured implements Tool {
+
+    private static ExtractNames extractNames = new ExtractNames();
+

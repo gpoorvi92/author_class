@@ -1,0 +1,10 @@
+     * @return a JposServiceConnection for the service with the logical name specified
+     * This should use the populator to see if there exist any entry with the logical
+     * name provided, get the entry and create the JposServiceConnection
+     * @since 0.1 (Philly 99 meeting)
+     * @throws jpos.JposException if an error occurs while creating this connection
+     */
+    public JposServiceConnection createConnection( String logicalName ) throws JposException;
+
+    /**
+     * @return the JposEntryRegistry object that this factory uses to allow entries to be

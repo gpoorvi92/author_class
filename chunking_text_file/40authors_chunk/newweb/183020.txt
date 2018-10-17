@@ -1,0 +1,10 @@
+	}
+	
+	@Column
+	public int getWinCount() {
+		return winCount;
+	}
+	public void setWinCount(int winCount) {
+		this.winCount = winCount;
+	}
+	

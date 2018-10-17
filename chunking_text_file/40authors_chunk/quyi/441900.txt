@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_protocal = true && this.isSetProtocal();
+    boolean that_present_protocal = true && that.isSetProtocal();
+    if (this_present_protocal || that_present_protocal) {
+      if (!(this_present_protocal && that_present_protocal))
+        return false;
+      if (!this.protocal.equals(that.protocal))
+        return false;

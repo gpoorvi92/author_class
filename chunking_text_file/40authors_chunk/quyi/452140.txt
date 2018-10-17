@@ -1,0 +1,10 @@
+      this.plots = plots;
+      return this;
+    }
+
+    public void unsetPlots() {
+      this.plots = null;
+    }
+
+    /** Returns true if field plots is set (has been assigned a value) and false otherwise */
+    public boolean isSetPlots() {

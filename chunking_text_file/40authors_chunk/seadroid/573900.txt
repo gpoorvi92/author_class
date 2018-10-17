@@ -1,0 +1,10 @@
+        UploadTaskInfo info = new UploadTaskInfo(account, taskID, state, repoID,
+                repoName, dir, path, isUpdate, isCopyToLocal,
+                finished, totalSize, err);
+        return info;
+    }
+
+    public void cancelUpload() {
+        if (state != TaskState.INIT && state != TaskState.TRANSFERRING) {
+            return;
+        }

@@ -1,0 +1,10 @@
+		paint.setTextSize(23);//设置文字大小
+		canvas.drawText("天下局势", 50, 40, paint);
+		paint.setTextSize(18);//设置文字大小
+		canvas.drawBitmap(menuTitle, 10, 70, paint);
+		canvas.drawText("城池名", 15, 90, paint);
+		canvas.drawText("归属国", 85, 90, paint);
+		canvas.drawText("主将", 170, 90, paint);
+		canvas.drawText("兵力", 235, 90, paint);	
+		
+		int tempCurrentI = currentI;

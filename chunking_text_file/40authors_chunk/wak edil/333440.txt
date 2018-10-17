@@ -1,0 +1,10 @@
+		this.dispose();
+	 	}
+		
+		if (e.getSource() == jbtExit){
+	 			int confirm=JOptionPane.showConfirmDialog(null,"Are you sure to exit?","Exit ",JOptionPane.YES_NO_OPTION);
+		 	
+		 		if(confirm==0)
+		 			System.exit(0);
+	 	}
+	}

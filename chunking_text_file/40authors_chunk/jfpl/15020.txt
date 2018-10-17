@@ -1,0 +1,10 @@
+			@Override
+			public void run() {
+				chatList.setSelection(chatList.getCount() - 1);
+			}
+		}, 100);
+
+	}
+
+	private void initParams(Intent intent) {
+		// 初始化参数

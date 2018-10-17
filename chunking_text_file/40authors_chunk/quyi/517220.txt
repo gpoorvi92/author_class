@@ -1,0 +1,10 @@
+          setSuccess((String)value);
+        }
+        break;
+
+      case IRE:
+        if (value == null) {
+          unsetIre();
+        } else {
+          setIre((com.nercis.isscp.idl.InvalidRequestException)value);
+        }

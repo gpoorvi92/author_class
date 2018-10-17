@@ -1,0 +1,5 @@
+                             int[] FARAchieved,
+                             int[] FRRAchieved,
+                             byte[][] payload)
+                     throws JposException;
+}

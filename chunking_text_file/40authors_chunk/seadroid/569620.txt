@@ -1,0 +1,10 @@
+        } catch (SeafException e) {
+            setTaskException(e);
+        }
+    }
+}
+
+public class PasswordDialog extends TaskDialog {
+    private static final String STATE_TASK_REPO_NAME = "set_password_task.repo_name";
+    private static final String STATE_TASK_REPO_ID = "set_password_task.repo_id";
+    private static final String STATE_TASK_PASSWORD = "set_password_task.password";

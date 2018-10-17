@@ -1,0 +1,10 @@
+    }
+    public TreeNode sortedListToBSTRe1(int len) {
+        if (len == 0) return null;
+        int mid = len / 2;
+        TreeNode left = sortedListToBSTRe1(mid);
+        TreeNode root = new TreeNode(iter.val);
+        root.left = left;
+        iter = iter.next;
+        root.right = sortedListToBSTRe1(len - 1 - mid);
+        return root;

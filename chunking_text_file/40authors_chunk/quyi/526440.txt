@@ -1,0 +1,10 @@
+
+  public String getMissionProgress() {
+    return this.missionProgress;
+  }
+
+  public MissionResults setMissionProgress(String missionProgress) {
+    this.missionProgress = missionProgress;
+    return this;
+  }
+

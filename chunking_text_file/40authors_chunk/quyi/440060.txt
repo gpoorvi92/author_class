@@ -1,0 +1,10 @@
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.cpuModel = iprot.readString();
+              struct.setCpuModelIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // CPU_CORES
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.cpuCores = iprot.readI32();

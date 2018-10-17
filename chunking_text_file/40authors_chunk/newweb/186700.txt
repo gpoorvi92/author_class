@@ -1,0 +1,10 @@
+
+	@Override
+	public TypeForBrand findTypeForBrandById(int typeID) {
+		return typeForBrandDao.selectTypeForBrandByID(typeID);
+	}
+
+	@Override
+	public TypeForBrand findTypeForBrandByCondition(String name,
+			int materialBrandID) {
+		return typeForBrandDao.selectTypeForBrandByCondition(name,materialBrandID);

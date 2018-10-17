@@ -1,0 +1,10 @@
+	@Column
+	public double getFdwWidth() {
+		return fdwWidth;
+	}
+	public void setFdwWidth(double fdwWidth) {
+		this.fdwWidth = fdwWidth;
+	}
+	
+	@ManyToOne
+	@JoinColumn(name="fgbxgid")

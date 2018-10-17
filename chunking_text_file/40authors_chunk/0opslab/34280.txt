@@ -1,0 +1,10 @@
+        for (char a : achar) {
+            result += Integer.toBinaryString(
+                    Integer.valueOf(String.valueOf(a), 16)) + " ";
+        }
+        return result;
+    }
+
+    /**
+     * 将二进制转换为十六进制字符输出
+     *

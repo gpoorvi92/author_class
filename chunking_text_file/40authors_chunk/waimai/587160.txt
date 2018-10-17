@@ -1,0 +1,10 @@
+
+/**
+ * Created by snow on 2014/4/29.
+ */
+@Transactional(rollbackFor = Exception.class)
+@Service(ISendAddressService.SERVICE_NAME)
+public class SendAddressServiceImpl implements ISendAddressService {
+    @Autowired
+    private SendAddressMapper sendAddressMapper;
+

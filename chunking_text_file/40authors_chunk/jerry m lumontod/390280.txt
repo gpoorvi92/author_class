@@ -1,0 +1,10 @@
+	/*
+    private DefaultTableModel model = new DefaultTableModel();
+    private JTable table = new JTable(model);
+    private int cint = 2;
+    private Object[] obj = new Object[cint];
+    private String cstr;
+    
+    cstr="row 0 column 0";
+    obj[0]=cstr;
+    cstr="row 1 column 0";

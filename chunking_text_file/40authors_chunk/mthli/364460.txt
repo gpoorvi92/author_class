@@ -1,0 +1,10 @@
+import javax.xml.transform.stream.*;
+import org.w3c.dom.*;
+
+/**
+ * A frame with a component for showing a modern drawing.
+ */
+public class XMLWriteFrame extends JFrame
+{
+   private RectangleComponent comp;
+   private JFileChooser chooser;

@@ -1,0 +1,10 @@
+		if(current != null)
+		{
+			g2.draw(selectionRectangle);
+		}
+		
+	}
+	
+	
+	
+	

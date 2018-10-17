@@ -1,0 +1,10 @@
+//				int duplicateSubmissionCount;
+//				duplicateSubmissionCount=alarmMgr.sendAlarm(AlarmType.FAULT,alarmId,alarmExtraInfo);
+//				if(duplicateSubmissionCount<supressThredshold){
+//					logger.error("Alarm["+alarmId+"] raised,extraInfo:"+alarmExtraInfo);
+//				}else{
+//					if(duplicateSubmissionCount==supressThredshold){
+//						logger.error("Alarm["+alarmId+"] was raised more than "+supressThredshold+" times, it will no longer be logged,extraInfo:"+alarmExtraInfo);
+//					}
+//				}
+//			}

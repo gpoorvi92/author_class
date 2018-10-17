@@ -1,0 +1,10 @@
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMQListener#onObjectMessage(java.lang.Object)
+	 */
+	@Override
+	public void onObjectMessage(Object obj) {
+
+		//Callback ocs's address and notify the status of task.
+		boolean callOcsOk = true;
+		if (obj instanceof FeedbackMessage) {

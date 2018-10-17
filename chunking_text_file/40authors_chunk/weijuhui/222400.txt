@@ -1,0 +1,10 @@
+				finish();
+			}
+
+		});
+	}
+
+	private ActType[] buildActList() {
+		ActType[] actType = new ActType[7];
+		actType[0] = new ActType(Constant.TYPE_FEAST,R.drawable.icon_feast, "吃大餐");
+		actType[1] = new ActType(Constant.TYPE_COFFEE,R.drawable.icon_coffee, "喝咖啡");

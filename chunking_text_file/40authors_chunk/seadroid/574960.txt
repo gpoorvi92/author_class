@@ -1,0 +1,10 @@
+            }
+            adapter.notifyChanged();
+            mStarredList.setVisibility(View.VISIBLE);
+            mNoStarredView.setVisibility(View.GONE);
+        } else {
+            mStarredList.setVisibility(View.GONE);
+            mNoStarredView.setVisibility(View.VISIBLE);
+        }
+    }
+

@@ -1,0 +1,10 @@
+        MyThread12 myThread12 = new MyThread12();
+        myThread12.start();
+        myThread12.interrupt();
+        System.out.println("end！");
+    }
+}
+
+/*
+输出：
+end！

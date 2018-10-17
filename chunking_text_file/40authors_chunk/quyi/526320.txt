@@ -1,0 +1,10 @@
+  }
+
+  public MissionResults setMissionId(String missionId) {
+    this.missionId = missionId;
+    return this;
+  }
+
+  public void unsetMissionId() {
+    this.missionId = null;
+  }

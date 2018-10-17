@@ -1,0 +1,10 @@
+        System.out.print(caracter);
+        for(i = 1; i < hueco; i++){
+            System.out.print(" ");
+        }
+        
+        if (altura > 1){
+            System.out.print(caracter);
+        } 
+        
+        System.out.println("");

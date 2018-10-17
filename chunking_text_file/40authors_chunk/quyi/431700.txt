@@ -1,0 +1,10 @@
+      if (!this.apiCheck.equals(that.apiCheck))
+        return false;
+    }
+
+    boolean this_present_reportPath = true && this.isSetReportPath();
+    boolean that_present_reportPath = true && that.isSetReportPath();
+    if (this_present_reportPath || that_present_reportPath) {
+      if (!(this_present_reportPath && that_present_reportPath))
+        return false;
+      if (!this.reportPath.equals(that.reportPath))

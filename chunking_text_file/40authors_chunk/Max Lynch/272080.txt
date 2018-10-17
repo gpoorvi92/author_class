@@ -1,0 +1,10 @@
+	JPanel mainPanel = new JPanel();
+	
+	JButton ok = new JButton("OK");
+	JButton cancel = new JButton("Cancel");
+	
+	JLabel widthL = new JLabel("Width: ");
+	JLabel heightL = new JLabel("Height: ");
+	
+	JTextField widthT = new JTextField();
+	JTextField heightT = new JTextField();

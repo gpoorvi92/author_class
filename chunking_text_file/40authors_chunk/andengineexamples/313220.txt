@@ -1,0 +1,10 @@
+					/* Completely remove all resources associated with this sprite. */
+					this.dispose();
+					UnloadResourcesExample.this.mBitmapTextureAtlas.unload();
+					
+					/* And remove the sprite from the Scene. */
+					this.detachSelf();
+					return true;
+				} else {
+					return false;
+				}

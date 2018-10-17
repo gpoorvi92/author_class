@@ -1,0 +1,10 @@
+	/**
+	 * 删除公众号上的菜单。
+	 * @param accountId
+	 * 公众号ID。
+	 * @return
+	 * 创建成功返回true，否则false。
+	 * */
+	String deleteMenus(String accountId);
+	/**
+	 * 查询公众号上的菜单。

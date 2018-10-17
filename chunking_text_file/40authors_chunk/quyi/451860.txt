@@ -1,0 +1,10 @@
+          __this__plots.add(other_element);
+        }
+        this.plots = __this__plots;
+      }
+    }
+
+    public issuedMessage_args deepCopy() {
+      return new issuedMessage_args(this);
+    }
+

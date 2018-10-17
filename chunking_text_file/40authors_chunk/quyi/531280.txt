@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetApp_name()) {
+        optionals.set(1);
+      }
+      if (struct.isSetVersioncode()) {
+        optionals.set(2);
+      }
+      if (struct.isSetUrl()) {
+        optionals.set(3);
+      }

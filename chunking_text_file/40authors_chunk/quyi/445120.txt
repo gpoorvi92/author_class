@@ -1,0 +1,10 @@
+  }
+
+  private static class AppCheckResultTupleSchemeFactory implements SchemeFactory {
+    public AppCheckResultTupleScheme getScheme() {
+      return new AppCheckResultTupleScheme();
+    }
+  }
+
+  private static class AppCheckResultTupleScheme extends TupleScheme<AppCheckResult> {
+

@@ -1,0 +1,7 @@
+        System.out.println("执行命令/" + client.sendCommand("mkdir testssss"));
+        int ss = client.sendCommand("ls");
+
+        ftp.destory();
+    }
+
+}

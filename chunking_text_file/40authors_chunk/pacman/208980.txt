@@ -1,0 +1,10 @@
+					logger.error("Fail to close httpclient.", e);
+				}
+			}
+		}
+		
+		return result;
+	}
+	
+	@SuppressWarnings("deprecation")
+	public static boolean postUrl(String url, List<NameValuePair> postData, Wrapper<String> content) {

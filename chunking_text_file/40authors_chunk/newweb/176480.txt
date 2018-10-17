@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean update(TypeForBrand typeForBrand) {
+		try {
+			sessionFactory.getCurrentSession().update(typeForBrand);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;

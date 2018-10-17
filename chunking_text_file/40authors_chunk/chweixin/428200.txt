@@ -1,0 +1,10 @@
+		}finally{
+			this.writeJson(result);
+		}
+	}
+	/**
+	 * 删除数据。
+	 * @throws IOException 
+	 * */
+	public void delete() throws IOException{
+		Json result = new Json();

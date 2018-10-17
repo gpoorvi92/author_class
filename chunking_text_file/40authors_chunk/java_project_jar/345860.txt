@@ -1,0 +1,10 @@
+    private final IOCase caseSensitivity;
+
+    static 
+    {
+        NAME_COMPARATOR = new NameFileComparator();
+        NAME_REVERSE = new ReverseComparator(NAME_COMPARATOR);
+        NAME_INSENSITIVE_COMPARATOR = new NameFileComparator(IOCase.INSENSITIVE);
+        NAME_INSENSITIVE_REVERSE = new ReverseComparator(NAME_INSENSITIVE_COMPARATOR);
+        NAME_SYSTEM_COMPARATOR = new NameFileComparator(IOCase.SYSTEM);
+        NAME_SYSTEM_REVERSE = new ReverseComparator(NAME_SYSTEM_COMPARATOR);

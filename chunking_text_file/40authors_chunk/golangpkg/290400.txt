@@ -1,0 +1,10 @@
+					}
+					catch (FileNotFoundException e) {
+						log.debug("cannot retrieve progress for "+fileId);
+					}
+					
+				}
+			}
+
+		}
+	}

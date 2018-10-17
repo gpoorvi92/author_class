@@ -1,0 +1,10 @@
+
+	// HashMap不是线程安全的，但RecordWriter实例是在单线程中使用的，因此不会产生问题。
+	private static Map<String, PrintWriter> printWriterMap = new HashMap<String, PrintWriter>();
+
+	private static String baseDir;
+	private static final char FIELD_SEPARATOR = '|';
+
+	// SimpleDateFormat不是线程安全的，但RecordWriter实例是在单线程中使用的，因此不会产生问题。
+	private static final SimpleDateFormat DIRECTORY_NAME_FORMATTER = new SimpleDateFormat(
+	    "yyMMdd");

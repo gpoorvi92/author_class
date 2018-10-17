@@ -1,0 +1,10 @@
+			  hql += " and (u.name like :account or u.account like :account) ";
+			  parameters.put("account", "%" + info.getAccount() + "%");
+		  }
+		  return hql;
+	 }
+
+	@Override
+	public List<User> findUsers(UserInfo info) {
+		String hql = "from User u where 1 = 1 ";
+		Map<String, Object> parameters = new HashMap<String, Object>();

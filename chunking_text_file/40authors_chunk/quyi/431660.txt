@@ -1,0 +1,10 @@
+      if (!(this_present_sensitives && that_present_sensitives))
+        return false;
+      if (!this.sensitives.equals(that.sensitives))
+        return false;
+    }
+
+    boolean this_present_featuresCharacters = true && this.isSetFeaturesCharacters();
+    boolean that_present_featuresCharacters = true && that.isSetFeaturesCharacters();
+    if (this_present_featuresCharacters || that_present_featuresCharacters) {
+      if (!(this_present_featuresCharacters && that_present_featuresCharacters))

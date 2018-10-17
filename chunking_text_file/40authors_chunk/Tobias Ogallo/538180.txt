@@ -1,0 +1,10 @@
+                             combo1.getSelectedItem()  +"', '" +                      
+                             txtusername.getText() 	   + "', '" +  			   
+			                 pass1.getText() 	       + "')";
+			   							   	 
+				    int result = statement.executeUpdate( temp );
+					JOptionPane.showMessageDialog(null,"User is succesfully added",
+                   "SUCCESS",JOptionPane.DEFAULT_OPTION);
+                   dispose();
+					}
+					

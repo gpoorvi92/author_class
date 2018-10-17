@@ -1,0 +1,10 @@
+		actionNode.setNameSpace(Control.NS, serviceType);
+
+		int argListCnt = argList.size();
+		for (int n=0; n<argListCnt; n++) {
+			Argument arg = argList.getArgument(n);
+			Node argNode = new Node();
+			argNode.setName(arg.getName());
+			argNode.setValue(arg.getValue());
+			actionNode.addNode(argNode);
+		}

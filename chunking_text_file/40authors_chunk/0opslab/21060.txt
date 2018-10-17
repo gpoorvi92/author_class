@@ -1,0 +1,10 @@
+    public void setRemoteEncoding(String remoteEncoding) {
+        this.remoteEncoding = remoteEncoding;
+    }
+
+
+    public boolean isPassiveMode() {
+        return passiveMode;
+    }
+
+    public void setPassiveMode(boolean passiveMode) {

@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_detectResult = true && this.isSetDetectResult();
+    boolean that_present_detectResult = true && that.isSetDetectResult();
+    if (this_present_detectResult || that_present_detectResult) {
+      if (!(this_present_detectResult && that_present_detectResult))
+        return false;
+      if (!this.detectResult.equals(that.detectResult))
+        return false;
+    }

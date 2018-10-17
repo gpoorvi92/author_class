@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Component;
+
+import com.newweb.dao.business.OrderLhjWeightDao;
+import com.newweb.model.business.OrderLhjWeight;
+import com.newweb.model.business.OrderPrice;
+import com.newweb.service.base.LhjPriceService;
+import com.newweb.service.business.OrderLhjWeightService;
+import com.newweb.service.business.OrderPriceService;
+import com.newweb.service.business.OrderService;
+import com.newweb.util.FileUtil;

@@ -1,0 +1,10 @@
+	//初始化图片
+	public void initBitmap(Resources r){
+		bmpScroll = BitmapFactory.decodeResource(r, R.drawable.scroll);//竹简图片
+		
+	}
+	//屏幕的绘制方法
+	public void onDraw(Canvas canvas){
+		canvas.drawColor(Color.BLACK);
+		Paint paint = new Paint();
+		paint.setAlpha(alpha);

@@ -1,0 +1,10 @@
+	private static final Logger log = LoggerFactory.getLogger(RateLimiter.class);
+
+	@Autowired
+	RateLimiterConfigurationManager uploadProcessingConfigurationManager;
+
+	@Autowired
+	UploadProcessingOperationManager uploadProcessingOperationManager;
+
+	/** Number of times the bucket is filled per second. */
+	public static final int NUMBER_OF_TIMES_THE_BUCKET_IS_FILLED_PER_SECOND = 10;

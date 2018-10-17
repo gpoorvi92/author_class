@@ -1,0 +1,10 @@
+		if(code == null || code.trim().isEmpty()) return null;
+		final String hql = "from WeChatMenu w where w.account.id = :accountId and w.code = :code";
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		parameters.put("accountId", accountId);
+		parameters.put("code", code);
+		List<WeChatMenu> list = this.find(hql, parameters, null, null);
+		if(list == null || list.size() == 0) return null;
+		return list.get(0);
+	}
+	

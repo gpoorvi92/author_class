@@ -1,0 +1,10 @@
+    }
+
+    public updateUserAppInfo_args setUserAppId(String userAppId) {
+      this.userAppId = userAppId;
+      return this;
+    }
+
+    public void unsetUserAppId() {
+      this.userAppId = null;
+    }

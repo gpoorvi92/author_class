@@ -1,0 +1,10 @@
+
+	@Override
+	public WeChatAccessTokenInfo update(WeChatAccessTokenInfo info) {
+		if(info == null) return null;
+		WeChatAccessToken data = (info.getId() == null || info.getId().trim().isEmpty()) ? null : this.weChatAccessTokenDao.load(WeChatAccessToken.class, info.getId());
+		boolean isAdded = false;
+		if(isAdded = (data == null)){
+			data = new WeChatAccessToken();
+			info.setId(UUID.randomUUID().toString());
+		}

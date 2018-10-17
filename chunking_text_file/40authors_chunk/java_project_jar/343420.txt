@@ -1,0 +1,10 @@
+        run = true;
+        this.file = file;
+        this.delay = delay;
+        this.end = end;
+        this.listener = listener;
+        listener.init(this);
+    }
+
+    public static Tailer create(File file, TailerListener listener, long delay, boolean end)
+    {

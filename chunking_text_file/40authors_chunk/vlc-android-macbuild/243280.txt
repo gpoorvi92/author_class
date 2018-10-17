@@ -1,0 +1,10 @@
+        Segment segment = getFirstSegment();
+        if (segment == null || TextUtils.isEmpty(segment.mUrl))
+            return null;
+
+        return segment.mUrl;
+    }
+
+    public PlayIndex getSinglePlayIndex() {
+        if (mVodList.size() == 1) {
+            return mVodList.get(0);

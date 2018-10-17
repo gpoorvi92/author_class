@@ -1,0 +1,10 @@
+    public static final String BROADCAST_FILE_DOWNLOAD_SUCCESS = "downloaded";
+    public static final String BROADCAST_FILE_DOWNLOAD_FAILED = "downloadFailed";
+    public static final String BROADCAST_FILE_DOWNLOAD_PROGRESS = "downloadProgress";
+
+    /**
+     * Add a new download task.
+     * call this method to execute a task immediately.
+     */
+    public int addTask(Account account, String repoName, String repoID, String path) {
+        TransferTask task = new DownloadTask(++notificationID, account,

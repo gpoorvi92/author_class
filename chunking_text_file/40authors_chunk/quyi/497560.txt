@@ -1,0 +1,10 @@
+      if (struct.isSetEnginePlots()) {
+        {
+          oprot.writeI32(struct.enginePlots.size());
+          for (String _iter9 : struct.enginePlots)
+          {
+            oprot.writeString(_iter9);
+          }
+        }
+      }
+    }

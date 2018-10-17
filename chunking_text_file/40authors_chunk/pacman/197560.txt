@@ -1,0 +1,10 @@
+			if (FileHelper.isWindow())
+				System.loadLibrary("libffmpeg");
+			else
+				System.loadLibrary("ffmpeg");
+			gJNILoaded = true;
+		} catch (UnsatisfiedLinkError e) {
+			
+			e.printStackTrace();
+		}
+	}

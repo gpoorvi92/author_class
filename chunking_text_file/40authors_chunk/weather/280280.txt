@@ -1,0 +1,10 @@
+    public StringRequest(int method, String url, Listener<String> listener,
+            ErrorListener errorListener) {
+        super(method, url, errorListener);
+        mListener = listener;
+    }
+
+    /**
+     * Creates a new GET request.
+     *
+     * @param url URL to fetch the string at

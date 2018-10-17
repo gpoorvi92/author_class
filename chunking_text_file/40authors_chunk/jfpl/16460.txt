@@ -1,0 +1,10 @@
+
+			}
+		}
+
+	}
+
+	@Override
+	protected void onListItemClick(String prxName, ListView l, View v,
+			int position, long id) {
+		final AbstractCommonData acd = (AbstractCommonData) v.getTag();

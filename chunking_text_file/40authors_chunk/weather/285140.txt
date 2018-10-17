@@ -1,0 +1,10 @@
+     * 通过key获取对应的缓存数据
+     * @param keyName
+     * @param type    返回数据种类
+     */
+    public <T> T getDataByKey(String accountId, String keyName, Type type) {
+        T t = null;
+        String path = getCacheFolder() + "/" + getIdString() + "/" + keyName;
+        String jsonString = FileUtil.readString(path);
+        if (jsonString != null) {
+            JsonUtil util = JsonUtil.getInstance();

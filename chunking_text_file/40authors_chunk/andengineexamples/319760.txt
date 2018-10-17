@@ -1,0 +1,10 @@
+		face1.registerEntityModifier(entityModifier);
+		face2.registerEntityModifier(entityModifier.deepCopy());
+
+		scene.attachChild(face1);
+		scene.attachChild(face2);
+
+		/* Create some not-modified sprites, that act as fixed references to the modified ones. */
+		final AnimatedSprite face1Reference = new AnimatedSprite(centerX - 100, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		final AnimatedSprite face2Reference = new AnimatedSprite(centerX + 100, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+

@@ -1,0 +1,10 @@
+
+		int count = getCount(maxString, minString);
+		System.out.println(count);
+	}
+
+	// 写功能实现：
+	// 形式参数:String maxString,String minString;
+	// 返回值类型:int
+	public static int getCount(String maxString, String minString) {
+		// 定义统计变量

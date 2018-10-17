@@ -1,0 +1,10 @@
+
+    private static class reportNodeManagerConfig_argsStandardSchemeFactory implements SchemeFactory {
+      public reportNodeManagerConfig_argsStandardScheme getScheme() {
+        return new reportNodeManagerConfig_argsStandardScheme();
+      }
+    }
+
+    private static class reportNodeManagerConfig_argsStandardScheme extends StandardScheme<reportNodeManagerConfig_args> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, reportNodeManagerConfig_args struct) throws org.apache.thrift.TException {

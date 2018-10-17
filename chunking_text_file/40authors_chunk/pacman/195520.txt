@@ -1,0 +1,6 @@
+		String actualFile = FileHelper.combinePath(destDir, "/src/test.file");
+		assertTrue(FileHelper.exists(actualDir));
+		assertTrue(FileHelper.exists(actualFile));
+		assertFalse(FileHelper.exists(srcDir));
+	}
+}

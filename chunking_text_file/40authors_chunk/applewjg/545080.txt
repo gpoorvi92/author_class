@@ -1,0 +1,10 @@
+        if (i == 0) {
+            for (int l = 0, r = last; l < r; ++l, --r) {
+                int tmp = num[l];
+                num[l] = num[r];
+                num[r] = tmp;
+            }
+            return;
+        }
+        for (int j = last; j >= i; --j) {
+            if (num[j] > num[i-1]) {

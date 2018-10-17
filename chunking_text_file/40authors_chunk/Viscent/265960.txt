@@ -1,0 +1,10 @@
+	public final AlarmType type;
+
+	public AlarmInfo(String id, AlarmType type) {
+		this.id = id;
+		this.type = type;
+
+	}
+
+	public String getId() {
+		return id;

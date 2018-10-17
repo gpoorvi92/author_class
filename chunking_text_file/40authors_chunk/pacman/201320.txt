@@ -1,0 +1,10 @@
+		
+		boolean result 	= false;
+		Message message 	= null;
+		try {
+			
+			if (milliseconds < 10) {
+				message = mConsumer.receive(10);
+			} else {
+				
+				message = mConsumer.receive(milliseconds);

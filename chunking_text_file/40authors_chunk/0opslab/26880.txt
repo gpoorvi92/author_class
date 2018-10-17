@@ -1,0 +1,10 @@
+     * @return 返回文件编码
+     */
+    public static String simpleEncoding(String fileName) {
+        int p = 0;
+        try (
+                BufferedInputStream bin = new BufferedInputStream(new FileInputStream(fileName));
+        ) {
+            p = (bin.read() << 8) + bin.read();
+        } catch (IOException e) {
+            e.printStackTrace();

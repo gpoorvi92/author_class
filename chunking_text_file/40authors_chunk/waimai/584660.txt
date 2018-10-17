@@ -1,0 +1,8 @@
+        if (user != null) {
+            user.setStatus(null);
+            user.setPassword(null);
+        }
+        map.put("user", user);
+        return map;
+    }
+}

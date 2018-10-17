@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.ListDataListener.contentsChanged(javax.swing.event.ListDataEvent)
+
+    public native void __contentsChanged( javax.swing.event.ListDataEvent e );
+
+    public void contentsChanged( javax.swing.event.ListDataEvent e ) {
+        __contentsChanged( e );
+    }

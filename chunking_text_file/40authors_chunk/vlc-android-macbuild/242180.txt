@@ -1,0 +1,10 @@
+        return moduleInfo;
+    }
+
+    public static ModuleInfo getAndroidModuleInfo() {
+        if (sAndroidModuleInfo == null) {
+            ModuleInfo module = new ModuleInfo();
+
+            module.mVideoDecoder = "android";
+            module.mVideoDecoderImpl = "HW";
+

@@ -1,0 +1,9 @@
+        TreeNode node = new TreeNode(slow.val);
+        if(pre!=null) {
+            pre.next = null;
+            node.left = sortedListToBST_3(head);
+        }
+        node.right = sortedListToBST_3(fast);
+        return node;
+    }
+}

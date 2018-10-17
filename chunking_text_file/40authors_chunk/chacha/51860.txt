@@ -1,0 +1,10 @@
+ */
+public class ModifyAccountRequest extends Request implements JsonConvert{
+	private static final String CMD="modify";
+	private AccountBody body;
+	
+	
+	public ModifyAccountRequest(AccountBody body) {
+		super.setOpt(CMD);
+		this.body = body;
+	}

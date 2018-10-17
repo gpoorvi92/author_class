@@ -1,0 +1,10 @@
+    public int totalNQueens(int n) {
+        return totalNQueens_3(n);
+    }
+    public int totalNQueens_1(int n) {
+        int[] board = new int[n];
+        Arrays.fill(board,-1);
+        int[] res = new int[1];
+        totalNQueensRe(n, 0, board, res);
+        return res[0];
+    }

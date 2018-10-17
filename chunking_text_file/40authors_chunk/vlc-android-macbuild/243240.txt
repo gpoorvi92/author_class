@@ -1,0 +1,10 @@
+        this(vodTag, uri.toString());
+    }
+
+    public PlayIndex getFirstPlayIndex() {
+        if (mVodList.size() >= 1) {
+            return mVodList.get(0);
+        }
+
+        return null;
+    }

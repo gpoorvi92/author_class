@@ -1,0 +1,10 @@
+ * OutputStreamWriter(OutputStream out, String charsetName):指定字符集 
+ * 
+ * flush()和close()的区别?
+ * A:flush 刷新流，流对象还可以继续使用
+ * B:close 关闭流，流对象不可以继续使用
+ */
+public class OutputStreamWriterDemo {
+	public static void main(String[] args) throws IOException {
+		// 创建对象
+		OutputStreamWriter osw = new OutputStreamWriter(new FileOutputStream(

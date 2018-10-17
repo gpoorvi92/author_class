@@ -1,0 +1,10 @@
+			}
+			// http://www.jtgzfw.com/jtgzfw/_pc/wx/tcc_list.do?xzqh=5oOg5rWO5Yy6
+			// http://www.jtgzfw.com/jtgzfw/_pc/wx/jgcs_list.do?type_id=JC02
+			// file:///android_asset/www/test.html
+			update("clear_app_nocheck_num", appId);
+			refreshRecently();
+			startActivity(intent);
+		}
+	}
+

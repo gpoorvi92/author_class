@@ -1,0 +1,4 @@
+	public JLabel yer = new JLabel("Year");
+	public JLabel pages = new JLabel("Pages");
+	
+}

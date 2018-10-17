@@ -1,0 +1,10 @@
+    public int     getCapDisplay() throws JposException;
+    public int     getCapLanguage() throws JposException;
+    public boolean getCapKeyboard() throws JposException;
+    public boolean getCapMACCalculation() throws JposException;
+    public int     getCapPowerReporting() throws JposException;
+    public boolean getCapTone() throws JposException;
+
+    // Properties
+    public String  getAccountNumber() throws JposException;
+    public void    setAccountNumber(String accountNumber) throws JposException;

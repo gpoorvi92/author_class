@@ -1,0 +1,7 @@
+		} catch (InterruptedException e) {
+			Thread.currentThread().interrupt();
+		} catch (PipeException e) {
+			pipeCtx.handleError(e);
+		}
+	}
+}

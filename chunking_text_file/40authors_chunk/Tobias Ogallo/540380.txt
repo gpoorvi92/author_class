@@ -1,0 +1,10 @@
+			}
+		});
+
+		return selectedRow;
+	}
+
+	class AbstractTable extends javax.swing.table.AbstractTableModel {
+		private String[] columnNames = { "Pass_No","Passenger_Nane","Seat Number", "Bus_RegNo", "Date_of_Travel"};
+		private Object[][] data = new Object[50][50];
+

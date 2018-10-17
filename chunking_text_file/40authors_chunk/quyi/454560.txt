@@ -1,0 +1,10 @@
+      }
+    }
+
+    public operateEngine_args deepCopy() {
+      return new operateEngine_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.engine = null;

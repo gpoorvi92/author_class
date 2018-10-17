@@ -1,0 +1,10 @@
+		// 在目的地创建文件夹
+		// 封装和数据源一样的文件夹，并判断是否存在，如果不存在，就创建
+		File destFolder = new File(srcFolder.getName());
+		if (!destFolder.exists()) {
+			destFolder.mkdir();
+		}
+
+		// 获取数据源文件夹下的所有文件的File数组
+		File[] fileArray = srcFolder.listFiles();
+

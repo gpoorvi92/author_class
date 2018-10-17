@@ -1,0 +1,10 @@
+    }
+
+    public int readInt()
+        throws IOException, EOFException
+    {
+        return EndianUtils.readSwappedInteger(in);
+    }
+
+    public String readLine()
+        throws IOException, EOFException

@@ -1,0 +1,10 @@
+                            break;
+                        case 2:
+                            // thirdparty file chooser
+                            Intent target = Utils.createGetContentIntent();
+                            intent = Intent.createChooser(target, getString(R.string.choose_file));
+                            getActivity().startActivityForResult(intent, BrowserActivity.PICK_FILE_REQUEST);
+                            break;
+                        default:
+                            return;
+                        }

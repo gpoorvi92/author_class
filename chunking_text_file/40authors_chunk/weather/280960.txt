@@ -1,0 +1,10 @@
+ * User: duyuan
+ * Date: 13-8-4
+ * Time: 下午4:25
+ * To change this template use File | Settings | File Templates.
+ */
+public class BaseViewPager extends ViewPager {
+    private float subX;
+    private float subY;
+    private float mTouchX;
+    private float mTouchY;

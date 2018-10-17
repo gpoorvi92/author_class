@@ -1,0 +1,10 @@
+    @Override
+    public String getSubtitle() {
+        return description;
+    }
+
+    @Override
+    public int getIcon() {
+        if (encrypted)
+            return R.drawable.repo_encrypted;
+        if (!hasWritePermission())

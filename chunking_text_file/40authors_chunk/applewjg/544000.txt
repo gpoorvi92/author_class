@@ -1,0 +1,10 @@
+                else if(tokens[i].compareTo("*") == 0)
+                    res = op1 * op2;
+                else if(tokens[i].compareTo("/") == 0)
+                    res = op1 / op2;
+                stk.push(res);
+            }
+        }
+        return stk.pop();
+    }
+}

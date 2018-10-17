@@ -1,0 +1,8 @@
+            __paint( arg0 );
+            entered_paint_0 = false;
+        }
+        else
+            super.paint( arg0 );
+    }
+
+}

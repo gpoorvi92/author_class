@@ -1,0 +1,10 @@
+    public void select()
+    {
+        Player log = StandardDao.getInstance().select(Player.class, 4);
+        //System.out.println(log.getItem());
+    }
+    @Test
+    public void update()
+    {
+        Player player = StandardDao.getInstance().select(Player.class, 4);
+        System.out.println(player.getItem().size());

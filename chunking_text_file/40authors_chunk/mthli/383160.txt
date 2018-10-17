@@ -1,0 +1,10 @@
+   private String action;
+
+   /**
+    * Constructs a word check permission.
+    * @param target a comma separated word list
+    * @param anAction "insert" or "avoid"
+    */
+   public WordCheckPermission(String target, String anAction)
+   {
+      super(target);

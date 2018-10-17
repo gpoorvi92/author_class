@@ -1,0 +1,10 @@
+		return scene;
+	}
+
+	@Override
+	public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+		if(this.mFaceToRemove == null) {
+			return false;
+		}
+
+		final EngineLock engineLock = this.mEngine.getEngineLock();

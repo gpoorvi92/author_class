@@ -1,0 +1,10 @@
+    }
+    /** returns the extension commonly used by the file format
+ */
+    public String getCommonExtension()
+    {
+        return "ply";
+    }
+
+    public boolean savesFaces()
+    {

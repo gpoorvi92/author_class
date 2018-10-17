@@ -1,0 +1,10 @@
+
+    case SENSITIVES:
+      if (value == null) {
+        unsetSensitives();
+      } else {
+        setSensitives((List<String>)value);
+      }
+      break;
+
+    case FEATURES_CHARACTERS:

@@ -1,0 +1,10 @@
+    }
+
+    /// public void com.apple.eawt.event.GestureAdapter.swipedRight(com.apple.eawt.event.SwipeEvent)
+
+    public native void __swipedRight( com.apple.eawt.event.SwipeEvent arg0 );
+
+    boolean entered_swipedRight_6;
+
+    public void swipedRight( com.apple.eawt.event.SwipeEvent arg0 ) {
+        if ( !entered_swipedRight_6 ) {

@@ -1,0 +1,10 @@
+      if (nodeHeat == null) {
+        throw new org.apache.thrift.protocol.TProtocolException("Required field 'nodeHeat' was not present! Struct: " + toString());
+      }
+      // alas, we cannot check 'timestamp' because it's a primitive and you chose the non-beans generator.
+      // check for sub-struct validity
+      if (nodeHeat != null) {
+        nodeHeat.validate();
+      }
+    }
+

@@ -1,0 +1,10 @@
+      slider.setPaintTrack(false);
+      addSlider(slider, "No track");
+
+      // add an inverted slider
+
+      slider = new JSlider();
+      slider.setPaintTicks(true);
+      slider.setMajorTickSpacing(20);
+      slider.setMinorTickSpacing(5);
+      slider.setInverted(true);

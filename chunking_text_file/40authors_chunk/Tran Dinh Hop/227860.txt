@@ -1,0 +1,10 @@
+				if(dict.hasEntry(cPattern)){
+					// current pattern is in dictionary
+					lPattern = cPattern;
+					currentByte = in.read();
+				}else{
+					// output previous pattern
+					outCode = dict.fetchCode(lPattern);
+					out.write(getHiByte(outCode));
+					out.write(getLoByte(outCode));
+					

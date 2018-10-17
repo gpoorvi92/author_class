@@ -1,0 +1,10 @@
+    @Column(name = "db_passwd")
+    private String dbPasswd;
+    public void setZoneId(Integer zoneId)
+    {
+        this.zoneId = zoneId;
+    }
+    public void setServerGroupId(Integer serverGroupId)
+    {
+        this.serverGroupId = serverGroupId;
+    }

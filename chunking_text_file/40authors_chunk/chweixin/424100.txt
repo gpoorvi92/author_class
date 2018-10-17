@@ -1,0 +1,10 @@
+	 * 用户未关注时，进行关注后的事件推送消息解析成关注对象。
+	 * @param data
+	 * 	事件消息数据。
+	 * @return
+	 * 	事件消息对象。
+	 * */
+	public static SubscribeEventMessage parseSubscribeEventMessage(Map<String, String> data){
+		SubscribeEventMessage subscribeEventMessage = new SubscribeEventMessage();
+		//
+		parseEventMessage(subscribeEventMessage, data);

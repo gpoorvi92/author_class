@@ -1,0 +1,10 @@
+            return Charset.forName("UCS-4");
+        return UnknownCharset.getInstance();
+    }
+
+    /**
+     * @see ICodepageDetector#detectCodepage(URL)
+     */
+    public Charset detectCodepage(final URL url) throws IOException {
+        Charset result;
+        BufferedInputStream in = new BufferedInputStream(url.openStream());

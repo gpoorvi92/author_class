@@ -1,0 +1,10 @@
+
+      public void write(org.apache.thrift.protocol.TProtocol oprot, modifyEngineConfig_args struct) throws org.apache.thrift.TException {
+        struct.validate();
+
+        oprot.writeStructBegin(STRUCT_DESC);
+        if (struct.propertyName != null) {
+          oprot.writeFieldBegin(PROPERTY_NAME_FIELD_DESC);
+          oprot.writeString(struct.propertyName);
+          oprot.writeFieldEnd();
+        }

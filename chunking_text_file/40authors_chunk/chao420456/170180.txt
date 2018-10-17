@@ -1,0 +1,10 @@
+	public Student(String name,int age) {	//"王宝强",18
+		super(name,age); //"王宝强",18
+	}
+}
+
+//老师类
+class Teacher extends Person {
+}
+
+class ExtendsDemo5 {

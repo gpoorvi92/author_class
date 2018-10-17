@@ -1,0 +1,10 @@
+	// 高效字节流一次读写一个字节
+	public static void method3() throws IOException {
+		BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
+				"d:\\哥有老婆.mp4"));
+		BufferedOutputStream bos = new BufferedOutputStream(
+				new FileOutputStream("copy3.mp4"));
+
+		int by = 0;
+		while ((by = bis.read()) != -1) {
+			bos.write(by);

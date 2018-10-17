@@ -1,0 +1,10 @@
+	public TokenRequest(TokenBody body) {
+		super.setOpt(CMDTOKEN);
+		this.body = body;
+	}
+
+
+	public TokenBody getBody() {
+		return body;
+	}
+

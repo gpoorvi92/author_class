@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JTable(java.util.Vector,java.util.Vector)
+
+    JTableProxy( java.util.Vector arg0, java.util.Vector arg1 , long swiftObject ) {
+        super( arg0, arg1 );
+        this.swiftObject = swiftObject;
+    }
+

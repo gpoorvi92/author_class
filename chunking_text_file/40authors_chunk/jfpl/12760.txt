@@ -1,0 +1,10 @@
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.util.StringUtil;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
+@SuppressLint("ResourceAsColor")
+public class MainActivity extends AutoActivity implements OnPageChangeListener {
+
+	@InjectionView(id = R.id.main_pager)
+	private ViewPager viewPager;
+	@InjectionView(id = R.id.page_tab_cursor)

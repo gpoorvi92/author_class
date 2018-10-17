@@ -1,0 +1,10 @@
+import java.util.List;
+import java.util.TimeZone;
+
+/**
+ * Created by zhoukai on 5/4/14.
+ */
+public class LocationTimeGroup {
+    private ImageEntity mAvatarEntity;
+    private Date mBeginDate;
+    private ImageLocation mLocation;

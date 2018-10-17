@@ -1,0 +1,10 @@
+        public Entry(K key, V value, ReferenceQueue<V> queue) {
+            super(value, queue);
+            mKey = key;
+        }
+    }
+
+    @SuppressWarnings("unchecked")
+    private void cleanUpWeakMap() {
+        Entry<K, V> entry = (Entry<K, V>) mQueue.poll();
+        while (entry != null) {

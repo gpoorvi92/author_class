@@ -1,0 +1,10 @@
+      colorDialog.setVisible(false);
+      super.cancelCellEditing();
+   }
+
+   public boolean stopCellEditing()
+   {
+      // editing is complete--hide dialog
+      colorDialog.setVisible(false);
+      super.stopCellEditing();
+

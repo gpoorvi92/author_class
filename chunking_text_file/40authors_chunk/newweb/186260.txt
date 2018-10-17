@@ -1,0 +1,6 @@
+	@Override
+	public boolean remove(LhjPrice lhjp) {
+		return lhjPriceDao.delete(lhjp);
+	}
+	
+}

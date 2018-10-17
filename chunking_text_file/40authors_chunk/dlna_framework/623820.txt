@@ -1,0 +1,10 @@
+		setFaultResponse(errCode, UPnPStatus.code2String(errCode));
+	}
+
+	////////////////////////////////////////////////
+	//	createFaultResponseNode
+	////////////////////////////////////////////////
+
+	private Node createFaultResponseNode(int errCode, String errDescr)
+	{
+		// <s:Fault>

@@ -1,0 +1,10 @@
+     */
+    public static void convert(String fileName, String fromCharsetName, String toCharsetName) {
+        convert(new File(fileName), fromCharsetName, toCharsetName, null);
+    }
+
+    /**
+     * 把指定文件或目录转换成指定的编码
+     *
+     * @param file            要转换的文件或目录
+     * @param fromCharsetName 源文件的编码

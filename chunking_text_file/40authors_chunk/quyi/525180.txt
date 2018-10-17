@@ -1,0 +1,10 @@
+		jobResc2.setJobPhase(JobPhase.PROCESS);
+		jobResc2.setClusterType(ClusterType.DEDICATED);
+		jobResc2.setNodeType(NodeType.INTERNET_ACCESSIBLE);
+		jobRescList.add(jobResc2);
+		TaskClientService.Client taskClient = null;
+		long jobId = 0L;
+		try {
+			taskClient = TaskClientRpcUtils.getReceiver(taskmanager_address, taskmanager_submit_port, 5000, 5);
+		} catch (TTransportException e) {
+			e.printStackTrace();

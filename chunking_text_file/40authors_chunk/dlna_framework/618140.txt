@@ -1,0 +1,7 @@
+			return;
+		Node rootElem = getRootNode();
+		if (rootElem == null)
+			return;
+		Debug.message(rootElem.toString());
+	}
+}

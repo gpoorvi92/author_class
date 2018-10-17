@@ -1,0 +1,10 @@
+            path.add(S[i]);
+            subsetsRe(S, i + 1, path, res);
+            path.remove(path.size() - 1);
+        }
+    }
+    public List<List<Integer>> subsetsWithDup_2(int[] S) {
+        Arrays.sort(S);
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        res.add(new ArrayList<Integer>());
+        int presz = 0;

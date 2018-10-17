@@ -1,0 +1,10 @@
+*	05/08/03
+*		- first revision.
+*	05/28/03
+*		- Added post() to send a SSDPSearchRequest.
+*
+******************************************************************/
+
+package org.cybergarage.upnp.ssdp;
+
+import java.net.InetAddress;

@@ -1,0 +1,10 @@
+											
+												
+	private JTextArea jtaIntro=new JTextArea("\t\t\tWAK & CO SDN BHD,\n"+ 
+		                                     "\t\t2000 Restaurent. HALAL MALAYSIA. All right reserved.\n"+
+		                                     "\t\tThe restaurant has some signature dishes such as the\n"+
+		                                     "\t\tNasi Lemak Jawa, Mee Goreng Utara,the first in City\n"+
+		                                     "\t\tSquare Centre opened in June 2005 and the second in \n"+
+		                                     "\t\tTaman Tun Dr. Ismail (a residential suburb) in Nov 2006.\n"+
+											 "\t\tHowever, vegetarians can also find refuge here.\n"+
+											 "\t\tAll of our meats are halal slaughtered and absolutely\n"+

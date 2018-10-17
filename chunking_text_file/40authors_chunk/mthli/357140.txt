@@ -1,0 +1,10 @@
+   }
+
+   public static long checksumRandomAccessFile(Path filename) throws IOException
+   {
+      try (RandomAccessFile file = new RandomAccessFile(filename.toFile(), "r"))
+      {
+         long length = file.length();
+         CRC32 crc = new CRC32();
+   
+         for (long p = 0; p < length; p++)

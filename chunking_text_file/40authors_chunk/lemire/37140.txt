@@ -1,0 +1,10 @@
+
+    /**
+     * Replaces the word at the given position in the buffer with
+     * the specified word.
+     * @param position
+     * @param word
+     */
+    void setWord(int position, long word);
+
+    /**

@@ -1,0 +1,10 @@
+	}
+
+	private Component createInput() {
+		JPanel jp = new JPanel();
+		jp.setBorder(BorderFactory.createTitledBorder("发送消息"));
+		jp.setLayout(new BorderLayout());
+		jtf_inputMess = new JTextField();
+		jtf_inputMess.addKeyListener(this);
+		jbt_trans = new JButton("发送");
+		jbt_trans.addActionListener(this);

@@ -1,0 +1,10 @@
+            }
+         };
+
+      localeCombo.addActionListener(listener);
+      dateStyleCombo.addActionListener(listener);
+      timeStyleCombo.addActionListener(listener);
+
+      dateParseButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)

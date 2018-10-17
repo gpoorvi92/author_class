@@ -1,0 +1,10 @@
+		ftp.connect(ftpServer);
+
+		System.out.print(ftp.getReplyString());
+
+		reply = ftp.getReplyCode();
+
+		if (!FTPReply.isPositiveCompletion(reply)) {
+			ftp.disconnect();
+			throw new RuntimeException("FTP server refused connection.");
+		}

@@ -1,0 +1,8 @@
+     * @see java.nio.charset.Charset#newEncoder()
+     */
+    public CharsetEncoder newEncoder() {
+        throw new UnsupportedOperationException(
+                "This is no real Charset but a flag you should test for!");
+    }
+
+}

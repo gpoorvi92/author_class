@@ -1,0 +1,10 @@
+              new org.apache.thrift.meta_data.EnumMetaData(org.apache.thrift.protocol.TType.ENUM, com.nercis.isscp.idl.CheckResultStatus.class))));
+      tmpMap.put(_Fields.USED_PERMISSIONS, new org.apache.thrift.meta_data.FieldMetaData("usedPermissions", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+              new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.MAP              , "permissionResults"))));
+      tmpMap.put(_Fields.STC_RD, new org.apache.thrift.meta_data.FieldMetaData("stcRD", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, com.nercis.isscp.idl.StaticCheckResultData.class)));
+      tmpMap.put(_Fields.DYC_RD, new org.apache.thrift.meta_data.FieldMetaData("dycRD", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, com.nercis.isscp.idl.DynamicCheckResultData.class)));
+      tmpMap.put(_Fields.VIR_RD, new org.apache.thrift.meta_data.FieldMetaData("virRD", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+          new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, com.nercis.isscp.idl.virus.VirusDetectionResultData.class)));

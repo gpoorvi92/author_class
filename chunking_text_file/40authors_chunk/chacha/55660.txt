@@ -1,0 +1,10 @@
+                return digestString(password, SHA_256);  
+            } else  
+                return null;  
+        } catch (NoSuchAlgorithmException nsae) {  
+            throw new RuntimeException("Security error: " + nsae);  
+        }  
+    }  
+    
+    /** 
+     * 判断密码是不是相等，默认的加密算法是SHA-256 

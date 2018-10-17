@@ -1,0 +1,10 @@
+	private JButton print,cancel;
+	private JPanel panel;	
+	public Scheduling_report()
+	{ 
+		
+		super("Buses Report");
+		
+		content=getContentPane();
+		content.setBackground(skyblue);
+		listsTabs=new JTabbedPane();

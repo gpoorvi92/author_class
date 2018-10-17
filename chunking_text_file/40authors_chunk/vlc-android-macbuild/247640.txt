@@ -1,0 +1,10 @@
+    }
+
+    final public boolean isType_mp4() {
+        return isType(TYPE_TAG__MP4);
+    }
+
+    final public boolean isSWOnly() {
+        return isType(TYPE_TAG__HLS);
+    }
+

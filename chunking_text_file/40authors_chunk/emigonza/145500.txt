@@ -1,0 +1,10 @@
+    public boolean getCapISO() throws JposException;
+    public boolean getCapJISOne() throws JposException;
+    public boolean getCapJISTwo() throws JposException;
+
+    // Properties
+    public String  getAccountNumber() throws JposException;
+    public boolean getAutoDisable() throws JposException;
+    public void    setAutoDisable(boolean autoDisable) throws JposException;
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;

@@ -1,0 +1,10 @@
+        break;
+
+      case DYC_RD:
+        if (value == null) {
+          unsetDycRD();
+        } else {
+          setDycRD((com.nercis.isscp.idl.DynamicCheckResultData)value);
+        }
+        break;
+

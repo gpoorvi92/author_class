@@ -1,0 +1,5 @@
+		if (!StringUtils.isEmpty(file))
+			this.allFiles.add(file);
+	}
+	
+}

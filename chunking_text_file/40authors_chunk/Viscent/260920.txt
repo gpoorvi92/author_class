@@ -1,0 +1,10 @@
+ *          子任务处理结果类型
+ */
+public abstract class WorkerThreadSlave<T, V> extends
+    AbstractTerminatableThread implements SlaveSpec<T, V> {
+	private final BlockingQueue<Runnable> taskQueue;
+
+	public WorkerThreadSlave(BlockingQueue<Runnable> taskQueue) {
+		this.taskQueue = taskQueue;
+	}
+

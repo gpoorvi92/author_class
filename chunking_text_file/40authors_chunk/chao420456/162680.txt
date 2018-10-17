@@ -1,0 +1,10 @@
+		a.setAge(6);
+		System.out.println(a.getName()+"---"+a.getAge());
+		a.sleep();
+		a.eat();
+		//a.jump();
+
+		//∂‡Ã¨
+		Sport s = new JumpCat();
+		s.jump();
+		//s.eat();

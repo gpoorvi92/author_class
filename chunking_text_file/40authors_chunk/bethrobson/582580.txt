@@ -1,0 +1,10 @@
+           QuizCard card = new QuizCard(question.getText(), answer.getText());
+           cardList.add(card);
+       
+           JFileChooser fileSave = new JFileChooser();
+           fileSave.showSaveDialog(frame);
+           saveFile(fileSave.getSelectedFile());
+        }
+     }
+
+    public class NewMenuListener implements ActionListener {

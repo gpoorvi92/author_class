@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.ListDataListener ///
+
+package org.genie.javax_swing;
+
+public class ListDataListenerProxy implements javax.swing.event.ListDataListener {
+
+    long swiftObject;
+
+    ListDataListenerProxy( long swiftObject ) {

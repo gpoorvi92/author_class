@@ -1,0 +1,10 @@
+	private static Map<String, ModuleSystem> mapSystemCache = Collections.synchronizedMap(new HashMap<String, ModuleSystem>());
+	private String menuFilePath;
+	
+	public void setMenuFile(String menuFile) {
+		if(menuFile == null || menuFile.trim().isEmpty()) return;
+		this.menuFilePath = menuFile;
+	}
+	/**
+	 * 将菜单文件解析为对象。
+	 * @param menuFilePath

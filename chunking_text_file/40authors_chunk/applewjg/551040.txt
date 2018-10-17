@@ -1,0 +1,10 @@
+        int[] l2r = new int[n];
+        int[] r2l = new int[n];
+        l2r[0] = 0; r2l[n-1] = 0;
+        int minVal = prices[0], maxVal = prices[n-1];
+        for (int i = 1; i < n; ++i) {
+            l2r[i] = Math.max(l2r[i-1], prices[i] - minVal);
+            minVal = Math.min(minVal, prices[i]);
+        }
+        for (int i = n - 2; i >= 0; --i) {
+            r2l[i] = Math.max(r2l[i+1], maxVal - prices[i]);

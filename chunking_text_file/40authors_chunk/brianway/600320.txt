@@ -1,0 +1,10 @@
+输出：
+main thread begin priority =5
+main thread end priority =5
+MyThread17_1 run priority=5
+MyThread17_2 run priority=5
+
+--------------------
+
+Thread.currentThread().setPriority(6);
+输出：

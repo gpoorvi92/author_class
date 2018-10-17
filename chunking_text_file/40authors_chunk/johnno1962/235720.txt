@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.FocusAdapter.focusLost(java.awt.event.FocusEvent)
+
+    public native void __focusLost( java.awt.event.FocusEvent e );
+
+    boolean entered_focusLost_1;
+
+    public void focusLost( java.awt.event.FocusEvent e ) {
+        if ( !entered_focusLost_1 ) {

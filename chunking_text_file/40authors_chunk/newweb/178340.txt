@@ -1,0 +1,10 @@
+		query2.setString(1, startDate);
+		query2.setString(2, endDate);
+		query2.setString(3, customer);
+		int size = query2.list().size();
+		query2.setFirstResult(start);
+		query2.setMaxResults(limit);
+		list.add(0,size);
+		List allList = query2.list();
+		allList.addAll(query1.list());
+		list.add(1,allList);

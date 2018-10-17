@@ -1,0 +1,10 @@
+package com.lz.game.rpc.core;
+import org.jboss.netty.logging.InternalLoggerFactory;
+import org.jboss.netty.logging.Slf4JLoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+/**
+ * User: Teaey
+ * Date: 13-6-24
+ */
+public abstract class BaseRpcServer

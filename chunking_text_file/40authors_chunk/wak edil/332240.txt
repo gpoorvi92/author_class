@@ -1,0 +1,10 @@
+    	//p2.add(new JLabel (""));
+    	p200.add(new JLabel ("Total : "+total));
+    	//p2.add(new JLabel (""));
+		
+		JPanel p2000 = new JPanel();
+		p2000.setLayout(new GridLayout(3,1,10,10));
+		p2000.add(p2);
+		p2000.add(p20);
+		p2000.add(p200);
+    	myCont.add(p2000,BorderLayout.CENTER);  

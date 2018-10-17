@@ -1,0 +1,10 @@
+ * This frame has an image label and buttons for copying and pasting an image.
+ */
+class ImageTransferFrame extends JFrame
+{
+   private JLabel label;
+   private Image image;
+   private static final int IMAGE_WIDTH = 300;
+   private static final int IMAGE_HEIGHT = 300;
+
+   public ImageTransferFrame()

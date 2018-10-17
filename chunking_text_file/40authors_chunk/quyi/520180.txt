@@ -1,0 +1,10 @@
+      this.propertyName = null;
+      this.propertyValue = null;
+    }
+
+    public String getPropertyName() {
+      return this.propertyName;
+    }
+
+    public modifyTaskManagerConfig_args setPropertyName(String propertyName) {
+      this.propertyName = propertyName;

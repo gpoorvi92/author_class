@@ -1,0 +1,10 @@
+
+      JButton loadButton = new JButton("Load");
+      loadButton.addActionListener(listener);
+      url.addActionListener(listener);
+
+      // set up back button and button action
+
+      JButton backButton = new JButton("Back");
+      backButton.addActionListener(new ActionListener()
+         {

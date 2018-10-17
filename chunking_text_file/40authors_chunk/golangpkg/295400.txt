@@ -1,0 +1,4 @@
+	public UploadProcessingOperation getMasterProcessingOperation() {
+		return masterProcessingOperation;
+	}
+}

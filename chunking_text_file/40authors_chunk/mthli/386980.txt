@@ -1,0 +1,10 @@
+                  validate();
+               }
+               catch (Exception e)
+               {
+                  JOptionPane.showMessageDialog(DOMTreeFrame.this, e);
+               }
+            }
+         }.execute();
+   }
+

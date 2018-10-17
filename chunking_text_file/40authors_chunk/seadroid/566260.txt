@@ -1,0 +1,10 @@
+            mCheckedActivities.put(activity, System.currentTimeMillis());
+            Intent i = new Intent(activity, UnlockGesturePasswordActivity.class);
+            activity.startActivity(i);
+        }
+
+    }
+
+    @Override
+    public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
+

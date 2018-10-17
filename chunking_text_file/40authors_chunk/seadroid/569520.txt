@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void onFileUploadCancelled(int taskID) {
+        Intent localIntent = new Intent(BROADCAST_ACTION).putExtra("type",
+                BROADCAST_FILE_UPLOAD_CANCELLED).putExtra("taskID", taskID);
+        LocalBroadcastManager.getInstance(SeadroidApplication.getAppContext()).sendBroadcast(localIntent);
+    }
+
+    @Override

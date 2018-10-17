@@ -1,0 +1,10 @@
+/******************************************************************
+*
+*	CyberHTTP for Java
+*
+*	Copyright (C) Satoshi Konno 2002-2003
+*
+*	File: HTTPServer.java
+*
+*	Revision;
+*

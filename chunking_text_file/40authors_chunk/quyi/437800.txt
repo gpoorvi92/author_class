@@ -1,0 +1,10 @@
+  @Override
+  public void clear() {
+    this.hardware = null;
+    this.software = null;
+  }
+
+  public Hardware getHardware() {
+    return this.hardware;
+  }
+

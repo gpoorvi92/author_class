@@ -1,0 +1,10 @@
+    }
+
+    public static class searchEng<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, searchEng_args, Engine> {
+      public searchEng() {
+        super("searchEng");
+      }
+
+      public searchEng_args getEmptyArgsInstance() {
+        return new searchEng_args();
+      }

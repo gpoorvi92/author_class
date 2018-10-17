@@ -1,0 +1,10 @@
+		BitSet xorbitmap = Bitmap1.clone();
+		xorbitmap.xor(Bitmap2);
+		System.out.println("bitmap 1 XOR bitmap 2:" + xorbitmap);
+		// serialization
+		ByteArrayOutputStream bos = new ByteArrayOutputStream();
+		// Note: you could use a file output steam instead of ByteArrayOutputStream
+		Bitmap1.serialize(new DataOutputStream(bos));
+		BitSet Bitmap1new = new BitSet();
+		byte[] bout = bos.toByteArray();
+		Bitmap1new.deserialize(new DataInputStream(new ByteArrayInputStream(bout)));

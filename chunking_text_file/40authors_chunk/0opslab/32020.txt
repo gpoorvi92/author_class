@@ -1,0 +1,10 @@
+ *
+ */
+public class TableRendererHTML extends StreamTableRenderer{
+ 
+  public TableRendererHTML(Writer out){
+    super(out);
+  }
+  /* (non-Javadoc)
+   * @see cpdetector.util.collections.ui.StreamTableRenderer#CellStartTag(boolean)
+   */

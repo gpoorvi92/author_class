@@ -1,0 +1,10 @@
+			System.out.println("뉴센");
+		}else if(month == 4) {
+			System.out.println("뉴센");
+		}else if(month == 5) {
+			System.out.println("뉴센");
+		}else if(month == 6) {
+			System.out.println("謳센");
+		}else if(month == 7) {
+			System.out.println("謳센");
+		}else if(month == 8) {

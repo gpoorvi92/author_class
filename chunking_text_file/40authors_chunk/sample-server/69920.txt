@@ -1,0 +1,10 @@
+                    Logic2Login1.CP_Login.Builder realReq = Logic2Login1.CP_Login.newBuilder();
+                    realReq.setTimestamp(System.currentTimeMillis());
+                    ret.setContent(realReq.build().toByteString());
+                    client.send(ret.build());
+                    break;
+                case "close":
+                    if (null != c)
+                    {
+                        c.close();
+                        System.out.println("closed");

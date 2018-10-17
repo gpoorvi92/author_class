@@ -1,0 +1,10 @@
+                struct.setNodeHeatIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 2: // TIMESTAMP
+              if (schemeField.type == org.apache.thrift.protocol.TType.I64) {
+                struct.timestamp = iprot.readI64();
+                struct.setTimestampIsSet(true);
+              } else { 

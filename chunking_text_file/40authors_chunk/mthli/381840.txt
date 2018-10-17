@@ -1,0 +1,10 @@
+import javax.xml.xpath.*;
+import org.w3c.dom.*;
+import org.xml.sax.*;
+
+/**
+ * This program evaluates XPath expressions.
+ * @version 1.01 2007-06-25
+ * @author Cay Horstmann
+ */
+public class XPathTester

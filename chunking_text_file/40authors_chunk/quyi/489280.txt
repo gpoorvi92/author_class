@@ -1,0 +1,10 @@
+          setPlotsStatus((Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>)value);
+        }
+        break;
+
+      case FUNCTION_STATUS:
+        if (value == null) {
+          unsetFunctionStatus();
+        } else {
+          setFunctionStatus((Map<String,com.nercis.isscp.idl.CheckResultStatus>)value);
+        }

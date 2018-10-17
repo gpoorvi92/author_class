@@ -1,0 +1,10 @@
+        Integer zoneId = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, session).getTargetZone().getZoneId();
+        //        int cdCount = Integer.valueOf(cdCountStr);
+        //        int legealCount = Integer.valueOf(legealCountStr);
+        //        int giftId = Integer.valueOf(giftIdStr);
+        //        Date dateLimit = StringToDate(dateLimitStr);
+        //        int zoneId = Integer.valueOf(zoneIdStr);
+        GameServerRpc.AddCdKeyReq.Builder rpcReq = GameServerRpc.AddCdKeyReq.newBuilder();
+        List<CDKeyEntity> cdkeys = new ArrayList<>();
+        while (cdCount > 0)
+        {

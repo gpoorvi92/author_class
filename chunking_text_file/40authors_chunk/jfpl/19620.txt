@@ -1,0 +1,10 @@
+	protected boolean dispatchTap() {
+		if (data == null) {
+			return true;
+		}
+		locationPicker.showBubble(data, 0);
+		return super.dispatchTap();
+	}
+
+	public AbstractCommonData getData() {
+		return data;

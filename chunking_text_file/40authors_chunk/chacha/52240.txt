@@ -1,0 +1,10 @@
+	public void queryTest(){
+		System.out.println("queryTest");
+		DBCollection coll=db.getCollection("test");
+		DBCursor cursor=coll.find();
+		try{
+			while(cursor.hasNext()){
+				System.out.println(cursor.next());
+			}
+		}finally{
+			System.out.println(cursor.count());

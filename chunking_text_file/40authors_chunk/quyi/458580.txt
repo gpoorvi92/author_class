@@ -1,0 +1,10 @@
+
+    public searchMission_args(
+      String missionId)
+    {
+      this();
+      this.missionId = missionId;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.

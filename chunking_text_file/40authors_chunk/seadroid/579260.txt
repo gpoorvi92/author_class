@@ -1,0 +1,10 @@
+        execute(new SimpleAsyncTask(runnable));
+    }
+
+    private static class SimpleAsyncTask extends AsyncTask<Void, Void, Void> {
+        Runnable runnable;
+        public SimpleAsyncTask(Runnable runnable) {
+            this.runnable = runnable;
+        }
+
+        public Void doInBackground(Void... args) {

@@ -1,0 +1,10 @@
+					{
+					JOptionPane.showMessageDialog(null,"sqlex");
+					//sqlex.printStackTrace();	
+					}
+				}
+				catch (SQLException sqlex)
+					{
+						JOptionPane.showMessageDialog(null,"sqlex");
+					//sqlex.printStackTrace();
+					}

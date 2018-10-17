@@ -1,0 +1,10 @@
+    this.operateTime = null;
+  }
+
+  public String getPidName() {
+    return this.pidName;
+  }
+
+  public NetworkPacket setPidName(String pidName) {
+    this.pidName = pidName;
+    return this;

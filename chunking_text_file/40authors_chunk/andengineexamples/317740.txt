@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onCreateResources() {
+		try {
+			this.mTexture = new BitmapTexture(this.getTextureManager(), new IInputStreamOpener() {
+				@Override
+				public InputStream open() throws IOException {
+					return getAssets().open("gfx/face_box.png");
+				}

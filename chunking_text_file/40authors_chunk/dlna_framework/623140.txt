@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public Node parse(URL locationURL) throws ParserException
+	{
+		String host = locationURL.getHost();
+		int port = locationURL.getPort();
+		// Thanks for Hao Hu 
+		if (port == -1)
+			port = 80;
+		String uri = locationURL.getPath();

@@ -1,0 +1,10 @@
+        startProfile(request);
+        HandlerMethod handlerMethod = (HandlerMethod) handler;
+        ACL acl = handlerMethod.getMethodAnnotation(ACL.class);
+        if (null == acl)
+        {
+            return true;
+        }
+        boolean toBeHandle = true;
+        Limit limitLack = null;
+        if (null != ctx)

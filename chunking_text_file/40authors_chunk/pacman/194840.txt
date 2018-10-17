@@ -1,0 +1,10 @@
+ * @date: 2015年1月15日 上午12:07:12
+ */
+public class StepExecuteException extends Exception {
+
+	private static final long serialVersionUID = -1655148019297631813L;
+
+	public StepExecuteException() { super(); }
+	
+	public StepExecuteException(String msg) { super(msg); }
+	

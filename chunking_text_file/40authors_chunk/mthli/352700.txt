@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Sets the title position of the chart.
+    * @param i the new title position (ChartBean.LEFT, ChartBean.CENTER, or ChartBean.RIGHT)
+    */
+   public void setTitlePosition(ChartBean.Position pos)
+   {
+      if (bean == null) return;
+      ChartBean.Position oldValue = bean.getTitlePosition();

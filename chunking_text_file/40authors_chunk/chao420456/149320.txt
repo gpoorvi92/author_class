@@ -1,0 +1,10 @@
+			System.out.print("*");
+		}
+		System.out.println();
+
+		//µÚ¶þÐÐ
+		for(int x=0; x<5; x++) {
+			System.out.print("*");
+		}
+		System.out.println();
+

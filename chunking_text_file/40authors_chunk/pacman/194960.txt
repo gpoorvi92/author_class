@@ -1,0 +1,10 @@
+	 * @param success the success to set
+	 */
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
+
+	/**
+	 * @return the msg
+	 */
+	public String getMsg() {

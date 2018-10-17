@@ -1,0 +1,10 @@
+		
+		StringBuffer sqlBuilder = new StringBuffer("UPDATE task SET modified=now()");
+		for(String key : map.keySet()) {
+			if (!"tid".equalsIgnoreCase(key)) {
+				sqlBuilder.append("," + key + "=?");
+				params.add(map.get(key));
+			}
+		}
+		
+		params.add(taskid);

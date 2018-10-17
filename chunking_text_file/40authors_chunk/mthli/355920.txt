@@ -1,0 +1,10 @@
+         dialog.pack();
+      }
+
+      // set title and show dialog
+
+      dialog.setTitle(title);
+      dialog.setVisible(true);
+      return ok;
+   }
+}

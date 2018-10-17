@@ -1,0 +1,10 @@
+    public long getLimits()
+    {
+        return limits;
+    }
+    public void setLimits(long limits)
+    {
+        this.limits = limits;
+    }
+    //    public UserGroup getUserGroup()
+    //    {

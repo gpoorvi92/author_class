@@ -1,0 +1,10 @@
+    public int     getRecvLength2() throws JposException;
+    public int     getSidewaysMaxChars() throws JposException;
+    public int     getSidewaysMaxLines() throws JposException;
+    public int     getTracksToRead() throws JposException;
+    public void    setTracksToRead(int tracksToRead) throws JposException;
+    public int     getTracksToWrite() throws JposException;
+    public void    setTracksToWrite(int tracksToWrite) throws JposException;
+    public String  getTrack1Data() throws JposException;
+    public String  getTrack2Data() throws JposException;
+    public String  getTrack3Data() throws JposException;

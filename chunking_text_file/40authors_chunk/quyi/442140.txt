@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetDataHex()).compareTo(other.isSetDataHex());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetDataHex()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.dataHex, other.dataHex);

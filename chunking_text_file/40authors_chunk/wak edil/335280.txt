@@ -1,0 +1,10 @@
+	private JButton jbtChoc2=new JButton("Nasi Beriyani");
+	private JButton jbtChoc3=new JButton("Nasi Minyak ");
+	private JButton jbtChoc4=new JButton("Nasi Goreng Kampung");
+	private JButton jbtChoc5=new JButton("Mee Goreng");
+	private JButton jbtChoc6=new JButton("Bihun Goreng");
+	private JButton jbtBack=new JButton("Back");
+	private JButton jbtExit=new JButton("Exit");
+	private JLabel FoodLabelChoice=new JLabel("Choose your Foods : ");
+	private ImageIcon Food1Image=new ImageIcon("makanan/nasi lemak.jpeg");
+	private ImageIcon Food2Image=new ImageIcon("makanan/nasi beriyani.jpeg");

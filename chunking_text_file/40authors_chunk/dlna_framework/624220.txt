@@ -1,0 +1,10 @@
+		if (value < 10)
+			return "0" + Integer.toString(value);
+		return Integer.toString(value);
+	}
+
+	private final static String MONTH_STRING[] = {
+		"Jan",
+		"Feb",
+		"Mar",
+		"Apr",

@@ -1,0 +1,10 @@
+            _val89 = CheckResultStatus.findByValue(iprot.readI32());
+            struct.plotsStatus.put(_key88, _val89);
+          }
+        }
+        struct.setPlotsStatusIsSet(true);
+      }
+      if (incoming.get(3)) {
+        struct.checkStartTime = iprot.readString();
+        struct.setCheckStartTimeIsSet(true);
+      }

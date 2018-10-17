@@ -1,0 +1,10 @@
+      if (!value) {
+        this.nodeHeat = null;
+      }
+    }
+
+    public long getTimestamp() {
+      return this.timestamp;
+    }
+
+    public heart_args setTimestamp(long timestamp) {

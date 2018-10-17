@@ -1,0 +1,10 @@
+		staticStateManager.updateEntity(entity);
+
+		// remove from cache
+		staticStateManager.cache.invalidate(staticStateIdentifierManager.getIdentifier());
+
+		// get again (it will load from file into cache)
+		staticStateManager.getEntity();
+
+		// check everything is good
+		Assert.assertEquals(absoluteFullPathOfUploadedFile, value.getAbsoluteFullPathOfUploadedFile());

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String toString() {
+        return "Venue{" +
+                "location=" + location +
+                ", title='" + title + '\'' +
+                ", address='" + address + '\'' +
+                ", foursquare_id='" + foursquare_id + '\'' +
+                '}';

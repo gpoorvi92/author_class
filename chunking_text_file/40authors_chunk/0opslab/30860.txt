@@ -1,0 +1,10 @@
+    /**
+     * 主机名
+     */
+    public static String HOST_NAME;
+    /**
+     * 主机架构
+     */
+    public static String OS_ARCH           = PropertiesUtil.key("os.arch");
+    /**
+     * 主机类型

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void java.awt.event.WindowListener.windowOpened(java.awt.event.WindowEvent)
+
+    public native void __windowOpened( java.awt.event.WindowEvent e );
+
+    public void windowOpened( java.awt.event.WindowEvent e ) {
+        __windowOpened( e );
+    }

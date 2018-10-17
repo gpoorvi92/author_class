@@ -1,0 +1,8 @@
+        struct.checkEndDate = iprot.readString();
+        struct.setCheckEndDateIsSet(true);
+      }
+    }
+  }
+
+}
+

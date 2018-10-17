@@ -1,0 +1,10 @@
+                + " (" + PHOTOCACHE_COLUMN_REPO_ID + ");");
+        db.execSQL("CREATE INDEX photo_account_index ON " + PHOTOCACHE_TABLE_NAME
+                + " (" + PHOTOCACHE_COLUMN_ACCOUNT + ");");
+    }
+
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE IF EXISTS " + PHOTOCACHE_TABLE_NAME + ";");
+        onCreate(db);
+    }

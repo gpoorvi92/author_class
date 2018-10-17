@@ -1,0 +1,10 @@
+   private ArrayList<Object> visited = new ArrayList<>();
+
+   /**
+    * Converts an object to a string representation that lists all fields.
+    * @param obj an object
+    * @return a string with the object's class name and all field names and
+    * values
+    */
+   public String toString(Object obj)
+   {

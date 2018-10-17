@@ -1,0 +1,10 @@
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class queryMission_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String missionId;
+      public queryMission_call(String missionId, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+        this.missionId = missionId;
+      }

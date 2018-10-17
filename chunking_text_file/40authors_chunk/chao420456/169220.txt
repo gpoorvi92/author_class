@@ -1,0 +1,10 @@
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		});
+
+		// redButton
+
+		// 动作事件
+		// redButton.addActionListener(new ActionListener() {

@@ -1,0 +1,10 @@
+/**
+ * @ClassName: IMQListener
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月18日 下午10:38:22
+ */
+public interface IMQListener extends MessageListener {
+
+	/**
+	 * Text message arrived event.

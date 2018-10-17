@@ -1,0 +1,10 @@
+    @Override
+    public void sessionDestroyed(HttpSessionEvent httpSessionEvent)
+    {
+
+        CenterContext cc = AttributeManager.getAttribute(AttributeManager.SESSION_ATTR_CTX, httpSessionEvent.getSession());
+        if (null != cc)
+        {
+            AttributeManager.setAttribute(AttributeManager.SESSION_ATTR_CTX, httpSessionEvent.getSession(), null);
+            log.info("登出 userId={} userName={}", cc.getUser().getId(), cc.getUser().getUsername());
+        }

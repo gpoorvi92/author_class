@@ -1,0 +1,10 @@
+ * (c) 2010 Nicolas Gramlich 
+ * (c) 2011 Zynga Inc.
+ * 
+ * @author Nicolas Gramlich
+ * @since 19:52:27 - 28.02.2011
+ */
+public class MovePaddleClientMessage extends ClientMessage implements PongConstants {
+	// ===========================================================
+	// Constants
+	// ===========================================================

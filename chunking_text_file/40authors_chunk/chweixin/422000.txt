@@ -1,0 +1,10 @@
+		//
+		voiceReqMessage.setMediaId(data.get("MediaId"));
+		voiceReqMessage.setFormat(data.get("Format"));
+		
+		return voiceReqMessage;
+	}
+	/**
+	 * 解析视频消息。
+	 * @param 
+	 * 	消息数据。

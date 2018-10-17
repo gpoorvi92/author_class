@@ -1,0 +1,10 @@
+	 * @return 业务接口URL。
+	 * */
+	public String getBusinessURL() {
+		return businessURL;
+	}
+	/**
+	 * 设置业务接口URL。
+	 * @param businessURL
+	 * 	业务接口URL。
+	 * */

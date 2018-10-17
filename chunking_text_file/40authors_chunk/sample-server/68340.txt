@@ -1,0 +1,10 @@
+        }
+    }
+    public void returnRpcClient(final BaseRpcConnection rpcClient)
+    {
+        try
+        {
+            if (null != rpcClient)
+                this.returnObject(rpcClient);
+        } catch (Exception e)
+        {

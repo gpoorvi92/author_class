@@ -1,0 +1,10 @@
+	{
+		try {
+			URL url = new URL(urlStr);
+			// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (08/30/03)
+			int port = url.getPort();
+			if (port <= 0)
+				port = DEFAULT_PORT;
+			return port;
+		}
+		catch (Exception e) {

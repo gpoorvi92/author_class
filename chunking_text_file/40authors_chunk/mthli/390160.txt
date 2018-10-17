@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ * @version 1.0 2007-06-23
+ */
+public class StAXTest
+{
+   public static void main(String[] args) throws Exception
+   {
+      String urlString;
+      if (args.length == 0)
+      {

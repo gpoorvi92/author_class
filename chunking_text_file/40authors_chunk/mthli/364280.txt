@@ -1,0 +1,10 @@
+            {
+               try
+               {
+                  PrinterJob job = PrinterJob.getPrinterJob();
+                  job.setPrintable(canvas);
+                  if (job.printDialog(attributes)) job.print(attributes);
+               }
+               catch (PrinterException e)
+               {
+                  JOptionPane.showMessageDialog(PrintTestFrame.this, e);

@@ -1,0 +1,10 @@
+                final Request request = mCacheQueue.take();
+                request.addMarker("cache-queue-take");
+
+                // If the request has been canceled, don't bother dispatching it.
+                if (request.isCanceled()) {
+                    request.finish("cache-discard-canceled");
+                    continue;
+                }
+
+                // Attempt to retrieve this item from cache.

@@ -1,0 +1,10 @@
+					",\"materialBrandID\":\"" + lhjPrice.getMaterialBrand().getID() +"" + "\"" +
+					",\"materialBrandName\":\"" + lhjPrice.getMaterialBrand().getName() + "\"" +
+					",\"brandValid\":\"" + (lhjPrice.getMaterialBrand().isValid()?"可用":"不可用") + "\"" +
+					"},";
+			json += str;
+		}
+		
+		json = json.substring(0, json.length()-1);	//去掉多余的逗号
+		json += "]}";	//json串尾
+		try {

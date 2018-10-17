@@ -1,0 +1,10 @@
+    }
+}
+
+public class Run15_suspendAndresume03 {
+    public static void main(String[] args) {
+        try {
+            MyThread15 myThread15 = new MyThread15();
+            myThread15.start();
+            Thread.sleep(1000);
+            System.out.println("main before myThread15.suspend()!");

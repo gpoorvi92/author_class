@@ -1,0 +1,10 @@
+package swing;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+import javax.swing.*;
+
+/**
+ * This program demonstrates that a thread that runs in parallel with the event dispatch thread can
+ * cause errors in Swing components.

@@ -1,0 +1,10 @@
+		LimitingList<Integer> limitingList = new LimitingList<Integer>(2);
+		limitingList.unshift(a);
+		limitingList.unshift(b);
+		Assert.assertThat(limitingList.list.get(0), CoreMatchers.is(b));
+		Assert.assertThat(limitingList.list.get(1), CoreMatchers.is(a));
+		limitingList.unshift(c);
+		Assert.assertThat(limitingList.list.get(0), CoreMatchers.is(c));
+		Assert.assertThat(limitingList.list.get(1), CoreMatchers.is(b));
+		Assert.assertThat(limitingList.list.size(), CoreMatchers.is(2));
+		limitingList.unshift(d);

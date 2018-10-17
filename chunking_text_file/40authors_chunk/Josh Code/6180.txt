@@ -1,0 +1,10 @@
+    public String getCommonExtension()
+    {
+        return "vla";
+    }
+
+    public boolean savesFaces()
+    {
+        return false;
+    }
+

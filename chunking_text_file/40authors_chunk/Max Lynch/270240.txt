@@ -1,0 +1,10 @@
+    gradientBounds.setRect((float)bounds.getX(), (float)bounds.getY(), 
+			   (float)bounds.getWidth(), (float)bounds.getHeight());
+
+    int a1 = color1.getAlpha();
+    int a2 = color2.getAlpha();
+    transparency = (((a1 & a2) == 0xff) ? OPAQUE : TRANSLUCENT);
+  }
+  
+  /**
+   * Creates and returns a context used to generate the color pattern.

@@ -1,0 +1,10 @@
+      } else {
+        sb.append(this.missionId);
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("userApps:");
+      if (this.userApps == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.userApps);

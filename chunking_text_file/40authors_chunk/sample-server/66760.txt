@@ -1,0 +1,10 @@
+    
+    
+    
+    public final GameServerRpc.ContainCdKeyResp containCdKey(GameServerRpc.ContainCdKeyReq req)
+    {
+        BaseRpcConnection rpcClient = null;
+        try
+        {
+            rpcClient = rpcClientPool.borrowRpcClient();
+            Rpc.RpcPacket resp = rpcClient.sendWaitBack(newRpcPacket(req));

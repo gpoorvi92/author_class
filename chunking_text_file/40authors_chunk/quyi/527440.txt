@@ -1,0 +1,10 @@
+      BitSet incoming = iprot.readBitSet(4);
+      if (incoming.get(0)) {
+        struct.missionId = iprot.readString();
+        struct.setMissionIdIsSet(true);
+      }
+      if (incoming.get(1)) {
+        {
+          org.apache.thrift.protocol.TList _list26 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.engines = new ArrayList<Engine>(_list26.size);
+          for (int _i27 = 0; _i27 < _list26.size; ++_i27)

@@ -1,0 +1,10 @@
+	// Thanks for Giordano Sassaroli <sassarol@cefriel.it> (09/08/03)
+	private Property getProperty(Node varNode) 
+	{
+		Property prop = new Property();
+		if (varNode == null)
+			return prop;
+		// remove the event namespace
+		String variableName = varNode.getName();
+		int index = variableName.lastIndexOf(':');
+		if (index != -1)

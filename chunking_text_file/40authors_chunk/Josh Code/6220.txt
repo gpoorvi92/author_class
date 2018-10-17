@@ -1,0 +1,10 @@
+        out.println("set filetype NEW");
+        out.println("set depthcue 0");
+        out.println("set defaultdraw stellar");
+        out.println("set coordsys RIGHT");
+        out.println("set library_id UNKNOWN");
+        out.println("set comment generated with Josh Greig's opensource PolyMapper");
+        out.println("set comment available at: http://www.planet-source-code.com");
+        out.println("set comment also at: http://www.programmersheaven.com");
+
+        // loop through triangles

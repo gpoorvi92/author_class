@@ -1,0 +1,10 @@
+    this.virusEngine = virusEngine;
+    this.description = description;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public VirusDetectionResultData(VirusDetectionResultData other) {
+    __isset_bitfield = other.__isset_bitfield;
+    if (other.isSetCheckTime()) {

@@ -1,0 +1,10 @@
+            {
+               canvas.setJoin(style);
+            }
+         });
+   }
+
+   /**
+    * Makes a radio button to set solid or dashed lines
+    * @param label the button label
+    * @param style false for solid, true for dashed lines

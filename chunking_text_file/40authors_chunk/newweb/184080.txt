@@ -1,0 +1,10 @@
+	@ManyToOne
+	@JoinColumn(name="smallid")
+	public Small getSmall() {
+		return small;
+	}
+	public void setSmall(Small small) {
+		this.small = small;
+	}
+	@Column
+	public double getPrice() {

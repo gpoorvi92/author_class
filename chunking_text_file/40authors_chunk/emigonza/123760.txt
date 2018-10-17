@@ -1,0 +1,10 @@
+
+  // Properties
+  public int     getBatteryCapacityRemaining() throws JposException;
+  public int     getBatteryCriticallyLowThreshold() throws JposException;
+  public void    setBatteryCriticallyLowThreshold(int threshold) throws JposException;
+  public int     getBatteryLowThreshold() throws JposException;
+  public void    setBatteryLowThreshold(int threshold) throws JposException;
+  public int     getPowerSource() throws JposException;
+
+  // Methods

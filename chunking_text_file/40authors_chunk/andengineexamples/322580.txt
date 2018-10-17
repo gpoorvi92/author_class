@@ -1,0 +1,10 @@
+
+	@Override
+	public Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();
+		scene.setBackground(this.mGrassBackground);
+
+		/* Create the face and add it to the scene. */
+		final AnimatedSprite player = new AnimatedSprite(10, 10, 48, 64, this.mPlayerTextureRegion, this.getVertexBufferObjectManager());

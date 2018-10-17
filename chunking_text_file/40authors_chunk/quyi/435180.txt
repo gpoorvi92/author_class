@@ -1,0 +1,10 @@
+  @Override
+  public void clear() {
+    this.apkMD5 = null;
+    this.sensitive = null;
+    this.autoRunMonitor = null;
+    this.fileOperate = null;
+    this.networkPacket = null;
+    this.systemResources = null;
+    this.hardwareResources = null;
+    this.checkEndDate = null;

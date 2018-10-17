@@ -1,0 +1,10 @@
+     */
+    public void setRunningLength(final int number) {
+        setRunningLength(this.buffer, this.position, number);
+    }
+
+    static void setRunningLength(final Buffer32 buffer, final int position, final int number) {
+        buffer.orWord(position, SHIFTED_LARGEST_RUNNING_LENGTH_COUNT);
+        buffer.andWord(position, (number << 1) | NOT_SHIFTED_LARGEST_RUNNING_LENGTH_COUNT);
+    }
+

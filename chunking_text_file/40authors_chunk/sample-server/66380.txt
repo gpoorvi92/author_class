@@ -1,0 +1,10 @@
+        bootstrap.setOption("child.keepAlive", true);
+        bootstrap.setOption("reuseAddress", true);
+        bootstrap.setPipelineFactory(new NettyRpcServerPipelineFactory());
+        bootstrap.bind(new InetSocketAddress(port));
+    }
+    @Override
+    protected void beforeShutdown() throws Exception
+    {
+    }
+    @Override

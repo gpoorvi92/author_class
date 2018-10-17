@@ -1,0 +1,10 @@
+					if(pSceneTouchEvent.getY() < CAMERA_HEIGHT / 2) {
+						ETC1TextureExample.this.mZoomState = ZoomState.IN;
+					} else {
+						ETC1TextureExample.this.mZoomState = ZoomState.OUT;
+					}
+				} else {
+					ETC1TextureExample.this.mZoomState = ZoomState.NONE;
+				}
+				return true;
+			}

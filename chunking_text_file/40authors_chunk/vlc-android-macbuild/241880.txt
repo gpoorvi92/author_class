@@ -1,0 +1,10 @@
+                    && lastSegment.contains(".m3u8")) {
+                DebugLog.v(TAG, "def play use httplive for m3u8");
+                uri = uriComponent.buildUpon().scheme("httplive").toString();
+            }
+        }
+
+        DebugLog.v(TAG, "def play " + uri);
+
+        mMediaPlayer.setDataSource(uri);
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);

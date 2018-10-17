@@ -1,0 +1,10 @@
+ * 		C:遍历File数组，得到每一个File对象
+ * 		D:复制该File
+ * 			数据源：d:\\demo\\a.txt
+ * 			目的地：demo\\a.txt
+ */
+public class CopyFolderDemo {
+	public static void main(String[] args) throws IOException {
+		// 封装数据源文件夹
+		File srcFolder = new File("d:\\demo");
+

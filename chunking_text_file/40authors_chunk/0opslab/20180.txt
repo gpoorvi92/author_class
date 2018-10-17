@@ -1,0 +1,10 @@
+    @Test
+    public void testGetResourceByJar1(){
+        String jarPath = TestUtil.path +"/lib/cpdetector.jar";
+        List<String> resourceNames = ClassUtil.getResourceNameByJar(jarPath,".xml");
+        System.out.println(resourceNames);
+    }
+
+    @Test
+    public void testGetSuperClass()  {
+        System.out.println(ClassUtil.getSuperClass("model.BusinessLog"));

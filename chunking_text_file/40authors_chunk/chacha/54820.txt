@@ -1,0 +1,10 @@
+			connectionsPerHost=Integer.parseInt((String)prop.getProperty("poolSize"));
+			threadsAllowedToBlockForConnectionMultiplier=Integer.parseInt((String)prop.getProperty("threadsAllowedToBlockForConnectionMultiplier"));
+			connectTimeout=Integer.parseInt((String)prop.getProperty("connectTimeout"));
+			autoConnectRetry=Boolean.parseBoolean((String)prop.getProperty("autoConnectRetry"));
+			//serverPort=Integer.parseInt(prop.getProperty("ServerPort"));
+			//tokenLifeTime=Integer.parseInt(prop.getProperty("tokenLifeTime"));
+		}catch (Exception e) {
+			throw new ExceptionInInitializerError("chacha server argument init error!");
+		}
+	}

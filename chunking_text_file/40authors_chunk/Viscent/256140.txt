@@ -1,0 +1,10 @@
+	 * 
+	 * @param queue 阻塞队列，通常是一个无界阻塞队列。
+	 * @param flowLimit 流量限制数
+	 */
+	public SemaphoreBasedChannel(BlockingQueue<P> queue, int flowLimit) {
+		this.queue = queue;
+		this.semaphore = new Semaphore(flowLimit);
+	}
+
+	@Override

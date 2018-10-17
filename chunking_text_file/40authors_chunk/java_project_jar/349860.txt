@@ -1,0 +1,10 @@
+    {
+        write(new byte[] {
+            (byte)b
+        }, 0, 1);
+    }
+
+    public void flush()
+        throws IOException
+    {
+        flushOutput();

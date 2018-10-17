@@ -1,0 +1,10 @@
+							hero.father.setCurrentGameAlert(pa);
+							emptyCity = city;
+						}
+						else{//如果是第一次出现粮草危机
+							FoodAlert fa = new FoodAlert(hero.father, city, GameView.dialogBack, GameView.dialogButton);
+							hero.father.setCurrentGameAlert(fa);
+							ignoredCity = city;//记录下来
+						}
+					}
+				}

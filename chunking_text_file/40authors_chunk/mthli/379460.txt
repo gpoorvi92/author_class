@@ -1,0 +1,10 @@
+    */
+   public void remove(Rectangle2D s)
+   {
+      if (s == null) return;
+      if (s == current) current = null;
+      squares.remove(s);
+      repaint();
+   }
+
+   private class MouseHandler extends MouseAdapter

@@ -1,0 +1,10 @@
+public interface IRequestInfo
+{
+    /**
+     * Used to indicate that there is no content.
+     */
+    static final byte CONTENT_TYPE_NONE = 0;
+    /**
+     * Used to indicate URL-encoded content.
+     */
+    static final byte CONTENT_TYPE_URL_ENCODED = 1;

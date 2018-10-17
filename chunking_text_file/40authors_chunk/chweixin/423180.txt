@@ -1,0 +1,10 @@
+	/**
+	 * 设置用户认证服务接口。
+	 * @param userAuthentication
+	 * 	用户认证服务接口。
+	 * */
+	public void setUserAuthentication(IUserAuthenticationService userAuthentication) {
+		this.userAuthentication = userAuthentication;
+	}
+	/**
+	 * 设置Session。

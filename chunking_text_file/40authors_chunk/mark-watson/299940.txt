@@ -1,0 +1,10 @@
+                alReadyVisitedFlag[i][j] = false;
+                //distanceToNode[i][j] = 10000000.0f;
+                predecessor[i][j] = null;
+            }
+        }
+
+        alReadyVisitedFlag[startLoc.x][startLoc.y] = true;
+        //distanceToNode[startLoc.width][startLoc.height] = 0.0f;
+        queue.addToBackOfQueue(startLoc);
+        boolean success = false;

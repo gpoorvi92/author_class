@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case CPU_USED_PERC:
+      if (value == null) {
+        unsetCpuUsedPerc();
+      } else {
+        setCpuUsedPerc((Double)value);
+      }
+      break;

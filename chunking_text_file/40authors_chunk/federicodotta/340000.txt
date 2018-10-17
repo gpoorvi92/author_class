@@ -1,0 +1,10 @@
+    byte[] getText();
+
+    /**
+     * This method is used to determine whether the user has modified the
+     * contents of the editor.
+     *
+     * @return An indication of whether the user has modified the contents of
+     * the editor since the last call to
+     * <code>setText()</code>.
+     */

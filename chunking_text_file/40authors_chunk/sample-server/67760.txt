@@ -1,0 +1,10 @@
+            else
+                log.warn("cant close channel {} in 2s, {}", channel, state);
+        }
+    };
+    private final        GatewayInboundHandler        gatewayInboundHandler        = new GatewayInboundHandler();
+    @Override
+    public ChannelPipeline getPipeline() throws Exception
+    {
+        ChannelPipeline p = Channels.pipeline();
+        p.addLast("bandwidthHandler", bandwidthHandler);

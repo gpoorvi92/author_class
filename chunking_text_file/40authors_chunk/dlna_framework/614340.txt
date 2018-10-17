@@ -1,0 +1,10 @@
+		}
+		deviceSearchThread = new Thread(this,name.toString());
+		deviceSearchThread.start();
+	}
+	
+	public void stop()
+	{
+		// Thanks for Mikael Hakman (04/20/05)
+		close();
+		

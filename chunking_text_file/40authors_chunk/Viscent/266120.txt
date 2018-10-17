@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch12.ms.example.testdatagen;
+
+public class LogEntry {
+	public long timeStamp;
+	public String interfaceType;
+	public String recordType;//request or response
+	public String interfaceName;

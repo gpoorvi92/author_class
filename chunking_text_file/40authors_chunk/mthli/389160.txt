@@ -1,0 +1,10 @@
+   public String getExplanation()
+   {
+      StringBuilder r = new StringBuilder("Source ");
+      if (porterDuff2.equals("  ")) r.append("clears");
+      if (porterDuff2.equals(" S")) r.append("overwrites");
+      if (porterDuff2.equals("DS")) r.append("blends with");
+      if (porterDuff2.equals(" D")) r.append("alpha modifies");
+      if (porterDuff2.equals("D ")) r.append("alpha complement modifies");
+      if (porterDuff2.equals("DD")) r.append("does not affect");
+      r.append(" destination");

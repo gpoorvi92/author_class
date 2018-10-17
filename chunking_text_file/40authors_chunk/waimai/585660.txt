@@ -1,0 +1,10 @@
+
+    private Integer credit;
+
+    private String status;
+
+    private String realName;
+
+    private String identityCard;
+
+    private Integer schoolId;

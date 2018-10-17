@@ -1,0 +1,10 @@
+   {
+      return true;
+   }
+
+   public String getAsText()
+   {
+      return null;
+   }
+
+   public String getJavaInitializationString()

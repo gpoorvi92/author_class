@@ -1,0 +1,10 @@
+        unsetPositives();
+      } else {
+        setPositives((Integer)value);
+      }
+      break;
+
+    case VIRUS_ENGINE:
+      if (value == null) {
+        unsetVirusEngine();
+      } else {

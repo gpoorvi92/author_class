@@ -1,0 +1,10 @@
+
+class ExtendsDemo2 {
+	public static void main(String[] args) {
+		//创建子类对象
+		Zi z = new Zi();
+		//System.out.println(z.num);
+		System.out.println(z.num2);
+		//z.show();
+		z.show2();
+

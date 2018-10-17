@@ -1,0 +1,10 @@
+    boolean isDrm();
+
+    // Get the bitmap of the medium thumbnail
+    Bitmap thumbBitmap(boolean rotateAsNeeded);
+
+    // Get the bitmap of the mini thumbnail.
+    Bitmap miniThumbBitmap();
+
+    // Rotate the image
+    boolean rotateImageBy(int degrees);

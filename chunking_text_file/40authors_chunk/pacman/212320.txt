@@ -1,0 +1,10 @@
+	 * TODO:Insert Private field pname Setter method of Comment in here.
+	 * @param pname TODO:Insert method parameter pname of Comment in here.
+	 */
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+	/**
+	 * TODO:Insert Private field pvalue Getter method of Comment in here.
+	 * @return pvalue TODO:Insert method return of Comment in here.

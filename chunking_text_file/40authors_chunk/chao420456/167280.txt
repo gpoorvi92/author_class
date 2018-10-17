@@ -1,0 +1,10 @@
+ * 所以，我们要想知道出什么问题了,我们就应该看add()方法的源码
+ * 通过查看源码，我们看到了如下的一个判断：
+ * 		if (e.hash == hash && ((k = e.key) == key || key.equals(k))){}
+ * 			A:e.hash == hash
+ * 				比较的是对象的哈希值是否相同
+ * 			B:((k = e.key) == key || key.equals(k))
+ * 				左边比较的是地址是否相同
+ * 				右边比较的是内容是否相同
+ * HashSet集合底层数据结构是哈希表，哈希表由hashCode()和equals()方法来保证元素的唯一性。
+ * 		比较对象的hashCode()值是否相同

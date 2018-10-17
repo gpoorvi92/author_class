@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void setContentView(View v) {
+		super.setContentView(v);
+		init();
+	}
+
+	private void init() {
+		if (this.rDia == null)

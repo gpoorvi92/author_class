@@ -1,0 +1,10 @@
+
+	public static void getAllJavaFilePath(File srcFolder) {
+		// 获取指定目录下的所有文件或者文件夹的File数组
+		File[] fileArray = srcFolder.listFiles();
+		// 遍历该File数组，获取得到每一个File对象
+		for (File file : fileArray) {
+			if (file.isDirectory()) {
+				// 是文件夹：回到B(递归)
+				getAllJavaFilePath(file);
+			} else {

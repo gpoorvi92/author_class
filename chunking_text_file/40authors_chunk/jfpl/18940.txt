@@ -1,0 +1,10 @@
+			break;
+		default:
+			layoutId = R.layout.chat_list_item;
+			break;
+		}
+		if (convertView == null) {
+			convertView = LayoutInflater.from(ctx).inflate(layoutId, null);
+			holder = new ChatViewHolder();
+			holder.chatLayout = (LinearLayout) convertView
+					.findViewById(R.id.chat_type);

@@ -1,0 +1,10 @@
+ 			JOptionPane.showMessageDialog(null, "Enter Atleast one field");
+ 			statement.close();
+ 			}
+ 			catch(SQLException sqlex) {
+ 			}
+ 			}
+ 			
+ 	public void update()
+ 	{
+ 				

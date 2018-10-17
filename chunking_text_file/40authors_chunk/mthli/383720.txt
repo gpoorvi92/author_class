@@ -1,0 +1,10 @@
+      removedColumns = new ArrayList<TableColumn>();
+
+      // create menu
+
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);
+
+      JMenu selectionMenu = new JMenu("Selection");
+      menuBar.add(selectionMenu);
+

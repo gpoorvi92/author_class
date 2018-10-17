@@ -1,0 +1,10 @@
+    }
+    if (isSetEngineType()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.engineType, other.engineType);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetNodeInfo()).compareTo(other.isSetNodeInfo());
+    if (lastComparison != 0) {
+      return lastComparison;

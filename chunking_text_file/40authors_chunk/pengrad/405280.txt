@@ -1,0 +1,9 @@
+    public String getDefaultFileName() {
+        return ContentTypes.AUDIO_FILE_NAME;
+    }
+
+    @Override
+    public String getContentType() {
+        return ContentTypes.AUDIO_MIME_TYPE;
+    }
+}

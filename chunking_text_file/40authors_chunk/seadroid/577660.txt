@@ -1,0 +1,10 @@
+        projection,
+        PHOTOCACHE_COLUMN_REPO_ID
+        + "=? and " + PHOTOCACHE_COLUMN_PATH + "=?",
+        new String[] { repoID, path },
+        null,   // don't group the rows
+        null,   // don't filter by row groups
+        null    // The sort order
+        );
+
+        if (!c.moveToFirst()) {

@@ -1,0 +1,10 @@
+import com.jufan.platform.ui.R;
+import com.lianzt.commondata.AbstractCommonData;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.assist.ImageSize;
+
+public class LocationNearbyOverlay extends ItemizedOverlay {
+
+	private List<AbstractCommonData> positionList = new LinkedList<AbstractCommonData>();
+
+	private MapView mapView;

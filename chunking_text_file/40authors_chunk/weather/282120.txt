@@ -1,0 +1,10 @@
+    /**
+     * 反序列化POJO
+     */
+    public <T> T fromJson(String jsonString, Class<T> clazz) {
+        if (TextUtils.isEmpty(jsonString)) {
+            return null;
+        }
+        if (clazz.equals(String.class)) {
+            return (T) jsonString;
+        }

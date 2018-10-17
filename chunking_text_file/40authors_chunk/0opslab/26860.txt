@@ -1,0 +1,10 @@
+    private static boolean found    = false;
+    /**
+     * 如果完全匹配某个字符集检测算法, 则该属性保存该字符集的名称. 否则(如二进制文件)其值就为默认值 null, 这时应当查询属性
+     */
+    private static String  encoding = null;
+
+    /**
+     * 利用文件头特征判断文件的编码方式
+     *
+     * @param fileName 需要处理的文件

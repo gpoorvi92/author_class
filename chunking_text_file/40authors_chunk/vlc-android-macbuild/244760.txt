@@ -1,0 +1,10 @@
+    
+    // methods for Activity
+    final public void startActivity(Intent intent) {
+        T_Activity activity = getActivity();
+        if (activity == null)
+            return;
+        
+        activity.startActivity(intent);
+    }
+    

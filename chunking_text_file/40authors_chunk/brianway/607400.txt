@@ -1,0 +1,10 @@
+        System.out.println("计划执行时间：" + runDate);
+        Timer timer = new Timer();
+        timer.schedule(task, runDate, 2000);
+    }
+}
+
+/*
+输出：
+现在执行时间：Sat Apr 16 00:51:36 CST 2016
+计划执行时间：Sat Apr 16 00:51:16 CST 2016

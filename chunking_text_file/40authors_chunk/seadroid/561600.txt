@@ -1,0 +1,10 @@
+                public void onClick(View v) {
+                    CheckBox cb = (CheckBox) v;
+                    SelectableFile file = (SelectableFile) cb.getTag();
+                    file.setSelected(cb.isChecked());
+                    ((MultiFileChooserActivity)mActivity).onFileChecked(file);
+
+                }
+            });
+
+        } else {

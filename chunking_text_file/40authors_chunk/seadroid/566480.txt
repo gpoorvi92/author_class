@@ -1,0 +1,10 @@
+
+    private void loadExifData() {
+        try {
+            mExif = new ExifInterface(mDataPath);
+        } catch (IOException ex) {
+            Log.e(TAG, "cannot read exif", ex);
+        }
+    }
+
+    private void saveExifData() throws IOException {

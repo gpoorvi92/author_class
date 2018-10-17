@@ -1,0 +1,10 @@
+			final AsyncContext asyncContext = request.startAsync();
+			asyncContext.setTimeout(taskTimeOut);
+
+
+			// add a listener to clear bucket and close inputstream when process is complete or
+			// with
+			// error
+			asyncContext.addListener(new UploadServletAsyncListenerAdapter(process.getFileId()) {
+
+				@Override

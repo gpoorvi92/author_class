@@ -1,0 +1,10 @@
+		}
+		else{//一个屏幕显示不下时
+			for(int i=tempCurrentI; i<tempCurrentI+yeSpan; i++){
+				canvas.drawText(items[i][0], 20, startY + 5 + 30*(i-tempCurrentI), paint);
+				canvas.drawText(items[i][1], 110, startY + 5 + 30*(i-tempCurrentI), paint);
+				canvas.drawText(items[i][2], 210, startY + 5 + 30*(i-tempCurrentI), paint);
+			}
+		}
+		
+		canvas.drawBitmap(selectBackground, 10, startY +5 + 30*selectI - 22, paint);//绘制选择效果

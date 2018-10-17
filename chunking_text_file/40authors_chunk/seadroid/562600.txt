@@ -1,0 +1,3 @@
+        ImageLoader.getInstance().init(config);
+    }
+}

@@ -1,0 +1,10 @@
+		ManagedThreadLocal<T> mtl = new ManagedThreadLocal<T>(ivp);
+
+		// 使用弱引用来引用ThreadLocalProxy实例，防止内存泄漏。
+		instances.add(new WeakReference<ManagedThreadLocal<?>>(mtl));
+		return mtl;
+	}
+	
+	public static <T> ManagedThreadLocal<T> newInstance() {
+		return newInstance(new ManagedThreadLocal.InitialValueProvider<T>());
+	}

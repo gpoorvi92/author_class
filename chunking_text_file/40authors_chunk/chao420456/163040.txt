@@ -1,0 +1,10 @@
+		// 按照空格进行分割字符串，得到一个字符串数组
+		String[] strArray = s.split(" ");
+
+		// 把字符串数组转换为整数数组
+		int[] arr = new int[strArray.length];
+		for (int x = 0; x < arr.length; x++) {
+			arr[x] = Integer.parseInt(strArray[x]);
+		}
+
+		// 对整数数组进行排序

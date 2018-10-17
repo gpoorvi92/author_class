@@ -1,0 +1,10 @@
+        } else {
+          ordered_results.put(id, ts.count);
+        }
+      }
+    }
+    List<Integer> keys = new ArrayList<Integer>(ordered_results.keySet()); 
+    Collections.sort(keys, new Comparator<Integer>() { 
+        public int compare(Integer a, Integer b) { 
+            return -ordered_results.get(a).compareTo(ordered_results.get(b)) ;
+        } 

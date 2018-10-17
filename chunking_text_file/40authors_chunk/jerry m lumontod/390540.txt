@@ -1,0 +1,10 @@
+		if (cmp2 instanceof NamePair)
+			cmp2 = ((NamePair)cmp2).getName();
+
+		if (cmp1 == null)
+			cmp1 = new String("");
+		if (cmp2 == null)
+			cmp2 = new String("");
+
+		if (cmp1 instanceof Timestamp) {
+			Timestamp t = (Timestamp)cmp1;

@@ -1,0 +1,10 @@
+package splashScreen;
+
+import java.awt.*;
+import java.util.List;
+import javax.swing.*;
+
+/**
+ * This program demonstrates the splash screen API.
+ * @version 1.00 2007-09-21
+ * @author Cay Horstmann

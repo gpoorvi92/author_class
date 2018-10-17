@@ -1,0 +1,10 @@
+	public int calculateWinOrLose(CityDrawable enemy,CityDrawable self){
+		if(enemy.army > self.army){
+			if(Math.random()>0.3){
+				return 2;
+			}
+			else{
+				return 1;
+			}
+		}
+		else{

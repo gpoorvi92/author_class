@@ -1,0 +1,10 @@
+	
+	private boolean rollbackFlag;
+	
+	/**
+	 * @return the rollbackFlag
+	 */
+	public boolean isRollbackFlag() {
+		return rollbackFlag;
+	}
+

@@ -1,0 +1,10 @@
+	private DrawPanel drawPanel = new DrawPanel();
+	
+	JLabel joinL = new JLabel("Join: ");
+	JLabel capL = new JLabel("Cap: ");
+	JLabel styleL = new JLabel("Style: ");
+	JLabel widthL = new JLabel("Width: ");
+
+	JComboBox cap, join, style;
+	
+	JButton ok, cancel;

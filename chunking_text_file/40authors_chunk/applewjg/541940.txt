@@ -1,0 +1,10 @@
+        second.val = tmp;
+    }
+
+    public void recoverTree_4(TreeNode root) {
+        if (root == null) return;
+        TreeNode cur = root, pre = null, first = null, second = null;
+        while (cur != null) {
+            if (cur.left == null) {
+                if (pre != null && pre.val > cur.val) {
+                    if (first == null) first = pre;

@@ -1,0 +1,10 @@
+
+    public Integer getLayerId() {
+        return layerId;
+    }
+
+    public void setLayerId(Integer layerId) {
+        this.layerId = layerId;
+    }
+
+    public Integer getRoomId() {

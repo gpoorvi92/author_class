@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch10.tss.example;
+
+//import io.github.viscent.mtpattern.tss.InitialValueProvider;
+import io.github.viscent.mtpattern.ch10.tss.ManagedThreadLocal;
+
+public class ManagedThreadLocalClient {
+	private final static ManagedThreadLocal<Integer> mtl = ManagedThreadLocal

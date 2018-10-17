@@ -1,0 +1,10 @@
+
+	public CustomMyLocationOverlay(MapView mapView, PopupOverlay popupOverlay,
+			CustomOverlayInterface locationPicker) {
+		super(mapView);
+		this.mapView = mapView;
+		this.popupOverlay = popupOverlay;
+		this.locationPicker = locationPicker;
+	}
+
+	@Override

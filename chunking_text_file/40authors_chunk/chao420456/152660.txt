@@ -1,0 +1,10 @@
+			System.out.println();
+		}
+		System.out.println("--------");
+		//需求：请在控制台输出一个7行8列的星形
+		for(int x=0; x<7; x++){
+			for(int y=0; y<8; y++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}

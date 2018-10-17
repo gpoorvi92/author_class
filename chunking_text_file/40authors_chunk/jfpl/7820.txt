@@ -1,0 +1,10 @@
+		if (mapView != null) {
+			mapView.destroy();
+			mapView = null;
+		}
+		locationClient.stop();
+		super.onDestroy();
+	}
+
+	@Override
+	protected void onPause() {

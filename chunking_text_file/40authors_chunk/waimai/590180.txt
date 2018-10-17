@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.management;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.domain.GoodsType;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.IGoodsTypeService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;

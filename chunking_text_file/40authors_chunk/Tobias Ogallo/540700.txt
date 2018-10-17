@@ -1,0 +1,10 @@
+        
+        g.drawString("Phone: +254 720576879: Cellphone: 0720576879",385,70);
+        g.drawString("Fax: +254 720576879 ",385,90);
+        g.drawString("Address: Box 6046-20100, Nakuru, Kenya ",385,110);
+        g.drawString("Email:rvs@gmail.com",385,140);
+        g.drawString("Website:www.rvs.co.ke",385,170);
+        g.setColor(Color.black);
+        super.paint(g);
+      }
+    };

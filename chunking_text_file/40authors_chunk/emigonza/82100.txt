@@ -1,0 +1,10 @@
+  public void    setPageModeHorizontalPosition(int position) throws JposException;
+  public String  getPageModePrintArea() throws JposException;
+  public void    setPageModePrintArea(String area) throws JposException;
+  public int     getPageModePrintDirection() throws JposException;
+  public void    setPageModePrintDirection(int direction) throws JposException;
+  public int     getPageModeStation() throws JposException;
+  public void    setPageModeStation(int station) throws JposException;
+  public int     getPageModeVerticalPosition() throws JposException;
+  public void    setPageModeVerticalPosition(int position) throws JposException;
+

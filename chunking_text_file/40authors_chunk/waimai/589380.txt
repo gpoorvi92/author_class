@@ -1,0 +1,10 @@
+        return updateUserId;
+    }
+
+    public void setUpdateUserId(Integer updateUserId) {
+        this.updateUserId = updateUserId;
+    }
+
+    public String getContent() {
+        return content;
+    }

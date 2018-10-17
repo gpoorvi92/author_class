@@ -1,0 +1,10 @@
+     *
+     * @return The URL in the request.
+     */
+    URL getUrl();
+
+    /**
+     * This method is used to obtain the HTTP headers contained in the request.
+     *
+     * @return The HTTP headers contained in the request.
+     */

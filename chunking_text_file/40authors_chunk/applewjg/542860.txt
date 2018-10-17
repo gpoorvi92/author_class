@@ -1,0 +1,10 @@
+
+public class Solution {
+    public String convert(String s, int nRows) {
+        int n = s.length();
+        if (n <= 1 || nRows <= 1) return s;
+        StringBuffer res = new StringBuffer();
+        for (int i = 0; i < nRows; ++i) {
+            for (int j = 0; j + i < n; j += 2*nRows - 2) {
+                res.append(s.charAt(j+i));
+                if (i == 0 || i == nRows - 1) continue;

@@ -1,0 +1,10 @@
+                // Break and return an error.
+                return false;
+            }
+        }
+    }
+
+    // Delete file or directory.
+    if (filePath.delete() == false) {
+        // Display message and return an error.
+        System.out.println("Could not delete: " + filePath.getAbsolutePath());

@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("description", org.apache.thrift.protocol.TType.STRING, (short)6);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {
+    schemes.put(StandardScheme.class, new VirusDetectionResultDataStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new VirusDetectionResultDataTupleSchemeFactory());
+  }
+
+  public String checkTime; // required
+  public String MD5; // required

@@ -1,0 +1,10 @@
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, updateAppStatus_args args, org.apache.thrift.async.AsyncMethodCallback<com.nercis.isscp.idl.Result> resultHandler) throws TException {
+        iface.updateAppStatus(args.missionId, args.userAppId, args.status, args.usedPermissions, args.stcRD, args.dycRD, args.virRD,resultHandler);
+      }
+    }

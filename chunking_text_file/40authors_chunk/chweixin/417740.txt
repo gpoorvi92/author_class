@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置发送方帐号。
+	 * @param fromUserName
+	 *  发送方帐号。
+	 * */
+	public void setFromUserName(String fromUserName) {
+		this.FromUserName = fromUserName;
+	}
+	/**

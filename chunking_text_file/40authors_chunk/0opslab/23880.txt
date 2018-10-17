@@ -1,0 +1,10 @@
+package model;
+
+
+public class Log2 {
+
+    private Integer logId;
+
+    private String logyype;
+
+    private String operationname;

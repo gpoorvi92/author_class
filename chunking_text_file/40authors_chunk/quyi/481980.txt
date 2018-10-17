@@ -1,0 +1,10 @@
+          struct.ue = new com.nercis.isscp.idl.UnavailableException();
+          struct.ue.read(iprot);
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class updateAppStatus_args implements org.apache.thrift.TBase<updateAppStatus_args, updateAppStatus_args._Fields>, java.io.Serializable, Cloneable, Comparable<updateAppStatus_args>   {

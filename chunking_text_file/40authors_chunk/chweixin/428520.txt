@@ -1,0 +1,10 @@
+			content = null;
+			// 将sha1加密后的字符串可与signature对比.
+			return (result != null && !result.trim().isEmpty()) ? result.equalsIgnoreCase(signature): false;
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		}
+		
+		return false;
+	}
+}

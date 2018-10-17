@@ -1,0 +1,10 @@
+          unsetStatus();
+        } else {
+          setStatus((com.nercis.isscp.idl.AppStatus)value);
+        }
+        break;
+
+      case USED_PERMISSIONS:
+        if (value == null) {
+          unsetUsedPermissions();
+        } else {

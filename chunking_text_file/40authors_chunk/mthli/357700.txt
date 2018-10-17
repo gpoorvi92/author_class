@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               short[] negative = new short[256 * 1];
+               for (int i = 0; i < 256; i++)
+                  negative[i] = (short) (255 - i);
+               ShortLookupTable table = new ShortLookupTable(0, negative);
+               LookupOp op = new LookupOp(table, null);
+               filter(op);
+            }
+         });

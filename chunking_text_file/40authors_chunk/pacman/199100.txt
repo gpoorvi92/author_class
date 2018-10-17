@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @param mediaFile the mediaFile to set
+	 */
+	public void setMediaFile(String mediaFile) {
+		this.mediaFile = mediaFile;
+	}
+
+	/**

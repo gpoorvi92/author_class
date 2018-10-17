@@ -1,0 +1,10 @@
+	OptionList list;// = new OptionList(this, display); //The option list, takes an OptionDisplay	
+	
+	public OptionDialog(GraphicsFrame frame)
+	{
+		super(frame.getFrame(), "Options");
+		this.frame = frame;
+		display = new OptionDisplay(this);
+		list = new OptionList(this, display);
+		Container cp = getContentPane();
+		cp.setLayout(new BorderLayout());

@@ -1,0 +1,10 @@
+			return false;
+		}
+		return true;
+	}
+
+	public boolean close()
+	{
+		if (serverSock == null)
+			return true;
+		try {

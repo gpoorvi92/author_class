@@ -1,0 +1,10 @@
+    case RESULT:
+      if (value == null) {
+        unsetResult();
+      } else {
+        setResult((String)value);
+      }
+      break;
+
+    }
+  }

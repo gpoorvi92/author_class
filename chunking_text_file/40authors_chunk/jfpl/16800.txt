@@ -1,0 +1,10 @@
+package com.jufan.platform.util;
+
+import java.util.Date;
+
+import com.jufan.platform.ui.R;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.util.DateUtil;
+
+public class ConstVariables {

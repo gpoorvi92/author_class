@@ -1,0 +1,10 @@
+					out.write(HTTP.CRLF.getBytes());
+				}
+				out.write(readBuf, 0, readLen);
+				if (isChunkedResponse == true)
+					out.write(HTTP.CRLF.getBytes());
+				readCnt += readLen;
+				readSize = (chunkSize < (contentLength-readCnt)) ? chunkSize : (contentLength-readCnt);
+				readLen = in.read(readBuf, 0, (int)readSize);
+			}
+			

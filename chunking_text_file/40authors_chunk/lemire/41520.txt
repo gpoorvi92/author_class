@@ -1,0 +1,10 @@
+            this.litwlist.set(pos);
+            this.litWeight++;
+            if (this.b[pos]) {
+                this.b[pos] = false;
+                --this.hammingWeight;
+            }
+        }
+    }
+
+    /**

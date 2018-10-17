@@ -1,0 +1,10 @@
+               calculate(Double.parseDouble(value));
+               if (command.equals("="))
+                  display.append("\n" + result);
+               lastCommand = command;
+               display.append("\n");
+               start = true;
+            }
+            catch (BadLocationException e)
+            {
+               e.printStackTrace();

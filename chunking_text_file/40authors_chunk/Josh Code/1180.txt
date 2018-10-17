@@ -1,0 +1,10 @@
+       display.setDimensions(getWidth(),getHeight());
+   }
+    public void componentShown(ComponentEvent e) { } 
+}
+
+
+
+
+
+

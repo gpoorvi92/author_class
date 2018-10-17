@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.communication.example16;
+
+/**
+ * Created by Brian on 2016/4/14.
+ */
+
+/**
+ * P198
+ * 类InheritableThreadLocal使用，值继承再更改
+ */

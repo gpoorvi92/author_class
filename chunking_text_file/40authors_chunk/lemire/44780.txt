@@ -1,0 +1,10 @@
+     * @param rlw the rlw
+     */
+    public BufferedRunningLengthWord32(final RunningLengthWord32 rlw) {
+        this(rlw.buffer.getWord(rlw.position));
+    }
+
+    /**
+     * Discard first words.
+     *
+     * @param x the number of words to be discarded

@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.ArrayList;
+
+/*
+ * 增强for：是for循环的一种格式。
+ * 格式：
+ * 		for(元素数据类型 变量名 : 数组名或者Collection集合) {
+ * 			直接使用变量名就可以了，这里的变量名其实就是数组或者集合中的元素。
+ * 		}

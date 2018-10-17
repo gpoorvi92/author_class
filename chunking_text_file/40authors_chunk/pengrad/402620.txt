@@ -1,0 +1,10 @@
+    }
+
+    private User user;
+    private Status status;
+
+    public User user() {
+        return user;
+    }
+
+    public Status status() {

@@ -1,0 +1,10 @@
+			opt.setConnectionsPerHost(connectionPerHost);
+			opt.setThreadsAllowedToBlockForConnectionMultiplier(threadsAllowedToBlockForConnectionMultiplier);
+			opt.setAutoConnectRetry(autoConnectRetry);
+			opt.setConnectTimeout(connectTimeout);
+			db=mongo.getDB(connectionDatabase);
+			log.info("MongoConection init success!");
+		}catch(UnknownHostException e){
+			log.error("init exception:",e);
+			throw new ChachaRuntimeException(e);
+		}

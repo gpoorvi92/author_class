@@ -1,0 +1,10 @@
+		catch (SQLException sqlex) {			//If Problem then Show the User a Message.
+ 			JOptionPane.showMessageDialog (null, "A Problem Occurs While Loading the Form.");
+ 			dispose ();				//Closing the Form.
+	 	}
+
+		setVisible (true);
+
+	}
+
+	public void actionPerformed (ActionEvent ae) {

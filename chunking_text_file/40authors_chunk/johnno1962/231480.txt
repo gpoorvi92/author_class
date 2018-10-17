@@ -1,0 +1,10 @@
+        return arg;
+    }
+
+    public char[][] char2dArrayMethod( char arg[][] ) {
+        return arg;
+    }
+
+    public static short shortFieldStatic;
+    public short shortField;
+

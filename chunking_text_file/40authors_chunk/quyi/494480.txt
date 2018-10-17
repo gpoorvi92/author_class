@@ -1,0 +1,10 @@
+      if (!this.checkStartTime.equals(that.checkStartTime))
+        return false;
+    }
+
+    boolean this_present_checkStopTime = true && this.isSetCheckStopTime();
+    boolean that_present_checkStopTime = true && that.isSetCheckStopTime();
+    if (this_present_checkStopTime || that_present_checkStopTime) {
+      if (!(this_present_checkStopTime && that_present_checkStopTime))
+        return false;
+      if (!this.checkStopTime.equals(that.checkStopTime))

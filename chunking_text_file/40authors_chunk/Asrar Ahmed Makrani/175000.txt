@@ -1,0 +1,10 @@
+			}
+			
+		protected void addButtons(JToolBar toolBar) {
+
+        //first button
+        
+        newBut.setToolTipText("New");
+        newBut.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	journal_no_text.setText("JL-");

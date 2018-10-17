@@ -1,0 +1,10 @@
+
+                caller = callingClass + "." + trace[i].getMethodName();
+                break;
+            }
+        }
+        return String.format(Locale.US, "[%d] %s: %s",
+                Thread.currentThread().getId(), caller, msg);
+    }
+
+    /**

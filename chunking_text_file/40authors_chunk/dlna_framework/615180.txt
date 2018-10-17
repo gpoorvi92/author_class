@@ -1,0 +1,10 @@
+		if (bodyNode.hasNodes() == false)
+			return null;
+		Node queryStateVarNode = bodyNode.getNode(0);
+		if (queryStateVarNode == null)
+			return null;
+		if (queryStateVarNode.hasNodes() == false)
+			return null;
+		return queryStateVarNode.getNode(0);
+	}
+	

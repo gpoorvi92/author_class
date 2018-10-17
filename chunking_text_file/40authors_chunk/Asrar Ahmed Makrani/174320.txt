@@ -1,0 +1,10 @@
+    
+    gbc.gridy = 1;
+    text.add(book_no, gbc);
+    gbc.gridy = 2;
+    text.add(book_title, gbc);
+    gbc.gridy = 3;
+    text.add(book_type, gbc);
+    gbc.gridy = 4;
+    text.add(book_cat, gbc);
+    gbc.gridy = 1;

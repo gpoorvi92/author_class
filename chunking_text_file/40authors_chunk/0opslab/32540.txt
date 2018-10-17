@@ -1,0 +1,10 @@
+   * <p>
+   * 
+   * @param key
+   *          the key instance to use.
+   * 
+   * @param value
+   *          the value instance to use.
+   */
+  public Entry(final V key, final K value) {
+    this.m_key = key;

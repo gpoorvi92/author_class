@@ -1,0 +1,10 @@
+        return title.compareTo(s.getTitle());
+    }
+
+    public String getArtist()
+    {
+        return artist;
+    }
+
+    public String getBpm()
+    {

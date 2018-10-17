@@ -1,0 +1,10 @@
+			int attrLen = attrMap.getLength();
+			//Debug.message("attrLen = " + attrLen);
+			for (int n = 0; n<attrLen; n++) {
+				org.w3c.dom.Node attr = attrMap.item(n);
+				String attrName = attr.getNodeName();
+				String attrValue = attr.getNodeValue();
+				node.setAttribute(attrName, attrValue);
+			}
+		}
+		

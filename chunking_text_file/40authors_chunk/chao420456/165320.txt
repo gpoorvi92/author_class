@@ -1,0 +1,10 @@
+		this.serverThread = serverThread;
+		try {
+			dis = new DataInputStream(clientSocket.getInputStream());
+			dos = new DataOutputStream(clientSocket.getOutputStream());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Override

@@ -1,0 +1,10 @@
+    {
+        return charsetName;
+    }
+
+    public int length()
+    {
+        return bytes.length;
+    }
+
+    public int get(int pos)

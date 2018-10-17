@@ -1,0 +1,10 @@
+                this.mProvider.get().isLoading = false;
+            } else if (msg.what == LOAD_MORE_FAIL) {
+                String errorMsg = String.valueOf(msg.obj);;
+                if (consumer != null && consumer.get() != null)
+                    consumer.get().didLoadDataFail(this.mProvider.get(), errorMsg, DataConsumer.LoadingType.LOAD_MORE);
+                this.mProvider.get().isLoading = false;
+            }
+        }
+    }
+

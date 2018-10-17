@@ -1,0 +1,10 @@
+		String absoluteFullPathOfUploadedFile = "value";
+		UUID fileId = UUID.randomUUID();
+
+		// get entity
+		StaticStatePersistedOnFileSystemEntity entity = staticStateManager.getEntity();
+		StaticFileState value = new StaticFileState();
+		entity.getFileStates().put(fileId, value);
+
+		// put some stuff in the file
+		value.setAbsoluteFullPathOfUploadedFile(absoluteFullPathOfUploadedFile);

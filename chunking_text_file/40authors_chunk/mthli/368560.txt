@@ -1,0 +1,10 @@
+/**
+ * This component produces a drawing that shows the effect of rendering hints.
+ */
+class RenderQualityComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 750;
+   private static final int DEFAULT_HEIGHT = 150;
+
+   private RenderingHints hints = new RenderingHints(null);
+   private Image image;

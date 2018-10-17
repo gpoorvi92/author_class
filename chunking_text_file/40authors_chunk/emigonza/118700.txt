@@ -1,0 +1,10 @@
+	 * Removes the PropValue to this list
+	 * @param propValue the propValue to remove
+	 */
+	public void remove( PropValue propValue );
+
+	/** Removes all PropValue in this list */
+	public void removeAll();
+
+	/**
+	 * @return true if the PropValue is already in the list

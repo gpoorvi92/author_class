@@ -1,0 +1,10 @@
+
+		int by = 0;
+		while ((by = bis.read()) != -1) {
+			bos.write(by);
+		}
+
+		bos.close();
+		bis.close();
+	}
+

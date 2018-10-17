@@ -1,0 +1,10 @@
+		JLabel lbImage    = new JLabel (new ImageIcon ("Splash.jpg"));	//Splash Screen Image.
+		Color cl = new Color (0, 0, 0);					//Setting Splash Window Border Color.
+		lbImage.setBorder (new LineBorder (cl, 1));			//Setting Splash Window Border.
+
+		getContentPane().add (lbImage, BorderLayout.CENTER);		//Adding the Image Label to Window.
+		pack();								//Packing the Splash Window.
+
+		setSize (getSize().width, getSize().height);			//Setting the Size.
+
+		//Setting the Splash Window Position on User's Screen.

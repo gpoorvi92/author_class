@@ -1,0 +1,6 @@
+                    System.out.println("按lock2->lock1代码顺序执行");
+                }
+            }
+        }
+    }
+}

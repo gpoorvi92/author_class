@@ -1,0 +1,10 @@
+        setPlotsStatus((Map<PlotsType,CheckResultStatus>)value);
+      }
+      break;
+
+    case CHECK_START_TIME:
+      if (value == null) {
+        unsetCheckStartTime();
+      } else {
+        setCheckStartTime((String)value);
+      }

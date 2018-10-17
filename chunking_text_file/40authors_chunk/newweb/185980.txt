@@ -1,0 +1,10 @@
+	public OrderBxg selectOrderBxgByBxgIdInOrderID(int bxgID, String orderid) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from  t_order_bxgs where bxgID=? and orderID=? ")
+				.addEntity(OrderBxg.class);
+		query.setInteger(0, bxgID);
+		query.setString(1, orderid);
+		return (OrderBxg) query.uniqueResult();
+	}
+
+	@Override
+	public boolean delete(OrderBxg ob) {

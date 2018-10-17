@@ -1,0 +1,10 @@
+               }
+           }
+           maxI--; // don't go all the way to the end next time
+       }
+    }
+
+    private void insertionSort(Triangle[] triangles)
+    { 
+      int len = triangles.length;
+      int j;

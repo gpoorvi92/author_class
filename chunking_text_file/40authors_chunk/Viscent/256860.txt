@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch8.activeobject.example;
+
+import io.github.viscent.mtpattern.ch8.activeobject.ActiveObjectProxy;
+import io.github.viscent.util.Debug;
+
+import java.util.concurrent.*;
+

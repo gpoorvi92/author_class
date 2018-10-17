@@ -1,0 +1,10 @@
+   private class ModalListener implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {
+         Color defaultColor = getBackground();
+         Color selected = JColorChooser.showDialog(ColorChooserPanel.this, "Set background",
+               defaultColor);
+         if (selected != null) setBackground(selected);
+      }
+   }

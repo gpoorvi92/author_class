@@ -1,0 +1,10 @@
+
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public reportTaskManagerConfig_result getResult(I iface, reportTaskManagerConfig_args args) throws org.apache.thrift.TException {
+        reportTaskManagerConfig_result result = new reportTaskManagerConfig_result();
+        try {
+          result.success = iface.reportTaskManagerConfig();
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {

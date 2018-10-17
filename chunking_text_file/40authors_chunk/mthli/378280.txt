@@ -1,0 +1,10 @@
+      Set<String> formatNames = new TreeSet<>(Arrays.asList(ImageIO
+            .getWriterFormatNames()));
+      while (formatNames.size() > 0)
+      {
+         String name = formatNames.iterator().next();
+         Iterator<ImageWriter> iter = ImageIO.getImageWritersByFormatName(name);
+         ImageWriter writer = iter.next();
+         String[] names = writer.getOriginatingProvider().getFormatNames();
+         String format = names[0];
+         if (format.equals(format.toLowerCase())) format = format.toUpperCase();

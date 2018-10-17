@@ -1,0 +1,10 @@
+	private static final SimpleDateFormat sdf = new SimpleDateFormat(
+	    "yyyy-MM-dd HH:MM:ss");
+
+	private static final DecimalFormat FILE_INDEX_FORMATTER = new DecimalFormat(
+	    "0000");
+
+	private static final int RECORD_JOIN_SIZE = Config.RECORD_JOIN_SIZE;
+
+	private static final FieldPosition FIELD_POS = new FieldPosition(
+	    DateFormat.Field.DAY_OF_MONTH);

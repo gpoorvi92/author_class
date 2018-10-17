@@ -1,0 +1,10 @@
+	public double getSgdLength() {
+		return sgdLength;
+	}
+	public void setSgdLength(double sgdLength) {
+		this.sgdLength = sgdLength;
+	}
+	public int getSgdCount() {
+		return sgdCount;
+	}
+	public void setSgdCount(int sgdCount) {

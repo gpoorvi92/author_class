@@ -1,0 +1,10 @@
+*	01/29/03
+*		- first revision.
+*	05/09/05
+*		- Changed getActionName() to return when the delimiter is not found.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.control;
+
+import org.cybergarage.http.*;

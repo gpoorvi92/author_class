@@ -1,0 +1,10 @@
+        		USERName.setText("Welcome " + usname + " today is " + dd);
+        		menuItem3.setEnabled(false);
+        		menuItem6.setEnabled(true);
+ 				dispose();	
+ 				}
+ 				
+ 				else {
+ 					JOptionPane.showMessageDialog(null, "Login Failed. Please Try again");
+ 					ctr = ctr + 1;
+ 					System.out.println(ctr);

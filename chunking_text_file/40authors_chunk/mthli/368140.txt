@@ -1,0 +1,10 @@
+               if (result == JFileChooser.APPROVE_OPTION)
+               {
+                  String name = chooser.getSelectedFile().getPath();
+                  label.setIcon(new ImageIcon(name));
+                  pack();
+               }
+            }
+         });
+
+      JMenuItem exitItem = new JMenuItem("Exit");

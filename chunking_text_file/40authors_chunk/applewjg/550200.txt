@@ -1,0 +1,10 @@
+/*
+ Author:     King, higuige@gmail.com
+ Date:       Oct 07, 2014
+ Problem:    Unique Binary Search Trees
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/unique-binary-search-trees/
+ Notes:
+ Given n, how many structurally unique BST's (binary search trees) that store values 1...n?
+ For example,
+ Given n = 3, there are a total of 5 unique BST's.

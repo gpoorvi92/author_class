@@ -1,0 +1,10 @@
+      case 1:
+        return RemoteControl;
+      case 2:
+        return RatesLoss;
+      case 3:
+        return MaliceSpread;
+      case 4:
+        return SystemDamage;
+      case 5:
+        return TouchEvent;

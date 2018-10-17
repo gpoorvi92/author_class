@@ -1,0 +1,10 @@
+
+            for(int k = 0; k < chars_read; k++)
+                if(data[k + j] >= 32 && data[k + j] < 127)
+                    buffer.append((char)data[k + j]);
+                else
+                    buffer.append('.');
+
+            buffer.append(EOL);
+            stream.write(buffer.toString().getBytes());
+            stream.flush();

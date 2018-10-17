@@ -1,0 +1,10 @@
+  public void setRiskLevelIsSet(boolean value) {
+    if (!value) {
+      this.riskLevel = null;
+    }
+  }
+
+  public String getPak() {
+    return this.pak;
+  }
+

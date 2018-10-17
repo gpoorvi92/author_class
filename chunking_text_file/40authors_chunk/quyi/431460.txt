@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case CENTER_RESULT_PATH:
+      if (value == null) {
+        unsetCenterResultPath();
+      } else {
+        setCenterResultPath((String)value);
+      }
+      break;

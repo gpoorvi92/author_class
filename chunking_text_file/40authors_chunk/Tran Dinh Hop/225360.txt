@@ -1,0 +1,10 @@
+		this.prev=prev;
+		this.elem=elem;
+	}
+	
+	public DLNode getNext(){
+		return next;
+	}
+	
+	public DLNode getPrev(){
+		return prev;

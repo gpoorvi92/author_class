@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean saveUser(User user) {
+		return userDao.insertUser(user);
+	}
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	@Override
+	public List queryAllUsers(int start, int limit) {

@@ -1,0 +1,10 @@
+                if (player) pos2.board[i] = 1; else pos2.board[i] = -1;
+                ret[count++] = pos2;
+                if (GameSearch.DEBUG) System.out.println("    "+pos2);
+            }
+        }
+        return ret;
+    }
+    public Position makeMove(Position p, boolean player, Move move) {
+        if (GameSearch.DEBUG) System.out.println("Entered TicTacToe.makeMove");
+        TicTacToeMove m = (TicTacToeMove)move;

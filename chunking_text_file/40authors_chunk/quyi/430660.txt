@@ -1,0 +1,10 @@
+        case 5: // API_CHECK
+          return API_CHECK;
+        case 6: // REPORT_PATH
+          return REPORT_PATH;
+        case 7: // CENTER_RESULT_PATH
+          return CENTER_RESULT_PATH;
+        default:
+          return null;
+      }
+    }

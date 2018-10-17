@@ -1,0 +1,7 @@
+				WeChatUser data = this.weChatUserDao.load(WeChatUser.class, new WeChatUserInfo(prs[0], prs[1]));
+				if(data != null) this.weChatUserDao.delete(data);
+			}
+		}
+	}
+
+}

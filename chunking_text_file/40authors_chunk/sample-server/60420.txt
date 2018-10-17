@@ -1,0 +1,10 @@
+ * UserEntity: Teaey
+ * Date: 13-7-10
+ */
+public class ChatClient
+{
+    public ChatClient(String host, int port)
+    {
+        this.host = host;
+        this.port = port;
+    }

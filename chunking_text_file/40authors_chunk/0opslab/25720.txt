@@ -1,0 +1,10 @@
+
+    @Test
+    public void testhtml(){
+        String html="<div class=\"ipaddress\">服务器IP地址：</div>";
+        System.out.println(WebUtil.unhtml(html));
+        assertEquals(html,WebUtil.html(WebUtil.unhtml(html)));
+    }
+
+    @Test
+    public void testescapeEncoding() throws UnsupportedEncodingException {

@@ -1,0 +1,10 @@
+        return false;
+      if (that instanceof modifyNodeManagerConfig_args)
+        return this.equals((modifyNodeManagerConfig_args)that);
+      return false;
+    }
+
+    public boolean equals(modifyNodeManagerConfig_args that) {
+      if (that == null)
+        return false;
+

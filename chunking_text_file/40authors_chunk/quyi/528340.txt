@@ -1,0 +1,10 @@
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetWhy()).compareTo(other.isSetWhy());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetWhy()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.why, other.why);
+      if (lastComparison != 0) {

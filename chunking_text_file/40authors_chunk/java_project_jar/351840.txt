@@ -1,0 +1,10 @@
+    private synchronized void addTracker(String path, Object marker, FileDeleteStrategy deleteStrategy)
+    {
+        if(exitWhenFinished)
+            throw new IllegalStateException("No new trackers can be added once exitWhenFinished() is called");
+        if(reaper == null)
+        {
+            reaper = new Reaper();
+            reaper.start();
+        }
+        trackers.add(new Tracker(path, deleteStrategy, marker, q));

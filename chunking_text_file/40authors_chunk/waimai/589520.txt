@@ -1,0 +1,10 @@
+
+    private String password;
+
+    private String storeName;
+
+    private String description;
+
+    private String phone;
+
+    private String address;

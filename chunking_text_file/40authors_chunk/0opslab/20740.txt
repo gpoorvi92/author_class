@@ -1,0 +1,10 @@
+     */
+    public final static String toUnicodeWithGBK(String input) throws UnsupportedEncodingException {
+        if (StringUtil.isEmpty(input)) {
+            return "";
+        } else {
+            String s1;
+            s1 = new String(input.getBytes("GBK"), "ISO8859_1");
+            return s1;
+        }
+    }

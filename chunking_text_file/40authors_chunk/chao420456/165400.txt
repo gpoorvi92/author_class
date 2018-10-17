@@ -1,0 +1,10 @@
+					}
+					String userNames = new String(sb);
+					serverThread.serverFrame.setDisUsers(userNames);
+					Message = userNames;
+				}else{
+					if(Message.contains("@exit")){
+						String [] userInfo = Message.split("@exit");
+						int userID = Integer.parseInt(userInfo[1]);
+						serverThread.users.remove(userID);
+						Message = null;

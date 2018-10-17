@@ -1,0 +1,10 @@
+ */
+@Component
+public class FileUploaderHelper {
+
+
+	public FileUploadConfiguration extractFileUploadConfiguration(HttpServletRequest request)
+			throws MissingParameterException, FileUploadException, IOException, JavaFileUploaderException {
+		final FileUploadConfiguration fileUploadConfiguration = new FileUploadConfiguration();
+
+		// check if the request is multipart:

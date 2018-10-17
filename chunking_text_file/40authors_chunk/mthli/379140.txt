@@ -1,0 +1,10 @@
+        private double second;
+
+        public Pair(double f, double s) {
+            first = f;
+            second = s;
+        }
+
+        public double getFirst() {
+            return first;
+        }

@@ -1,0 +1,10 @@
+        else
+        {
+            log.error("ChatServerHost为null:{}", zoneEntity);
+        }
+    }
+    public List<GameServerRpcClient> listGameServer()
+    {
+        List<GameServerRpcClient> ret = new ArrayList<>();
+        ret.addAll(gameServerRpcClientMap.values());
+        return ret;

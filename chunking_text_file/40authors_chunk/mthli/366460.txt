@@ -1,0 +1,10 @@
+   private SimulatedActivity activity;
+
+   public ProgressBarFrame()
+   {
+      // this text area holds the activity output
+      textArea = new JTextArea(TEXT_ROWS, TEXT_COLUMNS);
+
+      // set up panel with button and progress bar
+
+      final int MAX = 1000;

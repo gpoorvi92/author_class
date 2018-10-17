@@ -1,0 +1,9 @@
+	 * @throws Exception
+	 * @return: Document
+	 */
+	public Document connect() throws Exception{
+		
+		URL url = new URL(urlStr);
+		return saxReader.read(url);
+	}
+}

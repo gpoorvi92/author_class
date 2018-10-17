@@ -1,0 +1,10 @@
+		}
+		//己方士兵
+		heroSoldier = new Bitmap[4];//初始化敌方英雄
+		heroSoldier[0] = BitmapFactory.decodeResource(r, R.drawable.hero_soldier_1);
+		heroSoldier[1] = BitmapFactory.decodeResource(r, R.drawable.hero_soldier_2);
+		heroSoldier[2] = BitmapFactory.decodeResource(r, R.drawable.hero_soldier_3);
+		heroSoldier[3] = BitmapFactory.decodeResource(r, R.drawable.hero_soldier_4);
+		//敌方士兵
+		enemySoldier = new Bitmap[4];//初始化敌方英雄
+		enemySoldier[0] = BitmapFactory.decodeResource(r, R.drawable.enemy_soldier_1);

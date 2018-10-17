@@ -1,0 +1,10 @@
+		System.out.println("狗腾空而起越过了围墙");
+	}
+}
+
+class AnimalDemo {
+	public static void main(String[] args) {
+		//跳高猫
+		//无参
+		JumpCat jc = new JumpCat();
+		jc.setName("机器猫");

@@ -1,0 +1,10 @@
+        }
+        return toBeHandle;
+    }
+    /**
+     * 开始计时
+     * @param request
+     */
+    private void startProfile(HttpServletRequest request)
+    {
+        request.setAttribute(PERFORMANCE_CAL_KEY, System.nanoTime());

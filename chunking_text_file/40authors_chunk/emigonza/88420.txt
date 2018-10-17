@@ -1,0 +1,10 @@
+                       throws JposException;
+    public int     getMarqueeFormat() throws JposException;
+    public void    setMarqueeFormat(int marqueeFormat) throws JposException;
+    public int     getMarqueeRepeatWait() throws JposException;
+    public void    setMarqueeRepeatWait(int marqueeRepeatWait)
+                       throws JposException;
+    public int     getMarqueeType() throws JposException;
+    public void    setMarqueeType(int marqueeType) throws JposException;
+    public int     getMarqueeUnitWait() throws JposException;
+    public void    setMarqueeUnitWait(int marqueeUnitWait)

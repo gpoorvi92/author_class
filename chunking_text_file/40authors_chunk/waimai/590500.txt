@@ -1,0 +1,10 @@
+                throw new ServiceException("上传图片失败");
+            } catch (IOException e) {
+                throw new ServiceException("上传图片失败");
+            }
+            imageRecommend.setImage(filename);
+        }
+        imageRecommend.setUpdateDate(new Date());
+        imageRecommendMapper.updateByPrimaryKeySelective(imageRecommend);
+    }
+

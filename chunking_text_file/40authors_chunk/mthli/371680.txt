@@ -1,0 +1,10 @@
+               {
+                  boolean isResult = stat.execute(line);
+                  if (isResult)
+                  {
+                     ResultSet rs = stat.getResultSet();
+                     showResultSet(rs);
+                  }
+                  else
+                  {
+                     int updateCount = stat.getUpdateCount();

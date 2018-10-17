@@ -1,0 +1,10 @@
+        if (reachedMaxDepth(p, depth)) {
+            Vector v = new Vector(2);
+            float value = positionEvaluation(p, player);
+            v.addElement(new Float(value));
+            v.addElement(null);
+            if(GameSearch.DEBUG) {
+                System.out.println(" alphaBetaHelper: mx depth at " + depth+
+                                   ", value="+value);
+            }
+            return v;

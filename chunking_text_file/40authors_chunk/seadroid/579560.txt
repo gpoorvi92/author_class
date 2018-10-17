@@ -1,0 +1,10 @@
+        mServerUrlEt.setText(SHIBBOLETH_HTTP_PREFIX);
+        int prefixLen = SHIBBOLETH_HTTP_PREFIX.length();
+        mServerUrlEt.setSelection(prefixLen, prefixLen);
+        setupServerText();
+
+        mNextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = getServerUrl();
+                if (isServerUrlValid(url))

@@ -1,0 +1,10 @@
+
+    public OkHttpStack(OkHttpClient client) {
+        if (client == null) {
+            throw new NullPointerException("Client must not be null.");
+        }
+        this.client = new OkUrlFactory(client);
+
+        // No SPDY :( https://github.com/square/okhttp/issues/184
+        // tried URL.setURLStreamHandlerFactory(new OkHttpClient()); but not working atm
+//        ArrayList< String > list = new ArrayList< String >();

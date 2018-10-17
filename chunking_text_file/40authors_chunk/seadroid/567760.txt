@@ -1,0 +1,10 @@
+        Bundle extras = intent.getExtras();
+        if (extras != null) {
+            Object extraStream = extras.get(Intent.EXTRA_STREAM);
+
+            if(localPath == null) localPath = Lists.newArrayList();
+            if (extraStream instanceof ArrayList) {
+                for (Uri uri : (ArrayList<Uri>)extraStream) {
+                    localPath.add(getSharedFilePath(uri));
+                }
+            } else if (extraStream instanceof Uri) {

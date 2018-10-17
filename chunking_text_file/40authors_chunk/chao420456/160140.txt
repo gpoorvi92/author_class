@@ -1,0 +1,10 @@
+		cn.itcast.add
+			AddStudent
+			AddTeacher
+			AddWorker
+		cn.itcast.delete
+			DeleteStudent
+			DeleteTeacher
+			DeleteWorker
+		cn.itcast.update
+		cn.itcast.find

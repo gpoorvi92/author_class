@@ -1,0 +1,10 @@
+package ipower.wechat.utils;
+
+import ipower.utils.MD5Util;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+
+/**
+ * 校验工具类。

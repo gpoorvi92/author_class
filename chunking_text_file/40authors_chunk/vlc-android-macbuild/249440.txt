@@ -1,0 +1,10 @@
+import tv.danmaku.media.vsl.LibVlcVideoSegmentListLoader;
+
+import android.content.Context;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.os.AsyncTask;
+import android.view.SurfaceHolder;
+import android.view.SurfaceHolder.Callback;
+
+public class DefMediaListPlayer extends AbsMediaPlayer implements

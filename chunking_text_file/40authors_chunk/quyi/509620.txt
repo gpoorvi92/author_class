@@ -1,0 +1,10 @@
+      this.checkTime = other.checkTime;
+    }
+    if (other.isSetMD5()) {
+      this.MD5 = other.MD5;
+    }
+    this.checkEngineNum = other.checkEngineNum;
+    this.positives = other.positives;
+    if (other.isSetVirusEngine()) {
+      List<VirusEngine> __this__virusEngine = new ArrayList<VirusEngine>(other.virusEngine.size());
+      for (VirusEngine other_element : other.virusEngine) {

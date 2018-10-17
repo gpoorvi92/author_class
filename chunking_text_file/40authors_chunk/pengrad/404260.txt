@@ -1,0 +1,10 @@
+
+    public static TelegramBot buildDebug(String botToken) {
+        return buildCustom(botToken, client(httpLoggingInterceptor()));
+    }
+
+    public static TelegramBot buildCustom(String botToken, OkHttpClient okHttpClient) {
+        TelegramBotClient client = new TelegramBotClient(okHttpClient, gson(), apiUrl(botToken));
+        FileApi fileApi = new FileApi(botToken);
+        return new TelegramBot(client, fileApi);
+    }

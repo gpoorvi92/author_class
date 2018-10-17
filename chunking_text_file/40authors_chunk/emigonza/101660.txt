@@ -1,0 +1,10 @@
+  public int     getDepositAmount() throws JposException;
+  public String  getDepositCashList() throws JposException;
+  public String  getDepositCodeList() throws JposException;
+  public String  getDepositCounts() throws JposException;
+  public int     getDepositStatus() throws JposException;
+  public int     getFullStatus() throws JposException;
+  public int     getPowerNotify() throws JposException;
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public boolean getRealTimeDataEnabled() throws JposException;

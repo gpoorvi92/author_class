@@ -1,0 +1,10 @@
+     * was first displayed.
+     */
+    boolean isModified();
+
+    /**
+     * This method is used to retrieve the data that is currently selected by
+     * the user.
+     *
+     * @return The data that is currently selected by the user. This may be
+     * <code>null</code> if no selection is currently made.

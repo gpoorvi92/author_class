@@ -1,0 +1,10 @@
+        while (cur != null) {
+            if (map.containsKey(cur) == false) {
+                map.put(cur, new RandomListNode(cur.label));
+            }
+            if (cur.random != null && map.containsKey(cur.random) == false) {
+                map.put(cur.random, new RandomListNode(cur.random.label));
+            }
+            curNew.next = map.get(cur);
+            curNew.next.random = map.get(cur.random);
+            curNew = curNew.next;

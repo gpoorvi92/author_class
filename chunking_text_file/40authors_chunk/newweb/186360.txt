@@ -1,0 +1,10 @@
+	OrderLhjWinProp[] queryOrderLhjWinPropsByOrderID(String orderid);
+
+	boolean modifyOrder(Order order);
+
+	boolean removeOrder(Order order);
+
+	Order[] queryAllOrders();
+
+	List queryDoneOrderByCreateDateACustomerLikeCondition(String startDate,String endDate, String customer,
+			int start, int limit);

@@ -1,0 +1,10 @@
+package cn.itcast_05;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+
+/*
+ 需求：
+ 假设HashMap集合的元素值是ArrayList。有3个。
+ 每一个ArrayList集合的值是字符串。

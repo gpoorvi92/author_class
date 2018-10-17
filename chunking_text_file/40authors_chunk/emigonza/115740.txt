@@ -1,0 +1,10 @@
+  extends BaseService, JposServiceInstance
+{
+    // Capabilities
+    public boolean getCapBold() throws JposException;
+    public int     getCapCardEntranceSensor() throws JposException;
+    public int     getCapCharacterSet() throws JposException;
+    public boolean getCapCleanCard() throws JposException;
+    public boolean getCapClearPrint() throws JposException;
+    public boolean getCapDhigh() throws JposException;
+    public boolean getCapDwide() throws JposException;

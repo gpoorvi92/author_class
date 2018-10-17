@@ -1,0 +1,10 @@
+import org.cybergarage.xml.*;
+import org.cybergarage.soap.*;
+
+import org.cybergarage.upnp.*;
+
+public class ActionRequest extends ControlRequest
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////

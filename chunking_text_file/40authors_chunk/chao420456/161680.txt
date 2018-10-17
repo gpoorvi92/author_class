@@ -1,0 +1,10 @@
+				// 存储
+				tm.put(ch, 1);
+			} else {
+				// 把值++，重新存储
+				i++;
+				tm.put(ch, i);
+			}
+		}
+
+		// 定义一个StringBuilder字符串

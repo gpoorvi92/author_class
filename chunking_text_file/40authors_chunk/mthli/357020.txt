@@ -1,0 +1,10 @@
+               String line = in.nextLine();
+               if (line.contains(keyword)) found = true;
+            }
+            return found;
+         }
+      }
+      catch (IOException e)
+      {
+         return false;
+      }

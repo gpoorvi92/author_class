@@ -1,0 +1,10 @@
+            return 1;
+            } catch (Exception ex) {
+                System.out.println("Error loading " + fpath + " is: " + ex);
+                return 0;
+            }   
+    }
+    public int changeModule(String workingModule) {
+        try {
+            PLI.sChangeModule(workingModule, null);
+            this.workingModule = workingModule;

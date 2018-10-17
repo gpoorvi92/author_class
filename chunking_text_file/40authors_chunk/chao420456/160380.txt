@@ -1,0 +1,10 @@
+	}
+
+	public void work() {
+		System.out.println("¹¥³ÇÊ¨ĞÁĞÁ¿à¿àĞ´´úÂë");
+	}
+}
+
+class Manager extends Employee {
+	private int bonus;
+

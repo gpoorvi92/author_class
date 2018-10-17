@@ -1,0 +1,10 @@
+	private JLabel lblInfo=new JLabel("Ingredient: ");
+	private ImageIcon ABC=new ImageIcon("makanan/bihun goreng.jpeg");
+	private JButton jbtBack =new JButton("Back");
+
+    public BihunGorengInfo() 
+    {
+    	Container cont=getContentPane();
+		cont.setLayout(new BorderLayout(5,5));
+		cont.setBackground(Color.white);
+		

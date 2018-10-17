@@ -1,0 +1,10 @@
+
+    public updateAppStatus_args() {
+    }
+
+    public updateAppStatus_args(
+      String missionId,
+      String userAppId,
+      com.nercis.isscp.idl.AppStatus status,
+      List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions,
+      com.nercis.isscp.idl.StaticCheckResultData stcRD,

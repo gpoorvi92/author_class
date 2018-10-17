@@ -1,0 +1,8 @@
+
+
+	public static float format(float f) {
+		return ((float)Math.ceil(f * 100)) / 100f;
+	}
+
+
+}

@@ -1,0 +1,9 @@
+        networkResponse = null;
+    }
+
+    public VolleyError(Throwable cause) {
+        super(cause);
+        networkResponse = null;
+    }
+
+}

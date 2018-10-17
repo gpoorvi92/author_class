@@ -1,0 +1,10 @@
+        case 1: // MONITOR_TIME
+          return MONITOR_TIME;
+        case 2: // SCREEN_SHOT_PATH
+          return SCREEN_SHOT_PATH;
+        case 3: // IMAGE_CONTENT
+          return IMAGE_CONTENT;
+        case 4: // CHECK_RESULT
+          return CHECK_RESULT;
+        default:
+          return null;

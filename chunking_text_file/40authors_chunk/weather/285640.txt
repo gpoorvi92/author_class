@@ -1,0 +1,10 @@
+                        }
+                    }
+                }
+
+                results.values = newValues;
+                results.count = newValues.size();
+            }
+
+            return results;
+        }

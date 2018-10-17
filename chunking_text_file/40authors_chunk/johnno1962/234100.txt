@@ -1,0 +1,10 @@
+
+/// interface com.apple.eawt.ApplicationListener ///
+
+package org.genie.com_apple;
+
+public class ApplicationListenerProxy implements com.apple.eawt.ApplicationListener {
+
+    long swiftObject;
+
+    ApplicationListenerProxy( long swiftObject ) {

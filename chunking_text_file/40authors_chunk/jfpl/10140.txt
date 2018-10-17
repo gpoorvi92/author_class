@@ -1,0 +1,10 @@
+			}
+			if ("1".equals(msgType)) { // 文本
+				TextView chatTv = (TextView) v.findViewById(R.id.chat_msg);
+				chatTv.setPadding(12, 10, 25, 0);
+				String chatMsg = acd.getStringValue("chat_msg");
+				if ("0".equals(acd.getStringValue("load_data_type"))
+						&& acd.getStringValue("send_state") == null) {
+					chatMsg = ChatMessageUtil.convertToServerMessage(chatMsg);
+					update("add_chat_message", msgId, "1", "1",
+							GlobalVariables.loginUsername,

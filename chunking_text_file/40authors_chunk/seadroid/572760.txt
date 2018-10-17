@@ -1,0 +1,10 @@
+
+        ByteArrayInputStream bis = null;
+        ObjectInputStream ois = null;
+        byte[] data = null;
+
+        data = Base64.decode(text, Base64.DEFAULT);
+
+        try {
+            bis = new ByteArrayInputStream(data);
+            ois = new ObjectInputStream(bis);

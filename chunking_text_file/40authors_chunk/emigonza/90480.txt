@@ -1,0 +1,10 @@
+// 2004-Apr-01 JavaPOS Release 1.8                                 BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface PointCardRWControl18 extends PointCardRWControl17
+{

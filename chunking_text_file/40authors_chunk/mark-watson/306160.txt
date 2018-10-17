@@ -1,0 +1,10 @@
+            }
+            if (drawnPosition(startingPosition)) {
+                System.out.println("Drawn game");
+                break;
+            }
+            System.out.println("Your move:");
+            Move move = createMove();
+            startingPosition = makeMove(startingPosition, HUMAN, move);
+            printPosition(startingPosition);
+            Vector v = alphaBeta(0, startingPosition, PROGRAM);

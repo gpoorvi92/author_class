@@ -1,0 +1,10 @@
+	 */
+	protected static HttpSession getSession() {
+		
+		return getRequest().getSession();
+	}
+	
+	/**
+	 * Checks logged or not.
+	 * 
+	 * @Title: canAccess

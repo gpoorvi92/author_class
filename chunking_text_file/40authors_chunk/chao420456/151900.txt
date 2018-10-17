@@ -1,0 +1,10 @@
+			System.out.println("请选择：");
+			// 键盘录入数据
+			Scanner sc = new Scanner(System.in);
+			String choiceString = sc.nextLine();
+
+			// 多处使用
+			UserDao ud = new UserDaoImpl();
+
+			switch (choiceString) {
+			case "1":

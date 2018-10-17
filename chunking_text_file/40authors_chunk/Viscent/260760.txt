@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch3.immutableobject;
+
+/**
+ * 彩信中心信息
+ * 
+ * 模式角色：ImmutableObject.ImmutableObject
+ */

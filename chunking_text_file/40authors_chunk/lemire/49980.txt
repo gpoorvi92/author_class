@@ -1,0 +1,6 @@
+                .println("checking int iteration over a var density bitset of size "
+                        + e.cardinality());
+
+    }
+
+}

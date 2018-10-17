@@ -1,0 +1,10 @@
+								textStartY+j*characterSpanY,
+								paint);
+					}
+				}
+				else{//还不是最后一排
+					for(int j=0;j<characterEachLine;j++){
+						canvas.drawText(
+								msg.charAt(startChar+i*characterEachLine+j)+"",
+								textStartX-i*characterSpanX,
+								textStartY+j*characterSpanY,

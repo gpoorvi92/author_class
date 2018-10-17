@@ -1,0 +1,10 @@
+	public int getGbCount() {
+		return gbCount;
+	}
+	public void setGbCount(int gbCount) {
+		this.gbCount = gbCount;
+	}
+	public double getZfLength() {
+		return zfLength;
+	}
+	public void setZfLength(double zfLength) {

@@ -1,0 +1,10 @@
+public class ClientThread extends Thread {
+
+	public Socket clientSocket;
+	public ServerThread serverThread;
+	public DataInputStream dis;
+	public DataOutputStream dos;
+	public String client_userID;
+	private boolean flag_exit = false;
+	public ClientThread(Socket socket, ServerThread serverThread){
+		clientSocket = socket;

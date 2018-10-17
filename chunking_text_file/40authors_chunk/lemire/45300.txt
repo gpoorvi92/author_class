@@ -1,0 +1,10 @@
+     * @return how many words were actually materialized
+     */
+    public static long materialize(final IteratingRLW i,
+                                   final BitmapStorage c, long max) {
+        final long origMax = max;
+        while (true) {
+            if (i.getRunningLength() > 0) {
+                long L = i.getRunningLength();
+                if (L > max)
+                    L = max;

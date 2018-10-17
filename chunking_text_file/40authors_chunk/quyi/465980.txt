@@ -1,0 +1,10 @@
+				wcf_left.setAlignment(Alignment.LEFT); // 文字水平对齐
+				wcf_left.setWrap(false); // 文字是否换行
+				Workbook preWorkbook = Workbook.getWorkbook(new File(dfilePath));
+				WritableWorkbook workbook = Workbook.createWorkbook(new File(dfilePath), preWorkbook);
+				/** **********创建工作表************ */
+				WritableSheet dsheet = workbook.getSheet(0);
+				 dsheet.addCell((WritableCell) new Label(2,i+1,rowinfoList.get(2),wcf_left));
+				 dsheet.addCell(new Label(3,i+1,rowinfoList.get(3),wcf_left));
+				 dsheet.addCell(new Label(4,i+1,rowinfoList.get(4),wcf_left));
+				 dsheet.addCell(new jxl.write.Number(5,i+1,Long.parseLong(rowinfoList.get(5)),wcf_left));

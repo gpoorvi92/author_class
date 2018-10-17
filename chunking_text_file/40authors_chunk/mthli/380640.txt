@@ -1,0 +1,10 @@
+               }
+               catch (IOException ex)
+               {
+                  ex.printStackTrace();
+               }
+            }
+         });
+
+      JPanel buttonPanel = new JPanel();
+      ((FlowLayout) buttonPanel.getLayout()).setHgap(2);

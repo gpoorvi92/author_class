@@ -1,0 +1,10 @@
+    return this.monitorTime;
+  }
+
+  public RunMonitor setMonitorTime(String monitorTime) {
+    this.monitorTime = monitorTime;
+    return this;
+  }
+
+  public void unsetMonitorTime() {
+    this.monitorTime = null;

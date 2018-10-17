@@ -1,0 +1,10 @@
+                struct.setUserAppIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 3: // PLOTS_STATUS
+              if (schemeField.type == org.apache.thrift.protocol.TType.MAP) {
+                {
+                  org.apache.thrift.protocol.TMap _map42 = iprot.readMapBegin();
+                  struct.plotsStatus = new HashMap<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>(2*_map42.size);

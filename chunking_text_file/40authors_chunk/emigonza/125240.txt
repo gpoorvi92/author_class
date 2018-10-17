@@ -1,0 +1,10 @@
+    //-------------------------------------------------------------------------
+    // Public class methods
+    //
+
+    /**
+     * Simple main entry point that prints out all current properties (name and value) defined
+     * @param args the array for String argument
+     */
+    public static void main( String[] args )
+    {

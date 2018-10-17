@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+
+	public void setMYNAME(String value)
+	{
+		setHeader(HTTP.MYNAME, value);
+	}
+
+	public String getMYNAME()
+	{
+		return getHeaderValue(HTTP.MYNAME);

@@ -1,0 +1,10 @@
+           FontMetrics f = g.getFontMetrics(font);
+           int size = f.stringWidth(msg);
+           int left = (width-size)/2;
+             g.drawString(msg,left,top);
+             top += 20;
+        }
+        if (width>20 && !completed && progress>0)
+        {
+          int sidePadding = (int)((width-20)*(1-progress)/2);
+            g.drawRect(10, top, width - 20, 20);

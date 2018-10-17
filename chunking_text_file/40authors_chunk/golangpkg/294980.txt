@@ -1,0 +1,10 @@
+ * 
+ * @author antoinem
+ * 
+ */
+@Component
+public class DefaultIdentifierProvider
+		implements IdentifierProvider {
+
+
+	public static final String cookieIdentifier = "jlufStaticStateCookieName";

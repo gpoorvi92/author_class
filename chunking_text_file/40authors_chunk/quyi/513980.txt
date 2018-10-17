@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public reportEngineConfig_result(reportEngineConfig_result other) {
+      if (other.isSetSuccess()) {
+        this.success = other.success;
+      }
+      if (other.isSetUe()) {

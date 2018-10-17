@@ -1,0 +1,10 @@
+		query.setMaxResults(limit);
+		list.add(0, size);
+		list.add(1, query.list());
+		return list;
+	}
+
+	@Override
+	public LhjPrice selectLhjPriceByID(int lid) {
+		return (LhjPrice) sessionFactory.getCurrentSession().get(LhjPrice.class, lid);
+	}

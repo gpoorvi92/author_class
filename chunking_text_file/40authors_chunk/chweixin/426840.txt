@@ -1,0 +1,10 @@
+	 * 图片存储路径。
+	 * */
+	public void setPath(String path) {
+		this.path = path;
+	}
+	/**
+	 * 获取图片大小(K).
+	 * @return 图片大小(K).
+	 * */
+	public Long getSize() {

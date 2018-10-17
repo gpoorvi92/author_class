@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.MenuDragMouseListener ///
+
+package org.genie.javax_swing;
+
+public class MenuDragMouseListenerProxy implements javax.swing.event.MenuDragMouseListener {
+
+    long swiftObject;
+
+    MenuDragMouseListenerProxy( long swiftObject ) {

@@ -1,0 +1,10 @@
+        } catch (FileNotFoundException ex) {
+            mWidth = 0;
+            mHeight = 0;
+        } finally {
+            Util.closeSilently(input);
+        }
+    }
+
+    public int getWidth() {
+        if (mWidth == UNKNOWN_LENGTH) setupDimension();

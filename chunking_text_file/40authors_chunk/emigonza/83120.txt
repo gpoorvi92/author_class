@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// CATControl18
+//
+//   Interface definining all capabilities, properties and methods that are
+//   specific to the Credit Authorization Terminal for release 1.8.
+//
+// Modification history
+// ---------------------------------------------------------------------------
+// 03-Jun-2003 JavaPOS Release 1.8                                          BS

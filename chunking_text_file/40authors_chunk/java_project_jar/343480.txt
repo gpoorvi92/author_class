@@ -1,0 +1,10 @@
+    }
+
+    public long getDelay()
+    {
+        return delay;
+    }
+
+    public void run()
+    {
+        RandomAccessFile reader = null;

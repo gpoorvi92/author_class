@@ -1,0 +1,10 @@
+		{
+			while(true)
+			{
+				
+				
+				x+=incx;
+				y+=incy;
+				
+				if(x >= getWidth()-(int)circle.width || x <= 1)
+				{	

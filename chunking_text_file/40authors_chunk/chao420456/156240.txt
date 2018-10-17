@@ -1,0 +1,9 @@
+		int len = 0;
+		while ((len = fis.read(bys)) != -1) {
+			System.out.print(new String(bys, 0, len));
+		}
+
+		// สอทลืสิด
+		fis.close();
+	}
+}

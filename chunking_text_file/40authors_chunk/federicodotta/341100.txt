@@ -1,0 +1,10 @@
+     * <code>IScannerInsertionPoint</code> object provided to build scan
+     * requests for particular payloads.
+     * <b>Note:</b>
+     * Scan checks should submit raw non-encoded payloads to insertion points,
+     * and the insertion point has responsibility for performing any data
+     * encoding that is necessary given the nature and location of the insertion
+     * point.
+     *
+     * @param baseRequestResponse The base HTTP request / response that should
+     * be actively scanned.

@@ -1,0 +1,10 @@
+      addButton("=", command);
+      addButton("+", command);
+
+      add(panel, BorderLayout.CENTER);
+   }
+
+   /**
+      Gets the history text.
+      @return the calculator history
+   */

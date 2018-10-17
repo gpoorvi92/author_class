@@ -1,0 +1,10 @@
+public class SubscriptionResponse extends HTTPResponse
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public SubscriptionResponse()
+	{
+		setServer(UPnP.getServerName());
+	}

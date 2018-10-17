@@ -1,0 +1,10 @@
+                size = size * 2;
+            else if (size * 3 / 2 < size) // overflow
+                size = Integer.MAX_VALUE;
+            else
+                size = size * 3 / 2;
+        }
+        return size;
+    }
+    
+    /**

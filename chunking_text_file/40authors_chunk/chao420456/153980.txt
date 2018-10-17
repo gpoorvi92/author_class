@@ -1,0 +1,10 @@
+
+//抽象的运动员类
+abstract class Player extends People {
+	public Player() {}
+
+	public Player(String name,int age) {
+		super(name,age);
+	}
+
+	public abstract void study();

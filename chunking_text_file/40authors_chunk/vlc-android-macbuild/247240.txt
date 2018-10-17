@@ -1,0 +1,8 @@
+        try {
+            return Integer.valueOf(value);
+        } catch (NumberFormatException e) {
+        }
+
+        return defaultValue;
+    }
+}

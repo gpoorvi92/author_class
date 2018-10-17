@@ -1,0 +1,10 @@
+  public java.util.Iterator<APICheck> getApiCheckIterator() {
+    return (this.apiCheck == null) ? null : this.apiCheck.iterator();
+  }
+
+  public void addToApiCheck(APICheck elem) {
+    if (this.apiCheck == null) {
+      this.apiCheck = new ArrayList<APICheck>();
+    }
+    this.apiCheck.add(elem);
+  }

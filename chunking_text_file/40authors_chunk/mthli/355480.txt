@@ -1,0 +1,10 @@
+      {
+         if (aIter.hasNext()) aIter.next();
+         aIter.add(bIter.next());
+      }
+
+      System.out.println(a);
+
+      // remove every second word from b
+
+      bIter = b.iterator();

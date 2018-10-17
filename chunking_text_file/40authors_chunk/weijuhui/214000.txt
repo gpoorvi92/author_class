@@ -1,0 +1,10 @@
+public class JsonHttpResponseHandler extends AsyncHttpResponseHandler {
+    protected static final int SUCCESS_JSON_MESSAGE = 100;
+
+    //
+    // Callbacks to be overridden, typically anonymously
+    //
+
+    /**
+     * Fired when a request returns successfully and contains a json object
+     * at the base of the response string. Override to handle in your

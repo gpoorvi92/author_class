@@ -1,0 +1,10 @@
+        super("modifyEngineConfig");
+      }
+
+      public modifyEngineConfig_args getEmptyArgsInstance() {
+        return new modifyEngineConfig_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.Result> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<com.nercis.isscp.idl.Result>() { 

@@ -1,0 +1,10 @@
+	public Account[] getAccounts(String[] nameArray) {
+		List<Account> result=new ArrayList<Account>();
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		QueryBuilder queryBuilder = QueryBuilder.start();
+		DBObject query=queryBuilder.put("userName").in(nameArray).get();
+		DBCursor cursor=null;
+		try{
+			cursor=coll.find(query);
+			while(cursor.hasNext()){
+				DBObject obj=cursor.next();

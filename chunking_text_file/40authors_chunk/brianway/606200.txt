@@ -1,0 +1,7 @@
+/*
+输出：
+testMethod1   ____getLock time=1460467206978 run ThreadName=a
+testMethod1   releaseLock time=1460467208978 run ThreadName=a
+testMethod1   ____getLock time=1460467208978 run ThreadName=b
+testMethod1   releaseLock time=1460467210978 run ThreadName=b
+ */

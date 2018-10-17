@@ -1,0 +1,10 @@
+		/*
+		Employee e = new Manager();
+		e.setName("ÍõÄİ");
+		e.setEid("10086");
+		e.setSalary(6000);
+		//e.setBonus(2000);
+		e.show();
+		e.work();
+		*/
+

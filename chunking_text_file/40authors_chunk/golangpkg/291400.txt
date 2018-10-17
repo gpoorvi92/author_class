@@ -1,0 +1,10 @@
+
+		// unregister one listener
+		jlfuListenerPropagator.unregisterListener(listener);
+
+		// trigger event
+		jlfuListenerPropagator.getPropagator().onNewClient(UUID.randomUUID());
+		Thread.sleep(100);
+
+		// assert
+		Assert.assertThat(testCounter, CoreMatchers.is(3));

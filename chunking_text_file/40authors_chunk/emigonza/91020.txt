@@ -1,0 +1,10 @@
+	        service.deleteInstance();
+	        service = null;
+    	}
+        
+        tracer.println( "Disconnected to service OK" );
+    }
+
+    /**
+     * Add a finalizer method in case the service connection is garbage collected
+     * and the service of this connection has not been disconnected

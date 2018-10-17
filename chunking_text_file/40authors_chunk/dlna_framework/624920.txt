@@ -1,0 +1,10 @@
+	public void setWidth(String value)
+	{
+		getIconNode().setNode(WIDTH, value);
+	}
+
+	public void setWidth(int value)
+	{
+		try {
+			setWidth(Integer.toString(value));
+		}

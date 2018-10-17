@@ -1,0 +1,10 @@
+        progressAtLastPaint = progress;
+        g.setColor(Color.BLACK);
+        g.fillRect(0, 0, width, height);
+        g.setColor(Color.WHITE);
+        int top=height/2-10;
+        if (completed)
+            msg = "Completely loaded!";
+        if (msg!=null)
+        {
+           Font font = g.getFont();

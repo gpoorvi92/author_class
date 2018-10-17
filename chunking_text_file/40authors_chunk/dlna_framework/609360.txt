@@ -1,0 +1,10 @@
+		String callback = getCallback();
+		return (callback != null && 0 < callback.length()) ? true : false;
+	}
+
+	////////////////////////////////////////////////
+	//	SID
+	////////////////////////////////////////////////
+
+	public void setSID(String id)
+	{

@@ -1,0 +1,10 @@
+
+  public int getUsedPermissionsSize() {
+    return (this.usedPermissions == null) ? 0 : this.usedPermissions.size();
+  }
+
+  public java.util.Iterator<Map<String,APICheck>> getUsedPermissionsIterator() {
+    return (this.usedPermissions == null) ? null : this.usedPermissions.iterator();
+  }
+
+  public void addToUsedPermissions(Map<String,APICheck> elem) {

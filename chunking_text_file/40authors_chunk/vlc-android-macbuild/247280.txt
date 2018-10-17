@@ -1,0 +1,10 @@
+     * Thread Policy
+     */
+    private static final boolean THREAD__DETECT_CUSTOM_SLOW_CALLS = true;
+    private static final boolean THREAD__DETECT_DISK_READS = false;
+    private static final boolean THREAD__DETECT_DISK_WRITES = false;
+    private static final boolean THREAD__DETECT_NETWORK = true;
+
+    private enum ThreadPenalty {
+        Death, DeathOnNetwork, Dialog, DropBox, FlashScreen, Log
+    };

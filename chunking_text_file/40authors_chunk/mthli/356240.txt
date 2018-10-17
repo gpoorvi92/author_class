@@ -1,0 +1,10 @@
+    */
+   private void addRadioButton(String s, ActionListener listener)
+   {
+      JRadioButton button = new JRadioButton(s, false)
+         {
+            // the button calls this method to fire an
+            // action event. We override it to trap exceptions
+            protected void fireActionPerformed(ActionEvent event)
+            {
+               try

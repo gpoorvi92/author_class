@@ -1,0 +1,10 @@
+package buttons3;
+
+import java.awt.*;
+import javax.swing.*;
+import runtimeAnnotations.*;
+
+/**
+ * A frame with a button panel.
+ * @version 1.00 2004-08-17
+ * @author Cay Horstmann

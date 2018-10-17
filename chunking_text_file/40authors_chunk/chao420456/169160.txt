@@ -1,0 +1,10 @@
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+/*
+ * 通过观察我们知道我们要做的东西是1个窗体，4个按钮
+ */
+public class MouseDemo {
+	public static void main(String[] args) {
+		// 创建窗体对象

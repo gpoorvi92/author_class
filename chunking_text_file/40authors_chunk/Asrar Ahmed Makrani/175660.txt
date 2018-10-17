@@ -1,0 +1,8 @@
+        pane1.add(pic, BorderLayout.EAST);
+    	pane1.add(text, BorderLayout.WEST);  
+    	
+    	add(pane1);
+
+    }
+    
+    }

@@ -1,0 +1,10 @@
+// CATBeanInfo.java - Bean information for the JavaPOS CAT
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

@@ -1,0 +1,10 @@
+
+    DragSourceAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.dnd.DragSourceAdapter.dragDropEnd(java.awt.dnd.DragSourceDropEvent)
+
+    public native void __dragDropEnd( java.awt.dnd.DragSourceDropEvent dsde );
+

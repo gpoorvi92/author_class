@@ -1,0 +1,10 @@
+    this.rules.add(elem);
+  }
+
+  public List<String> getRules() {
+    return this.rules;
+  }
+
+  public AppSendMessage setRules(List<String> rules) {
+    this.rules = rules;
+    return this;

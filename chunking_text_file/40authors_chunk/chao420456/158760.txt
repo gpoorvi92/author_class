@@ -1,0 +1,10 @@
+		// for (int x = 0; x < list.size(); x++) {
+		// String s = (String) list.get(x);
+		// if ("world".equals(s)) {
+		// list.add("android");
+		// }
+		// }
+
+		// 使用列表迭代器
+		ListIterator lit = list.listIterator();
+		while (lit.hasNext()) {

@@ -1,0 +1,10 @@
+  }
+
+  public void unsetPidName() {
+    this.pidName = null;
+  }
+
+  /** Returns true if field pidName is set (has been assigned a value) and false otherwise */
+  public boolean isSetPidName() {
+    return this.pidName != null;
+  }

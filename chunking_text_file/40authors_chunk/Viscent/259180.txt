@@ -1,0 +1,5 @@
+	public T take() throws InterruptedException {
+		return take(null);
+	}
+
+}

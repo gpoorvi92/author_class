@@ -1,0 +1,10 @@
+     * 快速比较俩个字符串的相似度
+     *
+     * @param strA 较长的字符串
+     * @param strB 较短的字符串
+     * @return 俩个字符串的相似度
+     * <p>summary</p>:较长的字符串放到前面有助于提交效率
+     */
+    public static double SimilarDegree(String strA, String strB) {
+        String newStrA = removeSign(strA);
+        String newStrB = removeSign(strB);

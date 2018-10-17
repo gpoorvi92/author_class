@@ -1,0 +1,10 @@
+		OrderPrice op = orderPriceService.findOrderPriceByCondition("lhj",lhjWeight.getMaterialBrand().getID(),
+				lhjWeight.getOrder().getID());
+		if(!orderPriceService.remove(op)){
+			StringBuilder sb = new StringBuilder();
+			sb.append("数据删除异常\t" + new Date());
+			sb.append("\n目标表：t_orderprice\n");
+			sb.append("ID:" + op.getID()+"\n\n");
+			FileUtil.writeTextToTextFile(sb.toString(), "log" + File.separator +"database", "record.txt",true);
+			JOptionPane.showConfirmDialog(null,
+					"警告，铝合金订单价格同步删除失败，请查看" + "log" + File.separator +"database" + 

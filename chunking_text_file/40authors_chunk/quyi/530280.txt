@@ -1,0 +1,10 @@
+    boolean that_present_app_description = true && that.isSetApp_description();
+    if (this_present_app_description || that_present_app_description) {
+      if (!(this_present_app_description && that_present_app_description))
+        return false;
+      if (!this.app_description.equals(that.app_description))
+        return false;
+    }
+
+    boolean this_present_requestPurviews = true && this.isSetRequestPurviews();
+    boolean that_present_requestPurviews = true && that.isSetRequestPurviews();

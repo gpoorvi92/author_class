@@ -1,0 +1,10 @@
+            if (count != M) continue;
+            // move 'start'
+            for (; start < end; ++start) {
+                if (need[S.charAt(start)] == 0) continue;
+                if (find[S.charAt(start)] <= need[S.charAt(start)]) break;
+                find[S.charAt(start)]--;
+            }
+            // update result
+            if (end - start < resEnd - resStart) {
+                resStart = start;

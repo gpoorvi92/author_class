@@ -1,0 +1,10 @@
+  public Sample setPlotsStatus(Map<PlotsType,CheckResultStatus> plotsStatus) {
+    this.plotsStatus = plotsStatus;
+    return this;
+  }
+
+  public void unsetPlotsStatus() {
+    this.plotsStatus = null;
+  }
+
+  /** Returns true if field plotsStatus is set (has been assigned a value) and false otherwise */

@@ -1,0 +1,10 @@
+      for (int i = 1; i < a.length; i++)
+      {
+         if (min.getBonus() > a[i].getBonus()) min = a[i];
+         if (max.getBonus() < a[i].getBonus()) max = a[i];
+      }
+      result.setFirst(min);
+      result.setSecond(max);
+   }
+
+   public static void maxminBonus(Manager[] a, Pair<? super Manager> result)

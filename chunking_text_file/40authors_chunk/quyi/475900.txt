@@ -1,0 +1,10 @@
+      this.plots = null;
+    }
+
+    /** Returns true if field plots is set (has been assigned a value) and false otherwise */
+    public boolean isSetPlots() {
+      return this.plots != null;
+    }
+
+    public void setPlotsIsSet(boolean value) {
+      if (!value) {

@@ -1,0 +1,10 @@
+  public AppSendMessage(
+    String missionId,
+    List<UserApp> userApps,
+    List<String> rules,
+    List<PlotsType> plots,
+    JobPriority jobPriority,
+    Map<String,String> taskInfo)
+  {
+    this();
+    this.missionId = missionId;

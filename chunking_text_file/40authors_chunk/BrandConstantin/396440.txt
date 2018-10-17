@@ -1,0 +1,10 @@
+               contador++; 
+        }
+    }
+    System.out.println();
+
+    System.out.println(naranja + "\n=========================================================================");
+
+    //ordenar los numeros 
+    for (i = 0; i < auxiliar.length; i++){
+      System.out.print(verde + i + "\t");

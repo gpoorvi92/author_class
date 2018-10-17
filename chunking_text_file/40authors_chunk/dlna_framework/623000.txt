@@ -1,0 +1,10 @@
+
+	public final static String toSIDHeaderString(String id)
+	{
+		return Subscription.UUID + id;
+	}
+
+	public final static String getSID(String headerValue)
+	{
+		if (headerValue == null)
+			return "";

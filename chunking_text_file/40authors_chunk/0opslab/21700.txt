@@ -1,0 +1,10 @@
+    public void testMain() {
+        String[] strArr = new String[]{
+                "www.micmiu.com",
+                "!@#$%^&*()_+{}[]|\"'?/:;<>,.",
+                "！￥……（）——：；“”‘’《》，。？、",
+                "不要啊",
+                "やめて",
+                "韩佳人",
+                "???"};
+        for (String str : strArr) {

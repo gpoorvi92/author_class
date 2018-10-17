@@ -1,0 +1,10 @@
+      }
+      if (struct.engineName != null) {
+        oprot.writeFieldBegin(ENGINE_NAME_FIELD_DESC);
+        oprot.writeString(struct.engineName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.engineIp != null) {
+        oprot.writeFieldBegin(ENGINE_IP_FIELD_DESC);
+        oprot.writeString(struct.engineIp);
+        oprot.writeFieldEnd();

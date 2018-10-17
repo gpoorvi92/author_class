@@ -1,0 +1,10 @@
+			{
+				System.out.println("Key Pressed");
+				if(e.getKeyCode() == KeyEvent.VK_DELETE)
+				{
+					if(getSelected() != null)
+					{
+						remove(selected);
+						repaint();
+					}
+				}

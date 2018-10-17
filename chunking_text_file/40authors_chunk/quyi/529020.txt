@@ -1,0 +1,10 @@
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(UserApp.class, metaDataMap);
+  }
+
+  public UserApp() {
+  }
+
+  public UserApp(
+    String app_id,
+    String app_name,

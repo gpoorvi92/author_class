@@ -1,0 +1,10 @@
+private int capacity;
+private HuffmanNode obj[];
+	
+	public PriorityQueue(int cap){
+	
+		head=new DLNode();
+		tail=new DLNode();
+		head.setNext(tail);
+		tail.setPrev(head);
+		capacity=cap;

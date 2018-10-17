@@ -1,0 +1,10 @@
+
+    public boolean accept(File file, String name)
+    {
+        String arr$[] = prefixes;
+        int len$ = arr$.length;
+        for(int i$ = 0; i$ < len$; i$++)
+        {
+            String prefix = arr$[i$];
+            if(caseSensitivity.checkStartsWith(name, prefix))
+                return true;

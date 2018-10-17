@@ -1,0 +1,10 @@
+   {
+      return years;
+   }
+
+   public int getColumnCount()
+   {
+      return maxRate - minRate + 1;
+   }
+
+   public Object getValueAt(int r, int c)

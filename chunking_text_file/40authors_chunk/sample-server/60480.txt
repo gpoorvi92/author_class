@@ -1,0 +1,10 @@
+            public void channelClosed(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception
+            {
+                log.info("从聊天服务器端口:{}", ctx.getChannel());
+            }
+            @Override
+            public void channelConnected(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception
+            {
+                log.info("连上聊天服务器:{}", ctx.getChannel());
+            }
+            @Override

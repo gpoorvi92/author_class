@@ -1,0 +1,10 @@
+     * @param cols
+     * @return
+     */
+    public final static boolean valid(Collection... cols) {
+        for (Collection c : cols) {
+            if (!valid(c)) {
+                return false;
+            }
+        }
+        return true;

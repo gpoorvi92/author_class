@@ -1,0 +1,10 @@
+    }
+
+    /** Basically: v = this*v
+     * Assumes this matrix is a 3 by 3 matrix for efficiency purposes
+     */
+    public void multiplyAndStore3By3(Vector3D v)
+    {
+        double []resultComponents = new double[3];
+        double []vectorComponents = new double[3];
+       

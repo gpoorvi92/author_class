@@ -1,0 +1,10 @@
+			hql += "  and w.account.id = :accountId  ";
+			parameters.put("accountId", accountId);
+		}
+		hql += " order by w.orderNo";
+		return this.find(hql, parameters, null, null);
+	}
+
+	@Override
+	public WeChatMenu loadMenu(String accountId,String code) {
+		if(accountId == null || accountId.trim().isEmpty()) return null;

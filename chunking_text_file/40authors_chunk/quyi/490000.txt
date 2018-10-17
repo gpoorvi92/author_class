@@ -1,0 +1,10 @@
+              oprot.writeString(_iter79.getKey());
+              oprot.writeI32(_iter79.getValue().getValue());
+            }
+            oprot.writeMapEnd();
+          }
+          oprot.writeFieldEnd();
+        }
+        oprot.writeFieldStop();
+        oprot.writeStructEnd();
+      }

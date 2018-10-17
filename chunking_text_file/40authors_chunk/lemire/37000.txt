@@ -1,0 +1,10 @@
+  		final FileOutputStream fos = new FileOutputStream(tmpfile);
+  		BitSet Bitmap = BitSet.bitmapOf(0, 2, 55, 64, 512);
+  		System.out.println("Created the bitmap " + Bitmap);
+  		Bitmap.serialize(new DataOutputStream(fos));
+  		long totalcount = fos.getChannel().position();
+  		System.out.println("Serialized total count = " + totalcount + " bytes");
+  		fos.close();
+  		RandomAccessFile memoryMappedFile = new RandomAccessFile(tmpfile, "r");
+  		ByteBuffer bb = memoryMappedFile.getChannel().map(
+  				FileChannel.MapMode.READ_ONLY, 0, totalcount);

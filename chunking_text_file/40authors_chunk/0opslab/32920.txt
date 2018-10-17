@@ -1,0 +1,10 @@
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return str;
+    }
+
+    /**
+     * 以指定编码方式写文本文件，存在会覆盖
+     *
+     * @param file          要写入的文件

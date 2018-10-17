@@ -1,0 +1,10 @@
+		return new LatLonPoint(latlon.latitude, latlon.longitude);
+	}
+
+	/**
+	 * long类型时间格式化
+	 */
+	public static String convertToTime(long time) {
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		Date date = new Date(time);
+		return df.format(date);

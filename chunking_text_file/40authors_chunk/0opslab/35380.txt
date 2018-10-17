@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Map;
+
+/**
+ * 提供一些对象有效性校验的方法
+ */

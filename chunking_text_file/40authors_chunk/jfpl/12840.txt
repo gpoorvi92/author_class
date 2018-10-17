@@ -1,0 +1,10 @@
+		recentTv.setTag(0);
+		appTv.setTag(1);
+		settingTv.setTag(2);
+
+		LayoutInflater lf = getLayoutInflater();
+		recentlyPage = lf.inflate(R.layout.recently, null);
+		appPage = lf.inflate(R.layout.application, null);
+		settingPage = lf.inflate(R.layout.more, null);
+		List<View> viewList = new ArrayList<View>();
+		viewList.add(recentlyPage);

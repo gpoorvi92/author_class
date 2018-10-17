@@ -1,0 +1,10 @@
+	/**
+	 * 设置所关注的微信公众号。
+	 * @param account
+	 *	所关注的微信公众号。
+	 * */
+	public void setAccount(WeChatAccount account) {
+		this.account = account;
+	}
+	/**
+	 * 获取微信ID。

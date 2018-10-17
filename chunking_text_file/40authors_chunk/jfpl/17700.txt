@@ -1,0 +1,10 @@
+import com.cyss.android.lib.util.SystemUtil;
+import com.jufan.platform.http.HttpSendFactory;
+import com.jufan.platform.receiver.PushMessageReceiver;
+import com.jufan.platform.service.LoginService;
+import com.jufan.platform.util.ConstVariables;
+import com.jufan.platform.util.GlobalVariables;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.util.SSLConnection;
+
+public class LogoActivity extends AutoActivity {

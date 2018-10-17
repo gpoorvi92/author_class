@@ -1,0 +1,10 @@
+
+    public void addCpuInfo(String key, String value) {
+        key = key.toLowerCase().trim();
+        value = value.trim();
+
+        mRawInfoMap.put(key, value);
+
+        if (key.equals("processor") && TextUtils.isEmpty(mProcess)) {
+            mProcess = value;
+            value = value.toLowerCase();

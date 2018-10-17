@@ -1,0 +1,10 @@
+ * @author: zhangxinyu
+ * @date: 2014年12月24日 下午5:04:29
+ */
+public class AudioTranscodingMessage extends BaseMessage {
+
+	/**
+	 * @return the mediaFile
+	 */
+	public String getMediaFile() {
+		return mediaFile;

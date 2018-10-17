@@ -1,0 +1,10 @@
+          case 1: // NODE_ID
+            return NODE_ID;
+          default:
+            return null;
+        }
+      }
+
+      /**
+       * Find the _Fields constant that matches fieldId, throwing an exception
+       * if it is not found.

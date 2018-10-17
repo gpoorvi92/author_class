@@ -1,0 +1,10 @@
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, SystemResources struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(6);
+      if (incoming.get(0)) {
+        struct.processName = iprot.readString();
+        struct.setProcessNameIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.threadName = iprot.readString();

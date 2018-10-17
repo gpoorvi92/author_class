@@ -1,0 +1,10 @@
+     */
+    public static Date str2date(String dataStr, String format) {
+        DateFormat df = new SimpleDateFormat(format);
+        try {
+            return df.parse(dataStr);
+        } catch (ParseException e) {
+            return null;
+        }
+    }
+

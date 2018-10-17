@@ -1,0 +1,10 @@
+      out.println("      catch (java.beans.IntrospectionException e)");
+      out.println("      {");
+      out.println("         e.printStackTrace();");
+      out.println("         return null;");
+      out.println("      }");
+      out.println("   }");
+      out.println("}");
+      out.close();
+   }
+}

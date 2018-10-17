@@ -1,0 +1,10 @@
+import java.util.concurrent.ConcurrentHashMap;
+/**
+ * User: Teaey
+ * Date: 13-9-17
+ */
+public class DaoManager
+{
+    static final LocalDao localDao = new LocalDao(new Configuration().configure());
+    public static LocalDao getLocalDao()
+    {

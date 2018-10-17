@@ -1,0 +1,10 @@
+		setLocation (d.width / 2 - getWidth() / 2, d.height / 2 - getHeight() / 2);
+
+		show();					//Displaying the Splash Screen.
+
+		for (int i = 0; i <= 1000; i++) { }	//Loop for Delay.
+
+		new Logon ();				//Showing the Logon Window of Program.
+
+		toFront();		//Making the Splash Window to Front of Main Window.
+		setVisible (false);	//Setting the Splash Window InVisible.

@@ -1,0 +1,10 @@
+ */
+public class MouseComponent extends JComponent
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 200;
+
+   private static final int SIDELENGTH = 10;
+   private ArrayList<Rectangle2D> squares;
+   private Rectangle2D current; // the square containing the mouse cursor
+

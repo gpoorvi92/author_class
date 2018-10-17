@@ -1,0 +1,7 @@
+			return (compObj.mintSortCol==mintSortCol) && (compObj.mblnSortAsc==mblnSortAsc);
+		}
+		
+		return false;
+	}
+}
+

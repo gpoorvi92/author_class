@@ -1,0 +1,10 @@
+package ipower.wechat.dao.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import ipower.wechat.dao.IWeChatAccountDao;
+import ipower.wechat.domain.WeChatAccount;
+import ipower.wechat.modal.WeChatAccountInfo;
+

@@ -1,0 +1,10 @@
+    /**
+     * 弹出软键盘，类型InputMethodManager.SHOW_IMPLICIT
+     *
+     * @param activity
+     */
+    public static void showSoftKeyboard(Activity activity, View view) {
+        showSoftKeyboard(activity, view, null);
+    }
+
+    /**

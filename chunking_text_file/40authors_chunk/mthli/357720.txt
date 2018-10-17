@@ -1,0 +1,10 @@
+      editMenu.add(negativeItem);
+
+      JMenuItem rotateItem = new JMenuItem("Rotate");
+      rotateItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               if (image == null) return;
+               AffineTransform transform = AffineTransform.getRotateInstance(Math.toRadians(5),
+                     image.getWidth() / 2, image.getHeight() / 2);

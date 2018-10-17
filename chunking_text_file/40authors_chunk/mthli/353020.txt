@@ -1,0 +1,10 @@
+               panel.add(openButton);
+               ActionListener listener = new ActionListener()
+               {
+                  public void actionPerformed(ActionEvent event)
+                  {
+                     loadFile(fileNameField.getText());
+                  }
+               };
+               fileNameField.addActionListener(listener);
+               openButton.addActionListener(listener);

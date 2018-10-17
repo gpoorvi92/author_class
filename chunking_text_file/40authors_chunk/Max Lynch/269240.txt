@@ -1,0 +1,10 @@
+	    if(model.getType() == 'o') temp = new EllipseLayer(model, this);
+	    if(model.getType() == 'l') temp = new LineLayer(model, this);
+	    if(model.getType() == 's') temp = new SwirlLayer(model, this);
+	    if(model.getType() == 'i') temp = new ImageLayer(model, this);
+	    /*if(model.getType() == 'f') 
+	    {
+	    	freeShape = new FreeLineLayer(model, this);
+	    	
+	    	freeDrawing = true;
+	    } */

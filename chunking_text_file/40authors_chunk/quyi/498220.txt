@@ -1,0 +1,10 @@
+  public void unsetFileDescription() {
+    this.fileDescription = null;
+  }
+
+  /** Returns true if field fileDescription is set (has been assigned a value) and false otherwise */
+  public boolean isSetFileDescription() {
+    return this.fileDescription != null;
+  }
+
+  public void setFileDescriptionIsSet(boolean value) {

@@ -1,0 +1,10 @@
+ */
+public class ContextParamHolder
+{
+    private static final Logger              log                      = LoggerFactory.getLogger(ContextParamHolder.class);
+    public static final String              WEB_SOCKET_PORT_KEY      = "web_socket_port";
+//    public static final String              CHAT_RPC_SERVER_IP_KEY   = "chat_rpc_server_ip";
+//    public static final String              CHAT_RPC_SERVER_PORT_KEY = "chat_rpc_server_port";
+//    public static final String              GAME_RPC_SERVER_IP_KEY   = "game_rpc_server_ip";
+//    public static final String              GAME_RPC_SERVER_PORT_KEY = "game_rpc_server_port";
+    private static final Map<String, String> contextParamMap          = new HashMap<>();

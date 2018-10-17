@@ -1,0 +1,10 @@
+   private JPanel buttonPanel;
+   public PlafFrame()
+   {
+      buttonPanel = new JPanel();
+      
+      UIManager.LookAndFeelInfo[] infos = UIManager.getInstalledLookAndFeels();
+      for (UIManager.LookAndFeelInfo info : infos)
+         makeButton(info.getName(), info.getClassName());
+      
+      add(buttonPanel);

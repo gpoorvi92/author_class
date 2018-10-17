@@ -1,0 +1,10 @@
+				try {	//INSERT Query to Add Member Record in Table.
+					String q = "INSERT INTO Members (MemberId, MemberName, MemberAddress, EntryDate)" + 
+						" VALUES (" + id + ", '" + txtMemberName.getText() + "', '" + 
+						txtMemberAddress.getText() + "', '" + entryDate + "')";
+
+					int result = st.executeUpdate (q);	//Running Query.
+					if (result == 1) {			//If Query Successful.
+						JOptionPane.showMessageDialog (this, "Record has been Saved.");
+						txtClear ();			//Clearing the TextFields.
+					}

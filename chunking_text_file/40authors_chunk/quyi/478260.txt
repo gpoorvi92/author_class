@@ -1,0 +1,10 @@
+      this.missionId = missionId;
+      this.userAppId = userAppId;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public queryApp_args(queryApp_args other) {
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;

@@ -1,0 +1,10 @@
+      case 36:
+        return CAPTURE_VIDEO_OUTPUT;
+      case 37:
+        return CHANGE_COMPONENT_ENABLED_STATE;
+      case 38:
+        return CHANGE_CONFIGURATION;
+      case 39:
+        return CHANGE_NETWORK_STATE;
+      case 40:
+        return CHANGE_WIFI_MULTICAST_STATE;

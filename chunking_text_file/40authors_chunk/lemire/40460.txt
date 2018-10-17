@@ -1,0 +1,10 @@
+    private boolean hasNext;
+    private Boolean nextBit;
+    private int nextLength;
+
+    ChunkIteratorImpl32(EWAHIterator32 ewahIter, int sizeInBits) {
+        this.ewahIter = ewahIter;
+        this.sizeInBits = sizeInBits;
+        this.buffer = ewahIter.buffer();
+        this.hasNext = moveToNextRLW();
+    }

@@ -1,0 +1,10 @@
+        private final int depth;
+
+        public CancelException(File file, int depth)
+        {
+            this("Operation Cancelled", file, depth);
+        }
+
+        public CancelException(String message, File file, int depth)
+        {
+            super(message);

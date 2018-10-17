@@ -1,0 +1,10 @@
+     */
+    public void discardFirstWords(int x) {
+        if (this.RunningLength >= x) {
+            this.RunningLength -= x;
+            return;
+        }
+        x -= this.RunningLength;
+        this.RunningLength = 0;
+        this.literalWordOffset += x;
+        this.NumberOfLiteralWords -= x;

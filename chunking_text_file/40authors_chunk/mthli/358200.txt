@@ -1,0 +1,10 @@
+      in.nextLine(); // consume newline
+
+      Employee[] employees = new Employee[n];
+      for (int i = 0; i < n; i++)
+      {
+         employees[i] = readEmployee(in);
+      }
+      return employees;
+   }
+   

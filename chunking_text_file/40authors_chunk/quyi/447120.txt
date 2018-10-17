@@ -1,0 +1,10 @@
+    this.osArch = null;
+  }
+
+  /** Returns true if field osArch is set (has been assigned a value) and false otherwise */
+  public boolean isSetOsArch() {
+    return this.osArch != null;
+  }
+
+  public void setOsArchIsSet(boolean value) {
+    if (!value) {

@@ -1,0 +1,10 @@
+
+		// public BigDecimal divide(BigDecimal divisor)
+		BigDecimal bd7 = new BigDecimal("1.301");
+		BigDecimal bd8 = new BigDecimal("100");
+		System.out.println("divide:" + bd7.divide(bd8));
+		// public BigDecimal divide(BigDecimal divisor,int scale,
+		// int roundingMode)
+		System.out.println(bd7.divide(bd8, 2, BigDecimal.ROUND_HALF_UP));
+		System.out.println(bd7.divide(bd8, 3, BigDecimal.ROUND_HALF_UP));
+		System.out.println(bd7.divide(bd8, 4, BigDecimal.ROUND_HALF_UP));

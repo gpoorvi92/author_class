@@ -1,0 +1,10 @@
+
+  public void setRulesIsSet(boolean value) {
+    if (!value) {
+      this.rules = null;
+    }
+  }
+
+  public int getPlotsSize() {
+    return (this.plots == null) ? 0 : this.plots.size();
+  }

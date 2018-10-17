@@ -1,0 +1,10 @@
+       mainPanel.add(myPanel);
+       mainPanel.add(playItButton);
+       return mainPanel;
+   }
+
+
+    public class PlayItListener implements ActionListener {
+      public void actionPerformed(ActionEvent ev) {
+
+       try {

@@ -1,0 +1,10 @@
+			autoConnectRetry=Config.isAutoConnectRetry();
+			
+	        connection.setConnectionDatabase(dbName);
+	        connection.setConnectionHost(dbServerIP);
+	        connection.setConectionPort(dbServerPort);
+	        connection.setConnectionDescriptor(connectionDescriptor);
+	        connection.setConnectionPerHost(connectionsPerHost);
+	        connection.setThreadsAllowedToBlockForConnectionMultiplier(threadsAllowedToBlockForConnectionMultiplier);
+	        connection.setConnectTimeout(connectTimeout);
+	        connection.setAutoConnectRetry(autoConnectRetry);

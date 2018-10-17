@@ -1,0 +1,10 @@
+*		            contains updates on more than one variable, only the first variable update
+*		            is notified.
+*		- Error :  the other xml nodes of the message are ignored
+*		- Fix : add two methods to the NotifyRequest for extracting the property array
+*                and modify the httpRequestRecieved method in ControlPoint
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.event;
+

@@ -1,0 +1,10 @@
+
+    @Test
+    public void testshortToByte(){
+        byte[] bt = ConvertUtil.shortToByte((short)1);
+        System.out.println(Arrays.toString(bt));
+        System.out.println(ConvertUtil.byteToBinary(bt[0]));
+        System.out.println(ConvertUtil.byteToBinary(bt[1]));
+    }
+    @Test
+    public void testHex() {

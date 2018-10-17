@@ -1,0 +1,10 @@
+        try {
+            inputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void closeReader(BufferedReader reader) {
+        if (reader == null)
+            return;

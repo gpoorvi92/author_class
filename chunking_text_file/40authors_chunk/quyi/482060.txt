@@ -1,0 +1,10 @@
+      MISSION_ID((short)1, "missionId"),
+      USER_APP_ID((short)2, "userAppId"),
+      /**
+       * 
+       * @see com.nercis.isscp.idl.AppStatus
+       */
+      STATUS((short)3, "status"),
+      USED_PERMISSIONS((short)4, "usedPermissions"),
+      STC_RD((short)5, "stcRD"),
+      DYC_RD((short)6, "dycRD"),

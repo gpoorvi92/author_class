@@ -1,0 +1,10 @@
+    }
+
+    /*--------------------------------------
+     * ImageView setImageDrawable
+     */
+    public static void setImageDrawable(View container, int id, int drawableId) {
+        if (container == null)
+            return;
+
+        setImageDrawable(container.findViewById(id),

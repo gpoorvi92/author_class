@@ -1,0 +1,10 @@
+    Statement stmt = null;
+	 public Receipt()
+	 {
+	 	
+	 	super("Receipt");
+		
+		content=getContentPane();
+		content.setBackground(skyblue);
+		
+		print=new JButton("PRINT ",new ImageIcon("Icon/i16x16/prints.png"));

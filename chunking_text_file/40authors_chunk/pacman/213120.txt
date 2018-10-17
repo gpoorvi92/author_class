@@ -1,0 +1,10 @@
+@Controller
+public class FileController extends BaseController{
+	
+	private static final ILog logger = LogFactory.getLog(FileController.class);
+	
+	private final String resDir 		= AppConfig.getInstance().getWebResDir();
+	private final String audioDir 		= AppConfig.getInstance().getWebAudioDir();
+	private final String videoDir		= AppConfig.getInstance().getWebVideoDir();
+	
+	/**

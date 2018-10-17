@@ -1,0 +1,10 @@
+      return new NetworkPacketStandardScheme();
+    }
+  }
+
+  private static class NetworkPacketStandardScheme extends StandardScheme<NetworkPacket> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, NetworkPacket struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)

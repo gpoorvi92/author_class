@@ -1,0 +1,10 @@
+    static Hopfield test;
+
+    public static void main(String[] args) {
+        test = new Hopfield(13);
+        test.addTrainingData(data[0]);
+        test.addTrainingData(data[1]);
+        test.addTrainingData(data[2]);
+        // if we add an extra example, then we overflow the capacity of this network:
+        //test.addTrainingData(data[3]);
+        test.train();

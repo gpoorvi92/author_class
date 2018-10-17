@@ -1,0 +1,10 @@
+      this.obj = null;
+    }
+  }
+
+  public String getFunc() {
+    return this.func;
+  }
+
+  public Rules setFunc(String func) {
+    this.func = func;

@@ -1,0 +1,10 @@
+ * 5:checkStopTime 预测结束时间
+ */
+public class Sample implements org.apache.thrift.TBase<Sample, Sample._Fields>, java.io.Serializable, Cloneable, Comparable<Sample> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("Sample");
+
+  private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField USER_APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("userAppId", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField PLOTS_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("plotsStatus", org.apache.thrift.protocol.TType.MAP, (short)3);
+  private static final org.apache.thrift.protocol.TField CHECK_START_TIME_FIELD_DESC = new org.apache.thrift.protocol.TField("checkStartTime", org.apache.thrift.protocol.TType.STRING, (short)4);
+  private static final org.apache.thrift.protocol.TField CHECK_STOP_TIME_FIELD_DESC = new org.apache.thrift.protocol.TField("checkStopTime", org.apache.thrift.protocol.TType.STRING, (short)5);

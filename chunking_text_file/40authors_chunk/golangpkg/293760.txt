@@ -1,0 +1,10 @@
+
+
+	@Before
+	public void init() {
+
+		// populate request component container
+		requestComponentContainer.populate(new MockHttpServletRequest(), new MockHttpServletResponse());
+
+	}
+

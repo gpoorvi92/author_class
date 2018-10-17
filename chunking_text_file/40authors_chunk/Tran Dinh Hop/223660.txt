@@ -1,0 +1,10 @@
+			}
+			else{
+				HuffmanNode t=new HuffmanNode(null,(f1+f2),0,one,two,null);			
+				one.up=t;
+				two.up=t;
+				q.insertM(t);			
+			}
+		}
+		
+		tree =q.removeFirst();

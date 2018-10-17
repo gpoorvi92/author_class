@@ -1,0 +1,10 @@
+                    this.position -= usedBitsInLast;
+                }
+            }
+        }
+        this.runningBit = rlw.getRunningBit();
+    }
+
+    private boolean runningHasNext() {
+        return this.runningBit && this.runningLength < this.position;
+    }

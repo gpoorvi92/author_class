@@ -1,0 +1,10 @@
+        }
+        if (struct.stcRD != null) {
+          oprot.writeFieldBegin(STC_RD_FIELD_DESC);
+          struct.stcRD.write(oprot);
+          oprot.writeFieldEnd();
+        }
+        if (struct.dycRD != null) {
+          oprot.writeFieldBegin(DYC_RD_FIELD_DESC);
+          struct.dycRD.write(oprot);
+          oprot.writeFieldEnd();

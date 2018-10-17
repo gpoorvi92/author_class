@@ -1,0 +1,10 @@
+
+
+	@Override
+	public boolean update(Customer c) {
+		try {
+			sessionFactory.getCurrentSession().update(c);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;

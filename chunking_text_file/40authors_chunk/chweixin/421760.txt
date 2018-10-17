@@ -1,0 +1,10 @@
+	private static final long serialVersionUID = 1L;
+	private String title,mediaId,description;
+	/**
+	 * 获取视频标题。
+	 * @return 视频标题。
+	 * */
+	public String getTitle() {
+		return title;
+	}
+	/**

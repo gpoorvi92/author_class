@@ -1,0 +1,4 @@
+    private IteratingBufferedRunningLengthWord32 iteratingBrlw;
+    private CloneableIterator<EWAHIterator32> masterIterator;
+
+}

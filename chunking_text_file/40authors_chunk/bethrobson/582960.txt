@@ -1,0 +1,10 @@
+    JLabel outputLabel;
+    JComboBox month;
+    JTextField day;
+    JTextField year;
+
+    public JPanel getGuiPanel() {
+       JPanel panel = new JPanel();
+       JButton button = new JButton("Do it!");
+       button.addActionListener(new DoItListener());
+       outputLabel = new JLabel("date appears here");

@@ -1,0 +1,10 @@
+	public boolean update(Bill bill) {
+		try {
+			sessionFactory.getCurrentSession().update(bill);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@SuppressWarnings({ "unchecked", "rawtypes" })

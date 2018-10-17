@@ -1,0 +1,10 @@
+   
+   /**
+    * Converts a color to a hex value.
+    * @param c a color
+    * @return a string of the form #rrggbb
+    */
+   private static String colorToString(Color c)
+   {
+      StringBuffer buffer = new StringBuffer();
+      buffer.append(Integer.toHexString(c.getRGB() & 0xFFFFFF));

@@ -1,0 +1,10 @@
+ */
+public class AccountTest {
+	CommandService service;
+	private String serverIP="127.0.0.1";
+	private int port=9001;
+	
+	@Before
+	public void setUP(){
+		InetSocketAddress addr=new InetSocketAddress(serverIP,port);
+		service=new SocketServiceImpl(addr);

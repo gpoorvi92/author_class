@@ -1,0 +1,10 @@
+        makeProperty("QualityList"),
+        makeProperty("RemainingImagesEstimate"),
+        makeProperty("Contrast"),
+
+      };
+
+      return properties;
+    }
+    catch(Exception e)
+    {

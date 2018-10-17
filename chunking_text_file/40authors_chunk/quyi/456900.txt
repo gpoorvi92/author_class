@@ -1,0 +1,10 @@
+      return true;
+    }
+
+    @Override
+    public int hashCode() {
+      return 0;
+    }
+
+    @Override
+    public int compareTo(searchApp_args other) {

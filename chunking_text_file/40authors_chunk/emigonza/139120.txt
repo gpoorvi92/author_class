@@ -1,0 +1,10 @@
+        catch(Exception e)
+        {
+          throw new JposException(JPOS_E_NOSERVICE,
+                                  "Service does not fully implement ImageScannerService113 interface",
+                                  e);
+        }
+      }
+
+    }
+  }

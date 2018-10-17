@@ -1,0 +1,10 @@
+     */
+    @Override
+    public byte[] getPostBody() {
+        return getBody();
+    }
+
+    @Override
+    public String getBodyContentType() {
+        return PROTOCOL_CONTENT_TYPE;
+    }

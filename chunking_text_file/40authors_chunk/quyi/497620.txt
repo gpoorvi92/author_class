@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(4)) {
+        struct.engineType = iprot.readString();
+        struct.setEngineTypeIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.nodeInfo = new NodeInfo();
+        struct.nodeInfo.read(iprot);
+        struct.setNodeInfoIsSet(true);
+      }

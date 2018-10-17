@@ -1,0 +1,10 @@
+      this.ue = null;
+    }
+
+    public int getSuccessSize() {
+      return (this.success == null) ? 0 : this.success.size();
+    }
+
+    public java.util.Iterator<Engine> getSuccessIterator() {
+      return (this.success == null) ? null : this.success.iterator();
+    }

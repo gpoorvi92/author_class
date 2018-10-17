@@ -1,0 +1,10 @@
+	@Autowired
+	JLFUListenerPropagator jlfuListenerPropagator;
+	
+	private static final Logger log = LoggerFactory.getLogger(JavaLargeFileUploaderService.class);
+
+	
+	/**
+	 * Retrieves the progress of the specified file for the specified client.<br>
+	 * 
+	 * 

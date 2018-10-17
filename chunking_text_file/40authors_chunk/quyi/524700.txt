@@ -1,0 +1,10 @@
+		appSendMessage.setRules(null);
+		appSendMessage.setTaskInfo(null);
+		UserApp userApp = new UserApp();
+		userApp.setUserAppId("issuedMessageTest002");
+		userApp.setAppName("test.apk");
+		userApp.setCategory("123");
+		userApp.setStoreName("1234");
+		userApp.setCreateTime("123");
+		userApp.setAppFileMd5("1b6066c5a107ebdbf1e5c9e4b31891bc");
+		userApp.setVersion("1.0");

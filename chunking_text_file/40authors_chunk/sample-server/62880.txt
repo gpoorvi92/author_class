@@ -1,0 +1,7 @@
+    @Override
+    public void exceptionCaught(ChannelHandlerContext ctx, ExceptionEvent e) throws Exception
+    {
+        log.info("exception caught:{} {}", ctx.getChannel(), e.getCause());
+        ctx.getChannel().close();
+    }
+}

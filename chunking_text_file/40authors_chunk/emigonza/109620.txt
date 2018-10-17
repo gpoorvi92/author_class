@@ -1,0 +1,10 @@
+		this.name = name;
+		this.profile = profile;
+	}
+							
+	//-------------------------------------------------------------------------
+	// Public methods
+	//
+
+	/** @return the Profile associated with this PropInfo */
+	public Profile getProfile() { return profile; }

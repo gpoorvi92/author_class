@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 设置系统名称(未启用)。
+	 * @param systemName
+	 * 	系统名称。
+	 * */
+	public void setSystemName(String systemName){
+		if(this.systemId != null && !this.systemId.trim().isEmpty()  &&
+				systemName != null && !systemName.trim().isEmpty() && !systemName.equalsIgnoreCase(this.systemName)){
+			 cache.put(this.systemId, this.systemName = systemName);

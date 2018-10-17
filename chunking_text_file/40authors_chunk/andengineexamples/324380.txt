@@ -1,0 +1,10 @@
+
+		return new EngineOptions(true, ScreenOrientation.LANDSCAPE_FIXED, new RatioResolutionPolicy(XMLLayoutExample.CAMERA_WIDTH, XMLLayoutExample.CAMERA_HEIGHT), camera);
+	}
+
+	@Override
+	protected void onCreateResources() {
+		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");
+
+		this.mBitmapTextureAtlas = new BitmapTextureAtlas(this.getTextureManager(), 32, 32, TextureOptions.BILINEAR);
+

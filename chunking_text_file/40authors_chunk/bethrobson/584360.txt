@@ -1,0 +1,10 @@
+            } catch (Exception ex) { ex.printStackTrace(); }
+        }
+    }
+    
+    public static void main(String[] args) {
+        new VerySimpleChatServer().go();
+    }
+    
+    public void go() {
+        clientOutputStreams = new ArrayList();

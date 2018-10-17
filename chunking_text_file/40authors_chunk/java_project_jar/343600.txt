@@ -1,0 +1,10 @@
+                if(FileUtils.isFileNewer(file, last))
+                {
+                    position = 0L;
+                    reader.seek(position);
+                    last = System.currentTimeMillis();
+                    position = readLines(reader);
+                }
+                try
+                {
+                    Thread.sleep(delay);

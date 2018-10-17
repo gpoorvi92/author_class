@@ -1,0 +1,10 @@
+      }
+      first = false;
+      if (!first) sb.append(", ");
+      sb.append("userAppId:");
+      if (this.userAppId == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.userAppId);
+      }
+      first = false;

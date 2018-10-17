@@ -1,0 +1,10 @@
+    tmpMap.put(_Fields.ENGINE_STATUS, new org.apache.thrift.meta_data.FieldMetaData("engineStatus", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.ENGINE_TYPE, new org.apache.thrift.meta_data.FieldMetaData("engineType", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING)));
+    tmpMap.put(_Fields.NODE_INFO, new org.apache.thrift.meta_data.FieldMetaData("nodeInfo", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.StructMetaData(org.apache.thrift.protocol.TType.STRUCT, NodeInfo.class)));
+    tmpMap.put(_Fields.ENGINE_RULES, new org.apache.thrift.meta_data.FieldMetaData("engineRules", org.apache.thrift.TFieldRequirementType.DEFAULT, 
+        new org.apache.thrift.meta_data.ListMetaData(org.apache.thrift.protocol.TType.LIST, 
+            new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRING))));
+    tmpMap.put(_Fields.ENGINE_PLOTS, new org.apache.thrift.meta_data.FieldMetaData("enginePlots", org.apache.thrift.TFieldRequirementType.DEFAULT, 

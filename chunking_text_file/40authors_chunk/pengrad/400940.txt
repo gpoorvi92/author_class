@@ -1,0 +1,10 @@
+public class AnswerInlineQuery extends BaseRequest<AnswerInlineQuery, BaseResponse> {
+
+    // todo remove gson
+    private static Gson gson = new Gson();
+
+    public AnswerInlineQuery(String inlineQueryId, InlineQueryResult... results) {
+        super(BaseResponse.class);
+        add("inline_query_id", inlineQueryId).add("results", gson.toJson(results));
+    }
+

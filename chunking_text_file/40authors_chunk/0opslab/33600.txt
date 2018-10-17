@@ -1,0 +1,10 @@
+        return (random.nextInt(scoeMax)%(scoeMax-scopeMin+1) + scopeMin);
+    }
+    /**
+     * 返回固定长度的数字
+     * @param length
+     * @return
+     */
+    public final static String number(int length) {
+        StringBuffer sb     = new StringBuffer();
+        Random       random = new Random();

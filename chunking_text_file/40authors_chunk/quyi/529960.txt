@@ -1,0 +1,10 @@
+  @Override
+public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case APP_ID:
+      return getApp_id();
+
+    case APP_NAME:
+      return getApp_name();
+
+    case VERSIONCODE:

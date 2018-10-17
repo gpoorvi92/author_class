@@ -1,0 +1,10 @@
+        setVirusEngine((List<VirusEngine>)value);
+      }
+      break;
+
+    case DESCRIPTION:
+      if (value == null) {
+        unsetDescription();
+      } else {
+        setDescription((String)value);
+      }

@@ -1,0 +1,10 @@
+        adapter.notifyDataSetChanged();
+        mActivity.invalidateOptionsMenu();
+    }
+
+    public void onTaskProgressUpdate(UploadTaskInfo info) {
+        adapter.onTaskProgressUpdate(info);
+    }
+
+    public void onTaskFinished(UploadTaskInfo info) {
+        adapter.onTaskFinished(info);

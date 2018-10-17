@@ -1,0 +1,10 @@
+/**
+ * This is an abstract class whose job is create TimeViews that can be used
+ * to populate a ScrollLayout, and to generate TimeObjects from times that
+ * can be used to populate the TimeViews.
+ */
+public abstract class Labeler {
+    /**
+     * The default width of views that this labeler generates, in dp
+     */
+    private final int viewWidthDP;

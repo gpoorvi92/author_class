@@ -1,0 +1,10 @@
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Chat chat = (Chat) o;
+
+        if (id != null ? !id.equals(chat.id) : chat.id != null) return false;
+        if (type != chat.type) return false;

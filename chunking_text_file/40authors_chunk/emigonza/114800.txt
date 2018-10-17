@@ -1,0 +1,3 @@
+    public void    addErrorListener(ErrorListener l);
+    public void    removeErrorListener(ErrorListener l);
+}

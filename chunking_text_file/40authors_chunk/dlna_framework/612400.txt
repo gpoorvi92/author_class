@@ -1,0 +1,10 @@
+*		  requested from port 80, but soap requests are made on port 5440). Therefore whenever a request is made, 
+*		  the port specified by the controlUrl or eventSubUrl node should be used, else no response will be returned 
+*		  (oddly, there was a response returned even on port 80, but with empty body tags. but the correct response 
+*		  finally came from port 5440).
+*		- Fixed to get the port from the control url when it is absolute.
+*	03/20/04
+*		- Thanks for Thomas Schulz <tsroyale at users.sourceforge.net>
+*		- Fixed setRequestHost() for Sony's UPnP stack when the URLBase has the path.
+*
+******************************************************************/

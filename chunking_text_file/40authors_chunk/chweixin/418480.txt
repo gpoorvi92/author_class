@@ -1,0 +1,10 @@
+				data = new WeChatDefaultReply();
+			}
+			BeanUtils.copyProperties(info, data);
+			if(info.getAccountId() != null && (data.getAccount() == null || !data.getAccount().getId().equalsIgnoreCase(info.getAccountId()))){
+				WeChatAccount account = this.weChatAccountDao.load(WeChatAccount.class, info.getAccountId());
+				if(account != null) {
+					data.setAccount(account);
+				}
+			}
+			if(isAdded) this.weChatDefaultReplyDao.save(data);

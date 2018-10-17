@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import java.io.*;
+
+/**
+ * 流相关的操作方法封装
+ */
+public final class StreamUtil {
+    /**
+     * Read an input stream into a string

@@ -1,0 +1,10 @@
+		 
+	}
+	
+	public void stateChanged(ChangeEvent e)
+	{
+		if(e.getSource() == xSlider)
+		{
+			g_x = xSlider.getValue();
+		} else if(e.getSource() == ySlider)
+		{

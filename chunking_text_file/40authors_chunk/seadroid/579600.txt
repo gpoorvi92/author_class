@@ -1,0 +1,10 @@
+        boolean isHttps = mHttpPrefixCb.isChecked();
+        String url = mServerUrlEt.getText().toString();
+        String prefix = isHttps ? SHIBBOLETH_HTTPS_PREFIX : SHIBBOLETH_HTTP_PREFIX;
+
+        String urlWithoutScheme = url.replace(SHIBBOLETH_HTTPS_PREFIX, "").replace(SHIBBOLETH_HTTP_PREFIX, "");
+
+        int oldOffset = mServerUrlEt.getSelectionStart();
+
+        // Change the text
+        mServerUrlEt.setText(prefix + urlWithoutScheme);

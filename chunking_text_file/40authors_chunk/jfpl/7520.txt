@@ -1,0 +1,10 @@
+		if (mylocationPoint != null
+				&& nearByIndex < ConstVariables.LOCATION_NEAR_BY.length) {
+			mkSearch.poiSearchNearBy(
+					ConstVariables.LOCATION_NEAR_BY[nearByIndex],
+					mylocationPoint, 2000);
+			nearByIndex++;
+		}
+	}
+
+	public void locationSendBtnClick(View v) {

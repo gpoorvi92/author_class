@@ -1,0 +1,10 @@
+            struct.functionStatus.put(_key160, _val161);
+          }
+        }
+        struct.setFunctionStatusIsSet(true);
+      }
+    }
+  }
+
+}
+

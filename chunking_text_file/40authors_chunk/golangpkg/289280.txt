@@ -1,0 +1,10 @@
+		StaticFileState fileState = model.getFileStates().get(fileId);
+		if (fileState == null) {
+			throw new FileNotFoundException("File with id " + fileId + " not found");
+		}
+		File file = new File(fileState.getAbsoluteFullPathOfUploadedFile());
+
+		//init returned entity
+		FileProgressStatus fileProgressStatus = new FileProgressStatus();
+
+		// compare size of the file to the expected size

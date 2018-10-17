@@ -1,0 +1,10 @@
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        init_(savedInstanceState);
+        super.onCreate(savedInstanceState);
+        setContentView(layout.act_welcome);
+    }
+
+    private void init_(Bundle savedInstanceState) {
+    }
+

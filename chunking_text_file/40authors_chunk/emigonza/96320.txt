@@ -1,0 +1,10 @@
+    public boolean isOn() { return tracerOn; }
+     
+    //--------------------------------------------------------------------------
+    // Private methods
+    //
+
+    /**
+     * Intialize the current JCL instance using the DefaultProperties class
+     * @since 1.2 (NY 2K meeting)
+     */

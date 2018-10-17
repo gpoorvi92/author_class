@@ -1,0 +1,10 @@
+    public void setEmailAddressAutoCompleteAdapter(ArrayAdapter<String> adapter) {
+        if (adapter != null)
+            edit_text.setAdapter(adapter);
+    }
+
+    public void setText(String text) {
+        edit_text.setText(text);
+    }
+
+    public void setError(String errorMessage) {

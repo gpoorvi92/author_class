@@ -1,0 +1,10 @@
+         }
+      }
+      catch (InterruptedException e)
+      {
+      }
+   }
+
+   /**
+    * This method displays a frame with the same image as the splash screen.
+    */

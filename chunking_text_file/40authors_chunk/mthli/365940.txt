@@ -1,0 +1,10 @@
+      combo.setPrototypeDisplayValue(combo.getItemAt(0));
+      combo.setSelectedIndex(0);
+
+      JPanel panel = new JPanel();
+
+      JButton goodButton = new JButton("Good");
+      goodButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

@@ -1,0 +1,10 @@
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * A frame that contains a panel with drawings
+ */

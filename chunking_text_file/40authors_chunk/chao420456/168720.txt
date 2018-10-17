@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+/*
+ * 把字符串反转
+ */
+public class StringBufferTest2 {
+	public static void main(String[] args) {
+		String s = "霞青林爱我";
+
+		// 测试方式1

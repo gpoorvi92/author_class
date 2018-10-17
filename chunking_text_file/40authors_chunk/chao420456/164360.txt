@@ -1,0 +1,10 @@
+		// osw.write(chs);
+
+		// 写一个字符数组的一部分
+		// osw.write(chs, 0, 3);
+
+		// 写一个字符串
+		// osw.write("helloworld");
+
+		// 写一个字符串的一部分
+		String s = "hello";

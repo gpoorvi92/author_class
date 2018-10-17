@@ -1,0 +1,10 @@
+          oprot.writeFieldEnd();
+        }
+      }
+      if (struct.detectResult != null) {
+        oprot.writeFieldBegin(DETECT_RESULT_FIELD_DESC);
+        oprot.writeBinary(struct.detectResult);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();

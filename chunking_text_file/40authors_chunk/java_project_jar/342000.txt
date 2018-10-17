@@ -1,0 +1,10 @@
+    {
+        return (byte)in.read();
+    }
+
+    public char readChar()
+        throws IOException, EOFException
+    {
+        return (char)readShort();
+    }
+

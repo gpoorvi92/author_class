@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String toString() {
+        return "FTPLog{" +
+                "host='" + host + '\'' +
+                ", operation='" + operation + '\'' +
+                ", ReplyCode=" + ReplyCode +
+                ", localFile='" + localFile + '\'' +
+                ", remoteFile='" + remoteFile + '\'' +

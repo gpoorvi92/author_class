@@ -1,0 +1,10 @@
+            destroy();
+
+            if (LOGGER.isLoggable(Level.WARNING))
+                LOGGER.log(Level.WARNING, "Could not process.", exception);
+        }
+    }
+
+    @Override
+    public void destroy() {
+        closeQuietly(clientChannel);

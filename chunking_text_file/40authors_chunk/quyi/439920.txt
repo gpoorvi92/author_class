@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("cpuCores:");
+    sb.append(this.cpuCores);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("cpuMhz:");
+    sb.append(this.cpuMhz);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("memSize:");

@@ -1,0 +1,10 @@
+    {
+        RpcDto.BulletinDTO.Builder dto = RpcDto.BulletinDTO.newBuilder();
+        dto.setId(id);
+        dto.setSortFlag(sortFlag);
+        dto.setLinkId(linkId);
+        dto.setTitle(title);
+        dto.setContent(content);
+        return dto.build();
+    }
+    public int getSortFlag()

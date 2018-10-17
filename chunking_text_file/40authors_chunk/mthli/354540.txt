@@ -1,0 +1,10 @@
+class DoubleArrayListModel extends AbstractListModel<String>
+{
+   private double[] array;
+
+   public int getSize()
+   {
+      return array.length;
+   }
+
+   public String getElementAt(int i)

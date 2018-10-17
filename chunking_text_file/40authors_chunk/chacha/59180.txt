@@ -1,0 +1,9 @@
+		try{
+			dup=dao.add(entity);
+		}catch(Exception e){
+			assertNotNull(e);
+		}
+		assertNull(dup);
+		dao.deleteAccount("chacha_one");
+	}
+}

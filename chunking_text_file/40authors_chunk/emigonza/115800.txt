@@ -1,0 +1,10 @@
+    public String  getFontTypeFaceList() throws JposException;
+    public int     getLineChars() throws JposException;
+    public void    setLineChars(int lineChars) throws JposException;
+    public String  getLineCharsList() throws JposException;
+    public int     getLineHeight() throws JposException;
+    public void    setLineHeight(int lineHeight) throws JposException;
+    public int     getLineSpacing() throws JposException;
+    public void    setLineSpacing(int lineSpacing) throws JposException;
+    public int     getLineWidth() throws JposException;
+    public int     getMapMode() throws JposException;

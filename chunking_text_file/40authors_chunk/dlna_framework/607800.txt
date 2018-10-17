@@ -1,0 +1,10 @@
+							currNode.addNode(node);
+						currNode = node;
+						if (rootNode == null)
+							rootNode = node;
+					}
+					break;
+				case org.xmlpull.v1.XmlPullParser.TEXT:
+					{
+						String value = xpp.getText();
+						if (value != null && currNode != null)

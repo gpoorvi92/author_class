@@ -1,0 +1,10 @@
+               if (v == null) return;
+               int n = Integer.parseInt(v);
+               double[] values = new double[n];
+               String[] names = new String[n];
+               for (int i = 0; i < n; i++)
+               {
+                  values[i] = Double.parseDouble(getParameter("value." + (i + 1)));
+                  names[i] = getParameter("name." + (i + 1));
+               }
+

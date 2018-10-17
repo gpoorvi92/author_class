@@ -1,0 +1,10 @@
+                    go = popupListener.startPopup( x, y ); 
+                                         
+                if ( go ) 
+                    popupMenu.show( mouseEvtComp, x - 20, y - 10 ); 
+            } 
+                                                 
+            public void mousePressed( MouseEvent evt ) { tryPopup( evt ); } 
+            
+            public void mouseReleased( MouseEvent evt ) { tryPopup( evt ); } 
+        }; 

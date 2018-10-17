@@ -1,0 +1,10 @@
+
+    @Override
+    protected Response<T> parseNetworkResponse(NetworkResponse response) {
+        String jsonString = getRealString(response.data);
+        LogUtil.d("result:" + jsonString);
+        try {
+            return Response.success(mGson.fromJson(jsonString, mClass), HttpHeaderParser.parseCacheHeaders(response));
+        } catch (JsonParseException e) {
+            //当json解析失败的时候，直接将返回内容放在错误消息中
+            return Response.error(new VolleyError("JSON_PARSE_FAIL", e));

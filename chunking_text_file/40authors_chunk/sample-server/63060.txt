@@ -1,0 +1,10 @@
+    @Override
+    public void contextDestroyed(ServletContextEvent servletContextEvent)
+    {
+        try
+        {
+            ServerState.shutdown();
+            TimeBaseTimerTask.FiveMinutesTimer.shutdown();
+            TimeBaseTimerTask.TwoMinutesTimer.shutdown();
+            WebSocketServer.getInstance().shutdown();
+            RpcClientManager.getInstance().shutdown();

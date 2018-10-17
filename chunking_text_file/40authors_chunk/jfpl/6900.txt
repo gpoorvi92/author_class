@@ -1,0 +1,10 @@
+package com.jufan.platform.util;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.preference.PreferenceManager;
+
+public class SampleStorageUtil {
+
+	public static void saveKeyValue(Context ctx, String key, String value) {

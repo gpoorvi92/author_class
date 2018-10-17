@@ -1,0 +1,10 @@
+ Fortunately, this problem can be solved through a table-filling Dynamic Programming technique, similar to other "grid walking" problems:
+
+To begin with, we should maintain a 2D array D of the same size as the dungeon, where D[i][j] represents the minimum health that guarantees the survival of the knight for the rest of his quest BEFORE entering room(i, j). Obviously D[0][0] is the final answer we are after. Hence, for this problem, we need to fill the table from the bottom right corner to left top.
+
+Then, let us decide what the health should be at least when leaving room (i, j). There are only two paths to choose from at this point: (i+1, j) and (i, j+1). Of course we will choose the room that has the smaller D value, or in other words, the knight can finish the rest of his journey with a smaller initial health. Therefore we have:
+
+  min_HP_on_exit = min(D[i+1][j], D[i][j+1])
+Now D[i][j] can be computed from dungeon[i][j] and min_HP_on_exit based on one of the following situations:
+
+If dungeon[i][j] == 0, then nothing happens in this room; the knight can leave the room with the same health he enters the room with, i.e. D[i][j] = min_HP_on_exit.

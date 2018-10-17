@@ -1,0 +1,10 @@
+        mMediaPlayer.setOnPreparedListener(this);
+        mMediaPlayer.setOnSeekCompleteListener(this);
+        mMediaPlayer.setOnVideoSizeChangedListener(this);
+    }
+
+    @Override
+    public int getCurrentPosition() {
+        try {
+            return mMediaPlayer.getCurrentPosition();
+        } catch (IllegalStateException e) {

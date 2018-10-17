@@ -1,0 +1,10 @@
+    	public JLabel tag = new JLabel("Tag");
+    	public JLabel day_overdue = new JLabel("Days Overdue");
+    	public JLabel fine_collection = new JLabel("Fine Collection");
+    	public JLabel amount_fine = new JLabel("Amount Fine");
+    	public JLabel amount_collected = new JLabel("Amount Collected");
+    	public JTextField book_ac_no_text = new JTextField(10);
+    	public JTextField rent_date_text = new JTextField(10);
+
+    	public JTextField rent_due_date_text = new JTextField(10);
+    	public JTextField tag_text = new JTextField(10);

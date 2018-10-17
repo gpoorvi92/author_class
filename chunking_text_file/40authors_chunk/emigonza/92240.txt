@@ -1,0 +1,8 @@
+    public void fireDataEvent(DataEvent e);
+    public void fireDirectIOEvent(DirectIOEvent e);
+    public void fireErrorEvent(ErrorEvent e);
+    public void fireOutputCompleteEvent(OutputCompleteEvent e);
+    public void fireStatusUpdateEvent(StatusUpdateEvent e);
+
+    public BaseControl getEventSource();
+}

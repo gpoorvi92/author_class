@@ -1,0 +1,10 @@
+      checkReady();
+      genMissionId_call method_call = new genMissionId_call(submitId, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class genMissionId_call extends org.apache.thrift.async.TAsyncMethodCall {
+      private String submitId;
+      public genMissionId_call(String submitId, org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);

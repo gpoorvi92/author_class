@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 批次结果集
+ * 1:string missionId 批次号
+ * 2:list<commons.Engine> engines 引擎列表
+ * 3:string missionProgress 批次进度
+ */

@@ -1,0 +1,10 @@
+    /// public void com.apple.eawt.event.GestureAdapter.swipedDown(com.apple.eawt.event.SwipeEvent)
+
+    public native void __swipedDown( com.apple.eawt.event.SwipeEvent arg0 );
+
+    boolean entered_swipedDown_4;
+
+    public void swipedDown( com.apple.eawt.event.SwipeEvent arg0 ) {
+        if ( !entered_swipedDown_4 ) {
+            entered_swipedDown_4 = true;
+            __swipedDown( arg0 );

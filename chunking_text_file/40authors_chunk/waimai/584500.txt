@@ -1,0 +1,10 @@
+    private ILoginLogService loginLogService;
+
+    @RequestMapping("/register")
+    public @ResponseBody Map<String, Object> add(User user) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        try {
+            userService.add(user);
+            map.put(Constants.RESULT_CODE, "1");
+        } catch (ServiceException e) {
+            map.put(Constants.RESULT_CODE, "0");

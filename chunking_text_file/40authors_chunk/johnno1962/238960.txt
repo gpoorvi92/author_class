@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void java.awt.event.KeyListener.keyTyped(java.awt.event.KeyEvent)
+
+    public native void __keyTyped( java.awt.event.KeyEvent e );
+
+    public void keyTyped( java.awt.event.KeyEvent e ) {
+        __keyTyped( e );
+    }

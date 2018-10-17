@@ -1,0 +1,10 @@
+		recordDay = DIRECTORY_NAME_FORMATTER.format(records[0].getOperationTime());
+
+		String fileKey = recordDay + '-' + targetFileIndex;
+
+		PrintWriter pwr = printWriterMap.get(fileKey);
+
+		if (null == pwr) {
+			File file = new File(baseDir + '/' + recordDay + "/subspsync-gw-"
+			    + FILE_INDEX_FORMATTER.format(targetFileIndex) + ".dat");
+			File dir = file.getParentFile();

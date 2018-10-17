@@ -1,0 +1,10 @@
+    private List<Integer> scores = new ArrayList<Integer>();
+    private int max_to_keep = 9999999;
+    public ScoredList(int max_to_keep) {
+        this.max_to_keep = max_to_keep;
+    }
+
+    /**
+     * Create an empty scored list
+     *
+     */

@@ -1,0 +1,10 @@
+                if (workItem.mOnLoadedRunnable != null) {
+                    workItem.mOnLoadedRunnable.run(b);
+                }
+            }
+        }
+    }
+
+    private void start() {
+        if (mDecodeThread != null) {
+            return;

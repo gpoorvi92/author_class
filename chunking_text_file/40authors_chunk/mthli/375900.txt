@@ -1,0 +1,10 @@
+      // keep program running until user selects "Ok"
+      JOptionPane.showMessageDialog(null, "Quit program?");
+      System.exit(0);
+   }
+}
+
+/**
+ * A clock that prints the time in regular intervals.
+ */
+class TalkingClock

@@ -1,0 +1,9 @@
+		SpellingSuggestionsWordPairs test = new SpellingSuggestionsWordPairs();
+		System.out.println(test.edits("Doyyle"));
+		System.out.println(test.edits("Doyyle").size());
+		System.out.println(test.correct("Doyyle","Conan"));
+	}
+
+	private static Map<String, Integer> wordCounts = new HashMap<String, Integer>();
+	private static Map<String, Integer> wordPairCounts = new HashMap<String, Integer>();
+}

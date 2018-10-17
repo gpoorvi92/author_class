@@ -1,0 +1,10 @@
+  private static final int __CPUUSEDPERC_ISSET_ID = 0;
+  private static final int __FREEMEM_ISSET_ID = 1;
+  private static final int __JVMFREEMEM_ISSET_ID = 2;
+  private static final int __TASKQUEUELIMIT_ISSET_ID = 3;
+  private static final int __TASKQUEUENUME_ISSET_ID = 4;
+  private byte __isset_bitfield = 0;
+  public static final Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> metaDataMap;
+  static {
+    Map<_Fields, org.apache.thrift.meta_data.FieldMetaData> tmpMap = new EnumMap<_Fields, org.apache.thrift.meta_data.FieldMetaData>(_Fields.class);
+    tmpMap.put(_Fields.NODE_ID, new org.apache.thrift.meta_data.FieldMetaData("nodeId", org.apache.thrift.TFieldRequirementType.DEFAULT, 

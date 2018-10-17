@@ -1,0 +1,10 @@
+    }
+
+    switch (field) {
+    case OS_ARCH:
+      return isSetOsArch();
+    case OS_NAME:
+      return isSetOsName();
+    case OS_DESC:
+      return isSetOsDesc();
+    case OS_VERSION:

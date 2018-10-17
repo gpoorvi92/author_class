@@ -1,0 +1,10 @@
+        this.fileName = fileName;
+        this.bytes = bytes;
+    }
+
+    public String fileName() {
+        return fileName;
+    }
+
+    public byte[] getBytes() {
+        return bytes;

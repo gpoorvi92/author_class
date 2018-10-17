@@ -1,0 +1,10 @@
+        
+       	okButton.setBounds( 75,80,70,25 );
+		c.add( okButton );
+        
+        closeButton.setBounds( 155,80,70,25 );
+        c.add( closeButton );
+        
+        chk.setBounds(100, 60,170,20);
+        chk.setBackground(Color.gray);
+        chk.addItemListener(handler);

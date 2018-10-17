@@ -1,0 +1,10 @@
+import com.qihigh.chinaweather.R;
+import com.qihigh.chinaweather.UIManager;
+import com.qihigh.chinaweather.model.DailyWeather;
+import com.qihigh.chinaweather.network.WeatherApi;
+import com.qihigh.chinaweather.provider.CityChangeWatcher;
+import com.qihigh.chinaweather.provider.DailyProvider;
+import com.qihigh.chinaweather.ui.activity.CityChangeActivity;
+import com.squareup.picasso.Picasso;
+import com.weico.core.provider.DataConsumer;
+import com.weico.core.provider.DataProvider;

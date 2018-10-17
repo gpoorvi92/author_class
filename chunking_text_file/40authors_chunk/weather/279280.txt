@@ -1,0 +1,10 @@
+ * Created by qihigh on 7/4/14.
+ * Modified by ____.
+ * 当前天气
+ */
+public class WeatherDailyFragment extends BaseFragment implements DataConsumer {
+
+    @InjectView(R.id.weather_pager_city)
+    TextView mCity;
+    @InjectView(R.id.weather_pager_weather)
+    TextView mWeather;

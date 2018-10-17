@@ -1,0 +1,10 @@
+	 */
+	public void setLessonID(int lessonID) {
+		this.lessonID = lessonID;
+	}
+	/**
+	 * @return the lessonName
+	 */
+	public String getLessonName() {
+		return lessonName;
+	}

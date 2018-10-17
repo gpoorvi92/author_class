@@ -1,0 +1,10 @@
+    if (other.isSetDeviceType()) {
+      this.deviceType = other.deviceType;
+    }
+  }
+
+  public HardwareResources deepCopy() {
+    return new HardwareResources(this);
+  }
+
+  @Override

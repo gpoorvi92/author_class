@@ -1,0 +1,10 @@
+public class Supplier implements Cloneable{
+
+	private int ID;
+	private String name;
+	private String place;
+	private String contact;
+	private Set<MaterialBrand> materialBrands;
+	private Set<Bxg> bxgs;
+	private Set<Small> smalls;
+	private boolean valid;

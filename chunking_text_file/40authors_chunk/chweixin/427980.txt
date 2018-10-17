@@ -1,0 +1,10 @@
+	 * @return 最近一次交互时间。
+	 * */
+	public Date getLastTime() {
+		return lastTime;
+	}
+	/**
+	 * 设置最近一次交互时间。
+	 * @param lastTime
+	 * 	最近一次交互时间。
+	 * */

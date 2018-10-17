@@ -1,0 +1,10 @@
+   private void copy()
+   {
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      String text = textArea.getSelectedText();
+      if (text == null) text = textArea.getText();
+      StringSelection selection = new StringSelection(text);
+      clipboard.setContents(selection, null);
+   }
+
+   /**

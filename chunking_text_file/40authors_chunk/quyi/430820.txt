@@ -1,0 +1,10 @@
+    String centerResultPath)
+  {
+    this();
+    this.apkMD5 = apkMD5;
+    this.checkDate = checkDate;
+    this.sensitives = sensitives;
+    this.featuresCharacters = featuresCharacters;
+    this.apiCheck = apiCheck;
+    this.reportPath = reportPath;
+    this.centerResultPath = centerResultPath;

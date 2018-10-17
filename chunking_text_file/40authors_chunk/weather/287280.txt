@@ -1,0 +1,10 @@
+    private FrameLayout mContentLayout, mSliderBackGround;
+    public boolean mEnableBgBitMap = true;
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        TypedArray a = this.getTheme().obtainStyledAttributes(new int[]{
+                android.R.attr.windowBackground
+        });
+        int background = a.getResourceId(0, 0);
+        a.recycle();

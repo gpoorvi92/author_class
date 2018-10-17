@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import org.apache.thrift.TEnum;
+
+/**
+ * NA_NUM 无风险，但要记录
+ * A_NUM 一级风险
+ * B_NUM 二级风险
+ * J_NUM 十级风险
+ * MIN_NUM 在电视上没有得风险，但要求记录
+ * MAX_NUM 最高风险

@@ -1,0 +1,10 @@
+    public boolean isReadonly() {
+        String mimeType = getMimeType();
+        return !"image/jpeg".equals(mimeType) && !"image/png".equals(mimeType);
+    }
+
+    public boolean isDrm() {
+        return false;
+    }
+
+    /**

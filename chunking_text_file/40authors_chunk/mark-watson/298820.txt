@@ -1,0 +1,10 @@
+	    System.out.println("Error in getNodePosition: " + e);
+	}
+	return 0;  // error condition
+    }
+
+    public int getLink1(int index) {
+      return link_1[index];
+    }
+
+    public int getLink2(int index) {

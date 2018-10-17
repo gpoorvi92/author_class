@@ -1,0 +1,10 @@
+
+	@Override
+	public void onCreateResources() {
+		FontFactory.setAssetBasePath("font/");
+
+		final ITexture fontTexture = new BitmapTextureAtlas(this.getTextureManager(), 256, 256, TextureOptions.BILINEAR);
+		this.mFont = FontFactory.createFromAsset(this.getFontManager(), fontTexture, this.getAssets(), "Plok.ttf", 48, true, android.graphics.Color.WHITE);
+		this.mFont.load();
+
+		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");

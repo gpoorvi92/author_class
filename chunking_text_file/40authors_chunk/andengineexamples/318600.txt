@@ -1,0 +1,10 @@
+	// ===========================================================
+	// Elements
+	// ===========================================================
+
+	CLUB_ACE(Color.CLUB, Value.ACE),
+	CLUB_ONE(Color.CLUB, Value.ONE),
+	CLUB_TWO(Color.CLUB, Value.TWO),
+	CLUB_THREE(Color.CLUB, Value.THREE),
+	CLUB_FOUR(Color.CLUB, Value.FOUR),
+	CLUB_FIVE(Color.CLUB, Value.FIVE),

@@ -1,0 +1,10 @@
+        }
+    }
+
+    /**
+     * Mapped File way MappedByteBuffer 可以在处理大文件时，提升性能
+     *
+     * @param filename
+     * @return
+     * @throws IOException
+     */

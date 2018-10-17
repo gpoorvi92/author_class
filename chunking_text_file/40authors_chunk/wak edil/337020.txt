@@ -1,0 +1,10 @@
+					"\n\nAddress: Secand OutLet,"+"\n Lt L3-20B(P),Level 3,"+"\n AmCorp Mall,"+
+					"\n Jalan Gasing, Menara AmCorp"+"\n 42200 Petaling Jaya, Selangor."+"\n 03-89385566"+
+					"","About Us",JOptionPane.INFORMATION_MESSAGE);
+						
+		 	}
+		 	
+		 if (e.getSource() == jbExit){
+	 		int exit=JOptionPane.showConfirmDialog(null,"Confirm Exit?","EXIT",JOptionPane.YES_NO_OPTION);
+		 	
+		 		if(exit==0)

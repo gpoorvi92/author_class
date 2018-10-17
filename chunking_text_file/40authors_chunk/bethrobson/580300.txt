@@ -1,0 +1,10 @@
+          } else {                                      // found already used location
+              // System.out.print(" used " + location);  
+              success = false;                          // failure
+          }
+        }
+    }                                                   // end while
+
+    int x = 0;                                          // turn good location into alpha coords
+    int row = 0;
+    int column = 0;

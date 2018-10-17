@@ -1,0 +1,10 @@
+							FileUtils.copyToExternalStorage(ModPlayerExample.this, SAMPLE_MOD_DIRECTORY + SAMPLE_MOD_FILENAME, SAMPLE_MOD_DIRECTORY + SAMPLE_MOD_FILENAME);
+							return null;
+						}
+					}, new Callback<Void>() {
+						@Override
+						public void onCallback(final Void pCallbackValue) {
+							ModPlayerExample.this.startPlayingMod();
+						}
+					});
+				}

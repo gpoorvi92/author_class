@@ -1,0 +1,10 @@
+
+      wordList = new JList<>(words);
+      wordList.setVisibleRowCount(4);
+      JScrollPane scrollPane = new JScrollPane(wordList);
+
+      listPanel = new JPanel();
+      listPanel.add(scrollPane);
+      wordList.addListSelectionListener(new ListSelectionListener()
+         {
+            public void valueChanged(ListSelectionEvent event)

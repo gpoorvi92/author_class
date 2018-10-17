@@ -1,0 +1,10 @@
+
+    private void start() throws Exception {
+        if (!started) {
+            alterationMonitor.start();
+            started = true;
+        }
+    }
+
+    public void stop() throws Exception {
+        alterationMonitor.stop();

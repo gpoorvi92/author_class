@@ -1,0 +1,10 @@
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof searchApp_args)
+        return this.equals((searchApp_args)that);
+      return false;
+    }
+
+    public boolean equals(searchApp_args that) {
+      if (that == null)

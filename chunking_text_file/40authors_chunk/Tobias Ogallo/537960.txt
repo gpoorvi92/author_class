@@ -1,0 +1,10 @@
+public class NewUser extends JFrame {
+	private JLabel username,password,confirm,label1,label2;
+	private JPasswordField pass1,pass2;
+	private JTextField txtusername,name;
+	private JButton button1,button2;
+	private JPanel panel1,panel2;
+	private JComboBox combo1;
+	Dimension screen 	= 	Toolkit.getDefaultToolkit().getScreenSize();
+	public NewUser(){
+		super ("Adding New User");

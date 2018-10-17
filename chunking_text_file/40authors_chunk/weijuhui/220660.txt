@@ -1,0 +1,10 @@
+		
+		LaunchActButton helpLab =  (LaunchActButton) view.findViewById(R.id.help_lab);
+		helpLab.setOnHomeClick(new HomeClickListener() {
+			
+			@Override
+			public void onclick() {
+				new GuideActivity_.IntentBuilder_(getActivity()).start();
+				//action(Constant.TYPE_HELP);
+			}
+		});

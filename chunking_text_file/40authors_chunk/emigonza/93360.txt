@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface SignatureCaptureService15
+  extends SignatureCaptureService14, JposServiceInstance

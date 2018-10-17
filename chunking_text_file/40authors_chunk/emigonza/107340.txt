@@ -1,0 +1,10 @@
+import java.util.Enumeration;
+import java.io.File;
+
+/**
+ * This interface defines the populator used by the service connection
+ * and the JposServiceFactory to access the JavaPOS JposEntry objects.
+ * It also allows a consistent place to aggregates the defined JposEntry
+ * and allows for dynamic updates of the current set of JposEntry objects.
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)

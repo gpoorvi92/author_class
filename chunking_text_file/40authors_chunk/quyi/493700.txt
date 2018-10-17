@@ -1,0 +1,10 @@
+        case 4: // CHECK_START_TIME
+          return CHECK_START_TIME;
+        case 5: // CHECK_STOP_TIME
+          return CHECK_STOP_TIME;
+        default:
+          return null;
+      }
+    }
+
+    /**

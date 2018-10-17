@@ -1,0 +1,10 @@
+    @Override
+    public void ensureCapacity(int capacity) {
+        resizeBuffer(capacity - this.actualSizeInWords);
+    }
+
+    @Override
+    public long getWord(int position) {
+        return this.buffer[position];
+    }
+    

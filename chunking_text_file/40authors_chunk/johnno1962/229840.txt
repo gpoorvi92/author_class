@@ -1,0 +1,10 @@
+    public native boolean __equals( java.lang.Object arg0 );
+
+    boolean entered_equals_2;
+
+    public boolean equals( java.lang.Object arg0 ) {
+        if ( !entered_equals_2 ) {
+            entered_equals_2 = true;
+            boolean __return = __equals( arg0 );
+            entered_equals_2 = false;
+            return __return;

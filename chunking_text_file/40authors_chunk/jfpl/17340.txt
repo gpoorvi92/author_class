@@ -1,0 +1,10 @@
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(context);
+		String flag = sp.getString("bind_flag", "");
+		if ("not".equalsIgnoreCase(flag)) {
+			return null;
+		}
+		String[] args = new String[3];
+		args[0] = sp.getString("app_id", "");
+		args[1] = sp.getString("channel_id", "");
+		args[2] = sp.getString("user_id", "");

@@ -1,0 +1,10 @@
+// ElectronicValueRWBeanInfo.java - Bean information for the JavaPOS ElectronicValueRW
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

@@ -1,0 +1,10 @@
+	/**
+	 * 获取票据ID。
+	 * @return 票据ID。
+	 * */
+	public String getId() {
+		return id;
+	}
+	/**
+	 * 设置票据ID。
+	 * @param id

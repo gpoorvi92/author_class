@@ -1,0 +1,10 @@
+     * Get the nth literal word for the current running length word
+     *
+     * @param index zero based index
+     * @return the literal word
+     */
+    @Override
+    public long getLiteralWordAt(int index) {
+        return this.iteratingBrlw.getLiteralWordAt(index);
+    }
+

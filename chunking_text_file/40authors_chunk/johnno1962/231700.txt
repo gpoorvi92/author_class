@@ -1,0 +1,10 @@
+        return arg;
+    }
+
+    public float floatMethod( float arg ) {
+        return arg;
+    }
+
+    public static float floatArrayFieldStatic[];
+    public float floatArrayField[];
+

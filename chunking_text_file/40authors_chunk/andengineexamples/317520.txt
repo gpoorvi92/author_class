@@ -1,0 +1,10 @@
+	@Deprecated
+	public ConnectionRejectedProtocolMissmatchServerMessage() {
+
+	}
+
+	public ConnectionRejectedProtocolMissmatchServerMessage(final short pProtocolVersion) {
+		this.mProtocolVersion = pProtocolVersion;
+	}
+
+	// ===========================================================

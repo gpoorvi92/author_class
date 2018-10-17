@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_cpuMhz = true;
+    boolean that_present_cpuMhz = true;
+    if (this_present_cpuMhz || that_present_cpuMhz) {
+      if (!(this_present_cpuMhz && that_present_cpuMhz))
+        return false;
+      if (this.cpuMhz != that.cpuMhz)
+        return false;
+    }

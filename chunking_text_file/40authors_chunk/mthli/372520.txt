@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         FileOpenService service = (FileOpenService) ServiceManager
+               .lookup("javax.jnlp.FileOpenService");
+         FileContents contents = service.openFileDialog(".", new String[] { "txt" });
+
+         JOptionPane.showMessageDialog(this, contents.getName());
+         if (contents != null)
+         {

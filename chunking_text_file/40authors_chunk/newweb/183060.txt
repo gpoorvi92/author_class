@@ -1,0 +1,10 @@
+		return nmHeight;
+	}
+	public void setNmHeight(double nmHeight) {
+		this.nmHeight = nmHeight;
+	}
+	
+	@Column
+	public int getIsHasZZ() {
+		return isHasZZ;
+	}

@@ -1,0 +1,10 @@
+                AccountDBHelper.ACCOUNT_COLUMN_SERVER,
+                AccountDBHelper.ACCOUNT_COLUMN_EMAIL,
+                AccountDBHelper.ACCOUNT_COLUMN_TOKEN
+        };
+
+        Cursor c = database.query(
+             AccountDBHelper.ACCOUNT_TABLE_NAME,
+             projection,
+             "server=? and email=?",
+             new String[] { server, email },

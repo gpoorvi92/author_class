@@ -1,0 +1,10 @@
+
+		this.mText.attachChild(this.mLeft);
+		this.mText.attachChild(this.mRight);
+
+		final Line leftBreakLine = new Line(0, 0, 0, TextBreakExample.CAMERA_HEIGHT, this.getVertexBufferObjectManager());
+		leftBreakLine.setLineWidth(2);
+		leftBreakLine.setColor(Color.RED);
+		this.mText.attachChild(leftBreakLine);
+		final Line rightBreakLine = new Line(AUTOWRAP_WIDTH, 0, AUTOWRAP_WIDTH, TextBreakExample.CAMERA_HEIGHT, this.getVertexBufferObjectManager());
+		rightBreakLine.setLineWidth(2);

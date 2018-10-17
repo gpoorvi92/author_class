@@ -1,0 +1,10 @@
+package com.am.jlfu.fileuploader.limiter;
+
+
+public class UploadProcessingOperation {
+
+	/**
+	 * Specifies the amount of bytes that have been written
+	 * */
+	private long bytesWritten;
+	private Object bytesWrittenLock = new Object();

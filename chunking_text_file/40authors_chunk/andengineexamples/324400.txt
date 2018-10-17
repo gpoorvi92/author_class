@@ -1,0 +1,10 @@
+		this.mParticleTextureRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(this.mBitmapTextureAtlas, this, "particle_point.png", 0, 0);
+
+		this.mBitmapTextureAtlas.load();
+	}
+
+	@Override
+	protected Scene onCreateScene() {
+		this.mEngine.registerUpdateHandler(new FPSLogger());
+
+		final Scene scene = new Scene();

@@ -1,0 +1,10 @@
+			    acc_no_text[z].setText("");
+			    book_title_text1[z].setText("");
+			    rent_date_text[z].setText("");
+			    due_date_text[z].setText("");
+				}
+				patron_no_text.setEditable(true);
+            	dump.setText("");
+		
+			}
+			

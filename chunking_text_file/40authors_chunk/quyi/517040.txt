@@ -1,0 +1,10 @@
+
+    public reportNodeManagerConfig_result deepCopy() {
+      return new reportNodeManagerConfig_result(this);
+    }
+
+    @Override
+    public void clear() {
+      this.success = null;
+      this.ire = null;
+      this.ue = null;

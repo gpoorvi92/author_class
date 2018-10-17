@@ -1,0 +1,10 @@
+		Integer[] i = new Integer[array.size()];
+		Integer[] iArray = array.toArray(i);
+
+		// 对数组进行排序(升序)
+		Arrays.sort(iArray);
+
+		// 获取数组中的最后一个元素即可
+		System.out.println("最大值是：" + iArray[iArray.length - 1]);
+	}
+}

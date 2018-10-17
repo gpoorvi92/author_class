@@ -1,0 +1,10 @@
+public class ListRenderingFrame extends JFrame
+{
+   private static final int TEXT_ROWS = 8;
+   private static final int TEXT_COLUMNS = 20;
+
+   private JTextArea text;
+   private JList<Font> fontList;
+
+   public ListRenderingFrame()
+   {

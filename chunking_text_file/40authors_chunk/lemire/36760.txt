@@ -1,0 +1,10 @@
+    }
+    
+    @Override
+    public void collapse(int position, int length) {
+        System.arraycopy(this.buffer, position + length, this.buffer, position, this.actualSizeInWords - position - length);
+        for(int i = 0; i < length; ++i) {
+            removeLastWord();
+        }
+    }
+    

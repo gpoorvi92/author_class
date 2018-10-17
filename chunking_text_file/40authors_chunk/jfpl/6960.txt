@@ -1,0 +1,7 @@
+		Editor editor = sp.edit();
+		for (int i = 0; i < keys.length; i++) {
+			editor.putString(keys[i], values[i]);
+		}
+		editor.commit();
+	}
+}

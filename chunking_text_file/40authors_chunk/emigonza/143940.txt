@@ -1,0 +1,10 @@
+	 * @return true if the object passed is of this PropType
+	 * @param s the String object
+	 */
+	public boolean isValidValue( String s ) { return ( s != null ); }
+
+	/**
+	 * @return true if the object passed is of this PropType
+	 * @param obj the Java Object
+	 */
+	public boolean isValidValue( Object obj ) { return ( obj instanceof String ); }

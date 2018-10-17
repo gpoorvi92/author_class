@@ -1,0 +1,10 @@
+
+/**
+ * Created by snow on 2014/5/8.
+ */
+public class DwrScriptSessionManager extends DefaultScriptSessionManager {
+    public DwrScriptSessionManager(){
+        //绑定一个ScriptSession增加销毁事件的监听器
+        ScriptSessionListener listener = new ScriptSessionListener() {
+            public void sessionCreated(ScriptSessionEvent ev) {
+                HttpSession session = WebContextFactory.get().getSession();

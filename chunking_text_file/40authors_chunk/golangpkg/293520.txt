@@ -1,0 +1,9 @@
+		Assert.assertThat(limitingList.list.get(0), CoreMatchers.is(d));
+		Assert.assertThat(limitingList.list.get(1), CoreMatchers.is(c));
+		Assert.assertThat(limitingList.list.size(), CoreMatchers.is(2));
+		
+		
+	}
+	
+	
+}

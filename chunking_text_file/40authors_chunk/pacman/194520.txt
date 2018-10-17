@@ -1,0 +1,10 @@
+			} finally {
+				locker.unlock();
+			}
+		}
+	}
+	
+	@Test
+	public void testTransformTxt() throws MQException {
+		
+		verifyTxt = null;

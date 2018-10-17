@@ -1,0 +1,10 @@
+	public void signalAfter(Callable<Boolean> stateOperation) throws Exception {
+		lock.lockInterruptibly();
+		try {
+			if (stateOperation.call()) {
+				condition.signal();
+			}
+		} finally {
+			lock.unlock();
+		}
+

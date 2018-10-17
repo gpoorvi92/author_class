@@ -1,0 +1,10 @@
+// 2006-Feb-10 JavaPOS Release 1.10                                BS
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface PointCardRWControl110 extends PointCardRWControl19
+{

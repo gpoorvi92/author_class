@@ -1,0 +1,10 @@
+    case ENGINE_RULES:
+      if (value == null) {
+        unsetEngineRules();
+      } else {
+        setEngineRules((List<String>)value);
+      }
+      break;
+
+    case ENGINE_PLOTS:
+      if (value == null) {

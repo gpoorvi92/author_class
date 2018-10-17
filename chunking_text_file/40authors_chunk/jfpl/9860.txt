@@ -1,0 +1,10 @@
+			ChatMessageUtil.showChatLongClickTextDialog(this, chatList,
+					sendState, sendFinishState, acd);
+		} else if ("2".equals(msgType) || "3".equals(msgType)
+				|| "4".equals(msgType)) {
+			ChatMessageUtil.showChatLongClickMediaDialog(this, chatList,
+					sendState, sendFinishState, acd);
+		}
+	}
+
+	@Override

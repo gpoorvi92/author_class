@@ -1,0 +1,10 @@
+	/**
+	 * @param vedioDuration the vedioDuration to set
+	 */
+	public void setVedioDuration(int vedioDuration) {
+		this.vedioDuration = vedioDuration;
+	}
+
+	/**
+	 * @param vedioSamplingRate the vedioSamplingRate to set
+	 */

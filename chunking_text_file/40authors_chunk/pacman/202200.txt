@@ -1,0 +1,10 @@
+
+		FeedbackMessage message = new FeedbackMessage();
+		message.setCommandId(IdGenerator.nextInt());
+		message.setMsg(msg);
+		
+		return message;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMessageBuilder#buildHeartbeatMessage()

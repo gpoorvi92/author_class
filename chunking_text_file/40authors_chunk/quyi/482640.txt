@@ -1,0 +1,10 @@
+    }
+
+    public updateAppStatus_args setStcRD(com.nercis.isscp.idl.StaticCheckResultData stcRD) {
+      this.stcRD = stcRD;
+      return this;
+    }
+
+    public void unsetStcRD() {
+      this.stcRD = null;
+    }

@@ -1,0 +1,10 @@
+        mWebview.getSettings().setLoadsImagesAutomatically(true);
+        mWebview.getSettings().setJavaScriptEnabled(true);
+        mWebview.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+
+        CustomWebviewClient client = new CustomWebviewClient();
+        mWebview.setWebViewClient(client);
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setTitle(R.string.shib_actionbar_title);
+

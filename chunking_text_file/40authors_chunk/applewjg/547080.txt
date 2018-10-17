@@ -1,0 +1,10 @@
+        if (len == 0 || len == 1) return true;
+        for (int i = 1; i < len; ++i) {
+            if (isScrambleRe(s1.substring(0,i), s2.substring(0,i)) 
+                && isScrambleRe(s1.substring(i), s2.substring(i)) 
+                || isScrambleRe(s1.substring(0,i), s2.substring(len-i)) 
+                && isScrambleRe(s1.substring(i), s2.substring(0,len-i))) {
+                    return true;
+                }
+        }
+        return false;

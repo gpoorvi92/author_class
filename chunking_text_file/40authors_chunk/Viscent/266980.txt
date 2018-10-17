@@ -1,0 +1,10 @@
+		return expiry;
+	}
+
+	private long expiry;
+	private Date timeStamp;
+
+	public MMSDeliverRequest() {
+
+	}
+

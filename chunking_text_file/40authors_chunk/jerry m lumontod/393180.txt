@@ -1,0 +1,10 @@
+
+		public void columnAdded(TableColumnModelEvent e) {
+			mintColumnsCount++;
+		}
+
+		public void columnRemoved(TableColumnModelEvent e) {
+			mintColumnsCount--;
+			if (mintSortCol >= e.getFromIndex())
+				mintSortCol = 0;
+		}

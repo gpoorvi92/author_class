@@ -1,0 +1,10 @@
+    
+    
+    
+    public abstract ChatServerRpc.DeleteBulletinResp DeleteBulletinReq(ChatServerRpc.DeleteBulletinReq req);
+    
+    
+    
+    public abstract void CreatePlayerReq(ChatServerRpc.CreatePlayerReq req);
+    
+    

@@ -1,0 +1,10 @@
+			// create uuid
+			uuid = getUuid();
+
+			// and set it
+			setIdentifier(req, resp, uuid);
+
+		}
+		return uuid;
+	}
+

@@ -1,0 +1,10 @@
+		cont.add(p3,BorderLayout.SOUTH);
+		
+		jbtBack.addActionListener(this);
+		
+    }
+    
+    public void actionPerformed(ActionEvent e)
+	{
+		
+		if(e.getSource() ==jbtBack)

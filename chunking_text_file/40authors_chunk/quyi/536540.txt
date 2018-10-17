@@ -1,0 +1,10 @@
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }
+
+  }
+
+  private static class HardwareResourcesTupleSchemeFactory implements SchemeFactory {
+    public HardwareResourcesTupleScheme getScheme() {
+      return new HardwareResourcesTupleScheme();

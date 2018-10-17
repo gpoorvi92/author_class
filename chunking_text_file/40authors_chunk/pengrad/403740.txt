@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model;
+
+/**
+ * stas
+ * 10/21/15.
+ */
+public class Voice {
+
+    private String file_id;
+    private Integer duration;

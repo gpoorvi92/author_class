@@ -1,0 +1,10 @@
+package com.lz.center.entity;
+import com.lz.center.ToDtoable;
+import com.lz.game.rpc.RpcDto;
+
+import java.util.Date;
+/**
+ *
+ * @author benkris
+ *
+ */

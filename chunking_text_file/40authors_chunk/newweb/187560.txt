@@ -1,0 +1,10 @@
+	public void setValid(boolean valid) {
+		this.valid = valid;
+	}
+	@OneToMany(mappedBy = "small", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<SmallPriceCut> getSmallPriceCuts() {
+		return smallPriceCuts;
+	}
+	public void setSmallPriceCuts(Set<SmallPriceCut> smallPriceCuts) {
+		this.smallPriceCuts = smallPriceCuts;
+	}

@@ -1,0 +1,10 @@
+			    c.height=((CityDrawable)mba[rowT][colT]).height;
+			    c.col=((CityDrawable)mba[rowT][colT]).col;
+			    c.row=((CityDrawable)mba[rowT][colT]).row;
+			    c.refCol=((CityDrawable)mba[rowT][colT]).refCol;
+			    c.refRow=((CityDrawable)mba[rowT][colT]).refRow;
+			    c.noThrough=((CityDrawable)mba[rowT][colT]).noThrough;
+			    c.meetableMatrix=((CityDrawable)mba[rowT][colT]).meetableMatrix;
+			    c.bmpDialogBack=((CityDrawable)mba[rowT][colT]).bmpDialogBack;
+			    c.bmpDialogButton=((CityDrawable)mba[rowT][colT]).bmpDialogButton;				    
+			    

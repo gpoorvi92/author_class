@@ -1,0 +1,10 @@
+	/**
+	 * 批量增加帐号
+	 * @param entitys
+	 * @return
+	 */
+	public boolean addBatch(Account[] entitys){
+		try{
+			DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+			List<DBObject> acctList=new ArrayList<DBObject>();
+			for(Account entity:entitys){

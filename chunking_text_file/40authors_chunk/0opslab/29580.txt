@@ -1,0 +1,10 @@
+ * <tr>
+ * <td>FF FE 00 00</td>
+ * <td>UCS-4,little-endian machine (4321 order)</td>
+ * </tr>
+ * <tr>
+ * <td>00 00 FF FE</td>
+ * <td>UCS-4, unusual octet order (2143)</td>
+ * </tr>
+ * <td>FE FF 00 00</td>
+ * <td>UCS-4, unusual octet order (3412)</td>

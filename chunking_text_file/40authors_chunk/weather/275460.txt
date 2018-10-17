@@ -1,0 +1,10 @@
+        Proxy proxy = null;
+        if (host != null) {
+          proxy = new Proxy(HTTP, new InetSocketAddress(host.getHostName(), host.getPort()));
+        }
+        client.setProxy(proxy);
+        return this;
+      }
+      throw new IllegalArgumentException(name);
+    }
+

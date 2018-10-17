@@ -1,0 +1,10 @@
+     * Find the _Fields constant that matches fieldId, or null if its not found.
+     */
+    public static _Fields findByThriftId(int fieldId) {
+      switch(fieldId) {
+        case 1: // MISSION_ID
+          return MISSION_ID;
+        case 2: // USER_APP_ID
+          return USER_APP_ID;
+        case 3: // PLOTS_STATUS
+          return PLOTS_STATUS;

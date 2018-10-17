@@ -1,0 +1,10 @@
+    } else {
+      sb.append(this.autoRunMonitor);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("fileOperate:");
+    if (this.fileOperate == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.fileOperate);

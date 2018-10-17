@@ -1,0 +1,10 @@
+
+    static class InnerClass2 {
+        public synchronized void method1() {
+            String threadName = Thread.currentThread().getName();
+
+            System.out.println(threadName + " 进入InnerClass2类中的method2方法");
+            for (int k = 1; k <= 10; k++) {
+                System.out.println("k=" + k);
+                try {
+                    Thread.sleep(100);

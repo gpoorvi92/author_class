@@ -1,0 +1,10 @@
+        modelAndView.addObject("imageRecommendType", ImageRecommendType.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/add")
+    public ModelAndView add(@RequestParam("imageFile") MultipartFile image, ImageRecommend imageRecommend) {
+        try {
+            imageRecommendService.add(image, imageRecommend);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());

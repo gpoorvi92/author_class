@@ -1,0 +1,10 @@
+ * @date: 2015年1月4日 下午11:48:45
+ */
+public class ProcessExecutor {
+
+	private final static ILog logger = LogFactory.getLog(ProcessExecutor.class);
+	public static final int SUCCESS = 0;
+
+    /**
+     * execute the external program.
+     * 

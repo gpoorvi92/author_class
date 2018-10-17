@@ -1,0 +1,8 @@
+    public int     getFullStatus() throws JposException;
+
+    // Methods
+    public void    dispenseCash(String cashCounts) throws JposException;
+    public void    dispenseChange(int amount) throws JposException;
+    public void    readCashCounts(String[] cashCounts,
+                       boolean[] discrepancy) throws JposException;
+}

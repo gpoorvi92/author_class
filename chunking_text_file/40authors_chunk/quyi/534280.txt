@@ -1,0 +1,10 @@
+    sb.append("objectName:");
+    if (this.objectName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.objectName);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("methodName:");
+    if (this.methodName == null) {

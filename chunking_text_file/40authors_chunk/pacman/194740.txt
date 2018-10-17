@@ -1,0 +1,10 @@
+		IMQSender sender = mgr.getSender(QueueType.TOPIC_COMMAND);
+		
+		locker.lock();
+		try {
+			mgr.setTopicListener(QueueType.TOPIC_COMMAND, new MockListener());			
+			sender.sendTextMessage("a quick fox jump over a small sheep.");
+			condition.await();
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();

@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.ui;
+
+import android.app.Activity;
+import android.widget.Toast;
+
+/**
+ * Utilities for displaying toast notifications
+ */
+public class ToastUtils {
+

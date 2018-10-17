@@ -1,0 +1,10 @@
+
+    public native void __windowClosed( java.awt.event.WindowEvent e );
+
+    public void windowClosed( java.awt.event.WindowEvent e ) {
+        __windowClosed( e );
+    }
+
+    /// public abstract void java.awt.event.WindowListener.windowIconified(java.awt.event.WindowEvent)
+
+    public native void __windowIconified( java.awt.event.WindowEvent e );

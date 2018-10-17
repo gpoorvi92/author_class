@@ -1,0 +1,10 @@
+            maze[0][i] = maze[width+1][i] = OBSTICLE;
+        }
+        for (int i=0; i<width+2; i++) {
+            maze[i][0] = maze[i][height+1] = OBSTICLE;
+        }
+        /**
+         * Randomize the maze by putting up arbitray obsticals
+         */
+        int max_obsticles = (width * height) / 3;
+        for (int i=0; i<max_obsticles; i++) {

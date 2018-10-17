@@ -1,0 +1,9 @@
+}
+
+/*
+输出：
+begin printString
+a线程永远suspend了！
+thread2启动了，但进不了printString()方法！只打印一个begin
+因为printString()方法被a线程锁定并且永远suspend暂停了！
+ */

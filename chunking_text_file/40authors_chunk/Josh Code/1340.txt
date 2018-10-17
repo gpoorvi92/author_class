@@ -1,0 +1,10 @@
+
+    private static void loadSTLFacet(BufferedReader br, Model m, 
+         loadProgressListener progressListener) throws IOException
+  {
+      br.readLine(); // outer loop statement
+      LinkedList<Vector3D> vertices = new LinkedList<Vector3D>();
+
+      while (true)
+      {
+          double x, y, z;

@@ -1,0 +1,10 @@
+    public static final int SCAN_SDT_RSS14       = 131;  // Reduced Space Symbology - 14 digit GTIN
+    public static final int SCAN_SDT_RSS_EXPANDED= 132;  // RSS - 14 digit GTIN plus additional fields
+
+    // One dimensional symbologies (added in Release 1.12)
+    public static final int SCAN_SDT_GS1DATABAR  = 131;  // GS1 DataBar Omnidirectional (normal or stacked)
+    public static final int SCAN_SDT_GS1DATABAR_E= 132;  // GS1 DataBar Expanded (normal or stacked)
+
+    // Composite Symbologies (Added in Release 1.8)
+    public static final int SCAN_SDT_CCA         = 151;  // Composite Component A.
+    public static final int SCAN_SDT_CCB         = 152;  // Composite Component B.

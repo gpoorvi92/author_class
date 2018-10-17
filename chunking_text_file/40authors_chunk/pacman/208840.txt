@@ -1,0 +1,10 @@
+	}
+	
+	
+	/**
+	 * Loads the url and return the content of it.
+	 * 		
+	 * @param url
+	 * @param content
+	 * @return success or not.
+	 */

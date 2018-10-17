@@ -1,0 +1,10 @@
+		Long originalFileSizeInBytes = fileState.getStaticFileStateJson().getOriginalFileSizeInBytes();
+		long currentFileSize = file.length();
+		Float progress = calculateProgress(currentFileSize, originalFileSizeInBytes).floatValue();
+
+		//set it
+		fileProgressStatus.setProgress(progress);
+		fileProgressStatus.setTotalFileSize(originalFileSizeInBytes);
+		fileProgressStatus.setBytesUploaded(currentFileSize);
+
+		//set upload rate

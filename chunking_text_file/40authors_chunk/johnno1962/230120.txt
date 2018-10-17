@@ -1,0 +1,10 @@
+            java.lang.String __return = __toString( );
+            entered_toString_4 = false;
+            return __return;
+        }
+        else
+            return super.toString( );
+    }
+
+    /// public native int java.lang.Object.hashCode()
+

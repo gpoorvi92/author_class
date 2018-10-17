@@ -1,0 +1,10 @@
+    public JPanel main_panel = new JPanel();
+    public JLabel patron_info = new JLabel("Patron Info");
+    public JLabel patron_no = new JLabel("Patron No");
+    public JLabel name = new JLabel("Name");
+    public JLabel passport = new JLabel("IC/Passport");
+    public JLabel group_type = new JLabel("Group Type");
+    public JLabel expiry_date = new JLabel("Expiry Date");
+    public JLabel status = new JLabel("Status");
+    public JLabel loan_duration = new JLabel("Loan Duration");
+    public JLabel outstanding_fine = new JLabel("Outstanding Fine");

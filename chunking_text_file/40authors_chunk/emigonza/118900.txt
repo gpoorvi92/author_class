@@ -1,0 +1,10 @@
+  /////////////////////////////////////////////////////////////////////
+  // "ImageType" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int IMG_TYP_BMP                  = 1;
+  public static final int IMG_TYP_JPEG                 = 2;
+  public static final int IMG_TYP_GIF                  = 3;
+  public static final int IMG_TYP_PNG                  = 4;
+  public static final int IMG_TYP_TIFF                 = 5;
+}

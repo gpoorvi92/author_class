@@ -1,0 +1,10 @@
+	private String totalTimeToDownload;
+	private long downloadBeginTime;
+	private long downloadEndTime;
+	private int percentComplete;
+	private boolean isDownloading;
+	private DownloaderWorker downloadWorker;
+	
+	/*
+	 * Constructor
+	 */

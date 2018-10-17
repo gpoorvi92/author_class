@@ -1,0 +1,10 @@
+		paint = new Paint();
+		paint.setColor(Color.WHITE);
+		paint.setAntiAlias(true);//抗锯齿
+		paint.setARGB(255, 42, 48, 103);//设置字体颜色
+		paint.setTextSize(16);//设置文字大小
+	}
+	
+	public void onDraw(Canvas canvas) {
+		canvas.drawColor(Color.WHITE);
+		canvas.drawText("是否播放声音?", 110, 230, paint);

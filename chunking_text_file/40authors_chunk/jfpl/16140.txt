@@ -1,0 +1,10 @@
+		// If sms:5551212?body=This is the message
+		else if (url.startsWith("sms:")) {
+			try {
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+
+				// Get address
+				String address = null;
+				int parmIndex = url.indexOf('?');
+				if (parmIndex == -1) {
+					address = url.substring(4);

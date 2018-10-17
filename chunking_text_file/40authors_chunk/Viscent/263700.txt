@@ -1,0 +1,10 @@
+	private final WorkerThread workerThread;
+
+	public MessageFileDownloader(String outputDir, final String ftpServer,
+	    final String userName, final String password) {
+
+		workerThread = new WorkerThread(outputDir, ftpServer, userName, password);
+
+	}
+
+	public void init() {

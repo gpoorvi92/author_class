@@ -1,0 +1,10 @@
+ * For showing markdown files
+ */
+public class MarkdownActivity extends SherlockActivity {
+
+    @SuppressWarnings("unused")
+    private static final String DEBUG_TAG = "MarkdownActivity";
+
+    private MarkdownView markdownView;
+
+    String path;

@@ -1,0 +1,10 @@
+        struct.userApp = new UserApp();
+        struct.userApp.read(iprot);
+        struct.setUserAppIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.staticCheckResult = new StaticCheckResultData();
+        struct.staticCheckResult.read(iprot);
+        struct.setStaticCheckResultIsSet(true);
+      }
+      if (incoming.get(2)) {

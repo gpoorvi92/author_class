@@ -1,0 +1,10 @@
+import android.support.v4.content.Loader;
+import android.util.Log;
+import android.view.View;
+import android.widget.ListView;
+
+public class FileListFragment extends ListFragment implements
+LoaderManager.LoaderCallbacks<List<SelectableFile>> {
+
+    private static final String LOG_TAG = "FileListFragment";
+    private static final int LOADER_ID = 0;

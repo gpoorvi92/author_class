@@ -1,0 +1,10 @@
+ * 并且对窗体和按钮添加事件
+ */
+public class TextDemo2 {
+	public static void main(String[] args) {
+		// 创建窗体对象
+		Frame f = new Frame("数据转移");
+		// 设置窗体属性
+		f.setBounds(500, 250, 400, 300);
+		// 设置布局
+		f.setLayout(new FlowLayout());

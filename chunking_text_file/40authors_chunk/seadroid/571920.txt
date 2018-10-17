@@ -1,0 +1,10 @@
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        View root = inflater.inflate(R.layout.file_list_footer, container, false);
+        statusView = (TextView)root.findViewById(R.id.upload_selection_status);
+        cancelButton = (Button)root.findViewById(R.id.button_cancel_upload);

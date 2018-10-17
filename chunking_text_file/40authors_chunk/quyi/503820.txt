@@ -1,0 +1,10 @@
+  public AppSendMessage(AppSendMessage other) {
+    if (other.isSetMissionId()) {
+      this.missionId = other.missionId;
+    }
+    if (other.isSetUserApps()) {
+      List<UserApp> __this__userApps = new ArrayList<UserApp>(other.userApps.size());
+      for (UserApp other_element : other.userApps) {
+        __this__userApps.add(new UserApp(other_element));
+      }
+      this.userApps = __this__userApps;

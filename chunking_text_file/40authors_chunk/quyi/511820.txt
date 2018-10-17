@@ -1,0 +1,10 @@
+        }
+        org.apache.thrift.transport.TMemoryInputTransport memoryTransport = new org.apache.thrift.transport.TMemoryInputTransport(getFrameBuffer().array());
+        org.apache.thrift.protocol.TProtocol prot = client.getProtocolFactory().getProtocol(memoryTransport);
+        return (new Client(prot)).recv_reportEngineConfig();
+      }
+    }
+
+    public void reportTaskManagerConfig(org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      reportTaskManagerConfig_call method_call = new reportTaskManagerConfig_call(resultHandler, this, ___protocolFactory, ___transport);

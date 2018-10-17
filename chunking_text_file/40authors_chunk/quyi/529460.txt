@@ -1,0 +1,10 @@
+
+  public UserApp setMinsdkversion(String minsdkversion) {
+    this.minsdkversion = minsdkversion;
+    return this;
+  }
+
+  public void unsetMinsdkversion() {
+    this.minsdkversion = null;
+  }
+

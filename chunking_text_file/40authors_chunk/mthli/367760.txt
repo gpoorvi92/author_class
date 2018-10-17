@@ -1,0 +1,10 @@
+
+      // define actions
+      Action yellowAction = new ColorAction("Yellow", new ImageIcon("yellow-ball.gif"),
+            Color.YELLOW);
+      Action blueAction = new ColorAction("Blue", new ImageIcon("blue-ball.gif"), Color.BLUE);
+      Action redAction = new ColorAction("Red", new ImageIcon("red-ball.gif"), Color.RED);
+
+      // add buttons for these actions
+      buttonPanel.add(new JButton(yellowAction));
+      buttonPanel.add(new JButton(blueAction));

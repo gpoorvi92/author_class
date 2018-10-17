@@ -1,0 +1,6 @@
+	 * 上传用户名称。
+	 * */
+	public void setCreateUserName(String createUserName) {
+		this.createUserName = createUserName;
+	}
+}

@@ -1,0 +1,10 @@
+    }
+
+    private static class queryApp_resultStandardSchemeFactory implements SchemeFactory {
+      public queryApp_resultStandardScheme getScheme() {
+        return new queryApp_resultStandardScheme();
+      }
+    }
+
+    private static class queryApp_resultStandardScheme extends StandardScheme<queryApp_result> {
+

@@ -1,0 +1,10 @@
+		int expires_in = resultObject.getIntValue("expires_in");
+		if(access_token == null || access_token.trim().isEmpty()){
+			logger.error(error = "获取微信服务反馈令牌异常："  + resultObject.toJSONString());
+			throw new Exception(error);
+		}
+		logger.info("获取[" + account.getName() + "]公众号令牌:" + access_token);
+		WeChatAccessToken token = new WeChatAccessToken();
+		token.setId(UUID.randomUUID().toString());
+		token.setAccount(account);
+		token.setAccessToken(access_token);

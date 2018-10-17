@@ -1,0 +1,10 @@
+import android.graphics.BitmapFactory;
+import android.widget.ImageView;
+
+public class ImageUtil {
+
+	private static BitmapCache bitmapCache = new BitmapCache();
+
+	public static ImageSize getChatImageSize(String filePath) {
+		BitmapFactory.Options options = new BitmapFactory.Options();
+		options.inJustDecodeBounds = true;

@@ -1,0 +1,10 @@
+      if (struct.isSetFileOperate()) {
+        optionals.set(3);
+      }
+      if (struct.isSetNetworkPacket()) {
+        optionals.set(4);
+      }
+      if (struct.isSetSystemResources()) {
+        optionals.set(5);
+      }
+      if (struct.isSetHardwareResources()) {

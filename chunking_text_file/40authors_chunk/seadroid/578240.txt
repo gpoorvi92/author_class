@@ -1,0 +1,10 @@
+     *
+     * this method should not be placed in UI thread
+     *
+     * @param repoID
+     * @param parentDir
+     * @return
+     * @throws SeafException
+     */
+    public Boolean isRemoteCameraUploadRepoValid(String repoID, String parentDir) throws SeafException {
+        List<SeafRepo> list = mDataManager.getReposFromServer();

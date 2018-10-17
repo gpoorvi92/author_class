@@ -1,0 +1,10 @@
+        super.setContentView(view, params);
+        afterSetContentView_();
+    }
+
+    @Override
+    public void setContentView(View view) {
+        super.setContentView(view);
+        afterSetContentView_();
+    }
+

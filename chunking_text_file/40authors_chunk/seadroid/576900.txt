@@ -1,0 +1,10 @@
+
+        if (taskID == -1) {
+            startDownloadFile();
+        }
+
+        dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface d) {
+                if (mListener != null) {
+                    mListener.onDismiss();

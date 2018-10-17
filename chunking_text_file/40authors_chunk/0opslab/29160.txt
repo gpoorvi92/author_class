@@ -1,0 +1,10 @@
+        String str = "中文的字符串,编码结果会应项目的编译和JVM的运行环境有所影响";
+        System.out.println("str: " + str + "\t字符串的编码:" + StringUtil.cpDetector(str));
+        String gbk = CharsetUtil.toGBK(str);
+        System.out.println("转换成GBK码: " + gbk);
+        String ascii = CharsetUtil.toASCII(str);
+        System.out.println("转换成US-ASCII码: " + ascii);
+        gbk = CharsetUtil.changeCharset(ascii, CharsetUtil.US_ASCII, CharsetUtil.GBK);
+        System.out.println("再把ASCII码的字符串转换成GBK码: " + gbk);
+        String iso88591 = CharsetUtil.toISO_8859_1(str);
+        System.out.println("转换成ISO-8859-1码: " + iso88591);

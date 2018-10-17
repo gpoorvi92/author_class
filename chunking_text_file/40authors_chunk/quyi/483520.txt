@@ -1,0 +1,10 @@
+        dycRD.validate();
+      }
+      if (virRD != null) {
+        virRD.validate();
+      }
+    }
+
+    private void writeObject(java.io.ObjectOutputStream out) throws java.io.IOException {
+      try {
+        write(new org.apache.thrift.protocol.TCompactProtocol(new org.apache.thrift.transport.TIOStreamTransport(out)));

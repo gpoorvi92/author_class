@@ -1,0 +1,8 @@
+		for (int i = 0; i < bGBK.length; i++) {
+			// System.out.println(Integer.toHexString(bGBK[i] & 0xff));
+			// 将每个字符转换成ASCII码
+			strBuf.append(Integer.toHexString(bGBK[i] & 0xff));
+		}
+		return strBuf.toString();
+	}
+}

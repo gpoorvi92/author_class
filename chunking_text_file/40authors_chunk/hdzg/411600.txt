@@ -1,0 +1,10 @@
+        public DrawThread(SurfaceHolder surfaceHolder, HelpView helpView) {//¹¹ÔìÆ÷
+        	super.setName("==HelpView.DrawThread");
+            this.surfaceHolder = surfaceHolder;
+            this.helpView = helpView;
+        }
+        
+        public void setFlag(boolean flag) {
+        	this.flag = flag;
+        }
+        

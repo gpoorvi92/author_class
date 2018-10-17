@@ -1,0 +1,10 @@
+			break;
+		    }
+		}
+		if (link_2[i] == node) {
+		    if (link_1[i] == n) {
+			connected = true;
+			break;
+		    }
+		}
+	    }

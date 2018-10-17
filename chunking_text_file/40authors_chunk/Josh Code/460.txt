@@ -1,0 +1,10 @@
+
+   private void bubbleSort(Triangle []triangles)
+   { 
+     boolean sorted = false;
+     int i;
+     int maxI = triangles.length;
+     Triangle t;
+
+       while (!sorted)    
+       {

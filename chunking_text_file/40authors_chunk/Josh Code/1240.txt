@@ -1,0 +1,10 @@
+      String name = f.getName();
+      name = name.toLowerCase();
+
+      if (name.endsWith(".stl")||name.endsWith(".stla"))
+          return true;
+      else
+          return false;
+  }
+
+  /** Loads the model from the specified file

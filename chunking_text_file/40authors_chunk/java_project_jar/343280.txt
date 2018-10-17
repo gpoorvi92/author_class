@@ -1,0 +1,10 @@
+        try
+        {
+            in.reset();
+        }
+        catch(IOException e)
+        {
+            handleIOException(e);
+        }
+    }
+

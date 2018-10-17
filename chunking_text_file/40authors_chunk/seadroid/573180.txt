@@ -1,0 +1,10 @@
+                    // backward compatibility. offers no forward security.
+                    "TLS_RSA_WITH_AES_128_CBC_SHA",
+                    "TLS_RSA_WITH_AES_256_CBC_SHA",
+
+                    // RFC 5746
+                    "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+            };
+        }
+
+        // now filter out any ciphers that aren't supported by this device

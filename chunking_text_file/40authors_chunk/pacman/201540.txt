@@ -1,0 +1,10 @@
+			throw new MQException("Fail to receive message!", e);
+		}
+		
+		return message;
+	}
+}
+
+class MQEventSource {
+
+	private Vector<IMQListener> repository;

@@ -1,0 +1,10 @@
+
+      JMenu optionMenu = new JMenu("Options");
+
+      optionMenu.add(readonlyItem);
+      optionMenu.addSeparator();
+      optionMenu.add(insertItem);
+      optionMenu.add(overtypeItem);
+
+      editMenu.addSeparator();
+      editMenu.add(optionMenu);

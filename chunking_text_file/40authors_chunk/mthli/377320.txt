@@ -1,0 +1,10 @@
+{
+   private static final double XMIN = -2;
+   private static final double XMAX = 2;
+   private static final double YMIN = -2;
+   private static final double YMAX = 2;
+   private static final int MAX_ITERATIONS = 16;
+   private static final int IMAGE_WIDTH = 400;
+   private static final int IMAGE_HEIGHT = 400;
+
+   public RasterImageFrame()

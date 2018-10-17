@@ -1,0 +1,10 @@
+    this();
+    this.processName = processName;
+    this.threadName = threadName;
+    this.checkTime = checkTime;
+    this.deviceType = deviceType;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */

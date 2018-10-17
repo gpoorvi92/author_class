@@ -1,0 +1,10 @@
+         b1.addActionListener(new ActionListener()
+            {
+               public void actionPerformed(ActionEvent event)
+               {
+                  hints.put(k, v1);
+                  canvas.setRenderingHints(hints);
+               }
+            });
+         JRadioButton b2 = new JRadioButton(value2, false);
+

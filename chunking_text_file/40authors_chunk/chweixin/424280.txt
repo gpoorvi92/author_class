@@ -1,0 +1,10 @@
+	public WeChatAccountInfo getModel() {
+		return this.info;
+	}
+	/**
+	 * 加载全部微信公众账号。
+	 * @return 公众账号数据。
+	 * @throws IOException 
+	 * */
+	public void all() throws IOException{
+		List<TreeNode> nodes = new ArrayList<>();

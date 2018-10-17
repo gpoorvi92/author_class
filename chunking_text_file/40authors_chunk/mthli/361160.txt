@@ -1,0 +1,9 @@
+            { "Saturn", 60268.0, 18, true, Color.ORANGE },
+            { "Uranus", 25559.0, 17, true, Color.BLUE },
+            { "Neptune", 24766.0, 8, true, Color.BLUE },
+            { "Pluto", 1137.0, 1, false, Color.BLACK } };
+
+      String[] columnNames = { "Planet", "Radius", "Moons", "Gaseous", "Color" };
+      return new JTable(cells, columnNames);
+   }
+}

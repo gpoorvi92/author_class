@@ -1,0 +1,10 @@
+	public void add( DevCatInfo devCatInfo ) { list.add( devCatInfo ); }
+
+	/**
+	 * Removes the DevCatInfo to this list
+	 * @param devCatInfo the devCatInfo to remove
+	 */
+	public void remove( DevCatInfo devCatInfo ) { list.remove( devCatInfo ); }
+
+	/** Removes all DevCatInfo in this list */
+	public void removeAll() { list.clear(); }

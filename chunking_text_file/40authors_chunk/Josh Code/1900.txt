@@ -1,0 +1,10 @@
+
+        result = is.read(data);
+        if (result < 4) // end of file reached
+            throw new EOFException();
+
+        result = (unsignedByte(data[1]) << 16) | (unsignedByte(data[2]) << 8) | unsignedByte(data[3]);
+        result |=(unsignedByte(data[0]) << 24);
+        return result;
+    }
+

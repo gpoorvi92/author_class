@@ -1,0 +1,10 @@
+                    log.error("", e);
+                }
+            }
+        }
+    }, "Rpc-Handler-Worker");
+    public static class RpcPacketWrapper implements Runnable
+    {
+        public RpcPacketWrapper(Channel channel, Rpc.RpcPacket packet)
+        {
+            this.channel = channel;

@@ -1,0 +1,10 @@
+   {
+      setBorder(BorderFactory.createEtchedBorder());
+   }
+
+   /**
+    * Sets the fileName property.
+    * @param fileName the image file name
+    */
+   public void setFileName(String fileName)
+   {

@@ -1,0 +1,10 @@
+								DialogInterface.OnClickListener posOnClickListener,
+								DialogInterface.OnClickListener negaOnClickListener){
+		
+		AlertDialog.Builder localBuilder = new AlertDialog.Builder(context);
+		//localBuilder.setIcon(R.drawable.ic_launcher);
+		
+		if(titleStr != null)localBuilder.setTitle(titleStr);
+		
+		localBuilder.setMessage(message);
+		

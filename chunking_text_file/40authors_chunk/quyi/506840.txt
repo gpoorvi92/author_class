@@ -1,0 +1,10 @@
+					.getStartedTime(), wcf_left));
+			sheet.addCell(new jxl.write.Number(3, row, searchRecordInfo
+					.getFinishedTime(), wcf_left));
+			sheet.addCell(new Label(4, row, searchRecordInfo.getCheckResult(),
+					wcf_left));
+
+			workbook.write();
+			/** *********关闭文件************* */
+			workbook.close();
+		} catch (Exception e) {

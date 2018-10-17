@@ -1,0 +1,10 @@
+				}
+			}
+			else if(x>243 && x<273 && y>15 && y<45){//点击了向上翻页按钮
+				selectI--;
+				if(selectI < 0){
+					selectI = 0;
+					currentI--;
+					if(currentI < 0){
+						currentI = 0;
+					}

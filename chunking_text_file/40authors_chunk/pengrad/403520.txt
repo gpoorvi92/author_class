@@ -1,0 +1,10 @@
+    }
+
+    public SendVideo duration(int duration) {
+        return add("duration", duration);
+    }
+
+    public SendVideo width(int width) {
+        return add("width", width);
+    }
+

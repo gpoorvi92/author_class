@@ -1,0 +1,10 @@
+     * context menu was invoked. This method returns <code>null</code> if no
+     * messages are applicable to the invocation.
+     */
+    IHttpRequestResponse[] getSelectedMessages();
+
+    /**
+     * This method can be used to retrieve details of the Scanner issues that
+     * were selected by the user when the context menu was invoked.
+     *
+     * @return An array of <code>IScanIssue</code> objects representing the

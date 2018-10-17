@@ -1,0 +1,10 @@
+
+    boolean this_present_engineName = true && this.isSetEngineName();
+    boolean that_present_engineName = true && that.isSetEngineName();
+    if (this_present_engineName || that_present_engineName) {
+      if (!(this_present_engineName && that_present_engineName))
+        return false;
+      if (!this.engineName.equals(that.engineName))
+        return false;
+    }
+

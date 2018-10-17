@@ -1,0 +1,10 @@
+    this.url = null;
+  }
+
+  /** Returns true if field url is set (has been assigned a value) and false otherwise */
+  public boolean isSetUrl() {
+    return this.url != null;
+  }
+
+  public void setUrlIsSet(boolean value) {
+    if (!value) {

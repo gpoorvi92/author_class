@@ -1,0 +1,10 @@
+
+/// class java.awt.Window ///
+
+package org.genie.java_awt;
+
+public class WindowProxy extends java.awt.Window {
+
+    long swiftObject;
+
+    /// public java.awt.Window(java.awt.Frame)

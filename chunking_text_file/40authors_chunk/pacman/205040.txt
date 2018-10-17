@@ -1,0 +1,10 @@
+
+	private IMQFactory mqFactory = null;
+
+	public MessageManager() {
+
+		this.mqFactory = createFactory();
+	}
+	
+	/** (non Javadoc)
+	 * TODO

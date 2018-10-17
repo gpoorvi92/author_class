@@ -1,0 +1,10 @@
+	public JTextField class_text = new JTextField(20);
+    public JTextField issue_number_text = new JTextField(20);
+	public JTextField publisher_text = new JTextField(20);
+	public JTextField place_text = new JTextField(20);
+	public JTextField year_text = new JTextField(20);
+	public JTextField pages_text = new JTextField(20);
+	public JComboBox type_combo = new JComboBox(type_list);
+	public JComboBox category_combo = new JComboBox(category_list);
+	public JLabel journal_master = new JLabel("journal Master");
+	public JLabel journal_no = new JLabel("journal No");

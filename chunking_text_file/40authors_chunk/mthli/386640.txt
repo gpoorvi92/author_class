@@ -1,0 +1,10 @@
+         xoff = 0.5 * (sx - scale * px);
+         yoff = 0;
+      }
+      else
+      // center vertically
+      {
+         scale = sx / px;
+         xoff = 0;
+         yoff = 0.5 * (sy - scale * py);
+      }

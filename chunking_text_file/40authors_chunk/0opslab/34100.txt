@@ -1,0 +1,10 @@
+    /**
+     * bytes数组转char数组
+     * bytes to chars
+     *
+     * @param bytes bytes数组
+     */
+    public final static char[] bytesToChars(byte[] bytes) {
+        char[] chars = new char[]{};
+        if (valid.valid(bytes)) {
+            chars = new char[bytes.length];

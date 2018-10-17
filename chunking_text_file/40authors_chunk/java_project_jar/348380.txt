@@ -1,0 +1,10 @@
+    {
+        return encoding;
+    }
+
+    public String getDefaultEncoding()
+    {
+        return defaultEncoding;
+    }
+
+    public void close()

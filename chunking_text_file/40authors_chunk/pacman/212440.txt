@@ -1,0 +1,9 @@
+		String content = "";
+		content += "[ pid = " + this.pid;
+		content += ", tid = " + this.tid;
+		content += ", pname = " + this.pname;
+		content += ", pvalue = " + this.pvalue + " ]";
+		return content;
+	}
+
+}

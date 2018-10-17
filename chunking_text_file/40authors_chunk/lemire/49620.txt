@@ -1,0 +1,10 @@
+        return bitmap.getEWAHIterator();
+    }
+
+    /**
+     * Access to the buffer
+     *
+     * @return the buffer
+     */
+    public Buffer buffer() {
+        return this.rlw.buffer;

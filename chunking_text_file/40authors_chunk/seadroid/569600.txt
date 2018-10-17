@@ -1,0 +1,10 @@
+                           DataManager dataManager) {
+        this.repoID = repoID;
+        this.password = password;
+        this.dataManager = dataManager;
+    }
+
+    @Override
+    protected void runTask() {
+        try {
+            dataManager.setPassword(repoID, password);

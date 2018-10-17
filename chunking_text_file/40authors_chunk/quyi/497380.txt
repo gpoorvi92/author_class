@@ -1,0 +1,10 @@
+          for (String _iter6 : struct.engineRules)
+          {
+            oprot.writeString(_iter6);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.enginePlots != null) {
+        oprot.writeFieldBegin(ENGINE_PLOTS_FIELD_DESC);

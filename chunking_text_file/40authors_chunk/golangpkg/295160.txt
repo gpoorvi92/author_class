@@ -1,0 +1,10 @@
+
+	@Override
+	public void clearIdentifier(HttpServletRequest req, HttpServletResponse resp) {
+		// clear session
+		req.getSession().removeAttribute(cookieIdentifier);
+
+		// remove cookie
+		Cookie cookie = getCookie(req.getCookies(), cookieIdentifier);
+		if (cookie != null) {
+			cookie.setMaxAge(0);

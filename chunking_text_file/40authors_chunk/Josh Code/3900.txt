@@ -1,0 +1,10 @@
+        gotoInitialDirectory();
+        progressP = new progressPainter(mv.getDisplayPanel());
+
+        this.mv = mv;
+        fileM = new JMenu("File");
+        JMenu view = new JMenu("View");
+        JMenu modelMenu = new ModelJMenu(mv);
+        JList renderModes = new RenderModeJList(mv);
+        JMenu viewType = new JMenu("Viewing Mode");
+        exportMenu = new exportJMenu(mv);

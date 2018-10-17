@@ -1,0 +1,10 @@
+    /// public javax.swing.JTable(java.lang.Object[][],java.lang.Object[])
+
+    JTableProxy( java.lang.Object[][] arg0, java.lang.Object[] arg1 , long swiftObject ) {
+        super( arg0, arg1 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JTable()
+
+    JTableProxy( long swiftObject ) {

@@ -1,0 +1,10 @@
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public SelectDialog(Context context, MyDialogListener dialogListener) {
+		super(context);
+		this.mContext = context;
+		this.dialogListener = dialogListener;
+	}

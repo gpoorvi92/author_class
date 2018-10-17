@@ -1,0 +1,10 @@
+   private void paste()
+   {
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      DataFlavor flavor = DataFlavor.imageFlavor;
+      if (clipboard.isDataFlavorAvailable(flavor))
+      {
+         try
+         {
+            image = (Image) clipboard.getData(flavor);
+            label.setIcon(new ImageIcon(image));

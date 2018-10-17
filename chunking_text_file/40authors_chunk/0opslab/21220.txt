@@ -1,0 +1,10 @@
+    public static String pngCaptcha(int strlen,String file){
+        String random = randomStr(strlen);
+        if(CaptchaUtil.pngCaptcha(random,width,height,file)){
+            return random;
+        }
+        return "";
+    }
+
+    public static String gifCaptch(int strlen,String file){
+        String random = randomStr(strlen);

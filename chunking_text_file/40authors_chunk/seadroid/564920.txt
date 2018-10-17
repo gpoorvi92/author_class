@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.avatar;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.google.common.base.Objects;
+
+import android.util.Log;
+
+public class Avatar {

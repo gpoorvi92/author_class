@@ -1,0 +1,10 @@
+		login.setBody(body);
+		String json="";
+		try{
+			json=login.toJson();
+			System.out.println(json);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		//json to pojo
+		TokenLogout r=new TokenLogout();

@@ -1,0 +1,10 @@
+        info.email = accountInfo.getString("email");
+
+        return info;
+    }
+
+    public long getUsage() {
+        return usage;
+    }
+
+    public void setUsage(long usage) {

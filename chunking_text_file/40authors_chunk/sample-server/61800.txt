@@ -1,0 +1,10 @@
+    };
+    protected static final Logger            log              = LoggerFactory.getLogger(TimeBaseTimerTask.class);
+    private                AtomicBoolean     START            = new AtomicBoolean(false);
+    private Timer timer;
+    public TimeBaseTimerTask(long timeInterval, TimeUnit timeUnit)
+    {
+        if (null == timeUnit)
+            throw new NullPointerException("timeUnit");
+        if (timeInterval <= 0)
+            throw new IllegalArgumentException("timeInterval must be big than zero");

@@ -1,0 +1,10 @@
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetRiskLevel()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.riskLevel, other.riskLevel);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetPak()).compareTo(other.isSetPak());

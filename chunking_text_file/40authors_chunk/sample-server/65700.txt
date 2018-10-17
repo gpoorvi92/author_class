@@ -1,0 +1,10 @@
+    }
+    public void setUuid(String uuid)
+    {
+        this.uuid = uuid;
+    }
+    private String uuid;
+    private Date addTime = new Date();
+    public CDKeyEntity()
+    {
+    }

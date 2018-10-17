@@ -1,0 +1,10 @@
+    return (this.userApps == null) ? 0 : this.userApps.size();
+  }
+
+  public java.util.Iterator<UserApp> getUserAppsIterator() {
+    return (this.userApps == null) ? null : this.userApps.iterator();
+  }
+
+  public void addToUserApps(UserApp elem) {
+    if (this.userApps == null) {
+      this.userApps = new ArrayList<UserApp>();

@@ -1,0 +1,10 @@
+                {
+                    body = buffer.readBytes(length);
+                    break;
+                }
+            }
+        }
+        if (null == body)
+        {
+            // Couldn't find the byte whose MSB is off.
+            channel.close();//close the channel if a error happend

@@ -1,0 +1,10 @@
+      String engineId)
+    {
+      this();
+      this.engineId = engineId;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchEng_args(searchEng_args other) {

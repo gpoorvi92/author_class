@@ -1,0 +1,10 @@
+}
+
+//∆π≈“«ÚΩÃ¡∑¿‡
+class PingPangCoach extends Coach implements SpeakEnglish {
+	public PingPangCoach() {}
+
+	public PingPangCoach(String name,int age) {
+		super(name,age);
+	}
+

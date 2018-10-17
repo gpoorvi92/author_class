@@ -1,0 +1,10 @@
+		return info;
+	}
+
+	@Override
+	public void delete(String[] ids) {
+		if(ids == null || ids.length == 0) return;
+		for(int i = 0; i < ids.length; i++){
+			if(ids[i] == null || ids[i].trim().isEmpty()) continue;
+			String[] prs = ids[i].split(",");
+			if(prs != null && prs.length >= 2){

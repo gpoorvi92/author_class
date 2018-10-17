@@ -1,0 +1,10 @@
+
+    /// public abstract void com.apple.eawt.UserSessionListener.userSessionActivated(com.apple.eawt.AppEvent$UserSessionEvent)
+
+    public native void __userSessionActivated( com.apple.eawt.AppEvent.UserSessionEvent arg0 );
+
+    public void userSessionActivated( com.apple.eawt.AppEvent.UserSessionEvent arg0 ) {
+        __userSessionActivated( arg0 );
+    }
+
+}

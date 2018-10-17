@@ -1,0 +1,10 @@
+import com.yeshj.pacman.jms.QueueType;
+import com.yeshj.pacman.jms.message.BaseMessage;
+
+/**
+ * TODO
+ * @Class: MessageManager
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 下午3:02:19
+ */
+public class MessageManager implements IMessageManager {

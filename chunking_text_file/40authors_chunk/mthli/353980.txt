@@ -1,0 +1,10 @@
+         });
+      add(button);
+   }
+
+   private void updateButton()
+   {
+      if ((Boolean) editor.getValue())
+      {
+         button.setIcon(inverseIcon);
+         button.setText("Inverse");

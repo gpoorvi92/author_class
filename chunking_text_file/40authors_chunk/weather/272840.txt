@@ -1,0 +1,10 @@
+        notifyAll();
+    }
+
+    @Override
+    public synchronized void onErrorResponse(VolleyError error) {
+        mException = error;
+        notifyAll();
+    }
+}
+

@@ -1,0 +1,10 @@
+	}
+
+	public void setPlaySource(String filePath) {
+		this.audioPath = filePath;
+		try {
+			this.mediaPlayer.setDataSource(this.audioPath);
+			this.mediaPlayer.prepare();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}

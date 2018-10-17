@@ -1,0 +1,10 @@
+        }
+        if (struct.userApps != null) {
+          oprot.writeFieldBegin(USER_APPS_FIELD_DESC);
+          {
+            oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, struct.userApps.size()));
+            for (com.nercis.isscp.idl.UserApp _iter41 : struct.userApps)
+            {
+              _iter41.write(oprot);
+            }
+            oprot.writeListEnd();

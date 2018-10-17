@@ -1,0 +1,10 @@
+        {
+            try
+            {
+                MessageLite resp = (MessageLite) invoker.targetMethod.invoke(this, invoker.parseFromMethod.invoke(null, rpcPacket.getContent()));
+                if (null != resp)
+                {
+                    if (!wrapper.channel.isOpen())
+                    {
+                        log.info("channel has closed discard rpc response {}", wrapper.channel);
+                    }

@@ -1,0 +1,10 @@
+				if(life>=System.currentTimeMillis()){
+					response.setResult(ResponseCode.SUCCESS);//令牌校验成功
+					response.setToken(userName);	//返回用户名
+				}else{
+					response.setResult(ResponseCode.ERROR_TOKENDISABLE);
+				}
+			}
+		}
+		return response;
+	}

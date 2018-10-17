@@ -1,0 +1,10 @@
+            String parentDir = Utils.getParentPath(task.getPath());
+
+            if (parentDir.equals(dir))
+                infos.add(((DownloadTask) task).getTaskInfo());
+        }
+
+        return infos;
+    }
+
+    public void retry(int taskID) {

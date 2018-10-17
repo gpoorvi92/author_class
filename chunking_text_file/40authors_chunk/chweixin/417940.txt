@@ -1,0 +1,10 @@
+	 * */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * 获取菜单代码。
+	 * @return 菜单代码。
+	 * */
+	public String getCode() {
+		return code;

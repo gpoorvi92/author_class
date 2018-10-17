@@ -1,0 +1,10 @@
+package com.lz.center.entity;
+import javax.persistence.*;
+import java.util.Date;
+/**
+ * UserEntity: Teaey
+ * Date: 13-7-8
+ */
+//@Entity
+//@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
+@MappedSuperclass

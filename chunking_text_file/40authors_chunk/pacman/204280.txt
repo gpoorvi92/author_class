@@ -1,0 +1,10 @@
+		String audioSrc = context.getAttribute(Constants.CONTEXT_MEDIA_PATH);
+		String audioDest = context.getAttribute(Constants.CONTEXT_MEDIA_FULLPATH);
+		
+		if (!FileHelper.exists(audioSrc)) {
+			throw new FileNotFoundException(audioSrc);
+		}
+		
+		FileHelper.ensureExists(audioDest, true);
+
+		String command = ExternalTool.buildAudioCommand(

@@ -1,0 +1,10 @@
+			status = 1;								//设置对话框状态
+			showString = dialogMessage[status];		//设置对话框显示的文本信息
+		}
+		else{//如果体力值够
+			status = 0;								//设置对话框状态
+			showString = dialogMessage[status];		//设置对话框显示的文本信息
+			showString = showString.replaceAll("xx", skill.strengthCost+"");//替换消耗体力的字符串
+			showString = showString.replaceFirst("yy", result+"");//替换掉预计收获金钱数的字符串
+		}
+		drawString(canvas, showString);				//在对话框中绘制信息

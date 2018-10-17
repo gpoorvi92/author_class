@@ -1,0 +1,10 @@
+		acd.putStringValue("location_data", lat + ", " + lon);
+		ServiceController.addService(acd, ctx);
+	}
+
+	public static void uploadFile(AutoActivity ctx, String filePath,
+			IServiceLogic iservice) {
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		acd.putStringValue("_filepath", filePath);
+		acd.putStringValue("_url", UPLOAD_URL);
+		acd.putStringValue("_filekey", "file");

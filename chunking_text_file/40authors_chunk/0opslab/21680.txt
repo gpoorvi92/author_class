@@ -1,0 +1,10 @@
+package com.opslab.util;
+
+import com.opslab.util.ChinesUtil;
+import junit.framework.TestCase;
+
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.CharacterCodingException;
+
+public class ChinesUtilTest extends TestCase {
+

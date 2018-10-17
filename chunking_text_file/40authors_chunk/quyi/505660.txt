@@ -1,0 +1,10 @@
+package com.nercis.isscp.util;
+/**
+ * 
+ * @author luantingyuan
+ *
+ */
+public class UserAppInfo {
+	String appName;
+	String size;
+	String md5;

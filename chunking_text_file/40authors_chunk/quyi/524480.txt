@@ -1,0 +1,10 @@
+import com.softsec.tase.common.rpc.service.task.NodeTrackerService;
+import com.softsec.tase.common.rpc.service.task.TaskClientService;
+
+public class TestClientForNercis {
+	private static Properties properties = new Properties();
+
+	private static String queue_name = null;
+	private static String queue_url = null;
+	private static String engine_address = null;
+	private static int engine_port = 0;

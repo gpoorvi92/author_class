@@ -1,0 +1,8 @@
+    long t2 = System.currentTimeMillis();
+    System.out.println("results: " + results);
+    System.out.println(" Time in milliseconds for web service call: " + (t2 - t1));
+    System.out.println(results.get(0));
+    System.out.println(results.get(1));
+  }
+
+}

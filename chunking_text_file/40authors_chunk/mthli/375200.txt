@@ -1,0 +1,10 @@
+      gImage.fill(shape1);
+      AlphaComposite composite = AlphaComposite.getInstance(rule, alpha);
+      gImage.setComposite(composite);
+      gImage.setPaint(Color.blue);
+      gImage.fill(shape2);
+      g2.drawImage(image, null, 0, 0);
+   }
+
+   /**
+    * Sets the composition rule.

@@ -1,0 +1,10 @@
+    /** 
+     * @return the JposService associated with this connection 
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public JposServiceInstance getService();
+
+    /**
+     * @return the logical name of the JposService associated with this connection
+     * @since 0.1 (Philly 99 meeting)
+     */

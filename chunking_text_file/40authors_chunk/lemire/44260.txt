@@ -1,0 +1,10 @@
+        return this.hasNext;
+    }
+
+    @Override
+    public final int next() {
+        final int answer;
+        if (runningHasNext()) {
+            answer = this.position++;
+        } else {
+            final int t = this.word & -this.word;

@@ -1,0 +1,10 @@
+	 * 
+	 * @throws TimeoutException
+	 * @throws ExecutionException
+	 * @throws InterruptedException
+	 */
+	public void clearClient(UUID clientId) {
+		log.debug("Clearing everything including cache, session, files.");
+
+		final File uuidFileParent = staticStateDirectoryManager.getUUIDFileParent(clientId);
+

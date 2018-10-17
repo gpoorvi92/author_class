@@ -1,0 +1,10 @@
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {
+    try
+    {
+      EventSetDescriptor[] events =
+      {
+        makeEvent("Data"),
+        makeEvent("DirectIO"),
+        makeEvent("Error"),

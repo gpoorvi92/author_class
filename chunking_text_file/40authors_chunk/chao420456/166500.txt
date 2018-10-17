@@ -1,0 +1,10 @@
+ * 2:List,Set,Map等接口是否都继承自Map接口
+ * List,Set都继承自Collection接口。
+ * Map本身就是顶层接口
+ * 
+ * 3:你常见的集合类有哪些，都有什么方法?
+ * 		Collection
+ * 			|--List
+ * 				|--ArrayList
+ * 				|--Vector
+ * 				|--LinkedList

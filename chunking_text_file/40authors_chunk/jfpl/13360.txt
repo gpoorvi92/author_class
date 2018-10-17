@@ -1,0 +1,10 @@
+				HttpSendFactory.getChatPlatformSendMethod());
+		acd.putStringValue("to_group", toGroup);
+		acd.putObjectValue("iservice", iservice);
+		acd.putBooleanValue("is_show_loading", false);
+		return acd;
+	}
+
+	public static void sendChatText(AutoActivity ctx, String username,
+			String toUser, String toGroup, String text, IServiceLogic iservice) {
+		AbstractCommonData acd = getChatCommonPacket(username, "1", toUser,

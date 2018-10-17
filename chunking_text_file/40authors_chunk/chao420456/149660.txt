@@ -1,0 +1,10 @@
+package cn.itcast_02;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * 这是操作日期的工具类
+ * 
+ * @author fqy
+ * @version V1.0

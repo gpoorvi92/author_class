@@ -1,0 +1,10 @@
+    }
+
+    public Emplogee(double s) {
+        this("Emplogee #" + nextId, s);
+    }
+
+    /* 
+     * 这是“无参数构造器”，
+     * 对象由无参数构造器构造时，其状态会被设置为适当的默认值。
+     * 值得注意的是：

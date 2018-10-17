@@ -1,0 +1,10 @@
+		
+		
+		final Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize(); //Scree
+		
+		int sw = screenSize.width;
+		int sh = screenSize.height;
+		Image icon = Toolkit.getDefaultToolkit().getImage("gs.gif");
+		FRAME.setIconImage(icon);
+		FRAME.setJMenuBar(menuMan);
+		FRAME.pack();

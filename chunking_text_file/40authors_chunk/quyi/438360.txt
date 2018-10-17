@@ -1,0 +1,10 @@
+    }
+
+    public void write(org.apache.thrift.protocol.TProtocol oprot, NodeInfo struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.hardware != null) {
+        oprot.writeFieldBegin(HARDWARE_FIELD_DESC);
+        struct.hardware.write(oprot);
+        oprot.writeFieldEnd();

@@ -1,0 +1,10 @@
+     */
+    public static RequestQueue newRequestQueue(Context context, HttpStack stack) {
+//        File cacheDir = new File(context.getCacheDir(), DEFAULT_CACHE_DIR);
+//
+//        if (stack != null) {
+//            OkHttpClient client = ((OkHttpStack)stack).getClient();
+//
+//            SSLContext sslContext;
+//            try {
+//                sslContext = SSLContext.getInstance("TLS");

@@ -1,0 +1,10 @@
+package bytecodeAnnotations;
+
+import java.lang.instrument.*;
+import java.io.*;
+import java.security.*;
+import org.apache.bcel.classfile.*;
+import org.apache.bcel.generic.*;
+
+/**
+ * @version 1.00 2004-08-17

@@ -1,0 +1,10 @@
+    /**
+     * This method returns a background description of the remediation for this
+     * type of issue.
+     *
+     * @return A background description of the remediation for this type of
+     * issue, or
+     * <code>null</code> if none applies.
+     */
+    String getRemediationBackground();
+

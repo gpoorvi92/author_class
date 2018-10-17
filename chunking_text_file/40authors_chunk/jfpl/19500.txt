@@ -1,0 +1,10 @@
+					loginPara.putStringValue("pwd", pwd1);
+					loginPara.putLongValue("last_login_time",
+							new Date().getTime());
+					loginPara.putBooleanValue("is_auto_login", true);
+					GlobalVariables.setAutoLoginParam(RegisterActivity.this,
+							loginPara);
+					Intent intent = new Intent(RegisterActivity.this,
+							RegisterTipActivity.class);
+					startActivity(intent);
+					finish();

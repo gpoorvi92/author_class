@@ -1,0 +1,10 @@
+    }
+    @Override
+    protected void beforeStartup() throws Exception
+    {
+    }
+    @Override
+    protected void doStartup() throws Exception
+    {
+        bootstrap = new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(), Executors.newCachedThreadPool()));
+        bootstrap.setOption("child.tcpNoDelay", true);

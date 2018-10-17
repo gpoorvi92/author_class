@@ -1,0 +1,10 @@
+        }
+
+        public EditNumberActivity_.IntentBuilder_ flag(int flag) {
+            intent_.putExtra("flag", flag);
+            return this;
+        }
+
+    }
+
+}

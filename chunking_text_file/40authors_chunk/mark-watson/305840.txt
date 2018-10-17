@@ -1,0 +1,10 @@
+  public void debug() {
+    System.out.println("*** Debug: dump of search index:\n");
+    for (String word : index.keySet()) {
+      System.out.println("\n* " + word);
+      TreeSet<IdCount> ts = index.get(word);
+      Iterator<IdCount> iter = ts.iterator();
+      while (iter.hasNext()) {
+        System.out.println("   " + iter.next());
+      }
+    }

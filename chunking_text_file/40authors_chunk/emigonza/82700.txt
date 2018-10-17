@@ -1,0 +1,10 @@
+  {
+    String listener = "jpos.events." + eventName + "Listener";
+    return new EventSetDescriptor(jpos.RFIDScanner.class,
+                                  eventName,
+                                  Class.forName(listener),
+                                  eventName + "Occurred");
+  }
+
+  public EventSetDescriptor[] getEventSetDescriptors()
+  {

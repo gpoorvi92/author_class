@@ -1,0 +1,10 @@
+        FileUtil.checkFile(idPath);
+        String realPath = idPath + "/" + key;
+        try {
+            FileUtil.writeString(realPath,content);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /*

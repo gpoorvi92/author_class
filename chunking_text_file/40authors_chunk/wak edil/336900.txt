@@ -1,0 +1,10 @@
+		jbExit.setToolTipText(ttexit);
+		container.add(p2,BorderLayout.SOUTH);
+				
+		JMenuBar jmb=new JMenuBar();
+		
+		JMenu fileMenu= new JMenu("File");
+		fileMenu.setMnemonic('F');
+		jmb.add(fileMenu);
+		fileMenu.add(jmiExit=new JMenuItem("Exit"));
+					

@@ -1,0 +1,10 @@
+{ 
+   private Object[] elements; 
+   private int head; 
+   private int tail; 
+   private int count; 
+   private int modcount;
+
+   /** 
+       Constructs an empty queue. 
+       @param capacity the maximum capacity of the queue 

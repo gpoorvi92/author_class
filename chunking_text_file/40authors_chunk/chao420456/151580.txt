@@ -1,0 +1,10 @@
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	//Ë¯¾õ
+	public void sleep() {
+		System.out.println("Ë¯¾õ");

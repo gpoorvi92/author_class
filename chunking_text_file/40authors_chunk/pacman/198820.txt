@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.schedule.IWorker#getExecutedDuration()
+	 */
+	@Override
+	public long getExecutedDuration() {
+
+		return context.getLastExecuteDuration();
+	}
+
+	/**
+	 * (non Javadoc) TODO

@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.data;
+
+import java.security.MessageDigest;
+import java.security.cert.CertificateParsingException;
+import java.security.cert.X509Certificate;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.security.auth.x500.X500Principal;

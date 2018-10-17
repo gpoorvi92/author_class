@@ -1,0 +1,10 @@
+	}
+	@Override//绘制对话框的方法
+	public void drawDialog(Canvas canvas,Hero hero) {
+		String showString = null;//需要显示到对话框中的字符串
+		tempHero = hero;
+		//先画背景
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);
+		Skill skill = hero.heroSkill.get(LUMBER);//获得英雄的伐木技能
+		result = skill.calculateResult();	//计算英雄的收益
+		if(result == -1){//体力值不够了

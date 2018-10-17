@@ -1,0 +1,10 @@
+   private class ShowAction implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {
+         if (typePanel.getSelection().equals("Confirm")) JOptionPane.showConfirmDialog(
+               OptionDialogFrame.this, getMessage(), "Title", getType(optionTypePanel),
+               getType(messageTypePanel));
+         else if (typePanel.getSelection().equals("Input"))
+         {
+            if (inputPanel.getSelection().equals("Text field")) JOptionPane.showInputDialog(

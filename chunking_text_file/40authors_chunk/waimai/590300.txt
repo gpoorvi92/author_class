@@ -1,0 +1,10 @@
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccessAndClose("修改成功", "goodsType_list");
+    }
+
+    @RequestMapping("/delete")
+    public ModelAndView delete(Integer[] ids) {
+        try {
+            goodsTypeService.delete(ids);
+        } catch (ServiceException e) {

@@ -1,0 +1,10 @@
+      return (this.plots == null) ? null : this.plots.iterator();
+    }
+
+    public void addToPlots(com.nercis.isscp.idl.PlotsType elem) {
+      if (this.plots == null) {
+        this.plots = new ArrayList<com.nercis.isscp.idl.PlotsType>();
+      }
+      this.plots.add(elem);
+    }
+

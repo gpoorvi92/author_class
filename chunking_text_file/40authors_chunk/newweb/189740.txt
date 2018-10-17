@@ -1,0 +1,10 @@
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Supplier> selectAllSuppliers() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_supplier where valid=true")
+				.addEntity(Supplier.class);
+		return query.list();

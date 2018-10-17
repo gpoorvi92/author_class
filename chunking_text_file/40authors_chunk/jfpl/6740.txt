@@ -1,0 +1,10 @@
+	}
+
+	public int getCancelState() {
+		return this.state;
+	}
+
+	private void startRecord() {
+		if (this.mediaRecorder == null) {
+			this.mediaRecorder = new MediaRecorder();
+			this.mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);

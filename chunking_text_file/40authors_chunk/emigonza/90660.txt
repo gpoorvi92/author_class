@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface RemoteOrderDisplayService113 extends RemoteOrderDisplayService112
+{
+  // Nothing new added for release 1.13

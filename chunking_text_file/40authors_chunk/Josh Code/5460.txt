@@ -1,0 +1,10 @@
+  public void renderWire()
+  {
+      renderer.renderWireframe();
+  }
+
+  public void rotateModel(Vector3D rotationVector)
+  {
+      if (m != null)
+      {
+          m.rotateModel(rotationVector);

@@ -1,0 +1,10 @@
+public class SeafStarredFile implements SeafItem {
+    public enum FileType { DIR, FILE };
+    private static final String DEBUG_TAG = "SeafStarredFile";
+
+    private String repoID;
+    private long mtime;
+    private String path;
+    private FileType type;
+    private long size;    // size of file, 0 if type is dir
+

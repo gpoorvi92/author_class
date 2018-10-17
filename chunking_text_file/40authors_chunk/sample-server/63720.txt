@@ -1,0 +1,10 @@
+                for (ChatServerRpcClient each : RpcClientManager.getInstance().listChatServer())
+                {
+                    ChatServerRpc.UpdateBulletinResp resp = each.updateBulletin(req);
+                    if (!resp.getSuccess())
+                    {
+                        ret = false;
+                    }
+                }
+            }
+            else

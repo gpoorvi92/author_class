@@ -1,0 +1,10 @@
+	}
+
+
+	public void startOperation(UUID clientId, UUID fileId) {
+		log.debug("starting operation for client "+clientId + " and file "+fileId);
+		
+		// create the request one
+		// XXX are we sure that there is only one there?
+		clientsAndRequestsProcessingOperation.put(fileId, new UploadProcessingOperation());
+

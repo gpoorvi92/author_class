@@ -1,0 +1,10 @@
+		super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue);
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * 
+	 * @param context
+	 */
+	public abstract void callback(ExecuteContext context);
+}

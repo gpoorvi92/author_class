@@ -1,0 +1,10 @@
+                + Thread.currentThread().getThreadGroup().getParent().getParent().getName());
+
+    }
+}
+
+/*
+输出：
+线程：main 所在的线程组名为：main
+main线程所在的线程组的父线程组名为：system
+Exception in thread "main" java.lang.NullPointerException

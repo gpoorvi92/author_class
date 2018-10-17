@@ -1,0 +1,10 @@
+        return saleCount;
+    }
+
+    public void setSaleCount(Integer saleCount) {
+        this.saleCount = saleCount;
+    }
+
+    public Date getInsertDate() {
+        return insertDate;
+    }

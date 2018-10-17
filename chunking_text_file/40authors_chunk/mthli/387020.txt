@@ -1,0 +1,10 @@
+    * Constructs a document tree model.
+    * @param doc the document
+    */
+   public DOMTreeModel(Document doc)
+   {
+      this.doc = doc;
+   }
+
+   public Object getRoot()
+   {

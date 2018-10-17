@@ -1,0 +1,10 @@
+		return bxgs;
+	}
+	public void setBxgs(Set<Bxg> bxgs) {
+		this.bxgs = bxgs;
+	}
+	@OneToMany(mappedBy = "materialBrand", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<TypeForBrand> getTypeForBrands() {
+		return typeForBrands;
+	}
+	public void setTypeForBrands(Set<TypeForBrand> typeForBrands) {

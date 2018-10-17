@@ -1,0 +1,10 @@
+
+	public void setConnectionDatabase(String connectionDatabase) {
+		this.connectionDatabase = connectionDatabase;
+	}
+
+	public void setConnectionDescriptor(String connectionDescriptor) {
+		this.connectionDescriptor = connectionDescriptor;
+	}
+
+	public void setConnectionPerHost(int connectionPerHost) {

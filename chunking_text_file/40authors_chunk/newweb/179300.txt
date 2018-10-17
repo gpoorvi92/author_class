@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public boolean insert(OrderPrice op) {
+		try {
+			sessionFactory.getCurrentSession().save(op);
+		} catch (Exception e) {
+			return false;

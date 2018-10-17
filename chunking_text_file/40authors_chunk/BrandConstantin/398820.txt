@@ -1,0 +1,10 @@
+    
+    do{
+        if ((i % 3) == 0){
+            System.out.println(i + "");
+            cuenta++;
+            suma += i;   
+        }
+        i++;
+    } while ( i <= numIntroducido);
+

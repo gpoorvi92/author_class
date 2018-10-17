@@ -1,0 +1,10 @@
+
+    private static class heart_argsTupleScheme extends TupleScheme<heart_args> {
+
+      @Override
+      public void write(org.apache.thrift.protocol.TProtocol prot, heart_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol oprot = (TTupleProtocol) prot;
+        struct.nodeHeat.write(oprot);
+        oprot.writeI64(struct.timestamp);
+      }
+

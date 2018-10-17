@@ -1,0 +1,10 @@
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.main, "");
+
+		// 同步绑定车辆
+		String syncVehTimeStr = SampleStorageUtil.getValue(this,
+				ConstVariables.SYNC_VEH_TIME);
+		if (!StringUtil.isNull(syncVehTimeStr)) {
+			long syncVehTime = Long.parseLong(syncVehTimeStr);

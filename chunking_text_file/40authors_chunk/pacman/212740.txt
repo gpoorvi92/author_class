@@ -1,0 +1,10 @@
+	 * @param src
+	 * @param dest
+	 * @return
+	 */
+	public boolean encodeMedia(String src, String dest) {
+
+		if (gJNILoaded) {
+			return encode(src, dest) == 0;
+		}
+		return false;

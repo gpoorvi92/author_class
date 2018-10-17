@@ -1,0 +1,7 @@
+        } else {
+            goodsList = goodsService.findAll();
+        }
+        modelAndView.addObject("goodsList", goodsList);
+        return modelAndView;
+    }
+}

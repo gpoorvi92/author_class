@@ -1,0 +1,10 @@
+    public submitMission_args deepCopy() {
+      return new submitMission_args(this);
+    }
+
+    @Override
+    public void clear() {
+      this.missionId = null;
+      this.userApps = null;
+      this.plots = null;
+      this.useRule = null;

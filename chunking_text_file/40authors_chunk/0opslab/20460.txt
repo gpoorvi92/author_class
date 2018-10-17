@@ -1,0 +1,10 @@
+
+    /**
+     * 8 位 UCS 转换格式
+     */
+    public static final String UTF_8 = "UTF-8";
+
+    /**
+     * 16 位 UCS 转换格式，Big Endian（最低地址存放高位字节）字节顺序
+     */
+    public static final String UTF_16BE = "UTF-16BE";

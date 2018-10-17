@@ -1,0 +1,10 @@
+ */
+import java.net.InetAddress;
+
+/**
+ * This interface is used to represent an HTTP message that has been intercepted
+ * by Burp Proxy. Extensions can register an
+ * <code>IProxyListener</code> to receive details of proxy messages using this
+ * interface. *
+ */
+public interface IInterceptedProxyMessage

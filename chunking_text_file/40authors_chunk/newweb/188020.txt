@@ -1,0 +1,10 @@
+	public boolean isValid() {
+		return valid;
+	}
+	public void setValid(boolean valid) {
+		this.valid = valid;
+	}
+	
+	@OneToMany(mappedBy = "materialBrand", cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+	public Set<LhjPrice> getLhjPrices() {
+		return lhjPrices;

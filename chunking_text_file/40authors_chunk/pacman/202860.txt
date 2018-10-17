@@ -1,0 +1,10 @@
+			declareParameter(new SqlParameter(Types.INTEGER));
+			declareParameter(new SqlParameter(Types.VARCHAR));
+			declareParameter(new SqlParameter(Types.INTEGER));
+			
+			compile();
+		}
+	}
+
+	private MiAddAction addAction;
+	private MiSaveAction saveAction;

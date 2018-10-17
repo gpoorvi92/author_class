@@ -1,0 +1,10 @@
+        String authToken = null;
+        if (future.isDone() && !future.isCancelled()) {
+            if (result.containsKey(AccountManager.KEY_INTENT)) {
+                Intent intent = result.getParcelable(AccountManager.KEY_INTENT);
+                throw new AuthFailureError(intent);
+            }
+            authToken = result.getString(AccountManager.KEY_AUTHTOKEN);
+        }
+        if (authToken == null) {
+            throw new AuthFailureError("Got null auth token for type: " + mAuthTokenType);

@@ -1,0 +1,10 @@
+		for (File file : files) {
+			Assert.assertThat(file.exists(), is(Boolean.FALSE));
+		}
+	}
+
+
+	@Test
+	public void deleteFileThatIsOpen()
+			throws IOException, InterruptedException {
+		File file = File.createTempFile("temp", "temp");

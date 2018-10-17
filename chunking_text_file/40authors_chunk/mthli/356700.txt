@@ -1,0 +1,10 @@
+
+      // compute the extent of the bar labels
+      LineMetrics labelMetrics = labelFont.getLineMetrics("", context);
+      double bottom = labelMetrics.getHeight();
+
+      y = panelHeight - labelMetrics.getDescent();
+      g2.setFont(labelFont);
+
+      // get the scale factor and width for the bars
+      double scale = (panelHeight - top - bottom) / (maxValue - minValue);

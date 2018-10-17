@@ -1,0 +1,10 @@
+package cn.itcast_03;
+
+import java.io.IOException;
+import java.io.Reader;
+
+public class MyBufferedReader {
+	private Reader r;
+
+	public MyBufferedReader(Reader r) { // Reader r = new FileReader("my.txt");
+		this.r = r;

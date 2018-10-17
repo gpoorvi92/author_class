@@ -1,0 +1,10 @@
+		try{
+			serverThread = new ServerThread(serverFrame);
+		}catch(Exception e){
+			System.exit(0);
+		}
+		serverThread.setFlag_exit(true);
+		serverThread.start();
+	}
+
+	public void stopServer(){

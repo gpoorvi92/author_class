@@ -1,0 +1,8 @@
+    void fillUniform(int[] array, int offset, int length, int Min, int Max) {
+        int[] v = this.unidg.generateUniform(length, Max - Min);
+        for (int k = 0; k < v.length; ++k)
+            array[k + offset] = Min + v[k];
+    }
+
+    private final UniformDataGenerator unidg;
+}

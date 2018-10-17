@@ -1,0 +1,10 @@
+			return false;
+		}
+		
+		int pos = address.indexOf(':');
+		if (pos == -1){
+			return true;
+		}
+		
+		return false;
+	}

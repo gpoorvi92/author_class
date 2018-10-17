@@ -1,0 +1,10 @@
+
+    static String className;
+    static String methodName;
+    static int lineNum;
+
+
+    private static boolean isDebuggable() {
+        //BuildConfig.DEBUG
+        return true;
+    }

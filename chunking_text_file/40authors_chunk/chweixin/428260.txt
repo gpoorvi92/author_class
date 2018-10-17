@@ -1,0 +1,10 @@
+	/**
+	 * 查询公众号上的菜单。
+	 * */
+	public void query() throws IOException{
+		this.writeJson(this.service.queryMenus(this.getModel().getAccountId()));
+	}
+	/**
+	 * 删除公众号上的菜单。
+	 * */
+	public void remove() throws IOException{

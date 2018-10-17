@@ -1,0 +1,10 @@
+  public boolean getRealTimeDataEnabled() throws JposException;
+  public void    setRealTimeDataEnabled(boolean enabled) throws JposException;
+  public int     getSensorBPP() throws JposException;
+  public int     getSensorColor() throws JposException;
+  public void    setSensorColor(int color) throws JposException;
+  public int     getSensorHeight() throws JposException;
+  public int     getSensorOrientation() throws JposException;
+  public void    setSensorOrientation(int orientation) throws JposException;
+  public int     getSensorType() throws JposException;
+  public void    setSensorType(int type) throws JposException;

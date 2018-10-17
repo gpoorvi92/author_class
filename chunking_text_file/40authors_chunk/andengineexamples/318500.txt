@@ -1,0 +1,10 @@
+	// ===========================================================
+	// Inner and Anonymous Classes
+	// ===========================================================
+
+	private static class Ball extends AnimatedSprite {
+		private final PhysicsHandler mPhysicsHandler;
+
+		public Ball(final float pX, final float pY, final TiledTextureRegion pTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager) {
+			super(pX, pY, pTextureRegion, pVertexBufferObjectManager);
+			this.mPhysicsHandler = new PhysicsHandler(this);

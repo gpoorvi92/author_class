@@ -1,0 +1,10 @@
+ b) Delete a character
+ c) Replace a character
+
+ Solution: Dynamic Programming.
+           1. Time: O(mn) Space: O(mn)
+           2. Time: O(mn) Space: O(n);
+ */
+public class Solution {
+    public int minDistance_1(String word1, String word2) {
+        if(word1==word2) return 0;

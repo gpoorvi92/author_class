@@ -1,0 +1,10 @@
+		// Loop over all tables printing column meta data and the first row:
+		for (String tableName : tableNames) {
+			System.out.println("\n\n** Processing table " + tableName + "\n");
+			String query = "SELECT * from " + tableName;
+			System.out.println(query);
+			ResultSet rs = s.executeQuery(query);
+			ResultSetMetaData table_meta = rs.getMetaData();
+			int columnCount = table_meta.getColumnCount();
+			System.out.println("\nColumn meta data for table:");
+			List<String> columnNames = new ArrayList<String>(10);

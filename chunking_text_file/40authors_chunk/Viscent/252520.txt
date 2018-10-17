@@ -1,0 +1,10 @@
+		    new ArrayBlockingQueue<Runnable>(200));
+
+		threadPool.submit(new IOIntensiveTask());
+	}
+
+	// 某个I/O密集型任务
+	private static class IOIntensiveTask implements Runnable {
+
+		@Override
+		public void run() {

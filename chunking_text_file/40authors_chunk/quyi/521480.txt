@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int hashCode() {
+      return 0;
+    }
+
+    @Override
+    public int compareTo(modifyTaskManagerConfig_result other) {
+      if (!getClass().equals(other.getClass())) {

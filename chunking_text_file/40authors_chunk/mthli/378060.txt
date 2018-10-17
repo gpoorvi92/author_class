@@ -1,0 +1,10 @@
+      Iterator<String> iter = writerFormats.iterator();
+      while (iter.hasNext())
+      {
+         final String formatName = iter.next();
+         JMenuItem formatItem = new JMenuItem(formatName);
+         saveMenu.add(formatItem);
+         formatItem.addActionListener(new ActionListener()
+            {
+               public void actionPerformed(ActionEvent event)
+               {

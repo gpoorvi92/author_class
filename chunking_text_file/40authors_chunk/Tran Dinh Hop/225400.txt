@@ -1,0 +1,9 @@
+	public void setElement(HuffmanNode o){
+		elem=o;
+	}
+	
+	public HuffmanNode getElement(){
+		return elem;
+	}
+	
+}

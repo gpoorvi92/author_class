@@ -1,0 +1,9 @@
+        hint = h;
+     }
+ 
+     public String getHint() {
+        return hint;
+     }
+
+}     
+

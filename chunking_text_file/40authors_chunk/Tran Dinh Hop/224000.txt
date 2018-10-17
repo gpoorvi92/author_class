@@ -1,0 +1,10 @@
+				System.exit(1);
+		}
+/*		
+		
+		addWindowListener(new WindowAdapter(){
+      		public void windowClosing(WindowEvent e){
+        			System.exit(0);
+      		}
+		});
+		setSize(image.getWidth(null), image.getHeight(null));

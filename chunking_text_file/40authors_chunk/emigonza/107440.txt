@@ -1,0 +1,10 @@
+     * Removes the specified JposEntry 
+     * @param entry the entry to remove
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void removeJposEntry( JposEntry entry );
+
+    /**
+     * Removes the JposEntry with the logicalName specified 
+     * @param logicalName the JposEntry's logical name
+     * @since 0.1 (Philly 99 meeting)

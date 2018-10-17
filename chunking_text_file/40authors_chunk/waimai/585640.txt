@@ -1,0 +1,10 @@
+
+    private String password;
+
+    private String nickname;
+
+    private String gender;
+
+    private String phone;
+
+    private Date birthday;

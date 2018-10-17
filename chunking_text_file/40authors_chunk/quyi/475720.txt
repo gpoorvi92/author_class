@@ -1,0 +1,10 @@
+    }
+
+    public String getMissionId() {
+      return this.missionId;
+    }
+
+    public submitMission_args setMissionId(String missionId) {
+      this.missionId = missionId;
+      return this;
+    }

@@ -1,0 +1,10 @@
+		//写一个功能遍历数组
+		printArray(arr);
+
+		//结果：{50,43,79,86,12}
+		//功能写好了，如何调用呢?
+		reverse(arr);
+		printArray(arr);
+	}
+
+	/*

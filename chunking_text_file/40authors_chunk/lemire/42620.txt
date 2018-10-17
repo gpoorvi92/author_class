@@ -1,0 +1,10 @@
+        while (true) {
+            if (i.getRunningLength() > 0) {
+                c.addStreamOfEmptyWords(i.getRunningBit(),
+                        i.getRunningLength());
+            }
+            int il = i.getNumberOfLiteralWords();
+            for (int k = 0; k < il ; ++k)
+                c.addWord(i.getLiteralWordAt(k));
+            if (!i.next())
+                break;

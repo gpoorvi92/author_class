@@ -1,0 +1,10 @@
+
+  public static final int BELT_MT_FORWARD              = 1;
+  public static final int BELT_MT_BACKWARD             = 2;
+  public static final int BELT_MT_STOPPED              = 3;
+  public static final int BELT_MT_EMERGENCY            = 4;
+  public static final int BELT_MT_MOTOR_FAULT          = 5;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "adjustItemCount" Method: "Direction" Parameter Constants

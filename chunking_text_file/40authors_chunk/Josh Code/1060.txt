@@ -1,0 +1,10 @@
+
+        setSize(400,400);
+        setVisible(true);
+        addComponentListener(this);
+        menu.openFile();
+    }
+
+    public void setModel(Model m)
+    {
+        display.setModel(m);

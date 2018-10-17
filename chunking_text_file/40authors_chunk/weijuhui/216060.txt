@@ -1,0 +1,10 @@
+					+ Math.min(targetHeight, source.getHeight()));
+			int dstX = (targetWidth - src.width()) / 2;
+			int dstY = (targetHeight - src.height()) / 2;
+			Rect dst = new Rect(dstX, dstY, targetWidth - dstX, targetHeight
+					- dstY);
+			c.drawBitmap(source, src, dst, null);
+			if (recycle) {
+				source.recycle();
+			}
+			return b2;

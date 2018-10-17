@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.*;
+import java.util.*;
+
+public class book_master_info extends JPanel implements book_master_info_Interface, book_master_tab_Interface, book_master_Interface{
+     public Connection connection;
+     public int confirm;
+        

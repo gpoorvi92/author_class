@@ -1,0 +1,7 @@
+    }
+    System.out.println(naranja + "\n-----------------------------------------------------------------------\n");
+    for (i = 0; i < auxiliar.length; i++){
+      System.out.print(auxiliar[i] + "\t");
+    }
+  }
+}

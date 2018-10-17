@@ -1,0 +1,10 @@
+            // clear temp files
+            Utils.clearCache(tempDir);
+
+            // clear thumb files
+            Utils.clearCache(thumbDir);
+
+            // clear cached data from database
+            settingsMgr.delCachesByActSignature(account);
+
+            // clear WebView data

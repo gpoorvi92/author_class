@@ -1,0 +1,10 @@
+            };
+            if (isUpdate) {
+                dataManager.updateFile(repoName, repoID, dir, path, monitor, isCopyToLocal);
+            } else {
+                Log.d(DEBUG_TAG, "Upload path: " + path);
+                dataManager.uploadFile(repoName, repoID, dir, path, monitor, isCopyToLocal);
+            }
+        } catch (SeafException e) {
+            Log.d(DEBUG_TAG, "Upload exception " + e.getCode() + " " + e.getMessage());
+            err = e;

@@ -1,0 +1,10 @@
+    public int mOrder; // 0-based
+    public String mSegmentMrl;
+    public String mSegmentUrl;
+    public int mDuration; // in milliseconds
+    public long mBytes; // 0 for unknown
+
+    public Bundle getBundle() {
+        Bundle args = new Bundle();
+        putInto(args);
+        return args;

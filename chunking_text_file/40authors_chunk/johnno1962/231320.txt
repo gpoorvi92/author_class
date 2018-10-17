@@ -1,0 +1,10 @@
+    public boolean booleanArrayField[];
+
+    public static boolean[] booleanArrayMethodStatic( boolean arg[] ) {
+        return arg;
+    }
+
+    public boolean[] booleanArrayMethod( boolean arg[] ) {
+        return arg;
+    }
+

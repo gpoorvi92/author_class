@@ -1,0 +1,10 @@
+        System.out.println("=============获取类中的自定义public属性包括继承的==========");
+        String[] fieldz = ClassUtil.getPublicField("model.BusinessLog", false);
+        for(String f:fieldz){
+            System.out.println(f);
+        }
+    }
+
+    @Test
+    public void testProtectedField()  {
+        System.out.println("=============获取类中自定义的protected类型的属性==============");

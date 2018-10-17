@@ -1,0 +1,10 @@
+	}
+
+	private DBObject queryUserName(String userName) {
+		DBCollection coll=connection.getCollection(COLLECTION_ACCOUNT);
+		QueryBuilder builder=QueryBuilder.start();
+		DBObject query=builder.put("userName").is(userName).get();
+		DBObject entity=coll.findOne(query);
+		return entity;
+	}
+	/**

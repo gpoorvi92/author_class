@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.base;
+
+import java.util.Date;
+
+/**
+ * Created by snow on 2014/4/22.
+ */
+public class BaseConditionVO {
+    public final static int PAGE_SHOW_COUNT = 20;
+    private int pageNum = 1;

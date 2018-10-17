@@ -1,0 +1,10 @@
+        System.out.println();
+    }
+
+    public static String pp(float x) {
+        String s = new String("" + x + "00");
+        int index = s.indexOf(".");
+        if (index > -1) s = s.substring(0, index + 3);
+        if (s.startsWith("-") == false) s = " " + s;
+        return s;
+    }

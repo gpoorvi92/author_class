@@ -1,0 +1,10 @@
+			return strokeColor;
+		}
+	public Color getFillColor1() {
+		if(fillColorGradient != null)
+			return fillColorGradient.getColor2();
+		else 
+			return fillColor;
+		}
+	public Color getFillColor2() {
+		if(fillColorGradient != null)

@@ -1,0 +1,10 @@
+    GraphBreadthFirstSearch graphBreadthFirstSearch1 = new GraphBreadthFirstSearch();
+  }
+
+  private void jbInit() throws Exception {
+    this.setDefaultCloseOperation(3);
+    jPanel1.setBackground(Color.white);
+    this.getContentPane().add(jPanel1, BorderLayout.CENTER);
+    this.setSize(290, 180);
+    this.setVisible(true);
+  }

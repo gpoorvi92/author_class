@@ -1,0 +1,10 @@
+*/
+import java.util.Scanner;
+
+class IfTest4 {
+	public static void main(String[] args) {
+		//创建键盘录入对象
+		Scanner sc = new Scanner(System.in);
+
+		//键盘录入月份
+		System.out.println("请输入月份：");

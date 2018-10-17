@@ -1,0 +1,10 @@
+      label = new JLabel();
+      add(label);
+
+      // set up file chooser
+      chooser = new JFileChooser();
+
+      // accept all image files ending with .jpg, .jpeg, .gif
+      /*
+      final ExtensionFileFilter filter = new ExtensionFileFilter();
+      filter.addExtension("jpg");

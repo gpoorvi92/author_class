@@ -1,0 +1,6 @@
+		// Æô¶¯Ïß³Ì
+		tp1.start();
+		tp2.start();
+		tp3.start();
+	}
+}

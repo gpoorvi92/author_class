@@ -1,0 +1,10 @@
+      this.notify_callback_url = other.notify_callback_url;
+    }
+    if (other.isSetApp_description()) {
+      this.app_description = other.app_description;
+    }
+    if (other.isSetRequestPurviews()) {
+      List<com.nercis.isscp.idl.permission.Permissions> __this__requestPurviews = new ArrayList<com.nercis.isscp.idl.permission.Permissions>(other.requestPurviews.size());
+      for (com.nercis.isscp.idl.permission.Permissions other_element : other.requestPurviews) {
+        __this__requestPurviews.add(other_element);
+      }

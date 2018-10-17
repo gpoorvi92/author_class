@@ -1,0 +1,10 @@
+	public DLNode(){
+		
+		next=null;
+		prev=null;
+		elem=null;
+	}
+	
+	public DLNode(DLNode next,DLNode prev,HuffmanNode elem){
+		
+		this.next=next;

@@ -1,0 +1,10 @@
+        super("modifyTaskManagerConfig");
+      }
+
+      public modifyTaskManagerConfig_args getEmptyArgsInstance() {
+        return new modifyTaskManagerConfig_args();
+      }
+
+      protected boolean isOneway() {
+        return false;
+      }

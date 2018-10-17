@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 结果回收队列任务信息
+ * 
+ */
+public class AppDetectResult implements org.apache.thrift.TBase<AppDetectResult, AppDetectResult._Fields>, java.io.Serializable, Cloneable, Comparable<AppDetectResult> {
+  private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("AppDetectResult");

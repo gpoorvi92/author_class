@@ -1,0 +1,10 @@
+	// searchEngine
+	public static void searchEngine(int searchCount, long waitTime) {
+		// TODO set node id
+		String nodeId = "192.168.116.156:7000";
+		for (int i = 0; i < searchCount; i++) {
+			SearchEngine searchAppThread = new SearchEngine(engine_address, engine_port, nodeId, searchCount + "@" + i + "");
+			searchAppThread.run();
+			try {
+				Thread.sleep(waitTime);
+			} catch (InterruptedException e) {

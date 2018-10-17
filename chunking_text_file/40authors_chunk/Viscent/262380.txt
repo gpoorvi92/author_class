@@ -1,0 +1,10 @@
+
+	public File write(Record[] records, int targetFileIndex) throws IOException {
+		if (null == records || 0 == records.length) {
+			throw new IllegalArgumentException("records is null or empty");
+		}
+
+		int recordCount = records.length;
+
+		String recordDay;
+

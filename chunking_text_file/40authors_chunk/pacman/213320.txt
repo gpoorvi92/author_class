@@ -1,0 +1,10 @@
+		
+		String imgDir = String.format("%s/%s/%s/", preDir, libId, cwId);
+		FileHelper.ensureExists(imgDir, false);
+
+		File f = new File(imgDir + file.getOriginalFilename());
+		
+		try {
+			file.transferTo(f);
+		} catch (Exception e) {
+

@@ -1,0 +1,8 @@
+
+    public static double getZ(Vector3D v)
+    {
+        return v.z;
+    }
+
+
+}

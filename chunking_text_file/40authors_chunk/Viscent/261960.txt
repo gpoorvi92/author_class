@@ -1,0 +1,10 @@
+				@Override
+				public Boolean call() {
+					connectedToServer = true;
+					Debug.info("connected to server");
+					return Boolean.TRUE;
+				}
+			});
+		} catch (Exception e) {
+			e.printStackTrace();
+		}

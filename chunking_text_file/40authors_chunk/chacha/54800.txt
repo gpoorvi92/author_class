@@ -1,0 +1,10 @@
+		try{
+			Properties prop = new Properties();
+			InputStream is = Config.class.getClassLoader().getResourceAsStream("conf\\chacha.properties");
+			prop.load(is);
+			dbServerIP=prop.getProperty("dbServerIP");
+			dbServerPort=Integer.parseInt(prop.getProperty("dbServerPort"));
+			dbName=prop.getProperty("dbName");
+			dbUserName=prop.getProperty("dbUserName");
+			dbPassword=prop.getProperty("dbPassword");
+			connectionDescriptor=prop.getProperty("connectionDescriptor");

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("modifyTaskManagerConfig_args(");
+      boolean first = true;
+
+      sb.append("propertyName:");
+      if (this.propertyName == null) {
+        sb.append("null");

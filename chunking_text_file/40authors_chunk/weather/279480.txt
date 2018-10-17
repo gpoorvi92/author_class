@@ -1,0 +1,10 @@
+import android.graphics.RectF;
+
+
+public class ImageHelper {
+
+    private static final String TAG = ImageHelper.class.getSimpleName();
+
+    public static Bitmap fullRoundedCornerBitmap(Bitmap bitmap) {
+        int width = Math.min(bitmap.getWidth(), bitmap.getHeight());
+        Bitmap output = Bitmap.createBitmap(width,

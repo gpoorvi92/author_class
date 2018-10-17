@@ -1,0 +1,10 @@
+		public void submit(String task) {
+			try {
+				workQueue.put(task);
+			} catch (InterruptedException e) {
+				Thread.currentThread().interrupt();
+				;
+			}
+		}
+
+	}

@@ -1,0 +1,10 @@
+       return panel;
+    }
+
+   public class RollEmListener implements ActionListener {
+      public void actionPerformed(ActionEvent ev) {
+         // roll the dice
+         String diceOutput = "";
+         String selection = (String)  numOfDice.getSelectedItem();
+         int numOfDiceToRoll = Integer.parseInt(selection);
+         for (int i = 0; i < numOfDiceToRoll; i++) {

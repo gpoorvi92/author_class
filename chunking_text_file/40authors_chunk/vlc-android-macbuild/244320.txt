@@ -1,0 +1,10 @@
+    public LoaderLauncher(int idBegin, int idEnd, Fragment fragment,
+            LoaderCallbacks<D> callbacks) {
+        mWeakFragment = new WeakReference<Fragment>(fragment);
+        mWeakCallbacks = new WeakReference<LoaderCallbacks<D>>(callbacks);
+
+        addExtraLoaderRange(idBegin, idEnd);
+    }
+
+    public void setQueueSize(int queueSize) {
+        mQueueSize = queueSize;

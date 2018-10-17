@@ -1,0 +1,10 @@
+				e.printStackTrace();
+			}
+		}
+		
+		this.map = map;
+		
+		mFactory = new ActiveMQConnectionFactory(
+				ActiveMQConnectionFactory.DEFAULT_USER,
+				ActiveMQConnectionFactory.DEFAULT_PASSWORD,
+				addr);

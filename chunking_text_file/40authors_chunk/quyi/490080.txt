@@ -1,0 +1,10 @@
+          {
+            oprot.writeI32(struct.functionStatus.size());
+            for (Map.Entry<String, com.nercis.isscp.idl.CheckResultStatus> _iter81 : struct.functionStatus.entrySet())
+            {
+              oprot.writeString(_iter81.getKey());
+              oprot.writeI32(_iter81.getValue().getValue());
+            }
+          }
+        }
+      }

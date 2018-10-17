@@ -1,0 +1,10 @@
+ * Created by snow on 2014/5/11.
+ */
+@Transactional(rollbackFor = Exception.class)
+@Service(IAdminService.SERVICE_NAME)
+public class AdminSerivceImpl implements IAdminService {
+    @Autowired
+    private AdminMapper adminMapper;
+
+    @Override
+    public Admin findByUsername(String username) {

@@ -1,0 +1,10 @@
+    case RULE_NAME:
+      return isSetRuleName();
+    case RULE_TYPES:
+      return isSetRuleTypes();
+    case RISK_LEVEL:
+      return isSetRiskLevel();
+    case PAK:
+      return isSetPak();
+    case OBJ:
+      return isSetObj();

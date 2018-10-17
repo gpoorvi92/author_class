@@ -1,0 +1,10 @@
+	 * */
+	public static <T extends BaseRespMessage> String respMessageToXml(T message){
+		xstream.alias("xml", message.getClass());
+		if(message.getClass() == ArticleRespMessage.class){
+			xstream.alias("item", new Article().getClass());
+		}
+		return xstream.toXML(message);
+	}
+	/**
+	 * 将XML转换成回复对象。

@@ -1,0 +1,9 @@
+	/** @return the Profile associated with this PropInfo */
+	public Profile getProfile();
+
+	/** @return a description of this PropInfo (this can be HTML formated) */
+	public String getDescription();
+
+	/** @return a short description of this PropInfo (this can be HTML formated) */
+	public String getShortDescription();
+}

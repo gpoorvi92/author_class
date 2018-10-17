@@ -1,0 +1,10 @@
+    public AuthImageDownloader(Context context, int connectTimeout,
+            int readTimeout) {
+        super(context, connectTimeout, readTimeout);
+    }
+
+    @Override
+    protected InputStream getStreamFromNetwork(String imageUri, Object extra)
+            throws IOException {
+        HttpRequest req = HttpRequest.get(imageUri, null, false)
+            .readTimeout(readTimeout)

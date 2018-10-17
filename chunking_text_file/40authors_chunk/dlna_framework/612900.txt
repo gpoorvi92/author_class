@@ -1,0 +1,10 @@
+	public static final int PRECONDITION_FAILED = 412;
+	public static final int ACTION_FAILED = 501;
+
+	public static final String code2String(int code)
+	{
+		switch (code) {
+		case INVALID_ACTION: return "Invalid Action";
+		case INVALID_ARGS: return "Invalid Args";
+		case OUT_OF_SYNC: return "Out of Sync";
+		case INVALID_VAR: return "Invalid Var";

@@ -1,0 +1,10 @@
+        setApkMD5((String)value);
+      }
+      break;
+
+    case SENSITIVE:
+      if (value == null) {
+        unsetSensitive();
+      } else {
+        setSensitive((List<String>)value);
+      }

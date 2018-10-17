@@ -1,0 +1,10 @@
+    public List<Integer> findSubstring_1(String S, String[] L) {
+        List<Integer> res = new ArrayList<Integer>();
+        if(L.length==0 || S==null || S.length()==0) return res;
+        int M = S.length(), N = L.length;
+        int K = L[0].length();
+        HashMap<String, Integer> need = new HashMap<String, Integer>();
+        for(String str: L) {
+            if(need.containsKey(str)) {
+                need.put(str, need.get(str)+1);
+            } else {

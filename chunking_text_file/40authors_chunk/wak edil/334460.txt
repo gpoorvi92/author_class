@@ -1,0 +1,10 @@
+	
+	
+	public void actionPerformed(ActionEvent e){
+	 	
+	 	if (e.getSource() == jbmenu){
+		Open frame = new Open();
+		frame.setTitle("Menu View");
+		frame.setSize(600,500);
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

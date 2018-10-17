@@ -1,0 +1,10 @@
+            int minute = (int) Math.floor(time / MINUTE);
+            if(minute < 1){
+                string = context.getString(R.string.just_now);
+            }else if (minute < 60) {
+                String minsAgo = context.getString(R.string.the_before_minute);
+                string = minute + minsAgo;
+            } else {
+                String createStr = getSimpleDataFormat(DATE_FORMAT_DEFAULT_ZONE).format(date);
+                createAtCalendar.set(date.getYear(), date.getMonth(), date.getDate(), 0, 0, 0);
+                currentCalendar.set(currentDate.getYear(), currentDate.getMonth(), currentDate.getDate(), 0, 0, 0);

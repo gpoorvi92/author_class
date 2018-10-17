@@ -1,0 +1,10 @@
+		txtBookCategory.setEnabled (false);
+		txtBookCategory.setBounds (120, 135, 175, 25);
+
+		//Setting the Form's Buttons.
+
+		btnDel = new JButton ("Delete Book");
+		btnDel.setBounds (25, 175, 125, 25);
+		btnDel.addActionListener (this);
+		btnCancel = new JButton ("Cancel");
+		btnCancel.setBounds (165, 175, 125, 25);

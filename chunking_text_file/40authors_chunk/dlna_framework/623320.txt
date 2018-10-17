@@ -1,0 +1,10 @@
+*	01/05/03
+*		- first revision.
+*	12/15/03
+*		- Terje Bakken
+*		- Added escapeXMLChars()
+*	
+******************************************************************/
+
+package org.cybergarage.xml;
+

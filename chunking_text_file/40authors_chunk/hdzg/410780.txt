@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class PalaceDrawable extends MyMeetableDrawable implements Serializable{
+	String [] dialogMessage={//对话框显示文字
+			"前方是皇宫，是否朝见天子，进贡讨取一个封号？预计消耗金钱100000。",
+			"前方是皇宫，不过你的钱太少了，还是不要把钱花在这种沽名上吧。",
+			"皇帝见到你的贡品，龙颜大悦，封你为xx。",
+		};
+	int cost = 100000;
+	int status = -1;

@@ -1,0 +1,10 @@
+        return (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+    }
+
+    public static NetworkInfo getActivieNetworkInfo(Context context) {
+        ConnectivityManager manager = getConnectivityManager(context);
+        if (manager == null)
+            return null;
+
+        return manager.getActiveNetworkInfo();

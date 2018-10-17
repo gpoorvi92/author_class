@@ -1,0 +1,10 @@
+ * @date: 2014年12月29日 下午4:29:37
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.event;
+
+/**
+ * TODO
+ * @Class: IAppSvrEventListener
+ * @author: zhangxinyu
+ * @date: 2014年12月29日 下午4:29:37

@@ -1,0 +1,10 @@
+		Node varNode = new Node();
+		varNode.setName(Control.NS, Control.VAR_NAME);
+		varNode.setValue(stateVar.getName());
+		queryVarNode.addNode(varNode);
+		
+		return queryVarNode;
+	}
+	
+	////////////////////////////////////////////////
+	//	post

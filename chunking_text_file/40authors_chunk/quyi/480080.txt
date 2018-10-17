@@ -1,0 +1,10 @@
+  public static class queryMission_args implements org.apache.thrift.TBase<queryMission_args, queryMission_args._Fields>, java.io.Serializable, Cloneable, Comparable<queryMission_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("queryMission_args");
+
+    private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+    static {
+      schemes.put(StandardScheme.class, new queryMission_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new queryMission_argsTupleSchemeFactory());
+    }

@@ -1,0 +1,10 @@
+		double d = 23.56;
+		System.out.println(d);
+
+		//定义char类型的变量
+		char ch = 'a';
+		System.out.println(ch);
+
+		//定义boolean类型的变量
+		boolean flag = true;
+		System.out.println(flag);

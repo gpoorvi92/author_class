@@ -1,0 +1,10 @@
+                if (null != netint.getHardwareAddress()) {
+                    List<InterfaceAddress> list = netint.getInterfaceAddresses();
+                    for (InterfaceAddress interfaceAddress : list) {
+                        InetAddress ip = interfaceAddress.getAddress();
+                        if (ip instanceof Inet4Address) {
+                            HOST_IP += interfaceAddress.getAddress().toString();
+                        }
+                    }
+                }
+            }

@@ -1,0 +1,10 @@
+
+    public void toggleSelected() {
+        selected = !selected;
+    }
+
+    @Override
+    public String getTitle() {
+        return getName();
+    }
+

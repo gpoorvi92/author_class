@@ -1,0 +1,10 @@
+package cn.itcast_11;
+
+import java.util.Properties;
+import java.util.Set;
+
+/*
+ * Properties的特有功能：
+ * A:添加功能
+ * 		public Object setProperty(String key,String value)
+ * B:获取功能

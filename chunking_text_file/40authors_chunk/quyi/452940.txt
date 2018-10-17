@@ -1,0 +1,10 @@
+            }
+            oprot.writeListEnd();
+          }
+          oprot.writeFieldEnd();
+        }
+        if (struct.plots != null) {
+          oprot.writeFieldBegin(PLOTS_FIELD_DESC);
+          {
+            oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.I32, struct.plots.size()));
+            for (com.nercis.isscp.idl.PlotsType _iter43 : struct.plots)

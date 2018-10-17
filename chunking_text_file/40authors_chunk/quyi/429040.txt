@@ -1,0 +1,10 @@
+          return ENGINE_NAME;
+        case 2: // VERSION
+          return VERSION;
+        case 3: // UPDATE
+          return UPDATE;
+        case 4: // RESULT
+          return RESULT;
+        default:
+          return null;
+      }

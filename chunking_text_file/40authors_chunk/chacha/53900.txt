@@ -1,0 +1,10 @@
+		try{
+			QueryAccountResponse qResponse=service.queryAccount(qRequest);
+			assertTrue(qResponse.getResult()==Response.SUCCESS);
+			assertTrue(qResponse.getBody().getAcctArray().size()==10);
+			assertTrue(qResponse.getBody().getAcctArray().get(0).getPasswd().equals("ffffffff"));
+		}catch(ChachaException e){
+			e.printStackTrace();
+		}
+		//删除之前新增的帐号
+		AccountNameBody delBody=new AccountNameBody(userNames);

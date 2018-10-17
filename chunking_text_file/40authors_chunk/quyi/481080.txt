@@ -1,0 +1,10 @@
+    }
+
+    public List<com.nercis.isscp.idl.AppCheckResult> getSuccess() {
+      return this.success;
+    }
+
+    public queryMission_result setSuccess(List<com.nercis.isscp.idl.AppCheckResult> success) {
+      this.success = success;
+      return this;
+    }

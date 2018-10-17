@@ -1,0 +1,10 @@
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.yeshj.pacman.config.AppConfig;
+import com.yeshj.pacman.jms.IMessageManager;
+import com.yeshj.pacman.jms.impl.MessageManager;
+
+/**
+ * TODO
+ * @Class: MessageManagerTest

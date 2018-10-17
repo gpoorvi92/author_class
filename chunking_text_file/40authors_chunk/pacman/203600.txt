@@ -1,0 +1,10 @@
+public class MessagePoller extends TimerTask {
+
+	private final static ILog logger = LogFactory.getLog(MessagePoller.class);
+	private final static String PREFIX = "[MessagePoller]";
+	
+	private static List<IMQListener> gListeners = new ArrayList<IMQListener>();
+
+	public static void addListener(IMQListener listener) {
+
+		synchronized (gListeners) {

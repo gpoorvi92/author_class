@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void setDisplay(SurfaceHolder holder) {
+        mMediaPlayer.setDisplay(holder);
+        if (holder != null)
+            holder.addCallback(mSurfaceCallback);
+    }
+
+    private SurfaceHolder.Callback mSurfaceCallback = new Callback() {

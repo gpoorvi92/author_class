@@ -1,0 +1,10 @@
+        this.image = image == null ? null : image.trim();
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description == null ? null : description.trim();
+    }

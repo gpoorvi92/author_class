@@ -1,0 +1,10 @@
+		FileHelper.ensureExists(tempDir, false);
+		
+		tempDir = FileHelper.combinePath(tempDir, "index.xml");
+		
+		LessonInfoParser parser = new LessonInfoParser();
+		try {
+			
+			info = parser.parseAndSave(url, tempDir);
+			if (info == null) {
+				throw new XMLParseException();

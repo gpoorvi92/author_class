@@ -1,0 +1,5 @@
+    public ModelAndView resetPwd(String[] ids) {
+        userService.resetPwd(ids);
+        return ajaxDoneSuccess("操作成功");
+    }
+}

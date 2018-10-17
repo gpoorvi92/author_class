@@ -1,0 +1,10 @@
+    public searchAllEng_result setUe(com.nercis.isscp.idl.UnavailableException ue) {
+      this.ue = ue;
+      return this;
+    }
+
+    public void unsetUe() {
+      this.ue = null;
+    }
+
+    /** Returns true if field ue is set (has been assigned a value) and false otherwise */

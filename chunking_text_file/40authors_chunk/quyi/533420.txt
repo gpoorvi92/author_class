@@ -1,0 +1,10 @@
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case API_NAME:
+      return getApiName();
+
+    case API_PACKAGE_NAME:

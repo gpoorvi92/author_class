@@ -1,0 +1,10 @@
+		WeChatDefaultReply defaultReply = this.weChatDefaultReplyDao.loadDefaultReply(accountId);
+		if(defaultReply == null){
+			logger.info("公众号ID："+ accountId+",没有设置默认回复消息！");
+			return null;
+		}
+		if(defaultReply.getContent() == null || defaultReply.getContent().trim().isEmpty()){
+			logger.info("公众号["+ accountId+"," +defaultReply.getAccount().getName()+ "]设置的默认回复信息为空！");
+			return null;
+		}
+		String content = defaultReply.getContent();

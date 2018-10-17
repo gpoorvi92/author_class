@@ -1,0 +1,10 @@
+	public String getVarName()
+	{
+		Node node = getVarNameNode();
+		if (node == null)
+			return "";
+		return node.getValue();
+	}
+
+	////////////////////////////////////////////////
+	//	setRequest

@@ -1,0 +1,10 @@
+							{
+								query3 = "SELECT * FROM Item WHERE item_id = '" + bname[j] + "'";
+								try
+								{
+								rs3 = statement.executeQuery(query3);
+								
+								rs3.next();
+								cnt = cnt-1;
+								
+								book_title_text1[j].setText(rs3.getString("title"));

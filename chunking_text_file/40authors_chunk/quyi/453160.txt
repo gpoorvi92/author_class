@@ -1,0 +1,10 @@
+            }
+          }
+          struct.setPlotsIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class issuedMessage_result implements org.apache.thrift.TBase<issuedMessage_result, issuedMessage_result._Fields>, java.io.Serializable, Cloneable, Comparable<issuedMessage_result>   {

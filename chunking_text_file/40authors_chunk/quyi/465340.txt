@@ -1,0 +1,10 @@
+
+    @Override
+    public String toString() {
+      StringBuilder sb = new StringBuilder("ruleSync_result(");
+      boolean first = true;
+
+      sb.append("success:");
+      if (this.success == null) {
+        sb.append("null");
+      } else {

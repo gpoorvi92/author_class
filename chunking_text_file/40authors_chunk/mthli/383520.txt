@@ -1,0 +1,10 @@
+      {
+         throw new ClassNotFoundException(name);
+      }
+   }
+
+   /**
+    * Loads and decrypt the class file bytes.
+    * @param name the class name
+    * @return an array with the class file bytes
+    */

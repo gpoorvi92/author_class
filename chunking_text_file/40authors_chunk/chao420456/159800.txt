@@ -1,0 +1,10 @@
+		sgyy.add("吕布");
+		sgyy.add("周瑜");
+
+		// 创建元素
+		ArrayList<String> xajh = new ArrayList<String>();
+		xajh.add("令狐冲");
+		xajh.add("林平之");
+
+		// 创建元素
+		ArrayList<String> sdxl = new ArrayList<String>();

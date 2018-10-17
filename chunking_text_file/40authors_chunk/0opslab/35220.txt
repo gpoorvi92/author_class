@@ -1,0 +1,10 @@
+  
+  protected Writer m_out; 
+  public StreamTableRenderer(Writer out){
+    this.m_out = out;
+  }
+  
+  protected final void renderHeader(TableModel model) throws IOException{
+    int cols = model.getColumnCount();
+    for(int i=0;i<cols;i++){
+      this.renderHeaderCell(model.getColumnName(i),(i==0)?FIRST_CELL_IN_ROW:(i==cols-1)?LAST_CELL_IN_ROW:2);

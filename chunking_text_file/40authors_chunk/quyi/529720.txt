@@ -1,0 +1,10 @@
+  }
+
+  public String getFormat() {
+    return this.format;
+  }
+
+  public UserApp setFormat(String format) {
+    this.format = format;
+    return this;
+  }

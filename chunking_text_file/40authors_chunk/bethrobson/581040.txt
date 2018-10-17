@@ -1,0 +1,10 @@
+        incoming.setLineWrap(true);
+        incoming.setWrapStyleWord(true);
+        incoming.setEditable(false);
+        JScrollPane qScroller = new JScrollPane(incoming);
+        qScroller.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        qScroller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        outgoing = new JTextField(20);
+        JButton sendButton = new JButton("Send");
+        sendButton.addActionListener(new SendButtonListener());
+        mainPanel.add(qScroller);

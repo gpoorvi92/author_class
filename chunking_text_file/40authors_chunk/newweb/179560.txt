@@ -1,0 +1,10 @@
+			return op;
+		} catch (Exception e) {
+			return null;
+		}
+	}
+
+	@Override
+	public boolean remove(OrderPrice op) {
+		return orderPriceDao.delete(op);
+	}

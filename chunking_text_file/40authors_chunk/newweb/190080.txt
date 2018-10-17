@@ -1,0 +1,10 @@
+			JOptionPane.showConfirmDialog(null,"获取文件List内容失败", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);
+		}
+		return filesText;
+	}
+
+	/**
+	 * 获取传入的路径下的文件的文件内容
+	 * 如果文件不存在，将自动根据路径及文件名创建一个新的，返回空串
+	 * @param path

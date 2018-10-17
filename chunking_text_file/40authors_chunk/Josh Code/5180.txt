@@ -1,0 +1,10 @@
+    }
+
+    public modelViewPanel(RenderingBuffer renderer)
+    {
+        this.renderer = renderer;
+        displaymode = WIRE_FRAME;
+        updateDimensionsToRenderers();
+        addListeners();
+    }
+

@@ -1,0 +1,10 @@
+    }
+    class node {
+        public int low;
+        public int high;
+        public node() {
+            low = -1;
+            high = -1;
+        }
+    }
+    public int maximumGap_2(int[] num) {

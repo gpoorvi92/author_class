@@ -1,0 +1,10 @@
+        synchronized (mQueue) {
+            mDone = true;
+            mQueue.notifyAll();
+        }
+        if (mDecodeThread != null) {
+            try {
+                Thread t = mDecodeThread;
+                BitmapManager.instance().cancelThreadDecoding(t, mCr);
+                t.join();
+                mDecodeThread = null;

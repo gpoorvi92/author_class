@@ -1,0 +1,10 @@
+	private JButton jbtDesert =new JButton("Desert");
+	private JButton jbtExit =new JButton("Exit");
+	
+	public Open(){
+			
+		Container cont=getContentPane();
+		cont.setLayout(new BorderLayout());
+		cont.setBackground(Color.white);
+		
+		ImageIcon restpic = new ImageIcon("rest2.gif");

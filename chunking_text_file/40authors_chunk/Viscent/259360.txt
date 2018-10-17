@@ -1,0 +1,10 @@
+		File file = saveAsFile(in, documentId, originalFileName);
+		try {
+			channel.put(file);
+			indexingThread.terminationToken.reservations.incrementAndGet();
+		} catch (InterruptedException e) {
+			;
+		}
+	}
+
+	private File saveAsFile(InputStream in, String documentId,

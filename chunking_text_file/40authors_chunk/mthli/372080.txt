@@ -1,0 +1,10 @@
+         // set default values
+         dialog.setUser(new User("yourname", null));
+
+         // pop up dialog
+         if (dialog.showDialog(DataExchangeFrame.this, "Connect"))
+         {
+            // if accepted, retrieve user input
+            User u = dialog.getUser();
+            textArea.append("user name = " + u.getName() + ", password = "
+                  + (new String(u.getPassword())) + "\n");

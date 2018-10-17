@@ -1,0 +1,10 @@
+        if (size == 1) return String.valueOf(num[0]);
+        Comparator<Integer> comp =  new Comparator<Integer>(){  
+            public int compare(Integer a,  Integer b) { 
+                    String aa = ""+a+b;
+                    String bb = ""+b+a;
+                    return bb.compareTo(aa);
+            }  
+        };
+        Integer[] in = new Integer[size];
+        for (int i = 0; i < size; ++i)

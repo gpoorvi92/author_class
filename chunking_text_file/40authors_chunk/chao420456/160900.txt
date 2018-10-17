@@ -1,0 +1,10 @@
+package cn.itcast_01;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/*
+ * 需求：我们的学生是有学号和姓名等信息的。
+ * it001	林青霞
+ * it002	王祖贤
+ * it003	张曼玉

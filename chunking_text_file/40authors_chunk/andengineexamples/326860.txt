@@ -1,0 +1,10 @@
+								}
+							});
+						}
+
+						@Override
+						public void onScreenCaptureFailed(final String pFilePath, final Exception pException) {
+							ScreenCaptureExample.this.runOnUiThread(new Runnable() {
+								@Override
+								public void run() {
+									Toast.makeText(ScreenCaptureExample.this, "FAILED capturing Screenshot: " + pFilePath + " !", Toast.LENGTH_SHORT).show();

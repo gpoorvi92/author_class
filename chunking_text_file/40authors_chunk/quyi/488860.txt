@@ -1,0 +1,10 @@
+    public updateUserAppStatus_args() {
+    }
+
+    public updateUserAppStatus_args(
+      String missionId,
+      String userAppId,
+      Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus,
+      Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus)
+    {
+      this();

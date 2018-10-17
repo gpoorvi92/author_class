@@ -1,0 +1,10 @@
+		mdFrm = new SimpleDateFormat("MM/dd/yyyy");
+		moVector = new Vector();
+	}
+	public AcctTableData(String tstrSQL) {
+		if (tstrSQL.length()>0) {
+			mstrSQL = tstrSQL;
+		}
+		mdFrm = new SimpleDateFormat("MM/dd/yyyy");
+		moVector = new Vector();
+	}

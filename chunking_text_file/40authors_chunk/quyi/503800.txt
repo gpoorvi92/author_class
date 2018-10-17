@@ -1,0 +1,10 @@
+    this.userApps = userApps;
+    this.rules = rules;
+    this.plots = plots;
+    this.jobPriority = jobPriority;
+    this.taskInfo = taskInfo;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */

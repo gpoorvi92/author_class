@@ -1,0 +1,10 @@
+		 
+		logger.info("接收的xml：\r\n" + root.asXML());
+		
+		//得到根元素的所有子节点。
+		List<Element> elements = root.elements();
+		if(elements != null && elements.size() > 0){
+			//将解析结果存储在HashMap中。
+			Map<String, String> map = new HashMap<String, String>();
+			logger.info("请求参数：");
+			//遍历所有子节点。

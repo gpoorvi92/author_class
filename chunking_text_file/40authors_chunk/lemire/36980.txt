@@ -1,0 +1,10 @@
+
+import com.googlecode.javaewah.datastructure.BitSet;
+import com.googlecode.javaewah.datastructure.ImmutableBitSet;
+
+
+public class BitSetMemoryMappingExample {
+    
+    public static void main(String[] args) throws IOException {
+  		File tmpfile = File.createTempFile("javaewah", "bin");
+  		tmpfile.deleteOnExit();

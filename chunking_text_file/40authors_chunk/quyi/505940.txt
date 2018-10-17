@@ -1,0 +1,10 @@
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AppCheckResult queryApp(String missionId, String userAppId) throws InvalidRequestException, UnavailableException, TException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+

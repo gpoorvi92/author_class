@@ -1,0 +1,10 @@
+    public static String digestString(String password,String alg) throws NoSuchAlgorithmException {  
+        String newPass;  
+        if (alg == null || MD5.equals(alg)) {  
+            newPass = DigestUtils.md5Hex(password);  
+        } else if (NONE.equals(alg)) {  
+            newPass = password;  
+        } else if(SHA_1.equals(alg)){
+        	newPass=DigestUtils.sha1Hex(password);
+        } else if (SHA_256.equals(alg)) {  
+            newPass = DigestUtils.sha256Hex(password);  

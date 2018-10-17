@@ -1,0 +1,10 @@
+    if (other.isSetApiCheck()) {
+      List<APICheck> __this__apiCheck = new ArrayList<APICheck>(other.apiCheck.size());
+      for (APICheck other_element : other.apiCheck) {
+        __this__apiCheck.add(new APICheck(other_element));
+      }
+      this.apiCheck = __this__apiCheck;
+    }
+    if (other.isSetReportPath()) {
+      this.reportPath = other.reportPath;
+    }

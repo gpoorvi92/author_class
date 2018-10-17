@@ -1,0 +1,10 @@
+			throws MissingParameterException {
+		return getParameterValue(request, parameter, true);
+	}
+
+
+	public String getParameterValue(HttpServletRequest request, UploadServletParameter parameter, boolean mandatory)
+			throws MissingParameterException {
+		String parameterValue = request.getParameter(parameter.name());
+		if (parameterValue == null && mandatory) {
+			throw new MissingParameterException(parameter);

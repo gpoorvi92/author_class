@@ -1,0 +1,10 @@
+		// by = fis.read();
+		// System.out.println(by);
+		// System.out.println((char) by);
+		//
+		// // 第三次读取
+		// by = fis.read();
+		// System.out.println(by);
+		// System.out.println((char) by);
+		// 我们发现上面的代码是一样的，所以，我们考虑要用循环改进
+		// 如何用循环改进呢?

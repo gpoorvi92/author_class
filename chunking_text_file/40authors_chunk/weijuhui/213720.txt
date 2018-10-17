@@ -1,0 +1,10 @@
+    /**
+     * The default height of views that this labeler generates, in dp
+     */
+    private final int viewHeightDP;
+    
+    protected int minuteInterval=1;
+
+    /**
+     * @param viewWidthDB The default width of views labeled by this labeler in dp
+     * @param viewHeightDB The default height of views labeled by this labeler in dp

@@ -1,0 +1,10 @@
+
+      public AsyncMethodCallback<Engine> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<Engine>() { 
+          public void onComplete(Engine o) {
+            searchEng_result result = new searchEng_result();
+            result.success = o;
+            try {
+              fcall.sendResponse(fb,result, org.apache.thrift.protocol.TMessageType.REPLY,seqid);
+              return;

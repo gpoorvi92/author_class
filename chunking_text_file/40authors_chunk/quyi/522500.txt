@@ -1,0 +1,10 @@
+        return isSetPropertyName();
+      case PROPERTY_VALUE:
+        return isSetPropertyValue();
+      }
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)

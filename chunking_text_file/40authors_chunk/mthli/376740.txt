@@ -1,0 +1,10 @@
+      // you can also add the mnemonic key to an action
+      Action aboutAction = new TestAction("About");
+      aboutAction.putValue(Action.MNEMONIC_KEY, new Integer('A'));
+      helpMenu.add(aboutAction);
+
+      // add all top-level menus to menu bar
+
+      JMenuBar menuBar = new JMenuBar();
+      setJMenuBar(menuBar);
+

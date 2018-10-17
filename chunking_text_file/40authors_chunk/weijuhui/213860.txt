@@ -1,0 +1,10 @@
+     */
+    public int getPreferredViewWidth(Context context) {
+        return (int)(viewWidthDP * context.getResources().getDisplayMetrics().density);
+    }
+
+    /**
+     * This method return the preferred width of TimeViews labeled by this labeler.
+     *
+     * @param context
+     * @return The preferred width, in pixels

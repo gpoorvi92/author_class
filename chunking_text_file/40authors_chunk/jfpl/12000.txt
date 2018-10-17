@@ -1,0 +1,10 @@
+		wl.x = SystemUtil.SCREEN_WIDTH - itemWidth * 3 / 2;
+		wl.y = -(SystemUtil.SCREEN_HEIGHT - height) / 2
+				+ SystemUtil.dip2px(ctx, 48) * 3 / 2 + 2;
+		window.setAttributes(wl);
+		menuLayout = (LinearLayout) findViewById(R.id.menu_collection);
+		for (String key : itemMap.keySet()) {
+			menuLayout.addView(itemMap.get(key));
+		}
+	}
+

@@ -1,0 +1,10 @@
+  public static final int EVRW_DS_ENTERED              = 3;
+  public static final int EVRW_DS_CAPTURED             = 4;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "LogStatus" Property Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int EVRW_LS_OK                   = 1;
+  public static final int EVRW_LS_NEARFULL             = 2;

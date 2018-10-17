@@ -1,0 +1,10 @@
+    if (isSetFreeMem()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.freeMem, other.freeMem);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetJvmFreeMem()).compareTo(other.isSetJvmFreeMem());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

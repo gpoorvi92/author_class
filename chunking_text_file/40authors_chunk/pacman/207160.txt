@@ -1,0 +1,10 @@
+	public final static String CONTEXT_HEIGHT = "context.vedio.height";
+	
+	//media's file path.
+	public final static String CONTEXT_MEDIA_PATH = "context.media.path";
+	
+	//media's publishing path.
+	public final static String CONTEXT_MEDIA_FULLPATH = "context.publish.path";
+	
+	//slicer files target path.
+	public final static String CONTEXT_SLICER_PUBLISH_PATH = "context.slicer.pub.path";

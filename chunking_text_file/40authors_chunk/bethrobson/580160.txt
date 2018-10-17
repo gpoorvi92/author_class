@@ -1,0 +1,6 @@
+        return y;
+    }
+    short getZ() {
+        return z;
+    }
+}

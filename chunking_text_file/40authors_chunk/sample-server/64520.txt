@@ -1,0 +1,10 @@
+            log.error("GameServerHost为null:{}", zoneEntity);
+        }
+        if (chatServer != null)
+        {
+            if (!chatServerRpcClientMap.containsKey(chatServer))
+            {
+                try
+                {
+                    String[] subs = chatServer.split(":");
+                    ChatServerRpcClient chatServerRpcClient = new ChatServerRpcClient(subs[0], RpcHelper.getDefaultRpcPort(Integer.valueOf(subs[1])));

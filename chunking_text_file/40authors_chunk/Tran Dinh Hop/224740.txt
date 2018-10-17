@@ -1,0 +1,10 @@
+			image = JAI.create("fileload", filename);
+		} else {
+			try {
+				// Use the ImageCodec APIs
+				SeekableStream stream = new FileSeekableStream(filename);
+				String[] names = ImageCodec.getDecoderNames(stream);
+				ImageDecoder dec =
+					ImageCodec.createImageDecoder(names[0], stream, null);
+				RenderedImage im = dec.decodeAsRenderedImage();
+				image = PlanarImage.wrapRenderedImage(im);

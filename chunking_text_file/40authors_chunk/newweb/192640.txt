@@ -1,0 +1,10 @@
+				userService.userLoginRecord(request, user);
+				return "systemLogin";
+			}else{
+				return "passwordError";
+			}
+			
+		}else if(user.getType().equals("customer")){
+			if(user.getPassword().equals(MD5Util.getMD5(password))){
+				request.getSession().setAttribute("userID", user.getID());
+				if(loginKeeping.equals("yes")){

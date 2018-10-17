@@ -1,0 +1,10 @@
+                int xmlPrologEnd = xmlProlog.indexOf("?>");
+                if(xmlPrologEnd > 0)
+                {
+                    Matcher m = ENCODING_PATTERN.matcher(xmlProlog.substring(0, xmlPrologEnd));
+                    if(m.find())
+                    {
+                        encoding = m.group(1).toUpperCase();
+                        encoding = encoding.substring(1, encoding.length() - 1);
+                    } else
+                    {

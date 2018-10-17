@@ -1,0 +1,10 @@
+	/** @return a String representation of this value */
+	public String toString();
+
+	/** @return the PropType for this PropValue */
+	public PropType getType();
+
+	/**
+	 * @return true if this and the other value are equal 
+	 * @param other the other PropValue
+	 */

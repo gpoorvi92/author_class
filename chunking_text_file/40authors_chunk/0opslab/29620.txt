@@ -1,0 +1,10 @@
+ * <td>EF BB BF</td>
+ * <td>UTF-8</td>
+ * </tr>
+ * </table>
+ * </p>
+ * <p>
+ * Note that this detector is very fast as it only has to read a maximum of 8 bytes to provide a result. Nevertheless it
+ * is senseless to add it to the configuration if the documents to detect will have a low rate of documents in the
+ * codepages that will be detected. If added to the configuration of {@link CodepageDetectorProxy}it
+ * should be at front position to save computations of the following detection processses.

@@ -1,0 +1,10 @@
+
+        mVodIndex = bundle.getParcelable(BUNDLE_VOD_INDEX);
+    }
+
+    public static final Parcelable.Creator<MediaResource> CREATOR = new Parcelable.Creator<MediaResource>() {
+        public MediaResource createFromParcel(Parcel in) {
+            return new MediaResource(in);
+        }
+
+        public MediaResource[] newArray(int size) {

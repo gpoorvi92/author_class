@@ -1,0 +1,10 @@
+      }
+    }
+
+  }
+
+  public static class searchEng_args implements org.apache.thrift.TBase<searchEng_args, searchEng_args._Fields>, java.io.Serializable, Cloneable, Comparable<searchEng_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("searchEng_args");
+
+    private static final org.apache.thrift.protocol.TField ENGINE_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("engineId", org.apache.thrift.protocol.TType.STRING, (short)1);
+

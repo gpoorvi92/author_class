@@ -1,0 +1,10 @@
+    schemes.put(StandardScheme.class, new VirusEngineStandardSchemeFactory());
+    schemes.put(TupleScheme.class, new VirusEngineTupleSchemeFactory());
+  }
+
+  public String engineName; // required
+  public String version; // required
+  public String update; // required
+  public String result; // required
+
+  /** The set of fields this struct contains, along with convenience methods for finding and manipulating them. */

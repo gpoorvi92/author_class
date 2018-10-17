@@ -1,0 +1,10 @@
+
+      public searchApp_args getEmptyArgsInstance() {
+        return new searchApp_args();
+      }
+
+      public AsyncMethodCallback<com.nercis.isscp.idl.Sample> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<com.nercis.isscp.idl.Sample>() { 
+          public void onComplete(com.nercis.isscp.idl.Sample o) {
+            searchApp_result result = new searchApp_result();

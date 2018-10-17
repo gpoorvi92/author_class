@@ -1,0 +1,10 @@
+    private void initServer(ServletContextEvent servletContextEvent)
+    {
+        try
+        {
+            //init rpc server & client
+            initRpc();
+            //init timers
+            initTimer();
+            //init websocket
+            initWebSocketServer();

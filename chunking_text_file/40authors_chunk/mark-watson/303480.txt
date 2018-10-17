@@ -1,0 +1,10 @@
+     * to the scored list.
+     *
+     * @param text
+     * @return true is a value was added. If the score is lower than
+     * all currently stored values and the maximum number of values to store has
+     * been reached, then the value will not be stored and the return value will be false.
+     */
+    public boolean addValue(String text) {
+        int score = 1;
+        if (strings.contains(text)) {

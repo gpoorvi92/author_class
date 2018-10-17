@@ -1,0 +1,10 @@
+    }
+    /**
+     * 修改Notice
+     */
+    @ACL(limit = Limit.NOTICE, type = RequestType.JSON)
+    @RequestMapping(value = "/modify")
+    @ResponseBody
+    public String modify(String noticeId, String content, String start, String stop, int zoneId, String interval, String noticeLevel, String roundTime, String noticeType) throws ServletException, IOException
+    {
+        start = start.replace('T', ' ');

@@ -1,0 +1,10 @@
+        __this__virusEngine.add(new VirusEngine(other_element));
+      }
+      this.virusEngine = __this__virusEngine;
+    }
+    if (other.isSetDescription()) {
+      this.description = other.description;
+    }
+  }
+
+  public VirusDetectionResultData deepCopy() {

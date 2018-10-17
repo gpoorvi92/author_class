@@ -1,0 +1,10 @@
+    public String getDbUrl()
+    {
+        return dbUrl;
+    }
+    public void setDbUrl(String dbUrl)
+    {
+        this.dbUrl = dbUrl;
+    }
+    public String getDbUsername()
+    {

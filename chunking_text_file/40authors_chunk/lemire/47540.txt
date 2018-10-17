@@ -1,0 +1,10 @@
+
+    /**
+     * Previous running length word.
+     *
+     * @return the running length word
+     */
+    public RunningLengthWord previous() {
+        this.pointer = this.positions.pop();
+        this.rlw.position = this.pointer;
+        return this.rlw;

@@ -1,0 +1,10 @@
+
+	public static final String[] LOCATION_NEAR_BY = new String[] { "酒店", "饭店",
+			"大学", "学校", "驾校" };
+
+	public static final String CHAT_DEFAULT_BUSITYPE = "0";
+	public static final String CHAT_DEFAULT_BUSISERIAL = "";
+	public static final String CHAT_DEFAULT_TITLE = "客服咨询";
+
+	public static final String SERVER_URL = "http://192.168.1.130:3000";
+

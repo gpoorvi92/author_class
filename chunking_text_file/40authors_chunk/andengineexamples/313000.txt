@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	public Frog(final int pCellX, final int pCellY, final TiledTextureRegion pTiledTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager) {
+		super(pCellX, pCellY, CELL_WIDTH, CELL_HEIGHT, pTiledTextureRegion, pVertexBufferObjectManager);
+	}
+
+	// ===========================================================

@@ -1,0 +1,10 @@
+
+        if (port < 0)
+            throw new IllegalArgumentException("Port can't be negative!");
+
+        if (handlerFactory == null)
+            throw new NullPointerException("Please specify handler factory!");
+
+        this.port = port;
+        this.workerCount = workerCount;
+        this.handlerFactory = handlerFactory;

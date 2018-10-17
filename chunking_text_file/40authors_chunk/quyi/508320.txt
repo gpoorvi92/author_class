@@ -1,0 +1,10 @@
+      first = false;
+    }
+    if (!first) sb.append(", ");
+    sb.append("plotsStatus:");
+    if (this.plotsStatus == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.plotsStatus);
+    }
+    first = false;

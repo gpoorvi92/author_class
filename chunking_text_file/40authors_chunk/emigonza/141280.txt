@@ -1,0 +1,10 @@
+    public boolean getCapBlinkRate() throws JposException;
+    public int     getCapCursorType() throws JposException;
+    public boolean getCapCustomGlyph() throws JposException;
+    public int     getCapReadBack() throws JposException;
+    public int     getCapReverse() throws JposException;
+
+    // Properties
+    public int     getBlinkRate() throws JposException;
+    public void    setBlinkRate(int blinkRate) throws JposException;
+    public int     getCursorType() throws JposException;

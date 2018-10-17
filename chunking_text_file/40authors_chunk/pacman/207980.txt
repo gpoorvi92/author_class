@@ -1,0 +1,10 @@
+ * @author: Dellinger
+ * @date: 2015年1月3日 上午1:38:23
+ */
+public class MessageHelper {
+
+	/**
+	 * 
+	 * @param map
+	 * @return
+	 * @throws Exception

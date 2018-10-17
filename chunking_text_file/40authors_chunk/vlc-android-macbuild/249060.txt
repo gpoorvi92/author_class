@@ -1,0 +1,10 @@
+public class LibVlcVideoSegmentListLoader {
+    private static final int MAX_TRY = 3;
+
+    public static final String ACCESS_SINA = "sina";
+    public static final String ACCESS_SINA_INDEX = "sinaindex";
+    public static final String ACCESS_SINA_SEGMENT = "sinasegment";
+
+    public static final String ACCESS_YOUKU = "youku";
+    public static final String ACCESS_YOUKU_INDEX = "youkuindex";
+    public static final String ACCESS_YOUKU_SEGMENT = "youkusegment";

@@ -1,0 +1,10 @@
+    public boolean isSetMissionId() {
+      return this.missionId != null;
+    }
+
+    public void setMissionIdIsSet(boolean value) {
+      if (!value) {
+        this.missionId = null;
+      }
+    }
+

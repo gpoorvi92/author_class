@@ -1,0 +1,10 @@
+ */
+@SuppressWarnings("rawtypes")
+public class CacheDispatcher extends Thread {
+
+    private static final boolean DEBUG = VolleyLog.DEBUG;
+
+    /** The queue of requests coming in for triage. */
+    private final BlockingQueue<Request> mCacheQueue;
+
+    /** The queue of requests going out to the network. */

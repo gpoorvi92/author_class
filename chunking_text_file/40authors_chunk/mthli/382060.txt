@@ -1,0 +1,10 @@
+   /**
+    * Open a file and load the document.
+    */
+   public void openFile()
+   {
+      JFileChooser chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("xpath"));
+
+      chooser.setFileFilter(new javax.swing.filechooser.FileFilter()
+         {

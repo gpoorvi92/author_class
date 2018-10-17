@@ -1,0 +1,10 @@
+                    a[row] = i;
+                    row++;
+                    break;
+                }
+            }
+            if (i == n) {
+                a[row] = -1;
+                row--;
+            }
+        }

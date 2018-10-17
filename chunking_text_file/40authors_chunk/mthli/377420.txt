@@ -1,0 +1,8 @@
+         double ynew = 2 * x * y + b;
+         x = xnew;
+         y = ynew;
+         iterations++;
+      }      
+      return x > 2 || y > 2;
+   }
+}

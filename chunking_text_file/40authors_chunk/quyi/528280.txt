@@ -1,0 +1,10 @@
+      return this.equals((InvalidRequestException)that);
+    return false;
+  }
+
+  public boolean equals(InvalidRequestException that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_why = true && this.isSetWhy();
+    boolean that_present_why = true && that.isSetWhy();

@@ -1,0 +1,10 @@
+package org.videolan.vlc.events;
+
+import android.os.Bundle;
+
+public class MediaPlayerModuleChanged {
+    private static final String BUNDLE_VIDEO_DECODER = "video_decoder";
+    private static final String BUNDLE_AUDIO_DECODER = "audio_decoder";
+    private static final String BUNDLE_VIDEO_DECODER_IMPL = "video_decoder_impl";
+    private static final String BUNDLE_AUDIO_DECODER_IMPL = "audio_decoder_impl";
+

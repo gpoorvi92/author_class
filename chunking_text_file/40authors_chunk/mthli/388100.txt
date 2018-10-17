@@ -1,0 +1,10 @@
+            }
+         });
+
+      buttonPanel = new JPanel();
+      group = new ButtonGroup();
+      makeButton("Vertical", JList.VERTICAL);
+      makeButton("Vertical Wrap", JList.VERTICAL_WRAP);
+      makeButton("Horizontal Wrap", JList.HORIZONTAL_WRAP);
+
+      add(listPanel, BorderLayout.NORTH);

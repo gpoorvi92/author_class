@@ -1,0 +1,10 @@
+    if (!value) {
+      this.apiCheck = null;
+    }
+  }
+
+  public String getReportPath() {
+    return this.reportPath;
+  }
+
+  public StaticCheckResultData setReportPath(String reportPath) {

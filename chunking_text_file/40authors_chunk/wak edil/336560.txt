@@ -1,0 +1,10 @@
+			this.dispose();
+		}
+	}
+    
+    	public static void main(String[] args)
+	{
+		BihunGorengInfo frame = new BihunGorengInfo();
+		frame.setTitle("Bihun Goreng Info");
+		frame.setSize(400,550);
+		frame.setVisible(true);

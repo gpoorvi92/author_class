@@ -1,0 +1,10 @@
+
+	private List<AbstractCommonData> dataSource;
+	private AutoActivity ctx;
+	private String busiType;
+	private ListView chatList;
+
+	public ChatListAdapter(AutoActivity ctx,
+			List<AbstractCommonData> dataSource, String busiType,
+			ListView chatList) {
+		this.ctx = ctx;

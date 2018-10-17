@@ -1,0 +1,10 @@
+        // start transfer service
+        Intent txIntent = new Intent(this, TransferService.class);
+        startService(txIntent);
+        Log.d(DEBUG_TAG, "start TransferService");
+
+        // bind transfer service
+        Intent bIntent = new Intent(this, TransferService.class);
+
+        mConnection = new ServiceConnection() {
+            @Override

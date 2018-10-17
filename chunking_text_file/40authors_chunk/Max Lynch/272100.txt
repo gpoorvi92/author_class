@@ -1,0 +1,10 @@
+	
+	
+	public NewDialog()
+	{
+		super(new JFrame(), "New Document", true);
+		getContentPane().setLayout(new GridLayout(2, 1));
+		
+		getContentPane().add(mainPanel);
+		getContentPane().add(buttonBox);
+		

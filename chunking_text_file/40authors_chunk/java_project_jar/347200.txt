@@ -1,0 +1,10 @@
+            return bytesRead;
+        }
+    }
+
+    public long skip(long n)
+        throws IOException
+    {
+        long toSkip = max < 0L ? n : Math.min(n, max - pos);
+        long skippedBytes = in.skip(toSkip);
+        pos += skippedBytes;

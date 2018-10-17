@@ -1,0 +1,10 @@
+
+        DataManager dataManager;
+
+        public LoadStarredFilesTask(DataManager dataManager) {
+            this.dataManager = dataManager;
+        }
+
+        @Override
+        protected List<SeafStarredFile> doInBackground(Void... params) {
+

@@ -1,0 +1,10 @@
+        cardList = new ArrayList();
+        JLabel qLabel = new JLabel("Question:");
+        JLabel aLabel = new JLabel("Answer:");
+        
+        mainPanel.add(qLabel);
+        mainPanel.add(qScroller);
+        mainPanel.add(aLabel);
+        mainPanel.add(aScroller);
+        mainPanel.add(nextButton);
+        nextButton.addActionListener(new NextCardListener());

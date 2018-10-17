@@ -1,0 +1,10 @@
+        this.account = account;
+        this.filesDir = filesDir;
+        this.cacheDir = cacheDir;
+        this.tempDir = tempDir;
+        this.thumbDir = thumbDir;
+    }
+
+    private SettingsManager getSettingsManager() {
+        if (settingsMgr == null) {
+            settingsMgr = SettingsManager.instance();

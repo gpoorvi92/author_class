@@ -1,0 +1,10 @@
+    if (this.enginePlots == null) {
+      this.enginePlots = new ArrayList<String>();
+    }
+    this.enginePlots.add(elem);
+  }
+
+  public List<String> getEnginePlots() {
+    return this.enginePlots;
+  }
+

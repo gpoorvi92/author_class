@@ -1,0 +1,10 @@
+        catch (Throwable t)
+        {
+            progressListener.loadComplete();
+            t.printStackTrace();
+            return null;
+        }
+    }
+    
+    public static Model load(Model m,File f,loadProgressListener progressListener) throws IOException
+    {

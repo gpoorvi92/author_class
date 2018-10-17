@@ -1,0 +1,10 @@
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/inactive")
+    public ModelAndView inactive(String[] ids) {
+        try {
+            merchantService.inactive(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());

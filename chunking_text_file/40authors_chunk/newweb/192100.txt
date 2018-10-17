@@ -1,0 +1,10 @@
+	private SmallDao smallDao;
+	@Autowired
+	private SmallPriceCutService smallPriceCutService;
+	@Autowired
+	private OrderPriceService orderPriceService;
+	
+
+	@Override
+	public String[] queryDistinctTypes() {
+		List<String> list = smallDao.selectDistinctType();

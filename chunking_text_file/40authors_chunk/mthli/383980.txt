@@ -1,0 +1,10 @@
+      });
+      tableMenu.add(clearCellsItem);
+   }
+
+   private DefaultTableModel model;
+   private JTable table;
+   private ArrayList<TableColumn> removedColumns;
+
+   private static final int DEFAULT_WIDTH = 400;
+   private static final int DEFAULT_HEIGHT = 300;

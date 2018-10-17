@@ -1,0 +1,10 @@
+      
+      System.out.println("\n\nSample using match against a string literal\n");
+      sparql_query = "PREFIX kb: <http://knowledgebooks.com/ontology#> SELECT ?subject ?object WHERE { ?subject kb:containsState \"Maryland\" . }";
+      ts.doSparqlQuery(sparql_query, this); // <http:://knowledgebooks.com/ontology/#
+
+      System.out.println("\n\nSample using match against a string regular expression match\n");
+      sparql_query = "PREFIX kb: <http://knowledgebooks.com/ontology#> SELECT ?subject ?object WHERE { ?subject kb:containsOrganization ?object FILTER regex(?object, \"University\") . }";
+      ts.doSparqlQuery(sparql_query, this); // <http:://knowledgebooks.com/ontology/#
+
+      System.out.println("\n\nSample using match against a string regular expression match, returning all triples with same subject:\n");

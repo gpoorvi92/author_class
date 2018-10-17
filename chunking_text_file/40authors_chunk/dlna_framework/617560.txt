@@ -1,0 +1,10 @@
+					ssdpSearchSocket = new SSDPSearchSocket(bindAddresses[i],port,multicastIPv4 );
+				add(ssdpSearchSocket);
+			}
+		}
+		return true;
+	}
+		
+	public void close()
+	{
+		int nSockets = size();

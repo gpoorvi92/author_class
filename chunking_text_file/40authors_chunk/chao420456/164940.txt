@@ -1,0 +1,10 @@
+
+		System.out.println("array:" + array);
+
+		// public static <T> void sort(List<T> list):ÅÅĞò
+		// Collections.sort(array);
+		// System.out.println("array:" + array);
+		// [10, 20, 30, 40, 50]
+
+		// public static <T> int binarySearch(List<?> list,T key):¶ş·Ö²éÕÒ
+		// int index = Collections.binarySearch(array, 30);

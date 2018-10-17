@@ -1,0 +1,10 @@
+		c.setAge(3);
+		c.show();
+		c.catchMouse();
+		System.out.println("------------");
+		Cat cc = new Cat("tom猫",6);
+		cc.show();
+		cc.catchMouse();
+		System.out.println("------------");
+
+		//练习1：自己写出狗的测试

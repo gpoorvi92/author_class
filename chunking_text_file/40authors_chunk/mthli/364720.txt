@@ -1,0 +1,10 @@
+                     System.exit(1);
+                  }               
+
+                  final String frameClassName = args.length < 2 ? "buttons1.ButtonFrame" : args[1]; 
+                  
+                  JFrame frame = (JFrame) Class.forName(frameClassName).newInstance();
+                  InputStream in = frame.getClass().getResourceAsStream("init." + language);
+                  if (in != null) engine.eval(new InputStreamReader(in));
+                  getComponentBindings(frame, engine);
+

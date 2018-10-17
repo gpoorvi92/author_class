@@ -1,0 +1,10 @@
+            if (null != zoneEntity)
+            {
+                GameServerRpcClient client = RpcClientManager.getInstance().getGameServerRpcClientByZoneId(zoneEntity.getZoneId());
+                GameServerRpc.SearchPlayerReq.Builder req = GameServerRpc.SearchPlayerReq.newBuilder();
+                req.setZoneId(zoneEntity.getZoneId());
+                req.setCondition(condition);
+                GameServerRpc.SearchPlayerResp resp = client.searchPlayer(req.build());
+                response.setMsg(JsonHelper.toJson(resp.getPlayerJsonDetailList()));
+            }
+            else

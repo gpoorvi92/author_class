@@ -1,0 +1,10 @@
+                org.apache.thrift.protocol.TList _list0 = iprot.readListBegin();
+                struct.requestPurviews = new ArrayList<com.nercis.isscp.idl.permission.Permissions>(_list0.size);
+                for (int _i1 = 0; _i1 < _list0.size; ++_i1)
+                {
+                  com.nercis.isscp.idl.permission.Permissions _elem2;
+                  _elem2 = com.nercis.isscp.idl.permission.Permissions.findByValue(iprot.readI32());
+                  struct.requestPurviews.add(_elem2);
+                }
+                iprot.readListEnd();
+              }

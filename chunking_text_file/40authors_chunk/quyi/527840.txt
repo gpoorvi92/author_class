@@ -1,0 +1,8 @@
+        return startup;
+      case 4:
+        return sleep;
+      default:
+        return null;
+    }
+  }
+}

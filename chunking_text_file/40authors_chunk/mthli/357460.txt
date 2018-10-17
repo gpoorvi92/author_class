@@ -1,0 +1,4 @@
+      add(new JScrollPane(table), BorderLayout.CENTER);
+   }
+}
+

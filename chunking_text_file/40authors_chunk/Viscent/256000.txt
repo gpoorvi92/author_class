@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch7.pc;
+
+import java.util.concurrent.BlockingQueue;
+
+/**
+ * 基于阻塞队列的通道实现。
+ * 

@@ -1,0 +1,10 @@
+    }
+    public static String internalEncrypt(Object... params)
+    {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < params.length; i++)
+        {
+            if (i != 0)
+            {
+                sb.append(":");
+            }

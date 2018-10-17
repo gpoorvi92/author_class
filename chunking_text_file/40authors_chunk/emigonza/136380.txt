@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapCardErrorDetection"),
+        makeProperty("CapInterfaceMode"),
+        makeProperty("CapIsoEmvMode"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapSCPresentSensor"),
+        makeProperty("CapSCSlots"),
+        makeProperty("CapStatisticsReporting"),
+        makeProperty("CapTransmissionProtocol"),
+        makeProperty("CapUpdateStatistics"),

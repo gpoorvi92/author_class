@@ -1,0 +1,10 @@
+	private void resizeRequestBB(int remain) {
+		if(requestBB.remaining()<remain){
+			ByteBuffer bb=ByteBuffer.allocate(requestBB.capacity()*2);
+			requestBB.flip();
+			bb.put(requestBB);
+			requestBB=bb;
+		}
+		
+	}
+	public void close() throws IOException {

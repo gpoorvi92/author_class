@@ -1,0 +1,10 @@
+
+	public void setQueryListener(QueryListener queryListener) {
+		this.queryListener = queryListener;
+	}
+	
+	////////////////////////////////////////////////
+	// QueryResponse
+	////////////////////////////////////////////////
+
+	private QueryResponse queryRes = null;

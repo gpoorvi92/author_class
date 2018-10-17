@@ -1,0 +1,10 @@
+				break;
+			case 2:
+				mintResult = s1.mstrGLCode.compareTo(s2.mstrGLCode);
+				break;
+			case 3:
+				mintResult = s1.mstrSLCode.compareTo(s2.mstrSLCode);
+				break;
+			case 4:
+				mintResult = s1.mstrDeptCode.compareTo(s2.mstrDeptCode);
+				break;

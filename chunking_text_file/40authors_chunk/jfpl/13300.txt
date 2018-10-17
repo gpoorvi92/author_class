@@ -1,0 +1,10 @@
+import com.lianzt.util.DateUtil;
+import com.lianzt.util.StringUtil;
+
+public class ChatMessageUtil {
+
+	private static final String SEND_URL = ConstVariables.SERVER_URL
+			+ "/platform/message/send";
+
+	private static final String UPLOAD_URL = ConstVariables.SERVER_URL
+			+ "/upload/image";

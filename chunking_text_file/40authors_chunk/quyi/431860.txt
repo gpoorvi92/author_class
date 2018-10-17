@@ -1,0 +1,10 @@
+      return lastComparison;
+    }
+    if (isSetApiCheck()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.apiCheck, other.apiCheck);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetReportPath()).compareTo(other.isSetReportPath());
+    if (lastComparison != 0) {

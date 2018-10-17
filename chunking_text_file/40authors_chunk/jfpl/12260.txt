@@ -1,0 +1,10 @@
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.image_send, "");
+
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();
+		acd.putArrayValue("image_grid", list);
+
+		Intent intent = getIntent();
+		String imagePath = intent.getStringExtra("image_dir");
+		File f = new File(imagePath);

@@ -1,0 +1,10 @@
+			sb.append("\n目标表：t_orderprice\n");
+			sb.append("orderID:"+ os.getOrder().getID()+"\n");
+			sb.append("productID:"+os.getSmall().getID()+"\n");
+			sb.append("type:small"+"\n");
+			sb.append("price:" + price+"\n\n");
+			FileUtil.writeTextToTextFile(sb.toString(), "log" + File.separator +"database", "record.txt",true);
+			JOptionPane.showConfirmDialog(null,
+					"警告，小件订单价格保存失败，请查看" + "log" + File.separator +"database" + 
+			File.separator + "record.txt", "系统消息",
+					JOptionPane.DEFAULT_OPTION, JOptionPane.WARNING_MESSAGE);

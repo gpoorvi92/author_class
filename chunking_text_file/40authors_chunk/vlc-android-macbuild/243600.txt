@@ -1,0 +1,10 @@
+        return mStartTime;
+    }
+
+    final public Segment getSegment() {
+        return mSegment;
+    }
+
+    final public void setSegment(int order, int startTime, Segment segment)
+            throws IllegalArgumentException, IllegalStateException, IOException {
+        mOrder = order;

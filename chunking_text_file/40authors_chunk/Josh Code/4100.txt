@@ -1,0 +1,10 @@
+    private void zoomOut()
+    {
+        mv.zoomOut();
+    }
+
+    public void openFile()
+    {
+        chooser.setFileFilter(new loadableModelFileFilter());
+
+        // ...           

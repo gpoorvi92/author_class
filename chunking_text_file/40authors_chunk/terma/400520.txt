@@ -1,0 +1,10 @@
+
+        workers = new Thread[config.getWorkerCount()];
+        for (int i = 0; i < workers.length; i++) {
+            workers[i] = new TcpServerWorker(handlers);
+        }
+
+        for (final Thread worker : workers) worker.start();
+
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info(name + " started");

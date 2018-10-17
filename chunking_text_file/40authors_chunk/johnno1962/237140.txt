@@ -1,0 +1,10 @@
+
+    public void windowIconified( java.awt.event.WindowEvent e ) {
+        __windowIconified( e );
+    }
+
+    /// public abstract void java.awt.event.WindowListener.windowDeiconified(java.awt.event.WindowEvent)
+
+    public native void __windowDeiconified( java.awt.event.WindowEvent e );
+
+    public void windowDeiconified( java.awt.event.WindowEvent e ) {

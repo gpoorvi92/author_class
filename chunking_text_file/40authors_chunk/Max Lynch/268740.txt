@@ -1,0 +1,10 @@
+	public OptionList(OptionDialog dlg, OptionDisplay display)
+	{
+		super();
+		setListData(items);
+		this.display = display;
+		addListSelectionListener(this);
+				
+	}
+	
+	public void valueChanged(ListSelectionEvent e)

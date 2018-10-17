@@ -1,0 +1,10 @@
+		} catch (MQException e) {
+			logger.error("receiver message error!", e);
+		}
+	}
+
+	private void fireMessageEvent(Message message) throws MQException {
+
+		int type = 0;
+		String txt = null;
+		byte[] buf = null;

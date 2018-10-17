@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 14, 2014
+ Problem:    Reverse Integer
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/reverse-integer/
+ Notes:
+ Reverse digits of an integer.
+ Example1: x = 123, return 321
+ Example2: x = -123, return -321

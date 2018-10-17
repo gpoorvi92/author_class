@@ -1,0 +1,10 @@
+
+				if ("0".equals(acd.getStringValue("load_data_type"))
+						&& acd.getStringValue("send_state") == null) {
+					chatMsg = ChatMessageUtil.convertToServerMessage(chatMsg);
+					ctx.update("add_chat_message", msgId, "1", "1",
+							GlobalVariables.loginUsername,
+							GlobalVariables.chatToUser, chatMsg, new Date(),
+							this.busiType, "2", "", "");
+					acd.putStringValue("send_state", "2");
+

@@ -1,0 +1,3 @@
+        return a.pathInRepo.equals(this.pathInRepo) && a.fileSize == this.fileSize && a.finished == this.finished;
+    }
+}

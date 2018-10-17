@@ -1,0 +1,8 @@
+                start = hash[s.charAt(cur)] + 1;
+            }
+            res = Math.max(res, cur - start + 1);
+            hash[s.charAt(cur)] = cur;
+        }
+        return res;
+    }
+}

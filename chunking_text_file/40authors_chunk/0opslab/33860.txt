@@ -1,0 +1,10 @@
+            param[i - 1] = tmp;
+        }
+        int result = 0;
+        for (int i = 0; i < len; i++) {
+            result = result * 10 + param[i];
+        }
+        return result;
+    }
+
+    /**

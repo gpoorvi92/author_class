@@ -1,0 +1,10 @@
+  public DynamicCheckResultData setHardwareResources(List<HardwareResources> hardwareResources) {
+    this.hardwareResources = hardwareResources;
+    return this;
+  }
+
+  public void unsetHardwareResources() {
+    this.hardwareResources = null;
+  }
+
+  /** Returns true if field hardwareResources is set (has been assigned a value) and false otherwise */

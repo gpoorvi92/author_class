@@ -1,0 +1,10 @@
+		DBObject obj = queryTokenByuserName(userName);
+		DBObject object=coll.findOne(obj);
+		if(object!=null){
+			LoginToken loginToken = new LoginToken();
+			loginToken.fromDbObject(object);
+			return loginToken;
+		}else
+			return null;
+	}
+	

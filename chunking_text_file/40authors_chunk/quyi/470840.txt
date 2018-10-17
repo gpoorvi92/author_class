@@ -1,0 +1,10 @@
+
+    public void genMissionId(String submitId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void submitMission(String missionId, List<com.nercis.isscp.idl.UserApp> userApps, List<com.nercis.isscp.idl.PlotsType> plots, String useRule, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void queryApp(String missionId, String userAppId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void queryMission(String missionId, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;
+
+    public void updateAppStatus(String missionId, String userAppId, com.nercis.isscp.idl.AppStatus status, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException;

@@ -1,0 +1,10 @@
+// POSKeyboardBeanInfo.java - Bean information for the JavaPOS POSKeyboard
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

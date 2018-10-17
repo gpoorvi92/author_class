@@ -1,0 +1,10 @@
+    public static final int CHK_CCL_256       = 0x00000008;
+    public static final int CHK_CCL_FULL      = 0x00000010;
+
+    /////////////////////////////////////////////////////////////////////
+    // "CapImageFormat" Capability Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CHK_CIF_NATIVE = 0x00000001;
+    public static final int CHK_CIF_TIFF   = 0x00000002;
+    public static final int CHK_CIF_BMP    = 0x00000004;

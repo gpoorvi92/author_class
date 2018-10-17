@@ -1,0 +1,10 @@
+   private int fromAccount;
+   private double maxAmount;
+   private int DELAY = 10;
+
+   /**
+    * Constructs a transfer runnable.
+    * @param b the bank between whose account money is transferred
+    * @param from the account to transfer money from
+    * @param max the maximum amount of money in each transfer
+    */

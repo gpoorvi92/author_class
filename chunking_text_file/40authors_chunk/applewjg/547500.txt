@@ -1,0 +1,10 @@
+public class Solution {
+    public boolean isNumber(String s) {
+        int start = 0, end = s.length() -1;
+        boolean dot = false, exp = false, digit = false;
+        while (start <= end && (s.charAt(start) == ' ')) ++start;
+        while (start <= end && (s.charAt(end) == ' ')) --end;
+        if (start <= end && (s.charAt(start) == '+' || s.charAt(start) == '-')) ++start;
+        if (start > end) return false;
+        for ( ; start <= end; ++start) {
+            if (Character.isDigit(s.charAt(start))) digit = true;

@@ -1,0 +1,10 @@
+ * Date: 13-6-9
+ */
+public class TestSample
+{
+    @Before
+    public void before()
+    {
+    }
+    @Test
+    public void testRelationDescGen()

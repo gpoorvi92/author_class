@@ -1,0 +1,10 @@
+	public static List<String> getAllFileTextFromDir(String path){
+		List<String> filesText = new ArrayList<String>();
+		File f = new File(path);
+		if (!f.exists()) {
+			f.mkdirs();
+		}
+		File[] fs = f.listFiles();
+		try {
+			for (File file : fs) {
+				FileInputStream fis = new FileInputStream(file);

@@ -1,0 +1,10 @@
+				addRecently(con, recentlyTitle, recentlyContent, recentlyAppId,
+						recentlyUrl, true);
+			}
+
+			con.close();
+		}
+	}
+
+	@Override
+	public void onNotificationClicked(Context context, String title,

@@ -1,0 +1,10 @@
+package dialog;
+
+import java.awt.event.*;
+import javax.swing.*;
+
+/**
+ * A frame with a menu whose File->About action shows a dialog.
+ */
+public class DialogFrame extends JFrame
+{

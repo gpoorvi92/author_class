@@ -1,0 +1,10 @@
+public class CoreServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private static Logger logger = Logger.getLogger(CoreServlet.class);
+	private ICoreService coreService;
+	/**
+	 * 设置微信核心业务服务接口。
+	 * @param coreService
+	 * 微信核心业务服务接口。
+	 * */
+	public void setCoreService(ICoreService coreService) {

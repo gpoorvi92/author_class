@@ -1,0 +1,10 @@
+{
+    // Capabilities
+    public int     getCapJrnCartridgeSensor() throws JposException;
+    public int     getCapJrnColor() throws JposException;
+    public int     getCapRecCartridgeSensor() throws JposException;
+    public int     getCapRecColor() throws JposException;
+    public int     getCapRecMarkFeed() throws JposException;
+    public boolean getCapSlpBothSidesPrint() throws JposException;
+    public int     getCapSlpCartridgeSensor() throws JposException;
+    public int     getCapSlpColor() throws JposException;

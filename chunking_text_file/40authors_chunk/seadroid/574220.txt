@@ -1,0 +1,10 @@
+        switch (keyCode) {
+        case KeyEvent.KEYCODE_MENU:
+            if (overFlowMenu != null) {
+                overFlowMenu.performIdentifierAction(R.id.transfer_overflow_menu, 0);
+            }
+        }
+        return super.onKeyUp(keyCode, event);
+    }
+
+    @Override

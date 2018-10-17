@@ -1,0 +1,10 @@
+        return true;
+    }
+
+    private String getServerUrl() {
+        String serverUrl = mServerUrlEt.getText().toString().trim();
+        return serverUrl;
+    }
+
+    private void openAuthorizePage(String serverUrl) {
+        Intent intent = new Intent(ShibbolethActivity.this, ShibbolethAuthorizeActivity.class);

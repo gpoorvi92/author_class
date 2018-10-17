@@ -1,0 +1,10 @@
+    return this.notify_callback_url != null;
+  }
+
+  public void setNotify_callback_urlIsSet(boolean value) {
+    if (!value) {
+      this.notify_callback_url = null;
+    }
+  }
+
+  public String getApp_description() {

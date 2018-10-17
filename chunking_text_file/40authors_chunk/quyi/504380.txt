@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetPlots();
+      } else {
+        setPlots((List<PlotsType>)value);
+      }
+      break;
+
+    case JOB_PRIORITY:
+      if (value == null) {
+        unsetJobPriority();

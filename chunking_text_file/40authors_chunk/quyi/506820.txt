@@ -1,0 +1,10 @@
+			wcf_left.setBorder(Border.NONE, BorderLineStyle.THIN); // 线条
+			wcf_left.setVerticalAlignment(VerticalAlignment.CENTRE); // 文字垂直对齐
+			wcf_left.setAlignment(Alignment.LEFT); // 文字水平对齐
+			wcf_left.setWrap(false); // 文字是否换行
+			int row = sheet.getRows();
+			sheet.addCell(new Label(0, row, searchRecordInfo.getNumber(),
+					wcf_left));
+			sheet.addCell(new jxl.write.Number(1, row, searchRecordInfo
+					.getCount(), wcf_left));
+			sheet.addCell(new jxl.write.Number(2, row, searchRecordInfo

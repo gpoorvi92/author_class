@@ -1,0 +1,9 @@
+		ExecuteContext clone = (ExecuteContext) super.clone();
+		clone.storage.putAll(this.storage);
+		clone.executeTimer.set(0L);
+		clone.totalTimer.set(0L);
+		
+		return clone;
+	}
+
+}

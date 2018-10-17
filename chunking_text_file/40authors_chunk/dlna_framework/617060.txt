@@ -1,0 +1,10 @@
+		switch (code) {
+		case CONTINUE: return "Continue";
+		case OK: return "OK";
+		case PARTIAL_CONTENT: return "Partial Content";
+		case BAD_REQUEST: return "Bad Request";
+		case NOT_FOUND: return "Not Found";
+		case PRECONDITION_FAILED: return "Precondition Failed";
+		case INVALID_RANGE: return "Invalid Range";
+		case INTERNAL_SERVER_ERROR: return "Internal Server Error";
+		}

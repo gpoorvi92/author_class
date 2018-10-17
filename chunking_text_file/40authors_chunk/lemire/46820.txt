@@ -1,0 +1,10 @@
+    /**
+     * Gets the running bit.
+     *
+     * @return the running bit
+     */
+    public boolean getRunningBit() {
+        return getRunningBit(this.buffer, this.position);
+    }
+
+    static boolean getRunningBit(final Buffer32 buffer, final int position) {

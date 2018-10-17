@@ -1,0 +1,10 @@
+
+	private MenuScene mSubMenuScene;
+
+	private BitmapTextureAtlas mSubMenuTexture;
+	private ITextureRegion mMenuOkTextureRegion;
+	private ITextureRegion mMenuBackTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================

@@ -1,0 +1,10 @@
+			}else 
+			
+			{JOptionPane.showMessageDialog(null,"The system could not log you in.\n"+
+			" Please make sure your username and password are correct","tobiluoch",JOptionPane.INFORMATION_MESSAGE);
+			 user.setText("");
+			 pass.setText("");
+			}
+			
+		}
+		catch(Exception ex){JOptionPane.showMessageDialog(null,ex.getMessage(), 

@@ -1,0 +1,10 @@
+
+	@Override
+	protected OUT doProcess(T input) throws PipeException {
+		// 什么也不做
+		return null;
+	}
+
+	@Override
+	public void addPipe(Pipe<?, ?> pipe) {
+

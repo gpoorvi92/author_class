@@ -1,0 +1,10 @@
+		
+		QueryAccountResponse from=new QueryAccountResponse();
+		try {
+			from.fromJson(r.toJson());
+			System.out.println(from.toJson());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+

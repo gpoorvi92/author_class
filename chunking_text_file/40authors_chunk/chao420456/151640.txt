@@ -1,0 +1,10 @@
+class SmokeTeacher extends Teacher implements Smoking {
+	public SmokeTeacher(){}
+
+	public SmokeTeacher(String name,int age) {
+		super(name,age);
+	}
+
+	public void smoke() {
+		System.out.println("°®³éÑÌµÄÀÏÊ¦");
+	}

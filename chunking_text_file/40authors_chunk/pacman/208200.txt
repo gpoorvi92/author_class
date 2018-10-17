@@ -1,0 +1,10 @@
+	private String videoFormat;
+	
+	//Audio codec
+	private String audioFormat;
+	
+	/**
+	 * Analyze the specified media.
+	 * 
+	 * @param mediaFile
+	 * @return success or not

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.TreeWillExpandListener.treeWillExpand(javax.swing.event.TreeExpansionEvent) throws javax.swing.tree.ExpandVetoException
+
+    public native void __treeWillExpand( javax.swing.event.TreeExpansionEvent event );
+
+    public void treeWillExpand( javax.swing.event.TreeExpansionEvent event ) throws javax.swing.tree.ExpandVetoException {
+        __treeWillExpand( event );
+    }

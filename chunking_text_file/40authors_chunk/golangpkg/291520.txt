@@ -1,0 +1,10 @@
+
+/**
+ * {@link HttpServletResponse} and {@link HttpServletRequest} are stored in a thread local and are
+ * populated by the filter.
+ * 
+ * @author antoinem
+ * 
+ */
+@Component
+public class RequestComponentContainer {

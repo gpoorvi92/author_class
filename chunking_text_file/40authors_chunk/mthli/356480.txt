@@ -1,0 +1,10 @@
+
+   /**
+    * @param image the image to display
+    */
+   public ImageFrame(Image image)
+   {
+      setTitle("Capture");
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      JLabel label = new JLabel(new ImageIcon(image));

@@ -1,0 +1,10 @@
+                  // remember URL for back button
+                  urlStack.push(url.getText());
+                  editorPane.setPage(url.getText());
+               }
+               catch (IOException e)
+               {
+                  editorPane.setText("Exception: " + e);
+               }
+            }
+         };

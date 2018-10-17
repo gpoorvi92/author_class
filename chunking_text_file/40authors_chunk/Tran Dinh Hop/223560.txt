@@ -1,0 +1,10 @@
+	{
+   	in1 = new FileInputStream(inputFile);
+		inF=new ObjectInputStream(in1);
+		in=new 	BufferedInputStream(in1);
+
+//			int arr=0;
+		table=(Table)(inF.readObject());
+
+		
+		//outputFile = new File(table.fileName());

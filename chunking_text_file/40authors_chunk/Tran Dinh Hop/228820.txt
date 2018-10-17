@@ -1,0 +1,10 @@
+	/*	
+		FileChooser fc = new FileChooser("image", "Open");
+		file = fc.getFileName();
+	*/	
+		File f = new File(file);
+		if (f.isFile()){		
+			// Read a image from the given file name
+			image = JAIImageReader.readImage(file);
+			width = image.getWidth();
+			height = image.getHeight();

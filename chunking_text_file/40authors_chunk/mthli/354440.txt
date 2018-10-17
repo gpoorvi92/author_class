@@ -1,0 +1,10 @@
+      elementList.setSelectedIndex(0);
+   }
+
+   /**
+    * This method is called when the user wants to change the size of the array.
+    */
+   public void changeSize()
+   {
+      int s = (Integer) sizeField.getValue();
+      if (s < 0 || s == array.length) return;

@@ -1,0 +1,10 @@
+		case 6: return row.mstrClassCode;
+		case 7: return row.mstrSubClassCode;
+		case 8: return row.mdblAmount;
+		case 9: return row.mstrUserDesc;
+		case 10: return row.mdblDRCR;
+		case 11: return row.mdEntryDate;
+		case 12: return row.mdPostDate;
+		case 13: return row.mdblFiscalCode;
+		case 14: return row.mstrReference;
+		case 15: return row.mstrRemarks;

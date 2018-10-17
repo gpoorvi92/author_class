@@ -1,0 +1,10 @@
+        edit_text.setError(errorMessage);
+    }
+
+    public void setDisplayHintText(String text) {
+        edit_text.setHint(text);
+    }
+    public void setInputType(String type) {
+        if (type.equals(INPUT_TYPE_EMAIL)) {
+            edit_text.setInputType(InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+            edit_text.setHint(R.string.email_hint);

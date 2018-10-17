@@ -1,0 +1,10 @@
+   private ButtonGroup group;
+   private String prefix = "The ";
+   private String suffix = "fox jumps over the lazy dog.";
+
+   public ListFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      String[] words = { "quick", "brown", "hungry", "wild", "silent", "huge", "private",
+            "abstract", "static", "final" };

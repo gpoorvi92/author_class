@@ -1,0 +1,10 @@
+		}
+
+		for(int x=0; x<index; x++) {
+			System.out.print(arr[x]);
+		}
+		System.out.println();
+
+		//µÚ¶þ²½
+		for(int x=0; x<index; x++) {
+			arr[x] += 5;

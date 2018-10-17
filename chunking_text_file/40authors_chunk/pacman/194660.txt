@@ -1,0 +1,10 @@
+		assertEquals("Morning, guys!", verifyMap.get("key3"));
+		assertTrue(verifyMap.get("key4") instanceof ArrayList);
+		
+		sender.Close();
+		receiver.Close();
+	}
+	
+	@Test
+	public void testTransformObject() throws MQException {
+		

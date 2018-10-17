@@ -1,0 +1,10 @@
+			// 判断键盘录入的数据是否是0
+			if (number == 0) {
+				break;
+			} else {
+				array.add(number);
+			}
+		}
+
+		// 把集合转成数组
+		// <T> T[] toArray(T[] a)

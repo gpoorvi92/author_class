@@ -1,0 +1,7 @@
+	/**public static void main(String[] args) {
+		int dummy;
+		dummy=0;
+		DateFormatIsValid DateFormatIsValidInst = new DateFormatIsValid("01/01/2005");
+	}*/
+}
+

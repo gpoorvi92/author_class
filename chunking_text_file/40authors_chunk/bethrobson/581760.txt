@@ -1,0 +1,10 @@
+      try {
+         BufferedReader reader = new BufferedReader(new FileReader(file));
+         String line = null;
+         while ((line = reader.readLine()) != null) {
+            makeCard(line);
+         }
+         reader.close();
+
+      } catch(Exception ex) {
+          System.out.println("couldn't read the card file");

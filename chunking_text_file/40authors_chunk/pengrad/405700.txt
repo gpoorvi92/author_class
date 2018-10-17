@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int hashCode() {
+        int result = total_count != null ? total_count.hashCode() : 0;
+        result = 31 * result + Arrays.deepHashCode(photos);
+        return result;
+    }
+
+    @Override

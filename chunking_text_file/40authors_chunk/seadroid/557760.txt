@@ -1,0 +1,10 @@
+public class AccountInfo {
+    private static final String DEBUG_TAG = "AccountInfo";
+
+    public static final String SPACE_USAGE_SEPERATOR = " / ";
+    private long usage;
+    private long total;
+    private String email;
+
+    // server doesn`t exist in API JOSN data,
+    // it was used together with email to identify the uniqueness

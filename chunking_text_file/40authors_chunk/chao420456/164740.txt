@@ -1,0 +1,10 @@
+		// 创建一个ArrayList集合
+		ArrayList<Integer> array = new ArrayList<Integer>();
+
+		// 存储牌
+		// 定义花色数组
+		String[] colors = { "♠", "♥", "♣", "♦" };
+		// 定义点数数组
+		String[] numbers = { "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q",
+				"K", "A", "2" };
+

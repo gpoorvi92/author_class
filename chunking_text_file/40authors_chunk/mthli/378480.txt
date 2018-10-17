@@ -1,0 +1,10 @@
+      chooser = new JFileChooser();
+      chooser.setCurrentDirectory(new File("."));      
+      PersistentFrameTest test = new PersistentFrameTest();
+      test.init();
+   }
+
+   public void init()
+   {
+      frame = new JFrame();
+      frame.setLayout(new FlowLayout());

@@ -1,0 +1,10 @@
+   * @param args
+   * @throws IOException 
+   * @throws ParserConfigurationException 
+   * @throws SAXException 
+   */
+  public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
+    long t1 = System.currentTimeMillis();
+    List<Hashtable<String,String>> results =
+      NutchClient.search("http://localhost:8080/opensearch", "Java AI");
+      //NutchClient.searchGetCache("http://localhost:8080/opensearch", "Java RDF");

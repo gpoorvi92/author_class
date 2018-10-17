@@ -1,0 +1,10 @@
+	private final Logger logger;
+	private final AtomicLong taskTimeConsumedPerInterval = new AtomicLong(0);
+	private final AtomicInteger requestSubmittedPerIterval = new AtomicInteger(0);
+
+	//模式角色：ActiveObject.Servant
+	private final DiskbasedRequestPersistence delegate = new DiskbasedRequestPersistence();
+
+	//模式角色：ActiveObject.Scheduler
+	private final ThreadPoolExecutor scheduler;
+

@@ -1,0 +1,10 @@
+		message.setAudioBitRate(bitrate);
+		message.setAudioSamplingRate(sample);
+		message.setAudioDuration(duration);
+		message.setCommandId(taskId);
+		message.setAudioCodec(codec);
+		message.setMediaFile(media);
+		message.setGuid(guid);
+		message.setCommandType(type);
+		
+		return message;

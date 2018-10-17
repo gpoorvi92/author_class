@@ -1,0 +1,8 @@
+		}
+
+		URL url;
+		Cursor cursor;
+
+	}
+
+}

@@ -1,0 +1,10 @@
+		AuthResponse response=new AuthResponse();
+		LoginContext context=new LoginContextImpl();
+		try{
+			AuthRequest request=(AuthRequest)JsonPojoMapper.fromJson(requestJson, Request.class);
+			response=context.loginToken(request);
+		}catch(Exception e){
+			response.setResult(ResponseCode.EXCEPTION);
+			log.error("CommandHandler handleLoginToken exception",e);
+		}finally{
+			return JsonPojoMapper.toJson(response, true);

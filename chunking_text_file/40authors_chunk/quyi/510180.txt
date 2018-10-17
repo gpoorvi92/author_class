@@ -1,0 +1,10 @@
+    case CHECK_ENGINE_NUM:
+      return isSetCheckEngineNum();
+    case POSITIVES:
+      return isSetPositives();
+    case VIRUS_ENGINE:
+      return isSetVirusEngine();
+    case DESCRIPTION:
+      return isSetDescription();
+    }
+    throw new IllegalStateException();

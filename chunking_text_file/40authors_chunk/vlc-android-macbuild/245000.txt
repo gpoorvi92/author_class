@@ -1,0 +1,10 @@
+package tv.danmaku.android.support;
+
+import tv.danmaku.android.BuildHelper;
+import android.app.Activity;
+
+public class SystemUINavHider {
+
+    public static SystemUINavHider create(Activity activity) {
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            return new SystemUINavHider_HoneyComb(activity);

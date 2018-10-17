@@ -1,0 +1,10 @@
+*/
+public class EnumCombo extends JComboBox<String>
+{ 
+   private Map<String, Integer> table = new TreeMap<>();
+
+   /**
+      Constructs an EnumCombo.
+      @param cl a class
+      @param labels an array of static field names of cl
+   */

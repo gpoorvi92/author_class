@@ -1,0 +1,10 @@
+{
+    public OioRpcConnection(String host, int port, int timeout)
+    {
+        super(host, port, timeout);
+    }
+    private Socket             socket;
+    private HeaderInputStream  inputStream;
+    private HeaderOutputStream outputStream;
+    private final class HeaderInputStream extends FilterInputStream
+    {

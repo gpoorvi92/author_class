@@ -1,0 +1,10 @@
+			@Override
+			public void onPathWaypointStarted(final PathModifier pPathModifier, final IEntity pEntity, final int pWaypointIndex) {
+				Debug.d("onPathWaypointStarted:  " + pWaypointIndex);
+				switch(pWaypointIndex) {
+					case 0:
+						player.animate(new long[]{200, 200, 200}, 6, 8, true);
+						break;
+					case 1:
+						player.animate(new long[]{200, 200, 200}, 3, 5, true);
+						break;

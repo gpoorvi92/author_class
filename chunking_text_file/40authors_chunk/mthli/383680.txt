@@ -1,0 +1,10 @@
+ */
+class TableSelectionFrame extends JFrame
+{
+   public TableSelectionFrame()
+   {
+      setTitle("TableSelectionTest");
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      // set up multiplication table
+

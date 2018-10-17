@@ -1,0 +1,10 @@
+	 * makes sure the existing of dir.
+	 * 
+	 * @param key
+	 * @return
+	 * @throws IllegalArgumentException
+	 * @throws IllegalAccessException
+	 */
+	private static boolean ensureConfigDir(String key)
+			throws IllegalArgumentException, IllegalAccessException {
+

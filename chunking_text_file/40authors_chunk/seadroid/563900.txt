@@ -1,0 +1,10 @@
+        if (!pageLoading) {
+            mloadingAnimation.startAnimation(AnimationUtils.loadAnimation(
+                    this, android.R.anim.fade_out));
+            mWebview.startAnimation(AnimationUtils.loadAnimation(
+                    this, android.R.anim.fade_in));
+            mloadingAnimation.setVisibility(View.GONE);
+            mWebview.setVisibility(View.VISIBLE);
+        } else {
+            mloadingAnimation.startAnimation(AnimationUtils.loadAnimation(
+                    this, android.R.anim.fade_in));

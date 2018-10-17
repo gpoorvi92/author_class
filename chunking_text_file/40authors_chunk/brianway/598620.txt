@@ -1,0 +1,10 @@
+
+        MyThread a = new MyThread(service, object2);
+        a.setName("a");
+        a.start();
+        Thread2 b = new Thread2(object2);
+        b.setName("b");
+        b.start();
+
+    }
+

@@ -1,0 +1,10 @@
+      double xoff; // x offset of page start in window
+      double yoff; // y offset of page start in window
+      double scale; // scale factor to fit page in window
+      double px = pageFormat.getWidth();
+      double py = pageFormat.getHeight();
+      double sx = getWidth() - 1;
+      double sy = getHeight() - 1;
+      if (px / py < sx / sy) // center horizontally
+      {
+         scale = sy / py;

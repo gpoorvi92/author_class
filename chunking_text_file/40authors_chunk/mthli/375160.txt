@@ -1,0 +1,10 @@
+class CompositeComponent extends JComponent
+{
+   private int rule;
+   private Shape shape1;
+   private Shape shape2;
+   private float alpha;
+   
+   public CompositeComponent()
+   {
+      shape1 = new Ellipse2D.Double(100, 100, 150, 100);

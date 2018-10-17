@@ -1,0 +1,10 @@
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/**
+ * Wrapper class for an embedded Sesame RDF data store. This class was derived
+ * from the TrippleStoreSesameManager class in the commercial (but free for
+ * non commercial use) product KB_bundle as descibed at http://knowledgebooks.com
+ *
+ * Copyright 2008-2012 by Mark Watson. All rights reserved.
+ * <p/>

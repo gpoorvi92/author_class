@@ -1,0 +1,10 @@
+    this.dataLength = dataLength;
+    return this;
+  }
+
+  public void unsetDataLength() {
+    this.dataLength = null;
+  }
+
+  /** Returns true if field dataLength is set (has been assigned a value) and false otherwise */
+  public boolean isSetDataLength() {

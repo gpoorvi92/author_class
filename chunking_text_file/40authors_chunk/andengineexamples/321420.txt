@@ -1,0 +1,10 @@
+	public void move() throws SnakeSuicideException {
+		this.mLastMoveDirection = this.mDirection;
+		if(this.mGrow) {
+			this.mGrow = false;
+			/* If the snake should grow,
+			 * simply add a new part in the front of the tail,
+			 * where the head currently is. */
+			final SnakeTailPart newTailPart = new SnakeTailPart(this.mHead, this.mTailPartTextureRegion, this.mHead.getVertexBufferObjectManager());
+			this.attachChild(newTailPart);
+			this.mTail.addFirst(newTailPart);

@@ -1,0 +1,10 @@
+    }
+
+    public boolean isDir() {
+        return (type == FileType.DIR);
+    }
+
+    public String getRepoID() {
+        return repoID;
+    }
+

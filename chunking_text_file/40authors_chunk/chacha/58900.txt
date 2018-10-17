@@ -1,0 +1,10 @@
+	AccountDaoHelper<Account> helper=new AccountDaoHelper<Account>();
+	private static final String COLLECTION_NAME="account";
+	
+	public AccountMapperDAO(){
+		super();
+		helper.setConnection(connection);
+		helper.init(Account.class, COLLECTION_NAME);
+	}
+	
+	public static String getCollectionName(){

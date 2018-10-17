@@ -1,0 +1,10 @@
+     */
+    public ruleSync_result setSuccess(com.nercis.isscp.idl.Result success) {
+      this.success = success;
+      return this;
+    }
+
+    public void unsetSuccess() {
+      this.success = null;
+    }
+

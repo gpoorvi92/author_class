@@ -1,0 +1,10 @@
+
+    public java.util.Iterator<Map<String,com.nercis.isscp.idl.APICheck>> getUsedPermissionsIterator() {
+      return (this.usedPermissions == null) ? null : this.usedPermissions.iterator();
+    }
+
+    public void addToUsedPermissions(Map<String,com.nercis.isscp.idl.APICheck> elem) {
+      if (this.usedPermissions == null) {
+        this.usedPermissions = new ArrayList<Map<String,com.nercis.isscp.idl.APICheck>>();
+      }
+      this.usedPermissions.add(elem);

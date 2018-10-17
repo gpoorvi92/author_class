@@ -1,0 +1,10 @@
+	@InjectionView(id = R.id.voice_record, click = "voiceBtnClick")
+	private ImageView voiceBtn;
+	@InjectionView(id = R.id.press_voice_btn, touch = "pressRecordTouch")
+	private Button pressRecordBtn;
+	@InjectionView(id = R.id.get_location_btn, click = "locationBtnClick")
+	private Button locationBtn;
+	@InjectionView(id = R.id.get_image_btn, click = "imageBtnClick")
+	private Button imageBtn;
+	@InjectionView(id = R.id.send_chat_btn_content)
+	private LinearLayout sendChatLayout;

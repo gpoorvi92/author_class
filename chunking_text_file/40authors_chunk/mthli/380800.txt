@@ -1,0 +1,10 @@
+    * @param name the string to appear on the button
+    * @param size the font size that this button sets
+    */
+   public void addRadioButton(String name, final int size)
+   {
+      boolean selected = size == DEFAULT_SIZE;
+      JRadioButton button = new JRadioButton(name, selected);
+      group.add(button);
+      buttonPanel.add(button);
+

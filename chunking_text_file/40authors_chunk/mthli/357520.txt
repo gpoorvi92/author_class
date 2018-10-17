@@ -1,0 +1,10 @@
+   private BufferedImage image;
+
+   public ImageProcessingFrame()
+   {
+      setTitle("ImageProcessingTest");
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      add(new JComponent()
+         {
+            public void paintComponent(Graphics g)

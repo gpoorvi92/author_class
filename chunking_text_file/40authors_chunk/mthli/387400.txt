@@ -1,0 +1,10 @@
+package test;
+
+import java.nio.file.*;
+import java.sql.*;
+import java.io.*;
+import java.util.*;
+
+/**
+ * This program tests that the database and the JDBC driver are correctly configured.
+ * @version 1.02 2012-06-05

@@ -1,0 +1,6 @@
+		}catch(ConnectException e){
+			logger.error("连接服务器["+ requestUrl +"]异常：", e);
+		}
+		return null;
+	}
+}

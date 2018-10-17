@@ -1,0 +1,10 @@
+ */
+public class LessonParserTest {
+
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception
+	 * @return: void
+	 */
+	@Before

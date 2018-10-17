@@ -1,0 +1,10 @@
+                mimeType, dateTaken, title);
+        mRotation = rotation;
+    }
+
+    @Override
+    public int getDegreesRotated() {
+        return mRotation;
+    }
+
+    protected void setDegreesRotated(int degrees) {

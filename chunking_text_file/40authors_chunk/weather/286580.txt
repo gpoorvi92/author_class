@@ -1,0 +1,10 @@
+package com.qihigh.chinaweather.network;
+
+import com.android.wpvolley.VolleyError;
+import com.android.wpvolley.toolbox.RequestListener;
+import com.qihigh.chinaweather.SimpleSyncTest;
+import com.qihigh.chinaweather.model.json.DailyResponse;
+import com.weico.core.utils.LogUtil;
+
+/**
+ * Created by qihigh on 7/4/14.

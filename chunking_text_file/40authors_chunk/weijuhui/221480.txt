@@ -1,0 +1,10 @@
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public long getContentLength() {
+        writeLastBoundaryIfNeeds();
+        return out.toByteArray().length;
+    }
+

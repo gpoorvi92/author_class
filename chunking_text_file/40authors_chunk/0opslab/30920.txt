@@ -1,0 +1,10 @@
+     */
+    public static String CURRENT_USER_DIR  = PropertiesUtil.key("user.dir");
+    public static String FILE_SEPARATOR    = PropertiesUtil.key("file.separator");
+    public static String PATH_SEPARATOR    = PropertiesUtil.key("path.separator");
+    public static String LINE_SEPARATOR    = PropertiesUtil.key("line.separator");
+    /**
+     * 总的物理内存
+     */
+    public static  long                  TotalMemorySize;
+    private static OperatingSystemMXBean osmxb;

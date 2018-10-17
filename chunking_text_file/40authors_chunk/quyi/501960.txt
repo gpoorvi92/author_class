@@ -1,0 +1,10 @@
+      case 66:
+        return INTERNET;
+      case 67:
+        return KILL_BACKGROUND_PROCESSES;
+      case 68:
+        return LOCATION_HARDWARE;
+      case 69:
+        return MANAGE_ACCOUNTS;
+      case 70:
+        return MANAGE_APP_TOKENS;

@@ -1,0 +1,10 @@
+		appSendMessage.setMissionId("issuedMessageTest001");
+		appSendMessage.setJobPriority(JobPriority.MEDIUM);
+		List<PlotsType> plots = new ArrayList<PlotsType>();
+		plots.add(PlotsType.staticType);
+		appSendMessage.setPlots(plots);
+		appSendMessage.setRules(null);
+		appSendMessage.setTaskInfo(null);
+		UserApp userApp = new UserApp();
+		userApp.setUserAppId("issuedMessage001");
+		userApp.setAppName("test.apk");

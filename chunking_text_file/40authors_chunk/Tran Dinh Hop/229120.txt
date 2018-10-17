@@ -1,0 +1,10 @@
+			if (head.getNext()==tail){
+				DLNode d=new DLNode(tail,head,o);
+				head.setNext(d);
+				tail.setPrev(d);
+			}
+			else{
+				DLNode n=head.getNext();
+				HuffmanNode CurrenMax=null;
+				int key=o.getFreq();
+				while (true){

@@ -1,0 +1,10 @@
+        return false;
+      if (!this.checkTime.equals(that.checkTime))
+        return false;
+    }
+
+    boolean this_present_deviceType = true && this.isSetDeviceType();
+    boolean that_present_deviceType = true && that.isSetDeviceType();
+    if (this_present_deviceType || that_present_deviceType) {
+      if (!(this_present_deviceType && that_present_deviceType))
+        return false;

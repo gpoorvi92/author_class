@@ -1,0 +1,10 @@
+		// ÔöÇ¿for
+		for (String s : array) {
+			System.out.println(s);
+		}
+		
+		//NullPointerException
+		// array = null;
+		// for (String s : array) {
+		// System.out.println(s);
+		// }

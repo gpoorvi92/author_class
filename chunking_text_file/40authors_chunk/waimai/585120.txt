@@ -1,0 +1,10 @@
+public class AGoodsController extends ComGoodsController {
+    @Autowired
+    private IGoodsService goodsService;
+    @Autowired
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(BaseConditionVO vo) {
+        ModelAndView modelAndView = new ModelAndView("management/goods/list");
+        List<Goods> goodsList = goodsService.search(vo);

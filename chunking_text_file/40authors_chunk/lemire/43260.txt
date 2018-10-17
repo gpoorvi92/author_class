@@ -1,0 +1,10 @@
+
+/**
+ * The ReverseIntIterator32 is the 32 bit implementation of the IntIterator
+ * interface, which efficiently returns the stream of integers represented by a
+ * ReverseEWAHIterator32 in reverse order.
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+final class ReverseIntIterator32 implements IntIterator {
+

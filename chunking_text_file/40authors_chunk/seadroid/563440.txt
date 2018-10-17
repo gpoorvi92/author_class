@@ -1,0 +1,10 @@
+    public NewDirTask(String repoID, String parentDir,
+                      String dirName, DataManager dataManager) {
+        this.repoID = repoID;
+        this.parentDir = parentDir;
+        this.dirName = dirName;
+        this.dataManager = dataManager;
+    }
+
+    @Override
+    protected void runTask() {

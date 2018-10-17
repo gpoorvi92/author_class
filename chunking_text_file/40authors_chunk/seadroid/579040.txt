@@ -1,0 +1,10 @@
+
+    public int getCurrentTabIndex() {
+        return currentPosition;
+    }
+
+    public Fragment getFragment(int index) {
+        return getChildFragmentManager().findFragmentByTag(makeFragmentName(index));
+    }
+
+    private String makeFragmentName(int index) {

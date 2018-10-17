@@ -1,0 +1,10 @@
+            cdCount--;
+            //}
+            //else
+            //{
+            //    continue;
+            //}
+        }
+        if (cdkeys.size() > 0)
+        {
+            RpcClientManager.getInstance().getGameServerRpcClientByZoneId(zoneId).addCdKey(rpcReq.build());

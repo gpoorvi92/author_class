@@ -1,0 +1,10 @@
+	public void setChatBusiType(String tag) {
+		this.busiType = tag;
+	}
+
+	public String getChatBusiType() {
+		return this.busiType;
+	}
+
+	public void setChatBusiSerial(String busiSerial) {
+		this.busiSerial = busiSerial;

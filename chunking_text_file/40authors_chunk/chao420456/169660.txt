@@ -1,0 +1,5 @@
+		Zi z = new Zi();
+		System.out.println("-------------");
+		Zi z2 = new Zi("java");
+	}
+}

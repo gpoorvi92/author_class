@@ -1,0 +1,10 @@
+    return (this.autoRunMonitor == null) ? null : this.autoRunMonitor.iterator();
+  }
+
+  public void addToAutoRunMonitor(RunMonitor elem) {
+    if (this.autoRunMonitor == null) {
+      this.autoRunMonitor = new ArrayList<RunMonitor>();
+    }
+    this.autoRunMonitor.add(elem);
+  }
+

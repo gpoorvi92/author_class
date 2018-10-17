@@ -1,0 +1,10 @@
+      try
+      {
+         return URLEncoder.encode(s, "UTF-8").replaceAll("[+]", "%20");
+      }
+      catch (UnsupportedEncodingException ex)
+      {
+         return null; // UTF-8 is always supported
+      }
+   }
+}

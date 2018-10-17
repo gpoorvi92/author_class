@@ -1,0 +1,10 @@
+     * registers a component to listen to mouse events for the popupMenu, uses
+     * the PopupListener to do extra setting up for the menu when mouse is clicked
+     * @since 1.3 (SF 2K meeting)
+     */
+    public static void setPopup( JComponent mouseEvtComp, JPopupMenu popupMenu, PopupListener popupListener )
+    { 
+        Object o[] = { popupMenu, popupListener }; 
+        
+        dictionary.put( mouseEvtComp, o ); 
+        

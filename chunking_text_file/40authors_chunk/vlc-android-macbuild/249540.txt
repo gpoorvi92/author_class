@@ -1,0 +1,10 @@
+
+        SurfaceHolder holder = mSurfaceHolder;
+        if (holder != null)
+            itemPlayer.setDisplay(holder);
+
+        return itemPlayer;
+    }
+
+    @Override
+    public int getCurrentPosition() {

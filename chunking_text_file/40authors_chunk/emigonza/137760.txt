@@ -1,0 +1,10 @@
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapRestartPOS"),
+        makeProperty("CapStandbyPOS"),
+        makeProperty("CapSuspendPOS"),
+        makeProperty("CapUpdateFirmware"),
+        makeProperty("CapVariableBatteryCriticallyLowThreshold"),
+        makeProperty("CapVariableBatteryLowThreshold"),
+
+        // Properties
+        makeProperty("EnforcedShutdownDelayTime"),

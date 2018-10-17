@@ -1,0 +1,10 @@
+            throw new IllegalArgumentException("The magic number must contain at least one byte");
+        if(offset < 0L)
+        {
+            throw new IllegalArgumentException("The offset cannot be negative");
+        } else
+        {
+            magicNumbers = new byte[magicNumber.length];
+            System.arraycopy(magicNumber, 0, magicNumbers, 0, magicNumber.length);
+            byteOffset = offset;
+            return;

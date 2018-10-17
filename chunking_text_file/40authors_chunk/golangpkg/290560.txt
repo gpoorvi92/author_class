@@ -1,0 +1,10 @@
+
+
+	public void setAbsoluteFullPathOfUploadedFile(String absoluteFullPathOfUploadedFile) {
+		this.absoluteFullPathOfUploadedFile = absoluteFullPathOfUploadedFile;
+	}
+
+
+	public FileStateJsonBase getStaticFileStateJson() {
+		return staticFileStateJson;
+	}

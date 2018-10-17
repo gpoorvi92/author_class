@@ -1,0 +1,10 @@
+    public static void main(String[] args) {
+        new MusicServer().go();
+    }
+    
+    public class ClientHandler implements Runnable {
+        ObjectInputStream in;
+        Socket sock;
+        
+        public ClientHandler(Socket clientSOcket) {
+            try {

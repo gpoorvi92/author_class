@@ -1,0 +1,10 @@
+        new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.I32)));
+    metaDataMap = Collections.unmodifiableMap(tmpMap);
+    org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(NodeHeat.class, metaDataMap);
+  }
+
+  public NodeHeat() {
+  }
+
+  public NodeHeat(
+    String nodeId,

@@ -1,0 +1,10 @@
+        int n = num.length;
+        if (n == 0) return 0;
+        if (n == 1) return num[0];
+        int res = num[0], cnt = 1;
+        for (int i = 1; i < n; ++i) {
+            if (cnt == 0) {
+                res = num[i];
+                ++cnt;
+                continue;
+            }

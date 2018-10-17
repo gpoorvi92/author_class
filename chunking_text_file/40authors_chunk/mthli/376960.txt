@@ -1,0 +1,10 @@
+      g2.setPaint(Color.RED);
+      for (Point2D center : points)
+      {
+         Ellipse2D circle = new Ellipse2D.Double(center.getX() - MARK_SIZE, center.getY()
+               - MARK_SIZE, 2 * MARK_SIZE, 2 * MARK_SIZE);
+         g2.draw(circle);
+      }
+   }
+
+   public void configureEncoder(XMLEncoder encoder)

@@ -1,0 +1,10 @@
+					URL uri = new URL(res);
+					target = FileHelper.combinePath(baseDir, uri.getFile());
+					WebHelper.download(res, target);
+					pubfile = FileHelper.combinePath(resTargetDir, uri.getFile());
+					FileHelper.copyFile(target, pubfile);
+				} else {
+					
+					target = FileHelper.combinePath(baseDir, StringHelper.getFileBareName(res));
+					FileHelper.copyFile(res, target);
+				}

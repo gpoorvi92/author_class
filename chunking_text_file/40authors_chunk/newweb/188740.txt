@@ -1,0 +1,10 @@
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean delete(OrderBxgFdw fdw) {
+		try {
+			sessionFactory.getCurrentSession().delete(fdw);

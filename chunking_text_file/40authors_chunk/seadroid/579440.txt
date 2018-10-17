@@ -1,0 +1,10 @@
+        return path.substring(0, lastSlash);
+    }
+
+    /**
+     * Takes a file path and returns only the last filename component.
+     * Works with files as well as with directories.
+     *
+     * @param path some filepath
+     * @returns the filename.
+     */

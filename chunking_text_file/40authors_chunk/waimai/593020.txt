@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void resetPwd(String[] ids) {
+        for (Integer id : IdStatusSplitUtils.split2Id(ids)) {
+            Admin admin = new Admin();
+            admin.setId(id);
+            admin.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
+            adminMapper.updateByPrimaryKeySelective(admin);
+        }

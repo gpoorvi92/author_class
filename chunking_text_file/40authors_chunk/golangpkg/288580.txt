@@ -1,0 +1,10 @@
+	@Value("jlfu{jlfu.rateLimiterConfiguration.evictionTimeInSeconds:120}")
+	public int clientEvictionTimeInSeconds;
+
+	@Autowired
+	private JLFUListenerPropagator jlfuListenerPropagator;
+
+	@Autowired
+	private StaticStateManager<StaticStatePersistedOnFileSystemEntity> staticStateManager;
+
+	@Autowired

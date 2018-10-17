@@ -1,0 +1,10 @@
+  extends BaseService, JposServiceInstance
+{
+  // Capabilities
+  public boolean getCapCompareFirmwareVersion() throws JposException;
+  public boolean getCapContinuousRead() throws JposException;
+  public boolean getCapDisableTag() throws JposException;
+  public boolean getCapLockTag() throws JposException;
+  public int     getCapMultipleProtocols() throws JposException;
+  public int     getCapPowerReporting() throws JposException;
+  public boolean getCapReadTimer() throws JposException;

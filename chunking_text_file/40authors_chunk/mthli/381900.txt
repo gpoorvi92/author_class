@@ -1,0 +1,10 @@
+class XPathFrame extends JFrame
+{
+   private DocumentBuilder builder;
+   private Document doc;
+   private XPath path;
+   private JTextField expression;
+   private JTextField result;
+   private JTextArea docText;
+   private JComboBox<String> typeCombo;
+

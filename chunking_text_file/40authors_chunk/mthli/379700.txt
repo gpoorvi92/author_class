@@ -1,0 +1,10 @@
+            }
+         });
+
+      out.setPersistenceDelegate(Rectangle2D.Double.class, new DefaultPersistenceDelegate(
+            new String[] { "x", "y", "width", "height" }));
+
+      out.setPersistenceDelegate(Inet4Address.class, new DefaultPersistenceDelegate()
+         {
+            protected Expression instantiate(Object oldInstance, Encoder out)
+            {

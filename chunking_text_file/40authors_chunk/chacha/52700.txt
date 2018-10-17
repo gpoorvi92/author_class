@@ -1,0 +1,10 @@
+				Account old=acctDAO.getAccountByName(entity.getUserName());
+				Account a=new Account();
+				a.set_id(old.get_id());
+				a.setUserName(entity.getUserName());
+				a.setPasswd(entity.getPasswd());
+				a.setAcctAttr(entity.getAcctAttr());
+				acctDAO.updateAccount(a);
+			}
+			r.setResult(ResponseCode.SUCCESS);
+		}catch(Exception e){

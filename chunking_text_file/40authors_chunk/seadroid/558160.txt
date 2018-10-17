@@ -1,0 +1,10 @@
+
+            viewHolder.icon.setImageDrawable(appIcon);
+            viewHolder.desc.setText(appDesc);
+        }
+
+        private class Viewholder {
+            ImageView icon;
+            TextView desc;
+
+            Viewholder(ImageView icon, TextView desc) {

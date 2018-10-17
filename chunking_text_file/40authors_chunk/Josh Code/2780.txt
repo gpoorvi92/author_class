@@ -1,0 +1,10 @@
+  private double[][] values;
+
+    public matrix(int n, int m)
+    {
+        this.n = n;
+        this.m = m;
+        allocateValues();
+        fill(0); // initialize all elements to 0
+    }
+

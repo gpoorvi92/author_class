@@ -1,0 +1,10 @@
+public class SoundView extends SurfaceView implements SurfaceHolder.Callback{
+
+
+
+	HDZGActivity activity;
+	Paint paint;
+	public SoundView(HDZGActivity activity) {
+		super(activity);
+		this.activity = activity;
+		getHolder().addCallback(this);

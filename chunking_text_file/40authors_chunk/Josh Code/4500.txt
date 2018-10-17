@@ -1,0 +1,10 @@
+    {
+        updateVertexCollection();
+        for (int i = 0; i < vertices.length; i++)
+        {
+            vectorMath.scale(v, vertices[i], vertices[i]);
+        }
+        verticesUpdated();
+    }
+
+    /** rotates all points around the x,y, and z axis by angles 

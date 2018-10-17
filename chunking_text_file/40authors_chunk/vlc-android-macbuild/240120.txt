@@ -1,0 +1,10 @@
+
+        if (expect == null || real == null)
+            throw new IllegalArgumentException("AssureEqual");
+
+        if (!expect.equalsIgnoreCase(real))
+            throw new IllegalArgumentException("AssureEqual");
+    }
+
+    public static void checkNotEmptyString(String webUrl) {
+        if (TextUtils.isEmpty(webUrl))

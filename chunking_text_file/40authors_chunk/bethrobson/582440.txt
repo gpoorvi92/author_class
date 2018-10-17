@@ -1,0 +1,10 @@
+    
+    public void go() {
+        // build gui
+        frame = new JFrame("Quiz Card Builder");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // title bar
+        JPanel mainPanel = new JPanel();
+        Font bigFont = new Font("sanserif", Font.BOLD, 24);
+        question = new JTextArea(6,20);
+        question.setLineWrap(true);
+        question.setWrapStyleWord(true);

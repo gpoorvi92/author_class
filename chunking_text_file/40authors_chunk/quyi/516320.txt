@@ -1,0 +1,10 @@
+      return this.nodeId;
+    }
+
+    public reportNodeManagerConfig_args setNodeId(String nodeId) {
+      this.nodeId = nodeId;
+      return this;
+    }
+
+    public void unsetNodeId() {
+      this.nodeId = null;

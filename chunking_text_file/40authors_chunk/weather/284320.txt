@@ -1,0 +1,10 @@
+            date = new Date();
+        }
+        catch (NullPointerException ex){
+            date = new Date();
+        }
+        return date;
+    }
+
+    public boolean isEntityInTimeGroup(Date date){
+        long timeInterval = Math.abs(date.getTime() - mBeginDate.getTime());

@@ -1,0 +1,10 @@
+package cn.itcast_04;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/*
+ * 去除集合中字符串的重复值(字符串的内容相同)
+ * 举例：
+ * 		hello,world,java,android,world,java,javaee,java,java,java,android
+ * 结果：

@@ -1,0 +1,10 @@
+        super.onResume();
+        File file = new File(path);
+        if (!file.exists())
+            return;
+
+        String content = Utils.readFile(file);
+        markdownView.loadMarkdown(content);
+    }
+
+    @Override

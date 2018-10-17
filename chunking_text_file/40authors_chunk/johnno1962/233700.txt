@@ -1,0 +1,10 @@
+            return arg;
+        }
+
+        public String StringMethod( String arg ) {
+            return arg;
+        }
+
+        public String[] StringArrayMethod( String arg[] ) {
+            return arg;
+        }

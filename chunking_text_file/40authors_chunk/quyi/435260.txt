@@ -1,0 +1,10 @@
+  public java.util.Iterator<String> getSensitiveIterator() {
+    return (this.sensitive == null) ? null : this.sensitive.iterator();
+  }
+
+  public void addToSensitive(String elem) {
+    if (this.sensitive == null) {
+      this.sensitive = new ArrayList<String>();
+    }
+    this.sensitive.add(elem);
+  }

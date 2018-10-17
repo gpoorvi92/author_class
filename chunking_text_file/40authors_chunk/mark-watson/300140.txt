@@ -1,0 +1,10 @@
+ */
+public class SparqlQueries2 implements ISparqlProcessResults {
+  public static void main (String [] args) throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      new SparqlQueries2();
+  }
+  
+  public SparqlQueries2() throws RepositoryException, IOException, RDFParseException, MalformedQueryException, QueryEvaluationException {
+      TripleStoreSesameManager ts = new TripleStoreSesameManager();
+      ts.loadRDF("rdf_files/news.nt");
+      String sparql_query = "SELECT ?subject ?object WHERE { ?subject <http:://knowledgebooks.com/ontology#containsCountry> ?object . }";

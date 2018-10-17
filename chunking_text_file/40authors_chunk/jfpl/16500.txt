@@ -1,0 +1,10 @@
+		android.widget.Button btn = (android.widget.Button) v
+				.findViewById(R.id.vio_detail_btn);
+		btn.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = getCustomIntent(VioDetailActivity.class);
+				intent.putExtra("bind_user", bindUsername);
+				intent.putExtra("wfdz", acd.getStringValue("wfdz"));
+				intent.putExtra("json", DataConvertFactory.praseNormJson(acd));

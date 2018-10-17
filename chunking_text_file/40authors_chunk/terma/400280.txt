@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void process(final SelectionKey key) {
+        try {
+            if (key.channel() == clientChannel) {
+                if (key.isValid() && key.isReadable()) readFromClient();
+                if (key.isValid() && key.isWritable()) writeToClient();
+            }
+

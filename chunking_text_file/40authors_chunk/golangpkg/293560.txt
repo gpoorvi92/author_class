@@ -1,0 +1,10 @@
+
+
+/**
+ * Provides the root folder in which files will be uploaded.<br>
+ * 
+ * @author antoinem
+ * 
+ */
+@Component
+public class StaticStateRootFolderProvider {

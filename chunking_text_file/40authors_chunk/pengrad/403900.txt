@@ -1,0 +1,10 @@
+    }
+
+    public Location location() {
+        return location;
+    }
+
+    public String inlineMessageId() {
+        return inline_message_id;
+    }
+

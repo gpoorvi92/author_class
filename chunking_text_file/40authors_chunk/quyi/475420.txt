@@ -1,0 +1,10 @@
+    private static final org.apache.thrift.protocol.TField USE_RULE_FIELD_DESC = new org.apache.thrift.protocol.TField("useRule", org.apache.thrift.protocol.TType.STRING, (short)4);
+
+    private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+    static {
+      schemes.put(StandardScheme.class, new submitMission_argsStandardSchemeFactory());
+      schemes.put(TupleScheme.class, new submitMission_argsTupleSchemeFactory());
+    }
+
+    public String missionId; // required
+    public List<com.nercis.isscp.idl.UserApp> userApps; // required

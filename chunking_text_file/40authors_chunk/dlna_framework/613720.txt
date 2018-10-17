@@ -1,0 +1,10 @@
+	 * 
+	 * @param inArgList
+	 */
+	public void setReqArgs(ArgumentList inArgList)
+	{
+        int nArgs = size();
+        for (int n=0; n<nArgs; n++) { 
+            Argument arg = getArgument(n);
+            if (arg.isInDirection()){
+	            String argName = arg.getName();

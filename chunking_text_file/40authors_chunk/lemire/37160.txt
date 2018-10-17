@@ -1,0 +1,10 @@
+     * Replaces the last word in the buffer with
+     * the specified word.
+     * @param word
+     */
+    void setLastWord(long word);
+
+    /**
+     * Appends the specified word to the end of the buffer
+     * @param word
+     */

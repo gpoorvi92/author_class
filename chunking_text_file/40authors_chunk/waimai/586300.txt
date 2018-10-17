@@ -1,0 +1,10 @@
+        vo.setPageSize(5);
+        List<News> newsList = newsService.search(vo);
+        map.put("newsList", newsList);
+        return map;
+    }
+
+    @RequestMapping("/register")
+    public ModelAndView registerView() {
+        return new ModelAndView("register");
+    }

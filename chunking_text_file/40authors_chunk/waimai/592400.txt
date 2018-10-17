@@ -1,0 +1,10 @@
+        ModelAndView modelAndView = new ModelAndView("management/imageRecommend/list");
+        List<ImageRecommend> imageRecommendList = imageRecommendService.search(vo);
+        modelAndView.addObject("imageRecommendList", imageRecommendList);
+        modelAndView.addObject("imageRecommendType", ImageRecommendType.values());
+        return modelAndView;
+    }
+
+    @RequestMapping("/addView")
+    public ModelAndView addView() {
+        ModelAndView modelAndView = new ModelAndView("management/imageRecommend/add");

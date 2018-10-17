@@ -1,0 +1,10 @@
+		
+		List<String> result = new ArrayList<String>();
+		Iterator<File> files = FileUtils.iterateFiles(new File(dir), null, recursive);
+		while(files.hasNext()) {
+			result.add(files.next().getAbsolutePath());
+		}
+		
+		return result;
+	}
+	

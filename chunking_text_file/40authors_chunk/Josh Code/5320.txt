@@ -1,0 +1,10 @@
+        render();
+    }
+
+    private void updateDimensionsToRenderers()
+    {
+        if (renderer!=null)
+          setPreferredSize(new Dimension(renderer.getWidth()
+           , renderer.getHeight()));
+    }
+

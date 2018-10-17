@@ -1,0 +1,10 @@
+
+    public native void __layoutContainer( java.awt.Container parent );
+
+    public void layoutContainer( java.awt.Container parent ) {
+        __layoutContainer( parent );
+    }
+
+    /// public abstract java.awt.Dimension java.awt.LayoutManager.preferredLayoutSize(java.awt.Container)
+
+    public native java.awt.Dimension __preferredLayoutSize( java.awt.Container parent );

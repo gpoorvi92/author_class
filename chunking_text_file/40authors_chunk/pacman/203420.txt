@@ -1,0 +1,10 @@
+		info.setClassID(Integer.parseInt(item));
+		
+		item = lessonEle.element("lessonID").getTextTrim();
+		info.setLessonID(Integer.parseInt(item));
+		
+		info.setLessonName(lessonEle.element("lessonName").getTextTrim());
+		info.setMedia(lessonEle.element("mediaAudio").getTextTrim());
+		
+		item = lessonEle.element("mediaType").getTextTrim();
+		info.setMediaType(Integer.parseInt(item));

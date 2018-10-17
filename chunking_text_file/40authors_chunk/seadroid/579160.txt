@@ -1,0 +1,10 @@
+            switch (position) {
+            case 0:
+                return getString(R.string.tabs_library).toUpperCase();
+            case 1:
+                return getString(R.string.tabs_starred).toUpperCase();
+            case 2:
+                return getString(R.string.tabs_activity).toUpperCase();
+
+            default:
+                return null;

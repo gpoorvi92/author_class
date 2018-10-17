@@ -1,0 +1,10 @@
+
+import java.util.List;
+
+/**
+ * Upload tasks fragments
+ *
+ */
+public class UploadTaskFragment extends TransferTaskFragment {
+    private static final String DEBUG_TAG = "UploadTaskFragment";
+

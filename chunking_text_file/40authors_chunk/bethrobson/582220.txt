@@ -1,0 +1,10 @@
+            label.setText("Ouch!");
+        }
+     } // close inner class
+
+     class ColorButtonListener implements ActionListener {
+        public void actionPerformed(ActionEvent event) {
+            frame.repaint();
+        }
+     }  // close inner class
+   

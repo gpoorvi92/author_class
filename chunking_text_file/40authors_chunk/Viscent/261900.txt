@@ -1,0 +1,10 @@
+		Debug.info("sending alarm " + alarm);
+
+		// 模拟发送告警至服务器的耗时
+		try {
+			Thread.sleep(50);
+		} catch (Exception e) {
+
+		}
+	}
+

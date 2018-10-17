@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public IMQSender getSender(QueueType qtype) throws MQException{
+
+		String destName = map.get(qtype);
+		
+		try {
+			
+			Connection con = mFactory.createConnection();
+			con.start();

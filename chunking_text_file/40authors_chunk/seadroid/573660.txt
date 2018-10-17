@@ -1,0 +1,10 @@
+        return txService.getAllUploadTaskInfos();
+    }
+
+    @Override
+    protected void setUpTransferList() {
+        List<UploadTaskInfo> infos = txService.getAllUploadTaskInfos();
+        adapter = new TransferTaskAdapter(mActivity, infos);
+        adapter.setCurrentTab(TransferTaskAdapter.UPLOAD_LIST_TAB);
+        mTransferTaskListView.setAdapter(adapter);
+    }

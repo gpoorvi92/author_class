@@ -1,0 +1,10 @@
+			return (requestJson);
+		}else{
+			return  handleInvalidCommand();
+		}
+	}
+	
+	/**
+	 * 密码认证
+	 * @param reqJson
+	 * @return 返回认证请求，json格式字串

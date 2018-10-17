@@ -1,0 +1,10 @@
+	private String firstChunkCrc;
+
+
+
+	/**
+	 * Default constructor.
+	 */
+	public FileStateJsonBase() {
+		super();
+	}

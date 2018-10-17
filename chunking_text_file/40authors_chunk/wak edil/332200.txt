@@ -1,0 +1,10 @@
+    	p2.add(new JLabel ("Date : "+datetime));
+    	//p2.add(new JLabel (""));
+    	//p2.add(new JLabel (""));
+    	
+    	JPanel p20 = new JPanel();
+    	p20.setLayout(new GridLayout(1,1,10,10));
+    	p20.add(jtaAll =new JTextArea("Your Order : "+"\n"+all));
+    	jtaAll.setEditable(false);
+    	JScrollPane spreport=new JScrollPane(jtaAll);
+		p20.add(spreport);

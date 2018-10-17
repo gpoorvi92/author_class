@@ -1,0 +1,10 @@
+        this.state = TaskState.INIT;
+
+        // The size of the file would be known in the first progress update
+        this.totalSize = -1;
+        this.taskID = taskID;
+    }
+
+    protected void cancel() {
+        if (state != TaskState.INIT && state != TaskState.TRANSFERRING) {
+            return;

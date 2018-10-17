@@ -1,0 +1,10 @@
+         for (int j = 0; j < cells.getLength(); j++)
+         {
+            Element cell = (Element) cells.item(j);
+            parseCell(cell, i, j);
+         }
+      }
+   }
+
+   /**
+    * Parses a cell element.

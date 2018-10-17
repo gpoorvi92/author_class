@@ -1,0 +1,10 @@
+			try {
+				URL url = new URL(urlBase);
+				String basePath = url.getPath();
+				int  baseLen = basePath.length();
+				if (0 < baseLen) {
+					if (1 < baseLen || (basePath.charAt(0) != '/'))
+						ctrlURL = basePath + ctrlURL;
+				}
+			}
+			catch (MalformedURLException e) {}

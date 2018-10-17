@@ -1,0 +1,10 @@
+    boolean this_present_engines = true && this.isSetEngines();
+    boolean that_present_engines = true && that.isSetEngines();
+    if (this_present_engines || that_present_engines) {
+      if (!(this_present_engines && that_present_engines))
+        return false;
+      if (!this.engines.equals(that.engines))
+        return false;
+    }
+
+    boolean this_present_missionProgress = true && this.isSetMissionProgress();

@@ -1,0 +1,10 @@
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
+
+public class PlayIndex implements Parcelable {
+    private static final String BUNDLE_PLAY_TAG = "play_tag";
+    private static final String BUNDLE_SEGMENT_LIST = "segment_list";
+

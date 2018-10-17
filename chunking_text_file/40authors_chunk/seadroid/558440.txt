@@ -1,0 +1,10 @@
+
+public class CameraUploadUtil {
+    
+    private static final String HIDDEN_PREFIX = ".";
+
+    private static final FileFilter PHOTO_FILTER = new FileFilter() {
+        @Override
+        public boolean accept(File file) {
+            final String fileName = file.getName();
+            // Return files only (not directories) and skip hidden files

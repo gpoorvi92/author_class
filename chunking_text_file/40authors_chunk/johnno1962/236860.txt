@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.MenuDragMouseListener.menuDragMouseEntered(javax.swing.event.MenuDragMouseEvent)
+
+    public native void __menuDragMouseEntered( javax.swing.event.MenuDragMouseEvent e );
+
+    public void menuDragMouseEntered( javax.swing.event.MenuDragMouseEvent e ) {
+        __menuDragMouseEntered( e );
+    }

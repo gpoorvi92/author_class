@@ -1,0 +1,10 @@
+      buttonPanel.add(okButton);
+      add(buttonPanel, BorderLayout.SOUTH);
+
+      mainPanel = new JPanel();
+      mainPanel.setLayout(new GridLayout(0, 3));
+      add(mainPanel, BorderLayout.CENTER);
+
+      JSpinner defaultSpinner = new JSpinner();
+      addRow("Default", defaultSpinner);
+

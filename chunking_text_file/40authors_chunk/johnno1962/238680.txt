@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JFrame(java.awt.GraphicsConfiguration)
+
+    JFrameProxy( java.awt.GraphicsConfiguration gc , long swiftObject ) {
+        super( gc );
+        this.swiftObject = swiftObject;
+    }
+

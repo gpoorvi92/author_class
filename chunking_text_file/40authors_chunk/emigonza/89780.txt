@@ -1,0 +1,10 @@
+        return errorCodeExtended;
+    }
+
+    public Exception getOrigException()
+    {
+        return origException;
+    }
+
+    protected int errorCode;
+    protected int errorCodeExtended;

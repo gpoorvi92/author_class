@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	/**
+	 * @deprecated
+	 */
+	public void set(ArgumentList inArgList)
+	{
+		int nInArgs = inArgList.size();
+		for (int n=0; n<nInArgs; n++) {
+			Argument inArg = inArgList.getArgument(n);
+			String inArgName = inArg.getName();

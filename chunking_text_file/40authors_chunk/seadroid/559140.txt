@@ -1,0 +1,10 @@
+                    if (monitor.isStarted()) {
+                        monitor.onFileDownloaded(info.account, info.repoID, info.repoName,
+                                info.pathInRepo, info.localFilePath);
+                    }
+                }
+            } else if (type.equals(UploadTaskManager.BROADCAST_FILE_UPLOAD_SUCCESS)) {
+                int taskID = intent.getIntExtra("taskID", 0);
+                UploadTaskInfo info = mTransferService.getUploadTaskInfo(taskID);
+
+                if (info != null && info.isUpdate) {

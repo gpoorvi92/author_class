@@ -1,0 +1,10 @@
+
+/**
+ * TODO
+ * @Class: WebHelperTest
+ * @author: zhangxinyu
+ * @date: 2015年1月28日 下午5:24:44
+ */
+public class WebHelperTest {
+
+	@Test

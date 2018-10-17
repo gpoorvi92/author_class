@@ -1,0 +1,10 @@
+      if (parent instanceof Frame) owner = (Frame) parent;
+      else owner = (Frame) SwingUtilities.getAncestorOfClass(Frame.class, parent);
+
+      // if first time, or if owner has changed, make new dialog
+
+      if (dialog == null || dialog.getOwner() != owner)
+      {
+         dialog = new JDialog(owner, true);
+         dialog.add(this);
+         dialog.getRootPane().setDefaultButton(okButton);

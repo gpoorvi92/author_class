@@ -1,0 +1,10 @@
+        if(!boms.contains(bom))
+            throw new IllegalArgumentException((new StringBuilder()).append("Stream not configure to detect ").append(bom).toString());
+        else
+            return byteOrderMark != null && getBOM().equals(bom);
+    }
+
+    public ByteOrderMark getBOM()
+        throws IOException
+    {
+        if(firstBytes == null)

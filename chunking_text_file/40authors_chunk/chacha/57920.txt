@@ -1,0 +1,10 @@
+		super.setOpt(CMDLOGIN);
+		this.body = body;
+	}
+
+	public LoginBody getBody() {
+		return body;
+	}
+
+	public void setBody(LoginBody body) {
+		this.body = body;

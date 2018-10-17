@@ -1,0 +1,10 @@
+
+		return "ESB_interface_" + getUTCTimeStamp(timeStamp, TIME_STAMP_FORMAT1)
+		    + ".log";
+	}
+
+	private static String getUTCTimeStamp(long timeStamp, String format) {
+		SimpleTimeZone stz = new SimpleTimeZone(0, "UTC");
+		Calendar calendar = Calendar.getInstance(stz);
+		calendar.setTimeInMillis(timeStamp);
+		SimpleDateFormat sdf = new SimpleDateFormat(format);

@@ -1,0 +1,10 @@
+   {
+      StringTokenizer tokenizer = new StringTokenizer(s);
+
+      int i = 0;
+      double[] values = new double[tokenizer.countTokens()];
+      while (tokenizer.hasMoreTokens())
+      {
+         String token = tokenizer.nextToken();
+         try
+         {

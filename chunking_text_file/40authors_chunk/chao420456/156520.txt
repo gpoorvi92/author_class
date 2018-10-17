@@ -1,0 +1,10 @@
+public class CopyMP4Demo {
+	public static void main(String[] args) throws IOException {
+		long start = System.currentTimeMillis();
+		// method1();
+		// method2();
+		// method3();
+		method4();
+		long end = System.currentTimeMillis();
+		System.out.println("π≤∫ƒ ±£∫" + (end - start) + "∫¡√Î");
+	}

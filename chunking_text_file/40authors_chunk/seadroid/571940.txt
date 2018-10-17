@@ -1,0 +1,10 @@
+        confirmButton = (Button)root.findViewById(R.id.button_confirm_upload);
+        confirmButton.setEnabled(false);
+
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                ((MultiFileChooserActivity)getActivity()).onCancelButtonClicked();
+
+            }

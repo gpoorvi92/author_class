@@ -1,0 +1,10 @@
+
+public class DiskbasedRequestPersistence implements RequestPersistence {
+	// 负责缓存文件的存储管理
+	private final SectionBasedDiskStorage storage = new SectionBasedDiskStorage();
+	private final Logger logger = Logger
+	    .getLogger(DiskbasedRequestPersistence.class);
+
+	@Override
+	public void store(MMSDeliverRequest request) {
+		// 申请缓存文件的文件名

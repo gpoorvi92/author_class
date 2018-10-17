@@ -1,0 +1,10 @@
+ *
+ * @param <T> The type of parsed response this future expects.
+ */
+public class RequestFuture<T> implements Future<T>, Response.Listener<T>,
+       Response.ErrorListener {
+    private Request<?> mRequest;
+    private boolean mResultReceived = false;
+    private T mResult;
+    private VolleyError mException;
+

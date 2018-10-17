@@ -1,0 +1,10 @@
+		IMQReceiver receiver = mgr.getReceiver(QueueType.QUEUE_AUDIO);
+		assertNotNull(receiver);
+		receiver.addListener(new MockListener());
+		
+		sender.sendMapMessage(map);
+
+		assertTrue(receiver.tryGetMessage());
+		assertNotNull(verifyMap);
+		assertEquals(1, verifyMap.get("key1"));
+		assertEquals(1.1f, verifyMap.get("key2"));

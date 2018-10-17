@@ -1,0 +1,10 @@
+     * Creates a new instance.
+     */
+    public ProtocolBuffersDecoder(MessageLite prototype)
+    {
+        this(prototype, null);
+    }
+
+    public ProtocolBuffersDecoder(MessageLite prototype,
+            ExtensionRegistry extensionRegistry)
+    {

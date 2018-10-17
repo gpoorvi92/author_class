@@ -1,0 +1,10 @@
+      add(panel, BorderLayout.SOUTH);
+   }
+
+   /**
+    * Finds an object in the tree.
+    * @param obj the object to find
+    * @return the node containing the object or null if the object is not present in the tree
+    */
+   @SuppressWarnings("unchecked")
+   public DefaultMutableTreeNode findUserObject(Object obj)

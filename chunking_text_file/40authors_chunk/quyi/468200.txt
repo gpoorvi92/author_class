@@ -1,0 +1,10 @@
+    if (that == null)
+      return false;
+    if (that instanceof Rules)
+      return this.equals((Rules)that);
+    return false;
+  }
+
+  public boolean equals(Rules that) {
+    if (that == null)
+      return false;

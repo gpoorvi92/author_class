@@ -1,0 +1,10 @@
+          Vector3D v = Vector3D.getFromCoordinates(x, y, z);
+          vertices.add(v);
+      }
+      Vector3D[] vertAsArray = new Vector3D[vertices.size()];
+      System.arraycopy(vertices.toArray(), 0, vertAsArray, 0, vertAsArray.length);
+      // loop through vertices
+      for (int i = 2; i < vertAsArray.length; i++)
+      {
+          Triangle t = new Triangle(vertAsArray[0], vertAsArray[i - 1], vertAsArray[i]);
+          m.addTriangle(t);

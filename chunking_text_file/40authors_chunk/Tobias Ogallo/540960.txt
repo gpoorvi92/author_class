@@ -1,0 +1,10 @@
+					do
+					{
+						nextLine = lnr.readLine();
+						if (nextLine == null) {
+							if ((curHeight + fontHeight) > pageHeight)
+							{ 
+								pg.dispose();
+								pg = pjob.getGraphics();
+								curHeight = margin;
+							}

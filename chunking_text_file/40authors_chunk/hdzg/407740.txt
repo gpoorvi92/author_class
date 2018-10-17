@@ -1,0 +1,10 @@
+		String showString = null;
+		//ÏÈ»­±³¾°
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);
+		showString = alertMessage[status];
+		if(status == 0){//Ñ¯ÎÊ×´Ì¬
+			showString = showString.replaceFirst("xx", ConstantUtil.COUNTRY_NAME[enemy.getCountry()]);
+			showString = showString.replaceFirst("yy", enemy.getCityName());
+			showString = showString.replaceFirst("zz", enemy.getGuardGeneral().get(0).getName());
+			showString = showString.replaceFirst("aa", self.getCityName());
+		}

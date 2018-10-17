@@ -1,0 +1,10 @@
+		}
+		String lastView = acd.getStringValue("last_vio");
+		if (StringUtil.isNull(lastView)
+				|| new Date().getTime() - syncTime > ConstVariables.DEFAULT_SYNC_TIME) {
+			refreshVio();
+		} else {
+			try {
+				vioAcd = DataConvertFactory.getInstanceByJson(lastView);
+				fillVioData(vioAcd);
+			} catch (Exception e) {

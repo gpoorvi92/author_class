@@ -1,0 +1,10 @@
+    @Override
+    public void removeLastWord() {
+        setWord(--this.actualSizeInWords, 0);
+    }
+
+    @Override
+    public void negateWord(int position) {
+        setWord(position, ~getWord(position));
+    }
+

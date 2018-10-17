@@ -1,0 +1,10 @@
+        return modelAndView;
+    }
+
+    @RequestMapping("/update")
+    public ModelAndView update(User user) {
+        userService.update(user);
+        return ajaxDoneSuccessAndClose("修改成功", "user_list");
+    }
+
+    @RequestMapping("/active")

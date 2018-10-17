@@ -1,0 +1,10 @@
+
+			// 如何判断字符是大写，小写还是数字呢?
+			if (ch >= 'A' && ch <= 'Z') {
+				bigCount++;
+			} else if (ch >= 'a' && ch <= 'z') {
+				smallCount++;
+			} else if (ch >= '0' && ch <= '9') {
+				numberCount++;
+			}
+		}

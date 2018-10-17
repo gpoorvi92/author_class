@@ -1,0 +1,10 @@
+/**
+ * Created by snow on 2014/5/12.
+ */
+@Controller
+@RequestMapping("/manage/saleCount")
+public class ASaleCountController extends BaseController {
+    @Autowired
+    private ISaleCountService saleCountService;
+    @Autowired
+    private IGoodsService goodsService;

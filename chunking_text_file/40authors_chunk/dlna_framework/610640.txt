@@ -1,0 +1,10 @@
+			}
+			else {
+				if (idx < endIdx)
+					break; 
+			}
+			char strc = str.charAt(idx);
+			int noEqualCnt = 0;
+			for (int n=0; n<charCnt; n++) {
+				char charc = chars.charAt(n);
+				if (isEqual == true) {

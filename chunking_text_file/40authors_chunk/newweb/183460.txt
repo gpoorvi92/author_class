@@ -1,0 +1,8 @@
+			bxg.materialBrand = (MaterialBrand) materialBrand.clone();
+			bxg.supplier = (Supplier) supplier.clone();
+			return bxg;
+		} catch (Exception e) {
+			return null;
+		}
+	}
+}

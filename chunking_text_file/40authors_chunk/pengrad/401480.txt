@@ -1,0 +1,10 @@
+package com.pengrad.telegrambot.model.request;
+
+/**
+ * Stas Parshin
+ * 06 May 2016
+ */
+public class InlineQueryResultLocation extends InlineQueryResult<InlineQueryResultLocation> {
+
+    private float latitude;
+    private float longitude;

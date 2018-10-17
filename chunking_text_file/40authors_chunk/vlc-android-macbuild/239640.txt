@@ -1,0 +1,10 @@
+
+        return null;
+    }
+
+    public String getFirstSegmentUrl() {
+        Segment segment = getFirstSegment();
+        if (segment == null || TextUtils.isEmpty(segment.mUrl))
+            return null;
+
+        return segment.mUrl;

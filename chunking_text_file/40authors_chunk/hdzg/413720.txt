@@ -1,0 +1,10 @@
+	public void onDraw(Canvas canvas){//绘制的方法 
+		canvas.drawBitmap(panel_back, 0, 0, paint);  
+		canvas.drawBitmap(threeBitmap, 212, 15, paint);
+		canvas.drawBitmap(logo, 15, 16, paint);//绘制logo
+		paint.setTextSize(23);//设置文字大小
+		canvas.drawText("选择出征武将", 50, 40, paint);
+		paint.setTextSize(18);//设置文字大小
+		
+		canvas.drawBitmap(menuTitle, 10, 70, paint);
+		canvas.drawText("名称", 20, 90, paint);//绘制标题

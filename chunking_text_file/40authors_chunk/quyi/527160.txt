@@ -1,0 +1,10 @@
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // MISSION_PROGRESS
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.missionProgress = iprot.readString();
+              struct.setMissionProgressIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

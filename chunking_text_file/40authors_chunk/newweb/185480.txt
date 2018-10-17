@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean update(LhjPrice lhjp) {
+		try {
+			sessionFactory.getCurrentSession().update(lhjp);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

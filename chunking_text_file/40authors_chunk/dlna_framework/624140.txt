@@ -1,0 +1,10 @@
+	//	Time
+	////////////////////////////////////////////////
+
+	public int getHour()
+	{
+		// Thanks for Theo Beisch (10/20/04)
+		return getCalendar().get(Calendar.HOUR_OF_DAY);
+	}
+
+	public int getMinute()

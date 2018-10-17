@@ -1,0 +1,10 @@
+				/* Attach the menu. */
+				this.mMainScene.setChildScene(this.mMenuScene, false, true, true);
+			}
+			return true;
+		} else {
+			return super.onKeyDown(pKeyCode, pEvent);
+		}
+	}
+
+	@Override

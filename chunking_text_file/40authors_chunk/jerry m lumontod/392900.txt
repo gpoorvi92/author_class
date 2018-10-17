@@ -1,0 +1,10 @@
+		
+	public int getRowCount() {
+		//System.out.println("\n getRowCount fired " + (moVector==null ? 0 : moVector.size()));
+		return moVector==null ? 0 : moVector.size();
+	}
+	
+	public int getColumnCount() {
+		//System.out.println("\n getColumnCount fired");
+		return mintColumnsCount;
+	}

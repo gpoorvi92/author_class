@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public boolean modify(OrderOther other) {
+		return orderOtherDao.update(other);
+	}
+
+	@Override
+	public boolean remove(OrderOther other) {
+		return orderOtherDao.delete(other);

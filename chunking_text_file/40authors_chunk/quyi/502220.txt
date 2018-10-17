@@ -1,0 +1,10 @@
+      case 131:
+        return WRITE_APN_SETTINGS;
+      case 132:
+        return WRITE_CALENDAR;
+      case 133:
+        return WRITE_CALL_LOG;
+      case 134:
+        return WRITE_CONTACTS;
+      case 135:
+        return WRITE_EXTERNAL_STORAGE;

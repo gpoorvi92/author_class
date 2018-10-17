@@ -1,0 +1,10 @@
+   {
+      try
+      {
+         for (int i = 1; i <= STEPS; i++)
+         {
+            ball.move(component.getBounds());
+            component.repaint();
+            Thread.sleep(DELAY);
+         }
+      }

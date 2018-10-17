@@ -1,0 +1,10 @@
+                service1.printA();
+            }
+        };
+        a.setName("A");
+        a.start();
+        Thread b = new Thread() {
+            @Override
+            public void run() {
+                service2.printB();
+            }

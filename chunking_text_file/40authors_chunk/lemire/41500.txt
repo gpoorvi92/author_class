@@ -1,0 +1,10 @@
+        this.rw = java.util.Arrays.copyOf(this.rw, newsize);
+        this.litwlist.resize(newsize);
+        this.b = java.util.Arrays.copyOf(this.b, newsize);
+    }
+
+    /**
+     * @param pos position of a literal
+     */
+    public void setLiteral(final int pos) {
+        if (!this.litwlist.get(pos)) {

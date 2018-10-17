@@ -1,0 +1,10 @@
+      } else {
+        setApiCheck((List<APICheck>)value);
+      }
+      break;
+
+    case REPORT_PATH:
+      if (value == null) {
+        unsetReportPath();
+      } else {
+        setReportPath((String)value);

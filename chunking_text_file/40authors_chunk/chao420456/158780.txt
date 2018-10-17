@@ -1,0 +1,10 @@
+			String s = (String) lit.next();
+			if ("world".equals(s)) {
+				lit.add("android");
+			}
+		}
+
+		// 直接输出集合名称
+		System.out.println("list:" + list);
+	}
+}

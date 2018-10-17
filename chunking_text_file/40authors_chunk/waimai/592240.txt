@@ -1,0 +1,10 @@
+            creditLog.setDate(checkIn.getDate());
+            creditLog.setUserId(checkIn.getUserId());
+            creditLog.setNumber(Constants.CHECKIN_CREDIT);
+            creditLog.setDescription(Constants.CREDITLOG_CHECKIN);
+            creditLogMapper.insert(creditLog);
+
+            userMapper.addCredit(creditLog.getUserId(), creditLog.getNumber());
+        }
+    }
+}

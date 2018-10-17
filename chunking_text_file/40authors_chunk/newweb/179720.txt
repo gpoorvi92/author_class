@@ -1,0 +1,10 @@
+
+	@Override
+	public int update(Small small) {
+		small = (Small) sessionFactory.getCurrentSession().merge(small);
+		sessionFactory.getCurrentSession().update(small);
+		return 1;
+	}
+
+	@SuppressWarnings("rawtypes")
+	@Override

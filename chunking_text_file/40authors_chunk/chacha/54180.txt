@@ -1,0 +1,10 @@
+				DBObject obj=Converter.toDBObject(entity);
+				coll.insert(obj);
+			}
+			long end=System.currentTimeMillis();
+			System.out.println("performanceMapperTest costs="+(end-begin));
+		}
+	}
+	/**
+	 * 通过mapperdao插入性能测试
+	 */

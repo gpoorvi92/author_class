@@ -1,0 +1,9 @@
+    final public void finish() {
+        T_Activity activity = getActivity();
+        if (activity == null)
+            return;
+        
+        activity.finish();
+    }
+    
+}

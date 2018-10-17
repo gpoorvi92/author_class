@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetTargetAddress();
+      } else {
+        setTargetAddress((String)value);
+      }
+      break;
+
+    case TARGET_PORT:
+      if (value == null) {
+        unsetTargetPort();

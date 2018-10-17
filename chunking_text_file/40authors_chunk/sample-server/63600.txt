@@ -1,0 +1,10 @@
+                }
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        if (!ret)
+        {
+            DaoManager.getLocalDao().delete(bulletinEntity);
+        }

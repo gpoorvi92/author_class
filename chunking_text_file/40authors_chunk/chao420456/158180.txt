@@ -1,0 +1,10 @@
+		System.out.println(a<b && a>c); //true && false = false
+		System.out.println(a<b && a<c); //true && true = true
+		System.out.println("--------");
+
+		//|:Âß¼­»ò	ÓÐtrueÔòtrue
+		System.out.println(a>b | a>c); //false | false = false
+		System.out.println(a>b | a<c); //false | true = true
+		System.out.println(a<b | a>c); //true | false = true
+		System.out.println(a<b | a<c); //true | true = true
+		System.out.println("--------");

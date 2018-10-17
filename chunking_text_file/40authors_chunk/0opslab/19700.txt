@@ -1,0 +1,10 @@
+        try (ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(dest))) {
+            zipFile(file, zos, "");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public final static void zipFile(File inFile, ZipOutputStream zos, String dir) throws IOException {
+        if (inFile.isDirectory()) {
+            File[] files = inFile.listFiles();

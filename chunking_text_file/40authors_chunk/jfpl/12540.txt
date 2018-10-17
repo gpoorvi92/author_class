@@ -1,0 +1,10 @@
+		// public void onClick(View v) {
+		// Intent intent = new Intent(RightMenuActivity.this,
+		// ChatActivity.class);
+		// intent.putExtra("busi_type", busiType);
+		// intent.putExtra("busi_serial", busiSerial);
+		// intent.putExtra("title", chatTitle);
+		// startActivity(intent);
+		// }
+		// });
+	}

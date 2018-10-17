@@ -1,0 +1,4 @@
+			logger.error(msg, t);
+	}
+
+}

@@ -1,0 +1,10 @@
+    if (this_present_result || that_present_result) {
+      if (!(this_present_result && that_present_result))
+        return false;
+      if (!this.result.equals(that.result))
+        return false;
+    }
+
+    return true;
+  }
+

@@ -1,0 +1,10 @@
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.checkTime != null) {
+        oprot.writeFieldBegin(CHECK_TIME_FIELD_DESC);
+        oprot.writeString(struct.checkTime);
+        oprot.writeFieldEnd();
+      }
+      if (struct.MD5 != null) {
+        oprot.writeFieldBegin(MD5_FIELD_DESC);

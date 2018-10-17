@@ -1,0 +1,10 @@
+
+        } else {
+            this.isLiteral = true;
+            this.endrun += this.iterator.getNumberOfLiteralWords();
+        }
+
+    }
+
+    /**
+     * @return true if there is no more data

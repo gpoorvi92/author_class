@@ -1,0 +1,8 @@
+	      + interfaceType + ", recordType=" + recordType + ", interfaceName="
+	      + interfaceName + ", operationName=" + operationName + ", srcDevice="
+	      + srcDevice + ", dstDevice=" + dstDevice + ", traceId=" + traceId
+	      + ", calling=" + calling + ", callee=" + callee + "]";
+  }
+	
+	
+}

@@ -1,0 +1,10 @@
+      
+      try (ResultSet rs = stat.executeQuery())
+      {
+         while (rs.next())
+            System.out.println(rs.getString(1) + ", " + rs.getString(2));
+      }
+   }
+
+   /**
+    * Executes an update statement to change prices.

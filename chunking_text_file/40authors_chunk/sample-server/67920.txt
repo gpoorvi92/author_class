@@ -1,0 +1,10 @@
+        ret.setResponseCode(responseCode);
+        int flag = 0;
+        if (responseCode > 0)
+        {
+            ByteString content = trans.getContent();
+            if (content.size() > COMPRESS_VALUE)
+            {
+                byte[] origin = content.toByteArray();
+                try
+                {

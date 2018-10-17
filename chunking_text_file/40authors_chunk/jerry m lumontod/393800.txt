@@ -1,0 +1,10 @@
+		mstrMatchedVia=tstrMatchedVia;
+		mstrRefDocnum=tstrRefDocnum;
+		mstrRefDoclineum=tstrRefDoclineum;
+
+	}
+
+	public static ImageIcon getIcon(double tdblChange) {
+		return (tdblChange>0 ? ICON_UP : (tdblChange<0 ? ICON_DOWN : ICON_BLANK));
+	}
+

@@ -1,0 +1,10 @@
+public class JLFUListenerPropagatorTest {
+
+	@Autowired
+	JLFUListenerPropagator jlfuListenerPropagator;
+
+	private volatile int testCounter;
+
+	private JLFUListenerAdapter listener;
+
+

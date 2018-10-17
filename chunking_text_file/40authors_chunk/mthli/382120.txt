@@ -1,0 +1,10 @@
+         JOptionPane.showMessageDialog(this, e);
+      }
+      catch (SAXException e)
+      {
+         JOptionPane.showMessageDialog(this, e);
+      }
+   }
+
+   public void evaluate()
+   {

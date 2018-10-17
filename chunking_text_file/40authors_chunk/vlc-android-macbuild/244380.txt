@@ -1,0 +1,10 @@
+        }
+
+        launchHeadLoader();
+    }
+
+    public void pushTail(Bundle args) {
+        LoaderRequest<D> request = new LoaderRequest<D>(0, args, this);
+        mRequestQueue.addLast(request);
+
+        if (mQueueSize > 0) {

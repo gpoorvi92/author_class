@@ -1,0 +1,10 @@
+		if (urlBaseStr == null || urlBaseStr.length() <= 0) {
+			Device rootDev = service.getRootDevice();
+			if (rootDev != null)
+				urlBaseStr = rootDev.getURLBase();
+		}
+		
+		// Thansk for Markus Thurner <markus.thurner@fh-hagenberg.at> (06/11/2004)
+		if (urlBaseStr == null || urlBaseStr.length() <= 0) {
+			Device rootDev = service.getRootDevice();
+			if (rootDev != null)

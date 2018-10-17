@@ -1,0 +1,10 @@
+		super(name,age);
+	}
+
+	public void jump() {
+		System.out.println("猫来了一个后空翻跳过了栏杆");
+	}
+}
+
+//狗
+class Dog extends Animal {

@@ -1,0 +1,10 @@
+
+    @Override
+    public void dispatch(BitmapStorage32 out, int runBegin, int runend) {
+        final int runLength = runend - runBegin;
+        if (this.hammingWeight >= this.min) {
+            out.addStreamOfEmptyWords(true, runLength);
+        } else if (this.litWeight + this.hammingWeight < this.min) {
+            out.addStreamOfEmptyWords(false, runLength);
+        } else {
+            final int deficit = this.min - this.hammingWeight;

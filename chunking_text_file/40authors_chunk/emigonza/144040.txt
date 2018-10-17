@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface LineDisplayControl13 extends LineDisplayControl12
+{
+    // Capabilities

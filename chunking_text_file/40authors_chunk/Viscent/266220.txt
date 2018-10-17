@@ -1,0 +1,8 @@
+	private  Map<String, Location> locMap 
+																	= new ConcurrentHashMap<String, Location>();
+
+	public void updateLocation(String vehicleId, Location newLocation) {
+		locMap.put(vehicleId, newLocation);
+	}
+
+}

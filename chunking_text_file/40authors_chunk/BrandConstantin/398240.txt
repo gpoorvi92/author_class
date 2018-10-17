@@ -1,0 +1,10 @@
+  public static void main(String[] args) {   
+    
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Escribe un numero positivo y te sumo los 100 siguentes");
+    System.out.println("==================================================");
+    
+    int num = teclado.nextInt();
+    int suma = 0;
+    

@@ -1,0 +1,10 @@
+    public int singleNumber(int[] A) {
+        int k = 1, n = 3;
+        int[] x = new int[n];
+        x[0] = ~0;
+        for (int num : A) {
+            int t = x[n-1];
+            for (int i = n - 1; i >= 1; --i) {
+                x[i] = (x[i-1] & num) | (x[i] & ~num);
+            }
+            x[0] = (t & num) | (x[0] & ~num);

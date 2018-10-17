@@ -1,0 +1,10 @@
+		
+	}catch(Exception exc){
+		System.out.println("Priority queue exception");
+	}
+	
+		String s="";
+		try{
+			mycount=in.available();
+			while (totalBytes<mycount){
+				arr=in.read();

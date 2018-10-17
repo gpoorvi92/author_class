@@ -1,0 +1,10 @@
+    }
+
+    public void removeAccount(Account account) {
+        Log.d(DEBUG_TAG, account.email);
+        monitor.stopMonitorFilesForAccount(account);
+    }
+
+    private ServiceConnection mTransferConnection = new ServiceConnection() {
+
+        @Override

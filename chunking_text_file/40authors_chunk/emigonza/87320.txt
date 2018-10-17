@@ -1,0 +1,10 @@
+        makeProperty("MaxDisplayTextChars"),
+        makeProperty("SalesPrice"),
+        makeProperty("TareWeight"),
+        makeProperty("UnitPrice"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("ScaleLiveWeight"),
+        makeProperty("StatusNotify"),
+        makeProperty("ZeroValid"),
+

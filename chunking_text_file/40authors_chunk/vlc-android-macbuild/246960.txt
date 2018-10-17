@@ -1,0 +1,10 @@
+        return sdk >= HONEYCOMB && sdk <= HONEYCOMB_MR2;
+    }
+
+    public static final boolean isApi11_HoneyCombOrLater() {
+        return getSDKVersion() >= HONEYCOMB;
+    }
+
+    public static final boolean isApi14_IceCreamSandwich() {
+        int sdk = getSDKVersion();
+        return sdk == ICE_CREAM_SANDWICH && sdk <= ICE_CREAM_SANDWICH_MR1;

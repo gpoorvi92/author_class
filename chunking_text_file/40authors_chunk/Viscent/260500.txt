@@ -1,0 +1,10 @@
+	public void setMsisdn(String msisdn) {
+		this.msisdn = msisdn;
+	}
+
+	public Date getOperationTime() {
+		return operationTime;
+	}
+
+	public void setOperationTime(Date operationTime) {
+		this.operationTime = operationTime;

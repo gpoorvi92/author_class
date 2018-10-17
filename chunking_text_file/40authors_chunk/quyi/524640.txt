@@ -1,0 +1,10 @@
+		userApps.add(userApp);
+		appSendMessage.setUserApps(userApps);
+		message.setObject(appSendMessage);
+		System.out.println("发送消息：" + "ActiveMq 发送的消息" + appSendMessage.toString());
+		producer.send(message);
+		session.commit();
+		connection.close();
+	}
+
+	@Test

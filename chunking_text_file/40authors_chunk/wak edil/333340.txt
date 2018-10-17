@@ -1,0 +1,10 @@
+		
+		cont.add(p1,BorderLayout.NORTH);			
+		
+		JPanel p2=new JPanel();
+		p2.setLayout(new GridLayout());
+		p2.add(jbtFoods);
+		p2.add(jbtDrinks);
+		p2.add(jbtDesert);
+		p2.add(jbtExit);
+		p2.setBorder(new TitledBorder("SelecTion Button"));

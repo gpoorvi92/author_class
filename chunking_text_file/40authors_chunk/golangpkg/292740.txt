@@ -1,0 +1,10 @@
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.am.jlfu.staticstate.entities.FileProgressStatus;
+
+@ContextConfiguration(locations = { "classpath:jlfu.test.xml" })
+@RunWith(SpringJUnit4ClassRunner.class)
+public class RemainingTimeEstimatorTest {
+
+	@Autowired
+	RemainingTimeEstimator remainingTimeEstimator;

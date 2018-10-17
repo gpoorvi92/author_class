@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetEngines()) {
+        optionals.set(1);
+      }
+      if (struct.isSetMissionProgress()) {
+        optionals.set(2);
+      }
+      if (struct.isSetSamples()) {
+        optionals.set(3);
+      }

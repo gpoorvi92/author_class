@@ -1,0 +1,10 @@
+
+
+	/**
+	 * Updates an entity inside the cache and onto the filesystem.
+	 * 
+	 * @param uuid the uuid of the client, identifying the file
+	 * @param entity the entity to write into that file
+	 */
+	public void updateEntity(UUID uuid, T entity) {
+		log.debug("writing state for " + uuid);

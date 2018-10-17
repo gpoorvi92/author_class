@@ -1,0 +1,10 @@
+public class ShibbolethActivity extends SherlockFragmentActivity {
+    public static final String DEBUG_TAG = "ShibbolethActivity";
+
+    public static final String SHIBBOLETH_SERVER_URL = "shibboleth server url";
+    public static final String SHIBBOLETH_HTTP_PREFIX = "http://";
+    public static final String SHIBBOLETH_HTTPS_PREFIX = "https://";
+
+    private Button mNextBtn;
+    private CheckBox mHttpPrefixCb;
+    private EditText mServerUrlEt;

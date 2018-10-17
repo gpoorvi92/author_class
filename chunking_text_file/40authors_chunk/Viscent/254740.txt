@@ -1,0 +1,10 @@
+		boolean isOK = ftp.login(userName, password);
+		if (isOK) {
+			System.out.println(ftp.getReplyString());
+
+		} else {
+			throw new RuntimeException("Failed to login." + ftp.getReplyString());
+		}
+
+		reply = ftp.cwd("~/subspsync");
+		if (!FTPReply.isPositiveCompletion(reply)) {

@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void show() {
+		super.show();
+		startRecord();
+	}
+
+	@Override
+	public void dismiss() {

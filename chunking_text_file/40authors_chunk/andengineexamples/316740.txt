@@ -1,0 +1,10 @@
+		Thread.sleep(1000);
+		this.mBitmapTextureAtlas.load();
+		pProgressListener.onProgressChanged(80);
+		Thread.sleep(1000);
+		pProgressListener.onProgressChanged(100);
+	}
+
+	@Override
+	public Scene onCreateSceneAsync(final IProgressListener pProgressListener) throws Exception {
+		this.mEngine.registerUpdateHandler(new FPSLogger());

@@ -1,0 +1,10 @@
+            oprot.writeListEnd();
+          }
+          oprot.writeFieldEnd();
+        }
+      }
+      if (struct.plotsStatus != null) {
+        oprot.writeFieldBegin(PLOTS_STATUS_FIELD_DESC);
+        {
+          oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.I32, org.apache.thrift.protocol.TType.I32, struct.plotsStatus.size()));
+          for (Map.Entry<PlotsType, CheckResultStatus> _iter141 : struct.plotsStatus.entrySet())

@@ -1,0 +1,10 @@
+        makeProperty("EventUnits"),
+        makeProperty("Keys"),
+        makeProperty("OutputID"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("Timeout"),
+        makeProperty("UnitsOnline")
+      };
+
+      return properties;

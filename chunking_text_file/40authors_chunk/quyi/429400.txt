@@ -1,0 +1,10 @@
+  public String getResult() {
+    return this.result;
+  }
+
+  public VirusEngine setResult(String result) {
+    this.result = result;
+    return this;
+  }
+
+  public void unsetResult() {

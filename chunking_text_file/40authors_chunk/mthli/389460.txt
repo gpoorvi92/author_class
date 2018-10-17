@@ -1,0 +1,10 @@
+   private JTextArea sample;
+
+   public FontFrame()
+   {
+      ActionListener listener = EventHandler.create(ActionListener.class, this, "updateSample"); 
+
+      // construct components
+
+      JLabel faceLabel = new JLabel("Face: ");
+

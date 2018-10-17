@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.cpuCores, other.cpuCores);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCpuMhz()).compareTo(other.isSetCpuMhz());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCpuMhz()) {

@@ -1,0 +1,10 @@
+import java.util.List;
+import java.util.Properties;
+
+/**
+ * stas
+ * 3/31/16.
+ */
+public class TestLoopGetUpdates {
+
+    public static void main(String[] args) throws IOException {

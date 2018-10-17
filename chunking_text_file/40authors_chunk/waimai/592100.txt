@@ -1,0 +1,10 @@
+        modelAndView.addObject("todayTotalPrice", saleRecordService.countTotalPrice(vo, "4"));
+        modelAndView.addObject("weekTotalPrice", saleRecordService.countTotalPrice(vo, "5"));
+        modelAndView.addObject("monthTotalPrice", saleRecordService.countTotalPrice(vo, "6"));
+        modelAndView.addObject("yearTotalPrice", saleRecordService.countTotalPrice(vo, "7"));
+        modelAndView.addObject("collectionCount", merchantService.getCollectionCountById(this.getMerchant().getId()));
+        return modelAndView;
+    }
+
+    @RequestMapping("/confirmSend")
+    public ModelAndView confirmSend(String[] ids) {

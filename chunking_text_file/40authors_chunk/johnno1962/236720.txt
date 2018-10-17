@@ -1,0 +1,10 @@
+            entered_handlePreferences_6 = true;
+            __handlePreferences( arg0 );
+            entered_handlePreferences_6 = false;
+        }
+        else
+            super.handlePreferences( arg0 );
+    }
+
+    /// public boolean java.lang.Object.equals(java.lang.Object)
+

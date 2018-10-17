@@ -1,0 +1,10 @@
+    public int nextLength() {
+        return this.nextLength;
+    }
+
+    @Override
+    public void move() {
+        move(this.nextLength);
+    }
+
+    @Override

@@ -1,0 +1,10 @@
+      dataPane.add(new JScrollPane(data), BorderLayout.CENTER);
+      JButton dataButton = new JButton("Set data");
+      dataButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               setData(data.getText());
+            }
+         });
+      JPanel panel = new JPanel();

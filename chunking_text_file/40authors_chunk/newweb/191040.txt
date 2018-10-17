@@ -1,0 +1,10 @@
+	}
+	@Column
+	public String getLastModifyTime() {
+		return lastModifyTime;
+	}
+	public void setLastModifyTime(String lastModifyTime) {
+		this.lastModifyTime = lastModifyTime;
+	}
+	@OneToMany(mappedBy = "bill", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	public Set<Order> getOrder() {

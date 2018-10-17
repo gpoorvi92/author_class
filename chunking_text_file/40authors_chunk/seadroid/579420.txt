@@ -1,0 +1,10 @@
+        return ARBITRARY_BINARY_DATA;
+    }
+    /**
+     * takes a file path and returns the parent directory, excluding the last /.
+     *
+     * @param path some filepath.
+     * @returns the parent directory.
+     */
+    public static String getParentDirFromPath(String path) {
+        int lastSlash = path.lastIndexOf('/');

@@ -1,0 +1,10 @@
+    public static final int PPAD_LANG_NONE                  = 1;
+    public static final int PPAD_LANG_ONE                   = 2;
+    public static final int PPAD_LANG_PINRESTRICTED         = 3;
+    public static final int PPAD_LANG_UNRESTRICTED          = 4;
+
+    /////////////////////////////////////////////////////////////////////
+    // "TransactionType" Property Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int PPAD_TRANS_DEBIT                = 1;

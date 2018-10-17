@@ -1,0 +1,10 @@
+	public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+	}
+	
+	public void surfaceCreated(SurfaceHolder holder) {//创建时被调用
+        this.drawThread.setFlag(true);
+        this.drawThread.start();//启动刷帧线程
+	}
+	
+	public void surfaceDestroyed(SurfaceHolder holder) {//释放时被调用
+        boolean retry = true;

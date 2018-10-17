@@ -1,0 +1,10 @@
+                req.setToken(MD5Encrypt.internalEncrypt(start, channel.toString()));
+                Rpc.RpcPacket conn = Rpc.RpcPacket.newBuilder().setContent(req.build().toByteString()).setOpcode(ChatServerRpc.AuthReq.class.getSimpleName()).build();
+                channel.write(conn);
+            }
+        }
+    }
+    public final Rpc.RpcPacket newRpcPacket(MessageLite req)
+    {
+        if (null == req)
+        {

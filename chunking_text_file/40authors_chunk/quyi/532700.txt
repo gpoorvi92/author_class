@@ -1,0 +1,10 @@
+    return this.objectName != null;
+  }
+
+  public void setObjectNameIsSet(boolean value) {
+    if (!value) {
+      this.objectName = null;
+    }
+  }
+
+  public String getMethodName() {

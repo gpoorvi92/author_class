@@ -1,0 +1,10 @@
+
+    /// public abstract void javax.swing.event.MenuKeyListener.menuKeyReleased(javax.swing.event.MenuKeyEvent)
+
+    public native void __menuKeyReleased( javax.swing.event.MenuKeyEvent e );
+
+    public void menuKeyReleased( javax.swing.event.MenuKeyEvent e ) {
+        __menuKeyReleased( e );
+    }
+
+    /// public abstract void javax.swing.event.MenuKeyListener.menuKeyTyped(javax.swing.event.MenuKeyEvent)

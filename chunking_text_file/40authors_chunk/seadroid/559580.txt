@@ -1,0 +1,10 @@
+        SeafileStyleDialogBuilder builder = new SeafileStyleDialogBuilder(getActivity());
+        LayoutInflater inflater = getActivity().getLayoutInflater();
+        LinearLayout view = (LinearLayout)inflater.inflate(R.layout.dialog_ssl_confirm, null);
+
+        messageText = (TextView)view.findViewById(R.id.message);
+        commonNameText = (TextView) view.findViewById(R.id.common_name);
+        // altSubjNamesText = (TextView) view.findViewById(R.id.alt_subj_name);
+        sha1Text = (TextView) view.findViewById(R.id.sha1);
+        md5Text = (TextView) view.findViewById(R.id.md5);
+        serialNumberText = (TextView) view.findViewById(R.id.serial_number);

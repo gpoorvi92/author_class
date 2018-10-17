@@ -1,0 +1,10 @@
+
+			@Override
+			public Range nextChunk() {
+				int upperBound;
+				if (i < subTasksCount) {
+					upperBound = i * subTaskScale;
+				} else if (i == subTasksCount) {
+					upperBound = originalTaskScale;
+				} else {
+					return null;

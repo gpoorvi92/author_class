@@ -1,0 +1,10 @@
+package chap11;
+import javax.sound.midi.*;
+
+
+public class MiniMiniMusicCmdLine {   // this is the first one
+       
+     public static void main(String[] args) {
+        MiniMiniMusicCmdLine mini = new MiniMiniMusicCmdLine();
+        if (args.length < 2) {
+            System.out.println("Don't forget the instrument and note args");

@@ -1,0 +1,10 @@
+        super(throwable);
+    }
+
+    /**
+     * @param detailMessage
+     * @param throwable
+     */
+    public LibVlcException(String detailMessage, Throwable throwable) {
+        super(detailMessage, throwable);
+    }

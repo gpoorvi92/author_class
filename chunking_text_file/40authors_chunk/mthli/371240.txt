@@ -1,0 +1,7 @@
+
+   @ActionListenerFor(source = "redButton")
+   public void redBackground()
+   {
+      panel.setBackground(Color.RED);
+   }
+}

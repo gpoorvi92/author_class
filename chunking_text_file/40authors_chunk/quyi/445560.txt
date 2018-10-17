@@ -1,0 +1,10 @@
+   * Performs a deep copy on <i>other</i>.
+   */
+  public RunMonitor(RunMonitor other) {
+    if (other.isSetMonitorTime()) {
+      this.monitorTime = other.monitorTime;
+    }
+    if (other.isSetScreenShotPath()) {
+      this.screenShotPath = other.screenShotPath;
+    }
+    if (other.isSetImageContent()) {

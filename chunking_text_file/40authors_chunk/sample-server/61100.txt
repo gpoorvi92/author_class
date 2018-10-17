@@ -1,0 +1,10 @@
+import java.util.concurrent.TimeUnit;
+/**
+ * User: Teaey
+ * Date: 13-7-13
+ */
+public class NettyRpcConnection extends BaseRpcConnection
+{
+    private static final Logger log = LoggerFactory.getLogger(NettyRpcConnection.class);
+    public NettyRpcConnection(String host, int port, int timeout)
+    {

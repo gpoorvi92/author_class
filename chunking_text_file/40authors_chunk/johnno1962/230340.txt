@@ -1,0 +1,10 @@
+        __mouseEntered( e );
+    }
+
+    /// public abstract void java.awt.event.MouseMotionListener.mouseMoved(java.awt.event.MouseEvent)
+
+    public native void __mouseMoved( java.awt.event.MouseEvent e );
+
+    public void mouseMoved( java.awt.event.MouseEvent e ) {
+        __mouseMoved( e );
+    }

@@ -1,0 +1,6 @@
+            long first = mMarkers.get(0).time;
+            long last = mMarkers.get(mMarkers.size() - 1).time;
+            return last - first;
+        }
+    }
+}

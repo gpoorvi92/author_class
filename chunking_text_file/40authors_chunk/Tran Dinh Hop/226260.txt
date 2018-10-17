@@ -1,0 +1,10 @@
+		if(size>256)
+			System.out.println("Error in record");
+		arr[size]=c;
+		size++;
+	}
+	
+	public int originalSize(){
+		return fileSize;
+	}
+	

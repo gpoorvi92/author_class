@@ -1,0 +1,10 @@
+ * */
+public class WeChatAccessToken implements Serializable {
+	private static final long serialVersionUID = 1L;
+	private WeChatAccount account;
+	private String id,accessToken;
+	private Date createTime,failureTime;
+	/**
+	 * 构造函数。
+	 * */
+	public WeChatAccessToken(){

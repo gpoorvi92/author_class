@@ -1,0 +1,10 @@
+    protected long getImageId(Cursor cursor) {
+        return cursor.getLong(INDEX_ID);
+    }
+
+    @Override
+    protected BaseImage loadImageFromCursor(Cursor cursor) {
+        long id = cursor.getLong(INDEX_ID);
+        String dataPath = cursor.getString(INDEX_DATA_PATH);
+        long dateTaken = cursor.getLong(INDEX_DATE_TAKEN);
+        if (dateTaken == 0) {

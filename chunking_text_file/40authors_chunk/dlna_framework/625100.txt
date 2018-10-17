@@ -1,0 +1,8 @@
+		userData = data;
+	}
+
+	public Object getUserData() 
+	{
+		return userData;
+	}
+}

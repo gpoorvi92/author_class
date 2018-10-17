@@ -1,0 +1,10 @@
+   }
+
+   public int print(Graphics g, PageFormat pf, int page) throws PrinterException
+   {
+      Graphics2D g2 = (Graphics2D) g;
+      if (page > getPageCount(g2, pf)) return Printable.NO_SUCH_PAGE;
+      g2.translate(pf.getImageableX(), pf.getImageableY());
+
+      drawPage(g2, pf, page);
+      return Printable.PAGE_EXISTS;

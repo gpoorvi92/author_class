@@ -1,0 +1,10 @@
+    public void read(org.apache.thrift.protocol.TProtocol prot, NodeInfo struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(2);
+      if (incoming.get(0)) {
+        struct.hardware = new Hardware();
+        struct.hardware.read(iprot);
+        struct.setHardwareIsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.software = new Software();

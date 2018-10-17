@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void process(final IN input) throws InterruptedException {
+
+		Runnable task = new Runnable() {
+			@Override
+			public void run() {
+				int remainingReservations = -1;
+				try {

@@ -1,0 +1,10 @@
+        }
+        for (int k = l; k <= r; ++k) {
+            List<TreeNode> leftTrees = generateTreesRe(l, k-1);
+            List<TreeNode> rightTrees = generateTreesRe(k+1, r);
+            for (int i = 0; i < leftTrees.size(); i++) {
+                for (int j = 0; j < rightTrees.size(); j++) {
+                    TreeNode root = new TreeNode(k);
+                    root.left = leftTrees.get(i);
+                    root.right = rightTrees.get(j);
+                    res.add(root);

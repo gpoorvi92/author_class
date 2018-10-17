@@ -1,0 +1,10 @@
+        super(new RpcConnectionFactory(host, port, timeout), poolConfig);
+    }
+    public BaseRpcConnection borrowRpcClient()
+    {
+        try
+        {
+            return borrowObject();
+        } catch (Exception e)
+        {
+            throw new RpcException("Could not borrow a resource from the pool", e);

@@ -1,0 +1,10 @@
+//   Added the following constants:
+//     CHK_AUTOMATIC_CONTRAST
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+public interface CheckScannerConst
+{
+    //###################################################################

@@ -1,0 +1,5 @@
+                ", operationname='" + operationname + '\'' +
+                ", operation_type='" + operation_type + '\'' +
+                '}';
+    }
+}

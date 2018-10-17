@@ -1,0 +1,10 @@
+		// 微聚会向微信发送请求后响应
+		int result = 0;
+		switch (resp.errCode) {
+		case BaseResp.ErrCode.ERR_OK:
+			result = R.string.errcode_success;
+			new MainActivity_.IntentBuilder_(this).start();
+			this.finish();
+			Output.toast(this,"回来了");
+			break;
+		case BaseResp.ErrCode.ERR_USER_CANCEL:

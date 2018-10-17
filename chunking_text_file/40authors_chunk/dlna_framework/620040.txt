@@ -1,0 +1,10 @@
+*		- Added setMYNAME() and getMYNAME().
+*	
+******************************************************************/
+
+package org.cybergarage.upnp.ssdp;
+
+import java.io.InputStream;
+
+import org.cybergarage.http.*;
+

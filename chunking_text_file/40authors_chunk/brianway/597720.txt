@@ -1,0 +1,10 @@
+            public void run() {
+                super.run();
+                long i = 0;
+                long max = (long) Integer.MAX_VALUE;
+                System.out.println("max = " + max);
+
+                System.out.println(Thread.currentThread().getName() + " begin while");
+                while (i < max) {
+                    i++;
+                    if (i % 100000000 == 0) {

@@ -1,0 +1,10 @@
+          new org.apache.thrift.meta_data.FieldValueMetaData(org.apache.thrift.protocol.TType.STRUCT)));
+      metaDataMap = Collections.unmodifiableMap(tmpMap);
+      org.apache.thrift.meta_data.FieldMetaData.addStructMetaDataMap(updateUserAppStatus_result.class, metaDataMap);
+    }
+
+    public updateUserAppStatus_result() {
+    }
+
+    public updateUserAppStatus_result(
+      com.nercis.isscp.idl.Result success,

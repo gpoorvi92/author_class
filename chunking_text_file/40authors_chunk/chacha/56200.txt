@@ -1,0 +1,10 @@
+
+	/**
+	 * 令牌注销，全局退出
+	 * 
+	 * @param request
+	 *            令牌注销请求
+	 * @return 结果
+	 */
+	public AuthResponse loginOut(AuthRequest request) {
+		String token=((String)request.getKey(AuthRequest.KEY_TOKEN)).trim();

@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testToAsciiByteArray() throws Exception {
+
+    }
+
+    @Test
+    public void testToAsciiByteArray1() throws Exception {
+

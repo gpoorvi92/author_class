@@ -1,0 +1,10 @@
+      System.out.println(r + " records updated.");
+   }
+   
+   /**
+    * Asks the user to select a string.
+    * @param prompt the prompt to display 
+    * @param options the options from which the user can choose
+    * @return the option that the user chose
+    */
+   public static String select(String prompt, List<String> options)

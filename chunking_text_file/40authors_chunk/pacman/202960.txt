@@ -1,0 +1,10 @@
+
+	/**
+	 * (non Javadoc) TODO
+	 * 
+	 * @Title: save
+	 * @param mi
+	 * @see com.yeshj.pacman.dao.IMediainfoDAO#save(com.yeshj.pacman.model.MediainfoModel)
+	 */
+	@Override
+	public void save(MediainfoModel mi) {

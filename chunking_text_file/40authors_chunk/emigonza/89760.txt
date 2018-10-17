@@ -1,0 +1,10 @@
+        this.origException = origException;
+    }
+
+    public int getErrorCode()
+    {
+        return errorCode;
+    }
+
+    public int getErrorCodeExtended()
+    {

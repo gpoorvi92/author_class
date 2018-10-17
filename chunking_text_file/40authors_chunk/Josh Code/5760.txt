@@ -1,0 +1,10 @@
+
+    public static Vector3D getCloneOf(Vector3D v)
+    {
+        return (Vector3D)(v.clone());
+    }
+
+    protected Object clone()
+    {
+        return getFromCoordinates(x, y, z);
+    }

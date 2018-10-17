@@ -1,0 +1,9 @@
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		SomeService ss = new SomeService();
+		ss.init();
+		Thread.sleep(500);
+		ss.shutdown();
+	}
+}

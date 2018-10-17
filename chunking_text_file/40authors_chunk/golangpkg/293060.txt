@@ -1,0 +1,10 @@
+		DefaultIdentifierProvider.setCookie(mockHttpServletResponse, identifierOriginal);
+
+		// copy cookies from response to request
+		mockHttpServletRequest.setCookies(mockHttpServletResponse.getCookies());
+
+		// assert cookie filled
+		Assert.assertEquals(identifierOriginal,
+				UUID.fromString(DefaultIdentifierProvider.getCookie(mockHttpServletRequest.getCookies(), DefaultIdentifierProvider.cookieIdentifier)
+						.getValue()));
+

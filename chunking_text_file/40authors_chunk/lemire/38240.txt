@@ -1,0 +1,10 @@
+        if (number > 0) {
+            throw nonEmptyException;
+        }
+    }
+
+    @Override
+    public void clear() {
+    }
+
+

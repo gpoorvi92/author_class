@@ -1,0 +1,10 @@
+     * message body begins.
+     *
+     * @return The offset within the response where the message body begins.
+     */
+    int getBodyOffset();
+
+    /**
+     * This method is used to obtain the HTTP status code contained in the
+     * response.
+     *

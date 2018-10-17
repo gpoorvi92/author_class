@@ -1,0 +1,10 @@
+     */
+    public static final String JVM_VERSION     = PropertiesUtil.key("java.version");
+    /**
+     * JVM的编码
+     */
+    public static final String JVM_ENCODING    = PropertiesUtil.key("file.encoding");
+    /**
+     * JVM默认的临时目录
+     */
+    public static final String JVM_TEMPDIR     = PropertiesUtil.key("java.io.tmpdir");

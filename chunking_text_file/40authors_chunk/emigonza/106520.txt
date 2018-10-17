@@ -1,0 +1,5 @@
+  public static final int RFID_RT_FULLUSERDATA                 = 0x01;
+  public static final int RFID_RT_PARTIALUSERDATA              = 0x02;
+  public static final int RFID_RT_ID_FULLUSERDATA              = 0x11;
+  public static final int RFID_RT_ID_PARTIALUSERDATA           = 0x12;
+}

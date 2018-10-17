@@ -1,0 +1,10 @@
+    public int read(byte[] b) throws IOException {
+        return this.read(b, 0, b.length);
+    }
+
+    /**
+     * 
+     */
+    public int read(byte[] b, int off, int len) throws IOException {
+        int ret = this.read();
+        if (ret != -1) {

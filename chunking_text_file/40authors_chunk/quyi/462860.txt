@@ -1,0 +1,10 @@
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchEng_result(searchEng_result other) {
+      if (other.isSetSuccess()) {
+        this.success = new Engine(other.success);
+      }
+      if (other.isSetIre()) {
+        this.ire = new com.nercis.isscp.idl.InvalidRequestException(other.ire);

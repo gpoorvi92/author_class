@@ -1,0 +1,10 @@
+package cn.itcast_05;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+/*
+ * 获取功能
+ * 		Pattern和Matcher类的使用
+ * 
+ */

@@ -1,0 +1,10 @@
+								AutoActivity.BaseListAdapter adapter = (AutoActivity.BaseListAdapter) chatList
+										.getAdapter();
+								adapter.removeItem(acd);
+							} else if (chatList.getAdapter().getClass() == ChatListAdapter.class) {
+								ChatListAdapter adapter = (ChatListAdapter) chatList
+										.getAdapter();
+								adapter.removeItem(acd);
+							}
+							break;
+						default:

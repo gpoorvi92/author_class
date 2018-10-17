@@ -1,0 +1,10 @@
+		scene.setOnSceneTouchListener(new IOnSceneTouchListener() {
+			@Override
+			public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {
+				if(pSceneTouchEvent.isActionDown()) {
+					UpdateTextureExample.this.toggle();
+				}
+				return true;
+			}
+		});
+

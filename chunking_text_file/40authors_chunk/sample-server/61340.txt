@@ -1,0 +1,10 @@
+                bootstrap.releaseExternalResources();
+            } catch (Exception e)
+            {
+            }
+        }
+    }
+    @Override
+    public void send(Rpc.RpcPacket packet)
+    {
+        connect();

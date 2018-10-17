@@ -1,0 +1,10 @@
+    if (that == null)
+      return false;
+    if (that instanceof MissionResults)
+      return this.equals((MissionResults)that);
+    return false;
+  }
+
+  public boolean equals(MissionResults that) {
+    if (that == null)
+      return false;

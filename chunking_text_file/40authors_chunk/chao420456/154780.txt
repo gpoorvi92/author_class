@@ -1,0 +1,10 @@
+	}
+
+	public void closeSingleFrame(){
+		client.c_singleFrames.remove(this.getTitle());
+		setVisible(false);
+	}
+
+	public void setExitNotify() {
+		jta_disMess.append(this.getTitle() + "ряобоъ.....");
+		jbt_trans.setEnabled(false);

@@ -1,0 +1,10 @@
+import ipower.configuration.ModuleDefine;
+import ipower.configuration.ModuleSystem;
+import ipower.model.TreeNode;
+import ipower.wechat.service.IMenuService;
+/**
+ * 菜单服务Action。
+ * @author 杨勇。
+ * @since 2014-01-18。
+ * */
+public class MenuAction extends BaseAction {

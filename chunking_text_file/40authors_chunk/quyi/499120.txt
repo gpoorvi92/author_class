@@ -1,0 +1,10 @@
+  }
+
+  private static class FileOperateStandardScheme extends StandardScheme<FileOperate> {
+
+    public void read(org.apache.thrift.protocol.TProtocol iprot, FileOperate struct) throws org.apache.thrift.TException {
+      org.apache.thrift.protocol.TField schemeField;
+      iprot.readStructBegin();
+      while (true)
+      {
+        schemeField = iprot.readFieldBegin();

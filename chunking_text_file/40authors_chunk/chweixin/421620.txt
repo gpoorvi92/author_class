@@ -1,0 +1,10 @@
+	protected List<WeChatAccessToken> find(WeChatAccessTokenInfo info) {
+		return this.weChatAccessTokenDao.findAccessTokens(info);
+	}
+
+	@Override
+	protected WeChatAccessTokenInfo changeModel(WeChatAccessToken data) {
+		if(data == null) return null;
+		WeChatAccessTokenInfo info = new WeChatAccessTokenInfo();
+		BeanUtils.copyProperties(data, info);
+		if(data.getAccount() != null){

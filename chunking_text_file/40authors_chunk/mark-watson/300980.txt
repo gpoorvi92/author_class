@@ -1,0 +1,6 @@
+				"      (company-name ?x ?name)" +
+				"      (CEO ?name ?ceo))");
+		System.out.println(answers);
+	}
+
+}

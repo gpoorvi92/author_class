@@ -1,0 +1,10 @@
+
+/**
+ * This is a more complex implementation of the TimeView consisting of a LinearLayout with
+ * two TimeViews. This allows primary text and sub-text, such as the name of the day
+ * and the day of the month. This class expects the text that it is passed via
+ * {@link #setVals(TimeObject)} or {@link #setVals(TimeView)} to contian the primary
+ * string followed by a space and then the secondary string.
+ */
+public class TimeLayoutView extends LinearLayout implements TimeView {
+    protected long endTime, startTime;

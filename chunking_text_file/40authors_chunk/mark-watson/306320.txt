@@ -1,0 +1,10 @@
+        w2Panel.setBounds(new Rectangle(160, 158, 61, 61));
+        w3Panel.setBounds(new Rectangle(160, 258, 61, 61));
+        jButton1.setText("Reset and Run");
+        jButton1.setBounds(new Rectangle(246, 380, 148, 28));
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                try {
+					do_run_button(e);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block

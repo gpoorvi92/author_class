@@ -1,0 +1,10 @@
+		if(items1.length>yeSpan && (currentI+yeSpan) < items1.length){//绘制小的向下箭头
+			canvas.drawBitmap(downBitmap, 150, 444, paint);
+		}
+		
+	}
+	
+	public boolean onTouchEvent(MotionEvent event){
+		if(event.getAction() == MotionEvent.ACTION_DOWN){//屏幕被按下
+			int x = (int) event.getX();
+			int y = (int) event.getY();

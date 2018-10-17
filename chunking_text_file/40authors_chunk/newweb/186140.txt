@@ -1,0 +1,10 @@
+					return returnPrice;
+				}
+				if(cut != null){
+					returnPrice.setPrice(cut.getPrice());
+				}
+				return returnPrice;
+			}
+		}else{
+			LhjPriceCut cut = null;
+			try {

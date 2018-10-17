@@ -1,0 +1,10 @@
+	}
+	
+	public void w(Object str) {
+		if (isDebug) {
+			warn(str);
+		}
+    }
+	
+	public void error(Object str) {
+        if (logLevel <= Log.ERROR) {            

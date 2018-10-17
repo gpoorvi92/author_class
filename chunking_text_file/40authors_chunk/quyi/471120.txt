@@ -1,0 +1,10 @@
+      sendBase("queryMission", args);
+    }
+
+    public List<com.nercis.isscp.idl.AppCheckResult> recv_queryMission() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      queryMission_result result = new queryMission_result();
+      receiveBase(result, "queryMission");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }

@@ -1,0 +1,10 @@
+   /**
+    * Gets the graphColor property.
+    * @param c the color to use for the graph
+    */
+   public Color getGraphColor()
+   {
+      return color;
+   }
+
+   public enum Position { LEFT, CENTER, RIGHT };

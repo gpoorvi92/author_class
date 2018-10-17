@@ -1,0 +1,10 @@
+    
+    public abstract ChatServerRpc.GetOnlineInfoResp GetOnlineInfoReq(ChatServerRpc.GetOnlineInfoReq req);
+    
+    
+    
+    public abstract ChatServerRpc.GetOverviewResp GetOverviewReq(ChatServerRpc.GetOverviewReq req);
+    
+    
+    
+    public abstract ChatServerRpc.AddBulletinResp AddBulletinReq(ChatServerRpc.AddBulletinReq req);

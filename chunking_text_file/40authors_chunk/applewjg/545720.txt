@@ -1,0 +1,10 @@
+    }
+    public int lengthOfLongestSubstring_2(String s) {
+        int[] hash = new int[256];
+        Arrays.fill(hash, -1);
+        int n = s.length();
+        if (n <= 1) return n;
+        hash[s.charAt(0)] = 0;
+        int start = 0, res = 1, cur = 0;
+        while (++cur < n) {
+            if (hash[s.charAt(cur)] >= start) {

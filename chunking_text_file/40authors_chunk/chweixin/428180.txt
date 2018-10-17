@@ -1,0 +1,10 @@
+	 * @throws IOException 
+	 * */
+	public void update() throws IOException{
+		Json result = new Json();
+		try {
+			result.setData(this.service.update(this.getModel()));
+			result.setSuccess(true);
+		} catch (Exception e) {
+			result.setSuccess(false);
+			result.setMsg(e.getMessage());

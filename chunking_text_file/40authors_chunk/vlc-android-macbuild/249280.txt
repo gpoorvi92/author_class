@@ -1,0 +1,10 @@
+            return true;
+
+        try {
+            PlayIndex playIndex = mResolver.resolve(context, forceReload,
+                    MAX_TRY);
+            if (playIndex == null || playIndex.mSegmentList == null
+                    || playIndex.mSegmentList.isEmpty())
+                return false;
+
+            Bundle indexBundle = new Bundle();

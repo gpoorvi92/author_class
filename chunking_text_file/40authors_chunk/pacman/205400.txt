@@ -1,0 +1,10 @@
+	
+	/**
+	 * Sets the message listener.
+	 * 
+	 * @param listener
+	 */
+	void addListener(IMQListener listener);
+	
+	/**
+	 * Gets the destination(Queue name or Topic name)

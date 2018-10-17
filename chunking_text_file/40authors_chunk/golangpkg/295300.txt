@@ -1,0 +1,10 @@
+		// get or create the client one
+		clientsAndRequestsProcessingOperation.putIfAbsent(clientId, new UploadProcessingOperation());
+
+		// mapping
+		Set<UUID> set = clientToFilesMap.get(clientId);
+		if (set == null) {
+			set = new HashSet<UUID>();
+			clientToFilesMap.put(clientId, set);
+		}
+		synchronized (set) {

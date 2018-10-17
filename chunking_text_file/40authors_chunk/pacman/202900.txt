@@ -1,0 +1,10 @@
+		
+		if (addAction == null)
+			addAction = new MiAddAction(getDataSource());
+		
+		addAction.update(mi.getTid(), 
+						 mi.getMedia(),
+						 mi.getAudio_rate(),
+						 mi.getAudio_sampling(),
+						 mi.getAudio_duration(),
+						 mi.getAudio_codec(),

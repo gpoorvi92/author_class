@@ -1,0 +1,10 @@
+      case 96:
+        return REBOOT;
+      case 97:
+        return RECEIVE_BOOT_COMPLETED;
+      case 98:
+        return RECEIVE_MMS;
+      case 99:
+        return RECEIVE_SMS;
+      case 100:
+        return RECEIVE_WAP_PUSH;

@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapDiscrepancy"),
+        makeProperty("CapEmptySensor"),
+        makeProperty("CapFullSensor"),
+        makeProperty("CapNearEmptySensor"),
+        makeProperty("CapNearFullSensor"),
+        makeProperty("CapPowerReporting"),
+        makeProperty("CapDeposit"),
+        makeProperty("CapDepositDataEvent"),
+        makeProperty("CapPauseDeposit"),

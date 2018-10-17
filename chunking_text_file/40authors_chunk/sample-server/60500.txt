@@ -1,0 +1,10 @@
+            public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception
+            {
+                if (!(e.getMessage() instanceof Rpc.RpcPacket))
+                {
+                    log.info("未知聊天数据包:{}", e.getMessage().getClass().getSimpleName());
+                }
+                Rpc.RpcPacket resp = (Rpc.RpcPacket) e.getMessage();
+                ChatServerRpc.ChatReq req = ChatServerRpc.ChatReq.parseFrom(resp.getContent());
+                String str = JsonFormat.printToString(req);
+                WebSocketServer.getInstance().send(new TextWebSocketFrame(str));

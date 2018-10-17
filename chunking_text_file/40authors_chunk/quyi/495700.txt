@@ -1,0 +1,10 @@
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */
+  public Engine(Engine other) {
+    if (other.isSetEngineId()) {
+      this.engineId = other.engineId;
+    }
+    if (other.isSetEngineName()) {
+      this.engineName = other.engineName;
+    }

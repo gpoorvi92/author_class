@@ -1,0 +1,10 @@
+	/**
+	 * 关闭连接
+	 * 
+	 * @param client
+	 */
+	public static void close(TServiceClient client) {
+		if (client != null) {
+			client.getInputProtocol().getTransport().close();
+		}
+	}

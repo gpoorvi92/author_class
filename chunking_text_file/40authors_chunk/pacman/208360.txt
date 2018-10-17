@@ -1,0 +1,10 @@
+		if (gJNILoaded)
+			return nativeGetHeight();
+		else
+			return -1;
+	}
+
+	/**
+	 * @return the audioBitrate
+	 */
+	public int getAudioBitrate() {

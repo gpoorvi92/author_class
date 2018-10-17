@@ -1,0 +1,10 @@
+	TextView title;
+
+	@ViewById(R.id.details_dt)
+	EditText details_dt;
+
+	@ViewById(R.id.keywordsflow)
+	KeywordsFlow keywordsFlow;
+
+	@ViewById(R.id.title_sub_bar)
+	RelativeLayout title_sub_bar;

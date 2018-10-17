@@ -1,0 +1,10 @@
+      else
+      {
+         int mode;
+         if (args[0].equals("-encrypt")) mode = Cipher.ENCRYPT_MODE;
+         else mode = Cipher.DECRYPT_MODE;
+
+         try (ObjectInputStream keyIn = new ObjectInputStream(new FileInputStream(args[3]));
+            InputStream in = new FileInputStream(args[1]);
+            OutputStream out = new FileOutputStream(args[2]))
+         {

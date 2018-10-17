@@ -1,0 +1,10 @@
+	 * 查询条件。
+	 * @return
+	 *  结果数据集。
+	 * */
+	List<WeChatAccount> findAccounts(WeChatAccountInfo info);
+	/**
+	 * 查询数据总数。
+	 * @param	info
+	 * 	查询条件。
+	 * @return

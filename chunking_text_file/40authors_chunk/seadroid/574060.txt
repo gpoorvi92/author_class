@@ -1,0 +1,9 @@
+    public boolean isCopyToLocal() {
+        return isCopyToLocal;
+    }
+
+    public boolean isUpdate() {
+        return isUpdate;
+    }
+
+}

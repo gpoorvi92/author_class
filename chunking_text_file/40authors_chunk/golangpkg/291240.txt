@@ -1,0 +1,10 @@
+		}
+		if (estimatedRemainingTimeInSeconds != null) {
+			s+= " Finishing in "+UnitConverter.getFormattedTime(estimatedRemainingTimeInSeconds)+".";
+		}
+		return s;
+	}
+	
+	/**
+	 * Please use {@link #getProgress()}
+	 * @return

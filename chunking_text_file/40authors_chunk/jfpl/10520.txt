@@ -1,0 +1,10 @@
+
+		String json = intent.getStringExtra("new_msg");
+
+		if (!StringUtil.isNull(json)) {
+			NotificationManager notifyManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+			notifyManager.cancel(0);
+			try {
+				AbstractCommonData acd = DataConvertFactory
+						.getInstanceByJson(json);
+				appendChatItem(acd);

@@ -1,0 +1,10 @@
+						this.setScale(1.25f);
+						this.mGrabbed = true;
+						break;
+					case TouchEvent.ACTION_MOVE:
+						if(this.mGrabbed) {
+							this.setPosition(pSceneTouchEvent.getX() - Card.CARD_WIDTH / 2, pSceneTouchEvent.getY() - Card.CARD_HEIGHT / 2);
+						}
+						break;
+					case TouchEvent.ACTION_UP:
+						if(this.mGrabbed) {

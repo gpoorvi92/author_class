@@ -1,0 +1,10 @@
+        return null;
+    }
+
+    final public boolean hasNormalUrlToPlay() {
+        return findItem(RES_FLAGS__NORMAL_URL) != null;
+    }
+
+    final public void addIndex_any_membuf(String from, String indexMrl) {
+        MediaResourceItem item = new MediaResourceItem();
+        item.mFromTag = from;

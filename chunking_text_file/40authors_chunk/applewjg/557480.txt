@@ -1,0 +1,10 @@
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+public class BSTIterator_1 {
+
+    public BSTIterator(TreeNode root) {
+        stk = new Stack<TreeNode>();
+        node = root;

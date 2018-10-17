@@ -1,0 +1,10 @@
+   /**
+    * Constructs a locale combo that displays an immutable collection of locales.
+    * @param locales the locales to display in this combo box
+    */
+   public LocaleCombo(Locale[] locales)
+   {
+      this.locales = (Locale[]) locales.clone();
+      sort();
+      setSelectedItem(getLocale());
+   }

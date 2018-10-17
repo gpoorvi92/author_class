@@ -1,0 +1,10 @@
+      return this.equals((NetworkPacket)that);
+    return false;
+  }
+
+  public boolean equals(NetworkPacket that) {
+    if (that == null)
+      return false;
+
+    boolean this_present_pidName = true && this.isSetPidName();
+    boolean that_present_pidName = true && that.isSetPidName();

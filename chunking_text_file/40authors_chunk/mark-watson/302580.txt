@@ -1,0 +1,10 @@
+        }
+    }
+    
+    /**
+     * Perform a SPARQL query
+     * 
+     * @param sparql_query 
+     * @param handler 
+     * @return
+     * @throws RepositoryException 

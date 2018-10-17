@@ -1,0 +1,10 @@
+		ctx.finish();
+		return null;
+	}
+
+	@Override
+	public AbstractCommonData doError(AbstractCommonData acd) {
+		Log.i(SystemUtil.LOG_MSG, "login service error");
+		if (this.toLogin) {
+			Intent intent = new Intent(ctx, LoginActivity.class);
+			ctx.startActivity(intent);

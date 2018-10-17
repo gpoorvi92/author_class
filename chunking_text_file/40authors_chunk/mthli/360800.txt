@@ -1,0 +1,10 @@
+/**
+ * This program demonstrates collating strings under various locales.
+ * @version 1.14 2012-01-26
+ * @author Cay Horstmann
+ */
+public class CollationTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()

@@ -1,0 +1,10 @@
+		 */
+		candidates.clear();
+		for (String editWords : list) {
+			for (String wrd : edits(editWords)) {
+				if(wordCounts.containsKey(wrd)) {
+					candidates.put(wordCounts.get(wrd),wrd);
+				}
+			}
+		}
+		//System.out.println(candidates);

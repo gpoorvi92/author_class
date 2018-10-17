@@ -1,0 +1,10 @@
+		for (int x = 0; x < array.size() - 1; x++) {
+			for (int y = x + 1; y < array.size(); y++) {
+				if (array.get(y).equals(array.get(x))) {
+					array.remove(y);
+					y--; // 把元素删除后，还要和当前位置的比较一次
+				}
+			}
+		}
+
+		// 遍历集合

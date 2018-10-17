@@ -1,0 +1,10 @@
+	 * @return 同步任务的处理结果
+	 */
+	protected abstract V doInBackground(Object... params);
+
+	/**
+	 * 对外（其子类）暴露的服务方法。 该类的子类需要定义一个比该方法命名更为具体的服务方法（如downloadLargeFile）。
+	 * 该命名具体的服务方法（如downloadLargeFile）可直接调用该方法。
+	 * 
+	 * @param params
+	 *          客户端代码传递的参数列表

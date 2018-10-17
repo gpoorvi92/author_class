@@ -1,0 +1,10 @@
+
+		FileOutputStream fos = new FileOutputStream("a.txt");
+		// OutputStream os = new FileOutputStream("a.txt");
+		/*
+		 * 创建字节输入流对象做了哪些事情呢? A:调用系统功能创建了一个文件a.txt B:创建了一个对象fos
+		 * C:把fos对象指向了a.txt文件
+		 */
+  
+		// 写数据
+		// public void write(int b):一次写一个字节的数据

@@ -1,0 +1,10 @@
+			int [][] meetableMatrix) {
+		super(bmpSelf, col, row, width, height, refCol, refRow, noThrough, meetable,
+				meetableMatrix, bmpDialogBack, bmpDialogButton);
+	}
+	@Override
+	public void drawDialog(Canvas canvas, Hero hero) {
+		String showString = null;//需要显示到对话框中的字符串
+		tempHero = hero;
+		//先画背景
+		canvas.drawBitmap(bmpDialogBack, 0, DIALOG_START_Y, null);

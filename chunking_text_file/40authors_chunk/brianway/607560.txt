@@ -1,0 +1,10 @@
+        try {
+            MyObject2 myObject = MyObject2.getInstance();
+            FileOutputStream fos = new FileOutputStream(new File("myObject.txt"));
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(myObject);
+            oos.close();
+            fos.close();
+            System.out.println(myObject.hashCode() + " " + myObject);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();

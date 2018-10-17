@@ -1,0 +1,10 @@
+
+		if (candidates.size() > 0) {
+			return candidates.get(Collections.max(candidates.keySet()));
+		}
+		return word;
+	}
+
+	/**
+	 * main test method
+	 */

@@ -1,0 +1,10 @@
+                mRequest.finish("done");
+            }
+
+            // If we have been provided a post-delivery runnable, run it.
+            if (mRunnable != null) {
+                mRunnable.run();
+            }
+       }
+    }
+}

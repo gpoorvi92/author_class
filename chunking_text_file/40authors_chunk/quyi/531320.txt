@@ -1,0 +1,10 @@
+        optionals.set(7);
+      }
+      if (struct.isSetApp_description()) {
+        optionals.set(8);
+      }
+      if (struct.isSetRequestPurviews()) {
+        optionals.set(9);
+      }
+      if (struct.isSetFormat()) {
+        optionals.set(10);

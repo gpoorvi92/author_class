@@ -1,0 +1,10 @@
+               }
+            }
+         });
+
+      JButton pageSetupButton = new JButton("Page setup");
+      buttonPanel.add(pageSetupButton);
+      pageSetupButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

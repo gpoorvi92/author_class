@@ -1,0 +1,10 @@
+      add(decompositionCombo, new GBC(1, 2).setAnchor(GBC.WEST));
+      add(newWord, new GBC(1, 3).setFill(GBC.HORIZONTAL));
+      add(new JScrollPane(sortedWords), new GBC(0, 4, 2, 1).setFill(GBC.BOTH));
+      
+      locales = (Locale[]) Collator.getAvailableLocales().clone();
+      Arrays.sort(locales, new Comparator<Locale>()
+         {
+         
+            public int compare(Locale l1, Locale l2)
+            {

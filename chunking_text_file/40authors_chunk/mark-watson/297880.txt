@@ -1,0 +1,10 @@
+  
+  /**
+   * 
+   * @throws java.io.IOException
+   */
+  public void close() throws IOException {
+      reader.close();
+      writer.close();
+  }
+  /**

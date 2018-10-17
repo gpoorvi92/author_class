@@ -1,0 +1,10 @@
+    private void init_(Bundle savedInstanceState) {
+    }
+
+    private void afterSetContentView_() {
+        mButton = ((ImageButton) findViewById(id.guide_activity_btn));
+        mPager = ((ViewPager) findViewById(id.guide_activity_viewpager));
+        afterViews();
+    }
+
+    @Override

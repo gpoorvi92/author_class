@@ -1,0 +1,10 @@
+            setTypeface(Typeface.DEFAULT_BOLD);
+            setTextColor(0xFF333333);
+        } else {
+            setTextColor(0xFF666666);
+        }
+    }
+
+    
+    public void setVals(TimeObject to) {
+        setText(to.text);

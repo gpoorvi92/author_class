@@ -1,0 +1,10 @@
+  public void    setProtocolMask(int protocolMask) throws JposException;
+  public int     getReadTimerInterval() throws JposException;
+  public void    setReadTimerInterval(int readTimerInterval) throws JposException;
+  public int     getTagCount() throws JposException;
+
+  // Methods
+  public void    clearInput()
+                     throws JposException;
+  public void    clearInputProperties()
+                     throws JposException;

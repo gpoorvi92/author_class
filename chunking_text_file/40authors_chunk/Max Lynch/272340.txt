@@ -1,0 +1,10 @@
+	
+	ShapeLayerModel model;
+	
+	RenderSurface renderSurface;
+	
+	Image img;
+	
+	public ImageLayer(ShapeLayerModel model, RenderSurface renderSurface)
+	{
+		super(model, renderSurface);

@@ -1,0 +1,10 @@
+						txtMemberId.requestFocus ();
+						txtMemberId.setText ("" + id);
+						txtMemberName.setText ("" + rs.getString ("MemberName"));
+						txtMemberAddress.setText ("" + rs.getString ("MemberAddress"));
+						txtDate.setText ("" + rs.getString ("EntryDate"));
+					}
+					else {
+						found = false;
+					}
+				}

@@ -1,0 +1,10 @@
+		String content = new String(httpRes.getContent());
+		ByteArrayInputStream strBuf = new ByteArrayInputStream(content.getBytes());
+		return parse(strBuf);
+	}
+
+	////////////////////////////////////////////////
+	//	parse (File)
+	////////////////////////////////////////////////
+
+	public Node parse(File descriptionFile) throws ParserException

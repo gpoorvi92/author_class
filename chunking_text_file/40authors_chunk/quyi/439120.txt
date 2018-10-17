@@ -1,0 +1,10 @@
+  public void setCpuVendorIsSet(boolean value) {
+    if (!value) {
+      this.cpuVendor = null;
+    }
+  }
+
+  public String getCpuModel() {
+    return this.cpuModel;
+  }
+

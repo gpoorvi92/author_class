@@ -1,0 +1,10 @@
+            System.out.println(
+                    "name = " + e.getName() +
+                    ", id = " + e.getID() +
+                    ", salary = " + e.getSalary()
+                    );
+        }
+        int n = Employee.getNextId();
+        System.out.println("Next available id = " + n);
+    }
+}

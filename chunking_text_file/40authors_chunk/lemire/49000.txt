@@ -1,0 +1,10 @@
+
+    /**
+     * Remove the element on top of the heap
+     *
+     * @return the element being removed
+     */
+    public T poll() {
+        T ans = this.a[1];
+        this.a[1] = this.a[this.lastIndex--];
+        percolateDown(1);

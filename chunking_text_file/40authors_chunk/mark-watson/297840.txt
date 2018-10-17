@@ -1,0 +1,10 @@
+   * 
+   * @param data_store_file_root
+   */
+  public LuceneManager(String data_store_file_root) {
+      this.data_store_file_root = data_store_file_root;
+  }
+  
+  /**
+   * If you want to start with a fresh index, call this method immediately
+   * after creating a new instance of a LuceneManager.

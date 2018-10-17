@@ -1,0 +1,10 @@
+
+    FocusAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.FocusAdapter.focusGained(java.awt.event.FocusEvent)
+
+    public native void __focusGained( java.awt.event.FocusEvent e );
+

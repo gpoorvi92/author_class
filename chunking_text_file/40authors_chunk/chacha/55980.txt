@@ -1,0 +1,10 @@
+			acctArray.add(entity);
+		}
+		AccountEntity[] acct=(AccountEntity[])acctArray.toArray(new AccountEntity[0]);
+		QueryAccountResponseBody body=new QueryAccountResponseBody(acctArray);
+		QueryAccountResponse r=new QueryAccountResponse(Response.SUCCESS,body);
+		try {
+			System.out.println(r.toJson());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}

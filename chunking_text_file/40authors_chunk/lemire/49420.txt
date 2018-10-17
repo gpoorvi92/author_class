@@ -1,0 +1,10 @@
+        } else {
+            answer = this.position--;
+        }
+        this.hasNext = this.moveToPreviousRLW();
+        return answer;
+    }
+
+    private boolean moveToPreviousRLW() {
+        while (!literalHasNext() && !runningHasNext()) {
+            if (!this.ewahIter.hasPrevious()) {

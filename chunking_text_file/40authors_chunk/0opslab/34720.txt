@@ -1,0 +1,10 @@
+        Pattern pattern = Pattern.compile("[\\u4E00-\\u9FBF]+");
+        return pattern.matcher(str.trim()).find();
+    }
+
+    // 只能判断部分CJK字符（CJK统一汉字）
+    public final static boolean isChineseByName(String str) {
+        if (str == null) {
+            return false;
+        }
+        // 大小写不同：\\p 表示包含，\\P 表示不包含

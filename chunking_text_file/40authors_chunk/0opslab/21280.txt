@@ -1,0 +1,10 @@
+
+    /**
+     * Alphanumeric characters
+     */
+    public static final String  REG_ALNUM               = "\\p{Alnum}";
+    /**
+     * Alphabetic characters
+     */
+    public static final String  REG_ALPHA               = "\\p{Alpha}";
+    /**

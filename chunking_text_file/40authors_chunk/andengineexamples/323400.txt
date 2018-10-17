@@ -1,0 +1,10 @@
+
+	// ===========================================================
+	// Getter & Setter
+	// ===========================================================
+
+	public void setPaddleID(final int pPaddleID, final float pY) {
+		this.mPaddleID = pPaddleID;
+		this.mY = pY;
+	}
+

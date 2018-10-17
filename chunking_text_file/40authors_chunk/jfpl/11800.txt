@@ -1,0 +1,10 @@
+			changeLayout(0);
+		}
+	}
+
+	public void refreshBindVeh(final String bindUser) {
+		refreshBindVeh();
+		AbstractCommonData acd = SystemUtil.getCommonData("S22003", bindUser);
+		acd.putBooleanValue("is_alert", false);
+		acd.putBooleanValue("is_show_loading", false);
+		acd.putStringValue("_url", ConstVariables.VIO_SERVER_URL);

@@ -1,0 +1,10 @@
+                iprot.readMapEnd();
+              }
+              struct.setPlotsStatusIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // CHECK_START_TIME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.checkStartTime = iprot.readString();

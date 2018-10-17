@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().
+				createSQLQuery("select count(id) from t_order where acceptStatus=?");
+		return (BigInteger) query.setString(0, "Unprocessed").uniqueResult();
+	}
+
+	/**
+	 * 分页查询，List第一个对象为结果总数
+	 */
+	@Override
+	public List selectOrderByAcceptStatus(String acceptStatus,int start, int limit) {

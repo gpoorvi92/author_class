@@ -1,0 +1,10 @@
+ * 64位字符串的登录令牌，可用于sso
+ *	@author: Fully
+ */
+public class LoginToken {
+	private String _id;
+	private String userName;//用户名
+	private String token;	//令牌
+	private long tokenLifeTime=INVALID;//令牌有效期
+	public static long INVALID=-1;
+	private static Random r=new Random();

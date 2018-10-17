@@ -1,0 +1,10 @@
+
+ Note: The result may be very large, so you need to return a string instead of an integer.
+
+ Solution: ...
+ */
+
+public class Solution {
+    public String largestNumber_1(int[] num) {
+        int size = num.length;
+        if (size <= 0) return new String();

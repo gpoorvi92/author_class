@@ -1,0 +1,10 @@
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public int insert(OrderSmall os) {
+		int result = (Integer) sessionFactory.getCurrentSession().save(os);
+		return result;
+	}
+
+	@Override

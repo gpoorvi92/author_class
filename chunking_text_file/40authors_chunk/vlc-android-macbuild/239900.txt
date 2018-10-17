@@ -1,0 +1,10 @@
+package tv.danmaku.media.resource;
+
+import org.videolan.vlc.segments.LibVlcVslSegment;
+
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Segment implements Parcelable {
+    private static final String BUNDLE_DURATION = "duration";

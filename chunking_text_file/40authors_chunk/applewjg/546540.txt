@@ -1,0 +1,10 @@
+        String[] keyboard = new String[]{" ","","abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        letterCombinationsRe(keyboard,res,digits,"");
+        return res;
+    }
+    public void letterCombinationsRe(String[] keyboard, ArrayList<String> res, String digits, String s) {
+        if (s.length() == digits.length()) {
+            res.add(s);
+            return;
+        }
+        String letters = keyboard[digits.charAt(s.length()) - '0'];

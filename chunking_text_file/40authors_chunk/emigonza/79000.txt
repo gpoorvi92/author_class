@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface SignatureCaptureControl13 extends SignatureCaptureControl12
+{
+    // Capabilities

@@ -1,0 +1,10 @@
+        return isSetEngine();
+      case OPERATE:
+        return isSetOperate();
+      }
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)

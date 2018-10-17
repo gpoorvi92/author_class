@@ -1,0 +1,10 @@
+	 */
+	@Override
+	public void delete(TaskModel task) {
+		
+		String sql = "DELETE task WHERE tid=" + task.getTid();
+		getJdbcTemplate().execute(sql);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.dao.ITaskDAO#save(com.yeshj.pacman.model.TaskModel)

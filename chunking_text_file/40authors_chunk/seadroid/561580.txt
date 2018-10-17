@@ -1,0 +1,10 @@
+            title = (TextView) view.findViewById(R.id.list_item_title);
+            subtitle = (TextView) view.findViewById(R.id.list_item_subtitle);
+            icon = (ImageView) view.findViewById(R.id.list_item_icon);
+            checkBox = (CheckBox) view.findViewById(R.id.list_item_checkbox);
+            viewHolder = new Viewholder(title, subtitle, icon, checkBox);
+            view.setTag(viewHolder);
+
+            viewHolder.checkBox.setOnClickListener(new View.OnClickListener() {
+
+                @Override

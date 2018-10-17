@@ -1,0 +1,10 @@
+            InputStream inStream = incoming.getInputStream();
+            OutputStream outStream = incoming.getOutputStream();
+            
+            Scanner in = new Scanner(inStream);         
+            PrintWriter out = new PrintWriter(outStream, true /* autoFlush */);
+            
+            out.println( "Hello! Enter BYE to exit." );
+            
+            // echo client input
+            boolean done = false;

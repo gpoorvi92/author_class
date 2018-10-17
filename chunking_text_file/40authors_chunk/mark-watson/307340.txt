@@ -1,0 +1,10 @@
+
+    public static void main(String[] args) {
+        new MazeDepthFirstSearch();
+    }
+
+    private void jbInit() throws Exception {
+
+        this.setContentPane(jPanel1);
+        this.setCursor(null);
+        this.setDefaultCloseOperation(3);

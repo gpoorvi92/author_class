@@ -1,0 +1,10 @@
+// CashDrawerBeanInfo.java - Bean information for the JavaPOS CashDrawer
+//    device control
+//
+//------------------------------------------------------------------------------
+
+package jpos;
+
+import java.beans.*;
+import java.lang.reflect.*;
+

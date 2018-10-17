@@ -1,0 +1,10 @@
+    boolean enableParent = false;
+
+    public gestureType getmGestureType() {
+        return mGestureType;
+    }
+
+    public void setmGestureType(gestureType mGestureType) {
+        this.mGestureType = mGestureType;
+    }
+

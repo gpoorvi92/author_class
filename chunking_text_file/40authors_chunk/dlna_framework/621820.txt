@@ -1,0 +1,10 @@
+			if(bindAddresses[i]!=null){
+				SSDPNotifySocket ssdpNotifySocket = new SSDPNotifySocket(bindAddresses[i]);
+				if (ssdpNotifySocket.getSocket() == null){
+					log.e("ssdpNotifySocket.getSocket() == null!!!");
+					return false;
+				}
+				log.i("ssdpNotifySocket create success!!!bindAddresses = " + bindAddresses[i]);
+				add(ssdpNotifySocket);
+				return true;
+			}

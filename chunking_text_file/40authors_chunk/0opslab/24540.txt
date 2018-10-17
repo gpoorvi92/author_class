@@ -1,0 +1,10 @@
+
+    int result;
+    if (this.m_amountOfBytesReadable == 0) {
+      result = -1; // EOF
+    } else {
+      result = super.read();
+      if (result >= 0) {
+        this.m_amountOfBytesReadable--;
+      }
+    }

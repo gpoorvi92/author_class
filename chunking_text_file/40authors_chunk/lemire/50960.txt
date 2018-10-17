@@ -1,0 +1,10 @@
+        return this.endrun;
+    }
+
+    /**
+     * @return the beginning of the current run
+     */
+    public int beginOfRun() {
+        if (this.isLiteral)
+            return this.endrun - this.iterator.getNumberOfLiteralWords();
+        return (int) (this.endrun - this.iterator.getRunningLength());

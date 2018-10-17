@@ -1,0 +1,10 @@
+			holder.chatBgLayout = (LinearLayout) convertView
+					.findViewById(R.id.chat_bg_layout);
+			holder.sendState = (ProgressBar) convertView
+					.findViewById(R.id.send_state);
+			holder.sendFinishState = (ImageView) convertView
+					.findViewById(R.id.send_finish_state);
+			holder.chatTextView = (TextView) convertView
+					.findViewById(R.id.chat_msg);
+			holder.chatImage = (ImageView) convertView
+					.findViewById(R.id.chat_image);

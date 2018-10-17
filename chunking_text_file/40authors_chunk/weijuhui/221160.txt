@@ -1,0 +1,10 @@
+	}
+
+	public static boolean IsEmptyOrNullString(String s) {
+		return (s == null) || (s.trim().length() == 0);
+	}
+
+	/**
+	 * 把LatLng对象转化为LatLonPoint对象
+	 */
+	public static LatLonPoint convertToLatLonPoint(LatLng latlon) {

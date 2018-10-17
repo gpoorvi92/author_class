@@ -1,0 +1,10 @@
+        }
+        return result;
+    }
+
+
+    /**
+     * 用于将键值对转换为url的参数形式，用于ActivityUrlMap中拼接参数
+     *
+     * @return
+     */

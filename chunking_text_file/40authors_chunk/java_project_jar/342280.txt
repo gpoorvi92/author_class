@@ -1,0 +1,10 @@
+    public List getFileFilters()
+    {
+        return Collections.unmodifiableList(fileFilters);
+    }
+
+    public boolean removeFileFilter(IOFileFilter ioFileFilter)
+    {
+        return fileFilters.remove(ioFileFilter);
+    }
+

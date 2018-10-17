@@ -1,0 +1,10 @@
+
+    /**
+     * Next running length word.
+     *
+     * @return the running length word
+     */
+    public RunningLengthWord next() {
+        this.rlw.position = this.pointer;
+        this.pointer += this.rlw.getNumberOfLiteralWords() + 1;
+        return this.rlw;

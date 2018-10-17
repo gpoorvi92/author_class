@@ -1,0 +1,10 @@
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.d(DEBUG_TAG, "onStartCommand called.");
+
+        if (monitor == null) {
+            monitor = new SeafileMonitor(updateMgr);
+        }
+
+        ConcurrentAsyncTask.execute(new Runnable() {
+            @Override
+            public void run() {

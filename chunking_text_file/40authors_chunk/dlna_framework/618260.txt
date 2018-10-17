@@ -1,0 +1,10 @@
+			return null;
+		if (queryResNode.hasNodes() == false)
+			return null;
+		return queryResNode.getNode(0);
+	}
+	
+	public String getReturnValue()
+	{
+		Node node = getReturnNode();
+		if (node == null)

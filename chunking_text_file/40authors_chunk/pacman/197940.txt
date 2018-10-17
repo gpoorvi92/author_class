@@ -1,0 +1,10 @@
+ * @date: 2014年12月25日 上午9:26:06
+ */
+public class ComponentsTest {
+
+	private BeanFactory factory;
+	/**
+	 * TODO
+	 * @Title: setUp
+	 * @throws java.lang.Exception
+	 * @return: void

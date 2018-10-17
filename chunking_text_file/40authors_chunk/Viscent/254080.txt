@@ -1,0 +1,10 @@
+		Thread t = new Thread(scheduler);
+		t.start();
+		Future<String> result = scheduler.enqueue(new Callable<String>() {
+
+			@Override
+			public String call() throws Exception {
+				Thread.sleep(1500);
+				int i = 1;
+				if (1 == i) {
+					throw new RuntimeException("test");

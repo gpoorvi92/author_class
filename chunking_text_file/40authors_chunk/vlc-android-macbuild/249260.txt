@@ -1,0 +1,10 @@
+
+        return String.format("%s://%d", mVlcSegmentAccess, order);
+    }
+
+    public boolean loadIndex(boolean forceReload) {
+        Context context = getContext();
+        if (context == null)
+            return false;
+
+        if (!forceReload && getIndexBundle() != null)

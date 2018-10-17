@@ -1,0 +1,10 @@
+    }
+    for (String word : wcount.keySet()) {
+      TreeSet<IdCount> ts;
+      if (index.containsKey(word)) {
+        ts = index.get(word);
+      } else {
+        ts = new TreeSet<IdCount>();
+        index.put(word, ts);
+      }
+      ts.add(new IdCount(document.id, wcount.get(word) * MAX_WORDS_PER_DOCUMENT / num_words));

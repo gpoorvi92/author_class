@@ -1,0 +1,10 @@
+package com.nercis.isscp.util;
+
+public class SearchRecordInfo {
+
+	String number;
+	long startedTime;
+	long finishedTime;
+	int count;
+	String checkResult;
+

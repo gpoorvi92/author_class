@@ -1,0 +1,10 @@
+							nodeName.append(name);							
+						node.setName(nodeName.toString());
+						int attrsLen = xpp.getAttributeCount();
+						for (int n=0; n<attrsLen; n++) {
+							String attrName = xpp.getAttributeName(n);
+							String attrValue = xpp.getAttributeValue(n);
+							node.setAttribute(attrName, attrValue);
+						}
+					
+						if (currNode != null)

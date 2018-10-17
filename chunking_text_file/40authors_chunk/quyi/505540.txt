@@ -1,0 +1,10 @@
+          _elem113 = new UserApp();
+          _elem113.read(iprot);
+          struct.userApps.add(_elem113);
+        }
+      }
+      struct.setUserAppsIsSet(true);
+      BitSet incoming = iprot.readBitSet(4);
+      if (incoming.get(0)) {
+        {
+          org.apache.thrift.protocol.TList _list114 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, iprot.readI32());

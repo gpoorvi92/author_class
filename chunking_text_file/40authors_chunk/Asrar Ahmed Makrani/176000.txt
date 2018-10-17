@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class remark extends JPanel implements remark_Interface{
+
+    public remark() {
+    	
+      patron.setFont (new Font ("Arial", Font.BOLD, 20));
+

@@ -1,0 +1,10 @@
+		return (TypeForBrand) sessionFactory.getCurrentSession().get(TypeForBrand.class, iD);
+	}
+
+	@SuppressWarnings("rawtypes")
+	@Override
+	public List selectAllMaterialBrands(int start, int limit) {
+		List list = new ArrayList();
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_materialbrand")
+				.addEntity(MaterialBrand.class);
+		int size = query.list().size();

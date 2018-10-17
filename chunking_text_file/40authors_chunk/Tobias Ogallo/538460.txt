@@ -1,0 +1,10 @@
+		cat.setForeground(Color.blue);
+		username.setFont(new Font("sansserif", Font.ITALIC, 14));
+		password.setFont(new Font("sansserif", Font.ITALIC, 14));
+		cat.setFont(new Font("sansserif", Font.ITALIC, 14));
+		cboCat.setFont(new Font("sansserif", Font.ITALIC, 14));
+		t1.setForeground(Color.red);
+		t2=new JLabel("");
+		p1=new JPanel (new GridLayout(4,2));
+		p1.setPreferredSize(new Dimension(200,200));
+        p1.add(t1);p1.add(t2);

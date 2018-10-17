@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	set
+	////////////////////////////////////////////////
+	
+	public void set(String lineStr)
+	{
+		if (lineStr == null) {
+			setVersion(HTTP.VERSION);
+			setStatusCode(INTERNAL_SERVER_ERROR);
+			setReasonPhrase(code2String(INTERNAL_SERVER_ERROR));

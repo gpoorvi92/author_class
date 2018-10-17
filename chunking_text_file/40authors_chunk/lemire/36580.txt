@@ -1,0 +1,10 @@
+    @Override
+    public int getLastWord() {
+        return getWord(this.actualSizeInWords - 1);
+    }
+
+    @Override
+    public void clear() {
+        this.actualSizeInWords = 1;
+        this.buffer[0] = 0;
+    }

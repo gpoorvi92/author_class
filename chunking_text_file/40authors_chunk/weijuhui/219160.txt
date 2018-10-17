@@ -1,0 +1,10 @@
+		super.onCreate(savedInstanceState);
+
+		if (savedInstanceState != null) {
+			Calendar c = (Calendar) savedInstanceState.getSerializable("time");
+			if (c != null) {
+				mInitialTime = c;
+			}
+		}
+
+		this.requestWindowFeature(Window.FEATURE_NO_TITLE);

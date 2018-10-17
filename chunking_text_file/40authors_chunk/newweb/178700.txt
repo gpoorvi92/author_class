@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public Supplier findSupplierById(int ID) {
+		return supplierDao.selectSupplierById(ID);
+	}
+
+	@Override
+	public boolean modify(Supplier supplier) {
+		return supplierDao.update(supplier);

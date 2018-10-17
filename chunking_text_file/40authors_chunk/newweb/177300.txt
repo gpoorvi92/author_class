@@ -1,0 +1,10 @@
+import com.newweb.model.base.Bxg;
+import com.newweb.model.base.MaterialBrand;
+import com.newweb.model.base.TypeForBrand;
+import com.newweb.service.base.BxgService;
+import com.newweb.service.base.MaterialBrandService;
+import com.newweb.service.base.TypeForBrandService;
+
+@Component("materialBrandService")
+public class MaterialBrandServiceImp implements MaterialBrandService {
+	

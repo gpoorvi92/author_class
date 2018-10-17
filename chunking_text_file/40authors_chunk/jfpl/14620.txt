@@ -1,0 +1,10 @@
+
+			}
+
+			@Override
+			public void afterTextChanged(Editable s) {
+				String content = s.toString();
+				setSendState(!StringUtil.isNull(content));
+			}
+		});
+		setListType(false);

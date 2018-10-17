@@ -1,0 +1,10 @@
+			serverSock.close();
+			serverSock = null;
+			bindAddr = null;
+			bindPort = 0;
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+		return true;

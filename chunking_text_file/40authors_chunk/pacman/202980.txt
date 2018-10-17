@@ -1,0 +1,10 @@
+
+		if (saveAction == null)
+			saveAction = new MiSaveAction(getDataSource());
+		
+		saveAction.update(mi.getMedia(),
+				          mi.getAudio_rate(),
+				          mi.getAudio_sampling(),
+				          mi.getAudio_duration(),
+				          mi.getAudio_codec(),
+				          mi.getVideo_width(),

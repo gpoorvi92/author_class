@@ -1,0 +1,10 @@
+ * @author Viscent Huang
+ *
+ * @param <V>
+ *          同步任务的处理结果类型
+ */
+public abstract class AsyncTask<V> {
+
+	// 相当于Half-sync/Half-async模式的同步层：用于执行异步层提交的任务
+	private volatile Executor executor;
+	private final static ExecutorService DEFAULT_EXECUTOR;

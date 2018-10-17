@@ -1,0 +1,10 @@
+		
+	}
+
+	public void setConnectionHost(String connectionHost) {
+		this.connectionHost = connectionHost;
+	}
+
+	public void setConectionPort(int conectionPort) {
+		this.conectionPort = conectionPort;
+	}

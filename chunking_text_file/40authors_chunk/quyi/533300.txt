@@ -1,0 +1,10 @@
+      } else {
+        setRiskType((String)value);
+      }
+      break;
+
+    case RISK_LEVEL:
+      if (value == null) {
+        unsetRiskLevel();
+      } else {
+        setRiskLevel((String)value);

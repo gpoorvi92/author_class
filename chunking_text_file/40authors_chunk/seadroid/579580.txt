@@ -1,0 +1,10 @@
+                    openAuthorizePage(url);
+            }
+        });
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setTitle(R.string.shib_actionbar_title);
+    }
+
+    public void onHttpsCheckboxClicked(View view) {
+

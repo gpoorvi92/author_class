@@ -1,0 +1,10 @@
+    }
+
+    protected OutputStream getStream()
+        throws IOException
+    {
+        return currentOutputStream;
+    }
+
+    protected void thresholdReached()
+        throws IOException

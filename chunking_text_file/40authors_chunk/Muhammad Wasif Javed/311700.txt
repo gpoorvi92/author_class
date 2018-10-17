@@ -1,0 +1,10 @@
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.border.LineBorder;
+
+public class Splash extends JWindow {
+
+	private Dimension d = Toolkit.getDefaultToolkit().getScreenSize();	//Getting the User's Screen Dimensions.
+
+	public Splash () {
+

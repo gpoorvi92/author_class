@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void add(News news) throws ServiceException {
+        Date now = new Date();
+        news.setInsertDate(now);
+        news.setUpdateDate(now);
+        if (newsMapper.insertSelective(news) < 1) {
+            throw new ServiceException("添加失败");
+        }

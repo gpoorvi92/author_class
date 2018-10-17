@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapAdditionalSecurityInformation"),
+        makeProperty("CapAuthorizeCompletion"),
+        makeProperty("CapAuthorizePreSales"),
+        makeProperty("CapAuthorizeRefund"),
+        makeProperty("CapAuthorizeVoid"),
+        makeProperty("CapAuthorizeVoidPreSales"),
+        makeProperty("CapCenterResultCode"),
+        makeProperty("CapCheckCard"),
+        makeProperty("CapDailyLog"),

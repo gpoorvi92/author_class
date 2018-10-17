@@ -1,0 +1,6 @@
+                     throws JposException;
+  public void    updateStatistics(String statisticsBuffer)
+                     throws JposException;
+  public void    writeData(int action, int count, String data)
+                     throws JposException;
+}

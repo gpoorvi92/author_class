@@ -1,0 +1,10 @@
+      }
+    }
+
+    public static class updateUserAppStatus<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, updateUserAppStatus_args, com.nercis.isscp.idl.Result> {
+      public updateUserAppStatus() {
+        super("updateUserAppStatus");
+      }
+
+      public updateUserAppStatus_args getEmptyArgsInstance() {
+        return new updateUserAppStatus_args();

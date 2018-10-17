@@ -1,0 +1,9 @@
+            int mid = left + (right - left) / 2;
+            int row = mid / M, col = mid % M;
+            if (matrix[row][col] == target) return true;
+            if (matrix[row][col] < target) left = mid + 1;
+            else right = mid - 1;
+        }
+        return false;
+    }
+}

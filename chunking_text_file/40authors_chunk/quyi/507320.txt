@@ -1,0 +1,10 @@
+      }
+      this.functionStatus = __this__functionStatus;
+    }
+    if (other.isSetDetectResult()) {
+      this.detectResult = org.apache.thrift.TBaseHelper.copyBinary(other.detectResult);
+;
+    }
+  }
+
+  public AppDetectResult deepCopy() {

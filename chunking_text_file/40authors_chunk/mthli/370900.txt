@@ -1,0 +1,10 @@
+{
+   public NotHelloWorldFrame()
+   {
+      add(new NotHelloWorldComponent());
+      pack();
+   }
+}
+
+/**
+ * A component that displays a message.

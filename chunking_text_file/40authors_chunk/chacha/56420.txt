@@ -1,0 +1,10 @@
+		//json转换为pojo
+		QueryAccountRequest r=new QueryAccountRequest();
+		try{
+			r.fromJson(request.toJson());
+			System.out.println(r.toJson());
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+}

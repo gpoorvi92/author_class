@@ -1,0 +1,10 @@
+
+			setVisible (false);
+			dispose();
+
+		}
+
+	}
+
+	//OverRidding the FocusListener Class Function.
+

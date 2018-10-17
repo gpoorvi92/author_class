@@ -1,0 +1,10 @@
+*	12/12/02
+*		- first revision.
+*	10/20/03
+*		- Improved the HTTP server using multithreading.
+*	08/27/04
+*		- Changed accept() to set a default timeout, HTTP.DEFAULT_TIMEOUT, to the socket.
+*	
+******************************************************************/
+
+package org.cybergarage.http;

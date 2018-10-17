@@ -1,0 +1,10 @@
+      if (pageFormat == null)
+      {
+         PrinterJob job = PrinterJob.getPrinterJob();
+         pageFormat = job.defaultPage();
+      }
+      Book book = new Book();
+      String message = text.getText();
+      Banner banner = new Banner(message);
+      int pageCount = banner.getPageCount((Graphics2D) getGraphics(), pageFormat);
+      book.append(new CoverPage(message + " (" + pageCount + " pages)"), pageFormat);

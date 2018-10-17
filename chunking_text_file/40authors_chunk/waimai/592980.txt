@@ -1,0 +1,10 @@
+            throw new ServiceException("修改失败");
+        }
+    }
+
+    @Override
+    public void active(String[] ids) throws ServiceException {
+        if (IdStatusSplitUtils.isFormatSecret(ids, AdminStatus.PENDING.toString(), AdminStatus.INACTIVE.toString())) {
+            adminMapper.active(IdStatusSplitUtils.split2Id(ids));
+        } else {
+            throw new ServiceException("只能操作审核中和被禁用的用户");

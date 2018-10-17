@@ -1,0 +1,10 @@
+		System.out.println("bitmap 1 (recovered) : " + Bitmap1new);
+		if (!Bitmap1.equals(Bitmap1new))
+			throw new RuntimeException("Will not happen");
+		//
+		// we can use a ByteBuffer as backend for a bitmap
+		// which allows memory-mapped bitmaps
+		//
+		ByteBuffer bb = ByteBuffer.wrap(bout);
+		ImmutableBitSet rmap = new ImmutableBitSet(bb.asLongBuffer());
+		System.out.println("bitmap 1 (mapped) : " + rmap);

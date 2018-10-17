@@ -1,0 +1,10 @@
+        }
+      } else {
+        charset = UnknownCharset.getInstance();
+      }
+    } catch (ANTLRException ae) {
+      if (this.m_verbose) {
+        System.out.println("  ANTLR parser exception: " + ae.getMessage());
+      }
+    } catch (Exception deepdown) {
+      if (this.m_verbose) {

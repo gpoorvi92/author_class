@@ -1,0 +1,10 @@
+                LOGGER.log(Level.SEVERE, "Can't load properties from " + args[0], exception);
+            System.exit(1);
+        }
+
+        final List<TcpProxyConfig> configs = TcpProxyConfigParser.parse(properties);
+        if (LOGGER.isLoggable(Level.INFO))
+            LOGGER.info("Starting TcpProxy with " + configs.size() + " connectors");
+
+        final int cores = Runtime.getRuntime().availableProcessors();
+        if (LOGGER.isLoggable(Level.INFO))

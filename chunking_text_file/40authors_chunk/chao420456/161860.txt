@@ -1,0 +1,10 @@
+		System.out.println("-------------");
+
+		//会报错吗?
+		a = new Cat(); ////向上转型
+		a.eat();
+
+		Cat c = (Cat)a;
+		c.eat();
+
+		//Dog dd = (Dog)a; //ClassCastException

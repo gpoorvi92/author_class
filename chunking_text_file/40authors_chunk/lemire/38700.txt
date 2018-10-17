@@ -1,0 +1,10 @@
+            @Override
+            public int compare(EWAHPointer32 arg0,
+                               EWAHPointer32 arg1) {
+                return arg0.compareTo(arg1);
+            }
+        }
+        );
+        f.resize(set.length);
+
+        for (int k = 0; k < set.length; ++k) {

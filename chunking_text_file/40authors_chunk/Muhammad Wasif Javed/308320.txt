@@ -1,0 +1,10 @@
+
+	private JPanel pLog = new JPanel();
+	private JLabel lbUser, lbPass;
+	private JTextField txtUser;
+	private JPasswordField txtPass;
+	private JButton btnOk, btnCancel;
+
+	private Connection con;		//For Creating the Connection Between Program & Database.
+	public String user;		//For Getting the Current User's Name
+

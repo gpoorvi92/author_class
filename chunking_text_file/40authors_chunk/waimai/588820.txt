@@ -1,0 +1,10 @@
+    public ModelAndView active(String[] ids) {
+        try {
+            userService.active(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("操作成功");
+    }
+
+    @RequestMapping("/inactive")

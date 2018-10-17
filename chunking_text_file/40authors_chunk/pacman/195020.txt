@@ -1,0 +1,10 @@
+ * @version: V1.0  
+ ******************************************************************/
+
+
+package com.yeshj.pacman.task.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;

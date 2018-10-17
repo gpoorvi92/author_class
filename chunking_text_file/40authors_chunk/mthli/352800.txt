@@ -1,0 +1,10 @@
+   public void setObject(Object obj)
+   {
+      bean = (ChartBean) obj;
+
+      data.setText("");
+      for (double value : bean.getValues())
+         data.append(value + "\n");
+
+      normal.setSelected(!bean.isInverse());
+      inverse.setSelected(bean.isInverse());

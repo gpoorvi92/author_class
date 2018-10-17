@@ -1,0 +1,10 @@
+
+    case THREAD_NAME:
+      if (value == null) {
+        unsetThreadName();
+      } else {
+        setThreadName((String)value);
+      }
+      break;
+
+    case CHECK_TIME:

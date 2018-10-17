@@ -1,0 +1,10 @@
+   {      
+      BufferedImage image = makeMandelbrot(IMAGE_WIDTH, IMAGE_HEIGHT);
+      add(new JLabel(new ImageIcon(image)));
+      pack();
+   }
+
+   /**
+    * Makes the Mandelbrot image.
+    * @param width the width
+    * @parah height the height

@@ -1,0 +1,10 @@
+	//	Member
+	////////////////////////////////////////////////
+
+	private Node iconNode;
+
+	public Node getIconNode()
+	{
+		return iconNode;
+	}
+	

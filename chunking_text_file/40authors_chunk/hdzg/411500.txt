@@ -1,0 +1,10 @@
+	
+
+	//绘制方法
+	public void onDraw(Canvas canvas){
+		canvas.drawColor(Color.WHITE);
+		canvas.drawBitmap(help1, 0, 50, paint);
+		canvas.drawBitmap(buttonBackGround, 240, 350, paint);
+		
+		canvas.drawText("确定", 252, 372, paint);
+	}

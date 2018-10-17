@@ -1,0 +1,10 @@
+	     }
+		
+		if (_fileType == "image" && _action == "Open"){ // Source image to Display or Compress
+            	fc.addChoosableFileFilter(new ImageFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/SamImages"));
+	        	returnVal = fc.showDialog(FileChooser.this, "Open");
+			
+		} else if (_fileType == "image" && _action == "Save"){ // Target image to Compress
+            	fc.addChoosableFileFilter(new ImageFilter());
+			fc.setCurrentDirectory(new File(System.getProperty("user.dir"),"/DesImages"));

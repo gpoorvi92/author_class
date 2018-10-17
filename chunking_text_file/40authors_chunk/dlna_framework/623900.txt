@@ -1,0 +1,10 @@
+		
+		return faultNode;
+	}
+	
+	private Node createFaultResponseNode(int errCode)
+	{
+		return createFaultResponseNode(errCode, UPnPStatus.code2String(errCode));
+	}
+
+	////////////////////////////////////////////////

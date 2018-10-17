@@ -1,0 +1,10 @@
+		ProcessExecutor pe = new ProcessExecutor();
+		if (pe.execute(output, command))
+		{
+			logger.warn(PREFIX + " successfully!");
+		} else {
+			
+			logger.error(PREFIX + " ERROR!\n");
+			String buffer = StringUtils.join(output, '\n');
+			logger.error(buffer);
+			throw new StepExecuteException();

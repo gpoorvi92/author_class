@@ -1,0 +1,10 @@
+import com.cyss.android.lib.service.ServiceController;
+import com.cyss.android.lib.util.SystemUtil;
+import com.cyss.android.lib.view.FrameAlertDialog;
+import com.jufan.platform.service.WfxwSearchService;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.exception.InstanceDataException;
+
+public class VioDetailActivity extends BaseChatEnterActivity {
+	@InjectionView(id = R.id.title_back_btn, click = "titleBackBtnClick")

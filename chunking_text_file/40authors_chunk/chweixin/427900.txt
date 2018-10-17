@@ -1,0 +1,10 @@
+	/**
+	 * 设置用户名。
+	 * @param userName
+	 * 	用户名。
+	 * */
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	/**
+	 * 获取用户状态(1-关注，－1-取消关注)。

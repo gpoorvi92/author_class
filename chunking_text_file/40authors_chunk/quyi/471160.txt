@@ -1,0 +1,10 @@
+    {
+      send_updateAppStatus(missionId, userAppId, status, usedPermissions, stcRD, dycRD, virRD);
+      return recv_updateAppStatus();
+    }
+
+    public void send_updateAppStatus(String missionId, String userAppId, com.nercis.isscp.idl.AppStatus status, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD) throws org.apache.thrift.TException
+    {
+      updateAppStatus_args args = new updateAppStatus_args();
+      args.setMissionId(missionId);
+      args.setUserAppId(userAppId);

@@ -1,0 +1,10 @@
+ * 			学java -- 找工作 -- 挣钱 -- 娶媳妇 -- 生娃娃 -- 放羊 -- 挣钱 --
+ * 				学java -- 找工作 -- 挣钱 -- 娶媳妇 -- 生娃娃 -- 放羊 -- 挣钱 --
+ * 					...
+ */
+public class DiGuiDemo {
+	public void show() {
+		show();
+	}
+
+	// public DiGuiDemo() {

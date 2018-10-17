@@ -1,0 +1,10 @@
+        jButton1.setBounds(new Rectangle(246, 290, 148, 28));
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(MouseEvent e) {
+                try {
+					do_run_button(e);
+				} catch (InterruptedException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+            }

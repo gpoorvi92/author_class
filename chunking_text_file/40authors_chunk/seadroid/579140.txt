@@ -1,0 +1,10 @@
+                    activitieFragment = new ActivitiesFragment();
+                }
+                return activitieFragment;
+            default:
+                return new Fragment();
+            }
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {

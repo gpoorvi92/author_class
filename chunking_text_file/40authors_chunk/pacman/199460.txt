@@ -1,0 +1,10 @@
+		result.setLid(rs.getInt("lid"));
+		result.setGuid(rs.getString("guid"));
+		result.setFile(rs.getString("file"));
+		result.setBegin(rs.getTimestamp("begin"));
+		result.setEnd(rs.getTimestamp("end"));
+		result.setType(rs.getInt("type"));
+		result.setStatus(rs.getInt("status"));
+		result.setErr(rs.getString("err"));
+		return result;
+	}

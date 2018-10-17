@@ -1,0 +1,10 @@
+	
+	public String getHeader()
+	{
+		StringBuffer str = new StringBuffer();
+	
+		str.append(getStatusLineString());
+		str.append(getHeaderString());
+		str.append(HTTP.CRLF); // for Intel UPnP control points.
+		
+		return str.toString();

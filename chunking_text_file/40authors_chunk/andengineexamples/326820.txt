@@ -1,0 +1,10 @@
+		rectangleGroup.attachChild(rect3);
+		rectangleGroup.attachChild(rect4);
+
+		scene.attachChild(rectangleGroup);
+
+		/* Attaching the ScreenCapture to the end. */
+		scene.attachChild(screenCapture);
+		scene.setOnSceneTouchListener(new IOnSceneTouchListener() {
+			@Override
+			public boolean onSceneTouchEvent(final Scene pScene, final TouchEvent pSceneTouchEvent) {

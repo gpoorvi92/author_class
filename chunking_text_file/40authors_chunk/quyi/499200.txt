@@ -1,0 +1,10 @@
+              struct.operateContent = iprot.readString();
+              struct.setOperateContentIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // OPERATE_TIME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.operateTime = iprot.readString();
+              struct.setOperateTimeIsSet(true);

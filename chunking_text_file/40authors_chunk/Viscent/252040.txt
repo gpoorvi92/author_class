@@ -1,0 +1,10 @@
+	 * 
+	 * @see io.github.viscent.mtpattern.tpt.Terminatable#terminate()
+	 */
+	@Override
+	public void terminate() {
+		terminationToken.setToShutdown(true);
+		try {
+			doTerminiate();
+		} finally {
+

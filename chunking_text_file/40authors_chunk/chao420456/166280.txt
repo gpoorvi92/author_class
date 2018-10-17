@@ -1,0 +1,10 @@
+		BasicTeacher bt2 = new BasicTeacher("林青霞",28);
+		System.out.println(bt2.getName()+"---"+bt2.getAge());
+		bt2.teach();
+		System.out.println("----------------------------");
+
+		//多态测试
+		Teacher t = new BasicTeacher();
+		t.setName("林青霞");
+		t.setAge(28);
+		System.out.println(t.getName()+"---"+t.getAge());

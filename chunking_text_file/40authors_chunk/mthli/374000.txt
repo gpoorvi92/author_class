@@ -1,0 +1,10 @@
+   {
+      return "" + getValue();
+   }
+
+   public void paintValue(Graphics g, Rectangle bounds)
+   {
+      ImageIcon icon = (Boolean) getValue() ? inverseIcon : normalIcon;
+      int x = bounds.x + (bounds.width - icon.getIconWidth()) / 2;
+      int y = bounds.y + (bounds.height - icon.getIconHeight()) / 2;
+      g.drawImage(icon.getImage(), x, y, null);

@@ -1,0 +1,10 @@
+            public void run()
+            {
+               JFrame frame = new ClassLoaderFrame();
+               frame.setTitle("ClassLoaderTest");
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}

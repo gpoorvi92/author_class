@@ -1,0 +1,10 @@
+	 * @return: void
+	 * @throws Exception 
+	 */
+	private void decodeVideo(ExecuteContext context) throws Exception {
+		
+		String videoCodec = context.getAttribute(Constants.CONTEXT_VIDEO_CODEC);
+		String audioCodec = context.getAttribute(Constants.CONTEXT_AUDIO_CODEC);
+		int videoBitrate = context.getAttribute(Constants.CONTEXT_VIDEO_BITRATE);
+		int audioBitrate = context.getAttribute(Constants.CONTEXT_AUDIO_BITRATE);
+		int audioSamping = context.getAttribute(Constants.CONTEXT_SAMPLING, 0);

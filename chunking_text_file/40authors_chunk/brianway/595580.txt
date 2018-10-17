@@ -1,0 +1,10 @@
+/**
+ * P247
+ * schedule(TimerTask task, long delay, long period) 测试，在未来执行的效果
+ */
+public class Run2_period1 {
+    public static void main(String[] args) {
+        System.out.println("当前时间为：" + new Date());
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.SECOND, 10);
+        Date runDate = calendar.getTime();

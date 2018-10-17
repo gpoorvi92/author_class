@@ -1,0 +1,10 @@
+/*
+ * MultiplexingOutputStream.java, an OutputStream that allows to multiplex everything that
+ * is written to it to all contained output streams (multiplexing).
+ *
+ * Copyright 2011 (C) Achim Westermann, 
+ * created on Nov 27, 2011 6:07:13 PM.
+ *
+ * ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ * 

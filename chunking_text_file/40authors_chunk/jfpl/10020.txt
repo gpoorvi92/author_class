@@ -1,0 +1,10 @@
+					sendFinishState.setVisibility(View.GONE);
+
+				}
+			} else {
+				if ("0".equals(type)) {
+					sendState.setVisibility(View.GONE);
+					sendFinishState.setVisibility(View.VISIBLE);
+					sendFinishState.setImageResource(R.drawable.done_holo);
+				}
+			}

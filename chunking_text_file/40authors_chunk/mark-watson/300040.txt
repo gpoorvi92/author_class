@@ -1,0 +1,10 @@
+            this(400);
+        }
+        public void addToBackOfQueue(Location n) {
+            queue[tail] = n;
+            if (tail >= (len - 1)) {
+                tail = 0;
+            } else {
+                tail++;
+            }
+        }

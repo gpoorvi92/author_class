@@ -1,0 +1,10 @@
+            return;
+        mSegmentPlayer.pause();
+    }
+
+    @Override
+    public void prepareAsync() throws IllegalStateException {
+        AsyncLoader loader = new AsyncLoader(this);
+        loader.execute(mMetaListUrl);
+    }
+

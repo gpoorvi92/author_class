@@ -1,0 +1,10 @@
+		final View childView;
+		if (pConvertView != null){
+			childView = pConvertView;
+		}else{
+			childView = LayoutInflater.from(this.mContext).inflate(R.layout.listrow_example, null);
+		}
+
+		((TextView)childView.findViewById(R.id.tv_listrow_example_name)).setText(this.getChild(pGroupPosition, pChildPosition).NAMERESID);
+		return childView;
+	}

@@ -1,0 +1,10 @@
+	 * 	文本消息对象。
+	 * */
+	public static TextReqMessage parseTextReqMessage(Map<String, String> data){
+		//创建文本消息对象。
+		TextReqMessage textReqMessage = new TextReqMessage();
+		//
+		parseReqMessage(textReqMessage,data);
+		//
+		textReqMessage.setContent(data.get("Content"));
+		//返回消息对象。

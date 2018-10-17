@@ -1,0 +1,4 @@
+		defence = (int)((hero.basicDefend*hero.armyWithMe)*(1+gDefend));
+		return defence;
+	}
+}

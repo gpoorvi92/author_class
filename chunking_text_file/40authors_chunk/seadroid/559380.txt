@@ -1,0 +1,10 @@
+     * @param repoName Repository name
+     * @param parentDir Parent directory of the file
+     * @param localPath Local path
+     * @param isUpdate Force to update files if true
+     * @param isCopyToLocal Copy files to SD card if true
+     * @param uploadedSize File uploaded size
+     * @param totalSize File total size
+     * @param err Exception instance of {@link SeafException}
+     */
+    public UploadTaskInfo(Account account,

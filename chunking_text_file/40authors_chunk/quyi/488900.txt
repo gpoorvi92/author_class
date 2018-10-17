@@ -1,0 +1,10 @@
+      if (other.isSetMissionId()) {
+        this.missionId = other.missionId;
+      }
+      if (other.isSetUserAppId()) {
+        this.userAppId = other.userAppId;
+      }
+      if (other.isSetPlotsStatus()) {
+        Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> __this__plotsStatus = new HashMap<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus>(other.plotsStatus.size());
+        for (Map.Entry<com.nercis.isscp.idl.PlotsType, com.nercis.isscp.idl.CheckResultStatus> other_element : other.plotsStatus.entrySet()) {
+

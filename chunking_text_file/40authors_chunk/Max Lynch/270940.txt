@@ -1,0 +1,10 @@
+			if(stroke != null)
+				g2.setStroke(stroke);
+			
+			g2.draw(new Line2D.Double(w/2-50, h/2, w/2+50, h/2));
+			
+			//if(shape instanceof Rectangle2D.Double)
+				//g2.draw(new Rectangle2D.Double(w/2-50, h/2-50, 100, 100));
+			/*else if(shape instanceof Ellipse2D.Double)
+				g2.draw(new Ellipse2D.Double(w/2-50, h/2-50, 100, 100));
+			else if(shape instanceof Line2D.Double)

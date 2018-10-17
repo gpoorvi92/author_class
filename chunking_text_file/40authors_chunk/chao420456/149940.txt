@@ -1,0 +1,10 @@
+ * 			字节输出流	OutputStream
+ * 		字符流
+ * 			字符输入流	Reader
+ * 			字符输出流	Writer
+ * 
+ * 需求：请把一句话："helloworld"写入一个文本文件。
+ * 通过简单的分析后，我们找到了OutputStream。
+ * 由于OutputStream是一个抽象类，所以我们应该找其子类来学习。
+ * 学习前，我们先回想一个问题，就是硬盘上的文件，java提供了哪个类表示呢?File
+ * 再结合现在的字节输出流OutputStream，两个拼接一下就有了一个新的名字：FileOutputStream

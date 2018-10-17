@@ -1,0 +1,10 @@
+		return bxgDao.update(bxg);
+	}
+
+	@Override
+	public Bxg[] queryBxgsByLikeNorms(String condition) {
+		List<Bxg> list = bxgDao.selectBxgByLikeNorms(condition);
+		Bxg[] bxgs = new Bxg[list.size()];
+		int count = 0;
+		for (Bxg bxg : list) {
+			bxgs[count++] = bxg;

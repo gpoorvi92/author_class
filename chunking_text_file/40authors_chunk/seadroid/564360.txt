@@ -1,0 +1,10 @@
+
+public class GetShareLinkDialog extends TaskDialog {
+    private String repoID;
+    private String path;
+    private boolean isdir;
+    private SeafConnection conn;
+
+    public void init(String repoID, String path, boolean isdir, Account account) {
+        this.repoID = repoID;
+        this.path = path;

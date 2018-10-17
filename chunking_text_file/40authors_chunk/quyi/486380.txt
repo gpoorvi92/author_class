@@ -1,0 +1,10 @@
+
+      boolean this_present_usedPermissions = true && this.isSetUsedPermissions();
+      boolean that_present_usedPermissions = true && that.isSetUsedPermissions();
+      if (this_present_usedPermissions || that_present_usedPermissions) {
+        if (!(this_present_usedPermissions && that_present_usedPermissions))
+          return false;
+        if (!this.usedPermissions.equals(that.usedPermissions))
+          return false;
+      }
+

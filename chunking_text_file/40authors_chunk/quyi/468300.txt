@@ -1,0 +1,10 @@
+      if (!(this_present_pak && that_present_pak))
+        return false;
+      if (!this.pak.equals(that.pak))
+        return false;
+    }
+
+    boolean this_present_obj = true && this.isSetObj();
+    boolean that_present_obj = true && that.isSetObj();
+    if (this_present_obj || that_present_obj) {
+      if (!(this_present_obj && that_present_obj))

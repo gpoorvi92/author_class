@@ -1,0 +1,10 @@
+
+  @Override
+  public int compareTo(Sample other) {
+    if (!getClass().equals(other.getClass())) {
+      return getClass().getName().compareTo(other.getClass().getName());
+    }
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetMissionId()).compareTo(other.isSetMissionId());

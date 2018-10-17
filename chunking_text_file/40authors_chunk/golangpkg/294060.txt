@@ -1,0 +1,10 @@
+							@Override
+							public void run() {
+								
+								if (log.isTraceEnabled()) {
+									log.trace("{propagating `" + method.getName() + "` with args `"+Joiner.on(',').join(args)+"` to `" + list.size() + "` elements}");
+								}
+								
+								for (T o : list) {
+									try {
+										method.invoke(o, args);

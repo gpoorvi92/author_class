@@ -1,0 +1,10 @@
+			}
+			
+			result = message == null ? false : true;
+		} catch (JMSException e) {
+			
+			throw new MQException("Fail to receive message!", e);
+		}
+		
+		if (result)
+			mSource.fireMessageEvent(message);

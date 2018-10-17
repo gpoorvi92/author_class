@@ -1,0 +1,10 @@
+  {
+    Vector3D result = Vector3D.getFromCoordinates(
+        v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
+     return result;
+  }
+
+    /** returns a vector with average component values from the ones in the parameter array
+     */
+  public static Vector3D getAverage(Vector3D[] vectors)
+  {

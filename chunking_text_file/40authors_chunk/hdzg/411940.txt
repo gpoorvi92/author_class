@@ -1,0 +1,10 @@
+import android.view.View;
+
+public class YiZhanDrawable extends MyMeetableDrawable implements Serializable{
+	int cost = 1000;//在驿站休息的花费
+	String [] dialogMessage = {
+			"大军行走了一天了，正好有家驿站，是否在此休息休息，恢复体力？预计消耗金钱1000。",
+			"什么？哪有驿站收费这么高的？算了，我们囊中羞涩，还是去树林里打个盹吧。"
+	};
+	Hero tempHero;//临时记录英雄
+	int status;//状态，0：显示是否休息的选择对话框，1：显示不能休息的提示对话框

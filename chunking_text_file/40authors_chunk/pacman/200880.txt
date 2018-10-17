@@ -1,0 +1,10 @@
+        	};
+        }.start();
+        */
+        result = process.waitFor() == SUCCESS;
+        /*
+        if (outList != null) {
+        	
+	        if (result) //execute successfully!
+	        	outList.addAll(output);
+	        else

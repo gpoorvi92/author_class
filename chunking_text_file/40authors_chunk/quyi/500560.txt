@@ -1,0 +1,10 @@
+      if (this.cpuUsedPerc != that.cpuUsedPerc)
+        return false;
+    }
+
+    boolean this_present_freeMem = true;
+    boolean that_present_freeMem = true;
+    if (this_present_freeMem || that_present_freeMem) {
+      if (!(this_present_freeMem && that_present_freeMem))
+        return false;
+      if (this.freeMem != that.freeMem)

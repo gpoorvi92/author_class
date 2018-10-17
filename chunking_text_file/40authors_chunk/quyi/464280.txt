@@ -1,0 +1,10 @@
+
+      sb.append("rules:");
+      if (this.rules == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.rules);
+      }
+      first = false;
+      sb.append(")");
+      return sb.toString();

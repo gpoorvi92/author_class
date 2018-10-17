@@ -1,0 +1,10 @@
+  insign(17),
+  inaway(18),
+  inbad(19),
+  insignerr(20);
+
+  private final int value;
+
+  private AppStatus(int value) {
+    this.value = value;
+  }

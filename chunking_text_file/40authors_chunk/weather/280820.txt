@@ -1,0 +1,10 @@
+                if (curTimeGroup.isEntityInTimeGroup(LocationTimeGroup.getDateByExifInterface(exifInterface))){
+                    entity.headerId = curHeaderId;
+                }
+                else{
+                    LocationTimeGroup  timeGroup = new LocationTimeGroup(exifInterface);
+                    curTimeGroup = timeGroup;
+                    entity.headerId = entity.getDateTake();
+                    curHeaderId = entity.getDateTake();
+                }
+            } catch (IOException e) {

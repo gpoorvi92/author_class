@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 15, 2014
+ Problem:    Fraction to Recurring Decimal
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/fraction-to-recurring-decimal/
+ Notes:
+ Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.
+
+ If the fractional part is repeating, enclose the repeating part in parentheses.

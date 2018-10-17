@@ -1,0 +1,10 @@
+
+		// 创建文本框
+		final TextField tf = new TextField(20);
+		// 创建按钮
+		Button bu = new Button("写到文本文件");
+		Button bu2 = new Button("读取文本文件");
+		// 创建文本域
+		final TextArea ta = new TextArea(10, 40);
+
+		// 添加到窗体

@@ -1,0 +1,10 @@
+    public XmlStreamWriter(OutputStream out, String defaultEncoding)
+    {
+        xmlPrologWriter = new StringWriter(4096);
+        this.out = out;
+        this.defaultEncoding = defaultEncoding == null ? "UTF-8" : defaultEncoding;
+    }
+
+    public XmlStreamWriter(File file)
+        throws FileNotFoundException
+    {

@@ -1,0 +1,10 @@
+
+class IfDemo5 {
+	public static void main(String[] args) {
+		//创建键盘录入对象
+		Scanner sc = new Scanner(System.in);
+
+		//键盘录入学生成绩
+		System.out.println("请输入成绩：");
+		int score = sc.nextInt();
+

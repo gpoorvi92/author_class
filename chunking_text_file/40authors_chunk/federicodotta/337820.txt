@@ -1,0 +1,10 @@
+     */
+    static final byte INS_PARAM_AMF = 0x07;
+    /**
+     * Used to indicate where the payload is inserted into the value of an HTTP
+     * request header.
+     */
+    static final byte INS_HEADER = 0x20;
+    /**
+     * Used to indicate where the payload is inserted into a URL path folder.
+     */

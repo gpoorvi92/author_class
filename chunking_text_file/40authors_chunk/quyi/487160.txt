@@ -1,0 +1,10 @@
+        }
+        if (struct.usedPermissions != null) {
+          oprot.writeFieldBegin(USED_PERMISSIONS_FIELD_DESC);
+          {
+            oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.MAP, struct.usedPermissions.size()));
+            for (Map<String,com.nercis.isscp.idl.APICheck> _iter54 : struct.usedPermissions)
+            {
+              {
+                oprot.writeMapBegin(new org.apache.thrift.protocol.TMap(org.apache.thrift.protocol.TType.STRING, org.apache.thrift.protocol.TType.STRUCT, _iter54.size()));
+                for (Map.Entry<String, com.nercis.isscp.idl.APICheck> _iter55 : _iter54.entrySet())

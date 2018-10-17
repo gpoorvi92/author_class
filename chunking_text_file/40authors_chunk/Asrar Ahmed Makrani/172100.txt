@@ -1,0 +1,10 @@
+			statement = con.createStatement();
+			
+		} catch (ClassNotFoundException cnfex) {
+			System.err.println("Failed to load JDBC/ODBC driver.");
+			cnfex.printStackTrace();
+			System.exit(1);
+		} catch (SQLException sqlex) {
+			System.err.println("Unable to connect");
+			sqlex.printStackTrace();
+		}

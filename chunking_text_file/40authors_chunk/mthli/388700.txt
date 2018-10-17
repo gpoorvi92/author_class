@@ -1,0 +1,9 @@
+         tr.connect(null, password);
+         tr.sendMessage(message, message.getAllRecipients());
+      }
+      finally
+      {
+         tr.close();
+      }
+   }
+}

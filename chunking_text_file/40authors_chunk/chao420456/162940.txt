@@ -1,0 +1,10 @@
+
+		// try {
+		// Thread.sleep(1000);
+		// } catch (InterruptedException e) {
+		// e.printStackTrace();
+		// }
+
+		long time = System.currentTimeMillis(); // 获取当前时间的毫秒值
+		Date d2 = new Date(time);// 把毫秒值转换为日期表示
+		System.out.println("d2:" + d2);

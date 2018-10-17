@@ -1,0 +1,10 @@
+    case PLOTS_STATUS:
+      if (value == null) {
+        unsetPlotsStatus();
+      } else {
+        setPlotsStatus((Map<PlotsType,CheckResultStatus>)value);
+      }
+      break;
+
+    case FUNCTION_STATUS:
+      if (value == null) {

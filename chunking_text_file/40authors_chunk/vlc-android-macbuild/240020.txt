@@ -1,0 +1,10 @@
+    }
+
+    public static final Segment.Creator<Segment> CREATOR = new Parcelable.Creator<Segment>() {
+        public Segment createFromParcel(Parcel in) {
+            return new Segment(in);
+        }
+
+        public Segment[] newArray(int size) {
+            return new Segment[size];
+        }

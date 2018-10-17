@@ -1,0 +1,10 @@
+      this.missionId = missionId;
+      this.userAppId = userAppId;
+      this.plotsStatus = plotsStatus;
+      this.functionStatus = functionStatus;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public updateUserAppStatus_args(updateUserAppStatus_args other) {

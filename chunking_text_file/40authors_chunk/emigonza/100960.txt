@@ -1,0 +1,10 @@
+	 */
+	public boolean equals( Object propValue )
+	{
+		if( propValue == null ) return false;
+
+		if( !( propValue instanceof PropValue ) ) return false;
+
+		return value.equals( ( (PropValue)propValue ).getValue() );
+	}
+

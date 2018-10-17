@@ -1,0 +1,10 @@
+
+    /**
+     * This method is used to update the search expression that is shown in the
+     * search bar below the editor. The editor will automatically highlight any
+     * regions of the displayed text that match the search expression.
+     *
+     * @param expression The search expression.
+     */
+    void setSearchExpression(String expression);
+}

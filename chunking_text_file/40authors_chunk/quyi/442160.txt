@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetDataChar()).compareTo(other.isSetDataChar());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetDataChar()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.dataChar, other.dataChar);

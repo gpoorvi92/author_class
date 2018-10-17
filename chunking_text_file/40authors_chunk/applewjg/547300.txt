@@ -1,0 +1,10 @@
+            total = total / n;
+            int idx = k / total;
+            res.append(sb.charAt(idx));
+            k = k % total;
+            sb.deleteCharAt(idx);
+            n--;
+        }
+        return res.toString();
+    }
+}

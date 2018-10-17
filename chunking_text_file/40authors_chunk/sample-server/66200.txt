@@ -1,0 +1,10 @@
+    /**
+     * 当请求队列长度超出数值 会输出一条警告
+     */
+    private static final int                                                    QUEUE_SIZE_WARN_THRESHOLD = 50;
+    private static final LinkedBlockingQueue<RpcPacketHandler.RpcPacketWrapper> rpcRequestQueue           = new LinkedBlockingQueue<>();
+    /**
+     * 请求处理器消费请求
+     * @return 处理器需要判断返回是否为null，为null忽略
+     * @throws InterruptedException
+     */

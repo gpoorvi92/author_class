@@ -1,0 +1,10 @@
+				recoverGame();
+			}			
+		}
+		return true;
+	}
+	//方法：返还监听器，回复游戏状态
+	public void recoverGame(){
+		tempHero.father.setOnTouchListener(tempHero.father);//返还监听器
+		tempHero.father.setCurrentDrawable(null);//置空记录引用的变量
+		tempHero.father.setStatus(0);//重新设置GameView为待命状态

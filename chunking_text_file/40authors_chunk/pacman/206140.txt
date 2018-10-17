@@ -1,0 +1,10 @@
+		if (!FileHelper.exists(audioSrc)) {
+			throw new InvalidMediaParameterException("Audio doesn't exist![" + audioSrc + "]");
+		}
+		
+		ShellCommand cmd = ShellCommand.create(FFMPEG_TOOL);
+		
+		/*cmd.add("-i", audioSrc)
+		   .add("-y")
+		   .add("-xerror")
+		   .add("-vn")

@@ -1,0 +1,10 @@
+		if (colorString != null) {
+			secondary2 = parseColor (colorString.toString());
+		}
+
+		colorString = prop.get ("secondary3");
+		if (colorString != null) {
+			secondary3 = parseColor (colorString.toString());
+		}
+
+		colorString = prop.get ("black");

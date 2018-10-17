@@ -1,0 +1,10 @@
+ * java aes.AESTest -decrypt encrypted decrypted keyfile<br>
+ * @author Cay Horstmann
+ * @version 1.01 2012-06-10
+ */
+public class AESTest
+{
+   public static void main(String[] args) 
+      throws IOException, GeneralSecurityException, ClassNotFoundException
+   {
+      if (args[0].equals("-genkey"))

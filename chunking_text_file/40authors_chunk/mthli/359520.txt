@@ -1,0 +1,10 @@
+               frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * The frame with ball component and buttons.
+ */

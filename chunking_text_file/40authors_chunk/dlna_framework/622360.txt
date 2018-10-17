@@ -1,0 +1,10 @@
+
+	public String getDeliveryURL() {
+		return deliveryURL;
+	}
+
+	public void setDeliveryURL(String deliveryURL) {
+		this.deliveryURL = deliveryURL;
+		try {
+			URL url = new URL(deliveryURL);
+			deliveryHost = url.getHost();

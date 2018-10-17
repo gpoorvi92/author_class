@@ -1,0 +1,10 @@
+   public int getPageCount(Graphics2D g2, PageFormat pf)
+   {
+      if (message.equals("")) return 0;
+      FontRenderContext context = g2.getFontRenderContext();
+      Font f = new Font("Serif", Font.PLAIN, 72);
+      Rectangle2D bounds = f.getStringBounds(message, context);
+      scale = pf.getImageableHeight() / bounds.getHeight();
+      double width = scale * bounds.getWidth();
+      int pages = (int) Math.ceil(width / pf.getImageableWidth());
+      return pages;

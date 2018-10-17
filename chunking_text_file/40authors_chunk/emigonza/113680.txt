@@ -1,0 +1,10 @@
+        makeEvent("OutputComplete"),
+        makeEvent("StatusUpdate")
+      };
+
+      return events;
+    }
+    catch(Exception e)
+    {
+      return super.getEventSetDescriptors();
+    }

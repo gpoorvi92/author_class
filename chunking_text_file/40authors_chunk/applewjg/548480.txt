@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Oct 26, 2014
+ Problem:    Regular Expression Matching
+ Difficulty: Hard
+ Source:     https://oj.leetcode.com/problems/regular-expression-matching/
+ Notes:
+ Implement regular expression matching with support for '.' and '*'.
+ '.' Matches any single character.
+ '*' Matches zero or more of the preceding element.

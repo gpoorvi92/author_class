@@ -1,0 +1,10 @@
+{
+   private JPanel panel;
+   private JTextField redField;
+   private JTextField greenField;
+   private JTextField blueField;
+
+   public ColorFrame()
+   {
+      DocumentListener listener = new DocumentListener()
+         {

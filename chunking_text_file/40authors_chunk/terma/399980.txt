@@ -1,0 +1,10 @@
+        expectedException.expectMessage("Invalid integer test1.remotePort = X");
+        properties.setProperty("test1.remotePort", "X");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test
+    public void shouldFailWhenContainsPropertyInInvalidFormat() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage(

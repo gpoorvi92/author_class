@@ -1,0 +1,10 @@
+
+      ActionListener listener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               setSample();
+            }
+         };
+
+      face.addActionListener(listener);

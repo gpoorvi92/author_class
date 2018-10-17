@@ -1,0 +1,10 @@
+    public void onSeekComplete(MediaPlayer mp) {
+        if (mOnSeekCompleteListener != null) {
+            mOnSeekCompleteListener.onSeekComplete(this);
+        }
+    }
+
+    @Override
+    public void onVideoSizeChanged(MediaPlayer mp, int width, int height) {
+        if (mOnVideoSizeChangedListener != null) {
+            mOnVideoSizeChangedListener.onVideoSizeChanged(this, width, height);

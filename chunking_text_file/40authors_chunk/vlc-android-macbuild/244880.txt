@@ -1,0 +1,7 @@
+        args.putInt(String.format(BUNDLE_FMT1_DURATION, order), duration);
+    }
+
+    public static void putBytes(Bundle args, int order, long bytes) {
+        args.putLong(String.format(BUNDLE_FMT1_BYTES, order), bytes);
+    }
+}

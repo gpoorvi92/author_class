@@ -1,0 +1,10 @@
+            this.oneBits += number
+                    * EWAHCompressedBitmap32.WORD_IN_BITS;
+        }
+    }
+
+    /**
+     * virtually add several negated literal words.
+     *
+     * @param buffer the buffer wrapping the literal words
+     * @param start  the starting point in the array

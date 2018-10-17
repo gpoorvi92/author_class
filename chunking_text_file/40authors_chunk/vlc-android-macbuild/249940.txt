@@ -1,0 +1,10 @@
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // TOOD: init seek not supported by stagefright yet
+        /*
+         * mItemPlayer.seekTo(msec);
+         */

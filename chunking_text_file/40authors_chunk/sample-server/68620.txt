@@ -1,0 +1,10 @@
+        return dbUsername;
+    }
+    public void setDbUsername(String dbUsername)
+    {
+        this.dbUsername = dbUsername;
+    }
+    public String getDbPasswd()
+    {
+        return dbPasswd;
+    }

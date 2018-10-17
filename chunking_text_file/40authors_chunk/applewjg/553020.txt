@@ -1,0 +1,10 @@
+        for (int i = 0; i < 32; ++i) {
+            int one = 0, zero = 0;
+            for (int j = 0; j < n; ++j) {
+                if (((num[j]>>i) & 1) == 1) ++one;
+                else ++zero;
+            }
+            if (one > zero) res = res | (1<<i);
+        }
+        return res;
+    }

@@ -1,0 +1,10 @@
+	public void shutdown(long timeout, TimeUnit unit) {
+		Pipe<?, ?> pipe;
+
+		while (null != (pipe = pipes.poll())) {
+			pipe.shutdown(timeout, unit);
+		}
+
+		helperExecutor.shutdown();
+
+	}

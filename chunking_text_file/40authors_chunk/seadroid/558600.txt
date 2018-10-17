@@ -1,0 +1,10 @@
+                // List photos inside each directory with the photo filter
+                final File[] photoFiles = dir.listFiles(PHOTO_FILTER);
+                if (photoFiles != null) {
+                    // Add each file to the File list for the list adapter
+                    for (File file : photoFiles) {
+                        list.add(file);
+                    }
+                }
+            }
+        }

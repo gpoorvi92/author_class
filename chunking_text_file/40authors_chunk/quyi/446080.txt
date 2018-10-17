@@ -1,0 +1,10 @@
+    }
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetMonitorTime()).compareTo(other.isSetMonitorTime());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetMonitorTime()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.monitorTime, other.monitorTime);

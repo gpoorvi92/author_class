@@ -1,0 +1,10 @@
+
+  public InvalidRequestException(
+    String why)
+  {
+    this();
+    this.why = why;
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.

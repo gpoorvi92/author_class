@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 创建集合对象
+		HashMap<String, HashMap<String, Integer>> xaxq = new HashMap<String, HashMap<String, Integer>>();
+
+		// 基础班数据
+		HashMap<String, Integer> jc = new HashMap<String, Integer>();
+		jc.put("风清扬", 31);
+		jc.put("沙诗博", 18);
+		// 把数据添加到集合
+		xaxq.put("基础班", jc);

@@ -1,0 +1,10 @@
+	public byte[] packetBytes = null;
+	
+	public byte[] getData()
+	{
+		if (packetBytes != null)
+			return packetBytes;
+		
+		DatagramPacket packet = getDatagramPacket();
+		int packetLen = packet.getLength();
+		String packetData = new String(packet.getData(), 0, packetLen);

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void finalize() {
+        mPool.returnBuf(buf);
+    }
+
+    /**
+     * Ensures there is enough space in the buffer for the given number of additional bytes.
+     */

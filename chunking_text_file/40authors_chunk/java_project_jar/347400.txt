@@ -1,0 +1,10 @@
+        {
+            names = (new String[] {
+                name
+            });
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public NameFileFilter(String names[])

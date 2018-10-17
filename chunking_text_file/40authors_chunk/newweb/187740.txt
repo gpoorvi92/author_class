@@ -1,0 +1,9 @@
+			Small small = (Small) super.clone();
+			small.supplier = (Supplier) supplier.clone();
+			return small;
+		} catch (Exception e) {
+			return null;
+		}
+	}
+	
+}

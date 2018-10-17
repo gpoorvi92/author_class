@@ -1,0 +1,10 @@
+	public void beginDownload(){
+		if (this.isDownloading()){
+			System.out.println("FileDownloader is already downloading a file.");
+			return;
+		}
+		if (urlName != null) {
+			this.setDownloadWorker(new DownloaderWorker(this));
+			this.getDownloadWorker().setUrlName(this.urlName);
+			this.getDownloadWorker().start();
+            if (this.delegate != null)

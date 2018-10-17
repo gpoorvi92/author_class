@@ -1,0 +1,10 @@
+        setOsDesc((String)value);
+      }
+      break;
+
+    case OS_VERSION:
+      if (value == null) {
+        unsetOsVersion();
+      } else {
+        setOsVersion((String)value);
+      }

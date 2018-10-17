@@ -1,0 +1,10 @@
+   }
+
+   public void run()
+   {
+      try
+      {
+         enumerate(startingDirectory);
+         queue.put(DUMMY);
+      }
+      catch (InterruptedException e)

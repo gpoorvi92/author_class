@@ -1,0 +1,10 @@
+        boolean flag;
+        fileBytes = new byte[magicNumbers.length];
+        randomAccessFile = new RandomAccessFile(file, "r");
+        randomAccessFile.seek(byteOffset);
+        int read = randomAccessFile.read(fileBytes);
+        if(read == magicNumbers.length)
+            break MISSING_BLOCK_LABEL_74;
+        flag = false;
+        IOUtils.closeQuietly(randomAccessFile);
+        return flag;

@@ -1,0 +1,10 @@
+        ViewGroup decor = (ViewGroup) this.getWindow().getDecorView();
+        ViewGroup decorChild = (ViewGroup) decor.getChildAt(0);
+        decorChild.setBackgroundResource(background);
+        decor.removeView(decorChild);
+        mContentLayout.addView(decorChild);
+        decor.addView(mSlidingPaneLayout);
+        mIsAttached = true;
+    }
+
+    @Override

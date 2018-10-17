@@ -1,0 +1,10 @@
+    }
+
+    public static CpuInfo parseCpuInfo() {
+        if (sInstance != null)
+            return sInstance;
+
+        FileInputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream("/proc/cpuinfo");
+        } catch (FileNotFoundException e) {

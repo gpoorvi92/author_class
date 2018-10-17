@@ -1,0 +1,10 @@
+       serviceList.put("Visual Music Service", new MiniMusicService());   
+   }
+
+    public Object[] getServiceList() {
+       System.out.println("in remote");
+       return serviceList.keySet().toArray();
+        
+    }
+
+    public Service getService(Object serviceKey) throws RemoteException {        

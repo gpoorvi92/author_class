@@ -1,0 +1,10 @@
+	/**
+	 * 设置用户ID。
+	 * @param userId
+	 * 用户ID。
+	 */
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	/**
+	 * 获取菜单代码。

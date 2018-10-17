@@ -1,0 +1,9 @@
+        // dialog.setTitle(str + " " + Utils.fileNameFromPath(path));
+    }
+
+    @Override
+    protected DeleteTask prepareTask() {
+        DeleteTask task = new DeleteTask(repoID, path, isdir, getDataManager());
+        return task;
+    }
+}

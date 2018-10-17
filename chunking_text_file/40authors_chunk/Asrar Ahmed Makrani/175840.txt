@@ -1,0 +1,10 @@
+				}
+            	
+            	patron_no_text.setEditable(true);
+            	dump.setText("");
+            	
+            }
+        });
+
+        toolBar.add(button);
+        

@@ -1,0 +1,10 @@
+
+import java.util.Arrays;
+
+/**
+ * Created by qihigh on 7/4/14.
+ * Modified by ____.
+ * 每日天气的provider
+ */
+public class DailyProvider extends DataProvider {
+

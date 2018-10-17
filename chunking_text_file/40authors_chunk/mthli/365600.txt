@@ -1,0 +1,10 @@
+   public TransferRunnable(Bank b, int from, double max)
+   {
+      bank = b;
+      fromAccount = from;
+      maxAmount = max;
+   }
+
+   public void run()
+   {
+      try

@@ -1,0 +1,10 @@
+				chromosomes.get(i).setBit(j, Math.random() < 0.5);
+			}
+		}
+		sort();
+		// define the roulette wheel:
+		rouletteWheelSize = 0;
+		for (int i = 0; i < numGenesPerChromosome; i++) {
+			rouletteWheelSize += i + 1;
+		}
+		System.out.println("count of slots in roulette wheel="

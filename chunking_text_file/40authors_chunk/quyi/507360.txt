@@ -1,0 +1,10 @@
+    this.detectResult = null;
+  }
+
+  public String getMissionId() {
+    return this.missionId;
+  }
+
+  public AppDetectResult setMissionId(String missionId) {
+    this.missionId = missionId;
+    return this;

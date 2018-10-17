@@ -1,0 +1,10 @@
+    private List<Avatar> avatars;
+    private AccountManager accountMgr;
+
+    public AvatarManager() {
+        this.avatars = Lists.newArrayList();
+        this.accountMgr = new AccountManager(SeadroidApplication.getAppContext());
+    }
+
+    /**
+     * get accounts who don`t have avatars yet

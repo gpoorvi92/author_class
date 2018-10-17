@@ -1,0 +1,10 @@
+      addRadioButton("Medium", 12);
+      addRadioButton("Large", 18);
+      addRadioButton("Extra large", 36);
+
+      add(buttonPanel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Adds a radio button that sets the font size of the sample text.

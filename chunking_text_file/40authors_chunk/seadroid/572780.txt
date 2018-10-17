@@ -1,0 +1,10 @@
+            cert = (X509Certificate) ois.readObject();
+            return cert;
+        } catch (ClassNotFoundException e) {
+            return null;
+        } catch (IOException e) {
+            return null;
+        } finally {
+            if (bis != null) {
+                try {
+                    bis.close();

@@ -1,0 +1,8 @@
+   {
+      if (lastCommand.equals("+")) result += x;
+      else if (lastCommand.equals("-")) result -= x;
+      else if (lastCommand.equals("*")) result *= x;
+      else if (lastCommand.equals("/")) result /= x;
+      else if (lastCommand.equals("=")) result = x;
+   }  
+}

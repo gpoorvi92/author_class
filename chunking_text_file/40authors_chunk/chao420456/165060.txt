@@ -1,0 +1,10 @@
+
+		
+		//两个方法
+		/*
+		new Inter() {
+			public void show() {
+				System.out.println("show");
+			}
+
+			public void show2() {

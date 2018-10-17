@@ -1,0 +1,6 @@
+                ", logType='" + logType + '\'' +
+                ", operationName='" + operationName + '\'' +
+                ", operation_type='" + operation_type + '\'' +
+                '}';
+    }
+}

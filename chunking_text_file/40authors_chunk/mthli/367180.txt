@@ -1,0 +1,10 @@
+/**
+ * This class prints a cover page with a title.
+ */
+class CoverPage implements Printable
+{
+   private String title;
+
+   /**
+    * Constructs a cover page.
+    * @param t the title

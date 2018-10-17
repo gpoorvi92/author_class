@@ -1,0 +1,10 @@
+     * 对字符串进行解码
+     *
+     * @param str 需要处理的字符串
+     * @param encoding 解码方式
+     * @return 解码后的字符串
+     */
+    public static String unescape(String str,String encoding){
+        if(StringUtil.isEmpty(str)){
+            return "";
+        }

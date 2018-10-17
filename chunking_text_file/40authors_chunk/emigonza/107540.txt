@@ -1,0 +1,10 @@
+     */
+    public void saveToFile( File file ) throws Exception;
+
+    /**
+     * Loads the JposEntryRegistry using the current populator
+     * NOTE: if no entries are found or an error occurs then the registry is empty
+     * @since 1.2 (NY 2K meeting)
+     */
+    public void load();
+

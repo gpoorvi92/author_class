@@ -1,0 +1,10 @@
+    public String toString() {
+      StringBuilder sb = new StringBuilder("operateEngine_args(");
+      boolean first = true;
+
+      sb.append("engine:");
+      if (this.engine == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.engine);
+      }

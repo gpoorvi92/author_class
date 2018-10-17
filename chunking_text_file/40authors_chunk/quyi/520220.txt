@@ -1,0 +1,10 @@
+    }
+
+    public void setPropertyNameIsSet(boolean value) {
+      if (!value) {
+        this.propertyName = null;
+      }
+    }
+
+    public String getPropertyValue() {
+      return this.propertyValue;

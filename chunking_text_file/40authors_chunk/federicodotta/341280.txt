@@ -1,0 +1,10 @@
+     */
+    static final byte CONTEXT_MESSAGE_VIEWER_RESPONSE = 3;
+    /**
+     * Used to indicate that the context menu is being invoked in the Target
+     * site map tree.
+     */
+    static final byte CONTEXT_TARGET_SITE_MAP_TREE = 4;
+    /**
+     * Used to indicate that the context menu is being invoked in the Target
+     * site map table.

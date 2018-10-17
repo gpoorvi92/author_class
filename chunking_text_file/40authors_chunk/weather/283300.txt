@@ -1,0 +1,7 @@
+    return mediaType;
+  }
+
+  @Override public void writeTo(BufferedSink sink) throws IOException {
+    entity.writeTo(sink.outputStream());
+  }
+}

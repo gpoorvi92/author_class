@@ -1,0 +1,10 @@
+		catch (Exception sqlEx) { }
+
+		table = makeTable ();			//Creating Table.
+		scroller = new JScrollPane (table);	//Adding Table to ScrollPane.
+		scroller.setBounds (20, 20, 460, 200);	//Aligning ScrollPane.
+
+		//Adding All the Controls in Panel.
+
+		pBook.add (scroller);
+

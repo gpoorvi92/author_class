@@ -1,0 +1,10 @@
+import android.view.MotionEvent;			//引入相关类
+import android.view.View;					//引入相关类
+
+public class PlainAlert extends GameAlert{
+	String alertMessage;//要显示的消息,需要设置才行
+	//构造器
+	public PlainAlert(GameView gameView,String alertMessage,Bitmap bmpDialogBack,Bitmap bmpDialogButton){
+		super(gameView,bmpDialogBack, bmpDialogButton);
+		this.alertMessage = alertMessage;
+	}

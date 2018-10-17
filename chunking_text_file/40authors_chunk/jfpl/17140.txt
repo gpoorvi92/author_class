@@ -1,0 +1,10 @@
+			Date serverDate = null;
+			try {
+				serverDate = DateUtil.parseDate(head
+						.getStringValue("server_time"));
+			} catch (Exception ex) {
+			}
+			int defaultType = 0;
+			recentlyAppId = backAcd.getStringValue("busi_type");
+			if ("1".equals(msgType)) {
+				String chatMsg = backAcd.getStringValue("message_text");

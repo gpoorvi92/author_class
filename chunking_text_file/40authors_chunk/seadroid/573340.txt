@@ -1,0 +1,10 @@
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        SearchedFile item = items.get(position);
+        View view = convertView;
+        Viewholder viewHolder;
+
+        if (convertView == null) {
+            view = LayoutInflater.from(mActivity).inflate(R.layout.search_list_item, null);
+            TextView path = (TextView) view.findViewById(R.id.search_item_path);
+            TextView title = (TextView) view.findViewById(R.id.search_item_title);

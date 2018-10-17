@@ -1,0 +1,10 @@
+    boolean entered_rotate_0;
+
+    public void rotate( com.apple.eawt.event.RotationEvent arg0 ) {
+        if ( !entered_rotate_0 ) {
+            entered_rotate_0 = true;
+            __rotate( arg0 );
+            entered_rotate_0 = false;
+        }
+        else
+            super.rotate( arg0 );

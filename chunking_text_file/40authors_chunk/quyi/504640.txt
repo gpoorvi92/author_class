@@ -1,0 +1,10 @@
+
+    boolean this_present_taskInfo = true && this.isSetTaskInfo();
+    boolean that_present_taskInfo = true && that.isSetTaskInfo();
+    if (this_present_taskInfo || that_present_taskInfo) {
+      if (!(this_present_taskInfo && that_present_taskInfo))
+        return false;
+      if (!this.taskInfo.equals(that.taskInfo))
+        return false;
+    }
+

@@ -1,0 +1,10 @@
+					voiceImage
+							.setImageResource(R.drawable.bottle_receiver_voice_node_playing003);
+				}
+				flag++;
+				if (flag > 2) {
+					flag = 0;
+				}
+				handler.postDelayed(playVoice, 500);
+			}
+		}

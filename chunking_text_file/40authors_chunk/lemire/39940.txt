@@ -1,0 +1,10 @@
+        for(int i = 0; i < this.actualSizeInWords - position - length; ++i) {
+            setWord(position + i, getWord(position + length + i));
+        }
+        for(int i = 0; i < length; ++i) {
+            removeLastWord();
+        }
+    }
+
+    @Override
+    public IntBufferWrapper clone() throws CloneNotSupportedException {

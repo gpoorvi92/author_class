@@ -1,0 +1,10 @@
+
+    /**
+     * Singleton constructor
+     */
+    private UnicodeDetector() {
+        super();
+    }
+
+    public static ICodepageDetector getInstance() {
+        if (instance == null) {

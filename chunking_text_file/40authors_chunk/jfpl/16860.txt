@@ -1,0 +1,10 @@
+	public static final String VIO_SERVER_URL = "http://192.168.1.131:8084/jtgzfw/ClientServlet";
+
+	public static final String CHAT_BIND_INFO_URL = SERVER_URL
+			+ "/platform/user/login";
+
+	public static final String BIND_VEH_URL = SERVER_URL
+			+ "/platform/jtgzfw/bind";
+
+	public static final String UNBIND_VEH_URL = SERVER_URL
+			+ "/platform/jtgzfw/unbind";

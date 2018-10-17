@@ -1,0 +1,10 @@
+		if(FileUtils.isFileExistingOnExternalStorage(this, SAMPLE_MOD_DIRECTORY + SAMPLE_MOD_FILENAME)) {
+			this.startPlayingMod();
+		} else {
+			ModPlayerExample.this.runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					ModPlayerExample.this.doAsync(R.string.dialog_modplayerexample_loading_to_external_title, R.string.dialog_modplayerexample_loading_to_external_message, new Callable<Void>() {
+						@Override
+						public Void call() throws Exception {
+							FileUtils.ensureDirectoriesExistOnExternalStorage(ModPlayerExample.this, SAMPLE_MOD_DIRECTORY);

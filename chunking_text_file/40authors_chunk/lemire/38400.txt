@@ -1,0 +1,7 @@
+		ByteBuffer bb = memoryMappedFile.getChannel().map(
+				FileChannel.MapMode.READ_ONLY, 0, totalcount);
+		EWAHCompressedBitmap32 mapped = new EWAHCompressedBitmap32(bb);
+		memoryMappedFile.close();
+		Assert.assertEquals(mapped, ewahBitmap);
+	}
+}

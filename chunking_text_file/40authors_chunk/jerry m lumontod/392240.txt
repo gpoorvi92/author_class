@@ -1,0 +1,10 @@
+		
+		if (toObj instanceof SelData) {
+			SelData moData = (SelData)toObj;
+			mdbl = moData.GetItemCode();
+		}
+		return mdbl;
+	}
+
+	public void retrieveData(String tstrSQL) {
+

@@ -1,0 +1,10 @@
+		//Registering the KeyListener to Restrict user to type only Numeric in Numeric Boxes.
+
+		txtBookId.addKeyListener (new KeyAdapter () {
+			public void keyTyped (KeyEvent ke) {
+				char c = ke.getKeyChar ();
+				if (! ((Character.isDigit (c)) || (c == KeyEvent.VK_BACK_SPACE))) {
+					getToolkit().beep ();
+					ke.consume ();
+				}
+			}

@@ -1,0 +1,10 @@
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);
+			}
+		});
+
+		// 对bu添加事件
+		bu.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {

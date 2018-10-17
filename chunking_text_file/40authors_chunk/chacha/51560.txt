@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return r;
+	}
+
+	public LoginResponse logout(TokenLogout request) throws ChachaException {
+		LoginResponse r=new LoginResponse();

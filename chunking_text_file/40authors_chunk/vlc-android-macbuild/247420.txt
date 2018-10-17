@@ -1,0 +1,10 @@
+                threadPolicyBuilder = threadPolicyBuilder.penaltyLog();
+            break;
+        case FlashScreen:
+            if (BuildHelper.isApi11_HoneyCombOrLater())
+                threadPolicyBuilder = threadPolicyBuilder.penaltyFlashScreen();
+            else
+                threadPolicyBuilder = threadPolicyBuilder.penaltyLog();
+            break;
+        }
+        StrictMode.setThreadPolicy(threadPolicyBuilder.build());

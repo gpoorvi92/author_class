@@ -1,0 +1,10 @@
+		}
+	}
+
+	/**
+	 * @return the width
+	 */
+	public int getWidth() {
+
+		if (gJNILoaded) {
+			return nativeGetWidth();

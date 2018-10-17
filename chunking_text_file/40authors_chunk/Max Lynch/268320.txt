@@ -1,0 +1,10 @@
+       	//g.draw(new Rectangle2D.Double(model.getLocX()-getX(),model.getLocY()-getY(),model.getWidth(),model.getHeight()));
+
+		g.setColor(model.getColor());
+		
+		
+		g.draw(linePath);
+        	
+        g.setColor(old);
+        
+    }

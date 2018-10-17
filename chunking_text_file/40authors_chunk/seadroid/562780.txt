@@ -1,0 +1,10 @@
+        this.items = (ArrayList<Account>) items;
+        notifyDataSetChanged();
+        
+    }
+
+    public void setAvatars(ArrayList<Avatar> avatars) {
+        this.avatars = avatars;
+    }
+
+    @Override

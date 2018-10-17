@@ -1,0 +1,10 @@
+        makeProperty("CapUpdateFirmware"),
+
+        // Properties
+        makeProperty("AccountNumber"),
+        makeProperty("AdditionalSecurityInformation"),
+        makeProperty("Amount"),
+        makeProperty("AvailableLanguagesList"),
+        makeProperty("AvailablePromptsList"),
+        makeProperty("DataCount"),
+        makeProperty("DataEventEnabled"),

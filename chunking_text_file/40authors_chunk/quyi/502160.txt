@@ -1,0 +1,10 @@
+      case 116:
+        return SET_TIME_ZONE;
+      case 117:
+        return SET_WALLPAPER;
+      case 118:
+        return SET_WALLPAPER_HINTS;
+      case 119:
+        return SIGNAL_PERSISTENT_PROCESSES;
+      case 120:
+        return STATUS_BAR;

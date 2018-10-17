@@ -1,0 +1,10 @@
+        delete.setToolTipText("Delete");
+        delete.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            String a = journal_no_text.getText();
+            	String b =  journal_title_text.getText();
+            	String c =  issue_number_text.getText();
+            	String d =  class_text.getText();
+            	String h =  publisher_text.getText();
+            	String g =  year_text.getText();
+            	String i = pages_text.getText();

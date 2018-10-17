@@ -1,0 +1,10 @@
+	public List<Synset> getSynsets(String word) {
+		return Arrays.asList(database.getSynsets(word));
+	}
+
+	public static void main(String[] args) {
+		System.setProperty(PropertyNames.DATABASE_DIRECTORY, "/Users/markw/Documents/WORK/wordnet3/dict");
+		System.out.println(System.getProperty(PropertyNames.DATABASE_DIRECTORY, "."));
+		WordNetTest tester = new WordNetTest();
+		String word = "bank";
+		List<Synset> synset_list = tester.getSynsets(word);

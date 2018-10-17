@@ -1,0 +1,10 @@
+     * This method is used to control whether the editor is currently editable.
+     * This status can be toggled on and off as required.
+     *
+     * @param editable Indicates whether the editor should be currently
+     * editable.
+     */
+    void setEditable(boolean editable);
+
+    /**
+     * This method is used to update the currently displayed text in the editor.

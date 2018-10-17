@@ -1,0 +1,10 @@
+        ServiceSub service2 = new ServiceSub();
+
+        ThreadA a = new ThreadA(service1);
+        a.setName("A");
+        a.start();
+        ThreadB b = new ThreadB(service2);
+        b.setName("B");
+        b.start();
+    }
+

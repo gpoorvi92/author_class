@@ -1,0 +1,10 @@
+      struct.validate();
+    }
+
+    public void write(org.apache.thrift.protocol.TProtocol oprot, FileOperate struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.pidName != null) {
+        oprot.writeFieldBegin(PID_NAME_FIELD_DESC);
+        oprot.writeString(struct.pidName);

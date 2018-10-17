@@ -1,0 +1,10 @@
+    int cpuMhz,
+    int memSize,
+    int fsSize)
+  {
+    this();
+    this.cpuVendor = cpuVendor;
+    this.cpuModel = cpuModel;
+    this.cpuCores = cpuCores;
+    setCpuCoresIsSet(true);
+    this.cpuMhz = cpuMhz;

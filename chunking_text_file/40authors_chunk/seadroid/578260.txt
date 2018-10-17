@@ -1,0 +1,10 @@
+        if (list != null) {
+            for (SeafRepo seafRepo : list) {
+                if (seafRepo.id.equals(repoID)) {
+                    return true;
+                }
+            }
+        }
+
+        return  false;
+    }

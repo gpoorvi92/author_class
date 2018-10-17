@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		//多态
+		Animal a = new Dog();	//向上转型
+		a.eat();
+		//a.help(); //编译看左边
+
+		//向下转型
+		Dog d = (Dog)a;
+		d.eat();
+		d.help();

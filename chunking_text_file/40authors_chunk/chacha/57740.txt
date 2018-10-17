@@ -1,0 +1,10 @@
+		src.setPasswd("dddddddd");
+	}
+	
+	/**
+	 * json转换性能测试
+	 * @throws JsonGenerationException
+	 * @throws JsonMappingException
+	 * @throws IOException
+	 */
+	@Test

@@ -1,0 +1,10 @@
+
+	/**
+	 * @return the last exception (if any) during the last load or null if no exception occurred
+	 * @since 2.0.0
+	 */
+	public Exception getLastLoadException() { return regPopulator.getLastLoadException(); }
+
+    //--------------------------------------------------------------------------
+    // Instance variables
+    //

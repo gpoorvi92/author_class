@@ -1,0 +1,10 @@
+    public void setDateLimit(Date dateLimit)
+    {
+        this.dateLimit = dateLimit;
+    }
+    public void setGiftId(int giftId)
+    {
+        this.giftId = giftId;
+    }
+    public void setLegealCount(int legealCount)
+    {

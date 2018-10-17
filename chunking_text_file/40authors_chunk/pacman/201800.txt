@@ -1,0 +1,10 @@
+ * 
+ * @Class: IMQClient
+ * @author: zhangxinyu
+ * @date: 2014年12月17日 下午2:46:57
+ */
+public interface IMQSender {
+
+	/**
+	 * Sends the text format message.
+	 * 

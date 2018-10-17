@@ -1,0 +1,10 @@
+
+      int r = chooser.showSaveDialog(this);
+      if (r != JFileChooser.APPROVE_OPTION) return;
+      File f = chooser.getSelectedFile();
+      try
+      {
+         ImageOutputStream imageOut = ImageIO.createImageOutputStream(f);
+         writer.setOutput(imageOut);
+
+         writer.write(new IIOImage(images[0], null, null));

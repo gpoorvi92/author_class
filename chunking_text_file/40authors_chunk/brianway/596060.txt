@@ -1,0 +1,10 @@
+package com.brianway.learning.java.multithread.synchronize.example6;
+
+/**
+ * Created by Brian on 2016/4/12.
+ */
+
+/**
+ * P68
+ * 出现异常，锁自动释放
+ */

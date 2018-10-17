@@ -1,0 +1,10 @@
+ * @date: 2014年12月17日 下午2:48:31
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.jms;
+
+/**
+ * @Description: Message Queue Manager
+ * @Class: IClientFactory
+ * @author: zhangxinyu
+ * @date: 2014年12月17日 下午2:48:31

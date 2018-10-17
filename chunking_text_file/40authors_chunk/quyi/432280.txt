@@ -1,0 +1,10 @@
+                iprot.readListEnd();
+              }
+              struct.setApiCheckIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // REPORT_PATH
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.reportPath = iprot.readString();

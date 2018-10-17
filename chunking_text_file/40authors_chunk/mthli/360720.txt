@@ -1,0 +1,10 @@
+      {
+         KeyGenerator keygen = KeyGenerator.getInstance("AES");
+         SecureRandom random = new SecureRandom();
+         keygen.init(random);
+         SecretKey key = keygen.generateKey();
+         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(args[1])))
+         {
+            out.writeObject(key);
+         }
+      }

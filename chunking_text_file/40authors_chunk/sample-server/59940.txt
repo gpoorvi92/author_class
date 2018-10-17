@@ -1,0 +1,10 @@
+            }
+        } catch (Exception e)
+        {
+            //ignore
+        }
+    }
+    @Override
+    public void send(Rpc.RpcPacket packet)
+    {
+        connect();

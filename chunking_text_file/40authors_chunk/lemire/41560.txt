@@ -1,0 +1,10 @@
+    /**
+     * @param pos position where a zero word was added
+     */
+    public final void setZero(final int pos) {
+        if (this.b[pos]) {
+            this.b[pos] = false;
+            --this.hammingWeight;
+        } else {
+            clearLiteral(pos);
+        }

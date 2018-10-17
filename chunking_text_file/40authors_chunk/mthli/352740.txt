@@ -1,0 +1,10 @@
+      if (bean == null) return;
+      boolean oldValue = bean.isInverse();
+      bean.setInverse(b);
+      firePropertyChange("inverse", oldValue, b);
+   }
+
+   /**
+    * Sets the values to be shown in the chart.
+    * @param newValue the new value array
+    */

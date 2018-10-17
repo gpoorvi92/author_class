@@ -1,0 +1,10 @@
+                    mOriginalValues = new ArrayList<Pair<String, String>>(items);
+                }
+            }
+
+            if (prefix == null || prefix.length() == 0) {
+                ArrayList<Pair<String, String>> list;
+                synchronized (mLock) {
+                    list = new ArrayList<Pair<String, String>>(mOriginalValues);
+                }
+                results.values = list;

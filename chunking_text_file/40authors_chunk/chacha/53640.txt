@@ -1,0 +1,10 @@
+		//json to pojo
+		LoginResponse r=new LoginResponse();
+		try {
+			r.fromJson(json);
+			System.out.println(r.getResult()+" "+r.getToken());
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonGenerationException e) {
+			// TODO Auto-generated catch block

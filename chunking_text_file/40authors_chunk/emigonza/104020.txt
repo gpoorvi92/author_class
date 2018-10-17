@@ -1,0 +1,10 @@
+    // "cropAreaID" Parameter or index number
+    public static final int CHK_CROP_AREA_ENTIRE_IMAGE = -1;
+    public static final int CHK_CROP_AREA_RESET_ALL    = -2;
+
+    // "cx" Parameter or integer width
+    public static final int CHK_CROP_AREA_RIGHT        = -1;
+
+    // "cy" Parameter or integer height
+    public static final int CHK_CROP_AREA_BOTTOM       = -1;
+

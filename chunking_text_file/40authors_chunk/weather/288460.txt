@@ -1,0 +1,10 @@
+     */
+    public static boolean isWiFiOr3GMobileNet(Context context) {
+        NetworkInfo netInfo = getNetworInfoInstance(context);
+        return isNetworkAvailable(netInfo) ? ("mobile".equals(netInfo.getTypeName())
+                && !"EDGE".equals(netInfo.getSubtypeName())) || ConnectivityManager.TYPE_WIFI == netInfo.getType(): false;
+    }
+    /** 获取网络类型 */
+//    public static int getNetworkType(Context context) {
+//        NetworkInfo netInfo = getNetworInfoInstance(context);
+//        return isNetworkAvailable(netInfo) ? netInfo.getType() : -1;

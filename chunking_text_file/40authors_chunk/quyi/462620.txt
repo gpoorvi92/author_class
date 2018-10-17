@@ -1,0 +1,10 @@
+      }
+
+      @Override
+      public void read(org.apache.thrift.protocol.TProtocol prot, searchEng_args struct) throws org.apache.thrift.TException {
+        TTupleProtocol iprot = (TTupleProtocol) prot;
+        struct.engineId = iprot.readString();
+        struct.setEngineIdIsSet(true);
+      }
+    }
+

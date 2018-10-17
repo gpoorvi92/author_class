@@ -1,0 +1,10 @@
+      /**
+       * Find the _Fields constant that matches fieldId, or null if its not found.
+       */
+      public static _Fields findByThriftId(int fieldId) {
+        switch(fieldId) {
+          case 1: // PROPERTY_NAME
+            return PROPERTY_NAME;
+          case 2: // PROPERTY_VALUE
+            return PROPERTY_VALUE;
+          default:

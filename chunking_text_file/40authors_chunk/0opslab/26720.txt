@@ -1,0 +1,10 @@
+ * </code>
+ * </p>
+ * 
+ * @author <a href="mailto:Achim.Westermann@gmx.de">Achim Westermann </a>
+ * 
+ */
+public final class ASCIIDetector
+    extends AbstractCodepageDetector {
+  /**
+   * Generated <code>serialVersionUID</code>.

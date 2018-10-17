@@ -1,0 +1,10 @@
+    public static final int CHK_CIF_JPEG   = 0x00000008;
+    public static final int CHK_CIF_GIF    = 0x00000010;
+
+    /////////////////////////////////////////////////////////////////////
+    // "Color" Capability Constants
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int CHK_CL_MONO      = 1;
+    public static final int CHK_CL_GRAYSCALE = 2;
+    public static final int CHK_CL_16        = 3;

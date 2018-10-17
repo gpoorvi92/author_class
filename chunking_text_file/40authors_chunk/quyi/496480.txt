@@ -1,0 +1,10 @@
+    case ENGINE_PLOTS:
+      return isSetEnginePlots();
+    }
+    throw new IllegalStateException();
+  }
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;

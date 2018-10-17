@@ -1,0 +1,10 @@
+
+    public void writeToServer() throws IOException {
+        serverBuffer.writeTo(serverChannel);
+        if (serverBuffer.isReadyToWrite()) register();
+    }
+
+    public void register() throws ClosedChannelException {
+        int clientOps = 0;
+        if (serverBuffer.isReadyToWrite()) clientOps |= SelectionKey.OP_READ;
+        if (clientBuffer.isReadyToRead()) clientOps |= SelectionKey.OP_WRITE;

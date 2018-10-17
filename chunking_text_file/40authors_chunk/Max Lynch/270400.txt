@@ -1,0 +1,10 @@
+		colorPicker = createInternalFrame("Color Picker", 540, 0, 200, 300, new ColorTabPanel(frame));
+		strokeDialog = createInternalFrame("Stroke", 540, 300, 200, 150, new StrokeFramePanel(renderSurface));
+		gradientExtras = createInternalFrame("Gradient Extras", 400, 250, 160, 120, gradientControls);
+		
+		gradientExtras.setVisible(false);
+		//gradientExtras.putClientProperty("JInternalFrame.isPalette", Boolean.TRUE); 
+		
+		
+		add(studioFrame);
+		add(gradientExtras);

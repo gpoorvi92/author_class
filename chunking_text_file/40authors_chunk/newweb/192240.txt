@@ -1,0 +1,10 @@
+	
+	@Override
+	public Small findSmallById(int smallID) {
+		Small small =  smallDao.selectSmallById(smallID);
+		return small;
+	}
+
+
+	@Override
+	public boolean modify(Small small) {

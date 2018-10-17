@@ -1,0 +1,10 @@
+    }
+
+    @RequestMapping("/delete")
+    public ModelAndView delete(String[] ids) {
+        try {
+            remarkService.delete(ids);
+        } catch (ServiceException e) {
+            return ajaxDoneError(e.getMessage());
+        }
+        return ajaxDoneSuccess("删除成功");

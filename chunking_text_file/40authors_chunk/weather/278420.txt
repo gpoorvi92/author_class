@@ -1,0 +1,10 @@
+        //mResponsePoster.execute(new ResponseDeliveryRunnable(request, response, null));
+    }
+
+    /**
+     * A Runnable used for delivering network responses to a listener on the
+     * main thread.
+     */
+    @SuppressWarnings("rawtypes")
+    private class ResponseDeliveryRunnable implements Runnable {
+        private final Request mRequest;

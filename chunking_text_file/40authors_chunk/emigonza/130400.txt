@@ -1,0 +1,2 @@
+    public static final int JPOS_ESCAL_SAME_WEIGHT = 3 + JposConst.JPOSERREXT; // ReadWeight
+}

@@ -1,0 +1,10 @@
+				    + "]";
+				System.out.println(result);
+				return result;
+			}
+		};
+
+		pipeline.addAsThreadPoolBasedPipe(pipe, executorSerivce);
+
+		pipe = new AbstractPipe<String, String>() {
+

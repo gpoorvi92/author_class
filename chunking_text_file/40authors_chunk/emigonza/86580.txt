@@ -1,0 +1,4 @@
+    public static final int JPOS_ECAT_DAILYLOGOVERFLOW       = 200;
+    public static final int JPOS_ECAT_DEFICIENT              = 201;
+    public static final int JPOS_ECAT_OVERDEPOSIT            = 202;
+}

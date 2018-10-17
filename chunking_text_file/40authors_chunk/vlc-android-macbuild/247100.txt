@@ -1,0 +1,10 @@
+    }
+
+    public static final String get_CPU_ABI() {
+        return Build.CPU_ABI;
+    }
+
+    public static final String get_CPU_ABI2() {
+        try {
+            Field field = Build.class.getDeclaredField("CPU_ABI2");
+            if (field == null)

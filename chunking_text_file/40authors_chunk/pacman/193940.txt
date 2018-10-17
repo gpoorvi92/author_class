@@ -1,0 +1,10 @@
+	/**
+	 * @param rollbackFlag the rollbackFlag to set
+	 */
+	public void setRollbackFlag(boolean rollbackFlag) {
+		this.rollbackFlag = rollbackFlag;
+	}
+
+	/**
+	 * non parameters
+	 */

@@ -1,0 +1,10 @@
+      throw new IllegalStateException();
+    }
+
+    @Override
+    public boolean equals(Object that) {
+      if (that == null)
+        return false;
+      if (that instanceof searchEng_args)
+        return this.equals((searchEng_args)that);
+      return false;

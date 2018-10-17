@@ -1,0 +1,6 @@
+    }
+
+    public <T extends BaseRequest<T, R>, R extends BaseResponse> void execute(T request, Callback<T, R> callback) {
+        api.send(request, callback);
+    }
+}

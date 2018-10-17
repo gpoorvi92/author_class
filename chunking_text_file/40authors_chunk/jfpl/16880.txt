@@ -1,0 +1,10 @@
+
+	public static final String GET_BIND_VEH_URL = SERVER_URL
+			+ "/platform/jtgzfw/getbind";
+
+	public static final String RESGITER_URL = SERVER_URL + "/platform/user/reg";
+
+	public static final String SYNC_VEH_TIME = "sync_bind_veh_time";
+
+	public static final String[][] INIT_APP = new String[][] {
+			{ "1", "违法助手", "intent://com.jufan.platform.ui.MyVioActivity", // "intent://com.jufan.sslk.ui.LogoActivity",//

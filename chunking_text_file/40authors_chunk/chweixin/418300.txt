@@ -1,0 +1,10 @@
+	@Override
+	public synchronized void update(WeChatContext context) {
+		if(context == null) return;
+		String key = context.getAccountId() + "_" + context.getOpenId();
+		@SuppressWarnings("unchecked")
+		CacheEntity<WeChatContext>  entity = (CacheEntity<WeChatContext>) CacheListHandler.getCache(key);
+		if(entity == null){
+			entity = new CacheEntity<WeChatContext>(key, context, CONST_CACHE_ValidityTime);
+		}
+		CacheListHandler.addCache(entity);

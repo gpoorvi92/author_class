@@ -1,0 +1,10 @@
+	}
+
+	public StateVariable getRelatedStateVariable()
+	{
+		Service service = getService();
+		if (service == null)
+			return null;
+		String relatedStatVarName = getRelatedStateVariableName();
+		return service.getStateVariable(relatedStatVarName);
+	}

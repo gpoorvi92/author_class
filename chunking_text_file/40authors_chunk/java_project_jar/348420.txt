@@ -1,0 +1,10 @@
+
+    public void flush()
+        throws IOException
+    {
+        if(writer != null)
+            writer.flush();
+    }
+
+    private void detectEncoding(char cbuf[], int off, int len)
+        throws IOException

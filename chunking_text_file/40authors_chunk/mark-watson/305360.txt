@@ -1,0 +1,10 @@
+            if (max < data2[i]) max = data2[i];
+        }
+        System.out.println("min=" + min + ", max=" + max);
+        g.setColor(Color.red);
+        for (int i = 0; i < data1.length - 1; i++) {
+            float y1 = height - 5 - 0.95f * height * ((data1[i] - min) / (max - min));
+            float y2 = height - 5 - 0.95f * height * ((data1[i + 1] - min) / (max - min));
+            //System.out.println("data["+i+"]="+data[i]+", y1="+y1+", y2="+y2);
+            g.drawLine(i + 20, (int) y1, i + 21, (int) y2);
+            y1 = height - 5 - 0.95f * height * ((data2[i] - min) / (max - min));

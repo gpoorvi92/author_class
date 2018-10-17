@@ -1,0 +1,10 @@
+
+	@Override
+	public List<Order> selectOrderByAcceptStatus(String acceptStatus) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order where acceptStatus=? order by createDate DESC,createTime DESC")
+				.addEntity(Order.class);
+		return query.setString(0, acceptStatus).list();
+	}
+
+	@Override
+	public BigInteger selectUnprocessedOrderCount() {

@@ -1,0 +1,10 @@
+/*
+ Author:     Andy, nkuwjg@gmail.com
+ Date:       Dec 03, 2014
+ Problem:    Max Points On a Line
+ Difficulty: Easy
+ Notes:
+ Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.
+ Solution: 1. hashmap. Time: O(n^2), Space: O(n);
+*/
+

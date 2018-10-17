@@ -1,0 +1,10 @@
+/**
+ * This is a web services client class for using the Open Calais web service
+ * for analysizing text and identifying entities and relationships between
+ * entities. You will need a free Open Calais developer's key that should
+ * be set in an environment variable of defined on the command line when starting
+ * the JVM. This property is obtained using: <code>System.getProperty("OPEN_CALAIS_KEY")</code>
+ * <p/>
+ * Copyright 2002-2012 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is can be used under either of the following licenses:

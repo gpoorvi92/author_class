@@ -1,0 +1,10 @@
+			sock.setSoTimeout(getTimeout());
+			return sock;
+		}
+		catch (Exception e) {
+			return null;
+		}
+	}
+
+	public boolean isOpened()
+	{

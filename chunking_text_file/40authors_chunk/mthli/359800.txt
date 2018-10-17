@@ -1,0 +1,8 @@
+               System.out.println(path);
+               for (String line : Files.readAllLines(path, Charset.forName("UTF-8")))
+                  System.out.println("   " + line);
+               return FileVisitResult.CONTINUE;
+            }
+         });
+   }
+}

@@ -1,0 +1,10 @@
+	/**
+	 * 设置首次关注时间。
+	 * @param createTime
+	 * 首次关注时间。
+	 * */
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+	/**
+	 * 获取最近一次交互时间。

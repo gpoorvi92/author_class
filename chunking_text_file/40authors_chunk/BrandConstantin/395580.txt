@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+Scanner teclado = new Scanner(System.in);
+    
+    long numIntrod;
+    long reves = 0;
+
+    System.out.println("Introduce un numro largo y te lo escribo a réves");
+    numIntrod = teclado.nextLong();
+    long numero = numIntrod;
+    

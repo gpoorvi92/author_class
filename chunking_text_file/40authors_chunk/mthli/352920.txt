@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Sets the subject in the label.
+    * @param word the new subject that jumps over the lazy dog
+    */
+   public void setSubject(String word)
+   {
+      StringBuilder text = new StringBuilder(prefix);
+      text.append(word);

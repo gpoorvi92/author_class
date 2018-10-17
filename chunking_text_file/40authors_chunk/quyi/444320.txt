@@ -1,0 +1,10 @@
+   * Performs a deep copy on <i>other</i>.
+   */
+  public AppCheckResult(AppCheckResult other) {
+    if (other.isSetUserApp()) {
+      this.userApp = new UserApp(other.userApp);
+    }
+    if (other.isSetStaticCheckResult()) {
+      this.staticCheckResult = new StaticCheckResultData(other.staticCheckResult);
+    }
+    if (other.isSetDynamicCheckResult()) {

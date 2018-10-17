@@ -1,0 +1,10 @@
+		return args;
+	}
+
+	public static void setBind(Context context, boolean flag, String[] args) {
+		String flagStr = "not";
+		if (flag) {
+			flagStr = "ok";
+		}
+		SharedPreferences sp = PreferenceManager
+				.getDefaultSharedPreferences(context);

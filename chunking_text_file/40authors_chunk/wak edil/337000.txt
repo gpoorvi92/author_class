@@ -1,0 +1,10 @@
+		 		{
+		 		}
+						
+		 	}
+		 	if (e.getSource() == jmiAbout)
+		 	{
+		 	
+				JOptionPane.showMessageDialog(null,"Wak Lue Bistro"+
+					"\n\nAddress: First OutLet,"+"\n Lt L3-18A(P),Level 3,"+"\n Mines shopping Fair,"+
+					"\n Jalan Dulang, Mines Resort City"+"\n 43300 Seri Kembangan, Selangor."+"\n 03-89386655"+

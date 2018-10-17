@@ -1,0 +1,10 @@
+			 				
+			 				if(confirm == JOptionPane.NO_OPTION)
+			 				{
+			            	Video_no_text.setEditable(false);
+			            	Video_title_text.setEditable(false);
+			 				authorsArea.setEditable(false);
+			 				subjectArea.setEditable(false);
+			 				location_text.setEditable(false);	
+							}
+					

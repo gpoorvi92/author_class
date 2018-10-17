@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent ae)
+            {
+                // ...           
+                String response = JOptionPane.showInputDialog(mv,
+                     "What would you like to scale all vector components by?",
+                     "1.000");
+
+                if (response != null)
+                {
+                    double d = Double.parseDouble(response);

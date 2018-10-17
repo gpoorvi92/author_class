@@ -1,0 +1,10 @@
+      this.url = other.url;
+    }
+    this.app_size = other.app_size;
+    if (other.isSetMinsdkversion()) {
+      this.minsdkversion = other.minsdkversion;
+    }
+    if (other.isSetApk_md5()) {
+      this.apk_md5 = other.apk_md5;
+    }
+    if (other.isSetNotify_callback_url()) {

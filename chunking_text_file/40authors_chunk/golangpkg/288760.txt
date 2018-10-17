@@ -1,0 +1,10 @@
+
+
+	public Set<Entry<UUID, RequestUploadProcessingConfiguration>> getRequestEntries() {
+		return configurationMap.asMap().entrySet();
+	}
+
+
+	public void reset(UUID fileId) {
+		final RequestUploadProcessingConfiguration unchecked = configurationMap.getUnchecked(fileId);
+		unchecked.setProcessing(false);

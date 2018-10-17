@@ -1,0 +1,10 @@
+		this.pfprice = pfprice;
+	}
+	@ManyToOne
+	@JoinColumn(name="materialbrandID")
+	public MaterialBrand getMaterialBrand() {
+		return materialBrand;
+	}
+	public void setMaterialBrand(MaterialBrand materialBrand) {
+		this.materialBrand = materialBrand;
+	}

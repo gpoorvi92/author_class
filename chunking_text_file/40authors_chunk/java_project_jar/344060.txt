@@ -1,0 +1,10 @@
+            this.suffixes = (String[])suffixes.toArray(new String[suffixes.size()]);
+            this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+            return;
+        }
+    }
+
+    public boolean accept(File file)
+    {
+        String name = file.getName();
+        String arr$[] = suffixes;

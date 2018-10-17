@@ -1,0 +1,10 @@
+                         * PlayerAdapter.MEDIA_INFO_BUFFERING_END, 0); }
+                         */
+
+                        if (!mPrepared) {
+                            mPrepared = true;
+
+                            if (mOnPreparedListener != null) {
+                                mOnPreparedListener.onPrepared(this);
+                            }
+                        }

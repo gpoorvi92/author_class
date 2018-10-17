@@ -1,0 +1,10 @@
+  public void    setPowerNotify(int powerNotify) throws JposException;
+  public int     getPowerState() throws JposException;
+  public int     getVideoCount() throws JposException;
+  public void    setVideoCount(int videoCount) throws JposException;
+  public int     getVideoRate() throws JposException;
+  public void    setVideoRate(int videoRate) throws JposException;
+
+  // Methods
+  public void    clearInput()
+                     throws JposException;

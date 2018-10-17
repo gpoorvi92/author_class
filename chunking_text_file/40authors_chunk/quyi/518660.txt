@@ -1,0 +1,10 @@
+              }
+              break;
+            case 2: // PROPERTY_VALUE
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.propertyValue = iprot.readString();
+                struct.setPropertyValueIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;

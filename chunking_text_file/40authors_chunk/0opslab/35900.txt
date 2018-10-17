@@ -1,0 +1,10 @@
+        for (String[] strings : list1) {
+            if ((i + 1) == list1.length) {
+                continue;
+            }
+            for (int m = 0; m < strings.length; m++) {
+                try {
+                    String[] value1 = list1[i][j].toString().split(",");
+                    String[] value2 = list2[i][j].toString().split(",");
+                    int k = 0;
+                    for (int n = 0; n < value2.length; n++) {

@@ -1,0 +1,10 @@
+    }
+
+    public IImage getImageForUri(Uri uri) {
+        return uri.equals(mUri) ? mSingleImage : null;
+    }
+
+    public void close() {
+        mSingleImage = null;
+        mUri = null;
+    }

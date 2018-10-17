@@ -1,0 +1,10 @@
+		//画城市名称
+		if(city!=null){
+			Paint paint = new Paint();
+			paint.setAntiAlias(true);
+			paint.setTextSize(38);
+			paint.setTextAlign(Paint.Align.CENTER);
+			canvas.drawText(city, 160, borderY+38, paint);
+		}
+	}
+	//方法：创建线程动画

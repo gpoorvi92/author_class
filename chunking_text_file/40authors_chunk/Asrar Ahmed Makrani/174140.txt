@@ -1,0 +1,10 @@
+				Statement statement = connection.createStatement();
+					String query1 = "SELECT * FROM Item " + 
+ 								"WHERE item_id = '" + 
+ 								book_no_text.getText() +"'";
+					
+					ResultSet rs1 = statement.executeQuery(query1);
+					try
+					{
+			            	rs1.next();
+			            	//book_no_text.setText(rs1.getString(1));

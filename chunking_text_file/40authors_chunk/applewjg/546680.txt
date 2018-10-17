@@ -1,0 +1,7 @@
+                last.end = Math.max(last.end, intervals.get(i).end);
+            }
+        }
+        res.add(last);
+        return res;
+    }
+}

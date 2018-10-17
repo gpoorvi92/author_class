@@ -1,0 +1,10 @@
+      } else {
+        setApp_name((String)value);
+      }
+      break;
+
+    case VERSIONCODE:
+      if (value == null) {
+        unsetVersioncode();
+      } else {
+        setVersioncode((String)value);

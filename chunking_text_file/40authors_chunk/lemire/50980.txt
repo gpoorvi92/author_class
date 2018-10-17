@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Process the next run
+     */
+    public void parseNextRun() {
+        if ((this.isLiteral)
+                || (this.iterator.getNumberOfLiteralWords() == 0)) {
+            // no choice, must load next runs
+            this.iterator.discardFirstWords(this.iterator.size());

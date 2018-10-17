@@ -1,0 +1,10 @@
+      mainPanel.add(valueLabel);
+      okButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               Object value = field.getValue();
+               Class<?> cl = value.getClass();
+               String text = null;
+               if (cl.isArray())
+               {

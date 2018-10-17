@@ -1,0 +1,10 @@
+        this.thumb_url = thumbUrl;
+        return this;
+    }
+
+    public InlineQueryResultDocument thumbWidth(Integer thumbWidth) {
+        this.thumb_width = thumbWidth;
+        return this;
+    }
+
+    public InlineQueryResultDocument thumbHeight(Integer thumbHeight) {

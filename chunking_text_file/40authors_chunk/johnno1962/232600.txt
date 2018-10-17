@@ -1,0 +1,10 @@
+    boolean entered_internalFrameActivated_5;
+
+    public void internalFrameActivated( javax.swing.event.InternalFrameEvent e ) {
+        if ( !entered_internalFrameActivated_5 ) {
+            entered_internalFrameActivated_5 = true;
+            __internalFrameActivated( e );
+            entered_internalFrameActivated_5 = false;
+        }
+        else
+            super.internalFrameActivated( e );

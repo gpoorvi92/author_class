@@ -1,0 +1,10 @@
+		} catch (SQLException e) {
+
+			// 接收方短号转换为长号时发生数据库异常，触发请求消息的缓存
+			AsyncRequestPersistence.getInstance().store(mmsDeliverReq);
+
+			//省略其它代码
+			
+			resp.setStatus(202);
+		}
+

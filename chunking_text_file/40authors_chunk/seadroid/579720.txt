@@ -1,0 +1,10 @@
+    public boolean onMenuItemSelected(int featureId, MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return true;
+    }
+
+    private boolean isServerUrlValid(String serverUrl) {

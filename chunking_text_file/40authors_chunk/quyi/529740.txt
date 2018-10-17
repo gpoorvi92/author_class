@@ -1,0 +1,10 @@
+
+  public void unsetFormat() {
+    this.format = null;
+  }
+
+  /** Returns true if field format is set (has been assigned a value) and false otherwise */
+  public boolean isSetFormat() {
+    return this.format != null;
+  }
+

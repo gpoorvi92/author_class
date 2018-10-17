@@ -1,0 +1,10 @@
+
+		// MyThread mt1 = new MyThread();
+		// MyThread mt2 = new MyThread();
+		// mt1.run();
+		// mt2.run();
+
+		MyThread mt1 = new MyThread();
+		MyThread mt2 = new MyThread();
+		mt1.start();
+		mt2.start();

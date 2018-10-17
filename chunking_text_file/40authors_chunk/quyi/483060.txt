@@ -1,0 +1,10 @@
+        if (!this.userAppId.equals(that.userAppId))
+          return false;
+      }
+
+      boolean this_present_status = true && this.isSetStatus();
+      boolean that_present_status = true && that.isSetStatus();
+      if (this_present_status || that_present_status) {
+        if (!(this_present_status && that_present_status))
+          return false;
+        if (!this.status.equals(that.status))

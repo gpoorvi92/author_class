@@ -1,0 +1,10 @@
+      if (txtusername.getText() == null ||
+      txtusername.getText().equals("")){   
+      JOptionPane.showMessageDialog(null,"Enter username","ERROR"
+      ,JOptionPane.DEFAULT_OPTION);
+      txtusername.requestFocus();
+      return;
+      }
+      if (pass1.getText() == null ||
+      pass1.getText().equals("")){   
+      JOptionPane.showMessageDialog(null,"Enter password","ERROR",

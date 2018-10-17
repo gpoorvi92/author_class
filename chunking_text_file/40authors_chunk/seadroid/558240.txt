@@ -1,0 +1,10 @@
+
+import android.util.Log;
+
+import com.google.common.collect.Lists;
+
+/*
+ * 
+ * reference {@link cadroid #https://github.com/bitfireAT/cadroid}
+ * 
+ * PKIX x509 v3 (RFC 5280)

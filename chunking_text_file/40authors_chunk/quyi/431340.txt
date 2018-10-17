@@ -1,0 +1,10 @@
+  }
+
+  /** Returns true if field centerResultPath is set (has been assigned a value) and false otherwise */
+  public boolean isSetCenterResultPath() {
+    return this.centerResultPath != null;
+  }
+
+  public void setCenterResultPathIsSet(boolean value) {
+    if (!value) {
+      this.centerResultPath = null;

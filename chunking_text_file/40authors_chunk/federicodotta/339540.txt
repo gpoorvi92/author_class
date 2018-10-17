@@ -1,0 +1,10 @@
+     */
+    IHttpService getHttpService();
+
+    /**
+     * This method is used to retrieve the HTTP request associated with the
+     * current message (which may itself be a response).
+     *
+     * @return The HTTP request associated with the current message.
+     */
+    byte[] getRequest();

@@ -1,0 +1,10 @@
+      return this.plotsStatus;
+    }
+
+    public updateUserAppStatus_args setPlotsStatus(Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus) {
+      this.plotsStatus = plotsStatus;
+      return this;
+    }
+
+    public void unsetPlotsStatus() {
+      this.plotsStatus = null;

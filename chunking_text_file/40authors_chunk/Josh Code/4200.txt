@@ -1,0 +1,10 @@
+              if (formatStr == null)
+                  formatStr = "png";
+              else if (!(formatStr.equals("jpg") || formatStr.equals("png") || 
+                  (formatStr.equals("gif") || formatStr.equals("tiff"))))
+                  formatStr = "png";
+
+              f = new File(ModelFileSaverFileFilter.setFileNameExtension(f.getAbsolutePath(),formatStr));
+
+              ImageIO.write(img,formatStr,f);
+           // save the image

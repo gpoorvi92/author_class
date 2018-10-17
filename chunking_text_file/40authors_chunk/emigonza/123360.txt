@@ -1,0 +1,9 @@
+    public void    setAll(int hTotalsFile, byte value) throws JposException;
+    public void    validateData(int hTotalsFile) throws JposException;
+    public void    write(int hTotalsFile, byte[] data, int offset, int count)
+                       throws JposException;
+
+    // Event listener methods
+    public void    addDirectIOListener(DirectIOListener l);
+    public void    removeDirectIOListener(DirectIOListener l);
+}

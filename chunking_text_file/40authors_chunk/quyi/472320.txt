@@ -1,0 +1,10 @@
+      public queryMission_result getResult(I iface, queryMission_args args) throws org.apache.thrift.TException {
+        queryMission_result result = new queryMission_result();
+        try {
+          result.success = iface.queryMission(args.missionId);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;
+        } catch (com.nercis.isscp.idl.UnavailableException ue) {
+          result.ue = ue;
+        }
+        return result;

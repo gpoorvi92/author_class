@@ -1,0 +1,10 @@
+
+      current = new Rectangle2D.Double(x - SIDELENGTH / 2, y - SIDELENGTH / 2, SIDELENGTH,
+            SIDELENGTH);
+      squares.add(current);
+      repaint();
+   }
+
+   /**
+    * Removes a square from the collection.
+    * @param s the square to remove

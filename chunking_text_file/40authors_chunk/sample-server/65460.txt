@@ -1,0 +1,9 @@
+            pw.flush();
+            pw.close();
+            responseBuilder = CodeGeneratorResponse.newBuilder();
+            responseBuilder.setError(sw.toString());
+        }
+        responseBuilder.build().writeTo(System.out);
+        System.out.flush();
+    }
+}

@@ -1,0 +1,10 @@
+    }
+    void combinationSumRe(int[] candidates, int target, int start, ArrayList<Integer> path, List<List<Integer>> res) {
+        if (target == 0) {
+            ArrayList<Integer> p = new ArrayList<Integer>(path);
+            res.add(p);
+            return;
+        }
+        for (int i = start; i < candidates.length && target >= candidates[i]; ++i) {
+            if (i!=start && candidates[i-1] == candidates[i]) continue;
+            path.add(candidates[i]);

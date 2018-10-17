@@ -1,0 +1,10 @@
+      }
+      if (struct.engineStatus != null) {
+        oprot.writeFieldBegin(ENGINE_STATUS_FIELD_DESC);
+        oprot.writeString(struct.engineStatus);
+        oprot.writeFieldEnd();
+      }
+      if (struct.engineType != null) {
+        oprot.writeFieldBegin(ENGINE_TYPE_FIELD_DESC);
+        oprot.writeString(struct.engineType);
+        oprot.writeFieldEnd();

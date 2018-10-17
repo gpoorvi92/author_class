@@ -1,0 +1,10 @@
+	private ServerSocket serverSock = null;
+	private InetAddress bindAddr = null;
+	private int bindPort = 0;
+	/**
+	 * Store the current TCP timeout value
+	 * The variable should be accessed by getter and setter metho
+	 */
+	protected int timeout = DEFAULT_TIMEOUT;
+	
+	public ServerSocket getServerSock()

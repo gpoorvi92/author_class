@@ -1,0 +1,10 @@
+	public static IMessageManager getMessageManager() {
+		
+		return gMsgManager;
+	}
+	
+	/**
+	 * (non Javadoc) TODO
+	 * 
+	 * @Title: run
+	 * @see java.util.TimerTask#run()

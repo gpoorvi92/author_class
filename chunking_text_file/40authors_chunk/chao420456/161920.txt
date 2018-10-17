@@ -1,0 +1,10 @@
+ */
+public class CollectionDemo2 {
+	public static void main(String[] args) {
+		// 创建集合
+		Collection c1 = new ArrayList();
+		c1.add("abc1");
+		c1.add("abc2");
+		c1.add("abc3");
+		c1.add("abc4");
+

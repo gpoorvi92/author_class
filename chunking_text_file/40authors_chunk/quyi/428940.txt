@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 1:string engineName 引擎名称
+ * 2:string version 引擎版本
+ * 3:string update 病毒引擎特征库更新日期
+ * 4:string result 引擎检测结果/特征码
+ */

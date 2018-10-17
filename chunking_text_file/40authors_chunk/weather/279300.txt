@@ -1,0 +1,10 @@
+    @InjectView(R.id.weather_pager_img1)
+    ImageView mImg1;
+    @InjectView(R.id.weather_pager_img2)
+    ImageView mImg2;
+    @InjectView(R.id.weather_pager_temperature)
+    TextView mTemperature;
+    @InjectView(R.id.weather_pager_time)
+    TextView mTime;
+
+    /**

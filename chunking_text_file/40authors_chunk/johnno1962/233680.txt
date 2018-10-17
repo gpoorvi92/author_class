@@ -1,0 +1,10 @@
+
+        public double doubleMethod( double arg ) {
+            return arg;
+        }
+
+        public double[] doubleArrayMethod( double arg[] ) {
+            return arg;
+        }
+
+        public double[][] double2dArrayMethod( double arg[][] ) {

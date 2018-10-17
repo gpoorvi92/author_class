@@ -1,0 +1,10 @@
+		renderMediator.setBackground(rgp);
+	}
+	
+	public StatusBar getStatusBar() {
+		return (statusBar);
+	}
+		
+	public RenderSurface getRenderSurface() {
+		return (renderSurface); 
+	}

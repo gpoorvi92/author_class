@@ -1,0 +1,10 @@
+
+    /**
+     * Adds a new JposEntryRegistryListener to the list of listeners
+     * @param l the JposEntryRegistryListener object
+     * @since 0.1 (Philly 99 meeting)
+     */
+    public void addJposEntryRegistryListener( JposEntryRegistryListener l );
+
+    /**
+     * Removes a new JposEntryRegistryListener to the list of listeners

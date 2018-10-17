@@ -1,0 +1,10 @@
+			logger.warn(msg, t);
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.log.ILog#Error(java.lang.String)
+	 */
+	@Override
+	public void error(String msg) {
+		
+		if (logger.isErrorEnabled())

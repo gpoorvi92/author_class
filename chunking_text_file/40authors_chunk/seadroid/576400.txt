@@ -1,0 +1,10 @@
+                txService.removeFinishedUploadTasks();
+                needRefresh = true;
+            }
+            break;
+        default:
+            return super.onContextItemSelected(item);
+        }
+
+        if (needRefresh) {
+            refreshView();

@@ -1,0 +1,10 @@
+    this.ruleNo = ruleNo;
+    return this;
+  }
+
+  public void unsetRuleNo() {
+    this.ruleNo = null;
+  }
+
+  /** Returns true if field ruleNo is set (has been assigned a value) and false otherwise */
+  public boolean isSetRuleNo() {

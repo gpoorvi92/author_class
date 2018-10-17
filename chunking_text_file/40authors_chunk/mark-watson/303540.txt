@@ -1,0 +1,10 @@
+        if (size > max_to_keep) {
+            int min_val = 999999999;
+            int min_index = 0;
+            for (int i=0; i<size; i++) {
+                if (((Integer)scores.get(i)).intValue() < min_val) {
+                    min_val = ((Integer)scores.get(i)).intValue();
+                    min_index = i;
+                }
+            }
+            boolean ret = text.equals(strings.get(min_index)) == false;

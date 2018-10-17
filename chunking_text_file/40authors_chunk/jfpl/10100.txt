@@ -1,0 +1,10 @@
+				WebView wv = (WebView) v.findViewById(R.id.chat_web_view);
+				if (StringUtil.isNull(wv.getUrl())) {
+					WebSettings ws = wv.getSettings();
+					ws.setJavaScriptEnabled(true);
+					ws.setJavaScriptCanOpenWindowsAutomatically(true);
+					ws.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);
+					wv.requestFocus();
+					wv.setWebViewClient(new JFChatWebViewClient(sendState));
+					wv.setWebChromeClient(new JFChatWebChromeClient(this));
+					wv.loadUrl(acd.getStringValue("url"));

@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class PudingInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Ais batu yang di kisar \nAir gula hitam & merah \nSatu sudu Cendul & Jelly \nSatu sudu campuran Kacang \n  ");

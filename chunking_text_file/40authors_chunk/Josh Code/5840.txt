@@ -1,0 +1,10 @@
+
+    public static double getX(Vector3D v)
+    {
+        return v.x;
+    }
+
+    public static double getY(Vector3D v)
+    {
+        return v.y;
+    }

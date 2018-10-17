@@ -1,0 +1,10 @@
+*	01/29/03
+*		- first revision.
+*	07/31/04
+*		- Added isExpired().
+*	10/26/04
+*		- Oliver Newell <newell@media-rush.com>
+*		- Added support the intinite time and fixed a bug in isExpired().
+*	
+******************************************************************/
+

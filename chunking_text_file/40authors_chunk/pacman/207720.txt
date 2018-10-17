@@ -1,0 +1,10 @@
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * @ClassName: SecurityInterceptor
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月16日 上午12:57:28
+ */
+public class SecurityInterceptor implements HandlerInterceptor{

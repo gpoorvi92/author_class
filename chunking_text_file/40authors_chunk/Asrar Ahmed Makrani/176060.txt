@@ -1,0 +1,10 @@
+		main_panel.add(patron_text, gbc);
+		gbc.gridy = 2;
+		main_panel.add(name_text, gbc);
+		gbc.gridy = 3;
+		main_panel.add(passport_text, gbc);
+		gbc.gridy = 4;
+		main_panel.add(group_combo, gbc);
+		gbc.gridy = 5;
+		main_panel.add(status_combo, gbc);
+		

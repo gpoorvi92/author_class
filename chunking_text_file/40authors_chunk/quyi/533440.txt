@@ -1,0 +1,10 @@
+      return getApiPackageName();
+
+    case PACKAGE_NAME:
+      return getPackageName();
+
+    case OBJECT_NAME:
+      return getObjectName();
+
+    case METHOD_NAME:
+      return getMethodName();

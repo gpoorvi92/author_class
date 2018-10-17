@@ -1,0 +1,4 @@
+    public abstract void dispatch(BitmapStorage32 out, int runBegin,
+                                  int runend);
+
+}

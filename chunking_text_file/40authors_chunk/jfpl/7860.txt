@@ -1,0 +1,9 @@
+		mapView.onResume();
+		if (mapView != null) {
+			mapManager.start();
+		}
+		locationClient.start();
+		super.onResume();
+	}
+
+}

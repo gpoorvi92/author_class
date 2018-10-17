@@ -1,0 +1,10 @@
+package book;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.print.*;
+import javax.swing.*;
+
+/**
+ * This class implements a generic print preview dialog.
+ */

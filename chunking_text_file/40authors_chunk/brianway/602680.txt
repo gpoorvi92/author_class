@@ -1,0 +1,10 @@
+ * 优先级具有规则性
+ */
+
+class MyThread18_1 extends Thread {
+    @Override
+    public void run() {
+        long beginTime = System.currentTimeMillis();
+        long addResult = 0;
+        for (int j = 0; j < 10; j++) {
+            for (int i = 0; i < 50000; i++) {

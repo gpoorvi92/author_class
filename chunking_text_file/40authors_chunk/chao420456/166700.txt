@@ -1,0 +1,10 @@
+			default:
+				System.out.println("你输入的月份有误");
+		}
+		*/
+
+		//比较麻烦
+		switch(month) {
+			case 1:
+			case 2:
+			case 12:

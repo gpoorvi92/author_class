@@ -1,0 +1,10 @@
+    }
+
+    public InlineQueryResultMpeg4Gif mpeg4Width(Integer mpeg4Width) {
+        this.mpeg4_width = mpeg4Width;
+        return this;
+    }
+
+    public InlineQueryResultMpeg4Gif mpeg4Height(Integer mpeg4Height) {
+        this.mpeg4_height = mpeg4Height;
+        return this;

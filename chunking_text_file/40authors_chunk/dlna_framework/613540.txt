@@ -1,0 +1,7 @@
+	
+	public boolean stop()
+	{
+		httpServerThread = null;
+		return true;
+	}
+}

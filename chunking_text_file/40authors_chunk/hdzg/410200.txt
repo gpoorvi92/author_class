@@ -1,0 +1,10 @@
+				tempFlag = true;
+			}
+			if(hero.totalMoney >=800000){//身上的钱太多
+				hero.armyWithMe -= 80000*(int)(Math.random()*20000);
+				if(hero.armyWithMe > 1000){
+					hero.armyWithMe -= (int)(Math.random()*500);
+				}	
+				if(hero.food > 1000){
+					hero.food -=(int)(Math.random()*500);
+				}

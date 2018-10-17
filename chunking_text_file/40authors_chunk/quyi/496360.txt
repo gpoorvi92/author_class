@@ -1,0 +1,10 @@
+        unsetEnginePlots();
+      } else {
+        setEnginePlots((List<String>)value);
+      }
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {

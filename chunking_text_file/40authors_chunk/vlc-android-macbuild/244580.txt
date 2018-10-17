@@ -1,0 +1,10 @@
+        LoaderCallbacks<D> callbacks = getLoaderCallbacks();
+        if (callbacks == null)
+            return;
+
+        callbacks.onLoadFinished(loader, data);
+
+        /* avoid unlimited recursive */
+        mHandler.post(new Runnable() {
+            @Override
+            public void run() {

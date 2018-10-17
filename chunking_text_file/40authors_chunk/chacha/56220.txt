@@ -1,0 +1,10 @@
+		LoginToken loginToken=loginTokenDAO.getTokenByToken(token);
+		if(loginToken==null){
+			response.setResult(ResponseCode.ERROR_TOKEN);
+		}else{
+			loginTokenDAO.deleteToken(token);
+			response.setResult(ResponseCode.SUCCESS);
+		}
+		return response;
+	}
+

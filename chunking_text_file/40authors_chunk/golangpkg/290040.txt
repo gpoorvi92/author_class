@@ -1,0 +1,10 @@
+/**
+ * Listener adapter of {@link JLFUListener}.
+ * 
+ * @author antoinem
+ * 
+ */
+public class JLFUListenerAdapter
+		implements JLFUListener {
+
+	@Override

@@ -1,0 +1,10 @@
+			Set<String> colls=db.getCollectionNames();
+			for(String s:colls){
+				System.out.println(s);
+			}
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		
+	}
+	

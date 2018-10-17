@@ -1,0 +1,10 @@
+    }
+    
+    public static void main(String[] args) {
+        new SimpleChatClient().go();
+    }
+    
+    class IncomingReader implements Runnable {
+        public void run() {
+            String message;
+            try {

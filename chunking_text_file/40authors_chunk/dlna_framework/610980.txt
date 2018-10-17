@@ -1,0 +1,10 @@
+		String serviceType = service.getServiceType();
+		String actionName = action.getName();
+		String soapAction = "\"" +
+			serviceType +
+			"#" + actionName +
+			"\"";
+		setSOAPAction(soapAction);
+	}
+
+	////////////////////////////////////////////////

@@ -1,0 +1,10 @@
+    private static String dbPassword="cha123";
+    private static String connectionDescriptor=null;
+    private static int connectionsPerHost=90;
+    private static int threadsAllowedToBlockForConnectionMultiplier=20;
+    private static int connectTimeout=30000;
+    private static boolean autoConnectRetry=true;
+    private static int serverPort=9001;
+    private static int tokenLifeTime=3600;
+    
+	static{

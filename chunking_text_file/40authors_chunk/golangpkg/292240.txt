@@ -1,0 +1,10 @@
+		return uploadRate;
+	}
+
+
+	public void setUploadRate(Long uploadRate) {
+		this.uploadRate = uploadRate;
+	}
+
+
+	/**

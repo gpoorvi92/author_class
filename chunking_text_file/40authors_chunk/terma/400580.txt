@@ -1,0 +1,10 @@
+            worker.interrupt();
+            try {
+                worker.join();
+            } catch (InterruptedException exception) {
+                Thread.currentThread().interrupt();
+            }
+        }
+        workers = null;
+
+        TcpServerHandler handler;

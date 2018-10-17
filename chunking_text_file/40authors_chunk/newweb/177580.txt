@@ -1,0 +1,10 @@
+			}else{
+				throw new RuntimeException("品牌： '" + mb.getName() + " 更改【可用】状态失败</br>原因：不锈钢【" + bxg.getName() +
+						bxg.getNorms() + "】状态更改失败</br>");
+			}
+		}
+		Set<TypeForBrand> typeForBrands = mb.getTypeForBrands();
+		for (TypeForBrand typeForBrand : typeForBrands) {
+			typeForBrand.setValid(true);
+			if(typeForBrandService.modify(typeForBrand)){
+				ctfb++;

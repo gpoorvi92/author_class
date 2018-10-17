@@ -1,0 +1,10 @@
+		this.onDateSetListener = l;
+		this.minTime = minTime;
+		this.maxTime = maxTime;
+		mInitialTime = Calendar.getInstance(initialTime.getTimeZone());
+		mInitialTime.setTimeInMillis(initialTime.getTimeInMillis());
+		mLayoutID = layoutID;
+		this.minuteInterval = minInterval;
+		if (minInterval > 1) {
+			int minutes = mInitialTime.get(Calendar.MINUTE);
+			int diff = ((minutes + minuteInterval / 2) / minuteInterval)

@@ -1,0 +1,10 @@
+	private int currentByte; 
+	private int codeCnt;
+	private int outCode;
+	private int fileSize;
+	private int status;
+	private byte[] cPattern; // current pattern 
+	private byte[] lPattern; // last pattern 
+	private Dictionary dict; 
+	
+	public LZWCompress(File in, File out, JButton btPercent) throws IOException{

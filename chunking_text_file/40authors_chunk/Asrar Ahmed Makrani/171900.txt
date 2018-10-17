@@ -1,0 +1,10 @@
+    public JMenuItem returnItem3 = new JMenu("Skin");
+    public JMenuItem returnItem4 = new JMenuItem("Background Color");
+    public JMenuItem bk_mast = new JMenuItem("Book Master...");
+    public JMenuItem bk_loan = new JMenuItem("Book Loan...");
+    public JMenuItem bk_ret = new JMenuItem("Book Return...");
+    public JMenuItem j_master = new JMenuItem("Journal Master...");
+    public JMenuItem j_loan = new JMenuItem("Journal Loan...");
+    public JMenuItem j_ret = new JMenuItem("Journal Return...");
+    public JMenuItem v_master = new JMenuItem("Video Master...");
+    public JMenuItem v_loan = new JMenuItem("Video Loan...");

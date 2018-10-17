@@ -1,0 +1,10 @@
+        TabInfo newTab = mTabs.get(tabId);
+        if (mLastTab != newTab) {
+            FragmentTransaction ft = mActivity.getSupportFragmentManager()
+                    .beginTransaction();
+            if (mLastTab != null) {
+                if (mLastTab.fragment != null) {
+                    ft.detach(mLastTab.fragment);
+                }
+            }
+            if (newTab != null) {

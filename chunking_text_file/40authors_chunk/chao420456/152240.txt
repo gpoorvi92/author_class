@@ -1,0 +1,10 @@
+		// 以下为扩展内容
+		array.remove(index);
+		BufferedWriter bw = new BufferedWriter(new FileWriter("names.txt"));
+		for (String name : array) {
+			bw.write(name);
+			bw.newLine();
+			bw.flush();
+		}
+		bw.close();
+	}

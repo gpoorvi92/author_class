@@ -1,0 +1,10 @@
+              oprot.writeI32(_iter144.size());
+              for (Map.Entry<String, APICheck> _iter145 : _iter144.entrySet())
+              {
+                oprot.writeString(_iter145.getKey());
+                _iter145.getValue().write(oprot);
+              }
+            }
+          }
+        }
+      }

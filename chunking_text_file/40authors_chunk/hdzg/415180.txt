@@ -1,0 +1,10 @@
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
+
+public class ScreenRollView extends SurfaceView implements SurfaceHolder.Callback{
+	
+	HDZGActivity activity;
+	Bitmap bmpScroll;//Öñ¼òÍ¼Æ¬
+	Bitmap bmpBack;//±³¾°Í¼Æ¬

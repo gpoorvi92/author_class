@@ -1,0 +1,10 @@
+            nn.addTrainingExample(in2, out2);
+            nn.addTrainingExample(in3, out3);
+            jbInit();
+            this.setSize(440, 450);
+            this.setVisible(true);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+

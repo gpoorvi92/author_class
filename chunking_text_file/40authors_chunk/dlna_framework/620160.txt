@@ -1,0 +1,10 @@
+		setHeader(HTTP.USN, value);
+	}
+
+	public String getUSN()
+	{
+		return getHeaderValue(HTTP.USN);
+	}
+
+	////////////////////////////////////////////////
+	//	MYNAME

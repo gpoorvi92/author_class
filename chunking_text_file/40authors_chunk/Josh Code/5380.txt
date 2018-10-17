@@ -1,0 +1,10 @@
+                break;
+
+            default:
+                System.err.println("Invalid display mode");
+                break;
+        }
+        repaint();
+    }
+
+    public void paint(Graphics g)

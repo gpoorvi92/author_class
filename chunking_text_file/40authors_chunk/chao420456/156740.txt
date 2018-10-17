@@ -1,0 +1,10 @@
+		// ? super E
+		Collection<? super Animal> c9 = new ArrayList<Animal>();
+		// Collection<? super Animal> c10 = new ArrayList<Dog>();
+		// Collection<? super Animal> c11 = new ArrayList<Cat>();
+		Collection<? super Animal> c12 = new ArrayList<Object>();
+	}
+}
+
+class Animal {
+}

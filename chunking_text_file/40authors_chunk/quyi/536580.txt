@@ -1,0 +1,10 @@
+        optionals.set(0);
+      }
+      if (struct.isSetThreadName()) {
+        optionals.set(1);
+      }
+      if (struct.isSetCheckTime()) {
+        optionals.set(2);
+      }
+      if (struct.isSetDeviceType()) {
+        optionals.set(3);

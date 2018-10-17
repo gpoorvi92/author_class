@@ -1,0 +1,10 @@
+     * @return
+     */
+    public final static boolean valid(String... src) {
+        for (String s : src) {
+            if (!valid(s)) {
+                return false;
+            }
+        }
+        return true;
+    }

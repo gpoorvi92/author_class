@@ -1,0 +1,10 @@
+      buttonPanel.add(pageSetupButton);
+      pageSetupButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               PrinterJob job = PrinterJob.getPrinterJob();
+               pageFormat = job.pageDialog(attributes);
+            }
+         });
+

@@ -1,0 +1,10 @@
+  }
+
+  public java.util.Iterator<String> getSensitivesIterator() {
+    return (this.sensitives == null) ? null : this.sensitives.iterator();
+  }
+
+  public void addToSensitives(String elem) {
+    if (this.sensitives == null) {
+      this.sensitives = new ArrayList<String>();
+    }

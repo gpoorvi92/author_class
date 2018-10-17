@@ -1,0 +1,10 @@
+    public WildcardFilter(List wildcards)
+    {
+        if(wildcards == null)
+        {
+            throw new IllegalArgumentException("The wildcard list must not be null");
+        } else
+        {
+            this.wildcards = (String[])wildcards.toArray(new String[wildcards.size()]);
+            return;
+        }

@@ -1,0 +1,10 @@
+    /* 这里用到的是普通的初始化块 */
+    {
+        id = nextId;
+        nextId++;
+    }
+
+    /* 下面三个构造器代码块体现了所谓的“方法重载” */
+    public Emplogee(String n, double s) {
+        name = n;
+        salary = s;

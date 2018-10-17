@@ -1,0 +1,10 @@
+		if (backAcd != null
+				&& !StringUtil.isNull(GlobalVariables.loginUsername)) {
+
+			AbstractCommonData head = backAcd.getDataValue("head");
+			String msgType = head.getStringValue("message_type");
+			AbstractCommonData item = DataConvertFactory.getInstanceEmpty();
+			item.putStringValue("type", "0");
+			item.putStringValue("msg_type", msgType);
+			String fromUser = backAcd.getStringValue("from_user");
+			String fromGroup = backAcd.getStringValue("from_group");

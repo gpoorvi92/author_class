@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 20, 2014
+ Problem:    Letter Combinations of a Phone Number
+ Difficulty: Medium
+ Source:     https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/
+ Notes:
+ Given a digit string, return all possible letter combinations that the number could represent.
+ A mapping of digit to letters (just like on the telephone buttons) is given below.
+ Input:Digit string "23"

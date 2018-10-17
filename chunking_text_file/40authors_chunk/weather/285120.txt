@@ -1,0 +1,10 @@
+        if (jsonString != null) {
+            JsonUtil util = JsonUtil.getInstance();
+            t = util.fromJson(jsonString, clazz);
+            return t;
+        } else {
+            return null;
+        }
+    }
+
+    /**

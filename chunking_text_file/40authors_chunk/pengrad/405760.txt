@@ -1,0 +1,10 @@
+    private Integer height;
+    private PhotoSize thumb;
+    private String emoji;
+    private Integer file_size;
+
+    public String fileId() {
+        return file_id;
+    }
+
+    public Integer width() {

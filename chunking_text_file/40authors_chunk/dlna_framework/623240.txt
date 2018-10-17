@@ -1,0 +1,10 @@
+	{
+		try {
+			InputStream fileIn = new FileInputStream(descriptionFile);
+			Node root = parse(fileIn);
+			fileIn.close();
+			return root;
+			
+		} catch (Exception e) {
+			throw new ParserException(e);
+		}

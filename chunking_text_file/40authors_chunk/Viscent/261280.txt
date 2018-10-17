@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch10.tss.example;
+
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+
+public class ThreadSpecificSecureRandom {
+	//该类的唯一实例

@@ -1,0 +1,10 @@
+                {
+                    log.info("DefaultRpcServer connect:{}", ctx.getChannel());
+                }
+                @Override
+                public void channelClosed(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception
+                {
+                    log.info("DefaultRpcServer closed:{}", ctx.getChannel());
+                }
+                @Override
+                public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception

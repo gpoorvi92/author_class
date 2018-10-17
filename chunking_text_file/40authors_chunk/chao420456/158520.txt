@@ -1,0 +1,10 @@
+
+		// Ð´Êý¾Ý
+		dos.writeByte(1);
+		dos.writeShort(10);
+		dos.writeInt(100);
+		dos.writeLong(1000);
+		dos.writeFloat(1.1f);
+		dos.writeDouble(2.2);
+		dos.writeChar('a');
+		dos.writeBoolean(true);

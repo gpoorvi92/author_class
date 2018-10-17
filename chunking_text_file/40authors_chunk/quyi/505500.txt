@@ -1,0 +1,10 @@
+          for (Map.Entry<String, String> _iter110 : struct.taskInfo.entrySet())
+          {
+            oprot.writeString(_iter110.getKey());
+            oprot.writeString(_iter110.getValue());
+          }
+        }
+      }
+    }
+
+    @Override

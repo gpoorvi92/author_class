@@ -1,0 +1,10 @@
+package tree;
+
+import javax.swing.*;
+import javax.swing.tree.*;
+
+/**
+ * This frame contains a simple tree that displays a manually constructed tree model.
+ */
+public class SimpleTreeFrame extends JFrame
+{

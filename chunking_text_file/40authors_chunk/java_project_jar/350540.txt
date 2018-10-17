@@ -1,0 +1,10 @@
+        } else
+        {
+            position++;
+            return processByte();
+        }
+    }
+
+    public int read(byte bytes[])
+        throws IOException
+    {

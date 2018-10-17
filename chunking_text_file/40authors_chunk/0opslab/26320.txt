@@ -1,0 +1,10 @@
+
+/**
+ * <p>
+ * A <a target="_blank"
+ * href="http://wiki.cs.uiuc.edu/PatternStories/FacadePattern">Fa�ade</a> that
+ * internally uses an <a href="http://www.antlr.org">ANTLR </a>- based parser /
+ * lexer.<br>
+ * </p>
+ * <p>
+ * The underlying lexer is more a filter: It does not verify lexical correctness

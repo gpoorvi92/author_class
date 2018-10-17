@@ -1,0 +1,10 @@
+	}
+
+	public void surfaceCreated(SurfaceHolder holder) {
+		// TODO Auto-generated method stub
+		new Thread(){
+			public void run(){
+				Canvas c = SoundView.this.getHolder().lockCanvas(null);
+		        synchronized (SoundView.this.getHolder()) {
+		        	onDraw(c);
+		        }

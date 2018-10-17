@@ -1,0 +1,10 @@
+            this.buffer[this.actualSizeInWords + i] = ~buffer.getWord(start + i);
+        }
+        this.actualSizeInWords += number;
+    }
+    
+    @Override
+    public void removeLastWord() {
+        setWord(--this.actualSizeInWords, 0l);
+    }
+    

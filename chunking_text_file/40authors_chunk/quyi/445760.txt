@@ -1,0 +1,10 @@
+
+  public String getCheckResult() {
+    return this.checkResult;
+  }
+
+  public RunMonitor setCheckResult(String checkResult) {
+    this.checkResult = checkResult;
+    return this;
+  }
+

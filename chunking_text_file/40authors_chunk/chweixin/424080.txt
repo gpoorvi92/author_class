@@ -1,0 +1,10 @@
+	 * 	事件消息对象。
+	 * */
+	public static EventMessage parseEventMessage(Map<String, String> data){
+		EventMessage eventMessage = new EventMessage();
+		//
+		parseEventMessage(eventMessage, data);
+		
+		return eventMessage;
+	}
+	/**

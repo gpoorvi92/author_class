@@ -1,0 +1,10 @@
+    }
+
+    public void bindTo(WeeklyItemWeather item) {
+        LogUtil.d(item.toJson());
+        mTitle.setText(item.date);
+        mWeather.setText(item.type);
+        mTemperatureH.setText(item.high);
+        mTemperatureL.setText(item.low);
+    }
+}

@@ -1,0 +1,10 @@
+public final class WebUtil {
+
+
+
+    /**
+     * 对字符串进行编码
+     *
+     * @param str 需要处理的字符串
+     * @param encoding 编码方式
+     * @return 编码后的字符串

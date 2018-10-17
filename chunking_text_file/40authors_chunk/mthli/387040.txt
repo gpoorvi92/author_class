@@ -1,0 +1,10 @@
+      return doc.getDocumentElement();
+   }
+
+   public int getChildCount(Object parent)
+   {
+      Node node = (Node) parent;
+      NodeList list = node.getChildNodes();
+      return list.getLength();
+   }
+

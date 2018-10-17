@@ -1,0 +1,10 @@
+      case ENGINE_ID:
+        if (value == null) {
+          unsetEngineId();
+        } else {
+          setEngineId((String)value);
+        }
+        break;
+
+      }
+    }

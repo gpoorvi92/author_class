@@ -1,0 +1,10 @@
+		this.mEditText = (EditText)this.findViewById(R.id.textbreakexample_text);
+		this.mEditText.addTextChangedListener(this);
+	}
+
+	@Override
+	public EngineOptions onCreateEngineOptions() {
+		final Camera camera = new Camera(0, 0, TextBreakExample.CAMERA_WIDTH, TextBreakExample.CAMERA_HEIGHT);
+
+		return new EngineOptions(true, ScreenOrientation.PORTRAIT_FIXED, new RatioResolutionPolicy(TextBreakExample.CAMERA_WIDTH, TextBreakExample.CAMERA_HEIGHT), camera);
+	}

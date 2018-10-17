@@ -1,0 +1,6 @@
+	public SubTaskFailureException(RetryInfo retryInfo, Exception cause) {
+		super(cause);
+		this.retryInfo = retryInfo;
+	}
+
+}

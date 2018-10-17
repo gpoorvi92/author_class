@@ -1,0 +1,10 @@
+      sendBase("updateUserAppInfo", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_updateUserAppInfo() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {
+      updateUserAppInfo_result result = new updateUserAppInfo_result();
+      receiveBase(result, "updateUserAppInfo");
+      if (result.isSetSuccess()) {
+        return result.success;
+      }

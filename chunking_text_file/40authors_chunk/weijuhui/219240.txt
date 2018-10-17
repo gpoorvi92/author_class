@@ -1,0 +1,10 @@
+			dismiss();
+		}
+	};
+
+	private OnTimeChangeListener onTimeChangeListener = new OnTimeChangeListener() {
+
+		public void onTimeChange(Calendar time) {
+			setTitle();
+		}
+	};

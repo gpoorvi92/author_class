@@ -1,0 +1,10 @@
+	}
+
+	// 创建Slave线程
+	@Override
+	protected Set<? extends SlaveSpec<Range, Set<BigInteger>>> createSlaves() {
+		Set<PrimeGenerator> slaves = new HashSet<PrimeGenerator>();
+		for (int i = 0; i < Runtime.getRuntime().availableProcessors(); i++) {
+			slaves.add(new PrimeGenerator(new ArrayBlockingQueue<Runnable>(2)));
+		}
+		return slaves;

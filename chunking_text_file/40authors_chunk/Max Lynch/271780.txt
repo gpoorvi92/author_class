@@ -1,0 +1,10 @@
+        g.fill(ellipse);
+
+       	if(model.getGradientStroke() != null)
+       		g.setPaint(model.getGradientStroke());
+       	else if(model.getRadialStroke() != null)
+       		g.setPaint(model.getRadialStroke());
+       	else
+       	    g.setColor(model.getStrokeColor());
+      
+        g.setStroke(model.getStroke());

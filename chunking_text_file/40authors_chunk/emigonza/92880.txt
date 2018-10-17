@@ -1,0 +1,10 @@
+import java.util.Enumeration;
+import java.net.URL;
+
+/**
+ * Defines an interface to load, save JposEntries
+ * @since 1.2 (NY 2K 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */
+public interface JposRegPopulator 
+{

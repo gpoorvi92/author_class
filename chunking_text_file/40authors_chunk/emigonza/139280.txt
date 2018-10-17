@@ -1,0 +1,10 @@
+    public boolean getCapDisplay() throws JposException;
+
+    // Properties
+    public int     getMaximumWeight() throws JposException;
+    public int     getWeightUnit() throws JposException;
+
+    // Methods
+    public void    readWeight(int[] weightData, int timeout)
+                       throws JposException;
+

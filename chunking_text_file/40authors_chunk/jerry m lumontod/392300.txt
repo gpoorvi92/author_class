@@ -1,0 +1,10 @@
+					while (rs.next()) {
+
+
+						double mdblCode= rs.getDouble(1);
+						String mstrDesc= rs.getString(2);
+
+						addElement(new SelData(mdblCode,mstrDesc));
+						
+					}
+

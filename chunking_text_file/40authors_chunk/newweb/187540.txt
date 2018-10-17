@@ -1,0 +1,10 @@
+	private String unit;
+	private int buycount;
+	private Set<OrderSmall> orderSmalls;
+	private Set<SmallPriceCut> smallPriceCuts;
+	private boolean valid;
+	
+	@Column(columnDefinition="boolean default true")
+	public boolean isValid() {
+		return valid;
+	}

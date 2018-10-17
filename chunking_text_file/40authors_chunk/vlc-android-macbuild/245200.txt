@@ -1,0 +1,10 @@
+    }
+
+    @TargetApi(11)
+    public static void setOnSystemUiVisibilityChangeListener(Activity activity,
+            OnSystemUiVisibilityChangeListener listener) {
+        if (activity == null)
+            return;
+
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            activity.getWindow().getDecorView()

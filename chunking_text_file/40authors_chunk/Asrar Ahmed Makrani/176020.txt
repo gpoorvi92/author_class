@@ -1,0 +1,10 @@
+
+    	main_panel.setLayout(new GridBagLayout());
+		GridBagConstraints gbc = new GridBagConstraints();
+		
+		gbc.gridx = 0;
+		gbc.gridy = 0;
+		main_panel.add(patron, gbc);
+		gbc.gridy = 1;
+		main_panel.add(patron_no, gbc);
+		gbc.gridy = 2;

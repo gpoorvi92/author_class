@@ -1,0 +1,10 @@
+        }
+        if (i == 0) {
+            return;
+        }
+        int j = i;
+        while (j <= last && num[i-1] >= num[j]) ++j;
+        num[i-1] = num[i-1] ^ num[j];
+        num[j] = num[i-1] ^ num[j];
+        num[i-1] = num[i-1] ^ num[j];
+    }

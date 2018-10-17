@@ -1,0 +1,10 @@
+   private static final String priceUpdate = "UPDATE Books " + "SET Price = Price + ? "
+         + " WHERE Books.Publisher_Id = (SELECT Publisher_Id FROM Publishers WHERE Name = ?)";
+
+   private static Scanner in;
+   private static Connection conn;
+   private static ArrayList<String> authors = new ArrayList<>();
+   private static ArrayList<String> publishers = new ArrayList<>();
+   
+   public static void main(String[] args) throws IOException
+   {

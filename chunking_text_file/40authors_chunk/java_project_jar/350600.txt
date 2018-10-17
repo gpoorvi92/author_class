@@ -1,0 +1,10 @@
+
+    public synchronized void reset()
+        throws IOException
+    {
+        if(!markSupported)
+            throw new UnsupportedOperationException("Mark not supported");
+        if(mark < 0L)
+            throw new IOException("No position has been marked");
+        if(position > mark + readlimit)
+        {

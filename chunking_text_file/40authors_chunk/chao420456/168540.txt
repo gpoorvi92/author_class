@@ -1,0 +1,10 @@
+			case 5:
+				System.out.println("星期五");
+				break;
+			case 6:
+				System.out.println("星期六");
+				break;
+			case 7:
+				System.out.println("星期日");
+				break;
+			default:

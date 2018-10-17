@@ -1,0 +1,10 @@
+			case 0: return row.mstrCode;
+			case 1: return row.mstrDesc;
+		}
+		//System.out.println("\n getValueAt fired");
+		return "";
+	}
+
+	public String getTitle() {
+		if (mdDate==null)
+			return "Stock Quotes";

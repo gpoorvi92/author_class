@@ -1,0 +1,10 @@
+     * classes.
+     * 
+     * @param text 
+     * @return Hashtable<String, List<String>> of properties with associated values list (e.g., property "Person", value list would be a list of names occurring in the input text other properties can be "City","State", "Country", etc.)
+     * @throws IOException 
+     * @throws MalformedURLException 
+     */
+    public Hashtable<String, List<String>> getPropertyNamesAndValues(String text) throws MalformedURLException, IOException {
+        Hashtable<String, List<String>> ret = new Hashtable<String, List<String>>();
+        String licenseID = System.getenv("OPEN_CALAIS_KEY");

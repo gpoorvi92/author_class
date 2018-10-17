@@ -1,0 +1,10 @@
+		protected void doRun() throws Exception {
+			channel.put(String.valueOf(i++));
+			token.reservations.incrementAndGet();
+		}
+
+	}
+
+	private class Consumer extends AbstractTerminatableThread {
+		private final BlockingDeque<String> workQueue;
+

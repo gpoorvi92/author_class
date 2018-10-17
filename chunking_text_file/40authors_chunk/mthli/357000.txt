@@ -1,0 +1,10 @@
+    */
+   public boolean search(File file)
+   {
+      try
+      {
+         try (Scanner in = new Scanner(file))
+         {
+            boolean found = false;
+            while (!found && in.hasNextLine())
+            {

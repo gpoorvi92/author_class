@@ -1,0 +1,10 @@
+        this.thumb_url = thumbUrl;
+    }
+
+    public InlineQueryResultPhoto photoWidth(Integer photoWidth) {
+        this.photo_width = photoWidth;
+        return this;
+    }
+
+    public InlineQueryResultPhoto photoHeight(Integer photoHeight) {
+        this.photo_height = photoHeight;

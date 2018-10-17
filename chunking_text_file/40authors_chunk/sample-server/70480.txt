@@ -1,0 +1,10 @@
+            throw new IllegalArgumentException(name);
+        String[] args = Config.getStringServerConf(name).split(":");
+        if (args.length <= 2)
+            throw new IllegalArgumentException("必须指定至少一个逻辑服务器ID");
+        List<Integer> logicServers = new ArrayList<>(args.length - 2);
+        for (int i = 2; i < args.length; i++)
+            logicServers.add(Integer.valueOf(args[i]));
+        ServerRegister.regist(ip, port, ServerType.LOGIC.getType(), false, true, true, logicServers);
+        log.info("logic servers:{}", logicServers);
+    }

@@ -1,0 +1,10 @@
+public class ImagePreviewer extends JLabel
+{
+   /**
+    * Constructs an ImagePreviewer.
+    * @param chooser the file chooser whose property changes trigger an image change in this
+    * previewer
+    */
+   public ImagePreviewer(JFileChooser chooser)
+   {
+      setPreferredSize(new Dimension(100, 100));

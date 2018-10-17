@@ -1,0 +1,10 @@
+
+    private View.OnSystemUiVisibilityChangeListener mPrivateListener = new View.OnSystemUiVisibilityChangeListener() {
+        @Override
+        public void onSystemUiVisibilityChange(int visibility) {
+            if (BuildHelper.isApi11_HoneyCombOrLater()) {
+                if (mEnableHide && mOnSystemUiVisibilityChangeListener != null) {
+                    mOnSystemUiVisibilityChangeListener
+                            .onSystemUiVisibilityChange(visibility);
+                }
+            }

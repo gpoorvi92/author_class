@@ -1,0 +1,10 @@
+			msock.setTimeToLive(UPnP.getTimeToLive());
+			msock.send(dgmPacket);
+			msock.close();
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return false;
+		}
+		return true;
+	}

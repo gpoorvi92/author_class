@@ -1,0 +1,10 @@
+
+    public static String getString(Properties prop, String name) {
+        return prop.getProperty(name);
+    }
+
+    public static int getInt(Properties prop, String name, int defaultValue) {
+        String value = prop.getProperty(name);
+        if (value == null)
+            return defaultValue;
+

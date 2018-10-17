@@ -1,0 +1,10 @@
+                  editorPane.setPage(urlString);
+               }
+               catch (IOException e)
+               {
+                  editorPane.setText("Exception: " + e);
+               }
+            }
+         });
+
+      add(new JScrollPane(editorPane), BorderLayout.CENTER);

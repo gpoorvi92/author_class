@@ -1,0 +1,10 @@
+	 * 获取目标方帐号。
+	 * @return 目标帐号。
+	 * */
+	public String getToUserName() {
+		return ToUserName;
+	}
+	/**
+	 * 设置目标方帐号。
+	 * @param toUserName
+	 * 	目标方帐号。

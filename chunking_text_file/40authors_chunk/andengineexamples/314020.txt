@@ -1,0 +1,10 @@
+				this.draw(faceSprite2);
+
+				return true;
+			}
+		};
+		
+		final SpriteBatch staticSpriteBatch = new SpriteBatch(this.mBitmapTextureAtlas, 2, this.getVertexBufferObjectManager());
+		staticSpriteBatch.draw(this.mFaceTextureRegion, -50, 0, this.mFaceTextureRegion.getWidth(), this.mFaceTextureRegion.getHeight(), 2, 2, 1, 1, 1, 1);
+		staticSpriteBatch.draw(this.mFaceTextureRegion, 50, 0, this.mFaceTextureRegion.getWidth(), this.mFaceTextureRegion.getHeight(), 45, 1, 1, 1, 1);
+		staticSpriteBatch.submit();

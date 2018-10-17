@@ -1,0 +1,10 @@
+
+ Solution:  1. HashMap
+            2. uses constant extra space.
+            3. Recursive. (Stack)-->StackOverflow in Java.
+            4. Iterative. (Queue)
+*/
+/**
+ * Definition for singly-linked list with a random pointer.
+ * class RandomListNode {
+ *     int label;

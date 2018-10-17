@@ -1,0 +1,6 @@
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Transmit {
+	
+	//key of jms entity. 
+	public String key() default "";
+}

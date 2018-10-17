@@ -1,0 +1,10 @@
+
+  public void setSensitivesIsSet(boolean value) {
+    if (!value) {
+      this.sensitives = null;
+    }
+  }
+
+  public int getFeaturesCharactersSize() {
+    return (this.featuresCharacters == null) ? 0 : this.featuresCharacters.size();
+  }

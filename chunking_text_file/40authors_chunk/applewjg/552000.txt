@@ -1,0 +1,10 @@
+        for (int i = 0; i < num.length; ++i) {
+            if(visited[i]||(i!=0&&num[i-1]==num[i]&&visited[i-1])) continue;
+            visited[i] = true;
+            path.add(num[i]);
+            permuteRe(num, res, path, visited);
+            path.remove(path.size() - 1);
+            visited[i] = false;
+        }
+    }
+    public boolean nextPermutation(int[] num) {

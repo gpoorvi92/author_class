@@ -1,0 +1,10 @@
+			if(x>DIALOG_BTN_START_X && x<DIALOG_BTN_START_X+DIALOG_BTN_WIDTH
+					&& y>DIALOG_BTN_START_Y && y<DIALOG_BTN_START_Y+DIALOG_BTN_HEIGHT){//点下的是确定键
+				switch(status){
+				case 0://有钱进时玩家确认进
+					tempHero.setTotalMoney(tempHero.getTotalMoney() - cost);//交钱
+					upgradeGeneralPower();//随机挑选一个将军升级武力
+					break;
+				case 1://无钱进时玩家确认放弃
+				case 2://已经进要出来
+				case 3://学习失败

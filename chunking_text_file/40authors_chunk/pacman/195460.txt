@@ -1,0 +1,10 @@
+		
+		File dir = new File(tempDir);
+		FileUtils.forceDeleteOnExit(dir);
+	}
+
+	@Test
+	public void testCopyFile() throws IOException {
+		
+		String destFile = FileHelper.combinePath(destDir, "ddd.cp");
+		FileHelper.copyFile(testFile, destFile);

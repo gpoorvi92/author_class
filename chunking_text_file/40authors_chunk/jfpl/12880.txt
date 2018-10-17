@@ -1,0 +1,10 @@
+				4));
+		onPageSelected(0);
+
+		CustomPushNotificationBuilder cBuilder = new CustomPushNotificationBuilder(
+				this, R.layout.notification, R.id.notification_icon,
+				R.id.notification_title, R.id.notification_text);
+		cBuilder.setNotificationFlags(Notification.FLAG_AUTO_CANCEL);
+		cBuilder.setStatusbarIcon(this.getApplicationInfo().icon);
+		PushManager.setNotificationBuilder(this, 1, cBuilder);
+

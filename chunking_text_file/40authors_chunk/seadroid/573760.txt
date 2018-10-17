@@ -1,0 +1,10 @@
+                    break;
+                case R.id.remove_all_finished:
+                    if (state == TaskState.FINISHED) {
+                        txService.removeAllUploadTasksByState(TaskState.FINISHED);
+                    }
+                    break;
+                default:
+                    return super.onContextItemSelected(item);
+            }
+

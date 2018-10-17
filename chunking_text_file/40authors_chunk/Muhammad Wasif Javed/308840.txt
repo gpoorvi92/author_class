@@ -1,0 +1,10 @@
+			if (url == null) {
+				html.setCursor (cursor);
+				Container parent = html.getParent();
+				parent.repaint();
+			}
+			else {
+				Document doc = html.getDocument();
+				try {
+					html.setPage (url);
+				}

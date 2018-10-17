@@ -1,0 +1,10 @@
+				+ rouletteWheelSize);
+		rouletteWheel = new int[rouletteWheelSize];
+		int num_trials = numGenesPerChromosome;
+		int index = 0;
+        //for (int i = 0; i < numGenesPerChromosome; i++) { // !ERROR
+        for (int i = 0; i < numChromosomes; i++) { // bug fixed 3/31/2009
+			for (int j = 0; j < num_trials; j++) {
+				rouletteWheel[index++] = i;
+			}
+			num_trials--;

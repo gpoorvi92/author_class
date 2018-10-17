@@ -1,0 +1,10 @@
+            break;
+        case DropBox:
+            vmPolicyBuilder = vmPolicyBuilder.penaltyDropBox();
+            break;
+        case Log:
+            vmPolicyBuilder = vmPolicyBuilder.penaltyLog();
+            break;
+        }
+        StrictMode.setVmPolicy(vmPolicyBuilder.build());
+

@@ -1,0 +1,10 @@
+            x = (x << 2) | mole.get(s.charAt(i));
+        }
+        map.put(x, 1);
+        for (; i < s.length(); ++i) {
+            x = (x<<2)|mole.get(s.charAt(i));
+            x = x & mask;
+            if (map.containsKey(x)) {
+                if (map.get(x) == 1) {
+                    res.add(convert2Str(x));
+                    map.put(x,-1);

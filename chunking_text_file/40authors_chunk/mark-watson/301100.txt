@@ -1,0 +1,10 @@
+		sb.append("&paramsXML=").append(paramsXML);
+		String payload = sb.toString();
+		URLConnection connection = new URL("http://api.opencalais.com/enlighten/calais.asmx/Enlighten").openConnection();
+		connection.addRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+		connection.addRequestProperty("Content-Length", String.valueOf(payload.length()));
+		connection.setDoOutput(true);
+		OutputStream out = connection.getOutputStream();
+		OutputStreamWriter writer = new OutputStreamWriter(out);
+		writer.write(payload);
+		writer.flush();

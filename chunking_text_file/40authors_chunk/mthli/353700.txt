@@ -1,0 +1,10 @@
+   {
+      JPanel panel = new JPanel();
+
+      ActionListener addListener = new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               // add the class whose name is in the text field
+               try
+               {

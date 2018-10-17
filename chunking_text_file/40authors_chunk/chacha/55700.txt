@@ -1,0 +1,5 @@
+            return afterPwd.equals(password);  
+        } else  
+            return false;  
+    }  
+}

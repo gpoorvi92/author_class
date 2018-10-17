@@ -1,0 +1,10 @@
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.umeng.analytics.MobclickAgent;
+import com.weparty.R;
+import com.weparty.domain.Share;
+import com.weparty.tools.Constant;
+
+public class ShareDialog extends Activity {

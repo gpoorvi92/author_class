@@ -1,0 +1,10 @@
+	
+	/**
+	 * Sever heartbeat event.
+	 * 
+	 * @Title: onAppSvrHeartBeat
+	 * @param source
+	 * @return: void
+	 */
+	void onAppSvrHeartBeat(Object source);
+	

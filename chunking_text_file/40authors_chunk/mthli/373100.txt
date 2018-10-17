@@ -1,0 +1,10 @@
+
+         while (true)
+         {  
+            Socket incoming = s.accept();
+            System.out.println("Spawning " + i);
+            Runnable r = new ThreadedEchoHandler(incoming);
+            Thread t = new Thread(r);
+            t.start();
+            i++;
+         }

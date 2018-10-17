@@ -1,0 +1,10 @@
+ * This program demonstrates formatting dates under various locales.
+ * @version 1.13 2007-07-25
+ * @author Cay Horstmann
+ */
+public class DateFormatTest
+{
+   public static void main(String[] args)
+   {
+      EventQueue.invokeLater(new Runnable()
+         {

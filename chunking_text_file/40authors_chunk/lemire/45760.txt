@@ -1,0 +1,10 @@
+ *
+ * @author Gregory Ssi-Yan-Kai
+ */
+interface Buffer32 {
+    /**
+     * Returns the actual size in words
+     */
+    int sizeInWords();
+
+    /**

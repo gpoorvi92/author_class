@@ -1,0 +1,10 @@
+	}
+
+	@Override
+	public void onListTags(Context context, int errorCode, List<String> tags,
+			String requestId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override

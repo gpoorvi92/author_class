@@ -1,0 +1,10 @@
+  methodNotAllowed(405),
+  requestTimeOut(408);
+
+  private final int value;
+
+  private Result(int value) {
+    this.value = value;
+  }
+
+  /**

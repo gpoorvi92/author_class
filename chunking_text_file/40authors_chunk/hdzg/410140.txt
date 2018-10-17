@@ -1,0 +1,10 @@
+			//大军来袭
+			warCount++;
+			if(warCount == 10){
+				if(Math.random() < 0.5){//一定几率触发
+					if(hero.cityList.size() != 0){//有城可攻才行
+						ArrayList<CityDrawable> alEnemy = hero.father.allCityDrawable;
+						int index = (int)(Math.random()*alEnemy.size());
+						CityDrawable  city = alEnemy.get(index);
+						ArrayList<CityDrawable> alHero = hero.getCityList();
+						int index2 = (int)(Math.random()*alHero.size());

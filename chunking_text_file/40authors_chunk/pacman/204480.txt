@@ -1,0 +1,10 @@
+		context.setAttribute(Constants.CONTEXT_MEDIA_PATH, "e:\\mp3\\mww.mp3");
+		context.setAttribute(Constants.CONTEXT_MEDIA_FULLPATH, "e:\\out\\class_audio_mp3\\0.flv");
+		context.setAttribute(Constants.CONTEXT_AUDIONLY, true);
+		context.setAttribute(Constants.CONTEXT_AUDIO_BITRATE, 128000);
+		context.setAttribute(Constants.CONTEXT_AUDIO_CODEC, "mpeg audio");
+		context.setAttribute(Constants.CONTEXT_SAMPLING, 44100);
+		context.setAttribute(Constants.CONTEXT_DURATION, 60*60*1000);
+		TranscodingStep step = new TranscodingStep();
+		step.execute(context);
+		

@@ -1,0 +1,10 @@
+               }
+            }
+         });
+
+      JMenuItem importItem = new JMenuItem("Import preferences");
+      menu.add(importItem);
+      importItem.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {

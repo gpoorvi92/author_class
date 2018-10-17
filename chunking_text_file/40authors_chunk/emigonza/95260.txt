@@ -1,0 +1,10 @@
+        makeProperty("MediumIsAvailable"),
+        makeProperty("MediumSize"),
+        makeProperty("OutputID"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("Station"),
+        makeProperty("StorageEnabled"),
+        makeProperty("Suspended"),
+        makeProperty("WaterMark"),
+

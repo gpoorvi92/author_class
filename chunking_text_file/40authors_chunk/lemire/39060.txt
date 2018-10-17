@@ -1,0 +1,10 @@
+                            .or(x);
+                    EWAHCompressedBitmap32 container = new EWAHCompressedBitmap32();
+                    FastAggregation32
+                            .legacy_orWithContainer(
+                                    container, x);
+                    assertTrue(container.equals(tanswer));
+                    EWAHCompressedBitmap32 x1 = IteratorUtil32
+                            .materialize(IteratorAggregation32
+                                    .bufferedor(IteratorUtil32
+                                            .toIterators(x)));

@@ -1,0 +1,10 @@
+		if (mblnHasFocus) {
+			g.setColor(mclrBorderSelectionColor);
+			g.drawRect(offset, 0, getWidth()-1-offset, getHeight()-1);
+		}
+
+		setForeground(mclrTextColor);
+		setBackground(mclrBackColor);
+		super.paint(g);
+    }
+}

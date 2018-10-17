@@ -1,0 +1,10 @@
+输出：
+count=100
+count=200
+count=300
+count=400
+count=500
+count=600
+count=700
+count=800
+count=900

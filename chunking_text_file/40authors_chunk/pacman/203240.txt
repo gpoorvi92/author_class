@@ -1,0 +1,10 @@
+	 */
+	@SuppressWarnings("unchecked")
+	private void parseAllFiles(Element root, LessonInfo info) {
+		
+		List<Element> pages = root.elements("page");
+		for(Element node: pages) {
+			Attribute attribute =node.attribute("thumbnailUrl");
+			if (attribute != null)
+				node.remove(attribute); 
+			

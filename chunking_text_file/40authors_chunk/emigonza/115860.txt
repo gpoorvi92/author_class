@@ -1,0 +1,10 @@
+    public String  getTrack4Data() throws JposException;
+    public String  getTrack5Data() throws JposException;
+    public String  getTrack6Data() throws JposException;
+    public int     getWriteState1() throws JposException;
+    public int     getWriteState2() throws JposException;
+    public String  getWrite1Data() throws JposException;
+    public void    setWrite1Data(String data) throws JposException;
+    public String  getWrite2Data() throws JposException;
+    public void    setWrite2Data(String data) throws JposException;
+    public String  getWrite3Data() throws JposException;

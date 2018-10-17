@@ -1,0 +1,10 @@
+  }
+
+  public FileOperate(
+    String pidName,
+    String fileDescription,
+    String filePath,
+    String operateContent,
+    String operateTime,
+    String operateType)
+  {

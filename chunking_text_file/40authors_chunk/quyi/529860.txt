@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetMinsdkversion();
+      } else {
+        setMinsdkversion((String)value);
+      }
+      break;
+
+    case APK_MD5:
+      if (value == null) {
+        unsetApk_md5();

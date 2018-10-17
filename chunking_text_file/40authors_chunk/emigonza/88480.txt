@@ -1,0 +1,3 @@
+    public void    addDirectIOListener(DirectIOListener l);
+    public void    removeDirectIOListener(DirectIOListener l);
+}

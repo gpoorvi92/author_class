@@ -1,0 +1,10 @@
+        Log.d(DEBUG_TAG, "now watching files, # total watched " + watchedFiles.size());
+    }
+
+    @Override
+    public void onStart(FileAlterationObserver fao) {
+        Log.v(DEBUG_TAG, fao.toString() + " start checking event!");
+    }
+
+    @Override
+    public void onStop(FileAlterationObserver fao) {

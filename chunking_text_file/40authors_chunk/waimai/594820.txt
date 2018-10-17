@@ -1,0 +1,10 @@
+package cn.abovesky.shopping.web.management;
+
+import cn.abovesky.shopping.base.BaseConditionVO;
+import cn.abovesky.shopping.base.BaseController;
+import cn.abovesky.shopping.common.enums.NewsSearchType;
+import cn.abovesky.shopping.common.enums.NewsType;
+import cn.abovesky.shopping.domain.News;
+import cn.abovesky.shopping.exception.ServiceException;
+import cn.abovesky.shopping.service.INewsService;
+import org.springframework.beans.factory.annotation.Autowired;

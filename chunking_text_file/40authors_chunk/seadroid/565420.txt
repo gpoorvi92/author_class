@@ -1,0 +1,10 @@
+            AVATAR_COLUMN_MTIME
+            /*AVATAR_COLUMN_IS_DEFAULT*/
+    };
+
+    public static final String [] hasAvatarProjection = {
+            AVATAR_COLUMN_SIGNATURE,
+            AVATAR_COLUMN_URL,
+            AVATAR_COLUMN_MTIME
+    };
+

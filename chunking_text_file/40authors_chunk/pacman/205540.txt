@@ -1,0 +1,9 @@
+	 * @see com.yeshj.pacman.schedule.IStep#afterExecute(com.yeshj.pacman.schedule.ExecuteContext)
+	 */
+	@Override
+	public void afterExecute(ExecuteContext context) {
+		
+		context.setLastExecuteDuration(context.timeOff() / 1000);
+		logger.info(String.format("step[%s] executed[%d ms]", name(), context.getLastExecuteDuration() / 1000));
+	}
+}

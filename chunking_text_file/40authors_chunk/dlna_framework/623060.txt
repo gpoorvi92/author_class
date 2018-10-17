@@ -1,0 +1,10 @@
+*	11/26/2003
+*		- first revision.
+*	03/30/2005
+*		- Change parse(String) to use StringBufferInputStream instead of URL.
+*	11/11/2009
+*		- Changed Parser::parser() to use ByteArrayInputStream instead of StringBufferInputStream because of bugs in Android v1.6.
+*
+******************************************************************/
+
+package org.cybergarage.xml;

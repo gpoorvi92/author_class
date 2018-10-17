@@ -1,0 +1,10 @@
+        return consumer.get();
+    }
+
+    protected DataProvider(DataConsumer consumer) {
+        this.consumer = new WeakReference<DataConsumer>(consumer);
+        mRequestFilter = new RequestQueue.RequestFilter() {
+            @Override
+            public boolean apply(Request<?> request) {
+                if (request.getTag() == null) {
+                    return false;

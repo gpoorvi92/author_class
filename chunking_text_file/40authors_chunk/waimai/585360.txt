@@ -1,0 +1,10 @@
+        return merchantMapper.getCollectionCountById(id);
+    }
+
+    @Override
+    public void changePwd(Integer id, String oldPassword, String newPassword) throws ServiceException {
+        Merchant merchant = merchantMapper.selectByPrimaryKey(id);
+        if (merchant != null && merchant.getPassword().equals(DigestUtils.md5DigestAsHex(oldPassword.getBytes()))) {
+            merchant.setPassword(DigestUtils.md5DigestAsHex(newPassword.getBytes()));
+            if (merchantMapper.updateByPrimaryKeySelective(merchant) < 1) {
+                throw new ServiceException("修改失败");

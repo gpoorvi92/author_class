@@ -1,0 +1,10 @@
+   }
+
+   private class ButtonListener implements ActionListener
+   {
+      public void actionPerformed(ActionEvent event)
+      {
+         String arg = event.getActionCommand();
+         if (arg.equals("yellow")) setBackground(Color.yellow);
+         else if (arg.equals("blue")) setBackground(Color.blue);
+         else if (arg.equals("red")) setBackground(Color.red);

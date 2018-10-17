@@ -1,0 +1,10 @@
+
+/// interface javax.swing.DesktopManager ///
+
+package org.genie.javax_swing;
+
+public class DesktopManagerProxy implements javax.swing.DesktopManager {
+
+    long swiftObject;
+
+    DesktopManagerProxy( long swiftObject ) {

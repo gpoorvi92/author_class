@@ -1,0 +1,10 @@
+                extension.equals(Utils.jpeg) ||
+                extension.equals(Utils.jpg) ||
+                extension.equals(Utils.png) ||
+                extension.equals(Utils.raw)) {
+        
+                return true;
+            } else {
+                return false;
+            }
+        }

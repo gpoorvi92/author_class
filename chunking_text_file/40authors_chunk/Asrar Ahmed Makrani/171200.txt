@@ -1,0 +1,10 @@
+
+public class book_master extends JInternalFrame implements book_master_Interface, book_master_tab_Interface, book_master_info_Interface{
+ 	
+ 	 private int paintx, painty;
+ 	 public JButton button;
+ 	 
+    public book_master() {
+        super("Book Master", 
+              true, //resizable
+              true, //closable

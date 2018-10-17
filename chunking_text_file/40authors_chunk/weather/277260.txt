@@ -1,0 +1,10 @@
+                    HttpEntity entity;
+                    entity = new ByteArrayEntity(postBody);
+                    postRequest.setEntity(entity);
+                    return postRequest;
+                } else {
+                    return new HttpGet(request.getUrl());
+                }
+            }
+            case Method.GET:
+                return new HttpGet(request.getUrl());

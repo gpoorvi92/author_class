@@ -1,0 +1,10 @@
+        // do nothing
+    }
+
+    public void setEnableHide(boolean enableHide) {
+        // do nothing
+    }
+
+    public boolean shouldHide() {
+        return false;
+    }

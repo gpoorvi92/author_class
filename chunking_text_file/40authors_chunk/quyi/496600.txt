@@ -1,0 +1,10 @@
+      if (!this.engineType.equals(that.engineType))
+        return false;
+    }
+
+    boolean this_present_nodeInfo = true && this.isSetNodeInfo();
+    boolean that_present_nodeInfo = true && that.isSetNodeInfo();
+    if (this_present_nodeInfo || that_present_nodeInfo) {
+      if (!(this_present_nodeInfo && that_present_nodeInfo))
+        return false;
+      if (!this.nodeInfo.equals(that.nodeInfo))

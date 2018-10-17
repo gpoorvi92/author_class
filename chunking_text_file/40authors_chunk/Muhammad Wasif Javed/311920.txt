@@ -1,0 +1,10 @@
+
+		//Setting the Form's Buttons.
+
+		btnFind = new JButton ("Find Book");
+		btnFind.setBounds (25, 175, 125, 25);
+		btnFind.addActionListener (this);
+		btnCancel = new JButton ("Cancel");
+		btnCancel.setBounds (165, 175, 125, 25);
+		btnCancel.addActionListener (this);
+

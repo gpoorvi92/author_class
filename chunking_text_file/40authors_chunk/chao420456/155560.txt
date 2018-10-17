@@ -1,0 +1,10 @@
+		System.out.println(s);
+	}
+	*/
+}
+
+class CodeDemo {
+	static {
+		System.out.println("BBBBB"); 
+	}
+

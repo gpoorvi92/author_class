@@ -1,0 +1,10 @@
+        struct.apkMD5 = iprot.readString();
+        struct.setApkMD5IsSet(true);
+      }
+      if (incoming.get(1)) {
+        struct.checkDate = iprot.readString();
+        struct.setCheckDateIsSet(true);
+      }
+      if (incoming.get(2)) {
+        {
+          org.apache.thrift.protocol.TList _list23 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, iprot.readI32());

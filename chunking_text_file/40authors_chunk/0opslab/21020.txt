@@ -1,0 +1,10 @@
+    public String getRemoteDir() {
+        return remoteDir;
+    }
+
+    public void setRemoteDir(String remoteDir) {
+        this.remoteDir = remoteDir;
+    }
+
+    public String getLocalDir() {
+        return localDir;

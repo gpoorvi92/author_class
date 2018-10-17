@@ -1,0 +1,10 @@
+        @Override
+        public ChannelPipeline getPipeline() throws Exception
+        {
+            ChannelPipeline p = Channels.pipeline();
+            p.addLast("encoder", new ProtocolBuffersEncoder());
+            p.addLast("decoder", new ProtocolBuffersDecoder(Rpc.RpcPacket.getDefaultInstance()));
+            p.addLast("handler", new SimpleChannelHandler()
+            {
+                @Override
+                public void channelConnected(ChannelHandlerContext ctx, ChannelStateEvent e) throws Exception

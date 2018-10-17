@@ -1,0 +1,10 @@
+		View view = inflater.inflate(R.layout.location_bubble, null);
+		TextView title = (TextView) view.findViewById(R.id.marker_title);
+		TextView content = (TextView) view.findViewById(R.id.marker_text);
+		title.getPaint().setFakeBoldText(true);
+		String jc = data.getStringValue("location_jc");
+		String wz = data.getStringValue("location_wz");
+		int lat = data.getIntValue("lat");
+		int lon = data.getIntValue("lon");
+		title.setText(jc);
+		content.setText(wz);

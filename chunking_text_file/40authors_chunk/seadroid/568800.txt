@@ -1,0 +1,10 @@
+
+            // clear editor cache
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            // delete cache failed
+            // TODO notify user
+        }
+    }
+}

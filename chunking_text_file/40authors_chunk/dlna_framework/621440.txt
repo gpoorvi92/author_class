@@ -1,0 +1,10 @@
+	}
+
+	public HTTPResponse(InputStream in)
+	{
+		super(in);
+	}
+
+	public HTTPResponse(HTTPSocket httpSock)
+	{
+		this(httpSock.getInputStream());

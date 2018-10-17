@@ -1,0 +1,10 @@
+public class LimitedInputStream extends FilterInputStream {
+
+  /** The amount of remaining bytes to allow reading. */
+  protected int m_amountOfBytesReadable;
+
+  /**
+   * Construct an instance that wraps the given input stream and decorates it
+   * with the the functionality to limit the amounts of bytes readable to the
+   * given limit.
+   * <p>

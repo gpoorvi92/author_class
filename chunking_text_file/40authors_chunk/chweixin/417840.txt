@@ -1,0 +1,10 @@
+ * */
+public class WeChatMenu implements Serializable {
+	private static final long serialVersionUID = 1L;
+	public final static int MENU_TYPE_CLICK = 1, MENU_TYPE_VIEW = 2;
+	private String id,name,code,url;
+	private Integer type,orderNo;
+	private WeChatAccount account;
+	private WeChatMenu parent;
+	private Set<WeChatMenu> children = new LinkedHashSet<WeChatMenu>();
+	/**

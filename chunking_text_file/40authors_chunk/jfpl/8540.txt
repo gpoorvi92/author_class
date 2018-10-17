@@ -1,0 +1,10 @@
+					msg.obj = v;
+					handler.sendMessage(msg);
+				} catch (XmlPullParserException e) {
+					e.printStackTrace();
+				}
+				handler.sendEmptyMessage(HIDE_LOADING);
+			}
+		}).start();
+	}
+}

@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    boolean this_present_app_size = true;
+    boolean that_present_app_size = true;
+    if (this_present_app_size || that_present_app_size) {
+      if (!(this_present_app_size && that_present_app_size))
+        return false;
+      if (this.app_size != that.app_size)
+        return false;

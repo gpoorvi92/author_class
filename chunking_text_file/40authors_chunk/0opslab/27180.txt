@@ -1,0 +1,10 @@
+                    done = det.DoIt(buf, len, false);
+                }
+            }
+            det.DataEnd();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        if (isAscii) {

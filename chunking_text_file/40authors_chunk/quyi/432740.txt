@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(6)) {
+        struct.centerResultPath = iprot.readString();
+        struct.setCenterResultPathIsSet(true);
+      }
+    }
+  }
+
+}
+

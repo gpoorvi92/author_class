@@ -1,0 +1,6 @@
+	 * @param money
+	 * @return
+	 */
+	String modifyBillsToConform(String[] ids, double money);
+	
+}

@@ -1,0 +1,10 @@
+
+    JPanel mainPanel;
+    ArrayList<JCheckBox> checkboxList;
+    Sequencer sequencer;
+    Sequence sequence;
+    Track track;
+    JFrame theFrame;
+
+    String[] instrumentNames = {"Bass Drum", "Closed Hi-Hat", 
+       "Open Hi-Hat","Acoustic Snare", "Crash Cymbal", "Hand Clap", 

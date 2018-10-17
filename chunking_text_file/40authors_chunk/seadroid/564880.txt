@@ -1,0 +1,10 @@
+    public Bitmap decodeFileDescriptor(FileDescriptor fd,
+                                       BitmapFactory.Options options) {
+        if (options.mCancel) {
+            return null;
+        }
+
+        Thread thread = Thread.currentThread();
+        if (!canThreadDecoding(thread)) {
+            Log.d(TAG, "Thread " + thread + " is not allowed to decode.");
+            return null;

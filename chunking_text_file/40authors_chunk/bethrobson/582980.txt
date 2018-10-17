@@ -1,0 +1,10 @@
+       
+       DateFormatSymbols dateStuff = new DateFormatSymbols();      
+       month = new JComboBox(dateStuff.getMonths());
+       day = new JTextField(8);
+       year = new JTextField(8);
+
+       JPanel inputPanel = new JPanel(new GridLayout(3,2));
+       inputPanel.add(new JLabel("Month"));
+       inputPanel.add(month);
+       inputPanel.add(new JLabel("Day"));

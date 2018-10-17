@@ -1,0 +1,4 @@
+        return getDefaultDisplayMetrics(false).heightPixels;
+    }
+
+}

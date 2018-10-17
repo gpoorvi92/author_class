@@ -1,0 +1,10 @@
+    case SAMPLES:
+      if (value == null) {
+        unsetSamples();
+      } else {
+        setSamples((List<com.nercis.isscp.idl.Sample>)value);
+      }
+      break;
+
+    }
+  }

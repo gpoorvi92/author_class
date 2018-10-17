@@ -1,0 +1,10 @@
+                mRequest.deliverResponse(mResponse.result);
+            } else {
+                mRequest.deliverError(mResponse.error);
+            }
+
+            // If this is an intermediate response, add a marker, otherwise we're done
+            // and the request can be finished.
+            if (mResponse.intermediate) {
+                mRequest.addMarker("intermediate-response");
+            } else {

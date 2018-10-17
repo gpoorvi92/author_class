@@ -1,0 +1,10 @@
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		mapManager = new BMapManager(getApplication());
+		mapManager.init(ConstVariables.BAIDU_API_KEY, null);
+		mkSearch = new MKSearch();
+		mkSearch.init(mapManager, new LocationSearchListener());
+		setContentView(R.layout.location);
+		setListType(false);
+

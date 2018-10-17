@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetSourcePort()).compareTo(other.isSetSourcePort());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetSourcePort()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.sourcePort, other.sourcePort);

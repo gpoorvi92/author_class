@@ -1,0 +1,10 @@
+		p1.add(username);p1.add(user);
+		p1.add(password);p1.add(pass);
+		p1.add(Login);p1.add(Cancel);
+        p1.add(cat);p1.add(cboCat);
+        ButtonListener listener=new ButtonListener();
+		Login.addActionListener(listener);
+		Cancel.addActionListener(listener);
+        p2=new JPanel();
+        p2.add(Login);	p2.add(Cancel);
+       

@@ -1,0 +1,10 @@
+      if (incoming.get(4)) {
+        struct.jvmName = iprot.readString();
+        struct.setJvmNameIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.jvmVersion = iprot.readString();
+        struct.setJvmVersionIsSet(true);
+      }
+      if (incoming.get(6)) {
+        struct.jvmMaxMem = iprot.readString();

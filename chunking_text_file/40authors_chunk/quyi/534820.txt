@@ -1,0 +1,10 @@
+      }
+      if (struct.methodName != null) {
+        oprot.writeFieldBegin(METHOD_NAME_FIELD_DESC);
+        oprot.writeString(struct.methodName);
+        oprot.writeFieldEnd();
+      }
+      if (struct.statement != null) {
+        oprot.writeFieldBegin(STATEMENT_FIELD_DESC);
+        oprot.writeString(struct.statement);
+        oprot.writeFieldEnd();

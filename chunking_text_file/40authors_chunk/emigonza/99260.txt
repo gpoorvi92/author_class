@@ -1,0 +1,10 @@
+
+            comparables.setElementAt( temp, j );
+        }
+
+        return comparables;
+    }
+
+    /**
+     * @return a Vector of sorted Comparable objects
+     * <b>NOTE:</b>implements the Merge Sort algorithm

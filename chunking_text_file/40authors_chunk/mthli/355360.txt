@@ -1,0 +1,10 @@
+      frame.add(new JScrollPane(output));
+      frame.setFocusableWindowState(false);
+      frame.setVisible(true);
+      setOutputStream(new OutputStream()
+         {
+            public void write(int b)
+            {
+            } // not called
+
+            public void write(byte[] b, int off, int len)

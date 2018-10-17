@@ -1,0 +1,10 @@
+    public void diapatch(Channel channel, Fenrisulfr.TransPacket packet)
+    {
+        int opcode = packet.getOpcode();
+        try
+        {
+            IResult result = null;
+            switch (opcode)
+            {
+                case LogicLoginOpcode.CP_Login:
+                    result = CP_Login(Logic2Login1.CP_Login.parseFrom(packet.getContent()));

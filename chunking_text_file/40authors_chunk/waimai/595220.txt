@@ -1,0 +1,6 @@
+
+    @RequestMapping("/checkUsername")
+    public @ResponseBody String checkUsername(String username) {
+        return adminService.checkUsername(username);
+    }
+}

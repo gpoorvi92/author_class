@@ -1,0 +1,10 @@
+			Thread.sleep(preSleep);
+		} catch (InterruptedException e) {
+		}
+		
+	
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+		try {
+			Method method = Class.forName(destClass).getMethod("main",
+			    String[].class );

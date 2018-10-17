@@ -1,0 +1,10 @@
+        for (SaleCount saleCount : saleCountList) {
+            map.put(saleCount.getDate(), !"2".equals(vo.getKeywords()) ? saleCount.getNumber() : saleCount.getMoney());
+        }
+        return map;
+    }
+
+    @Override
+    public List<SaleCount> findTopTen(BaseConditionVO vo) {
+        vo.setSaleCountDate(DateUtil.getSaleCountDate(vo.getStatus()));
+        return saleCountMapper.findTopTen(vo);

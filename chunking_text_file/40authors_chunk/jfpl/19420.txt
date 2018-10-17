@@ -1,0 +1,10 @@
+	@InjectionView(id = R.id.reg_pwd1)
+	private EditText pwd1Et;
+	@InjectionView(id = R.id.reg_pwd2)
+	private EditText pwd2Et;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState, R.layout.register1, "");
+	}
+

@@ -1,0 +1,10 @@
+        if(index < 0 || index >= data.length)
+            throw new ArrayIndexOutOfBoundsException((new StringBuilder()).append("illegal index: ").append(index).append(" into array of length ").append(data.length).toString());
+        if(stream == null)
+            throw new IllegalArgumentException("cannot write to nullstream");
+        long display_offset = offset + (long)index;
+        StringBuilder buffer = new StringBuilder(74);
+        for(int j = index; j < data.length; j += 16)
+        {
+            int chars_read = data.length - j;
+            if(chars_read > 16)

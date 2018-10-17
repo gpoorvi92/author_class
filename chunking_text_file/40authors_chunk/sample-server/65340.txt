@@ -1,0 +1,10 @@
+    //    public static final String                      SESSION_TARGET_ZONE = "_TARGET_ZONE_";
+    public static CenterContext getContext(HttpSession session)
+    {
+        return getAttribute(AttributeManager.SESSION_ATTR_CTX, session);
+    }
+    public static <T> T getAttribute(AttributeKey<T> key, HttpSession session)
+    {
+        return (T) session.getAttribute(key.getKeyName());
+    }
+    public static <T> T getAttribute(AttributeKey<T> key, HttpServletRequest request)

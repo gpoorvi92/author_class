@@ -1,0 +1,10 @@
+    this.cpuVendor = null;
+    this.cpuModel = null;
+    setCpuCoresIsSet(false);
+    this.cpuCores = 0;
+    setCpuMhzIsSet(false);
+    this.cpuMhz = 0;
+    setMemSizeIsSet(false);
+    this.memSize = 0;
+    setFsSizeIsSet(false);
+    this.fsSize = 0;

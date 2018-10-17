@@ -1,0 +1,10 @@
+        /** ETag for cache coherency. */
+        public String etag;
+
+        /** Date of this response as reported by the server. */
+        public long serverDate;
+
+        /** TTL for this record. */
+        public long ttl;
+
+        /** Soft TTL for this record. */

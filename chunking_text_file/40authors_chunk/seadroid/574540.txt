@@ -1,0 +1,10 @@
+            onReleaseResources(oldData);
+    }
+
+    @Override
+    protected void onStartLoading() {
+        if (mData != null)
+            deliverResult(mData);
+
+        if (mFileObserver == null) {
+            mFileObserver = new FileObserver(mPath, FILE_OBSERVER_MASK) {

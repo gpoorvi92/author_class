@@ -1,0 +1,10 @@
+ */
+public class SearchAdapter extends BaseAdapter {
+
+    private List<SearchedFile> items;
+    private SearchActivity mActivity;
+
+    public SearchAdapter(SearchActivity activity) {
+        this.mActivity = activity;
+        items = Lists.newArrayList();
+    }

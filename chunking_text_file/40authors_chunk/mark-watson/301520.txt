@@ -1,0 +1,10 @@
+	      if (wordPairCounts.get(pair) > 1) {
+	          System.out.println(pair + ": " + wordPairCounts.get(pair));
+	      }
+	    }
+	}
+	
+	private List<String> edits(String word) {
+		int wordL = word.length(), wordLm1 = wordL - 1;
+		List<String> possible = new ArrayList<String>();
+		// drop a character:

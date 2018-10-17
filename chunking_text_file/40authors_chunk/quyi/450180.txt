@@ -1,0 +1,10 @@
+    }
+
+    public void ruleSync(List<com.nercis.isscp.idl.rules.Rules> rules, org.apache.thrift.async.AsyncMethodCallback resultHandler) throws org.apache.thrift.TException {
+      checkReady();
+      ruleSync_call method_call = new ruleSync_call(rules, resultHandler, this, ___protocolFactory, ___transport);
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class ruleSync_call extends org.apache.thrift.async.TAsyncMethodCall {

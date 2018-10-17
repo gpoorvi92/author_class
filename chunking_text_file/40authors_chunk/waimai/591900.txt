@@ -1,0 +1,10 @@
+        vo.setTotalCount(remarkMapper.getTotalCount(vo));
+        return remarkList;
+    }
+
+    @Override
+    public void delete(String[] ids) throws ServiceException {
+        for (String id : ids) {
+            if (remarkMapper.deleteByPrimaryKey(Integer.valueOf(id.split("_")[0])) > 0) {
+                goodsMapper.subRemarkCount(Integer.valueOf(id.split("_")[1]));
+            } else {

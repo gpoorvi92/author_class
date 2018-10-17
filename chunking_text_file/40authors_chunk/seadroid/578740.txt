@@ -1,0 +1,10 @@
+    public boolean isGroupRepo;
+    public boolean encrypted;
+    public String permission;
+
+    public long    size;
+    public String  root; // the id of root directory
+
+    static SeafRepo fromJson(JSONObject obj) {
+        SeafRepo repo = new SeafRepo();
+        try {

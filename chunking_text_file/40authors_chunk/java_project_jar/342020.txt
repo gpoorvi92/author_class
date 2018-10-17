@@ -1,0 +1,10 @@
+    public double readDouble()
+        throws IOException, EOFException
+    {
+        return EndianUtils.readSwappedDouble(in);
+    }
+
+    public float readFloat()
+        throws IOException, EOFException
+    {
+        return EndianUtils.readSwappedFloat(in);

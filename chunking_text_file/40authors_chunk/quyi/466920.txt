@@ -1,0 +1,10 @@
+			userApp.setAppFilePath(userAppInfo.getAppPath());
+			userApps.add(userApp);
+		}
+		appSendMessage.setUserApps(userApps);
+		message.setObject(appSendMessage);
+		long time = System.currentTimeMillis();
+		producer.send(message);
+
+		session.commit();
+		// connection.close();

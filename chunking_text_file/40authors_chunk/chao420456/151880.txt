@@ -1,0 +1,10 @@
+ * 这是测试类
+ */
+public class UserTest {
+	public static void main(String[] args) {
+		wc: while (true) {
+			// 欢迎界面
+			System.out.println("-----------欢迎光临------------");
+			System.out.println("1 登录");
+			System.out.println("2 注册");
+			System.out.println("3 退出");

@@ -1,0 +1,10 @@
+
+    private Float totalPrice;
+
+    private String address;
+
+    private Integer userId;
+
+    private User user;
+
+    private String orderNumber;

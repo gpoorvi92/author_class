@@ -1,0 +1,10 @@
+			// wv.pauseTimers();
+			// wv.clearFormData();
+			// wv.clearAnimation();
+			// wv.clearDisappearingChildren();
+			// wv.clearView();
+			// wv.clearCache(true);
+			// wv.clearHistory();
+			// wv.clearMatches();
+			// wv.clearSslPreferences();
+			// wv.destroyDrawingCache();

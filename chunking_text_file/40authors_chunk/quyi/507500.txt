@@ -1,0 +1,10 @@
+  public AppDetectResult setUsedPermissions(List<Map<String,APICheck>> usedPermissions) {
+    this.usedPermissions = usedPermissions;
+    return this;
+  }
+
+  public void unsetUsedPermissions() {
+    this.usedPermissions = null;
+  }
+
+  /** Returns true if field usedPermissions is set (has been assigned a value) and false otherwise */

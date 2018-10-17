@@ -1,0 +1,10 @@
+        }
+        progressBar.setProgress(percent);
+
+        String txt = Utils.readableFileSize(finished) + " / " + Utils.readableFileSize(fileSize);
+
+        fileSizeText.setText(txt);
+    }
+
+    /**
+     * Handle screen rotation

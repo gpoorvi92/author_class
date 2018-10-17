@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @return the exception
+	 */
+	public Exception getException() {
+		
+		return exception;
+	}
+

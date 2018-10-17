@@ -1,0 +1,10 @@
+package com.seafile.seadroid2.monitor;
+
+import com.google.common.base.Objects;
+import com.seafile.seadroid2.account.Account;
+
+class AutoUpdateInfo {
+    final Account account;
+    final String repoID;
+    final String repoName;
+    final String parentDir;

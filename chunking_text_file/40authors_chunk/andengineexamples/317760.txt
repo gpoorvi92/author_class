@@ -1,0 +1,10 @@
+			});
+
+			this.mTexture.load();
+			this.mFaceTextureRegion = TextureRegionFactory.extractFromTexture(this.mTexture);
+		} catch (IOException e) {
+			Debug.e(e);
+		}
+	}
+
+	@Override

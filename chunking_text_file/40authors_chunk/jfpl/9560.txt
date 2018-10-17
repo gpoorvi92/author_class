@@ -1,0 +1,10 @@
+					String _str = arr[0];
+					arr = new String[] { _str, "" };
+				}
+				acd.putObjectValue(
+						"tag",
+						new String[] { arr[0], arr[1],
+								acd.getStringValue("arg1"),
+								acd.getStringValue("arg2") });
+			}
+		}

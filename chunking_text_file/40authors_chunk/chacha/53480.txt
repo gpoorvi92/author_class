@@ -1,0 +1,6 @@
+			log.error("CommandHandler handleLogout exception",e);
+		}finally{
+			return JsonPojoMapper.toJson(response, true);
+		}
+	}
+}

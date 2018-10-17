@@ -1,0 +1,10 @@
+			sock.addSearchListener(listener);
+		}
+	}		
+
+	////////////////////////////////////////////////
+	//	Methods
+	////////////////////////////////////////////////
+	
+	public boolean open() {
+		InetAddress[] binds=this.binds;

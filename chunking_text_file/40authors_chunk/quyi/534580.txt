@@ -1,0 +1,10 @@
+              struct.objectName = iprot.readString();
+              struct.setObjectNameIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 5: // METHOD_NAME
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.methodName = iprot.readString();
+              struct.setMethodNameIsSet(true);

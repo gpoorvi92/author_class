@@ -1,0 +1,10 @@
+
+    /**
+     * 16 位 UCS 转换格式，Little-endian（最高地址存放低位字节）字节顺序
+     */
+    public static final String UTF_16LE = "UTF-16LE";
+
+    /**
+     * 16 位 UCS 转换格式，字节顺序由可选的字节顺序标记来标识
+     */
+    public static final String UTF_16 = "UTF-16";

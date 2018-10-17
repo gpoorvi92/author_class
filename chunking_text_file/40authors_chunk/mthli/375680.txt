@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent event)
+            {
+               if (urlStack.size() <= 1) return;
+               try
+               {
+                  // get URL from back button
+                  urlStack.pop();
+                  // show URL in text field
+                  String urlString = urlStack.peek();
+                  url.setText(urlString);

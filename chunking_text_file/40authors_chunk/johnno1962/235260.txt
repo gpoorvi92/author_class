@@ -1,0 +1,10 @@
+
+/// interface java.awt.dnd.DragSourceListener ///
+
+package org.genie.java_awt;
+
+public class DragSourceListenerProxy implements java.awt.dnd.DragSourceListener {
+
+    long swiftObject;
+
+    DragSourceListenerProxy( long swiftObject ) {

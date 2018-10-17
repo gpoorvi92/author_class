@@ -1,0 +1,10 @@
+package search.maze;
+
+/**
+ * 2D Maze Search: Performs a depth first search in a maze
+ *
+ * <p/>
+ * Copyright 1998-2012 by Mark Watson. All rights reserved.
+ * <p/>
+ * This software is can be used under either of the following licenses:
+ * <p/>

@@ -1,0 +1,10 @@
+    @Test
+    public void testGetInterfaces()  {
+        String[] interfaces = ClassUtil.getInterfaces("java.util.List",false);
+        System.out.println(Arrays.toString(interfaces));
+        interfaces = ClassUtil.getInterfaces("model.BusinessLog",false);
+        System.out.println(Arrays.toString(interfaces));
+
+        interfaces = ClassUtil.getInterfaces("model.BusinessLog",true);
+        System.out.println(Arrays.toString(interfaces));
+    }

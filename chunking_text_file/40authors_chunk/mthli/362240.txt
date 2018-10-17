@@ -1,0 +1,10 @@
+package urlConnection;
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+/**
+ * This program connects to an URL and displays the response header data and the first 10 lines of
+ * the requested data.
+ * 

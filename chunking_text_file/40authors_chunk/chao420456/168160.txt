@@ -1,0 +1,10 @@
+		// FileInputStream fis = new FileInputStream("fis.txt");
+		FileInputStream fis = new FileInputStream("FileOutputStreamDemo.java");
+
+		// 调用方法，读取数据
+		// 第一次读取
+		// int by = fis.read();
+		// System.out.println(by);
+		// System.out.println((char) by);
+		//
+		// // 第二次读取

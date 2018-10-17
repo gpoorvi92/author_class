@@ -1,0 +1,10 @@
+          sequencer.setSequence(seq);
+
+          sequencer.start();
+          sequencer.setTempoInBPM(220);
+      } catch (Exception ex) {ex.printStackTrace();}
+
+    } // close actionperformed
+   } // close inner class
+
+

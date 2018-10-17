@@ -1,0 +1,10 @@
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetImageContent()).compareTo(other.isSetImageContent());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetImageContent()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.imageContent, other.imageContent);

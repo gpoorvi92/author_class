@@ -1,0 +1,10 @@
+      StringTokenizer parser = new StringTokenizer(lineToParse, "/");
+      if (parser.hasMoreTokens()) {
+         QuizCard card = new QuizCard(parser.nextToken(), parser.nextToken());
+         cardList.add(card);
+      }
+   }
+
+   private void showNextCard() {
+        currentCard = (QuizCard) cardIterator.next();
+        display.setText(currentCard.getQuestion());

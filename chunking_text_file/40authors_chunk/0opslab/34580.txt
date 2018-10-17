@@ -1,0 +1,10 @@
+                } else
+                    output += java.lang.Character.toString(input[i]);
+            }
+        } catch (BadHanyuPinyinOutputFormatCombination e) {
+            e.printStackTrace();
+        }
+        return output;
+    }
+
+    /**

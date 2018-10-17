@@ -1,0 +1,10 @@
+   {
+      return new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               try
+               {
+                  getAppletContext().showDocument(new URL(urlString));
+               }
+               catch (MalformedURLException e)

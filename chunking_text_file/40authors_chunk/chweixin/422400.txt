@@ -1,0 +1,10 @@
+	 * @param name
+	 * 	公众号名称。
+	 * */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * 获取公众号账号。
+	 * @return 公众号账号。
+	 * */

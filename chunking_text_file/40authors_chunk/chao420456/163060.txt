@@ -1,0 +1,10 @@
+		Arrays.sort(arr);
+
+		// 把排序后的整数数组转换成字符串
+		StringBuilder sb = new StringBuilder();
+		for (int x = 0; x < arr.length; x++) {
+			if (x == arr.length - 1) {
+				sb.append(arr[x]);
+			} else {
+				sb.append(arr[x]).append(" ");
+			}

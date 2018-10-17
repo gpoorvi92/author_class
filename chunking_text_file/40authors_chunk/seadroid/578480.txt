@@ -1,0 +1,10 @@
+    }
+
+    public Bitmap fullSizeBitmap(int minSideLength, int maxNumberOfPixels,
+            boolean rotateAsNeeded, boolean useNative) {
+        Uri url = mContainer.contentUri(mId);
+        if (url == null) return null;
+
+        Bitmap b = Util.makeBitmap(minSideLength, maxNumberOfPixels,
+                url, mContentResolver, useNative);
+

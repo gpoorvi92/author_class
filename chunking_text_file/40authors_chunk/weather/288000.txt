@@ -1,0 +1,10 @@
+
+    public void setListImageEntity(List<ImageEntity> listImageEntity) {
+        this.listImageEntity = listImageEntity;
+    }
+
+    public String getImagePathDirectory() {
+        return imagePathDirectory;
+    }
+
+    public void setImagePathDirectory(String imagePathDirectory) {

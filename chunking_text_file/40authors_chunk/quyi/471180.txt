@@ -1,0 +1,10 @@
+      args.setStatus(status);
+      args.setUsedPermissions(usedPermissions);
+      args.setStcRD(stcRD);
+      args.setDycRD(dycRD);
+      args.setVirRD(virRD);
+      sendBase("updateAppStatus", args);
+    }
+
+    public com.nercis.isscp.idl.Result recv_updateAppStatus() throws com.nercis.isscp.idl.InvalidRequestException, com.nercis.isscp.idl.UnavailableException, org.apache.thrift.TException
+    {

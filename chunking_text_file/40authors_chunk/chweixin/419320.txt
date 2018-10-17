@@ -1,0 +1,10 @@
+	 * @param menu
+	 * 微信用户最后点击菜单代码。
+	 * @param type
+	 * 微信请求消息类型。
+	 * @param data
+	 * 微信请求数据。
+	 */
+	public RemoteData(String userId,String menu,String type,String data){
+		this.setUserId(userId);
+		this.setMenu(menu);

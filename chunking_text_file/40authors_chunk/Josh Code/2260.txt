@@ -1,0 +1,10 @@
+
+    public static double magnitude(Vector3D v)
+    {
+        return Math.sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
+    }
+
+    /** sets the components of the vector v to one of the same direction but magnitude of 1
+     */
+    public static void asUnitVector(Vector3D v)
+    { 

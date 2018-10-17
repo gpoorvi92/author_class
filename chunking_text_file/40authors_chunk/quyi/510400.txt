@@ -1,0 +1,10 @@
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.MD5, other.MD5);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCheckEngineNum()).compareTo(other.isSetCheckEngineNum());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetCheckEngineNum()) {

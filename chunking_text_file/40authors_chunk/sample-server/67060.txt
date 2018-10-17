@@ -1,0 +1,10 @@
+        {
+            ZoneDao ret = daoPool.get(dbUrl);
+            if (null == ret)
+            {
+                ret = getDao0(dbUrl, dbUsername, dbPasswd);
+                ZoneDao old = daoPool.putIfAbsent(dbUrl, ret);
+                if (null != old)
+                {
+                    ret = old;
+                }

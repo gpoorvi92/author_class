@@ -1,0 +1,10 @@
+	}
+}
+
+class Pig extends Animal {
+	public void eat(){
+		System.out.println("Öí³ÔËÇÁÏ");
+	}
+
+	public void sport(){
+		System.out.println("Öí°®Ë¯¾õ");

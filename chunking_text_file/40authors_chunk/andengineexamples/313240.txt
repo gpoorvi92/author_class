@@ -1,0 +1,10 @@
+			}
+		};
+		scene.attachChild(clickToUnload);
+
+		scene.registerTouchArea(clickToUnload);
+
+		return scene;
+	}
+
+	// ===========================================================

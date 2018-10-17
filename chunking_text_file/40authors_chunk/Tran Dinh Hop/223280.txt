@@ -1,0 +1,10 @@
+byte[] entry; 
+HashNode next; 
+
+public HashNode(int c, byte[] e) 
+{ 
+	code = c; 
+	entry = e; 
+	next = null; 
+} 
+

@@ -1,0 +1,10 @@
+
+	/**
+	 * @return true if the PropInfo is already in the list
+	 * @param propInfo the propInfo
+	 */
+	public boolean contains( PropInfo propInfo ) { return list.contains( propInfo ); }
+
+	/** @return an PropInfoList.Iterator object for this list */
+	public PropInfoList.Iterator iterator() { return this.new DefaultIterator(); }
+

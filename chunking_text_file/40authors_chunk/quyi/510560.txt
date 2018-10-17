@@ -1,0 +1,10 @@
+    if (!first) sb.append(", ");
+    sb.append("checkEngineNum:");
+    sb.append(this.checkEngineNum);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("positives:");
+    sb.append(this.positives);
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("virusEngine:");

@@ -1,0 +1,10 @@
+import javax.jms.Message;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import com.yeshj.pacman.config.AppConfig;
+import com.yeshj.pacman.dao.IMediainfoDAO;
+import com.yeshj.pacman.dao.ITaskDAO;
+import com.yeshj.pacman.jms.IMQListener;
+import com.yeshj.pacman.jms.message.BaseMessage;

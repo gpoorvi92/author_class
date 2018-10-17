@@ -1,0 +1,10 @@
+        if (loaderManager == null)
+            return false;
+
+        /* find a loader */
+        for (Integer id : mLoaderPool) {
+            Loader<D> loader = loaderManager.getLoader(id);
+            if (loader == null) {
+
+                if (ENABLE_VERBOSE)
+                    DebugLog.vfmt(TAG, "initLoader %d", id);

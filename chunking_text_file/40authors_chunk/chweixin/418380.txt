@@ -1,0 +1,10 @@
+	private IWeChatDefaultReplyDao weChatDefaultReplyDao;
+	private IWeChatAccountDao weChatAccountDao;
+	/**
+	 * 设置默认回复数据接口。
+	 * @param weChatDefaultReplyDao
+	 * 默认回复数据接口。
+	 * */
+	public void setWeChatDefaultReplyDao(IWeChatDefaultReplyDao weChatDefaultReplyDao) {
+		this.weChatDefaultReplyDao = weChatDefaultReplyDao;
+	}

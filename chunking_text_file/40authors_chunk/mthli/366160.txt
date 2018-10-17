@@ -1,0 +1,10 @@
+package textChange;
+
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.event.*;
+
+/**
+ * A frame with three text fields to set the background color.
+ */
+public class ColorFrame extends JFrame

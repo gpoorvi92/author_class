@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean delete(SmallPriceCut cut) {
+		try {
+			sessionFactory.getCurrentSession().delete(cut);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

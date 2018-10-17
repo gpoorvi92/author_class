@@ -1,0 +1,10 @@
+      add(nameField, gbc);
+
+      dialogButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               chooser.setFileFilter(new FileNameExtensionFilter(Arrays.toString(extensions),
+                     extensions));
+               int r = chooser.showOpenDialog(null);
+               if (r == JFileChooser.APPROVE_OPTION)

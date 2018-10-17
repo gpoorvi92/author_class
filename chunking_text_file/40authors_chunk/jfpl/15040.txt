@@ -1,0 +1,10 @@
+		this.title = intent.getStringExtra("title");
+		this.id = intent.getStringExtra("busi_type");
+		this.serial = intent.getStringExtra("busi_serial");
+		GlobalVariables.chatAppId = this.id;
+		GlobalVariables.chatAppSerial = this.serial;
+		if (StringUtil.isNull(this.id)) {
+			this.id = ConstVariables.CHAT_DEFAULT_BUSITYPE;
+
+		}
+		if (StringUtil.isNull(this.title)) {

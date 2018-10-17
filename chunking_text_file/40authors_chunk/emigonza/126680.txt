@@ -1,0 +1,4 @@
+    public void    removeDirectIOListener(DirectIOListener l);
+    public void    addStatusUpdateListener(StatusUpdateListener l);
+    public void    removeStatusUpdateListener(StatusUpdateListener l);
+}

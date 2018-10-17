@@ -1,0 +1,10 @@
+                  {
+                     numberText.setText("Parse error: " + s);
+                  }
+               }
+               catch (ParseException e)
+               {
+                  numberText.setText("Parse error: " + s);
+               }
+            }
+         });

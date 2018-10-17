@@ -1,0 +1,10 @@
+import org.chacha.entity.Response;
+import org.chacha.entity.ResponseCode;
+import org.chacha.log.LogPrn;
+import org.chacha.model.Account;
+
+/**
+ * 
+ *	@author: Fully
+ */
+public class AccountManageContextImpl implements AccountManageContext{

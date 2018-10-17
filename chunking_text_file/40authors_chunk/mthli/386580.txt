@@ -1,0 +1,10 @@
+class PrintPreviewCanvas extends JComponent
+{
+   private Book book;
+   private int currentPage;
+
+   /**
+    * Constructs a print preview canvas.
+    * @param b the book to be previewed
+    */
+   public PrintPreviewCanvas(Book b)

@@ -1,0 +1,10 @@
+         });
+
+      JButton closeButton = new JButton("Close");
+      buttonPanel.add(closeButton);
+      closeButton.addActionListener(new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               setVisible(false);
+            }

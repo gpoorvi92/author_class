@@ -1,0 +1,10 @@
+	 */
+	public long getTotalFileSize() {
+		return totalFileSize;
+	}
+
+	
+	public void setTotalFileSize(long totalFileSize) {
+		this.totalFileSize = totalFileSize;
+	}
+

@@ -1,0 +1,10 @@
+http://www.broadview.com.cn/27006
+*/
+
+package io.github.viscent.mtpattern.ch1;
+
+public class ThreadCreationViaSubclass {
+
+	public static void main(String[] args) {
+		Thread thread = new CustomThread();
+		thread.start();

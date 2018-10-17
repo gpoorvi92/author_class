@@ -1,0 +1,10 @@
+      }
+      if (incoming.get(5)) {
+        {
+          org.apache.thrift.protocol.TList _list74 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRUCT, iprot.readI32());
+          struct.systemResources = new ArrayList<SystemResources>(_list74.size);
+          for (int _i75 = 0; _i75 < _list74.size; ++_i75)
+          {
+            SystemResources _elem76;
+            _elem76 = new SystemResources();
+            _elem76.read(iprot);

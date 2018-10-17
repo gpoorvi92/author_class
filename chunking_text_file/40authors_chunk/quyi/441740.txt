@@ -1,0 +1,10 @@
+    switch (field) {
+    case PID_NAME:
+      return isSetPidName();
+    case SOURCE_ADDRESS:
+      return isSetSourceAddress();
+    case SOURCE_PORT:
+      return isSetSourcePort();
+    case TARGET_ADDRESS:
+      return isSetTargetAddress();
+    case TARGET_PORT:

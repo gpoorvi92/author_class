@@ -1,0 +1,10 @@
+          com.nercis.isscp.idl.PlotsType other_element_key = other_element.getKey();
+          com.nercis.isscp.idl.CheckResultStatus other_element_value = other_element.getValue();
+
+          com.nercis.isscp.idl.PlotsType __this__plotsStatus_copy_key = other_element_key;
+
+          com.nercis.isscp.idl.CheckResultStatus __this__plotsStatus_copy_value = other_element_value;
+
+          __this__plotsStatus.put(__this__plotsStatus_copy_key, __this__plotsStatus_copy_value);
+        }
+        this.plotsStatus = __this__plotsStatus;

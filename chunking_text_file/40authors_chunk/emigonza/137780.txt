@@ -1,0 +1,10 @@
+        makeProperty("PowerFailDelayTime"),
+        makeProperty("PowerNotify"),
+        makeProperty("PowerState"),
+        makeProperty("QuickChargeMode"),
+        makeProperty("QuickChargeTime"),
+        makeProperty("UPSChargeState"),
+        makeProperty("BatteryCapacityRemaining"),
+        makeProperty("BatteryCriticallyLowThreshold"),
+        makeProperty("BatteryLowThreshold"),
+        makeProperty("PowerSource")

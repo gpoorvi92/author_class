@@ -1,0 +1,10 @@
+                  }
+              }
+              f = new File(filename);
+              ModelSaver.saveTo(mv.getModel(),f);
+          }
+          catch (Throwable t)
+          {
+              t.printStackTrace();
+              JOptionPane.showMessageDialog(mv,"Unable to save properly.");
+          }

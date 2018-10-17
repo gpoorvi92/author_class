@@ -1,0 +1,10 @@
+	
+	ShapeLayerModel model;
+	
+	RenderSurface renderSurface;
+	
+	
+	public LineLayer(ShapeLayerModel model, RenderSurface renderSurface)
+	{
+		super(model, renderSurface);
+		this.model = model;

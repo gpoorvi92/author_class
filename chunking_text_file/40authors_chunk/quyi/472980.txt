@@ -1,0 +1,10 @@
+      }
+
+      public queryMission_args getEmptyArgsInstance() {
+        return new queryMission_args();
+      }
+
+      public AsyncMethodCallback<List<com.nercis.isscp.idl.AppCheckResult>> getResultHandler(final AsyncFrameBuffer fb, final int seqid) {
+        final org.apache.thrift.AsyncProcessFunction fcall = this;
+        return new AsyncMethodCallback<List<com.nercis.isscp.idl.AppCheckResult>>() { 
+          public void onComplete(List<com.nercis.isscp.idl.AppCheckResult> o) {

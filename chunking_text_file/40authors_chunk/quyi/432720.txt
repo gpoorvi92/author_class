@@ -1,0 +1,10 @@
+            _elem31 = new APICheck();
+            _elem31.read(iprot);
+            struct.apiCheck.add(_elem31);
+          }
+        }
+        struct.setApiCheckIsSet(true);
+      }
+      if (incoming.get(5)) {
+        struct.reportPath = iprot.readString();
+        struct.setReportPathIsSet(true);

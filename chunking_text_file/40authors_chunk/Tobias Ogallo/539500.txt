@@ -1,0 +1,10 @@
+		reportingPanel.add(new JLabel("Bus Report"),BorderLayout.NORTH);
+		reportingPanel.add(panel,BorderLayout.SOUTH);
+		
+		reportPanel=new JPanel();
+		reportPanel.setLayout(new GridLayout(1,1));
+		reportPanel.setBorder(BorderFactory.createMatteBorder(4,4,4,4,Color.blue));
+		reportPanel.setBackground(Color.white);
+		
+		reportingPanel.add(new JScrollPane(reportPanel),BorderLayout.CENTER);
+		listsTabs.add(reportingPanel);

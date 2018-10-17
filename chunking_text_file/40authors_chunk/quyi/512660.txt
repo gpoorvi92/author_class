@@ -1,0 +1,10 @@
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public void start(I iface, reportEngineConfig_args args, org.apache.thrift.async.AsyncMethodCallback<String> resultHandler) throws TException {
+        iface.reportEngineConfig(resultHandler);
+      }
+    }
+
+    public static class reportTaskManagerConfig<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, reportTaskManagerConfig_args, String> {

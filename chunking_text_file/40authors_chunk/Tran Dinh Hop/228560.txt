@@ -1,0 +1,10 @@
+	}
+		
+
+     // Load the source image.
+     private PlanarImage loadImage(String imageName) {
+		     ParameterBlock pb = (new ParameterBlock()).add(imageName);
+		     PlanarImage piSrc = JAI.create("fileload", pb);
+	          if (piSrc == null) {
+	             System.out.println("Error in loading image " + imageName);
+	          }

@@ -1,0 +1,10 @@
+// the software and its documentation for any purpose is hereby granted.
+//
+// MotionSensorConst
+//
+//   Motion Sensor constants for JavaPOS Applications.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 01-Jul-2002 JavaPOS Release 1.7                                 BS
+//

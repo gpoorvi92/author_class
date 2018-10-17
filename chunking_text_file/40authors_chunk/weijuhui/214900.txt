@@ -1,0 +1,10 @@
+        return new EditActivity_.IntentBuilder_(context);
+    }
+
+    private void injectExtras_() {
+        Intent intent_ = getIntent();
+        Bundle extras_ = intent_.getExtras();
+        if (extras_!= null) {
+            if (extras_.containsKey("flag")) {
+                try {
+                    flag = ((Integer) extras_.get("flag"));

@@ -1,0 +1,10 @@
+
+  public void unsetApp_name() {
+    this.app_name = null;
+  }
+
+  /** Returns true if field app_name is set (has been assigned a value) and false otherwise */
+  public boolean isSetApp_name() {
+    return this.app_name != null;
+  }
+

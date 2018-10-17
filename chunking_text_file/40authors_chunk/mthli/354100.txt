@@ -1,0 +1,7 @@
+
+      // set font to italic if the class is abstract, plain otherwise
+      if ((c.getModifiers() & Modifier.ABSTRACT) == 0) setFont(plainFont);
+      else setFont(italicFont);
+      return this;
+   }
+}

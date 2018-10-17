@@ -1,0 +1,10 @@
+                  String _elem5;
+                  _elem5 = iprot.readString();
+                  struct.enginePlots.add(_elem5);
+                }
+                iprot.readListEnd();
+              }
+              struct.setEnginePlotsIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }

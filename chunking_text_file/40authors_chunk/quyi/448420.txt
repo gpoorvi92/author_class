@@ -1,0 +1,10 @@
+        oprot.writeFieldEnd();
+      }
+      if (struct.jvmMaxMem != null) {
+        oprot.writeFieldBegin(JVM_MAX_MEM_FIELD_DESC);
+        oprot.writeString(struct.jvmMaxMem);
+        oprot.writeFieldEnd();
+      }
+      oprot.writeFieldStop();
+      oprot.writeStructEnd();
+    }

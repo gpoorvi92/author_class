@@ -1,0 +1,10 @@
+
+    protected ModelAndView ajaxDone(int statusCode, String message, String confirmMsg, String navTabId, String rel, String callbackType, String forwardUrl) {
+        ModelAndView mav = new ModelAndView("ajaxDone");
+        mav.addObject("statusCode", statusCode);
+        mav.addObject("message", message);
+        mav.addObject("confirmMsg", confirmMsg);
+        mav.addObject("navTabId", navTabId);
+        mav.addObject("rel", rel);
+        mav.addObject("callbackType", callbackType);
+        mav.addObject("forwardUrl", forwardUrl);

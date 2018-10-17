@@ -1,0 +1,10 @@
+public class Run9_awaitUniterruptibly1 {
+    public static void main(String[] args) {
+        try {
+            Service1 service = new Service1();
+            Thread1 thread = new Thread1(service);
+            thread.start();
+            Thread.sleep(3000);
+            thread.interrupt();
+        } catch (InterruptedException e) {
+            e.printStackTrace();

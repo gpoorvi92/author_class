@@ -1,0 +1,10 @@
+      this.cg = cg;
+      cpg = cg.getConstantPool();
+   }
+
+   /**
+    * converts the class by inserting the logging calls.
+    */
+   public void convert() throws IOException
+   {
+      for (Method m : cg.getMethods())

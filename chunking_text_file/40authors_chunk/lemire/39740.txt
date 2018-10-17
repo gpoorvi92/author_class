@@ -1,0 +1,10 @@
+    public int sizeInWords() {
+        return this.actualSizeInWords;
+    }
+
+    @Override
+    public void ensureCapacity(int capacity) {
+        if(capacity > buffer.capacity()) {
+            throw new RuntimeException("Cannot increase buffer capacity. Current capacity: " + buffer.capacity() + ". New capacity: " + capacity);
+        }
+    }

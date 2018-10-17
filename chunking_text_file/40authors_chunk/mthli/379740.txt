@@ -1,0 +1,10 @@
+               super.initialize(type, oldInstance, newInstance, out);
+               BitSet bs = (BitSet) oldInstance;
+               for (int i = bs.nextSetBit(0); i >= 0; i = bs.nextSetBit(i + 1))
+                  out.writeStatement(new Statement(bs, "set", new Object[] { i, i + 1, true }));
+            }
+         });
+
+      out.writeObject(new Employee("Harry Hacker", 50000, 1989, 10, 1));
+      out.writeObject(new Point(17, 29));
+      out.writeObject(new java.awt.geom.Rectangle2D.Double(5, 10, 20, 30));

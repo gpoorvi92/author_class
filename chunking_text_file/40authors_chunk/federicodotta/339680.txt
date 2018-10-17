@@ -1,0 +1,10 @@
+     */
+    int getNumErrors();
+
+    /**
+     * This method returns the number of attack insertion points being used for
+     * the scan queue item.
+     *
+     * @return The number of attack insertion points being used for the scan
+     * queue item.
+     */

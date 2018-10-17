@@ -1,0 +1,10 @@
+	 * 查询条件。
+	 * @param hql
+	 * HQL
+	 * @param parameters
+	 * 参数集合。
+	 * @return
+	 * HQL
+	 * */
+	protected String addWhere(WeChatAccessTokenInfo info, String hql,Map<String, Object> parameters) {
+		if(info.getAccountName() != null && !info.getAccountName().trim().isEmpty()){

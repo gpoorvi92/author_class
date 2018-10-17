@@ -1,0 +1,10 @@
+			logger.info("接收请求，处理中...");
+			logger.info("接收请求url：" + req.getRequestURI());
+			logger.info("请求源地址：" + req.getRemoteAddr());
+			logger.info("请求主机：" + req.getRemoteHost());
+			
+			String respMsg = this.coreService.processRequest(req);
+			logger.info("响应消息：\r\n" + respMsg);
+			if(respMsg == null) respMsg = "";
+			
+			PrintWriter out = resp.getWriter();

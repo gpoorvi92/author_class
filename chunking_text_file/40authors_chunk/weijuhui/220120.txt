@@ -1,0 +1,10 @@
+        topView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, topTextSize);
+        bottomView = new TextView(context);
+        bottomView.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.TOP);
+        bottomView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, bottomTextSize);
+        topView.setLineSpacing(0, lineHeight);
+        if (isCenterView) {
+            isCenter = true;
+            topView.setTypeface(Typeface.DEFAULT_BOLD);
+            topView.setTextColor(0xFF333333);
+            bottomView.setTypeface(Typeface.DEFAULT_BOLD);

@@ -1,0 +1,10 @@
+
+    /**
+     * 发送通知给引擎接收待检批次接口
+     * 1:missionId 任务批号
+     * 2:userApps 应用列表
+     * 4:rules  规则数组
+     * 5:plots 检测策略
+     * 
+     * @param missionId
+     * @param userApps

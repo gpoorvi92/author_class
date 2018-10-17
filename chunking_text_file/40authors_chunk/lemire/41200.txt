@@ -1,0 +1,10 @@
+            for (int j = m; j >= 1; --j) {
+                v[j] |= (c & v[j - 1]);
+            }
+            v[0] |= c;
+        }
+        return v[t - 1];
+    }
+
+    private long threshold4(final int T, final long[] buf, final int bufUsed) {
+        if (T >= 128)

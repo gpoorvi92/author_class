@@ -1,0 +1,10 @@
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 1: // MISSION_ID
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {

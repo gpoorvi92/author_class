@@ -1,0 +1,10 @@
+				activity.isBattleSound = false;
+				activity.myHandler.sendEmptyMessage(7);
+			}
+		}
+		return super.onTouchEvent(event);
+	}
+
+
+	public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {
+

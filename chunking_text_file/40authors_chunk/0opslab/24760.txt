@@ -1,0 +1,10 @@
+    private String  sender_password = "";
+
+    /*
+     * 初始化方法
+     */
+    public EmailUtil(boolean debug) {
+        try (InputStream in = new BufferedInputStream(new FileInputStream(CONFIG_FILE))) {
+            properties.load(in);
+            this.mailHost = properties.getProperty("mail.smtp.host");
+            this.port = Integer.valueOf(properties.getProperty("mail.smtp.port"));

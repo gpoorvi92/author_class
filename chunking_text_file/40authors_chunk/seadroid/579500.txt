@@ -1,0 +1,10 @@
+import android.widget.EditText;
+import android.widget.Toast;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.MenuItem;
+import com.seafile.seadroid2.R;
+
+/**
+ * Shibboleth welcome page
+ * <p/>
+ */

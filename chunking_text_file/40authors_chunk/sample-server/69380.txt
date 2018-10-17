@@ -1,0 +1,10 @@
+package com.lz.game.rpc.util;
+/**
+ * User: Teaey
+ * Date: 13-7-15
+ */
+public class HexBin
+{
+    static private final int    BASELENGTH        = 128;
+    static private final int    LOOKUPLENGTH      = 16;
+    static final private byte[] hexNumberTable    = new byte[BASELENGTH];

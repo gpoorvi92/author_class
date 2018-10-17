@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    return true;
+}
+
+  private IndexWriter writer;
+  private IndexReader reader;
+
+  /**

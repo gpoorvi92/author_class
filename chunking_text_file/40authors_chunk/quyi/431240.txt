@@ -1,0 +1,10 @@
+  public void unsetApiCheck() {
+    this.apiCheck = null;
+  }
+
+  /** Returns true if field apiCheck is set (has been assigned a value) and false otherwise */
+  public boolean isSetApiCheck() {
+    return this.apiCheck != null;
+  }
+
+  public void setApiCheckIsSet(boolean value) {

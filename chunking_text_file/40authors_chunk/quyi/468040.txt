@@ -1,0 +1,10 @@
+      break;
+
+    case FUNC:
+      if (value == null) {
+        unsetFunc();
+      } else {
+        setFunc((String)value);
+      }
+      break;
+

@@ -1,0 +1,10 @@
+import com.seafile.seadroid2.account.Account;
+import com.seafile.seadroid2.ui.dialog.TaskDialog.Task;
+
+class GetShareLinkTask extends TaskDialog.Task {
+    String repoID;
+    String path;
+    boolean isdir;
+    SeafConnection conn;
+    String link;
+

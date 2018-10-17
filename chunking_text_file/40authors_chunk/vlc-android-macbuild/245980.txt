@@ -1,0 +1,10 @@
+
+        DebugLog.v(TAG, "vlc seek to " + msec);
+        mLibVLC.setTime(msec);
+        mSeekWhenDurationChanged = 0;
+    }
+
+    @Override
+    public void setDataSource(String uri) throws IOException,
+            IllegalArgumentException, IllegalStateException {
+        DebugLog.v(TAG, "vlc play " + uri);

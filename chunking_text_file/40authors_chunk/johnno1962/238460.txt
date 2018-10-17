@@ -1,0 +1,10 @@
+
+    JTableProxy( javax.swing.table.TableModel arg0, javax.swing.table.TableColumnModel arg1, javax.swing.ListSelectionModel arg2 , long swiftObject ) {
+        super( arg0, arg1, arg2 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JTable(int,int)
+
+    JTableProxy( int arg0, int arg1 , long swiftObject ) {
+        super( arg0, arg1 );

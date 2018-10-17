@@ -1,0 +1,10 @@
+  public Hardware setCpuModel(String cpuModel) {
+    this.cpuModel = cpuModel;
+    return this;
+  }
+
+  public void unsetCpuModel() {
+    this.cpuModel = null;
+  }
+
+  /** Returns true if field cpuModel is set (has been assigned a value) and false otherwise */

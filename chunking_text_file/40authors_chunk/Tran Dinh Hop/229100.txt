@@ -1,0 +1,10 @@
+		capacity=1000;
+		obj=new HuffmanNode[capacity];
+	}
+		
+	
+	public void insertM(HuffmanNode o)throws Exception{
+		
+		if (size==capacity)
+			throw new Exception("Queue is full");
+		

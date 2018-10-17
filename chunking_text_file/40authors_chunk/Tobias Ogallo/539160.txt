@@ -1,0 +1,10 @@
+		
+	//	jPanel2.add(jButton2);
+		
+		jPanel2.add(Print);
+		jPanel2.add(jButton4); 
+		setLocation((screen.width - 500)/2,((screen.height-350)/2));     
+			try
+
+         {
+	

@@ -1,0 +1,10 @@
+		FileInputStream fis=null;
+		try {
+			MessageDigest md=MessageDigest.getInstance(algorithm);
+			fis=new FileInputStream(filename);
+			while((len=fis.read(b))!=-1){
+				md.update(b, 0, len);
+			}
+			byte[] digest=md.digest();
+			OutputStream encodeStream=new Base64OutputStream(fos);
+			encodeStream.write(digest);

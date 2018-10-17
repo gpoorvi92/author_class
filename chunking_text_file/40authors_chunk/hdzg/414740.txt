@@ -1,0 +1,10 @@
+		bitmaps=new Bitmap[]{
+			grassBitmap,
+			xiaoHua1Bitmap,
+			muZhuangBitmap,
+			xiaoHua2Bitmap,
+			roadBitmap,
+			jingBitmap
+        };
+	}
+

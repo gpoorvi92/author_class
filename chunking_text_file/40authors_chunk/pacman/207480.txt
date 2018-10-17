@@ -1,0 +1,6 @@
+	 * @Title: name
+	 * @return
+	 * @return: String
+	 */
+	String name();
+}

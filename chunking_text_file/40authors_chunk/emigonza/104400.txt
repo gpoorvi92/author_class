@@ -1,0 +1,9 @@
+    public int     getSlpCartridgeState() throws JposException;
+    public int     getSlpCurrentCartridge() throws JposException;
+    public void    setSlpCurrentCartridge(int cartridge) throws JposException;
+    public int     getSlpPrintSide() throws JposException;
+
+    // Methods
+    public void    changePrintSide(int side) throws JposException;
+    public void    markFeed(int type) throws JposException;
+}

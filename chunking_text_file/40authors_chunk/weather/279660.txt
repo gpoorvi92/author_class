@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Returns the current timeout.
+     */
+    @Override
+    public int getCurrentTimeout() {
+        return mCurrentTimeoutMs;
+    }
+

@@ -1,0 +1,10 @@
+        format.setVCharType(HanyuPinyinVCharType.WITH_V);
+
+        char[] input  = inputString.trim().toCharArray();
+        String output = "";
+
+        try {
+            for (int i = 0; i < input.length; i++) {
+                if (java.lang.Character.toString(input[i]).matches("[\\u4E00-\\u9FA5]+")) {
+                    String[] temp = PinyinHelper.toHanyuPinyinStringArray(input[i], format);
+                    output += temp[0];

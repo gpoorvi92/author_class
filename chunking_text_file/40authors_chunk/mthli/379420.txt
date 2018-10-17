@@ -1,0 +1,10 @@
+   }
+
+   /**
+    * Adds a square to the collection.
+    * @param p the center of the square
+    */
+   public void add(Point2D p)
+   {
+      double x = p.getX();
+      double y = p.getY();

@@ -1,0 +1,10 @@
+  public void clear() {
+    this.osArch = null;
+    this.osName = null;
+    this.osDesc = null;
+    this.osVersion = null;
+    this.jvmName = null;
+    this.jvmVersion = null;
+    this.jvmMaxMem = null;
+  }
+

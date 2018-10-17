@@ -1,0 +1,10 @@
+	
+	/**
+	 * Combines two paths into one.
+	 * 
+	 * @param path1
+	 * @param path2
+	 * @return
+	 */
+	public static String combinePath(String path1, String path2) {
+		

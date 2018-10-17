@@ -1,0 +1,10 @@
+        }
+        return s.substring(idx, idx + maxLen);
+    }
+    public String longestPalindrome_2(String s) {
+        int n = s.length();
+        boolean[][] dp = new boolean[2][n];
+        int idx = 0, maxLen = 0;
+        int cur = 1, last = 0;
+        for (int i = 0; i < n; ++i) {
+            cur = cur + last - (last = cur);

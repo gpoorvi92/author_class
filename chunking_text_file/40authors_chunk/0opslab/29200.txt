@@ -1,0 +1,10 @@
+        System.out.println();
+        String utf16le = CharsetUtil.toUTF_16LE(str);
+        System.out.println("转换成UTF-16LE码:" + utf16le);
+        gbk = CharsetUtil.changeCharset(utf16le, CharsetUtil.UTF_16LE, CharsetUtil.GBK);
+        System.out.println("再把UTF-16LE码的字符串转换成GBK码: " + gbk);
+        System.out.println();
+        String utf16 = CharsetUtil.toUTF_16(str);
+        System.out.println("转换成UTF-16码:" + utf16);
+        gbk = CharsetUtil.changeCharset(utf16, CharsetUtil.UTF_16LE, CharsetUtil.GBK);
+        System.out.println("再把UTF-16码的字符串转换成GBK码: " + gbk);

@@ -1,0 +1,10 @@
+				JOptionPane.showMessageDialog (this, "Provide Username to Logon.");
+				txtUser.requestFocus();
+			}
+			else if (password.equals ("")) {
+				txtPass.requestFocus();
+				JOptionPane.showMessageDialog (null,"Provide Password to Logon.");
+			}
+			else {
+				String pass;			//To Hold the Password.
+				boolean verify = false;		//To Confirm Logon.

@@ -1,0 +1,10 @@
+
+    public Type type() {
+        return type;
+    }
+
+    public String firstName() {
+        return first_name;
+    }
+
+    public String lastName() {

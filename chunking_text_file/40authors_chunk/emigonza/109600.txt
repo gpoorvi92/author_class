@@ -1,0 +1,10 @@
+	// Ctor(s)
+	//
+
+	/**
+	 * Creates a PropInfo with name and profile passed
+	 * @param name the PropInfo name
+	 * @param profile the Profile for this PropInfo
+	 */
+	public DefaultPropInfo( String name, Profile profile )
+	{

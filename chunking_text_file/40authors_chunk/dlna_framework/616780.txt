@@ -1,0 +1,10 @@
+
+	public ControlPoint getControlPoint()
+	{
+		return controlPoint;
+	}
+
+	/**
+	 * This method send a {@link SSDPNotifyRequest} over {@link SSDPNotifySocket}
+	 * 
+	 * @param req the {@link SSDPNotifyRequest} to send

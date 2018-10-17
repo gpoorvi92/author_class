@@ -1,0 +1,8 @@
+        String word = lineScanner.next();    count=0;
+        while (lineScanner.hasNext()) {
+            ss[count++] = lineScanner.next();
+        }
+        lexicon.put(word, ss);
+    }
+
+}

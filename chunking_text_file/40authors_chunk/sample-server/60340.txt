@@ -1,0 +1,10 @@
+            entity.setAuthServerHost(authServerHost);
+            entity.setChatServerHost(chatServerHost);
+            entity.setGatewayServerHostList(gatewayServerHostList);
+            entity.setDbUrl(dbUrl);
+            entity.setDbUsername(dbUsername);
+            entity.setDbPasswd(dbPasswd);
+            DaoManager.getLocalDao().saveOrUpdate(entity);
+            ZoneEntityManager.getInstance().addOrUpdateZoneEntity(entity);
+        } catch (Exception e)
+        {

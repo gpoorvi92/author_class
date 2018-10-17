@@ -1,0 +1,10 @@
+		StringBuffer sb = new StringBuffer();
+
+		sb.append( "<Profile name='" + getName() + "'>\n" );
+
+		sb.append( "    <ProfileInfo version='" + getVersion() + "' vendorName='" + getVendorName() + "'\n" );
+		sb.append( "                 vendorUrl=" + ( getVendorUrl() == null ? "'null'" : "'" + getVendorUrl().toString() + "'" ) + "\n" );
+		sb.append( "                 description='" + getDescription() + "'/>\n" );
+
+		sb.append( "</Profile>" );
+

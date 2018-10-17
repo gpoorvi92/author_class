@@ -1,0 +1,10 @@
+		LocationClientOption option = new LocationClientOption();
+		option.setOpenGps(true);
+		option.setAddrType("all");
+		option.setCoorType("bd09ll");
+		option.setScanSpan(5000);
+		option.disableCache(false);
+		// option.setPoiNumber(5);
+		// option.setPoiDistance(1000);
+		// option.setPoiExtraInfo(true);
+		locationClient.setLocOption(option);

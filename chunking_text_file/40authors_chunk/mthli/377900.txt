@@ -1,0 +1,10 @@
+         }
+
+         protected void process(List<Integer> chunks)
+         {
+            for (Integer chunk : chunks)
+            {
+               progressBar.setString("Loading module " + chunk);
+               progressBar.setValue(chunk);
+               splashPanel.repaint(); // because img is loaded asynchronously
+            }

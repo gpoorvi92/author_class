@@ -1,0 +1,10 @@
+	 * */
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	/**
+	 * 获取菜单排序号。
+	 * @return 菜单排序号。
+	 * */
+	public Integer getOrderNo() {
+		return orderNo;

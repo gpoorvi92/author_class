@@ -1,0 +1,10 @@
+
+    /**
+     * Gets the current movie time (in ms).
+     * 
+     * @return the movie time (in ms), or -1 if there is no media.
+     */
+    public native long getTime();
+
+    /**
+     * Sets the movie time (in ms), if any media is being played.

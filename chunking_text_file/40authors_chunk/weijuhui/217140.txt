@@ -1,0 +1,10 @@
+package com.weparty.widgets.DateSlider.timeview;
+
+import java.util.Calendar;
+
+import android.content.Context;
+
+import com.weparty.widgets.DateSlider.TimeObject;
+
+/**
+ * This is a subclass of the TimeLayoutView that represents a day. It uses

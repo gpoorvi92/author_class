@@ -1,0 +1,10 @@
+		if(info.getName() != null && !info.getName().trim().isEmpty()){
+			hql += " and (p.name like :name) ";
+			parameters.put("name", "%" + info.getName() + "%");
+		}
+		if(info.getExt() != null && !info.getExt().trim().isEmpty()){
+			hql += " and (p.ext like :ext) ";
+			parameters.put("ext", "%" + info.getExt() + "%");
+		}
+		return hql;
+	}

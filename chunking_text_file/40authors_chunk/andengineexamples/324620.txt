@@ -1,0 +1,10 @@
+	@Override
+	protected void onReadTransmissionData(final DataInputStream pDataInputStream) throws IOException {
+		this.mTimestamp = pDataInputStream.readLong();
+	}
+
+	@Override
+	protected void onWriteTransmissionData(final DataOutputStream pDataOutputStream) throws IOException {
+		pDataOutputStream.writeLong(this.mTimestamp);
+	}
+

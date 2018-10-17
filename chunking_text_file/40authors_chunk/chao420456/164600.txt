@@ -1,0 +1,10 @@
+public class RegexDemo {
+	public static void main(String[] args) {
+		// 模式对象和匹配器对象的基本使用
+		// // 把规则转换为模式对象
+		// Pattern p = Pattern.compile("a*b");
+		// // 通过模式对象得到匹配器对象
+		// Matcher m = p.matcher("aaaaab");
+		// // 通过匹配器对象调用功能
+		// boolean b = m.matches();
+		// System.out.println(b);

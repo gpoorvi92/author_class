@@ -1,0 +1,10 @@
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      final Stack<String> urlStack = new Stack<>();
+      final JEditorPane editorPane = new JEditorPane();
+      final JTextField url = new JTextField(30);
+
+      // set up hyperlink listener
+
+      editorPane.setEditable(false);
+      editorPane.addHyperlinkListener(new HyperlinkListener()

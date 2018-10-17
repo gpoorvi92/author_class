@@ -1,0 +1,10 @@
+	 * 构建默认消息回复。
+	 * @param context
+	 * 上下文。
+	 * @param req
+	 * 请求消息。
+	 * @return
+	 * 回复消息。
+	 */
+	protected BaseRespMessage buildDefaultReply(WeChatContext context,BaseMessage req){
+		if(context.getAccountId() == null || context.getAccountId().trim().isEmpty()){

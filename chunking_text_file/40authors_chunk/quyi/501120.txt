@@ -1,0 +1,10 @@
+      oprot.writeDouble(struct.freeMem);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(JVM_FREE_MEM_FIELD_DESC);
+      oprot.writeDouble(struct.jvmFreeMem);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(TASK_QUEUE_LIMIT_FIELD_DESC);
+      oprot.writeI32(struct.taskQueueLimit);
+      oprot.writeFieldEnd();
+      oprot.writeFieldBegin(TASK_QUEUE_NUME_FIELD_DESC);
+      oprot.writeI32(struct.taskQueueNume);

@@ -1,0 +1,10 @@
+
+   public void removeLayoutComponent(Component comp)
+   {
+   }
+
+   public void setSizes(Container parent)
+   {
+      if (sizesSet) return;
+      int n = parent.getComponentCount();
+

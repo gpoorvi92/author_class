@@ -1,0 +1,10 @@
+
+    /**
+     * creates a 3 by 3 matrix for rotating a three dimensional vector around the specified axis by the specified angle
+     * @param axis is the number of dimensions into the vector to find the one being rotated around
+     * @param angle is the angle of rotation
+     */
+    public static matrix get3By3RotationMatrix(int axis,double angle)
+    {
+        matrix result = getIdentity(3);
+

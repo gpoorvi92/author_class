@@ -1,0 +1,10 @@
+				singleRecordInfo.setUserAppId(userAppId);
+				singleRecordInfo.setFinishedTime(finishedTime);
+				if (plotsStatus.keySet().contains(PlotsType.staticType)) {
+					singleRecordInfo.setPlotsType(PlotsType.staticType);
+				} else {
+					singleRecordInfo.setPlotsType(PlotsType.virusType);
+				}
+				if(plotsStatus.containsValue(CheckResultStatus.breaked)){
+					singleRecordInfo.setAppCheckResult("中断");
+				}else if(plotsStatus.containsValue(CheckResultStatus.executed)){

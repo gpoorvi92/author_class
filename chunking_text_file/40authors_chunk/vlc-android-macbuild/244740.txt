@@ -1,0 +1,10 @@
+            mWeakReference = new WeakReference<T_Activity>(activity);
+        }
+    }
+    
+    final public T_Activity getActivity() {
+        if (mWeakReference == null)
+            return null;
+        
+        return mWeakReference.get();
+    }

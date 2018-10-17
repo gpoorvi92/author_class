@@ -1,0 +1,10 @@
+        return clone;
+    }
+
+    @Override
+    public void swap(final Buffer other) {
+        if(other instanceof LongArray) {
+            long[] tmp = this.buffer;
+            this.buffer = ((LongArray)other).buffer;
+            ((LongArray)other).buffer = tmp;
+

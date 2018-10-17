@@ -1,0 +1,10 @@
+    public void magnify( com.apple.eawt.event.MagnificationEvent arg0 ) {
+        if ( !entered_magnify_3 ) {
+            entered_magnify_3 = true;
+            __magnify( arg0 );
+            entered_magnify_3 = false;
+        }
+        else
+            super.magnify( arg0 );
+    }
+

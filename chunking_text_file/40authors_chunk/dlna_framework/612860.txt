@@ -1,0 +1,10 @@
+*	11/18/02
+*		- first revision.
+*	01/03/04
+*		- Changed the class name from UPnPError to UPnPStatus.
+*	
+******************************************************************/
+
+package org.cybergarage.upnp;
+import org.cybergarage.http.HTTPStatus;
+

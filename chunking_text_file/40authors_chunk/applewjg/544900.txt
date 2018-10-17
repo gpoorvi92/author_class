@@ -1,0 +1,10 @@
+/*
+ Author:     King, wangjingui@outlook.com
+ Date:       Dec 25, 2014
+ Problem:    Rotate List
+ Difficulty: Easy
+ Source:     https://oj.leetcode.com/problems/rotate-list/
+ Notes:
+ Given a list, rotate the list to the right by k places, where k is non-negative.
+
+ For example:

@@ -1,0 +1,10 @@
+     * @return An int[2] array containing the start and end offsets of the
+     * user's selection in the current message. If the user has not made any
+     * selection in the current message, both offsets indicate the position of
+     * the caret within the editor. If the menu is not being invoked from a
+     * message editor, the method returns <code>null</code>.
+     */
+    int[] getSelectionBounds();
+
+    /**
+     * This method can be used to retrieve details of the HTTP requests /

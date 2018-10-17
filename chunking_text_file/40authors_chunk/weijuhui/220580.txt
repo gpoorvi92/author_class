@@ -1,0 +1,10 @@
+			public void onclick() {
+				action(Constant.TYPE_TAOTIE);
+			}
+		});
+		
+		LaunchActButton mingjingLAB =  (LaunchActButton) view.findViewById(R.id.mijing_lab);
+		mingjingLAB.setOnHomeClick(new HomeClickListener() {
+			
+			@Override
+			public void onclick() {

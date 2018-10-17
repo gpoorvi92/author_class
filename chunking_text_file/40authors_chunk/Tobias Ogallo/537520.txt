@@ -1,0 +1,10 @@
+
+		return selectedRow;
+	}
+
+	class AbstractTable extends javax.swing.table.AbstractTableModel {
+		private String[] columnNames = { "RouteNo", "Route Name", "From", "To" ,
+		"Distance","Fare_Charged"};
+		private Object[][] data = new Object[100][6];
+
+		public int getColumnCount() {

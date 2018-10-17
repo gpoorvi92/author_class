@@ -1,0 +1,10 @@
+
+    int lastComparison = 0;
+
+    lastComparison = Boolean.valueOf(isSetMissionId()).compareTo(other.isSetMissionId());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetMissionId()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.missionId, other.missionId);
+      if (lastComparison != 0) {

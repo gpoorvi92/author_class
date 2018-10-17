@@ -1,0 +1,10 @@
+
+	public static void autoIssueSingleMessage() {
+		ConnectionFactory connectionFactory;
+		Connection connection = null;
+		Session session = null;
+		Destination destination;
+		MessageProducer producer = null;
+		connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnection.DEFAULT_USER, ActiveMQConnection.DEFAULT_PASSWORD, queue_url);
+		try {
+			connection = connectionFactory.createConnection();

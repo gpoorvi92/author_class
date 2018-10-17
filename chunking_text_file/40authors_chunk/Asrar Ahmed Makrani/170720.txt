@@ -1,0 +1,9 @@
+            	String l = location_text.getText();
+            	//Object m = campus_combo.getSelectedItem();
+            	videoSQL vidsql = new videoSQL(a, b, j, k, l);
+            	vidsql.delete();
+            }
+        });
+        toolBarVideo.add(deleteButton);
+    }
+ 		}

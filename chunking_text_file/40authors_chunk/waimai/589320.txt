@@ -1,0 +1,10 @@
+
+    public void setType(String type) {
+        this.type = type == null ? null : type.trim();
+    }
+
+    public Date getInsertDate() {
+        return insertDate;
+    }
+
+    public void setInsertDate(Date insertDate) {

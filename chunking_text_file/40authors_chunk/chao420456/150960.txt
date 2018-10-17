@@ -1,0 +1,10 @@
+	private JButton jbt_enter;
+	private JButton jbt_exit;
+	private Client client;
+
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource() == jbt_exit){
+			setVisible(false);
+			client.exitLogin();

@@ -1,0 +1,7 @@
+    boolean check(char ch, boolean[] used){
+        if(ch=='.') return true;
+        if(used[ch-'1']) return false;
+        used[ch-'1']=true;
+        return true;
+    }
+}

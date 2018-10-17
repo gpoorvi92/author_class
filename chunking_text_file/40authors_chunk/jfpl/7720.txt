@@ -1,0 +1,10 @@
+					item.putIntValue("lat", info.pt.getLatitudeE6());
+					item.putIntValue("lon", info.pt.getLongitudeE6());
+					list.add(item);
+					nearbyOverlay.addPositionItem(item);
+					num++;
+				}
+			}
+			fillData(acd, getWindow().getDecorView(), "");
+			searchNearBy();
+		}

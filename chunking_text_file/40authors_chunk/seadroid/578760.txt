@@ -1,0 +1,10 @@
+            repo.id = obj.getString("id");
+            repo.name = obj.getString("name");
+            repo.description = obj.getString("desc");
+            repo.owner = obj.getString("owner");
+            repo.permission = obj.getString("permission");
+            long mt = obj.getLong("mtime");
+            repo.mtime = new Date(mt);
+            repo.encrypted = obj.getBoolean("encrypted");
+            repo.root = obj.getString("root");
+            repo.size = obj.getLong("size");

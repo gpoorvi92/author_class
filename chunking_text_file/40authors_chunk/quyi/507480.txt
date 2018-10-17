@@ -1,0 +1,10 @@
+    if (this.usedPermissions == null) {
+      this.usedPermissions = new ArrayList<Map<String,APICheck>>();
+    }
+    this.usedPermissions.add(elem);
+  }
+
+  public List<Map<String,APICheck>> getUsedPermissions() {
+    return this.usedPermissions;
+  }
+

@@ -1,0 +1,10 @@
+            try {
+                synchronized (lock) {
+                    while (!isFirstRunNotify) {
+                        System.out.println("wait begin timer=" + System.currentTimeMillis());
+                        lock.wait();
+                        System.out.println("wait end timer=" + System.currentTimeMillis());
+                    }
+
+                }
+            } catch (InterruptedException e) {

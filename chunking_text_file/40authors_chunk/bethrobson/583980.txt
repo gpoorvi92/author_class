@@ -1,0 +1,10 @@
+        songSet.addAll(songList);
+        System.out.println(songSet);
+    }
+    
+    void getSongs() {
+        try {
+            File file = new File("SongListMore.txt");
+            BufferedReader reader = new BufferedReader(new FileReader(file));
+            String line = null;
+            while ((line = reader.readLine()) != null) {

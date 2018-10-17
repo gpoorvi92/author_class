@@ -1,0 +1,7 @@
+                g.fillRect(i * delta_width, j * delta_height, delta_width, delta_height);
+                g.setColor(Color.black);
+                g.drawRect((i * delta_width), (j * delta_height), delta_width, delta_height);
+            }
+        }
+    }
+}

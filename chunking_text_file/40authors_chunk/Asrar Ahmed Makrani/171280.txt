@@ -1,0 +1,10 @@
+            public void actionPerformed(ActionEvent e) {
+            	book_no_text.setText("BK-");
+            	book_title_text.setText("");
+            	isbn_text.setText("");
+            	class_text.setText("");
+            	publisher_text.setText("");
+            	place_text.setText("");
+            	year_text.setText("");
+            	pages_text.setText("");
+            	location_text.setText("");

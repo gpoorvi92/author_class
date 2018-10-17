@@ -1,0 +1,10 @@
+
+    public String mVlcIndexAccess;
+    public String mVlcSegmentAccess;
+
+    private String mIndexLock = "lock";
+    private PlayIndex mPlayIndex;
+    private Bundle mIndexBundle;
+
+    private PlayIndex.Resolver mResolver;
+

@@ -1,0 +1,10 @@
+
+    case STATIC_CHECK_RESULT:
+      return getStaticCheckResult();
+
+    case DYNAMIC_CHECK_RESULT:
+      return getDynamicCheckResult();
+
+    }
+    throw new IllegalStateException();
+  }

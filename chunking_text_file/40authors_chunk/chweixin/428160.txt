@@ -1,0 +1,10 @@
+		if(list != null && list.size() > 0){
+			for(WeChatMenuInfo info : list){
+				TreeNode tNode = this.createTreeNode(info);
+				if(tNode != null) results.add(tNode);
+			}
+		}
+		this.writeJson(results);
+	}
+	/**
+	 * 更新数据。

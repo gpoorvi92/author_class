@@ -1,0 +1,10 @@
+		if(info.getOpenId() != null && !info.getOpenId().trim().isEmpty()){
+			hql += " and (w.openId = :openId)";
+			parameters.put("openId", info.getOpenId());
+		}
+		if(info.getStatus() != null && info.getStatus() != 0){
+			hql += " and (w.status = :status)";
+			parameters.put("status", info.getStatus());
+		}
+		return hql;
+	}

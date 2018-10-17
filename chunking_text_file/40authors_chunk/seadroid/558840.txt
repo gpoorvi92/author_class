@@ -1,0 +1,10 @@
+        return entry == null ? null : entry.get();
+    }
+
+    public synchronized V get(K key) {
+        cleanUpWeakMap();
+        V value = mLruMap.get(key);
+        if (value != null) return value;
+        Entry<K, V> entry = mWeakMap.get(key);
+        return entry == null ? null : entry.get();
+    }

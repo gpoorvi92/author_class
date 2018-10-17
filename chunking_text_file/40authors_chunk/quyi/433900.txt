@@ -1,0 +1,10 @@
+    if (isSetCheckTime()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.checkTime, other.checkTime);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetCpu()).compareTo(other.isSetCpu());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

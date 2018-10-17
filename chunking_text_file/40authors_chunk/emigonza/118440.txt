@@ -1,0 +1,9 @@
+  public int getCapRecRuledLine() throws JposException;
+  public int getCapSlpRuledLine() throws JposException;
+
+  // Methods
+  public void drawRuledLine(int station, String positionList,
+                            int lineDirection, int lineWidth,
+                            int lineStyle, int lineColor)
+    throws JposException;
+}

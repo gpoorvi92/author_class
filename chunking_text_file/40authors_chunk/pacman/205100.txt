@@ -1,0 +1,10 @@
+
+	/** (non Javadoc)
+	 * TODO
+	 * @Title: receiveMessage
+	 * @param dest
+	 * @return
+	 * @see com.yeshj.pacman.jms.IMessageManager#receiveMessage(com.yeshj.pacman.jms.QueueType)
+	 */
+	@Override
+	public Message receiveMessage(QueueType dest) throws MQException{

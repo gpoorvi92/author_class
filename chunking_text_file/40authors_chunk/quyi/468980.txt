@@ -1,0 +1,10 @@
+    public void write(org.apache.thrift.protocol.TProtocol oprot, Rules struct) throws org.apache.thrift.TException {
+      struct.validate();
+
+      oprot.writeStructBegin(STRUCT_DESC);
+      if (struct.ruleId != null) {
+        oprot.writeFieldBegin(RULE_ID_FIELD_DESC);
+        oprot.writeString(struct.ruleId);
+        oprot.writeFieldEnd();
+      }
+      if (struct.ruleName != null) {

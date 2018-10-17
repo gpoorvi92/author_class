@@ -1,0 +1,10 @@
+    /// public void java.awt.event.WindowAdapter.windowStateChanged(java.awt.event.WindowEvent)
+
+    public native void __windowStateChanged( java.awt.event.WindowEvent e );
+
+    boolean entered_windowStateChanged_9;
+
+    public void windowStateChanged( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowStateChanged_9 ) {
+            entered_windowStateChanged_9 = true;
+            __windowStateChanged( e );

@@ -1,0 +1,10 @@
+	private String value;
+
+	public HTTPHeader(String name, String value)
+	{
+		setName(name);
+		setValue(value);
+	}
+
+	public HTTPHeader(String lineStr)
+	{

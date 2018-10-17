@@ -1,0 +1,10 @@
+public abstract class AbstractRequestFactory implements RequestFactory {
+	protected final Map<String, Integer> respDelayConf;
+	protected final AtomicInteger seq = new AtomicInteger(0);
+	protected final Random reqTimeRnd = new Random();
+	protected final Random respDelayRnd = new Random();
+	/**
+	 * 部件内部操作延时随机生成器
+	 */
+	protected final Random internalDealyRnd = new Random();
+	protected final long startTimestamp = new Date().getTime();

@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetEngineName()) {
+        optionals.set(1);
+      }
+      if (struct.isSetEngineIp()) {
+        optionals.set(2);
+      }
+      if (struct.isSetEngineStatus()) {
+        optionals.set(3);
+      }

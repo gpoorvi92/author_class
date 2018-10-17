@@ -1,0 +1,10 @@
+	}
+
+	/**
+	 * @param file the file to set
+	 */
+	public void setFile(String file) {
+		this.file = file;
+	}
+
+	/**

@@ -1,0 +1,10 @@
+            map.put("merchantCollections", merchantCollectionList);
+        } else {
+            map.put("count", 0);
+        }
+        return map;
+    }
+
+    @RequestMapping("/isExist")
+    public @ResponseBody Map<String, Object> isExist(MerchantCollection merchantCollection) {
+        Map<String, Object> map = new HashMap<String, Object>();

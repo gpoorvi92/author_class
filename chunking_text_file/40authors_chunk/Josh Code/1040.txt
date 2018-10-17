@@ -1,0 +1,10 @@
+    public modelViewer()
+    {
+        super("Model Viewer");
+        display = new modelViewPanel(600, 600);
+        ModelViewerJMenuBar menu = new ModelViewerJMenuBar(this);
+        setJMenuBar(menu);
+        addKeyListener(menu);
+        Container c = getContentPane();
+        c.setLayout(new BorderLayout());
+        c.add(display,BorderLayout.CENTER);

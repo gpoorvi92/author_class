@@ -1,0 +1,10 @@
+		dlg.setTitle("来自 " + url);
+		dlg.setCancelable(false);
+		dlg.setPositiveButton(android.R.string.ok,
+				new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						result.confirm();
+					}
+				});
+		dlg.setNegativeButton(android.R.string.cancel,
+				new DialogInterface.OnClickListener() {

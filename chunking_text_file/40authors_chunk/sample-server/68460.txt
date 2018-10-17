@@ -1,0 +1,10 @@
+                throw new ConnectException("failed to connect remote server");
+            }
+            return rpcClient;
+        }
+        @Override
+        public void destroyObject(final BaseRpcConnection obj) throws Exception
+        {
+            obj.disconnect();
+        }
+        @Override

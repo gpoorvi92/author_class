@@ -1,0 +1,10 @@
+ * User: Teaey
+ * Date: 13-6-14
+ */
+public class Logicserver extends BaseServer
+{
+    static
+    {
+        LogbackConfigUtil.config();
+    }
+    private static final Logger log = LoggerFactory.getLogger(Logicserver.class);

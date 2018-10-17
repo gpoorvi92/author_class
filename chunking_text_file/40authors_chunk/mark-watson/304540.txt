@@ -1,0 +1,10 @@
+        return false;
+    }
+
+    public float positionEvaluation(Position p, boolean player) {
+        int count = 0;
+        TicTacToePosition pos = (TicTacToePosition)p;
+        for (int i=0; i<9; i++) {
+            if (pos.board[i] == 0) count++;
+        }
+        count = 10 - count;

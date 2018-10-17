@@ -1,0 +1,10 @@
+    public String toString() {
+        return mRawMrl;
+    }
+
+    final public String getRawMrl() {
+        return mRawMrl;
+    }
+
+    final public String getScheme() {
+        return mScheme;

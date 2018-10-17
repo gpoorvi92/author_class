@@ -1,0 +1,10 @@
+	public static boolean isOn() {
+		return enabled;
+	}
+	public static final void message(String s) {
+		if (enabled == true){
+			Debug.debug.getOut().println("CyberGarage message : " + s);
+		}		
+	}
+	public static final void message(String m1, String m2) {
+		if (enabled == true)

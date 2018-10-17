@@ -1,0 +1,10 @@
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public List<Bxg> selectAllBxgs() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxg where valid=true order by buycount desc,CONVERT(name USING GBK),norms desc")
+				.addEntity(Bxg.class);
+		return query.list();

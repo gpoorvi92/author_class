@@ -1,0 +1,10 @@
+	public MMSCInfo(MMSCInfo prototype) {
+		this.deviceID = prototype.deviceID;
+		this.url = prototype.url;
+		this.maxAttachmentSizeInBytes = prototype.maxAttachmentSizeInBytes;
+	}
+
+	public String getDeviceID() {
+		return deviceID;
+	}
+

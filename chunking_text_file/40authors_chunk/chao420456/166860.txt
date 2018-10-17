@@ -1,0 +1,10 @@
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void show() {
+		System.out.println("姓名是："+name+",年龄是："+age);
+	}

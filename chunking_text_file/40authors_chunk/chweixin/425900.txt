@@ -1,0 +1,10 @@
+	public void setContent(String content) {
+		this.content = content;
+	}
+	/**
+	 * 获取图文消息数组。
+	 * @return 图文消息数组。
+	 */
+	public List<Article> getArticles() {
+		return articles;
+	}

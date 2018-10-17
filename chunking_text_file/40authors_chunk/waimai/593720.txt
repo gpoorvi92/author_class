@@ -1,0 +1,10 @@
+            user.setCredit(0);
+            userMapper.insert(user);
+        } else {
+            throw new ServiceException("用户名已存在");
+        }
+    }
+
+    @Override
+    public Integer countByUsername(String username) {
+        return userMapper.countByUsername(username);

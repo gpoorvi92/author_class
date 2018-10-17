@@ -1,0 +1,10 @@
+	public QueryAccountRequest(AccountNameBody body) {
+		super.setOpt(CMD);
+		this.body = body;
+	}
+
+
+	public AccountNameBody getBody() {
+		return body;
+	}
+

@@ -1,0 +1,10 @@
+	 * 修改帐号
+	 * @param request 修改帐号请求，可批量修改帐号	
+	 * @return	      修改帐号回应
+	 * @throws ChachaException
+	 */
+	public Response modifyAccount(ModifyAccountRequest request) throws ChachaException;
+	/**
+	 * 删除帐号
+	 * @param request 删除帐号请求，可以批量删除帐号
+	 * @return			删除帐号回应

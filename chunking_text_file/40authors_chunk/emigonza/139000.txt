@@ -1,0 +1,10 @@
+import java.util.Vector;
+import jpos.loader.*;
+
+public class ImageScanner
+  extends BaseJposControl
+  implements ImageScannerControl113, JposConst
+{
+  //--------------------------------------------------------------------------
+  // Variables
+  //--------------------------------------------------------------------------

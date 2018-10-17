@@ -1,0 +1,10 @@
+		for(int d = 0; d < 360; d++)
+		{
+			float x = (float)(r*Math.sin(d));
+			float y = (float)(r*Math.cos(d));
+			
+			gp.lineTo((float) x+100, (float) y+100);
+			if(r > 0)
+				r-=.5;
+		} 
+		

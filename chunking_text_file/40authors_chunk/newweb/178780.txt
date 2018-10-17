@@ -1,0 +1,10 @@
+	@Override
+	public boolean isUsed(int id) {
+		Supplier supplier = supplierDao.selectSupplierById(id);
+		Set<Bxg> bxgs = supplier.getBxgs();
+		for (Bxg bxg : bxgs) {
+			if(bxg.getOrderBxgs().size() > 0)
+				return true;
+		}
+		Set<Small> smalls = supplier.getSmalls();
+		for (Small small : smalls) {

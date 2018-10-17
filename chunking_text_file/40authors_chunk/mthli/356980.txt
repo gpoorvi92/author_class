@@ -1,0 +1,10 @@
+      catch (InterruptedException e)
+      {
+      }
+      return count;
+   }
+
+   /**
+    * Searches a file for a given keyword.
+    * @param file the file to search
+    * @return true if the keyword is contained in the file

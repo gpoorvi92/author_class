@@ -1,0 +1,10 @@
+		Map<String, String> map = new HashMap<String, String>();
+
+		// Ìí¼ÓÔªËØ
+		// V put(K key,V value)
+		// System.out.println("put:" + map.put("ÎÄÕÂ", "ÂíÒÁÀş"));
+		// System.out.println("put:" + map.put("ÎÄÕÂ", "Ò¦µÑ"));
+		map.put("ÎÄÕÂ", "ÂíÒÁÀş");
+		map.put("Ğ»öª·æ", "ÕÅ°ØÖ¥");
+		map.put("ÌïÁÁ", "Ò¶Ò»Üç");
+		map.put("Íô·å", "ÕÂ×Óâù");

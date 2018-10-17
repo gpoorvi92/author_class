@@ -1,0 +1,10 @@
+@Table(name="t_user")
+public class User {
+
+	private int ID;
+	private String userName;
+	private String password;
+	private String type;
+	private int linkid;
+	private String lastLoginTime;
+	private int loginCount;

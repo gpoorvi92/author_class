@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface CashDrawerControl12 extends BaseControl
+{
+    // Capabilities

@@ -1,0 +1,10 @@
+        return zoneId;
+    }
+    public void setZoneId(int zoneId)
+    {
+        this.zoneId = zoneId;
+    }
+    public String getZoneName()
+    {
+        return zoneName;
+    }

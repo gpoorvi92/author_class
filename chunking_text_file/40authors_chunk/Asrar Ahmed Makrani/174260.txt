@@ -1,0 +1,10 @@
+			 				update.setEnabled(true);
+			 				delete.setEnabled(true);
+            				}
+											 										
+								statement.close(); 
+			 				
+					}
+					
+					
+					catch (SQLException sqlex)

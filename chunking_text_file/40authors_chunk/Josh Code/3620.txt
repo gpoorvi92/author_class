@@ -1,0 +1,10 @@
+package fileIO;
+
+import model.*;
+import java.io.*;
+import java.util.*;
+
+/** 
+ * format described at:
+ * http://www.fileformat.info/format/wavefrontobj/
+ * http://people.scs.fsu.edu/~burkardt/txt/obj_format.txt

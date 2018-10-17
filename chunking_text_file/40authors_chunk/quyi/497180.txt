@@ -1,0 +1,10 @@
+              struct.engineType = iprot.readString();
+              struct.setEngineTypeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 6: // NODE_INFO
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRUCT) {
+              struct.nodeInfo = new NodeInfo();
+              struct.nodeInfo.read(iprot);

@@ -1,0 +1,6 @@
+package jpos.events;
+
+public interface StatusUpdateListener extends java.util.EventListener
+{
+    public void statusUpdateOccurred(StatusUpdateEvent e);
+}

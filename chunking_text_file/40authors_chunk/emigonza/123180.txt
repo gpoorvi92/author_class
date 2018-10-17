@@ -1,0 +1,10 @@
+
+    public int getErrorCodeExtended()
+    {
+        return errorCodeExtended;
+    }
+
+    public int getErrorLocus()
+    {
+        return errorLocus;
+    }

@@ -1,0 +1,10 @@
+    if (this.url == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.url);
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("app_size:");
+    sb.append(this.app_size);
+    first = false;

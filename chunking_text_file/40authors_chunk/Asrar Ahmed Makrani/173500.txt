@@ -1,0 +1,10 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.text.*;
+import javax.swing.text.*;
+import java.sql.*;
+
+public class book_loan_master extends JPanel implements book_loan_tab_Interface, book_loan_master_Interface{
+public Connection connection;
+

@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 创建集合对象
+		ArrayList<Integer> array = new ArrayList<Integer>();
+
+		// 添加元素
+		array.add(30);
+		array.add(20);
+		array.add(50);
+		array.add(10);
+		array.add(40);

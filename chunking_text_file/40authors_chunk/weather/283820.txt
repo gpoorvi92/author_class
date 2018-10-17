@@ -1,0 +1,10 @@
+        }
+    });
+
+    private VolleyError error;
+    private T response;
+
+    @Override
+    public void onErrorResponse(VolleyError error) {
+        this.error = error;
+        Message msg = handler.obtainMessage(REQUEST_ERROR);

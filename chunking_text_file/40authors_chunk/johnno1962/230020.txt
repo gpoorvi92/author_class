@@ -1,0 +1,10 @@
+            entered_keyPressed_1 = true;
+            __keyPressed( e );
+            entered_keyPressed_1 = false;
+        }
+        else
+            super.keyPressed( e );
+    }
+
+    /// public void java.awt.event.KeyAdapter.keyReleased(java.awt.event.KeyEvent)
+

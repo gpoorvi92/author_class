@@ -1,0 +1,10 @@
+		private boolean flag = true;
+        public DrawThread(SurfaceHolder surfaceHolder, SoundManageView soundManageView) {//构造器
+        	super.setName("==SoundManagerView.DrawThread");
+            this.surfaceHolder = surfaceHolder;
+            this.soundManageView = soundManageView;
+        }
+        
+        public void setFlag(boolean flag) {//设置循环标记位
+        	this.flag = flag;
+        }

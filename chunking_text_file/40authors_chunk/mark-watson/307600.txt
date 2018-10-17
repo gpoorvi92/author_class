@@ -1,0 +1,10 @@
+        for (int i = 0; i < numInputs; i++) {
+            tempStorage[i] = 0.0f;
+            for (int j = 0; j < i; j++) {
+                tempStorage[i] += weights[i][j];
+            }
+        }
+    }
+
+    public float[] recall(float[] pattern, int numIterations) {
+        for (int i = 0; i < numInputs; i++) inputCells[i] = pattern[i];

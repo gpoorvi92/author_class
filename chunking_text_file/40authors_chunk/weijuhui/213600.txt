@@ -1,0 +1,10 @@
+
+    /**
+     * create our customized TimeTextView and return it
+     */
+    public TimeView createView(Context context, boolean isCenterView) {
+        return new CustomTimeTextView(context, isCenterView, 25);
+    }
+
+    /**
+     * Here we define our Custom TimeTextView which will display the fonts in its very own way.

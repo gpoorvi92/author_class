@@ -1,0 +1,10 @@
+      case 126:
+        return UPDATE_DEVICE_STATS;
+      case 127:
+        return USE_CREDENTIALS;
+      case 128:
+        return USE_SIP;
+      case 129:
+        return VIBRATE;
+      case 130:
+        return WAKE_LOCK;

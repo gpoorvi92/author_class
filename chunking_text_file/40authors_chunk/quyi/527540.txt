@@ -1,0 +1,10 @@
+package com.nercis.isscp.util;
+
+import com.nercis.isscp.idl.PlotsType;
+
+/**
+ * 
+ * @author luantingyuan
+ * 
+ */
+public class SingleRecordInfo {

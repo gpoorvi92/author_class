@@ -1,0 +1,10 @@
+		repaint();
+	}
+	
+	
+	public void setBackground(RadialGradientPaint paint)
+	{
+		this.paint = paint;
+		repaint();
+	}
+	

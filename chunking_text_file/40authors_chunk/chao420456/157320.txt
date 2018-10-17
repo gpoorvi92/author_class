@@ -1,0 +1,10 @@
+                            	serverThread.clients.remove(i);
+                            	clientThread.closeClienthread(clientThread);
+                            	clientThread.dos.writeUTF(str);
+                            }
+                            if(str.contains("@chat") || str.contains("@userlist") || str.contains("@serverexit")){
+                            	clientThread.dos.writeUTF(str);
+                            }
+                            if(str.contains("@single")){
+                            	String[] info = str.split("@single");
+                            	int id_thread = Integer.parseInt(info[2]);

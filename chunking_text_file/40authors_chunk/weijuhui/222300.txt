@@ -1,0 +1,10 @@
+		setContentView(R.layout.act_type_list);
+		initListView();
+
+		TextView title = (TextView) findViewById(R.id.title_center);
+		title.setText("选择活动");
+
+		findViewById(R.id.title_back).setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {

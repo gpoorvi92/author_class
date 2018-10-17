@@ -1,0 +1,10 @@
+				listPane.append("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+				listPane.append("Bus_No"+"\t\t"+"Route_No"+"\t\t"+"Employee_No"+"\t\t"+"Trip_No\t\t"+"Date_Scheduled\n");
+				while (rst.next())
+                {
+                	listPane.append("       ");
+                	listPane.append(rst.getString(1).trim());
+                	listPane.append("\t\t");
+                	listPane.append(rst.getString(2).trim());
+                	listPane.append("\t\t");
+                	listPane.append(rst.getString(3).trim());

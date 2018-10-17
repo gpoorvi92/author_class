@@ -1,0 +1,10 @@
+
+        int iconID = item.getIcon();
+        viewHolder.icon.setImageResource(iconID);
+        viewHolder.title.setText(item.getTitle());
+        viewHolder.subtitle.setText(item.getSubtitle());
+        viewHolder.checkBox.setVisibility(item.isFile() ? View.VISIBLE : View.GONE);
+
+        return view;
+    }
+

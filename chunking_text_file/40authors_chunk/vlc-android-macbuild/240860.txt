@@ -1,0 +1,10 @@
+
+    public abstract int getVideoWidth();
+
+    public abstract boolean isPlaying();
+
+    public abstract void start() throws IllegalStateException;
+
+    public abstract void stop() throws IllegalStateException;
+
+    public abstract void pause() throws IllegalStateException;

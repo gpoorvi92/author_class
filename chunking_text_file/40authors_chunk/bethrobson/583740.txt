@@ -1,0 +1,10 @@
+       ml = new MyDrawPanel();
+       f.setContentPane(ml);
+       f.setBounds(30,30, 300,300);
+       f.setVisible(true);
+    }
+ 
+
+    public void go() {
+       setUpGui();
+

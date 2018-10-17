@@ -1,0 +1,10 @@
+    @TargetApi(11)
+    public static void setSystemUiVisibility(Activity activity, int visibility) {
+        if (activity == null)
+            return;
+
+        if (BuildHelper.isApi11_HoneyCombOrLater()) {
+            activity.getWindow().getDecorView()
+                    .setSystemUiVisibility(visibility);
+        }
+    }

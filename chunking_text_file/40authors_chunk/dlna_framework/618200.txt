@@ -1,0 +1,10 @@
+import org.cybergarage.xml.*;
+
+public class QueryResponse extends ControlResponse
+{
+	////////////////////////////////////////////////
+	//	Constructor
+	////////////////////////////////////////////////
+	
+	public QueryResponse()
+	{

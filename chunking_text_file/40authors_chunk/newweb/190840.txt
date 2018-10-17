@@ -1,0 +1,10 @@
+					return null;
+				}
+				lhjp.setPrice(price);
+				lhjp.setMaterialBrand(mb);
+				if(!lhjPriceService.modify(lhjp)){
+					out.write("failed更新失败,数据库保存失败");
+				}
+			}else{
+				if(lhjPriceService.findLhjPriceByMaterialBrandID(materialBrandID) != null){
+					out.write("failed服务器返回:该品牌铝材价格信息已存在,保存失败");

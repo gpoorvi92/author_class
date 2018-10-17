@@ -1,0 +1,10 @@
+      if (struct.isSetFunctionStatus()) {
+        {
+          oprot.writeI32(struct.functionStatus.size());
+          for (Map.Entry<String, CheckResultStatus> _iter146 : struct.functionStatus.entrySet())
+          {
+            oprot.writeString(_iter146.getKey());
+            oprot.writeI32(_iter146.getValue().getValue());
+          }
+        }
+      }

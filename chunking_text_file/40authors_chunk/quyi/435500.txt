@@ -1,0 +1,10 @@
+
+  public void addToNetworkPacket(NetworkPacket elem) {
+    if (this.networkPacket == null) {
+      this.networkPacket = new ArrayList<NetworkPacket>();
+    }
+    this.networkPacket.add(elem);
+  }
+
+  public List<NetworkPacket> getNetworkPacket() {
+    return this.networkPacket;

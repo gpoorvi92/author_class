@@ -1,0 +1,10 @@
+        setDetectResult((ByteBuffer)value);
+      }
+      break;
+
+    }
+  }
+
+  public Object getFieldValue(_Fields field) {
+    switch (field) {
+    case MISSION_ID:

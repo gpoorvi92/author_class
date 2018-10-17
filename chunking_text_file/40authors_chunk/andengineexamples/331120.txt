@@ -1,0 +1,10 @@
+	// Methods
+	// ===========================================================
+
+	protected MenuScene createMenuScene() {
+		final MenuScene menuScene = new MenuScene(this.mCamera);
+
+		final IMenuItem resetMenuItem = new ColorMenuItemDecorator(new TextMenuItem(MENU_RESET, this.mFont, "RESET", this.getVertexBufferObjectManager()), new Color(1,0,0), new Color(0,0,0));
+		resetMenuItem.setBlendFunction(GLES20.GL_SRC_ALPHA, GLES20.GL_ONE_MINUS_SRC_ALPHA);
+		menuScene.addMenuItem(resetMenuItem);
+

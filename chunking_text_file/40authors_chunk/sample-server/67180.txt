@@ -1,0 +1,10 @@
+            byte[] md5Byte = md5.digest();
+            if (md5Byte != null)
+            {
+                signStr = HexBin.encode(md5Byte);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        return signStr.toLowerCase();

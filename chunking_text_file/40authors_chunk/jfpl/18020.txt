@@ -1,0 +1,10 @@
+		this.wfxw = wfxw;
+		this.fad = fad;
+	}
+
+	@Override
+	public AbstractCommonData doSuccess(AbstractCommonData acd) {
+		acd.putBooleanValue("is_alert", false);
+		if (acd.getBooleanValue("success")) {
+			if (autoActivity.getClass() == VioDetailActivity.class) {
+				VioDetailActivity act = (VioDetailActivity) autoActivity;

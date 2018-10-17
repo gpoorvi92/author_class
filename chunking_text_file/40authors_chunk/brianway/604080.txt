@@ -1,0 +1,10 @@
+
+    public static void main(String[] args) {
+        Thread a = new Thread() {
+            @Override
+            public void run() {
+                try {
+                    lock.lock();
+                    while (nextPrintWho != 1) {
+                        conditionA.await();
+                    }

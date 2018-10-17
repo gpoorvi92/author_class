@@ -1,0 +1,10 @@
+              struct.setMD5IsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 3: // CHECK_ENGINE_NUM
+            if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+              struct.checkEngineNum = iprot.readI32();
+              struct.setCheckEngineNumIsSet(true);
+            } else { 

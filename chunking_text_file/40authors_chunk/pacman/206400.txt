@@ -1,0 +1,10 @@
+	 * 
+	 * @param file
+	 * @return
+	 */
+	public static String removeFileExtName(String file) {
+		
+		if (StringUtils.isEmpty(file)) {
+			return "";
+		} else if (file.indexOf('.') < 0) {
+			return file;

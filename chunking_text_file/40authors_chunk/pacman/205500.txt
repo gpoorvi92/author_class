@@ -1,0 +1,10 @@
+ * @ClassName: StepBase
+ * @Description: TODO
+ * @author: Dellinger
+ * @date: 2014年12月24日 上午12:25:08
+ */
+public abstract class StepBase implements IStep {
+
+	protected final static ILog logger = LogFactory.getLog(StepBase.class);
+
+	/* (non-Javadoc)

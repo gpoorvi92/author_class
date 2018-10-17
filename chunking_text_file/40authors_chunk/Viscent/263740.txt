@@ -1,0 +1,10 @@
+
+	// 模式角色：SerialThreadConfiment.WorkerThread
+	private static class WorkerThread extends AbstractTerminatableThread {
+
+		// 模式角色：SerialThreadConfiment.Queue
+		private final BlockingQueue<String> workQueue;
+		private final Future<FTPClient> ftpClientPromise;
+		private final String outputDir;
+
+		public WorkerThread(String outputDir, final String ftpServer,

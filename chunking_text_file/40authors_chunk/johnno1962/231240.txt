@@ -1,0 +1,10 @@
+
+    public native void __swipedRight( com.apple.eawt.event.SwipeEvent arg0 );
+
+    public void swipedRight( com.apple.eawt.event.SwipeEvent arg0 ) {
+        __swipedRight( arg0 );
+    }
+
+    /// public abstract void com.apple.eawt.event.SwipeListener.swipedUp(com.apple.eawt.event.SwipeEvent)
+
+    public native void __swipedUp( com.apple.eawt.event.SwipeEvent arg0 );

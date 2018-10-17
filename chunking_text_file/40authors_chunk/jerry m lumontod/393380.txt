@@ -1,0 +1,10 @@
+	public AnchorConstraint(
+		int top,
+		int right,
+		int bottom,
+		int left,
+		int topType,
+		int rightType,
+		int bottomType,
+		int leftType) {
+		this.top = top;

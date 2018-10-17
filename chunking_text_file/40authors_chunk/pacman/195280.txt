@@ -1,0 +1,6 @@
+		step.execute(context);
+		
+		assertTrue(FileHelper.exists("e:/temp/123456789.hjp"));
+	}
+
+}

@@ -1,0 +1,10 @@
+			username = AESFactory.decryptString(username);
+			pwd = AESFactory.decryptString(pwd);
+			acd.putStringValue("username", username);
+			acd.putStringValue("pwd", pwd);
+			acd.putLongValue("last_login_time", lastTime);
+			acd.putBooleanValue("is_auto_login", isAutoLogin);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}

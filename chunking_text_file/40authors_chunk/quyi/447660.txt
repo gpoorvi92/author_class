@@ -1,0 +1,10 @@
+
+  @Override
+  public boolean equals(Object that) {
+    if (that == null)
+      return false;
+    if (that instanceof Software)
+      return this.equals((Software)that);
+    return false;
+  }
+

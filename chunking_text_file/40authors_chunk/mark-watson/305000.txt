@@ -1,0 +1,10 @@
+        Graphics g2 = image.getGraphics();
+        g2.setColor(Color.white);
+        g2.fillRect(0, 0, 320, 320);
+        g2.setColor(Color.black);
+        maze.setValue(0, 0, Maze.START_LOC_VALUE);
+        for (int x=0; x<width; x++) {
+            for (int y=0; y<height; y++) {
+                short val = maze.getValue(x,y);
+                
+                if ( val == Maze.OBSTICLE) {

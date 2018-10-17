@@ -1,0 +1,10 @@
+			}
+		}
+		this.writeJson(treeNodeList);
+	}
+	/**
+	 * 创建树结构节点。
+	 * @param module
+	 * 	菜单模块。
+	 * */
+	private synchronized TreeNode createTreeNode(ModuleDefine m){

@@ -1,0 +1,10 @@
+            newnode.neighbors.add(cloneGraphRe(cur, map));
+        }
+        return newnode;
+    }
+    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+        HashMap<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+        Queue<UndirectedGraphNode> queue = new LinkedList<UndirectedGraphNode>();
+        if (node == null) return null;
+        queue.offer(node);
+        map.put(node, new UndirectedGraphNode(node.label));

@@ -1,0 +1,10 @@
+            break;
+          case 5: // NETWORK_PACKET
+            if (schemeField.type == org.apache.thrift.protocol.TType.LIST) {
+              {
+                org.apache.thrift.protocol.TList _list41 = iprot.readListBegin();
+                struct.networkPacket = new ArrayList<NetworkPacket>(_list41.size);
+                for (int _i42 = 0; _i42 < _list41.size; ++_i42)
+                {
+                  NetworkPacket _elem43;
+                  _elem43 = new NetworkPacket();

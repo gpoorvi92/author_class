@@ -1,0 +1,10 @@
+
+	@Override
+	public TypeForBrand selectTypeForBrandByCondition(String name,
+			int materialBrandID) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxg where name=? and materialbrandID=?")
+				.addEntity(TypeForBrand.class);
+		query.setString(0, name);
+		query.setInteger(1, materialBrandID);
+		return (TypeForBrand) query.uniqueResult();
+	}

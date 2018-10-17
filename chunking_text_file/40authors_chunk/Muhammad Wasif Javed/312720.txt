@@ -1,0 +1,10 @@
+		//super (Title, Resizable, Closable, Maximizable, Iconifiable)
+		super ("View All Books", false, true, false, true);
+		setSize (510, 300);
+
+		//Setting Panel's Layout.
+
+		pBook.setLayout (null);
+
+		//Setting the Form's Labels.
+

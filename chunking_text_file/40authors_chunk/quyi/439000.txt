@@ -1,0 +1,10 @@
+    setCpuMhzIsSet(true);
+    this.memSize = memSize;
+    setMemSizeIsSet(true);
+    this.fsSize = fsSize;
+    setFsSizeIsSet(true);
+  }
+
+  /**
+   * Performs a deep copy on <i>other</i>.
+   */

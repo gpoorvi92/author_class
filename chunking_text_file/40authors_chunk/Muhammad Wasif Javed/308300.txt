@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.sql.*;
+import java.util.*;
+import java.text.*;
+
+public class Logon extends JFrame implements ActionListener {
+
+	private Dimension d = Toolkit.getDefaultToolkit().getScreenSize();	//Getting the User's Screen Dimensions.

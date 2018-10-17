@@ -1,0 +1,10 @@
+			pushWinProp(model, winProp, materialBrandService, brandID, typeForBrandID, windowsBuyType);
+			list.add(model);
+		}
+		return list;
+	}
+	
+	public static OrderLhjWinProp pushJsonDataToModel(JSONObject winProp,String brandID,String typeForBrandID,
+			String windowsBuyType,String orderID,MaterialBrandService materialBrandService,OrderService orderService) throws NumberFormatException, JSONException{
+		OrderLhjWinProp model = new OrderLhjWinProp();
+		model.setOrder(orderService.findOrderById(orderID));

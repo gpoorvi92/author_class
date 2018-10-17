@@ -1,0 +1,10 @@
+		if(items1.length < yeSpan){//一个屏幕可以显示下
+			for(int i=0; i<items1.length; i++){
+				canvas.drawText(items1[i][0], 15, startY + 5 + 30*i, paint);
+				canvas.drawText(items1[i][1], 85, startY + 5 + 30*i, paint);
+				canvas.drawText(items1[i][2], 170, startY + 5 + 30*i, paint);
+				canvas.drawText(items1[i][3], 235, startY + 5 + 30*i, paint);
+			}
+		}
+		else{//一个屏幕显示不下时
+			for(int i=tempCurrentI; i<tempCurrentI+yeSpan; i++){

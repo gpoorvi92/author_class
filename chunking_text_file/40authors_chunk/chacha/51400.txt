@@ -1,0 +1,10 @@
+	 * @throws ChachaException
+	 */
+	public Response delAccount(DelAccountRequest request) throws ChachaException;
+	/**
+	 * 查询帐号
+	 * @param request 查询帐号请求
+	 * @return		查询帐号回应
+	 * @throws ChachaException
+	 */
+	public QueryAccountResponse queryAccount(QueryAccountRequest request) throws ChachaException;

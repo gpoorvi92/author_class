@@ -1,0 +1,10 @@
+			fos.write("hello".getBytes());
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			// 先判断不为null，才去关闭
+			if (fos != null) {
+				try {
+					fos.close();

@@ -1,0 +1,10 @@
+public HashNode getNext() 
+{ 
+	return next; 
+} 
+
+public void setNext(HashNode hs) 
+{ 
+	next = hs; 
+} 
+

@@ -1,0 +1,10 @@
+      JMenuBar mbar = new JMenuBar();
+      setJMenuBar(mbar);
+      JMenu fileMenu = new JMenu("File");
+      mbar.add(fileMenu);
+
+      // add Connect and Exit menu items
+
+      JMenuItem connectItem = new JMenuItem("Connect");
+      connectItem.addActionListener(new ConnectAction());
+      fileMenu.add(connectItem);

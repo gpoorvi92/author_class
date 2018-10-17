@@ -1,0 +1,10 @@
+	 * @return the audioDuration
+	 */
+	public long getAudioDuration() {
+		
+		if (gJNILoaded)
+			return nativeGetAudioDuration();
+		else
+			return -1;
+	}
+

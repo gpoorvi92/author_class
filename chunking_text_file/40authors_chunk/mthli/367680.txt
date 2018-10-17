@@ -1,0 +1,10 @@
+   {
+      return cells[r][c];
+   }
+
+   public void setValueAt(Object obj, int r, int c)
+   {
+      cells[r][c] = obj;
+   }
+
+   public boolean isCellEditable(int r, int c)

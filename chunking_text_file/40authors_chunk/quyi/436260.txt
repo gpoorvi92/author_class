@@ -1,0 +1,10 @@
+    }
+    lastComparison = Boolean.valueOf(isSetAutoRunMonitor()).compareTo(other.isSetAutoRunMonitor());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetAutoRunMonitor()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.autoRunMonitor, other.autoRunMonitor);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }

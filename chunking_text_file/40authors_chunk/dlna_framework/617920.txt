@@ -1,0 +1,10 @@
+		if (headerValue.equals(value) == true)
+			return true;
+		String soapAction = getSOAPAction();
+		if (soapAction == null)
+			return false;
+		return soapAction.equals(value);
+	}
+ 
+	////////////////////////////////////////////////
+	//	post

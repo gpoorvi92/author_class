@@ -1,0 +1,10 @@
+				Bitmap bm = ImageLoader.getInstance().loadImageSync(
+						"file://" + acd.getStringValue("image_path"));
+				chatImage.setImageBitmap(bm);
+				chatImage.setLayoutParams(new LinearLayout.LayoutParams(bm
+						.getWidth() + 40, bm.getHeight() + 25));
+			} else if ("4".equals(msgType)) {
+
+			} else if ("5".equals(msgType)) {
+
+			} else if ("6".equals(msgType)) {

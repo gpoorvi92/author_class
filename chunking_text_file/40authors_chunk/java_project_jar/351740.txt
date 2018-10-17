@@ -1,0 +1,10 @@
+        Reaper()
+        {
+            this$0 = FileCleaningTracker.this;
+            super("File Reaper");
+            setPriority(10);
+            setDaemon(true);
+        }
+    }
+
+

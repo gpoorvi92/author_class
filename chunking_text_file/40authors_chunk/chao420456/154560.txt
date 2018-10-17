@@ -1,0 +1,10 @@
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static JTextArea jta_disMess;
+	private JTextField jtf_inputMess;
+	private JButton jbt_trans;
+	
+	public int userThreadID = 0;
+	
+	private Client client;

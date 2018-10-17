@@ -1,0 +1,10 @@
+        if (licenseID == null) {
+        	System.out.println("Error: must have environment variable OPEN_CALAIS_KEY set");
+        	System.exit(1);
+        }
+        System.out.println("licenseID = " + licenseID);
+        String content = text;
+        String paramsXML = "<c:params xmlns:c=\"http://s.opencalais.com/1/pred/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><c:processingDirectives c:contentType=\"text/txt\" c:outputFormat=\"xml/rdf\"></c:processingDirectives><c:userDirectives c:allowDistribution=\"true\" c:allowSearch=\"true\" c:externalID=\"17cabs901\" c:submitter=\"ABC\"></c:userDirectives><c:externalMetadata></c:externalMetadata></c:params>";
+		StringBuilder sb = new StringBuilder(content.length() + 512);
+		sb.append("licenseID=").append(licenseID);
+		sb.append("&content=").append(content);

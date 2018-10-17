@@ -1,0 +1,10 @@
+	{
+		StringBuffer str = new StringBuffer();
+
+		str.append(getStatusLineString());
+		str.append(getHeaderString());
+		str.append(HTTP.CRLF);
+		str.append(getContentString());
+		
+		return str.toString();
+	}

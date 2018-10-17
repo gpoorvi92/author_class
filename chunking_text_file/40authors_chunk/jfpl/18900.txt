@@ -1,0 +1,10 @@
+		int type = getItemViewType(position);
+		int layoutId = 0;
+		switch (type) {
+		case 1:
+			layoutId = R.layout.chat_list_item;
+			break;
+		case 2:
+			layoutId = R.layout.chat_image_item;
+			break;
+		case 3:

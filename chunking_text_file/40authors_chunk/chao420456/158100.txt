@@ -1,0 +1,10 @@
+		// File file3 = new File("d:\\aaa\\bbb");
+		// System.out.println("mkdir:" + file3.mkdir());
+
+		File file4 = new File("d:\\aaa");
+		File file5 = new File("d:\\aaa\\bbb");
+		// File file5 = new File(file4,"bbb");
+		System.out.println("mkdir:" + file4.mkdir());
+		System.out.println("mkdir:" + file5.mkdir());
+		// 这种方式虽然可以，但是比较麻烦
+		// 怎么办呢,有一种更简单的方式

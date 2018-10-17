@@ -1,0 +1,6 @@
+		//看Fu行不行
+		//Fu f = new Fu();
+		//System.out.println(f.num);
+		//System.out.println(f.num2);
+	}
+}

@@ -1,0 +1,10 @@
+      Object bean = engine.get(beanName);
+      EventSetDescriptor descriptor = getEventSetDescriptor(bean, eventName);
+      if (descriptor == null) return;
+      descriptor.getAddListenerMethod().invoke(bean,
+         Proxy.newProxyInstance(null, new Class[] { descriptor.getListenerType() },
+            new InvocationHandler()
+               {
+                  public Object invoke(Object proxy, Method method, Object[] args)
+                        throws Throwable
+                  {

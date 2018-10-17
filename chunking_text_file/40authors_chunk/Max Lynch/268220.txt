@@ -1,0 +1,7 @@
+		model.setImage(img);
+		renderSurface.addShape(model);
+	}
+
+	
+}
+		

@@ -1,0 +1,10 @@
+				canvas.drawBitmap(cutBitmap, 270, startY+35+30*i-15, paint);				
+			}
+		}
+
+		canvas.drawBitmap(selectBackground, 10, startY + 35 + 30*selectI - 22, paint);
+		canvas.drawBitmap(buttonBackGround, 130, 430, paint);//绘制详细按钮背景
+		canvas.drawText("使用", 142, 452, paint);
+	}
+	
+	public boolean onTouchEvent(MotionEvent event){

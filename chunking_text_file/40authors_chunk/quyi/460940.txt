@@ -1,0 +1,10 @@
+      this.ue = ue;
+    }
+
+    /**
+     * Performs a deep copy on <i>other</i>.
+     */
+    public searchAllEng_result(searchAllEng_result other) {
+      if (other.isSetSuccess()) {
+        List<Engine> __this__success = new ArrayList<Engine>(other.success.size());
+        for (Engine other_element : other.success) {

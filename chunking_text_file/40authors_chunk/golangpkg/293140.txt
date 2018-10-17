@@ -1,0 +1,10 @@
+public class DefaultAuthorizerTest {
+
+	@Autowired
+	Authorizer authorizer;
+
+
+
+	@Test
+	public void test()
+			throws AuthorizationException {

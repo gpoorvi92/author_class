@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface ToneIndicatorControl13 extends ToneIndicatorControl12
+{
+    // Capabilities

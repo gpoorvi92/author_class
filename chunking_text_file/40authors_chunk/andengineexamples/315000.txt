@@ -1,0 +1,10 @@
+
+	private BitmapTextureAtlas mBitmapTextureAtlas;
+	private ITextureRegion mPNGTextureRegion;
+	private ITextureRegion mJPGTextureRegion;
+	private ITextureRegion mGIFTextureRegion;
+	private ITextureRegion mBMPTextureRegion;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================

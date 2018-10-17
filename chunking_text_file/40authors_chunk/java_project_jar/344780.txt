@@ -1,0 +1,10 @@
+        {
+            thread.join(interval);
+        }
+        catch(InterruptedException e)
+        {
+            Thread.currentThread().interrupt();
+        }
+        FileAlterationObserver observer;
+        for(Iterator i$ = observers.iterator(); i$.hasNext(); observer.destroy())
+            observer = (FileAlterationObserver)i$.next();

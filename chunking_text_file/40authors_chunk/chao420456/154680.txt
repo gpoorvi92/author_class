@@ -1,0 +1,10 @@
+		jp.add(jtf_inputMess, BorderLayout.CENTER);
+		jp.add(jbt_trans, BorderLayout.EAST);
+		return jp;
+	}
+
+	@Override
+	public void keyPressed(KeyEvent arg0) {
+		if(arg0.getKeyCode() == KeyEvent.VK_ENTER){
+			if(arg0.getSource() == jtf_inputMess){
+				jbt_trans.doClick();

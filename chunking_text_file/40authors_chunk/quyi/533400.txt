@@ -1,0 +1,10 @@
+      }
+      break;
+
+    case RISK_DESCRIPTION:
+      if (value == null) {
+        unsetRiskDescription();
+      } else {
+        setRiskDescription((String)value);
+      }
+      break;

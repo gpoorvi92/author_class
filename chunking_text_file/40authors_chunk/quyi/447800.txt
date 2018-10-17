@@ -1,0 +1,10 @@
+    if (this_present_jvmMaxMem || that_present_jvmMaxMem) {
+      if (!(this_present_jvmMaxMem && that_present_jvmMaxMem))
+        return false;
+      if (!this.jvmMaxMem.equals(that.jvmMaxMem))
+        return false;
+    }
+
+    return true;
+  }
+

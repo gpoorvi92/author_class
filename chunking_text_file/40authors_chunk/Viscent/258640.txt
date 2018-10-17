@@ -1,0 +1,10 @@
+import java.util.concurrent.atomic.AtomicLong;
+
+/**
+ * 生成本章实战案例运行时所需的接口日志文件。
+ * 
+ * @author Viscent Huang
+ *
+ */
+public class TestingDataGen {
+

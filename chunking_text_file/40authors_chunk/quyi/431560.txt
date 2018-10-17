@@ -1,0 +1,10 @@
+    case CHECK_DATE:
+      return isSetCheckDate();
+    case SENSITIVES:
+      return isSetSensitives();
+    case FEATURES_CHARACTERS:
+      return isSetFeaturesCharacters();
+    case API_CHECK:
+      return isSetApiCheck();
+    case REPORT_PATH:
+      return isSetReportPath();

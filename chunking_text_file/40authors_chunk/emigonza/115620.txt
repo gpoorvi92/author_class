@@ -1,0 +1,10 @@
+import jpos.JposException;
+import jpos.config.JposEntry;
+
+/**
+ * Defines the ServiceInstanceFactory.  Service providers must provide
+ * a class that implements this interface and that has a default ctor.
+ * The jpos.config implementation will use reflection to create an 
+ * instance of that class as the factory class and call its createInstance
+ * method to create the services
+ * @since 0.1 (Philly 99 meeting)

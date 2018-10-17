@@ -1,0 +1,10 @@
+	public videoSQL(String aa, String bb, String jj, String kk, String ll)
+	{
+			String url = "jdbc:odbc:lib";
+		
+		//Load the driver to allow connection to the database
+		try {
+ 			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+ 			con = DriverManager.getConnection(url);
+ 		}
+ 		catch(ClassNotFoundException cnfex)  {

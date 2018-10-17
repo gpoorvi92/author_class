@@ -1,0 +1,10 @@
+
+	@Override
+	public boolean delete(LhjPrice lhjp) {
+		try {
+			sessionFactory.getCurrentSession().delete(lhjp);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}

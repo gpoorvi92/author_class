@@ -1,0 +1,10 @@
+      catch (SQLException ex)
+      {
+         for (Throwable t : ex)
+            t.printStackTrace();
+      }
+   }
+
+   /**
+    * Runs a test by creating a table, adding a value, showing the table contents, and removing the
+    * table.

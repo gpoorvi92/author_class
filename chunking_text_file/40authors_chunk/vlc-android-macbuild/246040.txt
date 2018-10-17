@@ -1,0 +1,10 @@
+    @Override
+    public void setDisplay(SurfaceHolder holder) {
+        DebugLog.v(TAG, "setDisplay");
+        mSurfaceHolder = holder;
+        if (holder != null) {
+            holder.addCallback(mSurfaceCallback);
+            holder.setType(SurfaceHolder.SURFACE_TYPE_NORMAL);
+            holder.setFormat(PixelFormat.RGBX_8888);
+        } else {
+            mLibVLC.detachSurface();

@@ -1,0 +1,10 @@
+ * Created by snow on 2014/5/14.
+ */
+@Controller
+@RequestMapping("/manage/admin")
+public class AdminController extends BaseController{
+    @Autowired
+    private IAdminService adminService;
+
+    @RequestMapping("/list")
+    public ModelAndView list(@ModelAttribute("vo") BaseConditionVO vo) {

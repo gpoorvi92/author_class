@@ -1,0 +1,10 @@
+    public final static boolean isAnyStringEmpty(Collection<String> collection) {
+        if (collection == null || collection.isEmpty())
+            return false;
+
+        for (String elem : collection) {
+            if (TextUtils.isEmpty(elem))
+                return true;
+        }
+
+        return false;

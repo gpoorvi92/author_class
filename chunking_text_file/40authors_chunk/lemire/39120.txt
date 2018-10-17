@@ -1,0 +1,10 @@
+                            x[1].getIteratingRLW()));
+            assertTrue(x1.equals(tanswer));
+        }
+        System.gc();
+    }
+    
+    /**
+    *
+    */
+   @Test

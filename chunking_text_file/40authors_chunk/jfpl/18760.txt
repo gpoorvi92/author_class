@@ -1,0 +1,10 @@
+import android.webkit.WebSettings.LayoutAlgorithm;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+@SuppressLint("SetJavaScriptEnabled")
+public class ChatListAdapter extends BaseAdapter {

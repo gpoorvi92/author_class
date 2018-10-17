@@ -1,0 +1,10 @@
+      }
+      this.functionStatus.put(key, val);
+    }
+
+    public Map<String,com.nercis.isscp.idl.CheckResultStatus> getFunctionStatus() {
+      return this.functionStatus;
+    }
+
+    public updateUserAppStatus_args setFunctionStatus(Map<String,com.nercis.isscp.idl.CheckResultStatus> functionStatus) {
+      this.functionStatus = functionStatus;

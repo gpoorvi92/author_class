@@ -1,0 +1,10 @@
+				entry.timeStamp = timeStamp;
+				entry.recordType = "response";
+				entry.operationName = "getLocationRsp";
+				entry.srcDevice = "ESB";
+				entry.dstDevice = "OSG";
+				entry.traceId = "0020" + traceIdFormatter.format(originalTId + 2);
+				logger.printLog(entry);
+
+			}
+

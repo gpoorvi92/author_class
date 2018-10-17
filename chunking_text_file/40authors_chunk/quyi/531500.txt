@@ -1,0 +1,10 @@
+        struct.app_description = iprot.readString();
+        struct.setApp_descriptionIsSet(true);
+      }
+      if (incoming.get(9)) {
+        {
+          org.apache.thrift.protocol.TList _list5 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.I32, iprot.readI32());
+          struct.requestPurviews = new ArrayList<com.nercis.isscp.idl.permission.Permissions>(_list5.size);
+          for (int _i6 = 0; _i6 < _list5.size; ++_i6)
+          {
+            com.nercis.isscp.idl.permission.Permissions _elem7;

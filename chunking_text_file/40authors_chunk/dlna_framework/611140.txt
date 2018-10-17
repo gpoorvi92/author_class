@@ -1,0 +1,10 @@
+	////////////////////////////////////////////////
+	//	Thread
+	////////////////////////////////////////////////
+	
+	private java.lang.Thread mThreadObject = null;
+	
+	public void setThreadObject(java.lang.Thread obj) {
+		mThreadObject = obj;
+	}
+

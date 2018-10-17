@@ -1,0 +1,10 @@
+        return view;
+    }
+
+    @Override
+    protected void onSaveDialogContentState(Bundle outState) {
+        outState.putString(STATE_TASK_PARENT_DIR, parentDir);
+        outState.putString(STATE_TASK_REPO_ID, repoID);
+        outState.putParcelable(STATE_ACCOUNT, account);
+    }
+

@@ -1,0 +1,10 @@
+        optionals.set(5);
+      }
+      oprot.writeBitSet(optionals, 6);
+      if (struct.isSetCpuVendor()) {
+        oprot.writeString(struct.cpuVendor);
+      }
+      if (struct.isSetCpuModel()) {
+        oprot.writeString(struct.cpuModel);
+      }
+      if (struct.isSetCpuCores()) {

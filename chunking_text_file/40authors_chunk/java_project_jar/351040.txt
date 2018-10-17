@@ -1,0 +1,10 @@
+        cachedLine = null;
+    }
+
+    public void remove()
+    {
+        throw new UnsupportedOperationException("Remove unsupported on LineIterator");
+    }
+
+    public static void closeQuietly(LineIterator iterator)
+    {

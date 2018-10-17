@@ -1,0 +1,10 @@
+			InputStream input = TestClientForNercis.class.getClassLoader().getResourceAsStream("client.properties");
+			if (input == null) {
+				input = TestClientForNercis.class.getResourceAsStream("client.properties");
+			}
+			properties.load(input);
+		} catch (IOException e) {
+			throw new RuntimeException("Load config file failed", e);
+		}
+		queue_name = properties.getProperty("activeMq.messagequeue.name", "waitingCheckQueue");
+		queue_url = properties.getProperty("activeMq.queue.url", "tcp://localhost:61616");

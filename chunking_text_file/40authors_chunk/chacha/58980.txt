@@ -1,0 +1,10 @@
+	public Account add(Account entity){
+		return helper.add(entity, false);
+	}
+	/**
+	 * 通过ID删除帐号
+	 * @param id
+	 */
+	public void deleteByID(String id){
+		helper.remove(id);
+	}

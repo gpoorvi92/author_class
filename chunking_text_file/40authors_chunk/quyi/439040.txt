@@ -1,0 +1,10 @@
+    this.memSize = other.memSize;
+    this.fsSize = other.fsSize;
+  }
+
+  public Hardware deepCopy() {
+    return new Hardware(this);
+  }
+
+  @Override
+  public void clear() {

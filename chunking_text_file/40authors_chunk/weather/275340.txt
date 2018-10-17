@@ -1,0 +1,10 @@
+    }
+
+    RequestBody body = null;
+    if (request instanceof HttpEntityEnclosingRequest) {
+      HttpEntity entity = ((HttpEntityEnclosingRequest) request).getEntity();
+      if (entity != null) {
+        // Wrap the entity in a custom Body which takes care of the content, length, and type.
+        body = new HttpEntityBody(entity);
+
+        Header encoding = entity.getContentEncoding();

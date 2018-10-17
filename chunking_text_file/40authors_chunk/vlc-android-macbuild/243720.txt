@@ -1,0 +1,10 @@
+        }
+
+        return 0;
+    }
+
+    public static int e(String tag, String msg, Throwable tr) {
+        if (ENABLE_ERROR) {
+            return Log.e(tag, msg, tr);
+        }
+

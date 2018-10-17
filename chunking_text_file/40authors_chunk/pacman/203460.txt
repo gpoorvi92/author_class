@@ -1,0 +1,10 @@
+			int lastDotPosition = url.lastIndexOf('.');
+			int lastSlashPosition = url.lastIndexOf('/');
+			
+			if (lastSlashPosition > 0 && 
+				lastDotPosition > 0 && 
+				lastDotPosition > lastSlashPosition) {
+				
+				result = url.substring(lastSlashPosition + 1, lastDotPosition);
+			}
+		} else {

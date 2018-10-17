@@ -1,0 +1,10 @@
+
+    @Override
+    public void clear() {
+      this.propertyName = null;
+      this.propertyValue = null;
+    }
+
+    public String getPropertyName() {
+      return this.propertyName;
+    }

@@ -1,0 +1,10 @@
+      y = clientHeight;
+
+      for (int i = 0; i < values.length; i++)
+      {
+         double x1 = INSETS + i * barWidth + 1;
+         double y1 = INSETS + top;
+         double value = getValues(i);
+         double height = value * scale;
+         if (value >= 0) y1 += (maxValue - value) * scale;
+         else

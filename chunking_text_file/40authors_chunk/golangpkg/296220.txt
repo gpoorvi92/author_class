@@ -1,0 +1,8 @@
+
+	public void writeToResponse(Serializable jsonObject, ServletResponse servletResponse)
+			throws IOException {
+		servletResponse.setContentType("application/json");
+		servletResponse.getWriter().print(new Gson().toJson(jsonObject));
+		servletResponse.getWriter().close();
+	}
+}

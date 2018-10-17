@@ -1,0 +1,10 @@
+	node_y[numNodes] = y;
+	numNodes++;
+    }
+
+    public int getNumNodes() { return numNodes; }
+    public int getNumLinks() { return numLinks; }
+
+    public String getNodeName(int index) {
+	try {
+	    return nodeNames[index];

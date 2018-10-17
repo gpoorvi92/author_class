@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Turn an iterator into a bitmap
+     *
+     * @param i iterator we wish to materialize
+     * @param c where we write
+     */
+    public static void materialize(final IteratingRLW32 i,
+                                   final BitmapStorage32 c) {

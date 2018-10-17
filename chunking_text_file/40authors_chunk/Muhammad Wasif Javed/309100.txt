@@ -1,0 +1,10 @@
+					int result = st.executeUpdate (q);	//Running Query.
+					if (result == 1) {			//If Query Successful.
+						JOptionPane.showMessageDialog (this, "New User has been Created.");
+						txtUser.setText ("");
+						txtPass.setText ("");
+						txtUser.requestFocus ();
+					}
+					else {					//If Query Failed.
+						JOptionPane.showMessageDialog (this, "Problem while Creating the User.");
+						txtUser.setText ("");

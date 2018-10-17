@@ -1,0 +1,10 @@
+		contextParamList1.add(parameter1);
+		ContextParameter parameter2 = new ContextParameter();
+		parameter2.setSequenceNum(2);
+		parameter2.setContent(String.valueOf(taskParam1.getAppId()));
+		parameter2.setNeedDownload(false);
+		contextParamList1.add(parameter2);
+		taskParam1.setContextParameterList(contextParamList1);
+		jobParameterList.add(taskParam1);
+
+		List<JobPhase> jobPhaseList = new ArrayList<JobPhase>();

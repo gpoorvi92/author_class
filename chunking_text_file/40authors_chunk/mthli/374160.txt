@@ -1,0 +1,10 @@
+               try
+               {
+                  Map<String, byte[]> byteCodeMap = new HashMap<>();
+                  for (ByteArrayJavaClass cl : classFileObjects)
+                     byteCodeMap.put(cl.getName().substring(1), cl.getBytes());
+                  ClassLoader loader = new MapClassLoader(byteCodeMap);
+                  JFrame frame = (JFrame) loader.loadClass("x.Frame").newInstance();
+                  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                  frame.setTitle("CompilerTest");
+                  frame.setVisible(true);

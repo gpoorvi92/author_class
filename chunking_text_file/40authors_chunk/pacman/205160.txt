@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.jms.IMessageManager#createBuilder()
+	 */
+	@Override
+	public IMessageBuilder createBuilder() {
+		
+		return new DefaultMessageBuilder();
+	}
+
+	/* (non-Javadoc)
+	 * @see com.yeshj.pacman.jms.IMessageManager#createFactory()

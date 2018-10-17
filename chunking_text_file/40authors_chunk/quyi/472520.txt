@@ -1,0 +1,10 @@
+      protected boolean isOneway() {
+        return false;
+      }
+
+      public heart_result getResult(I iface, heart_args args) throws org.apache.thrift.TException {
+        heart_result result = new heart_result();
+        try {
+          result.success = iface.heart(args.nodeHeat, args.timestamp);
+        } catch (com.nercis.isscp.idl.InvalidRequestException ire) {
+          result.ire = ire;

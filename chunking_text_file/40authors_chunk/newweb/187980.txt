@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderLhjWeight;
+
+@Cache(usage=CacheConcurrencyStrategy.READ_WRITE)
+@Entity
+@Table(name="t_materialbrand")
+public class MaterialBrand implements Cloneable{
+
+	private int ID;
+	private String name;
+	private Supplier supplier;

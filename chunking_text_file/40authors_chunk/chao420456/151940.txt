@@ -1,0 +1,10 @@
+					System.out.println("登录成功");
+
+					String yn;
+					do {
+						// 启动游戏
+						GuessNumber.start();
+						System.out.println("你还要玩吗?是请输入y:");
+						yn = sc.nextLine();
+					} while ("y".equals(yn));
+

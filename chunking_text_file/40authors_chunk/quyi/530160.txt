@@ -1,0 +1,10 @@
+        return false;
+      if (!this.app_name.equals(that.app_name))
+        return false;
+    }
+
+    boolean this_present_versioncode = true && this.isSetVersioncode();
+    boolean that_present_versioncode = true && that.isSetVersioncode();
+    if (this_present_versioncode || that_present_versioncode) {
+      if (!(this_present_versioncode && that_present_versioncode))
+        return false;

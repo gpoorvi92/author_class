@@ -1,0 +1,10 @@
+     *
+     * @param repoID
+     * @param parentDir
+     * @param dirName
+     * @throws SeafException
+     */
+    public void validateRemoteCameraUploadsDir(String repoID, String parentDir, String dirName) throws SeafException {
+        List<SeafDirent> list = mDataManager.getDirentsFromServer(repoID, parentDir);
+
+        for (SeafDirent seafDirent : list) {

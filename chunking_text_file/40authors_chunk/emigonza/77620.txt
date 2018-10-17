@@ -1,0 +1,10 @@
+
+    /** Array of all the deviceBus property values */
+    public static final String[] DEVICE_BUS_VALUES = 
+                                   { 
+                                   	 RS232_DEVICE_BUS, 
+                                   	 PARALLEL_DEVICE_BUS,
+									 USB_DEVICE_BUS, 
+									 RS485_DEVICE_BUS, 
+									 HID_DEVICE_BUS,
+									 PROPRIETARY_DEVICE_BUS, 

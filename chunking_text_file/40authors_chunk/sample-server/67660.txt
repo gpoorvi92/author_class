@@ -1,0 +1,7 @@
+    
+    
+    
+    public abstract ChatServerRpc.UpdateBulletinResp UpdateBulletinReq(ChatServerRpc.UpdateBulletinReq req);
+    
+    
+}

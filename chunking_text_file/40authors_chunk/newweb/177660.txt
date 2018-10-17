@@ -1,0 +1,10 @@
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.newweb.model.base.User;
+import com.newweb.service.base.UserService;
+
+@Controller
+public class SystemController {

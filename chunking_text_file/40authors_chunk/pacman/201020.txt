@@ -1,0 +1,10 @@
+	 */
+	private AppServerEventManager() {}
+	
+	public static AppServerEventManager getInstance() {
+		
+		return gInstance;
+	}
+	
+	/** (non Javadoc)
+	 * TODO

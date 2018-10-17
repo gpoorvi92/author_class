@@ -1,0 +1,10 @@
+ * The panel inside the DoubleArrayEditor. It contains a list of the array values, together with
+ * buttons to resize the array and change the currently selected list value.
+ * @version 1.31 2012-06-10
+ * @author Cay Horstmann
+ */
+public class DoubleArrayEditorPanel extends JPanel
+{
+   private PropertyEditorSupport editor;
+   private double[] array;
+   private JFormattedTextField sizeField = new JFormattedTextField(new Integer(0));

@@ -1,0 +1,10 @@
+		return fillColorRadial;
+	}
+	public GradientPaint getGradientStroke()
+	{
+		return strokeColorGradient;
+	}
+	public RadialGradientPaint getRadialStroke()
+	{
+		return strokeColorRadial;
+	}

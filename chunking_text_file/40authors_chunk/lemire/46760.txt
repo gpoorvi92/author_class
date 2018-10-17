@@ -1,0 +1,10 @@
+ * @author Daniel Lemire
+ * @since 0.5.0
+ */
+public final class RunningLengthWord32 implements Cloneable {
+
+    /**
+     * Instantiates a new running length word.
+     *
+     * @param buffer the buffer
+     * @param p position in the array where the running length word is

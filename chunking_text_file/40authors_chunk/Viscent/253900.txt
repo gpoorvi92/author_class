@@ -1,0 +1,10 @@
+			@Override
+			public void handleError(final PipeException exp) {
+				helperExecutor.submit(new Runnable() {
+
+					@Override
+					public void run() {
+						exp.printStackTrace();
+					}
+
+				});

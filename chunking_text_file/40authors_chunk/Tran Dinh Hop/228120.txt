@@ -1,0 +1,10 @@
+package Utils;
+
+/**
+ 	*************************************************************************************
+	* File: ImageFilter.java                Date: 21/06/2004		      Version: 1.01 		*
+	*-----------------------------------------------------------------------------------*
+	* This program is released under the GNU General Public License 2.00. 	              
+	* Details of GNU GPL at http://www.opensource.org/licenses/gpl-license.php  		    
+	* You must agree to this license before using, copying or modifying this code.								    
+	*

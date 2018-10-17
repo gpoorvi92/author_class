@@ -1,0 +1,10 @@
+    /// public javax.swing.JWindow(java.awt.GraphicsConfiguration)
+
+    JWindowProxy( java.awt.GraphicsConfiguration gc , long swiftObject ) {
+        super( gc );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public javax.swing.JWindow()
+
+    JWindowProxy( long swiftObject ) {

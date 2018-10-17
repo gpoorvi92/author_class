@@ -1,0 +1,10 @@
+        this.addWindowListener
+        (
+            new WindowAdapter() {
+                public void windowClosing(WindowEvent e) {
+                    RVSFrame.this.windowClosed();
+                }
+            }
+        );  
+    }
+    

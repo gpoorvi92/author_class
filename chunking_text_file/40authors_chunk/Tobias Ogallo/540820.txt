@@ -1,0 +1,10 @@
+				listPane.append("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+				listPane.append("Emp_No"+"\t\t"+"Sname"+"\t\t"+"Fname"+"\t\t"+"Gender\t\t"+"Designation"+"\t\t"+"Telephone\t\t"+"E-Mail\n");
+				while (rst.next())
+                {
+                	listPane.append("       ");
+                	listPane.append(rst.getString(1).trim());
+                	listPane.append("\t\t");
+                	listPane.append(rst.getString(2).trim());
+                	listPane.append("\t\t");
+                	listPane.append(rst.getString(3).trim());

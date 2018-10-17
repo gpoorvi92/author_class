@@ -1,0 +1,10 @@
+        afterSetContentView_();
+    }
+
+    @Override
+    public void setContentView(View view) {
+        super.setContentView(view);
+        afterSetContentView_();
+    }
+
+    public static EditActivity_.IntentBuilder_ intent(Context context) {

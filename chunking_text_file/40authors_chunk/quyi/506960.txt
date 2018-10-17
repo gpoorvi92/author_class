@@ -1,0 +1,10 @@
+
+  private static final org.apache.thrift.protocol.TField MISSION_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("missionId", org.apache.thrift.protocol.TType.STRING, (short)1);
+  private static final org.apache.thrift.protocol.TField USER_APP_ID_FIELD_DESC = new org.apache.thrift.protocol.TField("userAppId", org.apache.thrift.protocol.TType.STRING, (short)2);
+  private static final org.apache.thrift.protocol.TField USED_PERMISSIONS_FIELD_DESC = new org.apache.thrift.protocol.TField("usedPermissions", org.apache.thrift.protocol.TType.LIST, (short)3);
+  private static final org.apache.thrift.protocol.TField PLOTS_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("plotsStatus", org.apache.thrift.protocol.TType.MAP, (short)4);
+  private static final org.apache.thrift.protocol.TField FUNCTION_STATUS_FIELD_DESC = new org.apache.thrift.protocol.TField("functionStatus", org.apache.thrift.protocol.TType.MAP, (short)5);
+  private static final org.apache.thrift.protocol.TField DETECT_RESULT_FIELD_DESC = new org.apache.thrift.protocol.TField("detectResult", org.apache.thrift.protocol.TType.STRING, (short)6);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();
+  static {

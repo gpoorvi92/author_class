@@ -1,0 +1,10 @@
+import jpos.JposException;
+
+/**
+ * All services must implement this interface (it is also extended
+ * by the jpos.services.BaseService interface which must be implemented
+ * by all JavaPOS services).  The one method define in this interface
+ * is used to indicate to the service that its connection has been dropped
+ * @since 0.1 (Philly 99 meeting)
+ * @author E. Michael Maximilien (maxim@us.ibm.com)
+ */

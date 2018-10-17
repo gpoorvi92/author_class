@@ -1,0 +1,10 @@
+  public static final int RFID_PR_ISO180006B                   = 0x00004000;
+  public static final int RFID_PR_OTHER                        = 0x01000000;
+  public static final int RFID_PR_ALL                          = 0x40000000; // (ProtocolMask only)
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "readTags" and "startReadTags" Methods: "Cmd" Parameter Constants
+  /////////////////////////////////////////////////////////////////////
+
+  public static final int RFID_RT_ID                           = 0x10;

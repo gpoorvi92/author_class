@@ -1,0 +1,10 @@
+               // show file chooser dialog
+               int result = chooser.showOpenDialog(null);
+
+               // if file selected, set it as icon of the label
+               if (result == JFileChooser.APPROVE_OPTION)
+               {
+                  textArea.setText("");
+                  openItem.setEnabled(false);
+                  textReader = new TextReader(chooser.getSelectedFile());
+                  textReader.execute();

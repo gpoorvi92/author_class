@@ -1,0 +1,10 @@
+
+	private native boolean nativeAnalyzeMedia(String mediaFile);
+
+	private native String nativeGetMediaType();
+	
+	private native String nativeGetAudioCodec();
+	
+	private native String nativeGetVideoCodec();
+	
+	private native int nativeGetWidth();

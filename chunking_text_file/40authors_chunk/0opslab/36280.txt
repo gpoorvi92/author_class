@@ -1,0 +1,10 @@
+
+  /**
+   * Constructor ensuring that at least two targets are needed (thus use of this
+   * class makes sense).
+   * <p>
+   * 
+   * @param streamOne
+   *          the 1st stream to delegate writes to.
+   * @param streamTwo
+   *          the 2nd stream to delegate writes to.

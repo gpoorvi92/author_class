@@ -1,0 +1,10 @@
+	    	logger.info(sb.toString());
+	    	
+    	} catch (Exception e) {
+    		logger.error("runShell error!", e);
+    		result = false;
+    	}
+    	
+    	return result;
+    }
+}

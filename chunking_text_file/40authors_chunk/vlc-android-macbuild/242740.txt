@@ -1,0 +1,10 @@
+    public VodIndex mVodIndex; // vod解析后的vod列表
+
+    public MediaResource() {
+        mHighQualGroup = new MediaResourceGroup();
+        mLowQualGroup = new MediaResourceGroup();
+    }
+
+    // for Parcelable
+    @Override
+    public int describeContents() {

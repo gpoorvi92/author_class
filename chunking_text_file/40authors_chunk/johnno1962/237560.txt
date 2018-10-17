@@ -1,0 +1,10 @@
+    }
+
+    /// public void java.awt.event.WindowAdapter.windowClosing(java.awt.event.WindowEvent)
+
+    public native void __windowClosing( java.awt.event.WindowEvent e );
+
+    boolean entered_windowClosing_1;
+
+    public void windowClosing( java.awt.event.WindowEvent e ) {
+        if ( !entered_windowClosing_1 ) {

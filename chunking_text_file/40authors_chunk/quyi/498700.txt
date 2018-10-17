@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_filePath = true && this.isSetFilePath();
+    boolean that_present_filePath = true && that.isSetFilePath();
+    if (this_present_filePath || that_present_filePath) {
+      if (!(this_present_filePath && that_present_filePath))
+        return false;
+      if (!this.filePath.equals(that.filePath))
+        return false;
+    }

@@ -1,0 +1,10 @@
+		add(lineButton);
+		//add(freeButton);
+		//add(swirlButton);
+		
+		rectButton.addActionListener(this);
+		circleButton.addActionListener(this);
+		lineButton.addActionListener(this);
+		freeButton.addActionListener(this);
+		swirlButton.addActionListener(this);
+		

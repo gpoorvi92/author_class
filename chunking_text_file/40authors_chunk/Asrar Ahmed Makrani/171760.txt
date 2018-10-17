@@ -1,0 +1,10 @@
+					});
+  	
+	
+	Video_master.setFont (new Font ("Impact", Font.PLAIN, 16));
+
+	text.setLayout(new GridBagLayout());
+	GridBagConstraints gbc = new GridBagConstraints();
+		
+    gbc.gridy = 0;
+    gbc.gridx = 0;

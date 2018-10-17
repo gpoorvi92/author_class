@@ -1,0 +1,10 @@
+
+  public MissionResults setEngines(List<Engine> engines) {
+    this.engines = engines;
+    return this;
+  }
+
+  public void unsetEngines() {
+    this.engines = null;
+  }
+

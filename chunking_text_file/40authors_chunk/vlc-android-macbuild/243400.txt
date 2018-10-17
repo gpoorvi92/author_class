@@ -1,0 +1,10 @@
+            DebugLog.vfmt(TAG, "selectPlayIndex_HighestBitrate: found %s %d",
+                    playIndex.mPlayTag, (int) bitrate);
+            if (bitrate <= maxBitrate && bitrate > selectedBitrate) {
+                mSelectedPlayIndex = playIndex;
+                selectedBitrate = bitrate;
+                DebugLog.vfmt(TAG,
+                        "selectPlayIndex_HighestBitrate: choose %s %d",
+                        playIndex.mPlayTag, (int) selectedBitrate);
+            }
+        }

@@ -1,0 +1,10 @@
+     * @param fromDate
+     * @param toDate
+     * @param weekCount
+     * @return true 超过了n个星期 false 不超过n个星期
+     */
+    public static boolean beyondWeeks(Date fromDate, Date toDate, int weekCount) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(fromDate);
+        calendar.add(Calendar.DAY_OF_WEEK, weekCount);
+        fromDate = calendar.getTime();

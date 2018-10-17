@@ -1,0 +1,10 @@
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	@RequestMapping(value="modifyUserPasswordTo888888.ajax")
+	@ResponseBody
+	public String modifyUserPasswordTo888888(HttpServletRequest request, HttpServletResponse response){
+		response.setCharacterEncoding("UTF-8");
+		String ids = request.getParameter("ids");

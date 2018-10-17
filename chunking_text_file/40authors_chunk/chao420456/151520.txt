@@ -1,0 +1,10 @@
+				部分学生抽烟
+	Smoking:接口
+		抽烟的功能
+*/
+//抽烟接口
+interface Smoking {
+	public abstract void smoke();
+}
+
+//人抽象类

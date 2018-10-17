@@ -1,0 +1,10 @@
+	@Autowired
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+
+	@Override
+	public Customer selectCustomerByID(int id) {
+		return (Customer) sessionFactory.getCurrentSession().get(Customer.class, id);
+	}

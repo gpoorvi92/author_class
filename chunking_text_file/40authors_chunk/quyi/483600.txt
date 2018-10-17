@@ -1,0 +1,10 @@
+          switch (schemeField.id) {
+            case 1: // MISSION_ID
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.missionId = iprot.readString();
+                struct.setMissionIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 2: // USER_APP_ID

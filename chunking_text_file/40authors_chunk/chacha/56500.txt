@@ -1,0 +1,10 @@
+	 * 
+	 * @param token
+	 * @return
+	 */
+	private DBObject queryTokenByToken(String token) {
+		DBCollection coll = connection.getCollection(COLLECTION_NAME);
+		QueryBuilder query = QueryBuilder.start();
+		DBObject db = query.put("token").is(token).get();
+		DBObject object = coll.findOne(db);
+		return object;

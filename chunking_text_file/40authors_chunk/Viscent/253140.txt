@@ -1,0 +1,10 @@
+	    int timestampMaxOffset) {
+		super(respDelayConf, timestampMaxOffset);
+
+	}
+
+	@Override
+	public SimulatedRequest newRequest() {
+
+		return new SimulatedRequest() {
+

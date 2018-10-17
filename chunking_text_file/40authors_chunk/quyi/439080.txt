@@ -1,0 +1,10 @@
+  }
+
+  public String getCpuVendor() {
+    return this.cpuVendor;
+  }
+
+  public Hardware setCpuVendor(String cpuVendor) {
+    this.cpuVendor = cpuVendor;
+    return this;
+  }

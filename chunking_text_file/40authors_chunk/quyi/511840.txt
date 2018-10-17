@@ -1,0 +1,10 @@
+      this.___currentMethod = method_call;
+      ___manager.call(method_call);
+    }
+
+    public static class reportTaskManagerConfig_call extends org.apache.thrift.async.TAsyncMethodCall {
+      public reportTaskManagerConfig_call(org.apache.thrift.async.AsyncMethodCallback resultHandler, org.apache.thrift.async.TAsyncClient client, org.apache.thrift.protocol.TProtocolFactory protocolFactory, org.apache.thrift.transport.TNonblockingTransport transport) throws org.apache.thrift.TException {
+        super(client, protocolFactory, transport, resultHandler, false);
+      }
+
+      public void write_args(org.apache.thrift.protocol.TProtocol prot) throws org.apache.thrift.TException {

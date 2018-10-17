@@ -1,0 +1,10 @@
+        return result;
+
+    }
+
+    /**
+     * A default delegation to {@link #detectCodepage(URL)}that opens the document specified by the given URL with the
+     * detected codepage.
+     * <p>
+     * 
+     * @see ICodepageDetector#open(URL)

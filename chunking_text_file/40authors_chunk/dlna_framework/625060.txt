@@ -1,0 +1,10 @@
+	private final static String URL = "url";
+	
+	public void setURL(String value)
+	{
+		getIconNode().setNode(URL, value);
+	}
+
+	public String getURL()
+	{
+		return getIconNode().getNodeValue(URL);

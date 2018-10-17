@@ -1,0 +1,10 @@
+	
+	/**
+	 * Gets HttpServletRequest.
+	 * 
+	 * @Title: getRequest
+	 * @return
+	 * @return: HttpServletRequest
+	 */
+	protected static HttpServletRequest getRequest() {
+

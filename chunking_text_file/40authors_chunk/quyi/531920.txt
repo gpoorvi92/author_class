@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义静态检测 API检测记录
+ * 1:string apiName 被调用的威胁Api名称
+ * 2:string apiPackageName 被调用的威胁Api包名称
+ * 3:string packageName 检测存在问题的包的名称
+ * 4:string objectName 检测存在问题的类的名称

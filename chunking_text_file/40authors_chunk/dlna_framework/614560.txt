@@ -1,0 +1,10 @@
+*	11/20/02
+*		- first revision.
+*	12/12/03
+*		- Inma Mar?n <inma@DIF.UM.ES>
+*		- Changed open(addr, port) to send IPv6 SSDP packets.
+*		- The socket binds only the port without the interface address.
+*		- The full binding socket can send SSDP IPv4 packets. Is it a bug of J2SE v.1.4.2-b28 ?.
+*	01/06/04
+*		- Oliver Newell <olivern@users.sourceforge.net>
+*		- Added to set a current timestamp when the packet are received.

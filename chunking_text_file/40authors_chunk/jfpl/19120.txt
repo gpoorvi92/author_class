@@ -1,0 +1,10 @@
+					holder.chatWebview
+							.setWebViewClient(new JFChatWebViewClient(
+									holder.sendState));
+					holder.chatWebview
+							.setWebChromeClient(new JFChatWebChromeClient(ctx));
+					holder.chatWebview.loadUrl(acd.getStringValue("url"));
+				}
+			}
+		} else if ("1".equals(direction)) {
+			holder.chatLayout.setGravity(Gravity.RIGHT);

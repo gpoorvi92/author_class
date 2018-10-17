@@ -1,0 +1,10 @@
+     * Load RDF from a file. The file should have one of these extentions:
+     * <ul>
+     *   <li>.rdf - for XML RDF format</li>
+     *   <li>.nt - for NTriple RDF format</li>
+     *   <li>.n3 - for the most concise N3 RDF format</li>
+     * </ul>
+     * @param rdf_file_path_name
+     * @throws org.openrdf.repository.RepositoryException
+     * @throws java.io.IOException
+     * @throws org.openrdf.rio.RDFParseException

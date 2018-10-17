@@ -1,0 +1,10 @@
+                  for (int _i43 = 0; _i43 < _map42.size; ++_i43)
+                  {
+                    com.nercis.isscp.idl.PlotsType _key44;
+                    com.nercis.isscp.idl.CheckResultStatus _val45;
+                    _key44 = com.nercis.isscp.idl.PlotsType.findByValue(iprot.readI32());
+                    _val45 = com.nercis.isscp.idl.CheckResultStatus.findByValue(iprot.readI32());
+                    struct.plotsStatus.put(_key44, _val45);
+                  }
+                  iprot.readMapEnd();
+                }

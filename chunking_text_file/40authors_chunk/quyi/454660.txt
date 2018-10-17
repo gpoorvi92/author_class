@@ -1,0 +1,10 @@
+      this.operate = operate;
+      return this;
+    }
+
+    public void unsetOperate() {
+      this.operate = null;
+    }
+
+    /** Returns true if field operate is set (has been assigned a value) and false otherwise */
+    public boolean isSetOperate() {

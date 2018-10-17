@@ -1,0 +1,10 @@
+	     encodeParam.setVerticalSubsampling(1, 1);
+	     encodeParam.setVerticalSubsampling(2, 1);
+	
+	     encodeParam.setRestartInterval(64);
+	
+	     encodeParam.setLumaQTable(qtable1);
+	     encodeParam.setChromaQTable(qtable2);
+	
+	     encodeImage(srcImage, fosImage);
+	     dstImage = loadImage(outFileName);

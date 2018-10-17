@@ -1,0 +1,8 @@
+    @Override
+    protected void writeInternal(Object o, HttpOutputMessage outputMessage) throws IOException, HttpMessageNotWritableException
+    {
+        String jsonStr = JSON.toJSONString(o);
+        outputMessage.getBody().write(jsonStr.getBytes(DEF_CHARSET));
+        outputMessage.getBody().flush();
+    }
+}

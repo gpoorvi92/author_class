@@ -1,0 +1,10 @@
+        saveToWaveFrontOBJ(m, f); 
+    }
+
+    public String getDescription()
+    {
+        return "(*.obj) WaveFront Object files";
+    }
+
+    /** returns the extension commonly used by the file format
+ */

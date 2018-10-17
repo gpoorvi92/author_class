@@ -1,0 +1,10 @@
+	
+	private native int nativeTransRegularAudio(String srcFile, String destFile);
+	private native int nativeTransSpecAudio(String srcFile, String destFile);
+	private native int nativeTransRegularVideo(String srcFile, String destFile);
+	private native int nativeTransSpecVideo(String srcFile, String destFile);
+	
+	public int transRegularAudio(String srcFile, String destFile) {
+		
+		if (gJNILoaded) {
+			

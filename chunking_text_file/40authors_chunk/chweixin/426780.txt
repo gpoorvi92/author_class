@@ -1,0 +1,10 @@
+	 * 图片MD5校验码。
+	 * */
+	public void setCode(String code) {
+		this.code = code;
+	}
+	/**
+	 * 获取图片扩展名。
+	 * @return 图片扩展名。
+	 * */
+	public String getExt() {

@@ -1,0 +1,10 @@
+		}
+
+		/*
+		 * 处理恢复告警：将相应的故障告警从注册表中删除， 使得相应故障恢复后若再次出现相同故障，该故障信息能够上报到服务器
+		 */
+		if (AlarmType.RESUME == alarm.type) {
+			String key = AlarmType.FAULT.toString() + ':' + alarm.getId() + '@'
+			    + alarm.getExtraInfo();
+			submittedAlarmRegistry.remove(key);
+

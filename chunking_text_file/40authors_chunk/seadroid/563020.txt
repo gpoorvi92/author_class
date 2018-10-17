@@ -1,0 +1,10 @@
+    private long size;    // size of file, 0 if type is dir
+    private String oid;
+
+    static SearchedFile fromJson(JSONObject obj) {
+        SearchedFile searchedFile = new SearchedFile();
+        try {
+            searchedFile.name = obj.getString("name");
+            searchedFile.repoID = obj.getString("repo_id");
+            searchedFile.mtime = obj.getLong("last_modified");
+            searchedFile.path = obj.getString("fullpath");

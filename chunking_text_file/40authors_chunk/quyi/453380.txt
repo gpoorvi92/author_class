@@ -1,0 +1,10 @@
+    }
+
+    public issuedMessage_result() {
+    }
+
+    public issuedMessage_result(
+      com.nercis.isscp.idl.Result success,
+      com.nercis.isscp.idl.InvalidRequestException ire,
+      com.nercis.isscp.idl.UnavailableException ue)
+    {

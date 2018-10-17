@@ -1,0 +1,10 @@
+
+	public void exitBtnClick(View v) {
+		finish();
+	}
+
+	public void chatIconClick(View v) {
+		Intent intent = new Intent(this, Chat2Activity.class);
+		intent.putExtra("busi_type", busiType);
+		intent.putExtra("busi_serial", busiSerial);
+		intent.putExtra("title", chatTitle);

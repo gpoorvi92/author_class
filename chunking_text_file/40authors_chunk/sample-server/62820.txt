@@ -1,0 +1,10 @@
+    {
+        Channel channel = ctx.getChannel();
+        log.info(">>>>>>>>>>>>>>>>channel connected:{}", channel);
+        bridgeJoint.addInboundChannel(channel);
+        //FIXME:
+        GatewayConnection conn = new GatewayConnection();
+        conn.setAuth(true);
+        conn.setLogicServerid(1);
+        channel.setAttachment(conn);
+    }

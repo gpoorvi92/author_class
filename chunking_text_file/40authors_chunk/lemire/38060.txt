@@ -1,0 +1,10 @@
+     */
+    public int getCount() {
+        return this.oneBits;
+    }
+
+    @Override
+    public void setSizeInBitsWithinLastWord(int bits) {
+        // no action
+    }
+

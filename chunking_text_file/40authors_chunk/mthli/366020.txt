@@ -1,0 +1,10 @@
+   public BadWorkerRunnable(JComboBox<Integer> aCombo)
+   {
+      combo = aCombo;
+      generator = new Random();
+   }
+
+   public void run()
+   {
+      try
+      {

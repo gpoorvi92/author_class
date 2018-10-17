@@ -1,0 +1,10 @@
+				System.out.println(cursor.next());
+			}
+		}finally{
+			System.out.println(cursor.count());
+			cursor.close();
+		}
+		
+		query=new BasicDBObject();
+		query.put("i",new BasicDBObject("$gt",9000).append("$lte", 9010));
+		cursor=coll.find(query);

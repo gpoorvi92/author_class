@@ -1,0 +1,10 @@
+      
+      tabbedPane.addChangeListener(new ChangeListener()
+         {
+            public void stateChanged(ChangeEvent e)
+            {
+               textArea.setText("");             
+            }
+         });
+
+      tree.setDragEnabled(true);

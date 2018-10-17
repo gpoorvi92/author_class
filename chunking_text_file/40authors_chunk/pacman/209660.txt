@@ -1,0 +1,10 @@
+	 */
+	public long getMemFree() {
+		return memFree;
+	}
+	/**
+	 * @param memFree the memFree to set
+	 */
+	public void setMemFree(long memFree) {
+		this.memFree = memFree;
+	}

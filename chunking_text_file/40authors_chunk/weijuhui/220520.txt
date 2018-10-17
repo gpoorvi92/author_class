@@ -1,0 +1,10 @@
+		View view = inflater.inflate(R.layout.frag_main,container,false);
+		initSetListener(view);
+		return view;
+	}
+	
+	
+	void action(int flags){
+		Intent intent =  new Intent(getActivity(),LaunchActivity_.class);
+		intent.putExtra("flag",flags);
+		startActivity(intent);

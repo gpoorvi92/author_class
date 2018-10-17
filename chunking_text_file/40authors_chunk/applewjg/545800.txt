@@ -1,0 +1,10 @@
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode deleteDuplicates_1(ListNode head) {
+        ListNode dummy = new ListNode(-1);
+        ListNode cur = dummy;
+        while (head != null) {

@@ -1,0 +1,10 @@
+    public int getWidth() {
+        BitmapFactory.Options options = snifBitmapOptions();
+        return (options != null) ? options.outWidth : 0;
+    }
+
+    public IImageList getContainer() {
+        return mContainer;
+    }
+
+    public long getDateTaken() {

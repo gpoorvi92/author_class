@@ -1,0 +1,10 @@
+ Could you do this in-place?
+
+ Solution: 1. 123   ->  147   ->   741    (preferable)
+              456       258        852
+              789       369        963
+           2. Rotate one-fourth of the image clockwise.
+ */
+public class Solution {
+    public void rotate_1(int[][] matrix) {
+        int n = matrix.length;

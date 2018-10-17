@@ -1,0 +1,10 @@
+            count = inStream.available();
+        }
+        byte[] b = new byte[count];
+        inStream.read(b);
+        return b;
+    }
+
+    /**
+     * @return InputStream
+     * @throws Exception

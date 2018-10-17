@@ -1,0 +1,10 @@
+    @Autowired
+    private ISendAddressService sendAddressService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(Integer userId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<SendAddress> sendAddresses = sendAddressService.findById(userId);
+        map.put("count", sendAddresses.size());
+        map.put("sendAddresses", sendAddresses);
+        return map;

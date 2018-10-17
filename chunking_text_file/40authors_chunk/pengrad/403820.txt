@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int hashCode() {
+        return file_id != null ? file_id.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Voice{" +

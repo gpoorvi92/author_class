@@ -1,0 +1,10 @@
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            FileInputStream fis = new FileInputStream(new File("myObject.txt"));
+            ObjectInputStream ios = new ObjectInputStream(fis);
+            MyObject2 myObject = (MyObject2) ios.readObject();
+            ios.close();
+            fis.close();

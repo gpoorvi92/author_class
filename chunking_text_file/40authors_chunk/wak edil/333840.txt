@@ -1,0 +1,10 @@
+	private JButton jbtChoc2=new JButton("Bandung");
+	private JButton jbtChoc3=new JButton("Teh Tarik ");
+	private JButton jbtChoc4=new JButton("Milo");
+	private JButton jbtChoc5=new JButton("Nescafe");
+	private JButton jbtChoc6=new JButton("Horlick");
+	private JButton jbtBack=new JButton("Back");
+	private JButton jbtExit=new JButton("Exit");
+	private JLabel FoodLabelChoice=new JLabel("Choose your Foods : ");
+	private ImageIcon Food1Image=new ImageIcon("minuman/sirap.jpeg");
+	private ImageIcon Food2Image=new ImageIcon("minuman/bandung.jpeg");

@@ -1,0 +1,10 @@
+	public String modifyToValid(int id) {
+		StringBuilder sb = new StringBuilder();
+		MaterialBrand mb = materialBrandDao.selectMaterialBrandById(id);
+		Set<Bxg> bxgs = mb.getBxgs();
+		int cbxg = 0;
+		int ctfb = 0;
+		for (Bxg bxg : bxgs) {
+			bxg.setValid(true);
+			if(bxgService.modify(bxg)){
+				cbxg++;

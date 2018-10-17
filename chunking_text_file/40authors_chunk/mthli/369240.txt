@@ -1,0 +1,10 @@
+         return;
+      }
+
+      final List<String> fortunes = readFortunes();
+      Timer timer = new Timer(10000, new ActionListener()
+         {
+            public void actionPerformed(ActionEvent e)
+            {
+               int index = (int) (fortunes.size() * Math.random());
+               trayIcon.displayMessage("Your Fortune", fortunes.get(index),

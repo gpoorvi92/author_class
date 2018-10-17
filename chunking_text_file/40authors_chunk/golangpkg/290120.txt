@@ -1,0 +1,10 @@
+	public void onFileUploadCancelled(UUID clientId, UUID fileId) {
+
+	}
+
+
+	@Override
+	public void onFileUploadPaused(UUID clientId, UUID fileId) {
+
+	}
+

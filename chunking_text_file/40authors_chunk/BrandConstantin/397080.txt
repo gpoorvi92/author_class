@@ -1,0 +1,10 @@
+    for (int i = 1; i <= numIntroducido; i++){
+        if ((i % 3) == 0){
+            System.out.println(i + "");
+            cuenta++;
+            suma += i;
+        }
+    }
+    System.out.println("Desde 1 hasta numero introducido hay " + cuenta);
+    System.out.println("Los cuales suman " + suma);
+  }

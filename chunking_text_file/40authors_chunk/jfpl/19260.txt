@@ -1,0 +1,10 @@
+							GlobalVariables.chatToUser, audioUrl, new Date(),
+							this.busiType, "2", "", "");
+					acd.putStringValue("send_state", "2");
+					ChatMessageUtil.uploadFile(ctx, audioUrl,
+							new ChatUploadService(ctx, chatList,
+									holder.sendState, holder.sendFinishState,
+									acd));
+				}
+
+			} else if (type == 4 && holder.chatLoaction != null) {

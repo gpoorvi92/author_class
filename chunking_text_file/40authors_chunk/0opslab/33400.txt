@@ -1,0 +1,10 @@
+      public void windowClosing(WindowEvent e) {
+        System.exit(0);
+      }
+    });
+    // The menu bar
+    JMenuBar bar = new JMenuBar();
+
+    //  Build the first menu.
+    JMenu menu = new JMenu("File");
+    menu.setMnemonic(KeyEvent.VK_A);

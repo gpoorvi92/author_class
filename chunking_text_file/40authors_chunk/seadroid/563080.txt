@@ -1,0 +1,10 @@
+    public String getPath() {
+        return path;
+    }
+
+    @Override
+    public String getTitle() {
+        return name;
+    }
+
+    @Override

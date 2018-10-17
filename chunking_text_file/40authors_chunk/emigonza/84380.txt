@@ -1,0 +1,10 @@
+//   New device category.
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+import jpos.loader.*;
+
+public interface ElectronicValueRWService113 extends ElectronicValueRWService112

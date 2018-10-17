@@ -1,0 +1,10 @@
+                  _elem10 = iprot.readString();
+                  struct.sensitives.add(_elem10);
+                }
+                iprot.readListEnd();
+              }
+              struct.setSensitivesIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;

@@ -1,0 +1,10 @@
+package ipower.wechat.utils;
+import java.io.IOException;
+import java.net.ConnectException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+
+import javax.net.ssl.X509TrustManager;
+
+import org.apache.log4j.Logger;
+

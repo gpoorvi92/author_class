@@ -1,0 +1,10 @@
+    * @param group the radio button group
+    */
+   private void makeDashButton(String label, final boolean style, ButtonGroup group)
+   {
+      // select first button in group
+      boolean selected = group.getButtonCount() == 0;
+      JRadioButton button = new JRadioButton(label, selected);
+      buttonPanel.add(button);
+      group.add(button);
+      button.addActionListener(new ActionListener()

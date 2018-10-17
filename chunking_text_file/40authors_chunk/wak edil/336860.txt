@@ -1,0 +1,10 @@
+	
+		jtaIntro.setEditable(false);
+		jtaIntro.setFont(new Font("Serif",Font.BOLD,16));
+		
+		p1.add(jtaIntro2);
+		p1.add(jtaIntro);
+
+		
+		container.add(p1,BorderLayout.CENTER);
+		

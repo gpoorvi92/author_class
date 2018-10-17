@@ -1,0 +1,10 @@
+	}
+	/**
+	 * 获取图片URL。
+	 * @return
+	 * 图片URL。
+	 * */
+	public String getUrl() {
+		return url;
+	}
+	/**

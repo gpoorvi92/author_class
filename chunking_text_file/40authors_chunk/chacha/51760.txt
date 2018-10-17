@@ -1,0 +1,10 @@
+		try{
+			System.out.println(request.toJson());
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		//json转换为pojo
+		DelAccountRequest r=new DelAccountRequest();
+		try{
+			r.fromJson(request.toJson());
+			System.out.println(r.toJson());

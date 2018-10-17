@@ -1,0 +1,10 @@
+            }
+            this.iteratingBrlw.discardFirstWords(this.iteratingBrlw.getRunningLength());
+            x -= this.iteratingBrlw.getRunningLength();
+            int toDiscard = x > this.iteratingBrlw.getNumberOfLiteralWords()
+                    ? this.iteratingBrlw.getNumberOfLiteralWords()
+                    : x;
+
+            this.iteratingBrlw.discardFirstWords(toDiscard);
+            x -= toDiscard;
+            if ((x > 0) || (this.iteratingBrlw.size() == 0)) {

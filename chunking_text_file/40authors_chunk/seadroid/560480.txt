@@ -1,0 +1,10 @@
+        int mTag;
+
+        WorkItem(IImage image, LoadedCallback onLoadedRunnable, int tag) {
+            mImage = image;
+            mOnLoadedRunnable = onLoadedRunnable;
+            mTag = tag;
+        }
+    }
+
+    public ImageLoader(ContentResolver cr, Handler handler) {

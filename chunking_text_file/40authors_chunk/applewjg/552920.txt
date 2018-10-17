@@ -1,0 +1,10 @@
+        return val;
+    }
+    
+    public void set(int key, int value) {
+        map.remove(key);
+        map.put(key, value);
+        if (map.size() > capacity)
+            map.remove(map.entrySet().iterator().next().getKey());
+    }
+}

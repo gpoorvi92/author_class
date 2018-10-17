@@ -1,0 +1,10 @@
+		}
+		
+		// 上传文件
+		uploadFiles(ftpClientUtil);
+		
+		//省略其它代码
+	}
+
+	private void generateFilesFromDB() {
+		// 省略其它代码

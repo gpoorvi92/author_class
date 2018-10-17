@@ -1,0 +1,10 @@
+ * Used by providing as your response and error listeners. For example:
+ * <pre>
+ * RequestFuture&lt;JSONObject&gt; future = RequestFuture.newFuture();
+ * MyRequest request = new MyRequest(URL, future, future);
+ *
+ * // If you want to be able to cancel the request:
+ * future.setRequest(requestQueue.add(request));
+ *
+ * // Otherwise:
+ * requestQueue.add(request);

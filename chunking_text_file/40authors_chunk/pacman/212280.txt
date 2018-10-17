@@ -1,0 +1,10 @@
+		return this.tid;
+	}
+
+	/**
+	 * TODO:Insert Private field tid Setter method of Comment in here.
+	 * @param tid TODO:Insert method parameter tid of Comment in here.
+	 */
+	public void setTid(Integer tid) {
+		this.tid = tid;
+	}

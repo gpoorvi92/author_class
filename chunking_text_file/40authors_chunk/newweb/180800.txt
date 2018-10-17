@@ -1,0 +1,6 @@
+			return "linkNameUnvalid";	//关联名不可用
+		}
+		return null;
+	}
+	
+}

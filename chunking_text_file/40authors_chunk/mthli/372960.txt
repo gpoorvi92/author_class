@@ -1,0 +1,10 @@
+      Employee first = p.getFirst();
+      Employee second = p.getSecond();
+      System.out.println(first.getName() + " and " + second.getName() + " are buddies.");
+   }
+
+   public static void minmaxBonus(Manager[] a, Pair<? super Manager> result)
+   {
+      if (a == null || a.length == 0) return;
+      Manager min = a[0];
+      Manager max = a[0];

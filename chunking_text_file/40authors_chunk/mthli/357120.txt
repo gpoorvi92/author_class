@@ -1,0 +1,10 @@
+   {
+      try (InputStream in = new BufferedInputStream(Files.newInputStream(filename)))
+      {
+         CRC32 crc = new CRC32();
+   
+         int c;
+         while ((c = in.read()) != -1)
+            crc.update(c);
+         return crc.getValue();
+      }

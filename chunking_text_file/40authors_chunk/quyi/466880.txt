@@ -1,0 +1,10 @@
+		List<PlotsType> plots = new ArrayList<PlotsType>();
+		//plots.add(PlotsType.staticType);
+		plots.add(PlotsType.virusType);
+		appSendMessage.setPlots(plots);
+		appSendMessage.setRules(null);
+		appSendMessage.setTaskInfo(null);
+		List<UserApp> userApps = new ArrayList<UserApp>();
+		for (int i = 0; i < userAppInfos.size(); i++) {
+			UserAppInfo userAppInfo = userAppInfos.get(i);
+			UserApp userApp = new UserApp();

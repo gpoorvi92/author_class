@@ -1,0 +1,3 @@
+    private final File directory;
+    private boolean closed;
+}

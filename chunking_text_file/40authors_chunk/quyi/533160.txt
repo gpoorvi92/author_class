@@ -1,0 +1,10 @@
+  }
+
+  public void unsetRiskDescription() {
+    this.riskDescription = null;
+  }
+
+  /** Returns true if field riskDescription is set (has been assigned a value) and false otherwise */
+  public boolean isSetRiskDescription() {
+    return this.riskDescription != null;
+  }

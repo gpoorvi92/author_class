@@ -1,0 +1,10 @@
+
+		// locationClient.unRegisterLocationListener(this);
+	}
+
+	@Override
+	public void onReceivePoi(BDLocation location) {
+
+	}
+
+	private void searchNearBy() {

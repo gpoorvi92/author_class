@@ -1,0 +1,10 @@
+      System.out.println(Long.toHexString(crcValue));
+      System.out.println((end - start) + " milliseconds");
+
+      System.out.println("Random Access File:");
+      start = System.currentTimeMillis();
+      crcValue = checksumRandomAccessFile(filename);
+      end = System.currentTimeMillis();
+      System.out.println(Long.toHexString(crcValue));
+      System.out.println((end - start) + " milliseconds");
+

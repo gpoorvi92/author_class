@@ -1,0 +1,10 @@
+		InetSocketAddress hostAddr=hosts[r.nextInt(hosts.length)];
+		String response=null;
+		SocketChannel channel=null;
+		try{
+			channel=SocketChannel.open(hostAddr);
+			Charset charset=Charset.forName("utf-8");
+			channel.write(charset.encode(request));
+			ByteBuffer buffer=ByteBuffer.allocate(BUFFERSIZE);
+			if(channel.read(buffer)!=-1){
+				buffer.flip();

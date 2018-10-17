@@ -1,0 +1,10 @@
+        if (!this.ue.equals(that.ue))
+          return false;
+      }
+
+      return true;
+    }
+
+    @Override
+    public int hashCode() {
+      return 0;

@@ -1,0 +1,10 @@
+    }
+
+    private static class updateUserAppInfo_argsTupleSchemeFactory implements SchemeFactory {
+      public updateUserAppInfo_argsTupleScheme getScheme() {
+        return new updateUserAppInfo_argsTupleScheme();
+      }
+    }
+
+    private static class updateUserAppInfo_argsTupleScheme extends TupleScheme<updateUserAppInfo_args> {
+

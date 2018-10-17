@@ -1,0 +1,10 @@
+
+/// interface javax.swing.event.TableColumnModelListener ///
+
+package org.genie.javax_swing;
+
+public class TableColumnModelListenerProxy implements javax.swing.event.TableColumnModelListener {
+
+    long swiftObject;
+
+    TableColumnModelListenerProxy( long swiftObject ) {

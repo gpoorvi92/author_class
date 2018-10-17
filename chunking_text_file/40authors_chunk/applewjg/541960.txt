@@ -1,0 +1,10 @@
+                    second = cur;
+                }
+                pre = cur;
+                cur = cur.right;
+            } else {
+                TreeNode node = cur.left;
+                while (node.right != null && node.right != cur)
+                    node = node.right;
+                if (node.right != null) {
+                    if (pre != null && pre.val > cur.val) {

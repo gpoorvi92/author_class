@@ -1,0 +1,10 @@
+      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+      Color color = chooser.getColor();
+      SerialTransferable selection = new SerialTransferable(color);
+      clipboard.setContents(selection, null);
+   }
+
+   /**
+    * Pastes the color from the system clipboard into the chooser.
+    */
+   private void paste()

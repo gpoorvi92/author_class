@@ -1,0 +1,10 @@
+                    this.word = (this.word >>> (WORD_IN_BITS - usedBitsInLast));
+                    this.literalPosition = this.position;
+                    this.position -= usedBitsInLast;
+                }
+            }
+        }
+        this.runningBit = rlw.getRunningBit();
+    }
+
+    private boolean runningHasNext() {

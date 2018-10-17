@@ -1,0 +1,10 @@
+
+		// log
+		if (weHaveFilesToDelete) {
+			log.debug(successfullyDeletedFiles.size() + " deleted files");
+		}
+
+		// and reschedule
+		start();
+	}
+

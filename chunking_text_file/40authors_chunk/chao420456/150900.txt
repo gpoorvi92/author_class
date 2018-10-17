@@ -1,0 +1,10 @@
+		getContentPane().add(lblNewLabel_2);
+		
+		jtf_hostPort = new JTextField();
+		jtf_hostPort.addKeyListener(this);
+		jtf_hostPort.setBounds(114, 118, 143, 34);
+		getContentPane().add(jtf_hostPort);
+		jtf_hostPort.setText("5000");
+		jtf_hostPort.setColumns(10);
+		
+		jbt_enter = new JButton("\u8FDB\u5165\u804A\u5929\u5BA4");

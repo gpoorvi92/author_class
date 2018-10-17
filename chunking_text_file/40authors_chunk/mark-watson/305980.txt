@@ -1,0 +1,10 @@
+    /**
+     *  Notes:  PROGRAM false -1,  HUMAN true 1
+     */
+
+    /*
+     * Abstract methods:
+     */
+
+    public abstract boolean drawnPosition(Position p);
+    public abstract boolean wonPosition(Position p, boolean player);

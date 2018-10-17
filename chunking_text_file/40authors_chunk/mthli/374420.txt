@@ -1,0 +1,10 @@
+         {
+            int outLength = cipher.update(inBytes, 0, blockSize, outBytes);
+            out.write(outBytes, 0, outLength);
+         }
+         else more = false;
+      }
+      if (inLength > 0) outBytes = cipher.doFinal(inBytes, 0, inLength);
+      else outBytes = cipher.doFinal();
+      out.write(outBytes);
+   }

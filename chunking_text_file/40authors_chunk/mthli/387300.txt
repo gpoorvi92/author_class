@@ -1,0 +1,10 @@
+ * @version 1.22 2012-06-10
+ * @author Cay Horstmann
+ */
+public class ImageViewerBean extends JLabel
+{
+   private Path path = null;
+   private static final int XPREFSIZE = 200;
+   private static final int YPREFSIZE = 200;
+
+   public ImageViewerBean()

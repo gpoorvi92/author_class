@@ -1,0 +1,10 @@
+public class UCreditLogController extends BaseController {
+    @Autowired
+    private ICreditLogService creditLogService;
+
+    @RequestMapping("/list")
+    public @ResponseBody Map<String, Object> list(BaseConditionVO vo) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<CreditLog> creditLogs = creditLogService.search(vo);
+        map.put("count", creditLogs.size());
+        map.put("creditLogs", creditLogs);

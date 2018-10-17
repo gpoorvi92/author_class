@@ -1,0 +1,10 @@
+    }
+}
+
+class ArrayAlg {
+    /* 
+     * 在Pair对象中不需要引用任何其他的对象，
+     * 为此，可以将这个内部类声明为static
+     */
+    public static class Pair {
+        private double first;

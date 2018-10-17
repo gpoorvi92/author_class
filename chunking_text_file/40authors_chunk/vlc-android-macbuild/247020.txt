@@ -1,0 +1,10 @@
+        return supportABI(ABI_ARMv7a);
+    }
+
+    public static boolean supportX86() {
+        return supportABI(ABI_X86);
+    }
+
+    public static boolean supportARM() {
+        return supportABI(ABI_ARM);
+    }

@@ -1,0 +1,10 @@
+ * This class will generate "uniform" lists of random integers. This class will
+ * generate "uniform" lists of random integers.
+ *
+ * @author Daniel Lemire
+ */
+public class UniformDataGenerator {
+    /**
+     * construct generator of random arrays.
+     */
+    public UniformDataGenerator() {

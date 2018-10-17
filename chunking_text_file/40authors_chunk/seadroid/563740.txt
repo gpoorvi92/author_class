@@ -1,0 +1,10 @@
+    }
+
+    public boolean isDirectory() {
+        return file.isDirectory();
+    }
+
+    public String getAccountSignature() {
+        return accountSignature;
+    }
+}

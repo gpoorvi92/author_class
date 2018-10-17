@@ -1,0 +1,10 @@
+		
+		assertEquals(1, re);
+		
+		result2.get();
+		re = worker2.getAttribute("steps.result");
+		assertEquals(2, re);
+		
+		
+		worker.setAttribute("p2", 2);
+	}

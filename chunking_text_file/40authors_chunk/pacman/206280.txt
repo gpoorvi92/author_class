@@ -1,0 +1,10 @@
+			   .add("-g4x3");
+		}
+		
+		cmd.add(videoSrc)
+		   .add(outputFile);
+		
+		return cmd.toString();
+	}
+	
+	/**

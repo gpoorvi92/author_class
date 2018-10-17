@@ -1,0 +1,10 @@
+ * 存储三个元素，然后遍历。
+ */
+public class HashMapDemo {
+	public static void main(String[] args) {
+		// 创建集合对象
+		HashMap<String, String> hm = new HashMap<String, String>();
+
+		// 创建并添加元素
+		hm.put("赵薇", "安徽");
+		hm.put("李冰冰", "黑龙江");

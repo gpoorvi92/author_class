@@ -1,0 +1,10 @@
+  public boolean isSetPak() {
+    return this.pak != null;
+  }
+
+  public void setPakIsSet(boolean value) {
+    if (!value) {
+      this.pak = null;
+    }
+  }
+

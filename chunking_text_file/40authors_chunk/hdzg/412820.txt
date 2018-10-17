@@ -1,0 +1,10 @@
+			gameView.freeGeneral = (ArrayList<General>) oin.readObject();//自由的将领,即不属于我方和敌方的
+			
+			MyDrawable[][] mba=gameView.layerList.layers.get(1).getMapMatrix();
+			for(CityDrawable c : gameView.allCityDrawable){
+				int colT=c.col;
+			    int rowT=c.row;
+			    
+			    c.bmpSelf=((CityDrawable)mba[rowT][colT]).bmpSelf;
+			    c.meetable=((CityDrawable)mba[rowT][colT]).meetable;
+			    c.width=((CityDrawable)mba[rowT][colT]).width;

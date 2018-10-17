@@ -1,0 +1,10 @@
+     *
+     * @return A flag indicating the Burp tool within which the context menu was
+     * invoked. Burp tool flags are defined in the
+     * <code>IBurpExtenderCallbacks</code> interface.
+     */
+    int getToolFlag();
+
+    /**
+     * This method can be used to retrieve the context within which the menu was
+     * invoked.

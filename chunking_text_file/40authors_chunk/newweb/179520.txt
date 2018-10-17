@@ -1,0 +1,10 @@
+
+@Component("orderPriceService")
+public class OrderPriceServiceImp implements OrderPriceService {
+	@Autowired
+	private OrderPriceDao orderPriceDao;
+	
+	@Override
+	public OrderPrice findOrderPriceByCondition(String type,
+			int materialBrandID, String orderID) {
+		List<OrderPrice> ops = orderPriceDao.selectOrderPriceByCondition(type,materialBrandID,orderID);

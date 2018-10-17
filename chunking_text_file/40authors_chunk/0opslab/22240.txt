@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * 获取字符串的相似度
+     *
+     * @param str
+     * @param target
+     * @return
+     */
+    public static double SimilarityRatio(String str, String target) {

@@ -1,0 +1,10 @@
+		dlg.show();
+		return true;
+	}
+
+	/**
+	 * Tell the client to display a confirm dialog to the user.
+	 * 
+	 * @param view
+	 * @param url
+	 * @param message

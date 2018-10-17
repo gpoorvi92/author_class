@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+
+public class Report extends JFrame implements ActionListener{
+	
+	//String numtable = (String)jcbnumtable.getSelectedItem();
+	//String numperson =(String)jcbnumpersonpertable.getSelectedItem();
+	//String datetime = dateFormat.format(date);
+	//String all= jtasummary.getText();
+	//String sub=jtfSub.getText();

@@ -1,0 +1,10 @@
+        case EventManager.MediaPlayerOpening: {
+            break;
+        }
+        case EventManager.MediaPlayerBuffering: {
+            if (mOnInfoListener != null) {
+                if (msg.obj != null) {
+                    float percent = MediaPlayerBuffering
+                            .getNewCache((Bundle) msg.obj);
+                    // 这里返回的是缓冲百分比，而不是缓冲位置
+                    if (percent < mLastBufferingPercent) {

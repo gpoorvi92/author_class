@@ -1,0 +1,10 @@
+            return USER_APPS;
+          case 3: // RULES
+            return RULES;
+          case 4: // PLOTS
+            return PLOTS;
+          default:
+            return null;
+        }
+      }
+

@@ -1,0 +1,10 @@
+      Rectangle bounds = splash.getBounds();
+      Graphics2D g = splash.createGraphics();
+      int height = 20;
+      int x = 2;
+      int y = bounds.height - height - 2;
+      int width = bounds.width - 4;
+      Color brightPurple = new Color(76, 36, 121);
+      g.setColor(brightPurple);
+      g.fillRect(x, y, width * percent / 100, height);
+      splash.update();

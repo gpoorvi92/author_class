@@ -1,0 +1,10 @@
+            avatar.url = obj.getString("url");
+            avatar.mtime = obj.getLong("mtime");
+            // avatar.is_default = obj.getBoolean("is_default");
+            
+            return avatar;
+        } catch (JSONException e) {
+            Log.d(DEBUG_TAG, e.getMessage());
+            return null;
+        }
+    }

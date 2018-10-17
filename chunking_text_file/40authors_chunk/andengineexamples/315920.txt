@@ -1,0 +1,10 @@
+
+		/* Create the face and add it to the scene. */
+		Sprite entity = new Sprite(centerX, centerY, faceTextureRegion, this.getVertexBufferObjectManager());
+		entity.setScale(20);
+		scene.attachChild(entity);
+
+		return scene;
+	}
+
+	// ===========================================================

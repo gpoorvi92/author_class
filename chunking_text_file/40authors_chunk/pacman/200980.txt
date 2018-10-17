@@ -1,0 +1,10 @@
+ * @date: 2014年12月30日 上午11:31:08
+ * @version: V1.0  
+ ********************************************************/
+package com.yeshj.pacman.event;
+
+/**
+ * TODO
+ * @Class: AppServerEventManager
+ * @author: zhangxinyu
+ * @date: 2014年12月30日 上午11:31:08

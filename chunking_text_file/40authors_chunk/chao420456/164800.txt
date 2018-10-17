@@ -1,0 +1,10 @@
+
+		// 发牌
+		TreeSet<Integer> caoCao = new TreeSet<Integer>();
+		TreeSet<Integer> liuBei = new TreeSet<Integer>();
+		TreeSet<Integer> sunQuan = new TreeSet<Integer>();
+		TreeSet<Integer> diPai = new TreeSet<Integer>();
+
+		for (int x = 0; x < array.size(); x++) {
+			if (x >= array.size() - 3) {
+				diPai.add(array.get(x));

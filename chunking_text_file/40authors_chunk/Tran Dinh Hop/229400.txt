@@ -1,0 +1,8 @@
+        return false;
+    }
+
+//The description of this filter
+    public String getDescription() {
+        return "*.zip";
+    }
+}

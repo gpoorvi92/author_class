@@ -1,0 +1,10 @@
+            while (j < N && length + words[j].length() + (j-i) <= L) {
+                length += words[j++].length();
+            }
+            StringBuilder s = new StringBuilder(words[i]);
+            boolean isLastLine = (j==N);
+            boolean oneWord = (j == i + 1);
+            int average = (isLastLine || oneWord) ? 1 : (L-length)/(j-i-1);
+            int extra = (isLastLine || oneWord) ? 0 : (L-length)%(j-i-1);
+            for (int k = i + 1; k < j; ++k) {
+                char[] tmp = new char[extra>0?average+1:average];

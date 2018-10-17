@@ -1,0 +1,10 @@
+               frame.setVisible(true);
+            }
+         });
+   }
+}
+
+/**
+ * A frame that contains a message panel
+ */
+class NotHelloWorldFrame extends JFrame

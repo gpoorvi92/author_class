@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (!first) sb.append(", ");
+    sb.append("jvmVersion:");
+    if (this.jvmVersion == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.jvmVersion);
+    }
+    first = false;

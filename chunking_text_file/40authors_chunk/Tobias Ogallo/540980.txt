@@ -1,0 +1,10 @@
+
+							curHeight += fontHeight;
+
+							if (pg != null)
+							{
+								pg.setFont (typeface);
+								pg.drawString (nextLine, margin, curHeight - fontDescent);
+							}
+						}
+					}

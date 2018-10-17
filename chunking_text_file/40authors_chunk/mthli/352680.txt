@@ -1,0 +1,10 @@
+   /**
+    * Sets the title of the chart.
+    * @param newValue the new title
+    */
+   public void setTitle(String newValue)
+   {
+      if (bean == null) return;
+      String oldValue = bean.getTitle();
+      bean.setTitle(newValue);
+      firePropertyChange("title", oldValue, newValue);

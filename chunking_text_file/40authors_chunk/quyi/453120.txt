@@ -1,0 +1,10 @@
+            org.apache.thrift.protocol.TList _list50 = new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, iprot.readI32());
+            struct.rules = new ArrayList<String>(_list50.size);
+            for (int _i51 = 0; _i51 < _list50.size; ++_i51)
+            {
+              String _elem52;
+              _elem52 = iprot.readString();
+              struct.rules.add(_elem52);
+            }
+          }
+          struct.setRulesIsSet(true);

@@ -1,0 +1,10 @@
+ * stas
+ * 8/4/15.
+ */
+public class TelegramBotAdapter {
+
+    public static final String API_URL = "https://api.telegram.org/bot";
+
+    public static TelegramBot build(String botToken) {
+        return buildCustom(botToken, client(null));
+    }

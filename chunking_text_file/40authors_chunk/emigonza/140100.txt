@@ -1,0 +1,10 @@
+    /////////////////////////////////////////////////////////////////////
+
+    public static final int LOCK_KP_ANY          = 0; // WaitForKeylockChange Only
+    public static final int LOCK_KP_ELECTRONIC   = 0; // StatusUpdateEvent Only (1.11)
+    public static final int LOCK_KP_LOCK         = 1;
+    public static final int LOCK_KP_NORM         = 2;
+    public static final int LOCK_KP_SUPR         = 3;
+
+
+    /////////////////////////////////////////////////////////////////////

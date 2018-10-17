@@ -1,0 +1,10 @@
+         });
+      pack();
+   }
+   
+   class SimulatedActivity extends SwingWorker<Void, Integer>
+   {
+      private int current;
+      private int target;
+
+      /**

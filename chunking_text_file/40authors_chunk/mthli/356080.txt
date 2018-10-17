@@ -1,0 +1,10 @@
+            {
+               a[1] = a[2] / (a[3] - a[3]);
+            }
+         });
+
+      addRadioButton("Array bounds", new ActionListener()
+         {
+            public void actionPerformed(ActionEvent event)
+            {
+               a[1] = a[10];

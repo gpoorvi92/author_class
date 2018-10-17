@@ -1,0 +1,10 @@
+	public ComparableDocument(String text) {
+		// System.out.println("text:\n\n" + text + "\n\n");
+		List<String> stems = new Stemmer().stemString(text);
+		for (String stem : stems) {
+			if (!NoiseWords.checkFor(stem)) {
+				stem_count++;
+				if (stemCountMap.containsKey(stem)) {
+					Integer count = stemCountMap.get(stem);
+					stemCountMap.put(stem, 1 + count);
+				} else {

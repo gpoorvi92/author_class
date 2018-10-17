@@ -1,0 +1,10 @@
+            {
+                DaoManager.getLocalDao().delete(sysNotice);
+            }
+        } catch (Exception e)
+        {
+            log.error("", e);
+        }
+        return ret;
+    }
+    public static boolean update(NoticeEntity sysNotice)

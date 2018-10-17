@@ -1,0 +1,10 @@
+      Sets the fill direction.
+      @param fill the fill direction
+      @return this object for further modification
+   */
+   public GBC setFill(int fill) 
+   { 
+      this.fill = fill; 
+      return this;
+   }
+

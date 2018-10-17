@@ -1,0 +1,10 @@
+
+        double[][] balances = new double[NYEARS][NRATES];
+
+        for (int j = 0; j < balances[0].length; j++) {
+            balances[0][j] = 10000;
+        }
+
+        for (int i = 1; i < balances[i].length; i++) {
+            for (int j = 0; j < balances[i].length; j++) {
+                double oldBalance = balances[i - 1][j];

@@ -1,0 +1,10 @@
+    }
+
+    private boolean launchLoader(LoaderRequest<D> request) {
+        return launchLoader(request.mArgs);
+    }
+
+    private boolean launchLoader(Bundle args) {
+        Assure.checkNotEmptyCollection(mLoaderPool);
+
+        LoaderManager loaderManager = getLoaderManager();

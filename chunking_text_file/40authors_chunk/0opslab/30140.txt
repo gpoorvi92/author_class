@@ -1,0 +1,10 @@
+    }
+
+    @Test
+    public void testToSimpleCharArray() throws Exception {
+
+    }
+
+    @Test
+    public void testToAscii() throws Exception {
+

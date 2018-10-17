@@ -1,0 +1,10 @@
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import com.weparty.R;
+
+/**
+ * @author ping
+ * @Describle 选择人数,或者平均消费
+ */
+public class SelectDialog extends Dialog implements OnItemClickListener {

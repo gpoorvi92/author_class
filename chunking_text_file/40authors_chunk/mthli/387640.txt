@@ -1,0 +1,10 @@
+      {
+         int x = generator.nextInt(getWidth());
+         int y = generator.nextInt(getHeight());
+         int width = generator.nextInt(getWidth() - x);
+         int height = generator.nextInt(getHeight() - y);
+         rects.add(new Rectangle(x, y, width, height));
+         int r = generator.nextInt(256);
+         int g = generator.nextInt(256);
+         int b = generator.nextInt(256);
+         colors.add(new Color(r, g, b));

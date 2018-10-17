@@ -1,0 +1,7 @@
+			public void getAuthorization(HttpServletRequest request, UploadServletAction action, UUID clientId, UUID... optionalFileId)
+					throws AuthorizationException {
+				throw new AuthorizationException(action, clientId, optionalFileId);
+			}
+		}.getAuthorization(null, null, null, null);
+	}
+}

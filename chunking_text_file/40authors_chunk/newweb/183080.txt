@@ -1,0 +1,10 @@
+	public void setIsHasZZ(int isHasZZ) {
+		this.isHasZZ = isHasZZ;
+	}
+	
+	@Column
+	public int getIsHasCircle() {
+		return isHasCircle;
+	}
+	public void setIsHasCircle(int isHasCircle) {
+		this.isHasCircle = isHasCircle;

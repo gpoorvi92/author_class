@@ -1,0 +1,10 @@
+			}
+		}
+		log.trace("Finished file cleaner job.");
+	}
+
+
+	@ManagedAttribute
+	public Integer getMaximumInactivityInHoursBeforeDelete() {
+		return maximumInactivityInHoursBeforeDelete;
+	}

@@ -1,0 +1,10 @@
+    if (!value) {
+      this.checkResult = null;
+    }
+  }
+
+  public void setFieldValue(_Fields field, Object value) {
+    switch (field) {
+    case MONITOR_TIME:
+      if (value == null) {
+        unsetMonitorTime();

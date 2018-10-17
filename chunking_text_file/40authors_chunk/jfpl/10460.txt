@@ -1,0 +1,10 @@
+				chatList.setSelection(chatList.getCount() - 1);
+			}
+		}, 100);
+
+	}
+
+	public void appendChatItem(AbstractCommonData itemAcd) {
+		AbstractCommonData acd = DataConvertFactory.getInstanceEmpty();
+		List<AbstractCommonData> list = new ArrayList<AbstractCommonData>();
+		list.add(itemAcd);

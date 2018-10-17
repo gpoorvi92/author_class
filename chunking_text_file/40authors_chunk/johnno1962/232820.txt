@@ -1,0 +1,10 @@
+
+    public native void __treeNodesRemoved( javax.swing.event.TreeModelEvent e );
+
+    public void treeNodesRemoved( javax.swing.event.TreeModelEvent e ) {
+        __treeNodesRemoved( e );
+    }
+
+    /// public abstract void javax.swing.event.TreeModelListener.treeStructureChanged(javax.swing.event.TreeModelEvent)
+
+    public native void __treeStructureChanged( javax.swing.event.TreeModelEvent e );

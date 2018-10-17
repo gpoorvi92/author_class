@@ -1,0 +1,10 @@
+      byte[] a = new byte[4];
+      for (int i = 0; i < 4; i++)
+      {
+         int b = 0;
+         if (!tokenizer.hasMoreTokens()) throw new ParseException("Too few bytes", 0);
+         try
+         {
+            b = Integer.parseInt(tokenizer.nextToken());
+         }
+         catch (NumberFormatException e)

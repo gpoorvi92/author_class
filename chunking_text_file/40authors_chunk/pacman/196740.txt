@@ -1,0 +1,10 @@
+								item.substring(0, item.indexOf('k')))
+								.longValue());
+						
+						if (info.getMemTotal() > 0) {
+							info.setMemUsage(info.getMemUsed() * 100.0d / info.getMemTotal());
+						}
+					}
+				}
+			} finally {
+//				logger.info("CPU:" + info.getCpuUser() + " " + info.getCpuSys() + " " + info.getCpuIdle());

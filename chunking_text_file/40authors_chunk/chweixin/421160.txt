@@ -1,0 +1,10 @@
+	WeChatAccount loadAccount(String openId);
+	/**
+	 * 根据公众号加载注册信息。
+	 * @param account
+	 *  公众号账号。
+	 * @return
+	 * 公众号注册信息。
+	 * */
+	WeChatAccount findAccount(String account);
+}

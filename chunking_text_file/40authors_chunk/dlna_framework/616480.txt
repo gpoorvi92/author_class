@@ -1,0 +1,10 @@
+	public static final String toRelativeURL(String urlStr, boolean withParam)
+	{
+		String uri = urlStr;
+		if (isAbsoluteURL(urlStr) == false) {
+			if (0 < urlStr.length() && urlStr.charAt(0) != '/') 
+				uri = "/" + urlStr;
+		}
+		else {
+			try{
+				URL url = new URL(urlStr);

@@ -1,0 +1,10 @@
+                probabilityOfOne = 1.0;
+            if (Math.random() < probabilityOfOne) {
+                e.set(i);
+            }
+        }
+
+        IntIteratorOverIteratingRLW32 ii = new IntIteratorOverIteratingRLW32(e.getIteratingRLW());
+        int ctr = 0;
+        while (ii.hasNext()) {
+            ++ctr;

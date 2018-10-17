@@ -1,0 +1,10 @@
+ * 数据源：
+ * 		MyBufferedReader.java	--	Reader	--	FileReader --	BufferedReader
+ * 目的地：
+ * 		Copy.java	--	Writer -- FileWriter -- BufferedWriter -- PrintWriter
+ */
+public class CopyFileDemo {
+	public static void main(String[] args) throws IOException {
+		// // 封装数据源
+		// BufferedReader br = new BufferedReader(new FileReader(
+		// "MyBufferedReader.java"));

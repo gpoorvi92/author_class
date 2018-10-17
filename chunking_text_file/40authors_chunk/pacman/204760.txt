@@ -1,0 +1,10 @@
+	 * @Title: receiveMessage
+	 * @param dest
+	 * @return
+	 * @return: T
+	 */
+	Message receiveMessage(QueueType dest) throws MQException;
+	
+	/**
+	 * 
+	 * 

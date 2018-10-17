@@ -1,0 +1,10 @@
+	
+	//media file for pack.
+	public final static String CONTEXT_TOBEPACK_FILE = "context.pack.file";
+	
+	//media file
+	public final static String CONTEXT_TEMP_DIR = "context.temp.dir";
+	
+	//resources for pack
+	public final static String CONTEXT_RESOURCE_DIR = "context.res.dir";
+	

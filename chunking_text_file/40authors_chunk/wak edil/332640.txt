@@ -1,0 +1,10 @@
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class BandungInfo extends JFrame implements ActionListener
+{
+
+	private JTextArea jtaInfo=new JTextArea("Ais batu \nAir gula atau sirap ros \nTuangkan Krim dan susu cair secukup rasa \n  ");

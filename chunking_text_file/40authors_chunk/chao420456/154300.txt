@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		//定义变量的格式：
+		//数据类型 变量名 = 初始化值;
+
+		//定义byte类型的变量
+		byte b = 1;
+		System.out.println(1);
+		System.out.println(b);
+
+		//定义short类型的变量

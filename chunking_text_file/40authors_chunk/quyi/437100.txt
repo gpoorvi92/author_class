@@ -1,0 +1,10 @@
+    public DynamicCheckResultDataTupleScheme getScheme() {
+      return new DynamicCheckResultDataTupleScheme();
+    }
+  }
+
+  private static class DynamicCheckResultDataTupleScheme extends TupleScheme<DynamicCheckResultData> {
+
+    @Override
+    public void write(org.apache.thrift.protocol.TProtocol prot, DynamicCheckResultData struct) throws org.apache.thrift.TException {
+      TTupleProtocol oprot = (TTupleProtocol) prot;

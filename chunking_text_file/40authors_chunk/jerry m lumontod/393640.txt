@@ -1,0 +1,10 @@
+	public String mstrPostType;
+	public String mstrEntrySource;
+	public String mstrMatchedVia;
+	public String mstrRefDocnum;
+	public String mstrRefDoclineum;
+
+	
+
+	public GenJournalData(String tstrBatch,
+		String tstrEntryCode,

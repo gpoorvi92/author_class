@@ -1,0 +1,10 @@
+		return this.count(hql, parameters);
+	}
+	/**
+	 * 添加查询条件。
+	 * @param info
+	 * 查询条件。
+	 * @param hql
+	 * HQL
+	 * @param parameters
+	 * 参数集合。

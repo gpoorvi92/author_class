@@ -1,0 +1,10 @@
+		this.pvalue = pvalue;
+	}
+
+	/**
+	 * The object's equivalence test method.
+	 * @param otherObject Another object
+	 * @return Whether the current object equal to another object.
+	 */
+	@Override
+	public boolean equals(Object otherObject) {

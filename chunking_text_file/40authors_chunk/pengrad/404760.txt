@@ -1,0 +1,10 @@
+    }
+
+    public static InputFileBytes voice(byte[] bytes) {
+        return new InputFileBytes(VOICE_MIME_TYPE, bytes, VOICE_FILE_NAME);
+    }
+
+    private final String fileName;
+    private final byte[] bytes;
+
+    public InputFileBytes(String mimeType, byte[] bytes, String fileName) {

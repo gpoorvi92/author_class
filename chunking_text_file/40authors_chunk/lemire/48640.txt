@@ -1,0 +1,10 @@
+    private final Buffer buffer;
+    private int position;
+    private int runningLength;
+    private long word;
+    private int wordPosition;
+    private int wordLength;
+    private int literalPosition;
+    private boolean hasNext;
+
+    IntIteratorImpl(EWAHIterator ewahIter) {

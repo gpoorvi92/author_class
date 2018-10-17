@@ -1,0 +1,10 @@
+        iface.issuedMessage(args.missionId, args.userApps, args.rules, args.plots,resultHandler);
+      }
+    }
+
+    public static class operateEngine<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, operateEngine_args, com.nercis.isscp.idl.Result> {
+      public operateEngine() {
+        super("operateEngine");
+      }
+
+      public operateEngine_args getEmptyArgsInstance() {

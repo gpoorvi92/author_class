@@ -1,0 +1,10 @@
+// ErrorListener
+//
+//   Interface to implement to support JavaPOS Error Events.
+//
+// Modification history
+// ------------------------------------------------------------------
+// 98-02-18 JavaPOS Release 1.2                                   BS
+//
+/////////////////////////////////////////////////////////////////////
+

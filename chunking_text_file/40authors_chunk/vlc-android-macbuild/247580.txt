@@ -1,0 +1,10 @@
+    public String mFromTag;
+    public String mTypeTag;
+    public String mMrl;
+    public boolean mIsIndexMrl;
+    public boolean mNeedMembuf;
+
+    public MediaResourceItem() {
+    }
+
+    final public boolean isNormalMediaUrl() {

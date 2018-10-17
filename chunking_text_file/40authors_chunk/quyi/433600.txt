@@ -1,0 +1,10 @@
+
+    case THREAD_NAME:
+      return getThreadName();
+
+    case CHECK_TIME:
+      return getCheckTime();
+
+    case CPU:
+      return Integer.valueOf(getCpu());
+

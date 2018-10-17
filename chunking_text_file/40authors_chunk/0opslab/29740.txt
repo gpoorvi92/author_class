@@ -1,0 +1,10 @@
+        if (bom[0] == (byte)0xFF && bom[1] == (byte)0xFE && bom[2] == (byte)0x00
+                && bom[2] == (byte)0x00) // utf-32BE
+            return Charset.forName("UTF-32LE");
+        if (bom[0] == (byte)0xEF && bom[1] == (byte)0xBB && bom[2] == (byte)0xBF) // utf-8
+            return Charset.forName("UTF-8");
+        if (bom[0] == (byte)0xff && bom[1] == (byte)0xfe) // ucs-2le, ucs-4le, and ucs-16le
+            return Charset.forName("UTF-16LE");
+        if (bom[0] == (byte)0xfe && bom[1] == (byte)0xff) // utf-16 and ucs-2
+            return Charset.forName("UTF-16BE");
+        if (bom[0] == (byte)0 && bom[1] == (byte)0 && bom[2] == (byte)0xfe && bom[3] == (byte)0xff) // ucs-4

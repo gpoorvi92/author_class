@@ -1,0 +1,10 @@
+	 * 设置视频标题。
+	 * @param title
+	 * 	视频标题。
+	 * */
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	/**
+	 * 获取通过上传多媒体文件，得到的id。
+	 * @return 通过上传多媒体文件，得到的id。

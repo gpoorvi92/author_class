@@ -1,0 +1,10 @@
+        return identityCard;
+    }
+
+    public void setIdentityCard(String identityCard) {
+        this.identityCard = identityCard == null ? null : identityCard.trim();
+    }
+
+    public String getRealName() {
+        return realName;
+    }

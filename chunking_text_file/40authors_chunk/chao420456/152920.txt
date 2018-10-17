@@ -1,0 +1,10 @@
+
+		// public Set<String> stringPropertyNames()
+		Set<String> set = prop.stringPropertyNames();
+		for (String key : set) {
+			String value = prop.getProperty(key);
+			System.out.println(key + "---" + value);
+		}
+	}
+}
+

@@ -1,0 +1,10 @@
+	{
+		return HTTPHeader.getValue(getData(), HTTP.USN);
+	}
+
+	public int getMX()
+	{
+		return HTTPHeader.getIntegerValue(getData(), HTTP.MX);
+	}
+
+	////////////////////////////////////////////////

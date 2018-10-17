@@ -1,0 +1,10 @@
+
+    public static boolean ENABLE_ERROR = DEBUG_ON;
+    public static boolean ENABLE_INFO = DEBUG_ON;
+    public static boolean ENABLE_WARN = DEBUG_ON;
+    public static boolean ENABLE_DEBUG = DEBUG_ON;
+    public static boolean ENABLE_VERBOSE = DEBUG_ON;
+
+    public static int e(String tag, String msg) {
+        if (ENABLE_ERROR) {
+            return Log.e(tag, msg);

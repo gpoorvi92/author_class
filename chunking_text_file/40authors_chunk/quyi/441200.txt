@@ -1,0 +1,10 @@
+    return this.targetPort;
+  }
+
+  public NetworkPacket setTargetPort(String targetPort) {
+    this.targetPort = targetPort;
+    return this;
+  }
+
+  public void unsetTargetPort() {
+    this.targetPort = null;

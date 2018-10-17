@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface HardTotalsService13 extends HardTotalsService12
+{
+    // Capabilities

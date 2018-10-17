@@ -1,0 +1,10 @@
+                }
+            }
+        }
+    }
+
+    @Override
+    public void discardRunningWords() {
+        this.iteratingBrlw.discardRunningWords();
+        if (this.iteratingBrlw.getNumberOfLiteralWords() == 0)
+            this.next();

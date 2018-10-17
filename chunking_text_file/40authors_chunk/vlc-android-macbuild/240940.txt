@@ -1,0 +1,10 @@
+    public void setOnCompletionListener(
+            AbsMediaPlayer.OnCompletionListener listener) {
+        mOnCompletionListener = listener;
+    }
+
+    public void setOnErrorListener(AbsMediaPlayer.OnErrorListener listener) {
+        mOnErrorListener = listener;
+    }
+
+    public void setOnInfoListener(AbsMediaPlayer.OnInfoListener listener) {

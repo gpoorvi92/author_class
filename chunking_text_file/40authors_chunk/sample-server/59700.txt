@@ -1,0 +1,10 @@
+        int length = body.length;
+        int headerLength = CodedOutputStream.computeRawVarint32Size(length);
+        ByteBuffer bb = ByteBuffer.allocate(headerLength + body.length);
+        byte[] header = new byte[headerLength];
+        CodedOutputStream codedOutputStream = CodedOutputStream.newInstance(header);
+        codedOutputStream.writeRawVarint32(length);
+        codedOutputStream.flush();
+        bb.put(header);
+        bb.put(body);
+        return bb.array();

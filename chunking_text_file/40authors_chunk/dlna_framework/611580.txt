@@ -1,0 +1,10 @@
+	//	SOAP Basic
+	////////////////////////////////////////////////
+
+	public void setEnvelopeNode(Node node)
+	{
+		setRootNode(node);
+	}
+
+	public Node getEnvelopeNode()
+	{

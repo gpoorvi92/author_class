@@ -1,0 +1,10 @@
+
+
+@Component
+@ManagedResource(objectName = "JavaLargeFileUploader:name=rateLimiterConfiguration")
+public class RateLimiterConfigurationManager
+{
+
+	private static final Logger log = LoggerFactory.getLogger(RateLimiterConfigurationManager.class);
+
+	/** Client is evicted from the map when not accessed for that duration */

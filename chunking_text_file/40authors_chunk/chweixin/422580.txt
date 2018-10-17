@@ -1,0 +1,10 @@
+	/**
+	 * 设置第三方用户唯一凭证密钥。
+	 * @param appSecret
+	 * 	第三方用户唯一凭证密钥。
+	 * */
+	public void setAppSecret(String appSecret) {
+		this.appSecret = appSecret;
+	}
+	/**
+	 * 获取业务接口URL。

@@ -1,0 +1,10 @@
+	public void add( PropValue propValue ) { list.add( propValue ); }
+
+	/**
+	 * Removes the PropValue to this list
+	 * @param propValue the propValue to remove
+	 */
+	public void remove( PropValue propValue ) { list.remove( propValue ); }
+
+	/** Removes all PropValue in this list */
+	public void removeAll() { list.clear(); }

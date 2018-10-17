@@ -1,0 +1,10 @@
+    }
+
+    /**
+     * Does nothing.
+     *
+     * @see com.googlecode.javaewah.BitmapStorage#setSizeInBitsWithinLastWord(int)
+     */
+    @Override
+    public void setSizeInBitsWithinLastWord(int bits) {
+    }

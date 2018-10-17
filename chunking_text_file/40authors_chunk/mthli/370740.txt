@@ -1,0 +1,10 @@
+         {
+            public Object getNextValue() { return super.getPreviousValue(); }
+            public Object getPreviousValue() { return super.getNextValue(); }
+         });
+      addRow("Reverse List", reverseListSpinner);
+
+      JSpinner dateSpinner = new JSpinner(new SpinnerDateModel());
+      addRow("Date", dateSpinner);
+
+      JSpinner betterDateSpinner = new JSpinner(new SpinnerDateModel());

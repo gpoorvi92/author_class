@@ -1,0 +1,10 @@
+				tf.setText("");
+
+				// 写到文本文件
+				BufferedWriter bw = null;
+				try {
+					bw = new BufferedWriter(new FileWriter("bw.txt", true));
+					bw.write(tf_str);
+					bw.newLine();
+					bw.flush();
+				} catch (IOException e1) {

@@ -1,0 +1,10 @@
+
+import com.cyss.android.lib.service.ISendPacket;
+import com.cyss.android.lib.util.SystemUtil;
+import com.lianzt.commondata.AbstractCommonData;
+import com.lianzt.commondata.DataConvertFactory;
+import com.lianzt.util.DateUtil;
+
+public class ClientHttpPacket extends ISendPacket {
+
+	@Override

@@ -1,0 +1,10 @@
+
+     
+      catch ( Exception excp )
+
+      {
+            excp.printStackTrace();
+            	
+	  }    
+        getContentPane().setLayout(new BorderLayout(0,0));
+		getContentPane().add(BorderLayout.CENTER, p4);

@@ -1,0 +1,10 @@
+
+  public OkApacheClient() {
+    this(new OkHttpClient());
+  }
+
+  public OkApacheClient(OkHttpClient client) {
+    this.client = client;
+  }
+
+  @Override public HttpParams getParams() {

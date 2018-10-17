@@ -1,0 +1,10 @@
+                    int responseCode = (int) result.getResult();
+                    response = Fenrisulfr.TransPacket.newBuilder().setCounter(packet.getCounter()).setResponseCode(responseCode).build();
+                }
+                else
+                {
+                    log.error("unknow result type:{}", result.getClass());
+                }
+            }
+            
+            if (null != response)

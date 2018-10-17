@@ -1,0 +1,10 @@
+			}
+		}
+		
+		supplier.setValid(false);
+		if(supplierDao.update(supplier)){
+			sb.append("供应商： "+supplier.getName() + " 已更改为【不可用】状态!</br>");
+		}else{
+			throw new RuntimeException("供应商： " + supplier.getName() + " 【不可用】状态更改失败</br>");
+		}
+		if(i1 !=0 ){

@@ -1,0 +1,10 @@
+        fileFilters = new ArrayList();
+    }
+
+    public OrFileFilter(List fileFilters)
+    {
+        if(fileFilters == null)
+            this.fileFilters = new ArrayList();
+        else
+            this.fileFilters = new ArrayList(fileFilters);
+    }

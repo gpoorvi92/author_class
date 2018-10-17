@@ -1,0 +1,10 @@
+    public static String getAppLabel(Context context, String packageName) {
+        PackageManager pkgManager = context.getPackageManager();
+        if (pkgManager == null)
+            return null;
+
+        PackageInfo pkgInfo;
+        try {
+            pkgInfo = pkgManager.getPackageInfo(packageName, 0);
+            if (pkgInfo == null)
+                return null;

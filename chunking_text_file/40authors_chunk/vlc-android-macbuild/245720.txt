@@ -1,0 +1,10 @@
+        DebugLog.v(TAG, "create");
+        LibVlcMediaPlayer player = new LibVlcMediaPlayer(context, resolver);
+
+        try {
+            player.mLibVLC = LibVLC.getInstance(context, libLoader);
+            EventManager.getIntance().addHandler(player.mVlcHandler);
+
+            // options
+            ArrayList<String> options = new ArrayList<String>();
+            CollectionHelper.Append(options, extraParams);

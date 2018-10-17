@@ -1,0 +1,10 @@
+      if (!(this_present_app_id && that_present_app_id))
+        return false;
+      if (!this.app_id.equals(that.app_id))
+        return false;
+    }
+
+    boolean this_present_app_name = true && this.isSetApp_name();
+    boolean that_present_app_name = true && that.isSetApp_name();
+    if (this_present_app_name || that_present_app_name) {
+      if (!(this_present_app_name && that_present_app_name))

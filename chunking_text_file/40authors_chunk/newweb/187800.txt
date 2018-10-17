@@ -1,0 +1,10 @@
+		// System.out.println(t2.length);
+		// 设置汉字拼音输出的格式
+		HanyuPinyinOutputFormat t3 = new HanyuPinyinOutputFormat();
+		t3.setCaseType(HanyuPinyinCaseType.LOWERCASE);
+		t3.setToneType(HanyuPinyinToneType.WITHOUT_TONE);
+		t3.setVCharType(HanyuPinyinVCharType.WITH_V);
+		String t4 = "";
+		int t0 = t1.length;
+		try {
+			for (int i = 0; i < t0; i++) {

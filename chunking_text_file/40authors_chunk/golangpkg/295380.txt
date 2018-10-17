@@ -1,0 +1,10 @@
+	public UploadProcessingOperation getClientProcessingOperation(UUID clientId) {
+		return clientsAndRequestsProcessingOperation.get(clientId);
+	}
+
+
+	public UploadProcessingOperation getFileProcessingOperation(UUID fileId) {
+		return clientsAndRequestsProcessingOperation.get(fileId);
+	}
+
+

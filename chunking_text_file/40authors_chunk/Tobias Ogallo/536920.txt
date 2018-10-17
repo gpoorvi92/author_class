@@ -1,0 +1,10 @@
+	
+	public PASS() {
+		jTable = new JTable(new AbstractTable());
+		javax.swing.table.TableColumn column = null;
+		for(int i = 0; i < 6; i++) {
+			
+			
+			
+			column = jTable.getColumnModel().getColumn(i);
+		   if (i==4)

@@ -1,0 +1,10 @@
+		try {
+			Workbook preWorkbook = Workbook.getWorkbook(new File(fileName));
+			WritableWorkbook workbook = Workbook.createWorkbook(new File(
+					fileName), preWorkbook);
+			/** **********创建工作表************ */
+			WritableSheet sheet = workbook.getSheet(0);
+
+			/** **********设置纵横打印（默认为纵打）、打印纸***************** */
+			jxl.SheetSettings sheetset = sheet.getSettings();
+			sheetset.setProtected(false);

@@ -1,0 +1,10 @@
+		return this.tid.equals(other.tid)
+			&& this.cid.equals(other.cid)
+			&& this.lid.equals(other.lid)
+			&& this.begin.equals(other.begin)
+			&& this.end.equals(other.end)
+			&& this.type.equals(other.type)
+			&& this.status.equals(other.status)
+			&& this.err.equals(other.err);
+	}
+

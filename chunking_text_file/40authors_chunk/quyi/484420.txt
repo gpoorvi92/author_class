@@ -1,0 +1,10 @@
+     */
+    public com.nercis.isscp.idl.Result getSuccess() {
+      return this.success;
+    }
+
+    /**
+     * 
+     * @see com.nercis.isscp.idl.Result
+     */
+    public updateAppStatus_result setSuccess(com.nercis.isscp.idl.Result success) {

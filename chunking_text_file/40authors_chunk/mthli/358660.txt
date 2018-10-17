@@ -1,0 +1,10 @@
+            }
+         });
+
+      add(panel, BorderLayout.SOUTH);
+      pack();
+   }
+
+   /**
+    * Copies the selected text to the system clipboard.
+    */

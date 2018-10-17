@@ -1,0 +1,10 @@
+      case 3:
+        return inbupt;
+      case 4:
+        return inbupterr;
+      case 5:
+        return insensitive;
+      case 6:
+        return insensitiveerr;
+      case 7:
+        return insent;

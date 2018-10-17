@@ -1,0 +1,10 @@
+	public JLabel book_master = new JLabel("Book Master");
+	public JLabel campus = new JLabel("Campus");
+	public JLabel book_no = new JLabel("Book No");
+	public JLabel book_title = new JLabel("Book Title");
+	public JLabel book_type = new JLabel("Book Type");
+	public JLabel book_cat = new JLabel("Book Category");
+	public JLabel isbn = new JLabel("ISBN");
+	public JLabel class_no = new JLabel("Classification No");
+	public JLabel publisher = new JLabel("Publisher");
+	public JLabel place = new JLabel("Place Published");

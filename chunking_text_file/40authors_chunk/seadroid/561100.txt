@@ -1,0 +1,10 @@
+     * This function and decodeSampledBitmapFromStream below are used to
+     * generate thumbnails for pictures without leading to Out of memory
+     * problem.
+     *
+     * @see http://developer.android.com/training/displaying-bitmaps/load-bitmap.html
+     *
+     */
+    public static int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
+        // Raw height and width of image
+        final int height = options.outHeight;

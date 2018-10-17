@@ -1,0 +1,10 @@
+    public void send_updateUserAppInfo(String missionId, String userAppId, Map<com.nercis.isscp.idl.PlotsType,com.nercis.isscp.idl.CheckResultStatus> plotsStatus, List<Map<String,com.nercis.isscp.idl.APICheck>> usedPermissions, com.nercis.isscp.idl.StaticCheckResultData stcRD, com.nercis.isscp.idl.DynamicCheckResultData dycRD, com.nercis.isscp.idl.virus.VirusDetectionResultData virRD) throws org.apache.thrift.TException
+    {
+      updateUserAppInfo_args args = new updateUserAppInfo_args();
+      args.setMissionId(missionId);
+      args.setUserAppId(userAppId);
+      args.setPlotsStatus(plotsStatus);
+      args.setUsedPermissions(usedPermissions);
+      args.setStcRD(stcRD);
+      args.setDycRD(dycRD);
+      args.setVirRD(virRD);

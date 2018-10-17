@@ -1,0 +1,10 @@
+  public void addToSystemResources(SystemResources elem) {
+    if (this.systemResources == null) {
+      this.systemResources = new ArrayList<SystemResources>();
+    }
+    this.systemResources.add(elem);
+  }
+
+  public List<SystemResources> getSystemResources() {
+    return this.systemResources;
+  }

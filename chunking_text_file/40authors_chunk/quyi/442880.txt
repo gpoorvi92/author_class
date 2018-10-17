@@ -1,0 +1,10 @@
+      if (struct.isSetDataChar()) {
+        optionals.set(7);
+      }
+      if (struct.isSetDataLength()) {
+        optionals.set(8);
+      }
+      if (struct.isSetOperateTime()) {
+        optionals.set(9);
+      }
+      oprot.writeBitSet(optionals, 10);

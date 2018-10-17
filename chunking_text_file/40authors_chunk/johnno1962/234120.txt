@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void com.apple.eawt.ApplicationListener.handleOpenApplication(com.apple.eawt.ApplicationEvent)
+
+    public native void __handleOpenApplication( com.apple.eawt.ApplicationEvent arg0 );
+
+    public void handleOpenApplication( com.apple.eawt.ApplicationEvent arg0 ) {
+        __handleOpenApplication( arg0 );
+    }

@@ -1,0 +1,10 @@
+			r.setResult(ResponseCode.ERROR_ACCOUNT_MODIFY);
+			log.error("update excpetion:",e);
+		}
+		return r;
+	}
+
+
+	@Override
+	public Response delete(DelAccountRequest delReq) {
+		Response r=new Response();

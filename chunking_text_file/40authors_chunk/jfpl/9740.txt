@@ -1,0 +1,10 @@
+						appendChatItem(item);
+					}
+				}
+			} else if (event.getAction() == MotionEvent.ACTION_DOWN) {
+				this.recordVoiceY = event.getY();
+				this.vrDialog.show();
+			} else if (event.getAction() == MotionEvent.ACTION_MOVE) {
+				if (this.recordVoiceY - event.getY() > SystemUtil.dip2px(this,
+						80)) {
+					vrDialog.setCancelState(1);

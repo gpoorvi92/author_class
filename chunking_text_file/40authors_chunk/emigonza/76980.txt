@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface LineDisplayService13 extends LineDisplayService12
+{
+    // Capabilities

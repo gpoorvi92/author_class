@@ -1,0 +1,10 @@
+		this.lchild=lchild;
+		this.rchild=rchild;
+		this.up=up;		
+	}
+	
+	public HuffmanNode(){
+		code="";
+		freq=0;
+		value=0;
+		lchild=null;

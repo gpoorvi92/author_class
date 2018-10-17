@@ -1,0 +1,10 @@
+					else {					//If Query Failed.
+						JOptionPane.showMessageDialog (this, "Problem while Saving the Record.");
+					}
+				}
+				catch (SQLException sqlex) { }
+			}
+
+		}		
+
+		if (obj == btnCancel) {		//If Cancel Button Pressed Unload the From.

@@ -1,0 +1,10 @@
+     * 根据数字生成一个定长的字符串，长度不够前面补0
+     *
+     * @param num       数字
+     * @param fixdlenth 字符串长度
+     * @return 定长的字符串
+     */
+    public final static String toFixdLengthString(int num, int fixdlenth) {
+        StringBuffer sb     = new StringBuffer();
+        String       strNum = String.valueOf(num);
+        if (fixdlenth - strNum.length() >= 0) {

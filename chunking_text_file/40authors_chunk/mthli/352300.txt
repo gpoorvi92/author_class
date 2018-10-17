@@ -1,0 +1,10 @@
+
+         int index;
+         if (support.isDrop())
+         {
+            JList.DropLocation location = (JList.DropLocation) support.getDropLocation();
+            index = location.getIndex();
+            if (!location.isInsert()) model.remove(index); // replace location
+         }
+         else index = model.size();
+         for (Image image : images)

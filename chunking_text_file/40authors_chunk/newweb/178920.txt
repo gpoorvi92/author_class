@@ -1,0 +1,10 @@
+				sb.append(e.getMessage());
+			}
+		}
+		return sb.toString();
+	}
+
+	@Override
+	public String modifyToValid(int id) {
+		StringBuilder sb = new StringBuilder();
+		Supplier supplier = supplierDao.selectSupplierById(id);

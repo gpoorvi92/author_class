@@ -1,0 +1,10 @@
+public class Run14_join {
+    public static void main(String[] args) {
+        try {
+            Run14_Thread t = new Run14_Thread();
+            t.start();
+            t.join();
+            System.out.println("thread执行完后在会打印这句话");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }

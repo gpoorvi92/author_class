@@ -1,0 +1,10 @@
+	}
+	
+	@Override
+	public String toString() {
+		String s = "";
+		s+= "Uploaded "+bytesUploaded;
+		s+= "/"+totalFileSize+" Bytes";
+		s+= "("+progress+"%)";
+		if (uploadRate != null) {
+			s+=  "at rate: "+UnitConverter.getFormattedSize(uploadRate) +"/s.";

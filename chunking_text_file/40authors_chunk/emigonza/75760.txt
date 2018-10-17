@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos;
+
+import jpos.events.*;
+
+public interface POSKeyboardControl13 extends POSKeyboardControl12
+{
+    // Capabilities

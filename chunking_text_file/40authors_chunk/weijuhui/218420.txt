@@ -1,0 +1,10 @@
+	public void run() {
+		try {
+			// 一秒后跳转到登录界面
+			Thread.sleep(2000);
+			intentBuilder();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	

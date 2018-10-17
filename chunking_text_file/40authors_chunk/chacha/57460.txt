@@ -1,0 +1,10 @@
+			TokenBody tokenBody=new TokenBody(r.getToken());
+			TokenRequest tokenRequest=new TokenRequest(tokenBody);
+			LoginResponse tokenR=cmd.loginToken(tokenRequest);
+			assertNotNull(tokenR);
+			System.out.println(Thread.currentThread().getName()+" "+r.getToken()+" "+userName+" "+tokenR.getResult());
+			assertTrue(tokenR.getResult()==LoginResponse.SUCCESS);
+			assertTrue(tokenR.getToken().equals(userName));
+			
+			//令牌销毁示例
+			TokenBody logoutBody=new TokenBody(r.getToken());

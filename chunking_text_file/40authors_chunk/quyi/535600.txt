@@ -1,0 +1,10 @@
+  public HardwareResources(HardwareResources other) {
+    if (other.isSetProcessName()) {
+      this.processName = other.processName;
+    }
+    if (other.isSetThreadName()) {
+      this.threadName = other.threadName;
+    }
+    if (other.isSetCheckTime()) {
+      this.checkTime = other.checkTime;
+    }

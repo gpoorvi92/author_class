@@ -1,0 +1,10 @@
+import com.tencent.mm.sdk.platformtools.Util;
+import com.umeng.analytics.MobclickAgent;
+import com.weparty.R;
+import com.weparty.WePartyApplication;
+import com.weparty.domain.SourceData;
+import com.weparty.domain.WXRequest;
+import com.weparty.utils.Output;
+import com.weparty.views.MainActivity_;
+
+import android.app.Activity;

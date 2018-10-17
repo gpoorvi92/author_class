@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public int getVideoHeight() {
+        return mVideoHeight;
+    }
+
+    @Override
+    public int getVideoWidth() {
+        return mVideoWidth;

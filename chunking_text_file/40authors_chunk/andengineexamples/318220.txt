@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	public SnakeHead(final int pCellX, final int pCellY, final TiledTextureRegion pTiledTextureRegion, final VertexBufferObjectManager pVertexBufferObjectManager) {
+		super(pCellX, pCellY, CELL_WIDTH, 2 * CELL_HEIGHT, pTiledTextureRegion, pVertexBufferObjectManager);
+
+		this.setRotationCenterY(CELL_HEIGHT / 2);

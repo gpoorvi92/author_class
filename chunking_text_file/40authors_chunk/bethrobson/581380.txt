@@ -1,0 +1,10 @@
+         // now make two midi events (containing a midi message)
+
+      
+
+      for (int i = 0; i < 100; i+= 4) {
+
+        int  rNum = (int) ((Math.random() * 50) + 1);
+         if (rNum < 38) {  // so now only do it if num <38 (75% of the time)
+         
+           track.add(makeEvent(144,1,rNum,100,i));

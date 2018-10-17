@@ -1,0 +1,10 @@
+
+    /// public abstract void java.awt.dnd.DragSourceListener.dragEnter(java.awt.dnd.DragSourceDragEvent)
+
+    public native void __dragEnter( java.awt.dnd.DragSourceDragEvent dsde );
+
+    public void dragEnter( java.awt.dnd.DragSourceDragEvent dsde ) {
+        __dragEnter( dsde );
+    }
+
+    /// public abstract void java.awt.dnd.DragSourceListener.dragOver(java.awt.dnd.DragSourceDragEvent)

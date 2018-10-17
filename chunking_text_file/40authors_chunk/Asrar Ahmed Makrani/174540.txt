@@ -1,0 +1,10 @@
+ 					{
+ 					
+ 				String query = "INSERT INTO Item (item_id, title, type, year, author, subject_area, location, avail, permission" + 
+ 						") VALUES ('" +
+ 					a +"','" +
+ 					b +"','" +
+ 					"Journal" +"','" +
+ 					l +"','" +
+ 					j +"','" +
+ 					g +"','" +

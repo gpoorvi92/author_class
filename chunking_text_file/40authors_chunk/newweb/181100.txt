@@ -1,0 +1,10 @@
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bxg order by valid DESC,buycount desc,CONVERT(name USING GBK)")
+				.addEntity(Bxg.class);
+		int size = query.list().size();
+		query.setFirstResult(start);
+		query.setMaxResults(limit);
+		list.add(0, size);
+		list.add(1, query.list());
+		return list;
+	}
+

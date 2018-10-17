@@ -1,0 +1,10 @@
+
+        SeafCachedFile cacheInfo = new SeafCachedFile();
+        cacheInfo.repoID = repoID;
+        cacheInfo.repoName = repoName;
+        cacheInfo.path = pathInRepo;
+        watchedFiles.put(localpath, cacheInfo);
+
+        Log.d(DEBUG_TAG, "start watch downloaded file " + pathInRepo + ", # total watched " + watchedFiles.size());
+    }
+

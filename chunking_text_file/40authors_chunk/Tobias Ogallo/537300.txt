@@ -1,0 +1,10 @@
+	private JButton AddNew,Update,Remove,Search,Clear,Exit;
+	private static int rowCnt = 0;
+	private static int selectedRow;
+    private static JTextArea txtInfo=new JTextArea( 15, 40 );
+	private Connection dbconn;
+	private static String info;
+	public Route() {
+		jTable = new javax.swing.JTable(new AbstractTable());
+		javax.swing.table.TableColumn column = null;
+		for(int i = 0; i < 6; i++) {

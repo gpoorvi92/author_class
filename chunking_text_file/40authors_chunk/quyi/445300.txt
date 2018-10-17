@@ -1,0 +1,10 @@
+import java.util.Arrays;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * 定义动态检测 运行监视结果
+ * 1:string monitorTime 监控时间
+ * 2:string screenShotPath 截图所在FTP路径
+ * 3:string imageContent 图片内容
+ * 4:string checkResult 检测结果

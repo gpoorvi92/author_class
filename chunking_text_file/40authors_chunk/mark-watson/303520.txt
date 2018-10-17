@@ -1,0 +1,10 @@
+    /**
+     * Determine if a scored list contains a value string
+     *
+     * @param s
+     * @return true if the value is stored in the scored list
+     */
+    public boolean contains(String s) { return strings.contains(s); }
+
+    private final boolean removeOne(String text) {    // WARNING: REALLY INEFFICIENT !!  TBD fix this
+        int size = scores.size();

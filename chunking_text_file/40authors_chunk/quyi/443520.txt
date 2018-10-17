@@ -1,0 +1,10 @@
+    this.why = null;
+  }
+
+  public String getWhy() {
+    return this.why;
+  }
+
+  public UnavailableException setWhy(String why) {
+    this.why = why;
+    return this;

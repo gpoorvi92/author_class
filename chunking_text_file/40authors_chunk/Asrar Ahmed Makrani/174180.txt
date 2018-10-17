@@ -1,0 +1,10 @@
+					//sqlex.printStackTrace();	
+					}
+						
+					String query = "SELECT * FROM book_detail " + 
+ 								"WHERE item_id = '" + 
+ 								book_no_text.getText() +"'";
+					
+					ResultSet rs = statement.executeQuery(query);
+					try
+					{

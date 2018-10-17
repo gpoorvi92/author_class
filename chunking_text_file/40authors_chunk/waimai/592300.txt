@@ -1,0 +1,10 @@
+    Integer getCollectionCountById(Integer id);
+
+    void changePwd(Integer id, String oldPassword, String newPassword) throws ServiceException;
+
+    Merchant findById(Integer id);
+
+    String getImageById(Integer id);
+
+    List<Merchant> findAll();
+

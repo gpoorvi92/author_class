@@ -1,0 +1,10 @@
+			@Override
+			public void run() {
+				String layoutXml = SSLConnection.getHttpString(layoutUri);
+				LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+				XmlPullParser parser = Xml.newPullParser();
+				try {
+					parser.setInput(new StringReader(layoutXml));
+					View v = inflater.inflate(parser, null);
+					Message msg = handler.obtainMessage();
+					msg.what = 100;

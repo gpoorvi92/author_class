@@ -1,0 +1,10 @@
+        return getClass().getName().compareTo(other.getClass().getName());
+      }
+
+      int lastComparison = 0;
+
+      lastComparison = Boolean.valueOf(isSetMissionId()).compareTo(other.isSetMissionId());
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+      if (isSetMissionId()) {

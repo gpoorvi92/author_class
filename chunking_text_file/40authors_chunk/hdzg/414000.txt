@@ -1,0 +1,10 @@
+	}
+	//计算并返回一座城池的攻击力
+	public static int getCityAttack(CityDrawable city){
+		int attack = 0;//攻击力
+		General g = city.getGuardGeneral().get(0);//获得守将对象
+		float gAttack = (g.power*0.7f+g.agility*0.2f+g.intelligence*0.1f)/100.0f;
+		attack = (int)(city.baseAttack*city.getArmy()*(1+gAttack)) + city.warTank*100;
+		return (int)attack;
+	}
+	//计算并返回英雄的攻击力

@@ -1,0 +1,8 @@
+	//-------------------------------------------------------------------------
+	// Instance variables
+	//
+
+	private Object value = null;
+
+	private PropType type = null;
+}

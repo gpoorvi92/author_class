@@ -1,0 +1,10 @@
+
+     public void setAnswer(String a) {
+        answer = a;
+     }
+
+     public String getAnswer() {
+        return answer;
+     }
+
+     public void setHint(String h) {

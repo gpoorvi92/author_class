@@ -1,0 +1,10 @@
+            break;
+          case 3: // VERSIONCODE
+            if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+              struct.versioncode = iprot.readString();
+              struct.setVersioncodeIsSet(true);
+            } else { 
+              org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+            }
+            break;
+          case 4: // URL

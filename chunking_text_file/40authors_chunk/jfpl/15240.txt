@@ -1,0 +1,10 @@
+		if (type == 1) {
+			ChatMessageUtil.showChatLongClickTextDialog(this, chatList,
+					sendState, sendFinishState, acd);
+		} else if (type == 2 || type == 3 || type == 4) {
+			ChatMessageUtil.showChatLongClickMediaDialog(this, chatList,
+					sendState, sendFinishState, acd);
+		}
+		return false;
+	}
+

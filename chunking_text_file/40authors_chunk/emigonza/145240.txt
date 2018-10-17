@@ -1,0 +1,10 @@
+  {
+    return new PropertyDescriptor(propertyName, jpos.CashChanger.class);
+  }
+
+  public PropertyDescriptor[] getPropertyDescriptors()
+  {
+    try
+    {
+      PropertyDescriptor[] properties =
+      {

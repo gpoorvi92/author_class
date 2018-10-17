@@ -1,0 +1,10 @@
+		try {
+			LhjPrice lhj = (LhjPrice) super.clone();
+			lhj.materialBrand = (MaterialBrand) materialBrand.clone();
+			return lhj;
+		} catch (Exception e) {
+			return null;
+		}
+	}
+	
+}

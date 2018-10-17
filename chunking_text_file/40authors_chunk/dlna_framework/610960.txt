@@ -1,0 +1,10 @@
+		
+		setRequestHost(service);
+
+		setEnvelopeNode(SOAP.createEnvelopeBodyNode());
+		Node envNode = getEnvelopeNode();
+		Node bodyNode = getBodyNode();
+		Node argNode = createContentNode(service, action, argList);
+		bodyNode.addNode(argNode);
+		setContent(envNode);
+

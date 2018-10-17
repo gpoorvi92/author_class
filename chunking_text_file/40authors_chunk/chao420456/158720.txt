@@ -1,0 +1,10 @@
+public class ListIteratorDemo3 {
+	public static void main(String[] args) {
+		// 创建一个集合，并添加多个元素
+		List list = new ArrayList();
+		list.add("hello");
+		list.add("world");
+		list.add("java");
+
+		// 遍历集合，获取到每一个元素
+		// Iterator it = list.iterator();

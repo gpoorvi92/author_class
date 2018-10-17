@@ -1,0 +1,6 @@
+	 */
+	public void fatal(Object message, Throwable t) {
+		prnLog.fatal(message, t);
+	}
+
+}

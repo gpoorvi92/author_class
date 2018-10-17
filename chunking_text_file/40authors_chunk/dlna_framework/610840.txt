@@ -1,0 +1,10 @@
+	
+	public ActionRequest()
+	{
+	}
+
+	public ActionRequest(HTTPRequest httpReq)
+	{
+		set(httpReq);
+	}
+

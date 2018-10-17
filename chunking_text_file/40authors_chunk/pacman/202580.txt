@@ -1,0 +1,10 @@
+			
+			FeedbackMessage fm = (FeedbackMessage) obj;
+			
+			try {
+				
+				TaskModel task = taskDAO.findByPk(fm.getCommandId());
+				
+				Wrapper<String> content = new Wrapper<String>();
+				ArrayList<NameValuePair> data = new ArrayList<NameValuePair>();
+				String url = "";

@@ -1,0 +1,10 @@
+        }
+    }
+
+    @Override
+    public void setVals(TimeView other) {
+        super.setVals(other);
+        DayTimeLayoutView otherDay = (DayTimeLayoutView) other;
+        if (otherDay.isSunday && !isSunday) {
+            isSunday = true;
+            colorMeSunday();

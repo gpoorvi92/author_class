@@ -1,0 +1,10 @@
+package com.lz.center.entity;
+import com.lz.center.acl.Limit;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import java.util.ArrayList;
+import java.util.List;
+/**
+ * UserEntity: Teaey

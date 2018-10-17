@@ -1,0 +1,10 @@
+      do
+      {
+         r += "[";
+         Field[] fields = cl.getDeclaredFields();
+         AccessibleObject.setAccessible(fields, true);
+         // get the names and values of all fields
+         for (Field f : fields)
+         {
+            if (!Modifier.isStatic(f.getModifiers()))
+            {

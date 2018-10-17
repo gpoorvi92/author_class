@@ -1,0 +1,10 @@
+		return pChildPosition;
+	}
+
+	@Override
+	public int getChildrenCount(final int pGroupPosition) {
+		return EXAMPLEGROUPS[pGroupPosition].mExamples.length;
+	}
+
+	@Override
+	public View getChildView(final int pGroupPosition, final int pChildPosition, final boolean pIsLastChild, final View pConvertView, final ViewGroup pParent) {

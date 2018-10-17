@@ -1,0 +1,10 @@
+
+    public static class searchAllEng<I extends Iface> extends org.apache.thrift.ProcessFunction<I, searchAllEng_args> {
+      public searchAllEng() {
+        super("searchAllEng");
+      }
+
+      public searchAllEng_args getEmptyArgsInstance() {
+        return new searchAllEng_args();
+      }
+

@@ -1,0 +1,10 @@
+    StringBuilder sb = new StringBuilder("VirusEngine(");
+    boolean first = true;
+
+    sb.append("engineName:");
+    if (this.engineName == null) {
+      sb.append("null");
+    } else {
+      sb.append(this.engineName);
+    }
+    first = false;

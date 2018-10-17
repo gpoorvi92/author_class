@@ -1,0 +1,8 @@
+//        if (!ThemeStore.getInstance().isDefaultTheme()){
+//            return ThemeStore.getInstance().getTheme();
+//        }
+//        else{
+//            return super.getTheme();
+//        }
+//    }
+}

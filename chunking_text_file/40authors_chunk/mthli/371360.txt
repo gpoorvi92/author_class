@@ -1,0 +1,10 @@
+      }
+      minWidth = preferredWidth / 2;
+      minHeight = preferredHeight / 2;
+      sizesSet = true;
+   }
+
+   public Dimension preferredLayoutSize(Container parent)
+   {
+      setSizes(parent);
+      Insets insets = parent.getInsets();

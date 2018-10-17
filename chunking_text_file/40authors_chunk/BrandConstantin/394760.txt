@@ -1,0 +1,9 @@
+    
+    int a = 0; 
+    
+    while (a < 101) {
+      System.out.print(" " + a);
+      a += 5;
+    }
+  }
+}

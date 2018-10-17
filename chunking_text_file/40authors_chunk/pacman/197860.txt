@@ -1,0 +1,7 @@
+		
+		server.stop();
+		server.await();
+		
+		assertFalse(server.isWorking());
+	}
+}

@@ -1,0 +1,10 @@
+		
+		JsonResult result = new JsonResult();
+		
+		String libId 	= request.getParameter("lid"); // library id.
+		String cwId 	= request.getParameter("cid"); // courseware id.
+		
+		saveFile(video, result, videoDir, libId, cwId, false);
+		
+		return result;		
+	}

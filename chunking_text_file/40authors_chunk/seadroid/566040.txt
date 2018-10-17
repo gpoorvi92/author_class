@@ -1,0 +1,10 @@
+                new String[] { account.server, account.email });
+
+        AccountNotifier.notifyProvider();
+    }
+
+    private Account cursorToAccount(Cursor cursor) {
+        Account account = new Account();
+        account.server = cursor.getString(0);
+        account.email = cursor.getString(1);
+        account.token = cursor.getString(2);

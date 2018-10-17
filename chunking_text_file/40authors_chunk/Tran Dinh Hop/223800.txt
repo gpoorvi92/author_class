@@ -1,0 +1,10 @@
+			else{
+				node=node.rchild;
+			}
+			if (node.lchild==null&&node.rchild==null){
+				return node.getValue();
+			}
+			if(decode.length()==1)break;
+			decode=decode.substring(1);
+		}
+	

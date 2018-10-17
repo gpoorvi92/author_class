@@ -1,0 +1,5 @@
+        int num = i+j;
+        float r = (float)1/len,s = (len+1) * r;
+        return num > len ? (num *r - s) : num * r;
+    }
+}

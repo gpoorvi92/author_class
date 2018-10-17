@@ -1,0 +1,10 @@
+    * Sets the indexed array property.
+    * @param v the array to edit
+    */
+   private void setArray(double[] v)
+   {
+      array = v;
+      model.setArray(array);
+      sizeField.setValue(array.length);
+      if (array.length > 0)
+      {

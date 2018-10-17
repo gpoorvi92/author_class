@@ -1,0 +1,10 @@
+    public short readShort()
+        throws IOException, EOFException
+    {
+        return EndianUtils.readSwappedShort(in);
+    }
+
+    public int readUnsignedByte()
+        throws IOException, EOFException
+    {
+        return in.read();

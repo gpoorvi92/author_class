@@ -1,0 +1,10 @@
+     */
+    public static IntIterator toSetBitsIntIterator(final IteratingRLW i) {
+        return new IntIteratorOverIteratingRLW(i);
+    }
+
+    /**
+     * @param i iterator we wish to iterate over
+     * @return an iterator over the set bits corresponding to the iterator
+     */
+    public static Iterator<Integer> toSetBitsIterator(final IteratingRLW i) {

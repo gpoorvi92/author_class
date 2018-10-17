@@ -1,0 +1,10 @@
+
+  public static final int GATE_GS_CLOSED               = 1;
+  public static final int GATE_GS_OPEN                 = 2;
+  public static final int GATE_GS_BLOCKED              = 3;
+  public static final int GATE_GS_MALFUNCTION          = 4;
+
+
+  /////////////////////////////////////////////////////////////////////
+  // "StatusUpdateEvent" Event: "Data" Parameter Constants
+  /////////////////////////////////////////////////////////////////////

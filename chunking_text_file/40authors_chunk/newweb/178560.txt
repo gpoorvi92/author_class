@@ -1,0 +1,10 @@
+		List list = userDao.selectAllUsers(start,limit);
+		int size =(Integer) list.get(0);
+		List sList = (List) list.get(1);
+		User[] us = new User[sList.size()];
+		int count = 0;
+		for (Object o : sList) {
+			User u = (User) o;
+			us[count++] = u;
+		}
+		List returnList = new ArrayList();

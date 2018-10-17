@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class PostTest
+{
+   public static void main(String[] args) throws IOException
+   {
+      Properties props = new Properties();
+      try (InputStream in = Files.newInputStream(Paths.get(args[0])))
+      {
+         props.load(in);

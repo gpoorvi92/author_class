@@ -1,0 +1,10 @@
+        return left < root.val && root.val < right &&
+                isValidBSTRe(root.left,left,root.val) 
+                && isValidBSTRe(root.right, root.val, right);
+    }
+    public boolean isValidBST_1(TreeNode root) {
+        if (root == null) return true;
+        return isValidBSTRe(root, (long)Integer.MIN_VALUE - 1, (long)Integer.MAX_VALUE + 1);
+    }
+    boolean isValidBST(TreeNode root) {
+        long[] val = new long[1];

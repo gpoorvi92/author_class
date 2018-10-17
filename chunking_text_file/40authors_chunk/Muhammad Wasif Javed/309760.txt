@@ -1,0 +1,10 @@
+							setVisible (false);		//Hide the Form.
+							dispose();            		//Free the System Resources.
+						}
+						else {
+							JOptionPane.showMessageDialog (this, "Problem in Changing Password.");
+							txtPass.setText ("");
+							txtNew.setText ("");
+							txtPass.requestFocus ();
+						}
+					}

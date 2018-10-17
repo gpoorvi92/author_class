@@ -1,0 +1,10 @@
+		this.mFaces[1] = new Sprite(centerX + 50, centerY, this.mFaceTextureRegion, this.getVertexBufferObjectManager());
+		scene.attachChild(this.mFaces[0]);
+		scene.attachChild(this.mFaces[1]);
+
+		scene.setOnSceneTouchListener(this);
+
+		return scene;
+	}
+
+	@Override

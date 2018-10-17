@@ -1,0 +1,10 @@
+   }
+
+   /**
+      Reads employee data from a byte buffer
+      @param in the buffer
+      @return the employee
+   */
+   public static Employee readData(ByteBuffer in) throws IOException
+   {      
+      StringBuilder name = new StringBuilder();

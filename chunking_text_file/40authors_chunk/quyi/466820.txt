@@ -1,0 +1,10 @@
+		MessageDigest messageDigest;
+		String missionId = "";
+		try {
+			messageDigest = MessageDigest.getInstance("MD5");
+			missionId = "Mission" + StringUtils.byteArrayToHexString(messageDigest.digest(time1.getBytes()));
+			issueMultiMessages(session, producer, missionId, missionSize, appInfoList);
+		} catch (NoSuchAlgorithmException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}

@@ -1,0 +1,10 @@
+	public void verbose(Object str) {
+        if (logLevel <= Log.VERBOSE) {
+            String name = getFunctionName();
+            String ls=(name==null?str.toString():(name+" - "+str));
+            Log.v(tag, ls);    
+        }
+	}
+	
+	public void v(Object str) {
+		if (isDebug) {

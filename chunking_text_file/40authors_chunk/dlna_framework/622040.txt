@@ -1,0 +1,10 @@
+			fin.close();
+			
+			return bout.toByteArray();
+		}
+		catch (Exception e) {
+			Debug.warning(e);
+			return new byte[0];
+		}
+	}
+	

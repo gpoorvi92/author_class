@@ -1,0 +1,10 @@
+  public Engine setEngineIp(String engineIp) {
+    this.engineIp = engineIp;
+    return this;
+  }
+
+  public void unsetEngineIp() {
+    this.engineIp = null;
+  }
+
+  /** Returns true if field engineIp is set (has been assigned a value) and false otherwise */

@@ -1,0 +1,10 @@
+	/**
+	 * Fired when the administration method {@link JavaLargeFileUploaderService#disableFileUploader()} is called.
+	 */ 
+	void onFileUploaderDisabled();
+	
+	/**
+	 * Fired when the administration method {@link JavaLargeFileUploaderService#enableFileUploader()} is called.
+	 */ 
+	void onFileUploaderEnabled();
+

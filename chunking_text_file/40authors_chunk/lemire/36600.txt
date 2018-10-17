@@ -1,0 +1,10 @@
+    
+    @Override
+    public void trim() {
+        this.buffer = Arrays.copyOf(this.buffer, this.actualSizeInWords);
+    }
+    
+    @Override
+    public void setWord(int position, int word) {
+        this.buffer[position] = word;
+    }

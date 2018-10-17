@@ -1,0 +1,10 @@
+          if (schemeField.type == org.apache.thrift.protocol.TType.STOP) { 
+            break;
+          }
+          switch (schemeField.id) {
+            case 1: // ENGINE_ID
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.engineId = iprot.readString();
+                struct.setEngineIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);

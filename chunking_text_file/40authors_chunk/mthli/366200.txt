@@ -1,0 +1,10 @@
+            public void insertUpdate(DocumentEvent event) { setColor(); }
+            public void removeUpdate(DocumentEvent event) { setColor(); }
+            public void changedUpdate(DocumentEvent event) {}
+         };
+
+      panel = new JPanel();
+      
+      panel.add(new JLabel("Red:"));
+      redField = new JTextField("255", 3);
+      panel.add(redField);

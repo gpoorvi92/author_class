@@ -1,0 +1,10 @@
+	@Override
+	public boolean delete(Small small) {
+		try {
+			sessionFactory.getCurrentSession().delete(small);
+		} catch (Exception e) {
+			return false;
+		}
+		return true;
+	}
+

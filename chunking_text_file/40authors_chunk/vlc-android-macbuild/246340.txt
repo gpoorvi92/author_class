@@ -1,0 +1,10 @@
+            mCompleted = true;
+            if (mOnCompletionListener != null) {
+                mOnCompletionListener.onCompletion(this);
+            }
+            break;
+        }
+        case EventManager.MediaPlayerEncounteredError: {
+            if (mOnErrorListener != null) {
+                mOnErrorListener.onError(this, MediaPlayer.MEDIA_ERROR_UNKNOWN,
+                        0);

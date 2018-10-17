@@ -1,0 +1,10 @@
+				System.out.println("-----------登录界面------------");
+				// 键盘录入用户名和密码
+				System.out.println("请输入用户名：");
+				String username = sc.nextLine();
+				System.out.println("请输入密码：");
+				String password = sc.nextLine();
+				// 调用功能
+				// UserDao ud = new UserDaoImpl();
+				boolean flag = ud.isLogin(username, password);
+				if (flag) {

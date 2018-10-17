@@ -1,0 +1,10 @@
+package org.videolan.vlc;
+
+import android.media.AudioFormat;
+import android.media.AudioManager;
+import android.media.AudioTrack;
+import android.util.Log;
+
+public class Aout {
+    /**
+     * Java side of the audio output module for Android.

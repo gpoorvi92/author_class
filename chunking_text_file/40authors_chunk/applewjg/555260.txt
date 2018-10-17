@@ -1,0 +1,4 @@
+        if (l2 != null) cur.next = l2;
+        return head.next;
+    }
+}

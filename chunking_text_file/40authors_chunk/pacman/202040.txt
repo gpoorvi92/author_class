@@ -1,0 +1,10 @@
+			String guid,
+			String codec,
+			int bitrate, 
+			int sample, 
+			int duration,
+			String media) {
+
+		AudioTranscodingMessage message = new AudioTranscodingMessage();
+		message.setClassId(classId);
+		message.setLessonId(lessonId);

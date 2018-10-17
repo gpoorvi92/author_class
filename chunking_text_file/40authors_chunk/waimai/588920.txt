@@ -1,0 +1,10 @@
+    @Autowired
+    private IGoodsTypeService goodsTypeService;
+
+    @RequestMapping("/byMerchant")
+    public @ResponseBody Map<String, Object> findByMerchant(Integer merchantId) {
+        Map<String, Object> map = new HashMap<String, Object>();
+        List<GoodsType> goodsTypeList = goodsTypeService.findByMerchantId(merchantId);
+        map.put("count", goodsTypeList.size());
+        map.put("goodsTypes", goodsTypeList);
+        return map;

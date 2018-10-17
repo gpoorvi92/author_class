@@ -1,0 +1,9 @@
+        mouseEvtComp.addMouseListener( popupMouseListener ); 
+    } 
+        
+    /**
+     * unregisters a component from listen to mouse events for the popupMenu
+     * @since 1.3 (SF 2K meeting)
+     */
+    public static void removePopup( JComponent mouseEvtComp ) { dictionary.remove( mouseEvtComp ); } 
+}

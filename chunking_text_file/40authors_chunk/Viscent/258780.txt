@@ -1,0 +1,10 @@
+
+		long requestCount = overallTPS * (duration * 60);
+
+		final int maxRequestPerTimeslice = (overallTPS / 3) * 10;
+		final RequestFactory[] factories = new RequestFactory[] {
+		    new SmsRequestFactory(respDelayConf.get("Sms"), maxRequestPerTimeslice),
+		    new ChargingRequestFactory(respDelayConf.get("Charging"),
+		        maxRequestPerTimeslice),
+		    new LocationRequestFactory(respDelayConf.get("Location"),
+		        maxRequestPerTimeslice) };

@@ -1,0 +1,10 @@
+        this.swiftObject = swiftObject;
+    }
+
+    /// public abstract void javax.swing.event.MenuListener.menuSelected(javax.swing.event.MenuEvent)
+
+    public native void __menuSelected( javax.swing.event.MenuEvent e );
+
+    public void menuSelected( javax.swing.event.MenuEvent e ) {
+        __menuSelected( e );
+    }

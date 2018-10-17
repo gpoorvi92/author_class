@@ -1,0 +1,8 @@
+            if (ii > 99) ii = 99;
+            g.setColor(colors[ii]);
+            g.fillRect(i * delta_width, 0, delta_width, delta_height);
+            g.setColor(Color.black);
+            g.drawRect(i * delta_width, 0, delta_width, delta_height);
+            }
+    }
+}

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void add(MultipartFile image, ImageRecommend imageRecommend) throws ServiceException {
+        if (!image.isEmpty()) {
+            String filename = UUID.randomUUID().toString() + PathUtils.fileSuffix(image.getOriginalFilename());
+            try {
+                FileUtils.upload(image.getInputStream(), "imageRecommend/" + filename);
+            } catch (AuthException e) {
+                throw new ServiceException("上传图片失败");

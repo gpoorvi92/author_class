@@ -1,0 +1,10 @@
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        MessageEntity that = (MessageEntity) o;
+
+        if (type != that.type) return false;
+        if (offset != null ? !offset.equals(that.offset) : that.offset != null) return false;
+        if (length != null ? !length.equals(that.length) : that.length != null) return false;
+        if (url != null ? !url.equals(that.url) : that.url != null) return false;
+        return user != null ? user.equals(that.user) : that.user == null;

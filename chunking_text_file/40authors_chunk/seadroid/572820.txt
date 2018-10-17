@@ -1,0 +1,10 @@
+        }
+    }
+
+    public void saveCertificate(String url, X509Certificate cert) {
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        ObjectOutputStream out = null;
+        String text = null;
+        try {
+            out = new ObjectOutputStream(bos);
+            out.writeObject(cert);

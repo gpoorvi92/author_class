@@ -1,0 +1,10 @@
+      if (value == null) {
+        unsetJvmFreeMem();
+      } else {
+        setJvmFreeMem((Double)value);
+      }
+      break;
+
+    case TASK_QUEUE_LIMIT:
+      if (value == null) {
+        unsetTaskQueueLimit();

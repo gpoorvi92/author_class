@@ -1,0 +1,10 @@
+      switch (field) {
+      case NODE_HEAT:
+        return getNodeHeat();
+
+      case TIMESTAMP:
+        return Long.valueOf(getTimestamp());
+
+      }
+      throw new IllegalStateException();
+    }

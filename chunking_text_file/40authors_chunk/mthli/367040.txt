@@ -1,0 +1,10 @@
+   {
+      message = m;
+   }
+
+   /**
+    * Gets the page count of this section.
+    * @param g2 the graphics context
+    * @param pf the page format
+    * @return the number of pages needed
+    */

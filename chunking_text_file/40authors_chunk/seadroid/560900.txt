@@ -1,0 +1,10 @@
+            int sort, String bucketId) {
+        super(resolver, imageUri, sort, bucketId);
+    }
+
+    private static final String WHERE_CLAUSE =
+            "(" + Media.MIME_TYPE + " in (?, ?, ?))";
+
+    protected String whereClause() {
+        int count = ImageManager.getAllBucketIds().size();
+        List<String> chars = Lists.newArrayList();

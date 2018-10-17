@@ -1,0 +1,10 @@
+    case STATIC_CHECK_RESULT:
+      return isSetStaticCheckResult();
+    case DYNAMIC_CHECK_RESULT:
+      return isSetDynamicCheckResult();
+    }
+    throw new IllegalStateException();
+  }
+
+  @Override
+  public boolean equals(Object that) {

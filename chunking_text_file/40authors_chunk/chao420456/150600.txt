@@ -1,0 +1,10 @@
+ *            
+ * JDK7的新特性：针对平级关系的
+ * 		catch(异常1 | 异常2 | 异常3 ... e) {}
+ */
+public class ExceptionDemo2 {
+	public static void main(String[] args) {
+		// method1();
+
+		// method2();
+

@@ -1,0 +1,10 @@
+      root = new DefaultMutableTreeNode(java.lang.Object.class);
+      model = new DefaultTreeModel(root);
+      tree = new JTree(model);
+
+      // add this class to populate the tree with some data
+      addClass(getClass());
+
+      // set up node icons
+      ClassNameTreeCellRenderer renderer = new ClassNameTreeCellRenderer();
+      renderer.setClosedIcon(new ImageIcon(getClass().getResource("red-ball.gif")));

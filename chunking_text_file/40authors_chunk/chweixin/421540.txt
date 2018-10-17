@@ -1,0 +1,10 @@
+	public synchronized String refreshAccessToken(String accountId) throws Exception {
+		if(accountId == null || accountId.trim().isEmpty()) return null;
+		String error = null;
+		WeChatAccount account = this.weChatAccountDao.load(WeChatAccount.class, accountId);
+		if(account == null || account.getAppId() == null || account.getAppId().trim().isEmpty()){
+			logger.error(error = "未找到公众号信息或未配置第三方用户凭证信息！");
+			throw new Exception(error);
+		}
+		if(this.tokenUrl == null || this.tokenUrl.trim().isEmpty()){
+			logger.error(error = "未注入tokenUrl!");

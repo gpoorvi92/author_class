@@ -1,0 +1,10 @@
+    /**
+     * modify nodemanager config.properties
+     * @param	propertyName
+     * @param	propertyValue
+     * @return	succeed or not
+     * 
+     * @param nodeId
+     * @param propertyName
+     * @param propertyValue
+     */

@@ -1,0 +1,10 @@
+            // litwlist.unset(pos);
+            this.litwlist.set(pos, false);
+            this.litWeight--;
+        }
+    }
+
+    /**
+     * @param pos position where a zero word was added
+     */
+    public final void setZero(final int pos) {

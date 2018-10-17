@@ -1,0 +1,10 @@
+      this.jvmVersion = null;
+    }
+  }
+
+  public String getJvmMaxMem() {
+    return this.jvmMaxMem;
+  }
+
+  public Software setJvmMaxMem(String jvmMaxMem) {
+    this.jvmMaxMem = jvmMaxMem;

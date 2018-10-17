@@ -1,0 +1,10 @@
+ * A frame that loads image and text resources.
+ */
+class ResourceTestFrame extends JFrame
+{
+   private static final int DEFAULT_WIDTH = 300;
+   private static final int DEFAULT_HEIGHT = 300;
+
+   public ResourceTestFrame()
+   {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);

@@ -1,0 +1,10 @@
+		 * 两件事情：
+		 * A:关闭流对象(流对象不可以继续在写数据了)
+		 * B:释放与此流相关的资源(通知系统去释放与此流相关的资源)
+		 */
+		
+		//java.io.IOException: Stream Closed
+		//fos.write("haha".getBytes());
+		
+		
+		// while(true){}

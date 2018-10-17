@@ -1,0 +1,10 @@
+	 * @see com.yeshj.pacman.jms.IMessageManager#setMessageListener(com.yeshj.pacman.jms.IMQListener, com.yeshj.pacman.jms.QueueType)
+	 */
+	@Override
+	public void setMessageListener(IMQListener listener, QueueType dest)
+			throws MQException {
+
+		if (mqFactory != null) {
+			
+			if (dest == QueueType.TOPIC_COMMAND) {
+				

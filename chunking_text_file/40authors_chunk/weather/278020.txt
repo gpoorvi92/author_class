@@ -1,0 +1,10 @@
+        try {
+            ByteArrayInputStream bis = new ByteArrayInputStream(data);
+            if (t) {
+                in = new GZIPInputStream(bis);
+            } else {
+                in = bis;
+            }
+            BufferedReader r = new BufferedReader(new InputStreamReader(in), 1000);
+            for (String line = r.readLine(); line != null; line = r.readLine()) {
+                sb.append(line);

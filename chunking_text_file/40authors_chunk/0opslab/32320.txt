@@ -1,0 +1,10 @@
+        System.out.println("sum1 > "+count/60/60);
+        System.out.println("sum2 > "+count1/60/60);
+        System.out.println("count > "+lines.size());
+
+    }
+
+    @Test
+    @Ignore
+    public void testGruop()throws ParseException {
+        File file = new File(path + "times.txt");

@@ -1,0 +1,10 @@
+        int avail = ~(row | ld | rd);
+        for (int i = n - 1; i >= 0; --i) {
+            int pos = 1<<i;
+            if ((int)(avail&pos) != 0) {
+                totalNQueensRe2(n, row | pos, (ld|pos) << 1, (rd|pos) >>1, res);
+            }
+        }
+    }
+    public int totalNQueens_3(int n) {
+        int[] a = new int[n];

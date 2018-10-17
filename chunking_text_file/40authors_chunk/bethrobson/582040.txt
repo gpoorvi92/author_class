@@ -1,0 +1,10 @@
+    
+    public SongBad(String t, String a, String r, String b) {
+        title = t;
+        artist = a;
+        rating = r;
+        bpm = b;
+    }
+    public boolean equals(Object aSong) {
+        SongBad s = (SongBad) aSong;
+        return getTitle().equals(s.getTitle());

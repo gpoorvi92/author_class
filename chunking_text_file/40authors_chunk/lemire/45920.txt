@@ -1,0 +1,10 @@
+     */
+    void removeLastWord();
+
+    /**
+     * Negates the word at the given position in the buffer
+     * @param position
+     */
+    void negateWord(int position);
+
+    /**

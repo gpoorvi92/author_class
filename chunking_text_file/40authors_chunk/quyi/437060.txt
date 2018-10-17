@@ -1,0 +1,10 @@
+          for (HardwareResources _iter55 : struct.hardwareResources)
+          {
+            _iter55.write(oprot);
+          }
+          oprot.writeListEnd();
+        }
+        oprot.writeFieldEnd();
+      }
+      if (struct.checkEndDate != null) {
+        oprot.writeFieldBegin(CHECK_END_DATE_FIELD_DESC);

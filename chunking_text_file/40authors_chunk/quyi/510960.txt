@@ -1,0 +1,10 @@
+      if (struct.isSetCheckEngineNum()) {
+        optionals.set(2);
+      }
+      if (struct.isSetPositives()) {
+        optionals.set(3);
+      }
+      if (struct.isSetVirusEngine()) {
+        optionals.set(4);
+      }
+      if (struct.isSetDescription()) {

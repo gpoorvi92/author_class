@@ -1,0 +1,10 @@
+            getDialog().dismiss();
+            getBrowserActivity().showToast("The file \"" + fileName + "\" has been deleted");
+        } else if (err.getCode() == 440) {
+            handlePassword();
+        } else {
+            getDialog().dismiss();
+            getBrowserActivity().showToast("Failed to download file \"" + fileName);
+            if (mListener != null) {
+                mListener.onFailure(err);
+            }

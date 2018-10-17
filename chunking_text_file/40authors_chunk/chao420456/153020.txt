@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public boolean isLogin(String username, String password) {
+        boolean flag = false;
+
+        BufferedReader br = null;
+        try {
+            br = new BufferedReader(new FileReader(file));
+            String line = null;

@@ -1,0 +1,10 @@
+    @Override
+    public List<GoodsType> findByMerchantId(Integer merchantId) {
+        return goodsTypeMapper.findByMerchantId(merchantId);
+    }
+
+    @Override
+    public List<GoodsType> search(BaseConditionVO vo) {
+        RowBounds rb = new RowBounds(vo.getStartIndex(), vo.getPageSize());
+        List<GoodsType> goodsTypeList = goodsTypeMapper.findPageBreakByCondition(vo, rb);
+        vo.setTotalCount(goodsTypeMapper.getTotalCount(vo));

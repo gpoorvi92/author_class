@@ -1,0 +1,10 @@
+   {
+      DefaultMutableTreeNode root = new DefaultMutableTreeNode("World");
+      DefaultMutableTreeNode country = new DefaultMutableTreeNode("USA");
+      root.add(country);
+      DefaultMutableTreeNode state = new DefaultMutableTreeNode("California");
+      country.add(state);
+      DefaultMutableTreeNode city = new DefaultMutableTreeNode("San Jose");
+      state.add(city);
+      city = new DefaultMutableTreeNode("Cupertino");
+      state.add(city);

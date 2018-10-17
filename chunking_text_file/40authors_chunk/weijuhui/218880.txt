@@ -1,0 +1,10 @@
+		mViews.add(mPage2);
+		mViews.add(mPage3);
+		mPager.setAdapter(new ViewPagerAdapter());
+	}
+
+	/**
+	 * ViewPager适配器
+	 * 
+	 * @author rendongwei
+	 * 

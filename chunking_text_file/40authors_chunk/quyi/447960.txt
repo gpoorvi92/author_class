@@ -1,0 +1,10 @@
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetJvmMaxMem()).compareTo(other.isSetJvmMaxMem());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }
+    if (isSetJvmMaxMem()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.jvmMaxMem, other.jvmMaxMem);
+      if (lastComparison != 0) {

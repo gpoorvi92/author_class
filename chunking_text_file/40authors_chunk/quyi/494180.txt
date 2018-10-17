@@ -1,0 +1,10 @@
+    return this;
+  }
+
+  public void unsetCheckStopTime() {
+    this.checkStopTime = null;
+  }
+
+  /** Returns true if field checkStopTime is set (has been assigned a value) and false otherwise */
+  public boolean isSetCheckStopTime() {
+    return this.checkStopTime != null;

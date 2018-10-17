@@ -1,0 +1,10 @@
+    public boolean getCapStatus() throws JposException;
+
+    // Properties
+    public boolean getDrawerOpened() throws JposException;
+
+    // Methods
+    public void    openDrawer() throws JposException;
+    public void    waitForDrawerClose(int beepTimeout, int beepFrequency,
+                       int beepDuration, int beepDelay) throws JposException;
+

@@ -1,0 +1,6 @@
+    }
+
+    private final static int toByte(char c) {
+        return (byte) hexStr.indexOf(c);
+    }
+}

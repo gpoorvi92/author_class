@@ -1,0 +1,10 @@
+		this.count = count;
+	}
+
+
+	public String getServerIP() {
+		return serverIP;
+	}
+
+
+	public void setServerIP(String serverIP) {

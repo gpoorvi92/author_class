@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		/*
+		 * new Thread() {
+		 * 
+		 * @Override public void run() { for (int x = 0; x < 100; x++) {
+		 * System.out.println("hello" + x); } } }.start();
+		 * 
+		 * new Thread() {
+		 * 
+		 * @Override public void run() { for (int x = 0; x < 100; x++) {

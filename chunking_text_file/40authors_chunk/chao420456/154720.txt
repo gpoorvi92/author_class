@@ -1,0 +1,10 @@
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource() == jbt_trans){
+			String str = jtf_inputMess.getText();
+			str.trim();
+			jtf_inputMess.setText("");
+			if(str.equals("")){
+				JOptionPane.showMessageDialog(this, "信息不能为空");
+			}else{
+				SimpleDateFormat form = new SimpleDateFormat("yyyy-MM-dd  HH:mm");

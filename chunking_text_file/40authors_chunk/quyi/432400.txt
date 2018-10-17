@@ -1,0 +1,10 @@
+      if (struct.featuresCharacters != null) {
+        oprot.writeFieldBegin(FEATURES_CHARACTERS_FIELD_DESC);
+        {
+          oprot.writeListBegin(new org.apache.thrift.protocol.TList(org.apache.thrift.protocol.TType.STRING, struct.featuresCharacters.size()));
+          for (String _iter18 : struct.featuresCharacters)
+          {
+            oprot.writeString(_iter18);
+          }
+          oprot.writeListEnd();
+        }

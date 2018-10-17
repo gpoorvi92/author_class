@@ -1,0 +1,10 @@
+package preferences;
+
+import java.awt.EventQueue;
+import java.awt.event.*;
+import java.io.*;
+import java.util.prefs.*;
+import javax.swing.*;
+
+/**
+ * A program to test preference settings. The program remembers the frame position, size, and title.

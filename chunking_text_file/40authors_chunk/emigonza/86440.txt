@@ -1,0 +1,10 @@
+    public static final int CAT_PAYMENT_LUMP                 =  10;
+    public static final int CAT_PAYMENT_BONUS_1              =  21;
+    public static final int CAT_PAYMENT_BONUS_2              =  22;
+    public static final int CAT_PAYMENT_BONUS_3              =  23;
+    public static final int CAT_PAYMENT_BONUS_4              =  24;
+    public static final int CAT_PAYMENT_BONUS_5              =  25;
+    public static final int CAT_PAYMENT_INSTALLMENT_1        =  61;
+    public static final int CAT_PAYMENT_INSTALLMENT_2        =  62;
+    public static final int CAT_PAYMENT_INSTALLMENT_3        =  63;
+    public static final int CAT_PAYMENT_BONUS_COMBINATION_1  =  31;

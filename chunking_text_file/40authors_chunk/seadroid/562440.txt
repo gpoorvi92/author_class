@@ -1,0 +1,10 @@
+            alpha = 75;
+            titleColor = Color.GRAY;
+        }
+        viewHolder.title.setTextColor(titleColor);
+        viewHolder.subtitle.setTextColor(Color.GRAY);
+        if (android.os.Build.VERSION.SDK_INT >= 11) {
+            viewHolder.icon.setAlpha(alpha);
+        }
+
+        return view;

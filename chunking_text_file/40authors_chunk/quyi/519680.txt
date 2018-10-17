@@ -1,0 +1,10 @@
+    }
+
+    private static class modifyEngineConfig_resultStandardScheme extends StandardScheme<modifyEngineConfig_result> {
+
+      public void read(org.apache.thrift.protocol.TProtocol iprot, modifyEngineConfig_result struct) throws org.apache.thrift.TException {
+        org.apache.thrift.protocol.TField schemeField;
+        iprot.readStructBegin();
+        while (true)
+        {
+          schemeField = iprot.readFieldBegin();

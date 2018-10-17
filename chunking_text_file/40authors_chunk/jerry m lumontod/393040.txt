@@ -1,0 +1,10 @@
+
+						String mstrSLCode= rs.getString(1);
+						String mstrSLDesc= rs.getString(2);
+
+						moVector.addElement(new AcctData(mstrSLCode, mstrSLDesc));
+					}
+
+					rs.close();
+					st.close();
+					conn.close();

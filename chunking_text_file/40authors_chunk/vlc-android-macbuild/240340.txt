@@ -1,0 +1,10 @@
+
+        return null;
+    }
+
+    public static String getActivityLabel(Context context, ComponentName name) {
+        PackageManager pkgManager = context.getPackageManager();
+        if (pkgManager == null)
+            return null;
+
+        ActivityInfo activityInfo = getActivityInfo(pkgManager, name);

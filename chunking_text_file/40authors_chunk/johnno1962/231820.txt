@@ -1,0 +1,10 @@
+    }
+
+    public static String StringFieldStatic;
+    public String StringField;
+
+    public static String StringMethodStatic( String arg ) {
+        return arg;
+    }
+
+    public String StringMethod( String arg ) {

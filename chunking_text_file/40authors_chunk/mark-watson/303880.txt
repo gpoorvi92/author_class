@@ -1,0 +1,5 @@
+        System.out.println("Average fitness=" + sum +
+        		           " and best fitness for this generation:" +
+        		           chromosomes.get(0).getFitness());
+    }
+}

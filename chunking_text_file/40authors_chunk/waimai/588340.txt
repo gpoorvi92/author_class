@@ -1,0 +1,10 @@
+                layer.setBlockId(i);
+                layerMapper.insert(layer);
+            }
+        }
+    }
+
+    @Test
+    public void testInsertRoom() throws Exception {
+        for (int i = 35; i < 79; i++) {
+            for (int j = 1; j < 31; j++) {

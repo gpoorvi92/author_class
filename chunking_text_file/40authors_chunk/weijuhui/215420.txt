@@ -1,0 +1,10 @@
+                        });
+            }
+        }
+    }
+
+    /**
+     * Set the current time and update all of the child ScrollLayouts accordingly.
+     *
+     * @param calendar
+     */

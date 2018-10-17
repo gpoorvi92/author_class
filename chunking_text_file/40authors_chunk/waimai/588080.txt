@@ -1,0 +1,9 @@
+        BaseConditionVO vo = new BaseConditionVO();
+        vo.setMerchantId(4);
+        vo.setStatus("2");
+        Map<String, Object> map = saleCountService.saleCount(vo);
+        for (Map.Entry<String, Object> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+    }
+}

@@ -1,0 +1,10 @@
+  // Capabilities
+  public boolean getCapJamSensor() throws JposException;
+  public boolean getCapRealTimeData() throws JposException;
+
+  // Properties
+  public int     getCurrentService() throws JposException;
+  public void    setCurrentService(int currentService) throws JposException;
+  public boolean getRealTimeDataEnabled() throws JposException;
+  public void    setRealTimeDataEnabled(boolean bEnabled) throws JposException;
+  public int     getServiceCount() throws JposException;

@@ -1,0 +1,10 @@
+	protected void doRun() throws Exception {
+		try {
+			Runnable task = taskQueue.take();
+			task.run();
+		} finally {
+			terminationToken.reservations.decrementAndGet();
+		}
+
+	}
+

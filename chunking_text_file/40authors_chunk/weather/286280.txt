@@ -1,0 +1,10 @@
+                long createDay = createAtCalendar.getTime().getTime();
+                long currentDay = currentCalendar.getTime().getTime();
+                long dayTime = currentDay - createDay;
+                int day = (int) Math.floor(dayTime / DAY);
+                if (day == 0) {
+                    String today = context.getString(R.string.today);
+                    string = today + " " + createStr.substring(9);
+                } else if (day == 1) {
+                    String yesterday = context.getString(R.string.yesterday);
+                    string = yesterday + " " + createStr.substring(9);

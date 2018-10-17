@@ -1,0 +1,10 @@
+      }
+    }
+
+    public static class submitMission<I extends AsyncIface> extends org.apache.thrift.AsyncProcessFunction<I, submitMission_args, com.nercis.isscp.idl.Result> {
+      public submitMission() {
+        super("submitMission");
+      }
+
+      public submitMission_args getEmptyArgsInstance() {
+        return new submitMission_args();

@@ -1,0 +1,10 @@
+    private static final String HIBERNATE_CONFIG_TEMPLET = initConfitTemplate();
+    public static final String getConfitTemplate()
+    {
+        return HIBERNATE_CONFIG_TEMPLET;
+    }
+    private static final String initConfitTemplate()
+    {
+        InputStream in = null;
+        ByteArrayOutputStream out = null;
+        try

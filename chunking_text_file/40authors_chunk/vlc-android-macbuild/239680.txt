@@ -1,0 +1,10 @@
+        Segment segment = getSingleSegment();
+        if (segment == null || TextUtils.isEmpty(segment.mUrl))
+            return null;
+
+        return segment.mUrl;
+    }
+
+    public long getBitrate() {
+        long totalSize = 0;
+        long totalDuration = 0;

@@ -1,0 +1,10 @@
+    private ChannelGroup channelGroup = new DefaultChannelGroup();
+    public void addClientChannel(Channel channel)
+    {
+        channelGroup.add(channel);
+    }
+    public void shutdown()
+    {
+        if (null != bootstrap)
+            bootstrap.releaseExternalResources();
+    }

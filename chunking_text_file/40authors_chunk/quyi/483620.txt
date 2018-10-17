@@ -1,0 +1,10 @@
+              if (schemeField.type == org.apache.thrift.protocol.TType.STRING) {
+                struct.userAppId = iprot.readString();
+                struct.setUserAppIdIsSet(true);
+              } else { 
+                org.apache.thrift.protocol.TProtocolUtil.skip(iprot, schemeField.type);
+              }
+              break;
+            case 3: // STATUS
+              if (schemeField.type == org.apache.thrift.protocol.TType.I32) {
+                struct.status = com.nercis.isscp.idl.AppStatus.findByValue(iprot.readI32());

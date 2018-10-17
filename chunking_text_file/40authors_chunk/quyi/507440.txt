@@ -1,0 +1,10 @@
+  /** Returns true if field userAppId is set (has been assigned a value) and false otherwise */
+  public boolean isSetUserAppId() {
+    return this.userAppId != null;
+  }
+
+  public void setUserAppIdIsSet(boolean value) {
+    if (!value) {
+      this.userAppId = null;
+    }
+  }

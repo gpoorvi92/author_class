@@ -1,0 +1,10 @@
+			addMsgPanel.setVisibility(View.VISIBLE);
+			RelativeLayout.LayoutParams para = (RelativeLayout.LayoutParams) mainLayout
+					.getLayoutParams();
+			para.height = SystemUtil.SCREEN_HEIGHT - addPanelHeight;
+			mainLayout.setLayoutParams(para);
+			isAddVisible = true;
+		} else {
+			addMsgPanel.setVisibility(View.GONE);
+			RelativeLayout.LayoutParams para = (RelativeLayout.LayoutParams) mainLayout
+					.getLayoutParams();

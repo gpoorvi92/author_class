@@ -1,0 +1,10 @@
+      Properties defaultSettings = new Properties();
+      defaultSettings.put("left", "0");
+      defaultSettings.put("top", "0");
+      defaultSettings.put("width", "" + DEFAULT_WIDTH);
+      defaultSettings.put("height", "" + DEFAULT_HEIGHT);
+      defaultSettings.put("title", "");
+
+      settings = new Properties(defaultSettings);
+
+      if (propertiesFile.exists()) try

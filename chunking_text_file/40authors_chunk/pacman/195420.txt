@@ -1,0 +1,10 @@
+		FileUtils.forceMkdir(new File(destDir));
+		
+		testFile = FileHelper.combinePath(srcDir, "test.file");
+		File file = new File(testFile);
+		file.createNewFile();
+		
+		FileOutputStream output = new FileOutputStream(file);
+		output.write("test is not a test".getBytes());
+		output.flush();
+		output.close();

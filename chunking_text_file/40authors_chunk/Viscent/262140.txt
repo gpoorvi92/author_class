@@ -1,0 +1,10 @@
+ */
+public class ThreadSafeCounter {
+	private int counter = 0;
+
+	public void increment() {
+		synchronized (this) {
+			counter++;
+		}
+	}
+

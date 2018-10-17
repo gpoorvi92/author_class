@@ -1,0 +1,10 @@
+import java.awt.*;
+import java.awt.event.*;
+
+/**
+ * Sample application using Frame.
+ *
+ * @author 
+ * @version 1.00 07/08/09
+ */
+public class RVSFrame extends Frame {

@@ -1,0 +1,10 @@
+    private final String baseUrl;
+
+    public TelegramBotClient(OkHttpClient client, Gson gson, String baseUrl) {
+        this.client = client;
+        this.gson = gson;
+        this.baseUrl = baseUrl;
+    }
+
+    public <T extends BaseRequest, R extends BaseResponse> void send(final T request, final Callback<T, R> callback) {
+        client.newCall(createRequest(request)).enqueue(new okhttp3.Callback() {

@@ -1,0 +1,10 @@
+   {
+      return null;
+   }
+
+   public void setFeature(String name, boolean value)
+   {
+   }
+
+   public boolean getFeature(String name)
+   {

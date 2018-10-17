@@ -1,0 +1,10 @@
+    if (isSetPlots()) {
+      lastComparison = org.apache.thrift.TBaseHelper.compareTo(this.plots, other.plots);
+      if (lastComparison != 0) {
+        return lastComparison;
+      }
+    }
+    lastComparison = Boolean.valueOf(isSetJobPriority()).compareTo(other.isSetJobPriority());
+    if (lastComparison != 0) {
+      return lastComparison;
+    }

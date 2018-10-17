@@ -1,0 +1,10 @@
+        viewType.add(renderModes);
+        view.add(viewType);
+        saveDisplay = new JMenuItem("Save Display");
+
+        zoomIn = new JMenuItem("Zoom In");
+        zoomIn.setAccelerator(KeyStroke.getKeyStroke(
+                  KeyEvent.VK_PLUS, ActionEvent.CTRL_MASK));
+
+        zoomOut = new JMenuItem("Zoom Out");
+        zoomOut.setAccelerator(KeyStroke.getKeyStroke(

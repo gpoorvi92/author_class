@@ -1,0 +1,10 @@
+ * @author Cay Horstmann
+ */
+public class InverseEditorPanel extends JPanel
+{
+   private JButton button;
+   private PropertyEditorSupport editor;
+   private ImageIcon normalIcon = new ImageIcon(getClass().getResource("ChartBean_MONO_16x16.gif"));
+
+   public InverseEditorPanel(PropertyEditorSupport ed)
+   {

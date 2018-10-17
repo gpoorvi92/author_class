@@ -1,0 +1,10 @@
+import com.newweb.model.business.OrderLhjWinProp;
+import com.newweb.model.business.OrderOther;
+import com.newweb.model.business.OrderSmall;
+
+@SuppressWarnings("rawtypes")
+public interface OrderService {
+
+	/**
+	 * 添加订单服务
+	 * 会同时向数据库中写入该订单关联的铝窗、小见、不锈钢等数据

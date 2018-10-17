@@ -1,0 +1,10 @@
+		return ext;
+	}
+	/**
+	 * 设置图片扩展名。
+	 * @param ext
+	 * 图片扩展名。
+	 * */
+	public void setExt(String ext) {
+		this.ext = ext;
+	}

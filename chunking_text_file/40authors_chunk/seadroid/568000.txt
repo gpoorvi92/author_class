@@ -1,0 +1,9 @@
+            Log.d(DEBUG_TAG, "dstDir: " + dstDir);
+        }
+
+        if(isFinishActivity) {
+            Log.d(DEBUG_TAG, "finish!");
+            finish();
+        }
+    }
+}

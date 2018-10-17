@@ -1,0 +1,10 @@
+package com.googlecode.javaewah;
+
+/*
+ * Copyright 2009-2016, Daniel Lemire, Cliff Moon, David McIntosh, Robert Becho, Google Inc., Veronika Zenz, Owen Kaser, Gregory Ssi-Yan-Kai, Rory Graves
+ * Licensed under the Apache License, Version 2.0.
+ */
+
+/**
+ * This is a BitmapStorage that can be used to determine quickly if the result
+ * of an operation is non-trivial... that is, whether there will be at least on

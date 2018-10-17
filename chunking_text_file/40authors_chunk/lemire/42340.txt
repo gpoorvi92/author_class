@@ -1,0 +1,10 @@
+
+    private final EWAHIterator32 ewahIter;
+    private final Buffer32 buffer;
+    private int position;
+    private int runningLength;
+    private int word;
+    private int wordPosition;
+    private int wordLength;
+    private int literalPosition;
+    private boolean hasnext;

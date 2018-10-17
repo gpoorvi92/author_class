@@ -1,0 +1,10 @@
+class Code {
+
+	//构造代码块
+	{
+		System.out.println("AAAAA"); 
+	}
+
+	public Code() {
+		//System.out.println("AAAAA"); //假如这个代码的内容比较多，并且在每个构造中都会出现
+	}

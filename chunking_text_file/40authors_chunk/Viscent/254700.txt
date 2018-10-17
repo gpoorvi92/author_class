@@ -1,0 +1,10 @@
+		return task;
+	}
+
+	private void init(String ftpServer, String userName, String password)
+	    throws Exception {
+
+		FTPClientConfig config = new FTPClientConfig();
+		ftp.configure(config);
+
+		int reply;

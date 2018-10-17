@@ -1,0 +1,10 @@
+      break;
+
+    case CHECK_STOP_TIME:
+      if (value == null) {
+        unsetCheckStopTime();
+      } else {
+        setCheckStopTime((String)value);
+      }
+      break;
+

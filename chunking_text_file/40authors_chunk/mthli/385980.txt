@@ -1,0 +1,10 @@
+            {
+               int mode = 0;
+               if (bold.isSelected()) mode += Font.BOLD;
+               if (italic.isSelected()) mode += Font.ITALIC;
+               label.setFont(new Font("Serif", mode, FONTSIZE));
+            }
+         };
+
+      // add the check boxes
+

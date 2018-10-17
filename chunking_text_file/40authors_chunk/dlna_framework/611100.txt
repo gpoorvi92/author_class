@@ -1,0 +1,10 @@
+*	01/05/04
+*		- first revision.
+*	08/23/07
+*		- Thanks for Kazuyuki Shudo
+*		- Changed stop() to stop more safety using Thread::interrupt().
+*	
+******************************************************************/
+
+package org.cybergarage.util;
+

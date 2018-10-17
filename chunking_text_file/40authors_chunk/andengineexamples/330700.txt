@@ -1,0 +1,10 @@
+	private final double mLongitude;
+	private double mDistanceToUser;
+	private double mBearingToUser;
+
+	// ===========================================================
+	// Constructors
+	// ===========================================================
+
+	public City(final String pName, final double pLatitude, final double pLongitude) {
+		this.mName = pName;

@@ -1,0 +1,10 @@
+			// System.out.println(10 / 0);
+			fos = new FileOutputStream("fos.txt");
+		} catch (FileNotFoundException e) {
+			// e.printStackTrace();
+			System.out.println("创建文件失败");
+		}
+
+		try {
+			fos.write("hello".getBytes());
+		} catch (IOException e) {

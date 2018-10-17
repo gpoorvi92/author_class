@@ -1,0 +1,10 @@
+  private static final org.apache.thrift.protocol.TField RISK_TYPE_FIELD_DESC = new org.apache.thrift.protocol.TField("riskType", org.apache.thrift.protocol.TType.STRING, (short)7);
+  private static final org.apache.thrift.protocol.TField RISK_LEVEL_FIELD_DESC = new org.apache.thrift.protocol.TField("riskLevel", org.apache.thrift.protocol.TType.STRING, (short)8);
+  private static final org.apache.thrift.protocol.TField RULE_NO_FIELD_DESC = new org.apache.thrift.protocol.TField("ruleNo", org.apache.thrift.protocol.TType.STRING, (short)9);
+  private static final org.apache.thrift.protocol.TField CATEGORY_FIELD_DESC = new org.apache.thrift.protocol.TField("category", org.apache.thrift.protocol.TType.STRING, (short)10);
+  private static final org.apache.thrift.protocol.TField DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("description", org.apache.thrift.protocol.TType.STRING, (short)11);
+  private static final org.apache.thrift.protocol.TField LINE_NUM_FIELD_DESC = new org.apache.thrift.protocol.TField("lineNum", org.apache.thrift.protocol.TType.I32, (short)12);
+  private static final org.apache.thrift.protocol.TField COLUMN_NUM_FIELD_DESC = new org.apache.thrift.protocol.TField("columnNum", org.apache.thrift.protocol.TType.I32, (short)13);
+  private static final org.apache.thrift.protocol.TField RISK_DESCRIPTION_FIELD_DESC = new org.apache.thrift.protocol.TField("riskDescription", org.apache.thrift.protocol.TType.STRING, (short)14);
+
+  private static final Map<Class<? extends IScheme>, SchemeFactory> schemes = new HashMap<Class<? extends IScheme>, SchemeFactory>();

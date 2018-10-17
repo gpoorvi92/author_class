@@ -1,0 +1,10 @@
+        // Capabilities
+        makeProperty("CapActivateService"),
+        makeProperty("CapAddValue"),
+        makeProperty("CapCancelValue"),
+        makeProperty("CapCardSensor"),
+        makeProperty("CapCompareFirmwareVersion"),
+        makeProperty("CapDetectionControl"),
+        makeProperty("CapElectronicMoney"),
+        makeProperty("CapEnumerateCardServices"),
+        makeProperty("CapIndirectTransactionLog"),

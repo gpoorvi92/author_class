@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// 创建集合
+		TreeMap<Student, String> tm = new TreeMap<Student, String>(
+				new Comparator<Student>() {
+					@Override
+					public int compare(Student s1, Student s2) {
+						// 主要条件
+						int num = s2.getName().length() - s1.getName().length();
+						// 次要条件
+						int num2 = num == 0 ? s1.getName().compareTo(

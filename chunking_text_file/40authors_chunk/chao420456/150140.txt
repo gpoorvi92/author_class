@@ -1,0 +1,10 @@
+ * 		3:finally结束后，再次回到以前的返回路径，继续。所以返回的是40
+ */
+public class FinallyTest {
+	public static void main(String[] args) {
+		System.out.println(returnInt()); // 40
+	}
+
+	public static int returnInt() {
+		int n = 10;
+		try {

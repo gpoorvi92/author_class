@@ -1,0 +1,10 @@
+  public void unsetRuleName() {
+    this.ruleName = null;
+  }
+
+  /** Returns true if field ruleName is set (has been assigned a value) and false otherwise */
+  public boolean isSetRuleName() {
+    return this.ruleName != null;
+  }
+
+  public void setRuleNameIsSet(boolean value) {

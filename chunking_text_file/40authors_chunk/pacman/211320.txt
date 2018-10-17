@@ -1,0 +1,10 @@
+	/**
+	 * @return the allFiles
+	 */
+	public List<String> getAllFiles() {
+		return allFiles;
+	}
+	/**
+	 * @param allFiles the allFiles to set
+	 */
+	public void addFile(String file) {

@@ -1,0 +1,8 @@
+    * @param value the new value for the given index
+    */
+   public void setValue(int i, double value)
+   {
+      array[i] = value;
+      fireContentsChanged(this, i, i);      
+   }
+}

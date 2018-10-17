@@ -1,0 +1,10 @@
+		    @Override
+		    protected Counter initialValue() {
+			    return new Counter();
+		    }
+	    });
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+	    throws ServletException, IOException {
+

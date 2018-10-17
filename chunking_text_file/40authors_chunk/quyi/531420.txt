@@ -1,0 +1,10 @@
+      }
+    }
+
+    @Override
+    public void read(org.apache.thrift.protocol.TProtocol prot, UserApp struct) throws org.apache.thrift.TException {
+      TTupleProtocol iprot = (TTupleProtocol) prot;
+      BitSet incoming = iprot.readBitSet(11);
+      if (incoming.get(0)) {
+        struct.app_id = iprot.readString();
+        struct.setApp_idIsSet(true);

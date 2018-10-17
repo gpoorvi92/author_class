@@ -1,0 +1,10 @@
+//
+/////////////////////////////////////////////////////////////////////
+
+package jpos.services;
+
+import jpos.*;
+
+public interface MICRService14 extends MICRService13
+{
+  // Nothing new added for release 1.4

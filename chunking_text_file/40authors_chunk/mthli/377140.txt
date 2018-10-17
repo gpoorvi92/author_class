@@ -1,0 +1,10 @@
+               startButton.setEnabled(false);
+               final int MAX = 1000;
+
+               // start activity
+               activity = new SimulatedActivity(MAX);
+               activity.execute();
+               
+               // launch progress dialog
+               progressDialog = new ProgressMonitor(ProgressMonitorFrame.this,
+                     "Waiting for Simulated Activity", null, 0, MAX);

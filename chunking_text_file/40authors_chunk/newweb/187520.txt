@@ -1,0 +1,10 @@
+@Table(name="t_small")
+public class Small implements Cloneable{
+
+	private int ID;
+	private String name;
+	private String type;
+	private double lsprice;
+	private double pfprice;
+	private Supplier supplier;
+	private String norms;

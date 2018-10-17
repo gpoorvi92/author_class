@@ -1,0 +1,10 @@
+	@Transmit(key = "usage")
+	private double memUsage;
+	
+	/**
+	 * @return the ip
+	 */
+	public String getIp() {
+		return ip;
+	}
+	/**

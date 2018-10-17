@@ -1,0 +1,10 @@
+        } catch (Exception e) { }
+        TicTacToeMove mm = new TicTacToeMove();
+        mm.moveIndex = i;
+        return mm;
+    }
+    static public void main(String [] args) {
+        TicTacToePosition p = new TicTacToePosition();
+        TicTacToe ttt = new TicTacToe();
+        ttt.playGame(p, false);
+    }

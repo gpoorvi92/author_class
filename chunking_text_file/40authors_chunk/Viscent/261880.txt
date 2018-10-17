@@ -1,0 +1,10 @@
+				return null;
+			}
+		};
+
+		blocker.callWithGuard(guardedAction);
+	}
+
+	// 通过网络连接将告警信息发送给告警服务器
+	private void doSendAlarm(AlarmInfo alarm) {
+		// 省略其它代码

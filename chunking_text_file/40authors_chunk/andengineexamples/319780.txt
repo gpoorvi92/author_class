@@ -1,0 +1,10 @@
+		scene.attachChild(face1Reference);
+		scene.attachChild(face2Reference);
+
+		return scene;
+	}
+
+	// ===========================================================
+	// Methods
+	// ===========================================================
+

@@ -1,0 +1,10 @@
+            _elem15 = iprot.readString();
+            struct.enginePlots.add(_elem15);
+          }
+        }
+        struct.setEnginePlotsIsSet(true);
+      }
+    }
+  }
+
+}

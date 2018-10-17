@@ -1,0 +1,10 @@
+        m_delegate.reset();
+    }
+
+    /**
+     * 
+     */
+    public long skip(long n) throws IOException {
+        return m_delegate.skip(n);
+    }
+

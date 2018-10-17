@@ -1,0 +1,10 @@
+	public GradientControls(int type)
+	{
+		
+		
+
+		this.type = type;
+		
+		if(type == LINEAR_CONTROLS)
+		{
+			showLinearDialog();

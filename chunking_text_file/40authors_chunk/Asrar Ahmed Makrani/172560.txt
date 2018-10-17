@@ -1,0 +1,10 @@
+ 					
+ 								
+ 						int result2 = statement.executeUpdate(query2);
+ 				
+		 		if (result == 1 && result2 == 1)
+		 				
+		 				{
+		 				JOptionPane.showMessageDialog(null, "Insertion succesfull");
+		 				Video_no_text.setText("VD-");
+		            	Video_title_text.setText("");

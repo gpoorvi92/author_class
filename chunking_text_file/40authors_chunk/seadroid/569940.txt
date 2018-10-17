@@ -1,0 +1,10 @@
+        mContainer = container;
+        mContentResolver = cr;
+        mUri = uri;
+    }
+
+    public int getDegreesRotated() {
+        return 0;
+    }
+
+    public String getDataPath() {

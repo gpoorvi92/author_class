@@ -1,0 +1,10 @@
+ * @author: zhangxinyu
+ * @date: 2015年2月2日 下午5:25:20
+ */
+public final class FFMpeg {
+
+	private static boolean gJNILoaded = false;
+	
+	static {
+		
+		try {

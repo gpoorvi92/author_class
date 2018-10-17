@@ -1,0 +1,10 @@
+    DepthFirstSearchEngine currentSearchEngine = null;
+
+    public MazeDepthFirstSearch() {
+        try {
+          jbInit();
+        } catch (Exception e) {
+          System.out.println("GUI initilization error: " + e);
+        }
+        currentSearchEngine = new DepthFirstSearchEngine(10, 10);
+        repaint();

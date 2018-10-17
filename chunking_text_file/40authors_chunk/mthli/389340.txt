@@ -1,0 +1,10 @@
+      // populate menu
+
+      JMenu menu = new JMenu("Color");
+      menu.add(yellowAction);
+      menu.add(blueAction);
+      menu.add(redAction);
+      menu.add(exitAction);
+      JMenuBar menuBar = new JMenuBar();
+      menuBar.add(menu);
+      setJMenuBar(menuBar);

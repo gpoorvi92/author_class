@@ -1,0 +1,10 @@
+    public static final String DATABASE_NAME = "avatar.db";
+    private static final String AVATAR_TABLE_NAME = "Avatar";
+    
+    private static final String AVATAR_COLUMN_ID = "id";
+    private static final String AVATAR_COLUMN_SIGNATURE = "signature";
+    private static final String AVATAR_COLUMN_URL = "url";
+    private static final String AVATAR_COLUMN_MTIME = "mtime";
+    /*private static final String AVATAR_COLUMN_IS_DEFAULT = "is_default";*/
+
+    private static final String SQL_CREATE_AVATAR_TABLE =

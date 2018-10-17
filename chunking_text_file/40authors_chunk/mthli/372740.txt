@@ -1,0 +1,10 @@
+   {
+      return value;
+   }
+
+   /**
+    * Gets all nonstatic fields of this variable.
+    * @return an array list of variables describing the fields
+    */
+   public ArrayList<Field> getFields()
+   {

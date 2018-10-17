@@ -1,0 +1,9 @@
+            } else {
+                // 不处理全角空格，全角！到全角～区间外的字符
+                buf.append(ca[i]);
+            }
+        }
+        return buf.toString();
+    }
+
+}

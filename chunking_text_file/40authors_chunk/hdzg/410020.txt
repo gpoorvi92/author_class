@@ -1,0 +1,10 @@
+	}
+	//线程执行方法
+	public void run(){
+		while(flag){
+			//粮食衰减
+			foodCount++;
+			if(foodCount == 5){//满足条件就进行粮食衰减
+				foodCount = 0;
+				hero.setFood((int)(hero.getFood()*0.95));
+				ArrayList<CityDrawable> cityList = hero.getCityList();

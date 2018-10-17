@@ -1,0 +1,10 @@
+    RULE_NO((short)9, "ruleNo"),
+    CATEGORY((short)10, "category"),
+    DESCRIPTION((short)11, "description"),
+    LINE_NUM((short)12, "lineNum"),
+    COLUMN_NUM((short)13, "columnNum"),
+    RISK_DESCRIPTION((short)14, "riskDescription");
+
+    private static final Map<String, _Fields> byName = new HashMap<String, _Fields>();
+
+    static {

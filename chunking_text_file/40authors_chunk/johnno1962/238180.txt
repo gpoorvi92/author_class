@@ -1,0 +1,10 @@
+
+    HierarchyBoundsAdapterProxy( long swiftObject ) {
+        super( );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.event.HierarchyBoundsAdapter.ancestorMoved(java.awt.event.HierarchyEvent)
+
+    public native void __ancestorMoved( java.awt.event.HierarchyEvent e );
+

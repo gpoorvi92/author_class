@@ -1,0 +1,10 @@
+	// ===========================================================
+
+	// ===========================================================
+	// Methods
+	// ===========================================================
+	
+	@Override
+	public boolean isInSameCell(final ICellEntity pCellEntity) {
+		return this.mCellX == pCellEntity.getCellX() && this.mCellY == pCellEntity.getCellY();
+	}

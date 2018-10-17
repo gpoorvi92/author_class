@@ -1,0 +1,10 @@
+			g_y = ySlider.getValue();
+		} else if(e.getSource() == wSlider)
+		{
+			g_w = wSlider.getValue();
+		} else if(e.getSource() == hSlider)
+		{
+			g_h = hSlider.getValue();
+		}
+	
+		update();

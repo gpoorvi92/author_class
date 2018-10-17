@@ -1,0 +1,10 @@
+     * the specified word.
+     * @param word
+     */
+    void setLastWord(int word);
+
+    /**
+     * Appends the specified word to the end of the buffer
+     * @param word
+     */
+    void push_back(int word);

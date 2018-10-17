@@ -1,0 +1,10 @@
+      System.out.print(name);
+      System.out.print("(");
+      printTypes(m.getGenericParameterTypes(), "", ", ", "", false);
+      System.out.println(")");
+   }
+
+   public static void printTypes(Type[] types, String pre, String sep, String suf, 
+         boolean isDefinition)
+   {
+      if (pre.equals(" extends ") && Arrays.equals(types, new Type[] { Object.class })) return;

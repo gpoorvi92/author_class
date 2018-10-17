@@ -1,0 +1,10 @@
+            if (LOGGER.isLoggable(Level.SEVERE))
+                LOGGER.log(Level.SEVERE, "Problem with selector, worker will be stopped!", exception);
+        } finally {
+            if (selector != null) {
+                try {
+                    selector.close();
+                } catch (IOException exception) {
+                    if (LOGGER.isLoggable(Level.WARNING))
+                        LOGGER.log(Level.WARNING, "Could not close selector properly.", exception);
+                }

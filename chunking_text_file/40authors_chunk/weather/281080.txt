@@ -1,0 +1,10 @@
+                        if (Math.abs(subY) < Math.abs(subX)) {
+                            enableParent = true;
+                        }
+                        break;
+                    case LeftOnly:
+                        if (subX < 0) {
+                            enableParent = true;
+                        }
+                        break;
+                    case RightOnly:

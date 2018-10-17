@@ -1,0 +1,10 @@
+            4. Let j = i, search from A[j] to A[end] to find the first elem which is larger than A[i-1], '2' here.
+            5. Swap the elem A[j] with A[i-1].
+            Finally, the next permutation is {2,1,3}.
+ */
+
+public class Solution {
+    public void nextPermutation_1(int[] num) {
+        int last = num.length - 1;
+        int i = last;
+        while (i >0 && num[i - 1] >= num [i]) --i;

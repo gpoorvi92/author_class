@@ -1,0 +1,10 @@
+    {
+        Comparable greatest = null;
+        Enumeration elements = comparables.elements();
+
+        while( elements.hasMoreElements() )
+        {
+            Comparable element = (Comparable)elements.nextElement();
+
+            if( greatest != null )
+            {

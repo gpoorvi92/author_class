@@ -1,0 +1,10 @@
+            return fromJson(jsonStringFromRawFile(context, fileId), clazz);
+        } catch (Exception e) {
+            LogUtil.e(e);
+            return null;
+        }
+    }
+
+    public <T> T jsonObjectFromRawFile(Context context, int fileId, Type javaType) {
+        try {
+            return fromJson(jsonStringFromRawFile(context, fileId), javaType);

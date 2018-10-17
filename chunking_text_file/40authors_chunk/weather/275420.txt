@@ -1,0 +1,10 @@
+
+    return httpResponse;
+  }
+
+  private final HttpParams params = new AbstractHttpParams() {
+    @Override public Object getParameter(String name) {
+      if (name.equals(ConnRouteParams.DEFAULT_PROXY)) {
+        Proxy proxy = client.getProxy();
+        if (proxy == null) {
+          return null;

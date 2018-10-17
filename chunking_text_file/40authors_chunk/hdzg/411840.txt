@@ -1,0 +1,10 @@
+				switch(status){
+				case 0://有木可伐时玩家确认伐木
+					tempHero.heroSkill.get(LUMBER).useSkill(result);
+					break;
+				case 1://无木可伐时玩家确认放弃
+					break;
+				}
+				recoverGame();	//恢复游戏状态
+			}
+			else if(x>DIALOG_BTN_START_X+DIALOG_BTN_SPAN && x<DIALOG_BTN_START_X+DIALOG_BTN_SPAN+DIALOG_BTN_WIDTH

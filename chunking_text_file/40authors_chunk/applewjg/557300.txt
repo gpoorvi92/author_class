@@ -1,0 +1,10 @@
+ Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut.
+
+ Solution: dp.
+ */
+public class Solution {
+    public int minCut(String s) {
+        int n = s.length();
+        int[] dp = new int[n+1];
+        dp[n] = -1;
+        boolean[][] isP = new boolean[n][n];

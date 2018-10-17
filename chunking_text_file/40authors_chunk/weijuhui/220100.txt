@@ -1,0 +1,10 @@
+     * @param context
+     * @param isCenterView true if the element is the centered view in the ScrollLayout
+     * @param topTextSize	text size of the top TextView in dps
+     * @param bottomTextSize	text size of the bottom TextView in dps
+     * @param lineHeight	LineHeight of the top TextView
+     */
+    protected void setupView(Context context, boolean isCenterView, int topTextSize, int bottomTextSize, float lineHeight) {
+        setOrientation(VERTICAL);
+        topView = new TextView(context);
+        topView.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.BOTTOM);

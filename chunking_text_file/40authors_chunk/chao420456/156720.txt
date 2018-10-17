@@ -1,0 +1,10 @@
+		Collection<?> c4 = new ArrayList<Object>();
+		System.out.println("--------------------");
+
+		// ? extends E
+		Collection<? extends Animal> c5 = new ArrayList<Animal>();
+		Collection<? extends Animal> c6 = new ArrayList<Dog>();
+		Collection<? extends Animal> c7 = new ArrayList<Cat>();
+		// Collection<? extends Animal> c8 = new ArrayList<Object>();
+		System.out.println("--------------------");
+

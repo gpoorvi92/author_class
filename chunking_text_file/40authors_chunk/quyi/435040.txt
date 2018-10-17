@@ -1,0 +1,10 @@
+    List<SystemResources> systemResources,
+    List<HardwareResources> hardwareResources,
+    String checkEndDate)
+  {
+    this();
+    this.apkMD5 = apkMD5;
+    this.sensitive = sensitive;
+    this.autoRunMonitor = autoRunMonitor;
+    this.fileOperate = fileOperate;
+    this.networkPacket = networkPacket;

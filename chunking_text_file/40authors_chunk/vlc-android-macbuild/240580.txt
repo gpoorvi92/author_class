@@ -1,0 +1,10 @@
+        mActivity = activity;
+        mTabHost = tabHost;
+        mContainerId = containerId;
+        mTabHost.setOnTabChangedListener(this);
+    }
+
+    public void addTab(TabHost.TabSpec tabSpec, Class<?> clss, Bundle args) {
+        tabSpec.setContent(new DummyTabFactory(mActivity));
+        String tag = tabSpec.getTag();
+

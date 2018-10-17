@@ -1,0 +1,10 @@
+
+    @Override
+    public synchronized boolean isDone() {
+        return mResultReceived || mException != null || isCancelled();
+    }
+
+    @Override
+    public synchronized void onResponse(T response) {
+        mResultReceived = true;
+        mResult = response;

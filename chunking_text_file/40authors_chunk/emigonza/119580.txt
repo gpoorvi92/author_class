@@ -1,0 +1,3 @@
+  public boolean getZeroValid() throws JposException;
+  public void    setZeroValid(boolean zeroValid) throws JposException;
+}

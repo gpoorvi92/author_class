@@ -1,0 +1,10 @@
+    public int calculateMinimumHP(int[][] dungeon) {
+        int M = dungeon.length;
+        if (M == 0) return 0;
+        int N = dungeon[0].length;
+        int[][] dp = new int[M][N];
+        dp[M-1][N-1] = 1 - Math.min(0, dungeon[M-1][N-1]);
+        for (int i = M - 2; i >= 0; --i) {
+            if (dp[i+1][N-1] - dungeon[i][N-1] <= 0) dp[i][N-1] = 1;
+            else dp[i][N-1] = dp[i+1][N-1] - dungeon[i][N-1]; 
+        }

@@ -1,0 +1,10 @@
+        menuBar.add(fileMenu);
+        frame.setJMenuBar(menuBar);
+    
+        frame.getContentPane().add(BorderLayout.CENTER, mainPanel);
+        frame.setSize(500,600);
+        frame.setVisible(true);        
+    }
+
+
+    public class NextCardListener implements ActionListener {

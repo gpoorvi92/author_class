@@ -1,0 +1,10 @@
+/**
+ * (c) 2010 Nicolas Gramlich
+ * (c) 2011 Zynga
+ *
+ * @author Nicolas Gramlich
+ * @since 20:24:17 - 27.06.2010
+ */
+public class AttachDetachBenchmark extends BaseBenchmark {
+	// ===========================================================
+	// Constants

@@ -1,0 +1,10 @@
+		return SSDP.getLeaseTime(getCacheControl());
+	}
+
+	////////////////////////////////////////////////
+	//	toString
+	////////////////////////////////////////////////
+
+	public String toString()
+	{
+		return new String(getData());

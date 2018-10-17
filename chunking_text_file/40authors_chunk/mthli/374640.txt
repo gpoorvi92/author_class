@@ -1,0 +1,10 @@
+   private JButton parseButton = new JButton("Parse");
+   private JTextField numberText = new JTextField(30);
+   private JRadioButton numberRadioButton = new JRadioButton("Number");
+   private JRadioButton currencyRadioButton = new JRadioButton("Currency");
+   private JRadioButton percentRadioButton = new JRadioButton("Percent");
+   private ButtonGroup rbGroup = new ButtonGroup();
+   private NumberFormat currentNumberFormat;
+   
+   public NumberFormatFrame()
+   {      

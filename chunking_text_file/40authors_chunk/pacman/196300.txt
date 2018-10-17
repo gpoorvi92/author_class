@@ -1,0 +1,10 @@
+	 * @return
+	 * @see com.yeshj.pacman.jms.IMQFactory#getReceiver(com.yeshj.pacman.jms.QueueType)
+	 */
+	@Override
+	public IMQReceiver getReceiver(QueueType qtype) throws MQException{
+
+		String destName = map.get(qtype);
+		
+		try {
+			

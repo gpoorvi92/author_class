@@ -1,0 +1,10 @@
+						info.setCpuNice(Double.valueOf(
+								item.substring(0, item.indexOf('%')))
+								.doubleValue());
+
+						if (!fragFormat) {
+							token.nextToken();
+						}
+						item = token.nextToken(); // idle
+						info.setCpuIdle(Double.valueOf(
+								item.substring(0, item.indexOf('%')))

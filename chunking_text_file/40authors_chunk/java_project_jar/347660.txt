@@ -1,0 +1,10 @@
+    }
+
+    public transient BOMInputStream(InputStream delegate, ByteOrderMark boms[])
+    {
+        this(delegate, false, boms);
+    }
+
+    public transient BOMInputStream(InputStream delegate, boolean include, ByteOrderMark boms[])
+    {
+        super(delegate);

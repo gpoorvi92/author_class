@@ -1,0 +1,10 @@
+      }
+    }
+
+  }
+
+  public static class modifyEngineConfig_args implements org.apache.thrift.TBase<modifyEngineConfig_args, modifyEngineConfig_args._Fields>, java.io.Serializable, Cloneable, Comparable<modifyEngineConfig_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("modifyEngineConfig_args");
+
+    private static final org.apache.thrift.protocol.TField PROPERTY_NAME_FIELD_DESC = new org.apache.thrift.protocol.TField("propertyName", org.apache.thrift.protocol.TType.STRING, (short)1);
+    private static final org.apache.thrift.protocol.TField PROPERTY_VALUE_FIELD_DESC = new org.apache.thrift.protocol.TField("propertyValue", org.apache.thrift.protocol.TType.STRING, (short)2);

@@ -1,0 +1,10 @@
+		System.out.println("a="+a+",b="+b);
+
+		//怎么做呢?
+		//方式1：使用第三方变量。开发中常用此方案。
+		/*
+		int temp = a;
+		a = b;
+		b = temp;
+		System.out.println("a="+a+",b="+b);
+		*/

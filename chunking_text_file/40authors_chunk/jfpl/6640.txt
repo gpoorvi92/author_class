@@ -1,0 +1,10 @@
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.record_voice);
+		Window dialogWindow = getWindow();
+		dialogWindow.setGravity(Gravity.CENTER);
+		tipTv = (TextView) findViewById(R.id.cancel_record_tip1);
+		volumeIv1 = (ImageView) findViewById(R.id.voice_volume1);
+		volumeIv2 = (ImageView) findViewById(R.id.voice_volume2);
+		volumeIv3 = (ImageView) findViewById(R.id.voice_volume3);
+		volumeArr = new ImageView[] { volumeIv1, volumeIv2, volumeIv3 };

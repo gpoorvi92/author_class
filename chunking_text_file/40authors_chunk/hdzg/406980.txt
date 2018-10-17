@@ -1,0 +1,10 @@
+		paint.setTextSize(18);//设置文字大小
+		canvas.drawText("确定", 142, 452, paint);
+		
+	}
+	
+	public boolean onTouchEvent(MotionEvent event) {
+		if(event.getAction() == MotionEvent.ACTION_DOWN){
+			int x = (int) event.getX();
+			int y = (int) event.getY();
+			if(x>200 && x<260 && y>140 && y<170){//背景音乐

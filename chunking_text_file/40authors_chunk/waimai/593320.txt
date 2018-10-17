@@ -1,0 +1,10 @@
+public class TestService {
+    @Autowired
+    private IMerchantService merchantService;
+
+    @Test
+    public void testInsertMerchant() throws Exception {
+        Merchant merchant = new Merchant();
+        merchant.setUsername("merchant1");
+        merchant.setStoreName("阿里郎台式餐厅");
+        merchant.setPassword("123456");

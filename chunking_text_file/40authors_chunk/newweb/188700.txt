@@ -1,0 +1,10 @@
+		}
+		return true;
+	}
+
+	@Override
+	public List<OrderBxgFdw> selectOrderBxgFdwsByOrderID(String orderid) {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_order_bxgfdws where orderID=?")
+				.addEntity(OrderBxgFdw.class);
+		return query.setString(0, orderid).list();
+	}

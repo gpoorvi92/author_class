@@ -1,0 +1,10 @@
+    public void loadStatusUpdate(double progress, String msg)
+    {
+        if (progress>=0)
+          this.progress = progress;
+
+        if (msg!=null)
+           this.msg = msg;
+
+        completed=false;
+

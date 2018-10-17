@@ -1,0 +1,10 @@
+      {
+         public void actionPerformed(ActionEvent event)
+         {
+            table.clearSelection();
+            table.setColumnSelectionAllowed(columnsItem.isSelected());
+            cellsItem.setSelected(table.getCellSelectionEnabled());
+         }
+      });
+      selectionMenu.add(columnsItem);
+

@@ -1,0 +1,10 @@
+  }
+
+  private static class HardwareTupleSchemeFactory implements SchemeFactory {
+    public HardwareTupleScheme getScheme() {
+      return new HardwareTupleScheme();
+    }
+  }
+
+  private static class HardwareTupleScheme extends TupleScheme<Hardware> {
+

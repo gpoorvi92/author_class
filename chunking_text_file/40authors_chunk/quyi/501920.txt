@@ -1,0 +1,10 @@
+      case 56:
+        return GET_PACKAGE_SIZE;
+      case 57:
+        return GET_TASKS;
+      case 58:
+        return GET_TOP_ACTIVITY_INFO;
+      case 59:
+        return GLOBAL_SEARCH;
+      case 60:
+        return HARDWARE_TEST;

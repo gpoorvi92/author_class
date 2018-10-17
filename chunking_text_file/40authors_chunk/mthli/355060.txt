@@ -1,0 +1,10 @@
+package logging;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import java.util.logging.*;
+import javax.swing.*;
+
+/**
+ * A modification of the image viewer program that logs various events.

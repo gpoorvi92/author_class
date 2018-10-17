@@ -1,0 +1,10 @@
+	@Column(columnDefinition="int default 0")
+	public int getBuycount() {
+		return buycount;
+	}
+	public void setBuycount(int buycount) {
+		this.buycount = buycount;
+	}
+	public Object clone(){
+		try {
+			Bxg bxg = (Bxg) super.clone();

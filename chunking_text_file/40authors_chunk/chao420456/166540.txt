@@ -1,0 +1,10 @@
+ * 		ArrayList
+ * 			添加功能，移除功能，判断功能，获取，长度
+ * 		HashSet
+ * 			添加功能，移除功能，判断功能，获取，长度
+ * 		HashMap
+ * 			添加功能，移除功能，判断功能，获取，长度
+ */
+public class HashtableDemo {
+	public static void main(String[] args) {
+		// HashMap<String, String> hm = new HashMap<String, String>();

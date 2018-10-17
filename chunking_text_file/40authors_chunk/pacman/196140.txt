@@ -1,0 +1,10 @@
+import com.yeshj.pacman.utils.StringHelper;
+
+/**
+ * TODO
+ * @Class: DefaultMQManager
+ * @author: zhangxinyu
+ * @date: 2014年12月17日 下午4:53:37
+ */
+public class DefaultMQFactory implements IMQFactory{
+

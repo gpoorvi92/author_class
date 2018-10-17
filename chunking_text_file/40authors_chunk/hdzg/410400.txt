@@ -1,0 +1,10 @@
+package wyf.ytl.view;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+import wyf.ytl.R;
+import wyf.ytl.R.drawable;
+import wyf.ytl.entity.Skill;

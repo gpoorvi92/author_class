@@ -1,0 +1,10 @@
+		face.registerUpdateHandler(physicsHandler);
+
+		scene.attachChild(face);
+
+		this.mDigitalOnScreenControl = new DigitalOnScreenControl(0, CAMERA_HEIGHT - this.mOnScreenControlBaseTextureRegion.getHeight(), this.mCamera, this.mOnScreenControlBaseTextureRegion, this.mOnScreenControlKnobTextureRegion, 0.1f, this.getVertexBufferObjectManager(), new IOnScreenControlListener() {
+			@Override
+			public void onControlChange(final BaseOnScreenControl pBaseOnScreenControl, final float pValueX, final float pValueY) {
+				physicsHandler.setVelocity(pValueX * 100, pValueY * 100);
+			}
+		});

@@ -1,0 +1,10 @@
+          struct.setUeIsSet(true);
+        }
+      }
+    }
+
+  }
+
+  public static class searchMission_args implements org.apache.thrift.TBase<searchMission_args, searchMission_args._Fields>, java.io.Serializable, Cloneable, Comparable<searchMission_args>   {
+    private static final org.apache.thrift.protocol.TStruct STRUCT_DESC = new org.apache.thrift.protocol.TStruct("searchMission_args");
+

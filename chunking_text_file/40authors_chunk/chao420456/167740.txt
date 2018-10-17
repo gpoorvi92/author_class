@@ -1,0 +1,10 @@
+		// ·´×ª
+		StringBuffer sb = new StringBuffer(s);
+		sb.reverse();
+		String ss = new String(sb);
+		// if (ss.equals(s)) {
+		// return true;
+		// } else {
+		// return false;
+		// }
+		return ss.equals(s);

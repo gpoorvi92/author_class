@@ -1,0 +1,10 @@
+				uri = url.getPath();
+				if (withParam == true) {
+					String queryStr = url.getQuery();
+					if (!queryStr.equals("")){
+						uri += "?" + queryStr;
+					}
+				}
+				if (uri.endsWith("/"))
+					uri = uri.substring(0,uri.length()-1);
+			}catch(Exception e){}

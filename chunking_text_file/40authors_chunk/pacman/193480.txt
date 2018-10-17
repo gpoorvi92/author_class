@@ -1,0 +1,10 @@
+	}
+	/**
+	 * @return the videoCodec
+	 */
+	public String getVideoCodec() {
+		return videoCodec;
+	}
+
+	/**
+	 * @return the videoHeight

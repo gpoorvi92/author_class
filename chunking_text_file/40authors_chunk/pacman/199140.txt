@@ -1,0 +1,10 @@
+		this.classId = classId;
+	}
+
+	/**
+	 * @return the lessonId
+	 */
+	public int getLessonId() {
+		return lessonId;
+	}
+

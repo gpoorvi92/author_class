@@ -1,0 +1,10 @@
+class ProgressMonitorFrame extends JFrame
+{
+   public static final int TEXT_ROWS = 10;
+   public static final int TEXT_COLUMNS = 40;
+
+   private Timer cancelMonitor;
+   private JButton startButton;
+   private ProgressMonitor progressDialog;
+   private JTextArea textArea;
+   private SimulatedActivity activity;

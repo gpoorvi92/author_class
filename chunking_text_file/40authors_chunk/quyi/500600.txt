@@ -1,0 +1,10 @@
+    }
+
+    boolean this_present_taskQueueLimit = true;
+    boolean that_present_taskQueueLimit = true;
+    if (this_present_taskQueueLimit || that_present_taskQueueLimit) {
+      if (!(this_present_taskQueueLimit && that_present_taskQueueLimit))
+        return false;
+      if (this.taskQueueLimit != that.taskQueueLimit)
+        return false;
+    }

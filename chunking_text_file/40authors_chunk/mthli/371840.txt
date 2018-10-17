@@ -1,0 +1,10 @@
+package regex;
+
+import java.util.*;
+import java.util.regex.*;
+
+/**
+   This program tests regular expression matching. Enter a pattern and strings to match, 
+   or hit Cancel to exit. If the pattern contains groups, the group boundaries are displayed 
+   in the match.
+   @version 1.02 2012-06-02

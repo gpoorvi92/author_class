@@ -1,0 +1,10 @@
+            {
+                result.setMsg("failed");
+            }
+            // syn 2 chat server
+        } catch (ParseException e)
+        {
+            result.setMsg("failed");
+            log.error("", e);
+            // resultCode.setResult(JsonResponse.Result.FAILED);
+        }

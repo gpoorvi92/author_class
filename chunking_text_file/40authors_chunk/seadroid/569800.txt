@@ -1,0 +1,10 @@
+        return task;
+    }
+
+    @Override
+    protected void onSaveTaskState(Bundle outState) {
+        SetPasswordTask task = (SetPasswordTask)getTask();
+        if (task != null) {
+            outState.putString(STATE_TASK_PASSWORD, task.password);
+        }
+    }

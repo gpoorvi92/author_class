@@ -1,0 +1,10 @@
+      {
+         try (Scanner in = new Scanner(file))
+         {
+            boolean found = false;
+            while (!found && in.hasNextLine())
+            {
+               String line = in.nextLine();
+               if (line.contains(keyword)) found = true;
+            }         
+            return found;

@@ -1,0 +1,10 @@
+
+    // Properties
+    public int     getCardState() throws JposException;
+    public int     getCharacterSet() throws JposException;
+    public void    setCharacterSet(int charSet) throws JposException;
+    public String  getCharacterSetList() throws JposException;
+    public int     getDataCount() throws JposException;
+    public boolean getDataEventEnabled() throws JposException;
+    public void    setDataEventEnabled(boolean dataEventEnabled)
+                       throws JposException;

@@ -1,0 +1,10 @@
+								rdate[i] = rs22.getDate("rent_date");
+								ddate[i] = rs22.getDate("due_date");
+									
+								i = i+1;
+								cnt1 = cnt1 - 1;
+									
+							}
+						
+							int j = 0;
+							while (cnt>0)

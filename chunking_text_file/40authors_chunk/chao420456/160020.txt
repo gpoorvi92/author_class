@@ -1,0 +1,10 @@
+package cn.itcast_05;
+
+/*
+ * 1:String,StringBuffer,StringBuilder的区别?
+ * A:String长度固定，StringBuffer和StringBuilder的长度可变。
+ * B:StringBuffer线程安全，效率低。StringBuilder线程不安全，效率高。
+ * 
+ * 2:StringBuffer和数组的区别
+ * A:StringBuffer的长度可变，可以存储任意数据类型，最终结果其实是一个字符串。
+ * B:数组长度固定，存储同一种数据类型的元素。

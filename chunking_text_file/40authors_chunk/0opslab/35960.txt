@@ -1,0 +1,10 @@
+        if (baifen.length() <= 0) {
+            baifen = "0";
+        }
+        if (busi == 0) {
+            baifen = "100";
+        }
+        logger.debug("相似像素数量：" + xiangsi + " 不相似像素数量：" + busi + " 相似率：" + Integer.parseInt(baifen) + "%");
+        return Integer.parseInt(baifen);
+
+

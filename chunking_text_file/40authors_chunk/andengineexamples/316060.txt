@@ -1,0 +1,10 @@
+		this.setCell(pCellEntity.getCellX(), pCellEntity.getCellY());
+	}
+
+	public void setCell(final int pCellX, final int pCellY) {
+		this.mCellX = pCellX;
+		this.mCellY = pCellY;
+		this.setPosition(this.mCellX * CELL_WIDTH, this.mCellY * CELL_HEIGHT);
+	}
+
+	// ===========================================================

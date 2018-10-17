@@ -1,0 +1,10 @@
+    /// public java.awt.Dialog(java.awt.Frame,java.lang.String,boolean,java.awt.GraphicsConfiguration)
+
+    DialogProxy( java.awt.Frame arg0, java.lang.String arg1, boolean arg2, java.awt.GraphicsConfiguration arg3 , long swiftObject ) {
+        super( arg0, arg1, arg2, arg3 );
+        this.swiftObject = swiftObject;
+    }
+
+    /// public void java.awt.Window.paint(java.awt.Graphics)
+
+    public native void __paint( java.awt.Graphics arg0 );

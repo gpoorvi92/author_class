@@ -1,0 +1,10 @@
+					return respXmlToObject(ArticleRespMessage.class, xml);
+				default: 
+					return null;
+			}
+		} catch (Exception e) {
+			logger.error("将XML转换成对象时异常：", e);
+			e.printStackTrace();
+		}
+		return null;
+	}

@@ -1,0 +1,10 @@
+				{
+					if(circle.contains(mousexy))
+					{
+						//try {
+	
+							
+							JOptionPane.showMessageDialog(this, "Game Over Silly ass speed increasing");
+							if(speed-10 > 0)
+								speed-=10;
+							else if(speed-1 > 0)

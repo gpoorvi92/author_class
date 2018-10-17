@@ -1,0 +1,10 @@
+		
+		
+		gp.curveTo(35, 75, 75, 75, 75, 100); 
+		
+		gp.curveTo(75, 120, 50, 120, 50, 100); 
+		
+		gp.curveTo(50, 90, 65, 90, 65, 100);*/
+		
+		float r = 100;
+		gp.moveTo((float)(r*Math.sin(0))+100, (float)(r*Math.cos(0))+100);

@@ -1,0 +1,10 @@
+            }
+        ); 
+        menuFile.add(menuFileExit);
+        menuBar.add(menuFile);
+        
+        setTitle("RVS");
+        setMenuBar(menuBar);
+        setSize(new Dimension(400, 400));
+        
+        // Add window listener.

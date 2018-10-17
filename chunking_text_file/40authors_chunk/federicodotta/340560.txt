@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public String getRemediationBackground()
+    {
+        return null;
+    }
+
+    @Override
+    public String getIssueDetail()

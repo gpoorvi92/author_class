@@ -1,0 +1,10 @@
+  {
+    return new PropertyDescriptor(propertyName, jpos.BillAcceptor.class);
+  }
+
+  public PropertyDescriptor[] getPropertyDescriptors()
+  {
+    try
+    {
+      PropertyDescriptor[] properties =
+      {

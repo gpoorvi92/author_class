@@ -1,0 +1,5 @@
+     * @return An indication of the content type of the message body. Available
+     * types are defined within this interface.
+     */
+    byte getContentType();
+}

@@ -1,0 +1,10 @@
+        
+        // filter for removing samples:
+        Remove rm = new Remove();
+        rm.setAttributeIndices("1");  // remove 1st attribute
+
+        // filtered classifier
+        FilteredClassifier fc = new FilteredClassifier();
+        fc.setFilter(rm);
+        fc.setClassifier(j48);
+        // train using stock_training_data.arff:

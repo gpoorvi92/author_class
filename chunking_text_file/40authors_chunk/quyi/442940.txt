@@ -1,0 +1,10 @@
+      }
+      if (struct.isSetDataChar()) {
+        oprot.writeString(struct.dataChar);
+      }
+      if (struct.isSetDataLength()) {
+        oprot.writeString(struct.dataLength);
+      }
+      if (struct.isSetOperateTime()) {
+        oprot.writeString(struct.operateTime);
+      }

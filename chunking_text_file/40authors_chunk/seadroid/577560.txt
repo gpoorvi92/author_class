@@ -1,0 +1,10 @@
+            PHOTOCACHE_COLUMN_PATH,
+            PHOTOCACHE_COLUMN_ACCOUNT
+            };
+
+    // Use only single dbHelper to prevent multi-thread issue and db is closed exception
+    // Reference
+    // http://stackoverflow.com/questions/2493331/what-are-the-best-practices-for-sqlite-on-android
+    private static CameraUploadDBHelper dbHelper = null;
+    private SQLiteDatabase database = null;
+

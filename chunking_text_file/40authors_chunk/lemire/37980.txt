@@ -1,0 +1,10 @@
+
+    /**
+     * virtually add many zeroes or ones.
+     *
+     * @param v      zeros or ones
+     * @param number how many to words add
+     */
+    @Override
+    public void addStreamOfEmptyWords(boolean v, int number) {
+        if (v) {

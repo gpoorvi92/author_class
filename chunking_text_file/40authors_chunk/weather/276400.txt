@@ -1,0 +1,10 @@
+                activity.overridePendingTransition(R.anim.present_up, R.anim.present_back_disappear);
+                break;
+            //由上向下
+            case PRESENT_DOWN:
+                activity.overridePendingTransition(R.anim.present_back_appear, R.anim.present_down);
+                break;
+            case NONE:
+                activity.overridePendingTransition(0, 0);
+                break;
+            case GROW_FADE:

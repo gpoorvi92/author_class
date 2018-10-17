@@ -1,0 +1,10 @@
+*	01/05/03
+*		- first revision
+*	10/20/04
+*		- Theo Beisch <theo.beisch@gmx.de>
+*		- Fixed the following methods to use HOUR_OF_DAY instead of HOUR.
+*			getHour(), getDateString() getTimeString()
+*		- Fixed getInstance() to return GMT instance.
+*
+******************************************************************/
+

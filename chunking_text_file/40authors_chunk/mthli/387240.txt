@@ -1,0 +1,10 @@
+            i++;
+         }
+         else if (builder.charAt(i) == '\t')
+         {
+            builder.replace(i, i + 1, "\\t");
+            i++;
+         }
+      }
+      if (node instanceof CDATASection) builder.insert(0, "CDATASection: ");
+      else if (node instanceof Text) builder.insert(0, "Text: ");

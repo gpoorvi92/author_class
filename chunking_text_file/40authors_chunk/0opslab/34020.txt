@@ -1,0 +1,10 @@
+     * 整型与字节数组的转换
+     */
+    public final static byte[] intToByte(int i) {
+        byte[] bt = new byte[4];
+        bt[0] = (byte) (0xff & i);
+        bt[1] = (byte) ((0xff00 & i) >> 8);
+        bt[2] = (byte) ((0xff0000 & i) >> 16);
+        bt[3] = (byte) ((0xff000000 & i) >> 24);
+        return bt;
+    }

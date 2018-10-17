@@ -1,0 +1,10 @@
+ * <tr>
+ * <td> <em>XML_ENCODING_DECL</em> </td>
+ * <td> <tt>"&lt;?xml" VersionInfo  "encoding" "=" <b>&lt;EncName&gt;</b></tt>
+ * </td>
+ * <td> XML </td>
+ * <td> <a target="_blank"
+ * href="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-prolog-dtd"> Extensible
+ * Markup Language (XML) 1.0 (Third Edition)</a> Chapter 2.8 </td>
+ * </tr>
+ * </table>

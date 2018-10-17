@@ -1,0 +1,10 @@
+    }
+
+    private Map<String, Object> getSaleCountMap(String status) {
+        Map<String, Object> map = new LinkedHashMap<String, Object>();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd");
+        if (status == null || "1".equals(status)) {
+            for (int i = 6; i >= 0; i--) {
+                Calendar calendar = Calendar.getInstance();
+                calendar.add(Calendar.DAY_OF_YEAR, -i);
+                map.put(dateFormat.format(calendar.getTime()), 0);

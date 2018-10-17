@@ -1,0 +1,10 @@
+                "Invalid property remotePort should be <proxy name>.localPort|remotePort|remoteHost");
+        properties.setProperty("remotePort", "X");
+
+        TcpProxyConfigParser.parse(properties);
+    }
+
+    @Test
+    public void shouldFailWhenParseEmpty() {
+        expectedException.expect(IllegalArgumentException.class);
+        expectedException.expectMessage("Please specify at least one proxy.");

@@ -1,0 +1,10 @@
+/*
+ * Muestra la tabla de multiplicar de un número introducido por teclado.
+ *
+ * @author Costy
+ */
+import java.util.Scanner;
+public class TablaMultiplicacionConWhile {
+    public static void main(String[] args){
+        Scanner tecla = new Scanner(System.in);
+        

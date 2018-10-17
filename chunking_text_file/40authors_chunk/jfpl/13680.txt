@@ -1,0 +1,10 @@
+							break;
+						default:
+							break;
+						}
+					}
+				}).show();
+	}
+
+	public static void showChatLongClickTextDialog(final AutoActivity ctx,
+			final ListView chatList, final ProgressBar pb, final ImageView iv,

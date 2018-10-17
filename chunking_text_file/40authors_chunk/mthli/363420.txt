@@ -1,0 +1,10 @@
+   public boolean isDataFlavorSupported(DataFlavor flavor)
+   {
+      return DataFlavor.stringFlavor.equals(flavor)
+            || "application".equals(flavor.getPrimaryType())
+            && "x-java-serialized-object".equals(flavor.getSubType())
+            && flavor.getRepresentationClass().isAssignableFrom(obj.getClass());
+   }
+
+   public Object getTransferData(DataFlavor flavor) throws UnsupportedFlavorException
+   {

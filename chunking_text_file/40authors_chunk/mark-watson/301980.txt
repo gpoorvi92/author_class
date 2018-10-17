@@ -1,0 +1,10 @@
+      for (int n=0; n<num; n++) {
+        Node data = item_data.item(n);
+        String name = data.getNodeName();
+        if (name.equals("title") || name.equals("description") ||
+            name.equals("link")) {
+          new_item.put(name, data.getTextContent());
+        }
+        if (name.equals("nutch:cache")) {
+          new_item.put("cache_uri", data.getTextContent());
+        }

@@ -1,0 +1,10 @@
+   {
+      this.directory = directory;
+      this.keyword = keyword;
+      this.pool = pool;
+   }
+
+   public Integer call()
+   {
+      count = 0;
+      try

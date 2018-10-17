@@ -1,0 +1,10 @@
+	 * 图片上传时间。
+	 * */
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+	/**
+	 *  获取上传用户ID。
+	 *  @return 上传用户ID。
+	 * */
+	public String getCreateUserId() {

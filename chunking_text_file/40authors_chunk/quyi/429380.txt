@@ -1,0 +1,10 @@
+  public boolean isSetUpdate() {
+    return this.update != null;
+  }
+
+  public void setUpdateIsSet(boolean value) {
+    if (!value) {
+      this.update = null;
+    }
+  }
+

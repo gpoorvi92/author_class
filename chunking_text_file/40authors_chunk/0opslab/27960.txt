@@ -1,0 +1,10 @@
+    }
+
+    public Object getFieldType() {
+        return fieldType;
+    }
+
+    public void setFieldType(Object fieldType) {
+        this.fieldType = fieldType;
+    }
+

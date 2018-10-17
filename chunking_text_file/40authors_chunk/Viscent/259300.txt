@@ -1,0 +1,10 @@
+				terminationToken.reservations.decrementAndGet();
+			}
+
+		}
+
+		// 根据指定文件生成全文搜索所需的索引文件
+		private void indexFile(File file) throws Exception {
+			// 省略其它代码
+
+			// 模拟生成索引文件的时间消耗

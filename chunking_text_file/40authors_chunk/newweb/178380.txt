@@ -1,0 +1,10 @@
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Bill> selectAllBills() {
+		Query query = sessionFactory.getCurrentSession().createSQLQuery("select * from t_bill").addEntity(Bill.class);
+		return query.list();
+	}
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public List<Integer> selectDistinctCustomerByDateACustomer(

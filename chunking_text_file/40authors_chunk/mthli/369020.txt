@@ -1,0 +1,10 @@
+         if (values.length > i + 1) s.append(", ");
+      }
+      if (values.length > 3) s.append("...");
+
+      g2.setPaint(Color.white);
+      g2.fill(box);
+      g2.setPaint(Color.black);
+      FontRenderContext context = g2.getFontRenderContext();
+      Rectangle2D stringBounds = g2.getFont().getStringBounds(s.toString(), context);
+      double w = stringBounds.getWidth();

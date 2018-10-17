@@ -1,0 +1,10 @@
+     double fraction;
+     int e;
+     // return dis.readDouble();
+       
+       is.read(data); // read the bytes of the double
+
+     //  reverseArray(data);
+        // long to avoid problems with missinterpretation of the sign bit from an int
+       fraction = ((unsignedByte(data[6]) & 0x0f) << 8) | unsignedByte(data[5]);
+       fraction *= 0x10000;

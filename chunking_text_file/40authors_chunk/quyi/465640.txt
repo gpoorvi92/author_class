@@ -1,0 +1,10 @@
+          optionals.set(1);
+        }
+        if (struct.isSetUe()) {
+          optionals.set(2);
+        }
+        oprot.writeBitSet(optionals, 3);
+        if (struct.isSetSuccess()) {
+          oprot.writeI32(struct.success.getValue());
+        }
+        if (struct.isSetIre()) {

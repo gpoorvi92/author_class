@@ -1,0 +1,10 @@
+		this.bmpSelf = bmpSelf;
+		this.width = width;
+		this.height = height;
+		this.col = col;
+		this.row = row;
+		this.refCol = refCol;
+		this.refRow = refRow;
+		this.noThrough = noThrough;
+		this.meetable = meetable;
+	}

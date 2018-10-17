@@ -1,0 +1,10 @@
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testManager() {
+
+		MessageManager manager = (MessageManager) factory.getBean("mq.manager");
+		if (manager == null) {
+			System.out.println("manager is null");
+		}

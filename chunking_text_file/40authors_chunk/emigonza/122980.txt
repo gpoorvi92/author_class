@@ -1,0 +1,10 @@
+public interface FiscalPrinterService18
+  extends FiscalPrinterService17
+{
+  // Capabilities
+  public boolean getCapStatisticsReporting() throws JposException;
+  public boolean getCapUpdateStatistics() throws JposException;
+
+  // Methods
+  public void    resetStatistics(String statisticsBuffer)
+                     throws JposException;

@@ -1,0 +1,10 @@
+    }
+
+    @Override
+    public void add(Admin admin) throws ServiceException {
+        Date now = new Date();
+        admin.setInsertDate(now);
+        admin.setUpdateDate(now);
+        admin.setPassword(DigestUtils.md5DigestAsHex("123456".getBytes()));
+        admin.setStatus(UserStatus.ACTIVE.toString());
+        if (adminMapper.insertSelective(admin) < 1) {

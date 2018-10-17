@@ -1,0 +1,10 @@
+    /**
+     * 
+     * @see Risk
+     */
+    RISK_LEVEL((short)4, "riskLevel"),
+    PAK((short)5, "pak"),
+    OBJ((short)6, "obj"),
+    FUNC((short)7, "func"),
+    RULE_DESCRIPTION((short)8, "ruleDescription");
+

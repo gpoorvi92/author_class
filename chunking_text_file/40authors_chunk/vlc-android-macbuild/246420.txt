@@ -1,0 +1,10 @@
+    };
+
+    /*---------------------------------
+     * getter
+     */
+    @SuppressWarnings("unused")
+    private Context getContext() {
+        return mWeakContext.get();
+    }
+

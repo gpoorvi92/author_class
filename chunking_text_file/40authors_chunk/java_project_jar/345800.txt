@@ -1,0 +1,10 @@
+    {
+        caseSensitivity = IOCase.SENSITIVE;
+    }
+
+    public NameFileComparator(IOCase caseSensitivity)
+    {
+        this.caseSensitivity = caseSensitivity != null ? caseSensitivity : IOCase.SENSITIVE;
+    }
+
+    public int compare(File file1, File file2)

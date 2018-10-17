@@ -1,0 +1,10 @@
+     */
+    public void save() throws Exception;
+
+    /**
+     * Tell the JposEntryRegistry to save the current entries to the file 
+     * specified.  Depending on the current JposEntryPopulator the file might
+     * be an XML or serialized or other file.
+     * @since 2.1.0
+     * @throws java.lang.Exception if any error occurs while saving or if the
+     * current populator does not support saving in a file

@@ -1,0 +1,10 @@
+            t = util.fromJson(jsonString, type);
+            return t;
+        } else {
+            return null;
+        }
+    }
+
+
+    /*
+   *保存数据到缓存

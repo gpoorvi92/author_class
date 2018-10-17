@@ -1,0 +1,10 @@
+    }
+    first = false;
+    if (isSetUsedPermissions()) {
+      if (!first) sb.append(", ");
+      sb.append("usedPermissions:");
+      if (this.usedPermissions == null) {
+        sb.append("null");
+      } else {
+        sb.append(this.usedPermissions);
+      }

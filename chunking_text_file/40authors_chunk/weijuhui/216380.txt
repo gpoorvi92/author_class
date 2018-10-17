@@ -1,0 +1,10 @@
+			break;
+		case Constant.ITEM_VALUE_LOCATION:
+			title.setText("编辑地点");
+			initKeywordsFlow(buildLocationKeyword());
+			break;
+		case Constant.ITEM_VALUE_DETAILS:
+			title.setText("编辑详情");
+			initKeywordsFlow(buildDetailsKeyword());
+			break;
+		default:

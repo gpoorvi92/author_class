@@ -1,0 +1,10 @@
+    public void    setTone2Volume(int tone2Volume) throws JposException;
+
+    // Methods
+    public void    clearOutput() throws JposException;
+    public void    sound(int numberOfCycles, int interSoundWait)
+                       throws JposException;
+    public void    soundImmediate() throws JposException;
+
+    // Event listener methods
+    public void    addDirectIOListener(DirectIOListener l);

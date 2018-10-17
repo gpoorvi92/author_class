@@ -1,0 +1,10 @@
+				_acd.putStringValue("image_path", file.getAbsolutePath());
+				list.add(_acd);
+			}
+		}
+		fillData(acd, getWindow().getDecorView());
+	}
+
+	public void imgSendBtnClick(View v) {
+		Intent i = new Intent();
+		i.putStringArrayListExtra("image_list", selectImageList);

@@ -1,0 +1,10 @@
+	/**
+	 * 设置调用接口凭证。
+	 * @param token
+	 * 	调用接口凭证。
+	 * */
+	public void setToken(AccessToken token) {
+		this.token = token;
+	}
+	/**
+	 * 获取普通用户openid。

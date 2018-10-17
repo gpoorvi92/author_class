@@ -1,0 +1,10 @@
+            System.out.println("run end");
+        } catch (InterruptedException e) {
+            System.out.println("先停止，再遇到了sleep！进入catch");
+            e.printStackTrace();
+        }
+    }
+}
+
+public class Run12_sleepAndinterrupt02 {
+    public static void main(String[] args) {

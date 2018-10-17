@@ -1,0 +1,10 @@
+			    new ArrayBlockingQueue<Runnable>(300));
+			attachment = new Attachment();
+			try {
+
+				// 附件文件，可根据实际情况修改！
+				URL url = CaseRunner.class
+				    .getClassLoader()
+				    .getResource(
+				        "io/github/viscent/mtpattern/ch8/activeobject/example/attachment.png");
+				File file = new File(url.getFile());

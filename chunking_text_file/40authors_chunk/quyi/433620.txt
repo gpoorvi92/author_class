@@ -1,0 +1,10 @@
+    case RSS:
+      return Integer.valueOf(getRss());
+
+    case VSS:
+      return Integer.valueOf(getVss());
+
+    }
+    throw new IllegalStateException();
+  }
+

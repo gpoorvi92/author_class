@@ -1,0 +1,10 @@
+				}
+
+				int lowerBound = (i - 1) * subTaskScale + 1;
+				i++;
+
+				return new Range(lowerBound, upperBound);
+			}
+
+		};
+		return tds;

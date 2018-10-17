@@ -1,0 +1,10 @@
+    public void addToUserApps(com.nercis.isscp.idl.UserApp elem) {
+      if (this.userApps == null) {
+        this.userApps = new ArrayList<com.nercis.isscp.idl.UserApp>();
+      }
+      this.userApps.add(elem);
+    }
+
+    public List<com.nercis.isscp.idl.UserApp> getUserApps() {
+      return this.userApps;
+    }

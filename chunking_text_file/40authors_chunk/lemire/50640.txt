@@ -1,0 +1,10 @@
+        }
+
+    }
+
+    /**
+     * @return true if there is no more data
+     */
+    public boolean hasNoData() {
+        return this.dead;
+    }

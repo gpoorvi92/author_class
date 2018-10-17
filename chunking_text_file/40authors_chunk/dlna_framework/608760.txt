@@ -1,0 +1,10 @@
+		setHeader(HTTP.NTS, value);
+	}
+
+	public String getNTS()
+	{
+		return getHeaderValue(HTTP.NTS);
+	}
+
+	////////////////////////////////////////////////
+	//	Location

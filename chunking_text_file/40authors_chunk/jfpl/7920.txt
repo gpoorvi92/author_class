@@ -1,0 +1,10 @@
+		BitmapFactory.decodeFile(filePath, options);
+		int width = options.outWidth;
+		int height = options.outHeight;
+		int maxWidth = SystemUtil.SCREEN_WIDTH * 2 / 3;
+		if (width > SystemUtil.SCREEN_WIDTH * 2 / 3) {
+			int scale = width / maxWidth + 1;
+			width = width / scale;
+			height = height / scale;
+		}
+		return new ImageSize(width, height);

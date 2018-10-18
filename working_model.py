@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
 
-train_dir = '/home/purvi/author_classification/data/train'
-validation_dir = '/home/purvi/author_classification/data/test'
+train_dir = 'author_class/text_to_images_conversion/final_data/train'
+validation_dir = 'author_class/text_to_images_conversion/final_data/test'
 image_size = 256
 
 from keras.applications import VGG16
@@ -37,7 +37,7 @@ model.add(vgg_conv)
 model.add(layers.Flatten())
 model.add(layers.Dense(512, activation='relu'))
 model.add(layers.Dropout(0.5))
-model.add(layers.Dense(2, activation='softmax'))
+model.add(layers.Dense(40, activation='softmax'))
 
 # Show a summary of the model. Check the number of trainable parameters
 model.summary()

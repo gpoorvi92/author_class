@@ -5,8 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
 
+<<<<<<< HEAD
 train_dir = 'author_class/text_to_images_conversion/final_data/train'
 validation_dir = 'author_class/text_to_images_conversion/final_data/test'
+=======
+train_dir = 'author_class/data/train'
+validation_dir = 'author_class/data/test'
+>>>>>>> a5cf20ff1d101aaf0ee513ab3a530babf4c09b14
 image_size = 256
 
 from keras.applications import VGG16
@@ -74,7 +79,7 @@ model.compile(loss='categorical_crossentropy',
 history = model.fit_generator(
       train_generator,
       steps_per_epoch=train_generator.samples/train_generator.batch_size ,
-      epochs=20,
+      epochs=2,
       validation_data=validation_generator,
       validation_steps=validation_generator.samples/validation_generator.batch_size)
 

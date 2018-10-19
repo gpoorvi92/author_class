@@ -5,13 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
 
-<<<<<<< HEAD
 train_dir = 'author_class/text_to_images_conversion/final_data/train'
 validation_dir = 'author_class/text_to_images_conversion/final_data/test'
-=======
-train_dir = 'author_class/data/train'
-validation_dir = 'author_class/data/test'
->>>>>>> a5cf20ff1d101aaf0ee513ab3a530babf4c09b14
 image_size = 256
 
 from keras.applications import VGG16

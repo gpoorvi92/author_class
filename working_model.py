@@ -1,5 +1,7 @@
 from __future__ import print_function
 import keras
+import os
+from keras.models import load_model
 from keras.preprocessing.image import ImageDataGenerator, load_img
 import numpy as np
 import matplotlib.pyplot as plt

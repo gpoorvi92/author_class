@@ -7,14 +7,14 @@ def grouper(n, iterable, fillvalue=None):
     args = [iter(iterable)] * n
     return izip_longest(fillvalue=fillvalue, *args)
 
-n = 10
+n = 25
 i=0
 
-for root, dirs, files in os.walk("/home/purvi/author_classification/chunking_text_file/40authors"):
+for root, dirs, files in os.walk("/home/purvi/author_class/chunking_text_file/40authors"):
     for dir in dirs:
 	print(os.path.join(root, dir))
         dir_path=os.listdir(os.path.join(root, dir))
-	mypath = os.path.join("/home/purvi/author_classification/chunking_text_file/40authors_chunk", dir)
+	mypath = os.path.join("/home/purvi/author_class/chunking_text_file/40authors_chunk_25", dir)
 	if not os.path.isdir(mypath):
    	 os.makedirs(mypath)
 	fold=(os.path.join(root, dir))

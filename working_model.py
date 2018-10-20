@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
 
-train_dir = 'author_class/text_to_images_conversion/final_data/train'
-validation_dir = 'author_class/text_to_images_conversion/final_data/test'
+train_dir = 'author_class/text_to_images_conversion/final_data_25/train'
+validation_dir = 'author_class/text_to_images_conversion/final_data_25/test'
 image_size = 256
 
 from keras.applications import VGG16
@@ -53,8 +53,8 @@ train_datagen = ImageDataGenerator(rescale=None)
 validation_datagen = ImageDataGenerator(rescale=None)
 
 # Change the batchsize according to your system RAM
-train_batchsize = 5
-val_batchsize = 5
+train_batchsize = 100
+val_batchsize = 100
 
 # Data Generator for Training data
 train_generator = train_datagen.flow_from_directory(
@@ -80,7 +80,7 @@ model.compile(loss='categorical_crossentropy',
 history = model.fit_generator(
       train_generator,
       steps_per_epoch=train_generator.samples/train_generator.batch_size ,
-      epochs=2,
+      epochs=10,
       validation_data=validation_generator,
       validation_steps=validation_generator.samples/validation_generator.batch_size)
 

@@ -11,11 +11,11 @@ PIXEL_OFF = 255  # PIL color to use for "off"
 
 def main():
 	
-	for root, dirs, files in os.walk('/home/purvi/author_classification/chunking_text_file/40authors_chunk'):
+	for root, dirs, files in os.walk('/home/purvi/author_class/chunking_text_file/40authors_chunk_25'):
 	    for dir in dirs:
 		print(os.path.join(root, dir))
 		dir_path=os.listdir(os.path.join(root, dir))
-		mypath = os.path.join("/home/purvi/author_classification/text_to_images_conversion/40authors_image", dir)
+		mypath = os.path.join("/home/purvi/author_class/text_to_images_conversion/40authors_image_25", dir)
 		print(mypath)
 		if not os.path.isdir(mypath):
 	   	 os.makedirs(mypath)

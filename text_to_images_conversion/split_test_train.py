@@ -9,12 +9,12 @@ from itertools import izip_longest
 train_per = 0.8
 test_per = 0.2
 
-for root, dirs, files in os.walk("/home/purvi/author_classification/text_to_images_conversion/40authors_image"):
+for root, dirs, files in os.walk("/home/purvi/author_class/text_to_images_conversion/40authors_image_25"):
     for dir in dirs:
 	print(os.path.join(root, dir))
         dir_path=os.path.join(root, dir)
-	mypath_train = os.path.join("/home/purvi/author_classification/text_to_images_conversion/final_data/train", dir)
-	mypath_test = os.path.join("/home/purvi/author_classification/text_to_images_conversion/final_data/test", dir)
+	mypath_train = os.path.join("/home/purvi/author_class/text_to_images_conversion/final_data_25/train", dir)
+	mypath_test = os.path.join("/home/purvi/author_class/text_to_images_conversion/final_data_25/test", dir)
 	if not os.path.isdir(mypath_train):
    	 os.makedirs(mypath_train)
 	if not os.path.isdir(mypath_test):

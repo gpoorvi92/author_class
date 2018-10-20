@@ -27,17 +27,23 @@ from keras import models
 from keras import layers
 from keras import optimizers
 
-# Create the model
-model = models.Sequential()
+saved_model_path = 'all_freezed.h5'
+exists = os.path.isfile(saved_model_path)
+if exists:
+    model = load_model(saved_model_path)
+    print ("Loading existing model")
+else:
+    # Create the model
+    model = models.Sequential()
 
-# Add the vgg convolutional base model
-model.add(vgg_conv)
+    # Add the vgg convolutional base model
+    model.add(vgg_conv)
 
-# Add new layers
-model.add(layers.Flatten())
-model.add(layers.Dense(512, activation='relu'))
-model.add(layers.Dropout(0.5))
-model.add(layers.Dense(40, activation='softmax'))
+    # Add new layers
+    model.add(layers.Flatten())
+    model.add(layers.Dense(512, activation='relu'))
+    model.add(layers.Dropout(0.5))
+    model.add(layers.Dense(40, activation='softmax'))
 
 # Show a summary of the model. Check the number of trainable parameters
 model.summary()
@@ -79,7 +85,7 @@ history = model.fit_generator(
       validation_steps=validation_generator.samples/validation_generator.batch_size)
 
 # Save the Model
-model.save('all_freezed.h5')
+model.save(saved_model_path)
 
 # Plot the accuracy and loss curves
 acc = history.history['acc']

@@ -6,7 +6,7 @@ n = 10  # chunk size
 
 train_per = 0.8
 test_per = 0.2
-main_folder = "/home/purvi/author_class/chunking_text_file/"     # change main folder acc to req
+main_folder = "../chunking_text_file/"     # change main folder acc to req
 root = main_folder + "40authors"                     # data set
 train_folder = main_folder + "40authors_test_train/train"
 test_folder = main_folder + "40authors_test_train/test"
@@ -33,13 +33,13 @@ for dir in dirs:
 		print(test_filenames)
 		print(filenames)
 		for fname in filenames:
-	    		srcpath = os.path.join(in_dir_path, fname)
+			srcpath = os.path.join(in_dir_path, fname)
 			destpath = os.path.join(mypath_train, fname)
-	    		shutil.copyfile(srcpath, destpath)
+			shutil.copyfile(srcpath, destpath)
 		for fname in test_filenames:
-	    		srcpath = os.path.join(in_dir_path, fname)
+			srcpath = os.path.join(in_dir_path, fname)
 			destpath = os.path.join(mypath_test, fname)
-	    		shutil.copyfile(srcpath, destpath)
+			shutil.copyfile(srcpath, destpath)
 
 #################################################### converting files into chunk #################################################
 from itertools import izip_longest

@@ -17,44 +17,44 @@ dst_train_folder =   main_folder + "40authors_test_train_image/train"
 dst_test_folder =   main_folder + "40authors_test_train_image/test"
 
 def main():
-	###########################################  train
-	for root, dirs, files in os.walk(src_train_folder):
-	    for dir in dirs:
-		print(os.path.join(root, dir))
-		dir_path=os.listdir(os.path.join(root, dir))
-		mypath = os.path.join(dst_train_folder, dir)
-		print(mypath)
-		if not os.path.isdir(mypath):
-	   	 os.makedirs(mypath)
-		 print("dir made")
-		fold=(os.path.join(root, dir))
-		for eachFile in dir_path:
-			if eachFile.endswith(".txt"):
-				f_path=fold+'/'+eachFile 
-				print(f_path)
-				image = text_image(f_path)
-				print(mypath)
-				image.save('{0}.png'.format(os.path.join(mypath,eachFile)))
+    ###########################################  train
+    for root, dirs, files in os.walk(src_train_folder):
+        for dir in dirs:
+        print(os.path.join(root, dir))
+        dir_path=os.listdir(os.path.join(root, dir))
+        mypath = os.path.join(dst_train_folder, dir)
+        print(mypath)
+        if not os.path.isdir(mypath):
+         os.makedirs(mypath)
+         print("dir made")
+        fold=(os.path.join(root, dir))
+        for eachFile in dir_path:
+            if eachFile.endswith(".txt"):
+                f_path=fold+'/'+eachFile
+                print(f_path)
+                image = text_image(f_path)
+                print(mypath)
+                image.save('{0}.png'.format(os.path.join(mypath,eachFile)))
 
-	###########################################  test
-	for root, dirs, files in os.walk(src_test_folder):
-	    for dir in dirs:
-		print(os.path.join(root, dir))
-		dir_path=os.listdir(os.path.join(root, dir))
-		mypath = os.path.join(dst_test_folder, dir)
-		print(mypath)
-		if not os.path.isdir(mypath):
-	   	 os.makedirs(mypath)
-		 print("dir made")
-		fold=(os.path.join(root, dir))
-		for eachFile in dir_path:
-			if eachFile.endswith(".txt"):
-				f_path=fold+'/'+eachFile 
-				print(f_path)
-				image = text_image(f_path)
-				print(mypath)
-				image.save('{0}.png'.format(os.path.join(mypath,eachFile)))
-			 		
+    ###########################################  test
+    for root, dirs, files in os.walk(src_test_folder):
+        for dir in dirs:
+        print(os.path.join(root, dir))
+        dir_path=os.listdir(os.path.join(root, dir))
+        mypath = os.path.join(dst_test_folder, dir)
+        print(mypath)
+        if not os.path.isdir(mypath):
+         os.makedirs(mypath)
+         print("dir made")
+        fold=(os.path.join(root, dir))
+        for eachFile in dir_path:
+            if eachFile.endswith(".txt"):
+                f_path=fold+'/'+eachFile
+                print(f_path)
+                image = text_image(f_path)
+                print(mypath)
+                image.save('{0}.png'.format(os.path.join(mypath,eachFile)))
+
 
 def text_image(text_path, font_path=None):
     """Convert text file to a grayscale image with black characters on a white background.
@@ -105,7 +105,7 @@ def text_image(text_path, font_path=None):
     #im_resized = image.resize(size, Image.ANTIALIAS)
     return image
     
-    	
+
 
 
 if __name__ == '__main__':

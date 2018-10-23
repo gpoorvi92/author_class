@@ -8,7 +8,7 @@ from PIL import Image
 
 PIXEL_ON = 0  # PIL color to use for "on"
 PIXEL_OFF = 255  # PIL color to use for "off"
-main_folder = "/home/purvi/author_class/chunking_text_file/"
+main_folder = "/home/purvi/author_class/voting/"
 
 ########################################################### Converting to images #######################################################
 src_train_folder =  main_folder + "40authors_test_train_chunk/train"

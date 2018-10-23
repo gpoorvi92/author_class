@@ -6,7 +6,7 @@ n = 10  # chunk size
 
 train_per = 0.8
 test_per = 0.2
-main_folder = "/home/purvi/author_class/chunking_text_file/"     # change main folder acc to req
+main_folder = "/home/purvi/author_class/voting/"     # change main folder acc to req
 root = main_folder + "40authors"                     # data set
 train_folder = main_folder + "40authors_test_train/train"
 test_folder = main_folder + "40authors_test_train/test"
@@ -96,7 +96,7 @@ for dir in dirs:
 					with open(os.path.join(dst_path, '{0}.txt').format(i * n), 'w') as fout:
 						fout.writelines(g)
 					with open('label_file', 'a') as f_label:
-						f_label.writelines( dir + " " + '{0}.txt'.format(i * n)+  " " + str(file_count) + "\n")
+						f_label.writelines(  '{0}.txt.png'.format(i * n)+  " " + dir + " " + str(file_count) + "\n")
 		
 
 

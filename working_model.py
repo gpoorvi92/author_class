@@ -6,9 +6,8 @@ from keras.preprocessing.image import ImageDataGenerator, load_img
 import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib inline
-
-train_dir = 'author_class/text_to_images_conversion/final_data_25/train'
-validation_dir = 'author_class/text_to_images_conversion/final_data_25/test'
+train_dir = 'author_class/colab/40authors_final_data_20/train'
+validation_dir = 'author_class/colab/40authors_final_data_20/test'
 image_size = 256
 
 from keras.applications import VGG16
